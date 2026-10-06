@@ -1,0 +1,9 @@
+### 24. 마음에 눌린 일이 있으면 며칠 동안 생각과 감정을 적어 보세요. 다만 치료로 기대하지는 마세요
+<!-- 成本标签: 钱=0 时间=少 毅力=否 收益=小 口径=时间 -->
+- 비용: 돈이 들지 않습니다. 연구에서 자주 쓰는 방식은 3~4회, 매회 15~20분 쓰기입니다. 괴로운 일 한 가지에 대해 가장 깊은 생각과 느낌까지 적습니다.
+- 쉽게: 괴로운 일을 적으면 평균적으로 조금 이득이 있습니다. 아주 작습니다. 합친 결론도 엇갈립니다. 무작위 대조시험만 모은 합산 2건은 효과가 없었습니다. 비용이 거의 없으니 시도해 볼 만합니다. 감정 문제가 무거우면 병원 대신으로 쓰지 마세요.
+- 이득: 무작위 배정 연구 146건을 합친 메타분석입니다. 사람들은 자기에게 중요한 일을 적거나 말했습니다. 평균 효과는 양수이고 유의하지만 아주 작습니다. 효과 크기 r = .075. 다른 분석은 무작위 대조시험만 30건 모았습니다. 신체 건강과 정신 건강 모두 유의한 효과가 없었습니다. 암 환자와 회복기 환자를 대상으로 합친 무작위 시험은 16건. 심리, 신체, 삶의 질 세 가지 모두 효과가 유의하지 않았습니다. 심리 부분은 g = 0.04, 95% 신뢰구간 -0.06~0.14.
+- 근거등급: B
+- 출처: Frattaroli J (2006). Experimental disclosure and its moderators: a meta-analysis. Psychological Bulletin. <https://doi.org/10.1037/0033-2909.132.6.823>；Mogk C, Otte S, Reinhold-Hurley B, Kröner-Herwig B (2006). Health effects of expressive writing on stressful or traumatic experiences - a meta-analysis. Psycho-Social Medicine. <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2736499/>；Zachariae R, O'Toole MS (2015). The effect of expressive writing intervention on psychological and physical health outcomes in cancer patients--a systematic review and meta-analysis. Psycho-Oncology. <https://doi.org/10.1002/pon.3802>
+- 비고: 논쟁 있음. 찬성 쪽은 146건의 합산으로 효과가 양수지만 작다고 봅니다. 반대 쪽은 무작위 대조시험만 모은 합산 2건으로 유의한 효과가 없다고 봅니다. 비용 칸의 횟수와 시간은 가장 초기의 실험 설계에서 가져왔습니다. 해당 내용이 실린 곳은 Mogk 논문 초록. 돈도 시간도 거의 안 들고 혼자서도 할 수 있습니다. 말할 사람이 없거나 말하고 싶지 않을 때 쓰세요. 기력을 잰 연구는 아닙니다. 이득을 시간 기준으로 분류한 것은 지은이입니다. 적을수록 괴로워지면 멈추고 109에 전화하세요(제1절 제25항, 자살예방상담전화 109). 2026-10-06 전화번호 확인(129.go.kr/109).
+

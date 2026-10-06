@@ -40,6 +40,8 @@
 
 ## 작업 파이프라인 (절 1개 단위)
 
+**원칙: 개별 항목(`###` 하나)은 항상 개별 서브에이전트(격리 컨텍스트)가 작업한다.** 절 전체를 한 컨텍스트에서 일괄 가공하지 않는다. 항목 단위 패스는 `node kr-harness/entry-pass.mjs <파일> --jobs=N`(항목마다 codex exec 1회)로 실행한다.
+
 1. **원문 정독**: `book/NN-*.md` 전체. 해당되면 `docs/核实记录`와 `docs/`의 장문도 읽는다 — 왜 그 근거를 썼는지 기록이 거기 있다.
 2. **치환 설계**: 항목마다 🔴/🟡/🟢를 분류한다. 🔴 항목의 조사 목록을 먼저 만든다.
 3. **조사**: [skills/kr-localizer/references/kr-sources.md](skills/kr-localizer/references/kr-sources.md)의 1차 출처 목록으로 검색·확인한다. 열람 URL과 확인일을 메모로 남긴다.

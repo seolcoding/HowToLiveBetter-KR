@@ -3,8 +3,10 @@
 34절 전체를 한국 현지화 완역하기 위한 다단계 파이프라인. **각 단계는 격리된 서브에이전트(독립 컨텍스트)에서 돈다.** 단계 사이는 파일로만 통신한다.
 
 ```
-S1 분석 → S2 조사 → S3 초역 → S4 문체(convert-b.mjs) → S5 검증(verify.mjs) → S6 윤문(astra) → S7 조립+보고
+S1 분석 → S2 조사 → S3 초역 → S4 문체(convert-b.mjs) → S5 검증(verify.mjs) → S6 윤문(astra·orca+codex) → S7 항목별 개선(entry-pass.mjs, 개별 항목=개별 서브에이전트) → S8 조립+보고
 ```
+
+**원칙(2026-10-06 사용자 확정): 개별 항목은 항상 개별 서브에이전트가 작업한다.** `node kr-harness/entry-pass.mjs <6-polished.md> --jobs=5` — 항목마다 codex exec 1회(격리 컨텍스트), 구조 검증 실패 시 재시도 후 원문 유지. 출력 `7-refined.md`(verify 우선순위 최상위, book-kr 조립 소스).
 
 레슨런과 운영 노하우: [LESSONS.md](LESSONS.md). 윤문 대기열: [polish-queue.md](polish-queue.md).
 

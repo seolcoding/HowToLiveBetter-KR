@@ -1,0 +1,9 @@
+### 3. 금연은 의지로만 버티지 말고 약부터 받으세요. 성공률이 두 배 넘게 오릅니다
+<!-- 成本标签: 钱=少 时间=少 毅力=些 收益=大 口径=死亡率 -->
+- 비용: 니코틴 패치와 검(껌)은 일반의약품이라 약국에서 살 수 있습니다. 치료는 보통 8~12주. 바레니클린과 부프로피온은 전문의약품이라 의사 처방이 필요합니다. 병·의원에서 국가 금연치료 지원사업을 쓰면 진료비 부담이 줄어듭니다. 이 돈은 줄어든 담뱃값과 대충 맞습니다.
+- 쉽게: 의지만으로는 대부분 실패합니다. 바레니클린을 먹은 사람은 위약을 먹은 사람보다 두 배 넘게 많이 끊습니다. 패치·검 같은 니코틴 대체제도 약 없이 버티는 것보다 50%쯤 성공률이 높습니다. 패치에 속효성 검을 더하면 20%쯤 더 오릅니다.
+- 이득: 무작위 시험 41개·17,395명을 합쳤습니다. 바레니클린군의 금연 성공률은 위약군의 2.32배입니다. RR 2.32, 95% CI 2.15–2.51. 이 범위가 믿을 수 있는 구간이며, 높은 확실성 근거입니다. 바레니클린의 성공률은 부프로피온보다도 높습니다(RR 1.36, 약 36% 높음). 니코틴 대체제 단일 제형보다도 높음(RR 1.25, 약 25% 높음). 니코틴 대체제와 약 없이 버티는 방법을 비교한 시험은 133개·64,640명. 대체제의 성공률이 약 55% 높습니다(RR 1.55, 95% CI 1.49–1.61). 패치에 검·로젠지 등 빨리 작용하는 제형을 더하면 성공률이 약 27% 높습니다. RR 1.27, 95% CI 1.17–1.37. 시험 16개·12,169명, 높은 확실성.
+- 근거등급: A
+- 출처: Livingstone-Banks J, Fanshawe TR, Thomas KH, et al. (2023). Nicotine receptor partial agonists for smoking cessation. Cochrane Database of Systematic Reviews, 5, CD006103. <https://doi.org/10.1002/14651858.CD006103.pub8>；Hartmann-Boyce J, Chepkin SC, Ye W, Bullen C, Lancaster T (2018). Nicotine replacement therapy versus control for smoking cessation. Cochrane Database of Systematic Reviews, 5, CD000146. <https://doi.org/10.1002/14651858.CD000146.pub5>；Theodoulou A, Chepkin SC, Ye W, et al. (2023). Different doses, durations and modes of delivery of nicotine replacement therapy for smoking cessation. Cochrane Database of Systematic Reviews, 6, CD013308. <https://doi.org/10.1002/14651858.CD013308.pub2>；국민건강보험공단 금연치료 지원사업 안내(국내 이용 경로). <https://www.nhis.or.kr/static/html/wbma/c/smkInfo_01.pdf>
+- 비고: 국내 금연약도 같은 세 종류입니다. 니코틴 대체제만 약국에서 살 수 있습니다. 바레니클린과 부프로피온은 처방이 필요합니다. 바레니클린은 옛 챔픽스로, 지금은 같은 성분의 제네릭을 씁니다. 바레니클린을 먹으면 구역질이 나거나 꿈이 많아지고 잠이 얕아질 수 있습니다. 정신과 병력이 있으면 의사에게 미리 말하세요. 니코틴 대체제는 보통 8~12주 씁니다. 제멋대로 끊지 말고 의사가 시키는 대로 줄이세요. 약은 금단 몇 주의 괴로움만 덜어줍니다. "피우고 싶어지는" 상황은 풀어주지 않습니다. 그러니 제4항(금연일 정하기), 제5항(보건소 금연클리닉)과 함께 쓰세요.
+

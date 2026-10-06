@@ -43,8 +43,8 @@ function longSentences(md) {
 
 function verifyRun(dir) {
   const cfg = jread(join(dir, 'config.json'));
-  // 6-polished.md(astra 윤문본)가 있으면 그것을 우선 검증 대상으로 삼는다.
-  const styledPath = existsSync(join(dir, '6-polished.md')) ? join(dir, '6-polished.md') : join(dir, '4-styled.md');
+  // 7-refined.md(항목별 개선본) > 6-polished.md(astra 윤문본) > 4-styled.md 순으로 검증 대상 선택.
+  const styledPath = ['7-refined.md', '6-polished.md', '4-styled.md'].map((f) => join(dir, f)).find((p) => existsSync(p)) ?? join(dir, '4-styled.md');
   const styled = read(styledPath);
   const res = { run: cfg.id || dir, chapter: cfg.chapter, issues: [], notes: [] };
 
@@ -53,8 +53,9 @@ function verifyRun(dir) {
     res.notes.push('4-styled.md/6-polished.md 없음 — S4/S6 미실행(세션 DB 장애 등)');
     return res;
   }
-  res.polished = styledPath.endsWith('6-polished.md');
-  if (res.polished) res.notes.push('astra 윤문본(6-polished.md) 기준 검증');
+  res.polished = styledPath.endsWith('6-polished.md') || styledPath.endsWith('7-refined.md');
+  if (styledPath.endsWith('7-refined.md')) res.notes.push('항목별 개선본(7-refined.md) 기준 검증');
+  else if (res.polished) res.notes.push('astra 윤문본(6-polished.md) 기준 검증');
   const orig = origFile(cfg.chapter);
   if (!orig) { res.verdict = '반려'; res.issues.push('원본 파일을 찾을 수 없음'); return res; }
   const omd = read(orig);
