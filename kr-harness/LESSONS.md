@@ -20,6 +20,12 @@ S1 분석 → S2 조사 → S3 초역 → S4 문체(convert-b.mjs) → S5 검증
 
 ## 장애와 폴백
 
+- **L10 — astra(codex) 실행은 orca CLI 경유로 확정** (2026-10-06, 사용자 지시 "오픈코드말고 orca cli로 코덱스"). 래퍼: `kr-harness/polish-codex.mjs`. 첫 실전에서 6실행 전량 윤문 성공(총 ~1,270문장, 긴 문장 ~557개 분할), 반려 0. codex는 AGENTS.md를 자동 로드해 규칙 파일을 잘 찾는다.
+- **L11 — orca CLI 삼각지대**:
+  1. `terminal create --command`·`--title`이 이 버전에선 무시된다 → **create(기본 셸) → `terminal send --text ... --enter` → 파일 폴링** 패턴으로 실행할 것.
+  2. 영구 pwsh 터미널은 `terminal wait --for exit`로 기다릴 수 없다(셸이 안 끝남) → `polish-exit.txt` 마커 폴링(10초 간격)으로 완료 판정.
+  3. Windows spawnSync `shell:true`에서 공백 인자는 직접 `"..."` 인용해야 CLI가 쪼개지 않는다.
+- **L12 — codex-cli 0.160 exec 플래그**: `--full-auto` 없음. `-s workspace-write -C <root> --output-last-message <file> -`(프롬프트는 stdin)이 정답.
 - **L3 — 세션 DB 동시성**: 태스크 7개 동시 실행까지 성공, 이후 `insert into session` 실패 지속(재시작 전 불가). 폴백 순서: ① 오케스트레이터가 직접 수행(소량) ② 결정론적 변환기(대량). opencode 재시작 후에는 태스크 재시도할 것.
 - **L4 — 결정론적 변환기 오류 3유형**(`convert-b.mjs` 후처리 FIXES로 교정):
   1. 명사+이다 축약: `두 가지다`→`두 가집니다` ❌ → `두 가지입니다`

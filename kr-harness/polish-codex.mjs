@@ -3,7 +3,7 @@
 //   node kr-harness/polish-codex.mjs R09 R13 [--force]   — orca 터미널에서 codex 실행(기본)
 //   node kr-harness/polish-codex.mjs R09 --direct        — codex exec 직접 실행(런타임 없을 때)
 //   node kr-harness/polish-codex.mjs __codex <run-dir>   — 내부 모드(터미널 안에서 호출됨)
-import { readdirSync, readFileSync, writeFileSync, existsSync, statSync } from 'node:fs';
+import { readdirSync, readFileSync, writeFileSync, existsSync, statSync, rmSync } from 'node:fs';
 import { join, resolve } from 'node:path';
 import { spawnSync } from 'node:child_process';
 
@@ -53,9 +53,18 @@ const codexExec = (dir) => {
   const promptPath = join(RUNS, dir, 'polish-prompt.md');
   const prompt = readFileSync(promptPath, 'utf8');
   const lastMsg = join(RUNS, dir, 'polish-last.txt');
-  const r = run('codex', ['exec', '--full-auto', '-C', ROOT, '--output-last-message', lastMsg, '-'], { input: prompt, shell: false });
-  writeFileSync(join(RUNS, dir, 'polish-out.txt'), r.out, 'utf8');
-  return r.code;
+  const exitMark = join(RUNS, dir, 'polish-exit.txt');
+  let code = 1;
+  try {
+    const r = run('codex', ['exec', '-s', 'workspace-write', '-C', ROOT, '--output-last-message', lastMsg, '-'], { input: prompt, shell: false });
+    writeFileSync(join(RUNS, dir, 'polish-out.txt'), r.out, 'utf8');
+    code = r.code ?? 1;
+  } catch (e) {
+    writeFileSync(join(RUNS, dir, 'polish-out.txt'), String(e), 'utf8');
+  } finally {
+    writeFileSync(exitMark, String(code), 'utf8');
+  }
+  return code;
 };
 
 const [, , ...argv] = process.argv;
@@ -73,19 +82,25 @@ if (argv[0] === '__codex') {
     if (!existsSync(inPath)) { console.log(`${id}: 4-styled.md 없음`); continue; }
     if (existsSync(outPath) && !force) { console.log(`${id}: 6-polished.md 이미 있음 (--force로 재실행)`); continue; }
     writeFileSync(join(RUNS, dir, 'polish-prompt.md'), promptFor(dir), 'utf8');
+    const exitMark = join(RUNS, dir, 'polish-exit.txt');
+    if (existsSync(exitMark)) rmSync(exitMark);
     if (direct) {
       console.log(`${id}: codex 직접 실행…`);
       const code = codexExec(dir);
       console.log(`${id}: codex 종료(${code}) — ${existsSync(outPath) ? '6-polished.md 생성됨' : '출력 없음(실패)'}`);
       continue;
     }
-    const created = run('orca', ['terminal', 'create', '--worktree', 'active', '--title', `astra-${dir}`, '--command', `node kr-harness/polish-codex.mjs __codex ${dir}`, '--json']);
+    const created = run('orca', ['terminal', 'create', '--worktree', 'active', '--title', `astra-${dir}`, '--json']);
     let handle = null;
     try { const j = JSON.parse(created.out); handle = j.result?.terminal?.handle ?? j.handle ?? j.terminal?.handle ?? null; } catch {}
     if (!handle) { console.log(`${id}: orca 터미널 생성 실패 — ${created.out.slice(0, 200)}\n(--direct으로 codex 직접 실행 가능)`); continue; }
+    run('orca', ['terminal', 'send', '--terminal', handle, '--text', `node kr-harness/polish-codex.mjs __codex ${dir}`, '--enter']);
     console.log(`${id}: orca 터미널 ${handle}에서 codex 실행…`);
-    const waited = run('orca', ['terminal', 'wait', '--terminal', handle, '--for', 'exit', '--timeout-ms', '3600000', '--json']);
+    const deadline = Date.now() + 60 * 60 * 1000;
+    while (Date.now() < deadline && !existsSync(exitMark)) await new Promise((r) => setTimeout(r, 10000));
     const ok = existsSync(outPath);
-    console.log(`${id}: 종료 — ${ok ? '6-polished.md 생성됨' : '출력 없음(실패)'} / 마지막 메시지: ${(readFileSync(join(RUNS, dir, 'polish-last.txt'), 'utf8') || '').slice(0, 300)}`);
+    const last = existsSync(join(RUNS, dir, 'polish-last.txt')) ? readFileSync(join(RUNS, dir, 'polish-last.txt'), 'utf8') : '';
+    console.log(`${id}: ${existsSync(exitMark) ? '종료' : '시간 초과'} — ${ok ? '6-polished.md 생성됨' : '출력 없음(실패)'} / 마지막 메시지: ${last.slice(0, 300)}`);
+    run('orca', ['terminal', 'close', '--terminal', handle]);
   }
 }

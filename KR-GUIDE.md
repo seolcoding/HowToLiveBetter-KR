@@ -46,7 +46,7 @@
 4. **작성**: 항목 형식대로 한국어로 쓴다. 문체 규칙을 적용한다.
 5. **자체 검증**: 아래 체크리스트.
 6. **상태 갱신**: `book-kr/README.md` 표에서 ⬜ → 🟦(작업중) → ✅.
-7. **윤문(astra, 마지막 단계)**: 변환기 1차 패치 후 `@kr-polisher`(또는 `/kr-polish`)로 문장 윤문 — 대기열과 규칙은 [kr-harness/polish-queue.md](kr-harness/polish-queue.md), 운영 노하우는 [kr-harness/LESSONS.md](kr-harness/LESSONS.md).
+7. **윤문(astra·codex, 마지막 단계)**: 변환기 1차 패치 후 `node kr-harness/polish-codex.mjs <R실행>`(orca CLI + codex exec) — 대기열과 규칙은 [kr-harness/polish-queue.md](kr-harness/polish-queue.md), 운영 노하우는 [kr-harness/LESSONS.md](kr-harness/LESSONS.md).
 
 ## 자체 검증 체크리스트 (절 1개 완료 기준)
 

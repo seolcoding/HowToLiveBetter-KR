@@ -33,7 +33,7 @@ kr-harness/
 | S1+S2 제작 | 절당 1개 에이전트 | 원문 book/N + 규칙 | chapters/N/{1,2,3}.md | 문체 다듬기, book/ 수정 |
 | S4 문체 | 결정론적 변환기 | 3-draft + 문체 지정 | runs/R/4-styled.md | 숫자·출처·구조 변경 |
 | S5 검증 | 스크립트(verify.mjs) | 4-styled(또는 6-polished) + 원문 + 체크리스트 | runs/R/5-verify.md + meta.json | 직접 수정 (목록만) |
-| **S6 윤문(astra)** | astra 전용 에이전트(`@kr-polisher`) | 4-styled.md + humanize-kr + 코퍼스 | runs/R/6-polished.md | 숫자·출처·구조·필드 변경 |
+| **S6 윤문(astra)** | **orca CLI + codex exec** (`node kr-harness/polish-codex.mjs <R실행>`) | 4-styled.md + humanize-kr + 코퍼스 | runs/R/6-polished.md | 숫자·출처·구조·필드 변경 |
 
 문체 프로파일 (2026-10-06 사용자 확정):
 - **B 표준(합니다체)**: 공문·안내문형 `~합니다/~하세요` 통일. **기본 문체.**
