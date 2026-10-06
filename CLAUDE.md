@@ -85,6 +85,13 @@
   **锚点要够长、够近**（2026-09-20 加严）：整句里连着三个汉字和目标标题对上，或者引用所在的那个逗号分句里有两个汉字对上，才算数；只在分句之外撞上「自己」「公司」这类两字常见词的，`--check` 判为失败，修法和裸条号一样是补「（锚点词）」。起因是 PR #18 在第 31 节插条目，第 1 条备注里「……的贷款见本节第 15 条」被顺延撞到新条目「在家给境外公司远程干活……个税自己报」上，隔着两个逗号的「你自己还」冒充了锚点，`--check` 当时报通过，是靠对照表 diff 才发现的。加严后全书补了 8 处显式标注；`tools/check-refs.mjs` 的注释里记着灵敏度实测——把节内引用整体顺延一条，能当场拦下约七成，剩下的（相邻两条讲同一件事、标题共用词）仍然只能靠对照表的 diff，所以那一步扫 diff 不能省。
 - 性价比档不写进 README，由 index.html 按「收益量级 + 三项成本」实时合成（大且成本全零=极高，大且成本分≤2 或 中且成本全零=高，其余=一般），改档位规则只改 index.html。
 
+## 한국어판（book-kr/）
+
+- 原则：**翻译即重写**。中国的法律、制度、电话、价格必须换成韩国的；换不了的条目删掉，或写明「韩国无此制度」。医疗证据（DOI、HR/RR/OR）原样保留。
+- book-kr/ 的条目格式、来源规则、验证清单在 [KR-GUIDE.md](KR-GUIDE.md)；工作流按 [skills/kr-localizer/SKILL.md](skills/kr-localizer/SKILL.md)；文体按 [skills/kr-localizer/references/humanize-kr.md](skills/kr-localizer/references/humanize-kr.md)；韩国 1 次出处在 [skills/kr-localizer/references/kr-sources.md](skills/kr-localizer/references/kr-sources.md)。
+- book-kr/ **不进** sync-stats、check-refs、check-links、index.html 的扫描范围：改 book-kr/ 不跑这些脚本，也不要往 book/ 和 README.md 里写韩国内容。
+- 翻完一节就更新 [book-kr/README.md](book-kr/README.md) 的状态表；用韩国语回答问题按 [skills/life-decision-guide-kr/SKILL.md](skills/life-decision-guide-kr/SKILL.md)。
+
 ## 目录结构
 
 正文按节拆成 `book/01-*.md` … `book/31-*.md`（2026-09-08 拆的，原来单文件 531 KB，超过 GitHub 渲染 Markdown 的 512 KB 上限，后面的节显示不出来也跳不了锚点）。README 只留导读、术语表和目录，新增或修改条目改对应的 book 文件；检索页 index.html 先读 README 拿目录里的文件列表，再并发读这些文件。每节文件第一行是回总目录的链接，第二行空行，第三行是 `# N. 节名`。
