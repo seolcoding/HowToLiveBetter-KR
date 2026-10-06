@@ -3,10 +3,10 @@
   "chapter": 14,
   "style": "B",
   "mode": "variant",
-  "entries": null,
-  "todos": 0,
-  "verify": "보류",
-  "status": "blocked",
-  "style_notes": "세션 DB 장애로 S4 미실행 — opencode 재시작 후 /kr-localize 또는 태스크 재실행 권장",
-  "date": "2026-10-06"
+  "verify": "조건부 통과",
+  "date": "2026-10-06",
+  "status": "verified",
+  "entries": 10,
+  "todos": 6,
+  "style_notes": "S4 결정론적 변환기(convert-b.mjs)로 패치 — 세션 복구 후 LLM 재패치로 상향 가능"
 }

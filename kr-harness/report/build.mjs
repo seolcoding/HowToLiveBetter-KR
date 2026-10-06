@@ -140,8 +140,8 @@ ${chapters.map((c) => `<tr><td>제${c.n}절</td><td>${c.analysis ? '✅' : '⬜'
 <p class="sub">같은 초역을 세 문체로 패치한 결과. 어미·문장 리듬·읽는 느낌을 비교한다.</p>
 ${columns([by('R01'), by('R02'), by('R03')].filter(Boolean), '')}
 
-<h2>재현성 — R01 vs R10 (동일 설정 재실행)</h2>
-${columns([by('R01'), by('R10')].filter(Boolean), '')}
+<h2>재현성 — R02(수작업 패치) vs R10(변환기 패치), 제22절 같은 초안·같은 문체 B</h2>
+${columns([by('R02'), by('R10')].filter(Boolean), '')}
 
 <h2>전체 실행 결과</h2>
 ${runs.map(runCard).join('\n')}
