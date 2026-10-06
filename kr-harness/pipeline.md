@@ -2,6 +2,12 @@
 
 34절 전체를 한국 현지화 완역하기 위한 다단계 파이프라인. **각 단계는 격리된 서브에이전트(독립 컨텍스트)에서 돈다.** 단계 사이는 파일로만 통신한다.
 
+```
+S1 분석 → S2 조사 → S3 초역 → S4 문체(convert-b.mjs) → S5 검증(verify.mjs) → S6 윤문(astra) → S7 조립+보고
+```
+
+레슨런과 운영 노하우: [LESSONS.md](LESSONS.md). 윤문 대기열: [polish-queue.md](polish-queue.md).
+
 ## 디렉토리 구조
 
 ```
@@ -25,8 +31,9 @@ kr-harness/
 | 단계 | 컨텍스트 | 입력 | 출력 | 금지 |
 |---|---|---|---|---|
 | S1+S2 제작 | 절당 1개 에이전트 | 원문 book/N + 규칙 | chapters/N/{1,2,3}.md | 문체 다듬기, book/ 수정 |
-| S4 문체 | 실행당 1개 에이전트 | 3-draft + style-corpus + humanize-kr | runs/R/4-styled.md | 숫자·출처·구조 변경 |
-| S5 검증 | 실행당 1개 에이전트 (신선 컨텍스트) | 4-styled + 원문 + 체크리스트 | runs/R/5-verify.md + meta.json | 직접 수정 (목록만) |
+| S4 문체 | 결정론적 변환기 | 3-draft + 문체 지정 | runs/R/4-styled.md | 숫자·출처·구조 변경 |
+| S5 검증 | 스크립트(verify.mjs) | 4-styled(또는 6-polished) + 원문 + 체크리스트 | runs/R/5-verify.md + meta.json | 직접 수정 (목록만) |
+| **S6 윤문(astra)** | astra 전용 에이전트(`@kr-polisher`) | 4-styled.md + humanize-kr + 코퍼스 | runs/R/6-polished.md | 숫자·출처·구조·필드 변경 |
 
 문체 프로파일 (2026-10-06 사용자 확정):
 - **B 표준(합니다체)**: 공문·안내문형 `~합니다/~하세요` 통일. **기본 문체.**

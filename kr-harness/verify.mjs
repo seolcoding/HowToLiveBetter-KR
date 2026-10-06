@@ -43,15 +43,18 @@ function longSentences(md) {
 
 function verifyRun(dir) {
   const cfg = jread(join(dir, 'config.json'));
-  const styledPath = join(dir, '4-styled.md');
+  // 6-polished.md(astra 윤문본)가 있으면 그것을 우선 검증 대상으로 삼는다.
+  const styledPath = existsSync(join(dir, '6-polished.md')) ? join(dir, '6-polished.md') : join(dir, '4-styled.md');
   const styled = read(styledPath);
   const res = { run: cfg.id || dir, chapter: cfg.chapter, issues: [], notes: [] };
 
   if (!styled.trim()) {
     res.verdict = '보류';
-    res.notes.push('4-styled.md 없음 — S4 미실행(세션 DB 장애 등)');
+    res.notes.push('4-styled.md/6-polished.md 없음 — S4/S6 미실행(세션 DB 장애 등)');
     return res;
   }
+  res.polished = styledPath.endsWith('6-polished.md');
+  if (res.polished) res.notes.push('astra 윤문본(6-polished.md) 기준 검증');
   const orig = origFile(cfg.chapter);
   if (!orig) { res.verdict = '반려'; res.issues.push('원본 파일을 찾을 수 없음'); return res; }
   const omd = read(orig);
