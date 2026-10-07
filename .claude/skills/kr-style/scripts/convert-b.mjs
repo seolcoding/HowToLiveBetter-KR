@@ -1,5 +1,5 @@
-// kr-harness/convert-b.mjs — 평어체(S3/A) 초안의 문장 종결을 합니다체(B)로 변환.
-// 사용: node kr-harness/convert-b.mjs <입력.md> <출력.md>
+// .claude/skills/kr-style/scripts/convert-b.mjs — 평어체(S3/A) 초안의 문장 종결을 합니다체(B)로 변환.
+// 사용: node .claude/skills/kr-style/scripts/convert-b.mjs <입력.md> <출력.md>
 // 변환 대상: 서문·본문 문단, - 비용/쉽게/이득/비고 필드의 "문장 끝" 어미만.
 // 불변: ### 제목, 비용태그 주석, - 출처/- 근거등급, ## TODO 섹션, 링크, 「」 인용 내부(문장 끝이 아니면 그대로).
 // 규칙(자모 처리): 는다→습니다, 받침 ㄴ/ㄹ→ㅂ니다(간다→갑니다, 알다→압니다), 받침 없음→ㅂ니다(하다→합니다, 이다→입니다), 그 외 받침→습니다(먹다→먹습니다).

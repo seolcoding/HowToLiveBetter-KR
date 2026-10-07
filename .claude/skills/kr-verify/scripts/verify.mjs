@@ -1,10 +1,24 @@
-// kr-harness/verify.mjs — S5 독립 검증: 각 실행의 4-styled.md를 원본과 대조.
-// 사용: node kr-harness/verify.mjs  (runs/ 전체) 또는 node kr-harness/verify.mjs R01 (단일)
+// .claude/skills/kr-verify/scripts/verify.mjs — S5 독립 검증: 각 실행의 4-styled.md를 원본과 대조.
+// 사용: node .claude/skills/kr-verify/scripts/verify.mjs [R01] [--check]
+//   인자 없음 = runs/ 전체, R01 = 단일 실행. --check = 파일을 쓰지 않고 반려가 있으면 종료코드 1(CI용).
 // 판정: 통과 / 조건부 통과(경미) / 반려(구조적) — 결과는 각 runs/*/5-verify.md와 meta.json에 기록.
 import { readdirSync, readFileSync, existsSync, writeFileSync, statSync } from 'node:fs';
 import { join, resolve } from 'node:path';
 
-const ROOT = resolve(import.meta.dirname, '..');
+import { fileURLToPath } from 'node:url';
+import { dirname } from 'node:path';
+
+// 저장소 루트: 이 스크립트 위치에서 KR-GUIDE.md가 있는 디렉토리까지 올라간다(로컬·클라우드 공통).
+const findRoot = () => {
+  let d = dirname(fileURLToPath(import.meta.url));
+  while (!existsSync(join(d, 'KR-GUIDE.md'))) {
+    const up = dirname(d);
+    if (up === d) throw new Error('저장소 루트(KR-GUIDE.md)를 찾지 못했습니다');
+    d = up;
+  }
+  return d;
+};
+const ROOT = findRoot();
 const RUNS = join(ROOT, 'kr-harness', 'runs');
 const FIELDS = ['- 비용:', '- 쉽게:', '- 이득:', '- 근거등급:', '- 출처:', '- 비고:'];
 const CN_PHONE = /\b(12356|12315|12378|96110|12333|12320|12345|10086|10010)\b/g;
@@ -125,7 +139,9 @@ function writeReport(dir, res) {
   jwrite(join(dir, 'meta.json'), { ...meta, ...cfg, status: meta.status === 'styled' ? 'verified' : meta.status, entries: res.entries ?? meta.entries, todos: res.todos ?? meta.todos, verify: res.verdict });
 }
 
-const only = process.argv[2];
+const args = process.argv.slice(2);
+const CHECK = args.includes('--check');
+const only = args.find((a) => !a.startsWith('--'));
 const dirs = readdirSync(RUNS)
   .filter((d) => statSync(join(RUNS, d)).isDirectory())
   .filter((d) => !only || d.startsWith(only))
@@ -134,10 +150,10 @@ const results = [];
 for (const d of dirs) {
   const dir = join(RUNS, d);
   const res = verifyRun(dir);
-  writeReport(dir, res);
+  if (!CHECK) writeReport(dir, res);
   results.push(res);
   console.log(`${res.run.padEnd(4)} 제${String(res.chapter).padStart(2, '0')}절  ${res.verdict.padEnd(6)} 항목 ${res.entries ?? '—'}  TODO ${res.todos ?? 0}  이슈 ${res.issues?.length ?? 0}`);
 }
 const bad = results.filter((r) => r.verdict === '반려').length;
 console.log(`\n검증 완료: ${results.length}건 중 통과 ${results.filter((r) => r.verdict === '통과').length}, 조건부 ${results.filter((r) => r.verdict === '조건부 통과').length}, 반려 ${bad}, 보류 ${results.filter((r) => r.verdict === '보류').length}`);
-process.exitCode = 0;
+process.exitCode = CHECK && bad ? 1 : 0;

@@ -8,7 +8,7 @@
 2. **의료 근거는 세계 공통이다.** DOI·PubMed 링크와 HR/RR/OR 수치는 원본 그대로 가져온다. 한국 지침(질병관리청·보건복지부·대한의사협회)이 있으면 출처에 보강한다.
 3. **법·제도 조항은 반드시 한국 것으로 갈아낸다.** 조문 번호는 국가법령정보센터(law.go.kr)에서 원문을 열어 확인한 뒤 쓴다. 기억으로 조문 번호를 쓰지 않는다.
 4. **숫자는 출처와 함께.** 한국 통계(KOSIS, 공단 자료)로 갈아낼 때 링크를 남긴다. 못 찾으면 `TODO 확인 필요`를 남긴다. **중국 수치를 한국어로만 옮기는 일은 절대 금지.**
-5. **문체는 [skills/kr-localizer/references/humanize-kr.md](skills/kr-localizer/references/humanize-kr.md)를 따른다.** AI가 쓴 냄새가 나면 실패다.
+5. **문체는 [.claude/skills/kr-localize/references/humanize-kr.md](.claude/skills/kr-localize/references/humanize-kr.md)를 따른다.** AI가 쓴 냄새가 나면 실패다.
 6. **기존 도구와 충돌하지 않는다.** `book-kr/`는 `tools/check-links.mjs`, `check-plain.mjs`, `check-refs.mjs`, `sync-stats.mjs`, `index.html`의 대상이 아니다. `book/`과 원본 `README.md`는 건드리지 않는다. 진행 상황은 `book-kr/README.md`의 표에서만 관리한다.
 
 ## 항목 형식 (book-kr/ 표준)
@@ -40,15 +40,15 @@
 
 ## 작업 파이프라인 (절 1개 단위)
 
-**원칙: 개별 항목(`###` 하나)은 항상 개별 서브에이전트(격리 컨텍스트)가 작업한다.** 절 전체를 한 컨텍스트에서 일괄 가공하지 않는다. 항목 단위 패스는 `node kr-harness/entry-pass.mjs <파일> --jobs=N`(항목마다 codex exec 1회)로 실행한다.
+**원칙: 개별 항목(`###` 하나)은 항상 개별 서브에이전트(격리 컨텍스트)가 작업한다.** 절 전체를 한 컨텍스트에서 일괄 가공하지 않는다. 항목 단위 패스는 `/kr-refine`으로 실행한다. 항목마다 kr-entry-refiner 에이전트를 하나씩 병렬로 띄우고, `entries.mjs`가 구조를 검사하고 조립한다. 전체 단계는 `/kr-pipeline N` 하나로 돈다. 로컬과 클라우드에서 같다([kr-harness/CLOUD.md](kr-harness/CLOUD.md)).
 
 1. **원문 정독**: `book/NN-*.md` 전체. 해당되면 `docs/核实记录`와 `docs/`의 장문도 읽는다 — 왜 그 근거를 썼는지 기록이 거기 있다.
 2. **치환 설계**: 항목마다 🔴/🟡/🟢를 분류한다. 🔴 항목의 조사 목록을 먼저 만든다.
-3. **조사**: [skills/kr-localizer/references/kr-sources.md](skills/kr-localizer/references/kr-sources.md)의 1차 출처 목록으로 검색·확인한다. 열람 URL과 확인일을 메모로 남긴다.
+3. **조사**: [.claude/skills/kr-localize/references/kr-sources.md](.claude/skills/kr-localize/references/kr-sources.md)의 1차 출처 목록으로 검색·확인한다. 열람 URL과 확인일을 메모로 남긴다.
 4. **작성**: 항목 형식대로 한국어로 쓴다. 문체 규칙을 적용한다.
 5. **자체 검증**: 아래 체크리스트.
 6. **상태 갱신**: `book-kr/README.md` 표에서 ⬜ → 🟦(작업중) → ✅.
-7. **윤문(astra·codex, 마지막 단계)**: 변환기 1차 패치 후 `node kr-harness/polish-codex.mjs <R실행>`(orca CLI + codex exec) — 대기열과 규칙은 [kr-harness/polish-queue.md](kr-harness/polish-queue.md), 운영 노하우는 [kr-harness/LESSONS.md](kr-harness/LESSONS.md).
+7. **윤문(S6)과 항목별 개선(S7)**: 문체 변환(S4)과 검증(S5) 뒤에 `/kr-polish RNN`(kr-polisher 에이전트)을 실행하고, 이어서 `/kr-refine RNN`을 실행한다. 대기열과 규칙은 [kr-harness/polish-queue.md](kr-harness/polish-queue.md), 운영 노하우는 [kr-harness/LESSONS.md](kr-harness/LESSONS.md).
 
 ## 자체 검증 체크리스트 (절 1개 완료 기준)
 

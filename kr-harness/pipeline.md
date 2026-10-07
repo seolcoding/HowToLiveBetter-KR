@@ -3,10 +3,12 @@
 34절 전체를 한국 현지화 완역하기 위한 다단계 파이프라인. **각 단계는 격리된 서브에이전트(독립 컨텍스트)에서 돈다.** 단계 사이는 파일로만 통신한다.
 
 ```
-S1 분석 → S2 조사 → S3 초역 → S4 문체(convert-b.mjs) → S5 검증(verify.mjs) → S6 윤문(astra·orca+codex) → S7 항목별 개선(entry-pass.mjs, 개별 항목=개별 서브에이전트) → S8 조립+보고
+S1 분석 → S2 조사 → S3 초역 → S4 문체(convert-b.mjs) → S5 검증(verify.mjs) → S6 윤문(kr-polisher) → S7 항목별 개선(kr-entry-refiner × 항목 수) → S8 조립+보고
 ```
 
-**원칙(2026-10-06 사용자 확정): 개별 항목은 항상 개별 서브에이전트가 작업한다.** `node kr-harness/entry-pass.mjs <6-polished.md> --jobs=5` — 항목마다 codex exec 1회(격리 컨텍스트), 구조 검증 실패 시 재시도 후 원문 유지. 출력 `7-refined.md`(verify 우선순위 최상위, book-kr 조립 소스).
+**원칙(2026-10-06 사용자 확정): 개별 항목은 항상 개별 서브에이전트가 작업한다.** `/kr-refine RNN`은 `entries.mjs split`으로 항목을 나눈 다음 항목마다 kr-entry-refiner 에이전트를 하나씩 띄운다(한 번에 최대 8개). `entries.mjs check`로 구조를 검사하고, 실패하면 한 번 다시 시도한다. 그래도 실패하면 원문을 유지한다. 출력은 `7-refined.md`다(verify 우선순위 최상위, book-kr 조립 소스).
+
+**실행(2026-10-07부터)**: 단계 전체는 `/kr-pipeline N` 스킬 하나로 돈다. 스킬·에이전트·스크립트는 모두 `.claude/` 아래에 있다. codex·orca·opencode에는 의존하지 않는다. 로컬, claude.ai/code 클라우드 세션, routines에서 같고, API 키 없이 구독 로그인으로만 돈다. 클라우드 설정은 [CLOUD.md](CLOUD.md)에 있다. 진행 상태는 `node .claude/skills/kr-pipeline/scripts/pipeline.mjs status`로 본다.
 
 레슨런과 운영 노하우: [LESSONS.md](LESSONS.md). 윤문 대기열: [polish-queue.md](polish-queue.md).
 
@@ -24,8 +26,10 @@ kr-harness/
     4-styled.md        # 문체 패치 완료본
     5-verify.md        # 독립 검증 결과
     meta.json          # 상태·통계
-  report/build.mjs     # HTML 아티팩트 빌더
-  report.html          # 최종 비교 보고서
+    6-polished.md      # S6 윤문본
+    entries/           # S7 항목별 입력·출력(e-NN-in.md, e-NN.md, jobs.json)
+    7-refined.md       # S7 조립본
+  report.html          # 최종 비교 보고서 (.claude/skills/kr-verify/scripts/report.mjs가 만든다)
 ```
 
 ## 단계 정의 (격리 컨텍스트)
@@ -33,9 +37,11 @@ kr-harness/
 | 단계 | 컨텍스트 | 입력 | 출력 | 금지 |
 |---|---|---|---|---|
 | S1+S2 제작 | 절당 1개 에이전트 | 원문 book/N + 규칙 | chapters/N/{1,2,3}.md | 문체 다듬기, book/ 수정 |
-| S4 문체 | 결정론적 변환기 | 3-draft + 문체 지정 | runs/R/4-styled.md | 숫자·출처·구조 변경 |
+| S4 문체 | 결정론적 변환기(`pipeline.mjs new-run`) | 3-draft + 문체 지정 | runs/R/4-styled.md | 숫자·출처·구조 변경 |
 | S5 검증 | 스크립트(verify.mjs) | 4-styled(또는 6-polished) + 원문 + 체크리스트 | runs/R/5-verify.md + meta.json | 직접 수정 (목록만) |
-| **S6 윤문(astra)** | **orca CLI + codex exec** (`node kr-harness/polish-codex.mjs <R실행>`) | 4-styled.md + humanize-kr + 코퍼스 | runs/R/6-polished.md | 숫자·출처·구조·필드 변경 |
+| S6 윤문 | 실행당 1개 에이전트(kr-polisher, `/kr-polish RNN`) | 4-styled.md + humanize-kr + 코퍼스 | runs/R/6-polished.md | 숫자·출처·구조·필드 변경, 사실 추가 |
+| S7 항목별 개선 | 항목당 1개 에이전트(kr-entry-refiner, `/kr-refine RNN`) | entries/e-NN-in.md | entries/e-NN.md → 7-refined.md | 제목·필드·근거등급·출처·숫자·URL 변경 |
+| S8 조립 | 스크립트(`pipeline.mjs assemble RNN`) | 7-refined > 6-polished > 4-styled | book-kr/NN-*.md + README 표 ✅ | 반려 실행 조립 |
 
 문체 프로파일 (2026-10-06 사용자 확정):
 - **B 표준(합니다체)**: 공문·안내문형 `~합니다/~하세요` 통일. **기본 문체.**

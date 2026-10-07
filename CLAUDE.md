@@ -88,7 +88,7 @@
 ## 한국어판（book-kr/）
 
 - 原则：**翻译即重写**。中国的法律、制度、电话、价格必须换成韩国的；换不了的条目删掉，或写明「韩国无此制度」。医疗证据（DOI、HR/RR/OR）原样保留。
-- book-kr/ 的条目格式、来源规则、验证清单在 [KR-GUIDE.md](KR-GUIDE.md)；工作流按 [skills/kr-localizer/SKILL.md](skills/kr-localizer/SKILL.md)；文体按 [skills/kr-localizer/references/humanize-kr.md](skills/kr-localizer/references/humanize-kr.md)；韩国 1 次出处在 [skills/kr-localizer/references/kr-sources.md](skills/kr-localizer/references/kr-sources.md)。
+- book-kr/ 的条目格式、来源规则、验证清单在 [KR-GUIDE.md](KR-GUIDE.md)；工作流按 [.claude/skills/kr-pipeline/SKILL.md](.claude/skills/kr-pipeline/SKILL.md)（`/kr-pipeline N`，S1–S8 全部是仓库内的 skill 和子代理，不依赖 codex；云端运行见 [kr-harness/CLOUD.md](kr-harness/CLOUD.md)）；文体按 [.claude/skills/kr-localize/references/humanize-kr.md](.claude/skills/kr-localize/references/humanize-kr.md)；韩国 1 次出处在 [.claude/skills/kr-localize/references/kr-sources.md](.claude/skills/kr-localize/references/kr-sources.md)。
 - book-kr/ **不进** sync-stats、check-refs、check-links、index.html 的扫描范围：改 book-kr/ 不跑这些脚本，也不要往 book/ 和 README.md 里写韩国内容。
 - 翻完一节就更新 [book-kr/README.md](book-kr/README.md) 的状态表；用韩国语回答问题按 [skills/life-decision-guide-kr/SKILL.md](skills/life-decision-guide-kr/SKILL.md)。
 

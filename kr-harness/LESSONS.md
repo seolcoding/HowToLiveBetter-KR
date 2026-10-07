@@ -6,6 +6,8 @@
 
 ```
 S1 분석 → S2 조사 → S3 초역 → S4 문체(convert-b.mjs) → S5 검증(verify.mjs) → S6 윤문(astra·orca+codex) → S7 항목별 개선(entry-pass.mjs) → S8 조립+보고
+
+2026-10-07부터 S6·S7은 Claude Code 에이전트(kr-polisher, kr-entry-refiner)가 맡는다. 아래 L10–L12의 codex·orca 경로는 기록으로만 남긴다(L15).
 ```
 
 - **L13 — 개별 항목 = 개별 서브에이전트** (2026-10-06 사용자 규칙). 절 단위 일괄 가공 금지. `entry-pass.mjs`가 항목마다 codex exec를 따로 띄운다(워커 터미널 K개가 stride로 분담, 항목당 격리 컨텍스트 보장).
@@ -38,6 +40,17 @@ S1 분석 → S2 조사 → S3 초역 → S4 문체(convert-b.mjs) → S5 검증
   1. `10000` = 걸음수 vs 중국통신사 번호 → 중국 전용 번호 목록에서 10000 제거
   2. `.md` 링크 경로의 한자(`docs/生物钟和夜班.md`) → 링크·괄호 경로 스트립 후 검사
 
+## 클라우드 전환 (2026-10-07)
+
+- **L15 — codex·orca·opencode 의존 제거, 하니스를 `.claude/`로**. 사용자 지시 「코덱스 의존성 제거하고, 대부분 스킬 형식으로 변환」. 이유는 클라우드 세션과 routines에서는 로컬 CLI가 없기 때문이다. 단계는 스킬(kr-pipeline·kr-localize·kr-style·kr-verify·kr-polish·kr-refine)로, 격리 작업은 에이전트(kr-localizer·kr-polisher·kr-entry-refiner)로 바꿨다. 결정론 부분은 Node 스크립트로 남겼다. 스크립트는 `KR-GUIDE.md`를 찾아 저장소 루트를 정하므로 어디서 실행해도 된다.
+- **L16 — 팬아웃은 Agent 도구로**. `entry-pass.mjs`의 워커 분산은 오케스트레이터가 kr-entry-refiner를 한 번에 최대 8개씩 병렬로 띄우는 방식으로 바뀌었다. 분할·구조검사·조립은 LLM 없이 `entries.mjs`가 한다. 그래서 「항목 하나 = 서브에이전트 하나」(L13)가 로컬과 클라우드에서 똑같이 지켜진다.
+- **L17 — 구조검사에 숫자·URL 다중집합 비교를 넣자 사실 추가가 잡혔다**. R11-02의 e-41에서 codex가 「식물성 오메가-3는 아마씨유·들깨유의 주성분입니다」를 덧붙였다. 입력에 없던 숫자 「3」이 늘어서 걸렸다. 지금 book-kr 02절에는 이 문장이 그대로 있다. CI(kr-check)는 이것을 경고로만 띄운다. 다음 02절 S7 재실행 때 고친다.
+- **L18 — VM은 회수될 수 있다**. 클라우드 VM은 쉬다가 회수되고, 커밋하지 않은 파일은 사라진다. 그래서 단계마다 커밋하고, S7은 묶음마다 `entries/`를 커밋한다. `entries.mjs split`은 통과한 출력을 지우지 않아서 중간부터 다시 시작할 수 있다.
+- **L19 — 클라우드 기본 네트워크(Trusted)에서는 조사가 막힌다**. law.go.kr, KOSIS, doi.org는 기본 허용 목록에 없다. 세션 시작 훅이 접속 여부를 점검해서 S1-S3를 할지 말지 알려 준다. 조사용 환경 `kr-research`(Full 또는 Custom)는 CLOUD.md에 있다.
+- **L20 — 절 병렬은 세션 병렬로**. `pipeline.mjs launch`가 절마다 claude.ai/code 미리 채우기 링크를 만든다. 세션 하나가 절 하나, 브랜치 하나다. 그래서 워크트리를 손으로 관리할 필요가 없다.
+
+- **L21 — API 키 의존 제거**. 사용자 지시 「API KEY에 의존하는 의존성은 좀 없애고 싶은데」. 그래서 claude-code-action 워크플로 두 개(@claude, 수동 파이프라인)를 지웠다. 둘 다 장기 토큰(`CLAUDE_CODE_OAUTH_TOKEN`)을 저장소 비밀값으로 넣어야 했다. 그 기능은 이렇게 대신한다. 수동 실행은 `pipeline.mjs launch` 링크와 routine의 Run now로, 예약은 routine 일정으로, PR 점검은 routine의 GitHub 트리거(GitHub App만 필요)로 한다. Actions에는 LLM 없는 kr-check만 남았다. routine 프롬프트 본문은 `kr-harness/routines/`에 커밋해서 저장소가 단일 원천이 되게 했다. 세션 시작 훅은 `ANTHROPIC_API_KEY` 같은 키가 셸에 있으면 경고한다(구독 로그인보다 우선하기 때문).
+
 ## 품질과 경제성
 
 - **L6 — S3 에이전트가 이미 문체 뼈대를 갖춘다**. 제작 프롬프트에 평어체 지시를 넣어두니 S4 변환 델타가 작다. 그래서 변환기 1차 → astra 윤문 2차가 비용 대비 최적.
@@ -48,5 +61,6 @@ S1 분석 → S2 조사 → S3 초역 → S4 문체(convert-b.mjs) → S5 검증
 ## 남은 일
 
 - 28절 제작(S1-S3) — 🟡 작은 절부터(18·17·16·28·32·34·20·29·27·21), 🔴 법제도 절(7·8·9·11·12·15·19·24·25·26·31·33)은 조사 시간 감안
-- astra 윤문: `kr-harness/polish-queue.md` 참고
+- 다음 절 실행: `node .claude/skills/kr-pipeline/scripts/pipeline.mjs launch`로 링크를 받거나, `/kr-pipeline N`을 실행한다
+- 02절 e-41 사실 추가 되돌리기(L17)
 - TODO 36건 2차 조사(law.go.kr JS 렌더링 이슈는 브라우저 확인 필요)

@@ -1,0 +1,52 @@
+# 한국어판 하니스 검사. LLM을 쓰지 않고 비밀키도 필요 없다.
+# 스크립트 문법, 실행별 검증(반려가 있으면 실패), 항목 출력 구조 검사, 파이프라인 상태표를 본다.
+name: 한국어판 검사
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - book-kr/**
+      - kr-harness/**
+      - .claude/**
+      - KR-GUIDE.md
+      - .github/workflows/kr-check.yml
+  pull_request:
+    paths:
+      - book-kr/**
+      - kr-harness/**
+      - .claude/**
+      - KR-GUIDE.md
+      - .github/workflows/kr-check.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: API 키 의존 금지(LLM은 구독 로그인 세션·routine에서만)
+        run: |
+          if grep -rnE --exclude=kr-check.yml 'claude-code-action|secrets\.(ANTHROPIC|CLAUDE)|ANTHROPIC_API_KEY:' .github/workflows; then
+            echo "::error::워크플로에 Claude API 키·토큰 의존이 생겼습니다. kr-harness/CLOUD.md 참고"; exit 1
+          fi
+      - name: 스크립트 문법
+        run: for f in .claude/hooks/*.mjs .claude/skills/*/scripts/*.mjs; do node --check "$f"; done
+      - name: 세션 시작 훅
+        run: CLAUDE_PROJECT_DIR="$PWD" node .claude/hooks/session-start.mjs
+      - name: 실행별 검증(반려 시 실패)
+        run: node .claude/skills/kr-verify/scripts/verify.mjs --check
+      - name: 항목 출력 구조 검사(통과 못 한 항목은 원문 유지됐는지 경고만)
+        run: |
+          for f in kr-harness/runs/*/entries/e-[0-9][0-9].md; do
+            [ -e "$f" ] || continue
+            node .claude/skills/kr-refine/scripts/entries.mjs check "$f" >/dev/null || echo "::warning file=$f::구조 검사 실패 — 7-refined.md에는 원문이 들어가야 함"
+          done
+      - name: 파이프라인 상태
+        run: node .claude/skills/kr-pipeline/scripts/pipeline.mjs status >> "$GITHUB_STEP_SUMMARY"
