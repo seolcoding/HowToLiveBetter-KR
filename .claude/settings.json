@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "permissions": {
+    "allow": [
+      "Bash(node .claude/skills/kr-pipeline/scripts/pipeline.mjs:*)",
+      "Bash(node .claude/skills/kr-style/scripts/convert-b.mjs:*)",
+      "Bash(node .claude/skills/kr-verify/scripts/verify.mjs:*)",
+      "Bash(node .claude/skills/kr-verify/scripts/report.mjs:*)",
+      "Bash(node .claude/skills/kr-refine/scripts/entries.mjs:*)",
+      "Bash(node tools/check-plain.mjs:*)",
+      "Bash(node tools/check-refs.mjs --check:*)",
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(grep:*)",
+      "WebSearch",
+      "WebFetch"
+    ],
+    "deny": [
+      "Bash(git push --force:*)",
+      "Bash(git push -f:*)"
+    ]
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"$CLAUDE_PROJECT_DIR/.claude/hooks/session-start.mjs\"",
+            "timeout": 30
+          }
+        ]
+      }
+    ]
+  }
+}

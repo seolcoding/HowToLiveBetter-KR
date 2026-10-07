@@ -1,6 +1,6 @@
 # 한국어판: 목차와 진행 상황
 
-원본 《高性价比人生指南》(github.com/eternity4719/HowToLiveBetter)의 한국 현지화판. 작업 규칙은 [KR-GUIDE.md](../KR-GUIDE.md), 워크플로는 [skills/kr-localizer/SKILL.md](../skills/kr-localizer/SKILL.md).
+원본 《高性价比人生指南》(github.com/eternity4719/HowToLiveBetter)의 한국 현지화판. 작업 규칙은 [KR-GUIDE.md](../KR-GUIDE.md), 워크플로는 [.claude/skills/kr-pipeline/SKILL.md](../.claude/skills/kr-pipeline/SKILL.md)(`/kr-pipeline N`), 클라우드 실행은 [kr-harness/CLOUD.md](../kr-harness/CLOUD.md).
 
 **상태**: ⬜ 대기 · 🟦 작업중 · 🟨 기계번역 완료(현지화 검증 전) · ✅ 현지화·검증 완료 · 🔁 원본 갱신(재확인 필요)
 

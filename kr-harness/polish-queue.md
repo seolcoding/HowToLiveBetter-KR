@@ -1,11 +1,11 @@
-# astra(codex) 윤문 대기열 (S6)
+# 윤문 대기열 (S6)
 
-윤문 실행: `node kr-harness/polish-codex.mjs <R실행>...` (orca 터미널에서 codex exec, `--direct`로 직접 실행도 가능)
+윤문 실행: `/kr-polish RNN`(kr-polisher 에이전트). 보통은 `/kr-pipeline N`이 알아서 부른다. 1차 대기열(아래 표)은 2026-10-06에 codex로 돌렸고, codex 경로는 2026-10-07에 없앴다.
 
 윤문 후에는 반드시:
 
 ```bash
-node kr-harness/verify.mjs && node kr-harness/report/build.mjs
+node .claude/skills/kr-verify/scripts/verify.mjs RNN && node .claude/skills/kr-verify/scripts/report.mjs
 ```
 
 를 돌려 검증·보고서를 갱신하고, 통과하면 `book-kr/` 조립(6-polished.md 우선)과 커밋을 한다.

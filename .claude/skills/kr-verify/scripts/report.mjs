@@ -1,9 +1,22 @@
-// kr-harness/report/build.mjs — runs/ 와 chapters/ 를 읽어 단일 HTML 아티팩트 생성.
-// 사용: node kr-harness/report/build.mjs  → kr-harness/report.html
+// .claude/skills/kr-verify/scripts/report.mjs — runs/ 와 chapters/ 를 읽어 단일 HTML 아티팩트 생성.
+// 사용: node .claude/skills/kr-verify/scripts/report.mjs  → kr-harness/report.html
 import { readdirSync, readFileSync, existsSync, writeFileSync, statSync } from 'node:fs';
 import { join, resolve } from 'node:path';
 
-const ROOT = resolve(import.meta.dirname, '..', '..');
+import { fileURLToPath } from 'node:url';
+import { dirname } from 'node:path';
+
+// 저장소 루트: 이 스크립트 위치에서 KR-GUIDE.md가 있는 디렉토리까지 올라간다(로컬·클라우드 공통).
+const findRoot = () => {
+  let d = dirname(fileURLToPath(import.meta.url));
+  while (!existsSync(join(d, 'KR-GUIDE.md'))) {
+    const up = dirname(d);
+    if (up === d) throw new Error('저장소 루트(KR-GUIDE.md)를 찾지 못했습니다');
+    d = up;
+  }
+  return d;
+};
+const ROOT = findRoot();
 const RUNS = join(ROOT, 'kr-harness', 'runs');
 const CHAPTERS = join(ROOT, 'kr-harness', 'chapters');
 const STYLE_LABEL = { A: 'A · 평어체(뉴스·공문형)', B: 'B · 합니다체(공문·안내문)', C: 'C · 해요체(친근 안내)' };
