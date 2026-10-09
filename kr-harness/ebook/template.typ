@@ -23,6 +23,15 @@ $--
   font: ("Noto Serif CJK KR", "Noto Serif KR", "Source Han Serif K", "Noto Sans CJK KR", "Malgun Gothic"),
   size: 10.5pt, lang: "ko", region: "kr",
 )
+// 한국어 줄바꿈은 띄어쓰기 단위(CSS word-break: keep-all). typst 0.15에는 이 옵션이 없고
+// 한글 음절 사이마다 줄을 바꿀 수 있어 「나 / 왔습니다」처럼 어절이 쪼개진다.
+// 한글이 든 어절(붙은 문장부호 포함)을 box에 넣어 어절 안에서는 줄이 바뀌지 않게 한다.
+// 낫표(「」『』)는 box 밖에 둔다(안에 넣으면 앞뒤 공백이 텍스트 추출에서 사라진다). 낫표 앞뒤 줄바꿈 금지는 기본 규칙이 지킨다.
+// '/', '；', '，'에서는 끊어 URL·출처 목록은 그 자리에서 줄을 바꿀 수 있게 남긴다.
+// 아주 긴 덩어리(28자 초과)는 box에 넣지 않는다. 칸보다 넓은 box는 넘치지 않고 안에서 글자 단위로 줄을 바꾼다(표 셀 확인).
+#show regex("[^\\s/；，、「」『』]*\\p{Hangul}[^\\s/；，、「」『』]*[/；，、]?"): it => {
+  if it.text.clusters().len() <= 28 { box(it) } else { it }
+}
 #set par(justify: false, leading: 0.85em, spacing: 1em)
 #set list(indent: 0.6em, spacing: 0.8em)
 #show raw: set text(font: ("DejaVu Sans Mono", "Noto Sans Mono CJK KR", "Consolas"), size: 9pt)
