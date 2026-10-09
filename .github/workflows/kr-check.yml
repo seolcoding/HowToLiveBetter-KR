@@ -1,5 +1,5 @@
 # 한국어판 하니스 검사. LLM을 쓰지 않고 비밀키도 필요 없다.
-# 스크립트 문법, 실행별 검증(반려가 있으면 실패), 항목 출력 구조 검사, 파이프라인 상태표를 본다.
+# 스크립트 문법, 실행별 검증(반려가 있으면 실패), 항목 출력 구조 검사, 파이프라인 상태표, ✅ 절의 한국 적합성 게이트를 본다.
 name: 한국어판 검사
 
 on:
@@ -50,3 +50,17 @@ jobs:
           done
       - name: 파이프라인 상태
         run: node .claude/skills/kr-pipeline/scripts/pipeline.mjs status >> "$GITHUB_STEP_SUMMARY"
+      # book-kr/README.md 표에서 ✅인 절마다 ① kr-fit --check(block 0) ② kr-harness/chapters/NN/kr-fit-review.md 마지막 줄
+      # KR-FIT: pass blockers=0 ③ 그 줄의 sha256=이 지금 본문 해시(kr-fit.mjs NN --hash)와 같음. 해시가 없거나 다르면
+      # 「리뷰가 본문보다 오래됨 → 재검토 필요」로 실패한다. 게이트를 못 넘는 절은 고치거나 pipeline.mjs gate N --demote로 🟨로 내린다.
+      # gate는 --save 없이 돌리므로 작업 트리에 아무것도 쓰지 않는다.
+      - name: 한국 적합성 게이트
+        run: |
+          set -o pipefail  # 기본 셸은 bash -e라 pipefail이 없어, gate | tee의 실패가 tee 종료코드에 묻힌다
+          rc=0
+          node .claude/skills/kr-verify/scripts/kr-fit.mjs --all-done --check || rc=1
+          { echo '## 한국 적합성 게이트'; echo '```'; } >> "$GITHUB_STEP_SUMMARY"
+          node .claude/skills/kr-pipeline/scripts/pipeline.mjs gate --all-done | tee -a "$GITHUB_STEP_SUMMARY" || rc=1
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+          if [ "$rc" -ne 0 ]; then echo "::error::✅ 절 중 한국 적합성 게이트(kr-fit·KR-FIT 리뷰)를 통과하지 못한 절이 있습니다."; fi
+          exit $rc

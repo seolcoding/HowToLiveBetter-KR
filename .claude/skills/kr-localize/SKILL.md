@@ -51,11 +51,11 @@ description: book/의 절(章) 하나를 한국 현지화 파이프라인의 S1-
 ## 자체 검증
 
 ```bash
-grep -n '人民币\|医保\|社保\|公积金\|低保\|劳动仲裁\|淘宝\|微信\|12356\|12315\|12378\|96110' kr-harness/chapters/NN/3-draft.md
+node .claude/skills/kr-verify/scripts/kr-fit.mjs kr-harness/chapters/NN/3-draft.md
 grep -c '^### ' book/NN-*.md kr-harness/chapters/NN/3-draft.md
 ```
 
-- 잡히는 줄은 전부 처리한다(출처 칸의 원문 문헌 제목은 예외).
+- kr-fit의 block은 전부 처리하고 warn도 읽는다(출처 줄의 원문 문헌 제목은 검사에서 빠진다). 의도된 비교는 `<!-- kr-fit-ok: 사유 -->`로 표시한다.
 - 항목 수가 다르면 1-analysis.md에 사유가 있어야 한다.
 - DOI 집합이 원문과 같은지 확인한다.
 
