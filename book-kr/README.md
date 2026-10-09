@@ -2,6 +2,8 @@
 
 원본 《高性价比人生指南》(github.com/eternity4719/HowToLiveBetter)의 한국 현지화판. 작업 규칙은 [KR-GUIDE.md](../KR-GUIDE.md), 워크플로는 [.claude/skills/kr-pipeline/SKILL.md](../.claude/skills/kr-pipeline/SKILL.md)(`/kr-pipeline N`), 클라우드 실행은 [kr-harness/CLOUD.md](../kr-harness/CLOUD.md).
 
+**읽기**: 웹 리더 https://seolcoding.github.io/HowToLiveBetter-KR/ · 내려받기 [EPUB](https://github.com/seolcoding/HowToLiveBetter-KR/releases/download/kr-ebook-latest/HowToLiveBetter-KR.epub) · [PDF](https://github.com/seolcoding/HowToLiveBetter-KR/releases/download/kr-ebook-latest/HowToLiveBetter-KR.pdf) · [HTML](https://github.com/seolcoding/HowToLiveBetter-KR/releases/download/kr-ebook-latest/HowToLiveBetter-KR.html). 아래 표에서 ✅인 절만 실으며, 비공식 현지화판이라 원문이 우선합니다.
+
 **상태**: ⬜ 대기 · 🟦 작업중 · 🟨 기계번역 완료(현지화 검증 전) · ✅ 현지화·검증 완료 · 🔁 원본 갱신(재확인 필요)
 
 **등급**: 🔴 법·제도 대폭 교체 · 🟡 일부 교체 · 🟢 거의 번역만
