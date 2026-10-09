@@ -1,0 +1,146 @@
+# 한국어판 전자책. book-kr/README.md 표에서 ✅인 절만 싣는다(빌드 때 적합성 게이트를 다시 통과해야 함).
+# 본문이 바뀌면 세 파일을 다시 만들어 고정 Release「kr-ebook-latest」에 덮어 올린다. 내려받기 주소는 바뀌지 않는다.
+#   EPUB  https://github.com/seolcoding/HowToLiveBetter-KR/releases/download/kr-ebook-latest/HowToLiveBetter-KR.epub
+#   PDF   https://github.com/seolcoding/HowToLiveBetter-KR/releases/download/kr-ebook-latest/HowToLiveBetter-KR.pdf
+#   HTML  https://github.com/seolcoding/HowToLiveBetter-KR/releases/download/kr-ebook-latest/HowToLiveBetter-KR.html
+# 웹 리더는 GitHub Pages(https://seolcoding.github.io/HowToLiveBetter-KR/)로 배포한다.
+# PR에서는 빌드·epubcheck·아티팩트 업로드만 하고, 게시(Release·Pages)는 main push와 수동 실행에서만 한다.
+# LLM을 쓰지 않고 비밀키도 필요 없다.
+name: 한국어판 전자책
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - book-kr/**
+      - kr-harness/ebook/**
+      - kr-harness/chapters/**
+      - .claude/skills/kr-pipeline/**
+      - .claude/skills/kr-verify/**
+      - .github/workflows/kr-book.yml
+  pull_request:
+    paths:
+      - book-kr/**
+      - kr-harness/ebook/**
+      - kr-harness/chapters/**
+      - .claude/skills/kr-pipeline/**
+      - .claude/skills/kr-verify/**
+      - .github/workflows/kr-book.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: kr-book-${{ github.ref }}
+  # main에서는 게시(Release·Pages)가 중간에 끊기지 않게 취소하지 않는다.
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+env:
+  PANDOC_VERSION: '3.11'
+  TYPST_VERSION: '0.15.1'
+  EPUBCHECK_VERSION: '5.4.0'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: kr-harness/ebook/package-lock.json
+
+      - run: npm ci
+        working-directory: kr-harness/ebook
+
+      # 각 빌드 스크립트가 시작할 때 pipeline.mjs gate --all-done을 다시 돌린다. 여기서는 로그를 남기려고 한 번 더 돌린다.
+      - name: 적합성 게이트
+        run: node .claude/skills/kr-pipeline/scripts/pipeline.mjs gate --all-done
+
+      - name: EPUB
+        run: node kr-harness/ebook/epub.mjs
+
+      - name: 오프라인 단일 HTML
+        run: node kr-harness/ebook/offline.mjs
+
+      - name: 웹 리더
+        run: node kr-harness/ebook/site.mjs
+
+      - name: pandoc, typst, 한글 글꼴 설치
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends fonts-noto-cjk
+          curl -sSL "https://github.com/jgm/pandoc/releases/download/${PANDOC_VERSION}/pandoc-${PANDOC_VERSION}-linux-amd64.tar.gz" | tar xz
+          curl -sSL "https://github.com/typst/typst/releases/download/v${TYPST_VERSION}/typst-x86_64-unknown-linux-musl.tar.xz" | tar xJ
+          echo "$PWD/pandoc-${PANDOC_VERSION}/bin" >> "$GITHUB_PATH"
+          echo "$PWD/typst-x86_64-unknown-linux-musl" >> "$GITHUB_PATH"
+
+      - name: PDF
+        run: |
+          typst fonts | grep -i -E 'noto (serif|sans) cjk kr' || echo '::warning::Noto CJK KR 글꼴을 찾지 못했습니다. PDF가 다른 글꼴로 대체됩니다.'
+          node kr-harness/ebook/pdf.mjs
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+
+      - name: epubcheck
+        run: |
+          curl -sSL -o epubcheck.zip "https://github.com/w3c/epubcheck/releases/download/v${EPUBCHECK_VERSION}/epubcheck-${EPUBCHECK_VERSION}.zip"
+          unzip -q epubcheck.zip
+          java -jar "epubcheck-${EPUBCHECK_VERSION}/epubcheck.jar" dist-kr/HowToLiveBetter-KR.epub
+
+      - name: 크기 요약
+        run: |
+          { echo '## 한국어판 전자책'; echo '```'; ls -l dist-kr/HowToLiveBetter-KR.*; du -sh dist-kr/site; echo '```'; } >> "$GITHUB_STEP_SUMMARY"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: HowToLiveBetter-KR
+          path: |
+            dist-kr/HowToLiveBetter-KR.epub
+            dist-kr/HowToLiveBetter-KR.pdf
+            dist-kr/HowToLiveBetter-KR.html
+
+      - name: Pages 아티팩트
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist-kr/site
+
+      - name: Release kr-ebook-latest에 올리기
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git tag -f kr-ebook-latest
+          git push -f origin kr-ebook-latest
+          notes="본문 커밋 ${GITHUB_SHA::7}, $(TZ=Asia/Seoul date +'%Y-%m-%d %H:%M')(한국 시간)에 만들었습니다. book-kr/의 공개(✅) 절만 담은 EPUB, PDF, 오프라인 단일 HTML입니다. 비공식 현지화판이며 원문(https://github.com/eternity4719/HowToLiveBetter)이 우선합니다. 본문이 바뀔 때마다 자동으로 다시 만들고, 내려받기 주소는 그대로입니다."
+          if gh release view kr-ebook-latest >/dev/null 2>&1; then
+            gh release edit kr-ebook-latest --title "한국어판 전자책 (EPUB / PDF / HTML, 자동 갱신)" --notes "$notes"
+          else
+            gh release create kr-ebook-latest --title "한국어판 전자책 (EPUB / PDF / HTML, 자동 갱신)" --notes "$notes" --latest=false
+          fi
+          gh release upload kr-ebook-latest \
+            dist-kr/HowToLiveBetter-KR.epub \
+            dist-kr/HowToLiveBetter-KR.pdf \
+            dist-kr/HowToLiveBetter-KR.html --clobber
+
+  # 웹 리더 배포. main push와 수동 실행에서만 돈다.
+  pages:
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/configure-pages@v5
+      - id: deployment
+        uses: actions/deploy-pages@v4

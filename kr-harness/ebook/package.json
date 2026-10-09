@@ -1,0 +1,19 @@
+{
+  "name": "howtolivebetter-kr-ebook",
+  "private": true,
+  "type": "module",
+  "description": "book-kr/의 공개(✅) 절을 EPUB·PDF·오프라인 HTML·웹 리더로 빌드",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "epub": "node epub.mjs",
+    "offline": "node offline.mjs",
+    "site": "node site.mjs",
+    "pdf": "node pdf.mjs",
+    "build": "node epub.mjs && node offline.mjs && node site.mjs && node pdf.mjs"
+  },
+  "dependencies": {
+    "marked": "18.0.13"
+  }
+}
