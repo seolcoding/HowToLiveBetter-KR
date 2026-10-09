@@ -47,13 +47,14 @@
 3. **조사**: [.claude/skills/kr-localize/references/kr-sources.md](.claude/skills/kr-localize/references/kr-sources.md)의 1차 출처 목록으로 검색·확인한다. 열람 URL과 확인일을 메모로 남긴다.
 4. **작성**: 항목 형식대로 한국어로 쓴다. 문체 규칙을 적용한다.
 5. **자체 검증**: 아래 체크리스트.
-6. **상태 갱신**: `book-kr/README.md` 표에서 ⬜ → 🟦(작업중) → ✅.
+6. **상태 갱신**: `book-kr/README.md` 표에서 ⬜ → 🟦(작업중) → ✅. ✅는 아래 체크리스트의 적합성 게이트(kr-fit + KR-FIT 리뷰)를 통과한 절에만 준다.
 7. **윤문(S6)과 항목별 개선(S7)**: 문체 변환(S4)과 검증(S5) 뒤에 `/kr-polish RNN`(kr-polisher 에이전트)을 실행하고, 이어서 `/kr-refine RNN`을 실행한다. 대기열과 규칙은 [kr-harness/polish-queue.md](kr-harness/polish-queue.md), 운영 노하우는 [kr-harness/LESSONS.md](kr-harness/LESSONS.md).
 
 ## 자체 검증 체크리스트 (절 1개 완료 기준)
 
-- [ ] 중국 잔재 스캔: `人民币`, `元`(화폐 뜻일 때), `医保`, `社保`, `公积金`, `低保`, `劳动仲裁`, `淘宝`, `微信`, `12356`, `12315`, `12378`, `96110` — grep으로 잡히는 줄을 전부 처리했는가
-- [ ] 전화번호가 전부 한국 번호인가 (kr-sources.md 치환표와 대조)
+- [ ] 기계 검사 `node .claude/skills/kr-verify/scripts/kr-fit.mjs N --check`가 block 0인가. 중국 화폐·기관·사회보장·서비스·법령명·단위(음역·한자·직역), 중국 전화번호, 한국에서 뜻이 다른 번호(110·120), 통합된 번호(1393→109), 허용 목록 밖 번호, 본문 한자, 법·제도 항목의 중국 정부 출처를 잡는다. 항목 구조(KF-STRUCT: 여섯 칸이 줄 머리에 한 번씩 순서대로 있는지, 칸이 다른 줄에 붙지 않았는지, 비용태그 주석이 있는지)도 본다. 규칙과 한국 번호 허용 목록(번호마다 1차 출처 URL)은 [kr-fit-rules.json](.claude/skills/kr-verify/references/kr-fit-rules.json)에 있다. warn도 읽고 처리했는가. 의도된 비교는 `<!-- kr-fit-ok: 사유 -->`로 표시했는가(사유가 비면 실패)
+- [ ] 내용 검토 `kr-harness/chapters/NN/kr-fit-review.md`(kr-fit-reviewer, 한국 1차 출처 직접 확인)의 마지막 줄이 `KR-FIT: pass blockers=0 sha256=<64자>`이고, 그 해시가 지금 본문 해시(`node .claude/skills/kr-verify/scripts/kr-fit.mjs N --hash`)와 같은가. 리뷰 뒤에 본문을 고쳤으면 해시가 달라지므로 다시 검토받는다. 한국에 없는 제도 전제, 다른 담당 기관, 한국 법과 다른 숫자, 중국 생활 맥락, 번역투 기관명은 이 검토가 본다
+- [ ] `node .claude/skills/kr-pipeline/scripts/pipeline.mjs gate N`이 통과하는가. kr-fit block 0, 리뷰 pass, 리뷰 해시 일치 세 조건을 못 넘으면 ✅로 두지 않는다(CI 「한국 적합성 게이트」가 실패한다)
 - [ ] 인용한 법령 조문마다 국가법령정보센터에서 원문을 열어봤는가
 - [ ] DOI·PubMed 링크가 원본과 동일한가 (의도치 않게 바꾸면 안 된다)
 - [ ] 50자 초과 문장·번역테·AI腔이 없는가 (humanize-kr.md 기준)

@@ -8,10 +8,19 @@
 //        → 7-refined > 6-polished > 4-styled 중 최상위를 book-kr/에 조립하고 README 표를 ✅로
 //   node .claude/skills/kr-pipeline/scripts/pipeline.mjs launch [N...] [--until S8] [--env kr-research]
 //        → 절마다 claude.ai/code 세션 미리 채우기 URL(N 생략 시 다음 후보 5개). 절 하나 = 세션 하나 = 브랜치 하나로 병렬 실행
+//   node .claude/skills/kr-pipeline/scripts/pipeline.mjs gate [N...|--all-done] [--demote|--promote] [--save]
+//        → 한국 적합성 게이트: ① kr-fit --check 통과 ② kr-harness/chapters/NN/kr-fit-review.md 마지막 줄 KR-FIT: pass blockers=0
+//          ③ 그 줄의 sha256=이 지금 검사 대상 본문의 해시(kr-fit.mjs <대상> --hash)와 같음. 셋 다 필요하다.
+//          해시가 없거나 다르면 「리뷰가 본문보다 오래됨 → 재검토 필요」로 실패. 하나라도 실패하면 종료코드 1.
+//          --demote: 실패한 ✅ 절을 🟨로 내림. --promote: 통과한 🟨 절을 ✅로 올림.
+//          --save: kr-harness/chapters/NN/kr-fit-lint.txt 저장(내용이 같으면 안 씀). 없으면 파일을 쓰지 않는다(CI용).
+//
+// ✅의 조건(2026-10-10): S5 검증 + 적합성 게이트. assemble은 게이트를 통과하지 못하면 조립하지 않는다(우회 플래그 없음).
 import { readdirSync, readFileSync, writeFileSync, existsSync, statSync, mkdirSync, copyFileSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { spawnSync } from 'node:child_process';
+import { lintFile, saveLint, fileHash } from '../../kr-verify/scripts/kr-fit.mjs';
 
 const findRoot = () => {
   let d = dirname(fileURLToPath(import.meta.url));
@@ -35,6 +44,54 @@ const jwrite = (p, o) => writeFileSync(p, JSON.stringify(o, null, 2) + '\n', 'ut
 const today = () => new Date().toISOString().slice(0, 10);
 const nn = (n) => String(n).padStart(2, '0');
 const dirs = (p) => (existsSync(p) ? readdirSync(p).filter((d) => statSync(join(p, d)).isDirectory()).sort() : []);
+
+// ---- 한국 적합성 게이트 ----
+// 검사 대상: README가 ✅·🟨(이미 book-kr/에 들어간 절)이면 book-kr/NN-*.md — 독자가 보는 본문이고 1-C 수정도 여기서 한다.
+// 그 밖에 조립 전인 주력 실행이 있으면 그 실행의 최상위 산출물(7>6>4). main=null이면 book-kr.
+const bookKrFile = (n) => {
+  const f = existsSync(BOOKKR) ? readdirSync(BOOKKR).find((x) => x.startsWith(`${nn(n)}-`) && x.endsWith('.md')) : null;
+  return f ? join(BOOKKR, f) : null;
+};
+// 리뷰 판정은 kr-fit-review.md의 마지막 비어 있지 않은 줄만 읽는다. 형식: KR-FIT: pass|fail blockers=N sha256=<64자>
+// sha256은 검토 시점 대상 본문의 해시(kr-fit.mjs <대상> --hash, 정규화 규칙은 kr-fit.mjs의 normalizeForHash).
+// 지금 본문의 해시와 다르거나 없으면 review='stale'(리뷰가 본문보다 오래됨 → 재검토 필요). 우회 수단은 없다.
+const reviewOf = (n, targetPath) => {
+  const p = join(CHAPTERS, nn(n), 'kr-fit-review.md');
+  if (!existsSync(p)) return { review: '없음', blockers: null, verdict: null, hash: null };
+  const last = read(p).split(/\r?\n/).map((l) => l.trim()).filter(Boolean).at(-1) ?? '';
+  const m = last.match(/^KR-FIT:\s*(pass|fail)\s+blockers=(\d+)(?:\s+sha256=(\S+))?$/);
+  if (!m) return { review: '형식 오류', blockers: null, verdict: null, hash: null };
+  const blockers = Number(m[2]);
+  const verdict = m[1] === 'pass' && blockers === 0 ? 'pass' : 'fail';
+  if (!m[3]) return { review: 'stale', stale: '해시 없음', verdict, blockers, hash: null };
+  if (!/^[0-9a-f]{64}$/.test(m[3])) return { review: '형식 오류', verdict, blockers, hash: null };
+  if (!targetPath || m[3] !== fileHash(targetPath)) return { review: 'stale', stale: '해시 불일치', verdict, blockers, hash: m[3] };
+  return { review: verdict, verdict, blockers, hash: m[3] };
+};
+const gateOf = (n, main) => {
+  const runFile = main && main.status !== 'assembled'
+    ? ['7-refined.md', '6-polished.md', '4-styled.md'].map((f) => join(RUNS, main.dir, f)).find((p) => existsSync(p))
+    : null;
+  const target = runFile ?? bookKrFile(n);
+  if (!target || !/^### /m.test(read(target))) return null; // 본문이 없는 자리표시 파일
+  const lint = lintFile(target);
+  const rv = reviewOf(n, target);
+  const ok = lint.block === 0 && rv.review === 'pass';
+  return { target: lint.file, targetPath: target, lint: lint.block ? 'fail' : 'pass', lintBlock: lint.block, lintWarn: lint.warn, review: rv.review, stale: rv.stale ?? null, verdict: rv.verdict, blockers: rv.blockers, ok };
+};
+const gateText = (g) => {
+  if (!g) return '게이트 - (검사할 본문 없음)';
+  const lint = g.lint === 'pass' ? '✓' : `✗ block ${g.lintBlock}`;
+  const review = g.review === 'stale' ? `오래됨(${g.stale}, 기록 판정 ${g.verdict}) → 재검토 필요` : g.review;
+  return `게이트 ${g.ok ? '통과' : '미통과'}: kr-fit ${lint}${g.lintWarn ? ` warn ${g.lintWarn}` : ''} · 리뷰 ${review}${g.blockers ? ` blockers=${g.blockers}` : ''} (${g.target})`;
+};
+const gateAction = (n, g) => [
+  g.lint === 'fail' ? `kr-fit.mjs ${n}의 block 처리` : null,
+  g.review === 'pass' ? null
+    : g.review === 'fail' ? `kr-fit-review.md의 block·삭제 권고 ${g.blockers}건 수정 후 kr-fit-reviewer로 재검토`
+    : g.review === 'stale' ? `리뷰가 본문보다 오래됨(${g.stale}) → kr-fit-reviewer로 제${n}절 재검토 필요(마지막 줄 sha256=은 kr-fit.mjs ${g.target} --hash)`
+    : `kr-fit-reviewer 서브에이전트로 제${n}절 검토(리뷰 ${g.review})`,
+].filter(Boolean).join(' → ');
 
 const STAGE_FILES = [['7-refined.md', 'S7'], ['6-polished.md', 'S6'], ['5-verify.md', 'S5'], ['4-styled.md', 'S4']];
 
@@ -70,8 +127,14 @@ const chapterStatus = (n, rows) => {
   else if (main.stage === 'S6') next = { stage: 'S7', action: `kr-refine 스킬로 ${main.id} 항목별 개선 (항목마다 kr-entry-refiner)` };
   else if (row.status !== '✅') next = { stage: 'S8', action: `verify.mjs ${main.id} → pipeline.mjs assemble ${main.id}` };
   else next = { stage: '완료', action: 'TODO 2차 조사만 남음' };
+  const inBook = row.status === '✅' || row.status === '🟨';
+  const gate = inBook || next.stage === 'S8' ? gateOf(n, inBook ? null : main) : null;
+  if (next.stage === 'S8' || row.status === '✅') {
+    if (!gate) next = { stage: '게이트', action: '검사할 본문이 없음 — 조립·상태를 확인' };
+    else if (!gate.ok) next = { stage: '게이트', action: gateAction(n, gate) + (row.status === '✅' ? ' (✅인데 게이트 미통과: 고치거나 pipeline.mjs gate N --demote)' : ' → 통과하면 assemble') };
+  } else if (row.status === '🟨' && gate?.ok) next = { stage: '게이트', action: `게이트 통과 — pipeline.mjs gate ${n} --promote` };
   if (main?.verify === '반려') next = { stage: '수정', action: `${main.id} 반려 — 5-verify.md 이슈부터 해결` };
-  return { n, title: row.title ?? '?', grade: row.grade ?? '?', readme: row.status ?? '?', made, runs, main: main?.id ?? null, next };
+  return { n, title: row.title ?? '?', grade: row.grade ?? '?', readme: row.status ?? '?', made, runs, main: main?.id ?? null, gate, next };
 };
 
 const [cmd, ...argv] = process.argv.slice(2);
@@ -89,10 +152,11 @@ if (cmd === 'status' || !cmd) {
   const mark = (b) => (b ? '■' : '□');
   for (const s of st) {
     const runs = s.runs.map((r) => `${r.id}${r.style}:${r.stage}${r.verify ? '/' + r.verify : ''}`).join(' ');
-    console.log(`제${nn(s.n)}절 ${s.readme} ${s.grade} ${s.title.padEnd(14, ' ')} 제작${s.made.map(mark).join('')}  ${runs || '-'}\n        → [${s.next.stage}] ${s.next.action}`);
+    console.log(`제${nn(s.n)}절 ${s.readme} ${s.grade} ${s.title.padEnd(14, ' ')} 제작${s.made.map(mark).join('')}  ${runs || '-'}${s.gate || s.readme === '✅' ? `\n        ${gateText(s.gate)}` : ''}\n        → [${s.next.stage}] ${s.next.action}`);
   }
   const done = st.filter((s) => s.readme === '✅').length;
-  console.log(`\n완료 ${done}/${st.length}절. 다음 후보(🟢·🟡 우선): ${nextCandidates(st).join(', ')}`);
+  const bad = st.filter((s) => s.readme === '✅' && !s.gate?.ok).map((s) => s.n);
+  console.log(`\n완료 ${done}/${st.length}절(그중 적합성 게이트 미통과 ${bad.length}개${bad.length ? ': ' + bad.join(', ') : ''}). 다음 후보(🟢·🟡 우선): ${nextCandidates(st).join(', ')}`);
 } else if (cmd === 'new-run') {
   const n = Number(pos[0]);
   const style = String(flag('style', 'B'));
@@ -123,6 +187,12 @@ if (cmd === 'status' || !cmd) {
   if (!meta.verify) { console.error(`${id}: 검증 기록 없음 — verify.mjs ${id} 먼저`); process.exit(1); }
   if (meta.verify === '반려') { console.error(`${id}: 반려 판정 — 조립 불가`); process.exit(1); }
   const [srcName] = STAGE_FILES.find(([f]) => f !== '5-verify.md' && existsSync(join(dir, f))) ?? [];
+  // 적합성 게이트: 조립할 산출물의 kr-fit --check 통과 + 리뷰 KR-FIT: pass + 리뷰 sha256 = 이 산출물의 해시. 우회 플래그는 두지 않는다.
+  const g = gateOf(Number(cfg.chapter), { dir: d, status: 'unassembled' });
+  if (!g?.ok) {
+    console.error(`${id}: 적합성 게이트 미통과 — 조립 불가. ${gateText(g)}\n  할 일: ${g ? gateAction(cfg.chapter, g) : '산출물 없음'}`);
+    process.exit(1);
+  }
   const body = read(join(dir, srcName));
   const target = readdirSync(BOOKKR).find((f) => f.startsWith(`${nn(cfg.chapter)}-`) && f.endsWith('.md'));
   if (!target) { console.error(`book-kr/${nn(cfg.chapter)}-*.md 없음`); process.exit(1); }
@@ -149,7 +219,39 @@ if (cmd === 'status' || !cmd) {
     const q = new URLSearchParams({ prompt: `/kr-pipeline ${n} --until ${until}`, repositories: repo, environment: env });
     console.log(`제${nn(Number(n))}절  https://claude.ai/code?${q.toString().replace(/\+/g, '%20')}`);
   }
+} else if (cmd === 'gate') {
+  const rows = readmeRows();
+  const ns = argv.includes('--all-done')
+    ? Object.entries(rows).filter(([, r]) => r.status === '✅').map(([n]) => Number(n))
+    : pos.map(Number);
+  if (!ns.length) { console.error('사용: pipeline.mjs gate N... | --all-done [--demote|--promote] [--save]'); process.exit(2); }
+  const readme = join(BOOKKR, 'README.md');
+  const setStatus = (n, mark, label) => {
+    const re = new RegExp(`^(\\|\\s*${n}\\s*\\|(?:[^|]*\\|){3}\\s*)\\S+(\\s*\\|)$`, 'm');
+    writeFileSync(readme, read(readme).replace(re, `$1${mark}$2`), 'utf8');
+    const f = bookKrFile(n);
+    if (f) writeFileSync(f, read(f).replace(/^> \*\*상태: [^*]*\*\*/m, `> **상태: ${label}**`), 'utf8');
+  };
+  let fail = 0;
+  for (const n of ns) {
+    const s = chapterStatus(n, rows);
+    const g = s.gate ?? gateOf(n, null);
+    console.log(`제${nn(n)}절 ${s.readme} ${gateText(g)}${g && !g.ok ? `\n        → ${gateAction(n, g)}` : ''}`);
+    // kr-harness/chapters/NN/kr-fit-lint.txt는 --save일 때만, 내용이 바뀌었을 때만 쓴다(CI에서는 부작용 없음).
+    if (g && argv.includes('--save') && saveLint(n, lintFile(g.targetPath))) console.log(`        kr-harness/chapters/${nn(n)}/kr-fit-lint.txt 갱신`);
+    if (!g?.ok) fail++;
+    if (argv.includes('--demote') && s.readme === '✅' && !g?.ok) {
+      setStatus(n, '🟨', `🟨 적합성 게이트 미통과(${today()}) — ${g ? gateAction(n, g) : '본문 없음'}`);
+      console.log(`        README 제${n}절 ✅ → 🟨`);
+    }
+    if (argv.includes('--promote') && s.readme === '🟨' && g?.ok) {
+      setStatus(n, '✅', `✅ 현지화·검증·적합성 게이트 통과(${today()})`);
+      console.log(`        README 제${n}절 🟨 → ✅`);
+    }
+  }
+  console.log(`\n게이트 ${fail ? `미통과 ${fail}/${ns.length}절` : `통과 ${ns.length}/${ns.length}절`}`);
+  if (fail) process.exit(1);
 } else {
-  console.error('사용: pipeline.mjs status|new-run|assemble|launch ...');
+  console.error('사용: pipeline.mjs status|new-run|assemble|launch|gate ...');
   process.exit(2);
 }

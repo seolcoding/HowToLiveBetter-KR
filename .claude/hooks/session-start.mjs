@@ -27,7 +27,12 @@ if (existsSync(pipeline)) {
     const st = JSON.parse(r.stdout);
     const done = st.filter((s) => s.readme === '✅').length;
     const active = st.filter((s) => s.next.stage !== '완료' && s.next.stage !== 'S1-S3');
+    const gateBad = st.filter((s) => s.readme === '✅' && !s.gate?.ok).map((s) => s.n);
     out.push(`[kr-harness] 한국어판 ${done}/34절 완료. 진행 중인 절 ${active.length}개.`);
+    if (gateBad.length) out.push(`[kr-harness] 경고: ✅인데 한국 적합성 게이트 미통과 ${gateBad.length}절(${gateBad.join(', ')}). CI가 실패한다. pipeline.mjs gate --all-done 참고.`);
+    // 리뷰 마지막 줄의 sha256=이 지금 본문과 다르거나 없는 절: 본문이 리뷰 뒤에 바뀌었으니 kr-fit-reviewer로 다시 검토해야 한다.
+    const stale = st.filter((s) => s.gate?.review === 'stale').map((s) => `${s.n}(${s.gate.stale})`);
+    if (stale.length) out.push(`[kr-harness] 리뷰가 본문보다 오래됨 → 재검토 필요 ${stale.length}절: ${stale.join(', ')}. 마지막 줄 해시는 kr-fit.mjs <대상> --hash.`);
     for (const s of active.slice(0, 5)) out.push(`  - 제${s.n}절 → [${s.next.stage}] ${s.next.action}`);
     const fresh = st.filter((s) => s.next.stage === 'S1-S3').sort((a, b) => '🟢🟡🔴'.indexOf(a.grade) - '🟢🟡🔴'.indexOf(b.grade));
     if (fresh.length) out.push(`[kr-harness] 새로 시작할 후보(🟢·🟡 우선): ${fresh.slice(0, 6).map((s) => `${s.n}${s.grade}`).join(' ')}`);

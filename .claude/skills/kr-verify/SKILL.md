@@ -25,6 +25,27 @@ node .claude/skills/kr-verify/scripts/report.mjs            # kr-harness/report.
 
 판정: 이슈 1~4가 있으면 **반려**, 50자 초과만 있으면 **조건부 통과**, 없으면 **통과**.
 
+## 한국 실정 적합성 기계 검사 `kr-fit.mjs` (게이트 1/2)
+
+```bash
+node .claude/skills/kr-verify/scripts/kr-fit.mjs 14                # 제14절 book-kr 본문
+node .claude/skills/kr-verify/scripts/kr-fit.mjs kr-harness/runs/R09-14-styleB/7-refined.md   # 조립 전 산출물
+node .claude/skills/kr-verify/scripts/kr-fit.mjs --all-done --check   # README ✅ 절 전부, block 있으면 종료코드 1 (CI)
+node .claude/skills/kr-verify/scripts/kr-fit.mjs 14 --json | --save   # JSON 출력 / kr-harness/chapters/14/kr-fit-lint.txt 저장(같으면 안 씀)
+node .claude/skills/kr-verify/scripts/kr-fit.mjs 14 --hash   # 본문 sha256(LF 정규화, 상태 배너 제외) — kr-fit-review.md 마지막 줄 sha256= 값
+```
+
+규칙은 [references/kr-fit-rules.json](references/kr-fit-rules.json)에 데이터로 있다. 규칙 ID:
+
+- `KF-CUR` 중국 화폐(숫자+위안, 위안화, 인민폐, 元) · `KF-ADM` 중국 행정·사법 기관(공안국, 인민법원, 성(省), 호구 등록 …) · `KF-PROV` 중국 성 이름(warn) · `KF-SOC` 중국 사회보장(공적금, 최저생활보장, 노동중재 …) · `KF-SOC-AMB` 애매한 제도 용어(warn) · `KF-SVC` 중국 앱·서비스·행사·학제(위챗, 타오바오, 솽스이, 가오카오 …) · `KF-LAW` 중국 법령명 직역(민법전, 노동계약법 …) · `KF-UNIT` 중국식 단위(숫자+근 등, warn) · `KF-CN-STD` 중국 기준·지침을 본문에서 사용(warn)
+- `KF-PHONE-CN` 중국 번호 · `KF-PHONE-MEANING` 한국에서 뜻이 다른 번호(110 정부민원/112 경찰, 120 다산콜/119 구급 — 경찰·구급 문맥이면 block, 애매하면 warn) · `KF-PHONE-RETIRED` 통합된 번호(1393→109) · `KF-PHONE-UNKNOWN` 허용 목록 밖 번호(warn)
+- `KF-HAN` 본문 한자(출처 줄 제외) · `KF-HAN-GLOSS` 한글 뒤 괄호 한자(warn) · `KF-SRC-CNGOV` 법·제도 항목인데 출처의 정부 도메인이 중국뿐(block), 한국 출처와 섞이면 warn. 의학 DOI는 대상이 아니다.
+- `KF-OK-EMPTY` 사유 없는 예외 표시
+
+block은 TODO 절, 출처 줄(용어), 같은 문장에 비교 문맥(중국·원문·「한국에는 없다」)이 있으면 warn으로 내려간다. 의도된 예외는 같은 줄이나 바로 윗줄에 `<!-- kr-fit-ok: 사유 -->`. 한국 번호 허용 목록은 번호마다 1차 출처 URL과 확인일이 있다. 새 번호는 공식 사이트에서 확인한 뒤에만 넣는다.
+
+게이트 2/2(내용 검토)는 [kr-fit-review](../kr-fit-review/SKILL.md), 둘을 합친 판정은 `pipeline.mjs gate N`. 게이트는 리뷰 마지막 줄의 sha256이 지금 본문의 `--hash` 값과 같아야 통과한다(리뷰 뒤 본문이 바뀌면 재검토).
+
 ## 기계 검사가 못 잡는 것
 
 전화번호 치환의 정확성, 법령 조문 원문 열람 여부, 번역테·AI腔은 사람이나 서브에이전트가 본다. KR-GUIDE.md 체크리스트를 따른다. 오탐 사례(걸음 수 10000, `.md` 경로의 한자)는 이미 제외돼 있다([LESSONS.md](../../../kr-harness/LESSONS.md) L5).

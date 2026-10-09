@@ -11,16 +11,8 @@
 // 클라우드 세션은 중간에 VM이 쉬었다 깨어날 수 있으므로 split은 이미 있는 출력을 지우지 않는다(--force일 때만 초기화).
 import { readFileSync, writeFileSync, existsSync, mkdirSync, rmSync, readdirSync } from 'node:fs';
 import { join, resolve, dirname, relative } from 'node:path';
-
-const FIELDS6 = ['- 비용:', '- 쉽게:', '- 이득:', '- 근거등급:', '- 출처:', '- 비고:'];
-
-const splitEntries = (md) => {
-  const todoIdx = md.search(/^## TODO/m);
-  const body = todoIdx === -1 ? md : md.slice(0, todoIdx);
-  const tail = todoIdx === -1 ? '' : md.slice(todoIdx);
-  const parts = body.split(/^(?=### )/m);
-  return { intro: parts[0], entries: parts.slice(1), tail };
-};
+// 칸 정의·분할·구조 검사는 kr-fit.mjs(KF-STRUCT)와 공유한다.
+import { splitEntries, structureIssues } from './entry-format.mjs';
 
 // 숫자·URL은 항목 개선 전후로 같아야 한다(쉽게: 칸 포함). 순서는 바뀔 수 있으니 다중집합으로 비교.
 const facts = (txt) => {
@@ -42,14 +34,7 @@ const diffMulti = (a, b) => {
 export const checkEntry = (out, inp) => {
   const errs = [];
   const lines = out.split(/\r?\n/);
-  if (!/^### /.test(out)) errs.push('첫 줄이 ### 제목이 아님');
-  if (!out.includes('成本标签:')) errs.push('비용태그 주석 줄 없음');
-  for (const f of FIELDS6) {
-    const n = lines.filter((l) => l.startsWith(f)).length;
-    if (n !== 1) errs.push(`${f} ${n}회(정확히 1회여야 함)`);
-  }
-  const order = FIELDS6.map((f) => lines.findIndex((l) => l.startsWith(f)));
-  if (order.every((i) => i >= 0) && order.some((v, i) => i && v < order[i - 1])) errs.push('필드 순서가 원문과 다름');
+  for (const x of structureIssues(lines)) if (x.severity === 'block') errs.push(x.msg);
   if ((out.match(/^### /gm) || []).length !== 1) errs.push('### 제목이 1개가 아님(블록 중복)');
   if (inp) {
     const t0 = inp.split(/\r?\n/)[0].trim(), t1 = lines[0].trim();
