@@ -38,6 +38,14 @@ description: book/의 절(章) 하나를 한국 현지화 파이프라인의 S1-
 - 나무위키·블로그·지식in·언론 단신은 출처가 아니다. 힌트로만 쓴다. 언론 보도는 원본 CLAUDE.md의 「一手媒体报道」 5조건을 모두 만족할 때만.
 - 못 찾은 것은 찾은 척하지 않는다: `TODO 확인 필요`.
 
+#### 네트워크 요령 (2026-10-10 클라우드 VM 실측)
+- law.go.kr은 연결이 자주 끊긴다(curl 8번 중 5번 성공). 한두 번 실패는 막힌 것이 아니다. `curl -sS --retry 5 --retry-all-errors --retry-delay 2 -m 30 <URL>`로 다시 시도한다.
+- `https://www.law.go.kr/법령/…` 한글 주소는 자바스크립트 화면이라 본문이 안 나온다. `LSW/lsInfoP.do?lsiSeq=…`, `LSW/lsInfoR.do?…`, `LSW/lsBdyPrint.do?…`, 조문 단위 `LSW/lsSideInfoP.do?…&joNo=…`를 쓴다. lsiSeq는 WebSearch나 law.go.kr 검색 결과에서 얻는다.
+- nhis.or.kr, moel.go.kr 같은 기관 사이트는 curl이 거의 실패하고 WebFetch로는 열린다. 기관 사이트는 WebFetch를 먼저 쓴다.
+- europepmc.org 화면은 403이다. REST API `https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:<doi>&format=json&resultType=core`를 쓴다. doi.org, pubmed.ncbi.nlm.nih.gov는 정상이다.
+- web.archive.org는 막혀 있다. 한국어판은 보관 링크를 요구하지 않는다.
+- 끝내 원문을 열지 못하면 지어내지 않고 `TODO 확인 필요`로 남긴다.
+
 ### S3 초역
 - 항목 형식은 KR-GUIDE.md 예제 그대로. 필드 6종(비용/쉽게/이득/근거등급/출처/비고)을 이 순서로 한 번씩.
 - 비용태그 주석 줄(`<!-- 成本标签: ... -->`)은 원문 그대로 복사한다.
@@ -46,7 +54,7 @@ description: book/의 절(章) 하나를 한국 현지화 파이프라인의 S1-
 - 법·제도 항목: 2-research.md에서 확인한 한국 조문·기관·금액으로 새로 쓴다. 원문의 사고방식(비용 대비 결과, 과정 비용까지 말하기)은 유지한다.
 - 이식 불가 항목: 빼거나 "한국에는 이 제도가 없다"고 명시하고, 1-analysis.md에 이유를 남긴다.
 - 갈아낸 항목의 비고에 확인일: `2026-10-07 법령 확인(국가법령정보센터)`.
-- 교차 참조 "제N절 M번(앵커어)"의 앵커어는 한국어 제목에서 뽑는다.
+- 교차 참조는 KR-GUIDE 「참조 표기」대로 쓴다. 같은 절은 `제M항(앵커어)`, 다른 절은 `제N절(주제)`, 다른 절의 항목은 `제N절 제M항(앵커어)`. 주제는 book-kr/README.md 표의 한국어 제목 그대로, 앵커어는 대상 항목의 한국어 제목에서 뽑는다. 대상 절이 아직 안 나왔어도 「(준비 중)」「다룰 예정」을 붙이지 않는다.
 
 ## 자체 검증
 

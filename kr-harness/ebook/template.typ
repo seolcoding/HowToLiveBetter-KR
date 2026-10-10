@@ -1,5 +1,5 @@
 $--
-$-- 한국어판 PDF용 pandoc typst 템플릿. $body$와 -V 변수 몇 개만 쓴다(pdf.mjs 참고).
+$-- 한국어판 PDF용 pandoc typst 템플릿. $body$와 -V 변수 몇 개만 쓴다(pdf.mjs 참고). pendingline은 공개 예정 절이 있을 때만 온다.
 $-- 판면 규칙은 tools/pdf/template.typ(upstream)를 따르되 글꼴·언어만 한국어로 바꿨다. upstream 파일은 고치지 않는다.
 $-- 처음부터 divider까지는 pandoc이 만든 본문이 쓰는 보조 정의(`pandoc -D typst`에서 옮김). 지우지 않는다.
 $--
@@ -77,6 +77,11 @@ $--
 // ---------- 목차 ----------
 #pagebreak()
 #outline(title: [목차], depth: 1, indent: 1em)
+$if(pendingline)$
+// 공개 예정 절은 목차에 하나씩 싣지 않고 끝에 한 줄로 적는다(pdf.mjs가 -V pendingline으로 넘긴다).
+#v(1.2em)
+#text(9.5pt, fill: luma(90))[$pendingline$]
+$endif$
 
 // ---------- 본문 ----------
 #pagebreak(weak: true)

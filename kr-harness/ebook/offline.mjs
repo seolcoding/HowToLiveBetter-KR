@@ -1,6 +1,7 @@
 // 공개(✅) 절 전부를 파일 하나짜리 HTML로 묶는다. 두 번 눌러 열면 인터넷 없이 읽히고, 외부 요청을 하나도 하지 않는다.
 // 용법: node kr-harness/ebook/offline.mjs [출력 경로]   기본 dist-kr/HowToLiveBetter-KR.html
 // 스타일·스크립트·검색 색인을 모두 인라인으로 넣는다. 웹 리더와 같은 reader.css·reader.js를 쓴다.
+// 다른 절 참조는 같은 문서 안 앵커(#chNN-eM, 항목이 없으면 #chNN-top)로 바뀐다.
 import { writeFileSync, mkdirSync } from 'node:fs';
 import { resolve, dirname } from 'node:path';
 import { DIST, ROOT, SITE, BASENAME, esc, readKrBook, renderChapter, searchIndex, logSummary, readAsset, fileSize, kb } from './lib.mjs';

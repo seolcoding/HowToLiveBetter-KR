@@ -98,6 +98,9 @@ del { text-decoration: line-through; }
 .meta { color: var(--muted); font-size: 0.92rem; }
 
 .progress { margin: 1.2em 0; }
+.progress .prog-row { margin: 0.5em 0 0.9em; }
+.progress .prog-label { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.1em 0.6em; margin: 0 0 0.25em; }
+.progress .prog-pct { color: var(--muted); font-size: 0.92rem; font-variant-numeric: tabular-nums; }
 .progress .bar { height: 0.8em; background: var(--badge-bg); border: 1px solid var(--border); border-radius: 999px; overflow: hidden; }
 .progress .bar span { display: block; height: 100%; background: var(--bar); }
 
@@ -107,6 +110,18 @@ del { text-decoration: line-through; }
 .chapters .count { color: var(--muted); font-size: 0.9rem; }
 .chapters li.pending .title { color: var(--muted); }
 .badge { display: inline-block; font-size: 0.82rem; line-height: 1.5; padding: 0 0.55em; border-radius: 999px; background: var(--badge-bg); color: var(--badge-fg); }
+details.pending-group { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 0.4em 0.9em; margin: 1em 0; }
+details.pending-group summary { cursor: pointer; font-weight: 700; padding: 0.3em 0; }
+details.pending-group .chapters { margin: 0.3em 0 0.4em; }
+details.pending-group .chapters li:last-child { border-bottom: 0; }
+
+/* 다른 절 참조. 공개 예정 절은 링크 없이 흐리게, 「공개 예정」 글자는 화면 낭독기에도 그대로 읽힌다. */
+.ref-pending { color: var(--muted); }
+.ref-badge {
+  display: inline-block; font-size: 0.78em; line-height: 1.45; padding: 0 0.5em; margin: 0 0.1em;
+  border: 1px dashed var(--border); border-radius: 999px; background: var(--badge-bg); color: var(--badge-fg);
+  white-space: nowrap; vertical-align: 0.06em;
+}
 
 .search label { display: block; font-weight: 700; margin-bottom: 0.3em; }
 .search input {

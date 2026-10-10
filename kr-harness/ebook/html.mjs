@@ -65,13 +65,39 @@ export function footer(book, { offline = false } = {}) {
 </footer>`;
 }
 
-// 첫 화면 본문: 제목, 비공식판 안내, 진행률, 검색, 차례(34절), 내려받기.
+// 진행 막대 두 줄: 공개 절 수/전체 절 수, 공개 항목 수/원문 항목 수.
+export function progressBars(book) {
+  const { chapters: pc, entries: pe } = book.progress;
+  const row = (name, p, unit, aria) => `<div class="prog-row">
+<p class="prog-label"><span class="prog-name">${name}</span> <strong>${p.now}/${p.total}${unit}</strong> <span class="prog-pct">${p.pct}%</span></p>
+<div class="bar" role="img" aria-label="${esc(aria)}"><span style="width:${p.pct}%"></span></div>
+</div>`;
+  return `<section class="progress" aria-labelledby="progress-h">
+<h2 id="progress-h" class="sr-only">진행 상황</h2>
+${row('공개한 절', pc, '절', `전체 ${pc.total}절 중 ${pc.now}절 공개(${pc.pct}%)`)}
+${row('공개한 항목', pe, '항목', `원문 ${pe.total}항목 중 ${pe.now}항목 공개(${pe.pct}%)`)}
+</section>`;
+}
+
+// 차례: 공개 절을 절 번호 순으로 위에, 공개 예정 절은 접힌 묶음 하나로.
+export function chapterList(book, chapterHref) {
+  const ready = book.ready.map(c => `<li><span class="num">${c.num}.</span> <a class="title" href="${chapterHref(c)}">${esc(c.title)}</a> <span class="count">항목 ${c.entries.length}개</span></li>`);
+  const pending = book.pending.map(c => `<li class="pending"><span class="num">${c.num}.</span> <span class="title">${esc(c.title)}</span></li>`);
+  return `<ol class="chapters">
+${ready.join('\n')}
+</ol>${pending.length ? `
+<details class="pending-group" id="pending">
+<summary>공개 예정 ${pending.length}절</summary>
+<p class="meta">현지화와 검증이 끝나는 대로 차례로 공개합니다. 본문에서 이 절들을 가리키는 곳에는 「공개 예정」이라고 표시해 두었습니다.</p>
+<ol class="chapters">
+${pending.join('\n')}
+</ol>
+</details>` : ''}`;
+}
+
+// 첫 화면 본문: 제목, 비공식판 안내, 진행 막대, 검색, 차례(공개 절 + 공개 예정 묶음), 내려받기.
 export function homeMain(book, { chapterHref, indexUrl, downloads = true }) {
   const f = frontFacts(book);
-  const pct = Math.round(book.ready.length / book.chapters.length * 100);
-  const rows = book.chapters.map(c => c.ready
-    ? `<li><span class="num">${c.num}.</span> <a class="title" href="${chapterHref(c)}">${esc(c.title)}</a> <span class="count">항목 ${c.entries.length}개</span></li>`
-    : `<li class="pending"><span class="num">${c.num}.</span> <span class="title">${esc(c.title)}</span> <span class="badge">준비 중</span></li>`);
   return `<main id="main" class="wrap" tabindex="-1">
 <h1>${esc(book.title)}</h1>
 <div class="notice" role="note">
@@ -79,11 +105,7 @@ export function homeMain(book, { chapterHref, indexUrl, downloads = true }) {
 <p>원본: <a href="${UPSTREAM}">《${UPSTREAM_TITLE}》 (${UPSTREAM})</a></p>
 <p>${esc(f.localized)}</p>
 </div>
-<section class="progress" aria-labelledby="progress-h">
-<h2 id="progress-h" class="sr-only">진행 상황</h2>
-<p>공개한 절: <strong>${book.ready.length}/${book.chapters.length}절</strong> · 항목 ${book.entryCount}개</p>
-<div class="bar" role="img" aria-label="전체 ${book.chapters.length}절 중 ${book.ready.length}절 공개(${pct}%)"><span style="width:${pct}%"></span></div>
-</section>
+${progressBars(book)}
 <section class="search" id="search" aria-labelledby="search-h">
 <h2 id="search-h">항목 찾기</h2>
 <form role="search" action="" onsubmit="return false">
@@ -95,10 +117,7 @@ export function homeMain(book, { chapterHref, indexUrl, downloads = true }) {
 </section>
 <section id="contents" aria-labelledby="contents-h">
 <h2 id="contents-h">차례</h2>
-<p class="meta">「준비 중」인 절은 현지화와 검증이 끝나면 차례로 공개합니다.</p>
-<ol class="chapters">
-${rows.join('\n')}
-</ol>
+${chapterList(book, chapterHref)}
 </section>
 ${downloads ? `<section id="download" aria-labelledby="download-h">
 <h2 id="download-h">내려받기</h2>

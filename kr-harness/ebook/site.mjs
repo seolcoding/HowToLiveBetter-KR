@@ -1,7 +1,9 @@
 // 웹 리더(GitHub Pages)를 dist-kr/site/에 만든다. 외부 스크립트·글꼴·CDN 없이 정적 파일만.
 // 용법: node kr-harness/ebook/site.mjs [출력 폴더]   기본 dist-kr/site
-//   index.html      첫 화면: 비공식판 안내, 진행률(N/34절), 항목 검색, 34절 차례, 내려받기
-//   chNN.html       공개 절마다 한 페이지(항목 앵커 #eN, 절 안 항목 목차, 앞뒤 절 이동)
+//   index.html      첫 화면: 비공식판 안내, 진행 막대(공개 절 N/34, 공개 항목/원문 항목), 항목 검색,
+//                   차례(공개 절을 위에, 나머지는 접힌 「공개 예정 N절」 묶음), 내려받기
+//   chNN.html       공개 절마다 한 페이지(항목 앵커 #eN, 절 안 항목 목차, 앞뒤 절 이동).
+//                   본문의 「제N절(주제)」 참조는 공개 절이면 chNN.html(#eM) 링크, 아니면 「공개 예정」 표시
 //   search-index.json  항목 제목 색인(빌드 때 생성, 브라우저에서 검색)
 //   404.html, assets/reader.css, assets/reader.js, .nojekyll
 import { writeFileSync, mkdirSync, rmSync } from 'node:fs';

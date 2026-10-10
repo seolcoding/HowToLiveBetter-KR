@@ -20,4 +20,9 @@ li.f-src { font-size: 0.9em; }
 .label { font-weight: bold; }
 ol.contents li.pending { color: #555555; }
 .badge, .count { font-size: 0.85em; color: #555555; }
+.progress-lines { color: #333333; }
+.pending h2 { font-size: 1.1em; }
+.pending, .pending-list { color: #555555; }
+.ref-pending { color: #666666; }
+.ref-badge { font-size: 0.8em; border: 1px dashed #999999; border-radius: 0.6em; padding: 0 0.35em; white-space: nowrap; }
 .orig { font-size: 0.9em; color: #555555; margin-top: 2em; }
