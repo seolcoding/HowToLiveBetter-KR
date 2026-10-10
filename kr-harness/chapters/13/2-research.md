@@ -250,9 +250,9 @@ URL 형식: `https://www.safekorea.go.kr/safekorea-kor/acts/nacts/action-guide.d
 
 | 출처 | 확인 내용 | URL | 쓰는 항목 |
 |---|---|---|---|
-| IFRC 국제 응급처치 지침 2025, 척추 손상(306~307쪽) | 65세 이상은 미끄러지거나 넘어지는 가벼운 사고로도 척추를 다칠 수 있음. 척추 손상 의심 시 늘 구급 호출. 깨어 있으면 최대한 가만히. 반응 없고 숨 쉬면 구급대 도착 전엔 위험할 때만 옮김. 경추 보조기 사용 안 함 | (원문과 같은 PDF) | 2 |
-| IFRC 2025, 중독(345~346쪽) | 우유·물·활성탄 같은 희석제는 중독 상담기관이 지시할 때만. 토하게 하지 말 것(목 손상). 입안에 남은 것은 물로 헹궈 뱉게. 병·포장을 구급대에 전달 | 같은 PDF | 20 |
-| IFRC 2025, 화학 화상(287~290쪽) | 피부·눈의 화학 화상은 흐르는 물로 통증이 가라앉을 때까지 헹굼. 눈은 깨끗한 흐르는 물, 콘택트렌즈 제거, 다른 눈 오염 주의. 삼킨 경우 희석 시도 말고 구급 호출 | 같은 PDF | 20, 21 |
+| IFRC 국제 응급처치 지침 2025, 척추 손상(307~308쪽) | 65세 이상은 미끄러지거나 넘어지는 가벼운 사고로도 척추를 다칠 수 있음. 척추 손상 의심 시 늘 구급 호출. 깨어 있으면 최대한 가만히. 반응 없고 숨 쉬면 구급대 도착 전엔 위험할 때만 옮김. 경추 보조기 사용 안 함 | (원문과 같은 PDF) | 2 |
+| IFRC 2025, 중독(346~347쪽) | 우유·물·활성탄 같은 희석제는 중독 상담기관이 지시할 때만. 토하게 하지 말 것(목 손상). 입안에 남은 것은 물로 헹궈 뱉게. 병·포장을 구급대에 전달 | 같은 PDF | 20 |
+| IFRC 2025, 화학 화상(288~291쪽) | 피부·눈의 화학 화상은 흐르는 물로 통증이 가라앉을 때까지 헹굼. 눈은 깨끗한 흐르는 물, 콘택트렌즈 제거, 다른 눈 오염 주의. 삼킨 경우 희석 시도 말고 구급 호출 | 같은 PDF | 20, 21 |
 | NHS Poisoning | "do not try to make someone sick", "do not give the person anything to eat or drink", 포장을 병원에 가져가기 | https://www.nhs.uk/conditions/poisoning/ | 20 |
 | NHS Acid and chemical burns | 묻은 옷을 조심해서 벗기고, 흐르는 미지근하거나 시원한 물에 "about 1 hour" | https://www.nhs.uk/conditions/acid-and-chemical-burns/ | 21 |
 | NHS Help after rape and sexual assault | "Try not to wash or change your clothes immediately after a sexual assault." 씻었어도 신고 가능 | https://www.nhs.uk/live-well/sexual-health/help-after-rape-and-sexual-assault/ | 42 |
