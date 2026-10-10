@@ -17,7 +17,7 @@
 //          --save: kr-harness/chapters/NN/kr-fit-lint.txt 저장(내용이 같으면 안 씀). 없으면 파일을 쓰지 않는다(CI용).
 //
 // ✅의 조건(2026-10-10): S5 검증 + 적합성 게이트. assemble은 게이트를 통과하지 못하면 조립하지 않는다(우회 플래그 없음).
-import { readdirSync, readFileSync, writeFileSync, existsSync, statSync, mkdirSync, copyFileSync } from 'node:fs';
+import { readdirSync, readFileSync, writeFileSync, existsSync, statSync, copyFileSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { spawnSync } from 'node:child_process';

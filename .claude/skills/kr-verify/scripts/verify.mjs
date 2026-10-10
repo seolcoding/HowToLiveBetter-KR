@@ -1,12 +1,16 @@
 // .claude/skills/kr-verify/scripts/verify.mjs — S5 독립 검증: 각 실행의 4-styled.md를 원본과 대조.
-// 사용: node .claude/skills/kr-verify/scripts/verify.mjs [R01] [--check]
-//   인자 없음 = runs/ 전체, R01 = 단일 실행. --check = 파일을 쓰지 않고 반려가 있으면 종료코드 1(CI용).
+// 사용: node .claude/skills/kr-verify/scripts/verify.mjs [<ID>] [--check]
+//   인자 없음 = runs/ 전체, <ID> = 단일 실행(옛 R01~R14, 새 R18a 형식, 또는 폴더 이름 전체). 앞부분만 맞는 ID(R1)는 받지 않는다.
+//   --check = 파일을 쓰지 않고 반려가 있으면 종료코드 1(CI용).
 // 판정: 통과 / 조건부 통과(경미) / 반려(구조적) — 결과는 각 runs/*/5-verify.md와 meta.json에 기록.
-import { readdirSync, readFileSync, existsSync, writeFileSync, statSync } from 'node:fs';
-import { join, resolve } from 'node:path';
+// 결과가 지난번과 같으면(머리줄 날짜만 다르면) 파일을 다시 쓰지 않는다. 여러 세션이 인자 없이 돌려도
+// R01~R14 같은 남의 실행 파일이 날짜 한 줄 때문에 PR마다 바뀌어 충돌하는 일을 막는다.
+import { readdirSync, readFileSync, existsSync, writeFileSync } from 'node:fs';
+import { join, basename } from 'node:path';
 
 import { fileURLToPath } from 'node:url';
 import { dirname } from 'node:path';
+import { listRunDirs, sortRunDirs, matchRunDir, runIdOfDir } from '../../kr-pipeline/scripts/run-id.mjs';
 
 // 저장소 루트: 이 스크립트 위치에서 KR-GUIDE.md가 있는 디렉토리까지 올라간다(로컬·클라우드 공통).
 const findRoot = () => {
@@ -60,7 +64,7 @@ function verifyRun(dir) {
   // 7-refined.md(항목별 개선본) > 6-polished.md(astra 윤문본) > 4-styled.md 순으로 검증 대상 선택.
   const styledPath = ['7-refined.md', '6-polished.md', '4-styled.md'].map((f) => join(dir, f)).find((p) => existsSync(p)) ?? join(dir, '4-styled.md');
   const styled = read(styledPath);
-  const res = { run: cfg.id || dir, chapter: cfg.chapter, issues: [], notes: [] };
+  const res = { run: cfg.id || runIdOfDir(basename(dir)), chapter: cfg.chapter, issues: [], notes: [] };
 
   if (!styled.trim()) {
     res.verdict = '보류';
@@ -134,18 +138,28 @@ function writeReport(dir, res) {
     ...(res.long?.length ? ['', '### 50자 초과 문장(최대 5건)', ...res.long.map((s) => `- ${s}`)] : []),
     '',
   ];
-  writeFileSync(join(dir, '5-verify.md'), lines.join('\n'), 'utf8');
+  const body = lines.join('\n');
+  const reportPath = join(dir, '5-verify.md');
+  const undated = (s) => s.replace(/\r\n/g, '\n').replace(/^(# .*? 검증 결과) \(\d{4}-\d{2}-\d{2}\)/, '$1');
+  if (!existsSync(reportPath) || undated(read(reportPath)) !== undated(body)) writeFileSync(reportPath, body, 'utf8');
   const meta = jread(join(dir, 'meta.json'));
-  jwrite(join(dir, 'meta.json'), { ...meta, ...cfg, status: meta.status === 'styled' ? 'verified' : meta.status, entries: res.entries ?? meta.entries, todos: res.todos ?? meta.todos, verify: res.verdict });
+  const next = { ...meta, ...cfg, status: meta.status === 'styled' ? 'verified' : meta.status, entries: res.entries ?? meta.entries, todos: res.todos ?? meta.todos, verify: res.verdict };
+  if (JSON.stringify(next) !== JSON.stringify(meta)) jwrite(join(dir, 'meta.json'), next);
 }
 
 const args = process.argv.slice(2);
 const CHECK = args.includes('--check');
 const only = args.find((a) => !a.startsWith('--'));
-const dirs = readdirSync(RUNS)
-  .filter((d) => statSync(join(RUNS, d)).isDirectory())
-  .filter((d) => !only || d.startsWith(only))
-  .sort();
+// 순서는 run-id.mjs 규칙(옛 ID 번호순 → 새 ID 절·순번순). 하나만 고를 때는 ID 또는 폴더 이름과 정확히 같아야 한다.
+const dirs = sortRunDirs(listRunDirs(RUNS)).filter((d) => !only || matchRunDir(d, only));
+if (only && !dirs.length) {
+  console.error(`실행 폴더 없음: ${only} (ID는 R13, R18a처럼 정확히, 또는 폴더 이름 전체로)`);
+  process.exit(1);
+}
+if (only && dirs.length > 1) {
+  console.error(`실행 ID ${only}가 폴더 ${dirs.length}개에 겹칩니다: ${dirs.join(', ')} — run-id.mjs --check로 확인`);
+  process.exit(1);
+}
 const results = [];
 for (const d of dirs) {
   const dir = join(RUNS, d);
