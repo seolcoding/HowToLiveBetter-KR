@@ -1,6 +1,6 @@
 # 진행 기록: 2026-10-next-publish
 
-지시문은 [2026-10-next-publish.md](2026-10-next-publish.md). 세션이 이어서 시작되면 이 기록과 `node .claude/skills/kr-pipeline/scripts/pipeline.mjs status`만 보고 다음 할 일을 정한다.
+지시문은 [2026-10-next-publish.md](2026-10-next-publish.md). **세션을 이어받으면 먼저 [handoff.md](handoff.md)를 읽는다**(2026-10-10 첫 세션 종료 시점의 절별 남은 일과 결정 기록). 세션이 이어서 시작되면 이 기록과 `node .claude/skills/kr-pipeline/scripts/pipeline.mjs status`만 보고 다음 할 일을 정한다.
 
 ## 판단 기록
 
@@ -168,3 +168,4 @@
 | 2026-10-10 | 19 | S1-S3 | — | 초역 18항목(원문 18), DOI 2 동일, TODO 8, kr-fit 0/0. N·2N·代通知金은 퇴직금·해고예고수당·부당해고 구제신청으로 | S4-S5 |
 | 2026-10-10 | 19 | S4-S5 | R19a | 조건부 통과(항목 18, TODO 8, 이슈 0) | S6 윤문 |
 | 2026-10-10 | - | 전화번호 허용 목록 | - | 126(국세청 국세상담센터) 누리집 확인 후 추가 | - |
+| 2026-10-10 | - | 세션 1 종료(사용자 요청) | - | 공개 17/34절·259/665항목, gate --all-done 17/17. 중단 때 함께 끝난 에이전트의 산출물 상태를 조사해 handoff.md에 절별로 정리. R24a 미완성 6-polished.md 삭제. 서브에이전트 지시문을 notes/로 옮김 | handoff.md 2절 표부터 이어서 |
