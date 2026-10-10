@@ -10,6 +10,8 @@ argument-hint: "[절 번호] [--until S6] [--from S4]"
 
 너는 오케스트레이터다. **본문을 직접 쓰거나 고치지 않는다.** 단계마다 정해진 스킬·스크립트·서브에이전트에 맡기고, 결과 파일과 검사 결과만 확인한다. 규칙 원본은 [KR-GUIDE.md](../../../KR-GUIDE.md), 운영 노하우는 [kr-harness/LESSONS.md](../../../kr-harness/LESSONS.md)다. 시작 전에 둘 다 읽는다.
 
+모델과 병렬 한도는 저장소 루트의 [AGENTS.md](../../../AGENTS.md) 환경 대응 규칙이 우선한다. 이 스킬과 연결된 지시의 Opus(`model: opus`)는 Codex에서 `gpt-6.1-sol`로, `gpt-6.1-sol`은 Claude에서 Opus로 실행한다. 하위 서브에이전트도 같다. Claude용 에이전트 frontmatter는 그대로 유지한다. 병렬 실행은 현재 가용 슬롯 안에서 나눠 띄우며, Codex의 현재 한도는 오케스트레이터 포함 7개다. Claude의 서브에이전트 20개 기록을 Codex에 적용하지 않는다.
+
 ## 0. 상태 확인
 
 ```bash
