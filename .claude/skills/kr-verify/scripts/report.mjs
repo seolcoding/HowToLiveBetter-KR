@@ -172,5 +172,19 @@ ${runs.map(runCard).join('\n')}
 </ol>
 </main></body></html>`;
 
-writeFileSync(join(ROOT, 'kr-harness', 'report.html'), html);
-console.log(`report.html 생성 완료: 실행 ${runs.length}건, 문체 완료 ${done}건`);
+const argv = process.argv.slice(2);
+const outIdx = argv.findIndex((a) => a === '--out' || a.startsWith('--out='));
+const outArg = outIdx === -1 ? null : argv[outIdx].includes('=') ? argv[outIdx].slice(6) : argv[outIdx + 1];
+if (outIdx !== -1 && !outArg) { console.error('사용: report.mjs [--force] [--out <경로>]'); process.exit(2); }
+const git = spawnSync('git', ['rev-parse', '--abbrev-ref', 'HEAD'], { cwd: ROOT, encoding: 'utf8' });
+const branch = git.status === 0 ? git.stdout.trim() : null; // null = git 밖(압축본 등) → main처럼 다룬다
+if (outArg) {
+  writeFileSync(resolve(outArg), html);
+  console.log(`보고서 미리보기 생성: ${resolve(outArg)} (실행 ${runs.length}건, 문체 완료 ${done}건) — kr-harness/report.html은 그대로`);
+} else if (branch === null || branch === 'main' || argv.includes('--force')) {
+  writeFileSync(join(ROOT, 'kr-harness', 'report.html'), html);
+  console.log(`report.html 생성 완료: 실행 ${runs.length}건, 문체 완료 ${done}건`);
+} else {
+  console.log(`report.html 건너뜀: 지금 브랜치(${branch})는 main이 아니다. 보고서는 main에서만 다시 만든다(병렬 PR 충돌 방지).`);
+  console.log('  미리 보기: report.mjs --out <경로>(저장소 밖 경로 권장) · 보고서만 바꾸는 별도 PR이면: report.mjs --force');
+}
