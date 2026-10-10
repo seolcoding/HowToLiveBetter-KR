@@ -1,16 +1,19 @@
 ---
 name: kr-verify
-description: 한국 현지화 파이프라인 S5 검증과 비교 보고서 생성. 실행(RNN)의 최신 산출물을 원문과 대조해 통과/조건부 통과/반려를 판정하고 kr-harness/report.html을 다시 만든다. "검증", "verify", "보고서 갱신", "S5" 요청에 사용. LLM을 쓰지 않는다.
+description: 한국 현지화 파이프라인 S5 검증과 비교 보고서 생성. 실행(R18a 같은 실행 ID)의 최신 산출물을 원문과 대조해 통과/조건부 통과/반려를 판정한다. kr-harness/report.html은 main에서만 다시 만든다. "검증", "verify", "보고서 갱신", "S5" 요청에 사용. LLM을 쓰지 않는다.
 ---
 
 # S5 검증 + 보고서 (결정론)
 
 ```bash
-node .claude/skills/kr-verify/scripts/verify.mjs            # runs/ 전체 검증, 5-verify.md·meta.json 갱신
-node .claude/skills/kr-verify/scripts/verify.mjs R15        # 한 실행만
+node .claude/skills/kr-verify/scripts/verify.mjs            # runs/ 전체 검증, 결과가 바뀐 실행만 5-verify.md·meta.json 갱신
+node .claude/skills/kr-verify/scripts/verify.mjs R18a       # 한 실행만(옛 ID R01~R14, 새 ID R18a, 폴더 이름 전체 모두 됨)
 node .claude/skills/kr-verify/scripts/verify.mjs --check    # 파일을 쓰지 않음, 반려가 있으면 종료코드 1 (CI)
-node .claude/skills/kr-verify/scripts/report.mjs            # kr-harness/report.html 재생성
+node .claude/skills/kr-verify/scripts/report.mjs            # main에서만 kr-harness/report.html 재생성(다른 브랜치는 안내만)
 ```
+
+- 실행 ID는 정확히 맞아야 한다. `R13`은 옛 제4절 실행 하나만, `R13a`는 새 제13절 실행 하나만 고른다. 앞부분만 맞는 `R1` 같은 인자는 「실행 폴더 없음」으로 종료코드 1이다. 형식은 [kr-pipeline/scripts/run-id.mjs](../kr-pipeline/scripts/run-id.mjs) 머리말.
+- 검증 결과가 지난번과 같으면(머리줄 날짜만 다르면) `5-verify.md`를, 내용이 같으면 `meta.json`을 다시 쓰지 않는다. 그래서 인자 없이 돌려도 남의 실행 파일이 PR에 끼지 않는다.
 
 검증 대상 파일은 실행 폴더에서 `7-refined.md > 6-polished.md > 4-styled.md` 순으로 가장 앞선 것이다.
 
@@ -29,7 +32,7 @@ node .claude/skills/kr-verify/scripts/report.mjs            # kr-harness/report.
 
 ```bash
 node .claude/skills/kr-verify/scripts/kr-fit.mjs 14                # 제14절 book-kr 본문
-node .claude/skills/kr-verify/scripts/kr-fit.mjs kr-harness/runs/R09-14-styleB/7-refined.md   # 조립 전 산출물
+node .claude/skills/kr-verify/scripts/kr-fit.mjs kr-harness/runs/R18a-18-styleB/7-refined.md   # 조립 전 산출물(실행 폴더 경로)
 node .claude/skills/kr-verify/scripts/kr-fit.mjs --all-done --check   # README ✅ 절 전부, block 있으면 종료코드 1 (CI)
 node .claude/skills/kr-verify/scripts/kr-fit.mjs 14 --json | --save   # JSON 출력 / kr-harness/chapters/14/kr-fit-lint.txt 저장(같으면 안 씀)
 node .claude/skills/kr-verify/scripts/kr-fit.mjs 14 --hash   # 본문 sha256(LF 정규화, 상태 배너 제외) — kr-fit-review.md 마지막 줄 sha256= 값
@@ -52,4 +55,8 @@ block은 TODO 절, 출처 줄(용어), 같은 문장에 비교 문맥(중국·�
 
 ## 보고서
 
-사용자 컨펌은 대화가 아니라 `kr-harness/report.html`에서 받는다(L9). 실행을 추가하거나 단계를 끝낼 때마다 다시 만든다.
+사용자 컨펌은 대화가 아니라 `kr-harness/report.html`에서 받는다(L9). 다만 2026-10-10부터 **보고서는 main에서만 다시 만든다.** report.html은 모든 실행을 한 파일에 모으므로, 절 세션마다 다시 만들면 병렬 PR끼리 반드시 충돌한다.
+
+- `report.mjs`는 main(또는 git 밖)에서만 `kr-harness/report.html`을 쓴다. 다른 브랜치에서는 쓰지 않고 안내만 한다.
+- 절 세션에서 미리 보려면 `report.mjs --out <저장소 밖 경로>`.
+- 갱신은 main을 받은 뒤 사용자가 하거나, 보고서만 바꾸는 별도 PR에서 `report.mjs --force`로 한다.

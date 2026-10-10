@@ -6,11 +6,13 @@
 S1 분석 → S2 조사 → S3 초역 → S4 문체(convert-b.mjs) → S5 검증(verify.mjs) → S6 윤문(kr-polisher) → S7 항목별 개선(kr-entry-refiner × 항목 수) → S8 조립+보고
 ```
 
-**원칙(2026-10-06 사용자 확정): 개별 항목은 항상 개별 서브에이전트가 작업한다.** `/kr-refine RNN`은 `entries.mjs split`으로 항목을 나눈 다음 항목마다 kr-entry-refiner 에이전트를 하나씩 띄운다(한 번에 최대 8개). `entries.mjs check`로 구조를 검사하고, 실패하면 한 번 다시 시도한다. 그래도 실패하면 원문을 유지한다. 출력은 `7-refined.md`다(verify 우선순위 최상위, book-kr 조립 소스).
+**원칙(2026-10-06 사용자 확정): 개별 항목은 항상 개별 서브에이전트가 작업한다.** `/kr-refine <ID>`는 `entries.mjs split`으로 항목을 나눈 다음 항목마다 kr-entry-refiner 에이전트를 하나씩 띄운다(한 번에 최대 8개). `entries.mjs check`로 구조를 검사하고, 실패하면 한 번 다시 시도한다. 그래도 실패하면 원문을 유지한다. 출력은 `7-refined.md`다(verify 우선순위 최상위, book-kr 조립 소스).
 
 **실행(2026-10-07부터)**: 단계 전체는 `/kr-pipeline N` 스킬 하나로 돈다. 스킬·에이전트·스크립트는 모두 `.claude/` 아래에 있다. codex·orca·opencode에는 의존하지 않는다. 로컬, claude.ai/code 클라우드 세션, routines에서 같고, API 키 없이 구독 로그인으로만 돈다. 클라우드 설정은 [CLOUD.md](CLOUD.md)에 있다. 진행 상태는 `node .claude/skills/kr-pipeline/scripts/pipeline.mjs status`로 본다.
 
-레슨런과 운영 노하우: [LESSONS.md](LESSONS.md). 윤문 대기열: [polish-queue.md](polish-queue.md).
+레슨런과 운영 노하우: [LESSONS.md](LESSONS.md). 윤문 대기열(1차 기록): [polish-queue.md](polish-queue.md).
+
+**실행 ID(2026-10-10부터)**: `R` + 절 번호 두 자리 + 절 안 순번 글자다(제18절이면 `R18a`, `R18b`…). 절 번호가 들어 있어 여러 세션이 다른 절을 동시에 돌려도 겹치지 않는다. 옛 `R01`~`R14`는 그대로 두고 함께 읽는다. 규칙은 `.claude/skills/kr-pipeline/scripts/run-id.mjs` 머리말과 [CLOUD.md](CLOUD.md) 「병렬 세션」.
 
 ## 디렉토리 구조
 
@@ -21,7 +23,7 @@ kr-harness/
     1-analysis.md      # 항목 인벤토리 + 치환 등급
     2-research.md      # 한국 대응 조사 (출처 URL + 확인일)
     3-draft.md         # 중립 문체 초역 (뜻 보존)
-  runs/RNN-절-문체/     # 실행 단위 (문체 변형별로 생김)
+  runs/<ID>-절-문체/    # 실행 단위 (예: R18a-18-styleB, 옛 R13-04-styleB)
     config.json        # 실행 설정
     4-styled.md        # 문체 패치 완료본
     5-verify.md        # 독립 검증 결과
@@ -29,7 +31,7 @@ kr-harness/
     6-polished.md      # S6 윤문본
     entries/           # S7 항목별 입력·출력(e-NN-in.md, e-NN.md, jobs.json)
     7-refined.md       # S7 조립본
-  report.html          # 최종 비교 보고서 (.claude/skills/kr-verify/scripts/report.mjs가 만든다)
+  report.html          # 비교 보고서 (.claude/skills/kr-verify/scripts/report.mjs가 main에서만 다시 만든다)
 ```
 
 ## 단계 정의 (격리 컨텍스트)
@@ -39,9 +41,9 @@ kr-harness/
 | S1+S2 제작 | 절당 1개 에이전트 | 원문 book/N + 규칙 | chapters/N/{1,2,3}.md | 문체 다듬기, book/ 수정 |
 | S4 문체 | 결정론적 변환기(`pipeline.mjs new-run`) | 3-draft + 문체 지정 | runs/R/4-styled.md | 숫자·출처·구조 변경 |
 | S5 검증 | 스크립트(verify.mjs) | 4-styled(또는 6-polished) + 원문 + 체크리스트 | runs/R/5-verify.md + meta.json | 직접 수정 (목록만) |
-| S6 윤문 | 실행당 1개 에이전트(kr-polisher, `/kr-polish RNN`) | 4-styled.md + humanize-kr + 코퍼스 | runs/R/6-polished.md | 숫자·출처·구조·필드 변경, 사실 추가 |
-| S7 항목별 개선 | 항목당 1개 에이전트(kr-entry-refiner, `/kr-refine RNN`) | entries/e-NN-in.md | entries/e-NN.md → 7-refined.md | 제목·필드·근거등급·출처·숫자·URL 변경 |
-| S8 조립 | 스크립트(`pipeline.mjs assemble RNN`) | 7-refined > 6-polished > 4-styled | book-kr/NN-*.md + README 표 ✅ | 반려 실행 조립 |
+| S6 윤문 | 실행당 1개 에이전트(kr-polisher, `/kr-polish <ID>`) | 4-styled.md + humanize-kr + 코퍼스 | runs/R/6-polished.md | 숫자·출처·구조·필드 변경, 사실 추가 |
+| S7 항목별 개선 | 항목당 1개 에이전트(kr-entry-refiner, `/kr-refine <ID>`) | entries/e-NN-in.md | entries/e-NN.md → 7-refined.md | 제목·필드·근거등급·출처·숫자·URL 변경 |
+| S8 조립 | 스크립트(`pipeline.mjs assemble <ID>`) | 7-refined > 6-polished > 4-styled | book-kr/NN-*.md + README 표 ✅ | 반려 실행 조립 |
 
 문체 프로파일 (2026-10-06 사용자 확정):
 - **B 표준(합니다체)**: 공문·안내문형 `~합니다/~하세요` 통일. **기본 문체.**
@@ -66,7 +68,7 @@ kr-harness/
 2차 실행 (B 기본 확정 후):
 - R09: 14절 B · R10: 22절 B 재현성
 - R11-R14: 02·03·04·06절 B 재패치 (S3 초역은 그대로, S4만 B로)
-- R15+: 다음 절 제작(18·17·16·28…)은 B 기준, A는 비교 샘플용 소수 유지
+- 다음 절 제작(18·17·16·28…)은 B 기준, A는 비교 샘플용 소수 유지. 2026-10-10부터 새 실행 ID는 R15부터 잇지 않고 절 번호를 넣는다(제18절 R18a, R18b…).
 
 ## 검증 체크리스트 (S5가 전부 실행)
 

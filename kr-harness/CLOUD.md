@@ -17,14 +17,14 @@
     kr-polisher.md           S6, 실행 1개 = 에이전트 1개
     kr-entry-refiner.md      S7, 항목 1개 = 에이전트 1개
   skills/
-    kr-pipeline/             오케스트레이터(/kr-pipeline N) + scripts/pipeline.mjs(status·new-run·assemble)
+    kr-pipeline/             오케스트레이터(/kr-pipeline N) + scripts/pipeline.mjs(status·new-run·assemble) + scripts/run-id.mjs(실행 ID 규칙)
     kr-localize/             S1-S3 절차 + references/(문체 규칙, 1차 출처, 문체 코퍼스)
     kr-style/                S4 scripts/convert-b.mjs(합니다체 결정론 변환)
-    kr-verify/               S5 scripts/verify.mjs + scripts/report.mjs(report.html)
+    kr-verify/               S5 scripts/verify.mjs + scripts/report.mjs(report.html, main에서만)
     kr-polish/               S6 윤문 규칙
     kr-refine/               S7 팬아웃 절차 + scripts/entries.mjs(분할·구조검사·조립)
 .github/workflows/
-  kr-check.yml               LLM·비밀값 없는 검사(문법·검증·구조·상태표)
+  kr-check.yml               LLM·비밀값 없는 검사(문법·검증·실행 ID 중복·구조·상태표)
 kr-harness/                  데이터(chapters/, runs/, report.html)와 문서(pipeline.md, LESSONS.md, 이 문서)
   routines/*.md              routine 프롬프트 본문(routine에는 「이 파일을 읽고 수행」 한 줄만 넣는다)
 ```
@@ -36,7 +36,7 @@ kr-harness/                  데이터(chapters/, runs/, report.html)와 문서(
 ### 1. 클라우드 세션 (claude.ai/code, 데스크톱 앱, 모바일)
 
 - claude.ai/code(또는 모바일 앱 Code 탭)에서 저장소 선택기로 이 저장소(`seolcoding/HowToLiveBetter-KR`)를 고른다. 환경은 `kr-research`, 권한 모드는 **Accept edits**나 **Auto**를 고른다. 그다음 `/kr-pipeline 13`처럼 입력한다. 클라우드에는 Manual·Bypass 모드가 없다.
-- **미리 채운 링크로 바로 열기**: `node .claude/skills/kr-pipeline/scripts/pipeline.mjs launch`를 실행하면 다음 후보 절마다 `https://claude.ai/code?prompt=…&repositories=…&environment=kr-research` 링크가 나온다. 절 번호를 직접 줄 수도 있다(`launch 13 16 --until S5`). 링크 하나가 세션 하나, 브랜치 하나다. 여러 개를 열면 절 여러 개가 병렬로 돈다. 워크트리를 따로 만들 필요가 없다.
+- **미리 채운 링크로 바로 열기**: `node .claude/skills/kr-pipeline/scripts/pipeline.mjs launch`를 실행하면 다음 후보 절마다 `https://claude.ai/code?prompt=…&repositories=…&environment=kr-research` 링크가 나온다. 절 번호를 직접 줄 수도 있다(`launch 13 16 --until S5`). 링크 하나가 세션 하나, 브랜치 하나다. 여러 개를 열면 절 여러 개가 병렬로 돈다. 워크트리를 따로 만들 필요가 없다. 같은 절을 두 세션에 맡기지는 않는다. 병렬로 돌릴 때 지킬 것은 아래 「병렬 세션」에 있다.
 - 터미널에서 넘길 수도 있다: `claude --cloud "/kr-pipeline 13"`. 클라우드는 GitHub 원격에서 클론하므로, 로컬 변경은 먼저 push한다.
 - 결과는 `claude/`로 시작하는 브랜치에 push된다. push한 뒤에도 세션은 닫히지 않는다. diff 보기에서 줄마다 댓글을 남기면 다음 메시지에 같이 전달된다. 다 됐으면 diff 보기 상단의 **PR 생성**을 누른다. PR 뒤 CI 실패나 리뷰 댓글도 같은 세션에서 고친다.
 - 탭을 닫아도 세션은 계속 돈다. 휴대폰 앱으로 확인할 수 있다.
@@ -119,7 +119,30 @@ journals.plos.org
 arxiv.org
 ```
 
-세션이 시작되면 훅이 law.go.kr, kosis.kr, doi.org, europepmc.org, pubmed, web.archive.org 접속을 점검해 알려 준다. 하나라도 막혀 있으면 그 세션에서는 조사 단계를 건너뛴다.
+세션이 시작되면 훅이 law.go.kr, kosis.kr, doi.org, Europe PMC, pubmed, web.archive.org 접속을 점검해 알려 준다. 판정 방식(2026-10-10)은 다음과 같다.
+
+- 도메인 6개를 동시에 보고, 도메인마다 최대 3번 시도한다(시도당 5초, 사이 0.7초). 한 번이라도 서버가 답하면 **정상**이다. 훅 전체는 20초 안에 끝난다.
+- Europe PMC는 화면(europepmc.org)이 curl에 403을 주므로 REST API(`https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=test&format=json`)로 본다.
+- 실패는 둘로 나눈다. 시간 초과·연결 끊김이 섞여 있으면 **끊김**이다. 막힌 게 아니라 응답이 들쭉날쭉한 것일 수 있다(2026-10-10 law.go.kr은 curl 8번 중 5번 성공). 매번 프록시나 서버가 거절했으면 **차단**이다. 프록시의 CONNECT 403·407은 조직 정책 차단이라 다시 시도하지 않는다.
+- curl로 안 열린 곳도 WebFetch로는 열릴 수 있다(2026-10-10 nhis.or.kr·moel.go.kr). 끊김뿐이면 재시도(`curl --retry 3 --retry-all-errors`)와 WebFetch로 조사를 진행한다. 차단이 있으면 WebFetch로 직접 열어 보고, 1차 출처가 WebFetch로도 안 열릴 때만 조사 단계를 건너뛴다.
+
+## 병렬 세션 (2026-10-10)
+
+세션 여러 개가 절을 하나씩 맡아 동시에 돌고, PR도 각자 낸다. 서로 충돌하지 않게 다음 규칙을 둔다.
+
+### 실행 ID
+
+- `pipeline.mjs new-run N`이 붙이는 ID는 `R` + 절 번호 두 자리 + 절 안 순번 글자다. 예: 제18절 첫 실행 `R18a`, 두 번째 `R18b`, 제13절 첫 실행 `R13a`. 순번은 a…y 다음 za, zb…로 이어진다. 폴더는 `kr-harness/runs/<ID>-<절>-style<S>`(예: `R18a-18-styleB`)다.
+- 다른 절을 도는 세션끼리는 절 번호가 달라서 조정 없이도 겹치지 않는다. 한 세션 안에서 같은 절 `new-run`을 동시에 여러 번 돌려도 폴더를 만든 뒤 확인하고 물러나는 방식이라 겹치지 않는다. 같은 절을 두 세션에서 동시에 돌리는 것만 하지 않는다.
+- 옛 ID `R01`~`R14`(전역 일련번호)와 그 폴더는 그대로 둔다. 찾기는 ID를 정확히 맞춘다. 그래서 `R13`(옛, 제4절)과 `R13a`(새, 제13절)는 섞이지 않는다. 주력 실행은 절 안에서 옛 ID보다 새 ID, 새 ID끼리는 순번이 큰 쪽을 최근으로 본다.
+- 브랜치를 합치다 같은 ID 폴더가 둘 생기면 `node .claude/skills/kr-pipeline/scripts/run-id.mjs --check`(CI 「실행 ID 규칙과 중복」 단계)가 실패한다. `verify.mjs`·`assemble`도 겹친 ID는 처리하지 않는다.
+
+### 함께 고치는 생성 파일
+
+- `kr-harness/report.html`은 **main에서만** 다시 만든다. `report.mjs`는 다른 브랜치에서는 쓰지 않고 안내만 한다. 미리 보기는 `report.mjs --out <저장소 밖 경로>`, 보고서만 바꾸는 별도 PR은 `report.mjs --force`다.
+- `verify.mjs`는 결과가 같은 실행의 `5-verify.md`·`meta.json`을 다시 쓰지 않는다. 인자 없이 돌려도 R01~R14 파일이 날짜 한 줄 때문에 PR마다 바뀌지 않는다.
+- `kr-harness/polish-queue.md` 표에는 줄을 덧붙이지 않는다(끝에 덧붙이는 줄은 병렬 PR끼리 충돌한다). 진행 상태는 `pipeline.mjs status`와 실행 폴더의 `meta.json`이 원본이다.
+- `book-kr/README.md` 표는 절마다 다른 줄을 고치므로 그대로 쓴다.
 
 ## 클라우드에서 달라지는 점
 

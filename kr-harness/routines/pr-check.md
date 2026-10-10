@@ -12,6 +12,7 @@ routine은 기본 브랜치에서 시작한다. 그래서 먼저 이벤트의 PR
    - `book/`, 원본 `README.md`, `docs/`, `index.html`, `tools/`를 건드렸으면 「금지 경로 변경」으로 보고한다.
 3. 결정론 검사를 돌린다(kr-check.yml과 같은 것).
    - `node .claude/skills/kr-verify/scripts/verify.mjs --check`
+   - `node .claude/skills/kr-pipeline/scripts/run-id.mjs --self-test --check` (실행 ID 중복)
    - 바뀐 실행의 `entries/e-NN.md`마다 `node .claude/skills/kr-refine/scripts/entries.mjs check <파일>`
    - `node .claude/skills/kr-pipeline/scripts/pipeline.mjs status <절>`
 4. 사람이 읽을 점검 결과를 마지막 메시지에 남긴다. 내용은 판정 요약, 구조검사 실패 항목, 그 실패 항목이 7-refined.md에서 원문으로 유지됐는지, TODO 건수다.

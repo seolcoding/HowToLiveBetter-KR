@@ -24,16 +24,23 @@ node .claude/skills/kr-pipeline/scripts/pipeline.mjs status 13       # 한 절
 | 단계 | 누가 | 실행 | 산출물 |
 |---|---|---|---|
 | S1-S3 분석·조사·초역 | `kr-localizer` 서브에이전트 1개 | Agent 도구, 프롬프트 "제N절" | `kr-harness/chapters/NN/{1-analysis,2-research,3-draft}.md` |
-| S4 문체(B 합니다체) | 결정론 스크립트 | `pipeline.mjs new-run N` | `kr-harness/runs/RNN-NN-styleB/4-styled.md` |
-| S5 검증 | 결정론 스크립트 | `node .claude/skills/kr-verify/scripts/verify.mjs RNN` | `5-verify.md`, `meta.json.verify` |
-| S6 윤문 | `kr-polisher` 서브에이전트 1개 | Agent 도구, 프롬프트 "RNN" | `6-polished.md` |
+| S4 문체(B 합니다체) | 결정론 스크립트 | `pipeline.mjs new-run N` | `kr-harness/runs/<ID>-NN-styleB/4-styled.md`(예: `R18a-18-styleB`) |
+| S5 검증 | 결정론 스크립트 | `node .claude/skills/kr-verify/scripts/verify.mjs <ID>` | `5-verify.md`, `meta.json.verify` |
+| S6 윤문 | `kr-polisher` 서브에이전트 1개 | Agent 도구, 프롬프트는 실행 ID(예: "R18a") | `6-polished.md` |
 | S7 항목별 개선 | 항목마다 `kr-entry-refiner` 1개 | [kr-refine](../kr-refine/SKILL.md) 절차 | `7-refined.md` |
-| S5′ 재검증 | 결정론 스크립트 | `verify.mjs RNN` | 7-refined 기준 판정 |
+| S5′ 재검증 | 결정론 스크립트 | `verify.mjs <ID>` | 7-refined 기준 판정 |
 | G 적합성 게이트 | 기계 검사 + `kr-fit-reviewer` 서브에이전트 1개(Opus) | `kr-fit.mjs <산출물> --check` → Agent 도구, 프롬프트 "제N절" → `pipeline.mjs gate N --save` | `kr-harness/chapters/NN/{kr-fit-lint.txt,kr-fit-review.md}`(리뷰 마지막 줄에 본문 sha256) |
-| S8 조립 | 결정론 스크립트 | `pipeline.mjs assemble RNN` (게이트 미통과면 거부) | `book-kr/NN-*.md`, README 표 ✅ |
-| 보고 | 결정론 스크립트 | `node .claude/skills/kr-verify/scripts/report.mjs` | `kr-harness/report.html` |
+| S8 조립 | 결정론 스크립트 | `pipeline.mjs assemble <ID>` (게이트 미통과면 거부) | `book-kr/NN-*.md`, README 표 ✅ |
+| 보고(main 전용) | 결정론 스크립트 | 절 세션에서는 돌리지 않는다. 아래 「병렬 세션 규칙」 | `kr-harness/report.html` |
 
 **원칙(2026-10-06 사용자 확정): 개별 항목은 항상 개별 서브에이전트가 작업한다.** S7에서 절 전체를 한 컨텍스트로 고치지 않는다.
+
+### 실행 ID (2026-10-10부터)
+
+- 형식은 `R` + 절 번호 두 자리 + 절 안 순번 글자다. 제18절 첫 실행은 `R18a`, 두 번째는 `R18b`, 제13절 첫 실행은 `R13a`다. 순번은 a…y 다음 za, zb…로 이어진다. 폴더는 `kr-harness/runs/<ID>-<절>-style<S>`(예: `R18a-18-styleB`)다.
+- 절 번호가 ID에 들어 있으니 다른 절을 도는 세션끼리는 조정 없이 겹치지 않는다. 같은 작업 트리 안에서는 같은 절 `new-run`을 동시에 돌려도 겹치지 않는다. 같은 절을 두 세션에서 동시에 돌리지는 않는다(절 하나 = 세션 하나 = 브랜치 하나).
+- 옛 ID `R01`~`R14`는 그대로 둔다. `verify.mjs`·`assemble`은 ID를 정확히 맞춰 찾는다. 그래서 `R13`(옛, 제4절)과 `R13a`(새, 제13절)는 섞이지 않는다. 서브에이전트에게도 ID를 그대로 주고, 실행 폴더는 「`<ID>-`로 시작하는 폴더」로 찾게 한다.
+- 주력 실행(문체 B, 재현성 제외, 가장 최근)은 절 안에서 고른다. 옛 ID보다 새 ID가, 새 ID끼리는 순번이 큰 쪽이 최근이다. 규칙은 `scripts/run-id.mjs` 머리말에 있고, `node .claude/skills/kr-pipeline/scripts/run-id.mjs --check`가 폴더 이름과 ID 중복을 검사한다(CI도 돌린다).
 
 ## 2. 단계 사이 관문
 
@@ -51,17 +58,26 @@ node .claude/skills/kr-pipeline/scripts/pipeline.mjs status 13       # 한 절
 ## 3. 커밋과 브랜치
 
 - 단계가 하나 끝날 때마다 커밋한다. 클라우드 VM은 쉬었다가 재생성될 수 있어서, 커밋 안 된 산출물은 사라질 수 있다.
-- 커밋 메시지: `kr: 제NN절 S4 문체 변환 (R15)`처럼 절·단계·실행 ID를 넣는다.
+- 커밋 메시지: `kr: 제NN절 S4 문체 변환 (R18a)`처럼 절·단계·실행 ID를 넣는다.
 - 클라우드 세션에서는 `CLAUDE_CODE_REMOTE=true`다. 세션이 정해 준 작업 브랜치(`claude/…`)에 단계마다 push한다. 브랜치를 새로 만들거나 바꾸지 않는다.
 - PR은 직접 열지 않는다. 사용자에게 diff 보기 상단의 **PR 생성** 버튼을 쓰라고 안내한다. 이때 PR 본문 초안(검증 판정, TODO 건수, 세션 링크 `https://claude.ai/code/${CLAUDE_CODE_REMOTE_SESSION_ID/#cse_/session_}`)을 마지막 메시지에 붙인다. push한 뒤에도 세션은 닫히지 않는다. PR 뒤 CI 실패나 리뷰 댓글은 같은 세션에서 이어서 고친다.
 - 클라우드 권한 모드는 Auto, Accept edits, Plan뿐이다(Manual·Bypass 없음). Accept edits로 돌릴 때 `node`·`git` 명령이 막히지 않게 `.claude/settings.json` 허용 목록에 들어 있다. Plan 모드로 시작했으면 계획 승인 뒤 진행한다.
 - main에 직접 push하지 않는다.
 
+### 병렬 세션 규칙 (2026-10-10)
+
+여러 세션이 동시에 PR을 내도 서로 충돌하지 않게 다음을 지킨다.
+
+- **`kr-harness/report.html`은 절 세션에서 다시 만들지 않는다.** 모든 실행을 한 파일에 모으므로 PR마다 고치면 반드시 충돌한다. `report.mjs`는 main이 아닌 브랜치에서는 쓰지 않고 안내만 한다. 미리 보려면 `report.mjs --out <저장소 밖 경로>`를 쓴다. 보고서 갱신은 main을 받은 뒤 사용자가 하거나, 보고서만 바꾸는 별도 PR에서 `report.mjs --force`로 한다.
+- `verify.mjs`는 자기 실행 ID로 돌린다. 인자 없이 돌려도 결과가 같은 실행의 `5-verify.md`·`meta.json`은 다시 쓰지 않는다(날짜 줄만 바뀌는 일을 막는다).
+- `kr-harness/polish-queue.md` 표에는 더 이상 줄을 덧붙이지 않는다. 진행 상태는 `pipeline.mjs status`와 실행 폴더의 `meta.json`이 원본이다.
+- `book-kr/README.md` 표는 절마다 다른 줄을 고치므로 그대로 쓴다.
+
 ## 4. 끝나면
 
-사용자에게 다음을 보고한다: 대상 절, 실행 ID, 단계별 결과(S5 판정, S7 개선 n/m, 원문 유지 항목, 적합성 게이트 kr-fit block·warn과 KR-FIT 판정), 남은 TODO 건수, PR 본문 초안(PR은 사용자가 연다). `kr-harness/polish-queue.md` 표에 실행 한 줄을 추가하거나 상태를 ✅로 바꾼다.
+사용자에게 다음을 보고한다: 대상 절, 실행 ID, 단계별 결과(S5 판정, S7 개선 n/m, 원문 유지 항목, 적합성 게이트 kr-fit block·warn과 KR-FIT 판정), 남은 TODO 건수, PR 본문 초안(PR은 사용자가 연다). `kr-harness/polish-queue.md` 표와 `kr-harness/report.html`은 고치지 않는다(위 「병렬 세션 규칙」).
 
 ## 클라우드 주의
 
-- S1-S3 조사는 law.go.kr, KOSIS, 공단 사이트, doi.org, europepmc.org 등에 접속해야 한다. 클라우드 환경의 네트워크가 기본 **Trusted**면 이 사이트들이 막힌다. 세션 시작 훅이 접속 여부를 알려 준다. 막혀 있으면 S1-S3를 건너뛰고 S4 이후 단계만 진행한 뒤, 사용자에게 [kr-harness/CLOUD.md](../../../kr-harness/CLOUD.md)의 허용 도메인 설정을 안내한다.
+- S1-S3 조사는 law.go.kr, KOSIS, 공단 사이트, doi.org, europepmc.org 등에 접속해야 한다. 클라우드 환경의 네트워크가 기본 **Trusted**면 이 사이트들이 막힌다. 세션 시작 훅이 도메인마다 최대 3번 시도해 정상·끊김·차단을 알려 준다. 끊김만 있으면 재시도와 WebFetch로 S1-S3를 진행한다. 차단이 있으면 WebFetch로 직접 열어 보고, 1차 출처가 WebFetch로도 안 열리면 S1-S3를 건너뛰고 S4 이후 단계만 진행한다. 그다음 사용자에게 [kr-harness/CLOUD.md](../../../kr-harness/CLOUD.md)의 허용 도메인 설정을 안내한다.
 - S4·S5·S8과 보고서는 네트워크가 필요 없다. S6·S7은 파일만 다룬다.

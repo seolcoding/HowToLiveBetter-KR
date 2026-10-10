@@ -1,14 +1,14 @@
 # 윤문 대기열 (S6)
 
-윤문 실행: `/kr-polish RNN`(kr-polisher 에이전트). 보통은 `/kr-pipeline N`이 알아서 부른다. 1차 대기열(아래 표)은 2026-10-06에 codex로 돌렸고, codex 경로는 2026-10-07에 없앴다.
+윤문 실행: `/kr-polish <실행 ID>`(kr-polisher 에이전트, 예: `/kr-polish R18a`). 보통은 `/kr-pipeline N`이 알아서 부른다. 1차 대기열(아래 표)은 2026-10-06에 codex로 돌렸고, codex 경로는 2026-10-07에 없앴다.
 
 윤문 후에는 반드시:
 
 ```bash
-node .claude/skills/kr-verify/scripts/verify.mjs RNN && node .claude/skills/kr-verify/scripts/report.mjs
+node .claude/skills/kr-verify/scripts/verify.mjs <실행 ID>
 ```
 
-를 돌려 검증·보고서를 갱신하고, 통과하면 `book-kr/` 조립(6-polished.md 우선)과 커밋을 한다.
+를 돌려 검증을 갱신하고, 다음 단계(S7 항목별 개선 → 적합성 게이트 → 조립)로 간다. `report.mjs`(report.html)는 절 세션에서 돌리지 않는다. 보고서는 main에서만 다시 만든다(2026-10-10, [CLOUD.md](CLOUD.md) 「병렬 세션」).
 
 | 순서 | 실행 | 절 | 비고 | 상태 |
 |---|---|---|---|---|
@@ -20,5 +20,5 @@ node .claude/skills/kr-verify/scripts/verify.mjs RNN && node .claude/skills/kr-v
 | 6 | R02 | 22 | 91문장 윤문·35개 분할 | ✅ 2026-10-06 |
 
 - 1차 대기열 전량 완료. 검증: 완전통과 3(R09·R12·R13), 조건부 3(R02·R11·R14 — 법조문·지침 인용 보존분).
-- 새 절이 S4를 통과하면 이 표에 추가한다.
+- **2026-10-10부터 이 표에 줄을 덧붙이지 않는다.** 여러 세션이 동시에 끝에 줄을 붙이면 PR끼리 충돌한다. 새 실행의 진행 상태는 `pipeline.mjs status`와 실행 폴더의 `meta.json`(`polished`, `polished_at`)이 원본이다. 위 표는 1차 대기열 기록으로만 남긴다.
 - 상태: ⬜ 대기 · 🟦 윤문중 · ✅ 윤문+재검증 완료
