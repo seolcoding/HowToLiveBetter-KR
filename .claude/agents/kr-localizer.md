@@ -2,7 +2,7 @@
 name: kr-localizer
 description: 한국어판 절 하나의 S1-S3(분석·조사·초역)을 맡는 격리 에이전트. 1차 출처를 웹에서 직접 열어 한국 법·제도·전화번호를 조사한다. kr-pipeline이 절마다 하나씩 띄우고, 사용자가 "제N절 현지화"를 직접 시킬 때도 쓴다.
 tools: Read, Write, Edit, Bash, Glob, Grep, WebFetch, WebSearch
-model: inherit
+model: opus
 skills:
   - kr-localize
 ---

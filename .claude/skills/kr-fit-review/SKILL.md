@@ -15,7 +15,7 @@ argument-hint: "절 번호"
 ## 먼저 읽을 것
 
 - [KR-GUIDE.md](../../../KR-GUIDE.md) 전체
-- [kr-harness/goal.md](../../../kr-harness/goal.md)의 「설계 원칙」과 「금지」(있으면)
+- [kr-harness/goals/2026-10-10-gate-ebook.md](../../../kr-harness/goals/2026-10-10-gate-ebook.md)의 「설계 원칙」과 「금지」
 - [kr-sources.md](../kr-localize/references/kr-sources.md) — 한국 1차 출처 목록과 치환표
 - 맡은 절의 `book-kr/NN-*.md`와 중국어 원문 `book/NN-*.md`
 - `kr-harness/chapters/NN/`의 기존 기록(`1-analysis.md`, `2-research.md`)
