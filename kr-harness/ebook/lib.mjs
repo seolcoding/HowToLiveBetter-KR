@@ -291,6 +291,8 @@ export function renderChapter(ch, book, { prefix = '', xhtml = false, chapterHre
     },
   });
   let html = marked.parse(ch.md);
+  // 다른 절 참조 → 공개 절은 링크, 공개 예정 절은 흐린 표시. 미공개 절로 가던 [링크]는 위 link()에서 글자만 남았으므로 여기서 같이 바뀐다.
+  html = linkRefsHtml(html, book, chapterHref);
   // 항목 필드: <li>비용: … → <li class="f-cost"><strong class="label">비용</strong>: …
   html = html.replace(/<li>(비용|쉽게|이득|근거등급|출처|비고):/g, (_, k) => `<li class="f-${FIELDS[k]}"><strong class="label">${k}</strong>:`);
   if (xhtml) html = toXhtml(html);
