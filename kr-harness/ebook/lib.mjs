@@ -319,15 +319,21 @@ export function searchIndex(book, hrefOf) {
 // 빌드 로그 요약.
 export function logSummary(label, book, extra = '') {
   const t = book.todo;
+  const { chapters: pc, entries: pe } = book.progress;
   console.log(`[${label}] ${book.gateLine}`);
-  console.log(`[${label}] 공개 ${book.ready.length}/${book.chapters.length}절(${book.ready.map(c => c.num).join(', ')}), 항목 ${book.entryCount}개${extra}`);
+  console.log(`[${label}] 공개 ${pc.now}/${pc.total}절(${book.ready.map(c => c.num).join(', ')}), 항목 ${pe.now}/${pe.total}개(${pe.pct}%), 공개 예정 ${book.pending.length}절${extra}`);
+  console.log(`[${label}] 다른 절 참조: 링크 ${refStats.link}곳, 공개 예정 표시 ${refStats.pending}곳`);
   console.log(`[${label}] TODO 집계: 「TODO」 표시 ${t.marks}개(항목 본문 ${t.body}, 「TODO 확인 필요」 절 ${t.inList}), 「TODO 확인 필요」 목록 ${t.listed}건 — 절별 표시 ${book.ready.map(c => `${c.num}절 ${c.todos.marks}`).join(', ')}`);
 }
 
 // 머리말 문단들(HTML 출력물 공용). 각 출력물이 자기 링크로 감싸 쓴다.
 export function frontFacts(book) {
+  const { chapters: pc, entries: pe } = book.progress;
   return {
-    progress: `전체 ${book.chapters.length}절 중 ${book.ready.length}절 공개, 항목 ${book.entryCount}개`,
+    progress: `${pc.total}절 중 ${pc.now}절 공개(${pc.pct}%), 원문 ${pe.total}항목 중 ${pe.now}항목 공개(${pe.pct}%)`,
+    chapterLine: `공개한 절: ${pc.now}/${pc.total}절(${pc.pct}%)`,
+    entryLine: `공개한 항목: ${pe.now}/${pe.total}항목(${pe.pct}%)`,
+    pendingLine: book.pending.length ? `공개 예정 ${book.pending.length}절: ${book.pending.map(c => c.num).join(', ')}` : '',
     stamp: `${book.stamp} (한국 시간)${book.commit ? ` · 커밋 ${book.commit.slice(0, 7)}` : ''}`,
     localized: '중국의 법·제도·전화번호는 한국 것으로 바꿨습니다. 의학 근거(논문 DOI, 위험비 같은 수치)는 원문 그대로 옮겼습니다. 아직 확인하지 못한 부분은 본문에 「TODO 확인 필요」로 표시해 두었습니다.',
     license: `본문은 원본과 같은 ${LICENSE} 조건을 따릅니다. 출처(《${UPSTREAM_TITLE}》과 원본 저장소)를 밝히고 고친 부분을 고쳤다고 적으면 자유롭게 옮겨 실을 수 있습니다.`,

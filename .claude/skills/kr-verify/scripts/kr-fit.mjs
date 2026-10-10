@@ -15,6 +15,8 @@
 // 항목 구조(KF-STRUCT): ### 항목마다 KR-GUIDE 표준 여섯 칸이 각 1회 줄 머리에서 표준 순서로 나오는지, 한 줄에 다른 칸 머리가
 // 붙어 있지 않은지, 비용태그 주석이 있는지 본다. 판정 코드는 S7 entries.mjs와 공유(kr-refine/scripts/entry-format.mjs).
 // 구조 결함은 kr-fit-ok로 통과시킬 수 없다.
+// 다른 절 참조(KF-REF-*): 본문의 「(준비 중)」「다룰 예정」 같은 공개 여부 표시는 block(PENDING). 제N절(주제)의 주제가 README 표
+// 한국어 제목과 다르면(TITLE), 괄호도 「 제M항(」도 없으면(FORM), 표에 없는 번호면(RANGE), 괄호 뒤 조사가 「절」「항」과 안 맞으면(JOSA) warn.
 // 예외: 같은 줄 또는 바로 윗줄에 <!-- kr-fit-ok: 사유 --> 를 두면 그 줄의 지적을 통과시킨다. 사유가 비면 block(KF-OK-EMPTY).
 // 내려가는 경우: TODO 절, 출처 줄(용어 규칙), 같은 문장에 비교 문맥(중국·원문·「한국에는 없다」)이 있으면 block → warn.
 import { readFileSync, existsSync, readdirSync, writeFileSync, mkdirSync } from 'node:fs';
