@@ -38,6 +38,8 @@ jobs:
           fi
       - name: 스크립트 문법
         run: for f in .claude/hooks/*.mjs .claude/skills/*/scripts/*.mjs; do node --check "$f"; done
+      - name: S4 문체 변환 회귀 검사
+        run: node --test .claude/skills/kr-style/scripts/convert-b.test.mjs
       - name: 세션 시작 훅
         run: CLAUDE_PROJECT_DIR="$PWD" node .claude/hooks/session-start.mjs
       - name: 실행별 검증(반려 시 실패)

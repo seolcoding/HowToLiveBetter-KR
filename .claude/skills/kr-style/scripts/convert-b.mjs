@@ -1,7 +1,7 @@
 // .claude/skills/kr-style/scripts/convert-b.mjs — 평어체(S3/A) 초안의 문장 종결을 합니다체(B)로 변환.
 // 사용: node .claude/skills/kr-style/scripts/convert-b.mjs <입력.md> <출력.md>
 // 변환 대상: 서문·본문 문단, - 비용/쉽게/이득/비고 필드의 "문장 끝" 어미만.
-// 불변: ### 제목, 비용태그 주석, - 출처/- 근거등급, ## TODO 섹션, 링크, 「」 인용 내부(문장 끝이 아니면 그대로).
+// 불변: ### 제목, 비용태그 주석, - 출처/- 근거등급, ## TODO 섹션, 링크·DOI, 직접 인용, 기존 합니다체.
 // 규칙(자모 처리): 는다→습니다, 받침 ㄴ/ㄹ→ㅂ니다(간다→갑니다, 알다→압니다), 받침 없음→ㅂ니다(하다→합니다, 이다→입니다), 그 외 받침→습니다(먹다→먹습니다).
 import { readFileSync, writeFileSync } from 'node:fs';
 
@@ -23,7 +23,7 @@ function convStem(stem) {
   return stem + '습니'; // 낫다→낫습니, 있다→있습니, 았다→았습니
 }
 
-// 문장 끝(구두점·여는 괄호 직전/줄 끝)의 …다 를 변환. 「」 안의 다 는 뒤가 」/〔등이라 자연 배제됨.
+// 문장 끝(구두점·여는 괄호 직전/줄 끝)의 …다 를 변환. 보호 구간은 아래에서 먼저 가린다.
 // 여는 괄호 포함: "있다(법 제16조)." → "있습니다(법 제16조)." 괄호 인용이 뒤따르는 종결도 변환.
 const convLine = (line) =>
   line.replace(/([가-힣]{1,12})다(?=[.?!…(]|$)/g, (m, stem) => {
@@ -48,27 +48,48 @@ const FIXES = [
 ];
 const fixLine = (line) => FIXES.reduce((l, [re, to]) => l.replace(re, to), line);
 
+// 변환과 FIXES 모두에서 보호한다. 인용은 여러 줄·이스케이프된 큰따옴표도
+// 포함하며, 닫히지 않은 인용은 문서 끝까지 보수적으로 보존한다.
+const input = readFileSync(inPath, 'utf8').replace(/\r\n/g, '\n');
+let marker = '\uE000';
+while (input.includes(marker)) marker += '\uE000';
+const protectedText = [];
+const tokenRE = new RegExp(`${marker}(\\d+)${marker}`, 'g');
+const protect = (text) => text.replace(
+  /"(?:\\[\s\S]|[^"\\])*(?:"|$)|「[^」]*(?:」|$)|“[^”]*(?:”|$)|https?:\/\/[^\s<>"「」“”]+|\b10\.\d{4,9}\/[^\s<>"「」“”]+|[가-힣]*니다/g,
+  (span) => {
+    // ~ㅂ니다/습니다만 보호한다. 평어체 아니다의 니다는 여기에 해당하지 않는다.
+    if (/^[가-힣]*니다$/.test(span) && (span.length < 3 || decomp(span.at(-3))[2] !== FIN_B)) return span;
+    return span.split('\n').map((part) => {
+      protectedText.push(part);
+      return `${marker}${protectedText.length - 1}${marker}`;
+    }).join('\n');
+  },
+);
+const restore = (text) => text.replace(tokenRE, (_, i) => protectedText[Number(i)]);
+
 const SKIP = /^(###|<!--|- 출처:|- 근거등급:|\[←|#|>)/;
 const out = [];
 let inTodo = false;
 let changed = 0;
-for (const line of readFileSync(inPath, 'utf8').split(/\r?\n/)) {
+for (const masked of protect(input).split('\n')) {
+  const line = restore(masked);
   if (/^## TODO/.test(line)) inTodo = true;
   if (inTodo || SKIP.test(line) || !line.trim()) { out.push(line); continue; }
-  const conv = fixLine(convLine(line));
+  const conv = restore(fixLine(convLine(masked)));
   if (conv !== line) changed++;
   out.push(conv);
 }
 writeFileSync(outPath, out.join('\n'), 'utf8');
 
 // 남은 평어체 종결 리포트(수동 수정 대상) — 「」 내부·괄호 링크 제외하고 문장 끝 '…다.'
-const allLines = readFileSync(outPath, 'utf8').split(/\r?\n/);
+const allLines = protect(out.join('\n')).split('\n');
 const todoStart = allLines.findIndex((l) => /^## TODO/.test(l));
 const leftover = allLines
   .map((l, i) => [i + 1, l])
   .filter(([n, l]) => (todoStart === -1 || n < todoStart + 1) && /^(?!###|<!--|- 출처:|- 근거등급:|\[←|#|>)/.test(l) && l.trim())
   .filter(([_, l]) => {
-    const clean = l.replace(/「[^」]*」/g, '').replace(/\([^)]*\)/g, '').replace(/https?:\/\/\S+/g, '');
+    const clean = l.replace(tokenRE, ' ').replace(/\([^)]*\)/g, '');
     return /(?<![니랃])다(?=[.?!…(]|$)/.test(clean); // ~니다(합니다·습니다·입니다)는 제외
   });
 console.log(`${outPath}: 변환 라인 ${changed}, 남은 평어체 종결 라인 ${leftover.length}${leftover.length ? ' → ' + leftover.map(([n]) => 'L' + n).slice(0, 20).join(',') : ''}`);
