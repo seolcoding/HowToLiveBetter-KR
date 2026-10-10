@@ -286,3 +286,32 @@ URL 형식: `https://www.safekorea.go.kr/safekorea-kor/acts/nacts/action-guide.d
 | 112 신고자 신원 비밀 보장 일반 조항 | 찾지 않음(「특정범죄신고자 등 보호법」은 특정범죄 한정) | 37항에서 원문의 해당 문장 삭제 |
 | 국내 일산화탄소 중독 연간 사망자(전국) | KDCA 보도자료 검색 '일산화탄소' 0건 | 15개 응급실 실태조사 비율만 씀 |
 | 대한법률구조공단 132 | 규칙 파일 주석상 미확인 번호 | 기관명만 씀 |
+
+
+## 2026-10-10 1차 적합성 검토 수정 보강
+
+수정 대상은 R13a-13-styleB/7-refined.md만이다. 첫 리뷰 block6(2·7·28·30·39·42), warn5(1·4·17·31·41)를 처리했다. S3와 인용문을 대조했다. 원문 book과 S7 개별출력은 수정하지 않았다.
+
+- **2항**: 직접 구조의 일반적 의무와 응급환자 신고·협조의무를 구분했다. 제5조 두 항을 직접 확인. 별도 벌칙 부재를 법적 의무 부재로 쓰지 않는다. 민법735조 인용 끝말은 공식 원문 ‘책임이 없다’로 복원했다.
+  - https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&type=XML&MST=280429&efYd=20260624 (응답 시행일20260624)
+  - https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&type=XML&MST=284415&efYd=20260317 (응답 시행일20260317)
+- **7·4항**: 한국 응급처치 지침 전문을 직접 열어 심근경색 의심시 즉시 EMS를 최우선으로 권함, 뇌졸중 안전하고 편한 자세/즉시119, FAST·BE-FAST를 확인했다. 흉통15분 대기를 없앴고, 눈 감고 서기를 시키는 지시를 제거했다.
+  - https://www.ceemjournal.org/journal/view.php?doi=10.15441/ceem.26.076
+- **28·17·41항**: IFRC PDF 직접 다운로드 후 전문을 텍스트로 추출하여 461–463쪽 반응/삼킴 조건, 391–392쪽 당15–20g/15분, 301–302쪽 X-ray 문장을 대조했다. 음료는 의식이 또렷하고 삼킬 수 있을 때만, CPR은 한국 지침의 반응 없고 정상 호흡 없음으로 제한. NWS의 짧은 ‘의식이 없으면CPR’ 인용은 원문임을 재확인하되 국내 실천 조건을 바로 덧붙였다. 41항 ‘엑스레입니다’를 ‘엑스레이이다’로 복원했다. 17항70/54 분류는 기존 ADA 인용의 원값을 유지해 쉽게 칸에 구분했다(ADA 전문 새 열람은 챌린지 화면이라 확인 완료로 주장하지 않음).
+  - https://www.ifrc.org/sites/default/files/2026-03/IFRC%20International%20First%20Aid,%20Resuscitation%20and%20Education%20Guidelines%202025.pdf
+  - https://www.weather.gov/safety/cold-during
+- **30항**: 국민안전24 원문 직접 확인. 흔들리는 동안 탁자 아래, 멈춘 뒤 계단 대피로 통일. ‘잡습니다’·‘확보합니다’ 인용 복원. 아르메니아 OR4.40/12.20/3.65와 CI는 보존하며 국내 행동 분기로 사용하지 않는다. 건축법48조의3 실제 시행본으로 목구조3층/500㎡, 구조안전 확인 비대상 및 대통령령상 산정곤란 건축물 제외를 보강.
+  - https://www.safekorea.go.kr/safekorea-kor/acts/nacts/action-guide.do?category=earthQuake&menuSn=4
+  - https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&type=XML&MST=273437&efYd=20260227 (응답 시행일20260227)
+- **39항**: 법11–13조 신청대상/경미부상 제외, 법9조 다른 법률에 따른 손해배상 시 물건보상 제외, 시행령16조7~9급을 직접 확인했다. 의료급여는 해당 의상자, 교육보호는 해당 의상자와 자녀, 취업보호는 해당 의상자와 가족이 제외됨을 명시했다.
+  - https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&type=XML&MST=276679&efYd=20251001 (응답 시행일20251001)
+  - https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&type=XML&MST=281595&efYd=20260102 (응답 시행일20260102)
+- **42항**: 노레보원정 품목200700537 상세 페이지를 직접 열어 효능효과72시간, 용법용량 ‘가능한 한 빨리(12시간 이내 권장), 늦어도72시간(3일) 이내’ 확인. WHO의 방법별5일과 국내 노레보 허가72시간을 구분했다. 이 TODO1건 해결.
+  - https://nedrug.mfds.go.kr/pbp/CCBBB01/getItemDetail?itemSeq=200700537
+- **1·31항**: 국내 교육 시간/비용 미확인 단정을 제거해 기관·과정별 확인으로 변경. NPS 곰 안내를 직접 열어 해외 미국 곰 맥락으로 한정했고, 국내 반달가슴곰·멧돼지·들개 공통 상세 행동을 단정하지 않는다. 국내 종별자료 TODO는 유지.
+  - https://www.nps.gov/subjects/bears/safety.htm
+- **도입부**: 지급정지법290245 `target=law` 응답metadata 시행일20261002를 먼저 확인한 뒤 해당 시행일의 `target=eflaw`로 다시 열어 제3~4조 직접 확인. 피해구제 신청만으로 무조건 지급정지한다고 단정하지 않고 거래내역 등을 통해 사기이용계좌로 의심할 사정이 인정되어야 함을 명시했다.
+  - https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&type=XML&MST=290245
+  - https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&type=XML&MST=290245&efYd=20261002 (응답 시행일20261002)
+
+검증: kr-fit 대상파일 --check block0/warn0. verify.mjs는 --input 옵션이 없으며 최신7-refined.md를 자동선택하므로 `verify.mjs R13a` 사용. 44항목, 비용태그44개·근거등급44개 일치, DOI 집합 보존. TODO는13→12건. 최종 검증결과는 해당 실행5-verify.md/meta.json에 기록.
