@@ -57,7 +57,7 @@
 4. **작성**: 항목 형식대로 한국어로 쓴다. 문체 규칙을 적용한다.
 5. **자체 검증**: 아래 체크리스트.
 6. **상태 갱신**: `book-kr/README.md` 표에서 ⬜ → 🟦(작업중) → ✅. ✅는 아래 체크리스트의 적합성 게이트(kr-fit + KR-FIT 리뷰)를 통과한 절에만 준다.
-7. **윤문(S6)과 항목별 개선(S7)**: 문체 변환(S4)과 검증(S5) 뒤에 `/kr-polish RNN`(kr-polisher 에이전트)을 실행하고, 이어서 `/kr-refine RNN`을 실행한다. 대기열과 규칙은 [kr-harness/polish-queue.md](kr-harness/polish-queue.md), 운영 노하우는 [kr-harness/LESSONS.md](kr-harness/LESSONS.md).
+7. **윤문(S6)과 항목별 개선(S7)**: 문체 변환(S4)과 검증(S5) 뒤에 `/kr-polish <ID>`(kr-polisher 에이전트)을 실행하고, 이어서 `/kr-refine <ID>`을 실행한다. 1차 라운드 기록은 [kr-harness/polish-queue.md](kr-harness/polish-queue.md), 운영 노하우는 [kr-harness/LESSONS.md](kr-harness/LESSONS.md).
 
 ## 자체 검증 체크리스트 (절 1개 완료 기준)
 

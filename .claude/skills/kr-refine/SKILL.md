@@ -1,7 +1,7 @@
 ---
 name: kr-refine
-description: 한국 현지화 파이프라인 S7 항목별 개선. 실행(RNN)의 6-polished.md를 항목(###) 단위로 쪼개 항목마다 kr-entry-refiner 서브에이전트를 하나씩 띄워 다듬고, 구조 검사 후 7-refined.md로 재조립한다. "항목별 개선", "refine", "S7", "/kr-refine R15" 요청에 사용.
-argument-hint: "RNN [--jobs 8]"
+description: 한국 현지화 파이프라인 S7 항목별 개선. 실행(예: R18a)의 6-polished.md를 항목(###) 단위로 쪼개 항목마다 kr-entry-refiner 서브에이전트를 하나씩 띄워 다듬고, 구조 검사 후 7-refined.md로 재조립한다. "항목별 개선", "refine", "S7", "/kr-refine R18a" 요청에 사용.
+argument-hint: "<실행 ID> [--jobs 8]"
 ---
 
 # S7 항목별 개선 (항목 1개 = 서브에이전트 1개)
@@ -45,7 +45,7 @@ argument-hint: "RNN [--jobs 8]"
 
 6. **재검증**
    ```bash
-   node .claude/skills/kr-verify/scripts/verify.mjs RNN
+   node .claude/skills/kr-verify/scripts/verify.mjs <ID>
    ```
 
 ## 구조 검사가 보는 것 (`entries.mjs check`)

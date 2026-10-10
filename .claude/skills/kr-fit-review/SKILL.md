@@ -24,7 +24,7 @@ argument-hint: "절 번호"
 
 ## 할 일
 
-검토 대상 파일은 `node .claude/skills/kr-pipeline/scripts/pipeline.mjs status NN`의 게이트 줄 괄호 안 파일이다. 이미 book-kr/에 들어간 절(README ✅·🟨)이면 `book-kr/NN-*.md`, 조립 전이면 실행 산출물(`kr-harness/runs/RNN-…/7-refined.md`)이다. 검토 기록 첫머리 「검토 대상」에 그 경로를 적는다.
+검토 대상 파일은 `node .claude/skills/kr-pipeline/scripts/pipeline.mjs status NN`의 게이트 줄 괄호 안 파일이다. 이미 book-kr/에 들어간 절(README ✅·🟨)이면 `book-kr/NN-*.md`, 조립 전이면 실행 산출물(`kr-harness/runs/<ID>-…/7-refined.md`)이다. 검토 기록 첫머리 「검토 대상」에 그 경로를 적는다.
 
 대상 파일의 모든 항목(`### ` 블록)을 하나씩 읽고, 한국 독자에게 맞는지 판정한다. **본문은 고치지 않는다.** 검토 기록만 쓴다.
 

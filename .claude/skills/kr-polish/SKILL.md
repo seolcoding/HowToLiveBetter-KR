@@ -1,12 +1,12 @@
 ---
 name: kr-polish
-description: 한국 현지화 파이프라인 S6 윤문. 합니다체로 변환된 실행 산출물(4-styled.md)을 사람이 쓴 것처럼 문장 차원에서 다듬어 6-polished.md를 만든다. 내용·숫자·출처·구조는 바꾸지 않는다. "윤문", "polish", "S6", "/kr-polish R15" 요청에 사용. 보통 kr-polisher 서브에이전트 안에서 실행.
-argument-hint: "RNN"
+description: 한국 현지화 파이프라인 S6 윤문. 합니다체로 변환된 실행 산출물(4-styled.md)을 사람이 쓴 것처럼 문장 차원에서 다듬어 6-polished.md를 만든다. 내용·숫자·출처·구조는 바꾸지 않는다. "윤문", "polish", "S6", "/kr-polish R18a" 요청에 사용. 보통 kr-polisher 서브에이전트 안에서 실행.
+argument-hint: "<실행 ID>"
 ---
 
 # S6 윤문
 
-대상 실행: `$ARGUMENTS` (예: R15). 실행 폴더는 `kr-harness/runs/RNN-*/`.
+대상 실행: `$ARGUMENTS` (예: R18a). 실행 폴더는 `kr-harness/runs/<ID>-*/`.
 
 오케스트레이터가 이 스킬을 직접 실행하지 않는다. 실행 하나마다 `kr-polisher` 서브에이전트를 Agent 도구로 하나 띄우고, 프롬프트에 실행 ID만 준다. 여러 실행은 한 메시지에서 병렬로 띄워도 된다(서로 다른 파일만 쓴다).
 
@@ -45,7 +45,7 @@ argument-hint: "RNN"
 
 1. 자체 확인: 항목 수 불변, 필드 6종 전 항목 존재, 숫자·URL이 입력과 같음. 아래 명령이 판정을 낸다.
    ```bash
-   node .claude/skills/kr-verify/scripts/verify.mjs RNN
+   node .claude/skills/kr-verify/scripts/verify.mjs <ID>
    ```
 2. `meta.json`에 `"polished": "claude-kr-polisher"`, `"polished_at": "YYYY-MM-DD"`를 추가한다(다른 키는 보존).
 3. 마지막 메시지 3~5줄: 다듬은 문장 수, 쪼갠 긴 문장 수, 검증 판정, 남긴 이슈.
