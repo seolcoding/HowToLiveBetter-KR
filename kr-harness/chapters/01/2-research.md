@@ -256,3 +256,18 @@ URL: https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=273603
 7. 성인 HPV·B형간염·파상풍 백신 한국 가격(비급여 진료비 정보).
 8. 한국 실외 얼음 위 사고 사망 통계.
 9. 2026년 현재 PrEP 지원사업이 계속되는지(안내문에는 「2025년 1월 ~ ※ 종료 시 별도 안내」만 있음).
+
+## G. 첫 KR-FIT 리뷰 수정 때 독립 재확인 (2026-10-10)
+
+검토 대상: `kr-harness/runs/R01a-01-styleB/7-refined.md`. 첫 리뷰의 block 3건·warn 5건을 아래 1차 자료와 직접 대조했다. 이 환경에는 WebFetch 도구가 없어 기관 자료는 HTTPS로 받아 읽었다. 기존 조사 기록만으로 확인을 대신하지 않았다. 원래 DOI·PubMed 링크와 도입부 주석, 비용태그, 근거등급은 보존했다.
+
+- **제15항(block)**: https://www.cdc.gov/tetanus/hcp/clinical-guidance/index.html 본문의 “10 or more years”·“5 or more years”와 TIG 목록 “People with HIV”·“People with a severe immunodeficiency”를 직접 확인했다. 백신 기준을 10년 이상·5년 이상으로 고쳤다. 더럽거나 큰 상처에서는 HIV 감염·중증 면역저하가 있으면 접종력과 관계없이 TIG 대상이라고 보완했다. 깨끗하고 작은 상처에 TIG를 쓰지 않는 조건은 유지했다.
+- **제32항(block)**: https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:19026258&format=json&resultType=core 초록에 “76.8% (N = 63) reported having had any kind of interpersonal contact”가 있다. 63명 모두가 자살 생각을 말하지 않았다는 내용은 없어 쉽게의 미발언 단정을 삭제했다. 같은 초록의 시간 조건은 “10 minutes or less”이므로 쉽게와 이득을 10분 이내로 바로잡았다. 82명·47.6%·39명·76.8%·63명과 원래 DOI는 유지했다. 미발언 비율은 확인되지 않아 수치나 새 주장을 넣지 않았다.
+- **제39항(block)**: https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1001/jama.2024.21653&format=json&resultType=core 초록에서 “Two RCTs used 2-stage screening”·“One RCT used BMD plus additional tests”를 직접 확인했다. https://www.uspreventiveservicestaskforce.org/uspstf/document/final-evidence-summary/osteoporosis-screening 의 Benefits of Screening 본문에는 “5 fewer hip fractures per 1000 people screened”가 있다. 쉽게의 모든 골절·사람 수 표현을 검진·치료 참여 여성 1,000명당 고관절 골절 5건으로 고쳤다. 17%도 약물 단독 효과가 아닌 검진·치료 과정의 결과로 썼다. 이득과 비고의 세 시험 설계를 두 시험의 위험평가 후 골밀도 검사, 한 시험의 골밀도와 추가 검사로 구분했다. RR 0.83·42,009명·SCOOP 수치는 보존했다.
+- **제3항(warn)**: https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:15164891&format=json&resultType=core 의 Carskadon·Herz(2004), Sleep 27(3):402-405 초록을 직접 읽었다. 결론은 “human olfaction is not reliably capable of alerting a sleeper”. 일부 수면 단계에서는 냄새 반응도 있었다. 절대적으로 깨지 못한다는 문장을 냄새만으로 깨어날 것을 기대하면 안 된다는 권고로 고쳤다. 이득에 수면 실험의 결론, 출처에 해당 원저 초록 URL을 보강했다. 새 DOI는 추가하지 않았다. OR 0.39·화재 통계는 그대로다.
+- **제25항(warn)**: https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=279695&type=XML&efYd=20260512 를 직접 열었다. 반환 기본정보의 시행일자 20260512와 제2조의2 제2호 자살위해물건 정의를 확인했다. 출처에 현행 시행일 지정 URL을 병기했다. 시행예정 기본 화면을 현행 확인으로 갈음하지 않았다.
+- **제33항(warn)**: https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1056/NEJMoa013121&format=json&resultType=core 의 Weaver 시험 초록에서 6주 인지 후유증 19/76(25.0%)·35/76(46.1%)를 직접 확인했다. 모두에게 후유증이 남는다는 뜻의 단정을 “살아남아도 후유증이 없으리라는 보장은 없습니다”로 고쳤다. 연구 수치는 유지했다.
+- **제36항(warn)**: https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=286119&type=XML&efYd=20260519 를 직접 열었다. 반환 기본정보의 시행일자 20260519, 제2조의 장치·동위원소 구분, 제97조 사업자의 도난·분실·화재 등 지체 없는 위원회 신고를 확인했다. 출처에 현행 시행일 지정 URL을 병기했다. 일반 독자의 112·119 신고 권고와 사업자의 법적 의무 구분은 유지했다.
+- **제38항(warn)**: https://daedeok.go.kr/board/binary/CHC_000005/2097358.pdf 를 받아 PDF 원문 텍스트로 직접 읽었다. “2025년 1월 ~ ※ 종료 시 별도 안내”, 17개 시도, 검사 급여 본인부담 전액, 월 6만원을 제외한 약값 지원을 확인했다. 현재 지원 중이라는 단정을 2025년 안내문 설명으로 한정했다. 2026년 지속 여부와 참여 의료기관은 여전히 TODO다. 현행 여부를 보건소에 확인하라는 비고는 유지했다.
+
+기존 TODO 11개는 확정하지 않았다. 제32항의 미발언 여부는 근거 없는 단정을 삭제했으므로 본문에 새 TODO 주장으로 남기지 않았다. 첫 리뷰에 기록된 Lu J 2017 DOI-drop 효력 없음은 기존 추출 문제이며 이번 수정에서 DOI나 표식을 바꾸지 않았다.
