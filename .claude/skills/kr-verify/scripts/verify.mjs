@@ -56,8 +56,12 @@ function parseEntries(md) {
   return body.split(/^### /m).slice(1).map((b) => b.trim());
 }
 
+// DOI 주소 추출. 원문·번역·도입부 표시가 모두 이 함수를 쓴다.
+// 주소는 공백·>·，·)·） 앞에서, 그리고 바로 이어 붙은 다음 주소(https://…) 앞에서 끊는다.
+// 끝에 붙은 문장부호(. , ; : 」 · 》 ' " 와 전각 ；：。、”’)는 뗀다(2026-10-10, 「…9014; https://doi.org/…」처럼 이어 쓴 출처).
+const DOI_TAIL = /[.,;:」·》'"；：。、”’]+$/;
 function doiris(md) {
-  return [...new Set((md.match(/https:\/\/doi\.org\/[^\s>，)）]+/g) || []).map((s) => s.replace(/[.,]$/, '')))].sort();
+  return [...new Set((md.match(/https:\/\/doi\.org\/(?:(?!https?:\/\/)[^\s>，)）])+/g) || []).map((s) => s.replace(DOI_TAIL, '')))].sort();
 }
 
 function longSentences(md) {
