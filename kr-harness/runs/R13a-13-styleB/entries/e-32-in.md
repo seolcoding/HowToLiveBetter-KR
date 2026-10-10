@@ -1,0 +1,9 @@
+### 32. 야외에서 뇌우를 만나면 지붕 있는 차나 건물로 들어가세요. 능선, 외딴 나무, 물가, 쇠붙이를 피하세요
+<!-- 成本标签: 钱=0 时间=少 毅力=些 收益=大 口径=死亡率 -->
+- 비용: 돈 안 듭니다. 일정이 30분 넘게 끊깁니다. 어려운 건 천둥이 아직 멀 때 돌아서는 일입니다.
+- 쉽게: 뇌우가 치는 동안 야외에 안전한 곳은 없습니다. 지붕이 단단한 차나 건물로 들어가세요. 오픈카, 오토바이, 텐트, 정자, 나무 밑, 튀어나온 바위 밑은 피신처가 아닙니다. 탁 트인 곳, 능선과 산꼭대기, 외딴 큰 나무, 물가, 쇠 난간을 피하세요. 천둥이 들리면 바로 철수하고, 마지막 천둥 뒤 30분이 지나야 안전합니다.
+- 이득: 미국 국가기상청에 따르면 뇌우가 근처에 있으면 야외에 안전한 곳은 없습니다. 마지막 천둥이 울린 뒤 30분이 지나야 안전합니다. 행정안전부 국민안전24 낙뢰 행동요령도 「30-30 규칙」을 씁니다. 번개가 친 뒤 30초 안에 천둥이 울리면 바로 안전한 곳으로 대피합니다. 마지막 천둥 뒤 30분쯤 더 기다렸다 움직입니다. 산 정상의 암벽이나 키 큰 나무 밑은 위험합니다. 등산 스틱이나 우산처럼 긴 물건은 몸에서 떨어뜨립니다. 벼락을 맞은 사람이 숨을 쉬지 않으면 심폐소생술을 하고 119에 신고합니다. 의식이 있고 멀쩡해 보여도 몸속 깊이 화상을 입었을 수 있어 빨리 응급 진찰을 받습니다. 2025 한국 심폐소생술 가이드라인은 벼락 사고로 여러 명이 다쳤으면 숨이나 심장이 멈춘 사람부터 돌보라고 씁니다. 숨이 멎지 않았거나 처치에 바로 반응한 사람은 완전히 회복할 가능성이 높습니다.
+- 근거등급: B
+- 출처: 미국 국가기상청. Lightning Safety Outdoors: "There is no safe place outside when thunderstorms are in the area" "Avoid open fields, the top of a hill or a ridge top. Stay away from tall, isolated trees or other tall objects" "Stay away from water, wet items, such as ropes, and metal objects, such as fences and poles"; 피할 곳이 없을 때 "If you are in a group, spread out to avoid the current traveling between group members"; "Wait 30 minutes until after the last rumble of thunder". <https://www.weather.gov/safety/lightning-outdoors> · 행정안전부 국민안전24. 국민행동요령: 낙뢰. <https://www.safekorea.go.kr/safekorea-kor/acts/nacts/action-guide.do?category=lightningStrike&actsHeaderTitle=%EB%82%99%EB%A2%B0&menuSn=4> · Kim TY 등 (2026). 2025 Korean Guidelines for Cardiopulmonary Resuscitation: Part 5. Cardiac arrest in special circumstances. Clinical and Experimental Emergency Medicine 13(Suppl 1). <https://doi.org/10.15441/ceem.26.074>
+- 비고: 텐트, 정자, 나무 밑, 튀어나온 바위 밑은 피신처가 아닙니다. 지붕이 단단한 차는 되지만 오픈카와 오토바이는 안 됩니다. 천둥이 들리면 비가 오기 전이라도 철수하세요. 여럿이 피할 곳이 없으면 서로 떨어져 서세요(미국 국가기상청). 국민안전24는 피할 건물이 없으면 몸을 낮추고 물기 없는 움푹한 곳으로 가라고도 씁니다. 2026-10-10 국민안전24 확인.
+

@@ -7,7 +7,7 @@
 //   node .claude/skills/kr-refine/scripts/entries.mjs check    <e-NN.md>            출력 한 개의 구조 검사(실패 시 종료코드 1)
 //   node .claude/skills/kr-refine/scripts/entries.mjs assemble <입력.md>            7-refined.md 조립(실패 항목은 원문 유지)
 //
-// 입력은 보통 runs/RNN-*/6-polished.md. 작업 폴더는 같은 실행 폴더의 entries/.
+// 입력은 보통 runs/<실행 ID>-*/6-polished.md(예: runs/R18a-18-styleB/). 작업 폴더는 같은 실행 폴더의 entries/. 경로만 쓰므로 ID 형식과 무관하다.
 // 클라우드 세션은 중간에 VM이 쉬었다 깨어날 수 있으므로 split은 이미 있는 출력을 지우지 않는다(--force일 때만 초기화).
 import { readFileSync, writeFileSync, existsSync, mkdirSync, rmSync, readdirSync } from 'node:fs';
 import { join, resolve, dirname, relative } from 'node:path';

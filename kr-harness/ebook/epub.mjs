@@ -49,8 +49,11 @@ const titlePage = wrap(book.title, `<div class="cover">
 const frontPage = wrap('머리말', toXhtml(`<h1 id="front">머리말</h1>
 <p><strong>비공식 현지화판입니다.</strong> ${esc(NOTICE)}</p>
 <p>${esc(f.localized)}</p>
+<ul class="progress-lines">
+<li>${esc(f.chapterLine)}</li>
+<li>${esc(f.entryLine)}</li>
+${f.pendingLine ? `<li>${esc(f.pendingLine)}. 본문에서 이 절들을 가리키는 곳에는 「공개 예정」이라고 표시해 두었습니다.</li>\n` : ''}</ul>
 <ul>
-<li>진행 상황: ${esc(f.progress)}</li>
 <li>웹에서 읽기: ${a(SITE)}</li>
 <li>내려받기: EPUB ${a(DOWNLOADS.epub)} · PDF ${a(DOWNLOADS.pdf)} · HTML ${a(DOWNLOADS.html)}</li>
 <li>원본 저장소: ${a(UPSTREAM)}</li>
@@ -60,14 +63,19 @@ const frontPage = wrap('머리말', toXhtml(`<h1 id="front">머리말</h1>
 <p>${esc(f.license)}</p>
 `), 'preface');
 
+// 차례 쪽: 공개 절을 절 번호 순으로 위에, 공개 예정 절은 맨 아래 한 덩어리로. EPUB 읽기 프로그램은 접기(details)를
+// 제대로 못 그리는 경우가 많아 접지 않고 한 문단으로 줄인다.
 const contentsPage = wrap('차례', `<h1 id="contents">차례</h1>
-<p>전체 ${book.chapters.length}절 중 ${book.ready.length}절을 실었습니다. 「준비 중」인 절은 현지화와 검증이 끝나면 다음 판에 들어갑니다.</p>
+<p>${esc(f.progress)}.</p>
 <ol class="contents">
-${book.chapters.map(c => c.ready
-    ? `<li value="${c.num}">${a(fileOf(c), c.title)} <span class="count">(항목 ${c.entries.length}개)</span></li>`
-    : `<li value="${c.num}" class="pending">${esc(c.title)} <span class="badge">준비 중</span></li>`).join('\n')}
+${book.ready.map(c => `<li value="${c.num}">${a(fileOf(c), c.title)} <span class="count">(항목 ${c.entries.length}개)</span></li>`).join('\n')}
 </ol>
-`, 'toc');
+${book.pending.length ? `<section class="pending" id="pending">
+<h2>공개 예정 ${book.pending.length}절</h2>
+<p>현지화와 검증이 끝나면 다음 판에 들어갑니다.</p>
+<p class="pending-list">${book.pending.map(c => `${c.num}. ${esc(c.title)}`).join(' · ')}</p>
+</section>
+` : ''}`, 'toc');
 
 const chapterPages = book.ready.map(ch => ({
   file: fileOf(ch), id: ch.id, title: `${ch.num}. ${ch.title}`,
@@ -76,9 +84,11 @@ const chapterPages = book.ready.map(ch => ({
 }));
 
 // ---------- 목차(nav: 절 → 항목, NCX도 같은 구조) ----------
+// 공개 예정 절은 하나씩 넣지 않는다. 차례 쪽의 「공개 예정」 덩어리로 가는 항목 하나를 「차례」 아래에 둔다.
+// 맨 끝에 두면 차례 쪽(본문보다 앞)으로 되돌아가는 링크가 되어 epubcheck가 읽기 순서 경고(NAV-011)를 낸다.
 const navTree = [
   { href: 'front.xhtml', text: '머리말', subs: [] },
-  { href: 'contents.xhtml', text: '차례', subs: [] },
+  { href: 'contents.xhtml', text: '차례', subs: book.pending.length ? [{ href: 'contents.xhtml#pending', text: `공개 예정 ${book.pending.length}절` }] : [] },
   ...chapterPages.map(p => ({
     href: p.file, text: p.title,
     subs: p.headings.filter(h => h.depth >= 2).map(h => ({ href: `${p.file}#${h.id}`, text: h.text })),

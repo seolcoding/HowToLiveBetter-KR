@@ -1,0 +1,9 @@
+### 12. 매출이 없어도 신고할 세목과 기한을 확인하세요
+<!-- 成本标签: 钱=0 时间=中 毅力=些 收益=中 口径=金钱 -->
+- 비용: 홈택스로 직접 신고하는 시간을 잡습니다. 대리 기장료와 세금은 따로 계산합니다.
+- 쉽게: 매출이 없다고 신고를 통째로 건너뛰지 마세요. 매출이 없어도 매입·비용이 있으면 전부 영으로 쓰면 안 됩니다.
+- 이득: 과세사업자는 부가가치세법상 예정·확정신고 의무를 확인해야 합니다. 개인의 종합소득세는 원칙적으로 다음 해 5월 1일부터 31일까지 신고합니다. 소득금액이 있는 사람 중 과세표준이 없거나 결손금이 있는 경우도 포함됩니다. 법인은 각 사업연도 종료일이 속하는 달 말일부터 3개월 내 법인세 신고가 원칙입니다. 무신고·납부 지연에는 가산세 문제가 생깁니다.
+- 근거등급: A
+- 출처: 「부가가치세법」 제48조·제49조 https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=276117&type=HTML&mobileYn=&efYd=20260102 · 「소득세법」 제70조 https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=280405&type=HTML&mobileYn=&efYd=20260701 · 「법인세법」 제60조 https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=280349&type=HTML&mobileYn=&efYd=20260701 · 「국세기본법」 제47조의2·제47조의4 https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=289999&type=HTML&mobileYn=&efYd=20261002
+- 비고: 등록했다는 이유만으로 모든 세목을 매달 영으로 신고하는 중국 규칙을 적용하지 않습니다. 면세·간이과세·원천징수 등 본인 유형을 확인합니다. 세무서가 안내하는 신고 의무와 실제 장부를 맞추세요. 2026-10-10 법령·공식 자료 확인.
+

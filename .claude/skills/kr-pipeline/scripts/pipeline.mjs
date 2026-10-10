@@ -3,8 +3,9 @@
 // 사용:
 //   node .claude/skills/kr-pipeline/scripts/pipeline.mjs status [N] [--json]   절별 단계와 다음 할 일
 //   node .claude/skills/kr-pipeline/scripts/pipeline.mjs new-run N [--style B] [--mode standard]
-//        → kr-harness/runs/RNN-절-styleS/ 생성 + S4(문체 변환) 실행 → 4-styled.md
-//   node .claude/skills/kr-pipeline/scripts/pipeline.mjs assemble RNN [--allow-conditional]
+//        → kr-harness/runs/<ID>-절-styleS/ 생성 + S4(문체 변환) 실행 → 4-styled.md
+//          ID는 R + 절 번호 두 자리 + 절 안 순번(제18절이면 R18a, R18b…). 규칙과 옛 ID(R01~R14)와의 공존은 run-id.mjs 머리말.
+//   node .claude/skills/kr-pipeline/scripts/pipeline.mjs assemble <ID> [--allow-conditional]
 //        → 7-refined > 6-polished > 4-styled 중 최상위를 book-kr/에 조립하고 README 표를 ✅로
 //   node .claude/skills/kr-pipeline/scripts/pipeline.mjs launch [N...] [--until S8] [--env kr-research]
 //        → 절마다 claude.ai/code 세션 미리 채우기 URL(N 생략 시 다음 후보 5개). 절 하나 = 세션 하나 = 브랜치 하나로 병렬 실행
@@ -16,11 +17,12 @@
 //          --save: kr-harness/chapters/NN/kr-fit-lint.txt 저장(내용이 같으면 안 씀). 없으면 파일을 쓰지 않는다(CI용).
 //
 // ✅의 조건(2026-10-10): S5 검증 + 적합성 게이트. assemble은 게이트를 통과하지 못하면 조립하지 않는다(우회 플래그 없음).
-import { readdirSync, readFileSync, writeFileSync, existsSync, statSync, mkdirSync, copyFileSync } from 'node:fs';
+import { readdirSync, readFileSync, writeFileSync, existsSync, statSync, copyFileSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { spawnSync } from 'node:child_process';
 import { lintFile, saveLint, fileHash } from '../../kr-verify/scripts/kr-fit.mjs';
+import { runIdOfDir, sortRunDirs, findRunDir, reserveRunDir } from './run-id.mjs';
 
 const findRoot = () => {
   let d = dirname(fileURLToPath(import.meta.url));
@@ -43,7 +45,8 @@ const jread = (p) => { try { return JSON.parse(read(p)); } catch { return {}; } 
 const jwrite = (p, o) => writeFileSync(p, JSON.stringify(o, null, 2) + '\n', 'utf8');
 const today = () => new Date().toISOString().slice(0, 10);
 const nn = (n) => String(n).padStart(2, '0');
-const dirs = (p) => (existsSync(p) ? readdirSync(p).filter((d) => statSync(join(p, d)).isDirectory()).sort() : []);
+// stat 실패(목록을 읽는 사이 다른 new-run이 물러나며 지운 폴더)는 「없음」으로 친다.
+const dirs = (p) => (existsSync(p) ? readdirSync(p).filter((d) => { try { return statSync(join(p, d)).isDirectory(); } catch { return false; } }).sort() : []);
 
 // ---- 한국 적합성 게이트 ----
 // 검사 대상: README가 ✅·🟨(이미 book-kr/에 들어간 절)이면 book-kr/NN-*.md — 독자가 보는 본문이고 1-C 수정도 여기서 한다.
@@ -104,20 +107,21 @@ const readmeRows = () => {
   return rows;
 };
 
+// 실행 목록은 run-id.mjs 순서(옛 ID 번호순 → 새 ID 절·순번순)로 정렬한다. 폴더 이름순으로 두면 R04a(새, 제4절)가 R13(옛, 제4절)보다 앞에 온다.
 const runsOf = (n) =>
-  dirs(RUNS)
+  sortRunDirs(dirs(RUNS))
     .map((d) => ({ d, cfg: jread(join(RUNS, d, 'config.json')), meta: jread(join(RUNS, d, 'meta.json')) }))
     .filter((r) => Number(r.cfg.chapter) === n)
     .map((r) => {
       const best = STAGE_FILES.find(([f]) => existsSync(join(RUNS, r.d, f)));
-      return { id: r.cfg.id || r.d.slice(0, 3), dir: r.d, style: r.cfg.style, mode: r.cfg.mode, stage: best?.[1] ?? 'S0', verify: r.meta.verify ?? null, status: r.meta.status ?? null };
+      return { id: r.cfg.id || runIdOfDir(r.d), dir: r.d, style: r.cfg.style, mode: r.cfg.mode, stage: best?.[1] ?? 'S0', verify: r.meta.verify ?? null, status: r.meta.status ?? null };
     });
 
 const chapterStatus = (n, rows) => {
   const ch = join(CHAPTERS, nn(n));
   const made = ['1-analysis.md', '2-research.md', '3-draft.md'].map((f) => existsSync(join(ch, f)));
   const runs = runsOf(n);
-  // 주력 실행: 문체 B, 재현성 실험 제외, 가장 최근 번호
+  // 주력 실행: 문체 B, 재현성 실험 제외, 가장 최근 실행(위 정렬의 마지막 — 옛 ID보다 새 ID, 새 ID끼리는 절 안 순번이 큰 것)
   const main = runs.filter((r) => r.style === 'B' && r.mode !== 'repro').at(-1) ?? null;
   const row = rows[n] ?? {};
   let next;
@@ -163,10 +167,9 @@ if (cmd === 'status' || !cmd) {
   const mode = String(flag('mode', 'standard'));
   const draft = join(CHAPTERS, nn(n), '3-draft.md');
   if (!existsSync(draft)) { console.error(`초역 없음: ${draft} — S1-S3(kr-localize)부터`); process.exit(1); }
-  const max = Math.max(0, ...dirs(RUNS).map((d) => Number(d.match(/^R(\d+)/)?.[1] ?? 0)));
-  const id = `R${nn(max + 1)}`;
-  const dir = join(RUNS, `${id}-${nn(n)}-style${style}${mode === 'repro' ? '-repro' : ''}`);
-  mkdirSync(dir, { recursive: true });
+  // ID = R + 절 번호 + 절 안 순번(R18a, R18b…). 절 번호가 들어가서 다른 절을 도는 세션끼리는 겹치지 않고,
+  // 같은 작업 트리에서 같은 절을 동시에 돌려도 reserveRunDir가 폴더를 하나씩 나눠 준다(run-id.mjs).
+  const { id, dir } = reserveRunDir(RUNS, n, style, mode);
   const cfg = { id, chapter: n, style, mode, date: today() };
   jwrite(join(dir, 'config.json'), cfg);
   const out = join(dir, '4-styled.md');
@@ -179,7 +182,9 @@ if (cmd === 'status' || !cmd) {
   console.log(`실행 생성: kr-harness/runs/${dir.split(/[\\/]/).pop()} (S4 완료 → 다음: verify.mjs ${id})`);
 } else if (cmd === 'assemble') {
   const id = pos[0];
-  const d = dirs(RUNS).find((x) => x.startsWith(id + '-'));
+  let d;
+  // ID(R13, R18a) 또는 폴더 이름 전체로 찾는다. 같은 ID 폴더가 둘 이상이면(브랜치 병합으로 겹침) 조립하지 않는다.
+  try { d = id ? findRunDir(RUNS, id) : null; } catch (e) { console.error(e.message); process.exit(1); }
   if (!d) { console.error(`실행 폴더 없음: ${id}`); process.exit(1); }
   const dir = join(RUNS, d);
   const cfg = jread(join(dir, 'config.json'));

@@ -15,6 +15,8 @@
 // 항목 구조(KF-STRUCT): ### 항목마다 KR-GUIDE 표준 여섯 칸이 각 1회 줄 머리에서 표준 순서로 나오는지, 한 줄에 다른 칸 머리가
 // 붙어 있지 않은지, 비용태그 주석이 있는지 본다. 판정 코드는 S7 entries.mjs와 공유(kr-refine/scripts/entry-format.mjs).
 // 구조 결함은 kr-fit-ok로 통과시킬 수 없다.
+// 다른 절 참조(KF-REF-*): 본문의 「(준비 중)」「다룰 예정」 같은 공개 여부 표시는 block(PENDING). 제N절(주제)의 주제가 README 표
+// 한국어 제목과 다르면(TITLE), 괄호도 「 제M항(」도 없으면(FORM), 표에 없는 번호면(RANGE), 괄호 뒤 조사가 「절」「항」과 안 맞으면(JOSA) warn.
 // 예외: 같은 줄 또는 바로 윗줄에 <!-- kr-fit-ok: 사유 --> 를 두면 그 줄의 지적을 통과시킨다. 사유가 비면 block(KF-OK-EMPTY).
 // 내려가는 경우: TODO 절, 출처 줄(용어 규칙), 같은 문장에 비교 문맥(중국·원문·「한국에는 없다」)이 있으면 block → warn.
 import { readFileSync, existsSync, readdirSync, writeFileSync, mkdirSync } from 'node:fs';
@@ -69,6 +71,35 @@ const CN_DOM = new RegExp(C.cnDomains);
 const KR_DOM = new RegExp(C.krDomains);
 const LEGAL = new RegExp(C.legalHints);
 const OK_RE = /<!--\s*kr-fit-ok\b\s*:?([\s\S]*?)-->/;
+// book-kr/README.md 표 한 줄: | 절 | 한국어 제목 | 원문 | 등급 | 상태 |
+const TABLE_ROW = /^\|\s*(\d+)\s*\|\s*([^|]+?)\s*\|[^|]*\|\s*(\S+)\s*\|\s*(\S+)\s*\|$/;
+
+// 다른 절 참조(KF-REF-*). 규칙 데이터는 json의 refs, 절 제목은 README 표.
+const R = RULES.refs;
+const REF_LEGAL = new RegExp(R.legalBefore);
+const PEND_PAREN = new RegExp(R.pending.paren, 'g');
+const PEND_ALWAYS = new RegExp(R.pending.always, 'g');
+const PEND_WITHREF = new RegExp(R.pending.withRef, 'g');
+const REF_IN_SENT = new RegExp(R.pending.refInSentence);
+const PEND_SUFFIX = /\s*[,·]\s*(?:준비\s?중|공개\s?예정|미공개)\s*$/;
+// 제N절. 앞이 한글·숫자면 다른 낱말이고, 뒤가 「차」면 「절차」다. 「제2·3절」처럼 묶은 것도 잡는다(m[2]).
+const REF_RE = /(?<![가-힣\d])제\s?(\d+)((?:\s?[·,~∼\-–]\s?\d+)*)\s?절(?!차)/g;
+const ITEM_AFTER = /^\s?제\s?\d+\s?항[(（]([^()（）\n]+)[)）]/;
+// 조사는 괄호 앞 낱말(절=ㄹ받침, 항=ㅇ받침)에 맞춘다.
+const JOSA_BAD_JEOL = /^(?:를|가|는|와|으로)/;
+const JOSA_BAD_HANG = /^(?:를|가|는|와|로)/;
+const normTitle = (s) => s.replace(/\s+/g, ' ').trim();
+let titleCache = null;
+export function chapterTitles() {
+  if (titleCache) return titleCache;
+  titleCache = new Map();
+  const p = join(BOOKKR, 'README.md');
+  if (existsSync(p)) for (const line of readFileSync(p, 'utf8').split(/\r?\n/)) {
+    const m = line.match(TABLE_ROW);
+    if (m) titleCache.set(Number(m[1]), normTitle(m[2]));
+  }
+  return titleCache;
+}
 
 // 같은 길이의 공백으로 가려서 열 위치를 유지한다.
 const blank = (s) => s.replace(/[^\n]/g, ' ');
@@ -235,6 +266,58 @@ export function lintText(text, { file = '(입력)' } = {}) {
     }
   });
 
+  // 6) 다른 절 참조. 공개 여부 표시(PENDING)는 출처 줄까지 보고 TODO 절에서는 warn.
+  //    형식·제목·번호·조사(FORM·TITLE·RANGE·JOSA)는 출처 줄과 TODO 절을 보지 않는다. 법령·조약의 「제N절」은 건너뛴다.
+  const titles = chapterTitles();
+  lines.forEach((raw, i) => {
+    if (/^>\s*\*\*상태:/.test(raw)) return;
+    const s = mask(raw);
+    if (!s.trim()) return;
+    const todo = inTodo(i);
+    const pend = [];
+    const addPend = (a, b) => { if (!pend.some(([x, y]) => a < y && b > x)) pend.push([a, b]); };
+    let m;
+    for (const re of [PEND_PAREN, PEND_ALWAYS]) {
+      re.lastIndex = 0;
+      while ((m = re.exec(s))) addPend(m.index, m.index + m[0].length);
+    }
+    PEND_WITHREF.lastIndex = 0;
+    while ((m = PEND_WITHREF.exec(s))) if (REF_IN_SENT.test(sentenceAt(s, m.index))) addPend(m.index, m.index + m[0].length);
+    for (const [a, b] of pend.sort((x, y) => x[0] - y[0])) {
+      push(i, R.pending.id, todo ? 'warn' : R.pending.severity, s.slice(a, b), R.pending.advice, todo ? { note: 'TODO 절' } : {});
+    }
+
+    if (todo || /^- 출처:/.test(raw)) return;
+    REF_RE.lastIndex = 0;
+    while ((m = REF_RE.exec(s))) {
+      const a = m.index, b = a + m[0].length;
+      if (REF_LEGAL.test(s.slice(Math.max(0, a - 40), a))) continue;
+      const n = Number(m[1]);
+      const shownRef = (s.slice(a).match(/^\S+(?:\s제\s?\d\S*)?/) ?? [m[0]])[0];
+      if (m[2]) { push(i, R.form.id, R.form.severity, shownRef, `여러 절을 한 번에 묶었습니다. ${R.form.advice}`); continue; }
+      if (titles.size ? !titles.has(n) : n < 1 || n > R.maxChapter) { push(i, R.range.id, R.range.severity, m[0], R.range.advice); continue; }
+      const after = s.slice(b);
+      const paren = after.match(/^[(（]([^()（）\n]*)[)）]/);
+      const item = paren ? null : after.match(ITEM_AFTER);
+      if (paren) {
+        const want = titles.get(n);
+        const got = normTitle(paren[1].replace(PEND_SUFFIX, ''));
+        if (want && got !== want) push(i, R.title.id, R.title.severity, `${m[0]}${paren[0]}`, `README 표 제목은 「${want}」입니다. 제${n}절(${want})로 쓰세요. ${R.title.advice}`);
+        const j = after.slice(paren[0].length).match(JOSA_BAD_JEOL);
+        if (j) push(i, R.josa.id, R.josa.severity, `${m[0]}(…)${j[0]}`, R.josa.advice);
+      } else if (item) {
+        const j = after.slice(item[0].length).match(JOSA_BAD_HANG);
+        if (j) push(i, R.josa.id, R.josa.severity, `${m[0]}${item[0].replace(/[(（].*$/, '')}(…)${j[0]}`, R.josa.advice);
+      } else {
+        const why = /^\s+[(（]/.test(after) ? '괄호를 「절」에 붙여 쓰세요. '
+          : /^\s?제\s?\d+\s?조/.test(after) ? '항목 번호는 「제M조」가 아니라 「제M항」입니다. '
+          : /^\s?제\s?[\d·,~∼\-–\s]+항/.test(after) ? '항목 번호 뒤에 앵커어 괄호가 없습니다. 항목마다 제M항(앵커어)로 쓰세요. '
+          : '';
+        push(i, R.form.id, R.form.severity, shownRef, `${why}${R.form.advice}`);
+      }
+    }
+  });
+
   findings.sort((x, y) => x.line - y.line);
   return findings;
 }
@@ -255,7 +338,7 @@ export function doneChapters() {
   if (!existsSync(p)) return [];
   const out = [];
   for (const line of readFileSync(p, 'utf8').split(/\r?\n/)) {
-    const m = line.match(/^\|\s*(\d+)\s*\|\s*([^|]+?)\s*\|[^|]*\|\s*(\S+)\s*\|\s*(\S+)\s*\|$/);
+    const m = line.match(TABLE_ROW);
     if (m && m[4] === '✅') out.push(Number(m[1]));
   }
   return out;

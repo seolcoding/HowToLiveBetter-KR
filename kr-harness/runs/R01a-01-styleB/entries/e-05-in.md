@@ -1,0 +1,9 @@
+### 5. 야생버섯은 따지도, 사지도, 먹지도 마세요. 어떤 민간 구별법도 통하지 않습니다
+<!-- 成本标签: 钱=0 时间=少 毅力=些 收益=大 口径=死亡率 -->
+- 비용: 돈이 안 듭니다. 철마다 먹던 야생버섯 맛을 포기하는 게 어렵습니다.
+- 쉽게: 한국에 자라는 버섯 가운데 먹어도 된다고 확인된 것은 18%뿐입니다. 나머지는 독버섯이거나 먹어도 되는지 아직 모릅니다. 중국에서는 한 해 버섯 중독으로 13명이 숨졌습니다. 민간 구별법은 근거가 없습니다.
+- 이득: 농촌진흥청과 산림청이 2025년에 국내 자생 버섯을 정리했습니다. 2,292종 가운데 식용으로 확인된 것은 416종(18%)입니다. 독버섯은 248종이고, 나머지 1,550종은 먹어도 되는지 밝혀지지 않았습니다. 독버섯은 종류가 다양해서 한 가지 기준으로는 가를 수 없습니다. 독버섯과 식용버섯을 가른다는 속설에도 과학적 근거가 없습니다. 중국 질병예방통제센터는 2025년 버섯 중독 828건을 조사했습니다. 2,165명이 중독되고 13명이 숨졌습니다. 치명률은 0.6%입니다. 중독된 사람 가운데 0.6%가 숨졌다는 뜻입니다. 2019~2024년에는 해마다 276~676건이었고, 치명률은 0.87~2.86%였습니다. 2025년 한 해에만 독버섯 138종이 확인됐습니다. 그중 34종은 중국에서 처음 중독 사례로 기록됐습니다
+- 근거등급: A
+- 출처: 농촌진흥청 보도자료(국립원예특작과학원, 2025-09-16) 「가을 산행길, 성묫길 '버섯 중독 사고' 주의보」 https://www.rda.go.kr/board/board.do?mode=view&prgId=day_farmprmninfoEntry&dataNo=100000805255 · Mushroom Poisoning Outbreaks — China, 2025. China CDC Weekly (2026): 「In 2025, China CDC investigated 828 mushroom poisoning incidents across 27 provincial-level administrative divisions (PLADs), affecting 2,165 individuals and causing 13 deaths - a case fatality rate of 0.6%, the lowest of the past six years. In total, 138 poisonous mushroom species were identified, including 34 newly recorded in poisoning incidents in China.」「From 2019 to 2024, the annual number of incidents ranged from 276 to 676, and the case fatality rate ranged from 0.87% to 2.86%.」 https://doi.org/10.46234/ccdcw2026.120 · 같은 학술지 2024년 보고 https://doi.org/10.46234/ccdcw2025.106
+- 비고: 잘못 먹었다면 바로 토해 내고, 먹은 버섯을 가지고 곧장 병원에 가세요(농촌진흥청). 독버섯 중독은 여러 유형이 있습니다. 어떤 버섯인지 알아야 의사가 치료법을 정합니다. 해마다 중독을 일으키는 종이 새로 기록됩니다. 그래서 '동네 사람은 다 구별한다'는 전제부터 성립하지 않습니다. 은수저로 독을 확인하기, 마늘과 같이 끓이기는 소용없습니다. 벌레가 먹었으면 괜찮다, 색이 화려해야 독이 있다는 말도 틀렸습니다. 한국의 버섯 중독 사망 통계는 1차 출처를 찾지 못했습니다. 그래서 사망 숫자는 중국 자료를 그대로 두었습니다.
+

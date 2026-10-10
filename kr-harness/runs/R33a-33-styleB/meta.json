@@ -1,0 +1,45 @@
+{
+  "id": "R33a",
+  "chapter": 33,
+  "style": "B",
+  "mode": "standard",
+  "date": "2026-10-10",
+  "status": "assembled",
+  "style_notes": "convert-b.mjs 결정론 변환",
+  "entries": 20,
+  "todos": 10,
+  "verify": "조건부 통과",
+  "polished": "codex-gpt6.1-sol-kr-polisher",
+  "polished_at": "2026-10-10",
+  "kr_fit_fix": {
+    "review_round": 1,
+    "fixed_block_items": [
+      3,
+      5,
+      7,
+      8,
+      11,
+      13,
+      17,
+      19,
+      20
+    ],
+    "fixed_warn_items": [
+      2,
+      4,
+      9,
+      10,
+      18
+    ],
+    "primary_laws_reopened": 20,
+    "primary_admrules_reopened": 2,
+    "official_web_pages_reopened": 2,
+    "official_hwp_reopened": 1,
+    "actual_todo_count": 10,
+    "review_status": "pending_independent_review",
+    "date": "2026-10-10",
+    "sha256": "6c2f6995239c238d54bbf2fb10df1833027ae6dca9f9a247b8f20cd9bc9fbbdd"
+  },
+  "assembled_from": "7-refined.md",
+  "assembled_at": "2026-10-10"
+}

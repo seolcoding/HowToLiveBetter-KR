@@ -1,6 +1,6 @@
 # 목표: 한국어판 34절 전부 공개 (클라우드 세션 하나로 끝까지)
 
-이 파일은 claude.ai/code 클라우드 세션 하나에 주는 지시문이다. 세션 첫 메시지는 다음 한 줄이다.
+이 파일은 Claude 또는 Codex 클라우드 세션 하나에 주는 지시문이다. 모델과 병렬 한도는 [../../AGENTS.md](../../AGENTS.md)의 환경 대응 규칙을 우선 적용한다. 세션 첫 메시지는 다음 한 줄이다.
 
 ```
 kr-harness/goals/2026-10-next-publish.md를 읽고 0단계부터 마지막 완료 작업까지 끝까지 수행하라.
@@ -26,10 +26,11 @@ kr-harness/goals/2026-10-next-publish.md를 읽고 0단계부터 마지막 완�
 
 - 먼저 읽는다: CLAUDE.md의 「한국어판」 절, KR-GUIDE.md, kr-harness/LESSONS.md, kr-harness/ROADMAP.md, .claude/skills/kr-pipeline/SKILL.md, 그리고 진행 기록 `kr-harness/goals/2026-10-next-publish.progress.md`(있으면).
 - **세션은 오케스트레이터다.** 본문, 코드, 조사, 검토, 수정은 Agent 도구로 띄운 서브에이전트가 한다.
-  - 모든 서브에이전트는 `model: "opus"`로 띄운다. 저장소 에이전트 정의(`.claude/agents/*.md`)도 `model: opus`다.
-  - 서브에이전트가 또 서브에이전트를 띄우면 그것도 Opus다.
+  - 모든 서브에이전트는 Claude에서 Opus(`model: "opus"`), Codex에서 `gpt-6.1-sol`로 띄운다. 두 이름은 환경별로 서로 대응한다. 저장소의 Claude용 에이전트 정의(`.claude/agents/*.md`)는 `model: opus`로 유지한다.
+  - 서브에이전트가 또 서브에이전트를 띄우면 같은 환경 대응을 적용한다. 아래의 Opus 표기도 Codex에서는 `gpt-6.1-sol`을 뜻한다.
   - 오케스트레이터는 결과 파일과 검사 출력만 확인하고, 다음 단계를 띄우고, 커밋과 push를 한다.
 - **병렬 실행**: 같은 묶음의 절들은 S1-S3(kr-localizer)와 적합성 검토(kr-fit-reviewer)를 한 메시지에서 병렬로 띄운다. 서로 다른 파일만 쓰므로 충돌하지 않는다.
+  - 현재 환경의 가용 슬롯 안에서 나눠 띄운다. Codex는 현재 오케스트레이터 포함 7개이며, Claude의 서브에이전트 20개 기록을 적용하지 않는다.
   - `pipeline.mjs new-run`, `assemble`, `gate --save`처럼 공유 파일(README 표, 실행 ID)을 건드리는 스크립트는 오케스트레이터가 하나씩 차례로 돌린다.
   - S7 항목 팬아웃은 kr-refine 절차대로 한 번에 너무 많이 띄우지 않는다.
 - **커밋과 push**:

@@ -1,10 +1,16 @@
 // .claude/skills/kr-verify/scripts/report.mjs — runs/ 와 chapters/ 를 읽어 단일 HTML 아티팩트 생성.
-// 사용: node .claude/skills/kr-verify/scripts/report.mjs  → kr-harness/report.html
-import { readdirSync, readFileSync, existsSync, writeFileSync, statSync } from 'node:fs';
+// 사용: node .claude/skills/kr-verify/scripts/report.mjs [--force] [--out <경로>]
+//   main 브랜치(또는 git 밖)에서는 kr-harness/report.html을 다시 만든다.
+//   다른 브랜치(절 세션의 claude/… 등)에서는 쓰지 않고 안내만 한다. report.html은 모든 실행을 한 파일에 모으므로,
+//   절 세션 PR마다 다시 만들면 병렬 PR끼리 반드시 충돌한다(2026-10-10 규칙: 보고서는 main에서만 다시 만든다).
+//   --force: 브랜치와 상관없이 report.html을 쓴다(보고서만 바꾸는 별도 PR용). --out: 다른 경로에 미리보기로 쓴다.
+import { readFileSync, existsSync, writeFileSync, readdirSync, statSync } from 'node:fs';
 import { join, resolve } from 'node:path';
+import { spawnSync } from 'node:child_process';
 
 import { fileURLToPath } from 'node:url';
 import { dirname } from 'node:path';
+import { listRunDirs, sortRunDirs, runIdOfDir } from '../../kr-pipeline/scripts/run-id.mjs';
 
 // 저장소 루트: 이 스크립트 위치에서 KR-GUIDE.md가 있는 디렉토리까지 올라간다(로컬·클라우드 공통).
 const findRoot = () => {
@@ -26,15 +32,14 @@ const read = (p) => (existsSync(p) ? readFileSync(p, 'utf8') : '');
 const jread = (p) => { try { return JSON.parse(read(p)); } catch { return {}; } };
 const esc = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
-const runs = readdirSync(RUNS)
-  .filter((d) => statSync(join(RUNS, d)).isDirectory())
-  .sort()
+// 순서는 run-id.mjs 규칙(옛 ID 번호순 → 새 ID 절·순번순). 폴더 이름순이면 R04a가 R05 앞에 끼어든다.
+const runs = sortRunDirs(listRunDirs(RUNS))
   .map((d) => {
     const dir = join(RUNS, d);
     const cfg = jread(join(dir, 'config.json'));
     const meta = jread(join(dir, 'meta.json'));
     return {
-      id: cfg.id || d.slice(0, 3),
+      id: cfg.id || runIdOfDir(d),
       dir: d,
       chapter: cfg.chapter ?? meta.chapter,
       style: cfg.style || meta.style || 'A',
@@ -167,5 +172,19 @@ ${runs.map(runCard).join('\n')}
 </ol>
 </main></body></html>`;
 
-writeFileSync(join(ROOT, 'kr-harness', 'report.html'), html);
-console.log(`report.html 생성 완료: 실행 ${runs.length}건, 문체 완료 ${done}건`);
+const argv = process.argv.slice(2);
+const outIdx = argv.findIndex((a) => a === '--out' || a.startsWith('--out='));
+const outArg = outIdx === -1 ? null : argv[outIdx].includes('=') ? argv[outIdx].slice(6) : argv[outIdx + 1];
+if (outIdx !== -1 && !outArg) { console.error('사용: report.mjs [--force] [--out <경로>]'); process.exit(2); }
+const git = spawnSync('git', ['rev-parse', '--abbrev-ref', 'HEAD'], { cwd: ROOT, encoding: 'utf8' });
+const branch = git.status === 0 ? git.stdout.trim() : null; // null = git 밖(압축본 등) → main처럼 다룬다
+if (outArg) {
+  writeFileSync(resolve(outArg), html);
+  console.log(`보고서 미리보기 생성: ${resolve(outArg)} (실행 ${runs.length}건, 문체 완료 ${done}건) — kr-harness/report.html은 그대로`);
+} else if (branch === null || branch === 'main' || argv.includes('--force')) {
+  writeFileSync(join(ROOT, 'kr-harness', 'report.html'), html);
+  console.log(`report.html 생성 완료: 실행 ${runs.length}건, 문체 완료 ${done}건`);
+} else {
+  console.log(`report.html 건너뜀: 지금 브랜치(${branch})는 main이 아니다. 보고서는 main에서만 다시 만든다(병렬 PR 충돌 방지).`);
+  console.log('  미리 보기: report.mjs --out <경로>(저장소 밖 경로 권장) · 보고서만 바꾸는 별도 PR이면: report.mjs --force');
+}

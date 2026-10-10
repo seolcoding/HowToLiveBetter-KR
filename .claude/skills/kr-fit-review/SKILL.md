@@ -24,7 +24,7 @@ argument-hint: "절 번호"
 
 ## 할 일
 
-검토 대상 파일은 `node .claude/skills/kr-pipeline/scripts/pipeline.mjs status NN`의 게이트 줄 괄호 안 파일이다. 이미 book-kr/에 들어간 절(README ✅·🟨)이면 `book-kr/NN-*.md`, 조립 전이면 실행 산출물(`kr-harness/runs/RNN-…/7-refined.md`)이다. 검토 기록 첫머리 「검토 대상」에 그 경로를 적는다.
+검토 대상 파일은 `node .claude/skills/kr-pipeline/scripts/pipeline.mjs status NN`의 게이트 줄 괄호 안 파일이다. 이미 book-kr/에 들어간 절(README ✅·🟨)이면 `book-kr/NN-*.md`, 조립 전이면 실행 산출물(`kr-harness/runs/<ID>-…/7-refined.md`)이다. 검토 기록 첫머리 「검토 대상」에 그 경로를 적는다.
 
 대상 파일의 모든 항목(`### ` 블록)을 하나씩 읽고, 한국 독자에게 맞는지 판정한다. **본문은 고치지 않는다.** 검토 기록만 쓴다.
 
@@ -36,11 +36,19 @@ argument-hint: "절 번호"
 5. 예시와 생활 맥락이 한국적인가(위챗 송금, 중국식 직장 문화, 중국 앱 같은 것).
 6. 한국 독자에게 어색한 번역투 용어나 기관명이 있는가.
 7. 의학 연구 근거(DOI, HR/RR/OR)는 국적과 상관없이 그대로 두는 것이 원칙이다. 중국 인구 연구를 인용한 것 자체는 문제가 아니다. 다만 그 숫자를 한국 상황처럼 말하면 지적한다. 중국 기준치·지침 수치를 한국 기준처럼 쓴 경우도 지적한다.
+8. 참조 형식: 다른 절은 `제N절(주제)`, 그 절의 항목은 `제N절 제M항(앵커어)`인가(KR-GUIDE 「참조 표기」). 「준비 중」「다룰 예정」 같은 공개 여부 표시는 block이다. 형식·주제 어긋남은 kr-fit warn(KF-REF-*)을 보고 판정한다. 앵커어가 대상 항목 제목과 맞는지는 기계가 안 보므로 직접 확인한다.
 
 ## 근거 규칙
 
 - 「한국에도 있다」, 「한국 법은 이렇다」는 판정마다 한국 1차 출처(law.go.kr, 각 부처, 공단, KOSIS, 공공기관 공식 사이트)를 **직접 열어** 확인하고 URL과 확인한 문장을 적는다. 열지 못했으면 「미확인」이라고 쓴다. 추측으로 통과시키지 않는다.
-- WebSearch는 다른 검토자와 함께 쓰는 자원이니 아낀다. 공식 사이트를 WebFetch나 curl로 직접 연다(프록시가 필요하면 `HTTPS_PROXY=http://127.0.0.1:7890`). law.go.kr 본문이 자바스크립트로만 열리면 `https://www.law.go.kr/LSW/lsInfoP.do?...` 같은 인쇄용 주소나 조문 단위 주소를 시도하고, 그래도 안 되면 「미확인」이다.
+- WebSearch는 다른 검토자와 함께 쓰는 자원이니 아낀다. 공식 사이트를 WebFetch나 curl로 직접 연다(로컬에서 프록시가 필요하면 `HTTPS_PROXY=http://127.0.0.1:7890`).
+- 웹 확인 요령(2026-10-10 클라우드 VM 실측):
+  - law.go.kr은 연결이 자주 끊긴다(curl 8번 중 5번 성공). `curl -sS --retry 5 --retry-all-errors --retry-delay 2 -m 30 <URL>`로 다시 시도한다.
+  - `https://www.law.go.kr/법령/…` 한글 주소는 자바스크립트 화면이라 본문이 없다. `LSW/lsInfoP.do?lsiSeq=…`, `LSW/lsInfoR.do?…`, `LSW/lsBdyPrint.do?…`, 조문 단위 `LSW/lsSideInfoP.do?…&joNo=…`를 쓴다. lsiSeq는 WebSearch나 law.go.kr 검색 결과에서 얻는다.
+  - nhis.or.kr, moel.go.kr 같은 기관 사이트는 curl이 거의 실패하고 WebFetch로는 열린다. 기관 사이트는 WebFetch를 먼저 쓴다.
+  - europepmc.org 화면은 403이다. REST API `https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:<doi>&format=json&resultType=core`를 쓴다. doi.org, pubmed.ncbi.nlm.nih.gov는 정상이다.
+  - web.archive.org는 막혀 있다. 한국어판은 보관 링크를 요구하지 않는다.
+  - 이렇게 해도 못 열면 「미확인」이다.
 - 숫자나 URL을 지어내지 않는다.
 
 ## 출력: `kr-harness/chapters/NN/kr-fit-review.md`
