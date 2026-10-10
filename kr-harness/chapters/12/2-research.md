@@ -1,0 +1,270 @@
+# 제12절 한국 대응 조사 기록
+
+확인일: 2026-10-10. DRF target=eflaw에서 정확한 법령명과 시행일이 기준일 이하인 최신 판본을 선택했다. MST·efYd를 확인하고 XML 법령 원문을 직접 열었다. 아래 HTML은 같은 판본의 링크다. 일시적 403·502는 최대 5회 재시도해 확보했다. 발췌는 필요한 부분만 남겼으며 말줄임 뒤 원문은 생략했다.
+
+## 민법
+공포번호 21454, 개정일 20260317, 시행일 20260317
+https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=284415&type=HTML&mobileYn=&efYd=20260317
+| 조문 | 필요한 원문 발췌 | 확인 URL |
+|---|---|---|
+| 제109조 | ①의사표시는 법률행위의 내용의 중요부분에 착오가 있는 때에는 취소할 수 있다. 그러나 그 착오가 표의자의 중대한 과실로 인한 때에는 취소하지 못한다. ②전항의 의사표시의 취소는 선의의 제삼자에게 대항하지 못한다. | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=284415&type=HTML&mobileYn=&efYd=20260317 |
+| 제110조 | ①사기나 강박에 의한 의사표시는 취소할 수 있다. ②상대방있는 의사표시에 관하여 제삼자가 사기나 강박을 행한 경우에는 상대방이 그 사실을 알았거나 알 수 있었을 경우에 한하여 그 의사표시를 취소할 수 있다. ③전2항의 의사표시의 취소는 선의의 제삼자에게 대항하지 못한다. | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=284415&type=HTML&mobileYn=&efYd=20260317 |
+| 제406조 | ①채무자가 채권자를 해함을 알고 재산권을 목적으로 한 법률행위를 한 때에는 채권자는 그 취소 및 원상회복을 법원에 청구할 수 있다. 그러나 그 행위로 인하여 이익을 받은 자나 전득한 자가 그 행위 또는 전득당시에 채권자를 해함을 알지 못한 경우에는 그러하지 아니하다. ②전항의 소는 채권자가 취소원인을 안 날로부터 1년, … | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=284415&type=HTML&mobileYn=&efYd=20260317 |
+| 제428조 | ①보증인은 주채무자가 이행하지 아니하는 채무를 이행할 의무가 있다. ②보증은 장래의 채무에 대하여도 할 수 있다. | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=284415&type=HTML&mobileYn=&efYd=20260317 |
+| 제428조의2 | ① 보증은 그 의사가 보증인의 기명날인 또는 서명이 있는 서면으로 표시되어야 효력이 발생한다. 다만, 보증의 의사가 전자적 형태로 표시된 경우에는 효력이 없다. ② 보증채무를 보증인에게 불리하게 변경하는 경우에도 제1항과 같다. ③ 보증인이 보증채무를 이행한 경우에는 그 한도에서 제1항과 제2항에 따른 방식의 하자를 이유… | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=284415&type=HTML&mobileYn=&efYd=20260317 |
+| 제428조의3 | ① 보증은 불확정한 다수의 채무에 대해서도 할 수 있다. 이 경우 보증하는 채무의 최고액을 서면으로 특정하여야 한다. ② 제1항의 경우 채무의 최고액을 제428조의2제1항에 따른 서면으로 특정하지 아니한 보증계약은 효력이 없다. [본조신설 2015.2.3] | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=284415&type=HTML&mobileYn=&efYd=20260317 |
+| 제437조 | 채권자가 보증인에게 채무의 이행을 청구한 때에는 보증인은 주채무자의 변제자력이 있는 사실 및 그 집행이 용이할 것을 증명하여 먼저 주채무자에게 청구할 것과 그 재산에 대하여 집행할 것을 항변할 수 있다. 그러나 보증인이 주채무자와 연대하여 채무를 부담한 때에는 그러하지 아니하다. | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=284415&type=HTML&mobileYn=&efYd=20260317 |
+| 제565조 | ①매매의 당사자 일방이 계약당시에 금전 기타 물건을 계약금, 보증금등의 명목으로 상대방에게 교부한 때에는 당사자간에 다른 약정이 없는 한 당사자의 일방이 이행에 착수할 때까지 교부자는 이를 포기하고 수령자는 그 배액을 상환하여 매매계약을 해제할 수 있다. ②제551조의 규정은 전항의 경우에 이를 적용하지 아니한다. | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=284415&type=HTML&mobileYn=&efYd=20260317 |
+| 제579조 | ①채권의 매도인이 채무자의 자력을 담보한 때에는 매매계약당시의 자력을 담보한 것으로 추정한다. ②변제기에 도달하지 아니한 채권의 매도인이 채무자의 자력을 담보한 때에는 변제기의 자력을 담보한 것으로 추정한다. | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=284415&type=HTML&mobileYn=&efYd=20260317 |
+| 제750조 | 고의 또는 과실로 인한 위법행위로 타인에게 손해를 가한 자는 그 손해를 배상할 책임이 있다. | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=284415&type=HTML&mobileYn=&efYd=20260317 |
+| 제760조 | ①수인이 공동의 불법행위로 타인에게 손해를 가한 때에는 연대하여 그 손해를 배상할 책임이 있다. ②공동 아닌 수인의 행위중 어느 자의 행위가 그 손해를 가한 것인지를 알 수 없는 때에도 전항과 같다. ③교사자나 방조자는 공동행위자로 본다. | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=284415&type=HTML&mobileYn=&efYd=20260317 |
+| 제830조 | ①부부의 일방이 혼인전부터 가진 고유재산과 혼인중 자기의 명의로 취득한 재산은 그 특유재산으로 한다. ②부부의 누구에게 속한 것인지 분명하지 아니한 재산은 부부의 공유로 추정한다. | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=284415&type=HTML&mobileYn=&efYd=20260317 |
+| 제832조 | 부부의 일방이 일상의 가사에 관하여 제삼자와 법률행위를 한 때에는 다른 일방은 이로 인한 채무에 대하여 연대책임이 있다. 그러나 이미 제삼자에 대하여 다른 일방의 책임없음을 명시한 때에는 그러하지 아니하다. | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=284415&type=HTML&mobileYn=&efYd=20260317 |
+| 제141조 | 취소된 법률행위는 처음부터 무효인 것으로 본다. 다만, 제한능력자는 그 행위로 인하여 받은 이익이 현존하는 한도에서 상환(償還)할 책임이 있다. [전문개정 2011.3.7] | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=284415&type=HTML&mobileYn=&efYd=20260317 |
+| 제146조 | 취소권은 추인할 수 있는 날로부터 3년내에 법률행위를 한 날로부터 10년내에 행사하여야 한다. | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=284415&type=HTML&mobileYn=&efYd=20260317 |
+| 제398조 | ①당사자는 채무불이행에 관한 손해배상액을 예정할 수 있다. ②손해배상의 예정액이 부당히 과다한 경우에는 법원은 적당히 감액할 수 있다. ③손해배상액의 예정은 이행의 청구나 계약의 해제에 영향을 미치지 아니한다. ④위약금의 약정은 손해배상액의 예정으로 추정한다. ⑤당사자가 금전이 아닌 것으로써 손해의 배상에 충당할 것을 예… | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=284415&type=HTML&mobileYn=&efYd=20260317 |
+
+## 상법
+공포번호 21044, 개정일 20250909, 시행일 20260910
+https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=273629&type=HTML&mobileYn=&efYd=20260910
+| 조문 | 필요한 원문 발췌 | 확인 URL |
+|---|---|---|
+| 제57조 | ①수인이 그 1인 또는 전원에게 상행위가 되는 행위로 인하여 채무를 부담한 때에는 연대하여 변제할 책임이 있다. ②보증인이 있는 경우에 그 보증이 상행위이거나 주채무가 상행위로 인한 것인 때에는 주채무자와 보증인은 연대하여 변제할 책임이 있다. | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=273629&type=HTML&mobileYn=&efYd=20260910 |
+| 제212조 | ①회사의 재산으로 회사의 채무를 완제할 수 없는 때에는 각 사원은 연대하여 변제할 책임이 있다. ②회사재산에 대한 강제집행이 주효하지 못한 때에도 전항과 같다. ③전항의 규정은 사원이 회사에 변제의 자력이 있으며 집행이 용이한 것을 증명한 때에는 적용하지 아니한다. | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=273629&type=HTML&mobileYn=&efYd=20260910 |
+| 제269조 | 합자회사에는 본장에 다른 규정이 없는 사항은 합명회사에 관한 규정을 준용한다. | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=273629&type=HTML&mobileYn=&efYd=20260910 |
+| 제317조 | ①주식회사의 설립등기는 발기인이 회사설립시에 발행한 주식의 총수를 인수한 경우에는 제299조와 제300조의 규정에 의한 절차가 종료한 날로부터, 발기인이 주주를 모집한 경우에는 창립총회가 종결한 날 또는 제314조의 규정에 의한 절차가 종료한 날로부터 2주간내에 이를 하여야 한다. ②제1항의 설립등기에 있어서는 다음의 사… | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=273629&type=HTML&mobileYn=&efYd=20260910 |
+| 제331조 | 주주의 책임은 그가 가진 주식의 인수가액을 한도로 한다. | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=273629&type=HTML&mobileYn=&efYd=20260910 |
+| 제516조 | ①제346조제4항, 제424조 및 제424조의2의 규정은 전환사채의 발행의 경우에 이를 준용한다.  ②제339조, 제348조, 제350조 및 제351조의 규정은 사채의 전환의 경우에 이를 준용한다.  [전문개정 1984.4.10] | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=273629&type=HTML&mobileYn=&efYd=20260910 |
+| 제517조 | 주식회사는 다음의 사유로 인하여 해산한다.  1. 1. 제227조제1호, 제4호 내지 제6호에 정한 사유 1의2. 1의2. 제530조의2의 규정에 의한 회사의 분할 또는 분할합병 2. 2. 주주총회의 결의 | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=273629&type=HTML&mobileYn=&efYd=20260910 |
+| 제520조 | ①다음의 경우에 부득이한 사유가 있는 때에는 발행주식의 총수의 100분의 10 이상에 해당하는 주식을 가진 주주는 회사의 해산을 법원에 청구할 수 있다. 1. 1. 회사의 업무가 현저한 정돈상태를 계속하여 회복할 수 없는 손해가 생긴 때 또는 생길 염려가 있는 때 2. 2. 회사재산의 관리 또는 처분의 현저한 실당으로 인… | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=273629&type=HTML&mobileYn=&efYd=20260910 |
+| 제535조 | ①청산인은 취임한 날로부터 2월내에 회사채권자에 대하여 일정한 기간내에 그 채권을 신고할 것과 그 기간내에 신고하지 아니하면 청산에서 제외될 뜻을 2회 이상 공고로써 최고하여야 한다. 그러나 그 기간은 2월 이상이어야 한다. ②청산인은 알고 있는 채권자에 대하여는 각별로 그 채권의 신고를 최고하여야 하며 그 채권자가 신고… | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=273629&type=HTML&mobileYn=&efYd=20260910 |
+| 제450조 | 정기총회에서 전조제1항의 승인을 한 후 2년내에 다른 결의가 없으면 회사는 이사와 감사의 책임을 해제한 것으로 본다. 그러나 이사 또는 감사의 부정행위에 대하여는 그러하지 아니하다. | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=273629&type=HTML&mobileYn=&efYd=20260910 |
+| 제462조 | ① 회사는 대차대조표의 순자산액으로부터 다음의 금액을 공제한 액을 한도로 하여 이익배당을 할 수 있다. 1. 1. 자본금의 액 2. 2. 그 결산기까지 적립된 자본준비금과 이익준비금의 합계액 3. 3. 그 결산기에 적립하여야 할 이익준비금의 액 4. 4. 대통령령으로 정하는 미실현이익 ② 이익배당은 주주총회의 결의로 정한… | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=273629&type=HTML&mobileYn=&efYd=20260910 |
+
+## 가맹사업거래의 공정화에 관한 법률
+공포번호 21857, 개정일 20260804, 시행일 20261002
+https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=288583&type=HTML&mobileYn=&efYd=20261002
+| 조문 | 필요한 원문 발췌 | 확인 URL |
+|---|---|---|
+| 제6조의2 | ① 가맹본부는 가맹희망자에게 제공할 정보공개서를 대통령령으로 정하는 바에 따라 공정거래위원회 또는 특별시장ㆍ광역시장ㆍ특별자치시장ㆍ도지사ㆍ특별자치도지사(이하 "시ㆍ도지사"라 한다)에게 등록하여야 한다.  ② 가맹본부는 제1항에 따라 등록한 정보공개서의 기재사항 중 대통령령으로 정하는 사항을 변경하려는 경우에는 대통령령으로 … | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=288583&type=HTML&mobileYn=&efYd=20261002 |
+| 제7조 | ①가맹본부(가맹지역본부 또는 가맹중개인이 가맹점사업자를 모집하는 경우를 포함한다. 이하 같다)는 가맹희망자에게 제6조의2제1항 및 제2항에 따라 등록 또는 변경등록한 정보공개서를 내용증명우편 등 제공시점을 객관적으로 확인할 수 있는 대통령령으로 정하는 방법에 따라 제공하여야 한다.  ② 가맹본부는 제1항에 따라 정보공개서… | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=288583&type=HTML&mobileYn=&efYd=20261002 |
+| 제10조 | ①가맹본부는 다음 각 호의 어느 하나에 해당하는 경우에는 가맹희망자나 가맹점사업자가 대통령령으로 정하는 사항이 적힌 서면으로 요구하는 날부터 1개월 이내에 가맹금을 반환하여야 한다.  1. 1. 가맹본부가 제7조제3항을 위반한 경우로서 가맹희망자 또는 가맹점사업자가 가맹계약 체결 전 또는 가맹계약의 체결일부터 4개월 이내… | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=288583&type=HTML&mobileYn=&efYd=20261002 |
+
+## 부가가치세법 시행령
+공포번호 36133, 개정일 20260227, 시행일 20260401
+https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=283641&type=HTML&mobileYn=&efYd=20260401
+| 조문 | 필요한 원문 발췌 | 확인 URL |
+|---|---|---|
+| 제109조 | ① 법 제61조제1항 본문 및 제62조제1항에서 "대통령령으로 정하는 금액"이란 1억4백만원을 말한다.  ② 법 제61조제1항제2호에서 "대통령령으로 정하는 사업자"란 다음 각 호의 어느 하나에 해당하는 사업을 경영하는 자를 말한다.  1. 1. 광업 2. 2. 제조업. 다만, 주로 최종소비자에게 직접 재화를 공급하는 사… | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=283641&type=HTML&mobileYn=&efYd=20260401 |
+
+## 소득세법
+공포번호 21221, 개정일 20251223, 시행일 20260701
+https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=280405&type=HTML&mobileYn=&efYd=20260701
+| 조문 | 필요한 원문 발췌 | 확인 URL |
+|---|---|---|
+| 제70조 | ① 해당 과세기간의 종합소득금액이 있는 거주자(종합소득과세표준이 없거나 결손금이 있는 거주자를 포함한다)는 그 종합소득 과세표준을 그 과세기간의 다음 연도 5월 1일부터 5월 31일까지 대통령령으로 정하는 바에 따라 납세지 관할 세무서장에게 신고하여야 한다.  ② 해당 과세기간에 분리과세 주택임대소득 및 제127조제1항제… | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=280405&type=HTML&mobileYn=&efYd=20260701 |
+
+## 법인세법
+공포번호 21217, 개정일 20251223, 시행일 20260701
+https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=280349&type=HTML&mobileYn=&efYd=20260701
+| 조문 | 필요한 원문 발췌 | 확인 URL |
+|---|---|---|
+| 제60조 | ① 납세의무가 있는 내국법인은 각 사업연도의 종료일이 속하는 달의 말일부터 3개월(제60조의2제1항 본문에 따라 내국법인이 성실신고확인서를 제출하는 경우에는 4개월로 한다) 이내에 대통령령으로 정하는 바에 따라 그 사업연도의 소득에 대한 법인세의 과세표준과 세액을 납세지 관할 세무서장에게 신고하여야 한다.  ② 제1항에 … | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=280349&type=HTML&mobileYn=&efYd=20260701 |
+
+## 국세기본법
+공포번호 21987, 개정일 20260929, 시행일 20261002
+https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=289999&type=HTML&mobileYn=&efYd=20261002
+| 조문 | 필요한 원문 발췌 | 확인 URL |
+|---|---|---|
+| 제47조의2 | ① 납세의무자가 법정신고기한까지 세법에 따른 국세의 과세표준 신고(예정신고 및 중간신고를 포함하며, 「교육세법」 제9조에 따른 신고 중 금융ㆍ보험업자가 아닌 자의 신고와 「농어촌특별세법」 및 「종합부동산세법」에 따른 신고는 제외한다)를 하지 아니한 경우에는 그 신고로 납부하여야 할 세액(이 법 및 세법에 따른 가산세와 세… | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=289999&type=HTML&mobileYn=&efYd=20261002 |
+| 제47조의4 | ① 납세의무자(연대납세의무자, 납세자를 갈음하여 납부할 의무가 생긴 제2차 납세의무자 및 보증인을 포함한다)가 법정납부기한까지 국세(「인지세법」 제8조제1항에 따른 인지세는 제외한다)의 납부(중간예납ㆍ예정신고납부ㆍ중간신고납부를 포함한다)를 하지 아니하거나 납부하여야 할 세액보다 적게 납부(이하 "과소납부"라 한다)하거나 … | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=289999&type=HTML&mobileYn=&efYd=20261002 |
+
+## 조세범 처벌법
+공포번호 17761, 개정일 20201229, 시행일 20210101
+https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=224875&type=HTML&mobileYn=&efYd=20210101
+| 조문 | 필요한 원문 발췌 | 확인 URL |
+|---|---|---|
+| 제10조 | ① 다음 각 호의 어느 하나에 해당하는 행위를 한 자는 1년 이하의 징역 또는 공급가액에 부가가치세의 세율을 적용하여 계산한 세액의 2배 이하에 상당하는 벌금에 처한다.  1. 1. 「부가가치세법」에 따라 세금계산서(전자세금계산서를 포함한다. 이하 이 조에서 같다)를 발급하여야 할 자가 세금계산서를 발급하지 아니하거나 거… | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=224875&type=HTML&mobileYn=&efYd=20210101 |
+
+## 식품위생법
+공포번호 21525, 개정일 20260407, 시행일 20261008
+https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=285339&type=HTML&mobileYn=&efYd=20261008
+| 조문 | 필요한 원문 발췌 | 확인 URL |
+|---|---|---|
+| 제4조 | 누구든지 다음 각 호의 어느 하나에 해당하는 식품등을 판매하거나 판매할 목적으로 채취ㆍ제조ㆍ수입ㆍ가공ㆍ사용ㆍ조리ㆍ저장ㆍ소분ㆍ운반 또는 진열하여서는 아니 된다.  1. 1. 썩거나 상하거나 설익어서 인체의 건강을 해칠 우려가 있는 것 2. 2. 유독ㆍ유해물질이 들어 있거나 묻어 있는 것 또는 그러할 염려가 있는 것. 다만,… | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=285339&type=HTML&mobileYn=&efYd=20261008 |
+| 제7조 | ① 식품의약품안전처장은 국민 건강을 보호ㆍ증진하기 위하여 필요하면 판매를 목적으로 하는 식품 또는 식품첨가물에 관한 다음 각 호의 사항을 정하여 고시한다.  1. 1. 제조ㆍ가공ㆍ사용ㆍ조리ㆍ보존 방법에 관한 기준 2. 2. 성분에 관한 규격 ② 식품의약품안전처장은 제1항에 따라 기준과 규격이 고시되지 아니한 식품 또는 식… | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=285339&type=HTML&mobileYn=&efYd=20261008 |
+| 제37조 | ① 제36조제1항 각 호에 따른 영업 중 대통령령으로 정하는 영업을 하려는 자는 대통령령으로 정하는 바에 따라 영업 종류별 또는 영업소별로 식품의약품안전처장 또는 특별자치시장ㆍ특별자치도지사ㆍ시장ㆍ군수ㆍ구청장의 허가를 받아야 한다. 허가받은 사항 중 대통령령으로 정하는 중요한 사항을 변경할 때에도 또한 같다.  ② 식품의약… | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=285339&type=HTML&mobileYn=&efYd=20261008 |
+| 제44조 | ① 제36조제1항 각 호의 영업을 하는 자 중 대통령령으로 정하는 영업자와 그 종업원은 영업의 위생관리와 질서유지, 국민의 보건위생 증진을 위하여 영업의 종류에 따라 다음 각 호에 해당하는 사항을 지켜야 한다.  1. 1. 「축산물 위생관리법」 제12조에 따른 검사를 받지 아니한 축산물 또는 실험 등의 용도로 사용한 동물… | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=285339&type=HTML&mobileYn=&efYd=20261008 |
+| 제94조 | ①다음 각 호의 어느 하나에 해당하는 자는 10년 이하의 징역 또는 1억원 이하의 벌금에 처하거나 이를 병과할 수 있다.  1. 1. 제4조부터 제6조까지(제88조에서 준용하는 경우를 포함하고, 제93조제1항 및 제3항에 해당하는 경우는 제외한다)를 위반한 자 2. 2. 제8조(제88조에서 준용하는 경우를 포함한다)를 위… | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=285339&type=HTML&mobileYn=&efYd=20261008 |
+| 제95조 | 다음 각 호의 어느 하나에 해당하는 자는 5년 이하의 징역 또는 5천만원 이하의 벌금에 처하거나 이를 병과할 수 있다.  1. 1. 제7조제4항(제88조에서 준용하는 경우를 포함한다), 제9조제4항(제88조에서 준용하는 경우를 포함한다) 또는 제9조의3(제88조에서 준용하는 경우를 포함한다)을 위반한 자 1의2. 1의2.… | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=285339&type=HTML&mobileYn=&efYd=20261008 |
+| 제97조 | 다음 각 호의 어느 하나에 해당하는 자는 3년 이하의 징역 또는 3천만원 이하의 벌금에 처한다.  1. 1. 제12조의2제2항, 제17조제4항, 제31조제1항ㆍ제3항, 제37조제3항ㆍ제4항, 제39조제3항, 제48조제2항ㆍ제10항, 제49조제1항 단서 또는 제55조를 위반한 자 2. 2. 제22조제1항(제22조의3에 따라… | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=285339&type=HTML&mobileYn=&efYd=20261008 |
+
+## 식품 등의 표시ㆍ광고에 관한 법률
+공포번호 20826, 개정일 20250318, 시행일 20250919
+https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=269957&type=HTML&mobileYn=&efYd=20250919
+| 조문 | 필요한 원문 발췌 | 확인 URL |
+|---|---|---|
+| 제4조 | ① 식품등에는 다음 각 호의 구분에 따른 사항을 표시하여야 한다. 다만, 총리령으로 정하는 경우에는 그 일부만을 표시할 수 있다.  1. 1. 식품, 식품첨가물 또는 축산물 가. 가. 제품명, 내용량 및 원재료명 나. 나. 영업소 명칭 및 소재지 다. 다. 소비자 안전을 위한 주의사항 라. 라. 제조연월일, 소비기한 또는… | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=269957&type=HTML&mobileYn=&efYd=20250919 |
+| 제8조 | ① 누구든지 식품등의 명칭ㆍ제조방법ㆍ성분 등 대통령령으로 정하는 사항에 관하여 다음 각 호의 어느 하나에 해당하는 표시 또는 광고를 하여서는 아니 된다.  1. 1. 질병의 예방ㆍ치료에 효능이 있는 것으로 인식할 우려가 있는 표시 또는 광고 2. 2. 식품등을 의약품으로 인식할 우려가 있는 표시 또는 광고 3. 3. 건강… | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=269957&type=HTML&mobileYn=&efYd=20250919 |
+| 제26조 | ① 제8조제1항제1호부터 제3호까지의 규정을 위반하여 표시 또는 광고를 한 자는 10년 이하의 징역 또는 1억원 이하의 벌금에 처하거나 이를 병과(竝科)할 수 있다. ② 제1항의 죄로 형을 선고받고 그 형이 확정된 후 5년 이내에 다시 제1항의 죄를 범한 자는 1년 이상 10년 이하의 징역에 처한다. ③ 제2항의 경우 해… | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=269957&type=HTML&mobileYn=&efYd=20250919 |
+| 제27조 | 다음 각 호의 어느 하나에 해당하는 자는 5년 이하의 징역 또는 5천만원 이하의 벌금에 처하거나 이를 병과할 수 있다.  1. 1. 제4조제3항을 위반하여 건강기능식품을 판매하거나 판매할 목적으로 제조ㆍ가공ㆍ소분ㆍ수입ㆍ포장ㆍ보관ㆍ진열 또는 운반하거나 영업에 사용한 자 2. 2. 제8조제1항제4호부터 제10호까지의 규정을 … | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=269957&type=HTML&mobileYn=&efYd=20250919 |
+| 제28조 | 다음 각 호의 어느 하나에 해당하는 자는 3년 이하의 징역 또는 3천만원 이하의 벌금에 처한다. 1. 1. 제4조제3항을 위반하여 식품등(건강기능식품은 제외한다)을 판매하거나 판매할 목적으로 제조ㆍ가공ㆍ소분ㆍ수입ㆍ포장ㆍ보관ㆍ진열 또는 운반하거나 영업에 사용한 자 2. 2. 제17조제1항에 따른 품목 또는 품목류 제조정지 … | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=269957&type=HTML&mobileYn=&efYd=20250919 |
+
+## 상표법
+공포번호 21134, 개정일 20251111, 시행일 20251111
+https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=279819&type=HTML&mobileYn=&efYd=20251111
+| 조문 | 필요한 원문 발췌 | 확인 URL |
+|---|---|---|
+| 제108조 | ① 다음 각 호의 어느 하나에 해당하는 행위는 상표권(지리적 표시 단체표장권은 제외한다) 또는 전용사용권을 침해한 것으로 본다. 1. 1. 타인의 등록상표와 동일한 상표를 그 지정상품과 유사한 상품에 사용하거나 타인의 등록상표와 유사한 상표를 그 지정상품과 동일ㆍ유사한 상품에 사용하는 행위 2. 2. 타인의 등록상표와 동… | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=279819&type=HTML&mobileYn=&efYd=20251111 |
+| 제109조 | 상표권자 또는 전용사용권자는 자기의 상표권 또는 전용사용권을 고의 또는 과실로 침해한 자에 대하여 그 침해에 의하여 자기가 받은 손해의 배상을 청구할 수 있다. | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=279819&type=HTML&mobileYn=&efYd=20251111 |
+| 제114조 | 법원은 상표권 또는 전용사용권의 침해에 관한 소송에서 당사자의 신청에 의하여 다른 당사자에 대하여 해당 침해행위로 인한 손해를 계산하는 데에 필요한 서류의 제출을 명할 수 있다. 다만, 그 서류의 소지자가 그 서류의 제출을 거절할 정당한 이유가 있는 경우에는 그러하지 아니하다. | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=279819&type=HTML&mobileYn=&efYd=20251111 |
+| 제230조 | 상표권 또는 전용사용권의 침해행위를 한 자는 7년 이하의 징역 또는 1억원 이하의 벌금에 처한다. | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=279819&type=HTML&mobileYn=&efYd=20251111 |
+
+## 저작권법
+공포번호 21336, 개정일 20260210, 시행일 20260811
+https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=283335&type=HTML&mobileYn=&efYd=20260811
+| 조문 | 필요한 원문 발췌 | 확인 URL |
+|---|---|---|
+| 제16조 | 저작자는 그의 저작물을 복제할 권리를 가진다. | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=283335&type=HTML&mobileYn=&efYd=20260811 |
+| 제22조 | 저작자는 그의 저작물을 원저작물로 하는 2차적저작물을 작성하여 이용할 권리를 가진다. | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=283335&type=HTML&mobileYn=&efYd=20260811 |
+| 제46조 | ①저작재산권자는 다른 사람에게 그 저작물의 이용을 허락할 수 있다. ②제1항의 규정에 따라 허락을 받은 자는 허락받은 이용 방법 및 조건의 범위 안에서 그 저작물을 이용할 수 있다. ③제1항의 규정에 따른 허락에 의하여 저작물을 이용할 수 있는 권리는 저작재산권자의 동의 없이 제3자에게 이를 양도할 수 없다. | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=283335&type=HTML&mobileYn=&efYd=20260811 |
+| 제136조 | ① 저작재산권, 그 밖에 이 법에 따라 보호되는 재산적 권리(제93조에 따른 권리는 제외한다)를 복제, 공연, 공중송신, 전시, 배포, 대여, 2차적저작물 작성의 방법으로 침해한 자는 7년 이하의 징역 또는 1억원 이하의 벌금에 처하거나 이를 병과(倂科)할 수 있다.  ② 제129조의3제1항에 따른 법원의 명령을 정당한 … | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=283335&type=HTML&mobileYn=&efYd=20260811 |
+
+## 전기용품 및 생활용품 안전관리법
+공포번호 21065, 개정일 20251001, 시행일 20251001
+https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=276591&type=HTML&mobileYn=&efYd=20251001
+| 조문 | 필요한 원문 발췌 | 확인 URL |
+|---|---|---|
+| 제5조 | ① 안전인증대상제품의 제조업자(외국에서 제조하여 대한민국으로 수출하는 자를 포함한다. 이하 같다) 또는 수입업자는 안전인증대상제품에 대하여 모델(산업통상부령으로 정하는 고유한 명칭을 붙인 제품의 형식을 말한다. 이하 같다)별로 산업통상부령으로 정하는 바에 따라 안전인증기관의 안전인증을 받아야 한다.  ② 안전인증대상제품의… | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=276591&type=HTML&mobileYn=&efYd=20251001 |
+| 제15조 | ① 안전확인대상제품의 제조업자 또는 수입업자는 안전확인대상제품에 대하여 모델별로 안전확인시험기관으로부터 산업통상부령으로 정하는 바에 따라 안전확인시험을 받아, 해당 안전확인대상제품이 제4항에 따른 안전기준에 적합한 것임을 확인한 후 그 사실을 산업통상부장관에게 신고하여야 한다.  ② 안전확인대상제품의 제조업자 또는 수입업… | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=276591&type=HTML&mobileYn=&efYd=20251001 |
+| 제23조 | ① 공급자적합성확인대상제품의 제조업자 또는 수입업자는 공급자적합성확인대상제품에 대하여 모델별로 산업통상부령으로 정하는 바에 따라 직접 제품시험을 실시하거나 제3자에게 제품시험을 의뢰하여 해당 제품이 제4항에 따른 안전기준에 적합한 것임을 스스로 확인하여야 한다.  ② 제1항에 따라 공급자적합성확인을 한 공급자적합성확인대상… | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=276591&type=HTML&mobileYn=&efYd=20251001 |
+
+## 부가가치세법
+공포번호 21065, 개정일 20251001, 시행일 20260102
+https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=276117&type=HTML&mobileYn=&efYd=20260102
+| 조문 | 필요한 원문 발췌 | 확인 URL |
+|---|---|---|
+| 제8조 | ① 사업자는 사업장마다 대통령령으로 정하는 바에 따라 사업 개시일부터 20일 이내에 사업장 관할 세무서장에게 사업자등록을 신청하여야 한다. 다만, 신규로 사업을 시작하려는 자는 사업 개시일 이전이라도 사업자등록을 신청할 수 있다. ② 사업자는 제1항에 따른 사업자등록의 신청을 사업장 관할 세무서장이 아닌 다른 세무서장에게… | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=276117&type=HTML&mobileYn=&efYd=20260102 |
+| 제32조 | ① 사업자가 재화 또는 용역을 공급(부가가치세가 면제되는 재화 또는 용역의 공급은 제외한다)하는 경우에는 다음 각 호의 사항을 적은 계산서(이하 "세금계산서"라 한다)를 그 공급을 받는 자에게 발급하여야 한다. 1. 1. 공급하는 사업자의 등록번호와 성명 또는 명칭 2. 2. 공급받는 자의 등록번호. 다만, 공급받는 자가… | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=276117&type=HTML&mobileYn=&efYd=20260102 |
+| 제48조 | ①사업자는 각 과세기간 중 다음 표에 따른 기간(이하 "예정신고기간"이라 한다)이 끝난 후 25일 이내에 대통령령으로 정하는 바에 따라 각 예정신고기간에 대한 과세표준과 납부세액 또는 환급세액을 납세지 관할 세무서장에게 신고하여야 한다. 다만, 신규로 사업을 시작하거나 시작하려는 자에 대한 최초의 예정신고기간은 사업 개시… | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=276117&type=HTML&mobileYn=&efYd=20260102 |
+| 제49조 | ① 사업자는 각 과세기간에 대한 과세표준과 납부세액 또는 환급세액을 그 과세기간이 끝난 후 25일(폐업하는 경우 제5조제3항에 따른 폐업일이 속한 달의 다음 달 25일) 이내에 대통령령으로 정하는 바에 따라 납세지 관할 세무서장에게 신고하여야 한다. 다만, 제48조제1항 및 제4항에 따라 예정신고를 한 사업자 또는 제59… | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=276117&type=HTML&mobileYn=&efYd=20260102 |
+| 제61조 | ① 직전 연도의 공급대가의 합계액이 8천만원부터 8천만원의 130퍼센트에 해당하는 금액까지의 범위에서 대통령령으로 정하는 금액에 미달하는 개인사업자는 이 법에서 달리 정하고 있는 경우를 제외하고는 제4장부터 제6장까지의 규정에도 불구하고 이 장의 규정을 적용받는다. 다만, 다음 각 호의 어느 하나에 해당하는 사업자는 간이… | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=276117&type=HTML&mobileYn=&efYd=20260102 |
+| 제69조 | ① 간이과세자의 해당 과세기간에 대한 공급대가의 합계액이 4천800만원 미만이면 제66조 및 제67조에도 불구하고 제63조제2항에 따른 납부의무를 면제한다. 다만, 제64조에 따라 납부세액에 더하여야 할 세액은 그러하지 아니하다.  ② 제1항에 따라 납부할 의무를 면제하는 경우에 대하여는 제60조제1항을 적용하지 아니한다… | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=276117&type=HTML&mobileYn=&efYd=20260102 |
+
+## 근로기준법
+공포번호 21533, 개정일 20260407, 시행일 20261008
+https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=285279&type=HTML&mobileYn=&efYd=20261008
+| 조문 | 필요한 원문 발췌 | 확인 URL |
+|---|---|---|
+| 제17조 | ① 사용자는 근로계약을 체결할 때에 근로자에게 다음 각 호의 사항을 명시하여야 한다. 근로계약 체결 후 다음 각 호의 사항을 변경하는 경우에도 또한 같다.  1. 1. 임금 2. 2. 소정근로시간 3. 3. 제55조에 따른 휴일 4. 4. 제60조에 따른 연차 유급휴가 5. 5. 그 밖에 대통령령으로 정하는 근로조건 ② … | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=285279&type=HTML&mobileYn=&efYd=20261008 |
+| 제36조 | 사용자는 근로자가 사망 또는 퇴직한 경우에는 그 지급 사유가 발생한 때부터 14일 이내에 임금, 보상금, 그 밖의 모든 금품을 지급하여야 한다. 다만, 특별한 사정이 있을 경우에는 당사자 사이의 합의에 의하여 기일을 연장할 수 있다. | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=285279&type=HTML&mobileYn=&efYd=20261008 |
+| 제43조 | ① 임금은 통화(通貨)로 직접 근로자에게 그 전액을 지급하여야 한다. 다만, 법령 또는 단체협약에 특별한 규정이 있는 경우에는 임금의 일부를 공제하거나 통화 이외의 것으로 지급할 수 있다. ② 임금은 매월 1회 이상 일정한 날짜를 정하여 지급하여야 한다. 다만, 임시로 지급하는 임금, 수당, 그 밖에 이에 준하는 것 또는… | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=285279&type=HTML&mobileYn=&efYd=20261008 |
+| 제48조 | ① 사용자는 각 사업장별로 임금대장을 작성하고 임금과 가족수당 계산의 기초가 되는 사항, 임금액, 그 밖에 대통령령으로 정하는 사항을 임금을 지급할 때마다 적어야 한다.  ② 사용자는 임금을 지급하는 때에는 근로자에게 임금의 구성항목ㆍ계산방법, 제43조제1항 단서에 따라 임금의 일부를 공제한 경우의 내역 등 대통령령으로 … | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=285279&type=HTML&mobileYn=&efYd=20261008 |
+| 제56조 | ① 사용자는 연장근로(제53조ㆍ제59조 및 제69조 단서에 따라 연장된 시간의 근로를 말한다)에 대하여는 통상임금의 100분의 50 이상을 가산하여 근로자에게 지급하여야 한다.  ② 제1항에도 불구하고 사용자는 휴일근로에 대하여는 다음 각 호의 기준에 따른 금액 이상을 가산하여 근로자에게 지급하여야 한다. <신설 2018… | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=285279&type=HTML&mobileYn=&efYd=20261008 |
+| 제114조 | 다음 각 호의 어느 하나에 해당하는 자는 500만원 이하의 벌금에 처한다.  1. 1. 제6조, 제16조, 제17조, 제20조, 제21조, 제22조제2항, 제47조, 제53조제4항 단서, 제67조제1항ㆍ제3항, 제70조제3항, 제73조, 제74조제6항, 제77조, 제94조, 제95조, 제100조 및 제103조를 위반한 자… | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=285279&type=HTML&mobileYn=&efYd=20261008 |
+
+## 채무자 회생 및 파산에 관한 법률
+공포번호 21490, 개정일 20260324, 시행일 20261002
+https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=290631&type=HTML&mobileYn=&efYd=20261002
+| 조문 | 필요한 원문 발췌 | 확인 URL |
+|---|---|---|
+| 제305조 | ①채무자가 지급을 할 수 없는 때에는 법원은 신청에 의하여 결정으로 파산을 선고한다. ②채무자가 지급을 정지한 때에는 지급을 할 수 없는 것으로 추정한다. | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=290631&type=HTML&mobileYn=&efYd=20261002 |
+| 제306조 | ①법인에 대하여는 그 부채의 총액이 자산의 총액을 초과하는 때에도 파산선고를 할 수 있다. ②제1항의 규정은 합명회사 및 합자회사의 존립 중에는 적용하지 아니한다. | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=290631&type=HTML&mobileYn=&efYd=20261002 |
+| 제564조 | ①법원은 다음 각호의 어느 하나에 해당하는 때를 제외하고는 면책을 허가하여야 한다.  1. 1. 채무자가 제650조ㆍ제651조ㆍ제656조 또는 제658조의 죄에 해당하는 행위가 있다고 인정하는 때 2. 2. 채무자가 파산선고 전 1년 이내에 파산의 원인인 사실이 있음에도 불구하고 그 사실이 없는 것으로 믿게 하기 위하여 … | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=290631&type=HTML&mobileYn=&efYd=20261002 |
+| 제566조 | 면책을 받은 채무자는 파산절차에 의한 배당을 제외하고는 파산채권자에 대한 채무의 전부에 관하여 그 책임이 면제된다. 다만, 다음 각호의 청구권에 대하여는 책임이 면제되지 아니한다.  1. 1. 조세 2. 2. 벌금ㆍ과료ㆍ형사소송비용ㆍ추징금 및 과태료 3. 3. 채무자가 고의로 가한 불법행위로 인한 손해배상 4. 4. 채무… | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=290631&type=HTML&mobileYn=&efYd=20261002 |
+
+## 형법
+공포번호 22007, 개정일 20260929, 시행일 20261002
+https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=290185&type=HTML&mobileYn=&efYd=20261002
+| 조문 | 필요한 원문 발췌 | 확인 URL |
+|---|---|---|
+| 제268조 | 업무상과실 또는 중대한 과실로 사람을 사망이나 상해에 이르게 한 자는 5년 이하의 금고 또는 2천만원 이하의 벌금에 처한다. [전문개정 2020.12.8] | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=290185&type=HTML&mobileYn=&efYd=20261002 |
+| 제347조 | ① 사람을 기망하여 재물의 교부를 받거나 재산상의 이익을 취득한 자는 20년 이하의 징역 또는 5천만원 이하의 벌금에 처한다.  ②전항의 방법으로 제삼자로 하여금 재물의 교부를 받게 하거나 재산상의 이익을 취득하게 한 때에도 전항의 형과 같다. [제목개정 2025.12.23] | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=290185&type=HTML&mobileYn=&efYd=20261002 |
+
+## 식품위생법 시행령
+공포번호 36593, 개정일 20260818, 시행일 20260818
+https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=288767&type=HTML&mobileYn=&efYd=20260818
+| 조문 | 필요한 원문 발췌 | 확인 URL |
+|---|---|---|
+| 제21조 | 법 제36조제1항 각 호에 따른 영업의 세부 종류와 그 범위는 다음 각 호와 같다.  1. 1. 식품제조ㆍ가공업: 식품을 제조ㆍ가공하는 영업 2. 2. 즉석판매제조ㆍ가공업: 총리령으로 정하는 식품을 제조ㆍ가공업소에서 직접 최종소비자에게 판매하는 영업 3. 3. 식품첨가물제조업 가. 가. 감미료ㆍ착색료ㆍ표백제 등의 화학적 … | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=288767&type=HTML&mobileYn=&efYd=20260818 |
+| 제25조 | ① 법 제37조제4항 전단에 따라 특별자치시장ㆍ특별자치도지사 또는 시장ㆍ군수ㆍ구청장에게 신고를 하여야 하는 영업은 다음 각 호와 같다.  1. 1. 삭제<2011.12.19> 2. 2. 제21조제2호의 즉석판매제조ㆍ가공업 3. 3. 삭제<2011.12.19> 4. 4. 제21조제4호의 식품운반업 5. 5. 제21조제5호의… | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=288767&type=HTML&mobileYn=&efYd=20260818 |
+| 제26조 | 법 제37조제4항 후단에 따라 변경할 때 신고를 하여야 하는 사항은 다음 각 호와 같다.  1. 1. 영업자의 성명(법인인 경우에는 그 대표자의 성명을 말한다) 2. 2. 영업소의 명칭 또는 상호 3. 3. 영업소의 소재지 4. 4. 영업장의 면적 5. 5. 삭제<2011.12.19> 6. 6. 제21조제2호의 즉석판매제… | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=288767&type=HTML&mobileYn=&efYd=20260818 |
+
+## 축산물 위생관리법
+공포번호 21525, 개정일 20260407, 시행일 20261008
+https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=285351&type=HTML&mobileYn=&efYd=20261008
+| 조문 | 필요한 원문 발췌 | 확인 URL |
+|---|---|---|
+| 제7조 | ① 가축의 도살ㆍ처리, 집유, 축산물의 가공ㆍ포장 및 보관은 제22조제1항에 따라 허가를 받은 작업장에서 하여야 한다. 다만, 다음 각 호의 어느 하나에 해당하는 경우에는 그러하지 아니하다.  1. 1. 학술연구용으로 사용하기 위하여 도살ㆍ처리하는 경우 2. 2. 특별시장ㆍ광역시장ㆍ특별자치시장ㆍ도지사 또는 특별자치도지사(… | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=285351&type=HTML&mobileYn=&efYd=20261008 |
+| 제22조 | ① 제21조제1항제1호부터 제3호까지 및 제3호의2에 따른 도축업ㆍ집유업ㆍ축산물가공업 또는 식용란선별포장업의 영업을 하려는 자는 총리령으로 정하는 바에 따라 작업장별로 시ㆍ도지사의 허가를 받아야 하고, 같은 항 제4호에 따른 식육포장처리업 또는 같은 항 제5호에 따른 축산물보관업의 영업을 하려는 자는 총리령으로 정하는 바… | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=285351&type=HTML&mobileYn=&efYd=20261008 |
+| 제45조 | ① 다음 각 호의 어느 하나에 해당하는 자는 10년 이하의 징역 또는 1억원 이하의 벌금에 처한다.  1. 1. 제7조제1항을 위반하여 허가받은 작업장이 아닌 곳에서 가축을 도살ㆍ처리한 자 2. 2. 제7조제5항을 위반하여 가축을 도살ㆍ처리하여 식용으로 사용하거나 판매한 자 3. 3. 제10조를 위반하여 가축 또는 식육에… | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=285351&type=HTML&mobileYn=&efYd=20261008 |
+
+## 응급의료에 관한 법률
+공포번호 21237, 개정일 20251223, 시행일 20260624
+https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=280429&type=HTML&mobileYn=&efYd=20260624
+| 조문 | 필요한 원문 발췌 | 확인 URL |
+|---|---|---|
+| 제5조의2 | 생명이 위급한 응급환자에게 다음 각 호의 어느 하나에 해당하는 응급의료 또는 응급처치를 제공하여 발생한 재산상 손해와 사상(死傷)에 대하여 고의 또는 중대한 과실이 없는 경우 그 행위자는 민사책임과 상해(傷害)에 대한 형사책임을 지지 아니하며 사망에 대한 형사책임은 감면한다.  1. 1. 다음 각 목의 어느 하나에 해당하… | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=280429&type=HTML&mobileYn=&efYd=20260624 |
+
+## 간호법
+공포번호 21423, 개정일 20260310, 시행일 20260911
+https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=283885&type=HTML&mobileYn=&efYd=20260911
+| 조문 | 필요한 원문 발췌 | 확인 URL |
+|---|---|---|
+| 제12조 | ① 간호사는 다음 각 호의 업무를 임무로 한다. 1. 1. 환자의 간호요구에 대한 관찰, 자료수집, 간호판단 및 요양을 위한 간호 2. 2. 「의료법」에 따른 의사, 치과의사, 한의사의 지도하에 시행하는 진료의 보조 3. 3. 간호 요구자에 대한 교육ㆍ상담 및 건강증진을 위한 활동의 기획과 수행, 그 밖에 대통령령으로 정… | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=283885&type=HTML&mobileYn=&efYd=20260911 |
+
+## 국민건강보험법
+공포번호 21522, 개정일 20260407, 시행일 20261008
+https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=285273&type=HTML&mobileYn=&efYd=20261008
+| 조문 | 필요한 원문 발췌 | 확인 URL |
+|---|---|---|
+| 제6조 | ① 가입자는 직장가입자와 지역가입자로 구분한다. ② 모든 사업장의 근로자 및 사용자와 공무원 및 교직원은 직장가입자가 된다. 다만, 다음 각 호의 어느 하나에 해당하는 사람은 제외한다.  1. 1. 고용 기간이 1개월 미만인 일용근로자 2. 2. 「병역법」에 따른 현역병(지원에 의하지 아니하고 임용된 하사를 포함한다), … | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=285273&type=HTML&mobileYn=&efYd=20261008 |
+| 제8조 | ① 가입자는 국내에 거주하게 된 날에 직장가입자 또는 지역가입자의 자격을 얻는다. 다만, 다음 각 호의 어느 하나에 해당하는 사람은 그 해당되는 날에 각각 자격을 얻는다. 1. 1. 수급권자이었던 사람은 그 대상자에서 제외된 날 2. 2. 직장가입자의 피부양자이었던 사람은 그 자격을 잃은 날 3. 3. 유공자등 의료보호대… | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=285273&type=HTML&mobileYn=&efYd=20261008 |
+
+## 적용 결정
+
+- 1~4항: 주주 유한책임·개인보증·배우자 고유재산을 구분한다. 중국 가족재산 일괄 책임과 출자금 5년 납입을 적용하지 않는다.
+- 2항: 일반 보증 항변에는 채무자의 자력·집행 용이성 증명이 필요하다. 상행위 보증의 상법상 연대책임도 설명한다.
+- 5항: 정보공개서 후 14일(전문 자문 시 7일)은 계약 전 숙려기간이다. 계약 후 일률 해지와 다르다.
+- 6항: 사업자등록과 법인설립등기를 구분한다. 무료·당일 발급·가격은 미확인이라 쓰지 않는다.
+- 7~11항: 음식점 신고·제조업 등록·축산물 절차를 구분한다. 한국의 표시·치료효과 광고도 형사처벌이 가능하다.
+- 12~13항: 매출 없음과 장부 전부 영은 다르다. 간이과세 원칙 기준 1억 400만원과 납부면제 4,800만원을 구분한다. 중국 3개월 미신고 발행정지·월분기 면세액·1% 세율을 적용하지 않는다.
+- 15항: 계약금 해제는 다른 약정 없음·이행 착수 전을 확인한다. 중국 글자 구분과 20% 상한을 적용하지 않는다.
+- 16항: 계약 때 근로조건 명시·서면교부를 설명한다. 중국 두 배 임금·4대보험 공통 30일 기한은 삭제한다.
+- 20~21항: 중국 판매액 문턱·적법매입 증명 일률면책을 적용하지 않는다. 2026-08-11 시행 저작권법 형사상한 7년/1억원을 확인했다.
+- 22항: 간호법 업무와 응급의료법 조건부 면책을 구분한다. 조사 과정 비용과 사망 책임 감면의 한계를 설명한다.
+- 23항: 한국 개인 회생·파산 체계로 교체한다. 폐업신고는 청산·면책과 다르다.
+- 24항: 중국 사례 피해액·형량을 한국 숫자로 옮기지 않는다. 민법상 취소·원상회복·취소권 기간과 회수 비용을 설명한다.
+
+## 기관·전화 직접 확인
+
+| 기관 | 확인 내용 | URL |
+|---|---|---|
+| 국세청 | 첫 화면 “국세상담센터126”, “국번없이 126”, “유료” | https://www.nts.go.kr |
+| 경찰청 피싱안심SOS | 공식 예방 안내 “1394 또는 112로 즉시 신고”. 초역은 112만 사용 | https://www.counterscam112.go.kr |
+
+## 과학 근거 직접 확인
+
+출판사 원문 https://pubsonline.informs.org/doi/10.1287/mnsc.2018.3249
+DOI https://doi.org/10.1287/mnsc.2018.3249
+초록 발췌: “116 Italian startups … over a period of about one year”. “perform better, are more likely to pivot … and are not more likely to drop out”.
+원문 116개·약 1년, 연구 결과 방향을 보존했다. 추가 효과량·국내 수치를 만들지 않았다.
+
+## TODO 확인 필요
+
+1. 명의신탁 주식 세무 규정·실제 주주 판단 판례.
+2. 사업자등록 서류·처리기한, 법인등기 세금·수수료.
+3. 식품 판매 방식·면적별 신고와 정육점 신고 세부 요건.
+4. 품목별 표시 예외·소비기한 설정·글씨크기.
+5. 4대보험 각각의 가입 대상·신고 기한·부담률.
+6. 개별 제품 안전인증·신고·적합성확인과 어린이제품 적용.
+7. 한국 운영 대행·창업 교육 사기 공식 사례와 허위 주문 제재.
+
+
+## 추가 확인: 업종 등록·신고
+- 「식품위생법 시행령」 제26조의2 원문: “제21조제1호의 식품제조ㆍ가공업”, “제21조제3호의 식품첨가물제조업”, “제21조제9호의 공유주방 운영업”은 등록 대상이다. 제2항 예외가 있어 일반 원칙으로 설명했다.
+- 같은 시행령 제21조제5호의 기타 식품판매업은 “총리령으로 정하는 일정 규모 이상의 백화점, 슈퍼마켓, 연쇄점 등”이다. 포장식품 판매를 일률 신고 면제로 쓰지 않았다.
+- 확인 URL: https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=288767&type=HTML&mobileYn=&efYd=20260818
+- 「축산물 위생관리법」 제24조제1항은 지정 영업이 시설을 갖춰 관할 시장·군수·구청장 등에 신고하도록 한다. 구체적 정육 판매 시설·종류는 TODO를 유지했다.
+- 확인 URL: https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=285351&type=HTML&mobileYn=&efYd=20261008
+- 두 추가 조문도 2026-10-10 국가법령정보센터에서 직접 열람했다. 본문의 중국 포장식품·정육 영업 분류를 교체하는 근거로 사용했다.
