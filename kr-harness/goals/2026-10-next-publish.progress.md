@@ -30,3 +30,5 @@
 - **실행 ID**: `pipeline.mjs new-run`이 `R18a`처럼 절 번호+순번 글자를 붙인다. 다른 절을 도는 세션끼리 겹치지 않는다. 옛 R01~R14는 그대로 읽힌다. `run-id.mjs --check`가 CI에서 중복을 잡는다. report.html은 main에서만 다시 만든다(절 PR끼리 충돌 방지). verify.mjs는 결과가 같으면 파일을 다시 쓰지 않는다.
 - **세션 시작 훅**: 도메인마다 3번 시도하고 끊김과 차단을 나눠 알린다. Europe PMC는 REST API로 점검한다.
 - **확인**: `gate --all-done` 6/6, 로컬 빌드 4종 성공, epubcheck 오류 0·경고 0, 390px에서 웹 리더 첫 화면·절 화면·오프라인 HTML 모두 scrollWidth 390(가로 스크롤 없음, 글자 크기 최대에서도).
+| 2026-10-10 | 16 | S1-S3 | - | 9/9항목, TODO 6, kr-fit block 0. DOI 1건 의도적 보강(한국 통풍 지침) | S4 |
+| 2026-10-10 | 16 | S4-S5 | R16a | S5 반려: DOI 추가 1(의도적 보강). verify.mjs에 도입부 kr-omit·kr-doi-add·kr-doi-drop 표시를 넣는 수정 진행 | 표시 후 재검증 |
