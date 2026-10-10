@@ -253,3 +253,12 @@ URL: https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=289809
 ### T-3. 117 허용 목록
 
 - A-3의 「117은 kr-fit 허용 목록에 없다」는 지금은 맞지 않다. kr-fit-rules.json `phones.allow`에 117(출처 https://www.safe182.go.kr/index.do)이 들어 있다. 본문 TODO 목록에서 해당 줄을 지웠다.
+
+
+## U. 공개 후 보완: 제4항 근시 예방법의 유일성 단정 삭제 — 2026-10-10
+
+- 직접 확인한 1차 자료: Yam JC, et al. (2023). Effect of Low-Concentration Atropine Eyedrops vs Placebo on Myopia Incidence in Children: The LAMP2 Randomized Clinical Trial. JAMA. DOI https://doi.org/10.1001/jama.2022.24162 · PubMed https://pubmed.ncbi.nlm.nih.gov/36786791/ . Europe PMC 공식 초록을 REST로 직접 열었다: https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1001/jama.2022.24162&format=json&resultType=core
+- 초록 확인: 근시가 없는 4~9세 474명을 0.05%·0.01% 아트로핀 및 위약군에 무작위 배정한 이중 눈가림 시험이다. 2년 누적 근시 발생률은 각각 28.4%, 45.9%, 53.0%였다. 0.05%군은 위약군보다 유의하게 낮았고 0.01%군은 위약군과 유의한 차이가 없었다. 저자들은 발병 지연인지 예방인지, 장기 안전성인지에는 추가 연구가 필요하다고 밝혔다. 아트로핀의 일반적인 예방 권고나 영구 예방을 뜻하지 않지만, 바깥 활동만이 무작위 시험에서 효과를 보인 유일한 방법이라는 단정은 유지할 수 없다.
+- 기존 제4항 근거도 공식 초록을 직접 재확인했다: He M, et al. (2015), DOI https://doi.org/10.1001/jama.2015.10803 . 열람 URL: https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1001/jama.2015.10803&format=json&resultType=core . 광저우 6세 무렵 아동의 학교 바깥 활동을 늘린 군에서 3년 근시 발생률이 30.4% 대 39.5%로 낮았다. 장기 효과와 일반화 가능성은 추가 연구가 필요하다는 결론이다.
+- 공개 본문 변경은 제4항 제목 한 문장뿐이다: 「지금으로서는 무작위 시험으로 효과가 확인된 유일한 근시 예방법입니다」 → 「무작위 시험에서 근시 발생을 줄이는 효과가 확인됐습니다」. 생활습관 가운데 유일하다는 새 단정도 넣지 않았다. 본문 전체에서 동일한 유일성 주장이 남지 않았음을 확인했다.
+- 기존 본문 DOI·수치·근거등급·비용태그·18항목·TODO 9건은 그대로 유지했다. 새 DOI는 조사 기록에만 남겼다. 본문 변경 뒤 독립 재검토와 현재 해시 게이트 확인은 오케스트레이터가 수행한다.
