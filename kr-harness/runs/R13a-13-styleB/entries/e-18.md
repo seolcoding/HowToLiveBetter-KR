@@ -1,0 +1,9 @@
+### 18. 누가 감전되면 먼저 전원을 끄세요. 그다음 마른 나무 막대 같은 것으로 전원을 떼어 내고, 맨손으로 잡아당기지 마세요
+<!-- 成本标签: 钱=0 时间=少 毅力=否 收益=大 口径=死亡率 -->
+- 비용: 돈이 들지 않습니다.
+- 쉽게: 먼저 전원을 끄세요. 끌 수 없으면 마른 나무 막대 같은 것으로 전원을 떼어 내세요. 그 뒤 사람을 만지세요. 맨손으로 잡아당기면 다친 사람이 둘이 됩니다. 전원에서 떨어진 뒤 숨을 쉬는지 확인하세요. 숨을 쉬지 않으면 제1항(가슴을 세게 누르기)대로 바로 누르세요. 전기 사고라고 만지기를 두려워하지 마세요. 땅에 떨어진 전선이나 변전 설비 근처라면 직접 손대지 마세요. 멀리 물러나 한국전력에 신고하세요.
+- 이득: 구조자까지 감전돼 다친 사람이 둘이 되는 일을 막습니다. 전원에서 떨어진 뒤 숨을 쉬는지 확인하세요. 숨을 쉬지 않으면 제1항(가슴을 세게 누르기)대로 심폐소생술을 하세요. 미국 질병통제예방센터의 응급처치 순서는 이렇습니다. 먼저 보고, 만지지 않습니다. 아직 전기가 흐를 수 있습니다. 끌 수 있으면 먼저 끕니다. 못 끄면 전기가 안 통하는 것으로 전원을 떼어 냅니다. 판지, 플라스틱, 나무 등을 씁니다. 떨어진 뒤 숨이나 맥박이 멈췄으면 바로 심폐소생술을 합니다. 2025 한국 심폐소생술 가이드라인도 구조자 안전을 우선합니다. 안전을 확보한 뒤에만 구조하라고 합니다. 한 고찰은 감전 뒤 심장이 멈췄다가 되살아난 사람을 다뤘습니다. 이들의 예후는 대개 나쁘지 않다고 했습니다.
+- 근거등급: B
+- 출처: US CDC. What to Do to Protect Yourself From Electrical Hazards(First aid 부분). <https://www.cdc.gov/natural-disasters/response/what-to-do-protect-yourself-from-electrical-hazards.html> · Spies C, Trohman RG (2006). Narrative review: Electrocution and life-threatening electrical injuries. Annals of Internal Medicine 145(7):531-537. <https://doi.org/10.7326/0003-4819-145-7-200610030-00011> · Kim TY 등 (2026). 2025 Korean Guidelines for Cardiopulmonary Resuscitation: Part 5. Cardiac arrest in special circumstances. Clinical and Experimental Emergency Medicine 13(Suppl 1). <https://doi.org/10.15441/ceem.26.074> · 행정안전부 국민안전24. 국민행동요령: 전기·가스 사고. <https://www.safekorea.go.kr/safekorea-kor/acts/nacts/action-guide.do?category=electircGasAccident&actsHeaderTitle=%EC%A0%84%EA%B8%B0%C2%B7%EA%B0%80%EC%8A%A4%20%EC%82%AC%EA%B3%A0&menuSn=4>
+- 비고: 「먼저 끄고 만진다」는 나를 지키는 규칙입니다. 맨손으로 잡아당기면 두 번째로 쓰러지는 사람이 당신입니다. 땅에 떨어진 전선이나 변전 설비 근처에서는 직접 처리하지 마세요. 멀리 물러나세요. 국민안전24는 땅에 떨어진 전선의 신고 방법을 안내합니다. 한국전력공사 123으로 신고하세요. 감전으로 심장이 멈췄을 때도 보통처럼 누르고 AED를 쓰면 됩니다. 「전기 사고」라서 손대기를 망설이지 마세요. 2026-10-10 국민안전24 확인.
+
