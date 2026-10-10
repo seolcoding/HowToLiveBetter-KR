@@ -294,3 +294,25 @@ URL: https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=268655
 3. 본인부담상한액 초과금 환급 신청 기한(「국민건강보험법」 제91조 제1항 제3호 3년 적용 여부, 공단 안내).
 4. 경증질환자 상급종합병원 외래 본인부담률(시행령 별표 2 제3호 너목 고시 비율)과 대상 질병.
 5. 의료소송 1심 평균 처리 기간(사법연감 등 법원 공식 통계).
+
+## W. 첫 KR-FIT 리뷰 후 직접 재확인·수정 (2026-10-10)
+
+이번 수정은 위 과거 조사와 별도로 국가법령정보센터 XML과 공단 원문을 직접 내려받아 읽었다. 사용 가능한 WebFetch 도구가 없어 HTTPS 요청으로 확인했다. law metadata로 실제 시행일을 확인한 다음 eflaw를 열었다. 시행령 289701의 공포 XML에 2027년 별표가 섞이므로 20261001 eflaw 별표를 기준으로 삼았다.
+
+| 직접 연 문서 | 확인 내용과 반영 |
+|---|---|
+| https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=289701&efYd=20261001&type=XML | metadata 국민건강보험법 시행령/시행20261001. 별표2 일반환자 외래 산식, 입원20%+식대50%, 제3호 너목 고시 경증질환 별도율, 타목3) 고시 회송 급여 본인부담 없음, 제19조와 별표3 제외항목·2024상한·물가 산식 직접 확인. 제1·2항은 일반 급여 기준과 산정특례·연령·임신·경증·항목 예외를 바로 밝혔고 10만원 예시도 급여비용으로 제한. |
+| https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=290599&efYd=20260928&type=XML | law와 eflaw metadata 시행20260928 확인. 별표6 사목2) 응급실 비용의 상급종합병원 진찰료 제외와 3)의 같은 정의, 제2호 나목90% 직접 읽음. 제7항 쉽게·이득 모두 진찰료 별도 전액 부담 추가. |
+| https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=285513&efYd=20260415&type=XML | law metadata 시행20260415와 eflaw 제2조 절차·7가지 예외·검진결과서 대체, 제6조 의뢰회송·기록 전달 확인. 제1·3항 내원 진찰료와 사본 비용 명시. |
+| https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=285273&efYd=20261008&type=XML | law metadata 시행20261008 확인. 제13·42조 전국 단일 보험자/요양기관과 제44조 상한 지급·제48조 환급 확인. 제4항 승인비와 사본·이동비 구별. |
+| https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000283320&type=XML | 명칭 본인일부부담금 산정특례에 관한 기준/제2026-162호/현행Y/시행20260731 직접 확인. 제4조5%·제5조10%·제6조 고시질환 약국50%/40% 및 제7조 등록 요건 확인. 제1·2·4항 출처 보강. 지역 이동 승인 불필요와 산정특례 사전등록 요건을 구별. 경증질환 외래 너목의 별도 고시 비율은 이 문서 제6조 약국 비율과 혼동하지 않음. |
+| https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000273788&type=XML | 명칭 진료의뢰·회송 중계시스템 운영 등에 관한 세부사항/제2026-18호/현행Y/시행20260201. 제3·5조 직접 읽음. 산정특례와 별개 문서이며 기존 제3항 문서명·번호 유지. |
+| https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000197953&type=XML | 제2조 진찰료·검사료 제외, 제5조 상한 내 수수료 확인. 제1·3·4항의 돈 없음 삭제 또는 승인 비용에 한정. 비용태그는 보존. |
+| https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=290113&efYd=20261002&type=XML | law metadata 시행20261002. 제199조5월 직접 확인. 제6항 실제 의료소송 소요기간 보장 아님과 평균기간 미확인 바로 추가. |
+| https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=268655&efYd=20250121&type=XML | law metadata 시행20250121. 제2조2호다목 학교의 장·교직원·학교법인 임직원 및 제5조 공직자등에 대한 청탁, 제8조 금품·예외 확인. 제11항 민간의사 전체 제외 삭제, 해당 지위가 없는 일반 민간의사에 한정. 제3·11항 진료순서 관련 표현도 공공기관·공직자등·부정청탁 조건으로 제한. 구체적 순서청탁 사례는 확인한 것으로 쓰지 않음. |
+| https://www.nhis.or.kr/static/html/wbma/c/wbmac0209.html | 원문 사전급여는 당시 최고상한582만원 기준, 2020.1.1.부터 요양병원 사전급여 적용 제외. 사후합산·소득구간별 환급 확인. 제13항 해당연도 사전급여 최고상한·요양병원 제외·개인상한 차액 및 다기관 사후정산 명시. 2024숫자는 쉽게에서 빼고 이득에서 2026상한이 아니라고 밝힘. 2020숫자를 2026숫자로 쓰지 않음. |
+| https://www.nhis.or.kr/static/html/wbma/c/wbmac0221.html 및 https://www.nhis.or.kr/static/html/wbma/c/wbmac0217.html | 원문 일반가입자30%와 차상위 등의 다른 부담률 직접 확인. 제12항 쉽게·이득도 일반가입자 급여 기준으로 제한해 같은 범위 오류 방지. |
+
+미확인: https://www.hira.or.kr/ra/eval/asmInfo.do?evlCd=30 은 초기25초 timeout 후 curl --retry 5 --retry-all-errors --retry-delay 2 -m 20으로 재요청했으나 반복 timeout. 기존 U 기록의 직접 열람 주장을 이번 확인으로 재사용하지 않음. 제11항 연령·퇴원일·5등급 숫자와 환자경험 설명을 삭제하고 출처에서도 뺌. TODO7에 원인 기록. 기존 TODO6건은 미확인이라 그대로 유지했고 총7건이다. 2026상한·너목 경증 고시·실제 소송기간·권익위 사례·임상의 교직원범위·환급기한을 확인했다고 기록하지 않았다.
+
+13항과 kr-add, 비용태그, 근거등급 전부 보존. DOI/PubMed는 원래 없음. 내용5block과5warn 및 보조 지적을 본문 조건 수정·단정 삭제로 처리했다. 리뷰 파일은 변경하지 않았다.
