@@ -179,6 +179,21 @@
 - 교육부의 2026-09 외국인 유학생 관리 강화 방침: 한국에 오는 외국인 유학생 대상이라 이 절과 무관.
 - 연방관보 「Optional Practical Training Fees」 제안 규칙(2026-10-08, 2026-20660): 아직 제안 단계라 쓰지 않음.
 
+## G. 적합성 검토(kr-fit-review) 반영 추가 확인 (2026-10-10)
+
+| 대상 | 확인 내용 | 확인 URL |
+|---|---|---|
+| Study in the States, The Basics of School Accreditation (Last updated 2025-09-19, WebFetch) — 항목 1 | 「Although a school does not need to be accredited to receive SEVP certification」 「(unless it is an English language training program)」 「some opportunities may require that a student's degree come from an accredited institution」(한 문장의 조각들), 「The U.S. Department of Education maintains a database of accrediting agencies it recognizes」, 「SEVP only recognizes schools as accredited if the accrediting agency is recognized by the Department of Education」, 학교 인정 여부는 「U.S. Department of Education's Database of Accredited Postsecondary Institutions and Programs」에서 검색하라고 안내하고 링크(ope.ed.gov/accreditation/Index.aspx)를 단다 | https://studyinthestates.dhs.gov/schools/apply/the-basics-of-school-accreditation |
+| 미국 교육부 DAPIP | ope.ed.gov/dapip는 자바스크립트 화면이라 본문(제목 「DAPIP」 외)을 확인하지 못함 → 본문에 주소를 넣지 않고 「국토안보부 인정 안내 페이지에 그 링크가 있다」로만 씀 | https://ope.ed.gov/dapip/ |
+| 「병역법」 제2조 제2항 (MST=290783, 시행 2026-10-02, DRF XML) — 항목 11 | 「이 법에서 병역의무의 이행시기를 연령으로 표시한 경우 "○○세부터"란 그 연령이 되는 해의 1월 1일부터를, "○○세까지"란 그 연령이 되는 해의 12월 31일까지를 말한다」 | https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290783&type=XML |
+| 「병역법 시행령」 제147조 제3항 (MST=290421, DRF XML) | 「외국의 대학원에 재학 중인 사람이 30세가 되는 해의 6월 이전에 박사학위를 취득할 수 있는 경우에는 30세가 되는 해의 6월 30일까지 허가할 수 있다」 → 본문 「6월 전에」를 「6월까지」로 고침 | https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290421&type=XML |
+| 같은 영 제147조의2 제1항 제3호 | 「국외이주 외의 목적으로 국외여행허가를 받고 정당한 사유 없이 허가받은 날부터 1년 이내에 출국하지 아니하거나 법 제70조제1항제1호에 해당하는 사람이 국외여행허가기간 내에 귀국하여 3개월 이상 계속하여 국내에 체재하는 경우」 허가 취소·병역의무 부과 가능 | 같은 URL |
+| 병무청 국외여행 「허가 절차 안내」(WebFetch) | 허가대상 「25세 이상인 병역준비역(…)」 「25세 이상인 보충역 또는 대체역으로서 소집되지 아니한 사람」, 「허가기간만료 15일전까지, 24세이전에 출국한 사람은 25세가되는 해의 1월 15일까지 국외여행(기간연장)허가를 받아야 함」 → 나이를 해 단위로 센다는 판단의 보강(「25세가 되는 해 1월 1일부터」를 글자 그대로 적은 안내는 여전히 못 찾음) | https://www.mma.go.kr/contents.do?mc=usr0000186 |
+| 병무청 「국외여행허가 취소」(WebFetch) | 국외이주 외 목적 허가 취소 사유: 「허가기간 내에 귀국하여 3개월 이상 계속하여 국내 체재하는 경우」, 「허가기간 내에 병역의무를 이행하려는 경우」, 「허가를 받은 사람이 허가요건을 유지하지 못하게 된 경우」 | https://www.mma.go.kr/contents.do?mc=mma0001993 |
+| 「여권법」 제17조·제24조 제2호, 「재외국민등록법」 제2조·제4조·제9조·제9조의2 (DRF XML 재확인) — 항목 6 | 조사 E-4·E-5와 같음. 제9조의2 귀국신고는 「귀국일부터 90일 이내에 재외동포청장에게」 | MST=283681, MST=248495 |
+
+- 항목 6: 여행경보 단계별 정의·특별여행주의보 설명은 제21절(해외여행과 현지 안전)로 넘기고, 이 항목은 재외국민등록을 중심으로 줄였다(원문 제21절 제1항 「出发前查一次外交部安全提醒」과 겹침 방지).
+
 ## TODO 확인 필요 (조사 단계)
 
 1. 「외국의 대학에서 박사학위를 받은 자의 신고에 관한 규칙」(교육부 훈령 제421호) 원문을 국가법령정보센터 행정규칙에서 직접 확인. 지금은 한국연구재단 페이지의 인용만 썼다.
