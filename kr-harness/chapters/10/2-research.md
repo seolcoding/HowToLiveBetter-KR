@@ -270,3 +270,18 @@
 8. 후견계약 공정증서 수수료 계산 기준(「공증인 수수료 규칙」 제2조·제13조)(18번, 제17절과 같은 TODO).
 9. 부부치료(정신건강의학과) 비용과 건강보험 적용 여부, 건강가정지원센터가 부부치료를 제공하는지(20번).
 10. 「스토킹범죄의 처벌 등에 관한 법률」 제18조 제3항(삭제)의 옛 내용과 삭제 시점(2번, 초역에는 쓰지 않음).
+
+
+## 적합성 1회차 수정 근거 재확인 (2026-10-10)
+
+검토안을 복사하지 않고 HTTPS GET으로 아래 1차 자료를 다시 내려받아 본문을 확인했다. TLS 검증은 유지했다.
+
+- 제9항: 국가데이터처 실제 PDF의 일러두기·Ⅲ-1·Ⅲ-2를 pdftotext로 읽었다. 약 25,000명, 전체 요일 평균, 동거 여부별 부부 집단 평균이다. 이 조사만으로 동일인 결혼 전후 증가량을 알 수 없다고 한정했다. 모든 공식 자료의 부재라는 단정은 삭제했다. https://mods.go.kr/boardDownload.es?bid=220&list_no=437764&seq=9
+- 제11항: 상속세 및 증여세법 제53조 본문의 거주자 요건·성년자 직계존속 증여 10년 5천만원, 제53조의2 제1항 혼인신고 전후 2년, 제2항 출생·입양일부터 2년, 제3항 혼인·출산 공제의 기공제액 포함 합산 1억원 한도를 직접 읽었다. 쉽게·이득에 거주자와 합산 한도를 적었다. https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=276123&type=XML
+- 제12항: 민법 제832조 일상가사 연대책임과 98다46877의 연대보증·표현대리·일상가사 별도 판단을 다시 읽었다. 혼인 관계만으로 생기는 책임과 별도 대리·보증 책임을 구별했다. https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=284415&type=XML · https://www.law.go.kr/DRF/lawService.do?OC=test&target=prec&ID=194944&type=XML
+- 제13항: 2023두36800 원문에 인용된 2000다52943의 사실혼 정의를 다시 읽었다. 주관적 혼인의사와 객관적 부부공동생활 실체가 필요하다. 결혼식만으로 자동 성립한다는 단정을 삭제했다. https://www.law.go.kr/DRF/lawService.do?OC=test&target=prec&ID=241011&type=XML
+- 제14항: 복지로 2024년 게시문을 다시 열었다. 현행 e보건소 안내로 추정한 경로는 404였으며, 현행 연령·횟수·지원액을 확인한 자료로 사용하지 않았다. 과거 부부 요건·서울 제외·지원액을 현재 안내에서 덜어냈다. 비용·이득·비고에 현행 조건 미확인을 드러내고 주소지 보건소 확인을 안내했다. 기존 TODO 유지. https://www.bokjiro.go.kr/ssis-tbu/cms/pc/news/promotion/1306705_1118.html
+- 제15항: 가사소송수수료규칙 제2조 제1항 가류·나류 2만원과 제2항 다류 별도 계산, 가사소송법 제2조 나류 재판상 이혼·다류 손해배상을 직접 확인했다. 이혼 청구 자체의 기본 수수료로 범위를 좁혔다. https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=181255&type=XML · https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=265309&type=XML
+- 제18항: 민법 제680조 사무처리 위임, 제959조의14 재산관리·신상보호 위탁사무 대리권·공정증서·감독인 선임 후 효력, 의료법 제24조의2 환자·법정대리인 서면동의, 연명의료결정법 제12조 본인 직접 작성·등록을 다시 읽었다. 일반 위임·임의후견으로 수술·연명의료 결정권을 확보한다고 확인하지 못했다. 제목·쉽게·이득에 미확인을 명시했다. https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=284415&type=XML · https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290667&type=XML · https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=270417&type=XML
+- 제18항 장례: 장사법 제2조 제16호 아목은 가~사목에 해당하지 않고 시신·유골을 사실상 관리하는 자이다. 파트너라는 관계만으로 적용된다는 단정을 고쳤다. 첫 DRF 요청은 403으로 실패했으나 쿼리 순서를 바꾼 재요청의 XML에서 조문을 읽었다. https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&type=XML&MST=259173
+- 제19항: 96도2049 실제 원문은 취업 입국 목적의 형식혼 사건이다. 민법의 일반 무효·취소·이혼 조문을 성적 지향 은폐의 구체적 승소 근거로 쓰지 않았다. 공개 판결 자체가 없다는 표현을 이번에 찾은 판결에서 인정 여부를 확인하지 못했다는 표현으로 바꿨다. https://www.law.go.kr/DRF/lawService.do?OC=test&target=prec&ID=114494&type=XML
