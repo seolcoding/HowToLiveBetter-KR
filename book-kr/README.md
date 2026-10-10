@@ -4,6 +4,10 @@
 
 **읽기**: 웹 리더 https://seolcoding.github.io/HowToLiveBetter-KR/ · 내려받기 [EPUB](https://github.com/seolcoding/HowToLiveBetter-KR/releases/download/kr-ebook-latest/HowToLiveBetter-KR.epub) · [PDF](https://github.com/seolcoding/HowToLiveBetter-KR/releases/download/kr-ebook-latest/HowToLiveBetter-KR.pdf) · [HTML](https://github.com/seolcoding/HowToLiveBetter-KR/releases/download/kr-ebook-latest/HowToLiveBetter-KR.html). 아래 표에서 ✅인 절만 실으며, 비공식 현지화판이라 원문이 우선합니다.
 
+현재 세션 브랜치에서는 **34절·667항목**의 현지화·검증을 완료했습니다. 원문 665항목에서 한국 전용 항목 네 개를 더하고, 한국에 대응하지 않는 항목 두 개를 뺐습니다. 아래 표의 ✅는 현재 본문의 적합성 검토와 해시 게이트를 통과했다는 뜻입니다.
+
+웹 리더와 내려받기 파일은 사용자가 PR을 병합한 뒤 main 워크플로가 배포합니다. 작업 브랜치의 최신 내용이 위 링크에 이미 반영됐다는 뜻은 아닙니다. 미확인 수치·가격·판례·절차는 각 절 끝 TODO에 남겼으며 2차 조사 대상입니다. 최신 목록과 검사 결과는 [진행 기록](../kr-harness/goals/2026-10-next-publish.progress.md)을 확인하세요.
+
 **상태**: ⬜ 대기 · 🟦 작업중 · 🟨 기계번역 완료(현지화 검증 전) · ✅ 현지화·검증 완료 · 🔁 원본 갱신(재확인 필요)
 
 **등급**: 🔴 법·제도 대폭 교체 · 🟡 일부 교체 · 🟢 거의 번역만
@@ -11,7 +15,7 @@
 | 절 | 한국어 제목 | 원문 | 등급 | 상태 |
 |---|---|---|---|---|
 | 1 | 너무 일찍 죽지 않기 | [book/01](../book/01-不要早死.md) | 🟡 | ✅ |
-| 2 | 천천히 죽지 않기 | [book/02](../book/02-不要慢慢死.md) | 🟢 | 🟨 |
+| 2 | 천천히 죽지 않기 | [book/02](../book/02-不要慢慢死.md) | 🟢 | ✅ |
 | 3 | 기력 낭비 줄이기 | [book/03](../book/03-不要浪费精力.md) | 🟢 | ✅ |
 | 4 | 시간 낭비 줄이기 | [book/04](../book/04-不要浪费时间.md) | 🟢 | ✅ |
 | 5 | 돈 낭비 줄이기 | [book/05](../book/05-不要浪费钱.md) | 🟡 | ✅ |
