@@ -1,0 +1,9 @@
+### 17. 오래 묻어 둘 돈은 액티브 펀드 대신 시장 전체를 따라가는 지수펀드에 두세요
+<!-- 成本标签: 钱=0 时间=少 毅力=些 收益=大 口径=金钱 -->
+- 비용: 돈 안 듭니다. 대가는 "스타 펀드매니저를 고를" 가능성을 버리는 것입니다. 어려운 건 지수가 떨어질 때 같이 버티고 중간에 빠지지 않는 일입니다.
+- 쉽게: 액티브 펀드들이 모두 합쳐 들고 있는 주식은 시장 전체와 거의 같습니다. 그런데 더 받는 운용 보수는 내 수익에서 고스란히 빠집니다. 미국에서는 해마다 액티브 대형주 펀드의 3분의 2쯤이 지수를 못 이겼습니다.
+- 이득: 미국 액티브 주식형 펀드 전체를 합친 포트폴리오는 시장 포트폴리오와 가깝습니다. 그런데 액티브 운용의 높은 비용은 그대로 투자자의 낮은 순수익으로 나타납니다. 연구는 부트스트랩 모의실험으로 성과를 무작위로 여러 번 다시 섞었습니다. 운만으로 어디까지 가능한지 봤습니다. 비용을 메울 만큼 초과수익을 내는 펀드는 매우 적었습니다(미국, 2010년 발표). S&P 다우존스 인덱스의 연간 집계로, 2024년 미국 액티브 대형주 펀드의 65%가 S&P 500을 밑돌았습니다. 24년 동안 평균하면 해마다 64%가 밑돌았습니다. 2024년 말까지 15년을 보면, 다수의 액티브 펀드가 지수를 이긴 범주는 하나도 없었습니다.
+- 근거등급: B
+- 출처: Fama EF, French KR (2010). Luck versus Skill in the Cross-Section of Mutual Fund Returns. The Journal of Finance 65(5):1915-1947. https://doi.org/10.1111/j.1540-6261.2010.01598.x ; S&P Dow Jones Indices (2025). SPIVA U.S. Scorecard Year-End 2024. https://www.spglobal.com/spdji/en/spiva/article/spiva-us/ (공식 누리집은 자동 접속을 거부해 원문은 2025-05-12 보관본으로 대조: https://web.archive.org/web/20250512071051/https://www.spglobal.com/spdji/en/spiva/article/spiva-us/) ; S&P Dow Jones Indices (2025). SPIVA Asia Ex-Japan Scorecard Mid-Year 2025 (Report 1a). https://web.archive.org/web/20251103165922/https://www.spglobal.com/spdji/en/documents/spiva/spiva-asia-ex-japan-mid-year-2025.pdf ; Harvey CR, Liu Y (2022). Luck versus Skill in the Cross Section of Mutual Fund Returns: Reexamining the Evidence. The Journal of Finance 77(3). https://doi.org/10.1111/jofi.13123 (반론)
+- 비고: 논쟁 있음. 한 논문이 이 결론을 다시 검증했습니다. 파마·프렌치의 반복 표본추출 검정은 표본을 충분히 뽑지 않았다는 지적입니다. 그래서 초과수익이 뚜렷한 펀드도 "운과 구별되지 않는다"고 판정할 수 있다는 것입니다. 그래서 "실력 있는 펀드가 거의 없다"는 결론은 지나칠 수 있습니다. 미국 밖에서는 이렇게 한쪽으로 쏠리지 않습니다. S&P 다우존스의 2025년 6월 기준 집계입니다. 중국 A주 대형주 액티브 펀드가 지수를 밑돈 비율은 1년 60.5%였습니다. 3년은 69.6%, 5년은 50.8%였습니다. 한국 시장의 같은 통계는 찾지 못했습니다(TODO). 그래도 지수펀드의 보수가 낮다는 점은 어디서나 같습니다. 투자 권유가 아닙니다.
+
