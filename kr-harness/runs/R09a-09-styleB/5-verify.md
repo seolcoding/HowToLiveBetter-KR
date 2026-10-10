@@ -7,4 +7,4 @@
 - 없음
 
 ## 참고
-- astra 윤문본(6-polished.md) 기준 검증
+- 항목별 개선본(7-refined.md) 기준 검증
