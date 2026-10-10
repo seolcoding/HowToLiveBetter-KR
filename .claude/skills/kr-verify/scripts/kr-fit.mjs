@@ -69,6 +69,35 @@ const CN_DOM = new RegExp(C.cnDomains);
 const KR_DOM = new RegExp(C.krDomains);
 const LEGAL = new RegExp(C.legalHints);
 const OK_RE = /<!--\s*kr-fit-ok\b\s*:?([\s\S]*?)-->/;
+// book-kr/README.md 표 한 줄: | 절 | 한국어 제목 | 원문 | 등급 | 상태 |
+const TABLE_ROW = /^\|\s*(\d+)\s*\|\s*([^|]+?)\s*\|[^|]*\|\s*(\S+)\s*\|\s*(\S+)\s*\|$/;
+
+// 다른 절 참조(KF-REF-*). 규칙 데이터는 json의 refs, 절 제목은 README 표.
+const R = RULES.refs;
+const REF_LEGAL = new RegExp(R.legalBefore);
+const PEND_PAREN = new RegExp(R.pending.paren, 'g');
+const PEND_ALWAYS = new RegExp(R.pending.always, 'g');
+const PEND_WITHREF = new RegExp(R.pending.withRef, 'g');
+const REF_IN_SENT = new RegExp(R.pending.refInSentence);
+const PEND_SUFFIX = /\s*[,·]\s*(?:준비\s?중|공개\s?예정|미공개)\s*$/;
+// 제N절. 앞이 한글·숫자면 다른 낱말이고, 뒤가 「차」면 「절차」다. 「제2·3절」처럼 묶은 것도 잡는다(m[2]).
+const REF_RE = /(?<![가-힣\d])제\s?(\d+)((?:\s?[·,~∼\-–]\s?\d+)*)\s?절(?!차)/g;
+const ITEM_AFTER = /^\s?제\s?\d+\s?항[(（]([^()（）\n]+)[)）]/;
+// 조사는 괄호 앞 낱말(절=ㄹ받침, 항=ㅇ받침)에 맞춘다.
+const JOSA_BAD_JEOL = /^(?:를|가|는|와|으로)/;
+const JOSA_BAD_HANG = /^(?:를|가|는|와|로)/;
+const normTitle = (s) => s.replace(/\s+/g, ' ').trim();
+let titleCache = null;
+export function chapterTitles() {
+  if (titleCache) return titleCache;
+  titleCache = new Map();
+  const p = join(BOOKKR, 'README.md');
+  if (existsSync(p)) for (const line of readFileSync(p, 'utf8').split(/\r?\n/)) {
+    const m = line.match(TABLE_ROW);
+    if (m) titleCache.set(Number(m[1]), normTitle(m[2]));
+  }
+  return titleCache;
+}
 
 // 같은 길이의 공백으로 가려서 열 위치를 유지한다.
 const blank = (s) => s.replace(/[^\n]/g, ' ');
@@ -255,7 +284,7 @@ export function doneChapters() {
   if (!existsSync(p)) return [];
   const out = [];
   for (const line of readFileSync(p, 'utf8').split(/\r?\n/)) {
-    const m = line.match(/^\|\s*(\d+)\s*\|\s*([^|]+?)\s*\|[^|]*\|\s*(\S+)\s*\|\s*(\S+)\s*\|$/);
+    const m = line.match(TABLE_ROW);
     if (m && m[4] === '✅') out.push(Number(m[1]));
   }
   return out;
