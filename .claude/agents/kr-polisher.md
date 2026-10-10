@@ -2,7 +2,7 @@
 name: kr-polisher
 description: 한국어판 실행 하나(RNN)의 4-styled.md를 윤문해 6-polished.md를 만드는 격리 에이전트(S6). kr-pipeline이 실행마다 하나씩 띄운다. 프롬프트로 실행 ID를 받는다.
 tools: Read, Write, Edit, Bash, Glob, Grep
-model: inherit
+model: opus
 skills:
   - kr-polish
 ---
