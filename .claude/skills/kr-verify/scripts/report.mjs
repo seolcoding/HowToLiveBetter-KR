@@ -1,10 +1,16 @@
 // .claude/skills/kr-verify/scripts/report.mjs — runs/ 와 chapters/ 를 읽어 단일 HTML 아티팩트 생성.
-// 사용: node .claude/skills/kr-verify/scripts/report.mjs  → kr-harness/report.html
-import { readdirSync, readFileSync, existsSync, writeFileSync, statSync } from 'node:fs';
+// 사용: node .claude/skills/kr-verify/scripts/report.mjs [--force] [--out <경로>]
+//   main 브랜치(또는 git 밖)에서는 kr-harness/report.html을 다시 만든다.
+//   다른 브랜치(절 세션의 claude/… 등)에서는 쓰지 않고 안내만 한다. report.html은 모든 실행을 한 파일에 모으므로,
+//   절 세션 PR마다 다시 만들면 병렬 PR끼리 반드시 충돌한다(2026-10-10 규칙: 보고서는 main에서만 다시 만든다).
+//   --force: 브랜치와 상관없이 report.html을 쓴다(보고서만 바꾸는 별도 PR용). --out: 다른 경로에 미리보기로 쓴다.
+import { readFileSync, existsSync, writeFileSync, readdirSync, statSync } from 'node:fs';
 import { join, resolve } from 'node:path';
+import { spawnSync } from 'node:child_process';
 
 import { fileURLToPath } from 'node:url';
 import { dirname } from 'node:path';
+import { listRunDirs, sortRunDirs, runIdOfDir } from '../../kr-pipeline/scripts/run-id.mjs';
 
 // 저장소 루트: 이 스크립트 위치에서 KR-GUIDE.md가 있는 디렉토리까지 올라간다(로컬·클라우드 공통).
 const findRoot = () => {
@@ -26,15 +32,14 @@ const read = (p) => (existsSync(p) ? readFileSync(p, 'utf8') : '');
 const jread = (p) => { try { return JSON.parse(read(p)); } catch { return {}; } };
 const esc = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
-const runs = readdirSync(RUNS)
-  .filter((d) => statSync(join(RUNS, d)).isDirectory())
-  .sort()
+// 순서는 run-id.mjs 규칙(옛 ID 번호순 → 새 ID 절·순번순). 폴더 이름순이면 R04a가 R05 앞에 끼어든다.
+const runs = sortRunDirs(listRunDirs(RUNS))
   .map((d) => {
     const dir = join(RUNS, d);
     const cfg = jread(join(dir, 'config.json'));
     const meta = jread(join(dir, 'meta.json'));
     return {
-      id: cfg.id || d.slice(0, 3),
+      id: cfg.id || runIdOfDir(d),
       dir: d,
       chapter: cfg.chapter ?? meta.chapter,
       style: cfg.style || meta.style || 'A',
