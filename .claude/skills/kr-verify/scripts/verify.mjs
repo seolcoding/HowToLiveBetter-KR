@@ -142,7 +142,7 @@ export function verifyText(styled, omd) {
     const blk = op.blocks.find((b) => b.n === k.n);
     if (!blk) { res.issues.push(`kr-omit ${k.n}: 원문에 ### ${k.n}. 항목이 없음(L${k.line}) — 무효`); continue; }
     if (omitted.has(k.n)) { res.notes.push(`kr-omit ${k.n} 표시가 두 번 있음(L${k.line}) — 한 번만 셈`); continue; }
-    omitted.set(k.n, { ...k, title: oneLine(blk.text.split('\n')[0].replace(/^### /, '')), text: blk.text });
+    omitted.set(k.n, { ...k, title: oneLine(blk.text.split('\n')[0].replace(/^### \d+\.\s*/, '')), text: blk.text });
   }
   const expected = oEntries.length - omitted.size;
   if (entries.length !== expected)
