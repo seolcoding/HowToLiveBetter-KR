@@ -45,7 +45,8 @@ const jread = (p) => { try { return JSON.parse(read(p)); } catch { return {}; } 
 const jwrite = (p, o) => writeFileSync(p, JSON.stringify(o, null, 2) + '\n', 'utf8');
 const today = () => new Date().toISOString().slice(0, 10);
 const nn = (n) => String(n).padStart(2, '0');
-const dirs = (p) => (existsSync(p) ? readdirSync(p).filter((d) => statSync(join(p, d)).isDirectory()).sort() : []);
+// stat 실패(목록을 읽는 사이 다른 new-run이 물러나며 지운 폴더)는 「없음」으로 친다.
+const dirs = (p) => (existsSync(p) ? readdirSync(p).filter((d) => { try { return statSync(join(p, d)).isDirectory(); } catch { return false; } }).sort() : []);
 
 // ---- 한국 적합성 게이트 ----
 // 검사 대상: README가 ✅·🟨(이미 book-kr/에 들어간 절)이면 book-kr/NN-*.md — 독자가 보는 본문이고 1-C 수정도 여기서 한다.

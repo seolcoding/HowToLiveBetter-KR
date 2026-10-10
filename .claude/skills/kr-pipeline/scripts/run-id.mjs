@@ -55,8 +55,10 @@ export const runDirName = (id, chapter, style, mode) => `${id}-${nn(chapter)}-st
 // 폴더가 쿼리에 맞는가. 쿼리는 ID(R13, R18a) 또는 폴더 이름 전체(R13-04-styleB). 앞부분만 맞는 것(R1 → R10…)은 맞지 않는다.
 export const matchRunDir = (dirName, q) => dirName === q || runIdOfDir(dirName) === q;
 
+// 목록을 읽는 사이에 다른 new-run이 물러나며 지운 폴더가 있을 수 있다. stat 실패는 「없음」으로 친다.
+const isDir = (p) => { try { return statSync(p).isDirectory(); } catch { return false; } };
 export const listRunDirs = (runsDir) =>
-  existsSync(runsDir) ? readdirSync(runsDir).filter((d) => !d.startsWith('.') && statSync(join(runsDir, d)).isDirectory()) : [];
+  existsSync(runsDir) ? readdirSync(runsDir).filter((d) => !d.startsWith('.') && isDir(join(runsDir, d))) : [];
 
 // 정렬: 옛 ID(번호순) → 새 ID(절 → 순번) → 형식 밖 이름(이름순). 같은 ID면 폴더 이름순.
 const sortKey = (id) => {
