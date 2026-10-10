@@ -464,3 +464,81 @@
 11. 국민연금 군 복무 크레딧이 신청 없이 반영되는지 — 미확인.
 12. 「고용보험법」 제77조의6 현행본 — DRF가 2028-01-01 시행본만 돌려줌.
 13. 국민내일배움카드 지원 금액·대상 — 고용노동부 페이지 오류로 미확인.
+
+
+## G. 적합성 검토 후 직접 재확인 및 수정 (2026-10-10)
+
+초기 검토 block 9·warn 7 및 부수 권고를 대상 실행 본문에서 고쳤다. 검토 파일 자체는 바꾸지 않았다. 아래 40개 현행 eflaw 응답을 다시 직접 내려받고 인용 조문 및 별도시행 정보를 확인했다. 일시적 403/502/503 응답은 재요청하여 XML 원문으로 확인했다. API 주소에는 OC=test·실제 MST·실제 efYd를 썼다. 법령 전체 시행일만으로 시행예정 조문을 현행으로 취급하지 않았다.
+
+| 법령 | MST | 응답 시행일 | 별도 시행 정보 | 직접 열람 URL |
+|---|---|---|---|---|
+| 제대군인지원에 관한 법률 | 283435 | 20260820 | 20270220:제16조제4항,제16조제5항,제26조제3호 | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=283435&efYd=20260820&type=XML |
+| 교육공무원법 | 290751 | 20261002 | 없음 | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=290751&efYd=20261002&type=XML |
+| 국민연금법 | 280269 | 20260101 | 20260617:제63조의2 | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=280269&efYd=20260101&type=XML |
+| 병역법 | 290783 | 20261002 | 없음 | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=290783&efYd=20261002&type=XML |
+| 병역법 시행령 | 290421 | 20261002 | 없음 | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=290421&efYd=20261002&type=XML |
+| 대체역의 편입 및 복무 등에 관한 법률 | 285515 | 20260421 | 없음 | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=285515&efYd=20260421&type=XML |
+| 근로기준법 | 285279 | 20261008 | 20261208:제13조,제101조,제102조,제102조의2,제103조,제104조,제105조,제108조,제110조제1호,제114조제1호,제116조제2항제1호,제116조제2항제4호; 20270101:제44조의4,제116조제1항제2호,제116조제2항제2호 | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=285279&efYd=20261008&type=XML |
+| 민법 | 284415 | 20260317 | 없음 | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=284415&efYd=20260317&type=XML |
+| 국가공무원법 | 290755 | 20261002 | 없음 | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=290755&efYd=20261002&type=XML |
+| 공무원임용시험령 | 290331 | 20261002 | 없음 | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=290331&efYd=20261002&type=XML |
+| 공무원임용령 | 290329 | 20261002 | 없음 | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=290329&efYd=20261002&type=XML |
+| 경찰공무원 임용령 | 289029 | 20260901 | 없음 | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=289029&efYd=20260901&type=XML |
+| 소방공무원 임용령 | 287245 | 20260701 | 없음 | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=287245&efYd=20260701&type=XML |
+| 군무원인사법 시행령 | 288953 | 20260828 | 없음 | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=288953&efYd=20260828&type=XML |
+| 군인사법 | 290773 | 20261002 | 20261210:제59조의3제4항 | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=290773&efYd=20261002&type=XML |
+| 교육공무원임용령 | 273697 | 20250916 | 20250919:제4조의5,제6조의2,제6조의4,제7조의3제1항제11호 | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=273697&efYd=20250916&type=XML |
+| 초ㆍ중등교육법 | 283903 | 20260911 | 없음 | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=283903&efYd=20260911&type=XML |
+| 사관학교 설치법 | 231325 | 20211014 | 없음 | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=231325&efYd=20211014&type=XML |
+| 경찰대학 설치법 | 224453 | 20210101 | 없음 | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=224453&efYd=20210101&type=XML |
+| 경찰대학의 학사운영에 관한 규정 | 266955 | 20250311 | 없음 | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=266955&efYd=20250311&type=XML |
+| 지역의사의 양성 및 지원 등에 관한 법률 | 280435 | 20260224 | 없음 | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=280435&efYd=20260224&type=XML |
+| 지역의사의 양성 및 지원 등에 관한 법률 시행령 | 289281 | 20260904 | 없음 | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=289281&efYd=20260904&type=XML |
+| 공중보건장학을 위한 특례법 | 259905 | 20250807 | 없음 | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=259905&efYd=20250807&type=XML |
+| 제대군인지원에 관한 법률 시행령 | 288983 | 20260825 | 없음 | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=288983&efYd=20260825&type=XML |
+| 국가유공자 등 예우 및 지원에 관한 법률 | 289309 | 20260908 | 20270101:제13조제2항제3호,제13조제2항제4호; 20270309:제42조제7항제3호,제42조제7항제4호 | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=289309&efYd=20260908&type=XML |
+| 조세특례제한법 | 284389 | 20260918 | 없음 | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=284389&efYd=20260918&type=XML |
+| 조세특례제한법 시행령 | 288915 | 20260918 | 없음 | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=288915&efYd=20260918&type=XML |
+| 초ㆍ중등교육법 시행령 | 289439 | 20260911 | 없음 | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=289439&efYd=20260911&type=XML |
+| 독학에 의한 학위취득에 관한 법률 | 169467 | 20150928 | 20150928:제5조제3항, 제5조의2,  제6조제2항 | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=169467&efYd=20150928&type=XML |
+| 학점인정 등에 관한 법률 | 253403 | 20240517 | 없음 | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=253403&efYd=20240517&type=XML |
+| 고등교육법 | 283883 | 20260911 | 20270311:제11조의2 | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=283883&efYd=20260911&type=XML |
+| 국민 평생 직업능력 개발법 | 247245 | 20230704 | 없음 | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=247245&efYd=20230704&type=XML |
+| 국민건강보험법 | 285273 | 20261008 | 없음 | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=285273&efYd=20261008&type=XML |
+| 산업재해보상보험법 | 283459 | 20260701 | 없음 | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=283459&efYd=20260701&type=XML |
+| 산업재해보상보험법 시행령 | 287491 | 20260701 | 없음 | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=287491&efYd=20260701&type=XML |
+| 고용보험 및 산업재해보상보험의 보험료징수 등에 관한 법률 | 285369 | 20261008 | 없음 | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=285369&efYd=20261008&type=XML |
+| 직업안정법 | 259231 | 20240724 | 없음 | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=259231&efYd=20240724&type=XML |
+| 여권법 | 283681 | 20260828 | 없음 | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=283681&efYd=20260828&type=XML |
+| 소득세법 | 280405 | 20260101 | 20260701:제57조의2, 제129조제8항, 제129조제9항, 제129조제10항, 제129조제11항; 20270101:제17조제3항, 제118조의9, 제118조의10, 제118조의11, 제118조의12, 제118조의13, 제118조의14, 제118조의15, 제118조의16, 제118조의17, 제118조의18 | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=280405&efYd=20260101&type=XML |
+| 학점인정 등에 관한 법률 시행령 | 282911 | 20260127 | 없음 | https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=282911&efYd=20260127&type=XML |
+
+### G-1. 차단 9건과 같은 주장 반복 위치
+
+1. 제1항: 사관학교 기본연령의 제대군인 연장 단서를 제13항에도 넣었다. 근로기준법 제64조 취직인허증 예외·중학교 재학생 제한, 제69조의 정확한 15세 이상 18세 미만 범위를 제목 아래 필드에서 확인했다. 개별 지원에 드는 비용을 0으로 보장하지 않도록 비용도 좁혔다.
+2. 제3항: 병역법 제76조 제2항 제재를 관허업에 한정했다. 대체역법 제3조 제2항 30세 상한은 현역병입영·사회복무요원 소집 대상자만으로 제한했다. 제76조 제1항 고용주 해직의 2026-08-27 헌법불합치 및 2028-02-29 개정시한·계속적용을 비고에 반영했다.
+3. 제4항: 국외여행허가는 25세를 넘은 뒤가 아니라 25세가 되는 해부터다(병역법 제2조 제2항·제70조). 미소집 병역준비역 등과 복무 중 승선근무예비역·보충역·대체복무요원을 구분했다. 제14항의 같은 주장도 고쳤다. 시행령 제158조의2 제3항의 대체복무요원 복무사실 확인서도 추가했다.
+4. 제5항: MST 283435·efYd 20260820 응답의 전체 시행일은 20260820이나 별도시행 문자열은 `20270220:제16조제4항,제16조제5항,제26조제3호`다. 현행 제16조 제3항은 근무경력에 포함할 수 있다는 임의 규정이다. 현행 제4항은 동점자 우선합격 조문이다. 시행예정 제4항을 현재 권리로 설명한 쉽게·이득·비고·TODO를 전부 고쳤다. 미래 원문도 직접 열었다: https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=283435&efYd=20270220&type=XML (실제 응답 시행일 20270220). 미래 규정은 3년 이내 의무복무의 전부 또는 일부이며 세부는 대통령령이다. 복직의 범죄 제적 등 예외 및 보충역 등 승진 산입기간 제한도 반영했다.
+5. 제6항: 국민연금법 제92조 제3항에 맞춰 추납은 납부기한 달 보험료, 기준소득월액은 신청 달로 구분했다. 다른 공적연금 산입기간·1988년 이전 병역기간 제외 및 군복무 크레딧 제18조 제2항 중복 산입 제외도 반영했다. 중소기업 취업감면은 대상 업종·근로자 조건과 임원 등 제외가 있다. 복무 전 회사에 전역 후 1년 이내 복직하는 청년의 기간 연장 특례도 제30조 원문에서 확인했으나 기본 안내의 5년과 혼동하지 않았다.
+6. 제8항: 공개전형 하나/만이라는 제목·쉽게·비용의 단정을 모두 원칙으로 고쳤다. 교육공무원법 제12조 경력경쟁채용 등의 예외를 이득·출처에 넣었다. 교사 자격은 석사학위만으로 자동 취득하는 것이 아니라 법정 교육과정 등 요건이 필요하다.
+7. 제9항: 경찰임용령 제44조 제1항 제4호 순경 5천원, 소방임용령 제49조 제1항 제3호와 공무원시험령 제35조 제1항 제3호 소방사 5천원을 확인했다. 경찰 제44조 제4항과 소방 제49조 제4항의 접수 당시 수급자·차상위계층, 한부모 지원대상자, 미성년 자녀 2명 이상 면제 가능을 적었다. 시험 공고·증빙 절차 확인도 안내했다. 군무원 학력·자격 제한 예외 및 군인사법 제7조 장기 필수기술분야 10년·일부 단기복무 별도기간을 반영했다. 연령 연장은 모집경로에 맞춰 확인한다.
+8. 제11항: 제목·비용·쉽게의 보험료 전액/모두 본인 부담 단정을 삭제했다. 국민연금법 제100조의4 저소득 지역가입자 지원(소득·재산·중복지원 요건, 최대 12개월)을 반영했다. 지원금액·시행령 기준은 확인되지 않아 TODO다. 건강보험법 제75조의 농어촌·65세 이상·장애·생활곤란 등 법정 경감 가능성도 넣었으며 구체적 금액은 쓰지 않았다. 가입제외와 납부예외 절차를 나누고 자영업자 고용보험 6개월 체납 소멸의 천재지변 등 증명 예외도 추가했다.
+9. 제13항: 지역의사법 제4조 제2항·시행령 제2조 제3·4항 및 별표 2를 직접 읽었다. 같은 의대 소재지역만으로 좁힌 문장을 법령상 소재/인접지역의 중학교 및 진료권별 고교 범위로 고쳤다. 모든 교육과정 이수·고교 졸업예정·각 재학기간 학교 소재지역 거주를 반영했다. 별표 2는 중학교와 고교를 구분한다. 예: 대전/충남 의대의 중학교는 대전·세종·충남·충북이고 고교는 별도 진료권 목록이다. 별표 3 의무복무지역도 읽었으므로 법령상 지역이 존재하지 않는다고 처리하지 않았다. 대학별 실제 모집공고와 첫 적용 학년도만 TODO다. 사관학교 비행복무 회전익 제외·중퇴 후 지원 및 전형 조건도 추가했다. 제목·비용의 일괄 6~10년 표현을 개별 복무기간 확인으로 바꿨다.
+
+### G-2. 경고 7건과 기관 직접 열람
+
+- 제2항: 병역판정검사 19세 원칙·일부 20세 예외를 제1항과 함께 고쳤다. 검사가 반드시 하루에 끝난다는 단정은 없앴다. 병무청 공식 본문에 육군 18개월(기본군사훈련 5주 포함)·사회복무 21개월이 있으며 대표전화 1588-9090은 유료다. https://www.mma.go.kr/contents.do?mc=mma0000728 ; https://www.mma.go.kr/contents.do?mc=mma0000744
+- 제7항: 지정 학교의 대상 졸업자·졸업예정자와 졸업 후 허용기간으로 제목·쉽게·이득·제1항을 좁혔다. 최초 선발과 수습 후 임용시험 면제를 구분했다. 연도별 공고·응시료가 미확인이므로 비용 0 단정을 삭제하고 TODO 범위에 응시료를 추가했다.
+- 제10항: 학점은행 총학점 외 전공·교양 등 세부 학위요건을 반영했다. 독학학위 응시료, 교재비, 학점은행 수강료/학점인정 비용, 원격대학 등록금을 구분했다. 법령상 정확한 금액은 확인하지 못하여 새 금액을 쓰지 않았다. 고용24 발급신청 메뉴를 직접 열었으나 지원 금액과 전체 대상은 확인하지 않았다. https://www.work24.go.kr/cm/c/d/0190/retrieveInstSrchLst.do
+- 제12항: 산재보험료 원칙 반반·사업주 전액부담 예외를 비용·쉽게·이득에서 통일했다. 플랫폼 원천공제 대통령령 예외를 추가했다. 법정 직종 열거가 모든 플랫폼 노동자의 자동 가입을 뜻하지 않는다. 음식배달 라이더에 대한 공단 분류와 고용보험법 제77조의6 현행 전체 범위는 계속 TODO다.
+- 제14항: 국외소개요금 고시 전문을 직접 확인했다. 발령·시행 20160202, ID 2100000039020. 미화 기준 3개월 임금 33% 이내, 요청에 의한 부가서비스 실비, 양쪽 징수 총액 상한, 출국절차 완료 후 객관적 취업 확정일 이후 징수다. 제목·쉽게·이득에서 모든 소개료가 불법인 것처럼 읽히는 단정을 고쳤다. 고시 요금 TODO는 해소하여 연구 기록으로 이동했고 실제 업체 등록조회 경로만 남겼다. https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000039020&type=XML ; 1350 공식 본문은 유료를 명시한다: https://1350.moel.go.kr/home/ . 외교부 여행금지 표의 미야와디·라오스 경제특구 현황은 2027-01-31까지다: https://www.0404.go.kr/bbs/contsPst/MST0000000000101/1/detail
+- 제15항: 소득세법 제127조 제1항 제4호 나목 단서(국내사업장 비용계상·파견근로자 원천징수), 납세조합을 제목·쉽게·이득에 반영했다. 직접 신고 비용 0 대신 세금·은행수수료 등을 구분했다. 외국환거래규정은 외국인거주자 제외·동일자 동일인 10만달러 초과 조건을 반영했다. ID 2100000285140 응답 시행일 20260916: https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000285140&type=XML
+- 제16항: 중기부 공고와 첨부 PDF를 직접 열어 9쪽 사전검증 수수료(대출액의 0.06% 수준, 부가가치세 별도)를 확인했다. 기업 우선 부담 후 정책자금 이자감면이며 상담 무료 근거는 확인하지 못했다. 무료 단정을 삭제하고 TODO를 남겼다. https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1071549&parentSeq=1071549 ; https://www.mss.go.kr/common/board/Download.do?bcIdx=1071549&cbIdx=310&streFileNm=142e9dab-f50f-470e-9a95-7bac4088ce38.pdf . 조세특례제한법 제6조의 창업시한은 2027-12-31 이전이다. 최초소득 과세연도 및 이후 4년이며, 5년 동안 소득이 없으면 창업 후 5년이 되는 날의 과세연도부터다. 시행령 제5조 법인 최대주주/최대출자자 요건도 반영했다.
+
+### G-3. 남은 TODO와 보존 확인
+
+확인된 국외소개 요금만 TODO에서 빼고 위 기록으로 옮겼다. 기존 미확인 13줄 중 그 항목의 등록조회 범위는 계속 남겼다. 추천채용 응시료와 경력 의무반영 시행일을 기존 TODO에서 구체화했다. 저소득 지역가입자 지원 세부기준/금액과 청년창업 상담수수료 2줄을 더해 남은 TODO는 15개다. 해군·해병대·공군 실제기간, 사립교사 실제채용, 사관학교 퇴교비용, 금융회사 적금한도와 2027년 연장, 군크레딧 자동반영 등 미확인 숫자·절차를 임의로 채우지 않았다.
+
+16항목, 16개 비용태그, 근거등급, DOI/PubMed 링크와 도입부 표시를 수정 전 저장본과 대조해 모두 보존했다. repeated claims는 제목·비용·쉽게·이득·비고·TODO에서 다시 검색했다. 각 실제 비용과 예외를 한국어 필드에서 설명했으며 원문 비용태그는 그대로 두었다.
+
+자체 검사: `kr-fit.mjs kr-harness/runs/R31a-31-styleB/7-refined.md --check` → block 0·warn 0·종료코드 0. `verify.mjs R31a` → 조건부 통과, 항목 16·TODO 15·이슈 0·반려 0. 최종 본문 SHA-256: `76aa177d9d4d8fbfc2ac77107bc5f27b67523fcde91b87cf1315a7fa265f9d30`. 내용 리뷰 재검토 판정은 이 기록이 대신하지 않는다.
