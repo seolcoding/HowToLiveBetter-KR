@@ -1,6 +1,6 @@
 {
   "applied_to_working_tree": true,
-  "formal_review": "pass_at_current_hash_after_14_entry_and_tail_followups",
+  "formal_review": "pass",
   "deployed": false,
   "source_sha256_before_application": "f6ae488455384ae0661f8b278436732c774f7bf34ec327942f28e011729cbe22",
   "final_candidate": {
@@ -19,14 +19,28 @@
     "warn": 0,
     "exceptions": 0
   },
-  "gate": "passed_and_promoted",
-  "formal_sha256": "a50962dab3c05ee831dfcdd499dbc69c191153d9efee0d7683af8bd66b6fb01a",
+  "gate": "passed/promoted",
+  "formal_sha256": "6546f5bd1b28df1dd3476d5821aa93e1ccf5cdcdf5c5b01b1926f7b763d537f3",
   "formal_blockers": 0,
   "formal_warnings": 14,
   "formal_before_followups_archive": "kr-harness/chapters/02/kr-fit-review.r8.md",
   "post_integration_intro_correction": "post-integration-intro-correction-r1.json",
   "post_integration_doi_reason_correction": "post-integration-doi-reason-correction-r1.json",
-  "current_public_raw_sha256": "bf3f1439ae8cfa4aa150e0e6b5e86f006094c690970edb8630210f4cd0d24306",
+  "current_public_raw_sha256": "f166f4e0642f4655c6e31faf9a008fc50cae7deddf527a5c9d1ab1ecbc213a4a",
   "post_formal_integration": "post-formal-integration-r1.json",
-  "current_review_date_kst": "2026-10-19"
+  "current_review_date_kst": "2026-10-19",
+  "status": "current_hash_formal_pass_promoted_pending_full_project_completion",
+  "source": "book-kr/02-천천히-죽지-않기.md",
+  "current_cli_sha256": "dccc4e864a26753b5d45a078805254a12123a58e579dbde847f4d8ef1a19061f",
+  "current_tail_style_candidate_raw_sha256": "f166f4e0642f4655c6e31faf9a008fc50cae7deddf527a5c9d1ab1ecbc213a4a",
+  "current_tail_style_integration_sha256": "0988bdba66c8a837118b7b6c5ed7891cef503086c35eb270b3e1b7e95072e200",
+  "formal_kr_fit_approval": true,
+  "previous_formal_review_sha256": "76aa941b587272eb54123e46604f7807c3367f14182d9f6f6baa195cf1339a50",
+  "last_gate_exit_code": 0,
+  "formal_review_sha256": "6546f5bd1b28df1dd3476d5821aa93e1ccf5cdcdf5c5b01b1926f7b763d537f3",
+  "current_formal_reviewer": "/root/publication_tail_formal_02",
+  "blockers": 0,
+  "warnings": 14,
+  "deletions": 0,
+  "promoted_at_utc": "2026-10-18T20:46:44.191824+00:00"
 }

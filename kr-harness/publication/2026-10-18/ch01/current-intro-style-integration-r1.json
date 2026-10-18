@@ -1,0 +1,30 @@
+{
+  "status": "two_exact_approved_intro_sentence_splits_applied_pending_new_current_hash_formal",
+  "at_utc": "2026-10-18T20:35:52.854358+00:00",
+  "before_raw_sha256": "fa0cb68d45ee5db23d20629e549361db433c226a00701e3bc899cf9a23cb96c4",
+  "after_raw_sha256": "1e7aa68399f383079a7edef2348a66c194f85af423665c48a8c529b88c74c52f",
+  "intro_before_sha256": "574bc73bd9d0cf8493494cb63e06a9693a36432e2dfc81677b58d8ca191d41d0",
+  "intro_after_sha256": "5bdce435733f0074b59c2e058739f2777feae41d4ab9e80bc2b2ad1b4993a621",
+  "proposal_sha256": "5908bcd8c79bf87d1c12c6955fd118801933dd59b4ef59d6bda214bea38154f6",
+  "independent_review_sha256": "fe54720a6570662d505557e2fe33fc53816fa73e216fb9c00e1b1dd27ee9e3b9",
+  "operations": [
+    {
+      "before": "이득 칸의 숫자는 무작위로 나눈 시험, 많은 사람을 오래 따라간 연구, 공식 통계에서 왔습니다.",
+      "after": "이득 칸의 숫자는 무작위로 나눈 시험에서 왔습니다. 많은 사람을 오래 따라간 연구와 공식 통계에서도 가져왔습니다.",
+      "before_sha256": "a82a5cb6f624e3021d12be4bef82597b26e2d20d571a74e0cd3bd82fc7bdb0f5",
+      "after_sha256": "db9041f31d37f559283be71ade9b39c8644ddfad27c6239b55fc9b23c66c3f0e"
+    },
+    {
+      "before": "비용 칸은 지은이가 시중 가격으로 어림한 값이라, 서로 비교하는 데만 쓰고 인용하지 마세요.",
+      "after": "비용 칸은 지은이가 시중 가격으로 어림한 값입니다. 서로 비교하는 데만 쓰고 인용하지 마세요.",
+      "before_sha256": "4cd78a34ef0ade2bc95e4c999d4caddaa9733e64b3a04bcb0a94c5864d1cfc11",
+      "after_sha256": "5cf1eb73aeac80aeb7bdaff6ca72677479a090aef7404a120b7b731409c463ee"
+    }
+  ],
+  "all42_entries_and_approved_tail_unchanged": true,
+  "all_other_intro_bytes_unchanged": true,
+  "archived_formal": "kr-harness/chapters/01/kr-fit-review.r4.md",
+  "archived_formal_sha256": "f1978f57b81ac274e449bd7baaf66138d017f3438759c01761dd239ac454d24f",
+  "formal_kr_fit_approval": false,
+  "deployed": false
+}

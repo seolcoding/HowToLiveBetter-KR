@@ -1,0 +1,48 @@
+{
+  "status": "unadopted_pending_independent_exact_hash_review",
+  "entry": 31,
+  "base_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-031-ff82/publication-entry-proposal.md",
+  "base_sha256": "9e5aa56dab22e46e3ac584053ecfab159cef74e6dec4614adb6d274c9bd56a2f",
+  "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-031-ff82/publication-entry-proposal-r2.md",
+  "proposal_sha256": "b308958be756f10a522089b4dd8f7733d1105b6bb8c0ea40c85ca1814be5c08f",
+  "target_entry": 32,
+  "target_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-032-9270/publication-entry-proposal.md",
+  "target_sha256": "dc0010800179cd2dfbb204cc79252bb481cd11c895b05c9aff35b82cbf9fabe5",
+  "target_title": "### 32. 사진·비밀로 협박받으면 돈을 보내지 말고 신고하세요",
+  "actual_reading": "최신 32항 proposal 제목·여섯 필드 전체 직접 열람. 사진·비밀 협박 대응 참조 범위 확인.",
+  "exact_diff": {
+    "before": "제32항(사진 협박)",
+    "after": "제32항(사진·비밀로 협박받으면)",
+    "occurrences": 1
+  },
+  "field": "비고",
+  "reason": "최신 대상 제목에 연속으로 일치하는 참조 앵커로 최소 교정.",
+  "unaffected_bytes_preserved": true,
+  "checks": [
+    {
+      "command": [
+        "python",
+        "kr-harness/publication/2026-10-18/ch05/publication-partial-review-evidence/literal_check.py",
+        "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-031-ff82/publication-entry-proposal-r2.md"
+      ],
+      "exit_code": 0,
+      "stdout": "[\n  {\n    \"entry\": null,\n    \"path\": \"/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-031-ff82/publication-entry-proposal-r2.md\",\n    \"title_chars\": 25,\n    \"easy_chars\": 85,\n    \"easy_sentences\": 3,\n    \"long_sentences\": [],\n    \"pass_length\": true\n  }\n]\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "/workspace/.cache/howtolivebetter/publication/check-full-layout.py",
+        "/tmp/ch08e31-r2-layout.json"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"checked\": 1, \"failures\": []}\n",
+      "stderr": ""
+    }
+  ],
+  "prior_evidence": {
+    "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-031-ff82/publication-entry-changes.json",
+    "sha256": "c36162517d26620483ebabafaea88b2e9425f67d95880e7db14a8f8b783081af"
+  },
+  "new_factual_claims": []
+}

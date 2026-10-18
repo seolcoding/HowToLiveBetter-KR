@@ -1,0 +1,354 @@
+{
+  "review_id": "publication-review-09-partial-2",
+  "status": "partial_approved_not_chapter_approval",
+  "manifest_sha256": "d7818e5d8821bdf1206b1c93efc9bba74b41b482efb0087d6df72bd80b34d749",
+  "manifest_path": "kr-harness/publication/2026-10-18/ch09/author-partial-manifest-2.json",
+  "reviewed_at_utc": "2026-10-18T20:20:48.155181+00:00",
+  "whole_baseline_guards": {
+    "source": {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/source.md",
+      "sha256": "944ab983bf1467dd3e475b1798c9284c2df0ab927bfc75657ac87d928c95a4c4"
+    },
+    "publication_manifest": {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/manifest.json",
+      "sha256": "ec029de45d75a5de63fd7c7ec3c4419bcc92fc3e5dd53af1a1c6a48ec347e467"
+    },
+    "current_public": {
+      "path": "/workspace/HowToLiveBetter-KR/book-kr/09-흔한-법적-레드라인.md",
+      "sha256": "944ab983bf1467dd3e475b1798c9284c2df0ab927bfc75657ac87d928c95a4c4"
+    },
+    "pure_candidate": {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/candidate.md",
+      "sha256": "944ab983bf1467dd3e475b1798c9284c2df0ab927bfc75657ac87d928c95a4c4"
+    }
+  },
+  "entries": [
+    {
+      "entry": 3,
+      "decision": "approve",
+      "proposal_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-003-1ba5/publication-entry-proposal.md",
+      "proposal_sha256": "20c59f09b67cc4fbd97b8b9247a33fe2dcb77b5d1653fd64ec0bfc77767309ba",
+      "changes_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-003-1ba5/publication-entry-changes.json",
+      "changes_sha256": "8fe3c6a4e8a941c6b966ce7c834ef8f94f4c8bb2a14dbccd2fe7837bccfcee84",
+      "strict_base_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-003-1ba5/strict-entry.md",
+      "strict_base_sha256": "c343f7c7862e23f9c9e521b2119dcc426cbb981e46b280d3de9cddd1367c44e2",
+      "effective_after_entry_sha256": "20c59f09b67cc4fbd97b8b9247a33fe2dcb77b5d1653fd64ec0bfc77767309ba",
+      "field_decisions": {
+        "title": "approve",
+        "비용": "approve",
+        "쉽게": "approve",
+        "이득": "approve",
+        "근거등급": "approve",
+        "출처": "approve",
+        "비고": "approve"
+      },
+      "reason": "국가보안법7① 위험 인식·대상 활동, ⑤의1/3/4항 행위 목적과 각항의 형, ⑥미수 처벌을 실제 원문으로 확인했다. 제1조② 최소 해석·인권 제한 금지를 보강하고 정부 비판/단순 열람·국외 관할을 일괄 범죄로 단정하지 않는다.",
+      "initial_finding_closure": "초기 verified_scope 유지 및 미수/목적·해석 제한 보강",
+      "lengths": {
+        "title_chars": 38,
+        "easy_chars": 51,
+        "easy_sentences": 2,
+        "all_ordinary_sentences_literal50_including_parentheses": true
+      },
+      "checks": {
+        "exact_hashes_and_actual_strict_match": true,
+        "changed_fields_exactly_explained": true,
+        "title_tag_grade_protected": true,
+        "six_single_line_fields_production_layout": true,
+        "original_DOI_set_preserved": true
+      },
+      "unresolved_limits": "개별 사건/표현물의 위법성·목적/고의·공범 입증과 판례는 새로 검증하지 않음. 법조문상 대상과 조건의 검토이며 처벌/면책 결과를 보장하지 않는다."
+    },
+    {
+      "entry": 4,
+      "decision": "approve",
+      "proposal_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-004-75c1/publication-entry-proposal.md",
+      "proposal_sha256": "67dcaadb8247ebf01abf0c2f6893af1aa93d40b8d70e7077140e164195e6b8ec",
+      "changes_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-004-75c1/publication-entry-changes.json",
+      "changes_sha256": "8f45026ca55066dab65a73e125b6eb108dcd8dd11e8a2bbcd05a9358077726f6",
+      "strict_base_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-004-75c1/strict-entry.md",
+      "strict_base_sha256": "6c96811f8bff5b2eeff68f3c6e4b9b7e586de8ecece586f20ae2fccd54bb8e8f",
+      "effective_after_entry_sha256": "67dcaadb8247ebf01abf0c2f6893af1aa93d40b8d70e7077140e164195e6b8ec",
+      "field_decisions": {
+        "title": "approve",
+        "비용": "approve",
+        "쉽게": "approve",
+        "이득": "approve",
+        "근거등급": "approve",
+        "출처": "approve",
+        "비고": "approve"
+      },
+      "reason": "음란 정보 유통과 촬영물/편집물의 소지·구입·저장·시청, 아동·청소년성착취물 구입·소지·시청의 형을 구별했다. 성폭력14①②·14의2①②에 해당하는 비동의 촬영/반포·편집등 대상이라는 문맥과 형법13의 사실 인식을 추가해 우연 노출 자동 처벌을 부정한다. 단체방 관리자는 관여·공범 요건을 따진다.",
+      "initial_finding_closure": "초기 고의 보강 권장 해소; 형법13/30/32 직접 인용 보강",
+      "lengths": {
+        "title_chars": 39,
+        "easy_chars": 80,
+        "easy_sentences": 3,
+        "all_ordinary_sentences_literal50_including_parentheses": true
+      },
+      "checks": {
+        "exact_hashes_and_actual_strict_match": true,
+        "changed_fields_exactly_explained": true,
+        "title_tag_grade_protected": true,
+        "six_single_line_fields_production_layout": true,
+        "original_DOI_set_preserved": true
+      },
+      "unresolved_limits": "개별 사건/표현물의 위법성·목적/고의·공범 입증과 판례는 새로 검증하지 않음. 법조문상 대상과 조건의 검토이며 처벌/면책 결과를 보장하지 않는다."
+    },
+    {
+      "entry": 5,
+      "decision": "approve",
+      "proposal_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-005-94f3/publication-entry-proposal.md",
+      "proposal_sha256": "9486a4a8488e308675e94706463ebd68970539ef7152a3a360a1c48540df7a0b",
+      "changes_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-005-94f3/publication-entry-changes.json",
+      "changes_sha256": "82ce936da412614d37ea4f5bb456990df7057bd8a3690402b8ac4089b9c64b07",
+      "strict_base_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-005-94f3/strict-entry.md",
+      "strict_base_sha256": "eeb5491bb6a4f1395c7ee85605fd64ec94c71c226a7c0d2e756f27ee3a214e97",
+      "effective_after_entry_sha256": "9486a4a8488e308675e94706463ebd68970539ef7152a3a360a1c48540df7a0b",
+      "field_decisions": {
+        "title": "approve",
+        "비용": "approve",
+        "쉽게": "approve",
+        "이득": "approve",
+        "근거등급": "approve",
+        "출처": "approve",
+        "비고": "approve"
+      },
+      "reason": "카드·인증정보 등 접근매체와 단순 계좌번호 제공/직접 송금을 구별했다. 제6조③의 다른 법률 및 선불·전자화폐 양도/담보 단서, 범죄목적/인지 대여등 및 그 알선·중개의 단서 제외를 정확히 적었다. 49④형과 형법13/30/32의 인식·가담 판단을 유지한다.",
+      "initial_finding_closure": "초기 접근매체/공범 인식 구별 유지·정의/단서 보강",
+      "lengths": {
+        "title_chars": 34,
+        "easy_chars": 62,
+        "easy_sentences": 2,
+        "all_ordinary_sentences_literal50_including_parentheses": true
+      },
+      "checks": {
+        "exact_hashes_and_actual_strict_match": true,
+        "changed_fields_exactly_explained": true,
+        "title_tag_grade_protected": true,
+        "six_single_line_fields_production_layout": true,
+        "original_DOI_set_preserved": true
+      },
+      "unresolved_limits": "개별 사건/표현물의 위법성·목적/고의·공범 입증과 판례는 새로 검증하지 않음. 법조문상 대상과 조건의 검토이며 처벌/면책 결과를 보장하지 않는다."
+    }
+  ],
+  "approved_count": 3,
+  "revise_count": 0,
+  "references": [
+    {
+      "source_entry": 3,
+      "reference": "제1항(재난 소식)",
+      "target_whole_sha256": "944ab983bf1467dd3e475b1798c9284c2df0ab927bfc75657ac87d928c95a4c4",
+      "current_target_entry_sha256": "f12870218d8b0df6cf252431791036fd3364dbcb898553c4c2839990a516ff0c",
+      "latest_approved_target_proposal_sha256": "7a2bde32a619c5df7b24705122383668ac7d03f57232f6fc6bd2a9c055f51bac",
+      "reason": "일반 허위 재난 공유/신고 안내이며 국가보안법 목적을 대체 입증하는 효과 근거가 아님. 제목 앵커와 실제내용 일치."
+    },
+    {
+      "source_entry": 5,
+      "reference": "제8절(법적 말썽에 휘말리지 않기)",
+      "target_path": "book-kr/08-법적-말썽에-휘말리지-않기.md",
+      "target_whole_sha256": "d3bc3df4c03ef5f74d391c47424b7a09433b26f0c8f2ce2850deb34559b79f23",
+      "relevant_target_entry": 8,
+      "relevant_target_entry_sha256": "d5fbe0eacc8815f3d0f77ad52e8539ae8b0b03fc51c93509585948134d4378b4",
+      "reason": "통장·카드·휴대전화 명의 대여 예방/사후 중지의 일반 안내다. 금융 접근매체와 통신명의 법 적용 구분 유지. 대상08은 후속수정 가능하므로 최종통합/current formal 때 이guard를 다시 확인해야 한다."
+    }
+  ],
+  "actual_source_reads": [
+    {
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch09-audit/288591.xml",
+      "sha256": "c926d91f3e4556c0612acffa56e0046b77caa6040d6dcedea7758556070d55bc",
+      "URL": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&type=XML&MST=288591",
+      "read_at_utc": "2026-10-18T20:20:48.155181+00:00",
+      "retrieval": "existing_cache_read_not_new_HTTP",
+      "original_status": 200,
+      "actual_read_scope": "부칙21857 시행일·제15조⑭ 국가보안법18① 변경",
+      "articles": [
+        "1",
+        "7"
+      ],
+      "effective_date": "20261002"
+    },
+    {
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/289993.xml",
+      "sha256": "59d81472328677059564df800389cc6e54e12e4788061dd146f949df56af60c4",
+      "URL": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&type=XML&MST=289993",
+      "read_at_utc": "2026-10-18T20:20:48.155181+00:00",
+      "retrieval": "existing_cache_read_not_new_HTTP",
+      "original_status": 200,
+      "actual_read_scope": "기본정보·최근 부칙 시행, 촬영/반포등/합성 및 각④ 전체",
+      "articles": [
+        "14",
+        "14의2"
+      ],
+      "effective_date": "20261002"
+    },
+    {
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch09-audit/290215-retry.xml",
+      "sha256": "9869eb7dd5014ff8db718e83ffaf47d71591ced03a8b2f3a06c6fbedf2e12ddd",
+      "URL": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&type=XML&MST=290215",
+      "read_at_utc": "2026-10-18T20:20:48.155181+00:00",
+      "retrieval": "existing_cache_read_not_new_HTTP",
+      "original_status": 200,
+      "actual_read_scope": "기본정보·11⑤·부칙22027 전체",
+      "articles": [
+        "11⑤"
+      ],
+      "effective_date": "20261002"
+    },
+    {
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290001.xml",
+      "sha256": "9a5b1491c704ab556b864385d0374ce13f283ccc19d8f9a43389c501a9e6578b",
+      "URL": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&type=XML&MST=290001",
+      "read_at_utc": "2026-10-18T20:20:48.155181+00:00",
+      "retrieval": "existing_cache_read_not_new_HTTP",
+      "original_status": 200,
+      "actual_read_scope": "기본정보·대상 및 법정형·부칙21988",
+      "articles": [
+        "44의7①1",
+        "74①2"
+      ],
+      "effective_date": "20261002"
+    },
+    {
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290247.xml",
+      "sha256": "440b67551a3f1f6119dba38469ca843ac06c55619e8aa59f3b7819c05368a621",
+      "URL": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&type=XML&MST=290247",
+      "read_at_utc": "2026-10-18T20:20:48.155181+00:00",
+      "retrieval": "existing_cache_read_not_new_HTTP",
+      "original_status": 200,
+      "actual_read_scope": "기본정보·정의/금지/단서/벌칙·부칙22048",
+      "articles": [
+        "2⑩",
+        "6③",
+        "18",
+        "49④"
+      ],
+      "effective_date": "20261002"
+    },
+    {
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290185.xml",
+      "sha256": "391f3c2bb7173fff4040eda9ae2259674b616e58aeadf4371206b63c70f1c89b",
+      "URL": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&type=XML&MST=290185",
+      "read_at_utc": "2026-10-18T20:20:48.155181+00:00",
+      "retrieval": "existing_cache_read_not_new_HTTP",
+      "original_status": 200,
+      "actual_read_scope": "고의·공동정범·종범 전체 및 부칙22007",
+      "articles": [
+        "13",
+        "30",
+        "32"
+      ],
+      "effective_date": "20261002"
+    },
+    {
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch09-audit/current-288591.xml",
+      "sha256": "fbab64c1d41c8de6f15db7e9b818f0fbe8871bb07a45392f4c8bde76be64c152",
+      "read_at_utc": "2026-10-18T20:20:48.155181+00:00",
+      "retrieval": "existing_cache_search_read_not_new_HTTP",
+      "actual_read_scope": "검색 XML 현행/시행예정과 시행일 구별. 전자금융거래법280277 시행20261217은 현행 본문 근거로 사용하지 않음.",
+      "results": [
+        {
+          "name": "국가보안법",
+          "MST": "288591",
+          "effective": "20261002",
+          "status": "현행"
+        }
+      ]
+    },
+    {
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch09-audit/current-289993.xml",
+      "sha256": "7bdccf52716a6e39cdec7804ce5958bcdeb9b1c47b7d3c5aa75d9e7e6251688a",
+      "read_at_utc": "2026-10-18T20:20:48.155181+00:00",
+      "retrieval": "existing_cache_search_read_not_new_HTTP",
+      "actual_read_scope": "검색 XML 현행/시행예정과 시행일 구별. 전자금융거래법280277 시행20261217은 현행 본문 근거로 사용하지 않음.",
+      "results": [
+        {
+          "name": "성폭력범죄의 처벌 등에 관한 특례법",
+          "MST": "289993",
+          "effective": "20261002",
+          "status": "현행"
+        },
+        {
+          "name": "성폭력범죄의 처벌 등에 관한 특례법 시행령",
+          "MST": "277659",
+          "effective": "20251001",
+          "status": "현행"
+        },
+        {
+          "name": "성폭력범죄의 처벌 등에 관한 특례법 시행규칙",
+          "MST": "243759",
+          "effective": "20220705",
+          "status": "현행"
+        }
+      ]
+    },
+    {
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch09-audit/current-290001.xml",
+      "sha256": "1e25eb9b08c0c04df60a19fc8821b5fbaa8c66f2e50304956677beeeaef50323",
+      "read_at_utc": "2026-10-18T20:20:48.155181+00:00",
+      "retrieval": "existing_cache_search_read_not_new_HTTP",
+      "actual_read_scope": "검색 XML 현행/시행예정과 시행일 구별. 전자금융거래법280277 시행20261217은 현행 본문 근거로 사용하지 않음.",
+      "results": [
+        {
+          "name": "정보통신망 이용촉진 및 정보보호 등에 관한 법률",
+          "MST": "290001",
+          "effective": "20261002",
+          "status": "현행"
+        },
+        {
+          "name": "정보통신망 이용촉진 및 정보보호 등에 관한 법률 시행령",
+          "MST": "290483",
+          "effective": "20261002",
+          "status": "현행"
+        },
+        {
+          "name": "정보통신망 이용촉진 및 정보보호 등에 관한 법률 시행규칙",
+          "MST": "230723",
+          "effective": "20210331",
+          "status": "현행"
+        }
+      ]
+    },
+    {
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch09-audit/current-retry-18.xml",
+      "sha256": "0dd3569bc0c1ee473ef10099bb1c5c88df3d8f6da589b2fb68ac750c8e9f2e38",
+      "read_at_utc": "2026-10-18T20:20:48.155181+00:00",
+      "retrieval": "existing_cache_search_read_not_new_HTTP",
+      "actual_read_scope": "검색 XML 현행/시행예정과 시행일 구별. 전자금융거래법280277 시행20261217은 현행 본문 근거로 사용하지 않음.",
+      "results": [
+        {
+          "name": "전자금융거래법",
+          "MST": "290247",
+          "effective": "20261002",
+          "status": "현행"
+        },
+        {
+          "name": "전자금융거래법",
+          "MST": "280277",
+          "effective": "20261217",
+          "status": "시행예정"
+        },
+        {
+          "name": "전자금융거래법 시행령",
+          "MST": "285727",
+          "effective": "20260428",
+          "status": "현행"
+        }
+      ]
+    }
+  ],
+  "new_HTTP_requests": [],
+  "chapter_final_approval": false,
+  "formal_approval": false,
+  "publication_approval": false,
+  "protected_scope": "이 보고서 쌍만 신규 작성. 기존 source/proposals/diagnostics/finals/candidate/감사/public/Git 불변.",
+  "integration_check": {
+    "model": "after.rstrip()+original trailing separator; memory only",
+    "entry_count": 26,
+    "intro_tail_unchanged": true,
+    "all_other23_entries_unchanged": true,
+    "expected_this_batch_only_whole_sha256": "e21e0ea84ee50eda5fab5e4298da361d4887e46e879779d72312edf8e03d38a0",
+    "not_final26_entry_result": true
+  },
+  "remaining": "나머지 전항과 intro/tail 및 모든 initial warning을 별도 frozen 묶음에서 검토해야 전체 canonical closure 가능."
+}

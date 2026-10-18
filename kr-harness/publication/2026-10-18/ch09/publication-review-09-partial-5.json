@@ -1,0 +1,359 @@
+{
+  "review_id": "publication-review-09-partial-5",
+  "status": "partial_1_approved_3_revision_required_not_chapter_approval",
+  "reviewed_at_utc": "2026-10-18T20:37:39.219463+00:00",
+  "manifest_path": "kr-harness/publication/2026-10-18/ch09/author-partial-manifest-5.json",
+  "manifest_sha256": "10a4d1ed5d1ed02c83de62bcdb3ea8de09d788ca729c75421d695b988ab4a772",
+  "whole_baseline_guards": {
+    "source": {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/source.md",
+      "sha256": "944ab983bf1467dd3e475b1798c9284c2df0ab927bfc75657ac87d928c95a4c4"
+    },
+    "publication_manifest": {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/manifest.json",
+      "sha256": "ec029de45d75a5de63fd7c7ec3c4419bcc92fc3e5dd53af1a1c6a48ec347e467"
+    },
+    "current_public": {
+      "path": "/workspace/HowToLiveBetter-KR/book-kr/09-흔한-법적-레드라인.md",
+      "sha256": "944ab983bf1467dd3e475b1798c9284c2df0ab927bfc75657ac87d928c95a4c4"
+    },
+    "pure_candidate": {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/candidate.md",
+      "sha256": "944ab983bf1467dd3e475b1798c9284c2df0ab927bfc75657ac87d928c95a4c4"
+    }
+  },
+  "entries": [
+    {
+      "entry": 15,
+      "decision": "approve",
+      "proposal_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-015-5c9d/publication-entry-proposal.md",
+      "proposal_sha256": "87071985b8e74d119dd55de2618eec849ead0b2885c92986274a6fb813a79990",
+      "changes_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-015-5c9d/changes.json",
+      "changes_sha256": "d65574300ab9901b6746465cbd7cd6672a2b09e04d017b40e46dfcffac9dd2b9",
+      "strict_base_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-015-5c9d/strict-entry.md",
+      "strict_base_sha256": "b128aa34ae27c4a0158f015df720b30940ef30f8cdf11e1a9af1d731cd098529",
+      "effective_after_entry_sha256": "87071985b8e74d119dd55de2618eec849ead0b2885c92986274a6fb813a79990",
+      "field_decisions": {
+        "title": "approve",
+        "비용": "approve",
+        "쉽게": "approve",
+        "이득": "approve",
+        "근거등급": "approve",
+        "출처": "approve",
+        "비고": "approve"
+      },
+      "exact_actual_field_changes": [
+        {
+          "field": "이득",
+          "before": "「형법」 제276조는 체포·감금의 처벌을 정합니다. 5년 이하 징역 또는 700만원 이하 벌금에 처합니다. 가혹행위가 따르면 제277조에 따라 7년 이하 징역에 처합니다. 체포·감금으로 상해를 입히면 1년 이상 유기징역입니다. 사망하게 하면 3년 이상 유기징역입니다. 「형법」 제281조가 이를 규정합니다.",
+          "after": "「형법」 제276조제1항은 체포·감금의 처벌을 정합니다. 5년 이하 징역 또는 700만원 이하 벌금에 처합니다. 가혹행위가 따르면 제277조제1항에 따라 7년 이하 징역에 처합니다. 체포·감금으로 상해를 입히면 1년 이상 유기징역입니다. 사망하게 하면 3년 이상 유기징역입니다. 「형법」 제281조제1항이 이를 규정합니다."
+        },
+        {
+          "field": "출처",
+          "before": "「형법」 제276조·제277조·제281조. https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&type=XML&MST=290185&efYd=20261002",
+          "after": "「형법」 제276조제1항·제277조제1항·제281조제1항. https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&type=XML&MST=290185&efYd=20261002"
+        },
+        {
+          "field": "비고",
+          "before": "문을 잠그는 행위뿐 아니라 실제로 이동을 막았는지 따집니다. 법정 최고형이 모든 사건의 선고형은 아닙니다. 채권을 회수할 때는 증거와 집행 가능성도 검토하세요. 계약 증거는 제8절(법적 말썽에 휘말리지 않기)을 보세요. 2026-10-10 법령 확인(국가법령정보센터).",
+          "after": "문을 잠그는 행위뿐 아니라 실제로 이동을 막았는지 따집니다. 법정 최고형이 모든 사건의 선고형은 아닙니다. 자기나 배우자의 직계존속이 피해자면 형이 더 무거워집니다. 채권을 회수할 때는 증거와 집행 가능성도 검토하세요. 계약 증거는 제8절(법적 말썽에 휘말리지 않기)을 보세요. 개별 사건의 회수 기간과 결과는 확인하지 못했습니다. 2026-10-18 인용판 조문·부칙 확인(국가법령정보센터)."
+        }
+      ],
+      "reason": "276①/277①/281①의 단순·가혹·상해·사망 형 및 직계존속 가중을 실제 원문으로 구별했다. 채권이 있어도 감금 합법을 보장하지 않는다. 소송 서류/비용/대응시간·증거/집행가능성과 개별회수기간 미확인을 보존해 결과를 즉시 보장하지 않는다.",
+      "revision_requests": [],
+      "lengths": {
+        "title_chars": 30,
+        "easy_chars": 55,
+        "easy_sentences": 2,
+        "ordinary_literal50_parentheses_included": true
+      },
+      "protected_checks": {
+        "title_tag_grade": true,
+        "six_single_line_fields_production_structure": true,
+        "DOI_set_preserved": true
+      },
+      "source_validation_status": "법조문/수치 조건 실제대조; 요청은 비고의 한정/상태/문체. 개별판례·실제회수기간·전체가중범위를 새로 검증한 것으로 주장하지 않음."
+    },
+    {
+      "entry": 16,
+      "decision": "revise",
+      "proposal_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-016-ba1e/publication-entry-proposal.md",
+      "proposal_sha256": "104dfbbf46c9811459f1899f13570d7a5b537a8998abce7a77e5dc95e57a301e",
+      "changes_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-016-ba1e/changes.json",
+      "changes_sha256": "453d2efc5f61cc848ee1d26d708a3f81aa91d215975b8b3bd0ac929ee638d241",
+      "strict_base_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-016-ba1e/strict-entry.md",
+      "strict_base_sha256": "0720c705eb0670485fcf33e479567ec29d9e6e7043b747955c9126c87cbd7d99",
+      "effective_after_entry_sha256": "104dfbbf46c9811459f1899f13570d7a5b537a8998abce7a77e5dc95e57a301e",
+      "field_decisions": {
+        "title": "approve",
+        "비용": "approve",
+        "쉽게": "approve",
+        "이득": "approve",
+        "근거등급": "approve",
+        "출처": "approve",
+        "비고": "revise"
+      },
+      "exact_actual_field_changes": [
+        {
+          "field": "출처",
+          "before": "「주민등록법」 제37조제1항제8호·제8호의2·제10호. https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&type=XML&MST=268555&efYd=20250722",
+          "after": "「주민등록법」 제37조제1항제2호·제8호·제8호의2·제10호. https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&type=XML&MST=268555&efYd=20250722"
+        },
+        {
+          "field": "비고",
+          "before": "주민등록증을 채무 이행 담보로 주거나 받는 행위도 있습니다. 이 역시 제37조에 규정돼 있습니다. 단순히 빌려줬다는 이유만으로 원문의 정액 벌금을 옮기지 않았습니다. 카드는 제5항(고수익 아르바이트), 계정 보안은 제14절(계정과 정보 보안)을 보세요. 2026-10-10 법령 확인(국가법령정보센터).",
+          "after": "주민등록증을 채무 이행 담보로 주거나 받는 행위도 있습니다. 이 역시 제37조에 규정돼 있습니다. 단순 대여만으로 위 법정형이 적용된다고 단정할 수는 없습니다. 주민등록번호 부정 사용은 제37조제1항제10호에서 규정합니다. 친족 간 반의사불벌 단서는 그 제10호에만 있습니다. 카드 대여는 제5항(고수익 아르바이트)을 보세요. 계정 보안은 제14절(계정과 정보 보안)을 보세요. 2026-10-18 인용판 확인(국가법령정보센터). 기준일 최신 개정 여부는 별도로 확인하지 않았습니다."
+        }
+      ],
+      "reason": "37①2·8·8의2·10의 담보/주민증/이미지/주민번호 부정사용 구별과3년/3천만원은 일치한다. 다만 친족 단서 범주를 직계혈족·배우자·동거친족 또는 그 배우자로 한정해야 하고, 기존 실제현행검색으로 확인 가능한 현행성 미확인 문구도 갱신해야 한다.",
+      "revision_requests": [
+        {
+          "kind": "fact_scope",
+          "before": "친족 간 반의사불벌 단서는 그 제10호에만 있습니다.",
+          "request": "모든 친족으로 읽히지 않게 법문의 직계혈족·배우자·동거친족 또는 그 배우자로 한정. 그 제10호에만 해당하고8/8의2로 확대하지 않는 제한 유지."
+        },
+        {
+          "kind": "verification_status",
+          "before": "기준일 최신 개정 여부는 별도로 확인하지 않았습니다.",
+          "request": "기존 current-268555.xml을 저자가 직접 열어 법268555/20250722현행 상태로 최소갱신. 시행령/규칙의 미래버전과 구분. 신규HTTP는502였으므로 성공으로 표시하지 않음."
+        }
+      ],
+      "lengths": {
+        "title_chars": 42,
+        "easy_chars": 62,
+        "easy_sentences": 2,
+        "ordinary_literal50_parentheses_included": true
+      },
+      "protected_checks": {
+        "title_tag_grade": true,
+        "six_single_line_fields_production_structure": true,
+        "DOI_set_preserved": true
+      },
+      "source_validation_status": "법조문/수치 조건 실제대조; 요청은 비고의 한정/상태/문체. 개별판례·실제회수기간·전체가중범위를 새로 검증한 것으로 주장하지 않음."
+    },
+    {
+      "entry": 17,
+      "decision": "revise",
+      "proposal_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-017-9dfd/publication-entry-proposal.md",
+      "proposal_sha256": "3aa04a5a4800b287f094541f898df95f9ec72aac0f267e76a6150043a22f237c",
+      "changes_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-017-9dfd/changes.json",
+      "changes_sha256": "fccd63ea40aff3f503d06dd1b95340d8e2db117ecb8abae830b669feccca7e56",
+      "strict_base_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-017-9dfd/strict-entry.md",
+      "strict_base_sha256": "8e49678c7c9305b1f64c42c346118bed8ca09e7b6c5c33baffb6620563fc8373",
+      "effective_after_entry_sha256": "3aa04a5a4800b287f094541f898df95f9ec72aac0f267e76a6150043a22f237c",
+      "field_decisions": {
+        "title": "approve",
+        "비용": "approve",
+        "쉽게": "approve",
+        "이득": "approve",
+        "근거등급": "approve",
+        "출처": "approve",
+        "비고": "revise"
+      },
+      "exact_actual_field_changes": [
+        {
+          "field": "출처",
+          "before": "「형법」 제136조. https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&type=XML&MST=290185&efYd=20261002",
+          "after": "「형법」 제136조 제1항. https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290185&type=XML · 「형사소송법」 제30조·제200조의5·제244조의3. https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290189&type=XML"
+        },
+        {
+          "field": "비고",
+          "before": "모든 질문에 답할 의무가 있다는 뜻은 아닙니다. 진술거부권이 없다는 뜻도 아닙니다. 체포 사유와 권리 안내를 요구하세요. 변호인의 조력을 구하세요. 원문의 경찰 전용 형량은 옮기지 않았습니다. 가벼운 저항을 자동으로 제외하는 규칙도 옮기지 않았습니다. 절차별 권리는 제8절(법적 말썽에 휘말리지 않기)을 보세요. 2026-10-10 법령 확인(국가법령정보센터).",
+          "after": "모든 질문에 답할 의무가 있다는 뜻은 아닙니다. 진술거부권이 없다는 뜻도 아닙니다. 체포 사유와 권리 안내를 요구하세요. 변호인의 조력을 구하세요. 원문의 경찰 전용 형량은 옮기지 않았습니다. 가벼운 저항을 자동으로 제외하는 규칙도 옮기지 않았습니다. 조사 권리는 제8절 제5항(진술거부권)을 보세요. 적법한 직무 집행의 구체적 판례는 독립 확인하지 못했습니다. 체포 절차 전반의 검증도 마치지 못했습니다. 2026-10-18 법령 재확인(국가법령정보센터)."
+        }
+      ],
+      "reason": "136①의5년/1천만원과 적법집행 전제, 형사소송법30/200의5/244의3의 변호인/체포고지/진술거부를 실제 읽었다. 관련 판례·절차 전반 미검증을 숨기지 않는다. 다만 중국 원문을 옮기지 않았다는 작업메모는 독자용 조언으로 바꾸고 가벼운 저항 자동면책 불가 유보는 보존할 필요가 있다.",
+      "revision_requests": [
+        {
+          "kind": "editorial_meta",
+          "before": "원문의 경찰 전용 형량은 옮기지 않았습니다.",
+          "request": "독자 조언이 아닌 번역작업메모 삭제."
+        },
+        {
+          "kind": "editorial_meta_preserve_warning",
+          "before": "가벼운 저항을 자동으로 제외하는 규칙도 옮기지 않았습니다.",
+          "request": "가볍다는 이유만으로 자동면책되지 않는 기존 유보를 독자용 조건문으로 바꾼다. 적법집행/폭행협박 요건과 개별판례 미확인은 유지."
+        }
+      ],
+      "lengths": {
+        "title_chars": 30,
+        "easy_chars": 54,
+        "easy_sentences": 2,
+        "ordinary_literal50_parentheses_included": true
+      },
+      "protected_checks": {
+        "title_tag_grade": true,
+        "six_single_line_fields_production_structure": true,
+        "DOI_set_preserved": true
+      },
+      "source_validation_status": "법조문/수치 조건 실제대조; 요청은 비고의 한정/상태/문체. 개별판례·실제회수기간·전체가중범위를 새로 검증한 것으로 주장하지 않음."
+    },
+    {
+      "entry": 18,
+      "decision": "revise",
+      "proposal_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-018-e901/publication-entry-proposal.md",
+      "proposal_sha256": "ec79ba994a68dea06a98d0eec2d9356d90fb99eac3a8b4c11a26ac449e2cf845",
+      "changes_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-018-e901/changes.json",
+      "changes_sha256": "54c76f8b6240f4f07b78dc7df53d9b48c96335d0280f331f22df785952390970",
+      "strict_base_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-018-e901/strict-entry.md",
+      "strict_base_sha256": "159c4189d6f6201c8225b854ec477f64f71407c46ebb9f4c6c154810a110e349",
+      "effective_after_entry_sha256": "ec79ba994a68dea06a98d0eec2d9356d90fb99eac3a8b4c11a26ac449e2cf845",
+      "field_decisions": {
+        "title": "approve",
+        "비용": "approve",
+        "쉽게": "approve",
+        "이득": "approve",
+        "근거등급": "approve",
+        "출처": "approve",
+        "비고": "revise"
+      },
+      "exact_actual_field_changes": [
+        {
+          "field": "비고",
+          "before": "원문의 나이 기준을 한국 법 기준으로 교체했습니다. 16세 이상이라고 어떤 행위든 허용되지는 않습니다. 강요·위력·성매매 등 별도 요건을 따집니다. 나이 오인의 구체 판례와 가중처벌 조문은 확인이 필요합니다. TODO로 남겼습니다. 2026-10-10 법령 확인(국가법령정보센터).",
+          "after": "원문의 나이 기준을 한국 법 기준으로 교체했습니다. 16세 이상이라고 어떤 행위든 허용되지는 않습니다. 강요·위력·성매매 등 별도 요건을 따집니다. 나이 오인의 구체 판례와 가중처벌의 전체 적용 범위는 아직 확인하지 못했습니다. 형법 조문과 부칙은 2026-10-18 확인했습니다(국가법령정보센터)."
+        }
+      ],
+      "reason": "305①의13세미만과②의19세이상 행위자/13세이상16세미만 대상,297의3년이상 형을 확인했다.16세이상 일괄허용이 아니라는 유보와 나이오인/특별법 전범위 미확인을 유지한다. 번역작업메모 한 문장은 삭제하고 한국 조문 설명은 그대로 둘 필요가 있다.",
+      "revision_requests": [
+        {
+          "kind": "editorial_meta",
+          "before": "원문의 나이 기준을 한국 법 기준으로 교체했습니다.",
+          "request": "번역작업메모만 삭제. 기존 한국 연령 요건/16세이상 일괄허용 불가/미확인 유보는 보존."
+        }
+      ],
+      "lengths": {
+        "title_chars": 37,
+        "easy_chars": 67,
+        "easy_sentences": 2,
+        "ordinary_literal50_parentheses_included": true
+      },
+      "protected_checks": {
+        "title_tag_grade": true,
+        "six_single_line_fields_production_structure": true,
+        "DOI_set_preserved": true
+      },
+      "source_validation_status": "법조문/수치 조건 실제대조; 요청은 비고의 한정/상태/문체. 개별판례·실제회수기간·전체가중범위를 새로 검증한 것으로 주장하지 않음."
+    }
+  ],
+  "approved_count": 1,
+  "revise_count": 3,
+  "actual_source_reads": [
+    {
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290185.xml",
+      "sha256": "391f3c2bb7173fff4040eda9ae2259674b616e58aeadf4371206b63c70f1c89b",
+      "read_at_utc": "2026-10-18T20:37:39.219463+00:00",
+      "mode": "existing_cache_read_not_new_HTTP",
+      "actual_scope": "136①·276·277·281·297·305 전항 및 최신22007시행",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&type=XML&MST=290185"
+    },
+    {
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch09-audit/268555.xml",
+      "sha256": "2a54771c0eabf7a49570d6d1acde5073b2229dbb8bc45e6e39377952e5e6a10c",
+      "read_at_utc": "2026-10-18T20:37:39.219463+00:00",
+      "mode": "existing_cache_read_not_new_HTTP",
+      "actual_scope": "37①본문과2/8/8의2/10 전항목, 최신 부칙 시행",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&type=XML&MST=268555"
+    },
+    {
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290189.xml",
+      "sha256": "f917fd5794540a55cc19ef2b94e5142ee97cdaafc9215827fa653b6c275ab9fa",
+      "read_at_utc": "2026-10-18T20:37:39.219463+00:00",
+      "mode": "existing_cache_read_not_new_HTTP",
+      "actual_scope": "30·200의5·244의3 전항;21857의10/2시행 및 해당 적용범위",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&type=XML&MST=290189"
+    },
+    {
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch09-audit/current-268555.xml",
+      "sha256": "1d011ff46c77c14eb2c090390857a255c4afd79300531acc5eba1519a26660e0",
+      "read_at_utc": "2026-10-18T20:37:39.219463+00:00",
+      "mode": "existing_cache_read_not_new_HTTP",
+      "actual_scope": "실제 검색 전체: 주민등록법268555/20250722현행; 시행령285733/20261029미래와20260428현행,시행규칙291005/20261002현행·285757/20261029미래를 법본문과 구별",
+      "url": "https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=law&type=XML&query=%EC%A3%BC%EB%AF%BC%EB%93%B1%EB%A1%9D%EB%B2%95"
+    }
+  ],
+  "new_HTTP_requests": [
+    {
+      "URL": "https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=law&type=XML&query=%EC%A3%BC%EB%AF%BC%EB%93%B1%EB%A1%9D%EB%B2%95&display=100&nw=1",
+      "requested_at_utc": "2026-10-18T20:35:48.747224+00:00",
+      "mode": "new_HTTPS_TLS_verified",
+      "status": "failed",
+      "error": "HTTP Error 502: Bad Gateway"
+    }
+  ],
+  "network_evidence_index": {
+    "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch09-full-review-p5/index.json",
+    "sha256": "4d3e2c26bab5973f1a888f60a270a6945ee8c233161df91c5cb6232df21ffeff"
+  },
+  "references": [
+    {
+      "source_entry": 15,
+      "literal": "제8절(법적 말썽에 휘말리지 않기)",
+      "target_path": "book-kr/08-법적-말썽에-휘말리지-않기.md",
+      "target_whole_sha256": "20d3a71c0a09cb202c8c0f1e9d0f62aca62ae205cc3da1414f6870c8e38b72e7",
+      "related_entries": [
+        {
+          "entry": 17,
+          "title": "### 17. 서명 전에 읽고 빈칸을 채운 뒤 사본을 받으세요",
+          "sha256": "efbb40fb6dcf75cf4d20c4b2dbc805dcfe506103a19dcf6760ad4cac4e25baf8"
+        },
+        {
+          "entry": 18,
+          "title": "### 18. 돈을 빌려줄 때 기록하고 보증은 상환 책임을 확인하세요",
+          "sha256": "9410d5ab91470ab201256c203cbc696c125ecf5ae1f66fcada3d86e753daf879"
+        }
+      ],
+      "decision": "current_general_guidance_matches",
+      "limit": "현재 실제 전필드·제목의 계약증거/차용기록 또는 조사권리 안내와 대응. 향후target SHA변경시 재확인."
+    },
+    {
+      "source_entry": 17,
+      "literal": "제8절 제5항(진술거부권)",
+      "target_path": "book-kr/08-법적-말썽에-휘말리지-않기.md",
+      "target_whole_sha256": "20d3a71c0a09cb202c8c0f1e9d0f62aca62ae205cc3da1414f6870c8e38b72e7",
+      "related_entries": [
+        {
+          "entry": 5,
+          "title": "### 5. 피의자로 조사받으면 변호인과 진술거부권부터 확인하세요",
+          "sha256": "8a45b0a61ce4862157018c031c0bf1a2e2d6fab32aa48d4f25d54d9c8588e736"
+        }
+      ],
+      "decision": "current_general_guidance_matches",
+      "limit": "현재 실제 전필드·제목의 계약증거/차용기록 또는 조사권리 안내와 대응. 향후target SHA변경시 재확인."
+    },
+    {
+      "source_entry": 16,
+      "literal": "제14절(계정과 정보 보안)",
+      "target_path": "book-kr/14-계정과-정보-보안.md",
+      "target_whole_sha256": "c561a39adc1eed2feea3288fb464837ae39b230f7b4ee79c5a055de11580374a",
+      "related_entries": [
+        {
+          "entry": 1,
+          "title": "### 1. 메일·결제·SNS 계정에 2단계 인증을 켜세요. 휴대폰 알림 방식이 우선, 문자 인증번호는 그다음",
+          "sha256": "8cda78a09db591d8490125b7f7d839ca7bf6fe2c6c010141418a4ae2cfad4e49"
+        },
+        {
+          "entry": 2,
+          "title": "### 2. 이메일 비밀번호는 어디와도 겹치지 않게 하나만 따로 쓰세요",
+          "sha256": "749e32254c1ca04e7130e7b8d9e2cd04ac15c184bf88876f95eb67812df9826e"
+        }
+      ],
+      "decision": "current_general_guidance_matches",
+      "limit": "현재 관련 전필드를 직접 읽음.14절은 최신full 미준비이므로 이후 exact대상재확인 필요. 일반 안내가 개별소송/보안효과의 직접 입증을 대신하지 않음."
+    },
+    {
+      "source_entry": 16,
+      "literal": "제5항(고수익 아르바이트)",
+      "target_current_entry_sha256": "eeb5491bb6a4f1395c7ee85605fd64ec94c71c226a7c0d2e756f27ee3a214e97",
+      "latest_approved_proposal_sha256": "9486a4a8488e308675e94706463ebd68970539ef7152a3a360a1c48540df7a0b",
+      "decision": "matches_latest_approved_general_guidance"
+    }
+  ],
+  "initial_warning_closure": "16초기담보제공호추가·주민번호단서제10호한정 보강은 확인, 친족 범주/현행상태 후속정확화 필요.17적법성판례/절차전체,18나이오인/특별법전체미확인은정직유지.",
+  "chapter_final_approval": false,
+  "formal_approval": false,
+  "publication_approval": false,
+  "public_written": false,
+  "protected_scope": "신규고유보고서쌍·외부HTTPS실패기록만작성. 원고/frozen/기존리뷰/candidate/Git불변.",
+  "remaining": "같은16/17/18 원작성자 최소r2를 exact재검토. 이부분의나머지법률조건을새문체수정으로무효화하지않고해시별재확인한다."
+}

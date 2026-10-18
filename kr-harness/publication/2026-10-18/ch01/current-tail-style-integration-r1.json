@@ -1,0 +1,39 @@
+{
+  "status": "exact_approved_tail_sentence_splits_applied_pending_new_current_hash_formal",
+  "at_utc": "2026-10-18T20:28:32.278243+00:00",
+  "chapter": 1,
+  "before_raw_sha256": "22535ac03620bae83541ce2baea5e6ff2b2bddd4bee5c7c0bfd3de526506e0d1",
+  "after_raw_sha256": "394299bc45a33a3b8f2074df28067bd0275bf597e145c278c456010935269983",
+  "tail_before_sha256": "aa82014c330702c40178bcb4d2681558e5766e2c58557cf9dfb54232144e9b96",
+  "tail_after_sha256": "d43d98ce3ef78c8f61843538bf9f12d418083535961b90c9be98b09fa8c2217e",
+  "proposal_sha256": "d858d5d89574b439bd812ca6df7f999cd36f6647a920818f1b32bc18388c0b8e",
+  "independent_review_sha256": "974cb46f4d462c58ea14415b046d9cf8a61fcf269f42701e0329ba928714ea79",
+  "operations": [
+    {
+      "before": "4. 제6항: 공동주택 공용 공간의 전기자전거·전동킥보드 보관·충전을 직접 정한 법령·고시가 있는지.",
+      "after": "4. 제6항: 공동주택 공용 공간의 전기자전거·전동킥보드 보관·충전 문제입니다. 이를 직접 정한 법령·고시가 있는지 확인해야 합니다.",
+      "before_sha256": "3f45259e357af6fe42b6c7d70d1e6116f0d021f4e73ef3c0fa0c34e701a2486c",
+      "after_sha256": "29018604e854afd8b8287c7887c1dc61d8deec552caa09625cc2c5e0c4fb0f4e"
+    },
+    {
+      "before": "5. 제14·15·16·21항: 국가예방접종 대상 밖의 성인 B형간염·파상풍(Td)·HPV·대상포진 백신 가격(건강보험심사평가원 비급여 진료비 정보).",
+      "after": "5. 제14·15·16·21항: 국가예방접종 대상 밖의 성인 백신 가격을 확인해야 합니다. B형간염·파상풍(Td)·HPV·대상포진이 대상입니다. 자료는 (건강보험심사평가원 비급여 진료비 정보)입니다.",
+      "before_sha256": "607f11f4c434d932780f3659180f6d5b5f4bbc9bf2acd20c72f0515bcc7cfc51",
+      "after_sha256": "a5d1914f3095dd80dfb9f4c523053d269f994b7937df6a8338e1015a7df3d4f8"
+    },
+    {
+      "before": "7. 제31항: 「후천성면역결핍증 예방법」 제19조(전파매개행위) 적용 범위에 관한 헌법재판소 결정 원문.",
+      "after": "7. 제31항: 「후천성면역결핍증 예방법」 제19조(전파매개행위) 적용 범위입니다. 이에 관한 헌법재판소 결정 원문을 확인해야 합니다.",
+      "before_sha256": "12ca3d1f4251345c75a016c9e93ee784fc9e103fbb7011fb11eab9458ea3810c",
+      "after_sha256": "7fee872a8b68bbb10f5bf7623b1f0a072a187ffdd614375c15c374399c1dd40d"
+    }
+  ],
+  "all_numbered_entries_and_intro_unchanged": true,
+  "entry_count": 42,
+  "all_other_tail_bytes_unchanged": true,
+  "archived_formal": "kr-harness/chapters/01/kr-fit-review.r3.md",
+  "archived_formal_sha256": "00d467e6d2aa7cb84874167481f8b9ccd4d626290c5339f7b9e455cf2c35ae4e",
+  "previous_cli_sha256": "a380eb05cae69ed33e903826b7076bee415dccb5a4708706c026c965ff908a11",
+  "formal_kr_fit_approval": false,
+  "deployed": false
+}

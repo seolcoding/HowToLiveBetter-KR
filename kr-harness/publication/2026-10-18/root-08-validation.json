@@ -1,0 +1,299 @@
+{
+  "captured_at_utc": "2026-10-18T20:47:43.611416+00:00",
+  "git_base_before_checkpoint": "60cf432c5af259285266046d967dd063c8d17756",
+  "working_tree_build": true,
+  "scope": "Exact current public snapshot after chapter08 integration/fresh formal, current-hash01 intro/tail and02/18 tail-only followups, and approved prior06/07 corrections; checkpoint, not completion of all667 full-source/final work or deployment.",
+  "fresh_formals": [
+    {
+      "chapter": 1,
+      "cli_sha256": "c5f717c6b8fc157a627a83522a38b0f175b5701f29ba57ab06d29c6a2cda1a56",
+      "formal_sha256": "7b485e8294e75939bdb202bf3bbe5c57b47a8a18b797a87d08abda3d618c29ba"
+    },
+    {
+      "chapter": 2,
+      "cli_sha256": "dccc4e864a26753b5d45a078805254a12123a58e579dbde847f4d8ef1a19061f",
+      "formal_sha256": "6546f5bd1b28df1dd3476d5821aa93e1ccf5cdcdf5c5b01b1926f7b763d537f3"
+    },
+    {
+      "chapter": 3,
+      "cli_sha256": "c27b1c95f96d3d2b41f9968fda1b88f0a366d2dc47a423d24b039a6b5b004af6",
+      "formal_sha256": "654a4ad32e5d20c483e33a134288ff72ee313d809d444d18c58da0ee1a5c8b58"
+    },
+    {
+      "chapter": 4,
+      "cli_sha256": "da6789a0c204cc4599abcd0e940cd21ea9be3c3358bed9a0b639420735c830a4",
+      "formal_sha256": "8d5a21a97023f5fc49ca73fca24b8a50cf3047f96c3006c840b35efad4f625db"
+    },
+    {
+      "chapter": 5,
+      "cli_sha256": "3876d4f07cdbc4acdad15dc27d913a5bffcfef574d66f536098801c7bf644142",
+      "formal_sha256": "339a382b1073aa7891514e4631b8eb5e0a33762bab240f87511df60826b57615"
+    },
+    {
+      "chapter": 6,
+      "cli_sha256": "d5d8c2fcf93e539370d670937964a7213f0f175008c78650ed4d0596f50d3a68",
+      "formal_sha256": "e6060cb7555dbc891fffa390201a27acc2d810378bdafadd5170cf005039d657"
+    },
+    {
+      "chapter": 7,
+      "cli_sha256": "08f3fd383221cc8af00e1682164eb0616e33ab85b6c206e42fec897ffc8ea705",
+      "formal_sha256": "52e89009c5c4a0725aac339fabca0632169654a6c51e8bbbb4338bd8d47aceed"
+    },
+    {
+      "chapter": 8,
+      "cli_sha256": "7d3e08ba68d461b251a84950f7b6a44f05047d432071a88500c0c34fcc37a72c",
+      "formal_sha256": "d8e465f155427ba728a63d2efeed5693a4586a0c1d86a8cd9ebe943e6f87a082"
+    },
+    {
+      "chapter": 18,
+      "cli_sha256": "49a5393886e90f65cac08885673501b786549a1d968a8bc6149526ec4d732d2e",
+      "formal_sha256": "89109d368c08d664822467cb8f8b60f88d3fbb11e53075b543ea572cde576a4a"
+    }
+  ],
+  "public_sources": [
+    {
+      "path": "book-kr/01-너무-일찍-죽지-않기.md",
+      "sha256": "d61e7074cac782a41190b38fe29814a342cb54b87f310a28963480853b7ca91f"
+    },
+    {
+      "path": "book-kr/02-천천히-죽지-않기.md",
+      "sha256": "f166f4e0642f4655c6e31faf9a008fc50cae7deddf527a5c9d1ab1ecbc213a4a"
+    },
+    {
+      "path": "book-kr/03-기력-낭비-줄이기.md",
+      "sha256": "4a28ef24bf2def0a43f93bb2e2daad4bc53959f47322f6fcdf85a6a60480420e"
+    },
+    {
+      "path": "book-kr/04-시간-낭비-줄이기.md",
+      "sha256": "1c7813e9f107ce79def53adf806cabdfe50a41fc845c659e855627bd64b774d4"
+    },
+    {
+      "path": "book-kr/05-돈-낭비-줄이기.md",
+      "sha256": "71074014560ada2d12df9a6a1232d8f5c3837cd8d375808f97615bf558ad7e32"
+    },
+    {
+      "path": "book-kr/06-함정-목록.md",
+      "sha256": "2056d38d1936da0137774f6409d07450f9eedd66ca3a2627796da1b7db25f50b"
+    },
+    {
+      "path": "book-kr/07-돈이-없을-때-사는-법.md",
+      "sha256": "3074dd62fa9ec9d92d3e3e7049c3f9782b1adfac5cd223d0726da93e53fd491e"
+    },
+    {
+      "path": "book-kr/08-법적-말썽에-휘말리지-않기.md",
+      "sha256": "e277adc64ec9b1db9eafd4cb23c95cdabef3daff6d41a1b38801808194e798cd"
+    },
+    {
+      "path": "book-kr/09-흔한-법적-레드라인.md",
+      "sha256": "944ab983bf1467dd3e475b1798c9284c2df0ab927bfc75657ac87d928c95a4c4"
+    },
+    {
+      "path": "book-kr/10-연애와-결혼의-가성비.md",
+      "sha256": "0ce3b4fd4934c8c91363ee1136c5034ccd3e9253f722c21563728835476f5baf"
+    },
+    {
+      "path": "book-kr/11-개발자와-기술자의-레드라인.md",
+      "sha256": "190f1bfb76853df9cee7f4a460f7f8a96d8eae39482fcbe352c65c6e8045c1fe"
+    },
+    {
+      "path": "book-kr/12-창업과-장사.md",
+      "sha256": "01aa7401bf3d69e2186f55d4299a23ff488c06dcfb8a77637976717829c20b2d"
+    },
+    {
+      "path": "book-kr/13-응급상황.md",
+      "sha256": "e3f9b030a63bf8d1a0141933d095be573e9db6c49c439c4da6396292ff0e9cc6"
+    },
+    {
+      "path": "book-kr/14-계정과-정보-보안.md",
+      "sha256": "c561a39adc1eed2feea3288fb464837ae39b230f7b4ee79c5a055de11580374a"
+    },
+    {
+      "path": "book-kr/15-월세와-내집마련.md",
+      "sha256": "a836e2b43791401090e808944615132b00943b90b8fe5159da8253cc2649a9e2"
+    },
+    {
+      "path": "book-kr/16-만성질환-진단-후-사는-법.md",
+      "sha256": "bcf5ffefefb4ad3c2ece04dd09052e1a3de00a0f1fc9d21e4b0eb61ad8603753"
+    },
+    {
+      "path": "book-kr/17-집에-어르신이-있을-때.md",
+      "sha256": "350305c3d67ff9b920a23fbee9e00d1ab3b6c6ae3e9eb9f6a4011f373dcb4c71"
+    },
+    {
+      "path": "book-kr/18-아이-키우기-가성비.md",
+      "sha256": "d3e764db98a7b07c79aff330761eef9b9f59dc1303103124f05af3d6cd04f8cb"
+    },
+    {
+      "path": "book-kr/19-재직-퇴사-산재.md",
+      "sha256": "3e644d50e218cc04049177fa5a6ff81785f657f1eb9f5cbd68a61c6d7057fb3d"
+    },
+    {
+      "path": "book-kr/20-신생아-돌보기.md",
+      "sha256": "ea40ac0e1f26a0e919a06545ed497e906e5a7811d4c1d7156c1552d6602e6737"
+    },
+    {
+      "path": "book-kr/21-해외여행과-현지-안전.md",
+      "sha256": "38eaee10395f83580cba50f488c8c349f3b299fe140b648369371fc97e8be251"
+    },
+    {
+      "path": "book-kr/22-푹-쉬는-법.md",
+      "sha256": "85bc5c825ea174688e94248fe3af50e64f5438229b9a046e52dd3deff8df32d3"
+    },
+    {
+      "path": "book-kr/23-스킬-선택-가성비.md",
+      "sha256": "03e0c77e776aad475681365762a689e52140e0344529279b506661682579184f"
+    },
+    {
+      "path": "book-kr/24-병원-이용.md",
+      "sha256": "0b6ae836472ce21a4f2d8ac949487ad2768290aea9eb1d35fd95daf825107a4d"
+    },
+    {
+      "path": "book-kr/25-돌아가신-후-할-일.md",
+      "sha256": "2ce4a99c9c658bfefc6df6c23affc6369e6ae5f8415b6b5de7375f01f35d36c5"
+    },
+    {
+      "path": "book-kr/26-웹사이트-만들기.md",
+      "sha256": "b66af04261c4ddbda72c3a2e24623d1be897b56acec73f063fd60f577acdd9ba"
+    },
+    {
+      "path": "book-kr/27-임신과-출산.md",
+      "sha256": "30edce324d2368ea75bad81829819cd647581afaa7cdbcfa64775d26d53f21cd"
+    },
+    {
+      "path": "book-kr/28-외모-때문에-몸-망치지-않기.md",
+      "sha256": "772848381c48147797f9fb4cda86a85f7b02713cc272eccc8d983fb2ca38a723"
+    },
+    {
+      "path": "book-kr/29-큰-타격을-입은-후에.md",
+      "sha256": "4f3db5f9a348fed21cc549c285dc5efb10ca2bfbf9c98c90b685d18b2568ea19"
+    },
+    {
+      "path": "book-kr/30-학교-다니는-아이.md",
+      "sha256": "fcf4091d1dde978fddec620fc51f04e531fa5aa907b32e246f2e56aeccc52615"
+    },
+    {
+      "path": "book-kr/31-성인이-된-후의-길.md",
+      "sha256": "adebefad7a89304051ee3c7f9ee3b872732d642301dda5ed1bab8be30f32bf60"
+    },
+    {
+      "path": "book-kr/32-유학.md",
+      "sha256": "a0ff2cdbe9696bfff9329432434c14a95fe567bde9146dcfa660e621938a92ca"
+    },
+    {
+      "path": "book-kr/33-장애-이후-사는-법.md",
+      "sha256": "17a92c2e37179bfb21e3ebbf9cf91e1f4083099de259731fdb3b0686b9248df6"
+    },
+    {
+      "path": "book-kr/34-가정-상비약-사고-내지-않기.md",
+      "sha256": "1171281e286b8e792285b3f0aca8ae6c2fe272a1e53f9e8265525428025058e0"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "dist-kr/HowToLiveBetter-KR.epub",
+      "sha256": "af1cf97929c9a69e731837665f3773c699c516893f720b2e69017d0d1e557f5e",
+      "bytes": 846603
+    },
+    {
+      "path": "dist-kr/HowToLiveBetter-KR.pdf",
+      "sha256": "ac4bbb23af10d8860144995a2f217eb51829863933cf9fe5c7762e53e05c1bcd",
+      "bytes": 16707109
+    },
+    {
+      "path": "dist-kr/HowToLiveBetter-KR.html",
+      "sha256": "2e2403d78a9800e34c010295ea1b18f695a844f5b1c362ae7b67333c4fdc3047",
+      "bytes": 2904434
+    },
+    {
+      "path": "dist-kr/site/index.html",
+      "sha256": "1d2cb6ff9f5ee5ac79eeb75000fc0319ea1be33898249308c664b122d4599343",
+      "bytes": 11709
+    },
+    {
+      "path": "dist-kr/site/search-index.json",
+      "sha256": "9e30da8e1ce369536fffe12e8e82d9b658d0fd0e0f6680cc52b79c3fbfd40bd0",
+      "bytes": 120449
+    }
+  ],
+  "results": {
+    "gate_current_public": {
+      "pass": 34,
+      "total": 34
+    },
+    "balanced_doi_and_entry_accounting": {
+      "chapters": 34,
+      "issues": 0
+    },
+    "build_formats": [
+      "web",
+      "offline_html",
+      "epub",
+      "pdf"
+    ],
+    "epubcheck": {
+      "errors": 0,
+      "warnings": 0
+    },
+    "browser": {
+      "sitePages": 34,
+      "entries": 667,
+      "indexEntries": 667,
+      "siteRefs": 367,
+      "errors": []
+    },
+    "mobile": {
+      "viewport": [
+        390,
+        844
+      ],
+      "font_settings": [
+        0,
+        3
+      ],
+      "checks": 16,
+      "horizontal_overflow": 0,
+      "screenshot_directory": "/workspace/.cache/howtolivebetter/publication/checkpoint-08-mobile",
+      "visual_inspection_pending": false,
+      "visual_inspection": {
+        "screenshots": [
+          {
+            "path": "/workspace/.cache/howtolivebetter/publication/checkpoint-08-mobile/site-ch08-e46-fs3.png",
+            "sha256": "b538c05552e132976821e739c42d46e322f45770ecf0e4a00d509b2b57d3ed8f"
+          },
+          {
+            "path": "/workspace/.cache/howtolivebetter/publication/checkpoint-08-mobile/site-ch18-todo-fs3.png",
+            "sha256": "b29cae8ce0c949d9b7916fc42b184f184ab89f63576360b336330d3b477c1821"
+          }
+        ],
+        "result": "Directly inspected large-font390px chapter08 entry46 and chapter18 TODO: readable wrapped headings/body/easy-field and intact references, no horizontal clipping."
+      }
+    }
+  },
+  "logs": {
+    "gate": {
+      "path": "kr-harness/publication/2026-10-18/root-08-gate.log",
+      "sha256": "70342701ba0c9f629527a9b559d2165630b9db832a8155d0c3ad9e2a690c2db7"
+    },
+    "doi": {
+      "path": "kr-harness/publication/2026-10-18/root-08-doi.log",
+      "sha256": "79fa67162fd0eb2b31bf1122485ea1a39cd0cc24fa66c85b2b2f2aa35fd337ea"
+    },
+    "build": {
+      "path": "kr-harness/publication/2026-10-18/root-08-build.log",
+      "sha256": "d29e4a59a99a29fd18fe03a4e9b70dd1437487c9f6a1d369d086637c006035ad"
+    },
+    "epubcheck": {
+      "path": "kr-harness/publication/2026-10-18/root-08-epubcheck.log",
+      "sha256": "80f9cc5e0f9ebeef3e9db2b642ecfd5e09724270f870ed1d0d674100deee5c70"
+    },
+    "reader": {
+      "path": "kr-harness/publication/2026-10-18/root-08-reader.log",
+      "sha256": "908975535e2561f6e9c8ac4602b71392d2ee4bd8db3c241ef39097076a943c74"
+    },
+    "mobile": {
+      "path": "kr-harness/publication/2026-10-18/root-08-mobile.log",
+      "sha256": "dd4b8beb75fe52cdb876333a648e3ee2aa426ab18f625ade3c67373b82bc0d42"
+    }
+  },
+  "deployed": false
+}

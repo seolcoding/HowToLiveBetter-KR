@@ -1,0 +1,168 @@
+{
+  "status": "unapproved_proposal",
+  "entry": 1,
+  "base_strict_sha256": "f12870218d8b0df6cf252431791036fd3364dbcb898553c4c2839990a516ff0c",
+  "proposal_sha256": "7a2bde32a619c5df7b24705122383668ac7d03f57232f6fc6bd2a9c055f51bac",
+  "field_changes": [
+    {
+      "field": "이득",
+      "before": "거짓 신고는 「경범죄 처벌법」 제3조제3항제2호에 규정되어 있습니다. 법정형은 60만원 이하 벌금·구류·과료입니다. 허위 사실 등으로 남의 업무를 방해하면 업무방해죄가 됩니다. 법정형은 5년 이하 징역 또는 1,500만원 이하 벌금입니다. 다른 사람을 처벌받게 하려고 허위로 신고하면 제156조의 무고죄가 될 수 있습니다.",
+      "after": "「경범죄 처벌법」 제3조제3항제2호는 거짓 신고를 처벌합니다. 공무원에게 없는 범죄나 재해 사실을 거짓으로 신고한 경우입니다. 법정형은 60만원 이하 벌금·구류·과료입니다. 허위 사실 유포나 위계·위력으로 남의 업무를 방해하면 업무방해죄가 됩니다. 법정형은 5년 이하 징역 또는 1,500만원 이하 벌금입니다. 다른 사람에게 형사처분이나 징계처분을 받게 할 목적도 살펴야 합니다. 그 목적으로 공무소나 공무원에게 허위 사실을 신고하면 무고죄가 될 수 있습니다. 이는 「형법」 제156조에 규정되어 있습니다.",
+      "reason": "신고 상대방·무고의 형사/징계처분 목적 및 업무방해 수단을 법문 범위로 명시"
+    },
+    {
+      "field": "비고",
+      "before": "사실과 다른 글을 올렸다고 모두 같은 죄가 되지는 않습니다. 신고 대상과 목적, 업무방해 여부를 따져야 합니다. 사진 편집이나 AI 사용 여부보다 실제 내용과 행위가 중요합니다. 2026-10-10 법령 확인(국가법령정보센터).",
+      "after": "사실과 다른 글을 올렸다고 모두 같은 죄가 되지는 않습니다. 신고 대상과 목적, 업무방해 여부를 따져야 합니다. 사진 편집이나 AI 사용 여부보다 실제 내용과 행위가 중요합니다. 2026-10-18 법령 확인(국가법령정보센터).",
+      "reason": "직접 읽은 법문 기준 확인일 갱신"
+    }
+  ],
+  "primary_evidence": [
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290135&type=XML",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290135.xml",
+      "sha256": "afeade8846b7d5b65a2a2da45d7c2a5709df794d44cbc95fdbba6e737b71a0e1",
+      "read_level": "cached primary XML: relevant articles, effective-date metadata and final supplementary provisions directly read",
+      "articles": [
+        "3"
+      ],
+      "exact_primary_quotations": [
+        "③\n③ 다음 각 호의 어느 하나에 해당하는 사람은 60만원 이하의 벌금, 구류 또는 과료의 형으로 처벌한다. <개정 2013.5.22>\n\n1.\n1. (관공서에서의 주취소란) 술에 취한 채로 관공서에서 몹시 거친 말과 행동으로 주정하거나 시끄럽게 한 사람\n\n\n2.\n2. (거짓신고) 있지 아니한 범죄나 재해 사실을 공무원에게 거짓으로 신고한 사람"
+      ],
+      "effective_date": "20261002",
+      "supplementary_provision": "부칙 <제22014호,2026.9.29>\n\n\n이 법은 2026년 10월 2일부터 시행한다.\n\n\n\n",
+      "verified_at_utc": "2026-10-18T20:12:33.148248+00:00",
+      "method": "existing_cache_read; no new HTTP request"
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290185&type=XML",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290185.xml",
+      "sha256": "391f3c2bb7173fff4040eda9ae2259674b616e58aeadf4371206b63c70f1c89b",
+      "read_level": "cached primary XML: relevant articles, effective-date metadata and final supplementary provisions directly read",
+      "articles": [
+        "156",
+        "313",
+        "314"
+      ],
+      "exact_primary_quotations": [
+        "156\n조문\n무고\n20261002\n\n\nN\n제156조(무고) 타인으로 하여금 형사처분 또는 징계처분을 받게 할 목적으로 공무소 또는 공무원에 대하여 허위의 사실을 신고한 자는 10년 이하의 징역 또는 1천500만원 이하의 벌금에 처한다. <개정 1995.12.29>",
+        "313\n조문\n신용훼손\n20261002\n\n\nN\n제313조(신용훼손) 허위의 사실을 유포하거나 기타 위계로써 사람의 신용을 훼손한 자는 5년 이하의 징역 또는 1천500만원 이하의 벌금에 처한다. <개정 1995.12.29>",
+        "314\n조문\n업무방해\n20261002\n\n\nN\n제314조(업무방해)\n\n①\n①제313조의 방법 또는 위력으로써 사람의 업무를 방해한 자는 5년 이하의 징역 또는 1천500만원 이하의 벌금에 처한다. <개정 1995.12.29>\n\n\n②\n②컴퓨터등 정보처리장치 또는 전자기록등 특수매체기록을 손괴하거나 정보처리장치에 허위의 정보 또는 부정한 명령을 입력하거나 기타 방법으로 정보처리에 장애를 발생하게 하여 사람의 업무를 방해한 자도 제1항의 형과 같다. <신설 1995.12.29>"
+      ],
+      "effective_date": "20261002",
+      "supplementary_provision": "부칙 <제22007호,2026.9.29>\n\n\n이 법은 2026년 10월 2일부터 시행한다.\n\n\n\n",
+      "verified_at_utc": "2026-10-18T20:12:33.155510+00:00",
+      "method": "existing_cache_read; no new HTTP request"
+    },
+    {
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch09-audit/current-290135.xml",
+      "sha256": "7739e52c21bf542f526485d58dad99e6ae300a114ba636f55e97902f62287beb",
+      "method": "cached primary current-version search XML directly parsed",
+      "matched_law_rows": [
+        {
+          "법령일련번호": "290135",
+          "현행연혁코드": "현행",
+          "법령명한글": "경범죄 처벌법",
+          "법령약칭명": null,
+          "법령ID": "001674",
+          "공포일자": "20260929",
+          "공포번호": "22014",
+          "제개정구분명": "일부개정",
+          "소관부처코드": "1320000,1532000",
+          "소관부처명": "경찰청,해양경찰청",
+          "법령구분명": "법률",
+          "공동부령정보": null,
+          "시행일자": "20261002",
+          "자법타법여부": null,
+          "법령상세링크": "/DRF/lawService.do?OC=test&target=law&MST=290135&type=HTML&mobileYn=&efYd=20261002"
+        }
+      ]
+    },
+    {
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch09-audit/current-290185.xml",
+      "sha256": "20d931ae62b218c093521913e128bbab7685bd7e13b4b5c1fe4d346b18274bed",
+      "method": "cached primary current-version search XML directly parsed",
+      "matched_law_rows": [
+        {
+          "법령일련번호": "290185",
+          "현행연혁코드": "현행",
+          "법령명한글": "형법",
+          "법령약칭명": null,
+          "법령ID": "001692",
+          "공포일자": "20260929",
+          "공포번호": "22007",
+          "제개정구분명": "일부개정",
+          "소관부처코드": "1270000",
+          "소관부처명": "법무부",
+          "법령구분명": "법률",
+          "공동부령정보": null,
+          "시행일자": "20261002",
+          "자법타법여부": null,
+          "법령상세링크": "/DRF/lawService.do?OC=test&target=law&MST=290185&type=HTML&mobileYn=&efYd=20261002"
+        }
+      ]
+    }
+  ],
+  "scope": "경범죄3③2; 형법313·314①·156; 현행 검색 및 최종 부칙 시행일 직접 대조",
+  "incoming_anchors": [
+    {
+      "path": "/workspace/HowToLiveBetter-KR/book-kr/09-흔한-법적-레드라인.md",
+      "line": 36,
+      "text": "- 비고: 해외 정치 기사 열람이나 정부 비판 자체를 금지하는 조문으로 설명하지 않습니다. 소지도 제5항에 적힌 목적이 있어야 처벌 대상이 됩니다. 원문의 해외 자금 수령·정치권 박탈·일괄 가중처벌 규칙은 한국 규칙으로 옮기지 않았습니다. 허위 소식 공유는 제1항(재난 소식)을 보세요. 2026-10-10 법령 확인(국가법령정보센터)."
+    }
+  ],
+  "title_unchanged": true,
+  "outgoing_references": [],
+  "intentional_numeric_changes": [
+    "확인일 2026-10-10→2026-10-18; 법정형 수치 유지"
+  ],
+  "doi_additions": [],
+  "doi_removals": [],
+  "unresolved_limitations": [
+    "판례·개별 사안의 범죄 성립 여부는 검증하지 않았습니다. 본문은 해당 구성요건과 유보를 유지합니다."
+  ],
+  "reading_scope": [
+    "AGENTS.md",
+    "KR-GUIDE.md",
+    "publication-author-constraints.md",
+    "formal-author-constraints.md",
+    "CONTRACT.md",
+    "ch09/content-audit.md 제1항 및 현행검색",
+    "ch09/editorial-decisions.json 제1항",
+    "strict-entry.md",
+    "관련 법령 XML·최종 부칙·현행검색 XML"
+  ],
+  "checks": {
+    "literal": {
+      "command": [
+        "python",
+        "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/publication-partial-review-evidence/literal_check.py",
+        "/tmp/ch09e01-full-manifest.json"
+      ],
+      "exit_code": 0,
+      "output": [
+        {
+          "entry": 1,
+          "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-001-14ff/publication-entry-proposal.md",
+          "title_chars": 43,
+          "easy_chars": 55,
+          "easy_sentences": 2,
+          "long_sentences": [],
+          "pass_length": true
+        }
+      ]
+    },
+    "layout": {
+      "command": [
+        "python",
+        "/workspace/.cache/howtolivebetter/publication/check-full-layout.py",
+        "/tmp/ch09e01-full-manifest.json"
+      ],
+      "exit_code": 0,
+      "output": {
+        "checked": 1,
+        "failures": []
+      }
+    }
+  }
+}

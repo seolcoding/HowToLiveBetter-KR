@@ -1,13 +1,13 @@
 {
   "applied_to_working_tree": true,
-  "formal_review": "pass_at_current_hash_after_literal_style_and_current_law_reread",
+  "formal_review": "pass",
   "deployed": false,
   "reviewed_candidate_sha256": "a91bb0ed760587092673e1eb928c61e152700e4a3ba0d1375050c805b134ed50",
   "previous_review_archive": "kr-harness/chapters/18/kr-fit-review.r3.md",
   "blockers": 0,
   "warnings": 3,
-  "formal_sha256": "c8675e5dc4cd2e6ac626e63ad2cb52ec1fcb3b40aeec47e366747006280391de",
-  "gate": "passed_and_promoted",
+  "formal_sha256": "89109d368c08d664822467cb8f8b60f88d3fbb11e53075b543ea572cde576a4a",
+  "gate": "passed/promoted",
   "additional_style_followup": {
     "status": "completed_independently_approved_applied_and_reread",
     "entries": [
@@ -19,7 +19,7 @@
     "reason": "current length audit found ordinary sentences over50 chars, mostly inline legal citations; separate author proposals and current-hash review required before final publication"
   },
   "post_formal_style_integration": "post-formal-style-integration-r1.json",
-  "current_public_raw_sha256": "3176ee900412a711aed03090c222d290dac32d88fc06c5a0cb422f9440009957",
+  "current_public_raw_sha256": "d3e764db98a7b07c79aff330761eef9b9f59dc1303103124f05af3d6cd04f8cb",
   "previous_style_review_archive": "kr-harness/chapters/18/kr-fit-review.r4.md",
   "formal_blockers": 0,
   "formal_warnings": 3,
@@ -33,5 +33,17 @@
     },
     "former_W3_warning_corrected": true,
     "future_commencement": "2026-12-08"
-  }
+  },
+  "status": "current_hash_formal_pass_promoted_pending_full_project_completion",
+  "source": "book-kr/18-아이-키우기-가성비.md",
+  "current_cli_sha256": "49a5393886e90f65cac08885673501b786549a1d968a8bc6149526ec4d732d2e",
+  "current_tail_style_candidate_raw_sha256": "d3e764db98a7b07c79aff330761eef9b9f59dc1303103124f05af3d6cd04f8cb",
+  "current_tail_style_integration_sha256": "64e6ca52a1bda295b84de2f9db4b3c520956d2ee6e39fa890eac8050801ec4ef",
+  "formal_kr_fit_approval": true,
+  "previous_formal_review_sha256": "0cc8ed72beb164f86eed44a3c33278d59e23ea4fa23782c9202c4e864c855c36",
+  "last_gate_exit_code": 0,
+  "formal_review_sha256": "89109d368c08d664822467cb8f8b60f88d3fbb11e53075b543ea572cde576a4a",
+  "current_formal_reviewer": "/root/publication_tail_formal_18",
+  "deletions": 0,
+  "promoted_at_utc": "2026-10-18T20:46:44.709317+00:00"
 }

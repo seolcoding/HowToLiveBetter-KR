@@ -1,0 +1,126 @@
+{
+  "status": "unapproved_proposal",
+  "entry": 2,
+  "base": "strict-entry.md",
+  "base_sha256": "3719ad990be0a4b06e20fd86bc8479abc0f88c543a28778473d11fd396501c6f",
+  "proposal_sha256": "73a80ca95535bcc8e23e735a8c0d659898e7b851c2b407c3bbd576f911d2def8",
+  "verification_date": "2026-10-18",
+  "field_changes": [
+    {
+      "field": "비용",
+      "before": "글과 사진을 보내기 전에 내용을 확인합니다. 의견 표현과 허위 사실 유포를 구분하세요.",
+      "after": "글과 사진을 보내기 전에 내용을 확인합니다. 의견 표현과 허위 사실 유포를 구분하세요.",
+      "reason": "변경 없음"
+    },
+    {
+      "field": "쉽게",
+      "before": "고인에 관한 거짓말을 공개하면 처벌받을 수 있습니다. 나라를 모욕하려고 국기를 훼손해도 처벌받을 수 있습니다.",
+      "after": "고인에 관한 거짓말을 공개하면 처벌받을 수 있습니다. 대한민국을 모욕하려고 국기를 훼손해도 처벌받을 수 있습니다.",
+      "reason": "대한민국 모욕 목적을 정확히 제한"
+    },
+    {
+      "field": "이득",
+      "before": "허위 사실을 공개해 고인의 명예를 해치면 처벌받을 수 있습니다. 법정형은 2년 이하 징역·금고 또는 500만원 이하 벌금입니다. 국기·국장을 모욕 목적으로 손상·제거·오욕하면 처벌받을 수 있습니다. 이때 모욕 대상은 대한민국이어야 합니다. 법정형은 5년 이하 징역·금고입니다. 10년 이하 자격정지나 700만원 이하 벌금도 규정돼 있습니다.",
+      "after": "허위 사실을 공개해 고인의 명예를 해치면 처벌받을 수 있습니다. 법정형은 2년 이하 징역·금고 또는 500만원 이하 벌금입니다. 국기·국장을 모욕 목적으로 손상·제거·오욕하면 처벌받을 수 있습니다. 이때 모욕 대상은 대한민국이어야 합니다. 법정형에는 5년 이하 징역·금고가 있습니다. 다른 선택형은 10년 이하 자격정지나 700만원 이하 벌금입니다.",
+      "reason": "제105조 선택형을 한정해 표시"
+    },
+    {
+      "field": "근거등급",
+      "before": "A",
+      "after": "A",
+      "reason": "변경 없음"
+    },
+    {
+      "field": "출처",
+      "before": "「형법」 제308조·제105조. https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&type=XML&MST=290185&efYd=20261002",
+      "after": "「형법」 제308조·제312조제1항·제105조. https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&type=XML&MST=290185&efYd=20261002",
+      "reason": "제312조제1항 추가"
+    },
+    {
+      "field": "비고",
+      "before": "원문의 영웅·열사 특별 보호와 국가 상징 농담 금지를 그대로 옮기지 않았습니다. 국기 관련 처벌은 나라를 모욕하려는 목적이 있어야 합니다. 비판이나 농담이라는 이유만으로 위 조문이 적용되지는 않습니다. 2026-10-10 법령 확인(국가법령정보센터).",
+      "after": "사자명예훼손죄는 고소가 있어야 공소를 제기할 수 있습니다. 국기 관련 처벌은 대한민국을 모욕하려는 목적이 있어야 합니다. 비판이나 농담이라는 이유만으로 위 조문이 적용되지는 않습니다. 2026-10-18 법령 확인(국가법령정보센터).",
+      "reason": "제312조 고소 조건 보강, 불필요한 중국 원문 변환 메모 제거, 확인일 갱신"
+    }
+  ],
+  "title_change": false,
+  "sources": [
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290185&type=XML",
+      "method": "existing_cache_read; actual XML article text read",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290185.xml",
+      "sha256": "391f3c2bb7173fff4040eda9ae2259674b616e58aeadf4371206b63c70f1c89b",
+      "read_scope": "기본정보, 제105조, 제308조, 제312조 양항, 최근 부칙 21231·21307·21450·22007",
+      "quotes": [
+        {
+          "article": "105",
+          "exact_quote": "105 \n 조문 \n 국기, 국장의 모독 \n 20261002 \n \n \n N \n 제105조(국기, 국장의 모독) 대한민국을 모욕할 목적으로 국기 또는 국장을 손상, 제거 또는 오욕한 자는 5년 이하의 징역이나 금고, 10년 이하의 자격정지 또는 700만원 이하의 벌금에 처한다. <개정 1995.12.29>"
+        },
+        {
+          "article": "308",
+          "exact_quote": "308 \n 조문 \n 사자의 명예훼손 \n 20261002 \n \n \n N \n 제308조(사자의 명예훼손) 공연히 허위의 사실을 적시하여 사자의 명예를 훼손한 자는 2년 이하의 징역이나 금고 또는 500만원 이하의 벌금에 처한다. <개정 1995.12.29>"
+        },
+        {
+          "article": "312",
+          "exact_quote": "312 \n 조문 \n 고소와 피해자의 의사 \n 20261002 \n \n \n N \n 제312조(고소와 피해자의 의사) \n \n ① \n ①제308조와 제311조의 죄는 고소가 있어야 공소를 제기할 수 있다. <개정 1995.12.29> \n \n \n ② \n ②제307조와 제309조의 죄는 피해자의 명시한 의사에 반하여 공소를 제기할 수 없다. <개정 1995.12.29>"
+        }
+      ],
+      "effective": "2026-10-02; 부칙 제22007호: 이 법은 2026년 10월 2일부터 시행한다."
+    },
+    {
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch09-audit/current-290185.xml",
+      "sha256": "20d931ae62b218c093521913e128bbab7685bd7e13b4b5c1fe4d346b18274bed",
+      "method": "existing_cache_read; complete search XML",
+      "read_scope": "형법 exact-title 현행 MST290185 시행20261002; other-name future records are not 형법"
+    }
+  ],
+  "intentional_scope_changes": [
+    "사자명예훼손죄의 고소 조건 추가",
+    "국기 모욕 대상을 대한민국으로 한정"
+  ],
+  "intentional_numeric_changes": [],
+  "doi_additions": [],
+  "doi_removals": [],
+  "reference_check": {
+    "incoming": "rg book-kr 전체에서 제9절 제2항 및 고인/국기 앵커 검색: 해당 참조 없음; 제목 보존",
+    "outgoing": "참조 없음"
+  },
+  "unresolved_limitations": [
+    "개별 사건의 공연성·명예훼손·모욕 목적 해당 여부와 판례는 독립 조사하지 않았습니다. 법률 요건·법정형만 확인했습니다."
+  ],
+  "checks": [
+    {
+      "command": [
+        "python",
+        "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/publication-partial-review-evidence/literal_check.py",
+        "/tmp/ch09e02-layout-manifest.json"
+      ],
+      "exit_code": 0,
+      "stdout": "[\n  {\n    \"entry\": 2,\n    \"path\": \"/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-002-c44a/publication-entry-proposal.md\",\n    \"title_chars\": 38,\n    \"easy_chars\": 63,\n    \"easy_sentences\": 2,\n    \"long_sentences\": [],\n    \"pass_length\": true\n  }\n]\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "/workspace/.cache/howtolivebetter/publication/check-full-layout.py",
+        "/tmp/ch09e02-layout-manifest.json"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"checked\": 1, \"failures\": []}\n",
+      "stderr": ""
+    }
+  ],
+  "preserved": [
+    "original inputs",
+    "final.md",
+    "strict-entry.md",
+    "source.md",
+    "snapshots",
+    "manifest",
+    "public chapter"
+  ],
+  "author_revision_backup": [
+    "/tmp/ch09e02-proposal-before-clarification.md",
+    "/tmp/ch09e02-changes-before-clarification.json"
+  ]
+}

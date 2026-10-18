@@ -1,0 +1,80 @@
+{
+  "created_at_utc": "2026-10-18T20:33:58.204119+00:00",
+  "reviewer": "publication_tail_formal_01",
+  "documents": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "d44e5b25d3bb280a93ff697f67b68aac55dbc93e0c71fe7872141f5749ce9c19",
+      "scope": "instruction/content inspection; some large combined command outputs truncated; no claim every byte rendered in model context"
+    },
+    {
+      "path": "CLAUDE.md",
+      "sha256": "8b6476b179a38f8b3ac80177e77facad1fe0598f62144118db8f9e7183498ff2",
+      "scope": "instruction/content inspection; some large combined command outputs truncated; no claim every byte rendered in model context"
+    },
+    {
+      "path": "KR-GUIDE.md",
+      "sha256": "18f1176b05d290245fee056b6bc18efbb27847b65434a59f9779a6d8ce6ff9be",
+      "scope": "instruction/content inspection; some large combined command outputs truncated; no claim every byte rendered in model context"
+    },
+    {
+      "path": ".claude/agents/kr-fit-reviewer.md",
+      "sha256": "81e9391df4e83c1e4799a2ca957013e6295399bb0e84ec55fb3aeeb03c409504",
+      "scope": "instruction/content inspection; some large combined command outputs truncated; no claim every byte rendered in model context"
+    },
+    {
+      "path": ".claude/skills/kr-verify/SKILL.md",
+      "sha256": "767056a1849cbdec37897b60766f1dca7b7b34a23c994bb44cfe21b1a7dd01f3",
+      "scope": "instruction/content inspection; some large combined command outputs truncated; no claim every byte rendered in model context"
+    },
+    {
+      "path": ".claude/skills/kr-fit-review/SKILL.md",
+      "sha256": "13d05fec07fcd674379eca5d3907b2e5ed26ec55f8e8523f939e0ce81436e785",
+      "scope": "instruction/content inspection; some large combined command outputs truncated; no claim every byte rendered in model context"
+    },
+    {
+      "path": "kr-harness/publication/CONTRACT.md",
+      "sha256": "1618da36ae45bfbe7637691b72c20053f37f4b5e112f774b868aacb81f838b5d",
+      "scope": "instruction/content inspection; some large combined command outputs truncated; no claim every byte rendered in model context"
+    },
+    {
+      "path": "book-kr/01-너무-일찍-죽지-않기.md",
+      "sha256": "fa0cb68d45ee5db23d20629e549361db433c226a00701e3bc899cf9a23cb96c4",
+      "scope": "instruction/content inspection; some large combined command outputs truncated; no claim every byte rendered in model context"
+    },
+    {
+      "path": "kr-harness/publication/2026-10-18/ch01/editorial-decisions.json",
+      "sha256": "b66e80829ed6c8e906e14deecb70ea01986e4ed8448c4bdc2febc8dc0a49a6b6",
+      "scope": "instruction/content inspection; some large combined command outputs truncated; no claim every byte rendered in model context"
+    },
+    {
+      "path": "kr-harness/publication/2026-10-18/ch01/content-audit.md",
+      "sha256": "3c3322f104091d2301da3f597083ea28c6db89115dec76e2a371d18f62f00fe2",
+      "scope": "instruction/content inspection; some large combined command outputs truncated; no claim every byte rendered in model context"
+    },
+    {
+      "path": "kr-harness/publication/2026-10-18/ch01/current-tail-style-integration-r1.json",
+      "sha256": "83187bda08fc13bac421518054d61e71256a78f1e3b6c2cc42f80e6663b350d9",
+      "scope": "instruction/content inspection; some large combined command outputs truncated; no claim every byte rendered in model context"
+    },
+    {
+      "path": "kr-harness/publication/2026-10-18/ch01/publication-current-tail-style-proposal-r1.json",
+      "sha256": "d858d5d89574b439bd812ca6df7f999cd36f6647a920818f1b32bc18388c0b8e",
+      "scope": "instruction/content inspection; some large combined command outputs truncated; no claim every byte rendered in model context"
+    },
+    {
+      "path": "kr-harness/publication/2026-10-18/ch01/publication-current-tail-style-review-r1.json",
+      "sha256": "974cb46f4d462c58ea14415b046d9cf8a61fcf269f42701e0329ba928714ea79",
+      "scope": "instruction/content inspection; some large combined command outputs truncated; no claim every byte rendered in model context"
+    },
+    {
+      "path": "kr-harness/chapters/01/kr-fit-review.r3.md",
+      "sha256": "00d467e6d2aa7cb84874167481f8b9ccd4d626290c5339f7b9e455cf2c35ae4e",
+      "scope": "instruction/content inspection; some large combined command outputs truncated; no claim every byte rendered in model context"
+    }
+  ],
+  "actual_body_scope": "42 entries six fields, intro, TODO; byte preservation verified with production AST; ordinary sentence enumeration retained in literal-metrics",
+  "primary_read_scope": "Numeric/endpoint/population scoped abstract excerpts inspected; exact cached bytes SHA checked; statutory article reads listed in formal. Complete fullpapers were not newly read. New HTTP=0. Prior exact matching approvals reused only within declared original scope.",
+  "external_extraction_root": "/workspace/.cache/howtolivebetter/publication/tail-formal-01-r1",
+  "not_approved": "Source exhaustiveness, current-policy census, deployment, root gate/promote; fail requires independent intro correction before new hash approval."
+}

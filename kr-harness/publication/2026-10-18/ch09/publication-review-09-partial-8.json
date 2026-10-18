@@ -1,0 +1,415 @@
+{
+  "review_id": "publication-review-09-partial-8",
+  "status": "partial_3_approved_2_revision_required_not_chapter_approval",
+  "reviewed_at_utc": "2026-10-18T20:44:50.857827+00:00",
+  "manifest_path": "kr-harness/publication/2026-10-18/ch09/author-partial-manifest-8.json",
+  "manifest_sha256": "ba4a31890b1c693e479f9ef15f5b19687de9739e84aa29eb89f31148faacc761",
+  "whole_baseline_guards": {
+    "source": {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/source.md",
+      "sha256": "944ab983bf1467dd3e475b1798c9284c2df0ab927bfc75657ac87d928c95a4c4"
+    },
+    "publication_manifest": {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/manifest.json",
+      "sha256": "ec029de45d75a5de63fd7c7ec3c4419bcc92fc3e5dd53af1a1c6a48ec347e467"
+    },
+    "current_public": {
+      "path": "/workspace/HowToLiveBetter-KR/book-kr/09-흔한-법적-레드라인.md",
+      "sha256": "944ab983bf1467dd3e475b1798c9284c2df0ab927bfc75657ac87d928c95a4c4"
+    },
+    "pure_candidate": {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/candidate.md",
+      "sha256": "944ab983bf1467dd3e475b1798c9284c2df0ab927bfc75657ac87d928c95a4c4"
+    }
+  },
+  "entries": [
+    {
+      "entry": 16,
+      "decision": "revise",
+      "proposal_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-016-ba1e/publication-entry-proposal-r2.md",
+      "proposal_sha256": "aac13641368ec49ff13287021dfe8ecc8f8a86adcdfc10b947e1785c67cbeaa8",
+      "changes_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-016-ba1e/changes-r2.json",
+      "changes_sha256": "8cc60f20000804a9b28b5a44efaffebf174bcea9df7eab222bb9dc56f027a24e",
+      "strict_base_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-016-ba1e/strict-entry.md",
+      "strict_base_sha256": "0720c705eb0670485fcf33e479567ec29d9e6e7043b747955c9126c87cbd7d99",
+      "supersession_r1": {
+        "path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-016-ba1e/publication-entry-proposal.md",
+        "sha256": "104dfbbf46c9811459f1899f13570d7a5b537a8998abce7a77e5dc95e57a301e",
+        "changed_only_notes": true
+      },
+      "field_decisions": {
+        "title": "approve",
+        "비용": "approve",
+        "쉽게": "approve",
+        "이득": "approve",
+        "근거등급": "approve",
+        "출처": "approve",
+        "비고": "revise"
+      },
+      "reason": "37①10의정확친족범주·피해자의명시의사/다른호비확대를반영해사실요청해소. 기존검색으로법268555현행과시행령미래판도구별했다. 다만새비고캐시/MST번호는독자본문의불필요한구현메타정보라최소정리가필요하다.",
+      "revision_requests": [
+        {
+          "field": "비고",
+          "before": "기존 현행검색 캐시의 법률 현행판(268555)을 확인했습니다.",
+          "kind": "reader_facing_scope",
+          "request": "캐시·MST디버그정보를빼고인용주민등록법의현행확인상태로최소정리. 현재시행일/장래시행구별·친족조건·다른필드보존."
+        }
+      ],
+      "exact_actual_field_changes": [
+        {
+          "field": "출처",
+          "before": "「주민등록법」 제37조제1항제8호·제8호의2·제10호. https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&type=XML&MST=268555&efYd=20250722",
+          "after": "「주민등록법」 제37조제1항제2호·제8호·제8호의2·제10호. https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&type=XML&MST=268555&efYd=20250722"
+        },
+        {
+          "field": "비고",
+          "before": "주민등록증을 채무 이행 담보로 주거나 받는 행위도 있습니다. 이 역시 제37조에 규정돼 있습니다. 단순히 빌려줬다는 이유만으로 원문의 정액 벌금을 옮기지 않았습니다. 카드는 제5항(고수익 아르바이트), 계정 보안은 제14절(계정과 정보 보안)을 보세요. 2026-10-10 법령 확인(국가법령정보센터).",
+          "after": "주민등록증을 채무 이행 담보로 주거나 받는 행위도 있습니다. 이 역시 제37조에 규정돼 있습니다. 단순 대여만으로 위 법정형이 적용된다고 단정할 수는 없습니다. 주민등록번호 부정 사용은 제37조제1항제10호에서 규정합니다. 그 제10호는 직계혈족·배우자·동거친족 또는 그 배우자 간에 단서가 있습니다. 이 경우 피해자가 명시한 의사에 반하여 공소를 제기할 수 없습니다. 제8호·제8호의2의 주민등록증등·사진 부정 사용에는 이 단서가 없습니다. 카드 대여는 제5항(고수익 아르바이트)을 보세요. 계정 보안은 제14절(계정과 정보 보안)을 보세요. 2026-10-18 인용판 확인(국가법령정보센터). 기존 현행검색 캐시의 법률 현행판(268555)을 확인했습니다. 시행일은 2025-07-22입니다. 시행령의 2026-10-29 시행예정판과는 다릅니다."
+        }
+      ],
+      "lengths": {
+        "title_chars": 42,
+        "easy_chars": 62,
+        "easy_sentences": 2,
+        "ordinary_literal50_parentheses_included": true
+      },
+      "checks": {
+        "exactguards_and_strict_match": true,
+        "six_single_line_fields_production": true,
+        "title_tag_grade_protected": true,
+        "DOI_set_preserved": true
+      }
+    },
+    {
+      "entry": 17,
+      "decision": "approve",
+      "proposal_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-017-9dfd/publication-entry-proposal-r2.md",
+      "proposal_sha256": "25601ebb08f3cbf655841f5aabb2303fd4dff797d3aeedc0e255e9093bccac8b",
+      "changes_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-017-9dfd/changes-r2.json",
+      "changes_sha256": "1b65820a44cf327f90ee71296428ce23623bb8608f3b7953e4dea272972525d2",
+      "strict_base_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-017-9dfd/strict-entry.md",
+      "strict_base_sha256": "8e49678c7c9305b1f64c42c346118bed8ca09e7b6c5c33baffb6620563fc8373",
+      "supersession_r1": {
+        "path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-017-9dfd/publication-entry-proposal.md",
+        "sha256": "3aa04a5a4800b287f094541f898df95f9ec72aac0f267e76a6150043a22f237c",
+        "changed_only_notes": true
+      },
+      "field_decisions": {
+        "title": "approve",
+        "비용": "approve",
+        "쉽게": "approve",
+        "이득": "approve",
+        "근거등급": "approve",
+        "출처": "approve",
+        "비고": "approve"
+      },
+      "reason": "경찰전용형량이식메모를삭제하고 가벼운저항자동면책불가의기존유보를독자용조건으로보존했다. 적법집행/진술거부·변호인과판례/절차전반미확인범위및다른필드는그대로여서partial5요청해소.",
+      "revision_requests": [],
+      "exact_actual_field_changes": [
+        {
+          "field": "출처",
+          "before": "「형법」 제136조. https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&type=XML&MST=290185&efYd=20261002",
+          "after": "「형법」 제136조 제1항. https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290185&type=XML · 「형사소송법」 제30조·제200조의5·제244조의3. https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290189&type=XML"
+        },
+        {
+          "field": "비고",
+          "before": "모든 질문에 답할 의무가 있다는 뜻은 아닙니다. 진술거부권이 없다는 뜻도 아닙니다. 체포 사유와 권리 안내를 요구하세요. 변호인의 조력을 구하세요. 원문의 경찰 전용 형량은 옮기지 않았습니다. 가벼운 저항을 자동으로 제외하는 규칙도 옮기지 않았습니다. 절차별 권리는 제8절(법적 말썽에 휘말리지 않기)을 보세요. 2026-10-10 법령 확인(국가법령정보센터).",
+          "after": "모든 질문에 답할 의무가 있다는 뜻은 아닙니다. 진술거부권이 없다는 뜻도 아닙니다. 체포 사유와 권리 안내를 요구하세요. 변호인의 조력을 구하세요. 저항이 가볍다는 이유만으로 자동 면책되지는 않습니다. 조사 권리는 제8절 제5항(진술거부권)을 보세요. 적법한 직무 집행의 구체적 판례는 독립 확인하지 못했습니다. 체포 절차 전반의 검증도 마치지 못했습니다. 2026-10-18 법령 재확인(국가법령정보센터)."
+        }
+      ],
+      "lengths": {
+        "title_chars": 30,
+        "easy_chars": 54,
+        "easy_sentences": 2,
+        "ordinary_literal50_parentheses_included": true
+      },
+      "checks": {
+        "exactguards_and_strict_match": true,
+        "six_single_line_fields_production": true,
+        "title_tag_grade_protected": true,
+        "DOI_set_preserved": true
+      }
+    },
+    {
+      "entry": 18,
+      "decision": "approve",
+      "proposal_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-018-e901/publication-entry-proposal-r2.md",
+      "proposal_sha256": "a33b145110cf9c9ffda15d2352df2ad5fbf74d3a69d15cf45c34e3d04fffa55a",
+      "changes_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-018-e901/changes-r2.json",
+      "changes_sha256": "6087eccffefd71f7d466281483220ed6d63c0a09cde98b9f8dded74dd4509408",
+      "strict_base_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-018-e901/strict-entry.md",
+      "strict_base_sha256": "159c4189d6f6201c8225b854ec477f64f71407c46ebb9f4c6c154810a110e349",
+      "supersession_r1": {
+        "path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-018-e901/publication-entry-proposal.md",
+        "sha256": "ec79ba994a68dea06a98d0eec2d9356d90fb99eac3a8b4c11a26ac449e2cf845",
+        "changed_only_notes": true
+      },
+      "field_decisions": {
+        "title": "approve",
+        "비용": "approve",
+        "쉽게": "approve",
+        "이득": "approve",
+        "근거등급": "approve",
+        "출처": "approve",
+        "비고": "approve"
+      },
+      "reason": "나이교체번역작업메모만삭제했다. 한국13/16/행위자19세구분·동의만으로허용되지않는유보·나이오인판례/특별법전체미확인과다른5필드를보존해partial5요청해소.",
+      "revision_requests": [],
+      "exact_actual_field_changes": [
+        {
+          "field": "비고",
+          "before": "원문의 나이 기준을 한국 법 기준으로 교체했습니다. 16세 이상이라고 어떤 행위든 허용되지는 않습니다. 강요·위력·성매매 등 별도 요건을 따집니다. 나이 오인의 구체 판례와 가중처벌 조문은 확인이 필요합니다. TODO로 남겼습니다. 2026-10-10 법령 확인(국가법령정보센터).",
+          "after": "16세 이상이라고 어떤 행위든 허용되지는 않습니다. 강요·위력·성매매 등 별도 요건을 따집니다. 나이 오인의 구체 판례와 가중처벌의 전체 적용 범위는 아직 확인하지 못했습니다. 형법 조문과 부칙은 2026-10-18 확인했습니다(국가법령정보센터)."
+        }
+      ],
+      "lengths": {
+        "title_chars": 37,
+        "easy_chars": 67,
+        "easy_sentences": 2,
+        "ordinary_literal50_parentheses_included": true
+      },
+      "checks": {
+        "exactguards_and_strict_match": true,
+        "six_single_line_fields_production": true,
+        "title_tag_grade_protected": true,
+        "DOI_set_preserved": true
+      }
+    },
+    {
+      "entry": 23,
+      "decision": "approve",
+      "proposal_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-023-6b16/publication-entry-proposal.md",
+      "proposal_sha256": "4c8afbdfcd9d1b35daaa881af401ea1825e0577a77b1b1cf0043d96cdb8ed238",
+      "changes_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-023-6b16/publication-entry-changes.json",
+      "changes_sha256": "0cc43f59b934ffd40abc9cb14249a8f966cce3345401d29cb9e6f2bc298e6573",
+      "strict_base_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-023-6b16/strict-entry.md",
+      "strict_base_sha256": "d7c0c9e9037f24cfa1a757079d762412660a72fdeb2477facd28af5f0cb54d27",
+      "supersession_r1": null,
+      "field_decisions": {
+        "title": "approve",
+        "비용": "approve",
+        "쉽게": "approve",
+        "이득": "approve",
+        "근거등급": "approve",
+        "출처": "approve",
+        "비고": "approve"
+      },
+      "reason": "성매매법2의피해자유형·6①불처벌·19일반/영업알선·21일반형과아청2①1의19세미만·13①성매수/②유인권유/③16세미만또는장애가중·15알선영업의유형과형을실제원문대조. 현행조문에없는과거연도예외를기억으로추가하지않았다. 수사대응부담과미성년형법연령안내를구별한다.",
+      "revision_requests": [],
+      "exact_actual_field_changes": [
+        {
+          "field": "출처",
+          "before": "「성매매알선 등 행위의 처벌에 관한 법률」 제2조제1항제4호·제6조제1항·제21조제1항. https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&type=XML&MST=290119&efYd=20261002",
+          "after": "「성매매알선 등 행위의 처벌에 관한 법률」 제2조제1항제4호·제6조제1항·제19조·제21조제1항. https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&type=XML&MST=290119&efYd=20261002 「아동·청소년의 성보호에 관한 법률」(아동·청소년성보호법) 제2조제1호·제13조·제15조·부칙 제21274호·제22027호. https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&type=XML&MST=290215"
+        },
+        {
+          "field": "비고",
+          "before": "법률상 피해자 범위에는 강요·인신매매를 당한 사람 등이 포함됩니다. 해당 여부는 제2조제1항제4호의 요건을 따집니다. 불처벌 규정이 수사 대응 부담까지 없애지는 않습니다. 아동·청소년 대상 성매매와 알선·영업의 별도 법정형은 TODO 확인 필요입니다. 미성년자 나이 기준은 제18항(미성년자와 성행위)을 보세요. 2026-10-10 법령 확인(국가법령정보센터).",
+          "after": "법률상 피해자 범위에는 강요·인신매매를 당한 사람 등이 포함됩니다. 해당 여부는 제2조제1항제4호의 요건을 따집니다. 불처벌 규정이 수사 대응 부담까지 없애지는 않습니다. 성매매알선 등 행위는 제19조제1항의 처벌 대상입니다. 법정형은 3년 이하 징역 또는 3천만원 이하 벌금입니다. 영업으로 하면 제19조제2항이 적용됩니다. 법정형은 7년 이하 징역 또는 7천만원 이하 벌금입니다. 아동·청소년의 성을 사는 행위에는 별도 법률이 적용됩니다. 아래 아동·청소년성보호법 제13조제1항을 보세요. 법정형은 1년 이상 10년 이하 징역입니다. 또는 2천만원 이상 5천만원 이하 벌금입니다. 이 법의 아동·청소년은 19세 미만입니다. 제13조제2항은 성을 사려는 유인·권유도 처벌합니다. 16세 미만 또는 장애 아동·청소년 대상이면 가중됩니다. 제13조제1항·제2항의 형을 2분의 1까지 가중합니다. 업으로 성매수 장소를 제공하거나 알선하면 제15조제1항 대상입니다. 법정형은 7년 이상 유기징역입니다. 그 밖의 장소 제공·알선 등은 제15조제2항·제3항을 따집니다. 미성년자 나이 기준은 제18항(미성년자와 성행위)을 보세요. 2026-10-18 법령·부칙 확인(국가법령정보센터)."
+        }
+      ],
+      "lengths": {
+        "title_chars": 34,
+        "easy_chars": 56,
+        "easy_sentences": 2,
+        "ordinary_literal50_parentheses_included": true
+      },
+      "checks": {
+        "exactguards_and_strict_match": true,
+        "six_single_line_fields_production": true,
+        "title_tag_grade_protected": true,
+        "DOI_set_preserved": true
+      }
+    },
+    {
+      "entry": 24,
+      "decision": "revise",
+      "proposal_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-024-fbfe/publication-entry-proposal.md",
+      "proposal_sha256": "91d916846df3fd2651a48a2e3a2f7bcf28af6914d85ab7cb7567ffc0aa2206af",
+      "changes_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-024-fbfe/changes.json",
+      "changes_sha256": "3f5d942d35f371384cb5a6abec16abba83b70d34568ea4c46f41b735ec7dcd06",
+      "strict_base_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-024-fbfe/strict-entry.md",
+      "strict_base_sha256": "9ea33bf3a83c1e3ed1d85196378c4c754b44f810ce8c4252af8f3697a13cbd31",
+      "supersession_r1": null,
+      "field_decisions": {
+        "title": "approve",
+        "비용": "approve",
+        "쉽게": "approve",
+        "이득": "approve",
+        "근거등급": "approve",
+        "출처": "approve",
+        "비고": "revise"
+      },
+      "reason": "저작재산권16/18/22와136①7년/1억원·병과,125④고의/인정손해5배상한및21336부칙8/11이후침해적용을확인했다.30사적복제/35의5공정이용·권리제한과인터넷공개배포·소송비용을구별한다. 비고에남은번역작업메모는독자용경고/조건으로정리해야한다.",
+      "revision_requests": [
+        {
+          "field": "비고",
+          "before": "원문의 영리 목적 필수 요건은 적용하지 않았습니다. 다운로드 수 처벌 기준도 적용하지 않았습니다.",
+          "kind": "editorial_meta",
+          "request": "번역작업보고를삭제하거나독자용조건으로정리. 무료배포도책임가능/자동공정이용불가·권리제한·소송비용·참조와필요유보를보존하고새처벌기준을발명하지않는다."
+        }
+      ],
+      "exact_actual_field_changes": [
+        {
+          "field": "비용",
+          "before": "배포 전에 권리자의 허락과 이용 조건을 확인해야 합니다. 허락이 없으면 공유하지 마세요.",
+          "after": "배포 전에 권리자의 허락과 이용 조건을 확인해야 합니다. 허락이나 법률상 예외가 없으면 공유하지 마세요."
+        },
+        {
+          "field": "이득",
+          "before": "복제·공중송신·2차적저작물작성에는 권리가 따릅니다. 「저작권법」 제16조·제18조·제22조가 이를 규정합니다. 제136조제1항의 법정형은 7년 이하 징역 또는 1억원 이하 벌금입니다. 두 형벌을 함께 부과할 수도 있습니다. 제123조는 침해 정지 청구를 규정합니다. 제125조제4항은 고의로 인정된 침해의 배상액을 규정합니다. 법원은 인정 손해액의 5배를 넘지 않는 범위에서 배상액을 정할 수 있습니다. 이 배상 규정은 2026-08-11 이후 발생한 침해행위부터 적용합니다.",
+          "after": "복제·공중송신·2차적저작물작성에는 권리가 따릅니다. 「저작권법」 제16조·제18조·제22조가 이를 규정합니다. 제136조제1항의 법정형은 7년 이하 징역 또는 1억원 이하 벌금입니다. 두 형벌을 함께 부과할 수도 있습니다. 제123조는 침해 정지 청구를 규정합니다. 제125조제4항은 고의로 인정된 침해의 배상액을 규정합니다. 법원은 인정 손해액의 5배까지 배상액을 정할 수 있습니다. 이 배상 규정은 2026-08-11 이후 발생한 침해행위부터 적용합니다."
+        },
+        {
+          "field": "출처",
+          "before": "「저작권법」 제16조·제18조·제22조·제30조·제123조·제125조·제136조 및 부칙(법률 제21336호) 제1조·제2조. https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&type=XML&MST=283335&efYd=20260811",
+          "after": "「저작권법」 제16조·제18조·제22조·제30조·제35조의5·제123조·제125조·제136조 및 부칙(법률 제21336호) 제1조·제2조. https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&type=XML&MST=283335&efYd=20260811"
+        },
+        {
+          "field": "비고",
+          "before": "개인·가정에서 제한된 범위로 복제하는 경우가 있습니다. 이는 인터넷에 공개 배포하는 것과 다릅니다. 원문의 영리 목적 필수 요건과 다운로드 수 처벌 기준은 적용하지 않았습니다. 배상 분쟁에는 소송 시간과 변호사 비용도 듭니다. 제25항(팬 창작물), 제26절(웹사이트 만들기)을 보세요. 2026-10-10 법령 확인(국가법령정보센터).",
+          "after": "개인·가정에서 제한된 범위로 복제하는 경우가 있습니다. 이는 인터넷에 공개 배포하는 것과 다릅니다. 공정 이용 등 법률상 권리 제한도 따로 살펴야 합니다. 무료라는 이유만으로 공정 이용이 되지는 않습니다. 원문의 영리 목적 필수 요건은 적용하지 않았습니다. 다운로드 수 처벌 기준도 적용하지 않았습니다. 배상 분쟁에는 소송 시간과 변호사 비용도 듭니다. 제25항(팬 창작물), 제26절(웹사이트 만들기)을 보세요. 2026-10-10 법령 확인(국가법령정보센터)."
+        }
+      ],
+      "lengths": {
+        "title_chars": 43,
+        "easy_chars": 50,
+        "easy_sentences": 2,
+        "ordinary_literal50_parentheses_included": true
+      },
+      "checks": {
+        "exactguards_and_strict_match": true,
+        "six_single_line_fields_production": true,
+        "title_tag_grade_protected": true,
+        "DOI_set_preserved": true
+      }
+    }
+  ],
+  "approved_count": 3,
+  "revise_count": 2,
+  "actual_source_reads": [
+    {
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch09-audit/current-268555.xml",
+      "sha256": "1d011ff46c77c14eb2c090390857a255c4afd79300531acc5eba1519a26660e0",
+      "url": "https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=law&type=XML&query=%EC%A3%BC%EB%AF%BC%EB%93%B1%EB%A1%9D%EB%B2%95",
+      "read_at_utc": "2026-10-18T20:44:50.857827+00:00",
+      "mode": "existing_cache_read_not_new_HTTP",
+      "actual_scope": "검색전체법268555현행과시행령미래구별;기존캐시재열람"
+    },
+    {
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch09-audit/268555.xml",
+      "sha256": "2a54771c0eabf7a49570d6d1acde5073b2229dbb8bc45e6e39377952e5e6a10c",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&type=XML&MST=268555",
+      "read_at_utc": "2026-10-18T20:44:50.857827+00:00",
+      "mode": "existing_cache_read_not_new_HTTP",
+      "actual_scope": "37①10의직계혈족·배우자·동거친족또는그배우자/피해자명시의사;8/8의2비확대"
+    },
+    {
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch09-audit/290119.xml",
+      "sha256": "d196331e83f5a222ae66af01433d1a402dea42813b1ca0eab49810eb337a4aba",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&type=XML&MST=290119",
+      "read_at_utc": "2026-10-18T20:44:50.857827+00:00",
+      "mode": "existing_cache_read_not_new_HTTP",
+      "actual_scope": "2①1/4·6①·19전항·21①및최신부칙"
+    },
+    {
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch09-audit/290215-retry.xml",
+      "sha256": "9869eb7dd5014ff8db718e83ffaf47d71591ced03a8b2f3a06c6fbedf2e12ddd",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&type=XML&MST=290215",
+      "read_at_utc": "2026-10-18T20:44:50.857827+00:00",
+      "mode": "existing_cache_read_not_new_HTTP",
+      "actual_scope": "2①1·13·15전항;21274공포일시행/22027의10/2시행·25의11적용례구별"
+    },
+    {
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/283335.xml",
+      "sha256": "6a429f0550556154dcad808d032185e92b6ffdf3f40d791439b14129e1ee929d",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&type=XML&MST=283335",
+      "read_at_utc": "2026-10-18T20:44:50.857827+00:00",
+      "mode": "existing_cache_read_not_new_HTTP",
+      "actual_scope": "16·18·22·30·35의5·123·125④·136①및21336제1/2시행·적용례"
+    },
+    {
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290185.xml",
+      "sha256": "391f3c2bb7173fff4040eda9ae2259674b616e58aeadf4371206b63c70f1c89b",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&type=XML&MST=290185",
+      "read_at_utc": "2026-10-18T20:44:50.857827+00:00",
+      "mode": "existing_cache_read_not_new_HTTP",
+      "actual_scope": "기존136/297/305조건과부칙22007재결속"
+    },
+    {
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290189.xml",
+      "sha256": "f917fd5794540a55cc19ef2b94e5142ee97cdaafc9215827fa653b6c275ab9fa",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&type=XML&MST=290189",
+      "read_at_utc": "2026-10-18T20:44:50.857827+00:00",
+      "mode": "existing_cache_read_not_new_HTTP",
+      "actual_scope": "기존30/200의5/244의3조건및21857시행구별재결속"
+    }
+  ],
+  "references": [
+    {
+      "source_entry": 23,
+      "target": "9/18 미성년자와성행위",
+      "target_current_entry_sha256": "159c4189d6f6201c8225b854ec477f64f71407c46ebb9f4c6c154810a110e349",
+      "target_latest_proposal_sha256": "a33b145110cf9c9ffda15d2352df2ad5fbf74d3a69d15cf45c34e3d04fffa55a",
+      "semantic_scope": "형법305의행위자19/대상13·16과아청법2의19세미만은법별별도기준이다. 상대동의/성매수법적용범위를단순같게보지않는안내로대응."
+    },
+    {
+      "source_entry": 24,
+      "target": "9/25 팬창작물",
+      "target_current_entry_sha256": "e448c24e41042b79fe401917b84176e9ed610d495569cfd7c476f57b2e154594",
+      "semantic_scope": "공정이용·2차적저작물의일반안내.25최신full도착후재확인필요."
+    },
+    {
+      "source_entry": 16,
+      "target_chapter": 14,
+      "target_whole_sha256": "c561a39adc1eed2feea3288fb464837ae39b230f7b4ee79c5a055de11580374a",
+      "related_entries": [
+        {
+          "entry": 1,
+          "title": "### 1. 메일·결제·SNS 계정에 2단계 인증을 켜세요. 휴대폰 알림 방식이 우선, 문자 인증번호는 그다음",
+          "entry_sha256": "8cda78a09db591d8490125b7f7d839ca7bf6fe2c6c010141418a4ae2cfad4e49"
+        },
+        {
+          "entry": 2,
+          "title": "### 2. 이메일 비밀번호는 어디와도 겹치지 않게 하나만 따로 쓰세요",
+          "entry_sha256": "749e32254c1ca04e7130e7b8d9e2cd04ac15c184bf88876f95eb67812df9826e"
+        }
+      ],
+      "semantic_scope": "현재주제안내로대응.8은ROOT최신promote기준canonical에서새로읽고결속;14/26최신full미준비로최종target재확인대기. 새로운효과/법률결과보장의근거가아님."
+    },
+    {
+      "source_entry": 17,
+      "target_chapter": 8,
+      "target_whole_sha256": "e277adc64ec9b1db9eafd4cb23c95cdabef3daff6d41a1b38801808194e798cd",
+      "related_entries": [
+        {
+          "entry": 5,
+          "title": "### 5. 피의자로 조사받으면 변호인과 진술거부권부터 확인하세요",
+          "entry_sha256": "8a45b0a61ce4862157018c031c0bf1a2e2d6fab32aa48d4f25d54d9c8588e736"
+        }
+      ],
+      "semantic_scope": "현재주제안내로대응.8은ROOT최신promote기준canonical에서새로읽고결속;14/26최신full미준비로최종target재확인대기. 새로운효과/법률결과보장의근거가아님."
+    },
+    {
+      "source_entry": 24,
+      "target_chapter": 26,
+      "target_whole_sha256": "b66af04261c4ddbda72c3a2e24623d1be897b56acec73f063fd60f577acdd9ba",
+      "related_entries": [
+        {
+          "entry": 1,
+          "title": "### 1. 판매자에게 줄 돈을 플랫폼 계좌로 받아 나눠 주지 마세요. 등록된 PG사가 정산하게 하세요",
+          "entry_sha256": "323ed21b18e641ef072160fd3fb1812e825416a0ae0ffe6d3e3c56b829e0be13"
+        }
+      ],
+      "semantic_scope": "현재주제안내로대응.8은ROOT최신promote기준canonical에서새로읽고결속;14/26최신full미준비로최종target재확인대기. 새로운효과/법률결과보장의근거가아님."
+    }
+  ],
+  "new_HTTP_requests": [],
+  "initial_warning_closure": "17/18r2요청해소;16친족/현행사실해소뒤독자용문체만잔여.23아청성매수·알선/영업규칙초기TODO실제조문부칙으로해소가능;종별사실/개별판례를검증완료로하지않음.24현행고의배상5배/시행·무료배포조건검증,변환메모잔여.",
+  "chapter_final_approval": false,
+  "formal_approval": false,
+  "publication_approval": false,
+  "public_written": false,
+  "remaining": "16r3/24r2·19/22r2및25/26·지역/metadata·모든현재참조후전체closure가능.",
+  "protected_scope": "신규보고서쌍만작성. 원고/frozen/기존보고/원자료/candidate/Git불변."
+}

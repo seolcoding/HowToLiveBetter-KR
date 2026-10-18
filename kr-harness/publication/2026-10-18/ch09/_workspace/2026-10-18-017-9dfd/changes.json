@@ -1,0 +1,86 @@
+{
+  "chapter": 9,
+  "entry": 17,
+  "status": "proposal_only_not_approved",
+  "entries": [
+    {
+      "entry": 17,
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-017-9dfd/strict-entry.md",
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-017-9dfd/publication-entry-proposal.md",
+      "base_sha256": "8e49678c7c9305b1f64c42c346118bed8ca09e7b6c5c33baffb6620563fc8373",
+      "proposal_sha256": "3aa04a5a4800b287f094541f898df95f9ec72aac0f267e76a6150043a22f237c"
+    }
+  ],
+  "findings_addressed": [
+    {
+      "origin": "content-audit.md 제17항 / editorial-decisions.json entry 17",
+      "finding": "verified_scope_with_open_detail: 적법성 판례·체포 절차 미대조",
+      "resolution": "형법 제136조 제1항과 부칙 제22007호, 형사소송법 제30조·제200조의5·제244조의3 및 시행 부칙 직접 재독. 적법성 구체 판례와 체포 절차 전반 미검증 한계를 독자 비고에 명시. 체포 고지/진술거부/변호인 조력의 직접 근거 보강."
+    }
+  ],
+  "changes": [
+    {
+      "field": "출처",
+      "reason": "eflaw 링크를 직접 읽은 한국어 법령 원문 law로 교체하고 제1항 특정. 피의자 권리·체포 고지의 1차 출처 보강."
+    },
+    {
+      "field": "비고",
+      "reason": "실제 제8절 제5항 전체를 읽어 조사 권리 목적지 특정. 미검증 한계 독자본문 명시. 확인일 갱신."
+    }
+  ],
+  "evidence": [
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290185&type=XML",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290185.xml",
+      "sha256": "391f3c2bb7173fff4040eda9ae2259674b616e58aeadf4371206b63c70f1c89b",
+      "retrieval_mode": "existing_cache_read",
+      "checked_articles": [
+        "제136조 제1항",
+        "부칙 제22007호"
+      ]
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290189&type=XML",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290189.xml",
+      "sha256": "f917fd5794540a55cc19ef2b94e5142ee97cdaafc9215827fa653b6c275ab9fa",
+      "retrieval_mode": "existing_cache_read",
+      "checked_articles": [
+        "제30조",
+        "제200조의5",
+        "제244조의3",
+        "부칙 제21857호 제1조"
+      ]
+    }
+  ],
+  "reference_destination": {
+    "path": "/workspace/HowToLiveBetter-KR/book-kr/08-법적-말썽에-휘말리지-않기.md",
+    "entry": 5,
+    "heading": "피의자로 조사받으면 변호인과 진술거부권부터 확인하세요",
+    "read_scope": "entry 5 full text"
+  },
+  "preserved": [
+    "제목·태그·비용·쉽게·이득·근거등급",
+    "5년 이하 징역 또는 1,000만원 이하 벌금",
+    "적법 직무 집행 등 요건",
+    "원문의 경찰 전용 형량 및 가벼운 저항 자동제외 규칙 미채택"
+  ],
+  "remaining_limits": [
+    "적법 직무집행의 구체 판례 독립 확인 미완료",
+    "체포 절차 전반 검증 미완료"
+  ],
+  "checks": {
+    "literal_check.py": {
+      "result": "pass",
+      "title_chars": 30,
+      "easy_chars": 54,
+      "easy_sentences": 2,
+      "long_sentences": []
+    },
+    "check-full-layout.py": {
+      "result": "pass",
+      "checked": 1,
+      "failures": []
+    },
+    "six_fields_single_physical_line": true
+  }
+}

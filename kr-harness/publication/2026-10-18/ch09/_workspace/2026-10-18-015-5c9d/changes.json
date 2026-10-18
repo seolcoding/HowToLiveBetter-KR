@@ -1,0 +1,56 @@
+{
+  "entry": 15,
+  "status": "unadopted_proposal",
+  "semantic_review": "pending",
+  "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-015-5c9d/strict-entry.md",
+  "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-015-5c9d/publication-entry-proposal.md",
+  "base_strict_sha256": "b128aa34ae27c4a0158f015df720b30940ef30f8cdf11e1a9af1d731cd098529",
+  "proposal_sha256": "87071985b8e74d119dd55de2618eec849ead0b2885c92986274a6fb813a79990",
+  "changes": [
+    {
+      "field": "이득·출처",
+      "reason": "인용 법정형을 각 조 제1항으로 한정."
+    },
+    {
+      "field": "비고",
+      "reason": "제276조·제277조·제281조 각 제2항의 직계존속 가중 규정 안내. 회수기간·결과 미확인 유지. 실제 열람일 기록."
+    }
+  ],
+  "audit_resolution": {
+    "finding": "제15항 verified_scope: 276①/277①/281① 수치 일치, 소송·집행 비용과 증거 부담 유지, 고정 회수기간 약속 금지.",
+    "resolution": "수치·소송 비용·증거와 집행 가능성 검토를 모두 보존하고 회수기간·결과 미확인을 독자본문에 명시. pending_candidate_review는 정식 심사 전 상태로 유지."
+  },
+  "references": {
+    "outgoing": [
+      "book-kr/08-법적-말썽에-휘말리지-않기.md: 제17항 계약 증거·서명 보관, 제18항 차용증·이체 기록 및 집행 조건 직접 읽음. 절 전체 참조 유지."
+    ],
+    "incoming": [],
+    "scan": "book-kr에서 제9절 제15항·제목·감금 앵커 검색, 별도 incoming 없음."
+  },
+  "primary": {
+    "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290185&type=XML",
+    "retrieval": "existing_cache_read; 이번 새 HTTPS 요청 없음",
+    "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290185.xml",
+    "sha256": "391f3c2bb7173fff4040eda9ae2259674b616e58aeadf4371206b63c70f1c89b",
+    "read": [
+      "제276조제1·2항",
+      "제277조제1·2항",
+      "제281조제1·2항",
+      "부칙 제22007호: 2026년 10월 2일 시행"
+    ],
+    "limits": "인용판 직접 대조. 개별 사건 판례·소송비용 액수·회수기간·결과 미확인."
+  },
+  "validation": {
+    "literal_check.py": {
+      "pass_length": true,
+      "title_chars": 30,
+      "easy_chars": 55,
+      "easy_sentences": 2,
+      "long_sentences": []
+    },
+    "check-full-layout.py": {
+      "checked": 1,
+      "failures": []
+    }
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "status": "unadopted_proposal",
+  "entry": 11,
+  "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-011-ee7c/strict-entry.md",
+  "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-011-ee7c/publication-entry-proposal.md",
+  "base_sha256": "e5399d65b4a345577aafebf7946414b573ea8a4fd890840a59e1b8dc9f3b30b8",
+  "proposal_sha256": "f70bb9ba23b5042f09d9c55d157692b677cb206c1c98bc4b4596b67976219985",
+  "changes": [
+    {
+      "field": "이득",
+      "reason": "시행령24의 신고 제외 업종을 세 업종으로 한정하고 승인 및 특별비행 조건을 구분했습니다.",
+      "evidencequotes": [
+        "항공기대여업ㆍ항공레저스포츠사업 또는 초경량비행장치사용사업에 사용되지 아니하는",
+        "최대이륙중량이 2킬로그램 이하인 것",
+        "제2항 본문에 따른 비행승인 대상이 아닌 경우라 하더라도",
+        "그 승인 범위 내에서 비행할 수 있다"
+      ]
+    },
+    {
+      "field": "비고",
+      "reason": "미확인 내용을 독자에게 밝히고 캐시 인용판 대조와 기준일 현행검색 미완료를 구분했습니다."
+    }
+  ],
+  "source_checks": [
+    {
+      "mst": "286927",
+      "articles": [
+        "122",
+        "127",
+        "129"
+      ],
+      "mode": "existing_primary_cache_read",
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch09-audit/286927.xml",
+      "sha256": "ba5dc48e0deac4831974127f42a156a4598f1dfcfae3b3db8a266b16bdd22102",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=286927&type=XML",
+      "supplementary_provisions_read": true
+    },
+    {
+      "mst": "287495",
+      "articles": [
+        "24"
+      ],
+      "mode": "existing_primary_cache_read",
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch09-audit/287495.xml",
+      "sha256": "dd5c74cb1ac2a7b9f0649d1ae9ad8b5c90af941b55d03fd6cea4f6f5e7f97888",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=287495&type=XML",
+      "supplementary_provisions_read": true
+    },
+    {
+      "mst": "287951",
+      "articles": [
+        "308",
+        "310"
+      ],
+      "mode": "existing_primary_cache_read",
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch09-audit/287951.xml",
+      "sha256": "55afd2103270e7dfe1f1a97b071fc5cdd6b3617750c61a3128bb7cb966b89f66",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=287951&type=XML",
+      "supplementary_provisions_read": true
+    }
+  ],
+  "reference_check": {
+    "incoming_anchor_matches": [],
+    "outgoing_references": [],
+    "scope": "book-kr 최신 본문에서 제9절 제11항 및 드론 앵커 참조를 검색함. 본 항에 타 항 참조 없음."
+  },
+  "open_items": [
+    "개별 공역 지정",
+    "벌칙",
+    "교육·자격 요건",
+    "기준일 항공안전법 현행판 독립 확인"
+  ],
+  "review_status": "pending_independent_review",
+  "validation": {
+    "literal_check.py": {
+      "pass": true,
+      "title_chars": 41,
+      "easy_chars": 66,
+      "easy_sentences": 2,
+      "long_sentences": []
+    },
+    "check-full-layout.py": {
+      "checked": 1,
+      "failures": []
+    }
+  },
+  "supplementary_provisions_scope": {
+    "286927": "부칙 제21268호·제21636호·제21822호의 시행일·적용례·경과조치 직접 열람. 미도래 일반 개정 시행일과 인용 조문의 적용을 구분함.",
+    "287495": "부칙 제36476호 시행일 2026-07-01 및 일부 2026-07-09 확인.",
+    "287951": "부칙 제1601호 시행일 2026-07-01 및 전문교육기관 경과조치 확인."
+  }
+}

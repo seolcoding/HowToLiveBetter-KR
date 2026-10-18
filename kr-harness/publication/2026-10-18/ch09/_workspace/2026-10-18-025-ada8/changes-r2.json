@@ -1,0 +1,35 @@
+{
+  "status": "unadopted_proposal",
+  "chapter": 9,
+  "entry": 25,
+  "base_proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-025-ada8/publication-entry-proposal.md",
+  "base_proposal_sha256": "f67f047d0e9a6dab2e28ad532ebe1132d8c145a023074c27670cf5f82c5631db",
+  "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-025-ada8/strict-entry.md",
+  "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-025-ada8/publication-entry-proposal-r2.md",
+  "proposal_sha256": "fbf94a263f9cc9807210045f8699f133409a2f23b37200038fcdf4aaaa237f22",
+  "changes": [
+    {
+      "field": "비고",
+      "operation": "delete_exact_span",
+      "before": "원문의 외국 소설 소송 대신 한국 법률 조건을 썼습니다. 인물 이름만 바꾸면 해결된다는 조언은 유지하지 않았습니다. ",
+      "after": "",
+      "reason": "독자에게 불필요한 변환 작업 메모 두 문장만 삭제."
+    }
+  ],
+  "other_bytes_unchanged": true,
+  "independent_review": "pending",
+  "checks": {
+    "literal_check": {
+      "status": "pass",
+      "title_chars": 37,
+      "easy_chars": 55,
+      "easy_sentences": 2,
+      "long_sentences": []
+    },
+    "full_layout": {
+      "status": "pass",
+      "checked": 1,
+      "failures": []
+    }
+  }
+}

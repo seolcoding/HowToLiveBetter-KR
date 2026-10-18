@@ -1,0 +1,70 @@
+{
+  "chapter": 9,
+  "entry": 22,
+  "status": "proposal_only_not_approved",
+  "entries": [
+    {
+      "entry": 22,
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-022-70e4/strict-entry.md",
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-022-70e4/publication-entry-proposal.md",
+      "base_sha256": "96dfa16905c0f3533db717d766b379e0bf929b48a02493112db59dc7957442e9",
+      "proposal_sha256": "44ec761a8ba52ebd96008ddcea27a06df907f4d28997c4b414207abe1ae3e52d"
+    }
+  ],
+  "findings_addressed": [
+    {
+      "origin": "content-audit.md 제22항 및 editorial-decisions.json entry 22",
+      "finding": "verified_scope: 7①1·2·3,45①②④; 판매 약속 단계 포함",
+      "resolution": "직접 조문 대조 후 약속행위 및 몰수 불가능시 가액추징 조건 명시. 10년/1억원·병과·2년 이상 유기징역 유지."
+    }
+  ],
+  "changes": [
+    {
+      "field": "이득",
+      "reason": "약속 단계 금지 및 몰수·추징의 순서와 조건 명시"
+    },
+    {
+      "field": "출처",
+      "reason": "직접 읽은 한국어 law 원문 및 시행 부칙 특정"
+    },
+    {
+      "field": "비고",
+      "reason": "재확인일 갱신"
+    }
+  ],
+  "evidence": [
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290657&type=XML",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290657.xml",
+      "sha256": "da58c8915a78989e29e7df6d6a1509bed128b6c8c2dae2e2fc23ef6c782a3439",
+      "retrieval_mode": "existing_cache_read",
+      "checked_articles": [
+        "제7조 제1항 제1~3호·제2항·제3항",
+        "제45조 제1~4항",
+        "부칙 제14928호",
+        "부칙 제21490호 제1조·제9조 제38항"
+      ]
+    }
+  ],
+  "reference_destination": {
+    "path": "/workspace/HowToLiveBetter-KR/book-kr/07-돈이-없을-때-사는-법.md",
+    "heading": "7. 돈이 없을 때 사는 법",
+    "read_scope": "도입부 및 제6항·제7항 전문 직접 확인; 제7절 포괄 참조 유지"
+  },
+  "remaining_limits": [],
+  "checks": {
+    "literal_check.py": {
+      "result": "pass",
+      "title_chars": 35,
+      "easy_chars": 55,
+      "easy_sentences": 2,
+      "long_sentences": []
+    },
+    "check-full-layout.py": {
+      "result": "pass",
+      "checked": 1,
+      "failures": []
+    },
+    "six_fields_single_physical_line": true
+  }
+}

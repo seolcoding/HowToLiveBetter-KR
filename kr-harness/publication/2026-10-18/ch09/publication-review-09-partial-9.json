@@ -1,0 +1,198 @@
+{
+  "review_id": "publication-review-09-partial-9",
+  "status": "partial_1_approved_1_revision_required_not_chapter_approval",
+  "reviewed_at_utc": "2026-10-18T20:46:09.629191+00:00",
+  "manifest_path": "kr-harness/publication/2026-10-18/ch09/author-partial-manifest-9.json",
+  "manifest_sha256": "7a29c994f2254cf440999499e767726d87352b04d5fedf851132a9d571e96f60",
+  "whole_baseline_guards": {
+    "source": {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/source.md",
+      "sha256": "944ab983bf1467dd3e475b1798c9284c2df0ab927bfc75657ac87d928c95a4c4"
+    },
+    "publication_manifest": {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/manifest.json",
+      "sha256": "ec029de45d75a5de63fd7c7ec3c4419bcc92fc3e5dd53af1a1c6a48ec347e467"
+    },
+    "current_public": {
+      "path": "/workspace/HowToLiveBetter-KR/book-kr/09-흔한-법적-레드라인.md",
+      "sha256": "944ab983bf1467dd3e475b1798c9284c2df0ab927bfc75657ac87d928c95a4c4"
+    },
+    "pure_candidate": {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/candidate.md",
+      "sha256": "944ab983bf1467dd3e475b1798c9284c2df0ab927bfc75657ac87d928c95a4c4"
+    }
+  },
+  "entries": [
+    {
+      "entry": 25,
+      "decision": "revise",
+      "proposal_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-025-ada8/publication-entry-proposal.md",
+      "proposal_sha256": "f67f047d0e9a6dab2e28ad532ebe1132d8c145a023074c27670cf5f82c5631db",
+      "changes_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-025-ada8/changes.json",
+      "changes_sha256": "0afa1eb91a44473c20c92a767e134e920e15e477035bb67a575766c8616aa306",
+      "strict_base_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-025-ada8/strict-entry.md",
+      "strict_base_sha256": "e448c24e41042b79fe401917b84176e9ed610d495569cfd7c476f57b2e154594",
+      "effective_after_entry_sha256": "f67f047d0e9a6dab2e28ad532ebe1132d8c145a023074c27670cf5f82c5631db",
+      "field_decisions": {
+        "title": "approve",
+        "비용": "approve",
+        "쉽게": "approve",
+        "이득": "approve",
+        "근거등급": "approve",
+        "출처": "approve",
+        "비고": "revise"
+      },
+      "reason": "22의2차적저작물권과35의5의일반이용비충돌/정당이익비침해·4판단요소,123정지청구·125고의과실손해조건은원문과맞는다. 추상소재/구체표현·무료자동예외불가/과정비용/판례미확인도구별한다. 비고번역작업메모만정리필요.",
+      "revision_requests": [
+        {
+          "field": "비고",
+          "before": "원문의 외국 소설 소송 대신 한국 법률 조건을 썼습니다. 인물 이름만 바꾸면 해결된다는 조언은 유지하지 않았습니다.",
+          "request": "번역작업메모중복만삭제/독자용으로정리. 쉽게의이름만바꾸면해결안됨·법정공정이용조건·무료자동예외불가·미확인판례/과정비용/참조는보존."
+        }
+      ],
+      "exact_actual_field_changes": [
+        {
+          "field": "이득",
+          "before": "「저작권법」 제22조는 2차적저작물작성권을 규정합니다. 제35조의5는 공정 이용 판단 요소를 규정합니다. 목적·성격과 저작물 종류를 살핍니다. 사용 비중·중요성과 시장 영향도 판단 요소입니다. 침해에 해당하면 제123조·제125조가 적용됩니다. 이에 따른 정지와 배상 문제가 생깁니다.",
+          "after": "「저작권법」 제22조는 2차적저작물작성권을 규정합니다. 제35조의5는 공정 이용 판단 요소를 규정합니다. 일반적인 이용 방법과 충돌하지 않아야 합니다. 저작자의 정당한 이익을 부당하게 해치지 않아야 합니다. 이용의 목적·성격과 저작물의 종류·용도를 살핍니다. 사용 비중·중요성도 판단 요소입니다. 현재와 잠재적인 시장·가치에 미치는 영향도 봅니다. 침해에 해당하면 제123조에 따른 정지 청구 문제가 생깁니다. 고의나 과실로 침해하면 제125조에 따른 손해배상 문제가 생깁니다."
+        },
+        {
+          "field": "비고",
+          "before": "같은 소재나 추상적인 생각을 써도 언제나 침해가 되지는 않습니다. 구체 표현과 이용 방식에 따라 판단합니다. 무료·팬 활동이라는 이유만으로 예외가 되지는 않습니다. 원문의 외국 소설 소송 대신 한국 법률 조건을 썼습니다. 인물 이름만 바꾸면 해결된다는 조언은 유지하지 않았습니다. 한국 팬 창작물 판례는 TODO 확인 필요로 남겨 두었습니다. 배포 위험은 제24항(자막·번역)을 보세요. 2026-10-10 법령 확인(국가법령정보센터).",
+          "after": "같은 소재나 추상적인 생각을 써도 언제나 침해가 되지는 않습니다. 구체 표현과 이용 방식에 따라 판단합니다. 무료·팬 활동이라는 이유만으로 예외가 되지는 않습니다. 원문의 외국 소설 소송 대신 한국 법률 조건을 썼습니다. 인물 이름만 바꾸면 해결된다는 조언은 유지하지 않았습니다. 한국 팬 창작물 판례는 아직 확인하지 못했습니다. 배포 위험은 제24항(자막·번역)을 보세요. 2026-10-18 법령 확인(국가법령정보센터)."
+        }
+      ],
+      "lengths": {
+        "title_chars": 37,
+        "easy_chars": 55,
+        "easy_sentences": 2,
+        "ordinary_literal50_parentheses_included": true
+      },
+      "checks": {
+        "exact_all_guards": true,
+        "six_single_line_fields_production": true,
+        "title_tag_grade_DOI_protected": true
+      }
+    },
+    {
+      "entry": 26,
+      "decision": "approve",
+      "proposal_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-026-cd8b/publication-entry-proposal.md",
+      "proposal_sha256": "2dee4c5b39a611600048e13d443047c1ccafe2b2f7328e20d9c02f2c38788118",
+      "changes_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-026-cd8b/changes.json",
+      "changes_sha256": "63dbeeac2b638d94ee92b60d04f4617fd080f5193600720cf4480fce7fc037a7",
+      "strict_base_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-026-cd8b/strict-entry.md",
+      "strict_base_sha256": "0541fcad87253e4930f1cb403869e12d922ea240280ebef2b6afef2033debe43",
+      "effective_after_entry_sha256": "a0b5db29d31989475a2fba3885eb7573b79c8300c6adc12d489ad9727f3930f8",
+      "field_decisions": {
+        "title": "approve",
+        "비용": "approve",
+        "쉽게": "approve",
+        "이득": "approve",
+        "근거등급": "approve",
+        "출처": "approve",
+        "비고": "approve"
+      },
+      "reason": "초기필수지적제17조휴대/운반·사용제한을보강했다. 소지허가대상/제10조예외와17①②허가용도·정당사유제한,74①2의300만원과태료·73제1호의2년/500만원형사벌을구별했다. 경범3①2숨긴위험도구와형법21현재침해·상당성도일치하며개별제품/차량/철도미확인은유지한다.",
+      "revision_requests": [],
+      "exact_actual_field_changes": [
+        {
+          "field": "이득",
+          "before": "법률상 도검·분사기·전자충격기 등은 소지 허가 대상입니다. 총포·도검 안전관리 법률 제12조가 규정합니다. 정당한 이유 없이 위험 도구를 숨겨 휴대하면 처벌 대상입니다. 「경범죄 처벌법」 제3조제1항제2호가 규정합니다. 「형법」 제21조는 현재의 부당한 침해와 방위행위의 상당성을 요구합니다.",
+          "after": "법률상 도검·분사기·전자충격기 등은 소지 허가 대상입니다. 제10조의 직무상 소지 등 예외는 제외합니다. 「총포화약법」 제12조의 규정입니다. 제17조는 소지 허가를 받은 사람의 휴대·운반·사용을 제한합니다. 총포·도검·분사기·전자충격기·석궁이 대상입니다. 허가받은 용도나 그 밖의 정당한 사유가 있어야 합니다. 그 외에는 지니거나 운반하거나 사용할 수 없습니다. 휴대·운반 제한 위반은 과태료 300만원 이하입니다. 사용 제한 위반은 징역 2년 이하 또는 벌금 500만원 이하입니다. 정당한 이유 없이 위험 도구를 숨겨 휴대하면 처벌 대상입니다. 사람에게 중대한 위해를 끼치거나 건조물 침입에 쓰일 도구가 대상입니다. 「경범죄 처벌법」 제3조제1항제2호가 규정합니다. 「형법」 제21조는 현재의 부당한 침해와 방위행위의 상당성을 요구합니다."
+        },
+        {
+          "field": "출처",
+          "before": "「총포ㆍ도검ㆍ화약류 등의 안전관리에 관한 법률」 제12조. https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&type=XML&MST=268135&efYd=20260108 · 「경범죄 처벌법」 제3조제1항제2호. https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&type=XML&MST=290135&efYd=20261002 · 「형법」 제21조. https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&type=XML&MST=290185&efYd=20261002",
+          "after": "「총포ㆍ도검ㆍ화약류 등의 안전관리에 관한 법률」 제10조·제12조·제17조제1항·제2항·제73조제1호·제74조제1항제2호 및 부칙 제20656호 제1조. https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&type=XML&MST=268135&efYd=20260108 · 「경범죄 처벌법」 제3조제1항제2호 및 부칙 제22014호. https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&type=XML&MST=290135&efYd=20261002 · 「형법」 제21조 및 부칙 제22007호. https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&type=XML&MST=290185&efYd=20261002"
+        },
+        {
+          "field": "비고",
+          "before": "호신 스프레이와 삼단봉의 법적 분류는 모두 같지 않습니다. 제품별 구조와 기준을 확인하세요. 도구를 소지했다는 이유만으로 정당방위가 늘 부정되지는 않습니다. 차량 보관과 철도 반입 세부 제한은 TODO 확인 필요로 남겼습니다. 충돌 대응은 제8절(법적 말썽에 휘말리지 않기)을 보세요. 2026-10-10 법령 확인(국가법령정보센터).",
+          "after": "호신 스프레이와 삼단봉의 법적 분류는 모두 같지 않습니다. 제품별 구조와 기준을 확인하세요. 개별 제품의 법적 분류는 확인하지 못했습니다. 도구를 소지했다는 이유만으로 정당방위가 늘 부정되지는 않습니다. 차량 보관과 철도 반입의 세부 제한은 아직 확인하지 못했습니다. 충돌 대응은 제8절(법적 말썽에 휘말리지 않기)을 보세요. 2026-10-18에 해당 조문과 부칙을 확인했습니다."
+        }
+      ],
+      "lengths": {
+        "title_chars": 32,
+        "easy_chars": 54,
+        "easy_sentences": 2,
+        "ordinary_literal50_parentheses_included": true
+      },
+      "checks": {
+        "exact_all_guards": true,
+        "six_single_line_fields_production": true,
+        "title_tag_grade_DOI_protected": true
+      }
+    }
+  ],
+  "approved_count": 1,
+  "revise_count": 1,
+  "actual_source_reads": [
+    {
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/283335.xml",
+      "sha256": "6a429f0550556154dcad808d032185e92b6ffdf3f40d791439b14129e1ee929d",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&type=XML&MST=283335",
+      "read_at_utc": "2026-10-18T20:46:09.629191+00:00",
+      "mode": "existing_primary_cache_read_not_new_HTTP",
+      "actual_scope": "22·35의5·123전체/125①②③ 및21336시행·적용례;실제사례판례미조사"
+    },
+    {
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch09-audit/268135.xml",
+      "sha256": "8b4cf24546cd9181dde1ab1d4f93ed84c0eb0aa7cedccf1c9567efaeed88b723",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&type=XML&MST=268135",
+      "read_at_utc": "2026-10-18T20:46:09.629191+00:00",
+      "mode": "existing_primary_cache_read_not_new_HTTP",
+      "actual_scope": "10·12·17전체·73제1호·74①2 및20656시행부칙"
+    },
+    {
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290135.xml",
+      "sha256": "afeade8846b7d5b65a2a2da45d7c2a5709df794d44cbc95fdbba6e737b71a0e1",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&type=XML&MST=290135",
+      "read_at_utc": "2026-10-18T20:46:09.629191+00:00",
+      "mode": "existing_primary_cache_read_not_new_HTTP",
+      "actual_scope": "3①2·최신22014시행부칙"
+    },
+    {
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290185.xml",
+      "sha256": "391f3c2bb7173fff4040eda9ae2259674b616e58aeadf4371206b63c70f1c89b",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&type=XML&MST=290185",
+      "read_at_utc": "2026-10-18T20:46:09.629191+00:00",
+      "mode": "existing_primary_cache_read_not_new_HTTP",
+      "actual_scope": "21전항및22007시행부칙"
+    }
+  ],
+  "references": [
+    {
+      "source_entry": 25,
+      "target": "9/24 자막·번역",
+      "current_target_entry_sha256": "9ea33bf3a83c1e3ed1d85196378c4c754b44f810ce8c4252af8f3697a13cbd31",
+      "semantic_scope": "배포위험/공정이용일반안내로대응.24최신메타수정후최종해시재확인."
+    },
+    {
+      "source_entry": 26,
+      "target": "8절 충돌대응",
+      "target_whole_sha256": "e277adc64ec9b1db9eafd4cb23c95cdabef3daff6d41a1b38801808194e798cd",
+      "related_entries": [
+        {
+          "entry": 10,
+          "title": "### 10. 충돌이 생기면 거리를 두고 신고하세요",
+          "entry_sha256": "5030467c65ff41fb72be4f8314cf0c94ea99ed23420ed60389d35453a5f0c9a3"
+        },
+        {
+          "entry": 11,
+          "title": "### 11. 현재 침해를 막는 행동과 보복을 구분하세요",
+          "entry_sha256": "abca332ac4b58c0bc61e49d9924511ffe1e6361789cc556ed381a59b5f248d69"
+        }
+      ],
+      "semantic_scope": "폭행대신거리/신고·현재침해상당성/보복구별안내.현재도착의조건/유보와대응하며canonical때ROOT새public08에서다시읽고해시결속."
+    }
+  ],
+  "new_HTTP_requests": [],
+  "initial_findings_closure": "26휴대제한/과태료대형사벌초기block해소.25한국팬창작판례미조사존치/번역작업메모잔여.",
+  "chapter_final_approval": false,
+  "formal_approval": false,
+  "publication_approval": false,
+  "public_written": false,
+  "protected_scope": "신규보고서쌍만작성. 원고/frozen/기존리뷰/원자료/candidate/Git불변.",
+  "remaining": "25r2·16r3·24r2와19/22r2및지역/metadata/최신08등모든target재결속후canonical가능."
+}

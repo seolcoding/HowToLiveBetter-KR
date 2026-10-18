@@ -1,7 +1,7 @@
 {
   "worker_constraints_sha256": "327c29d9249873dbdc64c74b51f00241f0cee44ab889f8df76d3a53783781a61",
-  "captured_at_utc": "2026-10-18T20:23:20.729411+00:00",
-  "head_before_checkpoint": "4bbbb376336a49dc6bfd14c590146345fc1e53e5",
+  "captured_at_utc": "2026-10-18T20:54:31.601683+00:00",
+  "head_before_checkpoint": "60cf432c5af259285266046d967dd063c8d17756",
   "strict_accepted_count": 667,
   "strict_accepted": [
     {
@@ -3385,26 +3385,19 @@
     5,
     6,
     7,
+    8,
     18
   ],
   "fresh_formal_scope": "Actual matching CLI-hash pass records; additional reader-prose followups are tracked separately and no whole-project completion is claimed",
   "known_additional_tail_style_followups": {
-    "01": [
-      4,
-      5,
-      7
-    ],
-    "02": [
-      3,
-      5,
-      9
-    ],
-    "18": "five inherited explanatory sentences; exact author and independent review pending; public bytes unchanged"
+    "01": "three tail and two intro spans approved/applied/current-hash r2 pass+promote",
+    "02": "three tail spans approved/applied/current-hash pass+promote",
+    "18": "four actual long tail spans approved/applied/current-hash pass+promote; last actual46/prefix54 retained"
   },
   "followups": {
     "06": "Two stable-reference scope corrections and six inherited TODO sentence splits approved/applied; current-hash r3 formal pass and actual promote; immutable old failures preserved",
     "07": "All22 full-source and4tail regions approved, integrated, fresh current-hash formal pass and actual promote",
-    "08": "All46 full-source proposals authored; independent last entries/intro-tail/canonical pending; public baseline unchanged",
+    "08": "All46 full-source and6regions approved/applied; new independent current-hash formal pass and actual promote; no baseline reassembly permitted",
     "18": "style4 applied; future20261208 titleword proposal not adopted, currentlaw verified"
   },
   "initial_source_audits_complete": [
@@ -3444,7 +3437,7 @@
   ],
   "next_initial_audit": null,
   "max_workers": 3,
-  "allocation": "A up to3 isolated authors while formal slot is free; drain to2 before new cold formal; independent stable-reference and full-source08 reviews; fresh full-publication formals1-7/18; after pure667 shift authors to remaining full-source chapters; environment total7 slots",
+  "allocation": "A up to3 isolated authors; source09 canonical and source10 independent review; fresh full-publication formals1-8/18 with completed01/02/06/18 region followups; total7 slots, reduce authors whenever actual additional formal overlaps reviewers",
   "live_queue_checkpoint": "global-coordinator-queue.checkpoint.json",
   "deployed": false
 }

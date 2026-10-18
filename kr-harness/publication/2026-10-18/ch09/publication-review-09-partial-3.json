@@ -1,0 +1,359 @@
+{
+  "review_id": "publication-review-09-partial-3",
+  "status": "partial_approved_not_chapter_approval",
+  "reviewed_at_utc": "2026-10-18T20:30:27.142783+00:00",
+  "manifest_path": "kr-harness/publication/2026-10-18/ch09/author-partial-manifest-3.json",
+  "manifest_sha256": "c7c15ae6df97820d9bbd87fedccdfce39e1a1856ffeb26e75f4e262f06b808cf",
+  "whole_baseline_guards": {
+    "source": {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/source.md",
+      "sha256": "944ab983bf1467dd3e475b1798c9284c2df0ab927bfc75657ac87d928c95a4c4"
+    },
+    "publication_manifest": {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/manifest.json",
+      "sha256": "ec029de45d75a5de63fd7c7ec3c4419bcc92fc3e5dd53af1a1c6a48ec347e467"
+    },
+    "current_public": {
+      "path": "/workspace/HowToLiveBetter-KR/book-kr/09-흔한-법적-레드라인.md",
+      "sha256": "944ab983bf1467dd3e475b1798c9284c2df0ab927bfc75657ac87d928c95a4c4"
+    },
+    "pure_candidate": {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/candidate.md",
+      "sha256": "944ab983bf1467dd3e475b1798c9284c2df0ab927bfc75657ac87d928c95a4c4"
+    }
+  },
+  "approved_count": 5,
+  "revise_count": 0,
+  "entries": [
+    {
+      "entry": 6,
+      "decision": "approve",
+      "proposal_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-006-9e7a/publication-entry-proposal.md",
+      "proposal_sha256": "ca6b4250c6f879a4f4a252f19b77ac90850b8a554ed673ca166ebdb8e000c04c",
+      "changes_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-006-9e7a/publication-entry-changes.json",
+      "changes_sha256": "15f8816f17adc9d33974198bb382a29d1228c09787911b0a086e66195ed4c4c0",
+      "strict_base_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-006-9e7a/strict-entry.md",
+      "strict_base_sha256": "2947b83c4eef7c367dc4362552318fcd68d6711df0a53186abfaeb0b85fcdcbe",
+      "effective_after_entry_sha256": "ca6b4250c6f879a4f4a252f19b77ac90850b8a554ed673ca166ebdb8e000c04c",
+      "field_decisions": {
+        "title": "approve",
+        "비용": "approve",
+        "쉽게": "approve",
+        "이득": "approve",
+        "근거등급": "approve",
+        "출처": "approve",
+        "비고": "approve"
+      },
+      "reason": "사기20년/5천만원은 실제2025-12-23 개정347·부칙21231과 일치한다. 231의 타인 문서/권리의무·사실증명/행사 목적, 234행사 및352미수 조건을 구별한다. 자기명의 허위 서류를 모두 사문서위조라고 단정하지 않으며, 행위시법 원칙과 개별 판단 유보를 유지한다.",
+      "lengths": {
+        "title": 35,
+        "easy": 54,
+        "easy_sentences": 2,
+        "ordinary_literal50_parentheses_included": true
+      },
+      "protected_checks": {
+        "numbered_title_and_tag_unchanged": true,
+        "grade_unchanged": true,
+        "six_single_line_fields_and_order": true,
+        "changes_match_exact_fields": true,
+        "original_DOI_set_preserved": true
+      },
+      "initial_findings_closure": "기존 범위 확인/조건 유지 및 본문에 추가한 법정 조건·미수·시행일을 실제 원문으로 대조.",
+      "unresolved_limits": "구체 사실관계/범죄 성립/고의/개별 제품 분류·판례는 별도 확인 필요. 여기서 인용되지 않은 판례를 검증 완료라고 하지 않음."
+    },
+    {
+      "entry": 7,
+      "decision": "approve",
+      "proposal_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-007-1c0a/publication-entry-proposal.md",
+      "proposal_sha256": "04d7a112cdcc8b4abfb768dc3fb127e97a55fea98a398a3de8000b13574d039a",
+      "changes_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-007-1c0a/publication-entry-changes.json",
+      "changes_sha256": "22a87a2318670fd8cb5dede56fe0aaabd568b87129f49282ae30d3f2bdd04c4e",
+      "strict_base_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-007-1c0a/strict-entry.md",
+      "strict_base_sha256": "9a2d489a1973ab22efd4b0b8504cd0fe14fd3cd78059f8961b6874c059fe8da2",
+      "effective_after_entry_sha256": "04d7a112cdcc8b4abfb768dc3fb127e97a55fea98a398a3de8000b13574d039a",
+      "field_decisions": {
+        "title": "approve",
+        "비용": "approve",
+        "쉽게": "approve",
+        "이득": "approve",
+        "근거등급": "approve",
+        "출처": "approve",
+        "비고": "approve"
+      },
+      "reason": "점유이탈물횡령360과 분실·도난 접근매체 사용49②3의 별도 형량 및49⑧병과 가능을 직접 확인했다. 361이 준용하는328의 친족 고소/비친족 공범 제외를 현재법으로 보강했다. 본문은2026-10-02 시행 조문 기준이며 과거행위에 구법·부칙을 별도로 적용해야 한다.",
+      "lengths": {
+        "title": 40,
+        "easy": 58,
+        "easy_sentences": 2,
+        "ordinary_literal50_parentheses_included": true
+      },
+      "protected_checks": {
+        "numbered_title_and_tag_unchanged": true,
+        "grade_unchanged": true,
+        "six_single_line_fields_and_order": true,
+        "changes_match_exact_fields": true,
+        "original_DOI_set_preserved": true
+      },
+      "initial_findings_closure": "기존 범위 확인/조건 유지 및 본문에 추가한 법정 조건·미수·시행일을 실제 원문으로 대조.",
+      "unresolved_limits": "구체 사실관계/범죄 성립/고의/개별 제품 분류·판례는 별도 확인 필요. 여기서 인용되지 않은 판례를 검증 완료라고 하지 않음."
+    },
+    {
+      "entry": 8,
+      "decision": "approve",
+      "proposal_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-008-fc5c/publication-entry-proposal.md",
+      "proposal_sha256": "0dc23f6fabbbf13f28f900ee9b7f60a82b6850bdc99ef6e1319c5a509cbbb2e8",
+      "changes_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-008-fc5c/publication-entry-changes.json",
+      "changes_sha256": "4b2d72ca5882c6c1303711fd286fd3bbe3f56e8c70f21cb04579fd68a09f292a",
+      "strict_base_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-008-fc5c/strict-entry.md",
+      "strict_base_sha256": "2719b391c6e222f085b3e422ba830d41d6988fb20659b0dc956a0d3acaea94b2",
+      "effective_after_entry_sha256": "0dc23f6fabbbf13f28f900ee9b7f60a82b6850bdc99ef6e1319c5a509cbbb2e8",
+      "field_decisions": {
+        "title": "approve",
+        "비용": "approve",
+        "쉽게": "approve",
+        "이득": "approve",
+        "근거등급": "approve",
+        "출처": "approve",
+        "비고": "approve"
+      },
+      "reason": "사람을 기망해 재물/이익을 취득하는347과 전산 허위·부정명령·무권한 입력/변경으로 이익을 취득하는347의2를 구별한다. 양쪽20년/5천만원·2025-12-23 시행·352미수와 행위시법 유보가 원문과 일치한다. 약관위반이나 복수계정만으로 언제나 범죄라고 하지 않는다.",
+      "lengths": {
+        "title": 41,
+        "easy": 64,
+        "easy_sentences": 2,
+        "ordinary_literal50_parentheses_included": true
+      },
+      "protected_checks": {
+        "numbered_title_and_tag_unchanged": true,
+        "grade_unchanged": true,
+        "six_single_line_fields_and_order": true,
+        "changes_match_exact_fields": true,
+        "original_DOI_set_preserved": true
+      },
+      "initial_findings_closure": "기존 범위 확인/조건 유지 및 본문에 추가한 법정 조건·미수·시행일을 실제 원문으로 대조.",
+      "unresolved_limits": "구체 사실관계/범죄 성립/고의/개별 제품 분류·판례는 별도 확인 필요. 여기서 인용되지 않은 판례를 검증 완료라고 하지 않음."
+    },
+    {
+      "entry": 9,
+      "decision": "approve",
+      "proposal_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-009-42a5/publication-entry-proposal.md",
+      "proposal_sha256": "98caa66891109b495cc7da67a20d0e2cea0230df4517907b619b165734f353b9",
+      "changes_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-009-42a5/publication-entry-changes.json",
+      "changes_sha256": "3e4db9f4ffb7ee6c886455ce64b06909e20a0d49e03d38157e5eb5f4595266b3",
+      "strict_base_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-009-42a5/strict-entry.md",
+      "strict_base_sha256": "3f6c23f73892279e55133bacbfe6048b1d99a85ff070cb11e243f15ad123ec57",
+      "effective_after_entry_sha256": "98caa66891109b495cc7da67a20d0e2cea0230df4517907b619b165734f353b9",
+      "field_decisions": {
+        "title": "approve",
+        "비용": "approve",
+        "쉽게": "approve",
+        "이득": "approve",
+        "근거등급": "approve",
+        "출처": "approve",
+        "비고": "approve"
+      },
+      "reason": "경범3①23의 해를 끼칠 우려가 있는 곳/충분한 주의 결여를 쉽게와 이득에 보존했다. 과실치사267의2년금고/700만원과 중과실·업무상과실268, 민법750의 고의과실·위법·손해 조건을 구별한다. 배상금은 벌금과 별개이며 증거·대응시간·변호사 비용을 적었다.",
+      "lengths": {
+        "title": 31,
+        "easy": 75,
+        "easy_sentences": 3,
+        "ordinary_literal50_parentheses_included": true
+      },
+      "protected_checks": {
+        "numbered_title_and_tag_unchanged": true,
+        "grade_unchanged": true,
+        "six_single_line_fields_and_order": true,
+        "changes_match_exact_fields": true,
+        "original_DOI_set_preserved": true
+      },
+      "initial_findings_closure": "기존 범위 확인/조건 유지 및 본문에 추가한 법정 조건·미수·시행일을 실제 원문으로 대조.",
+      "unresolved_limits": "구체 사실관계/범죄 성립/고의/개별 제품 분류·판례는 별도 확인 필요. 여기서 인용되지 않은 판례를 검증 완료라고 하지 않음."
+    },
+    {
+      "entry": 10,
+      "decision": "approve",
+      "proposal_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-010-6fb7/publication-entry-proposal.md",
+      "proposal_sha256": "69e5af9d03f95df502dd24cf982935a8a621416d01c96676cddb4b3548a6f8e6",
+      "changes_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-010-6fb7/publication-entry-changes.json",
+      "changes_sha256": "2adf409103fa951cf78f4d09a621c2768b9ba1660ed820480554a4cac5eb2ea6",
+      "strict_base_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-010-6fb7/strict-entry.md",
+      "strict_base_sha256": "dd6ac86fd553c16cebc119cc7fafc86bb686a145e2cf078bf7142ea434d857ef",
+      "effective_after_entry_sha256": "69e5af9d03f95df502dd24cf982935a8a621416d01c96676cddb4b3548a6f8e6",
+      "field_decisions": {
+        "title": "approve",
+        "비용": "approve",
+        "쉽게": "approve",
+        "이득": "approve",
+        "근거등급": "approve",
+        "출처": "approve",
+        "비고": "approve"
+      },
+      "reason": "모의총포11①과 탄성발사장치11②의 금지 및 수출 예외/제조신고, 10의 허가 제외와12①2의 공기총 관할,70①2의3~15년/3천만~1억원 및73제1호의2년/500만원을 직접 확인했다. 령13 및 실제 XML 별표5의2 전체에서 외관·발사체/에너지/소리·불꽃·탄성장치 기준과 안전기준/승인 제외를 확인했다. 개별 제품 판정은 미확인으로 보존했다.",
+      "lengths": {
+        "title": 34,
+        "easy": 61,
+        "easy_sentences": 2,
+        "ordinary_literal50_parentheses_included": true
+      },
+      "protected_checks": {
+        "numbered_title_and_tag_unchanged": true,
+        "grade_unchanged": true,
+        "six_single_line_fields_and_order": true,
+        "changes_match_exact_fields": true,
+        "original_DOI_set_preserved": true
+      },
+      "initial_findings_closure": "초기10 유형별 벌칙 TODO 해소. 개별 제품 분류·차량/철도 반입 등 독립 미조사 범위를 완료로 바꾸지 않음.",
+      "unresolved_limits": "구체 사실관계/범죄 성립/고의/개별 제품 분류·판례는 별도 확인 필요. 여기서 인용되지 않은 판례를 검증 완료라고 하지 않음."
+    }
+  ],
+  "actual_source_reads": [
+    {
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290185.xml",
+      "sha256": "391f3c2bb7173fff4040eda9ae2259674b616e58aeadf4371206b63c70f1c89b",
+      "URL": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&type=XML&MST=290185",
+      "read_at_utc": "2026-10-18T20:30:27.142783+00:00",
+      "retrieval": "existing_cache_read_not_new_HTTP",
+      "original_HTTP_status": 200,
+      "actual_scope": "제1·231·234·257·267·268·328·347·347의2·352·360·361; 부칙21231(공포일 시행),21307(적용례/고소기간 특례),22007",
+      "short_quote": "사기20년/5천만원, 타인 문서·행사 목적, 친족 고소/비친족 공범 제외, 미수",
+      "effective_date": "20261002"
+    },
+    {
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290247.xml",
+      "sha256": "440b67551a3f1f6119dba38469ca843ac06c55619e8aa59f3b7819c05368a621",
+      "URL": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&type=XML&MST=290247",
+      "read_at_utc": "2026-10-18T20:30:27.142783+00:00",
+      "retrieval": "existing_cache_read_not_new_HTTP",
+      "original_HTTP_status": 200,
+      "actual_scope": "제2⑩·49②3 및⑧; 최신22048부칙",
+      "short_quote": "분실되거나 도난된 접근매체 / 징역형과 벌금형은 병과할 수 있다",
+      "effective_date": "20261002"
+    },
+    {
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290135.xml",
+      "sha256": "afeade8846b7d5b65a2a2da45d7c2a5709df794d44cbc95fdbba6e737b71a0e1",
+      "URL": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&type=XML&MST=290135",
+      "read_at_utc": "2026-10-18T20:30:27.142783+00:00",
+      "retrieval": "existing_cache_read_not_new_HTTP",
+      "original_HTTP_status": 200,
+      "actual_scope": "제3① 및①23; 최신22014부칙",
+      "short_quote": "해를 끼칠 우려가 있는 곳에 충분한 주의를 하지 아니하고",
+      "effective_date": "20261002"
+    },
+    {
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/284415.xml",
+      "sha256": "cd2997176df62de7b1e4bb018287987654f6054cbd0eeced9e882d5c4daf53df",
+      "URL": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&type=XML&MST=284415",
+      "read_at_utc": "2026-10-18T20:30:27.142783+00:00",
+      "retrieval": "existing_cache_read_not_new_HTTP",
+      "original_HTTP_status": 200,
+      "actual_scope": "750 전체·기본 시행일",
+      "short_quote": "고의 또는 과실로 인한 위법행위로 타인에게 손해",
+      "effective_date": "20260317"
+    },
+    {
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch09-audit/268135.xml",
+      "sha256": "8b4cf24546cd9181dde1ab1d4f93ed84c0eb0aa7cedccf1c9567efaeed88b723",
+      "URL": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&type=XML&MST=268135",
+      "read_at_utc": "2026-10-18T20:30:27.142783+00:00",
+      "retrieval": "existing_cache_read_not_new_HTTP",
+      "original_HTTP_status": 200,
+      "actual_scope": "제10·11·12·70·73 및20656부칙 시행/경과규정",
+      "short_quote": "제11조 수출 목적 예외 / 공기총 무허가 소지3~15년 또는3천만~1억원",
+      "effective_date": "20260108"
+    },
+    {
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch09-audit/284947.xml",
+      "sha256": "f05c6f95f2eed58687b2cac1d0f299c248d5a1c9c280f8f5aa8638baccd82f26",
+      "URL": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&type=XML&MST=284947",
+      "read_at_utc": "2026-10-18T20:30:27.142783+00:00",
+      "retrieval": "existing_cache_read_not_new_HTTP",
+      "original_HTTP_status": 200,
+      "actual_scope": "령13·별표5의2 전체 내장 텍스트;35905·36221부칙",
+      "short_quote": "모의총포 기준1가/나와 탄성발사장치2가/나, 승인·안전기준 등의 제외조건",
+      "effective_date": "20260324"
+    },
+    {
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch09-audit/current-268135.xml",
+      "sha256": "4007777cc3d977bce0d109ec99d3f4379acd699c2d3db5889517eb580d75a994",
+      "retrieval": "existing_cache_search_read_not_new_HTTP",
+      "read_at_utc": "2026-10-18T20:30:27.142783+00:00",
+      "actual_scope": "검색 전체에서 MST268135 시행20260108·MST284947 시행20260324 현행을 본문과 별도 확인",
+      "results": [
+        {
+          "name": "총포ㆍ도검ㆍ화약류 등의 안전관리에 관한 법률",
+          "MST": "268135",
+          "effective": "20260108",
+          "status": "현행"
+        },
+        {
+          "name": "총포ㆍ도검ㆍ화약류 등의 안전관리에 관한 법률 시행령",
+          "MST": "284947",
+          "effective": "20260324",
+          "status": "현행"
+        },
+        {
+          "name": "총포ㆍ도검ㆍ화약류 등의 안전관리에 관한 법률 시행규칙",
+          "MST": "282777",
+          "effective": "20260108",
+          "status": "현행"
+        }
+      ]
+    },
+    {
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch09-audit/current-284947.xml",
+      "sha256": "6e2b5bb834b5fa1b961b04bbf4352e192fe1a5f7a34e2152eeea9c50a4a1674b",
+      "retrieval": "existing_cache_search_read_not_new_HTTP",
+      "read_at_utc": "2026-10-18T20:30:27.142783+00:00",
+      "actual_scope": "검색 전체에서 MST268135 시행20260108·MST284947 시행20260324 현행을 본문과 별도 확인",
+      "results": [
+        {
+          "name": "총포ㆍ도검ㆍ화약류 등의 안전관리에 관한 법률 시행령",
+          "MST": "284947",
+          "effective": "20260324",
+          "status": "현행"
+        }
+      ]
+    }
+  ],
+  "new_HTTP_requests": [],
+  "references": [
+    {
+      "source_entry": 6,
+      "target": "9/5 고수익 아르바이트",
+      "current_target_entry_sha256": "eeb5491bb6a4f1395c7ee85605fd64ec94c71c226a7c0d2e756f27ee3a214e97",
+      "latest_approved_proposal_sha256": "9486a4a8488e308675e94706463ebd68970539ef7152a3a360a1c48540df7a0b",
+      "decision": "general_guidance_matches_latest_approved",
+      "reason": "대출 허위서류와 별도의 대리송금·접근매체/공범 조건 안내이며, 제목 앵커 보존"
+    },
+    {
+      "source_entry": 8,
+      "target": "제11절(개발자와 기술자의 레드라인)",
+      "current_target_whole_sha256": "190f1bfb76853df9cee7f4a460f7f8a96d8eae39482fcbe352c65c6e8045c1fe",
+      "current_relevant_entry": 3,
+      "current_relevant_entry_sha256": "21f3af374fe8962141340135404dc0d80a69cfd7fbd85de5966fabcd393e47d7",
+      "decision": "current_general_guidance_matches_pending_final_target_recheck",
+      "reason": "부정 예매·순위조작 자동화와 가짜거래에 따른 사기 구별을 안내. 최신 full 미준비라 최종 법률/판례 사실 승인 아님. 이후 exact target 검토 필요"
+    },
+    {
+      "source_entry": 10,
+      "target": "9/26 호신 장비",
+      "current_target_entry_sha256": "0541fcad87253e4930f1cb403869e12d922ea240280ebef2b6afef2033debe43",
+      "decision": "current_general_guidance_matches_pending_final_target_recheck",
+      "reason": "일반 호신 장비 분류/소지 안내로 앵커 대응. 26의 휴대·운반 제한 초기 필수지적이 아직 남은 현재본이므로 full26 도착후 exact 의미 재확인 필요"
+    }
+  ],
+  "chapter_final_approval": false,
+  "formal_approval": false,
+  "publication_approval": false,
+  "protected_scope": "원고·원자료·기존리뷰·frozen·purefinal·candidate·public·Git 불변. 신규 보고서 쌍만 작성.",
+  "integration_check": {
+    "model": "production split plus after.rstrip()+original separator, memory only",
+    "entry_count": 26,
+    "other21_entries_exact_bytes_unchanged": true,
+    "intro_tail_unchanged": true,
+    "expected_this_batch_only_whole_sha256": "98699ce7b30a1343a05d69b22a344ee6f983b3cfd0b5e9dd12473691acb061ee",
+    "not_final_result": true
+  },
+  "remaining": "참조11절/26항 최신안 재확인 및 나머지 항목/intro/tail·모든 initial warning 검토 전에는 canonical 전체 승인 불가."
+}

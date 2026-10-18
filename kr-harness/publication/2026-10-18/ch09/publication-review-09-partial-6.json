@@ -1,0 +1,104 @@
+{
+  "review_id": "publication-review-09-partial-6",
+  "status": "partial_approved_not_chapter_approval",
+  "reviewed_at_utc": "2026-10-18T20:39:08.486956+00:00",
+  "manifest_path": "kr-harness/publication/2026-10-18/ch09/author-partial-manifest-6.json",
+  "manifest_sha256": "c6a267649ae8a2e187ab48cc46f059131558a78632532c8c4f36dc8e3069f7c3",
+  "whole_baseline_guards": {
+    "source": {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/source.md",
+      "sha256": "944ab983bf1467dd3e475b1798c9284c2df0ab927bfc75657ac87d928c95a4c4"
+    },
+    "publication_manifest": {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/manifest.json",
+      "sha256": "ec029de45d75a5de63fd7c7ec3c4419bcc92fc3e5dd53af1a1c6a48ec347e467"
+    },
+    "current_public": {
+      "path": "/workspace/HowToLiveBetter-KR/book-kr/09-흔한-법적-레드라인.md",
+      "sha256": "944ab983bf1467dd3e475b1798c9284c2df0ab927bfc75657ac87d928c95a4c4"
+    },
+    "pure_candidate": {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/candidate.md",
+      "sha256": "944ab983bf1467dd3e475b1798c9284c2df0ab927bfc75657ac87d928c95a4c4"
+    }
+  },
+  "entries": [
+    {
+      "entry": 14,
+      "decision": "approve",
+      "proposal_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-014-2c96/publication-entry-proposal-r2.md",
+      "proposal_sha256": "ff3d71c2b9dbea9056f018d19832157c4eb56d8ed4badd6b8fb37db0c5e1ede6",
+      "changes_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-014-2c96/changes-r2.json",
+      "changes_sha256": "729152647f04fbf40ec9298aa77629b4991913ec91026ef67c3324c3b5a0732e",
+      "strict_base_sha256": "cd06bd6af72d51a2d07323a49be5f9e1e01e625dc6453cf5dacc1f7936cc94a0",
+      "superseded_r1_proposal_sha256": "a0e2c58ddd5b5474202c37c72af6b8e11e84a2ec63d7bfc3e54ae4d5ea0dc9da",
+      "field_decisions": {
+        "title": "approve",
+        "비용": "approve",
+        "쉽게": "approve",
+        "이득": "approve",
+        "근거등급": "approve",
+        "출처": "approve",
+        "비고": "approve"
+      },
+      "reason": "원안의 실제 법률 조건을 보존하며 현행 확인 상태·미래판 구별을 갱신하고 번역작업 메모만 삭제했다.",
+      "checks": {
+        "two_exact_spans_only": true,
+        "other_five_fields_title_tag_grade_DOI_unchanged": true,
+        "all_length_and_production_layout": true,
+        "current_whole_and_strict_guards": true
+      },
+      "initial_and_partial4_findings": "인공증식 예외 및 실제 최신현행검증 한계 갱신 모두 해소. 종별 명단·국제거래 서류·벌칙 미확인은 그대로 유지."
+    }
+  ],
+  "actual_reads": [
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch09-full-review-p4/current-3.xml",
+      "sha256": "d99bcaa02dda98ed54a155a8524403d2236ef4fc89ba03b208e21de41756e195",
+      "url": "https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=law&type=XML&query=%EC%95%BC%EC%83%9D%EC%83%9D%EB%AC%BC+%EB%B3%B4%ED%98%B8+%EB%B0%8F+%EA%B4%80%EB%A6%AC%EC%97%90+%EA%B4%80%ED%95%9C+%EB%B2%95%EB%A5%A0&display=100&nw=1",
+      "original_requested_at_utc": "2026-10-18T20:32:14.024100+00:00",
+      "original_HTTP_status": 200,
+      "read_at_utc": "2026-10-18T20:39:08.486956+00:00",
+      "mode_this_recheck": "existing_cache_read_of_partial4_fresh_request_not_new_HTTP",
+      "scope": "검색 XML 전체 직접 파싱; actual법 본문9/14·부칙은partial4 독립검증을 그대로 바인딩",
+      "results": [
+        {
+          "name": "야생생물 보호 및 관리에 관한 법률",
+          "MST": "286743",
+          "effective": "20261210",
+          "status": "시행예정"
+        },
+        {
+          "name": "야생생물 보호 및 관리에 관한 법률",
+          "MST": "279791",
+          "effective": "20260512",
+          "status": "현행"
+        },
+        {
+          "name": "야생생물 보호 및 관리에 관한 법률 시행령",
+          "MST": "282985",
+          "effective": "20260201",
+          "status": "현행"
+        },
+        {
+          "name": "야생생물 보호 및 관리에 관한 법률 시행규칙",
+          "MST": "286031",
+          "effective": "20260512",
+          "status": "현행"
+        }
+      ]
+    }
+  ],
+  "prior_review_binding": {
+    "path": "kr-harness/publication/2026-10-18/ch09/publication-review-09-partial-4.json",
+    "sha256": "d12ada772bd5dbd7ddfe0340b8197cc88f72eba9290f0f354abff634e03aa501"
+  },
+  "approved_count": 1,
+  "revise_count": 0,
+  "new_HTTP_requests": [],
+  "chapter_final_approval": false,
+  "formal_approval": false,
+  "publication_approval": false,
+  "public_written": false,
+  "remaining": "나머지 항목·16/17/18r2 및intro/tail·최신target 의미 재확인 전 전체승인 불가."
+}

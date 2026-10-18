@@ -1,0 +1,45 @@
+{
+  "chapter": 9,
+  "entry": 17,
+  "status": "proposal_only_not_approved",
+  "r1_sha256": "3aa04a5a4800b287f094541f898df95f9ec72aac0f267e76a6150043a22f237c",
+  "entries": [
+    {
+      "entry": 17,
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-017-9dfd/strict-entry.md",
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-017-9dfd/publication-entry-proposal-r2.md",
+      "proposal_sha256": "25601ebb08f3cbf655841f5aabb2303fd4dff797d3aeedc0e255e9093bccac8b"
+    }
+  ],
+  "exact_spans": [
+    {
+      "before": "원문의 경찰 전용 형량은 옮기지 않았습니다. ",
+      "after": ""
+    },
+    {
+      "before": "가벼운 저항을 자동으로 제외하는 규칙도 옮기지 않았습니다.",
+      "after": "저항이 가볍다는 이유만으로 자동 면책되지는 않습니다."
+    }
+  ],
+  "reason": "partial5 sameauthor 최소 r2: 변환 작업 메모를 삭제하고 가벼운 저항 자동 면책 부정을 독자용으로 표현. 나머지 bytes 동일.",
+  "preserved": [
+    "적법한 공무 집행 요건",
+    "폭행·협박 요건",
+    "구체 판례·체포 절차 미확인 유보"
+  ],
+  "checks": {
+    "literal_check.py": {
+      "result": "pass",
+      "title_chars": 30,
+      "easy_chars": 54,
+      "easy_sentences": 2,
+      "long_sentences": []
+    },
+    "check-full-layout.py": {
+      "result": "pass",
+      "checked": 1,
+      "failures": []
+    },
+    "other_bytes_unchanged": true
+  }
+}

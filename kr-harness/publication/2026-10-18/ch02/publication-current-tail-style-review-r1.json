@@ -1,0 +1,129 @@
+{
+  "review_id": "publication-current-tail-style-review-r1",
+  "status": "approved_for_exact_integration",
+  "decision": "approve",
+  "chapter": 2,
+  "reviewed_at_utc": "2026-10-18T20:23:20.802324+00:00",
+  "proposal_path": "kr-harness/publication/2026-10-18/ch02/publication-current-tail-style-proposal-r1.json",
+  "proposal_sha256": "8800c3d86a3774b5f900e00d1d9d735f2088b81038b9a6d72e7af01ee4d72b2d",
+  "before_whole_sha256": "773251e22e2964d827ea1ca997dc73810887e42bd3297a6fd352837528c79f8c",
+  "before_tail_sha256": "510ac5b187aebd96c4d45bc3fbe796b40084787738a83223ac93f3c8d4e83272",
+  "after_tail_sha256": "07036987afc417b65d2ff2e3ab13dcf79b03099493f16220c10b863613cf0f3e",
+  "expected_whole_after_sha256": "f166f4e0642f4655c6e31faf9a008fc50cae7deddf527a5c9d1ab1ecbc213a4a",
+  "operations": [
+    {
+      "before": "3. 제21항 아캄프로세이트 국내 유통 여부(날트렉손의 알코올 의존성 치료 허가는 의약품안전나라 레비아정 제품 상세에서 확인됨).",
+      "after": "3. 제21항 아캄프로세이트 국내 유통 여부. 날트렉손의 알코올 의존성 치료 허가는 의약품안전나라 레비아정 제품 상세에서 확인됨.",
+      "decision": "approve"
+    },
+    {
+      "before": "5. 제27·34항 한국인 영양섭취기준의 과일·채소·유제품 권장량 보강 여부(현재는 원문 국제 근거만 사용).",
+      "after": "5. 제27·34항 한국인 영양섭취기준의 과일·채소·유제품 권장량 보강 여부. 현재는 원문 국제 근거만 사용.",
+      "decision": "approve"
+    },
+    {
+      "before": "9. 비용 칸의 국내 금액 어림 출처 확인: 제6항 전자담배 월 비용, 제9항 저나트륨 소금 가격 차, 제10항 치실·치간칫솔 연간 비용, 제14항 코트 대여비, 제25항 차 연간 비용, 제26항 커피 하루 비용.",
+      "after": "9. 비용 칸의 국내 금액 어림 출처 확인: 제6항 전자담배 월 비용. 제9항 저나트륨 소금 가격 차, 제10항 치실·치간칫솔 연간 비용. 제14항 코트 대여비, 제25항 차 연간 비용, 제26항 커피 하루 비용.",
+      "decision": "approve"
+    }
+  ],
+  "semantic_reason": "TODO3의 아캄프로세이트 국내 유통 미확인과 날트렉손 허가 확인 상태를 구별해 그대로 보존한다. TODO5의 국내 권장량 보강 여부/현재 국제 근거만 사용과 TODO9의 여섯 비용항목·각 기준기간을 유지한다.",
+  "sentence_audit": [
+    {
+      "text": "제1항: 국내 담뱃값과 소비량별 월 비용 산식은 미확인입니다.",
+      "actual_chars_including_parentheses": 34,
+      "visible_prefix_chars": 37
+    },
+    {
+      "text": "금단 증상의 지속기간도 임상 근거 확인이 필요합니다.",
+      "actual_chars_including_parentheses": 29,
+      "visible_prefix_chars": 29
+    },
+    {
+      "text": "본문은 미확인 금액과 기간을 단정하지 않습니다.",
+      "actual_chars_including_parentheses": 26,
+      "visible_prefix_chars": 26
+    },
+    {
+      "text": "제6항 니코틴이 없는 전자담배 기기 자체가 「담배사업법」의 「담배」에 드는지 확인.",
+      "actual_chars_including_parentheses": 46,
+      "visible_prefix_chars": 49
+    },
+    {
+      "text": "제21항 아캄프로세이트 국내 유통 여부.",
+      "actual_chars_including_parentheses": 22,
+      "visible_prefix_chars": 25
+    },
+    {
+      "text": "날트렉손의 알코올 의존성 치료 허가는 의약품안전나라 레비아정 제품 상세에서 확인됨.",
+      "actual_chars_including_parentheses": 46,
+      "visible_prefix_chars": 46
+    },
+    {
+      "text": "제22항 하루 28g 견과의 월 비용 시세 확인.",
+      "actual_chars_including_parentheses": 27,
+      "visible_prefix_chars": 30
+    },
+    {
+      "text": "제27·34항 한국인 영양섭취기준의 과일·채소·유제품 권장량 보강 여부.",
+      "actual_chars_including_parentheses": 40,
+      "visible_prefix_chars": 43
+    },
+    {
+      "text": "현재는 원문 국제 근거만 사용.",
+      "actual_chars_including_parentheses": 17,
+      "visible_prefix_chars": 17
+    },
+    {
+      "text": "제39항 생체시계와 야간 근무 부록의 한국어판 마련 여부.",
+      "actual_chars_including_parentheses": 32,
+      "visible_prefix_chars": 35
+    },
+    {
+      "text": "제40항 국내 식용유지 아플라톡신 규격(식약처 「식품의 기준 및 규격」) 확인.",
+      "actual_chars_including_parentheses": 44,
+      "visible_prefix_chars": 47
+    },
+    {
+      "text": "제41항 한국 지침(「한국인을 위한 식생활지침」 등)의 하루 조리유 권장량 확인.",
+      "actual_chars_including_parentheses": 45,
+      "visible_prefix_chars": 48
+    },
+    {
+      "text": "비용 칸의 국내 금액 어림 출처 확인: 제6항 전자담배 월 비용.",
+      "actual_chars_including_parentheses": 36,
+      "visible_prefix_chars": 39
+    },
+    {
+      "text": "제9항 저나트륨 소금 가격 차, 제10항 치실·치간칫솔 연간 비용.",
+      "actual_chars_including_parentheses": 37,
+      "visible_prefix_chars": 37
+    },
+    {
+      "text": "제14항 코트 대여비, 제25항 차 연간 비용, 제26항 커피 하루 비용.",
+      "actual_chars_including_parentheses": 41,
+      "visible_prefix_chars": 41
+    }
+  ],
+  "length_convention": {
+    "actual_sentence_includes": "법령·기관·수치·괄호·공백 전체 포함; 문장 밖 서수/항목 표시는 별도보수집계",
+    "actual_max": 46,
+    "visible_prefix_included_max": 49,
+    "untouched_prefix_over50": "없음"
+  },
+  "checks": {
+    "actual_whole_tail_and_snapshots_match": true,
+    "only_unique_operations_changed": true,
+    "all_other_tail_bytes_unchanged": true,
+    "intro_and_all_numbered_entries_unchanged": true,
+    "entry_count": 42,
+    "todo_count": 9,
+    "todo_heading_numbers_conditions_unresolved_status_preserved": true,
+    "literal50_actual_sentences": true,
+    "public_guard_rechecked": true
+  },
+  "source_verification_scope": "이 승인에서는 기존 미확인/확인 상태를 바꾸지 않은 문장 분리만 판단했다. 새 원자료 사실 승인 아님; 신규HTTP/외부raw재열람0.",
+  "formal_approval": false,
+  "publication_approval": false,
+  "public_written": false
+}

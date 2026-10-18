@@ -1,0 +1,50 @@
+{
+  "entry": 14,
+  "status": "unadopted_proposal",
+  "semantic_review": "pending",
+  "base_strict_sha256": "cd06bd6af72d51a2d07323a49be5f9e1e01e625dc6453cf5dacc1f7936cc94a0",
+  "proposal_sha256": "a0e2c58ddd5b5474202c37c72af6b8e11e84a2ec63d7bfc3e54ae4d5ea0dc9da",
+  "changes": [
+    {
+      "field": "이득",
+      "reason": "법률 정식명칭 및 제14조제3항제1·2호의 예외를 보강함."
+    },
+    {
+      "field": "비고",
+      "reason": "제14조제3항제6호 인공증식 예외, 미확인 범위, 직접 확인한 인용판 범위·날짜 명시."
+    }
+  ],
+  "audit_resolution": {
+    "finding": "제14항 verified_scope_with_open_detail",
+    "resolution": "인공사육 일률허가 요구 금지 유지; 종별·국제거래 서류·벌칙 미확인 상태 유지."
+  },
+  "references": {
+    "outgoing": [],
+    "incoming": [],
+    "scan": "book-kr 및 publication markdown에서 제9절 제14항과 야생동물 제목 검색. 해당 항목을 향한 참조 없음. 본문 outgoing 없음."
+  },
+  "primary": {
+    "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=279791&type=XML",
+    "retrieval": "2026-10-18 new_https HTTP200",
+    "sha256": "53e91dca78da4b51111e726e43f5ab1c74a338cb080f53f9d156dab7cfb6dc08",
+    "read": [
+      "제9조",
+      "제14조",
+      "부칙 제21126호: 공포 후 6개월 경과 시행"
+    ],
+    "limits": "종별 명단·국제 거래 서류·벌칙 및 기준일 최신개정 여부는 별도 확인하지 않음."
+  },
+  "validation": {
+    "literal_check.py": {
+      "pass": true,
+      "title_chars": 39,
+      "easy_chars": 64,
+      "easy_sentences": 2,
+      "long_sentences": []
+    },
+    "check-full-layout.py": {
+      "checked": 1,
+      "failures": []
+    }
+  }
+}

@@ -1,0 +1,401 @@
+{
+  "review_id": "publication-review-09-partial-4",
+  "status": "partial_3_approved_1_revision_required_not_chapter_approval",
+  "reviewed_at_utc": "2026-10-18T20:34:15.773286+00:00",
+  "manifest_path": "kr-harness/publication/2026-10-18/ch09/author-partial-manifest-4.json",
+  "manifest_sha256": "546db62b416e184cb9599f41cdba09cb91e30fe7109a900cfe1d6f774a58dd9a",
+  "whole_baseline_guards": {
+    "source": {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/source.md",
+      "sha256": "944ab983bf1467dd3e475b1798c9284c2df0ab927bfc75657ac87d928c95a4c4"
+    },
+    "publication_manifest": {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/manifest.json",
+      "sha256": "ec029de45d75a5de63fd7c7ec3c4419bcc92fc3e5dd53af1a1c6a48ec347e467"
+    },
+    "current_public": {
+      "path": "/workspace/HowToLiveBetter-KR/book-kr/09-흔한-법적-레드라인.md",
+      "sha256": "944ab983bf1467dd3e475b1798c9284c2df0ab927bfc75657ac87d928c95a4c4"
+    },
+    "pure_candidate": {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/candidate.md",
+      "sha256": "944ab983bf1467dd3e475b1798c9284c2df0ab927bfc75657ac87d928c95a4c4"
+    }
+  },
+  "entries": [
+    {
+      "entry": 11,
+      "decision": "approve",
+      "proposal_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-011-ee7c/publication-entry-proposal.md",
+      "proposal_sha256": "f70bb9ba23b5042f09d9c55d157692b677cb206c1c98bc4b4596b67976219985",
+      "changes_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-011-ee7c/changes.json",
+      "changes_sha256": "c5913c8b63ef442a37b5d6178aa72607684f1d60785555433b334e5892b95497",
+      "strict_base_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-011-ee7c/strict-entry.md",
+      "strict_base_sha256": "e5399d65b4a345577aafebf7946414b573ea8a4fd890840a59e1b8dc9f3b30b8",
+      "effective_after_entry_sha256": "a9e19b69102576a3cbdedf24eb7c4d5c49e36eebd992d9804930dd515c79cddc",
+      "field_decisions": {
+        "title": "approve",
+        "비용": "approve",
+        "쉽게": "approve",
+        "이득": "approve",
+        "근거등급": "approve",
+        "출처": "approve",
+        "비고": "approve"
+      },
+      "exact_actual_changed_fields": [
+        {
+          "field": "이득",
+          "before": "「항공안전법」 제122조는 기체 신고를 규정합니다. 시행령 제24조는 무인동력비행장치의 신고 제외 조건을 정합니다. 최대이륙중량이 2킬로그램 이하이고 사업에 쓰지 않아야 합니다. 법 제127조는 비행 승인을 규정합니다. 시행규칙 제308조는 관제권·비행금지구역과 고도에 따른 승인 조건을 둡니다. 제310조는 위험 비행 등을 금지합니다.",
+          "after": "「항공안전법」 제122조는 기체 신고를 규정합니다. 시행령 제24조는 신고 제외 조건을 정합니다. 무인동력비행장치는 최대이륙중량 2킬로그램 이하가 해당합니다. 다만 다음 세 영업에 사용하지 않아야 합니다. 항공기대여업·항공레저스포츠사업·초경량비행장치사용사업이 해당합니다. 법 제127조는 비행 승인을 규정합니다. 신고가 면제돼도 비행 승인이 필요할 수 있습니다. 시행규칙 제308조는 구역과 고도에 따른 승인 조건을 둡니다. 관제권·비행금지구역과 기준 고도 이상 비행은 승인을 받아야 합니다. 제310조는 위험 비행 등을 금지합니다. 야간 비행과 육안 범위 밖 비행에도 제한이 있습니다. 특별비행 승인을 받으면 승인 범위에서 비행할 수 있습니다."
+        },
+        {
+          "field": "비고",
+          "before": "신고 면제와 비행 승인 면제는 서로 다릅니다. 제조사 제한을 해제해도 법적 제한이 없어지지 않습니다. 개별 공역 지정과 벌칙, 교육·자격 요건은 TODO로 남겼습니다. 추가 확인이 필요합니다. 원문처럼 구매한 모든 드론의 실명등록을 요구하지 않습니다. 2026-10-10 법령 확인(국가법령정보센터).",
+          "after": "신고 면제와 비행 승인 면제는 서로 다릅니다. 제조사 제한을 해제해도 법적 제한이 없어지지 않습니다. 개별 공역 지정과 벌칙, 교육·자격 요건은 아직 확인하지 못했습니다. 추가 확인이 필요합니다. 구매한 모든 드론에 일률적으로 신고를 요구하는 규정은 아닙니다. 2026-10-18 국가법령정보센터의 인용판 조문과 부칙을 확인했습니다. 기준일 현행판인지는 독립적으로 확인하지 못했습니다."
+        }
+      ],
+      "reason": "초기 필수 지적인 모든 사업 제외를 법정 세 업종으로 정확히 한정했다. 최대이륙중량2kg 신고면제와 비행승인면제의 차이, 법127③·규칙308⑤⑥의 고도/관제권/비행금지구역 및129⑤의 특별비행 승인범위를 원문과 대조했다. 개별 공역·벌칙·자격과 법 기준일 최신판 미확인 상태를 독자에게 명시한다.",
+      "lengths": {
+        "title": 41,
+        "easy": 66,
+        "easy_sentences": 2,
+        "ordinary_literal50_including_parentheses": true
+      },
+      "checks": {
+        "whole_and_exact_files_guarded": true,
+        "title_tag_grade_protected": true,
+        "six_single_line_fields_production_layout": true,
+        "DOI_set_preserved": true
+      },
+      "outgoing_references": [],
+      "unresolved_limits": "미확인 개별 공역·벌칙·교육/자격, 기준일 법 최신판. 령·규칙 현행검색이 일부 확인돼도 법 검색 실패를 완료로 하지 않음."
+    },
+    {
+      "entry": 12,
+      "decision": "approve",
+      "proposal_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-012-309b/publication-entry-proposal.md",
+      "proposal_sha256": "ac4f14d47784e6b07f4d892b88e728c8515c027e5d30e9c4978233d988eeea9a",
+      "changes_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-012-309b/publication-entry-changes.json",
+      "changes_sha256": "f5c708d23fa9e8b1fb2aacffe60766c9db5387e9b29eaa346505156208fbbdcd",
+      "strict_base_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-012-309b/strict-entry.md",
+      "strict_base_sha256": "111f504cbc18932c2e1f35e5b0ead18a55d59a9a7134833191bbc0cfd5f28350",
+      "effective_after_entry_sha256": "c066ab6aeadf9b782d0b263f07d7408a45197d432842d2ce863ca52952e8a670",
+      "field_decisions": {
+        "title": "approve",
+        "비용": "approve",
+        "쉽게": "approve",
+        "이득": "approve",
+        "근거등급": "approve",
+        "출처": "approve",
+        "비고": "approve"
+      },
+      "exact_actual_changed_fields": [
+        {
+          "field": "이득",
+          "before": "성적 욕망·수치심을 유발할 수 있는 신체가 조문의 대상입니다. 의사에 반한 촬영의 법정형은 7년 이하 징역입니다. 5,000만원 이하 벌금도 규정돼 있습니다. 의사에 반해 촬영물을 배포해도 같은 법정형을 적용합니다. 영리 목적으로 정보통신망에 배포하면 3년 이상 유기징역입니다.",
+          "after": "성적 욕망·수치심을 유발할 수 있는 신체가 조문의 대상입니다. 의사에 반한 촬영은 7년 이하 징역 또는 5,000만원 이하 벌금입니다. 그 촬영물이나 복제물을 배포해도 같은 법정형입니다. 동의한 촬영이나 직접 찍은 자기 신체도 포함됩니다. 이 경우 사후에 본인 의사에 반해 배포하면 같은 법정형입니다. 영리 목적으로 본인 의사에 반해 정보통신망에 배포하면 가중됩니다. 이때는 3년 이상 유기징역입니다."
+        },
+        {
+          "field": "출처",
+          "before": "「성폭력범죄의 처벌 등에 관한 특례법」 제14조제1항·제2항·제3항. https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&type=XML&MST=289993&efYd=20261002 · 「민법」 제750조·제751조. https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&type=XML&MST=284415&efYd=20260317",
+          "after": "「성폭력범죄의 처벌 등에 관한 특례법」 제14조제1항·제2항·제3항. https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=289993&type=XML · 「민법」 제750조·제751조. https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=284415&type=XML"
+        },
+        {
+          "field": "비고",
+          "before": "몰래 촬영했다고 모두 이 성폭력 조문에 해당하지는 않습니다. 신체와 촬영 내용 등 요건을 따집니다. 자기 집에서도 타인의 권리를 침해하면 책임 문제가 생깁니다. 통신 도청이나 일반 영상정보 장치 규칙은 TODO 확인 필요로 남겼습니다. 2026-10-10 법령 확인(국가법령정보센터).",
+          "after": "몰래 촬영했다고 모두 이 성폭력 조문에 해당하지는 않습니다. 신체와 촬영 내용 등 요건을 따집니다. 객실에 장치를 설치한 사실만으로 위 형량을 적용하지는 않습니다. 자기 집에서도 타인의 권리를 침해하면 책임 문제가 생깁니다. 고의·과실의 위법행위로 손해를 주면 민사상 배상 책임이 있습니다. 정신적 고통 등 재산 외 손해도 배상 대상입니다. 통신 도청이나 일반 영상정보 장치 규칙은 아직 확인하지 못했습니다. 2026-10-18 국가법령정보센터의 인용판 조문·부칙을 확인했습니다."
+        }
+      ],
+      "reason": "성적 신체의 비동의 촬영14①, 비동의 사후반포14②, 영리·정보통신망·본인 의사에 반한14③의 가중 조건을 구별했다. 설치 자체/일반 몰래촬영 전체에 이 형을 적용하지 않으며750·751의 위법/고의과실/손해·정신고통 범위를 확인했다. 도청/일반 영상기기 별도규칙 미확인 상태를 유지한다.",
+      "lengths": {
+        "title": 33,
+        "easy": 65,
+        "easy_sentences": 2,
+        "ordinary_literal50_including_parentheses": true
+      },
+      "checks": {
+        "whole_and_exact_files_guarded": true,
+        "title_tag_grade_protected": true,
+        "six_single_line_fields_production_layout": true,
+        "DOI_set_preserved": true
+      },
+      "outgoing_references": [],
+      "unresolved_limits": "일반영상/도청 별도규칙 미확인"
+    },
+    {
+      "entry": 13,
+      "decision": "approve",
+      "proposal_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-013-59d0/publication-entry-proposal.md",
+      "proposal_sha256": "03dd7dbc9b32c747e87da429eac32ea032ba46ae69f67fb49181910bc9b70801",
+      "changes_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-013-59d0/publication-entry-changes.json",
+      "changes_sha256": "ef311696703d9d5c0c9e5ab4a043f0802b84a83b4dfe5c4096b70cbcce2d1055",
+      "strict_base_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-013-59d0/strict-entry.md",
+      "strict_base_sha256": "9939deb660bcc6d43528d44608db689e5b6a78a9b217256c26dfd2adc5f3b88f",
+      "effective_after_entry_sha256": "03dd7dbc9b32c747e87da429eac32ea032ba46ae69f67fb49181910bc9b70801",
+      "field_decisions": {
+        "title": "approve",
+        "비용": "approve",
+        "쉽게": "approve",
+        "이득": "approve",
+        "근거등급": "approve",
+        "출처": "approve",
+        "비고": "approve"
+      },
+      "exact_actual_changed_fields": [
+        {
+          "field": "출처",
+          "before": "「형법」 제246조·제247조. https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&type=XML&MST=290185&efYd=20261002",
+          "after": "「형법」 제246조·제247조. https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290185&type=XML"
+        },
+        {
+          "field": "비고",
+          "before": "친족이거나 소액이라는 이유만으로 일시 오락이라 단정하지 마세요. 온라인 공간이 제247조에 포함되는지는 실제 운영을 따져야 합니다. 일시 오락의 구체적인 판례 기준은 TODO 확인 필요로 남겼습니다. 2026-10-10 법령 확인(국가법령정보센터).",
+          "after": "친족이거나 소액이라는 이유만으로 일시 오락이라 단정하지 마세요. 온라인 공간이 제247조에 포함되는지는 실제 운영을 따져야 합니다. 일시 오락의 구체적인 판례 기준은 아직 조사하지 않았습니다. 2026-10-18 국가법령정보센터에서 조문과 부칙을 확인했습니다."
+        }
+      ],
+      "reason": "246①의 일시오락 단서와②상습도박,247의 영리 목적·장소/공간 개설 및 형을 확인했다. 소액·친족으로 일괄 합법 처리하지 않는다. 구체 판례는 미조사라고 명시해 원문 접근실패나 검증 완료와 구별한다.",
+      "lengths": {
+        "title": 36,
+        "easy": 63,
+        "easy_sentences": 2,
+        "ordinary_literal50_including_parentheses": true
+      },
+      "checks": {
+        "whole_and_exact_files_guarded": true,
+        "title_tag_grade_protected": true,
+        "six_single_line_fields_production_layout": true,
+        "DOI_set_preserved": true
+      },
+      "outgoing_references": [],
+      "unresolved_limits": "구체 판례 미조사"
+    },
+    {
+      "entry": 14,
+      "decision": "revise",
+      "proposal_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-014-2c96/publication-entry-proposal.md",
+      "proposal_sha256": "a0e2c58ddd5b5474202c37c72af6b8e11e84a2ec63d7bfc3e54ae4d5ea0dc9da",
+      "changes_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-014-2c96/changes.json",
+      "changes_sha256": "745d96287e16b1b98501d60a34794b13cf6c92954be760c671a7578f4c978ee9",
+      "strict_base_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-014-2c96/strict-entry.md",
+      "strict_base_sha256": "cd06bd6af72d51a2d07323a49be5f9e1e01e625dc6453cf5dacc1f7936cc94a0",
+      "effective_after_entry_sha256": "a0e2c58ddd5b5474202c37c72af6b8e11e84a2ec63d7bfc3e54ae4d5ea0dc9da",
+      "field_decisions": {
+        "title": "approve",
+        "비용": "approve",
+        "쉽게": "approve",
+        "이득": "approve",
+        "근거등급": "approve",
+        "출처": "approve",
+        "비고": "revise"
+      },
+      "exact_actual_changed_fields": [
+        {
+          "field": "이득",
+          "before": "불법 포획·수입·반입을 알면서 취득·양도·운반·보관하면 안 됩니다. 야생생물 보호 법률 제9조에서 규정합니다. 지정 야생동물로 만든 음식을 먹는 행위도 포함합니다. 제14조는 멸종위기 야생생물 포획·유통·보관 등을 금지합니다. 허가와 예외 조건도 있습니다.",
+          "after": "불법 포획·수입·반입을 알면서 취득·양도·운반·보관하면 안 됩니다. 「야생생물 보호 및 관리에 관한 법률」 제9조에서 규정합니다. 지정 야생동물로 만든 음식을 먹는 행위도 포함합니다. 제14조는 멸종위기 야생생물 포획·유통·보관 등을 금지합니다. 허가와 예외 조건도 있습니다. 인체에 급박한 위해가 있거나 구조·치료가 시급한 포획 등이 예외입니다."
+        },
+        {
+          "field": "비고",
+          "before": "인공증식한 동물도 허가가 필요할 수 있습니다. 국내 멸종위기종과 국제 거래 규제는 구분해야 합니다. 종별 명단·국제 거래 서류·벌칙은 TODO로 남겼습니다. 확인이 필요합니다. 원문의 동물 가치 배수 벌금과 중국 앵무새 사례는 적용하지 않았습니다. 2026-10-10 법령 확인(국가법령정보센터).",
+          "after": "인공증식한 동물도 허가가 필요할 수 있습니다. 국내 멸종위기종과 국제 거래 규제는 구분해야 합니다. 대통령령에 맞춰 인공증식한 경우 가공·유통·보관 금지의 예외가 있습니다. 종별 명단·국제 거래 서류·벌칙은 아직 확인하지 못했습니다. 원문의 동물 가치 배수 벌금과 중국 앵무새 사례는 적용하지 않았습니다. 2026-10-18 제9조·제14조와 인용판 부칙 확인(국가법령정보센터). 해당 인용판은 2026-05-12 시행판입니다. 기준일의 최신 개정 여부는 별도로 확인하지 못했습니다."
+        }
+      ],
+      "reason": "9조의 불법 포획·수입·반입 인식 및 지정 음식,14조 허가/급박위해·구조치료 시급/대통령령에 맞춘 인공증식의 가공·유통·보관 예외는 원문과 일치한다. 다만 최신 개정 여부 미확인 문구는 새 실제 현행검색으로 해소됐으므로 갱신이 필요하다.",
+      "lengths": {
+        "title": 39,
+        "easy": 64,
+        "easy_sentences": 2,
+        "ordinary_literal50_including_parentheses": true
+      },
+      "checks": {
+        "whole_and_exact_files_guarded": true,
+        "title_tag_grade_protected": true,
+        "six_single_line_fields_production_layout": true,
+        "DOI_set_preserved": true
+      },
+      "outgoing_references": [],
+      "unresolved_limits": "종별 보호 명단/국제거래 서류/벌칙 미확인; 최신판 미확인만 해소 필요",
+      "required_revision": {
+        "exact_before": "기준일의 최신 개정 여부는 별도로 확인하지 못했습니다.",
+        "requirement": "원작성자가 실제 새 현행검색 raw/index를 직접 열고 인용판279791은2026-05-12 현행,286743은2026-12-10 시행예정임을 구별한 확인 상태로 최소 갱신한다. 종별/서류/벌칙 미확인은 그대로 둔다.",
+        "style_recommendation": "원문의 동물 가치 배수 벌금과 중국 앵무새 사례는 적용하지 않았습니다. — 독자 조언이 아닌 번역작업 메모이므로 삭제 권장."
+      }
+    }
+  ],
+  "approved_count": 3,
+  "revise_count": 1,
+  "actual_source_reads": [
+    {
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch09-audit/286927.xml",
+      "sha256": "ba5dc48e0deac4831974127f42a156a4598f1dfcfae3b3db8a266b16bdd22102",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&type=XML&MST=286927",
+      "read_at_utc": "2026-10-18T20:34:15.773286+00:00",
+      "mode": "existing_cache_read_not_new_HTTP",
+      "original_HTTP_status": 200,
+      "actual_scope": "법122/127/129 전항; 부칙21268/21822 시행·과태료 경과와21636 장래/조문별 시행 분리",
+      "basic_effective_date": "20260917"
+    },
+    {
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch09-audit/287495.xml",
+      "sha256": "dd5c74cb1ac2a7b9f0649d1ae9ad8b5c90af941b55d03fd6cea4f6f5e7f97888",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&type=XML&MST=287495",
+      "read_at_utc": "2026-10-18T20:34:15.773286+00:00",
+      "mode": "existing_cache_read_not_new_HTTP",
+      "original_HTTP_status": 200,
+      "actual_scope": "령24 전호·세 영업 제외와2kg;36476 조문별7/1·7/9 시행",
+      "basic_effective_date": "20260701"
+    },
+    {
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch09-audit/287951.xml",
+      "sha256": "55afd2103270e7dfe1f1a97b071fc5cdd6b3617750c61a3128bb7cb966b89f66",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&type=XML&MST=287951",
+      "read_at_utc": "2026-10-18T20:34:15.773286+00:00",
+      "mode": "existing_cache_read_not_new_HTTP",
+      "original_HTTP_status": 200,
+      "actual_scope": "규칙308 전항(고도/공역 포함)/310 전항;1601 시행/교육기관 경과",
+      "basic_effective_date": "20260701"
+    },
+    {
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/289993.xml",
+      "sha256": "59d81472328677059564df800389cc6e54e12e4788061dd146f949df56af60c4",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&type=XML&MST=289993",
+      "read_at_utc": "2026-10-18T20:34:15.773286+00:00",
+      "mode": "existing_cache_read_not_new_HTTP",
+      "original_HTTP_status": 200,
+      "actual_scope": "14①②③ 및 적용제한;21997 시행/26의2 적용례 구별",
+      "basic_effective_date": "20261002"
+    },
+    {
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/284415.xml",
+      "sha256": "cd2997176df62de7b1e4bb018287987654f6054cbd0eeced9e882d5c4daf53df",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&type=XML&MST=284415",
+      "read_at_utc": "2026-10-18T20:34:15.773286+00:00",
+      "mode": "existing_cache_read_not_new_HTTP",
+      "original_HTTP_status": 200,
+      "actual_scope": "750·751 전항 및21454시행/상속유류분 적용례와 구별",
+      "basic_effective_date": "20260317"
+    },
+    {
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290185.xml",
+      "sha256": "391f3c2bb7173fff4040eda9ae2259674b616e58aeadf4371206b63c70f1c89b",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&type=XML&MST=290185",
+      "read_at_utc": "2026-10-18T20:34:15.773286+00:00",
+      "mode": "existing_cache_read_not_new_HTTP",
+      "original_HTTP_status": 200,
+      "actual_scope": "246·247 전항;22007시행",
+      "basic_effective_date": "20261002"
+    },
+    {
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch09-audit/279791.xml",
+      "sha256": "53e91dca78da4b51111e726e43f5ab1c74a338cb080f53f9d156dab7cfb6dc08",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&type=XML&MST=279791",
+      "read_at_utc": "2026-10-18T20:34:15.773286+00:00",
+      "mode": "existing_cache_read_not_new_HTTP",
+      "original_HTTP_status": 200,
+      "actual_scope": "9·14 전항;21126 시행 및21065 해당기관명 개정의 조문별 시행 구별",
+      "basic_effective_date": "20260512"
+    },
+    {
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch09-audit/current-287495.xml",
+      "sha256": "6aeb9e7de316409e2b700426c72eb908429e9f149e743d2018b2ce66fa40ce7b",
+      "read_at_utc": "2026-10-18T20:34:15.773286+00:00",
+      "mode": "existing_cache_search_read_not_new_HTTP",
+      "actual_scope": "MST287495 시행20260709 현행 검색. 새 요청502와 기존 성공 검색을 구별."
+    }
+  ],
+  "fresh_HTTP_evidence_index": {
+    "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch09-full-review-p4/index.json",
+    "sha256": "f67cd17ece025a3b56e44fd1d91bc20c9da1d3d867558d9cf5452fffd19ed711"
+  },
+  "new_HTTP_requests": [
+    {
+      "name": "항공안전법",
+      "url": "https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=law&type=XML&query=%ED%95%AD%EA%B3%B5%EC%95%88%EC%A0%84%EB%B2%95&display=100&nw=1",
+      "requested_at_utc": "2026-10-18T20:32:14.022245+00:00",
+      "mode": "new_HTTPS_TLS_verified",
+      "status": "failed",
+      "error": "HTTP Error 502: Bad Gateway"
+    },
+    {
+      "name": "항공안전법 시행령",
+      "url": "https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=law&type=XML&query=%ED%95%AD%EA%B3%B5%EC%95%88%EC%A0%84%EB%B2%95+%EC%8B%9C%ED%96%89%EB%A0%B9&display=100&nw=1",
+      "requested_at_utc": "2026-10-18T20:32:14.022953+00:00",
+      "mode": "new_HTTPS_TLS_verified",
+      "status": "failed",
+      "error": "HTTP Error 502: Bad Gateway"
+    },
+    {
+      "name": "항공안전법 시행규칙",
+      "url": "https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=law&type=XML&query=%ED%95%AD%EA%B3%B5%EC%95%88%EC%A0%84%EB%B2%95+%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99&display=100&nw=1",
+      "requested_at_utc": "2026-10-18T20:32:14.023542+00:00",
+      "mode": "new_HTTPS_TLS_verified",
+      "http_status": 200,
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch09-full-review-p4/current-2.xml",
+      "sha256": "79cf0fae86a7081ad52a2d8a1d789f4e9c2bd088c8211799b641f6ff903b1950",
+      "results": [
+        {
+          "법령명한글": "항공보안법 시행규칙",
+          "법령일련번호": "289877",
+          "시행일자": "20260915",
+          "현행연혁코드": "현행"
+        },
+        {
+          "법령명한글": "항공안전법 시행규칙",
+          "법령일련번호": "287951",
+          "시행일자": "20260701",
+          "현행연혁코드": "현행"
+        }
+      ],
+      "status": "search_XML_body_read"
+    },
+    {
+      "name": "야생생물 보호 및 관리에 관한 법률",
+      "url": "https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=law&type=XML&query=%EC%95%BC%EC%83%9D%EC%83%9D%EB%AC%BC+%EB%B3%B4%ED%98%B8+%EB%B0%8F+%EA%B4%80%EB%A6%AC%EC%97%90+%EA%B4%80%ED%95%9C+%EB%B2%95%EB%A5%A0&display=100&nw=1",
+      "requested_at_utc": "2026-10-18T20:32:14.024100+00:00",
+      "mode": "new_HTTPS_TLS_verified",
+      "http_status": 200,
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch09-full-review-p4/current-3.xml",
+      "sha256": "d99bcaa02dda98ed54a155a8524403d2236ef4fc89ba03b208e21de41756e195",
+      "results": [
+        {
+          "법령명한글": "야생생물 보호 및 관리에 관한 법률",
+          "법령일련번호": "286743",
+          "시행일자": "20261210",
+          "현행연혁코드": "시행예정"
+        },
+        {
+          "법령명한글": "야생생물 보호 및 관리에 관한 법률",
+          "법령일련번호": "279791",
+          "시행일자": "20260512",
+          "현행연혁코드": "현행"
+        },
+        {
+          "법령명한글": "야생생물 보호 및 관리에 관한 법률 시행령",
+          "법령일련번호": "282985",
+          "시행일자": "20260201",
+          "현행연혁코드": "현행"
+        },
+        {
+          "법령명한글": "야생생물 보호 및 관리에 관한 법률 시행규칙",
+          "법령일련번호": "286031",
+          "시행일자": "20260512",
+          "현행연혁코드": "현행"
+        }
+      ],
+      "status": "search_XML_body_read"
+    }
+  ],
+  "fresh_verification_result": "법/령 현재검색502, 규칙200 실제검색본문(MST287951현행), 야생생물200 실제검색본문(279791현행/286743미래). 200을 법조문본문으로 부르지 않으며 기존 실제 조문과 대조.",
+  "initial_findings": {
+    "11": "세 업종 범위 필수지적 해소. 공역/벌칙/교육자격 잔여TODO 유지.",
+    "12": "성적촬영 형량과 객실설치/도청 일반규칙 구별 유지; 미확인TODO 존치.",
+    "13": "일시오락 판례 미조사는 미검증 상태로 유지.",
+    "14": "허가·인공증식 예외 유지; 현행성 확인 신규해소에 따른 본문/이후tail 갱신 필요."
+  },
+  "chapter_final_approval": false,
+  "formal_approval": false,
+  "publication_approval": false,
+  "public_written": false,
+  "protected_scope": "신규 고유 보고서 쌍과 외부 HTTP 증거만 작성. 원고·frozen제안·이전감사·candidate·Git 불변.",
+  "remaining": "14r2 원작성자 갱신안과 나머지 전항/intro/tail 미해결warning을 검토해야 한다. 현재11법 현행성은 실제 검색 실패 한계를 유지한다."
+}

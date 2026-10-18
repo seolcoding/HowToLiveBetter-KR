@@ -1,0 +1,26 @@
+{
+  "entries": [
+    {
+      "entry": 19,
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-019-f3d9/strict-entry.md",
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-019-f3d9/publication-entry-proposal-r2.md"
+    }
+  ],
+  "r1_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-019-f3d9/publication-entry-proposal.md",
+  "r1_sha256": "1c6af8b33281e0c26430a7c71c33e9445ad8f339b4a212d5c8df3a1754b12888",
+  "r2_sha256": "0381123e15aa8dbb4269f00c4840eadd868c1c2719b3c8179a21204e46a3f9ef",
+  "changes": [
+    {
+      "field": "쉽게",
+      "before": "다치게 하면 상해죄와 손해배상 책임이 함께 생깁니다.",
+      "after": "고의로 위법하게 다치게 하면 상해죄가 될 수 있습니다. 고의·과실의 위법행위로 손해를 입히면 배상 책임이 생길 수 있습니다.",
+      "reason": "고의상해와 민사상 고의·과실/위법행위/손해 요건을 구분하고 가능표현으로 한정. 정당방위나 과실치상에 상해죄가 자동 성립한다는 독해 방지."
+    }
+  ],
+  "other_bytes_unchanged": true,
+  "status": "proposal_only",
+  "validation": {
+    "literal_check.py": "pass; title27/easy92/3sentences/long0",
+    "check-full-layout.py": "pass; checked1/failures0"
+  }
+}

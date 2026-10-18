@@ -1,0 +1,81 @@
+{
+  "chapter": 9,
+  "entry": 21,
+  "status": "proposal_only_not_approved",
+  "entries": [
+    {
+      "entry": 21,
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-021-afc3/strict-entry.md",
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-021-afc3/publication-entry-proposal.md",
+      "base_sha256": "3b8858a63b9b4bbef79578094eb20b2d8f9eec425f8d03f7549fbcfe193df57a",
+      "proposal_sha256": "3cea2cf3e5c92079b190b95a2c80dbcc29bd12e5fc8bc05172d27f3429183edb"
+    }
+  ],
+  "findings_addressed": [
+    {
+      "origin": "content-audit.md 제21항 / editorial-decisions.json entry 21",
+      "finding": "8①1/①2 형량, ②1호 병과 및 10조 미수 보존",
+      "resolution": "제1호 병과 가능성과 미수 처벌을 독자본문에 명시. 제1항을 특정."
+    }
+  ],
+  "changes": [
+    {
+      "field": "이득",
+      "reason": "병과 가능성 및 미수 처벌 추가, 제1항 특정"
+    },
+    {
+      "field": "출처",
+      "reason": "한국어 법령 law 링크와 정의·알선금지·미수 조문 보강"
+    },
+    {
+      "field": "비고",
+      "reason": "형법233조 법정 작성주체 특정, 확인일 갱신"
+    }
+  ],
+  "evidence": [
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=277341&type=XML",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/277341.xml",
+      "sha256": "862150cabbf30b43a75d95ae9230969c0e5dd7dc43375f0cd46808df60f1acf6",
+      "retrieval_mode": "existing_cache_read",
+      "checked_articles": [
+        "제2조",
+        "제5조의2",
+        "제8조",
+        "제10조",
+        "부칙14123호",
+        "부칙20303호",
+        "부칙21066호"
+      ]
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290185&type=XML",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290185.xml",
+      "sha256": "391f3c2bb7173fff4040eda9ae2259674b616e58aeadf4371206b63c70f1c89b",
+      "retrieval_mode": "existing_cache_read",
+      "checked_articles": [
+        "제30조",
+        "제32조",
+        "제233조",
+        "부칙22007호"
+      ]
+    }
+  ],
+  "reference_destinations": [],
+  "remaining_limits": [],
+  "checks": {
+    "literal_check.py": {
+      "result": "pass",
+      "title_chars": 30,
+      "easy_chars": 66,
+      "easy_sentences": 2,
+      "long_sentences": []
+    },
+    "check-full-layout.py": {
+      "result": "pass",
+      "checked": 1,
+      "failures": []
+    },
+    "six_fields_single_physical_line": true
+  }
+}

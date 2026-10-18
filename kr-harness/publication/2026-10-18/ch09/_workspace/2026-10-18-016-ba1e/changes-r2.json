@@ -1,0 +1,44 @@
+{
+  "entry": 16,
+  "status": "unadopted_proposal",
+  "semantic_review": "pending",
+  "r1_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-016-ba1e/publication-entry-proposal.md",
+  "r1_sha256": "104dfbbf46c9811459f1899f13570d7a5b537a8998abce7a77e5dc95e57a301e",
+  "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-016-ba1e/publication-entry-proposal-r2.md",
+  "proposal_sha256": "aac13641368ec49ff13287021dfe8ecc8f8a86adcdfc10b947e1785c67cbeaa8",
+  "changes": [
+    {
+      "before": "친족 간 반의사불벌 단서는 그 제10호에만 있습니다.",
+      "after": "그 제10호는 직계혈족·배우자·동거친족 또는 그 배우자 간에 단서가 있습니다. 이 경우 피해자가 명시한 의사에 반하여 공소를 제기할 수 없습니다. 제8호·제8호의2의 주민등록증등·사진 부정 사용에는 이 단서가 없습니다.",
+      "reason": "네 관계 범주와 피해자 명시의사반대 공소제기 금지를 명시하고 주민등록증등 부정사용으로 확대하지 않음."
+    },
+    {
+      "before": "기준일 최신 개정 여부는 별도로 확인하지 않았습니다.",
+      "after": "기존 현행검색 캐시의 법률 현행판(268555)을 확인했습니다. 시행일은 2025-07-22입니다. 시행령의 2026-10-29 시행예정판과는 다릅니다.",
+      "reason": "실제 열람한 기존 검색 캐시의 법률 현행판 및 시행령 미래판 구분으로 범위 갱신. 신규 HTTPS 성공 주장은 하지 않음."
+    }
+  ],
+  "primary_cache": {
+    "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch09-audit/current-268555.xml",
+    "sha256": "1d011ff46c77c14eb2c090390857a255c4afd79300531acc5eba1519a26660e0",
+    "read": "직접 열람: 법률 주민등록법268555 현행 20250722, 시행령285733 현행20260428 및 시행예정20261029 별개. 제37조제1항제10호 단서의 네 관계 범주·공소제기 조건은 기존 본문 캐시268555.xml과 대조.",
+    "retrieval": "existing_cache_read; 신규 HTTPS 요청 없음. reviewer502를 신규 현재검색 성공으로 처리하지 않음."
+  },
+  "validation": {
+    "literal_check.py": [
+      {
+        "entry": null,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-016-ba1e/publication-entry-proposal-r2.md",
+        "title_chars": 42,
+        "easy_chars": 62,
+        "easy_sentences": 2,
+        "long_sentences": [],
+        "pass_length": true
+      }
+    ],
+    "check-full-layout.py": {
+      "checked": 1,
+      "failures": []
+    }
+  }
+}

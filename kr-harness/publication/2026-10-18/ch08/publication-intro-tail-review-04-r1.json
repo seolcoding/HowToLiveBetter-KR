@@ -1,0 +1,454 @@
+{
+  "chapter": 8,
+  "decision": "approve",
+  "status": "exact_intro_tail_source_editorial_approved_not_publication",
+  "reviewer_id": "/root/publication_review_04",
+  "reviewed_at_utc": "2026-10-18T20:28:40.630662+00:00",
+  "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/publication-intro-tail-proposal-r3.json",
+  "proposal_sha256": "10ba554c24d5ec5d03f8cf3a855c98936ff246a98d84d8bfc8655993b1a8c7c0",
+  "manifest_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/author-final-manifest-r3.json",
+  "manifest_sha256": "53ac41f23445baa3b10219da42ad8dc1aa4ae7a6effb0a93185b9d85b23cab70",
+  "binding_checks_all46_exact_proposal_changes": true,
+  "previous_r1_r2_region_operations_guards_after_and_length_bytes_identical": true,
+  "operation_checks": [
+    {
+      "target": "intro.md",
+      "before_span_sha256": "2571b3ca565cff7d4387404da640560c2df6e3c103654ca7252c918514e9dc8d",
+      "after_span_sha256": "286735381895a9f3c978d02c2ae319ecfbc02b9e2889a0fe714ca505dd86572d",
+      "exact_unique_before": true,
+      "reason": "항목별 실제 확인일을 반영. 모든 판례·하위법령의 현행성을 포괄 확인했다는 뜻은 아님.",
+      "decision": "approve"
+    },
+    {
+      "target": "tail.md",
+      "before_span_sha256": "cce52a871fbef1d5708628aa722355c64233a8e548eb7abe784d3156f2e26e12",
+      "after_span_sha256": "952ef08a5e3fa2aacb4450b0e404498cd3bf886eafd9655fc85ec1b7ebbb9bf5",
+      "exact_unique_before": true,
+      "reason": "입원 후→시도 후 오류와 완료된 초록 검증 상태 수정. 전체본문 한계 유지.",
+      "decision": "approve"
+    },
+    {
+      "target": "tail.md",
+      "before_span_sha256": "f48ae4e466cc90dcda46fe887a33ebea393eac38f561e3b40bb7aeb2ad2a75f3",
+      "after_span_sha256": "a726100643f93ec6e9e95a40a51ae9b4c38646f9c82312c828f2d370bd82aa34",
+      "exact_unique_before": true,
+      "reason": "중국 변환 작업메모 대신 실제 반환판례·적용요건 한계 보존.",
+      "decision": "approve"
+    },
+    {
+      "target": "tail.md",
+      "before_span_sha256": "c0c7b1d682118c68cb68349ea14c2e50550150d0f3c8dab2e019ac31eb243532",
+      "after_span_sha256": "c54e6e9ec3c8ae150baef860382b78f5d62aced989079bfc139cf9bf6f519437",
+      "exact_unique_before": true,
+      "reason": "중국/외국 이식 작업메모 제거. 실제 미확인 범위 전부 보존.",
+      "decision": "approve"
+    },
+    {
+      "target": "tail.md",
+      "before_span_sha256": "c4f7101c565f73a81093c022814bfd0a058d15d1c395638b28a450582312cf44",
+      "after_span_sha256": "36f854b3b253ebc381e95d36ded7b67b9361cbef2f9716b94a2b8d27715d4617",
+      "exact_unique_before": true,
+      "reason": "중국 변환 작업메모 대신 국내 실제 인증/비용 미확인 명시.",
+      "decision": "approve"
+    },
+    {
+      "target": "tail.md",
+      "before_span_sha256": "ce8891303287279524d1d4eb6d1aac36d5740278d628fa25f6e7c0da9e4a64b2",
+      "after_span_sha256": "a10f1d153e2289a82141aef384db1ba28282367f0e8fd449073ea31d4cf07ea1",
+      "exact_unique_before": true,
+      "reason": "표3 대조 완료를 반영. 최신46 저자의 경보기 및1992~1996 비교 본문 직접열람도 완료되어 이를 미조사로 남기지 않음. 한국 적용/재실 중 강도 효과 한계는 유지.",
+      "decision": "approve"
+    }
+  ],
+  "regions": {
+    "intro.md": {
+      "original_sha256": "761872ab2ab9163e0d9a1d7770c5cdf5d0aeab83bcfef386736f85a0e736efd3",
+      "after_sha256": "9e74e5e1d73e8c6803417aaaf6cd4a3f4e8b4ed6c1c0cd7863c8ba40e48da34e"
+    },
+    "tail.md": {
+      "original_sha256": "270abfd531d78918d615dc6116d6582f03a507dfd4b8beff4b8a9117e253c6f7",
+      "after_sha256": "b8c0d8168a56c0fcfcce40c2a53d8f75e99c19ff78365bedc38b15655781bf5b"
+    }
+  },
+  "todo_accounting": [
+    {
+      "topic_order": 1,
+      "before": "- 제1·7항: 국내 자동차보험 약관별 보장 제외·사고부담금. 수치를 쓰지 않았습니다.",
+      "after": "- 제1·7항: 국내 자동차보험 약관별 보장 제외·사고부담금. 수치를 쓰지 않았습니다.",
+      "status": "retained_true_unresolved_scope",
+      "decision": "approve",
+      "reason": "14시도후3일원초록은r4실제읽음/46SPF표와본문은r19실제읽음.다른국내판례·하위규정·가격·절차미확인topic은원래그룹그대로유지.변환작업메모만독자용한계로교체."
+    },
+    {
+      "topic_order": 2,
+      "before": "- 제14항: Deisenhammer 원논문의 82명·입원 후 3일·47.6%·10분. 원본 수치를 보존했으나 독립 원문 대조는 미완료입니다.",
+      "after": "- 제14항: Deisenhammer 원논문. 82명·시도 후 3일·47.6%·10분은 원초록과 대조했습니다. 두 논문의 전체 본문은 미확인입니다.",
+      "status": "completed_verification_and_retained_limit_updated",
+      "decision": "approve",
+      "reason": "14시도후3일원초록은r4실제읽음/46SPF표와본문은r19실제읽음.다른국내판례·하위규정·가격·절차미확인topic은원래그룹그대로유지.변환작업메모만독자용한계로교체."
+    },
+    {
+      "topic_order": 3,
+      "before": "- 제18항: 최고금리와 보증 서면 요건의 특별법 예외. 계약별 확인이 필요합니다.",
+      "after": "- 제18항: 최고금리와 보증 서면 요건의 특별법 예외. 계약별 확인이 필요합니다.",
+      "status": "retained_true_unresolved_scope",
+      "decision": "approve",
+      "reason": "14시도후3일원초록은r4실제읽음/46SPF표와본문은r19실제읽음.다른국내판례·하위규정·가격·절차미확인topic은원래그룹그대로유지.변환작업메모만독자용한계로교체."
+    },
+    {
+      "topic_order": 4,
+      "before": "- 제24항: 한국 예단·예물 반환 판례와 혼인 전후 적용 요건. 중국 반환 규칙을 쓰지 않았습니다.",
+      "after": "- 제24항: 한국 예단·예물 반환 판례와 혼인 전후 적용 요건. 반환 비율·자동 반환 사유는 미확인입니다.",
+      "status": "retained_true_unresolved_scope",
+      "decision": "approve",
+      "reason": "14시도후3일원초록은r4실제읽음/46SPF표와본문은r19실제읽음.다른국내판례·하위규정·가격·절차미확인topic은원래그룹그대로유지.변환작업메모만독자용한계로교체."
+    },
+    {
+      "topic_order": 5,
+      "before": "- 제27항: 수리·자동차 점검·인테리어 업종별 표시·견적 의무와 소비자분쟁해결기준. 구체적 배상액을 쓰지 않았습니다.",
+      "after": "- 제27항: 수리·자동차 점검·인테리어 업종별 표시·견적 의무와 소비자분쟁해결기준. 구체적 배상액을 쓰지 않았습니다.",
+      "status": "retained_true_unresolved_scope",
+      "decision": "approve",
+      "reason": "14시도후3일원초록은r4실제읽음/46SPF표와본문은r19실제읽음.다른국내판례·하위규정·가격·절차미확인topic은원래그룹그대로유지.변환작업메모만독자용한계로교체."
+    },
+    {
+      "topic_order": 6,
+      "before": "- 제28항: 명의 등록 형태별 사임·변경등기·명의도용 구제 절차. 처리기한을 쓰지 않았습니다.",
+      "after": "- 제28항: 명의 등록 형태별 사임·변경등기·명의도용 구제 절차. 처리기한을 쓰지 않았습니다.",
+      "status": "retained_true_unresolved_scope",
+      "decision": "approve",
+      "reason": "14시도후3일원초록은r4실제읽음/46SPF표와본문은r19실제읽음.다른국내판례·하위규정·가격·절차미확인topic은원래그룹그대로유지.변환작업메모만독자용한계로교체."
+    },
+    {
+      "topic_order": 7,
+      "before": "- 제29항: 한국·목적지 국가의 통관·마약 운반 책임 세부 조항. 본인에게 무죄 입증책임이 있다고 쓰지 않았습니다.",
+      "after": "- 제29항: 한국·목적지 국가의 통관·마약 운반 책임 세부 조항. 본인에게 무죄 입증책임이 있다고 쓰지 않았습니다.",
+      "status": "retained_true_unresolved_scope",
+      "decision": "approve",
+      "reason": "14시도후3일원초록은r4실제읽음/46SPF표와본문은r19실제읽음.다른국내판례·하위규정·가격·절차미확인topic은원래그룹그대로유지.변환작업메모만독자용한계로교체."
+    },
+    {
+      "topic_order": 8,
+      "before": "- 제30항: 시행규칙·조례의 목줄 기준과 맹견 보험 의무. 확인 안 된 길이·금액을 쓰지 않았습니다.",
+      "after": "- 제30항: 시행규칙·조례의 목줄 기준과 맹견 보험 의무. 확인 안 된 길이·금액을 쓰지 않았습니다.",
+      "status": "retained_true_unresolved_scope",
+      "decision": "approve",
+      "reason": "14시도후3일원초록은r4실제읽음/46SPF표와본문은r19실제읽음.다른국내판례·하위규정·가격·절차미확인topic은원래그룹그대로유지.변환작업메모만독자용한계로교체."
+    },
+    {
+      "topic_order": 9,
+      "before": "- 제35항: 해당 연도 최저임금 고시의 실제 일액. 보상 범위만 쓰고 원화 일액은 쓰지 않았습니다.",
+      "after": "- 제35항: 해당 연도 최저임금 고시의 실제 일액. 보상 범위만 쓰고 원화 일액은 쓰지 않았습니다.",
+      "status": "retained_true_unresolved_scope",
+      "decision": "approve",
+      "reason": "14시도후3일원초록은r4실제읽음/46SPF표와본문은r19실제읽음.다른국내판례·하위규정·가격·절차미확인topic은원래그룹그대로유지.변환작업메모만독자용한계로교체."
+    },
+    {
+      "topic_order": 10,
+      "before": "- 제37항: 국내 게시금지 가처분의 요건·신청 절차·비용. 외국 금지명령을 이식하지 않았습니다.",
+      "after": "- 제37항: 국내 게시금지 가처분의 요건·신청 절차·비용.",
+      "status": "retained_true_unresolved_scope",
+      "decision": "approve",
+      "reason": "14시도후3일원초록은r4실제읽음/46SPF표와본문은r19실제읽음.다른국내판례·하위규정·가격·절차미확인topic은원래그룹그대로유지.변환작업메모만독자용한계로교체."
+    },
+    {
+      "topic_order": 11,
+      "before": "- 제43항: 피해자보호명령 신청 수수료와 무료 법률지원 대상. 무료라고 단정하지 않았습니다.",
+      "after": "- 제43항: 피해자보호명령 신청 수수료와 무료 법률지원 대상. 무료라고 단정하지 않았습니다.",
+      "status": "retained_true_unresolved_scope",
+      "decision": "approve",
+      "reason": "14시도후3일원초록은r4실제읽음/46SPF표와본문은r19실제읽음.다른국내판례·하위규정·가격·절차미확인topic은원래그룹그대로유지.변환작업메모만독자용한계로교체."
+    },
+    {
+      "topic_order": 12,
+      "before": "- 제44항: 도박 목적 대여의 무효 판단에 관한 한국 판례. 모든 대출이 무효라고 쓰지 않았습니다.",
+      "after": "- 제44항: 도박 목적 대여의 무효 판단에 관한 한국 판례. 모든 대출이 무효라고 쓰지 않았습니다.",
+      "status": "retained_true_unresolved_scope",
+      "decision": "approve",
+      "reason": "14시도후3일원초록은r4실제읽음/46SPF표와본문은r19실제읽음.다른국내판례·하위규정·가격·절차미확인topic은원래그룹그대로유지.변환작업메모만독자용한계로교체."
+    },
+    {
+      "topic_order": 13,
+      "before": "- 제46항: 한국 방범문·잠금장치 인증 및 실제 설치비. 중국 표준·가격을 쓰지 않았습니다.",
+      "after": "- 제46항: 한국 방범문·잠금장치 인증 및 실제 설치비. 인증 기준·가격은 확인하지 못했습니다.",
+      "status": "retained_true_unresolved_scope",
+      "decision": "approve",
+      "reason": "14시도후3일원초록은r4실제읽음/46SPF표와본문은r19실제읽음.다른국내판례·하위규정·가격·절차미확인topic은원래그룹그대로유지.변환작업메모만독자용한계로교체."
+    },
+    {
+      "topic_order": 14,
+      "before": "- 제46항: 해외 원논문의 보호배수 34.41·49의 표·그림 대조. 원본 수치를 보존했으나 해당 세부값의 독립 확인은 미완료입니다.",
+      "after": "- 제46항: 보호배수 34.41·49는 원논문 표와 대조했습니다. 한국 효과율·재실 중 강도 예방효과는 미확인입니다.",
+      "status": "completed_verification_and_retained_limit_updated",
+      "decision": "approve",
+      "reason": "14시도후3일원초록은r4실제읽음/46SPF표와본문은r19실제읽음.다른국내판례·하위규정·가격·절차미확인topic은원래그룹그대로유지.변환작업메모만독자용한계로교체."
+    }
+  ],
+  "all_ordinary_sentences_and_fragments": [
+    {
+      "target": "intro.md",
+      "line": 7,
+      "text": "사고 뒤에는 구호와 신고가 먼저입니다.",
+      "python_len": 21,
+      "includes_spaces_parentheses_prefixes": true
+    },
+    {
+      "target": "intro.md",
+      "line": 7,
+      "text": "돈을 보내거나 서명하기 전에는 내용을 확인하세요.",
+      "python_len": 27,
+      "includes_spaces_parentheses_prefixes": true
+    },
+    {
+      "target": "intro.md",
+      "line": 7,
+      "text": "법에 적힌 권리와 실제 회수 결과는 다릅니다.",
+      "python_len": 25,
+      "includes_spaces_parentheses_prefixes": true
+    },
+    {
+      "target": "intro.md",
+      "line": 7,
+      "text": "소송·수사에 쓰는 시간과 비용도 함께 계산하세요.",
+      "python_len": 27,
+      "includes_spaces_parentheses_prefixes": true
+    },
+    {
+      "target": "intro.md",
+      "line": 7,
+      "text": "법령은 2026-10-10에 확인했습니다.",
+      "python_len": 23,
+      "includes_spaces_parentheses_prefixes": true
+    },
+    {
+      "target": "intro.md",
+      "line": 7,
+      "text": "일부 조문은 2026-10-18에 재확인했습니다.",
+      "python_len": 27,
+      "includes_spaces_parentheses_prefixes": true
+    },
+    {
+      "target": "tail.md",
+      "line": 5,
+      "text": "- 제1·7항: 국내 자동차보험 약관별 보장 제외·사고부담금.",
+      "python_len": 34,
+      "includes_spaces_parentheses_prefixes": true
+    },
+    {
+      "target": "tail.md",
+      "line": 5,
+      "text": "수치를 쓰지 않았습니다.",
+      "python_len": 13,
+      "includes_spaces_parentheses_prefixes": true
+    },
+    {
+      "target": "tail.md",
+      "line": 6,
+      "text": "- 제14항: Deisenhammer 원논문.",
+      "python_len": 25,
+      "includes_spaces_parentheses_prefixes": true
+    },
+    {
+      "target": "tail.md",
+      "line": 6,
+      "text": "82명·시도 후 3일·47.6%·10분은 원초록과 대조했습니다.",
+      "python_len": 35,
+      "includes_spaces_parentheses_prefixes": true
+    },
+    {
+      "target": "tail.md",
+      "line": 6,
+      "text": "두 논문의 전체 본문은 미확인입니다.",
+      "python_len": 20,
+      "includes_spaces_parentheses_prefixes": true
+    },
+    {
+      "target": "tail.md",
+      "line": 7,
+      "text": "- 제18항: 최고금리와 보증 서면 요건의 특별법 예외.",
+      "python_len": 31,
+      "includes_spaces_parentheses_prefixes": true
+    },
+    {
+      "target": "tail.md",
+      "line": 7,
+      "text": "계약별 확인이 필요합니다.",
+      "python_len": 14,
+      "includes_spaces_parentheses_prefixes": true
+    },
+    {
+      "target": "tail.md",
+      "line": 8,
+      "text": "- 제24항: 한국 예단·예물 반환 판례와 혼인 전후 적용 요건.",
+      "python_len": 36,
+      "includes_spaces_parentheses_prefixes": true
+    },
+    {
+      "target": "tail.md",
+      "line": 8,
+      "text": "반환 비율·자동 반환 사유는 미확인입니다.",
+      "python_len": 23,
+      "includes_spaces_parentheses_prefixes": true
+    },
+    {
+      "target": "tail.md",
+      "line": 9,
+      "text": "- 제27항: 수리·자동차 점검·인테리어 업종별 표시·견적 의무와 소비자분쟁해결기준.",
+      "python_len": 47,
+      "includes_spaces_parentheses_prefixes": true
+    },
+    {
+      "target": "tail.md",
+      "line": 9,
+      "text": "구체적 배상액을 쓰지 않았습니다.",
+      "python_len": 18,
+      "includes_spaces_parentheses_prefixes": true
+    },
+    {
+      "target": "tail.md",
+      "line": 10,
+      "text": "- 제28항: 명의 등록 형태별 사임·변경등기·명의도용 구제 절차.",
+      "python_len": 37,
+      "includes_spaces_parentheses_prefixes": true
+    },
+    {
+      "target": "tail.md",
+      "line": 10,
+      "text": "처리기한을 쓰지 않았습니다.",
+      "python_len": 15,
+      "includes_spaces_parentheses_prefixes": true
+    },
+    {
+      "target": "tail.md",
+      "line": 11,
+      "text": "- 제29항: 한국·목적지 국가의 통관·마약 운반 책임 세부 조항.",
+      "python_len": 37,
+      "includes_spaces_parentheses_prefixes": true
+    },
+    {
+      "target": "tail.md",
+      "line": 11,
+      "text": "본인에게 무죄 입증책임이 있다고 쓰지 않았습니다.",
+      "python_len": 27,
+      "includes_spaces_parentheses_prefixes": true
+    },
+    {
+      "target": "tail.md",
+      "line": 12,
+      "text": "- 제30항: 시행규칙·조례의 목줄 기준과 맹견 보험 의무.",
+      "python_len": 33,
+      "includes_spaces_parentheses_prefixes": true
+    },
+    {
+      "target": "tail.md",
+      "line": 12,
+      "text": "확인 안 된 길이·금액을 쓰지 않았습니다.",
+      "python_len": 23,
+      "includes_spaces_parentheses_prefixes": true
+    },
+    {
+      "target": "tail.md",
+      "line": 13,
+      "text": "- 제35항: 해당 연도 최저임금 고시의 실제 일액.",
+      "python_len": 29,
+      "includes_spaces_parentheses_prefixes": true
+    },
+    {
+      "target": "tail.md",
+      "line": 13,
+      "text": "보상 범위만 쓰고 원화 일액은 쓰지 않았습니다.",
+      "python_len": 26,
+      "includes_spaces_parentheses_prefixes": true
+    },
+    {
+      "target": "tail.md",
+      "line": 14,
+      "text": "- 제37항: 국내 게시금지 가처분의 요건·신청 절차·비용.",
+      "python_len": 33,
+      "includes_spaces_parentheses_prefixes": true
+    },
+    {
+      "target": "tail.md",
+      "line": 15,
+      "text": "- 제43항: 피해자보호명령 신청 수수료와 무료 법률지원 대상.",
+      "python_len": 35,
+      "includes_spaces_parentheses_prefixes": true
+    },
+    {
+      "target": "tail.md",
+      "line": 15,
+      "text": "무료라고 단정하지 않았습니다.",
+      "python_len": 16,
+      "includes_spaces_parentheses_prefixes": true
+    },
+    {
+      "target": "tail.md",
+      "line": 16,
+      "text": "- 제44항: 도박 목적 대여의 무효 판단에 관한 한국 판례.",
+      "python_len": 34,
+      "includes_spaces_parentheses_prefixes": true
+    },
+    {
+      "target": "tail.md",
+      "line": 16,
+      "text": "모든 대출이 무효라고 쓰지 않았습니다.",
+      "python_len": 21,
+      "includes_spaces_parentheses_prefixes": true
+    },
+    {
+      "target": "tail.md",
+      "line": 17,
+      "text": "- 제46항: 한국 방범문·잠금장치 인증 및 실제 설치비.",
+      "python_len": 32,
+      "includes_spaces_parentheses_prefixes": true
+    },
+    {
+      "target": "tail.md",
+      "line": 17,
+      "text": "인증 기준·가격은 확인하지 못했습니다.",
+      "python_len": 21,
+      "includes_spaces_parentheses_prefixes": true
+    },
+    {
+      "target": "tail.md",
+      "line": 18,
+      "text": "- 제46항: 보호배수 34.41·49는 원논문 표와 대조했습니다.",
+      "python_len": 37,
+      "includes_spaces_parentheses_prefixes": true
+    },
+    {
+      "target": "tail.md",
+      "line": 18,
+      "text": "한국 효과율·재실 중 강도 예방효과는 미확인입니다.",
+      "python_len": 28,
+      "includes_spaces_parentheses_prefixes": true
+    }
+  ],
+  "length_scope": "変更문장뿐아니라전체intro/TODO의unchanged문장·fragment를전수검사.목록접두·법괄호·공백포함Pythonlen.보호상태배너/장제목/탐색링크는보존메타로검사하며일반문장으로오인해재작성안함.",
+  "ordinary_count": 34,
+  "maximum_ordinary_chars": 47,
+  "TODO_heading_and14topic_groups_preserved": true,
+  "source_boundary_scope": "최종whole생산split46bodybyte불변/장말분리는canonical52step계산에서별도로검증예정.이보고서만으로통합승인아님.",
+  "actual_evidence_reuse": [
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/publication-followup-review-04-r4.json",
+      "sha256": "4b61a027f7f32de1c146c3072f81db82a37ff375dfd3f3d25d2359e624814af2",
+      "scope": "14저자원초록시도후3일·82/47.6/10분및Zalsman초록범위."
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/publication-followup-review-04-r19.json",
+      "sha256": "e84ca9689c1d75822c546fa2964e4942498b9ce22d557e1bda9336c601fdc749",
+      "scope": "46실제출판본문/표3SPF34.41/49.12및반대경보기관찰·선택유보."
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/publication-followup-review-04-r17.json",
+      "sha256": "cabd63be1d404c26152150bf9f08f5ff3c364d1327205428778155acbee5caab",
+      "scope": "43Stockl원초록완료와기관수수료무료지원미확인구분.43의장말원topic유지."
+    }
+  ],
+  "remaining_limits": "39대통령령범죄목록·43별도의료지침/논문전문등각full본문과독립보고서의한계도별도유지.14개장말topic이모든한계를단일완결목록으로숨기는표시가아님.",
+  "fresh_http_performed": false,
+  "formal_kr_fit_approval": false,
+  "publication_approval": false,
+  "public_changed": false
+}

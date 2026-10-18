@@ -1,0 +1,316 @@
+{
+  "status": "proposal-unadopted",
+  "author_scope": "chapter01 current public TODO tail only",
+  "current_public_path": "book-kr/01-너무-일찍-죽지-않기.md",
+  "currentwhole_sha256": "22535ac03620bae83541ce2baea5e6ff2b2bddd4bee5c7c0bfd3de526506e0d1",
+  "tailguard_sha256": "aa82014c330702c40178bcb4d2681558e5766e2c58557cf9dfb54232144e9b96",
+  "whole_snapshot": {
+    "path": "publication-current-tail-style-whole-snapshot-r1.md",
+    "sha256": "22535ac03620bae83541ce2baea5e6ff2b2bddd4bee5c7c0bfd3de526506e0d1"
+  },
+  "tail_snapshot": {
+    "path": "publication-current-tail-style-tail-snapshot-r1.md",
+    "sha256": "aa82014c330702c40178bcb4d2681558e5766e2c58557cf9dfb54232144e9b96"
+  },
+  "tail_offset_utf8_bytes": 151482,
+  "operations": [
+    {
+      "todo": 4,
+      "before": "4. 제6항: 공동주택 공용 공간의 전기자전거·전동킥보드 보관·충전을 직접 정한 법령·고시가 있는지.",
+      "after": "4. 제6항: 공동주택 공용 공간의 전기자전거·전동킥보드 보관·충전 문제입니다. 이를 직접 정한 법령·고시가 있는지 확인해야 합니다.",
+      "reason": "번호를 제외해도 50자를 넘는 일반 문장만 2~3문장으로 분리. 법령·기관 괄호는 길이에 포함하며 직접 인용 면제를 적용하지 않음. 기존 확인 대상·대상 질환·백신·법조문·자료명과 미확인 상태를 보존함. 새 사실 추가 없음.",
+      "before_actual_chars": 53
+    },
+    {
+      "todo": 5,
+      "before": "5. 제14·15·16·21항: 국가예방접종 대상 밖의 성인 B형간염·파상풍(Td)·HPV·대상포진 백신 가격(건강보험심사평가원 비급여 진료비 정보).",
+      "after": "5. 제14·15·16·21항: 국가예방접종 대상 밖의 성인 백신 가격을 확인해야 합니다. B형간염·파상풍(Td)·HPV·대상포진이 대상입니다. 자료는 (건강보험심사평가원 비급여 진료비 정보)입니다.",
+      "reason": "번호를 제외해도 50자를 넘는 일반 문장만 2~3문장으로 분리. 법령·기관 괄호는 길이에 포함하며 직접 인용 면제를 적용하지 않음. 기존 확인 대상·대상 질환·백신·법조문·자료명과 미확인 상태를 보존함. 새 사실 추가 없음.",
+      "before_actual_chars": 81
+    },
+    {
+      "todo": 7,
+      "before": "7. 제31항: 「후천성면역결핍증 예방법」 제19조(전파매개행위) 적용 범위에 관한 헌법재판소 결정 원문.",
+      "after": "7. 제31항: 「후천성면역결핍증 예방법」 제19조(전파매개행위) 적용 범위입니다. 이에 관한 헌법재판소 결정 원문을 확인해야 합니다.",
+      "reason": "번호를 제외해도 50자를 넘는 일반 문장만 2~3문장으로 분리. 법령·기관 괄호는 길이에 포함하며 직접 인용 면제를 적용하지 않음. 기존 확인 대상·대상 질환·백신·법조문·자료명과 미확인 상태를 보존함. 새 사실 추가 없음.",
+      "before_actual_chars": 56
+    }
+  ],
+  "after_tail": "## TODO 확인 필요\n\n1. 제3항: 한국 일산화탄소 중독 사망 통계(사고와 자해를 나눈 1차 출처). 원문의 중국 통계는 뺐다.\n2. 제4항: 도시가스사업자가 가정 사용시설을 몇 개월마다 점검하는지와 그 근거 조문. 가스레인지 연결 호스 교체 권장 주기(한국가스안전공사 1차 자료). 한국가스안전공사 대표 상담 번호.\n3. 제5항: 한국 버섯 중독 사망 통계(식품의약품안전처 1차 자료). 지금은 사망 숫자를 중국 자료로 두었다.\n4. 제6항: 공동주택 공용 공간의 전기자전거·전동킥보드 보관·충전 문제입니다. 이를 직접 정한 법령·고시가 있는지 확인해야 합니다.\n5. 제14·15·16·21항: 국가예방접종 대상 밖의 성인 백신 가격을 확인해야 합니다. B형간염·파상풍(Td)·HPV·대상포진이 대상입니다. 자료는 (건강보험심사평가원 비급여 진료비 정보)입니다. 대상포진 백신을 지원하는 지방자치단체가 있는지.\n6. 제26항: 소화담요와 화재대피용 마스크를 가정에 갖추라는 한국 정부 목록. 국민안전24 「비상대비」는 화생방용 방독면만 다룬다.\n7. 제31항: 「후천성면역결핍증 예방법」 제19조(전파매개행위) 적용 범위입니다. 이에 관한 헌법재판소 결정 원문을 확인해야 합니다. 서울 밖 지역 보건소의 익명 무료검사 조건.\n8. 제36항: 한국의 연간 방사선원 분실·사고 건수(원자력안전위원회 통계). 원문의 중국 통계는 뺐다.\n9. 제38항: 질병관리청 PrEP 지원사업이 2026년에도 이어지는지와 참여 의료기관 목록.\n10. 제41항: 한국 얼음 깨짐 사고 사망 통계.\n11. 제1항: 한국 뒷좌석 안전띠 착용률(한국교통안전공단 교통문화지수 원문).\n",
+  "after_tail_sha256": "d43d98ce3ef78c8f61843538bf9f12d418083535961b90c9be98b09fa8c2217e",
+  "proposed_whole_sha256": "394299bc45a33a3b8f2074df28067bd0275bf597e145c278c456010935269983",
+  "preservation": {
+    "public_file_written": false,
+    "intro_and_numbered_body_unchanged": true,
+    "other_tail_sentences_unchanged": true,
+    "todo_count_before": 11,
+    "todo_count_after": 11,
+    "heading_unchanged": true,
+    "links_numbers_metadata_preserved": true
+  },
+  "literal_method": "Python len; split full TODO lines after first numeric marker on sentence-final period + whitespace; retain parentheses, statute citations, labels and spaces; prefix included for conservative method only. No quote or bibliography exemption. All tail sentences enumerated, including unchanged sentences.",
+  "after_tail_sentence_checks": [
+    {
+      "todo": 1,
+      "sentence": "제3항: 한국 일산화탄소 중독 사망 통계(사고와 자해를 나눈 1차 출처).",
+      "literal_with_prefix": "1. 제3항: 한국 일산화탄소 중독 사망 통계(사고와 자해를 나눈 1차 출처).",
+      "literal_chars_with_prefix": 44,
+      "actual_sentence_chars_excluding_number": 41,
+      "actual_within50": true,
+      "conservative_within50": true,
+      "parentheses_included": true,
+      "exemption": null
+    },
+    {
+      "todo": 1,
+      "sentence": "원문의 중국 통계는 뺐다.",
+      "literal_with_prefix": "원문의 중국 통계는 뺐다.",
+      "literal_chars_with_prefix": 14,
+      "actual_sentence_chars_excluding_number": 14,
+      "actual_within50": true,
+      "conservative_within50": true,
+      "parentheses_included": true,
+      "exemption": null
+    },
+    {
+      "todo": 2,
+      "sentence": "제4항: 도시가스사업자가 가정 사용시설을 몇 개월마다 점검하는지와 그 근거 조문.",
+      "literal_with_prefix": "2. 제4항: 도시가스사업자가 가정 사용시설을 몇 개월마다 점검하는지와 그 근거 조문.",
+      "literal_chars_with_prefix": 48,
+      "actual_sentence_chars_excluding_number": 45,
+      "actual_within50": true,
+      "conservative_within50": true,
+      "parentheses_included": true,
+      "exemption": null
+    },
+    {
+      "todo": 2,
+      "sentence": "가스레인지 연결 호스 교체 권장 주기(한국가스안전공사 1차 자료).",
+      "literal_with_prefix": "가스레인지 연결 호스 교체 권장 주기(한국가스안전공사 1차 자료).",
+      "literal_chars_with_prefix": 37,
+      "actual_sentence_chars_excluding_number": 37,
+      "actual_within50": true,
+      "conservative_within50": true,
+      "parentheses_included": true,
+      "exemption": null
+    },
+    {
+      "todo": 2,
+      "sentence": "한국가스안전공사 대표 상담 번호.",
+      "literal_with_prefix": "한국가스안전공사 대표 상담 번호.",
+      "literal_chars_with_prefix": 18,
+      "actual_sentence_chars_excluding_number": 18,
+      "actual_within50": true,
+      "conservative_within50": true,
+      "parentheses_included": true,
+      "exemption": null
+    },
+    {
+      "todo": 3,
+      "sentence": "제5항: 한국 버섯 중독 사망 통계(식품의약품안전처 1차 자료).",
+      "literal_with_prefix": "3. 제5항: 한국 버섯 중독 사망 통계(식품의약품안전처 1차 자료).",
+      "literal_chars_with_prefix": 39,
+      "actual_sentence_chars_excluding_number": 36,
+      "actual_within50": true,
+      "conservative_within50": true,
+      "parentheses_included": true,
+      "exemption": null
+    },
+    {
+      "todo": 3,
+      "sentence": "지금은 사망 숫자를 중국 자료로 두었다.",
+      "literal_with_prefix": "지금은 사망 숫자를 중국 자료로 두었다.",
+      "literal_chars_with_prefix": 22,
+      "actual_sentence_chars_excluding_number": 22,
+      "actual_within50": true,
+      "conservative_within50": true,
+      "parentheses_included": true,
+      "exemption": null
+    },
+    {
+      "todo": 4,
+      "sentence": "제6항: 공동주택 공용 공간의 전기자전거·전동킥보드 보관·충전 문제입니다.",
+      "literal_with_prefix": "4. 제6항: 공동주택 공용 공간의 전기자전거·전동킥보드 보관·충전 문제입니다.",
+      "literal_chars_with_prefix": 44,
+      "actual_sentence_chars_excluding_number": 41,
+      "actual_within50": true,
+      "conservative_within50": true,
+      "parentheses_included": true,
+      "exemption": null
+    },
+    {
+      "todo": 4,
+      "sentence": "이를 직접 정한 법령·고시가 있는지 확인해야 합니다.",
+      "literal_with_prefix": "이를 직접 정한 법령·고시가 있는지 확인해야 합니다.",
+      "literal_chars_with_prefix": 29,
+      "actual_sentence_chars_excluding_number": 29,
+      "actual_within50": true,
+      "conservative_within50": true,
+      "parentheses_included": true,
+      "exemption": null
+    },
+    {
+      "todo": 5,
+      "sentence": "제14·15·16·21항: 국가예방접종 대상 밖의 성인 백신 가격을 확인해야 합니다.",
+      "literal_with_prefix": "5. 제14·15·16·21항: 국가예방접종 대상 밖의 성인 백신 가격을 확인해야 합니다.",
+      "literal_chars_with_prefix": 50,
+      "actual_sentence_chars_excluding_number": 47,
+      "actual_within50": true,
+      "conservative_within50": true,
+      "parentheses_included": true,
+      "exemption": null
+    },
+    {
+      "todo": 5,
+      "sentence": "B형간염·파상풍(Td)·HPV·대상포진이 대상입니다.",
+      "literal_with_prefix": "B형간염·파상풍(Td)·HPV·대상포진이 대상입니다.",
+      "literal_chars_with_prefix": 29,
+      "actual_sentence_chars_excluding_number": 29,
+      "actual_within50": true,
+      "conservative_within50": true,
+      "parentheses_included": true,
+      "exemption": null
+    },
+    {
+      "todo": 5,
+      "sentence": "자료는 (건강보험심사평가원 비급여 진료비 정보)입니다.",
+      "literal_with_prefix": "자료는 (건강보험심사평가원 비급여 진료비 정보)입니다.",
+      "literal_chars_with_prefix": 30,
+      "actual_sentence_chars_excluding_number": 30,
+      "actual_within50": true,
+      "conservative_within50": true,
+      "parentheses_included": true,
+      "exemption": null
+    },
+    {
+      "todo": 5,
+      "sentence": "대상포진 백신을 지원하는 지방자치단체가 있는지.",
+      "literal_with_prefix": "대상포진 백신을 지원하는 지방자치단체가 있는지.",
+      "literal_chars_with_prefix": 26,
+      "actual_sentence_chars_excluding_number": 26,
+      "actual_within50": true,
+      "conservative_within50": true,
+      "parentheses_included": true,
+      "exemption": null
+    },
+    {
+      "todo": 6,
+      "sentence": "제26항: 소화담요와 화재대피용 마스크를 가정에 갖추라는 한국 정부 목록.",
+      "literal_with_prefix": "6. 제26항: 소화담요와 화재대피용 마스크를 가정에 갖추라는 한국 정부 목록.",
+      "literal_chars_with_prefix": 44,
+      "actual_sentence_chars_excluding_number": 41,
+      "actual_within50": true,
+      "conservative_within50": true,
+      "parentheses_included": true,
+      "exemption": null
+    },
+    {
+      "todo": 6,
+      "sentence": "국민안전24 「비상대비」는 화생방용 방독면만 다룬다.",
+      "literal_with_prefix": "국민안전24 「비상대비」는 화생방용 방독면만 다룬다.",
+      "literal_chars_with_prefix": 29,
+      "actual_sentence_chars_excluding_number": 29,
+      "actual_within50": true,
+      "conservative_within50": true,
+      "parentheses_included": true,
+      "exemption": null
+    },
+    {
+      "todo": 7,
+      "sentence": "제31항: 「후천성면역결핍증 예방법」 제19조(전파매개행위) 적용 범위입니다.",
+      "literal_with_prefix": "7. 제31항: 「후천성면역결핍증 예방법」 제19조(전파매개행위) 적용 범위입니다.",
+      "literal_chars_with_prefix": 46,
+      "actual_sentence_chars_excluding_number": 43,
+      "actual_within50": true,
+      "conservative_within50": true,
+      "parentheses_included": true,
+      "exemption": null
+    },
+    {
+      "todo": 7,
+      "sentence": "이에 관한 헌법재판소 결정 원문을 확인해야 합니다.",
+      "literal_with_prefix": "이에 관한 헌법재판소 결정 원문을 확인해야 합니다.",
+      "literal_chars_with_prefix": 28,
+      "actual_sentence_chars_excluding_number": 28,
+      "actual_within50": true,
+      "conservative_within50": true,
+      "parentheses_included": true,
+      "exemption": null
+    },
+    {
+      "todo": 7,
+      "sentence": "서울 밖 지역 보건소의 익명 무료검사 조건.",
+      "literal_with_prefix": "서울 밖 지역 보건소의 익명 무료검사 조건.",
+      "literal_chars_with_prefix": 24,
+      "actual_sentence_chars_excluding_number": 24,
+      "actual_within50": true,
+      "conservative_within50": true,
+      "parentheses_included": true,
+      "exemption": null
+    },
+    {
+      "todo": 8,
+      "sentence": "제36항: 한국의 연간 방사선원 분실·사고 건수(원자력안전위원회 통계).",
+      "literal_with_prefix": "8. 제36항: 한국의 연간 방사선원 분실·사고 건수(원자력안전위원회 통계).",
+      "literal_chars_with_prefix": 43,
+      "actual_sentence_chars_excluding_number": 40,
+      "actual_within50": true,
+      "conservative_within50": true,
+      "parentheses_included": true,
+      "exemption": null
+    },
+    {
+      "todo": 8,
+      "sentence": "원문의 중국 통계는 뺐다.",
+      "literal_with_prefix": "원문의 중국 통계는 뺐다.",
+      "literal_chars_with_prefix": 14,
+      "actual_sentence_chars_excluding_number": 14,
+      "actual_within50": true,
+      "conservative_within50": true,
+      "parentheses_included": true,
+      "exemption": null
+    },
+    {
+      "todo": 9,
+      "sentence": "제38항: 질병관리청 PrEP 지원사업이 2026년에도 이어지는지와 참여 의료기관 목록.",
+      "literal_with_prefix": "9. 제38항: 질병관리청 PrEP 지원사업이 2026년에도 이어지는지와 참여 의료기관 목록.",
+      "literal_chars_with_prefix": 52,
+      "actual_sentence_chars_excluding_number": 49,
+      "actual_within50": true,
+      "conservative_within50": false,
+      "parentheses_included": true,
+      "exemption": null
+    },
+    {
+      "todo": 10,
+      "sentence": "제41항: 한국 얼음 깨짐 사고 사망 통계.",
+      "literal_with_prefix": "10. 제41항: 한국 얼음 깨짐 사고 사망 통계.",
+      "literal_chars_with_prefix": 28,
+      "actual_sentence_chars_excluding_number": 24,
+      "actual_within50": true,
+      "conservative_within50": true,
+      "parentheses_included": true,
+      "exemption": null
+    },
+    {
+      "todo": 11,
+      "sentence": "제1항: 한국 뒷좌석 안전띠 착용률(한국교통안전공단 교통문화지수 원문).",
+      "literal_with_prefix": "11. 제1항: 한국 뒷좌석 안전띠 착용률(한국교통안전공단 교통문화지수 원문).",
+      "literal_chars_with_prefix": 44,
+      "actual_sentence_chars_excluding_number": 40,
+      "actual_within50": true,
+      "conservative_within50": true,
+      "parentheses_included": true,
+      "exemption": null
+    }
+  ],
+  "maximum_actual_sentence_chars": 49,
+  "maximum_conservative_chars": 52,
+  "todo9_decision": {
+    "change": false,
+    "reason": "52자는 번호 접두부 3자를 포함한 값이며 실제 문장은 49자이므로 원문 보존.",
+    "actual_chars": 49,
+    "conservative_chars": 52
+  },
+  "review_required": "Independent exact-SHA approval required before root guarded application; no self approval."
+}

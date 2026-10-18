@@ -1,0 +1,53 @@
+{
+  "status": "unadopted_proposal",
+  "entry": 18,
+  "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-018-e901/strict-entry.md",
+  "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-018-e901/publication-entry-proposal.md",
+  "proposal_sha256": "ec79ba994a68dea06a98d0eec2d9356d90fb99eac3a8b4c11a26ac449e2cf845",
+  "changes": [
+    {
+      "field": "비고",
+      "reason": "내부 TODO를 독자용 미확인 안내로 변경. 확인한 개별 가중 조문과 미조사 전체 적용 범위를 구분. 실제 조문·부칙 재열람일 반영."
+    }
+  ],
+  "audit_closure": {
+    "initial_status": "verified_scope_with_open_detail",
+    "findings": "나이 오인 무조건 면책/유죄 단정 없음. 조건·법정형 보존. 실제 인용판례 없음. 미확인 범위 본문 유지.",
+    "cross_references": "본문 항목 참조 없음. 제305조가 참조하는 제297조·제297조의2·제298조·제301조·제301조의2 직접 대조.",
+    "primary_evidence": {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290185&type=XML",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290185.xml",
+      "sha256": "391f3c2bb7173fff4040eda9ae2259674b616e58aeadf4371206b63c70f1c89b",
+      "retrieval_mode": "existing_cache_read",
+      "read_date": "2026-10-18",
+      "articles": [
+        "13",
+        "297",
+        "297의2",
+        "298",
+        "301",
+        "301의2",
+        "305",
+        "305의2",
+        "305의3"
+      ],
+      "quotes": [
+        "13세 이상 16세 미만의 사람에 대하여 간음 또는 추행을 한 19세 이상의 자",
+        "3년 이상의 유기징역",
+        "죄의 성립요소인 사실을 인식하지 못한 행위는 벌하지 아니한다."
+      ],
+      "supplements": [
+        "제17265호: 공포한 날부터 시행",
+        "제22007호: 2026년 10월 2일부터 시행"
+      ]
+    },
+    "limitation": "나이 오인 구체 판례 및 가중처벌 전체 적용 범위는 미조사. 현재 출판 승인 또는 독립 적합성 통과 아님."
+  },
+  "entries": [
+    {
+      "entry": 18,
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-018-e901/strict-entry.md",
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-018-e901/publication-entry-proposal.md"
+    }
+  ]
+}

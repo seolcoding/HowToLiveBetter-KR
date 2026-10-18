@@ -1,0 +1,63 @@
+{
+  "entry": 16,
+  "status": "unadopted_proposal",
+  "semantic_review": "pending",
+  "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-016-ba1e/strict-entry.md",
+  "base_strict_sha256": "0720c705eb0670485fcf33e479567ec29d9e6e7043b747955c9126c87cbd7d99",
+  "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-016-ba1e/publication-entry-proposal.md",
+  "proposal_sha256": "104dfbbf46c9811459f1899f13570d7a5b537a8998abce7a77e5dc95e57a301e",
+  "changes": [
+    {
+      "field": "출처",
+      "reason": "초기 감사 권고에 따라 채무이행 담보 제공·수령 근거인 제37조제1항제2호 추가."
+    },
+    {
+      "field": "비고",
+      "reason": "원문 편집경위를 독자용 단순대여 적용 유보로 교체. 제10호 주민등록번호와 제8호·제8호의2 주민등록증등을 구분하고 친족 반의사불벌 단서의 범위를 제10호로 한정. 참조 두 문장을 분리. 이번 인용판 확인일과 최신개정 미확인 한계 표시."
+    }
+  ],
+  "audit_resolution": {
+    "initial_content_audit": "제16항 revision_recommended",
+    "initial_editorial_decisions": "제16항 revision_recommended, 모든 field_decisions pending_candidate_review",
+    "resolution": "제2호 근거 보강 및 제10호 친족 단서 확대 방지. 편집 제안일 뿐 독립 내용검토·출판 승인 대체하지 않음."
+  },
+  "references": {
+    "outgoing": [
+      {
+        "reference": "제5항(고수익 아르바이트)",
+        "destination": "/workspace/HowToLiveBetter-KR/book-kr/09-흔한-법적-레드라인.md",
+        "read": "제5항 전체. 접근매체 양도·대가약속 대여 및 사기 공범 위험 설명과 일치."
+      },
+      {
+        "reference": "제14절(계정과 정보 보안)",
+        "destination": "/workspace/HowToLiveBetter-KR/book-kr/14-계정과-정보-보안.md",
+        "read": "절 본문 전체. 계정 인증·비밀번호·유심·분실 대응 내용과 일치."
+      }
+    ]
+  },
+  "primary": {
+    "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=268555&type=XML",
+    "retrieval": "2026-10-18 기존 HTTPS HTTP200 원문 캐시 직접 열람",
+    "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch09-audit/268555.xml",
+    "sha256": "2a54771c0eabf7a49570d6d1acde5073b2229dbb8bc45e6e39377952e5e6a10c",
+    "read": [
+      "제37조제1항 본문 및 제2호·제8호·제8호의2·제10호",
+      "부칙 제19841호 제1조·제2조: 제8호의2 공포일 시행 및 모바일 시행 전 특례",
+      "부칙 제20677호 제1조·제6조: 공포 후 6개월 시행, 제24조의2 이동통신단말장치 인용 변경"
+    ],
+    "limits": "기준일 최신개정 검색은 이번 작업에서 별도 수행하지 않음. 독자 본문에 미확인 범위 명시."
+  },
+  "validation": {
+    "literal_check.py": {
+      "pass_length": true,
+      "title_chars": 42,
+      "easy_chars": 62,
+      "easy_sentences": 2,
+      "long_sentences": []
+    },
+    "check-full-layout.py": {
+      "checked": 1,
+      "failures": []
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "status": "exact_approved_tail_sentence_splits_applied_pending_new_current_hash_formal",
+  "at_utc": "2026-10-18T20:29:45.363844+00:00",
+  "chapter": 18,
+  "before_raw_sha256": "3176ee900412a711aed03090c222d290dac32d88fc06c5a0cb422f9440009957",
+  "after_raw_sha256": "d3e764db98a7b07c79aff330761eef9b9f59dc1303103124f05af3d6cd04f8cb",
+  "tail_before_sha256": "72a0c926e426e99dc0cb1c2b0064e667b655c250f73101f892290f8fd78548c4",
+  "tail_after_sha256": "7ad07d99ab1027ac12ef6cd73edf2483148a32bc06a9e86f884035b32b3e98ff",
+  "proposal_sha256": "d2a24b51c77696bd68c00530c9e0450127c437577499487d486e57640de7cee1",
+  "independent_review_sha256": "14d83c9954a363aabf0e6600e91536f72600d6c1beb3c35f8c0ec2cbaabbf7ae",
+  "operations": [
+    {
+      "before": "한국에서 부모급여·아동수당·첫만남이용권이 기초생활보장 소득인정액에서 빠지는지는 「국민기초생활 보장법 시행령」 제5조에 명시가 없다.",
+      "after": "한국에서 부모급여·아동수당·첫만남이용권이 빠지는지는 명시가 없다. 「국민기초생활 보장법 시행령」 제5조의 기초생활보장 소득인정액에 관한 내용이다.",
+      "before_sha256": "41ebadbba41ff7425bb5fd2d1caeffb750887eab18ccac731c570015ba44fcf2",
+      "after_sha256": "ac2f0843c824c7a895b433fc5c8e690e68b44a87e02cc28d6c0a76447da0ee1a"
+    },
+    {
+      "before": "보건복지부 「국민기초생활보장사업안내」 원문 확인 후 비고에 보강(2026-10-10 미확인).",
+      "after": "보건복지부 「국민기초생활보장사업안내」 원문 확인 후 비고에 보강. 2026-10-10 미확인.",
+      "before_sha256": "53a04beccf2d0cc449d31ae078b8bb9df51be2e6e7a94fc44d98747286cfd417",
+      "after_sha256": "ffaff800ad1038f65f1fc11fb222c79ccc28e297c716395c3a322885c8417ca3"
+    },
+    {
+      "before": "- 항목 1: 원문의 「개인소득세 면제」에 대응하는 아동수당·부모급여 자체의 비과세 근거 조문은 확인하지 못해 뺐다.",
+      "after": "- 항목 1: 원문의 「개인소득세 면제」에 대응하는 근거 조문은 확인하지 못해 뺐다. 대상은 아동수당·부모급여 자체의 비과세다.",
+      "before_sha256": "db52090cabac666e8847079427e67ad675baab88998c46d321bd905fcd990a09",
+      "after_sha256": "c7fe071250fb97d633940670083aa4b77b02af5d6c8765e673083538844376de"
+    },
+    {
+      "before": "- 항목 2: 고용노동부고시 제2026-67호(90일 상한 660만 원)는 2026년 12월 31일까지 유효하다.",
+      "after": "- 항목 2: 고용노동부고시 제2026-67호는 90일 상한 660만 원이다. 2026년 12월 31일까지 유효하다.",
+      "before_sha256": "c37c2e3493b187deb876d90d14b6a02305c3e617adda5bc1dfe48e79b95e1817",
+      "after_sha256": "1e8cbd815dbd7e17795ba918b5cc6affa19972a304e3f093b379e34c49ffa5a3"
+    }
+  ],
+  "all_numbered_entries_and_intro_unchanged": true,
+  "entry_count": 6,
+  "all_other_tail_bytes_unchanged": true,
+  "archived_formal": "kr-harness/chapters/18/kr-fit-review.r6.md",
+  "archived_formal_sha256": "0cc8ed72beb164f86eed44a3c33278d59e23ea4fa23782c9202c4e864c855c36",
+  "previous_cli_sha256": "c8675e5dc4cd2e6ac626e63ad2cb52ec1fcb3b40aeec47e366747006280391de",
+  "formal_kr_fit_approval": false,
+  "deployed": false
+}

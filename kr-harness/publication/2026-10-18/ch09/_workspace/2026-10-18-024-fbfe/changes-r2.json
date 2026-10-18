@@ -1,0 +1,45 @@
+{
+  "chapter": 9,
+  "entry": 24,
+  "status": "unadopted_pending_independent_approval",
+  "baseline_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-024-fbfe/publication-entry-proposal.md",
+  "baseline_sha256": "91d916846df3fd2651a48a2e3a2f7bcf28af6914d85ab7cb7567ffc0aa2206af",
+  "strict_base_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-024-fbfe/strict-entry.md",
+  "strict_base_sha256": "9ea33bf3a83c1e3ed1d85196378c4c754b44f810ce8c4252af8f3697a13cbd31",
+  "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-024-fbfe/publication-entry-proposal-r2.md",
+  "proposal_sha256": "4125fa9049de24b59ab90d726d18bf09bc818f1a3f327f47e3882746d58966ed",
+  "review_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/publication-review-09-partial-8.json",
+  "review_sha256": "9d1b5f57ec5128fd6db9c959a10ae554499cca6d86db825c7216fcfb98019d76",
+  "change_scope": "비고의 지정된 작업 메모 두 문장 삭제만",
+  "reason": "partial-8 제24항 reader-facing revision 요청: 중국 원문 변환 과정을 설명하는 작업 메모이며 한국 법률조건이나 독자 위험·미확인 한계가 아님",
+  "exact_edit": {
+    "field": "비고",
+    "before": "원문의 영리 목적 필수 요건은 적용하지 않았습니다. 다운로드 수 처벌 기준도 적용하지 않았습니다.",
+    "after": ""
+  },
+  "exact_field_change": {
+    "before": "개인·가정에서 제한된 범위로 복제하는 경우가 있습니다. 이는 인터넷에 공개 배포하는 것과 다릅니다. 공정 이용 등 법률상 권리 제한도 따로 살펴야 합니다. 무료라는 이유만으로 공정 이용이 되지는 않습니다. 원문의 영리 목적 필수 요건은 적용하지 않았습니다. 다운로드 수 처벌 기준도 적용하지 않았습니다. 배상 분쟁에는 소송 시간과 변호사 비용도 듭니다. 제25항(팬 창작물), 제26절(웹사이트 만들기)을 보세요. 2026-10-10 법령 확인(국가법령정보센터).",
+    "after": "개인·가정에서 제한된 범위로 복제하는 경우가 있습니다. 이는 인터넷에 공개 배포하는 것과 다릅니다. 공정 이용 등 법률상 권리 제한도 따로 살펴야 합니다. 무료라는 이유만으로 공정 이용이 되지는 않습니다. 배상 분쟁에는 소송 시간과 변호사 비용도 듭니다. 제25항(팬 창작물), 제26절(웹사이트 만들기)을 보세요. 2026-10-10 법령 확인(국가법령정보센터)."
+  },
+  "preserved": "다른 5필드·제목·태그·법률조건·유보·숫자·출처·등급·참조·소송비용 모두 동일",
+  "whole_baseline_guards": {
+    "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/source.md": "944ab983bf1467dd3e475b1798c9284c2df0ab927bfc75657ac87d928c95a4c4",
+    "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/candidate.md": "944ab983bf1467dd3e475b1798c9284c2df0ab927bfc75657ac87d928c95a4c4",
+    "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/manifest.json": "ec029de45d75a5de63fd7c7ec3c4419bcc92fc3e5dd53af1a1c6a48ec347e467"
+  },
+  "checks": {
+    "literal_check.py": {
+      "passed": true,
+      "title_chars": 43,
+      "easy_chars": 50,
+      "easy_sentences": 2,
+      "long_sentences": []
+    },
+    "check-full-layout.py": {
+      "checked": 1,
+      "failures": []
+    },
+    "only_notes_changed": true,
+    "six_single_physical_line_fields": true
+  }
+}

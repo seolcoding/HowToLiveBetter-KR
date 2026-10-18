@@ -1,0 +1,91 @@
+{
+  "review_id": "current-intro-style-review-r1",
+  "status": "approved_for_exact_integration",
+  "decision": "approve",
+  "reviewed_at_utc": "2026-10-18T20:34:56.237858+00:00",
+  "proposal_path": "kr-harness/publication/2026-10-18/ch01/publication-current-intro-style-proposal-r1.json",
+  "proposal_sha256": "5908bcd8c79bf87d1c12c6955fd118801933dd59b4ef59d6bda214bea38154f6",
+  "current_whole_sha256": "fa0cb68d45ee5db23d20629e549361db433c226a00701e3bc899cf9a23cb96c4",
+  "current_intro_sha256": "574bc73bd9d0cf8493494cb63e06a9693a36432e2dfc81677b58d8ca191d41d0",
+  "after_intro_sha256": "5bdce435733f0074b59c2e058739f2777feae41d4ab9e80bc2b2ad1b4993a621",
+  "expected_whole_after_sha256": "1e7aa68399f383079a7edef2348a66c194f85af423665c48a8c529b88c74c52f",
+  "root_findings": {
+    "path": "kr-harness/publication/2026-10-18/ch01/tail-formal-review-r1/findings.json",
+    "sha256": "4a4d90faf6971883f0ed83c5e64b4b232cc04cff739cc22676e5fdf6f443d9f2"
+  },
+  "operations": [
+    {
+      "before": "이득 칸의 숫자는 무작위로 나눈 시험, 많은 사람을 오래 따라간 연구, 공식 통계에서 왔습니다.",
+      "after": "이득 칸의 숫자는 무작위로 나눈 시험에서 왔습니다. 많은 사람을 오래 따라간 연구와 공식 통계에서도 가져왔습니다.",
+      "decision": "approve",
+      "reason": "긴 문장을 두 문장으로 분리한다. 무작위시험·장기추적연구·공식통계의 세 근거 유형과 비용의 시중가격 어림·비교전용·인용금지 제한을 보존한다."
+    },
+    {
+      "before": "비용 칸은 지은이가 시중 가격으로 어림한 값이라, 서로 비교하는 데만 쓰고 인용하지 마세요.",
+      "after": "비용 칸은 지은이가 시중 가격으로 어림한 값입니다. 서로 비교하는 데만 쓰고 인용하지 마세요.",
+      "decision": "approve",
+      "reason": "긴 문장을 두 문장으로 분리한다. 무작위시험·장기추적연구·공식통계의 세 근거 유형과 비용의 시중가격 어림·비교전용·인용금지 제한을 보존한다."
+    }
+  ],
+  "all_intro_narrative_sentences": [
+    {
+      "sentence": "이 절은 세 가지를 다룹니다.",
+      "literal_chars_including_parentheses_and_spaces": 16
+    },
+    {
+      "sentence": "첫째는 교통사고, 화재, 중독처럼 사고로 다쳐 죽는 일입니다.",
+      "literal_chars_including_parentheses_and_spaces": 34
+    },
+    {
+      "sentence": "둘째는 예방접종과 검진인데, 근거가 가장 단단한 몇 가지만 실었습니다.",
+      "literal_chars_including_parentheses_and_spaces": 39
+    },
+    {
+      "sentence": "셋째는 검사를 받아야 하는 몸의 신호입니다.",
+      "literal_chars_including_parentheses_and_spaces": 24
+    },
+    {
+      "sentence": "이득 칸의 숫자는 무작위로 나눈 시험에서 왔습니다.",
+      "literal_chars_including_parentheses_and_spaces": 28
+    },
+    {
+      "sentence": "많은 사람을 오래 따라간 연구와 공식 통계에서도 가져왔습니다.",
+      "literal_chars_including_parentheses_and_spaces": 34
+    },
+    {
+      "sentence": "비용 칸은 지은이가 시중 가격으로 어림한 값입니다.",
+      "literal_chars_including_parentheses_and_spaces": 28
+    },
+    {
+      "sentence": "서로 비교하는 데만 쓰고 인용하지 마세요.",
+      "literal_chars_including_parentheses_and_spaces": 23
+    },
+    {
+      "sentence": "한국의 검진·예방접종·법 조항은 2026-10-10 기준으로 확인했습니다.",
+      "literal_chars_including_parentheses_and_spaces": 41
+    },
+    {
+      "sentence": "이 절의 항목은 아래처럼 주제별로 묶입니다.",
+      "literal_chars_including_parentheses_and_spaces": 24
+    },
+    {
+      "sentence": "괄호 안은 항목 번호입니다.",
+      "literal_chars_including_parentheses_and_spaces": 15
+    }
+  ],
+  "checks": {
+    "actual_whole_intro_and_snapshots": true,
+    "exact_unique_two_spans_only": true,
+    "root53_51_character_findings_match": true,
+    "all_other_intro_bytes_unchanged": true,
+    "narrative_literal_max41": true,
+    "body42_entries_and_preapproved_tail_exact_bytes_unchanged": true,
+    "all_numbers_conditions_nonquotation_restrictions_preserved": true,
+    "existing_topic_index_metadata_and_DOI_annotations_unchanged": true,
+    "public_guard_rechecked": true
+  },
+  "source_scope": "두 문장 분리의 문체 검토만 수행. 원자료 숫자·비용 시세의 새로운 검증이나 사실 승인을 하지 않음; 신규HTTP/외부raw열람0.",
+  "formal_approval": false,
+  "publication_approval": false,
+  "public_written": false
+}

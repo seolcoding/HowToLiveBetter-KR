@@ -1,0 +1,266 @@
+{
+  "chapter": 9,
+  "entry": 9,
+  "status": "unapproved_proposal_pending_independent_exact_hash_review",
+  "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-009-42a5/strict-entry.md",
+  "base_strict_entry_sha256": "3f6c23f73892279e55133bacbfe6048b1d99a85ff070cb11e243f15ad123ec57",
+  "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-009-42a5/publication-entry-proposal.md",
+  "proposal_sha256": "98caa66891109b495cc7da67a20d0e2cea0230df4517907b619b165734f353b9",
+  "pure_final_sha256": "005ce4a50c4c09c04f06f0c2dde2bed9d1fa91df12b85510849a3b206ee281ca",
+  "field_changes": [
+    {
+      "field": "비용",
+      "before": "쓰레기를 지정 장소에 버리는 시간이 듭니다. 높은 곳에 물건을 방치하지 마세요.",
+      "after": "쓰레기를 지정 장소에 버리는 시간이 듭니다. 높은 곳에 물건을 방치하지 마세요.",
+      "reason": "unchanged"
+    },
+    {
+      "field": "쉽게",
+      "before": "아무도 맞지 않아도 위험하게 던지면 처벌받습니다. 사람이 다치거나 죽으면 형사책임이 더 커집니다. 배상 문제도 생깁니다.",
+      "after": "아무도 맞지 않아도 부주의하게 위험한 곳에 던지면 처벌받습니다. 사람이 다치거나 죽으면 형사책임이 더 커집니다. 배상 문제도 생깁니다.",
+      "reason": "위험행위의 주의의무 결여 조건을 쉽게에도 명시"
+    },
+    {
+      "field": "이득",
+      "before": "해를 끼칠 우려가 있는 곳에 부주의하게 물건을 던지면 처벌받습니다. 해당 법정형은 10만원 이하 벌금·구류·과료입니다. 과실치사 법정형은 2년 이하 금고 또는 700만원 이하 벌금입니다. 고의나 중대한 과실 여부에 따라 적용 죄명이 달라집니다.",
+      "after": "다른 사람의 신체나 타인·단체의 물건에 해를 끼칠 우려가 있는 곳이 대상입니다. 그곳에 부주의하게 물건을 던지면 처벌받습니다. 해당 법정형은 10만원 이하 벌금·구류·과료입니다. 과실치사 법정형은 2년 이하 금고 또는 700만원 이하 벌금입니다. 고의나 중대한 과실, 업무상과실 여부에 따라 적용 죄명이 달라집니다.",
+      "reason": "보호대상과 위험장소를 명시하고 형법268 업무상과실 분기를 누락하지 않음; 형량 수치는 원문 그대로"
+    },
+    {
+      "field": "근거등급",
+      "before": "A",
+      "after": "A",
+      "reason": "unchanged"
+    },
+    {
+      "field": "출처",
+      "before": "「경범죄 처벌법」 제3조제1항제23호. https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&type=XML&MST=290135&efYd=20261002 · 「형법」 제257조·제267조·제268조. https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&type=XML&MST=290185&efYd=20261002 · 「민법」 제750조. https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&type=XML&MST=284415&efYd=20260317",
+      "after": "「경범죄 처벌법」 제3조제1항제23호. https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&type=XML&MST=290135&efYd=20261002 · 「형법」 제257조·제267조·제268조. https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&type=XML&MST=290185&efYd=20261002 · 「민법」 제750조. https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&type=XML&MST=284415&efYd=20260317",
+      "reason": "unchanged"
+    },
+    {
+      "field": "비고",
+      "before": "높은 곳에서 물건을 던질 때의 형량은 한국과 원문이 다릅니다. 피해자 배상금은 벌금과 별개입니다. 소송이 생기면 증거를 확보하고 대응하는 데 시간이 듭니다. 변호사 비용도 듭니다. 2026-10-10 법령 확인(국가법령정보센터).",
+      "after": "고의·과실의 위법행위로 남에게 손해를 주면 배상책임이 있습니다. 피해자 배상금은 벌금과 별개입니다. 소송이 생기면 증거를 확보하고 대응하는 데 시간이 듭니다. 변호사 비용도 듭니다. 2026-10-18 법령 확인(국가법령정보센터).",
+      "reason": "불필요한 중국 원문 비교 메모 삭제; 민법750 고의·과실/위법/손해 조건을 명시하고 실제 캐시본문 열람일 표시"
+    }
+  ],
+  "primary_evidence": [
+    {
+      "law": "경범죄 처벌법",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290135&type=XML",
+      "method": "existing cached primary statutory XML directly read; no new network request",
+      "verified_on": "2026-10-18",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290135.xml",
+      "raw_sha256": "afeade8846b7d5b65a2a2da45d7c2a5709df794d44cbc95fdbba6e737b71a0e1",
+      "read_level": "basic information, named complete articles, latest two supplementary provisions; current-search exact-title item",
+      "articles_read": [
+        "3"
+      ],
+      "exact_primary_quotes": [
+        "① 다음 각 호의 어느 하나에 해당하는 사람은 10만원 이하의 벌금, 구류 또는 과료(科料)의 형으로 처벌한다. <개정 2014.11.19, 2017.7.26, 2017.10.24, 2026.9.29>",
+        "23. (물건 던지기 등 위험행위) 다른 사람의 신체나 다른 사람 또는 단체의 물건에 해를 끼칠 우려가 있는 곳에 충분한 주의를 하지 아니하고 물건을 던지거나 붓거나 또는 쏜 사람"
+      ],
+      "latest_supplementary_provision": "부칙 <제22014호,2026.9.29>\n\n\n이 법은 2026년 10월 2일부터 시행한다.\n\n\n\n",
+      "effective_date": "20261002",
+      "current_search_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch09-audit/current-290135.xml",
+      "current_search_sha256": "7739e52c21bf542f526485d58dad99e6ae300a114ba636f55e97902f62287beb",
+      "current_search_exact_match": [
+        {
+          "법령일련번호": "290135",
+          "현행연혁코드": "현행",
+          "법령명한글": "경범죄 처벌법",
+          "법령약칭명": null,
+          "법령ID": "001674",
+          "공포일자": "20260929",
+          "공포번호": "22014",
+          "제개정구분명": "일부개정",
+          "소관부처코드": "1320000,1532000",
+          "소관부처명": "경찰청,해양경찰청",
+          "법령구분명": "법률",
+          "공동부령정보": null,
+          "시행일자": "20261002",
+          "자법타법여부": null,
+          "법령상세링크": "/DRF/lawService.do?OC=test&target=law&MST=290135&type=HTML&mobileYn=&efYd=20261002"
+        }
+      ]
+    },
+    {
+      "law": "형법",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290185&type=XML",
+      "method": "existing cached primary statutory XML directly read; no new network request",
+      "verified_on": "2026-10-18",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290185.xml",
+      "raw_sha256": "391f3c2bb7173fff4040eda9ae2259674b616e58aeadf4371206b63c70f1c89b",
+      "read_level": "basic information, named complete articles, latest two supplementary provisions; current-search exact-title item",
+      "articles_read": [
+        "257",
+        "266",
+        "267",
+        "268"
+      ],
+      "exact_primary_quotes": [
+        "257",
+        "조문",
+        "상해, 존속상해",
+        "20261002",
+        "N",
+        "제257조(상해, 존속상해)",
+        "①",
+        "①사람의 신체를 상해한 자는 7년 이하의 징역, 10년 이하의 자격정지 또는 1천만원 이하의 벌금에 처한다. <개정 1995.12.29>",
+        "②",
+        "②자기 또는 배우자의 직계존속에 대하여 제1항의 죄를 범한 때에는 10년 이하의 징역 또는 1천500만원 이하의 벌금에 처한다. <개정 1995.12.29>",
+        "③",
+        "③전 2항의 미수범은 처벌한다.",
+        "266",
+        "조문",
+        "과실치상",
+        "20261002",
+        "N",
+        "제266조(과실치상)",
+        "①",
+        "①과실로 인하여 사람의 신체를 상해에 이르게 한 자는 500만원 이하의 벌금, 구류 또는 과료에 처한다. <개정 1995.12.29>",
+        "②",
+        "②제1항의 죄는 피해자의 명시한 의사에 반하여 공소를 제기할 수 없다. <개정 1995.12.29>",
+        "267",
+        "조문",
+        "과실치사",
+        "20261002",
+        "N",
+        "제267조(과실치사) 과실로 인하여 사람을 사망에 이르게 한 자는 2년 이하의 금고 또는 700만원 이하의 벌금에 처한다. <개정 1995.12.29>",
+        "268",
+        "조문",
+        "업무상과실ㆍ중과실 치사상",
+        "20261002",
+        "N",
+        "제268조(업무상과실ㆍ중과실 치사상) 업무상과실 또는 중대한 과실로 사람을 사망이나 상해에 이르게 한 자는 5년 이하의 금고 또는 2천만원 이하의 벌금에 처한다.",
+        "[전문개정 2020.12.8]"
+      ],
+      "latest_supplementary_provision": "부칙 <제22007호,2026.9.29>\n\n\n이 법은 2026년 10월 2일부터 시행한다.\n\n\n\n",
+      "effective_date": "20261002",
+      "current_search_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch09-audit/current-290185.xml",
+      "current_search_sha256": "20d931ae62b218c093521913e128bbab7685bd7e13b4b5c1fe4d346b18274bed",
+      "current_search_exact_match": [
+        {
+          "법령일련번호": "290185",
+          "현행연혁코드": "현행",
+          "법령명한글": "형법",
+          "법령약칭명": null,
+          "법령ID": "001692",
+          "공포일자": "20260929",
+          "공포번호": "22007",
+          "제개정구분명": "일부개정",
+          "소관부처코드": "1270000",
+          "소관부처명": "법무부",
+          "법령구분명": "법률",
+          "공동부령정보": null,
+          "시행일자": "20261002",
+          "자법타법여부": null,
+          "법령상세링크": "/DRF/lawService.do?OC=test&target=law&MST=290185&type=HTML&mobileYn=&efYd=20261002"
+        }
+      ]
+    },
+    {
+      "law": "민법",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=284415&type=XML",
+      "method": "existing cached primary statutory XML directly read; no new network request",
+      "verified_on": "2026-10-18",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/284415.xml",
+      "raw_sha256": "cd2997176df62de7b1e4bb018287987654f6054cbd0eeced9e882d5c4daf53df",
+      "read_level": "basic information, named complete articles, latest two supplementary provisions; current-search exact-title item",
+      "articles_read": [
+        "750"
+      ],
+      "exact_primary_quotes": [
+        "750",
+        "조문",
+        "불법행위의 내용",
+        "20260317",
+        "N",
+        "제750조(불법행위의 내용) 고의 또는 과실로 인한 위법행위로 타인에게 손해를 가한 자는 그 손해를 배상할 책임이 있다."
+      ],
+      "latest_supplementary_provision": "부칙 <제21454호,2026.3.17>\n\n\n제1조(시행일) 이 법은 공포한 날부터 시행한다.\n\n\n제2조(상속권 상실 선고 등에 관한 적용례) 제1008조 단서의 개정규정은 2024년 4월 25일 이후 상속이 개시되는 경우에 대해서도 적용하고, 제1004조의2의 개정규정은 2024년 4월 25일 이후 상속이 개시되는 경우로서 이 법 시행 전에 같은 조 제1항 각 호 또는 제3항 각 호에 해당하는 행위가 있었던 경우에 대해서도 적용한다. 제1001조 및 제1010조의 개정규정 중 제1004조의2에 관한 부분도 같다.\n\n\n제3조(유류분의 보전에 관한 적용례) 제1115조제1항의 개정규정은 이 법 시행 이후 상속이 개시되는 경우부터 적용한다.\n\n\n제4조(상속권 상실 선고에 관한 특례) 2024년 4월 25일 이후 이 법 시행 전에 상속이 개시된 경우로서 제1004조의2제3항 각 호의 사유가 있는 사람이 상속인이 되었음을 이 법 시행 전에 안 공동상속인은 같은 조 제3항 각 호 외의 부분에도 불구하고 이 법 시행일부터 6개월 이내에 상속권 상실 청구를 할 수 있다. 같은 조 제4항에 따라 상속인이 될 사람 또한 같다.\n\n\n\n",
+      "effective_date": "20260317",
+      "current_search_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch09-audit/current-284415.xml",
+      "current_search_sha256": "374eaaa09285c7a4f6d0b99324f6e887f6e7d03f3fd5659be3ea5700089d71c1",
+      "current_search_exact_match": [
+        {
+          "법령일련번호": "284415",
+          "현행연혁코드": "현행",
+          "법령명한글": "민법",
+          "법령약칭명": null,
+          "법령ID": "001706",
+          "공포일자": "20260317",
+          "공포번호": "21454",
+          "제개정구분명": "일부개정",
+          "소관부처코드": "1270000",
+          "소관부처명": "법무부",
+          "법령구분명": "법률",
+          "공동부령정보": null,
+          "시행일자": "20260317",
+          "자법타법여부": null,
+          "법령상세링크": "/DRF/lawService.do?OC=test&target=law&MST=284415&type=HTML&mobileYn=&efYd=20260317"
+        }
+      ]
+    }
+  ],
+  "scope_and_numeric_changes": [
+    "형량과 금액 변경 없음",
+    "경범죄의 위험 대상 및 충분한 주의 결여 조건 명시",
+    "업무상과실 분기 보강; 해당 법정형을 새로 열거하지 않음",
+    "배상 조건을 민법750 요건으로 한정"
+  ],
+  "doi_changes": {
+    "added": [],
+    "removed": []
+  },
+  "read_scope": {
+    "constraints": [
+      "AGENTS.md",
+      "KR-GUIDE.md",
+      "kr-harness/publication/CONTRACT.md",
+      "kr-harness/publication/2026-10-18/publication-author-constraints.md",
+      "kr-harness/publication/2026-10-18/formal-author-constraints.md"
+    ],
+    "audit": "content-audit.md introductory scope, 제9항 and current-source inventory; editorial-decisions.json entry9 complete",
+    "initial_finding": "verified_scope, not a confirmed numeric error",
+    "additional_warn_ref_finding_files": "chapter file scan found only content-audit.md and editorial-decisions.json",
+    "outgoing_references": [],
+    "incoming_public_book_scan": [],
+    "title": "unchanged; no new anchor migration",
+    "statistical_caveats": "No OR/RR/HR/statistical estimates in this entry"
+  },
+  "unresolved_limitations": [
+    "사건별 고의·중과실 판단과 양형·배상액은 이 일반 조문 대조에서 결정하지 않음",
+    "판례·변호사 비용액·소송기간 미조사; 본문에 정액·정기간 보장 없음",
+    "현재성은 2026-10-18 저장된 현행검색 본문과 시행일·부칙에 한정; 새 네트워크 확인으로 표시하지 않음"
+  ],
+  "checks": [
+    {
+      "script": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/publication-partial-review-evidence/literal_check.py",
+      "script_sha256": "717018a1a9b6e44c70cce7ac46d478c70d8ac0bbe1c9a8281d32162002ef1cce",
+      "arguments": [
+        "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-009-42a5/publication-entry-proposal.md"
+      ],
+      "exit_code": 0,
+      "stdout": "[\n  {\n    \"entry\": null,\n    \"path\": \"/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-009-42a5/publication-entry-proposal.md\",\n    \"title_chars\": 31,\n    \"easy_chars\": 75,\n    \"easy_sentences\": 3,\n    \"long_sentences\": [],\n    \"pass_length\": true\n  }\n]\n",
+      "stderr": ""
+    },
+    {
+      "script": "/workspace/.cache/howtolivebetter/publication/check-full-layout.py",
+      "script_sha256": "f25f9827496e31cf6c53b0e00177bf8bf31012a2f38df9043beafa0345eee1fc",
+      "arguments": [
+        "/tmp/ch09e09-layout-manifest.json"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"checked\": 1, \"failures\": []}\n",
+      "stderr": ""
+    }
+  ],
+  "protected_checks": {
+    "six_single_physical_field_lines": true,
+    "tag_unchanged": true,
+    "grade_unchanged": true,
+    "source_unchanged": true
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "review_id": "publication-current-tail-style-review-r1",
+  "decision": "approve",
+  "status": "approved_for_exact_integration",
+  "reviewed_at_utc": "2026-10-18T20:22:23.278253+00:00",
+  "proposal_path": "kr-harness/publication/2026-10-18/ch01/publication-current-tail-style-proposal-r1.json",
+  "proposal_sha256": "d858d5d89574b439bd812ca6df7f999cd36f6647a920818f1b32bc18388c0b8e",
+  "before_whole_sha256": "22535ac03620bae83541ce2baea5e6ff2b2bddd4bee5c7c0bfd3de526506e0d1",
+  "before_tail_sha256": "aa82014c330702c40178bcb4d2681558e5766e2c58557cf9dfb54232144e9b96",
+  "after_tail_sha256": "d43d98ce3ef78c8f61843538bf9f12d418083535961b90c9be98b09fa8c2217e",
+  "expected_whole_after_sha256": "394299bc45a33a3b8f2074df28067bd0275bf597e145c278c456010935269983",
+  "operations": [
+    {
+      "todo": 4,
+      "before": "4. 제6항: 공동주택 공용 공간의 전기자전거·전동킥보드 보관·충전을 직접 정한 법령·고시가 있는지.",
+      "after": "4. 제6항: 공동주택 공용 공간의 전기자전거·전동킥보드 보관·충전 문제입니다. 이를 직접 정한 법령·고시가 있는지 확인해야 합니다.",
+      "decision": "approve",
+      "reason": "일반 문장을 나눠 기존 미확인 대상·자료명·대상 범위와 수치를 그대로 보존한다. 새 검증 완료나 사실을 추가하지 않는다."
+    },
+    {
+      "todo": 5,
+      "before": "5. 제14·15·16·21항: 국가예방접종 대상 밖의 성인 B형간염·파상풍(Td)·HPV·대상포진 백신 가격(건강보험심사평가원 비급여 진료비 정보).",
+      "after": "5. 제14·15·16·21항: 국가예방접종 대상 밖의 성인 백신 가격을 확인해야 합니다. B형간염·파상풍(Td)·HPV·대상포진이 대상입니다. 자료는 (건강보험심사평가원 비급여 진료비 정보)입니다.",
+      "decision": "approve",
+      "reason": "일반 문장을 나눠 기존 미확인 대상·자료명·대상 범위와 수치를 그대로 보존한다. 새 검증 완료나 사실을 추가하지 않는다."
+    },
+    {
+      "todo": 7,
+      "before": "7. 제31항: 「후천성면역결핍증 예방법」 제19조(전파매개행위) 적용 범위에 관한 헌법재판소 결정 원문.",
+      "after": "7. 제31항: 「후천성면역결핍증 예방법」 제19조(전파매개행위) 적용 범위입니다. 이에 관한 헌법재판소 결정 원문을 확인해야 합니다.",
+      "decision": "approve",
+      "reason": "일반 문장을 나눠 기존 미확인 대상·자료명·대상 범위와 수치를 그대로 보존한다. 새 검증 완료나 사실을 추가하지 않는다."
+    }
+  ],
+  "sentence_audit": [
+    {
+      "todo": 1,
+      "text": "제3항: 한국 일산화탄소 중독 사망 통계(사고와 자해를 나눈 1차 출처).",
+      "actual_sentence_chars_including_anchors_and_parentheses": 41,
+      "with_list_ordinal_chars": 44
+    },
+    {
+      "todo": 1,
+      "text": "원문의 중국 통계는 뺐다.",
+      "actual_sentence_chars_including_anchors_and_parentheses": 14,
+      "with_list_ordinal_chars": 14
+    },
+    {
+      "todo": 2,
+      "text": "제4항: 도시가스사업자가 가정 사용시설을 몇 개월마다 점검하는지와 그 근거 조문.",
+      "actual_sentence_chars_including_anchors_and_parentheses": 45,
+      "with_list_ordinal_chars": 48
+    },
+    {
+      "todo": 2,
+      "text": "가스레인지 연결 호스 교체 권장 주기(한국가스안전공사 1차 자료).",
+      "actual_sentence_chars_including_anchors_and_parentheses": 37,
+      "with_list_ordinal_chars": 37
+    },
+    {
+      "todo": 2,
+      "text": "한국가스안전공사 대표 상담 번호.",
+      "actual_sentence_chars_including_anchors_and_parentheses": 18,
+      "with_list_ordinal_chars": 18
+    },
+    {
+      "todo": 3,
+      "text": "제5항: 한국 버섯 중독 사망 통계(식품의약품안전처 1차 자료).",
+      "actual_sentence_chars_including_anchors_and_parentheses": 36,
+      "with_list_ordinal_chars": 39
+    },
+    {
+      "todo": 3,
+      "text": "지금은 사망 숫자를 중국 자료로 두었다.",
+      "actual_sentence_chars_including_anchors_and_parentheses": 22,
+      "with_list_ordinal_chars": 22
+    },
+    {
+      "todo": 4,
+      "text": "제6항: 공동주택 공용 공간의 전기자전거·전동킥보드 보관·충전 문제입니다.",
+      "actual_sentence_chars_including_anchors_and_parentheses": 41,
+      "with_list_ordinal_chars": 44
+    },
+    {
+      "todo": 4,
+      "text": "이를 직접 정한 법령·고시가 있는지 확인해야 합니다.",
+      "actual_sentence_chars_including_anchors_and_parentheses": 29,
+      "with_list_ordinal_chars": 29
+    },
+    {
+      "todo": 5,
+      "text": "제14·15·16·21항: 국가예방접종 대상 밖의 성인 백신 가격을 확인해야 합니다.",
+      "actual_sentence_chars_including_anchors_and_parentheses": 47,
+      "with_list_ordinal_chars": 50
+    },
+    {
+      "todo": 5,
+      "text": "B형간염·파상풍(Td)·HPV·대상포진이 대상입니다.",
+      "actual_sentence_chars_including_anchors_and_parentheses": 29,
+      "with_list_ordinal_chars": 29
+    },
+    {
+      "todo": 5,
+      "text": "자료는 (건강보험심사평가원 비급여 진료비 정보)입니다.",
+      "actual_sentence_chars_including_anchors_and_parentheses": 30,
+      "with_list_ordinal_chars": 30
+    },
+    {
+      "todo": 5,
+      "text": "대상포진 백신을 지원하는 지방자치단체가 있는지.",
+      "actual_sentence_chars_including_anchors_and_parentheses": 26,
+      "with_list_ordinal_chars": 26
+    },
+    {
+      "todo": 6,
+      "text": "제26항: 소화담요와 화재대피용 마스크를 가정에 갖추라는 한국 정부 목록.",
+      "actual_sentence_chars_including_anchors_and_parentheses": 41,
+      "with_list_ordinal_chars": 44
+    },
+    {
+      "todo": 6,
+      "text": "국민안전24 「비상대비」는 화생방용 방독면만 다룬다.",
+      "actual_sentence_chars_including_anchors_and_parentheses": 29,
+      "with_list_ordinal_chars": 29
+    },
+    {
+      "todo": 7,
+      "text": "제31항: 「후천성면역결핍증 예방법」 제19조(전파매개행위) 적용 범위입니다.",
+      "actual_sentence_chars_including_anchors_and_parentheses": 43,
+      "with_list_ordinal_chars": 46
+    },
+    {
+      "todo": 7,
+      "text": "이에 관한 헌법재판소 결정 원문을 확인해야 합니다.",
+      "actual_sentence_chars_including_anchors_and_parentheses": 28,
+      "with_list_ordinal_chars": 28
+    },
+    {
+      "todo": 7,
+      "text": "서울 밖 지역 보건소의 익명 무료검사 조건.",
+      "actual_sentence_chars_including_anchors_and_parentheses": 24,
+      "with_list_ordinal_chars": 24
+    },
+    {
+      "todo": 8,
+      "text": "제36항: 한국의 연간 방사선원 분실·사고 건수(원자력안전위원회 통계).",
+      "actual_sentence_chars_including_anchors_and_parentheses": 40,
+      "with_list_ordinal_chars": 43
+    },
+    {
+      "todo": 8,
+      "text": "원문의 중국 통계는 뺐다.",
+      "actual_sentence_chars_including_anchors_and_parentheses": 14,
+      "with_list_ordinal_chars": 14
+    },
+    {
+      "todo": 9,
+      "text": "제38항: 질병관리청 PrEP 지원사업이 2026년에도 이어지는지와 참여 의료기관 목록.",
+      "actual_sentence_chars_including_anchors_and_parentheses": 49,
+      "with_list_ordinal_chars": 52
+    },
+    {
+      "todo": 10,
+      "text": "제41항: 한국 얼음 깨짐 사고 사망 통계.",
+      "actual_sentence_chars_including_anchors_and_parentheses": 24,
+      "with_list_ordinal_chars": 28
+    },
+    {
+      "todo": 11,
+      "text": "제1항: 한국 뒷좌석 안전띠 착용률(한국교통안전공단 교통문화지수 원문).",
+      "actual_sentence_chars_including_anchors_and_parentheses": 40,
+      "with_list_ordinal_chars": 44
+    }
+  ],
+  "length_convention": {
+    "actual_sentence_includes": "모든 문장 문자·앵커·법명·괄호·공백 포함. 목록 서수1. 등은 문장 밖 목록 표시로 별도 집계.",
+    "actual_max": 49,
+    "conservative_ordinal_included_max": 52,
+    "todo9": "원문 문장49자/서수 포함52자를 정직하게 구별; 그대로 유지. 보수 집계까지 모두50이하라고 주장하지 않는다."
+  },
+  "checks": {
+    "actual_guards_and_snapshots": true,
+    "only_three_exact_spans": true,
+    "all_other_tail_bytes_unchanged": true,
+    "todo_heading_and_11_ordinals_unchanged": true,
+    "all42_entries_and_intro_unchanged": true,
+    "unresolved_conditions_numbers_limits_preserved": true,
+    "actual_sentence_literal50": true,
+    "public_guard_rechecked": true
+  },
+  "primary_source_scope": "미확인 TODO 대상을 문장 분리한 문체 검토다. 새로운 법률/의학/기관 사실이나 원자료 검증 완료를 주장하지 않으며 신규HTTP/외부raw열람0.",
+  "formal_approval": false,
+  "publication_approval": false,
+  "public_written": false,
+  "note": "인계의 본문41항 표기는 실제42항과 다르다. 제안 bytes는 항목을 삭제하지 않았으며 실제42항 불변으로 검증했다."
+}

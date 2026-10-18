@@ -1,0 +1,45 @@
+{
+  "status": "unadopted_proposal",
+  "entry": 13,
+  "semantic_review": "pending",
+  "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-013-59d0/strict-entry.md",
+  "base_sha256": "9939deb660bcc6d43528d44608db689e5b6a78a9b217256c26dfd2adc5f3b88f",
+  "proposal_sha256": "03dd7dbc9b32c747e87da429eac32ea032ba46ae69f67fb49181910bc9b70801",
+  "changes": [
+    {
+      "field": "출처",
+      "before": "target=eflaw&type=XML&MST=290185&efYd=20261002",
+      "after": "target=law&MST=290185&type=XML",
+      "reason": "실제 열람한 한국어 법령 원문으로 연결합니다."
+    },
+    {
+      "field": "비고",
+      "before": "일시 오락의 구체적인 판례 기준은 TODO 확인 필요로 남겼습니다. 2026-10-10 법령 확인(국가법령정보센터).",
+      "after": "일시 오락의 구체적인 판례 기준은 아직 조사하지 않았습니다. 2026-10-18 국가법령정보센터에서 조문과 부칙을 확인했습니다.",
+      "reason": "미조사를 접근실패나 검증 완료와 구분하고 실제 조문·부칙 확인일을 씁니다."
+    }
+  ],
+  "audit_closure": {
+    "content_audit": "verified_scope_with_open_detail: 제246조①②·제247조 법정형 및 일시오락 예외 확인. 친족·소액만으로 예외 단정 금지 유지. 판례 미조사 유지.",
+    "editorial_decisions": "13항 finding 및 pending 필드 결정 검토. 이번 제안은 독립 승인 아님.",
+    "outgoing_references": [],
+    "incoming_references": [],
+    "reference_scan": "book-kr 및 ch09 공개/후보 본문에서 제9절 제13항/도박·친목 앵커 참조 검색 결과 없음. 제목 유지."
+  },
+  "primary_evidence": [
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290185&type=XML",
+      "http_status": 200,
+      "retrieval_mode": "new_https_urllib_tls_verified",
+      "checked_at": "2026-10-18T20:30:55.404631+00:00",
+      "sha256": "391f3c2bb7173fff4040eda9ae2259674b616e58aeadf4371206b63c70f1c89b",
+      "quotes": [
+        "① 도박을 한 사람은 1천만원 이하의 벌금에 처한다. 다만, 일시오락 정도에 불과한 경우에는 예외로 한다.",
+        "② 상습으로 제1항의 죄를 범한 사람은 3년 이하의 징역 또는 2천만원 이하의 벌금에 처한다.",
+        "제247조(도박장소 등 개설) 영리의 목적으로 도박을 하는 장소나 공간을 개설한 사람은 5년 이하의 징역 또는 3천만원 이하의 벌금에 처한다.",
+        "부칙 <제22007호,2026.9.29> 이 법은 2026년 10월 2일부터 시행한다."
+      ],
+      "limitations": "법령 인용판 조문·부칙 대조이며 구체 판례·개별 온라인 운영 사실은 미조사."
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "chapter": 8,
+  "status": "completed_exact_partial_review_r27",
+  "manifest_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/author-partial-manifest-27.json",
+  "manifest_sha256": "04a8c1f3c4a6d2ab08076767ef4d3f7c2e6dcd12aa786dff91a38d087330115d",
+  "entries": [
+    {
+      "entry": 6,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-006-50f7/publication-entry-proposal-r2.md",
+      "proposal_sha256": "c549a82d069c990dced2c267ec69e6c1db21027a8fd7d096509974e0496933c3",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-006-50f7/publication-entry-changes-r2.json",
+      "changes_sha256": "3a0261bdab3c5d6c80df1ca8d9c586b47b8a25eede57a4ca8c1b4d80147fc545",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-006-50f7/strict-entry.md",
+      "base_strict_entry_sha256": "6c24370d7b966a9926d74eec7de35ac14fd94ac13198f5613d1bc75fac3052ae",
+      "literal_exit_code": 0,
+      "decision": "approve",
+      "all_four_complete_fields_read": true,
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "snapshot_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-006-50f7/entry_snapshot.md",
+      "snapshot_sha256": "6c24370d7b966a9926d74eec7de35ac14fd94ac13198f5613d1bc75fac3052ae",
+      "strict_candidate_contains_exact_base": true,
+      "length_check": {
+        "entry": 6,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-006-50f7/publication-entry-proposal-r2.md",
+        "title_chars": 28,
+        "easy_chars": 83,
+        "easy_sentences": 4,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "number": true,
+        "six_labels": true,
+        "tags": true,
+        "grade": true
+      },
+      "production_layout_check": true,
+      "initial_canonical_entry": {
+        "entry": 6,
+        "title": "### 6. 자수를 검토할 때 감형률과 시효 소문을 믿지 마세요",
+        "source_entry_snapshot_path": "_workspace/2026-10-18-006-50f7/entry_snapshot.md",
+        "source_entry_snapshot_sha256": "6c24370d7b966a9926d74eec7de35ac14fd94ac13198f5613d1bc75fac3052ae",
+        "source_review_status": "no_new_error_found",
+        "candidate_review_status": "pending_candidate_review",
+        "scope_and_findings": "형법52조 재량 감경/면제, 형사소송법253조 공소제기·회피목적 국외 체류 정지 일치. 국내 은신이 모든 사건 시효를 정지시킨다는 중국 규칙 제거 유지. 개별 범죄의 시효배제·특례가 있음을 침해하지 않는 범위입니다."
+      },
+      "finding_closure": "전필드승인.정확히1참조앵커한곳만최신제목의사고가나면멈추고로교정/다른bytes동일.실제1full구호·정차·신고예외조건및6자수시효와독립된사고직후의무참조범위대조.기존09법률승인재사용·새사실없음.",
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "revision_requests": [],
+      "proposed_root_operation": {
+        "type": "replace_complete_strict_entry_body",
+        "before_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-006-50f7/strict-entry.md",
+        "before_entire_entry_sha256": "6c24370d7b966a9926d74eec7de35ac14fd94ac13198f5613d1bc75fac3052ae",
+        "after_proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-006-50f7/publication-entry-proposal-r2.md",
+        "after_original_proposal_sha256": "c549a82d069c990dced2c267ec69e6c1db21027a8fd7d096509974e0496933c3",
+        "effective_after_sha256": "c549a82d069c990dced2c267ec69e6c1db21027a8fd7d096509974e0496933c3",
+        "effective_after_rule": "proposal.rstrip()+original strict entry trailing whitespace; preserve original separators",
+        "supersession": "Latest approved full replaces any initial field/older full once.",
+        "integration_authorized": false
+      },
+      "field_decisions": {
+        "title": "approve",
+        "비용": "approve",
+        "쉽게": "approve",
+        "이득": "approve",
+        "근거등급": "approve",
+        "출처": "approve",
+        "비고": "approve"
+      }
+    },
+    {
+      "entry": 31,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-031-ff82/publication-entry-proposal-r2.md",
+      "proposal_sha256": "b308958be756f10a522089b4dd8f7733d1105b6bb8c0ea40c85ca1814be5c08f",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-031-ff82/publication-entry-changes-r2.json",
+      "changes_sha256": "432ddba98f5c44165f787d30bb9303dd6cb0280471ca25b2e16443ddc55a9556",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-031-ff82/strict-entry.md",
+      "base_strict_entry_sha256": "915b3e2d8b4129a4a3888ef4694ee12dc7513b86ac70d4e449ff02b23936f7c3",
+      "literal_exit_code": 0,
+      "decision": "approve",
+      "all_four_complete_fields_read": true,
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "snapshot_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-031-ff82/entry_snapshot.md",
+      "snapshot_sha256": "915b3e2d8b4129a4a3888ef4694ee12dc7513b86ac70d4e449ff02b23936f7c3",
+      "strict_candidate_contains_exact_base": true,
+      "length_check": {
+        "entry": 31,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-031-ff82/publication-entry-proposal-r2.md",
+        "title_chars": 25,
+        "easy_chars": 85,
+        "easy_sentences": 3,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "number": true,
+        "six_labels": true,
+        "tags": true,
+        "grade": true
+      },
+      "production_layout_check": true,
+      "initial_canonical_entry": {
+        "entry": 31,
+        "title": "### 31. 의식을 잃은 상대와 성관계·추행을 하지 마세요",
+        "source_entry_snapshot_path": "_workspace/2026-10-18-031-ff82/entry_snapshot.md",
+        "source_entry_snapshot_sha256": "915b3e2d8b4129a4a3888ef4694ee12dc7513b86ac70d4e449ff02b23936f7c3",
+        "source_review_status": "no_new_error_found",
+        "candidate_review_status": "pending_candidate_review",
+        "scope_and_findings": "형법299조 심신상실/항거불능 이용,305조13세미만 및 행위자19세이상-상대13세이상16세미만 일치. 단순 음주 자동 성립을 피하고 동의 주장으로 연령규정 제거 불가 유지."
+      },
+      "finding_closure": "전필드승인.정확히32참조앵커사진협박→사진·비밀로협박받으면한곳교정/다른bytes동일.실제32성적촬영물·공갈/정당청구구별·일반공개권리침해삭제조건범위와정합.기존r12의내용범위대조를그대로유지하고그때앵커문자열일치로기록한부분은새전수검토로명시정정.새법률사실없음.",
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "revision_requests": [],
+      "proposed_root_operation": {
+        "type": "replace_complete_strict_entry_body",
+        "before_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-031-ff82/strict-entry.md",
+        "before_entire_entry_sha256": "915b3e2d8b4129a4a3888ef4694ee12dc7513b86ac70d4e449ff02b23936f7c3",
+        "after_proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-031-ff82/publication-entry-proposal-r2.md",
+        "after_original_proposal_sha256": "b308958be756f10a522089b4dd8f7733d1105b6bb8c0ea40c85ca1814be5c08f",
+        "effective_after_sha256": "b308958be756f10a522089b4dd8f7733d1105b6bb8c0ea40c85ca1814be5c08f",
+        "effective_after_rule": "proposal.rstrip()+original strict entry trailing whitespace; preserve original separators",
+        "supersession": "Latest approved full replaces any initial field/older full once.",
+        "integration_authorized": false
+      },
+      "field_decisions": {
+        "title": "approve",
+        "비용": "approve",
+        "쉽게": "approve",
+        "이득": "approve",
+        "근거등급": "approve",
+        "출처": "approve",
+        "비고": "approve"
+      }
+    }
+  ],
+  "approved_entries": [
+    6,
+    31
+  ],
+  "revise_entries": [],
+  "actual_primary_readings": [],
+  "prior_actual_reading_reuse": [
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/publication-partial-review-r3.json",
+      "sha256": "c63693e72cd2985eb0ad8c0cea309827e2fac10c7f8891d67560cdef6e86d85f",
+      "scope": "6원full09의법52/형소253/253의2및부칙실제독립승인재사용."
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/publication-followup-review-04-r12.json",
+      "sha256": "e427746ddb6288971965668a248400e6c1ba12d340559a7d907f5aa2e29dc35f",
+      "scope": "31형법299/305실제읽기재사용.31→32범위는유지하되사진협박의제목연속일치주장은이새r21에서정정."
+    }
+  ],
+  "cross_reference_review": [
+    {
+      "entries": [
+        6,
+        1,
+        31,
+        32
+      ],
+      "scope": "최신1/32full여섯필드직접재열람·제목연속앵커와사고직후의무/촬영물협박신고의주장·조건범위일치.새6/31의실제법률본문은원승인과동일."
+    }
+  ],
+  "production_helper_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/scripts/humanize_publication.py",
+  "production_helper_sha256": "244c194c7620c3095dc3a972eecdaa4e17fab8a0a301ae8b601cb8401569bfd3",
+  "helper_code_modified": false,
+  "fresh_http_performed": false,
+  "whole46_approval": false,
+  "integration_approval": false,
+  "formal_kr_fit_approval": false,
+  "preservation": "Prior reviews/frozen proposals/canonical/public/runs/gates/git unchanged.",
+  "reviewer_id": "/root/publication_review_04",
+  "six_complete_fields_read": true,
+  "exact_single_reference_replacements": [
+    {
+      "entry": 6,
+      "before": "제1항(사고가 나면 멈추세요)",
+      "after": "제1항(사고가 나면 멈추고)",
+      "all_other_bytes_unchanged": true
+    },
+    {
+      "entry": 31,
+      "before": "제32항(사진 협박)",
+      "after": "제32항(사진·비밀로 협박받으면)",
+      "all_other_bytes_unchanged": true
+    }
+  ]
+}

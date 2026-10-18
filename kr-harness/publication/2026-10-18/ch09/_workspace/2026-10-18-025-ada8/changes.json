@@ -1,0 +1,68 @@
+{
+  "status": "unadopted_proposal",
+  "chapter": 9,
+  "entry": 25,
+  "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-025-ada8/strict-entry.md",
+  "base_sha256": "e448c24e41042b79fe401917b84176e9ed610d495569cfd7c476f57b2e154594",
+  "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-025-ada8/publication-entry-proposal.md",
+  "proposal_sha256": "f67f047d0e9a6dab2e28ad532ebe1132d8c145a023074c27670cf5f82c5631db",
+  "review_status": "pending_independent_review",
+  "changes": [
+    {
+      "field": "이득",
+      "reason": "초기 content-audit 및 editorial-decisions의 제35조의5제1항 조건과 제2항 네 요소를 모두 명시. 제125조의 고의·과실 조건을 보존하여 무조건 배상으로 읽히지 않게 함."
+    },
+    {
+      "field": "비고",
+      "before": "한국 팬 창작물 판례는 TODO 확인 필요로 남겨 두었습니다.",
+      "after": "한국 팬 창작물 판례는 아직 확인하지 못했습니다.",
+      "reason": "판례 미확인 한계를 독자 본문에 보존."
+    },
+    {
+      "field": "비고",
+      "reason": "직접 열람한 법령 확인일 갱신."
+    }
+  ],
+  "source_review": {
+    "primary_url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=283335&type=XML",
+    "access_date": "2026-10-18",
+    "http_status": 200,
+    "live_sha256": "6a429f0550556154dcad808d032185e92b6ffdf3f40d791439b14129e1ee929d",
+    "checked_articles": [
+      "제22조",
+      "제35조의5제1항·제2항",
+      "제123조",
+      "제125조",
+      "부칙 법률 제21336호 제1조·제2조"
+    ],
+    "quotes": [
+      "저작물의 일반적인 이용 방법과 충돌하지 아니하고 저작자의 정당한 이익을 부당하게 해치지 아니하는 경우",
+      "고의 또는 과실로 권리를 침해한 자",
+      "제125조제4항 및 제5항의 개정규정은 이 법 시행 이후 침해행위가 발생한 경우부터 적용한다."
+    ],
+    "effective_date": "2026-08-11",
+    "scope": "부칙 시행·적용례를 확인했으며 본 항은 신설 배상배수 수치를 새로 주장하지 않음.",
+    "open_limit": "한국 팬 창작물 판례는 미확인. 구체 표현과 이용 방식에 따른 판단 및 무료·팬 활동 자동예외 부정 유지."
+  },
+  "reference_review": {
+    "destination": "제9절 제24항(자막·번역)",
+    "read_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-024-fbfe/strict-entry.md",
+    "result": "실제 제24항의 자막·번역·영상·전자책 무허락 배포 위험과 앵커가 일치."
+  },
+  "checks": {
+    "literal_check": {
+      "status": "pass",
+      "script": "kr-harness/publication/2026-10-18/ch05/publication-partial-review-evidence/literal_check.py",
+      "title_chars": 37,
+      "easy_chars": 55,
+      "easy_sentences": 2,
+      "long_sentences": []
+    },
+    "full_layout": {
+      "status": "pass",
+      "script": "/workspace/.cache/howtolivebetter/publication/check-full-layout.py",
+      "checked": 1,
+      "failures": []
+    }
+  }
+}

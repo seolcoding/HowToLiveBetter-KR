@@ -1,0 +1,142 @@
+{
+  "review_id": "publication-review-09-partial-11",
+  "status": "partial_approved_not_chapter_approval",
+  "reviewed_at_utc": "2026-10-18T20:49:11.642959+00:00",
+  "manifest_path": "kr-harness/publication/2026-10-18/ch09/author-partial-manifest-11.json",
+  "manifest_sha256": "3cda00f747bef82cfbdbedd11180df26137e5869c797c81c32fa849f313dd701",
+  "whole_baseline_guards": {
+    "source": {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/source.md",
+      "sha256": "944ab983bf1467dd3e475b1798c9284c2df0ab927bfc75657ac87d928c95a4c4"
+    },
+    "publication_manifest": {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/manifest.json",
+      "sha256": "ec029de45d75a5de63fd7c7ec3c4419bcc92fc3e5dd53af1a1c6a48ec347e467"
+    },
+    "current_public": {
+      "path": "/workspace/HowToLiveBetter-KR/book-kr/09-흔한-법적-레드라인.md",
+      "sha256": "944ab983bf1467dd3e475b1798c9284c2df0ab927bfc75657ac87d928c95a4c4"
+    },
+    "pure_candidate": {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/candidate.md",
+      "sha256": "944ab983bf1467dd3e475b1798c9284c2df0ab927bfc75657ac87d928c95a4c4"
+    }
+  },
+  "entries": [
+    {
+      "entry": 16,
+      "decision": "approve",
+      "proposal_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-016-ba1e/publication-entry-proposal-r3.md",
+      "proposal_sha256": "d7cd5cd169d0662a3883c3ab6899cf282d26d4e57bdb84cb6ba2f87ddd03c4ff",
+      "changes_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-016-ba1e/changes-r3.json",
+      "changes_sha256": "64457ab48412ddd8b90278207658977621d86bf3d07eed6e896386780ae16ced",
+      "strict_base_sha256": "0720c705eb0670485fcf33e479567ec29d9e6e7043b747955c9126c87cbd7d99",
+      "superseded_proposal": {
+        "path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-016-ba1e/publication-entry-proposal-r2.md",
+        "sha256": "aac13641368ec49ff13287021dfe8ecc8f8a86adcdfc10b947e1785c67cbeaa8"
+      },
+      "prior_source_review": {
+        "path": "kr-harness/publication/2026-10-18/ch09/publication-review-09-partial-8.json",
+        "sha256": "9d1b5f57ec5128fd6db9c959a10ae554499cca6d86db825c7216fcfb98019d76"
+      },
+      "field_decisions": {
+        "title": "approve",
+        "비용": "approve",
+        "쉽게": "approve",
+        "이득": "approve",
+        "근거등급": "approve",
+        "출처": "approve",
+        "비고": "approve"
+      },
+      "exact_before": "기존 현행검색 캐시의 법률 현행판(268555)을 확인했습니다.",
+      "exact_after": "인용한 「주민등록법」이 현행 법률임을 확인했습니다.",
+      "reason": "MST/캐시디버그정보만독자용현행확인문장으로바꿨다. 친족제한·법률시행/시행령미래구별은불변.",
+      "checks": {
+        "one_exact_span_only": true,
+        "other_five_fields_title_tag_grade_DOI_unchanged": true,
+        "literal50_easy120_2to4_title70": true,
+        "six_single_line_production_layout": true
+      }
+    },
+    {
+      "entry": 24,
+      "decision": "approve",
+      "proposal_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-024-fbfe/publication-entry-proposal-r2.md",
+      "proposal_sha256": "4125fa9049de24b59ab90d726d18bf09bc818f1a3f327f47e3882746d58966ed",
+      "changes_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-024-fbfe/changes-r2.json",
+      "changes_sha256": "e35aff3e9560917119cd633da477cf432bec71fd1d1f0720783984dfa8ed688d",
+      "strict_base_sha256": "9ea33bf3a83c1e3ed1d85196378c4c754b44f810ce8c4252af8f3697a13cbd31",
+      "superseded_proposal": {
+        "path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-024-fbfe/publication-entry-proposal.md",
+        "sha256": "91d916846df3fd2651a48a2e3a2f7bcf28af6914d85ab7cb7567ffc0aa2206af"
+      },
+      "prior_source_review": {
+        "path": "kr-harness/publication/2026-10-18/ch09/publication-review-09-partial-8.json",
+        "sha256": "9d1b5f57ec5128fd6db9c959a10ae554499cca6d86db825c7216fcfb98019d76"
+      },
+      "field_decisions": {
+        "title": "approve",
+        "비용": "approve",
+        "쉽게": "approve",
+        "이득": "approve",
+        "근거등급": "approve",
+        "출처": "approve",
+        "비고": "approve"
+      },
+      "exact_before": "원문의 영리 목적 필수 요건은 적용하지 않았습니다. 다운로드 수 처벌 기준도 적용하지 않았습니다. ",
+      "exact_after": "",
+      "reason": "지정번역작업메모만삭제했다. 무료자동공정이용불가·이름변경자동면책불가·저작권조건·소송비용·미확인판례·참조유보는그대로유지한다.",
+      "checks": {
+        "one_exact_span_only": true,
+        "other_five_fields_title_tag_grade_DOI_unchanged": true,
+        "literal50_easy120_2to4_title70": true,
+        "six_single_line_production_layout": true
+      }
+    },
+    {
+      "entry": 25,
+      "decision": "approve",
+      "proposal_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-025-ada8/publication-entry-proposal-r2.md",
+      "proposal_sha256": "fbf94a263f9cc9807210045f8699f133409a2f23b37200038fcdf4aaaa237f22",
+      "changes_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-025-ada8/changes-r2.json",
+      "changes_sha256": "a93ea9c1d3c845ceac0a2d192ccf6431abd1c254fd39a397881ca99c927bd7ce",
+      "strict_base_sha256": "e448c24e41042b79fe401917b84176e9ed610d495569cfd7c476f57b2e154594",
+      "superseded_proposal": {
+        "path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-025-ada8/publication-entry-proposal.md",
+        "sha256": "f67f047d0e9a6dab2e28ad532ebe1132d8c145a023074c27670cf5f82c5631db"
+      },
+      "prior_source_review": {
+        "path": "kr-harness/publication/2026-10-18/ch09/publication-review-09-partial-9.json",
+        "sha256": "515de3a38f77212a2eaa7301e9080c7ad095417156cdd11dca079a40ae561d16"
+      },
+      "field_decisions": {
+        "title": "approve",
+        "비용": "approve",
+        "쉽게": "approve",
+        "이득": "approve",
+        "근거등급": "approve",
+        "출처": "approve",
+        "비고": "approve"
+      },
+      "exact_before": "원문의 외국 소설 소송 대신 한국 법률 조건을 썼습니다. 인물 이름만 바꾸면 해결된다는 조언은 유지하지 않았습니다. ",
+      "exact_after": "",
+      "reason": "지정번역작업메모만삭제했다. 무료자동공정이용불가·이름변경자동면책불가·저작권조건·소송비용·미확인판례·참조유보는그대로유지한다.",
+      "checks": {
+        "one_exact_span_only": true,
+        "other_five_fields_title_tag_grade_DOI_unchanged": true,
+        "literal50_easy120_2to4_title70": true,
+        "six_single_line_production_layout": true
+      }
+    }
+  ],
+  "approved_count": 3,
+  "revise_count": 0,
+  "new_HTTP_requests": [],
+  "source_scope": "이묶음은기존partial8/9실제원자료검증에결속한비고최소수정이다. 새로운사실·숫자추가/새HTTP없음. 같은원저자의정확제안/변경파일을검토했다.",
+  "chapter_final_approval": false,
+  "formal_approval": false,
+  "publication_approval": false,
+  "public_written": false,
+  "remaining": "제11항現行검색새성공에따른유보최소갱신과지역r3,최신26map·참조현재해시·초기전finding/warn supersession검토후전체closure가능.",
+  "protected_scope": "새고유보고서쌍만작성.기존기록·제안·본문·candidate·Git불변."
+}

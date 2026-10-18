@@ -1,0 +1,46 @@
+{
+  "status": "unadopted_proposal",
+  "semantic_review": "pending",
+  "entry": 12,
+  "proposal_sha256": "ac4f14d47784e6b07f4d892b88e728c8515c027e5d30e9c4978233d988eeea9a",
+  "entries": [
+    {
+      "entry": 12,
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-012-309b/strict-entry.md",
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-012-309b/publication-entry-proposal.md"
+    }
+  ],
+  "findings_closed": [
+    "제14조제3항의 영리 목적·의사 반함·정보통신망 조건 명시",
+    "객실 장치 설치 자체에 촬영죄 형량을 적용하지 않음",
+    "미대조 통신 도청·일반 영상정보 장치 규칙을 미확인으로 독자에게 표시",
+    "민법 제750조 고의·과실·위법행위·손해 요건과 제751조 재산 외 손해 보강"
+  ],
+  "scope": "성폭력처벌법 제14조제1~3항, 민법 제750·751조 및 각 인용판 부칙을 캐시 XML에서 직접 읽음. 통신 도청·일반 영상정보 장치 규칙은 미조사로 유지. 접근 실패가 아님. 현행 버전 독립 HTTPS 검색은 이번 작업에서 하지 않음.",
+  "primary_evidence": [
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/289993.xml",
+      "sha256": "59d81472328677059564df800389cc6e54e12e4788061dd146f949df56af60c4",
+      "read": "조문 및 최신 부칙 직접 열람",
+      "quote": "촬영대상자의 의사에 반하여"
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/284415.xml",
+      "sha256": "cd2997176df62de7b1e4bb018287987654f6054cbd0eeced9e882d5c4daf53df",
+      "read": "조문 및 최신 부칙 직접 열람",
+      "quote": "고의 또는 과실로 인한 위법행위로 타인에게 손해를 가한 자"
+    }
+  ],
+  "references": {
+    "latest_public_file": "book-kr/09-흔한-법적-레드라인.md",
+    "incoming_scan": "book-kr 전체에서 제9절 제12항 및 제12항 촬영/몰래 앵커 검색 결과 없음. 본 항 내 다른 절·항 참조 없음."
+  },
+  "checks": {
+    "literal_check.py": "pass: title 33, easy 65 / 2 sentences, prose >50 chars 0",
+    "check-full-layout.py": "pass: checked 1, failures 0"
+  },
+  "supplementary_provisions": {
+    "289993": "부칙 제21997호: 2026-10-02 시행, 적용례는 제26조의2에 관한 규정. 제14조 형량에 대한 별도 적용례 아님.",
+    "284415": "부칙 제21454호: 공포일 2026-03-17 시행. 상속권 상실·유류분 적용례로 제750·751조와 구별."
+  }
+}

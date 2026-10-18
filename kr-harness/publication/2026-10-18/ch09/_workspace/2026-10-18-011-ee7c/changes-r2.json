@@ -1,0 +1,35 @@
+{
+  "status": "unadopted_proposal",
+  "entry": 11,
+  "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-011-ee7c/strict-entry.md",
+  "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-011-ee7c/publication-entry-proposal-r2.md",
+  "r1_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-011-ee7c/publication-entry-proposal.md",
+  "r1_sha256": "f70bb9ba23b5042f09d9c55d157692b677cb206c1c98bc4b4596b67976219985",
+  "proposal_sha256": "f00b7cd6ca04d8fd74234e5c903b5e32a084fb67d65b70d9fcef34441501130c",
+  "changes": [
+    {
+      "field": "비고",
+      "before": "기준일 현행판인지는 독립적으로 확인하지 못했습니다.",
+      "after": "2026-10-18 기준 시행 중인 법령임을 추가로 확인했습니다.",
+      "reason": "국가법령정보센터 현행검색 원문에서 인용 법률·시행령·시행규칙이 기준일 현행임을 확인했습니다."
+    }
+  ],
+  "evidence": {
+    "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch09-full-review-regions/current-0.xml",
+    "sha256": "a151e32f444d072b6988fd3829a1bdd7290b3cfaee08d2ee87e3254e72746ca5",
+    "index_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch09-full-review-regions/index.json",
+    "read_mode": "independent_reviewer_new_HTTPS200_cache_direct_read",
+    "current": {
+      "law": "286927/20260917",
+      "decree": "287495/20260709",
+      "rules": "287951/20260701"
+    },
+    "future_excluded": "285967/20261113"
+  },
+  "unchanged_scope": "지정 비고 한 문장 외 모든 bytes 유지. 개별 공역 지정·벌칙·교육·자격 미확인 유지.",
+  "review_status": "pending_independent_review",
+  "validation": {
+    "literal_check.py": "pass; title=41 easy=66/2 sentences; no sentence >50",
+    "check-full-layout.py": "pass; checked=1 failures=[]"
+  }
+}

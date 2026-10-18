@@ -1,0 +1,73 @@
+{
+  "chapter": 9,
+  "entry": 24,
+  "status": "proposal_only",
+  "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-024-fbfe/strict-entry.md",
+  "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-024-fbfe/publication-entry-proposal.md",
+  "base_sha256": "9ea33bf3a83c1e3ed1d85196378c4c754b44f810ce8c4252af8f3697a13cbd31",
+  "proposal_sha256": "91d916846df3fd2651a48a2e3a2f7bcf28af6914d85ab7cb7567ffc0aa2206af",
+  "audit_closure": {
+    "reviewed": [
+      "content-audit.md 제24항 및 공통 비용·현행판 주의",
+      "editorial-decisions.json entry24",
+      "book-kr/09-흔한-법적-레드라인.md 제25항",
+      "book-kr/26-웹사이트-만들기.md 도입 및 실제 참조 목적지"
+    ],
+    "findings": [
+      "제30조 사적복제 및 제35조의5 공정이용 권리제한을 독자본문에 명시",
+      "고의 인정·5배 상한·재량·2026-08-11 이후 발생 적용 보존",
+      "7년/1억원 및 병과·정지 청구 보존",
+      "민사 소송 시간·변호사 비용 보존"
+    ],
+    "unverified_limitations": []
+  },
+  "primary_source": {
+    "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=283335&type=XML",
+    "http_status": 200,
+    "sha256": "6a429f0550556154dcad808d032185e92b6ffdf3f40d791439b14129e1ee929d",
+    "direct_read_articles": [
+      "16",
+      "18",
+      "22",
+      "30",
+      "35조의5",
+      "123",
+      "125",
+      "136"
+    ],
+    "addenda": "법률 제21336호 제1조·제2조 직접 확인",
+    "version": "2026-08-11 현행판; 2026-10-29 시행예정판 배제"
+  },
+  "changes": [
+    {
+      "field": "비용",
+      "reason": "법률상 이용 예외 유보 추가"
+    },
+    {
+      "field": "이득",
+      "reason": "5배 상한·법원 재량 보존하며 문장 단축"
+    },
+    {
+      "field": "출처",
+      "reason": "직접 확인한 공정이용 제35조의5 추가"
+    },
+    {
+      "field": "비고",
+      "reason": "공정이용 조건 명시 및 inherited 장문 분리"
+    }
+  ],
+  "checks": {
+    "literal_check.py": {
+      "pass": true,
+      "title_chars": 43,
+      "easy_chars": 50,
+      "easy_sentences": 2,
+      "long_sentences": []
+    },
+    "/workspace/.cache/howtolivebetter/publication/check-full-layout.py": {
+      "checked": 1,
+      "failures": []
+    },
+    "fields": "6 fields, each one physical line"
+  }
+}

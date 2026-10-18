@@ -1,0 +1,60 @@
+{
+  "entries": [
+    {
+      "entry": 19,
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-019-f3d9/strict-entry.md",
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-019-f3d9/publication-entry-proposal.md",
+      "base_sha256": "6746616f7ff0f21ba6f7bbf12bdc6f40f692fc72df4e2967b638405f3b90ba4a",
+      "proposal_sha256": "1c6af8b33281e0c26430a7c71c33e9445ad8f339b4a212d5c8df3a1754b12888"
+    }
+  ],
+  "status": "proposal_only",
+  "reviewed_inputs": [
+    "content-audit.md 제19항 및 시행일·원문 범위와 후속 결정",
+    "editorial-decisions.json entry19 모든 필드 pending_candidate_review",
+    "/workspace/HowToLiveBetter-KR/book-kr/08-법적-말썽에-휘말리지-않기.md 제10·11항 실제 본문"
+  ],
+  "changes": [
+    {
+      "field": "이득",
+      "reason": "선택형을 명시하고 민법750의 고의·과실·위법행위 요건 및 형사벌금과 배상의 분리를 보강"
+    },
+    {
+      "field": "비고",
+      "reason": "반의사불벌의 의미와 상해죄 합의효과 차이 명시. 확인일 갱신"
+    },
+    {
+      "field": "출처",
+      "reason": "직접 열람한 한국어 현행 법령 XML 링크로 통일"
+    }
+  ],
+  "source_checks": [
+    {
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290185.xml",
+      "sha256": "391f3c2bb7173fff4040eda9ae2259674b616e58aeadf4371206b63c70f1c89b",
+      "mode": "existing_primary_xml_direct_read",
+      "articles": [
+        "21",
+        "257",
+        "260"
+      ],
+      "addenda": "형법22007:2026-10-02 시행 / 민법21454:공포일2026-03-17 시행. 대상 조문에 별도 경과규정 없음"
+    },
+    {
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/284415.xml",
+      "sha256": "cd2997176df62de7b1e4bb018287987654f6054cbd0eeced9e882d5c4daf53df",
+      "mode": "existing_primary_xml_direct_read",
+      "articles": [
+        "750",
+        "751"
+      ],
+      "addenda": "형법22007:2026-10-02 시행 / 민법21454:공포일2026-03-17 시행. 대상 조문에 별도 경과규정 없음"
+    }
+  ],
+  "limitations": "개별 사건의 정당방위·손해액·소송비용은 확정하지 않음. 독자본문의 사건별 범위·비용 유보 유지. 실제 인용판례 없음.",
+  "validation": {
+    "literal_check.py": "pass: title27/easy52/2sentences/long0",
+    "check-full-layout.py": "pass: checked1/failures0",
+    "fields": "6 single physical lines"
+  }
+}

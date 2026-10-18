@@ -11026,19 +11026,19 @@
   ],
   "active_jobs": [
     {
-      "worker_id": "/root/humanize_a/ch09e04",
-      "chapter": "09",
-      "number": 4,
-      "task": "source full closure"
+      "worker_id": "/root/humanize_a/ch10e09",
+      "chapter": "10",
+      "number": 9,
+      "task": "sameauthor source full closure"
     },
     {
-      "worker_id": "/root/humanize_a/ch09e05",
-      "chapter": "09",
-      "number": 5,
-      "task": "source full closure"
+      "worker_id": "/root/humanize_a/ch10e10",
+      "chapter": "10",
+      "number": 10,
+      "task": "sameauthor source full closure"
     }
   ],
-  "max_workers": 2,
+  "max_workers": 3,
   "priority_pending": [
     "06 tail6 exactapproved rootcopy/currenthash re-review pending",
     "08 latest46fullmapr1+地域r1 frozen;04review/canonical pending",
@@ -11535,7 +11535,19 @@
     ],
     "canonical": "ch02/editorial-decisions.json"
   },
-  "chapter08_status": "strict46/46candidateassembled;triggerededitorial0;ROOT/reviewer08notifiedinitialcandidateready",
+  "chapter08_status": {
+    "source_full_authored": 46,
+    "latest_manifest": "ch08/author-final-manifest-r3.json",
+    "latest_manifest_sha256": "53ac41f23445baa3b10219da42ad8dc1aa4ae7a6effb0a93185b9d85b23cab70",
+    "region_binding": "ch08/publication-intro-tail-proposal-r3.json",
+    "canonical_independent_review_in_progress": false,
+    "public_unchanged": true,
+    "canonical_source_approved_for_integration": true,
+    "expected_final_sha256": "4fc96aa8e9350e4f23a1718c38c7f20dd2ab8e8666380c4fec48c7b243b7c9b3",
+    "ROOT_actual_formal_pass_promoted": true,
+    "current_public_sha256": "e277adc64ec9b1db9eafd4cb23c95cdabef3daff6d41a1b38801808194e798cd",
+    "ordinary_assemble_integrate_prohibited": true
+  },
   "chapter05_editorial_revise": [
     6,
     9,
@@ -11553,9 +11565,83 @@
     44,
     45
   ],
-  "chapter09_status": "strict26/26+9editorialreadyfrozenmanifest ROOTnotified initialfieldreviewready;sourcefactsstillpending",
+  "chapter09_status": {
+    "pure_gate0": 26,
+    "source_full_authored": 26,
+    "independent_approved_entries": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26
+    ],
+    "partial3_entries": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "partial3_manifest_sha256": "c7c15ae6df97820d9bbd87fedccdfce39e1a1856ffeb26e75f4e262f06b808cf",
+    "publication_approved": false,
+    "partial4_entries": [
+      11,
+      12,
+      13,
+      14
+    ],
+    "partial4_manifest_sha256": "546db62b416e184cb9599f41cdba09cb91e30fe7109a900cfe1d6f774a58dd9a",
+    "partial5_entries": [
+      15,
+      16,
+      17,
+      18
+    ],
+    "partial5_manifest_sha256": "10a4d1ed5d1ed02c83de62bcdb3ea8de09d788ca729c75421d695b988ab4a772",
+    "partial6_entry14r2_manifest_sha256": "c6a267649ae8a2e187ab48cc46f059131558a78632532c8c4f36dc8e3069f7c3",
+    "partial7_manifest_sha256": "de2aeadb8bc195e2b48de6fbd78ad83e96bbc489b04227c27926cc2a8637cebc",
+    "priority_sameauthor_r2": [
+      24
+    ],
+    "partial8_manifest_sha256": "ba4a31890b1c693e479f9ef15f5b19687de9739e84aa29eb89f31148faacc761",
+    "author_final_manifest_r1_sha256": "51c52ce2a9dd64219538016acf6e9faa80d9538bb835bcbd82150d3f970c23b4",
+    "author_final_manifest_r2_sha256": "1d15112fe2b9dfaac521ada86da0c26100d3a328180cc104ac0e4a2b0e61bf87",
+    "pending_exact_followups": [],
+    "author_final_manifest_r3_sha256": "d4274aabe3ab4cb0ada524598eb28b26917371aa13b2c0c887809d05eb995b7f",
+    "author_final_manifest_r4_sha256": "b20471d2fd27855eff311d431a52bcd3c6f3e17d6cac6b857cca30642fbc5991",
+    "region_r3_sha256": "ccf32dc619ab4e023257b7745d587666c5cb5c93fcde0661ce6a0e0adf617e23",
+    "canonical_closure_in_progress": true
+  },
   "next_max_workers": 3,
-  "chapter10_status": "strict20/20assembled finalizer10e19actualC11correctedgate0;editorialbacklognotreviewready",
+  "chapter10_status": {
+    "source_full_authored": 8,
+    "partial1_manifest_sha256": "b24d61ab3f84218934c9f245dbc47313ba7a98e295758629d9298b9d804e0a65",
+    "independent_review_in_progress": true,
+    "publication_approved": false,
+    "partial2_manifest_sha256": "8e67233cb5554b994cedcb5ef16807e34b0267e3e282ab6b7c4ecebc3cf21a0f",
+    "partial3_manifest_sha256": "eb8f4b70a6746b98fef52a9998706b4f39edfd224855a0edb9b6edf4d98efe26"
+  },
   "chapter14_audit_pending": {
     "status": "initialsourceauditcompletependingcandidate",
     "canonical": "ch14/content-audit.md",
@@ -11844,5 +11930,14 @@
     "fixed_standard_count": 23,
     "all_final_files_frozen_for_ROOT_readonly_regate": true,
     "chapter34_strict_assembled": true
+  },
+  "chapter01_intro_style_pending": {
+    "base_whole_sha256": "fa0cb68d45ee5db23d20629e549361db433c226a00701e3bc899cf9a23cb96c4",
+    "exact_sentences": [
+      "이득 칸의 숫자는 무작위로 나눈 시험, 많은 사람을 오래 따라간 연구, 공식 통계에서 왔습니다.",
+      "비용 칸은 지은이가 시중 가격으로 어림한 값이라, 서로 비교하는 데만 쓰고 인용하지 마세요."
+    ],
+    "status": "frozen_exact2_proposal_waiting_ROOT_independent_approval",
+    "proposal_sha256": "5908bcd8c79bf87d1c12c6955fd118801933dd59b4ef59d6bda214bea38154f6"
   }
 }

@@ -1,0 +1,202 @@
+{
+  "review_id": "publication-review-09-partial-1",
+  "status": "partial_approved_not_chapter_approval",
+  "reviewer": "publication_review_09",
+  "reviewed_at_utc": "2026-10-18T20:17:21.124247+00:00",
+  "manifest_path": "kr-harness/publication/2026-10-18/ch09/author-partial-manifest-1.json",
+  "manifest_sha256": "e81129a30705ac2d24466f7e685e536ec2acb0dbb7ac5b5c1212a285c178ad8b",
+  "whole_baseline_guards": [
+    {
+      "name": "source",
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/source.md",
+      "sha256": "944ab983bf1467dd3e475b1798c9284c2df0ab927bfc75657ac87d928c95a4c4"
+    },
+    {
+      "name": "publication_manifest",
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/manifest.json",
+      "sha256": "ec029de45d75a5de63fd7c7ec3c4419bcc92fc3e5dd53af1a1c6a48ec347e467"
+    },
+    {
+      "name": "current_public",
+      "path": "/workspace/HowToLiveBetter-KR/book-kr/09-흔한-법적-레드라인.md",
+      "sha256": "944ab983bf1467dd3e475b1798c9284c2df0ab927bfc75657ac87d928c95a4c4"
+    },
+    {
+      "name": "pure_candidate",
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch09/candidate.md",
+      "sha256": "944ab983bf1467dd3e475b1798c9284c2df0ab927bfc75657ac87d928c95a4c4"
+    }
+  ],
+  "entries": [
+    {
+      "entry": 1,
+      "decision": "approve",
+      "proposal_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-001-14ff/publication-entry-proposal.md",
+      "proposal_sha256": "7a2bde32a619c5df7b24705122383668ac7d03f57232f6fc6bd2a9c055f51bac",
+      "changes_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-001-14ff/publication-entry-changes.json",
+      "changes_sha256": "9b5231e2d103d4245a49f54595f1cd3512784407f5db83f7efebcb26b481adb1",
+      "strict_base_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-001-14ff/strict-entry.md",
+      "strict_base_sha256": "f12870218d8b0df6cf252431791036fd3364dbcb898553c4c2839990a516ff0c",
+      "current_public_entry_sha256": "f12870218d8b0df6cf252431791036fd3364dbcb898553c4c2839990a516ff0c",
+      "effective_after_entry_sha256": "7a2bde32a619c5df7b24705122383668ac7d03f57232f6fc6bd2a9c055f51bac",
+      "field_decisions": {
+        "title": "approve",
+        "비용": "approve",
+        "쉽게": "approve",
+        "이득": "approve",
+        "근거등급": "approve",
+        "출처": "approve",
+        "비고": "approve"
+      },
+      "reason": "거짓 신고의 상대방(공무원)과 없는 범죄·재해 사실, 업무방해의 허위 사실 유포/위계·위력, 무고의 형사·징계처분 목적 및 공무소·공무원 상대 신고를 실제 법문으로 확인했다. 사진/AI 사용 자체를 독립 범죄로 단정하지 않고 행위·내용별 판단을 유지한다.",
+      "initial_findings_closure": "제1항 기존 verified_scope 구성요건을 보강해 유지",
+      "title_tag_grade_preserved": true,
+      "source_URLs_preserved": true,
+      "DOI_changes": [],
+      "length_check": {
+        "title_chars": 43,
+        "easy_chars": 55,
+        "easy_sentences": 2,
+        "ordinary_literal50_parentheses_included": true
+      },
+      "structure_check": "정확 여섯 필드·각 단일행·원래 순서·8개 물리행·제목/tag 불변",
+      "reference_check": {
+        "outgoing_book_refs": [],
+        "incoming": "현재9/3→9/1(재난 소식)과 대응하며 제목/행위 범위 유지"
+      },
+      "limits": "개별 사건의 구성요건 해당성·판례를 새로 검증한 것은 아니다. 근거없는 면책·결과 보장이나 고정 절차기간을 추가하지 않았다."
+    },
+    {
+      "entry": 2,
+      "decision": "approve",
+      "proposal_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-002-c44a/publication-entry-proposal.md",
+      "proposal_sha256": "73a80ca95535bcc8e23e735a8c0d659898e7b851c2b407c3bbd576f911d2def8",
+      "changes_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-002-c44a/publication-entry-changes.json",
+      "changes_sha256": "5dc1eb53d674812aea933b936756a2ef82b834a13a9f6cb1de5ca45b6d7c3a54",
+      "strict_base_path": "kr-harness/publication/2026-10-18/ch09/_workspace/2026-10-18-002-c44a/strict-entry.md",
+      "strict_base_sha256": "3719ad990be0a4b06e20fd86bc8479abc0f88c543a28778473d11fd396501c6f",
+      "current_public_entry_sha256": "3719ad990be0a4b06e20fd86bc8479abc0f88c543a28778473d11fd396501c6f",
+      "effective_after_entry_sha256": "73a80ca95535bcc8e23e735a8c0d659898e7b851c2b407c3bbd576f911d2def8",
+      "field_decisions": {
+        "title": "approve",
+        "비용": "approve",
+        "쉽게": "approve",
+        "이득": "approve",
+        "근거등급": "approve",
+        "출처": "approve",
+        "비고": "approve"
+      },
+      "reason": "공연히 허위 사실을 적시한 사자 명예훼손과 고소 필요를 구별했고, 국기 모독은 대한민국 모욕 목적과 손상·제거·오욕에 한정했다. 징역/금고·자격정지·벌금은 선택형으로 명확히 적었다. 고소 요건 초기 warn을 해소하고 중국 영웅 특별보호를 이식하지 않는다.",
+      "initial_findings_closure": "제2항 제312조① 고소 요건 보강 권장 해소",
+      "title_tag_grade_preserved": true,
+      "source_URLs_preserved": true,
+      "DOI_changes": [],
+      "length_check": {
+        "title_chars": 38,
+        "easy_chars": 63,
+        "easy_sentences": 2,
+        "ordinary_literal50_parentheses_included": true
+      },
+      "structure_check": "정확 여섯 필드·각 단일행·원래 순서·8개 물리행·제목/tag 불변",
+      "reference_check": {
+        "outgoing_book_refs": [],
+        "incoming": "번호·제목 유지, 실제 book-kr 명시적 9/2 참조 없음"
+      },
+      "limits": "개별 사건의 구성요건 해당성·판례를 새로 검증한 것은 아니다. 근거없는 면책·결과 보장이나 고정 절차기간을 추가하지 않았다."
+    }
+  ],
+  "approved_count": 2,
+  "revise_count": 0,
+  "chapter_final_approval": false,
+  "formal_kr_fit": false,
+  "publication_approval": false,
+  "actual_source_reads": [
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290135&type=XML",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290135.xml",
+      "sha256": "afeade8846b7d5b65a2a2da45d7c2a5709df794d44cbc95fdbba6e737b71a0e1",
+      "read_at_utc": "2026-10-18T20:17:21.124247+00:00",
+      "mode": "existing_cache_read_not_new_HTTP",
+      "original_http_status": 200,
+      "actual_scope": "기본정보·지정 조문 전체 및 최신 부칙 시행일; 저장 XML 본문 직접 열람",
+      "articles": [
+        3
+      ],
+      "short_quotes": {
+        "3③2": "있지 아니한 범죄나 재해 사실을 공무원에게 거짓으로 신고한 사람"
+      },
+      "supplementary_provision": "20260929\n22014\n부칙 <제22014호,2026.9.29>\n\n\n이 법은 2026년 10월 2일부터 시행한다.",
+      "effective_date": "20261002"
+    },
+    {
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch09-audit/current-290135.xml",
+      "sha256": "7739e52c21bf542f526485d58dad99e6ae300a114ba636f55e97902f62287beb",
+      "read_at_utc": "2026-10-18T20:17:21.124247+00:00",
+      "mode": "existing_cache_read_search_not_substantive_law",
+      "matches": [
+        {
+          "법령명한글": "경범죄 처벌법",
+          "법령일련번호": "290135",
+          "시행일자": "20261002",
+          "현행연혁코드": "현행"
+        }
+      ],
+      "limitation": "현재판 검색은 조문 본문 대조와 별개; 과거 요청의 결과를 재열람한 것으로 신규 검색이 아님"
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290185&type=XML",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290185.xml",
+      "sha256": "391f3c2bb7173fff4040eda9ae2259674b616e58aeadf4371206b63c70f1c89b",
+      "read_at_utc": "2026-10-18T20:17:21.124247+00:00",
+      "mode": "existing_cache_read_not_new_HTTP",
+      "original_http_status": 200,
+      "actual_scope": "기본정보·지정 조문 전체 및 최신 부칙 시행일; 저장 XML 본문 직접 열람",
+      "articles": [
+        13,
+        105,
+        156,
+        308,
+        312,
+        313,
+        314
+      ],
+      "short_quotes": {
+        "13": "죄의 성립요소인 사실을 인식하지 못한 행위는 벌하지 아니한다",
+        "105": "대한민국을 모욕할 목적으로",
+        "156": "형사처분 또는 징계처분을 받게 할 목적으로 공무소 또는 공무원에 대하여",
+        "308": "공연히 허위의 사실을 적시하여 사자의 명예를 훼손한 자",
+        "312①": "고소가 있어야 공소를 제기할 수 있다",
+        "314①": "제313조의 방법 또는 위력으로써 사람의 업무를 방해한 자"
+      },
+      "supplementary_provision": "20260929\n22007\n부칙 <제22007호,2026.9.29>\n\n\n이 법은 2026년 10월 2일부터 시행한다.",
+      "effective_date": "20261002"
+    },
+    {
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch09-audit/current-290185.xml",
+      "sha256": "20d931ae62b218c093521913e128bbab7685bd7e13b4b5c1fe4d346b18274bed",
+      "read_at_utc": "2026-10-18T20:17:21.124247+00:00",
+      "mode": "existing_cache_read_search_not_substantive_law",
+      "matches": [
+        {
+          "법령명한글": "형법",
+          "법령일련번호": "290185",
+          "시행일자": "20261002",
+          "현행연혁코드": "현행"
+        }
+      ],
+      "limitation": "현재판 검색은 조문 본문 대조와 별개; 과거 요청의 결과를 재열람한 것으로 신규 검색이 아님"
+    }
+  ],
+  "new_HTTP_requests": [],
+  "source_read_limits": "실제 기존 primary XML 조문·부칙 및 현행 검색을 재열람했다. 새 HTTP로 주장하지 않는다. CN09#1/#2와 source/strict/current 내용 대조; 개별 판례는 인용하지 않으며 미조사 상태다.",
+  "protected_scope": "이 보고서 쌍만 신규 작성; 기존 감사·제안·순수 실행·candidate·public·canonical·Git 변경 없음",
+  "integration_check": {
+    "rule": "after.rstrip()+original entry separator; memory only",
+    "entry_count": 26,
+    "other_entry_bytes_unchanged": true,
+    "intro_tail_unchanged": true,
+    "expected_two_entry_intermediate_whole_sha256": "54d759e9cde363e897ed1502ee6d8e62e5d7c453796c94560dbc5e0aa2247b3f",
+    "not_final_chapter_result": true
+  },
+  "remaining": "다음 항목 및 intro/tail의 모든 초기 warning과 최신 참조 의미는 후속 고정 묶음에서 별도 심사한다."
+}

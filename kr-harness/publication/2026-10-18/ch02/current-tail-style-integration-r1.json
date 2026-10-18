@@ -1,0 +1,39 @@
+{
+  "status": "exact_approved_tail_sentence_splits_applied_pending_new_current_hash_formal",
+  "at_utc": "2026-10-18T20:29:44.770606+00:00",
+  "chapter": 2,
+  "before_raw_sha256": "773251e22e2964d827ea1ca997dc73810887e42bd3297a6fd352837528c79f8c",
+  "after_raw_sha256": "f166f4e0642f4655c6e31faf9a008fc50cae7deddf527a5c9d1ab1ecbc213a4a",
+  "tail_before_sha256": "510ac5b187aebd96c4d45bc3fbe796b40084787738a83223ac93f3c8d4e83272",
+  "tail_after_sha256": "07036987afc417b65d2ff2e3ab13dcf79b03099493f16220c10b863613cf0f3e",
+  "proposal_sha256": "8800c3d86a3774b5f900e00d1d9d735f2088b81038b9a6d72e7af01ee4d72b2d",
+  "independent_review_sha256": "667f886d74436f34532ac86df12ce3ca398d28c5b962eaec34a90b5c9d7684b6",
+  "operations": [
+    {
+      "before": "3. 제21항 아캄프로세이트 국내 유통 여부(날트렉손의 알코올 의존성 치료 허가는 의약품안전나라 레비아정 제품 상세에서 확인됨).",
+      "after": "3. 제21항 아캄프로세이트 국내 유통 여부. 날트렉손의 알코올 의존성 치료 허가는 의약품안전나라 레비아정 제품 상세에서 확인됨.",
+      "before_sha256": "a6b662659158e1116dc5933eda6705ae68e4cfe233f1e70f3ad5608af606c907",
+      "after_sha256": "79fae6c03dec261ee97864301e6e744426b53c9cfce6c9afaff098a701a2f22a"
+    },
+    {
+      "before": "5. 제27·34항 한국인 영양섭취기준의 과일·채소·유제품 권장량 보강 여부(현재는 원문 국제 근거만 사용).",
+      "after": "5. 제27·34항 한국인 영양섭취기준의 과일·채소·유제품 권장량 보강 여부. 현재는 원문 국제 근거만 사용.",
+      "before_sha256": "dafd0e1333cd754260143f8ea97946212e50f07d051d930958d1400d203c4fec",
+      "after_sha256": "ca571ce9672a5af1d209c66a86057416fcd30f6e31b83ef4fa6cefb49e3fc8fd"
+    },
+    {
+      "before": "9. 비용 칸의 국내 금액 어림 출처 확인: 제6항 전자담배 월 비용, 제9항 저나트륨 소금 가격 차, 제10항 치실·치간칫솔 연간 비용, 제14항 코트 대여비, 제25항 차 연간 비용, 제26항 커피 하루 비용.",
+      "after": "9. 비용 칸의 국내 금액 어림 출처 확인: 제6항 전자담배 월 비용. 제9항 저나트륨 소금 가격 차, 제10항 치실·치간칫솔 연간 비용. 제14항 코트 대여비, 제25항 차 연간 비용, 제26항 커피 하루 비용.",
+      "before_sha256": "2d9ab674c19a6ecc4c3f1d4db6e47c36e461c647f640faf3534255ca20b7242f",
+      "after_sha256": "795cd4c5b07c440df87dca8c8a8c7787e3fd1b4a194a16355a052a27e678854a"
+    }
+  ],
+  "all_numbered_entries_and_intro_unchanged": true,
+  "entry_count": 42,
+  "all_other_tail_bytes_unchanged": true,
+  "archived_formal": "kr-harness/chapters/02/kr-fit-review.r10.md",
+  "archived_formal_sha256": "76aa941b587272eb54123e46604f7807c3367f14182d9f6f6baa195cf1339a50",
+  "previous_cli_sha256": "1397188cb818c9acfa6741f2b7dca929ab166ac198000db70bcde5a4b605ea30",
+  "formal_kr_fit_approval": false,
+  "deployed": false
+}

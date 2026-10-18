@@ -1,0 +1,117 @@
+{
+  "chapter": 8,
+  "status": "completed_exact_partial_review_r26",
+  "manifest_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/author-partial-manifest-26.json",
+  "manifest_sha256": "a0ac8169682d2530cfa7f65c651c899510398f3b6c5fef9b47a222ff603a9874",
+  "entries": [
+    {
+      "entry": 3,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-003-3aff/publication-entry-proposal-r2.md",
+      "proposal_sha256": "64f08efeda1ee8b469384989fe3cfe3996a2293e467d594eae64aa72a57187c6",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-003-3aff/publication-entry-changes-r2.json",
+      "changes_sha256": "c2421d591415a356e525ac844d34305189b818ce16cba9f57427a3fc7716204c",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-003-3aff/strict-entry.md",
+      "base_strict_entry_sha256": "52ac9a441e3fa50f34ed05e8f11796f327d55c5b38d65ce35c29039d2f69dda0",
+      "literal_exit_code": 0,
+      "decision": "approve",
+      "all_four_complete_fields_read": true,
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "snapshot_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-003-3aff/entry_snapshot.md",
+      "snapshot_sha256": "52ac9a441e3fa50f34ed05e8f11796f327d55c5b38d65ce35c29039d2f69dda0",
+      "strict_candidate_contains_exact_base": true,
+      "length_check": {
+        "entry": 3,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-003-3aff/publication-entry-proposal-r2.md",
+        "title_chars": 28,
+        "easy_chars": 67,
+        "easy_sentences": 3,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "number": true,
+        "six_labels": true,
+        "tags": true,
+        "grade": true
+      },
+      "production_layout_check": true,
+      "initial_canonical_entry": {
+        "entry": 3,
+        "title": "### 3. 송금·앱 설치·인증번호 요구는 끊고 따로 확인하세요",
+        "source_entry_snapshot_path": "_workspace/2026-10-18-003-3aff/entry_snapshot.md",
+        "source_entry_snapshot_sha256": "52ac9a441e3fa50f34ed05e8f11796f327d55c5b38d65ce35c29039d2f69dda0",
+        "source_review_status": "no_new_error_found",
+        "candidate_review_status": "pending_candidate_review",
+        "scope_and_findings": "형법347조 기망·재물/이익 취득, 특별법2조 대출 가장 포함과 일치. 예방효과 수치 미확인과 모든 수수료 대출을 사기로 단정하지 않는 조건 유지."
+      },
+      "finding_closure": "전필드승인.최종전수재열람에서확인된불필요중국변환작업메모한문장만정확삭제/다른bytes동일.사기성립요건·대출가장특별법대상·한국예방효과미확인/모든수수료대출사기단정금지유보및45명의인증참조보존.09원full독립법률승인재사용·이번새사실추가없음.전필드literal/layout/보호/hash/DOI0통과.",
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "revision_requests": [],
+      "proposed_root_operation": {
+        "type": "replace_complete_strict_entry_body",
+        "before_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-003-3aff/strict-entry.md",
+        "before_entire_entry_sha256": "52ac9a441e3fa50f34ed05e8f11796f327d55c5b38d65ce35c29039d2f69dda0",
+        "after_proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-003-3aff/publication-entry-proposal-r2.md",
+        "after_original_proposal_sha256": "64f08efeda1ee8b469384989fe3cfe3996a2293e467d594eae64aa72a57187c6",
+        "effective_after_sha256": "64f08efeda1ee8b469384989fe3cfe3996a2293e467d594eae64aa72a57187c6",
+        "effective_after_rule": "proposal.rstrip()+original strict entry trailing whitespace; preserve original separators",
+        "supersession": "Latest approved full replaces any initial field/older full once.",
+        "integration_authorized": false
+      },
+      "field_decisions": {
+        "title": "approve",
+        "비용": "approve",
+        "쉽게": "approve",
+        "이득": "approve",
+        "근거등급": "approve",
+        "출처": "approve",
+        "비고": "approve"
+      }
+    }
+  ],
+  "approved_entries": [
+    3
+  ],
+  "revise_entries": [],
+  "actual_primary_readings": [],
+  "prior_actual_reading_reuse": [
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/publication-partial-review-r1.json",
+      "sha256": "4268b99de5c6c606128f29f12afa2a95e44bd03102ba1bee7956b476b3102110",
+      "scope": "09원full exact법률승인재사용.원proposal SHA b2c167cda388184e120748e3cd8799e26058b8cc3235e7b32d34010aaa344198와한문장외동일."
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/publication-followup-review-04-r17.json",
+      "sha256": "cabd63be1d404c26152150bf9f08f5ff3c364d1327205428778155acbee5caab",
+      "scope": "최신45full actual승인과참조범위재사용."
+    }
+  ],
+  "cross_reference_review": [
+    {
+      "entries": [
+        3,
+        45
+      ],
+      "scope": "최신45전체독립승인r17과title명의·인증번호연속앵커·차주/명의도용/자동유효비보장범위재대조완료."
+    }
+  ],
+  "production_helper_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/scripts/humanize_publication.py",
+  "production_helper_sha256": "244c194c7620c3095dc3a972eecdaa4e17fab8a0a301ae8b601cb8401569bfd3",
+  "helper_code_modified": false,
+  "fresh_http_performed": false,
+  "whole46_approval": false,
+  "integration_approval": false,
+  "formal_kr_fit_approval": false,
+  "preservation": "Prior reviews/frozen proposals/canonical/public/runs/gates/git unchanged.",
+  "reviewer_id": "/root/publication_review_04",
+  "six_complete_fields_read": true,
+  "exact_single_editorial_sentence_deletion_only": true,
+  "supersedes_postapproval_finding": "09기존승인을소급수정하지않고최종재열람의새편집지적을새variant로해소."
+}

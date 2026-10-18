@@ -1,0 +1,40 @@
+{
+  "decision": "fail",
+  "blockers": 2,
+  "findings": [
+    {
+      "severity": "block",
+      "kind": "ordinary-sentence-length",
+      "path": "book-kr/01-너무-일찍-죽지-않기.md",
+      "raw_sha256": "fa0cb68d45ee5db23d20629e549361db433c226a00701e3bc899cf9a23cb96c4",
+      "line": 7,
+      "exact_span": "이득 칸의 숫자는 무작위로 나눈 시험, 많은 사람을 오래 따라간 연구, 공식 통계에서 왔습니다.",
+      "chars": 53,
+      "exception": false,
+      "proposal": "이득 칸의 숫자는 연구와 공식 통계에서 왔습니다. 무작위로 나눈 시험과 많은 사람을 오래 따라간 연구를 썼습니다.",
+      "scope": "수정안은 검토자 제안일 뿐 원작성자 승인/적용 아님"
+    },
+    {
+      "severity": "block",
+      "kind": "ordinary-sentence-length",
+      "path": "book-kr/01-너무-일찍-죽지-않기.md",
+      "raw_sha256": "fa0cb68d45ee5db23d20629e549361db433c226a00701e3bc899cf9a23cb96c4",
+      "line": 7,
+      "exact_span": "비용 칸은 지은이가 시중 가격으로 어림한 값이라, 서로 비교하는 데만 쓰고 인용하지 마세요.",
+      "chars": 51,
+      "exception": false,
+      "proposal": "비용 칸은 지은이가 시중 가격으로 어림한 값입니다. 서로 비교하는 데만 쓰고 인용하지 마세요.",
+      "scope": "수정안은 검토자 제안일 뿐 원작성자 승인/적용 아님"
+    }
+  ],
+  "quote_candidate": {
+    "line": 404,
+    "entry": 41,
+    "zone": "entry",
+    "field": "이득",
+    "chars": 96,
+    "text": "행정안전부 국민안전24는 \"얼음은 결빙 상태에 따라 다르나, 일반적으로 최소 10cm이상 되어야 모여있지 않은 소수인원(1~2명)의 무게를 버틸 수 있음\"이라고 안내합니다."
+  },
+  "unresolved_TODO_items": 11,
+  "HTTP_requests_this_review": 0
+}

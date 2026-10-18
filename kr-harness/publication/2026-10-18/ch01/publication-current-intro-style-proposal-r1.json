@@ -1,0 +1,299 @@
+{
+  "status": "proposal-unadopted",
+  "author_role_provenance": "New isolated chapter01 intro-only author unit assigned by ROOT followup; agent identifier retains prior tail author name, but this is a separate new intro authorship unit. Prior tail proposal remains immutable. No self approval.",
+  "public_path": "book-kr/01-너무-일찍-죽지-않기.md",
+  "currentwhole_sha256": "fa0cb68d45ee5db23d20629e549361db433c226a00701e3bc899cf9a23cb96c4",
+  "introguard_sha256": "574bc73bd9d0cf8493494cb63e06a9693a36432e2dfc81677b58d8ca191d41d0",
+  "snapshots": [
+    {
+      "path": "publication-current-intro-style-whole-snapshot-r1.md",
+      "sha256": "fa0cb68d45ee5db23d20629e549361db433c226a00701e3bc899cf9a23cb96c4"
+    },
+    {
+      "path": "publication-current-intro-style-intro-snapshot-r1.md",
+      "sha256": "574bc73bd9d0cf8493494cb63e06a9693a36432e2dfc81677b58d8ca191d41d0"
+    }
+  ],
+  "operations": [
+    {
+      "before": "이득 칸의 숫자는 무작위로 나눈 시험, 많은 사람을 오래 따라간 연구, 공식 통계에서 왔습니다.",
+      "after": "이득 칸의 숫자는 무작위로 나눈 시험에서 왔습니다. 많은 사람을 오래 따라간 연구와 공식 통계에서도 가져왔습니다.",
+      "before_sha256": "a82a5cb6f624e3021d12be4bef82597b26e2d20d571a74e0cd3bd82fc7bdb0f5",
+      "after_sha256": "db9041f31d37f559283be71ade9b39c8644ddfad27c6239b55fc9b23c66c3f0e",
+      "before_python_len": 53,
+      "after_sentences": [
+        {
+          "sentence": "이득 칸의 숫자는 무작위로 나눈 시험에서 왔습니다.",
+          "python_len": 28
+        },
+        {
+          "sentence": "많은 사람을 오래 따라간 연구와 공식 통계에서도 가져왔습니다.",
+          "python_len": 34
+        }
+      ],
+      "reason": "문장만 분리. 숫자 근거의 세 출처 유형 및 비용 어림·비교 전용·인용 금지 제한을 그대로 유지."
+    },
+    {
+      "before": "비용 칸은 지은이가 시중 가격으로 어림한 값이라, 서로 비교하는 데만 쓰고 인용하지 마세요.",
+      "after": "비용 칸은 지은이가 시중 가격으로 어림한 값입니다. 서로 비교하는 데만 쓰고 인용하지 마세요.",
+      "before_sha256": "4cd78a34ef0ade2bc95e4c999d4caddaa9733e64b3a04bcb0a94c5864d1cfc11",
+      "after_sha256": "5cf1eb73aeac80aeb7bdaff6ca72677479a090aef7404a120b7b731409c463ee",
+      "before_python_len": 51,
+      "after_sentences": [
+        {
+          "sentence": "비용 칸은 지은이가 시중 가격으로 어림한 값입니다.",
+          "python_len": 28
+        },
+        {
+          "sentence": "서로 비교하는 데만 쓰고 인용하지 마세요.",
+          "python_len": 23
+        }
+      ],
+      "reason": "문장만 분리. 숫자 근거의 세 출처 유형 및 비용 어림·비교 전용·인용 금지 제한을 그대로 유지."
+    }
+  ],
+  "after_intro": "> **상태: 🟨 적합성 게이트 미통과(2026-10-18) — 리뷰가 본문보다 오래됨(해시 불일치) → kr-fit-reviewer로 제1절 재검토 필요(마지막 줄 sha256=은 kr-fit.mjs book-kr/01-너무-일찍-죽지-않기.md --hash)** · 원문: [book/01-不要早死.md](../book/01-不要早死.md) · 현지화 등급: 🟡\n\n[← 총목차](README.md)\n\n# 1. 너무 일찍 죽지 않기\n\n이 절은 세 가지를 다룹니다. 첫째는 교통사고, 화재, 중독처럼 사고로 다쳐 죽는 일입니다. 둘째는 예방접종과 검진인데, 근거가 가장 단단한 몇 가지만 실었습니다. 셋째는 검사를 받아야 하는 몸의 신호입니다. 이득 칸의 숫자는 무작위로 나눈 시험에서 왔습니다. 많은 사람을 오래 따라간 연구와 공식 통계에서도 가져왔습니다. 비용 칸은 지은이가 시중 가격으로 어림한 값입니다. 서로 비교하는 데만 쓰고 인용하지 마세요. 한국의 검진·예방접종·법 조항은 2026-10-10 기준으로 확인했습니다.\n\n이 절의 항목은 아래처럼 주제별로 묶입니다. 괄호 안은 항목 번호입니다.\n\n**길에서**: 안전띠(제1항), 헬멧(제2항), 과속·음주운전 금지(제9항), 카시트(제10항).\n\n**집 안의 불·가스·전기**: 연기감지기(제3항), 가스 호스와 배관(제4항), 전기자전거 보관과 충전(제6항), 소화기와 구급함(제26항), 그라인더 덮개(제42항).\n\n**아이·노인·야외의 사고**: 창문 열림 제한 장치(제11항), 물가의 아이와 구명조끼(제12항), 균형 운동과 하체 근력(제13항), 야생버섯(제5항), 출처를 모르는 금속 부품(제36항), 얼음 두께(제41항).\n\n**예방접종**: B형간염 검사와 백신(제14항), 파상풍(제15항), HPV 백신(제16항), 독감 백신(제20항), 대상포진 백신(제21항), 폐렴구균 백신(제22항).\n\n**검진과 검사**: 혈압(제7항), 공복혈당(제8항), 유방촬영(제17항), 자궁경부암 검진(제18항), 대장암 검진(제19항), 헬리코박터균 검사(제23항), 저선량 흉부 CT(제24항), 골밀도 검사(제39항), 골다공증 약(제40항).\n\n**몸의 신호와 성 건강**: 눈에 보이는 혈뇨(제27항), 발기 문제와 심혈관 검사(제28항), 감량·금연과 발기 기능(제29항), 콘돔과 주사기(제30항), HIV 검사(제31항), 노출 전 예방약(제38항).\n\n**마음의 위기**: 죽고 싶을 때 109(제25항), 곁의 한 사람에게 말하기(제32항), 도박 때문에 진 빚(제37항), 농약·연탄가스 뒤의 후유증(제33항), 추락 뒤의 대가(제34항), 신장 하나의 대가(제35항).\n\n<!-- kr-doi-drop: 10.46234/ccdcw2020.008 — 제3항, 중국 일산화탄소 중독 사망 통계라 뺐다. 한국 통계는 TODO -->\n<!-- kr-doi-drop: 10.1016/S0140-6736(17)32478-9 — 제7항, 중국 고혈압 유병률(China PEACE)이라 뺐고 한국 고혈압 팩트시트로 바꿨다. 괄호에서 잘린 DOI 꼴이 제39항 SCOOP와 같아 기계 대조에는 차이가 안 잡힐 수 있다 -->\n<!-- kr-doi-drop: 10.46234/ccdcw2023.198 — 제12항, 중국 20세 미만 익수 사망 통계라 뺐고 행정안전부 물놀이 사망 통계로 바꿨다 -->\n<!-- kr-doi-drop: 10.46234/ccdcw2024.057 — 제12항, 중국 아동·청소년 손상 사망 통계라 뺐다 -->\n<!-- kr-doi-drop: 10.46234/ccdcw2021.013 — 제13항, 중국 노인 낙상 통계라 뺐고 질병관리청 손상 통계로 바꿨다 -->\n<!-- kr-doi-drop: 10.3201/eid2305.161477 — 제14항, 중국 B형간염 표면항원 추이라 뺐고 한국 국민건강영양조사 분석으로 바꿨다 -->\n<!-- kr-doi-drop: 10.1097/CM9.0000000000001181 — 제38항, 중국 PrEP 전문가 합의라 뺐고 질병관리청 PrEP 지원사업 안내문으로 바꿨다 -->\n<!-- kr-doi-drop: 10.1001/jamanetworkopen.2021.21106 — 제39·40항, 중국 골다공증 유병률·치료율이라 뺐고 한국 골다공증 팩트시트로 바꿨다 -->\n<!-- kr-doi-add: 10.5646/ch.2026.32.e13 — 제7항, 대한고혈압학회 한국 고혈압 팩트시트 2025(중국 유병률 대신 한국 인지·치료·조절률) -->\n<!-- kr-doi-add: 10.4178/epih/e2015055 — 제14항, 한국 국민건강영양조사 B형간염 표면항원 양성률 추이(중국 자료 대신) -->\n<!-- kr-doi-add: 10.11005/jbm.2020.27.4.281 — 제39·40항, 대한골대사학회 한국 골다공증 팩트시트(중국 유병률·치료율 대신) -->\n<!-- kr-doi-add: 10.1093/ije/dyv304 — 제25·33항, 한국 파라콰트 규제 뒤 농약 자살 감소(중국 파라콰트 규제 문서 대신 한국 근거) -->\n\n<!-- kr-doi-add: <10.5534/wjmh.2013.31.2.83> — 발기부전의 평가와 질산염 병용 금기를 한국 진료지침으로 보강 -->\n\n",
+  "after_intro_sha256": "5bdce435733f0074b59c2e058739f2777feae41d4ab9e80bc2b2ad1b4993a621",
+  "expected_whole_sha256": "1e7aa68399f383079a7edef2348a66c194f85af423665c48a8c529b88c74c52f",
+  "unchanged_after_intro_sha256": "0ee8a16598f026c93d35f8db82f50e9eda138ff4b101866aaec51ab73957953c",
+  "preservation": {
+    "public_written": false,
+    "numbered_entry_count": 42,
+    "numbered_body_and_approved_tail_unchanged": true,
+    "all_other_intro_bytes_preserved": true,
+    "prior_tail_proposal_unchanged": true,
+    "sources_and_cost_nonquotation_restriction_preserved": true
+  },
+  "whole_intro_actual_sentence_length_evidence": [
+    {
+      "kind": "protected_status_metadata",
+      "literal_line": "> **상태: 🟨 적합성 게이트 미통과(2026-10-18) — 리뷰가 본문보다 오래됨(해시 불일치) → kr-fit-reviewer로 제1절 재검토 필요(마지막 줄 sha256=은 kr-fit.mjs book-kr/01-너무-일찍-죽지-않기.md --hash)** · 원문: [book/01-不要早死.md](../book/01-不要早死.md) · 현지화 등급: 🟡",
+      "python_len": 204,
+      "changed": false,
+      "note": "일반 서술문이 아닌 보호된 기존 메타·목차·제목. 원문 바이트 보존; 문장길이 면제로 서술문을 누락하지 않음."
+    },
+    {
+      "kind": "navigation",
+      "literal_line": "[← 총목차](README.md)",
+      "python_len": 18,
+      "changed": false,
+      "note": "일반 서술문이 아닌 보호된 기존 메타·목차·제목. 원문 바이트 보존; 문장길이 면제로 서술문을 누락하지 않음."
+    },
+    {
+      "kind": "heading",
+      "literal_line": "# 1. 너무 일찍 죽지 않기",
+      "python_len": 16,
+      "changed": false,
+      "note": "일반 서술문이 아닌 보호된 기존 메타·목차·제목. 원문 바이트 보존; 문장길이 면제로 서술문을 누락하지 않음."
+    },
+    {
+      "kind": "narrative",
+      "sentence": "이 절은 세 가지를 다룹니다.",
+      "python_len": 16,
+      "within50": true
+    },
+    {
+      "kind": "narrative",
+      "sentence": "첫째는 교통사고, 화재, 중독처럼 사고로 다쳐 죽는 일입니다.",
+      "python_len": 34,
+      "within50": true
+    },
+    {
+      "kind": "narrative",
+      "sentence": "둘째는 예방접종과 검진인데, 근거가 가장 단단한 몇 가지만 실었습니다.",
+      "python_len": 39,
+      "within50": true
+    },
+    {
+      "kind": "narrative",
+      "sentence": "셋째는 검사를 받아야 하는 몸의 신호입니다.",
+      "python_len": 24,
+      "within50": true
+    },
+    {
+      "kind": "narrative",
+      "sentence": "이득 칸의 숫자는 무작위로 나눈 시험에서 왔습니다.",
+      "python_len": 28,
+      "within50": true
+    },
+    {
+      "kind": "narrative",
+      "sentence": "많은 사람을 오래 따라간 연구와 공식 통계에서도 가져왔습니다.",
+      "python_len": 34,
+      "within50": true
+    },
+    {
+      "kind": "narrative",
+      "sentence": "비용 칸은 지은이가 시중 가격으로 어림한 값입니다.",
+      "python_len": 28,
+      "within50": true
+    },
+    {
+      "kind": "narrative",
+      "sentence": "서로 비교하는 데만 쓰고 인용하지 마세요.",
+      "python_len": 23,
+      "within50": true
+    },
+    {
+      "kind": "narrative",
+      "sentence": "한국의 검진·예방접종·법 조항은 2026-10-10 기준으로 확인했습니다.",
+      "python_len": 41,
+      "within50": true
+    },
+    {
+      "kind": "narrative",
+      "sentence": "이 절의 항목은 아래처럼 주제별로 묶입니다.",
+      "python_len": 24,
+      "within50": true
+    },
+    {
+      "kind": "narrative",
+      "sentence": "괄호 안은 항목 번호입니다.",
+      "python_len": 15,
+      "within50": true
+    },
+    {
+      "kind": "topic_entry_index",
+      "literal_line": "**길에서**: 안전띠(제1항), 헬멧(제2항), 과속·음주운전 금지(제9항), 카시트(제10항).",
+      "python_len": 55,
+      "changed": false,
+      "note": "일반 서술문이 아닌 보호된 기존 메타·목차·제목. 원문 바이트 보존; 문장길이 면제로 서술문을 누락하지 않음."
+    },
+    {
+      "kind": "topic_entry_index",
+      "literal_line": "**집 안의 불·가스·전기**: 연기감지기(제3항), 가스 호스와 배관(제4항), 전기자전거 보관과 충전(제6항), 소화기와 구급함(제26항), 그라인더 덮개(제42항).",
+      "python_len": 95,
+      "changed": false,
+      "note": "일반 서술문이 아닌 보호된 기존 메타·목차·제목. 원문 바이트 보존; 문장길이 면제로 서술문을 누락하지 않음."
+    },
+    {
+      "kind": "topic_entry_index",
+      "literal_line": "**아이·노인·야외의 사고**: 창문 열림 제한 장치(제11항), 물가의 아이와 구명조끼(제12항), 균형 운동과 하체 근력(제13항), 야생버섯(제5항), 출처를 모르는 금속 부품(제36항), 얼음 두께(제41항).",
+      "python_len": 121,
+      "changed": false,
+      "note": "일반 서술문이 아닌 보호된 기존 메타·목차·제목. 원문 바이트 보존; 문장길이 면제로 서술문을 누락하지 않음."
+    },
+    {
+      "kind": "topic_entry_index",
+      "literal_line": "**예방접종**: B형간염 검사와 백신(제14항), 파상풍(제15항), HPV 백신(제16항), 독감 백신(제20항), 대상포진 백신(제21항), 폐렴구균 백신(제22항).",
+      "python_len": 96,
+      "changed": false,
+      "note": "일반 서술문이 아닌 보호된 기존 메타·목차·제목. 원문 바이트 보존; 문장길이 면제로 서술문을 누락하지 않음."
+    },
+    {
+      "kind": "topic_entry_index",
+      "literal_line": "**검진과 검사**: 혈압(제7항), 공복혈당(제8항), 유방촬영(제17항), 자궁경부암 검진(제18항), 대장암 검진(제19항), 헬리코박터균 검사(제23항), 저선량 흉부 CT(제24항), 골밀도 검사(제39항), 골다공증 약(제40항).",
+      "python_len": 135,
+      "changed": false,
+      "note": "일반 서술문이 아닌 보호된 기존 메타·목차·제목. 원문 바이트 보존; 문장길이 면제로 서술문을 누락하지 않음."
+    },
+    {
+      "kind": "topic_entry_index",
+      "literal_line": "**몸의 신호와 성 건강**: 눈에 보이는 혈뇨(제27항), 발기 문제와 심혈관 검사(제28항), 감량·금연과 발기 기능(제29항), 콘돔과 주사기(제30항), HIV 검사(제31항), 노출 전 예방약(제38항).",
+      "python_len": 119,
+      "changed": false,
+      "note": "일반 서술문이 아닌 보호된 기존 메타·목차·제목. 원문 바이트 보존; 문장길이 면제로 서술문을 누락하지 않음."
+    },
+    {
+      "kind": "topic_entry_index",
+      "literal_line": "**마음의 위기**: 죽고 싶을 때 109(제25항), 곁의 한 사람에게 말하기(제32항), 도박 때문에 진 빚(제37항), 농약·연탄가스 뒤의 후유증(제33항), 추락 뒤의 대가(제34항), 신장 하나의 대가(제35항).",
+      "python_len": 124,
+      "changed": false,
+      "note": "일반 서술문이 아닌 보호된 기존 메타·목차·제목. 원문 바이트 보존; 문장길이 면제로 서술문을 누락하지 않음."
+    },
+    {
+      "kind": "protected_metadata_comment",
+      "literal_line": "<!-- kr-doi-drop: 10.46234/ccdcw2020.008 — 제3항, 중국 일산화탄소 중독 사망 통계라 뺐다. 한국 통계는 TODO -->",
+      "python_len": 86,
+      "changed": false,
+      "note": "일반 서술문이 아닌 보호된 기존 메타·목차·제목. 원문 바이트 보존; 문장길이 면제로 서술문을 누락하지 않음."
+    },
+    {
+      "kind": "protected_metadata_comment",
+      "literal_line": "<!-- kr-doi-drop: 10.1016/S0140-6736(17)32478-9 — 제7항, 중국 고혈압 유병률(China PEACE)이라 뺐고 한국 고혈압 팩트시트로 바꿨다. 괄호에서 잘린 DOI 꼴이 제39항 SCOOP와 같아 기계 대조에는 차이가 안 잡힐 수 있다 -->",
+      "python_len": 157,
+      "changed": false,
+      "note": "일반 서술문이 아닌 보호된 기존 메타·목차·제목. 원문 바이트 보존; 문장길이 면제로 서술문을 누락하지 않음."
+    },
+    {
+      "kind": "protected_metadata_comment",
+      "literal_line": "<!-- kr-doi-drop: 10.46234/ccdcw2023.198 — 제12항, 중국 20세 미만 익수 사망 통계라 뺐고 행정안전부 물놀이 사망 통계로 바꿨다 -->",
+      "python_len": 96,
+      "changed": false,
+      "note": "일반 서술문이 아닌 보호된 기존 메타·목차·제목. 원문 바이트 보존; 문장길이 면제로 서술문을 누락하지 않음."
+    },
+    {
+      "kind": "protected_metadata_comment",
+      "literal_line": "<!-- kr-doi-drop: 10.46234/ccdcw2024.057 — 제12항, 중국 아동·청소년 손상 사망 통계라 뺐다 -->",
+      "python_len": 75,
+      "changed": false,
+      "note": "일반 서술문이 아닌 보호된 기존 메타·목차·제목. 원문 바이트 보존; 문장길이 면제로 서술문을 누락하지 않음."
+    },
+    {
+      "kind": "protected_metadata_comment",
+      "literal_line": "<!-- kr-doi-drop: 10.46234/ccdcw2021.013 — 제13항, 중국 노인 낙상 통계라 뺐고 질병관리청 손상 통계로 바꿨다 -->",
+      "python_len": 85,
+      "changed": false,
+      "note": "일반 서술문이 아닌 보호된 기존 메타·목차·제목. 원문 바이트 보존; 문장길이 면제로 서술문을 누락하지 않음."
+    },
+    {
+      "kind": "protected_metadata_comment",
+      "literal_line": "<!-- kr-doi-drop: 10.3201/eid2305.161477 — 제14항, 중국 B형간염 표면항원 추이라 뺐고 한국 국민건강영양조사 분석으로 바꿨다 -->",
+      "python_len": 93,
+      "changed": false,
+      "note": "일반 서술문이 아닌 보호된 기존 메타·목차·제목. 원문 바이트 보존; 문장길이 면제로 서술문을 누락하지 않음."
+    },
+    {
+      "kind": "protected_metadata_comment",
+      "literal_line": "<!-- kr-doi-drop: 10.1097/CM9.0000000000001181 — 제38항, 중국 PrEP 전문가 합의라 뺐고 질병관리청 PrEP 지원사업 안내문으로 바꿨다 -->",
+      "python_len": 103,
+      "changed": false,
+      "note": "일반 서술문이 아닌 보호된 기존 메타·목차·제목. 원문 바이트 보존; 문장길이 면제로 서술문을 누락하지 않음."
+    },
+    {
+      "kind": "protected_metadata_comment",
+      "literal_line": "<!-- kr-doi-drop: 10.1001/jamanetworkopen.2021.21106 — 제39·40항, 중국 골다공증 유병률·치료율이라 뺐고 한국 골다공증 팩트시트로 바꿨다 -->",
+      "python_len": 106,
+      "changed": false,
+      "note": "일반 서술문이 아닌 보호된 기존 메타·목차·제목. 원문 바이트 보존; 문장길이 면제로 서술문을 누락하지 않음."
+    },
+    {
+      "kind": "protected_metadata_comment",
+      "literal_line": "<!-- kr-doi-add: 10.5646/ch.2026.32.e13 — 제7항, 대한고혈압학회 한국 고혈압 팩트시트 2025(중국 유병률 대신 한국 인지·치료·조절률) -->",
+      "python_len": 99,
+      "changed": false,
+      "note": "일반 서술문이 아닌 보호된 기존 메타·목차·제목. 원문 바이트 보존; 문장길이 면제로 서술문을 누락하지 않음."
+    },
+    {
+      "kind": "protected_metadata_comment",
+      "literal_line": "<!-- kr-doi-add: 10.4178/epih/e2015055 — 제14항, 한국 국민건강영양조사 B형간염 표면항원 양성률 추이(중국 자료 대신) -->",
+      "python_len": 89,
+      "changed": false,
+      "note": "일반 서술문이 아닌 보호된 기존 메타·목차·제목. 원문 바이트 보존; 문장길이 면제로 서술문을 누락하지 않음."
+    },
+    {
+      "kind": "protected_metadata_comment",
+      "literal_line": "<!-- kr-doi-add: 10.11005/jbm.2020.27.4.281 — 제39·40항, 대한골대사학회 한국 골다공증 팩트시트(중국 유병률·치료율 대신) -->",
+      "python_len": 94,
+      "changed": false,
+      "note": "일반 서술문이 아닌 보호된 기존 메타·목차·제목. 원문 바이트 보존; 문장길이 면제로 서술문을 누락하지 않음."
+    },
+    {
+      "kind": "protected_metadata_comment",
+      "literal_line": "<!-- kr-doi-add: 10.1093/ije/dyv304 — 제25·33항, 한국 파라콰트 규제 뒤 농약 자살 감소(중국 파라콰트 규제 문서 대신 한국 근거) -->",
+      "python_len": 96,
+      "changed": false,
+      "note": "일반 서술문이 아닌 보호된 기존 메타·목차·제목. 원문 바이트 보존; 문장길이 면제로 서술문을 누락하지 않음."
+    },
+    {
+      "kind": "protected_metadata_comment",
+      "literal_line": "<!-- kr-doi-add: <10.5534/wjmh.2013.31.2.83> — 발기부전의 평가와 질산염 병용 금기를 한국 진료지침으로 보강 -->",
+      "python_len": 84,
+      "changed": false,
+      "note": "일반 서술문이 아닌 보호된 기존 메타·목차·제목. 원문 바이트 보존; 문장길이 면제로 서술문을 누락하지 않음."
+    }
+  ],
+  "narrative_maximum_python_len": 41,
+  "length_method": "Python len including spaces and parentheses. All prose sentences across entire intro inspected. Existing protected status, topic entry index, heading, navigation and DOI metadata separately enumerated unchanged; not represented as prose sentences.",
+  "independent_exact_hash_approval_required": true
+}
