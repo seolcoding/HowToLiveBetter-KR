@@ -1,0 +1,88 @@
+{
+  "entry": 24,
+  "status": "unadopted_proposal",
+  "reviewed_on": "2026-10-18",
+  "method": "저장된 Europe PMC 논문 초록 원시 JSON과 캐시 index.json 직접 열람. 이번 작업에서 새 HTTP 요청 없음. 참가자의 현재·과거 흡연 구분은 항목 원문 및 content-audit.md/editorial-decisions.json의 수정 요구를 대조함. 연령·갑년·금연기간은 이 캐시 초록에 없으므로 새로 독립 검증했다는 뜻이 아님.",
+  "source": {
+    "key": "nlst",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1056/NEJMoa1102873&format=json&resultType=core",
+    "date": "2026-10-18T12:01:11.309906+00:00",
+    "status": 200,
+    "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch01-audit/nlst.txt",
+    "bytes": 133461,
+    "sha256": "96a986d3bf5893da7c1e25c735cc7b087135ce4294f3a6c79ed07da9438fbf99"
+  },
+  "doi_url": "https://doi.org/10.1056/NEJMoa1102873",
+  "changes": [
+    {
+      "field": "쉽게",
+      "before": "조건에 맞는 흡연자가 해마다 저선량 CT를 찍으면 폐암으로 죽을 확률이 20% 낮습니다. 흉부 X선만 찍은 경우와 비교한 값입니다. 원인을 가리지 않은 전체 사망도 6.7% 낮습니다. 대신 의심 소견이 나오면 재검사와 불안을 감수해야 합니다.",
+      "after": "고위험 현재·과거 흡연자의 시험 결과입니다. 해마다 저선량 CT를 찍은 쪽은 흉부 X선 쪽보다 폐암 사망이 20% 낮았습니다. 전체 사망도 6.7% 낮았습니다. 의심 소견에는 재검사와 불안이 따릅니다.",
+      "reason": "심사 의견에 따라 고위험 현재·과거 흡연자와 흉부 X선 비교를 명시했습니다. 연례 검사, 두 사망 지표와 부담을 네 문장으로 보존했습니다. 세부 연령·흡연량 조건은 이득에 남겼습니다.",
+      "exactquotes": [
+        "From August 2002 through April 2004, we enrolled 53,454 persons at high risk for lung cancer at 33 U.S. medical centers.",
+        "Participants were randomly assigned to undergo three annual screenings with either low-dose CT (26,722 participants) or single-view posteroanterior chest radiography (26,732).",
+        "The rate of positive screening tests was 24.2% with low-dose CT and 6.9% with radiography over all three rounds.",
+        "A total of 96.4% of the positive screening results in the low-dose CT group and 94.5% in the radiography group were false positive results.",
+        "representing a relative reduction in mortality from lung cancer with low-dose CT screening of 20.0% (95% CI, 6.8 to 26.7; P=0.004).",
+        "The rate of death from any cause was reduced in the low-dose CT group, as compared with the radiography group, by 6.7% (95% CI, 1.2 to 13.6; P=0.02)."
+      ],
+      "url": "https://doi.org/10.1056/NEJMoa1102873",
+      "checked_on": "2026-10-18",
+      "method": "cached_primary_abstract_read"
+    },
+    {
+      "field": "이득",
+      "before": "미국 NLST 무작위 시험은 53,454명을 모았습니다. 참가자는 55~74세, 흡연력 30갑년 이상, 끊은 지 15년이 안 된 사람이었습니다. 갑년은 흡연량 단위로, 하루 한 갑씩 1년 피우면 1갑년입니다. 검사는 해마다 한 번씩 세 차례 했습니다. 저선량 CT를 찍은 쪽은 흉부 X선만 찍은 쪽보다 폐암 사망이 20.0% 줄었습니다. 믿을 만한 범위는 95% CI 6.8~26.7입니다. 총사망률은 6.7% 줄었습니다(95% CI 1.2~13.6). 한국 국가폐암검진 대상은 54~74세 현재 흡연자 중 30갑년 이상 피운 사람입니다. 2년마다 저선량 흉부 CT를 찍습니다. 한 번 국가폐암검진을 받았다면 그 뒤 담배를 끊어도 계속 대상입니다. 다만 금연 15년 이내, 74세까지만 해당합니다. 검진비는 공단이 90%, 본인이 10%를 냅니다.",
+      "after": "미국 NLST 무작위 시험은 53,454명을 모았습니다. 참가자는 55~74세, 흡연력 30갑년 이상이었습니다. 현재 흡연자나 금연한 지 15년이 안 된 사람이었습니다. 갑년은 흡연량 단위로, 하루 한 갑씩 1년 피우면 1갑년입니다. 검사는 해마다 한 번씩 세 차례 했습니다. 저선량 CT를 찍은 쪽은 흉부 X선만 찍은 쪽보다 폐암 사망이 20.0% 줄었습니다. 믿을 만한 범위는 95% CI 6.8~26.7입니다. 총사망률은 6.7% 줄었습니다(95% CI 1.2~13.6). 한국 국가폐암검진 대상은 54~74세 현재 흡연자 중 30갑년 이상 피운 사람입니다. 2년마다 저선량 흉부 CT를 찍습니다. 한 번 국가폐암검진을 받았다면 그 뒤 담배를 끊어도 계속 대상입니다. 다만 금연 15년 이내, 74세까지만 해당합니다. 검진비는 공단이 90%, 본인이 10%를 냅니다.",
+      "reason": "현재 흡연자를 누락할 수 있는 참가자 문장을 두 문장으로 분리하고 현재·과거 흡연자를 명시했습니다. 수치는 유지했습니다.",
+      "exactquotes": [
+        "From August 2002 through April 2004, we enrolled 53,454 persons at high risk for lung cancer at 33 U.S. medical centers.",
+        "Participants were randomly assigned to undergo three annual screenings with either low-dose CT (26,722 participants) or single-view posteroanterior chest radiography (26,732).",
+        "The rate of positive screening tests was 24.2% with low-dose CT and 6.9% with radiography over all three rounds.",
+        "A total of 96.4% of the positive screening results in the low-dose CT group and 94.5% in the radiography group were false positive results.",
+        "representing a relative reduction in mortality from lung cancer with low-dose CT screening of 20.0% (95% CI, 6.8 to 26.7; P=0.004).",
+        "The rate of death from any cause was reduced in the low-dose CT group, as compared with the radiography group, by 6.7% (95% CI, 1.2 to 13.6; P=0.02)."
+      ],
+      "url": "https://doi.org/10.1056/NEJMoa1102873",
+      "checked_on": "2026-10-18",
+      "method": "cached_primary_abstract_read"
+    },
+    {
+      "field": "비고",
+      "before": "고위험 흡연자에게만 권하는 검사입니다. 같은 시험에서 저선량 CT를 찍은 사람의 24.2%가 의심 소견을 받았습니다. 그중 96.4%는 결국 아무것도 아니었습니다(위양성). 담배를 안 피우는 사람이 이 검사를 받으면 돈 내고 불안을 사는 셈입니다. 한국 국가검진은 NLST와 두 가지가 다릅니다. 해마다가 아니라 2년마다 찍습니다. 또 검진 전에 이미 담배를 끊은 사람은 대상에서 빠집니다. 이런 사람은 의사와 상의하세요. 2026-10-10 법령·고시 확인(국가법령정보센터).",
+      "after": "고위험 흡연자에게만 권하는 검사입니다. 같은 시험의 세 차례 저선량 CT 검사를 합친 값입니다. 전체 검사 결과 중 24.2%가 양성이었습니다. 양성 결과 중 96.4%는 위양성이었습니다. 흡연한 적 없는 사람에게 같은 이득을 보장하지 않습니다. 한국 국가검진은 NLST와 두 가지가 다릅니다. 해마다가 아니라 2년마다 찍습니다. 또 검진 전에 이미 담배를 끊은 사람은 대상에서 빠집니다. 이런 사람은 의사와 상의하세요. 2026-10-10 법령·고시 확인(국가법령정보센터).",
+      "reason": "24.2%의 분모를 사람에서 세 차례 전체 검사 결과로, 96.4%의 분모를 양성 결과로 바로잡았습니다. 비흡연자를 금연자와 혼동하지 않도록 흡연한 적 없는 사람으로 한정하고 근거 밖의 단정을 완화했습니다.",
+      "exactquotes": [
+        "From August 2002 through April 2004, we enrolled 53,454 persons at high risk for lung cancer at 33 U.S. medical centers.",
+        "Participants were randomly assigned to undergo three annual screenings with either low-dose CT (26,722 participants) or single-view posteroanterior chest radiography (26,732).",
+        "The rate of positive screening tests was 24.2% with low-dose CT and 6.9% with radiography over all three rounds.",
+        "A total of 96.4% of the positive screening results in the low-dose CT group and 94.5% in the radiography group were false positive results.",
+        "representing a relative reduction in mortality from lung cancer with low-dose CT screening of 20.0% (95% CI, 6.8 to 26.7; P=0.004).",
+        "The rate of death from any cause was reduced in the low-dose CT group, as compared with the radiography group, by 6.7% (95% CI, 1.2 to 13.6; P=0.02)."
+      ],
+      "url": "https://doi.org/10.1056/NEJMoa1102873",
+      "checked_on": "2026-10-18",
+      "method": "cached_primary_abstract_read"
+    }
+  ],
+  "intentional_numeric_scope_changes": [
+    "24.2%: 사람 비율 → 세 차례 전체 저선량 CT 검사 결과 중 양성 비율.",
+    "96.4%: 사람 비율 → 양성 검사 결과 중 위양성 비율.",
+    "참가자: 현재 흡연자 또는 금연 15년 미만 과거 흡연자.",
+    "효과 수치 20%, 6.7%, 표본·연령·갑년·CI 및 한국 제도 조건 유지."
+  ],
+  "쉽게_chars": 112,
+  "length_exception": null,
+  "unchanged_fields": [
+    "heading",
+    "tag",
+    "비용",
+    "근거등급",
+    "출처"
+  ],
+  "limitations": [
+    "한국 제도 문구는 이번 작업에서 새 법령 HTTP 검증을 하지 않았습니다.",
+    "연령·갑년·금연기간의 독립 1차 전문 대조는 추가 확인할 수 있습니다."
+  ]
+}

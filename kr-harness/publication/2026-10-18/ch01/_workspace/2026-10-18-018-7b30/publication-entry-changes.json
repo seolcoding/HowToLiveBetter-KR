@@ -1,0 +1,112 @@
+{
+  "entry": 18,
+  "status": "unadopted_proposal",
+  "read_date": "2026-10-18",
+  "method": "기존 Europe PMC 원시 JSON 캐시의 초록을 직접 열람. 신규 HTTP 요청 없음. 전문 확인 아님.",
+  "source": {
+    "doi": "10.1056/NEJMoa0808516",
+    "chapters": [
+      1
+    ],
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1056%2FNEJMoa0808516%22&format=json&resultType=core&pageSize=10",
+    "fetched_at": "2026-10-18T20:49:43.757633+09:00",
+    "http_status": 200,
+    "status": "exact_doi_metadata_cached",
+    "sha256": "d2ceed5e1d008bad8a9d4156b89eb2c1131df99a2c1ed4282aed47d8a3833722",
+    "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/80f3c2ef6f246ba64ca2.json",
+    "hit_count": 1,
+    "abstract_present": true,
+    "canonical_url": "https://doi.org/10.1056/NEJMoa0808516"
+  },
+  "exact_quotes": [
+    "In this cluster-randomized trial, 52 clusters of villages, with a total of 131,746 healthy women between the ages of 30 and 59 years, were randomly assigned to four groups of 13 clusters each.",
+    "Women who had positive results on screening underwent colposcopy and directed biopsies, and those with cervical precancerous lesions or cancer received appropriate treatment.",
+    "In a low-resource setting, a single round of HPV testing was associated with a significant reduction in the numbers of advanced cervical cancers and deaths from cervical cancer.",
+    "There were 34 deaths from cancer in the HPV-testing group, as compared with 64 in the control group (hazard ratio, 0.52; 95% CI, 0.33 to 0.83)."
+  ],
+  "fields": [
+    {
+      "field": "비용",
+      "before": "국가암검진의 자궁경부 세포검사는 무료입니다(20세 이상, 2년마다). HPV 검사는 국가검진 항목이 아니어서 따로 받으면 비용을 직접 냅니다. 검체 채취는 몇 분이면 끝납니다.",
+      "after": "국가암검진의 자궁경부 세포검사는 무료입니다(20세 이상, 2년마다). HPV 검사는 국가검진 항목이 아니어서 따로 받으면 비용을 직접 냅니다. 검체 채취는 몇 분이면 끝납니다.",
+      "changed": false,
+      "reason": "변경 없음. 기존 사실·태그·근거등급·출처 보존.",
+      "exact_quotes": [],
+      "url": null
+    },
+    {
+      "field": "쉽게",
+      "before": "HPV 검사를 평생 딱 한 번만 받아도 자궁경부암으로 죽을 확률이 절반쯤 줄었습니다. 진행된 자궁경부암이 발견될 확률도 그만큼 줄었습니다. 한국 국가검진은 20세부터 2년마다 무료 세포검사를 합니다.",
+      "after": "인도 농촌의 30~59세 여성을 연구했습니다. HPV 검사 한 차례 뒤 양성이면 정밀검사를 했습니다. 필요한 치료도 했습니다. 이 집단의 자궁경부암 사망 위험은 절반쯤 낮았습니다.",
+      "changed": true,
+      "reason": "평생 1회 권고로 오독되는 표현을 제거하고 시험 대상·검진 후 진단·치료 조건을 복원했습니다.",
+      "exact_quotes": [
+        "In this cluster-randomized trial, 52 clusters of villages, with a total of 131,746 healthy women between the ages of 30 and 59 years, were randomly assigned to four groups of 13 clusters each.",
+        "Women who had positive results on screening underwent colposcopy and directed biopsies, and those with cervical precancerous lesions or cancer received appropriate treatment.",
+        "In a low-resource setting, a single round of HPV testing was associated with a significant reduction in the numbers of advanced cervical cancers and deaths from cervical cancer.",
+        "There were 34 deaths from cancer in the HPV-testing group, as compared with 64 in the control group (hazard ratio, 0.52; 95% CI, 0.33 to 0.83)."
+      ],
+      "url": "https://doi.org/10.1056/NEJMoa0808516"
+    },
+    {
+      "field": "이득",
+      "before": "인도 농촌 시험은 개인이 아니라 집단 단위로 무작위 배정했습니다. 대상은 30~59세 여성입니다. HPV 검사로 한 번만 검진해도 자궁경부암 사망 위험이 48%쯤 낮았습니다. 원값은 HR 0.52, 95% CI 0.33~0.83입니다. 진행된 자궁경부암이 발견될 위험도 53%쯤 낮았습니다. 이 결과의 원값은 HR 0.47, 95% CI 0.32~0.69입니다. 한국 국가암검진은 20세 이상 여성에게 2년마다 자궁경부 세포검사를 합니다. 비용은 공단이 전부 냅니다.",
+      "after": "의료 자원이 부족한 인도 농촌에서 한 시험입니다. 개인이 아니라 집단 단위로 무작위 배정했습니다. 대상은 30~59세 여성입니다. HPV 검사는 한 차례 했습니다. 양성자는 정밀검사를 받고 필요하면 치료받았습니다. HPV 검사군은 일반 진료군보다 사망 위험이 낮았습니다. 자궁경부암 사망 위험은 48%쯤 낮았습니다. 원값은 HR 0.52, 95% CI 0.33~0.83입니다. 진행된 자궁경부암이 발견될 위험도 53%쯤 낮았습니다. 이 결과의 원값은 HR 0.47, 95% CI 0.32~0.69입니다. 한국 국가암검진은 20세 이상 여성이 대상입니다. 2년마다 자궁경부 세포검사를 합니다. 비용은 공단이 전부 냅니다.",
+      "changed": true,
+      "reason": "저자원 환경, 한 차례 검사, 양성자 정밀검사와 필요 치료, 일반 진료군 비교를 명시했습니다. 한국 검진 대상·주기는 유지했습니다.",
+      "exact_quotes": [
+        "In this cluster-randomized trial, 52 clusters of villages, with a total of 131,746 healthy women between the ages of 30 and 59 years, were randomly assigned to four groups of 13 clusters each.",
+        "Women who had positive results on screening underwent colposcopy and directed biopsies, and those with cervical precancerous lesions or cancer received appropriate treatment.",
+        "In a low-resource setting, a single round of HPV testing was associated with a significant reduction in the numbers of advanced cervical cancers and deaths from cervical cancer.",
+        "There were 34 deaths from cancer in the HPV-testing group, as compared with 64 in the control group (hazard ratio, 0.52; 95% CI, 0.33 to 0.83)."
+      ],
+      "url": "https://doi.org/10.1056/NEJMoa0808516"
+    },
+    {
+      "field": "근거등급",
+      "before": "A",
+      "after": "A",
+      "changed": false,
+      "reason": "변경 없음. 기존 사실·태그·근거등급·출처 보존.",
+      "exact_quotes": [],
+      "url": null
+    },
+    {
+      "field": "출처",
+      "before": "Sankaranarayanan R 외 (2009). HPV screening for cervical cancer in rural India. New England Journal of Medicine. https://doi.org/10.1056/NEJMoa0808516 · 「암관리법 시행령」 별표 1 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=281743 · 암검진 실시기준(보건복지부고시 제2025-220호) 제11조·별표 1 https://www.law.go.kr/admRulLsInfoP.do?admRulSeq=2100000270432",
+      "after": "Sankaranarayanan R 외 (2009). HPV screening for cervical cancer in rural India. New England Journal of Medicine. https://doi.org/10.1056/NEJMoa0808516 · 「암관리법 시행령」 별표 1 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=281743 · 암검진 실시기준(보건복지부고시 제2025-220호) 제11조·별표 1 https://www.law.go.kr/admRulLsInfoP.do?admRulSeq=2100000270432",
+      "changed": false,
+      "reason": "변경 없음. 기존 사실·태그·근거등급·출처 보존.",
+      "exact_quotes": [],
+      "url": null
+    },
+    {
+      "field": "비고",
+      "before": "백신이 모든 유형을 막지는 못하므로 HPV 백신을 맞은 사람도 검진을 받아야 합니다. 이 연구처럼 검진을 무작위로 배정하고 사망자 수를 직접 잰 시험은 드뭅니다. 검진을 단 한 번만 했다는 점도 흔치 않습니다. 한국 국가검진은 HPV 검사가 아니라 세포검사로 합니다. HPV 검사를 따로 받을지는 의사와 상의하세요. 2026-10-10 법령·고시 확인(국가법령정보센터).",
+      "after": "백신이 모든 유형을 막지는 못하므로 HPV 백신을 맞은 사람도 검진을 받아야 합니다. 이 연구처럼 검진을 무작위로 배정하고 사망자 수를 직접 잰 시험은 드뭅니다. 한 차례 검진 뒤 필요한 치료까지 한 시험입니다. 평생 검진을 한 번만 받으라는 뜻은 아닙니다. 제목의 30세는 한국 국가검진의 시작 나이가 아닙니다. 한국 국가검진은 20세부터 세포검사로 합니다. HPV 검사를 따로 받을지는 의사와 상의하세요. 2026-10-10 법령·고시 확인(국가법령정보센터).",
+      "changed": true,
+      "reason": "평생 1회 권고가 아님을 명시하고 제목 30세와 한국 세포검사 시작 20세를 구분했습니다.",
+      "exact_quotes": [
+        "In this cluster-randomized trial, 52 clusters of villages, with a total of 131,746 healthy women between the ages of 30 and 59 years, were randomly assigned to four groups of 13 clusters each.",
+        "Women who had positive results on screening underwent colposcopy and directed biopsies, and those with cervical precancerous lesions or cancer received appropriate treatment.",
+        "In a low-resource setting, a single round of HPV testing was associated with a significant reduction in the numbers of advanced cervical cancers and deaths from cervical cancer.",
+        "There were 34 deaths from cancer in the HPV-testing group, as compared with 64 in the control group (hazard ratio, 0.52; 95% CI, 0.33 to 0.83)."
+      ],
+      "url": "https://doi.org/10.1056/NEJMoa0808516"
+    }
+  ],
+  "intentional_numeric_scope_changes": [
+    "평생 딱 한 번을 삭제하고 시험의 한 차례 HPV 검사로 제한.",
+    "30~59세 인도 농촌 여성 및 양성 후 정밀검사·필요 치료 조건을 쉽게에도 복원.",
+    "48%·53%와 HR·CI 원값은 변경 없음. 쉽게의 절반쯤은 48%의 근사 요약.",
+    "쉽게에서 진행암 요약과 한국 주기를 덜어냈으며 이득·비고·비용에 보존.",
+    "제목 30세 문구, 한국 세포검사 시작 20세·2년 주기 모두 유지."
+  ],
+  "validation": {
+    "easy_chars": 100,
+    "easy_sentences": 4,
+    "heading_tags_grade_source_unchanged": true,
+    "final_md_unchanged": true,
+    "approval_or_publication": false
+  }
+}

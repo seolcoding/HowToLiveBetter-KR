@@ -1,0 +1,115 @@
+{
+  "status": "unadopted_proposal",
+  "entry": 33,
+  "fields": {
+    "heading": {
+      "before": "### 33. '살려 내면 그만'이라고 기대지 마세요. 농약이나 연탄가스 뒤 응급실이 지키는 것은 목숨이지, 폐와 뇌가 아닙니다",
+      "after": "### 33. 농약·연탄가스 뒤에는 후유증이 남을 수 있습니다. '살려 내면 그만'이라고 기대지 마세요",
+      "reason": "치료가 폐·뇌를 보호하지 못한다는 절대 단정을 후유증 가능성으로 바로잡음. 농약·연탄가스·후유증 참조어 보존.",
+      "evidence": [
+        {
+          "url": "https://doi.org/10.1056/NEJMoa013121",
+          "quote": "Cognitive sequelae at six weeks were less frequent in the hyperbaric-oxygen group (19 of 76 [25.0 percent]) than in the normobaric-oxygen group (35 of 76 [46.1 percent], P=0.007)",
+          "cached_at": "2026-10-18T12:01:11.030652+00:00",
+          "method": "2026-10-18 기존 Europe PMC 초록 캐시 직접 열람. 신규 HTTP 요청 없음."
+        }
+      ]
+    },
+    "비용": {
+      "before": "돈이 안 듭니다. 이 사실을 미리 알아 두기만 하면 됩니다.",
+      "after": "돈이 안 듭니다. 이 사실을 미리 알아 두기만 하면 됩니다.",
+      "reason": "보존",
+      "intentional_numeric_scope_change": false,
+      "evidence": []
+    },
+    "쉽게": {
+      "before": "파라콰트는 해독제가 없습니다. 마신 사람 열에 넷 넘게 살리지 못합니다. 폐가 점점 굳고 콩팥과 간도 다칩니다. 일산화탄소 중독에서 살아난 사람을 살펴봤습니다. 6주 뒤 절반 가까이 인지 기능이 전과 달랐습니다.",
+      "after": "파라콰트는 해독제가 없습니다. 방글라데시에서 자료를 분석한 환자는 열에 넷 넘게 숨졌습니다. 일산화탄소에 중독되면 치료 뒤에도 기억력에 문제가 남을 수 있습니다. 모두에게 같은 결과가 생기는 것은 아닙니다.",
+      "reason": "자료를 분석한 방글라데시 환자에 한정해 43.2%를 열에 넷 넘게로 풀었습니다. 일산화탄소는 치료 뒤에도 기억력 문제가 남을 가능성으로 표현했습니다. 표본수·치료군명·정확한 군별 수치는 이득에 보존하고 쉽게에서 전문어를 덜었습니다. 모두에게 같은 결과가 생기는 것은 아니라는 제한을 붙였습니다.",
+      "intentional_numeric_scope_change": true,
+      "evidence": [
+        {
+          "url": "https://doi.org/10.1056/NEJMoa013121",
+          "quote": "Cognitive sequelae at six weeks were less frequent in the hyperbaric-oxygen group (19 of 76 [25.0 percent]) than in the normobaric-oxygen group (35 of 76 [46.1 percent], P=0.007)",
+          "cached_at": "2026-10-18T12:01:11.030652+00:00",
+          "method": "2026-10-18 기존 Europe PMC 초록 캐시 직접 열람. 신규 HTTP 요청 없음."
+        },
+        {
+          "url": "https://doi.org/10.4269/ajtmh.25-0719",
+          "quote": "A total of 1,420 patients were reported across sites between 2013 and 2024, and 257 patients' data were available for analysis.",
+          "additional_quote": "The case fatality rate was 43.2%, with a 95% CI (23.6-27.7).",
+          "cached_at": "2026-10-18T20:49:48.527778+09:00",
+          "method": "2026-10-18 medical-doi-cache-index.json에서 원본 경로를 찾아 Europe PMC 초록 캐시 직접 열람. 신규 HTTP 요청 없음. 초록의 43.2%와 CI는 내부 불일치가 있어 CI는 추가하지 않음."
+        }
+      ]
+    },
+    "이득": {
+      "before": "파라콰트 중독 체계적 종설에 따르면 치명률이 매우 높습니다. 독성이 강한데 효과적인 치료가 없기 때문입니다. 파라콰트는 농도 차를 거슬러 폐 조직으로 능동적으로 옮겨집니다. 그 결과 폐렴과 폐섬유화가 생기고 콩팥과 간도 다칩니다. 종설은 위세척을 하지 말라고 권고합니다. 혈액투석과 혈액관류는 경과를 바꾸기 어렵습니다. 스테로이드와 면역억제제의 효과 근거는 약합니다. \"치료 방법이 크게 달라도 모든 기관의 치명률이 높다\"고도 설명합니다. 방글라데시 3차 병원 10곳에서 중독 사례를 살폈습니다. 2013~2024년 1,420건을 받았습니다. 그 가운데 분석할 수 있는 257건의 치명률은 43.2%였습니다. 흔한 증상은 급성 신부전으로 생긴 다리 부종(71.2%)이었습니다. 구토는 65.8%, 복통은 58.0%였습니다. 급성 일산화탄소 중독 시험은 이중맹검 무작위 시험입니다. 두 무리는 각 76명으로 구성됐습니다. 의사도 환자도 어느 무리인지 몰랐습니다. 6주째 인지 후유증이 남은 사람은 고압산소 쪽 19/76(25.0%)이었습니다. 상압산소 쪽은 35/76(46.1%)이었습니다(P=0.007). 다른 요인을 보정한 값은 OR 0.45로 나왔습니다. 신뢰구간은 95% CI 0.22~0.92입니다. 환자 73명을 연속으로 관찰한 다른 연구도 있습니다. 30%가 인지 후유증을, 12%가 뇌 백질 고신호를 보였습니다. 한국은 2011~12년 파라콰트를 규제해 금지했습니다. 그 뒤 농약 자살 사망률이 절반이 됐습니다. 2011년 10만 명당 5.26명에서 2013년 2.67명으로 내려갔습니다.",
+      "after": "파라콰트 중독 체계적 종설에 따르면 치명률이 매우 높습니다. 독성이 강한데 효과적인 치료가 없기 때문입니다. 파라콰트는 농도 차를 거슬러 폐 조직으로 능동적으로 옮겨집니다. 그 결과 폐렴과 폐섬유화가 생기고 콩팥과 간도 다칩니다. 종설은 위세척을 하지 말라고 권고합니다. 혈액투석과 혈액관류는 경과를 바꾸기 어렵습니다. 스테로이드와 면역억제제의 효과 근거는 약합니다. \"치료 방법이 크게 달라도 모든 기관의 치명률이 높다\"고도 설명합니다. 방글라데시 3차 병원 10곳에서 중독 사례를 살폈습니다. 2013~2024년 1,420건이 보고됐습니다. 그중 분석할 수 있는 자료는 257건이었습니다. 이 257건의 치명률은 43.2%였습니다. 흔한 증상은 급성 신부전으로 생긴 다리 부종(71.2%)이었습니다. 구토는 65.8%, 복통은 58.0%였습니다. 급성 일산화탄소 중독 시험은 이중맹검 무작위 시험입니다. 두 무리는 각 76명으로 구성됐습니다. 의사도 환자도 어느 무리인지 몰랐습니다. 6주째 인지 후유증이 남은 사람은 고압산소군 19/76(25.0%)이었습니다. 상압산소군은 35/76(46.1%)이었습니다(P=0.007). 다른 요인을 보정한 값은 OR 0.45로 나왔습니다. 신뢰구간은 95% CI 0.22~0.92입니다. 환자 73명을 연속으로 관찰한 다른 연구도 있습니다. 30%가 인지 후유증을, 12%가 뇌 백질 고신호를 보였습니다. 한국은 2011~12년 파라콰트를 규제해 금지했습니다. 그 뒤 농약 자살 사망률이 절반이 됐습니다. 2011년 10만 명당 5.26명에서 2013년 2.67명으로 내려갔습니다.",
+      "reason": "분석 가능한 방글라데시 표본과 일산화탄소 치료군별 분모를 명확히 함. 쉽게에서는 잘못 일반화한 열에 넷·생존자 절반을 연구값과 군별 결과로 교체.",
+      "intentional_numeric_scope_change": true,
+      "evidence": [
+        {
+          "url": "https://doi.org/10.1056/NEJMoa013121",
+          "quote": "Cognitive sequelae at six weeks were less frequent in the hyperbaric-oxygen group (19 of 76 [25.0 percent]) than in the normobaric-oxygen group (35 of 76 [46.1 percent], P=0.007)",
+          "cached_at": "2026-10-18T12:01:11.030652+00:00",
+          "method": "2026-10-18 기존 Europe PMC 초록 캐시 직접 열람. 신규 HTTP 요청 없음."
+        },
+        {
+          "url": "https://doi.org/10.4269/ajtmh.25-0719",
+          "quote": "A total of 1,420 patients were reported across sites between 2013 and 2024, and 257 patients' data were available for analysis.",
+          "additional_quote": "The case fatality rate was 43.2%, with a 95% CI (23.6-27.7).",
+          "cached_at": "2026-10-18T20:49:48.527778+09:00",
+          "method": "2026-10-18 medical-doi-cache-index.json에서 원본 경로를 찾아 Europe PMC 초록 캐시 직접 열람. 신규 HTTP 요청 없음. 초록의 43.2%와 CI는 내부 불일치가 있어 CI는 추가하지 않음."
+        }
+      ]
+    },
+    "근거등급": {
+      "before": "B",
+      "after": "B",
+      "reason": "보존",
+      "intentional_numeric_scope_change": false,
+      "evidence": []
+    },
+    "출처": {
+      "before": "Gawarammana IB, Buckley NA (2011). Medical management of paraquat ingestion. British Journal of Clinical Pharmacology, 72(5), 745-757. https://doi.org/10.1111/j.1365-2125.2011.04026.x · Chowdhury FR 외 (2026). Clinical and Laboratory Profile of Paraquat Poisoning: A Toxicological Crisis in Bangladesh. American Journal of Tropical Medicine and Hygiene, 115, 176-182. https://doi.org/10.4269/ajtmh.25-0719 · Weaver LK, Hopkins RO, Chan KJ, et al. (2002). Hyperbaric oxygen for acute carbon monoxide poisoning. New England Journal of Medicine, 347(14), 1057-1067. https://doi.org/10.1056/NEJMoa013121 · Parkinson RB, Hopkins RO, Cleavinger HB, et al. (2002). White matter hyperintensities and neuropsychological outcome following carbon monoxide poisoning. Neurology, 58(10), 1525-1532. https://doi.org/10.1212/wnl.58.10.1525 · Cha ES 외 (2016). Impact of paraquat regulation on suicide in South Korea. International Journal of Epidemiology. https://doi.org/10.1093/ije/dyv304",
+      "after": "Gawarammana IB, Buckley NA (2011). Medical management of paraquat ingestion. British Journal of Clinical Pharmacology, 72(5), 745-757. https://doi.org/10.1111/j.1365-2125.2011.04026.x · Chowdhury FR 외 (2026). Clinical and Laboratory Profile of Paraquat Poisoning: A Toxicological Crisis in Bangladesh. American Journal of Tropical Medicine and Hygiene, 115, 176-182. https://doi.org/10.4269/ajtmh.25-0719 · Weaver LK, Hopkins RO, Chan KJ, et al. (2002). Hyperbaric oxygen for acute carbon monoxide poisoning. New England Journal of Medicine, 347(14), 1057-1067. https://doi.org/10.1056/NEJMoa013121 · Parkinson RB, Hopkins RO, Cleavinger HB, et al. (2002). White matter hyperintensities and neuropsychological outcome following carbon monoxide poisoning. Neurology, 58(10), 1525-1532. https://doi.org/10.1212/wnl.58.10.1525 · Cha ES 외 (2016). Impact of paraquat regulation on suicide in South Korea. International Journal of Epidemiology. https://doi.org/10.1093/ije/dyv304",
+      "reason": "보존",
+      "intentional_numeric_scope_change": false,
+      "evidence": []
+    },
+    "비고": {
+      "before": "이 연구들은 중독 환자 전체를 대상으로 합니다. 자살 시도자만 다루지 않아 B로 매겼습니다. 일산화탄소 시험에는 사고로 중독된 사람도 들어 있습니다. 위 후유증 비율을 '자살 시도자의 결과 확률'로 쓸 수 없습니다. 살아남아도 후유증이 없으리라는 보장은 없습니다. 일산화탄소 중독과 농약·약물을 잘못 삼켰을 때의 대처는 제13절(응급상황)을 보세요. 집에 농약과 수면제를 쌓아 두지 않는 것은 제25항(109에 전화하기)을 보세요. 이 책은 방법별 치명률을 비교하지 않습니다. 구체적인 방법도 쓰지 않습니다.",
+      "after": "이 연구들은 중독 환자를 대상으로 합니다. 자살 시도자만 다루지 않아 B로 매겼습니다. 일산화탄소 시험에는 사고로 중독된 사람도 들어 있습니다. 일산화탄소 시험의 비율은 치료군별 결과입니다. 방글라데시 치명률은 분석 가능한 257건의 값입니다. 위 후유증 비율을 '자살 시도자의 결과 확률'로 쓸 수 없습니다. 살아남아도 후유증이 없으리라는 보장은 없습니다. 일산화탄소 중독과 농약·약물을 잘못 삼켰을 때의 대처는 제13절(응급상황)을 보세요. 집에 농약과 수면제를 쌓아 두지 않는 것은 제25항(109에 전화하기)을 보세요. 이 책은 방법별 치명률을 비교하지 않습니다. 구체적인 방법도 쓰지 않습니다.",
+      "reason": "분석 가능한 방글라데시 표본과 일산화탄소 치료군별 분모를 명확히 함. 쉽게에서는 잘못 일반화한 열에 넷·생존자 절반을 연구값과 군별 결과로 교체.",
+      "intentional_numeric_scope_change": true,
+      "evidence": [
+        {
+          "url": "https://doi.org/10.1056/NEJMoa013121",
+          "quote": "Cognitive sequelae at six weeks were less frequent in the hyperbaric-oxygen group (19 of 76 [25.0 percent]) than in the normobaric-oxygen group (35 of 76 [46.1 percent], P=0.007)",
+          "cached_at": "2026-10-18T12:01:11.030652+00:00",
+          "method": "2026-10-18 기존 Europe PMC 초록 캐시 직접 열람. 신규 HTTP 요청 없음."
+        },
+        {
+          "url": "https://doi.org/10.4269/ajtmh.25-0719",
+          "quote": "A total of 1,420 patients were reported across sites between 2013 and 2024, and 257 patients' data were available for analysis.",
+          "additional_quote": "The case fatality rate was 43.2%, with a 95% CI (23.6-27.7).",
+          "cached_at": "2026-10-18T20:49:48.527778+09:00",
+          "method": "2026-10-18 medical-doi-cache-index.json에서 원본 경로를 찾아 Europe PMC 초록 캐시 직접 열람. 신규 HTTP 요청 없음. 초록의 43.2%와 CI는 내부 불일치가 있어 CI는 추가하지 않음."
+        }
+      ]
+    }
+  },
+  "intentional_numeric_scope_change": true,
+  "쉽게_chars": 115,
+  "length_exception": false,
+  "validation": "태그와 근거등급 유지. strict final.md·입력·스냅샷 변경 없음.",
+  "source_limitations": "변경된 핵심 분모와 군별 수치는 캐시 초록에서 대조. 나머지 기존 세부사항의 신규 검증을 뜻하지 않음.",
+  "revision_history": [
+    {
+      "revision": "batch1_revise",
+      "previous_easy": "파라콰트는 해독제가 없습니다. 방글라데시에서 분석한 257명의 43.2%가 숨졌습니다. 일산화탄소 시험의 6주 인지 후유증은 고압산소군 25%, 상압산소군 46.1%였습니다. 자살 시도자만의 결과는 아닙니다.",
+      "reason": "독립 심사에서 일반 독자용 쉬운 문장 재작성을 요구함. 제안과 변경 JSON의 이전 버전은 .before-batch1-revise로 보존."
+    }
+  ]
+}

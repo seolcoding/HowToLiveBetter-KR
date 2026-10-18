@@ -1,0 +1,109 @@
+{
+  "entry": 23,
+  "status": "unadopted_proposal",
+  "summary": "치료 배정 기준과 고위험 지역 범위를 복원하고 가족 전원 자동 제균 권고를 상담으로 제한했습니다.",
+  "source": {
+    "doi": "10.1136/bmj.l5016",
+    "chapters": [
+      1
+    ],
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1136%2Fbmj.l5016%22&format=json&resultType=core&pageSize=10",
+    "fetched_at": "2026-10-18T20:49:44.823577+09:00",
+    "http_status": 200,
+    "status": "exact_doi_metadata_cached",
+    "sha256": "b498badd438aef89d320599e537a9a01a2aaf6355b533fb200258f48c178e519",
+    "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/0b2608858da3fe59f9be.json",
+    "hit_count": 1,
+    "abstract_present": true
+  },
+  "read_method": "cached_abstract_direct_read_no_new_http",
+  "source_limitations": "가족 상담 안내는 근거 범위를 넘는 일괄 처방을 줄인 편집입니다. 이 초록이 가족 검사·치료 지침 자체를 입증하지는 않습니다. 기존 다른 사실은 이번에 새로 검증하지 않았습니다.",
+  "changes": [
+    {
+      "field": "비용",
+      "before": "숨을 불어 넣는 요소호기검사로 병원에서 확인합니다. 균을 없애는 제균 치료는 약을 2주 동안 먹습니다. 2주 동안 정해진 시간에 빠짐없이 먹는 게 어렵습니다.",
+      "after": "숨을 불어 넣는 요소호기검사로 병원에서 확인합니다. 균을 없애는 제균 치료는 약을 2주 동안 먹습니다. 2주 동안 정해진 시간에 빠짐없이 먹는 게 어렵습니다.",
+      "changed": false,
+      "reason": "변경 없음. 기존 사실·등급·출처를 보존했습니다.",
+      "exact_quote": null,
+      "url": null,
+      "checked_date": null,
+      "method": null,
+      "intentional_numeric_scope_change": false
+    },
+    {
+      "field": "쉽게",
+      "before": "헬리코박터균을 없앤 사람은 나중에 위암에 걸릴 확률이 절반쯤 낮았습니다. 위암으로 죽을 확률도 40%쯤 낮았습니다.",
+      "after": "중국의 위암 고위험 지역 주민을 살펴봤습니다. 헬리코박터 항체 양성자 중 치료받도록 정해진 사람의 결과입니다. 22년 동안 위암 위험은 절반쯤 낮았습니다. 위암 사망 위험도 40%쯤 낮았습니다.",
+      "changed": true,
+      "reason": "연구 설계 용어를 덜고 고위험 지역·항체 양성자·치료 배정 기준과 22년 범위를 쉬운 문장으로 보존했습니다.",
+      "exact_quote": "2258 participants seropositive for antibodies to <i>H pylori</i> were randomly assigned to <i>H pylori</i> treatment, vitamin supplementation, garlic supplementation, or their placebos in a 2×2×2 factorial design",
+      "url": "https://doi.org/10.1136/bmj.l5016",
+      "checked_date": "2026-10-18",
+      "method": "기존 Europe PMC 원시 JSON의 캐시 초록 직접 열람; 새 HTTP 요청 없음",
+      "intentional_numeric_scope_change": "수치 크기는 유지. 성공적 제균자 전체라는 범위를 고위험 지역 항체 양성자의 치료 배정군으로 제한. 22년 추가.",
+      "exact_quotes": [
+        "2258 participants seropositive for antibodies to <i>H pylori</i> were randomly assigned to <i>H pylori</i> treatment, vitamin supplementation, garlic supplementation, or their placebos in a 2×2×2 factorial design",
+        "3365 residents of a high risk region for gastric cancer.",
+        "A protective effect of <i>H pylori</i> treatment on gastric cancer incidence persisted 22 years post-intervention (odds ratio 0.48, 95% confidence interval 0.32 to 0.71).",
+        "fully adjusted hazard ratio for <i>H pylori</i> treatment was 0.62 (95% confidence interval 0.39 to 0.99)"
+      ]
+    },
+    {
+      "field": "이득",
+      "before": "중국 린취에서 한 무작위 시험을 22년 동안 따라갔습니다. 헬리코박터 제균 치료를 받은 사람은 위암 위험이 절반쯤 낮았습니다. 원값은 OR 0.48, 95% CI 0.32~0.71입니다. 위암 사망 위험은 38%쯤 낮았습니다(HR 0.62, 95% CI 0.39~0.99).",
+      "after": "중국 린취의 위암 고위험 지역에서 한 무작위 시험입니다. 헬리코박터 항체 양성자 2258명을 나눠 배정했습니다. 제균 치료에 배정된 사람과 위약에 배정된 사람을 비교했습니다. 22년 동안 따라갔습니다. 치료 배정군의 위암 위험은 절반쯤 낮았습니다. 원값은 OR 0.48, 95% CI 0.32~0.71입니다. 위암 사망 위험은 38%쯤 낮았습니다. HR 0.62, 95% CI 0.39~0.99입니다.",
+      "changed": true,
+      "reason": "항체 양성자 2258명의 치료 배정군과 위약 배정군 비교임을 명시했습니다. 수치는 보존했습니다.",
+      "exact_quote": "2258 participants seropositive for antibodies to <i>H pylori</i> were randomly assigned to <i>H pylori</i> treatment, vitamin supplementation, garlic supplementation, or their placebos in a 2×2×2 factorial design",
+      "url": "https://doi.org/10.1136/bmj.l5016",
+      "checked_date": "2026-10-18",
+      "method": "기존 Europe PMC 원시 JSON의 캐시 초록 직접 열람; 새 HTTP 요청 없음",
+      "intentional_numeric_scope_change": "수치 크기는 유지. 표본 2258명과 치료·위약 배정 범위를 복원.",
+      "exact_quotes": [
+        "2258 participants seropositive for antibodies to <i>H pylori</i> were randomly assigned to <i>H pylori</i> treatment, vitamin supplementation, garlic supplementation, or their placebos in a 2×2×2 factorial design",
+        "3365 residents of a high risk region for gastric cancer.",
+        "A protective effect of <i>H pylori</i> treatment on gastric cancer incidence persisted 22 years post-intervention (odds ratio 0.48, 95% confidence interval 0.32 to 0.71).",
+        "fully adjusted hazard ratio for <i>H pylori</i> treatment was 0.62 (95% confidence interval 0.39 to 0.99)"
+      ]
+    },
+    {
+      "field": "근거등급",
+      "before": "A",
+      "after": "A",
+      "changed": false,
+      "reason": "변경 없음. 기존 사실·등급·출처를 보존했습니다.",
+      "exact_quote": null,
+      "url": null,
+      "checked_date": null,
+      "method": null,
+      "intentional_numeric_scope_change": false
+    },
+    {
+      "field": "출처",
+      "before": "Li WQ 외 (2019). Effects of Helicobacter pylori treatment and vitamin and garlic supplementation on gastric cancer incidence and mortality: follow-up of a randomized intervention trial. BMJ. https://doi.org/10.1136/bmj.l5016 · 「암관리법 시행령」 별표 1 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=281743 · 암검진 실시기준(보건복지부고시 제2025-220호) 별표 1 https://www.law.go.kr/admRulLsInfoP.do?admRulSeq=2100000270432",
+      "after": "Li WQ 외 (2019). Effects of Helicobacter pylori treatment and vitamin and garlic supplementation on gastric cancer incidence and mortality: follow-up of a randomized intervention trial. BMJ. https://doi.org/10.1136/bmj.l5016 · 「암관리법 시행령」 별표 1 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=281743 · 암검진 실시기준(보건복지부고시 제2025-220호) 별표 1 https://www.law.go.kr/admRulLsInfoP.do?admRulSeq=2100000270432",
+      "changed": false,
+      "reason": "변경 없음. 기존 사실·등급·출처를 보존했습니다.",
+      "exact_quote": null,
+      "url": null,
+      "checked_date": null,
+      "method": null,
+      "intentional_numeric_scope_change": false
+    },
+    {
+      "field": "비고",
+      "before": "제균 뒤에도 다시 감염될 수 있습니다. 그래서 가족이 함께 검사하고 함께 치료하세요. 이 시험은 위암이 많은 지역 주민을 대상으로 했습니다. 위암이 드문 지역에 사는 사람이 얻는 이득은 훨씬 작습니다. 한국 국가암검진은 40세 이상에게 2년마다 위암 검진을 합니다. 검사는 위내시경이 기본입니다. 헬리코박터 검사를 받을지는 그때 의사와 상의하세요. 2026-10-10 법령·고시 확인(국가법령정보센터).",
+      "after": "제균 뒤에도 다시 감염될 수 있습니다. 가족도 검사 필요 여부를 의사와 상의하세요. 감염이 확인되면 치료 필요 여부도 상의하세요. 이 시험은 위암이 많은 지역 주민을 대상으로 했습니다. 위암이 드문 지역에 사는 사람이 얻는 이득은 훨씬 작습니다. 한국 국가암검진은 40세 이상에게 2년마다 위암 검진을 합니다. 검사는 위내시경이 기본입니다. 헬리코박터 검사를 받을지는 그때 의사와 상의하세요. 2026-10-10 법령·고시 확인(국가법령정보센터).",
+      "changed": true,
+      "reason": "이 시험은 가족 전원 동시 제균을 검증하지 않았습니다. 가족 상담과 검사 필요 여부, 감염 확인 후 치료 상담으로 제한했습니다.",
+      "exact_quote": "2258 participants seropositive for antibodies to <i>H pylori</i> were randomly assigned to <i>H pylori</i> treatment, vitamin supplementation, garlic supplementation, or their placebos in a 2×2×2 factorial design",
+      "url": "https://doi.org/10.1136/bmj.l5016",
+      "checked_date": "2026-10-18",
+      "method": "기존 Europe PMC 원시 JSON의 캐시 초록 직접 열람; 새 HTTP 요청 없음",
+      "intentional_numeric_scope_change": "가족 전원 자동 치료 범위를 제거. 수치 변경 없음."
+    }
+  ],
+  "easy_chars": 108,
+  "review_revision": "쉽게의 시험·치료군·비교군 표현을 일상어로 수정. 설계 설명은 이득에 유지."
+}
