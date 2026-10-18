@@ -1,0 +1,227 @@
+{
+  "entry": 27,
+  "status": "unadopted_proposal",
+  "basis": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-027-f02c/strict-entry.md",
+  "basis_sha256": "62d33b5bc13b17b5f48f854f6bffd312aafc612e3734aa0fdc92963962020830",
+  "changes": [
+    {
+      "field": "title",
+      "before": "### 27. 하루 5인분(약 400g) 과일과 채소를 채우세요",
+      "after": "### 27. 하루 과일 2인분과 채소 3인분을 채우세요",
+      "reason": "Remove unsupported uniform 400g equivalence; retain daily five servings as 2 fruit plus 3 vegetables."
+    },
+    {
+      "field": "쉽게",
+      "before": "과일과 채소를 하루 200g 더 먹으면 같은 기간 죽을 확률이 10%쯤 낮습니다. 하루 5인분을 먹는 사람은 2인분 먹는 사람보다 죽을 확률이 약 13% 낮습니다. 그보다 더 먹어도 위험이 더 낮아지지는 않았습니다.",
+      "after": "하루 과일 2인분과 채소 3인분을 먹는 사람이 덜 사망했습니다. 그보다 더 먹어도 추가 차이는 뚜렷하지 않았습니다. 먹는 양을 늘리면 그만큼 효과가 난다는 뜻은 아닙니다.",
+      "reason": "Use association and no guaranteed causal benefit, removing cumulative probability interpretation."
+    },
+    {
+      "field": "이득",
+      "before": "여러 추적 연구를 합친 결과입니다. 연구진은 먹는 양을 기록했으며 집단을 나눠 배정하지 않았습니다. 하루 200g 더 먹은 사람은 사망 위험이 약 10% 낮았습니다(RR 0.90). 이 이득은 하루 800g까지 이어졌습니다. 다른 메타분석은 미국의 대규모 추적 연구 두 개를 포함합니다. 총 26개 코호트를 합친 결과입니다. 하루 5인분을 먹는 사람은 2인분 먹는 사람보다 사망 위험이 약 13% 낮았습니다. HR은 0.87입니다. 가장 좋은 조합은 과일 2인분과 채소 3인분이었습니다. 이 양을 넘으면 사망 위험이 더 낮아지지는 않았습니다.",
+      "after": "여러 추적 연구를 합친 결과입니다. 연구진은 먹는 양을 기록했으며 집단을 나눠 배정하지 않았습니다. Aune 연구는 하루 200g 차이당 전체 사망을 비교했습니다. 상대적인 위험의 비율인 RR은 0.90이었습니다. 약 10% 낮은 위험과 관련됐다는 뜻입니다. 낮은 사망 위험과의 관련은 하루 800g까지 관찰됐습니다. 이 연구에서 1인분은 80g으로 계산했습니다. Wang 연구는 미국의 대규모 추적 연구 두 개를 분석했습니다. 시작 때 심혈관질환·암·당뇨병이 없던 남녀를 추적했습니다. 하루 5인분은 2인분보다 전체 사망의 HR이 0.87이었습니다. HR은 추적 중 각 시점의 사망 발생률을 비교한 값입니다. 같은 기간 죽을 확률이 13% 낮다는 뜻은 아닙니다. 이 두 연구와 다른 24개 연구도 합쳤습니다. 총 26개 연구의 전체 사망 RR도 0.87이었습니다. 과일 2인분과 채소 3인분에서 사망 위험이 가장 낮았습니다. 이 양을 넘으면 사망 위험이 더 낮아지지는 않았습니다.",
+      "reason": "Separate two US cohort HR from 26-study summary RR; preserve endpoint and comparison; distinguish Aune dose definition."
+    },
+    {
+      "field": "비고",
+      "before": "5인분이면 충분합니다. 10인분까지 억지로 채울 필요는 없습니다. 두 연구가 제시한 섭취량 기준은 서로 다릅니다. 두 연구 모두 추적 기록을 분석했습니다. 다른 요인이 결과에 미치는 영향도 뚜렷합니다. 채소를 많이 먹는 사람은 소득과 교육 수준도 다릅니다. 운동 습관도 다릅니다. \"위험 약 10% 낮음\"은 상한선으로 보세요.",
+      "after": "두 연구가 제시한 섭취량 기준은 서로 다릅니다. 5인분을 두 연구에서 모두 정확히 400g으로 보지는 마세요. Wang 연구의 권고에는 과일주스와 감자가 포함되지 않습니다. 완두콩·옥수수 등 전분 많은 채소도 같은 관련을 보이지 않았습니다. 5인분을 목표로 하되 10인분까지 억지로 채울 필요는 없습니다. 두 연구 모두 추적 기록을 분석했습니다. 채소를 많이 먹는 사람은 소득과 교육 수준도 다릅니다. 운동 습관도 다릅니다. 이런 다른 요인이 결과에 영향을 미칠 수 있습니다. \"위험 약 10% 낮음\"만큼 효과가 보장되지는 않습니다.",
+      "reason": "Remove mathematically unverified upper bound and categorical sufficiency; scope food types and serving uncertainty; retain observational limitations."
+    }
+  ],
+  "unchanged_fields": [
+    "비용",
+    "근거등급",
+    "출처"
+  ],
+  "evidence": [
+    {
+      "doi": "10.1093/ije/dyw319",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5837313/fullTextXML",
+      "raw_path": "/tmp/ch02-audit/full-PMC5837313.body",
+      "raw_sha256": "0024f5772491aad3188ddc13676eb74dc2b13654ecbf69251144ac2e1fe0cfff",
+      "verified_at_utc": "2026-10-18T14:28:33.363200+00:00",
+      "method": "Reopened primary full-text XML; read abstract, dose-response methods, mortality Table 1 and discussion; not all supplements.",
+      "quotes": [
+        "We conducted linear dose-response analyses using the method by Greenland and Longnecker71 to calculate RRs and 95% CIs from the natural logarithm of the risk estimates across categories of intake. For each category of fruit and vegetable intake we used the mean or median if reported, and the midpoint of the upper and lower bound was estimated for the remaining studies. When extreme categories were open-ended we used the width of the adjacent interval to calculate an upper or lower cut-off value. Consistent with previous meta-analyses, we used 80 g as a serving size for fruit and vegetable intake.72,73 For specific fruit and vegetable types we used serving sizes as provided in a pooled analysis of cohort studies,74 but for some subtypes of fruits and vegetables which were not reported on in this publication we used 80 g as a serving size as well. We contacted the authors of six studies16,56,61,64,75,76 for information regarding the quantities of consumption for subtypes of fruits and vegetables or for more details of data which were only briefly described in the text, and all replied and provided supplementary information.16,56,61,64,75,76"
+      ],
+      "table_1_mortality_row": "All-cause mortality; Fruit and vegetables; Per 200 g/d; n=15; Cases=71160; Participants=959083; RR (95% CI)=0.90 (0.87–0.93)"
+    },
+    {
+      "doi": "10.1161/CIRCULATIONAHA.120.048996",
+      "url": "https://doi.org/10.1161/CIRCULATIONAHA.120.048996",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/931785f9c2296f3d6d44.json",
+      "raw_sha256": "1544c4c428468f2718619db887178e3ab38633b2c6c9101392864c5380959937",
+      "verified_at_utc": "2026-10-18T14:28:33.363200+00:00",
+      "method": "Reopened EuropePMC indexed primary abstract; full-text XML request returned HTTP 500; full text and food-specific serving table not independently verified.",
+      "quotes": [
+        "<h4>Background</h4>The optimal intake levels of fruit and vegetables for maintaining long-term health are uncertain.<h4>Methods</h4>We followed 66 719 women from the Nurses' Health Study (1984-2014) and 42 016 men from the Health Professionals Follow-up Study (1986-2014) who were free from cardiovascular disease (CVD), cancer, and diabetes at baseline. Diet was assessed using a validated semiquantitative food frequency questionnaire at baseline and updated every 2 to 4 years. We also conducted a dose-response meta-analysis, including results from our 2 cohorts and 24 other prospective cohort studies.<h4>Results</h4>We documented 33 898 deaths during the follow-up. After adjustment for known and suspected confounding variables and risk factors, we observed nonlinear inverse associations of fruit and vegetable intake with total mortality and cause-specific mortality attributable to cancer, CVD, and respiratory disease (all <i>P</i><sub>nonlinear</sub><0.001). Intake of ≈5 servings per day of fruit and vegetables, or 2 servings of fruit and 3 servings of vegetables, was associated with the lowest mortality, and above that level, higher intake was not associated with additional risk reduction. In comparison with the reference level (2 servings/d), daily intake of 5 servings of fruit and vegetables was associated with hazard ratios (95% CI) of 0.87 (0.85-0.90) for total mortality, 0.88 (0.83-0.94) for CVD mortality, 0.90 (0.86-0.95) for cancer mortality, and 0.65 (0.59-0.72) for respiratory disease mortality. The dose-response meta-analysis that included 145 015 deaths accrued in 1 892 885 participants yielded similar results (summary risk ratio of mortality for 5 servings/d=0.87 [95% CI, 0.85-0.88]; <i>P</i><sub>nonlinear</sub><0.001). Higher intakes of most subgroups of fruits and vegetables were associated with lower mortality, with the exception of starchy vegetables such as peas and corn. Intakes of fruit juices and potatoes were not associated with total and cause-specific mortality.<h4>Conclusions</h4>Higher intakes of fruit and vegetables were associated with lower mortality; the risk reduction plateaued at ≈5 servings of fruit and vegetables per day. These findings support current dietary recommendations to increase intake of fruits and vegetables, but not fruit juices and potatoes."
+      ]
+    }
+  ],
+  "doi_changes": {
+    "added": [],
+    "removed": [],
+    "reason": "Both primary sources retained unchanged."
+  },
+  "intentional_numerical_scope_changes": [
+    "400g removed from title: Aune uses 80g servings; cannot impose on Wang food-specific servings.",
+    "13% cumulative death probability removed; HR 0.87 belongs to 2 US cohorts; 26-study summary RR separately stated.",
+    "Wang baseline exclusions and juice/potato scope restored; peas/corn no inverse association.",
+    "10% is an observed relative association, not proven causal upper bound."
+  ],
+  "unresolved_limitations": [
+    "Domestic recommended intake not independently verified and not asserted.",
+    "Wang full text/food-specific serving definitions not reread; no conversion to grams is asserted.",
+    "No personal absolute death probability can be calculated from these estimates."
+  ],
+  "sentence_checks": [
+    {
+      "field": "쉽게",
+      "sentence": "하루 과일 2인분과 채소 3인분을 먹는 사람이 덜 사망했습니다.",
+      "len": 35
+    },
+    {
+      "field": "쉽게",
+      "sentence": "그보다 더 먹어도 추가 차이는 뚜렷하지 않았습니다.",
+      "len": 28
+    },
+    {
+      "field": "쉽게",
+      "sentence": "먹는 양을 늘리면 그만큼 효과가 난다는 뜻은 아닙니다.",
+      "len": 30
+    },
+    {
+      "field": "이득",
+      "sentence": "여러 추적 연구를 합친 결과입니다.",
+      "len": 19
+    },
+    {
+      "field": "이득",
+      "sentence": "연구진은 먹는 양을 기록했으며 집단을 나눠 배정하지 않았습니다.",
+      "len": 35
+    },
+    {
+      "field": "이득",
+      "sentence": "Aune 연구는 하루 200g 차이당 전체 사망을 비교했습니다.",
+      "len": 35
+    },
+    {
+      "field": "이득",
+      "sentence": "상대적인 위험의 비율인 RR은 0.90이었습니다.",
+      "len": 27
+    },
+    {
+      "field": "이득",
+      "sentence": "약 10% 낮은 위험과 관련됐다는 뜻입니다.",
+      "len": 24
+    },
+    {
+      "field": "이득",
+      "sentence": "낮은 사망 위험과의 관련은 하루 800g까지 관찰됐습니다.",
+      "len": 32
+    },
+    {
+      "field": "이득",
+      "sentence": "이 연구에서 1인분은 80g으로 계산했습니다.",
+      "len": 25
+    },
+    {
+      "field": "이득",
+      "sentence": "Wang 연구는 미국의 대규모 추적 연구 두 개를 분석했습니다.",
+      "len": 35
+    },
+    {
+      "field": "이득",
+      "sentence": "시작 때 심혈관질환·암·당뇨병이 없던 남녀를 추적했습니다.",
+      "len": 32
+    },
+    {
+      "field": "이득",
+      "sentence": "하루 5인분은 2인분보다 전체 사망의 HR이 0.87이었습니다.",
+      "len": 35
+    },
+    {
+      "field": "이득",
+      "sentence": "HR은 추적 중 각 시점의 사망 발생률을 비교한 값입니다.",
+      "len": 32
+    },
+    {
+      "field": "이득",
+      "sentence": "같은 기간 죽을 확률이 13% 낮다는 뜻은 아닙니다.",
+      "len": 29
+    },
+    {
+      "field": "이득",
+      "sentence": "이 두 연구와 다른 24개 연구도 합쳤습니다.",
+      "len": 25
+    },
+    {
+      "field": "이득",
+      "sentence": "총 26개 연구의 전체 사망 RR도 0.87이었습니다.",
+      "len": 30
+    },
+    {
+      "field": "이득",
+      "sentence": "과일 2인분과 채소 3인분에서 사망 위험이 가장 낮았습니다.",
+      "len": 33
+    },
+    {
+      "field": "이득",
+      "sentence": "이 양을 넘으면 사망 위험이 더 낮아지지는 않았습니다.",
+      "len": 30
+    },
+    {
+      "field": "비고",
+      "sentence": "두 연구가 제시한 섭취량 기준은 서로 다릅니다.",
+      "len": 26
+    },
+    {
+      "field": "비고",
+      "sentence": "5인분을 두 연구에서 모두 정확히 400g으로 보지는 마세요.",
+      "len": 34
+    },
+    {
+      "field": "비고",
+      "sentence": "Wang 연구의 권고에는 과일주스와 감자가 포함되지 않습니다.",
+      "len": 34
+    },
+    {
+      "field": "비고",
+      "sentence": "완두콩·옥수수 등 전분 많은 채소도 같은 관련을 보이지 않았습니다.",
+      "len": 37
+    },
+    {
+      "field": "비고",
+      "sentence": "5인분을 목표로 하되 10인분까지 억지로 채울 필요는 없습니다.",
+      "len": 35
+    },
+    {
+      "field": "비고",
+      "sentence": "두 연구 모두 추적 기록을 분석했습니다.",
+      "len": 22
+    },
+    {
+      "field": "비고",
+      "sentence": "채소를 많이 먹는 사람은 소득과 교육 수준도 다릅니다.",
+      "len": 30
+    },
+    {
+      "field": "비고",
+      "sentence": "운동 습관도 다릅니다.",
+      "len": 12
+    },
+    {
+      "field": "비고",
+      "sentence": "이런 다른 요인이 결과에 영향을 미칠 수 있습니다.",
+      "len": 28
+    },
+    {
+      "field": "비고",
+      "sentence": "\"위험 약 10% 낮음\"만큼 효과가 보장되지는 않습니다.",
+      "len": 31
+    }
+  ],
+  "easy_len": 95,
+  "self_approval": false
+}

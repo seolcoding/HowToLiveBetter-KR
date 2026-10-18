@@ -1,0 +1,333 @@
+{
+  "status": "unadopted_proposal",
+  "entry": 39,
+  "base": "strict-entry.md",
+  "base_sha256": "c2d20eb67ad15a3cb4a364a657ea803843126b724c716d790d1b284257673bf5",
+  "changes": [
+    {
+      "field": "쉽게",
+      "before": "야간 교대 근무자는 심혈관 질환 위험이 13%쯤 높습니다. 비교 대상은 야간 교대를 하지 않는 사람입니다. 심혈관 사망 위험은 27%쯤 높습니다. 오래 일할수록 위험이 커집니다. 야간 교대 5년마다 심혈관 질환이 7%쯤 더 늘어납니다. 야간 교대 근무 기간은 햇수로 계산하세요. 옮길 수 있으면 일찍 옮기세요. 야간 근무가 암을 유발한다는 근거는 통념보다 약합니다.",
+      "after": "야간 교대 5년마다 심혈관 질환 발생이 약 7% 높았습니다. 원인이라고 확정할 수는 없습니다. 근무 햇수를 세고, 옮길 수 있으면 일찍 옮기세요.",
+      "reason": "일상말로 한 가지 기간별 연관과 인과 한계·이동 가능 조건을 요약합니다.",
+      "evidence_ids": [
+        "cvd"
+      ]
+    },
+    {
+      "field": "이득",
+      "before": "연구자가 근무 형태를 배정하지는 않았습니다.",
+      "after": "연구자가 근무 형태를 배정하지는 않았습니다. 비교 대상은 야간 교대를 하지 않은 사람입니다. RR은 비교군과의 상대적인 위험 차이를 나타냅니다. 개인의 발병 확률이나 절대 증가분은 아닙니다. 신뢰구간은 추정치의 불확실성을 나타내는 범위입니다.",
+      "reason": "비교군과 상대지표·불확실성 의미를 설명합니다.",
+      "evidence_ids": [
+        "cvd"
+      ]
+    },
+    {
+      "field": "이득",
+      "before": "심혈관 사망 위험은 약 5% 더 높습니다. RR 1.05, 1.03–1.06.",
+      "after": "5년당 심혈관 사망의 RR은 1.05입니다. 95% 신뢰구간은 1.03–1.06입니다. 원문은 이를 4% 증가라고 적어 수치가 맞지 않습니다. 확인한 정정문이 없어 두 표기를 그대로 알립니다.",
+      "reason": "원문 4%와 RR1.05의 충돌을 조용히 재계산하지 않고 고지합니다.",
+      "evidence_ids": [
+        "cvd",
+        "correction-search"
+      ]
+    },
+    {
+      "field": "비고",
+      "before": "한 분석은 연구 12개·유방암 12,132건을 합쳤습니다.",
+      "after": "한 분석은 의료 종사자 대상 연구 12개를 합쳤습니다. 유방암은 12,132건이었습니다.",
+      "reason": "의료 종사자라는 모집단 범위를 복원합니다.",
+      "evidence_ids": [
+        "breast"
+      ]
+    },
+    {
+      "field": "비고",
+      "before": "다른 연구는 중국 남성을 16.1년 추적했습니다.",
+      "after": "다른 연구는 중국 남성을 추적했습니다. 추적 기간의 중앙값은 16.1년이었습니다.",
+      "reason": "16.1년은 전원 동일 기간이 아닌 중앙값입니다.",
+      "evidence_ids": [
+        "cancer"
+      ]
+    },
+    {
+      "field": "비고",
+      "before": "췌장암 위험만 누적 11~20년 근무 집단에서 약 59% 높았습니다. HR 1.59, 1.09–2.31.",
+      "after": "췌장암은 누적 11~20년 근무 집단에서 차이가 있었습니다. 야간 교대 경험이 없는 집단과 비교했습니다. 추적 중 발생 속도의 비인 HR은 1.59였습니다. 95% 신뢰구간은 1.09–2.31입니다. 이는 누적 발병 확률이 59% 높다는 뜻은 아닙니다.",
+      "reason": "HR을 누적 확률로 읽지 않도록 지표·분모를 명시합니다.",
+      "evidence_ids": [
+        "cancer"
+      ]
+    },
+    {
+      "field": "비고",
+      "before": "추가로 시도할 대책은 둘입니다. 하나는 식사를 낮 시간대에 모으는 방법입니다. 다른 방법은 밤의 강한 빛과 낮의 완전한 암막을 이용합니다. 이렇게 생체시계를 옮깁니다. 생체시계를 실제로 옮긴다고 입증된 방법은 빛과 암막뿐입니다. 보통 실내 조명 아래에서는 야간 교대를 여섯 번 이었습니다. 그래도 생체시계는 움직이지 않았습니다. 밤에는 7,000~12,000룩스의 밝은 빛을 썼습니다. 낮에는 거의 완전한 어둠을 유지했습니다. 생체시계는 나흘 만에 통째로 뒤집혔습니다. **밤에는 충분히 밝은 빛을 쬐세요. 낮잠은 완전히 어두운 곳에서 자세요. 퇴근길에는 선글라스로 아침 햇빛을 막으세요. 셋 중 하나라도 빠지면 소용이 없습니다.** 두 대책에서 확인한 효과는 대사 지표와 수면에 한정됩니다. 두 대책이 심혈관 위험을 줄이는지 확인한 시험은 없습니다.",
+      "after": "식사를 낮 시간대에 모으는 방법도 제안됩니다. 다만 여기 인용한 연구에는 그 효과를 확인한 시험이 없습니다. 빛과 어둠을 조절한 실험은 건강한 젊은 남성 8명이 대상입니다. 일주일간 앉아서 하는 야간 작업에 적응하는지 살폈습니다. 보통 조명은 약 150룩스였습니다. 여섯 번째 밤에도 체온의 하루 주기는 적응하지 못했습니다. 다른 조건에서는 밤에 7,000~12,000룩스의 빛을 썼습니다. 낮에는 거의 완전한 어둠에서 자도록 했습니다. 나흘 뒤 체온이 가장 낮은 시각이 오후로 옮겨졌습니다. 야간 작업 때 각성도와 인지 수행도 나아졌습니다. 빛과 어둠을 함께 조절한 소규모 실험입니다. 각 요소가 따로 얼마나 필요한지는 확인하지 않았습니다. 생체시계를 옮기는 유일한 방법이라는 뜻도 아닙니다. 셋 중 하나라도 빠지면 무용하다고 단정할 수 없습니다. 이는 누구에게나 같은 밝기를 쓰라는 처방이 아닙니다. 빛 조절은 근무·수면 일정에 맞춰 전문가와 상의하세요. 이 실험은 심혈관 질환이나 사망 감소를 확인하지 않았습니다.",
+      "reason": "미인용 식사시험 효과는 미확인임을 밝히고, 8명 복합실험을 조건·결과 범위에 귀속합니다. 유일성·구성요소 필수성과 자가 밝기 처방을 제거합니다.",
+      "evidence_ids": [
+        "light"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "cvd",
+      "doi": "10.3389/fpubh.2025.1668848",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12506678/fullTextXML",
+      "method": "previously fetched primary full-text XML and extracted text reopened; relevant abstract/method/results passages read, not all supplements",
+      "read_at_utc": "2026-10-18T14:01:40.302184+00:00",
+      "fetched_at": null,
+      "raw_path": "/tmp/ch02-audit/full-PMC12506678.body",
+      "raw_sha256": "1f235c900688aa383ab846c1c6f8a91f4f1f2e410e009d6a88362c2c5621775e",
+      "exact_primary_quotes": [
+        "1.16) and total CVD mortality (RR = 1.27, 95%CI = 1.18–1.36). Dose-response analysis indicated that each 5-year increment in shift work duration was associated with a 7% higher risk of CVD incidence (RR = 1.07, 95% CI: 1.04–1.09) and a 4% increased risk of CVD mortality (RR = 1.05, 95% CI: 1.03–1.06). Subgroup analyses identified elevated risks for incident coronary heart disease (CHD) (RR = 1.22, 95% CI = 1.16–1.28) and ischemic heart disease (IHD) (RR = 1.09, 95% CI = 1.05–1.14), but not stroke (RR = 1.06, 95% CI = 0.95–1.18), and night shift work was associated with an increased risk of mortality due to CHD (RR = 1.22, 95% CI = 1.10–1.36), IHD (RR = 1.39, 95% CI = 1.06–1.84), and stroke (RR = 1.49, 95% CI = 1.04–2.12). Conclusion These findings indicate that night shift work is significantly associated with increased CVD incidence and ",
+        "ar dose-response relationship between night shift work and the risk of CVD incidence and mortality. For each 5-year increase in shift work duration, the risk of CVD incidence increased by 7% (RR = 1.07, 95% CI: 1.04–1.09), and the risk of CVD mortality increased by 4% (RR = 1.05, 95% CI: 1.03–1.06) ( Figure 4a ). Using restricted cubic splines, we did not detect a significant nonlinear dose-response association between shift work duration and the risk of CVD incidence ( p  = 0.068) or mortality ( p  = 0.096) ( Figure 4b ). Figure 4 Dose-response relationship plot between duration of night shift work and CVD;  (a)  CVD incidence;  (b)  CVD mortality. Two graphs compare relative risk against years of night shift work exposure. Graph (a) shows relative risk of incidence, and graph (b) shows relative risk of mortality. Both graphs feature lin",
+        "c heart disease (IHD), and stroke, and reported the provision of the 95% confidence intervals (CI), relative risk (RR), odds ratios (OR), hazard ratios (HR). When multiple publications utilized the same cohort, we prioritized the study with the most comprehensive follow-up, complete outcome data, or superior methodological quality to avoid double-counting of participants. Exclusion criteria included: (1) studies with self-reported cardiovascular outcomes or those reporting only cardiovascular markers; (2) non-human studies; (3) reviews, case reports, letters, or conference abstracts; (4) incomplete data or inability to access full-text articles; (5) duplicate publications; and (6) case reports, systematic reviews, or meta-analyses. Study selection Literature management and screening were conducted using EndNote 20. The literature screenin"
+      ]
+    },
+    {
+      "id": "breast",
+      "doi": "10.1093/occmed/kqaf040",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12794909/fullTextXML",
+      "method": "previously fetched primary full-text XML and extracted text reopened; relevant abstract/method/results passages read, not all supplements",
+      "read_at_utc": "2026-10-18T14:01:40.302184+00:00",
+      "fetched_at": null,
+      "raw_path": "/tmp/ch02-audit/full-PMC12794909.body",
+      "raw_sha256": "3047297cd609fbdf53d208c81f186e68a0f334c2838d3fe6834ebb3c59cd61f0",
+      "exact_primary_quotes": [
+        "the included studies, and estimated pooled relative risks (RR) using random-effects models. Results Twelve studies were included (12 132 breast cancer cases); 60% of these were rated as ‘definitely’ or ‘probably’ high RoB in the exposure characterization domain. Compared to never exposure, pooled RRs were 1.05 (95% confidence interval [CI] 0.96–1.14, 12 studies,  I 2  = 39%) for ever, and 1.11 (95% CI 0.96–1.28, 9 studies,  I 2  = 62%) for ≥10 years, 1.25 (95% CI 1.01–1.55, 7 studies,  I 2  = 59%) for ≥20 years, and 1.68 (95% CI 0.77–3.65, 3 studies,  I 2  = 79%) for ≥30 years of night shift work. Pooled RRs were higher in case–control/nested studies and studies assessing lifetime occupational history. The RR for ≥20 years of exposure lost statistical significance in influence analysis and approached unity after correction for possible pu",
+        "af040 kqaf040 1 Original Paper AcademicSubjects/MED00640 Night shift work and breast cancer risk in healthcare workers: a systematic review and meta-analysis Esposito G \n Department of Clinical Sciences and Community Health, Dipartimento di Eccellenza 2023-2027, University of Milan ,  20133 Milan ,  Italy Bravi F \n Department of Clinical Sciences and Community Health, Dipartimento di Eccellenza 2023-2027, University of Milan ,  20133 Milan ,  Italy Santucci C \n Department of Clinical Sciences and Community Health, Dipartimento di Eccellenza 2023-2027, University of Milan ,  20133 Milan ,  Italy \n Foundation IRCCS, Ca’ Granda Ospedale Maggiore Policlinico ,  20122 Milan ,  Italy Zunarelli C \n Division of Occupational Medicine, IRCCS Azienda Ospedaliero-Universitaria di Bologna ,  40138 Bologna ,  Italy \n Department of Medical and Surgical "
+      ]
+    },
+    {
+      "id": "cancer",
+      "doi": "10.5271/sjweh.4290",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13344439/fullTextXML",
+      "method": "previously fetched primary full-text XML and extracted text reopened; relevant abstract/method/results passages read, not all supplements",
+      "read_at_utc": "2026-10-18T14:01:40.302184+00:00",
+      "fetched_at": null,
+      "raw_path": "/tmp/ch02-audit/full-PMC13344439.body",
+      "raw_sha256": "99508cac0aa1a5a317477de4dc313ccf685bf1ab88f2835057c45884b4d9ad26",
+      "exact_primary_quotes": [
+        " 5, 10, 15 and 20 years, and potential effect modification by lifestyle factors was tested. Results During a median follow-up period of 16.1 years, 8202 incident cancer cases were identified. Participants with 11–20 years of cumulative night shift work had a higher risk of pancreatic cancer compared with never-shift workers (HR 1.59, 95% CI 1.09–2.31). This association persisted across all lag periods tested, peaking at a 15-year lag (HR 1.82, 95% CI 1.25–2.64). No significant associations were found between night shift work metrics, including night shift work experience, starting age, cumulative duration, and frequency, and the risk of total and other major site-specific cancers. No evidence of effect modification by lifestyle factors was observed. Conclusions Night shift work was not associated with the risk of overall or some common ca",
+        "edian follow-up period of 16.1 years, 8202 incident cancer cases were identified. Participants with 11–20 years of cumulative night shift work had a higher risk of pancreatic cancer compared with never-shift workers (HR 1.59, 95% CI 1.09–2.31). This association persisted across all lag periods tested, peaking at a 15-year lag (HR 1.82, 95% CI 1.25–2.64). No significant associations were found between night shift work metrics, including night shift work experience, starting age, cumulative duration, and frequency, and the risk of total and other major site-specific cancers. No evidence of effect modification by lifestyle factors was observed. Conclusions Night shift work was not associated with the risk of overall or some common cancers among Chinese men. However, an increased risk of pancreatic cancer was associated with intermediate-to-l"
+      ]
+    },
+    {
+      "id": "light",
+      "doi": "10.1056/NEJM199005033221801",
+      "url": "https://doi.org/10.1056/NEJM199005033221801",
+      "method": "provided EuropePMC primary abstract cache reopened; full article not read",
+      "read_at_utc": "2026-10-18T14:01:40.302184+00:00",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/cf5aca00940d2def4af9.json",
+      "raw_sha256": "991aef2c8b702207971b123061c5ea9ffddd677a2c6f9d202b0dd6e9067d568a",
+      "fetched_at": "2026-10-18T20:50:10.297125+09:00",
+      "exact_primary_quotes": [
+        "Working at night results in a misalignment between the sleep-wake cycle and the output of the hypothalamic pacemaker that regulates the circadian rhythms of certain physiologic and behavioral variables. We evaluated whether such physiologic maladaptation to nighttime work could be prevented effectively by a treatment regimen of exposure to bright light during the night and darkness during the day. We assessed the functioning of the circadian pacemaker in five control and five treatment studies in order to assess the extent of adaptation in eight normal young men to a week of night work. In the control studies, on the sixth consecutive night of sedentary work in ordinary light (approximately 150 lux), the mean (+/- SEM) nadir of the endogenous temperature cycle continued to occur during the night (at 3:31 +/- 0:56 hours), indicating a lack of circadian adaptation to the nighttime work schedule. In contrast, the subjects in the treatment studies were exposed to bright light (7000 to 12,000 lux) at night and to nearly complete darkness during the day, and the temperature nadir shifted after four days of treatment to a significantly later, midafternoon hour (14:53 +/- 0:32; P less than 0.0001), indicating a successful circadian adaptation to daytime sleep and nighttime work. There were concomitant shifts in the 24-hour patterns of plasma cortisol concentration, urinary excretion rate, subjective assessment of alertness, and cognitive performance in the treatment studies. These shifts resulted in a significant improvement in both alertness and cognitive performance in the treatment group during the night-shift hours. We conclude that maladaptation of the human circadian system to night work, with its associated decline in alertness, performance, and quality of daytime sleep, can be treated effectively with scheduled exposure to bright light at night and darkness during the day."
+      ],
+      "correction_records": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "2325724",
+            "reference": "N Engl J Med. 1990 May 3;322(18):1306-8. doi: 10.1056/NEJM199005033221809",
+            "type": "Comment in",
+            "orderIn": 1
+          },
+          {
+            "source": "MED",
+            "id": "2395446",
+            "reference": "N Engl J Med. 1990 Sep 27;323(13):918-9. doi: 10.1056/NEJM199009273231315",
+            "type": "Comment in",
+            "orderIn": 2
+          }
+        ]
+      },
+      "limits": "Comment-in records are commentary, not errata. No component-omission or sunglasses necessity comparison appears in the abstract."
+    },
+    {
+      "id": "correction-search",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.3389%2Ffpubh.2025.1668848%22+OR+%28TITLE%3A%22night+shift+work%22+AND+%28TITLE%3Acorrection+OR+TITLE%3Acorrigendum%29+AND+AUTH_FIRST%3AY%29&format=json&resultType=core",
+      "method": "new live HTTPS EuropePMC core query; original record and correction relationship fields inspected",
+      "read_at_utc": "2026-10-18T14:01:40.302184+00:00",
+      "raw_path": "/tmp/ch39-correction-search.json",
+      "raw_sha256": "1270c3045da337c6618273e11e0b91f5682abd6fbbe5dc1c041d228a7e54c86f",
+      "result": "one original article; no linked correction returned",
+      "limit": "Database search is not proof no correction exists anywhere."
+    }
+  ],
+  "doi_changes": {
+    "added": [],
+    "removed": [],
+    "reason": "Existing four citations retained. Missing meal-timing trial not invented."
+  },
+  "intentional_scope_changes": [
+    "Light intervention restricted to eight healthy young men, week of sedentary night work, combined nocturnal light/daytime darkness, circadian/alertness/cognitive endpoints.",
+    "Breast cancer scope restricted to healthcare workers.",
+    "16.1 years clarified as median.",
+    "Pancreatic HR no longer paraphrased as cumulative probability.",
+    "CVD mortality 4% versus RR1.05 discrepancy disclosed without silent resolution."
+  ],
+  "limitations": [
+    "Light source read at abstract level only; full protocol and sunglasses effects not verified.",
+    "Meal-timing effect source is missing; reader text states limit rather than claiming verified metabolic benefit.",
+    "No correction found in limited EuropePMC query; CVD 4%/RR1.05 discrepancy remains unresolved.",
+    "Unchanged costs, off-day phase shift and other pre-existing claims not independently newly verified; no whole-entry factual approval claimed."
+  ],
+  "sentence_lengths": [
+    {
+      "text": "야간 교대 5년마다 심혈관 질환 발생이 약 7% 높았습니다.",
+      "len": 33
+    },
+    {
+      "text": "원인이라고 확정할 수는 없습니다.",
+      "len": 18
+    },
+    {
+      "text": "근무 햇수를 세고, 옮길 수 있으면 일찍 옮기세요.",
+      "len": 28
+    },
+    {
+      "text": "연구자가 근무 형태를 배정하지는 않았습니다.",
+      "len": 24
+    },
+    {
+      "text": "비교 대상은 야간 교대를 하지 않은 사람입니다.",
+      "len": 26
+    },
+    {
+      "text": "RR은 비교군과의 상대적인 위험 차이를 나타냅니다.",
+      "len": 28
+    },
+    {
+      "text": "개인의 발병 확률이나 절대 증가분은 아닙니다.",
+      "len": 25
+    },
+    {
+      "text": "신뢰구간은 추정치의 불확실성을 나타내는 범위입니다.",
+      "len": 28
+    },
+    {
+      "text": "5년당 심혈관 사망의 RR은 1.05입니다.",
+      "len": 24
+    },
+    {
+      "text": "95% 신뢰구간은 1.03–1.06입니다.",
+      "len": 23
+    },
+    {
+      "text": "원문은 이를 4% 증가라고 적어 수치가 맞지 않습니다.",
+      "len": 30
+    },
+    {
+      "text": "확인한 정정문이 없어 두 표기를 그대로 알립니다.",
+      "len": 27
+    },
+    {
+      "text": "한 분석은 의료 종사자 대상 연구 12개를 합쳤습니다.",
+      "len": 30
+    },
+    {
+      "text": "유방암은 12,132건이었습니다.",
+      "len": 18
+    },
+    {
+      "text": "다른 연구는 중국 남성을 추적했습니다.",
+      "len": 21
+    },
+    {
+      "text": "추적 기간의 중앙값은 16.1년이었습니다.",
+      "len": 23
+    },
+    {
+      "text": "췌장암은 누적 11~20년 근무 집단에서 차이가 있었습니다.",
+      "len": 33
+    },
+    {
+      "text": "야간 교대 경험이 없는 집단과 비교했습니다.",
+      "len": 24
+    },
+    {
+      "text": "추적 중 발생 속도의 비인 HR은 1.59였습니다.",
+      "len": 28
+    },
+    {
+      "text": "95% 신뢰구간은 1.09–2.31입니다.",
+      "len": 23
+    },
+    {
+      "text": "이는 누적 발병 확률이 59% 높다는 뜻은 아닙니다.",
+      "len": 29
+    },
+    {
+      "text": "식사를 낮 시간대에 모으는 방법도 제안됩니다.",
+      "len": 25
+    },
+    {
+      "text": "다만 여기 인용한 연구에는 그 효과를 확인한 시험이 없습니다.",
+      "len": 34
+    },
+    {
+      "text": "빛과 어둠을 조절한 실험은 건강한 젊은 남성 8명이 대상입니다.",
+      "len": 35
+    },
+    {
+      "text": "일주일간 앉아서 하는 야간 작업에 적응하는지 살폈습니다.",
+      "len": 31
+    },
+    {
+      "text": "보통 조명은 약 150룩스였습니다.",
+      "len": 19
+    },
+    {
+      "text": "여섯 번째 밤에도 체온의 하루 주기는 적응하지 못했습니다.",
+      "len": 32
+    },
+    {
+      "text": "다른 조건에서는 밤에 7,000~12,000룩스의 빛을 썼습니다.",
+      "len": 36
+    },
+    {
+      "text": "낮에는 거의 완전한 어둠에서 자도록 했습니다.",
+      "len": 25
+    },
+    {
+      "text": "나흘 뒤 체온이 가장 낮은 시각이 오후로 옮겨졌습니다.",
+      "len": 30
+    },
+    {
+      "text": "야간 작업 때 각성도와 인지 수행도 나아졌습니다.",
+      "len": 27
+    },
+    {
+      "text": "빛과 어둠을 함께 조절한 소규모 실험입니다.",
+      "len": 24
+    },
+    {
+      "text": "각 요소가 따로 얼마나 필요한지는 확인하지 않았습니다.",
+      "len": 30
+    },
+    {
+      "text": "생체시계를 옮기는 유일한 방법이라는 뜻도 아닙니다.",
+      "len": 28
+    },
+    {
+      "text": "셋 중 하나라도 빠지면 무용하다고 단정할 수 없습니다.",
+      "len": 30
+    },
+    {
+      "text": "이는 누구에게나 같은 밝기를 쓰라는 처방이 아닙니다.",
+      "len": 29
+    },
+    {
+      "text": "빛 조절은 근무·수면 일정에 맞춰 전문가와 상의하세요.",
+      "len": 30
+    },
+    {
+      "text": "이 실험은 심혈관 질환이나 사망 감소를 확인하지 않았습니다.",
+      "len": 33
+    }
+  ],
+  "easy_len": 81,
+  "approval": "Pending independent exact-hash review; no self approval"
+}

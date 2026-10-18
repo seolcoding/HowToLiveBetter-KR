@@ -1,0 +1,87 @@
+{
+  "status": "unadopted_proposal",
+  "entry": 37,
+  "revision": 2,
+  "base": "publication-entry-proposal.md",
+  "old_proposal_sha256": "d6ccec9847acfbfe472b8982408ed522b206c2428c2c6e4e4a0d51f3cde5ae36",
+  "old_changes_sha256": "b5ef554f994aa7f756f2633102b8a8e11a2b51192b000e0e6e8382e9a01c83bc",
+  "new_proposal_sha256": "26fb0835ad22a247ab764fdb0d9b34249ae34120deb7dbecf93dc3c9b585873f",
+  "supersession": {
+    "reason": "Independent full-entry review identified contradiction between the canonical editorial-r2 easily >60min/30% claim and subsequently verified umbrella abstract/body attribution conflict. This separate factual revision supersedes only that easy wording if independently approved; prior editorial and full-entry approval history remains immutable.",
+    "prior_editorial_r2_sha256": "c68317dcecc27e723e6ad120fba719b8832c4778ae83e45db2b667f4ddff3a4a",
+    "pending_independent_exact_hash_review": true
+  },
+  "changes": [
+    {
+      "field": "쉽게",
+      "before": "알람을 맞추고 30분 뒤에 일어나세요. 1시간 넘게 낮잠을 잔 사람은 관상동맥질환 위험이 약 30% 높았습니다. 매일 1~2시간은 자야 버틸 수 있다면 몸을 점검하세요.",
+      "after": "알람을 맞추고 30분 뒤에 일어나세요. 긴 낮잠과 건강 위험의 관계는 낮잠 길이만으로 단정하기 어렵습니다. 매일 1~2시간은 자야 버틸 수 있다면 몸을 점검하세요.",
+      "reason": "Remove disputed >60min/30% comparison rather than presenting the abstract-specific duration attribution as settled. Preserve 30-minute practical advice and the daily 1–2-hour clinical-check condition, and summarize uncertainty plainly.",
+      "evidencequotes": [
+        "This umbrella review identified 16 meta-analyses encompassing 244 health-related outcomes. Napping for <60 min maximizes cognitive enhancement (SMD = 0.69, 95% CI: 0.37–1.00) and reduces fatigue, while minimizing the risk of all-cause mortality and chronic diseases. Napping for >60 min correlates with a 30% higher risk of coronary heart disease and a 20% increased risk of diabetes and obesity; short naps (20–30 min) improve athletic performance (SMD = 0.99, 95% CI: 0.67–1.31) and recovery, particularly in sleep-deprived individuals.",
+        "Meta-analyses investigating the relationship between daytime napping and the risk of coronary heart disease, stroke, and hypertension were included. The pooled relative risk (RR) of stroke was 1.47 (95% CI: 1.24–1.74, P < 0.001), with significant heterogeneity (I2 = 58%, P for heterogeneity = 0.02). However, the heterogeneity decreased when the study that did not adjust for sleep duration or stratify the results based on sleep duration was not performed was excluded (RR = 1.38; 95% CI: 1.19–1.60, I2 = 44%, P for heterogeneity = 0.10) [36]. A meta-analysis comparing nappers with non-nappers reported a pooled RR of 1.19 for hypertension (95% CI: 1.06–1.35) [32]. Another meta-analysis on daytime napping and CHD showed that napping is associated with an increased risk of CHD (RR = 1.30, 95% CI: 1.06–1.60, P < 0.001) [40] (Figure 3).",
+        "Several limitations must be acknowledged. First, methodological flaws in the included meta-analyses may have impacted the reliability of our findings. Specifically, insufficient assessment of publication bias (e.g., failure to conduct a funnel plot analysis or Egger’s test) in some primary reviews could have led to an overestimation of pooled effect sizes. Second, the low overall certainty of the evidence means that the associations between napping and health outcomes may be confounded by unmeasured factors (e.g., nighttime sleep quality, socioeconomic status, and comorbidity severity). Consequently, these observed associations cannot be interpreted as causal relationships, and conclusions should be drawn with caution. Third, the study population is subject to selection bias. Our inclusion criteria restricted the study populations to general adults, excluding studies investigating the effects of napping in children. This limited the generalizability of the results to pediatric populations. Additionally, habitual nappers were overrepresented by older adults, who have a higher baseline risk of cardiovascular and metabolic diseases than younger individuals. Furthermore, research on physical performance was limited to athletes and physically active individuals aged under 35 years of age. These discrepancies mean that findings on physical performance may not apply to inactive populations, particularly older adults, and that the overrepresentation of older adults in disease-related outcomes may have distorted the observed napping-health associations. Fourth, follow-up durations varied across the included studies. Since the health impacts of napping are likely to accumulate over time, inconsistent follow-up periods (e.g., short-term vs. long-term follow-up) may have introduced heterogeneity and compromised the accuracy of assessing napping’s long-term effects. Fifth, some health outcomes lacked sufficient research support. For instance, only three observational studies explored the association between napping and cancer, providing insufficient statistical power to confirm a reliable relationship. Larger-scale, high-quality studies are therefore warranted to clarify these understudied associations."
+      ],
+      "source_id": "PMC12909254"
+    }
+  ],
+  "unchanged_fields": [
+    "title",
+    "cost_tag",
+    "비용",
+    "이득",
+    "근거등급",
+    "출처",
+    "비고"
+  ],
+  "intentional_numerical_change": {
+    "deleted": "1시간 넘게 / 관상동맥질환 위험 약30% from easily only",
+    "reason": "Abstract/body attribution conflict; original values and explicit conflict notice remain in benefit. No new numerical claims."
+  },
+  "verification": {
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12909254/fullTextXML",
+    "date_utc": "2026-10-18T14:23:26.668508+00:00",
+    "method": "Reused actual primary-XML passages independently reopened in first full-entry work; checked against permanently embedded exact raw in immutable publication-entry-changes.json. No new HTTP fetch.",
+    "raw_path": "/tmp/ch02-audit/full-PMC12909254.body",
+    "raw_sha256": "04084d998cb0e5120dfc3cd4431e257c73cd8ed74f4d52639986c5801e23a569",
+    "permanent_raw_container": "publication-entry-changes.json",
+    "permanent_raw_container_sha256": "b5ef554f994aa7f756f2633102b8a8e11a2b51192b000e0e6e8382e9a01c83bc",
+    "raw_json_location": "verification[0].raw_utf8",
+    "initial_fetch_time": "Unavailable; revision date is not a retrieval timestamp."
+  },
+  "length_checks": {
+    "easy_chars": 91,
+    "sentence_count": 3,
+    "sentences": [
+      {
+        "text": "알람을 맞추고 30분 뒤에 일어나세요.",
+        "chars": 21
+      },
+      {
+        "text": "긴 낮잠과 건강 위험의 관계는 낮잠 길이만으로 단정하기 어렵습니다.",
+        "chars": 37
+      },
+      {
+        "text": "매일 1~2시간은 자야 버틸 수 있다면 몸을 점검하세요.",
+        "chars": 31
+      }
+    ]
+  },
+  "doi_changes": {
+    "added": [],
+    "removed": []
+  },
+  "unresolved_limitations": [
+    "Umbrella abstract and body disagree on optimal physical-performance nap duration. Both descriptions attributed explicitly; no universal optimal dose asserted.",
+    "Umbrella discussion appears to interchange CHD and hypertension percentages relative to results; proposal uses results RR1.30 and discloses attribution inconsistency.",
+    "Underlying reviews, all supplements, and exact local medical testing guidance not newly verified. Existing clinical recommendations and author C-grade caveat retained."
+  ],
+  "immutable_sha256": {
+    "strict-entry.md": "1dc589d7e2883589acd99da19bd2e4d00069bf7ea940b26f4b24001decfafe00",
+    "final.md": "6efdc5815aaea23f6ce339cc2804bf936816db6b6a36f2cb353d07e638dc4cd5",
+    "editorial-proposal.json": "8c5b8f27281af87e077184dae8483e5630c58028d7fe79eb8b38a4b482704638",
+    "editorial-proposal-r2.json": "c68317dcecc27e723e6ad120fba719b8832c4778ae83e45db2b667f4ddff3a4a",
+    "publication-entry-proposal.md": "d6ccec9847acfbfe472b8982408ed522b206c2428c2c6e4e4a0d51f3cde5ae36",
+    "publication-entry-changes.json": "b5ef554f994aa7f756f2633102b8a8e11a2b51192b000e0e6e8382e9a01c83bc"
+  }
+}

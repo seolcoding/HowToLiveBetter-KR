@@ -1,0 +1,181 @@
+{
+  "entry": 8,
+  "status": "unadopted_proposal",
+  "publication_ready": false,
+  "changes": [
+    {
+      "field": "title",
+      "before": "### 8. 35세가 넘어 과체중이면 공복혈당을 한 번 재고, 정상이어도 3년마다 다시 재세요",
+      "after": "### 8. 증상 없는 35~70세 과체중·비만 성인은 미국 권고에 따라 혈당 검사를 받으세요",
+      "changed": true,
+      "reason": "미국 권고의 무증상·35~70세·과체중/비만 범위 복원.",
+      "evidence": [
+        {
+          "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/screening-for-prediabetes-and-type-2-diabetes",
+          "exactquotes": [
+            "Asymptomatic adults aged 35 to 70 years who have overweight or obesity",
+            "Overweight and obesity are defined as a BMI ≥25 and ≥30, respectively.",
+            "and at a lower BMI (≥23) if the patient is Asian American.",
+            "The optimal screening interval for adults with an initial normal glucose test result is uncertain. Screening every 3 years may be a reasonable approach for adults with normal blood glucose levels."
+          ],
+          "actual_read_method": "2026-10-18 urllib HTTPS HTTP200 원시 HTML을 /tmp/ch01-entry8-uspstf.html에 저장하고 HTMLParser로 본문 직접 열람.",
+          "read_date": "2026-10-18",
+          "limits": "이 응답의 권고 본문만 확인. 전체 인용문헌의 독립 검증 아님."
+        }
+      ]
+    },
+    {
+      "field": "비용",
+      "before": "국가건강검진은 2년마다 받고, 혈액검사에 공복혈당이 들어 있습니다. 따로 재더라도 피를 한 번 뽑으면 됩니다.",
+      "after": "국가 일반건강검진의 혈액검사에 공복혈당이 들어 있습니다. 따로 재더라도 피를 한 번 뽑으면 됩니다.",
+      "changed": true,
+      "reason": "모든 직종에 2년 주기가 적용되는 듯한 단정 삭제. 비사무직 주기를 새로 주장하지 않음.",
+      "evidence": [
+        {
+          "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000272270&type=XML",
+          "exactquotes": [
+            "○ 공복혈당",
+            "○ 일반건강검진 대상자",
+            "정상A     │정상B(경계) │질환의심",
+            "BMI         │18.5-24.9 │25-29.9     │30이상",
+            "검진받은 연도의 다음연도 3월 31일까지 최초 1회 본인부담 없이 진료",
+            "* 당뇨병 : 진찰, 공복혈당검사, 당화혈색소검사"
+          ],
+          "actual_read_method": "기존 ch01-audit/screen.txt XML의 본문과 별표4 및 결과통보서 직접 열람. 신규 HTTP 아님.",
+          "read_date": "2026-10-18",
+          "limits": "고시 판정표를 한국 임상 비만 진단 기준으로 일반화하지 않음. 시행령의 직종별 주기는 이번에 독립 열람하지 않아 2년 단정만 제거."
+        }
+      ]
+    },
+    {
+      "field": "쉽게",
+      "before": "증상이 하나도 없을 때 피를 한 번 뽑아 당뇨병 전 단계를 찾습니다. 미국 공식 권고는 35~70세 과체중·비만이면 검사하라고 합니다. 아시아계는 BMI 23부터 대상입니다. 결과가 정상이어도 3년마다 다시 재면 됩니다.",
+      "after": "미국 권고는 증상 없는 35~70세 과체중·비만 성인이 대상입니다. 채혈로 당뇨병 전 단계를 찾습니다. 아시아계 미국인은 BMI 23 이상부터 고려합니다. 정상 후 간격은 불확실하나 3년마다 재검이 합리적입니다.",
+      "changed": true,
+      "reason": "4문장·118자, 각 문장 50자 이하. 미국/아시아계 미국인 범위와 BMI23 이상, 정상 후 간격의 불확실성·3년 재검을 보존.",
+      "evidence": [
+        {
+          "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/screening-for-prediabetes-and-type-2-diabetes",
+          "exactquotes": [
+            "Asymptomatic adults aged 35 to 70 years who have overweight or obesity",
+            "Overweight and obesity are defined as a BMI ≥25 and ≥30, respectively.",
+            "and at a lower BMI (≥23) if the patient is Asian American.",
+            "The optimal screening interval for adults with an initial normal glucose test result is uncertain. Screening every 3 years may be a reasonable approach for adults with normal blood glucose levels."
+          ],
+          "actual_read_method": "2026-10-18 urllib HTTPS HTTP200 원시 HTML을 /tmp/ch01-entry8-uspstf.html에 저장하고 HTMLParser로 본문 직접 열람.",
+          "read_date": "2026-10-18",
+          "limits": "이 응답의 권고 본문만 확인. 전체 인용문헌의 독립 검증 아님."
+        }
+      ]
+    },
+    {
+      "field": "이득",
+      "before": "미국 질병예방서비스특별위원회(USPSTF)는 미국의 공식 검진 권고 기구입니다. 현행 권고는 35~70세 과체중·비만 성인을 검사하라고 합니다. 증상이 없을 때 검사해 당뇨병 전 단계와 2형 당뇨병을 찾습니다. 여기서 과체중은 BMI 25 이상, 비만은 30 이상입니다. 아시아계 미국인은 같은 BMI에서도 당뇨병 위험이 더 높습니다. 그래서 아시아계는 BMI 23 이상부터 검사하라고 합니다. 권고 등급은 B입니다. 권고문에는 \"혈당이 정상인 성인은 3년마다 검사하는 것이 합리적\"이라고 적혀 있습니다. 한국 국가건강검진은 일반건강검진 대상자 모두에게 공복혈당을 잽니다. 결과표는 공복혈당 100 미만을 정상으로 표시합니다. 100~125는 공복혈당장애 의심, 126 이상은 당뇨병 의심으로 나옵니다. BMI는 25~29.9를 과체중, 30 이상을 비만으로 적습니다. 당뇨병이 의심되면 다음 해 3월 31일까지 확인 진료 1회를 본인부담 없이 받습니다.",
+      "after": "미국 질병예방서비스특별위원회(USPSTF)는 미국의 공식 검진 권고 기구입니다. 현행 권고는 35~70세 과체중·비만 성인을 검사하라고 합니다. 증상이 없을 때 검사해 당뇨병 전 단계와 2형 당뇨병을 찾습니다. 여기서 과체중은 BMI 25 이상, 비만은 30 이상입니다. 아시아계 미국인은 같은 BMI에서도 당뇨병 위험이 더 높습니다. 그래서 아시아계 미국인은 BMI 23 이상부터 검사를 고려하도록 합니다. 권고 등급은 B입니다. 정상 결과 후 최적 검사 간격은 불확실합니다. 권고문은 혈당이 정상인 성인에게 3년마다 검사하는 방안이 합리적일 수 있다고 설명합니다. 한국 국가건강검진은 일반건강검진 대상자 모두에게 공복혈당을 잽니다. 결과표는 공복혈당 100 미만을 정상으로 표시합니다. 100~125는 공복혈당장애 의심, 126 이상은 당뇨병 의심으로 나옵니다. 이 고시의 검진 판정표는 BMI 25~29.9를 정상B(경계), 30 이상을 질환의심으로 구분합니다. 이는 검진 판정표의 구분입니다. 당뇨병이 의심되면 다음 해 3월 31일까지 지정 범위의 병·의원에서 최초 1회 진료를 본인부담 없이 받을 수 있습니다. (상급)종합·치과·한방·요양·정신병원과 치과·한의원은 제외됩니다. 지원 항목은 진찰·공복혈당검사·당화혈색소검사입니다.",
+      "changed": true,
+      "reason": "아시아계 미국인에서의 검사를 고려하라는 강도, 정상 후 간격의 불확실성을 복원. 한국 고시 BMI 판정표를 임상 비만 기준과 구별. 본인부담 없는 진료의 기관 제외와 지원 항목 명시.",
+      "evidence": [
+        {
+          "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/screening-for-prediabetes-and-type-2-diabetes",
+          "exactquotes": [
+            "Asymptomatic adults aged 35 to 70 years who have overweight or obesity",
+            "Overweight and obesity are defined as a BMI ≥25 and ≥30, respectively.",
+            "and at a lower BMI (≥23) if the patient is Asian American.",
+            "The optimal screening interval for adults with an initial normal glucose test result is uncertain. Screening every 3 years may be a reasonable approach for adults with normal blood glucose levels."
+          ],
+          "actual_read_method": "2026-10-18 urllib HTTPS HTTP200 원시 HTML을 /tmp/ch01-entry8-uspstf.html에 저장하고 HTMLParser로 본문 직접 열람.",
+          "read_date": "2026-10-18",
+          "limits": "이 응답의 권고 본문만 확인. 전체 인용문헌의 독립 검증 아님."
+        },
+        {
+          "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000272270&type=XML",
+          "exactquotes": [
+            "○ 공복혈당",
+            "○ 일반건강검진 대상자",
+            "정상A     │정상B(경계) │질환의심",
+            "BMI         │18.5-24.9 │25-29.9     │30이상",
+            "검진받은 연도의 다음연도 3월 31일까지 최초 1회 본인부담 없이 진료",
+            "* 당뇨병 : 진찰, 공복혈당검사, 당화혈색소검사"
+          ],
+          "actual_read_method": "기존 ch01-audit/screen.txt XML의 본문과 별표4 및 결과통보서 직접 열람. 신규 HTTP 아님.",
+          "read_date": "2026-10-18",
+          "limits": "고시 판정표를 한국 임상 비만 진단 기준으로 일반화하지 않음. 시행령의 직종별 주기는 이번에 독립 열람하지 않아 2년 단정만 제거."
+        }
+      ]
+    },
+    {
+      "field": "근거등급",
+      "before": "A",
+      "after": "A",
+      "changed": false,
+      "reason": "변경 없음. 독립 전수검증 또는 승인 뜻이 아님.",
+      "evidence": []
+    },
+    {
+      "field": "출처",
+      "before": "US Preventive Services Task Force (2021). Screening for Prediabetes and Type 2 Diabetes. https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/screening-for-prediabetes-and-type-2-diabetes : 「at a lower BMI (≥23) if the patient is Asian American」 · 건강검진 실시기준(보건복지부고시 제2026-6호) 제5조·별표 https://www.law.go.kr/admRulLsInfoP.do?admRulSeq=2100000272270 · 「국민건강보험법 시행령」 제25조 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=289701",
+      "after": "US Preventive Services Task Force (2021). Screening for Prediabetes and Type 2 Diabetes. https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/screening-for-prediabetes-and-type-2-diabetes : 「at a lower BMI (≥23) if the patient is Asian American」 · 건강검진 실시기준(보건복지부고시 제2026-6호) 제5조·별표 https://www.law.go.kr/admRulLsInfoP.do?admRulSeq=2100000272270 · 「국민건강보험법 시행령」 제25조 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=289701",
+      "changed": false,
+      "reason": "변경 없음. 독립 전수검증 또는 승인 뜻이 아님.",
+      "evidence": []
+    },
+    {
+      "field": "비고",
+      "before": "당뇨병 전 단계라고 해서 바로 약을 먹지는 않습니다. 생활습관만 바꿔 되돌리는 사람도 적지 않습니다. 검진 결과표에 '공복혈당장애 의심'이 찍혔다면 그냥 넘기지 마세요. 2026-10-10 법령·고시 확인(국가법령정보센터).",
+      "after": "당뇨병 전 단계라고 해서 바로 약을 먹지는 않습니다. 생활습관만 바꿔 되돌리는 사람도 적지 않습니다. 검진 결과표에 '공복혈당장애 의심'이 찍혔다면 그냥 넘기지 마세요. 2026-10-18 건강검진 실시기준 본문·별표와 USPSTF 당뇨병 검진 권고 확인.",
+      "changed": true,
+      "reason": "실제 열람한 자료와 날짜에 한정.",
+      "evidence": [
+        {
+          "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/screening-for-prediabetes-and-type-2-diabetes",
+          "exactquotes": [
+            "Asymptomatic adults aged 35 to 70 years who have overweight or obesity",
+            "Overweight and obesity are defined as a BMI ≥25 and ≥30, respectively.",
+            "and at a lower BMI (≥23) if the patient is Asian American.",
+            "The optimal screening interval for adults with an initial normal glucose test result is uncertain. Screening every 3 years may be a reasonable approach for adults with normal blood glucose levels."
+          ],
+          "actual_read_method": "2026-10-18 urllib HTTPS HTTP200 원시 HTML을 /tmp/ch01-entry8-uspstf.html에 저장하고 HTMLParser로 본문 직접 열람.",
+          "read_date": "2026-10-18",
+          "limits": "이 응답의 권고 본문만 확인. 전체 인용문헌의 독립 검증 아님."
+        },
+        {
+          "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000272270&type=XML",
+          "exactquotes": [
+            "○ 공복혈당",
+            "○ 일반건강검진 대상자",
+            "정상A     │정상B(경계) │질환의심",
+            "BMI         │18.5-24.9 │25-29.9     │30이상",
+            "검진받은 연도의 다음연도 3월 31일까지 최초 1회 본인부담 없이 진료",
+            "* 당뇨병 : 진찰, 공복혈당검사, 당화혈색소검사"
+          ],
+          "actual_read_method": "기존 ch01-audit/screen.txt XML의 본문과 별표4 및 결과통보서 직접 열람. 신규 HTTP 아님.",
+          "read_date": "2026-10-18",
+          "limits": "고시 판정표를 한국 임상 비만 진단 기준으로 일반화하지 않음. 시행령의 직종별 주기는 이번에 독립 열람하지 않아 2년 단정만 제거."
+        }
+      ]
+    }
+  ],
+  "easy_chars": 118,
+  "easy_sentence_lengths": [
+    37,
+    19,
+    28,
+    31
+  ],
+  "limits": [
+    "미변경의 생활습관만으로 되돌리는 사람의 규모 등 전체 옛사실을 신규 검증한 것은 아님.",
+    "근거등급·태그와 strict final.md는 변경하지 않음."
+  ],
+  "source_raw": {
+    "path": "/tmp/ch01-entry8-uspstf.html",
+    "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/screening-for-prediabetes-and-type-2-diabetes",
+    "status": 200,
+    "sha256": "fa441a46d99858c04c9ae70fab225c8bea455a10eb935d8e53aea8434dfc6208",
+    "retrieved_date": "2026-10-18",
+    "method": "urllib.request.urlopen; default TLS verification"
+  },
+  "failed_request": {
+    "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/prediabetes-and-type-2-diabetes-screening",
+    "status": 404
+  }
+}

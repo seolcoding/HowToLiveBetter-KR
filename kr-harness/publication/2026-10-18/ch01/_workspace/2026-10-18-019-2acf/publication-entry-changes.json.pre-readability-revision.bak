@@ -1,0 +1,146 @@
+{
+  "entry": 19,
+  "status": "unadopted_proposal",
+  "review_date": "2026-10-18",
+  "changes": [
+    {
+      "field": "비용",
+      "before": "국가암검진은 50세 이상에게 해마다 분변잠혈검사를 무료로 합니다. 결과가 양성이면 대장내시경도 공단이 냅니다. 대장내시경은 장을 비우는 준비까지 하루를 잡아 둬야 합니다.",
+      "after": "국가암검진은 50세 이상에게 해마다 분변잠혈검사를 무료로 합니다. 결과가 양성이면 대장내시경도 공단이 냅니다. 대장내시경은 장을 비우는 준비까지 하루를 잡아 둬야 합니다.",
+      "changed": false,
+      "reason": "이번 수정 범위 밖이므로 보존. 새로 검증했다는 뜻 아님.",
+      "evidence": [],
+      "limits": "한국 검진·가족력·법령 및 미변경 출처는 이번에 새로 직접 검증하지 않음."
+    },
+    {
+      "field": "쉽게",
+      "before": "한두 해에 한 번 대변 잠혈검사를 받으면 대장암으로 죽을 확률이 16%쯤 낮아집니다. 한 번이라도 받은 사람은 25% 낮습니다. 대장내시경 검진은 10년 대장암 발생을 1.20%에서 0.98%로 줄였습니다.",
+      "after": "대변 검사를 받도록 정한 쪽은 대장암 사망이 16% 적었습니다. 대장내시경에 초대받은 쪽은 10년간 대장암이 덜 생겼습니다. 대장암 사망 차이는 확인하지 못했습니다.",
+      "changed": true,
+      "reason": "실제 수검자 전체 효과로 읽히던 표현을 검진 배정·대장내시경 초대 기준으로 수정. 쉬운 3문장으로 사망 차이 미확인을 명시.",
+      "evidence": [
+        {
+          "url": "https://doi.org/10.1002/14651858.CD001216.pub2",
+          "exact_quotes": [
+            "Combined results from the 4 eligible randomised controlled trials shows that participants allocated to screening had a 16% reduction in the relative risk of colorectal cancer mortality (RR 0.84, CI: 0.78-0.90).",
+            "When adjusted for screening attendance in the individual studies, there was a 25% relative risk reduction (RR 0.75, CI: 0.66 - 0.84) for those attending at least one round of screening using the faecal occult blood test."
+          ],
+          "reviewed_at": "2026-10-18",
+          "cache_fetched_at": "2026-10-18T20:49:43.925878+09:00",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/96ded19fedaeccad54a4.json",
+          "method": "Europe PMC 원시 JSON abstractText 직접 열람. 신규 HTTP 또는 전문 열람 아님.",
+          "limits": "초록에 기재된 분석 대상·추적기간·결과만 확인. 다른 대장내시경 분석이나 장기효과는 판정하지 않음."
+        },
+        {
+          "url": "https://doi.org/10.1056/NEJMoa2208375",
+          "exact_quotes": [
+            "28,220 in the invited group, 11,843 of whom (42.0%) underwent screening",
+            "In intention-to-screen analyses, the risk of colorectal cancer at 10 years was 0.98% in the invited group and 1.20% in the usual-care group, a risk reduction of 18% (risk ratio, 0.82; 95% confidence interval [CI], 0.70 to 0.93).",
+            "The risk of death from colorectal cancer was 0.28% in the invited group and 0.31% in the usual-care group (risk ratio, 0.90; 95% CI, 0.64 to 1.16)."
+          ],
+          "reviewed_at": "2026-10-18",
+          "cache_fetched_at": "2026-10-18T20:49:43.995857+09:00",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/1cd104ba327370b13345.json",
+          "method": "Europe PMC 원시 JSON abstractText 직접 열람. 신규 HTTP 또는 전문 열람 아님.",
+          "limits": "초록에 기재된 분석 대상·추적기간·결과만 확인. 다른 대장내시경 분석이나 장기효과는 판정하지 않음."
+        }
+      ],
+      "limits": "한국 검진·가족력·법령 및 미변경 출처는 이번에 새로 직접 검증하지 않음."
+    },
+    {
+      "field": "이득",
+      "before": "코크런이 여러 연구를 묶어 분석했습니다. 대변 잠혈검사로 검진한 사람은 대장암 사망 위험이 16%쯤 낮았습니다. 원값은 RR 0.84, 95% CI 0.78~0.90입니다. 적어도 한 번 검사받은 사람은 25%쯤 낮았습니다(RR 0.75). NordICC 무작위 시험은 대장내시경에 초대받은 사람을 따로 봤습니다. 이들의 10년 대장암 발생률은 1.20%에서 0.98%로 줄었습니다. 원값은 RR 0.82, 95% CI 0.70~0.93입니다. 한국 국가암검진은 50세 이상에게 해마다 분변잠혈검사를 합니다. 결과가 '잠혈반응 있음'이면 대장내시경으로 이어집니다. 대장암 검진비는 공단이 전부 냅니다.",
+      "after": "코크런이 여러 연구를 묶어 분석했습니다. 대변 잠혈검사를 받도록 배정된 사람은 검진하지 않는 대조군보다 대장암 사망 위험이 16%쯤 낮았습니다. 원값은 RR 0.84, 95% CI 0.78~0.90입니다. 검진 참여율을 보정한 분석에서는 적어도 한 번 검사받은 사람의 대장암 사망 위험이 25%쯤 낮았습니다(RR 0.75). NordICC 무작위 시험은 대장내시경에 초대받은 사람을 따로 봤습니다. 초대받은 사람 중 실제 검사받은 비율은 42%였습니다. 10년 대장암 발생률은 초대받은 군 0.98%, 초대받지 않은 대조군 1.20%였습니다. 원값은 RR 0.82, 95% CI 0.70~0.93입니다. 한국 국가암검진은 50세 이상에게 해마다 분변잠혈검사를 합니다. 결과가 '잠혈반응 있음'이면 대장내시경으로 이어집니다. 대장암 검진비는 공단이 전부 냅니다.",
+      "changed": true,
+      "reason": "Cochrane 0.84의 검진 배정 기준과 0.75의 참여율 보정을 구분. NordICC 초대군·대조군 및 실제 수검 42%를 복원.",
+      "evidence": [
+        {
+          "url": "https://doi.org/10.1002/14651858.CD001216.pub2",
+          "exact_quotes": [
+            "Combined results from the 4 eligible randomised controlled trials shows that participants allocated to screening had a 16% reduction in the relative risk of colorectal cancer mortality (RR 0.84, CI: 0.78-0.90).",
+            "When adjusted for screening attendance in the individual studies, there was a 25% relative risk reduction (RR 0.75, CI: 0.66 - 0.84) for those attending at least one round of screening using the faecal occult blood test."
+          ],
+          "reviewed_at": "2026-10-18",
+          "cache_fetched_at": "2026-10-18T20:49:43.925878+09:00",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/96ded19fedaeccad54a4.json",
+          "method": "Europe PMC 원시 JSON abstractText 직접 열람. 신규 HTTP 또는 전문 열람 아님.",
+          "limits": "초록에 기재된 분석 대상·추적기간·결과만 확인. 다른 대장내시경 분석이나 장기효과는 판정하지 않음."
+        },
+        {
+          "url": "https://doi.org/10.1056/NEJMoa2208375",
+          "exact_quotes": [
+            "28,220 in the invited group, 11,843 of whom (42.0%) underwent screening",
+            "In intention-to-screen analyses, the risk of colorectal cancer at 10 years was 0.98% in the invited group and 1.20% in the usual-care group, a risk reduction of 18% (risk ratio, 0.82; 95% confidence interval [CI], 0.70 to 0.93).",
+            "The risk of death from colorectal cancer was 0.28% in the invited group and 0.31% in the usual-care group (risk ratio, 0.90; 95% CI, 0.64 to 1.16)."
+          ],
+          "reviewed_at": "2026-10-18",
+          "cache_fetched_at": "2026-10-18T20:49:43.995857+09:00",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/1cd104ba327370b13345.json",
+          "method": "Europe PMC 원시 JSON abstractText 직접 열람. 신규 HTTP 또는 전문 열람 아님.",
+          "limits": "초록에 기재된 분석 대상·추적기간·결과만 확인. 다른 대장내시경 분석이나 장기효과는 판정하지 않음."
+        }
+      ],
+      "limits": "한국 검진·가족력·법령 및 미변경 출처는 이번에 새로 직접 검증하지 않음."
+    },
+    {
+      "field": "근거등급",
+      "before": "A",
+      "after": "A",
+      "changed": false,
+      "reason": "이번 수정 범위 밖이므로 보존. 새로 검증했다는 뜻 아님.",
+      "evidence": [],
+      "limits": "한국 검진·가족력·법령 및 미변경 출처는 이번에 새로 직접 검증하지 않음."
+    },
+    {
+      "field": "출처",
+      "before": "Hewitson P 외 (2007). Screening for colorectal cancer using the faecal occult blood test, Hemoccult. Cochrane Database of Systematic Reviews. https://doi.org/10.1002/14651858.CD001216.pub2 · Bretthauer M 외 (2022). Effect of Colonoscopy Screening on Risks of Colorectal Cancer and Related Death. New England Journal of Medicine. https://doi.org/10.1056/NEJMoa2208375 · 「암관리법 시행령」 별표 1 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=281743 · 암검진 실시기준(보건복지부고시 제2025-220호) 제11조·별표 1 https://www.law.go.kr/admRulLsInfoP.do?admRulSeq=2100000270432",
+      "after": "Hewitson P 외 (2007). Screening for colorectal cancer using the faecal occult blood test, Hemoccult. Cochrane Database of Systematic Reviews. https://doi.org/10.1002/14651858.CD001216.pub2 · Bretthauer M 외 (2022). Effect of Colonoscopy Screening on Risks of Colorectal Cancer and Related Death. New England Journal of Medicine. https://doi.org/10.1056/NEJMoa2208375 · 「암관리법 시행령」 별표 1 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=281743 · 암검진 실시기준(보건복지부고시 제2025-220호) 제11조·별표 1 https://www.law.go.kr/admRulLsInfoP.do?admRulSeq=2100000270432",
+      "changed": false,
+      "reason": "이번 수정 범위 밖이므로 보존. 새로 검증했다는 뜻 아님.",
+      "evidence": [],
+      "limits": "한국 검진·가족력·법령 및 미변경 출처는 이번에 새로 직접 검증하지 않음."
+    },
+    {
+      "field": "비고",
+      "before": "논쟁 있음. NordICC는 '대장내시경에 초대받은 사람' 기준으로 계산했습니다. 대장암 사망은 0.28% 대 0.31%였습니다. 원값은 RR 0.90, 95% CI 0.64~1.16입니다. 차이는 오차 범위 안에 있습니다. 대장내시경의 사망률 이득이 그동안 부풀려졌다는 뜻입니다. 사망률 근거로는 오히려 대변 검사 쪽이 더 단단합니다. 시작 나이는 지침마다 45~50세로 다릅니다. 한국 국가검진은 50세부터입니다. 가족 중에 대장암을 앓은 사람이 있으면 더 일찍 시작합니다. 2026-10-10 법령·고시 확인(국가법령정보센터).",
+      "after": "논쟁 있음. NordICC는 '대장내시경에 초대받은 사람' 기준으로 계산했습니다. 대장암 사망은 0.28% 대 0.31%였습니다. 원값은 RR 0.90, 95% CI 0.64~1.16입니다. 이 시험에서는 10년간 대장암 사망 차이를 확인하지 못했습니다. 대장내시경에 사망 예방 효과가 없다고 입증한 것은 아닙니다. 대변 잠혈검사는 여러 무작위 시험을 묶은 분석에서 대장암 사망 감소가 확인됐습니다. 시작 나이는 지침마다 45~50세로 다릅니다. 한국 국가검진은 50세부터입니다. 가족 중에 대장암을 앓은 사람이 있으면 더 일찍 시작합니다. 2026-10-10 법령·고시 확인(국가법령정보센터).",
+      "changed": true,
+      "reason": "비유의 사망 결과로 기존 효과 과장을 단정한 해석 삭제. 10년 사망 차이를 확인하지 못했으며 무효 입증은 아니라는 범위로 한정.",
+      "evidence": [
+        {
+          "url": "https://doi.org/10.1002/14651858.CD001216.pub2",
+          "exact_quotes": [
+            "Combined results from the 4 eligible randomised controlled trials shows that participants allocated to screening had a 16% reduction in the relative risk of colorectal cancer mortality (RR 0.84, CI: 0.78-0.90).",
+            "When adjusted for screening attendance in the individual studies, there was a 25% relative risk reduction (RR 0.75, CI: 0.66 - 0.84) for those attending at least one round of screening using the faecal occult blood test."
+          ],
+          "reviewed_at": "2026-10-18",
+          "cache_fetched_at": "2026-10-18T20:49:43.925878+09:00",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/96ded19fedaeccad54a4.json",
+          "method": "Europe PMC 원시 JSON abstractText 직접 열람. 신규 HTTP 또는 전문 열람 아님.",
+          "limits": "초록에 기재된 분석 대상·추적기간·결과만 확인. 다른 대장내시경 분석이나 장기효과는 판정하지 않음."
+        },
+        {
+          "url": "https://doi.org/10.1056/NEJMoa2208375",
+          "exact_quotes": [
+            "28,220 in the invited group, 11,843 of whom (42.0%) underwent screening",
+            "In intention-to-screen analyses, the risk of colorectal cancer at 10 years was 0.98% in the invited group and 1.20% in the usual-care group, a risk reduction of 18% (risk ratio, 0.82; 95% confidence interval [CI], 0.70 to 0.93).",
+            "The risk of death from colorectal cancer was 0.28% in the invited group and 0.31% in the usual-care group (risk ratio, 0.90; 95% CI, 0.64 to 1.16)."
+          ],
+          "reviewed_at": "2026-10-18",
+          "cache_fetched_at": "2026-10-18T20:49:43.995857+09:00",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/1cd104ba327370b13345.json",
+          "method": "Europe PMC 원시 JSON abstractText 직접 열람. 신규 HTTP 또는 전문 열람 아님.",
+          "limits": "초록에 기재된 분석 대상·추적기간·결과만 확인. 다른 대장내시경 분석이나 장기효과는 판정하지 않음."
+        }
+      ],
+      "limits": "한국 검진·가족력·법령 및 미변경 출처는 이번에 새로 직접 검증하지 않음."
+    }
+  ],
+  "source_review_limits": "두 논문의 캐시 초록 직접 열람. 신규 HTTP·전문·한국 법령 재검증 아님. 제목·태그·근거등급·출처 및 strict candidate 보존.",
+  "easy_chars": 92,
+  "easy_sentence_lengths": [
+    35,
+    33,
+    22
+  ]
+}

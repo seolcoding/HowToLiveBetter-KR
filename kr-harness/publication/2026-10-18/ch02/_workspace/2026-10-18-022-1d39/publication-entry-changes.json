@@ -1,0 +1,202 @@
+{
+  "entry": 22,
+  "status": "proposed_unadopted",
+  "base_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-022-1d39/strict-entry.md",
+  "base_sha256": "b9038e6bb7ae1bc8d1b6ab5cc412845fe165df094390dab87a9f0a1b39c7301f",
+  "proposal_sha256": "176145c0e7e4737813aeb5f02b1a73c78a2234cd491680ad892bc866d3b0c37d",
+  "changes": [
+    {
+      "field": "비용",
+      "before": "하루 28g쯤이면 한 달에 몇만 원 안팎입니다. 한 줌씩 먹으면 되니 시간도 거의 들지 않습니다.",
+      "after": "국내 월 비용은 제품과 가격에 따라 다릅니다. 하루 28g쯤을 기준으로 가격을 비교하세요. 한 줌씩 먹으면 되니 시간도 거의 들지 않습니다.",
+      "reason": "국내 가격 미확인 추산을 삭제하고 제품별 가격 비교로 한정. 연구 1회량 28g은 보존.",
+      "source_ids": [
+        "Bao2013"
+      ]
+    },
+    {
+      "field": "쉽게",
+      "before": "견과를 먹는 사람은 안 먹는 사람보다 같은 기간 사망 확률이 20%쯤 낮습니다. 일주일에 한 번만 먹어도 사망 확률이 10%쯤 낮습니다. 하루 한 줌까지 늘리면 차이가 가장 큽니다.",
+      "after": "견과를 주 7회 이상 먹는 사람은 안 먹는 사람보다 사망률이 약 20% 낮았습니다. 먹는 횟수가 적을 때도 사망률이 낮게 나타났습니다. 견과 덕분이라고 단정할 수는 없습니다.",
+      "reason": "20% 연관을 주7회 이상으로 제한하고 사망확률을 사망률로 정정. 적은 빈도의 연관과 인과 불확실성 보존.",
+      "source_ids": [
+        "Bao2013"
+      ]
+    },
+    {
+      "field": "이득",
+      "before": "미국 추적 연구 두 개에서 11만9천 명을 살펴봤습니다. 총 추적 기간은 300만 인·년입니다. 인·년은 사람마다 추적한 햇수를 모두 더해 계산합니다. 비교 대상은 견과를 안 먹는 사람입니다. 일주일에 1회 미만 먹는 사람의 사망 위험은 약 7% 낮습니다. 위험비는 0.93, 95% CI는 0.90–0.96(신뢰구간)입니다. 일주일 1회는 약 11% 낮습니다(0.89, 0.86–0.93). 일주일 2~4회는 약 13% 낮습니다(0.87, 0.83–0.90). 일주일 5~6회는 약 15% 낮습니다(0.85, 0.79–0.91). 일주일 7회 이상은 약 20% 낮습니다(0.80, 0.73–0.86).",
+      "after": "미국 추적 연구 두 개에서 11만9천 명을 살펴봤습니다. 여성 76,464명과 남성 42,498명이 참여했습니다. 암·심장병·뇌졸중 병력이 있는 사람은 제외했습니다. 총 추적 기간은 3,038,853인·년으로 약 300만 인·년입니다. 인·년은 사람마다 추적한 햇수를 모두 더해 계산합니다. 견과에는 땅콩과 다른 견과가 포함됩니다. 1회 섭취량은 28g입니다. 비교 대상은 견과를 안 먹는 사람입니다. 아래 수치는 사망의 순간 발생률을 비교한 위험비(HR)입니다. 일정 기간 안에 사망할 누적 확률의 비율과는 다릅니다. 일주일에 1회 미만 먹는 사람의 사망률은 약 7% 낮았습니다. 위험비는 0.93, 95% CI는 0.90–0.96입니다. CI는 추정치의 불확실성을 나타내는 신뢰구간입니다. 일주일 1회는 약 11% 낮았습니다(0.89, 0.86–0.93). 일주일 2~4회는 약 13% 낮았습니다(0.87, 0.83–0.90). 일주일 5~6회는 약 15% 낮았습니다(0.85, 0.79–0.91). 일주일 7회 이상은 약 20% 낮았습니다(0.80, 0.73–0.86).",
+      "reason": "HR를 누적 확률과 구별하고 원문 분모·인년·섭취량·품목·병력 제외조건 명시. 모든 빈도별 HR/CI 보존.",
+      "source_ids": [
+        "Bao2013"
+      ]
+    },
+    {
+      "field": "비고",
+      "before": "소금을 넣지 않은 견과를 사세요. 견과는 열량이 높으니 양을 정하지 않고 먹지 마세요. 이 연구들은 사람들을 오래 추적해 관찰한 결과입니다. 견과를 먹는 사람은 다른 생활 습관도 더 건강한 경우가 많습니다. 따라서 위험 감소 수치를 그대로 받아들이지는 마세요.",
+      "after": "소금을 넣지 않은 견과를 사세요. 견과는 열량이 높으니 양을 정하지 않고 먹지 마세요. 이 연구들은 사람들을 오래 추적해 관찰한 결과입니다. 견과를 먹는 사람은 다른 생활 습관도 더 건강한 경우가 많습니다. 따라서 위험 감소 수치를 그대로 받아들이지는 마세요. 비흡연자만을 대상으로 한 연구는 아닙니다. 흡연 경험이 있는 사람을 뺀 추가 분석도 했습니다. 소금·양념·볶기 등 조리법별 차이는 조사하지 못했습니다.",
+      "reason": "열량·무염 권고와 관찰자료 주의 보존. 비흡연 한정이 아님과 추가분석, 조리법 자료 부재 명시.",
+      "source_ids": [
+        "Bao2013"
+      ]
+    }
+  ],
+  "sources": {
+    "Bao2013": {
+      "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC3931001/unicode",
+      "doi": "10.1056/NEJMoa1307352",
+      "verification_date_utc": "2026-10-18T14:22:39.573595+00:00",
+      "method": "New HTTPS BioC full-text retrieval; read methods, results, limitations and table annotations. Supplementary Appendix not independently read. EuropePMC fullTextXML returned HTTP500; BioC succeeded.",
+      "raw_path": "/tmp/ch02e22-evidence/bioc.xml",
+      "raw_sha256": "0072168569a94ce25fe912fc3e845ae0fcab87680c391de3e8ee718bb57e7514",
+      "extracted_text_path": "/tmp/ch02e22-evidence/full.txt",
+      "exact_primary_quotations": [
+        "During 3,038,853 person-years of follow-up, 16,200 women and 11,229 men died. Nut consumption was inversely associated with total mortality among both women and men, after adjustment for other known or suspected risk factors. The pooled multivariate hazard ratios for death among participants who ate nuts, as compared with those who did not, were 0.93 (95% confidence interval [CI], 0.90 to 0.96) for the consumption of nuts less than once per week, 0.89 (95% CI, 0.86 to 0.93) for once per week, 0.87 (95% CI, 0.83 to 0.90) for two to four times per week, 0.85 (95% CI, 0.79 to 0.91) for five or six times per week, and 0.80 (95% CI, 0.73 to 0.86) for seven or more times per week (P<0.001 for trend). Significant inverse associations were also observed between nut consumption and deaths due to cancer, heart disease, and respiratory disease.",
+        "For this analysis, we defined baseline as the year of the first validated food-frequency questionnaire in each study — 1980 for the NHS and 1986 for the HPFS. At baseline, 92,468 women in the NHS and 49,934 men in the HPFS completed the dietary questionnaire. We excluded 5611 women and 5939 men with a history of cancer, heart disease, or stroke; 1113 women and 340 men who did not provide information on nut intake; and 9280 women and 1157 men who did not provide information on anthropometric measures or physical activity. The final analyses included 76,464 women in the NHS and 42,498 men in the HPFS.",
+        "Dietary intake was measured with the use of validated food-frequency questionnaires administered every 2 to 4 years. In the 1980 and 1984 dietary questionnaires, we asked the participants how often they had consumed a serving of nuts (serving size, 28 g [1 oz]) during the preceding year: never or almost never, one to three times a month, once a week, two to four times a week, five or six times a week, once a day, two or three times a day, four to six times a day, or more than six times a day. In the subsequent dietary questionnaires, the question regarding nuts was split into two items: peanuts and other nuts. Total nut consumption was defined as the intake of peanuts and other nuts. A validation study of the food-frequency questionnaire indicated that nut intake was reported reasonably accurately; the correlation coefficient was 0.75 for the correlation between intake assessed on the baseline dietary questionnaire and intake assessed on four 1-week dietary records.",
+        "We conducted several sensitivity analyses to test the robustness of the results. To minimize the influence of smoking or an extremely low or high body-mass index (BMI; the weight in kilograms divided by the square of the height in meters) on the results, we excluded participants who had ever smoked or who had a BMI of less than 18.5 or more than 40. We also excluded participants who had diabetes at baseline, and we suspended updating of dietary variables after a diagnosis of diabetes during study follow-up. To assess the influence of total sodium intake, adherence to a Mediterranean diet (as assessed by the Mediterranean-diet score), and olive-oil intake on the results, we conducted separate analyses with adjustment for each of these variables. Finally, we conducted an analysis in which updating of dietary variables was continued even after a participant reported a diagnosis of a major chronic disease.",
+        "During 30 years of follow-up (2,135,482 person-years) among women in the NHS, we documented 16,200 deaths; during 24 years of follow-up (903,371 person-years) among men in the HPFS, we documented 11,229 deaths. Age-adjusted and multivariate-adjusted analyses showed a significant inverse association between frequency of nut consumption and total mortality among both women and men (Table 2). P values for heterogeneity between women and men were greater than 0.05 for all categories of nut consumption; therefore, we pooled results from these independent cohort studies. The pooled multivariate hazard ratios for death for participants who ate nuts, as compared with those who did not eat nuts, were 0.93 (95% confidence interval [CI], 0.90 to 0.96) for nut consumption less than once per week, 0.89 (95% CI, 0.86 to 0.93) for once per week, 0.87 (95% CI, 0.83 to 0.90) for two to four times per week, 0.85 (95% CI, 0.79 to 0.91) for five or six times per week, and 0.80 (95% CI, 0.73 to 0.86) for seven or more times per week (P<0.001 for trend). The restricted cubic splines showed a pattern similar to the categorical analysis, and similar patterns were observed among women and men (Fig. S1 in the Supplementary Appendix).",
+        "The significant inverse association between nut consumption and total mortality remained largely unchanged when we excluded participants who had ever smoked or who had an extremely high or low BMI; when we excluded participants with diabetes at baseline and suspended updating of dietary variables after a diagnosis of diabetes; when we adjusted for total sodium intake, Mediterranean-diet score, olive-oil intake, and a propensity score that predicted nut intake levels; when we continued to update dietary information after diagnosis of a chronic disease; and when we excluded the first 2 years of follow-up and added a 2-year lag period between nut-intake assessment and each follow-up period (Table S5 in the Supplementary Appendix). Furthermore, the array-approach sensitivity analysis showed that an unmeasured confounder would have to be strongly associated with mortality (e.g., predicted relative risk, ≤0.60) or substantially imbalanced between participants who ate nuts and those who did not (e.g., ≥40% difference in prevalence between those who eat nuts seven or more times per week vs. never) in order to attenuate the inverse association sufficiently so that it that was no longer significant (Tables S6 and S7 in the Supplementary Appendix).",
+        "The strengths of this study include its prospective design, large sample, 30 years of follow-up with an excellent follow-up rate, and repeated assessment of diet and lifestyle variables. However, our study has limitations. Because nut intake was self-reported, some measurement error is inevitable. However, we were able to reduce random measurement error by averaging nut intake cumulatively from multiple time points. Moreover, because dietary data were collected prospectively, misreporting could be random, resulting in an underestimation of the association. Because we lacked data on how nuts were prepared (e.g., salted, spiced, roasted, or raw), we were unable to examine the influence of preparation method on mortality. Restriction of the study sample to health professionals could reduce the generalizability of the results, but it also potentially minimizes residual confounding by socioeconomic status. In addition, metabolic processes are unlikely to differ between health professionals and the general population."
+      ]
+    }
+  },
+  "intentional_numeric_scope_changes": [
+    "쉽게의 모든 섭취자20%를 주7회 이상20%로 제한",
+    "일주일1회 약10% 쉽게 요약을 이득의 정확한11%와HR0.89로 보존",
+    "한 달 몇만 원 국내 가격 추산 삭제: 검증되지 않음",
+    "118,962명과3,038,853인년 정확값 추가; 기존11만9천/300만 반올림 보존",
+    "사망확률/위험에서 순간 사망률 HR로 해석 정정"
+  ],
+  "doi_changes": {
+    "added": [],
+    "removed": [],
+    "reason": "기존 Bao2013 DOI 그대로 보존"
+  },
+  "unresolved_limitations": [
+    "국내 현재 견과 가격을 조사하지 못함. 삭제한 몇만원 추산을 검증된 사실로 취급하지 않음.",
+    "조리법별 효과는 원문 자료 부재. 무염 권고를 해당 비교에서 입증한 것으로 해석하지 않음.",
+    "관찰자료이며 인과효과나 개인의 누적 사망확률 감소를 입증하지 않음.",
+    "부록 전체는 독립 열람하지 않음."
+  ],
+  "sentence_lengths": [
+    {
+      "field": "비용",
+      "sentence": "국내 월 비용은 제품과 가격에 따라 다릅니다.",
+      "length": 25
+    },
+    {
+      "field": "비용",
+      "sentence": "하루 28g쯤을 기준으로 가격을 비교하세요.",
+      "length": 24
+    },
+    {
+      "field": "쉽게",
+      "sentence": "견과를 주 7회 이상 먹는 사람은 안 먹는 사람보다 사망률이 약 20% 낮았습니다.",
+      "length": 46
+    },
+    {
+      "field": "쉽게",
+      "sentence": "먹는 횟수가 적을 때도 사망률이 낮게 나타났습니다.",
+      "length": 28
+    },
+    {
+      "field": "쉽게",
+      "sentence": "견과 덕분이라고 단정할 수는 없습니다.",
+      "length": 21
+    },
+    {
+      "field": "이득",
+      "sentence": "여성 76,464명과 남성 42,498명이 참여했습니다.",
+      "length": 31
+    },
+    {
+      "field": "이득",
+      "sentence": "암·심장병·뇌졸중 병력이 있는 사람은 제외했습니다.",
+      "length": 28
+    },
+    {
+      "field": "이득",
+      "sentence": "총 추적 기간은 3,038,853인·년으로 약 300만 인·년입니다.",
+      "length": 38
+    },
+    {
+      "field": "이득",
+      "sentence": "견과에는 땅콩과 다른 견과가 포함됩니다.",
+      "length": 22
+    },
+    {
+      "field": "이득",
+      "sentence": "1회 섭취량은 28g입니다.",
+      "length": 15
+    },
+    {
+      "field": "이득",
+      "sentence": "아래 수치는 사망의 순간 발생률을 비교한 위험비(HR)입니다.",
+      "length": 34
+    },
+    {
+      "field": "이득",
+      "sentence": "일정 기간 안에 사망할 누적 확률의 비율과는 다릅니다.",
+      "length": 30
+    },
+    {
+      "field": "이득",
+      "sentence": "일주일에 1회 미만 먹는 사람의 사망률은 약 7% 낮았습니다.",
+      "length": 34
+    },
+    {
+      "field": "이득",
+      "sentence": "위험비는 0.93, 95% CI는 0.90–0.96입니다.",
+      "length": 32
+    },
+    {
+      "field": "이득",
+      "sentence": "CI는 추정치의 불확실성을 나타내는 신뢰구간입니다.",
+      "length": 28
+    },
+    {
+      "field": "이득",
+      "sentence": "일주일 1회는 약 11% 낮았습니다(0.89, 0.86–0.93).",
+      "length": 37
+    },
+    {
+      "field": "이득",
+      "sentence": "일주일 2~4회는 약 13% 낮았습니다(0.87, 0.83–0.90).",
+      "length": 39
+    },
+    {
+      "field": "이득",
+      "sentence": "일주일 5~6회는 약 15% 낮았습니다(0.85, 0.79–0.91).",
+      "length": 39
+    },
+    {
+      "field": "이득",
+      "sentence": "일주일 7회 이상은 약 20% 낮았습니다(0.80, 0.73–0.86).",
+      "length": 40
+    },
+    {
+      "field": "비고",
+      "sentence": "비흡연자만을 대상으로 한 연구는 아닙니다.",
+      "length": 23
+    },
+    {
+      "field": "비고",
+      "sentence": "흡연 경험이 있는 사람을 뺀 추가 분석도 했습니다.",
+      "length": 28
+    },
+    {
+      "field": "비고",
+      "sentence": "소금·양념·볶기 등 조리법별 차이는 조사하지 못했습니다.",
+      "length": 31
+    }
+  ],
+  "easy_length": 97,
+  "protected": {
+    "title_unchanged": true,
+    "cost_tag_unchanged": true,
+    "evidence_grade_unchanged": true,
+    "source_unchanged": true
+  }
+}

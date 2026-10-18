@@ -1,0 +1,58 @@
+{
+  "entry": 32,
+  "status": "proposed_unadopted",
+  "publication_ready": false,
+  "base": "strict-entry.md",
+  "base_sha256": "55871f01769c9ea25df2af765d14fb7022c0062d2fd0cf131cf7569acd45b9b4",
+  "proposal_sha256": "6eb7e575efc6ee819350d8d1aefbaec485f65bc548b8a7f43aa01a9c42c0400a",
+  "changes": [
+    {
+      "field": "쉽게",
+      "before": "자살 시도자 절반 가까이는 생각이 든 뒤 10분 이내에 실행했습니다. 대개는 그 몇십 분을 넘겨야 합니다. 넷 중 셋은 그사이 주변 사람과 연락했습니다.",
+      "after": "한 병원에서 자살 시도자 82명이 경험을 되짚었습니다. 절반 가까이는 생각 뒤 10분 안에 행동했다고 답했습니다. 넷 중 셋은 그사이 주변 사람과 연락했습니다. 몇십 분이 지나면 안전하다는 뜻은 아닙니다.",
+      "reason": "감사 제32항에 따라 한 병원의 응답이라는 범위를 명시하고 대개 몇십 분을 넘기면 된다는 시간 안전 보장 해석을 제거. 원래의 절반 가까이·넷 중 셋 요약 유지.",
+      "evidence": [
+        {
+          "source": "Deisenhammer (2009)",
+          "url": "https://doi.org/10.4088/JCP.07m03904",
+          "exact_quote": null,
+          "method": "medical-doi-cache-index.json 및 pmc-fulltext-cache-index.json 직접 열람. DOI 정확 일치 결과 및 해당 전문 캐시 없음. 1차 원문 미확인; strict-entry의 82명·47.6%(39명)·76.8%(63명)를 보존.",
+          "date": "2026-10-18",
+          "limits": "DB 미매칭은 DOI 무효 판정이 아님. 직접 확인한 논문 인용문 없음. 단일병원 회고자료라는 기존 설명을 쉽게에 반영하되 새 검증으로 주장하지 않음."
+        },
+        {
+          "source": "Owens (2002) cached abstract",
+          "url": "https://doi.org/10.1192/bjp.181.3.193",
+          "exact_quote": "Median proportions for repetition 1 year later were: 16% non-fatal and 2% fatal; after more than 9 years, around 7% of patients had died by suicide.",
+          "method": "EuropePMC 캐시 원시 JSON의 abstractText 직접 열람; 신규 HTTP 및 전문 검증 아님.",
+          "date": "2026-10-18",
+          "limits": "자해 뒤 추적한 집단의 비율. 개인의 안전 또는 몇십 분 뒤 안전을 보장하지 않음."
+        }
+      ]
+    }
+  ],
+  "unchanged_fields": [
+    "title",
+    "tags",
+    "비용",
+    "이득",
+    "근거등급",
+    "출처",
+    "비고"
+  ],
+  "preserved_style_fix": "이득의 짧고 전문가가: pure C-11 쉼표 삭제 유지. strict-entry에 이미 반영됨.",
+  "validation": {
+    "easy_chars": 114,
+    "easy_sentences": 4,
+    "new_sentence_lengths": [
+      30,
+      32,
+      25,
+      24
+    ],
+    "all_new_sentences_lte_50": true,
+    "strict_entry_immutable": true,
+    "owens_16_2_7_scopes_unchanged": true
+  },
+  "limits": "Deisenhammer 1차 원문 미확인. 그 수치를 새로 검증했다고 주장하지 않음. 채택·승인·출판하지 않은 검토용 제안."
+}

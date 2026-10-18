@@ -1,0 +1,102 @@
+{
+  "status": "unadopted_proposal",
+  "entry": 16,
+  "base": "strict-entry.md",
+  "base_sha256": "a5a5919695e6caf26de96599870dcdf817b2e95bc8d321f3bd493f2d15ae8d42",
+  "proposal_sha256": "07b184706861db697b5178adf31e9a79d75dda2613b746058764119df87a6182",
+  "changes": [
+    {
+      "field": "쉽게",
+      "before": "주 30~60분 근력 운동을 하는 사람을 비교했습니다. 같은 기간 사망 확률은 안 하는 쪽보다 10~20% 낮습니다. 그 이상 운동해도 추가 이득은 늘지 않습니다. 근력 운동과 유산소 운동을 함께 하면 가장 좋습니다.",
+      "after": "주 30~60분 근력 운동을 하는 사람의 사망 위험이 낮았습니다. 안 하는 사람보다 약 10~20% 낮았습니다. 운동 덕분인지는 확실하지 않습니다. 더 많이 했을 때의 이득은 확실하지 않습니다.",
+      "reason": "정확 SHA로 승인된 r2 쉽게 반영. 관찰된 차이와 인과 불확실성, 고용량 불확실성을 일상말로 보존합니다.",
+      "evidencequotes": [
+        "However, the influence of a higher volume of muscle-strengthening activities on health benefits is unclear."
+      ]
+    },
+    {
+      "field": "이득",
+      "before": "추적 연구들을 종합한 결과입니다. 참가자에게 운동을 시키지 않고 생활을 관찰했습니다. 근력 운동을 하는 사람의 사망 위험이 더 낮았습니다. 안 하는 사람과 비교하면 10~17% 낮습니다. 운동량이 많다고 이득이 계속 늘지는 않습니다. 사망 위험은 주 30~60분에서 가장 크게 줄었습니다. 감소폭은 약 10~20%입니다. 그 이상은 이득이 더 늘지 않습니다. 근력과 유산소 운동을 함께 하는 사람도 비교했습니다. 둘 다 안 하는 사람보다 사망 위험이 낮습니다.",
+      "after": "추적 연구들을 종합한 결과입니다. 참가자에게 운동을 시키지 않고 생활을 관찰했습니다. 근력 운동을 하는 사람의 사망 위험이 더 낮았습니다. 안 하는 사람과 비교하면 10~17% 낮습니다. 운동량이 많다고 이득이 계속 늘지는 않습니다. 사망 위험은 주 30~60분에서 가장 크게 줄었습니다. 감소폭은 약 10~20%입니다. 더 많은 운동량의 효과는 확실하지 않습니다. 근력과 유산소 운동을 함께 하는 사람도 비교했습니다. 둘 다 안 하는 사람보다 사망 위험이 낮습니다.",
+      "reason": "운동량의 확정 상한 단정을 원문이 명시한 불확실성으로 최소 수정합니다.",
+      "evidencequotes": [
+        "However, the influence of a higher volume of muscle-strengthening activities on health benefits is unclear."
+      ]
+    },
+    {
+      "field": "비고",
+      "before": "연구진은 참가자를 추적해 기록을 모았습니다. 운동량은 참가자가 직접 보고했습니다. \"과하면 오히려 나빠진다\"는 근거는 약합니다. 이 때문에 운동량을 줄일 필요는 없습니다. 노인은 근력 운동으로 낙상 예방 효과도 얻습니다. 근육 유지에도 도움이 됩니다. 낙상 예방과 근육 유지는 제1절(너무 일찍 죽지 않기)에서 다룹니다.",
+      "after": "연구진은 참가자를 추적해 기록을 모았습니다. 운동량은 참가자가 직접 보고했습니다. \"과하면 오히려 나빠진다\"는 근거는 약합니다. 이 때문에 운동량을 줄일 필요는 없습니다. 노인은 근력 운동으로 낙상 예방 효과도 얻습니다. 근육 유지에도 도움이 됩니다. 낙상 예방과 근육 유지는 제1절(너무 일찍 죽지 않기)에서 다룹니다. 주 30~60분은 연구에서 비교한 운동 시간입니다. 운동 빈도에 관한 지침과는 구분해야 합니다.",
+      "reason": "연구의 주간 시간량을 운동 빈도 지침과 구분하며 국내 지침의 특정 빈도를 새로 주장하지 않습니다.",
+      "evidencequotes": [
+        "However, the influence of a higher volume of muscle-strengthening activities on health benefits is unclear.",
+        "we could not directly examine the frequency of muscle-strengthening activities."
+      ]
+    }
+  ],
+  "editorial_approval": {
+    "path": "editorial-proposal-r2.json",
+    "sha256": "57e7a3886428eb093df595131fb40d8e28514e67f5b67b4d85523787d0cc19a4",
+    "canonical_evidence": "ch02/content-audit.md:949 및 editorial-decisions.json r2 제16항 approve",
+    "scope": "쉽게 편집 승인; 전체 항목 출판 승인 아님"
+  },
+  "sources": [
+    {
+      "doi": "10.1136/bjsports-2021-105061",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9209691/fullTextXML",
+      "read_at_utc": "2026-10-18T14:13:06.827617+00:00",
+      "method": "기존 실제 원문 XML 재열람: 초록·결론·임상 적용 및 운동 빈도 한계 문단 직접 확인",
+      "original_raw_path": "/tmp/ch02-audit/full-PMC9209691.body",
+      "permanent_raw_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-016-71f0/source-evidence/PMC9209691.fullTextXML",
+      "raw_sha256": "ffe5462b860ed16387503b573c56b65debce95491864b1900fdc387496625c8a",
+      "original_fetch_time": null,
+      "provenance_limit": "최초 HTTP 수집시각 미기록. 새 HTTP 수집으로 주장하지 않음.",
+      "quotes": [
+        "However, the influence of a higher volume of muscle-strengthening activities on health benefits is unclear.",
+        "we could not directly examine the frequency of muscle-strengthening activities."
+      ]
+    }
+  ],
+  "intentional_numerical_scope_changes": [],
+  "doi_additions": [],
+  "doi_removals": [],
+  "checks": {
+    "modified_sentence_lengths": [
+      {
+        "text": "더 많은 운동량의 효과는 확실하지 않습니다.",
+        "chars": 24
+      },
+      {
+        "text": "주 30~60분은 연구에서 비교한 운동 시간입니다.",
+        "chars": 28
+      },
+      {
+        "text": "운동 빈도에 관한 지침과는 구분해야 합니다.",
+        "chars": 24
+      },
+      {
+        "text": "주 30~60분 근력 운동을 하는 사람의 사망 위험이 낮았습니다.",
+        "chars": 36
+      },
+      {
+        "text": "안 하는 사람보다 약 10~20% 낮았습니다.",
+        "chars": 25
+      },
+      {
+        "text": "운동 덕분인지는 확실하지 않습니다.",
+        "chars": 19
+      },
+      {
+        "text": "더 많이 했을 때의 이득은 확실하지 않습니다.",
+        "chars": 25
+      }
+    ],
+    "easy_chars": 108,
+    "metrics": "OR 또는 HR를 확률로 환산하지 않음. 기존 수치·대상·비교 유지.",
+    "tag_and_grade": "정확 보존"
+  },
+  "unresolved_limitations": [
+    "국내 현행 운동 지침의 구체적 빈도는 새로 검증하지 않았으며 처방으로 추가하지 않았습니다.",
+    "r2 쉽게의 승인은 전체 항목·출판 승인을 뜻하지 않습니다."
+  ]
+}

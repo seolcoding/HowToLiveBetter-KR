@@ -1,0 +1,37 @@
+{
+  "status": "unadopted_proposal",
+  "entry": 28,
+  "old_proposal_sha256": "14ed897a9a8cf9515e8441ac47006486f2e6f639401e086d4d73b48b2b54fd28",
+  "old_changes_sha256": "4f2eb06afe82504239d4ad6982e147d5cabe541fc4ef16dba84d84510e75d86b",
+  "new_proposal_sha256": "441857b58bd3091d1b7fefe3918361ee580b1016cc144636aef706f12af6a113",
+  "changes": [
+    {
+      "field": "이득",
+      "before": "이는 연관성의 강도를 나누는 기준입니다.",
+      "after": "이는 연관성을 뒷받침하는 근거를 분류한 기준입니다.",
+      "reason": "effect size의 크기 분류로 오독할 표현을 고쳐 연관성을 뒷받침하는 근거의 분류라는 뜻을 명시합니다.",
+      "after_chars": 28,
+      "evidencequotes": [
+        "Using the data derived from our reanalyses, such as the P value, I2 statistic, 95% prediction intervals, small study effects, excess significance bias, and largest study significance, we categorised each re-meta-analysed result of our umbrella review as convincing (“class I”), highly suggestive (“class II”), suggestive (“class III”), weak (“class IV”), or no evidence (“class V”) by following evidence classification criteria and previous umbrella reviews.24 25 26 36 We determined these classifications on the basis of the criteria outlined in supplementary table C."
+      ]
+    }
+  ],
+  "verification": {
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10899807/fullTextXML",
+    "doi": "10.1136/bmj-2023-077310",
+    "method": "previously directly fetched primary XML reopened; abstract credibility and methods classification paragraph reread",
+    "reopened_at_utc": "2026-10-18T14:24:12.536279+00:00",
+    "raw_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-028-ff01/primary-PMC10899807.xml",
+    "raw_sha256": "45154cac70401515cd7f07cff88d9fdcd460a92d6ebc23fed3d28aa4d56da184",
+    "original_fetch_utc": "2026-10-18T14:15:44.249780+00:00"
+  },
+  "unchanged_provenance": "publication-entry-changes.json records all inherited full-entry changes; this revision changes exactly one sentence.",
+  "checks": {
+    "other_body_bytes_unchanged": true
+  },
+  "doi_additions": [],
+  "doi_removals": [],
+  "limitations": [
+    "独立した正確SHAレビュー待ち。既存承認・公開本文は変更していません。"
+  ]
+}

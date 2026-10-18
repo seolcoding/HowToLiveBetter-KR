@@ -1,0 +1,52 @@
+{
+  "status": "unadopted_proposal",
+  "entry": 16,
+  "base_path": "publication-entry-proposal.md",
+  "oldSHA": "07b184706861db697b5178adf31e9a79d75dda2613b746058764119df87a6182",
+  "newSHA": "2bb09014b52824face59aa70d32383d203137d55a426b25ac518a388d601a97b",
+  "previous_changes_sha256": "0bacc58b0ba3cd5650ad47b15f5c0e5798460be372f72a34f3eb7f67ef0c4d1f",
+  "changes": [
+    {
+      "field": "이득",
+      "before": "추적 연구들을 종합한 결과입니다. 참가자에게 운동을 시키지 않고 생활을 관찰했습니다. 근력 운동을 하는 사람의 사망 위험이 더 낮았습니다. 안 하는 사람과 비교하면 10~17% 낮습니다. 운동량이 많다고 이득이 계속 늘지는 않습니다. 사망 위험은 주 30~60분에서 가장 크게 줄었습니다. 감소폭은 약 10~20%입니다. 더 많은 운동량의 효과는 확실하지 않습니다. 근력과 유산소 운동을 함께 하는 사람도 비교했습니다. 둘 다 안 하는 사람보다 사망 위험이 낮습니다.",
+      "after": "추적 연구들을 종합한 결과입니다. 참가자에게 운동을 시키지 않고 생활을 관찰했습니다. 근력 운동을 하는 사람의 사망 위험이 더 낮았습니다. 안 하는 사람과 비교하면 약 15% 낮습니다. 운동량이 많다고 이득이 계속 늘지는 않습니다. 사망 위험은 주 30~60분에서 가장 크게 줄었습니다. 감소폭은 약 10~20%입니다. 더 많은 운동량의 효과는 확실하지 않습니다. 근력과 유산소 운동을 함께 하는 사람도 비교했습니다. 둘 다 안 하는 사람보다 사망 위험이 낮습니다.",
+      "exact_before_span": "안 하는 사람과 비교하면 10~17% 낮습니다.",
+      "exact_after_span": "안 하는 사람과 비교하면 약 15% 낮습니다.",
+      "reason": "초록의 10~17%는 여러 결과의 범위입니다. 전체 사망 비교에 그 범위를 귀속한 오류를 본문 All-cause mortality와 표1의 약15%로 바로잡습니다.",
+      "evidencequotes": [
+        "Muscle-strengthening activities were associated with a 15% lower risk of all-cause mortality (RR 0.85; 95% CI 0.79 to 0.93; p<0.001)",
+        "Seven studies with 42 133 cases of all-cause mortality among 263 058 participants were included in the two-group analysis."
+      ],
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9209691/fullTextXML",
+      "read_at_utc": "2026-10-18T14:24:53.064331+00:00",
+      "method": "보존된 실제 원문 XML의 All-cause mortality 문단과 표1 직접 재열람",
+      "raw_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-016-71f0/source-evidence/PMC9209691.fullTextXML",
+      "raw_sha256": "ffe5462b860ed16387503b573c56b65debce95491864b1900fdc387496625c8a",
+      "denominator": {
+        "studies": 7,
+        "participants": 263058,
+        "all_cause_deaths": 42133,
+        "comparison": "근력 운동 있음 대 없음",
+        "RR": 0.85,
+        "CI95": [
+          0.79,
+          0.93
+        ]
+      },
+      "intentional_numerical_change": {
+        "from": "10~17%",
+        "to": "약 15%",
+        "endpoint": "전체 사망",
+        "reason": "여러 결과 범위 대신 전체 사망의 두 집단 비교 추정치 사용"
+      },
+      "modified_sentence_chars": 25
+    }
+  ],
+  "preserved": "승인된 r2 쉽게, 운동량 효과 불확실성 수정, 나머지 조건 및 r1 모든 수정 유지",
+  "doi_additions": [],
+  "doi_removals": [],
+  "limitations": [
+    "기존 원문 응답 재열람이며 새 HTTP 수집은 아닙니다.",
+    "개인 절대 사망 확률이나 인과효과로 환산하지 않았습니다."
+  ]
+}

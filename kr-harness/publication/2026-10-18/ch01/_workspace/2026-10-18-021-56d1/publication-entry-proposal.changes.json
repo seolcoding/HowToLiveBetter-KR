@@ -1,0 +1,99 @@
+{
+  "entry": 21,
+  "status": "unadopted",
+  "adopted": false,
+  "publication_ready": false,
+  "changes": [
+    {
+      "field": "비용",
+      "before": "재조합 대상포진 백신은 두 번 맞습니다. 대상포진은 국가예방접종 대상 질병이 아니라서 값을 모두 직접 냅니다. 값은 병원마다 다릅니다.",
+      "after": "재조합 대상포진 백신은 두 번 맞습니다. 대상포진은 국가예방접종 대상 질병이 아닙니다. 지자체 지원 여부는 보건소에 확인하세요. 지원이 없으면 값을 직접 냅니다. 값은 병원마다 다릅니다.",
+      "changed": true,
+      "reason": "국가사업 제외를 모든 사람의 전액 본인부담으로 단정하지 않도록 수정. 지역별 지원은 별도 확인 안내.",
+      "evidence_ids": [
+        "national"
+      ],
+      "status": "unadopted"
+    },
+    {
+      "field": "쉽게",
+      "before": "이 백신은 대상포진을 97% 막았습니다. 나이대가 달라도 효과는 비슷했습니다. 다만 두 번 맞는 값은 전부 본인이 냅니다. 그 돈으로 대상포진 발생을 97% 줄이는 셈입니다.",
+      "after": "재조합 대상포진 백신은 평균 3.2년 동안 발생을 97% 줄였습니다. 나이대가 달라도 효과는 비슷했습니다. 접종비와 지자체 지원 여부는 따로 확인하세요.",
+      "changed": true,
+      "reason": "재조합 백신과 평균 관찰기간 명시. 97% 반복과 전액 본인부담 단정 삭제.",
+      "evidence_ids": [
+        "lal",
+        "national"
+      ],
+      "status": "unadopted"
+    },
+    {
+      "field": "이득",
+      "before": "18개국 1.54만 명이 참여한 3상 시험입니다. 참가자를 백신 쪽과 위약(대조 주사) 쪽으로 무작위로 나눠 평균 3.2년 지켜봤습니다. 대상포진은 백신 쪽 6명, 위약 쪽 210명에게 생겼습니다. 1,000인년당으로 따지면 0.3 대 9.1이었습니다. 1,000인년당은 1,000명을 1년 지켜봤을 때의 건수를 뜻합니다. 논문에 적힌 전체 효능은 97.2%였습니다. 믿을 만한 범위는 95% CI 93.7–99.0이고, P<0.001입니다. 나이대별로 보면 효능은 96.6~97.9%로 나왔습니다.",
+      "after": "18개국 1.54만 명이 참여한 3상 시험입니다. 참가자를 백신 쪽과 위약(대조 주사) 쪽으로 무작위로 나눠 평균 3.2년 지켜봤습니다. 대상포진은 백신 쪽 6명, 위약 쪽 210명에게 생겼습니다. 1,000인년당으로 따지면 0.3 대 9.1이었습니다. 1,000인년당은 1,000명을 1년 지켜봤을 때의 건수를 뜻합니다. 논문에 적힌 전체 효능은 97.2%였습니다. 믿을 만한 범위는 95% CI 93.7–99.0이고, P<0.001입니다. 나이대별로 보면 효능은 96.6~97.9%로 나왔습니다.",
+      "changed": false,
+      "reason": "불변 필드 보존. 이번 수정에서 새 전수검증하지 않음.",
+      "evidence_ids": [],
+      "status": "unadopted"
+    },
+    {
+      "field": "근거등급",
+      "before": "A",
+      "after": "A",
+      "changed": false,
+      "reason": "불변 필드 보존. 이번 수정에서 새 전수검증하지 않음.",
+      "evidence_ids": [],
+      "status": "unadopted"
+    },
+    {
+      "field": "출처",
+      "before": "Lal H, Cunningham AL, Godeaux O, et al. (2015). Efficacy of an adjuvanted herpes zoster subunit vaccine in older adults. New England Journal of Medicine, 372(22), 2087-2096. https://doi.org/10.1056/NEJMoa1501184 · 「감염병의 예방 및 관리에 관한 법률」 제24조 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=285325",
+      "after": "Lal H, Cunningham AL, Godeaux O, et al. (2015). Efficacy of an adjuvanted herpes zoster subunit vaccine in older adults. New England Journal of Medicine, 372(22), 2087-2096. https://doi.org/10.1056/NEJMoa1501184 · 「감염병의 예방 및 관리에 관한 법률」 제24조 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=285325",
+      "changed": false,
+      "reason": "불변 필드 보존. 이번 수정에서 새 전수검증하지 않음.",
+      "evidence_ids": [],
+      "status": "unadopted"
+    },
+    {
+      "field": "비고",
+      "before": "값이 비싸서 가성비 순위가 뒤로 밀렸습니다. 대상포진으로 목숨을 잃는 일은 드뭅니다. 문제는 대상포진 후 신경통으로, 몇 달에서 몇 년까지 아플 수 있습니다. 맞고 나면 주사 부위 통증과 발열이 꽤 흔하게 생깁니다. 가장 심한 단계(3단계 증상)는 백신 쪽 17.0%, 위약 쪽 3.2%였습니다. 2026-10-10 법령 확인(국가법령정보센터).",
+      "after": "값이 비싸서 가성비 순위가 뒤로 밀렸습니다. 대상포진으로 목숨을 잃는 일은 드뭅니다. 문제는 대상포진 후 신경통으로, 몇 달에서 몇 년까지 아플 수 있습니다. 맞고 나면 주사 부위 통증과 발열이 꽤 흔하게 생깁니다. 가장 심한 단계(3단계 증상)는 백신 쪽 17.0%, 위약 쪽 3.2%였습니다. 2026-10-10 법령 확인(국가법령정보센터).",
+      "changed": false,
+      "reason": "불변 필드 보존. 이번 수정에서 새 전수검증하지 않음.",
+      "evidence_ids": [],
+      "status": "unadopted"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "lal",
+      "url": "https://doi.org/10.1056/NEJMoa1501184",
+      "exact_quote": "During a mean follow-up of 3.2 years, herpes zoster was confirmed in 6 participants in the vaccine group and in 210 participants in the placebo group (incidence rate, 0.3 vs. 9.1 per 1000 person-years) in the modified vaccinated cohort. Overall vaccine efficacy against herpes zoster was 97.2% (95% confidence interval [CI], 93.7 to 99.0; P<0.001).",
+      "vaccine_quote": "a subunit vaccine containing varicella-zoster virus glycoprotein E and the AS01B adjuvant system (called HZ/su)",
+      "read_method": "medical-doi-cache-index.json에서 DOI 매칭 후 원시 Europe PMC JSON abstractText 직접 열람",
+      "read_date": "2026-10-18",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/e6de0daa1efe59c0d4e2.json",
+      "limits": "캐시 초록 열람. 신규 HTTP 및 전문 재검증 아님. 평생 예방효과·다른 제품 효과로 일반화하지 않음."
+    },
+    {
+      "id": "national",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000285754&type=XML",
+      "exact_quote": "제3조(대상 및 표준접종시기) ① 제2조제1호에 따른 국가예방접종 대상 및 표준접종시기는 별표 1과 같다.",
+      "read_method": "보존된 고시 원시 XML의 조문 및 별표1 직접 열람; 별표 대상 목록에 대상포진 없음 확인",
+      "read_date": "2026-10-18",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch01-audit/vaccine.txt",
+      "limits": "국가사업 목록 확인. 지자체별 현행 지원사업·대상·백신 종류·금액 미검증. 특정 지자체 지원을 단정하지 않고 개별 확인을 안내."
+    }
+  ],
+  "validation": {
+    "easy_chars": 85,
+    "easy_sentence_lengths": [
+      38,
+      20,
+      25
+    ],
+    "new_sentence_max": 38,
+    "immutable_fields_preserved": true
+  },
+  "limits": "제목·태그·근거등급·출처·이득·비고 원문 보존. 기존 미확인 세부사항에 대한 사실 승인이 아님."
+}

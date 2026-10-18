@@ -1,0 +1,248 @@
+{
+  "status": "unadopted_proposal",
+  "entry": 11,
+  "strict_entry_sha256": "b5bb6c8f35179b7896519a503d18b5c65836a8bcf11786ab716a557e7573e844",
+  "proposal_sha256": "732c9758957cda416b9d39f7592113351ac6145ab86c468bcbce6a4f51dc214d",
+  "canonical_easy": {
+    "proposal_r2_sha256": "b75d3652688abfc529af9a3e4f2454ef1e5b812db3e2fe739e9488467741d262",
+    "approval": "editorial-decisions.json R2 number 11 approve; 쉽게만",
+    "after_exact_match": true,
+    "char_count": 115
+  },
+  "changes": [
+    {
+      "field": "쉽게",
+      "before": "하루 7800보쯤 걷는 사람과 3500보쯤 걷는 사람을 비교했습니다. 같은 기간 죽을 확률은 많이 걷는 쪽이 45% 가깝게 낮습니다. 운동 시간으로 비교해도 사망 위험이 낮습니다. 일주일에 150~300분 빠르게 걷는 사람도 비교했습니다. 죽을 확률은 안 걷는 사람보다 30%쯤 낮습니다. 다만 일정량을 넘기면 위험이 더 낮아지지 않습니다. 예순이 넘었으면 6000~8000보로 충분합니다. 걸음 수나 운동 시간 중 하나만 채우세요.",
+      "after": "일주일에 150~300분 빠르게 걸으세요. 이만큼 움직인 사람은 활동 없는 사람보다 사망 위험이 약 30% 낮았습니다. 걷기 때문이라고 단정할 수는 없습니다. 걸음 수와 시간은 정확히 맞아떨어지지 않습니다.",
+      "reason": "승인 R2의 정확한 쉽게 문구를 보존합니다.",
+      "evidence_source_dois": [
+        "10.1016/s2468-2667(21)00302-9",
+        "10.1001/jamainternmed.2015.0533",
+        "10.1093/eurjpc/zwad229",
+        "10.1136/bmj.l4570"
+      ]
+    },
+    {
+      "field": "이득",
+      "before": "추적 연구 15개를 합쳤습니다. 참여자를 관찰했으며 활동량을 정해 배정하지는 않았습니다. 참여자는 47,471명이며 사망은 3,013건입니다. 하루 걸음 수에 따라 참여자를 네 집단으로 나눴습니다. 가장 적게 걷는 집단의 중앙값은 3,553보였습니다. 나머지 세 집단의 중앙값은 5,801·7,842·10,901보였습니다. 세 집단은 가장 적게 걷는 집단보다 사망 위험이 낮았습니다. 감소 폭은 각각 약 40%, 45%, 53%입니다. HR은 차례로 0.60, 0.55, 0.47입니다. 60세 이상은 6000~8000보부터 이득이 더 늘지 않습니다. 60세 미만은 8000~10000보부터 이득이 더 늘지 않습니다. 다른 메타분석에서는 하루 약 3,867보부터 효과가 나타났습니다. 그 뒤로 1000보마다 사망 위험이 약 15% 낮아집니다. 운동 시간 기준으로도 같은 설계의 추적 연구를 통합했습니다. 활동량이 지침 하한의 1~2배인 사람을 활동 없는 사람과 비교했습니다. 사망 위험은 활동하는 쪽이 약 31% 낮습니다(HR 0.69). 이 활동량은 7.5~15 MET·h/주입니다. 빠르게 걷기 150~300분/주와 대략 맞먹습니다. 하한에 못 미치는 사람도 약 20% 낮습니다(HR 0.80). 하한의 3~5배인 사람은 약 39% 낮습니다(HR 0.61). 이 구간에서 사망 위험의 감소 폭이 가장 큽니다. 더 늘려도 위험이 더 낮아지지는 않습니다. 다만 해로운 양상도 나타나지 않았습니다(10배 이상은 HR 0.69). 가속도계로 실측한 연구들을 통합한 결과도 있습니다. 중·고강도 활동량에 따라 참여자를 네 집단으로 나눴습니다. 활동이 가장 많은 집단과 가장 적은 집단을 비교했습니다. 사망 위험은 활동이 많은 쪽이 약 48% 낮습니다(HR 0.52). 가속도계는 몸에 달고 활동량을 재는 기계입니다.",
+      "after": "추적 연구 15개를 합쳤습니다. 참여자를 관찰했으며 활동량을 정해 배정하지는 않았습니다. 참여자는 47,471명이며 사망은 3,013건입니다. 하루 걸음 수에 따라 참여자를 네 집단으로 나눴습니다. 가장 적게 걷는 집단의 중앙값은 3,553보였습니다. 나머지 세 집단의 중앙값은 5,801·7,842·10,901보였습니다. 세 집단은 가장 적게 걷는 집단보다 사망 위험이 낮았습니다. 감소 폭은 각각 약 40%, 45%, 53%입니다. HR은 차례로 0.60, 0.55, 0.47입니다. 60세 이상은 6000~8000보부터 이득이 더 늘지 않습니다. 60세 미만은 8000~10000보부터 이득이 더 늘지 않습니다. 다른 메타분석에서 기준 집단의 중앙값은 하루 약 3,867보였습니다. 하루 1000보가 많을 때 사망 위험은 약 15% 낮았습니다. 운동 시간은 별도의 추적 연구들을 통합해 비교했습니다. 활동량이 지침 하한의 1~2배인 사람을 활동 없는 사람과 비교했습니다. 사망 위험은 활동하는 쪽이 약 31% 낮습니다(HR 0.69). 이 활동량은 7.5~15 MET·h/주입니다. 빠르게 걷기 150~300분/주와 대략 맞먹습니다. 하한에 못 미치는 사람도 약 20% 낮습니다(HR 0.80). 하한의 3~5배인 사람은 약 39% 낮습니다(HR 0.61). 이 구간에서 사망 위험의 감소 폭이 가장 큽니다. 더 늘려도 위험이 더 낮아지지는 않습니다. 다만 해로운 양상도 나타나지 않았습니다(10배 이상은 HR 0.69). 가속도계로 실측한 연구들을 통합한 결과도 있습니다. 중·고강도 활동량에 따라 참여자를 네 집단으로 나눴습니다. 활동이 가장 많은 집단과 가장 적은 집단을 비교했습니다. 사망 위험은 활동이 많은 쪽이 약 48% 낮습니다(HR 0.52). 가속도계는 몸에 달고 활동량을 재는 기계입니다. 걸음 수 연구의 추적 기간 중앙값은 7.1년입니다. 운동 시간 연구는 미국·유럽의 성인 661,137명을 다뤘습니다. 사망은 116,686건이며 추적 기간 중앙값은 14.2년입니다. 여기서는 여가의 중·고강도 활동을 스스로 보고했습니다. 걷기만 따로 배정한 비교는 아닙니다. MET·h는 활동 강도에 시간을 곱한 단위입니다. 7.5~15 MET·h/주는 걷는 시간으로 대략 환산한 양입니다. 걸음 수와 정확히 일대일로 바꿀 수는 없습니다. 두 연구 모두 원인을 가리지 않은 사망을 비교했습니다. 참여자와 추적 기간, 비교 집단은 서로 다릅니다. HR은 추적 중 사망이 일어나는 속도를 비교한 값입니다. 개인이 죽을 확률이 그만큼 줄었다는 뜻은 아닙니다. 가속도계 연구는 중년·고령자 36,383명을 다뤘습니다. 사망은 2149건이며 추적 기간 중앙값은 5.8년입니다. 이 연구도 원인을 가리지 않은 사망을 비교했습니다.",
+      "reason": "서로 다른 연구의 대상·기간·분모·사망 endpoint와 HR의 해석을 구분합니다. Banach의 3,867보를 효과 발생 최소량 대신 기준 집단 중앙값으로 바로잡고 1000보 연관성을 보존합니다.",
+      "evidence_source_dois": [
+        "10.1016/s2468-2667(21)00302-9",
+        "10.1001/jamainternmed.2015.0533",
+        "10.1093/eurjpc/zwad229",
+        "10.1136/bmj.l4570"
+      ]
+    },
+    {
+      "field": "비고",
+      "before": "걸음 수와 운동 시간은 같은 활동량을 세는 두 방법입니다. 하나만 채우면 됩니다. 4000보에서 7000보로 늘리는 구간의 이득이 가장 큽니다. 만 보를 억지로 채울 필요는 없습니다. 이 연구들은 활동량과 사망을 추적해 기록했습니다. 가장 적게 걷는 집단에는 원래 아파서 못 걷는 사람도 있습니다. 몸이 먼저 나빠져서 덜 걷기도 합니다. 따라서 덜 걸어서 일찍 죽었다고만 볼 수는 없습니다. 이 때문에 계산된 차이가 실제보다 큰 경우가 많습니다. 기기로 실측한 연구들은 추적 기간이 짧았습니다. 참가자도 고령에 치우쳤습니다. 실제 이득이 \"위험 0.52배\"라고 단정할 수는 없습니다. 다만 많이 움직일수록 좋다는 방향은 분명합니다.",
+      "after": "걸음 수와 운동 시간은 활동을 나타내는 서로 다른 기준입니다. 빠르게 걷는 시간과 활동량의 환산은 대략적인 값입니다. 모든 사람에게 두 기준이 정확히 같은 양은 아닙니다. 4000보에서 7000보로 늘리는 구간의 이득이 가장 큽니다. 만 보를 억지로 채울 필요는 없습니다. 이 연구들은 활동량과 사망을 추적해 기록했습니다. 가장 적게 걷는 집단에는 원래 아파서 못 걷는 사람도 있습니다. 몸이 먼저 나빠져서 덜 걷기도 합니다. 따라서 덜 걸어서 일찍 죽었다고만 볼 수는 없습니다. 이 때문에 계산된 차이가 실제보다 큰 경우가 많습니다. 기기로 실측한 연구들은 추적 기간이 짧았습니다. 참가자도 고령에 치우쳤습니다. 실제 이득이 \"위험 0.52배\"라고 단정할 수는 없습니다. 다만 많이 움직일수록 좋다는 방향은 분명합니다.",
+      "reason": "정확한 등가·하나만 채우면 된다는 일반화를 삭제하고 서로 다른 기준과 대략 환산으로 한정합니다.",
+      "evidence_source_dois": [
+        "10.1016/s2468-2667(21)00302-9",
+        "10.1001/jamainternmed.2015.0533",
+        "10.1093/eurjpc/zwad229",
+        "10.1136/bmj.l4570"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "doi": "10.1016/s2468-2667(21)00302-9",
+      "url": "https://doi.org/10.1016/s2468-2667(21)00302-9",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/683bb7799e08f8155c9f.json",
+      "raw_sha256": "ccb7302a069be66d449768e66f5fe7773e66cfaf7005bd9a1b816ed088aade31",
+      "verification_date_utc": "2026-10-18T14:28:53.138988+00:00",
+      "method": "provided_primary_abstract_cache_directly_read",
+      "scope": "원초록을 직접 읽음. 본문·부록 미확인. 초기 캐시의 HTTP 수집 시각은 새로 추정하지 않음.",
+      "exact_primary_quotation": "<h4>Background</h4>Although 10 000 steps per day is widely promoted to have health benefits, there is little evidence to support this recommendation. We aimed to determine the association between number of steps per day and stepping rate with all-cause mortality.<h4>Methods</h4>In this meta-analysis, we identified studies investigating the effect of daily step count on all-cause mortality in adults (aged ≥18 years), via a previously published systematic review and expert knowledge of the field. We asked participating study investigators to process their participant-level data following a standardised protocol. The primary outcome was all-cause mortality collected from death certificates and country registries. We analysed the dose-response association of steps per day and stepping rate with all-cause mortality. We did Cox proportional hazards regression analyses using study-specific quartiles of steps per day and calculated hazard ratios (HRs) with inverse-variance weighted random effects models.<h4>Findings</h4>We identified 15 studies, of which seven were published and eight were unpublished, with study start dates between 1999 and 2018. The total sample included 47 471 adults, among whom there were 3013 deaths (10·1 per 1000 participant-years) over a median follow-up of 7·1 years ([IQR 4·3-9·9]; total sum of follow-up across studies was 297 837 person-years). Quartile median steps per day were 3553 for quartile 1, 5801 for quartile 2, 7842 for quartile 3, and 10 901 for quartile 4. Compared with the lowest quartile, the adjusted HR for all-cause mortality was 0·60 (95% CI 0·51-0·71) for quartile 2, 0·55 (0·49-0·62) for quartile 3, and 0·47 (0·39-0·57) for quartile 4. Restricted cubic splines showed progressively decreasing risk of mortality among adults aged 60 years and older with increasing number of steps per day until 6000-8000 steps per day and among adults younger than 60 years until 8000-10 000 steps per day. Adjusting for number of steps per day, comparing quartile 1 with quartile 4, the association between higher stepping rates and mortality was attenuated but remained significant for a peak of 30 min (HR 0·67 [95% CI 0·56-0·83]) and a peak of 60 min (0·67 [0·50-0·90]), but not significant for time (min per day) spent walking at 40 steps per min or faster (1·12 [0·96-1·32]) and 100 steps per min or faster (0·86 [0·58-1·28]).<h4>Interpretation</h4>Taking more steps per day was associated with a progressively lower risk of all-cause mortality, up to a level that varied by age. The findings from this meta-analysis can be used to inform step guidelines for public health promotion of physical activity.<h4>Funding</h4>US Centers for Disease Control and Prevention."
+    },
+    {
+      "doi": "10.1001/jamainternmed.2015.0533",
+      "url": "https://doi.org/10.1001/jamainternmed.2015.0533",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/a3967d4d88be84683f13.json",
+      "raw_sha256": "549f6f8bbe29be27c99c840e6ca2bac9ddff082ea42d3ffaa8f33baae4ae4c71",
+      "verification_date_utc": "2026-10-18T14:28:53.139250+00:00",
+      "method": "provided_primary_abstract_cache_directly_read",
+      "scope": "원초록을 직접 읽음. 본문·부록 미확인. 초기 캐시의 HTTP 수집 시각은 새로 추정하지 않음.",
+      "exact_primary_quotation": "<h4>Importance</h4>The 2008 Physical Activity Guidelines for Americans recommended a minimum of 75 vigorous-intensity or 150 moderate-intensity minutes per week (7.5 metabolic-equivalent hours per week) of aerobic activity for substantial health benefit and suggested additional benefits by doing more than double this amount. However, the upper limit of longevity benefit or possible harm with more physical activity is unclear.<h4>Objective</h4>To quantify the dose-response association between leisure time physical activity and mortality and define the upper limit of benefit or harm associated with increased levels of physical activity.<h4>Design, setting, and participants</h4>We pooled data from 6 studies in the National Cancer Institute Cohort Consortium (baseline 1992-2003). Population-based prospective cohorts in the United States and Europe with self-reported physical activity were analyzed in 2014. A total of 661,137 men and women (median age, 62 years; range, 21-98 years) and 116,686 deaths were included. We used Cox proportional hazards regression with cohort stratification to generate multivariable-adjusted hazard ratios (HRs) and 95% CIs. Median follow-up time was 14.2 years.<h4>Exposures</h4>Leisure time moderate- to vigorous-intensity physical activity.<h4>Main outcomes and measures</h4>The upper limit of mortality benefit from high levels of leisure time physical activity.<h4>Results</h4>Compared with individuals reporting no leisure time physical activity, we observed a 20% lower mortality risk among those performing less than the recommended minimum of 7.5 metabolic-equivalent hours per week (HR, 0.80 [95% CI, 0.78-0.82]), a 31% lower risk at 1 to 2 times the recommended minimum (HR, 0.69 [95% CI, 0.67-0.70]), and a 37% lower risk at 2 to 3 times the minimum (HR, 0.63 [95% CI, 0.62-0.65]). An upper threshold for mortality benefit occurred at 3 to 5 times the physical activity recommendation (HR, 0.61 [95% CI, 0.59-0.62]); however, compared with the recommended minimum, the additional benefit was modest (31% vs 39%). There was no evidence of harm at 10 or more times the recommended minimum (HR, 0.69 [95% CI, 0.59-0.78]). A similar dose-response relationship was observed for mortality due to cardiovascular disease and to cancer.<h4>Conclusions and relevance</h4>Meeting the 2008 Physical Activity Guidelines for Americans minimum by either moderate- or vigorous-intensity activities was associated with nearly the maximum longevity benefit. We observed a benefit threshold at approximately 3 to 5 times the recommended leisure time physical activity minimum and no excess risk at 10 or more times the minimum. In regard to mortality, health care professionals should encourage inactive adults to perform leisure time physical activity and do not need to discourage adults who already participate in high-activity levels."
+    },
+    {
+      "doi": "10.1093/eurjpc/zwad229",
+      "url": "https://doi.org/10.1093/eurjpc/zwad229",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/e1b1009e2c926ca207f0.json",
+      "raw_sha256": "5523d4aa18ed226cc1c10f5e679f800e5646dcc1bedf5820067782f6619ca3d3",
+      "verification_date_utc": "2026-10-18T14:28:53.139385+00:00",
+      "method": "provided_primary_abstract_cache_directly_read",
+      "scope": "원초록을 직접 읽음. 본문·부록 미확인. 초기 캐시의 HTTP 수집 시각은 새로 추정하지 않음.",
+      "exact_primary_quotation": "<h4>Aims</h4>There is good evidence showing that inactivity and walking minimal steps/day increase the risk of cardiovascular (CV) disease and general ill-health. The optimal number of steps and their role in health is, however, still unclear. Therefore, in this meta-analysis, we aimed to evaluate the relationship between step count and all-cause mortality and CV mortality.<h4>Methods and results</h4>We systematically searched relevant electronic databases from inception until 12 June 2022. The main endpoints were all-cause mortality and CV mortality. An inverse-variance weighted random-effects model was used to calculate the number of steps/day and mortality. Seventeen cohort studies with a total of 226 889 participants (generally healthy or patients at CV risk) with a median follow-up 7.1 years were included in the meta-analysis. A 1000-step increment was associated with a 15% decreased risk of all-cause mortality [hazard ratio (HR) 0.85; 95% confidence interval (CI) 0.81-0.91; P < 0.001], while a 500-step increment was associated with a 7% decrease in CV mortality (HR 0.93; 95% CI 0.91-0.95; P < 0.001). Compared with the reference quartile with median steps/day 3867 (2500-6675), the Quartile 1 (Q1, median steps: 5537), Quartile 2 (Q2, median steps 7370), and Quartile 3 (Q3, median steps 11 529) were associated with lower risk for all-cause mortality (48, 55, and 67%, respectively; P < 0.05, for all). Similarly, compared with the lowest quartile of steps/day used as reference [median steps 2337, interquartile range 1596-4000), higher quartiles of steps/day (Q1 = 3982, Q2 = 6661, and Q3 = 10 413) were linearly associated with a reduced risk of CV mortality (16, 49, and 77%; P < 0.05, for all). Using a restricted cubic splines model, we observed a nonlinear dose-response association between step count and all-cause and CV mortality (Pnonlineraly < 0.001, for both) with a progressively lower risk of mortality with an increased step count.<h4>Conclusion</h4>This meta-analysis demonstrates a significant inverse association between daily step count and all-cause mortality and CV mortality with more the better over the cut-off point of 3867 steps/day for all-cause mortality and only 2337 steps for CV mortality."
+    },
+    {
+      "doi": "10.1136/bmj.l4570",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6699591/fullTextXML",
+      "raw_path": "/tmp/ch02-audit/full-PMC6699591.body",
+      "raw_sha256": "1e613b7b86b407b39d02859e9febf6f661090b486fa634596a500fd182f52e70",
+      "verification_date_utc": "2026-10-18T14:28:53.142043+00:00",
+      "method": "previous_primary_XML_reopened_abstract_read",
+      "scope": "기존 원문 XML의 초록을 직접 읽음. 전체 본문 재검증 아님.",
+      "exact_primary_quotation": "Abstract Objective To examine the dose-response associations between accelerometer assessed total physical activity, different intensities of physical activity, and sedentary time and all cause mortality. Design Systematic review and harmonised meta-analysis. Data sources PubMed, PsycINFO, Embase, Web of Science, Sport Discus from inception to 31 July 2018. Eligibility criteria Prospective cohort studies assessing physical activity and sedentary time by accelerometry and associations with all cause mortality and reported effect estimates as hazard ratios, odds ratios, or relative risks with 95% confidence intervals. Data extraction and analysis Guidelines for meta-analyses and systematic reviews for observational studies and PRISMA guidelines were followed. Two authors independently screened the titles and abstracts. One author performed a full text review and another extracted the data. Two authors independently assessed the risk of bias. Individual level participant data were harmonised and analysed at study level. Data on physical activity were categorised by quarters at study level, and study specific associations with all cause mortality were analysed using Cox proportional hazards regression analyses. Study specific results were summarised using random effects meta-analysis. Main outcome measure All cause mortality. Results 39 studies were retrieved for full text review; 10 were eligible for inclusion, three were excluded owing to harmonisation challenges (eg, wrist placement of the accelerometer), and one study did not participate. Two additional studies with unpublished mortality data were also included. Thus, individual level data from eight studies (n=36 383; mean age 62.6 years; 72.8% women), with median follow-up of 5.8 years (range 3.0-14.5 years) and 2149 (5.9%) deaths were analysed. Any physical activity, regardless of intensity, was associated with lower risk of mortality, with a non-linear dose-response. Hazards ratios for mortality were 1.00 (referent) in the first quarter (least active), 0.48 (95% confidence interval 0.43 to 0.54) in the second quarter, 0.34 (0.26 to 0.45) in the third quarter, and 0.27 (0.23 to 0.32) in the fourth quarter (most active). Corresponding hazards ratios for light physical activity were 1.00, 0.60 (0.54 to 0.68), 0.44 (0.38 to 0.51), and 0.38 (0.28 to 0.51), and for moderate-to-vigorous physical activity were 1.00, 0.64 (0.55 to 0.74), 0.55 (0.40 to 0.74), and 0.52 (0.43 to 0.61). For sedentary time, hazards ratios were 1.00 (referent; least sedentary), 1.28 (1.09 to 1.51), 1.71 (1.36 to 2.15), and 2.63 (1.94 to 3.56). Conclusion Higher levels of total physical activity, at any intensity, and less time spent sedentary, are associated with substantially reduced risk for premature mortality, with evidence of a non-linear dose-response pattern in middle aged and older adults. Systematic review registration PROSPERO CRD42018091808."
+    }
+  ],
+  "sentence_len_checks": [
+    {
+      "field": "쉽게",
+      "sentence": "일주일에 150~300분 빠르게 걸으세요.",
+      "len": 23
+    },
+    {
+      "field": "쉽게",
+      "sentence": "이만큼 움직인 사람은 활동 없는 사람보다 사망 위험이 약 30% 낮았습니다.",
+      "len": 42
+    },
+    {
+      "field": "쉽게",
+      "sentence": "걷기 때문이라고 단정할 수는 없습니다.",
+      "len": 21
+    },
+    {
+      "field": "쉽게",
+      "sentence": "걸음 수와 시간은 정확히 맞아떨어지지 않습니다.",
+      "len": 26
+    },
+    {
+      "field": "이득",
+      "sentence": "다른 메타분석에서 기준 집단의 중앙값은 하루 약 3,867보였습니다.",
+      "len": 38
+    },
+    {
+      "field": "이득",
+      "sentence": "하루 1000보가 많을 때 사망 위험은 약 15% 낮았습니다.",
+      "len": 34
+    },
+    {
+      "field": "이득",
+      "sentence": "운동 시간은 별도의 추적 연구들을 통합해 비교했습니다.",
+      "len": 30
+    },
+    {
+      "field": "이득",
+      "sentence": "걸음 수 연구의 추적 기간 중앙값은 7.1년입니다.",
+      "len": 28
+    },
+    {
+      "field": "이득",
+      "sentence": "운동 시간 연구는 미국·유럽의 성인 661,137명을 다뤘습니다.",
+      "len": 36
+    },
+    {
+      "field": "이득",
+      "sentence": "사망은 116,686건이며 추적 기간 중앙값은 14.2년입니다.",
+      "len": 35
+    },
+    {
+      "field": "이득",
+      "sentence": "여기서는 여가의 중·고강도 활동을 스스로 보고했습니다.",
+      "len": 30
+    },
+    {
+      "field": "이득",
+      "sentence": "걷기만 따로 배정한 비교는 아닙니다.",
+      "len": 20
+    },
+    {
+      "field": "이득",
+      "sentence": "MET·h는 활동 강도에 시간을 곱한 단위입니다.",
+      "len": 27
+    },
+    {
+      "field": "이득",
+      "sentence": "7.5~15 MET·h/주는 걷는 시간으로 대략 환산한 양입니다.",
+      "len": 36
+    },
+    {
+      "field": "이득",
+      "sentence": "걸음 수와 정확히 일대일로 바꿀 수는 없습니다.",
+      "len": 26
+    },
+    {
+      "field": "이득",
+      "sentence": "두 연구 모두 원인을 가리지 않은 사망을 비교했습니다.",
+      "len": 30
+    },
+    {
+      "field": "이득",
+      "sentence": "참여자와 추적 기간, 비교 집단은 서로 다릅니다.",
+      "len": 27
+    },
+    {
+      "field": "이득",
+      "sentence": "HR은 추적 중 사망이 일어나는 속도를 비교한 값입니다.",
+      "len": 31
+    },
+    {
+      "field": "이득",
+      "sentence": "개인이 죽을 확률이 그만큼 줄었다는 뜻은 아닙니다.",
+      "len": 28
+    },
+    {
+      "field": "이득",
+      "sentence": "가속도계 연구는 중년·고령자 36,383명을 다뤘습니다.",
+      "len": 31
+    },
+    {
+      "field": "이득",
+      "sentence": "사망은 2149건이며 추적 기간 중앙값은 5.8년입니다.",
+      "len": 31
+    },
+    {
+      "field": "이득",
+      "sentence": "이 연구도 원인을 가리지 않은 사망을 비교했습니다.",
+      "len": 28
+    },
+    {
+      "field": "비고",
+      "sentence": "걸음 수와 운동 시간은 활동을 나타내는 서로 다른 기준입니다.",
+      "len": 34
+    },
+    {
+      "field": "비고",
+      "sentence": "빠르게 걷는 시간과 활동량의 환산은 대략적인 값입니다.",
+      "len": 30
+    },
+    {
+      "field": "비고",
+      "sentence": "모든 사람에게 두 기준이 정확히 같은 양은 아닙니다.",
+      "len": 29
+    }
+  ],
+  "numerical_scope_changes": [
+    "3,867보는 Banach 원초록의 기준 분위 중앙값입니다. 숫자는 유지하고 최소 효과 발생량 해석을 제한했습니다.",
+    "31%를 쉽게에서 약30%로 반올림한 기존 승인 R2를 유지했습니다. HR .69의 위험 비교를 개인 절대확률로 환산하지 않았습니다.",
+    "연구별 표본·사망·중앙 추적 기간을 추가했습니다. 각각 별개 연구의 분모이며 합산하지 않습니다."
+  ],
+  "doi_changes": {
+    "added": [],
+    "removed": []
+  },
+  "unresolved_limitations": [
+    "한국 공식 지침 첨부 원문의 해당 권고문은 이번 작업에서 직접 확인하지 못했습니다. 확인 완료로 세지 않습니다.",
+    "Paluch·Arem 전체 XML 직접 다운로드는 HTTP500으로 실패했습니다. 확인 근거는 캐시 원초록에 한정합니다.",
+    "Banach 전체 본문·정정문은 직접 읽지 않았습니다. 해당 문헌 추가 검토가 필요합니다.",
+    "기존 비용의 60~90분·20~45분은 개인 보행 속도에 따라 달라지며 별도 원문 대조를 완료하지 않았습니다."
+  ],
+  "provenance": {
+    "construction": "strict-entry.md에서 3필드만 exact before/after 치환; 그 외 바이트 보존",
+    "calculation": "쉽게 약30%는 승인 R2 그대로; 위험비 .69에서 약31% 차이와 일치. 개인 확률 계산 없음.",
+    "download_attempts": [
+      {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4451435/fullTextXML",
+        "result": "HTTP 500; 성공 검증으로 계산하지 않음"
+      },
+      {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9289978/fullTextXML",
+        "result": "HTTP 500; 성공 검증으로 계산하지 않음"
+      }
+    ]
+  }
+}

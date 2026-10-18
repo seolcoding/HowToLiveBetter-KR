@@ -1,0 +1,50 @@
+{
+  "entry": 33,
+  "status": "unadopted_proposal",
+  "revision": "r2 title only",
+  "base_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-033-866b/publication-entry-proposal.md",
+  "old_sha256": "6799fbfcca880e64de4cf9414c3067274a608e304d8a95f41453881a8a72d32a",
+  "new_sha256": "0efc29aa9c2efaa27768057c55d0a489e46d6ed891e9834762c99ca831d540e9",
+  "changes": [
+    {
+      "field": "title",
+      "before": "고추를 주 4회 초과 먹은 사람의 관찰 결과를 살펴보세요",
+      "after": "고추 섭취와 사망 위험의 관계",
+      "reason": "논문 검토를 지시하는 메타 제목을 독자용 주제 명사형으로 변경. 고추 앵커를 보존하며 섭취량 처방이나 인과효과를 추가하지 않음.",
+      "length": 16
+    }
+  ],
+  "unchanged_body_sha256": "a94396c0b13cffff27c5e9a07d59c10ee881abbc25ad954039159d9a5d79c08c",
+  "body_byte_identical": true,
+  "frozen_changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-033-866b/publication-entry-changes.json",
+  "frozen_changes_sha256": "9fbb018481925853128a46de0ca8157e21b05789c15fdde006822d604170188c",
+  "incoming_reference_scan": {
+    "date_utc": "2026-10-18T13:56:38.912911+00:00",
+    "method": "실제 source.md/candidate.md 및 저장소 Markdown rg 검색: 제33항·고추 제목·기존 제목",
+    "references": [
+      {
+        "path": "book-kr/02-천천히-죽지-않기.md",
+        "line": 15,
+        "text": "일주일에 네 번 이상 고추(제33항)"
+      },
+      {
+        "path": "kr-harness/publication/2026-10-18/ch02/source.md",
+        "line": 15,
+        "text": "일주일에 네 번 이상 고추(제33항)"
+      },
+      {
+        "path": "kr-harness/publication/2026-10-18/ch02/candidate.md",
+        "line": 15,
+        "text": "일주일에 네 번 이상 고추(제33항)"
+      }
+    ],
+    "result": "고추 주제와 번호 33 보존. 원본 도입부의 주4회 이상 표현은 기존 미수정 참조이며 이 제목 수정에서 승인하거나 변경하지 않음. 본문 >4회 조건 유지."
+  },
+  "doi_changes": {
+    "added": [],
+    "removed": []
+  },
+  "limitations": [
+    "새 근거 조회 없음. 기존 r1 JSON의 원초록 확인 범위와 한계 유지."
+  ]
+}

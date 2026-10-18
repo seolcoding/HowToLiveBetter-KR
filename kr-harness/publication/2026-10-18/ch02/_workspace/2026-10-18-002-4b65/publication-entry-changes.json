@@ -1,0 +1,227 @@
+{
+  "status": "unadopted_proposal",
+  "entry": 2,
+  "base": "strict-entry.md",
+  "base_sha256": "8a0a7babdef6dc3bed021a7ca0bb108a88f1b1dc258dea475d40a7beb11a5346",
+  "changes": [
+    {
+      "field": "쉽게",
+      "before": "전 세계 간접흡연 사망자는 약 60만 명으로 추산됐습니다. 그중 세 명 중 한 명꼴은 아이입니다. 간접흡연에 오래 노출되면 고혈압·심장병·뇌졸중 위험이 커집니다. 이 질환에 걸릴 확률은 30% 안팎 높습니다. 집 안의 간접흡연은 집 밖의 노출보다 더 해롭습니다.",
+      "after": "2004년 세계 간접흡연 사망자는 약 60만 명으로 추산됐습니다. 그중 28%는 아동입니다. 간접흡연은 심장병·뇌졸중 위험과 관련됩니다. 가족과 손님에게 집과 차 안에서 금연을 요청하세요.",
+      "reason": "2004년 세계 추정·아동 28% 정정. 확률 30% 단정과 오즈 용어를 빼고 방향·행동으로 요약."
+    },
+    {
+      "field": "이득",
+      "before": "2004년 간접흡연으로 603,000명이 사망했습니다. 전 세계 사망자의 약 1.0%에 해당합니다. 이 중 28%가 아동이었습니다. 57개 연구를 합쳐 간접흡연 노출군과 비노출군을 비교했습니다. 노출군의 고혈압 오즈는 비노출군의 약 1.28배(OR)입니다. 심장병 오즈는 1.39배입니다. 심근경색 오즈는 1.50배로 나타났습니다. 뇌졸중 오즈는 1.36배입니다. 집 안 노출은 집 밖 노출보다 위험이 큽니다.",
+      "after": "2004년 세계의 아동과 비흡연 성인을 대상으로 한 추정입니다. 간접흡연에 따른 사망자는 603,000명으로 추산됐습니다. 세계 사망자의 약 1.0%이며 그중 28%가 아동입니다. 57개 연구를 합쳐 간접흡연과 심혈관질환의 관계를 살폈습니다. 아래 수치는 노출군과 비노출군의 오즈비(OR)입니다. 오즈는 질환이 있는 경우와 없는 경우의 비입니다. 고혈압은 1.28배(95% 신뢰구간 1.15~1.40)입니다. 심장병은 1.39배(95% 신뢰구간 1.28~1.50)입니다. 심근경색은 1.50배(95% 신뢰구간 1.17~1.84)입니다. 뇌졸중은 1.36배(95% 신뢰구간 1.18~1.54)입니다. 신뢰구간은 추정치의 통계적 불확실성을 나타냅니다. 이는 질환에 걸릴 확률이 그 배수라는 뜻은 아닙니다. 집에서 노출된 연구군의 심혈관질환 위험이 더 높게 나왔습니다. 비교 대상은 집 이외 장소에서 노출된 연구군입니다. 실내와 실외를 같은 조건에서 직접 비교한 결과는 아닙니다. 장소 자체의 독립적인 인과효과로 단정할 수 없습니다.",
+      "reason": "추정 대상·분모 명시. OR와 95% CI 및 네 질환 endpoint 보존. 확률과 오즈 구별. home/non-home 연구군 비교와 실내외 장소 인과를 구별."
+    },
+    {
+      "field": "비고",
+      "before": "집에 머무는 시간이 길어 집부터 금연해야 합니다. 연구를 종합하면 집 안의 간접흡연이 집 밖보다 해롭습니다. 간접흡연으로 인한 장애보정생존년 손실의 61%는 아동 몫입니다. 본인의 금연은 제1항(금연)을 참고하세요.",
+      "after": "집부터 금연을 실천하세요. 비교 연구의 노출 시간·대상자 조건은 초록만으로 확인되지 않습니다. 집 밖 노출이 안전하다는 뜻은 아닙니다. 2004년 세계 간접흡연 관련 장애보정생존년 손실의 61%는 아동 몫입니다. 장애보정생존년은 사망·장애로 잃은 건강한 수명을 합한 값입니다. 본인의 금연은 제1항(금연)을 참고하세요.",
+      "reason": "근거 없는 체류시간 일반화를 권고로 대체. 장소 비교의 대상·시간 조건 미확인 공개. 61%의 연도·세계 범위와 용어 뜻 명시."
+    }
+  ],
+  "evidence": [
+    {
+      "doi": "10.1016/s0140-6736(10)61388-8",
+      "url": "https://doi.org/10.1016/s0140-6736(10)61388-8",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/4419084fca5878740fdb.json",
+      "raw_sha256": "5e4528bb7aee2f65e253e198f9bcf284bf556616a3f5ab41eaf3eb27fab8e871",
+      "method": "EuropePMC core에 보존된 원논문 초록 전체 직접 열람",
+      "verification_date": "2026-10-18",
+      "level": "primary abstract; full text and supplements not read",
+      "exact_primary_quote": "<h4>Background</h4>Exposure to second-hand smoke is common in many countries but the magnitude of the problem worldwide is poorly described. We aimed to estimate the worldwide exposure to second-hand smoke and its burden of disease in children and adult non-smokers in 2004.<h4>Methods</h4>The burden of disease from second-hand smoke was estimated as deaths and disability-adjusted life-years (DALYs) for children and adult non-smokers. The calculations were based on disease-specific relative risk estimates and area-specific estimates of the proportion of people exposed to second-hand smoke, by comparative risk assessment methods, with data from 192 countries during 2004.<h4>Findings</h4>Worldwide, 40% of children, 33% of male non-smokers, and 35% of female non-smokers were exposed to second-hand smoke in 2004. This exposure was estimated to have caused 379,000 deaths from ischaemic heart disease, 165,000 from lower respiratory infections, 36,900 from asthma, and 21,400 from lung cancer. 603,000 deaths were attributable to second-hand smoke in 2004, which was about 1·0% of worldwide mortality. 47% of deaths from second-hand smoke occurred in women, 28% in children, and 26% in men. DALYs lost because of exposure to second-hand smoke amounted to 10·9 million, which was about 0·7% of total worldwide burden of diseases in DALYs in 2004. 61% of DALYs were in children. The largest disease burdens were from lower respiratory infections in children younger than 5 years (5,939,000), ischaemic heart disease in adults (2,836,000), and asthma in adults (1,246,000) and children (651,000).<h4>Interpretation</h4>These estimates of worldwide burden of disease attributable to second-hand smoke suggest that substantial health gains could be made by extending effective public health and clinical interventions to reduce passive smoking worldwide.<h4>Funding</h4>Swedish National Board of Health and Welfare and Bloomberg Philanthropies.",
+      "correction_metadata": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "21112081",
+            "reference": "Lancet. 2011 Jan 8;377(9760):101-2. doi: 10.1016/S0140-6736(10)61922-8",
+            "type": "Comment in",
+            "orderIn": 1
+          },
+          {
+            "source": "MED",
+            "id": "21786848",
+            "reference": "Natl Med J India. 2011 May-Jun;24(3):164-5.",
+            "type": "Comment in",
+            "orderIn": 2
+          }
+        ]
+      },
+      "correction_limit": "캐시의 정정 연결정보 확인. 첫 논문의 연결 2건은 Comment in이며 정정문이 아니다. 별도 원문·정정공지 전체 검색 검증은 하지 않았다."
+    },
+    {
+      "doi": "10.1093/ntr/ntaf111",
+      "url": "https://doi.org/10.1093/ntr/ntaf111",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/c8c171be347ded2a2f52.json",
+      "raw_sha256": "bcf32eae0519c003336e6c04ab80e011ad47a990e14ebaea692ae6df1ea6e6f7",
+      "method": "EuropePMC core에 보존된 원논문 초록 전체 직접 열람",
+      "verification_date": "2026-10-18",
+      "level": "primary abstract; full text and supplements not read",
+      "exact_primary_quote": "<h4>Introduction</h4>Despite various meta-analyses conducted to explore the association between SHS and CVD, gaps and mixed results remained in the literature. This study aims to examine the associations between SHS and individual CVDs with moderation analyses of sexes, countries/regions, and exposure types.<h4>Methods</h4>Publications in four databases (PubMed, CINAHL ultimate, Embase, and Web of Science) from inception to May 2, 2024, were included. Cochrane ROBINS-E was used for bias evaluation. The robust variance estimation model was used for meta-analyses. Subgroup analyses were conducted to compare the differences in sex, geographic regions, and exposure type. Odds ratios, 95% confidence intervals, and p-values were reported to assess effect sizes and statistical significance. Cochran's Q test with the I2 statistic was used to test heterogeneity. Egger's test and funnel plots were used for publication bias.<h4>Results</h4>57 studies were included. SHS exposure increases the odds of hypertension (OR: 1.28, 95% CI: 1.15 to 1.40), heart disease (OR: 1.39, 95% CI: 1.28 to 1.50), myocardial infarction (OR: 1.50, 95% CI: 1.17 to 1.84), stroke (OR: 1.36, 95% CI: 1.18 to 1.54), and nonspecific CVDs (OR: 1.50, 95% CI: 1.26 to 1.74). Compared to other countries, the U.S. has lower odds ratios (ORs), and European countries have higher ORs in various CVDs. Home exposure has a higher risk of CVD than non-home exposure. No sex differences were found.<h4>Conclusion</h4>Public education to raise awareness of the health impacts of SHS exposure on a population level, legislation and execution of public smoking bans on the government level and efforts toward smoke-free homes at family levels are recommended.",
+      "correction_metadata": null,
+      "correction_limit": "캐시의 정정 연결정보 확인. 첫 논문의 연결 2건은 Comment in이며 정정문이 아니다. 별도 원문·정정공지 전체 검색 검증은 하지 않았다."
+    }
+  ],
+  "intentional_numerical_scope_changes": [
+    "쉽게 세 명 중 한 명을 28%로 정정; 2004년 세계 추정 명시",
+    "쉽게의 발생확률 30% 증가 삭제; OR는 이득에 원값·CI로 보존",
+    "장기 노출 조건은 원초록에서 확인되지 않아 추가 일반화하지 않음",
+    "비고 61%를 2004년 세계 추정으로 한정",
+    "실내외 물리적 조건이 아닌 home/non-home 노출 연구군 비교로 한정"
+  ],
+  "doi_changes": {
+    "added": [],
+    "removed": [],
+    "reason": "기존 두 DOI와 출처 필드 유지"
+  },
+  "unresolved_limitations": [
+    "두 논문 원문·부록 미열람. 장소 비교의 표본·노출기간·교란보정 조건은 확인되지 않아 독립 인과효과 주장 배제.",
+    "초록에는 각 질환 연구별 추적기간·분모가 제시되지 않는다. 57은 연구 수이며 대상자 수가 아니다.",
+    "초록의 확인된 합계와 원문 간 충돌은 발견되지 않았으나 원문 전체 대조를 완료했다는 뜻은 아니다."
+  ],
+  "sentence_lengths": [
+    {
+      "field": "쉽게",
+      "sentence": "2004년 세계 간접흡연 사망자는 약 60만 명으로 추산됐습니다.",
+      "chars": 36
+    },
+    {
+      "field": "쉽게",
+      "sentence": "그중 28%는 아동입니다.",
+      "chars": 14
+    },
+    {
+      "field": "쉽게",
+      "sentence": "간접흡연은 심장병·뇌졸중 위험과 관련됩니다.",
+      "chars": 24
+    },
+    {
+      "field": "쉽게",
+      "sentence": "가족과 손님에게 집과 차 안에서 금연을 요청하세요.",
+      "chars": 28
+    },
+    {
+      "field": "이득",
+      "sentence": "2004년 세계의 아동과 비흡연 성인을 대상으로 한 추정입니다.",
+      "chars": 35
+    },
+    {
+      "field": "이득",
+      "sentence": "간접흡연에 따른 사망자는 603,000명으로 추산됐습니다.",
+      "chars": 32
+    },
+    {
+      "field": "이득",
+      "sentence": "세계 사망자의 약 1.0%이며 그중 28%가 아동입니다.",
+      "chars": 31
+    },
+    {
+      "field": "이득",
+      "sentence": "57개 연구를 합쳐 간접흡연과 심혈관질환의 관계를 살폈습니다.",
+      "chars": 34
+    },
+    {
+      "field": "이득",
+      "sentence": "아래 수치는 노출군과 비노출군의 오즈비(OR)입니다.",
+      "chars": 29
+    },
+    {
+      "field": "이득",
+      "sentence": "오즈는 질환이 있는 경우와 없는 경우의 비입니다.",
+      "chars": 27
+    },
+    {
+      "field": "이득",
+      "sentence": "고혈압은 1.28배(95% 신뢰구간 1.15~1.40)입니다.",
+      "chars": 34
+    },
+    {
+      "field": "이득",
+      "sentence": "심장병은 1.39배(95% 신뢰구간 1.28~1.50)입니다.",
+      "chars": 34
+    },
+    {
+      "field": "이득",
+      "sentence": "심근경색은 1.50배(95% 신뢰구간 1.17~1.84)입니다.",
+      "chars": 35
+    },
+    {
+      "field": "이득",
+      "sentence": "뇌졸중은 1.36배(95% 신뢰구간 1.18~1.54)입니다.",
+      "chars": 34
+    },
+    {
+      "field": "이득",
+      "sentence": "신뢰구간은 추정치의 통계적 불확실성을 나타냅니다.",
+      "chars": 27
+    },
+    {
+      "field": "이득",
+      "sentence": "이는 질환에 걸릴 확률이 그 배수라는 뜻은 아닙니다.",
+      "chars": 29
+    },
+    {
+      "field": "이득",
+      "sentence": "집에서 노출된 연구군의 심혈관질환 위험이 더 높게 나왔습니다.",
+      "chars": 34
+    },
+    {
+      "field": "이득",
+      "sentence": "비교 대상은 집 이외 장소에서 노출된 연구군입니다.",
+      "chars": 28
+    },
+    {
+      "field": "이득",
+      "sentence": "실내와 실외를 같은 조건에서 직접 비교한 결과는 아닙니다.",
+      "chars": 32
+    },
+    {
+      "field": "이득",
+      "sentence": "장소 자체의 독립적인 인과효과로 단정할 수 없습니다.",
+      "chars": 29
+    },
+    {
+      "field": "비고",
+      "sentence": "집부터 금연을 실천하세요.",
+      "chars": 14
+    },
+    {
+      "field": "비고",
+      "sentence": "비교 연구의 노출 시간·대상자 조건은 초록만으로 확인되지 않습니다.",
+      "chars": 37
+    },
+    {
+      "field": "비고",
+      "sentence": "집 밖 노출이 안전하다는 뜻은 아닙니다.",
+      "chars": 22
+    },
+    {
+      "field": "비고",
+      "sentence": "2004년 세계 간접흡연 관련 장애보정생존년 손실의 61%는 아동 몫입니다.",
+      "chars": 42
+    },
+    {
+      "field": "비고",
+      "sentence": "장애보정생존년은 사망·장애로 잃은 건강한 수명을 합한 값입니다.",
+      "chars": 35
+    },
+    {
+      "field": "비고",
+      "sentence": "본인의 금연은 제1항(금연)을 참고하세요.",
+      "chars": 23
+    }
+  ],
+  "easy_chars": 105,
+  "protected_fields_preserved": [
+    "title",
+    "cost_tag",
+    "비용",
+    "근거등급",
+    "출처"
+  ],
+  "review": "Independent exact-hash review required; not adopted or approved."
+}

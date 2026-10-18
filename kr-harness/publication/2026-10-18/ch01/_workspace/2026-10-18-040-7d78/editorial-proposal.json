@@ -1,0 +1,31 @@
+{
+  "status": "unadopted_proposal",
+  "entry": 40,
+  "easy": null,
+  "title": {
+    "before": "골다공증 진단을 받았거나 살짝 넘어져 뼈가 부러진 적이 있으면, 의사에게 골다공증 약을 처방받아 꾸준히 쓰세요. 칼슘으로 대신하지 마세요",
+    "after": "골다공증 진단이나 가벼운 충격에 골절을 겪었다면 의사에게 골다공증 약을 처방받아 꾸준히 쓰세요. 칼슘으로 대신하지 마세요",
+    "before_chars": 76,
+    "after_chars": 67,
+    "reason": "진단 또는 취약성 골절이라는 대상 범위, 의사 처방·지속 사용·칼슘 대체 금지를 유지해 줄였습니다.",
+    "evidencequotes": [
+      "취약성 골절은 가벼운 충격이나 일상 동작으로 생긴 골절입니다.",
+      "무엇을 쓸지는 의사가 정합니다.",
+      "칼슘만 먹어서는 이 약의 효과를 얻을 수 없다는 뜻입니다."
+    ],
+    "incoming_anchorwords": [
+      "골다공증 약"
+    ],
+    "reference_scan": [
+      "ch01/intro.md:19 골다공증 약(제40항)",
+      "ch01/source.md:393 제40항(골다공증 약)"
+    ],
+    "independent_review_required": true
+  },
+  "todo": null,
+  "checks": {
+    "easy_chars": 117,
+    "title_chars": 76,
+    "body_todo_found": false
+  }
+}

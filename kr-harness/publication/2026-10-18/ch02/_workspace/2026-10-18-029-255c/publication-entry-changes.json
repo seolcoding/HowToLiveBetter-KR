@@ -1,0 +1,317 @@
+{
+  "entry": 29,
+  "status": "unadopted_pending_independent_exact_hash_review",
+  "base": "strict-entry.md",
+  "base_sha256": "cd80fd0dfdd84c50710a7b1d6d1a1fe1b1673d5b9fbef263f4257647b911fb05",
+  "proposal_sha256": "d1dfc6d1be584d79a51583d4f83913b7ee31ff929c9989773935af477cc8e292",
+  "verified_at_utc": "2026-10-18T14:29:56.170343+00:00",
+  "field_changes": [
+    {
+      "field": "비용",
+      "before": "조리·난방 기구를 바꾸고 연료값을 내야 합니다. 한 번 바꾸면 끝나므로 시간을 계속 들이지 않아도 됩니다. 한국 도시 가정은 대부분 이미 전기·가스를 씁니다. 일부 농가와 오래된 주택에 해당합니다.",
+      "after": "조리·난방 기구를 바꾸고 연료값을 내야 합니다. 교체 뒤에도 연료 구입과 기구 관리가 필요합니다. 국내 교체비와 전기·가스 보급률은 여기서 확인하지 못했습니다.",
+      "reason": "Remove unsupported Korean penetration and one-time effort assertions; disclose unverified domestic costs."
+    },
+    {
+      "field": "쉽게",
+      "before": "연탄·장작으로 밥을 지으면 안 쓰는 사람보다 죽을 확률이 10%쯤 높습니다. 난방에 쓰면 죽을 확률이 14%쯤 높습니다. 전기나 가스로 바꾼 집은 계속 태우는 집보다 죽을 확률이 13~33% 낮습니다.",
+      "after": "중국 농촌에서는 연탄·장작을 쓰는 쪽의 사망 위험이 높았습니다. 전기나 가스로 바꾼 쪽은 계속 태운 쪽보다 낮았습니다. 한국 가정의 효과를 그대로 뜻하지는 않습니다.",
+      "reason": "Avoid HR as death probability; keep Chinese rural scope and direction."
+    },
+    {
+      "field": "이득",
+      "before": "중국에서 만성질환을 추적한 연구입니다. 연구진은 집단을 나누지 않고 기록만 했습니다. 심혈관 질환이 없는 성인 27만1천 명을 추적했습니다. 밥 짓기에 연탄·장작 같은 고체 연료를 쓰는 사람을 봤습니다. 사망 위험은 전기·가스 사용자보다 약 11% 높습니다(HR 1.11). 난방에 고체 연료를 쓰면 약 14% 높습니다(HR 1.14). 고체 연료에서 청정 연료로 바꾼 집과 계속 고체 연료를 쓰는 집을 비교했습니다. 밥 짓기 사망 위험은 바꾼 쪽이 약 13% 낮습니다(HR 0.87). 난방에서는 약 33% 낮습니다(HR 0.67). 실외 초미세먼지(PM2.5) 위험은 따로 계산합니다. 추적 연구 104개를 합쳤습니다. 장기 노출 농도가 10 µg/m³ 높을 때 자연사 위험은 약 8% 높습니다. RR 1.08입니다. 자연사는 사고사가 아닌 병사를 말합니다.",
+      "after": "중국 농촌 5곳의 성인 271,217명을 추적했습니다. 처음에 심혈관 질환 진단 이력이 없다고 답한 사람들입니다. 평균 7.2년 동안 모든 원인 사망 15,468건을 기록했습니다. 주 1회 이상 조리한 사람은 179,952명입니다. 겨울 난방을 한 사람은 163,882명입니다. 고체 연료에는 석탄·장작·숯이 포함됐습니다. 청정 연료는 가스·전기·중앙난방입니다. 조리와 난방은 각각 청정 연료 사용자와 비교했습니다. 고체 연료의 모든 원인 사망 HR은 각각 1.11과 1.14입니다. HR은 추적 중 사망이 생기는 속도를 비교한 값입니다. 개인의 죽을 확률이 그만큼 높다는 뜻은 아닙니다. 조사 전에 청정 연료로 바꾼 사람도 비교했습니다. 비교 대상은 고체 연료를 계속 쓰던 사람입니다. 조리의 모든 원인 사망 HR은 0.87입니다. 난방에서는 0.67입니다. 실외 초미세먼지(PM2.5)는 별도 연구 결과입니다. 전체 107개 연구 중 추적 연구가 104개였습니다. 이 전체 개수가 PM2.5 자연사 분석의 분모는 아닙니다. 장기 농도가 10 µg/m³ 높을 때 자연사 RR은 1.08입니다. RR은 집단 사이 사망 위험의 비입니다. 자연사는 사고사가 아닌 병사를 말합니다.",
+      "reason": "Exact sample and exposure denominators, all-cause endpoint and hazard meaning; distinguish 107 total studies from 104 cohorts and PM2.5 analysis subset."
+    },
+    {
+      "field": "근거등급",
+      "before": "A",
+      "after": "A",
+      "reason": "unchanged"
+    },
+    {
+      "field": "출처",
+      "before": "Yu K, et al. (2018). Association of Solid Fuel Use With Risk of Cardiovascular and All-Cause Mortality in Rural China. JAMA. <https://doi.org/10.1001/jama.2018.2151>; Chen J, Hoek G (2020). Long-term exposure to PM and all-cause and cause-specific mortality: A systematic review and meta-analysis. Environment International. <https://doi.org/10.1016/j.envint.2020.105974>",
+      "after": "Yu K, et al. (2018). Association of Solid Fuel Use With Risk of Cardiovascular and All-Cause Mortality in Rural China. JAMA. <https://doi.org/10.1001/jama.2018.2151>; Chen J, Hoek G (2020). Long-term exposure to PM and all-cause and cause-specific mortality: A systematic review and meta-analysis. Environment International. <https://doi.org/10.1016/j.envint.2020.105974>",
+      "reason": "unchanged"
+    },
+    {
+      "field": "비고",
+      "before": "이 연구들은 사람들의 생활과 건강을 추적해 기록했습니다. 연료를 바꾼 집은 대체로 형편도 나아졌을 수 있습니다. 사망 위험이 0.67배라는 수치에는 집안 형편의 영향도 섞여 있습니다. 실외 PM2.5에 개인이 대응할 방법은 제한적입니다. 개인은 이사나 마스크, 공기청정기 정도로 대응합니다. 공기청정기는 사망률을 살핀 연구가 없습니다. 그래서 사망률 수치를 제시하지 않았습니다.",
+      "after": "이 연구들은 사람들의 생활과 건강을 추적해 기록했습니다. 연료를 바꾼 집은 대체로 형편도 나아졌을 수 있습니다. 사망 위험이 0.67배라는 수치에는 집안 형편의 영향도 섞여 있습니다. 연료 교체가 사망 감소의 원인이라고 확정할 수 없습니다. 중국 농촌의 수치를 한국 가구의 효과로 옮길 수 없습니다. 가스 등 청정 연료를 써도 적절히 환기하세요. 실외 PM2.5에 개인이 대응할 방법은 제한적입니다. 개인은 이사나 마스크, 공기청정기 정도로 대응합니다. 인용한 실외 미세먼지 연구는 공기청정기의 사망 효과를 검증하지 않았습니다. 그래서 공기청정기의 사망률 수치를 제시하지 않습니다.",
+      "reason": "Constrain air cleaner evidence statement to cited research; retain confounding and safety ventilation condition; no Korean extrapolation."
+    }
+  ],
+  "title": {
+    "before": "### 29. 밥 짓고 난방할 때 연탄과 장작을 태우지 마세요. 전기나 가스로 바꾸세요",
+    "after": "### 29. 밥 짓고 난방할 때 연탄과 장작을 태우지 마세요. 전기나 가스로 바꾸세요",
+    "anchor_check": "밥 짓기·난방·연탄·장작·전기·가스 all preserved"
+  },
+  "primary_evidence": [
+    {
+      "doi": "10.1001/jama.2018.2151",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1001%2Fjama.2018.2151%22&format=json&resultType=core&pageSize=10",
+      "method": "provided_primary_abstract_cache_reopened",
+      "read_level": "complete primary abstract; full text not read",
+      "verified_at_utc": "2026-10-18T14:29:56.170343+00:00",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/9a9a5095d6eb444aa465.json",
+      "raw_sha256": "132bac2eacaa72b23b9b4f4d121d639652edda923daa3015f618c5ecb2135275",
+      "original_fetched_at": "2026-10-18T20:50:04.869631+09:00",
+      "exact_primary_quotation": "<h4>Importance</h4>When combusted indoors, solid fuels generate a large amount of pollutants such as fine particulate matter.<h4>Objective</h4>To assess the associations of solid fuel use for cooking and heating with cardiovascular and all-cause mortality.<h4>Design, setting, and participants</h4>This nationwide prospective cohort study recruited participants from 5 rural areas across China between June 2004 and July 2008; mortality follow-up was until January 1, 2014. A total of 271 217 adults without a self-reported history of physician-diagnosed cardiovascular disease at baseline were included, with a random subset (n = 10 892) participating in a resurvey after a mean interval of 2.7 years.<h4>Exposures</h4>Self-reported primary cooking and heating fuels (solid: coal, wood, or charcoal; clean: gas, electricity, or central heating), switching of fuel type before baseline, and use of ventilated cookstoves.<h4>Main outcomes and measures</h4>Death from cardiovascular and all causes, collected through established death registries.<h4>Results</h4>Among the 271 217 participants, the mean (SD) age was 51.0 (10.2) years, and 59% (n = 158 914) were women. A total of 66% (n = 179 952) of the participants reported regular cooking (at least weekly) and 60% (n = 163 882) reported winter heating, of whom 84% (n = 150 992) and 90% (n = 147 272) used solid fuels, respectively. There were 15 468 deaths, including 5519 from cardiovascular causes, documented during a mean (SD) of 7.2 (1.4) years of follow-up. Use of solid fuels for cooking was associated with greater risk of cardiovascular mortality (absolute rate difference [ARD] per 100 000 person-years, 135 [95% CI, 77-193]; hazard ratio [HR], 1.20 [95% CI, 1.02-1.41]) and all-cause mortality (ARD, 338 [95% CI, 249-427]; HR, 1.11 [95% CI, 1.03-1.20]). Use of solid fuels for heating was also associated with greater risk of cardiovascular mortality (ARD, 175 [95% CI, 118-231]; HR, 1.29 [95% CI, 1.06-1.55]) and all-cause mortality (ARD, 392 [95% CI, 297-487]; HR, 1.14 [95% CI, 1.03-1.26]). Compared with persistent solid fuel users, participants who reported having previously switched from solid to clean fuels for cooking had a lower risk of cardiovascular mortality (ARD, 138 [95% CI, 71-205]; HR, 0.83 [95% CI, 0.69-0.99]) and all-cause mortality (ARD, 407 [95% CI, 317-497]; HR, 0.87 [95% CI, 0.79-0.95]), while for heating, the ARDs were 193 (95% CI, 128-258) and 492 (95% CI, 383-601), and the HRs were 0.57 (95% CI, 0.42-0.77) and 0.67 (95% CI, 0.57-0.79), respectively. Among solid fuel users, use of ventilated cookstoves was also associated with lower risk of cardiovascular mortality (ARD, 33 [95% CI, -9 to 75]; HR, 0.89 [95% CI, 0.80-0.99]) and all-cause mortality (ARD, 87 [95% CI, 20-153]; HR, 0.91 [95% CI, 0.85-0.96]).<h4>Conclusions and relevance</h4>In rural China, solid fuel use for cooking and heating was associated with higher risks of cardiovascular and all-cause mortality. These risks may be lower among those who had previously switched to clean fuels and those who used ventilation."
+    },
+    {
+      "doi": "10.1016/j.envint.2020.105974",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2Fj.envint.2020.105974%22&format=json&resultType=core&pageSize=10",
+      "method": "provided_primary_abstract_cache_reopened",
+      "read_level": "complete primary abstract; full text not read",
+      "verified_at_utc": "2026-10-18T14:29:56.170343+00:00",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/da2b073459b6bda06a19.json",
+      "raw_sha256": "1c445ab674c519656ca34bb51cd07865da50878595b30aeca0387272adfa3d72",
+      "original_fetched_at": "2026-10-18T20:50:05.178942+09:00",
+      "exact_primary_quotation": "As new scientific evidence on health effects of air pollution is generated, air quality guidelines need to be periodically updated. The objective of this review is to support the derivation of updated guidelines by the World Health Organization (WHO) by performing a systematic review of evidence of associations between long-term exposure to particulate matter with diameter under 2.5 µm (PM<sub>2.5</sub>) and particulate matter with diameter under 10 µm (PM<sub>10</sub>), in relation to all-cause and cause-specific mortality. As there is especially uncertainty about the relationship at the low and high end of the exposure range, the review needed to provide an indication of the shape of the concentration-response function (CRF). We systematically searched MEDLINE and EMBASE from database inception to 9 October 2018. Articles were checked for eligibility by two reviewers. We included cohort and case-control studies on outdoor air pollution in human populations using individual level data. In addition to natural-cause mortality, we evaluated mortality from circulatory diseases (ischemic heart disease (IHD) and cerebrovascular disease (stroke) also specifically), respiratory diseases (Chronic Obstructive Pulmonary Disease (COPD) and acute lower respiratory infection (ALRI) also specifically) and lung cancer. A random-effect meta-analysis was performed when at least three studies were available for a specific exposure-outcome pair. Risk of bias was assessed for all included articles using a specifically developed tool coordinated by WHO. Additional analyses were performed to assess consistency across geographic region, explain heterogeneity and explore the shape of the CRF. An adapted GRADE (Grading of Recommendations Assessment, Development and Evaluation) assessment of the body of evidence was made using a specifically developed tool coordinated by WHO. A large number (N = 107) of predominantly cohort studies (N = 104) were included after screening more than 3000 abstracts. Studies were conducted globally with the majority of studies from North America (N = 62) and Europe (N = 25). More studies used PM<sub>2.5</sub> (N = 71) as the exposure metric than PM<sub>10</sub> (N = 42). PM<sub>2.5</sub> was significantly associated with all causes of death evaluated. The combined Risk Ratio (RR) for PM<sub>2.5</sub> and natural-cause mortality was 1.08 (95%CI 1.06, 1.09) per 10 µg/m<sup>3</sup>. Meta analyses of studies conducted at the low mean PM<sub>2.5</sub> levels (<25, 20, 15, 12, 10 µg/m<sup>3</sup>) yielded RRs that were similar or higher compared to the overall RR, consistent with the finding of generally linear or supra-linear CRFs in individual studies. Pooled RRs were almost identical for studies conducted in North America, Europe and Western Pacific region. PM<sub>10</sub> was significantly associated with natural-cause and most but not all causes of death. Application of the risk of bias tool showed that few studies were at a high risk of bias in any domain. Application of the adapted GRADE tool resulted in an assessment of \"high certainty of evidence\" for PM<sub>2.5</sub> with all assessed endpoints except for respiratory mortality (moderate). The evidence was rated as less certain for PM<sub>10</sub> and cause-specific mortality (\"moderate\" for circulatory, IHD, COPD and \"low\" for stroke mortality. Compared to the previous global WHO evaluation, the evidence base has increased substantially. However, studies conducted in low- and middle- income countries (LMICs) are still limited. There is clear evidence that both PM<sub>2.5</sub> and PM<sub>10</sub> were associated with increased mortality from all causes, cardiovascular disease, respiratory disease and lung cancer. Associations remained below the current WHO guideline exposure level of 10 µg/m<sup>3</sup> for PM<sub>2.5</sub>. Systematic review registration number (PROSPERO ID): CRD42018082577."
+    }
+  ],
+  "intentional_numerical_scope_changes": [
+    "271천 approximate to exact 271217; included rural setting and relevant cooking/heating subsets.",
+    "HR 1.11/1.14/0.87/0.67 retained; not OR or personal probability.",
+    "107 total versus 104 cohort studies clarified; RR1.08 retained, no PM2.5-specific denominator invented."
+  ],
+  "doi_changes": {
+    "added": [],
+    "removed": [],
+    "reason": "original two citations retained"
+  },
+  "limitations": [
+    "Both primary abstracts fully reread, not full text or supplements.",
+    "Domestic replacement prices and fuel penetration remain unverified.",
+    "No claim that worldwide air-cleaner mortality literature is absent.",
+    "PM2.5 natural-cause pooled analysis exact study count not available in abstract.",
+    "Ventilation is retained as a general safety condition; abstracts do not establish a specific ventilation regimen for clean fuels."
+  ],
+  "sentence_lengths": [
+    {
+      "field": "비용",
+      "sentence": "조리·난방 기구를 바꾸고 연료값을 내야 합니다.",
+      "len": 26,
+      "modified": false
+    },
+    {
+      "field": "비용",
+      "sentence": "교체 뒤에도 연료 구입과 기구 관리가 필요합니다.",
+      "len": 27,
+      "modified": true
+    },
+    {
+      "field": "비용",
+      "sentence": "국내 교체비와 전기·가스 보급률은 여기서 확인하지 못했습니다.",
+      "len": 34,
+      "modified": true
+    },
+    {
+      "field": "쉽게",
+      "sentence": "중국 농촌에서는 연탄·장작을 쓰는 쪽의 사망 위험이 높았습니다.",
+      "len": 35,
+      "modified": true
+    },
+    {
+      "field": "쉽게",
+      "sentence": "전기나 가스로 바꾼 쪽은 계속 태운 쪽보다 낮았습니다.",
+      "len": 30,
+      "modified": true
+    },
+    {
+      "field": "쉽게",
+      "sentence": "한국 가정의 효과를 그대로 뜻하지는 않습니다.",
+      "len": 25,
+      "modified": true
+    },
+    {
+      "field": "이득",
+      "sentence": "중국 농촌 5곳의 성인 271,217명을 추적했습니다.",
+      "len": 30,
+      "modified": true
+    },
+    {
+      "field": "이득",
+      "sentence": "처음에 심혈관 질환 진단 이력이 없다고 답한 사람들입니다.",
+      "len": 32,
+      "modified": true
+    },
+    {
+      "field": "이득",
+      "sentence": "평균 7.2년 동안 모든 원인 사망 15,468건을 기록했습니다.",
+      "len": 36,
+      "modified": true
+    },
+    {
+      "field": "이득",
+      "sentence": "주 1회 이상 조리한 사람은 179,952명입니다.",
+      "len": 28,
+      "modified": true
+    },
+    {
+      "field": "이득",
+      "sentence": "겨울 난방을 한 사람은 163,882명입니다.",
+      "len": 25,
+      "modified": true
+    },
+    {
+      "field": "이득",
+      "sentence": "고체 연료에는 석탄·장작·숯이 포함됐습니다.",
+      "len": 24,
+      "modified": true
+    },
+    {
+      "field": "이득",
+      "sentence": "청정 연료는 가스·전기·중앙난방입니다.",
+      "len": 21,
+      "modified": true
+    },
+    {
+      "field": "이득",
+      "sentence": "조리와 난방은 각각 청정 연료 사용자와 비교했습니다.",
+      "len": 29,
+      "modified": true
+    },
+    {
+      "field": "이득",
+      "sentence": "고체 연료의 모든 원인 사망 HR은 각각 1.11과 1.14입니다.",
+      "len": 37,
+      "modified": true
+    },
+    {
+      "field": "이득",
+      "sentence": "HR은 추적 중 사망이 생기는 속도를 비교한 값입니다.",
+      "len": 30,
+      "modified": true
+    },
+    {
+      "field": "이득",
+      "sentence": "개인의 죽을 확률이 그만큼 높다는 뜻은 아닙니다.",
+      "len": 27,
+      "modified": true
+    },
+    {
+      "field": "이득",
+      "sentence": "조사 전에 청정 연료로 바꾼 사람도 비교했습니다.",
+      "len": 27,
+      "modified": true
+    },
+    {
+      "field": "이득",
+      "sentence": "비교 대상은 고체 연료를 계속 쓰던 사람입니다.",
+      "len": 26,
+      "modified": true
+    },
+    {
+      "field": "이득",
+      "sentence": "조리의 모든 원인 사망 HR은 0.87입니다.",
+      "len": 25,
+      "modified": true
+    },
+    {
+      "field": "이득",
+      "sentence": "난방에서는 0.67입니다.",
+      "len": 14,
+      "modified": true
+    },
+    {
+      "field": "이득",
+      "sentence": "실외 초미세먼지(PM2.5)는 별도 연구 결과입니다.",
+      "len": 29,
+      "modified": true
+    },
+    {
+      "field": "이득",
+      "sentence": "전체 107개 연구 중 추적 연구가 104개였습니다.",
+      "len": 29,
+      "modified": true
+    },
+    {
+      "field": "이득",
+      "sentence": "이 전체 개수가 PM2.5 자연사 분석의 분모는 아닙니다.",
+      "len": 32,
+      "modified": true
+    },
+    {
+      "field": "이득",
+      "sentence": "장기 농도가 10 µg/m³ 높을 때 자연사 RR은 1.08입니다.",
+      "len": 37,
+      "modified": true
+    },
+    {
+      "field": "이득",
+      "sentence": "RR은 집단 사이 사망 위험의 비입니다.",
+      "len": 22,
+      "modified": true
+    },
+    {
+      "field": "이득",
+      "sentence": "자연사는 사고사가 아닌 병사를 말합니다.",
+      "len": 22,
+      "modified": false
+    },
+    {
+      "field": "비고",
+      "sentence": "이 연구들은 사람들의 생활과 건강을 추적해 기록했습니다.",
+      "len": 31,
+      "modified": false
+    },
+    {
+      "field": "비고",
+      "sentence": "연료를 바꾼 집은 대체로 형편도 나아졌을 수 있습니다.",
+      "len": 30,
+      "modified": false
+    },
+    {
+      "field": "비고",
+      "sentence": "사망 위험이 0.67배라는 수치에는 집안 형편의 영향도 섞여 있습니다.",
+      "len": 39,
+      "modified": false
+    },
+    {
+      "field": "비고",
+      "sentence": "연료 교체가 사망 감소의 원인이라고 확정할 수 없습니다.",
+      "len": 31,
+      "modified": true
+    },
+    {
+      "field": "비고",
+      "sentence": "중국 농촌의 수치를 한국 가구의 효과로 옮길 수 없습니다.",
+      "len": 32,
+      "modified": true
+    },
+    {
+      "field": "비고",
+      "sentence": "가스 등 청정 연료를 써도 적절히 환기하세요.",
+      "len": 25,
+      "modified": true
+    },
+    {
+      "field": "비고",
+      "sentence": "실외 PM2.5에 개인이 대응할 방법은 제한적입니다.",
+      "len": 29,
+      "modified": false
+    },
+    {
+      "field": "비고",
+      "sentence": "개인은 이사나 마스크, 공기청정기 정도로 대응합니다.",
+      "len": 29,
+      "modified": false
+    },
+    {
+      "field": "비고",
+      "sentence": "인용한 실외 미세먼지 연구는 공기청정기의 사망 효과를 검증하지 않았습니다.",
+      "len": 41,
+      "modified": true
+    },
+    {
+      "field": "비고",
+      "sentence": "그래서 공기청정기의 사망률 수치를 제시하지 않습니다.",
+      "len": 29,
+      "modified": true
+    }
+  ],
+  "easy_length": 92
+}

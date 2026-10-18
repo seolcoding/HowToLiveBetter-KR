@@ -1,0 +1,264 @@
+{
+  "status": "unadopted_proposal",
+  "chapter": 2,
+  "kind": "exact_intro_spans_only",
+  "source_path": "intro.md",
+  "original_intro_sha256": "b63dc987b6f5ba59df31cae92501c3f1ceb9348c508719d12570908cb4094f6a",
+  "proposed_intro_sha256": "4f3905381cda78671ab273cb0e834a384f05d668fe52237f50d3c0f237c3e4a1",
+  "authored_at_utc": "2026-10-18T14:18:05.297480+00:00",
+  "review_required": "이 JSON은 승인·채택이 아닙니다. 정확 SHA 독립 승인 후에만 별도 publication candidate에 적용합니다.",
+  "review_inputs": [
+    {
+      "path": "editorial-decisions.json",
+      "sha256": "5acc7c380d6abfbb6e971e8de5e3cd2247d150a9149b7ae928fdb8805b5027c8"
+    },
+    {
+      "path": "content-audit.md",
+      "sha256": "17106562635561144a7c3626e88abe15f0021111163a39b6bd08c45915f485b4"
+    }
+  ],
+  "fullentry_evidence": [
+    {
+      "entry": 13,
+      "path": "_workspace/2026-10-18-013-0d52/publication-entry-proposal.md",
+      "sha256": "9639cea2bd2caa9bc28de840c4a2fad50f490357979aa7acae24c1190969e1b5",
+      "canonical_decision": "approve",
+      "approval_scope": "정확SHA개별수정안의semantic/editorial지적해결범위.정식KR-FIT·절전체출판승인아님.기존미확인가격/정책에대한검증승인아님.",
+      "reason": "Cappuccio연구별짧은수면기준≤4시간부터<7시간범위를원문HTML에서확인했습니다. 비교기준도다르므로RR1.12를일률7시간미만효과로묶지않게고친점이적합합니다. 규칙성네분위20~48%와최저분위비교를보존하고‘대부분역인과’를가능성으로낮췄습니다. Yin용량반응1.06/1.13과Kumar사회적시차≥2시간HR1.30을각연구범위로유지합니다.",
+      "read_scope": "승인된 fullentry 전체와 canonical 검토 근거 열람. 새 원출처 HTTP 검증은 아님."
+    },
+    {
+      "entry": 14,
+      "path": "_workspace/2026-10-18-014-2e30/publication-entry-proposal-r2.md",
+      "sha256": "9585db5f13dc584f87b8f1d3a6095ea73bf86b8e94c2c742712ee2f0894bd069",
+      "canonical_decision": "approve",
+      "approval_scope": "정확SHA의r2개별fullentry수정안.이전frozenr1revise이력은유지.정식KR-FIT·전체절출판승인아님.기존가격/정책미확인도유지.",
+      "reason": "r2이득에초록56%·논의59%가일치하지않음을독자에게직접고지했습니다. 실제현재출판사HTML재조회에도결과HR.44/56%와논의59%가함께있어과거초록만의차이를영구모순으로만든것이아닙니다. 기존주3회45분처방삭제·라켓노출정정과다른수치보존을유지해approve.",
+      "read_scope": "승인된 fullentry 전체와 canonical 검토 근거 열람. 새 원출처 HTTP 검증은 아님."
+    },
+    {
+      "entry": 15,
+      "path": "_workspace/2026-10-18-015-901a/publication-entry-proposal.md",
+      "sha256": "d559da9d859da3f4c42a4221707ff3bab94580c3498165c6f0124cf37025664c",
+      "canonical_decision": "approve",
+      "approval_scope": "정확SHA개별수정안의semantic/editorial지적해결범위.정식KR-FIT·절전체출판승인아님.기존미확인가격/정책에대한검증승인아님.",
+      "reason": "주분석25,241명·평균6.9년852사망,각VILPA비교감소폭과운동인62,344명별도분석을원문방법·결과에서대조했습니다. 비운동인선정은기기측정보다평균5.5년전설문,여가산책주1회이하라는조건이맞습니다. 대조군을전혀움직이지않는사람에서해당짧은격한활동이없는사람으로정정하고운동인전면배제를없앴습니다. 인과·운동인추가효과를시험한것아님을본문에유지합니다.",
+      "read_scope": "승인된 fullentry 전체와 canonical 검토 근거 열람. 새 원출처 HTTP 검증은 아님."
+    },
+    {
+      "entry": 25,
+      "path": "_workspace/2026-10-18-025-1523/publication-entry-proposal-r2.md",
+      "sha256": "c62bce7810d622172287eb78d74962441b4029d742a6a64675540a64ef531592",
+      "canonical_decision": "approve",
+      "approval_scope": "정확SHA의r2개별fullentry수정안.이전frozenr1revise이력은유지.정식KR-FIT·전체절출판승인아님.기존가격/정책미확인도유지.",
+      "reason": "r2는미검증주3잔빈도를제목에서삭제한‘차를드세요’이며나머지검토된본문은r1과동일합니다. incoming제25항제목앵커는book-kr검색에서발견되지않았습니다. 차라는주제·독소/추출물경고와조건을보존하고검증하지못한섭취량권고를강화하지않아approve.",
+      "read_scope": "승인된 fullentry 전체와 canonical 검토 근거 열람. 새 원출처 HTTP 검증은 아님."
+    },
+    {
+      "entry": 26,
+      "path": "_workspace/2026-10-18-026-c168/publication-entry-proposal-r2.md",
+      "sha256": "f249d914ac9a2a7f73e358cf6b6f18915026edc4e9b5a263aa5604a840b51410",
+      "canonical_decision": "approve",
+      "approval_scope": "정확SHA의r2개별fullentry승인.이전r1revise이력보존.전체절출판/정식KR-FIT승인아님.기존미확인가격·의료지침확인범위확대아님.",
+      "reason": "2018BMJ정정문k194에맞게CI0.79~0.88을확정하고옛0.83~0.88오기를정정사실로고지했습니다. 쉽게의사망건수표현을사망위험으로바꾸고메타제목을명사형주제제목으로고쳤습니다. 원문관찰범위·증량권고아님·첨가물직접비교부재한계를보존합니다.",
+      "read_scope": "승인된 fullentry 전체와 canonical 검토 근거 열람. 새 원출처 HTTP 검증은 아님."
+    },
+    {
+      "entry": 33,
+      "path": "_workspace/2026-10-18-033-866b/publication-entry-proposal-r2.md",
+      "sha256": "0efc29aa9c2efaa27768057c55d0a489e46d6ed891e9834762c99ca831d540e9",
+      "canonical_decision": "approve",
+      "approval_scope": "정확SHA의r2개별fullentry승인.이전r1revise이력보존.전체절출판/정식KR-FIT승인아님.기존미확인가격·의료지침확인범위확대아님.",
+      "reason": "고추섭취와사망위험관계라는명사형제목으로메타검토지시를제거했습니다. r1의주4회초과조건·HR/CI·대상과인과한계는그대로보존했습니다.",
+      "read_scope": "승인된 fullentry 전체와 canonical 검토 근거 열람. 새 원출처 HTTP 검증은 아님."
+    },
+    {
+      "entry": 34,
+      "path": "_workspace/2026-10-18-034-cb01/publication-entry-proposal.md",
+      "sha256": "39ecad1caee8a72af982c7e297156cc3f305b16ecea24da39e27260ee2488598",
+      "canonical_decision": "approve",
+      "approval_scope": "정확SHA개별fullentry의지적해결/범위제한승인.정식KR-FIT/전체절출판승인아님.기존가격·부차정책·국내미확인규격으로검증범위확장아님.",
+      "reason": "우유·요거트·치즈를합친totaldairy의>2servings/day대전혀안먹음이라는실제원초록의분모/노출을복원하고두잔·1~2잔권고로환원하지않았습니다.136,384명·21개국6,796사망·HR.83(.72~.96)는일치하며9.1년을미검증평균/중앙값으로지정하지않았습니다.노출정의와HR/누적확률차이를독자본문에고지합니다.",
+      "read_scope": "승인된 fullentry 전체와 canonical 검토 근거 열람. 새 원출처 HTTP 검증은 아님."
+    },
+    {
+      "entry": 38,
+      "path": "_workspace/2026-10-18-038-17c4/publication-entry-proposal.md",
+      "sha256": "cf0b2721e241acfb095dd6f9eb4d673910da33b416cd667a622c3bc917778e26",
+      "canonical_decision": "approve",
+      "approval_scope": "정확SHA개별fullentry의지적해결/범위제한승인.정식KR-FIT/전체절출판승인아님.기존가격·부차정책·국내미확인규격으로검증범위확장아님.",
+      "reason": "수면부족밤≥2.5시간·연속부족기간누적평균2.5~3.5/심한경우>3.5·기간직후첫보충밤및초과수면평균>0정의는원문방법에맞습니다.85,618명·중앙8년·HR1.15/1.42와보충군CI미검출을대조했습니다.완전밤샘만의연구가아님을본문에명시하고위험소멸보장을피했습니다.",
+      "read_scope": "승인된 fullentry 전체와 canonical 검토 근거 열람. 새 원출처 HTTP 검증은 아님."
+    },
+    {
+      "entry": 40,
+      "path": "_workspace/2026-10-18-040-ec55/publication-entry-proposal.md",
+      "sha256": "363f3b18d23cc346e2e72c23112c28fa1952ec5ab0a2da428604b93d31eee964",
+      "canonical_decision": "approve",
+      "approval_scope": "정확SHA개별fullentry의지적해결/범위제한승인.정식KR-FIT/전체절출판승인아님.기존가격·부차정책·국내미확인규격으로검증범위확장아님.",
+      "reason": "중국광저우PR.650과광시직접효과모형aOR1.9/1.8을원문에대조하고확률90/80%로치환하지않게정정했습니다.국내방앗간전면기피권고를포장/제조정보확인으로제한하며현재국내규격미확인·포장이검사합격보장아님을독자에게밝혔습니다.국내규격확인에성공한승인이아니라미검증일괄금지를제거한범위승인입니다.해결되지않은tail기준TODO는유지합니다.",
+      "read_scope": "승인된 fullentry 전체와 canonical 검토 근거 열람. 새 원출처 HTTP 검증은 아님."
+    },
+    {
+      "entry": 41,
+      "path": "_workspace/2026-10-18-041-488c/publication-entry-proposal.md",
+      "sha256": "b5b54663ba886d168af9c8269a137d4b8279eb6cadab79285b5ce99ba1e242d0",
+      "canonical_decision": "approve",
+      "approval_scope": "정확SHA개별fullentry의지적해결/범위제한승인.정식KR-FIT/전체절출판승인아님.기존가격·부차정책·국내미확인규격으로검증범위확장아님.",
+      "reason": "포화지방전체15시험56,675명/심혈관사건12시험53,758명,omega6 19시험6,461명,omega3전체86시험162,796명과ALA총사망5시험19,327명/CHD4시험19,061명을각원초록에대조했습니다.전체분모를ALA분모로쓰던오류와모든심장보호효과없음단정을고쳤고ALA부정맥RR.73및CVD가능성을불확실성등급과함께보존했습니다.국내조리유일일량미확인은그대로이며섭취량을검증한승인아닙니다.",
+      "read_scope": "승인된 fullentry 전체와 canonical 검토 근거 열람. 새 원출처 HTTP 검증은 아님."
+    }
+  ],
+  "operations": [
+    {
+      "id": "intro-01",
+      "status": "unadopted_proposal",
+      "before": "나머지 숫자는 기록만 따라간 연구에서 나왔습니다. 무리를 나누지 않고 추적만 했습니다.",
+      "after": "관찰 연구의 숫자도 함께 실었습니다. 이런 연구는 생활에 개입하지 않고 기록을 비교합니다.",
+      "original_unique_match_count": 1,
+      "entries": [
+        4,
+        9,
+        21,
+        37,
+        41
+      ],
+      "reason": "무작위 시험을 포함한 제3·4·9·21·37·41항과 나머지 전부 관찰 연구라는 설명이 충돌합니다. 설계 구분을 각 항목에 맡기고 관찰 연구 설명만 한정합니다."
+    },
+    {
+      "id": "intro-02",
+      "status": "unadopted_proposal",
+      "before": "일주일에 세 차례 이상 차(제25항)",
+      "after": "차 마시기(제25항)",
+      "original_unique_match_count": 1,
+      "entries": [
+        25
+      ],
+      "reason": "승인 r2는 검증하지 못한 섭취 빈도를 제목에서 삭제했습니다."
+    },
+    {
+      "id": "intro-03",
+      "status": "unadopted_proposal",
+      "before": "하루 3~4잔 커피(제26항)",
+      "after": "커피와 사망 위험(제26항)",
+      "original_unique_match_count": 1,
+      "entries": [
+        26
+      ],
+      "reason": "관찰 결과의 노출량을 개인별 증량 처방으로 바꾸지 않습니다."
+    },
+    {
+      "id": "intro-04",
+      "status": "unadopted_proposal",
+      "before": "일주일에 네 번 이상 고추(제33항)",
+      "after": "고추와 사망 위험(제33항)",
+      "original_unique_match_count": 1,
+      "entries": [
+        33
+      ],
+      "reason": "원초록은 주4회 초과 집단 비교이며 주4회 이상 처방이 아닙니다."
+    },
+    {
+      "id": "intro-05",
+      "status": "unadopted_proposal",
+      "before": "하루 1~2잔 우유·요거트(제34항)",
+      "after": "유제품과 사망 위험(제34항)",
+      "original_unique_match_count": 1,
+      "entries": [
+        34
+      ],
+      "reason": "실제 노출은 우유·요거트·치즈를 합친 유제품 >2인분/일입니다. 잔 수 처방으로 환원하지 않습니다."
+    },
+    {
+      "id": "intro-06",
+      "status": "unadopted_proposal",
+      "before": "하루 7000~8000보 걷기(제11항)",
+      "after": "걷기(제11항)",
+      "original_unique_match_count": 1,
+      "entries": [
+        11
+      ],
+      "reason": "걸음 수와 운동 시간의 정확한 등가 및 국내 권고는 검증 범위 밖입니다. 항목 주제로만 안내합니다."
+    },
+    {
+      "id": "intro-07",
+      "status": "unadopted_proposal",
+      "before": "일주일에 근력 운동(제16항)",
+      "after": "근력 운동(제16항)",
+      "original_unique_match_count": 1,
+      "entries": [
+        16
+      ],
+      "reason": "관찰한 운동량과 운동 빈도 지침을 구분해 주제명으로 안내합니다."
+    },
+    {
+      "id": "intro-08",
+      "status": "unadopted_proposal",
+      "before": "밤 7시간 자기(제13항)",
+      "after": "수면 시간과 규칙성(제13항)",
+      "original_unique_match_count": 1,
+      "entries": [
+        13
+      ],
+      "reason": "승인 본문은 연구별 짧고 긴 수면 기준 차이와 수면 규칙성을 함께 다룹니다."
+    },
+    {
+      "id": "intro-09",
+      "status": "unadopted_proposal",
+      "before": "낮잠은 30분 안으로(제37항)",
+      "after": "낮잠(제37항)",
+      "original_unique_match_count": 1,
+      "entries": [
+        37
+      ],
+      "reason": "인지·운동 기능의 시험과 질병·사망 관찰연관을 구분해야 합니다. 단일 시간 처방은 도입 요약에서 덜어냅니다."
+    },
+    {
+      "id": "intro-10",
+      "status": "unadopted_proposal",
+      "before": "밤샌 다음 날 밤 바로 보충하기(제38항)",
+      "after": "부족한 잠 보충하기(제38항)",
+      "original_unique_match_count": 1,
+      "entries": [
+        38
+      ],
+      "reason": "승인 본문은 개인 필요량에 비해 부족한 밤을 연구했으며 완전 밤샘만을 연구하지 않았다고 밝힙니다."
+    },
+    {
+      "id": "intro-11",
+      "status": "unadopted_proposal",
+      "before": "소규모 자가압착 땅콩기름 사지 않기(제40항)",
+      "after": "식용유의 밀폐 포장과 제조 정보 확인(제40항)",
+      "original_unique_match_count": 1,
+      "entries": [
+        40
+      ],
+      "reason": "기존 제40항 별도 한줄 제안과 같은 부분교체입니다. 국내 방앗간 전체 기피를 승인된 포장·제조 정보 확인 범위로 한정합니다."
+    }
+  ],
+  "supersession": {
+    "path": "_workspace/2026-10-18-040-ec55/publication-intro-correction.json",
+    "sha256": "217a28b6eb5a2df1b2ce9abee711c72e01b0b1cc6cbbc71f1e2b47c08d428259",
+    "relationship": "제40항 원제안의 같은 결과를 마지막 span에 포함합니다. 본 제안 전체 승인·채택 시 기존 한줄 제안을 중복 적용하지 않습니다. 원제안과 승인 이력은 보존합니다.",
+    "prior_original_intro_sha256": "b63dc987b6f5ba59df31cae92501c3f1ceb9348c508719d12570908cb4094f6a",
+    "prior_proposed_intro_sha256": "c441f77b230c951c3a0754c2576193b40140c6c50fb62bf774b0ce2052bf3279",
+    "prior_status": "제40항 한줄만 canonical 승인. 다른 span으로 승인 범위를 확대하지 않음."
+  },
+  "validation": {
+    "all_before_spans_unique_in_original": true,
+    "operations_nonoverlapping": true,
+    "number_order_preserved": true,
+    "topic_group_order_preserved": true,
+    "original_link_status_banner_protected_metadata_preserved": true,
+    "approved_doi_annotations": "원 intro의 주석 바이트는 그대로 보존. 별도 후보에 추가된 승인 DOI 주석도 이 span 적용 시 그대로 보존해야 함.",
+    "doi_additions": [],
+    "doi_removals": [],
+    "new_facts_or_dose_prescriptions": false,
+    "after_sentence_max_chars": 29,
+    "changed_files": [
+      "publication-intro-proposal.json"
+    ],
+    "original_intro_candidate_public_entry_files_changed": false
+  },
+  "limits": "요약 주제명 정리는 항목 본문의 미해결 근거 또는 국내 기준을 승인하지 않습니다. 제11·16·37항의 최신 editorial 검토는 canonical 기록에 한정해 대조했으며 승인된 fullentry가 없는 항목을 승인된 것으로 표시하지 않습니다."
+}

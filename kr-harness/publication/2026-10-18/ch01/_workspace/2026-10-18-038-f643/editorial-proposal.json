@@ -1,0 +1,28 @@
+{
+  "status": "unadopted_proposal",
+  "easy": null,
+  "title": {
+    "before": "남성 간 성관계로 감염 위험이 큰 사람은 노출 전 예방약(PrEP)을 의사에게 물어보세요. 제때 먹으면 감염이 70% 넘게 줄어듭니다",
+    "after": "남성 간 성관계로 감염 위험이 크면 노출 전 예방약(PrEP)을 의사와 상담하세요. 제때 먹으면 감염이 70% 넘게 줄어듭니다",
+    "reason": "실제 제목 74자가 70자를 넘습니다. 대상·의사 상담 권고·제때 복용 조건·효과 수치를 보존하며 줄입니다.",
+    "before_chars": 74,
+    "after_chars": 70,
+    "evidencequotes": [
+      "시험 참가자는 주로 남성과 성관계하는 남성이었습니다. 이들이 우선 의사에게 물어보는 게 좋습니다.",
+      "제때 먹은 사람은 감염 위험이 70% 넘게 줄었습니다."
+    ],
+    "incoming_anchorwords": [
+      "노출 전 예방약"
+    ],
+    "reference_scan": {
+      "scope": "publication/2026-10-18의 작업 디렉터리 밖 Markdown",
+      "matches": [
+        "ch01/intro.md:21 노출 전 예방약(제38항)",
+        "ch01/source.md:308 제38항(노출 전 예방약)"
+      ],
+      "independent_review_required": true,
+      "review_reason": "제목 단축 전 들어오는 참조의 노출 전 예방약 표기와 제목 앵커 연결을 독립 검토해야 합니다."
+    }
+  },
+  "todo": null
+}

@@ -1,0 +1,40 @@
+{
+  "status": "unadopted_proposal",
+  "entry": 37,
+  "revision": 2,
+  "oldSHA": "8c5b8f27281af87e077184dae8483e5630c58028d7fe79eb8b38a4b482704638",
+  "strict_entry_sha256": "1dc589d7e2883589acd99da19bd2e4d00069bf7ea940b26f4b24001decfafe00",
+  "easy": {
+    "before": "낮잠이 한 시간 이내면 사망과 만성질환 위험이 오르지 않았습니다. 머리도 더 맑았습니다. 한 시간을 넘기면 관상동맥질환 위험은 30%쯤 높았습니다. 당뇨병과 비만 위험은 20%쯤 높았습니다. 알람을 맞추고 30분 뒤에 일어나세요. 매일 1~2시간은 자야 버틸 수 있다면 몸을 점검하세요.",
+    "after": "알람을 맞추고 30분 뒤에 일어나세요. 1시간 넘게 낮잠을 잔 사람은 관상동맥질환 위험이 약 30% 높았습니다. 매일 1~2시간은 자야 버틸 수 있다면 몸을 점검하세요.",
+    "reason": "초기 revise 지적에 따라 관찰 연구라는 설계 설명을 뺐습니다. 1시간 초과 집단에서 나타난 위험 차이를 과거형으로 표현하고 30분 실천권고 및 매일 1~2시간이 필요한 경우의 점검 조건을 보존합니다. 질환 범위를 바꾸지 않기 위해 관상동맥질환이라는 병명은 유지합니다. 30분이 사망예방 임계점이라는 주장을 넣지 않았습니다.",
+    "evidencequotes": [
+      "낮잠이 60분을 넘는 사람은 관상동맥질환 위험이 약 30% 높습니다."
+    ],
+    "after_chars": 94,
+    "sentence_chars": [
+      21,
+      41,
+      32
+    ],
+    "length_exception": false
+  },
+  "title": null,
+  "todo": null,
+  "pending_semantic_review": [
+    {
+      "issue": "쉽게의 한 시간 이내와 이득의 60분 미만 경계가 다릅니다. 이번 축약안은 이 비교를 생략하며 사실 정정으로 처리하지 않습니다.",
+      "status": "pending"
+    },
+    {
+      "issue": "비고의 위 두 연구 모두 관찰 자료라는 일괄 설명은 결과별 검토가 필요합니다. 이번 필드 제안에서 비고를 수정하지 않습니다.",
+      "status": "pending"
+    }
+  ],
+  "immutable_files_sha256": {
+    "editorial-proposal.json": "8c5b8f27281af87e077184dae8483e5630c58028d7fe79eb8b38a4b482704638",
+    "strict-entry.md": "1dc589d7e2883589acd99da19bd2e4d00069bf7ea940b26f4b24001decfafe00",
+    "final.md": "6efdc5815aaea23f6ce339cc2804bf936816db6b6a36f2cb353d07e638dc4cd5",
+    "entry_snapshot.md": "1dc589d7e2883589acd99da19bd2e4d00069bf7ea940b26f4b24001decfafe00"
+  }
+}

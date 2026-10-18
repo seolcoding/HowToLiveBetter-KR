@@ -1,0 +1,32 @@
+{
+  "status": "corrected",
+  "correction_count": 2,
+  "fidelity_violations": [],
+  "fidelity": "원문과 직접 대조. 본문 차이는 필자 서술의 연결어미 직후 쉼표 두 문자 삭제뿐. 사실, 숫자, 조건, 유보, 인용, 법령과 참조를 보존함.",
+  "corrections": [
+    {
+      "pattern": "C-11",
+      "before": "무효이고, 처벌받은",
+      "after": "무효이고 처벌받은"
+    },
+    {
+      "pattern": "C-11",
+      "before": "배우자이고, 그다음이",
+      "after": "배우자이고 그다음이"
+    }
+  ],
+  "protected_quote_review": "법률 용어 단일인용 및 「법령」 표기 내부 수정 없음. 두 대상 쉼표는 인용이 아닌 필자 서술임. 나머지 쉼표는 열거·법조문·기한 병렬로 유지.",
+  "residuals": [
+    "A-18 후보는 법률상 의미 보존상 유지",
+    "A-10은 법률 텍스트 적용 제외"
+  ],
+  "overediting": [],
+  "self_check_passed": 6,
+  "gate": {
+    "exit_code": 0,
+    "change_rate": 0.0007,
+    "ending_comma_z_before": 3.11,
+    "ending_comma_z_after": -0.52
+  },
+  "structure": "four physical field lines and one summary block"
+}

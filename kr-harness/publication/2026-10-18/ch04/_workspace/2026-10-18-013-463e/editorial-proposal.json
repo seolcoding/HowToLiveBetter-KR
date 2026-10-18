@@ -1,0 +1,41 @@
+{
+  "status": "unadopted_proposal",
+  "easy": {
+    "before": "미루기가 괴로울 정도로 심하면 치료 대상이 됩니다. 인지행동 자조 교재를 10주 쓰면 아무것도 하지 않을 때보다 확실히 낫습니다. 안내자가 있든 없든 결과는 비슷했습니다. 혼자 따라 해도 됩니다.",
+    "after": "미루기로 괴롭다면 검증된 인터넷 인지행동 자조 프로그램을 고려하세요. 10주 뒤 대기자보다 중간 정도로 나아졌습니다. 스웨덴 성인 대상 결과이며 한국어판은 확인하지 못했습니다.",
+    "reason": "109자로 길이 문제는 없으나, 일반 자조 교재로 효과를 확대하는 범위를 바로잡는 감사 지적 대응입니다. 안내 유무 비교는 이득에 남깁니다.",
+    "evidencequotes": [
+      "Internet-based cognitive-behavior therapy for procrastination: A randomized controlled trial.",
+      "안내 없음은 d = 0.50(0.10~0.90)로 나타났습니다.",
+      "참가자는 스웨덴 성인입니다.",
+      "같은 프로그램의 한국어판은 찾지 못했습니다(TODO 확인 필요)."
+    ],
+    "length_exception": false,
+    "after_chars": 98
+  },
+  "title": null,
+  "title_check": {
+    "chars": 57,
+    "issue": false,
+    "reference_scan": "제목 전문과 제4절/제4장 제13항을 저장소 Markdown에서 검색했습니다. 원문·스냅샷·이전 검토 기록의 제목을 확인했습니다. 제목 변경안 없음.",
+    "independent_review_required": false
+  },
+  "todo": {
+    "before": "같은 프로그램의 한국어판은 찾지 못했습니다(TODO 확인 필요).",
+    "after": "같은 프로그램의 한국어판 제공 여부는 확인하지 못했습니다.",
+    "reason": "미확인 상태를 독자에게 투명하게 알리고 작업용 TODO를 제거합니다. 한국어 제품의 존재나 부재를 단정하지 않습니다.",
+    "evidencequotes": [
+      "같은 프로그램의 한국어판은 찾지 못했습니다(TODO 확인 필요)."
+    ]
+  },
+  "scope_review": {
+    "before": "인지행동 기법을 다룬 자조서 한 권 값이면 됩니다. 무료 자료도 있습니다. 기간은 10주쯤입니다. 매주 한 대목을 읽고 연습을 하나 하세요.",
+    "after": "연구에서는 인터넷 인지행동 자조 프로그램을 10주 사용했습니다. 일반 자조서나 무료 자료의 효과와 비용이 같다고 볼 수는 없습니다. 같은 프로그램의 한국어판 제공 여부와 이용 비용은 확인이 필요합니다.",
+    "reason": "자조서 한 권 값 또는 무료 자료라는 비용·접근성 보장은 제공 근거에서 확인되지 않습니다. 검증된 프로그램과 일반 자료를 구분하는 별도 검토안입니다.",
+    "evidencequotes": [
+      "Internet-based cognitive-behavior therapy for procrastination: A randomized controlled trial.",
+      "10주 뒤 순수 미루기 척도로 효과 크기를 측정했습니다."
+    ],
+    "independent_review_required": true
+  }
+}

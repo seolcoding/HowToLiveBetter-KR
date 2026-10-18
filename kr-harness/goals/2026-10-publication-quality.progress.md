@@ -113,3 +113,10 @@
 
 - strict 실제 gate0 308항목과 제8·9절 strict 후보, 제5절 편집42파일 독립 검토(56개 결정 approve41/revise15)를 보존했다. 아직 제5·9절 출판 승인이 아니다. 제9절에는 별도 편집9파일이 남아 있다.
 - 재개용 root-checkpoint.json과 전역 큐의 root 소유 스냅샷 global-coordinator-queue.checkpoint.json을 보존했다. 실제 gate/최종본 해시가 우선이며, live 큐가 없을 때 스냅샷을 참고해 상태를 복원한다. 새 정식 검토 완료는 계속1·18절, 다음 초기 source 감사는14절이다.
+
+
+## 2026-10-18 후속 검토 배분
+
+- 제10절까지 순수 윤문 후보를 합성했다. 원래 입력·항목 스냅샷 667개 전부의 SHA를 재대조했고 불일치0이며, `root-input-integrity.json`에 절별 근거 해시를 보존했다. 라우트644 light/23 standard는 동일하다. 이 검사는 사실·출판 승인을 대신하지 않는다.
+- 근거 수정 대기를 줄이기 위해 A의 최대3 작업자를 순수 윤문1·근거 수정2로 전환했다. ROOT·A·독립 검토자2를 포함해7슬롯을 지킨다. 제2절은 초기42지적을 최신 수정안과 다시 대조하며, 최초 필수 목록 밖의 확정된 범위/분모 문제도 같은 원작성자 후속 큐에서 처리한다.
+- 체크포인트 `fcb923b`의 한국어판 검사([39135056198](https://github.com/seolcoding/HowToLiveBetter-KR/actions/runs/39135056198))와 전자책 빌드·EPUBCheck([39135056207](https://github.com/seolcoding/HowToLiveBetter-KR/actions/runs/39135056207))가 성공했다. PR Pages 단계는 skip이며 새 출판 개선본 배포 전이다.

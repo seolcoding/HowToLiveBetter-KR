@@ -1,0 +1,41 @@
+{
+  "status": "unadopted_proposal",
+  "entry": 40,
+  "field": "쉽게",
+  "before": "중국 광저우에서 자가압착 땅콩기름 작업장 관리 뒤 간 기능 이상이 약 35% 낮게 나타났습니다. 간암·사망을 조사한 결과는 아닙니다. 한국에 그대로 적용하기는 어렵습니다.",
+  "after": "중국 광저우에서 자가압착 땅콩기름 작업장을 관리했습니다. 관리 뒤 간 기능 이상이 약 35% 낮게 나타났습니다. 간암·사망을 조사한 결과는 아닙니다. 한국에 그대로 적용하기는 어렵습니다.",
+  "reason": "기승인 필드 첫53자 문장만 동일의미 두 문장으로 분리. 기존 현 proposal은 불변. 독립 승인 뒤 다음 연산으로 통합 요청.",
+  "approved_field_evidence": {
+    "file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/editorial-decisions.json",
+    "sha256": "dd255d7de88f85a0d9c4129c348dce2787a866ce24d3b91abf2e4377194ad04e",
+    "operation": "entry40 field 쉽게 approved after exact string adopted; full entry remains unadopted",
+    "proposal_file_sha256": "8bafcf30719d44dcc33a0fbe381ac675a469c1020ef54a507f1f6d9080bbb454"
+  },
+  "old_field_sha256": "9d6ae487d5c97a1ed060b3c7459675316ab853c455bbdedbb4e1f3b445d2e150",
+  "new_field_sha256": "822675e98c149e0bc2a7786d2755eb0cfd70dea9af89eb8a83be30a845af77b3",
+  "old_entry_sha256": "363f3b18d23cc346e2e72c23112c28fa1952ec5ab0a2da428604b93d31eee964",
+  "new_entry_sha256": "a47e5a257b8b1f19164e1e71fcbe34eda4333dfcc6e359ac8779fc441e69e779",
+  "before_chars": 95,
+  "after_chars": 104,
+  "new_sentence_lengths": [
+    {
+      "text": "중국 광저우에서 자가압착 땅콩기름 작업장을 관리했습니다.",
+      "len": 31
+    },
+    {
+      "text": "관리 뒤 간 기능 이상이 약 35% 낮게 나타났습니다.",
+      "len": 30
+    },
+    {
+      "text": "간암·사망을 조사한 결과는 아닙니다.",
+      "len": 20
+    },
+    {
+      "text": "한국에 그대로 적용하기는 어렵습니다.",
+      "len": 20
+    }
+  ],
+  "facts_changed": false,
+  "source_citations_changed": false,
+  "adoption_requires_independent_review": true
+}

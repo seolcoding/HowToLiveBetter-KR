@@ -1,0 +1,219 @@
+{
+  "entry": 34,
+  "status": "unadopted_proposal",
+  "base": "strict-entry.md",
+  "base_sha256": "b829c921205bf25ddede289a5dcd136bb7591e100a285d463c88cd064f8655ab",
+  "proposal_sha256": "39ecad1caee8a72af982c7e297156cc3f305b16ecea24da39e27260ee2488598",
+  "fields": [
+    {
+      "field": "title",
+      "before": "### 34. 하루에 우유나 요거트 1~2잔을 드세요",
+      "after": "### 34. 우유나 요거트는 몸에 맞게 드세요",
+      "changed": true,
+      "reason": "우유·요거트/1~2잔 앵커 검토: PURE는 이 정량 권고를 검증하지 않았으므로 수량 처방을 제거하고 식품 앵커와 섭취 선택을 유지."
+    },
+    {
+      "field": "비용",
+      "before": "하루 몇천 원이 듭니다. 시간은 안 걸립니다.",
+      "after": "하루 몇천 원이 듭니다. 시간은 안 걸립니다.",
+      "changed": false,
+      "reason": "원문 보존"
+    },
+    {
+      "field": "쉽게",
+      "before": "우유·요거트를 하루 두 잔 이상 먹는 사람과 안 먹는 사람을 비교했습니다. 같은 기간 사망 확률은 먹는 쪽이 약 17% 낮습니다.",
+      "after": "유제품을 먹는 쪽에서 사망이 적게 나타났습니다. 우유·요거트·치즈를 합쳐 비교한 결과입니다. 우유나 요거트를 하루 두 잔 마시라는 뜻은 아닙니다.",
+      "changed": true,
+      "reason": "총 유제품 노출을 복원하고 사망 확률 17% 단정을 삭제. 중앙 비교의 방향만 일상말로 설명."
+    },
+    {
+      "field": "이득",
+      "before": "PURE 추적 연구 결과입니다. 21개국 136,000명을 조사했습니다. 평균 9.1년간 추적했습니다. 이 기간에 6,796명이 사망했습니다. 하루 2잔 이상 유제품을 먹는 사람을 비교했습니다. 먹지 않는 사람보다 사망 위험이 약 17% 낮습니다. 위험비 0.83, 95% CI 0.72–0.96(신뢰구간)입니다. 추세 P=0.0052.",
+      "after": "PURE는 21개국 136,384명을 조사했습니다. 초록에 보고된 추적기간은 9.1년입니다. 이 기간에 6,796명이 사망했습니다. 우유·요거트·치즈를 합친 유제품 섭취량을 비교했습니다. 하루 2회분 초과 섭취군과 전혀 먹지 않는 군의 비교입니다. 전체 사망의 순간적 위험이 약 17% 낮게 나타났습니다. 위험비(HR)는 0.83입니다. 95% 신뢰구간은 0.72–0.96입니다. 추세 P=0.0052입니다. 신뢰구간은 추정치의 불확실성을 나타냅니다. 이는 같은 기간 사망할 확률이 17% 낮다는 뜻은 아닙니다. 연구의 회분을 우유 두 잔으로 바꿔 읽어서는 안 됩니다.",
+      "changed": true,
+      "reason": "총 유제품 >2 servings/day 대 무섭취와 전체사망 HR를 복원. 표본 반올림을 정확한 136,384로 정정. 초록은 평균/중앙값 구분 없이 9.1년으로 보고하므로 평균 표지를 제거. HR는 누적확률 감소가 아님을 본문에 설명."
+    },
+    {
+      "field": "근거등급",
+      "before": "B",
+      "after": "B",
+      "changed": false,
+      "reason": "원문 보존"
+    },
+    {
+      "field": "출처",
+      "before": "Dehghan M, Mente A, Rangarajan S, et al. (2018). Association of dairy intake with cardiovascular disease and mortality in 21 countries from five continents (PURE): a prospective cohort study. Lancet, 392(10161), 2288-2297. <https://doi.org/10.1016/S0140-6736(18)31812-9>",
+      "after": "Dehghan M, Mente A, Rangarajan S, et al. (2018). Association of dairy intake with cardiovascular disease and mortality in 21 countries from five continents (PURE): a prospective cohort study. Lancet, 392(10161), 2288-2297. <https://doi.org/10.1016/S0140-6736(18)31812-9>",
+      "changed": false,
+      "reason": "원문 보존"
+    },
+    {
+      "field": "비고",
+      "before": "논쟁 있음. PURE는 중저소득 국가를 많이 포함합니다. 이들 나라에서는 매일 유제품을 먹는 일이 경제적 여유를 나타냅니다. 경제적 여유가 결과에 미친 영향을 구분하기 어렵습니다. 유당불내증이 있다면 요거트나 저유당 우유로 바꾸세요. 우유를 억지로 마실 필요는 없습니다.",
+      "after": "논쟁 있음. PURE는 중저소득 국가를 많이 포함합니다. 이들 나라에서는 매일 유제품을 먹는 일이 경제적 여유를 나타냅니다. 경제적 여유가 결과에 미친 영향을 구분하기 어렵습니다. 관찰 결과이므로 유제품 자체의 효과라고 단정할 수 없습니다. 이 연구만으로 하루 1~2잔이 적정량이라고 정할 수는 없습니다. 유당불내증이 있다면 요거트나 저유당 우유로 바꾸세요. 우유를 억지로 마실 필요는 없습니다.",
+      "changed": true,
+      "reason": "경제적 교란과 기존 유당불내증 안전조언을 보존하고 관찰연관·정량 처방 한계를 명시."
+    }
+  ],
+  "evidence": [
+    {
+      "doi": "10.1016/S0140-6736(18)31812-9",
+      "url": "https://doi.org/10.1016/S0140-6736(18)31812-9",
+      "read_scope": "Primary article abstract: methods/findings/interpretation, not full text or supplement",
+      "verified_at_utc": "2026-10-18T13:52:57.626043+00:00",
+      "method": "Existing EuropePMC raw response reopened; fresh HTTPS EuropePMC MED 30217460 core result abstract and commentCorrectionList independently reread; same substantive abstract. Fresh HTTP bytes not retained.",
+      "fresh_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:30217460%20AND%20SRC:MED&format=json&resultType=core",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/d3719f3370e6ea4aeb80.json",
+      "raw_sha256": "9483b43657373b922c4751cdbde4c30acc93336b9859388095d828e1f79828aa",
+      "original_fetched_at": "2026-10-18T20:50:06.473360+09:00",
+      "original_fetched_at_basis": "existing editorial audit metadata, not independently reconstructed",
+      "exact_quotes": [
+        "Dietary intakes of dairy products for 136 384 individuals were recorded using country-specific validated food frequency questionnaires.",
+        "Dairy products comprised milk, yoghurt, and cheese.",
+        "Between Jan 1, 2003, and July 14, 2018, we recorded 10 567 composite events (deaths [n=6796] or major cardiovascular events [n=5855]) during the 9·1 years of follow-up.",
+        "Higher intake of total dairy (>2 servings per day compared with no intake) was associated with a lower risk of the composite outcome (HR 0·84, 95% CI 0·75-0·94; p<sub>trend</sub>=0·0004), total mortality (0·83, 0·72-0·96; p<sub>trend</sub>=0·0052)"
+      ],
+      "correction_check": "Current EuropePMC commentCorrectionList has four Comment in links, no correction record. No internal conflicting total was identified in the abstract. Publisher correction registry/full text not exhaustively checked."
+    }
+  ],
+  "intentional_changes": [
+    "136,000 → 136,384 (primary exact N)",
+    "우유·요거트 두 잔 이상 → 총 유제품(우유·요거트·치즈) 하루 2회분 초과 vs none",
+    "평균 9.1년 → 초록에 보고된 추적기간 9.1년 (mean/median unspecified in abstract)",
+    "HR 0.83 describes total mortality, not composite HR 0.84 and not cumulative mortality probability. Counts are total cohort deaths, not exposure-arm numerators; no absolute risk calculated.",
+    "Title 1~2잔 quantitative recommendation removed; no Korean intake guideline newly claimed."
+  ],
+  "doi_changes": {
+    "added": [],
+    "removed": [],
+    "reason": "기존 DOI와 출처 그대로 보존"
+  },
+  "limitations": [
+    "Full text and serving-size gram/mL definitions not read. No conversion of servings to cups or dairy-type-specific mortality benefit is claimed.",
+    "Abstract does not specify whether 9.1 is mean or median. No such label claimed; full-text verification still needed to characterize that statistic.",
+    "Economic-confounding prose retained from strict entry; not independently reverified in primary full text.",
+    "Observational association does not establish causal benefit or optimal quantity."
+  ],
+  "validation": {
+    "easy_length": 81,
+    "modified_sentence_lengths": [
+      {
+        "field": "쉽게",
+        "sentence": "유제품을 먹는 쪽에서 사망이 적게 나타났습니다.",
+        "length": 26
+      },
+      {
+        "field": "쉽게",
+        "sentence": "우유·요거트·치즈를 합쳐 비교한 결과입니다.",
+        "length": 24
+      },
+      {
+        "field": "쉽게",
+        "sentence": "우유나 요거트를 하루 두 잔 마시라는 뜻은 아닙니다.",
+        "length": 29
+      },
+      {
+        "field": "이득",
+        "sentence": "PURE는 21개국 136,384명을 조사했습니다.",
+        "length": 28
+      },
+      {
+        "field": "이득",
+        "sentence": "초록에 보고된 추적기간은 9.1년입니다.",
+        "length": 22
+      },
+      {
+        "field": "이득",
+        "sentence": "이 기간에 6,796명이 사망했습니다.",
+        "length": 21
+      },
+      {
+        "field": "이득",
+        "sentence": "우유·요거트·치즈를 합친 유제품 섭취량을 비교했습니다.",
+        "length": 30
+      },
+      {
+        "field": "이득",
+        "sentence": "하루 2회분 초과 섭취군과 전혀 먹지 않는 군의 비교입니다.",
+        "length": 33
+      },
+      {
+        "field": "이득",
+        "sentence": "전체 사망의 순간적 위험이 약 17% 낮게 나타났습니다.",
+        "length": 31
+      },
+      {
+        "field": "이득",
+        "sentence": "위험비(HR)는 0.83입니다.",
+        "length": 17
+      },
+      {
+        "field": "이득",
+        "sentence": "95% 신뢰구간은 0.72–0.96입니다.",
+        "length": 23
+      },
+      {
+        "field": "이득",
+        "sentence": "추세 P=0.0052입니다.",
+        "length": 15
+      },
+      {
+        "field": "이득",
+        "sentence": "신뢰구간은 추정치의 불확실성을 나타냅니다.",
+        "length": 23
+      },
+      {
+        "field": "이득",
+        "sentence": "이는 같은 기간 사망할 확률이 17% 낮다는 뜻은 아닙니다.",
+        "length": 33
+      },
+      {
+        "field": "이득",
+        "sentence": "연구의 회분을 우유 두 잔으로 바꿔 읽어서는 안 됩니다.",
+        "length": 31
+      },
+      {
+        "field": "비고",
+        "sentence": "논쟁 있음.",
+        "length": 6
+      },
+      {
+        "field": "비고",
+        "sentence": "PURE는 중저소득 국가를 많이 포함합니다.",
+        "length": 24
+      },
+      {
+        "field": "비고",
+        "sentence": "이들 나라에서는 매일 유제품을 먹는 일이 경제적 여유를 나타냅니다.",
+        "length": 37
+      },
+      {
+        "field": "비고",
+        "sentence": "경제적 여유가 결과에 미친 영향을 구분하기 어렵습니다.",
+        "length": 30
+      },
+      {
+        "field": "비고",
+        "sentence": "관찰 결과이므로 유제품 자체의 효과라고 단정할 수 없습니다.",
+        "length": 33
+      },
+      {
+        "field": "비고",
+        "sentence": "이 연구만으로 하루 1~2잔이 적정량이라고 정할 수는 없습니다.",
+        "length": 35
+      },
+      {
+        "field": "비고",
+        "sentence": "유당불내증이 있다면 요거트나 저유당 우유로 바꾸세요.",
+        "length": 29
+      },
+      {
+        "field": "비고",
+        "sentence": "우유를 억지로 마실 필요는 없습니다.",
+        "length": 20
+      }
+    ],
+    "sentence_limit": 50,
+    "tag_and_grade_preserved": true
+  }
+}

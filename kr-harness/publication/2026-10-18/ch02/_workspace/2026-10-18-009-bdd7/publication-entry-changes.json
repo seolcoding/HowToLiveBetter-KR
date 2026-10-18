@@ -1,0 +1,400 @@
+{
+  "entry": 9,
+  "status": "unadopted_proposal_pending_independent_exact_hash_review",
+  "base": "strict-entry.md",
+  "base_sha256": "6e9a551d621440d6acedeac855d3d563e9606f950bb5aeb25304a4279c1915f2",
+  "changes": [
+    {
+      "field": "비용",
+      "before": "한 봉지에 몇백 원 더 듭니다. 소금을 살 때 제품만 바꾸면 따로 시간이 들지 않습니다. 맛은 거의 그대로입니다.",
+      "after": "소금을 살 때 제품만 바꾸면 따로 시간이 들지 않습니다. 국내 제품의 가격 차이와 맛 차이는 확인하지 못했습니다.",
+      "reason": "국내 가격차와 맛의 직접 근거 미확인: 단정 제거, 제품 교체의 시간 설명 보존."
+    },
+    {
+      "field": "쉽게",
+      "before": "뇌졸중 병력이 있거나 예순 살 넘은 고혈압 환자의 결과입니다. 저나트륨 소금을 쓰면 5년 안에 죽을 확률이 약 12% 낮아집니다. 뇌졸중 위험은 약 14% 낮아집니다.",
+      "after": "뇌졸중 병력이 있거나 60세 이상인 고혈압 환자의 결과입니다. 저나트륨 소금을 쓴 쪽에서 사망이 덜 발생했습니다. 건강한 젊은 사람에게 같은 수치를 적용할 수는 없습니다.",
+      "reason": "고위험 대상과 사망 방향만 요약; 발생률비를 5년 누적확률로 동일시하지 않음. 젊은 대상 외삽 제한."
+    },
+    {
+      "field": "이득",
+      "before": "참가자를 무작위로 두 집단에 나눠 시험했습니다. 중국 농촌에서 20,995명이 참여했습니다. 모두 뇌졸중 병력이 있거나 60세 이상인 고혈압 환자였습니다. 추적 기간은 4.74년입니다. 보통 소금보다 저나트륨 소금에서 사망 위험이 약 12% 낮았습니다(RR 0.88). 뇌졸중 위험은 약 14% 낮았습니다(RR 0.86). 주요 심혈관 사건 위험은 약 13% 낮았습니다(RR 0.87). 칼륨 과다 사건은 두 집단 사이에 통계적으로 유의한 차이가 없었습니다.",
+      "after": "중국 농촌 600개 마을의 20,995명이 참여했습니다. 뇌졸중 병력이 있거나 60세 이상인 고혈압 환자였습니다. 마을을 무작위로 두 집단에 나눠 시험했습니다. 평균 추적 기간은 4.74년입니다. 저나트륨 소금은 염화나트륨 75%와 염화칼륨 25%였습니다. 비교군은 염화나트륨 100%인 보통 소금을 썼습니다. 각 사람을 관찰한 시간을 합쳐 발생률을 계산했습니다. 아래 수치는 관찰시간 합계 1,000인년당 발생 건수입니다. 1,000인년은 1,000명을 1년씩 관찰한 시간입니다. 수치는 저나트륨 소금, 보통 소금 순입니다. 사망은 39.28건 대 44.61건이었습니다. 사망 발생률비는 0.88로 약 12% 낮았습니다. 뇌졸중은 29.14건 대 33.65건이었습니다. 뇌졸중 발생률비는 0.86으로 약 14% 낮았습니다. 주요 심혈관 사건은 49.09건 대 56.29건이었습니다. 해당 발생률비는 0.87로 약 13% 낮았습니다. 발생률비는 두 집단의 발생률을 나눈 값입니다. 5년 안에 사망할 누적확률이 12% 낮다는 뜻은 아닙니다. 고칼륨혈증 관련 중증사건은 3.35건 대 3.30건이었습니다. 해당 발생률비는 1.04였습니다. 통계적으로 유의한 차이는 검출되지 않았습니다.",
+      "reason": "원초록의 마을 단위 배정, 평균 추적기간, 소금 조성, endpoint별 인년 분모와 발생률비를 명시; 중증 고칼륨혈증만의 안전성 결과로 범위 한정."
+    },
+    {
+      "field": "근거등급",
+      "before": "A",
+      "after": "A",
+      "reason": "unchanged"
+    },
+    {
+      "field": "출처",
+      "before": "Neal B, et al. (2021). Effect of Salt Substitution on Cardiovascular Events and Death. NEJM. <https://doi.org/10.1056/NEJMoa2105675>; O'Donnell M, et al. (2014). Urinary sodium and potassium excretion, mortality, and cardiovascular events. NEJM. <https://doi.org/10.1056/NEJMoa1311889> (반대편 근거 PURE)",
+      "after": "Neal B, et al. (2021). Effect of Salt Substitution on Cardiovascular Events and Death. NEJM. <https://doi.org/10.1056/NEJMoa2105675>; O'Donnell M, et al. (2014). Urinary sodium and potassium excretion, mortality, and cardiovascular events. NEJM. <https://doi.org/10.1056/NEJMoa1311889> (반대편 근거 PURE)",
+      "reason": "unchanged"
+    },
+    {
+      "field": "비고",
+      "before": "논쟁 있음. PURE 연구는 집단을 나눠 비교하지 않고 장기간 추적한 기록입니다. 하루 나트륨 배설량이 3g 미만이면 사망·심혈관 사건 위험이 약 27% 높았습니다. 7g 초과인 사람은 약 15% 높았습니다. 나트륨 배설량이 너무 적거나 많으면 위험이 높았다는 결과입니다. 반면 중국 농촌 무작위 시험에서는 소금 일부를 칼륨염으로 대체했습니다. 나트륨을 PURE 연구의 낮은 배설량 수준까지 줄이지는 않았습니다. 또한 시험 대상은 고위험 노인이었습니다. 건강한 젊은 사람이 소금을 바꿔 얻는 이득은 훨씬 작습니다. 신장이 나쁘거나 칼륨이 몸에 남게 하는 약을 먹는 사람은 주의하세요. 소금을 바꾸기 전에 의사에게 물으세요.",
+      "after": "논쟁 있음. PURE 연구는 사람들을 장기간 추적한 관찰자료입니다. 아침 소변으로 하루 나트륨 배설량을 추정했습니다. 사망 또는 주요 심혈관 사건을 합쳐 비교했습니다. 기준은 하루 추정 배설량 4.00~5.99g이었습니다. 3g 미만의 오즈비는 1.27이었습니다. 7g 이상의 오즈비는 1.15였습니다. 오즈는 사건 발생확률을 비발생확률로 나눈 값입니다. 오즈비는 두 집단의 오즈를 나눈 값입니다. 발생확률이 각각 27%, 15% 높다는 뜻은 아닙니다. 소금을 줄인 탓에 위험이 높아졌다고 단정할 수 없습니다. 반면 중국 농촌 시험은 소금 일부를 칼륨염으로 대체했습니다. 두 연구는 대상과 비교 방법이 다릅니다. 건강한 젊은 사람의 효과는 이 시험에서 측정하지 않았습니다. 이들에게 같은 효과 수치를 적용할 수는 없습니다. 중증 고칼륨혈증 차이 미검출이 신장질환자의 안전 보장은 아닙니다. 신장이 나쁘거나 칼륨이 몸에 남게 하는 약을 먹으면 주의하세요. 소금을 바꾸기 전에 반드시 의사에게 확인하세요.",
+      "reason": "PURE는 추정 배설량의 관찰 연관이며 OR을 확률 증가로 바꾸지 않음. 7g 초과를 7g 이상으로 정정. 젊은층 이득 단정 제거. 신장·약물 의사 확인 필수 유지."
+    }
+  ],
+  "sources": [
+    {
+      "doi": "10.1056/NEJMoa2105675",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1056%2FNEJMoa2105675%22&format=json&resultType=core&pageSize=10",
+      "citation_url": "https://doi.org/10.1056/NEJMoa2105675",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/f471019f1972c206279f.json",
+      "raw_sha256": "5cc708e6b4b037197a0f66ca56455188907290b0d75f4d790c77fdde96e72404",
+      "original_fetched_at": "2026-10-18T20:49:56.212298+09:00",
+      "verified_at": "2026-10-18T14:26:46.272237+00:00",
+      "method": "Provided cached primary article abstract read directly; no new HTTP for these abstracts; full text and supplements not read.",
+      "exact_primary_quote": "<h4>Background</h4>Salt substitutes with reduced sodium levels and increased potassium levels have been shown to lower blood pressure, but their effects on cardiovascular and safety outcomes are uncertain.<h4>Methods</h4>We conducted an open-label, cluster-randomized trial involving persons from 600 villages in rural China. The participants had a history of stroke or were 60 years of age or older and had high blood pressure. The villages were randomly assigned in a 1:1 ratio to the intervention group, in which the participants used a salt substitute (75% sodium chloride and 25% potassium chloride by mass), or to the control group, in which the participants continued to use regular salt (100% sodium chloride). The primary outcome was stroke, the secondary outcomes were major adverse cardiovascular events and death from any cause, and the safety outcome was clinical hyperkalemia.<h4>Results</h4>A total of 20,995 persons were enrolled in the trial. The mean age of the participants was 65.4 years, and 49.5% were female, 72.6% had a history of stroke, and 88.4% a history of hypertension. The mean duration of follow-up was 4.74 years. The rate of stroke was lower with the salt substitute than with regular salt (29.14 events vs. 33.65 events per 1000 person-years; rate ratio, 0.86; 95% confidence interval [CI], 0.77 to 0.96; P = 0.006), as were the rates of major cardiovascular events (49.09 events vs. 56.29 events per 1000 person-years; rate ratio, 0.87; 95% CI, 0.80 to 0.94; P<0.001) and death (39.28 events vs. 44.61 events per 1000 person-years; rate ratio, 0.88; 95% CI, 0.82 to 0.95; P<0.001). The rate of serious adverse events attributed to hyperkalemia was not significantly higher with the salt substitute than with regular salt (3.35 events vs. 3.30 events per 1000 person-years; rate ratio, 1.04; 95% CI, 0.80 to 1.37; P = 0.76).<h4>Conclusions</h4>Among persons who had a history of stroke or were 60 years of age or older and had high blood pressure, the rates of stroke, major cardiovascular events, and death from any cause were lower with the salt substitute than with regular salt. (Funded by the National Health and Medical Research Council of Australia; SSaSS ClinicalTrials.gov number, NCT02092090.).",
+      "correction_relations": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "34459568",
+            "reference": "N Engl J Med. 2021 Sep 16;385(12):1137-1138. doi: 10.1056/NEJMe2112857.",
+            "type": "Comment in",
+            "orderIn": 1
+          },
+          {
+            "source": "MED",
+            "id": "34518660",
+            "reference": "Nat Rev Cardiol. 2021 Nov;18(11):738-739. doi: 10.1038/s41569-021-00615-3.",
+            "type": "Comment in",
+            "orderIn": 2
+          },
+          {
+            "source": "MED",
+            "id": "34936746",
+            "reference": "N Engl J Med. 2021 Dec 23;385(26):2491-2492. doi: 10.1056/NEJMc2116824.",
+            "type": "Comment in",
+            "orderIn": 3
+          },
+          {
+            "source": "MED",
+            "id": "34936747",
+            "reference": "N Engl J Med. 2021 Dec 23;385(26):2492. doi: 10.1056/NEJMc2116824.",
+            "type": "Comment in",
+            "orderIn": 4
+          },
+          {
+            "source": "MED",
+            "id": "34936748",
+            "reference": "N Engl J Med. 2021 Dec 23;385(26):2492-2493. doi: 10.1056/NEJMc2116824.",
+            "type": "Comment in",
+            "orderIn": 5
+          },
+          {
+            "source": "MED",
+            "id": "34936749",
+            "reference": "N Engl J Med. 2021 Dec 23;385(26):2493. doi: 10.1056/NEJMc2116824.",
+            "type": "Comment in",
+            "orderIn": 6
+          }
+        ]
+      }
+    },
+    {
+      "doi": "10.1056/NEJMoa1311889",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1056%2FNEJMoa1311889%22&format=json&resultType=core&pageSize=10",
+      "citation_url": "https://doi.org/10.1056/NEJMoa1311889",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/262bccdaabbcd9a9ee70.json",
+      "raw_sha256": "1f9db29e7ca73a5a3caf6c7308e7a17cc7907a74288066ca03d72888e809dc80",
+      "original_fetched_at": "2026-10-18T20:49:56.308260+09:00",
+      "verified_at": "2026-10-18T14:26:46.272811+00:00",
+      "method": "Provided cached primary article abstract read directly; no new HTTP for these abstracts; full text and supplements not read.",
+      "exact_primary_quote": "<h4>Background</h4>The optimal range of sodium intake for cardiovascular health is controversial.<h4>Methods</h4>We obtained morning fasting urine samples from 101,945 persons in 17 countries and estimated 24-hour sodium and potassium excretion (used as a surrogate for intake). We examined the association between estimated urinary sodium and potassium excretion and the composite outcome of death and major cardiovascular events.<h4>Results</h4>The mean estimated sodium and potassium excretion was 4.93 g per day and 2.12 g per day, respectively. With a mean follow-up of 3.7 years, the composite outcome occurred in 3317 participants (3.3%). As compared with an estimated sodium excretion of 4.00 to 5.99 g per day (reference range), a higher estimated sodium excretion (≥ 7.00 g per day) was associated with an increased risk of the composite outcome (odds ratio, 1.15; 95% confidence interval [CI], 1.02 to 1.30), as well as increased risks of death and major cardiovascular events considered separately. The association between a high estimated sodium excretion and the composite outcome was strongest among participants with hypertension (P=0.02 for interaction), with an increased risk at an estimated sodium excretion of 6.00 g or more per day. As compared with the reference range, an estimated sodium excretion that was below 3.00 g per day was also associated with an increased risk of the composite outcome (odds ratio, 1.27; 95% CI, 1.12 to 1.44). As compared with an estimated potassium excretion that was less than 1.50 g per day, higher potassium excretion was associated with a reduced risk of the composite outcome.<h4>Conclusions</h4>In this study in which sodium intake was estimated on the basis of measured urinary excretion, an estimated sodium intake between 3 g per day and 6 g per day was associated with a lower risk of death and cardiovascular events than was either a higher or lower estimated level of intake. As compared with an estimated potassium excretion that was less than 1.50 g per day, higher potassium excretion was associated with a lower risk of death and cardiovascular events. (Funded by the Population Health Research Institute and others.).",
+      "correction_relations": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "reference": "N Engl J Med. 2014 Sep 25;371(13):1267",
+            "type": "Erratum in",
+            "orderIn": 1
+          },
+          {
+            "source": "MED",
+            "id": "25119614",
+            "reference": "N Engl J Med. 2014 Aug 14;371(7):677-9. doi: 10.1056/NEJMe1407695",
+            "type": "Comment in",
+            "orderIn": 2
+          },
+          {
+            "source": "MED",
+            "id": "25154977",
+            "reference": "Nat Rev Cardiol. 2014 Oct;11(10):556. doi: 10.1038/nrcardio.2014.124",
+            "type": "Comment in",
+            "orderIn": 3
+          },
+          {
+            "source": "MED",
+            "id": "25157836",
+            "reference": "Nat Rev Nephrol. 2014 Oct;10(10):541. doi: 10.1038/nrneph.2014.157",
+            "type": "Comment in",
+            "orderIn": 4
+          },
+          {
+            "source": "MED",
+            "id": "25376211",
+            "reference": "J Clin Hypertens (Greenwich). 2015 Feb;17(2):85-6. doi: 10.1111/jch.12437",
+            "type": "Comment in",
+            "orderIn": 5
+          },
+          {
+            "source": "MED",
+            "id": "25427117",
+            "reference": "N Engl J Med. 2014 Nov 27;371(22):2137-8. doi: 10.1056/NEJMc1412113",
+            "type": "Comment in",
+            "orderIn": 6
+          },
+          {
+            "source": "MED",
+            "id": "25427118",
+            "reference": "N Engl J Med. 2014 Nov 27;371(22):2134. doi: 10.1056/NEJMc1412113",
+            "type": "Comment in",
+            "orderIn": 7
+          },
+          {
+            "source": "MED",
+            "id": "25427119",
+            "reference": "N Engl J Med. 2014 Nov 27;371(22):2134-5. doi: 10.1056/NEJMc1412113",
+            "type": "Comment in",
+            "orderIn": 8
+          },
+          {
+            "source": "MED",
+            "id": "25427120",
+            "reference": "N Engl J Med. 2014 Nov 27;371(22):2135-6. doi: 10.1056/NEJMc1412113",
+            "type": "Comment in",
+            "orderIn": 9
+          },
+          {
+            "source": "MED",
+            "id": "25915895",
+            "reference": "J Hypertens. 2015 Apr;33(4):884-6. doi: 10.1097/HJH.0000000000000548",
+            "type": "Comment in",
+            "orderIn": 10
+          },
+          {
+            "source": "MED",
+            "id": "25915896",
+            "reference": "J Hypertens. 2015 Apr;33(4):887-90. doi: 10.1097/HJH.0000000000000549",
+            "type": "Comment in",
+            "orderIn": 11
+          }
+        ]
+      }
+    }
+  ],
+  "intentional_numerical_scope_changes": [
+    "5년 사망확률 12% 삭제: 평균4.74년 발생률비0.88로 정정",
+    "PURE 27%/15% 위험 증가 → OR1.27/1.15, 기준4.00–5.99g 및 ≥7g 명시",
+    "건강한 젊은 사람의 이득이 훨씬 작다는 미측정 비교 삭제",
+    "참가자 단위 무작위 → 마을 단위 무작위",
+    "중증 고칼륨혈증 endpoint로 한정"
+  ],
+  "doi_changes": {
+    "added": [],
+    "removed": [],
+    "reason": "두 기존 DOI 유지"
+  },
+  "limitations": [
+    "두 원초록 직접 열람 수준이며 전체 원문·부록은 미확인",
+    "국내 제품 가격차와 맛 차이 미확인",
+    "PURE 캐시에 2014-09-25 371(13):1267 정정문 관계가 있으나 정정문 본문 미확인. 제한적 EuropePMC 검색은 0건이며 정정문 부재 증거가 아님. 원초록 수치를 정정완료로 주장하지 않음.",
+    "한국 일반인·건강한 젊은층 효과 및 신장질환자 안전성 확정 불가"
+  ],
+  "sentence_lengths": {
+    "비용": [
+      {
+        "text": "소금을 살 때 제품만 바꾸면 따로 시간이 들지 않습니다",
+        "len": 30
+      },
+      {
+        "text": "국내 제품의 가격 차이와 맛 차이는 확인하지 못했습니다.",
+        "len": 31
+      }
+    ],
+    "쉽게": [
+      {
+        "text": "뇌졸중 병력이 있거나 60세 이상인 고혈압 환자의 결과입니다",
+        "len": 33
+      },
+      {
+        "text": "저나트륨 소금을 쓴 쪽에서 사망이 덜 발생했습니다",
+        "len": 27
+      },
+      {
+        "text": "건강한 젊은 사람에게 같은 수치를 적용할 수는 없습니다.",
+        "len": 31
+      }
+    ],
+    "이득": [
+      {
+        "text": "중국 농촌 600개 마을의 20,995명이 참여했습니다",
+        "len": 30
+      },
+      {
+        "text": "뇌졸중 병력이 있거나 60세 이상인 고혈압 환자였습니다",
+        "len": 30
+      },
+      {
+        "text": "마을을 무작위로 두 집단에 나눠 시험했습니다",
+        "len": 24
+      },
+      {
+        "text": "평균 추적 기간은 4.74년입니다",
+        "len": 18
+      },
+      {
+        "text": "저나트륨 소금은 염화나트륨 75%와 염화칼륨 25%였습니다",
+        "len": 32
+      },
+      {
+        "text": "비교군은 염화나트륨 100%인 보통 소금을 썼습니다",
+        "len": 28
+      },
+      {
+        "text": "각 사람을 관찰한 시간을 합쳐 발생률을 계산했습니다",
+        "len": 28
+      },
+      {
+        "text": "아래 수치는 관찰시간 합계 1,000인년당 발생 건수입니다",
+        "len": 32
+      },
+      {
+        "text": "1,000인년은 1,000명을 1년씩 관찰한 시간입니다",
+        "len": 30
+      },
+      {
+        "text": "수치는 저나트륨 소금, 보통 소금 순입니다",
+        "len": 23
+      },
+      {
+        "text": "사망은 39.28건 대 44.61건이었습니다",
+        "len": 24
+      },
+      {
+        "text": "사망 발생률비는 0.88로 약 12% 낮았습니다",
+        "len": 26
+      },
+      {
+        "text": "뇌졸중은 29.14건 대 33.65건이었습니다",
+        "len": 25
+      },
+      {
+        "text": "뇌졸중 발생률비는 0.86으로 약 14% 낮았습니다",
+        "len": 28
+      },
+      {
+        "text": "주요 심혈관 사건은 49.09건 대 56.29건이었습니다",
+        "len": 31
+      },
+      {
+        "text": "해당 발생률비는 0.87로 약 13% 낮았습니다",
+        "len": 26
+      },
+      {
+        "text": "발생률비는 두 집단의 발생률을 나눈 값입니다",
+        "len": 24
+      },
+      {
+        "text": "5년 안에 사망할 누적확률이 12% 낮다는 뜻은 아닙니다",
+        "len": 31
+      },
+      {
+        "text": "고칼륨혈증 관련 중증사건은 3.35건 대 3.30건이었습니다",
+        "len": 33
+      },
+      {
+        "text": "해당 발생률비는 1.04였습니다",
+        "len": 17
+      },
+      {
+        "text": "통계적으로 유의한 차이는 검출되지 않았습니다.",
+        "len": 25
+      }
+    ],
+    "비고": [
+      {
+        "text": "논쟁 있음",
+        "len": 5
+      },
+      {
+        "text": "PURE 연구는 사람들을 장기간 추적한 관찰자료입니다",
+        "len": 29
+      },
+      {
+        "text": "아침 소변으로 하루 나트륨 배설량을 추정했습니다",
+        "len": 26
+      },
+      {
+        "text": "사망 또는 주요 심혈관 사건을 합쳐 비교했습니다",
+        "len": 26
+      },
+      {
+        "text": "기준은 하루 추정 배설량 4.00~5.99g이었습니다",
+        "len": 29
+      },
+      {
+        "text": "3g 미만의 오즈비는 1.27이었습니다",
+        "len": 21
+      },
+      {
+        "text": "7g 이상의 오즈비는 1.15였습니다",
+        "len": 20
+      },
+      {
+        "text": "오즈는 사건 발생확률을 비발생확률로 나눈 값입니다",
+        "len": 27
+      },
+      {
+        "text": "오즈비는 두 집단의 오즈를 나눈 값입니다",
+        "len": 22
+      },
+      {
+        "text": "발생확률이 각각 27%, 15% 높다는 뜻은 아닙니다",
+        "len": 29
+      },
+      {
+        "text": "소금을 줄인 탓에 위험이 높아졌다고 단정할 수 없습니다",
+        "len": 30
+      },
+      {
+        "text": "반면 중국 농촌 시험은 소금 일부를 칼륨염으로 대체했습니다",
+        "len": 32
+      },
+      {
+        "text": "두 연구는 대상과 비교 방법이 다릅니다",
+        "len": 21
+      },
+      {
+        "text": "건강한 젊은 사람의 효과는 이 시험에서 측정하지 않았습니다",
+        "len": 32
+      },
+      {
+        "text": "이들에게 같은 효과 수치를 적용할 수는 없습니다",
+        "len": 26
+      },
+      {
+        "text": "중증 고칼륨혈증 차이 미검출이 신장질환자의 안전 보장은 아닙니다",
+        "len": 35
+      },
+      {
+        "text": "신장이 나쁘거나 칼륨이 몸에 남게 하는 약을 먹으면 주의하세요",
+        "len": 34
+      },
+      {
+        "text": "소금을 바꾸기 전에 반드시 의사에게 확인하세요.",
+        "len": 26
+      }
+    ]
+  },
+  "easy_char_count": 95,
+  "proposal_sha256": "7dad227071a15f0f727e2aadf52a0403519300d08bec42fe2ee53759daeaf479"
+}

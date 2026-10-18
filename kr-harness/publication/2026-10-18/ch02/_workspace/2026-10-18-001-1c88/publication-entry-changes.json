@@ -1,0 +1,129 @@
+{
+  "entry": 1,
+  "status": "unadopted_pending_independent_exact_hash_review",
+  "base": "strict-entry.md",
+  "base_sha256": "9b611085a7e51b8e3a6acd5f9db2c238b933b15bae5f496fc4234a050fcfec8e",
+  "changes": [
+    {
+      "field": "이득",
+      "before": "미국 연구는 사람들을 추적해 기록했습니다. 연구자가 집단을 나눠 비교하는 실험은 하지 않았습니다. 현재 흡연자는 평생 비흡연자보다 기대수명이 10년 이상 짧습니다. 마흔 전에 끊으면 흡연으로 늘어난 사망 위험 약 90%가 사라집니다. 25~34세에 끊으면 약 10년 더 삽니다. 35~44세에 끊으면 약 9년 더 삽니다. 45~54세에 끊으면 약 6년 더 삽니다. 원문 수치는 수명이 늘어난 햇수를 나타냅니다. 중국에서도 같은 설계로 연구했습니다. 2010년대 도시 남성 흡연자의 사망 위험은 비흡연자의 1.65배입니다(RR 1.65). 농촌 남성 흡연자는 비흡연자보다 사망 위험이 1.22배 높습니다. 스스로 끊은 지 10년이 지나면 흡연이 더했던 위험은 거의 사라집니다.",
+      "after": "미국 연구는 사람들을 추적해 기록했습니다. 연구자가 집단을 나눠 비교하는 실험은 하지 않았습니다. 현재 흡연자는 평생 비흡연자보다 기대수명이 10년 이상 짧습니다. 마흔 전에 끊으면 흡연으로 늘어난 사망 위험 약 90%가 사라집니다. 25~34세에 끊으면 약 10년 더 삽니다. 35~44세에 끊으면 약 9년 더 삽니다. 45~54세에 끊으면 약 6년 더 삽니다. 원문 수치는 수명이 늘어난 햇수를 나타냅니다. 중국에서도 같은 설계로 연구했습니다. 2010년대 도시 남성 흡연자의 사망 위험은 비흡연자의 1.65배입니다. 약 65% 높다는 뜻입니다(RR 1.65). 농촌 남성 흡연자의 사망 위험은 비흡연자의 1.22배입니다. 약 22% 높다는 뜻입니다. 이 수치는 집단 간 사망률을 비교한 비율입니다. 스스로 끊은 지 10년이 지나면 흡연이 더했던 위험은 거의 사라집니다.",
+      "reason": "중국 사망률 비율의 배수와 증가율 혼동 방지"
+    },
+    {
+      "field": "비고",
+      "before": "남의 담배 연기도 사람을 죽입니다. 2004년 한 해 간접흡연으로 세계에서 약 60만3천 명이 죽었습니다. 그해 전 세계 사망자의 약 1%에 해당합니다. 본인이 안 피워도 연기를 피하세요. 특히 아이가 담배 연기에 노출되지 않게 하세요. 금연 방법은 제3항(금연약), 제4항(금연일 정하기)을 참고하세요. 제5항(보건소 금연클리닉), 제6항(전자담배)도 참고하세요.",
+      "after": "남의 담배 연기도 사람을 죽입니다. 2004년 한 해 간접흡연으로 세계에서 약 60만3천 명이 죽은 것으로 추정됩니다. 그해 전 세계 사망자의 약 1%에 해당합니다. 본인이 안 피워도 연기를 피하세요. 특히 아이가 담배 연기에 노출되지 않게 하세요. 금연 방법은 제3항(금연약), 제4항(금연일 정하기)을 참고하세요. 제5항(보건소 금연클리닉), 제6항(전자담배)도 참고하세요.",
+      "reason": "간접흡연 사망자 수가 2004년 세계 추정치임을 명시"
+    }
+  ],
+  "sources": [
+    {
+      "doi": "10.1056/NEJMsa1211128",
+      "url": "https://doi.org/10.1056/NEJMsa1211128",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/9a806d34dd9a22f88357.json",
+      "raw_sha256": "91b0c8c51cf954ab9709b953adaab147f3d88dfef36355c2375c39931d7e160c",
+      "verification_date_utc": "2026-10-18T14:21:03.058517+00:00",
+      "method": "기존 EuropePMC 원초록 캐시의 실제 abstractText 재열람; 신규 HTTP/전체 원문 아님",
+      "provenance": {
+        "doi": "10.1056/NEJMsa1211128",
+        "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
+        "url": "https://doi.org/10.1056/NEJMsa1211128",
+        "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/9a806d34dd9a22f88357.json",
+        "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/9a806d34dd9a22f88357.json",
+        "metadata_cache_sha256": "91b0c8c51cf954ab9709b953adaab147f3d88dfef36355c2375c39931d7e160c",
+        "metadata_fetched_at": "2026-10-18T20:49:54.357725+09:00",
+        "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1056%2FNEJMsa1211128%22&format=json&resultType=core&pageSize=10"
+      },
+      "exact_quotes": [
+        "Life expectancy was shortened by more than 10 years among the current smokers, as compared with those who had never smoked.",
+        "Adults who had quit smoking at 25 to 34, 35 to 44, or 45 to 54 years of age gained about 10, 9, and 6 years of life, respectively, as compared with those who continued to smoke.",
+        "Cessation before the age of 40 years reduces the risk of death associated with continued smoking by about 90%."
+      ]
+    },
+    {
+      "doi": "10.1016/S0140-6736(15)00340-2",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4691901/fullTextXML",
+      "raw_path": "/tmp/ch02-audit/full-PMC4691901.body",
+      "raw_sha256": "c8837ca1ac5c79f5d15a2fc59eb5e37d5961772f7a3f881e0bd4c6ad90b3c198",
+      "verification_date_utc": "2026-10-18T14:21:03.058670+00:00",
+      "method": "기존 원문 XML의 해당 결과·방법 재열람; 신규 HTTP 아님",
+      "provenance": {
+        "doi": "10.1016/S0140-6736(15)00340-2",
+        "scope": "HTTPS 원문 XML 직접 열람·항목의 주요 수치/조건 대조",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4691901/fullTextXML",
+        "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/bf9ac65f9d9ef2b71512.json",
+        "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/bf9ac65f9d9ef2b71512.json",
+        "metadata_cache_sha256": "b01d13b16e556758cd8684b3358005fefa19542101b93cc5bea738ec203de5c1",
+        "metadata_fetched_at": "2026-10-18T20:49:54.461041+09:00",
+        "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2FS0140-6736%2815%2900340-2%22&format=json&resultType=core&pageSize=10",
+        "direct_fulltext_raw": {
+          "raw_path": "/tmp/ch02-audit/full-PMC4691901.body",
+          "raw_sha256": "c8837ca1ac5c79f5d15a2fc59eb5e37d5961772f7a3f881e0bd4c6ad90b3c198",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4691901/fullTextXML",
+          "http_status": 200,
+          "article_dois": [
+            "10.1016/S0140-6736(15)00340-2"
+          ],
+          "fetched_at": null,
+          "fetched_at_limit": "初回の取得時刻は記録していないため未復元。ファイルmtimeをHTTP取得時刻とみなさない。",
+          "current_raw_reopened_at_utc": "2026-10-18T13:47:08.728391+00:00",
+          "read_scope": "초기감사에서 사용한 원문 응답을 재개봉해 DOI와 raw바이트SHA를 연결. 모든 문장/부록 재검증을 뜻하지 않음."
+        }
+      },
+      "exact_quotes": [
+        "urban: RR 1·32 [95% CI 1·24–1·41]  vs  1·65 [1·53–1·79]; rural: RR 1·13 [1·09–1·17]  vs  1·22 [1·16–1·29]",
+        "Cox regression yielded sex-specific adjusted mortality rate ratios (RRs) comparing smokers (including any who had stopped because of illness, but not the other ex-smokers, who are described as having stopped by choice) versus never-smokers.",
+        "Ex-smokers who had stopped by choice (only 3% of ever-smokers in 1991, but 9% in 2006) had little smoking-attributed risk more than 10 years after stopping."
+      ]
+    },
+    {
+      "doi": "10.1016/S0140-6736(10)61388-8",
+      "url": "https://doi.org/10.1016/S0140-6736(10)61388-8",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/4419084fca5878740fdb.json",
+      "raw_sha256": "5e4528bb7aee2f65e253e198f9bcf284bf556616a3f5ab41eaf3eb27fab8e871",
+      "verification_date_utc": "2026-10-18T14:21:03.058702+00:00",
+      "method": "기존 EuropePMC 원초록 캐시의 실제 abstractText 재열람; 신규 HTTP/전체 원문 아님",
+      "provenance": {
+        "doi": "10.1016/S0140-6736(10)61388-8",
+        "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
+        "url": "https://doi.org/10.1016/S0140-6736(10)61388-8",
+        "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/4419084fca5878740fdb.json",
+        "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/4419084fca5878740fdb.json",
+        "metadata_cache_sha256": "5e4528bb7aee2f65e253e198f9bcf284bf556616a3f5ab41eaf3eb27fab8e871",
+        "metadata_fetched_at": "2026-10-18T20:49:54.665067+09:00",
+        "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2FS0140-6736%2810%2961388-8%22&format=json&resultType=core&pageSize=10"
+      },
+      "exact_quotes": [
+        "603,000 deaths were attributable to second-hand smoke in 2004, which was about 1·0% of worldwide mortality."
+      ]
+    }
+  ],
+  "doi_changes": {
+    "added": [],
+    "removed": [],
+    "reason": "기존 세 DOI 모두 유지"
+  },
+  "intentional_numerical_scope_changes": [
+    "농촌 1.22배 높음을 1.22배 및 약22% 높음으로 정확화; 도시1.65배 및 약65% 높음 설명. 개인 사망확률을 계산하지 않음.",
+    "2004년·603000명·약1%·10/9/6년·각 금연연령 범위 유지"
+  ],
+  "checks": {
+    "easy_characters": 103,
+    "easy_approval_check": "해당 run에 기존 editorial-proposal 또는 승인 쉽게 없음. canonical strict-entry 쉽게 그대로 유지.",
+    "new_modified_sentences_max_50": true,
+    "OR_RR_HR": "중국 원문은 Cox 기반 mortality rate ratio. OR 또는 개인확률로 변환하지 않음. 미국 HR 원값을 새 확률로 환산하지 않음.",
+    "unchanged_fields": [
+      "비용",
+      "쉽게",
+      "근거등급",
+      "출처"
+    ]
+  },
+  "unresolved_limitations": [
+    "국내 담뱃값 및 금단기간 임상근거는 이번에도 미확인. 기존 비용 문장의 십수만 원·몇 주~몇 달을 새로 검증했다고 주장하지 않음. 독립 검토 시 이 미확인 범위를 유의해야 함.",
+    "미국 및 간접흡연 논문은 원초록만 확인; 전체 원문 미열람.",
+    "중국 두 연구 추적기간은 1991–99 및 2006–14(중앙2010). 기존 2010년대 표현 유지. 질병 때문에 끊은 사람은 흡연자에 포함된 정의를 원문에서 확인."
+  ],
+  "proposal_sha256": "321498bb8e6b8851d7457f526a165a8a0b8ef2b3436362fed5b03cb25ec6e58a"
+}

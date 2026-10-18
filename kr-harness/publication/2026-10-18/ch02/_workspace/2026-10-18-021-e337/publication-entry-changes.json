@@ -1,0 +1,162 @@
+{
+  "status": "unadopted_proposal",
+  "entry": 21,
+  "strict_entry_sha256": "cad3b7cfed81dd32de0d6da9f8d01ed0e73c4e60df40821928f4b87f17d01990",
+  "proposal_sha256": "4c16dc23d46a2e4ceccfeacd4af00faa05c5b44b80ca71a0e1c60f93a1fc15a1",
+  "changes": [
+    {
+      "field": "비용",
+      "before": "돈이 안 듭니다. 매일 마신 잔 수를 기록하고 진료 중에 한마디 물으면 됩니다.",
+      "after": "음주량을 기록하는 데는 돈이 들지 않습니다. 상담 비용은 의료기관에 확인하세요. 매일 마신 잔 수를 기록하고 진료 중에 한마디 물으면 됩니다.",
+      "reason": "국내 상담 수가를 확인하지 못했으므로 무료 보장을 기록 비용과 구분하고 상담 비용 확인을 안내합니다.",
+      "evidence_ids": [],
+      "modified_sentence_lengths": [
+        {
+          "text": "음주량을 기록하는 데는 돈이 들지 않습니다.",
+          "len": 24
+        },
+        {
+          "text": "상담 비용은 의료기관에 확인하세요.",
+          "len": 19
+        }
+      ]
+    },
+    {
+      "field": "쉽게",
+      "before": "의사가 몇 분간 음주량을 살핍니다. 음주 위험을 설명하고 목표도 함께 잡습니다. 이렇게 하면 1년 뒤 일주일에 순알코올을 평균 20g 덜 마십니다. 맥주 반 리터쯤에 해당합니다. 상담을 더 길게 해도 이득이 늘지는 않습니다. 이미 술을 멈추지 못하는 단계라면 약물 치료도 있습니다. 12명을 치료하면 한 명이 추가로 폭음을 피합니다.",
+      "after": "의사와 술을 줄일 목표를 잡으세요. 짧게 상담받은 쪽은 거의 상담받지 않거나 안 받은 쪽보다 덜 마셨습니다. 1년 뒤 주당 알코올이 평균 20g 적었습니다. 근거는 중간 수준이며 상담을 늘려도 더 낫지는 않았습니다.",
+      "reason": "canonical decisions의 r2 정확SHA 승인 필드 반영. 비교대상·효과 크기·근거 수준·상담 연장 한계 유지.",
+      "evidence_ids": [
+        "kaner"
+      ],
+      "modified_sentence_lengths": [
+        {
+          "text": "의사와 술을 줄일 목표를 잡으세요.",
+          "len": 19
+        },
+        {
+          "text": "짧게 상담받은 쪽은 거의 상담받지 않거나 안 받은 쪽보다 덜 마셨습니다.",
+          "len": 40
+        },
+        {
+          "text": "1년 뒤 주당 알코올이 평균 20g 적었습니다.",
+          "len": 26
+        },
+        {
+          "text": "근거는 중간 수준이며 상담을 늘려도 더 낫지는 않았습니다.",
+          "len": 32
+        }
+      ]
+    },
+    {
+      "field": "이득",
+      "before": "무작위 시험 34개·15,197명의 결과를 합쳤습니다. 간단한 중재를 받은 사람을 최소 중재나 무처치를 받은 사람과 비교했습니다. 중재를 받은 쪽은 1년 뒤 일주일에 순알코올을 20g 덜 마셨습니다. 95% CI는 12~28g 감소입니다(믿을 수 있는 구간). 근거의 품질은 중간 수준입니다. 참가자들은 연구 시작 때 일주일에 평균 244g을 마셨습니다. 간단한 중재는 5회 이하·총 60분 미만입니다. 조언이나 생활 상담으로 진행합니다. 더 길게 중재해도 추가 이득은 없었습니다. 약물 효과는 무작위 시험 122개·22,803명의 결과를 합쳤습니다. 아캄프로세이트로 추가 효과를 얻는 데 필요한 치료 인원은 12명입니다. 95% CI는 8~26입니다. 이만큼 치료하면 1명이 추가로 음주 재발을 피합니다. 경구 날트렉손은 하루 50mg을 복용하는 조건입니다. 추가 효과를 얻는 데 필요한 치료 인원은 12명(8~26)입니다. 이만큼 치료하면 1명이 추가로 폭음 재발을 피합니다.",
+      "after": "무작위 시험 34개·15,197명의 결과를 합쳤습니다. 간단한 중재를 받은 사람을 최소 중재나 무처치를 받은 사람과 비교했습니다. 중재를 받은 쪽은 1년 뒤 일주일에 순알코올을 20g 덜 마셨습니다. 95% CI는 12~28g 감소입니다(믿을 수 있는 구간). 근거의 품질은 중간 수준입니다. 참가자들은 연구 시작 때 일주일에 평균 244g을 마셨습니다. 간단한 중재는 5회 이하·총 60분 미만입니다. 조언이나 생활 상담으로 진행합니다. 더 길게 중재해도 추가 이득은 없었습니다. 약물 검토 전체에는 무작위 시험 122개가 포함됐습니다. 코호트 연구 1개도 포함해 총 22,803명입니다. 코호트 연구는 사람들을 지켜보며 결과를 비교합니다. 약물 시험은 12주 이상 진행한 연구를 골랐습니다. 전체 인원은 각 약물의 재발 예방 효과를 계산한 인원과 다릅니다. 아캄프로세이트로 추가 효과를 얻는 데 필요한 치료 인원은 12명입니다. 95% CI는 8~26입니다. 이만큼 치료하면 1명이 추가로 음주 재발을 피합니다. 경구 날트렉손은 하루 50mg을 복용하는 조건입니다. 추가 효과를 얻는 데 필요한 치료 인원은 12명(8~26)입니다. 이만큼 치료하면 1명이 추가로 폭음 재발을 피합니다.",
+      "reason": "총22,803명은 122개 무작위시험과 1개 코호트의 전체 표본입니다. 약별 NNT의 분모와 동일시하지 않도록 구별하고 초록의 시험 선정 기간을 명시합니다. NNT12와 각 CI 및 음주재발/폭음재발 구별은 그대로 유지합니다.",
+      "evidence_ids": [
+        "jonas"
+      ],
+      "modified_sentence_lengths": [
+        {
+          "text": "약물 검토 전체에는 무작위 시험 122개가 포함됐습니다.",
+          "len": 31
+        },
+        {
+          "text": "코호트 연구 1개도 포함해 총 22,803명입니다.",
+          "len": 28
+        },
+        {
+          "text": "코호트 연구는 사람들을 지켜보며 결과를 비교합니다.",
+          "len": 28
+        },
+        {
+          "text": "약물 시험은 12주 이상 진행한 연구를 골랐습니다.",
+          "len": 28
+        },
+        {
+          "text": "전체 인원은 각 약물의 재발 예방 효과를 계산한 인원과 다릅니다.",
+          "len": 36
+        }
+      ]
+    },
+    {
+      "field": "비고",
+      "before": "이 연구들은 사망률 대신 음주량을 측정했습니다. 대체 지표만 측정했으므로 이득 크기는 \"작음\"으로 분류합니다. 약물 시험은 대부분 외국에서 진행했습니다. 참가자 다수는 이미 알코올 의존 진단 기준을 충족했습니다. 참가자들은 모두 심리사회적 중재도 함께 받았습니다. 수치는 여기에 약물 치료를 더했을 때의 추가 이득을 나타냅니다. 국내에서 날트렉손은 알코올 의존성 치료용으로 허가된 전문의약품입니다. 쓸 수 있는 약은 의사와 의약품 허가사항을 확인해 결정하세요. 임의로 구매해 먹지 마세요. 이미 금단 증상이 있다면 제20항(스스로 끊지 마세요)을 보세요.",
+      "after": "이 연구들은 사망률 대신 음주량을 측정했습니다. 대체 지표만 측정했으므로 이득 크기는 \"작음\"으로 분류합니다. 약물 시험은 대부분 외국에서 진행했습니다. 참가자 다수는 이미 알코올 의존 진단 기준을 충족했습니다. 참가자들은 모두 심리사회적 중재도 함께 받았습니다. 수치는 여기에 약물 치료를 더했을 때의 추가 이득을 나타냅니다. 국내에서 날트렉손은 알코올 의존성 치료용으로 허가된 전문의약품입니다. 쓸 수 있는 약은 의사와 의약품 허가사항을 확인해 결정하세요. 날트렉손은 의사 처방에 따라 복용하세요. 시작 전 7~10일 내 아편류 사용 여부를 의사가 확인해야 합니다. 임의로 구매해 먹지 마세요. 이미 금단 증상이 있다면 제20항(스스로 끊지 마세요)을 보세요.",
+      "reason": "공식 제품 원문의 처방약 상태와 시작 전 아편류 사용 사전 확인 조건을 보강합니다.",
+      "evidence_ids": [
+        "revia"
+      ],
+      "modified_sentence_lengths": [
+        {
+          "text": "날트렉손은 의사 처방에 따라 복용하세요.",
+          "len": 22
+        },
+        {
+          "text": "시작 전 7~10일 내 아편류 사용 여부를 의사가 확인해야 합니다.",
+          "len": 37
+        }
+      ]
+    }
+  ],
+  "primary_sources": [
+    {
+      "id": "jonas",
+      "url": "https://doi.org/10.1001/jama.2014.3628",
+      "raw_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-021-e337/source-evidence/jonas-primary-abstract.json",
+      "raw_sha256": "cde67e843082b2ecd9a615cc80496394b912133b639b1f2ab3b28f882a58b5a5",
+      "original_cache_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/52ab8a5eff9189bb5042.json",
+      "verified_at_utc": "2026-10-18T14:14:49.974240+00:00",
+      "method": "Reopened and read supplied EuropePMC primary article abstract; copied identical raw bytes into permanent entry evidence. Full article not read.",
+      "abstract": "<h4>Importance</h4>Alcohol use disorders cause substantial morbidity and early mortality yet remain greatly undertreated. Medications are considerably underused.<h4>Objective</h4>To conduct a systematic review and meta-analysis of the benefits and harms of medications (US FDA-approved and others) for adults with alcohol use disorders.<h4>Data sources</h4>PubMed, Cochrane Library, PsycINFO, CINAHL, EMBASE, FDA website, and clinical trials registries (January 1, 1970, to March 1, 2014).<h4>Study selection</h4>Two reviewers selected randomized clinical trials (RCTs) with at least 12 weeks' duration that reported eligible outcomes and head-to-head prospective cohort studies reporting health outcomes or harms.<h4>Data extraction and synthesis</h4>We conducted meta-analyses using random-effects models and calculated numbers needed to treat for benefit (NNTs) or harm (NNHs).<h4>Main outcomes and measures</h4>Alcohol consumption, motor vehicle crashes, injuries, quality of life, function, mortality, and harms.<h4>Results</h4>We included 122 RCTs and 1 cohort study (total 22,803 participants). Most assessed acamprosate (27 studies, n = 7519), naltrexone (53 studies, n = 9140), or both. The NNT to prevent return to any drinking for acamprosate was 12 (95% CI, 8 to 26; risk difference [RD], -0.09; 95% CI, -0.14 to -0.04) and was 20 (95% CI, 11 to 500; RD, -0.05; 95% CI, -0.10 to -0.002) for oral naltrexone (50 mg/d). The NNT to prevent return to heavy drinking was 12 (95% CI, 8 to 26; RD -0.09; 95% CI, -0.13 to -0.04) for oral naltrexone (50 mg/d). Meta-analyses of trials comparing acamprosate to naltrexone found no statistically significant difference between them for return to any drinking (RD, 0.02; 95% CI, -0.03 to 0.08) or heavy drinking (RD, 0.01; 95% CI, -0.05 to 0.06). For injectable naltrexone, meta-analyses found no association with return to any drinking (RD, -0.04; 95% CI, -0.10 to 0.03) or heavy drinking (RD, -0.01; 95% CI, -0.14 to 0.13) but found an association with reduction in heavy drinking days (weighted mean difference [WMD], -4.6%; 95% CI, -8.5% to -0.56%). Among medications used off-label, moderate evidence supports an association with improvement in some consumption outcomes for nalmefene (heavy drinking days per month: WMD, -2.0; 95% CI, -3.0 to -1.0; drinks per drinking day: WMD, -1.02; 95% CI, -1.77 to -0.28) and topiramate (% heavy drinking days: WMD, -9.0%; 95% CI, -15.3% to -2.7%; drinks per drinking day: WMD, -1.0; 95% CI, -1.6 to -0.48). For naltrexone and nalmefene, NNHs for withdrawal from trials due to adverse events were 48 (95% CI, 30 to 112) and 12 (95% CI, 7 to 50), respectively; risk was not significantly increased for acamprosate or topiramate.<h4>Conclusions and relevance</h4>Both acamprosate and oral naltrexone were associated with reduction in return to drinking. When directly compared with one another, no significant differences were found between acamprosate and naltrexone for controlling alcohol consumption. Factors such as dosing frequency, potential adverse events, and availability of treatments may guide medication choice."
+    },
+    {
+      "id": "kaner",
+      "url": "https://doi.org/10.1002/14651858.CD004148.pub4",
+      "raw_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-021-e337/source-evidence/kaner-primary-abstract.json",
+      "raw_sha256": "1a2faa368551ebedb724a94c23fd6c28f47eecd9893ad297454cd7fc98dee9a7",
+      "original_cache_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/5f4aff456ae7268e9379.json",
+      "verified_at_utc": "2026-10-18T14:14:49.974240+00:00",
+      "method": "Reopened and read supplied EuropePMC primary article abstract; copied identical raw bytes into permanent entry evidence. Full article not read.",
+      "abstract": "<h4>Background</h4>Excessive drinking is a significant cause of mortality, morbidity and social problems in many countries. Brief interventions aim to reduce alcohol consumption and related harm in hazardous and harmful drinkers who are not actively seeking help for alcohol problems. Interventions usually take the form of a conversation with a primary care provider and may include feedback on the person's alcohol use, information about potential harms and benefits of reducing intake, and advice on how to reduce consumption. Discussion informs the development of a personal plan to help reduce consumption. Brief interventions can also include behaviour change or motivationally-focused counselling.This is an update of a Cochrane Review published in 2007.<h4>Objectives</h4>To assess the effectiveness of screening and brief alcohol intervention to reduce excessive alcohol consumption in hazardous or harmful drinkers in general practice or emergency care settings.<h4>Search methods</h4>We searched the Cochrane Central Register of Controlled Trials (CENTRAL), MEDLINE, and 12 other bibliographic databases to September 2017. We searched Alcohol and Alcohol Problems Science Database (to December 2003, after which the database was discontinued), trials registries, and websites. We carried out handsearching and checked reference lists of included studies and relevant reviews.<h4>Selection criteria</h4>We included randomised controlled trials (RCTs) of brief interventions to reduce hazardous or harmful alcohol consumption in people attending general practice, emergency care or other primary care settings for reasons other than alcohol treatment. The comparison group was no or minimal intervention, where a measure of alcohol consumption was reported. 'Brief intervention' was defined as a conversation comprising five or fewer sessions of brief advice or brief lifestyle counselling and a total duration of less than 60 minutes. Any more was considered an extended intervention. Digital interventions were not included in this review.<h4>Data collection and analysis</h4>We used standard methodological procedures expected by Cochrane. We carried out subgroup analyses where possible to investigate the impact of factors such as gender, age, setting (general practice versus emergency care), treatment exposure and baseline consumption.<h4>Main results</h4>We included 69 studies that randomised a total of 33,642 participants. Of these, 42 studies were added for this update (24,057 participants). Most interventions were delivered in general practice (38 studies, 55%) or emergency care (27 studies, 39%) settings. Most studies (61 studies, 88%) compared brief intervention to minimal or no intervention. Extended interventions were compared with brief (4 studies, 6%), minimal or no intervention (7 studies, 10%). Few studies targeted particular age groups: adolescents or young adults (6 studies, 9%) and older adults (4 studies, 6%). Mean baseline alcohol consumption was 244 g/week (30.5 standard UK units) among the studies that reported these data. Main sources of bias were attrition and lack of provider or participant blinding. The primary meta-analysis included 34 studies (15,197 participants) and provided moderate-quality evidence that participants who received brief intervention consumed less alcohol than minimal or no intervention participants after one year (mean difference (MD) -20 g/week, 95% confidence interval (CI) -28 to -12). There was substantial heterogeneity among studies (I² = 73%). A subgroup analysis by gender demonstrated that both men and women reduced alcohol consumption after receiving a brief intervention.We found moderate-quality evidence that brief alcohol interventions have little impact on frequency of binges per week (MD -0.08, 95% CI -0.14 to -0.02; 15 studies, 6946 participants); drinking days per week (MD -0.13, 95% CI -0.23 to -0.04; 11 studies, 5469 participants); or drinking intensity (-0.2 g/drinking day, 95% CI -3.1 to 2.7; 10 studies, 3128 participants).We found moderate-quality evidence of little difference in quantity of alcohol consumed when extended and no or minimal interventions were compared (-14 g/week, 95% CI -37 to 9; 6 studies, 1296 participants). There was little difference in binges per week (-0.08, 95% CI -0.28 to 0.12; 2 studies, 456 participants; moderate-quality evidence) or difference in days drinking per week (-0.45, 95% CI -0.81 to -0.09; 2 studies, 319 participants; moderate-quality evidence). Extended versus no or minimal intervention provided little impact on drinking intensity (9 g/drinking day, 95% CI -26 to 9; 1 study, 158 participants; low-quality evidence).Extended intervention had no greater impact than brief intervention on alcohol consumption, although findings were imprecise (MD 2 g/week, 95% CI -42 to 45; 3 studies, 552 participants; low-quality evidence). Numbers of binges were not reported for this comparison, but one trial suggested a possible drop in days drinking per week (-0.5, 95% CI -1.2 to 0.2; 147 participants; low-quality evidence). Results from this trial also suggested very little impact on drinking intensity (-1.7 g/drinking day, 95% CI -18.9 to 15.5; 147 participants; very low-quality evidence).Only five studies reported adverse effects (very low-quality evidence). No participants experienced any adverse effects in two studies; one study reported that the intervention increased binge drinking for women and two studies reported adverse events related to driving outcomes but concluded they were equivalent in both study arms.Sources of funding were reported by 67 studies (87%). With two exceptions, studies were funded by government institutes, research bodies or charitable foundations. One study was partly funded by a pharmaceutical company and a brewers association, another by a company developing diagnostic testing equipment.<h4>Authors' conclusions</h4>We found moderate-quality evidence that brief interventions can reduce alcohol consumption in hazardous and harmful drinkers compared to minimal or no intervention. Longer counselling duration probably has little additional effect. Future studies should focus on identifying the components of interventions which are most closely associated with effectiveness."
+    },
+    {
+      "id": "revia",
+      "url": "https://nedrug.mfds.go.kr/pbp/CCBBB01/getItemDetail?itemSeq=199700692",
+      "raw_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-021-e337/source-evidence/revia-product.html",
+      "raw_sha256": "f1e522cd242ef6e710aa4568278e5f73482c6d8da5304b37fb503f73b314b8cf",
+      "verified_at_utc": "2026-10-18T14:14:49.974240+00:00",
+      "method": "Direct HTTPS official product HTML retrieved and indications, dosage, prescription status and opioid precaution read. Retrieval time only recorded to this script run, a few minutes after fetch.",
+      "quotes": [
+        "치료 전 7 ∼ 10일 내에 아편류를 사용하지 않았다고 의사가 판단할 경우에만 날트렉손염산염의 투여를 시작할 수 있다.",
+        "성인 : 날트렉손염산염으로서 1일 1회 50 mg을 경구투여한다.",
+        "적정 관리 프로그램과 병행하여 알코올 의존성 치료 및 외인성 아편류의 효과 차단",
+        "전문의약품"
+      ]
+    }
+  ],
+  "editorial_provenance": {
+    "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-021-e337/editorial-proposal-r2.json",
+    "sha256": "f6c5483df159b7f9d9a89ec31e04b3acbef40b579aedcca466d85d440262b749",
+    "canonical_decisions_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/editorial-decisions.json",
+    "decision": "approve for easily field only; full entry pending new exact-hash review"
+  },
+  "intentional_numerical_scope_changes": [
+    "122RCT-only attribution replaced by 122RCT+1cohort total22803; no total number change.",
+    "12-week minimum is trial eligibility, not a single common NNT horizon. No drug-specific pooled participant denominator or single common follow-up duration was inferred."
+  ],
+  "doi_changes": {
+    "added": [],
+    "removed": []
+  },
+  "unresolved_limitations": [
+    "Domestic consultation fee not verified; no free-consultation guarantee retained.",
+    "Jonas and Kaner read at primary abstract level only; drug-specific pooled NNT denominators and follow-up distribution not verified.",
+    "Full entry remains pending independent exact-hash approval."
+  ],
+  "statistical_checks": {
+    "NNT_endpoints": "Acamprosate return to any drinking; oral naltrexone50mg/d return to heavy drinking; unchanged12(8–26).",
+    "OR_RR_HR": "No OR/RR/HR estimates converted to probabilities; no baseline probability invented.",
+    "numbers_conditions": "Existing CIs, dose, endpoints, psychosocial support and withdrawal safety warning preserved."
+  }
+}

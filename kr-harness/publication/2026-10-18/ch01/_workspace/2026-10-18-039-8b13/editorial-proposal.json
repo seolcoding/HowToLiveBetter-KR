@@ -1,0 +1,13 @@
+{
+  "status": "unadopted_proposal",
+  "easy": null,
+  "title": null,
+  "todo": null,
+  "findings": {
+    "easy_char_count": 120,
+    "title_char_count": 70,
+    "body_todo_found": false,
+    "reason": "쉽게는 120자, 실제 제목은 70자로 초과 조건(>120자, >70자)에 해당하지 않습니다. 본문 TODO가 없어 제안하지 않습니다. 필드 표지와 제목 번호는 길이에서 제외했습니다.",
+    "reference_scan": "현행 ch01 intro.md 및 source.md에 제39항(골밀도 검사) 참조를 확인했습니다. 제목 변경 제안이 없어 독립 검토 대상은 없습니다."
+  }
+}

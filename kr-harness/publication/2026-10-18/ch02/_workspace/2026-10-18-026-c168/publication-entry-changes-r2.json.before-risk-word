@@ -1,0 +1,78 @@
+{
+  "entry": 26,
+  "revision": "r2",
+  "status": "unadopted_proposal",
+  "supersedes_for_review_only": "publication-entry-proposal.md",
+  "frozen_files_unchanged": {
+    "publication-entry-proposal.md": "3e8144925d85240f5576dcd1bfd647efff4d4403e21d709eaa1d3d4517df1304",
+    "publication-entry-changes.json": "2f620050ff0cd50801e5f5f2073f05f2b03e5c5f12e8a9010d3162a01079d08d"
+  },
+  "proposal_sha256": "f336d8df7e1f2acfbd7eacb624ddd146e9ba0c34a46af2a32666e490f6adba69",
+  "changes": [
+    {
+      "field": "title",
+      "before": "하루 3~4잔 커피는 관찰 결과입니다. 설탕·크림의 근거는 별개입니다.",
+      "after": "커피 하루 3~4잔의 건강 효과와 설탕·크림",
+      "reason": "편집 메타문 대신 독자용 주제 제목. 커피·하루3~4잔·설탕·크림 앵커 보존, 섭취량 증대 처방 없음."
+    },
+    {
+      "field": "이득",
+      "before": "관찰 연구를 종합한 메타분석 201개를 검토했습니다. 메타분석은 여러 연구 결과를 합치는 방법입니다. 무작위 대조 시험의 메타분석 17개도 포함됐습니다. 사망에 관한 결과는 사람을 무작위로 나누지 않은 관찰입니다. 하루 3~4잔과 안 마시는 사람을 비교했습니다. 모든 원인의 사망에 대한 상대위험은 0.83입니다. 이는 비교 집단보다 17% 낮은 관찰상의 비율입니다. 개인의 사망 확률이나 수명 연장을 뜻하지 않습니다. 기존 인용의 95% 신뢰구간은 0.79–0.88입니다. 논문 초록과 본문에는 0.83–0.88로 적혀 있습니다. 이 수치 차이는 확인이 더 필요합니다. 잔의 크기와 카페인 함량은 연구마다 달랐습니다.",
+      "after": "관찰 연구를 종합한 메타분석 201개를 검토했습니다. 메타분석은 여러 연구 결과를 합치는 방법입니다. 무작위 대조 시험의 메타분석 17개도 포함됐습니다. 사망에 관한 결과는 사람을 무작위로 나누지 않은 관찰입니다. 하루 3~4잔과 안 마시는 사람을 비교했습니다. 모든 원인의 사망에 대한 상대위험은 0.83입니다. 이는 비교 집단보다 17% 낮은 관찰상의 비율입니다. 개인의 사망 확률이나 수명 연장을 뜻하지 않습니다. 95% 신뢰구간은 0.79–0.88입니다. 원문의 0.83–0.88은 2018년 정정됐습니다. 잔의 크기와 카페인 함량은 연구마다 달랐습니다.",
+      "reason": "실제 정정공지로 CI 충돌 해결. 확정된 0.79–0.88 유지하고 옛 오기 정정 사실 표시."
+    },
+    {
+      "field": "출처",
+      "before": "Poole R, Kennedy OJ, Roderick P, et al. (2017). Coffee consumption and health: umbrella review of meta-analyses of multiple health outcomes. BMJ, 359, j5024. <https://doi.org/10.1136/bmj.j5024>",
+      "after": "Poole R, Kennedy OJ, Roderick P, et al. (2017). Coffee consumption and health: umbrella review of meta-analyses of multiple health outcomes. BMJ, 359, j5024. <https://doi.org/10.1136/bmj.j5024> 정정: BMJ (2018), 360, k194. <https://doi.org/10.1136/bmj.k194>",
+      "reason": "정정된 사망 CI를 검증하는 공식 정정 DOI 추가"
+    }
+  ],
+  "verification": {
+    "date_utc": "2026-10-18",
+    "method": "기존 HTTPS 원문 응답 XML 캐시 직접 독립 열람; 신규 HTTP 조회로 주장하지 않음",
+    "level": "official correction full text, body first paragraph, all-cause mortality abstract and main text correction",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5765813/fullTextXML",
+    "doi": "10.1136/bmj.k194",
+    "publication_date": "2018-01-12",
+    "raw_original": "/tmp/ch02-audit/coffee-correction.body",
+    "raw_persistent": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-026-c168/source-evidence/coffee-correction-PMC5765813.xml",
+    "sha256": "b1549670ff3c732920727c8a2a3f245f76c21e47281d543498826d8c3fccc729",
+    "exact_quote": "Coffee consumption and health: umbrella review of meta-analyses of multiple health outcomes In this paper by Poole and colleagues (BMJ 2017;359:j5024, doi:10.1136/bmj.j5024) an error spotted in a confidence interval led the authors to re-check their data. In doing so, they spotted a few other numerical errors. These do not affect their findings. In the estimate for all cause mortality in the abstract, the relative risk should read 0.83 (95% confidence interval 0.79 to 0.88) rather than the current 0.83 (0.83 to 0.88). This error is repeated in the results section in the main text in the paragraph headed All cause mortality. In the same paragraph, the benefit at three decaffeinated cups a day should read (0.89, 0.85 to 0.93) rather than (0.83. 0.85 to 0.89)."
+  },
+  "intentional_numerical_changes": [
+    "RR0.83, 17%, CI0.79–0.88 그대로 유지. 잘못된 원문 하한0.83은 공식2018정정으로 해결됐다고 명시.",
+    "관찰201개·중재17개·범위·예외 등 나머지 수치와 조건 불변"
+  ],
+  "doi_changes": {
+    "added": [
+      "10.1136/bmj.k194"
+    ],
+    "removed": [],
+    "reason": "원문 CI 오류의 공식 정정 근거 보강"
+  },
+  "unresolved_limitations": [
+    "다른 r1 한계는 CI 불일치 관련 항목을 제외하고 유지.",
+    "설탕·크림 완전상쇄는 이 리뷰에서 검증되지 않았으며 일률 섭취량 처방으로 회귀하지 않음"
+  ],
+  "validation": {
+    "new_narrative_sentences": [
+      {
+        "text": "커피 하루 3~4잔의 건강 효과와 설탕·크림",
+        "len": 24
+      },
+      {
+        "text": "95% 신뢰구간은 0.79–0.88입니다",
+        "len": 22
+      },
+      {
+        "text": "원문의 0.83–0.88은 2018년 정정됐습니다.",
+        "len": 28
+      }
+    ],
+    "easy_len": 88,
+    "other_fields_unchanged": true,
+    "strict_pure_public_unchanged": true
+  },
+  "prior_full_evidence": "publication-entry-changes.json"
+}

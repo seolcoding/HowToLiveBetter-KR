@@ -1,0 +1,115 @@
+{
+  "status": "unadopted_proposal",
+  "entry": 40,
+  "base": "strict-entry.md",
+  "publication_ready": false,
+  "changes": [
+    {
+      "field": "title",
+      "before": "골다공증 진단을 받았거나 살짝 넘어져 뼈가 부러진 적이 있으면, 의사에게 골다공증 약을 처방받아 꾸준히 쓰세요. 칼슘으로 대신하지 마세요",
+      "after": "골다공증 진단을 받았거나 가벼운 충격에 골절됐다면 의사에게 처방받으세요. 골다공증 약을 꾸준히 쓰고 칼슘으로 대신하지 마세요.",
+      "reason": "진단 또는 가벼운 충격 골절의 조건과 의사 처방, 꾸준한 사용, 칼슘 대체 금지를 보존합니다. 들어오는 앵커 골다공증 약을 유지하고 병렬 문법을 바로잡습니다.",
+      "evidencequotes": [
+        {
+          "quote": "취약성 골절은 가벼운 충격이나 일상 동작으로 생긴 골절입니다.",
+          "source": "strict-entry.md 이득"
+        },
+        {
+          "quote": "무엇을 쓸지는 의사가 정합니다.",
+          "source": "strict-entry.md 비고"
+        }
+      ],
+      "source_verification": [
+        {
+          "url": "https://doi.org/10.1002/14651858.CD001155.pub3",
+          "exactquotes": [
+            "We included only randomized controlled trials that assessed the effects of alendronate on postmenopausal women.",
+            "For secondary prevention, alendronate probably reduces clinical vertebral fractures, and may reduce non-vertebral, hip, and wrist fractures, and serious adverse events, compared to placebo.",
+            "hip fractures (RR 0.49, 95% CI 0.25 to 0.96; ARR 1.0% fewer, 95% CI 1.5% fewer to 0.1% fewer; low-certainty evidence)"
+          ],
+          "method": "Europe PMC 원시 JSON 캐시의 abstractText 직접 열람",
+          "date": "2026-10-18",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/0f554c37ad40f0cb70ed.json",
+          "limits": "신규 HTTP 또는 전문 열람 아님. 근거 확실성과 저위험군 예외는 기존 비고에 보존."
+        },
+        {
+          "url": "https://doi.org/10.1056/NEJMoa074941",
+          "exactquotes": [
+            "All patients (mean age, 74.5 years) received supplemental vitamin D and calcium.",
+            "The rates of any new clinical fracture were 8.6% in the zoledronic acid group and 13.9% in the placebo group, a 35% risk reduction with zoledronic acid (P=0.001)"
+          ],
+          "method": "Europe PMC 원시 JSON 캐시의 abstractText 직접 열람",
+          "date": "2026-10-18",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/c39add7ec66b9308481e.json",
+          "limits": "신규 HTTP 또는 전문 열람 아님. 90일 시작과 두 군 칼슘·비타민 D 병용은 기존 이득·비고에 보존."
+        }
+      ]
+    },
+    {
+      "field": "쉽게",
+      "before": "골다공증 환자가 약을 쓰면 고관절 골절이 절반쯤 줄어듭니다. 고관절 수술 뒤 주사를 맞은 노인은 다시 부러지는 경우가 35%쯤 줄었습니다. 한국에서는 골절 뒤 1년 안에 약을 시작한 사람이 절반이 안 됐습니다.",
+      "after": "골다공증이나 골절이 있는 폐경 여성의 연구입니다. 알렌드로네이트를 먹은 쪽은 고관절 골절이 절반쯤 적었습니다. 고관절 수술 뒤 졸레드론산 주사를 맞은 노인은 새 골절이 35%쯤 줄었습니다.",
+      "reason": "고관절 절반 수치를 알렌드로네이트와 골다공증·골절 있는 폐경 여성으로 제한합니다. 모든 약과 남성에게 확대하지 않습니다. 주사도 졸레드론산으로 명시합니다. 한국 치료율 문장은 이득에 그대로 남겨 쉽게를 3문장으로 줄였습니다.",
+      "source_verification": [
+        {
+          "url": "https://doi.org/10.1002/14651858.CD001155.pub3",
+          "exactquotes": [
+            "We included only randomized controlled trials that assessed the effects of alendronate on postmenopausal women.",
+            "For secondary prevention, alendronate probably reduces clinical vertebral fractures, and may reduce non-vertebral, hip, and wrist fractures, and serious adverse events, compared to placebo.",
+            "hip fractures (RR 0.49, 95% CI 0.25 to 0.96; ARR 1.0% fewer, 95% CI 1.5% fewer to 0.1% fewer; low-certainty evidence)"
+          ],
+          "method": "Europe PMC 원시 JSON 캐시의 abstractText 직접 열람",
+          "date": "2026-10-18",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/0f554c37ad40f0cb70ed.json",
+          "limits": "신규 HTTP 또는 전문 열람 아님. 근거 확실성과 저위험군 예외는 기존 비고에 보존."
+        },
+        {
+          "url": "https://doi.org/10.1056/NEJMoa074941",
+          "exactquotes": [
+            "All patients (mean age, 74.5 years) received supplemental vitamin D and calcium.",
+            "The rates of any new clinical fracture were 8.6% in the zoledronic acid group and 13.9% in the placebo group, a 35% risk reduction with zoledronic acid (P=0.001)"
+          ],
+          "method": "Europe PMC 원시 JSON 캐시의 abstractText 직접 열람",
+          "date": "2026-10-18",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/c39add7ec66b9308481e.json",
+          "limits": "신규 HTTP 또는 전문 열람 아님. 90일 시작과 두 군 칼슘·비타민 D 병용은 기존 이득·비고에 보존."
+        }
+      ]
+    }
+  ],
+  "preservation": {
+    "pure_C11": true,
+    "unchanged_fields": [
+      "비용",
+      "이득",
+      "근거등급",
+      "출처",
+      "비고"
+    ],
+    "tags_unchanged": true,
+    "medical_values_unchanged": true,
+    "calcium_both_groups_unchanged": true
+  },
+  "additional_sources_read": [
+    {
+      "url": "https://doi.org/10.1001/jamainternmed.2019.2779",
+      "method": "캐시 9f8e5f46df729efbd4f6.json abstractText 직접 열람",
+      "date": "2026-10-18",
+      "exactquote": "No significant association was found between all drug treatments for osteoporosis and overall mortality rate (risk ratio [RR], 0.98; 95% CI, 0.91-1.05; I2 = 0%).",
+      "limits": "초록만 열람. 원래 비고의 수치·사망효과 유보 유지."
+    },
+    {
+      "url": "https://doi.org/10.11005/jbm.2020.27.4.281",
+      "method": "캐시 1536cd9ebcd962bacd84.json abstractText 직접 열람",
+      "date": "2026-10-18",
+      "exactquote": "Only 33.5% of patients with osteoporosis took AOMs, and even after an osteoporotic fracture, only 41.9% of patients took AOMs within the following 12 months.",
+      "limits": "초록만 열람. 한국 수치 이득에 유지."
+    }
+  ],
+  "validation": {
+    "easy_chars": 105,
+    "easy_sentence_count": 3,
+    "new_narrative_sentence_max_chars": 43,
+    "incoming_anchor": "골다공증 약"
+  }
+}

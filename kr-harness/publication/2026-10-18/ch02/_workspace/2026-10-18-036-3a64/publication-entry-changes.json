@@ -1,0 +1,227 @@
+{
+  "entry": 36,
+  "status": "unadopted proposal; independent exact-hash review required",
+  "base": "strict-entry.md",
+  "verified_at_utc": "2026-10-18T13:54:45.400580+00:00",
+  "changes": [
+    {
+      "field": "title",
+      "before": "여건이 되면 몸을 담그는 목욕을 하세요. 샤워로만 때우지 마세요",
+      "after": "여건이 되면 몸을 담그는 목욕을 고려하세요",
+      "reason": "샤워 대체/우월성 명령을 제거하고 여건·몸을 담그는 목욕 앵커를 보존합니다."
+    },
+    {
+      "field": "비용",
+      "before": "물값과 난방비가 조금 더 듭니다. 한 번에 30분이 걸립니다.",
+      "after": "물값과 난방비가 조금 더 듭니다. 이 연구는 적절한 입욕시간을 정하지 않았습니다.",
+      "reason": "30분 고정시간은 이 관찰연구의 유효·안전 용량이 아니므로 삭제합니다."
+    },
+    {
+      "field": "쉽게",
+      "before": "거의 매일 욕조에 몸을 담그는 사람과 일주일에 두 번 미만인 사람을 비교했습니다. 자주 목욕하는 쪽의 심혈관 사건 위험이 약 28% 낮습니다. 뇌출혈 위험은 약 46% 낮습니다.",
+      "after": "거의 매일 욕조 목욕을 한 사람은 주 0~2회 한 사람보다 심혈관질환 발생이 적었습니다. 일본 중년층에서 관찰한 결과입니다. 목욕이 원인인지는 확실하지 않습니다.",
+      "reason": "비교군을 두 번 미만에서 0~2회로 정정하고 일본 중년층의 관찰연관으로 제한합니다."
+    },
+    {
+      "field": "이득",
+      "before": "일본에서 진행한 연구입니다. 30,000명을 19년 추적했습니다. 심혈관 사건은 2,097건 발생했습니다. 거의 매일 목욕하는 사람과 일주일 2회 이하인 사람을 비교했습니다. 심혈관 사건 위험은 자주 목욕하는 쪽에서 약 28% 낮았습니다. 위험비는 0.72입니다. 95% CI는 0.62–0.84입니다(신뢰구간). 관상동맥질환 위험은 약 35% 낮았습니다(0.65, 0.45–0.94). 뇌졸중 위험은 약 26% 낮았습니다(0.74, 0.62–0.87). 뇌출혈 위험은 약 46% 낮았습니다(0.54, 0.40–0.73).",
+      "after": "일본의 40~59세 30,076명을 19년 추적했습니다. 시작할 때 심혈관질환이나 암 병력이 없었습니다. 심혈관 사건은 2,097건 발생했습니다. 거의 매일 목욕한 사람과 주 0~2회 한 사람을 비교했습니다. 심혈관 사건의 순간 발생률은 약 28% 낮았습니다. 보정한 위험비(HR)는 0.72입니다. 95% 신뢰구간은 0.62–0.84입니다. 이는 추정치의 불확실성을 나타내는 범위입니다. 관상동맥질환은 약 35% 낮았습니다(0.65, 0.45–0.94). 뇌졸중은 약 26% 낮았습니다(0.74, 0.62–0.87). 뇌출혈은 약 46% 낮았습니다(0.54, 0.40–0.73). 괄호는 각각 위험비와 95% 신뢰구간입니다. 이 비율들은 누적 발병확률의 감소율이 아닙니다. 관상동맥질환과 뇌졸중 발생을 합친 결과입니다. 전체 사망률을 비교한 수치는 아닙니다.",
+      "reason": "표본수를 30,076명으로 정정하고 40~59세·기왕력 제외 조건을 명시합니다. HR를 순간 발생률 비로 설명하며 누적확률/사망률과 구분합니다."
+    },
+    {
+      "field": "비고",
+      "before": "논쟁 있음. 일본 인구와 욕조 문화에서 나온 결과입니다. 욕조가 없는 집이 많아 그대로 따라 하기 어려울 수 있습니다. 물을 너무 뜨겁게 하지 마세요. 욕조에 너무 오래 머물지 마세요. 고령자와 심혈관 질환자에게 뜨거운 물과 오랜 입욕은 오히려 위험합니다. 대중목욕탕이나 찜질방의 뜨거운 탕도 마찬가지입니다.",
+      "after": "논쟁 있음. 일본 인구와 욕조 문화에서 나온 결과입니다. 욕조가 없는 집이 많아 그대로 따라 하기 어려울 수 있습니다. 생활습관 등의 차이가 결과에 영향을 주었을 수 있습니다. 샤워보다 목욕이 낫다는 인과효과는 입증하지 못했습니다. 이 연구는 권장 수온이나 안전한 입욕시간을 정하지 않았습니다. 물을 너무 뜨겁게 하지 마세요. 욕조에 너무 오래 머물지 마세요. 고령자와 심혈관 질환자에게 뜨거운 물과 오랜 입욕은 오히려 위험합니다. 대중목욕탕이나 찜질방의 뜨거운 탕도 마찬가지입니다.",
+      "reason": "교란·인과효과·수온/시간 미확정을 명시하고 기존 안전조건을 보존합니다."
+    }
+  ],
+  "unchanged_fields": [
+    "근거등급",
+    "출처"
+  ],
+  "doi_changes": {
+    "added": [],
+    "removed": [],
+    "reason": "기존 DOI가 직접 읽은 논문과 일치합니다."
+  },
+  "primary_evidence": [
+    {
+      "url": "https://heart.bmj.com/content/heartjnl/106/10/732.full.pdf",
+      "method": "HTTPS GET HTTP 200; pdftotext -layout; abstract, Methods, Results and Discussion including temperature and limitations directly read",
+      "read_scope": "원문 PDF 주요 해당 절 직접 열람; 참고문헌 개별 원문 미열람",
+      "raw_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-036-3a64/source-evidence/bathing036.pdf",
+      "raw_sha256": "064cb6720f94fd2a87d52809391ae0da31f7d98e4bef19821ea9fcc906c8c284",
+      "text_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-036-3a64/source-evidence/bathing036.txt",
+      "quotes": [
+        "<h4>Objective</h4>Tub bathing is considered to have a preventive effect against cardiovascular disease (CVD) by improving haemodynamic function. However, no prospective studies have investigated the long-term effects of tub bathing with regard to CVD risk.<h4>Methods</h4>A total of 30 076 participants aged 40-59 years with no history of CVD or cancer were followed up from 1990 to 2009. Participants were classified by bathing frequency: zero to two times/week, three to four times/week and almost every day. The HRs of incident CVD were estimated using Cox proportional hazards models after adjusting for traditional CVD risk factors and selected dietary factors.<h4>Results</h4>During 538 373 person-years of follow-up, we documented a total of 2097 incident cases of CVD, comprising 328 coronary heart diseases (CHDs) (275 myocardial infarctions and 53 sudden cardiac deaths) and 1769 strokes (991 cerebral infarctions, 510 intracerebral haemorrhages, 255 subarachnoid haemorrhages and 13 unclassified strokes). The multivariable HRs (95% CIs) for almost daily or every day versus zero to two times/week were 0.72 (0.62 to 0.84, trend p<0.001) for total CVD; 0.65 (0.45 to 0.94, trend p=0.065) for CHD; 0.74 (0.62 to 0.87, trend p=0.005) for total stroke; 0.77 (0.62 to 0.97, trend p=0.467) for cerebral infarction; and 0.54 (0.40 to 0.73, trend p<0.001) for intracerebral haemorrhage. No associations were observed between tub bathing frequency and risk of sudden cardiac death or subarachnoid haemorrhage.<h4>Conclusion</h4>The frequency of tub bathing was inversely associated with the risk of CVD among middle-aged Japanese.",
+        "Our endpoint was incident CHD or stroke.",
+        "Our results did not suggest any preferable water temperature, but further research regarding the water temperature is warranted.",
+        "First, the information on the tub bathing frequency was obtained only at baseline.",
+        "we cannot negate the possibility of residual or unmeasured confounding."
+      ],
+      "text_sha256": "731a27b0c955fa3e1a3d1867ec52af8a287f7bbd3502d0d5e854f776775288bc",
+      "http_status": 200,
+      "verified_at_utc": "2026-10-18T13:54:45.400580+00:00",
+      "fetched_at_utc": null,
+      "fetch_time_limit": "Original GET exact UTC was not separately recorded; verified_at_utc records the original post-reading verification time, not an invented HTTP fetch time.",
+      "evidence_preserved_at_utc": "2026-10-18T14:08:21.949255+00:00"
+    },
+    {
+      "url": "https://doi.org/10.1136/heartjnl-2019-315752",
+      "method": "既存 EuropePMC core response 原초록 직접 열람",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/0e15be4104e49df0da5f.json",
+      "raw_sha256": "11fe86522dfc1fd724ed7750c3ca2b763eacd9573facf3811f8c133f579a76a7",
+      "original_fetched_at": "2026-10-18T20:50:07.076265+09:00",
+      "correction_check": "commentCorrectionList contains four Comment in items; no Erratum/Correction listed. Full PDF and abstract figures agree for claims retained."
+    }
+  ],
+  "intentional_numeric_changes": [
+    "30,000→30,076: exact analysed sample",
+    "주 두 번 미만→주 0~2회: inclusive reference boundary",
+    "30분 삭제: introduction mentions an unrelated eight-person diabetes intervention, not this study prescription",
+    "28/35/26/46% and HR/CI retained; interpreted as relative hazards, not cumulative probabilities"
+  ],
+  "limitations": [
+    "관찰연구로 교란·역인과 가능성 및 일반화 제한",
+    "안전한 시간이나 권장 수온을 이 연구에서 도출하지 않음",
+    "개별 인용 안전연구/독립 정정문 전문 미열람; primary metadata에 정정문 없음",
+    "비용태그의 口径=死亡率는 보호대상이라 유지하되 본문은 발생 결과임을 명시"
+  ],
+  "sentence_lengths": {
+    "title": [
+      [
+        "여건이 되면 몸을 담그는 목욕을 고려하세요",
+        23
+      ]
+    ],
+    "비용": [
+      [
+        "물값과 난방비가 조금 더 듭니다.",
+        18
+      ],
+      [
+        "이 연구는 적절한 입욕시간을 정하지 않았습니다.",
+        26
+      ]
+    ],
+    "쉽게": [
+      [
+        "거의 매일 욕조 목욕을 한 사람은 주 0~2회 한 사람보다 심혈관질환 발생이 적었습니다.",
+        49
+      ],
+      [
+        "일본 중년층에서 관찰한 결과입니다.",
+        19
+      ],
+      [
+        "목욕이 원인인지는 확실하지 않습니다.",
+        20
+      ]
+    ],
+    "이득": [
+      [
+        "일본의 40~59세 30,076명을 19년 추적했습니다.",
+        31
+      ],
+      [
+        "시작할 때 심혈관질환이나 암 병력이 없었습니다.",
+        26
+      ],
+      [
+        "심혈관 사건은 2,097건 발생했습니다.",
+        22
+      ],
+      [
+        "거의 매일 목욕한 사람과 주 0~2회 한 사람을 비교했습니다.",
+        34
+      ],
+      [
+        "심혈관 사건의 순간 발생률은 약 28% 낮았습니다.",
+        28
+      ],
+      [
+        "보정한 위험비(HR)는 0.72입니다.",
+        21
+      ],
+      [
+        "95% 신뢰구간은 0.62–0.84입니다.",
+        23
+      ],
+      [
+        "이는 추정치의 불확실성을 나타내는 범위입니다.",
+        25
+      ],
+      [
+        "관상동맥질환은 약 35% 낮았습니다(0.65, 0.45–0.94).",
+        37
+      ],
+      [
+        "뇌졸중은 약 26% 낮았습니다(0.74, 0.62–0.87).",
+        34
+      ],
+      [
+        "뇌출혈은 약 46% 낮았습니다(0.54, 0.40–0.73).",
+        34
+      ],
+      [
+        "괄호는 각각 위험비와 95% 신뢰구간입니다.",
+        24
+      ],
+      [
+        "이 비율들은 누적 발병확률의 감소율이 아닙니다.",
+        26
+      ],
+      [
+        "관상동맥질환과 뇌졸중 발생을 합친 결과입니다.",
+        25
+      ],
+      [
+        "전체 사망률을 비교한 수치는 아닙니다.",
+        21
+      ]
+    ],
+    "비고": [
+      [
+        "논쟁 있음.",
+        6
+      ],
+      [
+        "일본 인구와 욕조 문화에서 나온 결과입니다.",
+        24
+      ],
+      [
+        "욕조가 없는 집이 많아 그대로 따라 하기 어려울 수 있습니다.",
+        34
+      ],
+      [
+        "생활습관 등의 차이가 결과에 영향을 주었을 수 있습니다.",
+        31
+      ],
+      [
+        "샤워보다 목욕이 낫다는 인과효과는 입증하지 못했습니다.",
+        30
+      ],
+      [
+        "이 연구는 권장 수온이나 안전한 입욕시간을 정하지 않았습니다.",
+        34
+      ],
+      [
+        "물을 너무 뜨겁게 하지 마세요.",
+        17
+      ],
+      [
+        "욕조에 너무 오래 머물지 마세요.",
+        18
+      ],
+      [
+        "고령자와 심혈관 질환자에게 뜨거운 물과 오랜 입욕은 오히려 위험합니다.",
+        39
+      ],
+      [
+        "대중목욕탕이나 찜질방의 뜨거운 탕도 마찬가지입니다.",
+        28
+      ]
+    ]
+  },
+  "easy_length": 90
+}

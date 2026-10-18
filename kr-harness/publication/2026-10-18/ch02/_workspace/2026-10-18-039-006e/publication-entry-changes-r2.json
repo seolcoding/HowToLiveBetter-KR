@@ -1,0 +1,20 @@
+{
+  "status": "unadopted_proposal",
+  "entry": 39,
+  "base_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-039-006e/publication-entry-proposal.md",
+  "base_sha256": "a5471cc96826e2b62df9c27ec85986a3f2651c544ec59ac2358db66025aeba8b",
+  "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-039-006e/publication-entry-proposal-r2.md",
+  "proposal_sha256": "7449125c9f9a2e9a3e9e15d8af0da38215998cf016b4b6eb2ed638da0487f7cf",
+  "changes": [
+    {
+      "field": "이득",
+      "before": "RR은 비교군과의 상대적인 위험 차이를 나타냅니다.",
+      "after": "RR은 두 집단의 위험을 나눈 비율입니다.",
+      "reason": "RR은 위험의 차이가 아니라 두 집단의 위험을 나눈 비율입니다. 비와 차이를 구별하도록 설명 한 문장만 교정합니다.",
+      "sentence_len": 23
+    }
+  ],
+  "preservation": "해당 한 문장을 제외한 전체 바이트를 보존했습니다. RR 1.05와 4%의 원문 불일치 고지도 유지했습니다.",
+  "evidence": "기존 publication-entry-changes.json의 cvd 근거와 원문 RR 수치를 그대로 계승합니다. 새로운 수치·출처 변경은 없습니다.",
+  "created_at_utc": "2026-10-18T14:18:46.667357+00:00"
+}

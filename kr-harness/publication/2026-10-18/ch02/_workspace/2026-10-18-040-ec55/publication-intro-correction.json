@@ -1,0 +1,74 @@
+{
+  "status": "unadopted_proposal",
+  "entry": 40,
+  "kind": "exact_single_intro_line_replacement",
+  "source_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/intro.md",
+  "original_intro_sha256": "b63dc987b6f5ba59df31cae92501c3f1ceb9348c508719d12570908cb4094f6a",
+  "before": "**주방의 기름과 연기**: 연탄·장작 태우지 않기(제29항), 소규모 자가압착 땅콩기름 사지 않기(제40항), 돼지기름 대신 식물성 기름(제41항), 요리할 때 레인지후드 켜기(제42항).",
+  "after": "**주방의 기름과 연기**: 연탄·장작 태우지 않기(제29항), 식용유의 밀폐 포장과 제조 정보 확인(제40항), 돼지기름 대신 식물성 기름(제41항), 요리할 때 레인지후드 켜기(제42항).",
+  "original_span": "소규모 자가압착 땅콩기름 사지 않기(제40항)",
+  "replacement_span": "식용유의 밀폐 포장과 제조 정보 확인(제40항)",
+  "proposed_intro_sha256": "c441f77b230c951c3a0754c2576193b40140c6c50fb62bf774b0ce2052bf3279",
+  "reason": "식약처 현행 식용유 아플라톡신 규격은 미확인입니다. 중국 소규모 자가압착 땅콩기름 관찰 연구를 한국 방앗간 전체 금지 근거로 확대할 수 없어 일괄 금지를 삭제합니다. 검토 중인40항 제목처럼 구매 시 포장·제조 정보를 확인하는 범위로 한정합니다. 확인이 오염검사 합격을 보장한다는 뜻은 아닙니다.",
+  "primary_scope": "광저우는 작업장 규제 후 간기능이상 유병비 PR0.650의 관찰연관. 광시는 임산부의 자가압착기름 섭취와 출생결과의 조정오즈비1.9/1.8 관찰연관. 한국 방앗간 제품검사·안전성·현행규격 검증이 아님.",
+  "primary_evidence": [
+    {
+      "id": "guangzhou",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11695283/fullTextXML",
+      "requested_at": "2026-10-18T14:02:57.176060+00:00",
+      "status": 200,
+      "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11695283/fullTextXML",
+      "raw_path": "/tmp/ch02e40-sources/guangzhou.raw",
+      "sha256": "0b5ddee335848553d1a4decbd07e03b021db27fbe85662c6106f0ddff4e0185f",
+      "bytes": 150662,
+      "read_at_utc": "2026-10-18T14:05:08.113605+00:00",
+      "exact_primary_quotes": [
+        "The AFB 1  concentrations in HMPO were 1.29 (0.12, 6.58) μg/kg. The average daily intake of AFB 1  through HMPO for Guangzhou residents from 2010 to 2022 ranged from 0.25 to 1.68 ng/kg bw/d, and the Margin of Exposure ranged from 238 to 1,600. The implementation of SFWMR was associated with a significant reduction in AFB 1  concentrations in HMPO, showing an immediate decrease of 2.865 μg/kg ( P  = 0.006) and a sustained annual reduction of 2.593 μg/kg ( P  = 0.034). Among residents in the high-HMPO-consumption area, the implementation of SFWMR was significantly associated with a reduction in the prevalence of liver function abnormality (PR = 0.650, 95% CI: 0.469–0.902). Subgroup analysis revealed that this reduction was significantly associated with the implementation of SFWMR in the female (PR = 0.484, 95% CI: 0.310–0.755) and in individuals aged ≥ 60 years (PR = 0.586, 95% CI: 0.395–0.868). Mediation analysis demonstrated that AFB 1  concentrations in HMPO fully mediated the relationship between the implementation of SFWMR and the liver function abnormality (PR = 0.981, 95% CI: 0.969–0.993).",
+        "AFB 1  detection values exceeding the acceptable limit of 20.0 μg/kg were regarded as exceeding the standard ( 34 ), and values below LOD were categorized as non-detect (ND). If the proportion of ND values was < 60%, these values were replaced with half of the LOD. Conversely, if the proportion of ND values was ≥60%, the values were substituted with the LOD ( 35 ).",
+        "According to the adjusted model, prior to the implementation of SFWMR, AFB 1  contamination in HMPO exhibited an increasing annual trend of 0.634 μg/kg ( P  = 0.013). In the first year following the implementation of SFWMR, AFB 1  levels in HMPO decreased by 2.865 μg/kg ( P  = 0.006). After the implementation, there was a continued annual decrease in the AFB 1  levels of 2.593 μg/kg ( P  = 0.034). Compared to the counterfactual scenario, the trend decreased by 3.227 μg/kg per year ( P  = 0.024) ( Table 1 ;  Figure 5 ).",
+        "In the entire population, the implementation of SFWMR was associated with a reduction in the prevalence of liver function abnormality compared to the counterfactual outcome (PR = 0.650, 95% CI: 0.469–0.902). When stratified by gender and age, significant associations were observed in both the female group (PR = 0.484, 95% CI: 0.310–0.755) and the age ≥ 60 years group (PR = 0.586, 95% CI: 0.395–0.868). However, no significant associations were found in the male group or among participants aged < 60 years ( Figures 6 ,  7 ).",
+        "The study analyzed the implementation effects of SFWMR from the perspective of food contamination and the health impacts on consumers. However, our study had several limitations. Firstly, although ALT and AST are crucial for liver function assessment and hepatocellular damage monitoring, their elevation may also indicate non-hepatic tissue damage, potentially leading to false positives ( 71 ). To enhance the specificity of liver disease diagnosis, other biomarkers and imaging tests can be used in tandem. Gamma-glutamyltransferase (GGT) and Alkaline phosphatase (ALP) exhibit distinct expression patterns compared to ALT and AST in liver disease ( 44 ). GGT, concentrated in the liver and biliary system, often rises in cholestatic diseases and liver injury. ALP, present in the hepatobiliary system, bones, placenta, and intestines, may indicate bone or liver disease ( 47 ). Additionally, imaging tests such as ultrasound, Computed Tomography scans, and Magnetic Resonance Imaging are important tools for assessing liver function. They provide visual information about the structure and morphology of the liver and help identify the presence and progression of liver diseases. The combined use of these biomarkers and imaging tests can help differentiate liver from non-liver diseases and improve diagnostic accuracy ( 72 ). Secondly, the liver function data were obtained from the health examination system, which may introduce selection bias. Finally, although the single-group ITSA method used in this study provides reliable inferences, the ecological study design limits the determination of causality. Future follow-up studies will address these limitations by incorporating additional biochemical and imaging tests, increasing the sample size and establishing a control group to more comprehensively evaluate the effectiveness of SFWMR implementation."
+      ],
+      "verification_level": "직접 HTTPS 원문 XML; 결과·방법·한계 및 광시 Table4 읽음. 부록전체 검증 아님.",
+      "raw_embedding_note": "이 문자열의 UTF-8 바이트로 기록 sha256 재현 가능."
+    },
+    {
+      "id": "guangxi",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11025407/fullTextXML",
+      "requested_at": "2026-10-18T14:02:57.176963+00:00",
+      "status": 200,
+      "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11025407/fullTextXML",
+      "raw_path": "/tmp/ch02e40-sources/guangxi.raw",
+      "sha256": "992536cea2251c57346c2f52360585bcfe24491b02e305cee4f9f878e6ac733a",
+      "bytes": 110023,
+      "read_at_utc": "2026-10-18T14:05:08.116539+00:00",
+      "exact_primary_quotes": [
+        "A prospective cohort study was conducted among pregnant women in Guangxi province, Southwestern China. Information of all eligible women on homemade peanut oil consumption and potential factors associated with LBW and PB was collected, and all were followed up until delivery. The effect of homemade peanut oil exposure was analyzed using multiple logistic regression models using the directed acyclic graph (DAG) approach.",
+        "Of 1611 pregnant women, 1316 (81.7%) had consumed homemade peanut oil, and the rates of LBW and PB were 9.7% and 10.0%, respectively. Increased risks of LBW and PB in women with homemade peanut oil consumption were found with aORs of 1.9 (95% CI 1.1–3.2) and 1.8 (95% CI 1.1–3.0), respectively. Women with a history of PB or LBW were 3–5 times more likely to have higher rates of LBW or PB compared with those without this type of history. The odds of PB were approximately double in those taking medicine during pregnancy. Advanced maternal age, lack of physical exercise during pregnancy, passive smoking, or pregnancy complications were also more likely to have a higher risk of LBW.",
+        "KEYWORDS:  Aflatoxins, homemade peanut oil, low birth weight, preterm birth, cohort study, logistic regression",
+        "Figure 1  shows the flow diagram for study recruitment. A total of 1804 participants met the inclusion criteria during the study period, of which 126 (7.0%) were excluded due to having unknown medical diseases before pregnancy and 67 women did not come to deliver at the setting hospital as planned (3.7%). Finally, the data of 1611 participants were included in the analysis, of whom 1316 (81.7%) were in the homemade peanut oil group and 295 (18.3%) were in the non-homemade peanut oil group.\n",
+        "All analyses were conducted using R software version 4.1.2 (The R Foundation for Statistical Computing 2020, Vienna, Austria). The characteristics of the participants for continuous data were descriptively analyzed using means ± standard deviations or median, with interquartile range depending on the normal distribution of data or percentages for the categorical data. A directed acyclic graph (DAG) diagram was used to represent the causal relationships between homemade peanut oil consumption and LBW and PB outcomes based on direct and total effects [ 22 ] regarding the associated factors obtained from a previous systematic review [ 23 ] and additional exploratory factors from a univariate analysis of our study. The direct effect estimates of the causal pathways considered only confounders, not mediators, while the total effect estimates considered both confounders and mediators [ 24 ]. The factors used to construct DAGs were the main exposures and outcomes as well as the factors with a  p  value lower than 0.05 in univariate analysis. The effects of homemade peanut oil consumption on LBW and PB in DAGs were analyzed using multiple logistic regression and presented in terms of crude odds ratios (cOR) and adjusted odds ratios (aOR) with 95% confidence intervals (CIs) in both direct and total effects. Apart from the DAG models, other independent risk factors were also analyzed using a multiple logistic regression model considering factors with a  p  value less than 0.2 in univariate analysis included in the first model with a backward stepwise approach using the lowest Akaike Information Criterion (AIC) value. A two-sided  p  < 0.05 was considered statistically significant.",
+        "All factors associated with homemade peanut oil as the main exposure of interest and the LBW and PB outcomes are shown in the DAG diagrams in  Figure 2(a) and (b) , respectively. The direct and total effects of homemade peanut oil consumption on LBW and PB are shown in  Table 4 . After adjusting for confounders under the DAG model, the odds of having LBW (aOR total  1.8, 95% CI 1.1–3.1 and aOR direct  1.9, 95% CI 1.1–3.2) and PB (aOR total  1.7, 95% CI 1.0–2.8 and aOR direct  1.8, 95% CI 1.1–3.0) were higher in women who consumed homemade peanut oil in both the direct and total effect models, respectively.\n",
+        "Other independent risk factors for LBW and PB analyzed using multiple logistic regression models are shown in  Figures 3 and 4 . Apart from consumption of homemade peanut oil, age over 35 years, having no physical exercise during pregnancy, exposure to passive smoking in both workplace and home, having a history of PB or LBW, having pregnancy complications, and female newborn were significantly associated with LBW ( Figure 3 ). The odds of having PB were higher in women aged over 35 years, urban residency, having a history of PB or LBW, and medicine intake during pregnancy in addition to consuming homemade peanut oil ( Figure 4 ).\n\n",
+        "Factors associated with low birth weight using a multiple logistic regression model.",
+        "Factors associated with preterm using a multiple logistic regression model.",
+        "There were some limitations in the study. First, the levels of oil consumption during pregnancy were obtained through a questionnaire, which may have had recall bias. However, this bias would be minimal since the duration of time following the consumption ranged from 7 to 10 months and the lifestyles of the study group tend to be static, particularly concerning things such as the use of cooking oils. Second, the histories of behavioral factors relied on women’s self-reports. Third, we did not collect the cause of PB, therefore we could not identify whether homemade peanut oil consumption can be significantly related to spontaneous or iatrogenic cause of PB. Fourth, the sample size was calculated for the outcome based on exposure to homemade peanut oil, not other independent factors such as socioeconomic or pre-pregnancy BMI. Fifth, our study did not assess the dietary intake for calculating calorie and nutrient assessments during pregnancy. Finally, the levels of AFs in homemade peanut oil samples and homemade peanut oil consumption were not presented in this cohort study; however, their findings from a subset of the study were measured and submitted elsewhere."
+      ],
+      "verification_level": "직접 HTTPS 원문 XML; 결과·방법·한계 및 광시 Table4 읽음. 부록전체 검증 아님.",
+      "raw_embedding_note": "이 문자열의 UTF-8 바이트로 기록 sha256 재현 가능."
+    }
+  ],
+  "raw_primary_provenance_location": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-040-ec55/publication-entry-changes.json",
+  "unchanged_requirements": {
+    "entry_anchor": "제40항",
+    "all_other_intro_bytes_preserved": true,
+    "doi_comments_preserved": true,
+    "doi_added": [],
+    "doi_removed": [],
+    "source_intro_immutable": true,
+    "strict_candidate_immutable": true,
+    "full_entry_and_style_proposals_immutable": true
+  },
+  "review_required": "독립 exact-hash 검토 뒤에만 채택. 이 파일 작성은 승인/채택이 아님.",
+  "authored_at_utc": "2026-10-18T14:07:48.513230+00:00"
+}

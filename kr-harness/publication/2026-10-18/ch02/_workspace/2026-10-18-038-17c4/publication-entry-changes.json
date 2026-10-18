@@ -1,0 +1,197 @@
+{
+  "status": "unadopted_proposal",
+  "entry": 38,
+  "base": "strict-entry.md",
+  "base_sha256": "d68cc91477a9e24458042d2115908b7d94858d7ca59f754ea3b19dd7d4667526",
+  "changes": [
+    {
+      "field": "title",
+      "before": "### 38. 밤새고 나면 다음 날 밤에 바로 보충하세요. 주말로 미루지 마세요",
+      "after": "### 38. 잠이 부족한 뒤에는 다음 날 밤에 바로 보충하세요. 주말로 미루지 마세요",
+      "reason": "수면 제한의 범위·누적 평균·보충 시점 및 HR 해석을 원문에 맞추고 관찰 결과의 인과 한계를 보존했습니다."
+    },
+    {
+      "field": "쉽게",
+      "before": "- 쉽게: 규칙적으로 자는 사람과 수면이 부족한 사람을 비교했습니다. 다음 날 밤에 보충하지 못한 사람은 사망 확률이 15%쯤 높습니다. 수면이 심하게 부족하고 보충도 못하면 42%쯤 높습니다. 보충한 사람에게서는 뚜렷한 위험 상승이 보이지 않았습니다. 밤새면 다음 날 일찍 눕세요.",
+      "after": "- 쉽게: 잠이 부족한 뒤 다음 날 밤에 보충 못한 집단의 결과입니다. 사망 위험 지표가 규칙적으로 자는 집단보다 약 15% 높았습니다. 인과관계는 알 수 없습니다. 주말로 미루지 말고 다음 날 밤 일찍 누우세요.",
+      "reason": "수면 제한의 범위·누적 평균·보충 시점 및 HR 해석을 원문에 맞추고 관찰 결과의 인과 한계를 보존했습니다."
+    },
+    {
+      "field": "이득",
+      "before": "- 이득: 연구 대상은 영국 바이오뱅크 참여자 85,618명입니다. 평균 나이는 61.8세였습니다. 손목시계로 밤잠을 기록했습니다. 추적 기간의 중앙값은 8년이었습니다. 연구진은 개인별 수면 필요량을 기준으로 '부족한 밤'을 계산했습니다. 필요한 시간보다 2.5시간 이상 적게 잔 밤을 뜻합니다. 부족한 밤 바로 다음 날 밤을 '보충 밤'으로 봤습니다. 그날 필요한 시간보다 더 자면 보충했다고 판단했습니다. 연구진은 이 기준에 따라 수면 패턴을 다섯 가지로 나눴습니다. 규칙적으로 자는 사람을 기준으로 비교했습니다. 잠이 부족한 뒤 보충하지 못하면 총사망 위험이 약 15% 높습니다. HR 1.15, 95% CI 1.01–1.31(신뢰구간). 누적 수면 부족이 3.5시간을 초과한 경우도 살폈습니다. 보충하지 못한 이 집단은 총사망 위험이 약 42% 높습니다. HR 1.42, 1.24–1.63. 보충한 두 집단에서는 사망 위험과 뚜렷한 관련이 없었습니다. 수면 부족 뒤 보충한 집단은 HR 1.12(0.98–1.28)였습니다. 원래 수면 시간이 짧은 사람들에서도 같은 경향을 보였습니다. 잠이 부족하고 보충하지 못하면 약 19% 높습니다(1.19, 1.01–1.40). 수면이 심하게 부족하고 보충도 못하면 약 38% 높습니다. 수치는 1.38, 1.17–1.63입니다. 미국 건강조사 참여자 4,586명에서도 이 결과가 재현됐습니다.",
+      "after": "- 이득: 연구 대상은 영국 바이오뱅크 참여자 85,618명입니다. 평균 나이는 61.8세였습니다. 손목시계로 밤잠을 기록했습니다. 추적 기간의 중앙값은 8년이었습니다. 연구진은 개인별 수면 필요량을 기준으로 '부족한 밤'을 계산했습니다. 필요한 시간보다 2.5시간 이상 적게 잔 밤을 뜻합니다. 하룻밤 또는 연속된 부족한 밤을 하나의 부족 기간으로 묶었습니다. 그 기간 직후 첫날 밤을 '보충 밤'으로 봤습니다. 부족 기간마다 모자란 시간을 더한 뒤 평균을 냈습니다. 이 평균이 개인 필요량보다 2.5–3.5시간 부족하면 수면 제한입니다. 평균 부족이 3.5시간을 초과하면 심한 수면 제한입니다. 보충 밤에 개인 필요량보다 더 잔 시간도 평균을 냈습니다. 이 평균이 0시간을 넘으면 보충한 집단으로 봤습니다. 연구진은 이 기준에 따라 수면 패턴을 다섯 가지로 나눴습니다. 규칙적으로 자는 사람을 기준으로 비교했습니다. 수면 제한 뒤 보충하지 못한 집단의 사망 위험비는 약 15% 높았습니다. HR 1.15, 95% CI 1.01–1.31(신뢰구간). HR은 추적 중 각 시점의 사망 발생 위험을 비교한 비율입니다. 누적 사망 확률이 15% 높다는 뜻은 아닙니다. CI는 추정치의 불확실성을 나타내는 구간입니다. 평균 누적 수면 부족이 3.5시간을 초과한 경우도 살폈습니다. 보충하지 못한 이 집단의 사망 위험비는 약 42% 높았습니다. HR 1.42, 1.24–1.63. 보충한 두 집단에서는 사망 위험과 뚜렷한 관련이 없었습니다. 수면 제한 뒤 보충한 집단은 HR 1.12(0.98–1.28)였습니다. 심한 수면 제한 뒤 보충한 집단은 HR 1.13(0.95–1.36)였습니다. 원래 수면 시간이 짧은 사람들에서도 같은 경향을 보였습니다. 수면 제한 뒤 보충하지 못한 집단은 위험비가 약 19% 높았습니다. HR 1.19, 95% CI 1.01–1.40입니다. 심한 수면 제한 뒤 보충하지 못한 집단은 위험비가 약 38% 높았습니다. 수치는 1.38, 1.17–1.63입니다. 미국 건강조사 참여자 4,586명에서도 이 결과가 재현됐습니다.",
+      "reason": "수면 제한의 범위·누적 평균·보충 시점 및 HR 해석을 원문에 맞추고 관찰 결과의 인과 한계를 보존했습니다."
+    },
+    {
+      "field": "비고",
+      "before": "- 비고: 연구진은 참여자의 수면을 관찰하고 기록했습니다. 수면 방식을 지정해 집단을 나누지는 않았습니다. 보충하지 못한 사람은 원래 더 바쁠 수 있습니다. 몸이 더 안 좋을 가능성도 있습니다. 연구에서는 이런 교란 요인을 제거하지 못했습니다. 보충한 두 집단의 위험 상승이 없다는 말은 해석에 주의가 필요합니다. 위험 차이가 뚜렷하게 검출되지 않았다는 뜻입니다. 추정치는 여전히 1보다 큽니다. 보충했다고 위험이 사라졌다고 볼 수는 없습니다. 밤새면 잠을 빨리 보충하세요. 일부러 밤새도 된다는 뜻은 아닙니다. 연구에서 보충은 부족한 밤 바로 다음 날 밤에 더 자는 방식입니다. 주말에 몰아서 자는 방식은 해당하지 않습니다. 평일에 밤새고 주말에 몰아 자는 패턴을 매주 반복하면 사회적 시차가 생깁니다. 사회적 시차 자체도 심혈관 질환과 관련됩니다. 제13항(자고 일어나는 시각 고정)을 보세요. 주말에도 기상 시각을 고정하라는 권고와도 맞습니다. 제3절 제2항(기상 시간 고정하기)을 보세요. 그날 밤 일찍 누우세요. 다음 날 낮까지 자라는 뜻은 아닙니다.",
+      "after": "- 비고: 연구진은 참여자의 수면을 관찰하고 기록했습니다. 수면 방식을 지정해 집단을 나누지는 않았습니다. 보충하지 못한 사람은 원래 더 바쁠 수 있습니다. 몸이 더 안 좋을 가능성도 있습니다. 연구에서는 이런 교란 요인을 제거하지 못했습니다. 보충한 두 집단의 위험 상승이 없다는 말은 해석에 주의가 필요합니다. 위험 차이가 뚜렷하게 검출되지 않았다는 뜻입니다. 추정치는 여전히 1보다 큽니다. 보충했다고 위험이 사라졌다고 볼 수는 없습니다. 잠이 부족하면 다음 날 밤에 보충하세요. 완전히 밤샌 경우만을 조사한 연구는 아닙니다. 밤샘 뒤의 권고는 이 결과를 넓혀 적용한 것입니다. 일부러 밤새도 된다는 뜻은 아닙니다. 연구에서 보충은 부족 기간 직후 첫날 밤에 더 자는 방식입니다. 주말에 몰아서 자는 방식은 해당하지 않습니다. 평일에 밤새고 주말에 몰아 자는 패턴을 매주 반복하면 사회적 시차가 생깁니다. 사회적 시차 자체도 심혈관 질환과 관련됩니다. 제13항(자고 일어나는 시각 고정)을 보세요. 주말에도 기상 시각을 고정하라는 권고와도 맞습니다. 제3절 제2항(기상 시간 고정하기)을 보세요. 그날 밤 일찍 누우세요. 다음 날 낮까지 자라는 뜻은 아닙니다.",
+      "reason": "수면 제한의 범위·누적 평균·보충 시점 및 HR 해석을 원문에 맞추고 관찰 결과의 인과 한계를 보존했습니다."
+    }
+  ],
+  "verification": {
+    "date_utc": "2026-10-18T13:59:41.609706+00:00",
+    "method": "기존 직접 수집 primary XML의 초록·결과·방법·한계 해당 문단 독립 재열람",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13121452/fullTextXML",
+    "doi": "10.1038/s41467-026-72461-1",
+    "raw_path": "/tmp/ch02-audit/full-PMC13121452.body",
+    "raw_sha256": "93f3132994eb309f16a8692d710905ed763f6d813db42a5627f080f7c13b4266",
+    "original_fetched_at": null,
+    "provenance_limit": "초기 정확 수집 시각 미기록; 현재 재열람이며 새 HTTP 요청 아님",
+    "exact_primary_quotes": [
+      "Public health guidelines recommend 7–9 hours of regular sleep and suggest weekend catch-up sleep after weekday sleep deficits. However, real-world sleep patterns are more complex than laboratory-studied models or simple weekday-weekend cycles. Epidemiological evidence on the necessity of acute rebound after restriction remains limited. In this prospective cohort study of 85,618 UK Biobank participants (mean [standard deviation] age 61.8 [7.8] years), we analyze accelerometer-derived sleep data and identify five day-to-day sleep restriction-rebound patterns: regular sleep, sleep restriction (SR) without rebound, SR with rebound, severe SR without rebound, and severe SR with rebound. Associations with all-cause mortality are examined over a median 8.0-year follow-up. Compared to regular sleep, severe SR without rebound is associated with higher mortality risks in the overall sample and across baseline sleep duration groups. SR without rebound is linked to higher mortality overall and in short sleepers. Conversely, neither SR with rebound nor severe SR with rebound is significantly associated with mortality. Results are replicated in an independent cohort from the National Health and Nutrition Examination Survey (N = 4,586). Our findings suggest that short-term SR might be detrimental, particularly for short sleepers, and highlight acute sleep rebound as a potential strategy to mitigate mortality risk.",
+      "Our analyses included 574,230 person-nights of data from 85,618 UK Biobank participants with at least 3 days of valid accelerometer data collected between June 1, 2013 and December 23, 2015 (Supplementary Fig. 1). Sleep restriction-rebound patterns were identified based on notable deviations from individual sleep need, as detailed in the “Methods” and illustrated in Fig. 1. In brief, SR was defined as average cumulative sleep loss of 2.5–3.5 h across restriction periods relative to individual sleep need, while severe SR was defined as average cumulative sleep loss exceeding 3.5 h relative to individual sleep need. Sleep rebound referred to the average extra sleep more than 0 h across post-restriction periods relative to individual sleep need.",
+      "Cox proportional hazards regression models examined the associations of sleep restriction-rebound patterns with all-cause mortality risk in the overall sample and within baseline sleep duration subgroups, adjusting for sociodemographic and lifestyle factors (Fig. 3, Supplementary Tables 4 and 5). No significant violations of the proportional hazards assumption were observed in any of the models. In the fully adjusted Model 3, both SR without rebound and severe SR without rebound were significantly associated with higher mortality compared to regular sleep in the overall sample (hazard ratio [HR] = 1.15, 95% confidence interval [CI] = 1.01–1.31; HR = 1.42, 95% CI = 1.24–1.63, respectively). When sleep rebound occurred, neither SR nor severe SR showed significant associations with mortality, although the point estimates were above 1.0. The multivariable adjusted HRs for all-cause mortality were 1.12 (95% CI = 0.98–1.28) for participants experiencing SR with rebound and 1.13 (95% CI = 0.95–1.36) for those experiencing severe SR with rebound.",
+      "Among participants with short baseline sleep duration, both SR and severe SR without rebound were significantly associated with higher mortality risk compared to regular sleep (HR = 1.19, 95% CI = 1.01–1.40; HR = 1.38, 95% CI = 1.17–1.63, respectively). Among participants with medium and long baseline sleep durations, only the association between severe SR without rebound and mortality risk reached statistical significance (HR = 1.44, 95% CI = 1.03–2.01; HR = 1.81, 95% CI = 1.25–2.61), while all hazard ratios for SR (with and without rebound) and for severe SR with rebound were above 1.0 (Fig. 3 and Supplementary Table 5).",
+      "To examine whether the associations between sleep restriction-rebound patterns and mortality were replicable in an independent cohort, we performed replication analyses using 32,260 person-nights of data from 4586 NHANES participants with at least 3 days of valid accelerometer data (Supplementary Fig. 20). Participants in NHANES had a mean (SD) age of 60.5 (10.4) years; 45.3% were male. The mean (SD) sleep duration was 7.9 (1.5) hours, notably longer than that of the UK Biobank (Supplementary Fig. 21 and Supplementary Table 40). We initially applied the same thresholds used in UK Biobank (2.5 h for SR, 3.5 h for severe SR, and 0 h for sleep rebound) to define sleep restriction-rebound patterns in NHANES. We also performed analyses using increased thresholds for both SR and severe SR (3 h for SR, 4 h for severe SR), given the differences in sleep duration distributions between NHANES and UK Biobank. In NHANES, using the same thresholds as those applied in UK Biobank, participants were categorized into five groups: regular sleep (no restriction or post-restriction periods; n = 2509; 54.7%), SR without rebound (n = 592; 12.9%), SR with rebound (n = 364; 7.9%), severe SR without rebound (n = 642; 14.0%), and severe SR with rebound (n = 479; 10.4%) (Supplementary Table 40).",
+      "However, several limitations warrant consideration when interpreting our findings. First, the UK Biobank participants were predominantly European, older, healthier, and socioeconomically advantaged53, potentially limiting generalizability. Future research could examine sleep-mortality associations in diverse populations. Nonetheless, we replicated the associations between sleep restriction-rebound patterns and their frequencies with mortality in NHANES. Second, our focus on all-cause mortality limits our ability to assess whether associations with sleep restriction-rebound patterns differ across specific disease processes. While we included CVD and cancer mortality in sensitivity analyses, future research should consider other specific causes of death and a wider range of health outcomes. Third, the accelerometer measurement period of 3–7 days might not fully capture long-term sleep patterns, potentially reflecting a temporary state rather than a habitual behavior. Although a large study of commercial wearables has suggested that average daily sleep duration and its SD remain relatively stable in adults over several years54, this brief window represents a notable limitation of our study. There is a need for extended measurement periods in future studies. Fourth, the thresholds used to define sleep restriction-rebound patterns were somewhat subjective. Nevertheless, they were grounded in experimental evidence16,55 (Supplementary Fig. 25). Moreover, our findings remained consistent across varying thresholds of SR, severe SR, and sleep rebound, supporting the robustness of our approach. Fifth, some covariates (e.g., BMI) may serve as mediating factors in the association between SR or severe SR without rebound and mortality risk. Accordingly, Models 2 and 3 may yield conservative estimates of the relationship between these exposures and mortality. Sixth, our proxy for sleep need may introduce bias by overestimating sleep need in natural short sleepers and misclassifying long sleepers with underlying morbidity as having high sleep need. We further conducted sensitivity analyses using age- and sex-specific group means to define sleep need, which yielded largely robust results. Future work should aim to further refine approaches for quantifying individual sleep needs that reflect both physiology and measurement characteristics (e.g., actigraphy, biomarkers). Seventh, the observational design precludes causal inference between sleep restriction-rebound patterns and mortality. While our findings remained consistent after additional adjustments and the exclusions of participants with baseline comorbidities or medication use, both SR and severe SR without rebound may still reflect underlying frailty rather than represent causal determinants of mortality. Finally, covariates (e.g., alcohol frequency) were assessed at a median of 5.4 years prior to accelerometry. Although these variables tend to remain stable over time56, this strategy may have introduced biases into our results.",
+      "Next, we identified restriction, post-restriction, and baseline nights, and constructed corresponding periods across valid accelerometer wear days for each participant. We defined restriction nights as nights with sleep duration at least 2.5 h below individual sleep need. Each restriction period comprised single or consecutive restriction nights. Post-restriction night was defined as the first night following each restriction period68. Each post-restriction period comprised only one post-restriction night. Baseline nights were defined as nights excluding restriction and post-restriction nights. Baseline periods included all baseline nights. One participant could experience multiple restriction and post-restriction periods during monitoring days. Although the first night of accelerometer measurement could have been mistakenly classified as a baseline night instead of a post-restriction night due to missing data on the preceding night, the small difference in sleep duration between first night and the baseline average suggests that this possible classification error has a negligible impact on baseline sleep duration estimates (Supplementary Fig. 30). Furthermore, this scenario does not affect the SR and rebound estimates, as we accounted for paired SR and post-restriction periods."
+    ],
+    "read_scope": "해당 본문과 초록; 보충자료 전체 재검증 아님"
+  },
+  "intentional_numerical_scope_changes": [
+    "SR 개인 필요량 대비 부족 기간별 누적 손실 평균 2.5–3.5시간; severe >3.5시간",
+    "밤별 2.5시간 정의와 분류용 누적 평균 구분",
+    "보충은 부족 기간 직후 첫날 밤의 평균 추가 수면 >0시간",
+    "보충 severe HR 1.13(0.95–1.36) 추가",
+    "15/42/19/38%는 누적 사망 확률이 아닌 HR의 차이",
+    "밤샘 전용 연구가 아님을 명시하고 제목 범위 정정"
+  ],
+  "doi_changes": {
+    "added": [],
+    "removed": [],
+    "reason": "기존 인용 유지"
+  },
+  "incoming_anchors": {
+    "method": "repository markdown 제목 및 제38항 참조 검색",
+    "found": [
+      "ch02/source.md 제13항 밤샌 다음 날 밤에 바로 보충",
+      "ch02/source.md 제39항 다음 날 밤에 바로 보충",
+      "제3절 기상 시간 고정하기의 제2절 제38항 밤샌 다음 날 밤에 잠 보충하기"
+    ],
+    "preserved": [
+      "제38항 번호",
+      "다음 날 밤",
+      "바로 보충",
+      "주말로 미루지 마세요"
+    ],
+    "independent_review_required": "incoming 밤샘 설명은 넓은 수면 제한 연구와 차이가 있어 별도 검토 필요; 다른 항목 수정 없음"
+  },
+  "unresolved_limitations": [
+    "관찰 연구로 인과관계 불명; 보충군 위험 소멸 보장 불가",
+    "기존 사회적 시차 심혈관 관련성 설명은 유지; 이 primary에서 직접 검증한 주장은 아님",
+    "해당 본문에서 원문 자체 총계 충돌은 발견하지 않음; 보충자료 전체 검증 아님"
+  ],
+  "sentence_lengths": [
+    {
+      "sentence": "잠이 부족한 뒤에는 다음 날 밤에 바로 보충하세요.",
+      "len": 28
+    },
+    {
+      "sentence": "잠이 부족한 뒤 다음 날 밤에 보충 못한 집단의 결과입니다.",
+      "len": 33
+    },
+    {
+      "sentence": "사망 위험 지표가 규칙적으로 자는 집단보다 약 15% 높았습니다.",
+      "len": 36
+    },
+    {
+      "sentence": "인과관계는 알 수 없습니다.",
+      "len": 15
+    },
+    {
+      "sentence": "주말로 미루지 말고 다음 날 밤 일찍 누우세요.",
+      "len": 26
+    },
+    {
+      "sentence": "하룻밤 또는 연속된 부족한 밤을 하나의 부족 기간으로 묶었습니다.",
+      "len": 36
+    },
+    {
+      "sentence": "그 기간 직후 첫날 밤을 '보충 밤'으로 봤습니다.",
+      "len": 28
+    },
+    {
+      "sentence": "부족 기간마다 모자란 시간을 더한 뒤 평균을 냈습니다.",
+      "len": 30
+    },
+    {
+      "sentence": "이 평균이 개인 필요량보다 2.5–3.5시간 부족하면 수면 제한입니다.",
+      "len": 39
+    },
+    {
+      "sentence": "평균 부족이 3.5시간을 초과하면 심한 수면 제한입니다.",
+      "len": 31
+    },
+    {
+      "sentence": "보충 밤에 개인 필요량보다 더 잔 시간도 평균을 냈습니다.",
+      "len": 32
+    },
+    {
+      "sentence": "이 평균이 0시간을 넘으면 보충한 집단으로 봤습니다.",
+      "len": 29
+    },
+    {
+      "sentence": "수면 제한 뒤 보충하지 못한 집단의 사망 위험비는 약 15% 높았습니다.",
+      "len": 40
+    },
+    {
+      "sentence": "HR은 추적 중 각 시점의 사망 발생 위험을 비교한 비율입니다.",
+      "len": 35
+    },
+    {
+      "sentence": "누적 사망 확률이 15% 높다는 뜻은 아닙니다.",
+      "len": 26
+    },
+    {
+      "sentence": "CI는 추정치의 불확실성을 나타내는 구간입니다.",
+      "len": 26
+    },
+    {
+      "sentence": "평균 누적 수면 부족이 3.5시간을 초과한 경우도 살폈습니다.",
+      "len": 34
+    },
+    {
+      "sentence": "보충하지 못한 이 집단의 사망 위험비는 약 42% 높았습니다.",
+      "len": 34
+    },
+    {
+      "sentence": "수면 제한 뒤 보충한 집단은 HR 1.12(0.98–1.28)였습니다.",
+      "len": 39
+    },
+    {
+      "sentence": "심한 수면 제한 뒤 보충한 집단은 HR 1.13(0.95–1.36)였습니다.",
+      "len": 42
+    },
+    {
+      "sentence": "수면 제한 뒤 보충하지 못한 집단은 위험비가 약 19% 높았습니다.",
+      "len": 37
+    },
+    {
+      "sentence": "HR 1.19, 95% CI 1.01–1.40입니다.",
+      "len": 29
+    },
+    {
+      "sentence": "심한 수면 제한 뒤 보충하지 못한 집단은 위험비가 약 38% 높았습니다.",
+      "len": 40
+    },
+    {
+      "sentence": "잠이 부족하면 다음 날 밤에 보충하세요.",
+      "len": 22
+    },
+    {
+      "sentence": "완전히 밤샌 경우만을 조사한 연구는 아닙니다.",
+      "len": 25
+    },
+    {
+      "sentence": "밤샘 뒤의 권고는 이 결과를 넓혀 적용한 것입니다.",
+      "len": 28
+    },
+    {
+      "sentence": "연구에서 보충은 부족 기간 직후 첫날 밤에 더 자는 방식입니다.",
+      "len": 35
+    }
+  ],
+  "easy_chars": 113,
+  "review_required": true
+}

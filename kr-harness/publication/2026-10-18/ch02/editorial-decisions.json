@@ -3575,6 +3575,1381 @@
       ],
       "formal_kr_fit": false,
       "publication_ready": false
+    },
+    {
+      "batch": "3-r2",
+      "batch_manifest_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/author-batch-3-r2.json",
+      "batch_manifest_sha256": "90209858d455044c58f76aef6feac3a4f5ed3dde6a9a2f772b810ce1a94df933",
+      "reviewed_at_utc": "2026-10-18T14:11:53.156694+00:00",
+      "review_status": "complete",
+      "summary": {
+        "approve": 2,
+        "revise": 0
+      },
+      "entries": [
+        {
+          "number": 26,
+          "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-026-c168/publication-entry-proposal-r2.md",
+          "proposal_sha256": "f249d914ac9a2a7f73e358cf6b6f18915026edc4e9b5a263aa5604a840b51410",
+          "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-026-c168/publication-entry-changes-r2.json",
+          "changes_sha256": "1a7793885db6f0aebfb93d8c69183d138da49a7ae9f56c3a3da826d9a95cfa07",
+          "decision": "approve",
+          "why": "2018BMJ정정문k194에맞게CI0.79~0.88을확정하고옛0.83~0.88오기를정정사실로고지했습니다. 쉽게의사망건수표현을사망위험으로바꾸고메타제목을명사형주제제목으로고쳤습니다. 원문관찰범위·증량권고아님·첨가물직접비교부재한계를보존합니다.",
+          "approval_scope": "정확SHA의r2개별fullentry승인.이전r1revise이력보존.전체절출판/정식KR-FIT승인아님.기존미확인가격·의료지침확인범위확대아님.",
+          "doi_addition_review": {
+            "approved": true,
+            "doi": "10.1136/bmj.k194",
+            "reason": "실제로열람한BMJ2018정정공지.ROOT의별도DOIannotation필요."
+          },
+          "evidence_references": "기존batch3 coffee-correction2018 raw_utf8/URL/SHA및chili2019원초록근거.이번에재개봉하여수정안과대조."
+        },
+        {
+          "number": 33,
+          "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-033-866b/publication-entry-proposal-r2.md",
+          "proposal_sha256": "0efc29aa9c2efaa27768057c55d0a489e46d6ed891e9834762c99ca831d540e9",
+          "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-033-866b/publication-entry-changes-r2.json",
+          "changes_sha256": "94b4abdcbb514b7d49d8526c925e474c4d32e16904131e19b4c514ec777f8a16",
+          "decision": "approve",
+          "why": "고추섭취와사망위험관계라는명사형제목으로메타검토지시를제거했습니다. r1의주4회초과조건·HR/CI·대상과인과한계는그대로보존했습니다.",
+          "approval_scope": "정확SHA의r2개별fullentry승인.이전r1revise이력보존.전체절출판/정식KR-FIT승인아님.기존미확인가격·의료지침확인범위확대아님.",
+          "doi_addition_review": null,
+          "evidence_references": "기존batch3 coffee-correction2018 raw_utf8/URL/SHA및chili2019원초록근거.이번에재개봉하여수정안과대조."
+        }
+      ],
+      "formal_kr_fit": false,
+      "publication_ready": false
+    },
+    {
+      "batch": 4,
+      "batch_manifest_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/author-batch-4.json",
+      "batch_manifest_sha256": "eff923b351d5ba53793a6449a8539520fcc3ff950f6da5ec337b28bfc4c48043",
+      "reviewed_at_utc": "2026-10-18T14:16:48.392742+00:00",
+      "review_status": "complete",
+      "summary": {
+        "approve": 6,
+        "revise": 1
+      },
+      "entries": [
+        {
+          "number": 34,
+          "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-034-cb01/publication-entry-proposal.md",
+          "proposal_sha256": "39ecad1caee8a72af982c7e297156cc3f305b16ecea24da39e27260ee2488598",
+          "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-034-cb01/publication-entry-changes.json",
+          "changes_sha256": "921537f091696dd05bbff66423d8a022381d513b3aa68520ea4c3d009f8c8558",
+          "decision": "approve",
+          "why": "우유·요거트·치즈를합친totaldairy의>2servings/day대전혀안먹음이라는실제원초록의분모/노출을복원하고두잔·1~2잔권고로환원하지않았습니다.136,384명·21개국6,796사망·HR.83(.72~.96)는일치하며9.1년을미검증평균/중앙값으로지정하지않았습니다.노출정의와HR/누적확률차이를독자본문에고지합니다.",
+          "approval_scope": "정확SHA개별fullentry의지적해결/범위제한승인.정식KR-FIT/전체절출판승인아님.기존가격·부차정책·국내미확인규격으로검증범위확장아님."
+        },
+        {
+          "number": 36,
+          "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-036-3a64/publication-entry-proposal.md",
+          "proposal_sha256": "0634fb43ab776e6e3fcf981d1b0bd36171838fe41b96941f2a6449111cae01a0",
+          "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-036-3a64/publication-entry-changes.json",
+          "changes_sha256": "e50858dedf3d6d9edcabd9d00e51d172ae7caa934ae8dc46411b6f816a621073",
+          "decision": "approve",
+          "why": "1차논문PDF의40~59세30,076명·CVD/암병력없음·1990~2009·거의매일대0~2회및HR.72/.65/.74/.54를대조했습니다.두번미만오류를고치고30분안전입욕처방을삭제했으며발생과사망을구분하고샤워대비인과효과/고령·심혈관주의한계를보존했습니다.",
+          "approval_scope": "정확SHA개별fullentry의지적해결/범위제한승인.정식KR-FIT/전체절출판승인아님.기존가격·부차정책·국내미확인규격으로검증범위확장아님."
+        },
+        {
+          "number": 38,
+          "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-038-17c4/publication-entry-proposal.md",
+          "proposal_sha256": "cf0b2721e241acfb095dd6f9eb4d673910da33b416cd667a622c3bc917778e26",
+          "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-038-17c4/publication-entry-changes.json",
+          "changes_sha256": "3e233701a0deba602f5a80dade90eee276a3c0aa9c35a3f892da91b3febe93ec",
+          "decision": "approve",
+          "why": "수면부족밤≥2.5시간·연속부족기간누적평균2.5~3.5/심한경우>3.5·기간직후첫보충밤및초과수면평균>0정의는원문방법에맞습니다.85,618명·중앙8년·HR1.15/1.42와보충군CI미검출을대조했습니다.완전밤샘만의연구가아님을본문에명시하고위험소멸보장을피했습니다.",
+          "approval_scope": "정확SHA개별fullentry의지적해결/범위제한승인.정식KR-FIT/전체절출판승인아님.기존가격·부차정책·국내미확인규격으로검증범위확장아님."
+        },
+        {
+          "number": 39,
+          "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-039-006e/publication-entry-proposal.md",
+          "proposal_sha256": "a5471cc96826e2b62df9c27ec85986a3f2651c544ec59ac2358db66025aeba8b",
+          "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-039-006e/publication-entry-changes.json",
+          "changes_sha256": "4460e2f04a05bff27f733d3ee706cbb2d9b43c1453b37310c142ce4c3f0450d9",
+          "decision": "revise",
+          "why": "원문RR1.13/1.27·5년당1.07와1.05대4%불일치를독자본문에고지했고8명빛+암막복합실험으로각요소필수/유일성을단정하던오류도고쳤습니다.다만RR정의를‘상대적위험차이’라고쓴문장은차이(RD)와비율(RR)혼동을낳으므로‘두집단의위험을나눈비율’로고쳐야합니다.현재exactSHA는revise,나머지수정범위는적합합니다.",
+          "approval_scope": "정확SHA개별fullentry의지적해결/범위제한승인.정식KR-FIT/전체절출판승인아님.기존가격·부차정책·국내미확인규격으로검증범위확장아님."
+        },
+        {
+          "number": 40,
+          "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-040-ec55/publication-entry-proposal.md",
+          "proposal_sha256": "363f3b18d23cc346e2e72c23112c28fa1952ec5ab0a2da428604b93d31eee964",
+          "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-040-ec55/publication-entry-changes.json",
+          "changes_sha256": "81d4c801e5bb6b1d9ca4f3fadbdc5268a3e740e7b2b763faaee0ccd619d3727b",
+          "decision": "approve",
+          "why": "중국광저우PR.650과광시직접효과모형aOR1.9/1.8을원문에대조하고확률90/80%로치환하지않게정정했습니다.국내방앗간전면기피권고를포장/제조정보확인으로제한하며현재국내규격미확인·포장이검사합격보장아님을독자에게밝혔습니다.국내규격확인에성공한승인이아니라미검증일괄금지를제거한범위승인입니다.해결되지않은tail기준TODO는유지합니다.",
+          "approval_scope": "정확SHA개별fullentry의지적해결/범위제한승인.정식KR-FIT/전체절출판승인아님.기존가격·부차정책·국내미확인규격으로검증범위확장아님."
+        },
+        {
+          "number": 41,
+          "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-041-488c/publication-entry-proposal.md",
+          "proposal_sha256": "b5b54663ba886d168af9c8269a137d4b8279eb6cadab79285b5ce99ba1e242d0",
+          "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-041-488c/publication-entry-changes.json",
+          "changes_sha256": "2a4bace660d9199ba93a4032ac460d2919b01e7a57df423e8bf82eec79223f14",
+          "decision": "approve",
+          "why": "포화지방전체15시험56,675명/심혈관사건12시험53,758명,omega6 19시험6,461명,omega3전체86시험162,796명과ALA총사망5시험19,327명/CHD4시험19,061명을각원초록에대조했습니다.전체분모를ALA분모로쓰던오류와모든심장보호효과없음단정을고쳤고ALA부정맥RR.73및CVD가능성을불확실성등급과함께보존했습니다.국내조리유일일량미확인은그대로이며섭취량을검증한승인아닙니다.",
+          "approval_scope": "정확SHA개별fullentry의지적해결/범위제한승인.정식KR-FIT/전체절출판승인아님.기존가격·부차정책·국내미확인규격으로검증범위확장아님."
+        },
+        {
+          "number": 42,
+          "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-042-69a7/publication-entry-proposal.md",
+          "proposal_sha256": "db7c25aa3bb2a73c4f123dda28640f7505fba8bd0bcfa857d0e4decccafc535d",
+          "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-042-69a7/publication-entry-changes.json",
+          "changes_sha256": "fd857bb0522f0e49ad60d87b4336077d867f754bde7e281f27351962e07a60f1",
+          "decision": "approve",
+          "why": "Xue연기10연구와후드4연구를별도분석으로구분하고13/14전체개수불일치를본문에고지했습니다.Chen누적요리지표>10·1일끼니수×연수·방법의.33/.67경계와표4표기차이를직접대조했고실제경력10년오기를삭제했습니다.표4의107+226+510=843환자와41+144+374=559대조분모도대조했습니다.OR.49/1.74/2.11을발생확률로바꾸지않고상하이HR비교군을분리했습니다.새BioC원문으로상하이숫자/연료·환기조건을확인했습니다.",
+          "approval_scope": "정확SHA개별fullentry의지적해결/범위제한승인.정식KR-FIT/전체절출판승인아님.기존가격·부차정책·국내미확인규격으로검증범위확장아님."
+        }
+      ],
+      "separate_operations": [
+        {
+          "kind": "style",
+          "entry": 40,
+          "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-040-ec55/publication-style-corrections.json",
+          "sha256": "626cf5577fa1a637054e934c7039b37d0fc36bf7e57e44701dde6b4f73fc6a4f",
+          "decision": "approve",
+          "before": "중국 광저우에서 자가압착 땅콩기름 작업장 관리 뒤 간 기능 이상이 약 35% 낮게 나타났습니다. 간암·사망을 조사한 결과는 아닙니다. 한국에 그대로 적용하기는 어렵습니다.",
+          "after": "중국 광저우에서 자가압착 땅콩기름 작업장을 관리했습니다. 관리 뒤 간 기능 이상이 약 35% 낮게 나타났습니다. 간암·사망을 조사한 결과는 아닙니다. 한국에 그대로 적용하기는 어렵습니다.",
+          "why": "기승인쉽게첫문장을두문장으로나눠한문장50자기준에맞춘동일사실분리입니다.중국/간기능35%연관·사망미조사·한국적용한계를모두보존합니다.두연구의인과효과입증으로변경하지않습니다.",
+          "original_intro_sha256": null,
+          "proposed_intro_sha256": null,
+          "old_entry_sha256": "363f3b18d23cc346e2e72c23112c28fa1952ec5ab0a2da428604b93d31eee964",
+          "new_entry_sha256": "a47e5a257b8b1f19164e1e71fcbe34eda4333dfcc6e359ac8779fc441e69e779",
+          "approval_scope": "이정확한한필드또는한줄연산만.ROOT가별도최종후보에해시guard로적용하며strict/intro원본/기존승인안불변."
+        },
+        {
+          "kind": "intro",
+          "entry": 40,
+          "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-040-ec55/publication-intro-correction.json",
+          "sha256": "217a28b6eb5a2df1b2ce9abee711c72e01b0b1cc6cbbc71f1e2b47c08d428259",
+          "decision": "approve",
+          "before": "**주방의 기름과 연기**: 연탄·장작 태우지 않기(제29항), 소규모 자가압착 땅콩기름 사지 않기(제40항), 돼지기름 대신 식물성 기름(제41항), 요리할 때 레인지후드 켜기(제42항).",
+          "after": "**주방의 기름과 연기**: 연탄·장작 태우지 않기(제29항), 식용유의 밀폐 포장과 제조 정보 확인(제40항), 돼지기름 대신 식물성 기름(제41항), 요리할 때 레인지후드 켜기(제42항).",
+          "why": "제40항기존국내일괄기피문구와새검증범위제한이충돌하므로같은제40항요약만포장/제조정보확인으로바꾸는한줄교체입니다.다른항목요약·제40항번호·다른intro바이트를보존함을명령으로확인했습니다.국내규격/오염검사합격을확인한뜻아닙니다.",
+          "original_intro_sha256": "b63dc987b6f5ba59df31cae92501c3f1ceb9348c508719d12570908cb4094f6a",
+          "proposed_intro_sha256": "c441f77b230c951c3a0754c2576193b40140c6c50fb62bf774b0ce2052bf3279",
+          "old_entry_sha256": null,
+          "new_entry_sha256": null,
+          "approval_scope": "이정확한한필드또는한줄연산만.ROOT가별도최종후보에해시guard로적용하며strict/intro원본/기존승인안불변."
+        }
+      ],
+      "sources": [
+        {
+          "id": "pure-dairy",
+          "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/d3719f3370e6ea4aeb80.json",
+          "raw_sha256": "9483b43657373b922c4751cdbde4c30acc93336b9859388095d828e1f79828aa",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2FS0140-6736%2818%2931812-9%22&format=json&resultType=core&pageSize=10",
+          "quote": "Higher intake of total dairy (>2 servings per day compared with no intake)",
+          "scope": "제공된원초록RAW재열람.이번독립검토자의신규HTTP/전체원문아님.",
+          "read_at_utc": "2026-10-18T14:16:48.392742+00:00",
+          "fetched_at": "2026-10-18T20:50:06.473360+09:00"
+        },
+        {
+          "id": "bathing-pdf",
+          "raw_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-036-3a64/source-evidence/bathing036.pdf",
+          "raw_sha256": "064cb6720f94fd2a87d52809391ae0da31f7d98e4bef19821ea9fcc906c8c284",
+          "url": "https://heart.bmj.com/content/heartjnl/106/10/732.full.pdf",
+          "quote": "30 076 participants aged 40–59 years … followed up from1990to2009; almost daily versus0–2/week HR0.72(0.62–0.84); intracerebralhaemorrhage0.54(0.40–0.73)",
+          "scope": "작성자가보존한실제1차PDF와추출본문을재열람해대상/비교/발생결과대조.검토자신규HTTP아님.",
+          "read_at_utc": "2026-10-18T14:16:48.392742+00:00",
+          "fetched_at": null
+        },
+        {
+          "id": "sleep-rebound",
+          "raw_path": "/tmp/ch02-audit/full-PMC13121452.body",
+          "raw_sha256": "93f3132994eb309f16a8692d710905ed763f6d813db42a5627f080f7c13b4266",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13121452/fullTextXML",
+          "quote": "Restriction nights were defined as nights with sleep duration at least 2.5",
+          "scope": "초기자체수집XML의해당방법·결과·한계/표재열람.정확초기HTTP시각미기록.새HTTP아님.",
+          "read_at_utc": "2026-10-18T14:16:48.392742+00:00",
+          "fetched_at": null
+        },
+        {
+          "id": "shift-cvd",
+          "raw_path": "/tmp/ch02-audit/full-PMC12506678.body",
+          "raw_sha256": "1f235c900688aa383ab846c1c6f8a91f4f1f2e410e009d6a88362c2c5621775e",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12506678/fullTextXML",
+          "quote": "a 4% increased risk of CVD mortality",
+          "scope": "초기자체수집XML의해당방법·결과·한계/표재열람.정확초기HTTP시각미기록.새HTTP아님.",
+          "read_at_utc": "2026-10-18T14:16:48.392742+00:00",
+          "fetched_at": null
+        },
+        {
+          "id": "shift-breast",
+          "raw_path": "/tmp/ch02-audit/full-PMC12794909.body",
+          "raw_sha256": "3047297cd609fbdf53d208c81f186e68a0f334c2838d3fe6834ebb3c59cd61f0",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12794909/fullTextXML",
+          "quote": "1.25 (95% CI 1.01–1.55",
+          "scope": "초기자체수집XML의해당방법·결과·한계/표재열람.정확초기HTTP시각미기록.새HTTP아님.",
+          "read_at_utc": "2026-10-18T14:16:48.392742+00:00",
+          "fetched_at": null
+        },
+        {
+          "id": "shift-cancer",
+          "raw_path": "/tmp/ch02-audit/full-PMC13344439.body",
+          "raw_sha256": "99508cac0aa1a5a317477de4dc313ccf685bf1ab88f2835057c45884b4d9ad26",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13344439/fullTextXML",
+          "quote": "HR 1.59, 95% CI 1.09–2.31",
+          "scope": "초기자체수집XML의해당방법·결과·한계/표재열람.정확초기HTTP시각미기록.새HTTP아님.",
+          "read_at_utc": "2026-10-18T14:16:48.392742+00:00",
+          "fetched_at": null
+        },
+        {
+          "id": "shift-light",
+          "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/cf5aca00940d2def4af9.json",
+          "raw_sha256": "991aef2c8b702207971b123061c5ea9ffddd677a2c6f9d202b0dd6e9067d568a",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1056%2FNEJM199005033221801%22&format=json&resultType=core&pageSize=10",
+          "quote": "eight normal young men",
+          "scope": "제공된원초록RAW재열람.이번독립검토자의신규HTTP/전체원문아님.",
+          "read_at_utc": "2026-10-18T14:16:48.392742+00:00",
+          "fetched_at": "2026-10-18T20:50:10.297125+09:00"
+        },
+        {
+          "id": "shift-correction-check",
+          "raw_path": "/tmp/ch39-correction-search.json",
+          "raw_sha256": "1270c3045da337c6618273e11e0b91f5682abd6fbbe5dc1c041d228a7e54c86f",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search",
+          "quote": "읽은제한적검색응답에연결된정정문은확인되지않음.쿼리전체는원작성자changes sources correction-search.url에기록.",
+          "scope": "작성자의실제조회RAW를재열람했지만제한검색결과로서정정문부재증명아님.",
+          "read_at_utc": "2026-10-18T14:16:48.392742+00:00",
+          "fetched_at": null
+        },
+        {
+          "id": "guangzhou-afb",
+          "raw_path": "/tmp/ch02-audit/full-PMC11695283.body",
+          "raw_sha256": "0b5ddee335848553d1a4decbd07e03b021db27fbe85662c6106f0ddff4e0185f",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11695283/fullTextXML",
+          "quote": "PR = 0.650, 95% CI: 0.469–0.902",
+          "scope": "초기자체수집XML의해당방법·결과·한계/표재열람.정확초기HTTP시각미기록.새HTTP아님.",
+          "read_at_utc": "2026-10-18T14:16:48.392742+00:00",
+          "fetched_at": null
+        },
+        {
+          "id": "guangxi-birth",
+          "raw_path": "/tmp/ch02-audit/full-PMC11025407.body",
+          "raw_sha256": "992536cea2251c57346c2f52360585bcfe24491b02e305cee4f9f878e6ac733a",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11025407/fullTextXML",
+          "quote": "aORs of 1.9 (95% CI 1.1–3.2) and 1.8 (95% CI 1.1–3.0)",
+          "scope": "초기자체수집XML의해당방법·결과·한계/표재열람.정확초기HTTP시각미기록.새HTTP아님.",
+          "read_at_utc": "2026-10-18T14:16:48.392742+00:00",
+          "fetched_at": null
+        },
+        {
+          "id": "decree-article",
+          "raw_path": "/tmp/ch02e40-sources/decree-article.raw",
+          "raw_sha256": "9f4dcce6cb8e433245c8f52da33774436a5a158ed51c37ed48543d2c9509afdc",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=288767&joNo=0021&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR",
+          "quote": ": 식품을 제조ㆍ가공하는 영업 2. 즉석판매제조ㆍ가공업: 총리령 으로 정하는 식품을 제조ㆍ가공업소에서 직접 최종소비자에게 판매하는 영업 3. 식품첨가물제조업 가. 감미료ㆍ착색료ㆍ표백제 등의 화학적 합성품을 제조ㆍ가공하는 영업 나. 천연 물질로부터 유용한 성분을 추출하는 등의 방법으로 얻은 물질을 제조ㆍ가공하는 영업 다. 식품첨가물의 혼합제재를 제조ㆍ가공하는 영업 라. 기구 및 용기ㆍ포장을 살균ㆍ소독할 목적으로 사용되어 간접적으로 식품에 이행(移行)될 수 있는 물",
+          "scope": "작성자보존실제law.go.kr조문HTML재열람.별표15품목목록/최신부칙전체와식용유아플라톡신공전규격은미확인.",
+          "read_at_utc": "2026-10-18T14:16:48.392742+00:00",
+          "fetched_at": "2026-10-18T14:03:23.788980+00:00"
+        },
+        {
+          "id": "rule-article",
+          "raw_path": "/tmp/ch02e40-sources/rule-article.raw",
+          "raw_sha256": "ba7622598b0608ce0c1efc3641e82f3a33a8f260cabdb4902ad7641f7e9d5839",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=289161&joNo=0037&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR",
+          "quote": "719-2854, 2865 제37조(즉석판매제조ㆍ가공업의 대상) 영 제21조 제2호 에서 “총리령으로 정하는 식품”이란 별표 15 와 같다. <개정 2010. 3. 19., 2013. 3. 23.> 위로 아래로 검색조문선택 화면내검색 입력 폼 검색어 입력 모드 전체저장 목록저장 닫기 파일형식 XLS(엑셀) TXT(텍스트) 저장 닫기 모드 전체저장 목록저장 닫기 파일형식 XLS(엑셀) TXT(텍스트) 한글(본문) 저장 닫기 내용저장 닫기 파일형식 한글(HWP) P",
+          "scope": "작성자보존실제law.go.kr조문HTML재열람.별표15품목목록/최신부칙전체와식용유아플라톡신공전규격은미확인.",
+          "read_at_utc": "2026-10-18T14:16:48.392742+00:00",
+          "fetched_at": "2026-10-18T14:03:23.789837+00:00"
+        },
+        {
+          "id": "satfat2020",
+          "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/fed4ecd055021a77a46b.json",
+          "raw_sha256": "4665f498502896d9c8084583aa9efb0a269062caf4172c4abe0f7929f979f920",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1002%2F14651858.CD011737.pub3%22&format=json&resultType=core&pageSize=10",
+          "quote": "12 trials, 53,758 participants",
+          "scope": "제공된원초록RAW재열람.이번독립검토자의신규HTTP/전체원문아님.",
+          "read_at_utc": "2026-10-18T14:16:48.392742+00:00",
+          "fetched_at": "2026-10-18T20:50:10.664925+09:00"
+        },
+        {
+          "id": "omega6-2018",
+          "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/73fe7c4149bcd3f2f4d2.json",
+          "raw_sha256": "7973b982a12eab20b6ea0dbd3d44028aad360f6813863877c040961e38a88644",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1002%2F14651858.CD011094.pub4%22&format=json&resultType=core&pageSize=10",
+          "quote": "19 RCTs in 6461 participants",
+          "scope": "제공된원초록RAW재열람.이번독립검토자의신규HTTP/전체원문아님.",
+          "read_at_utc": "2026-10-18T14:16:48.392742+00:00",
+          "fetched_at": "2026-10-18T20:50:10.745904+09:00"
+        },
+        {
+          "id": "ala2020",
+          "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/2a6d4461b4b4fe0070fb.json",
+          "raw_sha256": "0600539dd10dd358c91611976c86ffec6be279bfa23c37bcccf7c1fd9d9493b9",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1002%2F14651858.CD003177.pub5%22&format=json&resultType=core&pageSize=10",
+          "quote": "19,327 participants; 459 deaths in 5 RCTs",
+          "scope": "제공된원초록RAW재열람.이번독립검토자의신규HTTP/전체원문아님.",
+          "read_at_utc": "2026-10-18T14:16:48.392742+00:00",
+          "fetched_at": "2026-10-18T20:50:10.874912+09:00"
+        },
+        {
+          "id": "xue-fumes",
+          "raw_path": "/tmp/ch02-audit/full-PMC4881732.body",
+          "raw_sha256": "24db7cdcadae14155d2e469002f6e1b85093e6f85d5dc8aaff287220584be476",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4881732/fullTextXML",
+          "quote": "The main characteristics of 14 case–control studies",
+          "scope": "초기자체수집XML의해당방법·결과·한계/표재열람.정확초기HTTP시각미기록.새HTTP아님.",
+          "read_at_utc": "2026-10-18T14:16:48.392742+00:00",
+          "fetched_at": null
+        },
+        {
+          "id": "chen-hood",
+          "raw_path": "/tmp/ch02-audit/full-PMC7174336.body",
+          "raw_sha256": "6e7c194d15335eb57bde985296f1e50f249c85302c16025f7efd9655ff0077c9",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7174336/fullTextXML",
+          "quote": "Only participants who were exposed to COFs (cooking time-years >10)",
+          "scope": "초기자체수집XML의해당방법·결과·한계/표재열람.정확초기HTTP시각미기록.새HTTP아님.",
+          "read_at_utc": "2026-10-18T14:16:48.392742+00:00",
+          "fetched_at": null
+        },
+        {
+          "id": "shanghai-bioc",
+          "raw_path": "/tmp/ch02e42-shanghai-bioc.xml",
+          "raw_sha256": "639bf4e9f9d0ccb47868eacd55e8ccb9269e6b82858515ef6eb4e9f13177369d",
+          "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC4232458/unicode",
+          "quote": "Ever poor kitchen ventilation HR1.49(1.15–1.95); evercoal1.03(.84–1.26);≥20yearscoalwithpoorventilationHR2.03(1.35–3.05).",
+          "scope": "작성자가신규HTTPS로보존한실제BioC원문/표를이번에재열람.검토자신규HTTP아님.PMC본문/EuropePMC실패를논문무효로세지않음.",
+          "read_at_utc": "2026-10-18T14:16:48.392742+00:00",
+          "fetched_at": null
+        },
+        {
+          "id": "fumes-correction-check",
+          "raw_path": "/tmp/ch02e42-current-core.json",
+          "raw_sha256": "02ba43357f68c71c8152402e9cdabb76bb202061737697e0177b7739f46060aa",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search",
+          "quote": "세DOI현재core응답의correction/comment관계검토범위내정정연결을확인하지못함.",
+          "scope": "작성자보존실제core응답재열람.정정문이전혀없다는증명아님.",
+          "read_at_utc": "2026-10-18T14:16:48.392742+00:00",
+          "fetched_at": null
+        }
+      ],
+      "formal_kr_fit": false,
+      "publication_ready": false
+    },
+    {
+      "batch": "4-r2",
+      "batch_manifest_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/author-batch-4-r2.json",
+      "batch_manifest_sha256": "774d5fe2e3a75c916b4d0673d59601b0bbbd6fe1b4cee774c1f0ecf133a8dc11",
+      "reviewed_at_utc": "2026-10-18T14:28:11.308490+00:00",
+      "review_status": "complete",
+      "summary": {
+        "approve": 1,
+        "revise": 0
+      },
+      "entries": [
+        {
+          "number": 39,
+          "status": "frozen_for_independent_review",
+          "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-039-006e/publication-entry-proposal-r2.md",
+          "proposal_sha256": "7449125c9f9a2e9a3e9e15d8af0da38215998cf016b4b6eb2ed638da0487f7cf",
+          "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-039-006e/publication-entry-changes-r2.json",
+          "changes_sha256": "c88890f0cb0b4b08fe837a4897e86d30d533baee1df9f351ed3eecb9dfd75602",
+          "decision": "approve",
+          "why": "RR의위험차이(RD)와비율(RR)혼동을나눈비율로정정했습니다.그한문장외전체바이트가이전검토안과일치합니다.기존1.05/4%고지·빛복합실험한계등은그대로보존합니다.",
+          "approval_scope": "정확SHA r2 fullentry만.이전r1revise보존.전체절출판/정식KR-FIT아님."
+        }
+      ],
+      "formal_kr_fit": false,
+      "publication_ready": false
+    },
+    {
+      "batch": 5,
+      "batch_manifest_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/author-batch-5.json",
+      "batch_manifest_sha256": "ca29ef8d9fe3847741dc002d50cf4a0ae5f82563c36a3ae0eae047c89df206c9",
+      "reviewed_at_utc": "2026-10-18T14:28:11.308490+00:00",
+      "review_status": "complete",
+      "summary": {
+        "approve": 2,
+        "revise": 3
+      },
+      "entries": [
+        {
+          "number": 2,
+          "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-002-4b65/publication-entry-proposal.md",
+          "proposal_sha256": "5e44f647b991ececbc55b1e669e3c8560a5a260adf51ec0753cf0ec783ffa0a1",
+          "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-002-4b65/publication-entry-changes.json",
+          "changes_sha256": "59d90e41a0bb31328103c6a5d7e130452b78f317fd4f7cc6d6cbe7135e5f17ab",
+          "decision": "approve",
+          "why": "2004세계603,000·아동28%를복원하고3명중1명/OR를발생확률로동일시하던표현을고쳤습니다.57연구질환별OR및CI는원초록일치.집노출대비집이외노출을실내대실외직접인과비교로확정하지않고대상·노출조건미확인한계를독자에게고지합니다.",
+          "approval_scope": "정확SHA개별fullentry범위.기존쉽게승인이력보존,새본문과의조건충돌은새review판정.전체절출판/정식KR-FIT아님."
+        },
+        {
+          "number": 16,
+          "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-016-71f0/publication-entry-proposal.md",
+          "proposal_sha256": "07b184706861db697b5178adf31e9a79d75dda2613b746058764119df87a6182",
+          "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-016-71f0/publication-entry-changes.json",
+          "changes_sha256": "0bacc58b0ba3cd5650ad47b15f5c0e5798460be372f72a34f3eb7f67ef0c4d1f",
+          "decision": "revise",
+          "why": "고용량확정상한은불확실성으로정정했고쉽게/빈도지침구별은적합합니다.하지만추가원문표1/사망절대조에서10~17%는여러결과의초록요약범위이지사망한결과의범위가아님을확인했습니다.사망두집단분석은7연구263,058명42,133사망RR.85(.79~.93),약15%입니다.이득의사망10~17%를이정확값이나여러결과귀속으로고쳐야합니다.초기검토에서이귀속을명확히지적하지못한부분을추가로보완합니다.",
+          "approval_scope": "정확SHA개별fullentry범위.기존쉽게승인이력보존,새본문과의조건충돌은새review판정.전체절출판/정식KR-FIT아님."
+        },
+        {
+          "number": 21,
+          "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-021-e337/publication-entry-proposal.md",
+          "proposal_sha256": "4c16dc23d46a2e4ceccfeacd4af00faa05c5b44b80ca71a0e1c60f93a1fc15a1",
+          "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-021-e337/publication-entry-changes.json",
+          "changes_sha256": "f5274f38312f2d9f28405b9e8c72cfdd3b1cba61e148cfb410fc041f77e370ef",
+          "decision": "approve",
+          "why": "34시험15,197명·1년주20g상담효과와122RCT+1코호트22,803명검토전체분모를원초록에대조했습니다.약별NNT분석인원과전체검토규모를구분하고≥12주선정·음주재발/폭음재발조건을보존했습니다.무료상담보장을제거하고날트렉손의사처방/7~10일아편사용확인조건은이전실제의약품안전나라원문과대조했습니다.모든심리사회중재세부프로토콜·모든부록을검증했다는뜻아닙니다.",
+          "approval_scope": "정확SHA개별fullentry범위.기존쉽게승인이력보존,새본문과의조건충돌은새review판정.전체절출판/정식KR-FIT아님."
+        },
+        {
+          "number": 28,
+          "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-028-ff01/publication-entry-proposal.md",
+          "proposal_sha256": "14ed897a9a8cf9515e8441ac47006486f2e6f639401e086d4d73b48b2b54fd28",
+          "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-028-ff01/publication-entry-changes.json",
+          "changes_sha256": "4f2eb06afe82504239d4ad6982e147d5cabe541fc4ef16dba84d84510e75d86b",
+          "decision": "revise",
+          "why": "RR1.21/1.50과GRADE낮음/매우낮음구별및전세계반대연구부재문장삭제는적합합니다.다만classI/II는연관성효과크기강도가아니라연관성을뒷받침하는근거의분류입니다.‘연관성의강도’를‘연관성을뒷받침하는근거를분류한기준’으로정확히해야합니다.",
+          "approval_scope": "정확SHA개별fullentry범위.기존쉽게승인이력보존,새본문과의조건충돌은새review판정.전체절출판/정식KR-FIT아님."
+        },
+        {
+          "number": 37,
+          "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-037-bf31/publication-entry-proposal.md",
+          "proposal_sha256": "d6ccec9847acfbfe472b8982408ed522b206c2428c2c6e4e4a0d51f3cde5ae36",
+          "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-037-bf31/publication-entry-changes.json",
+          "changes_sha256": "b5ef554f994aa7f756f2633102b8a8e11a2b51192b000e0e6e8382e9a01c83bc",
+          "decision": "revise",
+          "why": "관찰설계일괄오류를수정하고18RCT인지효과·OR당뇨/비만·낮잠노출조건차이·초록/본문귀속차이를독자본문에상세히고지한점은적합합니다.그러나쉽게는새로고지한>60분대본문napping전체의조건충돌을숨긴채‘1시간넘게잔사람30%높음’을확정합니다.이새fullentry의쉽게에서는해당부차수치를생략하거나귀속이불확실함을제한해야합니다.기존쉽게필드승인이력을지우지않고새본문맥락에대한revise로기록합니다.",
+          "approval_scope": "정확SHA개별fullentry범위.기존쉽게승인이력보존,새본문과의조건충돌은새review판정.전체절출판/정식KR-FIT아님."
+        }
+      ],
+      "sources": [
+        {
+          "id": "shs2004",
+          "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/4419084fca5878740fdb.json",
+          "raw_sha256": "5e4528bb7aee2f65e253e198f9bcf284bf556616a3f5ab41eaf3eb27fab8e871",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2FS0140-6736%2810%2961388-8%22&format=json&resultType=core&pageSize=10",
+          "quote": "28% in children",
+          "scope": "제공된원초록RAW재열람.새HTTP/전체원문아님.",
+          "fetched_at": "2026-10-18T20:49:54.665067+09:00",
+          "read_at_utc": "2026-10-18T14:28:11.308490+00:00"
+        },
+        {
+          "id": "shs-cvd",
+          "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/c8c171be347ded2a2f52.json",
+          "raw_sha256": "bcf32eae0519c003336e6c04ab80e011ad47a990e14ebaea692ae6df1ea6e6f7",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1093%2Fntr%2Fntaf111%22&format=json&resultType=core&pageSize=10",
+          "quote": "Home exposure has a higher risk of CVD than non-home exposure.",
+          "scope": "제공된원초록RAW재열람.새HTTP/전체원문아님.",
+          "fetched_at": "2026-10-18T20:49:54.756375+09:00",
+          "read_at_utc": "2026-10-18T14:28:11.308490+00:00"
+        },
+        {
+          "id": "momma-mortality15",
+          "raw_path": "/tmp/ch02-audit/full-PMC9209691.body",
+          "raw_sha256": "ffe5462b860ed16387503b573c56b65debce95491864b1900fdc387496625c8a",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9209691/fullTextXML",
+          "quote": "Muscle-strengthening activities were associated with a 15% lower risk of all-cause mortality (RR 0.85; 95% CI 0.79 to 0.93",
+          "scope": "기존직접수집XML의해당표/본문재열람.정확초기수집시각미기록,새HTTP아님.",
+          "read_at_utc": "2026-10-18T14:28:11.308490+00:00"
+        },
+        {
+          "id": "kaner",
+          "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/5f4aff456ae7268e9379.json",
+          "raw_sha256": "1a2faa368551ebedb724a94c23fd6c28f47eecd9893ad297454cd7fc98dee9a7",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1002%2F14651858.CD004148.pub4%22&format=json&resultType=core&pageSize=10",
+          "quote": "34 studies (15,197 participants)",
+          "scope": "제공된원초록RAW재열람.새HTTP/전체원문아님.",
+          "fetched_at": "2026-10-18T20:50:02.633185+09:00",
+          "read_at_utc": "2026-10-18T14:28:11.308490+00:00"
+        },
+        {
+          "id": "jonas",
+          "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/52ab8a5eff9189bb5042.json",
+          "raw_sha256": "cde67e843082b2ecd9a615cc80496394b912133b639b1f2ab3b28f882a58b5a5",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1001%2Fjama.2014.3628%22&format=json&resultType=core&pageSize=10",
+          "quote": "We included 122 RCTs and 1 cohort study (total 22,803 participants).",
+          "scope": "제공된원초록RAW재열람.새HTTP/전체원문아님.",
+          "fetched_at": "2026-10-18T20:50:02.869359+09:00",
+          "read_at_utc": "2026-10-18T14:28:11.308490+00:00"
+        },
+        {
+          "id": "lane-evidence",
+          "raw_path": "/tmp/ch02-audit/full-PMC10899807.body",
+          "raw_sha256": "45154cac70401515cd7f07cff88d9fdcd460a92d6ebc23fed3d28aa4d56da184",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10899807/fullTextXML",
+          "quote": "pre-specified evidence classification criteria were applied",
+          "scope": "기존직접수집XML의해당표/본문재열람.정확초기수집시각미기록,새HTTP아님.",
+          "read_at_utc": "2026-10-18T14:28:11.308490+00:00"
+        },
+        {
+          "id": "nap-rct",
+          "raw_path": "/tmp/ch02-audit/full-PMC12909254.body",
+          "raw_sha256": "04084d998cb0e5120dfc3cd4431e257c73cd8ed74f4d52639986c5801e23a569",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12909254/fullTextXML",
+          "quote": "One meta-analysis of 18 randomized controlled trials (RCTs)",
+          "scope": "기존직접수집XML의해당표/본문재열람.정확초기수집시각미기록,새HTTP아님.",
+          "read_at_utc": "2026-10-18T14:28:11.308490+00:00"
+        },
+        {
+          "id": "nap-chd",
+          "raw_path": "/tmp/ch02-audit/full-PMC12909254.body",
+          "raw_sha256": "04084d998cb0e5120dfc3cd4431e257c73cd8ed74f4d52639986c5801e23a569",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12909254/fullTextXML",
+          "quote": "napping is associated with an increased risk of CHD (RR = 1.30",
+          "scope": "기존직접수집XML의해당표/본문재열람.정확초기수집시각미기록,새HTTP아님.",
+          "read_at_utc": "2026-10-18T14:28:11.308490+00:00"
+        },
+        {
+          "id": "nap-diabetes",
+          "raw_path": "/tmp/ch02-audit/full-PMC12909254.body",
+          "raw_sha256": "04084d998cb0e5120dfc3cd4431e257c73cd8ed74f4d52639986c5801e23a569",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12909254/fullTextXML",
+          "quote": "diabetes (OR = 1.20, 95% CI: 1.14–1.27",
+          "scope": "기존직접수집XML의해당표/본문재열람.정확초기수집시각미기록,새HTTP아님.",
+          "read_at_utc": "2026-10-18T14:28:11.308490+00:00"
+        },
+        {
+          "id": "nap-obesity",
+          "raw_path": "/tmp/ch02-audit/full-PMC12909254.body",
+          "raw_sha256": "04084d998cb0e5120dfc3cd4431e257c73cd8ed74f4d52639986c5801e23a569",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12909254/fullTextXML",
+          "quote": "1.22",
+          "scope": "기존직접수집XML의해당표/본문재열람.정확초기수집시각미기록,새HTTP아님.",
+          "read_at_utc": "2026-10-18T14:28:11.308490+00:00"
+        }
+      ],
+      "formal_kr_fit": false,
+      "publication_ready": false
+    },
+    {
+      "batch": "5-r2",
+      "batch_manifest_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/author-batch-5-r2.json",
+      "batch_manifest_sha256": "66ac87d093df792bcd2b27099539566456f42618c792ae9ddd85277583e59268",
+      "reviewed_at_utc": "2026-10-18T14:28:45.319822+00:00",
+      "review_status": "complete",
+      "summary": {
+        "approve": 3,
+        "revise": 0
+      },
+      "entries": [
+        {
+          "number": 16,
+          "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-016-71f0/publication-entry-proposal-r2.md",
+          "proposal_sha256": "2bb09014b52824face59aa70d32383d203137d55a426b25ac518a388d601a97b",
+          "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-016-71f0/publication-entry-changes-r2.json",
+          "changes_sha256": "99111fcb5275354a3c8167be0ea8b787a28af7e4794c53bb55a6388573e35383",
+          "decision": "approve",
+          "why": "전체 사망 7연구·263,058명·42,133사망의 RR0.85(0.79–0.93)에 맞게 약15%로 귀속했습니다. 다른 결과를 합친 10~17% 범위를 사망에만 적용한 오류를 해결했습니다.",
+          "exact_single_replacement_verified": true,
+          "previous_proposal_sha256": "07b184706861db697b5178adf31e9a79d75dda2613b746058764119df87a6182",
+          "previous_changes_sha256": "0bacc58b0ba3cd5650ad47b15f5c0e5798460be372f72a34f3eb7f67ef0c4d1f",
+          "approval_scope": "정확 SHA fullentry 범위. 기존 승인 이력 보존. 전체 절 출판/정식 KR-FIT 아님."
+        },
+        {
+          "number": 28,
+          "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-028-ff01/publication-entry-proposal-r2.md",
+          "proposal_sha256": "441857b58bd3091d1b7fefe3918361ee580b1016cc144636aef706f12af6a113",
+          "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-028-ff01/publication-entry-changes-r2.json",
+          "changes_sha256": "8e2081a22ff7937ae2388d76f79c11086edb92c96fb179de9fe322844d968cc4",
+          "decision": "approve",
+          "why": "효과 크기의 강도와 근거 분류를 혼동하던 한 문장을 근거를 분류한 기준으로 수정했습니다. 원문의 분류 방법과 GRADE 구별을 보존합니다.",
+          "exact_single_replacement_verified": true,
+          "previous_proposal_sha256": "14ed897a9a8cf9515e8441ac47006486f2e6f639401e086d4d73b48b2b54fd28",
+          "previous_changes_sha256": "4f2eb06afe82504239d4ad6982e147d5cabe541fc4ef16dba84d84510e75d86b",
+          "approval_scope": "정확 SHA fullentry 범위. 기존 승인 이력 보존. 전체 절 출판/정식 KR-FIT 아님."
+        },
+        {
+          "number": 37,
+          "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-037-bf31/publication-entry-proposal-r2.md",
+          "proposal_sha256": "26fb0835ad22a247ab764fdb0d9b34249ae34120deb7dbecf93dc3c9b585873f",
+          "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-037-bf31/publication-entry-changes-r2.json",
+          "changes_sha256": "661af6ea32205979762ac44cd6cdcf8168eed90198394415dc9824729418f4dd",
+          "decision": "approve",
+          "why": "쉽게에서 조건 귀속이 충돌하는 >60분/30% 부차 수치를 제거했습니다. 이득의 원수치·초록/본문 차이 고지와 임상 점검 조건을 유지합니다. 이전 쉽게 승인은 이력으로 보존하고 이 fullentry의 쉽게가 대체합니다.",
+          "exact_single_replacement_verified": true,
+          "previous_proposal_sha256": "d6ccec9847acfbfe472b8982408ed522b206c2428c2c6e4e4a0d51f3cde5ae36",
+          "previous_changes_sha256": "b5ef554f994aa7f756f2633102b8a8e11a2b51192b000e0e6e8382e9a01c83bc",
+          "approval_scope": "정확 SHA fullentry 범위. 기존 승인 이력 보존. 전체 절 출판/정식 KR-FIT 아님."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9209691/fullTextXML",
+          "raw_path": "/tmp/ch02-audit/full-PMC9209691.body",
+          "raw_sha256": "ffe5462b860ed16387503b573c56b65debce95491864b1900fdc387496625c8a",
+          "read_at_utc": "2026-10-18T14:28:45.319822+00:00",
+          "original_fetch_time": null,
+          "scope": "기존 직접 수집 XML 해당 본문 재열람. 새 HTTP 아님. 초기 수집 시각 미기록.",
+          "quote": "15% lower risk of all-cause mortality"
+        },
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10899807/fullTextXML",
+          "raw_path": "/tmp/ch02-audit/full-PMC10899807.body",
+          "raw_sha256": "45154cac70401515cd7f07cff88d9fdcd460a92d6ebc23fed3d28aa4d56da184",
+          "read_at_utc": "2026-10-18T14:28:45.319822+00:00",
+          "original_fetch_time": null,
+          "scope": "기존 직접 수집 XML 해당 본문 재열람. 새 HTTP 아님. 초기 수집 시각 미기록.",
+          "quote": "evidence classification criteria"
+        },
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12909254/fullTextXML",
+          "raw_path": "/tmp/ch02-audit/full-PMC12909254.body",
+          "raw_sha256": "04084d998cb0e5120dfc3cd4431e257c73cd8ed74f4d52639986c5801e23a569",
+          "read_at_utc": "2026-10-18T14:28:45.319822+00:00",
+          "original_fetch_time": null,
+          "scope": "기존 직접 수집 XML 해당 본문 재열람. 새 HTTP 아님. 초기 수집 시각 미기록.",
+          "quote": "napping is associated with an increased risk of CHD (RR = 1.30"
+        }
+      ],
+      "formal_kr_fit": false,
+      "publication_ready": false
     }
-  ]
+  ],
+  "editorial_revision_reviews": [
+    {
+      "revision": "r2",
+      "manifest_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/editorial-r2-review-manifest.json",
+      "manifest_sha256": "1ffaacf83e58e646b5f5ac845a0f7fbea508efcef02923f284d4655545fdb9e5",
+      "reviewed_at_utc": "2026-10-18T14:11:53.156694+00:00",
+      "review_status": "complete",
+      "summary": {
+        "approve": 6,
+        "revise": 1
+      },
+      "entries": [
+        {
+          "number": 11,
+          "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-011-ed84/editorial-proposal-r2.json",
+          "sha256": "b75d3652688abfc529af9a3e4f2454ef1e5b812db3e2fe739e9488467741d262",
+          "source_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-011-ed84/strict-entry.md",
+          "source_sha256": "b5bb6c8f35179b7896519a503d18b5c65836a8bcf11786ab716a557e7573e844",
+          "decision": "approve",
+          "fields": [
+            {
+              "field": "쉽게",
+              "decision": "approve",
+              "before": "하루 7800보쯤 걷는 사람과 3500보쯤 걷는 사람을 비교했습니다. 같은 기간 죽을 확률은 많이 걷는 쪽이 45% 가깝게 낮습니다. 운동 시간으로 비교해도 사망 위험이 낮습니다. 일주일에 150~300분 빠르게 걷는 사람도 비교했습니다. 죽을 확률은 안 걷는 사람보다 30%쯤 낮습니다. 다만 일정량을 넘기면 위험이 더 낮아지지 않습니다. 예순이 넘었으면 6000~8000보로 충분합니다. 걸음 수나 운동 시간 중 하나만 채우세요.",
+              "after": "일주일에 150~300분 빠르게 걸으세요. 이만큼 움직인 사람은 활동 없는 사람보다 사망 위험이 약 30% 낮았습니다. 걷기 때문이라고 단정할 수는 없습니다. 걸음 수와 시간은 정확히 맞아떨어지지 않습니다.",
+              "after_chars": 115,
+              "why": "주150~300분빠르게걷기에대략해당하는7.5~15MET·h/주활동의무활동대비HR.69를약30%로요약했습니다. 인과단정과걸음수/시간정확등가를피했습니다. 기존논문의여러활동량을빠른걷기로대략환산한요약범위이며한국첨부지침본문현행성까지검증한것은아닙니다."
+            }
+          ],
+          "approval_scope": "이SHA의쉽게필드만.다른필드나항목전체사실검증/출판승인아님.",
+          "other_fields": "제안없음.미검증/미해결본문을승인하지않음."
+        },
+        {
+          "number": 16,
+          "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-016-71f0/editorial-proposal-r2.json",
+          "sha256": "57e7a3886428eb093df595131fb40d8e28514e67f5b67b4d85523787d0cc19a4",
+          "source_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-016-71f0/strict-entry.md",
+          "source_sha256": "a5a5919695e6caf26de96599870dcdf817b2e95bc8d321f3bd493f2d15ae8d42",
+          "decision": "approve",
+          "fields": [
+            {
+              "field": "쉽게",
+              "decision": "approve",
+              "before": "주 30~60분 근력 운동을 하는 사람을 비교했습니다. 같은 기간 사망 확률은 안 하는 쪽보다 10~20% 낮습니다. 그 이상 운동해도 추가 이득은 늘지 않습니다. 근력 운동과 유산소 운동을 함께 하면 가장 좋습니다.",
+              "after": "주 30~60분 근력 운동을 하는 사람의 사망 위험이 낮았습니다. 안 하는 사람보다 약 10~20% 낮았습니다. 운동 덕분인지는 확실하지 않습니다. 더 많이 했을 때의 이득은 확실하지 않습니다.",
+              "after_chars": 108,
+              "why": "원문주30~60분최대약10~20%관찰연관을보존하고고용량효과가불명확하다는실제결론으로한정해상한확정오독을줄였습니다. 쉽게만승인하며이득의‘그이상추가이득없음’문장은별도수정필요입니다."
+            }
+          ],
+          "approval_scope": "이SHA의쉽게필드만.다른필드나항목전체사실검증/출판승인아님.",
+          "other_fields": "제안없음.미검증/미해결본문을승인하지않음."
+        },
+        {
+          "number": 17,
+          "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-017-5e24/editorial-proposal-r2.json",
+          "sha256": "0e0f6cf24be70cf36dcd5c3cc204f6760a145ea0b3e1fad1d769593072725008",
+          "source_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-017-5e24/strict-entry.md",
+          "source_sha256": "9718dc3922f149c993d26b53ebe8fda39942cfd1cb2c4c7c4969c48c2bc0abac",
+          "decision": "approve",
+          "fields": [
+            {
+              "field": "쉽게",
+              "decision": "approve",
+              "before": "가장 오래 앉는 사람과 가장 적게 앉는 사람을 비교했습니다. 가장 오래 앉는 쪽은 죽을 확률이 2.6배입니다. 한 번에 오래 앉아 있어도 위험이 더 커집니다. 하루 60~75분 중간 강도로 움직이면 이 위험은 거의 상쇄됩니다.",
+              "after": "가장 오래 앉는 쪽의 사망 위험은 가장 적게 앉는 쪽의 2.6배였습니다. 몸이 나빠 오래 앉는 경우도 섞여 있습니다. 하루 60~75분 중간 강도로 움직인 쪽은 좌식 위험 차이가 뚜렷하지 않았습니다.",
+              "after_chars": 111,
+              "why": "Diaz사분위HR2.63과Ekelund가장활동적집단HR1.04(.99~1.10)의서로다른비교를대조했습니다. 역인과가능성을남기고개인별위험상쇄보장을통계적차이미검출로한정했습니다. 시간은중강도활동조건이며TV시청까지동일하게상쇄한다는뜻아닙니다."
+            }
+          ],
+          "approval_scope": "이SHA의쉽게필드만.다른필드나항목전체사실검증/출판승인아님.",
+          "other_fields": "제안없음.미검증/미해결본문을승인하지않음."
+        },
+        {
+          "number": 20,
+          "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-020-e74f/editorial-proposal-r2.json",
+          "sha256": "8c89ac3af2d4e913c01eb00e25d6a50ca521a9c73d355f5abe1e5c875e0e85c5",
+          "source_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-020-e74f/strict-entry.md",
+          "source_sha256": "b917002a3657a417f673e4c070f39375896e0b7f9eb2d3033b00d31fc9df8499",
+          "decision": "revise",
+          "fields": [
+            {
+              "field": "쉽게",
+              "decision": "revise",
+              "before": "매일 많이 마시다가 갑자기 끊으면 금단 증상이 나타납니다. 가벼운 증상으로는 손 떨림과 땀이 있습니다. 가슴이 두근거리거나 잠이 안 오기도 합니다. 심하면 경련이나 진전섬망이 나타납니다. 진전섬망은 생명을 위협하는 급성 질환입니다. 노르웨이에서 3만여 명을 추적했습니다. 진전섬망을 앓았던 집단에서는 이후 해마다 8%가 사망했습니다. 술을 끊고 싶으면 먼저 병원에 가세요. 하루에 얼마나 마시는지 말하세요.",
+              "after": "매일 많이 마시다 갑자기 끊거나 크게 줄이면 손 떨림 등이 생깁니다. 끊으려면 병원 도움을 받으세요. 온몸이 떨리거나 심하게 혼란스러우면 생명이 위험할 수 있습니다. 바로 응급진료를 받으세요.",
+              "after_chars": 107,
+              "why": "매일과음자가갑자기끊거나크게줄이면모두금단증상이필연적으로생긴다고읽히는‘생깁니다’를‘생길수있습니다’로고쳐야합니다. 급작스런중단/큰감량·병원도움·심한떨림/혼란시즉시응급진료는EJIM원초록과NHS공식본문에부합합니다. 이작은불확실성수정전r2는revise."
+            }
+          ],
+          "approval_scope": "이SHA의쉽게필드만.다른필드나항목전체사실검증/출판승인아님.",
+          "other_fields": "제안없음.미검증/미해결본문을승인하지않음."
+        },
+        {
+          "number": 21,
+          "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-021-e337/editorial-proposal-r2.json",
+          "sha256": "f6c5483df159b7f9d9a89ec31e04b3acbef40b579aedcca466d85d440262b749",
+          "source_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-021-e337/strict-entry.md",
+          "source_sha256": "cad3b7cfed81dd32de0d6da9f8d01ed0e73c4e60df40821928f4b87f17d01990",
+          "decision": "approve",
+          "fields": [
+            {
+              "field": "쉽게",
+              "decision": "approve",
+              "before": "의사가 몇 분간 음주량을 살핍니다. 음주 위험을 설명하고 목표도 함께 잡습니다. 이렇게 하면 1년 뒤 일주일에 순알코올을 평균 20g 덜 마십니다. 맥주 반 리터쯤에 해당합니다. 상담을 더 길게 해도 이득이 늘지는 않습니다. 이미 술을 멈추지 못하는 단계라면 약물 치료도 있습니다. 12명을 치료하면 한 명이 추가로 폭음을 피합니다.",
+              "after": "의사와 술을 줄일 목표를 잡으세요. 짧게 상담받은 쪽은 거의 상담받지 않거나 안 받은 쪽보다 덜 마셨습니다. 1년 뒤 주당 알코올이 평균 20g 적었습니다. 근거는 중간 수준이며 상담을 늘려도 더 낫지는 않았습니다.",
+              "after_chars": 120,
+              "why": "최소중재/무처치비교를일상말로명시하고1년주당평균20g및중간확실성을보존했습니다. 긴상담의관찰된추가효과미검출을요약한것이며모든장기상담이무효라고입증한뜻아닙니다. 약물검토전체122RCT+1코호트분모정정은쉽게승인으로해결되지않습니다."
+            }
+          ],
+          "approval_scope": "이SHA의쉽게필드만.다른필드나항목전체사실검증/출판승인아님.",
+          "other_fields": "제안없음.미검증/미해결본문을승인하지않음."
+        },
+        {
+          "number": 28,
+          "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-028-ff01/editorial-proposal-r2.json",
+          "sha256": "e9488a235f4d04a14d012820da1ae00a0ce5086f91e2d381d2b699f779e82386",
+          "source_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-028-ff01/strict-entry.md",
+          "source_sha256": "f4e5d2e531defd5f81a58bd46ba88ddfd11c11ea218887def78957cb9da6bfcb",
+          "decision": "approve",
+          "fields": [
+            {
+              "field": "쉽게",
+              "decision": "approve",
+              "before": "초가공식품을 가장 많이 먹는 사람과 가장 적게 먹는 사람을 비교했습니다. 같은 기간 죽을 확률은 많이 먹는 쪽이 20%쯤 높습니다. 심혈관 사망은 50%쯤 높습니다. 다만 이 근거는 불확실성이 크다고 평가했습니다. 수치는 그 한계를 감안해 보세요.",
+              "after": "초가공식품을 가장 많이 먹는 쪽과 가장 적게 먹는 쪽을 비교했습니다. 같은 기간 사망 위험은 많이 먹는 쪽이 20%쯤 높았습니다. 이 자료만으로 원인이라 단정할 수 없습니다. 근거가 불확실해 수치 해석에 주의하세요.",
+              "after_chars": 120,
+              "why": "가장높은섭취대가장낮은섭취의총사망RR1.21을약20%로요약하고원인단정금지·낮은확실성을유지했습니다. 쉽게만승인하며본문의‘반대결론연구지금까지없음’포괄부재단정은여전히미검증입니다."
+            }
+          ],
+          "approval_scope": "이SHA의쉽게필드만.다른필드나항목전체사실검증/출판승인아님.",
+          "other_fields": "제안없음.미검증/미해결본문을승인하지않음."
+        },
+        {
+          "number": 37,
+          "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-037-bf31/editorial-proposal-r2.json",
+          "sha256": "c68317dcecc27e723e6ad120fba719b8832c4778ae83e45db2b667f4ddff3a4a",
+          "source_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-037-bf31/strict-entry.md",
+          "source_sha256": "1dc589d7e2883589acd99da19bd2e4d00069bf7ea940b26f4b24001decfafe00",
+          "decision": "approve",
+          "fields": [
+            {
+              "field": "쉽게",
+              "decision": "approve",
+              "before": "낮잠이 한 시간 이내면 사망과 만성질환 위험이 오르지 않았습니다. 머리도 더 맑았습니다. 한 시간을 넘기면 관상동맥질환 위험은 30%쯤 높았습니다. 당뇨병과 비만 위험은 20%쯤 높았습니다. 알람을 맞추고 30분 뒤에 일어나세요. 매일 1~2시간은 자야 버틸 수 있다면 몸을 점검하세요.",
+              "after": "알람을 맞추고 30분 뒤에 일어나세요. 1시간 넘게 낮잠을 잔 사람은 관상동맥질환 위험이 약 30% 높았습니다. 매일 1~2시간은 자야 버틸 수 있다면 몸을 점검하세요.",
+              "after_chars": 94,
+              "why": "원문초록의>60분낮잠과관상동맥질환약30%연관을과거형으로요약하고30분알람/오래자야버티면점검조건을보존했습니다. 이30분은저자실천권고이지사망예방임계값입증이아닙니다. 비고의모든연구관찰자료일괄설명과당뇨OR/노출조건은별도해결필요입니다."
+            }
+          ],
+          "approval_scope": "이SHA의쉽게필드만.다른필드나항목전체사실검증/출판승인아님.",
+          "other_fields": "제안없음.미검증/미해결본문을승인하지않음."
+        }
+      ],
+      "sources": [
+        {
+          "id": "arem-walking",
+          "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/a3967d4d88be84683f13.json",
+          "raw_sha256": "549f6f8bbe29be27c99c840e6ca2bac9ddff082ea42d3ffaa8f33baae4ae4c71",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1001%2Fjamainternmed.2015.0533%22&format=json&resultType=core&pageSize=10",
+          "quote": "a 31% lower risk at 1 to 2 times the recommended minimum (HR, 0.69",
+          "scope": "제공된원초록RAW재열람.새HTTP/전체원문아님.",
+          "fetched_at": "2026-10-18T20:49:57.879658+09:00",
+          "read_at_utc": "2026-10-18T14:11:53.156694+00:00"
+        },
+        {
+          "id": "momma-higher-dose",
+          "raw_path": "/tmp/ch02-audit/full-PMC9209691.body",
+          "raw_sha256": "ffe5462b860ed16387503b573c56b65debce95491864b1900fdc387496625c8a",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9209691/fullTextXML",
+          "quote": "the influence of a higher volume of muscle-strengthening activities on all-cause mortality, CVD and total cancer is unclear",
+          "scope": "기존직접수집XML관련본문재열람.정확초기HTTP시각미기록,새HTTP아님.",
+          "fetched_at": null,
+          "read_at_utc": "2026-10-18T14:11:53.156694+00:00"
+        },
+        {
+          "id": "diaz-sedentary",
+          "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/e068967c4a851dd421bf.json",
+          "raw_sha256": "89e1cc99b7756659a5add3743d000870d75bfcae2649a53b129232b26ba5e652",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.7326%2FM17-0212%22&format=json&resultType=core&pageSize=10",
+          "quote": "2.63",
+          "scope": "제공된원초록RAW재열람.새HTTP/전체원문아님.",
+          "fetched_at": "2026-10-18T20:50:00.919988+09:00",
+          "read_at_utc": "2026-10-18T14:11:53.156694+00:00"
+        },
+        {
+          "id": "ekelund-sedentary",
+          "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/e522d333f433d51fb64d.json",
+          "raw_sha256": "ac3f7e3ebfa1388411fb6491d9e1a39cd263df03d329c88de532384b43a04606",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2FS0140-6736%2816%2930370-1%22&format=json&resultType=core&pageSize=10",
+          "quote": "HR=1·04; 95% CI 0·99-1·10",
+          "scope": "제공된원초록RAW재열람.새HTTP/전체원문아님.",
+          "fetched_at": "2026-10-18T20:50:00.959615+09:00",
+          "read_at_utc": "2026-10-18T14:11:53.156694+00:00"
+        },
+        {
+          "id": "aws-review",
+          "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/b9c928ac241d047dc531.json",
+          "raw_sha256": "1c302683b74114ab30e4f2a8e61e276beb38d585afb3eb8ccd1a22d6b7e07928",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2Fj.ejim.2026.107103%22&format=json&resultType=core&pageSize=10",
+          "quote": "after abrupt cessation or substantial reduction of sustained heavy alcohol use",
+          "scope": "제공된원초록RAW재열람.새HTTP/전체원문아님.",
+          "fetched_at": "2026-10-18T20:50:02.248109+09:00",
+          "read_at_utc": "2026-10-18T14:11:53.156694+00:00"
+        },
+        {
+          "id": "kaner-brief",
+          "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/5f4aff456ae7268e9379.json",
+          "raw_sha256": "1a2faa368551ebedb724a94c23fd6c28f47eecd9893ad297454cd7fc98dee9a7",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1002%2F14651858.CD004148.pub4%22&format=json&resultType=core&pageSize=10",
+          "quote": "mean difference (MD) -20 g/week",
+          "scope": "제공된원초록RAW재열람.새HTTP/전체원문아님.",
+          "fetched_at": "2026-10-18T20:50:02.633185+09:00",
+          "read_at_utc": "2026-10-18T14:11:53.156694+00:00"
+        },
+        {
+          "id": "jonas-denominator",
+          "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/52ab8a5eff9189bb5042.json",
+          "raw_sha256": "cde67e843082b2ecd9a615cc80496394b912133b639b1f2ab3b28f882a58b5a5",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1001%2Fjama.2014.3628%22&format=json&resultType=core&pageSize=10",
+          "quote": "We included 122 RCTs and 1 cohort study (total 22,803 participants).",
+          "scope": "제공된원초록RAW재열람.새HTTP/전체원문아님.",
+          "fetched_at": "2026-10-18T20:50:02.869359+09:00",
+          "read_at_utc": "2026-10-18T14:11:53.156694+00:00"
+        },
+        {
+          "id": "lane-upf",
+          "raw_path": "/tmp/ch02-audit/full-PMC10899807.body",
+          "raw_sha256": "45154cac70401515cd7f07cff88d9fdcd460a92d6ebc23fed3d28aa4d56da184",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10899807/fullTextXML",
+          "quote": "all cause mortality (risk ratio 1.21, 1.15 to 1.27; low)",
+          "scope": "기존직접수집XML관련본문재열람.정확초기HTTP시각미기록,새HTTP아님.",
+          "fetched_at": null,
+          "read_at_utc": "2026-10-18T14:11:53.156694+00:00"
+        },
+        {
+          "id": "du-nap30",
+          "raw_path": "/tmp/ch02-audit/full-PMC12909254.body",
+          "raw_sha256": "04084d998cb0e5120dfc3cd4431e257c73cd8ed74f4d52639986c5801e23a569",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12909254/fullTextXML",
+          "quote": "Napping for >60",
+          "scope": "기존직접수집XML관련본문재열람.정확초기HTTP시각미기록,새HTTP아님.",
+          "fetched_at": null,
+          "read_at_utc": "2026-10-18T14:11:53.156694+00:00"
+        },
+        {
+          "id": "du-rct",
+          "raw_path": "/tmp/ch02-audit/full-PMC12909254.body",
+          "raw_sha256": "04084d998cb0e5120dfc3cd4431e257c73cd8ed74f4d52639986c5801e23a569",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12909254/fullTextXML",
+          "quote": "One meta-analysis of 18 randomized controlled trials (RCTs)",
+          "scope": "기존직접수집XML관련본문재열람.정확초기HTTP시각미기록,새HTTP아님.",
+          "fetched_at": null,
+          "read_at_utc": "2026-10-18T14:11:53.156694+00:00"
+        },
+        {
+          "id": "du-diabetes-or",
+          "raw_path": "/tmp/ch02-audit/full-PMC12909254.body",
+          "raw_sha256": "04084d998cb0e5120dfc3cd4431e257c73cd8ed74f4d52639986c5801e23a569",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12909254/fullTextXML",
+          "quote": "diabetes (OR = 1.20, 95% CI: 1.14–1.27",
+          "scope": "기존직접수집XML관련본문재열람.정확초기HTTP시각미기록,새HTTP아님.",
+          "fetched_at": null,
+          "read_at_utc": "2026-10-18T14:11:53.156694+00:00"
+        },
+        {
+          "name": "aws-nhs",
+          "url": "https://www.nhs.uk/conditions/alcohol-misuse/treatment/",
+          "raw_path": "/tmp/ch02-audit/aws-nhs.body",
+          "status": 200,
+          "started_utc": "2026-10-18T14:08:20.639535+00:00",
+          "completed_utc": "2026-10-18T14:08:22.290618+00:00",
+          "id": "aws-nhs",
+          "raw_sha256": "1112c4852fe2f18c23fcf26b2639e1bc7d64b31117db9329751c8c9c257104a1",
+          "read_at_utc": "2026-10-18T14:11:53.156694+00:00",
+          "scope": "새HTTPS직접수집·NHS공식본문의금단/떨림/혼란/발작및즉시응급진료문장열람.영국전화번호를한국독자본문으로옮기지않음.",
+          "quote": "Immediate action required: Call 999 or go to A&E if: You or someone else has severe withdrawal symptoms after stopping drinking alcohol, such as: shaking visibly … confusion … having a seizure.",
+          "raw_utf8": "﻿<!DOCTYPE html>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    <meta name=\"description\" content=\"Find out about alcohol-use disorder, sometimes called alcoholism, including symptoms, treatment, and how to get help.\">\n    <meta name=\"google-site-verification\" content=\"a4yrvgi5ZlBnKWfqFKkQ3_mEjqow_fpwbtF2bUTmZgc\" />\n    \n    <link rel=\"canonical\" href=\"https://www.nhs.uk/conditions/alcohol-use-disorder/\">\n\n    \n\n    <title>Alcohol-use disorder - NHS</title>\n\n    <link href=\"https://assets.nhs.uk/\" rel=\"preconnect\" crossorigin>\n    <link type=\"font/woff2\" href=\"https://assets.nhs.uk/fonts/FrutigerLTW01-55Roman.woff2\" rel=\"preload\" as=\"font\" crossorigin>\n    <link type=\"font/woff2\" href=\"https://assets.nhs.uk/fonts/FrutigerLTW01-65Bold.woff2\" rel=\"preload\" as=\"font\" crossorigin>\n\n    <link rel=\"stylesheet\" href=\"/static/nhsuk/css/main.c2eea934c468.css\" type=\"text/css\" />\n\n    \n      \n    \n\n    \n      <script type=\"application/ld+json\">{\"@context\": \"http://schema.org\", \"@type\": \"MedicalWebPage\", \"about\": {\"@type\": \"WebPage\", \"alternateName\": \"\", \"name\": \"Alcohol-use disorder\"}, \"author\": {\"@type\": \"Organization\", \"email\": \"nhswebsite.servicedesk@nhs.net\", \"logo\": \"https://assets.nhs.uk/nhsuk-cms/images/nhs-attribution.width-510.png\", \"name\": \"NHS website\", \"url\": \"https://www.nhs.uk\"}, \"breadcrumb\": {\"@context\": \"http://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"item\": {\"@id\": \"https://www.nhs.uk/conditions/\", \"genre\": [], \"name\": \"Conditions A to Z\"}, \"position\": 0}, {\"@type\": \"ListItem\", \"item\": {\"@id\": \"https://www.nhs.uk/conditions/alcohol-use-disorder/\", \"genre\": [\"Condition\"], \"name\": \"Alcohol-use disorder\"}, \"position\": 1}]}, \"copyrightHolder\": {\"@type\": \"Organization\", \"name\": \"Crown Copyright\"}, \"dateModified\": \"2026-07-21T10:33:29+00:00\", \"description\": \"Find out about alcohol-use disorder, sometimes called alcoholism, including symptoms, treatment, and how to get help.\", \"genre\": [\"Condition\"], \"hasPart\": [{\"@type\": \"HealthTopicContent\", \"description\": \"Alcohol-use disorder is drinking in a way that's harmful. People sometimes call this alcoholism.\", \"hasHealthAspect\": \"http://schema.org/OverviewHealthAspect\", \"hasPart\": [{\"@type\": \"WebPageElement\", \"headline\": \"Alcohol-use disorder\", \"text\": \"Symptoms\"}, {\"@type\": \"WebPageElement\", \"headline\": \"Alcohol-use disorder\", \"text\": \"Complications\"}, {\"@type\": \"WebPageElement\", \"headline\": \"Alcohol-use disorder\", \"text\": \"Medical treatments\"}, {\"@type\": \"WebPageElement\", \"headline\": \"Alcohol-use disorder\", \"text\": \"Self-care\"}, {\"@type\": \"WebPageElement\", \"text\": \"<p>Signs of alcohol-use disorder include finding it hard to stop or control your drinking and getting withdrawal symptoms when you try to stop.</p> \"}, {\"@type\": \"WebPageElement\", \"text\": \"<p>Risks of alcohol-use disorder include injuries, alcohol poisoning, damage to your liver and heart, stroke, and many types of cancer.</p> \"}, {\"@type\": \"WebPageElement\", \"text\": \"<p>Treatment for alcohol-use disorder includes support to stop drinking safely, talking therapies, and medicines to reduce alcohol cravings.</p> \"}, {\"@type\": \"WebPageElement\", \"text\": \"<p>Things you can do to stop or cut down drinking include keeping a drinking diary, avoiding situations where you may drink and joining a support group.</p> \"}], \"headline\": \"\", \"url\": \"https://www.nhs.uk/conditions/alcohol-use-disorder/#overview\"}, {\"@type\": \"HealthTopicContent\", \"description\": \"Signs of alcohol-use disorder include finding it hard to stop or control your drinking and getting withdrawal symptoms when you try to stop.\", \"hasHealthAspect\": \"http://schema.org/SymptomsHealthAspect\", \"hasPart\": [{\"@type\": \"WebPageElement\", \"headline\": \"\", \"text\": \"<p>Signs of alcohol-use disorder include:</p><ul><li>regularly drinking more alcohol than you mean to</li><li>difficulty stopping or reducing the amount you drink, even if you want to</li><li>feeling guilty or remorseful after drinking</li><li>people you know being concerned about your drinking</li><li>continuing to drink even when it's causing problems for your health, work or relationships</li><li>craving alcohol, for example, needing a drink when you wake up in the morning</li><li>needing increasing amounts of alcohol to get the same effect</li><li>getting withdrawal symptoms when you stop or reduce drinking</li></ul><h3>Alcohol withdrawal symptoms</h3><p>If you stop drinking or cut down, you may get withdrawal symptoms. This is a sign your body is dependent on alcohol. Symptoms include:</p><ul><li>anxiety</li><li>difficulty sleeping</li><li>feeling and being sick (nausea and vomiting)</li><li>a racing heartbeat, sweating and shaking (tremor)</li><li>seeing, hearing or feeling things that are not there (hallucinations)</li><li>confusion</li><li>seizures</li></ul><p>Withdrawal symptoms begin within 6 to 12 hours of your last drink, and usually last from 3 to 7 days. But some symptoms may last for a few months, especially if you drink heavily.</p>\"}, {\"@type\": \"WebPageElement\", \"headline\": \"Important\", \"text\": \"<p>It can be very dangerous to stop drinking suddenly if you're dependent on alcohol. If you get withdrawal symptoms, get medical help before you try to stop drinking.</p>\"}], \"headline\": \"Signs of alcohol-use disorder\", \"url\": \"https://www.nhs.uk/conditions/alcohol-use-disorder/#symptoms\"}, {\"@type\": \"HealthTopicContent\", \"description\": \"\", \"hasHealthAspect\": \"http://schema.org/MedicalHelpNonurgentHealthAspect\", \"hasPart\": [{\"@type\": \"WebPageElement\", \"headline\": \"See a GP or an alcohol addiction support service if:\", \"identifier\": \"primary\", \"text\": \"<ul>\\n<li>\\n  you're worried about your drinking\\n </li>\\n<li>\\n  you want help to stop drinking\\n </li>\\n<li>\\n  you get symptoms like anxiety, difficulty sleeping, sweating or feeling and being sick when you try to stop drinking\\n </li>\\n<li>\\n  you're worried about someone else's drinking\\n </li>\\n</ul>\\n<div class=\\\"block-action_link\\\">\\n<a class=\\\"nhsuk-action-link\\\" href=\\\"/nhs-services/find-alcohol-addiction-support-services/\\\">\\n<svg aria-hidden=\\\"true\\\" class=\\\"nhsuk-icon nhsuk-icon--arrow-right-circle\\\" focusable=\\\"false\\\" height=\\\"16\\\" viewbox=\\\"0 0 24 24\\\" width=\\\"16\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\">\\n<path d=\\\"M12 2a10 10 0 0 0-10 9h11.7l-4-4a1 1 0 0 1 1.5-1.4l5.6 5.7a1 1 0 0 1 0 1.4l-5.6 5.7a1 1 0 0 1-1.5 0 1 1 0 0 1 0-1.4l4-4H2A10 10 0 1 0 12 2z\\\">\\n</path>\\n</svg>\\n<span class=\\\"nhsuk-action-link__text\\\">\\n   Find alcohol addiction support services\\n  </span>\\n</a>\\n</div>\"}], \"headline\": \"\", \"url\": \"https://www.nhs.uk/conditions/alcohol-use-disorder/#non-urgent-medical-help-old\"}, {\"@type\": \"HealthTopicContent\", \"description\": \"\", \"hasHealthAspect\": \"http://schema.org/MedicalHelpEmergencyHealthAspect\", \"hasPart\": [{\"@type\": \"WebPageElement\", \"headline\": \"Call 999 or go to A&E if:\", \"identifier\": \"immediate\", \"text\": \"<p>\\n You or someone else has severe withdrawal symptoms after stopping drinking alcohol, such as:\\n</p>\\n<ul>\\n<li>\\n  shaking visibly\\n </li>\\n<li>\\n  being unusually restless, irritable or upset\\n </li>\\n<li>\\n  confusion (for example, not knowing what day it is)\\n </li>\\n<li>\\n  seeing, hearing, or feeling things that are not there\\n </li>\\n<li>\\n  having a seizure\\n </li>\\n</ul>\\n<div class=\\\"block-action_link\\\">\\n<a class=\\\"nhsuk-action-link\\\" href=\\\"https://www.nhs.uk/service-search/find-an-accident-and-emergency-service/\\\">\\n<svg aria-hidden=\\\"true\\\" class=\\\"nhsuk-icon nhsuk-icon--arrow-right-circle\\\" focusable=\\\"false\\\" height=\\\"16\\\" viewbox=\\\"0 0 24 24\\\" width=\\\"16\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\">\\n<path d=\\\"M12 2a10 10 0 0 0-10 9h11.7l-4-4a1 1 0 0 1 1.5-1.4l5.6 5.7a1 1 0 0 1 0 1.4l-5.6 5.7a1 1 0 0 1-1.5 0 1 1 0 0 1 0-1.4l4-4H2A10 10 0 1 0 12 2z\\\">\\n</path>\\n</svg>\\n<span class=\\\"nhsuk-action-link__text\\\">\\n   Find your nearest A&amp;E\\n  </span>\\n</a>\\n</div>\"}, {\"@type\": \"WebPageElement\", \"headline\": \"A&E safety messaging\", \"text\": \"<p>Do not drive to A&amp;E. Ask someone to drive you or call 999 and ask for an ambulance.</p><p>Bring any medicines you take with you.</p>\"}], \"headline\": \"\", \"url\": \"https://www.nhs.uk/conditions/alcohol-use-disorder/#emergency-medical-help-old\"}, {\"@type\": \"HealthTopicContent\", \"description\": \"Alcohol-use disorder is diagnosed by asking questions about your drinking and how it's affecting your life.\", \"hasHealthAspect\": \"http://schema.org/DiagnosisHealthAspect\", \"hasPart\": [{\"@type\": \"WebPageElement\", \"headline\": \"\", \"text\": \"<p>If you see a GP or alcohol support service about your alcohol use, they will ask about your drinking and how it's affecting your life. You may be asked to fill in a questionnaire about your symptoms.</p><p>You may also be offered blood tests to check if your drinking is affecting your health.</p>\"}], \"headline\": \"How alcohol-use disorder is diagnosed\", \"url\": \"https://www.nhs.uk/conditions/alcohol-use-disorder/#diagnosis\"}, {\"@type\": \"HealthTopicContent\", \"description\": \"Treatment for alcohol-use disorder includes support to stop drinking safely, talking therapies, and medicines to reduce alcohol cravings.\", \"hasHealthAspect\": \"http://schema.org/TreatmentsHealthAspect\", \"hasPart\": [{\"@type\": \"WebPageElement\", \"headline\": \"\", \"text\": \"<p>You can get treatment for alcohol-use disorder from your GP or a specialist alcohol addiction service.</p><p>The aim of treatment is usually to help you stop drinking completely, especially if you're dependent on alcohol. But if you're not ready to stop yet, or just want to cut down, you'll be supported to reduce your drinking to a safer level.</p><p>Treatment for alcohol-use disorder can include:</p><ul><li>talking therapies such as <a href=\\\"/tests-and-treatments/cognitive-behavioural-therapy-cbt/\\\">cognitive behavioural therapy (CBT)</a></li><li>medical help for withdrawal symptoms when you stop drinking alcohol, either at home or in hospital</li><li>help to prevent relapses (where you start drinking again), such as medicines to reduce alcohol cravings</li><li>support to make positive changes in other areas of your life, such as your relationships</li><li>help accessing other forms of support, for example with employment or housing</li></ul><h3>Medicines for alcohol-use disorder</h3><p>Medicines for alcohol-use disorder can help you to avoid drinking. They're usually offered once you've stopped drinking and need help to stay sober.</p><p>These medicines can include:</p><ul><li>acamprosate or naltrexone, which help reduce alcohol cravings</li><li>disulfiram, which causes unpleasant effects (such as a headache, feeling sick, high body temperature and heart palpitations) when combined with alcohol</li></ul>\"}], \"headline\": \"Treatment for alcohol-use disorder\", \"url\": \"https://www.nhs.uk/conditions/alcohol-use-disorder/#medical-treatments\"}, {\"@type\": \"HealthTopicContent\", \"description\": \"Risks of alcohol-use disorder include injuries, alcohol poisoning, damage to your liver and heart, stroke, and many types of cancer.\", \"hasHealthAspect\": \"http://schema.org/RisksOrComplicationsHealthAspect\", \"hasPart\": [{\"@type\": \"WebPageElement\", \"headline\": \"\", \"text\": \"<p>Drinking too much alcohol is very bad for your health. Stopping drinking is the best way to reduce your risk of serious health problems.</p><p>Short term risks of drinking too much include:</p><ul><li>serious accidents or injuries while drunk</li><li><a href=\\\"/conditions/alcohol-poisoning/\\\">alcohol poisoning</a></li></ul><p>Longer term risks include:</p><ul><li>liver damage such as <a href=\\\"/conditions/alcohol-related-liver-disease-arld/\\\">alcohol-related liver disease</a></li><li>increased risk of many different types of <a href=\\\"/conditions/cancer/\\\">cancer</a></li><li><a href=\\\"/conditions/high-blood-pressure/\\\">high blood pressure</a> and <a href=\\\"/conditions/stroke/\\\">stroke</a></li><li>heart problems including <a href=\\\"/conditions/cardiomyopathy/\\\">cardiomyopathy</a> and <a href=\\\"/conditions/heart-failure/\\\">heart failure</a></li><li><a href=\\\"/conditions/acute-pancreatitis/\\\">acute pancreatitis</a> and <a href=\\\"/conditions/chronic-pancreatitis/\\\">chronic pancreatitis</a></li><li>mental health conditions such as anxiety and depression</li><li>alcohol related brain damage</li></ul><h3>Risks of drinking alcohol when pregnant</h3><p>If you're pregnant or planning to get pregnant, it's recommended that you don't drink any alcohol.</p><p>Drinking alcohol during pregnancy increases the risk of miscarriage, stillbirth and premature birth. It also puts your baby at risk of long-term problems such as <a href=\\\"/conditions/fetal-alcohol-spectrum-disorder/\\\">fetal alcohol spectrum disorder</a>.</p><p>If you're finding it hard to stop drinking while you're pregnant or planning to get pregnant, get help from your GP or an alcohol support service.</p>\"}], \"headline\": \"Risks of alcohol-use disorder\", \"url\": \"https://www.nhs.uk/conditions/alcohol-use-disorder/#complications\"}, {\"@type\": \"HealthTopicContent\", \"description\": \"Things you can do to stop or cut down drinking include keeping a drinking diary, avoiding situations where you may drink and joining a support group.\", \"hasHealthAspect\": \"http://schema.org/SelfCareHealthAspect\", \"hasPart\": [{\"@type\": \"WebPageElement\", \"headline\": \"\", \"text\": \"<p>There are things you can do to help stop or reduce your drinking.</p><p>Get medical help before you stop or reduce drinking if you get withdrawal symptoms.</p>\"}, {\"@type\": \"WebPageElement\", \"headline\": \"Do\", \"text\": \"<ul><li><p>keep a daily diary of how much you're drinking, or try a drink tracking app</p></li><li><p>to cut down, try alternating alcoholic drinks with soft drinks, or choose lower strength (ABV in %) drinks</p></li><li><p>tell people you're stopping drinking so they can help keep you on track</p></li><li><p>avoid situations where you know you're likely to drink</p></li><li><p>find different activities to do when you'd usually drink, such as trying a new hobby</p></li><li><p>try joining a support group</p></li></ul>\"}], \"headline\": \"Things you can do to stop or cut down drinking\", \"url\": \"https://www.nhs.uk/conditions/alcohol-use-disorder/#self-care\"}, {\"@type\": \"HealthTopicContent\", \"description\": \"If you or someone you know has a drinking problem, you can get support from groups like Alcoholics Anonymous, Al-Anon UK and SMART Recovery.\", \"hasHealthAspect\": \"http://schema.org/LivingWithHealthAspect\", \"hasPart\": [{\"@type\": \"WebPageElement\", \"headline\": \"\", \"text\": \"<p>Stopping drinking can be difficult. You can get support from your GP or alcohol addiction support services.</p><p>There are also charities and peer support groups where you can get support from other people going through the same thing.</p><h3>Support groups</h3><p>Organisations offering support for people trying to stop drinking, including helplines and support groups, include:</p><ul><li><a href=\\\"https://www.alcoholics-anonymous.org.uk/\\\">Alcoholics Anonymous</a></li><li><a href=\\\"https://smartrecovery.org.uk/\\\">SMART Recovery</a></li></ul><h3>Support for friends, family and carers</h3><p>Organisations offering support for friends, family and carers, including helplines and support groups, include:</p><ul><li><a href=\\\"https://al-anonuk.org.uk/\\\">Al-Anon UK</a></li><li><a href=\\\"https://smartrecovery.org.uk/smart_family__friends/\\\">SMART Recovery: family and friends programme</a></li><li><a href=\\\"https://adfam.org.uk/for-families/\\\">Adfam</a></li></ul><p>More information about supporting someone else:</p><ul><li><a href=\\\"https://alcoholchange.org.uk/help-and-support/get-help-now/family-and-friends\\\">Help for family and friends (Alcohol Change UK)</a></li><li><a href=\\\"https://carers.org/caring-for-someone-with-a-specific-condition/alcohol-substance-misuse-and-addiction\\\">Caring for someone with alcohol or substance misuse issues (Carer's Trust)</a></li></ul>\"}], \"headline\": \"Support for alcohol-use disorder\", \"url\": \"https://www.nhs.uk/conditions/alcohol-use-disorder/#support\"}], \"keywords\": \"\", \"lastReviewed\": [\"2026-04-24T15:43:00+00:00\", \"2029-04-24T15:43:00+00:00\"], \"license\": \"https://developer.api.nhs.uk/terms\", \"name\": \"Alcohol-use disorder\", \"relatedLink\": [{\"@type\": \"LinkRole\", \"linkRelationship\": \"Navigation\", \"name\": \"Conditions A to Z\", \"position\": 0, \"url\": \"https://www.nhs.uk/conditions/\"}], \"schemaVersion\": \"http://schema.org/version/13.0\", \"url\": \"https://www.nhs.uk/conditions/alcohol-use-disorder/\"}</script>\n    \n\n    \n  \n\n\n    <link rel=\"shortcut icon\" href=\"/static/nhsuk/img/favicons/favicon.68c7f017cfba.ico\" type=\"image/x-icon\">\n    <link rel=\"apple-touch-icon\" href=\"/static/nhsuk/img/favicons/apple-touch-icon-180x180.15a5044def06.png\">\n    <link rel=\"mask-icon\" href=\"/static/nhsuk/img/favicons/favicon.25bc75538faa.svg\" color=\"#005eb8\">\n    <link rel=\"icon\" sizes=\"192x192\" href=\"/static/nhsuk/img/favicons/favicon-192x192.43924bfe6c7e.png\">\n    <meta name=\"msapplication-TileImage\" content=\"/static/nhsuk/img/favicons/mediumtile-144x144.cf4985872492.png\">\n    <meta name=\"msapplication-TileColor\" content=\"#005eb8\">\n    <meta name=\"msapplication-square70x70logo\" content=\"/static/nhsuk/img/favicons/smalltile-70x70.29f75b06cf75.png\">\n    <meta name=\"msapplication-square150x150logo\" content=\"/static/nhsuk/img/favicons/mediumtile-150x150.89688d93af5b.png\">\n    <meta name=\"msapplication-wide310x150logo\" content=\"/static/nhsuk/img/favicons/widetile-310x150.535c3996630d.png\">\n    <meta name=\"msapplication-square310x310logo\" content=\"/static/nhsuk/img/favicons/largetile-310x310.294742e00ff4.png\">\n\n    \n\n    \n      <meta property=\"og:url\" content=\"https://www.nhs.uk/conditions/alcohol-use-disorder/\">\n      <meta property=\"og:site_name\" content=\"nhs.uk\">\n      <meta property=\"og:title\" content=\"Alcohol-use disorder\"/>\n      <meta property=\"og:description\" content=\"Find out about alcohol-use disorder, sometimes called alcoholism, including symptoms, treatment, and how to get help.\">\n      <meta property=\"og:type\" content=\"website\">\n      <meta property=\"og:locale\" content=\"en_GB\">\n      <meta property=\"og:image\" content=\"https://www.nhs.uk/static/nhsuk/img/default-social-image.a74435697f45.png\">\n      <meta property=\"og:image:alt\" content=\"nhs.uk\"/>\n      <meta property=\"article:author\" content=\"https://www.facebook.com/nhswebsite/\">\n      <meta property=\"article:modified_time\" content=\"21 Jul 2026, 11:33 a.m.\">\n      <meta property=\"article:published_time\" content=\"28 Apr 2026, 2:45 p.m.\">\n      \n      <meta name=\"twitter:card\" content=\"summary_large_image\">\n      <meta name=\"twitter:site\" content=\"@nhsuk\">\n      <meta name=\"twitter:creator\" content=\"@nhsuk\">\n      <meta name=\"twitter:image:alt\" content=\"nhs.uk\"/>\n    \n\n    \n    \n      <script src=\"https://www.nhsapp.service.nhs.uk/js/v2/nhsapp.js\" defer></script>\n    \n    <script src=\"/static/nhsuk/js/main.85b2a241f093.js\" defer></script>\n\n    \n      <script src=\"//assets.nhs.uk/scripts/cookie-consent.js\"></script>\n    \n\n\n\n    \n      \n        \n        <script id=\"adobe-target-configuration\">\n  function setUpTarget() {\n    // Enable Target tracking\n    window.targetPageParams = () => ({\n      at_property: \"b477157d-6850-20b1-d82a-5da5c184f634\",\n    });\n    window.targetGlobalSettings = {\n      cookieDomain: window.location.hostname,\n    };\n    // Obscure page while target does its magic if this visit is part of an A/B test\n    (function (win, doc) {\n      var STYLE_ID = \"at-body-style\";\n\n      function getParent() {\n        return doc.getElementsByTagName(\"head\")[0];\n      }\n\n      function addStyle(parent, id, def) {\n        if (!parent) {\n          return;\n        }\n\n        var style = doc.createElement(\"style\");\n        style.id = id;\n        style.innerHTML = def;\n        parent.appendChild(style);\n      }\n\n      function removeStyle(parent, id) {\n        if (!parent) {\n          return;\n        }\n\n        var style = doc.getElementById(id);\n\n        if (!style) {\n          return;\n        }\n\n        style.remove();\n      }\n\n      var style = \"body {opacity: 0 !important}\";\n      var timeout = 3000;\n\n      addStyle(getParent(), STYLE_ID, style);\n      setTimeout(function () {\n        removeStyle(getParent(), STYLE_ID);\n      }, timeout);\n    })(window, document);\n  }\n</script>\n\n        <script>\n          // Enable Adobe target only if there is statistics consent cookie\n          if(NHSCookieConsent.getStatistics()) {\n              setUpTarget();\n          }\n        </script>\n      \n\n      <script type=\"application/javascript\">window.digitalData=\n            {\"page\": {\n                \"pageInfo\": {\n                    \"pageName\": \"nhs:web:conditions:alcohol-use-disorder\"\n               },\n                \"category\":\n                    {\n            \"primaryCategory\": \"conditions\",\n            \"subCategory1\":\"alcohol-use-disorder\",\n            \"subCategory2\":\"\",\n            \"subCategory3\":\"\"\n            }\n                },\n               };\n            </script>\n\n      \n      \n      <script\n        id=\"adobe-analytics\"\n        src=\"https://assets.adobedtm.com/launch-ENe7f6cdd7cc05409b86547d9153429788.min.js\"\n        type=\"text/plain\"\n        data-cookieconsent=\"statistics\"\n        async\n      ></script>\n\n    \n\n    <script>\n      window.NHSUK_SETTINGS = {};\n      window.NHSUK_SETTINGS.BANNER_API_URL = \"//www.nhs.uk/externalservices/surveyfeedapi/api/emergency-banners\";\n      window.NHSUK_SETTINGS.BANNER_TEST_API_URL = \"//www.nhs.uk/externalservices/surveyfeedapi/api/testfeed\";\n      \n      window.NHSUK_SETTINGS.SUGGESTIONS_TEST_HOST = \"//www.nhs.uk/search/autocomplete\";\n      window.NHSUK_SETTINGS.SEARCH_TEST_HOST = \"//www.nhs.uk/search/results\";\n      window.NHSUK_SETTINGS.USER_FEEDBACK_STORE_ENDPOINT = \"https://nhsuk-user-feedback-func-prod-uks.azurewebsites.net/\";\n    </script>  \n\n    \n  </head>\n\n  <body class=\"\">\n    <script>document.body.className += ' js-enabled' + ('noModule' in HTMLScriptElement.prototype ? ' nhsuk-frontend-supported' : '');</script>\n    \n\n    \n      <a class=\"nhsuk-skip-link\" data-module=\"nhsuk-skip-link\" href=\"#maincontent\">Skip to main content</a>\n\n\n      \n\n<header class=\"nhsuk-header\" role=\"banner\" data-module=\"nhsuk-header\">\n  <div class=\"nhsuk-width-container nhsuk-header__container\" id=\"content-header\">\n\n    <div class=\"nhsuk-header__service\">\n      <a class=\"nhsuk-header__service-logo\" href=\"/\" aria-label=\"NHS homepage\">\n        <svg class=\"nhsuk-header__logo\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 80\" height=\"40\" width=\"100\" focusable=\"false\" role=\"img\" aria-label=\"NHS\">\n          <title>NHS</title>\n          <path fill=\"currentcolor\" d=\"M200 0v80H0V0h200Zm-27.5 5.5c-14.5 0-29 5-29 22 0 10.2 7.7 13.5 14.7 16.3l.7.3c5.4 2 10.1 3.9 10.1 8.4 0 6.5-8.5 7.5-14 7.5s-12.5-1.5-16-3.5L135 70c5.5 2 13.5 3.5 20 3.5 15.5 0 32-4.5 32-22.5 0-19.5-25.5-16.5-25.5-25.5 0-5.5 5.5-6.5 12.5-6.5a35 35 0 0 1 14.5 3l4-13.5c-4.5-2-12-3-20-3Zm-131 2h-22l-14 65H22l9-45h.5l13.5 45h21.5l14-65H64l-9 45h-.5l-13-45Zm63 0h-18l-13 65h17l6-28H117l-5.5 28H129l13.5-65H125L119.5 32h-20l5-24.5Z\"></path>\n        </svg>\n      </a>\n    </div>\n\n    <search class=\"nhsuk-header__search\">\n      <div class=\"nhsuk-header__search-wrap js-show\" id=\"wrap-search\">\n        <form class=\"nhsuk-header__search-form\" id=\"search\" action=\"/search/\" method=\"get\" role=\"search\">\n          <label class=\"nhsuk-u-visually-hidden\" for=\"search-field\">Search the NHS website</label>\n          <div class=\"autocomplete-container\" id=\"autocomplete-container\"></div>\n          <input class=\"nhsuk-input\" id=\"search-field\" name=\"q\" type=\"search\" placeholder=\"Search\" autocomplete=\"off\">\n          <button class=\"nhsuk-button nhsuk-button--small\" type=\"submit\">\n            <svg class=\"nhsuk-icon nhsuk-icon--search\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\">\n              <path d=\"M19.71 18.29l-4.11-4.1a7 7 0 1 0-1.41 1.41l4.1 4.11a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.42zM5 10a5 5 0 1 1 5 5 5 5 0 0 1-5-5z\"></path>\n            </svg>\n            <span class=\"nhsuk-u-visually-hidden\">Search</span>\n          </button>\n        </form>\n      </div>\n    </search>\n\n  </div>\n\n  \n\n    <nav class=\"nhsuk-header__navigation\" id=\"header-navigation\" aria-label=\"Primary navigation\">\n      <div class=\"nhsuk-header__navigation-container nhsuk-width-container\">\n        <ul class=\"nhsuk-header__navigation-list\">\n          \n            \n              <li class=\"nhsuk-header__navigation-item nhsuk-header__navigation-item--current\">\n                <a class=\"nhsuk-header__navigation-link\" href=\"/health-a-to-z/\" aria-current=\"true\">\n                  <strong class=\"nhsuk-header__navigation-item-current-fallback\">Health A to Z</strong>\n                </a>\n              </li>\n            \n          \n            \n              <li class=\"nhsuk-header__navigation-item\">\n                <a class=\"nhsuk-header__navigation-link\" href=\"/nhs-services/\">\n                  NHS services\n                </a>\n              </li>\n            \n          \n            \n              <li class=\"nhsuk-header__navigation-item\">\n                <a class=\"nhsuk-header__navigation-link\" href=\"/live-well/\">\n                  Healthy living\n                </a>\n              </li>\n            \n          \n            \n              <li class=\"nhsuk-header__navigation-item\">\n                <a class=\"nhsuk-header__navigation-link\" href=\"/mental-health/\">\n                  Mental health\n                </a>\n              </li>\n            \n          \n            \n              <li class=\"nhsuk-header__navigation-item\">\n                <a class=\"nhsuk-header__navigation-link\" href=\"/social-care-and-support/\">\n                  Care and support\n                </a>\n              </li>\n            \n          \n          <li class=\"nhsuk-header__menu\" hidden>\n            <button class=\"nhsuk-header__menu-toggle nhsuk-header__navigation-link\" id=\"toggle-menu\" aria-expanded=\"false\">\n              <span class=\"nhsuk-u-visually-hidden\">Browse</span>\n              More\n            </button>\n          </li>\n        </ul>\n      </div>\n    </nav>\n\n  \n</header>\n\n    \n\n    \n\n    <div class=\"nhsuk-width-container\">\n\n        \n   \n\n<nav class=\"nhsuk-breadcrumb\" aria-label=\"Breadcrumb\">\n  \n  <ol class=\"nhsuk-breadcrumb__list\">\n    \n    <li class=\"nhsuk-breadcrumb__list-item\">\n      <a href=\"/\" class=\"nhsuk-breadcrumb__link\"\n        >Home</a\n      >\n    </li>\n    \n    <li class=\"nhsuk-breadcrumb__list-item\">\n      <a href=\"/health-a-to-z/\" class=\"nhsuk-breadcrumb__link\"\n        >Health A to Z</a\n      >\n    </li>\n    \n    <li class=\"nhsuk-breadcrumb__list-item\">\n      <a href=\"/conditions/\" class=\"nhsuk-breadcrumb__link\"\n        >Conditions A to Z</a\n      >\n    </li>\n    \n  </ol>\n    \n  <a href=\"/conditions/\" class=\"nhsuk-back-link\">\n    <span class=\"nhsuk-u-visually-hidden\">Back to </span>\n    Conditions A to Z\n  </a>\n  \n</nav>\n\n\n<nav\n  class=\"nhsuk-app-back-link nhsuk-u-visually-hidden\"\n  aria-label=\"Back navigation\"\n>\n  <a href=\"#\" class=\"nhsuk-back-link nhsapp-back-link\" data-nhsapp-back>\n    Back\n  </a>\n</nav>\n\n\n\n\n\n        <main class=\"nhsuk-main-wrapper  nhsuk-main-wrapper--s\" id=\"maincontent\"  lang=\"en-GB\"  >\n        \n  <div class=\"nhsuk-grid-row\">\n    <div class=\"nhsuk-grid-column-two-thirds\">\n\n      \n  <h1>\n    \n      Alcohol-use disorder\n    \n  </h1>\n  \n    <p class=\"nhsuk-lede-text\">Alcohol-use disorder is drinking alcohol in a way that&#x27;s harmful. People sometimes call this alcoholism. Treatment and support is available to help you cut down or stop.</p>\n    \n\n\n    </div>\n  </div>\n\n  <article>\n    <div class=\"nhsuk-grid-row\">\n      <div class=\"nhsuk-grid-column-two-thirds\">\n\n        \n  \n    \n\n\n  <section>\n\n    \n    \n      <h2 id=\"symptoms\">Signs of alcohol-use disorder</h2>\n    \n\n    \n      \n        \n          \n\n\n\n    <p data-block-key=\"blnlb\">Signs of alcohol-use disorder include:</p><ul><li data-block-key=\"ndq2\">regularly drinking more alcohol than you mean to</li><li data-block-key=\"4mn0h\">difficulty stopping or reducing the amount you drink, even if you want to</li><li data-block-key=\"9pjna\">feeling guilty or remorseful after drinking</li><li data-block-key=\"9tpra\">people you know being concerned about your drinking</li><li data-block-key=\"8usnp\">continuing to drink even when it's causing problems for your health, work or relationships</li><li data-block-key=\"9mfvb\">craving alcohol, for example, needing a drink when you wake up in the morning</li><li data-block-key=\"f5l6m\">needing increasing amounts of alcohol to get the same effect</li><li data-block-key=\"baced\">getting withdrawal symptoms when you stop or reduce drinking</li></ul><h3 data-block-key=\"b5alt\">Alcohol withdrawal symptoms</h3><p data-block-key=\"tltd\">If you stop drinking or cut down, you may get withdrawal symptoms. This is a sign your body is dependent on alcohol. Symptoms include:</p><ul><li data-block-key=\"e7f4\">anxiety</li><li data-block-key=\"8brnj\">difficulty sleeping</li><li data-block-key=\"75m87\">feeling and being sick (nausea and vomiting)</li><li data-block-key=\"es84c\">a racing heartbeat, sweating and shaking (tremor)</li><li data-block-key=\"12j8g\">seeing, hearing or feeling things that are not there (hallucinations)</li><li data-block-key=\"f03ev\">confusion</li><li data-block-key=\"6moao\">seizures</li></ul><p data-block-key=\"aa36n\">Withdrawal symptoms begin within 6 to 12 hours of your last drink, and usually last from 3 to 7 days. But some symptoms may last for a few months, especially if you drink heavily.</p>\n\n        \n      \n    \n      \n        \n          \n\n<div class=\"nhsuk-card nhsuk-card--warning\">\n  <div class=\"nhsuk-card__content\">\n    <h3 class=\"nhsuk-card__heading\" >\n      \n        Important\n      \n    </h3>\n      \n        <p data-block-key=\"z4jnb\">It can be very dangerous to stop drinking suddenly if you&#x27;re dependent on alcohol. If you get withdrawal symptoms, get medical help before you try to stop drinking.</p>\n      \n  </div>\n</div>\n\n        \n      \n    \n  </section>\n\n\n  \n    \n\n\n  <section>\n\n    \n\n    \n      \n        \n          \n\n\n<div class=\"nhsuk-card nhsuk-card--care nhsuk-card--care--non-urgent\">\n  <div class=\"nhsuk-card__heading-container\">\n    <h2 class=\"nhsuk-card__heading\" >\n      <span role=\"text\">\n        <span class=\"nhsuk-u-visually-hidden\">Non-urgent advice:  </span>See a GP or an alcohol addiction support service if:\n      </span>\n    </h2>\n    <span class=\"nhsuk-card--care__arrow\" aria-hidden=\"true\"></span>\n  </div>\n  <div class=\"nhsuk-card__content\">\n    \n      \n        \n          \n\n\n\n    <ul><li data-block-key=\"wq323\">you're worried about your drinking</li><li data-block-key=\"bu2fg\">you want help to stop drinking</li><li data-block-key=\"f2pf7\">you get symptoms like anxiety, difficulty sleeping, sweating or feeling and being sick when you try to stop drinking</li><li data-block-key=\"542pj\">you're worried about someone else's drinking</li></ul>\n\n        \n      \n    \n      \n        \n          \n\n\n<a class=\"nhsuk-action-link\" href=\"/nhs-services/find-alcohol-addiction-support-services/\">\n\n  <svg class=\"nhsuk-icon nhsuk-icon--arrow-right-circle\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" width=\"16\" height=\"16\" focusable=\"false\" aria-hidden=\"true\">\n    <path d=\"M12 2a10 10 0 0 0-10 9h11.7l-4-4a1 1 0 0 1 1.5-1.4l5.6 5.7a1 1 0 0 1 0 1.4l-5.6 5.7a1 1 0 0 1-1.5 0 1 1 0 0 1 0-1.4l4-4H2A10 10 0 1 0 12 2z\"/>\n  </svg>\n  <span class=\"nhsuk-action-link__text\" >Find alcohol addiction support services</span>\n</a>\n\n        \n      \n    \n    \n  </div>\n</div>\n        \n      \n    \n  </section>\n\n\n  \n    \n\n\n  <section>\n\n    \n\n    \n      \n        \n          \n\n<div class=\"nhsuk-inset-text\" >\n  <span class=\"nhsuk-u-visually-hidden\">Information: </span>\n  <h3 data-block-key=\"ayuw7\">Check your drinking</h3><p data-block-key=\"a7mbs\">If you&#x27;re worried about your drinking but you’re not sure how serious it is, you can <a href=\"https://alcoholchange.org.uk/alcohol-facts/interactive-tools/check-your-drinking\">check your drinking on the Alcohol Change UK website</a>.</p>\n</div>\n\n        \n      \n    \n  </section>\n\n\n  \n    \n\n\n  <section>\n\n    \n\n    \n      \n        \n          \n\n\n<div class=\"nhsuk-card nhsuk-card--care nhsuk-card--care--emergency\">\n  <div class=\"nhsuk-card__heading-container\">\n    <h2 class=\"nhsuk-card__heading\" >\n      <span role=\"text\">\n        <span class=\"nhsuk-u-visually-hidden\">Immediate action required: </span>Call 999 or go to A&amp;E if:\n      </span>\n    </h2>\n    <span class=\"nhsuk-card--care__arrow\" aria-hidden=\"true\"></span>\n  </div>\n  <div class=\"nhsuk-card__content\">\n    \n      \n        \n          \n\n\n\n    <p data-block-key=\"wq323\">You or someone else has severe withdrawal symptoms after stopping drinking alcohol, such as:</p><ul><li data-block-key=\"bh9tl\">shaking visibly</li><li data-block-key=\"8k9v5\">being unusually restless, irritable or upset</li><li data-block-key=\"12l3l\">confusion (for example, not knowing what day it is)</li><li data-block-key=\"45c9e\">seeing, hearing, or feeling things that are not there</li><li data-block-key=\"1nv80\">having a seizure</li></ul>\n\n        \n      \n    \n      \n        \n          \n\n\n<a class=\"nhsuk-action-link nhsuk-action-link--reverse\" href=\"https://www.nhs.uk/service-search/find-an-accident-and-emergency-service/\" >\n\n  <svg class=\"nhsuk-icon nhsuk-icon--arrow-right-circle\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" width=\"16\" height=\"16\" focusable=\"false\" aria-hidden=\"true\">\n    <path d=\"M12 2a10 10 0 0 0-10 9h11.7l-4-4a1 1 0 0 1 1.5-1.4l5.6 5.7a1 1 0 0 1 0 1.4l-5.6 5.7a1 1 0 0 1-1.5 0 1 1 0 0 1 0-1.4l4-4H2A10 10 0 1 0 12 2z\"/>\n  </svg>\n  <span class=\"nhsuk-action-link__text\" >Find your nearest A&amp;E</span>\n</a>\n\n        \n      \n    \n    \n  </div>\n</div>\n        \n      \n    \n      \n        \n          \n\n  \n    \n\n<div class=\"nhsuk-inset-text\" >\n  <span class=\"nhsuk-u-visually-hidden\">Information: </span>\n  <p data-block-key=\"kiwqw\">Do not drive to A&amp;E. Ask someone to drive you or call 999 and ask for an ambulance.</p><p data-block-key=\"8ha8n\">Bring any medicines you take with you.</p>\n</div>\n\n  \n\n\n        \n      \n    \n  </section>\n\n\n  \n    \n\n\n  <section>\n\n    \n    \n      <h2 id=\"diagnosis\">How alcohol-use disorder is diagnosed</h2>\n    \n\n    \n      \n        \n          \n\n\n\n    <p data-block-key=\"tsb90\">If you see a GP or alcohol support service about your alcohol use, they will ask about your drinking and how it's affecting your life. You may be asked to fill in a questionnaire about your symptoms.</p><p data-block-key=\"8489s\">You may also be offered blood tests to check if your drinking is affecting your health.</p>\n\n        \n      \n    \n  </section>\n\n\n  \n    \n\n\n  <section>\n\n    \n    \n      <h2 id=\"medical-treatments\">Treatment for alcohol-use disorder</h2>\n    \n\n    \n      \n        \n          \n\n\n\n    <p data-block-key=\"tsb90\">You can get treatment for alcohol-use disorder from your GP or a specialist alcohol addiction service.</p><p data-block-key=\"8tid9\">The aim of treatment is usually to help you stop drinking completely, especially if you're dependent on alcohol. But if you're not ready to stop yet, or just want to cut down, you'll be supported to reduce your drinking to a safer level.</p><p data-block-key=\"8td7b\">Treatment for alcohol-use disorder can include:</p><ul><li data-block-key=\"2u9jv\">talking therapies such as <a href=\"/tests-and-treatments/cognitive-behavioural-therapy-cbt/\">cognitive behavioural therapy (CBT)</a></li><li data-block-key=\"49kpe\">medical help for withdrawal symptoms when you stop drinking alcohol, either at home or in hospital</li><li data-block-key=\"832ff\">help to prevent relapses (where you start drinking again), such as medicines to reduce alcohol cravings</li><li data-block-key=\"tntq\">support to make positive changes in other areas of your life, such as your relationships</li><li data-block-key=\"aip0q\">help accessing other forms of support, for example with employment or housing</li></ul><h3 data-block-key=\"di6k0\">Medicines for alcohol-use disorder</h3><p data-block-key=\"1j9ct\">Medicines for alcohol-use disorder can help you to avoid drinking. They're usually offered once you've stopped drinking and need help to stay sober.</p><p data-block-key=\"8sua6\">These medicines can include:</p><ul><li data-block-key=\"c57nl\">acamprosate or naltrexone, which help reduce alcohol cravings</li><li data-block-key=\"bq0eo\">disulfiram, which causes unpleasant effects (such as a headache, feeling sick, high body temperature and heart palpitations) when combined with alcohol</li></ul>\n\n        \n      \n    \n  </section>\n\n\n  \n    \n\n\n  <section>\n\n    \n    \n      <h2 id=\"complications\">Risks of alcohol-use disorder</h2>\n    \n\n    \n      \n        \n          \n\n\n\n    <p data-block-key=\"tsb90\">Drinking too much alcohol is very bad for your health. Stopping drinking is the best way to reduce your risk of serious health problems.</p><p data-block-key=\"ci2rc\">Short term risks of drinking too much include:</p><ul><li data-block-key=\"f08b7\">serious accidents or injuries while drunk</li><li data-block-key=\"ccm81\"><a href=\"/conditions/alcohol-poisoning/\">alcohol poisoning</a></li></ul><p data-block-key=\"3p3im\">Longer term risks include:</p><ul><li data-block-key=\"91m4v\">liver damage such as <a href=\"/conditions/alcohol-related-liver-disease-arld/\">alcohol-related liver disease</a></li><li data-block-key=\"48vr7\">increased risk of many different types of <a href=\"/conditions/cancer/\">cancer</a></li><li data-block-key=\"167eb\"><a href=\"/conditions/high-blood-pressure/\">high blood pressure</a> and <a href=\"/conditions/stroke/\">stroke</a></li><li data-block-key=\"89inb\">heart problems including <a href=\"/conditions/cardiomyopathy/\">cardiomyopathy</a> and <a href=\"/conditions/heart-failure/\">heart failure</a></li><li data-block-key=\"8v0bn\"><a href=\"/conditions/acute-pancreatitis/\">acute pancreatitis</a> and <a href=\"/conditions/chronic-pancreatitis/\">chronic pancreatitis</a></li><li data-block-key=\"3bsi7\">mental health conditions such as anxiety and depression</li><li data-block-key=\"1s5g0\">alcohol related brain damage</li></ul><h3 data-block-key=\"4nd53\">Risks of drinking alcohol when pregnant</h3><p data-block-key=\"anlde\">If you're pregnant or planning to get pregnant, it's recommended that you don't drink any alcohol.</p><p data-block-key=\"3sntd\">Drinking alcohol during pregnancy increases the risk of miscarriage, stillbirth and premature birth. It also puts your baby at risk of long-term problems such as <a href=\"/conditions/fetal-alcohol-spectrum-disorder/\">fetal alcohol spectrum disorder</a>.</p><p data-block-key=\"4akdd\">If you're finding it hard to stop drinking while you're pregnant or planning to get pregnant, get help from your GP or an alcohol support service.</p>\n\n        \n      \n    \n  </section>\n\n\n  \n    \n\n\n  <section>\n\n    \n\n    \n      \n        \n          \n\n<div class=\"nhsuk-inset-text\" >\n  <span class=\"nhsuk-u-visually-hidden\">Information: </span>\n  <h3 data-block-key=\"cgfv3\">Find out more</h3><ul><li data-block-key=\"1bpl4\"><a href=\"/live-well/alcohol-advice/the-risks-of-drinking-too-much/\">The risks of drinking too much</a></li><li data-block-key=\"bomb5\"><a href=\"/pregnancy/keeping-well/drinking-alcohol-while-pregnant/\">Drinking alcohol while pregnant</a></li></ul>\n</div>\n\n        \n      \n    \n  </section>\n\n\n  \n    \n\n\n  <section>\n\n    \n    \n      <h2 id=\"self-care\">Things you can do to stop or cut down drinking</h2>\n    \n\n    \n      \n        \n          \n\n\n\n    <p data-block-key=\"tsb90\">There are things you can do to help stop or reduce your drinking.</p><p data-block-key=\"9cnt3\">Get medical help before you stop or reduce drinking if you get withdrawal symptoms.</p>\n\n        \n      \n    \n      \n        \n          \n\n<div class=\"nhsuk-do-dont-list\">\n  <h3 class=\"nhsuk-do-dont-list__label\" >\n    Do\n  </h3 >\n  <ul class=\"nhsuk-list nhsuk-list--tick\" >\n    \n    <li>\n      <svg class=\"nhsuk-icon nhsuk-icon--tick\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" width=\"16\" height=\"16\" focusable=\"false\" aria-hidden=\"true\">\n        <path d=\"M11.4 18.8a2 2 0 0 1-2.7.1h-.1L4 14.1a1.5 1.5 0 0 1 2.1-2L10 16l8.1-8.1a1.5 1.5 0 1 1 2.2 2l-8.9 9Z\"/>\n      </svg>\n      <p data-block-key=\"iccae\">keep a daily diary of how much you&#x27;re drinking, or try a drink tracking app</p>\n    </li>\n    \n    <li>\n      <svg class=\"nhsuk-icon nhsuk-icon--tick\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" width=\"16\" height=\"16\" focusable=\"false\" aria-hidden=\"true\">\n        <path d=\"M11.4 18.8a2 2 0 0 1-2.7.1h-.1L4 14.1a1.5 1.5 0 0 1 2.1-2L10 16l8.1-8.1a1.5 1.5 0 1 1 2.2 2l-8.9 9Z\"/>\n      </svg>\n      <p data-block-key=\"96f7x\">to cut down, try alternating alcoholic drinks with soft drinks, or choose lower strength (ABV in %) drinks</p>\n    </li>\n    \n    <li>\n      <svg class=\"nhsuk-icon nhsuk-icon--tick\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" width=\"16\" height=\"16\" focusable=\"false\" aria-hidden=\"true\">\n        <path d=\"M11.4 18.8a2 2 0 0 1-2.7.1h-.1L4 14.1a1.5 1.5 0 0 1 2.1-2L10 16l8.1-8.1a1.5 1.5 0 1 1 2.2 2l-8.9 9Z\"/>\n      </svg>\n      <p data-block-key=\"96f7x\">tell people you&#x27;re stopping drinking so they can help keep you on track</p>\n    </li>\n    \n    <li>\n      <svg class=\"nhsuk-icon nhsuk-icon--tick\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" width=\"16\" height=\"16\" focusable=\"false\" aria-hidden=\"true\">\n        <path d=\"M11.4 18.8a2 2 0 0 1-2.7.1h-.1L4 14.1a1.5 1.5 0 0 1 2.1-2L10 16l8.1-8.1a1.5 1.5 0 1 1 2.2 2l-8.9 9Z\"/>\n      </svg>\n      <p data-block-key=\"96f7x\">avoid situations where you know you&#x27;re likely to drink</p>\n    </li>\n    \n    <li>\n      <svg class=\"nhsuk-icon nhsuk-icon--tick\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" width=\"16\" height=\"16\" focusable=\"false\" aria-hidden=\"true\">\n        <path d=\"M11.4 18.8a2 2 0 0 1-2.7.1h-.1L4 14.1a1.5 1.5 0 0 1 2.1-2L10 16l8.1-8.1a1.5 1.5 0 1 1 2.2 2l-8.9 9Z\"/>\n      </svg>\n      <p data-block-key=\"96f7x\">find different activities to do when you&#x27;d usually drink, such as trying a new hobby</p>\n    </li>\n    \n    <li>\n      <svg class=\"nhsuk-icon nhsuk-icon--tick\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" width=\"16\" height=\"16\" focusable=\"false\" aria-hidden=\"true\">\n        <path d=\"M11.4 18.8a2 2 0 0 1-2.7.1h-.1L4 14.1a1.5 1.5 0 0 1 2.1-2L10 16l8.1-8.1a1.5 1.5 0 1 1 2.2 2l-8.9 9Z\"/>\n      </svg>\n      <p data-block-key=\"96f7x\">try joining a support group</p>\n    </li>\n    \n  </ul>\n</div>\n\n        \n      \n    \n  </section>\n\n\n  \n    \n\n\n  <section>\n\n    \n\n    \n      \n        \n          \n\n<div class=\"nhsuk-inset-text\" >\n  <span class=\"nhsuk-u-visually-hidden\">Information: </span>\n  <h3 data-block-key=\"cgfv3\">NHS drink tracking app</h3><ul><li data-block-key=\"6rtm0\"><a href=\"https://apps.apple.com/gb/app/nhs-drink-free-days/id1196694906\">NHS Drink Free Days – App Store</a></li><li data-block-key=\"f9q3d\"><a href=\"https://play.google.com/store/apps/details?id=com.phe.daysoff\">NHS Drink Free Days – Google Play</a></li></ul>\n</div>\n\n        \n      \n    \n  </section>\n\n\n  \n    \n\n\n  <section>\n\n    \n    \n      <h2 id=\"support\">Support for alcohol-use disorder</h2>\n    \n\n    \n      \n        \n          \n\n\n\n    <p data-block-key=\"tsb90\">Stopping drinking can be difficult. You can get support from your GP or alcohol addiction support services.</p><p data-block-key=\"7d38v\">There are also charities and peer support groups where you can get support from other people going through the same thing.</p><h3 data-block-key=\"f18hf\">Support groups</h3><p data-block-key=\"2h9gk\">Organisations offering support for people trying to stop drinking, including helplines and support groups, include:</p><ul><li data-block-key=\"2leai\"><a href=\"https://www.alcoholics-anonymous.org.uk/\">Alcoholics Anonymous</a></li><li data-block-key=\"a2kij\"><a href=\"https://smartrecovery.org.uk/\">SMART Recovery</a></li></ul><h3 data-block-key=\"bqkit\">Support for friends, family and carers</h3><p data-block-key=\"3kpi\">Organisations offering support for friends, family and carers, including helplines and support groups, include:</p><ul><li data-block-key=\"bamkd\"><a href=\"https://al-anonuk.org.uk/\">Al-Anon UK</a></li><li data-block-key=\"1iloq\"><a href=\"https://smartrecovery.org.uk/smart_family__friends/\">SMART Recovery: family and friends programme</a></li><li data-block-key=\"cnbs7\"><a href=\"https://adfam.org.uk/for-families/\">Adfam</a></li></ul><p data-block-key=\"d93d4\">More information about supporting someone else:</p><ul><li data-block-key=\"13gts\"><a href=\"https://alcoholchange.org.uk/help-and-support/get-help-now/family-and-friends\">Help for family and friends (Alcohol Change UK)</a></li><li data-block-key=\"8f9sb\"><a href=\"https://carers.org/caring-for-someone-with-a-specific-condition/alcohol-substance-misuse-and-addiction\">Caring for someone with alcohol or substance misuse issues (Carer's Trust)</a></li></ul>\n\n        \n      \n    \n  </section>\n\n\n  \n\n\n      </div>\n\n      \n\n    </div>\n  </article>\n\n  \n\n  \n\n  \n    <div>\n      <p class=\"nhsuk-body-s nhsuk-u-margin-top-7 nhsuk-u-secondary-text-color\">\n        Page last reviewed: 24 April 2026\n        <br>\n        Next review due: 24 April 2029\n      </p>\n    </div>\n  \n\n  \n\n\n\n\n\n\n\n        \n        \n        <div class=\"nhsuk-grid-row\">\n          <div class=\"nhsuk-grid-column-two-thirds\">\n            \n          </div>\n        </div>  \n      </main>\n    </div>\n\n    \n\n    \n      \n\n\n<footer class=\"nhsuk-footer\" role=\"contentinfo\" id=\"nhsuk-footer\">\n  <div class=\"nhsuk-width-container\">\n    <h2 class=\"nhsuk-u-visually-hidden\">Support links</h2>\n    <div class=\"nhsuk-footer__navigation nhsuk-grid-row\">\n      \n      <div class=\"nhsuk-grid-column-one-quarter\">\n        <ul class=\"nhsuk-footer__list\">\n          \n            <li class=\"nhsuk-footer__list-item\">\n              <a class=\"nhsuk-footer__list-item-link\" href=\"/\">Home</a>\n            </li>\n          \n            <li class=\"nhsuk-footer__list-item\">\n              <a class=\"nhsuk-footer__list-item-link\" href=\"/health-a-to-z/\">Health A to Z</a>\n            </li>\n          \n            <li class=\"nhsuk-footer__list-item\">\n              <a class=\"nhsuk-footer__list-item-link\" href=\"/nhs-services/\">NHS services</a>\n            </li>\n          \n            <li class=\"nhsuk-footer__list-item\">\n              <a class=\"nhsuk-footer__list-item-link\" href=\"/live-well/\">Healthy living</a>\n            </li>\n          \n            <li class=\"nhsuk-footer__list-item\">\n              <a class=\"nhsuk-footer__list-item-link\" href=\"/mental-health/\">Mental health</a>\n            </li>\n          \n            <li class=\"nhsuk-footer__list-item\">\n              <a class=\"nhsuk-footer__list-item-link\" href=\"/social-care-and-support/\">Care and support</a>\n            </li>\n          \n        </ul>\n      </div>\n      \n      <div class=\"nhsuk-grid-column-one-quarter\">\n        <ul class=\"nhsuk-footer__list\">\n          \n            <li class=\"nhsuk-footer__list-item\">\n              <a class=\"nhsuk-footer__list-item-link\" href=\"/nhs-app/\">NHS App</a>\n            </li>\n          \n            <li class=\"nhsuk-footer__list-item\">\n              <a class=\"nhsuk-footer__list-item-link\" href=\"/nhs-services/gps/view-your-test-results/\">View your test results</a>\n            </li>\n          \n            <li class=\"nhsuk-footer__list-item\">\n              <a class=\"nhsuk-footer__list-item-link\" href=\"/using-the-nhs/about-the-nhs/\">About the NHS</a>\n            </li>\n          \n            <li class=\"nhsuk-footer__list-item\">\n              <a class=\"nhsuk-footer__list-item-link\" href=\"/using-the-nhs/healthcare-abroad/\">Healthcare abroad</a>\n            </li>\n          \n        </ul>\n      </div>\n      \n      <div class=\"nhsuk-grid-column-one-quarter\">\n        <ul class=\"nhsuk-footer__list\">\n          \n            <li class=\"nhsuk-footer__list-item\">\n              <a class=\"nhsuk-footer__list-item-link\" href=\"/our-policies/manage-nhs-profiles/\">Manage NHS profiles</a>\n            </li>\n          \n            <li class=\"nhsuk-footer__list-item\">\n              <a class=\"nhsuk-footer__list-item-link\" href=\"/nhs-sites/\">Other NHS websites</a>\n            </li>\n          \n        </ul>\n      </div>\n      \n      <div class=\"nhsuk-grid-column-one-quarter\">\n        <ul class=\"nhsuk-footer__list\">\n          \n            <li class=\"nhsuk-footer__list-item\">\n              <a class=\"nhsuk-footer__list-item-link\" href=\"/about-us/\">About us</a>\n            </li>\n          \n            <li class=\"nhsuk-footer__list-item\">\n              <a class=\"nhsuk-footer__list-item-link\" href=\"/report-an-issue-with-the-nhs-website\">Report an issue with the NHS website</a>\n            </li>\n          \n            <li class=\"nhsuk-footer__list-item\">\n              <a class=\"nhsuk-footer__list-item-link\" href=\"/accessibility-statement/\">Accessibility statement</a>\n            </li>\n          \n            <li class=\"nhsuk-footer__list-item\">\n              <a class=\"nhsuk-footer__list-item-link\" href=\"/our-policies/\">Our policies</a>\n            </li>\n          \n            <li class=\"nhsuk-footer__list-item\">\n              <a class=\"nhsuk-footer__list-item-link\" href=\"/our-policies/choose-your-cookie-settings/\">Cookies</a>\n            </li>\n          \n        </ul>\n      </div>\n      \n    </div>\n    <div class=\"nhsuk-footer__meta\">\n      <p class=\"nhsuk-body-s\">© Crown copyright</p>\n    </div>\n  </div>\n</footer> \n    \n\n    \n      \n      \n        \n          <script src=\"https://assets.nhs.uk/scripts/myaccount.js\"></script>\n        \n      \n    \n  </body>\n</html>\n"
+        },
+        {
+          "name": "aws-overview",
+          "url": "https://www.nhs.uk/conditions/alcohol-misuse/",
+          "raw_path": "/tmp/ch02-audit/aws-overview.body",
+          "status": 200,
+          "started_utc": "2026-10-18T14:08:20.640210+00:00",
+          "completed_utc": "2026-10-18T14:08:22.744583+00:00",
+          "id": "aws-overview",
+          "raw_sha256": "1112c4852fe2f18c23fcf26b2639e1bc7d64b31117db9329751c8c9c257104a1",
+          "read_at_utc": "2026-10-18T14:11:53.156694+00:00",
+          "scope": "새HTTPS직접수집·NHS공식본문의금단/떨림/혼란/발작및즉시응급진료문장열람.영국전화번호를한국독자본문으로옮기지않음.",
+          "quote": "Immediate action required: Call 999 or go to A&E if: You or someone else has severe withdrawal symptoms after stopping drinking alcohol, such as: shaking visibly … confusion … having a seizure.",
+          "raw_utf8": "﻿<!DOCTYPE html>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    <meta name=\"description\" content=\"Find out about alcohol-use disorder, sometimes called alcoholism, including symptoms, treatment, and how to get help.\">\n    <meta name=\"google-site-verification\" content=\"a4yrvgi5ZlBnKWfqFKkQ3_mEjqow_fpwbtF2bUTmZgc\" />\n    \n    <link rel=\"canonical\" href=\"https://www.nhs.uk/conditions/alcohol-use-disorder/\">\n\n    \n\n    <title>Alcohol-use disorder - NHS</title>\n\n    <link href=\"https://assets.nhs.uk/\" rel=\"preconnect\" crossorigin>\n    <link type=\"font/woff2\" href=\"https://assets.nhs.uk/fonts/FrutigerLTW01-55Roman.woff2\" rel=\"preload\" as=\"font\" crossorigin>\n    <link type=\"font/woff2\" href=\"https://assets.nhs.uk/fonts/FrutigerLTW01-65Bold.woff2\" rel=\"preload\" as=\"font\" crossorigin>\n\n    <link rel=\"stylesheet\" href=\"/static/nhsuk/css/main.c2eea934c468.css\" type=\"text/css\" />\n\n    \n      \n    \n\n    \n      <script type=\"application/ld+json\">{\"@context\": \"http://schema.org\", \"@type\": \"MedicalWebPage\", \"about\": {\"@type\": \"WebPage\", \"alternateName\": \"\", \"name\": \"Alcohol-use disorder\"}, \"author\": {\"@type\": \"Organization\", \"email\": \"nhswebsite.servicedesk@nhs.net\", \"logo\": \"https://assets.nhs.uk/nhsuk-cms/images/nhs-attribution.width-510.png\", \"name\": \"NHS website\", \"url\": \"https://www.nhs.uk\"}, \"breadcrumb\": {\"@context\": \"http://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"item\": {\"@id\": \"https://www.nhs.uk/conditions/\", \"genre\": [], \"name\": \"Conditions A to Z\"}, \"position\": 0}, {\"@type\": \"ListItem\", \"item\": {\"@id\": \"https://www.nhs.uk/conditions/alcohol-use-disorder/\", \"genre\": [\"Condition\"], \"name\": \"Alcohol-use disorder\"}, \"position\": 1}]}, \"copyrightHolder\": {\"@type\": \"Organization\", \"name\": \"Crown Copyright\"}, \"dateModified\": \"2026-07-21T10:33:29+00:00\", \"description\": \"Find out about alcohol-use disorder, sometimes called alcoholism, including symptoms, treatment, and how to get help.\", \"genre\": [\"Condition\"], \"hasPart\": [{\"@type\": \"HealthTopicContent\", \"description\": \"Alcohol-use disorder is drinking in a way that's harmful. People sometimes call this alcoholism.\", \"hasHealthAspect\": \"http://schema.org/OverviewHealthAspect\", \"hasPart\": [{\"@type\": \"WebPageElement\", \"headline\": \"Alcohol-use disorder\", \"text\": \"Symptoms\"}, {\"@type\": \"WebPageElement\", \"headline\": \"Alcohol-use disorder\", \"text\": \"Complications\"}, {\"@type\": \"WebPageElement\", \"headline\": \"Alcohol-use disorder\", \"text\": \"Medical treatments\"}, {\"@type\": \"WebPageElement\", \"headline\": \"Alcohol-use disorder\", \"text\": \"Self-care\"}, {\"@type\": \"WebPageElement\", \"text\": \"<p>Signs of alcohol-use disorder include finding it hard to stop or control your drinking and getting withdrawal symptoms when you try to stop.</p> \"}, {\"@type\": \"WebPageElement\", \"text\": \"<p>Risks of alcohol-use disorder include injuries, alcohol poisoning, damage to your liver and heart, stroke, and many types of cancer.</p> \"}, {\"@type\": \"WebPageElement\", \"text\": \"<p>Treatment for alcohol-use disorder includes support to stop drinking safely, talking therapies, and medicines to reduce alcohol cravings.</p> \"}, {\"@type\": \"WebPageElement\", \"text\": \"<p>Things you can do to stop or cut down drinking include keeping a drinking diary, avoiding situations where you may drink and joining a support group.</p> \"}], \"headline\": \"\", \"url\": \"https://www.nhs.uk/conditions/alcohol-use-disorder/#overview\"}, {\"@type\": \"HealthTopicContent\", \"description\": \"Signs of alcohol-use disorder include finding it hard to stop or control your drinking and getting withdrawal symptoms when you try to stop.\", \"hasHealthAspect\": \"http://schema.org/SymptomsHealthAspect\", \"hasPart\": [{\"@type\": \"WebPageElement\", \"headline\": \"\", \"text\": \"<p>Signs of alcohol-use disorder include:</p><ul><li>regularly drinking more alcohol than you mean to</li><li>difficulty stopping or reducing the amount you drink, even if you want to</li><li>feeling guilty or remorseful after drinking</li><li>people you know being concerned about your drinking</li><li>continuing to drink even when it's causing problems for your health, work or relationships</li><li>craving alcohol, for example, needing a drink when you wake up in the morning</li><li>needing increasing amounts of alcohol to get the same effect</li><li>getting withdrawal symptoms when you stop or reduce drinking</li></ul><h3>Alcohol withdrawal symptoms</h3><p>If you stop drinking or cut down, you may get withdrawal symptoms. This is a sign your body is dependent on alcohol. Symptoms include:</p><ul><li>anxiety</li><li>difficulty sleeping</li><li>feeling and being sick (nausea and vomiting)</li><li>a racing heartbeat, sweating and shaking (tremor)</li><li>seeing, hearing or feeling things that are not there (hallucinations)</li><li>confusion</li><li>seizures</li></ul><p>Withdrawal symptoms begin within 6 to 12 hours of your last drink, and usually last from 3 to 7 days. But some symptoms may last for a few months, especially if you drink heavily.</p>\"}, {\"@type\": \"WebPageElement\", \"headline\": \"Important\", \"text\": \"<p>It can be very dangerous to stop drinking suddenly if you're dependent on alcohol. If you get withdrawal symptoms, get medical help before you try to stop drinking.</p>\"}], \"headline\": \"Signs of alcohol-use disorder\", \"url\": \"https://www.nhs.uk/conditions/alcohol-use-disorder/#symptoms\"}, {\"@type\": \"HealthTopicContent\", \"description\": \"\", \"hasHealthAspect\": \"http://schema.org/MedicalHelpNonurgentHealthAspect\", \"hasPart\": [{\"@type\": \"WebPageElement\", \"headline\": \"See a GP or an alcohol addiction support service if:\", \"identifier\": \"primary\", \"text\": \"<ul>\\n<li>\\n  you're worried about your drinking\\n </li>\\n<li>\\n  you want help to stop drinking\\n </li>\\n<li>\\n  you get symptoms like anxiety, difficulty sleeping, sweating or feeling and being sick when you try to stop drinking\\n </li>\\n<li>\\n  you're worried about someone else's drinking\\n </li>\\n</ul>\\n<div class=\\\"block-action_link\\\">\\n<a class=\\\"nhsuk-action-link\\\" href=\\\"/nhs-services/find-alcohol-addiction-support-services/\\\">\\n<svg aria-hidden=\\\"true\\\" class=\\\"nhsuk-icon nhsuk-icon--arrow-right-circle\\\" focusable=\\\"false\\\" height=\\\"16\\\" viewbox=\\\"0 0 24 24\\\" width=\\\"16\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\">\\n<path d=\\\"M12 2a10 10 0 0 0-10 9h11.7l-4-4a1 1 0 0 1 1.5-1.4l5.6 5.7a1 1 0 0 1 0 1.4l-5.6 5.7a1 1 0 0 1-1.5 0 1 1 0 0 1 0-1.4l4-4H2A10 10 0 1 0 12 2z\\\">\\n</path>\\n</svg>\\n<span class=\\\"nhsuk-action-link__text\\\">\\n   Find alcohol addiction support services\\n  </span>\\n</a>\\n</div>\"}], \"headline\": \"\", \"url\": \"https://www.nhs.uk/conditions/alcohol-use-disorder/#non-urgent-medical-help-old\"}, {\"@type\": \"HealthTopicContent\", \"description\": \"\", \"hasHealthAspect\": \"http://schema.org/MedicalHelpEmergencyHealthAspect\", \"hasPart\": [{\"@type\": \"WebPageElement\", \"headline\": \"Call 999 or go to A&E if:\", \"identifier\": \"immediate\", \"text\": \"<p>\\n You or someone else has severe withdrawal symptoms after stopping drinking alcohol, such as:\\n</p>\\n<ul>\\n<li>\\n  shaking visibly\\n </li>\\n<li>\\n  being unusually restless, irritable or upset\\n </li>\\n<li>\\n  confusion (for example, not knowing what day it is)\\n </li>\\n<li>\\n  seeing, hearing, or feeling things that are not there\\n </li>\\n<li>\\n  having a seizure\\n </li>\\n</ul>\\n<div class=\\\"block-action_link\\\">\\n<a class=\\\"nhsuk-action-link\\\" href=\\\"https://www.nhs.uk/service-search/find-an-accident-and-emergency-service/\\\">\\n<svg aria-hidden=\\\"true\\\" class=\\\"nhsuk-icon nhsuk-icon--arrow-right-circle\\\" focusable=\\\"false\\\" height=\\\"16\\\" viewbox=\\\"0 0 24 24\\\" width=\\\"16\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\">\\n<path d=\\\"M12 2a10 10 0 0 0-10 9h11.7l-4-4a1 1 0 0 1 1.5-1.4l5.6 5.7a1 1 0 0 1 0 1.4l-5.6 5.7a1 1 0 0 1-1.5 0 1 1 0 0 1 0-1.4l4-4H2A10 10 0 1 0 12 2z\\\">\\n</path>\\n</svg>\\n<span class=\\\"nhsuk-action-link__text\\\">\\n   Find your nearest A&amp;E\\n  </span>\\n</a>\\n</div>\"}, {\"@type\": \"WebPageElement\", \"headline\": \"A&E safety messaging\", \"text\": \"<p>Do not drive to A&amp;E. Ask someone to drive you or call 999 and ask for an ambulance.</p><p>Bring any medicines you take with you.</p>\"}], \"headline\": \"\", \"url\": \"https://www.nhs.uk/conditions/alcohol-use-disorder/#emergency-medical-help-old\"}, {\"@type\": \"HealthTopicContent\", \"description\": \"Alcohol-use disorder is diagnosed by asking questions about your drinking and how it's affecting your life.\", \"hasHealthAspect\": \"http://schema.org/DiagnosisHealthAspect\", \"hasPart\": [{\"@type\": \"WebPageElement\", \"headline\": \"\", \"text\": \"<p>If you see a GP or alcohol support service about your alcohol use, they will ask about your drinking and how it's affecting your life. You may be asked to fill in a questionnaire about your symptoms.</p><p>You may also be offered blood tests to check if your drinking is affecting your health.</p>\"}], \"headline\": \"How alcohol-use disorder is diagnosed\", \"url\": \"https://www.nhs.uk/conditions/alcohol-use-disorder/#diagnosis\"}, {\"@type\": \"HealthTopicContent\", \"description\": \"Treatment for alcohol-use disorder includes support to stop drinking safely, talking therapies, and medicines to reduce alcohol cravings.\", \"hasHealthAspect\": \"http://schema.org/TreatmentsHealthAspect\", \"hasPart\": [{\"@type\": \"WebPageElement\", \"headline\": \"\", \"text\": \"<p>You can get treatment for alcohol-use disorder from your GP or a specialist alcohol addiction service.</p><p>The aim of treatment is usually to help you stop drinking completely, especially if you're dependent on alcohol. But if you're not ready to stop yet, or just want to cut down, you'll be supported to reduce your drinking to a safer level.</p><p>Treatment for alcohol-use disorder can include:</p><ul><li>talking therapies such as <a href=\\\"/tests-and-treatments/cognitive-behavioural-therapy-cbt/\\\">cognitive behavioural therapy (CBT)</a></li><li>medical help for withdrawal symptoms when you stop drinking alcohol, either at home or in hospital</li><li>help to prevent relapses (where you start drinking again), such as medicines to reduce alcohol cravings</li><li>support to make positive changes in other areas of your life, such as your relationships</li><li>help accessing other forms of support, for example with employment or housing</li></ul><h3>Medicines for alcohol-use disorder</h3><p>Medicines for alcohol-use disorder can help you to avoid drinking. They're usually offered once you've stopped drinking and need help to stay sober.</p><p>These medicines can include:</p><ul><li>acamprosate or naltrexone, which help reduce alcohol cravings</li><li>disulfiram, which causes unpleasant effects (such as a headache, feeling sick, high body temperature and heart palpitations) when combined with alcohol</li></ul>\"}], \"headline\": \"Treatment for alcohol-use disorder\", \"url\": \"https://www.nhs.uk/conditions/alcohol-use-disorder/#medical-treatments\"}, {\"@type\": \"HealthTopicContent\", \"description\": \"Risks of alcohol-use disorder include injuries, alcohol poisoning, damage to your liver and heart, stroke, and many types of cancer.\", \"hasHealthAspect\": \"http://schema.org/RisksOrComplicationsHealthAspect\", \"hasPart\": [{\"@type\": \"WebPageElement\", \"headline\": \"\", \"text\": \"<p>Drinking too much alcohol is very bad for your health. Stopping drinking is the best way to reduce your risk of serious health problems.</p><p>Short term risks of drinking too much include:</p><ul><li>serious accidents or injuries while drunk</li><li><a href=\\\"/conditions/alcohol-poisoning/\\\">alcohol poisoning</a></li></ul><p>Longer term risks include:</p><ul><li>liver damage such as <a href=\\\"/conditions/alcohol-related-liver-disease-arld/\\\">alcohol-related liver disease</a></li><li>increased risk of many different types of <a href=\\\"/conditions/cancer/\\\">cancer</a></li><li><a href=\\\"/conditions/high-blood-pressure/\\\">high blood pressure</a> and <a href=\\\"/conditions/stroke/\\\">stroke</a></li><li>heart problems including <a href=\\\"/conditions/cardiomyopathy/\\\">cardiomyopathy</a> and <a href=\\\"/conditions/heart-failure/\\\">heart failure</a></li><li><a href=\\\"/conditions/acute-pancreatitis/\\\">acute pancreatitis</a> and <a href=\\\"/conditions/chronic-pancreatitis/\\\">chronic pancreatitis</a></li><li>mental health conditions such as anxiety and depression</li><li>alcohol related brain damage</li></ul><h3>Risks of drinking alcohol when pregnant</h3><p>If you're pregnant or planning to get pregnant, it's recommended that you don't drink any alcohol.</p><p>Drinking alcohol during pregnancy increases the risk of miscarriage, stillbirth and premature birth. It also puts your baby at risk of long-term problems such as <a href=\\\"/conditions/fetal-alcohol-spectrum-disorder/\\\">fetal alcohol spectrum disorder</a>.</p><p>If you're finding it hard to stop drinking while you're pregnant or planning to get pregnant, get help from your GP or an alcohol support service.</p>\"}], \"headline\": \"Risks of alcohol-use disorder\", \"url\": \"https://www.nhs.uk/conditions/alcohol-use-disorder/#complications\"}, {\"@type\": \"HealthTopicContent\", \"description\": \"Things you can do to stop or cut down drinking include keeping a drinking diary, avoiding situations where you may drink and joining a support group.\", \"hasHealthAspect\": \"http://schema.org/SelfCareHealthAspect\", \"hasPart\": [{\"@type\": \"WebPageElement\", \"headline\": \"\", \"text\": \"<p>There are things you can do to help stop or reduce your drinking.</p><p>Get medical help before you stop or reduce drinking if you get withdrawal symptoms.</p>\"}, {\"@type\": \"WebPageElement\", \"headline\": \"Do\", \"text\": \"<ul><li><p>keep a daily diary of how much you're drinking, or try a drink tracking app</p></li><li><p>to cut down, try alternating alcoholic drinks with soft drinks, or choose lower strength (ABV in %) drinks</p></li><li><p>tell people you're stopping drinking so they can help keep you on track</p></li><li><p>avoid situations where you know you're likely to drink</p></li><li><p>find different activities to do when you'd usually drink, such as trying a new hobby</p></li><li><p>try joining a support group</p></li></ul>\"}], \"headline\": \"Things you can do to stop or cut down drinking\", \"url\": \"https://www.nhs.uk/conditions/alcohol-use-disorder/#self-care\"}, {\"@type\": \"HealthTopicContent\", \"description\": \"If you or someone you know has a drinking problem, you can get support from groups like Alcoholics Anonymous, Al-Anon UK and SMART Recovery.\", \"hasHealthAspect\": \"http://schema.org/LivingWithHealthAspect\", \"hasPart\": [{\"@type\": \"WebPageElement\", \"headline\": \"\", \"text\": \"<p>Stopping drinking can be difficult. You can get support from your GP or alcohol addiction support services.</p><p>There are also charities and peer support groups where you can get support from other people going through the same thing.</p><h3>Support groups</h3><p>Organisations offering support for people trying to stop drinking, including helplines and support groups, include:</p><ul><li><a href=\\\"https://www.alcoholics-anonymous.org.uk/\\\">Alcoholics Anonymous</a></li><li><a href=\\\"https://smartrecovery.org.uk/\\\">SMART Recovery</a></li></ul><h3>Support for friends, family and carers</h3><p>Organisations offering support for friends, family and carers, including helplines and support groups, include:</p><ul><li><a href=\\\"https://al-anonuk.org.uk/\\\">Al-Anon UK</a></li><li><a href=\\\"https://smartrecovery.org.uk/smart_family__friends/\\\">SMART Recovery: family and friends programme</a></li><li><a href=\\\"https://adfam.org.uk/for-families/\\\">Adfam</a></li></ul><p>More information about supporting someone else:</p><ul><li><a href=\\\"https://alcoholchange.org.uk/help-and-support/get-help-now/family-and-friends\\\">Help for family and friends (Alcohol Change UK)</a></li><li><a href=\\\"https://carers.org/caring-for-someone-with-a-specific-condition/alcohol-substance-misuse-and-addiction\\\">Caring for someone with alcohol or substance misuse issues (Carer's Trust)</a></li></ul>\"}], \"headline\": \"Support for alcohol-use disorder\", \"url\": \"https://www.nhs.uk/conditions/alcohol-use-disorder/#support\"}], \"keywords\": \"\", \"lastReviewed\": [\"2026-04-24T15:43:00+00:00\", \"2029-04-24T15:43:00+00:00\"], \"license\": \"https://developer.api.nhs.uk/terms\", \"name\": \"Alcohol-use disorder\", \"relatedLink\": [{\"@type\": \"LinkRole\", \"linkRelationship\": \"Navigation\", \"name\": \"Conditions A to Z\", \"position\": 0, \"url\": \"https://www.nhs.uk/conditions/\"}], \"schemaVersion\": \"http://schema.org/version/13.0\", \"url\": \"https://www.nhs.uk/conditions/alcohol-use-disorder/\"}</script>\n    \n\n    \n  \n\n\n    <link rel=\"shortcut icon\" href=\"/static/nhsuk/img/favicons/favicon.68c7f017cfba.ico\" type=\"image/x-icon\">\n    <link rel=\"apple-touch-icon\" href=\"/static/nhsuk/img/favicons/apple-touch-icon-180x180.15a5044def06.png\">\n    <link rel=\"mask-icon\" href=\"/static/nhsuk/img/favicons/favicon.25bc75538faa.svg\" color=\"#005eb8\">\n    <link rel=\"icon\" sizes=\"192x192\" href=\"/static/nhsuk/img/favicons/favicon-192x192.43924bfe6c7e.png\">\n    <meta name=\"msapplication-TileImage\" content=\"/static/nhsuk/img/favicons/mediumtile-144x144.cf4985872492.png\">\n    <meta name=\"msapplication-TileColor\" content=\"#005eb8\">\n    <meta name=\"msapplication-square70x70logo\" content=\"/static/nhsuk/img/favicons/smalltile-70x70.29f75b06cf75.png\">\n    <meta name=\"msapplication-square150x150logo\" content=\"/static/nhsuk/img/favicons/mediumtile-150x150.89688d93af5b.png\">\n    <meta name=\"msapplication-wide310x150logo\" content=\"/static/nhsuk/img/favicons/widetile-310x150.535c3996630d.png\">\n    <meta name=\"msapplication-square310x310logo\" content=\"/static/nhsuk/img/favicons/largetile-310x310.294742e00ff4.png\">\n\n    \n\n    \n      <meta property=\"og:url\" content=\"https://www.nhs.uk/conditions/alcohol-use-disorder/\">\n      <meta property=\"og:site_name\" content=\"nhs.uk\">\n      <meta property=\"og:title\" content=\"Alcohol-use disorder\"/>\n      <meta property=\"og:description\" content=\"Find out about alcohol-use disorder, sometimes called alcoholism, including symptoms, treatment, and how to get help.\">\n      <meta property=\"og:type\" content=\"website\">\n      <meta property=\"og:locale\" content=\"en_GB\">\n      <meta property=\"og:image\" content=\"https://www.nhs.uk/static/nhsuk/img/default-social-image.a74435697f45.png\">\n      <meta property=\"og:image:alt\" content=\"nhs.uk\"/>\n      <meta property=\"article:author\" content=\"https://www.facebook.com/nhswebsite/\">\n      <meta property=\"article:modified_time\" content=\"21 Jul 2026, 11:33 a.m.\">\n      <meta property=\"article:published_time\" content=\"28 Apr 2026, 2:45 p.m.\">\n      \n      <meta name=\"twitter:card\" content=\"summary_large_image\">\n      <meta name=\"twitter:site\" content=\"@nhsuk\">\n      <meta name=\"twitter:creator\" content=\"@nhsuk\">\n      <meta name=\"twitter:image:alt\" content=\"nhs.uk\"/>\n    \n\n    \n    \n      <script src=\"https://www.nhsapp.service.nhs.uk/js/v2/nhsapp.js\" defer></script>\n    \n    <script src=\"/static/nhsuk/js/main.85b2a241f093.js\" defer></script>\n\n    \n      <script src=\"//assets.nhs.uk/scripts/cookie-consent.js\"></script>\n    \n\n\n\n    \n      \n        \n        <script id=\"adobe-target-configuration\">\n  function setUpTarget() {\n    // Enable Target tracking\n    window.targetPageParams = () => ({\n      at_property: \"b477157d-6850-20b1-d82a-5da5c184f634\",\n    });\n    window.targetGlobalSettings = {\n      cookieDomain: window.location.hostname,\n    };\n    // Obscure page while target does its magic if this visit is part of an A/B test\n    (function (win, doc) {\n      var STYLE_ID = \"at-body-style\";\n\n      function getParent() {\n        return doc.getElementsByTagName(\"head\")[0];\n      }\n\n      function addStyle(parent, id, def) {\n        if (!parent) {\n          return;\n        }\n\n        var style = doc.createElement(\"style\");\n        style.id = id;\n        style.innerHTML = def;\n        parent.appendChild(style);\n      }\n\n      function removeStyle(parent, id) {\n        if (!parent) {\n          return;\n        }\n\n        var style = doc.getElementById(id);\n\n        if (!style) {\n          return;\n        }\n\n        style.remove();\n      }\n\n      var style = \"body {opacity: 0 !important}\";\n      var timeout = 3000;\n\n      addStyle(getParent(), STYLE_ID, style);\n      setTimeout(function () {\n        removeStyle(getParent(), STYLE_ID);\n      }, timeout);\n    })(window, document);\n  }\n</script>\n\n        <script>\n          // Enable Adobe target only if there is statistics consent cookie\n          if(NHSCookieConsent.getStatistics()) {\n              setUpTarget();\n          }\n        </script>\n      \n\n      <script type=\"application/javascript\">window.digitalData=\n            {\"page\": {\n                \"pageInfo\": {\n                    \"pageName\": \"nhs:web:conditions:alcohol-use-disorder\"\n               },\n                \"category\":\n                    {\n            \"primaryCategory\": \"conditions\",\n            \"subCategory1\":\"alcohol-use-disorder\",\n            \"subCategory2\":\"\",\n            \"subCategory3\":\"\"\n            }\n                },\n               };\n            </script>\n\n      \n      \n      <script\n        id=\"adobe-analytics\"\n        src=\"https://assets.adobedtm.com/launch-ENe7f6cdd7cc05409b86547d9153429788.min.js\"\n        type=\"text/plain\"\n        data-cookieconsent=\"statistics\"\n        async\n      ></script>\n\n    \n\n    <script>\n      window.NHSUK_SETTINGS = {};\n      window.NHSUK_SETTINGS.BANNER_API_URL = \"//www.nhs.uk/externalservices/surveyfeedapi/api/emergency-banners\";\n      window.NHSUK_SETTINGS.BANNER_TEST_API_URL = \"//www.nhs.uk/externalservices/surveyfeedapi/api/testfeed\";\n      \n      window.NHSUK_SETTINGS.SUGGESTIONS_TEST_HOST = \"//www.nhs.uk/search/autocomplete\";\n      window.NHSUK_SETTINGS.SEARCH_TEST_HOST = \"//www.nhs.uk/search/results\";\n      window.NHSUK_SETTINGS.USER_FEEDBACK_STORE_ENDPOINT = \"https://nhsuk-user-feedback-func-prod-uks.azurewebsites.net/\";\n    </script>  \n\n    \n  </head>\n\n  <body class=\"\">\n    <script>document.body.className += ' js-enabled' + ('noModule' in HTMLScriptElement.prototype ? ' nhsuk-frontend-supported' : '');</script>\n    \n\n    \n      <a class=\"nhsuk-skip-link\" data-module=\"nhsuk-skip-link\" href=\"#maincontent\">Skip to main content</a>\n\n\n      \n\n<header class=\"nhsuk-header\" role=\"banner\" data-module=\"nhsuk-header\">\n  <div class=\"nhsuk-width-container nhsuk-header__container\" id=\"content-header\">\n\n    <div class=\"nhsuk-header__service\">\n      <a class=\"nhsuk-header__service-logo\" href=\"/\" aria-label=\"NHS homepage\">\n        <svg class=\"nhsuk-header__logo\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 80\" height=\"40\" width=\"100\" focusable=\"false\" role=\"img\" aria-label=\"NHS\">\n          <title>NHS</title>\n          <path fill=\"currentcolor\" d=\"M200 0v80H0V0h200Zm-27.5 5.5c-14.5 0-29 5-29 22 0 10.2 7.7 13.5 14.7 16.3l.7.3c5.4 2 10.1 3.9 10.1 8.4 0 6.5-8.5 7.5-14 7.5s-12.5-1.5-16-3.5L135 70c5.5 2 13.5 3.5 20 3.5 15.5 0 32-4.5 32-22.5 0-19.5-25.5-16.5-25.5-25.5 0-5.5 5.5-6.5 12.5-6.5a35 35 0 0 1 14.5 3l4-13.5c-4.5-2-12-3-20-3Zm-131 2h-22l-14 65H22l9-45h.5l13.5 45h21.5l14-65H64l-9 45h-.5l-13-45Zm63 0h-18l-13 65h17l6-28H117l-5.5 28H129l13.5-65H125L119.5 32h-20l5-24.5Z\"></path>\n        </svg>\n      </a>\n    </div>\n\n    <search class=\"nhsuk-header__search\">\n      <div class=\"nhsuk-header__search-wrap js-show\" id=\"wrap-search\">\n        <form class=\"nhsuk-header__search-form\" id=\"search\" action=\"/search/\" method=\"get\" role=\"search\">\n          <label class=\"nhsuk-u-visually-hidden\" for=\"search-field\">Search the NHS website</label>\n          <div class=\"autocomplete-container\" id=\"autocomplete-container\"></div>\n          <input class=\"nhsuk-input\" id=\"search-field\" name=\"q\" type=\"search\" placeholder=\"Search\" autocomplete=\"off\">\n          <button class=\"nhsuk-button nhsuk-button--small\" type=\"submit\">\n            <svg class=\"nhsuk-icon nhsuk-icon--search\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\">\n              <path d=\"M19.71 18.29l-4.11-4.1a7 7 0 1 0-1.41 1.41l4.1 4.11a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.42zM5 10a5 5 0 1 1 5 5 5 5 0 0 1-5-5z\"></path>\n            </svg>\n            <span class=\"nhsuk-u-visually-hidden\">Search</span>\n          </button>\n        </form>\n      </div>\n    </search>\n\n  </div>\n\n  \n\n    <nav class=\"nhsuk-header__navigation\" id=\"header-navigation\" aria-label=\"Primary navigation\">\n      <div class=\"nhsuk-header__navigation-container nhsuk-width-container\">\n        <ul class=\"nhsuk-header__navigation-list\">\n          \n            \n              <li class=\"nhsuk-header__navigation-item nhsuk-header__navigation-item--current\">\n                <a class=\"nhsuk-header__navigation-link\" href=\"/health-a-to-z/\" aria-current=\"true\">\n                  <strong class=\"nhsuk-header__navigation-item-current-fallback\">Health A to Z</strong>\n                </a>\n              </li>\n            \n          \n            \n              <li class=\"nhsuk-header__navigation-item\">\n                <a class=\"nhsuk-header__navigation-link\" href=\"/nhs-services/\">\n                  NHS services\n                </a>\n              </li>\n            \n          \n            \n              <li class=\"nhsuk-header__navigation-item\">\n                <a class=\"nhsuk-header__navigation-link\" href=\"/live-well/\">\n                  Healthy living\n                </a>\n              </li>\n            \n          \n            \n              <li class=\"nhsuk-header__navigation-item\">\n                <a class=\"nhsuk-header__navigation-link\" href=\"/mental-health/\">\n                  Mental health\n                </a>\n              </li>\n            \n          \n            \n              <li class=\"nhsuk-header__navigation-item\">\n                <a class=\"nhsuk-header__navigation-link\" href=\"/social-care-and-support/\">\n                  Care and support\n                </a>\n              </li>\n            \n          \n          <li class=\"nhsuk-header__menu\" hidden>\n            <button class=\"nhsuk-header__menu-toggle nhsuk-header__navigation-link\" id=\"toggle-menu\" aria-expanded=\"false\">\n              <span class=\"nhsuk-u-visually-hidden\">Browse</span>\n              More\n            </button>\n          </li>\n        </ul>\n      </div>\n    </nav>\n\n  \n</header>\n\n    \n\n    \n\n    <div class=\"nhsuk-width-container\">\n\n        \n   \n\n<nav class=\"nhsuk-breadcrumb\" aria-label=\"Breadcrumb\">\n  \n  <ol class=\"nhsuk-breadcrumb__list\">\n    \n    <li class=\"nhsuk-breadcrumb__list-item\">\n      <a href=\"/\" class=\"nhsuk-breadcrumb__link\"\n        >Home</a\n      >\n    </li>\n    \n    <li class=\"nhsuk-breadcrumb__list-item\">\n      <a href=\"/health-a-to-z/\" class=\"nhsuk-breadcrumb__link\"\n        >Health A to Z</a\n      >\n    </li>\n    \n    <li class=\"nhsuk-breadcrumb__list-item\">\n      <a href=\"/conditions/\" class=\"nhsuk-breadcrumb__link\"\n        >Conditions A to Z</a\n      >\n    </li>\n    \n  </ol>\n    \n  <a href=\"/conditions/\" class=\"nhsuk-back-link\">\n    <span class=\"nhsuk-u-visually-hidden\">Back to </span>\n    Conditions A to Z\n  </a>\n  \n</nav>\n\n\n<nav\n  class=\"nhsuk-app-back-link nhsuk-u-visually-hidden\"\n  aria-label=\"Back navigation\"\n>\n  <a href=\"#\" class=\"nhsuk-back-link nhsapp-back-link\" data-nhsapp-back>\n    Back\n  </a>\n</nav>\n\n\n\n\n\n        <main class=\"nhsuk-main-wrapper  nhsuk-main-wrapper--s\" id=\"maincontent\"  lang=\"en-GB\"  >\n        \n  <div class=\"nhsuk-grid-row\">\n    <div class=\"nhsuk-grid-column-two-thirds\">\n\n      \n  <h1>\n    \n      Alcohol-use disorder\n    \n  </h1>\n  \n    <p class=\"nhsuk-lede-text\">Alcohol-use disorder is drinking alcohol in a way that&#x27;s harmful. People sometimes call this alcoholism. Treatment and support is available to help you cut down or stop.</p>\n    \n\n\n    </div>\n  </div>\n\n  <article>\n    <div class=\"nhsuk-grid-row\">\n      <div class=\"nhsuk-grid-column-two-thirds\">\n\n        \n  \n    \n\n\n  <section>\n\n    \n    \n      <h2 id=\"symptoms\">Signs of alcohol-use disorder</h2>\n    \n\n    \n      \n        \n          \n\n\n\n    <p data-block-key=\"blnlb\">Signs of alcohol-use disorder include:</p><ul><li data-block-key=\"ndq2\">regularly drinking more alcohol than you mean to</li><li data-block-key=\"4mn0h\">difficulty stopping or reducing the amount you drink, even if you want to</li><li data-block-key=\"9pjna\">feeling guilty or remorseful after drinking</li><li data-block-key=\"9tpra\">people you know being concerned about your drinking</li><li data-block-key=\"8usnp\">continuing to drink even when it's causing problems for your health, work or relationships</li><li data-block-key=\"9mfvb\">craving alcohol, for example, needing a drink when you wake up in the morning</li><li data-block-key=\"f5l6m\">needing increasing amounts of alcohol to get the same effect</li><li data-block-key=\"baced\">getting withdrawal symptoms when you stop or reduce drinking</li></ul><h3 data-block-key=\"b5alt\">Alcohol withdrawal symptoms</h3><p data-block-key=\"tltd\">If you stop drinking or cut down, you may get withdrawal symptoms. This is a sign your body is dependent on alcohol. Symptoms include:</p><ul><li data-block-key=\"e7f4\">anxiety</li><li data-block-key=\"8brnj\">difficulty sleeping</li><li data-block-key=\"75m87\">feeling and being sick (nausea and vomiting)</li><li data-block-key=\"es84c\">a racing heartbeat, sweating and shaking (tremor)</li><li data-block-key=\"12j8g\">seeing, hearing or feeling things that are not there (hallucinations)</li><li data-block-key=\"f03ev\">confusion</li><li data-block-key=\"6moao\">seizures</li></ul><p data-block-key=\"aa36n\">Withdrawal symptoms begin within 6 to 12 hours of your last drink, and usually last from 3 to 7 days. But some symptoms may last for a few months, especially if you drink heavily.</p>\n\n        \n      \n    \n      \n        \n          \n\n<div class=\"nhsuk-card nhsuk-card--warning\">\n  <div class=\"nhsuk-card__content\">\n    <h3 class=\"nhsuk-card__heading\" >\n      \n        Important\n      \n    </h3>\n      \n        <p data-block-key=\"z4jnb\">It can be very dangerous to stop drinking suddenly if you&#x27;re dependent on alcohol. If you get withdrawal symptoms, get medical help before you try to stop drinking.</p>\n      \n  </div>\n</div>\n\n        \n      \n    \n  </section>\n\n\n  \n    \n\n\n  <section>\n\n    \n\n    \n      \n        \n          \n\n\n<div class=\"nhsuk-card nhsuk-card--care nhsuk-card--care--non-urgent\">\n  <div class=\"nhsuk-card__heading-container\">\n    <h2 class=\"nhsuk-card__heading\" >\n      <span role=\"text\">\n        <span class=\"nhsuk-u-visually-hidden\">Non-urgent advice:  </span>See a GP or an alcohol addiction support service if:\n      </span>\n    </h2>\n    <span class=\"nhsuk-card--care__arrow\" aria-hidden=\"true\"></span>\n  </div>\n  <div class=\"nhsuk-card__content\">\n    \n      \n        \n          \n\n\n\n    <ul><li data-block-key=\"wq323\">you're worried about your drinking</li><li data-block-key=\"bu2fg\">you want help to stop drinking</li><li data-block-key=\"f2pf7\">you get symptoms like anxiety, difficulty sleeping, sweating or feeling and being sick when you try to stop drinking</li><li data-block-key=\"542pj\">you're worried about someone else's drinking</li></ul>\n\n        \n      \n    \n      \n        \n          \n\n\n<a class=\"nhsuk-action-link\" href=\"/nhs-services/find-alcohol-addiction-support-services/\">\n\n  <svg class=\"nhsuk-icon nhsuk-icon--arrow-right-circle\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" width=\"16\" height=\"16\" focusable=\"false\" aria-hidden=\"true\">\n    <path d=\"M12 2a10 10 0 0 0-10 9h11.7l-4-4a1 1 0 0 1 1.5-1.4l5.6 5.7a1 1 0 0 1 0 1.4l-5.6 5.7a1 1 0 0 1-1.5 0 1 1 0 0 1 0-1.4l4-4H2A10 10 0 1 0 12 2z\"/>\n  </svg>\n  <span class=\"nhsuk-action-link__text\" >Find alcohol addiction support services</span>\n</a>\n\n        \n      \n    \n    \n  </div>\n</div>\n        \n      \n    \n  </section>\n\n\n  \n    \n\n\n  <section>\n\n    \n\n    \n      \n        \n          \n\n<div class=\"nhsuk-inset-text\" >\n  <span class=\"nhsuk-u-visually-hidden\">Information: </span>\n  <h3 data-block-key=\"ayuw7\">Check your drinking</h3><p data-block-key=\"a7mbs\">If you&#x27;re worried about your drinking but you’re not sure how serious it is, you can <a href=\"https://alcoholchange.org.uk/alcohol-facts/interactive-tools/check-your-drinking\">check your drinking on the Alcohol Change UK website</a>.</p>\n</div>\n\n        \n      \n    \n  </section>\n\n\n  \n    \n\n\n  <section>\n\n    \n\n    \n      \n        \n          \n\n\n<div class=\"nhsuk-card nhsuk-card--care nhsuk-card--care--emergency\">\n  <div class=\"nhsuk-card__heading-container\">\n    <h2 class=\"nhsuk-card__heading\" >\n      <span role=\"text\">\n        <span class=\"nhsuk-u-visually-hidden\">Immediate action required: </span>Call 999 or go to A&amp;E if:\n      </span>\n    </h2>\n    <span class=\"nhsuk-card--care__arrow\" aria-hidden=\"true\"></span>\n  </div>\n  <div class=\"nhsuk-card__content\">\n    \n      \n        \n          \n\n\n\n    <p data-block-key=\"wq323\">You or someone else has severe withdrawal symptoms after stopping drinking alcohol, such as:</p><ul><li data-block-key=\"bh9tl\">shaking visibly</li><li data-block-key=\"8k9v5\">being unusually restless, irritable or upset</li><li data-block-key=\"12l3l\">confusion (for example, not knowing what day it is)</li><li data-block-key=\"45c9e\">seeing, hearing, or feeling things that are not there</li><li data-block-key=\"1nv80\">having a seizure</li></ul>\n\n        \n      \n    \n      \n        \n          \n\n\n<a class=\"nhsuk-action-link nhsuk-action-link--reverse\" href=\"https://www.nhs.uk/service-search/find-an-accident-and-emergency-service/\" >\n\n  <svg class=\"nhsuk-icon nhsuk-icon--arrow-right-circle\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" width=\"16\" height=\"16\" focusable=\"false\" aria-hidden=\"true\">\n    <path d=\"M12 2a10 10 0 0 0-10 9h11.7l-4-4a1 1 0 0 1 1.5-1.4l5.6 5.7a1 1 0 0 1 0 1.4l-5.6 5.7a1 1 0 0 1-1.5 0 1 1 0 0 1 0-1.4l4-4H2A10 10 0 1 0 12 2z\"/>\n  </svg>\n  <span class=\"nhsuk-action-link__text\" >Find your nearest A&amp;E</span>\n</a>\n\n        \n      \n    \n    \n  </div>\n</div>\n        \n      \n    \n      \n        \n          \n\n  \n    \n\n<div class=\"nhsuk-inset-text\" >\n  <span class=\"nhsuk-u-visually-hidden\">Information: </span>\n  <p data-block-key=\"kiwqw\">Do not drive to A&amp;E. Ask someone to drive you or call 999 and ask for an ambulance.</p><p data-block-key=\"8ha8n\">Bring any medicines you take with you.</p>\n</div>\n\n  \n\n\n        \n      \n    \n  </section>\n\n\n  \n    \n\n\n  <section>\n\n    \n    \n      <h2 id=\"diagnosis\">How alcohol-use disorder is diagnosed</h2>\n    \n\n    \n      \n        \n          \n\n\n\n    <p data-block-key=\"tsb90\">If you see a GP or alcohol support service about your alcohol use, they will ask about your drinking and how it's affecting your life. You may be asked to fill in a questionnaire about your symptoms.</p><p data-block-key=\"8489s\">You may also be offered blood tests to check if your drinking is affecting your health.</p>\n\n        \n      \n    \n  </section>\n\n\n  \n    \n\n\n  <section>\n\n    \n    \n      <h2 id=\"medical-treatments\">Treatment for alcohol-use disorder</h2>\n    \n\n    \n      \n        \n          \n\n\n\n    <p data-block-key=\"tsb90\">You can get treatment for alcohol-use disorder from your GP or a specialist alcohol addiction service.</p><p data-block-key=\"8tid9\">The aim of treatment is usually to help you stop drinking completely, especially if you're dependent on alcohol. But if you're not ready to stop yet, or just want to cut down, you'll be supported to reduce your drinking to a safer level.</p><p data-block-key=\"8td7b\">Treatment for alcohol-use disorder can include:</p><ul><li data-block-key=\"2u9jv\">talking therapies such as <a href=\"/tests-and-treatments/cognitive-behavioural-therapy-cbt/\">cognitive behavioural therapy (CBT)</a></li><li data-block-key=\"49kpe\">medical help for withdrawal symptoms when you stop drinking alcohol, either at home or in hospital</li><li data-block-key=\"832ff\">help to prevent relapses (where you start drinking again), such as medicines to reduce alcohol cravings</li><li data-block-key=\"tntq\">support to make positive changes in other areas of your life, such as your relationships</li><li data-block-key=\"aip0q\">help accessing other forms of support, for example with employment or housing</li></ul><h3 data-block-key=\"di6k0\">Medicines for alcohol-use disorder</h3><p data-block-key=\"1j9ct\">Medicines for alcohol-use disorder can help you to avoid drinking. They're usually offered once you've stopped drinking and need help to stay sober.</p><p data-block-key=\"8sua6\">These medicines can include:</p><ul><li data-block-key=\"c57nl\">acamprosate or naltrexone, which help reduce alcohol cravings</li><li data-block-key=\"bq0eo\">disulfiram, which causes unpleasant effects (such as a headache, feeling sick, high body temperature and heart palpitations) when combined with alcohol</li></ul>\n\n        \n      \n    \n  </section>\n\n\n  \n    \n\n\n  <section>\n\n    \n    \n      <h2 id=\"complications\">Risks of alcohol-use disorder</h2>\n    \n\n    \n      \n        \n          \n\n\n\n    <p data-block-key=\"tsb90\">Drinking too much alcohol is very bad for your health. Stopping drinking is the best way to reduce your risk of serious health problems.</p><p data-block-key=\"ci2rc\">Short term risks of drinking too much include:</p><ul><li data-block-key=\"f08b7\">serious accidents or injuries while drunk</li><li data-block-key=\"ccm81\"><a href=\"/conditions/alcohol-poisoning/\">alcohol poisoning</a></li></ul><p data-block-key=\"3p3im\">Longer term risks include:</p><ul><li data-block-key=\"91m4v\">liver damage such as <a href=\"/conditions/alcohol-related-liver-disease-arld/\">alcohol-related liver disease</a></li><li data-block-key=\"48vr7\">increased risk of many different types of <a href=\"/conditions/cancer/\">cancer</a></li><li data-block-key=\"167eb\"><a href=\"/conditions/high-blood-pressure/\">high blood pressure</a> and <a href=\"/conditions/stroke/\">stroke</a></li><li data-block-key=\"89inb\">heart problems including <a href=\"/conditions/cardiomyopathy/\">cardiomyopathy</a> and <a href=\"/conditions/heart-failure/\">heart failure</a></li><li data-block-key=\"8v0bn\"><a href=\"/conditions/acute-pancreatitis/\">acute pancreatitis</a> and <a href=\"/conditions/chronic-pancreatitis/\">chronic pancreatitis</a></li><li data-block-key=\"3bsi7\">mental health conditions such as anxiety and depression</li><li data-block-key=\"1s5g0\">alcohol related brain damage</li></ul><h3 data-block-key=\"4nd53\">Risks of drinking alcohol when pregnant</h3><p data-block-key=\"anlde\">If you're pregnant or planning to get pregnant, it's recommended that you don't drink any alcohol.</p><p data-block-key=\"3sntd\">Drinking alcohol during pregnancy increases the risk of miscarriage, stillbirth and premature birth. It also puts your baby at risk of long-term problems such as <a href=\"/conditions/fetal-alcohol-spectrum-disorder/\">fetal alcohol spectrum disorder</a>.</p><p data-block-key=\"4akdd\">If you're finding it hard to stop drinking while you're pregnant or planning to get pregnant, get help from your GP or an alcohol support service.</p>\n\n        \n      \n    \n  </section>\n\n\n  \n    \n\n\n  <section>\n\n    \n\n    \n      \n        \n          \n\n<div class=\"nhsuk-inset-text\" >\n  <span class=\"nhsuk-u-visually-hidden\">Information: </span>\n  <h3 data-block-key=\"cgfv3\">Find out more</h3><ul><li data-block-key=\"1bpl4\"><a href=\"/live-well/alcohol-advice/the-risks-of-drinking-too-much/\">The risks of drinking too much</a></li><li data-block-key=\"bomb5\"><a href=\"/pregnancy/keeping-well/drinking-alcohol-while-pregnant/\">Drinking alcohol while pregnant</a></li></ul>\n</div>\n\n        \n      \n    \n  </section>\n\n\n  \n    \n\n\n  <section>\n\n    \n    \n      <h2 id=\"self-care\">Things you can do to stop or cut down drinking</h2>\n    \n\n    \n      \n        \n          \n\n\n\n    <p data-block-key=\"tsb90\">There are things you can do to help stop or reduce your drinking.</p><p data-block-key=\"9cnt3\">Get medical help before you stop or reduce drinking if you get withdrawal symptoms.</p>\n\n        \n      \n    \n      \n        \n          \n\n<div class=\"nhsuk-do-dont-list\">\n  <h3 class=\"nhsuk-do-dont-list__label\" >\n    Do\n  </h3 >\n  <ul class=\"nhsuk-list nhsuk-list--tick\" >\n    \n    <li>\n      <svg class=\"nhsuk-icon nhsuk-icon--tick\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" width=\"16\" height=\"16\" focusable=\"false\" aria-hidden=\"true\">\n        <path d=\"M11.4 18.8a2 2 0 0 1-2.7.1h-.1L4 14.1a1.5 1.5 0 0 1 2.1-2L10 16l8.1-8.1a1.5 1.5 0 1 1 2.2 2l-8.9 9Z\"/>\n      </svg>\n      <p data-block-key=\"iccae\">keep a daily diary of how much you&#x27;re drinking, or try a drink tracking app</p>\n    </li>\n    \n    <li>\n      <svg class=\"nhsuk-icon nhsuk-icon--tick\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" width=\"16\" height=\"16\" focusable=\"false\" aria-hidden=\"true\">\n        <path d=\"M11.4 18.8a2 2 0 0 1-2.7.1h-.1L4 14.1a1.5 1.5 0 0 1 2.1-2L10 16l8.1-8.1a1.5 1.5 0 1 1 2.2 2l-8.9 9Z\"/>\n      </svg>\n      <p data-block-key=\"96f7x\">to cut down, try alternating alcoholic drinks with soft drinks, or choose lower strength (ABV in %) drinks</p>\n    </li>\n    \n    <li>\n      <svg class=\"nhsuk-icon nhsuk-icon--tick\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" width=\"16\" height=\"16\" focusable=\"false\" aria-hidden=\"true\">\n        <path d=\"M11.4 18.8a2 2 0 0 1-2.7.1h-.1L4 14.1a1.5 1.5 0 0 1 2.1-2L10 16l8.1-8.1a1.5 1.5 0 1 1 2.2 2l-8.9 9Z\"/>\n      </svg>\n      <p data-block-key=\"96f7x\">tell people you&#x27;re stopping drinking so they can help keep you on track</p>\n    </li>\n    \n    <li>\n      <svg class=\"nhsuk-icon nhsuk-icon--tick\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" width=\"16\" height=\"16\" focusable=\"false\" aria-hidden=\"true\">\n        <path d=\"M11.4 18.8a2 2 0 0 1-2.7.1h-.1L4 14.1a1.5 1.5 0 0 1 2.1-2L10 16l8.1-8.1a1.5 1.5 0 1 1 2.2 2l-8.9 9Z\"/>\n      </svg>\n      <p data-block-key=\"96f7x\">avoid situations where you know you&#x27;re likely to drink</p>\n    </li>\n    \n    <li>\n      <svg class=\"nhsuk-icon nhsuk-icon--tick\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" width=\"16\" height=\"16\" focusable=\"false\" aria-hidden=\"true\">\n        <path d=\"M11.4 18.8a2 2 0 0 1-2.7.1h-.1L4 14.1a1.5 1.5 0 0 1 2.1-2L10 16l8.1-8.1a1.5 1.5 0 1 1 2.2 2l-8.9 9Z\"/>\n      </svg>\n      <p data-block-key=\"96f7x\">find different activities to do when you&#x27;d usually drink, such as trying a new hobby</p>\n    </li>\n    \n    <li>\n      <svg class=\"nhsuk-icon nhsuk-icon--tick\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" width=\"16\" height=\"16\" focusable=\"false\" aria-hidden=\"true\">\n        <path d=\"M11.4 18.8a2 2 0 0 1-2.7.1h-.1L4 14.1a1.5 1.5 0 0 1 2.1-2L10 16l8.1-8.1a1.5 1.5 0 1 1 2.2 2l-8.9 9Z\"/>\n      </svg>\n      <p data-block-key=\"96f7x\">try joining a support group</p>\n    </li>\n    \n  </ul>\n</div>\n\n        \n      \n    \n  </section>\n\n\n  \n    \n\n\n  <section>\n\n    \n\n    \n      \n        \n          \n\n<div class=\"nhsuk-inset-text\" >\n  <span class=\"nhsuk-u-visually-hidden\">Information: </span>\n  <h3 data-block-key=\"cgfv3\">NHS drink tracking app</h3><ul><li data-block-key=\"6rtm0\"><a href=\"https://apps.apple.com/gb/app/nhs-drink-free-days/id1196694906\">NHS Drink Free Days – App Store</a></li><li data-block-key=\"f9q3d\"><a href=\"https://play.google.com/store/apps/details?id=com.phe.daysoff\">NHS Drink Free Days – Google Play</a></li></ul>\n</div>\n\n        \n      \n    \n  </section>\n\n\n  \n    \n\n\n  <section>\n\n    \n    \n      <h2 id=\"support\">Support for alcohol-use disorder</h2>\n    \n\n    \n      \n        \n          \n\n\n\n    <p data-block-key=\"tsb90\">Stopping drinking can be difficult. You can get support from your GP or alcohol addiction support services.</p><p data-block-key=\"7d38v\">There are also charities and peer support groups where you can get support from other people going through the same thing.</p><h3 data-block-key=\"f18hf\">Support groups</h3><p data-block-key=\"2h9gk\">Organisations offering support for people trying to stop drinking, including helplines and support groups, include:</p><ul><li data-block-key=\"2leai\"><a href=\"https://www.alcoholics-anonymous.org.uk/\">Alcoholics Anonymous</a></li><li data-block-key=\"a2kij\"><a href=\"https://smartrecovery.org.uk/\">SMART Recovery</a></li></ul><h3 data-block-key=\"bqkit\">Support for friends, family and carers</h3><p data-block-key=\"3kpi\">Organisations offering support for friends, family and carers, including helplines and support groups, include:</p><ul><li data-block-key=\"bamkd\"><a href=\"https://al-anonuk.org.uk/\">Al-Anon UK</a></li><li data-block-key=\"1iloq\"><a href=\"https://smartrecovery.org.uk/smart_family__friends/\">SMART Recovery: family and friends programme</a></li><li data-block-key=\"cnbs7\"><a href=\"https://adfam.org.uk/for-families/\">Adfam</a></li></ul><p data-block-key=\"d93d4\">More information about supporting someone else:</p><ul><li data-block-key=\"13gts\"><a href=\"https://alcoholchange.org.uk/help-and-support/get-help-now/family-and-friends\">Help for family and friends (Alcohol Change UK)</a></li><li data-block-key=\"8f9sb\"><a href=\"https://carers.org/caring-for-someone-with-a-specific-condition/alcohol-substance-misuse-and-addiction\">Caring for someone with alcohol or substance misuse issues (Carer's Trust)</a></li></ul>\n\n        \n      \n    \n  </section>\n\n\n  \n\n\n      </div>\n\n      \n\n    </div>\n  </article>\n\n  \n\n  \n\n  \n    <div>\n      <p class=\"nhsuk-body-s nhsuk-u-margin-top-7 nhsuk-u-secondary-text-color\">\n        Page last reviewed: 24 April 2026\n        <br>\n        Next review due: 24 April 2029\n      </p>\n    </div>\n  \n\n  \n\n\n\n\n\n\n\n        \n        \n        <div class=\"nhsuk-grid-row\">\n          <div class=\"nhsuk-grid-column-two-thirds\">\n            \n          </div>\n        </div>  \n      </main>\n    </div>\n\n    \n\n    \n      \n\n\n<footer class=\"nhsuk-footer\" role=\"contentinfo\" id=\"nhsuk-footer\">\n  <div class=\"nhsuk-width-container\">\n    <h2 class=\"nhsuk-u-visually-hidden\">Support links</h2>\n    <div class=\"nhsuk-footer__navigation nhsuk-grid-row\">\n      \n      <div class=\"nhsuk-grid-column-one-quarter\">\n        <ul class=\"nhsuk-footer__list\">\n          \n            <li class=\"nhsuk-footer__list-item\">\n              <a class=\"nhsuk-footer__list-item-link\" href=\"/\">Home</a>\n            </li>\n          \n            <li class=\"nhsuk-footer__list-item\">\n              <a class=\"nhsuk-footer__list-item-link\" href=\"/health-a-to-z/\">Health A to Z</a>\n            </li>\n          \n            <li class=\"nhsuk-footer__list-item\">\n              <a class=\"nhsuk-footer__list-item-link\" href=\"/nhs-services/\">NHS services</a>\n            </li>\n          \n            <li class=\"nhsuk-footer__list-item\">\n              <a class=\"nhsuk-footer__list-item-link\" href=\"/live-well/\">Healthy living</a>\n            </li>\n          \n            <li class=\"nhsuk-footer__list-item\">\n              <a class=\"nhsuk-footer__list-item-link\" href=\"/mental-health/\">Mental health</a>\n            </li>\n          \n            <li class=\"nhsuk-footer__list-item\">\n              <a class=\"nhsuk-footer__list-item-link\" href=\"/social-care-and-support/\">Care and support</a>\n            </li>\n          \n        </ul>\n      </div>\n      \n      <div class=\"nhsuk-grid-column-one-quarter\">\n        <ul class=\"nhsuk-footer__list\">\n          \n            <li class=\"nhsuk-footer__list-item\">\n              <a class=\"nhsuk-footer__list-item-link\" href=\"/nhs-app/\">NHS App</a>\n            </li>\n          \n            <li class=\"nhsuk-footer__list-item\">\n              <a class=\"nhsuk-footer__list-item-link\" href=\"/nhs-services/gps/view-your-test-results/\">View your test results</a>\n            </li>\n          \n            <li class=\"nhsuk-footer__list-item\">\n              <a class=\"nhsuk-footer__list-item-link\" href=\"/using-the-nhs/about-the-nhs/\">About the NHS</a>\n            </li>\n          \n            <li class=\"nhsuk-footer__list-item\">\n              <a class=\"nhsuk-footer__list-item-link\" href=\"/using-the-nhs/healthcare-abroad/\">Healthcare abroad</a>\n            </li>\n          \n        </ul>\n      </div>\n      \n      <div class=\"nhsuk-grid-column-one-quarter\">\n        <ul class=\"nhsuk-footer__list\">\n          \n            <li class=\"nhsuk-footer__list-item\">\n              <a class=\"nhsuk-footer__list-item-link\" href=\"/our-policies/manage-nhs-profiles/\">Manage NHS profiles</a>\n            </li>\n          \n            <li class=\"nhsuk-footer__list-item\">\n              <a class=\"nhsuk-footer__list-item-link\" href=\"/nhs-sites/\">Other NHS websites</a>\n            </li>\n          \n        </ul>\n      </div>\n      \n      <div class=\"nhsuk-grid-column-one-quarter\">\n        <ul class=\"nhsuk-footer__list\">\n          \n            <li class=\"nhsuk-footer__list-item\">\n              <a class=\"nhsuk-footer__list-item-link\" href=\"/about-us/\">About us</a>\n            </li>\n          \n            <li class=\"nhsuk-footer__list-item\">\n              <a class=\"nhsuk-footer__list-item-link\" href=\"/report-an-issue-with-the-nhs-website\">Report an issue with the NHS website</a>\n            </li>\n          \n            <li class=\"nhsuk-footer__list-item\">\n              <a class=\"nhsuk-footer__list-item-link\" href=\"/accessibility-statement/\">Accessibility statement</a>\n            </li>\n          \n            <li class=\"nhsuk-footer__list-item\">\n              <a class=\"nhsuk-footer__list-item-link\" href=\"/our-policies/\">Our policies</a>\n            </li>\n          \n            <li class=\"nhsuk-footer__list-item\">\n              <a class=\"nhsuk-footer__list-item-link\" href=\"/our-policies/choose-your-cookie-settings/\">Cookies</a>\n            </li>\n          \n        </ul>\n      </div>\n      \n    </div>\n    <div class=\"nhsuk-footer__meta\">\n      <p class=\"nhsuk-body-s\">© Crown copyright</p>\n    </div>\n  </div>\n</footer> \n    \n\n    \n      \n      \n        \n          <script src=\"https://assets.nhs.uk/scripts/myaccount.js\"></script>\n        \n      \n    \n  </body>\n</html>\n"
+        },
+        {
+          "id": "coffee-correction-reopened",
+          "raw_path": "/tmp/ch02-audit/coffee-correction.body",
+          "raw_sha256": "b1549670ff3c732920727c8a2a3f245f76c21e47281d543498826d8c3fccc729",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5765813/fullTextXML",
+          "quote": "the relative risk should read 0.83 (95% confidence interval 0.79 to 0.88)",
+          "scope": "이전직접수집정정공지XML재열람.원바이트는기존JSONbatch3에영구내장.",
+          "fetched_at": null,
+          "read_at_utc": "2026-10-18T14:11:53.156694+00:00"
+        },
+        {
+          "id": "chili-reopened",
+          "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/edda638827db3ce65f50.json",
+          "raw_sha256": "a3a27d4290375b707c0c283f3057339a0f305f15cb1ca3dadc6289ca11483a35",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2Fj.jacc.2019.09.068%22&format=json&resultType=core&pageSize=10",
+          "quote": "regular (>4 times/week)",
+          "scope": "제공된원초록RAW재열람.새HTTP/전체원문아님.",
+          "fetched_at": "2026-10-18T20:50:06.349978+09:00",
+          "read_at_utc": "2026-10-18T14:11:53.156694+00:00"
+        }
+      ],
+      "formal_kr_fit": false
+    },
+    {
+      "revision": "r3",
+      "reviewed_at_utc": "2026-10-18T14:11:53.156694+00:00",
+      "review_status": "complete",
+      "summary": {
+        "approve": 1,
+        "revise": 0
+      },
+      "entries": [
+        {
+          "number": 20,
+          "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-020-e74f/editorial-proposal-r3.json",
+          "sha256": "2e9daf0df5d2719deaa1e17b958cda00373f288bca40a708d6f3e8cc1c40d9d6",
+          "decision": "approve",
+          "source_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-020-e74f/strict-entry.md",
+          "source_sha256": "b917002a3657a417f673e4c070f39375896e0b7f9eb2d3033b00d31fc9df8499",
+          "fields": [
+            {
+              "field": "쉽게",
+              "decision": "approve",
+              "before": "매일 많이 마시다가 갑자기 끊으면 금단 증상이 나타납니다. 가벼운 증상으로는 손 떨림과 땀이 있습니다. 가슴이 두근거리거나 잠이 안 오기도 합니다. 심하면 경련이나 진전섬망이 나타납니다. 진전섬망은 생명을 위협하는 급성 질환입니다. 노르웨이에서 3만여 명을 추적했습니다. 진전섬망을 앓았던 집단에서는 이후 해마다 8%가 사망했습니다. 술을 끊고 싶으면 먼저 병원에 가세요. 하루에 얼마나 마시는지 말하세요.",
+              "after": "매일 많이 마시다 갑자기 끊거나 크게 줄이면 손 떨림 등이 생길 수 있습니다. 끊으려면 병원 도움을 받으세요. 온몸이 떨리거나 심하게 혼란스러우면 생명이 위험할 수 있습니다. 바로 응급진료를 받으세요.",
+              "after_chars": 112,
+              "why": "r2의금단필연성을생길수있음으로제한해수정요청을해결했습니다.갑작스런중단/큰감량·병원도움·심한떨림/혼란의즉시응급진료조건은실제원초록/NHS공식문장으로확인했습니다."
+            }
+          ],
+          "approval_scope": "정확SHA의쉽게필드만.이전r2revise보존,전체항목/절출판승인아님."
+        }
+      ],
+      "sources_reference": "editorial r2 sources aws-review, aws-nhs/overview",
+      "formal_kr_fit": false
+    }
+  ],
+  "canonical_remaining_findings_after_editorial_r2": [
+    {
+      "entry": 16,
+      "field": "이득",
+      "classification": "confirmed_overstatement",
+      "before": "그 이상은 이득이 더 늘지 않습니다.",
+      "suggested_after": "더 많은 운동량의 효과는 확실하지 않습니다.",
+      "evidence_id": "momma-higher-dose"
+    },
+    {
+      "entry": 21,
+      "field": "이득",
+      "classification": "confirmed_denominator_error",
+      "before": "약물 효과는 무작위 시험 122개·22,803명의 결과를 합쳤습니다.",
+      "suggested_after": "검토 전체에는 무작위 시험 122개와 코호트 연구 1개, 총 22,803명이 포함됐습니다.",
+      "evidence_id": "jonas-denominator"
+    },
+    {
+      "entry": 28,
+      "field": "비고",
+      "classification": "unsupported_universal_absence_claim_not_proven_false",
+      "before": "반대 결론을 낸 원 연구는 지금까지 없습니다.",
+      "suggested_action": "한문장삭제또는실제검토문헌범위의낮은확실성결론으로제한.전세계현재연구부재단정미검증이며확정거짓으로증명한뜻아님.",
+      "evidence_id": "lane-upf"
+    },
+    {
+      "entry": 37,
+      "field": "비고",
+      "classification": "confirmed_design_generalisation_error",
+      "before": "위 두 연구는 관찰 자료를 분석했고 무작위로 집단을 나누지 않았습니다.",
+      "suggested_action": "질병/사망관찰연관과인지/운동기능의시험포함을구분.우산리뷰인지SMD.69는18RCT메타분석.",
+      "evidence_id": "du-rct"
+    },
+    {
+      "entry": 37,
+      "field": "이득",
+      "classification": "confirmed_metric_and_scope_needs_correction",
+      "before": "당뇨병과 비만 위험은 약 20% 높습니다.",
+      "suggested_action": "당뇨OR1.20을발생위험비20%로동일시하지말고정확지표및노출귀속을명시하거나부차수치삭제.초록>60분설명과본문habitualnapping OR비교의조건차이도고지/제한필요.",
+      "evidence_id": "du-diabetes-or"
+    }
+  ],
+  "intro_canonical_followup": "제40항한줄교체만승인.다른intro요약의차주3회·커피하루3~4잔·고추주4회이상·우유요거트하루1~2잔등도검증된fullentry와범위충돌소지가있어별도exactline검토필요.임의확대교체승인아님.",
+  "intro_revision_reviews": [
+    {
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/publication-intro-proposal.json",
+      "sha256": "4c501ece7436bb42c0698982c0a0e8a0ed9b9066a7e26652cd139972ebbc262e",
+      "decision": "approve",
+      "reviewed_at_utc": "2026-10-18T14:28:11.308490+00:00",
+      "original_intro_sha256": "b63dc987b6f5ba59df31cae92501c3f1ceb9348c508719d12570908cb4094f6a",
+      "proposed_intro_sha256": "4f3905381cda78671ab273cb0e834a384f05d668fe52237f50d3c0f237c3e4a1",
+      "operations": [
+        {
+          "id": "intro-01",
+          "status": "unadopted_proposal",
+          "before": "나머지 숫자는 기록만 따라간 연구에서 나왔습니다. 무리를 나누지 않고 추적만 했습니다.",
+          "after": "관찰 연구의 숫자도 함께 실었습니다. 이런 연구는 생활에 개입하지 않고 기록을 비교합니다.",
+          "original_unique_match_count": 1,
+          "entries": [
+            4,
+            9,
+            21,
+            37,
+            41
+          ],
+          "reason": "무작위 시험을 포함한 제3·4·9·21·37·41항과 나머지 전부 관찰 연구라는 설명이 충돌합니다. 설계 구분을 각 항목에 맡기고 관찰 연구 설명만 한정합니다.",
+          "decision": "approve",
+          "why": "무작위시험이외수치를모두추적연구라하던전면일반화를제거하고관찰설계설명으로한정합니다.실제본문은사례대조·추적·개입등여러설계이므로새문장이맞습니다."
+        },
+        {
+          "id": "intro-02",
+          "status": "unadopted_proposal",
+          "before": "일주일에 세 차례 이상 차(제25항)",
+          "after": "차 마시기(제25항)",
+          "original_unique_match_count": 1,
+          "entries": [
+            25
+          ],
+          "reason": "승인 r2는 검증하지 못한 섭취 빈도를 제목에서 삭제했습니다.",
+          "decision": "approve",
+          "why": "미검증차섭취빈도를처방처럼반복하지않고차주제만안내합니다."
+        },
+        {
+          "id": "intro-03",
+          "status": "unadopted_proposal",
+          "before": "하루 3~4잔 커피(제26항)",
+          "after": "커피와 사망 위험(제26항)",
+          "original_unique_match_count": 1,
+          "entries": [
+            26
+          ],
+          "reason": "관찰 결과의 노출량을 개인별 증량 처방으로 바꾸지 않습니다.",
+          "decision": "approve",
+          "why": "커피3~4잔관찰노출을증량처방으로바꾸지않고사망위험주제로안내합니다."
+        },
+        {
+          "id": "intro-04",
+          "status": "unadopted_proposal",
+          "before": "일주일에 네 번 이상 고추(제33항)",
+          "after": "고추와 사망 위험(제33항)",
+          "original_unique_match_count": 1,
+          "entries": [
+            33
+          ],
+          "reason": "원초록은 주4회 초과 집단 비교이며 주4회 이상 처방이 아닙니다.",
+          "decision": "approve",
+          "why": "원문>4회관찰군을≥4회섭취처방으로오인할문구를제거하고고추주제를보존합니다."
+        },
+        {
+          "id": "intro-05",
+          "status": "unadopted_proposal",
+          "before": "하루 1~2잔 우유·요거트(제34항)",
+          "after": "유제품과 사망 위험(제34항)",
+          "original_unique_match_count": 1,
+          "entries": [
+            34
+          ],
+          "reason": "실제 노출은 우유·요거트·치즈를 합친 유제품 >2인분/일입니다. 잔 수 처방으로 환원하지 않습니다.",
+          "decision": "approve",
+          "why": "우유·요거트·치즈totaldairy의serving관찰을우유/요거트잔수처방으로바꾸지않습니다."
+        },
+        {
+          "id": "intro-06",
+          "status": "unadopted_proposal",
+          "before": "하루 7000~8000보 걷기(제11항)",
+          "after": "걷기(제11항)",
+          "original_unique_match_count": 1,
+          "entries": [
+            11
+          ],
+          "reason": "걸음 수와 운동 시간의 정확한 등가 및 국내 권고는 검증 범위 밖입니다. 항목 주제로만 안내합니다.",
+          "decision": "approve",
+          "why": "걸음수와활동시간정확등가/연령구간최적처방을주장하지않는탐색용걷기주제입니다."
+        },
+        {
+          "id": "intro-07",
+          "status": "unadopted_proposal",
+          "before": "일주일에 근력 운동(제16항)",
+          "after": "근력 운동(제16항)",
+          "original_unique_match_count": 1,
+          "entries": [
+            16
+          ],
+          "reason": "관찰한 운동량과 운동 빈도 지침을 구분해 주제명으로 안내합니다.",
+          "decision": "approve",
+          "why": "관찰운동량과주당운동빈도지침을혼합하지않는근력운동주제안내입니다."
+        },
+        {
+          "id": "intro-08",
+          "status": "unadopted_proposal",
+          "before": "밤 7시간 자기(제13항)",
+          "after": "수면 시간과 규칙성(제13항)",
+          "original_unique_match_count": 1,
+          "entries": [
+            13
+          ],
+          "reason": "승인 본문은 연구별 짧고 긴 수면 기준 차이와 수면 규칙성을 함께 다룹니다.",
+          "decision": "approve",
+          "why": "수면시간과규칙성을함께다루는본문의범위를보존하고7시간을모든개인의필수량으로제시하지않습니다."
+        },
+        {
+          "id": "intro-09",
+          "status": "unadopted_proposal",
+          "before": "낮잠은 30분 안으로(제37항)",
+          "after": "낮잠(제37항)",
+          "original_unique_match_count": 1,
+          "entries": [
+            37
+          ],
+          "reason": "인지·운동 기능의 시험과 질병·사망 관찰연관을 구분해야 합니다. 단일 시간 처방은 도입 요약에서 덜어냅니다.",
+          "decision": "approve",
+          "why": "인지/운동시험과질병/사망관찰연관을하나의30분임계량으로묶지않고낮잠주제로안내합니다."
+        },
+        {
+          "id": "intro-10",
+          "status": "unadopted_proposal",
+          "before": "밤샌 다음 날 밤 바로 보충하기(제38항)",
+          "after": "부족한 잠 보충하기(제38항)",
+          "original_unique_match_count": 1,
+          "entries": [
+            38
+          ],
+          "reason": "승인 본문은 개인 필요량에 비해 부족한 밤을 연구했으며 완전 밤샘만을 연구하지 않았다고 밝힙니다.",
+          "decision": "approve",
+          "why": "실제연구가완전밤샘만의연구가아닌점을반영해부족한잠보충으로안내합니다.다음밤/주말조건은항목본문에그대로남습니다."
+        },
+        {
+          "id": "intro-11",
+          "status": "unadopted_proposal",
+          "before": "소규모 자가압착 땅콩기름 사지 않기(제40항)",
+          "after": "식용유의 밀폐 포장과 제조 정보 확인(제40항)",
+          "original_unique_match_count": 1,
+          "entries": [
+            40
+          ],
+          "reason": "기존 제40항 별도 한줄 제안과 같은 부분교체입니다. 국내 방앗간 전체 기피를 승인된 포장·제조 정보 확인 범위로 한정합니다.",
+          "decision": "approve",
+          "why": "기승인40한줄과동일결과를하나의span으로포함하여국내방앗간전체금지와본문범위제한의충돌을없앱니다.규격/검사합격보장은하지않습니다."
+        }
+      ],
+      "validation": {
+        "unique_original_spans": 11,
+        "nonoverlapping": true,
+        "all_entry_reference_order_unchanged": true,
+        "topic_groups_metadata_links_banner_comments_unchanged": true,
+        "referenced_approved_fullentry_SHAs_match": true,
+        "prior_entry40_after_once": true
+      },
+      "supersedes": {
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-040-ec55/publication-intro-correction.json",
+        "sha256": "217a28b6eb5a2df1b2ce9abee711c72e01b0b1cc6cbbc71f1e2b47c08d428259",
+        "decision_history_preserved": true,
+        "apply_together": false,
+        "reason": "11span중intro-11이동일40한줄결과를이미포함하므로구40단독intro연산은실행목록에서제외."
+      },
+      "application_conditions": [
+        "검토는메모리상재현만했으며원intro/strict/승인자료는쓰지않음.",
+        "예상4f3905해시는원intro b63dc9에11span만적용한값.이미helper가승인DOI주석을추가한별도intro전체해시와같다고주장하지않음.",
+        "ROOT의helper이후별도최종후보에는승인된각before가정확히한번있는지검사하고그밖의모든바이트/승인DOI주석을보존해연산후새해시기록.",
+        "기존40단독한줄과11span안을중복적용하지않음."
+      ],
+      "formal_kr_fit": false,
+      "whole_chapter_approval": false
+    }
+  ],
+  "active_intro_review": {
+    "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/publication-intro-proposal.json",
+    "sha256": "4c501ece7436bb42c0698982c0a0e8a0ed9b9066a7e26652cd139972ebbc262e",
+    "decision": "approve",
+    "reviewed_at_utc": "2026-10-18T14:28:11.308490+00:00",
+    "original_intro_sha256": "b63dc987b6f5ba59df31cae92501c3f1ceb9348c508719d12570908cb4094f6a",
+    "proposed_intro_sha256": "4f3905381cda78671ab273cb0e834a384f05d668fe52237f50d3c0f237c3e4a1",
+    "operations": [
+      {
+        "id": "intro-01",
+        "status": "unadopted_proposal",
+        "before": "나머지 숫자는 기록만 따라간 연구에서 나왔습니다. 무리를 나누지 않고 추적만 했습니다.",
+        "after": "관찰 연구의 숫자도 함께 실었습니다. 이런 연구는 생활에 개입하지 않고 기록을 비교합니다.",
+        "original_unique_match_count": 1,
+        "entries": [
+          4,
+          9,
+          21,
+          37,
+          41
+        ],
+        "reason": "무작위 시험을 포함한 제3·4·9·21·37·41항과 나머지 전부 관찰 연구라는 설명이 충돌합니다. 설계 구분을 각 항목에 맡기고 관찰 연구 설명만 한정합니다.",
+        "decision": "approve",
+        "why": "무작위시험이외수치를모두추적연구라하던전면일반화를제거하고관찰설계설명으로한정합니다.실제본문은사례대조·추적·개입등여러설계이므로새문장이맞습니다."
+      },
+      {
+        "id": "intro-02",
+        "status": "unadopted_proposal",
+        "before": "일주일에 세 차례 이상 차(제25항)",
+        "after": "차 마시기(제25항)",
+        "original_unique_match_count": 1,
+        "entries": [
+          25
+        ],
+        "reason": "승인 r2는 검증하지 못한 섭취 빈도를 제목에서 삭제했습니다.",
+        "decision": "approve",
+        "why": "미검증차섭취빈도를처방처럼반복하지않고차주제만안내합니다."
+      },
+      {
+        "id": "intro-03",
+        "status": "unadopted_proposal",
+        "before": "하루 3~4잔 커피(제26항)",
+        "after": "커피와 사망 위험(제26항)",
+        "original_unique_match_count": 1,
+        "entries": [
+          26
+        ],
+        "reason": "관찰 결과의 노출량을 개인별 증량 처방으로 바꾸지 않습니다.",
+        "decision": "approve",
+        "why": "커피3~4잔관찰노출을증량처방으로바꾸지않고사망위험주제로안내합니다."
+      },
+      {
+        "id": "intro-04",
+        "status": "unadopted_proposal",
+        "before": "일주일에 네 번 이상 고추(제33항)",
+        "after": "고추와 사망 위험(제33항)",
+        "original_unique_match_count": 1,
+        "entries": [
+          33
+        ],
+        "reason": "원초록은 주4회 초과 집단 비교이며 주4회 이상 처방이 아닙니다.",
+        "decision": "approve",
+        "why": "원문>4회관찰군을≥4회섭취처방으로오인할문구를제거하고고추주제를보존합니다."
+      },
+      {
+        "id": "intro-05",
+        "status": "unadopted_proposal",
+        "before": "하루 1~2잔 우유·요거트(제34항)",
+        "after": "유제품과 사망 위험(제34항)",
+        "original_unique_match_count": 1,
+        "entries": [
+          34
+        ],
+        "reason": "실제 노출은 우유·요거트·치즈를 합친 유제품 >2인분/일입니다. 잔 수 처방으로 환원하지 않습니다.",
+        "decision": "approve",
+        "why": "우유·요거트·치즈totaldairy의serving관찰을우유/요거트잔수처방으로바꾸지않습니다."
+      },
+      {
+        "id": "intro-06",
+        "status": "unadopted_proposal",
+        "before": "하루 7000~8000보 걷기(제11항)",
+        "after": "걷기(제11항)",
+        "original_unique_match_count": 1,
+        "entries": [
+          11
+        ],
+        "reason": "걸음 수와 운동 시간의 정확한 등가 및 국내 권고는 검증 범위 밖입니다. 항목 주제로만 안내합니다.",
+        "decision": "approve",
+        "why": "걸음수와활동시간정확등가/연령구간최적처방을주장하지않는탐색용걷기주제입니다."
+      },
+      {
+        "id": "intro-07",
+        "status": "unadopted_proposal",
+        "before": "일주일에 근력 운동(제16항)",
+        "after": "근력 운동(제16항)",
+        "original_unique_match_count": 1,
+        "entries": [
+          16
+        ],
+        "reason": "관찰한 운동량과 운동 빈도 지침을 구분해 주제명으로 안내합니다.",
+        "decision": "approve",
+        "why": "관찰운동량과주당운동빈도지침을혼합하지않는근력운동주제안내입니다."
+      },
+      {
+        "id": "intro-08",
+        "status": "unadopted_proposal",
+        "before": "밤 7시간 자기(제13항)",
+        "after": "수면 시간과 규칙성(제13항)",
+        "original_unique_match_count": 1,
+        "entries": [
+          13
+        ],
+        "reason": "승인 본문은 연구별 짧고 긴 수면 기준 차이와 수면 규칙성을 함께 다룹니다.",
+        "decision": "approve",
+        "why": "수면시간과규칙성을함께다루는본문의범위를보존하고7시간을모든개인의필수량으로제시하지않습니다."
+      },
+      {
+        "id": "intro-09",
+        "status": "unadopted_proposal",
+        "before": "낮잠은 30분 안으로(제37항)",
+        "after": "낮잠(제37항)",
+        "original_unique_match_count": 1,
+        "entries": [
+          37
+        ],
+        "reason": "인지·운동 기능의 시험과 질병·사망 관찰연관을 구분해야 합니다. 단일 시간 처방은 도입 요약에서 덜어냅니다.",
+        "decision": "approve",
+        "why": "인지/운동시험과질병/사망관찰연관을하나의30분임계량으로묶지않고낮잠주제로안내합니다."
+      },
+      {
+        "id": "intro-10",
+        "status": "unadopted_proposal",
+        "before": "밤샌 다음 날 밤 바로 보충하기(제38항)",
+        "after": "부족한 잠 보충하기(제38항)",
+        "original_unique_match_count": 1,
+        "entries": [
+          38
+        ],
+        "reason": "승인 본문은 개인 필요량에 비해 부족한 밤을 연구했으며 완전 밤샘만을 연구하지 않았다고 밝힙니다.",
+        "decision": "approve",
+        "why": "실제연구가완전밤샘만의연구가아닌점을반영해부족한잠보충으로안내합니다.다음밤/주말조건은항목본문에그대로남습니다."
+      },
+      {
+        "id": "intro-11",
+        "status": "unadopted_proposal",
+        "before": "소규모 자가압착 땅콩기름 사지 않기(제40항)",
+        "after": "식용유의 밀폐 포장과 제조 정보 확인(제40항)",
+        "original_unique_match_count": 1,
+        "entries": [
+          40
+        ],
+        "reason": "기존 제40항 별도 한줄 제안과 같은 부분교체입니다. 국내 방앗간 전체 기피를 승인된 포장·제조 정보 확인 범위로 한정합니다.",
+        "decision": "approve",
+        "why": "기승인40한줄과동일결과를하나의span으로포함하여국내방앗간전체금지와본문범위제한의충돌을없앱니다.규격/검사합격보장은하지않습니다."
+      }
+    ],
+    "validation": {
+      "unique_original_spans": 11,
+      "nonoverlapping": true,
+      "all_entry_reference_order_unchanged": true,
+      "topic_groups_metadata_links_banner_comments_unchanged": true,
+      "referenced_approved_fullentry_SHAs_match": true,
+      "prior_entry40_after_once": true
+    },
+    "supersedes": {
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-040-ec55/publication-intro-correction.json",
+      "sha256": "217a28b6eb5a2df1b2ce9abee711c72e01b0b1cc6cbbc71f1e2b47c08d428259",
+      "decision_history_preserved": true,
+      "apply_together": false,
+      "reason": "11span중intro-11이동일40한줄결과를이미포함하므로구40단독intro연산은실행목록에서제외."
+    },
+    "application_conditions": [
+      "검토는메모리상재현만했으며원intro/strict/승인자료는쓰지않음.",
+      "예상4f3905해시는원intro b63dc9에11span만적용한값.이미helper가승인DOI주석을추가한별도intro전체해시와같다고주장하지않음.",
+      "ROOT의helper이후별도최종후보에는승인된각before가정확히한번있는지검사하고그밖의모든바이트/승인DOI주석을보존해연산후새해시기록.",
+      "기존40단독한줄과11span안을중복적용하지않음."
+    ],
+    "formal_kr_fit": false,
+    "whole_chapter_approval": false
+  }
 }
