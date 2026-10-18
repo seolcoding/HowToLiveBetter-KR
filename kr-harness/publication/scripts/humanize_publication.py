@@ -138,8 +138,86 @@ def assemble(folder,publish):
         source.write_text(candidate)
     print(folder/'candidate.md')
 
+def integrate(folder):
+    """Apply explicitly reviewed changes after strict assembly, without publication."""
+    def evidence(spec):
+        path=(folder/spec['path']).resolve()
+        if not path.is_relative_to(folder.resolve()) or not path.is_file():
+            raise ValueError('integration evidence must be a file inside this chapter')
+        content=path.read_text()
+        if sha(content)!=spec['sha256']:
+            raise ValueError(f'integration evidence hash mismatch: {path}')
+        return content
+
+    manifest=json.loads((folder/'manifest.json').read_text())
+    plan=json.loads((folder/'integration-plan.json').read_text())
+    assembly=json.loads((folder/'assembly.json').read_text())
+    baseline=(folder/'source.md').read_text()
+    candidate=(folder/'candidate.md').read_text()
+    if plan.get('status')!='approved':
+        raise ValueError('explicit approved integration plan required')
+    evidence(plan['review'])
+    if not (sha(baseline)==manifest['source_sha256']==assembly['source_sha256']==plan['source_sha256']==sha((ROOT/manifest['source']).read_text())):
+        raise ValueError('integration baseline/current public source mismatch')
+    if assembly.get('upstream_gates')!='accepted' or sha(candidate)!=assembly['candidate_sha256'] or sha(candidate)!=plan['candidate_sha256']:
+        raise ValueError('accepted strict candidate hash mismatch')
+    intro, entries, tail=split(candidate)
+    baseline_intro, baseline_entries, baseline_tail=split(baseline)
+    if intro!=baseline_intro or tail!=baseline_tail or len(entries)!=len(manifest['entries']) or assembly['entries']!=len(entries):
+        raise ValueError('strict candidate structure mismatch')
+    originals=dict(baseline_entries)
+    bodies=dict(entries)
+    applied=[]
+    for operation in plan['operations']:
+        if operation.get('status')!='approved':
+            raise ValueError('each integration operation requires explicit approval')
+        evidence(operation['review'])
+        number=str(operation['entry'])
+        if number not in bodies or operation['base'] not in ('baseline','candidate'):
+            raise ValueError('invalid integration entry or base')
+        before=originals[number] if operation['base']=='baseline' else bodies[number]
+        if sha(before)!=operation['before_sha256']:
+            raise ValueError('integration before hash mismatch')
+        if 'replacement' in operation:
+            after=evidence(operation['replacement'])
+            metadata=json.loads(evidence(operation['changes']))
+            if not metadata:
+                raise ValueError('entry replacement requires change evidence')
+        else:
+            field=operation['field']
+            if field not in ('title','비용','쉽게','이득','출처','비고'):
+                raise ValueError('field is outside integration whitelist')
+            pattern=rf'^### {number}\. (.*)$' if field=='title' else rf'^- {re.escape(field)}: (.*)$'
+            matches=list(re.finditer(pattern,before,re.M))
+            if len(matches)!=1 or matches[0].group(1)!=operation['before'] or '\n' in operation['after'] or '\r' in operation['after']:
+                raise ValueError('integration field before mismatch or multiline replacement')
+            match=matches[0]
+            after=before[:match.start(1)]+operation['after']+before[match.end(1):]
+        def structure(text):
+            return [re.sub(r'^(### \d+\. |^- (?:비용|쉽게|이득|출처|비고): ).*$',r'\1<editable>',line) for line in text.splitlines() if line.strip()]
+        if structure(before)!=structure(after):
+            raise ValueError('integration changed protected entry layout')
+        old=invariants(before); new=invariants(after)
+        expected_fields=['비용','쉽게','이득','근거등급','출처','비고']
+        if old['tags']!=new['tags'] or old['fields']!=new['fields'] or new['fields']!=expected_fields:
+            raise ValueError('integration changed protected tags or field structure')
+        if re.findall(r'^- 근거등급:.*$',before,re.M)!=re.findall(r'^- 근거등급:.*$',after,re.M):
+            raise ValueError('integration changed evidence grade')
+        if len(new['headings'])!=1 or not re.fullmatch(rf'### {number}\. .+',new['headings'][0]):
+            raise ValueError('integration changed entry numbering/structure')
+        if re.search(r'^#{1,6} ',after,re.M).start()!=0 or 'HUMANIZE-SUMMARY' in after:
+            raise ValueError('invalid integrated entry body')
+        # Preserve the original separator exactly between entries and before TODO.
+        spacing=re.search(r'\s*\Z',before).group()
+        bodies[number]=after.rstrip()+spacing
+        applied.append({'entry':int(number),'base':operation['base'],'before_sha256':sha(before),'after_sha256':sha(bodies[number]),'review':operation['review']})
+    reviewed=intro+''.join(bodies[number] for number,_ in entries)+tail
+    (folder/'reviewed-candidate.md').write_text(reviewed)
+    save(folder/'integration.json',{'source_sha256':sha(baseline),'strict_candidate_sha256':sha(candidate),'reviewed_candidate_sha256':sha(reviewed),'plan_sha256':sha((folder/'integration-plan.json').read_text()),'operations':applied,'published':False,'kr_fit':'new hash review required; integration approval is not KR-FIT'})
+    print(folder/'reviewed-candidate.md')
+
 parser=argparse.ArgumentParser(description=__doc__)
-parser.add_argument('command',choices=['prepare','assemble'])
+parser.add_argument('command',choices=['prepare','assemble','integrate'])
 parser.add_argument('chapter',type=lambda value:f'{int(value):02d}')
 parser.add_argument('--date',default=date.today().isoformat())
 parser.add_argument('--publish',action='store_true',help='explicitly replace current public chapter after all gates')
@@ -150,6 +228,10 @@ try:
         if args.publish:
             raise ValueError('--publish is only valid with assemble')
         prepare(folder,args.chapter)
+    elif args.command=='integrate':
+        if args.publish:
+            raise ValueError('integrate never publishes')
+        integrate(folder)
     else:
         assemble(folder,args.publish)
 except (ValueError, OSError, KeyError) as exc:

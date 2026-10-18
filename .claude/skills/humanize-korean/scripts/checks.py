@@ -189,7 +189,9 @@ def check_headings(original: str, output: str) -> list[Failure]:
 # ("...증가했다.1)"). A space-preceded or line-leading "N) " is a footnote
 # DEFINITION label, not an inline marker. '(3)' style headings are excluded
 # by the '(' lookbehind; '(2024)' style years by the digit lookbehind.
-_INLINE_MARKER = re.compile(r"(?<=\S)(?<![(\d])(\d{1,3})\)")
+# Decimal and interval tails such as CI 2.5~3.1) or 12~33) are numeric
+# values, not inline footnote markers.
+_INLINE_MARKER = re.compile(r"(?<=\S)(?<![(\d])(?<!\d[.,~–−-])(\d{1,3})\)")
 _DEF_LABEL = re.compile(r"(?:^|(?<=\s))(\d{1,3})\)\s")
 _NUM_TOKEN = re.compile(r"\d+(?:[.,]\d+)*")
 

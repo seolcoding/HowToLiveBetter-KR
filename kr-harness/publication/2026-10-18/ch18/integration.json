@@ -1,0 +1,70 @@
+{
+  "source_sha256": "b99fe58bee03c5b956232c89ac367daa49da29deb07d831a6e704da697d01d31",
+  "strict_candidate_sha256": "6c10a8411f5ce95475246f863d4b3533153c5d4ee81f05f5e3b4c1f85f482d0c",
+  "reviewed_candidate_sha256": "a91bb0ed760587092673e1eb928c61e152700e4a3ba0d1375050c805b134ed50",
+  "plan_sha256": "bf62205fd0d547f4256f2e38f3604800c9584f62b1481343ce1ab82ddfbf7d6d",
+  "operations": [
+    {
+      "entry": 1,
+      "base": "baseline",
+      "before_sha256": "31dd1cb538b1549f3cef6f33dae3aaaecf7d98ac78a9fc489019da7c80f0b37a",
+      "after_sha256": "ac304e46e4a21d40994cad15c0fa8a91136b228b735871d386ea3b321c788bd6",
+      "review": {
+        "path": "content-audit-r2.md",
+        "sha256": "ae9b80810e7045ecae4e3e66a994366f3671a5a8bb5eb5027bfc60c08a98f12e"
+      }
+    },
+    {
+      "entry": 2,
+      "base": "baseline",
+      "before_sha256": "0689ef38fdbc524dbf46b12c7a9b8497930567edf8192451e9f2833b69a86db6",
+      "after_sha256": "2529aa5cb11c774da40408b301f62ba4e99bc2f769ce664376d1c86dff128c42",
+      "review": {
+        "path": "content-audit-r2.md",
+        "sha256": "ae9b80810e7045ecae4e3e66a994366f3671a5a8bb5eb5027bfc60c08a98f12e"
+      }
+    },
+    {
+      "entry": 3,
+      "base": "baseline",
+      "before_sha256": "7419008ff9e66049a7a70b762c7da1a2c692d13bb17f8430bdf2a709b9d7f1b9",
+      "after_sha256": "31473dc1d3cb4083d18f4cd876e87d4b72fcc009687d1f538324ec8ac98ed0c5",
+      "review": {
+        "path": "content-audit-r2.md",
+        "sha256": "ae9b80810e7045ecae4e3e66a994366f3671a5a8bb5eb5027bfc60c08a98f12e"
+      }
+    },
+    {
+      "entry": 4,
+      "base": "baseline",
+      "before_sha256": "e4397a0f8c461e6bfb9524f08cf132595d42df12a48b054a1af684d4bb37eb02",
+      "after_sha256": "2b3ac04323171ad2f31a44869066f5dbcc4c7aaf7e98d6d34561199561359d65",
+      "review": {
+        "path": "content-audit-r2.md",
+        "sha256": "ae9b80810e7045ecae4e3e66a994366f3671a5a8bb5eb5027bfc60c08a98f12e"
+      }
+    },
+    {
+      "entry": 5,
+      "base": "baseline",
+      "before_sha256": "40bfdaf1cb5cafb12508e1dfbb44e962baa34fa797a311f27c81c567b5e28508",
+      "after_sha256": "80802683b0afc25470de220a80eb0390222bd64d3bb37bab071164d4777f0ec1",
+      "review": {
+        "path": "content-audit-r2.md",
+        "sha256": "ae9b80810e7045ecae4e3e66a994366f3671a5a8bb5eb5027bfc60c08a98f12e"
+      }
+    },
+    {
+      "entry": 6,
+      "base": "candidate",
+      "before_sha256": "50b88f2fac057aaeba23c5d809ec7cf6b7fd6f7ddcb3cca024cfe59c12e901c0",
+      "after_sha256": "5e6371582264a434f79bffc03ad3aba3ccb969fb4423e4081deeb23ac3da2fa4",
+      "review": {
+        "path": "content-audit-r2.md",
+        "sha256": "ae9b80810e7045ecae4e3e66a994366f3671a5a8bb5eb5027bfc60c08a98f12e"
+      }
+    }
+  ],
+  "published": false,
+  "kr_fit": "new hash review required; integration approval is not KR-FIT"
+}

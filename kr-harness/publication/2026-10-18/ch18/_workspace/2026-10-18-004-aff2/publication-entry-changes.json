@@ -1,0 +1,108 @@
+{
+  "status": "unadopted_proposal_independent_review_pending",
+  "entry": 4,
+  "heading": {
+    "before": "### 4. 시간 계산은 '얼마나 힘든가'가 아니라 '누구의 시간이 묶이는가'로 하세요",
+    "after": "### 4. 시간 계산은 '얼마나 힘든가'가 아니라 '누구의 시간이 묶이는가'로 하세요",
+    "reason": "기존 시간 계산·누구의 시간·행동 지시 앵커를 유지합니다.",
+    "anchorcheckneeded": true
+  },
+  "cost_tag": {
+    "before": "<!-- 成本标签: 钱=0 时间=多 毅力=是 收益=大 口径=时间 -->",
+    "after": "<!-- 成本标签: 钱=0 时间=多 毅力=是 收益=大 口径=时间 -->",
+    "reason": "지시대로 원문 보존; 범례와 내용 일치는 독립 심사 대상입니다."
+  },
+  "fields": [
+    {
+      "field": "비용",
+      "before": "돈은 들지 않지만 시간이 듭니다. 아이가 세 살이 될 때까지는 거의 하루 종일 묶입니다. 며칠 이를 악물고 버틴다고 끝나는 일이 아닙니다. 이 일이 매일 이어져서 어렵습니다.",
+      "after": "아이를 직접 돌보는 데는 시간이 듭니다. 아이가 어릴 때는 돌봄에 많은 시간이 들 수 있습니다. 며칠 이를 악물고 버틴다고 끝나는 일이 아닙니다. 이 일이 매일 이어져서 어렵습니다.",
+      "reason": "세 살까지 거의 하루 종일 묶인다는 미검증 일반화를 어린 시기 돌봄의 시간 부담 가능성으로 한정합니다.",
+      "exact_primary_quotes": [
+        "아이가 세 살이 될 때까지는 거의 하루 종일 묶입니다."
+      ],
+      "primary_urls": [],
+      "primary_local_source": "entry_snapshot.md (author-experience text, reopened directly)",
+      "actual_verification_date": "2026-10-18",
+      "external_verification": "없음: 해당 항목은 저자 경험이며 외부 1차 출처 URL이 없습니다.",
+      "intentional_numeric_or_scope_changes": "세 살이라는 미검증 연령 경계와 거의 하루 종일이라는 보편 강도를 삭제했습니다."
+    },
+    {
+      "field": "쉽게",
+      "before": "매일 아이를 보는 시간과 밤에 깨는 횟수를 시간으로 바꿉니다. 거기에 그 일을 맡은 사람의 시급을 곱합니다. 그렇게 나온 숫자는 보통 분유·기저귀값보다 훨씬 큽니다. 그러니 누가 무엇을 맡을지 낳기 전에 정해 두세요.",
+      "after": "아이를 돌보거나 밤에 깨서 쓰는 시간을 합쳐 담당자의 시급을 곱해 보세요. 분유·기저귀값과 함께 양육비로 적습니다. 누가 무엇을 맡을지 낳기 전에 정해 두세요.",
+      "reason": "횟수의 시간 환산을 실제 소요 시간 합산으로 명료화하고, 근거 없는 비용 우열 일반화를 제거합니다.",
+      "exact_primary_quotes": [
+        "매일 아이를 보는 시간과 밤에 깨는 횟수를 시간으로 바꿉니다.",
+        "그렇게 나온 숫자는 보통 분유·기저귀값보다 훨씬 큽니다."
+      ],
+      "primary_urls": [],
+      "primary_local_source": "entry_snapshot.md (author-experience text, reopened directly)",
+      "actual_verification_date": "2026-10-18",
+      "external_verification": "없음: 해당 항목은 저자 경험이며 외부 1차 출처 URL이 없습니다.",
+      "intentional_numeric_or_scope_changes": "분유·기저귀값보다 보통 훨씬 크다는 크기 주장을 유지하지 않습니다."
+    },
+    {
+      "field": "이득",
+      "before": "매일 아이를 돌보는 시간과 밤에 깨는 횟수를 모두 시간으로 바꿉니다. 여기에 그 일을 하는 사람의 시급을 곱합니다. 이렇게 나온 숫자는 보통 분유·기저귀값보다 훨씬 큽니다. 돌보기, 밥하기, 밤중에 일어나기는 아무도 돈을 주지 않는 일입니다. 그래도 비용으로는 똑같이 적습니다. 계산법은 제10절(연애와 결혼의 가성비)에서 집안일을 따진 방식과 같습니다. 역할부터 정한 뒤에 낳을지 결정합니다.",
+      "after": "매일 아이를 돌보거나 밤에 깨서 쓰는 시간을 합칩니다. 여기에 그 일을 하는 사람의 시급을 곱합니다. 이렇게 계산한 시간 비용을 분유·기저귀값과 함께 적습니다. 돌보기, 밥하기, 밤중에 일어나기에 돈을 받지 않더라도 비용으로 계산합니다. 계산법은 제10절(연애와 결혼의 가성비)에서 집안일을 따진 방식과 같습니다. 역할부터 정한 뒤에 낳을지 결정합니다.",
+      "reason": "쉽게와 계산법을 맞추고 비용 우열 및 아무도 돈을 주지 않는다는 절대를 삭제합니다. 무급 돌봄도 비용으로 계산하라는 조언은 보존합니다.",
+      "exact_primary_quotes": [
+        "이렇게 나온 숫자는 보통 분유·기저귀값보다 훨씬 큽니다.",
+        "돌보기, 밥하기, 밤중에 일어나기는 아무도 돈을 주지 않는 일입니다."
+      ],
+      "primary_urls": [],
+      "primary_local_source": "entry_snapshot.md (author-experience text, reopened directly)",
+      "actual_verification_date": "2026-10-18",
+      "external_verification": "없음: 해당 항목은 저자 경험이며 외부 1차 출처 URL이 없습니다.",
+      "intentional_numeric_or_scope_changes": "보편적 비용 우열과 무급 절대 주장을 삭제하고 무급인 경우의 계산 조언으로 한정합니다."
+    },
+    {
+      "field": "근거등급",
+      "before": "C",
+      "after": "C",
+      "reason": "기존 저자 경험 C와 문헌 없음 표시를 그대로 보존합니다.",
+      "exact_primary_quotes": [
+        "C"
+      ],
+      "primary_urls": [],
+      "primary_local_source": "entry_snapshot.md (author-experience text, reopened directly)",
+      "actual_verification_date": "2026-10-18",
+      "external_verification": "없음: 해당 항목은 저자 경험이며 외부 1차 출처 URL이 없습니다.",
+      "intentional_numeric_or_scope_changes": null
+    },
+    {
+      "field": "출처",
+      "before": "저자 경험, 직접 문헌 없음. 계산 방식은 제10절(연애와 결혼의 가성비) 참고",
+      "after": "저자 경험, 직접 문헌 없음. 계산 방식은 제10절(연애와 결혼의 가성비) 참고",
+      "reason": "기존 저자 경험 C와 문헌 없음 표시를 그대로 보존합니다.",
+      "exact_primary_quotes": [
+        "저자 경험, 직접 문헌 없음. 계산 방식은 제10절(연애와 결혼의 가성비) 참고"
+      ],
+      "primary_urls": [],
+      "primary_local_source": "entry_snapshot.md (author-experience text, reopened directly)",
+      "actual_verification_date": "2026-10-18",
+      "external_verification": "없음: 해당 항목은 저자 경험이며 외부 1차 출처 URL이 없습니다.",
+      "intentional_numeric_or_scope_changes": null
+    },
+    {
+      "field": "비고",
+      "before": "숫자를 정확히 맞출 필요는 없습니다. 정작 도움이 되는 건 두 사람이 낳기 전에 같은 표를 놓고 역할을 정하는 일입니다. 그래야 낳고 나서 싸우지 않습니다.",
+      "after": "숫자를 정확히 맞출 필요는 없습니다. 두 사람이 낳기 전에 같은 표를 놓고 역할을 정해 보세요. 분담을 미리 이야기하자는 제안이며, 출산 뒤 다투지 않는다고 보장할 수는 없습니다.",
+      "reason": "다툼 방지 보장을 제거하고 출산 전 분담 논의라는 조언으로 한정합니다.",
+      "exact_primary_quotes": [
+        "그래야 낳고 나서 싸우지 않습니다."
+      ],
+      "primary_urls": [],
+      "primary_local_source": "entry_snapshot.md (author-experience text, reopened directly)",
+      "actual_verification_date": "2026-10-18",
+      "external_verification": "없음: 해당 항목은 저자 경험이며 외부 1차 출처 URL이 없습니다.",
+      "intentional_numeric_or_scope_changes": "출산 뒤 다툼 없음이라는 결과 보장을 제거합니다."
+    }
+  ],
+  "summary_chars": 89,
+  "summary_sentence_count": 3,
+  "summary_120char_exception": null,
+  "verification_limit": "공통 통계, 세 살까지의 하루 돌봄 시간, 다툼 방지 효과는 외부 검증하지 않았으며 보편 주장으로 유지하지 않았습니다. 이 항목에 적용되는 법적 권리나 수급 조건은 원문에 없습니다. 새 외부 출처를 추가하지 않았습니다.",
+  "publication_approval": false
+}
