@@ -1,0 +1,65 @@
+{
+  "manifest_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch03/author-batch-4-r2.json",
+  "manifest_sha256": "2a9c51cfadc999639abd64ce763ad60b127c2429c4449fec4a9219a276269208",
+  "status": "approved",
+  "entries": [
+    {
+      "number": 12,
+      "status": "frozen_for_independent_review",
+      "evidence_directory": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch03/_workspace/2026-10-18-012-fcc1/source-evidence-r2",
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch03/_workspace/2026-10-18-012-fcc1/publication-entry-proposal-r2.md",
+      "proposal_sha256": "b9833c47f26f013e3ddc98d688d746ff8c00fc9e5a16a13b916742fcd45f1364",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch03/_workspace/2026-10-18-012-fcc1/publication-entry-changes-r2.json",
+      "changes_sha256": "a09d617a6d0a2578e390713cff5971ef049c7a01acb9ef735bb228632d722a34",
+      "decision": "approve",
+      "fields": [
+        {
+          "field": "title",
+          "decision": "approve"
+        },
+        {
+          "field": "비용",
+          "decision": "approve"
+        },
+        {
+          "field": "쉽게",
+          "decision": "approve"
+        },
+        {
+          "field": "이득",
+          "decision": "approve"
+        },
+        {
+          "field": "출처",
+          "decision": "approve"
+        },
+        {
+          "field": "비고",
+          "decision": "approve"
+        }
+      ],
+      "reason": "실제원저자기관학위초록HTML의PaperI요약과정확저널논문목록을직접읽음.39→51dB LAeq·단어기억저하/피로증가/의욕저하·소리동반자연영상vs강소리/사무실소리기력평가를확인.학생분모미확인삭제,장비효과는저자조언으로구분.원논문전체/표열람성공으로확대하지않음.",
+      "evidence": [
+        {
+          "url": "https://hig.diva-portal.org/smash/record.jsf?pid=diva2%3A434794&dswid=-1",
+          "utc": "2026-10-18T15:31:17.054386+00:00",
+          "status": 200,
+          "raw_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch03/_workspace/2026-10-18-012-fcc1/source-evidence-r2/article-record.html",
+          "sha256": "139daec602cc2511d9dd96540177f76d554b726b52529dafcce7626cc14c3ff3",
+          "level": "institutional article metadata and linked author dissertation"
+        },
+        {
+          "url": "https://hig.diva-portal.org/smash/record.jsf?pid=diva2%3A565729&dswid=-1",
+          "utc": "2026-10-18T15:31:21.437104+00:00",
+          "status": 200,
+          "raw_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch03/_workspace/2026-10-18-012-fcc1/source-evidence-r2/author-thesis.html",
+          "sha256": "67a0d84fe5e2827fddc0c28e4c3bad004908e2bb6516a0a975d64a263c2eb9af",
+          "level": "institutional author dissertation abstract"
+        }
+      ],
+      "scope": "원저자가기관저장소학위논문에서직접요약한동일연구범위의승인.저널본문/표를직접읽었다는뜻이아님.정식KR-FIT아님."
+    }
+  ],
+  "date": "2026-10-18",
+  "formal_kr_fit": false
+}

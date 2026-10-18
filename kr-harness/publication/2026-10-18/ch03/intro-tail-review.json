@@ -1,0 +1,80 @@
+{
+  "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch03/publication-intro-tail-proposal.json",
+  "proposal_sha256": "e427ee97eeb590fe53f00eb56cdcbd9e8658f465694dd6df0474cad3262bbcdb",
+  "decision": "approve",
+  "operations": [
+    {
+      "id": 1,
+      "decision": "approve",
+      "reason": "최신제안의조건·관찰연관·주제와부합.구체원고채택전가상9span만검토."
+    },
+    {
+      "id": 2,
+      "decision": "approve",
+      "reason": "최신제안의조건·관찰연관·주제와부합.구체원고채택전가상9span만검토."
+    },
+    {
+      "id": 3,
+      "decision": "approve",
+      "reason": "최신제안의조건·관찰연관·주제와부합.구체원고채택전가상9span만검토."
+    },
+    {
+      "id": 4,
+      "decision": "approve",
+      "reason": "최신제안의조건·관찰연관·주제와부합.구체원고채택전가상9span만검토."
+    },
+    {
+      "id": 5,
+      "decision": "approve",
+      "reason": "최신제안의조건·관찰연관·주제와부합.구체원고채택전가상9span만검토."
+    },
+    {
+      "id": 6,
+      "decision": "approve",
+      "reason": "최신제안의조건·관찰연관·주제와부합.구체원고채택전가상9span만검토."
+    },
+    {
+      "id": 7,
+      "decision": "approve",
+      "reason": "최신제안의조건·관찰연관·주제와부합.구체원고채택전가상9span만검토."
+    },
+    {
+      "id": 8,
+      "decision": "approve",
+      "reason": "최신제안의조건·관찰연관·주제와부합.구체원고채택전가상9span만검토."
+    },
+    {
+      "id": 9,
+      "decision": "approve",
+      "reason": "최신제안의조건·관찰연관·주제와부합.구체원고채택전가상9span만검토."
+    }
+  ],
+  "tail": {
+    "decision": "approve",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "required_addition": {
+    "before_first_entry": true,
+    "text": "<!-- kr-doi-drop: 10.1086/691462 — 원문을 확인하지 못한 휴대전화 존재 효과를 제거하고 알림 연구만 남김 -->",
+    "reason": "제1항full에서실제DOI삭제. KR-GUIDE의의도적DOI차이표시규칙준수필요.",
+    "delivery": "root integration-plan doi_annotations를통해intro9span과별도로append.9spanproposal자체의미포함은반려사유아님."
+  },
+  "late_entry_conflict_check": "13주49제한·3취침기회·4취침시각별카페인·8한시간·15/22진단·21개인계수모두9span에반영.12근거보류는tail한계로기록돼있지만해결된것아님.",
+  "formal_kr_fit": false,
+  "decision_history": [
+    {
+      "decision": "revise",
+      "reason": "작성자9span안에DOI drop마커없음. root가별도integration doi_annotations방식으로반영한다고정정하여해당반려사유해소."
+    }
+  ],
+  "doi_annotations": [
+    {
+      "action": "drop",
+      "doi": "10.1086/691462",
+      "reason": "원문을 확인하지 못한 휴대전화 존재 효과를 제거하고 알림 연구만 남김",
+      "decision": "approve",
+      "evidence": "제1항frozen full정확SHA에서Ward DOI삭제실제확인.다른추가/삭제DOI없음.현재intro에서동일DOI의기존마커없음."
+    }
+  ]
+}

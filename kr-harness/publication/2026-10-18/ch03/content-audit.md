@@ -233,3 +233,65 @@ manifest `author-batch-2.json` SHA `9e5d5430497de865261c7de391e0dbbaabea9f99bbe8
 제안 `ae429fea2cc1a77897f08edf96f2e69445b84fc695ea3600373a0759178b9e77` / changes `4785c337665fbd1ad0bba1c8e232751de21fa7ae2ca5146aa1c1547cf336b3d6`. PMC7387533표1·결과문단에서2978/1068총수와비관분석2742/994·심혈관226·나이성별표준화잔차·HR/CI/P·평균20/중앙23.4직접확인. HR확률오독·임상증상단정·실제위험일괄부정해결.제목비관적예측앵커유지.
 
 새수정요청은8항미확인상세수치,9항도덕적불일치모형의보편인과단정,11항긴낮잠위험의1시간경계입니다. 정확필드대체문은decisions에기록했습니다. 13항제목축약후서론의“주49시간을넘지않기”는동기화대상입니다. incoming검색에서다른절의제3절11항(10분자기)참조를확인했으며새제목도10분수면주제를보존합니다.2·3r2의이전수정요청은닫습니다.13·15의원문/한국법미확인중이번에직접읽은범위는닫되판본·미열람항목전체를통과시키지않습니다. 공개본문/제안파일은수정하지않았습니다.
+
+## frozen batch2-r2 및 batch3 독립검토
+
+manifest author-batch-2-r2.json SHA `0cc5ecfa27042863aa41fe73c88d350d90d9121956c3886ad8a03a296e5ec81b`. 모든제안·changes SHA일치,6개필드·비용태그·근거등급검사.
+
+### 제8항: approve
+
+제안 `8140b68d9fdfaa1597ae44e6aa0919adba7de4d5e3781e8ba3a43660f6c6992c` / changes `562ca58a2d959627d184e9dbbb1ecbed74686905569f50232237acc63275c51f`. 직접읽은Chang초록의잠복기·멜라토닌·생체시계·아침각성방향만이득에남겨미확인숫자삭제.노출1시간효과로일반화하지않음.구체원문시간/일수미확인을확인완료로세지않음.
+
+### 제9항: approve
+
+제안 `447eae8984f55e75abbd14081dfee3d61f676f17fa63cc2b7d6d4a9c51b4d700` / changes `b7b69b2c6c6cbe65baa8681589e1db8a4897e0d7385e356249e72ae2427ea0ba`. Grubbs도덕불일치를가능설명으로제한하고모두동일원인/인과확정을부정.기존Carter대상·OR/CI·성인결과·남성하위분모·한국통계범위는이전직접검증유지.
+
+### 제11항: approve
+
+제안 `28d1bc94e23d7c2f9e13cc0637f82054b3216040b17aab51a6f99a186722407b` / changes `f435d42084aa94b12b091e374fdd8f410fceacc7beb7b5d0f5082e834f2c75ab`. 실제수면10분/젊고전날부족조건·30분후직후저하와후속개선·긴낮잠비교조건차이명시로이전지적해결.
+
+manifest author-batch-3.json SHA `d3ed7a556b8c58ba2b981470e07fb2f8226a1c20b347aa445f00ef72272cb111`. 모든제안·changes SHA일치,6개필드·비용태그·근거등급검사.
+
+### 제7항: approve
+
+제안 `55c74b380f75b0c543b6bde5707db7686fb84a6f49155a4200edda6d016fa422` / changes `b0975fd7af7cfbb1e082007ea38f9402ecce15de6b74d2fe8e535bfa4c5e32a6`. Monsell보통실수증가·Ophir집단연관을훈련인과로바꾸지않도록쉽게/비고수정.정확DOI캐시초록방향부합.
+
+### 제16항: approve
+
+제안 `5b109dfb5d3a63cf4db0d9d4341dd1f51e2b72c919adc24445baeb41b805e002` / changes `f1afb7d991d1853e74bcfdae3f8ac356181e096427e768d612da2a6b07d42c86`. 공개색인재구성초록만으로판정하지않고새HTTPS EuropePMC PMID6737206의원논문초록직접확인.60~89세사별120명·다중회귀·부정경험이더강하고일관된연관확인.한사람손익환산·관계줄이기인과·거절훈련효과단정없음.
+
+### 제19항: approve
+
+제안 `edb8e8dc296d6a7139b4e191175ea9de16057aa8566d0a4e39dd28bc504fc626` / changes `551f2f77fa05dbd16d110269c8855293e3fdaeee16d6315ce41928935b3c83b7`. 법core245의6송부일7일·245의7통지일3개월/송부일6개월범위연장·2026.10.2이후통지적용·258/259·민원3/17/35원문부합.과정비용·단순시간절약경험표시·직무관련공무원뇌물요건보완확인.응급법8조원문캐시도이번직접열어더위급한응급환자우선원칙확인.
+
+### 제20항: approve
+
+제안 `5aa4f5c4f8257f42a7a5493e7ce2d9d2e836b816817e33ab9b04b547f338fc48` / changes `6ffda41610c8173a3a84dff2baf739ca0730f591b611387dcd56bae03895475b`. 원저자보존NBER원문텍스트직접읽어분모1661·보정표즐거움q.06·본문과표차이·모바일자가보고23%와아이폰8%비유의구별확인.Lei의조절효과비유의는차이없음입증아님명시.최종AER본문까지읽었다고하지않음.
+
+### 제21항: revise
+
+제안 `f5e9c6b06ccf518c82e0c70e204852362c314ece2a9483818dc9ecf5f3ef28a2` / changes `59ab1a1a025cab56e63db48e81436edd0e3fc1c671b0f201bff2ab011a615c9e`. 원저자보존Gilovich원문추출텍스트직접읽어109(15/64/30)·79(15/64)·본문각주48/8·회차별CI와제외조건대조.반으로나누기개인계수단정삭제.다만반올림평균46/23을정확히두배라단정하는표현수정.
+
+### 제22항: revise
+
+제안 `0cd511902d44d5e289d1ee23e1812a24f105c8d8df857eeedfec8b4aa9cfc1a3` / changes `89328129705d510bbbbf4bcdfdc4e7830b3fb419778b9a51adae01f9d3de8117`. 임상증상/현실요구일괄부정과높은기준언제나괜찮음오류는해결.하지만원문표미열람r/CI/하위분모/출판편향보정내용을본문에여전히단정하여지적미해결.추가확인필요한줄만으로검증완료가되지않음.
+
+제21항“정확히두배”를“약두배”로, 제22항미확인상세통계를실제읽은초록범위로줄일구체필드안을decisions에남겼습니다.16항은OpenAlex초록재구성에머무르지않고공식색인PMID6737206원논문초록을새로열어확인했습니다. DOI는원래이중슬래시10.1037//0022-3514.46.5.1097로색인돼있으므로기존DOI형식검색의no_exact결과를논문부재로오판하지않았습니다.19항응급환자우선은응급의료법280429 XML8조를추가로직접읽어확인했습니다. 항고·재정신청개별기간과별도공식KTAS세부등급까지확인했다는뜻은아닙니다.13항서론49시간및기타intro/tail동기화요구는최종full확정후별도안으로유지합니다.
+
+## 최신 canonical closure 검토
+
+21/22r2는요청교정을반영해approve. batch4중1/5/6/23/24approve,12는원초록/본문미확보로revise입니다. 10/14기존쉽게의경로·현재SHA·정확값을다시확인했습니다. 최신선택은21개full+2개필드=23/24항승인,12항보류입니다. 초기가설/미확인중원저자raw를이번에직접읽은5·6의범위를닫았으며모든원문미열람을숨기지않았습니다.
+
+9개intro span과빈tail은내용상부합하나제1항에서실제삭제한DOI10.1086/691462의kr-doi-drop마커가없어intro전체revise입니다. 별도 author-review-batch-4,author-review-batch-3-r2,intro-tail-review의md/json에정확SHA와필드판정을고정했습니다. canonical_closure에24항선택맵(12pending)·실제DOIadd/drop·과거editorial대체맵을기록했습니다.12보류와마커수정이끝나기전approved_for_integration이나canonicalfreeze를부여하지않습니다. 공개본문·제안·순수산출물·git는변경하지않았습니다.
+
+### intro전달방식확인에따른판정갱신
+
+root는DOI마커를9span과별도로integration-plan doi_annotations로기계추가한다고명시했습니다. 따라서intro9span/빈tail은approve로갱신합니다. Ward실제drop DOI와제거사유를별도독립승인했고현재intro에충돌마커가없음을대조했습니다. 기존revise이력은보존하며최신판정으로대체합니다. canonicalfreeze를막는미해결은12항근거보류1건입니다.
+
+## 최종 canonical freeze
+
+제12항r2의원저자기관학위초록PaperI동일논문요약을직접읽어보류를해결했습니다. 별도author-review-batch-4-r2와publication-style-review-r1에정확SHA승인. 새선택맵은22full+10/14쉽게필드2개, 그뒤9/20비고문장분할2개, 도입9span·빈tail·실제Ward DOI drop주석입니다. 모든24초기지적을후속선택판정과연결하고이전revise이력을보존했습니다.
+
+**approved_for_integration**. canonical-review-r1.json SHA `5c807232b85d05f616cb4fe131398e126d06b76dda60dbb9c2f1567242ad2085`에정확승인맵/작업순서/전체entry before SHA를동결했습니다. 메모리가상통합SHA `b07327385ecc04e40fb14ee592ddad64575ee76ce791115f956329fc29f68801`이며실제본문은작성하지않았습니다. 원문접근실패/판본차이는각항의제한대로남겨두고확인완료로세지않았습니다. 실제통합뒤새해시의KR-FIT독립검토전에는출판준비완료가아닙니다.
+
+최종문장점검은숫자로시작하는다음문장을앞문장과붙이는검토스크립트오탐을고쳐별도canonical-review-r2에기록했습니다. 기존승인파일r1과모든원고는보존했습니다. r2의선택원고/SHA/적용순서/가상본문SHA는r1과동일하고실제50자초과문장은0개입니다. 최신동결맵은canonical-review-r2.json SHA `4d1ce1ac24ec6dc14256740bcebed93a4f4135ab66eff8c81dda3f045c2c26d9`입니다.

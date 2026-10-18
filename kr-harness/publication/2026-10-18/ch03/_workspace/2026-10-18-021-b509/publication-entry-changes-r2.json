@@ -1,0 +1,31 @@
+{
+  "status": "unadopted_proposal",
+  "entry": 21,
+  "base_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch03/_workspace/2026-10-18-021-b509/publication-entry-proposal.md",
+  "base_sha256": "f5e9c6b06ccf518c82e0c70e204852362c314ece2a9483818dc9ecf5f3ef28a2",
+  "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch03/_workspace/2026-10-18-021-b509/publication-entry-proposal-r2.md",
+  "proposal_sha256": "6fa258dc225800508e846b150d24551184723b53479a539d430313f869ca8d9b",
+  "prior_changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch03/_workspace/2026-10-18-021-b509/publication-entry-changes.json",
+  "prior_changes_sha256": "59ab1a1a025cab56e63db48e81436edd0e3fc1c671b0f201bff2ab011a615c9e",
+  "changes": [
+    {
+      "field": "이득",
+      "before": "추정은 실제의 정확히 두 배였습니다.",
+      "after": "추정은 실제의 약 두 배였습니다.",
+      "reason": "46%와 23%는 반올림한 집단 평균입니다. 원문의 exactly twice를 정밀한 개인 보정 계수로 읽지 않도록 약 두 배로 표현합니다. 다른 수치·범위·불확실성·본문 바이트는 그대로 유지합니다.",
+      "source_quote": "The average estimate made by the targets was exactly twice as high as the average accuracy rate of the observers.",
+      "source_url": "https://www.psychologyib.com/uploads/1/1/7/5/11758934/the_spotlight_effect_-_ib_psychology.pdf",
+      "raw_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch03/_workspace/2026-10-18-021-b509/source-evidence/spotlight.pdf",
+      "verification_date": "2026-10-18",
+      "method": "앞선 직접 열람 primary PDF와 그 영구 보존본 근거 재사용; 새 HTTP 열람 아님.",
+      "modified_sentence": "실제 정답률은 23%로, 추정은 실제의 약 두 배였습니다.",
+      "sentence_chars": 32
+    }
+  ],
+  "other_bytes_unchanged": true,
+  "doi_changes": {
+    "added": [],
+    "removed": []
+  },
+  "unresolved_limitations": "이전 changes JSON의 출처·정정 여부·그림 차이 등 한계는 계속 유효합니다. 독립 exact-hash 검토 전 미채택입니다."
+}

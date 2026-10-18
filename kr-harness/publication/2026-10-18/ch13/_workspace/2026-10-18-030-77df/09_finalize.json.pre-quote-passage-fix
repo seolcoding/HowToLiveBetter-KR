@@ -1,0 +1,48 @@
+{
+  "status": "accept",
+  "genre": "essay",
+  "fidelity_violations": [],
+  "residuals": [
+    {
+      "category": "P1 ending_comma_rate",
+      "z_before": 4.93,
+      "z_after": 4.02,
+      "gate_exit_code": 1,
+      "disposition": "warning_retained",
+      "reason": "남은 실제 연결어미 쉼표 5개는 발화 출처가 명시된 직접인용으로 보호됨: 국민안전24 2개, FEMA 3개."
+    }
+  ],
+  "overediting": [],
+  "correction_count": 0,
+  "prior_edit_count": 1,
+  "prior_edit": "저자 서술의 넣지 않았고, → 넣지 않았고",
+  "self_check": {
+    "passed": 6,
+    "total": 6
+  },
+  "grade": "B",
+  "change_rate": 0.0003,
+  "body_characters": {
+    "before": 1832,
+    "after": 1831,
+    "definition": "Unicode characters including spaces and line breaks, excluding summary"
+  },
+  "findings_review": {
+    "eligible_author_c11_remaining": 0,
+    "protected_quote_c11": 5,
+    "false_positives": [
+      "비고 필드명의 고는 연결어미가 아님",
+      "95% CI 2.24–8.71, 신뢰구간은 통계·명사 병기 쉼표"
+    ],
+    "diagnosis": "02_diagnosis.md 없음: light 경로"
+  },
+  "summary_count": 1,
+  "physical_fields": [
+    "비용",
+    "쉽게",
+    "이득",
+    "비고"
+  ],
+  "gate": "WARN; P1 미달 보존; P0/P3/P5 통과",
+  "production_gate_files_modified": false
+}

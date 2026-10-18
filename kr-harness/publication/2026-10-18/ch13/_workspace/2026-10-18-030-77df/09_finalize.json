@@ -1,0 +1,57 @@
+{
+  "status": "accept",
+  "genre": "essay",
+  "independent_review": true,
+  "fidelity_violations": [],
+  "residuals": [],
+  "overediting": [],
+  "correction_count": 0,
+  "prior_edit_count": 1,
+  "prior_edit": "저자 서술의 넣지 않았고, → 넣지 않았고",
+  "self_check": {
+    "passed": 6,
+    "total": 6
+  },
+  "grade": "B",
+  "change_rate": 0.0003,
+  "body_characters": {
+    "before": 1832,
+    "after": 1831,
+    "definition": "Unicode characters including spaces and line breaks, excluding summary"
+  },
+  "findings_review": {
+    "eligible_author_c11_remaining": 0,
+    "protected_quote_spans": [
+      "지진으로 흔들리는 동안은 탁자 아래로 들어가 몸을 보호하고, 탁자 다리를 꼭 잡습니다.",
+      "흔들림이 멈추면 전기와 가스를 차단하고, 문을 열어 출구를 확보합니다.",
+      "그 자리에 엎드리고, 머리와 목을 가리고, 붙잡고, 밖으로 뛰어나가지 말라"
+    ],
+    "protected_quote_c11": 5,
+    "false_positives": [
+      "비고 필드명",
+      "95% CI 수치 뒤 신뢰구간 병기 쉼표"
+    ],
+    "diagnosis": "02_diagnosis.md 없음: light 경로"
+  },
+  "summary_count": 1,
+  "physical_fields": [
+    "비용",
+    "쉽게",
+    "이득",
+    "비고"
+  ],
+  "gate": {
+    "exit_code": 0,
+    "verdict": "OK — 수렴",
+    "p1": "N/A — 구조 진단 (어휘 S1 앵커 없음)",
+    "p3": "PASS",
+    "p5": "OK"
+  },
+  "historical_gate": {
+    "exit_code": 1,
+    "p1": "ending_comma_rate z 4.93 → 4.02 미달",
+    "disposition": "pre-quote-passage-fix historical only"
+  },
+  "checks_sha256": "d8868a8e8a5d72138e91ebfa86b00eb5595c83502f5051f8d386200b21c13ec1",
+  "production_gate_files_modified": false
+}

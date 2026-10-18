@@ -147,3 +147,13 @@
 - 본체게이트의원거리출처귀속한계로제13절24·38항을정직한hold로유지하며인용을고쳐맞추지않는다. 제30항은분류수정후별도freshfinalizer재판정중이다. 나머지순수윤문·근거교정은계속한다.
 - 이체크포인트의실제gate0는402/667이며입력·스냅샷667개SHA재대조불일치0이다. root-checkpoint.json과live큐스냅샷이기준이다. 초기source감사는17절까지,19절감사진행중이다. 새정식리뷰완료는1·2·18절이나18의1/2/3/5항문장길이후속은아직남았다.
 - `30ab9db`의 한국어판 검사([39138631480](https://github.com/seolcoding/HowToLiveBetter-KR/actions/runs/39138631480))와 전자책 빌드·EPUBCheck([39138631473](https://github.com/seolcoding/HowToLiveBetter-KR/actions/runs/39138631473))가성공했다. PR#7은초안이며새개선본은아직병합·배포하지않았다.
+
+
+## 2026-10-19 KST 제3·18절 새 정식 검토 완료
+
+- 제3절은 full22·쉽게2·비고style2·intro9·Ward DOI drop1을 독립 canonical-review-r2 exactmap으로 합성했다. 가상승인SHA와 실제최종후보SHA b07327385ecc04e40fb14ee592ddad64575ee76ce791115f956329fc29f68801이 일치했다. 최초새정식판정r6를보존하고,17항offender범위·20/22참조앵커 세최소안을sameauthor→독립exact승인→현재hashguard로보강했다. 최종 CLI `c27b1c95f96d3d2b41f9968fda1b88f0a366d2dc47a423d24b039a6b5b004af6`, block0/warn0, gate3 promote완료다.
+- 제18절은1/2/3/5항style4안을 별도승인해괄호법조문표시를포함한모든일반문장50자이내로정리했다. r1에서제1항법령괄호를제외한길이판정이불충분해rootliteral재검사→원저자r2→독립추가승인으로4문장을더분리했다. 숫자/법조문/예외/6labels/태그/intro/tail/DOI는보존했다. 새CLI `c8675e5dc4cd2e6ac626e63ad2cb52ec1fcb3b40aeec47e366747006280391de`, block0/warn3, gate18 promote완료다.
+- 제18절의직함교체제안은채택하지않았다. 원저자가미래시행을정직하게표시한단서로독립검토자가부칙21533과현재104·110·114조공식본문을새HTTP로대조했다. 노동감독관명칭은2026-12-08시행이라현재근로감독관을유지하고,예전W3의현행판정오류를새정식리뷰에서정정했다. 이전판정r5와미채택안도보존한다.
+- 이workingtree본문으로전자책4종빌드·EPUBCheck오류0/경고0·390px8화면넘침0·웹34쪽/667검색항목/다른절참조366개전부유효를확인했다. root-03-18-validation.json에본문/산출물/로그SHA와검사범위를묶었다. 최종전34절개선완료후다시검사해야한다.
+- 이보존체크포인트의실제gate0는437/667이며입력·스냅샷667SHA일치,13절24/38직접인용은아직hold다. 직접인용의원문·번역은새독립검토에서24공식USFA HTML/38CDC HTML로검증됐지만,lateclassification 일반도구는현재격리구현/독립리뷰전이므로운영registry·채택·게이트변경은아직없다. readygov403한계도보존한다.
+- 초기source감사는1–17·19–21절까지,18은별도새정식검토로완료됐다. 다음초기감사는22절이다. 제4절은최신18full/intro-tail의독립closure중이며원작성자17r2최소안을마지막대조한다. 제5절source큐와16–17절이후순수윤문을계속한다. 이진행수는최종출판완료가아니며PR#7초안은아직병합·배포전이다.

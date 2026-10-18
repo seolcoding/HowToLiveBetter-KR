@@ -1,0 +1,188 @@
+{
+  "status": "unadopted_proposal",
+  "entry": 6,
+  "base": "strict-entry.md",
+  "base_sha256": "0534f6cc9c1d8a789933259d906ab738887823a3a01ee30b5c1abe9b6cb5ef85",
+  "proposal_sha256": "f44714820113e1913d9d61a18772e19153f538d0c58f22ddc174276183d488e2",
+  "canonical_approved_field_provenance": {
+    "note": "No approved canonical field for entry 6 found in editorial-decisions.json; earlier easy decision was revise, not approve. Pure C-11 cost correction retained.",
+    "candidate_entry_sha256_in_decisions": "0534f6cc9c1d8a789933259d906ab738887823a3a01ee30b5c1abe9b6cb5ef85"
+  },
+  "fields": [
+    {
+      "field": "title",
+      "before": "### 6. 연속으로 생각해야 하는 일을 할 때는 몇 초짜리 방해도 막으세요",
+      "after": "### 6. 연속으로 생각해야 하는 일을 할 때는 몇 초짜리 방해도 막으세요",
+      "changed": false,
+      "reason": "Title below 70 characters; unchanged, so incoming anchors preserved."
+    },
+    {
+      "field": "비용",
+      "before": "돈이 들지 않습니다. 문을 닫고 이어폰을 끼우거나 '방해 금지' 팻말을 거세요.",
+      "after": "돈이 들지 않습니다. 문을 닫고 이어폰을 끼우거나 '방해 금지' 팻말을 거세요.",
+      "changed": false,
+      "reason": "Preserved exactly from strict entry."
+    },
+    {
+      "field": "쉽게",
+      "before": "평균 2.8초만 방해받아도 다음 조작의 실수 확률이 두 배가 됩니다. 4.4초짜리 방해는 실수 확률을 세 배로 높입니다. 현장 추적에서는 끊겼던 일로 돌아오는 데 평균 25분이 걸렸습니다. 그 사이 다른 일 두 가지가 끼어들었습니다. 방해받은 사람은 더 빨리 일했습니다. 다만 스트레스와 좌절감이 더 컸고 힘도 더 들었습니다.",
+      "after": "순서를 따라 하는 실험에서는 짧은 방해도 실수를 늘렸습니다. 평균 2.8초의 방해 뒤 순서 실수율은 두 배였습니다.",
+      "changed": true,
+      "reason": "Reduce to 2 short sentences and correct general error probability to sequence-error rate, limited to experimental task."
+    },
+    {
+      "field": "이득",
+      "before": "실험 참가자는 순서대로 단계를 밟는 과제(계열 과제)를 수행했습니다. 평균 2.8초의 방해로 단계 실수율이 두 배가 됐습니다. 4.4초 방해는 단계 실수율을 세 배로 높였습니다. 이 실험은 실험실에서 진행했습니다. 다른 연구는 사무직(정보 노동자) 24명을 현장에서 관찰했습니다. 이들은 평균 11분마다 업무 주제를 바꿨습니다. 업무의 57%는 중간에 끊겼습니다. 그날 끊겼던 일로 돌아오는 데 평균 25분 26초가 걸렸습니다. 그 사이 다른 일 2.26건이 끼어들었습니다. 또 다른 실험에는 48명이 참가했습니다. 방해받은 사람은 더 빨랐습니다. 하지만 스트레스와 좌절감, 시간 압박감이 더 높다고 보고했습니다. 일을 할 때 드는 힘도 더 크다고 보고했습니다.",
+      "after": "실험 참가자는 순서대로 단계를 밟는 과제(계열 과제)를 수행했습니다. 평균 2.8초의 방해로 단계 실수율이 두 배가 됐습니다. 평균 4.4초 방해는 단계 실수율을 세 배로 높였습니다. 방해 직후의 시행을 방해 없는 기준 시행과 비교한 결과입니다. 순서와 무관한 실수에는 방해의 영향이 나타나지 않았습니다. 이 실험은 실험실에서 진행했습니다. 다른 연구는 사무직(정보 노동자) 24명을 현장에서 관찰했습니다. 이들은 한 업무 주제에서 약 11분을 보낸 뒤 다른 주제로 바꿨습니다. 관찰한 업무 주제별 작업 구간의 약 57%는 중간에 끊겼습니다. 당일 다시 시작한 일은 재개까지 평균 25분 26초가 걸렸습니다. 그 사이 평균 2.26개의 다른 업무 주제를 다뤘습니다. 이는 일로 돌아오기까지의 시간입니다. 집중력을 회복하는 데 걸린 시간을 뜻하지는 않습니다. 또 다른 실험에는 48명이 참가했습니다. 참가자는 이메일에 답하는 과제를 수행했습니다. 방해 자체에 쓴 시간을 빼면 방해 조건에서 과제 시간이 더 짧았습니다. 방해 여부에 따른 실수 수의 차이는 통계적으로 뚜렷하지 않았습니다. 방해 조건의 스트레스와 좌절감 보고값은 더 높았습니다. 시간 압박감과 일을 할 때 드는 힘의 보고값도 더 높았습니다. 이 결과를 모든 업무에 그대로 적용하기는 어렵습니다.",
+      "changed": true,
+      "reason": "Re-read primary texts. Preserve numerical results while specifying sequence endpoint, baseline, working-sphere segment denominator, same-day resumption and exclusion of interruption time. Add nonsequence null and quality null results."
+    },
+    {
+      "field": "근거등급",
+      "before": "B",
+      "after": "B",
+      "changed": false,
+      "reason": "Preserved exactly from strict entry."
+    },
+    {
+      "field": "출처",
+      "before": "Altmann, Trafton & Hambrick (2014). Momentary interruptions can derail the train of thought. Journal of Experimental Psychology: General. <https://doi.org/10.1037/a0030986>；Mark, Gonzalez & Harris (2005). No task left behind? Examining the nature of fragmented work. CHI 2005. <https://doi.org/10.1145/1054972.1055017>；Mark, Gudith & Klocke (2008). The cost of interrupted work: More speed and stress. CHI 2008. <https://doi.org/10.1145/1357054.1357072>",
+      "after": "Altmann, Trafton & Hambrick (2014). Momentary interruptions can derail the train of thought. Journal of Experimental Psychology: General. <https://doi.org/10.1037/a0030986>；Mark, Gonzalez & Harris (2005). No task left behind? Examining the nature of fragmented work. CHI 2005. <https://doi.org/10.1145/1054972.1055017>；Mark, Gudith & Klocke (2008). The cost of interrupted work: More speed and stress. CHI 2008. <https://doi.org/10.1145/1357054.1357072>",
+      "changed": false,
+      "reason": "Preserved exactly from strict entry."
+    },
+    {
+      "field": "비고",
+      "before": "현장 연구는 남이 방해하는 경우와 스스로 일을 끊는 경우를 구분합니다. 문을 닫으면 남이 찾아와 방해하는 경우만 막습니다. 스스로 일을 끊는 경우에는 제1항(불필요한 알림 끄기)을 적용하세요. 제5항(메시지 몰아 처리)도 함께 적용해야 이런 방해를 막습니다.",
+      "after": "현장 연구는 남이 방해하는 경우와 스스로 일을 끊는 경우를 구분합니다. 문을 닫으면 남이 찾아와 방해하는 경우만 막습니다. 스스로 일을 끊는 경우에는 제1항(불필요한 알림 끄기)을 적용하세요. 제5항(메시지 몰아 처리)도 함께 적용해야 이런 방해를 막습니다. 문을 닫거나 이어폰을 쓰는 효과를 직접 비교한 연구는 아닙니다.",
+      "changed": true,
+      "reason": "Preserve existing advice and distinguish direct study evidence from practical extrapolation."
+    }
+  ],
+  "sources": [
+    {
+      "id": "altmann",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:23294345%20AND%20SRC:MED&resultType=core&format=json",
+      "verification_date": "2026-10-18",
+      "method": "urllib download; read abstractText directly",
+      "read_level": "primary abstract indexed in Europe PMC; not full text",
+      "raw_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch03/_workspace/2026-10-18-006-a92b/source-evidence/altmann-core.json",
+      "raw_sha256": "fb440504b55b58688719ceddaeae75cc11d991938e8add2729ab31b13c57f4db",
+      "exact_primary_quotations": [
+        "We investigated the effect of short interruptions on performance of a task that required participants to maintain their place in a sequence of steps each with their own performance requirements. Interruptions averaging 4.4 s long tripled the rate of sequence errors on post-interruption trials relative to baseline trials. Interruptions averaging 2.8 s long--about the time to perform a step in the interrupted task--doubled the rate of sequence errors. Nonsequence errors showed no interruption effects, suggesting that global attentional processes were not disrupted. Response latencies showed smaller interruption effects than sequence errors, a difference we interpret in terms of high levels of interference generated by the primary task. The results are consistent with an account in which activation spreading from the focus of attention allows control processes to navigate task-relevant representations and in which momentary interruptions are disruptive because they shift the focus and thereby cut off the flow."
+      ],
+      "extracted_text_path": null
+    },
+    {
+      "id": "mark2005",
+      "url": "https://www.ics.uci.edu/~gmark/CHI2005.pdf",
+      "verification_date": "2026-10-18",
+      "method": "urllib download; PDF pdftotext -layout then direct reading",
+      "read_level": "author-hosted full PDF; methods/results/discussion read",
+      "raw_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch03/_workspace/2026-10-18-006-a92b/source-evidence/chi2005.pdf",
+      "raw_sha256": "ec8ae49c99e17ff6d48b88edbb787b128bae97fa7c8928c5f9788175be4f664a",
+      "exact_primary_quotations": [
+        "We present data from detailed observation of 24 information",
+        "57.1% of all informants’ working sphere segments were",
+        "people spend about 11 minutes in a working",
+        "When people did resume work on the same day, it took an",
+        "average length of time of 25 min. 26 sec (sd=54 min. 48",
+        "our informants worked in an average of 2.26 (sd=2.79)"
+      ],
+      "extracted_text_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch03/_workspace/2026-10-18-006-a92b/source-evidence/chi2005.txt"
+    },
+    {
+      "id": "mark2008",
+      "url": "https://www.ics.uci.edu/~gmark/chi08-mark.pdf",
+      "verification_date": "2026-10-18",
+      "method": "urllib download; PDF pdftotext -layout then direct reading",
+      "read_level": "author-hosted full PDF; methods/results/discussion read",
+      "raw_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch03/_workspace/2026-10-18-006-a92b/source-evidence/chi2008.pdf",
+      "raw_sha256": "e562bd16eca40a2a59499d79b15d5577d1ea3365401a8b6cb8e834187fb7fb8b",
+      "exact_primary_quotations": [
+        "Forty-eight subjects participated.",
+        "The time to perform",
+        "the task was computed as [total time to perform task – time",
+        "spent on interruptions].",
+        "We found there was no significant difference in the number",
+        "of errors that were made across interruption types",
+        "experiencing more stress, higher frustration, time pressure",
+        "and effort."
+      ],
+      "extracted_text_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch03/_workspace/2026-10-18-006-a92b/source-evidence/chi2008.txt"
+    }
+  ],
+  "intentional_numerical_or_scope_changes": [
+    "General mistake probability replaced with sequence-error rate; no OR/RR/HR conversion.",
+    "4.4 seconds explicitly average.",
+    "11 minutes explicitly approximately; 57% retained as rounded 57.1%, denominator working-sphere segments.",
+    "2.26 jobs corrected to distinct intervening working spheres/topics.",
+    "25 minutes 26 seconds applies only to work resumed same day; not concentration recovery.",
+    "Faster task completion excludes time spent handling interruptions.",
+    "2008 subjective outcomes reported as higher values, without claiming every pairwise contrast significant."
+  ],
+  "doi_changes": {
+    "added": [],
+    "removed": [],
+    "reason": "All three original DOI citations preserved."
+  },
+  "source_conflicts": {
+    "identified": false,
+    "correction_notice_checked": "No contradiction identified in inspected primary abstracts/results; no correction notice found in acquired materials. No exhaustive corrigendum search claimed."
+  },
+  "unresolved_limitations": [
+    "Altmann abstract directly read; full article unavailable at attempted APA/interruptions URLs. Exact experiment details beyond abstract are not independently verified.",
+    "Closing door/earphones/sign not directly tested by these three studies. Practical recommendations remain extrapolations."
+  ],
+  "validation": {
+    "easy_chars": 64,
+    "new_or_modified_sentence_limit": 50,
+    "protected_cost_tag_and_grade_preserved": true,
+    "immutable_inputs_changed": false,
+    "modified_sentence_lengths": {
+      "쉽게": [
+        32,
+        30
+      ],
+      "이득": [
+        30,
+        33,
+        31,
+        38,
+        34,
+        35,
+        30,
+        19,
+        28,
+        24,
+        38,
+        36,
+        29,
+        33,
+        29
+      ],
+      "비고": [
+        35
+      ]
+    }
+  },
+  "raw_provenance": {
+    "downloaded_utc_date": "2026-10-18",
+    "pdf_text_extraction": "pdftotext -layout",
+    "permanent_directory": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch03/_workspace/2026-10-18-006-a92b/source-evidence",
+    "failed_attempts": [
+      {
+        "url": "https://interruptions.net/literature/Altmann-JEPG13.pdf",
+        "result": "HTTP 404"
+      },
+      {
+        "url": "https://interruptions.net/literature/Altmann-JEPG14.pdf",
+        "result": "HTTP 404"
+      },
+      {
+        "url": "https://psycnet.apa.org/record/2013-00021-001",
+        "result": "HTTP 403"
+      }
+    ]
+  }
+}

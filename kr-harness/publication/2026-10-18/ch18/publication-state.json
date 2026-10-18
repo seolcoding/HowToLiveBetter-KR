@@ -1,15 +1,15 @@
 {
   "applied_to_working_tree": true,
-  "formal_review": "pass",
+  "formal_review": "pass_at_current_hash_after_literal_style_and_current_law_reread",
   "deployed": false,
   "reviewed_candidate_sha256": "a91bb0ed760587092673e1eb928c61e152700e4a3ba0d1375050c805b134ed50",
   "previous_review_archive": "kr-harness/chapters/18/kr-fit-review.r3.md",
   "blockers": 0,
-  "warnings": 4,
-  "formal_sha256": "1c6471db9bb0225575e290301523c854d89943c032fa8c657f03caddda1393d2",
-  "gate": "passed/promoted",
+  "warnings": 3,
+  "formal_sha256": "c8675e5dc4cd2e6ac626e63ad2cb52ec1fcb3b40aeec47e366747006280391de",
+  "gate": "passed_and_promoted",
   "additional_style_followup": {
-    "status": "queued",
+    "status": "completed_independently_approved_applied_and_reread",
     "entries": [
       1,
       2,
@@ -17,5 +17,21 @@
       5
     ],
     "reason": "current length audit found ordinary sentences over50 chars, mostly inline legal citations; separate author proposals and current-hash review required before final publication"
+  },
+  "post_formal_style_integration": "post-formal-style-integration-r1.json",
+  "current_public_raw_sha256": "3176ee900412a711aed03090c222d290dac32d88fc06c5a0cb422f9440009957",
+  "previous_style_review_archive": "kr-harness/chapters/18/kr-fit-review.r4.md",
+  "formal_blockers": 0,
+  "formal_warnings": 3,
+  "current_review_date_kst": "2026-10-19",
+  "titleword_followup": {
+    "status": "not_adopted_future_amendment",
+    "decision": "retain_current_근로감독관",
+    "review": {
+      "path": "post-formal-titleword-review-r1.json",
+      "sha256": "99a1b90b482f3400efb77e3973b64e7a02125a90790d8e6cb5c61e9fe84652b9"
+    },
+    "former_W3_warning_corrected": true,
+    "future_commencement": "2026-12-08"
   }
 }

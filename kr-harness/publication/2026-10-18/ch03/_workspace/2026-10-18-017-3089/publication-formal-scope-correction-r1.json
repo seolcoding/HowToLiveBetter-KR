@@ -1,0 +1,52 @@
+{
+  "status": "unadopted_proposal",
+  "entry_number": 17,
+  "guard": {
+    "source_path": "/workspace/HowToLiveBetter-KR/book-kr/03-기력-낭비-줄이기.md",
+    "whole_public_raw_sha256": "097b24b2d1d5e2b697e9d48f5e8d07db73d6002ebddbd6fa34e60c07ecbde654",
+    "entry_sha256": "26303b6cd881e97ad44d75df1313b95f6278fbe1566d81e554d6f467f790fdf4",
+    "entry_number": 17,
+    "snapshot_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch03/_workspace/2026-10-18-017-3089/publication-current-entry-formal-r1.md"
+  },
+  "snapshot_raw_sha256": "26303b6cd881e97ad44d75df1313b95f6278fbe1566d81e554d6f467f790fdf4",
+  "field": "이득",
+  "before": "메타분석에서 실험 비교 306개를 종합했습니다. 일을 다르게 해석하는 인지 재평가의 감정 효과 크기는 d = 0.36입니다. 관점을 바꾸어 바라보면 효과 크기가 d = 0.45로 나타났습니다. 주의를 돌릴 때의 효과 크기는 d = 0.27입니다. 감정 표현을 억제하는 방법은 효과가 있었습니다(d = 0.32). 느끼는 감정 자체를 억제하는 방법은 효과가 없었습니다(d = -0.04). 복수에 관한 실험은 별도로 3건 진행했습니다. 자신을 모욕한 사람을 벌하면 상대를 더 오래 곱씹습니다. 벌하지 않은 사람은 더 빨리 넘어갑니다. 복수의 통쾌함은 미리 짐작한 만큼 크지 않았습니다.",
+  "after": "메타분석에서 실험 비교 306개를 종합했습니다. 일을 다르게 해석하는 인지 재평가의 감정 효과 크기는 d = 0.36입니다. 관점을 바꾸어 바라보면 효과 크기가 d = 0.45로 나타났습니다. 주의를 돌릴 때의 효과 크기는 d = 0.27입니다. 감정 표현을 억제하는 방법은 효과가 있었습니다(d = 0.32). 느끼는 감정 자체를 억제하는 방법은 효과가 없었습니다(d = -0.04). 복수에 관한 실험은 별도로 3건 진행했습니다. 잘못한 상대를 벌하면 상대를 더 오래 곱씹습니다. 벌하지 않은 사람은 더 빨리 넘어갑니다. 복수의 통쾌함은 미리 짐작한 만큼 크지 않았습니다.",
+  "before_field_sha256": "87566f36b985155533c46f150015a506646cbb1a46cd6c14b667e5ce6e358b1c",
+  "after_field_sha256": "713932b69f78ca95c21bf28ca34fee6f748612cdcce657add0af95f7669333ef",
+  "before_entry_sha256": "26303b6cd881e97ad44d75df1313b95f6278fbe1566d81e554d6f467f790fdf4",
+  "after_entry_sha256": "4c6e51b12305dd5d7a227074a29c8ecf350edb7e9b447179ca0c960f26cb9b34",
+  "span": {
+    "before": "자신을 모욕한 사람을",
+    "after": "잘못한 상대를",
+    "occurrences": 1
+  },
+  "modified_sentence": "잘못한 상대를 벌하면 상대를 더 오래 곱씹습니다.",
+  "modified_sentence_chars": 27,
+  "reason": "원 저자 초록은 offender라고 서술하며 모욕 실험으로 한정하지 않습니다. 확인되지 않은 모욕 조건만 일반적인 잘못한 상대로 교체합니다.",
+  "primary_quote": "People expect to reap hedonic rewards when they punish an offender, but in at least some instances, revenge has hedonic consequences that are precisely the opposite of what people expect. Three studies showed that (a) one reason for this is that people who punish continue to ruminate about the offender, whereas those who do not punish \"move on\" and think less about the offender, and (b) people fail to appreciate the different affective consequences of witnessing and instigating punishment.",
+  "url": "https://doi.org/10.1037/a0012165",
+  "verification_date": "2026-10-18",
+  "method": "DOI 정확 일치 캐시의 Carlsmith 원 논문 초록 전체 직접 열람. 전체 본문 또는 신규 HTTP 검증 아님.",
+  "raw_provenance": {
+    "doi": "10.1037/a0012165",
+    "chapters": [
+      3
+    ],
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1037%2Fa0012165%22&format=json&resultType=core&pageSize=10",
+    "fetched_at": "2026-10-18T20:50:21.350680+09:00",
+    "http_status": 200,
+    "status": "exact_doi_metadata_cached",
+    "sha256": "94a72175755a24f5248e174ea78d13c7efb0d99342f162da089313b46f1febf1",
+    "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/1120ef11094f8d350878.json",
+    "hit_count": 1,
+    "abstract_present": true,
+    "actual_raw_sha256": "94a72175755a24f5248e174ea78d13c7efb0d99342f162da089313b46f1febf1"
+  },
+  "limits": [
+    "초록만 확인했으며 구체적인 실험 절차와 위반행위는 본문에서 대조하지 않았습니다.",
+    "이번 제안은 모욕으로 한정한 범위만 교정합니다. 나머지 문장과 조건은 변경하지 않습니다."
+  ],
+  "preservation": "현재 전체 문서·기존 제안·strict·pure 파일은 수정하지 않았습니다.",
+  "review_requirement": "fresh final03 exact-hash independent review required"
+}

@@ -1,0 +1,1201 @@
+{
+  "chapter": 19,
+  "status": "pending_candidate_review",
+  "reviewed_at": "2026-10-18T15:38:23.643490+00:00",
+  "legal_cutoff": "2026-10-19 KST; source retrieval UTC is recorded individually",
+  "source_sha256": "3e644d50e218cc04049177fa5a6ff81785f657f1eb9f5cbd68a61c6d7057fb3d",
+  "candidate_sha256": null,
+  "formal_kr_fit": "not_performed_not_approved",
+  "confirmed_required_corrections": [
+    {
+      "entry": 1,
+      "requirement": "20% 지연이자 법정제외기간"
+    },
+    {
+      "entry": 2,
+      "requirement": "주 소정15시간미만 연차제외"
+    },
+    {
+      "entry": 4,
+      "requirement": "퇴직금 지연이자 법정제외기간"
+    },
+    {
+      "entry": 11,
+      "requirement": "정상인식능력저하 등 업무상자해 예외"
+    },
+    {
+      "entry": 16,
+      "requirement": "OR2.05를 정확확률2배로단정금지"
+    },
+    {
+      "entry": "intro",
+      "requirement": "퇴사묶음6→5개"
+    }
+  ],
+  "warnings": [
+    "법정기한은실제결과/회수보장이아님",
+    "현재법령본문의미시행조문과현행인용부분분리",
+    "TODO8건해소여부개별기록",
+    "필드승인은후보작성후별도"
+  ],
+  "entries": [
+    {
+      "entry": 1,
+      "status": "revision_required",
+      "source_entry_sha256": "ae483ba95f86c59fc2e7f2f9eec00e1b93969a7de4a6de4e731f84f66f827a83",
+      "review_scope": "법50·53·55~57의 8/40시간·12시간 원칙, 50%/휴일8시간초과100%·22~06시·근로자대표 서면보상휴가, 시행령30의 공휴일 범위를 확인했습니다. 37·시행령17의20%, 43의8의 세 가지3배청구 요건과 퇴직급여 제외, 2024-20520 부칙의2025-10-23 적용, 2026-21533 부칙의2026-10-08 벌칙상향/107② 반의사불벌·명단공개 예외를 실제 재확인했습니다. 다만37③·시행령18의 천재사변/법령제약/임금존부 다툼이 적절한 경우 등 지연이자 제외기간을 빠뜨려 언제나 자동20%처럼 단정한 문장은 수정해야 합니다. 63 적용제외·특별연장 등 때문에12시간한도는 일반원칙으로 한정 권장. 훈령42의2개월/25일·연장/동의재연장·융자50일 유예 확인, 실제 회수기한 보장 아님. 5명미만 범위·시효3년·기록보관 권고는 유지.",
+      "evidence_ids": [
+        "law:285279",
+        "law:270551",
+        "sources:0",
+        "sources:8",
+        "retry:1"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 2,
+      "status": "revision_required",
+      "source_entry_sha256": "58c230f4e92992a6f723caf36efe9242bcd13af712d4eb66d9ddeb5d870dbd20",
+      "review_scope": "60·61, 시행령별표1과 대법2021다227100 전문을 대조했습니다. 80%/15일·첫1년다음날 재직·정확1년계약최대11일·근속3년후2년마다1일/25일·촉진6개월/2개월과1년미만3개월/1개월/10일의 별도절차는 일치합니다. 그러나18③의4주평균 주 소정15시간 미만 근로자에게55·60 미적용이라는 핵심조건이 없으므로 추가해야 합니다. 다른회사근속은 일반적으로 합산하지 않지만 근로관계 승계까지 무조건 초기화한다고 확대하지 않음. 사용촉진만 받아도 모든 미사용수당이 자동 없어지는 것은 아니며 법정전체절차와 실제사용기회 조건 유지.",
+      "evidence_ids": [
+        "law:285279",
+        "law:270551",
+        "sources:4"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 3,
+      "status": "qualified_supported",
+      "source_entry_sha256": "e7237a93956dfefe301001db51ffd3ff06575f82266ad22fdb5d43c5faf80035",
+      "review_scope": "최저임금법5②·6③/시행령206564의3, 판례2015두48136 전문 확인. 1년이상·수습개시3개월이내·시간급10%·고시단순노무 제외와 미달약정무효, 시용본채용거절 객관적합리성/사회통념상상당성/구체실질적서면사유를 확인했습니다. 고시가 지정한 단순노무 직종 목록 자체를 이번에 별도 열람한 것은 아닙니다. 근로3개월미만 예고제외와 5명미만23①/27 제외를 구분한 본문 유보 유지. 중국의수습상한/80%/1회사1회 규칙을 한국법으로 옮기지 않았습니다.",
+      "evidence_ids": [
+        "law:218303",
+        "laws:2",
+        "sources:5",
+        "law:285279",
+        "law:270551"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 4,
+      "status": "revision_required",
+      "source_entry_sha256": "07206f6af0a2351e443f51dc18fe49dbb0633d553636194c672ed2bbfd6c4161",
+      "review_scope": "퇴직급여법284455의4·8·9·10·43, 시행령3의2 및 근기법2·37을 실제 확인. 계속1년/4주평균주15시간·1년30일분평균임금·퇴직사유무관·14일당사자연장·IRP원칙/55세등예외·3년시효·2026벌칙5년5000만원은 일치. 근기법37③·시행령18 지연이자 예외기간을 한정해야 합니다. 43단서의 반의사불벌/명단공개기간 체불예외를 형사절차 안내에 보완 권장. 평균임금 산정대상기간의 법정제외·일부상여 배분까지 단순직전3개월실수령액으로 단정하지 않음. DB/DC방식과 일반퇴직금을 구별한 비고는 적절합니다.",
+      "evidence_ids": [
+        "retry:5",
+        "law:284693",
+        "law:285279",
+        "law:270551"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 5,
+      "status": "qualified_supported",
+      "source_entry_sha256": "b1fdc4ad2e54aa14d681a5079568ea79c03802d569ad8b7e71fde73288e96dde",
+      "review_scope": "근기법26·27·24·별표1 확인. 30일전 또는30일통상임금, 3개월미만/사업불능/고의막대한손해의 법정부령사유 예외, 5명미만예고적용/서면효력미적용 구분 일치. 경영상50일 대표통보/성실협의는 필요조건 일부이며 긴박경영상필요·해고회피·합리공정기준 등24 전체요건까지50일만으로 충족한다고 해석하지 않아야 합니다.",
+      "evidence_ids": [
+        "law:285279",
+        "law:270551"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 6,
+      "status": "qualified_supported_with_warning",
+      "source_entry_sha256": "53aa140b6d3d8c729277e337941599ab8ab1c8840445622c22c1f7110140e7c3",
+      "review_scope": "23·28·30·31·33, 노동위법232203의6의2 및 노동위규칙51 실제본문·중노위 실제 업무안내를 대조. 3개월신청·접수60일심문/연장·30일송부·복직대신임금상당액이상 금전보상·계약기간종료시금품구제·10일재심/15일소송·3000만원이하1년2회2년을 확인. 불복기산은 판정서/재심판정서 송달·통지에 따른 법정기산을 유지해야 합니다. 무료대리는 현재 공식페이지의 월평균300만원미만과 일치하나 신청자체 수수료 명문은 없어 미확인TODO 유지. 민사와 노동위, 대리인비용을 구별.",
+      "evidence_ids": [
+        "law:285279",
+        "laws:1",
+        "sources:1",
+        "sources:7"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 7,
+      "status": "revision_recommended",
+      "source_entry_sha256": "77e0462ccb00cb3a3da22fb001568bcee18b234e9ac96c2b432bfee5e9f2fa9c",
+      "review_scope": "2016다255910 판결 전문의 비진의사직에 의한 해고/합의종료 구별과 사직경위·권유방식강도횟수·불이익 종합판단을 확인. 고용보험법40·58/시행규칙101②·별표2의1년내2개월체불 등/괴롭힘·성희롱/경영사정권고/계약만료와 다른수급요건을 확인했습니다. ‘스스로처리되면실업급여막힘’은 법정정당사유·강요된사직 반증 예외가 있으므로 제목/쉽게도 원칙으로 한정 권장. 사직서문구만으로 고용센터 판단이 확정되는 것은 아니라는 비고 유지. 중국의자진퇴사N소멸을 한국퇴직금 소멸로 옮기지 않았습니다.",
+      "evidence_ids": [
+        "sources:6",
+        "retry:2",
+        "law:288723",
+        "retry:5"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 8,
+      "status": "qualified_supported",
+      "source_entry_sha256": "cc09dcde00490cc613a8c8778c0def7a441869e0c868acbc59b47289cca8fec7",
+      "review_scope": "근기법17 근로조건서면교부·48② 임금명세서의 구성/계산/공제 내역 확인. 권리확보를 위해 개인근로자료를 보존하는 C등급경험 조언과 영업비밀/소스코드·고객명단 반출금지를 구분했습니다. 입증책임 전부가 오직근로자에게 있다는 법률명제로 확대하지 않아야 합니다. 사용자가 보관하는 기록 제출 등 다른증거경로도 있어 계정반납 후 영구적으로 어떤자료도 못받는다고 단정하지 않은 현문은 적절.",
+      "evidence_ids": [
+        "law:285279"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 9,
+      "status": "qualified_supported_with_warning",
+      "source_entry_sha256": "18845ff1c9a4320c636ae0a2a053321aea340db4608f9cb49e55e79eecc7e2b8",
+      "review_scope": "산안법283449의29·114·125⑥·130·132·137, 시행규칙288431의73/208/214·별표25 전체를 확인. 교육/건설일용기초예외·MSDS게시/교육·측정결과통지·배치전/특수/수시검진·건강보호이외사용금지/사후조치와 건강관리카드 업무별3개월/1년/10년·나목개월×10+다목개월>120·기간미달영상징후·갱내3년+소견·석탄발전5년·진폐수첩제외는 원문과 일치합니다. 법상교육 적용제외 사업·업무까지 모든회사무예외 교육의무로 확대하지 않는 것이 좋습니다. 시행규칙208의 비용산정기준만으로 사업주부담명문을 확인했다고 하지 않으며 비용TODO 유지. 중국의퇴사전검진없으면해고불가 규칙을 한국법으로 전용하지 않았습니다.",
+      "evidence_ids": [
+        "laws:3",
+        "law:288431",
+        "retry:3"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 10,
+      "status": "qualified_supported",
+      "source_entry_sha256": "f53fc82ae05aa77e4f51abd50497440d028986ec31f2ed4a0b77a1ab3ee317f4",
+      "review_scope": "산재령34·별표3의 소음85dB/3년/한귀40dB와 질병군·13상당인과관계 포괄조항, 산안규칙273603의32·516·617 및 산안법52·157을 대조했습니다. 지급보호구 수량·개인청력/호흡보호구·밀폐국소배기예외·급박위험 작업중지/대피·합리적이유시불이익금지 일치. 산재목록은 예후/치료불가 근거가 아니라는 유보 유지. 규폐잠복/마스크종류별성능/불가역성의 별도 한국의학1차근거는 이번에도 미확인으로 남기며 새 단정은 추가하지 않습니다.",
+      "evidence_ids": [
+        "law:287491",
+        "laws:4",
+        "laws:3"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 11,
+      "status": "revision_required",
+      "source_entry_sha256": "de56f2cd5762de20c8ae346a259860997b71292beb684085ddda0aadb74d3205",
+      "review_scope": "실제산재법2026-07-01 시행37·40·41·52·80④·88·103·106·111의2·112 및 시행령35·36/시행규칙20~21 확인. 통상출퇴근·일탈중단/생활필요예외, 요양3일이내제외/취업불능3일이내휴업제외·원칙70%, 신청의료기관대행·7일과제외기간·심사/재심90일·급여별3/5년·퇴직후권리·요양해고금지/일시보상예외 일치. 다만37②단서/령36의 업무상정신질환 등 정상적인 인식능력이 뚜렷이 낮아진 자해의 상당인과관계 예외를 누락해 고의·자해·범죄원인이면 일률배제한 문장은 수정해야 합니다. 7일제외에는 심의/조사뿐 아니라 진찰·서류보완·회사통지의견청취도 포함하므로 ‘등’을 남기세요. 회사사망/3일이상휴업산재1개월보고·은폐1년1000만원 원문 확인.",
+      "evidence_ids": [
+        "retry:0",
+        "law:287491",
+        "law:283239",
+        "laws:3",
+        "law:288431",
+        "law:285279"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 12,
+      "status": "qualified_supported",
+      "source_entry_sha256": "8772c148fb7d922a4fa39612eaaf707b1c7cae35a465ea1a29721d3a5d6879d7",
+      "review_scope": "산재령별표3제1호와 고시2026-14 실제본문을 확인. 돌발24시간/1주업무 이전12주대비30%이상·12주60시간/4주64시간·52시간초과/이하복합요인·야간22~06시30%가산/휴게제외/감시단속유사제외·자연악화제외는 일치. 장소나 중국48시간사망만으로 판정하지 않는 한국현지화 확인. 시간기준 충족만으로 자동승인/미충족이면자동불승인이라는 해석 금지. 몇십분지연의 생존확률 손실 크기를 이고시가 입증하는 것은 아니며 응급조치 권고와 보상요건을 구별.",
+      "evidence_ids": [
+        "law:287491",
+        "sources:3",
+        "retry:0"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 13,
+      "status": "qualified_supported",
+      "source_entry_sha256": "5cc4553ef75707213c93fd375df30bb421e3cea58d7aff16fb778dd1cba66b7b",
+      "review_scope": "산재법6/시행령2·징수법5③·26 및 실제징수령280527의34를 확인. 당연적용사업 미신고는근로자급여와구별, 가구고용/다른법보상/일부비법인농림어업5명미만(벌목제외) 등 적용제외 유지. 지급결정액50%·6종급여·요양개시1년이되는달말/즉시사망재해일·미신고보험료5배상한 일치. 중국의미가입회사전액직접부담·전국일률사회보험제도와 구분한 현지화 확인.",
+      "evidence_ids": [
+        "retry:0",
+        "law:287491",
+        "law:285369",
+        "retry:6"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 14,
+      "status": "qualified_supported",
+      "source_entry_sha256": "21b45413bd21c2091360d2769a8d835c16a6137e4cf8b993d0dbb73665be5925",
+      "review_scope": "산재법5·57·별표2·80 및령53⑤ 실제확인. 1~14급일시금1474/1309/1155/1012/869/737/616/495/385/297/220/154/99/55,연금329~138일, 1~3원칙연금/4~7선택/8~14일시금·청구당시외국국적국외거주예외 일치. 일10만원×297=2970만원 산술확인. 80②동일사유민사면책과 장해연금의일시금수령간주,③상당금품법정환산급여조정/간주연금예외를 분리한 수정본문은 실제원문과 일치합니다. 등급이 돈을무조건즉시보장한다는 뜻으로 확대하지 않음.",
+      "evidence_ids": [
+        "retry:0",
+        "law:287491",
+        "law:285279"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 15,
+      "status": "qualified_supported",
+      "source_entry_sha256": "2440f55bf4246d2ae0cfc75e02c439fd3b2adae2dc5e6a8b2a41ce18b62abc66",
+      "review_scope": "산재법62·63·71·80·112와별표3 및2025-85호고시 실제본문 확인. 365×평균임금×47%·해당수급자/생계같이한자격자1인5%합20%·무자격시1300일/50%선지급과연금반액·120일장례/법정선지급·5년시효 일치. 연금자격은63의생계/연령/장애/국외거주외국인제외 등 별도조건이며 가족전원이자동연금대상은 아님. 장례비2026최고19279760/최저13943000,2026-01-01~12-31 유효 실제확인. 80②유족연금일시금간주 문장 적절. 전국동일사망일시금113만위안 중국수치 전용 없음.",
+      "evidence_ids": [
+        "retry:0",
+        "retry:4"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 16,
+      "status": "revision_required",
+      "source_entry_sha256": "5ac29ce7b54bcdd2f426c1704a20a921a48877befbe009d567452e95de95b5ee",
+      "review_scope": "Xu 원초록의 스웨덴덴마크79201명18~65/기저CVD없음/평균12.4년·HR1.59(1.28~1.98)/폭력1.25(1.12~1.40)/자기보고·용량반응 확인. HR를 고정기간절대확률비로 확대하지 않음. Nielsen 원초록의 노르웨이1846명/2005~2010·세시점2~3년·OR2.05(1.08~3.89)는 정확히자살생각확률2배가 아니므로 쉽게·이득의 확률배수단정을 오즈·연관성으로 수정해야 합니다. 역방향의 연관성이 관찰되지 않았다는 것이 역방향이 없다는 증명은 아닙니다. 법76의2/3·8·107·109·116과 남녀고평법14, 산재37①2다·실업별표2를 대조. 조사중필요시보호/피해자의사반대조치금지, 가해자‘징계등필요조치’(반드시징계만은아님)·사전피해자의견청취를 보존 권장. 5명미만제외/폭행금지적용·보복3년3000만원/사용자괴롭힘1000만원 실제확인. 민소비용한도·기한과실제기간 구분 적절.",
+      "evidence_ids": [
+        "doi:10.1093/eurheartj/ehy683",
+        "doi:10.2105/AJPH.2015.302855",
+        "law:285279",
+        "law:284457",
+        "retry:0",
+        "law:288723",
+        "law:290113"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 17,
+      "status": "qualified_supported",
+      "source_entry_sha256": "641ca4afe7a90ea11b80710aad704ebda21f9d0876feb1455615be4c780c458b",
+      "review_scope": "근기39·116과령19 실제확인:30일이상계속근무/퇴직3년내·요청한사항만·즉시교부·500만원이하. 현행116에서 사용증명서 위반은500만원이며 2026-12-08/2027-01-01 다른항목 개정과 구분. 고용보험법42③·48/규칙82의2의 요청10일·이직다음날12개월/신고가산총4년·산재요양신고간주와법정장기요양이직간주 실제확인. 중국의이직증명서의무항목/서류사회보험이관15일·1년노동중재시효를 전용하지 않음.",
+      "evidence_ids": [
+        "retry:1",
+        "law:270551",
+        "retry:2",
+        "law:288723"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 18,
+      "status": "qualified_supported_with_warning",
+      "source_entry_sha256": "35f1dc51b4170bafeeccb9293aa6f32c47bfca52d21bdffb38488cd7e1ab37a4",
+      "review_scope": "소득세법4·22·48·55②·129①5의3·146,시행령42의2·퇴직급여9 실제확인. 근속공제100/500+200/1500+250/4000+300만원과 환산급여공제800만원/초과60%, 기본세율6% 예시 계산을 재검산:3000-1500=1500만원,환산1800,공제1400,과표400,24만원÷12×10=20만원. 국세예시이며 지방세별도. IRP과세이연/수령60일내입금·기납부환급·실제연금수령10년이하70/10~20년60/20년초과50% 확인. ‘연금수령’은 세법상요건을 갖춘 인출을 뜻하며 아무분할인출이나감면되는것아님. 해고예고/금전보상소득구분·지방소득세율의추가조문은 이번에 새로확인하지 않아TODO유지. 중국지역평균임금3배면세/3480위안계산전용없음.",
+      "evidence_ids": [
+        "law:280405",
+        "law:290841",
+        "retry:5"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    }
+  ],
+  "intro_review": "필수수정: 실제18항은 재직1~3 세개/퇴사4~8 다섯개/직업병산재9~15 일곱개/끝16~18 세개입니다. 도입의 “이어지는여섯항목은퇴사”는 다섯으로 고쳐야 합니다. 장해일시금55~1474일·1~3급연금/유족1300일·5명미만범위는 실제표와 일치. 규모기준만으로 주15시간미만 연차제외/근로시간적용제외까지 사라지는것은 아님. 별도주제요약 없음.",
+  "tail_review": "TODO8건:①공단/토탈 새HTTPS는 접근실패로 본문·번호미확인 유지.②특수검진부담주체는 실시의무/산정기준만확인,명문미확인 유지.③해고예고수당/금전보상금 세무분류 새해석미열람 유지.④변호사비산입 한도원리는민소109확인,정확금액표는미열람 유지.⑤중노위 무료대리300만원미만 실제확인했으나 신청자체수수료명문은 없음.⑥지방소득세율 추가조문미열람 유지.⑦질병예후/마스크성능의의학근거 미해소이며산재목록을대체근거로쓰지않음.⑧판례3건 DRF전문은실제확보했으나 glaw는새접속실패라 개별링크미확인. 원래未확인TODO를완료로바꾸지 않았으며 기존정식KR-FIT통과기록은이번승인을대신하지않습니다.",
+  "evidence": [
+    {
+      "url": "https://www.law.go.kr/LSW/admRulLsInfoR.do?admRulSeq=2100000243340&languageType=KO&chrClsCd=010202",
+      "requested_at": "2026-10-18T15:32:25.781474+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "admrul:2100000243340",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch19-audit/25abb8f65e2318d01670.raw",
+      "sha256": "946a298c02c81d642dac0bd5b0f995d8151bb40f5b5c97dbf4f2ffcb8ae4efba",
+      "id": "sources:0",
+      "actual_review_scope": "실제 행정규칙 R본문·기한·조문·예외 확인"
+    },
+    {
+      "url": "https://www.law.go.kr/LSW/admRulLsInfoR.do?admRulSeq=2100000236496&languageType=KO&chrClsCd=010202",
+      "requested_at": "2026-10-18T15:32:25.782350+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "admrul:2100000236496",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch19-audit/d3bb3eccac2269dbc2fb.raw",
+      "sha256": "ba885456fa0bc0db30f3c674cf773c439aac0952d37cf668a4a58c3e24700f30",
+      "id": "sources:1",
+      "actual_review_scope": "실제 행정규칙 R본문·기한·조문·예외 확인"
+    },
+    {
+      "url": "https://www.law.go.kr/LSW/admRulLsInfoR.do?admRulSeq=2100000271480&languageType=KO&chrClsCd=010202",
+      "requested_at": "2026-10-18T15:32:25.782921+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "admrul:2100000271480",
+      "status": "access_failed",
+      "error": "HTTP Error 502: Bad Gateway",
+      "id": "sources:2",
+      "actual_review_scope": "접근 실패: 실제 본문 미확인"
+    },
+    {
+      "url": "https://www.law.go.kr/LSW/admRulLsInfoR.do?admRulSeq=2100000275360&languageType=KO&chrClsCd=010202",
+      "requested_at": "2026-10-18T15:32:25.783519+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "admrul:2100000275360",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch19-audit/9d930269eacea85e2a10.raw",
+      "sha256": "d8ab81cfd13658ce1cb10fe88b2098a4f0d3e617f631def8caa5972c6c5f8052",
+      "id": "sources:3",
+      "actual_review_scope": "실제 행정규칙 R본문·기한·조문·예외 확인"
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=prec&ID=219067&type=XML",
+      "requested_at": "2026-10-18T15:32:25.784212+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "prec:219067",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch19-audit/077ae564db63877dbc89.raw",
+      "sha256": "c81cfb3cd14474e9dab3021e37b3d294a9d9608c2c0d4b0220a5d5fd8ecfc731",
+      "id": "sources:4",
+      "actual_review_scope": "실제 DRF 판례 전문·사건번호/선고일/판시/인정사실 열람"
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=prec&ID=179619&type=XML",
+      "requested_at": "2026-10-18T15:32:25.785086+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "prec:179619",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch19-audit/caf885813b2039e5a1b6.raw",
+      "sha256": "d3ec9b0144a0af01fe0683aef3c13e887b97e9259fc42e368d8b8e459cb2a785",
+      "id": "sources:5",
+      "actual_review_scope": "실제 DRF 판례 전문·사건번호/선고일/판시/인정사실 열람"
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=prec&ID=184386&type=XML",
+      "requested_at": "2026-10-18T15:32:25.790174+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "prec:184386",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch19-audit/8552deb2eaf20a2738c0.raw",
+      "sha256": "5f519c8b5ff3ef6f712b4ac3bc9611a287aa2bbb9f1feda258fa286b46b992b7",
+      "id": "sources:6",
+      "actual_review_scope": "실제 DRF 판례 전문·사건번호/선고일/판시/인정사실 열람"
+    },
+    {
+      "url": "https://www.nlrc.go.kr/nlrc/commIntro/workGuide03.do",
+      "requested_at": "2026-10-18T15:32:25.790679+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "NLRC",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch19-audit/c5b5aca80e933a88e9c4.raw",
+      "sha256": "54cceec2a222f789054601e292a1f6c16d44140641fee9d67fe47947573a0aa3",
+      "id": "sources:7",
+      "actual_review_scope": "중노위 실제 심판업무 본문·3개월/심문/송부/무료대리300만원미만 확인; 신청수수료명문아님"
+    },
+    {
+      "url": "https://labor.moel.go.kr/main/main.do",
+      "requested_at": "2026-10-18T15:32:27.553322+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "MOELportal",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch19-audit/548741634c2a42f54bad.raw",
+      "sha256": "6862913cace8f27d5ef39357e4fefa55bfddb6a6a023e39a0bc1f6376a999452",
+      "id": "sources:8",
+      "actual_review_scope": "수신 raw 실제열람, 항목별 범위 참조"
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=283459&efYd=20260701&type=XML",
+      "requested_at": "2026-10-18T15:32:28.012836+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "산재법20260701",
+      "status": "access_failed",
+      "error": "HTTP Error 502: Bad Gateway",
+      "id": "sources:9",
+      "actual_review_scope": "접근 실패: 실제 본문 미확인"
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=law&type=XML&query=%EA%B7%BC%EB%A1%9C%EC%9E%90%ED%87%B4%EC%A7%81%EA%B8%89%EC%97%AC%20%EB%B3%B4%EC%9E%A5%EB%B2%95&display=100&nw=1",
+      "requested_at": "2026-10-18T15:32:28.456795+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "근로자퇴직급여 보장법",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch19-audit/8a78f97a571cca2e7706.raw",
+      "sha256": "57b96023e73a51eba64189f520c51ac4adb7e5eee7d81c16eb2ac7b4971e735a",
+      "id": "sources:10",
+      "actual_review_scope": "공식검색 결과 명칭·MST·시행일·현행/시행예정 확인; 조문본문과 구분"
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=law&type=XML&query=%EB%85%B8%EB%8F%99%EC%9C%84%EC%9B%90%ED%9A%8C%EB%B2%95&display=100&nw=1",
+      "requested_at": "2026-10-18T15:32:28.547721+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "노동위원회법",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch19-audit/d50bb0509fb4d6d92af3.raw",
+      "sha256": "397417712e9d0d3d2cdb7c26f07251621692693d249a4a89cf78267900fe1859",
+      "id": "sources:11",
+      "actual_review_scope": "공식검색 결과 명칭·MST·시행일·현행/시행예정 확인; 조문본문과 구분"
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=law&type=XML&query=%EC%B5%9C%EC%A0%80%EC%9E%84%EA%B8%88%EB%B2%95%20%EC%8B%9C%ED%96%89%EB%A0%B9&display=100&nw=1",
+      "requested_at": "2026-10-18T15:32:28.893577+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "최저임금법 시행령",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch19-audit/8ea5ca7b466c67ffddd4.raw",
+      "sha256": "92022330b308af4aa26b8ea4258117bb6b8776b221021e8b81e4c74ac560f09c",
+      "id": "sources:12",
+      "actual_review_scope": "공식검색 결과 명칭·MST·시행일·현행/시행예정 확인; 조문본문과 구분"
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=law&type=XML&query=%EC%82%B0%EC%97%85%EC%95%88%EC%A0%84%EB%B3%B4%EA%B1%B4%EB%B2%95&display=100&nw=1",
+      "requested_at": "2026-10-18T15:32:29.390657+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "산업안전보건법",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch19-audit/6146cbebee3035c8982d.raw",
+      "sha256": "c239bed9b5b15f05dddde14102c7e38ac66038966f5a2e1598e989c4aedd0196",
+      "id": "sources:13",
+      "actual_review_scope": "공식검색 결과 명칭·MST·시행일·현행/시행예정 확인; 조문본문과 구분"
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=law&type=XML&query=%EC%82%B0%EC%97%85%EC%95%88%EC%A0%84%EB%B3%B4%EA%B1%B4%EA%B8%B0%EC%A4%80%EC%97%90%20%EA%B4%80%ED%95%9C%20%EA%B7%9C%EC%B9%99&display=100&nw=1",
+      "requested_at": "2026-10-18T15:32:29.702955+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "산업안전보건기준에 관한 규칙",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch19-audit/8ea8e71833487400377f.raw",
+      "sha256": "e7e975b6b9376f0609895f8fe10e99912265a7d1da152806b6019f3732d15a8b",
+      "id": "sources:14",
+      "actual_review_scope": "공식검색 결과 명칭·MST·시행일·현행/시행예정 확인; 조문본문과 구분"
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=law&type=XML&query=%EA%B3%A0%EC%9A%A9%EB%B3%B4%ED%97%98%EB%B2%95&display=100&nw=1",
+      "requested_at": "2026-10-18T15:32:30.252651+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "고용보험법",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch19-audit/a6ee716897f7e7bbbf16.raw",
+      "sha256": "d8396188ef9d8a1bfc078c7736c0dc92695403aa54ab258886c661a9549c7acf",
+      "id": "sources:15",
+      "actual_review_scope": "공식검색 결과 명칭·MST·시행일·현행/시행예정 확인; 조문본문과 구분"
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=284455&type=XML",
+      "requested_at": "2026-10-18T15:32:40.892159+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "근로자퇴직급여 보장법:284455",
+      "status": "access_failed",
+      "error": "HTTP Error 502: Bad Gateway",
+      "id": "laws:0",
+      "actual_review_scope": "접근 실패: 실제 본문 미확인"
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=232203&type=XML",
+      "requested_at": "2026-10-18T15:32:40.892621+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "노동위원회법:232203",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch19-audit/716b4212b8585f971544.raw",
+      "sha256": "68eb14402005132201ee90c15a5359ce955c45e539afa5ba4e115167a4f630d3",
+      "id": "laws:1",
+      "actual_review_scope": "수신 raw 실제열람, 항목별 범위 참조"
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=206564&type=XML",
+      "requested_at": "2026-10-18T15:32:40.893070+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "최저임금법 시행령:206564",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch19-audit/768d01ea11ef002cf07e.raw",
+      "sha256": "b22a17c6cc704a50bbbcbd79c62800ccb9066e48653d2b04618789fa71730bab",
+      "id": "laws:2",
+      "actual_review_scope": "수신 raw 실제열람, 항목별 범위 참조"
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=283449&type=XML",
+      "requested_at": "2026-10-18T15:32:40.893983+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "산업안전보건법:283449",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch19-audit/c03c7f41537a2d581aba.raw",
+      "sha256": "6f396e886068ad10e9198db889d4dfa30975f14eed75f253b15ecdd2ac5dc21d",
+      "id": "laws:3",
+      "actual_review_scope": "수신 raw 실제열람, 항목별 범위 참조"
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=273603&type=XML",
+      "requested_at": "2026-10-18T15:32:40.894876+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "산업안전보건기준에 관한 규칙:273603",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch19-audit/7e043f45a347f8e2cdb8.raw",
+      "sha256": "e58db9eb73c05a0421606ba2afd76e09a5522990574f30349a49070a217071c8",
+      "id": "laws:4",
+      "actual_review_scope": "수신 raw 실제열람, 항목별 범위 참조"
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=284449&type=XML",
+      "requested_at": "2026-10-18T15:32:40.896082+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "고용보험법:284449",
+      "status": "access_failed",
+      "error": "HTTP Error 502: Bad Gateway",
+      "id": "laws:5",
+      "actual_review_scope": "접근 실패: 실제 본문 미확인"
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=283459&efYd=20260701&type=XML",
+      "requested_at": "2026-10-18T15:33:24.155626+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "283459:20260701",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch19-audit/06526c4f60f6df269cab.raw",
+      "sha256": "f2adae5ebf2bbbda1b70efd24463d47b047b801742913693b32c712748968b8f",
+      "id": "retry:0",
+      "actual_review_scope": "명시시행일 eflaw XML 전문·조문시행일문자열·부칙·인용조문·별표 열람. 노동법12월/2027년·고용법2027년 미시행부분 구별"
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=285279&efYd=20261008&type=XML",
+      "requested_at": "2026-10-18T15:33:24.156433+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "285279:20261008",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch19-audit/4ec093011fce22c5e13e.raw",
+      "sha256": "577b03c902edfa21f9e8fb6c0005e6ce53ba108bb8fed8c879faf38fd7e09c77",
+      "id": "retry:1",
+      "actual_review_scope": "명시시행일 eflaw XML 전문·조문시행일문자열·부칙·인용조문·별표 열람. 노동법12월/2027년·고용법2027년 미시행부분 구별"
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=284449&efYd=20260918&type=XML",
+      "requested_at": "2026-10-18T15:33:24.157113+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "284449:20260918",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch19-audit/d8d2ad1851b9783291c3.raw",
+      "sha256": "280b4bec05c376ed4fac83ab9077bcb4d164b9fb510e26d1060ac73b9a24d885",
+      "id": "retry:2",
+      "actual_review_scope": "명시시행일 eflaw XML 전문·조문시행일문자열·부칙·인용조문·별표 열람. 노동법12월/2027년·고용법2027년 미시행부분 구별"
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=288431&efYd=20260801&type=XML",
+      "requested_at": "2026-10-18T15:33:24.157947+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "288431:20260801",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch19-audit/261d86a3db08bd0977e6.raw",
+      "sha256": "7832deea3f035a67db4d3207c4c2b6c20ce75024a8e18331cb3955894ac18f95",
+      "id": "retry:3",
+      "actual_review_scope": "명시시행일 eflaw XML 전문·조문시행일문자열·부칙·인용조문·별표 열람. 노동법12월/2027년·고용법2027년 미시행부분 구별"
+    },
+    {
+      "url": "https://law.go.kr/LSW/admRulLsInfoR.do?admRulSeq=2100000271480&languageType=KO&chrClsCd=010202",
+      "requested_at": "2026-10-18T15:33:24.158534+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "장례비:retry",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch19-audit/d8b681719393aeec6525.raw",
+      "sha256": "d3ad7ee466809770be923a460224b89c3e943182d77b64a61e440dc2f189e842",
+      "id": "retry:4",
+      "actual_review_scope": "수신 raw 실제열람, 항목별 범위 참조"
+    },
+    {
+      "url": "https://law.go.kr/DRF/lawService.do?OC=test&target=law&MST=284455&type=XML",
+      "requested_at": "2026-10-18T15:33:24.159014+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "퇴직법:retry",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch19-audit/8d98280f9f2a58bbfcfe.raw",
+      "sha256": "41e92a5dede81b50f5f94e87f31553304f46615e15d09392e30691000319dfd7",
+      "id": "retry:5",
+      "actual_review_scope": "수신 raw 실제열람, 항목별 범위 참조"
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=280527&type=XML",
+      "requested_at": "2026-10-18T15:33:24.160843+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "징수령:retry",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch19-audit/4bbd256bc173cfe5c05e.raw",
+      "sha256": "c5e6d0558b47d493eef0b2f6edf3945e7e1b46123504f5efa05930c6a7d8da32",
+      "id": "retry:6",
+      "actual_review_scope": "수신 raw 실제열람, 항목별 범위 참조"
+    },
+    {
+      "url": "https://www.comwel.or.kr",
+      "requested_at": "2026-10-18T15:34:40.739923+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "COMWEL",
+      "status": "access_failed",
+      "error": "HTTP Error 400: Bad Request",
+      "id": "supplement:0",
+      "actual_review_scope": "접근실패, 공식홈페이지/토탈/종합법률정보 본문확인안됨"
+    },
+    {
+      "url": "https://total.comwel.or.kr",
+      "requested_at": "2026-10-18T15:34:40.740869+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "TOTAL",
+      "status": "access_failed",
+      "error": "HTTP Error 400: Bad Request",
+      "id": "supplement:1",
+      "actual_review_scope": "접근실패, 공식홈페이지/토탈/종합법률정보 본문확인안됨"
+    },
+    {
+      "url": "https://glaw.scourt.go.kr",
+      "requested_at": "2026-10-18T15:34:40.741518+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "GLAW",
+      "status": "access_failed",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "id": "supplement:2",
+      "actual_review_scope": "접근실패, 공식홈페이지/토탈/종합법률정보 본문확인안됨"
+    },
+    {
+      "doi": "10.1093/eurheartj/ehy683",
+      "chapters": [
+        19
+      ],
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1093%2Feurheartj%2Fehy683%22&format=json&resultType=core&pageSize=10",
+      "fetched_at": "2026-10-18T20:51:06.725049+09:00",
+      "http_status": 200,
+      "status": "exact_doi_metadata_cached",
+      "sha256": "330e273c512e6a8d07ac529b01db1faaf006afa608f09540c32d867da7cec0eb",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/93b4165bf6d2b9f93ecc.json",
+      "hit_count": 1,
+      "abstract_present": true,
+      "id": "doi:10.1093/eurheartj/ehy683",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T15:38:23.643490+00:00",
+      "actual_review_scope": "실제 EuropePMC 원초록·서지·분모/수치 확인; 초록 없는 등록은 아래 제한"
+    },
+    {
+      "doi": "10.2105/AJPH.2015.302855",
+      "chapters": [
+        19
+      ],
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.2105%2FAJPH.2015.302855%22&format=json&resultType=core&pageSize=10",
+      "fetched_at": "2026-10-18T20:51:06.791804+09:00",
+      "http_status": 200,
+      "status": "exact_doi_metadata_cached",
+      "sha256": "db5c35981716792ca9182fe3f5a704183d5a5de31ceb9e11aafb228ea3377926",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/f7b6738cc4c247ab3af3.json",
+      "hit_count": 1,
+      "abstract_present": true,
+      "id": "doi:10.2105/AJPH.2015.302855",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T15:38:23.643490+00:00",
+      "actual_review_scope": "실제 EuropePMC 원초록·서지·분모/수치 확인; 초록 없는 등록은 아래 제한"
+    },
+    {
+      "mst": "270551",
+      "chapters": [
+        19
+      ],
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=270551&type=XML",
+      "requested_at": "2026-10-18T12:37:10.914477+00:00",
+      "scope": "Exact cited statutory version only; article-specific commencement and claims require independent review.",
+      "http_status": 200,
+      "status": "statutory_xml_cached",
+      "title": "근로기준법 시행령",
+      "effective_date": "20251023",
+      "law_id": "003058",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/270551.xml",
+      "sha256": "8e70d95b19fa42b307f58535d6a47a35dd3e1226431bb54dfb38f3aa8fc6ce72",
+      "bytes": 261945,
+      "article_count": 80,
+      "id": "law:270551",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T15:38:23.643490+00:00",
+      "actual_review_scope": "근로기준법시행령7·17·18·19·30·별표1 및 시행일/부칙"
+    },
+    {
+      "mst": "285279",
+      "chapters": [
+        8,
+        11,
+        13,
+        18,
+        19,
+        27
+      ],
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=285279&type=XML",
+      "requested_at": "2026-10-18T12:37:57.424991+00:00",
+      "scope": "Exact cited statutory version only; article-specific commencement and claims require independent review.",
+      "http_status": 200,
+      "status": "statutory_xml_cached",
+      "title": "근로기준법",
+      "effective_date": "20261008",
+      "law_id": "001872",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/285279.xml",
+      "sha256": "222fd311aa29570bf0045061e332c9b6696b49427a4ae8f17540763866b36c2e",
+      "bytes": 248381,
+      "article_count": 146,
+      "id": "law:285279",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T15:38:23.643490+00:00",
+      "actual_review_scope": "근로기준법2·11·17·18·23~33·37·39·43의8·48~63·76의2/3·107·109·116 및 개정부칙/시행예정 조문"
+    },
+    {
+      "mst": "283239",
+      "chapters": [
+        19
+      ],
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=283239&type=XML",
+      "requested_at": "2026-10-18T12:37:43.840405+00:00",
+      "scope": "Exact cited statutory version only; article-specific commencement and claims require independent review.",
+      "http_status": 200,
+      "status": "statutory_xml_cached",
+      "title": "산업재해보상보험법 시행규칙",
+      "effective_date": "20260202",
+      "law_id": "007373",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/283239.xml",
+      "sha256": "aa1063cefcc72ddc461c67a58a059e0a741897bcc2ec157a4f0d266b412a51c6",
+      "bytes": 670646,
+      "article_count": 115,
+      "id": "law:283239",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T15:38:23.643490+00:00",
+      "actual_review_scope": "산재시행규칙20·21 요양신청과7일 제외기간"
+    },
+    {
+      "mst": "284457",
+      "chapters": [
+        18,
+        19
+      ],
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=284457&type=XML",
+      "requested_at": "2026-10-18T12:37:56.080789+00:00",
+      "scope": "Exact cited statutory version only; article-specific commencement and claims require independent review.",
+      "http_status": 200,
+      "status": "statutory_xml_cached",
+      "title": "남녀고용평등과 일ㆍ가정 양립 지원에 관한 법률",
+      "effective_date": "20260918",
+      "law_id": "000130",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/284457.xml",
+      "sha256": "81780fed07bdb68f91ca2861095babcefce8ba7d8c1b7b8947c534f5984a5e1b",
+      "bytes": 180088,
+      "article_count": 83,
+      "id": "law:284457",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T15:38:23.643490+00:00",
+      "actual_review_scope": "남녀고용평등법14 조사보호·징계등 조치"
+    },
+    {
+      "mst": "284693",
+      "chapters": [
+        19
+      ],
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=284693&type=XML",
+      "requested_at": "2026-10-18T12:37:56.259293+00:00",
+      "scope": "Exact cited statutory version only; article-specific commencement and claims require independent review.",
+      "http_status": 200,
+      "status": "statutory_xml_cached",
+      "title": "근로자퇴직급여 보장법 시행령",
+      "effective_date": "20260324",
+      "law_id": "010035",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/284693.xml",
+      "sha256": "6b653b16b95f70a35863621a5160ca20bf8d6b0d73128e9279eaefd8e50799da",
+      "bytes": 214863,
+      "article_count": 79,
+      "id": "law:284693",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T15:38:23.643490+00:00",
+      "actual_review_scope": "퇴직급여시행령3의2 IRP예외"
+    },
+    {
+      "mst": "285369",
+      "chapters": [
+        19
+      ],
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=285369&type=XML",
+      "requested_at": "2026-10-18T12:38:02.474553+00:00",
+      "scope": "Exact cited statutory version only; article-specific commencement and claims require independent review.",
+      "http_status": 200,
+      "status": "statutory_xml_cached",
+      "title": "고용보험 및 산업재해보상보험의 보험료징수 등에 관한 법률",
+      "effective_date": "20261008",
+      "law_id": "009589",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/285369.xml",
+      "sha256": "d3fa3a788e723a55e4c82b07414456b48a0a1e0dac36699455c312d9a7d05925",
+      "bytes": 288376,
+      "article_count": 101,
+      "id": "law:285369",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T15:38:23.643490+00:00",
+      "actual_review_scope": "보험료징수법5③·26 미신고급여징수"
+    },
+    {
+      "mst": "287491",
+      "chapters": [
+        19,
+        24
+      ],
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=287491&type=XML",
+      "requested_at": "2026-10-18T12:38:08.130661+00:00",
+      "scope": "Exact cited statutory version only; article-specific commencement and claims require independent review.",
+      "http_status": 200,
+      "status": "statutory_xml_cached",
+      "title": "산업재해보상보험법 시행령",
+      "effective_date": "20260701",
+      "law_id": "003793",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/287491.xml",
+      "sha256": "70a7c52c75afb5dd41360f63fd1101cd1e33e741650ff3dac3aa32ed0aa97d8a",
+      "bytes": 554607,
+      "article_count": 182,
+      "id": "law:287491",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T15:38:23.643490+00:00",
+      "actual_review_scope": "산재시행령2·34~36·53⑤·별표3 업무상질병·자해예외·적용제외"
+    },
+    {
+      "mst": "288431",
+      "chapters": [
+        19
+      ],
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=288431&type=XML",
+      "requested_at": "2026-10-18T12:38:12.847968+00:00",
+      "scope": "Exact cited statutory version only; article-specific commencement and claims require independent review.",
+      "http_status": 200,
+      "status": "statutory_xml_cached",
+      "title": "산업안전보건법 시행규칙",
+      "effective_date": "20260801",
+      "law_id": "007364",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/288431.xml",
+      "sha256": "dad569b922561fc2fbe9dfdf01d5cf304a96827ec95cd43b51a36a6773beacb3",
+      "bytes": 2789076,
+      "article_count": 278,
+      "id": "law:288431",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T15:38:23.643490+00:00",
+      "actual_review_scope": "산안법시행규칙73·208·214·별표25 건강관리카드 전체/업무기간"
+    },
+    {
+      "mst": "288723",
+      "chapters": [
+        19
+      ],
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=288723&type=XML",
+      "requested_at": "2026-10-18T12:38:15.296376+00:00",
+      "scope": "Exact cited statutory version only; article-specific commencement and claims require independent review.",
+      "http_status": 200,
+      "status": "statutory_xml_cached",
+      "title": "고용보험법 시행규칙",
+      "effective_date": "20260918",
+      "law_id": "006288",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/288723.xml",
+      "sha256": "fafaf80922ca4830010bdc2fc500771f78982ce028b724f759892ac81ade1460",
+      "bytes": 2837908,
+      "article_count": 207,
+      "id": "law:288723",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T15:38:23.643490+00:00",
+      "actual_review_scope": "고용보험규칙82의2·101②/별표2 정당이직사유"
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=218303&type=XML",
+      "requested_at": "2026-10-18T12:50:34.913803+00:00",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/218303.xml",
+      "sha256": "d10d4d9cbbd1618053a7c76770f4f26b636aaa0e4d51f53a698fc94649342c2a",
+      "mst": "218303",
+      "status": "existing_statutory_xml",
+      "http_status": 200,
+      "id": "law:218303",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T15:38:23.643490+00:00",
+      "actual_review_scope": "최저임금법5②·6③ 수습감액 요건"
+    },
+    {
+      "mst": "280405",
+      "chapters": [
+        5
+      ],
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=280405&type=XML",
+      "requested_at": "2026-10-18T12:37:33.260388+00:00",
+      "scope": "Exact cited statutory version only; article-specific commencement and claims require independent review.",
+      "http_status": 200,
+      "status": "statutory_xml_cached",
+      "title": "소득세법",
+      "effective_date": "20260101",
+      "law_id": "001565",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/280405.xml",
+      "sha256": "c430c1daf89379c4213ebbfbaa8f5ae76ad210bf2154d258686828d02a126e87",
+      "bytes": 1209440,
+      "article_count": 393,
+      "id": "law:280405",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T15:38:23.643490+00:00",
+      "actual_review_scope": "소득세법4·22·48·55·129①5의3·146 및 부칙"
+    },
+    {
+      "mst": "290841",
+      "chapters": [
+        5
+      ],
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290841&type=XML",
+      "requested_at": "2026-10-18T12:38:41.683888+00:00",
+      "scope": "Exact cited statutory version only; article-specific commencement and claims require independent review.",
+      "http_status": 200,
+      "status": "statutory_xml_cached",
+      "title": "소득세법 시행령",
+      "effective_date": "20261001",
+      "law_id": "003956",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290841.xml",
+      "sha256": "402597aa7e96fb8486e32088133f02e36277bebbe20588426c81490eb6b3fd71",
+      "bytes": 2964601,
+      "article_count": 507,
+      "id": "law:290841",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T15:38:23.643490+00:00",
+      "actual_review_scope": "소득세시행령42의2 퇴직소득범위"
+    },
+    {
+      "mst": "290113",
+      "chapters": [
+        8,
+        13,
+        24
+      ],
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290113&type=XML",
+      "requested_at": "2026-10-18T12:38:24.090334+00:00",
+      "scope": "Exact cited statutory version only; article-specific commencement and claims require independent review.",
+      "http_status": 200,
+      "status": "statutory_xml_cached",
+      "title": "민사소송법",
+      "effective_date": "20261002",
+      "law_id": "001700",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290113.xml",
+      "sha256": "dd6228b88d970e33b979d0d9e59c5b74f6f45958c01dcab79e034334365fbc92",
+      "bytes": 538397,
+      "article_count": 569,
+      "id": "law:290113",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T15:38:23.643490+00:00",
+      "actual_review_scope": "민소98·109·199 비용/기한 및 시행일"
+    },
+    {
+      "id": "local:book/19-在职离职和工伤.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/book/19-在职离职和工伤.md",
+      "sha256": "c64c8811a04d073e91eb9857cd5735423471d7e19bcd4289493460d7a9cb77c9",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T15:38:23.643490+00:00",
+      "status": "full_text_read",
+      "actual_review_scope": "전체원문/기존기록 대조;기존승인재사용아님"
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch19/source.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch19/source.md",
+      "sha256": "3e644d50e218cc04049177fa5a6ff81785f657f1eb9f5cbd68a61c6d7057fb3d",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T15:38:23.643490+00:00",
+      "status": "full_text_read",
+      "actual_review_scope": "전체원문/기존기록 대조;기존승인재사용아님"
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch19/manifest.json",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch19/manifest.json",
+      "sha256": "167d292963be3fd7ddf54e2d0e49a15a89aac5235ffcd0f8b0863a42de5dfd31",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T15:38:23.643490+00:00",
+      "status": "full_text_read",
+      "actual_review_scope": "전체원문/기존기록 대조;기존승인재사용아님"
+    },
+    {
+      "id": "local:kr-harness/chapters/19/1-analysis.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/chapters/19/1-analysis.md",
+      "sha256": "68406ba4398c9f4191a36cdacbe96d296899689cb2148d56ff4014c8b1017908",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T15:38:23.643490+00:00",
+      "status": "full_text_read",
+      "actual_review_scope": "전체원문/기존기록 대조;기존승인재사용아님"
+    },
+    {
+      "id": "local:kr-harness/chapters/19/2-research.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/chapters/19/2-research.md",
+      "sha256": "a8d32af76a566af7bbf278c5c4c61ebae70d93d63952a47504091cac3ba9deb9",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T15:38:23.643490+00:00",
+      "status": "full_text_read",
+      "actual_review_scope": "전체원문/기존기록 대조;기존승인재사용아님"
+    },
+    {
+      "id": "local:kr-harness/chapters/19/3-draft.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/chapters/19/3-draft.md",
+      "sha256": "c485a63e58a8a67dc89bd7a0d42ad87636f346af3f77d1047c723b76461c1514",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T15:38:23.643490+00:00",
+      "status": "full_text_read",
+      "actual_review_scope": "전체원문/기존기록 대조;기존승인재사용아님"
+    },
+    {
+      "id": "local:kr-harness/chapters/19/kr-fit-review.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/chapters/19/kr-fit-review.md",
+      "sha256": "a2a23470b982832b130f59736499e1bf924edf7b6c963fe873079a58688bca28",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T15:38:23.643490+00:00",
+      "status": "full_text_read",
+      "actual_review_scope": "전체원문/기존기록 대조;기존승인재사용아님"
+    },
+    {
+      "id": "local:kr-harness/chapters/19/kr-fit-review.r1.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/chapters/19/kr-fit-review.r1.md",
+      "sha256": "072ac657666d2be12c40e40794b7750e5f7971b2d50efcb15fd42405a096882c",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T15:38:23.643490+00:00",
+      "status": "full_text_read",
+      "actual_review_scope": "전체원문/기존기록 대조;기존승인재사용아님"
+    },
+    {
+      "id": "local:kr-harness/chapters/19/kr-fit-review.r2.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/chapters/19/kr-fit-review.r2.md",
+      "sha256": "5adb057449e8835efbb9a0cf237544e5437d1096e891b04b017827bf1d3d99ef",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T15:38:23.643490+00:00",
+      "status": "full_text_read",
+      "actual_review_scope": "전체원문/기존기록 대조;기존승인재사용아님"
+    }
+  ]
+}

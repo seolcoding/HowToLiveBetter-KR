@@ -22,6 +22,13 @@
 - 보존시점gate0 402/667,입력667SHA불일치0,라우트644/23. 현재13절24/38원거리직접인용의기계귀속hold는면제하지않았다. 30항은출처분류수정후freshfinalizer중이다. 새도구독립후보/R2증거는publication/2026-10-18/tooling/에있고production회귀33건통과다.
 - A최대3작성자와독립2슬롯을예약한다. live큐는A소유,root체크포인트는별도스냅샷이다.19절초기source감사를시작했다. 새작업은PR#7초안이며병합·배포전이다.
 
+## 최신 체크포인트 — 제3·18절 새 정식 마감
+
+- 현재새정식마감은1·2·3·18절이다. 3은block0/warn0(CLIc27b1c95…b004af6),18은block0/warn3(CLIc8675e5d…0391de)로promote했다. 18style4후속도완료됐고근로감독관→노동감독관제안은12/8미래시행이어서미채택했다. 이전최신란의18style대기표현은이력이다. 1·2·3·18의baselineassemble/integrate는재실행하지않는다.
+- root-checkpoint.json 보존시437/667 actualgate0, 입력667SHA불일치0. 제13절24/38은원거리전거인용hold이며,별도원자료심사는충실한공식USFA/CDC번역임을확인했다. 일반lateclassification도구는격리후보구현중이고아직운영승인/registry등록/채택없음. source-findings-r2와외부SPEC-R3/독립설계리뷰를이어읽는다.
+- 초기source감사는1–17·19–21절,18새정식완료. 다음초기22절. 04최신18full/intro-tail독립closure중,05source진행. Amax3/pure1-source2와독립2슬롯원칙,추가독립심사시Amax2로drain.
+- workingtree3/18본문의4종빌드·EPUBCheck·390px·34쪽/667검색/366참조검사는root-03-18-validation.json에있다. 최종전34절완료후재검사·CI확인·PR#7병합·실제Pages배포검증까지계속한다. 새개선본은아직배포전이다.
+
 ---
 
 

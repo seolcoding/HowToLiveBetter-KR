@@ -1,0 +1,45 @@
+{
+  "review_date": "2026-10-19 KST",
+  "proposal_path": "kr-harness/publication/2026-10-18/ch18/_workspace/2026-10-18-003-7200/publication-formal-titleword-correction-r1.json",
+  "proposal_sha256": "fb2944d7fafd768689da076d7048049fc2f99d4551593b70956d9ba9a29a6781",
+  "decision": "revise_retain_current_public_wording",
+  "approved": false,
+  "current_effective_word": "근로감독관",
+  "proposed_future_word": "노동감독관",
+  "future_commencement": "2026-12-08",
+  "basis": "근로기준법 부칙 법률21533 제1조: 제103조부터 제105조까지 공포 후8개월",
+  "formal_review_W3_correction_required": true,
+  "proposed_formal_result_after_correction": "block0 warn3 deletion0, subject to final current document hash",
+  "existing_16_cache_limit": "labor.xml includes future104; must read basic 시행일자별조문 and 부칙; its overall20261008 and individual 조문시행일자 are insufficient",
+  "fresh_http_evidence": [
+    {
+      "key": "search",
+      "url": "https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=law&type=XML&query=%EA%B7%BC%EB%A1%9C%EA%B8%B0%EC%A4%80%EB%B2%95&display=20",
+      "http_status": 200,
+      "sha256": "b13629c03e27e4d0405650285cc7a6af7f9022c2bbdf39fa9d6e22e71da0221b",
+      "bytes": 2623
+    },
+    {
+      "key": "current104",
+      "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=285279&joNo=0104&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR",
+      "http_status": 200,
+      "sha256": "ac1cb012e3f3126b406ac7fa3f7946fa90cd674a070d5d70f6f10b26d22d69f1",
+      "bytes": 73777
+    },
+    {
+      "key": "history",
+      "url": "https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=law&type=XML&query=%EA%B7%BC%EB%A1%9C%EA%B8%B0%EC%A4%80%EB%B2%95&display=100&history=Y",
+      "error": "HTTP Error 502: Bad Gateway"
+    },
+    {
+      "key": "id-current",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&ID=001872&efYd=20261019&type=XML",
+      "http_status": 200,
+      "sha256": "222fd311aa29570bf0045061e332c9b6696b49427a4ae8f17540763866b36c2e",
+      "bytes": 248381,
+      "interpretation": "Requested date does not prevent future article text; commencement list and canonical addendum control"
+    }
+  ],
+  "current_public_unchanged": true,
+  "formal_review_unchanged_pending_root_authorization": true
+}

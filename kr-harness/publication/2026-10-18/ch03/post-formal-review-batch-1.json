@@ -1,0 +1,53 @@
+{
+  "date_kst": "2026-10-19",
+  "status": "approved_for_guarded_integration",
+  "formal_kr_fit": false,
+  "entries": [
+    {
+      "entry": 17,
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch03/_workspace/2026-10-18-017-3089/publication-formal-scope-correction-r1.json",
+      "proposal_sha256": "5a1aa024d306695687eb3dde396e0ce7f7f59c9c88dc30d2e4768ed4233abb78",
+      "decision": "approved",
+      "whole_public_raw_sha256": "097b24b2d1d5e2b697e9d48f5e8d07db73d6002ebddbd6fa34e60c07ecbde654",
+      "before_entry_sha256": "26303b6cd881e97ad44d75df1313b95f6278fbe1566d81e554d6f467f790fdf4",
+      "after_entry_sha256": "4c6e51b12305dd5d7a227074a29c8ecf350edb7e9b447179ca0c960f26cb9b34",
+      "field": "이득",
+      "before_field_sha256": "87566f36b985155533c46f150015a506646cbb1a46cd6c14b667e5ce6e358b1c",
+      "after_field_sha256": "713932b69f78ca95c21bf28ca34fee6f748612cdcce657add0af95f7669333ef",
+      "unique_span_before": "자신을 모욕한 사람을",
+      "unique_span_after": "잘못한 상대를",
+      "checks": "current_public_and_snapshot_exact; unique_span_only; six_labels_preserved; DOI_URLs_preserved; prose_sentence_max_50"
+    },
+    {
+      "entry": 20,
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch03/_workspace/2026-10-18-020-f47e/publication-formal-reference-correction-r1.json",
+      "proposal_sha256": "f7cd0caa16eaf1139eb570c167d3d6062ea89145c1e715835967d8322c7f0d89",
+      "decision": "approved",
+      "whole_public_raw_sha256": "097b24b2d1d5e2b697e9d48f5e8d07db73d6002ebddbd6fa34e60c07ecbde654",
+      "before_entry_sha256": "e71f5b5c3f169df465a4c84df09f9bbcac8c15e7a5b82a6c84d84b061d70472d",
+      "after_entry_sha256": "b14b78bd06970122775e2dd023ebe3502d83828f94c11a769bd960b43094f8e0",
+      "field": "비고",
+      "before_field_sha256": "abb4e53ae2c024fa0609ba6ac7b9be74d4c5506a874e26008e4788445209755c",
+      "after_field_sha256": "57d4a81444c102fccb36bbe4f79a1714cf19fb158850ffc4655c65a31bce2e11",
+      "unique_span_before": "기분이 가라앉았을 때 먼저 할 일은 이 절 제18항을 보세요.",
+      "unique_span_after": "기분이 가라앉으면 이 절 제18항(기분이 가라앉을 때 먼저 할 일)을 보세요.",
+      "checks": "current_public_and_snapshot_exact; unique_span_only; six_labels_preserved; DOI_URLs_preserved; prose_sentence_max_50"
+    },
+    {
+      "entry": 22,
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch03/_workspace/2026-10-18-022-d098/publication-formal-reference-correction-r1.json",
+      "proposal_sha256": "9b7dd7966f299764cf01f4c7c2df93eaf3e37868b5b91a2e2d7925dc1a67b0b7",
+      "decision": "approved",
+      "whole_public_raw_sha256": "097b24b2d1d5e2b697e9d48f5e8d07db73d6002ebddbd6fa34e60c07ecbde654",
+      "before_entry_sha256": "488f482969c9524cd898943fa9a3d691faef61f582f68e91e5d2172067e6b74f",
+      "after_entry_sha256": "602fdee70973a971422802c2cc33a42231433c99c80fe593840fea43395a9725",
+      "field": "비고",
+      "before_field_sha256": "d7738e0d965959a1e08210bfe408c15b91f134b8934ec6bc626396f091291f24",
+      "after_field_sha256": "7b9f02eb880738a7b26a2583f3d78bd0b0abc05989b8157e5e85c917ec215a87",
+      "unique_span_before": "제15항의 비관적 예측도 확정된 미래로 받아들이지 마세요.",
+      "unique_span_after": "제15항(비관적 예측을 확정된 미래로 받아들이지 마세요)도 참고하세요.",
+      "checks": "current_public_and_snapshot_exact; unique_span_only; six_labels_preserved; DOI_URLs_preserved; prose_sentence_max_50"
+    }
+  ],
+  "scope": "Exact three proposals only. No public changes performed. Current formal review unchanged. New final CLI review required after adoption."
+}

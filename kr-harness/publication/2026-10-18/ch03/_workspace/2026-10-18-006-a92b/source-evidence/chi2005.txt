@@ -1,0 +1,713 @@
+CHI 2005 ‫ ׀‬PAPERS: Take a Number, Stand in Line (Interruptions & Attention 1)                                 April 2–7 ‫ ׀‬Portland, Oregon, USA
+
+
+
+                               No Task Left Behind?
+                      Examining the Nature of Fragmented Work
+                                      Gloria Mark, Victor M. Gonzalez, Justin Harris
+                                   Donald Bren School of Information and Computer Science
+                                               University of California, Irvine
+                                            {gmark,vmgyg,jharris2}@ics.uci.edu
+
+
+ABSTRACT                                                                             between firm downsizing, large-scale expansion, increased
+We present data from detailed observation of 24 information                          work activities, and higher levels of stress [24].
+workers that shows that they experience work fragmentation
+as common practice. We consider that work fragmentation                              Why is managing multiple activities important to study?
+has two components: length of time spent in an activity, and                         More and more studies are reporting that information
+frequency of interruptions. We examined work fragmentation                           workers experience multiple activities in the workplace.
+along three dimensions: effect of collocation, type of                               Studies of managers documented how they engage in
+interruption, and resumption of work. We found work to be                            multiple tasks [4,7,13,23]. It appears that managing multiple
+highly fragmented: people average little time in working                             activities is becoming more recognized as a basic
+spheres before switching and 57% of their working spheres                            characteristic of work life for information workers.
+are interrupted. Collocated people work longer before                                Understanding the nature and extent of how information
+switching but have more interruptions. Most internal                                 workers manage multiple activities in IT-rich environments
+interruptions are due to personal work whereas most external                         is important to inform the design of technology to support
+interruptions are due to central work. Though most                                   this type of common work practice.
+interrupted work is resumed on the same day, more than two                           In a previous study, we discovered that information workers
+intervening activities occur before it is. We discuss                                switched work events frequently: averaging every three
+implications for technology design: how our results can be                           minutes [6]. This previous study raised a number of questions
+used to support people to maintain continuity within a larger                        associated with the nature of how work is fragmented.
+framework of their working spheres.                                                  Whereas in the previous study we focused on the descriptive
+                                                                                     level of task-switching, in this paper we analyze factors that
+Author Keywords                                                                      are associated with the interruption and switching of different
+Multi-tasking, attention management, information overload,                           tasks. We have expanded our observations to include almost
+interruptions, empirical study                                                       double the number of informants to increase the
+                                                                                     generalizability of our results on multi-tasking behavior.
+ACM Classification Keywords
+H.4.1. [Information Systems Applications]: Office                                    WORK FRAGMENTATION
+Automation—Time Management; H.5.2. [Information                                      We define work fragmentation as a break in continuous work
+Interfaces and Presentation]: User Interfaces — Theory and                           activity. Studies continually describe how the work of
+Methods.                                                                             information workers is characterized by spending short
+                                                                                     amounts of time in tasks and switching frequently. This has
+INTRODUCTION                                                                         been found with managers [7,13,23], financial analysts [6],
+Multi-tasking in the workplace is a topic that is receiving                          software developers [18], and even telecommuters [8].
+increasing attention both in the academic and popular press.                         Studies have also reported on the interruptions that
+Engaging in multiple activities appears to be related to the                         information workers experience [4,7,16,20].
+scope of work; as the scope increases so does multi-tasking
+[3]. Flattening of hierarchies and expansion of work roles are                       We consider that work fragmentation has two main aspects:
+some of the factors proposed to explain increased and                                the length of time people spend in a continuous activity, and
+broader task responsibility [5]. Some studies suggest a link                         interruptions of that activity. In general, we consider that
+                                                                                     work is more fragmented the shorter amount of time one
+                                                                                     spends on a task, and the more interruptions one has. Task
+Permission to make digital or hard copies of all or part of this work for
+                                                                                     switching may be beneficial. It could serve to refresh one and
+personal or classroom use is granted without fee provided that copies are
+not made or distributed for profit or commercial advantage and that copies           provide new ideas. On the other hand, too much task
+bear this notice and the full citation on the first page. To copy otherwise,         switching with too many different activities could be
+or republish, to post on servers or to redistribute to lists, requires prior         detrimental. It often requires a start-up time to orient oneself
+specific permission and/or a fee.
+                                                                                     to an activity. Spending too short of a time in a complex
+CHI 2005, April 2–7, 2005, Portland, Oregon, USA.
+Copyright 2005 ACM 1-58113-998-5/05/0004…$5.00.                                      project could result in a low level of accomplishment.
+
+
+
+                                                                               321
+CHI 2005 ‫ ׀‬PAPERS: Take a Number, Stand in Line (Interruptions & Attention 1)                   April 2–7 ‫ ׀‬Portland, Oregon, USA
+
+
+Though interruptions can often bring relevant information for           resumed right away [16]. However, it is possible that an
+one’s work [7,16] in many cases, resuming work after an                 interrupted task is returned to at some point later in the day.
+interruption involves a cognitive cost to reorient to the task.         We examined the extent to which interrupted tasks are
+Interruptions can become nested, leading to stress in keeping           resumed at a point later in the day as opposed to immediately
+track of multiple states of tasks.                                      following the interruption to find out how much intervening
+                                                                        work existed.
+These workplace studies have focused on descriptions of
+work tasks and interruption frequencies. There remains                  In addition, we also examined how work fragmentation
+however, a number of questions about the factors that are               occurs as a function of the time of day. Hudson et al. [7]
+associated with task interruptions and switching that could             identified that managers prefer not to deal with interruptions
+explain these phenomena. The purpose of our study is to                 at certain points in the day. However, how does time spent in
+contribute to explaining why task switching and interruptions           tasks and number of interruptions change between morning
+occur through identifying relevant factors. Guided by our               and afternoon? We feel that studying these questions can
+observations, we realized that people’s work fragmentation is           inform the design of technical support to help people manage
+affected by their interaction with others, how they are                 work fragmentation.
+interrupted, and how their work is resumed. We therefore
+developed the following research questions.                             RESEARCH SETTING
+                                                                        While attention has been given to managers’ work activities,
+Collocation of employees and work fragmentation. There are              e.g. [7,13,23], we are instead interested in a broader view of
+reasons to expect that collocated workers would experience              the practices of a variety of information workers. We
+more fragmentation in their work to a greater extent than
+                                                                        conducted our study at ITS1, an outsourcing company
+distributed workers. Informal interactions in the workplace
+                                                                        providing information technology and accounting services
+have been described as spontaneous and opportunistic,                   for major financial bond management companies. We chose
+providing rich sources of information that aid coordination             this field site because it fit the following criteria: 1) the
+[10]. On the other hand, distributed workers lack awareness             workers are involved in multiple projects with different
+of others’ activities and interactions must be more planned             levels of engagement, 2) it is a technology-rich environment,
+and formal [17]. We would also expect that collocated people            3) it is a fast-paced environment, typical of high tech firms
+might engage in more task switching to adapt to the activities          where people work under deadlines and pressure, and 4)
+of their colleagues. For example, overhearing a neighboring             people were willing to be observed at a high level of detail.
+colleague speak on the phone about an application
+inconsistency might lead one to switch tasks to help review             Within ITS, we observed the day-to-day activities of
+recent changes in that application.                                     different information workers: software developers, financial
+                                                                        analysts and managers. Two groups were observed: the JEB
+Types of interruptions. We consider that there are two basic
+                                                                        team responsible for the development, testing and production
+types of interruptions, following [14]. External interruptions          support of major financial modules to be used by the client,
+are those that stem from events in the environment, such as a           and the AUG team responsible for coordinating the
+phone ringing, a colleague entering one’s cubicle, or an email          settlement of transaction with banks and to keep the
+signal. Internal interruptions are those in which one stops a           accounting records of the client.
+task of their own volition. The environment likely affects the
+influence of external interruptions, e.g. whether one is in a           We had the opportunity to observe people who were both
+closed office or open office environment. On the other hand,            situated in an open office environment of cubicles and in
+internal interruptions may occur if one needs a break or needs          enclosed offices. Each person has a networked computer,
+to think about another pressing matter. External and internal           phone unit, and other resources such as file cabinets,
+interruptions may affect whether and how fast work is                   reference books, and documentation. Six analysts in the JEB
+resumed. Interruptions may also have different levels of                team have financial terminals in their cubes, where they
+importance. We examine effects of internal and external                 monitor the status of trades and financial operations
+interruptions on task switching.                                        performed by brokers. The open office setting makes it very
+                                                                        easy to interact with co-workers not only because of the
+Resumption of interrupted work. Why do people resume                    proximity and ease of entering one’s cubicle, but because it is
+interrupted tasks? We expect that there are two basic                   possible to chat with them through the cubicle walls.
+mechanisms by which people can resume work. They can be
+triggered by interactions, e.g. a manager or colleague who              METHODOLOGY
+asks about the status of a project. On the other hand, people           As our goal was to understand as comprehensively as
+might take their own initiative to resume a task. We                    possible how our informants managed their activities, we
+examined the differences between the external and internal              used a combination of three main ethnographic techniques:
+resumption of interrupted work.                                         observation, long interviews and shadowing of informants
+How often are tasks resumed? O’Connaill and Froehlich
+found that 41% of the time an interrupted task was not                  1
+                                                                            All company names and team references are pseudonyms.
+
+
+                                                                  322
+CHI 2005 ‫ ׀‬PAPERS: Take a Number, Stand in Line (Interruptions & Attention 1)                   April 2–7 ‫ ׀‬Portland, Oregon, USA
+
+
+(the latter similar to previous time-management studies                higher level units of work for which events such as phone
+[13,23]). A researcher observed the informant at work in her           calls are a subcomponent. A working sphere is a unit of work
+cubicle or office and followed her to formal and informal              that has a unique time frame, persons involved in them, and
+meetings or other activities whenever possible. Information            use of particular tools and applications [6]. This unit of
+on the computer display, the phone ID display or in                    analysis differs from [4] who focused on the interruption of
+documents on the desk could be read to some extent.                    generic tasks such as email and phone calls. In this analysis
+                                                                       the units we refer to are actually working sphere segments:
+Notes and times taken during the observation were later
+                                                                       single events or clusters of events that are part of a particular
+transcribed into an activity tracking log inspired by
+                                                                       working sphere.
+Minztberg’s structured observation method [13]. The
+observer used a time watch and notepad to record details of            We used four main sources of information to assign separate
+the informants’ actions. The observer noted the time (to the           events (e.g. phone calls) into appropriate working spheres.
+second) and other details of the event. For example, the               First, the informants were aware that we were trying to
+action and the time stamp were annotated when the informant            identify and connect their different work activities. Prior to
+opened a document, made a phone call, engaged in a                     the observation we explained the purpose of the study in
+conversation with surrounding people, or composed email.               individual conversations (and a group presentation). This
+All interactions were documented, i.e. details of the                  influenced some individuals to naturally verbalize some of
+conversation topic, people participating, duration and                 their activities while conducting them, without researcher
+documents involved. At the end of the day the researcher               inquiry. Such verbalizations typically occurred at the
+asked the informant clarification questions about activities.          beginning of the day and sometimes during the day as the
+                                                                       informant commented what they would be working on. A
+The study occurred in two phases over a thirteen-month
+                                                                       second source was derived from the comments made by
+period. Twenty-four people in total were observed in detail: 7
+                                                                       informants while interacting with co-workers as they referred
+managers, 9 analysts, and 8 developers. Fourteen members
+                                                                       to what they were doing at the moment, e.g. “As soon as I’m
+from the JEB team were shadowed and in the second phase
+                                                                       done with the ATRACK stuff I will move over the R6 spec” or
+ten members of the AUG team were shadowed. The study
+                                                                       “I cannot take it right now, I am working on Jim’s production
+began by observing a manager for ten days to become
+                                                                       issue”. A third source came from informal short interviews
+familiar with the work context and for the informants to
+                                                                       conducted with the informants at the end of each day. The
+become used to the researchers’ presence. Each informant
+                                                                       researcher asked for clarifications when the purpose or
+was then formally observed and timed for a period of three
+                                                                       relationships with other events was not clear. For the last ten
+and a half days. The first half-day was general observation to
+                                                                       informants observed, each informant filled a form out at the
+understand the context of the informants’ work. Formal
+                                                                       end of the day in which they listed the different things they
+observations and activity timing were done over the next
+                                                                       worked on. Finally in the post-observation interviews, the
+three days for an average time of 25 hours, 42 minutes per
+                                                                       researcher validated the working spheres with the informant.
+person. Over 700 formal hours of observation were done.
+Long interviews were conducted after the observation to                Our data thus lists the start and stop time when an event
+discuss the informants’ activity management strategies, to             happened, a short description of the event, the list of people
+validate the working spheres, to inquire about further details         involved in the event and the artifacts used. Based on the
+of interactions, and to clarify observations.                          above additional information sources, we associated each
+                                                                       recorded event with a particular working sphere. This
+AN ANALYSIS OF FRAGMENTED WORK                                         association was also complemented with the analysis of other
+A central part of our effort was on identifying appropriate            documents collected (pictures, email, printouts, etc) and with
+units of work to analyze work fragmentation. We observed               the interviews. Although an effort was made to associate all
+that people were engaged in many different events across the           the events with particular working spheres this was not
+day (e.g. phone calls, composing emails, interacting with              always possible. For some events we lacked enough
+colleagues). We first coded our data as events defined as any          information to assign the event and these were categorized
+continuous use of a device or engagement in an interaction             into “unknown” working spheres.
+with other individuals [following 23]. We realized that
+clusters of events were related and oriented towards common            We distinguished when working sphere segments were
+purposes. Our analysis focused on how people switched                  completed and when they were interrupted. For phone and
+among those clusters or higher level units of work. We refer           face-to-face interactions, the end of a conversation marked
+to these higher level units of work as working spheres.                the end of the time devoted to that sphere if the individual
+Working spheres can be short term tasks such as fixing a               turned to some other sphere immediately after. When work in
+problem with a client’s application, preparing a proposal,             a sphere concerned interaction with artifacts or technology,
+routine checking of equipment, e.g. servers, or long term              end of work in a working sphere was determined by any
+                                                                       evidence that showed that the informant concluded work in
+projects, such as developing a new work process for the
+                                                                       that sphere. For example, with email use, the end of the time
+client, or the adoption of a quality program over months.
+Our analysis focused on how people switched among those                devoted to that sphere was the time that the email was sent if
+                                                                       the informant changed to work in another sphere. Self-
+
+
+                                                                 323
+CHI 2005 ‫ ׀‬PAPERS: Take a Number, Stand in Line (Interruptions & Attention 1)                     April 2–7 ‫ ׀‬Portland, Oregon, USA
+
+
+interruptions were distinguished from finished work in a                 working sphere context are “disruptions”. Some informants
+sphere in two ways: for interactions, when conversations                 described that interruptions outside of their current working
+were stopped abruptly, and for artifact and technology use,              sphere involve a high cost in remembering what they were
+when work was abandoned in the middle of an event, such as               doing in their interrupted task. In some cases, informants
+documents left on the screen in the middle of typing them.               described that they work on another task until they remember
+                                                                         what they were originally doing, e.g., “You forget what you
+RESULTS ON FRAGMENTED WORK                                               are working on so you kind of do something else for a while
+We first present an overview of work fragmentation of our 24             and then you remember what you were working on.” Another
+informants, focusing on working sphere segment length and                informant explained that an interruption outside of his
+interruptions. Our informants worked in an average of 11.7               working sphere can lead him to do redundant work, “I forget
+(sd=2.4) different working spheres. Based on the                         what I was testing and I might retest the same thing. I’m just
+ethnographic observation, we realized that work                          repeating….It happens a lot to me.” A developer explained
+fragmentation could depend on whether one is accountable                 that interruptions outside of his current working sphere that
+for their work. We coded working spheres as central when a               involve solving critical problems particularly impose a high
+person has main responsibility and is accountable for it and             cost, “…you have your mind on something else and then you
+as peripheral when she is not accountable for it. In the latter,         have to shift completely. It is disruptive in the sense that if we
+one generally provides expertise or solves a problem for a               are going to leave it unattended for a period of time and by
+colleague. Peripheral spheres were usually treated in an                 the time you come back to it your frame of mind is completely
+informal basis, either by phone or face to face. We divided              different …” Thus, our data suggests that interruptions that
+the working spheres into three basic categories: central,                lead one to switch working spheres are in general far more
+peripheral, and “other”. Work in the “other” category                    disruptive than interruptions that concern one’s current
+included metawork2 (avg. of 7.96% of the day), personal                  working sphere, which are even considered beneficial.
+work (avg. of 15.24% of the day: lunch, personal breaks,
+etc.) and “unknown” (avg. of 10.99% of the day: events not               In analyses in this paper we focus only on interruptions
+able to be categorized). From the ethnographic observations,             outside of one’s current working sphere context, as they are
+metawork rarely was interrupted. As we are more interested               more likely to negatively affect work. First, we found that
+in working spheres directly related to work, we focus our                57.1% of all informants’ working sphere segments were
+analysis on the categories of central and peripheral working             interrupted, on the average. In considering central and
+spheres only. Throughout their workday people switch                     peripheral working spheres only, about 83% of people’s
+constantly between central and peripheral working spheres                working spheres concerned work that was central to them,
+                                                                         and 17% was peripheral. Central working sphere segments
+(as well as metawork and personal work).
+                                                                         were interrupted to a higher proportion than peripheral
+An overview of interruptions.                                            working sphere segments X2(1)=44.91, p<.001, (Table 1).
+Our observations suggest that interruptions may be beneficial            WS Type         Interrupted    Not Interrupted       (Row avg)
+or detrimental depending on the context. Three main types of
+                                                                         Central WS         60.3%            39.7%              100%
+situations are associated with interruptions as negative
+                                                                                           (87.5%)          (76.8%)            (82.9%)
+events. First, the informants describe that interruptions that
+                                                                         Peripheral         41.7%            58.3%              100%
+occur during tasks that require a lot of concentration, e.g.             WS                (12.5%)          (23.2%)            (17.1%)
+solving a production issue, are disruptive. Second,
+                                                                         Column avg        (57.1%)          (42.9%)             100%
+interruptions that result in losing one’s train of thought for
+the task-at-hand are detrimental, especially when                        Table 1. Type of working sphere related to percent of
+interruptions occur when it is not a natural breaking point for          interruptions. Data in parentheses are % within
+a task. Third, the informants explain that interruptions are             interrupted/not interrupted. N=2246.
+most disruptive when they lead them to shift working                     We next analyzed the type of interruption. Most interruptions
+spheres. The last two situations suggest that when                       are due to metawork, personal, and “unknown” (45.3%),
+interruptions concern content of a different working sphere              followed by central working spheres (36.3%), and then
+than one is currently in, then they are disruptive. One                  peripheral working spheres (18.3%). “Other” interruptions
+manager referred to interruptions that concern his current               were mostly due to personal work.
+working sphere as “interactions” as they help him think about
+his task whereas interruptions that lead him to switch his               An overview of time length of working sphere segments.
+                                                                         The average length of time that the informants spent in
+2
+                                                                         central and peripheral working spheres was 11 min. 4 sec.,
+  Metawork refers to the high-level management of one’s                  (sd=18 min. 9 sec.) before switching to another working
+work, e.g. coordination, checking activities, organizing email           sphere or being interrupted.
+(as opposed to reading and answering it), organizing one’s
+desktop, and catching up with teammates if absent.                       We compared the average length of working sphere segments
+                                                                         when interrupted and not. As we were concerned about the
+                                                                         lack of independence within subjects, we included subjects as
+
+
+                                                                   324
+CHI 2005 ‫ ׀‬PAPERS: Take a Number, Stand in Line (Interruptions & Attention 1)                      April 2–7 ‫ ׀‬Portland, Oregon, USA
+
+
+a factor. First, segments that were interrupted lasted                    overheard problems which drew them in. For example,
+significantly longer (12 min. 40 sec., sd=14 min. 33 sec.)                hearing a neighbor work on a system problem led them to
+than those not interrupted (8 min. 58 sec, sd=14 min. 43                  check that part of the system that they were responsible for.
+sec.), F(1,1)=26.14, p<.001). We did find a significant                   In other cases, our informants described that they were on
+difference between subjects, F(1,23)=2.31, p<.001. This                   alert to offer their expertise to their colleagues, e.g., “I think
+result shows that there are differences in work fragmentation             my ears are always [alert] to listening to something because
+behavior among people. Further, the longer one works in a                 I find that my exposure….almost in every case I can lend
+working sphere segment, the longer is the interrupting event              something that some of the other people are not exposed to,
+(r=.132, N=1281, p<.001.                                                  you know they know their knowledge base, but once it passes
+                                                                          that boundary they are kind of fuzzy on that.”
+Thus, fragmentation of work is a way of life for these
+information workers. The majority of working spheres are                  Table 2 shows interruptions broken down by their source.
+interrupted and people spend about 11 minutes in a working                Most interruptions for both collocated and distributed people
+sphere before switching to another. The irony of the work                 are due to “other” working spheres. The distributions are
+day is that the longer people spend in a working sphere, (and             significantly different, X2(2)=12.88, p<.002. Collocated
+thus we assume become more involved in it) the more likely                people experience slightly more interruptions from peripheral
+it is to be interrupted and the longer is the interrupting event.         work whereas distributed people experience more
+                                                                          interruptions from “other” types of work. This could be due
+Collocated and distributed work and fragmentation                         to collocated people having more people around them who
+Considering that an open office environment affords people                can interrupt them with issues not related to their central
+the opportunity to “talk through the walls” and quickly stop              work whereas distributed people may feel freer to take
+into others’ cubicles, we hypothesized that collocated work               personal breaks.
+would be interrupted more frequently. We divided the
+                                                                          Interruption       Collocated     Distributed         Total /
+informants into two categories: collocated, where their office            Source                                              (row avg)
+exists in a cubicle in an open office environment and where
+                                                                          Central WS            58.4%         41.6%             100%
+they had at least one of their team-members sitting in an
+adjacent cubicle, i.e. sharing a wall, or distributed, where                                   (21.3%)       (20.1%)           (20.7%)
+their workspace was physically separated from their                       Peripheral WS         67.2%         32.8%             100%
+teammates by being at a distance from them in an enclosed                                      (12.3%)        (8.0%)           (10.5%)
+office, across the room, or in another building. Fifteen people           Other      WS*        55.0%         45.0%             100%
+were collocated and nine were distributed.                                (personal,           (66.4%)       (71.9%)           (68.8%)
+                                                                          metawork,
+We found that there was a significant effect of collocation:              unknown)
+collocated people spend longer, on average, in a working                  Column avg.         57.0%%
+                                                                                                        3
+                                                                                                              43.0%             100%
+sphere (11 min. 56 sec., sd=15 min. 33 sec.) compared to
+distributed people (9 min. 56 sec., sd=13 min. 29 sec.) before            Table 2. Percent of collocated/distributed interruptions
+being interrupted or switching working spheres,                           according to the nature of the interruption. Data in
+t(1,2244)=3.21, p<. 001.                                                  parentheses are percentages within collocation. N=1282
+
+We maintain that fragmentation of work concerns both                      As managers, analysts and developers were fairly evenly
+working sphere length and interruptions. We found that                    distributed over collocated/distributed settings, work role was
+collocated people experience significantly more of their                  not an explanation for these results. We found no effect of
+working sphere segments interrupted (62.9%) compared to                   role in working sphere length F(1,2)=.862, p<.42, and no
+distributed people (49.3%), X2(1)=42.14, p<.001. Therefore,               interaction of collocation and role, F(1,2)=1.31, p<.27. We
+though collocated workers spend longer stretches in working               found no significant difference in amount of interruptions
+spheres, they are more likely to switch them due to                       among work roles (X2(2)=.98, p<.61).
+interruptions as opposed to completing work in them. Our                  Thus, collocated people work longer in working spheres
+observations can help to explain this. Awareness of when to               before switching. However, when collocated, people are
+interrupt collocated colleagues due to overhearing them was               more likely to interrupt each other than when distributed. The
+commonly observed and described during interviews.                        types of interruptions that collocated and distributed people
+Informants listened to what their cubicle neighbors were                  experience are slightly different.
+doing and avoided interrupting when they were busy. When
+in doubt, they asked if they could interrupt. However, when
+they sensed that their colleagues were available, then they
+interrupted them. Sometimes people who did not need to be
+involved in a situation became involved through their                     3
+                                                                             Note that this table considers the breakdown of
+collocation. The open office environment affords a culture of
+                                                                          interruptions only in contrast to the previous result which
+participation in solving problems even when people are not
+directly asked for advice. The informants described that they             shows the proportion of working spheres interrupted.
+
+
+                                                                    325
+CHI 2005 ‫ ׀‬PAPERS: Take a Number, Stand in Line (Interruptions & Attention 1)                    April 2–7 ‫ ׀‬Portland, Oregon, USA
+
+
+Types of interruptions: external and internal                           resumed on the same day in order to make a uniform
+Interruptions can be external or internal, as we described              comparison among all informants. Some people were
+earlier. There is a significant difference of internal/external         observed on nonconsecutive days because they were out a
+interruptions and work role. Managers are more likely to                day, or because the weekend intervened. We also do not
+experience external interruptions (59.2%) than internal                 consider interrupted work during the last work hour, as there
+interruptions (40.8%), whereas analysts and developers                  is not much chance for it to be resumed that day.
+experience internal and external interruptions about equally,
+X2(2)=.10.1, p<.006.                                                    77.2% of interrupted work was resumed on the same day.
+                                                                        What type of work was most likely to be resumed? Not
+One reason that could explain internal interruptions is that            surprisingly, of all interrupted work resumed, people’s
+they occur when people need a problem to incubate. The                  interrupted central working spheres were about twice as
+nature of work for analysts and developers is generally                 likely to be resumed on the same day (82.0%) compared to
+intellective and when a problem is difficult to solve,                  people’s interrupted peripheral working spheres (43.8%),
+incubation could help. As one analyst described, “And even              X2(1)=116.46, p<.001. We also found that the length of time
+though you are not really spending time on [a problem], you             that people spent on a working sphere that was interrupted
+are still sort of thinking about it in the background and               bore no relation to whether the work was resumed later that
+understanding the relationships between different pieces of             day or not (t(1280)=.31, p<.76).
+data or different business processes.” In contrast, managers,
+who experience a higher proportion of external interruptions,           When people did resume work on the same day, it took an
+generally perform delegation and coordination activities.               average length of time of 25 min. 26 sec (sd=54 min. 48
+Further, managers generally interact in a wider circle of               sec.). This may seem like a relatively short amount of time,
+people than analysts and developers and therefore the                   but it is also important to consider that before resuming work,
+chances are greater that they experience external                       our informants worked in an average of 2.26 (sd=2.79)
+interruptions outside of their current working sphere,                  working spheres. Thus, people’s attention was directed to
+compared to analysts and developers.                                    multiple other topics before resuming work. This was
+                                                                        reported by informants as being very detrimental. In some
+  interruption       Internal        External          Total            cases, the physical or desktop environment is restructured,
+     Source                                         (row avg.)
+                                                                        which makes it more difficult to rely on cues to reorient one
+Central WS            38.0%           62.0%           100%              to their interrupted task. For example, a blinking cursor at the
+                     (28.8%)*        (43.3%)         (36.3%)            end of the last typed word can enable one to immediately
+                                                                        reorient to that document, whereas if other windows have
+Peripheral WS         20.0%           80.0%           100%              been opened, it can be hard to remember even which
+                      (7.6%)         (28.2%)         (18.3%)            document had been worked on.
+Other         WS      67.3%           32.7%           100%              We found a trend that showed more externally interrupted
+(personal,
+metawork,            (63.6%)         (28.5%)         (45.3%)            working spheres are resumed on the same day (53.3%)
+unknown)                                                                compared to internally interrupted working spheres (47.6%),
+                                                                        X2(1)=2.97, p<.09. Externally interrupted working spheres are
+Column avg.           52.0%           48.0%           100%
+                                                                        resumed on the average in a shorter time (22 min. 37 sec.,
+Table 3. Percent of internal/external interruptions according           sd=53 min. 52 sec.) than internally interrupted working
+to the source of the interruption. Data in parentheses are              spheres, (29 min. 1 sec., sd=55 min. 43 sec.), t(987)=1.92,
+percentages within internal/external. N=1282.                           p<.055.
+There is no significant difference in internal or external              Our observations revealed that sometimes people resumed
+interruptions for type of working sphere, X2(1)=.14, p<.70, or          interrupted working spheres on their own. Other times
+for collocated/distributed, X2(1)=.94, p<.76. Surprising to us,         interrupted working spheres were brought to the attention of
+there is no difference between the length of time spent in              the informant, e.g. through phone calls, or by people entering
+working spheres that were internally or externally                      their cubicle speaking about the work. We coded the data
+interrupted, t(1290)=1.29, p<.20.                                       into two types of work resumption: externally-initiated
+                                                                        resumption, where three main kinds of interactions occurred
+Table 3 shows interruption type in relation to the source of            that led people to resume work: phone calls, people showing
+the interruption. Most internal interruptions are due to                up in the cubicle, or people in adjacent cubicles talking to
+personal, metawork or unknown working spheres (63.6%)                   them “through the wall”, and self-initiated resumption where
+whereas most external interruptions are due to work related             no evidence was observed that another interaction was
+to central working spheres (43.3%), X2(2)=179.24, p<.001.               associated with the resumption of work. Though there may
+                                                                        be events in the environment that lead people to resume work
+Resumption of interrupted work
+                                                                        (e.g. overhearing through the cubicle wall), we cannot say
+In this section we examine the resumption of interrupted
+                                                                        whether these led to work resumption so we coded these as
+work. We only consider work that was interrupted and
+                                                                        self-initiated. Of interrupted work that was resumed on the
+
+
+                                                                  326
+CHI 2005 ‫ ׀‬PAPERS: Take a Number, Stand in Line (Interruptions & Attention 1)                      April 2–7 ‫ ׀‬Portland, Oregon, USA
+
+
+same day, only a small proportion was due to externally
+initiated resumptions (9.9%) compared to work that was
+                                                                          Effect      Time spent in WS               Interruptions
+resumed by one’s self (90.1%). The amount of time before                                                 57% of WS interrupted
+                                                                                       11 min. before
+working spheres were externally resumed was significantly                              switching
+                                                                       Overview                          Central work interrupted by higher
+longer (61 min. 37 sec., sd=95 min. 11 sec.) than working                              Avg. of 11.7      proportion
+spheres that were self-resumed (21 min. 28 sec., sd=46 min.                            different working Most interruptions due to personal
+47 sec.), t(987)=7.05, p<.001. Thus, people are more likely to                         spheres
+                                                                                                         work
+resume work on their own and to do it faster than when                                 No effect of work
+interactions with others lead them to do it.                                           role              No work role effect
+
+The length of time in a working sphere later affects one’s                                                 Collocated have more interruptions
+tendency to resume work in it if it is interrupted. People             Collocation/    Collocated          Most interruptions for both
+worked significantly longer in working spheres that were               Distribution    spend longer in     colloc./distr. due to personal work
+interrupted and later self-resumed (12 min. 59 sec. sd=15                              WS than             Collocated more likely to be
+                                                                                       distributed
+min. 4 sec.) compared to those that were externally resumed                                                interrupted from peripheral work;
+(8 min. 58 sec, sd=10 min. 22 sec.), t(988)=2.58, p<.01.                                                   distributed more likely to be
+                                                                                                           interrupted by personal work
+A higher proportion of interrupted working spheres are
+resumed on the same day when people are distributed                                                        Most internal interruptions due to
+                                                                                                           personal WS; most external
+(82.1%) compared to when people are collocated (74.3%),                Effect of       No difference in
+                                                                                                           interruptions due to central WS
+X2(1)=10.42, p<.001. Collocated workers showed a trend to              type of         WS time due to
+                                                                       interruption    internal/external   Managers have more external
+resume work more due to externally-initiated resumption                                interruptions       interruptions; no difference for
+(11.2%) compared to distributed workers (7.9%), X2(1)=2.81,                                                analysts/developers
+p<.09. Thus, distributed people are more likely to resume
+work in general, and to do so specifically through self-                                                   77% of work resumed on same day
+initated resumption, compared to collocated people.                    Resumption      People worked       Distributed most likely to resume
+                                                                       of              longer in           work
+                                                                       interrupted     working spheres
+Work fragmentation during the work day                                 work            that were           Avg. of 2.3 intervening WS before
+We next looked at how work is fragmented in the morning                                interrupted and     resumption
+versus the afternoon. Based on an examination of the data                              self-resumed        More externally interrupted WSs
+which showed few working spheres that occurred between                                                     resumed, and resumed faster
+noon and 1 p.m. when most went to lunch, we divided the                                                    More interrupted WS self-resumed
+data into morning (until 12 noon) and afternoon (after 1                                                   and resumed faster
+p.m.). We did not consider data between noon and 1 p.m.                                                    Distr. work resumed faster by self
+One informant who began work at 5 a.m. was eliminated
+from the analysis as an outlier.                                                       WS in a.m. last     No diff in amt. of interruptions
+                                                                       Time of day     shorter than in
+First, there were no significant differences between numbers                           p.m.
+of interruptions that occurred in the morning or afternoon,
+X2(1)=1.23, p<.27. However, working spheres in the morning             Table 4. A summary of results for work fragmentation.
+(10 min. 72 sec., sd=12 min. 56 sec.) had a significantly
+shorter duration than in the afternoon (14 min. 40 sec., sd=16         DISCUSSION
+min. 14 sec.), before being interrupted or switching to                In this paper we have presented data that shows that our
+another working sphere, t(1191)=4.71, p<.001.                          informants’ work is very fragmented. Our broader concern is
+                                                                       to argue that these results demonstrate a paradox in IT
+These differences in the duration of the working spheres over          support: current IT is designed around supporting distinct
+the course of the day can be due to a conscious effort by              applications that relate to separate events (word documents,
+informants to postpone work that demands more                          spreadsheets, etc.). Yet this design paradigm does not
+concentration. As one informant explained, “You know, I                consider that such separate events are part of higher level
+have some tasks that require a large amount of                         units of work that appear cohesive to information workers.
+concentration. I usually put those at the end of the day               When a working sphere is fragmented it is not only that an
+because you get fewer interruptions…”                                  event is shortened or interrupted, but rather that a larger
+                                                                       framework of work is disconnected.
+Summary of work fragmentation results
+Table 4 shows a summary of the results as they relate to our           Our study has shown that context determines whether
+defined two components of work fragmentation: length of                interruptions are considered to be beneficial or detrimental.
+time in a working sphere and interruptions.                            In general, we found that interruptions that occur outside of
+                                                                       one’s current working sphere context are disruptive as they
+                                                                       lead one to (sometimes radically) shift their thinking. In
+
+
+
+                                                                 327
+CHI 2005 ‫ ׀‬PAPERS: Take a Number, Stand in Line (Interruptions & Attention 1)                   April 2–7 ‫ ׀‬Portland, Oregon, USA
+
+
+contrast, interruptions that concern one’s current working              We found that people who resumed interrupted events on
+sphere are considered helpful.                                          their own worked on these significantly longer than when
+                                                                        external influences led to task resumption. This result is
+We have argued that work fragmentation consists of two
+                                                                        consistent with the Zeigarnik effect which found that people
+components: length of time spent in a working sphere and
+                                                                        who worked longer on a task were more invested in it and
+interruptions. Though others have focused on interruptions
+                                                                        more likely to voluntarily return to the task to complete it
+during the work day [4,7,16], interruptions are just half the
+                                                                        [25]. This suggests that external technological “reminders”
+story. We found that even when people are not interrupted,
+                                                                        could prove useful when people are interrupted after working
+they spend short amounts of time in a working sphere before
+                                                                        only brief periods.
+switching to another. We cannot fully explain why people
+move on to other working spheres quickly even when there is
+                                                                        Technology support for fragmented work
+no evidence of an interruption. Our best interpretation from            Two decades ago Bannon et al. [2] suggested a set of
+our observations is that people are responding to the external          requirements for information technology to support
+demands in the workplace. They are continually juggling                 multitasking including providing fast task-switching and the
+their priorities according to the work context. When the work           easy retrieval of mental context. Our work expands these
+context changes, some tasks may take higher priority and                requirements for multi-tasking. We suggest three main
+workers switch tasks to adapt to these conditions. Most                 directions for supporting multi-tasking behavior: 1)
+informants report though that they prefer to complete one               interruptions ideally should match the current working sphere
+task before moving on to another.                                       in order to provide benefits instead of disruptions, 2) one
+Our informants experienced a majority of their working                  should be able to easily and seamlessly switch between tasks,
+spheres interrupted (57%). We found that most work is                   and 3) interrupted tasks should be easily recoverable by
+resumed on the same day (77%), in contrast to [16] who                  preserving the state of the task when it was interrupted and
+found that only 55% of work was resumed immediately. For                by providing cues for reorienting to the task.
+our result, we looked at a broader time span of the whole day.          The requirements of Bannon et al. influenced the
+The pattern shows that people resume work after first turning           development of systems along two distinct approaches:
+to work in more than two other working spheres. This                    providing support for group and individual multi-tasking.
+suggests a fairly high cognitive cost to resume work, as                Neither approach truly facilitates the fast switching of tasks
+people are distracted by multiple other topics, and sometimes           and recovery of interrupted tasks though the individual-
+even nested interruptions. Our informants report that this can          oriented systems support this better. The group systems
+result in redundant work as they reorient.                              provide awareness of where co-workers are located in the
+We are aware of no other study that has systematically                  virtual space of the system, which allows users to know
+investigated the difference between interruption type.                  what working sphere a co-worker is currently involved in.
+Working spheres interrupted externally tend to be more likely           None of these approaches provide cues for reorienting after
+resumed, and to be resumed faster. People may have been                 an interruption.
+more involved in working spheres that were externally                   Group-oriented systems include TeamRooms [21] and Orbit
+interrupted. Internal interruptions may be more in people’s             [12]. In both systems the virtual spaces are populated with
+control, e.g. if people take a break to let a problem incubate.         generic artifacts that all members of the group use. For
+Thus, if people were more involved in a working sphere                  TeamRooms, individual rooms may be created for a more
+when externally interrupted, then they may be more likely to            personalized set of artifacts, but the user must then manage
+try to resume work in these. Studies of managers’                       multiple rooms instead of one. Orbit allows users to
+interruptions are comparable to our coded external                      selectively hide unnecessary artifacts alleviating that
+interruptions [7,13,23]. However, in other work roles                   problem, but its drawback is that the individual view
+(developers and analysts), people were just as likely to
+                                                                        contains the artifacts from every “locale” the user is
+interrupt themselves as to be externally interrupted. These
+                                                                        involved with.
+results suggest that the type of task (intellective) may
+influence the nature of interruptions.                                  Individual-oriented approaches to supporting multi-tasking
+                                                                        include GroupBar [22], UMEA [10], TaskMaster [3],
+We expected that collocated colleagues in an open office                Kumira[11] and TaskGallery [19]. GroupBar, which is
+environment would experience more interruptions, which our              basically an updated version of the Window’s TaskBar,
+results showed. However, they also worked longer stretches              does not provide persistence of rearranged items after
+in working spheres before switching. One explanation from               computer shut-down. TaskGallery appeared to be the most
+observations is that colleagues in an open office environment           adept at supporting fast task-switching. Using a 3D
+are more aware of when to wait for natural breaking points              metaphor each individual task is stored as a separate picture
+before interrupting others, e.g. when hearing through the               in a gallery. The order of the windows within each picture
+cubicle wall that someone has finished a phone call. The
+                                                                        is maintained between sessions.
+problem with distributed colleagues is that their natural
+breaking points are not known.
+
+
+                                                                  328
+CHI 2005 ‫ ׀‬PAPERS: Take a Number, Stand in Line (Interruptions & Attention 1)                     April 2–7 ‫ ׀‬Portland, Oregon, USA
+
+
+We propose that systems should provide both fully                        The systems described earlier in this section for supporting
+customizable, individual, project-specific views as well as              multi-tasking impose a very rigid scheme to present
+providing awareness information on co-workers’ virtual                   information associated with activities (e.g. by contact, by
+locations. We believe that the focus should be on                        application, by date). Our study suggests instead that
+personalized workspaces with consistent naming                           technology support for fragmented work should move
+conventions for working spheres so that the awareness                    beyond such rigid displays of information. Systems need to
+information remains easily understandable. It is important               provide flexible views of resources in a working sphere:
+that colleagues clearly understand when an interruption                  enabling the working sphere to be viewed from the
+might be disruptive, i.e. when it does not match the current             perspective of the people involved or the last action
+working sphere context. We also propose that systems                     performed in it. These flexible views can help people reorient
+should go one step further and provide a tag along with the              themselves fast by providing different types of cues to
+users’ virtual location, reflecting what kind of interruptions           “enter” the working sphere state. Informants in our study
+the user is willing to tolerate when involved in that                    were faced with multi-tasking under time pressure. They
+particular working sphere. For example, tags could be “any               needed to constantly reevaluate their priorities of what work
+interruptions,” “no interruptions,” or “only interruptions               must be accomplished next. Therefore, research needs to
+related to this working sphere.” The goal of such                        focus on what types of cues can best help people reorient to
+awareness is to minimize disruptive interruptions while still            their interrupted working spheres.
+allowing beneficial interruptions or “interactions” to filter
+through. Proposals for systems to filter interruptions [7,16]            Limitations and generalizability of the study
+have treated all interruptions as the same. Our study                    Our study has several limitations. First, it is very difficult to
+suggests that interruptions outside of one’s current working             code activities during ethnographic observation without a
+sphere require more careful filtering as our informants view             video record (recording was not permitted). Though we
+them as disruptive.                                                      specified strict coding criteria, e.g. for evidence of an
+                                                                         indication that a working sphere was internally interrupted, it
+We found an average of more than two intervening working                 is possible that some internal interruptions were really
+spheres before an interrupted activity is resumed. We                    working spheres in which people finished the task. We used
+observed that in some cases these intervening working                    multiple sources of data to verify our coding (e.g. speaking
+spheres lead people to restructure their environment, e.g. they          with the informants), but the possibility of errors still remain.
+open new documents, or close applications. The user requires             Our large number of observations should reduce the effect of
+cognitive effort not only to reconstruct the state of the                coding errors. Even with errors in coding interruptions and
+activity that was interrupted, but also to do so in a work
+                                                                         working sphere type, this does not change our basic result:
+setting that often has changed. This observation suggests that
+                                                                         that people spend short amounts of time in working spheres
+the number of intervening activities after an interrupted task           before switching. We are fairly confident that the assignment
+needs to be considered in helping one reorient to the task.              of events to working spheres is relatively accurate due to
+The more intervening tasks, the more information needs to be             using multiple sources of information to assign them and
+preserved about the state of the interrupted task.                       validate them. Thus, we feel our basic result still holds that
+Developing such technical support concerns the effort that a             people switch rapidly between different working spheres.
+user is willing to invest in defining clusters of events and             The ethnographic observation methodology has other
+resources for working spheres. From interviews and                       limitations. There are measurement errors, but we assume
+observations we can say that our informants have proven that             these are normally distributed. The observer cannot be the
+they are quite adept at defining their working spheres. We               source of interruptions and must wait until the end of the day
+must consider though how it can be done during real work.                to ask clarifications. We were careful to assign questionable
+Recently we have been experimenting with a prototype
+                                                                         events in the unknown category. Despite the tradeoff of
+which allows fast-retrieval of computer resources associated
+                                                                         limitations, we do feel our methodology of systematically
+with working spheres and recuperation of the screen layout               measuring people’s activities with a timer provides useful
+[15]. The authors found that six users that have used the                information about people’s work patterns. We believe that
+system for a period of two months were able to cluster                   one observer is sufficient given the nature of the timing
+together resources of a working sphere. The users recognized             methodology that was used.
+the benefits from fast-retrieval of a working sphere state as it
+was before switching. These preliminary results suggest it is            Another limitation is in the generalizability of the results. As
+feasible for users to define their working spheres as they are           we observed only one organization, we can only generalize
+created. We envision that this form of information                       our results to companies with similar characteristics: high
+organization is not any more difficult than organizing                   pressure firms where many different tools are integral to
+information into current file directories. We propose though             work, and where people manage multiple activities. Further
+that all information associated with a working sphere be                 research is needed to understand work fragmentation in other
+clustered together (emails, documents, spreadsheets,                     work environments.
+voicemail, etc.).
+
+
+                                                                   329
+CHI 2005 ‫ ׀‬PAPERS: Take a Number, Stand in Line (Interruptions & Attention 1)                 April 2–7 ‫ ׀‬Portland, Oregon, USA
+
+
+CONCLUSIONS                                                           10. Kraut, R. E., R. Fish, et al. (1993). Informal
+Our study has shown that fragmented work is common                        communication in organizations: form, function, and
+practice for our informants. We argue that two dimensions                 technology. In R. Baecker (Ed.) Groupware and
+must be considered for supporting the continuity of work that             Computer-Supported Cooperative Work. Morgan
+is fragmented: how long people spend in a working sphere                  Kaufmann, 1993, 287-314.
+and interruptions. Our data argues that support needs to
+                                                                      11. MacIntyre, B., E.D. Mynatt, S. Voida, K.M. Hansen, J.
+consider the continuity not of separate events but rather of
+                                                                          Tulio, and G.M. Corso. (2001). Support For multitasking
+the state of work in a larger cohesive framework: people’s
+                                                                          and background awareness using interactive peripheral
+working spheres. Interruptions should be viewed according to
+                                                                          displays. User Interface Software and Technology 2001.
+whether their content matches one’s current working sphere.
+                                                                      12. Mansfield, T., Kaplan, S., Fitzpatrick, G., Phelps, T.,
+We plan in further research to pursue what leads people to                Fitzpatrick, M. and Taylor, R. Evolving Orbit: A progress
+internally interrupt themselves. We also plan to develop an               report on building locales. Proceedings of Group’97,
+index of work fragmentation which can benefit technology                  ACM Press, 241-250.
+support. We are continuing to collect observations in other
+organizations to better generalize our results.                       13. Mintzberg, H. (1973). The Nature of Managerial Work.
+                                                                          Englewood Cliffs N.J., Prentice Hall.
+ACKNOWLEDGMENTS                                                       14. Miyata, Y. and Norman, D.A. (1986). Psychological
+We wish to thank Aimee Strang for her help. This research                 issues in support of multiple activities, in User Centered
+was supported by the National Science Foundation under                    System Design, D.A. Norman and S.W. Draper (Eds).
+grant no. 0093496 and the Center for Research on                          Lawrence Erlbaum, Hillsdale, N.J., 265-284.
+Information Technology and Organizations.                             15. Morteo, R.; Gonzalez, V.; Favela, J., Mark, G. (2004).
+                                                                          Sphere Juggler: fast context retrieval in support of
+REFERENCES                                                                working spheres. Proc. of IEEE Mex. Inter’l Conference
+1. Bannon, L., A. Cypher, S. Greenspan, and M. Monty.                     in Computer Science 2004, IEEE Press, 361-367.
+   (1983). Evaluation and Analysis of Users' Activity
+   Organization. Proc. Of CHI’83, 54-57.                              16. O’Connail, B. & Frohlich, D. (1995). Timespace in the
+                                                                          workplace: Dealing with interruptions. Proc. Of CHI '95
+2. Belloti, V., N. Ducheneaut, M. Howard,and I. Smith.
+                                                                          Extended Abstracts, 262-263.
+   (2003). Taking email to task: the design and evaluation of
+   a task management centered email tool. Proceedings of              17. Olson, G. M., & Olson, J. S. (2000). Distance Matters.
+   CHI ‘03, 345-352.                                                      Human-Computer Interaction, 15(2/3), 139-178.
+3. Bluedorn, A. C., C. F. Kaufman, et al. (1992). "How                18. Perlow, L.A., The time famine: Toward a sociology of
+   many things do you like to do at once? An introduction to              work time. Admin. Science Quarterly, 44, (1999), 57-81.
+   monochronic and polychronic time." Academy of                      19. Robertson, G., M. Van Dantzich, D. Robbins, M.
+   Management Executive 6(4), 17-26.                                      Czerwinski, K. Hinckly, K. Risden, D. Thiel. (2000). The
+4. Czerwinski, M., Horvitz, E., and Wilhite, S. (2004). A                 Task Gallery. Proceedings of CHI’00, 494-501.
+   diary study of task switching and interruptions.                   20. Rouncefield, M., Hughes, J., Rodden, T., and Viller, S.
+   Proceedings of CHI 2004, 175-182.                                      (1994). Working with “constant interruption”: CSCW and
+5. DiMaggio, P. (2001). The Futures of Business                           the small office. Proc. CSCW’94, 275-286.
+   Organization and Paradoxes of Change. In The Twenty-               21. Roseman, M. and Greenberg, S. (1996). TeamRooms:
+   First-Century Firm: Changing economic organization in                  Network Places for Collaboration. Proceedings of ACM
+   international perspective. Princeton U Press, 210-244.                 CSCW'96, ACM Press, 325-333.
+6. Gonzalez, V. and Mark, G. (2004). “Constant, Constant,             22. Smith, G., P. Baudisch, G. Robertson, M. Czerwinski, B.
+   Multi-tasking Craziness”: Managing Multiple Working                    Meyers, D. Robbins, and D. Andrews. (2003). GroupBar:
+   Spheres. Proceedings of ACM CHI’04, 113=120.                           The TaskBar Evolved. Proc. of OZCHI’03.
+7. Hudson, J.M., Christensen, J., Kellogg, W.A. and                   23. Sproull, L.S., The nature of managerial attention.
+   Erickson, T. “I’d be overwhelmed, but it’s just one more               Advances in Information Processing in Organizations, 1,
+   thing to do:” Availability and interruption in research                (1984), 9-27.
+   management. (2002). Proceedings of CHI 2002, 97-104.
+                                                                      24. Vahtera, J. (2004). Finnish Institute of Occupational
+8. Jackson, M. (2002). What’s Happening to Home?                          Health. The New York Times, Sept. 6, 2004.
+   Balancing Work, Life, and Refuge in the Information Age.
+                                                                      25. Zeigarnik, B. (1938). On finished and unfinished tasks, in
+   Notre Dame: Sorin.
+                                                                          W. D. Ellis, A Source Book of Gestalt Psychology, NY:
+9. Kaptelinin, V. (2003). UMEA: Translating interaction                   Harcourt-Brace.
+   histories into project context. Proc. CHI ‘03, 353-360.
+
+
+
+
+                                                                330
+

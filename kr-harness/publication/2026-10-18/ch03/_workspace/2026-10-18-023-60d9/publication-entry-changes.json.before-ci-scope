@@ -1,0 +1,189 @@
+{
+  "entry": 23,
+  "status": "unadopted_proposal",
+  "base": "strict-entry.md",
+  "base_sha256": "4b7883fdd2ea11783cae2742bd1e244e1eedeae94885154e6acb20bcbf04f181",
+  "proposal_sha256": "97bb31faf9d7345fc86fd9faa73551094ee08d33c98418f1ba075cc6eb261417",
+  "verified_at": "2026-10-18T15:14:57.474497+00:00",
+  "review_inputs": [
+    "../../content-audit.md",
+    "../../editorial-decisions.json",
+    "../../../publication-author-constraints.md",
+    "../../../../CONTRACT.md"
+  ],
+  "field_changes": [
+    {
+      "field": "title",
+      "before": "화가 났을 때 물건 부수기, 샌드백 치기, 달리기로 풀지 마세요. 먼저 몸을 느리게 하세요",
+      "after": "화가 나면 물건 부수기·샌드백 치기·달리기보다 몸부터 진정시키세요",
+      "reason": "권고를 몸 진정시키기에 두고 달리기 단일기법의 보편적 무효 단정을 피합니다. 물건 부수기·샌드백 치기·달리기 앵커 보존."
+    },
+    {
+      "field": "쉽게",
+      "before": "샌드백 치기, 물건 던지기, 한 바퀴 달리기는 몸을 더 흥분시킵니다. 이런 발산은 대체로 화를 가라앉히지 못합니다. 느린 호흡, 마음챙김, 명상은 몸을 가라앉힙니다. 화와 손찌검 욕구도 뚜렷이 줄입니다.",
+      "after": "화가 나면 천천히 숨 쉬며 몸부터 진정시키세요. 몸을 진정시키는 활동은 화와 공격성을 줄였습니다. 몸을 더 흥분시키는 활동은 평균적으로 효과가 없었습니다.",
+      "reason": "세 문장 일상말로 중앙 비교만 남깁니다. 각성증가기법 전반의 평균으로 한정합니다."
+    },
+    {
+      "field": "이득",
+      "before": "연구 154건, 표본 184개, 10,189명을 합친 메타분석입니다. 몸을 진정시키는 방법은 화와 공격성을 낮췄습니다. 심호흡, 마음챙김, 명상이 여기에 해당합니다. 효과 크기 g = -0.63, 95% 신뢰구간 -0.82 ~ -0.43. 성별, 인종, 나이, 문화가 달라도 결과는 일관됐습니다. 몸을 더 흥분시키는 방법은 전반적으로 효과가 없었습니다. 샌드백 치기, 조깅, 사이클이 여기에 해당합니다. 효과 크기 g = -0.02, 95% 신뢰구간 -0.13~0.09. 연구자는 감정 발산으로 화를 가라앉히지 못한다고 결론 내렸습니다. 한 바퀴 달리기도 화를 가라앉히지 못한다고 봤습니다.",
+      "after": "연구 154건, 독립 표본 184개, 10,189명을 합친 분석입니다. 몸을 진정시키는 방법은 화와 공격성을 낮췄습니다. 심호흡, 마음챙김, 명상이 여기에 해당합니다. 효과 크기 g = -0.63입니다. 95% 신뢰구간은 -0.82 ~ -0.43입니다. g는 서로 다른 연구의 효과를 같은 척도로 나타낸 값입니다. 음수는 화와 공격성이 줄어드는 방향입니다. 신뢰구간은 추정의 불확실성을 나타냅니다. 성별, 인종, 나이, 문화가 달라도 결과는 일관됐습니다. 몸을 더 흥분시키는 방법은 평균적으로 효과가 없었습니다. 샌드백 치기, 조깅, 사이클이 여기에 해당합니다. 효과 크기 g = -0.02입니다. 95% 신뢰구간은 -0.13~0.09입니다. 이 구간은 효과가 없다는 값인 0을 포함합니다. 방법별 결과는 다양하고 복잡했습니다. 조깅이 언제나 효과 없다는 뜻은 아닙니다. 연구 결과는 감정 발산이나 달리기를 분노 조절법으로 지지하지 않았습니다.",
+      "reason": "원초록 수치 보존. 평균 효과 미검출과 방법별 이질성을 구분하고 g 및 신뢰구간을 풉니다."
+    },
+    {
+      "field": "비고",
+      "before": "연구에서 측정한 대상은 화와 공격성입니다. 기력을 측정한 연구는 아닙니다. 이득을 시간 기준으로 분류한 사람은 지은이입니다. 싸움 한 번을 줄이면 뒷정리 한 번을 줄입니다. 화가 난 자리에서는 제22절 제8항(5분 반복 한숨)을 써보세요. 이 절 제17항(화가 나면 먼저 자리 뜨기)도 적용하세요. 달리기가 소용없다는 뜻은 아닙니다. 장기적으로는 기분 저하를 완화하는 데 효과가 있습니다. 제22절 제6항(기분이 나쁠 때는 걷거나 달리기)을 보세요. 다만 그 자리에서 화를 식히는 데는 맞지 않습니다. 화가 났을 때는 운전하지 마세요. 메시지를 보내거나 결정을 내리지도 마세요. 누군가 때리고 있다면 감정을 다루는 문제가 아닙니다. 먼저 자리를 뜨고 112에 신고하세요. 가정폭력을 당했을 때 할 일은 제8절(법적 말썽에 휘말리지 않기)에서 다룹니다.",
+      "after": "연구에서 측정한 대상은 화와 공격성입니다. 기력을 측정한 연구는 아닙니다. 이득을 시간 기준으로 분류한 사람은 지은이입니다. 싸움 한 번을 줄이면 뒷정리 한 번을 줄입니다. 화가 난 자리에서는 제22절 제8항(5분 반복 한숨)을 써보세요. 이 절 제17항(화가 나면 먼저 자리 뜨기)도 적용하세요. 달리기가 소용없다는 뜻은 아닙니다. 장기적으로는 기분 저하를 완화하는 데 효과가 있습니다. 제22절 제6항(기분이 나쁠 때는 걷거나 달리기)을 보세요. 다만 장기적인 기분 개선과 즉시 화를 식히는 효과는 다릅니다. 화가 났을 때는 운전하지 마세요. 메시지를 보내거나 결정을 내리지도 마세요. 누군가 때리고 있다면 감정을 다루는 문제가 아닙니다. 폭행 등 즉각적인 위험이 있으면 안전한 곳에서 112에 신고하세요. 가정폭력을 당했을 때 할 일은 제8절(법적 말썽에 휘말리지 않기)에서 다룹니다.",
+      "reason": "장기운동/즉시분노조절 구별과 안전경고 보존. 112를 즉각적 위험 조건으로 명확히 합니다."
+    },
+    {
+      "field": "출처",
+      "before": "Kjærvik SL, Bushman BJ (2024). A meta-analytic review of anger management activities that increase or decrease arousal: What fuels or douses rage? Clinical Psychology Review. <https://doi.org/10.1016/j.cpr.2024.102414>",
+      "after": "Kjærvik SL, Bushman BJ (2024). A meta-analytic review of anger management activities that increase or decrease arousal: What fuels or douses rage? Clinical Psychology Review. <https://doi.org/10.1016/j.cpr.2024.102414>；경찰청 112신고포털. <https://www.112.go.kr/>",
+      "reason": "경찰청 공식 신고포털 추가; DOI 집합 변화 없음."
+    }
+  ],
+  "primary_evidence": [
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:38518585%20AND%20SRC:MED&format=json&resultType=core",
+      "fetched_at": "2026-10-18T15:13:53.399908+00:00",
+      "sha256": "f9f734558eb95faf9401fcbca328ee82fa8f40fe205ebc3b8c7817e1480f5391",
+      "method": "HTTPS urllib TLS default verification",
+      "level": "primary article abstract in Europe PMC MED record",
+      "raw_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch03/_workspace/2026-10-18-023-60d9/source-evidence/primary-abstract-live.json",
+      "exact_quote": "Anger is an unpleasant emotion that most people want to get rid of. Some anger management activities focus on decreasing arousal (e.g., deep breathing, mindfulness, meditation), whereas others focus on increasing arousal (e.g., hitting a bag, jogging, cycling). This meta-analytic review, based on 154 studies including 184 independent samples involving 10,189 participants, tested the effectiveness of both types of activities. The results indicated that arousal-decreasing activities decreased anger and aggression (g = -0.63, [-0.82, -0.43]), and the results were robust. Effects were stable over time for participants of different genders, races, ages, and cultures. Arousal-decreasing activities were effective in students and non-students, in criminal offenders and non-offenders, and in individuals with and without intellectual disabilities. Arousal-decreasing activities were effective regardless of how they were delivered (e.g., digital platforms, researchers, therapists), in both group and individual sessions, and in both field and laboratory settings. In contrast, arousal-increasing activities were ineffective overall (g = -0.02, [-0.13, 0.09]) and were heterogenous and complex. These findings do not support the ideas that venting anger or going for a run are effective anger management activities. A more effective approach for managing anger is \"turning down the heat\" or calming down by engaging in activities that decrease arousal."
+    },
+    {
+      "url": "https://www.112.go.kr/",
+      "fetched_at": "2026-10-18T15:14:19.042102+00:00",
+      "sha256": "08ba79cd95200876e59652c56fa29220b48f6075b1d50c3d9823eb0b86315f16",
+      "method": "HTTPS default TLS verification",
+      "raw_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch03/_workspace/2026-10-18-023-60d9/source-evidence/police112-live.html",
+      "exact_quote": "국민 비상벨 112 / 전화 신고 / COPYRIGHT © 2024 BY 경찰청."
+    }
+  ],
+  "intentional_numerical_changes": [],
+  "intentional_scope_changes": [
+    "각성증가기법의 전반 평균 결과와 조깅 개별기법의 항상 무효를 구별",
+    "112 신고를 폭행 등 즉각적 위험 조건으로 한정"
+  ],
+  "doi_changes": {
+    "added": [],
+    "removed": [],
+    "reason": "기존 DOI 유지; 경찰청 비DOI URL만 추가"
+  },
+  "source_conflict": "직접 읽은 초록과 기존 숫자 사이 충돌은 발견하지 않았습니다.",
+  "correction_notice_check": "원문 전체 및 출판사 정정문은 직접 열람하지 않아 정정문 부재를 확정하지 않습니다.",
+  "limitations": [
+    "실제 열람은 원논문 초록이며 방법별 하위분석표와 원문 전체는 미열람입니다.",
+    "초록 대괄호 구간에는 95% 표기가 없으며 기존 95% 신뢰구간 표시는 보존했습니다. 원문 확인이 남습니다.",
+    "112 공식 포털에서 경찰청 운영과 신고 채널을 확인했습니다. 상세 출동기준이나 법률 요건을 확인한 것으로 주장하지 않습니다.",
+    "장기 운동 기분 개선은 이 분노조절 논문의 검증 결론이 아닙니다. 기존 타절 참조를 보존했습니다."
+  ],
+  "OR_RR_HR_review": "해당 없음. g를 확률이나 개인 위험 감소로 바꾸지 않았습니다.",
+  "sentence_length_checks": [
+    {
+      "field": "title",
+      "sentence": "화가 나면 물건 부수기·샌드백 치기·달리기보다 몸부터 진정시키세요",
+      "len": 36
+    },
+    {
+      "field": "쉽게",
+      "sentence": "화가 나면 천천히 숨 쉬며 몸부터 진정시키세요.",
+      "len": 26
+    },
+    {
+      "field": "쉽게",
+      "sentence": "몸을 진정시키는 활동은 화와 공격성을 줄였습니다.",
+      "len": 27
+    },
+    {
+      "field": "쉽게",
+      "sentence": "몸을 더 흥분시키는 활동은 평균적으로 효과가 없었습니다.",
+      "len": 31
+    },
+    {
+      "field": "이득",
+      "sentence": "연구 154건, 독립 표본 184개, 10,189명을 합친 분석입니다.",
+      "len": 39
+    },
+    {
+      "field": "이득",
+      "sentence": "효과 크기 g = -0.63입니다.",
+      "len": 19
+    },
+    {
+      "field": "이득",
+      "sentence": "95% 신뢰구간은 -0.82 ~ -0.43입니다.",
+      "len": 27
+    },
+    {
+      "field": "이득",
+      "sentence": "g는 서로 다른 연구의 효과를 같은 척도로 나타낸 값입니다.",
+      "len": 33
+    },
+    {
+      "field": "이득",
+      "sentence": "음수는 화와 공격성이 줄어드는 방향입니다.",
+      "len": 23
+    },
+    {
+      "field": "이득",
+      "sentence": "신뢰구간은 추정의 불확실성을 나타냅니다.",
+      "len": 22
+    },
+    {
+      "field": "이득",
+      "sentence": "몸을 더 흥분시키는 방법은 평균적으로 효과가 없었습니다.",
+      "len": 31
+    },
+    {
+      "field": "이득",
+      "sentence": "효과 크기 g = -0.02입니다.",
+      "len": 19
+    },
+    {
+      "field": "이득",
+      "sentence": "95% 신뢰구간은 -0.13~0.09입니다.",
+      "len": 24
+    },
+    {
+      "field": "이득",
+      "sentence": "이 구간은 효과가 없다는 값인 0을 포함합니다.",
+      "len": 26
+    },
+    {
+      "field": "이득",
+      "sentence": "방법별 결과는 다양하고 복잡했습니다.",
+      "len": 20
+    },
+    {
+      "field": "이득",
+      "sentence": "조깅이 언제나 효과 없다는 뜻은 아닙니다.",
+      "len": 23
+    },
+    {
+      "field": "이득",
+      "sentence": "연구 결과는 감정 발산이나 달리기를 분노 조절법으로 지지하지 않았습니다.",
+      "len": 40
+    },
+    {
+      "field": "비고",
+      "sentence": "다만 장기적인 기분 개선과 즉시 화를 식히는 효과는 다릅니다.",
+      "len": 34
+    },
+    {
+      "field": "비고",
+      "sentence": "폭행 등 즉각적인 위험이 있으면 안전한 곳에서 112에 신고하세요.",
+      "len": 37
+    }
+  ],
+  "easy_len": 86,
+  "protected_preserved": [
+    "cost tag",
+    "근거등급 A",
+    "비용",
+    "기존 DOI"
+  ],
+  "not_approved": true
+}

@@ -1,0 +1,156 @@
+{
+  "status": "unadopted_proposal",
+  "entry": 1,
+  "base": "strict-entry.md",
+  "base_sha256": "3284cd6ca8e90eb4c9d75b6dc3bf50a15516d81c6675a48c3e7fc8eeadaaf67a",
+  "proposal_sha256": "a00b45c42591331940fa058912b9fc76f8ba364d7cf6e4949eaf186f0eceba63",
+  "changes": [
+    {
+      "field": "쉽게",
+      "before": "휴대전화가 한 번만 울려도 주의력 과제 점수가 떨어집니다. 휴대전화를 보거나 만지지 않아도 점수가 떨어집니다. 점수 감소 폭은 전화를 받거나 문자를 보낼 때와 비슷합니다. 눈앞의 휴대전화를 보지 않으려 참아도 머리의 여유는 줄어듭니다. 휴대전화에 더 의존할수록 감소 폭도 큽니다.",
+      "after": "실험에서 휴대전화 알림만 받아도 주의력 과제 성적이 나빠졌습니다. 휴대전화를 직접 쓰지 않아도 그랬습니다. 저하 폭은 전화나 문자를 쓸 때와 비슷했습니다.",
+      "reason": "120자 이하의 중심 결과로 요약. 초록에 없는 한 번·대학생 조건은 단정하지 않음."
+    },
+    {
+      "field": "이득",
+      "before": "알림 하나만 받아도 주의력 과제 성적이 뚜렷하게 나빠졌습니다. 참가자들은 휴대전화를 보거나 만지지 않았습니다. 성적 감소 폭은 전화를 받거나 문자를 주고받을 때와 맞먹습니다. 대학생을 대상으로 한 실험실 실험입니다. 별도의 실험 2건에서는 휴대전화가 곁에 있을 때를 살폈습니다. 자기 휴대전화가 옆에 놓여 있기만 해도 머리의 여유가 줄어듭니다. 휴대전화를 보지 않으려 참아도 머리의 여유는 줄어듭니다. 휴대전화 의존도가 높은 사람에게서 감소 폭이 가장 컸습니다.",
+      "after": "휴대전화 알림만으로도 주의력 과제 수행이 뚜렷하게 나빠졌습니다. 참가자들은 과제 중 휴대전화를 직접 쓰지 않았습니다. 저하 폭은 전화나 문자를 사용할 때 관찰된 크기와 비슷했습니다.",
+      "reason": "Stothart 원초록 확인 범위만 남김. Ward의 두 실험·의존도·인지 여유 관련 미확인 주장 삭제."
+    },
+    {
+      "field": "출처",
+      "before": "Stothart, Mitchum & Yehnert (2015). The attentional cost of receiving a cell phone notification. Journal of Experimental Psychology: Human Perception and Performance. <https://doi.org/10.1037/xhp0000100>；Ward, Duke, Gneezy & Bos (2017). Brain Drain: The Mere Presence of One's Own Smartphone Reduces Available Cognitive Capacity. Journal of the Association for Consumer Research. <https://doi.org/10.1086/691462>",
+      "after": "Stothart, Mitchum & Yehnert (2015). The attentional cost of receiving a cell phone notification. Journal of Experimental Psychology: Human Perception and Performance. <https://doi.org/10.1037/xhp0000100>",
+      "reason": "본문에서 Ward 결과를 제거하여 해당 인용과 DOI를 의도적으로 삭제. Stothart DOI는 유지."
+    },
+    {
+      "field": "비고",
+      "before": "모두 실험실에서 과제를 한 번씩 수행한 결과입니다. 이런 영향이 매일 쌓일 때의 결과는 측정하지 않았습니다. 항상 연락을 받아야 한다면 필요한 몇 명의 알림만 켜두세요.",
+      "after": "이 결과를 일상의 모든 상황에 그대로 적용할 수는 없습니다. 매일 알림을 줄였을 때 효과가 얼마나 쌓일지는 알 수 없습니다. 휴대전화를 시야 밖에 두는 것은 방해를 줄이려는 제안입니다. 누구나 과제 성적이 좋아진다는 뜻은 아닙니다. 항상 연락을 받아야 한다면 필요한 몇 명의 알림만 켜두세요.",
+      "reason": "매일 누적 효과의 불확실성과 연락 예외 유지. 시야 밖 배치 권고를 보편적 성적 향상 보장과 구별."
+    }
+  ],
+  "verification": [
+    {
+      "doi": "10.1037/xhp0000100",
+      "level": "primary article abstract in Europe PMC cached MED record, actual abstract read",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1037%2Fxhp0000100%22&format=json&resultType=core&pageSize=10",
+      "verified_at": "2026-10-18T15:09:42.714243+00:00",
+      "method": "Local UTF-8 cached JSON read; not a new HTTP retrieval",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/b9e3431329fe78b22531.json",
+      "raw_sha256": "d4a72d4eea1a4f533fb03509dd78ab7b1c3490e5b20951904ee4296643ca8b40",
+      "provenance": {
+        "doi": "10.1037/xhp0000100",
+        "chapters": [
+          3
+        ],
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1037%2Fxhp0000100%22&format=json&resultType=core&pageSize=10",
+        "fetched_at": "2026-10-18T20:50:11.291524+09:00",
+        "http_status": 200,
+        "status": "exact_doi_metadata_cached",
+        "sha256": "d4a72d4eea1a4f533fb03509dd78ab7b1c3490e5b20951904ee4296643ca8b40",
+        "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/b9e3431329fe78b22531.json",
+        "hit_count": 1,
+        "abstract_present": true
+      },
+      "exact_quotes": [
+        "cellular phone notifications alone significantly disrupted performance on an attention-demanding task, even when participants did not directly interact with a mobile device during the task.",
+        "The magnitude of observed distraction effects was comparable in magnitude to those seen when users actively used a mobile phone, either for voice calls or text messaging."
+      ]
+    },
+    {
+      "doi": "10.1086/691462",
+      "level": "Crossref bibliographic metadata only; no primary abstract or full text read",
+      "url": "https://www.journals.uchicago.edu/doi/10.1086/691462",
+      "verified_at": "2026-10-18T15:09:42.714315+00:00",
+      "method": "HTTPS urllib request, HTTP 403; cached Crossref metadata actually read",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/crossref/2ced224983905c1231d9.json",
+      "exact_quotes": [],
+      "limitation": "No factual verification of two experiments or dependence moderation; these claims removed rather than labeled false."
+    }
+  ],
+  "doi_changes": {
+    "added": [],
+    "removed": [
+      {
+        "doi": "10.1086/691462",
+        "reason": "All corresponding unverified claims removed; not a source-error finding."
+      }
+    ]
+  },
+  "intentional_scope_changes": [
+    "알림 하나/한 번을 초록의 알림만으로 제한",
+    "Ward 실험 2건과 의존도별 차이, 존재만으로 인지 여유 감소 단정 삭제",
+    "대학생 및 일회 수행 조건은 초록 확인 범위를 넘어 삭제"
+  ],
+  "source_conflicts": [],
+  "unresolved_limitations": [
+    "Stothart 원문과 Ward 원문 미열람. 동일 실험 안 전화 사용군과 직접 비교했다는 주장은 하지 않음.",
+    "시야 밖 배치는 실용적 제안이며 본문에서 검증된 보편 효과로 제시하지 않음."
+  ],
+  "editorial_checks": {
+    "easy_chars": 86,
+    "easy_sentence_count": 3,
+    "sentence_lengths": [
+      {
+        "field": "쉽게",
+        "sentence": "실험에서 휴대전화 알림만 받아도 주의력 과제 성적이 나빠졌습니다.",
+        "chars": 36
+      },
+      {
+        "field": "쉽게",
+        "sentence": "휴대전화를 직접 쓰지 않아도 그랬습니다.",
+        "chars": 22
+      },
+      {
+        "field": "쉽게",
+        "sentence": "저하 폭은 전화나 문자를 쓸 때와 비슷했습니다.",
+        "chars": 26
+      },
+      {
+        "field": "이득",
+        "sentence": "휴대전화 알림만으로도 주의력 과제 수행이 뚜렷하게 나빠졌습니다.",
+        "chars": 35
+      },
+      {
+        "field": "이득",
+        "sentence": "참가자들은 과제 중 휴대전화를 직접 쓰지 않았습니다.",
+        "chars": 29
+      },
+      {
+        "field": "이득",
+        "sentence": "저하 폭은 전화나 문자를 사용할 때 관찰된 크기와 비슷했습니다.",
+        "chars": 35
+      },
+      {
+        "field": "비고",
+        "sentence": "이 결과를 일상의 모든 상황에 그대로 적용할 수는 없습니다.",
+        "chars": 33
+      },
+      {
+        "field": "비고",
+        "sentence": "매일 알림을 줄였을 때 효과가 얼마나 쌓일지는 알 수 없습니다.",
+        "chars": 35
+      },
+      {
+        "field": "비고",
+        "sentence": "휴대전화를 시야 밖에 두는 것은 방해를 줄이려는 제안입니다.",
+        "chars": 33
+      },
+      {
+        "field": "비고",
+        "sentence": "누구나 과제 성적이 좋아진다는 뜻은 아닙니다.",
+        "chars": 25
+      },
+      {
+        "field": "비고",
+        "sentence": "항상 연락을 받아야 한다면 필요한 몇 명의 알림만 켜두세요.",
+        "chars": 33
+      }
+    ],
+    "title_unchanged": true,
+    "cost_tag_and_grade_unchanged": true,
+    "todo_in_entry": false
+  },
+  "review": "Pending independent exact-hash review; not adopted or published."
+}

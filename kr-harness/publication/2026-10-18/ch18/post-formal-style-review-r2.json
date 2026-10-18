@@ -1,0 +1,284 @@
+{
+  "review_date": "2026-10-19 KST",
+  "status": "approved",
+  "scope": "entry1 r2 exact approval; entries2/3/5 frozen r1 approval retained; no publication or final formal review",
+  "base_public_raw_sha256": "63e07a5236d799d8222b5d5349b8599bb363f0f2608c83004095e589d7916201",
+  "base_public_cli_sha256": "1c6471db9bb0225575e290301523c854d89943c032fa8c657f03caddda1393d2",
+  "prior_review_preserved": "post-formal-style-review-r1.json",
+  "entries": [
+    {
+      "entry": 1,
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch18/_workspace/2026-10-18-001-e9cc/publication-style-corrections-r2.json",
+      "sha256": "6c5e2d9813a25aa1fb054f50fd3345356587eb5b98701feb792c40dca81a8ee3",
+      "status": "approved",
+      "decision": "approve_exact_proposal",
+      "round": 2,
+      "base_entry_sha256": "ac304e46e4a21d40994cad15c0fa8a91136b228b735871d386ea3b321c788bd6",
+      "changes": [
+        {
+          "field": "이득",
+          "before_sha256": "3456581cc41d56c26ccf54a2f084006581e336c9812ca9ea51e4c9a89cbfd891",
+          "after_sha256": "834d51c3b15840256ee39b51a0bcc41529d8f204febbe2b8f4740d04b9da9705"
+        },
+        {
+          "field": "비고",
+          "before_sha256": "0587d3edb5c6b1ff066328904e5818f7be49722e0b98e40f617eeeb7cc9fd7ad",
+          "after_sha256": "2b594155d55a5591dd49fb3d77bc751242f7646b06fd9eaa286f619b9fa5642f"
+        }
+      ],
+      "easy_chars": 119,
+      "easy_sentences": 4,
+      "title_chars": 35,
+      "literal_sentence_max_chars_including_parentheses": 49,
+      "protected_fields_preserved": true
+    },
+    {
+      "entry": 2,
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch18/_workspace/2026-10-18-002-2f6d/publication-style-corrections-r1.json",
+      "sha256": "09b8538d25b85f910c26a611cf9002535bf187d860b5186e49f9e51ef7041f00",
+      "status": "approved",
+      "decision": "approve_exact_proposal",
+      "round": 1,
+      "base_entry_sha256": "2529aa5cb11c774da40408b301f62ba4e99bc2f769ce664376d1c86dff128c42",
+      "changes": [
+        {
+          "field": "이득",
+          "before_sha256": "27a1aea25cca280aaa8373dd628871a670d7df41630f22ee5ffe2ffc9c4dff50",
+          "after_sha256": "40d5609cfbf4cc0c6b478e8c26638454f57cc63f6e2643b126930c37cb2c97d8"
+        },
+        {
+          "field": "비고",
+          "before_sha256": "6cfe883aaf5da3b063f39d248a477880dde6c0ff9af6cbef60df97ca58639a37",
+          "after_sha256": "bdc59ebf9aabc39c878cb388f6548c4052699ccc6b186691a30cc662105347eb"
+        }
+      ],
+      "easy_chars": 113,
+      "easy_sentences": 3,
+      "title_chars": 25,
+      "literal_sentence_max_chars_including_parentheses": 49,
+      "protected_fields_preserved": true
+    },
+    {
+      "entry": 3,
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch18/_workspace/2026-10-18-003-7200/publication-style-corrections-r1.json",
+      "sha256": "04721ce33280ac12ad01551bcdff7c874bf84a04434ae29593d9f5efb2747ee3",
+      "status": "approved",
+      "decision": "approve_exact_proposal",
+      "round": 1,
+      "base_entry_sha256": "31473dc1d3cb4083d18f4cd876e87d4b72fcc009687d1f538324ec8ac98ed0c5",
+      "changes": [
+        {
+          "field": "이득",
+          "before_sha256": "1fc9e9c5861eb3f8015540342f7f77ad2e1f11ec314b36c1a01d7ee100bc1e5f",
+          "after_sha256": "2c60ca379aa949d3c88598ab4886674130efa0ec0f80fb1ee797a0cb960827e1"
+        },
+        {
+          "field": "비고",
+          "before_sha256": "fe9d34165aeb3af1ab0b9e6775b61bca4026779af48aba8486b210399827fd4b",
+          "after_sha256": "bace368fa7371c860d4a1dbef7574f29f31cfd9a7696948e1f390a55eb703cba"
+        }
+      ],
+      "easy_chars": 117,
+      "easy_sentences": 4,
+      "title_chars": 55,
+      "literal_sentence_max_chars_including_parentheses": 50,
+      "protected_fields_preserved": true
+    },
+    {
+      "entry": 5,
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch18/_workspace/2026-10-18-005-8d79/publication-style-corrections-r1.json",
+      "sha256": "69c1e36247674ca0bd88a7a712a988e69dd5253f2b901281783a400dc8cfc5c8",
+      "status": "approved",
+      "decision": "approve_exact_proposal",
+      "round": 1,
+      "base_entry_sha256": "80802683b0afc25470de220a80eb0390222bd64d3bb37bab071164d4777f0ec1",
+      "changes": [
+        {
+          "field": "쉽게",
+          "before_sha256": "af0d93ea6a5400ae9fa14ba839ad90a04f143a573b4aaeac0cb1c39fbce937f4",
+          "after_sha256": "b4fd5cb8e0d0ef3b4a05b46785d0e27abe1453872a76b1b0e2b4d9cf6c36b81f"
+        },
+        {
+          "field": "비고",
+          "before_sha256": "5577a9c73e3a2941aa70089d845312b8e28fdb376d81b6cf5811d182e9f8204d",
+          "after_sha256": "01793da6bb3a60887c5cc68fbac2a12c200300e19269412fbec8aa6841b0cbf7"
+        }
+      ],
+      "easy_chars": 114,
+      "easy_sentences": 4,
+      "title_chars": 39,
+      "literal_sentence_max_chars_including_parentheses": 50,
+      "protected_fields_preserved": true
+    }
+  ],
+  "criteria": "All ordinary prose sentences include legal-reference parentheses in literal Unicode codepoint count including spaces; no exclusion for movable references; source bibliography excluded",
+  "source_evidence": {
+    "method": "Direct reread of preserved primary-source XML, HTML and PDF text; no new HTTP requests in this review",
+    "metadata_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch18-source-metadata.json",
+    "all_16_cache_sha256_match": true,
+    "records": [
+      {
+        "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/child.xml",
+        "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=286729&type=XML",
+        "opened_date": "2026-10-18 KST",
+        "http_status": 200,
+        "status_basis": "urllib successful live response retained from independent audit; no original HTTP headers retained",
+        "sha256": "1fe8a5b5b02e2c059f8f05f3f560633db0d787b11cbe462ec7182d7ad9c04887",
+        "format": "raw XML",
+        "warning": "MST employment returns base2028; article75–77 current20260918 established by 부칙21473 not efYd override"
+      },
+      {
+        "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/childreg.xml",
+        "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=289533&type=XML",
+        "opened_date": "2026-10-18 KST",
+        "http_status": 200,
+        "status_basis": "urllib successful live response retained from independent audit; no original HTTP headers retained",
+        "sha256": "0717e582ff77ba55ceb406c83fad882c338369316e89b25e5cf6b29111a13ee7",
+        "format": "raw XML",
+        "warning": "MST employment returns base2028; article75–77 current20260918 established by 부칙21473 not efYd override"
+      },
+      {
+        "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/labor.xml",
+        "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=285279&type=XML",
+        "opened_date": "2026-10-18 KST",
+        "http_status": 200,
+        "status_basis": "urllib successful live response retained from independent audit; no original HTTP headers retained",
+        "sha256": "222fd311aa29570bf0045061e332c9b6696b49427a4ae8f17540763866b36c2e",
+        "format": "raw XML",
+        "warning": "MST employment returns base2028; article75–77 current20260918 established by 부칙21473 not efYd override"
+      },
+      {
+        "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/employment.xml",
+        "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=284449&type=XML",
+        "opened_date": "2026-10-18 KST",
+        "http_status": 200,
+        "status_basis": "urllib successful live response retained from independent audit; no original HTTP headers retained",
+        "sha256": "e7af050cadeb394c82d5e94d8fc41af99b234270e0b45119671d958c8c5da4e0",
+        "format": "raw XML",
+        "warning": "MST employment returns base2028; article75–77 current20260918 established by 부칙21473 not efYd override"
+      },
+      {
+        "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/equal.xml",
+        "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=284457&type=XML",
+        "opened_date": "2026-10-18 KST",
+        "http_status": 200,
+        "status_basis": "urllib successful live response retained from independent audit; no original HTTP headers retained",
+        "sha256": "81780fed07bdb68f91ca2861095babcefce8ba7d8c1b7b8947c534f5984a5e1b",
+        "format": "raw XML",
+        "warning": "MST employment returns base2028; article75–77 current20260918 established by 부칙21473 not efYd override"
+      },
+      {
+        "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/empreg.xml",
+        "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=288717&type=XML",
+        "opened_date": "2026-10-18 KST",
+        "http_status": 200,
+        "status_basis": "urllib successful live response retained from independent audit; no original HTTP headers retained",
+        "sha256": "65e36a61a89776f6ac01748c739a6c12a8cfe00a7dbf6ba139b9d1db20b14937",
+        "format": "raw XML",
+        "warning": "MST employment returns base2028; article75–77 current20260918 established by 부칙21473 not efYd override"
+      },
+      {
+        "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/cap.xml",
+        "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000285290&type=XML",
+        "opened_date": "2026-10-18 KST",
+        "http_status": 200,
+        "status_basis": "urllib successful live response retained from independent audit; no original HTTP headers retained",
+        "sha256": "09d7c2276f2cc7bc896fc6d1bfc41834c6d0eb2d47002b0003a5f09dc8ffe135",
+        "format": "raw XML",
+        "warning": "MST employment returns base2028; article75–77 current20260918 established by 부칙21473 not efYd override"
+      },
+      {
+        "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/preg.xml",
+        "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000277954&type=XML",
+        "opened_date": "2026-10-18 KST",
+        "http_status": 200,
+        "status_basis": "urllib successful live response retained from independent audit; no original HTTP headers retained",
+        "sha256": "ef5480b984e634fc4a7d2d905c56d505eb87e3efb9480b82442e7e0a8af85576",
+        "format": "raw XML",
+        "warning": "MST employment returns base2028; article75–77 current20260918 established by 부칙21473 not efYd override"
+      },
+      {
+        "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/health.xml",
+        "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=289701&type=XML",
+        "opened_date": "2026-10-18 KST",
+        "http_status": 200,
+        "status_basis": "urllib successful live response retained from independent audit; no original HTTP headers retained",
+        "sha256": "9c36143d7d4df72f8076d4d34b98002a510c415e13165d3efedaaf5e19b6a2af",
+        "format": "raw XML",
+        "warning": "MST employment returns base2028; article75–77 current20260918 established by 부칙21473 not efYd override"
+      },
+      {
+        "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/education.xml",
+        "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=285783&type=XML",
+        "opened_date": "2026-10-18 KST",
+        "http_status": 200,
+        "status_basis": "urllib successful live response retained from independent audit; no original HTTP headers retained",
+        "sha256": "a910dc9d83fa51c05ed6bced69bde83975ab58b3310054013d2b85dbf0e43cfa",
+        "format": "raw XML",
+        "warning": "MST employment returns base2028; article75–77 current20260918 established by 부칙21473 not efYd override"
+      },
+      {
+        "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/tax-dated.xml",
+        "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=280405&efYd=20260101&type=XML",
+        "opened_date": "2026-10-18 KST",
+        "http_status": 200,
+        "status_basis": "urllib successful live response retained from independent audit; no original HTTP headers retained",
+        "sha256": "c430c1daf89379c4213ebbfbaa8f5ae76ad210bf2154d258686828d02a126e87",
+        "format": "raw XML",
+        "warning": "MST employment returns base2028; article75–77 current20260918 established by 부칙21473 not efYd override"
+      },
+      {
+        "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/parent",
+        "url": "https://www.korea.kr/multi/visualNewsView.do?newsId=148957936",
+        "opened_date": "2026-10-18 KST",
+        "http_status": 200,
+        "status_basis": "successful live urllib response; no headers retained",
+        "sha256": "c950d3b24332e285103e2dd8e203fb955e16e6a91993c9321e938a991b480391",
+        "format": "HTML"
+      },
+      {
+        "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/benefit",
+        "url": "https://www.gov.kr/portal/service/serviceInfo/149200000153",
+        "opened_date": "2026-10-18 KST",
+        "http_status": 200,
+        "status_basis": "successful live urllib response; no headers retained",
+        "sha256": "5b713d442b71fe0113e82e2434821f90d7bfa0a54ba1c27185d5ccde63960923",
+        "format": "HTML"
+      },
+      {
+        "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/nlrc",
+        "url": "https://nlrc.go.kr/nlrc/commIntro/minwon/workGuide03.do",
+        "opened_date": "2026-10-18 KST",
+        "http_status": 200,
+        "status_basis": "successful live urllib response; no headers retained",
+        "sha256": "66406d771b7a31900b190e2954825070c82f3550a81ac656a5eca98f2f4c4416",
+        "format": "HTML"
+      },
+      {
+        "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/annex",
+        "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=150839753&bylClsCd=110201",
+        "opened_date": "2026-10-18 KST",
+        "http_status": 200,
+        "status_basis": "successful live urllib response; no headers retained",
+        "sha256": "02b9522854d9eb74c6bc3288ef97e210ab417174cc7ae28e2eb981efb5bbeb44",
+        "format": "PDF"
+      },
+      {
+        "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/work24",
+        "url": "https://m.work24.go.kr/cm/c/f/1100/selecSystInfo.do?currentPageNo=1&recordCountPerPage=9&upprSystClId=&systClId=SC00000246&systId=SI00000406",
+        "opened_date": "2026-10-18 KST",
+        "http_status": 200,
+        "status_basis": "successful live urllib response; no headers retained",
+        "sha256": "9ca60f5580dbf07c85e2ce2000972f2e68eac12303db3b2f9e67e75b3ff1fc25",
+        "format": "HTML"
+      }
+    ]
+  },
+  "limitations": [
+    "Existing W1 income exclusion/tax/local benefits unresolved",
+    "Existing W2 2027 cap unknown",
+    "Existing W3 labor inspector title update recommended",
+    "Existing W4 application fee unknown"
+  ],
+  "public_formal_review_prior_approvals_git_untouched": true
+}

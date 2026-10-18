@@ -1,0 +1,126 @@
+{
+  "status": "separate_final_candidate_only",
+  "published": false,
+  "reviewed_candidate_sha256": "49582e5f0c8cd99bb53d26caa7b940d7edd7411eb6624e2ec79d2fdb59776bfd",
+  "final_publication_candidate_sha256": "b07327385ecc04e40fb14ee592ddad64575ee76ce791115f956329fc29f68801",
+  "original_intro_sha256": "08fc34c5065cae72cf08efafe346dfdbf7a47a7aebb61f74873b53e77bf02389",
+  "plain_proposed_intro_sha256": "732d73ed38a8a0d05f1f70fba053bc8b050e8fd43d1377f0926ad1645b1d2711",
+  "annotated_intro_after_sha256": "584cd31e5e230d7cca03bc294820a6395ef7114d82d2a0993902d61aa83d4be5",
+  "proposal": {
+    "path": "publication-intro-tail-proposal.json",
+    "sha256": "e427ee97eeb590fe53f00eb56cdcbd9e8658f465694dd6df0474cad3262bbcdb"
+  },
+  "review": {
+    "path": "canonical-review-r2.json",
+    "sha256": "4d1ce1ac24ec6dc14256740bcebed93a4f4135ab66eff8c81dda3f045c2c26d9"
+  },
+  "operations": [
+    {
+      "id": 1,
+      "target": "intro.md",
+      "before": "기력과 시간은 네 가지로 봅니다. 매일 쓸 수 있는 주의력과 반응 속도. 실수 빈도와 방해받은 뒤 일로 돌아오는 데 걸리는 시간. 모든 숫자는 직접 잰 값입니다. 실험에서 나왔거나, 한 무리를 추적한 기록(코호트 연구)에서 나왔습니다. 이 숫자는 수명이나 사망률로 환산하지 않습니다. 이 절 대부분 항목의 근거등급은 B입니다. 이 분야의 근거가 대체로 B등급이지만, 권고가 성립하지 않는다는 뜻은 아닙니다. 제19항은 경찰·의사·창구 직원과 일할 때의 기대치를 다룹니다. 실험이 아니라 규정을 인용하므로 등급을 C로 적었습니다. 제15항은 비관적 생각을 증상으로 보는 권고입니다. 제22항은 '주변이 나에게 완벽을 요구한다'는 생각을 증상으로 보는 권고입니다. 두 항목은 사망률과 자살 위험의 숫자를 인용합니다. 이 절의 다른 항목들과 숫자의 성격이 다르니, 함께 놓고 비교하지 않습니다.",
+      "after": "주의력과 반응 속도, 실수 빈도와 작업 재개 시간을 비교합니다. 기분과 수면, 생산량을 살핀 연구도 있습니다. 연구마다 측정한 결과와 대상이 다릅니다. 숫자를 모두 기력이나 수명으로 환산하지는 않습니다. 실험 결과와 관찰한 연관성도 구별해야 합니다. 이 절 대부분 항목의 근거등급은 B입니다. 제19항은 경찰·의사·창구 직원과 일할 때의 기대치를 다룹니다. 규정과 경험을 바탕으로 하므로 등급은 C입니다. 제15항은 비관적 예측과 사망 위험의 연관성을 다룹니다. 제22항은 완벽주의와 죽고 싶은 생각·자살 시도의 연관성을 다룹니다. 두 연구가 이런 생각을 임상 증상으로 진단한 것은 아닙니다. 제22항은 사망 자체를 측정하지 않았습니다. 서로 다른 결과의 숫자를 같은 기준으로 비교하지 마세요.",
+      "exact_unique_occurrences": 1,
+      "entries": [
+        15,
+        19,
+        22,
+        23,
+        24
+      ],
+      "reason": "모든 숫자가 직접 측정한 네 가지 기력 지표라는 일반화를 제거합니다. 관찰·법규·사망과 사고/시도 측정의 차이를 구별합니다."
+    },
+    {
+      "id": 2,
+      "target": "intro.md",
+      "before": "주 근무시간이 49시간을 넘지 않게 하기(제13항)",
+      "after": "주 근무시간 줄일 여지 살피기(제13항)",
+      "exact_unique_occurrences": 1,
+      "entries": [
+        13
+      ],
+      "reason": "특정 직종의 역사자료를 보편적 근무시간 기준으로 쓰지 않습니다."
+    },
+    {
+      "id": 3,
+      "target": "intro.md",
+      "before": "매일 밤 7~8시간 자기(제3항)",
+      "after": "수면 시간 충분히 확보하기(제3항)",
+      "exact_unique_occurrences": 1,
+      "entries": [
+        3
+      ],
+      "reason": "4·6·8시간 취침기회 실험을 보편적인 실제 수면 처방으로 요약하지 않습니다."
+    },
+    {
+      "id": 4,
+      "target": "intro.md",
+      "before": "오후 2시 이후 카페인 피하기(제4항)",
+      "after": "카페인 마시는 시각과 양 살피기(제4항)",
+      "exact_unique_occurrences": 1,
+      "entries": [
+        4
+      ],
+      "reason": "취침시각·카페인양·개인차에 따른 추정을 고정 시각으로 일반화하지 않습니다."
+    },
+    {
+      "id": 5,
+      "target": "intro.md",
+      "before": "자기 전 한 시간 화면 피하기(제8항)",
+      "after": "자기 전 빛나는 화면 줄이기(제8항)",
+      "exact_unique_occurrences": 1,
+      "entries": [
+        8
+      ],
+      "reason": "여러 시간 화면 노출 실험이 한 시간 기준을 입증한 것으로 읽히지 않게 합니다."
+    },
+    {
+      "id": 6,
+      "target": "intro.md",
+      "before": "오후에 졸리면 10분 자기(제11항)",
+      "after": "오후에 졸릴 때 짧은 낮잠 살피기(제11항)",
+      "exact_unique_occurrences": 1,
+      "entries": [
+        11
+      ],
+      "reason": "전날 수면이 부족한 건강한 젊은 성인과 실제 수면시간의 조건을 축약 주제명에 반영합니다."
+    },
+    {
+      "id": 7,
+      "target": "intro.md",
+      "before": "비관적 생각을 증상으로 보기(제15항)",
+      "after": "비관적 예측 다시 따져보기(제15항)",
+      "exact_unique_occurrences": 1,
+      "entries": [
+        15
+      ],
+      "reason": "성격 점수와 사망 연관을 임상 증상 진단으로 바꾸지 않습니다."
+    },
+    {
+      "id": 8,
+      "target": "intro.md",
+      "before": "망신 봤다는 추정 반으로 나누기(제21항)",
+      "after": "남이 얼마나 봤을지 다시 따져보기(제21항)",
+      "exact_unique_occurrences": 1,
+      "entries": [
+        21
+      ],
+      "reason": "실험 평균의 배수를 개인별 보정계수로 쓰지 않습니다."
+    },
+    {
+      "id": 9,
+      "target": "intro.md",
+      "before": "'주변이 완벽을 요구한다'는 생각을 증상으로 보기(제22항)",
+      "after": "완벽을 요구한다는 느낌과 실제 요구 구별하기(제22항)",
+      "exact_unique_occurrences": 1,
+      "entries": [
+        22
+      ],
+      "reason": "임상 진단과 실제 요구의 일괄 부정을 피합니다."
+    }
+  ],
+  "entry_count": 24,
+  "unchanged_entries_and_tail": true,
+  "unchanged_doi_set": true,
+  "new_independent_current_hash_review_required": true
+}

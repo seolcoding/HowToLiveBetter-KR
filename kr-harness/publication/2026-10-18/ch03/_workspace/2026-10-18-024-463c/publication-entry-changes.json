@@ -1,0 +1,220 @@
+{
+  "status": "unadopted_proposal",
+  "entry": 24,
+  "base": "strict-entry.md",
+  "base_sha256": "ace1f3b57d69ee6cc83a941616d556b4d5fc63e874c67dcc641fc45d0f089784",
+  "changes": [
+    {
+      "field": "비용",
+      "before": "돈이 들지 않습니다. 연구에서는 보통 3~4회, 매회 15~20분씩 씁니다. 괴로운 일 한 가지를 골라 깊은 생각과 감정까지 적으세요.",
+      "after": "돈이 들지 않습니다. 초기 실험 방식은 3~4회, 매회 15~20분씩 쓰는 것입니다. 괴로운 일 한 가지를 골라 깊은 생각과 감정까지 적으세요.",
+      "reason": "초기 실험 방식과 포함 연구의 실제 횟수를 구별합니다.",
+      "evidence_ids": [
+        2
+      ]
+    },
+    {
+      "field": "쉽게",
+      "before": "괴로운 일을 적으면 평균적으로 이득이 아주 작습니다. 연구를 종합한 결론도 엇갈립니다. 무작위 대조시험을 모은 분석 2건에서는 유의한 효과가 없었습니다. 비용이 거의 없으니 시도해 볼 만합니다. 감정 문제가 심하면 병원 치료 대신 쓰지 마세요.",
+      "after": "괴로운 일을 적는 이득은 평균적으로 아주 작고 연구 결론도 엇갈립니다. 비용이 거의 없으니 시도해 볼 만합니다. 감정 문제가 심하면 병원 치료 대신 쓰지 마세요.",
+      "reason": "일상어 3문장으로 중심 효과 크기와 불확실성, 치료 대체 금지를 보존합니다.",
+      "evidence_ids": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "field": "이득",
+      "before": "무작위 배정 연구 146건을 합친 메타분석입니다. 참여자들은 자신에게 중요한 일을 적거나 말했습니다. 평균 효과는 양수이며 통계적으로 유의했습니다. 다만 효과 크기는 r = .075로 아주 작습니다. 다른 분석에서는 무작위 대조시험만 30건 모았습니다. 신체 건강과 정신 건강 모두 유의한 효과가 없었습니다. 암 환자와 회복기 환자 대상 무작위 시험 16건도 종합했습니다. 심리, 신체, 삶의 질 모두 유의한 효과가 없었습니다. 심리 효과는 g = 0.04, 95% 신뢰구간 -0.06~0.14입니다.",
+      "after": "무작위 배정 연구 146건을 합친 메타분석입니다. 여러 연구의 결과를 합쳐 살핀 분석입니다. 참여자들은 자신에게 중요한 일을 적거나 말했습니다. 평균 효과는 양수이며 통계적으로 유의했습니다. 다만 효과 크기는 r = .075로 아주 작습니다. r은 효과의 크기를 나타내는 수치입니다. Mogk 분석은 영문 초록과 본문에서 적격 연구를 42건으로 적었습니다. 이 가운데 분석할 수 있는 연구는 30건이었습니다. 신체 건강과 정신 건강 모두 유의한 효과가 없었습니다. 분석에 포함된 글쓰기 횟수는 1~5회로 평균 3.2회였습니다. 암 환자와 암 생존자 대상 무작위 시험 16건도 종합했습니다. 심리, 신체, 삶의 질 모두 유의한 효과가 없었습니다. 심리 효과는 g = 0.04입니다. g는 두 집단의 차이를 공통 척도로 나타낸 수치입니다. 95% 신뢰구간은 -0.06~0.14입니다. 추정의 불확실한 범위를 나타내며 효과가 없는 0도 포함합니다.",
+      "reason": "Mogk 선별 42건과 분석가능 30건, 실제 1~5회 평균 3.2회를 구별합니다. 암 회복기라는 좁은 번역을 암 생존자로 교정합니다. r/g/신뢰구간을 풀이합니다.",
+      "evidence_ids": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "field": "비고",
+      "before": "논쟁 있음. 찬성 쪽은 연구 146건을 종합해 작지만 긍정적인 효과가 있다고 봅니다. 반대 쪽은 무작위 대조시험을 모은 분석 2건을 근거로 듭니다. 이 분석들에서는 유의한 효과가 없었습니다. 비용 칸의 횟수와 시간은 가장 초기의 실험 설계에서 가져왔습니다. 이 내용은 Mogk 논문 초록에 나옵니다. 돈도 시간도 거의 안 들고 혼자서도 할 수 있습니다. 말할 사람이 없거나 말하고 싶지 않을 때 쓰세요. 연구에서 기력을 측정하지는 않았습니다. 지은이는 이득을 시간 기준으로 분류했습니다. 적을수록 괴로워지면 멈추고 109(24시간 자살예방상담전화)에 전화하세요.",
+      "after": "논쟁 있음. 찬성 쪽은 연구 146건을 종합해 작지만 긍정적인 효과가 있다고 봅니다. 반대 쪽은 무작위 대조시험을 모은 분석 2건을 근거로 듭니다. 이 분석들에서는 유의한 효과가 없었습니다. 비용 칸의 횟수와 시간은 초기 실험 방식입니다. 분석에 포함된 모든 연구가 같은 횟수로 쓰지는 않았습니다. Mogk의 독문 초록에는 적격 연구가 43건으로 적혀 있습니다. 영문 초록·본문의 42건과 달라 여기서는 42건을 따랐습니다. 돈도 시간도 거의 안 들고 혼자서도 할 수 있습니다. 말할 사람이 없거나 말하고 싶지 않을 때 쓰세요. 연구에서 기력을 측정하지는 않았습니다. 지은이는 이득을 시간 기준으로 분류했습니다. 적을수록 괴로워지면 멈추세요. 죽고 싶은 생각이 있거나 자살 위기라면 109에 전화하세요. 109는 24시간 자살예방상담전화입니다.",
+      "reason": "원문 영문 42건과 독문 43건의 충돌을 독자에게 공개합니다. 중단 조건을 보존하고 109는 죽고 싶은 생각이나 자살 위기로 한정합니다.",
+      "evidence_ids": [
+        2,
+        4
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": 1,
+      "url": "https://doi.org/10.1037/0033-2909.132.6.823",
+      "verification_date": "2026-10-18",
+      "method": "보존 원자료 직접 재열람; 신규 HTTP 조회 아님",
+      "read_level": "원논문 초록",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/2521979d2075c4bd2ef3.json",
+      "sha256": "ac07f4a73f9e04760a0515d51ba8bee7917654b5f3c34698110ad08daf92c1a5",
+      "exact_primary_quotes": [
+        "One hundred forty-six randomized studies of experimental disclosure were collected and included in the present meta-analysis.",
+        "positive and significant average r-effect size of .075."
+      ]
+    },
+    {
+      "id": 2,
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2736499/fullTextXML",
+      "verification_date": "2026-10-18",
+      "method": "HTTPS 원문 XML 신규 직접 열람",
+      "read_level": "원문 초록·방법·결과 관련 문단",
+      "raw_path": "/tmp/ch03e24-mogk.xml",
+      "sha256": "250272464e25d6d029520ddacd0aaa33ced2aded47323621fb59cebd1424c2ac",
+      "exact_primary_quotes": [
+        "From 42 trials fulfilling the inclusion criteria 30 could be used for the meta-analysis.",
+        "Von 43 Studien, die die Einschlusskriterien erfüllten, konnten 30 in die Metaanalyse eingeschlossen werden.",
+        "The number of sessions for expressive writing varied between 1 and 5 (mean 3.2 with a duration between 15 and 20 minutes).",
+        "The typical experimental setup consisted of 3 to 4 short sessions of writing (15 to 20 minutes each)"
+      ]
+    },
+    {
+      "id": 3,
+      "url": "https://doi.org/10.1002/pon.3802",
+      "verification_date": "2026-10-18",
+      "method": "보존 원자료 직접 재열람; 신규 HTTP 조회 아님",
+      "read_level": "원문 초록",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/pmc-fulltext/PMC6680178.xml",
+      "sha256": "ccd90ece7608aa1d98a9e3b9d0d7e16642cda67df0f306dd5d7b564f8aec6db0",
+      "exact_primary_quotes": [
+        "16 independent randomized controlled trials",
+        "psychological (Hedges's g: 0.04; 95% CI, −0.06 to 0.14; p = 0.42)"
+      ]
+    },
+    {
+      "id": 4,
+      "url": "https://www.129.go.kr/109",
+      "verification_date": "2026-10-18",
+      "method": "보존 원자료 직접 재열람; 신규 HTTP 조회 아님",
+      "read_level": "공식 안내문",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch01-audit/109.txt",
+      "sha256": "779eb5f1d7a10b1a7ee703e2f035af6f4f011093aa2a70287437816c86561f83",
+      "exact_primary_quotes": [
+        "24시간 자살예방상담전화 109",
+        "삶의 희망이 보이지 않을 때 고민하지 말고 연락주세요."
+      ]
+    }
+  ],
+  "sentence_measurements": [
+    {
+      "field": "비용",
+      "sentence": "초기 실험 방식은 3~4회, 매회 15~20분씩 쓰는 것입니다.",
+      "len": 35
+    },
+    {
+      "field": "쉽게",
+      "sentence": "괴로운 일을 적는 이득은 평균적으로 아주 작고 연구 결론도 엇갈립니다.",
+      "len": 39
+    },
+    {
+      "field": "이득",
+      "sentence": "여러 연구의 결과를 합쳐 살핀 분석입니다.",
+      "len": 23
+    },
+    {
+      "field": "이득",
+      "sentence": "r은 효과의 크기를 나타내는 수치입니다.",
+      "len": 22
+    },
+    {
+      "field": "이득",
+      "sentence": "Mogk 분석은 영문 초록과 본문에서 적격 연구를 42건으로 적었습니다.",
+      "len": 40
+    },
+    {
+      "field": "이득",
+      "sentence": "이 가운데 분석할 수 있는 연구는 30건이었습니다.",
+      "len": 28
+    },
+    {
+      "field": "이득",
+      "sentence": "분석에 포함된 글쓰기 횟수는 1~5회로 평균 3.2회였습니다.",
+      "len": 34
+    },
+    {
+      "field": "이득",
+      "sentence": "암 환자와 암 생존자 대상 무작위 시험 16건도 종합했습니다.",
+      "len": 34
+    },
+    {
+      "field": "이득",
+      "sentence": "심리 효과는 g = 0.04입니다.",
+      "len": 19
+    },
+    {
+      "field": "이득",
+      "sentence": "g는 두 집단의 차이를 공통 척도로 나타낸 수치입니다.",
+      "len": 30
+    },
+    {
+      "field": "이득",
+      "sentence": "95% 신뢰구간은 -0.06~0.14입니다.",
+      "len": 24
+    },
+    {
+      "field": "이득",
+      "sentence": "추정의 불확실한 범위를 나타내며 효과가 없는 0도 포함합니다.",
+      "len": 34
+    },
+    {
+      "field": "비고",
+      "sentence": "비용 칸의 횟수와 시간은 초기 실험 방식입니다.",
+      "len": 26
+    },
+    {
+      "field": "비고",
+      "sentence": "분석에 포함된 모든 연구가 같은 횟수로 쓰지는 않았습니다.",
+      "len": 32
+    },
+    {
+      "field": "비고",
+      "sentence": "Mogk의 독문 초록에는 적격 연구가 43건으로 적혀 있습니다.",
+      "len": 35
+    },
+    {
+      "field": "비고",
+      "sentence": "영문 초록·본문의 42건과 달라 여기서는 42건을 따랐습니다.",
+      "len": 34
+    },
+    {
+      "field": "비고",
+      "sentence": "적을수록 괴로워지면 멈추세요.",
+      "len": 16
+    },
+    {
+      "field": "비고",
+      "sentence": "죽고 싶은 생각이 있거나 자살 위기라면 109에 전화하세요.",
+      "len": 33
+    },
+    {
+      "field": "비고",
+      "sentence": "109는 24시간 자살예방상담전화입니다.",
+      "len": 22
+    }
+  ],
+  "easy_chars": 90,
+  "intentional_numerical_scope_changes": [
+    "42건 적격 중 30건 분석가능으로 구별",
+    "초기 3~4회와 실제 1~5회(평균 3.2회)를 구별",
+    "회복기 환자를 원문의 cancer survivors인 암 생존자로 교정",
+    "원문 독문 43건과 영문·본문 42건 충돌 공개",
+    "109 조건을 죽고 싶은 생각/자살 위기로 한정"
+  ],
+  "doi_changes": {
+    "added": [],
+    "removed": [],
+    "reason": "기존 인용 유지"
+  },
+  "unresolved_limitations": [
+    "Mogk 독문 초록의 43건과 영문 초록·본문의 42건 불일치는 원문 정정 여부를 확인하지 못했습니다. 독자에게 공개했으며 42건을 따랐습니다.",
+    "Frattaroli는 초록만 읽었으며 하위 연구별 결과를 검증하지 않았습니다."
+  ],
+  "source_conflict_reader_disclosure": " 독문 초록에는 적격 연구가 43건으로 적혀 있습니다. 영문 초록·본문의 42건과 달라 여기서는 42건을 따랐습니다. "
+}

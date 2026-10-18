@@ -1,0 +1,515 @@
+{
+  "status": "approved",
+  "source_sha256": "a89cd842568ed0115c92a0a77ff38e504cf1d76c08760ed80fdd4478ab3f3f35",
+  "candidate_sha256": "d7a8963284c785e73af58652c8ec6979bc5b3ca3751b92abd06d615a55e1a08f",
+  "review": {
+    "path": "canonical-review-r2.json",
+    "sha256": "4d1ce1ac24ec6dc14256740bcebed93a4f4135ab66eff8c81dda3f045c2c26d9"
+  },
+  "review_decisions_sha256": "ed0c43f619bec4da1042f22b45d958419a82c79b98238e4214f5cbbf11734ea6",
+  "operations": [
+    {
+      "entry": 1,
+      "base": "candidate",
+      "before_sha256": "3284cd6ca8e90eb4c9d75b6dc3bf50a15516d81c6675a48c3e7fc8eeadaaf67a",
+      "replacement": {
+        "path": "_workspace/2026-10-18-001-6077/publication-entry-proposal.md",
+        "sha256": "a00b45c42591331940fa058912b9fc76f8ba364d7cf6e4949eaf186f0eceba63"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-001-6077/publication-entry-changes.json",
+        "sha256": "1bf39042da3262e313961e8fb810770a496877fbad9ef93186cc6b9d69d5b7bd"
+      },
+      "status": "approved",
+      "after_sha256": "a00b45c42591331940fa058912b9fc76f8ba364d7cf6e4949eaf186f0eceba63",
+      "review": {
+        "path": "canonical-review-r2.json",
+        "sha256": "4d1ce1ac24ec6dc14256740bcebed93a4f4135ab66eff8c81dda3f045c2c26d9"
+      }
+    },
+    {
+      "entry": 2,
+      "base": "candidate",
+      "before_sha256": "e67d5b8dd812490801db19ddb9202639fa50ed3032194ba65024ee1959f77955",
+      "replacement": {
+        "path": "_workspace/2026-10-18-002-2aa8/publication-entry-proposal-r2.md",
+        "sha256": "b75d7c92b3775739d9fee9d352681b32ae0cb7cef674c8cf92d01323409db7d1"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-002-2aa8/publication-entry-changes-r2.json",
+        "sha256": "7f4a752add1d83b07581ae38e3ee63da16807217f999aa618ebea1a351338ac8"
+      },
+      "status": "approved",
+      "after_sha256": "b75d7c92b3775739d9fee9d352681b32ae0cb7cef674c8cf92d01323409db7d1",
+      "review": {
+        "path": "canonical-review-r2.json",
+        "sha256": "4d1ce1ac24ec6dc14256740bcebed93a4f4135ab66eff8c81dda3f045c2c26d9"
+      }
+    },
+    {
+      "entry": 3,
+      "base": "candidate",
+      "before_sha256": "6cfef6a51cc108d96b7bdede80bf624046f586c7934dc88e3669a53ce0b77b80",
+      "replacement": {
+        "path": "_workspace/2026-10-18-003-f627/publication-entry-proposal-r2.md",
+        "sha256": "819daf953ded69f827b68cdf099772fc28b4a1997e4d2559364adafea474a43b"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-003-f627/publication-entry-changes-r2.json",
+        "sha256": "49c1e029e09bb22673ea44e6a57223c37a07ef766de06b03822e40cd6db01e32"
+      },
+      "status": "approved",
+      "after_sha256": "819daf953ded69f827b68cdf099772fc28b4a1997e4d2559364adafea474a43b",
+      "review": {
+        "path": "canonical-review-r2.json",
+        "sha256": "4d1ce1ac24ec6dc14256740bcebed93a4f4135ab66eff8c81dda3f045c2c26d9"
+      }
+    },
+    {
+      "entry": 4,
+      "base": "candidate",
+      "before_sha256": "15a86d4b2ee413a514485c0ca866f3d1867f6fc9c2607885bd36a3bf1807b426",
+      "replacement": {
+        "path": "_workspace/2026-10-18-004-0aab/publication-entry-proposal.md",
+        "sha256": "52315be7567cc7db557c12c8c4544af7d1c97a3abc8c6585b5e98ebee37083bd"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-004-0aab/publication-entry-changes.json",
+        "sha256": "9bc8947cfc6f8bf2a282c25f62078a7434499545b079f388feea4a9313a91833"
+      },
+      "status": "approved",
+      "after_sha256": "52315be7567cc7db557c12c8c4544af7d1c97a3abc8c6585b5e98ebee37083bd",
+      "review": {
+        "path": "canonical-review-r2.json",
+        "sha256": "4d1ce1ac24ec6dc14256740bcebed93a4f4135ab66eff8c81dda3f045c2c26d9"
+      }
+    },
+    {
+      "entry": 5,
+      "base": "candidate",
+      "before_sha256": "f6c33d80c9eed90e62d42c3fec0673013c80a45d67c163c33cbb164523d4c217",
+      "replacement": {
+        "path": "_workspace/2026-10-18-005-2018/publication-entry-proposal.md",
+        "sha256": "a801a7016ac6ab946199a902fbd403d40908c88f94b5c9d336f69e93b73debc4"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-005-2018/publication-entry-changes.json",
+        "sha256": "7f1af45a17be6371f3e70494cfc0768fa40d963fc97f5c34912c4ede4b1cbfe7"
+      },
+      "status": "approved",
+      "after_sha256": "a801a7016ac6ab946199a902fbd403d40908c88f94b5c9d336f69e93b73debc4",
+      "review": {
+        "path": "canonical-review-r2.json",
+        "sha256": "4d1ce1ac24ec6dc14256740bcebed93a4f4135ab66eff8c81dda3f045c2c26d9"
+      }
+    },
+    {
+      "entry": 6,
+      "base": "candidate",
+      "before_sha256": "0534f6cc9c1d8a789933259d906ab738887823a3a01ee30b5c1abe9b6cb5ef85",
+      "replacement": {
+        "path": "_workspace/2026-10-18-006-a92b/publication-entry-proposal.md",
+        "sha256": "f44714820113e1913d9d61a18772e19153f538d0c58f22ddc174276183d488e2"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-006-a92b/publication-entry-changes.json",
+        "sha256": "291de0246a453ef2a575d22ae08510e72b4b780da5a9fe2b29bc987a2ad0a4f4"
+      },
+      "status": "approved",
+      "after_sha256": "f44714820113e1913d9d61a18772e19153f538d0c58f22ddc174276183d488e2",
+      "review": {
+        "path": "canonical-review-r2.json",
+        "sha256": "4d1ce1ac24ec6dc14256740bcebed93a4f4135ab66eff8c81dda3f045c2c26d9"
+      }
+    },
+    {
+      "entry": 7,
+      "base": "candidate",
+      "before_sha256": "f2cda88722ce880a6d92411289592b334b26a0eebc5fb3f0b108d74afab45036",
+      "replacement": {
+        "path": "_workspace/2026-10-18-007-d966/publication-entry-proposal.md",
+        "sha256": "55c74b380f75b0c543b6bde5707db7686fb84a6f49155a4200edda6d016fa422"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-007-d966/publication-entry-changes.json",
+        "sha256": "b0975fd7af7cfbb1e082007ea38f9402ecce15de6b74d2fe8e535bfa4c5e32a6"
+      },
+      "status": "approved",
+      "after_sha256": "55c74b380f75b0c543b6bde5707db7686fb84a6f49155a4200edda6d016fa422",
+      "review": {
+        "path": "canonical-review-r2.json",
+        "sha256": "4d1ce1ac24ec6dc14256740bcebed93a4f4135ab66eff8c81dda3f045c2c26d9"
+      }
+    },
+    {
+      "entry": 8,
+      "base": "candidate",
+      "before_sha256": "72b64a5f2aaa2dfa838f4639ec8fe0a530c0f115c98d84b7002aae9e4a943d04",
+      "replacement": {
+        "path": "_workspace/2026-10-18-008-8685/publication-entry-proposal-r2.md",
+        "sha256": "8140b68d9fdfaa1597ae44e6aa0919adba7de4d5e3781e8ba3a43660f6c6992c"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-008-8685/publication-entry-changes-r2.json",
+        "sha256": "562ca58a2d959627d184e9dbbb1ecbed74686905569f50232237acc63275c51f"
+      },
+      "status": "approved",
+      "after_sha256": "8140b68d9fdfaa1597ae44e6aa0919adba7de4d5e3781e8ba3a43660f6c6992c",
+      "review": {
+        "path": "canonical-review-r2.json",
+        "sha256": "4d1ce1ac24ec6dc14256740bcebed93a4f4135ab66eff8c81dda3f045c2c26d9"
+      }
+    },
+    {
+      "entry": 9,
+      "base": "candidate",
+      "before_sha256": "6095ae844ed2582c563c57115e98d6cf3262fbc454c23314dcfeedf29db87473",
+      "replacement": {
+        "path": "_workspace/2026-10-18-009-eb83/publication-entry-proposal-r2.md",
+        "sha256": "447eae8984f55e75abbd14081dfee3d61f676f17fa63cc2b7d6d4a9c51b4d700"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-009-eb83/publication-entry-changes-r2.json",
+        "sha256": "b7b69b2c6c6cbe65baa8681589e1db8a4897e0d7385e356249e72ae2427ea0ba"
+      },
+      "status": "approved",
+      "after_sha256": "447eae8984f55e75abbd14081dfee3d61f676f17fa63cc2b7d6d4a9c51b4d700",
+      "review": {
+        "path": "canonical-review-r2.json",
+        "sha256": "4d1ce1ac24ec6dc14256740bcebed93a4f4135ab66eff8c81dda3f045c2c26d9"
+      }
+    },
+    {
+      "entry": 10,
+      "base": "candidate",
+      "before_sha256": "f0cf3207890c1e4737564a84bd4e09ca58995fc8e435aa21c0de0e22c0695dd7",
+      "field": "쉽게",
+      "before": "잠을 충분히 잔 사람은 위험이 큰 선택을 피하는 법을 금방 배웁니다. 이틀 연속 못 자면 오히려 위험이 큰 쪽을 더 고릅니다. 나이가 들수록 수면 부족의 영향이 더 큽니다. 이 연구는 몇 시간 덜 잤을 때의 영향을 재지 않았습니다. 다만 중요한 결정은 잠에서 깬 뒤로 미루세요.",
+      "after": "실험 한 건에서 푹 잤을 때보다 이틀 연속 못 잤을 때 위험한 선택이 늘었습니다. 몇 시간 덜 잤을 때의 영향은 재지 않았습니다. 중요한 결정은 잠에서 깬 뒤로 미루세요.",
+      "status": "approved",
+      "source_proposal": {
+        "path": "_workspace/2026-10-18-010-390d/editorial-proposal.json",
+        "sha256": "2948b1b53856c28f7be98557f6319720128c28cdde8276e15a51a39cc2f8064b"
+      },
+      "after_sha256": "1499a7bfdde759e09685cf0032e8bc860a3d0f803b5a592e3e76b189e70fe0df",
+      "review": {
+        "path": "canonical-review-r2.json",
+        "sha256": "4d1ce1ac24ec6dc14256740bcebed93a4f4135ab66eff8c81dda3f045c2c26d9"
+      }
+    },
+    {
+      "entry": 11,
+      "base": "candidate",
+      "before_sha256": "9b3f29a7291bca72c98d49eaf10febedf907a7d344569288c7b9026c0a87dcdb",
+      "replacement": {
+        "path": "_workspace/2026-10-18-011-823c/publication-entry-proposal-r2.md",
+        "sha256": "28d1bc94e23d7c2f9e13cc0637f82054b3216040b17aab51a6f99a186722407b"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-011-823c/publication-entry-changes-r2.json",
+        "sha256": "f435d42084aa94b12b091e374fdd8f410fceacc7beb7b5d0f5082e834f2c75ab"
+      },
+      "status": "approved",
+      "after_sha256": "28d1bc94e23d7c2f9e13cc0637f82054b3216040b17aab51a6f99a186722407b",
+      "review": {
+        "path": "canonical-review-r2.json",
+        "sha256": "4d1ce1ac24ec6dc14256740bcebed93a4f4135ab66eff8c81dda3f045c2c26d9"
+      }
+    },
+    {
+      "entry": 12,
+      "base": "candidate",
+      "before_sha256": "598e498d2baec27135a7da2dbd660bc367fd7124ed724429971528b0c633a6c5",
+      "replacement": {
+        "path": "_workspace/2026-10-18-012-fcc1/publication-entry-proposal-r2.md",
+        "sha256": "b9833c47f26f013e3ddc98d688d746ff8c00fc9e5a16a13b916742fcd45f1364"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-012-fcc1/publication-entry-changes-r2.json",
+        "sha256": "a09d617a6d0a2578e390713cff5971ef049c7a01acb9ef735bb228632d722a34"
+      },
+      "status": "approved",
+      "after_sha256": "b9833c47f26f013e3ddc98d688d746ff8c00fc9e5a16a13b916742fcd45f1364",
+      "review": {
+        "path": "canonical-review-r2.json",
+        "sha256": "4d1ce1ac24ec6dc14256740bcebed93a4f4135ab66eff8c81dda3f045c2c26d9"
+      }
+    },
+    {
+      "entry": 13,
+      "base": "candidate",
+      "before_sha256": "875a10c3786127ddad7dd261d228a465d6dca2e33b4a852f331269fb3e04b648",
+      "replacement": {
+        "path": "_workspace/2026-10-18-013-a8c3/publication-entry-proposal.md",
+        "sha256": "95659bffaed242a5f51ddbb5e42a5249a9e4442a955397e93925790c8b16bc18"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-013-a8c3/publication-entry-changes.json",
+        "sha256": "569b95ba3711fe02a6069ccaba16052d333feec8cf9de8a0e156c4ef8dfc1f2b"
+      },
+      "status": "approved",
+      "after_sha256": "95659bffaed242a5f51ddbb5e42a5249a9e4442a955397e93925790c8b16bc18",
+      "review": {
+        "path": "canonical-review-r2.json",
+        "sha256": "4d1ce1ac24ec6dc14256740bcebed93a4f4135ab66eff8c81dda3f045c2c26d9"
+      }
+    },
+    {
+      "entry": 14,
+      "base": "candidate",
+      "before_sha256": "8e2d7694f5c4b423a9cc672839285081ca956c47afd65c7adeb671792d581885",
+      "field": "쉽게",
+      "before": "같은 안 좋은 일을 되뇌어도 답은 나오지 않습니다. 우울과 나쁜 생각은 깊어집니다. 문제를 풀거나 행동하기도 더 어려워집니다. 얘기를 들어주는 사람도 지칩니다. 같은 생각을 반복한다고 알아차리면 손을 쓰는 일을 하세요.",
+      "after": "같은 안 좋은 일을 되뇌면 우울과 부정적인 생각이 깊어집니다. 같은 생각을 반복한다고 알아차리면 손을 쓰는 일을 하세요. 활동별 효과를 비교한 연구는 없습니다.",
+      "status": "approved",
+      "source_proposal": {
+        "path": "_workspace/2026-10-18-014-dc2c/editorial-proposal.json",
+        "sha256": "1597b183e092088ab46ad87929eb173a33e5f9cb9547f44256deb0f34dcd3576"
+      },
+      "after_sha256": "8ce75a478fad7652f0afe6d5d2241494e042ae358698637e879e43f404a95c63",
+      "review": {
+        "path": "canonical-review-r2.json",
+        "sha256": "4d1ce1ac24ec6dc14256740bcebed93a4f4135ab66eff8c81dda3f045c2c26d9"
+      }
+    },
+    {
+      "entry": 15,
+      "base": "candidate",
+      "before_sha256": "a671a22775f4c9e74dbe214e762135f51c32de851ceb66660788e2b2954391ae",
+      "replacement": {
+        "path": "_workspace/2026-10-18-015-11c1/publication-entry-proposal.md",
+        "sha256": "ae429fea2cc1a77897f08edf96f2e69445b84fc695ea3600373a0759178b9e77"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-015-11c1/publication-entry-changes.json",
+        "sha256": "4785c337665fbd1ad0bba1c8e232751de21fa7ae2ca5146aa1c1547cf336b3d6"
+      },
+      "status": "approved",
+      "after_sha256": "ae429fea2cc1a77897f08edf96f2e69445b84fc695ea3600373a0759178b9e77",
+      "review": {
+        "path": "canonical-review-r2.json",
+        "sha256": "4d1ce1ac24ec6dc14256740bcebed93a4f4135ab66eff8c81dda3f045c2c26d9"
+      }
+    },
+    {
+      "entry": 16,
+      "base": "candidate",
+      "before_sha256": "f04f332dfc169d9d5630ac0668dfa810b6d1763bb080b051fe7fa3e1d7afc636",
+      "replacement": {
+        "path": "_workspace/2026-10-18-016-7dce/publication-entry-proposal.md",
+        "sha256": "5b109dfb5d3a63cf4db0d9d4341dd1f51e2b72c919adc24445baeb41b805e002"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-016-7dce/publication-entry-changes.json",
+        "sha256": "f1afb7d991d1853e74bcfdae3f8ac356181e096427e768d612da2a6b07d42c86"
+      },
+      "status": "approved",
+      "after_sha256": "5b109dfb5d3a63cf4db0d9d4341dd1f51e2b72c919adc24445baeb41b805e002",
+      "review": {
+        "path": "canonical-review-r2.json",
+        "sha256": "4d1ce1ac24ec6dc14256740bcebed93a4f4135ab66eff8c81dda3f045c2c26d9"
+      }
+    },
+    {
+      "entry": 17,
+      "base": "candidate",
+      "before_sha256": "8821b5f92811a69aa7d4759aaa2f480b31cf44099259333090c76c37c97013a0",
+      "replacement": {
+        "path": "_workspace/2026-10-18-017-3089/publication-entry-proposal-r2.md",
+        "sha256": "26303b6cd881e97ad44d75df1313b95f6278fbe1566d81e554d6f467f790fdf4"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-017-3089/publication-entry-changes-r2.json",
+        "sha256": "f1dcab8d00b101b2493abff9231210e4cb09b936a6be554301c004a1ee1130fb"
+      },
+      "status": "approved",
+      "after_sha256": "26303b6cd881e97ad44d75df1313b95f6278fbe1566d81e554d6f467f790fdf4",
+      "review": {
+        "path": "canonical-review-r2.json",
+        "sha256": "4d1ce1ac24ec6dc14256740bcebed93a4f4135ab66eff8c81dda3f045c2c26d9"
+      }
+    },
+    {
+      "entry": 18,
+      "base": "candidate",
+      "before_sha256": "4211d2ad0934824854ae7aa4d5c9e2f5473be9640de3997d344bf96606cb95ec",
+      "replacement": {
+        "path": "_workspace/2026-10-18-018-d401/publication-entry-proposal-r2.md",
+        "sha256": "540852167a51a7c823a2474105cf6042427e962db288df7ff1a5ad4fd484dbb4"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-018-d401/publication-entry-changes-r2.json",
+        "sha256": "f065e413d2ad32830e1ab4879c182353f9618bc1cf1e5dfb29a18def152d22cf"
+      },
+      "status": "approved",
+      "after_sha256": "540852167a51a7c823a2474105cf6042427e962db288df7ff1a5ad4fd484dbb4",
+      "review": {
+        "path": "canonical-review-r2.json",
+        "sha256": "4d1ce1ac24ec6dc14256740bcebed93a4f4135ab66eff8c81dda3f045c2c26d9"
+      }
+    },
+    {
+      "entry": 19,
+      "base": "candidate",
+      "before_sha256": "95d0286e7ca8fa9d173e9ff8456d8f76c944594252f8e373f84ec8f2be40a440",
+      "replacement": {
+        "path": "_workspace/2026-10-18-019-2589/publication-entry-proposal.md",
+        "sha256": "edb8e8dc296d6a7139b4e191175ea9de16057aa8566d0a4e39dd28bc504fc626"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-019-2589/publication-entry-changes.json",
+        "sha256": "551f2f77fa05dbd16d110269c8855293e3fdaeee16d6315ce41928935b3c83b7"
+      },
+      "status": "approved",
+      "after_sha256": "edb8e8dc296d6a7139b4e191175ea9de16057aa8566d0a4e39dd28bc504fc626",
+      "review": {
+        "path": "canonical-review-r2.json",
+        "sha256": "4d1ce1ac24ec6dc14256740bcebed93a4f4135ab66eff8c81dda3f045c2c26d9"
+      }
+    },
+    {
+      "entry": 20,
+      "base": "candidate",
+      "before_sha256": "d3b7f59d3050e11537f02f4120cac528aa841ad25de29ed82973bf04a9cebfd3",
+      "replacement": {
+        "path": "_workspace/2026-10-18-020-f47e/publication-entry-proposal.md",
+        "sha256": "5aa4f5c4f8257f42a7a5493e7ce2d9d2e836b816817e33ab9b04b547f338fc48"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-020-f47e/publication-entry-changes.json",
+        "sha256": "6ffda41610c8173a3a84dff2baf739ca0730f591b611387dcd56bae03895475b"
+      },
+      "status": "approved",
+      "after_sha256": "5aa4f5c4f8257f42a7a5493e7ce2d9d2e836b816817e33ab9b04b547f338fc48",
+      "review": {
+        "path": "canonical-review-r2.json",
+        "sha256": "4d1ce1ac24ec6dc14256740bcebed93a4f4135ab66eff8c81dda3f045c2c26d9"
+      }
+    },
+    {
+      "entry": 21,
+      "base": "candidate",
+      "before_sha256": "1030e06f5294c15675cdc9a1b529028713368a61c36aa74ae1faeb8e311a52bd",
+      "replacement": {
+        "path": "_workspace/2026-10-18-021-b509/publication-entry-proposal-r2.md",
+        "sha256": "6fa258dc225800508e846b150d24551184723b53479a539d430313f869ca8d9b"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-021-b509/publication-entry-changes-r2.json",
+        "sha256": "a17138c6ef530448c88819c3808591be5f81996a1a285a1b8b2cf51df1bc9803"
+      },
+      "status": "approved",
+      "after_sha256": "6fa258dc225800508e846b150d24551184723b53479a539d430313f869ca8d9b",
+      "review": {
+        "path": "canonical-review-r2.json",
+        "sha256": "4d1ce1ac24ec6dc14256740bcebed93a4f4135ab66eff8c81dda3f045c2c26d9"
+      }
+    },
+    {
+      "entry": 22,
+      "base": "candidate",
+      "before_sha256": "467bc904d9aee82cf43249998e20aaf874e3b7144784464f913e0ad030f08851",
+      "replacement": {
+        "path": "_workspace/2026-10-18-022-d098/publication-entry-proposal-r2.md",
+        "sha256": "488f482969c9524cd898943fa9a3d691faef61f582f68e91e5d2172067e6b74f"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-022-d098/publication-entry-changes-r2.json",
+        "sha256": "da4cbd7ade03c173fd353a186eaea114b924ddb9b189bfd0dd2ee312e3ae3ca4"
+      },
+      "status": "approved",
+      "after_sha256": "488f482969c9524cd898943fa9a3d691faef61f582f68e91e5d2172067e6b74f",
+      "review": {
+        "path": "canonical-review-r2.json",
+        "sha256": "4d1ce1ac24ec6dc14256740bcebed93a4f4135ab66eff8c81dda3f045c2c26d9"
+      }
+    },
+    {
+      "entry": 23,
+      "base": "candidate",
+      "before_sha256": "4b7883fdd2ea11783cae2742bd1e244e1eedeae94885154e6acb20bcbf04f181",
+      "replacement": {
+        "path": "_workspace/2026-10-18-023-60d9/publication-entry-proposal.md",
+        "sha256": "089f320f64daed551dd8b7057d53ecaa7e9f2d498e703b0cbbe2836190cb917f"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-023-60d9/publication-entry-changes.json",
+        "sha256": "67583d283f4d4f1c95ab68ec7f16d2917312dd7c2f05eeb6f7333adbe7e9deb5"
+      },
+      "status": "approved",
+      "after_sha256": "089f320f64daed551dd8b7057d53ecaa7e9f2d498e703b0cbbe2836190cb917f",
+      "review": {
+        "path": "canonical-review-r2.json",
+        "sha256": "4d1ce1ac24ec6dc14256740bcebed93a4f4135ab66eff8c81dda3f045c2c26d9"
+      }
+    },
+    {
+      "entry": 24,
+      "base": "candidate",
+      "before_sha256": "ace1f3b57d69ee6cc83a941616d556b4d5fc63e874c67dcc641fc45d0f089784",
+      "replacement": {
+        "path": "_workspace/2026-10-18-024-463c/publication-entry-proposal.md",
+        "sha256": "16806e51b62c87403eaf510ff51f117dbd0447eebd90f4d8a220bcc98b42ffb0"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-024-463c/publication-entry-changes.json",
+        "sha256": "88054aab9d9fb2ee96ab219bf6ef34bbaa02a2f3ec8c24af3ce467c63a8b7192"
+      },
+      "status": "approved",
+      "after_sha256": "16806e51b62c87403eaf510ff51f117dbd0447eebd90f4d8a220bcc98b42ffb0",
+      "review": {
+        "path": "canonical-review-r2.json",
+        "sha256": "4d1ce1ac24ec6dc14256740bcebed93a4f4135ab66eff8c81dda3f045c2c26d9"
+      }
+    },
+    {
+      "entry": 9,
+      "base": "candidate",
+      "field": "비고",
+      "before_sha256": "447eae8984f55e75abbd14081dfee3d61f676f17fa63cc2b7d6d4a9c51b4d700",
+      "before": "논쟁 있음. 밤샘의 대가는 이 절 제3항(매일 밤 7~8시간 자기)을 참고하세요. 음란물이 보통 사람의 기력과 뇌에 미치는 인과적 영향은 확실한 근거가 없습니다. 여러 연구를 합친 한 분석은 '음란물 문제'를 다뤘습니다. 많은 경우 가치관과 행동의 불일치로 문제라고 느낄 수 있다는 설명입니다. 모든 사람에게 같은 원인이 적용된다고 볼 수는 없습니다. 이 설명의 인과관계는 추가 검증이 필요합니다. 다른 연구는 치료를 구하지 않은 남성 280명의 자료를 합쳤습니다. 발기 기능 평가 인원은 표와 결과에서 127명입니다. 방법에는 133명으로 적혀 있어 원문 안에서 수치가 다릅니다. 현재 성관계가 있는 하위집단은 59명이었습니다. 평균 주간 시청 시간과 자기보고 발기 기능의 관련은 없었습니다. 이 결과로 음란물의 모든 위해가 없다고 판단할 수는 없습니다. 음란물 시청으로 수면 시간을 미루지 마세요. 생활시간조사의 수면시간은 응답자가 자기 행동을 10분 단위로 직접 적은 시간일지에서 나온 값입니다. 주말까지 포함한 10세 이상 전체 평균이기도 합니다. 그러니 「평균 8시간 4분」을 「모두 충분히 잔다」로 읽지 마세요. 제3항의 7~8시간과도 바로 비교하지 마세요.",
+      "after": "논쟁 있음. 밤샘의 대가는 이 절 제3항(매일 밤 7~8시간 자기)을 참고하세요. 음란물이 보통 사람의 기력과 뇌에 미치는 인과적 영향은 확실한 근거가 없습니다. 여러 연구를 합친 한 분석은 '음란물 문제'를 다뤘습니다. 많은 경우 가치관과 행동의 불일치로 문제라고 느낄 수 있다는 설명입니다. 모든 사람에게 같은 원인이 적용된다고 볼 수는 없습니다. 이 설명의 인과관계는 추가 검증이 필요합니다. 다른 연구는 치료를 구하지 않은 남성 280명의 자료를 합쳤습니다. 발기 기능 평가 인원은 표와 결과에서 127명입니다. 방법에는 133명으로 적혀 있어 원문 안에서 수치가 다릅니다. 현재 성관계가 있는 하위집단은 59명이었습니다. 평균 주간 시청 시간과 자기보고 발기 기능의 관련은 없었습니다. 이 결과로 음란물의 모든 위해가 없다고 판단할 수는 없습니다. 음란물 시청으로 수면 시간을 미루지 마세요. 생활시간조사의 수면시간은 응답자가 직접 적은 시간일지에서 나온 값입니다. 응답자는 자기 행동을 10분 단위로 기록했습니다. 주말까지 포함한 10세 이상 전체 평균이기도 합니다. 그러니 「평균 8시간 4분」을 「모두 충분히 잔다」로 읽지 마세요. 제3항의 7~8시간과도 바로 비교하지 마세요.",
+      "after_sha256": "c2b81bfb94a9491b2d52065af9f8cb1738ca2e929b2465738be0cdccd8e21eef",
+      "status": "approved",
+      "source_proposal": {
+        "path": "_workspace/2026-10-18-009-eb83/publication-style-corrections-r1.json",
+        "sha256": "6c3274d0b2b2ed4bd97cad0e0b3e9b3c01536b6d73b2d974746a67a884ca99c0"
+      },
+      "review": {
+        "path": "canonical-review-r2.json",
+        "sha256": "4d1ce1ac24ec6dc14256740bcebed93a4f4135ab66eff8c81dda3f045c2c26d9"
+      }
+    },
+    {
+      "entry": 20,
+      "base": "candidate",
+      "field": "비고",
+      "before_sha256": "5aa4f5c4f8257f42a7a5493e7ce2d9d2e836b816817e33ab9b04b547f338fc48",
+      "before": "'상관'은 두 현상이 함께 나타난다는 뜻입니다. 어느 쪽이 원인인지는 알 수 없습니다. 연구진도 더 많은 장기 추적이 필요하다고 설명합니다. 무작위 배정 연구는 인과관계를 설명할 수 있습니다. 참가자는 2018년 미국 중간선거를 앞둔 페이스북 사용자였습니다. 한국 플랫폼에 그대로 대입하기는 어렵습니다. Hunt 연구는 학부생 143명을 대상으로 한 단일 연구입니다. 효과 크기는 모두 작습니다. 앱을 끄기만 하면 감정 문제가 풀리리라 기대하지 마세요. '남들이 어떻게 사나 보기' 용도로만 사용을 제한하세요. 가족·친구와 연락하거나 정보와 일자리를 찾는 용도는 제외합니다. 끊기 어렵다면 우선 알림을 끄세요. '아는 사람 추천'과 추천 피드도 끄세요. 전체 화면 시간은 제4절 제15항(짧은 영상)과 제4절 제16항(실시간 뉴스)을 보세요. 짧은 영상의 상한을 두고 실시간 뉴스 피드를 보지 않는 방법을 다룹니다. 기분이 가라앉았을 때 먼저 할 일은 이 절 제18항을 보세요. 소비로 자신을 증명하려는 문제는 제6절 제23항(사는 것으로 만족감 기대하지 않기)을 보세요. 한 단계 높아 보이려고 돈을 더 쓰는 문제는 제6절 제24항(한 단계 위로 보이려고)을 보세요.",
+      "after": "'상관'은 두 현상이 함께 나타난다는 뜻입니다. 어느 쪽이 원인인지는 알 수 없습니다. 연구진도 더 많은 장기 추적이 필요하다고 설명합니다. 무작위 배정 연구는 인과관계를 설명할 수 있습니다. 참가자는 2018년 미국 중간선거를 앞둔 페이스북 사용자였습니다. 한국 플랫폼에 그대로 대입하기는 어렵습니다. Hunt 연구는 학부생 143명을 대상으로 한 단일 연구입니다. 효과 크기는 모두 작습니다. 앱을 끄기만 하면 감정 문제가 풀리리라 기대하지 마세요. '남들이 어떻게 사나 보기' 용도로만 사용을 제한하세요. 가족·친구와 연락하거나 정보와 일자리를 찾는 용도는 제외합니다. 끊기 어렵다면 우선 알림을 끄세요. '아는 사람 추천'과 추천 피드도 끄세요. 전체 화면 시간은 제4절 제15항(짧은 영상)과 제4절 제16항(실시간 뉴스)을 보세요. 짧은 영상의 상한을 두고 실시간 뉴스 피드를 보지 않는 방법을 다룹니다. 기분이 가라앉았을 때 먼저 할 일은 이 절 제18항을 보세요. 소비로 자신을 증명하려는 문제도 있습니다. 제6절 제23항(사는 것으로 만족감 기대하지 않기)을 보세요. 한 단계 높아 보이려고 돈을 더 쓰는 문제도 있습니다. 제6절 제24항(한 단계 위로 보이려고)을 보세요.",
+      "after_sha256": "e71f5b5c3f169df465a4c84df09f9bbcac8c15e7a5b82a6c84d84b061d70472d",
+      "status": "approved",
+      "source_proposal": {
+        "path": "_workspace/2026-10-18-020-f47e/publication-style-corrections-r1.json",
+        "sha256": "b20e1a73ee8da5b514999130bc6eb8c1762db98663666d3985761a287239e0de"
+      },
+      "review": {
+        "path": "canonical-review-r2.json",
+        "sha256": "4d1ce1ac24ec6dc14256740bcebed93a4f4135ab66eff8c81dda3f045c2c26d9"
+      }
+    }
+  ],
+  "intro_sha256": "08fc34c5065cae72cf08efafe346dfdbf7a47a7aebb61f74873b53e77bf02389",
+  "doi_annotations": [
+    {
+      "action": "drop",
+      "doi": "10.1086/691462",
+      "reason": "원문을 확인하지 못한 휴대전화 존재 효과를 제거하고 알림 연구만 남김",
+      "status": "approved",
+      "review": {
+        "path": "canonical-review-r2.json",
+        "sha256": "4d1ce1ac24ec6dc14256740bcebed93a4f4135ab66eff8c81dda3f045c2c26d9"
+      }
+    }
+  ]
+}
