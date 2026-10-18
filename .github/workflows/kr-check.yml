@@ -38,8 +38,13 @@ jobs:
           fi
       - name: 스크립트 문법
         run: for f in .claude/hooks/*.mjs .claude/skills/*/scripts/*.mjs; do node --check "$f"; done
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
       - name: S4 문체 변환 회귀 검사
         run: node --test .claude/skills/kr-style/scripts/convert-b.test.mjs
+      - name: 출판 윤문 각주·통계값 구분 회귀 검사
+        run: python3 kr-harness/publication/scripts/tests/test_footnote_decimal.py
       - name: 세션 시작 훅
         run: CLAUDE_PROJECT_DIR="$PWD" node .claude/hooks/session-start.mjs
       - name: 실행별 검증(반려 시 실패)

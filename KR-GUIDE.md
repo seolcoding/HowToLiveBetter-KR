@@ -59,6 +59,10 @@
 6. **상태 갱신**: `book-kr/README.md` 표에서 ⬜ → 🟦(작업중) → ✅. ✅는 아래 체크리스트의 적합성 게이트(kr-fit + KR-FIT 리뷰)를 통과한 절에만 준다.
 7. **윤문(S6)과 항목별 개선(S7)**: 문체 변환(S4)과 검증(S5) 뒤에 `/kr-polish <ID>`(kr-polisher 에이전트)을 실행하고, 이어서 `/kr-refine <ID>`을 실행한다. 1차 라운드 기록은 [kr-harness/polish-queue.md](kr-harness/polish-queue.md), 운영 노하우는 [kr-harness/LESSONS.md](kr-harness/LESSONS.md).
 
+### 공개 본문 출판 재검토
+
+사용자가 제공한 `humanize-korean`을 적용할 때는 [.claude/skills/humanize-korean/SKILL.md](.claude/skills/humanize-korean/SKILL.md)와 [출판 재검토 계약](kr-harness/publication/CONTRACT.md)을 따른다. 순수 윤문과 출처로 확인한 근거·사실 수정은 별도 단계로 기록한다. 통합한 본문은 현재 해시로 독립 리뷰를 다시 받아야 하며, 편집 승인만으로 한국 적합성 게이트를 통과한 것으로 보지 않는다.
+
 ## 자체 검증 체크리스트 (절 1개 완료 기준)
 
 - [ ] 기계 검사 `node .claude/skills/kr-verify/scripts/kr-fit.mjs N --check`가 block 0인가. 중국 화폐·기관·사회보장·서비스·법령명·단위(음역·한자·직역), 중국 전화번호, 한국에서 뜻이 다른 번호(110·120), 통합된 번호(1393→109), 허용 목록 밖 번호, 본문 한자, 법·제도 항목의 중국 정부 출처를 잡는다. 항목 구조(KF-STRUCT: 여섯 칸이 줄 머리에 한 번씩 순서대로 있는지, 칸이 다른 줄에 붙지 않았는지, 비용태그 주석이 있는지)도 본다. 규칙과 한국 번호 허용 목록(번호마다 1차 출처 URL)은 [kr-fit-rules.json](.claude/skills/kr-verify/references/kr-fit-rules.json)에 있다. warn도 읽고 처리했는가. 의도된 비교는 `<!-- kr-fit-ok: 사유 -->`로 표시했는가(사유가 비면 실패)
