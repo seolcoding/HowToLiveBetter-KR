@@ -1,0 +1,32 @@
+{
+  "entry": 9,
+  "status": "unadopted_proposal",
+  "scope": "minimal_style_only",
+  "approved_files_edited": false,
+  "strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch01/_workspace/2026-10-18-009-f2a1/strict-entry.md",
+  "strict_entry_sha256": "e21d093b3a53ad3871eef0844e95afc101ab501eb2f7e16573e724d9347e2653",
+  "strict_final_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch01/_workspace/2026-10-18-009-f2a1/final.md",
+  "strict_final_sha256": "42b004a9cc6dbcb121054325eaebe10f7240056c6e25e6884297cf107b4caacf",
+  "candidate_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch01/candidate.md",
+  "candidate_entry_sha256": "e2b427974b203e04d61809a81467a30dbba4e92fb241d9887aa57febc80e2588",
+  "candidate_entry_sha_definition": "candidate.md heading ### 9. through the character before the newline preceding ### 10.; UTF-8, exact whitespace retained",
+  "changes": [
+    {
+      "field": "이득",
+      "before": "세계보건기구(WHO)에 따르면 평균 속도가 1% 높아질 때 사망 사고 위험은 4% 오릅니다. 음주운전 사고 위험은 혈중알코올농도가 낮은 수준에서부터 오르기 시작합니다. 한국 「도로교통법」 제44조는 혈중알코올농도 0.03% 이상이면 운전을 금지합니다.",
+      "after": "세계보건기구(WHO)는 평균 속도와 사망 사고 위험의 관계를 설명합니다. 평균 속도가 1% 높아질 때 사망 사고 위험은 4% 오릅니다. 음주운전 사고 위험은 혈중알코올농도가 낮은 수준에서부터 오르기 시작합니다. 한국 「도로교통법」 제44조는 혈중알코올농도 0.03% 이상이면 운전을 금지합니다.",
+      "reason": "51자 WHO 속도 설명 문장을 두 문장으로 나눕니다. 수치와 위험의 방향, WHO 귀속은 유지하며 나머지 문장은 그대로 둡니다.",
+      "status": "unadopted_proposal",
+      "before_sentence_length": 51,
+      "after_sentence_lengths": [
+        40,
+        34,
+        41,
+        46
+      ],
+      "length_method": "Python len; spaces, punctuation, and parentheses included",
+      "preserved_scope_and_hedges": "비고의 사고 모형 추정·무작위 배정 시험 제외 및 나머지 모든 필드는 변경하지 않는 제안입니다.",
+      "before_matches_strict_and_candidate": true
+    }
+  ]
+}

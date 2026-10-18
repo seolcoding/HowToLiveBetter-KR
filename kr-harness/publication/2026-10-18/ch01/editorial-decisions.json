@@ -2,7 +2,7 @@
   "chapter": 1,
   "audit_date": "2026-10-18 KST",
   "candidate_sha256": "d4c107ea00f2e1903eed959d52408c4f7615ade14f8bcb6cd3a4f0a2e333f929",
-  "verdict": "changes_required",
+  "verdict": "approved_for_integration",
   "formal_kr_fit": false,
   "all_entries_reviewed": 42,
   "publication_ready": false,
@@ -2279,6 +2279,524 @@
           "publication_ready": false
         }
       ]
+    },
+    {
+      "batch": "author-batch-7.json",
+      "review_date": "2026-10-18 KST",
+      "entries": [
+        {
+          "entry": 37,
+          "decision": "approve",
+          "proposal_sha256": "9cf76e7fa52009c616cd6df73481a6442f032857391bd15f72ccf4f8b97f0b64",
+          "changes_sha256": "d1d190fda92935730202b0d29979ad492afc3ec18076b972757351fe201281f5",
+          "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch01/_workspace/2026-10-18-037-6cc9",
+          "manifest_hashes_match": true,
+          "changes_after_match_proposal": true,
+          "easy_chars": 113,
+          "easy_sentence_lengths": [
+            40,
+            16,
+            21,
+            33
+          ],
+          "reason": "2018년 스웨덴 전문진료 등록초록의 2099명/67명/21명/SMR1.8·15와 2023년 정정 전문 Table4의 전체15.1·남12.1·여16.1(CI6.5–33.5)을 직접 대조했다. 정정이 여성 CI·유의성 수정임을 복원했다. 상담 효과와 관찰 사망비를 분리하고 금융 비밀번호 전달 권고를 은행상담으로 바꿨다. 109/1336 기존 공식HTML 재열람, 은행별 서비스 보장 아님.",
+          "source_method": "기존EuropePMC 원시초록·정정XML 캐시 재열람 및 batch7-http-index.json 신규 공식HTTP 본문 직접 열람. 미열람 한계는 이유에 명시.",
+          "strict_regression_check": "entry_snapshot/final 필드별 대조: 기존 C-11 쉼표제거 국소문구 유지; 새로운 사실수정은 별도제안에만 존재.",
+          "fields": [
+            {
+              "field": "title",
+              "decision": "approve"
+            },
+            {
+              "field": "비용",
+              "decision": "approve"
+            },
+            {
+              "field": "쉽게",
+              "decision": "approve"
+            },
+            {
+              "field": "이득",
+              "decision": "approve"
+            },
+            {
+              "field": "근거등급",
+              "decision": "approve"
+            },
+            {
+              "field": "출처",
+              "decision": "approve"
+            },
+            {
+              "field": "비고",
+              "decision": "approve"
+            }
+          ],
+          "publication_ready": false
+        },
+        {
+          "entry": 38,
+          "decision": "approve",
+          "proposal_sha256": "912081f0c2244d8786a15a06ffc77849d33d5bf7f9f7b3be44803ac15dd758b4",
+          "changes_sha256": "8fd4f1b8af60e1480a8928a0aedefbf4d926e6f0dfb9bdbaee59de52283e4b71",
+          "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch01/_workspace/2026-10-18-038-f643",
+          "manifest_hashes_match": true,
+          "changes_after_match_proposal": true,
+          "easy_chars": 104,
+          "easy_sentence_lengths": [
+            25,
+            40,
+            37
+          ],
+          "reason": "네 논문 원시초록을 직접 읽어 iPrEx44%/PROUD86%(90%CI64–96)/IPERGAY86% 및 Fonner의 시험수준 고복용률 RR0.30을 대조했다. 개인 제때복용 효과 보장을 없애고 저복용률의 비유의를 효과없음으로 단정하지 않는다. 2025년 지원사업 내용은 과거시점으로 제한하고2026년 여부·가격 미확인임을 명시했다. 한국 안내PDF/WHO2019 세부복용법의 이번 독립 신규전수검증은 아니며 그 한계는 유지한다.",
+          "source_method": "기존EuropePMC 원시초록·정정XML 캐시 재열람 및 batch7-http-index.json 신규 공식HTTP 본문 직접 열람. 미열람 한계는 이유에 명시.",
+          "strict_regression_check": "entry_snapshot/final 필드별 대조: 기존 C-11 쉼표제거 국소문구 유지; 새로운 사실수정은 별도제안에만 존재.",
+          "fields": [
+            {
+              "field": "title",
+              "decision": "approve"
+            },
+            {
+              "field": "비용",
+              "decision": "approve"
+            },
+            {
+              "field": "쉽게",
+              "decision": "approve"
+            },
+            {
+              "field": "이득",
+              "decision": "approve"
+            },
+            {
+              "field": "근거등급",
+              "decision": "approve"
+            },
+            {
+              "field": "출처",
+              "decision": "approve"
+            },
+            {
+              "field": "비고",
+              "decision": "approve"
+            }
+          ],
+          "publication_ready": false
+        },
+        {
+          "entry": 39,
+          "decision": "approve",
+          "proposal_sha256": "aa01769554a0314d30e99b9d7d730c949fb8e65036c481ae51f8efa87b2c9587",
+          "changes_sha256": "9f315bf7385cf0471241996764df5511e76b833925351306a22aa31ab1f94fa1",
+          "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch01/_workspace/2026-10-18-039-8b13",
+          "manifest_hashes_match": true,
+          "changes_after_match_proposal": true,
+          "easy_chars": 111,
+          "easy_sentence_lengths": [
+            20,
+            31,
+            39,
+            18
+          ],
+          "reason": "USPSTF 권고/근거검토/SCOOP 원시초록을 직접 대조해 65세미만 폐경여성의 위험평가→고위험 조건, 검진후치료 설계, RR0.83·42009명·주요결과HR0.94비유의·부차고관절HR0.72를 확인했다. 쉽게는 방향/조건/양을 보존했다. 과잉진단11.8–24.1%는 전문 미열람; 한국 고시의 이번 신규조문검증 아님. 한국 팩트시트 초록의33.5/41.9/14/21값 확인.",
+          "source_method": "기존EuropePMC 원시초록·정정XML 캐시 재열람 및 batch7-http-index.json 신규 공식HTTP 본문 직접 열람. 미열람 한계는 이유에 명시.",
+          "strict_regression_check": "entry_snapshot/final 필드별 대조: 기존 C-11 쉼표제거 국소문구 유지; 새로운 사실수정은 별도제안에만 존재.",
+          "fields": [
+            {
+              "field": "title",
+              "decision": "approve"
+            },
+            {
+              "field": "비용",
+              "decision": "approve"
+            },
+            {
+              "field": "쉽게",
+              "decision": "approve"
+            },
+            {
+              "field": "이득",
+              "decision": "approve"
+            },
+            {
+              "field": "근거등급",
+              "decision": "approve"
+            },
+            {
+              "field": "출처",
+              "decision": "approve"
+            },
+            {
+              "field": "비고",
+              "decision": "approve"
+            }
+          ],
+          "publication_ready": false
+        },
+        {
+          "entry": 41,
+          "decision": "approve",
+          "proposal_sha256": "6f340dfc7f02722aa1eb025752896a32c128b8d34f80ddf9fb6f977c71e9f0f8",
+          "changes_sha256": "07538c1d25e8a988983bac911d2b6915f504aa4a26bff3ccce18c84b9276a9f8",
+          "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch01/_workspace/2026-10-18-041-45d2",
+          "manifest_hashes_match": true,
+          "changes_after_match_proposal": true,
+          "easy_chars": 109,
+          "easy_sentence_lengths": [
+            39,
+            28,
+            16,
+            23
+          ],
+          "reason": "신규 공식 본문3곳(국민안전24/NWS/CCOHS)을 직접 읽어 한국10cm·흩어진1~2명·결빙조건, 흰얼음배수, 캐나다15/20cm 및 보행자구명조끼/얼음송곳을 확인했다. 최소두께를 안전보장으로 바꾸지 않고 지나온얼음최강도 보장을 제거했다. 중국사례 및 DNR구조세부는 이번 신규전수검증 아님. 행안부96자 직접인용은 원문보호 예외로 유지.",
+          "source_method": "기존EuropePMC 원시초록·정정XML 캐시 재열람 및 batch7-http-index.json 신규 공식HTTP 본문 직접 열람. 미열람 한계는 이유에 명시.",
+          "strict_regression_check": "entry_snapshot/final 필드별 대조: 기존 C-11 쉼표제거 국소문구 유지; 새로운 사실수정은 별도제안에만 존재.",
+          "fields": [
+            {
+              "field": "title",
+              "decision": "approve"
+            },
+            {
+              "field": "비용",
+              "decision": "approve"
+            },
+            {
+              "field": "쉽게",
+              "decision": "approve"
+            },
+            {
+              "field": "이득",
+              "decision": "approve"
+            },
+            {
+              "field": "근거등급",
+              "decision": "approve"
+            },
+            {
+              "field": "출처",
+              "decision": "approve"
+            },
+            {
+              "field": "비고",
+              "decision": "approve"
+            }
+          ],
+          "publication_ready": false
+        },
+        {
+          "entry": 42,
+          "decision": "approve",
+          "proposal_sha256": "113d429d0f832b72810608b1664f51fe6820e7e68875833c2596e90149a2669b",
+          "changes_sha256": "a3c074360c99fea66177e6c5334771b31a861e43449be1c05d0be686ae9e936d",
+          "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch01/_workspace/2026-10-18-042-e57b",
+          "manifest_hashes_match": true,
+          "changes_after_match_proposal": true,
+          "easy_chars": 74,
+          "easy_sentence_lengths": [
+            27,
+            25,
+            20
+          ],
+          "reason": "신규CCOHS 본문에서 덮개/보안경과안면보호구/양손/정격속도/고정을 확인하고 한국·중국·튀르키예·일본 연구4편 원시초록을 읽었다. 한국성인≥18조건 복원, OR2.073을 반올림한2.07 보존. 중국조사보고서 두건 미접속을 거짓자료로 판단하지 않고 쉽게는 검증가능한 안전행동으로 줄였다. 기존 해외사례 상세/퀸즐랜드원문/법령의 이번 전수검증은 아님.",
+          "source_method": "기존EuropePMC 원시초록·정정XML 캐시 재열람 및 batch7-http-index.json 신규 공식HTTP 본문 직접 열람. 미열람 한계는 이유에 명시.",
+          "strict_regression_check": "entry_snapshot/final 필드별 대조: 기존 C-11 쉼표제거 국소문구 유지; 새로운 사실수정은 별도제안에만 존재.",
+          "fields": [
+            {
+              "field": "title",
+              "decision": "approve"
+            },
+            {
+              "field": "비용",
+              "decision": "approve"
+            },
+            {
+              "field": "쉽게",
+              "decision": "approve"
+            },
+            {
+              "field": "이득",
+              "decision": "approve"
+            },
+            {
+              "field": "근거등급",
+              "decision": "approve"
+            },
+            {
+              "field": "출처",
+              "decision": "approve"
+            },
+            {
+              "field": "비고",
+              "decision": "approve"
+            }
+          ],
+          "publication_ready": false
+        }
+      ]
+    },
+    {
+      "batch": "author-batch-8-final.json",
+      "review_date": "2026-10-18 KST",
+      "entries": [
+        {
+          "entry": 2,
+          "decision": "approve",
+          "proposal_sha256": "03e29759f53895ba458462323c99d27b8d4a81f567f422f62f8df1db5cd39d3e",
+          "changes_sha256": "6772fbb1e4a07b472875cc71d88c494a3e4cda5c939ea2eda6c7fdd5f75e6d64",
+          "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch01/_workspace/2026-10-18-002-d928",
+          "manifest_hashes_match": true,
+          "changes_after_match_proposal": true,
+          "easy_chars": 85,
+          "easy_sentence_lengths": [
+            36,
+            30,
+            17
+          ],
+          "reason": "코크런 원시초록의 오토바이 사고 관찰자료4편 OR0.58(CI0.50–0.68),6편OR0.31(CI0.25–0.38)을 직접 대조했다. 다른 전기탈것 효과로 일반화하지 않는다. 인용법281875 XML 제2조·제50조·제156조 및 부칙을 읽고 자전거운전자 처벌제외를 확인했다. 추가로 시행령290387 XML 별표8의 표 병합범위까지 읽어 이륜차57번2만원/개인형38의2번2만원을 확인했다. 전기자전거는 법정분류 요건을 충족한 전기자전거라는 범위이며 개별제품 적합성판정은 아니다.",
+          "source_method": "코크런 원시초록·281875/290387 법령XML·fire.txt 캐시 재열람 및 fire-policy-batch8.metadata.json 신규공식HTTP 실제본문 열람.",
+          "strict_regression_check": "entry_snapshot/final 필드별 대조: 기존 C-11 쉼표제거 국소문구 유지; 새로운 사실수정은 별도제안에만 존재.",
+          "fields": [
+            {
+              "field": "title",
+              "decision": "approve"
+            },
+            {
+              "field": "비용",
+              "decision": "approve"
+            },
+            {
+              "field": "쉽게",
+              "decision": "approve"
+            },
+            {
+              "field": "이득",
+              "decision": "approve"
+            },
+            {
+              "field": "근거등급",
+              "decision": "approve"
+            },
+            {
+              "field": "출처",
+              "decision": "approve"
+            },
+            {
+              "field": "비고",
+              "decision": "approve"
+            }
+          ],
+          "publication_ready": false
+        },
+        {
+          "entry": 6,
+          "decision": "approve",
+          "proposal_sha256": "3537d067b5166e3d55e7c0ff42e9f22fb08b940d9eee917da2c3b075258bdab2",
+          "changes_sha256": "08dad888cc69f3b907907390cac88d0107ac708d7ee02120127cd8897744c084",
+          "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch01/_workspace/2026-10-18-006-1d2a",
+          "manifest_hashes_match": true,
+          "changes_after_match_proposal": true,
+          "easy_chars": 74,
+          "easy_sentence_lengths": [
+            42,
+            31
+          ],
+          "reason": "소방시설법 인용2022버전 실제 XML 제16조·제61조·부칙을 재열람해 특정소방대상물 관계인·정당한사유예외·피난방해행위·300만원이하를 확인했다. 단순 전기자전거주차 자동위법 단정을 제거했다. 신규 정책브리핑 본문에서678/485/111/98/117·70% 표현과 충전완료플러그제거/대피로금지 실제 문구를 직접 읽었다. 485/678=71.5%와 공식70% 표기의 차이를 투명하게 구분했다. 이번에도2026현행법전수/원통계독립검증 아님.",
+          "source_method": "코크런 원시초록·281875/290387 법령XML·fire.txt 캐시 재열람 및 fire-policy-batch8.metadata.json 신규공식HTTP 실제본문 열람.",
+          "strict_regression_check": "entry_snapshot/final 필드별 대조: 기존 C-11 쉼표제거 국소문구 유지; 새로운 사실수정은 별도제안에만 존재.",
+          "fields": [
+            {
+              "field": "title",
+              "decision": "approve"
+            },
+            {
+              "field": "비용",
+              "decision": "approve"
+            },
+            {
+              "field": "쉽게",
+              "decision": "approve"
+            },
+            {
+              "field": "이득",
+              "decision": "approve"
+            },
+            {
+              "field": "근거등급",
+              "decision": "approve"
+            },
+            {
+              "field": "출처",
+              "decision": "approve"
+            },
+            {
+              "field": "비고",
+              "decision": "approve"
+            }
+          ],
+          "publication_ready": false
+        }
+      ]
+    },
+    {
+      "batch": "author-batch-7-r2.json",
+      "review_date": "2026-10-18 KST",
+      "entries": [
+        {
+          "entry": 40,
+          "decision": "approve",
+          "proposal_sha256": "3bb8f903983a28b8354df04872bad71e48ccdb714c59794e7f53f4807252f9bd",
+          "changes_sha256": "632783669b72f48f1b8522d54069ad2f9fe96bb6c059dbd94e669e1febced008",
+          "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch01/_workspace/2026-10-18-040-7d78",
+          "manifest_hashes_match": true,
+          "changes_after_match_proposal": true,
+          "easy_chars": 101,
+          "easy_sentence_lengths": [
+            23,
+            33,
+            43
+          ],
+          "reason": "코크런 실제 원시초록의 고위험 분류 네 조건(골다공증진단/척추골절/T점수≤-2.5/75세이상)과 하나이상 조건을 정확히 복원했다. 쉽게는 고위험폐경여성으로 짧게 요약하고 알렌드로네이트 범위를 유지한다. HORIZON 칼슘/D공통투여+약추가vs위약 비교로 바꿔 전후추론을 없앴다. 기존 수치/CI/사망효과 유보/논쟁 및 C-11 쉼표제거 보존. 전문 임상세부 전수검증은 아님.",
+          "source_method": "기존EuropePMC 원시초록·정정XML 캐시 재열람 및 batch7-http-index.json 신규 공식HTTP 본문 직접 열람. 미열람 한계는 이유에 명시.",
+          "strict_regression_check": "entry_snapshot/final 필드별 대조: 기존 C-11 쉼표제거 국소문구 유지; 새로운 사실수정은 별도제안에만 존재.",
+          "fields": [
+            {
+              "field": "title",
+              "decision": "approve"
+            },
+            {
+              "field": "비용",
+              "decision": "approve"
+            },
+            {
+              "field": "쉽게",
+              "decision": "approve"
+            },
+            {
+              "field": "이득",
+              "decision": "approve"
+            },
+            {
+              "field": "근거등급",
+              "decision": "approve"
+            },
+            {
+              "field": "출처",
+              "decision": "approve"
+            },
+            {
+              "field": "비고",
+              "decision": "approve"
+            }
+          ],
+          "publication_ready": false
+        }
+      ]
+    },
+    {
+      "batch": "author-final-additions.json",
+      "review_date": "2026-10-18 KST",
+      "entries": [
+        {
+          "entry": 1,
+          "decision": "approve",
+          "proposal_sha256": "b3943a10efe37a2b5ee793996d136df36ee145450468189a6271f1c256750633",
+          "changes_sha256": "73c3f4eeb4089f9f848063b30b07de1be1d2423c7ca80fd8012ebb81d218ff1f",
+          "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch01/_workspace/2026-10-18-001-7050",
+          "manifest_hashes_match": true,
+          "changes_after_match_proposal": true,
+          "easy_chars": 119,
+          "easy_sentence_lengths": [
+            35,
+            18,
+            32,
+            31
+          ],
+          "reason": "NHTSA 신규 원시PDF·WHO·e나라지표 실제본문을 독립 열람한 근거로50%분모를 승용차·소형트럭 탑승사망자로 복원하고 착용여부확인 조건을 유지했다.45/60효과추정과2025한국2549도확인.비고51자 분리.법령은281875제50조 및290387별표6/8 실제XML재열람으로 의무/범칙금3만원/동승자13세미만6만원 그밖3만원 확인. Kahane원연구전체 새검증아님.",
+          "source_method": "batch7-http-index.json 신규NHTSA/WHO/e나라지표/DailyMed 실제본문 및 ed-kssma-full.metadata.json의 신규KSSMA전문. 법령281875/290387 XML은 캐시재열람.",
+          "strict_regression_check": "entry_snapshot/final 필드별 대조: 기존 C-11 쉼표제거 국소문구 유지; 새로운 사실수정은 별도제안에만 존재.",
+          "fields": [
+            {
+              "field": "title",
+              "decision": "approve"
+            },
+            {
+              "field": "비용",
+              "decision": "approve"
+            },
+            {
+              "field": "쉽게",
+              "decision": "approve"
+            },
+            {
+              "field": "이득",
+              "decision": "approve"
+            },
+            {
+              "field": "근거등급",
+              "decision": "approve"
+            },
+            {
+              "field": "출처",
+              "decision": "approve"
+            },
+            {
+              "field": "비고",
+              "decision": "approve"
+            }
+          ],
+          "publication_ready": false
+        },
+        {
+          "entry": 28,
+          "decision": "approve",
+          "proposal_sha256": "805bc1d8907a4c6e70ba5d20db22cab461a7f2c9efe9a1e0e0883bd841a750c1",
+          "changes_sha256": "a596bff5144875916050e1aaa88eae4c67f7a3c45795aa1e86477ca3229e5713",
+          "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch01/_workspace/2026-10-18-028-c3ed",
+          "manifest_hashes_match": true,
+          "changes_after_match_proposal": true,
+          "easy_chars": 104,
+          "easy_sentence_lengths": [
+            35,
+            31,
+            17,
+            18
+          ],
+          "reason": "새로 읽은KSSMA2013 실제전문과DailyMed라벨을근거로 일률3개월대기/한두번문제아님단정을 제거하고 반복/걱정시진료로바꿨다.원지침문구는 일시/지속·급성/만성 평가원칙이며 진료문장은독자용권고임을구분했다. 질산염병용금기·저혈압위험 확인. 새 DOI10.5534/wjmh.2013.31.2.83의 명시적추가를 승인한다.기존심혈관관찰메타 수치/CI/연관성·검사1회사망효능미입증한계는 보존했다.도입부kr-doi-add표지가통합조건이며 원의학근거대체가아님.",
+          "source_method": "batch7-http-index.json 신규NHTSA/WHO/e나라지표/DailyMed 실제본문 및 ed-kssma-full.metadata.json의 신규KSSMA전문. 법령281875/290387 XML은 캐시재열람.",
+          "strict_regression_check": "entry_snapshot/final 필드별 대조: 기존 C-11 쉼표제거 국소문구 유지; 새로운 사실수정은 별도제안에만 존재.",
+          "fields": [
+            {
+              "field": "title",
+              "decision": "approve"
+            },
+            {
+              "field": "비용",
+              "decision": "approve"
+            },
+            {
+              "field": "쉽게",
+              "decision": "approve"
+            },
+            {
+              "field": "이득",
+              "decision": "approve"
+            },
+            {
+              "field": "근거등급",
+              "decision": "approve"
+            },
+            {
+              "field": "출처",
+              "decision": "approve"
+            },
+            {
+              "field": "비고",
+              "decision": "approve"
+            }
+          ],
+          "publication_ready": false
+        }
+      ]
     }
   ],
   "style_correction_reviews": [
@@ -2418,6 +2936,594 @@
           "publication_ready": false
         }
       ]
+    },
+    {
+      "review_date": "2026-10-18 KST",
+      "entries": [
+        {
+          "entry": 4,
+          "decision": "approve",
+          "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch01/_workspace/2026-10-18-004-c5d0/publication-style-corrections.json",
+          "proposal_sha256": "652ede26a9823143f75345fa346880199d8ef00916e78fca29daf012909a0b41",
+          "approved_full_entry_sha256": "6bd33f209a48125c233769b504ea5c13b6545299fe592cdb2c58ad44329befe0",
+          "strict_entry_sha256": "8dacce56e8540e0c0dac0bd27eb8b1da60194e7fed1fa4339030b911b3ece5f8",
+          "pure_final_sha256": "9769976df9534408c2e4785a4d1630efbd74b7275c628ccb18cc3727fcfb2054",
+          "fields": [
+            {
+              "field": "이득",
+              "decision": "approve",
+              "before": "LPG는 판매업자가 공급할 때 시설을 안전 점검할 의무가 있습니다(「액화석유가스법」 제30조).",
+              "after": "LPG 판매업자는 공급할 때 시설을 안전 점검해야 합니다(「액화석유가스법」 제30조).",
+              "operation": "replace_unique_span_in_field",
+              "proof": {
+                "before_matches_required_current_state": true,
+                "diff_operations": [
+                  {
+                    "operation": "delete",
+                    "before": "는",
+                    "after": ""
+                  },
+                  {
+                    "operation": "replace",
+                    "before": "가",
+                    "after": "는"
+                  },
+                  {
+                    "operation": "replace",
+                    "before": "할",
+                    "after": "해야"
+                  },
+                  {
+                    "operation": "replace",
+                    "before": "의무가 있습",
+                    "after": "합"
+                  }
+                ],
+                "meaning_numbers_population_conditions_unchanged": true
+              },
+              "why": "문장길이 최소수정. 숫자·법적의무·적용조건·추정/연관성 유보·WHO귀속 유지. 기존pure의 쉼표삭제를 되돌리지 않음."
+            }
+          ],
+          "application_order": "fullentry 먼저; 제12항은 기존comma제안적용 다음 이r2문장길이제안. 다른항목은해당필드before정확1회일치후적용.",
+          "publication_ready": false
+        },
+        {
+          "entry": 9,
+          "decision": "approve",
+          "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch01/_workspace/2026-10-18-009-f2a1/publication-style-corrections.json",
+          "proposal_sha256": "8686de2d59c423f77add58b47246a46202309f19f9395dc9b0580e788166b762",
+          "approved_full_entry_sha256": null,
+          "strict_entry_sha256": "e21d093b3a53ad3871eef0844e95afc101ab501eb2f7e16573e724d9347e2653",
+          "pure_final_sha256": "42b004a9cc6dbcb121054325eaebe10f7240056c6e25e6884297cf107b4caacf",
+          "fields": [
+            {
+              "field": "이득",
+              "decision": "approve",
+              "before": "세계보건기구(WHO)에 따르면 평균 속도가 1% 높아질 때 사망 사고 위험은 4% 오릅니다. 음주운전 사고 위험은 혈중알코올농도가 낮은 수준에서부터 오르기 시작합니다. 한국 「도로교통법」 제44조는 혈중알코올농도 0.03% 이상이면 운전을 금지합니다.",
+              "after": "세계보건기구(WHO)는 평균 속도와 사망 사고 위험의 관계를 설명합니다. 평균 속도가 1% 높아질 때 사망 사고 위험은 4% 오릅니다. 음주운전 사고 위험은 혈중알코올농도가 낮은 수준에서부터 오르기 시작합니다. 한국 「도로교통법」 제44조는 혈중알코올농도 0.03% 이상이면 운전을 금지합니다.",
+              "operation": "replace_field_if_exact_before",
+              "proof": {
+                "before_matches_required_current_state": true,
+                "diff_operations": [
+                  {
+                    "operation": "replace",
+                    "before": "에",
+                    "after": "는"
+                  },
+                  {
+                    "operation": "replace",
+                    "before": "따르면",
+                    "after": "평균 속도와 사망 사고 위험의 관계를 설명합니다."
+                  }
+                ],
+                "meaning_numbers_population_conditions_unchanged": true
+              },
+              "why": "문장길이 최소수정. 숫자·법적의무·적용조건·추정/연관성 유보·WHO귀속 유지. 기존pure의 쉼표삭제를 되돌리지 않음."
+            }
+          ],
+          "application_order": "fullentry 먼저; 제12항은 기존comma제안적용 다음 이r2문장길이제안. 다른항목은해당필드before정확1회일치후적용.",
+          "publication_ready": false
+        },
+        {
+          "entry": 12,
+          "decision": "approve",
+          "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch01/_workspace/2026-10-18-012-f70c/publication-style-corrections-r2.json",
+          "proposal_sha256": "883dad593b9fc1c51f3559bf78c7df820ae507e4bfc932bb1b173d19285cd00f",
+          "approved_full_entry_sha256": "1136585b9e9f8f6dd04fc4df44797f0c26c2c5dee5b6364012bff3b120dcbb2b",
+          "strict_entry_sha256": "f50edfdba619c5385df4018803b5983f09c8e94cbad0483424cb36b27ec6da82",
+          "pure_final_sha256": "10044559cc79bd95d2bb9976934642e3c0cd1e83eec8389ff7a2be6f3b9b052a",
+          "fields": [
+            {
+              "field": "이득",
+              "decision": "approve",
+              "before": "한 연구가 미국 해안경비대 자료로 조건이 비슷한 사람끼리 짝지어 비교했습니다. 비교 대상은 레저용 배를 타던 사람입니다. 구명조끼를 입은 사람은 안 입은 사람보다 익사 위험이 절반쯤이었습니다. 원값은 보정 RR 0.51, 95% CI 0.35~0.74입니다. 행정안전부는 2025-07-21 통계를 발표했습니다. ‘최근 5년’ 물놀이 사고 사망자는 112명입니다. 정확한 집계 시작·종료 연도는 이 발표 본문에 적혀 있지 않습니다. 하천에서 39명(35%), 계곡에서 33명(30%)이 숨졌습니다. 해수욕장은 25명(22%), 바닷가는 15명(13%)입니다. 원인은 구명조끼 미착용 같은 안전 부주의가 41명(37%)으로 가장 많았습니다. 수영 미숙 38명(34%), 음주 수영 19명(17%)이 뒤를 이었습니다. 나이로는 50대와 10대가 각각 20명을 넘었고 10세 미만도 7명이었습니다. 「수상레저안전법」 제20조는 수상레저활동을 할 때 구명조끼 같은 인명안전장비를 입게 합니다. 어기면 50만원 이하의 과태료를 물 수 있습니다(제64조 제2항).",
+              "after": "한 연구가 미국 해안경비대 자료로 조건이 비슷한 사람끼리 짝지어 비교했습니다. 비교 대상은 레저용 배를 타던 사람입니다. 구명조끼를 입은 사람은 안 입은 사람보다 익사 위험이 절반쯤이었습니다. 원값은 보정 RR 0.51, 95% CI 0.35~0.74입니다. 행정안전부는 2025-07-21 통계를 발표했습니다. ‘최근 5년’ 물놀이 사고 사망자는 112명입니다. 정확한 집계 시작·종료 연도는 이 발표 본문에 적혀 있지 않습니다. 하천에서 39명(35%), 계곡에서 33명(30%)이 숨졌습니다. 해수욕장은 25명(22%), 바닷가는 15명(13%)입니다. 원인은 구명조끼 미착용 같은 안전 부주의가 41명(37%)으로 가장 많았습니다. 수영 미숙 38명(34%), 음주 수영 19명(17%)이 뒤를 이었습니다. 나이로는 50대와 10대가 각각 20명을 넘었고 10세 미만도 7명이었습니다. 「수상레저안전법」 제20조는 수상레저활동 때 구명조끼 같은 인명안전장비를 입게 합니다. 어기면 50만원 이하의 과태료를 물 수 있습니다(제64조 제2항).",
+              "operation": "replace_field_if_exact_before",
+              "proof": {
+                "before_matches_required_current_state": true,
+                "diff_operations": [
+                  {
+                    "operation": "delete",
+                    "before": "을 할",
+                    "after": ""
+                  }
+                ],
+                "meaning_numbers_population_conditions_unchanged": true
+              },
+              "why": "문장길이 최소수정. 숫자·법적의무·적용조건·추정/연관성 유보·WHO귀속 유지. 기존pure의 쉼표삭제를 되돌리지 않음."
+            }
+          ],
+          "application_order": "fullentry 먼저; 제12항은 기존comma제안적용 다음 이r2문장길이제안. 다른항목은해당필드before정확1회일치후적용.",
+          "publication_ready": false
+        }
+      ]
     }
-  ]
+  ],
+  "additional_primary_reviews": [
+    {
+      "entry": 1,
+      "decision": "revise",
+      "scope": "원문변경없는 핵심검증 보강",
+      "reason": "한국2025사망2549와 NHTSA앞좌석45/60 및 known-restraint50%/둘째줄60% 원자료 확인. 다만50%의 분모는 passenger vehicles(승용차+픽업/SUV/밴 등 소형트럭)이므로 현재 승용차만으로 좁힌 쉽게·이득은 수정 요청. 비고51자도 분리 요청.",
+      "sources": [
+        "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch01-audit/batch7-http-index.json",
+        "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-version-cache-index.json"
+      ],
+      "limits": "NHTSA의 원시효과추정연구 Kahane2015 자체는 이번 미열람. 공식통계/보고서의 범위 검증. 시행령별표6/8 실제XML 읽음, 새 HTTP법요청502와 구분."
+    },
+    {
+      "entry": 9,
+      "decision": "approve_with_style_pending",
+      "scope": "원문변경없는 핵심검증 보강",
+      "reason": "WHO 실제본문 every1%increaseinmean speed→4%fatalcrashrisk를 확인. 단일개인 절대확률 증가로 쓰지 않으며 기존 비고의 모형추정 한계 유지. 음주낮은BAC부터위험증가 확인. 51자 이득문장 분리style요청.",
+      "sources": [
+        "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch01-audit/batch7-http-index.json"
+      ],
+      "limits": "WHO는≥0.04g/dl에서위험이유의하게증가한다고도 명시한다. 현재본문의 WHO는숫자없음은 음주량별 효과크기 숫자가 없다는 범위로 읽으며 위험증가기준이없다는 뜻은아님. WHO 인용기초모형 자체 미열람."
+    },
+    {
+      "entry": 28,
+      "decision": "revise_verification_limit",
+      "scope": "원문변경없는 핵심검증 보강",
+      "reason": "DailyMed 실제라벨 질산염/아질산염 금기 및 혈압저하강화 확인. KSSMA 국내지침 전문에서도 니트로글리세린등병용의생명위협저혈압·일시/지속성/급만성평가 확인. 석달넘어야문제·한두번문제아님이라는 일률기준은 확보자료에서확인못해 근거제시또는일률대기안내제거요청. 틀린정의로확정한판정은아님.",
+      "sources": [
+        "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch01-audit/batch7-http-index.json",
+        "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch01-audit/ed-kssma-full.metadata.json"
+      ],
+      "limits": "초기추정DOI10.4111/kju.2013.54.1.29검색결과0은 무효DOI판정아님. 실제제목검색으로10.5534/wjmh.2013.31.2.83/PMC3770856 전문확보. 최신한국지침전체를망라한것은아님."
+    }
+  ],
+  "integration_approval": {
+    "verdict": "approved_for_integration",
+    "formal_kr_fit": false,
+    "publication_ready": false,
+    "full_entry_count": 41,
+    "full_entries": [
+      {
+        "entry": 1,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch01/_workspace/2026-10-18-001-7050",
+        "proposal_sha256": "b3943a10efe37a2b5ee793996d136df36ee145450468189a6271f1c256750633",
+        "changes_sha256": "73c3f4eeb4089f9f848063b30b07de1be1d2423c7ca80fd8012ebb81d218ff1f"
+      },
+      {
+        "entry": 2,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch01/_workspace/2026-10-18-002-d928",
+        "proposal_sha256": "03e29759f53895ba458462323c99d27b8d4a81f567f422f62f8df1db5cd39d3e",
+        "changes_sha256": "6772fbb1e4a07b472875cc71d88c494a3e4cda5c939ea2eda6c7fdd5f75e6d64"
+      },
+      {
+        "entry": 3,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch01/_workspace/2026-10-18-003-4912",
+        "proposal_sha256": "15a65d86664e54297f13a25f191da6c8ed721d1260d76a85e5ece6a85163bd99",
+        "changes_sha256": "5fbf1c69e3bdc453dbe7eff89f2ede17903b838129b9bee7a30bfbd8181e708f"
+      },
+      {
+        "entry": 4,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch01/_workspace/2026-10-18-004-c5d0",
+        "proposal_sha256": "6bd33f209a48125c233769b504ea5c13b6545299fe592cdb2c58ad44329befe0",
+        "changes_sha256": "f472626064f485bfbcd707ffd8607e65cf1a22aebc724d6b122d9768a9d88219"
+      },
+      {
+        "entry": 5,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch01/_workspace/2026-10-18-005-8841",
+        "proposal_sha256": "284da16ea0755ba29755d922f49d9135f3d3aa1892a62ea059aba35815a94399",
+        "changes_sha256": "4667cafa8f334de8d7edebd6786556455ab5d3a9c5608dee20c214a7402ae566"
+      },
+      {
+        "entry": 6,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch01/_workspace/2026-10-18-006-1d2a",
+        "proposal_sha256": "3537d067b5166e3d55e7c0ff42e9f22fb08b940d9eee917da2c3b075258bdab2",
+        "changes_sha256": "08dad888cc69f3b907907390cac88d0107ac708d7ee02120127cd8897744c084"
+      },
+      {
+        "entry": 7,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch01/_workspace/2026-10-18-007-1172",
+        "proposal_sha256": "bd43967ef2d189c53f4981597b06a9d93ece260dd8354af38133ab8b421250d3",
+        "changes_sha256": "7ab2458b735bac5eefe6876d987d1d209f9c8b10f0a35072261a176daf7991a7"
+      },
+      {
+        "entry": 8,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch01/_workspace/2026-10-18-008-0847",
+        "proposal_sha256": "2154612606fd02e24dfd2c4c9baa6f8526b095135e879949bbe8fc6ae668643d",
+        "changes_sha256": "5059975bd0dfdf743a5d9da776537b9ff3421f74eece17b03f61ef6d23c09fd1"
+      },
+      {
+        "entry": 10,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch01/_workspace/2026-10-18-010-e223",
+        "proposal_sha256": "11fc46c3c40ed0df0eb6d6c275d7ff3fad91932a9507ea63c8a15c5945f0d247",
+        "changes_sha256": "cf1e53a691f6eada6ba60c7d4aa3928deda35d9c293b2fc6d122693caaee0ffc"
+      },
+      {
+        "entry": 11,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch01/_workspace/2026-10-18-011-5c30",
+        "proposal_sha256": "444ae65cfb43722aa0e8f3b844db768544e74910364366cdf514d6e292614cac",
+        "changes_sha256": "75e21bc18af4b9249ac76e9b2a6688f670f239e1f61dda2c0d28a997876cdd8f"
+      },
+      {
+        "entry": 12,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch01/_workspace/2026-10-18-012-f70c",
+        "proposal_sha256": "1136585b9e9f8f6dd04fc4df44797f0c26c2c5dee5b6364012bff3b120dcbb2b",
+        "changes_sha256": "e249dea22611c0785b52f2ae9ae92690063100e634d68aab1504c5aac6a53ea0"
+      },
+      {
+        "entry": 13,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch01/_workspace/2026-10-18-013-396f",
+        "proposal_sha256": "14d03e5efd3d02fe8ef2bbee0cb35ba27c2aa1d5b2a94b64ab361368851931d4",
+        "changes_sha256": "b1b4bbace627df3442438659a54aed0fc56d4ac0ae4c32332b008ffc3295fee0"
+      },
+      {
+        "entry": 14,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch01/_workspace/2026-10-18-014-e27a",
+        "proposal_sha256": "8ff4c2ff7b7ddca89802fa5273613bf7bf1b706bfd16fdf7efd70b59d6e8768b",
+        "changes_sha256": "5b3191f27ecd0013bb9c7e036df785f07c0034c5f60dad90e459b73a333338a3"
+      },
+      {
+        "entry": 15,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch01/_workspace/2026-10-18-015-abba",
+        "proposal_sha256": "fc694964bf16a417d051edcc2f89a9aefe119dcf3e089f42298dee38f4b4f5fb",
+        "changes_sha256": "86ebaf29ef8e7e61da26fe9371e1e1b41f63914c9bd7cab4305d004076d19e3d"
+      },
+      {
+        "entry": 16,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch01/_workspace/2026-10-18-016-b22e",
+        "proposal_sha256": "8ee7d9416525b899a55e5b34c6714c127231af140631649a7729b25731d2c0ad",
+        "changes_sha256": "2cbe6db05b827d47922e18c49575341d77a4a34d8f193e5917cbb3ff75a5780d"
+      },
+      {
+        "entry": 17,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch01/_workspace/2026-10-18-017-498c",
+        "proposal_sha256": "efc0ca3535fb3e16c718923f167b1a8eb660d041af7ce0bbe562d158cfe26f24",
+        "changes_sha256": "9584293c5f89d7f7c077876c175bb970cb44a1be52671d8d10c71b37dc147855"
+      },
+      {
+        "entry": 18,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch01/_workspace/2026-10-18-018-7b30",
+        "proposal_sha256": "1037744df8dfc32b188d661a7614069273a401f5263f94135bccdf5c9e06fe16",
+        "changes_sha256": "606a5208862c45d38da660454c984a89070e6f12fcf80c666837b642dff73b1f"
+      },
+      {
+        "entry": 19,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch01/_workspace/2026-10-18-019-2acf",
+        "proposal_sha256": "e85a45f07f18bd37fa48bac5905646b6f0ff3c20b02e00c09ee87ebaf236f081",
+        "changes_sha256": "fb6f9eab4ae1d43abca6673430840c588708413f14ee6c9b816cb8143d74684d"
+      },
+      {
+        "entry": 20,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch01/_workspace/2026-10-18-020-e7a6",
+        "proposal_sha256": "39ac6899530f4b2407e0733ef45f129cebb03e29e4f7ead7008ad780fee64460",
+        "changes_sha256": "2a6f2c474a62aff973e9a0b28f0cbac3d5a6110bba501cb4187f7922313f4ccc"
+      },
+      {
+        "entry": 21,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch01/_workspace/2026-10-18-021-56d1",
+        "proposal_sha256": "30ed25b49f824b509e0bd9203d13e3352fd842be0b77c06571ffd0c8e0c69294",
+        "changes_sha256": "24f846f2d9ca175804ae09d2908bd9b3bbdf46076d23eb86d23fa3e4e3ab7ed1"
+      },
+      {
+        "entry": 22,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch01/_workspace/2026-10-18-022-5d9a",
+        "proposal_sha256": "25991ae94104e235187df0c355050901aabd2d2ec98c0884d3dd2f28e5271da6",
+        "changes_sha256": "6ded4a8ce65b42eac8da0697aa93f99e53782dbd717e2b2ce2b64b4683fed409"
+      },
+      {
+        "entry": 23,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch01/_workspace/2026-10-18-023-c161",
+        "proposal_sha256": "91d04aa305a9b0fe9eceac17ad6ab83acd17d05f2ef1410228595c9ffbccd12f",
+        "changes_sha256": "0f743560abf52a4c52d75f21d473890b0dd2f8bb3c45d2d79826ec44ab3cd225"
+      },
+      {
+        "entry": 24,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch01/_workspace/2026-10-18-024-2d5b",
+        "proposal_sha256": "5537742a64ddb8ef90bd4e174affd76ded4ab178c24f08eb393923f4f60bd7a5",
+        "changes_sha256": "e80ac84efb338c13ddd131826c65a9f9cb7e1aa5f40f4004e404429638046451"
+      },
+      {
+        "entry": 25,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch01/_workspace/2026-10-18-025-d95d",
+        "proposal_sha256": "15b303c6c32b53ec270f95964b342fc3b3725ab819067735987030628344d68a",
+        "changes_sha256": "691982b2139cc0ef6adf53a80777eb96cf705ab1b266002f873effa87db01639"
+      },
+      {
+        "entry": 26,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch01/_workspace/2026-10-18-026-6dfd",
+        "proposal_sha256": "32e526223734cd0e4434a97d8d3c5cf86494004a1de7e4f01c873e9413589aa1",
+        "changes_sha256": "7fc4894ac82da776df8ce2a5cf55122a8c825d76ca54bdd0978b1e433024162d"
+      },
+      {
+        "entry": 27,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch01/_workspace/2026-10-18-027-68a9",
+        "proposal_sha256": "fee2c3db7d793cba018addd37ea4a55e5611a8c87c79892daa4c4ecf823fc053",
+        "changes_sha256": "dd43191076c4f4f88eb61912da6d4e38f8cd0e63ddedd17814c461d97204cfb2"
+      },
+      {
+        "entry": 28,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch01/_workspace/2026-10-18-028-c3ed",
+        "proposal_sha256": "805bc1d8907a4c6e70ba5d20db22cab461a7f2c9efe9a1e0e0883bd841a750c1",
+        "changes_sha256": "a596bff5144875916050e1aaa88eae4c67f7a3c45795aa1e86477ca3229e5713"
+      },
+      {
+        "entry": 29,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch01/_workspace/2026-10-18-029-7ea4",
+        "proposal_sha256": "223ecfe01a2a3875801c87e2bf486162f5094e8501867587a44ba2103c287a31",
+        "changes_sha256": "73dca31cc2c2fd6470e062b4807d4744d2135704d68a9423d9eb8f206727db4d"
+      },
+      {
+        "entry": 30,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch01/_workspace/2026-10-18-030-911a",
+        "proposal_sha256": "1a5125366a2fc05bf35e585354041c97fddbe04602e7b5c0f6526b051751cc8f",
+        "changes_sha256": "d3248f684273f30c32d7b069858173a265c3e76786bd6e33dcdedf594ae2883a"
+      },
+      {
+        "entry": 31,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch01/_workspace/2026-10-18-031-dabc",
+        "proposal_sha256": "c7d950bfbdd3a1a377e601c234754018cdec011c497997d12f63f182cef94242",
+        "changes_sha256": "b7d612e3873f7080f58367ffa4def56667a31e543eb9456f387e69429b196a56"
+      },
+      {
+        "entry": 32,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch01/_workspace/2026-10-18-032-f680",
+        "proposal_sha256": "ce55c42a04738387096335be13ed7ba3578dd3079dbee77a76e753048d7a7a1e",
+        "changes_sha256": "96746765baf38e9496f317796573c9ea0d0ce4600e4d30c96e1782fdbcd66e8a"
+      },
+      {
+        "entry": 33,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch01/_workspace/2026-10-18-033-ac35",
+        "proposal_sha256": "c073d113f943cfb804d8c38e0b6f5506c1f54320a589b65938cf09891e933e72",
+        "changes_sha256": "8a9b212d8f482f33c93f649543a69406e5db5b4eae353d8540b78a6389407079"
+      },
+      {
+        "entry": 34,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch01/_workspace/2026-10-18-034-0054",
+        "proposal_sha256": "fc510f7605cb66198bbb22c7b839d92df5e96344ed7dcf51bbb3e3f6489f18d3",
+        "changes_sha256": "4d26e6e9c86550300e6000bfec52bdc0055acef060b4a1cd85d595bc3ba4675b"
+      },
+      {
+        "entry": 35,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch01/_workspace/2026-10-18-035-7c85",
+        "proposal_sha256": "4c93d14173fb7bf245ab3a1e8d5c2eebbcd2c3a552a1624ba2da77b297806bee",
+        "changes_sha256": "c785b952b00a97b4d608eb00983dc0cb5d8e18bb47d9f91f0b772db95da4ee15"
+      },
+      {
+        "entry": 36,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch01/_workspace/2026-10-18-036-5a63",
+        "proposal_sha256": "89f4a07195c115eb7d4f6737df13f4a3d2e83d4fc3cb31b20b9261f3471fdf63",
+        "changes_sha256": "4db8a50352ffb411626f467a94bf8765077ea2574dba946ad8e01228b8561233"
+      },
+      {
+        "entry": 37,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch01/_workspace/2026-10-18-037-6cc9",
+        "proposal_sha256": "9cf76e7fa52009c616cd6df73481a6442f032857391bd15f72ccf4f8b97f0b64",
+        "changes_sha256": "d1d190fda92935730202b0d29979ad492afc3ec18076b972757351fe201281f5"
+      },
+      {
+        "entry": 38,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch01/_workspace/2026-10-18-038-f643",
+        "proposal_sha256": "912081f0c2244d8786a15a06ffc77849d33d5bf7f9f7b3be44803ac15dd758b4",
+        "changes_sha256": "8fd4f1b8af60e1480a8928a0aedefbf4d926e6f0dfb9bdbaee59de52283e4b71"
+      },
+      {
+        "entry": 39,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch01/_workspace/2026-10-18-039-8b13",
+        "proposal_sha256": "aa01769554a0314d30e99b9d7d730c949fb8e65036c481ae51f8efa87b2c9587",
+        "changes_sha256": "9f315bf7385cf0471241996764df5511e76b833925351306a22aa31ab1f94fa1"
+      },
+      {
+        "entry": 40,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch01/_workspace/2026-10-18-040-7d78",
+        "proposal_sha256": "3bb8f903983a28b8354df04872bad71e48ccdb714c59794e7f53f4807252f9bd",
+        "changes_sha256": "632783669b72f48f1b8522d54069ad2f9fe96bb6c059dbd94e669e1febced008"
+      },
+      {
+        "entry": 41,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch01/_workspace/2026-10-18-041-45d2",
+        "proposal_sha256": "6f340dfc7f02722aa1eb025752896a32c128b8d34f80ddf9fb6f977c71e9f0f8",
+        "changes_sha256": "07538c1d25e8a988983bac911d2b6915f504aa4a26bff3ccce18c84b9276a9f8"
+      },
+      {
+        "entry": 42,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch01/_workspace/2026-10-18-042-e57b",
+        "proposal_sha256": "113d429d0f832b72810608b1664f51fe6820e7e68875833c2596e90149a2669b",
+        "changes_sha256": "a3c074360c99fea66177e6c5334771b31a861e43449be1c05d0be686ae9e936d"
+      }
+    ],
+    "no_full_entry_replacement": [
+      {
+        "entry": 9,
+        "base": "candidate.md strict/pure entry9",
+        "scope": "사실문구유지; 별도이득문장길이style만적용",
+        "source_verified": "WHO평균속도1%·사망사고위험4%공식본문"
+      }
+    ],
+    "style_application_order": [
+      {
+        "entry": 10,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch01/_workspace/2026-10-18-010-e223/publication-style-corrections.json",
+        "sha256": "208b7701bf2a5c3fea771e380f3eab431fc9a7d9b438914d1361dc670626d3a3"
+      },
+      {
+        "entry": 11,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch01/_workspace/2026-10-18-011-5c30/publication-style-corrections.json",
+        "sha256": "e197f630ac14c03f34a4fb4a72122d3d1b8c48f9b913c010e2514f7b624eb225"
+      },
+      {
+        "entry": 12,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch01/_workspace/2026-10-18-012-f70c/publication-style-corrections.json",
+        "sha256": "f48767292bffeac9ab305aa60f7496acb2186461c6fa40644625b678d5d2c9de"
+      },
+      {
+        "entry": 4,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch01/_workspace/2026-10-18-004-c5d0/publication-style-corrections.json",
+        "sha256": "652ede26a9823143f75345fa346880199d8ef00916e78fca29daf012909a0b41"
+      },
+      {
+        "entry": 9,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch01/_workspace/2026-10-18-009-f2a1/publication-style-corrections.json",
+        "sha256": "8686de2d59c423f77add58b47246a46202309f19f9395dc9b0580e788166b762"
+      },
+      {
+        "entry": 12,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch01/_workspace/2026-10-18-012-f70c/publication-style-corrections-r2.json",
+        "sha256": "883dad593b9fc1c51f3559bf78c7df820ae507e4bfc932bb1b173d19285cd00f"
+      }
+    ],
+    "editorial_supersession": [
+      {
+        "entry": 3,
+        "old_editorial_sha256": "138a7c355536348ef103c4cd397a7aa47383f73649e715fa4101455bdae7a5e7",
+        "old_field": "쉽게",
+        "old_decision": "revise",
+        "disposition": "superseded_do_not_apply",
+        "replacement_proposal_sha256": "15a65d86664e54297f13a25f191da6c8ed721d1260d76a85e5ece6a85163bd99"
+      },
+      {
+        "entry": 4,
+        "old_editorial_sha256": "e7f682dc98aa32c8dd6153962cb7e241fb175e4368e3fd5412df22f00f57ec38",
+        "old_field": "title",
+        "old_decision": "approve",
+        "disposition": "superseded_do_not_apply",
+        "replacement_proposal_sha256": "6bd33f209a48125c233769b504ea5c13b6545299fe592cdb2c58ad44329befe0"
+      },
+      {
+        "entry": 4,
+        "old_editorial_sha256": "e7f682dc98aa32c8dd6153962cb7e241fb175e4368e3fd5412df22f00f57ec38",
+        "old_field": "easy",
+        "old_decision": "revise",
+        "disposition": "superseded_do_not_apply",
+        "replacement_proposal_sha256": "6bd33f209a48125c233769b504ea5c13b6545299fe592cdb2c58ad44329befe0"
+      },
+      {
+        "entry": 5,
+        "old_editorial_sha256": "bd65a7f3be81ab951d01093ce7ee8f461551233a48ce861f18f51fd31ebb66c6",
+        "old_field": "쉽게",
+        "old_decision": "revise",
+        "disposition": "superseded_do_not_apply",
+        "replacement_proposal_sha256": "284da16ea0755ba29755d922f49d9135f3d3aa1892a62ea059aba35815a94399"
+      },
+      {
+        "entry": 8,
+        "old_editorial_sha256": "c3e7bc1a5cc9231d70b13dc4b2fd47ed966709f1a49fb73bd33382eb0df01d6e",
+        "old_field": "쉽게",
+        "old_decision": "revise",
+        "disposition": "superseded_do_not_apply",
+        "replacement_proposal_sha256": "2154612606fd02e24dfd2c4c9baa6f8526b095135e879949bbe8fc6ae668643d"
+      },
+      {
+        "entry": 11,
+        "old_editorial_sha256": "e4fe193713e4f3c865a58441d7fea00cbc304fb389a9dab08211ca178ebfa449",
+        "old_field": "쉽게",
+        "old_decision": "revise",
+        "disposition": "superseded_do_not_apply",
+        "replacement_proposal_sha256": "444ae65cfb43722aa0e8f3b844db768544e74910364366cdf514d6e292614cac"
+      },
+      {
+        "entry": 16,
+        "old_editorial_sha256": "0a1be02eee54c8c7547b542a2ac3a9db589623e4f0eb61b59801218a92a5e1d5",
+        "old_field": "easy",
+        "old_decision": "revise",
+        "disposition": "superseded_do_not_apply",
+        "replacement_proposal_sha256": "8ee7d9416525b899a55e5b34c6714c127231af140631649a7729b25731d2c0ad"
+      },
+      {
+        "entry": 24,
+        "old_editorial_sha256": "552a6df22deeb870541437de13c310388c26dae56d5bafe40a7a00ab37e1afd9",
+        "old_field": "쉽게",
+        "old_decision": "revise",
+        "disposition": "superseded_do_not_apply",
+        "replacement_proposal_sha256": "5537742a64ddb8ef90bd4e174affd76ded4ab178c24f08eb393923f4f60bd7a5"
+      },
+      {
+        "entry": 25,
+        "old_editorial_sha256": "72c397ef1fa61d799333235a695e29ca1d9f02ba35115d80a18f6124d1a69437",
+        "old_field": "쉽게",
+        "old_decision": "revise",
+        "disposition": "superseded_do_not_apply",
+        "replacement_proposal_sha256": "15b303c6c32b53ec270f95964b342fc3b3725ab819067735987030628344d68a"
+      },
+      {
+        "entry": 34,
+        "old_editorial_sha256": "1860ed1965d503594c0555fd22856cf4480312eda1a119a443cfbf4b8d0c35ad",
+        "old_field": "title",
+        "old_decision": "approve",
+        "disposition": "superseded_do_not_apply",
+        "replacement_proposal_sha256": "fc510f7605cb66198bbb22c7b839d92df5e96344ed7dcf51bbb3e3f6489f18d3"
+      },
+      {
+        "entry": 35,
+        "old_editorial_sha256": "9ba9107b247092fa35a8b7117f17081bd4da90a2caec1a45525e94c2a67c77e4",
+        "old_field": "title",
+        "old_decision": "revise",
+        "disposition": "superseded_do_not_apply",
+        "replacement_proposal_sha256": "4c93d14173fb7bf245ab3a1e8d5c2eebbcd2c3a552a1624ba2da77b297806bee"
+      },
+      {
+        "entry": 38,
+        "old_editorial_sha256": "09efda8574d53e76b65b718480e68ba10ba2abae51daee5891f5046b3474fe01",
+        "old_field": "title",
+        "old_decision": "revise",
+        "disposition": "superseded_do_not_apply",
+        "replacement_proposal_sha256": "912081f0c2244d8786a15a06ffc77849d33d5bf7f9f7b3be44803ac15dd758b4"
+      },
+      {
+        "entry": 40,
+        "old_editorial_sha256": "cc7f236d1428ae38a87a9bff0e29041e6ca76f9d0f079a195145685b783d6cd8",
+        "old_field": "title",
+        "old_decision": "revise",
+        "disposition": "superseded_do_not_apply",
+        "replacement_proposal_sha256": "3bb8f903983a28b8354df04872bad71e48ccdb714c59794e7f53f4807252f9bd"
+      },
+      {
+        "entry": 42,
+        "old_editorial_sha256": "1d838a2a904432dd6433017ba3f4a8c03869459aaa5a7404446fdab56a96e0f8",
+        "old_field": "title",
+        "old_decision": "revise",
+        "disposition": "superseded_do_not_apply",
+        "replacement_proposal_sha256": "113d429d0f832b72810608b1664f51fe6820e7e68875833c2596e90149a2669b"
+      },
+      {
+        "entry": 42,
+        "old_editorial_sha256": "1d838a2a904432dd6433017ba3f4a8c03869459aaa5a7404446fdab56a96e0f8",
+        "old_field": "easy",
+        "old_decision": "approve",
+        "disposition": "superseded_do_not_apply",
+        "replacement_proposal_sha256": "113d429d0f832b72810608b1664f51fe6820e7e68875833c2596e90149a2669b"
+      }
+    ],
+    "unresolved_confirmed_content_blockers": [],
+    "integration_conditions": [
+      "제28항신규DOI10.5534/wjmh.2013.31.2.83의kr-doi-add주석을도입부에추가하고intro SHA를통합계획에고정",
+      "fullentry41개→기존style10/11/12의5필드→신규style4/9/12의3필드순으로before정확일치적용;특히12는comma후길이r2",
+      "이번승인은통합입력바이트한정. 통합본문새SHA로독립정식KR-FIT및전체검사필요"
+    ],
+    "remaining_verification_limits": [
+      "초기감사및각batch에명시한미열람전문/구법현행전체/일부정책현행지원/실패접속한계는보존한다. 접근실패만으로거짓자료로판정하지않는다.",
+      "예:39과잉진단전문,38의2026PrEP지원,31전국무료검사조건·현행예외조문,42중국사고보고서·퀸즐랜드/법률의이번추가전수확인은완료주장하지않음.",
+      "formal_kr_fit=false이며새공개본문을이감사자가작성하거나출판하지않았다."
+    ],
+    "doi_delta": {
+      "add": [
+        "10.5534/wjmh.2013.31.2.83"
+      ],
+      "drop": []
+    }
+  }
 }

@@ -1,0 +1,153 @@
+{
+  "status": "unadopted_proposal",
+  "entry": 40,
+  "base": "strict-entry.md",
+  "publication_ready": false,
+  "changes": [
+    {
+      "field": "title",
+      "before": "골다공증 진단을 받았거나 살짝 넘어져 뼈가 부러진 적이 있으면, 의사에게 골다공증 약을 처방받아 꾸준히 쓰세요. 칼슘으로 대신하지 마세요",
+      "after": "골다공증 진단을 받았거나 가벼운 충격에 골절됐다면 의사에게 처방받으세요. 골다공증 약을 꾸준히 쓰고 칼슘으로 대신하지 마세요.",
+      "reason": "진단·취약성 골절 조건, 의사 처방, 지속 사용, 칼슘 대체 금지와 유입 앵커를 보존해 문법을 바로잡았습니다.",
+      "evidence": [
+        {
+          "URL": "https://doi.org/10.1002/14651858.CD001155.pub3",
+          "exactquotes": [
+            "We classified a study as secondary prevention if its population met one or more of the following hierarchical criteria: a diagnosis of osteoporosis, a history of vertebral fractures, a low bone mineral density T-score (-2.5 or lower), and 75 years old or older."
+          ],
+          "method": "Europe PMC 원시 JSON abstractText 직접 재열람",
+          "date": "2026-10-18",
+          "limits": "캐시 초록 열람이며 전문·신규 HTTP 검증 아님. 연구군 분류 기준이며 개인별 단일 처방 기준으로 제시하지 않음."
+        }
+      ]
+    },
+    {
+      "field": "쉽게",
+      "before": "골다공증 환자가 약을 쓰면 고관절 골절이 절반쯤 줄어듭니다. 고관절 수술 뒤 주사를 맞은 노인은 다시 부러지는 경우가 35%쯤 줄었습니다. 한국에서는 골절 뒤 1년 안에 약을 시작한 사람이 절반이 안 됐습니다.",
+      "after": "골절 위험이 높은 폐경 여성의 연구입니다. 알렌드로네이트를 먹은 쪽은 고관절 골절이 절반쯤 적었습니다. 고관절 수술 뒤 졸레드론산 주사를 맞은 노인은 새 골절이 35%쯤 줄었습니다.",
+      "reason": "이차 예방 분류는 골다공증·기존 골절 환자에 한정되지 않습니다. 골절 위험이 높은 폐경 여성으로 요약하고 약물 범위를 유지했습니다.",
+      "evidence": [
+        {
+          "URL": "https://doi.org/10.1002/14651858.CD001155.pub3",
+          "exactquotes": [
+            "We classified a study as secondary prevention if its population met one or more of the following hierarchical criteria: a diagnosis of osteoporosis, a history of vertebral fractures, a low bone mineral density T-score (-2.5 or lower), and 75 years old or older."
+          ],
+          "method": "Europe PMC 원시 JSON abstractText 직접 재열람",
+          "date": "2026-10-18",
+          "limits": "캐시 초록 열람이며 전문·신규 HTTP 검증 아님. 연구군 분류 기준이며 개인별 단일 처방 기준으로 제시하지 않음."
+        }
+      ]
+    },
+    {
+      "field": "이득",
+      "before": "취약성 골절은 가벼운 충격이나 일상 동작으로 생긴 골절입니다. 코크런은 2025년 알렌드로네이트 종설을 업데이트했습니다. 이미 골다공증이나 골절이 있는 폐경 여성을 대상으로 했습니다. 약을 먹은 쪽은 고관절 골절이 51%쯤 적었습니다. 원값은 RR 0.49, 95% CI 0.25~0.96입니다. 증상이 있는 척추 골절은 55%쯤 적었습니다. 원값은 RR 0.45, 95% CI 0.28~0.73입니다. HORIZON 시험에는 고관절 골절로 수술받은 사람이 참여했습니다. 참가자는 2,127명(평균 74.5세)이었습니다. 해마다 맞는 졸레드론산 주사를 수술 뒤 90일 안에 시작했습니다. 추적 중앙값은 1.9년입니다. 참가자 모두가 비타민 D와 칼슘을 함께 먹었습니다. 새 골절은 13.9%에서 8.6%로 35%쯤 줄었습니다. 사망도 13.3%에서 9.6%로 28%쯤 낮아졌습니다. 한국 골다공증 팩트시트는 환자의 약 복용 비율을 보고했습니다. 골다공증 환자 가운데 약을 먹은 사람은 33.5%였습니다. 골다공증성 골절 뒤 12개월 안에 약을 시작한 사람은 41.9%뿐이었습니다. 고관절 골절 뒤 12개월 안 조사망률은 여성 14.0%, 남성 21.0%였습니다.",
+      "after": "취약성 골절은 가벼운 충격이나 일상 동작으로 생긴 골절입니다. 코크런은 2025년 알렌드로네이트 종설을 업데이트했습니다. 골절 위험이 높은 폐경 여성의 결과입니다. 골다공증 진단, 과거 척추 골절이 분류 기준에 들었습니다. 골밀도 T점수 -2.5 이하, 75세 이상도 기준이었습니다. 이 가운데 하나 이상에 해당하면 이차 예방으로 분류했습니다. 약을 먹은 쪽은 고관절 골절이 51%쯤 적었습니다. 원값은 RR 0.49, 95% CI 0.25~0.96입니다. 증상이 있는 척추 골절은 55%쯤 적었습니다. 원값은 RR 0.45, 95% CI 0.28~0.73입니다. HORIZON 시험에는 고관절 골절로 수술받은 사람이 참여했습니다. 참가자는 2,127명(평균 74.5세)이었습니다. 해마다 맞는 졸레드론산 주사를 수술 뒤 90일 안에 시작했습니다. 추적 중앙값은 1.9년입니다. 참가자 모두가 비타민 D와 칼슘을 함께 먹었습니다. 새 골절은 13.9%에서 8.6%로 35%쯤 줄었습니다. 사망도 13.3%에서 9.6%로 28%쯤 낮아졌습니다. 한국 골다공증 팩트시트는 환자의 약 복용 비율을 보고했습니다. 골다공증 환자 가운데 약을 먹은 사람은 33.5%였습니다. 골다공증성 골절 뒤 12개월 안에 약을 시작한 사람은 41.9%뿐이었습니다. 고관절 골절 뒤 12개월 안 조사망률은 여성 14.0%, 남성 21.0%였습니다.",
+      "reason": "초록의 one or more와 네 가지 hierarchical criteria를 직접 확인했습니다. 진단, 과거 척추 골절, T점수, 연령 기준을 모두 명시합니다.",
+      "evidence": [
+        {
+          "URL": "https://doi.org/10.1002/14651858.CD001155.pub3",
+          "exactquotes": [
+            "We classified a study as secondary prevention if its population met one or more of the following hierarchical criteria: a diagnosis of osteoporosis, a history of vertebral fractures, a low bone mineral density T-score (-2.5 or lower), and 75 years old or older."
+          ],
+          "method": "Europe PMC 원시 JSON abstractText 직접 재열람",
+          "date": "2026-10-18",
+          "limits": "캐시 초록 열람이며 전문·신규 HTTP 검증 아님. 연구군 분류 기준이며 개인별 단일 처방 기준으로 제시하지 않음."
+        }
+      ]
+    },
+    {
+      "field": "비고",
+      "before": "논쟁이 있습니다. 시험 38개를 합친 메타분석에서는 총사망률 감소 증거를 찾지 못했습니다. 원값은 RR 0.98, 95% CI 0.91~1.05입니다. 졸레드론산만 봐도 효과가 뚜렷하지 않았습니다. 원값은 RR 0.88, 95% CI 0.68~1.13입니다. 저자들은 골절을 줄이는 목적으로만 이 약을 쓰라고 결론 내렸습니다. 코크런 수치의 근거 확실성도 낮음~중간으로 평가됐습니다. 아직 골절이 없고 골절 위험이 낮은 여성도 살펴봤습니다. 이들에게 알렌드로네이트는 고관절 골절에 뚜렷한 효과가 없었습니다. 원값은 RR 0.76, 95% CI 0.43~1.32입니다. 턱뼈 괴사, 비정형 대퇴골 골절 같은 드문 부작용도 있습니다. 몇 년짜리 시험으로는 이런 부작용이 다 드러나지 않습니다. 제때 검사받고 스스로 약을 늘리거나 끊지 마세요. 주사가 맞는 사람도, 먹는 약이 맞는 사람도 있습니다. 무엇을 쓸지는 의사가 정합니다. HORIZON에서는 두 무리 모두 칼슘과 비타민 D를 먹었습니다. 골절은 약을 쓴 쪽에서만 줄었습니다. 칼슘만 먹어서는 이 약의 효과를 얻을 수 없다는 뜻입니다. 골다공증을 찾는 법은 제39항(골밀도 검사)을 보세요. 주로 이득을 보는 사람은 자기 자신과 부모님입니다.",
+      "after": "논쟁이 있습니다. 시험 38개를 합친 메타분석에서는 총사망률 감소 증거를 찾지 못했습니다. 원값은 RR 0.98, 95% CI 0.91~1.05입니다. 졸레드론산만 봐도 효과가 뚜렷하지 않았습니다. 원값은 RR 0.88, 95% CI 0.68~1.13입니다. 저자들은 골절을 줄이는 목적으로만 이 약을 쓰라고 결론 내렸습니다. 코크런 수치의 근거 확실성도 낮음~중간으로 평가됐습니다. 아직 골절이 없고 골절 위험이 낮은 여성도 살펴봤습니다. 이들에게 알렌드로네이트는 고관절 골절에 뚜렷한 효과가 없었습니다. 원값은 RR 0.76, 95% CI 0.43~1.32입니다. 턱뼈 괴사, 비정형 대퇴골 골절 같은 드문 부작용도 있습니다. 몇 년짜리 시험으로는 이런 부작용이 다 드러나지 않습니다. 제때 검사받고 스스로 약을 늘리거나 끊지 마세요. 주사가 맞는 사람도, 먹는 약이 맞는 사람도 있습니다. 무엇을 쓸지는 의사가 정합니다. HORIZON에서는 두 무리 모두 칼슘과 비타민 D를 먹었습니다. 칼슘과 비타민 D만 먹은 쪽보다 약을 더한 쪽에서 골절이 적었습니다. 칼슘만 먹어서는 이 약의 효과를 얻을 수 없다는 뜻입니다. 골다공증을 찾는 법은 제39항(골밀도 검사)을 보세요. 주로 이득을 보는 사람은 자기 자신과 부모님입니다.",
+      "reason": "전후 비교로 오해될 문장을 두 무리 간 비교로 수정했습니다. 두 군 모두 칼슘·비타민 D를 받았고 약을 더한 군에 새 골절이 적었습니다.",
+      "evidence": [
+        {
+          "URL": "https://doi.org/10.1056/NEJMoa074941",
+          "exactquotes": [
+            "All patients (mean age, 74.5 years) received supplemental vitamin D and calcium.",
+            "The rates of any new clinical fracture were 8.6% in the zoledronic acid group and 13.9% in the placebo group, a 35% risk reduction with zoledronic acid (P=0.001)"
+          ],
+          "method": "Europe PMC 원시 JSON abstractText 직접 재열람",
+          "date": "2026-10-18",
+          "limits": "캐시 초록 열람이며 전문·신규 HTTP 검증 아님. 두 무리 비교이며 투약군만 전후 감소한 것으로 해석하지 않음."
+        }
+      ]
+    }
+  ],
+  "preservation": {
+    "pure_C11": true,
+    "unchanged_fields": [
+      "비용",
+      "근거등급",
+      "출처"
+    ],
+    "tags_unchanged": true,
+    "medical_values_unchanged": true,
+    "calcium_both_groups_unchanged": true
+  },
+  "additional_sources_read": [
+    {
+      "url": "https://doi.org/10.1001/jamainternmed.2019.2779",
+      "method": "캐시 9f8e5f46df729efbd4f6.json abstractText 직접 열람",
+      "date": "2026-10-18",
+      "exactquote": "No significant association was found between all drug treatments for osteoporosis and overall mortality rate (risk ratio [RR], 0.98; 95% CI, 0.91-1.05; I2 = 0%).",
+      "limits": "초록만 열람. 원래 비고의 수치·사망효과 유보 유지."
+    },
+    {
+      "url": "https://doi.org/10.11005/jbm.2020.27.4.281",
+      "method": "캐시 1536cd9ebcd962bacd84.json abstractText 직접 열람",
+      "date": "2026-10-18",
+      "exactquote": "Only 33.5% of patients with osteoporosis took AOMs, and even after an osteoporotic fracture, only 41.9% of patients took AOMs within the following 12 months.",
+      "limits": "초록만 열람. 한국 수치 이득에 유지."
+    }
+  ],
+  "validation": {
+    "easy_chars": 101,
+    "easy_sentence_count": 3,
+    "new_narrative_sentence_max_chars": 43,
+    "incoming_anchor": "골다공증 약",
+    "new_sentences": [
+      {
+        "text": "골다공증 진단을 받았거나 가벼운 충격에 골절됐다면 의사에게 처방받으세요.",
+        "chars": 40
+      },
+      {
+        "text": "골다공증 약을 꾸준히 쓰고 칼슘으로 대신하지 마세요.",
+        "chars": 29
+      },
+      {
+        "text": "골절 위험이 높은 폐경 여성의 연구입니다.",
+        "chars": 23
+      },
+      {
+        "text": "알렌드로네이트를 먹은 쪽은 고관절 골절이 절반쯤 적었습니다.",
+        "chars": 33
+      },
+      {
+        "text": "고관절 수술 뒤 졸레드론산 주사를 맞은 노인은 새 골절이 35%쯤 줄었습니다.",
+        "chars": 43
+      },
+      {
+        "text": "골절 위험이 높은 폐경 여성의 결과입니다.",
+        "chars": 23
+      },
+      {
+        "text": "골다공증 진단, 과거 척추 골절이 분류 기준에 들었습니다.",
+        "chars": 32
+      },
+      {
+        "text": "골밀도 T점수 -2.5 이하, 75세 이상도 기준이었습니다.",
+        "chars": 33
+      },
+      {
+        "text": "이 가운데 하나 이상에 해당하면 이차 예방으로 분류했습니다.",
+        "chars": 33
+      },
+      {
+        "text": "칼슘과 비타민 D만 먹은 쪽보다 약을 더한 쪽에서 골절이 적었습니다.",
+        "chars": 38
+      }
+    ]
+  },
+  "revision": "batch7 primary scope and between-group comparison"
+}

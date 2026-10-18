@@ -1,0 +1,899 @@
+{
+  "status": "approved",
+  "source_sha256": "475efc1164f8dc45848e5dcbdd7b436920f37c30d59c8ebe7a771b4352211709",
+  "candidate_sha256": "d4c107ea00f2e1903eed959d52408c4f7615ade14f8bcb6cd3a4f0a2e333f929",
+  "review": {
+    "path": "content-audit.md",
+    "sha256": "2c4af921d73bd4d2e9429fa0af21cf8df43b1a5579344487955b0d89deb7a1ce"
+  },
+  "review_decisions_sha256": "7b81f0546291130eafe7f7414c3f8d87709bcd8f55511c95e852d33bfa1374df",
+  "operations": [
+    {
+      "status": "approved",
+      "review": {
+        "path": "content-audit.md",
+        "sha256": "2c4af921d73bd4d2e9429fa0af21cf8df43b1a5579344487955b0d89deb7a1ce"
+      },
+      "entry": 1,
+      "base": "baseline",
+      "before_sha256": "62e3bdd5fdc76d385f145366c8105d9a82a295c40659ebc7d4944b23257033aa",
+      "replacement": {
+        "path": "_workspace/2026-10-18-001-7050/publication-entry-proposal.md",
+        "sha256": "b3943a10efe37a2b5ee793996d136df36ee145450468189a6271f1c256750633"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-001-7050/publication-entry-changes.json",
+        "sha256": "73c3f4eeb4089f9f848063b30b07de1be1d2423c7ca80fd8012ebb81d218ff1f"
+      }
+    },
+    {
+      "status": "approved",
+      "review": {
+        "path": "content-audit.md",
+        "sha256": "2c4af921d73bd4d2e9429fa0af21cf8df43b1a5579344487955b0d89deb7a1ce"
+      },
+      "entry": 2,
+      "base": "baseline",
+      "before_sha256": "5e6d20453b2c4ff1b2320a0988010dbd6577c14542a5e3773c99b84b3202d954",
+      "replacement": {
+        "path": "_workspace/2026-10-18-002-d928/publication-entry-proposal.md",
+        "sha256": "03e29759f53895ba458462323c99d27b8d4a81f567f422f62f8df1db5cd39d3e"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-002-d928/publication-entry-changes.json",
+        "sha256": "6772fbb1e4a07b472875cc71d88c494a3e4cda5c939ea2eda6c7fdd5f75e6d64"
+      }
+    },
+    {
+      "status": "approved",
+      "review": {
+        "path": "content-audit.md",
+        "sha256": "2c4af921d73bd4d2e9429fa0af21cf8df43b1a5579344487955b0d89deb7a1ce"
+      },
+      "entry": 3,
+      "base": "baseline",
+      "before_sha256": "5a936150cd73ee1ee2955a7b925aeb3e9483fa41855cfe1d692d07fdea2d7ff6",
+      "replacement": {
+        "path": "_workspace/2026-10-18-003-4912/publication-entry-proposal.md",
+        "sha256": "15a65d86664e54297f13a25f191da6c8ed721d1260d76a85e5ece6a85163bd99"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-003-4912/publication-entry-changes.json",
+        "sha256": "5fbf1c69e3bdc453dbe7eff89f2ede17903b838129b9bee7a30bfbd8181e708f"
+      }
+    },
+    {
+      "status": "approved",
+      "review": {
+        "path": "content-audit.md",
+        "sha256": "2c4af921d73bd4d2e9429fa0af21cf8df43b1a5579344487955b0d89deb7a1ce"
+      },
+      "entry": 4,
+      "base": "baseline",
+      "before_sha256": "ab3782edc02c7e07b0c7c083c400b857bfe22db941ddf71e029ff5cb8002392f",
+      "replacement": {
+        "path": "_workspace/2026-10-18-004-c5d0/publication-entry-proposal.md",
+        "sha256": "6bd33f209a48125c233769b504ea5c13b6545299fe592cdb2c58ad44329befe0"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-004-c5d0/publication-entry-changes.json",
+        "sha256": "f472626064f485bfbcd707ffd8607e65cf1a22aebc724d6b122d9768a9d88219"
+      }
+    },
+    {
+      "status": "approved",
+      "review": {
+        "path": "content-audit.md",
+        "sha256": "2c4af921d73bd4d2e9429fa0af21cf8df43b1a5579344487955b0d89deb7a1ce"
+      },
+      "entry": 5,
+      "base": "baseline",
+      "before_sha256": "feb7ff4080cb3fd964d53ac94248410861461617a614d90bfa73205a40c08b77",
+      "replacement": {
+        "path": "_workspace/2026-10-18-005-8841/publication-entry-proposal.md",
+        "sha256": "284da16ea0755ba29755d922f49d9135f3d3aa1892a62ea059aba35815a94399"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-005-8841/publication-entry-changes.json",
+        "sha256": "4667cafa8f334de8d7edebd6786556455ab5d3a9c5608dee20c214a7402ae566"
+      }
+    },
+    {
+      "status": "approved",
+      "review": {
+        "path": "content-audit.md",
+        "sha256": "2c4af921d73bd4d2e9429fa0af21cf8df43b1a5579344487955b0d89deb7a1ce"
+      },
+      "entry": 6,
+      "base": "baseline",
+      "before_sha256": "885a457493836e58f30b33220c7d15a5158be1456f105fa6980258a4b9e37eb1",
+      "replacement": {
+        "path": "_workspace/2026-10-18-006-1d2a/publication-entry-proposal.md",
+        "sha256": "3537d067b5166e3d55e7c0ff42e9f22fb08b940d9eee917da2c3b075258bdab2"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-006-1d2a/publication-entry-changes.json",
+        "sha256": "08dad888cc69f3b907907390cac88d0107ac708d7ee02120127cd8897744c084"
+      }
+    },
+    {
+      "status": "approved",
+      "review": {
+        "path": "content-audit.md",
+        "sha256": "2c4af921d73bd4d2e9429fa0af21cf8df43b1a5579344487955b0d89deb7a1ce"
+      },
+      "entry": 7,
+      "base": "baseline",
+      "before_sha256": "38cc63d0327a9d735797cbf0d95fc13edb965fed880317e421fd34c5b85e6912",
+      "replacement": {
+        "path": "_workspace/2026-10-18-007-1172/publication-entry-proposal.md",
+        "sha256": "bd43967ef2d189c53f4981597b06a9d93ece260dd8354af38133ab8b421250d3"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-007-1172/publication-entry-changes.json",
+        "sha256": "7ab2458b735bac5eefe6876d987d1d209f9c8b10f0a35072261a176daf7991a7"
+      }
+    },
+    {
+      "status": "approved",
+      "review": {
+        "path": "content-audit.md",
+        "sha256": "2c4af921d73bd4d2e9429fa0af21cf8df43b1a5579344487955b0d89deb7a1ce"
+      },
+      "entry": 8,
+      "base": "baseline",
+      "before_sha256": "b5b9da49ebad406f237442490ea8f4bdf2b4cc7b95f8832271a63a01c5cf0a26",
+      "replacement": {
+        "path": "_workspace/2026-10-18-008-0847/publication-entry-proposal.md",
+        "sha256": "2154612606fd02e24dfd2c4c9baa6f8526b095135e879949bbe8fc6ae668643d"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-008-0847/publication-entry-changes.json",
+        "sha256": "5059975bd0dfdf743a5d9da776537b9ff3421f74eece17b03f61ef6d23c09fd1"
+      }
+    },
+    {
+      "status": "approved",
+      "review": {
+        "path": "content-audit.md",
+        "sha256": "2c4af921d73bd4d2e9429fa0af21cf8df43b1a5579344487955b0d89deb7a1ce"
+      },
+      "entry": 10,
+      "base": "baseline",
+      "before_sha256": "2228b3f55d5e2fab3d67c41bdf0a8032a064cb6f84caf3c2f9f7b618f23f5515",
+      "replacement": {
+        "path": "_workspace/2026-10-18-010-e223/publication-entry-proposal.md",
+        "sha256": "11fc46c3c40ed0df0eb6d6c275d7ff3fad91932a9507ea63c8a15c5945f0d247"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-010-e223/publication-entry-changes.json",
+        "sha256": "cf1e53a691f6eada6ba60c7d4aa3928deda35d9c293b2fc6d122693caaee0ffc"
+      }
+    },
+    {
+      "status": "approved",
+      "review": {
+        "path": "content-audit.md",
+        "sha256": "2c4af921d73bd4d2e9429fa0af21cf8df43b1a5579344487955b0d89deb7a1ce"
+      },
+      "entry": 11,
+      "base": "baseline",
+      "before_sha256": "dbc583c21d8f7dfb4598fca9134e439ea67e3abeb1ac0b5d700c08673de63d2f",
+      "replacement": {
+        "path": "_workspace/2026-10-18-011-5c30/publication-entry-proposal.md",
+        "sha256": "444ae65cfb43722aa0e8f3b844db768544e74910364366cdf514d6e292614cac"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-011-5c30/publication-entry-changes.json",
+        "sha256": "75e21bc18af4b9249ac76e9b2a6688f670f239e1f61dda2c0d28a997876cdd8f"
+      }
+    },
+    {
+      "status": "approved",
+      "review": {
+        "path": "content-audit.md",
+        "sha256": "2c4af921d73bd4d2e9429fa0af21cf8df43b1a5579344487955b0d89deb7a1ce"
+      },
+      "entry": 12,
+      "base": "baseline",
+      "before_sha256": "bd1bf16be9c6ad3184581a3a136b25d6c059654105b9dec0b18637b590567917",
+      "replacement": {
+        "path": "_workspace/2026-10-18-012-f70c/publication-entry-proposal.md",
+        "sha256": "1136585b9e9f8f6dd04fc4df44797f0c26c2c5dee5b6364012bff3b120dcbb2b"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-012-f70c/publication-entry-changes.json",
+        "sha256": "e249dea22611c0785b52f2ae9ae92690063100e634d68aab1504c5aac6a53ea0"
+      }
+    },
+    {
+      "status": "approved",
+      "review": {
+        "path": "content-audit.md",
+        "sha256": "2c4af921d73bd4d2e9429fa0af21cf8df43b1a5579344487955b0d89deb7a1ce"
+      },
+      "entry": 13,
+      "base": "baseline",
+      "before_sha256": "590447b169d1231c7d91093a6ed3a94519738b125c25d3032a442b7bae9f20bb",
+      "replacement": {
+        "path": "_workspace/2026-10-18-013-396f/publication-entry-proposal.md",
+        "sha256": "14d03e5efd3d02fe8ef2bbee0cb35ba27c2aa1d5b2a94b64ab361368851931d4"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-013-396f/publication-entry-changes.json",
+        "sha256": "b1b4bbace627df3442438659a54aed0fc56d4ac0ae4c32332b008ffc3295fee0"
+      }
+    },
+    {
+      "status": "approved",
+      "review": {
+        "path": "content-audit.md",
+        "sha256": "2c4af921d73bd4d2e9429fa0af21cf8df43b1a5579344487955b0d89deb7a1ce"
+      },
+      "entry": 14,
+      "base": "baseline",
+      "before_sha256": "000704df4f45fa3060521b30749a763edff8b9e23a8990da85ecec84b4ac67a3",
+      "replacement": {
+        "path": "_workspace/2026-10-18-014-e27a/publication-entry-proposal.md",
+        "sha256": "8ff4c2ff7b7ddca89802fa5273613bf7bf1b706bfd16fdf7efd70b59d6e8768b"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-014-e27a/publication-entry-changes.json",
+        "sha256": "5b3191f27ecd0013bb9c7e036df785f07c0034c5f60dad90e459b73a333338a3"
+      }
+    },
+    {
+      "status": "approved",
+      "review": {
+        "path": "content-audit.md",
+        "sha256": "2c4af921d73bd4d2e9429fa0af21cf8df43b1a5579344487955b0d89deb7a1ce"
+      },
+      "entry": 15,
+      "base": "baseline",
+      "before_sha256": "c8f2eedec28df1c63a16b3d52f1f11adcf4127471c0d0ecd907d5fe6da25f4ab",
+      "replacement": {
+        "path": "_workspace/2026-10-18-015-abba/publication-entry-proposal.md",
+        "sha256": "fc694964bf16a417d051edcc2f89a9aefe119dcf3e089f42298dee38f4b4f5fb"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-015-abba/publication-entry-changes.json",
+        "sha256": "86ebaf29ef8e7e61da26fe9371e1e1b41f63914c9bd7cab4305d004076d19e3d"
+      }
+    },
+    {
+      "status": "approved",
+      "review": {
+        "path": "content-audit.md",
+        "sha256": "2c4af921d73bd4d2e9429fa0af21cf8df43b1a5579344487955b0d89deb7a1ce"
+      },
+      "entry": 16,
+      "base": "baseline",
+      "before_sha256": "9875dcc22d5d3bfa75472786c2c3b97034c7b7a4065b0cabf57771d0df8f7d4f",
+      "replacement": {
+        "path": "_workspace/2026-10-18-016-b22e/publication-entry-proposal.md",
+        "sha256": "8ee7d9416525b899a55e5b34c6714c127231af140631649a7729b25731d2c0ad"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-016-b22e/publication-entry-changes.json",
+        "sha256": "2cbe6db05b827d47922e18c49575341d77a4a34d8f193e5917cbb3ff75a5780d"
+      }
+    },
+    {
+      "status": "approved",
+      "review": {
+        "path": "content-audit.md",
+        "sha256": "2c4af921d73bd4d2e9429fa0af21cf8df43b1a5579344487955b0d89deb7a1ce"
+      },
+      "entry": 17,
+      "base": "baseline",
+      "before_sha256": "48b3370d2db1d14764b88872ec7ed0f01a4c67461d26c88ec5388b7b41545620",
+      "replacement": {
+        "path": "_workspace/2026-10-18-017-498c/publication-entry-proposal.md",
+        "sha256": "efc0ca3535fb3e16c718923f167b1a8eb660d041af7ce0bbe562d158cfe26f24"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-017-498c/publication-entry-changes.json",
+        "sha256": "9584293c5f89d7f7c077876c175bb970cb44a1be52671d8d10c71b37dc147855"
+      }
+    },
+    {
+      "status": "approved",
+      "review": {
+        "path": "content-audit.md",
+        "sha256": "2c4af921d73bd4d2e9429fa0af21cf8df43b1a5579344487955b0d89deb7a1ce"
+      },
+      "entry": 18,
+      "base": "baseline",
+      "before_sha256": "ad60965365671d5f448757caa4153d9846ae379721dc276ee540f1c69ac6e2db",
+      "replacement": {
+        "path": "_workspace/2026-10-18-018-7b30/publication-entry-proposal.md",
+        "sha256": "1037744df8dfc32b188d661a7614069273a401f5263f94135bccdf5c9e06fe16"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-018-7b30/publication-entry-changes.json",
+        "sha256": "606a5208862c45d38da660454c984a89070e6f12fcf80c666837b642dff73b1f"
+      }
+    },
+    {
+      "status": "approved",
+      "review": {
+        "path": "content-audit.md",
+        "sha256": "2c4af921d73bd4d2e9429fa0af21cf8df43b1a5579344487955b0d89deb7a1ce"
+      },
+      "entry": 19,
+      "base": "baseline",
+      "before_sha256": "5d784ad0a2b7bdcdced1bd10bd3e46618b515b3ee85f4167b5d863cf9274bedb",
+      "replacement": {
+        "path": "_workspace/2026-10-18-019-2acf/publication-entry-proposal.md",
+        "sha256": "e85a45f07f18bd37fa48bac5905646b6f0ff3c20b02e00c09ee87ebaf236f081"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-019-2acf/publication-entry-changes.json",
+        "sha256": "fb6f9eab4ae1d43abca6673430840c588708413f14ee6c9b816cb8143d74684d"
+      }
+    },
+    {
+      "status": "approved",
+      "review": {
+        "path": "content-audit.md",
+        "sha256": "2c4af921d73bd4d2e9429fa0af21cf8df43b1a5579344487955b0d89deb7a1ce"
+      },
+      "entry": 20,
+      "base": "baseline",
+      "before_sha256": "c120284d7f461dea53184f0234f0be7afc8351dfdf852d3c1f91c017acff813e",
+      "replacement": {
+        "path": "_workspace/2026-10-18-020-e7a6/publication-entry-proposal.md",
+        "sha256": "39ac6899530f4b2407e0733ef45f129cebb03e29e4f7ead7008ad780fee64460"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-020-e7a6/publication-entry-changes.json",
+        "sha256": "2a6f2c474a62aff973e9a0b28f0cbac3d5a6110bba501cb4187f7922313f4ccc"
+      }
+    },
+    {
+      "status": "approved",
+      "review": {
+        "path": "content-audit.md",
+        "sha256": "2c4af921d73bd4d2e9429fa0af21cf8df43b1a5579344487955b0d89deb7a1ce"
+      },
+      "entry": 21,
+      "base": "baseline",
+      "before_sha256": "3320a533e608df90c41169afa7e34e5493c179f60afd194dfbb4d9b758ba3460",
+      "replacement": {
+        "path": "_workspace/2026-10-18-021-56d1/publication-entry-proposal.md",
+        "sha256": "30ed25b49f824b509e0bd9203d13e3352fd842be0b77c06571ffd0c8e0c69294"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-021-56d1/publication-entry-changes.json",
+        "sha256": "24f846f2d9ca175804ae09d2908bd9b3bbdf46076d23eb86d23fa3e4e3ab7ed1"
+      }
+    },
+    {
+      "status": "approved",
+      "review": {
+        "path": "content-audit.md",
+        "sha256": "2c4af921d73bd4d2e9429fa0af21cf8df43b1a5579344487955b0d89deb7a1ce"
+      },
+      "entry": 22,
+      "base": "baseline",
+      "before_sha256": "0a3fa115fba83de693e6b11bae660119d41ccc80cf96b3fd33d5ae95e7a7c70d",
+      "replacement": {
+        "path": "_workspace/2026-10-18-022-5d9a/publication-entry-proposal.md",
+        "sha256": "25991ae94104e235187df0c355050901aabd2d2ec98c0884d3dd2f28e5271da6"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-022-5d9a/publication-entry-changes.json",
+        "sha256": "6ded4a8ce65b42eac8da0697aa93f99e53782dbd717e2b2ce2b64b4683fed409"
+      }
+    },
+    {
+      "status": "approved",
+      "review": {
+        "path": "content-audit.md",
+        "sha256": "2c4af921d73bd4d2e9429fa0af21cf8df43b1a5579344487955b0d89deb7a1ce"
+      },
+      "entry": 23,
+      "base": "baseline",
+      "before_sha256": "1c8af4f477b457cc20e50a57d5d9bae6db32cdfc2424fd9f2a2886f869811f9e",
+      "replacement": {
+        "path": "_workspace/2026-10-18-023-c161/publication-entry-proposal.md",
+        "sha256": "91d04aa305a9b0fe9eceac17ad6ab83acd17d05f2ef1410228595c9ffbccd12f"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-023-c161/publication-entry-changes.json",
+        "sha256": "0f743560abf52a4c52d75f21d473890b0dd2f8bb3c45d2d79826ec44ab3cd225"
+      }
+    },
+    {
+      "status": "approved",
+      "review": {
+        "path": "content-audit.md",
+        "sha256": "2c4af921d73bd4d2e9429fa0af21cf8df43b1a5579344487955b0d89deb7a1ce"
+      },
+      "entry": 24,
+      "base": "baseline",
+      "before_sha256": "fda2a3426b64bf71aa6a5f2ec77b8c82dc4a853e9a40fbdb1251f6526453942e",
+      "replacement": {
+        "path": "_workspace/2026-10-18-024-2d5b/publication-entry-proposal.md",
+        "sha256": "5537742a64ddb8ef90bd4e174affd76ded4ab178c24f08eb393923f4f60bd7a5"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-024-2d5b/publication-entry-changes.json",
+        "sha256": "e80ac84efb338c13ddd131826c65a9f9cb7e1aa5f40f4004e404429638046451"
+      }
+    },
+    {
+      "status": "approved",
+      "review": {
+        "path": "content-audit.md",
+        "sha256": "2c4af921d73bd4d2e9429fa0af21cf8df43b1a5579344487955b0d89deb7a1ce"
+      },
+      "entry": 25,
+      "base": "baseline",
+      "before_sha256": "1a5a9485adf8b96220ef805f947e4204910bc712427070d5c2fb024420b538a1",
+      "replacement": {
+        "path": "_workspace/2026-10-18-025-d95d/publication-entry-proposal.md",
+        "sha256": "15b303c6c32b53ec270f95964b342fc3b3725ab819067735987030628344d68a"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-025-d95d/publication-entry-changes.json",
+        "sha256": "691982b2139cc0ef6adf53a80777eb96cf705ab1b266002f873effa87db01639"
+      }
+    },
+    {
+      "status": "approved",
+      "review": {
+        "path": "content-audit.md",
+        "sha256": "2c4af921d73bd4d2e9429fa0af21cf8df43b1a5579344487955b0d89deb7a1ce"
+      },
+      "entry": 26,
+      "base": "baseline",
+      "before_sha256": "44c491be96b277af8f01f035bec3e610de832dfc198a520ca0da463e044a52c5",
+      "replacement": {
+        "path": "_workspace/2026-10-18-026-6dfd/publication-entry-proposal.md",
+        "sha256": "32e526223734cd0e4434a97d8d3c5cf86494004a1de7e4f01c873e9413589aa1"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-026-6dfd/publication-entry-changes.json",
+        "sha256": "7fc4894ac82da776df8ce2a5cf55122a8c825d76ca54bdd0978b1e433024162d"
+      }
+    },
+    {
+      "status": "approved",
+      "review": {
+        "path": "content-audit.md",
+        "sha256": "2c4af921d73bd4d2e9429fa0af21cf8df43b1a5579344487955b0d89deb7a1ce"
+      },
+      "entry": 27,
+      "base": "baseline",
+      "before_sha256": "e483d374d78d4b5bc0e93ac0abeb1e26cd51dfb6a331ee20efddf1de0ec0e0bd",
+      "replacement": {
+        "path": "_workspace/2026-10-18-027-68a9/publication-entry-proposal.md",
+        "sha256": "fee2c3db7d793cba018addd37ea4a55e5611a8c87c79892daa4c4ecf823fc053"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-027-68a9/publication-entry-changes.json",
+        "sha256": "dd43191076c4f4f88eb61912da6d4e38f8cd0e63ddedd17814c461d97204cfb2"
+      }
+    },
+    {
+      "status": "approved",
+      "review": {
+        "path": "content-audit.md",
+        "sha256": "2c4af921d73bd4d2e9429fa0af21cf8df43b1a5579344487955b0d89deb7a1ce"
+      },
+      "entry": 28,
+      "base": "baseline",
+      "before_sha256": "f216ec2a657958328d0d72c424b8de6d0bb9e564c24a6be0de77f4cac3f97f92",
+      "replacement": {
+        "path": "_workspace/2026-10-18-028-c3ed/publication-entry-proposal.md",
+        "sha256": "805bc1d8907a4c6e70ba5d20db22cab461a7f2c9efe9a1e0e0883bd841a750c1"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-028-c3ed/publication-entry-changes.json",
+        "sha256": "a596bff5144875916050e1aaa88eae4c67f7a3c45795aa1e86477ca3229e5713"
+      }
+    },
+    {
+      "status": "approved",
+      "review": {
+        "path": "content-audit.md",
+        "sha256": "2c4af921d73bd4d2e9429fa0af21cf8df43b1a5579344487955b0d89deb7a1ce"
+      },
+      "entry": 29,
+      "base": "baseline",
+      "before_sha256": "16a476e9bcb1e1128d0da78ada0647067bea4fd340279fca0ef40de0d44ff61a",
+      "replacement": {
+        "path": "_workspace/2026-10-18-029-7ea4/publication-entry-proposal.md",
+        "sha256": "223ecfe01a2a3875801c87e2bf486162f5094e8501867587a44ba2103c287a31"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-029-7ea4/publication-entry-changes.json",
+        "sha256": "73dca31cc2c2fd6470e062b4807d4744d2135704d68a9423d9eb8f206727db4d"
+      }
+    },
+    {
+      "status": "approved",
+      "review": {
+        "path": "content-audit.md",
+        "sha256": "2c4af921d73bd4d2e9429fa0af21cf8df43b1a5579344487955b0d89deb7a1ce"
+      },
+      "entry": 30,
+      "base": "baseline",
+      "before_sha256": "ccec9994a9d6f8a9b3af013e2abe6997c23f9b10865a3a4693adcde2c8ac858f",
+      "replacement": {
+        "path": "_workspace/2026-10-18-030-911a/publication-entry-proposal.md",
+        "sha256": "1a5125366a2fc05bf35e585354041c97fddbe04602e7b5c0f6526b051751cc8f"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-030-911a/publication-entry-changes.json",
+        "sha256": "d3248f684273f30c32d7b069858173a265c3e76786bd6e33dcdedf594ae2883a"
+      }
+    },
+    {
+      "status": "approved",
+      "review": {
+        "path": "content-audit.md",
+        "sha256": "2c4af921d73bd4d2e9429fa0af21cf8df43b1a5579344487955b0d89deb7a1ce"
+      },
+      "entry": 31,
+      "base": "baseline",
+      "before_sha256": "9f0f4e68b05966cee068965f23ae3da987d6cceb518234b4b5ab1c44d1d41476",
+      "replacement": {
+        "path": "_workspace/2026-10-18-031-dabc/publication-entry-proposal.md",
+        "sha256": "c7d950bfbdd3a1a377e601c234754018cdec011c497997d12f63f182cef94242"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-031-dabc/publication-entry-changes.json",
+        "sha256": "b7d612e3873f7080f58367ffa4def56667a31e543eb9456f387e69429b196a56"
+      }
+    },
+    {
+      "status": "approved",
+      "review": {
+        "path": "content-audit.md",
+        "sha256": "2c4af921d73bd4d2e9429fa0af21cf8df43b1a5579344487955b0d89deb7a1ce"
+      },
+      "entry": 32,
+      "base": "baseline",
+      "before_sha256": "cc1a6e0e91965b64d502452797d1a02597e60d52ab6f0c28ecffa3c73c1d0298",
+      "replacement": {
+        "path": "_workspace/2026-10-18-032-f680/publication-entry-proposal.md",
+        "sha256": "ce55c42a04738387096335be13ed7ba3578dd3079dbee77a76e753048d7a7a1e"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-032-f680/publication-entry-changes.json",
+        "sha256": "96746765baf38e9496f317796573c9ea0d0ce4600e4d30c96e1782fdbcd66e8a"
+      }
+    },
+    {
+      "status": "approved",
+      "review": {
+        "path": "content-audit.md",
+        "sha256": "2c4af921d73bd4d2e9429fa0af21cf8df43b1a5579344487955b0d89deb7a1ce"
+      },
+      "entry": 33,
+      "base": "baseline",
+      "before_sha256": "4dfe65aea509bb49bce65c0ebebbb5adba73455d8fcc06d4d60e63f9d0cd46ed",
+      "replacement": {
+        "path": "_workspace/2026-10-18-033-ac35/publication-entry-proposal.md",
+        "sha256": "c073d113f943cfb804d8c38e0b6f5506c1f54320a589b65938cf09891e933e72"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-033-ac35/publication-entry-changes.json",
+        "sha256": "8a9b212d8f482f33c93f649543a69406e5db5b4eae353d8540b78a6389407079"
+      }
+    },
+    {
+      "status": "approved",
+      "review": {
+        "path": "content-audit.md",
+        "sha256": "2c4af921d73bd4d2e9429fa0af21cf8df43b1a5579344487955b0d89deb7a1ce"
+      },
+      "entry": 34,
+      "base": "baseline",
+      "before_sha256": "b544eafb8d9842eeb8882cd8a1f563d4b88069775fb1ba9961a010f912c5dff3",
+      "replacement": {
+        "path": "_workspace/2026-10-18-034-0054/publication-entry-proposal.md",
+        "sha256": "fc510f7605cb66198bbb22c7b839d92df5e96344ed7dcf51bbb3e3f6489f18d3"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-034-0054/publication-entry-changes.json",
+        "sha256": "4d26e6e9c86550300e6000bfec52bdc0055acef060b4a1cd85d595bc3ba4675b"
+      }
+    },
+    {
+      "status": "approved",
+      "review": {
+        "path": "content-audit.md",
+        "sha256": "2c4af921d73bd4d2e9429fa0af21cf8df43b1a5579344487955b0d89deb7a1ce"
+      },
+      "entry": 35,
+      "base": "baseline",
+      "before_sha256": "5be2e2f6f08aa46fe336fc42283a37b3975f0596adae11685991056e10a3c39c",
+      "replacement": {
+        "path": "_workspace/2026-10-18-035-7c85/publication-entry-proposal.md",
+        "sha256": "4c93d14173fb7bf245ab3a1e8d5c2eebbcd2c3a552a1624ba2da77b297806bee"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-035-7c85/publication-entry-changes.json",
+        "sha256": "c785b952b00a97b4d608eb00983dc0cb5d8e18bb47d9f91f0b772db95da4ee15"
+      }
+    },
+    {
+      "status": "approved",
+      "review": {
+        "path": "content-audit.md",
+        "sha256": "2c4af921d73bd4d2e9429fa0af21cf8df43b1a5579344487955b0d89deb7a1ce"
+      },
+      "entry": 36,
+      "base": "baseline",
+      "before_sha256": "199ae1da54f994b3d6e8fbda4f8330868271396af6dde3226a54dd00d9e67360",
+      "replacement": {
+        "path": "_workspace/2026-10-18-036-5a63/publication-entry-proposal.md",
+        "sha256": "89f4a07195c115eb7d4f6737df13f4a3d2e83d4fc3cb31b20b9261f3471fdf63"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-036-5a63/publication-entry-changes.json",
+        "sha256": "4db8a50352ffb411626f467a94bf8765077ea2574dba946ad8e01228b8561233"
+      }
+    },
+    {
+      "status": "approved",
+      "review": {
+        "path": "content-audit.md",
+        "sha256": "2c4af921d73bd4d2e9429fa0af21cf8df43b1a5579344487955b0d89deb7a1ce"
+      },
+      "entry": 37,
+      "base": "baseline",
+      "before_sha256": "c705f32225e5b0a8a00013c0864e77a2e23f7f8606beae1f17ccfeb9c99c694e",
+      "replacement": {
+        "path": "_workspace/2026-10-18-037-6cc9/publication-entry-proposal.md",
+        "sha256": "9cf76e7fa52009c616cd6df73481a6442f032857391bd15f72ccf4f8b97f0b64"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-037-6cc9/publication-entry-changes.json",
+        "sha256": "d1d190fda92935730202b0d29979ad492afc3ec18076b972757351fe201281f5"
+      }
+    },
+    {
+      "status": "approved",
+      "review": {
+        "path": "content-audit.md",
+        "sha256": "2c4af921d73bd4d2e9429fa0af21cf8df43b1a5579344487955b0d89deb7a1ce"
+      },
+      "entry": 38,
+      "base": "baseline",
+      "before_sha256": "a88a951d69e72811d73b8c52254c4641cb80f4536b631f805e5313b9e797e805",
+      "replacement": {
+        "path": "_workspace/2026-10-18-038-f643/publication-entry-proposal.md",
+        "sha256": "912081f0c2244d8786a15a06ffc77849d33d5bf7f9f7b3be44803ac15dd758b4"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-038-f643/publication-entry-changes.json",
+        "sha256": "8fd4f1b8af60e1480a8928a0aedefbf4d926e6f0dfb9bdbaee59de52283e4b71"
+      }
+    },
+    {
+      "status": "approved",
+      "review": {
+        "path": "content-audit.md",
+        "sha256": "2c4af921d73bd4d2e9429fa0af21cf8df43b1a5579344487955b0d89deb7a1ce"
+      },
+      "entry": 39,
+      "base": "baseline",
+      "before_sha256": "7db210850909ee55f4bd388b5167ad4f1f397c9bd3ecd08f66964ae6cbe41eb9",
+      "replacement": {
+        "path": "_workspace/2026-10-18-039-8b13/publication-entry-proposal.md",
+        "sha256": "aa01769554a0314d30e99b9d7d730c949fb8e65036c481ae51f8efa87b2c9587"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-039-8b13/publication-entry-changes.json",
+        "sha256": "9f315bf7385cf0471241996764df5511e76b833925351306a22aa31ab1f94fa1"
+      }
+    },
+    {
+      "status": "approved",
+      "review": {
+        "path": "content-audit.md",
+        "sha256": "2c4af921d73bd4d2e9429fa0af21cf8df43b1a5579344487955b0d89deb7a1ce"
+      },
+      "entry": 40,
+      "base": "baseline",
+      "before_sha256": "5f3dd76c8cfaa13db48d5e8b58086454f93d37d6439b099296f3cf28a1d48f2b",
+      "replacement": {
+        "path": "_workspace/2026-10-18-040-7d78/publication-entry-proposal.md",
+        "sha256": "3bb8f903983a28b8354df04872bad71e48ccdb714c59794e7f53f4807252f9bd"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-040-7d78/publication-entry-changes.json",
+        "sha256": "632783669b72f48f1b8522d54069ad2f9fe96bb6c059dbd94e669e1febced008"
+      }
+    },
+    {
+      "status": "approved",
+      "review": {
+        "path": "content-audit.md",
+        "sha256": "2c4af921d73bd4d2e9429fa0af21cf8df43b1a5579344487955b0d89deb7a1ce"
+      },
+      "entry": 41,
+      "base": "baseline",
+      "before_sha256": "b9376d2ff69be6cd4b1362c4f88cdfba7e16107f385fd421055da5227a27e227",
+      "replacement": {
+        "path": "_workspace/2026-10-18-041-45d2/publication-entry-proposal.md",
+        "sha256": "6f340dfc7f02722aa1eb025752896a32c128b8d34f80ddf9fb6f977c71e9f0f8"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-041-45d2/publication-entry-changes.json",
+        "sha256": "07538c1d25e8a988983bac911d2b6915f504aa4a26bff3ccce18c84b9276a9f8"
+      }
+    },
+    {
+      "status": "approved",
+      "review": {
+        "path": "content-audit.md",
+        "sha256": "2c4af921d73bd4d2e9429fa0af21cf8df43b1a5579344487955b0d89deb7a1ce"
+      },
+      "entry": 42,
+      "base": "baseline",
+      "before_sha256": "c1e8e3e67f0e156f347515f975e5c67054222d3e9a52657ece7a859b612e6aa8",
+      "replacement": {
+        "path": "_workspace/2026-10-18-042-e57b/publication-entry-proposal.md",
+        "sha256": "113d429d0f832b72810608b1664f51fe6820e7e68875833c2596e90149a2669b"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-042-e57b/publication-entry-changes.json",
+        "sha256": "a3c074360c99fea66177e6c5334771b31a861e43449be1c05d0be686ae9e936d"
+      }
+    },
+    {
+      "status": "approved",
+      "review": {
+        "path": "content-audit.md",
+        "sha256": "2c4af921d73bd4d2e9429fa0af21cf8df43b1a5579344487955b0d89deb7a1ce"
+      },
+      "entry": 10,
+      "base": "candidate",
+      "before_sha256": "11fc46c3c40ed0df0eb6d6c275d7ff3fad91932a9507ea63c8a15c5945f0d247",
+      "field": "비용",
+      "before": "카시트는 하나에 십수만 원에서 수십만 원이고, 몇 년 씁니다. 탈 때마다 아이를 묶느라 1분이 더 듭니다.",
+      "after": "카시트는 하나에 십수만 원에서 수십만 원이고 몇 년 씁니다. 탈 때마다 아이를 묶느라 1분이 더 듭니다.",
+      "proposal_evidence": {
+        "path": "_workspace/2026-10-18-010-e223/publication-style-corrections.json",
+        "sha256": "208b7701bf2a5c3fea771e380f3eab431fc9a7d9b438914d1361dc670626d3a3"
+      }
+    },
+    {
+      "status": "approved",
+      "review": {
+        "path": "content-audit.md",
+        "sha256": "2c4af921d73bd4d2e9429fa0af21cf8df43b1a5579344487955b0d89deb7a1ce"
+      },
+      "entry": 11,
+      "base": "candidate",
+      "before_sha256": "444ae65cfb43722aa0e8f3b844db768544e74910364366cdf514d6e292614cac",
+      "field": "이득",
+      "before": "뉴욕시는 1972년부터 '아이들은 날 수 없다'는 사업을 벌였습니다. 위험이 큰 지역에 창문 보호대를 무료로 나눠 주고, 집을 찾아가 설명했습니다. 그 결과 브롱크스에서 신고된 추락이 1973~1975년에 50% 줄었습니다. 뉴욕시는 이어서 보건 규정을 고쳤습니다. 10세 이하 아이가 사는 아파트에는 집주인이 창문 보호대를 달게 했습니다. 미국에는 창문 추락을 다룬 전국 응급실 감시 자료도 있습니다. 2007년 1월~2017년 8월에 응급실 방문이 38,840건 있었습니다. 추락한 아이는 대부분 6세 미만이었습니다. 또 대부분 2층 이하에서 떨어졌습니다. 한국의 2021년 만 0~12세 퇴원 손상환자 통계도 있습니다. 손상 원인 중 추락·낙상이 42.6%로 가장 많았습니다.",
+      "after": "뉴욕시는 1972년부터 '아이들은 날 수 없다'는 사업을 벌였습니다. 위험이 큰 지역에 창문 보호대를 무료로 나눠 주고 집을 찾아가 설명했습니다. 그 결과 브롱크스에서 신고된 추락이 1973~1975년에 50% 줄었습니다. 뉴욕시는 이어서 보건 규정을 고쳤습니다. 10세 이하 아이가 사는 아파트에는 집주인이 창문 보호대를 달게 했습니다. 미국에는 창문 추락을 다룬 전국 응급실 감시 자료도 있습니다. 2007년 1월~2017년 8월에 응급실 방문이 38,840건 있었습니다. 추락한 아이는 대부분 6세 미만이었습니다. 또 대부분 2층 이하에서 떨어졌습니다. 한국의 2021년 만 0~12세 퇴원 손상환자 통계도 있습니다. 손상 원인 중 추락·낙상이 42.6%로 가장 많았습니다.",
+      "proposal_evidence": {
+        "path": "_workspace/2026-10-18-011-5c30/publication-style-corrections.json",
+        "sha256": "e197f630ac14c03f34a4fb4a72122d3d1b8c48f9b913c010e2514f7b624eb225"
+      }
+    },
+    {
+      "status": "approved",
+      "review": {
+        "path": "content-audit.md",
+        "sha256": "2c4af921d73bd4d2e9429fa0af21cf8df43b1a5579344487955b0d89deb7a1ce"
+      },
+      "entry": 11,
+      "base": "candidate",
+      "before_sha256": "1b8b9ec197bab188d16f32cbe808da15469538a8ef8244a47be03398fb2a574a",
+      "field": "비고",
+      "before": "창가와 베란다 쪽에 침대, 소파, 상자처럼 아이가 딛고 올라갈 물건을 두지 마세요. 방충망은 모기만 막을 뿐이고, 밀면 빠집니다. 보호대로 여기지 마세요. 고층이 아니어도 다세요. 미국 자료를 보면 추락은 대부분 2층 이하에서 일어났습니다.",
+      "after": "창가와 베란다 쪽에 침대, 소파, 상자처럼 아이가 딛고 올라갈 물건을 두지 마세요. 방충망은 모기만 막을 뿐이고 밀면 빠집니다. 보호대로 여기지 마세요. 고층이 아니어도 다세요. 미국 자료를 보면 추락은 대부분 2층 이하에서 일어났습니다.",
+      "proposal_evidence": {
+        "path": "_workspace/2026-10-18-011-5c30/publication-style-corrections.json",
+        "sha256": "e197f630ac14c03f34a4fb4a72122d3d1b8c48f9b913c010e2514f7b624eb225"
+      }
+    },
+    {
+      "status": "approved",
+      "review": {
+        "path": "content-audit.md",
+        "sha256": "2c4af921d73bd4d2e9429fa0af21cf8df43b1a5579344487955b0d89deb7a1ce"
+      },
+      "entry": 12,
+      "base": "candidate",
+      "before_sha256": "1136585b9e9f8f6dd04fc4df44797f0c26c2c5dee5b6364012bff3b120dcbb2b",
+      "field": "이득",
+      "before": "한 연구가 미국 해안경비대 자료로 조건이 비슷한 사람끼리 짝지어 비교했습니다. 비교 대상은 레저용 배를 타던 사람입니다. 구명조끼를 입은 사람은 안 입은 사람보다 익사 위험이 절반쯤이었습니다. 원값은 보정 RR 0.51, 95% CI 0.35~0.74입니다. 행정안전부는 2025-07-21 통계를 발표했습니다. ‘최근 5년’ 물놀이 사고 사망자는 112명입니다. 정확한 집계 시작·종료 연도는 이 발표 본문에 적혀 있지 않습니다. 하천에서 39명(35%), 계곡에서 33명(30%)이 숨졌습니다. 해수욕장은 25명(22%), 바닷가는 15명(13%)입니다. 원인은 구명조끼 미착용 같은 안전 부주의가 41명(37%)으로 가장 많았습니다. 수영 미숙 38명(34%), 음주 수영 19명(17%)이 뒤를 이었습니다. 나이로는 50대와 10대가 각각 20명을 넘었고, 10세 미만도 7명이었습니다. 「수상레저안전법」 제20조는 수상레저활동을 할 때 구명조끼 같은 인명안전장비를 입게 합니다. 어기면 50만원 이하의 과태료를 물 수 있습니다(제64조 제2항).",
+      "after": "한 연구가 미국 해안경비대 자료로 조건이 비슷한 사람끼리 짝지어 비교했습니다. 비교 대상은 레저용 배를 타던 사람입니다. 구명조끼를 입은 사람은 안 입은 사람보다 익사 위험이 절반쯤이었습니다. 원값은 보정 RR 0.51, 95% CI 0.35~0.74입니다. 행정안전부는 2025-07-21 통계를 발표했습니다. ‘최근 5년’ 물놀이 사고 사망자는 112명입니다. 정확한 집계 시작·종료 연도는 이 발표 본문에 적혀 있지 않습니다. 하천에서 39명(35%), 계곡에서 33명(30%)이 숨졌습니다. 해수욕장은 25명(22%), 바닷가는 15명(13%)입니다. 원인은 구명조끼 미착용 같은 안전 부주의가 41명(37%)으로 가장 많았습니다. 수영 미숙 38명(34%), 음주 수영 19명(17%)이 뒤를 이었습니다. 나이로는 50대와 10대가 각각 20명을 넘었고 10세 미만도 7명이었습니다. 「수상레저안전법」 제20조는 수상레저활동을 할 때 구명조끼 같은 인명안전장비를 입게 합니다. 어기면 50만원 이하의 과태료를 물 수 있습니다(제64조 제2항).",
+      "proposal_evidence": {
+        "path": "_workspace/2026-10-18-012-f70c/publication-style-corrections.json",
+        "sha256": "f48767292bffeac9ab305aa60f7496acb2186461c6fa40644625b678d5d2c9de"
+      }
+    },
+    {
+      "status": "approved",
+      "review": {
+        "path": "content-audit.md",
+        "sha256": "2c4af921d73bd4d2e9429fa0af21cf8df43b1a5579344487955b0d89deb7a1ce"
+      },
+      "entry": 12,
+      "base": "candidate",
+      "before_sha256": "bf3d2fb9f55034c7572ba79599f73ae7eb9ad8217fc4b9714dca08239c61909c",
+      "field": "비고",
+      "before": "A등급은 구명조끼 쪽에만 해당합니다. '눈을 떼지 말기'는 모두가 동의하는 상식이라 따로 보면 C등급입니다. 무작위로 나눠 비교한 시험은 없고, 앞으로도 할 수 없습니다. 이 연구는 레저용 배 이용자의 자료를 비교했습니다. 빠진 자료와 다른 문제로 많은 배가 분석에서 제외돼 결과에 편향이 있을 수 있습니다. 구명조끼 자체의 효과라고 확정하거나 모든 물놀이에 같은 수치를 적용할 수는 없습니다. 「수상레저안전법」의 착용 의무는 보트나 카약 같은 수상레저기구를 탈 때 적용됩니다. 이 조문이 계곡·하천 물놀이 전체를 다루지는 않습니다. 그런데 사망은 대부분 바로 그곳에서 났습니다. 겨울에 얼음 위에서 놀 때는 제41항(얼음 두께)을 보세요. 법령은 2026-10-10 국가법령정보센터에서 확인했습니다.",
+      "after": "A등급은 구명조끼 쪽에만 해당합니다. '눈을 떼지 말기'는 모두가 동의하는 상식이라 따로 보면 C등급입니다. 무작위로 나눠 비교한 시험은 없고 앞으로도 할 수 없습니다. 이 연구는 레저용 배 이용자의 자료를 비교했습니다. 빠진 자료와 다른 문제로 많은 배가 분석에서 제외돼 결과에 편향이 있을 수 있습니다. 구명조끼 자체의 효과라고 확정하거나 모든 물놀이에 같은 수치를 적용할 수는 없습니다. 「수상레저안전법」의 착용 의무는 보트나 카약 같은 수상레저기구를 탈 때 적용됩니다. 이 조문이 계곡·하천 물놀이 전체를 다루지는 않습니다. 그런데 사망은 대부분 바로 그곳에서 났습니다. 겨울에 얼음 위에서 놀 때는 제41항(얼음 두께)을 보세요. 법령은 2026-10-10 국가법령정보센터에서 확인했습니다.",
+      "proposal_evidence": {
+        "path": "_workspace/2026-10-18-012-f70c/publication-style-corrections.json",
+        "sha256": "f48767292bffeac9ab305aa60f7496acb2186461c6fa40644625b678d5d2c9de"
+      }
+    },
+    {
+      "status": "approved",
+      "review": {
+        "path": "content-audit.md",
+        "sha256": "2c4af921d73bd4d2e9429fa0af21cf8df43b1a5579344487955b0d89deb7a1ce"
+      },
+      "entry": 4,
+      "base": "candidate",
+      "before_sha256": "c0ba72a6cb100825a14c56f190d2f7142b3c9c0b2696b7a39c45440e38aa1c78",
+      "field": "이득",
+      "before": "「도시가스사업법 시행규칙」 별표 7은 가스 사용자에게 두 가지 의무를 지웁니다. 설비 작동 상태를 주기적으로 점검하고 이상이 있으면 지체 없이 보수해야 합니다. LPG는 판매업자가 공급할 때 시설을 안전 점검할 의무가 있습니다(「액화석유가스법」 제30조). 기준에 안 맞으면 판매업자는 고치라고 권고해야 합니다. 같은 법 제40조 제5항은 누구든지 가스용품을 개조하지 말라고 정합니다. 사용자는 제품에 표시된 방법대로 써야 합니다. 어기면 200만원 이하의 과태료가 나옵니다(제73조 제4항). 방문판매로 산 물건은 계약서를 받은 날부터 14일 안에 청약을 철회할 수 있습니다. 물건을 더 늦게 받았다면 물건을 받은 날부터 14일입니다. 용역도 공급 시작이 계약서 수령보다 늦으면 같습니다. 공급 시작일부터 14일입니다(「방문판매법」 제8조 제1항 제1호). 더 긴 철회 기간을 약정했다면 그 기간을 따릅니다. 사용하거나 일부 소비해 값이 크게 떨어지면 판매자의 의사에 반해 철회할 수 없습니다. 판매자는 철회 제한을 알기 쉬운 곳에 분명히 표시해야 합니다. 포장에 표시하거나 시용 상품을 제공하는 등의 방법이 있습니다. 시용 상품은 미리 써보는 견본입니다. 이런 조치가 없으면 값이 크게 줄어도 철회할 수 있습니다(제8조 제2항·제5항).",
+      "after": "「도시가스사업법 시행규칙」 별표 7은 가스 사용자에게 두 가지 의무를 지웁니다. 설비 작동 상태를 주기적으로 점검하고 이상이 있으면 지체 없이 보수해야 합니다. LPG 판매업자는 공급할 때 시설을 안전 점검해야 합니다(「액화석유가스법」 제30조). 기준에 안 맞으면 판매업자는 고치라고 권고해야 합니다. 같은 법 제40조 제5항은 누구든지 가스용품을 개조하지 말라고 정합니다. 사용자는 제품에 표시된 방법대로 써야 합니다. 어기면 200만원 이하의 과태료가 나옵니다(제73조 제4항). 방문판매로 산 물건은 계약서를 받은 날부터 14일 안에 청약을 철회할 수 있습니다. 물건을 더 늦게 받았다면 물건을 받은 날부터 14일입니다. 용역도 공급 시작이 계약서 수령보다 늦으면 같습니다. 공급 시작일부터 14일입니다(「방문판매법」 제8조 제1항 제1호). 더 긴 철회 기간을 약정했다면 그 기간을 따릅니다. 사용하거나 일부 소비해 값이 크게 떨어지면 판매자의 의사에 반해 철회할 수 없습니다. 판매자는 철회 제한을 알기 쉬운 곳에 분명히 표시해야 합니다. 포장에 표시하거나 시용 상품을 제공하는 등의 방법이 있습니다. 시용 상품은 미리 써보는 견본입니다. 이런 조치가 없으면 값이 크게 줄어도 철회할 수 있습니다(제8조 제2항·제5항).",
+      "proposal_evidence": {
+        "path": "_workspace/2026-10-18-004-c5d0/publication-style-corrections.json",
+        "sha256": "652ede26a9823143f75345fa346880199d8ef00916e78fca29daf012909a0b41"
+      }
+    },
+    {
+      "status": "approved",
+      "review": {
+        "path": "content-audit.md",
+        "sha256": "2c4af921d73bd4d2e9429fa0af21cf8df43b1a5579344487955b0d89deb7a1ce"
+      },
+      "entry": 9,
+      "base": "candidate",
+      "before_sha256": "e21d093b3a53ad3871eef0844e95afc101ab501eb2f7e16573e724d9347e2653",
+      "field": "이득",
+      "before": "세계보건기구(WHO)에 따르면 평균 속도가 1% 높아질 때 사망 사고 위험은 4% 오릅니다. 음주운전 사고 위험은 혈중알코올농도가 낮은 수준에서부터 오르기 시작합니다. 한국 「도로교통법」 제44조는 혈중알코올농도 0.03% 이상이면 운전을 금지합니다.",
+      "after": "세계보건기구(WHO)는 평균 속도와 사망 사고 위험의 관계를 설명합니다. 평균 속도가 1% 높아질 때 사망 사고 위험은 4% 오릅니다. 음주운전 사고 위험은 혈중알코올농도가 낮은 수준에서부터 오르기 시작합니다. 한국 「도로교통법」 제44조는 혈중알코올농도 0.03% 이상이면 운전을 금지합니다.",
+      "proposal_evidence": {
+        "path": "_workspace/2026-10-18-009-f2a1/publication-style-corrections.json",
+        "sha256": "8686de2d59c423f77add58b47246a46202309f19f9395dc9b0580e788166b762"
+      }
+    },
+    {
+      "status": "approved",
+      "review": {
+        "path": "content-audit.md",
+        "sha256": "2c4af921d73bd4d2e9429fa0af21cf8df43b1a5579344487955b0d89deb7a1ce"
+      },
+      "entry": 12,
+      "base": "candidate",
+      "before_sha256": "e976ec328a2b1c79fa9d3e2371dfe0785048f909f805a59c345ebde421b411f1",
+      "field": "이득",
+      "before": "한 연구가 미국 해안경비대 자료로 조건이 비슷한 사람끼리 짝지어 비교했습니다. 비교 대상은 레저용 배를 타던 사람입니다. 구명조끼를 입은 사람은 안 입은 사람보다 익사 위험이 절반쯤이었습니다. 원값은 보정 RR 0.51, 95% CI 0.35~0.74입니다. 행정안전부는 2025-07-21 통계를 발표했습니다. ‘최근 5년’ 물놀이 사고 사망자는 112명입니다. 정확한 집계 시작·종료 연도는 이 발표 본문에 적혀 있지 않습니다. 하천에서 39명(35%), 계곡에서 33명(30%)이 숨졌습니다. 해수욕장은 25명(22%), 바닷가는 15명(13%)입니다. 원인은 구명조끼 미착용 같은 안전 부주의가 41명(37%)으로 가장 많았습니다. 수영 미숙 38명(34%), 음주 수영 19명(17%)이 뒤를 이었습니다. 나이로는 50대와 10대가 각각 20명을 넘었고 10세 미만도 7명이었습니다. 「수상레저안전법」 제20조는 수상레저활동을 할 때 구명조끼 같은 인명안전장비를 입게 합니다. 어기면 50만원 이하의 과태료를 물 수 있습니다(제64조 제2항).",
+      "after": "한 연구가 미국 해안경비대 자료로 조건이 비슷한 사람끼리 짝지어 비교했습니다. 비교 대상은 레저용 배를 타던 사람입니다. 구명조끼를 입은 사람은 안 입은 사람보다 익사 위험이 절반쯤이었습니다. 원값은 보정 RR 0.51, 95% CI 0.35~0.74입니다. 행정안전부는 2025-07-21 통계를 발표했습니다. ‘최근 5년’ 물놀이 사고 사망자는 112명입니다. 정확한 집계 시작·종료 연도는 이 발표 본문에 적혀 있지 않습니다. 하천에서 39명(35%), 계곡에서 33명(30%)이 숨졌습니다. 해수욕장은 25명(22%), 바닷가는 15명(13%)입니다. 원인은 구명조끼 미착용 같은 안전 부주의가 41명(37%)으로 가장 많았습니다. 수영 미숙 38명(34%), 음주 수영 19명(17%)이 뒤를 이었습니다. 나이로는 50대와 10대가 각각 20명을 넘었고 10세 미만도 7명이었습니다. 「수상레저안전법」 제20조는 수상레저활동 때 구명조끼 같은 인명안전장비를 입게 합니다. 어기면 50만원 이하의 과태료를 물 수 있습니다(제64조 제2항).",
+      "proposal_evidence": {
+        "path": "_workspace/2026-10-18-012-f70c/publication-style-corrections-r2.json",
+        "sha256": "883dad593b9fc1c51f3559bf78c7df820ae507e4bfc932bb1b173d19285cd00f"
+      }
+    }
+  ],
+  "intro_sha256": "4d01561c5993df16fb48a3d24906ddeb5ca235df71a458afe7a2c2826d4a4f72",
+  "doi_annotations": [
+    {
+      "status": "approved",
+      "action": "add",
+      "doi": "10.5534/wjmh.2013.31.2.83",
+      "reason": "발기부전의 평가와 질산염 병용 금기를 한국 진료지침으로 보강",
+      "review": {
+        "path": "content-audit.md",
+        "sha256": "2c4af921d73bd4d2e9429fa0af21cf8df43b1a5579344487955b0d89deb7a1ce"
+      }
+    }
+  ]
+}

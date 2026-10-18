@@ -1,0 +1,44 @@
+{
+  "entry": 28,
+  "status": "unadopted",
+  "base": "strict-entry.md",
+  "changes": [
+    {
+      "field": "비고",
+      "before": "어쩌다 한두 번은 문제로 보지 않습니다. 석 달 넘게 이어질 때 문제로 봅니다.",
+      "after": "반복되거나 걱정되면 진료받으세요.",
+      "reason": "일시적 증상 무해 및 석 달 대기라는 일괄 기준을 확인하지 못해 삭제합니다. 진료 권고는 지침의 개별 평가 원칙을 독자용으로 풀었습니다.",
+      "quote": "The presence of any risk factors related to ED should be determined. It is useful to explain concurrent risk factors to patients in advance to help the patient's understanding. The status of sexual behaviors before and after ED should be investigated. ED should be investigated whether it is transient or persistent, whether it is acute or chronic, and if it is accompanied by other sexual dysfunctions (ejaculation disorder, decreased sexual desire, and orgasm disorder). In addition, treatment methods previously conducted and their efficacy should also be reviewed. The clinician should also inquire about erectile rigidity, erectile maintenance time, and the presence of nocturnal penile tumescence. The sex-related diseases or menopause of partners should also be noted.",
+      "URL": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3770856/fullTextXML",
+      "method": "캐시 원문 XML 직접 읽기; DIAGNOSIS OF ERECTILE DYSFUNCTION / Basic evaluation / Sexual history",
+      "date": "2026-10-18T13:17:41.902032+00:00",
+      "limits": "지침은 일시적/지속적, 급성/만성 여부를 평가하도록 합니다. 반복되거나 걱정된다는 문구는 직접 인용이 아닌 보수적인 진료 권고입니다. 석 달 대기나 한두 번 무해를 보장하지 않습니다."
+    },
+    {
+      "field": "출처",
+      "before": "Vlachopoulos CV, Terentes-Printzios DG, Ioakeimidis NK, Aznaouridis KA, Stefanadis CI (2013). Prediction of cardiovascular events and all-cause mortality with erectile dysfunction: a systematic review and meta-analysis of cohort studies. Circulation: Cardiovascular Quality and Outcomes, 6(1), 99-109. https://doi.org/10.1161/CIRCOUTCOMES.112.966903 · DailyMed(미국 국립의학도서관 의약품 설명서 모음). VIAGRA (sildenafil citrate) tablet, CONTRAINDICATIONS. https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d905dc8d-917f-4ea3-a4ee-a1ecf6967d4e",
+      "after": "Vlachopoulos CV, Terentes-Printzios DG, Ioakeimidis NK, Aznaouridis KA, Stefanadis CI (2013). Prediction of cardiovascular events and all-cause mortality with erectile dysfunction: a systematic review and meta-analysis of cohort studies. Circulation: Cardiovascular Quality and Outcomes, 6(1), 99-109. https://doi.org/10.1161/CIRCOUTCOMES.112.966903 · DailyMed(미국 국립의학도서관 의약품 설명서 모음). VIAGRA (sildenafil citrate) tablet, CONTRAINDICATIONS. https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d905dc8d-917f-4ea3-a4ee-a1ecf6967d4e · Ryu JK 외 (2013). Korean Society for Sexual Medicine and Andrology (KSSMA) Guideline on Erectile Dysfunction. World Journal of Men's Health, 31(2), 83–102. https://doi.org/10.5534/wjmh.2013.31.2.83",
+      "reason": "진단·진료 권고의 별도 근거로 실제 읽은 KSSMA 지침 DOI를 의도적으로 추가합니다. ROOT가 도입부 출처 표지와 통합해야 하며 이 작업에서는 도입부를 수정하지 않습니다.",
+      "quote": "The presence of any risk factors related to ED should be determined. It is useful to explain concurrent risk factors to patients in advance to help the patient's understanding. The status of sexual behaviors before and after ED should be investigated. ED should be investigated whether it is transient or persistent, whether it is acute or chronic, and if it is accompanied by other sexual dysfunctions (ejaculation disorder, decreased sexual desire, and orgasm disorder). In addition, treatment methods previously conducted and their efficacy should also be reviewed. The clinician should also inquire about erectile rigidity, erectile maintenance time, and the presence of nocturnal penile tumescence. The sex-related diseases or menopause of partners should also be noted.",
+      "URL": "https://doi.org/10.5534/wjmh.2013.31.2.83",
+      "method": "Europe PMC PMC3770856 원문 XML과 메타데이터 직접 확인",
+      "date": "2026-10-18T13:17:41.902032+00:00",
+      "limits": "2013년 지침이며 심혈관 연관성 메타분석이나 검사 후 사망 감소를 측정한 시험의 대체 근거가 아닙니다."
+    }
+  ],
+  "preserved_evidence": [
+    {
+      "field": "비고: 질산염 병용 경고",
+      "quote": "Administration of VIAGRA to patients using nitric oxide donors, such as organic nitrates or organic nitrites in any form. VIAGRA was shown to potentiate the hypotensive effect of nitrates",
+      "URL": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d905dc8d-917f-4ea3-a4ee-a1ecf6967d4e",
+      "method": "batch7-http-index.json 확인 및 ed-label-batch7.raw HTML 직접 읽기, CONTRAINDICATIONS",
+      "date": "2026-10-18T13:16:33.870593+00:00",
+      "limits": "VIAGRA 설명서의 병용 금기와 혈압 저하 경고를 유지합니다. 모든 발기 치료에 대한 동일한 효과를 주장하지 않습니다."
+    }
+  ],
+  "preserved_limits": [
+    "심혈관 위험 수치는 관찰 연구에서 나온 연관성입니다.",
+    "검사 한 번의 사망 감소 효과를 직접 측정한 수치가 아닙니다.",
+    "태그·근거등급·strict-entry.md를 변경하지 않았습니다."
+  ]
+}

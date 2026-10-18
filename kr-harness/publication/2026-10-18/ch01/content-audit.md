@@ -213,3 +213,124 @@ NHS Poisoning의직접인용: “do not try to make someone sick if you think th
 - **실패요청**: 후천성면역결핍증예방법MST220905본문API https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=220905&type=XML 는이번에도터널502로실패. 법정예외/처벌/전국무료검사조건의미확인한계를그대로남기며프레임이나상태코드만으로조문을읽었다고세지않는다. 검사결과절대비밀요약을삭제한것은법내용전체최신검증을뜻하지않는다.
 
 공개본문·pure/strict·기존승인fullentry/style·README·git미수정. 초기42항검토기록과이번수정승인은별개이며절전체출판준비완료는아니다.
+
+
+## 배치7 독립 재검토 — author-batch-7.json
+
+기존31항 및 별도문체5필드 승인은 보존했다. 각 proposal/changes 바이트의 manifest SHA와 JSON after 정합성을 확인했다. 원 snapshot·pure final을 필드별 비교해 연결어미 쉼표 삭제가 돌아오지 않았음을 확인했다.
+
+- 제37항 **approve**: 2018년 스웨덴 전문진료 등록초록의 2099명/67명/21명/SMR1.8·15와 2023년 정정 전문 Table4의 전체15.1·남12.1·여16.1(CI6.5–33.5)을 직접 대조했다. 정정이 여성 CI·유의성 수정임을 복원했다. 상담 효과와 관찰 사망비를 분리하고 금융 비밀번호 전달 권고를 은행상담으로 바꿨다. 109/1336 기존 공식HTML 재열람, 은행별 서비스 보장 아님. 제안 SHA `9cf76e7fa52009c616cd6df73481a6442f032857391bd15f72ccf4f8b97f0b64`, 변경근거 SHA `d1d190fda92935730202b0d29979ad492afc3ec18076b972757351fe201281f5`.
+- 제38항 **approve**: 네 논문 원시초록을 직접 읽어 iPrEx44%/PROUD86%(90%CI64–96)/IPERGAY86% 및 Fonner의 시험수준 고복용률 RR0.30을 대조했다. 개인 제때복용 효과 보장을 없애고 저복용률의 비유의를 효과없음으로 단정하지 않는다. 2025년 지원사업 내용은 과거시점으로 제한하고2026년 여부·가격 미확인임을 명시했다. 한국 안내PDF/WHO2019 세부복용법의 이번 독립 신규전수검증은 아니며 그 한계는 유지한다. 제안 SHA `912081f0c2244d8786a15a06ffc77849d33d5bf7f9f7b3be44803ac15dd758b4`, 변경근거 SHA `8fd4f1b8af60e1480a8928a0aedefbf4d926e6f0dfb9bdbaee59de52283e4b71`.
+- 제39항 **approve**: USPSTF 권고/근거검토/SCOOP 원시초록을 직접 대조해 65세미만 폐경여성의 위험평가→고위험 조건, 검진후치료 설계, RR0.83·42009명·주요결과HR0.94비유의·부차고관절HR0.72를 확인했다. 쉽게는 방향/조건/양을 보존했다. 과잉진단11.8–24.1%는 전문 미열람; 한국 고시의 이번 신규조문검증 아님. 한국 팩트시트 초록의33.5/41.9/14/21값 확인. 제안 SHA `aa01769554a0314d30e99b9d7d730c949fb8e65036c481ae51f8efa87b2c9587`, 변경근거 SHA `9f315bf7385cf0471241996764df5511e76b833925351306a22aa31ab1f94fa1`.
+- 제41항 **approve**: 신규 공식 본문3곳(국민안전24/NWS/CCOHS)을 직접 읽어 한국10cm·흩어진1~2명·결빙조건, 흰얼음배수, 캐나다15/20cm 및 보행자구명조끼/얼음송곳을 확인했다. 최소두께를 안전보장으로 바꾸지 않고 지나온얼음최강도 보장을 제거했다. 중국사례 및 DNR구조세부는 이번 신규전수검증 아님. 행안부96자 직접인용은 원문보호 예외로 유지. 제안 SHA `6f340dfc7f02722aa1eb025752896a32c128b8d34f80ddf9fb6f977c71e9f0f8`, 변경근거 SHA `07538c1d25e8a988983bac911d2b6915f504aa4a26bff3ccce18c84b9276a9f8`.
+- 제42항 **approve**: 신규CCOHS 본문에서 덮개/보안경과안면보호구/양손/정격속도/고정을 확인하고 한국·중국·튀르키예·일본 연구4편 원시초록을 읽었다. 한국성인≥18조건 복원, OR2.073을 반올림한2.07 보존. 중국조사보고서 두건 미접속을 거짓자료로 판단하지 않고 쉽게는 검증가능한 안전행동으로 줄였다. 기존 해외사례 상세/퀸즐랜드원문/법령의 이번 전수검증은 아님. 제안 SHA `113d429d0f832b72810608b1664f51fe6820e7e68875833c2596e90149a2669b`, 변경근거 SHA `a3c074360c99fea66177e6c5334771b31a861e43449be1c05d0be686ae9e936d`.
+
+신규HTTP 원시파일의 실제 URL·UTC·status·SHA·절대경로는 `/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch01-audit/batch7-http-index.json`에 있다. HTTP200만으로 승인하지 않고 본문을 읽었다. 국민안전24: “최소 10cm이상 ... 모여있지 않은 소수인원(1~2명)”; NWS: “White ... half as strong ... Double”; CCOHS: “15 cm ... small groups”, “20 cm ... larger groups”, “Wear a personal floatation device ...”, “Use both hands ...”, “Always use the provided guards”. 기존초록은 medical-doi-cache-index.json의 URL/회수시각/원시SHA/파일을 재열람한 것이며 신규접속으로 세지 않는다. 정정 전문은 pmc-fulltext/PMC10260222.xml의 Table4를 직접 읽었다. 공개본문·pure·기존승인fullentry/style·README·git 미수정. 전체출판준비완료 판정이 아니다.
+
+
+## 배치8 최종 두 항 독립 재검토 — author-batch-8-final.json
+
+기존31항 및 별도문체5필드 승인은 보존했다. 각 proposal/changes 바이트의 manifest SHA와 JSON after 정합성을 확인했다. 원 snapshot·pure final을 필드별 비교해 연결어미 쉼표 삭제가 돌아오지 않았음을 확인했다.
+
+- 제2항 **approve**: 코크런 원시초록의 오토바이 사고 관찰자료4편 OR0.58(CI0.50–0.68),6편OR0.31(CI0.25–0.38)을 직접 대조했다. 다른 전기탈것 효과로 일반화하지 않는다. 인용법281875 XML 제2조·제50조·제156조 및 부칙을 읽고 자전거운전자 처벌제외를 확인했다. 추가로 시행령290387 XML 별표8의 표 병합범위까지 읽어 이륜차57번2만원/개인형38의2번2만원을 확인했다. 전기자전거는 법정분류 요건을 충족한 전기자전거라는 범위이며 개별제품 적합성판정은 아니다. 제안 SHA `03e29759f53895ba458462323c99d27b8d4a81f567f422f62f8df1db5cd39d3e`, 변경근거 SHA `6772fbb1e4a07b472875cc71d88c494a3e4cda5c939ea2eda6c7fdd5f75e6d64`.
+- 제6항 **approve**: 소방시설법 인용2022버전 실제 XML 제16조·제61조·부칙을 재열람해 특정소방대상물 관계인·정당한사유예외·피난방해행위·300만원이하를 확인했다. 단순 전기자전거주차 자동위법 단정을 제거했다. 신규 정책브리핑 본문에서678/485/111/98/117·70% 표현과 충전완료플러그제거/대피로금지 실제 문구를 직접 읽었다. 485/678=71.5%와 공식70% 표기의 차이를 투명하게 구분했다. 이번에도2026현행법전수/원통계독립검증 아님. 제안 SHA `3537d067b5166e3d55e7c0ff42e9f22fb08b940d9eee917da2c3b075258bdab2`, 변경근거 SHA `08dad888cc69f3b907907390cac88d0107ac708d7ee02120127cd8897744c084`.
+
+실제 신규HTTP 소방청 정책브리핑 URL·UTC·status·SHA·원시경로는 ch01-audit/fire-policy-batch8.metadata.json에 보존했다. “총 678건”, “전동킥보드 화재가 485건으로 전체의 70%”, “충전이 완료되면 즉시 플러그를 뽑아”, “현관문이나 비상구 주변에서의 충전은 ... 대피로를 막아”를 본문에서 읽었다. 법령은 기존 law-version-cache-index.json의281875/290387 XML 및 ch01-audit/index.json의 fire.txt를 재열람한 것이며 새접속으로 세지 않았다. 290387 별표8 병합표21~43의 자전거등2만원은38의2에,44~58의 이륜차2만원은57에 각각 적용된다. 제156조6호 자전거운전자 제외 확인. 인용버전의 실제조문과본문만 검증했으며 현행2026년의 모든법변경이나제품분류까지 승인한뜻이 아니다. 공개본문·pure·기존승인fullentry/style·README·git 미수정.
+
+
+## 제1·9·28항 남은 핵심 근거 보강
+
+- 제1항 **revise**: 한국2025사망2549와 NHTSA앞좌석45/60 및 known-restraint50%/둘째줄60% 원자료 확인. 다만50%의 분모는 passenger vehicles(승용차+픽업/SUV/밴 등 소형트럭)이므로 현재 승용차만으로 좁힌 쉽게·이득은 수정 요청. 비고51자도 분리 요청. 한계: NHTSA의 원시효과추정연구 Kahane2015 자체는 이번 미열람. 공식통계/보고서의 범위 검증. 시행령별표6/8 실제XML 읽음, 새 HTTP법요청502와 구분.
+- 제9항 **approve_with_style_pending**: WHO 실제본문 every1%increaseinmean speed→4%fatalcrashrisk를 확인. 단일개인 절대확률 증가로 쓰지 않으며 기존 비고의 모형추정 한계 유지. 음주낮은BAC부터위험증가 확인. 51자 이득문장 분리style요청. 한계: WHO는≥0.04g/dl에서위험이유의하게증가한다고도 명시한다. 현재본문의 WHO는숫자없음은 음주량별 효과크기 숫자가 없다는 범위로 읽으며 위험증가기준이없다는 뜻은아님. WHO 인용기초모형 자체 미열람.
+- 제28항 **revise_verification_limit**: DailyMed 실제라벨 질산염/아질산염 금기 및 혈압저하강화 확인. KSSMA 국내지침 전문에서도 니트로글리세린등병용의생명위협저혈압·일시/지속성/급만성평가 확인. 석달넘어야문제·한두번문제아님이라는 일률기준은 확보자료에서확인못해 근거제시또는일률대기안내제거요청. 틀린정의로확정한판정은아님. 한계: 초기추정DOI10.4111/kju.2013.54.1.29검색결과0은 무효DOI판정아님. 실제제목검색으로10.5534/wjmh.2013.31.2.83/PMC3770856 전문확보. 최신한국지침전체를망라한것은아님.
+
+신규 공식원문/기존 법본문 구분:
+
+- NHTSA813573 PDF p1: “Passenger vehicles are passenger cars and light trucks (pickups, SUVs, and vans)”; p2: “Considering only occupant fatalities whose restraint use was known, 50 percent were restrained and 50 percent were unrestrained.”; p9: “fatal injury to front-seat passenger car occupants by 45 percent” 및 “front-seat light-truck occupants by 60 percent”. 따라서50% 분모를 승용차로만 제한하면 범위가 달라진다. raw `ch01-audit/road-nhtsa-batch7.raw`, 추출본 `.plain.txt`를 직접 읽었다.
+- e나라지표1614 실제 본문: “2025년 교통사고는 사고193,889건, 사망2,549명, 부상271,751명”. WHO 실제 본문: “every 1% increase in mean speed produces a 4% increase in the fatal crash risk”; “risk ... starts at low levels of blood alcohol concentration ... increases significantly ... ≥0.04g/dl”. URL/실제UTC/status/SHA/절대원시경로는 `ch01-audit/batch7-http-index.json`에 보존. MD에 base64를 넣지 않았다.
+- 법령 신규요청290387은502실패였지만, ROOT가 별도로 확보한 실제 `/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290387.xml`을 열어 기본정보(2026-10-02시행)와 **별표내용본문**을 읽었다. 프레임이나첨부링크확인만한것이 아니다. 별표6제9호: “동승자가13세미만 ...6만원”, “13세이상 ...3만원”; 별표8의44~58병합행은 승합/승용3만원이고56호가 좌석안전띠미착용이다. 원시SHA `dc0a1a3d2741dfc78b3dd7ae98d9334813a21f1d3188f6349efe9bedb7594ebe`, ROOT회수UTC2026-10-18T12:38:29.147626+00:00, exactURL및status200은 law-version-cache-index.json에 있다. 이번 감사자 신규HTTP 성공으로 세지 않았다.
+- DailyMed VIAGRA 실제라벨: “organic nitrates or organic nitrites in any form”, “potentiate the hypotensive effect of nitrates”. 신규 KSSMA전문 DOI10.5534/wjmh.2013.31.2.83: “ED should be investigated whether it is transient or persistent, whether it is acute or chronic”; “If patients are taking organic nitrates(nitroglycerine...) ... PDE5 inhibitors are contraindicated”; “life-threatening hypotension may occur”. 전문 raw `ch01-audit/ed-kssma-full.raw`와 정확URL/UTC/status/SHA/절대경로 `.metadata.json`을 보존. 제목검색도 `ed-title-search.raw`와 `.metadata.json`에 보존했다.3개월기준 출처를 이번 자료에서 확인하지 못했으므로 거짓이라고 단정하지 않고 원작성자 후속 제안 요청으로 남긴다.
+
+이 보강은 원본문·pure·기존승인fullentry를 고친 것이 아니다. 정확 수정안 승인과 전체통합본문 검증은 별도다.
+
+
+## 배치7 독립 재검토 — author-batch-7-r2.json
+
+기존31항 및 별도문체5필드 승인은 보존했다. 각 proposal/changes 바이트의 manifest SHA와 JSON after 정합성을 확인했다. 원 snapshot·pure final을 필드별 비교해 연결어미 쉼표 삭제가 돌아오지 않았음을 확인했다.
+
+- 제40항 **approve**: 코크런 실제 원시초록의 고위험 분류 네 조건(골다공증진단/척추골절/T점수≤-2.5/75세이상)과 하나이상 조건을 정확히 복원했다. 쉽게는 고위험폐경여성으로 짧게 요약하고 알렌드로네이트 범위를 유지한다. HORIZON 칼슘/D공통투여+약추가vs위약 비교로 바꿔 전후추론을 없앴다. 기존 수치/CI/사망효과 유보/논쟁 및 C-11 쉼표제거 보존. 전문 임상세부 전수검증은 아님. 제안 SHA `3bb8f903983a28b8354df04872bad71e48ccdb714c59794e7f53f4807252f9bd`, 변경근거 SHA `632783669b72f48f1b8522d54069ad2f9fe96bb6c059dbd94e669e1febced008`.
+
+신규HTTP 원시파일의 실제 URL·UTC·status·SHA·절대경로는 `/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch01-audit/batch7-http-index.json`에 있다. HTTP200만으로 승인하지 않고 본문을 읽었다. 국민안전24: “최소 10cm이상 ... 모여있지 않은 소수인원(1~2명)”; NWS: “White ... half as strong ... Double”; CCOHS: “15 cm ... small groups”, “20 cm ... larger groups”, “Wear a personal floatation device ...”, “Use both hands ...”, “Always use the provided guards”. 기존초록은 medical-doi-cache-index.json의 URL/회수시각/원시SHA/파일을 재열람한 것이며 신규접속으로 세지 않는다. 정정 전문은 pmc-fulltext/PMC10260222.xml의 Table4를 직접 읽었다. 공개본문·pure·기존승인fullentry/style·README·git 미수정. 전체출판준비완료 판정이 아니다.
+
+
+## 마지막 제1·28항 원작성자 수정안 독립 재검토 — author-final-additions.json
+
+기존31항 및 별도문체5필드 승인은 보존했다. 각 proposal/changes 바이트의 manifest SHA와 JSON after 정합성을 확인했다. 원 snapshot·pure final을 필드별 비교해 연결어미 쉼표 삭제가 돌아오지 않았음을 확인했다.
+
+- 제1항 **approve**: NHTSA 신규 원시PDF·WHO·e나라지표 실제본문을 독립 열람한 근거로50%분모를 승용차·소형트럭 탑승사망자로 복원하고 착용여부확인 조건을 유지했다.45/60효과추정과2025한국2549도확인.비고51자 분리.법령은281875제50조 및290387별표6/8 실제XML재열람으로 의무/범칙금3만원/동승자13세미만6만원 그밖3만원 확인. Kahane원연구전체 새검증아님. 제안 SHA `b3943a10efe37a2b5ee793996d136df36ee145450468189a6271f1c256750633`, 변경근거 SHA `73c3f4eeb4089f9f848063b30b07de1be1d2423c7ca80fd8012ebb81d218ff1f`.
+- 제28항 **approve**: 새로 읽은KSSMA2013 실제전문과DailyMed라벨을근거로 일률3개월대기/한두번문제아님단정을 제거하고 반복/걱정시진료로바꿨다.원지침문구는 일시/지속·급성/만성 평가원칙이며 진료문장은독자용권고임을구분했다. 질산염병용금기·저혈압위험 확인. 새 DOI10.5534/wjmh.2013.31.2.83의 명시적추가를 승인한다.기존심혈관관찰메타 수치/CI/연관성·검사1회사망효능미입증한계는 보존했다.도입부kr-doi-add표지가통합조건이며 원의학근거대체가아님. 제안 SHA `805bc1d8907a4c6e70ba5d20db22cab461a7f2c9efe9a1e0e0883bd841a750c1`, 변경근거 SHA `a596bff5144875916050e1aaa88eae4c67f7a3c45795aa1e86477ca3229e5713`.
+
+두 항의 신규HTTP·캐시 재열람 근거와 한계는 바로 앞 제1·9·28항 핵심근거보강 및 batch7-http-index.json/ed-kssma-full.metadata.json에 상세 기록했다. 제28항 추가DOI 10.5534/wjmh.2013.31.2.83만 의도적으로 추가 승인한다. 삭제DOI없음. ROOT는 도입부 kr-doi-add 표지와 새 통합해시를 묶어야 한다. 승인대상은 정확 proposal/changes 바이트이며 출판준비나정식KR-FIT승인이 아니다.
+
+
+## 최종 통합 입력 승인 — approved_for_integration
+
+마지막제40항의고위험분류/군간비교,제1항승용차·소형트럭분모,제28항일률3개월기준제거및실제KSSMA출처추가를현재SHA로승인했다. 기존31항과기존문체5필드는그대로보존했다. 총41개fullentry+변경없는제9항의style만으로42항을구성할수있다. 통합미리보기는메모리에서만만들어쉽게42개모두120자이하·2~4문장임을확인했다. 확인된내용blocker의미해결은없다. 각항의명시된미열람/TODO한계를전수검증완료로바꾸지않는다.
+
+적용순서: **승인fullentry41개 → 기존10·11·12항쉼표5필드 → 신규4·9·12항길이3필드**. 특히12항은comma제안after와r2제안before의실제정합을검증했다.4항은이득전체를한문장으로덮어쓰지말고해당문장unique-span치환으로적용한다.9항은strict/candidate의이득전체before일치후after.12r2는comma후이득전체before일치후after. 각제안파일SHA·필드별before/after·diff는JSONstyle_correction_reviews에있다.
+
+- 제4항 새style **approve**, SHA `652ede26a9823143f75345fa346880199d8ef00916e78fca29daf012909a0b41`.
+- 제9항 새style **approve**, SHA `8686de2d59c423f77add58b47246a46202309f19f9395dc9b0580e788166b762`.
+- 제12항 새style **approve**, SHA `883dad593b9fc1c51f3559bf78c7df820ae507e4bfc932bb1b173d19285cd00f`.
+
+최신fullentry 고정목록(각changes도검증):
+
+|항목|proposal SHA256|changes SHA256|
+|---|---|---|
+|1|`b3943a10efe37a2b5ee793996d136df36ee145450468189a6271f1c256750633`|`73c3f4eeb4089f9f848063b30b07de1be1d2423c7ca80fd8012ebb81d218ff1f`|
+|2|`03e29759f53895ba458462323c99d27b8d4a81f567f422f62f8df1db5cd39d3e`|`6772fbb1e4a07b472875cc71d88c494a3e4cda5c939ea2eda6c7fdd5f75e6d64`|
+|3|`15a65d86664e54297f13a25f191da6c8ed721d1260d76a85e5ece6a85163bd99`|`5fbf1c69e3bdc453dbe7eff89f2ede17903b838129b9bee7a30bfbd8181e708f`|
+|4|`6bd33f209a48125c233769b504ea5c13b6545299fe592cdb2c58ad44329befe0`|`f472626064f485bfbcd707ffd8607e65cf1a22aebc724d6b122d9768a9d88219`|
+|5|`284da16ea0755ba29755d922f49d9135f3d3aa1892a62ea059aba35815a94399`|`4667cafa8f334de8d7edebd6786556455ab5d3a9c5608dee20c214a7402ae566`|
+|6|`3537d067b5166e3d55e7c0ff42e9f22fb08b940d9eee917da2c3b075258bdab2`|`08dad888cc69f3b907907390cac88d0107ac708d7ee02120127cd8897744c084`|
+|7|`bd43967ef2d189c53f4981597b06a9d93ece260dd8354af38133ab8b421250d3`|`7ab2458b735bac5eefe6876d987d1d209f9c8b10f0a35072261a176daf7991a7`|
+|8|`2154612606fd02e24dfd2c4c9baa6f8526b095135e879949bbe8fc6ae668643d`|`5059975bd0dfdf743a5d9da776537b9ff3421f74eece17b03f61ef6d23c09fd1`|
+|10|`11fc46c3c40ed0df0eb6d6c275d7ff3fad91932a9507ea63c8a15c5945f0d247`|`cf1e53a691f6eada6ba60c7d4aa3928deda35d9c293b2fc6d122693caaee0ffc`|
+|11|`444ae65cfb43722aa0e8f3b844db768544e74910364366cdf514d6e292614cac`|`75e21bc18af4b9249ac76e9b2a6688f670f239e1f61dda2c0d28a997876cdd8f`|
+|12|`1136585b9e9f8f6dd04fc4df44797f0c26c2c5dee5b6364012bff3b120dcbb2b`|`e249dea22611c0785b52f2ae9ae92690063100e634d68aab1504c5aac6a53ea0`|
+|13|`14d03e5efd3d02fe8ef2bbee0cb35ba27c2aa1d5b2a94b64ab361368851931d4`|`b1b4bbace627df3442438659a54aed0fc56d4ac0ae4c32332b008ffc3295fee0`|
+|14|`8ff4c2ff7b7ddca89802fa5273613bf7bf1b706bfd16fdf7efd70b59d6e8768b`|`5b3191f27ecd0013bb9c7e036df785f07c0034c5f60dad90e459b73a333338a3`|
+|15|`fc694964bf16a417d051edcc2f89a9aefe119dcf3e089f42298dee38f4b4f5fb`|`86ebaf29ef8e7e61da26fe9371e1e1b41f63914c9bd7cab4305d004076d19e3d`|
+|16|`8ee7d9416525b899a55e5b34c6714c127231af140631649a7729b25731d2c0ad`|`2cbe6db05b827d47922e18c49575341d77a4a34d8f193e5917cbb3ff75a5780d`|
+|17|`efc0ca3535fb3e16c718923f167b1a8eb660d041af7ce0bbe562d158cfe26f24`|`9584293c5f89d7f7c077876c175bb970cb44a1be52671d8d10c71b37dc147855`|
+|18|`1037744df8dfc32b188d661a7614069273a401f5263f94135bccdf5c9e06fe16`|`606a5208862c45d38da660454c984a89070e6f12fcf80c666837b642dff73b1f`|
+|19|`e85a45f07f18bd37fa48bac5905646b6f0ff3c20b02e00c09ee87ebaf236f081`|`fb6f9eab4ae1d43abca6673430840c588708413f14ee6c9b816cb8143d74684d`|
+|20|`39ac6899530f4b2407e0733ef45f129cebb03e29e4f7ead7008ad780fee64460`|`2a6f2c474a62aff973e9a0b28f0cbac3d5a6110bba501cb4187f7922313f4ccc`|
+|21|`30ed25b49f824b509e0bd9203d13e3352fd842be0b77c06571ffd0c8e0c69294`|`24f846f2d9ca175804ae09d2908bd9b3bbdf46076d23eb86d23fa3e4e3ab7ed1`|
+|22|`25991ae94104e235187df0c355050901aabd2d2ec98c0884d3dd2f28e5271da6`|`6ded4a8ce65b42eac8da0697aa93f99e53782dbd717e2b2ce2b64b4683fed409`|
+|23|`91d04aa305a9b0fe9eceac17ad6ab83acd17d05f2ef1410228595c9ffbccd12f`|`0f743560abf52a4c52d75f21d473890b0dd2f8bb3c45d2d79826ec44ab3cd225`|
+|24|`5537742a64ddb8ef90bd4e174affd76ded4ab178c24f08eb393923f4f60bd7a5`|`e80ac84efb338c13ddd131826c65a9f9cb7e1aa5f40f4004e404429638046451`|
+|25|`15b303c6c32b53ec270f95964b342fc3b3725ab819067735987030628344d68a`|`691982b2139cc0ef6adf53a80777eb96cf705ab1b266002f873effa87db01639`|
+|26|`32e526223734cd0e4434a97d8d3c5cf86494004a1de7e4f01c873e9413589aa1`|`7fc4894ac82da776df8ce2a5cf55122a8c825d76ca54bdd0978b1e433024162d`|
+|27|`fee2c3db7d793cba018addd37ea4a55e5611a8c87c79892daa4c4ecf823fc053`|`dd43191076c4f4f88eb61912da6d4e38f8cd0e63ddedd17814c461d97204cfb2`|
+|28|`805bc1d8907a4c6e70ba5d20db22cab461a7f2c9efe9a1e0e0883bd841a750c1`|`a596bff5144875916050e1aaa88eae4c67f7a3c45795aa1e86477ca3229e5713`|
+|29|`223ecfe01a2a3875801c87e2bf486162f5094e8501867587a44ba2103c287a31`|`73dca31cc2c2fd6470e062b4807d4744d2135704d68a9423d9eb8f206727db4d`|
+|30|`1a5125366a2fc05bf35e585354041c97fddbe04602e7b5c0f6526b051751cc8f`|`d3248f684273f30c32d7b069858173a265c3e76786bd6e33dcdedf594ae2883a`|
+|31|`c7d950bfbdd3a1a377e601c234754018cdec011c497997d12f63f182cef94242`|`b7d612e3873f7080f58367ffa4def56667a31e543eb9456f387e69429b196a56`|
+|32|`ce55c42a04738387096335be13ed7ba3578dd3079dbee77a76e753048d7a7a1e`|`96746765baf38e9496f317796573c9ea0d0ce4600e4d30c96e1782fdbcd66e8a`|
+|33|`c073d113f943cfb804d8c38e0b6f5506c1f54320a589b65938cf09891e933e72`|`8a9b212d8f482f33c93f649543a69406e5db5b4eae353d8540b78a6389407079`|
+|34|`fc510f7605cb66198bbb22c7b839d92df5e96344ed7dcf51bbb3e3f6489f18d3`|`4d26e6e9c86550300e6000bfec52bdc0055acef060b4a1cd85d595bc3ba4675b`|
+|35|`4c93d14173fb7bf245ab3a1e8d5c2eebbcd2c3a552a1624ba2da77b297806bee`|`c785b952b00a97b4d608eb00983dc0cb5d8e18bb47d9f91f0b772db95da4ee15`|
+|36|`89f4a07195c115eb7d4f6737df13f4a3d2e83d4fc3cb31b20b9261f3471fdf63`|`4db8a50352ffb411626f467a94bf8765077ea2574dba946ad8e01228b8561233`|
+|37|`9cf76e7fa52009c616cd6df73481a6442f032857391bd15f72ccf4f8b97f0b64`|`d1d190fda92935730202b0d29979ad492afc3ec18076b972757351fe201281f5`|
+|38|`912081f0c2244d8786a15a06ffc77849d33d5bf7f9f7b3be44803ac15dd758b4`|`8fd4f1b8af60e1480a8928a0aedefbf4d926e6f0dfb9bdbaee59de52283e4b71`|
+|39|`aa01769554a0314d30e99b9d7d730c949fb8e65036c481ae51f8efa87b2c9587`|`9f315bf7385cf0471241996764df5511e76b833925351306a22aa31ab1f94fa1`|
+|40|`3bb8f903983a28b8354df04872bad71e48ccdb714c59794e7f53f4807252f9bd`|`632783669b72f48f1b8522d54069ad2f9fe96bb6c059dbd94e669e1febced008`|
+|41|`6f340dfc7f02722aa1eb025752896a32c128b8d34f80ddf9fb6f977c71e9f0f8`|`07538c1d25e8a988983bac911d2b6915f504aa4a26bff3ccce18c84b9276a9f8`|
+|42|`113d429d0f832b72810608b1664f51fe6820e7e68875833c2596e90149a2669b`|`a3c074360c99fea66177e6c5334771b31a861e43449be1c05d0be686ae9e936d`|
+
+기존editorial-proposal의비null15필드는이목록의동일항목fullentry로모두대체한다. 최초approve/revise기록은감사이력으로남기며,예전필드를fullentry후다시적용하지않는다. 정확대체해시는JSONintegration_approval.editorial_supersession에보존했다.
+
+제28항추가DOI `10.5534/wjmh.2013.31.2.83`은실제열람한국지침의개별평가/질산염금기보강목적으로승인.원관찰메타대체가아니다.ROOT는도입부kr-doi-add주석과intro SHA를통합계획에고정해야한다.다른의도된DOI추가/삭제없음. 최종DOI·참조·형식검사는통합후새본문으로진행한다.
+
+**formal_kr_fit=false; publication_ready=false**. 이판정은통합할정확입력만승인한다. 일부전문·현행지원정책·실패법령요청등의검증한계는각항기록대로남고,통합본문의새SHA에대한정식독립리뷰가필요하다. 공개본문·README·pure/strict·승인fullentry/style·git는수정하지않았다.

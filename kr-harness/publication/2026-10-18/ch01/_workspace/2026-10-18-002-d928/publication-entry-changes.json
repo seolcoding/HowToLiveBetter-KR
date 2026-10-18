@@ -1,0 +1,72 @@
+{
+  "entry": 2,
+  "status": "unadopted_proposal",
+  "base": "strict-entry.md",
+  "base_sha256": "5c74b462ea95de59e87e29acb7209c3e2fefd36b724699c31949061c793e965a",
+  "proposal_sha256": "03e29759f53895ba458462323c99d27b8d4a81f567f422f62f8df1db5cd39d3e",
+  "changes": [
+    {
+      "field": "쉽게",
+      "before": "헬멧을 쓰고 턱끈까지 채우면 오토바이 사고로 죽을 확률이 40%쯤 낮아집니다. 머리를 다칠 확률도 70%쯤 낮아집니다. 끈을 안 채우고 머리에 얹기만 했다면 쓴 게 아닙니다.",
+      "after": "오토바이 사고 연구에서 헬멧을 쓴 사람은 덜 죽고 덜 다쳤습니다. 사망은 약 40%, 머리 손상은 약 70% 적었습니다. 헬멧을 쓰고 턱끈까지 채우세요.",
+      "reason": "오토바이 사고 관찰연구 범위와 추정임을 명시하고 전기자전거·전동킥보드에 대한 근거 없는 절대화와 그대로 적용한다는 설명을 제거. 짧은 문장과 착용 권고 유지. 법률 수치 유지; 과거 확인일을 이번 검증으로 재사용하지 않음.",
+      "evidence": [
+        {
+          "exact_quote": "From four higher quality studies helmets were estimated to reduce the risk of death by 42% (OR 0.58, 95% CI 0.50 to 0.68) and from six higher quality studies helmets were estimated to reduce the risk of head injury by 69% (OR 0.31, 95% CI 0.25 to 0.38).",
+          "url": "https://doi.org/10.1002/14651858.CD004333.pub3",
+          "method": "캐시 원시 Europe PMC JSON abstractText 직접 열람",
+          "date": "2026-10-18",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/3829000ae1f79efea88f.json",
+          "limits": "오토바이 사고 관찰연구 초록. 다른 탈것 연구의 존재 여부나 턱끈 단독 효과를 검증하지 않음."
+        }
+      ]
+    },
+    {
+      "field": "이득",
+      "before": "코크런(Cochrane)이 여러 연구를 합쳐 계산했습니다. 오토바이 운전자가 헬멧을 쓰면 사망 위험이 42% 줄었습니다. 원값은 OR 0.58, 믿을 만한 범위는 95% CI 0.50~0.68입니다. 머리 손상은 69% 줄었습니다(OR 0.31, 95% CI 0.25~0.38).",
+      "after": "코크런(Cochrane)이 오토바이 사고 관찰연구를 모았습니다. 사망 위험은 질이 높은 연구 4편에서 42% 낮게 추정됐습니다. 원값은 OR 0.58, 95% CI 0.50~0.68입니다. 머리 손상 위험은 연구 6편에서 69% 낮게 추정됐습니다. 원값은 OR 0.31, 95% CI 0.25~0.38입니다.",
+      "reason": "오토바이 사고 관찰연구 범위와 추정임을 명시하고 전기자전거·전동킥보드에 대한 근거 없는 절대화와 그대로 적용한다는 설명을 제거. 짧은 문장과 착용 권고 유지. 법률 수치 유지; 과거 확인일을 이번 검증으로 재사용하지 않음.",
+      "evidence": [
+        {
+          "exact_quote": "From four higher quality studies helmets were estimated to reduce the risk of death by 42% (OR 0.58, 95% CI 0.50 to 0.68) and from six higher quality studies helmets were estimated to reduce the risk of head injury by 69% (OR 0.31, 95% CI 0.25 to 0.38).",
+          "url": "https://doi.org/10.1002/14651858.CD004333.pub3",
+          "method": "캐시 원시 Europe PMC JSON abstractText 직접 열람",
+          "date": "2026-10-18",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/3829000ae1f79efea88f.json",
+          "limits": "오토바이 사고 관찰연구 초록. 다른 탈것 연구의 존재 여부나 턱끈 단독 효과를 검증하지 않음."
+        }
+      ]
+    },
+    {
+      "field": "비고",
+      "before": "턱끈을 채워야 합니다. 핸들에 걸어 둔 헬멧은 쓴 것이 아닙니다. 위 자료는 오토바이 연구이고 전기자전거와 전동킥보드를 직접 본 연구는 없습니다. 부딪혔을 때 머리를 다치는 방식이 같아서 그대로 적용했습니다. 한국 「도로교통법」은 셋을 나눠서 정합니다. 오토바이(이륜자동차·원동기장치자전거)는 안 쓰면 범칙금 2만원입니다(제50조 제3항). 전동킥보드 같은 개인형 이동장치도 똑같이 범칙금 2만원을 냅니다(제50조 제4항). 자전거와 전기자전거는 쓸 의무는 있지만 처벌 조항은 없습니다(제156조 제6호). 법령은 2026-10-10에 국가법령정보센터에서 확인했습니다.",
+      "after": "턱끈을 채워야 합니다. 핸들에 걸어 둔 헬멧은 쓴 것이 아닙니다. 위 수치는 오토바이 사고를 다룬 연구에서 나왔습니다. 전기자전거나 전동킥보드의 효과를 직접 입증한 수치는 아닙니다. 이 수치를 두 탈것에 그대로 적용할 수는 없습니다. 두 탈것을 탈 때도 헬멧을 쓰고 턱끈을 채우세요. 한국 「도로교통법」은 셋을 나눠서 정합니다. 오토바이는 이륜자동차·원동기장치자전거를 말합니다. 헬멧을 안 쓰면 범칙금 2만원입니다(제50조 제3항). 전동킥보드 같은 개인형 이동장치도 범칙금 2만원입니다(제50조 제4항). 자전거와 전기자전거는 쓸 의무가 있습니다. 다만 처벌 조항은 없습니다(제156조 제6호).",
+      "reason": "오토바이 사고 관찰연구 범위와 추정임을 명시하고 전기자전거·전동킥보드에 대한 근거 없는 절대화와 그대로 적용한다는 설명을 제거. 짧은 문장과 착용 권고 유지. 법률 수치 유지; 과거 확인일을 이번 검증으로 재사용하지 않음.",
+      "evidence": [
+        {
+          "exact_quote": "From four higher quality studies helmets were estimated to reduce the risk of death by 42% (OR 0.58, 95% CI 0.50 to 0.68) and from six higher quality studies helmets were estimated to reduce the risk of head injury by 69% (OR 0.31, 95% CI 0.25 to 0.38).",
+          "url": "https://doi.org/10.1002/14651858.CD004333.pub3",
+          "method": "캐시 원시 Europe PMC JSON abstractText 직접 열람",
+          "date": "2026-10-18",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/3829000ae1f79efea88f.json",
+          "limits": "오토바이 사고 관찰연구 초록. 다른 탈것 연구의 존재 여부나 턱끈 단독 효과를 검증하지 않음."
+        }
+      ]
+    }
+  ],
+  "immutable_preserved": [
+    "title",
+    "tags",
+    "근거등급",
+    "출처"
+  ],
+  "legal_review": {
+    "date": "2026-10-18",
+    "method": "캐시 281875.xml 기본정보·제50조·제156조·부칙 직접 열람",
+    "url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=281875",
+    "version": "법률 제21246호, 2026-07-01 시행; 부칙의 2025-12-30 및 2026-04-02 예외 확인",
+    "exact_quote": "6. 제50조제1항, 제3항 및 제4항을 위반하여 좌석안전띠를 매지 아니하거나 인명보호 장구를 착용하지 아니한 운전자(자전거 운전자는 제외한다)",
+    "limits": "범칙금 별표8 미열람. 2만원 두 값은 원고 유지이며 독립 재검증 완료가 아님. 전기자전거의 법적 분류 요건도 추가 확인 필요."
+  },
+  "publication_ready": false
+}
