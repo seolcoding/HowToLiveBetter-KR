@@ -1,0 +1,246 @@
+{
+  "entry": 22,
+  "status": "unadopted_proposal",
+  "approved": false,
+  "publication_ready": false,
+  "review_date": "2026-10-18",
+  "audit_inputs": [
+    "content-audit.md",
+    "editorial-decisions.json"
+  ],
+  "sentence_lengths": {
+    "비용": [
+      42
+    ],
+    "쉽게": [
+      30,
+      30,
+      30,
+      22
+    ],
+    "이득": [
+      44,
+      28,
+      38,
+      31,
+      36,
+      30,
+      35,
+      41,
+      30,
+      35,
+      36,
+      22
+    ],
+    "비고": [
+      24,
+      21,
+      34,
+      24,
+      28,
+      33
+    ]
+  },
+  "easy_chars": 115,
+  "sources": [
+    {
+      "url": "https://doi.org/10.1056/NEJMoa1408544",
+      "method": "2026-10-18 원시 Europe PMC JSON 캐시의 abstractText 직접 열람. 신규 HTTP 아님.",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/cc8efe00a343c9e897b1.json",
+      "exact_quotes": [
+        "In a randomized, double-blind, placebo-controlled trial involving 84,496 adults 65 years of age or older",
+        "vaccine efficacy, 45.6%; 95.2% confidence interval [CI], 21.8 to 62.5",
+        "vaccine efficacy, 75.0%; 95% CI, 41.4 to 90.8",
+        "vaccine efficacy, 5.1%; 95% CI, -5.1 to 14.2"
+      ],
+      "limits": "초록 직접 확인. 전문 재검증 아님. PCV13 효과를 PPSV에 전용하지 않음. 비유의 결과를 효과 부재 증명으로 해석하지 않음."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000285754&type=XML",
+      "method": "2026-10-18 vaccine.txt 원시 XML 캐시 본문·별표 직접 열람. 신규 HTTP 아님.",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch01-audit/vaccine.txt",
+      "exact_quotes": [
+        "65세 이상 노인",
+        "65세 이상 노인은 폐렴구균 다당질 백신으로 1회 접종을 실시한다."
+      ],
+      "limits": "현 고시의 노인 국가예방접종 제품·횟수 범위. 개별 접종력·접종기관별 안내까지 확인한 것은 아님."
+    },
+    {
+      "url": "https://www.cdc.gov/surv-manual/php/table-of-contents/chapter-11-pneumococcal.html",
+      "method": "2026-10-18 검토자 보존 원시 HTML 및 batch5-http-index.json 직접 읽음. 이번 작업의 신규 HTTP 요청 아님.",
+      "retrieved_at": "2026-10-18T12:54:04.376377+00:00",
+      "sha256": "11824d456da03d87a70adb7c87da7e0f87b39de74991922fe2786335cce42aa8",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch01-audit/pneumococcal-surveillance.html",
+      "exact_quotes": [
+        "Confirmed: Isolation of S. pneumoniae from a normally sterile site (e.g., blood, cerebrospinal fluid, or, less commonly, joint, pleural or pericardial fluid). (Event code 11723)"
+      ],
+      "limits": "인용은 HTML 태그 제거 후 공백 정규화. 미국 감시 정의의 용어 설명 근거이며 백신 효능 수치의 근거가 아님."
+    }
+  ],
+  "fields": [
+    {
+      "field": "비용",
+      "before": "65세 이상은 국가예방접종으로 폐렴구균 다당질 백신을 1회 무료로 맞습니다.",
+      "after": "65세 이상은 국가예방접종으로 폐렴구균 다당질 백신을 1회 무료로 맞습니다.",
+      "changed": false,
+      "reason": "원문 유지. 제목·태그·근거등급·출처는 불변.",
+      "evidence": [
+        {
+          "url": "https://doi.org/10.1056/NEJMoa1408544",
+          "method": "2026-10-18 원시 Europe PMC JSON 캐시의 abstractText 직접 열람. 신규 HTTP 아님.",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/cc8efe00a343c9e897b1.json",
+          "exact_quotes": [
+            "In a randomized, double-blind, placebo-controlled trial involving 84,496 adults 65 years of age or older",
+            "vaccine efficacy, 45.6%; 95.2% confidence interval [CI], 21.8 to 62.5",
+            "vaccine efficacy, 75.0%; 95% CI, 41.4 to 90.8",
+            "vaccine efficacy, 5.1%; 95% CI, -5.1 to 14.2"
+          ],
+          "limits": "초록 직접 확인. 전문 재검증 아님. PCV13 효과를 PPSV에 전용하지 않음. 비유의 결과를 효과 부재 증명으로 해석하지 않음."
+        },
+        {
+          "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000285754&type=XML",
+          "method": "2026-10-18 vaccine.txt 원시 XML 캐시 본문·별표 직접 열람. 신규 HTTP 아님.",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch01-audit/vaccine.txt",
+          "exact_quotes": [
+            "65세 이상 노인",
+            "65세 이상 노인은 폐렴구균 다당질 백신으로 1회 접종을 실시한다."
+          ],
+          "limits": "현 고시의 노인 국가예방접종 제품·횟수 범위. 개별 접종력·접종기관별 안내까지 확인한 것은 아님."
+        }
+      ]
+    },
+    {
+      "field": "쉽게",
+      "before": "13가 폐렴구균 백신은 백신이 막는 형의 폐렴을 46%쯤 막았습니다. 가장 위험한 침습성 감염은 75% 막았습니다. 하지만 모든 원인의 폐렴에는 효과가 보이지 않았습니다. 폐렴을 전부 막아 주리라 기대하지 마세요.",
+      "after": "13가 백신은 겨냥한 균의 폐렴을 46%쯤 막았습니다. 같은 균이 혈액 등에 일으킨 감염은 75% 막았습니다. 모든 원인의 폐렴은 뚜렷한 차이를 확인하지 못했습니다. 무료 다당질 백신은 이 백신과 다릅니다.",
+      "changed": true,
+      "reason": "시험한 13가 백신과 무료 다당질 백신을 구분. 전체 폐렴의 비유의 결과를 무효과로 단정하지 않음. 침습성 감염도 백신이 겨냥한 균으로 범위 명시. 침습성 감염을 혈액 등 원래 균이 없는 부위의 감염으로 설명. 75%는 백신이 겨냥한 균에 한정.",
+      "evidence": [
+        {
+          "url": "https://doi.org/10.1056/NEJMoa1408544",
+          "method": "2026-10-18 원시 Europe PMC JSON 캐시의 abstractText 직접 열람. 신규 HTTP 아님.",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/cc8efe00a343c9e897b1.json",
+          "exact_quotes": [
+            "In a randomized, double-blind, placebo-controlled trial involving 84,496 adults 65 years of age or older",
+            "vaccine efficacy, 45.6%; 95.2% confidence interval [CI], 21.8 to 62.5",
+            "vaccine efficacy, 75.0%; 95% CI, 41.4 to 90.8",
+            "vaccine efficacy, 5.1%; 95% CI, -5.1 to 14.2"
+          ],
+          "limits": "초록 직접 확인. 전문 재검증 아님. PCV13 효과를 PPSV에 전용하지 않음. 비유의 결과를 효과 부재 증명으로 해석하지 않음."
+        },
+        {
+          "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000285754&type=XML",
+          "method": "2026-10-18 vaccine.txt 원시 XML 캐시 본문·별표 직접 열람. 신규 HTTP 아님.",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch01-audit/vaccine.txt",
+          "exact_quotes": [
+            "65세 이상 노인",
+            "65세 이상 노인은 폐렴구균 다당질 백신으로 1회 접종을 실시한다."
+          ],
+          "limits": "현 고시의 노인 국가예방접종 제품·횟수 범위. 개별 접종력·접종기관별 안내까지 확인한 것은 아님."
+        },
+        {
+          "url": "https://www.cdc.gov/surv-manual/php/table-of-contents/chapter-11-pneumococcal.html",
+          "method": "2026-10-18 검토자 보존 원시 HTML 및 batch5-http-index.json 직접 읽음. 이번 작업의 신규 HTTP 요청 아님.",
+          "retrieved_at": "2026-10-18T12:54:04.376377+00:00",
+          "sha256": "11824d456da03d87a70adb7c87da7e0f87b39de74991922fe2786335cce42aa8",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch01-audit/pneumococcal-surveillance.html",
+          "exact_quotes": [
+            "Confirmed: Isolation of S. pneumoniae from a normally sterile site (e.g., blood, cerebrospinal fluid, or, less commonly, joint, pleural or pericardial fluid). (Event code 11723)"
+          ],
+          "limits": "인용은 HTML 태그 제거 후 공백 정규화. 미국 감시 정의의 용어 설명 근거이며 백신 효능 수치의 근거가 아님."
+        }
+      ]
+    },
+    {
+      "field": "이득",
+      "before": "네덜란드에서 65세 이상 노인 8.45만 명을 무작위로 둘로 나눠 비교했습니다. 시험한 백신은 13가 폐렴구균 단백결합 백신입니다. 백신이 막는 형이란 이 백신이 겨냥하는 몇 가지 균 유형을 말합니다. 백신이 막는 형의 폐렴에 대한 효능은 45.6%였습니다. 믿을 만한 범위는 95.2% CI 21.8–62.5로 나왔습니다. 침습성 폐렴구균 질환은 가장 위험한 종류의 감염입니다. 이 질환에 대한 효능은 75.0%였습니다(95% CI 41.4–90.8). 반면 모든 원인을 합친 폐렴에는 효과가 없었습니다. 한국 국가예방접종은 65세 이상에게 폐렴구균 다당질 백신을 1회 놓습니다.",
+      "after": "네덜란드에서 65세 이상 노인 8.45만 명을 무작위로 둘로 나눠 비교했습니다. 시험한 백신은 13가 폐렴구균 단백결합 백신입니다. 백신이 막는 형이란 이 백신이 겨냥하는 몇 가지 균 유형을 말합니다. 백신이 막는 형의 폐렴에 대한 효능은 45.6%였습니다. 믿을 만한 범위는 95.2% CI 21.8–62.5로 나왔습니다. 백신이 겨냥한 형의 침습성 폐렴구균 질환도 줄었습니다. 침습성 감염은 혈액처럼 원래 균이 없는 부위에 생긴 감염입니다. 이 질환에 대한 효능은 75.0%였습니다(95% CI 41.4–90.8). 모든 원인의 폐렴은 뚜렷한 차이를 확인하지 못했습니다. 효능 추정치는 5.1%였습니다(95% CI -5.1–14.2). 한국 국가예방접종은 65세 이상에게 다당질 백신을 1회 놓습니다. 시험의 단백결합 백신과 다른 종류입니다.",
+      "changed": true,
+      "reason": "백신형 침습성 질환으로 효과 범위를 한정. 전체 폐렴 효능 추정치와 CI를 제시하고 뚜렷한 차이 미확인으로 설명. 다른 제품에 효능 전용 금지. 침습성 감염을 혈액 등 원래 균이 없는 부위의 감염으로 설명. 75%는 백신이 겨냥한 균에 한정.",
+      "evidence": [
+        {
+          "url": "https://doi.org/10.1056/NEJMoa1408544",
+          "method": "2026-10-18 원시 Europe PMC JSON 캐시의 abstractText 직접 열람. 신규 HTTP 아님.",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/cc8efe00a343c9e897b1.json",
+          "exact_quotes": [
+            "In a randomized, double-blind, placebo-controlled trial involving 84,496 adults 65 years of age or older",
+            "vaccine efficacy, 45.6%; 95.2% confidence interval [CI], 21.8 to 62.5",
+            "vaccine efficacy, 75.0%; 95% CI, 41.4 to 90.8",
+            "vaccine efficacy, 5.1%; 95% CI, -5.1 to 14.2"
+          ],
+          "limits": "초록 직접 확인. 전문 재검증 아님. PCV13 효과를 PPSV에 전용하지 않음. 비유의 결과를 효과 부재 증명으로 해석하지 않음."
+        },
+        {
+          "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000285754&type=XML",
+          "method": "2026-10-18 vaccine.txt 원시 XML 캐시 본문·별표 직접 열람. 신규 HTTP 아님.",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch01-audit/vaccine.txt",
+          "exact_quotes": [
+            "65세 이상 노인",
+            "65세 이상 노인은 폐렴구균 다당질 백신으로 1회 접종을 실시한다."
+          ],
+          "limits": "현 고시의 노인 국가예방접종 제품·횟수 범위. 개별 접종력·접종기관별 안내까지 확인한 것은 아님."
+        },
+        {
+          "url": "https://www.cdc.gov/surv-manual/php/table-of-contents/chapter-11-pneumococcal.html",
+          "method": "2026-10-18 검토자 보존 원시 HTML 및 batch5-http-index.json 직접 읽음. 이번 작업의 신규 HTTP 요청 아님.",
+          "retrieved_at": "2026-10-18T12:54:04.376377+00:00",
+          "sha256": "11824d456da03d87a70adb7c87da7e0f87b39de74991922fe2786335cce42aa8",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch01-audit/pneumococcal-surveillance.html",
+          "exact_quotes": [
+            "Confirmed: Isolation of S. pneumoniae from a normally sterile site (e.g., blood, cerebrospinal fluid, or, less commonly, joint, pleural or pericardial fluid). (Event code 11723)"
+          ],
+          "limits": "인용은 HTML 태그 제거 후 공백 정규화. 미국 감시 정의의 용어 설명 근거이며 백신 효능 수치의 근거가 아님."
+        }
+      ]
+    },
+    {
+      "field": "근거등급",
+      "before": "A",
+      "after": "A",
+      "changed": false,
+      "reason": "원문 유지. 제목·태그·근거등급·출처는 불변.",
+      "evidence": []
+    },
+    {
+      "field": "출처",
+      "before": "Bonten MJ, Huijts SM, Bolkenbaas M, et al. (2015). Polysaccharide conjugate vaccine against pneumococcal pneumonia in adults. New England Journal of Medicine, 372(12), 1114-1125. https://doi.org/10.1056/NEJMoa1408544 · 예방접종의 실시기준 및 방법(질병관리청고시 제2026-13호) 별표 1 https://www.law.go.kr/admRulLsInfoP.do?admRulSeq=2100000285754",
+      "after": "Bonten MJ, Huijts SM, Bolkenbaas M, et al. (2015). Polysaccharide conjugate vaccine against pneumococcal pneumonia in adults. New England Journal of Medicine, 372(12), 1114-1125. https://doi.org/10.1056/NEJMoa1408544 · 예방접종의 실시기준 및 방법(질병관리청고시 제2026-13호) 별표 1 https://www.law.go.kr/admRulLsInfoP.do?admRulSeq=2100000285754",
+      "changed": false,
+      "reason": "원문 유지. 제목·태그·근거등급·출처는 불변.",
+      "evidence": []
+    },
+    {
+      "field": "비고",
+      "before": "이 백신은 겨냥하는 몇 가지 형만 막습니다. 맞았다고 폐렴에 안 걸리지는 않습니다. 한국 노인은 국가예방접종으로 폐렴구균 다당질 백신을 맞습니다. 이 시험의 13가 단백결합 백신과 종류가 달라 위 효능을 그대로 적용할 수 없습니다. 2026-10-10 고시 확인(국가법령정보센터).",
+      "after": "이 백신은 겨냥하는 몇 가지 형만 막습니다. 맞았다고 폐렴에 안 걸리지는 않습니다. 한국 노인은 국가예방접종으로 폐렴구균 다당질 백신을 맞습니다. 이 시험은 13가 단백결합 백신을 썼습니다. 종류가 달라 위 효능을 그대로 적용할 수 없습니다. 2026-10-18 고시 원문 캐시 확인(국가법령정보센터).",
+      "changed": true,
+      "reason": "제품 차이와 효능 적용 제한을 짧게 분리. 실제 캐시 재열람일로 확인 표기.",
+      "evidence": [
+        {
+          "url": "https://doi.org/10.1056/NEJMoa1408544",
+          "method": "2026-10-18 원시 Europe PMC JSON 캐시의 abstractText 직접 열람. 신규 HTTP 아님.",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/cc8efe00a343c9e897b1.json",
+          "exact_quotes": [
+            "In a randomized, double-blind, placebo-controlled trial involving 84,496 adults 65 years of age or older",
+            "vaccine efficacy, 45.6%; 95.2% confidence interval [CI], 21.8 to 62.5",
+            "vaccine efficacy, 75.0%; 95% CI, 41.4 to 90.8",
+            "vaccine efficacy, 5.1%; 95% CI, -5.1 to 14.2"
+          ],
+          "limits": "초록 직접 확인. 전문 재검증 아님. PCV13 효과를 PPSV에 전용하지 않음. 비유의 결과를 효과 부재 증명으로 해석하지 않음."
+        },
+        {
+          "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000285754&type=XML",
+          "method": "2026-10-18 vaccine.txt 원시 XML 캐시 본문·별표 직접 열람. 신규 HTTP 아님.",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch01-audit/vaccine.txt",
+          "exact_quotes": [
+            "65세 이상 노인",
+            "65세 이상 노인은 폐렴구균 다당질 백신으로 1회 접종을 실시한다."
+          ],
+          "limits": "현 고시의 노인 국가예방접종 제품·횟수 범위. 개별 접종력·접종기관별 안내까지 확인한 것은 아님."
+        }
+      ]
+    }
+  ],
+  "revision": "batch5: 침습성 감염 일상어 설명 보완",
+  "frozen": true
+}

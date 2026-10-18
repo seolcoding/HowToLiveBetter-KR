@@ -1,0 +1,325 @@
+{
+  "entry": 16,
+  "status": "unadopted_proposal",
+  "publication_ready": false,
+  "source_review_date": "2026-10-18",
+  "changes": [
+    {
+      "field": "title",
+      "before": "### 16. 여성은 HPV 백신을 맞으세요. 일찍 맞을수록 좋습니다",
+      "after": "### 16. 여성은 HPV 백신을 맞으세요. 일찍 맞을수록 좋습니다",
+      "reason": "원문 보존; 새 사실 승인 아님.",
+      "evidence": [],
+      "limits": null,
+      "changed": false
+    },
+    {
+      "field": "tags",
+      "before": "<!-- 成本标签: 钱=多 时间=少 毅力=否 收益=大 口径=死亡率 -->",
+      "after": "<!-- 成本标签: 钱=多 时间=少 毅力=否 收益=大 口径=死亡率 -->",
+      "reason": "원문 보존; 새 사실 승인 아님.",
+      "evidence": [],
+      "limits": null,
+      "changed": false
+    },
+    {
+      "field": "비용",
+      "before": "국가예방접종 대상은 무료입니다. 12~17세 여성, 저소득층 18~26세 여성, 12세 남성이 대상입니다. 대상이 아니면 접종비를 직접 내며, 값은 백신 종류와 병원마다 다릅니다. 모두 2~3번 맞고, 갈 때마다 반나절이 듭니다.",
+      "after": "국가예방접종 대상은 무료입니다. 12~17세 여성과 저소득층 18~26세 여성이 대상입니다. 12세 남성과 조혈모세포이식환자도 대상입니다. 대상이 아니면 접종비를 직접 내며 값은 백신 종류와 병원마다 다릅니다. 일반적인 접종은 2~3번이며 갈 때마다 반나절이 듭니다.",
+      "reason": "고시의 조혈모세포이식환자 대상 누락 보완. 모두 2~3회라는 일괄 표현 완화. 50자 초과 문장을 나누고 수치·조건·대상 범위를 보존했습니다.",
+      "evidence": [
+        {
+          "URL": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000285754&type=XML",
+          "method": "ch01-audit/vaccine.txt 원시 XML의 사람유두종바이러스 별표 직접 열람; nationalvaccine.txt라는 파일은 없으며 실제 캐시명은 vaccine.txt. 신규 HTTP 아님",
+          "date": "2026-10-18",
+          "cached_at": "2026-10-18T12:01:09.929009+00:00",
+          "exactquote": [
+            "12세∼26세 여성",
+            "단, 18~26세 여성은 저소득층으로 한정함",
+            "12세 남성",
+            "조혈모세포이식환자",
+            "12세∼14세는 0개월, 6개월 간격으로 2회 접종을 실시한다.",
+            "15세∼26세는 0개월, 2개월, 6개월 간격으로 3회 접종을 실시한다."
+          ],
+          "limits": "고시 대상·표준접종시기 확인. 개인별 비용·방문시간·이식환자별 접종 일정은 새 검증 아님."
+        }
+      ],
+      "limits": null,
+      "changed": true
+    },
+    {
+      "field": "쉽게",
+      "before": "17세 전에 HPV 백신을 맞은 여성은 침윤성 자궁경부암에 덜 걸렸습니다. 걸릴 확률이 안 맞은 사람의 8분의 1쯤이었습니다. 17~30세에 맞은 사람도 확률이 절반쯤으로 줄었습니다. 그래서 일찍 맞을수록 이득이 큽니다.",
+      "after": "스웨덴 여성의 4가 HPV 백신 접종 자료입니다. 침윤성 자궁경부암 발생률은 미접종자보다 낮았습니다. 17세 전 접종자는 88%쯤, 17~30세는 53%쯤 낮았습니다. 백신만의 효과로 단정할 수는 없습니다.",
+      "reason": "긴 첫 문장을 나누고 115자 4문장으로 요약. 접종군과 미접종군의 차이이며 인과 단정은 피함.",
+      "evidence": [
+        {
+          "URL": "https://doi.org/10.1056/NEJMoa1917338",
+          "method": "Europe PMC 원시 JSON 캐시의 초록 직접 열람; 신규 HTTP 아님",
+          "date": "2026-10-18",
+          "cached_at": "2026-10-18T20:49:43.638226+09:00",
+          "exactquote": [
+            "We assessed the association between HPV vaccination and the risk of invasive cervical cancer",
+            "After adjustment for all covariates, the incidence rate ratio was 0.12 (95% CI, 0.00 to 0.34) among women who had been vaccinated before the age of 17 years and 0.47 (95% CI, 0.27 to 0.75) among women who had been vaccinated at the age of 17 to 30 years.",
+            "We used nationwide Swedish demographic and health registers to follow an open population of 1,672,983 girls and women who were 10 to 30 years of age from 2006 through 2017."
+          ],
+          "limits": "관찰 연관성; 초록만 열람. 30세 이후 접종 효과와 9~14세 최적 연령을 이 자료로 확인하지 않음."
+        }
+      ],
+      "limits": null,
+      "changed": true
+    },
+    {
+      "field": "이득",
+      "before": "스웨덴에서 여성 167만 명을 따라가며 통계를 냈습니다. 백신을 맞은 사람은 안 맞은 사람보다 침윤성 자궁경부암 발생률이 낮았습니다. 17세 전에 맞은 사람은 88%쯤 낮았습니다. 원값은 IRR 0.12이고, 믿을 만한 범위는 95% CI 0.00~0.34입니다. 17~30세에 맞은 사람은 53%쯤 낮았습니다. 이때 원값은 IRR 0.47, 95% CI 0.27~0.75입니다. 한국 국가예방접종은 12~26세 여성과 12세 남성에게 HPV 백신을 놓습니다. 다만 18~26세 여성은 저소득층만 대상입니다. 12~14세는 2번, 15~26세는 3번 맞습니다.",
+      "after": "스웨덴에서 10~30세 여성 167만 명을 따라갔습니다. 4가 HPV 백신 접종과 침윤성 자궁경부암 발생의 관계를 살폈습니다. 백신을 맞은 사람은 안 맞은 사람보다 침윤성 자궁경부암 발생률이 낮았습니다. 17세 전에 맞은 사람은 88%쯤 낮았습니다. 다른 조건을 보정한 값은 IRR 0.12입니다. 믿을 만한 범위는 95% CI 0.00~0.34입니다. 17~30세에 맞은 사람은 53%쯤 낮았습니다. 이때 보정한 값은 IRR 0.47, 95% CI 0.27~0.75입니다. 접종 여부에 따른 차이를 관찰한 결과이므로 백신만의 인과효과로 단정할 수는 없습니다. 한국 국가예방접종은 12~26세 여성과 12세 남성에게 HPV 백신을 놓습니다. 다만 18~26세 여성은 저소득층만 대상입니다. 조혈모세포이식환자도 대상에 포함됩니다. 12~14세는 2번, 15~26세는 3번 맞습니다.",
+      "reason": "4가 백신·10~30세 범위와 보정값임을 명시하고 인과 단정을 제한. 고시 이식환자 대상 보완. 50자 초과 문장을 나누고 수치·조건·대상 범위를 보존했습니다.",
+      "evidence": [
+        {
+          "URL": "https://doi.org/10.1056/NEJMoa1917338",
+          "method": "Europe PMC 원시 JSON 캐시의 초록 직접 열람; 신규 HTTP 아님",
+          "date": "2026-10-18",
+          "cached_at": "2026-10-18T20:49:43.638226+09:00",
+          "exactquote": [
+            "We assessed the association between HPV vaccination and the risk of invasive cervical cancer",
+            "After adjustment for all covariates, the incidence rate ratio was 0.12 (95% CI, 0.00 to 0.34) among women who had been vaccinated before the age of 17 years and 0.47 (95% CI, 0.27 to 0.75) among women who had been vaccinated at the age of 17 to 30 years.",
+            "We used nationwide Swedish demographic and health registers to follow an open population of 1,672,983 girls and women who were 10 to 30 years of age from 2006 through 2017."
+          ],
+          "limits": "관찰 연관성; 초록만 열람. 30세 이후 접종 효과와 9~14세 최적 연령을 이 자료로 확인하지 않음."
+        },
+        {
+          "URL": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000285754&type=XML",
+          "method": "ch01-audit/vaccine.txt 원시 XML의 사람유두종바이러스 별표 직접 열람; nationalvaccine.txt라는 파일은 없으며 실제 캐시명은 vaccine.txt. 신규 HTTP 아님",
+          "date": "2026-10-18",
+          "cached_at": "2026-10-18T12:01:09.929009+00:00",
+          "exactquote": [
+            "12세∼26세 여성",
+            "단, 18~26세 여성은 저소득층으로 한정함",
+            "12세 남성",
+            "조혈모세포이식환자",
+            "12세∼14세는 0개월, 6개월 간격으로 2회 접종을 실시한다.",
+            "15세∼26세는 0개월, 2개월, 6개월 간격으로 3회 접종을 실시한다."
+          ],
+          "limits": "고시 대상·표준접종시기 확인. 개인별 비용·방문시간·이식환자별 접종 일정은 새 검증 아님."
+        }
+      ],
+      "limits": null,
+      "changed": true
+    },
+    {
+      "field": "근거등급",
+      "before": "A",
+      "after": "A",
+      "reason": "원문 보존; 새 사실 승인 아님.",
+      "evidence": [],
+      "limits": null,
+      "changed": false
+    },
+    {
+      "field": "출처",
+      "before": "Lei J 외 (2020). HPV Vaccination and the Risk of Invasive Cervical Cancer. New England Journal of Medicine. https://doi.org/10.1056/NEJMoa1917338 · 「감염병의 예방 및 관리에 관한 법률」 제24조 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=285325 · 예방접종의 실시기준 및 방법(질병관리청고시 제2026-13호) 별표 1 https://www.law.go.kr/admRulLsInfoP.do?admRulSeq=2100000285754",
+      "after": "Lei J 외 (2020). HPV Vaccination and the Risk of Invasive Cervical Cancer. New England Journal of Medicine. https://doi.org/10.1056/NEJMoa1917338 · 「감염병의 예방 및 관리에 관한 법률」 제24조 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=285325 · 예방접종의 실시기준 및 방법(질병관리청고시 제2026-13호) 별표 1 https://www.law.go.kr/admRulLsInfoP.do?admRulSeq=2100000285754",
+      "reason": "원문 보존; 새 사실 승인 아님.",
+      "evidence": [],
+      "limits": null,
+      "changed": false
+    },
+    {
+      "field": "비고",
+      "before": "9~14세에 맞을 때 이득이 가장 큽니다. 17~30세에 맞아도 발생률이 절반 넘게 줄어듭니다. 30세가 넘으면 이득이 점점 작아집니다. 백신이 검진을 대신하지 못하므로, 맞은 뒤에도 자궁경부암 검진은 계속 받으세요. 자세한 내용은 제18항(자궁경부암 검진)을 보세요. 2026-10-10 법령·고시 확인(국가법령정보센터).",
+      "after": "17세 전 접종군에서 침윤성 자궁경부암 발생률 차이가 더 컸습니다. 17~30세 접종군도 미접종군보다 발생률이 53%쯤 낮았습니다. 이 자료로 30세 이후 접종의 이득을 판단할 수는 없습니다. 백신이 검진을 대신하지 못하므로 맞은 뒤에도 자궁경부암 검진은 계속 받으세요. 자세한 내용은 제18항(자궁경부암 검진)을 보세요. 2026-10-18 국가법령정보센터의 고시 원문 캐시를 대조했습니다. 예방접종 대상과 횟수를 확인했습니다.",
+      "reason": "9~14세 최적 주장과 30세 이후 계속 감소 주장을 해당 초록이 지지하지 않아 대체. 관찰 결과와 연령 한계 명시; 확인일을 실제 캐시 대조 범위로 제한. 50자 초과 문장을 나누고 수치·조건·대상 범위를 보존했습니다.",
+      "evidence": [
+        {
+          "URL": "https://doi.org/10.1056/NEJMoa1917338",
+          "method": "Europe PMC 원시 JSON 캐시의 초록 직접 열람; 신규 HTTP 아님",
+          "date": "2026-10-18",
+          "cached_at": "2026-10-18T20:49:43.638226+09:00",
+          "exactquote": [
+            "We assessed the association between HPV vaccination and the risk of invasive cervical cancer",
+            "After adjustment for all covariates, the incidence rate ratio was 0.12 (95% CI, 0.00 to 0.34) among women who had been vaccinated before the age of 17 years and 0.47 (95% CI, 0.27 to 0.75) among women who had been vaccinated at the age of 17 to 30 years.",
+            "We used nationwide Swedish demographic and health registers to follow an open population of 1,672,983 girls and women who were 10 to 30 years of age from 2006 through 2017."
+          ],
+          "limits": "관찰 연관성; 초록만 열람. 30세 이후 접종 효과와 9~14세 최적 연령을 이 자료로 확인하지 않음."
+        },
+        {
+          "URL": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000285754&type=XML",
+          "method": "ch01-audit/vaccine.txt 원시 XML의 사람유두종바이러스 별표 직접 열람; nationalvaccine.txt라는 파일은 없으며 실제 캐시명은 vaccine.txt. 신규 HTTP 아님",
+          "date": "2026-10-18",
+          "cached_at": "2026-10-18T12:01:09.929009+00:00",
+          "exactquote": [
+            "12세∼26세 여성",
+            "단, 18~26세 여성은 저소득층으로 한정함",
+            "12세 남성",
+            "조혈모세포이식환자",
+            "12세∼14세는 0개월, 6개월 간격으로 2회 접종을 실시한다.",
+            "15세∼26세는 0개월, 2개월, 6개월 간격으로 3회 접종을 실시한다."
+          ],
+          "limits": "고시 대상·표준접종시기 확인. 개인별 비용·방문시간·이식환자별 접종 일정은 새 검증 아님."
+        }
+      ],
+      "limits": "원래 검진 권고·가격·시간 및 제목 권고 전체의 독립 재검증은 아님.",
+      "changed": true
+    }
+  ],
+  "easy_chars": 115,
+  "easy_sentence_lengths": [
+    27,
+    28,
+    36,
+    21
+  ],
+  "limits": "초록·고시 해당 부분만 캐시 직접 확인. 신규 HTTP·논문 전문 열람·항목 전체 검증이나 출판 승인이 아님. strict final.md 불변.",
+  "readability_check": {
+    "date": "2026-10-18",
+    "method": "Python len; 공백·괄호 포함. 소수점 내부는 분리하지 않고 종결부호 뒤 공백에서 문장 분리. 변경 필드 전체 검사. 변경 없는 출처·제목·태그·등급 제외.",
+    "sentences": [
+      {
+        "field": "비용",
+        "sentence": "국가예방접종 대상은 무료입니다.",
+        "chars": 17
+      },
+      {
+        "field": "비용",
+        "sentence": "12~17세 여성과 저소득층 18~26세 여성이 대상입니다.",
+        "chars": 33
+      },
+      {
+        "field": "비용",
+        "sentence": "12세 남성과 조혈모세포이식환자도 대상입니다.",
+        "chars": 25
+      },
+      {
+        "field": "비용",
+        "sentence": "대상이 아니면 접종비를 직접 내며 값은 백신 종류와 병원마다 다릅니다.",
+        "chars": 39
+      },
+      {
+        "field": "비용",
+        "sentence": "일반적인 접종은 2~3번이며 갈 때마다 반나절이 듭니다.",
+        "chars": 31
+      },
+      {
+        "field": "쉽게",
+        "sentence": "스웨덴 여성의 4가 HPV 백신 접종 자료입니다.",
+        "chars": 27
+      },
+      {
+        "field": "쉽게",
+        "sentence": "침윤성 자궁경부암 발생률은 미접종자보다 낮았습니다.",
+        "chars": 28
+      },
+      {
+        "field": "쉽게",
+        "sentence": "17세 전 접종자는 88%쯤, 17~30세는 53%쯤 낮았습니다.",
+        "chars": 36
+      },
+      {
+        "field": "쉽게",
+        "sentence": "백신만의 효과로 단정할 수는 없습니다.",
+        "chars": 21
+      },
+      {
+        "field": "이득",
+        "sentence": "스웨덴에서 10~30세 여성 167만 명을 따라갔습니다.",
+        "chars": 31
+      },
+      {
+        "field": "이득",
+        "sentence": "4가 HPV 백신 접종과 침윤성 자궁경부암 발생의 관계를 살폈습니다.",
+        "chars": 38
+      },
+      {
+        "field": "이득",
+        "sentence": "백신을 맞은 사람은 안 맞은 사람보다 침윤성 자궁경부암 발생률이 낮았습니다.",
+        "chars": 42
+      },
+      {
+        "field": "이득",
+        "sentence": "17세 전에 맞은 사람은 88%쯤 낮았습니다.",
+        "chars": 25
+      },
+      {
+        "field": "이득",
+        "sentence": "다른 조건을 보정한 값은 IRR 0.12입니다.",
+        "chars": 26
+      },
+      {
+        "field": "이득",
+        "sentence": "믿을 만한 범위는 95% CI 0.00~0.34입니다.",
+        "chars": 30
+      },
+      {
+        "field": "이득",
+        "sentence": "17~30세에 맞은 사람은 53%쯤 낮았습니다.",
+        "chars": 26
+      },
+      {
+        "field": "이득",
+        "sentence": "이때 보정한 값은 IRR 0.47, 95% CI 0.27~0.75입니다.",
+        "chars": 40
+      },
+      {
+        "field": "이득",
+        "sentence": "접종 여부에 따른 차이를 관찰한 결과이므로 백신만의 인과효과로 단정할 수는 없습니다.",
+        "chars": 47
+      },
+      {
+        "field": "이득",
+        "sentence": "한국 국가예방접종은 12~26세 여성과 12세 남성에게 HPV 백신을 놓습니다.",
+        "chars": 44
+      },
+      {
+        "field": "이득",
+        "sentence": "다만 18~26세 여성은 저소득층만 대상입니다.",
+        "chars": 26
+      },
+      {
+        "field": "이득",
+        "sentence": "조혈모세포이식환자도 대상에 포함됩니다.",
+        "chars": 21
+      },
+      {
+        "field": "이득",
+        "sentence": "12~14세는 2번, 15~26세는 3번 맞습니다.",
+        "chars": 28
+      },
+      {
+        "field": "비고",
+        "sentence": "17세 전 접종군에서 침윤성 자궁경부암 발생률 차이가 더 컸습니다.",
+        "chars": 37
+      },
+      {
+        "field": "비고",
+        "sentence": "17~30세 접종군도 미접종군보다 발생률이 53%쯤 낮았습니다.",
+        "chars": 35
+      },
+      {
+        "field": "비고",
+        "sentence": "이 자료로 30세 이후 접종의 이득을 판단할 수는 없습니다.",
+        "chars": 33
+      },
+      {
+        "field": "비고",
+        "sentence": "백신이 검진을 대신하지 못하므로 맞은 뒤에도 자궁경부암 검진은 계속 받으세요.",
+        "chars": 43
+      },
+      {
+        "field": "비고",
+        "sentence": "자세한 내용은 제18항(자궁경부암 검진)을 보세요.",
+        "chars": 28
+      },
+      {
+        "field": "비고",
+        "sentence": "2026-10-18 국가법령정보센터의 고시 원문 캐시를 대조했습니다.",
+        "chars": 38
+      },
+      {
+        "field": "비고",
+        "sentence": "예방접종 대상과 횟수를 확인했습니다.",
+        "chars": 20
+      }
+    ],
+    "max_chars": 47
+  }
+}

@@ -1,0 +1,283 @@
+{
+  "entry": 13,
+  "status": "unadopted_proposal",
+  "publication_ready": false,
+  "reviewed_files": [
+    "content-audit.md",
+    "editorial-decisions.json"
+  ],
+  "title_before": "### 13. 60세가 넘으면 균형 운동과 하체 근력 운동을 하고, 집의 욕실과 계단을 고치세요",
+  "title_after": "### 13. 60세가 넘으면 균형 운동과 하체 근력 운동을 하고, 집의 욕실과 계단을 고치세요",
+  "tags_unchanged": true,
+  "grade_unchanged": true,
+  "strict_artifacts_unchanged": true,
+  "changes": [
+    {
+      "field": "비용",
+      "before": "일주일에 2~3번, 한 번에 30분씩 태극권이나 균형 운동을 합니다. 욕실 미끄럼 방지 매트와 손잡이, 야간등에는 몇만 원에서 수십만 원이 듭니다. 오래 꾸준히 하기가 어렵습니다.",
+      "after": "태극권이나 균형 운동을 꾸준히 하는 시간과 노력이 듭니다. 욕실 미끄럼 방지 매트와 손잡이, 야간등에는 몇만 원에서 수십만 원이 듭니다. 오래 꾸준히 하기가 어렵습니다.",
+      "changed": true,
+      "reason": "두 초록으로 뒷받침되지 않는 주 2~3회·30분 처방 삭제. 운동에 드는 시간과 노력은 남김.",
+      "evidence": [
+        {
+          "url": "https://doi.org/10.1002/14651858.CD012424.pub2",
+          "exact_quotes": [
+            "Exercise reduces the rate of falls by 23% (rate ratio (RaR) 0.77, 95% confidence interval (CI) 0.71 to 0.83; 12,981 participants, 59 studies; high-certainty evidence).",
+            "Exercise also reduces the number of people experiencing one or more falls by 15% (risk ratio (RR) 0.85, 95% CI 0.81 to 0.89; 13,518 participants, 63 studies; high-certainty evidence)."
+          ],
+          "method": "medical-doi-cache-index.json의 cache_file이 가리키는 Europe PMC 원시 JSON abstractText 직접 열람. 신규 HTTP·전문 열람 아님.",
+          "read_date": "2026-10-18",
+          "cache": {
+            "doi": "10.1002/14651858.CD012424.pub2",
+            "chapters": [
+              1
+            ],
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1002%2F14651858.CD012424.pub2%22&format=json&resultType=core&pageSize=10",
+            "fetched_at": "2026-10-18T20:49:42.625939+09:00",
+            "http_status": 200,
+            "status": "exact_doi_metadata_cached",
+            "sha256": "6ae381826eefb161c26b6280eb89d9a8e7fab58bb7f3815fac5c4e8fbeece564",
+            "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/20233f6952e33ff3519c.json",
+            "hit_count": 1,
+            "abstract_present": true
+          },
+          "limits": "초록만 확인. 특정 운동 빈도·시간의 효과와 매트·손잡이 단독 효과로 일반화할 수 없음."
+        },
+        {
+          "url": "https://doi.org/10.1002/14651858.CD007146.pub3",
+          "exact_quotes": [
+            "Home safety assessment and modification interventions were effective in reducing rate of falls (RR 0.81, 95% CI 0.68 to 0.97; six trials; 4208 participants) and risk of falling (RR 0.88, 95% CI 0.80 to 0.96; seven trials; 4051 participants).",
+            "These interventions were more effective in people at higher risk of falling, including those with severe visual impairment. Home safety interventions appear to be more effective when delivered by an occupational therapist."
+          ],
+          "method": "medical-doi-cache-index.json의 cache_file이 가리키는 Europe PMC 원시 JSON abstractText 직접 열람. 신규 HTTP·전문 열람 아님.",
+          "read_date": "2026-10-18",
+          "cache": {
+            "doi": "10.1002/14651858.CD007146.pub3",
+            "chapters": [
+              1,
+              17
+            ],
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1002%2F14651858.CD007146.pub3%22&format=json&resultType=core&pageSize=10",
+            "fetched_at": "2026-10-18T20:49:42.845245+09:00",
+            "http_status": 200,
+            "status": "exact_doi_metadata_cached",
+            "sha256": "4be11dd3c7d81186774ea09921faac2cb6f87d21fbe15b91190bbd2f73b653e4",
+            "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/652c7aae0d323f3ba6a5.json",
+            "hit_count": 1,
+            "abstract_present": true
+          },
+          "limits": "초록만 확인. 특정 운동 빈도·시간의 효과와 매트·손잡이 단독 효과로 일반화할 수 없음."
+        }
+      ],
+      "limits": "한국 손상통계·검진 고시·가격 및 미변경 의학 문장은 이번에 직접 재검증하지 않음."
+    },
+    {
+      "field": "쉽게",
+      "before": "균형 운동을 일주일에 두세 번 하면 노인이 넘어지는 횟수가 23%쯤 줄어듭니다. 집에 미끄럼 방지 장치와 손잡이를 갖추면 20%쯤 덜 넘어집니다. 한국 노인이 다치는 주된 원인도 추락과 미끄러짐입니다.",
+      "after": "여러 운동을 비교한 자료에서 집에 사는 노인의 넘어지는 횟수는 23% 줄었습니다. 집 안 점검과 개선도 도움이 됐습니다. 집 개선은 넘어질 위험이 큰 사람에게 효과가 더 컸습니다.",
+      "changed": true,
+      "reason": "특정 균형 운동 빈도와 전체 운동의 23% 추정치를 분리. 집 개선의 효과 범위와 고위험군 조건 복원.",
+      "evidence": [
+        {
+          "url": "https://doi.org/10.1002/14651858.CD012424.pub2",
+          "exact_quotes": [
+            "Exercise reduces the rate of falls by 23% (rate ratio (RaR) 0.77, 95% confidence interval (CI) 0.71 to 0.83; 12,981 participants, 59 studies; high-certainty evidence).",
+            "Exercise also reduces the number of people experiencing one or more falls by 15% (risk ratio (RR) 0.85, 95% CI 0.81 to 0.89; 13,518 participants, 63 studies; high-certainty evidence)."
+          ],
+          "method": "medical-doi-cache-index.json의 cache_file이 가리키는 Europe PMC 원시 JSON abstractText 직접 열람. 신규 HTTP·전문 열람 아님.",
+          "read_date": "2026-10-18",
+          "cache": {
+            "doi": "10.1002/14651858.CD012424.pub2",
+            "chapters": [
+              1
+            ],
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1002%2F14651858.CD012424.pub2%22&format=json&resultType=core&pageSize=10",
+            "fetched_at": "2026-10-18T20:49:42.625939+09:00",
+            "http_status": 200,
+            "status": "exact_doi_metadata_cached",
+            "sha256": "6ae381826eefb161c26b6280eb89d9a8e7fab58bb7f3815fac5c4e8fbeece564",
+            "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/20233f6952e33ff3519c.json",
+            "hit_count": 1,
+            "abstract_present": true
+          },
+          "limits": "초록만 확인. 특정 운동 빈도·시간의 효과와 매트·손잡이 단독 효과로 일반화할 수 없음."
+        },
+        {
+          "url": "https://doi.org/10.1002/14651858.CD007146.pub3",
+          "exact_quotes": [
+            "Home safety assessment and modification interventions were effective in reducing rate of falls (RR 0.81, 95% CI 0.68 to 0.97; six trials; 4208 participants) and risk of falling (RR 0.88, 95% CI 0.80 to 0.96; seven trials; 4051 participants).",
+            "These interventions were more effective in people at higher risk of falling, including those with severe visual impairment. Home safety interventions appear to be more effective when delivered by an occupational therapist."
+          ],
+          "method": "medical-doi-cache-index.json의 cache_file이 가리키는 Europe PMC 원시 JSON abstractText 직접 열람. 신규 HTTP·전문 열람 아님.",
+          "read_date": "2026-10-18",
+          "cache": {
+            "doi": "10.1002/14651858.CD007146.pub3",
+            "chapters": [
+              1,
+              17
+            ],
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1002%2F14651858.CD007146.pub3%22&format=json&resultType=core&pageSize=10",
+            "fetched_at": "2026-10-18T20:49:42.845245+09:00",
+            "http_status": 200,
+            "status": "exact_doi_metadata_cached",
+            "sha256": "4be11dd3c7d81186774ea09921faac2cb6f87d21fbe15b91190bbd2f73b653e4",
+            "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/652c7aae0d323f3ba6a5.json",
+            "hit_count": 1,
+            "abstract_present": true
+          },
+          "limits": "초록만 확인. 특정 운동 빈도·시간의 효과와 매트·손잡이 단독 효과로 일반화할 수 없음."
+        }
+      ],
+      "limits": "한국 손상통계·검진 고시·가격 및 미변경 의학 문장은 이번에 직접 재검증하지 않음."
+    },
+    {
+      "field": "이득",
+      "before": "코크런 리뷰는 시험 108개, 23,407명의 자료를 합쳐 계산했습니다. 운동을 하면 노인이 넘어지는 횟수가 23% 줄었습니다. 원값은 낙상률 비 RaR 0.77, 95% CI 0.71~0.83입니다. 넘어진 사람 수는 15% 줄었습니다(RR 0.85). 사람을 불러 집 안을 점검받고 고치면 낙상률이 20%쯤 줄었습니다. 이때 수치는 RR 0.81, 95% CI 0.68~0.97입니다. 태극권을 한 사람은 낙상 위험이 29%쯤 낮았습니다(RR 0.71). 질병관리청 손상 통계는 노인의 주요 손상 원인으로 추락·미끄러짐을 꼽습니다. 주거지에서 다쳐 퇴원한 75세 이상은 10만 명당 2,065명이었습니다. 65~74세의 623명과 비교하면 3배가 넘습니다. 국가건강검진은 66·70·80세에 노인신체기능검사로 낙상 위험을 봅니다. 검사 항목은 일어나서 3m 걷고 돌아와 앉기와 한발 서기입니다.",
+      "after": "코크런 리뷰는 시험 108개, 23,407명의 자료를 합쳐 계산했습니다. 여러 종류의 운동을 합친 결과, 노인이 넘어지는 횟수가 23% 줄었습니다. 이 수치는 59개 시험, 12,981명의 자료에서 나왔습니다. 원값은 낙상률 비 RaR 0.77, 95% CI 0.71~0.83입니다. 넘어진 사람 수는 15% 줄었습니다(RR 0.85). 집 안의 안전을 점검하고 개선한 6개 시험, 4,208명의 자료에서 낙상률이 20%쯤 줄었습니다. 이때 수치는 RR 0.81, 95% CI 0.68~0.97입니다. 집 개선은 심한 시력 저하가 있는 사람 등 낙상 위험이 큰 사람에게 효과가 더 컸습니다. 작업치료사가 시행했을 때 효과가 더 큰 것으로 보였습니다. 2012년 리뷰에서 태극권을 한 사람은 낙상 위험이 29%쯤 낮았습니다(RR 0.71). 질병관리청 손상 통계는 노인의 주요 손상 원인으로 추락·미끄러짐을 꼽습니다. 주거지에서 다쳐 퇴원한 75세 이상은 10만 명당 2,065명이었습니다. 65~74세의 623명과 비교하면 3배가 넘습니다. 국가건강검진은 66·70·80세에 노인신체기능검사로 낙상 위험을 봅니다. 검사 항목은 일어나서 3m 걷고 돌아와 앉기와 한발 서기입니다.",
+      "changed": true,
+      "reason": "23%에 해당하는 분석 규모를 전체 리뷰 규모와 구분하고 집 안전 점검·개선 묶음 및 고위험군·작업치료사 조건 명시. 태극권 수치는 2012년 리뷰 결과임을 명시.",
+      "evidence": [
+        {
+          "url": "https://doi.org/10.1002/14651858.CD012424.pub2",
+          "exact_quotes": [
+            "Exercise reduces the rate of falls by 23% (rate ratio (RaR) 0.77, 95% confidence interval (CI) 0.71 to 0.83; 12,981 participants, 59 studies; high-certainty evidence).",
+            "Exercise also reduces the number of people experiencing one or more falls by 15% (risk ratio (RR) 0.85, 95% CI 0.81 to 0.89; 13,518 participants, 63 studies; high-certainty evidence)."
+          ],
+          "method": "medical-doi-cache-index.json의 cache_file이 가리키는 Europe PMC 원시 JSON abstractText 직접 열람. 신규 HTTP·전문 열람 아님.",
+          "read_date": "2026-10-18",
+          "cache": {
+            "doi": "10.1002/14651858.CD012424.pub2",
+            "chapters": [
+              1
+            ],
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1002%2F14651858.CD012424.pub2%22&format=json&resultType=core&pageSize=10",
+            "fetched_at": "2026-10-18T20:49:42.625939+09:00",
+            "http_status": 200,
+            "status": "exact_doi_metadata_cached",
+            "sha256": "6ae381826eefb161c26b6280eb89d9a8e7fab58bb7f3815fac5c4e8fbeece564",
+            "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/20233f6952e33ff3519c.json",
+            "hit_count": 1,
+            "abstract_present": true
+          },
+          "limits": "초록만 확인. 특정 운동 빈도·시간의 효과와 매트·손잡이 단독 효과로 일반화할 수 없음."
+        },
+        {
+          "url": "https://doi.org/10.1002/14651858.CD007146.pub3",
+          "exact_quotes": [
+            "Home safety assessment and modification interventions were effective in reducing rate of falls (RR 0.81, 95% CI 0.68 to 0.97; six trials; 4208 participants) and risk of falling (RR 0.88, 95% CI 0.80 to 0.96; seven trials; 4051 participants).",
+            "These interventions were more effective in people at higher risk of falling, including those with severe visual impairment. Home safety interventions appear to be more effective when delivered by an occupational therapist."
+          ],
+          "method": "medical-doi-cache-index.json의 cache_file이 가리키는 Europe PMC 원시 JSON abstractText 직접 열람. 신규 HTTP·전문 열람 아님.",
+          "read_date": "2026-10-18",
+          "cache": {
+            "doi": "10.1002/14651858.CD007146.pub3",
+            "chapters": [
+              1,
+              17
+            ],
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1002%2F14651858.CD007146.pub3%22&format=json&resultType=core&pageSize=10",
+            "fetched_at": "2026-10-18T20:49:42.845245+09:00",
+            "http_status": 200,
+            "status": "exact_doi_metadata_cached",
+            "sha256": "4be11dd3c7d81186774ea09921faac2cb6f87d21fbe15b91190bbd2f73b653e4",
+            "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/652c7aae0d323f3ba6a5.json",
+            "hit_count": 1,
+            "abstract_present": true
+          },
+          "limits": "초록만 확인. 특정 운동 빈도·시간의 효과와 매트·손잡이 단독 효과로 일반화할 수 없음."
+        }
+      ],
+      "limits": "한국 손상통계·검진 고시·가격 및 미변경 의학 문장은 이번에 직접 재검증하지 않음."
+    },
+    {
+      "field": "근거등급",
+      "before": "A",
+      "after": "A",
+      "changed": false,
+      "reason": "변경 없음. 기존 항목 유지이며 신규 사실검증을 뜻하지 않음.",
+      "evidence": [],
+      "limits": "한국 손상통계·검진 고시·가격 및 미변경 의학 문장은 이번에 직접 재검증하지 않음."
+    },
+    {
+      "field": "출처",
+      "before": "Sherrington C 외 (2019). Exercise for preventing falls in older people living in the community. Cochrane Database of Systematic Reviews. https://doi.org/10.1002/14651858.CD012424.pub2 · Gillespie LD 외 (2012). Interventions for preventing falls in older people living in the community. Cochrane Database of Systematic Reviews. https://doi.org/10.1002/14651858.CD007146.pub3 · 질병관리청 국가손상정보포털 「노인 손상」 https://www.kdca.go.kr/injury/biz/injury/damgInfo/odsnDamgMain.do · 건강검진 실시기준(보건복지부고시 제2026-6호) 별표 https://www.law.go.kr/admRulLsInfoP.do?admRulSeq=2100000272270",
+      "after": "Sherrington C 외 (2019). Exercise for preventing falls in older people living in the community. Cochrane Database of Systematic Reviews. https://doi.org/10.1002/14651858.CD012424.pub2 · Gillespie LD 외 (2012). Interventions for preventing falls in older people living in the community. Cochrane Database of Systematic Reviews. https://doi.org/10.1002/14651858.CD007146.pub3 · 질병관리청 국가손상정보포털 「노인 손상」 https://www.kdca.go.kr/injury/biz/injury/damgInfo/odsnDamgMain.do · 건강검진 실시기준(보건복지부고시 제2026-6호) 별표 https://www.law.go.kr/admRulLsInfoP.do?admRulSeq=2100000272270",
+      "changed": false,
+      "reason": "변경 없음. 기존 항목 유지이며 신규 사실검증을 뜻하지 않음.",
+      "evidence": [],
+      "limits": "한국 손상통계·검진 고시·가격 및 미변경 의학 문장은 이번에 직접 재검증하지 않음."
+    },
+    {
+      "field": "비고",
+      "before": "요양원이 아니라 자기 집에 사는 60세 이상에게 맞는 항목입니다. 위 연구들은 사망자 수가 아니라 넘어진 횟수를 셌습니다. 다만 노인은 넘어져 고관절이 부러지면 사망까지 이어지기 쉽습니다. 길이 잘 안 보여도 더 자주 넘어집니다. 백내장 때문이라면 제17절 제9항(백내장 수술 평가)을 보세요. 넘어졌을 때 뼈가 버틸 수 있는지 알려면 제39항(골밀도 검사)을 보세요. 2026-10-10 고시 확인(국가법령정보센터).",
+      "after": "요양원이 아니라 자기 집에 사는 60세 이상에게 맞는 항목입니다. 여기 제시한 효과 수치는 사망률이 아니라 넘어진 횟수와 넘어진 사람 수에 관한 것입니다. 23%는 여러 운동을 합친 결과이며, 특정 주당 횟수나 운동 시간의 효과를 뜻하지 않습니다. 집 개선 효과도 점검과 개선을 함께 한 결과입니다. 매트나 손잡이 하나만 설치했을 때 같은 효과를 보장하지는 않습니다. 다만 노인은 넘어져 고관절이 부러지면 사망까지 이어지기 쉽습니다. 길이 잘 안 보여도 더 자주 넘어집니다. 백내장 때문이라면 제17절 제9항(백내장 수술 평가)을 보세요. 넘어졌을 때 뼈가 버틸 수 있는지 알려면 제39항(골밀도 검사)을 보세요. 2026-10-10 고시 확인(국가법령정보센터).",
+      "changed": true,
+      "reason": "사망률 대신 두 낙상 결과의 범위 명시. 특정 용량 및 물품 단독 효과로 일반화하지 않도록 제한 추가.",
+      "evidence": [
+        {
+          "url": "https://doi.org/10.1002/14651858.CD012424.pub2",
+          "exact_quotes": [
+            "Exercise reduces the rate of falls by 23% (rate ratio (RaR) 0.77, 95% confidence interval (CI) 0.71 to 0.83; 12,981 participants, 59 studies; high-certainty evidence).",
+            "Exercise also reduces the number of people experiencing one or more falls by 15% (risk ratio (RR) 0.85, 95% CI 0.81 to 0.89; 13,518 participants, 63 studies; high-certainty evidence)."
+          ],
+          "method": "medical-doi-cache-index.json의 cache_file이 가리키는 Europe PMC 원시 JSON abstractText 직접 열람. 신규 HTTP·전문 열람 아님.",
+          "read_date": "2026-10-18",
+          "cache": {
+            "doi": "10.1002/14651858.CD012424.pub2",
+            "chapters": [
+              1
+            ],
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1002%2F14651858.CD012424.pub2%22&format=json&resultType=core&pageSize=10",
+            "fetched_at": "2026-10-18T20:49:42.625939+09:00",
+            "http_status": 200,
+            "status": "exact_doi_metadata_cached",
+            "sha256": "6ae381826eefb161c26b6280eb89d9a8e7fab58bb7f3815fac5c4e8fbeece564",
+            "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/20233f6952e33ff3519c.json",
+            "hit_count": 1,
+            "abstract_present": true
+          },
+          "limits": "초록만 확인. 특정 운동 빈도·시간의 효과와 매트·손잡이 단독 효과로 일반화할 수 없음."
+        },
+        {
+          "url": "https://doi.org/10.1002/14651858.CD007146.pub3",
+          "exact_quotes": [
+            "Home safety assessment and modification interventions were effective in reducing rate of falls (RR 0.81, 95% CI 0.68 to 0.97; six trials; 4208 participants) and risk of falling (RR 0.88, 95% CI 0.80 to 0.96; seven trials; 4051 participants).",
+            "These interventions were more effective in people at higher risk of falling, including those with severe visual impairment. Home safety interventions appear to be more effective when delivered by an occupational therapist."
+          ],
+          "method": "medical-doi-cache-index.json의 cache_file이 가리키는 Europe PMC 원시 JSON abstractText 직접 열람. 신규 HTTP·전문 열람 아님.",
+          "read_date": "2026-10-18",
+          "cache": {
+            "doi": "10.1002/14651858.CD007146.pub3",
+            "chapters": [
+              1,
+              17
+            ],
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1002%2F14651858.CD007146.pub3%22&format=json&resultType=core&pageSize=10",
+            "fetched_at": "2026-10-18T20:49:42.845245+09:00",
+            "http_status": 200,
+            "status": "exact_doi_metadata_cached",
+            "sha256": "4be11dd3c7d81186774ea09921faac2cb6f87d21fbe15b91190bbd2f73b653e4",
+            "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/652c7aae0d323f3ba6a5.json",
+            "hit_count": 1,
+            "abstract_present": true
+          },
+          "limits": "초록만 확인. 특정 운동 빈도·시간의 효과와 매트·손잡이 단독 효과로 일반화할 수 없음."
+        }
+      ],
+      "limits": "한국 손상통계·검진 고시·가격 및 미변경 의학 문장은 이번에 직접 재검증하지 않음."
+    }
+  ],
+  "easy_validation": {
+    "chars": 100,
+    "sentence_lengths": [
+      45,
+      21,
+      32
+    ],
+    "within_limits": true
+  },
+  "remaining_limits": [
+    "두 Cochrane 리뷰는 캐시 초록만 직접 확인. 2012년 집 안전 개선 추정치는 최신성 검증이 아님.",
+    "한국 손상통계·검진 고시·가격 및 미변경 의학 문장은 이번에 재검증하지 않음."
+  ]
+}

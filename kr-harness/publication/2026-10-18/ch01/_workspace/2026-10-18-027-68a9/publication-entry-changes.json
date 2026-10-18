@@ -1,0 +1,120 @@
+{
+  "entry": 27,
+  "status": "unadopted_proposal",
+  "source": {
+    "doi": "10.3399/bjgp14X681409",
+    "chapters": [
+      1
+    ],
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.3399%2Fbjgp14X681409%22&format=json&resultType=core&pageSize=10",
+    "fetched_at": "2026-10-18T20:49:46.676055+09:00",
+    "http_status": 200,
+    "status": "exact_doi_metadata_cached",
+    "sha256": "c5543fb11478ce98a27213bf30673a640e5e8188f4169fa4f4fc986b4051237e",
+    "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/4e5a3ca5a80d36030cd9.json",
+    "hit_count": 1,
+    "abstract_present": true
+  },
+  "read_method": "cached_abstract_direct_read_no_new_http",
+  "source_limitations": "초록만 직접 열람했습니다. 가격과 기존 임상 설명은 새로 검증하지 않았습니다. 운동·생리 후 상담은 보류 단정을 줄인 편집입니다.",
+  "changes": [
+    {
+      "field": "비용",
+      "before": "소변검사와 비뇨기 초음파는 몇천 원에서 몇만 원입니다. 의사가 필요하다고 판단하면 방광내시경도 합니다. 이때는 비용이 더 듭니다.",
+      "after": "소변검사와 비뇨기 초음파는 몇천 원에서 몇만 원입니다. 의사가 필요하다고 판단하면 방광내시경도 합니다. 이때는 비용이 더 듭니다.",
+      "changed": false,
+      "reason": "기존 내용 보존.",
+      "exact_quote": null,
+      "exact_quotes": [],
+      "url": null,
+      "checked_date": null,
+      "method": null,
+      "limits": "이번 독립 재검증 대상 아님."
+    },
+    {
+      "field": "쉽게",
+      "before": "60세 넘어 눈에 보이는 혈뇨가 한 번 있었다면,\n  방광암으로 진단될 확률은 2.8%쯤입니다. 40~59세는 1.2%쯤입니다. 높은 확률은 아니지만 한 번은 꼭 검사받으세요. 다음 날 멎었어도 가세요.",
+      "after": "영국 40세 이상 자료에서 추정했습니다. 눈에 보이는 혈뇨의 방광암 위험은 60세 이상 2.8%쯤입니다. 40~59세는 1.2%쯤입니다. 아프지 않거나 멎었어도 검사받으세요.",
+      "changed": true,
+      "reason": "영국 40세 이상 추정값임을 밝히고 4문장으로 줄였습니다.",
+      "exact_quote": "Analyses used multivariable conditional logistic regression, followed by estimation of positive predictive values (PPVs) for bladder cancer using Bayes' theorem.",
+      "exact_quotes": [
+        "A case-control study using UK electronic primary care medical records, including uncoded data to supplement coded records.",
+        "Analyses used multivariable conditional logistic regression, followed by estimation of positive predictive values (PPVs) for bladder cancer using Bayes' theorem.",
+        "The PPV of visible haematuria was 2.8% (95% CI = 2.5 to 3.1) and 1.2% (95% CI = 0.6 to 2.3) for the same age groups respectively, lower than those calculated using coded data alone."
+      ],
+      "url": "https://doi.org/10.3399/bjgp14X681409",
+      "checked_date": "2026-10-18",
+      "method": "캐시 원시 JSON 초록 직접 열람. 신규 HTTP 없음.",
+      "limits": "이 초록은 검사 시기 지침이나 사망 감소 효과를 검증하지 않습니다."
+    },
+    {
+      "field": "이득",
+      "before": "영국 일반의(1차 의료)의 전자 진료기록을 연구했습니다. 방광암 4,915명과 대조군 21,718명을 비교했습니다. 눈에 보이는 혈뇨가 있었던 사람의 방광암 진단 비율입니다. 60세 이상은 2.8%(95% CI 2.5~3.1)였습니다. 40~59세는 1.2%(0.6~2.3)입니다. 이 비율을 양성예측도라고 합니다. 현미경으로만 보이는 혈뇨도 의미가 있었습니다. 오즈비는 20입니다(95% CI 12~33). 60세 이상의 양성예측도는 1.6%(1.2~2.1)였습니다.",
+      "after": "영국 40세 이상 환자의 1차 의료 전자 진료기록을 연구했습니다. 방광암 4,915명과 대조군 21,718명을 비교했습니다. 사례대조자료에 Bayes 정리를 적용해 양성예측도를 추정했습니다. 혈뇨가 있는 사람에게 방광암이 있을 확률을 계산해 추정했습니다. 혈뇨가 있던 사람 모두를 추적해 센 진단 비율은 아닙니다. 눈에 보이는 혈뇨의 추정값은 다음과 같습니다. 60세 이상은 2.8%(95% CI 2.5~3.1)였습니다. 40~59세는 1.2%(0.6~2.3)입니다. 현미경으로만 보이는 혈뇨도 방광암과 관련이 있었습니다. 오즈비는 20입니다(95% CI 12~33). 60세 이상의 양성예측도 추정값은 1.6%(1.2~2.1)였습니다.",
+      "changed": true,
+      "reason": "직접 관찰 진단 비율을 사례대조자료의 위험 추정값으로 바로잡았습니다. 양성예측도와 Bayes 계산의 뜻을 쉬운 문장으로 덧붙였습니다.",
+      "exact_quote": "Analyses used multivariable conditional logistic regression, followed by estimation of positive predictive values (PPVs) for bladder cancer using Bayes' theorem.",
+      "exact_quotes": [
+        "A case-control study using UK electronic primary care medical records, including uncoded data to supplement coded records.",
+        "Analyses used multivariable conditional logistic regression, followed by estimation of positive predictive values (PPVs) for bladder cancer using Bayes' theorem.",
+        "The PPV of visible haematuria was 2.8% (95% CI = 2.5 to 3.1) and 1.2% (95% CI = 0.6 to 2.3) for the same age groups respectively, lower than those calculated using coded data alone."
+      ],
+      "url": "https://doi.org/10.3399/bjgp14X681409",
+      "checked_date": "2026-10-18",
+      "method": "캐시 원시 JSON 초록 직접 열람. 신규 HTTP 없음.",
+      "limits": "이 초록은 검사 시기 지침이나 사망 감소 효과를 검증하지 않습니다."
+    },
+    {
+      "field": "근거등급",
+      "before": "B",
+      "after": "B",
+      "changed": false,
+      "reason": "기존 내용 보존.",
+      "exact_quote": null,
+      "exact_quotes": [],
+      "url": null,
+      "checked_date": null,
+      "method": null,
+      "limits": "이번 독립 재검증 대상 아님."
+    },
+    {
+      "field": "출처",
+      "before": "Price SJ, Shephard EA, Stapley SA, Barraclough K, Hamilton WT (2014). Non-visible versus visible haematuria and bladder cancer risk: a study of electronic records in primary care. British Journal of General Practice, 64(626), e584-e589. https://doi.org/10.3399/bjgp14X681409",
+      "after": "Price SJ, Shephard EA, Stapley SA, Barraclough K, Hamilton WT (2014). Non-visible versus visible haematuria and bladder cancer risk: a study of electronic records in primary care. British Journal of General Practice, 64(626), e584-e589. https://doi.org/10.3399/bjgp14X681409",
+      "changed": false,
+      "reason": "기존 내용 보존.",
+      "exact_quote": null,
+      "exact_quotes": [],
+      "url": null,
+      "checked_date": null,
+      "method": null,
+      "limits": "이번 독립 재검증 대상 아님."
+    },
+    {
+      "field": "비고",
+      "before": "핵심은 '아프지 않다'는 점입니다. 결석이나 감염으로 생긴 혈뇨는 대개 통증이 함께 옵니다. 옆구리나 배를 쥐어짜는 듯한 통증입니다. 소변이 잦거나 급하고, 볼 때 아프기도 합니다. 종양으로 생긴 혈뇨는 아무 느낌이 없는 경우가 많습니다. 며칠 멎었다가 다시 나오기도 합니다. 그래서 많은 사람이 그냥 넘깁니다. 항응고제를 먹고 있어도 검사는 받으세요. 격한 운동 뒤나 생리 앞뒤의 혈뇨는 한 번 더 검사해 보고 정해도 됩니다. 발견 비율만 있어서 이득을 '소'로 매겼습니다. '일찍 검사하면 사망이 얼마나 줄어드는지'를\n  보여 주는 효과 크기는 없습니다.",
+      "after": "핵심은 '아프지 않다'는 점입니다. 결석이나 감염으로 생긴 혈뇨는 대개 통증이 함께 옵니다. 옆구리나 배를 쥐어짜는 듯한 통증입니다. 소변이 잦거나 급하고 볼 때 아프기도 합니다. 종양으로 생긴 혈뇨는 아무 느낌이 없는 경우가 많습니다. 며칠 멎었다가 다시 나오기도 합니다. 그래서 많은 사람이 그냥 넘깁니다. 항응고제를 먹고 있어도 검사는 받으세요. 격한 운동 뒤나 생리 앞뒤라도 진료 때 알리세요. 재검사 시기와 필요한 검사는 의사와 상의하세요. 방광암 위험 추정 자료여서 이득을 '소'로 매겼습니다. 이 연구는 일찍 검사했을 때 사망이 얼마나 줄어드는지 보여 주지 않습니다.",
+      "changed": true,
+      "reason": "검사 보류를 상담으로 바꾸고 사망 효과 미측정을 명시했습니다.",
+      "exact_quote": "Analyses used multivariable conditional logistic regression, followed by estimation of positive predictive values (PPVs) for bladder cancer using Bayes' theorem.",
+      "exact_quotes": [
+        "A case-control study using UK electronic primary care medical records, including uncoded data to supplement coded records.",
+        "Analyses used multivariable conditional logistic regression, followed by estimation of positive predictive values (PPVs) for bladder cancer using Bayes' theorem.",
+        "The PPV of visible haematuria was 2.8% (95% CI = 2.5 to 3.1) and 1.2% (95% CI = 0.6 to 2.3) for the same age groups respectively, lower than those calculated using coded data alone."
+      ],
+      "url": "https://doi.org/10.3399/bjgp14X681409",
+      "checked_date": "2026-10-18",
+      "method": "캐시 원시 JSON 초록 직접 열람. 신규 HTTP 없음.",
+      "limits": "이 초록은 검사 시기 지침이나 사망 감소 효과를 검증하지 않습니다."
+    }
+  ],
+  "easy_chars": 97,
+  "easy_sentence_lengths": [
+    22,
+    35,
+    17,
+    20
+  ],
+  "narrative_max_sentence_chars": 50
+}

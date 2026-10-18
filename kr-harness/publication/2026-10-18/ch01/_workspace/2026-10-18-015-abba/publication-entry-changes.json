@@ -1,0 +1,193 @@
+{
+  "entry": 15,
+  "status": "unadopted",
+  "publication_ready": false,
+  "changes": [
+    {
+      "field": "비용",
+      "before": "진료와 상처 처치에 몇만 원이 듭니다. 의사가 맞으라고 하면 백신이나 면역글로불린 값이 더 붙습니다.",
+      "after": "진료와 상처 처치에 몇만 원이 듭니다. 의사가 맞으라고 하면 백신이나 면역글로불린 값이 더 붙습니다.",
+      "changed": false,
+      "reason": "변경 없음",
+      "evidence": [],
+      "verification_method": "감사자 batch4-http-index.json에 기록된 CDC 원시 HTML 두 파일을 직접 재열람하고 SHA-256 대조. 작성자의 앞선 HTTP는 원시 응답을 보존하지 않아 그 응답의 UTC·상태·해시는 증명하지 않음. 고시는 ch01-audit/vaccine.txt 원시 XML 직접 재열람. 이번 수정에서 새 HTTP 요청 없음.",
+      "verification_date": "2026-10-18",
+      "limits": "비용 등 미변경 세부사항을 새로 전수 검증하지 않음. 국가대상과 개인별 무료 지원 여부를 동일시하지 않음.",
+      "new_narrative_sentence_lengths": []
+    },
+    {
+      "field": "쉽게",
+      "before": "파상풍은 걸리면 열 명 중 한 명꼴로 죽습니다. 깊은 상처와 흙 묻은 상처가 더 위험합니다. 상처가 더럽고 마지막 접종 뒤 5년 이상 지났으면 한 대 더 맞습니다. 상처가 부어오를 때까지 미루지 말고 그날 가세요.",
+      "after": "미국 파상풍 환자는 열 명 중 한 명꼴로 숨집니다. 기본 접종을 마쳤어도 더러운 상처는 마지막 접종 뒤 5년 이상이면 추가 주사가 필요합니다. 부어오르길 기다리지 말고 그날 병원에 가세요.",
+      "changed": true,
+      "reason": "미국 환자 분모와 기초 접종 완료 조건을 복원하고 3문장으로 압축. 자세한 위험 상처와 미접종 조건은 이득에 유지.",
+      "evidence": [
+        {
+          "quote": "Tetanus can lead to death (1 in 10 cases in the United States are fatal).",
+          "url": "https://www.cdc.gov/tetanus/about/index.html"
+        },
+        {
+          "quote": "People with a complete tetanus primary series who received their last tetanus vaccine 5 or more years ago.",
+          "url": "https://www.cdc.gov/tetanus/hcp/clinical-guidance/index.html"
+        }
+      ],
+      "verification_method": "감사자 batch4-http-index.json에 기록된 CDC 원시 HTML 두 파일을 직접 재열람하고 SHA-256 대조. 작성자의 앞선 HTTP는 원시 응답을 보존하지 않아 그 응답의 UTC·상태·해시는 증명하지 않음. 고시는 ch01-audit/vaccine.txt 원시 XML 직접 재열람. 이번 수정에서 새 HTTP 요청 없음.",
+      "verification_date": "2026-10-18",
+      "limits": "비용 등 미변경 세부사항을 새로 전수 검증하지 않음. 국가대상과 개인별 무료 지원 여부를 동일시하지 않음.",
+      "new_narrative_sentence_lengths": [
+        {
+          "sentence": "미국 파상풍 환자는 열 명 중 한 명꼴로 숨집니다.",
+          "length": 28
+        },
+        {
+          "sentence": "기본 접종을 마쳤어도 더러운 상처는 마지막 접종 뒤 5년 이상이면 추가 주사가 필요합니다.",
+          "length": 50
+        },
+        {
+          "sentence": "부어오르길 기다리지 말고 그날 병원에 가세요.",
+          "length": 25
+        }
+      ]
+    },
+    {
+      "field": "이득",
+      "before": "미국의 파상풍 환자는 열 명 중 한 명꼴로 숨집니다. 깊은 상처와 흙에 오염된 상처가 더 위험합니다. 미국 질병통제예방센터(CDC) 임상 지침은 상처를 두 가지로 나눕니다. 깨끗하고 작은 상처와, 더럽거나 큰 상처입니다. 찔린 상처, 관통상, 물린 상처, 죽은 조직이 있는 상처는 더럽거나 큰 상처로 봅니다. 기초 접종을 마친 사람의 기준은 이렇습니다. 깨끗하고 작은 상처라면 마지막 접종 뒤 10년 이상 지났을 때 한 대 맞습니다. 더럽거나 큰 상처라면 마지막 접종 뒤 5년 이상일 때 맞습니다. 접종력을 모르거나 기초 접종을 다 못 했으면 상처 종류와 상관없이 백신을 맞습니다. 면역글로불린(TIG)은 항체를 바로 넣어 주는 주사입니다. 더럽거나 큰 상처인데 접종력을 모르거나 기초 접종이 덜 됐으면 이 주사도 맞습니다. 더럽거나 큰 상처에 HIV 감염이나 중증 면역저하가 있으면 TIG 대상입니다. 접종력과 관계없이 해당합니다. 다만 깨끗하고 작은 상처에는 면역글로불린을 쓰지 않습니다. 한국 국가예방접종의 파상풍 백신은 12세 이하가 대상입니다(11~12세 Tdap까지).",
+      "after": "미국의 파상풍 환자는 열 명 중 한 명꼴로 숨집니다. 깊은 상처와 흙에 오염된 상처가 더 위험합니다. 미국 질병통제예방센터(CDC) 임상 지침은 상처를 두 가지로 나눕니다. 깨끗하고 작은 상처와, 더럽거나 큰 상처입니다. 찔린 상처, 관통상, 물린 상처, 죽은 조직이 있는 상처는 더럽거나 큰 상처로 봅니다. 기초 접종을 마친 사람의 기준은 이렇습니다. 깨끗하고 작은 상처라면 마지막 접종 뒤 10년 이상 지났을 때 한 대 맞습니다. 더럽거나 큰 상처라면 마지막 접종 뒤 5년 이상일 때 맞습니다. 접종력을 모르거나 기초 접종을 다 못 했으면 상처 종류와 상관없이 백신을 맞습니다. 면역글로불린(TIG)은 항체를 바로 넣어 주는 주사입니다. 더럽거나 큰 상처인데 접종력을 모르거나 기초 접종이 덜 됐으면 이 주사도 맞습니다. 더럽거나 큰 상처에 HIV 감염이나 중증 면역저하가 있으면 TIG 대상입니다. 접종력과 관계없이 해당합니다. 다만 깨끗하고 작은 상처에는 면역글로불린을 쓰지 않습니다. 한국 국가예방접종의 파상풍 백신 대상에는 12세 이하가 포함됩니다. 11~12세에는 Tdap을 맞습니다. 조혈모세포이식환자도 대상에 포함됩니다.",
+      "changed": true,
+      "reason": "고시 별표 1의 조혈모세포이식환자 예외 복원. TIG·접종력 불명·면역저하 조건 유지. 국가 대상·11~12세 Tdap·이식환자 조건을 짧은 3문장으로 분리.",
+      "evidence": [
+        {
+          "quote": "③ 디프테리아ㆍ파상풍ㆍ백일해",
+          "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000285754&type=XML"
+        },
+        {
+          "quote": "12세 이하 모든 영유아",
+          "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000285754&type=XML"
+        },
+        {
+          "quote": "조혈모세포이식환자",
+          "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000285754&type=XML"
+        }
+      ],
+      "verification_method": "감사자 batch4-http-index.json에 기록된 CDC 원시 HTML 두 파일을 직접 재열람하고 SHA-256 대조. 작성자의 앞선 HTTP는 원시 응답을 보존하지 않아 그 응답의 UTC·상태·해시는 증명하지 않음. 고시는 ch01-audit/vaccine.txt 원시 XML 직접 재열람. 이번 수정에서 새 HTTP 요청 없음.",
+      "verification_date": "2026-10-18",
+      "limits": "비용 등 미변경 세부사항을 새로 전수 검증하지 않음. 국가대상과 개인별 무료 지원 여부를 동일시하지 않음.",
+      "new_narrative_sentence_lengths": [
+        {
+          "sentence": "한국 국가예방접종의 파상풍 백신 대상에는 12세 이하가 포함됩니다.",
+          "length": 37
+        },
+        {
+          "sentence": "11~12세에는 Tdap을 맞습니다.",
+          "length": 20
+        },
+        {
+          "sentence": "조혈모세포이식환자도 대상에 포함됩니다.",
+          "length": 21
+        }
+      ]
+    },
+    {
+      "field": "근거등급",
+      "before": "B",
+      "after": "B",
+      "changed": false,
+      "reason": "변경 없음",
+      "evidence": [],
+      "verification_method": "감사자 batch4-http-index.json에 기록된 CDC 원시 HTML 두 파일을 직접 재열람하고 SHA-256 대조. 작성자의 앞선 HTTP는 원시 응답을 보존하지 않아 그 응답의 UTC·상태·해시는 증명하지 않음. 고시는 ch01-audit/vaccine.txt 원시 XML 직접 재열람. 이번 수정에서 새 HTTP 요청 없음.",
+      "verification_date": "2026-10-18",
+      "limits": "비용 등 미변경 세부사항을 새로 전수 검증하지 않음. 국가대상과 개인별 무료 지원 여부를 동일시하지 않음.",
+      "new_narrative_sentence_lengths": []
+    },
+    {
+      "field": "출처",
+      "before": "미국 질병통제예방센터. About Tetanus: 「Tetanus bacteria can get into someone's body through broken skin, usually through injuries.」「Tetanus can lead to death (1 in 10 cases in the United States are fatal).」「People who didn't complete the primary series or who aren't up to date with their 10-year tetanus booster shots are also at increased risk.」「Vaccination also helps prevent tetanus in people with wounds, depending on their tetanus vaccination history.」 https://www.cdc.gov/tetanus/about/index.html · CDC. Tetanus: Clinical Guidance (Reviewed 2026-09-08) https://www.cdc.gov/tetanus/hcp/clinical-guidance/index.html · 예방접종의 실시기준 및 방법(질병관리청고시 제2026-13호) 별표 1 https://www.law.go.kr/admRulLsInfoP.do?admRulSeq=2100000285754",
+      "after": "미국 질병통제예방센터. About Tetanus: 「Tetanus bacteria can get into someone's body through broken skin, usually through injuries.」「Tetanus can lead to death (1 in 10 cases in the United States are fatal).」「People who didn't complete the primary series or who aren't up to date with their 10-year tetanus booster shots are also at increased risk.」「Vaccination also helps prevent tetanus in people with wounds, depending on their tetanus vaccination history.」 https://www.cdc.gov/tetanus/about/index.html · CDC. Tetanus: Clinical Guidance (Reviewed 2026-09-08) https://www.cdc.gov/tetanus/hcp/clinical-guidance/index.html · 예방접종의 실시기준 및 방법(질병관리청고시 제2026-13호) 별표 1 https://www.law.go.kr/admRulLsInfoP.do?admRulSeq=2100000285754",
+      "changed": false,
+      "reason": "변경 없음",
+      "evidence": [],
+      "verification_method": "감사자 batch4-http-index.json에 기록된 CDC 원시 HTML 두 파일을 직접 재열람하고 SHA-256 대조. 작성자의 앞선 HTTP는 원시 응답을 보존하지 않아 그 응답의 UTC·상태·해시는 증명하지 않음. 고시는 ch01-audit/vaccine.txt 원시 XML 직접 재열람. 이번 수정에서 새 HTTP 요청 없음.",
+      "verification_date": "2026-10-18",
+      "limits": "비용 등 미변경 세부사항을 새로 전수 검증하지 않음. 국가대상과 개인별 무료 지원 여부를 동일시하지 않음.",
+      "new_narrative_sentence_lengths": []
+    },
+    {
+      "field": "비고",
+      "before": "병원에 가서 의사가 판단하게 하세요. 혼자 정하지 말고, 귀찮다고 묻지 않고 넘어가지도 마세요. 상처마다 주사가 필요하지는 않습니다. 의사는 상처 종류를 보고, 마지막 접종이 언제였는지 물은 뒤 정합니다. 어릴 때 맞았다고 평생 안심할 수는 없습니다. 상처가 더러우면 마지막 접종 뒤 5년 이상 지나면 더 맞아야 합니다. 그러니 가기 전에 마지막으로 파상풍 주사를 맞은 해를 떠올려 보세요. 어른의 추가 접종은 국가예방접종 대상이 아닙니다. 2026-10-10 고시 확인(국가법령정보센터).",
+      "after": "병원에 가서 의사가 판단하게 하세요. 혼자 정하지 말고 귀찮다고 묻지 않고 넘어가지도 마세요. 상처마다 주사가 필요하지는 않습니다. 의사는 상처 종류를 보고 마지막 접종이 언제였는지 물은 뒤 정합니다. 어릴 때 맞았다고 평생 안심할 수는 없습니다. 기초 접종을 마친 사람은 다음 기준을 따릅니다. 상처가 더러우면 마지막 접종 뒤 5년 이상 지났을 때 더 맞아야 합니다. 그러니 가기 전에 마지막으로 파상풍 주사를 맞은 해를 떠올려 보세요. 국가예방접종 대상에는 조혈모세포이식환자도 포함됩니다. 지원 여부는 병원에 확인하세요. 2026-10-18 고시 별표 1 확인(국가법령정보센터).",
+      "changed": true,
+      "reason": "5년 규칙의 기초 접종 완료 조건 복원, 성인 일괄 비대상 단정 제거, 실제 고시 대조일 기록. 연결어미 쉼표 2곳 정리. 기초 접종 완료자를 먼저 명시하고 이어지는 문장에 상처·5년 조건을 유지.",
+      "evidence": [
+        {
+          "quote": "People with a complete tetanus primary series who received their last tetanus vaccine 5 or more years ago.",
+          "url": "https://www.cdc.gov/tetanus/hcp/clinical-guidance/index.html"
+        },
+        {
+          "quote": "조혈모세포이식환자",
+          "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000285754&type=XML"
+        }
+      ],
+      "verification_method": "감사자 batch4-http-index.json에 기록된 CDC 원시 HTML 두 파일을 직접 재열람하고 SHA-256 대조. 작성자의 앞선 HTTP는 원시 응답을 보존하지 않아 그 응답의 UTC·상태·해시는 증명하지 않음. 고시는 ch01-audit/vaccine.txt 원시 XML 직접 재열람. 이번 수정에서 새 HTTP 요청 없음.",
+      "verification_date": "2026-10-18",
+      "limits": "비용 등 미변경 세부사항을 새로 전수 검증하지 않음. 국가대상과 개인별 무료 지원 여부를 동일시하지 않음.",
+      "new_narrative_sentence_lengths": [
+        {
+          "sentence": "혼자 정하지 말고 귀찮다고 묻지 않고 넘어가지도 마세요.",
+          "length": 31
+        },
+        {
+          "sentence": "의사는 상처 종류를 보고 마지막 접종이 언제였는지 물은 뒤 정합니다.",
+          "length": 38
+        },
+        {
+          "sentence": "기초 접종을 마친 사람은 다음 기준을 따릅니다.",
+          "length": 26
+        },
+        {
+          "sentence": "상처가 더러우면 마지막 접종 뒤 5년 이상 지났을 때 더 맞아야 합니다.",
+          "length": 40
+        },
+        {
+          "sentence": "국가예방접종 대상에는 조혈모세포이식환자도 포함됩니다.",
+          "length": 29
+        },
+        {
+          "sentence": "지원 여부는 병원에 확인하세요.",
+          "length": 17
+        },
+        {
+          "sentence": "2026-10-18 고시 별표 1 확인(국가법령정보센터).",
+          "length": 32
+        }
+      ]
+    }
+  ],
+  "easy_chars": 105,
+  "easy_sentence_lengths": [
+    28,
+    50,
+    25
+  ],
+  "source_review_limits": "medical-doi-cache-index.json 제1절 원시 JSON을 tetanus로 검색했으나 해당 논문 초록 없음. 이 항 출처는 CDC 웹 지침과 한국 고시이며, 의학논문 초록을 확인했다고 주장하지 않음. CDC 두 원문 직접 읽음. 고시2026-13호 시행2026-10-01 확인.",
+  "immutable": "제목·태그·근거등급 B 보존; strict 원고 수정 없음.",
+  "cdc_raw_cache": [
+    {
+      "key": "tetanus-about",
+      "url": "https://www.cdc.gov/tetanus/about/index.html",
+      "status": 200,
+      "retrieved_at": "2026-10-18T12:38:48.828955+00:00",
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch01-audit/tetanus-about.html",
+      "sha256": "8cd148f82003e46eda7207070571a74c48fe834f9b14177dbda1deb6b4655584"
+    },
+    {
+      "key": "tetanus-clinical",
+      "url": "https://www.cdc.gov/tetanus/hcp/clinical-guidance/index.html",
+      "status": 200,
+      "retrieved_at": "2026-10-18T12:38:48.756365+00:00",
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch01-audit/tetanus-clinical.html",
+      "sha256": "5f61508bdcc3b04b1a8372b18915f7d825babb8719f2fc3b10092f0589815460"
+    }
+  ],
+  "source_method": "감사자 batch4-http-index.json에 기록된 CDC 원시 HTML 두 파일을 직접 재열람하고 SHA-256 대조. 작성자의 앞선 HTTP는 원시 응답을 보존하지 않아 그 응답의 UTC·상태·해시는 증명하지 않음. 고시는 ch01-audit/vaccine.txt 원시 XML 직접 재열람. 이번 수정에서 새 HTTP 요청 없음.",
+  "review_revision": "batch4: 모든 새 서술문 50자 이하 확인. 쉽게 105자·3문장. 제안 미채택, strict 불변."
+}

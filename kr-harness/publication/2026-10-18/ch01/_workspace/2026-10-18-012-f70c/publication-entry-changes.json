@@ -1,0 +1,252 @@
+{
+  "entry": 12,
+  "status": "unadopted_proposal",
+  "publication_ready": false,
+  "reviewed_files": [
+    "content-audit.md",
+    "editorial-decisions.json"
+  ],
+  "title_before": "### 12. 물가에서는 아이에게서 눈을 떼지 말고, 배를 타거나 자연 물놀이를 할 때는 구명조끼를 입으세요",
+  "title_after": "### 12. 물가에서는 아이에게서 눈을 떼지 말고, 배를 타거나 자연 물놀이를 할 때는 구명조끼를 입으세요",
+  "tags_unchanged": true,
+  "grade_unchanged": true,
+  "strict_artifacts_unchanged": true,
+  "changes": [
+    {
+      "field": "비용",
+      "before": "구명조끼는 몇만 원입니다. 아이를 계속 지켜보는 주의력도 듭니다.",
+      "after": "구명조끼는 몇만 원입니다. 아이를 계속 지켜보는 주의력도 듭니다.",
+      "changed": false,
+      "reason": "변경 없음. 제목·태그·근거등급·출처 등 기존 항목 유지. 독립 재검증을 뜻하지 않음.",
+      "evidence": [],
+      "limits": "미변경 주장의 신규 검증을 주장하지 않음."
+    },
+    {
+      "field": "쉽게",
+      "before": "물에 빠졌을 때 구명조끼를 입고 있으면 익사할 확률이 안 입은 사람의 절반쯤입니다. 한국 물놀이 사망은 셋에 둘이 하천과 계곡에서 났습니다. 원인 1위는 구명조끼를 안 입는 등의 부주의였습니다.",
+      "after": "미국에서 레저용 배를 타던 사람들을 살폈습니다. 구명조끼를 입은 쪽은 안 입은 쪽보다 익사 위험이 절반쯤이었습니다. 빠진 자료가 많아 실제 차이와 다를 수 있습니다.",
+      "changed": true,
+      "reason": "전체 물에 빠진 사람이 아닌 미국 레저용 배 이용자로 범위를 한정하고 관찰된 비교 및 자료 제외 한계를 일상말로 설명.",
+      "evidence": [
+        {
+          "url": "https://doi.org/10.1136/ip.2010.028688",
+          "exact_quote": "Recreational boaters during 2000-2006. The adjusted RR was 0.51 (95% CI 0.35 to 0.74).",
+          "additional_exact_quote": "However, this estimate may be biased because many vessels had to be excluded from the analysis.",
+          "read_date": "2026-10-18",
+          "method": "인덱스가 가리키는 Europe PMC 원시 JSON의 abstractText 직접 열람. 신규 HTTP 또는 논문 전문 열람 아님.",
+          "cache": {
+            "doi": "10.1136/ip.2010.028688",
+            "chapters": [
+              1
+            ],
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1136%2Fip.2010.028688%22&format=json&resultType=core&pageSize=10",
+            "fetched_at": "2026-10-18T20:49:42.489732+09:00",
+            "http_status": 200,
+            "status": "exact_doi_metadata_cached",
+            "sha256": "93a82fe765beb3bb9f39a47f398100e6881918b235e611066324a54da8b06a15",
+            "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/754ee50847c250653a0f.json",
+            "hit_count": 1,
+            "abstract_present": true
+          },
+          "limits": "초록만 확인. 인과효과 확정 불가. 레저 보트 이용자 범위이며 전체 물놀이 이용자로 일반화 불가."
+        }
+      ],
+      "limits": "미변경 주장의 신규 검증을 주장하지 않음."
+    },
+    {
+      "field": "이득",
+      "before": "한 연구가 미국 해안경비대 자료로 조건이 비슷한 사람끼리 짝지어 비교했습니다. 레저용 배에서 물에 빠졌을 때 구명조끼를 입은 사람은 익사 위험이 절반쯤이었습니다. 원값은 보정 RR 0.51, 95% CI 0.35~0.74입니다. 행정안전부에 따르면 최근 5년 물놀이 사고 사망자는 112명입니다. 하천에서 39명(35%), 계곡에서 33명(30%)이 숨졌습니다. 해수욕장은 25명(22%), 바닷가는 15명(13%)입니다. 원인은 구명조끼 미착용 같은 안전 부주의가 41명(37%)으로 가장 많았습니다. 수영 미숙 38명(34%), 음주 수영 19명(17%)이 뒤를 이었습니다. 나이로는 50대와 10대가 각각 20명을 넘었고, 10세 미만도 7명이었습니다. 「수상레저안전법」 제20조는 수상레저활동을 할 때 구명조끼 같은 인명안전장비를 입게 합니다. 어기면 50만원 이하의 과태료를 물 수 있습니다(제64조 제2항).",
+      "after": "한 연구가 미국 해안경비대 자료로 조건이 비슷한 사람끼리 짝지어 비교했습니다. 비교 대상은 레저용 배를 타던 사람입니다. 구명조끼를 입은 사람은 안 입은 사람보다 익사 위험이 절반쯤이었습니다. 원값은 보정 RR 0.51, 95% CI 0.35~0.74입니다. 행정안전부는 2025-07-21 통계를 발표했습니다. ‘최근 5년’ 물놀이 사고 사망자는 112명입니다. 정확한 집계 시작·종료 연도는 이 발표 본문에 적혀 있지 않습니다. 하천에서 39명(35%), 계곡에서 33명(30%)이 숨졌습니다. 해수욕장은 25명(22%), 바닷가는 15명(13%)입니다. 원인은 구명조끼 미착용 같은 안전 부주의가 41명(37%)으로 가장 많았습니다. 수영 미숙 38명(34%), 음주 수영 19명(17%)이 뒤를 이었습니다. 나이로는 50대와 10대가 각각 20명을 넘었고, 10세 미만도 7명이었습니다. 「수상레저안전법」 제20조는 수상레저활동을 할 때 구명조끼 같은 인명안전장비를 입게 합니다. 어기면 50만원 이하의 과태료를 물 수 있습니다(제64조 제2항).",
+      "changed": true,
+      "reason": "배에서 물에 빠졌다는 추가 조건을 제거하고 초록의 레저보트 이용자 범위 복원. 상대적인 최근 5년을 발표일에 고정하고 정확한 연도 미기재를 명시. 나머지 정밀 수치는 유지.",
+      "evidence": [
+        {
+          "url": "https://doi.org/10.1136/ip.2010.028688",
+          "exact_quote": "Recreational boaters during 2000-2006. The adjusted RR was 0.51 (95% CI 0.35 to 0.74).",
+          "additional_exact_quote": "However, this estimate may be biased because many vessels had to be excluded from the analysis.",
+          "read_date": "2026-10-18",
+          "method": "인덱스가 가리키는 Europe PMC 원시 JSON의 abstractText 직접 열람. 신규 HTTP 또는 논문 전문 열람 아님.",
+          "cache": {
+            "doi": "10.1136/ip.2010.028688",
+            "chapters": [
+              1
+            ],
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1136%2Fip.2010.028688%22&format=json&resultType=core&pageSize=10",
+            "fetched_at": "2026-10-18T20:49:42.489732+09:00",
+            "http_status": 200,
+            "status": "exact_doi_metadata_cached",
+            "sha256": "93a82fe765beb3bb9f39a47f398100e6881918b235e611066324a54da8b06a15",
+            "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/754ee50847c250653a0f.json",
+            "hit_count": 1,
+            "abstract_present": true
+          },
+          "limits": "초록만 확인. 인과효과 확정 불가. 레저 보트 이용자 범위이며 전체 물놀이 이용자로 일반화 불가."
+        },
+        {
+          "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148946340",
+          "exact_quote": "행안부에 따르면 최근 5년 동안 물놀이 사고에 따른 사망자는 112명이며, 그중 7월 하순에 가장 많은 31명이 발생했다.",
+          "read_date": "2026-10-18",
+          "publication_date": "2025-07-21",
+          "method": "인증서 검증을 사용하는 urllib.request HTTPS로 HTML을 새로 읽어 본문 확인.",
+          "limits": "본문에 집계 시작·종료 연도 없음. 2020~2024 등으로 추정하지 않음. 법령과 별도 보도자료는 이번에 재열람하지 않음.",
+          "retained_fetch_metadata": {
+            "raw_primary_cache_path": null,
+            "fetched_at_utc": null,
+            "http_status": null,
+            "sha256": null,
+            "explanation": "이전 urllib 열람은 본문 일부만 도구 출력에 남겼습니다. 원시 HTML, 정확한 회수 UTC, HTTP 상태, SHA-256은 보관하지 않았습니다. 누락값을 추정하거나 생성하지 않습니다."
+          }
+        }
+      ],
+      "limits": "기존 법령 제20조·제64조 및 과태료는 재열람하지 않았으므로 유효성 확정 아님."
+    },
+    {
+      "field": "근거등급",
+      "before": "A",
+      "after": "A",
+      "changed": false,
+      "reason": "변경 없음. 제목·태그·근거등급·출처 등 기존 항목 유지. 독립 재검증을 뜻하지 않음.",
+      "evidence": [],
+      "limits": "미변경 주장의 신규 검증을 주장하지 않음."
+    },
+    {
+      "field": "출처",
+      "before": "Cummings P 외 (2011). Association between wearing a personal floatation device and death by drowning among recreational boaters. Injury Prevention. https://doi.org/10.1136/ip.2010.028688 · 행정안전부(정책브리핑, 2025-07-21) 「물놀이 사망, 7월 하순에 최다」 https://www.korea.kr/news/policyNewsView.do?newsId=148946340 · 행정안전부 보도자료 https://www.mois.go.kr/frt/bbs/type010/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000008&nttId=119065 · 「수상레저안전법」 제20조·제64조 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=267437",
+      "after": "Cummings P 외 (2011). Association between wearing a personal floatation device and death by drowning among recreational boaters. Injury Prevention. https://doi.org/10.1136/ip.2010.028688 · 행정안전부(정책브리핑, 2025-07-21) 「물놀이 사망, 7월 하순에 최다」 https://www.korea.kr/news/policyNewsView.do?newsId=148946340 · 행정안전부 보도자료 https://www.mois.go.kr/frt/bbs/type010/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000008&nttId=119065 · 「수상레저안전법」 제20조·제64조 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=267437",
+      "changed": false,
+      "reason": "변경 없음. 제목·태그·근거등급·출처 등 기존 항목 유지. 독립 재검증을 뜻하지 않음.",
+      "evidence": [],
+      "limits": "기존 법령 제20조·제64조 및 과태료는 재열람하지 않았으므로 유효성 확정 아님."
+    },
+    {
+      "field": "비고",
+      "before": "A등급은 구명조끼 쪽에만 해당합니다. '눈을 떼지 말기'는 모두가 동의하는 상식이라 따로 보면 C등급입니다. 무작위로 나눠 비교한 시험은 없고, 앞으로도 할 수 없습니다. 「수상레저안전법」의 착용 의무는 보트나 카약 같은 수상레저기구를 탈 때 적용됩니다. 이 조문이 계곡·하천 물놀이 전체를 다루지는 않습니다. 그런데 사망은 대부분 바로 그곳에서 났습니다. 겨울에 얼음 위에서 놀 때는 제41항(얼음 두께)을 보세요. 법령은 2026-10-10 국가법령정보센터에서 확인했습니다.",
+      "after": "A등급은 구명조끼 쪽에만 해당합니다. '눈을 떼지 말기'는 모두가 동의하는 상식이라 따로 보면 C등급입니다. 무작위로 나눠 비교한 시험은 없고, 앞으로도 할 수 없습니다. 이 연구는 레저용 배 이용자의 자료를 비교했습니다. 빠진 자료와 다른 문제로 많은 배가 분석에서 제외돼 결과에 편향이 있을 수 있습니다. 구명조끼 자체의 효과라고 확정하거나 모든 물놀이에 같은 수치를 적용할 수는 없습니다. 「수상레저안전법」의 착용 의무는 보트나 카약 같은 수상레저기구를 탈 때 적용됩니다. 이 조문이 계곡·하천 물놀이 전체를 다루지는 않습니다. 그런데 사망은 대부분 바로 그곳에서 났습니다. 겨울에 얼음 위에서 놀 때는 제41항(얼음 두께)을 보세요. 법령은 2026-10-10 국가법령정보센터에서 확인했습니다.",
+      "changed": true,
+      "reason": "많은 배의 자료 제외로 편향 가능, 인과 해석 및 전체 물놀이 일반화 한계 명시.",
+      "evidence": [
+        {
+          "url": "https://doi.org/10.1136/ip.2010.028688",
+          "exact_quote": "Recreational boaters during 2000-2006. The adjusted RR was 0.51 (95% CI 0.35 to 0.74).",
+          "additional_exact_quote": "However, this estimate may be biased because many vessels had to be excluded from the analysis.",
+          "read_date": "2026-10-18",
+          "method": "인덱스가 가리키는 Europe PMC 원시 JSON의 abstractText 직접 열람. 신규 HTTP 또는 논문 전문 열람 아님.",
+          "cache": {
+            "doi": "10.1136/ip.2010.028688",
+            "chapters": [
+              1
+            ],
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1136%2Fip.2010.028688%22&format=json&resultType=core&pageSize=10",
+            "fetched_at": "2026-10-18T20:49:42.489732+09:00",
+            "http_status": 200,
+            "status": "exact_doi_metadata_cached",
+            "sha256": "93a82fe765beb3bb9f39a47f398100e6881918b235e611066324a54da8b06a15",
+            "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/754ee50847c250653a0f.json",
+            "hit_count": 1,
+            "abstract_present": true
+          },
+          "limits": "초록만 확인. 인과효과 확정 불가. 레저 보트 이용자 범위이며 전체 물놀이 이용자로 일반화 불가."
+        }
+      ],
+      "limits": "기존 법령 제20조·제64조 및 과태료는 재열람하지 않았으므로 유효성 확정 아님."
+    }
+  ],
+  "easy_validation": {
+    "chars": 92,
+    "sentence_lengths": [
+      26,
+      37,
+      27
+    ],
+    "within_limits": true
+  },
+  "remaining_limits": [
+    "한국 발표의 정확한 집계 시작·종료 연도 미확인.",
+    "법령 제20조·제64조 및 과태료 현행 내용은 이번 작업에서 재열람하지 않음.",
+    "Cummings 논문은 캐시 초록만 읽었으며 제외 자료로 인한 편향 가능."
+  ],
+  "readability_revision": {
+    "scope": "이득의 신규 문장 두 곳만 분리. 사실·대상·비교·날짜·불확실성 유지.",
+    "backup_files": [
+      "publication-entry-proposal.md.before-batch4-readability",
+      "publication-entry-changes.json.before-batch4-readability"
+    ],
+    "new_or_modified_narrative_sentence_audit": [
+      {
+        "field": "쉽게",
+        "sentence": "미국에서 레저용 배를 타던 사람들을 살폈습니다.",
+        "chars": 26,
+        "within_50": true
+      },
+      {
+        "field": "쉽게",
+        "sentence": "구명조끼를 입은 쪽은 안 입은 쪽보다 익사 위험이 절반쯤이었습니다.",
+        "chars": 37,
+        "within_50": true
+      },
+      {
+        "field": "쉽게",
+        "sentence": "빠진 자료가 많아 실제 차이와 다를 수 있습니다.",
+        "chars": 27,
+        "within_50": true
+      },
+      {
+        "field": "이득",
+        "sentence": "비교 대상은 레저용 배를 타던 사람입니다.",
+        "chars": 23,
+        "within_50": true
+      },
+      {
+        "field": "이득",
+        "sentence": "구명조끼를 입은 사람은 안 입은 사람보다 익사 위험이 절반쯤이었습니다.",
+        "chars": 39,
+        "within_50": true
+      },
+      {
+        "field": "이득",
+        "sentence": "행정안전부는 2025-07-21 통계를 발표했습니다.",
+        "chars": 29,
+        "within_50": true
+      },
+      {
+        "field": "이득",
+        "sentence": "‘최근 5년’ 물놀이 사고 사망자는 112명입니다.",
+        "chars": 28,
+        "within_50": true
+      },
+      {
+        "field": "이득",
+        "sentence": "정확한 집계 시작·종료 연도는 이 발표 본문에 적혀 있지 않습니다.",
+        "chars": 37,
+        "within_50": true
+      },
+      {
+        "field": "비고",
+        "sentence": "이 연구는 레저용 배 이용자의 자료를 비교했습니다.",
+        "chars": 28,
+        "within_50": true
+      },
+      {
+        "field": "비고",
+        "sentence": "빠진 자료와 다른 문제로 많은 배가 분석에서 제외돼 결과에 편향이 있을 수 있습니다.",
+        "chars": 47,
+        "within_50": true
+      },
+      {
+        "field": "비고",
+        "sentence": "구명조끼 자체의 효과라고 확정하거나 모든 물놀이에 같은 수치를 적용할 수는 없습니다.",
+        "chars": 47,
+        "within_50": true
+      }
+    ],
+    "counting": "공백·문장부호 포함 실제 Unicode 글자 수. 비고의 신규 문장 포함. 미변경 원문·출처·태그 제외.",
+    "all_within_50": true,
+    "unchanged_original_over_50": [
+      {
+        "sentence": "「수상레저안전법」 제20조는 수상레저활동을 할 때 구명조끼 같은 인명안전장비를 입게 합니다.",
+        "chars": 51
+      }
+    ],
+    "raw_metadata_limit": "한국 발표의 원시 응답 보관·정확한 UTC·상태·SHA는 누락. 열람 기록을 소급 생성하지 않음."
+  }
+}

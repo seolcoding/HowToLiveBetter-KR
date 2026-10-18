@@ -1,0 +1,24 @@
+{
+  "entry": 10,
+  "status": "unadopted",
+  "independent_review_required": true,
+  "approved_full_entry_file": "publication-entry-proposal.md",
+  "approved_full_entry_sha256": "11fc46c3c40ed0df0eb6d6c275d7ff3fad91932a9507ea63c8a15c5945f0d247",
+  "pure_final_file": "final.md",
+  "pure_final_sha256": "5b8e4ceac1e83661c8de62f85e2f2675ffcab39a0587e47a3eac616f2f994c10",
+  "pure_strict_entry_requested_file": "pure-strict-entry.md",
+  "pure_strict_entry_available": false,
+  "strict_entry_file": "strict-entry.md",
+  "strict_entry_sha256": "2f5a6cf515135434c5f670a1922500543b2950ab4a5dcbc12ee82e43660662f9",
+  "changes": [
+    {
+      "field": "비용",
+      "field_label": "- 비용:",
+      "before": "카시트는 하나에 십수만 원에서 수십만 원이고, 몇 년 씁니다. 탈 때마다 아이를 묶느라 1분이 더 듭니다.",
+      "after": "카시트는 하나에 십수만 원에서 수십만 원이고 몇 년 씁니다. 탈 때마다 아이를 묶느라 1분이 더 듭니다.",
+      "reason": "C-11: 연결어미 -고 뒤 쉼표 한 개만 제거하여 기존 순수 윤문을 복원합니다.",
+      "pure_final_evidence": "- 비용: 카시트는 하나에 십수만 원에서 수십만 원이고 몇 년 씁니다. 탈 때마다 아이를 묶느라 1분이 더 듭니다."
+    }
+  ],
+  "limits": "별도 미채택 필드 제안입니다. 승인 본문·변경기록·strict·final을 수정하지 않았습니다. 다른 어휘·사실·수치는 바꾸지 않습니다."
+}

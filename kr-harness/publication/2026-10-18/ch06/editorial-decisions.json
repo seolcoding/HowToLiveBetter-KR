@@ -1,0 +1,459 @@
+{
+  "chapter": 6,
+  "status": "pending_candidate_review",
+  "source_sha256": "5235f6ff782071306bf53638ad962e7e4a612fe09670eaba256517ebb6ae7dd3",
+  "candidate_sha256": null,
+  "formal_kr_fit": false,
+  "approval": false,
+  "entries": [
+    {
+      "entry": 1,
+      "baseline_entry_sha256": "fdb30e7b8d9ec77509a0b6578429c7d1e909c9ecaf518ba1be5b92fd8c4374ac",
+      "findings": [
+        {
+          "severity": "warn",
+          "field": "비고",
+          "before_excerpt": "수치는 0.86–0.998",
+          "request": "HR 0.92의 95% 신뢰구간임을 명시하세요. 암 사망도 HR 0.88와 신뢰구간을 구별하세요.",
+          "evidence_key": "10.1001/jama.2012.14641"
+        }
+      ],
+      "candidate_review": "pending",
+      "snapshot_path": "_workspace/2026-10-18-001-37f5/entry_snapshot.md",
+      "manifest_entry_sha256": "fdb30e7b8d9ec77509a0b6578429c7d1e909c9ecaf518ba1be5b92fd8c4374ac",
+      "snapshot_sha_matches_manifest": true
+    },
+    {
+      "entry": 2,
+      "baseline_entry_sha256": "1aa5fc895b9a9d334ec30d45498df2966b27ed013fd7c0787376db7b547a97d2",
+      "findings": [],
+      "candidate_review": "pending",
+      "snapshot_path": "_workspace/2026-10-18-002-3148/entry_snapshot.md",
+      "manifest_entry_sha256": "1aa5fc895b9a9d334ec30d45498df2966b27ed013fd7c0787376db7b547a97d2",
+      "snapshot_sha_matches_manifest": true
+    },
+    {
+      "entry": 3,
+      "baseline_entry_sha256": "83f967470bfdc23d765cce14130e68f5e7bdec391b43a44bd32b96d293aa4915",
+      "findings": [
+        {
+          "severity": "block",
+          "field": "쉽게",
+          "before_excerpt": "비타민 D가 부족하지 않은 사람이 5년간 보충했습니다.",
+          "request": "결핍이 없는 사람만 모집한 시험으로 쓰지 마세요. 결핍 여부로 선별하지 않은 성인 대상 시험이며 결핍 치료에 일반화할 수 없다고 구분하세요.",
+          "evidence_key": "10.1016/S2213-8587(21)00345-4"
+        }
+      ],
+      "candidate_review": "pending",
+      "snapshot_path": "_workspace/2026-10-18-003-8633/entry_snapshot.md",
+      "manifest_entry_sha256": "83f967470bfdc23d765cce14130e68f5e7bdec391b43a44bd32b96d293aa4915",
+      "snapshot_sha_matches_manifest": true
+    },
+    {
+      "entry": 4,
+      "baseline_entry_sha256": "3af217cce072e1fb7338968aba37c9e8b05f1e5f6b36b059918fa636c895f9f2",
+      "findings": [
+        {
+          "severity": "block",
+          "field": "쉽게",
+          "before_excerpt": "시험 78건에 참여한 약 30만 명을 합쳐 분석했습니다. 항산화 보충제를 먹은 사람의 사망률이 오히려 조금 높았습니다.",
+          "request": "전체 78시험의 무작위효과 합산은 유의하지 않음. 왜곡 위험이 낮은 56시험 분석에서 증가했다고 한정하세요. CARET는 베타카로틴+비타민 A 병용이라는 조건도 보존하세요.",
+          "evidence_key": "10.1002/14651858.CD007176.pub2"
+        }
+      ],
+      "candidate_review": "pending",
+      "snapshot_path": "_workspace/2026-10-18-004-1203/entry_snapshot.md",
+      "manifest_entry_sha256": "3af217cce072e1fb7338968aba37c9e8b05f1e5f6b36b059918fa636c895f9f2",
+      "snapshot_sha_matches_manifest": true
+    },
+    {
+      "entry": 5,
+      "baseline_entry_sha256": "c9351442613bdaedb1df9b0116836626e160345b75bb0e5147c78d94f7d7846c",
+      "findings": [
+        {
+          "severity": "block",
+          "field": "비고",
+          "before_excerpt": "저자는 데이터를 사후에 뒤져 찾은 결과라고 적었습니다.",
+          "request": "초록은 기저 통증중증도에 따른 층화 배정과 exploratory analyses를 명시합니다. 사후에 뒤졌다는 단정 대신 중등도~중증 통증 하위집단의 탐색적 결과라고 쓰세요. 초기 통증이 심했던 사람으로만 쓰면 중등도가 빠집니다. 통증 호전은 20% 이상 감소 기준입니다.",
+          "evidence_key": "10.1056/NEJMoa052771"
+        }
+      ],
+      "candidate_review": "pending",
+      "snapshot_path": "_workspace/2026-10-18-005-52dc/entry_snapshot.md",
+      "manifest_entry_sha256": "c9351442613bdaedb1df9b0116836626e160345b75bb0e5147c78d94f7d7846c",
+      "snapshot_sha_matches_manifest": true
+    },
+    {
+      "entry": 6,
+      "baseline_entry_sha256": "06dcf56aa9494e18b8ac961eea1fd27bf60330add7597053fa12954091f37eae",
+      "findings": [
+        {
+          "severity": "warn",
+          "field": "쉽게",
+          "before_excerpt": "한 번 감기에 반나절 정도 덜 아픈 셈입니다.",
+          "request": "8%를 반나절로 바꾸려면 기준 감기기간이 필요합니다. 원문이 제공한 상대적 기간 단축만 쓰거나 계산의 가정을 밝히세요.",
+          "evidence_key": "10.1002/14651858.CD000980.pub4"
+        }
+      ],
+      "candidate_review": "pending",
+      "snapshot_path": "_workspace/2026-10-18-006-f440/entry_snapshot.md",
+      "manifest_entry_sha256": "06dcf56aa9494e18b8ac961eea1fd27bf60330add7597053fa12954091f37eae",
+      "snapshot_sha_matches_manifest": true
+    },
+    {
+      "entry": 7,
+      "baseline_entry_sha256": "677b2dee0d11039928fcaf89ad9847a8df881005c1584fe8ace9eba4ce59ba24",
+      "findings": [
+        {
+          "severity": "block",
+          "field": "이득",
+          "before_excerpt": "USPSTF는 증상 없는 여성을 평가했습니다.",
+          "request": "고위험 유전성 암증후군이 알려지지 않은 무증상 여성이라는 적용대상을 덧붙이세요. 쉽게의 사망비율 조금 높음도 통계적으로 유의하지 않다는 점을 바로 붙이세요. 전신CT 결과를 PET-CT 직접시험처럼 쓰지 마세요.",
+          "evidence_key": "10.1001/jama.2017.21926"
+        }
+      ],
+      "candidate_review": "pending",
+      "snapshot_path": "_workspace/2026-10-18-007-74f3/entry_snapshot.md",
+      "manifest_entry_sha256": "677b2dee0d11039928fcaf89ad9847a8df881005c1584fe8ace9eba4ce59ba24",
+      "snapshot_sha_matches_manifest": true
+    },
+    {
+      "entry": 8,
+      "baseline_entry_sha256": "dc4182d5a7d2d4a68f7136306a4979f17fa69d9f33c0777857b8a6a0bc480534",
+      "findings": [
+        {
+          "severity": "block",
+          "field": "이득",
+          "before_excerpt": "차이는 웨어러블 기기 착용 여부뿐이었습니다.",
+          "request": "공통 행동중재 뒤 6개월째부터 표준군은 웹 자기기록, 기기군은 기기와 별도 웹도구를 사용한 비교라고 쓰세요. 비고의 손목 팔찌라는 특정 부위는 원문 전문 확인 전 일반 웨어러블 기기로 좁히세요.",
+          "evidence_key": "10.1001/jama.2016.12858"
+        }
+      ],
+      "candidate_review": "pending",
+      "snapshot_path": "_workspace/2026-10-18-008-734d/entry_snapshot.md",
+      "manifest_entry_sha256": "dc4182d5a7d2d4a68f7136306a4979f17fa69d9f33c0777857b8a6a0bc480534",
+      "snapshot_sha_matches_manifest": true
+    },
+    {
+      "entry": 9,
+      "baseline_entry_sha256": "5b0e3c46416265f2e5022354aa2c6405cb74023fcc0cc3934233c15ebb889ecf",
+      "findings": [
+        {
+          "severity": "block",
+          "field": "비용",
+          "before_excerpt": "같은 종류의 일반 식품 가격의 1~3배입니다.",
+          "request": "한국 가격의 직접 근거가 없습니다. 한국 1차 가격조사 근거를 추가하거나 제품과 판매처에 따라 더 비싸다는 정성표현으로 고치세요. 유기농 여부는 건강효과를 바꾸지 않는다는 문장도 우월성이 입증되지 않았다는 수준으로 완화하세요.",
+          "evidence_key": "10.7326/0003-4819-157-5-201209040-00007"
+        }
+      ],
+      "candidate_review": "pending",
+      "snapshot_path": "_workspace/2026-10-18-009-3843/entry_snapshot.md",
+      "manifest_entry_sha256": "5b0e3c46416265f2e5022354aa2c6405cb74023fcc0cc3934233c15ebb889ecf",
+      "snapshot_sha_matches_manifest": true
+    },
+    {
+      "entry": 10,
+      "baseline_entry_sha256": "700ff5d9cf6869b92348b84948c6bac0b63e314c72de7799a2700a442552f13d",
+      "findings": [
+        {
+          "severity": "block",
+          "field": "이득",
+          "before_excerpt": "한국에서는 경고 문구를 붙이는 대신 특정 표현을 금지합니다.",
+          "request": "제8조는 부당광고 금지 규정이며 경고문구가 없거나 대체된다는 근거가 아닙니다. 해당 비교를 삭제하고 질병 예방·치료 또는 의약품 오인 광고 금지라고 정확히 쓰세요. 혈압 관련 모든 표현의 일률금지는 제8조 자체에서 도출되지 않으므로 암 예방처럼 명백한 질병표현만 예시로 남기세요.",
+          "evidence_key": "foodlaw-full"
+        }
+      ],
+      "candidate_review": "pending",
+      "snapshot_path": "_workspace/2026-10-18-010-b9d4/entry_snapshot.md",
+      "manifest_entry_sha256": "700ff5d9cf6869b92348b84948c6bac0b63e314c72de7799a2700a442552f13d",
+      "snapshot_sha_matches_manifest": true
+    },
+    {
+      "entry": 11,
+      "baseline_entry_sha256": "78cfb541cc06ea35a2059ea07218c1136586f950942270a486746ff6901d5c5c",
+      "findings": [
+        {
+          "severity": "warn",
+          "field": "쉽게",
+          "before_excerpt": "복용을 끊으면 장 안 세균은 원래대로 돌아갑니다.",
+          "request": "지속적 변화 근거 부족을 모든 사람의 완전 원상복귀로 단정하지 마세요. 일부 면역반응·장 증상 개선을 보고한 고찰이므로 장건강 전체의 무효로 넓히지 마세요.",
+          "evidence_key": "10.1038/s41430-018-0135-9"
+        }
+      ],
+      "candidate_review": "pending",
+      "snapshot_path": "_workspace/2026-10-18-011-da33/entry_snapshot.md",
+      "manifest_entry_sha256": "78cfb541cc06ea35a2059ea07218c1136586f950942270a486746ff6901d5c5c",
+      "snapshot_sha_matches_manifest": true
+    },
+    {
+      "entry": 12,
+      "baseline_entry_sha256": "2f3d357f6e7182c2c878aaaca69de6bb7f7a9a5b3486393c3baa92d9109e830e",
+      "findings": [],
+      "candidate_review": "pending",
+      "snapshot_path": "_workspace/2026-10-18-012-6b8a/entry_snapshot.md",
+      "manifest_entry_sha256": "2f3d357f6e7182c2c878aaaca69de6bb7f7a9a5b3486393c3baa92d9109e830e",
+      "snapshot_sha_matches_manifest": true
+    },
+    {
+      "entry": 13,
+      "baseline_entry_sha256": "d6ac3781f59acebb3f7620a2bf07ee7c3c031e262af1b8062f8d3e614b8d9efc",
+      "findings": [],
+      "candidate_review": "pending",
+      "snapshot_path": "_workspace/2026-10-18-013-8319/entry_snapshot.md",
+      "manifest_entry_sha256": "d6ac3781f59acebb3f7620a2bf07ee7c3c031e262af1b8062f8d3e614b8d9efc",
+      "snapshot_sha_matches_manifest": true
+    },
+    {
+      "entry": 14,
+      "baseline_entry_sha256": "102bf99e83f072939ce24378cb0be2af9225adfc15d24e11c37f74045c4bd503",
+      "findings": [
+        {
+          "severity": "warn",
+          "field": "이득",
+          "before_excerpt": "'8x8'을 뒷받침하는 과학적 연구는 찾지 못했습니다.",
+          "request": "2002년 고찰의 결론임을 명시하세요. 온화한 기후에서 주로 앉아서 지내는 건강한 성인 대상이라는 적용범위를 보존하세요.",
+          "evidence_key": "10.1152/ajpregu.00365.2002"
+        }
+      ],
+      "candidate_review": "pending",
+      "snapshot_path": "_workspace/2026-10-18-014-18ba/entry_snapshot.md",
+      "manifest_entry_sha256": "102bf99e83f072939ce24378cb0be2af9225adfc15d24e11c37f74045c4bd503",
+      "snapshot_sha_matches_manifest": true
+    },
+    {
+      "entry": 15,
+      "baseline_entry_sha256": "2a78a051c54b7921c963544e7c33564d8e965964fc3c49a8040dff8c99c12ba8",
+      "findings": [],
+      "candidate_review": "pending",
+      "snapshot_path": "_workspace/2026-10-18-015-821a/entry_snapshot.md",
+      "manifest_entry_sha256": "2a78a051c54b7921c963544e7c33564d8e965964fc3c49a8040dff8c99c12ba8",
+      "snapshot_sha_matches_manifest": true
+    },
+    {
+      "entry": 16,
+      "baseline_entry_sha256": "3bc480f7b93766d02fc28c3f42f6ae3f623f640126b4d94215aef8743e68aa7b",
+      "findings": [
+        {
+          "severity": "block",
+          "field": "비고",
+          "before_excerpt": "며칠 사이에 시신경이 손상될 수 있습니다.",
+          "request": "급성 눈통증·충혈·시력저하·두통·구역은 즉시 응급진료로 명확히 쓰세요. 단순 화면피로와 강한 빛의 손상, 급성녹내장 메커니즘에는 현재 인용한 렌즈 고찰 외 직접 의학 근거가 필요합니다. 레이저/자외선/아크광을 모두 영구손상으로 일률 단정하지 마세요.",
+          "evidence_key": "10.1002/14651858.CD013244.pub2"
+        }
+      ],
+      "candidate_review": "pending",
+      "snapshot_path": "_workspace/2026-10-18-016-6849/entry_snapshot.md",
+      "manifest_entry_sha256": "3bc480f7b93766d02fc28c3f42f6ae3f623f640126b4d94215aef8743e68aa7b",
+      "snapshot_sha_matches_manifest": true
+    },
+    {
+      "entry": 17,
+      "baseline_entry_sha256": "e8d42bb69d5f447bb2400d98d3ea0b50ed77dcdc8fc62efe1743989e7283fff3",
+      "findings": [],
+      "candidate_review": "pending",
+      "snapshot_path": "_workspace/2026-10-18-017-7757/entry_snapshot.md",
+      "manifest_entry_sha256": "e8d42bb69d5f447bb2400d98d3ea0b50ed77dcdc8fc62efe1743989e7283fff3",
+      "snapshot_sha_matches_manifest": true
+    },
+    {
+      "entry": 18,
+      "baseline_entry_sha256": "d85b35ec6acaa07e2470a6f5aefff9d96d76f10336ea7a1874b9c2e336e04544",
+      "findings": [],
+      "candidate_review": "pending",
+      "snapshot_path": "_workspace/2026-10-18-018-5df9/entry_snapshot.md",
+      "manifest_entry_sha256": "d85b35ec6acaa07e2470a6f5aefff9d96d76f10336ea7a1874b9c2e336e04544",
+      "snapshot_sha_matches_manifest": true
+    },
+    {
+      "entry": 19,
+      "baseline_entry_sha256": "66c6cd05c0ea72861ebe99070c67d4511c33e6da269ac2aeb7752cec583d668a",
+      "findings": [
+        {
+          "severity": "block",
+          "field": "쉽게",
+          "before_excerpt": "발작을 한 번이라도 겪은 뒤에 치료를 시작하세요.",
+          "request": "첫 발작이면 무조건 약을 시작한다는 뜻을 제거하세요. 통풍결절·통풍성 영상손상·잦은 발작은 치료권고, 첫 발작은 CKD3이상·요산>9·요로결석 등의 예외와 의사 판단으로 구분해야 합니다.",
+          "evidence_key": "10.1002/acr.24180"
+        },
+        {
+          "severity": "block",
+          "field": "비고",
+          "before_excerpt": "중국 한족 인구의 약 7.4%",
+          "request": "ACR 지침은 Han Chinese, Korean, Thai를 포함한 집단의 높은 유병빈도 7.4%를 서술합니다. 한국 빈도를 별도로 확인하지 못했다면 한족만의 값으로 확정하지 마세요. 알로푸리놀 전 HLA검사 권고는 동남아계(예:한족·한국인·태국인)와 아프리카계 미국인 대상 조건부 권고입니다. 전문접근이 실패해 이 수치의 정확집단 판정은 재검토 필요합니다.",
+          "evidence_key": "10.1002/acr.24180"
+        }
+      ],
+      "candidate_review": "pending",
+      "snapshot_path": "_workspace/2026-10-18-019-ddf8/entry_snapshot.md",
+      "manifest_entry_sha256": "66c6cd05c0ea72861ebe99070c67d4511c33e6da269ac2aeb7752cec583d668a",
+      "snapshot_sha_matches_manifest": true
+    },
+    {
+      "entry": 20,
+      "baseline_entry_sha256": "7761f4a449ad766a8ce39729134a1db254f1918ac83ee6679e3e6b0822dd73e9",
+      "findings": [
+        {
+          "severity": "warn",
+          "field": "쉽게",
+          "before_excerpt": "담낭 절제도 위험이 따릅니다. 약 1.5%에서 담관이 다칩니다.",
+          "request": "스웨덴 2005~2010년 전국등록의 경미한 수술후 담즙누출까지 포함한 정의임을 한정하세요. 한국 현재수술의 일반발생률로 읽히지 않게 하세요. 무증상 정상담낭·정상담도와 총담관 결석 예외는 유지하세요.",
+          "evidence_key": "10.1136/bmj.e6457"
+        }
+      ],
+      "candidate_review": "pending",
+      "snapshot_path": "_workspace/2026-10-18-020-950b/entry_snapshot.md",
+      "manifest_entry_sha256": "7761f4a449ad766a8ce39729134a1db254f1918ac83ee6679e3e6b0822dd73e9",
+      "snapshot_sha_matches_manifest": true
+    },
+    {
+      "entry": 21,
+      "baseline_entry_sha256": "3773b0bfe43ac182747a0efa3d51d64066392e4005fface8180786d8ef540859",
+      "findings": [],
+      "candidate_review": "pending",
+      "snapshot_path": "_workspace/2026-10-18-021-1266/entry_snapshot.md",
+      "manifest_entry_sha256": "3773b0bfe43ac182747a0efa3d51d64066392e4005fface8180786d8ef540859",
+      "snapshot_sha_matches_manifest": true
+    },
+    {
+      "entry": 22,
+      "baseline_entry_sha256": "de844b7540c60a3621460e061eec6d0db239d1dbb66ccba6e9d9e43e4f25730b",
+      "findings": [],
+      "candidate_review": "pending",
+      "snapshot_path": "_workspace/2026-10-18-022-e834/entry_snapshot.md",
+      "manifest_entry_sha256": "de844b7540c60a3621460e061eec6d0db239d1dbb66ccba6e9d9e43e4f25730b",
+      "snapshot_sha_matches_manifest": true
+    },
+    {
+      "entry": 23,
+      "baseline_entry_sha256": "1856c058b87431c918a58d7bc107f495c9ea209aab3dde809c7803927d817499",
+      "findings": [
+        {
+          "severity": "block",
+          "field": "이득",
+          "before_excerpt": "응답자 모두 물건보다 경험에 쓴 돈이 더 기뻤다고 답했습니다.",
+          "request": "다양한 인구집단의 응답자들이 대체로 경험소비의 행복을 더 높게 평가했다고 쓰세요. 원문 various demographic groups를 전원 응답으로 읽으면 안 됩니다.",
+          "evidence_key": "10.1037/0022-3514.85.6.1193"
+        }
+      ],
+      "candidate_review": "pending",
+      "snapshot_path": "_workspace/2026-10-18-023-9e4c/entry_snapshot.md",
+      "manifest_entry_sha256": "1856c058b87431c918a58d7bc107f495c9ea209aab3dde809c7803927d817499",
+      "snapshot_sha_matches_manifest": true
+    },
+    {
+      "entry": 24,
+      "baseline_entry_sha256": "4425cacea4e3acfbad24024637b9df26cc5a9e21d455cb4b34f4c73cd9af4503",
+      "findings": [],
+      "candidate_review": "pending",
+      "snapshot_path": "_workspace/2026-10-18-024-60f0/entry_snapshot.md",
+      "manifest_entry_sha256": "4425cacea4e3acfbad24024637b9df26cc5a9e21d455cb4b34f4c73cd9af4503",
+      "snapshot_sha_matches_manifest": true
+    },
+    {
+      "entry": 25,
+      "baseline_entry_sha256": "be32b3288e889b5a186ea72e899caed75ef58deee61c58fc07664cab279d13bd",
+      "findings": [
+        {
+          "severity": "warn",
+          "field": "이득",
+          "before_excerpt": "사전등록된 다른 반복연구도 같은 방식을 썼습니다.",
+          "request": "2021연구는 새로운 paradigmatic replication approach와 두 절차 중 하나를 사용했습니다. 같은 순차과제 틀이라고만 쓰고 동일설계로 단정하지 마세요. 부재입증/모형전체 폐기보다 해당 사전등록 분석에서 효과를 확인하지 못한 것으로 한정하세요.",
+          "evidence_key": "10.1177/0956797621989733"
+        }
+      ],
+      "candidate_review": "pending",
+      "snapshot_path": "_workspace/2026-10-18-025-8cbb/entry_snapshot.md",
+      "manifest_entry_sha256": "be32b3288e889b5a186ea72e899caed75ef58deee61c58fc07664cab279d13bd",
+      "snapshot_sha_matches_manifest": true
+    },
+    {
+      "entry": 26,
+      "baseline_entry_sha256": "ffd8eb7fd0e76a4431a5328bb54768cec9eb0032231713b2ffe3f727bf265844",
+      "findings": [
+        {
+          "severity": "block",
+          "field": "비고",
+          "before_excerpt": "담석 검출 비율이 약 5% 높았습니다.",
+          "request": "검사로 발견한 비율이 아니라 과거 의사에게 담석 진단을 받았다는 자기보고입니다. OR1.05와 OR1.49를 유병비율5%·49% 증가로 바꾸지 마세요. 오즈의 증가로 쓰거나 단순 양의 관련이라고 쓰세요. 심혈관 OR1.17·1.49도 같은 주의가 필요합니다.",
+          "evidence_key": "10.3389/fnut.2024.1521707"
+        }
+      ],
+      "candidate_review": "pending",
+      "snapshot_path": "_workspace/2026-10-18-026-722f/entry_snapshot.md",
+      "manifest_entry_sha256": "ffd8eb7fd0e76a4431a5328bb54768cec9eb0032231713b2ffe3f727bf265844",
+      "snapshot_sha_matches_manifest": true
+    },
+    {
+      "entry": 27,
+      "baseline_entry_sha256": "cb95e33148cab9d6d8013334f73d1a8f4807b87a2e48ad7e317d47a2534087b8",
+      "findings": [
+        {
+          "severity": "warn",
+          "field": "비고",
+          "before_excerpt": "정신건강의학과나 임상심리과에 가세요.",
+          "request": "한국 독자에게 정신건강의학과 진료 또는 임상심리 전문가 상담으로 쓰세요. 임상심리과는 통상적인 법정 진료과목명으로 단정할 수 없습니다. 사정빈도 관찰결과를 자위 자체의 예방효과로 넓히지 마세요.",
+          "evidence_key": "10.1016/j.eururo.2016.03.027"
+        }
+      ],
+      "candidate_review": "pending",
+      "snapshot_path": "_workspace/2026-10-18-027-f102/entry_snapshot.md",
+      "manifest_entry_sha256": "cb95e33148cab9d6d8013334f73d1a8f4807b87a2e48ad7e317d47a2534087b8",
+      "snapshot_sha_matches_manifest": true
+    },
+    {
+      "entry": 28,
+      "baseline_entry_sha256": "18249d2e10b3da3038cc7ca8043d0b2a62d1590bcb2b9f2e7ec7659ffa8cf125",
+      "findings": [
+        {
+          "severity": "block",
+          "field": "쉽게",
+          "before_excerpt": "교정 경험자는 자살을 생각했다는 응답이 90% 가까이 많았습니다.",
+          "request": "오즈비1.92는 응답률 또는 위험92% 증가가 아닙니다. 교정경험과 자살생각 사이에 관련이 있었다고 쓰고 이득에 보정 오즈비를 남기세요. nontransgender 성소수자 성인이라는 표본범위와 회상식 단면조사임을 보존하세요.",
+          "evidence_key": "10.2105/AJPH.2020.305637"
+        },
+        {
+          "severity": "block",
+          "field": "쉽게",
+          "before_excerpt": "이런 '교정'은 성적 지향을 바꾸지 못합니다.",
+          "request": "본문이 인용한 APA 판단 성공가능성이 낮고 해 위험이 있다와 맞추어 효과가 입증되지 않았다고 쓰세요. 불가능이라는 절대명제로 강화하지 마세요. 정신건강법 시행일 표기는 현재2026-10-08 버전과 대조하여 갱신 검토하세요.",
+          "evidence_key": "law-versions/285345.xml"
+        }
+      ],
+      "candidate_review": "pending",
+      "snapshot_path": "_workspace/2026-10-18-028-88e1/entry_snapshot.md",
+      "manifest_entry_sha256": "18249d2e10b3da3038cc7ca8043d0b2a62d1590bcb2b9f2e7ec7659ffa8cf125",
+      "snapshot_sha_matches_manifest": true
+    },
+    {
+      "entry": 29,
+      "baseline_entry_sha256": "97f84e6fcc64a81d20c7860d65b23120d82a4985616c1318e65462bfb41f67b3",
+      "findings": [
+        {
+          "severity": "block",
+          "field": "쉽게",
+          "before_excerpt": "위험은 각각 10% 안팎씩 증가했습니다.",
+          "request": "OR1.11/1.09는 위험비와 구분하세요. 정확한 위험증가로 번역하지 말고 오즈 또는 관련방향을 쓰세요. 낮은 질의 굽힘연구에서 효과부재를 확정하지 말고 위험증가 근거를 찾지 못했다고 쓰세요.",
+          "evidence_key": "10.1136/oemed-2014-102346"
+        },
+        {
+          "severity": "block",
+          "field": "비고",
+          "before_excerpt": "허리통증은 죽음과도 연결되지 않습니다.",
+          "request": "인용한 예방시험은 사망을 평가한 근거가 아닙니다. 사망감소를 확인한 결과가 아니라 허리통증 발생을 다룬 결과라고 바꾸세요. 병가도 효과없음 확정 대신 유의한 감소를 확인하지 못함으로 쓰세요.",
+          "evidence_key": "10.1001/jamainternmed.2015.7431"
+        }
+      ],
+      "candidate_review": "pending",
+      "snapshot_path": "_workspace/2026-10-18-029-f514/entry_snapshot.md",
+      "manifest_entry_sha256": "97f84e6fcc64a81d20c7860d65b23120d82a4985616c1318e65462bfb41f67b3",
+      "snapshot_sha_matches_manifest": true
+    }
+  ],
+  "evidence_ledger_path": "content-audit.md",
+  "open_limitations": [
+    "candidate and proposal SHA/before review pending",
+    "abstract-only claims not upgraded to fulltext confirmation",
+    "remaining source TODOs not certified"
+  ],
+  "snapshot_comparison": "All 29 snapshots read and compared against source entry text; same after outer separator whitespace removal. Snapshot SHA above is snapshot file raw SHA, not integration before_sha256."
+}

@@ -1,0 +1,452 @@
+{
+  "chapter": 8,
+  "audit_date_utc": "2026-10-18T13:04:57.619805+00:00",
+  "source_sha256": "d3bc3df4c03ef5f74d391c47424b7a09433b26f0c8f2ce2850deb34559b79f23",
+  "candidate_sha256": null,
+  "status": "pending_candidate_review",
+  "formal_kr_fit": false,
+  "publication_ready": false,
+  "all_source_entries_reviewed": 46,
+  "candidate_entries_reviewed": 0,
+  "entries": [
+    {
+      "entry": 1,
+      "title": "### 1. 사고가 나면 멈추고 사람부터 구하세요",
+      "source_entry_snapshot_path": "_workspace/2026-10-18-001-00a4/entry_snapshot.md",
+      "source_entry_snapshot_sha256": "a9b3509af0dedb061121bc692e907f9c2f2c47b4f21df7e0eec57229c7acf67f",
+      "source_review_status": "revise_scope",
+      "candidate_review_status": "pending_candidate_review",
+      "scope_and_findings": "제54조 정차·구호·인적사항·신고 예외는 일치. 특정범죄가중법 형량도 일치하나 제5조의3은 자동차등 운전자가 형법268조의 죄를 범하고 도주한 경우입니다. 모든 교통수단·모든 현장 이탈에 같은 형량이 붙는 듯한 문장을 줄이고 이 요건을 붙이세요. 보험·과실·면허를 분리한 유보 유지."
+    },
+    {
+      "entry": 2,
+      "title": "### 2. 사기 송금은 은행에 지급정지를 요청하고 경찰에 신고하세요",
+      "source_entry_snapshot_path": "_workspace/2026-10-18-002-514a/entry_snapshot.md",
+      "source_entry_snapshot_sha256": "11e5e2f26f80047813e8e83af0f9e9931937d7a95ecd6524cff2d1331052adb2",
+      "source_review_status": "no_new_error_found",
+      "candidate_review_status": "pending_candidate_review",
+      "scope_and_findings": "특별법3·4조 피해구제 신청과 의심 사정 인정 뒤 즉시 지급정지를 구분했습니다. 잔여자산·절차에 따른 환급, 중고거래 제외 유보를 유지하세요. 모든 사기를 자동 환급 대상으로 넓히지 마세요."
+    },
+    {
+      "entry": 3,
+      "title": "### 3. 송금·앱 설치·인증번호 요구는 끊고 따로 확인하세요",
+      "source_entry_snapshot_path": "_workspace/2026-10-18-003-3aff/entry_snapshot.md",
+      "source_entry_snapshot_sha256": "52ac9a441e3fa50f34ed05e8f11796f327d55c5b38d65ce35c29039d2f69dda0",
+      "source_review_status": "no_new_error_found",
+      "candidate_review_status": "pending_candidate_review",
+      "scope_and_findings": "형법347조 기망·재물/이익 취득, 특별법2조 대출 가장 포함과 일치. 예방효과 수치 미확인과 모든 수수료 대출을 사기로 단정하지 않는 조건 유지."
+    },
+    {
+      "entry": 4,
+      "title": "### 4. 영상 속 얼굴도 믿지 말고 아는 번호로 다시 연락하세요",
+      "source_entry_snapshot_path": "_workspace/2026-10-18-004-9718/entry_snapshot.md",
+      "source_entry_snapshot_sha256": "e0a0df915c09f92cf996fec17825b99803af20efd120a6337c788ad9c76e2922",
+      "source_review_status": "limited_support",
+      "candidate_review_status": "pending_candidate_review",
+      "scope_and_findings": "형법은 사기 성립 근거입니다. 영상 진위 판별법의 효과·한국 영상 표시 의무를 입증하는 근거는 아닙니다. 현재 미확인·보편 의무 단정 금지 유지."
+    },
+    {
+      "entry": 5,
+      "title": "### 5. 피의자로 조사받으면 변호인과 진술거부권부터 확인하세요",
+      "source_entry_snapshot_path": "_workspace/2026-10-18-005-58f1/entry_snapshot.md",
+      "source_entry_snapshot_sha256": "8f5923cd2819e80d6bbdf0e271be8a7955e4b3c4c89d762a63b74a347c8088d0",
+      "source_review_status": "no_new_error_found",
+      "candidate_review_status": "pending_candidate_review",
+      "scope_and_findings": "형사소송법30·33·34·243의2·244의3에서 피의자/피고인, 신청과 정당한 사유 예외, 국선변호 요건을 구분. 침묵만으로 불이익 금지와 신문 전 고지 일치. 수사 모든 단계 무료변호 보장으로 넓히지 마세요."
+    },
+    {
+      "entry": 6,
+      "title": "### 6. 자수를 검토할 때 감형률과 시효 소문을 믿지 마세요",
+      "source_entry_snapshot_path": "_workspace/2026-10-18-006-50f7/entry_snapshot.md",
+      "source_entry_snapshot_sha256": "6c24370d7b966a9926d74eec7de35ac14fd94ac13198f5613d1bc75fac3052ae",
+      "source_review_status": "no_new_error_found",
+      "candidate_review_status": "pending_candidate_review",
+      "scope_and_findings": "형법52조 재량 감경/면제, 형사소송법253조 공소제기·회피목적 국외 체류 정지 일치. 국내 은신이 모든 사건 시효를 정지시킨다는 중국 규칙 제거 유지. 개별 범죄의 시효배제·특례가 있음을 침해하지 않는 범위입니다."
+    },
+    {
+      "entry": 7,
+      "title": "### 7. 술을 마셨다면 차·전동킥보드·자전거도 운전하지 마세요",
+      "source_entry_snapshot_path": "_workspace/2026-10-18-007-f136/entry_snapshot.md",
+      "source_entry_snapshot_sha256": "3d7f98117d51f38591b6b86c54b2f3500bd5e59342da4aac49c54306fc1571bf",
+      "source_review_status": "no_new_error_found",
+      "candidate_review_status": "pending_candidate_review",
+      "scope_and_findings": "도로교통법44조0.03%,148의2 농도별 형량 원문 일치. 개인형 이동장치 제외와 자동차 형벌 구분 유지. 이 조 제외를 무처벌로 바꾸면 안 됩니다. 재범10년 요건/측정거부·방해는 별도라는 현행 유보 유지."
+    },
+    {
+      "entry": 8,
+      "title": "### 8. 통장·카드·휴대전화 명의를 빌려주지 마세요",
+      "source_entry_snapshot_path": "_workspace/2026-10-18-008-b780/entry_snapshot.md",
+      "source_entry_snapshot_sha256": "d5fbe0eacc8815f3d0f77ad52e8539ae8b0b03fc51c93509585948134d4378b4",
+      "source_review_status": "revise_scope",
+      "candidate_review_status": "pending_candidate_review",
+      "scope_and_findings": "전자금융거래법6조 양도·대가 대여·범죄목적/인식 대여의 차이 일치. 다른 법률 특별규정과 선불수단·전자화폐 단서가 있으므로 접근매체 양도 일률금지 문장은 통장·카드 맥락으로 한정 권장. 휴대전화 명의 자체의 법률은 출처에 없으며 형벌을 만들지 않는 현 문구 유지."
+    },
+    {
+      "entry": 9,
+      "title": "### 9. 본인 신용정보를 조회하고 모르는 대출을 확인하세요",
+      "source_entry_snapshot_path": "_workspace/2026-10-18-009-1e25/entry_snapshot.md",
+      "source_entry_snapshot_sha256": "0fafbebae141a45375a014a0b91574032b468d011a3a2a533bc14e5a821348ee",
+      "source_review_status": "verified_new_http",
+      "candidate_review_status": "pending_candidate_review",
+      "scope_and_findings": "크레딧포유 공식 홈페이지 실제 열람: 무료 조회·대출·연체·보증·보험 안내 확인. 신용정보법38조 정당 사유·중단 조사·7일 처리결과 통지 일치. 7일을 모든 정정 완료기한으로 바꾸지 마세요."
+    },
+    {
+      "entry": 10,
+      "title": "### 10. 충돌이 생기면 거리를 두고 신고하세요",
+      "source_entry_snapshot_path": "_workspace/2026-10-18-010-f204/entry_snapshot.md",
+      "source_entry_snapshot_sha256": "359e3e7f8b9df4e4e8941f1ed4f932280098f0d6b4caaf5d1fb4b14cffa02e6d",
+      "source_review_status": "no_new_error_found",
+      "candidate_review_status": "pending_candidate_review",
+      "scope_and_findings": "폭행260·상해257·정당방위21의 현재 부당침해와 상당한 이유를 분리. 선제 폭행만으로 결론 내리거나 맞대응 모두 유죄로 단정하지 않는 문장 유지."
+    },
+    {
+      "entry": 11,
+      "title": "### 11. 현재 침해를 막는 행동과 보복을 구분하세요",
+      "source_entry_snapshot_path": "_workspace/2026-10-18-011-6b18/entry_snapshot.md",
+      "source_entry_snapshot_sha256": "f5d7f6da74904215c34c9aede7eda011bc0ca884da0e34eeea07af725ea3927f",
+      "source_review_status": "revise_precision",
+      "candidate_review_status": "pending_candidate_review",
+      "scope_and_findings": "21조3항은 과잉방위가 야간 등 불안한 상태의 공포·경악·흥분·당황 때문에 이루어진 경우 불처벌입니다. 현재 별도 규정이라는 요약은 틀리지는 않으나 조건·결과를 평이하게 명시 권장. 정당방위가 수사 자체를 막는다는 주장은 금지."
+    },
+    {
+      "entry": 12,
+      "title": "### 12. 임금·해고·금전 분쟁은 법정 절차로 해결하세요",
+      "source_entry_snapshot_path": "_workspace/2026-10-18-012-f9e3/entry_snapshot.md",
+      "source_entry_snapshot_sha256": "5a313088be6badf904cf97987290ce127a83569ef9ac968f24fa3b6ad8a586f8",
+      "source_review_status": "no_new_error_found",
+      "candidate_review_status": "pending_candidate_review",
+      "scope_and_findings": "근로기준법28조 해고일부터3개월, 적용 사업장·근로자 확인 유보 일치. 진정/노동위원회/민사를 구분했고 회수불능·소송비용 유보 유지. 적용 요건을 생략한 보편 구제권으로 줄이지 마세요."
+    },
+    {
+      "entry": 13,
+      "title": "### 13. 분노를 관계없는 사람에게 돌리지 마세요",
+      "source_entry_snapshot_path": "_workspace/2026-10-18-013-a758/entry_snapshot.md",
+      "source_entry_snapshot_sha256": "da1854f8962544566f3b967d2bab296f001c7028a5e7ec7d5fb9cd51237e2fab",
+      "source_review_status": "no_new_error_found",
+      "candidate_review_status": "pending_candidate_review",
+      "scope_and_findings": "형법250조 일반 살인 형량·283조 협박 근거 확인. 의도·수단·결과별 죄명 차이 유지. 중국 공공안전죄·사형사례를 한국에 대입하지 않았습니다."
+    },
+    {
+      "entry": 14,
+      "title": "### 14. 같이 죽자는 충동이 생기면 위험한 물건에서 떨어지세요",
+      "source_entry_snapshot_path": "_workspace/2026-10-18-014-a082/entry_snapshot.md",
+      "source_entry_snapshot_sha256": "067c4c96aedab89da7421e7860c2e8260993febb0544b179535f53adc3998e01",
+      "source_review_status": "changes_required",
+      "candidate_review_status": "pending_candidate_review",
+      "scope_and_findings": "원초록 PMID19026258은 시도 후3일 이내 면담입니다. 입원 후3일은 원초록과 다릅니다. 82명·47.6%·10분은 일치. 연구 전체 본문은 미열람. 수단제한43%·86%(79~91%)의 Zalsman 원문 대조는 이 감사에서 완료하지 못했습니다. 타해에 직접 적용하지 않는 유보·B등급 유지."
+    },
+    {
+      "entry": 15,
+      "title": "### 15. 가족이 해치겠다고 말하면 안전을 확보하고 신고하세요",
+      "source_entry_snapshot_path": "_workspace/2026-10-18-015-4b6c/entry_snapshot.md",
+      "source_entry_snapshot_sha256": "2b82648eec2ef4b5da9397099e74969078295f66026eec431b45c3cbdef037ec",
+      "source_review_status": "no_new_error_found",
+      "candidate_review_status": "pending_candidate_review",
+      "scope_and_findings": "정신건강복지법50조 정신질환 추정·큰 위험·급박성·다른 입원 절차 시간 없음·의사와 경찰관 동의·공휴일 제외3일·전문의 진단·퇴원요건 일치. 가족 요구만의 강제입원과 구분."
+    },
+    {
+      "entry": 16,
+      "title": "### 16. 온라인 욕설·폭로·확인 안 된 전달을 멈추세요",
+      "source_entry_snapshot_path": "_workspace/2026-10-18-016-9f8b/entry_snapshot.md",
+      "source_entry_snapshot_sha256": "6adabfee7fa5dc2f04c274c63aa31ab90f1c7ae6938237bb9b1175fd8553150f",
+      "source_review_status": "no_new_error_found",
+      "candidate_review_status": "pending_candidate_review",
+      "scope_and_findings": "형법307·310·311, 정보통신망법70 구분 확인. 사실 적시 명예훼손을 사실이면 항상 위법으로 바꾸거나 공공이익 요건을 지우지 마세요. 공개범위·목적을 따지는 현재 유보 유지."
+    },
+    {
+      "entry": 17,
+      "title": "### 17. 서명 전에 읽고 빈칸을 채운 뒤 사본을 받으세요",
+      "source_entry_snapshot_path": "_workspace/2026-10-18-017-25b9/entry_snapshot.md",
+      "source_entry_snapshot_sha256": "453fedf889116a50d82f57b6601875f63fcd47fade0aa0c16aa39edab9784b9b",
+      "source_review_status": "no_new_error_found",
+      "candidate_review_status": "pending_candidate_review",
+      "scope_and_findings": "민법109·110 취소·중과실/제3자 조건, 전자서명법3조 전자형식만으로 효력부인 금지, 민법428의2 보증 서면 차이를 확인. 읽지 않았다고 자동 취소나 전자서명만으로 자동 유효는 금지."
+    },
+    {
+      "entry": 18,
+      "title": "### 18. 돈을 빌려줄 때 기록하고 보증은 상환 책임을 확인하세요",
+      "source_entry_snapshot_path": "_workspace/2026-10-18-018-fa5d/entry_snapshot.md",
+      "source_entry_snapshot_sha256": "71dc28085b505949d2ec08887c62ce49a2fec2fb6b3407ef4b54ff10c205c9f5",
+      "source_review_status": "revise_precision",
+      "candidate_review_status": "pending_candidate_review",
+      "scope_and_findings": "428의2의 문언은 기명날인 또는 서명입니다. 서명·기명날인이 모두 필요하다는 오독을 없애세요. 전자 보증 의사표시 무효와 이행한 범위 방식 하자 주장 불가(3항)도 구분 필요. 437조 최고·검색 항변의 변제자력/집행용이 입증 및 연대보증 예외는 일치."
+    },
+    {
+      "entry": 19,
+      "title": "### 19. 청구 종류마다 시효·신청기한을 따로 확인하세요",
+      "source_entry_snapshot_path": "_workspace/2026-10-18-019-b771/entry_snapshot.md",
+      "source_entry_snapshot_sha256": "8459a4755030f5609bf73664edfb84196c06804d590274f868ad5e167b5d44aa",
+      "source_review_status": "no_new_error_found",
+      "candidate_review_status": "pending_candidate_review",
+      "scope_and_findings": "민법 일반10년·일부3년, 임금3년, 해고구제3개월, 최고후6개월 후속조치 일치. 권리행사 가능 시점과 상사/불법행위 등 별도 시효 유보 유지. 독촉 반복으로 영구 연장이라는 오해 배제."
+    },
+    {
+      "entry": 20,
+      "title": "### 20. 집행을 피하려고 재산을 숨기지 마세요",
+      "source_entry_snapshot_path": "_workspace/2026-10-18-020-fdb1/entry_snapshot.md",
+      "source_entry_snapshot_sha256": "ab26a53fa9bbce1d3b4fc5a021d2e4bc9f3910502965eb613cc70657d95cc082",
+      "source_review_status": "verified_new_http",
+      "candidate_review_status": "pending_candidate_review",
+      "scope_and_findings": "민사집행법268837 새 원문 확보:68조9항 거짓 재산목록3년/500만원 일치. 형법327조 목적·행위·채권자해함 구분. 민법406조는 채무자 악의·수익자/전득자 선의 예외가 있으므로 모든 처분 자동 취소로 넓히지 마세요."
+    },
+    {
+      "entry": 21,
+      "title": "### 21. 채무불이행자명부는 등재 이유와 말소 요건을 확인하세요",
+      "source_entry_snapshot_path": "_workspace/2026-10-18-021-d05b/entry_snapshot.md",
+      "source_entry_snapshot_sha256": "af982af4a1263d97ba00cb386674baa57682db2bf64bcc842955d037724adcb2",
+      "source_review_status": "verified_new_http",
+      "candidate_review_status": "pending_candidate_review",
+      "scope_and_findings": "민사집행법70조6개월 미이행·제외 집행권원, 재산명시 불응/허위 별도 사유와73조 채무소멸 증명·다음해부터10년 직권말소 일치. 금융회사 정보와 법원명부를 분리."
+    },
+    {
+      "entry": 22,
+      "title": "### 22. 온라인·중고거래 사기는 기록을 모아 플랫폼과 경찰에 알리세요",
+      "source_entry_snapshot_path": "_workspace/2026-10-18-022-0650/entry_snapshot.md",
+      "source_entry_snapshot_sha256": "34f55e310db0c6ae2906341884fea57159e44f0d900e44e7afc725e9b6235ed4",
+      "source_review_status": "no_new_error_found",
+      "candidate_review_status": "pending_candidate_review",
+      "scope_and_findings": "소액사건심판규칙1의2는3천만원 초과하지 않는 제1심 금전 등 청구. 특별법2조 재화·용역 가장 제외 확인. 소액을 형사면책·보이스피싱 자동지급정지로 오해하지 않는 유보·법원비용/회수한계 유지."
+    },
+    {
+      "entry": 23,
+      "title": "### 23. 큰돈을 주기 전에 대여인지 증여인지 정하세요",
+      "source_entry_snapshot_path": "_workspace/2026-10-18-023-c65b/entry_snapshot.md",
+      "source_entry_snapshot_sha256": "6130fc49f5dca3eb2c02063e267b0fc7ea353199f5fe6b10f84c30213382b1ce",
+      "source_review_status": "no_new_error_found",
+      "candidate_review_status": "pending_candidate_review",
+      "scope_and_findings": "555~558조 서면 여부·해제사유·이행완료 부분 효력 구분 확인. 서면증여 언제든 철회로 바꾸지 마세요. 조건부증여·대여의 증거 판단을 별도 남긴 점 적절."
+    },
+    {
+      "entry": 24,
+      "title": "### 24. 예단·예물은 용도와 반환 조건을 기록하세요",
+      "source_entry_snapshot_path": "_workspace/2026-10-18-024-0dc4/entry_snapshot.md",
+      "source_entry_snapshot_sha256": "d5f0b8be48a4a24e2cf94bc88a28d102380c357f433d2a26fd5b431047860735",
+      "source_review_status": "pending_case_verification",
+      "candidate_review_status": "pending_candidate_review",
+      "scope_and_findings": "민법555~558 일반증여 원문만 확인. 한국 예물 반환 판례는 검색 범위를 넓혀 실제 결과까지 받았으나 해당 대법원 판단을 아직 확보하지 못했습니다. 자동반환 비율/사유는 금지. A등급만으로 예물 반환법리까지 검증됐다고 표시하지 마세요."
+    },
+    {
+      "entry": 25,
+      "title": "### 25. 혼전재산·부모 지원금은 소유와 이혼 분할을 구분하세요",
+      "source_entry_snapshot_path": "_workspace/2026-10-18-025-8c84/entry_snapshot.md",
+      "source_entry_snapshot_sha256": "60c466aa2105de02197ef7402135523cdf65a8547331ecdd77166d5adad2f3ad",
+      "source_review_status": "verified_new_http",
+      "candidate_review_status": "pending_candidate_review",
+      "scope_and_findings": "93므1020 실제 판결: 적극적인 유지 협력으로 감소 방지/증식 기여를 인정한 사안. 가사 외 가업 경리·경영참여 사실입니다. 특유재산이 언제나 분할되는 것으로 확대 금지. 민법829조 혼인성립 전 약정·등기/830조 소유·839의2 분할 구분 일치."
+    },
+    {
+      "entry": 26,
+      "title": "### 26. 결혼 전 혼인관계증명서를 함께 확인하세요",
+      "source_entry_snapshot_path": "_workspace/2026-10-18-026-721f/entry_snapshot.md",
+      "source_entry_snapshot_sha256": "50cba8a87a2fd030a6e35584626aeb60d10b78cef20d2c11bd1776b75f494f9a",
+      "source_review_status": "no_new_error_found",
+      "candidate_review_status": "pending_candidate_review",
+      "scope_and_findings": "가족관계등록법14·15 발급권한과 증명서 종류·민법810/816 중혼 금지와 취소 구분 확인. 예비배우자가 몰래 발급할 보편 권한 없음 유지. 혼인사기/관계종료 자동사기 구분."
+    },
+    {
+      "entry": 27,
+      "title": "### 27. 출장 수리·공사는 작업 전에 총액과 부품을 확인하세요",
+      "source_entry_snapshot_path": "_workspace/2026-10-18-027-1373/entry_snapshot.md",
+      "source_entry_snapshot_sha256": "0974e1bb9db7755eedff37880bfc69867a6fb8db4dcf1d7f930609a7028d769a",
+      "source_review_status": "limited_support",
+      "candidate_review_status": "pending_candidate_review",
+      "scope_and_findings": "소비자기본법55조 피해구제와 민법110/750만 확인. 출장수리·자동차검사·인테리어 각각의 가격표/견적 강제의무·배상표는 미확인. 현재 확인/기록 권고로만 쓰고 모든 업종 의무·벌금은 단정하지 않아야 합니다."
+    },
+    {
+      "entry": 28,
+      "title": "### 28. 명의만 빌려주는 대표이사·사업자 등록을 거절하세요",
+      "source_entry_snapshot_path": "_workspace/2026-10-18-028-3856/entry_snapshot.md",
+      "source_entry_snapshot_sha256": "e427d71858f95e18a91d21f133f4db206ae6b295cbdbcec9fa9d701dfd950b9d",
+      "source_review_status": "no_new_error_found",
+      "candidate_review_status": "pending_candidate_review",
+      "scope_and_findings": "상법401조 주체 이사·고의/중과실 임무해태·제3자 손해배상. 회사 모든 빚의 대표자 자동부담과 다릅니다. 개인사업자/주주 등과 구분하고 사임·변경등기 세부절차 미확인 유지."
+    },
+    {
+      "entry": 29,
+      "title": "### 29. 출입국 때 모르는 짐과 소포를 대신 운반하지 마세요",
+      "source_entry_snapshot_path": "_workspace/2026-10-18-029-79fe/entry_snapshot.md",
+      "source_entry_snapshot_sha256": "bfb96ad583175b73cec031e04d8022bd227efeff7bf0c12194caa5925c086018",
+      "source_review_status": "changes_required",
+      "candidate_review_status": "pending_candidate_review",
+      "scope_and_findings": "형법13조와 형사소송법307조는 서로 다른 법입니다. 앞에 형법만 나온 뒤 제307조라고 써서 명예훼손 조문으로 오독됩니다. 반드시 형사소송법명을 명시하세요. 고의·특별 과실규정·수사 증거평가를 구분하고 무죄 입증책임을 운반자에게 전가하지 않아야 합니다. 외국 통관법 미확인 유지."
+    },
+    {
+      "entry": 30,
+      "title": "### 30. 반려견은 목줄을 하고 맹견 안전조치를 지키세요",
+      "source_entry_snapshot_path": "_workspace/2026-10-18-030-914e/entry_snapshot.md",
+      "source_entry_snapshot_sha256": "6b86aeb7de1f10200a002f04659930424896ad9d764a963e86faef88a9847a6c",
+      "source_review_status": "no_new_error_found",
+      "candidate_review_status": "pending_candidate_review",
+      "scope_and_findings": "동물보호법16조 등록대상동물 외출 안전조치·21조 맹견(3개월 이상) 안전장치/적정 이동장치, 민법759조 보관상 상당한 주의 면책 일치. 목줄길이/맹견보험 의무의 세부조항은 이번 미검증. 한국을 무과실 전액배상으로 쓰지 않는 유보 유지."
+    },
+    {
+      "entry": 31,
+      "title": "### 31. 의식을 잃은 상대와 성관계·추행을 하지 마세요",
+      "source_entry_snapshot_path": "_workspace/2026-10-18-031-ff82/entry_snapshot.md",
+      "source_entry_snapshot_sha256": "915b3e2d8b4129a4a3888ef4694ee12dc7513b86ac70d4e449ff02b23936f7c3",
+      "source_review_status": "no_new_error_found",
+      "candidate_review_status": "pending_candidate_review",
+      "scope_and_findings": "형법299조 심신상실/항거불능 이용,305조13세미만 및 행위자19세이상-상대13세이상16세미만 일치. 단순 음주 자동 성립을 피하고 동의 주장으로 연령규정 제거 불가 유지."
+    },
+    {
+      "entry": 32,
+      "title": "### 32. 사진·비밀로 협박받으면 돈을 보내지 말고 신고하세요",
+      "source_entry_snapshot_path": "_workspace/2026-10-18-032-9270/entry_snapshot.md",
+      "source_entry_snapshot_sha256": "5b16e2da64681090437c9973427df95f1895fca7447a8824c2945f16a257b973",
+      "source_review_status": "no_new_error_found",
+      "candidate_review_status": "pending_candidate_review",
+      "scope_and_findings": "형법350조 공갈과 정당 배상요구 구분. 성폭력처벌법14의3 성적 촬영물 협박은 돈 취득 불요,14조 동의 촬영 후 의사반한 유포의 조건을 확인. 모든 일반 사진·비밀을 성폭력법 촬영물로 넓히지 마세요."
+    },
+    {
+      "entry": 33,
+      "title": "### 33. 허위 신고 피해는 무고 요건과 증거를 확인하세요",
+      "source_entry_snapshot_path": "_workspace/2026-10-18-033-fb01/entry_snapshot.md",
+      "source_entry_snapshot_sha256": "2c68c22f0683bf7a0ce17eef01aed64976683dc5585861abcee303eb5d0c7959",
+      "source_review_status": "no_new_error_found",
+      "candidate_review_status": "pending_candidate_review",
+      "scope_and_findings": "형법156조 고의 허위·공무소/공무원 신고·형사/징계처분 목적·10년/1500만원 일치. 본인 무죄/불송치만으로 상대 무고를 단정하지 않는 핵심 유보 유지."
+    },
+    {
+      "entry": 34,
+      "title": "### 34. 증거 부족의 무죄 판단과 재심 요건을 확인하세요",
+      "source_entry_snapshot_path": "_workspace/2026-10-18-034-6fd6/entry_snapshot.md",
+      "source_entry_snapshot_sha256": "3e432392170f3fac494e2c9e457a1404776a344e0ffb4ac1d080433cd0377939",
+      "source_review_status": "no_new_error_found",
+      "candidate_review_status": "pending_candidate_review",
+      "scope_and_findings": "형사소송법307조 합리적 의심 없는 증명·325조 무죄·308의2/309/310 위법증거·강제자백·유일자백 배제·420조 재심사유 확인. 불복/민원 자동 재심을 부정한 유보 유지."
+    },
+    {
+      "entry": 35,
+      "title": "### 35. 구금 뒤 무죄·불기소·불송치라면 보상 요건을 확인하세요",
+      "source_entry_snapshot_path": "_workspace/2026-10-18-035-fb81/entry_snapshot.md",
+      "source_entry_snapshot_sha256": "8a53d576e15640c35a2e1c8f2ccc452d835580164b81fef8122ac8fa9b6182cf",
+      "source_review_status": "verified_new_http",
+      "candidate_review_status": "pending_candidate_review",
+      "scope_and_findings": "형사보상법2/7/8의 무죄·관할·안날3년/확정5년,27/28 피의자 구금·불기소/불송치·제외·통지후3년 일치. 시행령290527 새 원문2조에서 원인 발생한 해 일급최저임금5배 상한 확인. 본법5조 하한1배. 공소청 명칭은21490호 부칙2026-10-02 시행 확인. 단순 무죄만으로 미구금자 구금보상을 인정하지 마세요."
+    },
+    {
+      "entry": 36,
+      "title": "### 36. 손해배상 요구는 기록을 남기고 위법한 협박을 피하세요",
+      "source_entry_snapshot_path": "_workspace/2026-10-18-036-9393/entry_snapshot.md",
+      "source_entry_snapshot_sha256": "21170c9ef5a19a3e95867f8354de7b9a8ad9fca9cafaa3033d0c5bd7edabb9cc",
+      "source_review_status": "no_new_error_found",
+      "candidate_review_status": "pending_candidate_review",
+      "scope_and_findings": "민법750조 고의/과실·위법·손해,형법350조 공갈·정당청구 구분. 이득의 위법행위 책임 요약을 무과실 배상으로 읽히지 않게 주의하세요. 소비자기본법55조는 사업자-소비자 범위. 요구액 큼만으로 범죄 단정하지 않는 유보 유지."
+    },
+    {
+      "entry": 37,
+      "title": "### 37. 온라인 괴롭힘은 증거를 저장하고 차단·삭제·신고하세요",
+      "source_entry_snapshot_path": "_workspace/2026-10-18-037-ce9a/entry_snapshot.md",
+      "source_entry_snapshot_sha256": "cfc7b15f6539e588556354483736a5f7de5d7d2bbb56f96e17bd2f0bdffdd3a8",
+      "source_review_status": "no_new_error_found",
+      "candidate_review_status": "pending_candidate_review",
+      "scope_and_findings": "정보통신망법44의2 권리침해 소명·지체없는 필요한 조치·판단곤란/분쟁예상 임시조치30일 이내 일치. 삭제신청만으로 영구삭제 확정/형사유죄/배상으로 넓히지 마세요. 가처분 요건·절차·비용은 여전히 미확인."
+    },
+    {
+      "entry": 38,
+      "title": "### 38. 보험금을 노리고 사람을 해치지 마세요",
+      "source_entry_snapshot_path": "_workspace/2026-10-18-038-4ada/entry_snapshot.md",
+      "source_entry_snapshot_sha256": "be0adef05a6e612a26a05bf99982622a79c72262f2eae12299499e83ec8b0797",
+      "source_review_status": "revise_precision",
+      "candidate_review_status": "pending_candidate_review",
+      "scope_and_findings": "상법731 타인사망 서면동의에는 신뢰성 갖춘 전자문서 포함. 732조는15세미만자·심신상실자·심신박약자 계약 무효와 의사능력 있는 심신박약자 단서가 있습니다. 15세 미만자 등의 사망보험 계약 금지라는 모호한 축약은 예외를 함께 적거나 범위를15세미만자로 좁히세요. 659조와 생명보험 세부 예외/다른 수익자 권리 유보 유지."
+    },
+    {
+      "entry": 39,
+      "title": "### 39. 신고 접수와 불송치 통지를 기록하고 이의신청 기한을 확인하세요",
+      "source_entry_snapshot_path": "_workspace/2026-10-18-039-f39d/entry_snapshot.md",
+      "source_entry_snapshot_sha256": "15d5be43a97b779479aa2a6a6b06ecb0ca22aed1447cfa4e77cc0a7246a99833",
+      "source_review_status": "no_new_error_found",
+      "candidate_review_status": "pending_candidate_review",
+      "scope_and_findings": "형사소송법245의6 서면통지/결정서/안내서식,245의7 통지일부터3개월·정당사유 송부일부터6개월 범위 연장·고발인 대통령령 예외 일치.21857호 부칙1조와7조 확인:2026-10-02 이후 통지에 새 기한 적용. 기본시행일만 보고 과거통지까지 소급시키지 마세요."
+    },
+    {
+      "entry": 40,
+      "title": "### 40. 수사·재판을 무마하려고 돈이나 선물을 주지 마세요",
+      "source_entry_snapshot_path": "_workspace/2026-10-18-040-4ee2/entry_snapshot.md",
+      "source_entry_snapshot_sha256": "728ba454b61f19a222b66439aada7261a8a8d00989018c2f12fd9138092c33eb",
+      "source_review_status": "no_new_error_found",
+      "candidate_review_status": "pending_candidate_review",
+      "scope_and_findings": "형법133조129~132조 뇌물 약속·공여·의사표시와 제3자 제공·아는 수령자의 범위,5년/2천만원 일치. 모든 선물/모든 민간수임료를 뇌물로 단정하지 않아야 합니다. 압박 자동면책 부정 유지."
+    },
+    {
+      "entry": 41,
+      "title": "### 41. 참여한 대화는 원본을 남겨 녹음하되 공개하지 마세요",
+      "source_entry_snapshot_path": "_workspace/2026-10-18-041-8f44/entry_snapshot.md",
+      "source_entry_snapshot_sha256": "3e70fc0b8d1537f3df6e5f4fbfa95f6adcdb497c34cca964e1d0d43869f35b01",
+      "source_review_status": "verified_new_http",
+      "candidate_review_status": "pending_candidate_review",
+      "scope_and_findings": "2006도4981 판결 원문 직접확보.3인 대화의 일방 참여자가 상호대화를 몰래 녹음한 행위는 타인간대화 녹음 금지 위반 아님. 모든 장소의 녹음·제3자 수집·인터넷공개·민사책임까지 적법하다는 판결은 아닙니다. 현재 예외·공개위험 유지."
+    },
+    {
+      "entry": 42,
+      "title": "### 42. 현장은 전체·위치·손상을 찍고 원본을 보관하세요",
+      "source_entry_snapshot_path": "_workspace/2026-10-18-042-fcec/entry_snapshot.md",
+      "source_entry_snapshot_sha256": "6b09d69b05ec3096b6afb109afc8cf94c6bff0c5828d7bf3b36c560b425476e8",
+      "source_review_status": "no_new_error_found",
+      "candidate_review_status": "pending_candidate_review",
+      "scope_and_findings": "민사소송법202·374조는 증거조사·자유심증 근거입니다. 전체→위치→손상 촬영순서는 경험적 권고이며 법정 의무/확정승소가 아닙니다. C등급·효과수치 미확인·구호우선 유지."
+    },
+    {
+      "entry": 43,
+      "title": "### 43. 가정폭력은 신고하고 피해자보호명령을 확인하세요",
+      "source_entry_snapshot_path": "_workspace/2026-10-18-043-881a/entry_snapshot.md",
+      "source_entry_snapshot_sha256": "7a9acf1cfe9accfb5eddd587b60ffe8a8537f6820f406d1854eb6eb0d3211f75",
+      "source_review_status": "partial_medical_verified",
+      "candidate_review_status": "pending_candidate_review",
+      "scope_and_findings": "가정폭력처벌법5/55의2/55의4에서 현장조치·피해자/법정대리인/검사청구·판사 필요성 판단·이혼불요 확인. Glass 원초록506/427·OR6.70(3.91~11.49),7.48(4.53~12.35) 일치. Stöckl66개국38.6%/6.3%는 이번 독립원문대조 미완료. 보호명령이 실제안전을 보장하지 않는 유보·신청비용 미확인 유지."
+    },
+    {
+      "entry": 44,
+      "title": "### 44. 가족의 도박 빚을 대신 갚기 전에 책임부터 확인하세요",
+      "source_entry_snapshot_path": "_workspace/2026-10-18-044-e993/entry_snapshot.md",
+      "source_entry_snapshot_sha256": "02636b367c7257582aab15e4b80dbc60a76bde179c8531c26ff128b02ab0a7f1",
+      "source_review_status": "pending_case_verification",
+      "candidate_review_status": "pending_candidate_review",
+      "scope_and_findings": "민법103·428·832조 확인. 일상가사채무와 개인 빚/보증 구분. 도박자금·도박자금대여 검색에서 사건을 받았으나 도박목적 대여 무효의 구체적 대법원 판결 원문은 확보하지 못했습니다. 대출 전부 무효로 단정하지 않는 유보 유지."
+    },
+    {
+      "entry": 45,
+      "title": "### 45. 지인의 대출에 얼굴 인증·명의·인증번호를 빌려주지 마세요",
+      "source_entry_snapshot_path": "_workspace/2026-10-18-045-585b/entry_snapshot.md",
+      "source_entry_snapshot_sha256": "60db72fc893861d977c634f52efbcd8654253b2250d5f35d98f2c4355a2642b5",
+      "source_review_status": "no_new_error_found",
+      "candidate_review_status": "pending_candidate_review",
+      "scope_and_findings": "민법110조2항 제3자사기와 상대방 인식/알수있음,454조 채무자와 제3자의 인수계약에 채권자승낙,598조 소비대차 확인. 모든 채무인수 방식에 승낙이 따로 필요하다고 확대하지 마세요. 명의도용/의사·전자서명 자동유효 부정 유지."
+    },
+    {
+      "entry": 46,
+      "title": "### 46. 문·창문 잠금과 외부 조명을 확인하고 실제로 잠그세요",
+      "source_entry_snapshot_path": "_workspace/2026-10-18-046-48df/entry_snapshot.md",
+      "source_entry_snapshot_sha256": "5f025ec6fd0be83efb7950d7e2b010d863893c8308a47c31f92323192404e78b",
+      "source_review_status": "verified_new_http",
+      "candidate_review_status": "pending_candidate_review",
+      "scope_and_findings": "Security Journal 원문표3 WD12.54/EWD34.41/EIWD49.12 확인(49는 반올림). 원문은SPF 비교지표로 절대 침입확률 감소율이 아닙니다. Crime Science 본문31→7/1000,77%,비강제침입7/1000 확인. 장치 배정실험이 아니고 한국효과 아님 유지. 비고의 세부값 독립미확인은 해소가능. 한국 인증/설치비·다른 논문 경보기 역효과/1992~96 반증의 세부값까지 전부 검증한 것은 아닙니다."
+    }
+  ],
+  "source_corrections_required": [
+    {
+      "id": "CH08-14-TIMING",
+      "entry": 14,
+      "field": "이득",
+      "decision": "revise",
+      "before": "자살시도자 82명을 입원 후 3일 안에 면담한 연구가 있습니다.",
+      "required_after": "자살시도자 82명을 시도 후 3일 안에 면담한 연구가 있습니다.",
+      "reason": "원초록은 within 3 days after the act. 입원 후가 아닙니다.",
+      "evidence": "deisenhammer-title.raw"
+    },
+    {
+      "id": "CH08-29-STATUTE",
+      "entry": 29,
+      "field": "이득",
+      "decision": "revise",
+      "before": "제307조의 형사 증명 원칙은 수사·재판에 적용됩니다.",
+      "required_after": "「형사소송법」 제307조의 형사 증명 원칙은 수사·재판에 적용됩니다.",
+      "reason": "앞 문장의 형법13조와 다른 법. 형법307조는 명예훼손입니다.",
+      "evidence": "law-versions/290189.xml / law-versions/290185.xml"
+    }
+  ],
+  "editorial_proposals": [],
+  "editorial_proposals_review_status": "pending_current_proposals_and_candidate",
+  "approval_scope": "초기 source/46 entry_snapshot 감사만 완료. 후보·순수윤문·편집제안의 승인 및 KR-FIT 판정 아님."
+}

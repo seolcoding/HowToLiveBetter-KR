@@ -138,3 +138,78 @@
 NHS Poisoning의직접인용: “do not try to make someone sick if you think they’ve swallowed something harmful – they could choke and stop breathing”. https://www.nhs.uk/conditions/poisoning/ ; 기존농진청보도자료의토해내기권고가실제로있다는사실과의료응급안내의안전성은구분했다. 의학적응급행동은이NHS지침으로대조. HRSA도실제열었으나해당구토금지인용근거로사용하지않음. 원문·요청결과·실제UTC시각·SHA는 `/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch01-audit/batch3-new-index.json` 및동일폴더원시본문에보존했다. 한국119로현지화하며영국응급번호를그대로옮기지않는다.
 
 제8항공복혈당앵커는실제제28항의제8항(공복혈당)참조와대조. 미열람NHTSA·법범칙금별표·기존가격·원통계의세부한계는남는다. 공개본문·strict/pure·README·git미수정.
+
+
+## 배치4 다섯항 독립재검토
+
+최종고정manifest `author-batch-4-r2.json`의두파일SHA·전체항목·근거JSON after정합성을대조했다. 기존15항승인은보존했다. 다섯항의수정된대상/설계/기초접종/관찰성/쉽게를재검토했다. 새로쓴긴해설은작성자가짧게나눴다.
+
+- 제11항 **approve**: 무료배포·방문설명프로그램·브롱크스신고추락50%·10세이하아파트법범위를1977초록과대조. 쉽게109자3문장으로연도나열제거. 2021미국38840·대부분6세미만/2층이하도초록일치. KDCA실제본문신규HTTP확인으로한국42.6%는만0~12세퇴원손상범위로한정해사용가능. 보호대단독효과나모든한국어린이손상에일반화하지않음. 제안 SHA `444ae65cfb43722aa0e8f3b844db768544e74910364366cdf514d6e292614cac`.
+- 제12항 **approve**: 미국레저보트이용자RR0.51과자료제외편향조건을Cummings초록과대조해전체물놀이/물에빠진사람전부로넓히던요약정정. 2025-07-21행안부정책브리핑실제본문신규HTTP로112명·장소39/33/25/15·원인41/38/19·연령내용확인. 본문은최근5년의정확시작종료연도를기재하지않아추정연도새로만들지않음. 수상레저법20/64조·과태료는이번재열람아님warn유지. 제안 SHA `1136585b9e9f8f6dd04fc4df44797f0c26c2c5dee5b6364012bff3b120dcbb2b`.
+- 제13항 **approve**: 23%는집에사는60세이상여러운동전체RaR0.77이며특정주2~3회30분처방효과가아님을2019초록과대조. 집안점검+개선RR0.81·6시험4208명·낙상고위험군/작업치료사에서더큰효과는2012초록과일치. 태극권RR0.71·다른원값보존. 특정물품설치단독효과로일반화금지조건유지. 한국노인손상통계/검진/가격은이번독립재검증아님. 제안 SHA `14d03e5efd3d02fe8ef2bbee0cb35ba27c2aa1d5b2a94b64ab361368851931d4`.
+- 제15항 **approve**: 미국파상풍환자1/10·기초접종완료후더러운상처5년/깨끗한작은상처10년·접종력불명/미완료및HIV/중증면역저하TIG조건을CDC실제본문신규HTTP와대조. 고시별표의조혈모세포이식환자대상을원시XML캐시재열람해성인전원비대상단정정정. 개인별무료지원여부는별도확인으로한정. 제안 SHA `fc694964bf16a417d051edcc2f89a9aefe119dcf3e089f42298dee38f4b4f5fb`.
+- 제16항 **approve**: 스웨덴10~30세여성4가HPV백신자료의보정IRR0.12/0.47·원래CI를Lei초록과직접대조. 관찰연관성을백신단독인과로단정하지않고30세이후계속이득감소/9~14세최적을해당연구에서추론하지않음. 고시별표여성/12세남성·저소득18~26·이식환자·2/3회표준일정을재대조. 개인별접종일정/가격/방문시간까지독립확인한것은아님. 제안 SHA `8ee7d9416525b899a55e5b34c6714c127231af140631649a7729b25731d2c0ad`.
+
+실제 1차 열람은 다음과 구분한다.
+
+- **감사자 신규HTTP4건**: `ch01-audit/batch4-http-index.json`에 실제URL·UTC회수시각·HTTP상태·원시SHA·정확파일경로를 보존했다. 네건 모두200응답이며 페이지프레임이 아닌 실제 해당본문을읽었다. CDC `tetanus-about.html`, `tetanus-clinical.html`; 정책브리핑 `water-policy.html`; KDCA `child-injury.html`.
+- CDC About Tetanus: “Tetanus can lead to death (1 in 10 cases in the United States are fatal).” https://www.cdc.gov/tetanus/about/index.html
+- CDC Clinical Guidance: “People with a complete tetanus primary series who received their last tetanus vaccine 5 or more years ago.” 더럽거나큰상처의기준이다. 깨끗하고작은상처10년,접종력불명/미완료백신,TIG의HIV/중증면역저하조건까지본문확인. https://www.cdc.gov/tetanus/hcp/clinical-guidance/index.html
+- KDCA는 “(2021 퇴원손상통계), 추락 및 낙상(42.6%)으로 인한 경우가 가장 많았습니다.”라고쓴다. 바로아래표제는 “2021년 어린이 손상환자의 손상원인별 퇴원율 ... 만0-12세”. 해당페이지의범위만확인했고원시환자자료를분석하거나모든어린이사고를직접집계한것은아니다. https://www.kdca.go.kr/injury/biz/injury/damgInfo/childDamgMain.do
+- 행안부정책브리핑의실제본문은2025-07-21발표의“최근5년”112명과39/33/25/15명,안전부주의41명·수영미숙38명·음주19명을기재한다. 정확시작·종료연도는본문에서확인되지않으므로발표일에고정해요약하며추정하지않는다. https://www.korea.kr/news/policyNewsView.do?newsId=148946340
+- **캐시재열람**: AJPH1977,AcademicPediatrics2021,Cummings2011,Sherrington2019,Gillespie2012,Lei2020의원시EuropePMC JSON 초록. 초록밖전문수치검증이라고주장하지않는다. 정확URL·원회수시각·SHA·cache_file은medical-doi-cache-index.json과작성자changesJSON에있다. 국가접종고시도기존vaccine.txt의별표실제문구를다시읽은것이며이번신규HTTP는아니다.
+
+이승인은정확한수정안바이트의승인이다. 수상레저법세부·한국노인손상·일부가격·미변경옛의료문장의미확인한계는명시적으로남긴다. 절전체42항출판준비완료나정식KR-FIT승인을뜻하지않는다. 공개본문·pure/strict·README·git미수정.
+
+
+## 승인항목10·11·12 별도문체필드제안 독립심사
+
+기존승인fullentry/changes와pure final·strict-entry의실제SHA를대조했다. 별도JSON은기존승인fullentry통합후필드연산으로적용할제안이며기존파일은수정하지않았다. 각필드before는승인fullentry현재필드와일치한다. after와before사이문자diff는인용밖연결어미뒤쉼표1개삭제뿐이다. 해당짧은문장구간은실제pure final에서이미쉼표가없는것을확인했다. 전체after를pure final로덮어써새사실교정을되돌리는방식은승인하지않는다.
+
+- 제10항 **approve** (비용). 별도제안 SHA `208b7701bf2a5c3fea771e380f3eab431fc9a7d9b438914d1361dc670626d3a3`. 숫자·부정·대상·조건·근거어휘변경없음.
+- 제11항 **approve** (이득·비고). 별도제안 SHA `e197f630ac14c03f34a4fb4a72122d3d1b8c48f9b913c010e2514f7b624eb225`. 숫자·부정·대상·조건·근거어휘변경없음.
+- 제12항 **approve** (이득·비고). 별도제안 SHA `f48767292bffeac9ab305aa60f7496acb2186461c6fa40644625b678d5d2c9de`. 숫자·부정·대상·조건·근거어휘변경없음.
+
+정확한필드별before/after·삭제offset·pure근거구간·제안SHA·승인fullentry/changes/pure/strictSHA는editorial-decisions.json의style_correction_reviews에보존한다. 외부1차새검증이필요한사실수정은없었다.
+
+
+## 배치5 다섯항 독립재검토
+
+최종고정manifest `author-batch-5-r2.json` 두파일SHA·전체항목·근거JSON after정합성을대조했다. 기존20항승인은보존했다. 다음은이정확한수정안의승인이고미열람옛사실의전수검증이나제1절전체출판완료가아니다.
+
+- 제19항 **approve**: Cochrane RR0.84는검진배정기준,RR0.75는검진참여율보정분석임을원시초록으로대조. NordICC0.98/1.20%는실제검사받은42%가아닌초대군전체기준,10년사망0.28/0.31%·RR0.90(CI0.64~1.16)의비유의차이를무효입증으로바꾸지않도록정정. 원값보존·쉽게분모범위와이득문장분리확인. 한국검진비용/가족력지침세부는이번재검증아님. 제안 SHA `e85a45f07f18bd37fa48bac5905646b6f0ff3c20b02e00c09ee87ebaf236f081`.
+- 제20항 **approve**: IAMI99.7%심근경색직후/0.3%고위험안정형환자·2571배정/2532실제처치분석·2.9/4.9%·HR0.59를원시초록과대조. Behrouzi최근ACS유무RR0.55/1.00·전체심혈관사망비유의,노인독감Cochrane6/2.4%낮은확실성과매우낮은사망근거를유지. 국가고시조혈모세포이식대상·사업시기포함. 전체심혈관질환에같은효과/전부국가사업밖이라는단정해결. 실제무료지원세부는별도확인. 제안 SHA `39ac6899530f4b2407e0733ef45f129cebb03e29e4f7ead7008ad780fee64460`.
+- 제21항 **approve**: Lal초록재조합HZ/su·평균3.2년·효능97.2%와원CI/발생수/부작용값대조. 쉽게는재조합제품·평균관찰기간을명시해다른제품/평생효과일반화방지·97%반복삭제. 국가접종고시실제목록에대상포진없음확인,지자체지원가능여부는관할보건소확인으로안내하며모든사람전액부담단정삭제. 지자체별사업실재/대상/제품/금액은독립검증아님. 제안 SHA `30ed25b49f824b509e0bd9203d13e3352fd842be0b77c06571ffd0c8e0c69294`.
+- 제22항 **approve**: Bonten초록PCV13의백신형폐렴45.6%·백신형침습성질환75%·전체원인폐렴5.1%(CI-5.1~14.2)대조. 비유의를효과없음입증으로단정하지않고국가무료PPSV와연구PCV13을쉽게에서도구분. 침습성감염뜻을일상말로풀어범위이해를돕고CDC감시사례정의의정상무균부위(혈액등)원문과대조. 고시65세이상다당질1회직접재열람. 개별접종력과최신개인별접종계획까지검증한뜻아님. 제안 SHA `25991ae94104e235187df0c355050901aabd2d2ec98c0884d3dd2f28e5271da6`.
+- 제25항 **approve**: Zalsman초록2005~2014문헌·진통제43%·투신빈발장소86%(79~91%)·학교시도OR0.45를대조. 86%를전체자살로넓히지않고시설설치장소범위로제한. 상담전화근거가전혀없다는단정을추가연구필요로정정. Cha의15세이상연령표준화5.26/2.67·이전추세대비847건/37%/RR0.63·CI보존. 정책전후비교의인과불확실성유지. 10924시간은기존공식원시페이지재열람. 물건고시/법적지정과충동지속시간은이번신규전수검증아님. 제안 SHA `15b303c6c32b53ec270f95964b342fc3b3725ab819067735987030628344d68a`.
+
+실제열람의범위와원문증거:
+
+- **기존원시캐시재열람**: Hewitson2007·Bretthauer2022·Fröbert2021·Behrouzi2022·Demicheli2018·Lal2015·Bonten2015·Zalsman2016·Cha2016. DOI존재확인이아닌abstractText를읽었다. 전문의미기재상세값까지검증했다고주장하지않는다. 정확URL·최초회수시각·SHA·cache_file은medical-doi-cache-index.json및작성자변경근거JSON에있다.
+- Hewitson: “participants allocated to screening”의RR0.84와“When adjusted for screening attendance ...”의RR0.75를구분. NordICC는“11,843 ... (42.0%) underwent screening”,“In intention-to-screen analyses ...0.98% ...1.20%”. 사망RR0.90의CI0.64~1.16이효과부재증거라고해석하지않는다.
+- Zalsman은“hot-spots for suicide by jumping ...86%”이며“internet and helpline support”에는“need further investigation”이라고쓴다. Cha는“people aged ≥15”,“age-standardized”,“compared with those expected based on previous trends”라고명시한다. 한국농약감소추정치와시설장소효과를전체인구의인과보장으로바꾸지않았다.
+- **신규HTTP2건실제본문**: CDC Clinical Overview와Surveillance Manual. 정확URL·UTC시각·상태·원시SHA·캐시경로는 `ch01-audit/batch5-http-index.json`. ClinicalOverview의진단배양설명만으로침습성정의를판정하지않고감시매뉴얼의IPD사례정의를사용했다. 인용: “Confirmed: Isolation of S. pneumoniae from a normally sterile site (e.g., blood, cerebrospinal fluid, or, less commonly, joint, pleural or pericardial fluid).” https://www.cdc.gov/surv-manual/php/table-of-contents/chapter-11-pneumococcal.html . 이는미국감시사례정의이며한국법령이나이번백신시험의별도효능값을검증한것은아니다.
+- **고시/기관원시캐시재열람**: vaccine.txt별표의독감65세이상·6개월~14세·임신부·이식환자및사업시기,노인폐렴구균다당질1회,대상포진의목록미포함을확인. 109.txt에서“당신곁엔109 24시간자살예방상담전화109”본문확인. 고시행정세부·기관별실제무료지원·지자체개별사업은새로검증하지않았다. 법령검색목록의기계명칭일치는해당법조문실체검증으로세지않는다.
+
+공개본문·pure/strict·기존승인fullentry·README·git는수정하지않았다. 기존논쟁표시는유지한다. 절전체출판준비완료는아니다.
+
+
+## 배치6 여섯항 독립재검토
+
+최종고정manifest `author-batch-6-r3.json`의두파일SHA·전체항목·근거JSON after정합성을대조했다. 기존25항승인및별도문체5필드승인은보존했다. 이번승인은정확한수정안바이트에한정되며아래미열람법·세부임상주장까지모두새로검증한뜻이아니다.
+
+- 제27항 **approve**: Price초록의영국40세이상사례대조자료·Bayes정리를통한추정PPV와2.8/1.2/1.6%·OR20·CI를대조. 혈뇨자전체직접추적관찰진단비율로옮기지않도록정정. PPV를일상말로풀고운동/생리후일괄검사보류를의료진상담으로완화. 기존혈뇨증상/가격/항응고제조언은이번독립재검증아님. 제안 SHA `fee2c3db7d793cba018addd37ea4a55e5611a8c87c79892daa4c4ecf823fc053`.
+- 제29항 **approve**: Gupta초록적용대상인발기부전남성을명시하고생활습관/심혈관위험약물개입·740명6시험·2.66점/생활습관4시험2.40점·원CI를유지. 혈압·혈당개별개입효과확정이나모든개인의개선보장을피함. Rosen초록25점만점/22~25장애없음범위대조. 개별항고혈압/혈당치료의발기효과와건강식품세부는이번독립전수검증아님. 제안 SHA `223ecfe01a2a3875801c87e2bf486162f5094e8501867587a44ba2103c287a31`.
+- 제30항 **approve**: Giannou초록은한쪽만감염된이성커플의항상사용vs전혀미사용RR0.29,항상사용vs불규칙사용RR0.23두비교. 불규칙사용과미사용차이없음이라는무근거직접비교를삭제하고쉽게전혀안씀대비71%로정확히제한. 다른성병완전예방단정도삭제. Fonner의시험수준복용률70%초과와RR0.30을개인직접효과로바꾸지않음. 주사기·한국처방·가격은이번새검증아님. 제안 SHA `1a5125366a2fc05bf35e585354041c97fddbe04602e7b5c0f6526b051751cc8f`.
+- 제31항 **approve**: PARTNER초록분석782쌍·1593적격커플년·76088회·최근1년내RNA<200 copies/mL·비감염파트너PrEP/PEP미사용조건·커플내연계감염0건을재대조. 쉽게검사비밀무예외/사형선고비유를제거. 최근노출은12주기다리지말고즉시상담하도록명시. 전국무료검사조건과법예외조문은독립확인미완료로유지. 이번법본문요청도502실패이며종전확인날짜를새확인으로세지않음. 제안 SHA `c7d950bfbdd3a1a377e601c234754018cdec011c497997d12f63f182cef94242`.
+- 제32항 **approve**: 제목검색으로확보한PMID19026258원시초록을직접읽어82명·시도후3일안에접근·47.6%(39명)10분이내·76.8%(63명)대인연락을확인. 입원3일내면담완료/연락상대별세부라는과도한정밀주장을초록범위로정정. 쉽게표본수는덜고한병원회고응답이라는범위를남기며몇십분뒤안전보장아님을명시. Owens16/2/7%와추적조건보존. 전문/정확면담완료시각미열람. 제안 SHA `ce55c42a04738387096335be13ed7ba3578dd3079dbee77a76e753048d7a7a1e`.
+- 제35항 **approve**: Muzaale의건강비기증자비교15년말기신부전누적추정30.8/3.9(1만명당)·원CI·평생위험과Mjoen/Ibrahim/Goyal초록값을대조. 15년시점의단순관찰유병률이아닌누적위험으로표현. 쉽게말기기능상실의중증범위복원,신장하나의대가앵커유지. 고혈압/단백뇨의비율만으로기증인과를확정하거나불법매매진료여건이전부동일하다고단정하지않음. 60의임상정상하한이라는일괄해석은제거/연구측정범위로한정. NKF자료는eGFR해석검토용이며실측GFR와같은검사라고간주하지않음. 제안 SHA `4c93d14173fb7bf245ab3a1e8d5c2eebbcd2c3a552a1624ba2da77b297806bee`.
+
+실제원문열람범위:
+
+- Price: “estimation of positive predictive values (PPVs) for bladder cancer using Bayes’ theorem.” Gupta결론은“in men with ED”; Rosen범주는“none (22–25) through severe (5–7)”. Giannou의두비교는“always ... never-users ... or inconsistent users”이며불규칙vs미사용직접비교는아니다. PARTNER는“eligible ... pre-exposure ... or post-exposure prophylaxis was not reported ... HIV-1 RNA <200 copies per mL ... within the past year”조건과연계전파0건을확인했다. Muzaale는“Estimated risk of ESRD at 15 years ...30.8 ...3.9”이다. 이들은기존원시EuropePMC abstractText캐시를읽었으며이번신규HTTP/전문검증아니다. 정확URL·원회수시각·SHA·경로는medical-doi-cache-index.json과작성자변경근거에보존.
+- **새로확보된초록의재열람**: `/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch08-audit/deisenhammer-title.raw`, reviewer08회수2026-10-18T13:01:10.244579+00:00,HTTP200,SHA `b34fbc7b3a7f1f132589876a50fc6014cd8fcbd102b0d3293b60033110d74aab`. 제목검색 https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22duration%20of%20the%20suicidal%20process%22&format=json&resultType=core 의PMID19026258원초록을선택해직접읽었다. 인용:“Eighty-two patients referred to a psychiatric university hospital after a suicide attempt were approached within 3 days after the act”; “47.6%; N=39 ...10 minutes or less”; “76.8% (N=63) ...any kind of interpersonal contact.” 이레코드의doi필드는없지만동일제목·저자·PMID를확인했으며기존DOI를무효라고판정하지않는다. 면담완료시각/상대별세부까지확인한것은아니다.
+- **감사자신규HTTP**: NKF `https://www.kidney.org/kidney-topics/estimated-glomerular-filtration-rate-egfr`의실제본문:“eGFR of 90 or higher is in the normal range”; “eGFR of 60–89 may mean early-stage kidney disease”; 정상eGFR은보통90초과이고연령에따라감소한다고설명한다. 원시 `ch01-audit/kidney-egfr.txt`,정확시각·status·SHA는 `batch6-http-index.json`. 이자료는추정eGFR해석이고Ibrahim의실측GFR와동일검사라고전제하지않았다. 원고의60수치는보존하되일괄정상하한이라는근거없는덧해석을피하도록했다.
+- **실패요청**: 후천성면역결핍증예방법MST220905본문API https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=220905&type=XML 는이번에도터널502로실패. 법정예외/처벌/전국무료검사조건의미확인한계를그대로남기며프레임이나상태코드만으로조문을읽었다고세지않는다. 검사결과절대비밀요약을삭제한것은법내용전체최신검증을뜻하지않는다.
+
+공개본문·pure/strict·기존승인fullentry/style·README·git미수정. 초기42항검토기록과이번수정승인은별개이며절전체출판준비완료는아니다.

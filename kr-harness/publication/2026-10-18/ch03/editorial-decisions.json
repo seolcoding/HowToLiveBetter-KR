@@ -95,7 +95,8 @@
       "status": "미확인/수정 필요",
       "finding": "Pencavel 서지만 확인. 49/56/63/70시간·주로 여성·관찰기록 원문 재확인 필요. 제목49시간 권고와 비고49자체 믿지말라는 설명 충돌. 법정40+12·5인기준·예외·4인이하 제외는 법령 본문 직접 확인 전 승인 불가. 한글 law URL의 HTTP200은 프레임으로 조문 열람 성공 아님.",
       "candidate_entry_sha256": "875a10c3786127ddad7dd261d228a465d6dca2e33b4a852f331269fb3e04b648",
-      "candidate_review": "원자료 내용판정 유지. 순수 후보는 사실교정하지 않았음."
+      "candidate_review": "원자료 내용판정 유지. 순수 후보는 사실교정하지 않았음.",
+      "korean_core_followup": "한국법원문확인완료:원칙수치맞음. 제외/휴게/특별연장동의 보완필요.초기한국법미확인표시는 이추가확인으로대체."
     },
     {
       "entry": 14,
@@ -137,7 +138,8 @@
       "status": "미확인/수정 필요",
       "finding": "법령 한글URL HTTP200 프레임만 확인, 이어 재시도502. 3개월 이의기한·7일·60/10일·서식송부 모두 본문확인 보류. “친절과 처리 거의 무관”·“법에 맞는 우선순위 모두 문서”는 출처 없는 일반화로 삭제/경험표시. 수사담당 금품은 직무관련성·공무원 요건이 있어 모든 선물을 뇌물로 단정하지 말 것. 응급실 중증도 원칙도 별도 공식확인 필요.",
       "candidate_entry_sha256": "95d0286e7ca8fa9d173e9ff8456d8f76c944594252f8e373f84ec8f2be40a440",
-      "candidate_review": "원자료 내용판정 유지. 순수 후보는 사실교정하지 않았음."
+      "candidate_review": "원자료 내용판정 유지. 순수 후보는 사실교정하지 않았음.",
+      "korean_core_followup": "인용법핵심원문확인완료:3개월은현행맞음. 적용례·송부일기산·연장예외 누락. 초기법원문미확인표시는 이추가확인으로대체;기타과정비용·응급실지침범위는별도."
     },
     {
       "entry": 20,
@@ -610,5 +612,106 @@
       ],
       "approval_scope": "완전 항목 교체 파일은 미승인. approve인 개별 변경 필드만 승인; 다른 잔여 내용은 감사 지적 유지."
     }
-  ]
+  ],
+  "korean_core_verification": {
+    "date": "2026-10-18",
+    "sources": [
+      {
+        "title": "근로기준법",
+        "mst": "285279",
+        "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=285279&type=XML",
+        "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/285279.xml",
+        "sha256": "222fd311aa29570bf0045061e332c9b6696b49427a4ae8f17540763866b36c2e",
+        "original_requested_at_utc": "2026-10-18T12:37:57.424991+00:00",
+        "method": "공용 캐시 XML 직접 열람; 신규 현행검색과 별도 대조"
+      },
+      {
+        "title": "근로기준법 시행령",
+        "mst": "270551",
+        "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=270551&type=XML",
+        "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/270551.xml",
+        "sha256": "8e70d95b19fa42b307f58535d6a47a35dd3e1226431bb54dfb38f3aa8fc6ce72",
+        "original_requested_at_utc": "2026-10-18T12:37:10.914477+00:00",
+        "method": "공용 캐시 XML 직접 열람; 신규 현행검색과 별도 대조"
+      },
+      {
+        "title": "형사소송법",
+        "mst": "290189",
+        "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290189&type=XML",
+        "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290189.xml",
+        "sha256": "f917fd5794540a55cc19ef2b94e5142ee97cdaafc9215827fa653b6c275ab9fa",
+        "original_requested_at_utc": "2026-10-18T12:38:26.047262+00:00",
+        "method": "공용 캐시 XML 직접 열람; 신규 현행검색과 별도 대조"
+      },
+      {
+        "title": "형법",
+        "mst": "290185",
+        "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290185&type=XML",
+        "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290185.xml",
+        "sha256": "391f3c2bb7173fff4040eda9ae2259674b616e58aeadf4371206b63c70f1c89b",
+        "original_requested_at_utc": "2026-10-18T12:38:25.603245+00:00",
+        "method": "공용 캐시 XML 직접 열람; 신규 현행검색과 별도 대조"
+      },
+      {
+        "name": "근로기준법",
+        "url": "https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=law&type=XML&query=%EA%B7%BC%EB%A1%9C%EA%B8%B0%EC%A4%80%EB%B2%95&display=100&nw=1",
+        "requested_at_utc": "2026-10-18T13:00:07.359381+00:00",
+        "http_status": 200,
+        "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch03-audit/0f80005cb8838c2b.xml",
+        "sha256": "b8a20072e5cff7651c2732cda90541bf6cb63a7bfddbe0e6a368643d207917f8"
+      },
+      {
+        "name": "근로기준법 시행령",
+        "url": "https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=law&type=XML&query=%EA%B7%BC%EB%A1%9C%EA%B8%B0%EC%A4%80%EB%B2%95%20%EC%8B%9C%ED%96%89%EB%A0%B9&display=100&nw=1",
+        "requested_at_utc": "2026-10-18T13:00:07.360119+00:00",
+        "http_status": 200,
+        "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch03-audit/4c6bd34c268e4414.xml",
+        "sha256": "c3b1a5b4b4b028f816a2057890098a4e2c98614f487302a42540d0f696010ceb"
+      },
+      {
+        "name": "형사소송법",
+        "url": "https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=law&type=XML&query=%ED%98%95%EC%82%AC%EC%86%8C%EC%86%A1%EB%B2%95&display=100&nw=1",
+        "requested_at_utc": "2026-10-18T13:00:07.360672+00:00",
+        "http_status": 200,
+        "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch03-audit/09ff2c08f1f6cc0c.xml",
+        "sha256": "7b190c4f47e86ffa6eb18bb413ff58cb8e0ac46ddf08818d95a5c034ec54cdf9"
+      },
+      {
+        "name": "형법",
+        "url": "https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=law&type=XML&query=%ED%98%95%EB%B2%95&display=100&nw=1",
+        "requested_at_utc": "2026-10-18T13:00:07.361184+00:00",
+        "http_status": 200,
+        "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch03-audit/585cdbaa249c195b.xml",
+        "sha256": "20d931ae62b218c093521913e128bbab7685bd7e13b4b5c1fe4d346b18274bed"
+      },
+      {
+        "name": "민원 처리에 관한 법률",
+        "url": "https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=law&type=XML&query=%EB%AF%BC%EC%9B%90%20%EC%B2%98%EB%A6%AC%EC%97%90%20%EA%B4%80%ED%95%9C%20%EB%B2%95%EB%A5%A0&display=100&nw=1",
+        "requested_at_utc": "2026-10-18T13:00:07.361745+00:00",
+        "http_status": 200,
+        "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch03-audit/da0f1e27a15a81f3.xml",
+        "sha256": "f34d3002cd83f44ce9c8e25e9b3feabda38c55e67ca45dc9606e31b598e3c03a"
+      },
+      {
+        "name": "민원 처리에 관한 법률",
+        "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=239293&type=XML",
+        "requested_at_utc": "2026-10-18T13:00:30.049062+00:00",
+        "http_status": 200,
+        "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch03-audit/239293.xml",
+        "sha256": "ea7116662f7f8b1cb921cfaf8e0cbcfe1dfac60ca2cb1e890e1822797b539181"
+      }
+    ],
+    "current_status_search": "5개 공식DRF검색의 실제현행표시+본문/관련부칙 대조",
+    "entries": {
+      "13": {
+        "verified": "11/50/53/59/63조;시행령7/7의2/34조·별표1;15513부칙2·21533부칙1",
+        "remaining_action": "휴게제외·근로자동의·59/63제외명시;53③만료주의"
+      },
+      "19": {
+        "verified": "245의6/7·258/259·21857부칙1/7·22009부칙;민원법3/17/35·18742/18748부칙;형법129/133·22007부칙",
+        "remaining_action": "송부일기산·2026.10.2이후통지적용·정당사유연장·민원10일연장·비용범위보완"
+      }
+    },
+    "publication_approval": false
+  }
 }

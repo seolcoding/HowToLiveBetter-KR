@@ -1,9 +1,9 @@
 {
-  "status": "pending_candidate_review",
+  "status": "candidate_review_complete_revision_required",
   "chapter": 4,
-  "reviewed_at": "2026-10-18T12:36:58.875443+00:00",
+  "reviewed_at": "2026-10-18T12:45:53.407574+00:00",
   "source_sha256": "75862eb5fd6b44340bc3e939add11e1e9a7cd74b57ce639827d99ec7a6ceaa37",
-  "candidate_sha256": null,
+  "candidate_sha256": "1c5e14de8c6be8fc90ad3b3120cd4eb3daf7f3f5875b15c65d9cd5905c9527a1",
   "editorial_approval": false,
   "formal_kr_fit": "not_performed_this_is_editorial_source_audit",
   "machine_check": {
@@ -19,17 +19,96 @@
       "source_note": "94개·d=0.65·주로 학생 건강습관·원하는 목표에만 통한다는 범위는 현재 캐시가 서지만 제공해 재검증 미완료. d를 달성률 퍼센트 증가로 바꾸면 안 됨.",
       "entry_snapshot": "_workspace/2026-10-18-001-e4c0/entry_snapshot.md",
       "entry_snapshot_sha256": "46384cb06ca226a03bd6e42b798803693c8e414c4cbd8ae3804beae5c3c403c2",
-      "candidate_review_status": "pending_candidate_review",
+      "candidate_review_status": "reviewed_with_unresolved_source_claims",
       "proposal": {
         "path": "_workspace/2026-10-18-001-e4c0/editorial-proposal.json",
         "sha256": "031e9a0b87a17c76f21ba96763cfe03f5aa351f21f149f399ce341f704f014ce",
+        "candidate_sha256": "1c5e14de8c6be8fc90ad3b3120cd4eb3daf7f3f5875b15c65d9cd5905c9527a1",
         "field_decisions": [
           {
             "field": "easy",
-            "decision": "pending_candidate_review",
-            "preliminary_concern": null
+            "target_field": "쉽게",
+            "decision": "revise",
+            "reason": "주로 학생 건강 습관이라는 출처범위는 서지만 열어 미확인. 해당 문장을 제외하거나 원문에서 확인한 실제 모집단 범위로 고칠 것. d=.65를 달성률 증가폭으로 오인하게 하지 말 것.",
+            "before": "「이걸 해야지」 대신 시간과 장소를 적으세요. 예: 「화요일 오전 8시에 책상에 앉으면 서론부터 쓴다」. 94개 검증을 종합하면 이렇게 적은 쪽의 목표 달성률이 뚜렷하게 높습니다. 문장 하나만 바꾸면 돈도 힘도 안 듭니다.",
+            "after": "정말 하고 싶은 일의 시간과 장소를 「~하면 ~한다」로 적으세요. 이렇게 적은 쪽의 목표 달성률이 중간에서 큰 폭으로 높았습니다. 주로 학생 건강 습관에서 살펴봐 일터에서도 같을지는 모릅니다.",
+            "before_matches_current_candidate": true,
+            "before_matches_target_field": true,
+            "scope": "지정 제안변경만 승인. 해당 항목의 전체 사실/출판상태/정식KR-FIT 승인 아님."
           }
         ]
+      },
+      "candidate_entry_sha256": "46384cb06ca226a03bd6e42b798803693c8e414c4cbd8ae3804beae5c3c403c2",
+      "current_candidate_status": "source_verification_incomplete",
+      "candidate_field_decisions": {
+        "title": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "비용": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "쉽게": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "이득": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "출처": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "비고": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        }
+      },
+      "actual_upstream_gate_evidence": {
+        "path": "_workspace/2026-10-18-001-e4c0/publication-gates.json",
+        "sha256": "26e4f3ebd29b2a6218c048de825460d794376c1f39c57fa387e277e1a7930a4a",
+        "contents": {
+          "genre": "essay",
+          "change_rate": {
+            "rate": 0.0,
+            "scope": "전문",
+            "verdict": "OK"
+          },
+          "s1_targets": [],
+          "antithesis": {
+            "before": 0,
+            "after": 0,
+            "verdict": "스킵 (원문 대구 < 5)"
+          },
+          "golden": [],
+          "sentence_touch": {
+            "rate": 0.0,
+            "touched": 0,
+            "total": 18
+          },
+          "numbers_dropped": [],
+          "modality": {
+            "lost_pairs": [],
+            "uncertain_pairs": [],
+            "counts": {
+              "deontic": {
+                "before": 0,
+                "after": 0
+              },
+              "hedge": {
+                "before": 0,
+                "after": 0
+              }
+            },
+            "verdict": "OK"
+          },
+          "gate": {
+            "verdict": "OK — 수렴",
+            "exit_code": 0
+          }
+        }
       }
     },
     {
@@ -38,8 +117,80 @@
       "source_note": "실행 의도 메타분석 서지만 확보. disengagement 원문 단락 직접 확인 미완료. 절약 시간 미측정이라는 유보 유지.",
       "entry_snapshot": "_workspace/2026-10-18-002-716c/entry_snapshot.md",
       "entry_snapshot_sha256": "6da75c5b9876f5de4359f20ffe97a8cbdfefab818b9a01802910b3c501176ae4",
-      "candidate_review_status": "pending_candidate_review",
-      "proposal": null
+      "candidate_review_status": "reviewed_with_unresolved_source_claims",
+      "proposal": null,
+      "candidate_entry_sha256": "6da75c5b9876f5de4359f20ffe97a8cbdfefab818b9a01802910b3c501176ae4",
+      "current_candidate_status": "source_verification_incomplete",
+      "candidate_field_decisions": {
+        "title": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "비용": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "쉽게": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "이득": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "출처": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "비고": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        }
+      },
+      "actual_upstream_gate_evidence": {
+        "path": "_workspace/2026-10-18-002-716c/publication-gates.json",
+        "sha256": "84d5b6b5c1204f6f9889abf24cdf927b1042a3d7a6ecd34c4fd22796ef0a385e",
+        "contents": {
+          "genre": "essay",
+          "change_rate": {
+            "rate": 0.0,
+            "scope": "전문",
+            "verdict": "OK"
+          },
+          "s1_targets": [],
+          "antithesis": {
+            "before": 0,
+            "after": 0,
+            "verdict": "스킵 (원문 대구 < 5)"
+          },
+          "golden": [],
+          "sentence_touch": {
+            "rate": 0.0,
+            "touched": 0,
+            "total": 19
+          },
+          "numbers_dropped": [],
+          "modality": {
+            "lost_pairs": [],
+            "uncertain_pairs": [],
+            "counts": {
+              "deontic": {
+                "before": 0,
+                "after": 0
+              },
+              "hedge": {
+                "before": 2,
+                "after": 2
+              }
+            },
+            "verdict": "OK"
+          },
+          "gate": {
+            "verdict": "OK — 수렴",
+            "exit_code": 0
+          }
+        }
+      }
     },
     {
       "entry": 3,
@@ -47,17 +198,97 @@
       "source_note": "Roth 초록의 98 effect sizes와 연령·시간 조절 확인. 시간에 따른 약화는 utilization decisions에 한정해야 함. Arkes 시즌권 가격·4.11/3.32/3.29 수치는 원문 직접 확인 미완료.",
       "entry_snapshot": "_workspace/2026-10-18-003-e342/entry_snapshot.md",
       "entry_snapshot_sha256": "31aac7dfe16b1960dfae236ec073559139bf3e2a78f7734cc1c66945e61fab65",
-      "candidate_review_status": "pending_candidate_review",
+      "candidate_review_status": "reviewed_with_unresolved_source_claims",
       "proposal": {
         "path": "_workspace/2026-10-18-003-e342/editorial-proposal.json",
         "sha256": "9aa7fb56494d73abeb8868278e3fd789042c5fe40fa7f14faf04313c55c1e93b",
+        "candidate_sha256": "1c5e14de8c6be8fc90ad3b3120cd4eb3daf7f3f5875b15c65d9cd5905c9527a1",
         "field_decisions": [
           {
             "field": "easy",
-            "decision": "pending_candidate_review",
-            "preliminary_concern": null
+            "target_field": "쉽게",
+            "decision": "approve",
+            "reason": "일반적 매몰비용 성향과 미래 비용·이득 판단 권고를 보존. 세부98개 설명은 이득에 남음.",
+            "before": "사람은 이미 들인 돈과 시간 때문에 하던 일을 붙잡습니다. 98개 효과 크기를 합쳐도 이 성향은 일관되게 나타납니다. 계속할지는 앞으로 들일 비용과 얻을 이득만으로 정하세요. 이미 쓴 돈과 시간은 계산에 넣지 마세요.",
+            "after": "이미 들인 돈과 시간 때문에 하던 일을 붙잡기 쉽습니다. 계속할지는 앞으로 들일 비용과 얻을 이득만으로 정하세요. 이미 쓴 돈과 시간은 계산에 넣지 마세요.",
+            "before_matches_current_candidate": true,
+            "before_matches_target_field": true,
+            "scope": "지정 제안변경만 승인. 해당 항목의 전체 사실/출판상태/정식KR-FIT 승인 아님."
           }
         ]
+      },
+      "candidate_entry_sha256": "31aac7dfe16b1960dfae236ec073559139bf3e2a78f7734cc1c66945e61fab65",
+      "current_candidate_status": "partially_verified",
+      "candidate_field_decisions": {
+        "title": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "비용": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "쉽게": {
+          "decision": "revise_using_approved_proposal",
+          "proposal_field": "easy",
+          "reason": "승인된 제안은 아직 후보에 반영되지 않음."
+        },
+        "이득": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "출처": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "비고": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        }
+      },
+      "actual_upstream_gate_evidence": {
+        "path": "_workspace/2026-10-18-003-e342/publication-gates.json",
+        "sha256": "4d70f6a2bf5dc93dbbd7e761e080ba2641bbf4674713b0b424519e73b332cbfa",
+        "contents": {
+          "genre": "essay",
+          "change_rate": {
+            "rate": 0.0,
+            "scope": "전문",
+            "verdict": "OK"
+          },
+          "s1_targets": [],
+          "antithesis": {
+            "before": 0,
+            "after": 0,
+            "verdict": "스킵 (원문 대구 < 5)"
+          },
+          "golden": [],
+          "sentence_touch": {
+            "rate": 0.0,
+            "touched": 0,
+            "total": 19
+          },
+          "numbers_dropped": [],
+          "modality": {
+            "lost_pairs": [],
+            "uncertain_pairs": [],
+            "counts": {
+              "deontic": {
+                "before": 0,
+                "after": 0
+              },
+              "hedge": {
+                "before": 0,
+                "after": 0
+              }
+            },
+            "verdict": "OK"
+          },
+          "gate": {
+            "verdict": "OK — 수렴",
+            "exit_code": 0
+          }
+        }
       }
     },
     {
@@ -66,17 +297,96 @@
       "source_note": "Halkjelsvik 초록: 과소추정은 공학·경영 문헌에서 더 흔했으나 심리학 문헌에서는 그렇지 않았음. 비고의 전체 연구 일반화 수정. Buehler 논문 33.9/55.5·29.7·29.3/60.0·37명/약40명은 서지로 확인 불가. 제안의 60.0/29.3을 논문쓰기 연구로 한정하는 것은 서로 다른 연구 혼동 위험.",
       "entry_snapshot": "_workspace/2026-10-18-004-3813/entry_snapshot.md",
       "entry_snapshot_sha256": "7355b55bddeccb9faa832e25b5ee6f27fcec69d0d830ec0d7accf2dd0b6d43db",
-      "candidate_review_status": "pending_candidate_review",
+      "candidate_review_status": "reviewed_with_unresolved_source_claims",
       "proposal": {
         "path": "_workspace/2026-10-18-004-3813/editorial-proposal.json",
         "sha256": "bbb7a79c5fcd1072a82091d05c913d6d0566d27f9ff8b2cf2bf3234e6da84d18",
+        "candidate_sha256": "1c5e14de8c6be8fc90ad3b3120cd4eb3daf7f3f5875b15c65d9cd5905c9527a1",
         "field_decisions": [
           {
             "field": "easy",
-            "decision": "pending_candidate_review",
-            "preliminary_concern": "60.0/29.3을 논문쓰기 연구로 한정하지 말 것; 원문 후속 연구확인 필요"
+            "target_field": "쉽게",
+            "decision": "revise",
+            "reason": "60.0/29.3 비교를 논문 기한 연구로 구체화하지 말 것. thesis 연구와 후속 과거경험 조작연구 구분이 필요하며 원문 직접 확인 전 과제 기한으로 한정.",
+            "before": "학생들은 논문을 33.9일에 끝낼 수 있다고 예상했습니다. 실제로는 55.5일 걸렸습니다. 자기 예상 안에 끝낸 사람은 29.7%뿐이었습니다. 지난번 비슷한 일을 먼저 떠올리게 한 그룹은 제때 끝낸 비율이 올랐습니다. 29.3%에서 60.0%로 상승했습니다.",
+            "after": "캐나다 대학생이 논문 기한을 잡을 때의 결과입니다. 지난번 비슷한 일을 떠올린 그룹은 60.0%가 제때 끝냈습니다. 대조군은 29.3%였습니다.",
+            "before_matches_current_candidate": true,
+            "before_matches_target_field": true,
+            "scope": "지정 제안변경만 승인. 해당 항목의 전체 사실/출판상태/정식KR-FIT 승인 아님."
           }
         ]
+      },
+      "candidate_entry_sha256": "7355b55bddeccb9faa832e25b5ee6f27fcec69d0d830ec0d7accf2dd0b6d43db",
+      "current_candidate_status": "revision_required",
+      "candidate_field_decisions": {
+        "title": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "비용": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "쉽게": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "이득": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "출처": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "비고": {
+          "decision": "revise",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        }
+      },
+      "actual_upstream_gate_evidence": {
+        "path": "_workspace/2026-10-18-004-3813/publication-gates.json",
+        "sha256": "a5dec7f81eb2be9d387e1b9010a4145c13e084b838e2fb3bd5fc1a59815f92fe",
+        "contents": {
+          "genre": "essay",
+          "change_rate": {
+            "rate": 0.0,
+            "scope": "전문",
+            "verdict": "OK"
+          },
+          "s1_targets": [],
+          "antithesis": {
+            "before": 0,
+            "after": 0,
+            "verdict": "스킵 (원문 대구 < 5)"
+          },
+          "golden": [],
+          "sentence_touch": {
+            "rate": 0.0,
+            "touched": 0,
+            "total": 21
+          },
+          "numbers_dropped": [],
+          "modality": {
+            "lost_pairs": [],
+            "uncertain_pairs": [],
+            "counts": {
+              "deontic": {
+                "before": 0,
+                "after": 0
+              },
+              "hedge": {
+                "before": 1,
+                "after": 1
+              }
+            },
+            "verdict": "OK"
+          },
+          "gate": {
+            "verdict": "OK — 수렴",
+            "exit_code": 0
+          }
+        }
       }
     },
     {
@@ -85,8 +395,80 @@
       "source_note": "두 DOI 서지만 직접 열람. 958/292·55/56팀·34%와 실험 과제 세부 미확인. 34%는 앉은 회의가 선 회의보다 길다는 분모 유지(서서34%단축으로 역산 금지). 안건 조사연관과 실험 구별 유지.",
       "entry_snapshot": "_workspace/2026-10-18-005-91a6/entry_snapshot.md",
       "entry_snapshot_sha256": "bee6e1e005ba8d7c2a0ac03a34ef47e0994f314a310ab1aebb62048525e4c184",
-      "candidate_review_status": "pending_candidate_review",
-      "proposal": null
+      "candidate_review_status": "reviewed_with_unresolved_source_claims",
+      "proposal": null,
+      "candidate_entry_sha256": "bee6e1e005ba8d7c2a0ac03a34ef47e0994f314a310ab1aebb62048525e4c184",
+      "current_candidate_status": "source_verification_incomplete",
+      "candidate_field_decisions": {
+        "title": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "비용": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "쉽게": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "이득": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "출처": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "비고": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        }
+      },
+      "actual_upstream_gate_evidence": {
+        "path": "_workspace/2026-10-18-005-91a6/publication-gates.json",
+        "sha256": "2b8b855fae1421d93f3f2836b5177fbe011e04795d065c790b8e35a166d5dc68",
+        "contents": {
+          "genre": "essay",
+          "change_rate": {
+            "rate": 0.0,
+            "scope": "전문",
+            "verdict": "OK"
+          },
+          "s1_targets": [],
+          "antithesis": {
+            "before": 0,
+            "after": 0,
+            "verdict": "스킵 (원문 대구 < 5)"
+          },
+          "golden": [],
+          "sentence_touch": {
+            "rate": 0.0,
+            "touched": 0,
+            "total": 18
+          },
+          "numbers_dropped": [],
+          "modality": {
+            "lost_pairs": [],
+            "uncertain_pairs": [],
+            "counts": {
+              "deontic": {
+                "before": 0,
+                "after": 0
+              },
+              "hedge": {
+                "before": 1,
+                "after": 1
+              }
+            },
+            "verdict": "OK"
+          },
+          "gate": {
+            "verdict": "OK — 수렴",
+            "exit_code": 0
+          }
+        }
+      }
     },
     {
       "entry": 6,
@@ -94,8 +476,80 @@
       "source_note": "Rogelberg 초록의 676/304와 주35시간 이상(원문35 hr or more; 본문 넘게는 이상으로 수정 권장), 조절요인 확인. 일기 연구 수치/내용은 서지만. 회의 감축·비동기 소통의 인과효과 직접 검증 없음이라는 유보 유지.",
       "entry_snapshot": "_workspace/2026-10-18-006-f386/entry_snapshot.md",
       "entry_snapshot_sha256": "2b2abf44324f65a1e2f390d09273d3141828b32214dcff388eff52778e43fb9e",
-      "candidate_review_status": "pending_candidate_review",
-      "proposal": null
+      "candidate_review_status": "reviewed_with_unresolved_source_claims",
+      "proposal": null,
+      "candidate_entry_sha256": "2b2abf44324f65a1e2f390d09273d3141828b32214dcff388eff52778e43fb9e",
+      "current_candidate_status": "partially_verified",
+      "candidate_field_decisions": {
+        "title": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "비용": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "쉽게": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "이득": {
+          "decision": "revise",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "출처": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "비고": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        }
+      },
+      "actual_upstream_gate_evidence": {
+        "path": "_workspace/2026-10-18-006-f386/publication-gates.json",
+        "sha256": "8e4da5328b37c001eb4ef579a4ca96a155a77d3c1b91807d2db7db55b27b6f83",
+        "contents": {
+          "genre": "essay",
+          "change_rate": {
+            "rate": 0.0,
+            "scope": "전문",
+            "verdict": "OK"
+          },
+          "s1_targets": [],
+          "antithesis": {
+            "before": 0,
+            "after": 0,
+            "verdict": "스킵 (원문 대구 < 5)"
+          },
+          "golden": [],
+          "sentence_touch": {
+            "rate": 0.0,
+            "touched": 0,
+            "total": 20
+          },
+          "numbers_dropped": [],
+          "modality": {
+            "lost_pairs": [],
+            "uncertain_pairs": [],
+            "counts": {
+              "deontic": {
+                "before": 2,
+                "after": 2
+              },
+              "hedge": {
+                "before": 0,
+                "after": 0
+              }
+            },
+            "verdict": "OK"
+          },
+          "gate": {
+            "verdict": "OK — 수렴",
+            "exit_code": 0
+          }
+        }
+      }
     },
     {
       "entry": 7,
@@ -103,17 +557,97 @@
       "source_note": "Kruger DOI 서지만 확보. Steel은 상관 메타분석으로 단계 쪼개기 개입이 미루기를 줄인다는 직접 근거가 아님. 쉽게/이득의 단정은 추론으로 한정하거나 직접 개입근거 확보. 백분율 미확인과 논문 미접근 구분.",
       "entry_snapshot": "_workspace/2026-10-18-007-7441/entry_snapshot.md",
       "entry_snapshot_sha256": "ad14a95affe3c622c1a0f117badda182c0ba27dc7376367082763a5bb5195d8d",
-      "candidate_review_status": "pending_candidate_review",
+      "candidate_review_status": "reviewed_with_unresolved_source_claims",
       "proposal": {
         "path": "_workspace/2026-10-18-007-7441/editorial-proposal.json",
         "sha256": "f803a564e8dd0f40fe6c273bfc71f57c6c68073b94ce556908e384354f9ce269",
+        "candidate_sha256": "1c5e14de8c6be8fc90ad3b3120cd4eb3daf7f3f5875b15c65d9cd5905c9527a1",
         "field_decisions": [
           {
             "field": "todo",
-            "decision": "pending_candidate_review",
-            "preliminary_concern": null
+            "target_field": "비고",
+            "decision": "approve",
+            "reason": "미확인 백분율을 확인 완료로 바꾸지 않고 독자용 표현으로 전환. 다른 미루기 인과단정의 승인은 아님.",
+            "before": "구체적인 백분율은 싣지 않았습니다(TODO 확인 필요).",
+            "after": "구체적인 백분율은 아직 확인하지 못해 싣지 않았습니다.",
+            "before_matches_current_candidate": true,
+            "before_matches_target_field": true,
+            "scope": "지정 제안변경만 승인. 해당 항목의 전체 사실/출판상태/정식KR-FIT 승인 아님."
           }
         ]
+      },
+      "candidate_entry_sha256": "ad14a95affe3c622c1a0f117badda182c0ba27dc7376367082763a5bb5195d8d",
+      "current_candidate_status": "revision_required",
+      "candidate_field_decisions": {
+        "title": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "비용": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "쉽게": {
+          "decision": "revise",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "이득": {
+          "decision": "revise",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "출처": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "비고": {
+          "decision": "revise_using_approved_proposal",
+          "proposal_field": "todo",
+          "reason": "승인된 제안은 아직 후보에 반영되지 않음."
+        }
+      },
+      "actual_upstream_gate_evidence": {
+        "path": "_workspace/2026-10-18-007-7441/publication-gates.json",
+        "sha256": "f6fa39dcdc12b21c8757d7c9a1a0c8a09d11a2b69504682f9d60967d3bfb3771",
+        "contents": {
+          "genre": "essay",
+          "change_rate": {
+            "rate": 0.0,
+            "scope": "전문",
+            "verdict": "OK"
+          },
+          "s1_targets": [],
+          "antithesis": {
+            "before": 0,
+            "after": 0,
+            "verdict": "스킵 (원문 대구 < 5)"
+          },
+          "golden": [],
+          "sentence_touch": {
+            "rate": 0.0,
+            "touched": 0,
+            "total": 15
+          },
+          "numbers_dropped": [],
+          "modality": {
+            "lost_pairs": [],
+            "uncertain_pairs": [],
+            "counts": {
+              "deontic": {
+                "before": 0,
+                "after": 0
+              },
+              "hedge": {
+                "before": 2,
+                "after": 2
+              }
+            },
+            "verdict": "OK"
+          },
+          "gate": {
+            "verdict": "OK — 수렴",
+            "exit_code": 0
+          }
+        }
       }
     },
     {
@@ -122,17 +656,97 @@
       "source_note": "Buehler 서지만 확보해 80.6/38.7/r=.82 세부 미확인. 외부 마감과 자기 예측 비교이지 자가마감 시험이 아니라는 제한을 쉽게에도 유지. 마감을 남에게 알리면 외부마감과 같다는 인과단정 피함.",
       "entry_snapshot": "_workspace/2026-10-18-008-b4b7/entry_snapshot.md",
       "entry_snapshot_sha256": "69c99aae85c00d4f545e26a4847d98f868e4532208b077d4723e355f4ed56a94",
-      "candidate_review_status": "pending_candidate_review",
+      "candidate_review_status": "reviewed_with_unresolved_source_claims",
       "proposal": {
         "path": "_workspace/2026-10-18-008-b4b7/editorial-proposal.json",
         "sha256": "7c4a935ea063ab347e672432ba1211ca53c88f2825601ce07278cdfb4f791f30",
+        "candidate_sha256": "1c5e14de8c6be8fc90ad3b3120cd4eb3daf7f3f5875b15c65d9cd5905c9527a1",
         "field_decisions": [
           {
             "field": "easy",
-            "decision": "pending_candidate_review",
-            "preliminary_concern": null
+            "target_field": "쉽게",
+            "decision": "approve",
+            "reason": "기존 완료비율과 자기설정 마감 미검증 조건을 함께 보존. 숫자 신규검증 승인이 아니라 편집보존 승인.",
+            "before": "남이 정한 마감이 있으면 80.6%가 그 전에 끝냈습니다. 자기가 예상한 시간 안에 끝낸 사람은 38.7%뿐입니다. 실제 완료 시점은 마감과 강한 관계를 보였습니다. 자기 예상과의 관계는 약합니다. 마감 없는 일에는 스스로 날짜를 정하고 지키세요.",
+            "after": "남이 정한 마감 안에 끝낸 학생은 80.6%였습니다. 자기 예상 안에 끝낸 비율은 38.7%였습니다. 마감 없는 일에는 스스로 날짜를 정해 지키세요. 다만 스스로 정한 마감의 효과는 직접 측정하지 않았습니다.",
+            "before_matches_current_candidate": true,
+            "before_matches_target_field": true,
+            "scope": "지정 제안변경만 승인. 해당 항목의 전체 사실/출판상태/정식KR-FIT 승인 아님."
           }
         ]
+      },
+      "candidate_entry_sha256": "69c99aae85c00d4f545e26a4847d98f868e4532208b077d4723e355f4ed56a94",
+      "current_candidate_status": "source_verification_incomplete",
+      "candidate_field_decisions": {
+        "title": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "비용": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "쉽게": {
+          "decision": "revise_using_approved_proposal",
+          "proposal_field": "easy",
+          "reason": "승인된 제안은 아직 후보에 반영되지 않음."
+        },
+        "이득": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "출처": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "비고": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        }
+      },
+      "actual_upstream_gate_evidence": {
+        "path": "_workspace/2026-10-18-008-b4b7/publication-gates.json",
+        "sha256": "4d70f6a2bf5dc93dbbd7e761e080ba2641bbf4674713b0b424519e73b332cbfa",
+        "contents": {
+          "genre": "essay",
+          "change_rate": {
+            "rate": 0.0,
+            "scope": "전문",
+            "verdict": "OK"
+          },
+          "s1_targets": [],
+          "antithesis": {
+            "before": 0,
+            "after": 0,
+            "verdict": "스킵 (원문 대구 < 5)"
+          },
+          "golden": [],
+          "sentence_touch": {
+            "rate": 0.0,
+            "touched": 0,
+            "total": 19
+          },
+          "numbers_dropped": [],
+          "modality": {
+            "lost_pairs": [],
+            "uncertain_pairs": [],
+            "counts": {
+              "deontic": {
+                "before": 0,
+                "after": 0
+              },
+              "hedge": {
+                "before": 0,
+                "after": 0
+              }
+            },
+            "verdict": "OK"
+          },
+          "gate": {
+            "verdict": "OK — 수렴",
+            "exit_code": 0
+          }
+        }
       }
     },
     {
@@ -141,8 +755,80 @@
       "source_note": "Steel 초록은 neuroticism/rebelliousness/sensation seeking만 weak. conscientiousness와 self-control/distractibility/organization/achievement motivation은 strong consistent predictors. 쉽게의 성격 전체와 약한 관계라는 문구 오류. 자기를 몰아붙여서는 해결되지 않는다는 개입단정도 상관연구가 직접 입증하지 않음.",
       "entry_snapshot": "_workspace/2026-10-18-009-a03e/entry_snapshot.md",
       "entry_snapshot_sha256": "d11115e800cfacd1199bdeb943a3587a97c7aaed2902001f0ca396c94ea5c5c9",
-      "candidate_review_status": "pending_candidate_review",
-      "proposal": null
+      "candidate_review_status": "reviewed_with_unresolved_source_claims",
+      "proposal": null,
+      "candidate_entry_sha256": "d11115e800cfacd1199bdeb943a3587a97c7aaed2902001f0ca396c94ea5c5c9",
+      "current_candidate_status": "revision_required",
+      "candidate_field_decisions": {
+        "title": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "비용": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "쉽게": {
+          "decision": "revise",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "이득": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "출처": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "비고": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        }
+      },
+      "actual_upstream_gate_evidence": {
+        "path": "_workspace/2026-10-18-009-a03e/publication-gates.json",
+        "sha256": "06fe8d1aea9bdf9cfc84beca0d0e5b42290c9a86cca556559df6ebc8a4fe6291",
+        "contents": {
+          "genre": "essay",
+          "change_rate": {
+            "rate": 0.0,
+            "scope": "전문",
+            "verdict": "OK"
+          },
+          "s1_targets": [],
+          "antithesis": {
+            "before": 0,
+            "after": 0,
+            "verdict": "스킵 (원문 대구 < 5)"
+          },
+          "golden": [],
+          "sentence_touch": {
+            "rate": 0.0,
+            "touched": 0,
+            "total": 20
+          },
+          "numbers_dropped": [],
+          "modality": {
+            "lost_pairs": [],
+            "uncertain_pairs": [],
+            "counts": {
+              "deontic": {
+                "before": 0,
+                "after": 0
+              },
+              "hedge": {
+                "before": 1,
+                "after": 1
+              }
+            },
+            "verdict": "OK"
+          },
+          "gate": {
+            "verdict": "OK — 수렴",
+            "exit_code": 0
+          }
+        }
+      }
     },
     {
       "entry": 10,
@@ -150,17 +836,97 @@
       "source_note": "Cochrane XML 초록 확인:24건, 음식만,14실험실,12연구1098명 SMD−.60 CI−.84~−.36,3연구154명 선택 SMD−1.13 CI−1.90~−.37 모두 일치. 낮은 확실성 유지. 식품 선택량 감소를 사람 비율 감소로 바꾸지 않기. 휴대폰/게임으로 일반화 제한 유지.",
       "entry_snapshot": "_workspace/2026-10-18-010-c59f/entry_snapshot.md",
       "entry_snapshot_sha256": "180ffaed99d30b2ac90c3708b67993c1d632d18b3961f829bf82ceb4e169ec7f",
-      "candidate_review_status": "pending_candidate_review",
+      "candidate_review_status": "reviewed_with_unresolved_source_claims",
       "proposal": {
         "path": "_workspace/2026-10-18-010-c59f/editorial-proposal.json",
         "sha256": "dad090f50ae328a8b175bf489a572db9338431e3603bc6c2432ba0adf647e3a2",
+        "candidate_sha256": "1c5e14de8c6be8fc90ad3b3120cd4eb3daf7f3f5875b15c65d9cd5905c9527a1",
         "field_decisions": [
           {
             "field": "easy",
-            "decision": "pending_candidate_review",
-            "preliminary_concern": null
+            "target_field": "쉽게",
+            "decision": "approve",
+            "reason": "직접 읽은 Cochrane 초록의 거리-섭취량·낮은 확실성·비식품 외삽한계를 정확히 요약.",
+            "before": "물건이 멀수록 덜 집어 듭니다. 같은 간식도 멀리 두면 먹는 양이 뚜렷하게 줄었습니다. 효과는 중간 크기입니다. 선택지를 줄이면 그 음식을 집는 사람도 줄었습니다. 미리 몇 분만 들여 치워 두면 그때마다 참지 않아도 됩니다.",
+            "after": "음식을 멀리 두면 먹는 양이 중간 크기로 줄었습니다. 근거의 확실성은 낮습니다. 휴대폰과 게임에도 같은 효과가 있을지는 모릅니다.",
+            "before_matches_current_candidate": true,
+            "before_matches_target_field": true,
+            "scope": "지정 제안변경만 승인. 해당 항목의 전체 사실/출판상태/정식KR-FIT 승인 아님."
           }
         ]
+      },
+      "candidate_entry_sha256": "180ffaed99d30b2ac90c3708b67993c1d632d18b3961f829bf82ceb4e169ec7f",
+      "current_candidate_status": "partially_verified",
+      "candidate_field_decisions": {
+        "title": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "비용": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "쉽게": {
+          "decision": "revise_using_approved_proposal",
+          "proposal_field": "easy",
+          "reason": "승인된 제안은 아직 후보에 반영되지 않음."
+        },
+        "이득": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "출처": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "비고": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        }
+      },
+      "actual_upstream_gate_evidence": {
+        "path": "_workspace/2026-10-18-010-c59f/publication-gates.json",
+        "sha256": "6246440de1922781af697403b14c9b2e91e0125949a37b8401c840767ab14a76",
+        "contents": {
+          "genre": "essay",
+          "change_rate": {
+            "rate": 0.0,
+            "scope": "전문",
+            "verdict": "OK"
+          },
+          "s1_targets": [],
+          "antithesis": {
+            "before": 0,
+            "after": 0,
+            "verdict": "스킵 (원문 대구 < 5)"
+          },
+          "golden": [],
+          "sentence_touch": {
+            "rate": 0.0,
+            "touched": 0,
+            "total": 31
+          },
+          "numbers_dropped": [],
+          "modality": {
+            "lost_pairs": [],
+            "uncertain_pairs": [],
+            "counts": {
+              "deontic": {
+                "before": 0,
+                "after": 0
+              },
+              "hedge": {
+                "before": 0,
+                "after": 0
+              }
+            },
+            "verdict": "OK"
+          },
+          "gate": {
+            "verdict": "OK — 수렴",
+            "exit_code": 0
+          }
+        }
       }
     },
     {
@@ -169,17 +935,97 @@
       "source_note": "Halpern 초록의2538,90.0/13.7%,150/650/약800달러,6개월9.4~16.0/6.0,15.7/10.2,13.2pp CI3.1~22.8 확인. 마지막 비교는 IV 분석상 어느 프로그램이든 수락했을 것으로 추정되는13.7% 잠재집단 결과. 실제 두 방식 모두 동의한 사람을 관측 비교한 것으로 쓰면 오류. 적은 금액도 무보증금보다 낫다는 일반화 직접 미입증.",
       "entry_snapshot": "_workspace/2026-10-18-011-59a6/entry_snapshot.md",
       "entry_snapshot_sha256": "22efb51c296b51a9d1ea7a73c94e44721ecaeed0d471cc22a9331dba1c7d3db5",
-      "candidate_review_status": "pending_candidate_review",
+      "candidate_review_status": "reviewed_with_unresolved_source_claims",
       "proposal": {
         "path": "_workspace/2026-10-18-011-59a6/editorial-proposal.json",
         "sha256": "4e3022dddf5e28decf9d3d82f3f766aca20bd7f8d81e87aac08cbada7a66fffe",
+        "candidate_sha256": "1c5e14de8c6be8fc90ad3b3120cd4eb3daf7f3f5875b15c65d9cd5905c9527a1",
         "field_decisions": [
           {
             "field": "easy",
-            "decision": "pending_candidate_review",
-            "preliminary_concern": null
+            "target_field": "쉽게",
+            "decision": "approve",
+            "reason": "직접 읽은 Halpern 초록의 전체배정집단6개월15.7/10.2 비교를 사용. 금연범위·손실·참가의향·다른활동불확실성 보존. IV이득 잔존오류는 별도.",
+            "before": "스스로를 몰아붙이는 방법은 두 가지입니다. 해내면 상금을 받는 방식이 있습니다. 보증금을 걸고 해내면 돌려받는 방식도 있습니다. 두 방식 모두에 동의한 사람은 보증금형에서 더 많이 해냈습니다. 차이는 13퍼센트포인트였습니다. 보증금형에 동의한 사람은 13.7%뿐이었습니다. 반면 상금형에는 90%가 동의했습니다. 보증금은 돈을 걸 의향이 있는 사람에게만 효과가 있습니다.",
+            "after": "금연에서는 상금형의 6개월 금연 유지율이 15.7%였습니다. 보증금형은 10.2%였습니다. 실패하면 보증금을 잃으니 걸 의향부터 확인하세요. 논문 쓰기나 운동에도 같을지는 모릅니다.",
+            "before_matches_current_candidate": true,
+            "before_matches_target_field": true,
+            "scope": "지정 제안변경만 승인. 해당 항목의 전체 사실/출판상태/정식KR-FIT 승인 아님."
           }
         ]
+      },
+      "candidate_entry_sha256": "22efb51c296b51a9d1ea7a73c94e44721ecaeed0d471cc22a9331dba1c7d3db5",
+      "current_candidate_status": "revision_required",
+      "candidate_field_decisions": {
+        "title": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "비용": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "쉽게": {
+          "decision": "revise_using_approved_proposal",
+          "proposal_field": "easy",
+          "reason": "승인된 제안은 아직 후보에 반영되지 않음."
+        },
+        "이득": {
+          "decision": "revise",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "출처": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "비고": {
+          "decision": "revise",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        }
+      },
+      "actual_upstream_gate_evidence": {
+        "path": "_workspace/2026-10-18-011-59a6/publication-gates.json",
+        "sha256": "49adce202f35b0c457d90379a846005f0174f986d7b70992dbc1993b234bc976",
+        "contents": {
+          "genre": "essay",
+          "change_rate": {
+            "rate": 0.0,
+            "scope": "전문",
+            "verdict": "OK"
+          },
+          "s1_targets": [],
+          "antithesis": {
+            "before": 0,
+            "after": 0,
+            "verdict": "스킵 (원문 대구 < 5)"
+          },
+          "golden": [],
+          "sentence_touch": {
+            "rate": 0.0,
+            "touched": 0,
+            "total": 34
+          },
+          "numbers_dropped": [],
+          "modality": {
+            "lost_pairs": [],
+            "uncertain_pairs": [],
+            "counts": {
+              "deontic": {
+                "before": 1,
+                "after": 1
+              },
+              "hedge": {
+                "before": 0,
+                "after": 0
+              }
+            },
+            "verdict": "OK"
+          },
+          "gate": {
+            "verdict": "OK — 수렴",
+            "exit_code": 0
+          }
+        }
       }
     },
     {
@@ -188,8 +1034,109 @@
       "source_note": "Crossref에 수록된 원논문 초록 확인:96지원자,82자료,62모형적합(그중39 good fit),84일 관찰.18~254일은 모형에서 자동성 최대치95%까지 도달시간을 추정한 값.254일 실측으로 읽히지 않게 쉽게·이득 수정. 빠르면18일 등의 실측표현 피함.",
       "entry_snapshot": "_workspace/2026-10-18-012-75ad/entry_snapshot.md",
       "entry_snapshot_sha256": "312f76c59a51c066af80f153a9668e28442eb932e2d37a70a11a8a125abf4c10",
-      "candidate_review_status": "pending_candidate_review",
-      "proposal": null
+      "candidate_review_status": "reviewed_with_unresolved_source_claims",
+      "proposal": {
+        "path": "_workspace/2026-10-18-012-75ad/editorial-proposal.json",
+        "sha256": "c9d893ae630cf3b40b48daeabcd2bf124968d87e7aebbcda4fa14065cea40017",
+        "candidate_sha256": "1c5e14de8c6be8fc90ad3b3120cd4eb3daf7f3f5875b15c65d9cd5905c9527a1",
+        "field_decisions": [
+          {
+            "field": "easy",
+            "target_field": "쉽게",
+            "decision": "revise",
+            "reason": "모형 추정치와 단순 일일 동작 범위 보존은 적절함. 마지막 다시 시작할 필요는 없습니다는 습관재개도 불필요하다는 오독 가능. 처음부터 다시 시작할 필요는 없습니다로 고칠 것.",
+            "before": "「21일이면 습관이 된다」는 근거가 없습니다. 12주 동안 관찰한 연구에서 습관이 형성되는 시간은 달랐습니다. 빠르면 18일, 늦으면 254일이 걸렸습니다. 2~3주가 지나도 동작이 익숙해지지 않을 수 있습니다. 하루 건너뛰어도 처음부터 다시 시작할 필요는 없습니다.",
+            "after": "같은 상황에서 매일 하는 단순한 동작도 습관이 되기까지 18~254일로 추정됐습니다. 「21일」로 정할 근거는 없습니다. 2~3주 지나도 익숙하지 않을 수 있습니다. 하루 건너뛰어도 다시 시작할 필요는 없습니다.",
+            "before_matches_current_candidate": true,
+            "before_matches_target_field": true,
+            "scope": "지정 제안변경만 승인. 해당 항목의 전체 사실/출판상태/정식KR-FIT 승인 아님."
+          },
+          {
+            "field": "semantic_correction",
+            "target_field": "이득",
+            "decision": "approve",
+            "reason": "직접 읽은 Lally 원논문 초록의84일관찰/비선형모형과 맞음.95%기준과18~254일수치 보존.",
+            "before": "자동화 정도가 개인별 최대치의 95%에 이르기까지 18일부터 254일까지 걸렸습니다.",
+            "after": "자동화 정도가 개인별 최대치의 95%에 이르기까지 걸리는 시간은 모형에서 18일부터 254일까지로 추정됐습니다.",
+            "before_matches_current_candidate": true,
+            "before_matches_target_field": true,
+            "scope": "지정 제안변경만 승인. 해당 항목의 전체 사실/출판상태/정식KR-FIT 승인 아님."
+          }
+        ]
+      },
+      "candidate_entry_sha256": "312f76c59a51c066af80f153a9668e28442eb932e2d37a70a11a8a125abf4c10",
+      "current_candidate_status": "revision_required",
+      "candidate_field_decisions": {
+        "title": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "비용": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "쉽게": {
+          "decision": "revise",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "이득": {
+          "decision": "revise_using_approved_proposal",
+          "proposal_field": "semantic_correction",
+          "reason": "승인된 제안은 아직 후보에 반영되지 않음."
+        },
+        "출처": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "비고": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        }
+      },
+      "actual_upstream_gate_evidence": {
+        "path": "_workspace/2026-10-18-012-75ad/publication-gates.json",
+        "sha256": "752489149414a5990f80cf7c970c9ef388e6e4e966614620c41c92e8bd70131c",
+        "contents": {
+          "genre": "essay",
+          "change_rate": {
+            "rate": 0.0,
+            "scope": "전문",
+            "verdict": "OK"
+          },
+          "s1_targets": [],
+          "antithesis": {
+            "before": 0,
+            "after": 0,
+            "verdict": "스킵 (원문 대구 < 5)"
+          },
+          "golden": [],
+          "sentence_touch": {
+            "rate": 0.0,
+            "touched": 0,
+            "total": 21
+          },
+          "numbers_dropped": [],
+          "modality": {
+            "lost_pairs": [],
+            "uncertain_pairs": [],
+            "counts": {
+              "deontic": {
+                "before": 1,
+                "after": 1
+              },
+              "hedge": {
+                "before": 1,
+                "after": 1
+              }
+            },
+            "verdict": "OK"
+          },
+          "gate": {
+            "verdict": "OK — 수렴",
+            "exit_code": 0
+          }
+        }
+      }
     },
     {
       "entry": 13,
@@ -197,8 +1144,127 @@
       "source_note": "Rozental 초록 N150, 효과크기·CI·호전율·집단차비유의 모두 확인. 시험은 특정 internet-based CBT 자조 프로그램. 임의 인지행동 자조서/무료자료에 동일 효과를 부여할 수 없음. 한국어판 미확인 조건 쉽게에도 반영. 차이 비유의를 동등효과 입증으로 쓰지 않기.109 공식센터 직접 확인.",
       "entry_snapshot": "_workspace/2026-10-18-013-463e/entry_snapshot.md",
       "entry_snapshot_sha256": "71772b31f0e4fdcc0fc433816afafca336429837feee053987cfe555e0fdd775",
-      "candidate_review_status": "pending_candidate_review",
-      "proposal": null
+      "candidate_review_status": "reviewed_with_unresolved_source_claims",
+      "proposal": {
+        "path": "_workspace/2026-10-18-013-463e/editorial-proposal.json",
+        "sha256": "d1d573a13e599fec1c00e154533b7c304191666e858c24b7be6ed598d835ecca",
+        "candidate_sha256": "1c5e14de8c6be8fc90ad3b3120cd4eb3daf7f3f5875b15c65d9cd5905c9527a1",
+        "field_decisions": [
+          {
+            "field": "easy",
+            "target_field": "쉽게",
+            "decision": "approve",
+            "reason": "특정 인터넷CBT로 범위를 좁히고 스웨덴성인·한국어판미확인 조건을 드러냄. 대기자 비교를 유지하며 안내유무 동등효과로 단정하지 않음.10주기간은 기존 본문 유지이며 본초록 단독 신규검증은 아님.",
+            "before": "미루기가 괴로울 정도로 심하면 치료 대상이 됩니다. 인지행동 자조 교재를 10주 쓰면 아무것도 하지 않을 때보다 확실히 낫습니다. 안내자가 있든 없든 결과는 비슷했습니다. 혼자 따라 해도 됩니다.",
+            "after": "미루기로 괴롭다면 검증된 인터넷 인지행동 자조 프로그램을 고려하세요. 10주 뒤 대기자보다 중간 정도로 나아졌습니다. 스웨덴 성인 대상 결과이며 한국어판은 확인하지 못했습니다.",
+            "before_matches_current_candidate": true,
+            "before_matches_target_field": true,
+            "scope": "지정 제안변경만 승인. 해당 항목의 전체 사실/출판상태/정식KR-FIT 승인 아님."
+          },
+          {
+            "field": "title_check",
+            "decision": "not_a_text_operation",
+            "reason": "진단 메타데이터이며 before/after 텍스트 변경 아님."
+          },
+          {
+            "field": "todo",
+            "target_field": "비고",
+            "decision": "approve",
+            "reason": "한국어판 부존재를 단정하지 않고 미확인 상태만 명시.",
+            "before": "같은 프로그램의 한국어판은 찾지 못했습니다(TODO 확인 필요).",
+            "after": "같은 프로그램의 한국어판 제공 여부는 확인하지 못했습니다.",
+            "before_matches_current_candidate": true,
+            "before_matches_target_field": true,
+            "scope": "지정 제안변경만 승인. 해당 항목의 전체 사실/출판상태/정식KR-FIT 승인 아님."
+          },
+          {
+            "field": "scope_review",
+            "target_field": "비용",
+            "decision": "approve",
+            "reason": "특정인터넷CBT 시험을 임의자조서/무료자료 비용효과 보장으로 확대하지 않도록 수정. 비용과 한국어판 확인이 필요한 상태를 보존.",
+            "before": "인지행동 기법을 다룬 자조서 한 권 값이면 됩니다. 무료 자료도 있습니다. 기간은 10주쯤입니다. 매주 한 대목을 읽고 연습을 하나 하세요.",
+            "after": "연구에서는 인터넷 인지행동 자조 프로그램을 10주 사용했습니다. 일반 자조서나 무료 자료의 효과와 비용이 같다고 볼 수는 없습니다. 같은 프로그램의 한국어판 제공 여부와 이용 비용은 확인이 필요합니다.",
+            "before_matches_current_candidate": true,
+            "before_matches_target_field": true,
+            "scope": "지정 제안변경만 승인. 해당 항목의 전체 사실/출판상태/정식KR-FIT 승인 아님."
+          }
+        ]
+      },
+      "candidate_entry_sha256": "71772b31f0e4fdcc0fc433816afafca336429837feee053987cfe555e0fdd775",
+      "current_candidate_status": "revision_required",
+      "candidate_field_decisions": {
+        "title": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "비용": {
+          "decision": "revise_using_approved_proposal",
+          "proposal_field": "scope_review",
+          "reason": "승인된 제안은 아직 후보에 반영되지 않음."
+        },
+        "쉽게": {
+          "decision": "revise_using_approved_proposal",
+          "proposal_field": "easy",
+          "reason": "승인된 제안은 아직 후보에 반영되지 않음."
+        },
+        "이득": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "출처": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "비고": {
+          "decision": "revise_using_approved_proposal",
+          "proposal_field": "todo",
+          "reason": "승인된 제안은 아직 후보에 반영되지 않음."
+        }
+      },
+      "actual_upstream_gate_evidence": {
+        "path": "_workspace/2026-10-18-013-463e/publication-gates.json",
+        "sha256": "6be8dec1a5b22fd0309af2aeb66796753312629b4c04123364d85e13c1f5a921",
+        "contents": {
+          "genre": "essay",
+          "change_rate": {
+            "rate": 0.0,
+            "scope": "전문",
+            "verdict": "OK"
+          },
+          "s1_targets": [],
+          "antithesis": {
+            "before": 0,
+            "after": 0,
+            "verdict": "스킵 (원문 대구 < 5)"
+          },
+          "golden": [],
+          "sentence_touch": {
+            "rate": 0.0,
+            "touched": 0,
+            "total": 30
+          },
+          "numbers_dropped": [],
+          "modality": {
+            "lost_pairs": [],
+            "uncertain_pairs": [],
+            "counts": {
+              "deontic": {
+                "before": 0,
+                "after": 0
+              },
+              "hedge": {
+                "before": 0,
+                "after": 0
+              }
+            },
+            "verdict": "OK"
+          },
+          "gate": {
+            "verdict": "OK — 수렴",
+            "exit_code": 0
+          }
+        }
+      }
     },
     {
       "entry": 14,
@@ -206,8 +1272,80 @@
       "source_note": "Whillans 초록4개국6271·관찰적 삶의만족 연관 및 별도 현장실험 행복 차이 구별 확인. 통계청PDF물리13쪽1:52/2019 1:56 및 가정관리+돌봄 확인. 시급보다 외주단가가 낮아야 한다는 것은 지은이 판단기준이며 휴식가치의 필요조건으로 단정하지 않기.",
       "entry_snapshot": "_workspace/2026-10-18-014-9d6a/entry_snapshot.md",
       "entry_snapshot_sha256": "71dbe0e0027b3576056d4d6c95af2f6b8353004c6befe28c7239a38730235ace",
-      "candidate_review_status": "pending_candidate_review",
-      "proposal": null
+      "candidate_review_status": "reviewed_with_unresolved_source_claims",
+      "proposal": null,
+      "candidate_entry_sha256": "71dbe0e0027b3576056d4d6c95af2f6b8353004c6befe28c7239a38730235ace",
+      "current_candidate_status": "partially_verified",
+      "candidate_field_decisions": {
+        "title": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "비용": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "쉽게": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "이득": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "출처": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "비고": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        }
+      },
+      "actual_upstream_gate_evidence": {
+        "path": "_workspace/2026-10-18-014-9d6a/publication-gates.json",
+        "sha256": "17d4a557b3832a0bfe6b4a001ed26302e138645f2c43fdf08c839f06be3c5591",
+        "contents": {
+          "genre": "essay",
+          "change_rate": {
+            "rate": 0.0,
+            "scope": "전문",
+            "verdict": "OK"
+          },
+          "s1_targets": [],
+          "antithesis": {
+            "before": 0,
+            "after": 0,
+            "verdict": "스킵 (원문 대구 < 5)"
+          },
+          "golden": [],
+          "sentence_touch": {
+            "rate": 0.0,
+            "touched": 0,
+            "total": 22
+          },
+          "numbers_dropped": [],
+          "modality": {
+            "lost_pairs": [],
+            "uncertain_pairs": [],
+            "counts": {
+              "deontic": {
+                "before": 1,
+                "after": 1
+              },
+              "hedge": {
+                "before": 0,
+                "after": 0
+              }
+            },
+            "verdict": "OK"
+          },
+          "gate": {
+            "verdict": "OK — 수렴",
+            "exit_code": 0
+          }
+        }
+      }
     },
     {
       "entry": 15,
@@ -215,8 +1353,105 @@
       "source_note": "통계청PDF물리13쪽2:43/2019 2:26;22쪽 일요일93.4%·참여자3:41·동영상45.4/21.2 확인.10세이상, 여가미디어, 일요일/참여자 분모 유지. 매일1시간×365일은 조건부 산술이며 개입 관측효과로 쓰지 않기.",
       "entry_snapshot": "_workspace/2026-10-18-015-4e59/entry_snapshot.md",
       "entry_snapshot_sha256": "0b83659d87ffda9f0d31cc743c0582a9d58fc542c15ee7d16eb937d46d265a6e",
-      "candidate_review_status": "pending_candidate_review",
-      "proposal": null
+      "candidate_review_status": "reviewed",
+      "proposal": {
+        "path": "_workspace/2026-10-18-015-4e59/editorial-proposal.json",
+        "sha256": "908437ef8044d888e6f49ac6846c10b78f69fee4c9c911fd2f2e4b33dd7ce2a1",
+        "candidate_sha256": "1c5e14de8c6be8fc90ad3b3120cd4eb3daf7f3f5875b15c65d9cd5905c9527a1",
+        "field_decisions": [
+          {
+            "field": "easy",
+            "target_field": "쉽게",
+            "decision": "approve",
+            "reason": "조건부1시간×365일 산술과 실제개입절약량 미측정을 명시해 총량통계의 오독을 줄임.",
+            "before": "한국인(10세 이상)의 하루 평균 미디어 이용은 2시간 43분입니다. 책·방송·영상·인터넷을 이용하는 여가 시간을 합친 수치입니다. 일요일에 미디어를 10분 이상 이용한 사람은 93.4%를 차지합니다. 이들의 하루 평균 이용시간은 3시간 41분입니다. 하루 1시간을 줄이면 1년에 365시간을 아낍니다.",
+            "after": "짧은 영상과 목적 없는 스크롤의 이용시간에 상한을 두세요. 하루 1시간을 줄이면 1년에 365시간이라는 계산입니다. 실제로 되찾는 시간을 확인한 연구는 없습니다.",
+            "before_matches_current_candidate": true,
+            "before_matches_target_field": true,
+            "scope": "지정 제안변경만 승인. 해당 항목의 전체 사실/출판상태/정식KR-FIT 승인 아님."
+          }
+        ]
+      },
+      "candidate_entry_sha256": "2dc01e814387c384594a743656a57553d7090b819d5cfc60817055ac5d228b81",
+      "current_candidate_status": "verified_with_scope_limit",
+      "candidate_field_decisions": {
+        "title": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "비용": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "쉽게": {
+          "decision": "revise_using_approved_proposal",
+          "proposal_field": "easy",
+          "reason": "승인된 제안은 아직 후보에 반영되지 않음."
+        },
+        "이득": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "출처": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "비고": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        }
+      },
+      "actual_upstream_gate_evidence": {
+        "path": "_workspace/2026-10-18-015-4e59/publication-gates.json",
+        "sha256": "4efd22880be2a1d2f886b05ef243376c1e87f8ceaa7c16aea1caf125b3474f66",
+        "contents": {
+          "genre": "essay",
+          "change_rate": {
+            "rate": 0.0006,
+            "scope": "전문",
+            "verdict": "OK"
+          },
+          "s1_targets": [
+            {
+              "metric": "ending_comma_rate",
+              "z_before": 3.72,
+              "z_after": -0.52,
+              "verdict": "달성"
+            }
+          ],
+          "antithesis": {
+            "before": 0,
+            "after": 0,
+            "verdict": "스킵 (원문 대구 < 5)"
+          },
+          "golden": [],
+          "sentence_touch": {
+            "rate": 0.0385,
+            "touched": 1,
+            "total": 26
+          },
+          "numbers_dropped": [],
+          "modality": {
+            "lost_pairs": [],
+            "uncertain_pairs": [],
+            "counts": {
+              "deontic": {
+                "before": 1,
+                "after": 1
+              },
+              "hedge": {
+                "before": 0,
+                "after": 0
+              }
+            },
+            "verdict": "OK"
+          },
+          "gate": {
+            "verdict": "OK — 수렴",
+            "exit_code": 0
+          }
+        }
+      }
     },
     {
       "entry": 16,
@@ -224,8 +1459,98 @@
       "source_note": "BLS2025 공식발표2.6/5.2시간 확인. 통계청PDF22쪽 실시간방송 평일1:30·일요일2:08·행위자71.1%·행위자평균3:01 확인. 전체평균과 시청자평균 구분. 끊기·모아보기 개입효과는 입증되지 않은 C등급 판단 유지.",
       "entry_snapshot": "_workspace/2026-10-18-016-7d2c/entry_snapshot.md",
       "entry_snapshot_sha256": "2ac0e91e98d6f18f3cd254ec4524b424a142d26b4af17d535232c8113f55211b",
-      "candidate_review_status": "pending_candidate_review",
-      "proposal": null
+      "candidate_review_status": "reviewed",
+      "proposal": {
+        "path": "_workspace/2026-10-18-016-7d2c/editorial-proposal.json",
+        "sha256": "2ad95088f63f288ab4ac898d9cf42bd6298bbd980d5a919f54afd6efd4018443",
+        "candidate_sha256": "1c5e14de8c6be8fc90ad3b3120cd4eb3daf7f3f5875b15c65d9cd5905c9527a1",
+        "field_decisions": [
+          {
+            "field": "easy",
+            "target_field": "쉽게",
+            "decision": "approve",
+            "reason": "직접 읽은 BLS2025 2.6시간/여가절반을 보존하고 모아보기는 저자경험이라고 한정.",
+            "before": "미국 15세 이상은 하루 2.6시간 TV를 봅니다. 여가 시간의 절반을 TV에 씁니다. 한국인(10세 이상)은 평일에 실시간 방송을 하루 1시간 30분 봅니다. 볼 내용을 정해 모아 보면 시청 시간을 줄일 수 있습니다.",
+            "after": "미국 15세 이상은 여가의 절반인 하루 2.6시간을 TV에 씁니다. 볼 내용을 정해 모아 보면 시청 시간을 줄일 수 있습니다. 이는 지은이의 경험이며 근거는 총량 통계뿐입니다.",
+            "before_matches_current_candidate": true,
+            "before_matches_target_field": true,
+            "scope": "지정 제안변경만 승인. 해당 항목의 전체 사실/출판상태/정식KR-FIT 승인 아님."
+          }
+        ]
+      },
+      "candidate_entry_sha256": "2ac0e91e98d6f18f3cd254ec4524b424a142d26b4af17d535232c8113f55211b",
+      "current_candidate_status": "verified_with_scope_limit",
+      "candidate_field_decisions": {
+        "title": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "비용": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "쉽게": {
+          "decision": "revise_using_approved_proposal",
+          "proposal_field": "easy",
+          "reason": "승인된 제안은 아직 후보에 반영되지 않음."
+        },
+        "이득": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "출처": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "비고": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        }
+      },
+      "actual_upstream_gate_evidence": {
+        "path": "_workspace/2026-10-18-016-7d2c/publication-gates.json",
+        "sha256": "b91d18fdd2ea501bd3a36186bb25a7e5c322a3be46e4158f760cb41d35362fff",
+        "contents": {
+          "genre": "essay",
+          "change_rate": {
+            "rate": 0.0,
+            "scope": "전문",
+            "verdict": "OK"
+          },
+          "s1_targets": [],
+          "antithesis": {
+            "before": 0,
+            "after": 0,
+            "verdict": "스킵 (원문 대구 < 5)"
+          },
+          "golden": [],
+          "sentence_touch": {
+            "rate": 0.0,
+            "touched": 0,
+            "total": 18
+          },
+          "numbers_dropped": [],
+          "modality": {
+            "lost_pairs": [],
+            "uncertain_pairs": [],
+            "counts": {
+              "deontic": {
+                "before": 0,
+                "after": 0
+              },
+              "hedge": {
+                "before": 2,
+                "after": 2
+              }
+            },
+            "verdict": "OK"
+          },
+          "gate": {
+            "verdict": "OK — 수렴",
+            "exit_code": 0
+          }
+        }
+      }
     },
     {
       "entry": 17,
@@ -233,8 +1558,80 @@
       "source_note": "Lane DOI 서지만 확보.251명·효율실험6명·단축키 최속 미확인. 단축키 결과를 자동화 효과 전체로 일반화하지 말고 초기 학습시간과 작업별 차이 유지.",
       "entry_snapshot": "_workspace/2026-10-18-017-3699/entry_snapshot.md",
       "entry_snapshot_sha256": "288e61f7bdb16b86153c7511141334e5eecb4d878e767a3edbb4559a1e2a5bc2",
-      "candidate_review_status": "pending_candidate_review",
-      "proposal": null
+      "candidate_review_status": "reviewed_with_unresolved_source_claims",
+      "proposal": null,
+      "candidate_entry_sha256": "288e61f7bdb16b86153c7511141334e5eecb4d878e767a3edbb4559a1e2a5bc2",
+      "current_candidate_status": "source_verification_incomplete",
+      "candidate_field_decisions": {
+        "title": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "비용": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "쉽게": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "이득": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "출처": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "비고": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        }
+      },
+      "actual_upstream_gate_evidence": {
+        "path": "_workspace/2026-10-18-017-3699/publication-gates.json",
+        "sha256": "ffef02a13a25f615ffbcf6e53f490138c994682654ee33df7034c133b2e1ece3",
+        "contents": {
+          "genre": "essay",
+          "change_rate": {
+            "rate": 0.0,
+            "scope": "전문",
+            "verdict": "OK"
+          },
+          "s1_targets": [],
+          "antithesis": {
+            "before": 0,
+            "after": 0,
+            "verdict": "스킵 (원문 대구 < 5)"
+          },
+          "golden": [],
+          "sentence_touch": {
+            "rate": 0.0,
+            "touched": 0,
+            "total": 18
+          },
+          "numbers_dropped": [],
+          "modality": {
+            "lost_pairs": [],
+            "uncertain_pairs": [],
+            "counts": {
+              "deontic": {
+                "before": 1,
+                "after": 1
+              },
+              "hedge": {
+                "before": 0,
+                "after": 0
+              }
+            },
+            "verdict": "OK"
+          },
+          "gate": {
+            "verdict": "OK — 수렴",
+            "exit_code": 0
+          }
+        }
+      }
     },
     {
       "entry": 18,
@@ -242,8 +1639,80 @@
       "source_note": "통계청PDF13쪽 전체10세이상이동1:32,33쪽 취업자15세이상1:46 확인(출퇴근만 아님). Stutzer초록 longer commute/lower subjective wellbeing 연관 확인. Chatterjee 서지만 열람해 전체삶만족/보상 결론 직접확인 미완료. 편도30분→주5시간은 주5일왕복 조건 명시 필요. 관찰연관을 이사하면 행복향상 인과효과로 쓰지 않기.",
       "entry_snapshot": "_workspace/2026-10-18-018-63e0/entry_snapshot.md",
       "entry_snapshot_sha256": "f5fd0541d3c4e54f85549221556396cdf4b966e69bcf916e78a2cc1c70fb1090",
-      "candidate_review_status": "pending_candidate_review",
-      "proposal": null
+      "candidate_review_status": "reviewed_with_unresolved_source_claims",
+      "proposal": null,
+      "candidate_entry_sha256": "6d830b6e684c5189d5a3829c0539ea25dd64b85a9315f6388e1a305d88a12483",
+      "current_candidate_status": "revision_required",
+      "candidate_field_decisions": {
+        "title": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "비용": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "쉽게": {
+          "decision": "revise",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "이득": {
+          "decision": "revise",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "출처": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        },
+        "비고": {
+          "decision": "retain_pending_source_limits",
+          "scope": "현재 후보 판정. retain은 원자료 숫자 신규검증 완료를 뜻하지 않음."
+        }
+      },
+      "actual_upstream_gate_evidence": {
+        "path": "_workspace/2026-10-18-018-63e0/publication-gates.json",
+        "sha256": "16d9f76960c9def95ccd0d2d2314031b055d199665bb687038bc01e1064878e4",
+        "contents": {
+          "genre": "essay",
+          "change_rate": {
+            "rate": 0.0,
+            "scope": "전문",
+            "verdict": "OK"
+          },
+          "s1_targets": [],
+          "antithesis": {
+            "before": 0,
+            "after": 0,
+            "verdict": "스킵 (원문 대구 < 5)"
+          },
+          "golden": [],
+          "sentence_touch": {
+            "rate": 0.0,
+            "touched": 0,
+            "total": 23
+          },
+          "numbers_dropped": [],
+          "modality": {
+            "lost_pairs": [],
+            "uncertain_pairs": [],
+            "counts": {
+              "deontic": {
+                "before": 1,
+                "after": 1
+              },
+              "hedge": {
+                "before": 1,
+                "after": 1
+              }
+            },
+            "verdict": "OK"
+          },
+          "gate": {
+            "verdict": "OK — 수렴",
+            "exit_code": 0
+          }
+        }
+      }
     }
   ],
   "opened_existing_caches": [
@@ -673,7 +2142,21 @@
   "limitations": [
     "기존 캐시는 실제 파일을 열었으며 새 HTTP로 기록하지 않음. Crossref 서지확인은 본문 숫자 검증과 다름.",
     "모든 incoming anchor:2 그만두는조건,18 집고를때출퇴근,10 만지고싶은것멀리,1 몇시어디무엇,15 짧은영상,16 실시간뉴스를 보존해야 함.",
-    "후보/최신 제안 해시 확정 후 필드별 approve/revise/reject 별도 필요.",
-    "첫 HTTP 열람 뒤 루트가 원시 캐시 작성을 허용해 동일 URL을 재수집·보존함. live_http_checks는 이 보존 응답의 실제 시각·해시·경로이며 첫 응답 해시와 같다고 가정하지 않음."
-  ]
+    "첫 HTTP 열람 뒤 루트가 원시 캐시 작성을 허용해 동일 URL을 재수집·보존함. live_http_checks는 이 보존 응답의 실제 시각·해시·경로이며 첫 응답 해시와 같다고 가정하지 않음.",
+    "본문 전체 승인 없음. approve는 특정 before/after 제안에만 적용. 통합본문은 별도 현재해시 KR-FIT가 필요."
+  ],
+  "assembly_sha256": "1df029418fdb0fc2e15a55e6ef37c30cf5d339f074f61292cc96fc4fd4cb98d6",
+  "proposal_decision_counts": {
+    "approve": 11,
+    "revise": 3,
+    "reject": 0
+  },
+  "candidate_entries_reviewed": 18,
+  "proposal_files_reviewed": 11,
+  "upstream_gate_evidence": {
+    "assembly": "assembly.json",
+    "entries": 18,
+    "upstream_gates": "accepted",
+    "claim_limit": "assembly와각현재publication-gates.json 확인; 자체 재실행은 하지 않음."
+  }
 }

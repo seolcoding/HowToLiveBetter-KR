@@ -1,0 +1,96 @@
+{
+  "entry": 32,
+  "status": "proposed_unadopted",
+  "publication_ready": false,
+  "base": "strict-entry.md",
+  "base_sha256": "55871f01769c9ea25df2af765d14fb7022c0062d2fd0cf131cf7569acd45b9b4",
+  "proposal_sha256": "ce55c42a04738387096335be13ed7ba3578dd3079dbee77a76e753048d7a7a1e",
+  "changes": [
+    {
+      "field": "쉽게",
+      "before": "자살 시도자 절반 가까이는 생각이 든 뒤 10분 이내에 실행했습니다. 대개는 그 몇십 분을 넘겨야 합니다. 넷 중 셋은 그사이 주변 사람과 연락했습니다.",
+      "after": "한 병원의 자살 시도자가 경험을 되짚어 답했습니다. 절반 가까이는 생각 뒤 10분 안에 행동했다고 답했습니다. 넷 중 셋은 그사이 주변 사람과 연락했습니다. 몇십 분이 지나면 안전하다는 뜻은 아닙니다.",
+      "reason": "감사 제32항에 따라 한 병원의 응답이라는 범위를 명시하고 대개 몇십 분을 넘기면 된다는 시간 안전 보장 해석을 제거. 원래의 절반 가까이·넷 중 셋 요약 유지. 쉽게의 표본수 82명은 빼고 한 병원에서 경험을 되짚어 답했다는 범위를 일상어로 유지. 82명은 이득에 그대로 보존.",
+      "evidence": [
+        {
+          "source": "Deisenhammer original abstract; PMID 19026258",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22duration%20of%20the%20suicidal%20process%22&format=json&resultType=core",
+          "doi_url": "https://doi.org/10.4088/JCP.07m03904",
+          "exact_quote": {
+            "method": "Eighty-two patients referred to a psychiatric university hospital after a suicide attempt were approached within 3 days after the act.",
+            "results": "Nearly half of the patients (47.6%; N = 39) reported that the period between the first current thought of suicide and the actual attempt had lasted 10 minutes or less.",
+            "contact": "Although the majority of the patients were alone during the suicidal process, 76.8% (N = 63) reported having had any kind of interpersonal contact."
+          },
+          "method": "제목 검색으로 찾은 원시 EuropePMC JSON의 원논문 abstractText를 직접 열람. 전문 열람 아님. 기존 DOI 검색 미매칭을 제목 검색으로 보완.",
+          "date": "2026-10-18",
+          "fetched_at_utc": "2026-10-18T13:01:10.244579+00:00",
+          "http_status": 200,
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch08-audit/deisenhammer-title.raw",
+          "sha256": "b34fbc7b3a7f1f132589876a50fc6014cd8fcbd102b0d3293b60033110d74aab",
+          "limits": "82명·47.6%(39명)·76.8%(63명) 및 시도 뒤 3일 내 접근은 초록에서 직접 확인. 연락 상대의 세부 구성·정확한 면담 완료 시각은 전문 미확인. 개인의 시간 경과 뒤 안전을 보장하는 자료가 아님."
+        },
+        {
+          "source": "Owens (2002) cached abstract",
+          "url": "https://doi.org/10.1192/bjp.181.3.193",
+          "exact_quote": "Median proportions for repetition 1 year later were: 16% non-fatal and 2% fatal; after more than 9 years, around 7% of patients had died by suicide.",
+          "method": "EuropePMC 캐시 원시 JSON의 abstractText 직접 열람; 신규 HTTP 및 전문 검증 아님.",
+          "date": "2026-10-18",
+          "limits": "자해 뒤 추적한 집단의 비율. 개인의 안전 또는 몇십 분 뒤 안전을 보장하지 않음."
+        }
+      ]
+    },
+    {
+      "field": "이득",
+      "before": "자살 시도자 82명을 입원 3일 안에 면담했습니다. 이번에 처음 자살을 생각하고 실제 행동까지 걸린 시간을 물었습니다. 47.6%(39명)는 10분 이내였다고 답했습니다. 이 과정이 길었던 사람일수록 자살 의도 점수가 뚜렷이 높았습니다. 충동성 척도 점수는 과정의 길이와 관계가 없었습니다. 76.8%(63명)는 그사이 배우자, 가족, 친구와 어떤 식으로든 연락했습니다. 저자 결론은 이렇습니다. 개입할 수 있는 시간은 대개 짧고 전문가가 끼어들 여지는 작습니다. 그래서 신호를 알아보고 개입하는 법을 보통 사람에게 널리 알려야 합니다. 다른 체계적 종설은 추적 연구 90개를 모았습니다. 자해로 진료받은 사람이 1년 안에 다시 자해했지만 죽지 않은 비율은 중앙값 16%였습니다. 1년 안에 자살로 숨진 비율은 2%였습니다. 9년 넘게 추적한 연구에서는 7%쯤이 자살로 숨졌습니다.",
+      "after": "자살 시도 뒤 정신과 대학병원으로 온 82명에게 3일 안에 면담을 요청했습니다. 이번에 처음 자살을 생각하고 실제 행동까지 걸린 시간을 물었습니다. 47.6%(39명)는 10분 이내였다고 답했습니다. 이 과정이 길었던 사람일수록 자살 의도 점수가 뚜렷이 높았습니다. 충동성 척도 점수는 과정의 길이와 관계가 없었습니다. 76.8%(63명)는 그사이 어떤 식으로든 다른 사람과 연락했습니다. 저자 결론은 이렇습니다. 개입할 수 있는 시간은 대개 짧고 전문가가 끼어들 여지는 작습니다. 그래서 신호를 알아보고 개입하는 법을 보통 사람에게 널리 알려야 합니다. 다른 체계적 종설은 추적 연구 90개를 모았습니다. 자해로 진료받은 사람이 1년 안에 다시 자해했지만 죽지 않은 비율은 중앙값 16%였습니다. 1년 안에 자살로 숨진 비율은 2%였습니다. 9년 넘게 추적한 연구에서는 7%쯤이 자살로 숨졌습니다.",
+      "reason": "원초록의 after the act에 따라 입원 뒤 3일이 아니라 시도 뒤 3일 내 접근으로 교정. approached를 면담 요청으로 옮겨 면담 완료 시각을 단정하지 않음. 63명 연락 상대를 초록에서 확인한 대인 연락 범위로 한정.",
+      "evidence": [
+        {
+          "source": "Deisenhammer original abstract; PMID 19026258",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22duration%20of%20the%20suicidal%20process%22&format=json&resultType=core",
+          "doi_url": "https://doi.org/10.4088/JCP.07m03904",
+          "exact_quote": {
+            "method": "Eighty-two patients referred to a psychiatric university hospital after a suicide attempt were approached within 3 days after the act.",
+            "results": "Nearly half of the patients (47.6%; N = 39) reported that the period between the first current thought of suicide and the actual attempt had lasted 10 minutes or less.",
+            "contact": "Although the majority of the patients were alone during the suicidal process, 76.8% (N = 63) reported having had any kind of interpersonal contact."
+          },
+          "method": "제목 검색으로 찾은 원시 EuropePMC JSON의 원논문 abstractText를 직접 열람. 전문 열람 아님. 기존 DOI 검색 미매칭을 제목 검색으로 보완.",
+          "date": "2026-10-18",
+          "fetched_at_utc": "2026-10-18T13:01:10.244579+00:00",
+          "http_status": 200,
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch08-audit/deisenhammer-title.raw",
+          "sha256": "b34fbc7b3a7f1f132589876a50fc6014cd8fcbd102b0d3293b60033110d74aab",
+          "limits": "82명·47.6%(39명)·76.8%(63명) 및 시도 뒤 3일 내 접근은 초록에서 직접 확인. 연락 상대의 세부 구성·정확한 면담 완료 시각은 전문 미확인. 개인의 시간 경과 뒤 안전을 보장하는 자료가 아님."
+        }
+      ]
+    }
+  ],
+  "unchanged_fields": [
+    "title",
+    "tags",
+    "비용",
+    "근거등급",
+    "출처",
+    "비고"
+  ],
+  "preserved_style_fix": "이득의 짧고 전문가가: pure C-11 쉼표 삭제 유지. strict-entry에 이미 반영됨.",
+  "validation": {
+    "easy_chars": 112,
+    "easy_sentences": 4,
+    "new_sentence_lengths": [
+      28,
+      32,
+      25,
+      24
+    ],
+    "all_new_sentences_lte_50": true,
+    "strict_entry_immutable": true,
+    "owens_16_2_7_scopes_unchanged": true,
+    "additional_new_sentence_lengths": [
+      44,
+      38
+    ]
+  },
+  "limits": "원논문 초록 직접 확인으로 기존 초록 미확인 상태를 갱신. 전문은 미열람. Owens 수치와 추적 범위는 그대로 보존. 채택·승인·출판하지 않은 검토용 제안.",
+  "revision": "easy-cohort-revision-3"
+}
