@@ -1,0 +1,39 @@
+[정량 사전 점수 v2.0 — v1.6 8지표(KatFish baseline) + v2.0 카운트형]
+risk_band: low  (score 0)
+route_hint: light  (권고 — 사용자·오케스트레이터가 무시 가능)
+route_reason: 카운트형 티 0건(라우터가 세는 항목 기준) · risk_band low — 단일 콜·최소 파이프라인 권장. 카운터 밖 티는 monolith 가 룰북으로 잡는다
+genre: essay
+char_count: 541
+
+[v1.6 지표]
+- comma_inclusion_rate: 0.00  (z=-1.52 vs essay 인간 baseline)
+- comma_usage_rate: 0.00  (z=-1.58 vs essay 인간 baseline)
+- ending_comma_rate: 0.00  (z=-0.52 vs essay 인간 baseline)
+- comma_segment_length: 6.94  (n/a vs essay 인간 baseline)
+- conclusion_pivot_count: 0
+- safe_balance_count: 0
+- hanja_nominalizer_density: 0.009  (z=-1.71 vs essay 인간 baseline)
+- lexical_diversity: 0.93  (z=+5.60 vs essay 인간 baseline)
+
+[v2.0 카운트형 지표 — 원값 / baseline calibration 전 z-score 해석 보류]
+- double_passive_count (이중 피동, 본진 A-8): 0
+- by_passive_count (~에 의해 피동, 본진 A-9): 0
+- pronoun_density (인칭 대명사 밀도, 본진 A-16): 0.000
+- have_make_literal_count (have/make 직역, 본진 A-7): 0
+- double_particle_count (이중 조사 결합, 본진 A-19): 0
+- relative_clause_nesting (관형절 3중+ 중첩 문장 수, 본진 A-18): 0
+- deul_overuse_rate ('-들' 남용률, 본진 A-17 hold): 0.000
+- 카운트 > 0 지표는 해당 본진 ID 처방(quick-rules.md·taxonomy)과 교차 확인 후 윤문할 것.
+
+[근거 사용 가이드]
+- 위 점수는 *근거 보조*다. 단독 판정 금지(보고서 명시).
+- z>1.0 지표는 quick-rules.md S1·S2 패턴과 교차 확인 후 윤문할 것.
+- ending_comma_rate가 ★ S1 트리거인 경우 C-11(연결어미 뒤 쉼표) 우선 손질.
+- conclusion_pivot 매치 토큰은 D-1·H-1 처방 적용 대상.
+
+[원문 시작]
+- 비용: 돈이 안 듭니다. 광고를 대체해 얻을 수익을 포기해야 합니다. 배포 후 분쟁이 생기면 변호사 비용이 듭니다. 대응에도 시간이 듭니다.
+- 쉽게: 남의 광고 자리를 내 광고로 바꾸면 책임이 생깁니다. 대법원은 해당 광고행위를 막는 가처분을 인정했습니다. 광고를 숨기기만 하는 도구에도 같은 판결이 적용된다고 단정할 수는 없습니다.
+- 이득: 대법원이 다룬 프로그램은 포털 광고를 자기 광고로 바꿨습니다. 법원은 포털의 신용·고객흡인력을 무단 이용한 행위로 봤습니다. 민법상 불법행위로 판단해 광고 금지·예방을 인정했습니다. 현행법도 타인의 성과를 부당하게 영업에 쓰는 행위를 규율합니다. 법적 요건에 해당하면 금지청구와 손해배상이 문제됩니다.
+- 비고: 판결은 프로그램 자체의 제조·사용까지 금지하지는 않았습니다. 무료 광고 차단기를 모두 불법이라고 선언한 결정도 아닙니다. 순수 차단·자동 건너뛰기 도구의 한국 판례는 확인하지 못했습니다. 경고장을 받으면 기능과 수익구조를 자료로 남기고 상담하세요. 2026-10-10 법령·판례 확인(국가법령정보센터).
+[원문 끝]

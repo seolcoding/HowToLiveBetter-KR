@@ -1,0 +1,39 @@
+[정량 사전 점수 v2.0 — v1.6 8지표(KatFish baseline) + v2.0 카운트형]
+risk_band: low  (score 3)
+route_hint: light  (권고 — 사용자·오케스트레이터가 무시 가능)
+route_reason: 카운트형 티 0건(라우터가 세는 항목 기준) · risk_band low — 단일 콜·최소 파이프라인 권장. 카운터 밖 티는 monolith 가 룰북으로 잡는다
+genre: essay
+char_count: 833
+
+[v1.6 지표]
+- comma_inclusion_rate: 0.23  (z=-0.21 vs essay 인간 baseline)
+- comma_usage_rate: 0.27  (z=-1.20 vs essay 인간 baseline)
+- ending_comma_rate: 0.57  (z=+6.74 vs essay 인간 baseline)  ★ S1 트리거
+- comma_segment_length: 7.07  (z=+1.29 vs essay 인간 baseline)  · S2 시그널
+- conclusion_pivot_count: 0
+- safe_balance_count: 0
+- hanja_nominalizer_density: 0.000  (z=-2.00 vs essay 인간 baseline)
+- lexical_diversity: 0.81  (z=+3.29 vs essay 인간 baseline)
+
+[v2.0 카운트형 지표 — 원값 / baseline calibration 전 z-score 해석 보류]
+- double_passive_count (이중 피동, 본진 A-8): 0
+- by_passive_count (~에 의해 피동, 본진 A-9): 0
+- pronoun_density (인칭 대명사 밀도, 본진 A-16): 0.000
+- have_make_literal_count (have/make 직역, 본진 A-7): 0
+- double_particle_count (이중 조사 결합, 본진 A-19): 0
+- relative_clause_nesting (관형절 3중+ 중첩 문장 수, 본진 A-18): 0
+- deul_overuse_rate ('-들' 남용률, 본진 A-17 hold): 0.000
+- 카운트 > 0 지표는 해당 본진 ID 처방(quick-rules.md·taxonomy)과 교차 확인 후 윤문할 것.
+
+[근거 사용 가이드]
+- 위 점수는 *근거 보조*다. 단독 판정 금지(보고서 명시).
+- z>1.0 지표는 quick-rules.md S1·S2 패턴과 교차 확인 후 윤문할 것.
+- ending_comma_rate가 ★ S1 트리거인 경우 C-11(연결어미 뒤 쉼표) 우선 손질.
+- conclusion_pivot 매치 토큰은 D-1·H-1 처방 적용 대상.
+
+[원문 시작]
+- 비용: 돈은 들지 않고, 오히려 담뱃값과 술값이 줄어듭니다. 어려운 점은 같이 사는 사람까지 끊게 하는 일입니다.
+- 쉽게: 임신 중에 담배를 피우면 조산, 저체중아, 입술·입천장갈림증 확률이 올라갑니다. 임신과 분만 중 비정상 출혈 위험은 두 배가 됩니다. 아기가 영아돌연사로 숨질 위험도 높아집니다. 그래도 끊기에 늦은 때는 없습니다.
+- 이득: 미국 질병통제예방센터(CDC)의 설명입니다. 임신 중에 담배를 피우면 아기가 "만삭에 태어나도 너무 작을 수 있고" "일찍 태어날 수 있다"고 합니다. 흡연은 "임신과 분만 중 비정상 출혈 위험을 두 배로 높인다"고도 했습니다. 입술갈림증·입천장갈림증 같은 선천 기형 위험도 올라갑니다. 흡연이 "발달 중인 아기의 폐와 뇌를 손상할 수 있고, 그 손상은 어린 시절 내내 이어질 수 있다"는 설명도 있습니다. 임신 중 흡연한 엄마의 아기는 영아돌연사증후군 위험이 더 높습니다. 태어난 뒤 담배 연기에 노출된 아기도 마찬가지입니다. CDC는 "임신 전에 끊는 것이 가장 좋지만, 이미 임신했어도 끊으면 도움이 된다"고 권고합니다. "끊기에 너무 늦은 때는 없다"고도 덧붙입니다.
+- 비고: 다른 사람이 집 안에서 피운 담배 연기도 태아에게 똑같이 해롭습니다. 그래서 같이 사는 가족도 집 안에서 피우지 않게 하세요. 술도 마찬가지로 해롭고, 안전하다고 알려진 음주량은 없습니다. 임신 중에는 한 모금도 마시지 않는 쪽이 가장 간단합니다. 집과 차 안 금연은 제2절 제2항(집과 차 안)에 있습니다. 보건소 금연클리닉과 금연상담전화는 제2절 제5항(보건소 금연클리닉)을 보세요. 술은 제2절 제19항(술을 줄이거나 끊으세요)을 참고하세요.
+[원문 끝]

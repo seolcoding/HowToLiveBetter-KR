@@ -1,0 +1,39 @@
+[정량 사전 점수 v2.0 — v1.6 8지표(KatFish baseline) + v2.0 카운트형]
+risk_band: low  (score 0)
+route_hint: light  (권고 — 사용자·오케스트레이터가 무시 가능)
+route_reason: 카운트형 티 0건(라우터가 세는 항목 기준) · risk_band low — 단일 콜·최소 파이프라인 권장. 카운터 밖 티는 monolith 가 룰북으로 잡는다
+genre: essay
+char_count: 689
+
+[v1.6 지표]
+- comma_inclusion_rate: 0.05  (z=-1.25 vs essay 인간 baseline)
+- comma_usage_rate: 0.05  (z=-1.52 vs essay 인간 baseline)
+- ending_comma_rate: 0.00  (z=-0.52 vs essay 인간 baseline)
+- comma_segment_length: 7.13  (n/a vs essay 인간 baseline)
+- conclusion_pivot_count: 0
+- safe_balance_count: 0
+- hanja_nominalizer_density: 0.031  (z=-0.96 vs essay 인간 baseline)
+- lexical_diversity: 0.86  (z=+4.25 vs essay 인간 baseline)
+
+[v2.0 카운트형 지표 — 원값 / baseline calibration 전 z-score 해석 보류]
+- double_passive_count (이중 피동, 본진 A-8): 0
+- by_passive_count (~에 의해 피동, 본진 A-9): 0
+- pronoun_density (인칭 대명사 밀도, 본진 A-16): 0.000
+- have_make_literal_count (have/make 직역, 본진 A-7): 0
+- double_particle_count (이중 조사 결합, 본진 A-19): 0
+- relative_clause_nesting (관형절 3중+ 중첩 문장 수, 본진 A-18): 0
+- deul_overuse_rate ('-들' 남용률, 본진 A-17 hold): 0.000
+- 카운트 > 0 지표는 해당 본진 ID 처방(quick-rules.md·taxonomy)과 교차 확인 후 윤문할 것.
+
+[근거 사용 가이드]
+- 위 점수는 *근거 보조*다. 단독 판정 금지(보고서 명시).
+- z>1.0 지표는 quick-rules.md S1·S2 패턴과 교차 확인 후 윤문할 것.
+- ending_comma_rate가 ★ S1 트리거인 경우 C-11(연결어미 뒤 쉼표) 우선 손질.
+- conclusion_pivot 매치 토큰은 D-1·H-1 처방 적용 대상.
+
+[원문 시작]
+- 비용: 돈이 들지 않습니다. 계정마다 한 번씩, 두세 분이면 끝납니다.
+- 쉽게: 2단계 인증은 비밀번호 외에 본인을 한 번 더 확인하는 절차입니다. 로그인할 때 휴대폰 알림의 확인 버튼을 누르세요. 휴대폰 알림 방식은 피싱으로 계정을 도용하려는 시도를 열에 아홉 넘게 막습니다. 로그인 위치나 예비 이메일을 묻는 옛 방식은 거의 못 막습니다.
+- 이득: 구글이 실제 계정 탈취 시도 35만 건을 분석했습니다. 기기로 확인할 때는 휴대폰 알림이나 보안 키를 씁니다. 기기 확인 방식은 피싱형 탈취 시도의 94% 초과를 막았습니다. 자동화 탈취 시도는 100% 막았습니다. 피싱은 가짜 사이트에서 비밀번호를 받아 내는 수법입니다. 자동화 공격은 기계로 유출된 비밀번호를 대량 입력합니다. 반면 질문으로 확인하는 방식의 차단율은 낮았습니다. 질문 방식은 피싱형 탈취를 최저 10%만 막았습니다. 자동화 탈취는 73%만 막았습니다.
+- 비고: 같은 연구에서 실제 사용자도 인증에 실패한 경우가 있었습니다. 실제 사용자의 52%는 첫 시도에 로그인하지 못했습니다. 그래도 결국 97%는 로그인에 성공했습니다. 이메일부터 인증을 켜세요. 다른 계정 대부분은 이메일로 비밀번호를 되찾을 수 있습니다. 인증번호는 남에게 읽어 주지 마세요. 남의 대출에 인증번호를 넘겨준 경우의 법적 결과는 제8절(법적 말썽에 휘말리지 않기)에서 다룹니다.
+[원문 끝]

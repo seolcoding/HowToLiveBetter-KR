@@ -1,0 +1,39 @@
+[정량 사전 점수 v2.0 — v1.6 8지표(KatFish baseline) + v2.0 카운트형]
+risk_band: low  (score 2)
+route_hint: light  (권고 — 사용자·오케스트레이터가 무시 가능)
+route_reason: 카운트형 티 0건(라우터가 세는 항목 기준) · risk_band low — 단일 콜·최소 파이프라인 권장. 카운터 밖 티는 monolith 가 룰북으로 잡는다
+genre: essay
+char_count: 931
+
+[v1.6 지표]
+- comma_inclusion_rate: 0.03  (z=-1.35 vs essay 인간 baseline)
+- comma_usage_rate: 0.03  (z=-1.54 vs essay 인간 baseline)
+- ending_comma_rate: 0.14  (z=+1.30 vs essay 인간 baseline)  · S2 시그널
+- comma_segment_length: 6.06  (n/a vs essay 인간 baseline)
+- conclusion_pivot_count: 0
+- safe_balance_count: 0
+- hanja_nominalizer_density: 0.000  (z=-2.00 vs essay 인간 baseline)
+- lexical_diversity: 0.79  (z=+2.79 vs essay 인간 baseline)
+
+[v2.0 카운트형 지표 — 원값 / baseline calibration 전 z-score 해석 보류]
+- double_passive_count (이중 피동, 본진 A-8): 0
+- by_passive_count (~에 의해 피동, 본진 A-9): 0
+- pronoun_density (인칭 대명사 밀도, 본진 A-16): 0.000
+- have_make_literal_count (have/make 직역, 본진 A-7): 0
+- double_particle_count (이중 조사 결합, 본진 A-19): 0
+- relative_clause_nesting (관형절 3중+ 중첩 문장 수, 본진 A-18): 0
+- deul_overuse_rate ('-들' 남용률, 본진 A-17 hold): 0.000
+- 카운트 > 0 지표는 해당 본진 ID 처방(quick-rules.md·taxonomy)과 교차 확인 후 윤문할 것.
+
+[근거 사용 가이드]
+- 위 점수는 *근거 보조*다. 단독 판정 금지(보고서 명시).
+- z>1.0 지표는 quick-rules.md S1·S2 패턴과 교차 확인 후 윤문할 것.
+- ending_comma_rate가 ★ S1 트리거인 경우 C-11(연결어미 뒤 쉼표) 우선 손질.
+- conclusion_pivot 매치 토큰은 D-1·H-1 처방 적용 대상.
+
+[원문 시작]
+- 비용: 안내를 읽는 데는 돈이 들지 않습니다. 해외 곰 서식지에 갈 때는 해당 공원의 주의사항을 미리 확인하세요. 뛰고 싶은 마음을 참기가 어렵습니다.
+- 쉽게: 다음은 미국 국립공원청의 곰 안내입니다. 국내 동물 세 종의 공통 지침은 아닙니다. 곰을 만나면 뛰지 마세요. 곰은 오르막이든 내리막이든 경주마만큼 빨리 뜁니다. 나무에도 오르지 마세요. 회색곰도 흑곰도 나무를 탑니다. 서서 낮은 목소리로 계속 말을 거세요. 곰이 움직이지 않으면 옆으로 천천히 물러나세요. 개에게 물리거나 긁히면 제13항(개나 고양이에게 물렸을 때)대로 씻고 진료받으세요.
+- 이득: 미국 국립공원관리청의 곰 안내 원문은 여섯 문장입니다. "뛰지 마라. 곰은 오르막이든 내리막이든 경주마만큼 빨리 뛸 수 있다". "침착하라. 대부분의 곰은 공격하고 싶어 하지 않고, 그냥 내버려 두기를 원한다". "낮은 목소리로 곰에게 계속 말을 걸어라". "곰이 움직이지 않으면 옆걸음으로 천천히 물러나라. 그래야 곰을 보면서도 넘어지지 않는다". "몸을 최대한 크게 보이게 하라". "나무에 오르지 마라. 회색곰과 흑곰 모두 나무를 탄다". 불곰(회색곰)이 공격하면 "죽은 척하라. 배를 깔고 엎드려 두 손을 목 뒤에 깍지 끼고 다리를 벌려라". 흑곰이 공격하면 "죽은 척하지 말고 차나 건물로 피하라. 피할 수 없으면 손에 잡히는 무엇으로든 맞서라". 개에게 물리면 제13항(개나 고양이에게 물렸을 때)대로 합니다.
+- 비고: B는 곰에만 해당합니다. 국내 멧돼지와 들개의 종별 공식 행동요령은 확인하지 못했습니다. 미국 곰 안내를 이 동물들에게 그대로 적용하지 마세요. 먹이로 꾀거나 가까이 가서 사진을 찍지 마세요.  위 원문은 미국에 사는 곰 기준입니다. 국내 곰(반달가슴곰)과 멧돼지의 행동요령 원문은 확인하지 못했습니다. 이번에는 국립공원공단·환경부의 원문을 확인하지 못했습니다.
+[원문 끝]

@@ -1,0 +1,39 @@
+[정량 사전 점수 v2.0 — v1.6 8지표(KatFish baseline) + v2.0 카운트형]
+risk_band: low  (score 0)
+route_hint: light  (권고 — 사용자·오케스트레이터가 무시 가능)
+route_reason: 카운트형 티 0건(라우터가 세는 항목 기준) · risk_band low — 단일 콜·최소 파이프라인 권장. 카운터 밖 티는 monolith 가 룰북으로 잡는다
+genre: essay
+char_count: 499
+
+[v1.6 지표]
+- comma_inclusion_rate: 0.00  (z=-1.52 vs essay 인간 baseline)
+- comma_usage_rate: 0.00  (z=-1.58 vs essay 인간 baseline)
+- ending_comma_rate: 0.00  (z=-0.52 vs essay 인간 baseline)
+- comma_segment_length: 7.19  (n/a vs essay 인간 baseline)
+- conclusion_pivot_count: 0
+- safe_balance_count: 0
+- hanja_nominalizer_density: 0.000  (z=-2.00 vs essay 인간 baseline)
+- lexical_diversity: 0.86  (z=+4.30 vs essay 인간 baseline)
+
+[v2.0 카운트형 지표 — 원값 / baseline calibration 전 z-score 해석 보류]
+- double_passive_count (이중 피동, 본진 A-8): 0
+- by_passive_count (~에 의해 피동, 본진 A-9): 0
+- pronoun_density (인칭 대명사 밀도, 본진 A-16): 0.000
+- have_make_literal_count (have/make 직역, 본진 A-7): 0
+- double_particle_count (이중 조사 결합, 본진 A-19): 0
+- relative_clause_nesting (관형절 3중+ 중첩 문장 수, 본진 A-18): 0
+- deul_overuse_rate ('-들' 남용률, 본진 A-17 hold): 0.000
+- 카운트 > 0 지표는 해당 본진 ID 처방(quick-rules.md·taxonomy)과 교차 확인 후 윤문할 것.
+
+[근거 사용 가이드]
+- 위 점수는 *근거 보조*다. 단독 판정 금지(보고서 명시).
+- z>1.0 지표는 quick-rules.md S1·S2 패턴과 교차 확인 후 윤문할 것.
+- ending_comma_rate가 ★ S1 트리거인 경우 C-11(연결어미 뒤 쉼표) 우선 손질.
+- conclusion_pivot 매치 토큰은 D-1·H-1 처방 적용 대상.
+
+[원문 시작]
+- 비용: 계약금 반환·계약 해제·손해배상 조건을 문서에 씁니다. 외상 매출 한도도 정합니다.
+- 쉽게: 계약금을 포기하거나 두 배 돌려주고 계약을 끝낼 수 있습니다. 이 규칙에는 적용 시점과 조건이 있습니다. 외상은 상대가 못 갚으면 손실이 됩니다.
+- 이득: 민법 제565조는 다른 약정이 없는 경우에 적용됩니다. 한쪽이 이행에 착수하기 전에는 계약금으로 해제할 수 있습니다. 준 사람은 계약금을 포기하고 받은 사람은 두 배를 돌려줍니다. 계약 위반에 따른 위약금과 구분하세요. 미리 정한 손해배상액이 부당하게 많으면 법원이 줄일 수 있습니다. 외상 거래에서는 상대방의 상환 능력과 회수 비용을 고려하세요.
+- 비고: 원문의 특정 한자 두 글자 구분은 한국에 그대로 적용하지 않습니다. 계약금 20% 상한도 그대로 적용하지 않습니다. 약정·이행 착수·채무불이행을 구분하세요. 분쟁이 생기면 협의나 소송에 시간·인지대·송달료·대리 비용이 듭니다. 2026-10-10 법령·공식 자료 확인.
+[원문 끝]

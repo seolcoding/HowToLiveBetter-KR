@@ -1,0 +1,39 @@
+[정량 사전 점수 v2.0 — v1.6 8지표(KatFish baseline) + v2.0 카운트형]
+risk_band: low  (score 2)
+route_hint: light  (권고 — 사용자·오케스트레이터가 무시 가능)
+route_reason: 카운트형 티 0건(라우터가 세는 항목 기준) · risk_band low — 단일 콜·최소 파이프라인 권장. 카운터 밖 티는 monolith 가 룰북으로 잡는다
+genre: essay
+char_count: 926
+
+[v1.6 지표]
+- comma_inclusion_rate: 0.07  (z=-1.13 vs essay 인간 baseline)
+- comma_usage_rate: 0.07  (z=-1.49 vs essay 인간 baseline)
+- ending_comma_rate: 0.25  (z=+2.66 vs essay 인간 baseline)  ★ S1 트리거
+- comma_segment_length: 7.00  (n/a vs essay 인간 baseline)
+- conclusion_pivot_count: 0
+- safe_balance_count: 0
+- hanja_nominalizer_density: 0.000  (z=-2.00 vs essay 인간 baseline)
+- lexical_diversity: 0.80  (z=+2.91 vs essay 인간 baseline)
+
+[v2.0 카운트형 지표 — 원값 / baseline calibration 전 z-score 해석 보류]
+- double_passive_count (이중 피동, 본진 A-8): 0
+- by_passive_count (~에 의해 피동, 본진 A-9): 0
+- pronoun_density (인칭 대명사 밀도, 본진 A-16): 0.000
+- have_make_literal_count (have/make 직역, 본진 A-7): 0
+- double_particle_count (이중 조사 결합, 본진 A-19): 0
+- relative_clause_nesting (관형절 3중+ 중첩 문장 수, 본진 A-18): 0
+- deul_overuse_rate ('-들' 남용률, 본진 A-17 hold): 0.000
+- 카운트 > 0 지표는 해당 본진 ID 처방(quick-rules.md·taxonomy)과 교차 확인 후 윤문할 것.
+
+[근거 사용 가이드]
+- 위 점수는 *근거 보조*다. 단독 판정 금지(보고서 명시).
+- z>1.0 지표는 quick-rules.md S1·S2 패턴과 교차 확인 후 윤문할 것.
+- ending_comma_rate가 ★ S1 트리거인 경우 C-11(연결어미 뒤 쉼표) 우선 손질.
+- conclusion_pivot 매치 토큰은 D-1·H-1 처방 적용 대상.
+
+[원문 시작]
+- 비용: 돈은 들지 않습니다. 셈하는 데 30분이면 됩니다. 세금을 뗀 뒤 꾸준히 받을 수익률을 솔직하게 잡으세요.
+- 쉽게: 대출을 미리 갚으면 대출 금리만큼 확실히 버는 셈입니다. 다음 질문으로 판단하세요. 세금을 뗀 뒤 꾸준히 얻는 수익이 대출 금리보다 높은가? 높으면 서두르지 말고, 낮거나 모르겠으면 갚으세요. 통상 계약일부터 3년 안에 갚을 때만 수수료를 받습니다. 다른 법령에서 허용하는 경우 등 법정 예외가 있어 계약을 확인하세요.
+- 이득: 셈법은 이렇습니다. 내 대출의 연 금리를 r로 둡니다. 계약서에 적힌 숫자입니다. 다른 데 넣어 세금을 뗀 뒤 1년에 평균 버는 비율을 g로 둡니다. 미리 갚으면 갚는 만큼 확실하게 r을 버는 셈입니다. g가 꾸준히 r보다 크면 투자에 두는 편이 낫습니다. g가 r보다 작거나 g를 장담할 수 없으면 미리 갚는 편이 낫습니다. 위험 없는 r을 확정할 수 있습니다. 원리금균등 상환은 초기에 내는 돈 중 이자 비중이 큽니다. 그래서 일찍 갚을수록 아끼는 이자가 큽니다. 은행 앱의 중도상환 계산으로 바로 숫자를 볼 수 있습니다. 중도상환수수료는 정해진 경우에만 받을 수 있습니다. 대출계약이 성립한 날부터 3년 안에 갚을 때가 해당합니다. 다른 법령의 허용이나 대통령령에 따른 예외도 있습니다(「금융소비자보호법」 제20조 제1항 제4호 나목). 수수료에는 자금 운용 기회비용, 행정·모집 비용 등만 넣을 수 있습니다(금융소비자 보호에 관한 감독규정 제14조 제9호 나목).
+- 비고: 셈법만 주고 결론은 내리지 않습니다. 투자 수익이 꾸준히 대출 금리를 넘는 경우는 드뭅니다. 어느 쪽을 고르든 비상금은 먼저 남겨 두세요(제27항(비상금)). 원문은 중국 대출 기준금리를 참고 숫자로 들었지만 한국과 무관해 뺐습니다. 투자 권유가 아닙니다. 2026-10-10 법령·규정 확인(국가법령정보센터).
+[원문 끝]

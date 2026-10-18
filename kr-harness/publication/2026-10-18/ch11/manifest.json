@@ -1,0 +1,173 @@
+{
+  "source_commit": "225ec78",
+  "protected_labels": [
+    "비용",
+    "쉽게",
+    "이득",
+    "근거등급",
+    "출처",
+    "비고"
+  ],
+  "route_counts": {
+    "light": 19
+  },
+  "version": 2,
+  "chapter": "11",
+  "source": "book-kr/11-개발자와-기술자의-레드라인.md",
+  "source_sha256": "190f1bfb76853df9cee7f4a460f7f8a96d8eae39482fcbe352c65c6e8045c1fe",
+  "genre": "essay",
+  "entries": [
+    {
+      "number": 1,
+      "heading": "### 1. 작업 전에 피해와 권한부터 확인하세요. 수사받으면 형사 변호사를 찾으세요",
+      "run_dir": "_workspace/2026-10-18-001-61cb",
+      "input_sha256": "e4e27eabe980e0913a99debad3f2cdbe1ca29c79e423767466dadf39f314be82",
+      "entry_sha256": "cc0adfef91e1822d19bb302ccf5ae308274bb1b14dba8cacb51d5580797c314f",
+      "route": "light"
+    },
+    {
+      "number": 2,
+      "heading": "### 2. 승인받지 않은 게임 핵·사설 서버를 만들거나 배포하지 마세요",
+      "run_dir": "_workspace/2026-10-18-002-2690",
+      "input_sha256": "5eb6d12187f266685bcdf5fc310dfd7621b7cd72850fecfcccce6ff1cc922501",
+      "entry_sha256": "fd176ab87352624f272826a1fc07d88388993e0ff80528b12484295e4cb74a7f",
+      "route": "light"
+    },
+    {
+      "number": 3,
+      "heading": "### 3. 재판매용 부정 예매와 순위 조작을 자동화하지 마세요",
+      "run_dir": "_workspace/2026-10-18-003-7b5d",
+      "input_sha256": "b5d3cecf3ece1a2f7dc3b5e4245b0af2d6220a9acffa95fcd749e8ba017349a7",
+      "entry_sha256": "21f3af374fe8962141340135404dc0d80a69cfd7fbd85de5966fabcd393e47d7",
+      "route": "light"
+    },
+    {
+      "number": 4,
+      "heading": "### 4. 크롤링 전에 접근권한과 데이터 이용권부터 확인하세요",
+      "run_dir": "_workspace/2026-10-18-004-57b2",
+      "input_sha256": "6008effc2550497ecac08b8235506716469c77927d6cdd44a69cafcbd55f0f34",
+      "entry_sha256": "2335a5cba3a004c66f455a185ba67bbfe58ba4195e1c219115cbb6ac3f2216c2",
+      "route": "light"
+    },
+    {
+      "number": 5,
+      "heading": "### 5. 불법 도박·사기용 개발과 결제 계정 대여를 받지 마세요",
+      "run_dir": "_workspace/2026-10-18-005-a08c",
+      "input_sha256": "45c691105af5b933f2c786c7bc701c1bd9ff6e445e8248b3f9874f9533e625d8",
+      "entry_sha256": "2e7a5ce5042197260dfeadaf226997a880bcde397760611d5cf30ef23f532aa8",
+      "route": "light"
+    },
+    {
+      "number": 6,
+      "heading": "### 6. 퇴사할 때 권한을 넘기세요. 데이터 삭제와 백도어로 보복하지 마세요",
+      "run_dir": "_workspace/2026-10-18-006-62ef",
+      "input_sha256": "7e5692f4a86cc7c61c3acfff57866eb97b1712e8b0af1fde0c8bca1ac0894912",
+      "entry_sha256": "f75bc9579bef75a2bc24a02dac2de6bbe173b4653ac7e872f86e2ca9f952d2f7",
+      "route": "light"
+    },
+    {
+      "number": 7,
+      "heading": "### 7. 퇴사할 때 회사 코드·고객명단을 가져가지 마세요",
+      "run_dir": "_workspace/2026-10-18-007-d48d",
+      "input_sha256": "7a318c725bba8a7b9d468941b3df167b8897fa627f752ce3308b517b339644c5",
+      "entry_sha256": "8681dd9cc472ae7b98dcdb04fbd73592d5702a8ce2389a013db55ce068569fa8",
+      "route": "light"
+    },
+    {
+      "number": 8,
+      "heading": "### 8. 허락 없이 남의 기기에서 프로그램을 돌리지 마세요",
+      "run_dir": "_workspace/2026-10-18-008-b293",
+      "input_sha256": "b0659567e6341e1322166daa77563c6152c1db7b8c7b857ed46a0cbbdd1f1a7f",
+      "entry_sha256": "7fcbd3508f3f23f7d21708fa489f280db2611f2ee79e5ba91de134c91617e2f2",
+      "route": "light"
+    },
+    {
+      "number": 9,
+      "heading": "### 9. 서면 승인 없이 남의 시스템을 보안 점검하지 마세요",
+      "run_dir": "_workspace/2026-10-18-009-fe03",
+      "input_sha256": "5b6acafefc1d4cf6821fc1ed8acc937b3ec36cd1ed798d0685b32ed26c708656",
+      "entry_sha256": "cceae073711c79f990e1bcf259dc18a57fd1c72443e2132af9775f53470f418c",
+      "route": "light"
+    },
+    {
+      "number": 10,
+      "heading": "### 10. 취약점 공개는 제조사와 조율하세요. 공격 도구 배포는 따로 따지세요",
+      "run_dir": "_workspace/2026-10-18-010-c377",
+      "input_sha256": "ea62b0c4e56c572d20605852bf879aeafe12f1d703b8dc4ceba6cdc180d07071",
+      "entry_sha256": "1bd693942b29655b2591f2be19ab6b0c6ee9bf0caded60bb1ffe13e4aa3e71a3",
+      "route": "light"
+    },
+    {
+      "number": 11,
+      "heading": "### 11. 개인위치정보 앱은 사업 신고와 이용자 동의를 확인하세요",
+      "run_dir": "_workspace/2026-10-18-011-fbd1",
+      "input_sha256": "4a9dace07d139cdbfb4d6942e8475332814f4628051c435d1dfafd6bb8cbaa39",
+      "entry_sha256": "7c9689873510eff92fb52285ba189f425fb3c325761634facf4a8490a8d7c8f2",
+      "route": "light"
+    },
+    {
+      "number": 12,
+      "heading": "### 12. 경업금지 약정은 기간·범위·보상을 함께 확인하세요",
+      "run_dir": "_workspace/2026-10-18-012-805b",
+      "input_sha256": "cfc164946f2365f8d32a41aed3c861f7a2200c577a82e9c6fd1a79b52d4e304f",
+      "entry_sha256": "ae55732c2fdd7a37ebdec21298117ed92dc22bebb386f47d7e6774540d487016",
+      "route": "light"
+    },
+    {
+      "number": 13,
+      "heading": "### 13. 회사 업무로 쓴 코드와 개인 프로젝트를 분리하세요",
+      "run_dir": "_workspace/2026-10-18-013-fd53",
+      "input_sha256": "0166127bc499b0d9e6ffc199b4df19670e4116bf1f7e6f1a7d657555a7e13ce5",
+      "entry_sha256": "d73efc98dc3d1d5070836c4ad17d0c84db12d6f34ac423e316e563e653172ada",
+      "route": "light"
+    },
+    {
+      "number": 14,
+      "heading": "### 14. 오픈소스는 라이선스를 읽고 쓰세요",
+      "run_dir": "_workspace/2026-10-18-014-5774",
+      "input_sha256": "99023676a5b5af6821c1102c4ad38cdb38c6115224c2153a80ae825a4d3e31e2",
+      "entry_sha256": "5ad2c75d2c8fec3830bd5a51f1c04a5d728db922c337e1ccbbc712d8e2778283",
+      "route": "light"
+    },
+    {
+      "number": 15,
+      "heading": "### 15. 앱은 필요한 개인정보만 받으세요. 아동 동의와 처리방침도 갖추세요",
+      "run_dir": "_workspace/2026-10-18-015-04cc",
+      "input_sha256": "6d3a9a4ed3d056dc6bc6d8edc9c4b4e4cb8db475308e9faa0d74fd115d49ce53",
+      "entry_sha256": "ee1f485795c50aee11a5d4e70054756f6dc9eb73d91f1a638b6ad7dbfe609b36",
+      "route": "light"
+    },
+    {
+      "number": 16,
+      "heading": "### 16. 출시 전에 사업 신고와 개인정보 접속기록 의무를 확인하세요",
+      "run_dir": "_workspace/2026-10-18-016-74b8",
+      "input_sha256": "1f40a6bd7554d1cffd0ca922081652f15a3d1ac5b0ce469567084b0c28438668",
+      "entry_sha256": "5c0e4f7d9b987a0c241b845cf356aa9c2b4ae808d0864c65661da72f5df19fbd",
+      "route": "light"
+    },
+    {
+      "number": 17,
+      "heading": "### 17. 생성형 AI 서비스는 사전 고지와 생성 사실 표시를 갖추세요",
+      "run_dir": "_workspace/2026-10-18-017-d9fc",
+      "input_sha256": "eee94876e657acd28e9129c978dc46da63e6f30fbbb8d5186417c2a3458a603b",
+      "entry_sha256": "3470531a1ef0bd258a7646a5b28306a8f476bcd45d805d9096434dc7f4d06cad",
+      "route": "light"
+    },
+    {
+      "number": 18,
+      "heading": "### 18. 남의 광고를 대체하는 도구를 배포하지 마세요",
+      "run_dir": "_workspace/2026-10-18-018-d1ab",
+      "input_sha256": "fca05b771bbfd35126f015dc59e2dd088749c6307cdbbf03d4953b1ff71b4dc4",
+      "entry_sha256": "34c10db4a82a562e6cfc3b91470d51e63e8cee632b2e586567231e939892e878",
+      "route": "light"
+    },
+    {
+      "number": 19,
+      "heading": "### 19. AI 중개 사이트는 정식 권한과 개인정보 국외 이전 근거를 갖추세요",
+      "run_dir": "_workspace/2026-10-18-019-f19e",
+      "input_sha256": "b93a613d3166758d49b141a7d4608837eecf386af2464d25cf5ede9aaeb7b04d",
+      "entry_sha256": "52f7e8aeea14c32b40d0ae5a6e4c0fb8ae407492a5d333c78bf3a7ea7773ab81",
+      "route": "light"
+    }
+  ]
+}

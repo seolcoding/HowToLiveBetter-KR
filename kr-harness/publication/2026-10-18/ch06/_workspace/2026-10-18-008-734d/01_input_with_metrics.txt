@@ -1,0 +1,39 @@
+[정량 사전 점수 v2.0 — v1.6 8지표(KatFish baseline) + v2.0 카운트형]
+risk_band: low  (score 0)
+route_hint: light  (권고 — 사용자·오케스트레이터가 무시 가능)
+route_reason: 카운트형 티 0건(라우터가 세는 항목 기준) · risk_band low — 단일 콜·최소 파이프라인 권장. 카운터 밖 티는 monolith 가 룰북으로 잡는다
+genre: essay
+char_count: 571
+
+[v1.6 지표]
+- comma_inclusion_rate: 0.10  (z=-0.94 vs essay 인간 baseline)
+- comma_usage_rate: 0.10  (z=-1.44 vs essay 인간 baseline)
+- ending_comma_rate: 0.00  (z=-0.52 vs essay 인간 baseline)
+- comma_segment_length: 5.64  (n/a vs essay 인간 baseline)
+- conclusion_pivot_count: 0
+- safe_balance_count: 0
+- hanja_nominalizer_density: 0.000  (z=-2.00 vs essay 인간 baseline)
+- lexical_diversity: 0.89  (z=+4.83 vs essay 인간 baseline)
+
+[v2.0 카운트형 지표 — 원값 / baseline calibration 전 z-score 해석 보류]
+- double_passive_count (이중 피동, 본진 A-8): 0
+- by_passive_count (~에 의해 피동, 본진 A-9): 0
+- pronoun_density (인칭 대명사 밀도, 본진 A-16): 0.000
+- have_make_literal_count (have/make 직역, 본진 A-7): 0
+- double_particle_count (이중 조사 결합, 본진 A-19): 0
+- relative_clause_nesting (관형절 3중+ 중첩 문장 수, 본진 A-18): 0
+- deul_overuse_rate ('-들' 남용률, 본진 A-17 hold): 0.000
+- 카운트 > 0 지표는 해당 본진 ID 처방(quick-rules.md·taxonomy)과 교차 확인 후 윤문할 것.
+
+[근거 사용 가이드]
+- 위 점수는 *근거 보조*다. 단독 판정 금지(보고서 명시).
+- z>1.0 지표는 quick-rules.md S1·S2 패턴과 교차 확인 후 윤문할 것.
+- ending_comma_rate가 ★ S1 트리거인 경우 C-11(연결어미 뒤 쉼표) 우선 손질.
+- conclusion_pivot 매치 토큰은 D-1·H-1 처방 적용 대상.
+
+[원문 시작]
+- 비용: 기기를 사는 데 돈이 듭니다. 매일 데이터를 확인하는 데도 신경을 써야 합니다.
+- 쉽게: 밴드를 찬 사람은 2년 동안 3.5kg을 뺐습니다. 안 찬 사람은 5.9kg을 뺐습니다. 이 시험에서는 기기가 감량에 도움이 되지 않았습니다. 운동 자체는 효과가 있습니다.
+- 이득: IDEA 시험은 과체중·비만 성인 471명을 24개월 추적했습니다. 참가자 모두 같은 식사·운동 처방을 받았습니다. 차이는 웨어러블 기기 착용 여부뿐이었습니다. 착용군은 3.5kg을 뺐습니다(95% CI 2.6–4.5, 신뢰범위). 미착용군은 5.9kg(5.0–6.8)으로 오히려 더 뺐습니다. 두 군의 감량 차이는 2.4kg(1.0–3.7, P=0.002)입니다. '계측해야 관리할 수 있다'는 말이 그럴듯하게 들립니다. 기기는 한 번만 사면 되니 가성비가 좋아 보입니다.
+- 비고: 시험은 하나뿐입니다. 시험에 쓴 기기는 2010년대 초의 팔찌형입니다. 다만 '모든 웨어러블이 소용없다'고 단정할 수는 없습니다. 운동 자체는 효과가 있습니다. 제2절(천천히 죽지 않기)을 보세요. 감량을 위해 기기에 꼭 돈을 쓸 필요는 없습니다.
+[원문 끝]

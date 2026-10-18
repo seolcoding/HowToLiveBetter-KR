@@ -1,0 +1,39 @@
+[정량 사전 점수 v2.0 — v1.6 8지표(KatFish baseline) + v2.0 카운트형]
+risk_band: low  (score 0)
+route_hint: light  (권고 — 사용자·오케스트레이터가 무시 가능)
+route_reason: 카운트형 티 0건(라우터가 세는 항목 기준) · risk_band low — 단일 콜·최소 파이프라인 권장. 카운터 밖 티는 monolith 가 룰북으로 잡는다
+genre: essay
+char_count: 777
+
+[v1.6 지표]
+- comma_inclusion_rate: 0.05  (z=-1.25 vs essay 인간 baseline)
+- comma_usage_rate: 0.05  (z=-1.52 vs essay 인간 baseline)
+- ending_comma_rate: 0.00  (z=-0.52 vs essay 인간 baseline)
+- comma_segment_length: 7.48  (n/a vs essay 인간 baseline)
+- conclusion_pivot_count: 0
+- safe_balance_count: 0
+- hanja_nominalizer_density: 0.006  (z=-1.80 vs essay 인간 baseline)
+- lexical_diversity: 0.84  (z=+3.79 vs essay 인간 baseline)
+
+[v2.0 카운트형 지표 — 원값 / baseline calibration 전 z-score 해석 보류]
+- double_passive_count (이중 피동, 본진 A-8): 0
+- by_passive_count (~에 의해 피동, 본진 A-9): 0
+- pronoun_density (인칭 대명사 밀도, 본진 A-16): 0.000
+- have_make_literal_count (have/make 직역, 본진 A-7): 0
+- double_particle_count (이중 조사 결합, 본진 A-19): 0
+- relative_clause_nesting (관형절 3중+ 중첩 문장 수, 본진 A-18): 1
+- deul_overuse_rate ('-들' 남용률, 본진 A-17 hold): 0.000
+- 카운트 > 0 지표는 해당 본진 ID 처방(quick-rules.md·taxonomy)과 교차 확인 후 윤문할 것.
+
+[근거 사용 가이드]
+- 위 점수는 *근거 보조*다. 단독 판정 금지(보고서 명시).
+- z>1.0 지표는 quick-rules.md S1·S2 패턴과 교차 확인 후 윤문할 것.
+- ending_comma_rate가 ★ S1 트리거인 경우 C-11(연결어미 뒤 쉼표) 우선 손질.
+- conclusion_pivot 매치 토큰은 D-1·H-1 처방 적용 대상.
+
+[원문 시작]
+- 비용: 안과 진료비와 안경값이 듭니다.
+- 쉽게: 조절마비 굴절검사는 눈의 초점을 맞추는 근육을 안약으로 풀고 도수를 재는 검사입니다. 약을 쓰는 검사여서 안경원이 아닌 안과에서 받습니다. 6세 이하 아이의 안경은 의사 처방이 있어야 맞출 수 있습니다. 안경원의 자동 굴절검사 한 번을 진단으로 여기지 마세요.
+- 이득: 안경사는 안경을 조제·판매하고 콘택트렌즈를 판매합니다. 도수를 맞추려고 약제 없이 하는 굴절검사도 합니다(「의료기사법」 제1조의2 제3호). 안경사의 객관적 굴절검사는 약제 없이 자동굴절검사기기로 합니다. 6세 이하 아이의 안경과 콘택트렌즈는 의사 처방에 따라 조제·판매해야 합니다. 근거는 「의료기사법 시행령」 별표 1 제8호입니다. 그래서 조절 근육을 약으로 풀고 재는 조절마비 굴절검사는 안과에서 받습니다. 학교 건강검진에는 눈 검사가 들어 있습니다. 시력 검사는 교육감이 정한 학년에 따로 하기도 합니다(「학교건강검사규칙」 제5조·제6조). 검진은 걸러 내는 검사여서, 이상이 나오면 안과에서 다시 확인해야 합니다.
+- 비고: 공식 규정이 정한 절차라서 근거등급을 B로 두었습니다. 결과를 숫자로 잰 연구에서 나온 근거는 아닙니다. 고도근시는 망막박리 같은 병으로 이어집니다. 자세한 내용은 제6항(근시를 남는 손상으로)에서 다룹니다. 그래서 재검사는 안경을 바꾸려고만 받는 게 아닙니다. 재검사 간격은 아이 나이와 도수 변화를 보고 안과 의사가 정합니다. 간격에 관한 한국 공식 권고는 찾지 못했습니다. 2026-10-10 법령 확인(국가법령정보센터).
+[원문 끝]

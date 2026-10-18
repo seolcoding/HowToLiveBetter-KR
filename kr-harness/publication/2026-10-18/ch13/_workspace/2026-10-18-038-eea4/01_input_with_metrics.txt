@@ -1,0 +1,39 @@
+[정량 사전 점수 v2.0 — v1.6 8지표(KatFish baseline) + v2.0 카운트형]
+risk_band: low  (score 2)
+route_hint: light  (권고 — 사용자·오케스트레이터가 무시 가능)
+route_reason: 카운트형 티 0건(라우터가 세는 항목 기준) · risk_band low — 단일 콜·최소 파이프라인 권장. 카운터 밖 티는 monolith 가 룰북으로 잡는다
+genre: essay
+char_count: 729
+
+[v1.6 지표]
+- comma_inclusion_rate: 0.12  (z=-0.85 vs essay 인간 baseline)
+- comma_usage_rate: 0.12  (z=-1.42 vs essay 인간 baseline)
+- ending_comma_rate: 0.50  (z=+5.84 vs essay 인간 baseline)  ★ S1 트리거
+- comma_segment_length: 6.07  (z=+0.82 vs essay 인간 baseline)
+- conclusion_pivot_count: 0
+- safe_balance_count: 0
+- hanja_nominalizer_density: 0.000  (z=-2.00 vs essay 인간 baseline)
+- lexical_diversity: 0.80  (z=+3.05 vs essay 인간 baseline)
+
+[v2.0 카운트형 지표 — 원값 / baseline calibration 전 z-score 해석 보류]
+- double_passive_count (이중 피동, 본진 A-8): 0
+- by_passive_count (~에 의해 피동, 본진 A-9): 0
+- pronoun_density (인칭 대명사 밀도, 본진 A-16): 0.000
+- have_make_literal_count (have/make 직역, 본진 A-7): 0
+- double_particle_count (이중 조사 결합, 본진 A-19): 0
+- relative_clause_nesting (관형절 3중+ 중첩 문장 수, 본진 A-18): 0
+- deul_overuse_rate ('-들' 남용률, 본진 A-17 hold): 0.000
+- 카운트 > 0 지표는 해당 본진 ID 처방(quick-rules.md·taxonomy)과 교차 확인 후 윤문할 것.
+
+[근거 사용 가이드]
+- 위 점수는 *근거 보조*다. 단독 판정 금지(보고서 명시).
+- z>1.0 지표는 quick-rules.md S1·S2 패턴과 교차 확인 후 윤문할 것.
+- ending_comma_rate가 ★ S1 트리거인 경우 C-11(연결어미 뒤 쉼표) 우선 손질.
+- conclusion_pivot 매치 토큰은 D-1·H-1 처방 적용 대상.
+
+[원문 시작]
+- 비용: 28일 치 약값이 듭니다. 국내 건강보험 적용과 본인 부담액은 확인하지 못했습니다. 그날 밤 병원에 가야 합니다. 감염됐을 가능성을 그 자리에서 인정하기는 어렵습니다. 그래도 바로 나서야 합니다.
+- 쉽게: HIV에 감염됐을 수 있으면 노출 후 예방약을 시작하세요. 72시간을 넘기지 말고, 될 수 있는 한 빨리 시작하세요. 한 시간 한 시간이 중요합니다. 약은 28일 동안 매일 먹습니다. 72시간이 지나면 이 방법은 쓸 수 없으니 다음 날로 미루지 마세요.
+- 이득: 미국 질병통제예방센터는 HIV 노출 후 예방요법(PEP)을 안내합니다. 노출 뒤 72시간(3일) 안에 시작해야 합니다. "빨리 시작할수록 좋고, 한 시간 한 시간이 중요하다". 시작하면 28일 동안 매일 먹습니다. 성관계 중 콘돔이 찢어졌을 때는 바로 의료인과 상의하라고 합니다. 주삿바늘 같은 주사 도구를 함께 썼을 때도 마찬가지입니다. 성폭력을 당했을 때도 바로 상의하라고 합니다. PEP는 응급 상황에서만 씁니다.
+- 비고: 국내 처방 기관을 알려 주는 질병관리청의 공개 안내는 찾지 못했습니다. 밤이라도 응급실이나 감염내과에 바로 문의하세요. 노출에 해당하는지, 약을 쓸지는 의사가 판단합니다. 약은 28일을 다 먹어야 합니다. 여러 번 빠뜨리면 효과가 떨어집니다. 그 뒤 다시 검사할 시기는 의사의 안내를 따르세요. 예방약은 사후 대책일 뿐입니다. 평소 예방과 검사는 제1절(너무 일찍 죽지 않기)에 있습니다.
+[원문 끝]

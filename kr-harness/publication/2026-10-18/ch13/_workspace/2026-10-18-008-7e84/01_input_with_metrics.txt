@@ -1,0 +1,39 @@
+[정량 사전 점수 v2.0 — v1.6 8지표(KatFish baseline) + v2.0 카운트형]
+risk_band: low  (score 0)
+route_hint: light  (권고 — 사용자·오케스트레이터가 무시 가능)
+route_reason: 카운트형 티 0건(라우터가 세는 항목 기준) · risk_band low — 단일 콜·최소 파이프라인 권장. 카운터 밖 티는 monolith 가 룰북으로 잡는다
+genre: essay
+char_count: 736
+
+[v1.6 지표]
+- comma_inclusion_rate: 0.04  (z=-1.27 vs essay 인간 baseline)
+- comma_usage_rate: 0.04  (z=-1.52 vs essay 인간 baseline)
+- ending_comma_rate: 0.00  (z=-0.52 vs essay 인간 baseline)
+- comma_segment_length: 7.38  (n/a vs essay 인간 baseline)
+- conclusion_pivot_count: 0
+- safe_balance_count: 0
+- hanja_nominalizer_density: 0.006  (z=-1.81 vs essay 인간 baseline)
+- lexical_diversity: 0.80  (z=+3.07 vs essay 인간 baseline)
+
+[v2.0 카운트형 지표 — 원값 / baseline calibration 전 z-score 해석 보류]
+- double_passive_count (이중 피동, 본진 A-8): 0
+- by_passive_count (~에 의해 피동, 본진 A-9): 0
+- pronoun_density (인칭 대명사 밀도, 본진 A-16): 0.006
+- have_make_literal_count (have/make 직역, 본진 A-7): 0
+- double_particle_count (이중 조사 결합, 본진 A-19): 0
+- relative_clause_nesting (관형절 3중+ 중첩 문장 수, 본진 A-18): 0
+- deul_overuse_rate ('-들' 남용률, 본진 A-17 hold): 0.000
+- 카운트 > 0 지표는 해당 본진 ID 처방(quick-rules.md·taxonomy)과 교차 확인 후 윤문할 것.
+
+[근거 사용 가이드]
+- 위 점수는 *근거 보조*다. 단독 판정 금지(보고서 명시).
+- z>1.0 지표는 quick-rules.md S1·S2 패턴과 교차 확인 후 윤문할 것.
+- ending_comma_rate가 ★ S1 트리거인 경우 C-11(연결어미 뒤 쉼표) 우선 손질.
+- conclusion_pivot 매치 토큰은 D-1·H-1 처방 적용 대상.
+
+[원문 시작]
+- 비용: 119 신고에는 돈이 들지 않습니다.
+- 쉽게: 찢어지는 듯한 극심한 통증이 가슴에서 등과 허리로 옮겨 가면 119에 신고하세요. 「찢어지듯 아프고 아픈 곳이 내려간다」고 바로 말하세요. 이 병은 수술 없이 약만 쓰면 사망률이 58%입니다. 처치가 심근경색과 정반대입니다. 의사가 이 병을 떠올려야 조영 CT를 찍습니다. 두 팔 혈압 차이가 크거나 한쪽 맥이 안 잡히면 그것도 말하세요.
+- 이득: 국제 급성 대동맥박리 등록(IRAD)은 12개 센터의 464건을 모았습니다. 대동맥박리는 가슴과 등이 찢어지듯 아픈 병입니다. 환자가 처음 말한 증상 중 가장 흔한 것은 극심하고 날카로운 통증이었습니다. 이 통증은 갑자기 시작됐습니다. 입원 중 전체 사망률은 27.4%였습니다. A형 박리를 수술 없이 약만으로 치료하면 사망률이 58%였습니다.
+- 비고: 박리와 심근경색은 처치가 정반대입니다. 심근경색에는 피가 굳지 않게 하는 항응고제와 혈전용해제를 씁니다. 이 약을 박리에 쓰면 찢어진 곳에서 피가 더 빠져나갑니다. 그래서 병원에서는 「찢어지듯, 아픈 곳이 내려간다」고 먼저 말하세요. 의사가 조영 CT를 떠올리는 데 도움이 됩니다. 두 팔의 혈압 차이가 크거나 한쪽 맥이 안 잡히는 것도 단서입니다. 혈압이 잘 관리되지 않는 사람은 위험이 높습니다. 마르판 증후군이 있는 사람도 위험이 높습니다. 가족 중 대동맥류나 박리가 있던 사람도 위험이 높습니다. 직접 운전하지 말고 다음 날까지 참지 마세요.
+[원문 끝]

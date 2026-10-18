@@ -1,0 +1,39 @@
+[정량 사전 점수 v2.0 — v1.6 8지표(KatFish baseline) + v2.0 카운트형]
+risk_band: low  (score 0)
+route_hint: light  (권고 — 사용자·오케스트레이터가 무시 가능)
+route_reason: 카운트형 티 0건(라우터가 세는 항목 기준) · risk_band low — 단일 콜·최소 파이프라인 권장. 카운터 밖 티는 monolith 가 룰북으로 잡는다
+genre: essay
+char_count: 583
+
+[v1.6 지표]
+- comma_inclusion_rate: 0.06  (z=-1.18 vs essay 인간 baseline)
+- comma_usage_rate: 0.12  (z=-1.42 vs essay 인간 baseline)
+- ending_comma_rate: 0.00  (z=-0.52 vs essay 인간 baseline)
+- comma_segment_length: 7.53  (n/a vs essay 인간 baseline)
+- conclusion_pivot_count: 0
+- safe_balance_count: 0
+- hanja_nominalizer_density: 0.007  (z=-1.76 vs essay 인간 baseline)
+- lexical_diversity: 0.83  (z=+3.69 vs essay 인간 baseline)
+
+[v2.0 카운트형 지표 — 원값 / baseline calibration 전 z-score 해석 보류]
+- double_passive_count (이중 피동, 본진 A-8): 0
+- by_passive_count (~에 의해 피동, 본진 A-9): 0
+- pronoun_density (인칭 대명사 밀도, 본진 A-16): 0.000
+- have_make_literal_count (have/make 직역, 본진 A-7): 0
+- double_particle_count (이중 조사 결합, 본진 A-19): 0
+- relative_clause_nesting (관형절 3중+ 중첩 문장 수, 본진 A-18): 2
+- deul_overuse_rate ('-들' 남용률, 본진 A-17 hold): 0.000
+- 카운트 > 0 지표는 해당 본진 ID 처방(quick-rules.md·taxonomy)과 교차 확인 후 윤문할 것.
+
+[근거 사용 가이드]
+- 위 점수는 *근거 보조*다. 단독 판정 금지(보고서 명시).
+- z>1.0 지표는 quick-rules.md S1·S2 패턴과 교차 확인 후 윤문할 것.
+- ending_comma_rate가 ★ S1 트리거인 경우 C-11(연결어미 뒤 쉼표) 우선 손질.
+- conclusion_pivot 매치 토큰은 D-1·H-1 처방 적용 대상.
+
+[원문 시작]
+- 비용: 돈은 들지 않습니다. 다만 가족의 말을 버티기가 쉽지 않습니다.
+- 쉽게: WHO에 따르면 제왕절개 비율이 10%를 넘으면 산모와 신생아 사망이 더 줄지 않습니다. 필요할 때는 꼭 받아야 합니다. 하지만 날짜를 고르거나 아플까 봐 받는 수술은 배를 여는 큰 수술을 괜히 하는 셈입니다.
+- 이득: 근거는 WHO의 2015년 성명입니다. 한 인구 집단에서 제왕절개율이 10%쯤까지 오르는 동안은 산모와 신생아 사망이 줄어듭니다. 10%를 넘은 뒤로는 사망률이 더 나아진다는 근거가 없습니다. WHO는 특정 비율을 목표로 삼지 말라고 강조했습니다. 대신 제왕절개가 필요한 산모가 수술을 받도록 모든 노력을 기울여야 한다고 했습니다.
+- 비고: 제왕절개는 의학적으로 필요할 때 생명을 구하는 수술입니다. 그럴 때는 버티지 말고 받으세요. 피해야 하는 건 의학적 이유 없이 하는 수술입니다. 아플까 봐 하거나 좋은 날짜를 받으려고 하는 수술이 여기에 해당합니다. 제왕절개는 배를 여는 큰 수술이라 회복이 더 느립니다. 다음 임신 때 전치태반, 유착태반, 자궁 파열 위험도 높아집니다. 그래서 이 선택은 둘째를 원하는지와 바로 이어집니다.
+[원문 끝]

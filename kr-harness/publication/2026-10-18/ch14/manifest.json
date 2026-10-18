@@ -1,0 +1,102 @@
+{
+  "source_commit": "225ec78",
+  "protected_labels": [
+    "비용",
+    "쉽게",
+    "이득",
+    "근거등급",
+    "출처",
+    "비고"
+  ],
+  "route_counts": {
+    "light": 9,
+    "standard": 1
+  },
+  "version": 2,
+  "chapter": "14",
+  "source": "book-kr/14-계정과-정보-보안.md",
+  "source_sha256": "c561a39adc1eed2feea3288fb464837ae39b230f7b4ee79c5a055de11580374a",
+  "genre": "essay",
+  "entries": [
+    {
+      "number": 1,
+      "heading": "### 1. 메일·결제·SNS 계정에 2단계 인증을 켜세요. 휴대폰 알림 방식이 우선, 문자 인증번호는 그다음",
+      "run_dir": "_workspace/2026-10-18-001-ad24",
+      "input_sha256": "08a8dc1fda2de12a98ba3eae281f3ca5fdbaad0bd3f67ef7a46c17c53182f299",
+      "entry_sha256": "8cda78a09db591d8490125b7f7d839ca7bf6fe2c6c010141418a4ae2cfad4e49",
+      "route": "light"
+    },
+    {
+      "number": 2,
+      "heading": "### 2. 이메일 비밀번호는 어디와도 겹치지 않게 하나만 따로 쓰세요",
+      "run_dir": "_workspace/2026-10-18-002-1d3c",
+      "input_sha256": "b0c585322dad38b44057efbcd2342805dfbf47f588aed1c9064743e9bcc86b69",
+      "entry_sha256": "749e32254c1ca04e7130e7b8d9e2cd04ac15c184bf88876f95eb67812df9826e",
+      "route": "light"
+    },
+    {
+      "number": 3,
+      "heading": "### 3. 휴대폰에 화면 잠금을, 유심에는 PIN 번호를 설정하세요",
+      "run_dir": "_workspace/2026-10-18-003-9a81",
+      "input_sha256": "4303265c96b1f4dcc08636614fa2a99435ef883c715a8ae846b543105eae37e1",
+      "entry_sha256": "5a8d988ae207565b351d435862935ea185ecd533746e4b5b6e903c4058c6fbbd",
+      "route": "light"
+    },
+    {
+      "number": 4,
+      "heading": "### 4. 휴대폰을 잃어버렸을 때는 이 순서로 하세요: 유심 정지, 원격 잠금, 비밀번호 변경, 신고, 계좌·카드 정지",
+      "run_dir": "_workspace/2026-10-18-004-45dd",
+      "input_sha256": "46d2d4bd6121b8a5960b6287e3709242a29f892793346d1abacafcf124f9a29d",
+      "entry_sha256": "c68c65545faa6074b4f89adcc02f3e8d78634242e5eca3cab903a99964e30191",
+      "route": "light"
+    },
+    {
+      "number": 5,
+      "heading": "### 5. 카드에 모르는 결제가 보이면 먼저 분실신고·이용 정지를 하세요. 신고 뒤 사용과 위조·해킹 결제는 카드사가 책임집니다",
+      "run_dir": "_workspace/2026-10-18-005-5297",
+      "input_sha256": "f967837dab7b0f0ec87dffb81c82bceaa2ca48a827908a9b9191f71b81b8b211",
+      "entry_sha256": "8ff3e2bbef7d54c5473db0296dc37fe287e96afae67e735b74c4333176fbb090",
+      "route": "standard"
+    },
+    {
+      "number": 6,
+      "heading": "### 6. 로그인된 기기와 연동된 앱 목록을 가끔 점검하고, 안 쓰는 것은 끊으세요",
+      "run_dir": "_workspace/2026-10-18-006-3621",
+      "input_sha256": "947e80ad5cf25fdeab83c1864d960f1f867068e3b0ce2a94d2bf183e1b7b6414",
+      "entry_sha256": "c7b246a234ba77f01c1d4cd6a72f886d1e3193581b75a6cc59c8c725b9b82b2e",
+      "route": "light"
+    },
+    {
+      "number": 7,
+      "heading": "### 7. 앱 설치하며 \"전체 동의\"를 누르지 마세요. 안 줘도 되는 정보를 안 줬다고 서비스를 거부하지 못합니다",
+      "run_dir": "_workspace/2026-10-18-007-80bf",
+      "input_sha256": "382ecbd2d22aed2428c5c582c9f41ba009f9528620c4bcf85c1dd865d3750994",
+      "entry_sha256": "a8d7402da2ffc06a86cf037da1454e52a3f969f297bfcd01e81aa2822a313806",
+      "route": "light"
+    },
+    {
+      "number": 8,
+      "heading": "### 8. 내 개인정보를 열람하고 정정·삭제할 권리가 있습니다. 거부당하면 분쟁조정이나 소송으로 갈 수 있습니다",
+      "run_dir": "_workspace/2026-10-18-008-3eb4",
+      "input_sha256": "ddb20d88837d21f0097a6d470b28fccf54fb579750e55c235f464f69ed181613",
+      "entry_sha256": "478021001f7f5813a23e906485bb4bd6740b830e4450e0797b1747648c3409c8",
+      "route": "light"
+    },
+    {
+      "number": 9,
+      "heading": "### 9. 얼굴인식은 거부할 수 있는 게 원칙입니다. 생체정보는 민감정보라 별도 동의를 받아야 합니다",
+      "run_dir": "_workspace/2026-10-18-009-5627",
+      "input_sha256": "505b7d1fde557c1c6f94780b5824ca9e9f7e2bef55639492293b02d5519f4e38",
+      "entry_sha256": "870499127bf26e0ead9e6f11c1c963b27d311b8186376bcb3bcb5ea694e676cc",
+      "route": "light"
+    },
+    {
+      "number": 10,
+      "heading": "### 10. 출처를 알 수 없는 \"AI 중개 사이트\"에 코드·키·개인정보를 맡기지 마세요. AI가 명령을 자동 실행하게 둘 때는 특히요",
+      "run_dir": "_workspace/2026-10-18-010-e88f",
+      "input_sha256": "d69f8f59c76b82bdf88ea0e5464ee3f5516d685aa6a0af501143e4288f446680",
+      "entry_sha256": "a2741cc35ef2c20754be43fc5eb6e40486d863ef9e07e5912850eb5929637079",
+      "route": "light"
+    }
+  ]
+}

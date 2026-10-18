@@ -1,0 +1,39 @@
+[정량 사전 점수 v2.0 — v1.6 8지표(KatFish baseline) + v2.0 카운트형]
+risk_band: low  (score 2)
+route_hint: light  (권고 — 사용자·오케스트레이터가 무시 가능)
+route_reason: 카운트형 티 0건(라우터가 세는 항목 기준) · risk_band low — 단일 콜·최소 파이프라인 권장. 카운터 밖 티는 monolith 가 룰북으로 잡는다
+genre: essay
+char_count: 921
+
+[v1.6 지표]
+- comma_inclusion_rate: 0.20  (z=-0.36 vs essay 인간 baseline)
+- comma_usage_rate: 0.20  (z=-1.30 vs essay 인간 baseline)
+- ending_comma_rate: 0.00  (z=-0.52 vs essay 인간 baseline)
+- comma_segment_length: 7.47  (z=+1.48 vs essay 인간 baseline)  · S2 시그널
+- conclusion_pivot_count: 0
+- safe_balance_count: 0
+- hanja_nominalizer_density: 0.005  (z=-1.85 vs essay 인간 baseline)
+- lexical_diversity: 0.77  (z=+2.36 vs essay 인간 baseline)
+
+[v2.0 카운트형 지표 — 원값 / baseline calibration 전 z-score 해석 보류]
+- double_passive_count (이중 피동, 본진 A-8): 0
+- by_passive_count (~에 의해 피동, 본진 A-9): 0
+- pronoun_density (인칭 대명사 밀도, 본진 A-16): 0.000
+- have_make_literal_count (have/make 직역, 본진 A-7): 0
+- double_particle_count (이중 조사 결합, 본진 A-19): 0
+- relative_clause_nesting (관형절 3중+ 중첩 문장 수, 본진 A-18): 0
+- deul_overuse_rate ('-들' 남용률, 본진 A-17 hold): 0.000
+- 카운트 > 0 지표는 해당 본진 ID 처방(quick-rules.md·taxonomy)과 교차 확인 후 윤문할 것.
+
+[근거 사용 가이드]
+- 위 점수는 *근거 보조*다. 단독 판정 금지(보고서 명시).
+- z>1.0 지표는 quick-rules.md S1·S2 패턴과 교차 확인 후 윤문할 것.
+- ending_comma_rate가 ★ S1 트리거인 경우 C-11(연결어미 뒤 쉼표) 우선 손질.
+- conclusion_pivot 매치 토큰은 D-1·H-1 처방 적용 대상.
+
+[원문 시작]
+- 비용: 돈은 들지 않습니다. 시간은 한 사람을 두고 계속 고민하는 대신 여러 사람을 만나는 데 씁니다. 어려운 건 한 사람에게 매달리고 싶은 마음을 참는 일입니다.
+- 쉽게: 미리 설문을 아무리 많이 해도 누가 대체로 인기가 많은지 정도만 알 수 있었습니다. 특정한 두 사람이 서로 끌릴지는 알 수 없었습니다. 잘 맞는지는 만나 봐야 아니, 여러 사람을 만나 보는 편이 낫습니다.
+- 이득: 스피드 데이트 연구 두 건에서 참가자는 만나기 전에 100개 넘는 문항에 답했습니다. 짝 고르기와 관련된 자기보고 척도(스스로 점수를 매기는 설문)였습니다. 연구진은 이 답을 랜덤 포레스트(규칙을 찾는 알고리즘의 하나)에 넣어 계산했습니다. 첫째, '한 사람이 대체로 남을 얼마나 쉽게 좋아하는가'를 봤습니다. 설문은 그 분산의 4~18%를 설명했습니다. 분산은 사람마다 다른 정도를 가리키므로, 설문으로는 그중 일부만 설명된 셈입니다. 둘째, '한 사람이 대체로 얼마나 인기 있는가'는 7~27%가 설명됐습니다. 그러나 '이 두 사람 사이에 끌림이 생기는가'는 계산하지 못했습니다. 만나기 전의 특성과 선호를 어떻게 조합해도 마찬가지였습니다. 같은 연구진은 그 전에도 스피드 데이트 실험을 했습니다. 이때 참가자는 만나기 전에 이상형 선호를 적었습니다. 외모를 중시하는지, 경제적 전망을 중시하는지 같은 항목입니다. 하지만 이 선호로는 현장에서 특정 상대에게 느낀 관심을 예측하지 못했습니다.
+- 비고: 두 연구가 보여 준 건 '만나기 전에는 계산할 수 없다'까지입니다. '아무리 애써도 소용없다'는 뜻은 아닙니다. 잘 맞는지는 만나 봐야 알 수 있습니다. 그러니 여러 사람을 실제로 한 번씩 만나 보는 데 시간을 쓰는 편이 낫습니다. 연구 대상은 모두 유럽·북미 대학생입니다. 한국의 연애·결혼 환경은 다르니 자기에게 적용할 때는 깎아서 보세요.
+[원문 끝]

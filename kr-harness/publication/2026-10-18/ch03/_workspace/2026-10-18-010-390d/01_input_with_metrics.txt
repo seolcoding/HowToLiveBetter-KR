@@ -1,0 +1,39 @@
+[정량 사전 점수 v2.0 — v1.6 8지표(KatFish baseline) + v2.0 카운트형]
+risk_band: low  (score 0)
+route_hint: light  (권고 — 사용자·오케스트레이터가 무시 가능)
+route_reason: 카운트형 티 0건(라우터가 세는 항목 기준) · risk_band low — 단일 콜·최소 파이프라인 권장. 카운터 밖 티는 monolith 가 룰북으로 잡는다
+genre: essay
+char_count: 530
+
+[v1.6 지표]
+- comma_inclusion_rate: 0.00  (z=-1.52 vs essay 인간 baseline)
+- comma_usage_rate: 0.00  (z=-1.58 vs essay 인간 baseline)
+- ending_comma_rate: 0.00  (z=-0.52 vs essay 인간 baseline)
+- comma_segment_length: 7.67  (n/a vs essay 인간 baseline)
+- conclusion_pivot_count: 0
+- safe_balance_count: 0
+- hanja_nominalizer_density: 0.000  (z=-2.00 vs essay 인간 baseline)
+- lexical_diversity: 0.81  (z=+3.12 vs essay 인간 baseline)
+
+[v2.0 카운트형 지표 — 원값 / baseline calibration 전 z-score 해석 보류]
+- double_passive_count (이중 피동, 본진 A-8): 0
+- by_passive_count (~에 의해 피동, 본진 A-9): 0
+- pronoun_density (인칭 대명사 밀도, 본진 A-16): 0.000
+- have_make_literal_count (have/make 직역, 본진 A-7): 0
+- double_particle_count (이중 조사 결합, 본진 A-19): 0
+- relative_clause_nesting (관형절 3중+ 중첩 문장 수, 본진 A-18): 0
+- deul_overuse_rate ('-들' 남용률, 본진 A-17 hold): 0.000
+- 카운트 > 0 지표는 해당 본진 ID 처방(quick-rules.md·taxonomy)과 교차 확인 후 윤문할 것.
+
+[근거 사용 가이드]
+- 위 점수는 *근거 보조*다. 단독 판정 금지(보고서 명시).
+- z>1.0 지표는 quick-rules.md S1·S2 패턴과 교차 확인 후 윤문할 것.
+- ending_comma_rate가 ★ S1 트리거인 경우 C-11(연결어미 뒤 쉼표) 우선 손질.
+- conclusion_pivot 매치 토큰은 D-1·H-1 처방 적용 대상.
+
+[원문 시작]
+- 비용: 돈이 들지 않습니다. 일을 잠에서 깬 뒤로 미루면 됩니다.
+- 쉽게: 잠을 충분히 잔 사람은 위험이 큰 선택을 피하는 법을 금방 배웁니다. 이틀 연속 못 자면 오히려 위험이 큰 쪽을 더 고릅니다. 나이가 들수록 수면 부족의 영향이 더 큽니다. 이 연구는 몇 시간 덜 잤을 때의 영향을 재지 않았습니다. 다만 중요한 결정은 잠에서 깬 뒤로 미루세요.
+- 이득: 건강한 성인 34명이 실험에 참여했습니다. 49.5시간 잠을 자지 않은 뒤 아이오와 도박 과제를 했습니다. 위험한 선택을 얼마나 하는지 재는 실험입니다. 푹 잔 상태에서는 고위험 선택을 피하는 법을 빨리 배웠습니다. 수면 부족 뒤에는 오히려 고위험 선택이 늘었습니다. 나이가 많은 사람이 더 큰 영향을 받았습니다. 근거는 실험 한 건에 그칩니다.
+- 비고: 이틀 연속 밤을 새우는 극단적인 상황을 연구했습니다. 보통 사람이 새벽 2시까지 깨어 있을 때의 영향은 재지 않았습니다. '메시지를 보내지 마세요'라는 권고는 지은이의 경험입니다(C급). 다음 날 보내도 늦지 않습니다.
+[원문 끝]

@@ -1,0 +1,39 @@
+[정량 사전 점수 v2.0 — v1.6 8지표(KatFish baseline) + v2.0 카운트형]
+risk_band: low  (score 0)
+route_hint: light  (권고 — 사용자·오케스트레이터가 무시 가능)
+route_reason: 카운트형 티 0건(라우터가 세는 항목 기준) · risk_band low — 단일 콜·최소 파이프라인 권장. 카운터 밖 티는 monolith 가 룰북으로 잡는다
+genre: essay
+char_count: 448
+
+[v1.6 지표]
+- comma_inclusion_rate: 0.00  (z=-1.52 vs essay 인간 baseline)
+- comma_usage_rate: 0.00  (z=-1.58 vs essay 인간 baseline)
+- ending_comma_rate: 0.00  (z=-0.52 vs essay 인간 baseline)
+- comma_segment_length: 6.53  (n/a vs essay 인간 baseline)
+- conclusion_pivot_count: 0
+- safe_balance_count: 0
+- hanja_nominalizer_density: 0.011  (z=-1.65 vs essay 인간 baseline)
+- lexical_diversity: 0.96  (z=+6.15 vs essay 인간 baseline)
+
+[v2.0 카운트형 지표 — 원값 / baseline calibration 전 z-score 해석 보류]
+- double_passive_count (이중 피동, 본진 A-8): 0
+- by_passive_count (~에 의해 피동, 본진 A-9): 0
+- pronoun_density (인칭 대명사 밀도, 본진 A-16): 0.000
+- have_make_literal_count (have/make 직역, 본진 A-7): 0
+- double_particle_count (이중 조사 결합, 본진 A-19): 0
+- relative_clause_nesting (관형절 3중+ 중첩 문장 수, 본진 A-18): 0
+- deul_overuse_rate ('-들' 남용률, 본진 A-17 hold): 0.000
+- 카운트 > 0 지표는 해당 본진 ID 처방(quick-rules.md·taxonomy)과 교차 확인 후 윤문할 것.
+
+[근거 사용 가이드]
+- 위 점수는 *근거 보조*다. 단독 판정 금지(보고서 명시).
+- z>1.0 지표는 quick-rules.md S1·S2 패턴과 교차 확인 후 윤문할 것.
+- ending_comma_rate가 ★ S1 트리거인 경우 C-11(연결어미 뒤 쉼표) 우선 손질.
+- conclusion_pivot 매치 토큰은 D-1·H-1 처방 적용 대상.
+
+[원문 시작]
+- 비용: 현장에서 폭력으로 대응하지 않습니다. 이의를 제기하거나 변호인과 상담하려면 시간이 따로 듭니다.
+- 쉽게: 경찰을 밀치거나 협박하면 공무집행방해 문제가 생깁니다. 상대가 다치지 않아도 성립할 수 있습니다.
+- 이득: 직무 집행 중인 공무원을 폭행·협박하면 「형법」 제136조가 적용됩니다. 법정형은 5년 이하 징역 또는 1,000만원 이하 벌금입니다. 적용하려면 공무 집행이 적법해야 하는 등 요건을 갖춰야 합니다.
+- 비고: 모든 질문에 답할 의무가 있다는 뜻은 아닙니다. 진술거부권이 없다는 뜻도 아닙니다. 체포 사유와 권리 안내를 요구하세요. 변호인의 조력을 구하세요. 원문의 경찰 전용 형량은 옮기지 않았습니다. 가벼운 저항을 자동으로 제외하는 규칙도 옮기지 않았습니다. 절차별 권리는 제8절(법적 말썽에 휘말리지 않기)을 보세요. 2026-10-10 법령 확인(국가법령정보센터).
+[원문 끝]

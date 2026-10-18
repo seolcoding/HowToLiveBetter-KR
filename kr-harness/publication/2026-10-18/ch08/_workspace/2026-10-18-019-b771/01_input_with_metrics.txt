@@ -1,0 +1,39 @@
+[정량 사전 점수 v2.0 — v1.6 8지표(KatFish baseline) + v2.0 카운트형]
+risk_band: low  (score 0)
+route_hint: light  (권고 — 사용자·오케스트레이터가 무시 가능)
+route_reason: 카운트형 티 0건(라우터가 세는 항목 기준) · risk_band low — 단일 콜·최소 파이프라인 권장. 카운터 밖 티는 monolith 가 룰북으로 잡는다
+genre: essay
+char_count: 500
+
+[v1.6 지표]
+- comma_inclusion_rate: 0.06  (z=-1.20 vs essay 인간 baseline)
+- comma_usage_rate: 0.11  (z=-1.43 vs essay 인간 baseline)
+- ending_comma_rate: 0.00  (z=-0.52 vs essay 인간 baseline)
+- comma_segment_length: 5.45  (n/a vs essay 인간 baseline)
+- conclusion_pivot_count: 0
+- safe_balance_count: 0
+- hanja_nominalizer_density: 0.000  (z=-2.00 vs essay 인간 baseline)
+- lexical_diversity: 0.90  (z=+4.90 vs essay 인간 baseline)
+
+[v2.0 카운트형 지표 — 원값 / baseline calibration 전 z-score 해석 보류]
+- double_passive_count (이중 피동, 본진 A-8): 0
+- by_passive_count (~에 의해 피동, 본진 A-9): 0
+- pronoun_density (인칭 대명사 밀도, 본진 A-16): 0.000
+- have_make_literal_count (have/make 직역, 본진 A-7): 0
+- double_particle_count (이중 조사 결합, 본진 A-19): 0
+- relative_clause_nesting (관형절 3중+ 중첩 문장 수, 본진 A-18): 0
+- deul_overuse_rate ('-들' 남용률, 본진 A-17 hold): 0.000
+- 카운트 > 0 지표는 해당 본진 ID 처방(quick-rules.md·taxonomy)과 교차 확인 후 윤문할 것.
+
+[근거 사용 가이드]
+- 위 점수는 *근거 보조*다. 단독 판정 금지(보고서 명시).
+- z>1.0 지표는 quick-rules.md S1·S2 패턴과 교차 확인 후 윤문할 것.
+- ending_comma_rate가 ★ S1 트리거인 경우 C-11(연결어미 뒤 쉼표) 우선 손질.
+- conclusion_pivot 매치 토큰은 D-1·H-1 처방 적용 대상.
+
+[원문 시작]
+- 비용: 기한을 확인하고 증거를 보관해야 합니다. 후속 신청·소송에는 비용이 들 수 있습니다.
+- 쉽게: 빌려준 돈, 임금, 해고 구제는 기한이 다릅니다. 독촉 문자 한 번으로 충분하다고 믿지 마세요. 만료 전에 필요한 절차를 확인하세요.
+- 이득: 「민법」 제162조의 일반 채권 시효는 10년입니다. 제163조의 일부 단기채권은 3년입니다. 시효는 권리를 행사할 수 있을 때부터 진행합니다. 임금채권은 「근로기준법」 제49조에 따라 3년입니다. 부당해고 구제신청은 제28조에 따라 3개월입니다. 민법 제174조의 최고에는 조건이 있습니다. 6개월 안에 재판상 청구·압류 등 후속 조치를 해야 합니다. 독촉만 계속한다고 시효가 영구히 새로 시작하지는 않습니다.
+- 비고: 상사채권·불법행위 등에는 다른 기간이 있습니다. 제시한 기간을 모든 청구에 적용하지 마세요. 내용증명은 발송 내용의 증거입니다. 판결이나 돈 회수를 보장하지 않습니다. 2026-10-10 법령 확인(국가법령정보센터).
+[원문 끝]

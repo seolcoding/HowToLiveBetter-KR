@@ -1,0 +1,39 @@
+[정량 사전 점수 v2.0 — v1.6 8지표(KatFish baseline) + v2.0 카운트형]
+risk_band: low  (score 0)
+route_hint: light  (권고 — 사용자·오케스트레이터가 무시 가능)
+route_reason: 카운트형 티 1건(라우터가 세는 항목 기준) · risk_band low — 단일 콜·최소 파이프라인 권장. 카운터 밖 티는 monolith 가 룰북으로 잡는다
+genre: essay
+char_count: 949
+
+[v1.6 지표]
+- comma_inclusion_rate: 0.12  (z=-0.80 vs essay 인간 baseline)
+- comma_usage_rate: 0.19  (z=-1.32 vs essay 인간 baseline)
+- ending_comma_rate: 0.00  (z=-0.52 vs essay 인간 baseline)
+- comma_segment_length: 5.61  (z=+0.60 vs essay 인간 baseline)
+- conclusion_pivot_count: 1  (lexicon 매치: '따라서')
+- safe_balance_count: 0
+- hanja_nominalizer_density: 0.014  (z=-1.52 vs essay 인간 baseline)
+- lexical_diversity: 0.75  (z=+1.93 vs essay 인간 baseline)
+
+[v2.0 카운트형 지표 — 원값 / baseline calibration 전 z-score 해석 보류]
+- double_passive_count (이중 피동, 본진 A-8): 0
+- by_passive_count (~에 의해 피동, 본진 A-9): 0
+- pronoun_density (인칭 대명사 밀도, 본진 A-16): 0.000
+- have_make_literal_count (have/make 직역, 본진 A-7): 0
+- double_particle_count (이중 조사 결합, 본진 A-19): 0
+- relative_clause_nesting (관형절 3중+ 중첩 문장 수, 본진 A-18): 1
+- deul_overuse_rate ('-들' 남용률, 본진 A-17 hold): 0.000
+- 카운트 > 0 지표는 해당 본진 ID 처방(quick-rules.md·taxonomy)과 교차 확인 후 윤문할 것.
+
+[근거 사용 가이드]
+- 위 점수는 *근거 보조*다. 단독 판정 금지(보고서 명시).
+- z>1.0 지표는 quick-rules.md S1·S2 패턴과 교차 확인 후 윤문할 것.
+- ending_comma_rate가 ★ S1 트리거인 경우 C-11(연결어미 뒤 쉼표) 우선 손질.
+- conclusion_pivot 매치 토큰은 D-1·H-1 처방 적용 대상.
+
+[원문 시작]
+- 비용: 매달 제품값이 들지만 부담은 크지 않은 편입니다. 다만 '예방은 이미 했다'는 착각이 대가로 남습니다.
+- 쉽게: 비타민 D가 부족하지 않은 사람이 5년간 보충했습니다. 암, 심혈관병, 사망은 안 먹은 사람과 뚜렷한 차이가 없었습니다. 검사에서 부족이 확인된 사람에게는 해당하지 않습니다. 골다공증 환자와 햇빛을 오래 못 쬐는 사람도 예외입니다. 이들은 의사 지시대로 먹으세요.
+- 이득: VITAL 시험에는 25,871명이 참여했습니다. 보충군은 매일 2000 IU를 먹었습니다. 추적 기간 중앙값은 5.3년입니다. 암, 심혈관 질환, 사망 모두 뚜렷한 차이가 없었습니다. 침윤성 암 발생 HR 0.96. 침윤성 암은 주변 조직으로 파고든 암을 말합니다. HR은 위험비로, 1이면 두 집단의 위험이 같습니다. 95% CI 0.88–1.06은 신뢰구간입니다. 주요 심혈관 사건 HR 0.97(0.85–1.12). 전체 사망 HR 0.99(0.87–1.12). D-Health 시험에는 60세 이상 호주인 21,315명이 참여했습니다. 보충군은 매달 60,000 IU를 5년간 먹었습니다. 이 시험에서도 사망 위험에 뚜렷한 차이가 없었습니다. 전체 사망 HR 1.04(0.93–1.18). 사망 비율은 5.3% 대 5.1%입니다. 보충제를 주지 않고 추적만 한 연구에서는 오해가 생겼습니다. 비타민 D 수치가 낮은 사람이 더 많이 사망했습니다. 이 결과를 '먹으면 효과가 있다'로 잘못 해석했습니다.
+- 비고: 논쟁 있음. 두 시험 모두 비타민 D가 부족한 사람만 모집하지는 않았습니다. 따라서 부족한 사람에게 이 결론을 그대로 적용하지 마세요. 부족이 확인된 사람과 골다공증 환자는 의사 지시대로 먹으세요. 햇빛을 오래 못 쬐는 사람과 영유아도 의사 지시를 따르세요. 제시한 수치는 전체 사망과 암, 심혈관 질환에 관한 결과입니다. 이 수치만으로 다른 건강 효과까지 판단하지 마세요.
+[원문 끝]

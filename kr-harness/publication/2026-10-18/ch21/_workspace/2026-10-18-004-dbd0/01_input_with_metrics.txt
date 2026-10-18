@@ -1,0 +1,39 @@
+[정량 사전 점수 v2.0 — v1.6 8지표(KatFish baseline) + v2.0 카운트형]
+risk_band: low  (score 3)
+route_hint: light  (권고 — 사용자·오케스트레이터가 무시 가능)
+route_reason: 카운트형 티 0건(라우터가 세는 항목 기준) · risk_band low — 단일 콜·최소 파이프라인 권장. 카운터 밖 티는 monolith 가 룰북으로 잡는다
+genre: essay
+char_count: 933
+
+[v1.6 지표]
+- comma_inclusion_rate: 0.12  (z=-0.85 vs essay 인간 baseline)
+- comma_usage_rate: 0.12  (z=-1.42 vs essay 인간 baseline)
+- ending_comma_rate: 0.33  (z=+3.72 vs essay 인간 baseline)  ★ S1 트리거
+- comma_segment_length: 7.52  (z=+1.50 vs essay 인간 baseline)  ★ S1 트리거
+- conclusion_pivot_count: 0
+- safe_balance_count: 0
+- hanja_nominalizer_density: 0.000  (z=-2.00 vs essay 인간 baseline)
+- lexical_diversity: 0.83  (z=+3.54 vs essay 인간 baseline)
+
+[v2.0 카운트형 지표 — 원값 / baseline calibration 전 z-score 해석 보류]
+- double_passive_count (이중 피동, 본진 A-8): 0
+- by_passive_count (~에 의해 피동, 본진 A-9): 0
+- pronoun_density (인칭 대명사 밀도, 본진 A-16): 0.000
+- have_make_literal_count (have/make 직역, 본진 A-7): 0
+- double_particle_count (이중 조사 결합, 본진 A-19): 0
+- relative_clause_nesting (관형절 3중+ 중첩 문장 수, 본진 A-18): 0
+- deul_overuse_rate ('-들' 남용률, 본진 A-17 hold): 0.000
+- 카운트 > 0 지표는 해당 본진 ID 처방(quick-rules.md·taxonomy)과 교차 확인 후 윤문할 것.
+
+[근거 사용 가이드]
+- 위 점수는 *근거 보조*다. 단독 판정 금지(보고서 명시).
+- z>1.0 지표는 quick-rules.md S1·S2 패턴과 교차 확인 후 윤문할 것.
+- ending_comma_rate가 ★ S1 트리거인 경우 C-11(연결어미 뒤 쉼표) 우선 손질.
+- conclusion_pivot 매치 토큰은 D-1·H-1 처방 적용 대상.
+
+[원문 시작]
+- 비용: 단기 여행자보험료가 듭니다. 금액은 여행 기간과 보장 한도에 따라 달라집니다.
+- 쉽게: 외국에 있는 동안에는 건강보험 급여가 멈춥니다. 해외 병원비는 내가 내야 하고, 대사관도 대신 내 주지 않습니다. 큰돈은 크게 다친 뒤 입원하고 이송될 때 듭니다. 그래서 보험은 해외 의료비와 긴급 이송 한도부터 보세요.
+- 이득: 국외에 있는 동안에는 건강보험 급여가 멈춥니다(「국민건강보험법」 제54조 제2호). 외국 병원 진료비를 건강보험이 내 주지 않는다는 뜻입니다. 영사조력도 마찬가지입니다(「재외국민보호를 위한 영사조력법」 제19조 제1항). 대사관도 의료비를 대신 내 주거나 보증하지 않습니다. 영사조력이 어디까지 돕는지는 제3항(영사조력)을 보세요. 큰돈이 드는 건 외래 진료가 아니라 크게 다친 뒤의 입원과 의료 이송입니다. 미국 질병통제예방센터(CDC)는 이런 예를 듭니다. 외딴 곳에서 좋은 병원까지 응급 이송하면 보험 없이 10만 달러를 넘을 수 있습니다. 그러니 보험을 고를 때는 한도 두 가지를 먼저 보세요. 하나는 해외 의료비 한도이고, 다른 하나는 긴급 의료 이송·본국 송환 한도입니다. 이송·송환 한도는 사고 뒤 병원을 옮기거나 한국으로 데려올 때 받는 최대 금액입니다.
+- 비고: 10만 달러는 넘을 수 있다는 하한일 뿐 비용 범위가 아닙니다. 공식 통계나 업계 통계에서 비용 범위를 찾지 못해 범위는 쓰지 않았습니다. 가입 전에는 세 가지를 확인하세요. 먼저 가려는 나라가 보장 지역에 드는지 보세요. 다이빙·스키·오토바이 같은 위험한 활동이 보장에서 빠져 있지 않은지도 보세요. 끝으로 보험사가 병원에 바로 내는지, 내가 먼저 내고 돌려받는지 확인하세요. 무비자로 가는 나라라도 보험은 똑같이 드세요. 외교부 대처매뉴얼도 사고가 나면 보험사에 보상 범위와 청구 서류부터 물으라고 합니다. 2026-10-10 국가법령정보센터 확인.
+[원문 끝]

@@ -1,0 +1,39 @@
+[정량 사전 점수 v2.0 — v1.6 8지표(KatFish baseline) + v2.0 카운트형]
+risk_band: low  (score 0)
+route_hint: light  (권고 — 사용자·오케스트레이터가 무시 가능)
+route_reason: 카운트형 티 0건(라우터가 세는 항목 기준) · risk_band low — 단일 콜·최소 파이프라인 권장. 카운터 밖 티는 monolith 가 룰북으로 잡는다
+genre: essay
+char_count: 585
+
+[v1.6 지표]
+- comma_inclusion_rate: 0.00  (z=-1.52 vs essay 인간 baseline)
+- comma_usage_rate: 0.00  (z=-1.58 vs essay 인간 baseline)
+- ending_comma_rate: 0.00  (z=-0.52 vs essay 인간 baseline)
+- comma_segment_length: 7.42  (n/a vs essay 인간 baseline)
+- conclusion_pivot_count: 0
+- safe_balance_count: 0
+- hanja_nominalizer_density: 0.015  (z=-1.51 vs essay 인간 baseline)
+- lexical_diversity: 0.77  (z=+2.47 vs essay 인간 baseline)
+
+[v2.0 카운트형 지표 — 원값 / baseline calibration 전 z-score 해석 보류]
+- double_passive_count (이중 피동, 본진 A-8): 0
+- by_passive_count (~에 의해 피동, 본진 A-9): 0
+- pronoun_density (인칭 대명사 밀도, 본진 A-16): 0.000
+- have_make_literal_count (have/make 직역, 본진 A-7): 0
+- double_particle_count (이중 조사 결합, 본진 A-19): 0
+- relative_clause_nesting (관형절 3중+ 중첩 문장 수, 본진 A-18): 0
+- deul_overuse_rate ('-들' 남용률, 본진 A-17 hold): 0.000
+- 카운트 > 0 지표는 해당 본진 ID 처방(quick-rules.md·taxonomy)과 교차 확인 후 윤문할 것.
+
+[근거 사용 가이드]
+- 위 점수는 *근거 보조*다. 단독 판정 금지(보고서 명시).
+- z>1.0 지표는 quick-rules.md S1·S2 패턴과 교차 확인 후 윤문할 것.
+- ending_comma_rate가 ★ S1 트리거인 경우 C-11(연결어미 뒤 쉼표) 우선 손질.
+- conclusion_pivot 매치 토큰은 D-1·H-1 처방 적용 대상.
+
+[원문 시작]
+- 비용: 돈이 들지 않습니다. 설정을 바꾸는 데 몇 분이면 됩니다. 의지력은 거의 필요 없습니다.
+- 쉽게: 휴대전화가 한 번만 울려도 주의력 과제 점수가 떨어집니다. 휴대전화를 보거나 만지지 않아도 점수가 떨어집니다. 점수 감소 폭은 전화를 받거나 문자를 보낼 때와 비슷합니다. 눈앞의 휴대전화를 보지 않으려 참아도 머리의 여유는 줄어듭니다. 휴대전화에 더 의존할수록 감소 폭도 큽니다.
+- 이득: 알림 하나만 받아도 주의력 과제 성적이 뚜렷하게 나빠졌습니다. 참가자들은 휴대전화를 보거나 만지지 않았습니다. 성적 감소 폭은 전화를 받거나 문자를 주고받을 때와 맞먹습니다. 대학생을 대상으로 한 실험실 실험입니다. 별도의 실험 2건에서는 휴대전화가 곁에 있을 때를 살폈습니다. 자기 휴대전화가 옆에 놓여 있기만 해도 머리의 여유가 줄어듭니다. 휴대전화를 보지 않으려 참아도 머리의 여유는 줄어듭니다. 휴대전화 의존도가 높은 사람에게서 감소 폭이 가장 컸습니다.
+- 비고: 모두 실험실에서 과제를 한 번씩 수행한 결과입니다. 이런 영향이 매일 쌓일 때의 결과는 측정하지 않았습니다. 항상 연락을 받아야 한다면 필요한 몇 명의 알림만 켜두세요.
+[원문 끝]

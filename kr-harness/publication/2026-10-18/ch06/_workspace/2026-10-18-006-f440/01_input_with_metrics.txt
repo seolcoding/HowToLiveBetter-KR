@@ -1,0 +1,39 @@
+[정량 사전 점수 v2.0 — v1.6 8지표(KatFish baseline) + v2.0 카운트형]
+risk_band: low  (score 2)
+route_hint: light  (권고 — 사용자·오케스트레이터가 무시 가능)
+route_reason: 카운트형 티 0건(라우터가 세는 항목 기준) · risk_band low — 단일 콜·최소 파이프라인 권장. 카운터 밖 티는 monolith 가 룰북으로 잡는다
+genre: essay
+char_count: 998
+
+[v1.6 지표]
+- comma_inclusion_rate: 0.21  (z=-0.29 vs essay 인간 baseline)
+- comma_usage_rate: 0.27  (z=-1.20 vs essay 인간 baseline)
+- ending_comma_rate: 0.33  (z=+3.72 vs essay 인간 baseline)  ★ S1 트리거
+- comma_segment_length: 5.55  (z=+0.57 vs essay 인간 baseline)
+- conclusion_pivot_count: 0
+- safe_balance_count: 0
+- hanja_nominalizer_density: 0.000  (z=-2.00 vs essay 인간 baseline)
+- lexical_diversity: 0.62  (z=-0.60 vs essay 인간 baseline)
+
+[v2.0 카운트형 지표 — 원값 / baseline calibration 전 z-score 해석 보류]
+- double_passive_count (이중 피동, 본진 A-8): 0
+- by_passive_count (~에 의해 피동, 본진 A-9): 0
+- pronoun_density (인칭 대명사 밀도, 본진 A-16): 0.000
+- have_make_literal_count (have/make 직역, 본진 A-7): 0
+- double_particle_count (이중 조사 결합, 본진 A-19): 0
+- relative_clause_nesting (관형절 3중+ 중첩 문장 수, 본진 A-18): 0
+- deul_overuse_rate ('-들' 남용률, 본진 A-17 hold): 0.000
+- 카운트 > 0 지표는 해당 본진 ID 처방(quick-rules.md·taxonomy)과 교차 확인 후 윤문할 것.
+
+[근거 사용 가이드]
+- 위 점수는 *근거 보조*다. 단독 판정 금지(보고서 명시).
+- z>1.0 지표는 quick-rules.md S1·S2 패턴과 교차 확인 후 윤문할 것.
+- ending_comma_rate가 ★ S1 트리거인 경우 C-11(연결어미 뒤 쉼표) 우선 손질.
+- conclusion_pivot 매치 토큰은 D-1·H-1 처방 적용 대상.
+
+[원문 시작]
+- 비용: 발포정을 매일 먹으면 1년 내내 제품값이 듭니다.
+- 쉽게: 매일 먹어도 감기에 걸리는 횟수는 거의 줄지 않습니다. 감기에 걸린 뒤 먹기 시작하면 효과는 일정하지 않습니다. 매일 먹으면 한 번 앓는 감기 기간이 약 8% 짧아집니다. 한 번 감기에 반나절 정도 덜 아픈 셈입니다. 1년치 비용을 들일 만한지 직접 계산해 보세요. 마라톤 선수와 추위 속에서 행군하는 군인은 예외입니다. 이들이 먹으면 감기에 걸릴 위험이 절반으로 줄었습니다.
+- 이득: 코크런은 대조시험 29건, 11,306명의 결과를 합쳤습니다. 일반인이 매일 비타민 C를 먹어도 감기 발생은 거의 줄지 않았습니다. 감기 발생 비율은 RR 0.97입니다. RR은 위험비이며, 1이면 두 집단의 위험이 같습니다. 95% CI 0.94–1.00은 신뢰범위입니다. 감기에 걸린 뒤 먹기 시작한 시험들의 결론은 '일관된 효과 없음'입니다. 효과가 있는 시험도 있고 없는 시험도 있습니다. 같은 분석에서 매일 장기 복용한 성인은 감기 기간이 약 8% 줄었습니다. 95% CI 3%–12%입니다. 아동의 감기 기간은 14%(7%–21%) 줄었습니다. 다만 마라톤 선수, 스키 선수, 추위 속 행군 군인은 예외입니다. 시험 5건, 598명에서 감기에 걸릴 위험이 약 절반 줄었습니다. 발생률은 RR 0.48(95% CI 0.35–0.64)입니다. 값이 싸고 새큼달콤한 맛이라 마시기 좋습니다. 그래서 비용에 비해 효과가 좋아 보입니다. '비타민 C는 감기 예방'이라는 말도 반세기 넘게 이어졌습니다.
+- 비고: 논쟁 있음. 같은 분석에서 매일 먹으면 감기 기간이 짧아졌습니다. 성인은 약 8%(3%–12%) 줄었습니다. 아동은 14%(7%–21%) 줄었습니다. 한 번 감기에 반나절 정도 덜 아픈 셈입니다. 마라톤 선수, 스키 선수, 추위 속 행군 군인은 예외입니다. 시험 5건, 598명에서 감기에 걸릴 위험이 약 절반 줄었습니다. RR 0.48, 0.35–0.64입니다. 대다수는 이런 예외 집단에 속하지 않습니다.
+[원문 끝]

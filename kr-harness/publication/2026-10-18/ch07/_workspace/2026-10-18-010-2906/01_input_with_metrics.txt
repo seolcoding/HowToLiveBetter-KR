@@ -1,0 +1,39 @@
+[정량 사전 점수 v2.0 — v1.6 8지표(KatFish baseline) + v2.0 카운트형]
+risk_band: low  (score 0)
+route_hint: light  (권고 — 사용자·오케스트레이터가 무시 가능)
+route_reason: 카운트형 티 0건(라우터가 세는 항목 기준) · risk_band low — 단일 콜·최소 파이프라인 권장. 카운터 밖 티는 monolith 가 룰북으로 잡는다
+genre: essay
+char_count: 670
+
+[v1.6 지표]
+- comma_inclusion_rate: 0.04  (z=-1.29 vs essay 인간 baseline)
+- comma_usage_rate: 0.04  (z=-1.52 vs essay 인간 baseline)
+- ending_comma_rate: 0.00  (z=-0.52 vs essay 인간 baseline)
+- comma_segment_length: 5.19  (n/a vs essay 인간 baseline)
+- conclusion_pivot_count: 0
+- safe_balance_count: 0
+- hanja_nominalizer_density: 0.000  (z=-2.00 vs essay 인간 baseline)
+- lexical_diversity: 0.93  (z=+5.63 vs essay 인간 baseline)
+
+[v2.0 카운트형 지표 — 원값 / baseline calibration 전 z-score 해석 보류]
+- double_passive_count (이중 피동, 본진 A-8): 0
+- by_passive_count (~에 의해 피동, 본진 A-9): 0
+- pronoun_density (인칭 대명사 밀도, 본진 A-16): 0.000
+- have_make_literal_count (have/make 직역, 본진 A-7): 0
+- double_particle_count (이중 조사 결합, 본진 A-19): 0
+- relative_clause_nesting (관형절 3중+ 중첩 문장 수, 본진 A-18): 0
+- deul_overuse_rate ('-들' 남용률, 본진 A-17 hold): 0.000
+- 카운트 > 0 지표는 해당 본진 ID 처방(quick-rules.md·taxonomy)과 교차 확인 후 윤문할 것.
+
+[근거 사용 가이드]
+- 위 점수는 *근거 보조*다. 단독 판정 금지(보고서 명시).
+- z>1.0 지표는 quick-rules.md S1·S2 패턴과 교차 확인 후 윤문할 것.
+- ending_comma_rate가 ★ S1 트리거인 경우 C-11(연결어미 뒤 쉼표) 우선 손질.
+- conclusion_pivot 매치 토큰은 D-1·H-1 처방 적용 대상.
+
+[원문 시작]
+- 비용: 진단서와 진료비 계산서·세부내역을 모으세요. 병원 원무과나 의료사회복지팀에 지원을 요청하세요. 공단·주민센터에 신청할 때는 추가 자료가 필요합니다.
+- 쉽게: 치료비가 커지면 대출부터 받지 마세요. 산정특례와 의료비 지원 대상인지 물어보세요. 비급여까지 모두 보장하지는 않습니다.
+- 이득: 산정특례는 대상 질환의 건강보험 본인부담을 낮춥니다. 병원에 등록 대상과 적용 범위를 확인하세요. 본인부담상한제는 연간 급여 본인부담을 합산합니다. 소득별 상한을 넘는 금액은 공단이 부담합니다. 비급여 등은 상한제에서 제외됩니다. 재난적의료비는 소득·의료비 부담 등을 심사합니다. 민간보험금과 다른 지원금의 중복분은 제외합니다. 최종 진료일 다음 날부터 180일 안에 공단에 신청하세요. 입원진료는 퇴원일을 기준으로 합니다. 긴급복지 의료지원도 함께 문의하세요. 이 지원의 의료비 한도는 300만원입니다.
+- 비고: 2026-10-10 법령·공단 안내 확인. 다른 지역 병원에 간다고 사전등록하지는 않습니다. 진료의뢰서와 보험 적용 조건은 별도로 확인하세요. 일반 질병에 전국 공통 유급병가가 보장되지는 않습니다. 취업규칙·단체협약에서 병가 규정을 확인하세요. 산재 질병·부상은 별도 경로입니다. 제19절(재직·퇴사·산재), 제24절(병원 이용)을 보세요. 지원은 심사 결과에 따라 달라집니다.
+[원문 끝]

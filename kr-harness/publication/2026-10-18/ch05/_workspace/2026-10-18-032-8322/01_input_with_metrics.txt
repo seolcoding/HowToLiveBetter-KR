@@ -1,0 +1,39 @@
+[정량 사전 점수 v2.0 — v1.6 8지표(KatFish baseline) + v2.0 카운트형]
+risk_band: low  (score 0)
+route_hint: light  (권고 — 사용자·오케스트레이터가 무시 가능)
+route_reason: 카운트형 티 0건(라우터가 세는 항목 기준) · risk_band low — 단일 콜·최소 파이프라인 권장. 카운터 밖 티는 monolith 가 룰북으로 잡는다
+genre: essay
+char_count: 907
+
+[v1.6 지표]
+- comma_inclusion_rate: 0.04  (z=-1.29 vs essay 인간 baseline)
+- comma_usage_rate: 0.04  (z=-1.52 vs essay 인간 baseline)
+- ending_comma_rate: 0.00  (z=-0.52 vs essay 인간 baseline)
+- comma_segment_length: 6.96  (n/a vs essay 인간 baseline)
+- conclusion_pivot_count: 0
+- safe_balance_count: 0
+- hanja_nominalizer_density: 0.006  (z=-1.81 vs essay 인간 baseline)
+- lexical_diversity: 0.81  (z=+3.27 vs essay 인간 baseline)
+
+[v2.0 카운트형 지표 — 원값 / baseline calibration 전 z-score 해석 보류]
+- double_passive_count (이중 피동, 본진 A-8): 0
+- by_passive_count (~에 의해 피동, 본진 A-9): 0
+- pronoun_density (인칭 대명사 밀도, 본진 A-16): 0.000
+- have_make_literal_count (have/make 직역, 본진 A-7): 0
+- double_particle_count (이중 조사 결합, 본진 A-19): 0
+- relative_clause_nesting (관형절 3중+ 중첩 문장 수, 본진 A-18): 0
+- deul_overuse_rate ('-들' 남용률, 본진 A-17 hold): 0.000
+- 카운트 > 0 지표는 해당 본진 ID 처방(quick-rules.md·taxonomy)과 교차 확인 후 윤문할 것.
+
+[근거 사용 가이드]
+- 위 점수는 *근거 보조*다. 단독 판정 금지(보고서 명시).
+- z>1.0 지표는 quick-rules.md S1·S2 패턴과 교차 확인 후 윤문할 것.
+- ending_comma_rate가 ★ S1 트리거인 경우 C-11(연결어미 뒤 쉼표) 우선 손질.
+- conclusion_pivot 매치 토큰은 D-1·H-1 처방 적용 대상.
+
+[원문 시작]
+- 비용: 돈 안 듭니다. 제품안전정보센터 누리집에서 몇 분이면 확인합니다.
+- 쉽게: 안전인증 대상 제품은 제품이나 포장에 인증 표시가 있어야 합니다. 표시 없는 대상제품은 판매가 금지됩니다. 중개도 원칙적으로 금지되지만 법정 조치를 갖춘 중개자는 예외입니다. 제품안전정보센터에서 인증 정보와 리콜 정보를 확인하세요. 에너지소비효율등급을 붙여야 하는 제품은 광고에도 등급을 넣어야 합니다.
+- 이득: 안전인증대상제품 제조·수입 사업자는 안전인증 표시를 해야 합니다. 제품이나 포장에 표시해야 합니다(「전기생활용품안전법」 제9조 제1항). 안전인증 표시가 없는 대상제품은 팔거나 빌려주거나 진열하면 안 됩니다. 오픈마켓 같은 판매중개업자도 원칙적으로 중개하면 안 됩니다. 인증 표시 없는 등록을 즉시 삭제해야 합니다. 등록 때 인증 정보를 입력하게 하고 소비자가 확인할 기술적 조치도 갖춰야 예외입니다. 구매대행업자에게도 같은 금지가 적용됩니다(같은 법 제10조). 국가기술표준원의 제품안전정보센터(Safety Korea)를 이용하세요. 인증정보·리콜정보 검색과 제품사고 신고를 할 수 있습니다. 효율관리기자재 제조·수입 사업자는 등급이나 효율을 표시해야 합니다. 등급은 에너지소비효율등급을 말합니다. 제품에 표시하고 광고에도 넣어야 합니다(「에너지이용 합리화법」 제15조 제2항·제4항).
+- 비고: "확인하면 불량품을 얼마나 덜 사는가"를 잰 연구는 없어서 B로 둡니다(원문 등급 유지). 원문은 2024년 중국 국가 추출검사 불합격률을 실었습니다. 한국 국가기술표준원의 연간 안전성조사 불합격률은 이번에 확인하지 못했습니다(TODO). 추출검사 결과는 시장 전체의 합격률을 보여주지 않습니다. 플랫폼 순위를 매기는 근거도 아닙니다. 2026-10-10 법령 확인(국가법령정보센터), 제품안전정보센터 첫 화면 확인.
+[원문 끝]

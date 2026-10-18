@@ -1,0 +1,39 @@
+[정량 사전 점수 v2.0 — v1.6 8지표(KatFish baseline) + v2.0 카운트형]
+risk_band: low  (score 0)
+route_hint: light  (권고 — 사용자·오케스트레이터가 무시 가능)
+route_reason: 카운트형 티 0건(라우터가 세는 항목 기준) · risk_band low — 단일 콜·최소 파이프라인 권장. 카운터 밖 티는 monolith 가 룰북으로 잡는다
+genre: essay
+char_count: 930
+
+[v1.6 지표]
+- comma_inclusion_rate: 0.10  (z=-0.94 vs essay 인간 baseline)
+- comma_usage_rate: 0.10  (z=-1.44 vs essay 인간 baseline)
+- ending_comma_rate: 0.00  (z=-0.52 vs essay 인간 baseline)
+- comma_segment_length: 6.21  (z=+0.88 vs essay 인간 baseline)
+- conclusion_pivot_count: 0
+- safe_balance_count: 0
+- hanja_nominalizer_density: 0.000  (z=-2.00 vs essay 인간 baseline)
+- lexical_diversity: 0.76  (z=+2.12 vs essay 인간 baseline)
+
+[v2.0 카운트형 지표 — 원값 / baseline calibration 전 z-score 해석 보류]
+- double_passive_count (이중 피동, 본진 A-8): 0
+- by_passive_count (~에 의해 피동, 본진 A-9): 0
+- pronoun_density (인칭 대명사 밀도, 본진 A-16): 0.000
+- have_make_literal_count (have/make 직역, 본진 A-7): 0
+- double_particle_count (이중 조사 결합, 본진 A-19): 0
+- relative_clause_nesting (관형절 3중+ 중첩 문장 수, 본진 A-18): 1
+- deul_overuse_rate ('-들' 남용률, 본진 A-17 hold): 0.000
+- 카운트 > 0 지표는 해당 본진 ID 처방(quick-rules.md·taxonomy)과 교차 확인 후 윤문할 것.
+
+[근거 사용 가이드]
+- 위 점수는 *근거 보조*다. 단독 판정 금지(보고서 명시).
+- z>1.0 지표는 quick-rules.md S1·S2 패턴과 교차 확인 후 윤문할 것.
+- ending_comma_rate가 ★ S1 트리거인 경우 C-11(연결어미 뒤 쉼표) 우선 손질.
+- conclusion_pivot 매치 토큰은 D-1·H-1 처방 적용 대상.
+
+[원문 시작]
+- 비용: 씻는 데는 돈이 안 듭니다. 진료비는 듭니다. 의사가 백신이나 면역글로불린을 놓으면 비용이 더 듭니다.
+- 쉽게: 공수병(사람이 걸리는 광견병)은 증상이 나타나면 거의 100% 죽습니다. 그래서 물리면 비누와 흐르는 물로 15분 씻고 그날 진료받으세요. 국내에서는 2005년 이후 사람 환자가 없습니다. 다만 휴전선 근처 야생동물은 감염이 의심됩니다. 해외여행 중에 물려도 똑같이 바로 씻고 진료받으세요.
+- 이득: 세계보건기구(WHO)는 광견병 사망자를 한 해 44,203명으로 추정합니다. 2021년 세계 보건 추정치로, 실제보다 적게 잡혔을 수 있습니다. 사람 환자의 최대 99%는 개가 옮깁니다. "증상이 나타나면 광견병은 사실상 100% 치명적"입니다. 물리거나 긁히면 상처를 비누와 물로 최소 15분 씻으세요. 이어서 진료받으세요. 심한 노출(III급)은 상처를 씻고 즉시 백신을 접종합니다. 광견병 면역글로불린이나 단클론항체도 함께 씁니다. 질병관리청에 따르면 국내에서는 2005년 이후 사람 공수병 환자가 없습니다. 동물 광견병도 2014년 이후 보고가 없습니다. 다만 북한과 맞닿은 휴전선 인근은 감염이 의심되는 지역입니다. 너구리 같은 야생동물이 해당합니다. 질병관리청은 물리거나 할퀴이면 즉시 씻으라고 권합니다. 비누와 흐르는 물로 15분 씻으라는 권고입니다. 의료기관에서 백신 접종 등 처치도 받으라고 합니다.
+- 비고: 「집에서 키우는 개라서, 주사를 맞힌 개라서 괜찮다」고 스스로 판단하지 마세요. 백신을 맞을지는 의사가 상처 정도와 동물, 지역을 보고 정합니다. 상처를 스스로 싸매 두지 마세요. 야생동물이나 박쥐에 물려도 똑같이 씻고 진료받으세요. 광견병이 도는 나라로 여행 가기 전에는 의사와 상의할 수 있습니다. 질병관리청은 예방접종에 관해 상의할 수 있다고 안내합니다. 2026-10-10 질병관리청 보도자료 확인.
+[원문 끝]

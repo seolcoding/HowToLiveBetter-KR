@@ -1,0 +1,39 @@
+[정량 사전 점수 v2.0 — v1.6 8지표(KatFish baseline) + v2.0 카운트형]
+risk_band: low  (score 3)
+route_hint: light  (권고 — 사용자·오케스트레이터가 무시 가능)
+route_reason: 카운트형 티 0건(라우터가 세는 항목 기준) · risk_band low — 단일 콜·최소 파이프라인 권장. 카운터 밖 티는 monolith 가 룰북으로 잡는다
+genre: essay
+char_count: 787
+
+[v1.6 지표]
+- comma_inclusion_rate: 0.19  (z=-0.42 vs essay 인간 baseline)
+- comma_usage_rate: 0.19  (z=-1.31 vs essay 인간 baseline)
+- ending_comma_rate: 0.17  (z=+1.60 vs essay 인간 baseline)  ★ S1 트리거
+- comma_segment_length: 7.76  (z=+1.62 vs essay 인간 baseline)  ★ S1 트리거
+- conclusion_pivot_count: 0
+- safe_balance_count: 0
+- hanja_nominalizer_density: 0.000  (z=-2.00 vs essay 인간 baseline)
+- lexical_diversity: 0.80  (z=+3.00 vs essay 인간 baseline)
+
+[v2.0 카운트형 지표 — 원값 / baseline calibration 전 z-score 해석 보류]
+- double_passive_count (이중 피동, 본진 A-8): 0
+- by_passive_count (~에 의해 피동, 본진 A-9): 0
+- pronoun_density (인칭 대명사 밀도, 본진 A-16): 0.000
+- have_make_literal_count (have/make 직역, 본진 A-7): 0
+- double_particle_count (이중 조사 결합, 본진 A-19): 0
+- relative_clause_nesting (관형절 3중+ 중첩 문장 수, 본진 A-18): 1
+- deul_overuse_rate ('-들' 남용률, 본진 A-17 hold): 0.000
+- 카운트 > 0 지표는 해당 본진 ID 처방(quick-rules.md·taxonomy)과 교차 확인 후 윤문할 것.
+
+[근거 사용 가이드]
+- 위 점수는 *근거 보조*다. 단독 판정 금지(보고서 명시).
+- z>1.0 지표는 quick-rules.md S1·S2 패턴과 교차 확인 후 윤문할 것.
+- ending_comma_rate가 ★ S1 트리거인 경우 C-11(연결어미 뒤 쉼표) 우선 손질.
+- conclusion_pivot 매치 토큰은 D-1·H-1 처방 적용 대상.
+
+[원문 시작]
+- 비용: 돈이 들지 않습니다. 이 분류로 교재와 강의를 고르지 않고, 유형 검사에 돈을 쓰지 않으면 됩니다.
+- 쉽게: 시각형·청각형 같은 학습 유형에 맞춰 가르쳐야 잘 배운다고 믿는 사람이 많습니다. 하지만 제대로 검증한 연구는 아주 적고, 뒷받침한 연구는 거의 없습니다. 몇몇 연구는 정반대 결과를 냈습니다. 사람마다 좋아하는 방식은 있어도 유형 검사에 돈을 쓸 이유는 없습니다.
+- 이득: 저자들은 학습 유형의 근거를 평가해 달라는 의뢰를 받고 이 종설을 썼습니다. 이들은 「학습 유형에 맞춘 수업」이 통한다고 보이려면 순서가 있다고 했습니다. 먼저 학생을 유형별로 나눕니다. 다음으로 유형마다 학생을 여러 교수법에 무작위로 배정합니다. 마지막으로 모두 같은 시험을 치릅니다. 통한다고 판단하는 기준은 특정한 교호작용입니다. 한 유형에 가장 잘 맞는 교수법이 다른 유형에는 가장 잘 맞지 않아야 합니다. 검토 결과, 이런 교호작용은 거의 발견되지 않았습니다. 학습 유형 문헌은 많지만 제대로 된 실험 설계를 쓴 연구는 아주 적었습니다. 그중 몇 편은 「맞춤 가설」과 정면으로 반대되는 결과를 냈습니다. 저자들은 지금 근거로는 학습 유형 검사를 교육 현장에 넣기에 부족하다고 봤습니다.
+- 비고: 종설은 학습 유형 이론의 모든 형태가 검증을 거쳐 부정됐다는 뜻은 아니라고도 밝혔습니다. 그중 상당수는 아예 검증된 적이 없다고 했습니다. 그래도 돈을 내고 유형 검사를 받거나, 유형에 맞춰 학원을 고르는 일은 피하세요. 교육 과정을 고를 때는 제9항(정부 지원 과정)과 제13항(짧은 과정)을 보세요.
+[원문 끝]

@@ -1,0 +1,39 @@
+[정량 사전 점수 v2.0 — v1.6 8지표(KatFish baseline) + v2.0 카운트형]
+risk_band: low  (score 3)
+route_hint: light  (권고 — 사용자·오케스트레이터가 무시 가능)
+route_reason: 카운트형 티 0건(라우터가 세는 항목 기준) · risk_band low — 단일 콜·최소 파이프라인 권장. 카운터 밖 티는 monolith 가 룰북으로 잡는다
+genre: essay
+char_count: 767
+
+[v1.6 지표]
+- comma_inclusion_rate: 0.17  (z=-0.56 vs essay 인간 baseline)
+- comma_usage_rate: 0.17  (z=-1.35 vs essay 인간 baseline)
+- ending_comma_rate: 0.20  (z=+2.02 vs essay 인간 baseline)  ★ S1 트리거
+- comma_segment_length: 6.54  (z=+1.04 vs essay 인간 baseline)  · S2 시그널
+- conclusion_pivot_count: 0
+- safe_balance_count: 0
+- hanja_nominalizer_density: 0.006  (z=-1.81 vs essay 인간 baseline)
+- lexical_diversity: 0.84  (z=+3.87 vs essay 인간 baseline)
+
+[v2.0 카운트형 지표 — 원값 / baseline calibration 전 z-score 해석 보류]
+- double_passive_count (이중 피동, 본진 A-8): 0
+- by_passive_count (~에 의해 피동, 본진 A-9): 0
+- pronoun_density (인칭 대명사 밀도, 본진 A-16): 0.000
+- have_make_literal_count (have/make 직역, 본진 A-7): 0
+- double_particle_count (이중 조사 결합, 본진 A-19): 0
+- relative_clause_nesting (관형절 3중+ 중첩 문장 수, 본진 A-18): 0
+- deul_overuse_rate ('-들' 남용률, 본진 A-17 hold): 0.000
+- 카운트 > 0 지표는 해당 본진 ID 처방(quick-rules.md·taxonomy)과 교차 확인 후 윤문할 것.
+
+[근거 사용 가이드]
+- 위 점수는 *근거 보조*다. 단독 판정 금지(보고서 명시).
+- z>1.0 지표는 quick-rules.md S1·S2 패턴과 교차 확인 후 윤문할 것.
+- ending_comma_rate가 ★ S1 트리거인 경우 C-11(연결어미 뒤 쉼표) 우선 손질.
+- conclusion_pivot 매치 토큰은 D-1·H-1 처방 적용 대상.
+
+[원문 시작]
+- 비용: 비용은 병원마다 다릅니다. 분만할 병원에서 무통분만이 되는지, 얼마인지 산전 진찰 때 미리 물어보세요. 내가 먼저 말을 꺼내야 한다는 점이 어렵습니다.
+- 쉽게: 무통분만은 허리에 마취 주사를 놓아 진통을 줄이는 방법입니다. 다른 진통 방법보다 잘 듣습니다. 제왕절개를 할 확률도, 오래가는 허리 통증도 늘리지 않습니다.
+- 이득: 무통분만은 경막외 진통을 가리킵니다. 코크런 체계적 고찰에 따르면 경막외 진통은 다른 방법보다 진통을 더 잘 줄였습니다. 진통 조절에 대한 산모 만족도도 더 높았습니다. 같은 고찰은 "경막외 진통은 제왕절개 위험과 장기 요통에 영향을 주지 않았다"고 했습니다. 기구 분만은 기구를 써서 아기를 꺼내는 분만입니다. 2005년 이후 연구에서는 기구 분만이 늘어나는 현상이 보이지 않았습니다.
+- 비고: 무통분만을 두고 가장 널리 퍼진 소문은 두 가지입니다. 평생 허리가 아프다는 소문, 그리고 난산이 돼 결국 수술한다는 소문입니다. 둘 다 근거가 없습니다. 코크런 고찰은 경막외 진통을 다른 진통 방법과 비교했습니다. 제왕절개 위험과 오래가는 허리 통증에는 영향이 없었습니다. 실제 부작용은 혈압 저하와 발열입니다. 다리에 힘이 빠지거나 소변이 안 나오기도 합니다. 분만 1기와 2기가 길어지고, 자궁수축제(옥시토신)를 쓸 가능성도 커집니다. 할지 말지는 본인이 정하면 됩니다. 다만 소문만 믿고 포기하지는 마세요. 무통분만은 마취과 의사가 24시간 병원에 있어야 할 수 있습니다. 분만할 병원이 그런지 산전 진찰 때 확인하세요.
+[원문 끝]

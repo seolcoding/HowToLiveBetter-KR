@@ -1,0 +1,39 @@
+[정량 사전 점수 v2.0 — v1.6 8지표(KatFish baseline) + v2.0 카운트형]
+risk_band: low  (score 0)
+route_hint: light  (권고 — 사용자·오케스트레이터가 무시 가능)
+route_reason: 카운트형 티 0건(라우터가 세는 항목 기준) · risk_band low — 단일 콜·최소 파이프라인 권장. 카운터 밖 티는 monolith 가 룰북으로 잡는다
+genre: essay
+char_count: 524
+
+[v1.6 지표]
+- comma_inclusion_rate: 0.00  (z=-1.52 vs essay 인간 baseline)
+- comma_usage_rate: 0.00  (z=-1.58 vs essay 인간 baseline)
+- ending_comma_rate: 0.00  (z=-0.52 vs essay 인간 baseline)
+- comma_segment_length: 6.05  (n/a vs essay 인간 baseline)
+- conclusion_pivot_count: 0
+- safe_balance_count: 0
+- hanja_nominalizer_density: 0.000  (z=-2.00 vs essay 인간 baseline)
+- lexical_diversity: 0.82  (z=+3.41 vs essay 인간 baseline)
+
+[v2.0 카운트형 지표 — 원값 / baseline calibration 전 z-score 해석 보류]
+- double_passive_count (이중 피동, 본진 A-8): 0
+- by_passive_count (~에 의해 피동, 본진 A-9): 0
+- pronoun_density (인칭 대명사 밀도, 본진 A-16): 0.000
+- have_make_literal_count (have/make 직역, 본진 A-7): 0
+- double_particle_count (이중 조사 결합, 본진 A-19): 0
+- relative_clause_nesting (관형절 3중+ 중첩 문장 수, 본진 A-18): 1
+- deul_overuse_rate ('-들' 남용률, 본진 A-17 hold): 0.000
+- 카운트 > 0 지표는 해당 본진 ID 처방(quick-rules.md·taxonomy)과 교차 확인 후 윤문할 것.
+
+[근거 사용 가이드]
+- 위 점수는 *근거 보조*다. 단독 판정 금지(보고서 명시).
+- z>1.0 지표는 quick-rules.md S1·S2 패턴과 교차 확인 후 윤문할 것.
+- ending_comma_rate가 ★ S1 트리거인 경우 C-11(연결어미 뒤 쉼표) 우선 손질.
+- conclusion_pivot 매치 토큰은 D-1·H-1 처방 적용 대상.
+
+[원문 시작]
+- 비용: 돈이 안 듭니다. 동료와 윗사람의 협조가 필요합니다. 말로 한마디면 될 내용을 글로 써야 하는 수고도 듭니다.
+- 쉽게: 회의가 많은 날에는 더 피곤하게 느낍니다. 체감 업무량도 늘어납니다. 회의 하나를 줄이면 그 시간만큼 아낍니다.
+- 이득: 두 조사는 주 35시간 넘게 일하는 직원을 다뤘습니다. 표본은 각각 676명과 304명입니다. 회의 시간이 태도와 웰빙에 미치는 영향은 일정하지 않았습니다. 회의가 얼마나 잘 진행되는지에 달렸습니다. 업무가 동료와 얼마나 맞물리는지도 영향을 줬습니다. 다른 연구는 일주일치 일기를 분석했습니다. 회의가 많은 날에는 피로가 더 컸습니다. 체감 업무량도 높았습니다. 회의를 줄이면 그 시간만큼 아낍니다.
+- 비고: 논쟁 있음. Rogelberg 2006에서는 회의량과 행복이 한 방향으로만 움직이지 않았습니다. 동료와 맞물려 일할 때는 회의가 많아도 나쁘지만은 않았습니다. 「글로 비동기 소통하기」와 회의를 직접 비교한 연구도 없습니다. 두 결과를 연결한 판단은 지은이의 추론입니다.
+[원문 끝]

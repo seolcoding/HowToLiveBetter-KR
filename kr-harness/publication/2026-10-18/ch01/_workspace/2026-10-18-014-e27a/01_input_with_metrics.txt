@@ -1,0 +1,39 @@
+[정량 사전 점수 v2.0 — v1.6 8지표(KatFish baseline) + v2.0 카운트형]
+risk_band: low  (score 0)
+route_hint: light  (권고 — 사용자·오케스트레이터가 무시 가능)
+route_reason: 카운트형 티 0건(라우터가 세는 항목 기준) · risk_band low — 단일 콜·최소 파이프라인 권장. 카운터 밖 티는 monolith 가 룰북으로 잡는다
+genre: essay
+char_count: 973
+
+[v1.6 지표]
+- comma_inclusion_rate: 0.03  (z=-1.33 vs essay 인간 baseline)
+- comma_usage_rate: 0.03  (z=-1.54 vs essay 인간 baseline)
+- ending_comma_rate: 0.00  (z=-0.52 vs essay 인간 baseline)
+- comma_segment_length: 6.38  (n/a vs essay 인간 baseline)
+- conclusion_pivot_count: 0
+- safe_balance_count: 0
+- hanja_nominalizer_density: 0.010  (z=-1.67 vs essay 인간 baseline)
+- lexical_diversity: 0.79  (z=+2.70 vs essay 인간 baseline)
+
+[v2.0 카운트형 지표 — 원값 / baseline calibration 전 z-score 해석 보류]
+- double_passive_count (이중 피동, 본진 A-8): 0
+- by_passive_count (~에 의해 피동, 본진 A-9): 0
+- pronoun_density (인칭 대명사 밀도, 본진 A-16): 0.000
+- have_make_literal_count (have/make 직역, 본진 A-7): 0
+- double_particle_count (이중 조사 결합, 본진 A-19): 0
+- relative_clause_nesting (관형절 3중+ 중첩 문장 수, 본진 A-18): 0
+- deul_overuse_rate ('-들' 남용률, 본진 A-17 hold): 0.000
+- 카운트 > 0 지표는 해당 본진 ID 처방(quick-rules.md·taxonomy)과 교차 확인 후 윤문할 것.
+
+[근거 사용 가이드]
+- 위 점수는 *근거 보조*다. 단독 판정 금지(보고서 명시).
+- z>1.0 지표는 quick-rules.md S1·S2 패턴과 교차 확인 후 윤문할 것.
+- ending_comma_rate가 ★ S1 트리거인 경우 C-11(연결어미 뒤 쉼표) 우선 손질.
+- conclusion_pivot 매치 토큰은 D-1·H-1 처방 적용 대상.
+
+[원문 시작]
+- 비용: 국가건강검진은 40세에 B형간염 검사를 합니다. 따로 받으면 몇만 원이 듭니다. 어른 B형간염 백신은 국가예방접종 대상이 아닙니다. 그래서 세 번 맞는 값을 직접 냅니다. 세 번 모두 반년 안에 맞습니다.
+- 쉽게: 태어나자마자 B형간염 백신을 맞은 사람은 나중에 간암 위험이 84% 낮았습니다. 몸에 바이러스를 가진 비율도 72% 낮았습니다. 한국은 40세 국가건강검진 때 B형간염 검사를 합니다.
+- 이득: 중국 치둥 시험은 사람이 아니라 집단 단위로 무작위로 나눴습니다. 추적 기간은 30년입니다. 신생아에게 B형간염 백신을 놓자 원발성 간암이 84% 줄었습니다. 믿을 만한 범위는 95% CI 23%~97%입니다. B형간염 표면항원(HBsAg) 양성률은 72% 줄었습니다(95% CI 68%~75%). 양성률은 몸에 바이러스를 가진 사람의 비율을 말합니다. 한국 국민건강영양조사를 보면 HBsAg 양성률이 떨어졌습니다. 1998년 4.6%에서 2008년 2.9%로 내려갔습니다. 그 뒤 5년 동안은 그대로였습니다. 양성률이 가장 높은 나이대는 1998년 35~39세, 2013년 50~54세였습니다. 국가건강검진은 40세에 B형간염 표면항원·항체 검사를 합니다. 이미 양성이거나 항체가 생긴 사람은 대상에서 뺍니다. 국가예방접종의 B형간염 백신은 12세 이하가 대상입니다.
+- 비고: 백신을 맞은 적이 없거나 항체가 사라진 어른이 대상입니다. 간암 84% 감소는 태어나자마자 맞은 사람의 수치입니다. 같은 시험은 청소년기에 따라잡기 접종을 한 사람도 살폈습니다. 이들에게서 바이러스 보유를 막는 효과는 21%에 그쳤습니다. 어른은 주로 새 감염을 막으려고 맞습니다. 그러니 84%를 그대로 적용하면 안 됩니다. 검사지의 B형간염 표면항원(HBsAg)이 양성이면 이미 감염된 상태입니다. 이미 감염된 사람에게는 백신이 소용없습니다. 간 진료과에서 정기적으로 검사받으세요. 2026-10-10 고시 확인(국가법령정보센터).
+[원문 끝]

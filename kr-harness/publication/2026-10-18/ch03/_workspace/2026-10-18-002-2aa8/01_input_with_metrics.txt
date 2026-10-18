@@ -1,0 +1,39 @@
+[정량 사전 점수 v2.0 — v1.6 8지표(KatFish baseline) + v2.0 카운트형]
+risk_band: low  (score 0)
+route_hint: light  (권고 — 사용자·오케스트레이터가 무시 가능)
+route_reason: 카운트형 티 0건(라우터가 세는 항목 기준) · risk_band low — 단일 콜·최소 파이프라인 권장. 카운터 밖 티는 monolith 가 룰북으로 잡는다
+genre: essay
+char_count: 592
+
+[v1.6 지표]
+- comma_inclusion_rate: 0.00  (z=-1.52 vs essay 인간 baseline)
+- comma_usage_rate: 0.00  (z=-1.58 vs essay 인간 baseline)
+- ending_comma_rate: 0.00  (z=-0.52 vs essay 인간 baseline)
+- comma_segment_length: 6.14  (n/a vs essay 인간 baseline)
+- conclusion_pivot_count: 0
+- safe_balance_count: 0
+- hanja_nominalizer_density: 0.000  (z=-2.00 vs essay 인간 baseline)
+- lexical_diversity: 0.82  (z=+3.34 vs essay 인간 baseline)
+
+[v2.0 카운트형 지표 — 원값 / baseline calibration 전 z-score 해석 보류]
+- double_passive_count (이중 피동, 본진 A-8): 0
+- by_passive_count (~에 의해 피동, 본진 A-9): 0
+- pronoun_density (인칭 대명사 밀도, 본진 A-16): 0.000
+- have_make_literal_count (have/make 직역, 본진 A-7): 0
+- double_particle_count (이중 조사 결합, 본진 A-19): 0
+- relative_clause_nesting (관형절 3중+ 중첩 문장 수, 본진 A-18): 1
+- deul_overuse_rate ('-들' 남용률, 본진 A-17 hold): 0.000
+- 카운트 > 0 지표는 해당 본진 ID 처방(quick-rules.md·taxonomy)과 교차 확인 후 윤문할 것.
+
+[근거 사용 가이드]
+- 위 점수는 *근거 보조*다. 단독 판정 금지(보고서 명시).
+- z>1.0 지표는 quick-rules.md S1·S2 패턴과 교차 확인 후 윤문할 것.
+- ending_comma_rate가 ★ S1 트리거인 경우 C-11(연결어미 뒤 쉼표) 우선 손질.
+- conclusion_pivot 매치 토큰은 D-1·H-1 처방 적용 대상.
+
+[원문 시작]
+- 비용: 돈이 들지 않습니다. 주말 늦잠을 줄여야 해서 의지가 조금 필요합니다.
+- 쉽게: 생활 리듬이 가장 흐트러진 5분의 1을 골랐습니다. 가장 규칙적인 5분의 1과 비교했습니다. 불규칙한 집단의 생체시계는 약 2.5시간 늦습니다. 늘 시차에 시달리는 셈입니다. 리듬이 규칙적인 학생일수록 성적도 좋습니다.
+- 이득: 대학생 61명이 30일간 기록했습니다. 수면·기상이 가장 불규칙한 5분의 1을 골랐습니다. 가장 규칙적인 5분의 1과 비교했습니다. 불규칙한 집단의 생체시계(일주기 리듬)는 약 2.5시간 늦었습니다. 멜라토닌 분비 시작 시각은 00:08 대 21:32였습니다. 가장 졸린 시간대도 약 1.8시간 늦었습니다. 리듬이 규칙적일수록 학업 성적이 좋았습니다(상관계수 r = 0.37).
+- 비고: 연구는 하나뿐입니다. 참여 인원도 적습니다. 대조군을 둔 비교도 하지 않았습니다. 연구자들은 매일 쬐는 빛의 차이가 원인이라고 추산합니다. 기상 시간을 고정할 때는 아침 햇빛도 함께 봐야 효과가 있습니다. 밤샌 뒤에는 제2절 제38항(밤샌 다음 날 밤에 잠 보충하기)을 참고하세요. 그날 밤 일찍 자세요. 다음 날 낮까지 자라는 뜻은 아닙니다.
+[원문 끝]

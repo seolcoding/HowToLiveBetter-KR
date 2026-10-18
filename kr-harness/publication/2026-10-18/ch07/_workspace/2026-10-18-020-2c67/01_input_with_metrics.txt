@@ -1,0 +1,39 @@
+[정량 사전 점수 v2.0 — v1.6 8지표(KatFish baseline) + v2.0 카운트형]
+risk_band: low  (score 0)
+route_hint: light  (권고 — 사용자·오케스트레이터가 무시 가능)
+route_reason: 카운트형 티 0건(라우터가 세는 항목 기준) · risk_band low — 단일 콜·최소 파이프라인 권장. 카운터 밖 티는 monolith 가 룰북으로 잡는다
+genre: essay
+char_count: 620
+
+[v1.6 지표]
+- comma_inclusion_rate: 0.05  (z=-1.24 vs essay 인간 baseline)
+- comma_usage_rate: 0.05  (z=-1.51 vs essay 인간 baseline)
+- ending_comma_rate: 0.00  (z=-0.52 vs essay 인간 baseline)
+- comma_segment_length: 5.82  (n/a vs essay 인간 baseline)
+- conclusion_pivot_count: 0
+- safe_balance_count: 0
+- hanja_nominalizer_density: 0.008  (z=-1.73 vs essay 인간 baseline)
+- lexical_diversity: 0.94  (z=+5.71 vs essay 인간 baseline)
+
+[v2.0 카운트형 지표 — 원값 / baseline calibration 전 z-score 해석 보류]
+- double_passive_count (이중 피동, 본진 A-8): 0
+- by_passive_count (~에 의해 피동, 본진 A-9): 0
+- pronoun_density (인칭 대명사 밀도, 본진 A-16): 0.000
+- have_make_literal_count (have/make 직역, 본진 A-7): 0
+- double_particle_count (이중 조사 결합, 본진 A-19): 0
+- relative_clause_nesting (관형절 3중+ 중첩 문장 수, 본진 A-18): 0
+- deul_overuse_rate ('-들' 남용률, 본진 A-17 hold): 0.000
+- 카운트 > 0 지표는 해당 본진 ID 처방(quick-rules.md·taxonomy)과 교차 확인 후 윤문할 것.
+
+[근거 사용 가이드]
+- 위 점수는 *근거 보조*다. 단독 판정 금지(보고서 명시).
+- z>1.0 지표는 quick-rules.md S1·S2 패턴과 교차 확인 후 윤문할 것.
+- ending_comma_rate가 ★ S1 트리거인 경우 C-11(연결어미 뒤 쉼표) 우선 손질.
+- conclusion_pivot 매치 토큰은 D-1·H-1 처방 적용 대상.
+
+[원문 시작]
+- 비용: 나이·병력·상품에 따라 보험료가 달라집니다. 이번 조사에서는 일반적인 연간 보험료를 확인하지 못했습니다. 보험료를 계속 낼 여력과 약관 검토 시간이 필요합니다.
+- 쉽게: 건강보험 뒤에 남는 비용을 민간보험으로 보완합니다. 생활비가 모자라면 새 보험료 부담을 늘리지 마세요. 실손 보장과 진단비 보장은 구분하세요.
+- 이득: 실손형은 실제 부담한 의료비를 약정 범위 안에서 보상합니다. 진단비형은 약관에 정한 질병·진단조건을 따릅니다. 갱신주기·재가입 조건·자기부담금을 확인하세요. 비급여·면책기간·보장 제외도 비교하세요. 갱신이 가능해도 보험료가 고정된다는 뜻은 아닙니다. 여러 실손에 가입했다면 약관의 비례보상 조건을 확인하세요. 중요한 병력 등을 고의로 숨기면 계약해지 문제가 생깁니다. 「상법」 제651조·제651조의2를 보세요.
+- 비고: 2026-10-10 법령 확인. B등급은 원문과 같습니다. 가입에 따른 절감액을 검증한 수치는 아닙니다. 새 상품을 사기 전에 기존 보장을 확인하세요. 설계사에게 말로만 알리지 말고 청약서 질문에 답하세요. 보험별 갱신·중복보상은 실제 약관을 확인해야 합니다. 건강보험·공적 의료비 지원은 제9항(건강보험 자격), 제10항(의료비 지원)을 보세요.
+[원문 끝]

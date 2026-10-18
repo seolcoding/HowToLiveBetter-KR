@@ -1,0 +1,39 @@
+[정량 사전 점수 v2.0 — v1.6 8지표(KatFish baseline) + v2.0 카운트형]
+risk_band: low  (score 0)
+route_hint: light  (권고 — 사용자·오케스트레이터가 무시 가능)
+route_reason: 카운트형 티 0건(라우터가 세는 항목 기준) · risk_band low — 단일 콜·최소 파이프라인 권장. 카운터 밖 티는 monolith 가 룰북으로 잡는다
+genre: essay
+char_count: 841
+
+[v1.6 지표]
+- comma_inclusion_rate: 0.19  (z=-0.45 vs essay 인간 baseline)
+- comma_usage_rate: 0.30  (z=-1.17 vs essay 인간 baseline)
+- ending_comma_rate: 0.00  (z=-0.52 vs essay 인간 baseline)
+- comma_segment_length: 5.94  (z=+0.76 vs essay 인간 baseline)
+- conclusion_pivot_count: 0
+- safe_balance_count: 0
+- hanja_nominalizer_density: 0.010  (z=-1.67 vs essay 인간 baseline)
+- lexical_diversity: 0.78  (z=+2.69 vs essay 인간 baseline)
+
+[v2.0 카운트형 지표 — 원값 / baseline calibration 전 z-score 해석 보류]
+- double_passive_count (이중 피동, 본진 A-8): 0
+- by_passive_count (~에 의해 피동, 본진 A-9): 0
+- pronoun_density (인칭 대명사 밀도, 본진 A-16): 0.000
+- have_make_literal_count (have/make 직역, 본진 A-7): 0
+- double_particle_count (이중 조사 결합, 본진 A-19): 0
+- relative_clause_nesting (관형절 3중+ 중첩 문장 수, 본진 A-18): 0
+- deul_overuse_rate ('-들' 남용률, 본진 A-17 hold): 0.000
+- 카운트 > 0 지표는 해당 본진 ID 처방(quick-rules.md·taxonomy)과 교차 확인 후 윤문할 것.
+
+[근거 사용 가이드]
+- 위 점수는 *근거 보조*다. 단독 판정 금지(보고서 명시).
+- z>1.0 지표는 quick-rules.md S1·S2 패턴과 교차 확인 후 윤문할 것.
+- ending_comma_rate가 ★ S1 트리거인 경우 C-11(연결어미 뒤 쉼표) 우선 손질.
+- conclusion_pivot 매치 토큰은 D-1·H-1 처방 적용 대상.
+
+[원문 시작]
+- 비용: 돈은 안 들고 5분이면 외웁니다. 같이 사는 사람도 알아 두게 하세요.
+- 쉽게: 아래 신호가 하나라도 보이면 그날 병원에 가세요. 심해지는 두통, 시야 변화, 38℃ 이상 열, 숨 가쁨이 그렇습니다. 심한 복통, 태동 감소, 질 출혈도 해당합니다. 나나 아기를 해치고 싶은 생각도 신호입니다. 출산 후 1년까지도 마찬가지입니다.
+- 이득: CDC는 임산부의 긴급 경고 신호로 아래 증상을 꼽습니다. 낫지 않거나 심해지는 두통, 어지럼증이나 실신이 있습니다. 시야 변화와 38℃ 이상 발열도 들어갑니다. 손이나 얼굴이 심하게 부어도 신호입니다. 나나 아기를 해치고 싶은 생각도 여기에 속합니다. 숨쉬기 어려움, 가슴 통증이나 빠른 심장 박동도 있습니다. 심한 메스꺼움과 구토, 가라앉지 않는 심한 복통도 해당합니다. 임신 중 태동이 멈추거나 느려지면 신호입니다. 임신 중 질 출혈이 있거나 액체가 흘러도 그렇습니다. 출산 뒤 질 출혈이나 비정상 분비물도 들어갑니다. 한쪽 팔이나 다리가 심하게 붓거나 붉어지거나 아파도 마찬가지입니다. 이런 문제는 출산 뒤 1년 안에도 생길 수 있습니다. 산후조리 기간만 넘기면 괜찮은 게 아닙니다.
+- 비고: 이 목록은 "좀 더 참아 볼까"와 "지금 가야 한다"를 가릅니다. 두통에 눈앞이 흐리고 윗배까지 아프면 전자간증(임신성 고혈압 질환)일 수 있습니다. 한쪽 종아리가 붓고 아프면 깊은 정맥 혈전일 수 있습니다. 깊은 정맥 혈전 대처는 제13절(응급상황)을 보세요. 출산 뒤 큰 출혈을 돌보지 않으면 몇 시간 안에 숨질 수 있습니다. WHO는 건강한 여성도 예외가 아니라고 말합니다. 하나라도 나타나면 집에서 하룻밤 기다리지 말고 바로 병원에 가세요.
+[원문 끝]

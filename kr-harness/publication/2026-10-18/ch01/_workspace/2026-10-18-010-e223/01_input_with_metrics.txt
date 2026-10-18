@@ -1,0 +1,39 @@
+[정량 사전 점수 v2.0 — v1.6 8지표(KatFish baseline) + v2.0 카운트형]
+risk_band: low  (score 3)
+route_hint: light  (권고 — 사용자·오케스트레이터가 무시 가능)
+route_reason: 카운트형 티 0건(라우터가 세는 항목 기준) · risk_band low — 단일 콜·최소 파이프라인 권장. 카운터 밖 티는 monolith 가 룰북으로 잡는다
+genre: essay
+char_count: 606
+
+[v1.6 지표]
+- comma_inclusion_rate: 0.17  (z=-0.56 vs essay 인간 baseline)
+- comma_usage_rate: 0.17  (z=-1.35 vs essay 인간 baseline)
+- ending_comma_rate: 0.20  (z=+2.02 vs essay 인간 baseline)  ★ S1 트리거
+- comma_segment_length: 6.57  (z=+1.06 vs essay 인간 baseline)  · S2 시그널
+- conclusion_pivot_count: 0
+- safe_balance_count: 0
+- hanja_nominalizer_density: 0.000  (z=-2.00 vs essay 인간 baseline)
+- lexical_diversity: 0.92  (z=+5.36 vs essay 인간 baseline)
+
+[v2.0 카운트형 지표 — 원값 / baseline calibration 전 z-score 해석 보류]
+- double_passive_count (이중 피동, 본진 A-8): 0
+- by_passive_count (~에 의해 피동, 본진 A-9): 0
+- pronoun_density (인칭 대명사 밀도, 본진 A-16): 0.000
+- have_make_literal_count (have/make 직역, 본진 A-7): 0
+- double_particle_count (이중 조사 결합, 본진 A-19): 0
+- relative_clause_nesting (관형절 3중+ 중첩 문장 수, 본진 A-18): 0
+- deul_overuse_rate ('-들' 남용률, 본진 A-17 hold): 0.000
+- 카운트 > 0 지표는 해당 본진 ID 처방(quick-rules.md·taxonomy)과 교차 확인 후 윤문할 것.
+
+[근거 사용 가이드]
+- 위 점수는 *근거 보조*다. 단독 판정 금지(보고서 명시).
+- z>1.0 지표는 quick-rules.md S1·S2 패턴과 교차 확인 후 윤문할 것.
+- ending_comma_rate가 ★ S1 트리거인 경우 C-11(연결어미 뒤 쉼표) 우선 손질.
+- conclusion_pivot 매치 토큰은 D-1·H-1 처방 적용 대상.
+
+[원문 시작]
+- 비용: 카시트는 하나에 십수만 원에서 수십만 원이고, 몇 년 씁니다. 탈 때마다 아이를 묶느라 1분이 더 듭니다.
+- 쉽게: 한 살 미만 아기가 카시트에 앉으면 사고로 치명상을 입을 확률이 70%쯤 낮아집니다. 1~4세는 절반쯤 낮아집니다. 아이를 품에 안아서는 카시트를 대신할 수 없습니다.
+- 이득: 미국 도로교통안전국(NHTSA)은 카시트의 효과를 이렇게 추정합니다. 승용차에서 1세 미만 아기의 치명상 위험이 71% 줄어듭니다. 1~4세 유아는 감소 폭이 54%입니다. 세계보건기구(WHO)는 카시트가 아기 사망을 71% 줄인다고 봅니다. 「도로교통법」 제50조 제1항은 영유아에게 유아보호용 장구를 달고 안전띠를 매게 합니다. 영유아는 6세 미만을 말합니다(제11조 제1항). 어기면 운전자가 과태료 6만원을 냅니다(동승자가 13세 미만일 때, 시행령 별표 6).
+- 비고: 설명서대로 단단히 고정하세요. 잘못 달면 안 단 것과 같습니다. 1세 미만 아기는 뒤를 보게 달아, 얼굴이 차 뒤쪽을 향하게 하세요. 급정거 때는 품에 안은 아이를 붙잡고 있을 수 없습니다. 위 숫자는 미국 정부가 사고 자료로 추정한 값입니다. 2026-10-10 법령 확인(국가법령정보센터).
+[원문 끝]

@@ -1,0 +1,39 @@
+[정량 사전 점수 v2.0 — v1.6 8지표(KatFish baseline) + v2.0 카운트형]
+risk_band: low  (score 0)
+route_hint: light  (권고 — 사용자·오케스트레이터가 무시 가능)
+route_reason: 카운트형 티 0건(라우터가 세는 항목 기준) · risk_band low — 단일 콜·최소 파이프라인 권장. 카운터 밖 티는 monolith 가 룰북으로 잡는다
+genre: essay
+char_count: 517
+
+[v1.6 지표]
+- comma_inclusion_rate: 0.06  (z=-1.20 vs essay 인간 baseline)
+- comma_usage_rate: 0.11  (z=-1.43 vs essay 인간 baseline)
+- ending_comma_rate: 0.00  (z=-0.52 vs essay 인간 baseline)
+- comma_segment_length: 6.50  (n/a vs essay 인간 baseline)
+- conclusion_pivot_count: 0
+- safe_balance_count: 0
+- hanja_nominalizer_density: 0.000  (z=-2.00 vs essay 인간 baseline)
+- lexical_diversity: 0.82  (z=+3.35 vs essay 인간 baseline)
+
+[v2.0 카운트형 지표 — 원값 / baseline calibration 전 z-score 해석 보류]
+- double_passive_count (이중 피동, 본진 A-8): 0
+- by_passive_count (~에 의해 피동, 본진 A-9): 0
+- pronoun_density (인칭 대명사 밀도, 본진 A-16): 0.000
+- have_make_literal_count (have/make 직역, 본진 A-7): 0
+- double_particle_count (이중 조사 결합, 본진 A-19): 0
+- relative_clause_nesting (관형절 3중+ 중첩 문장 수, 본진 A-18): 0
+- deul_overuse_rate ('-들' 남용률, 본진 A-17 hold): 0.000
+- 카운트 > 0 지표는 해당 본진 ID 처방(quick-rules.md·taxonomy)과 교차 확인 후 윤문할 것.
+
+[근거 사용 가이드]
+- 위 점수는 *근거 보조*다. 단독 판정 금지(보고서 명시).
+- z>1.0 지표는 quick-rules.md S1·S2 패턴과 교차 확인 후 윤문할 것.
+- ending_comma_rate가 ★ S1 트리거인 경우 C-11(연결어미 뒤 쉼표) 우선 손질.
+- conclusion_pivot 매치 토큰은 D-1·H-1 처방 적용 대상.
+
+[원문 시작]
+- 비용: 돈이 안 듭니다. 일마다 1~2분씩 걸립니다. 「~하면 ~한다」 문장을 한 줄 쓰세요. 예: 「화요일 오전 8시에 책상에 앉으면 서론부터 쓴다」.
+- 쉽게: 「이걸 해야지」 대신 시간과 장소를 적으세요. 예: 「화요일 오전 8시에 책상에 앉으면 서론부터 쓴다」. 94개 검증을 종합하면 이렇게 적은 쪽의 목표 달성률이 뚜렷하게 높습니다. 문장 하나만 바꾸면 돈도 힘도 안 듭니다.
+- 이득: 94개 독립 검증을 종합한 결과입니다. 「~하면 ~한다」로 계획을 미리 적은 쪽의 목표 달성률이 더 높았습니다. 심리학에서는 이를 실행 의도라고 부릅니다. 효과 크기는 d = 0.65로 중간에서 큰 편입니다. 효과는 다음 세 상황에서 나타납니다. 일을 시작할 때, 방해를 견딜 때, 안 될 일을 그만둘 때입니다.
+- 비고: 이 방법은 정말 하고 싶은 일에만 통합니다. 목표 자체를 원하지 않는다면 문장을 몇 줄 써도 소용없습니다. 연구는 주로 학생의 건강 습관을 다뤘습니다. 일터에서도 똑같이 통한다고 보기는 어렵습니다.
+[원문 끝]

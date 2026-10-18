@@ -1,0 +1,39 @@
+[정량 사전 점수 v2.0 — v1.6 8지표(KatFish baseline) + v2.0 카운트형]
+risk_band: low  (score 0)
+route_hint: light  (권고 — 사용자·오케스트레이터가 무시 가능)
+route_reason: 카운트형 티 0건(라우터가 세는 항목 기준) · risk_band low — 단일 콜·최소 파이프라인 권장. 카운터 밖 티는 monolith 가 룰북으로 잡는다
+genre: essay
+char_count: 559
+
+[v1.6 지표]
+- comma_inclusion_rate: 0.06  (z=-1.20 vs essay 인간 baseline)
+- comma_usage_rate: 0.11  (z=-1.43 vs essay 인간 baseline)
+- ending_comma_rate: 0.00  (z=-0.52 vs essay 인간 baseline)
+- comma_segment_length: 7.05  (n/a vs essay 인간 baseline)
+- conclusion_pivot_count: 0
+- safe_balance_count: 0
+- hanja_nominalizer_density: 0.000  (z=-2.00 vs essay 인간 baseline)
+- lexical_diversity: 0.82  (z=+3.35 vs essay 인간 baseline)
+
+[v2.0 카운트형 지표 — 원값 / baseline calibration 전 z-score 해석 보류]
+- double_passive_count (이중 피동, 본진 A-8): 0
+- by_passive_count (~에 의해 피동, 본진 A-9): 0
+- pronoun_density (인칭 대명사 밀도, 본진 A-16): 0.000
+- have_make_literal_count (have/make 직역, 본진 A-7): 0
+- double_particle_count (이중 조사 결합, 본진 A-19): 0
+- relative_clause_nesting (관형절 3중+ 중첩 문장 수, 본진 A-18): 0
+- deul_overuse_rate ('-들' 남용률, 본진 A-17 hold): 0.000
+- 카운트 > 0 지표는 해당 본진 ID 처방(quick-rules.md·taxonomy)과 교차 확인 후 윤문할 것.
+
+[근거 사용 가이드]
+- 위 점수는 *근거 보조*다. 단독 판정 금지(보고서 명시).
+- z>1.0 지표는 quick-rules.md S1·S2 패턴과 교차 확인 후 윤문할 것.
+- ending_comma_rate가 ★ S1 트리거인 경우 C-11(연결어미 뒤 쉼표) 우선 손질.
+- conclusion_pivot 매치 토큰은 D-1·H-1 처방 적용 대상.
+
+[원문 시작]
+- 비용: 돈은 들지 않지만 시간이 듭니다. 아이가 세 살이 될 때까지는 거의 하루 종일 묶입니다. 며칠 이를 악물고 버틴다고 끝나는 일이 아닙니다. 어려운 건 이 일이 매일 이어진다는 점입니다.
+- 쉽게: 매일 아이를 보는 시간과 밤에 깨는 횟수를 시간으로 바꿉니다. 거기에 그 일을 맡은 사람의 시급을 곱합니다. 그렇게 나온 숫자는 보통 분유·기저귀값보다 훨씬 큽니다. 그러니 누가 무엇을 맡을지 낳기 전에 정해 두세요.
+- 이득: 매일 아이를 돌보는 시간과 밤에 깨는 횟수를 모두 시간으로 바꿉니다. 여기에 그 일을 하는 사람의 시급을 곱합니다. 이렇게 나온 숫자는 보통 분유·기저귀값보다 훨씬 큽니다. 돌보기, 밥하기, 밤중에 일어나기는 아무도 돈을 주지 않는 일입니다. 그래도 비용으로는 똑같이 적습니다. 계산법은 제10절(연애와 결혼의 가성비)에서 집안일을 따진 방식과 같습니다. 역할부터 정한 뒤에 낳을지 결정합니다.
+- 비고: 숫자를 정확히 맞출 필요는 없습니다. 정작 도움이 되는 건 두 사람이 낳기 전에 같은 표를 놓고 역할을 정하는 일입니다. 그래야 낳고 나서 싸우지 않습니다.
+[원문 끝]

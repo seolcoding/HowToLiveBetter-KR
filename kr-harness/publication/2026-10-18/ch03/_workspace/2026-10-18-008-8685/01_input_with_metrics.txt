@@ -1,0 +1,39 @@
+[정량 사전 점수 v2.0 — v1.6 8지표(KatFish baseline) + v2.0 카운트형]
+risk_band: low  (score 0)
+route_hint: light  (권고 — 사용자·오케스트레이터가 무시 가능)
+route_reason: 카운트형 티 0건(라우터가 세는 항목 기준) · risk_band low — 단일 콜·최소 파이프라인 권장. 카운터 밖 티는 monolith 가 룰북으로 잡는다
+genre: essay
+char_count: 539
+
+[v1.6 지표]
+- comma_inclusion_rate: 0.00  (z=-1.52 vs essay 인간 baseline)
+- comma_usage_rate: 0.00  (z=-1.58 vs essay 인간 baseline)
+- ending_comma_rate: 0.00  (z=-0.52 vs essay 인간 baseline)
+- comma_segment_length: 7.76  (n/a vs essay 인간 baseline)
+- conclusion_pivot_count: 0
+- safe_balance_count: 0
+- hanja_nominalizer_density: 0.008  (z=-1.74 vs essay 인간 baseline)
+- lexical_diversity: 0.77  (z=+2.47 vs essay 인간 baseline)
+
+[v2.0 카운트형 지표 — 원값 / baseline calibration 전 z-score 해석 보류]
+- double_passive_count (이중 피동, 본진 A-8): 0
+- by_passive_count (~에 의해 피동, 본진 A-9): 0
+- pronoun_density (인칭 대명사 밀도, 본진 A-16): 0.000
+- have_make_literal_count (have/make 직역, 본진 A-7): 0
+- double_particle_count (이중 조사 결합, 본진 A-19): 0
+- relative_clause_nesting (관형절 3중+ 중첩 문장 수, 본진 A-18): 0
+- deul_overuse_rate ('-들' 남용률, 본진 A-17 hold): 0.000
+- 카운트 > 0 지표는 해당 본진 ID 처방(quick-rules.md·taxonomy)과 교차 확인 후 윤문할 것.
+
+[근거 사용 가이드]
+- 위 점수는 *근거 보조*다. 단독 판정 금지(보고서 명시).
+- z>1.0 지표는 quick-rules.md S1·S2 패턴과 교차 확인 후 윤문할 것.
+- ending_comma_rate가 ★ S1 트리거인 경우 C-11(연결어미 뒤 쉼표) 우선 손질.
+- conclusion_pivot 매치 토큰은 D-1·H-1 처방 적용 대상.
+
+[원문 시작]
+- 비용: 돈이 들지 않습니다. 자기 전 한 시간 휴대전화를 내려놓는 습관은 꾸준히 들여야 합니다. 의지가 필요합니다.
+- 쉽게: 자기 전 빛나는 화면으로 읽으면 종이책보다 잠드는 데 10분쯤 더 걸립니다. 멜라토닌 분비가 55% 줄어듭니다. 다음 날 생체시계는 1.5시간 넘게 밀립니다. 아침에 더 졸리고 완전히 깨는 데도 더 오래 걸립니다.
+- 이득: 참가자마다 두 조건을 번갈아 경험한 교차시험입니다. 자기 전 빛나는 화면으로 책을 읽으면 종이책보다 약 10분 늦게 잠들었습니다. 잠드는 데 걸린 시간은 25.7분 대 15.8분입니다. 저녁 멜라토닌은 55% 억제됐습니다. 다음 날 생체시계(일주기 리듬)는 1.5시간 이상 늦춰졌습니다. 멜라토닌 분비가 시작된 시각은 22:31 대 21:01입니다. 다음 날 아침 더 졸렸고 완전히 깨어나는 데 더 오래 걸렸습니다.
+- 비고: 인원이 적고 조건을 통제한 실험실 연구입니다. 평소 쓰는 휴대전화의 밝기와 사용 시간에 따라 영향은 더 작을 수 있습니다. 이 연구는 휴대전화 야간 모드의 효과를 재지 않았습니다.
+[원문 끝]

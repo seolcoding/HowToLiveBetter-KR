@@ -1,0 +1,103 @@
+{
+  "version": "v2.0",
+  "genre": "essay",
+  "char_count": 2691,
+  "metrics": {
+    "comma_inclusion_rate": 0.033707865168539325,
+    "comma_usage_rate": 0.06741573033707865,
+    "ending_comma_rate": 0.0,
+    "comma_segment_length": 6.336842105263158,
+    "conclusion_pivot_count": 0,
+    "safe_balance_count": 0,
+    "hanja_nominalizer_density": 0.016722408026755852,
+    "lexical_diversity": 0.7157190635451505
+  },
+  "z_scores": {
+    "comma_inclusion_rate": -1.3213832651581836,
+    "comma_usage_rate": -1.4861318456824073,
+    "ending_comma_rate": -0.5212968849332485,
+    "comma_segment_length": 0.9438679834979373,
+    "hanja_nominalizer_density": -1.4425863991081382,
+    "lexical_diversity": 1.3143812709030092
+  },
+  "risk_band": "low",
+  "risk_score": 0,
+  "evidence": {
+    "conclusion_pivots": [],
+    "safe_balances": []
+  },
+  "v2_metrics": {
+    "lexical_diversity_ttr": 0.7157190635451505,
+    "lexical_density": 0.046822742474916385,
+    "ending_diversity": 0.0449438202247191,
+    "normalisation_score": 0.0,
+    "da_streak_rate": 4,
+    "inanimate_subject_rate": 0.0,
+    "by_passive_count": 0,
+    "double_passive_count": 0,
+    "pronoun_density": 0.0,
+    "deul_overuse_rate": 0.0,
+    "relative_clause_nesting": 1,
+    "have_make_literal_count": 0,
+    "double_particle_count": 0,
+    "progressive_aspect_rate": 0.0,
+    "antithesis_count": 0
+  },
+  "v2_interference_index": {
+    "components": {
+      "T1_inanimate_subject_rate": 0.0,
+      "T2a_by_passive_per_1k": 0.0,
+      "T2b_double_passive_per_1k": 0.0,
+      "T3_pronoun_density": 0.0,
+      "T4_deul_overuse_rate": 0.0,
+      "T5_nested_clause_count": 1,
+      "T6_have_make_per_1k": 0.0,
+      "T7_double_particle_per_1k": 0.0,
+      "T8b_progressive_rate": 0.0
+    },
+    "weighted_total": 0.05,
+    "n_sentences": 89,
+    "n_chars": 2691
+  },
+  "v2_z_scores": {
+    "lexical_diversity_ttr": 1.1964882943143809,
+    "lexical_density": -3.6168179646440506,
+    "ending_diversity": -4.208801498127341,
+    "normalisation_score": -3.3333333333333335,
+    "da_streak_rate": 6.0,
+    "inanimate_subject_rate": -1.6666666666666667,
+    "by_passive_count": -0.5,
+    "double_passive_count": -0.33333333333333337,
+    "pronoun_density": -1.2,
+    "deul_overuse_rate": -0.625,
+    "relative_clause_nesting": 1.4,
+    "have_make_literal_count": -0.5,
+    "double_particle_count": -0.4285714285714286,
+    "progressive_aspect_rate": -1.25,
+    "antithesis_count": null
+  },
+  "v2_baseline_warnings": [
+    "lexical_diversity_ttr",
+    "lexical_density",
+    "ending_diversity",
+    "normalisation_score",
+    "da_streak_rate",
+    "inanimate_subject_rate",
+    "by_passive_count",
+    "double_passive_count",
+    "pronoun_density",
+    "deul_overuse_rate",
+    "relative_clause_nesting",
+    "have_make_literal_count",
+    "double_particle_count",
+    "progressive_aspect_rate"
+  ],
+  "route_hint": "light",
+  "route_reason": "카운트형 티 0건(라우터가 세는 항목 기준) · risk_band low — 단일 콜·최소 파이프라인 권장. 카운터 밖 티는 monolith 가 룰북으로 잡는다",
+  "route_signals": {
+    "lexical_tell_count": 0,
+    "v26_tells": {},
+    "risk_band": "low",
+    "char_count": 2691
+  }
+}

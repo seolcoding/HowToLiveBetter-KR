@@ -1,0 +1,39 @@
+[정량 사전 점수 v2.0 — v1.6 8지표(KatFish baseline) + v2.0 카운트형]
+risk_band: low  (score 0)
+route_hint: light  (권고 — 사용자·오케스트레이터가 무시 가능)
+route_reason: 카운트형 티 0건(라우터가 세는 항목 기준) · risk_band low — 단일 콜·최소 파이프라인 권장. 카운터 밖 티는 monolith 가 룰북으로 잡는다
+genre: essay
+char_count: 711
+
+[v1.6 지표]
+- comma_inclusion_rate: 0.00  (z=-1.52 vs essay 인간 baseline)
+- comma_usage_rate: 0.00  (z=-1.58 vs essay 인간 baseline)
+- ending_comma_rate: 0.00  (z=-0.52 vs essay 인간 baseline)
+- comma_segment_length: 7.68  (n/a vs essay 인간 baseline)
+- conclusion_pivot_count: 0
+- safe_balance_count: 0
+- hanja_nominalizer_density: 0.000  (z=-2.00 vs essay 인간 baseline)
+- lexical_diversity: 0.79  (z=+2.76 vs essay 인간 baseline)
+
+[v2.0 카운트형 지표 — 원값 / baseline calibration 전 z-score 해석 보류]
+- double_passive_count (이중 피동, 본진 A-8): 0
+- by_passive_count (~에 의해 피동, 본진 A-9): 0
+- pronoun_density (인칭 대명사 밀도, 본진 A-16): 0.000
+- have_make_literal_count (have/make 직역, 본진 A-7): 0
+- double_particle_count (이중 조사 결합, 본진 A-19): 0
+- relative_clause_nesting (관형절 3중+ 중첩 문장 수, 본진 A-18): 0
+- deul_overuse_rate ('-들' 남용률, 본진 A-17 hold): 0.000
+- 카운트 > 0 지표는 해당 본진 ID 처방(quick-rules.md·taxonomy)과 교차 확인 후 윤문할 것.
+
+[근거 사용 가이드]
+- 위 점수는 *근거 보조*다. 단독 판정 금지(보고서 명시).
+- z>1.0 지표는 quick-rules.md S1·S2 패턴과 교차 확인 후 윤문할 것.
+- ending_comma_rate가 ★ S1 트리거인 경우 C-11(연결어미 뒤 쉼표) 우선 손질.
+- conclusion_pivot 매치 토큰은 D-1·H-1 처방 적용 대상.
+
+[원문 시작]
+- 비용: 불필요한 수집을 줄이는 데 돈은 들지 않습니다. 처리방침과 동의 화면을 실제 기능에 맞춰야 합니다.
+- 쉽게: 나중에 쓸지도 모른다는 이유로 수집하지 마세요. 만 14세 미만의 정보에 법에 따른 동의가 필요하면 법정대리인 동의를 받으세요. 선택 권한을 거부해도 서비스 전체를 막아서는 안 됩니다.
+- 이득: 목적에 필요한 최소한의 정보만 수집해야 합니다. 수집 정보가 최소한임을 입증할 책임은 처리자에게 있습니다. 만 14세 미만 아동의 정보도 동의 외 처리 근거가 있습니다. 법에 따른 동의가 필요한 처리라면 법정대리인 동의를 받아야 합니다. 실제 동의 여부도 확인해야 합니다. 동의 확보에 필요한 최소정보에는 예외가 있습니다. 시행령이 정한 정보는 아동에게 직접 동의 없이 받을 수 있습니다. 법정대리인 동의 의무를 어기고 아동정보를 처리하면 처벌합니다. 형량은 5년 이하 징역 또는 5천만원 이하 벌금입니다. 앱 권한은 필수·선택을 구분하고 그 이유를 알려야 합니다. 선택 권한 거부를 이유로 서비스를 거부하면 안 됩니다. 개인정보 처리방침도 정해 공개해야 합니다.
+- 비고: 동의를 받아도 과잉 수집은 허용되지 않습니다. 처리방침 문구는 실제 전송·보관 방식과 맞아야 합니다. 개발자 개인의 책임은 관여한 행위와 고의 등을 따져 정합니다. 사용자 쪽 선택 동의는 제14절 제7항(전체 동의)을 보세요. 2026-10-10 법령 확인(국가법령정보센터).
+[원문 끝]

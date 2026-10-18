@@ -1,0 +1,39 @@
+[정량 사전 점수 v2.0 — v1.6 8지표(KatFish baseline) + v2.0 카운트형]
+risk_band: low  (score 0)
+route_hint: light  (권고 — 사용자·오케스트레이터가 무시 가능)
+route_reason: 카운트형 티 0건(라우터가 세는 항목 기준) · risk_band low — 단일 콜·최소 파이프라인 권장. 카운터 밖 티는 monolith 가 룰북으로 잡는다
+genre: essay
+char_count: 513
+
+[v1.6 지표]
+- comma_inclusion_rate: 0.00  (z=-1.52 vs essay 인간 baseline)
+- comma_usage_rate: 0.00  (z=-1.58 vs essay 인간 baseline)
+- ending_comma_rate: 0.00  (z=-0.52 vs essay 인간 baseline)
+- comma_segment_length: 6.18  (n/a vs essay 인간 baseline)
+- conclusion_pivot_count: 0
+- safe_balance_count: 0
+- hanja_nominalizer_density: 0.010  (z=-1.67 vs essay 인간 baseline)
+- lexical_diversity: 0.97  (z=+6.41 vs essay 인간 baseline)
+
+[v2.0 카운트형 지표 — 원값 / baseline calibration 전 z-score 해석 보류]
+- double_passive_count (이중 피동, 본진 A-8): 0
+- by_passive_count (~에 의해 피동, 본진 A-9): 0
+- pronoun_density (인칭 대명사 밀도, 본진 A-16): 0.000
+- have_make_literal_count (have/make 직역, 본진 A-7): 0
+- double_particle_count (이중 조사 결합, 본진 A-19): 0
+- relative_clause_nesting (관형절 3중+ 중첩 문장 수, 본진 A-18): 0
+- deul_overuse_rate ('-들' 남용률, 본진 A-17 hold): 0.000
+- 카운트 > 0 지표는 해당 본진 ID 처방(quick-rules.md·taxonomy)과 교차 확인 후 윤문할 것.
+
+[근거 사용 가이드]
+- 위 점수는 *근거 보조*다. 단독 판정 금지(보고서 명시).
+- z>1.0 지표는 quick-rules.md S1·S2 패턴과 교차 확인 후 윤문할 것.
+- ending_comma_rate가 ★ S1 트리거인 경우 C-11(연결어미 뒤 쉼표) 우선 손질.
+- conclusion_pivot 매치 토큰은 D-1·H-1 처방 적용 대상.
+
+[원문 시작]
+- 비용: 플랫폼·경찰 신고와 민사절차에는 시간이 듭니다. 인지대·송달료는 별도입니다.
+- 쉽게: 주문·대화·송금·배송 기록을 저장하세요. 플랫폼 신고와 경찰 신고를 병행하세요. 소송 전에는 회수 가능성과 비용을 계산하세요.
+- 이득: 「형법」 제347조는 사기의 속임수와 재물·이익 취득을 따집니다. 소액이라고 형사처벌 대상에서 자동으로 빠지지는 않습니다. 소액사건심판규칙 제1조의2는 일정 금전 청구를 정합니다. 대상은 소송목적 값이 3천만원을 초과하지 않는 사건입니다. 제1심 민사사건에 해당합니다. 상품 판매를 가장한 사기는 피해환급 특별법의 정의에서 제외됩니다. 보이스피싱 지급정지가 자동 적용된다고 믿지 마세요.
+- 비고: 개인 간 거래와 사업자·소비자 간 거래는 구제절차가 다릅니다. 승소해도 상대에게 재산이 없으면 돈을 못 받을 수 있습니다. 투입 시간·법원 비용·상대 재산을 함께 따져보세요. 형사 신고가 민사절차를 통한 반환을 대신하지는 않습니다. 2026-10-10 법령 확인(국가법령정보센터).
+[원문 끝]

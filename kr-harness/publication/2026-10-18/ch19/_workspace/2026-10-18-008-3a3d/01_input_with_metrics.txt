@@ -1,0 +1,39 @@
+[정량 사전 점수 v2.0 — v1.6 8지표(KatFish baseline) + v2.0 카운트형]
+risk_band: low  (score 0)
+route_hint: light  (권고 — 사용자·오케스트레이터가 무시 가능)
+route_reason: 카운트형 티 0건(라우터가 세는 항목 기준) · risk_band low — 단일 콜·최소 파이프라인 권장. 카운터 밖 티는 monolith 가 룰북으로 잡는다
+genre: essay
+char_count: 602
+
+[v1.6 지표]
+- comma_inclusion_rate: 0.09  (z=-0.99 vs essay 인간 baseline)
+- comma_usage_rate: 0.18  (z=-1.33 vs essay 인간 baseline)
+- ending_comma_rate: 0.00  (z=-0.52 vs essay 인간 baseline)
+- comma_segment_length: 5.08  (z=+0.35 vs essay 인간 baseline)
+- conclusion_pivot_count: 0
+- safe_balance_count: 0
+- hanja_nominalizer_density: 0.000  (z=-2.00 vs essay 인간 baseline)
+- lexical_diversity: 0.81  (z=+3.25 vs essay 인간 baseline)
+
+[v2.0 카운트형 지표 — 원값 / baseline calibration 전 z-score 해석 보류]
+- double_passive_count (이중 피동, 본진 A-8): 0
+- by_passive_count (~에 의해 피동, 본진 A-9): 0
+- pronoun_density (인칭 대명사 밀도, 본진 A-16): 0.000
+- have_make_literal_count (have/make 직역, 본진 A-7): 0
+- double_particle_count (이중 조사 결합, 본진 A-19): 0
+- relative_clause_nesting (관형절 3중+ 중첩 문장 수, 본진 A-18): 0
+- deul_overuse_rate ('-들' 남용률, 본진 A-17 hold): 0.000
+- 카운트 > 0 지표는 해당 본진 ID 처방(quick-rules.md·taxonomy)과 교차 확인 후 윤문할 것.
+
+[근거 사용 가이드]
+- 위 점수는 *근거 보조*다. 단독 판정 금지(보고서 명시).
+- z>1.0 지표는 quick-rules.md S1·S2 패턴과 교차 확인 후 윤문할 것.
+- ending_comma_rate가 ★ S1 트리거인 경우 C-11(연결어미 뒤 쉼표) 우선 손질.
+- conclusion_pivot 매치 토큰은 D-1·H-1 처방 적용 대상.
+
+[원문 시작]
+- 비용: 돈은 들지 않습니다. 저장하는 데 30분이면 됩니다. 퇴사 전에 잊지 않고 챙기는 일이 어렵습니다.
+- 쉽게: 노트북과 계정을 반납하면 자료를 다시 보기 어렵습니다. 임금명세서, 출퇴근 기록, 업무 메시지가 여기에 해당합니다. 임금과 연장근로는 결국 내가 가진 자료로 다툽니다. 내 근로관계 자료만 챙기세요. 회사 소스코드나 고객 명단은 가져가지 마세요.
+- 이득: 노트북과 계정을 돌려주면 이 자료를 다시 얻기 어렵습니다. 임금 수준과 연장근로 여부는 근로자가 가진 자료로 다툽니다. 회사는 임금을 줄 때마다 임금명세서를 서면이나 전자문서로 줘야 합니다. 구성항목·계산방법·공제 내역이 적혀 있어야 합니다. 근로계약을 맺을 때도 서면을 줘야 합니다. 여기에는 임금·근로시간·휴일·연차를 적어야 합니다. 못 받은 서류가 있으면 퇴사 전에 요구하세요.
+- 비고: 자기 근로관계 자료를 챙기세요. 회사 소스코드, 고객 명단, 기술 문서는 가져가지 마세요. 함께 가져가면 다른 문제가 생깁니다. 그 위험은 제11절(개발자와 기술자의 레드라인)을 보세요. 나갈 때 사용증명서도 요구하세요. 제17항(사용증명서)을 보세요. 2026-10-10 법령 확인(국가법령정보센터).
+[원문 끝]

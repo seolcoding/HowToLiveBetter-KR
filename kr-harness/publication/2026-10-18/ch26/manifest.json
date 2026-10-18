@@ -1,0 +1,110 @@
+{
+  "source_commit": "225ec78",
+  "protected_labels": [
+    "비용",
+    "쉽게",
+    "이득",
+    "근거등급",
+    "출처",
+    "비고"
+  ],
+  "route_counts": {
+    "light": 10,
+    "standard": 1
+  },
+  "version": 2,
+  "chapter": "26",
+  "source": "book-kr/26-웹사이트-만들기.md",
+  "source_sha256": "b66af04261c4ddbda72c3a2e24623d1be897b56acec73f063fd60f577acdd9ba",
+  "genre": "essay",
+  "entries": [
+    {
+      "number": 1,
+      "heading": "### 1. 판매자에게 줄 돈을 플랫폼 계좌로 받아 나눠 주지 마세요. 등록된 PG사가 정산하게 하세요",
+      "run_dir": "_workspace/2026-10-18-001-8ea7",
+      "input_sha256": "940bada41088081011331a7ea0e20e022f6c027f655b62c3928e7b67dca450eb",
+      "entry_sha256": "323ed21b18e641ef072160fd3fb1812e825416a0ae0ffe6d3e3c56b829e0be13",
+      "route": "light"
+    },
+    {
+      "number": 2,
+      "heading": "### 2. 온라인으로 팔면 통신판매업 신고를 하세요. 부가통신사업에 해당하면 자본금 기준도 확인하세요",
+      "run_dir": "_workspace/2026-10-18-002-2cef",
+      "input_sha256": "2aaa06d066829ede6543dde72ff039231e971241dc9288ca633e94f656a84990",
+      "entry_sha256": "a215337997a49c1305aa13b148e9ec6169eed6a79181338abae8b76e288cd66a",
+      "route": "light"
+    },
+    {
+      "number": 3,
+      "heading": "### 3. 일반 인터넷 영상 서비스와 방송사업을 구분하세요. 유료 비디오물은 법정 예외를 확인하고 공급 전 등급분류를 받으세요",
+      "run_dir": "_workspace/2026-10-18-003-c63c",
+      "input_sha256": "e5340b58c0f1ae77a50c0113c1836878e98230d0930bcec598fb05df26c42fa1",
+      "entry_sha256": "a23fc6195b1a375fac5d3bfa1c561ea83c83a2a1f829d2a81e378b35e29156dd",
+      "route": "light"
+    },
+    {
+      "number": 4,
+      "heading": "### 4. 일반 사이트에 일괄 개설 등록은 없습니다. 온라인으로 팔면 첫 화면에 사업자 정보와 호스팅 업체 상호를 표시하세요",
+      "run_dir": "_workspace/2026-10-18-004-3891",
+      "input_sha256": "3e5a315d55f51aed880aaa90b3fd2046d03e9d495d26124ae85d334775b28606",
+      "entry_sha256": "194649e40155d47b7ba35e9fca8082b4f81bd972e574eaf54f2e8eb2ae4ead31",
+      "route": "light"
+    },
+    {
+      "number": 5,
+      "heading": "### 5. 남이 들어와 파는 플랫폼은 판매자 신원을 확인하고 거래기록을 보존하세요. 분기마다 국세청에 중개 명세도 내세요",
+      "run_dir": "_workspace/2026-10-18-005-2ad6",
+      "input_sha256": "9519487e2b893daf411b931a258235ba9bd2128b9f7b64dfab81af76c334501f",
+      "entry_sha256": "0e9273749e53905bb236acfac2734d6b62ac7209cce37e8f54cee15b10d77404",
+      "route": "light"
+    },
+    {
+      "number": 6,
+      "heading": "### 6. 이용자가 올린 글도 관리하세요. 삭제 요청 처리 절차를 약관에 두고, 불법촬영물은 알게 되면 바로 지우세요",
+      "run_dir": "_workspace/2026-10-18-006-a03e",
+      "input_sha256": "8ff3752b5c1ae22f40fc5b021b36613299e38648f45048e408824d94562a9345",
+      "entry_sha256": "12912ca20804adf8b29e25b2f63fb5aeaa68bce393cc8ce35df56a5e7109a319",
+      "route": "light"
+    },
+    {
+      "number": 7,
+      "heading": "### 7. 회원 실명을 확인하더라도 주민등록번호는 받지 마세요. 꼭 필요하면 본인확인기관의 대체수단을 쓰세요",
+      "run_dir": "_workspace/2026-10-18-007-76fe",
+      "input_sha256": "1225b4e546e69c72f8530f186e5e5e36dd8fd28dd246c1ee0a4ffe967e4939c5",
+      "entry_sha256": "bfa5e1999fc2f7737f18ddea53d57eaee46d708b550b05807f756a9ae4dcf96e",
+      "route": "light"
+    },
+    {
+      "number": 8,
+      "heading": "### 8. 만 14세 미만 개인정보 처리를 동의에 근거해 하려면 법정대리인 동의를 받으세요. 미성년자 결제는 나중에 취소될 수 있다고 보고 설계하세요",
+      "run_dir": "_workspace/2026-10-18-008-7fb0",
+      "input_sha256": "72c19b4cb986c4dc9aa77d7c5fa790246b47530b852f5ef074c0cbfee5a7a491",
+      "entry_sha256": "56dd2a608dd7e03ffa2ed4d70504f07e44de1eae9c2356618dcde29b2f4bbeb1",
+      "route": "light"
+    },
+    {
+      "number": 9,
+      "heading": "### 9. 권리를 소명한 저작권 침해 신고는 즉시 중단하세요. 정당한 재개 요구는 예정일에 복구하세요",
+      "run_dir": "_workspace/2026-10-18-009-9a6f",
+      "input_sha256": "a0e3e0ba498779cd1550c16660924741a92f38ef8422b4a9171a41beadfe433b",
+      "entry_sha256": "f0d9568570da9c5e12149177395437dfbe50de247bd6ce879f7f548bf7c9cf3d",
+      "route": "light"
+    },
+    {
+      "number": 10,
+      "heading": "### 10. 계약 이행에 필요한 국외 위탁·보관은 법정 사항을 공개하거나 고지하세요. 다른 이전도 법적 근거를 확보하세요",
+      "run_dir": "_workspace/2026-10-18-010-91a9",
+      "input_sha256": "33f89a3968a3e973440b89d3e2fa6d4f41602d4778c6b15cf56d4dc0eeccb82d",
+      "entry_sha256": "751c5150f63eac976eaac594d27762680758b243843bc3e3a46ded1fc8a5608c",
+      "route": "standard"
+    },
+    {
+      "number": 11,
+      "heading": "### 11. 서버는 멈춰도 견딜 수 있는지, 관리할 사람이 있는지부터 따지세요. 값은 맨 나중에 비교하세요",
+      "run_dir": "_workspace/2026-10-18-011-ecd6",
+      "input_sha256": "11c768fcaef0353f024603900507235bac205dc3a71726ff25d1b5f7d5fbfc7b",
+      "entry_sha256": "81608df861da81ce7d8ca7a97fa2a2b25b7212ce6e4848e7acbd051f30275ab8",
+      "route": "light"
+    }
+  ]
+}

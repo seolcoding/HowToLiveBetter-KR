@@ -1,0 +1,39 @@
+[정량 사전 점수 v2.0 — v1.6 8지표(KatFish baseline) + v2.0 카운트형]
+risk_band: low  (score 2)
+route_hint: light  (권고 — 사용자·오케스트레이터가 무시 가능)
+route_reason: 카운트형 티 0건(라우터가 세는 항목 기준) · risk_band low — 단일 콜·최소 파이프라인 권장. 카운터 밖 티는 monolith 가 룰북으로 잡는다
+genre: essay
+char_count: 932
+
+[v1.6 지표]
+- comma_inclusion_rate: 0.07  (z=-1.09 vs essay 인간 baseline)
+- comma_usage_rate: 0.11  (z=-1.43 vs essay 인간 baseline)
+- ending_comma_rate: 0.00  (z=-0.52 vs essay 인간 baseline)
+- comma_segment_length: 7.13  (z=+1.32 vs essay 인간 baseline)  · S2 시그널
+- conclusion_pivot_count: 0
+- safe_balance_count: 0
+- hanja_nominalizer_density: 0.000  (z=-2.00 vs essay 인간 baseline)
+- lexical_diversity: 0.86  (z=+4.14 vs essay 인간 baseline)
+
+[v2.0 카운트형 지표 — 원값 / baseline calibration 전 z-score 해석 보류]
+- double_passive_count (이중 피동, 본진 A-8): 0
+- by_passive_count (~에 의해 피동, 본진 A-9): 0
+- pronoun_density (인칭 대명사 밀도, 본진 A-16): 0.000
+- have_make_literal_count (have/make 직역, 본진 A-7): 0
+- double_particle_count (이중 조사 결합, 본진 A-19): 0
+- relative_clause_nesting (관형절 3중+ 중첩 문장 수, 본진 A-18): 1
+- deul_overuse_rate ('-들' 남용률, 본진 A-17 hold): 0.000
+- 카운트 > 0 지표는 해당 본진 ID 처방(quick-rules.md·taxonomy)과 교차 확인 후 윤문할 것.
+
+[근거 사용 가이드]
+- 위 점수는 *근거 보조*다. 단독 판정 금지(보고서 명시).
+- z>1.0 지표는 quick-rules.md S1·S2 패턴과 교차 확인 후 윤문할 것.
+- ending_comma_rate가 ★ S1 트리거인 경우 C-11(연결어미 뒤 쉼표) 우선 손질.
+- conclusion_pivot 매치 토큰은 D-1·H-1 처방 적용 대상.
+
+[원문 시작]
+- 비용: 돈은 안 들고 분유값도 아낍니다. 대신 수유에 날마다 꽤 많은 시간이 듭니다. 어려운 건 첫 6개월을 끊기지 않게 이어 가는 일입니다.
+- 쉽게: 태어나 첫 1시간 안에 젖을 물리세요. 첫 6개월은 모유만 먹이고 물도 주지 마세요. 6개월부터는 고기처럼 철분 많은 이유식을 더합니다. 모유는 두 돌이 넘도록 이어 가세요. 모유가 모자라거나 못 먹이면 분유를 쓰면 되니 자책할 일이 아닙니다.
+- 이득: 세계보건기구는 「태어나서 첫 1시간 안에 모유 수유를 시작하라」고 권합니다. 첫 6개월에는 「완전 모유 수유」를 권합니다. 물을 포함해 다른 어떤 음식이나 음료도 주지 않는다는 뜻입니다. 그 뒤에는 「생후 6개월부터 안전하고 충분한 이유식을 더하라」고 합니다. 모유 수유는 「2세 이상까지」 이어 가라고 덧붙입니다. 질병관리청 국가건강정보포털도 출생 후 30분~1시간 안에 초유를 먹이라고 안내합니다. 생후 6개월까지는 모유만으로 충분하다고 봅니다. 포털은 이것이 세계보건기구와 대한소아청소년과학회의 권장 기준이라고 밝힙니다. 이유식은 모유 아기라면 생후 6개월 이후에 시작합니다. 분유 아기라면 4~6개월에 시작하라고 합니다. 처음부터 쇠고기 같은 육류로 철분을 주라고 권합니다. 시판 일반 분유는 대개 철분이 강화돼 있습니다. 그래서 모유 아기에게 철분 공급이 더 중요하다고 설명합니다.
+- 비고: 젖이 모자라거나 몸 상태 때문에 먹일 수 없으면 분유를 쓰세요. 모유와 분유의 차이는 제1항(바로 눕혀 재우기)이 만드는 차이보다 훨씬 작습니다. 이유식은 모유 아기 기준으로 6~8개월에 하루 2~3회, 9~11개월에 3~4회 먹입니다. 땅콩, 포도알, 익히지 않은 당근처럼 기도를 막을 수 있는 음식은 피하세요. 심한 습진이나 달걀 알레르기가 있는 아이의 땅콩 문제는 제12항(땅콩)을 보세요. 2026-10-10 질병관리청 국가건강정보포털 확인.
+[원문 끝]

@@ -1,0 +1,39 @@
+[정량 사전 점수 v2.0 — v1.6 8지표(KatFish baseline) + v2.0 카운트형]
+risk_band: low  (score 0)
+route_hint: light  (권고 — 사용자·오케스트레이터가 무시 가능)
+route_reason: 카운트형 티 0건(라우터가 세는 항목 기준) · risk_band low — 단일 콜·최소 파이프라인 권장. 카운터 밖 티는 monolith 가 룰북으로 잡는다
+genre: essay
+char_count: 592
+
+[v1.6 지표]
+- comma_inclusion_rate: 0.05  (z=-1.21 vs essay 인간 baseline)
+- comma_usage_rate: 0.05  (z=-1.51 vs essay 인간 baseline)
+- ending_comma_rate: 0.00  (z=-0.52 vs essay 인간 baseline)
+- comma_segment_length: 6.60  (n/a vs essay 인간 baseline)
+- conclusion_pivot_count: 0
+- safe_balance_count: 0
+- hanja_nominalizer_density: 0.008  (z=-1.74 vs essay 인간 baseline)
+- lexical_diversity: 0.80  (z=+2.94 vs essay 인간 baseline)
+
+[v2.0 카운트형 지표 — 원값 / baseline calibration 전 z-score 해석 보류]
+- double_passive_count (이중 피동, 본진 A-8): 0
+- by_passive_count (~에 의해 피동, 본진 A-9): 0
+- pronoun_density (인칭 대명사 밀도, 본진 A-16): 0.000
+- have_make_literal_count (have/make 직역, 본진 A-7): 0
+- double_particle_count (이중 조사 결합, 본진 A-19): 0
+- relative_clause_nesting (관형절 3중+ 중첩 문장 수, 본진 A-18): 0
+- deul_overuse_rate ('-들' 남용률, 본진 A-17 hold): 0.000
+- 카운트 > 0 지표는 해당 본진 ID 처방(quick-rules.md·taxonomy)과 교차 확인 후 윤문할 것.
+
+[근거 사용 가이드]
+- 위 점수는 *근거 보조*다. 단독 판정 금지(보고서 명시).
+- z>1.0 지표는 quick-rules.md S1·S2 패턴과 교차 확인 후 윤문할 것.
+- ending_comma_rate가 ★ S1 트리거인 경우 C-11(연결어미 뒤 쉼표) 우선 손질.
+- conclusion_pivot 매치 토큰은 D-1·H-1 처방 적용 대상.
+
+[원문 시작]
+- 비용: 돈이 들지 않습니다. 입사할 때 지식재산권 약정을 읽으세요. 개인 기기·계정·저장소는 회사 작업과 분리하세요.
+- 쉽게: 회사 기획 아래 업무로 쓴 프로그램은 회사가 저작자가 될 수 있습니다. 개인 기기로 썼다고 해서 내 코드가 되지는 않습니다. 직무발명을 승계시키면 정당한 보상도 요구할 수 있습니다.
+- 이득: 업무상저작물은 회사 기획 아래 업무로 작성한 저작물입니다. 계약·근무규칙에 달리 정하지 않으면 회사가 저작자가 됩니다. 프로그램은 회사 명의로 공표할 필요도 없습니다. 직무발명을 완성하면 회사에 서면으로 알려야 합니다. 사전 승계 약정이 있으면 완성 때부터 권리가 승계됩니다. 다만 회사가 승계하지 않겠다고 통지하면 예외입니다. 권리를 승계하거나 전용실시권을 설정하면 정당한 보상을 받을 권리가 있습니다.
+- 비고: 회사 장비를 썼다는 사실만으로 권리자를 정하지 않습니다. 업무 내용과 기획, 계약을 함께 살펴야 합니다. 개인 프로젝트에는 회사 코드·자료를 넣지 마세요. 보상권이 있어도 보상금이 자동으로 입금되지는 않습니다. 계산과 지급이 다르면 협의·분쟁 절차에 비용이 듭니다. 2026-10-10 법령 확인(국가법령정보센터).
+[원문 끝]

@@ -1,0 +1,39 @@
+[정량 사전 점수 v2.0 — v1.6 8지표(KatFish baseline) + v2.0 카운트형]
+risk_band: low  (score 0)
+route_hint: light  (권고 — 사용자·오케스트레이터가 무시 가능)
+route_reason: 카운트형 티 0건(라우터가 세는 항목 기준) · risk_band low — 단일 콜·최소 파이프라인 권장. 카운터 밖 티는 monolith 가 룰북으로 잡는다
+genre: essay
+char_count: 574
+
+[v1.6 지표]
+- comma_inclusion_rate: 0.00  (z=-1.52 vs essay 인간 baseline)
+- comma_usage_rate: 0.00  (z=-1.58 vs essay 인간 baseline)
+- ending_comma_rate: 0.00  (z=-0.52 vs essay 인간 baseline)
+- comma_segment_length: 5.81  (n/a vs essay 인간 baseline)
+- conclusion_pivot_count: 0
+- safe_balance_count: 0
+- hanja_nominalizer_density: 0.000  (z=-2.00 vs essay 인간 baseline)
+- lexical_diversity: 0.94  (z=+5.81 vs essay 인간 baseline)
+
+[v2.0 카운트형 지표 — 원값 / baseline calibration 전 z-score 해석 보류]
+- double_passive_count (이중 피동, 본진 A-8): 0
+- by_passive_count (~에 의해 피동, 본진 A-9): 0
+- pronoun_density (인칭 대명사 밀도, 본진 A-16): 0.000
+- have_make_literal_count (have/make 직역, 본진 A-7): 0
+- double_particle_count (이중 조사 결합, 본진 A-19): 0
+- relative_clause_nesting (관형절 3중+ 중첩 문장 수, 본진 A-18): 0
+- deul_overuse_rate ('-들' 남용률, 본진 A-17 hold): 0.000
+- 카운트 > 0 지표는 해당 본진 ID 처방(quick-rules.md·taxonomy)과 교차 확인 후 윤문할 것.
+
+[근거 사용 가이드]
+- 위 점수는 *근거 보조*다. 단독 판정 금지(보고서 명시).
+- z>1.0 지표는 quick-rules.md S1·S2 패턴과 교차 확인 후 윤문할 것.
+- ending_comma_rate가 ★ S1 트리거인 경우 C-11(연결어미 뒤 쉼표) 우선 손질.
+- conclusion_pivot 매치 토큰은 D-1·H-1 처방 적용 대상.
+
+[원문 시작]
+- 비용: 누가 일을 시켰고 임금을 약속했는지 정리하세요. 현장·고용주 이름과 연락처를 보관합니다. 계약서 명칭보다 실제 업무 기록을 모으세요. 민사청구에는 인지대·송달료가 들 수 있습니다. 변호사를 선임하면 보수를 내야 합니다. 이겨도 상대방에게 받을 보수는 규칙상 인정 범위입니다. 실제 선임비 전액을 돌려받는다는 보장은 없습니다. 강제집행에는 비용을 미리 내야 합니다. 조사·소송·집행에 걸리는 시간은 사건마다 다릅니다.
+- 쉽게: 개인이 고용했거나 사업자등록이 없어도 바로 포기하지 마세요. 일을 시킨 방식과 대가를 보고 근로관계를 판단합니다. 도급·직접 가사고용은 다른 경로를 확인하세요.
+- 이득: 한국에서 사용자는 법인에만 한정되지 않습니다. 개인사업주도 근로자를 고용하면 사용자가 됩니다. 사업자등록 유무만으로 노동청 이용 여부를 정하지 마세요. 실제 도급·위임 관계라면 민사로 보수 청구를 검토합니다. 가정이 직접 고용한 가사사용인은
+- 비고: 2026-10-10 법령 확인. 소개소·팀장·원청·하청의 역할을 기록하세요. 원청이 항상 모든 임금을 대신 내는 것은 아닙니다. 계약 제목이 프리랜서라는 이유만으로
+[원문 끝]

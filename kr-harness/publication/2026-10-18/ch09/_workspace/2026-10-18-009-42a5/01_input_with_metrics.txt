@@ -1,0 +1,39 @@
+[정량 사전 점수 v2.0 — v1.6 8지표(KatFish baseline) + v2.0 카운트형]
+risk_band: low  (score 0)
+route_hint: light  (권고 — 사용자·오케스트레이터가 무시 가능)
+route_reason: 카운트형 티 0건(라우터가 세는 항목 기준) · risk_band low — 단일 콜·최소 파이프라인 권장. 카운터 밖 티는 monolith 가 룰북으로 잡는다
+genre: essay
+char_count: 403
+
+[v1.6 지표]
+- comma_inclusion_rate: 0.00  (z=-1.52 vs essay 인간 baseline)
+- comma_usage_rate: 0.00  (z=-1.58 vs essay 인간 baseline)
+- ending_comma_rate: 0.00  (z=-0.52 vs essay 인간 baseline)
+- comma_segment_length: 6.57  (n/a vs essay 인간 baseline)
+- conclusion_pivot_count: 0
+- safe_balance_count: 0
+- hanja_nominalizer_density: 0.000  (z=-2.00 vs essay 인간 baseline)
+- lexical_diversity: 0.86  (z=+4.27 vs essay 인간 baseline)
+
+[v2.0 카운트형 지표 — 원값 / baseline calibration 전 z-score 해석 보류]
+- double_passive_count (이중 피동, 본진 A-8): 0
+- by_passive_count (~에 의해 피동, 본진 A-9): 0
+- pronoun_density (인칭 대명사 밀도, 본진 A-16): 0.000
+- have_make_literal_count (have/make 직역, 본진 A-7): 0
+- double_particle_count (이중 조사 결합, 본진 A-19): 0
+- relative_clause_nesting (관형절 3중+ 중첩 문장 수, 본진 A-18): 0
+- deul_overuse_rate ('-들' 남용률, 본진 A-17 hold): 0.000
+- 카운트 > 0 지표는 해당 본진 ID 처방(quick-rules.md·taxonomy)과 교차 확인 후 윤문할 것.
+
+[근거 사용 가이드]
+- 위 점수는 *근거 보조*다. 단독 판정 금지(보고서 명시).
+- z>1.0 지표는 quick-rules.md S1·S2 패턴과 교차 확인 후 윤문할 것.
+- ending_comma_rate가 ★ S1 트리거인 경우 C-11(연결어미 뒤 쉼표) 우선 손질.
+- conclusion_pivot 매치 토큰은 D-1·H-1 처방 적용 대상.
+
+[원문 시작]
+- 비용: 쓰레기를 지정 장소에 버리는 시간이 듭니다. 높은 곳에 물건을 방치하지 마세요.
+- 쉽게: 아무도 맞지 않아도 위험하게 던지면 처벌받습니다. 사람이 다치거나 죽으면 형사책임이 더 커집니다. 배상 문제도 생깁니다.
+- 이득: 해를 끼칠 우려가 있는 곳에 부주의하게 물건을 던지면 처벌받습니다. 해당 법정형은 10만원 이하 벌금·구류·과료입니다. 과실치사 법정형은 2년 이하 금고 또는 700만원 이하 벌금입니다. 고의나 중대한 과실 여부에 따라 적용 죄명이 달라집니다.
+- 비고: 높은 곳에서 물건을 던질 때의 형량은 한국과 원문이 다릅니다. 피해자 배상금은 벌금과 별개입니다. 소송이 생기면 증거를 확보하고 대응하는 데 시간이 듭니다. 변호사 비용도 듭니다. 2026-10-10 법령 확인(국가법령정보센터).
+[원문 끝]

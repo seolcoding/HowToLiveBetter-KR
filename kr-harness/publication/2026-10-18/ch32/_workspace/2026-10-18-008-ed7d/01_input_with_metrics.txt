@@ -1,0 +1,39 @@
+[정량 사전 점수 v2.0 — v1.6 8지표(KatFish baseline) + v2.0 카운트형]
+risk_band: low  (score 0)
+route_hint: light  (권고 — 사용자·오케스트레이터가 무시 가능)
+route_reason: 카운트형 티 0건(라우터가 세는 항목 기준) · risk_band low — 단일 콜·최소 파이프라인 권장. 카운터 밖 티는 monolith 가 룰북으로 잡는다
+genre: essay
+char_count: 810
+
+[v1.6 지표]
+- comma_inclusion_rate: 0.12  (z=-0.82 vs essay 인간 baseline)
+- comma_usage_rate: 0.16  (z=-1.36 vs essay 인간 baseline)
+- ending_comma_rate: 0.00  (z=-0.52 vs essay 인간 baseline)
+- comma_segment_length: 6.28  (z=+0.91 vs essay 인간 baseline)
+- conclusion_pivot_count: 0
+- safe_balance_count: 0
+- hanja_nominalizer_density: 0.000  (z=-2.00 vs essay 인간 baseline)
+- lexical_diversity: 0.79  (z=+2.73 vs essay 인간 baseline)
+
+[v2.0 카운트형 지표 — 원값 / baseline calibration 전 z-score 해석 보류]
+- double_passive_count (이중 피동, 본진 A-8): 0
+- by_passive_count (~에 의해 피동, 본진 A-9): 0
+- pronoun_density (인칭 대명사 밀도, 본진 A-16): 0.000
+- have_make_literal_count (have/make 직역, 본진 A-7): 0
+- double_particle_count (이중 조사 결합, 본진 A-19): 0
+- relative_clause_nesting (관형절 3중+ 중첩 문장 수, 본진 A-18): 0
+- deul_overuse_rate ('-들' 남용률, 본진 A-17 hold): 0.000
+- 카운트 > 0 지표는 해당 본진 ID 처방(quick-rules.md·taxonomy)과 교차 확인 후 윤문할 것.
+
+[근거 사용 가이드]
+- 위 점수는 *근거 보조*다. 단독 판정 금지(보고서 명시).
+- z>1.0 지표는 quick-rules.md S1·S2 패턴과 교차 확인 후 윤문할 것.
+- ending_comma_rate가 ★ S1 트리거인 경우 C-11(연결어미 뒤 쉼표) 우선 손질.
+- conclusion_pivot 매치 토큰은 D-1·H-1 처방 적용 대상.
+
+[원문 시작]
+- 비용: 비자 수수료 558파운드에 의료부담금(IHS)이 1년에 776파운드 붙습니다. 둘 다 비자를 신청할 때 냅니다.
+- 쉽게: 영국 유학 비용은 비자 수수료로 끝나지 않습니다. 비자 연수만큼 의료부담금을 미리 내야 국민보건서비스(NHS)를 쓸 수 있습니다. 2년짜리 비자라면 부담금이 1552파운드입니다. 예산에서 빠뜨리지 마세요.
+- 이득: 영국 학생 비자 수수료는 558파운드입니다. 영국 밖에서 신청하든 영국 안에서 연장·변경하든 같습니다. 함께 가는 가족도 1인당 따로 내야 합니다. 의료부담금은 대부분 온라인 비자 신청 과정에서 함께 냅니다. 학생과 그 가족은 1년에 776파운드입니다. 청년이동제도(Youth Mobility Scheme) 비자도 금액이 같습니다. 2년짜리 비자면 1552파운드가 됩니다. 그 밖의 신청은 1년에 1035파운드입니다. 6개월이 넘고 1년이 안 되는 기간은 1년 치를 다 냅니다. 영국 밖에서 6개월 이하 비자를 신청하면 부담금이 없습니다. NHS는 비자가 시작되는 날부터 무료로 쓸 수 있습니다. 다만 처방약, 치과, 시력검사 등은 여전히 돈을 냅니다.
+- 비고: 금액과 환율은 바뀌니 출처 페이지에 그때 적힌 금액으로 계산하세요. 18세 이상이 학위 과정을 들으면 보통 최장 5년, 학위 미만이면 2년 머물 수 있습니다. 이 햇수로 부담금을 어림하면 됩니다. 부담금을 덜 내면 영국 비자이민청(UKVI)이 메일로 알려 줍니다. 그 뒤 영국 안에서는 10영업일, 밖에서는 7영업일 안에 내야 합니다. 기한 안에 못 내면 신청이 거절됩니다. 2026-10-10에 영국 정부 누리집에서 확인했습니다.
+[원문 끝]

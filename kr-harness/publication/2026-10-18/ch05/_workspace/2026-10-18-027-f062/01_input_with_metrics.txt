@@ -1,0 +1,39 @@
+[정량 사전 점수 v2.0 — v1.6 8지표(KatFish baseline) + v2.0 카운트형]
+risk_band: low  (score 0)
+route_hint: light  (권고 — 사용자·오케스트레이터가 무시 가능)
+route_reason: 카운트형 티 0건(라우터가 세는 항목 기준) · risk_band low — 단일 콜·최소 파이프라인 권장. 카운터 밖 티는 monolith 가 룰북으로 잡는다
+genre: essay
+char_count: 595
+
+[v1.6 지표]
+- comma_inclusion_rate: 0.05  (z=-1.21 vs essay 인간 baseline)
+- comma_usage_rate: 0.05  (z=-1.51 vs essay 인간 baseline)
+- ending_comma_rate: 0.00  (z=-0.52 vs essay 인간 baseline)
+- comma_segment_length: 7.05  (n/a vs essay 인간 baseline)
+- conclusion_pivot_count: 0
+- safe_balance_count: 0
+- hanja_nominalizer_density: 0.000  (z=-2.00 vs essay 인간 baseline)
+- lexical_diversity: 0.82  (z=+3.35 vs essay 인간 baseline)
+
+[v2.0 카운트형 지표 — 원값 / baseline calibration 전 z-score 해석 보류]
+- double_passive_count (이중 피동, 본진 A-8): 0
+- by_passive_count (~에 의해 피동, 본진 A-9): 0
+- pronoun_density (인칭 대명사 밀도, 본진 A-16): 0.000
+- have_make_literal_count (have/make 직역, 본진 A-7): 0
+- double_particle_count (이중 조사 결합, 본진 A-19): 0
+- relative_clause_nesting (관형절 3중+ 중첩 문장 수, 본진 A-18): 0
+- deul_overuse_rate ('-들' 남용률, 본진 A-17 hold): 0.000
+- 카운트 > 0 지표는 해당 본진 ID 처방(quick-rules.md·taxonomy)과 교차 확인 후 윤문할 것.
+
+[근거 사용 가이드]
+- 위 점수는 *근거 보조*다. 단독 판정 금지(보고서 명시).
+- z>1.0 지표는 quick-rules.md S1·S2 패턴과 교차 확인 후 윤문할 것.
+- ending_comma_rate가 ★ S1 트리거인 경우 C-11(연결어미 뒤 쉼표) 우선 손질.
+- conclusion_pivot 매치 토큰은 D-1·H-1 처방 적용 대상.
+
+[원문 시작]
+- 비용: 돈은 들지 않습니다. 대신 더 높은 수익을 포기해야 합니다. 이 돈은 입출금 통장이나 언제든 찾을 수 있는 예금에 둡니다. 모으는 동안 손대지 않는 일이 어렵습니다.
+- 쉽게: 3~6개월 생활비를 바로 꺼낼 수 있는 곳에 두세요. 일자리를 잃거나 아플 때 연 20%까지 붙는 대출을 피할 수 있습니다. 투자를 손해 보며 팔지 않아도 됩니다. 보호 대상 예금은 금융회사별 1인당 원금과 소정의 이자를 합쳐 1억원까지 보호됩니다.
+- 이득: 비상금이 있으면 일자리를 잃거나 아플 때 돈을 빌리지 않아도 됩니다. 투자를 손해 보며 팔지 않아도 됩니다. 카드사·대부업체 대출의 법정 이자 상한은 연 20%입니다. 자세한 셈은 제7항(리볼빙·소비용 대출)에 있습니다. 보호 대상 예금의 원금과 소정의 이자를 합친 한도입니다. 한 금융회사에서 1인당 1억원입니다(「예금자보호법」 제32조 제2항, 같은 법 시행령 제18조 제7항).
+- 비고: "3~6개월"은 널리 쓰는 경험칙입니다. 정부나 학계의 원출처를 찾지 못해 C로 둡니다. 금액은 수입이 아니라 매달 나가는 고정 지출로 정하세요. 투자 권유가 아닙니다. 2026-10-10 법령 확인(국가법령정보센터).
+[원문 끝]

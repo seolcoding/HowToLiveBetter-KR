@@ -1,0 +1,39 @@
+[정량 사전 점수 v2.0 — v1.6 8지표(KatFish baseline) + v2.0 카운트형]
+risk_band: low  (score 2)
+route_hint: light  (권고 — 사용자·오케스트레이터가 무시 가능)
+route_reason: 카운트형 티 0건(라우터가 세는 항목 기준) · risk_band low — 단일 콜·최소 파이프라인 권장. 카운터 밖 티는 monolith 가 룰북으로 잡는다
+genre: essay
+char_count: 717
+
+[v1.6 지표]
+- comma_inclusion_rate: 0.13  (z=-0.76 vs essay 인간 baseline)
+- comma_usage_rate: 0.17  (z=-1.34 vs essay 인간 baseline)
+- ending_comma_rate: 0.50  (z=+5.84 vs essay 인간 baseline)  ★ S1 트리거
+- comma_segment_length: 5.26  (z=+0.43 vs essay 인간 baseline)
+- conclusion_pivot_count: 0
+- safe_balance_count: 0
+- hanja_nominalizer_density: 0.000  (z=-2.00 vs essay 인간 baseline)
+- lexical_diversity: 0.89  (z=+4.83 vs essay 인간 baseline)
+
+[v2.0 카운트형 지표 — 원값 / baseline calibration 전 z-score 해석 보류]
+- double_passive_count (이중 피동, 본진 A-8): 0
+- by_passive_count (~에 의해 피동, 본진 A-9): 0
+- pronoun_density (인칭 대명사 밀도, 본진 A-16): 0.000
+- have_make_literal_count (have/make 직역, 본진 A-7): 0
+- double_particle_count (이중 조사 결합, 본진 A-19): 0
+- relative_clause_nesting (관형절 3중+ 중첩 문장 수, 본진 A-18): 0
+- deul_overuse_rate ('-들' 남용률, 본진 A-17 hold): 0.000
+- 카운트 > 0 지표는 해당 본진 ID 처방(quick-rules.md·taxonomy)과 교차 확인 후 윤문할 것.
+
+[근거 사용 가이드]
+- 위 점수는 *근거 보조*다. 단독 판정 금지(보고서 명시).
+- z>1.0 지표는 quick-rules.md S1·S2 패턴과 교차 확인 후 윤문할 것.
+- ending_comma_rate가 ★ S1 트리거인 경우 C-11(연결어미 뒤 쉼표) 우선 손질.
+- conclusion_pivot 매치 토큰은 D-1·H-1 처방 적용 대상.
+
+[원문 시작]
+- 비용: 돈이 들지 않습니다. 사지 않으면 그만큼 돈이 남습니다.
+- 쉽게: 로또는 판매액의 50%만 당첨금으로 돌려줍니다. 1,000원을 내면 장기 평균으로 500원이 돌아옵니다. 나머지 500원은 잃습니다. 당첨금이 200만원을 넘으면 세금도 뗍니다.
+- 이득: 법은 회차별 당첨금 합계의 기준을 정합니다. 발행 복권 액면가 총액의 50% 이상이어야 합니다(「복권법」 제8조 제1항). 로또6/45는 "총 당첨금은 로또 전체 판매액의 50%이며, 40% 이상은 복권기금으로 활용"됩니다(동행복권 로또6/45 소개). 1등 확률은 8,145,060분의 1입니다. 1,000원어치를 사면 장기 평균 당첨금은 500원입니다. 나머지 500원은 잃습니다. 당첨금이 건별 200만원을 넘으면 소득세가 붙습니다. 소득세율은 20%입니다. 3억원을 넘는 부분은 30%입니다. 지방소득세까지 합치면 각각 22%와 33%입니다(「소득세법」 제84조 제2호, 제129조 제1항 제6호, 「지방세법」 제103조의13). 세금까지 빼면 돌아오는 돈은 500원보다 적습니다.
+- 비고: 장기 평균으로는 반드시 돈을 잃습니다. 운이 아니라 제도가 그렇게 정해 놓았습니다. 사고 싶으면 한 번 1,000원짜리 오락비로 여기세요. 재테크로 생각하지 마세요. 한국의 한 해 복권 판매액은 공식 자료로 확인하지 못했습니다(TODO). 2026-10-10 법령 확인(국가법령정보센터), 동행복권 페이지 확인.
+[원문 끝]

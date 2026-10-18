@@ -1,0 +1,39 @@
+[정량 사전 점수 v2.0 — v1.6 8지표(KatFish baseline) + v2.0 카운트형]
+risk_band: low  (score 0)
+route_hint: light  (권고 — 사용자·오케스트레이터가 무시 가능)
+route_reason: 카운트형 티 0건(라우터가 세는 항목 기준) · risk_band low — 단일 콜·최소 파이프라인 권장. 카운터 밖 티는 monolith 가 룰북으로 잡는다
+genre: essay
+char_count: 804
+
+[v1.6 지표]
+- comma_inclusion_rate: 0.03  (z=-1.33 vs essay 인간 baseline)
+- comma_usage_rate: 0.03  (z=-1.54 vs essay 인간 baseline)
+- ending_comma_rate: 0.00  (z=-0.52 vs essay 인간 baseline)
+- comma_segment_length: 5.66  (n/a vs essay 인간 baseline)
+- conclusion_pivot_count: 0
+- safe_balance_count: 0
+- hanja_nominalizer_density: 0.000  (z=-2.00 vs essay 인간 baseline)
+- lexical_diversity: 0.77  (z=+2.37 vs essay 인간 baseline)
+
+[v2.0 카운트형 지표 — 원값 / baseline calibration 전 z-score 해석 보류]
+- double_passive_count (이중 피동, 본진 A-8): 0
+- by_passive_count (~에 의해 피동, 본진 A-9): 0
+- pronoun_density (인칭 대명사 밀도, 본진 A-16): 0.000
+- have_make_literal_count (have/make 직역, 본진 A-7): 0
+- double_particle_count (이중 조사 결합, 본진 A-19): 0
+- relative_clause_nesting (관형절 3중+ 중첩 문장 수, 본진 A-18): 1
+- deul_overuse_rate ('-들' 남용률, 본진 A-17 hold): 0.000
+- 카운트 > 0 지표는 해당 본진 ID 처방(quick-rules.md·taxonomy)과 교차 확인 후 윤문할 것.
+
+[근거 사용 가이드]
+- 위 점수는 *근거 보조*다. 단독 판정 금지(보고서 명시).
+- z>1.0 지표는 quick-rules.md S1·S2 패턴과 교차 확인 후 윤문할 것.
+- ending_comma_rate가 ★ S1 트리거인 경우 C-11(연결어미 뒤 쉼표) 우선 손질.
+- conclusion_pivot 매치 토큰은 D-1·H-1 처방 적용 대상.
+
+[원문 시작]
+- 비용: 돈이 안 들고 한 번에 몇 분이면 됩니다. 휴대폰은 다른 방에 두세요. 책은 책상에 펼쳐 두고 컴퓨터도 준비해 두세요.
+- 쉽게: 물건이 멀수록 덜 집어 듭니다. 같은 간식도 멀리 두면 먹는 양이 뚜렷하게 줄었습니다. 효과는 중간 크기입니다. 선택지를 줄이면 그 음식을 집는 사람도 줄었습니다. 미리 몇 분만 들여 치워 두면 그때마다 참지 않아도 됩니다.
+- 이득: 코크란 리뷰는 무작위시험 24건을 종합했습니다. 음식을 더 멀리 두면 먹는 양이 줄었습니다. 표준화평균차는 −0.60(95% CI −0.84~−0.36)입니다. 중간 크기의 효과를 보였습니다. CI는 신뢰구간입니다. 연구 12건에 1098명이 참여했습니다. 근거의 확실성은 낮습니다. 선택지를 줄이면 그 음식을 고르는 비율이 더 크게 줄었습니다. 표준화평균차는 −1.13(95% CI −1.90~−0.37)입니다. 연구 3건에 154명이 참여했습니다. 근거의 확실성은 낮습니다. 회귀분석에서는 멀수록, 선택지가 단순할수록 효과가 컸습니다.
+- 비고: 근거등급은 B입니다. 리뷰에 포함된 24건은 모두 음식 연구였습니다. 술과 담배 연구는 없습니다. 14건은 실험실에서 진행했습니다. 자료는 모두 고소득 국가에서 나왔습니다. 「멀리 두면 덜 만진다」는 음식 연구에서 나온 결과입니다. 이를 휴대폰과 게임에도 적용하기에는 근거가 부족합니다. 이를 직접 시험한 연구는 없습니다. 휴대폰을 시야 밖에 두는 효과는 직접 측정한 연구가 있습니다. 필요 없는 알림 끄기는 제3절 제1항(알림 끄기)을 보세요. 일할 때 휴대폰을 시야 밖에 두는 내용도 그 항목에 있습니다.
+[원문 끝]

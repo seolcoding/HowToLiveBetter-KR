@@ -1,0 +1,39 @@
+[정량 사전 점수 v2.0 — v1.6 8지표(KatFish baseline) + v2.0 카운트형]
+risk_band: low  (score 0)
+route_hint: light  (권고 — 사용자·오케스트레이터가 무시 가능)
+route_reason: 카운트형 티 0건(라우터가 세는 항목 기준) · risk_band low — 단일 콜·최소 파이프라인 권장. 카운터 밖 티는 monolith 가 룰북으로 잡는다
+genre: essay
+char_count: 887
+
+[v1.6 지표]
+- comma_inclusion_rate: 0.04  (z=-1.31 vs essay 인간 baseline)
+- comma_usage_rate: 0.04  (z=-1.53 vs essay 인간 baseline)
+- ending_comma_rate: 0.00  (z=-0.52 vs essay 인간 baseline)
+- comma_segment_length: 7.07  (n/a vs essay 인간 baseline)
+- conclusion_pivot_count: 0
+- safe_balance_count: 0
+- hanja_nominalizer_density: 0.005  (z=-1.83 vs essay 인간 baseline)
+- lexical_diversity: 0.82  (z=+3.42 vs essay 인간 baseline)
+
+[v2.0 카운트형 지표 — 원값 / baseline calibration 전 z-score 해석 보류]
+- double_passive_count (이중 피동, 본진 A-8): 0
+- by_passive_count (~에 의해 피동, 본진 A-9): 0
+- pronoun_density (인칭 대명사 밀도, 본진 A-16): 0.000
+- have_make_literal_count (have/make 직역, 본진 A-7): 0
+- double_particle_count (이중 조사 결합, 본진 A-19): 0
+- relative_clause_nesting (관형절 3중+ 중첩 문장 수, 본진 A-18): 0
+- deul_overuse_rate ('-들' 남용률, 본진 A-17 hold): 0.005
+- 카운트 > 0 지표는 해당 본진 ID 처방(quick-rules.md·taxonomy)과 교차 확인 후 윤문할 것.
+
+[근거 사용 가이드]
+- 위 점수는 *근거 보조*다. 단독 판정 금지(보고서 명시).
+- z>1.0 지표는 quick-rules.md S1·S2 패턴과 교차 확인 후 윤문할 것.
+- ending_comma_rate가 ★ S1 트리거인 경우 C-11(연결어미 뒤 쉼표) 우선 손질.
+- conclusion_pivot 매치 토큰은 D-1·H-1 처방 적용 대상.
+
+[원문 시작]
+- 비용: 조리·난방 기구를 바꾸고 연료값을 내야 합니다. 한 번 바꾸면 끝나므로 시간을 계속 들이지 않아도 됩니다. 한국 도시 가정은 대부분 이미 전기·가스를 씁니다. 일부 농가와 오래된 주택에 해당합니다.
+- 쉽게: 연탄·장작으로 밥을 지으면 안 쓰는 사람보다 죽을 확률이 10%쯤 높습니다. 난방에 쓰면 죽을 확률이 14%쯤 높습니다. 전기나 가스로 바꾼 집은 계속 태우는 집보다 죽을 확률이 13~33% 낮습니다.
+- 이득: 중국에서 만성질환을 추적한 연구입니다. 연구진은 집단을 나누지 않고 기록만 했습니다. 심혈관 질환이 없는 성인 27만1천 명을 추적했습니다. 밥 짓기에 연탄·장작 같은 고체 연료를 쓰는 사람을 봤습니다. 사망 위험은 전기·가스 사용자보다 약 11% 높습니다(HR 1.11). 난방에 고체 연료를 쓰면 약 14% 높습니다(HR 1.14). 고체 연료에서 청정 연료로 바꾼 집과 계속 고체 연료를 쓰는 집을 비교했습니다. 밥 짓기 사망 위험은 바꾼 쪽이 약 13% 낮습니다(HR 0.87). 난방에서는 약 33% 낮습니다(HR 0.67). 실외 초미세먼지(PM2.5) 위험은 따로 계산합니다. 추적 연구 104개를 합쳤습니다. 장기 노출 농도가 10 µg/m³ 높을 때 자연사 위험은 약 8% 높습니다. RR 1.08입니다. 자연사는 사고사가 아닌 병사를 말합니다.
+- 비고: 이 연구들은 사람들의 생활과 건강을 추적해 기록했습니다. 연료를 바꾼 집은 대체로 형편도 나아졌을 수 있습니다. 사망 위험이 0.67배라는 수치에는 집안 형편의 영향도 섞여 있습니다. 실외 PM2.5에 개인이 대응할 방법은 제한적입니다. 개인은 이사나 마스크, 공기청정기 정도로 대응합니다. 공기청정기는 사망률을 살핀 연구가 없습니다. 그래서 사망률 수치를 제시하지 않았습니다.
+[원문 끝]

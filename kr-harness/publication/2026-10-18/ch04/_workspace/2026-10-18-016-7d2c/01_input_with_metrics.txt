@@ -1,0 +1,39 @@
+[정량 사전 점수 v2.0 — v1.6 8지표(KatFish baseline) + v2.0 카운트형]
+risk_band: low  (score 0)
+route_hint: light  (권고 — 사용자·오케스트레이터가 무시 가능)
+route_reason: 카운트형 티 0건(라우터가 세는 항목 기준) · risk_band low — 단일 콜·최소 파이프라인 권장. 카운터 밖 티는 monolith 가 룰북으로 잡는다
+genre: essay
+char_count: 518
+
+[v1.6 지표]
+- comma_inclusion_rate: 0.00  (z=-1.52 vs essay 인간 baseline)
+- comma_usage_rate: 0.00  (z=-1.58 vs essay 인간 baseline)
+- ending_comma_rate: 0.00  (z=-0.52 vs essay 인간 baseline)
+- comma_segment_length: 6.72  (n/a vs essay 인간 baseline)
+- conclusion_pivot_count: 0
+- safe_balance_count: 0
+- hanja_nominalizer_density: 0.000  (z=-2.00 vs essay 인간 baseline)
+- lexical_diversity: 0.75  (z=+2.04 vs essay 인간 baseline)
+
+[v2.0 카운트형 지표 — 원값 / baseline calibration 전 z-score 해석 보류]
+- double_passive_count (이중 피동, 본진 A-8): 0
+- by_passive_count (~에 의해 피동, 본진 A-9): 0
+- pronoun_density (인칭 대명사 밀도, 본진 A-16): 0.000
+- have_make_literal_count (have/make 직역, 본진 A-7): 0
+- double_particle_count (이중 조사 결합, 본진 A-19): 0
+- relative_clause_nesting (관형절 3중+ 중첩 문장 수, 본진 A-18): 0
+- deul_overuse_rate ('-들' 남용률, 본진 A-17 hold): 0.000
+- 카운트 > 0 지표는 해당 본진 ID 처방(quick-rules.md·taxonomy)과 교차 확인 후 윤문할 것.
+
+[근거 사용 가이드]
+- 위 점수는 *근거 보조*다. 단독 판정 금지(보고서 명시).
+- z>1.0 지표는 quick-rules.md S1·S2 패턴과 교차 확인 후 윤문할 것.
+- ending_comma_rate가 ★ S1 트리거인 경우 C-11(연결어미 뒤 쉼표) 우선 손질.
+- conclusion_pivot 매치 토큰은 D-1·H-1 처방 적용 대상.
+
+[원문 시작]
+- 비용: 돈이 안 듭니다. 무심코 TV를 켜는 습관은 고치기 어렵습니다. 실시간으로 접하던 소식을 놓칠 수도 있습니다.
+- 쉽게: 미국 15세 이상은 하루 2.6시간 TV를 봅니다. 여가 시간의 절반을 TV에 씁니다. 한국인(10세 이상)은 평일에 실시간 방송을 하루 1시간 30분 봅니다. 볼 내용을 정해 모아 보면 시청 시간을 줄일 수 있습니다.
+- 이득: 미국 노동통계국의 2025년 시간이용조사(ATUS) 결과입니다. 15세 이상은 하루 2.6시간 TV를 봅니다. 여가 전체 5.2시간의 절반입니다. 한국 수치는 2024년 생활시간조사에서 나왔습니다. 실시간 방송은 평일에 하루 평균 1시간 30분 봅니다. 일요일에는 하루 평균 2시간 8분 봅니다. 일요일에 실시간 방송을 본 사람은 71.1%였습니다. 일요일 시청자의 하루 평균 시청 시간은 3시간 1분입니다.
+- 비고: 근거는 총량 통계뿐입니다. TV와 뉴스를 줄여 아낀 시간을 어디에 썼는지 잰 연구는 없습니다. 「정해 놓고 모아 보기」는 지은이의 경험입니다.
+[원문 끝]

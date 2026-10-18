@@ -1,0 +1,39 @@
+[정량 사전 점수 v2.0 — v1.6 8지표(KatFish baseline) + v2.0 카운트형]
+risk_band: low  (score 0)
+route_hint: light  (권고 — 사용자·오케스트레이터가 무시 가능)
+route_reason: 카운트형 티 0건(라우터가 세는 항목 기준) · risk_band low — 단일 콜·최소 파이프라인 권장. 카운터 밖 티는 monolith 가 룰북으로 잡는다
+genre: essay
+char_count: 452
+
+[v1.6 지표]
+- comma_inclusion_rate: 0.00  (z=-1.52 vs essay 인간 baseline)
+- comma_usage_rate: 0.00  (z=-1.58 vs essay 인간 baseline)
+- ending_comma_rate: 0.00  (z=-0.52 vs essay 인간 baseline)
+- comma_segment_length: 6.73  (n/a vs essay 인간 baseline)
+- conclusion_pivot_count: 0
+- safe_balance_count: 0
+- hanja_nominalizer_density: 0.031  (z=-0.97 vs essay 인간 baseline)
+- lexical_diversity: 0.86  (z=+4.11 vs essay 인간 baseline)
+
+[v2.0 카운트형 지표 — 원값 / baseline calibration 전 z-score 해석 보류]
+- double_passive_count (이중 피동, 본진 A-8): 0
+- by_passive_count (~에 의해 피동, 본진 A-9): 0
+- pronoun_density (인칭 대명사 밀도, 본진 A-16): 0.000
+- have_make_literal_count (have/make 직역, 본진 A-7): 0
+- double_particle_count (이중 조사 결합, 본진 A-19): 0
+- relative_clause_nesting (관형절 3중+ 중첩 문장 수, 본진 A-18): 0
+- deul_overuse_rate ('-들' 남용률, 본진 A-17 hold): 0.000
+- 카운트 > 0 지표는 해당 본진 ID 처방(quick-rules.md·taxonomy)과 교차 확인 후 윤문할 것.
+
+[근거 사용 가이드]
+- 위 점수는 *근거 보조*다. 단독 판정 금지(보고서 명시).
+- z>1.0 지표는 quick-rules.md S1·S2 패턴과 교차 확인 후 윤문할 것.
+- ending_comma_rate가 ★ S1 트리거인 경우 C-11(연결어미 뒤 쉼표) 우선 손질.
+- conclusion_pivot 매치 토큰은 D-1·H-1 처방 적용 대상.
+
+[원문 시작]
+- 비용: 녹음 기능을 확인하고 파일을 보관할 시간이 듭니다.
+- 쉽게: 본인이 참여한 분쟁 대화는 기록을 남기세요. 처음부터 끝까지 원본을 보관하세요. 남의 대화를 몰래 녹음하지 마세요.
+- 이득: 통신비밀보호법 제3조·제14조는 타인 간 비공개 대화 녹음을 금지합니다. 대법원 2006도4981은 참여자의 녹음을 구분했습니다. 대화 참여자가 상대 몰래 녹음한 사건입니다. 이 사건의 녹음은 타인 간 대화 녹음 금지를 위반하지 않았습니다. 모든 녹음·수집 방법이나 공개가 적법하다는 뜻은 아닙니다. 원본과 맥락을 남겨 증거로 제출하세요.
+- 비고: 편집본만 남기면 진위나 맥락을 두고 다툴 수 있습니다. 자리를 떠난 뒤 녹음기로 남의 대화를 수집하지 마세요. 녹음을 온라인에 올리면 사생활·명예 문제가 생길 수 있습니다. 제16항(온라인 욕설)을 보세요. 2026-10-10 법령 확인(국가법령정보센터).
+[원문 끝]
