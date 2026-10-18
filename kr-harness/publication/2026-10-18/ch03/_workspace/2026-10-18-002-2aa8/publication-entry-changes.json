@@ -1,0 +1,163 @@
+{
+  "status": "unadopted_proposal",
+  "entry": 2,
+  "base": "strict-entry.md",
+  "base_sha256": "e67d5b8dd812490801db19ddb9202639fa50ed3032194ba65024ee1959f77955",
+  "proposal_sha256": "3769b71ca8529f1ca00da216d609335d13df92f540daaab920383a85c48cc204",
+  "changes": [
+    {
+      "field": "쉽게",
+      "before": "생활 리듬이 가장 흐트러진 5분의 1을 골랐습니다. 가장 규칙적인 5분의 1과 비교했습니다. 불규칙한 집단의 생체시계는 약 2.5시간 늦습니다. 늘 시차에 시달리는 셈입니다. 리듬이 규칙적인 학생일수록 성적도 좋습니다.",
+      "after": "잠들고 깨는 시간이 불규칙한 대학생은 생체시계가 약 2.5시간 늦었습니다. 가장 규칙적인 학생들과 비교한 결과입니다. 기상 시간을 고정하면 성적이 오른다는 뜻은 아닙니다.",
+      "sentence_lengths": [
+        41,
+        23,
+        29
+      ],
+      "reason": "120자 초과와 연구 세부를 줄이고 대학생 집단의 방향·크기 및 인과 한계를 일상말로 제시. 검토자 대체안의 취지를 반영하되 중심 크기도 보존.",
+      "evidence_quote_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "field": "이득",
+      "before": "대학생 61명이 30일간 기록했습니다. 수면·기상이 가장 불규칙한 5분의 1을 골랐습니다. 가장 규칙적인 5분의 1과 비교했습니다. 불규칙한 집단의 생체시계(일주기 리듬)는 약 2.5시간 늦었습니다. 멜라토닌 분비 시작 시각은 00:08 대 21:32였습니다. 가장 졸린 시간대도 약 1.8시간 늦었습니다. 리듬이 규칙적일수록 학업 성적이 좋았습니다(상관계수 r = 0.37).",
+      "after": "대학생 61명이 30일간 기록했습니다. 수면·기상이 가장 불규칙한 5분의 1을 골랐습니다. 가장 규칙적인 5분의 1과 비교했습니다. 불규칙한 집단의 생체시계(일주기 리듬)는 약 2.5시간 늦었습니다. 멜라토닌 분비 시작 시각은 00:08 대 21:32였습니다. 하루 중 잠들어 있던 비율이 가장 높은 시각도 약 1.8시간 늦었습니다. 성적을 보고한 59명에서 리듬이 규칙적일수록 성적이 좋았습니다. 상관계수 r = 0.37로, 두 값이 함께 변하는 정도입니다.",
+      "sentence_lengths": [
+        21,
+        28,
+        22,
+        37,
+        33,
+        40,
+        35,
+        34
+      ],
+      "reason": "졸림의 주관적 측정으로 오독할 표현을 실제 수면 비율 시각으로 교정. 성적 상관의 분석 대상은 61명 전체가 아닌 59명임을 명시하고 r을 설명.",
+      "evidence_quote_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "field": "비고",
+      "before": "연구는 하나뿐입니다. 참여 인원도 적습니다. 대조군을 둔 비교도 하지 않았습니다. 연구자들은 매일 쬐는 빛의 차이가 원인이라고 추산합니다. 기상 시간을 고정할 때는 아침 햇빛도 함께 봐야 효과가 있습니다. 밤샌 뒤에는 제2절 제38항(밤샌 다음 날 밤에 잠 보충하기)을 참고하세요. 그날 밤 일찍 자세요. 다음 날 낮까지 자라는 뜻은 아닙니다.",
+      "after": "연구는 하나뿐입니다. 참여 인원도 적습니다. 생활을 관찰한 연구이며 기상 시간을 고정하는 실험은 아니었습니다. 연구자들은 빛 노출 패턴으로 생체시계 차이를 설명하는 모형을 썼습니다. 아침 햇빛을 함께 봐야만 효과가 나는지는 검증하지 않았습니다. 전체 집단의 멜라토닌 시작 시각 차이는 약 2.5시간입니다. 모형 비교 문단에는 실제 차이를 2.2시간으로 적었습니다. 모형 분석 대상은 전체와 달라 두 수치를 구분해야 합니다. 밤샌 뒤에는 제2절 제38항(밤샌 다음 날 밤에 잠 보충하기)을 참고하세요. 그날 밤 일찍 자세요. 다음 날 낮까지 자라는 뜻은 아닙니다.",
+      "sentence_lengths": [
+        11,
+        12,
+        36,
+        39,
+        34,
+        33,
+        32,
+        32,
+        42,
+        12,
+        21
+      ],
+      "reason": "관찰·모형을 기상 고정 실험이나 아침 햇빛 필수조건으로 바꾸지 않음. 대조집단 자체가 없다는 오독도 피함. 논문 내 전체 시각과 모형 비교 문단의 차이를 독자에게 공개.",
+      "evidence_quote_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  ],
+  "easy_chars": 95,
+  "verified_at_utc": "2026-10-18T14:38:23.716930+00:00",
+  "verification": {
+    "method": "Cached primary full-text XML independently read: abstract, Results, Discussion, Methods. Publisher full-text HTML freshly fetched with urllib TLS defaults and matching Results/Discussion independently read.",
+    "level": "primary full text",
+    "doi": "10.1038/s41598-017-03171-4",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5468315/fullTextXML",
+    "cache_provenance": {
+      "doi": "10.1038/s41598-017-03171-4",
+      "chapters": [
+        3
+      ],
+      "pmcid": "PMC5468315",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5468315/fullTextXML",
+      "fetched_at": "2026-10-18T12:15:40.632289+00:00",
+      "http_status": 200,
+      "article_dois": [
+        "10.1038/s41598-017-03171-4"
+      ],
+      "exact_article_doi_match": true,
+      "status": "fulltext_xml_cached",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/pmc-fulltext/PMC5468315.xml",
+      "sha256": "00d0bbd95187f9a2f4994536b02b7b8c9b25297544e17e2a218c51d21cc81434",
+      "bytes": 116487
+    },
+    "cache_sha256_recomputed": "00d0bbd95187f9a2f4994536b02b7b8c9b25297544e17e2a218c51d21cc81434",
+    "fresh_publisher": {
+      "url": "https://www.nature.com/articles/s41598-017-03171-4",
+      "status": 200,
+      "raw_path": "/tmp/ch03e02-publisher.html",
+      "sha256": "cb23c884df23886fad957058873f15a863de3fddf38ee90553cd336e80ec8d9e"
+    },
+    "exact_primary_quotes": [
+      "The association of irregular sleep schedules with circadian timing and academic performance has not been systematically examined. We studied 61 undergraduates for 30 days using sleep diaries, and quantified sleep regularity using a novel metric, the sleep regularity index (SRI). In the most and least regular quintiles, circadian phase and light exposure were assessed using salivary dim-light melatonin onset (DLMO) and wrist-worn photometry, respectively. DLMO occurred later (00:08 ± 1:54 vs. 21:32 ± 1:48; p < 0.003); the daily sleep propensity rhythm peaked later (06:33 ± 0:19 vs. 04:45 ± 0:11; p < 0.005); and light rhythms had lower amplitude (102 ± 19 lux vs. 179 ± 29 lux; p < 0.005) in Irregular compared to Regular sleepers. A mathematical model of the circadian pacemaker and its response to light was used to demonstrate that Irregular vs. Regular group differences in circadian timing were likely primarily due to their different patterns of light exposure. A positive correlation (r = 0.37; p < 0.004) between academic performance and SRI was observed. These findings show that irregular sleep and light exposure patterns in college students are associated with delayed circadian rhythms and lower academic performance. Moreover, the modeling results reveal that light-based interventions may be therapeutically effective in improving sleep regularity in this population.",
+      "On average, Irregular sleepers had significantly later DLMO (00:08 ± 1:54 vs. 21:32 ± 1:48, p < 0.003) (Fig. 3A–C). This group difference remained significant even when the earliest individual in the Regular group was removed (p < 0.005). When light exposure patterns were given as inputs to a mathematical model of the human circadian pacemaker, with all other model parameters fixed at default values (i.e., assuming no inter-group differences in circadian physiology), the model predicted an average 1.7 h delay (p < 0.01, t-test) in DLMO timing in the Irregular group compared to the Regular group, whereas the actual average delay of the Irregular group compared to the Regular group was 2.2 h. An example of model inputs and outputs is shown in Fig. 4. On an individual basis, predictions were less accurate (11 Regular and 10 Irregular individuals had viable light data for modeling). In the Regular group, 4 of 11 predictions were within ± 1 h of the observed DLMO timing, and 9 of 11 were within ± 2 h. In the Irregular group, 5 of 10 predictions were within ± 1 h, and 8 of 10 were within ± 2 h. Linear fits to Regular (r = 0.50, slope = 0.31) and Irregular (r = 0.34, slope = 0.26) groups both had slopes less than 1, implying the model predicted less inter-individual variability in DLMO timing within each group than existed in the data. Within the participants in whom we assessed DLMO, we found that SRI and DLMO were negatively correlated (r = −0.66, p < 0.001, Fig. 5B).Figure 3Melatonin secretion is delayed in Irregular sleepers. Top panel: (A) Timing of salivary dim light melatonin onset (DLMO) for Regular (n = 12) and Irregular (n = 12) groups. Individuals in each group are shown as dots, with y-axis position jittered for visibility. Groups means (triangles) and standard deviations (error bars) are shown. Middle two panels: Time course for salivary melatonin concentration are shown for Regular participants in (B) and Irregular participants in (C), along with average sleep midpoint times for the nighttime sleep block for each individual (black dots), with y-axis position jittered for visibility. Gray lines show individuals in 1-h bins. Colored lines with error bars show group mean and standard deviation in 1-h bins. Bottom panel: (D) Actual timing of DLMO vs. model prediction for timing of DLMO, assessed using saliva. Data points correspond to individuals in the Regular (blue square) and Irregular (red circle) groups. Error bars show mean and standard deviation for each group. Differences in group averages are displayed. The dashed lines show linear regressions for each group.\nFigure 4Example of model inputs and outputs for one participant. Variables are shown for days 280–300 of a 300-day simulation for one participant from the Regular group. (A) Binned light levels in lux. (B) The two circadian pacemaker variables, x (blue) and x\nc (red). (C) The predicted salivary melatonin concentration. (D) The clock-time of Dim Light Salivary Melatonin Onset (DLSMO) on each day.\nFigure 5Correlations between sleep regularity index (SRI), grade point average (GPA), and timing of melatonin secretion. Panels (A, B and C) show the relationships between the variables: SRI, GPA, and salivary DLMO. Dashed lines show the linear fits, with r-values and p-values shown for each linear (Pearson) correlation. Each data point represents an individual, with colors indicating whether the individual was a member of the Regular (blue), Irregular (red), or neither group (black). Note that DLMO was only assessed in the Irregular﻿ and Regular participants.\n",
+      "SRI had a positive linear correlation with Grade Point Average (GPA) in the whole sample (n = 59, Pearson r = 0.37, p < 0.004; Fig. 5A). An increase of 10 in SRI was associated with an average increase of 0.10 in GPA. For reference, median GPA at Harvard has been recently estimated30 as 3.64, with a maximum possible 4.00. As secondary analysis, we calculated GPAs for the initially designated Ir﻿reg﻿ular (3.41 ± 0.33) an﻿d Regular (3.60 ± 0.32) groups; the difference in these subgroups (n = 12 each) was not significant (p = 0.16). When Irregular and Regular groups were designated using the full 30-day sleep record, rather than 14 days, there was a significant difference in GPA (p < 0.02) between Irregular (3.42 ± 0.34) and Regular (3.72 ± 0.24) groups. There was no significant linear correlation between sleep duration and SRI (r = 0.13, p = 0.29) or sleep duration and GPA (r = 0.12, p = 0.37). DLMO was also not significantly correlated with GPA (r = 0.37, p = 0.08). Since sleep timing was found to be associated with SRI, we tested whether the pre-study score on the Morningness-Eveningness Questionnaire was predictive of GPA, but found no significant correlation (r = −0.01, p = 0.96).",
+      "Differences in academic performance were not associated with average sleep duration in our population, and our data suggest that polyphasic sleep schedules that distribute sleep around the clock may be less effective for students, even if they maintain total sleep time. We note, however, that we cannot establish a causal relationship between sleep patterns and academic performance; sleep regularity may indeed be a proxy for regularity in other aspects of daily activity and schedules. The ability to sleep during the daytime as a compensation strategy after insufficient nocturnal sleep may also be specific to undergraduate students living on campus. This strategy would not be available to most adults who work full time or to students who do not live near campus. In populations that are limited in their ability to nap, sleep duration may positively correlate with SRI.",
+      "Participants lived in campus housing and reported their self-selected sleep/wake schedule for ~30 days (26–36 days, mean 30.67 days) by online diary during Fall 2013. After consent, participants completed the Pittsburgh Sleep Quality Index53 and Horne-Östberg Morningness-Eveningness Questionnaire54. Individuals self-reported their current GPA after study. On day 15, we classified participants using SRI. The highest (n = 12) and lowest (n = 12) quintiles were selected to wear actiwatches and complete dim-light saliva collection. Participants were blinded to group (i.e., they did not know that they had been assigned to the most regular or most irregular group, only that they had been selected for further study). Diaries were based on ones previously validated against the gold-standard for sleep assessment (polysomnography) in resident physicians55 and used in shift-workers56. Participants completed diaries shortly after awakening to report time of sleep onset, morning awakening, and the timing and duration of any awakenings during their main daily sleep episode. Participants also reported the timing and duration of any other sleep episodes (naps) and any actiwatch removals. To ensure accuracy of entries, each diary was accessible for only 24 h to prevent post-hoc completion; reminders were sent at 08:00. In addition, online diaries were checked daily by study staff, and participants with errors or missing fields were contacted within 24 h to encourage completion and clarify any errors. Using this highly-supervised approach, sleep/wake state was provided for 95% of the study across all individuals; individual completion rates ranged from 72–100%. For day 15 classification, data from days 1–14 were used. Only pairs of non-missing time-points were used to compute SRI. For final analysis, SRI was computed using the longest interval of a whole number of weeks with no missing data to avoid day-of-week bias (i.e., a time interval that is a multiple of 7 days). 2 individuals had one week, 7 had two weeks, 7 had three weeks, and 43 had four weeks. We note that the interval of sleep diary collection overlapped a daylight savings time transition (November). Differences in SRI calculated with a universal time or a daylight-savings-corrected time were negligible, so this did not affect group selection for the later light and melatonin collection.",
+      "Statistical comparisons between groups were computed using the non-parametric Wilcoxon rank-sum test, unless there was strong evidence of a normal distribution, in which case a two-tailed t-test was used. The average number of naps per week and amount of time spent napping was computed using the longest interval of a whole number of weeks with no missing data. For participants in Regular and Irregular groups, average clock time of sleep onset, midsleep, and wake time were calculated using vector averages. These timings were also computed by traditional means (linear averaging) for comparisons with SRI. The centroid of light exposure time was calculated using a weighted vector average, after averaging illuminances in 1-h bins with respect to clock time, and weighting each bin in proportion to its average illuminance. Grade Point﻿ Average (GPA) was reported by 59 participants. The two non-reporters were neither Regular nor Irregular. As primary analysis, we computed the correlation between SRI and GPA. As secondary analysis, we tested for significant differences in GPA between Regular and Irregular groups.",
+      "In summary, our results demonstrate that irregular sleep is associated with delayed circadian timing, and that most of this delayed timing can be explained, using a mathematical model, by the differences in patterns of light exposure. This is important, because it suggests a feedback loop between an individual’s sleep regularity, their sleep timing, and their light exposure pattern. Individuals who adopt irregular sleep patterns are subject to a light pattern that encourages circadian delay and thus may lead to reinforcement of delayed and irregular sleep patterns. This suggests that light-based interventions may be successful in treating irregular sleep in this population. While the data here cannot be used to make causal inferences regarding the relationships between sleep regularity, circadian timing, and academic performance, our findings nevertheless highlight sleep regularity as a potentially important and modifiable factor – independent from sleep duration – in determining academic performance and circadian timing."
+    ],
+    "correction_check": "Publisher HTML has no Author Correction/Publisher Correction text; cached XML has no related-article correction link. No external corrigendum search was performed; absence of all corrections is not established."
+  },
+  "editorial_review": {
+    "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch03/editorial-decisions.json",
+    "sha256": "e5732aa0f9a1ed6d5440ff43cfea2d1c36dcde8203147f014a4fbbdc7f886e5c",
+    "entry2_easy_decision": "revise; independent suggested after was not an approved canonical field. No prior approved field for this entry was found.",
+    "addressed": [
+      "easy length and plain language",
+      "observational association versus causation",
+      "light-model explanation versus mandatory morning sunlight",
+      "sleep-propensity endpoint",
+      "GPA denominator",
+      "within-primary numerical scope discrepancy"
+    ]
+  },
+  "intentional_numeric_scope_changes": [
+    "Added GPA denominator 59 from full text; retained total 61 and 30 days.",
+    "Retained approximate 2.5-hour whole-group comparison; disclosed 2.2-hour actual comparison stated in modeling paragraph. Modeling used viable light data from 11 Regular and 10 Irregular participants versus full DLMO groups of 12 each.",
+    "No OR, RR, HR or cumulative event probability is used.",
+    "Subjective sleepiness wording replaced by measured daily proportion-asleep peak."
+  ],
+  "doi_changes": {
+    "added": [],
+    "removed": [],
+    "reason": "Original verified source retained."
+  },
+  "unresolved_limitations": [
+    "Full-group clock times 00:08 vs 21:32 imply 2h36m, while modeling paragraph reports actual delay 2.2h in a reduced modeling sample. Reader prose distinguishes them; no claim of author-confirmed correction.",
+    "This study does not test whether a fixed wake time, weekend consistency, or morning sunlight intervention causes improved grades. Title remains practical advice rather than a demonstrated trial result.",
+    "Night-after-all-nighter guidance and cross-reference retained; not independently established by this primary study."
+  ],
+  "unchanged_fields": [
+    "title",
+    "cost_tag",
+    "비용",
+    "근거등급",
+    "출처"
+  ],
+  "self_approved": false,
+  "published": false
+}

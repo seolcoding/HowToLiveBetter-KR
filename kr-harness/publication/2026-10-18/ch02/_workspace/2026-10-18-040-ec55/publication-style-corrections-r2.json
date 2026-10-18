@@ -1,0 +1,88 @@
+{
+  "status": "unadopted_proposal",
+  "entry": 40,
+  "field": "비고",
+  "candidate_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/final-publication-candidate.md",
+  "original_candidate_sha256": "9b89453131abeafdb72ada50fbe77e1ceeaf0970d838139576b546011b30b3f7",
+  "original_entry_sha256": "a47e5a257b8b1f19164e1e71fcbe34eda4333dfcc6e359ac8779fc441e69e779",
+  "entry_extraction": "from ^### 40. through whitespace immediately before ^### 41. (separator included)",
+  "before": "근거는 중국 땅콩기름 연구 두 개뿐입니다. 그래서 한국에 그대로 들어맞는 범위는 좁습니다. 두 연구 모두 관찰 자료를 분석했습니다. 광시 연구는 먹은 집단과 먹지 않은 집단을 비교했습니다. 무작위로 기름을 배정한 시험은 아닙니다. 광저우 연구는 간 기능 수치를 살폈습니다. 간암이나 사망을 조사한 연구는 아닙니다. 자가압착 기름의 독소 중앙값은 중국의 땅콩기름 한도 20 μg/kg보다 낮았습니다. <!-- kr-fit-ok: 중국 연구 결과를 해석하는 비교 수치 --> 위험은 해마다 계속 먹거나 드물게 독소 농도가 높은 기름을 먹을 때 생깁니다. 중국에서는 미리 포장한 제품이 생산 허가와 출하 검사를 거칩니다. 소규모 작업장은 성마다 정한 규칙으로 관리해 검사가 드뭅니다. <!-- kr-fit-ok: 연구 배경인 중국 제도 설명 --> 국내에서는 방앗간처럼 기름을 직접 짜서 손님에게 파는 곳이 「즉석판매제조·가공업」이라는 별도 업종입니다. 2026년 10월 18일 현재 국내 식용유 기준은 미확인입니다. 아플라톡신 규격을 확인한 국내 구매 권고는 아닙니다. 중국 결과만으로 한국 방앗간 전체를 피하라 할 수는 없습니다. 밀폐 포장과 제조 정보가 오염검사 합격을 보장하지 않습니다. 주로 본인과 함께 먹는 가족이 이득을 봅니다.",
+  "after": "근거는 중국 땅콩기름 연구 두 개뿐입니다. 그래서 한국에 그대로 들어맞는 범위는 좁습니다. 두 연구 모두 관찰 자료를 분석했습니다. 광시 연구는 먹은 집단과 먹지 않은 집단을 비교했습니다. 무작위로 기름을 배정한 시험은 아닙니다. 광저우 연구는 간 기능 수치를 살폈습니다. 간암이나 사망을 조사한 연구는 아닙니다. 자가압착 기름의 독소 중앙값은 중국의 땅콩기름 한도 20 μg/kg보다 낮았습니다. <!-- kr-fit-ok: 중국 연구 결과를 해석하는 비교 수치 --> 위험은 해마다 계속 먹거나 드물게 독소 농도가 높은 기름을 먹을 때 생깁니다. 중국에서는 미리 포장한 제품이 생산 허가와 출하 검사를 거칩니다. 소규모 작업장은 성마다 정한 규칙으로 관리해 검사가 드뭅니다. <!-- kr-fit-ok: 연구 배경인 중국 제도 설명 --> 국내에는 방앗간처럼 기름을 직접 짜서 손님에게 파는 곳이 있습니다. 이런 곳은 「즉석판매제조·가공업」이라는 별도 업종입니다. 2026년 10월 18일 현재 국내 식용유 기준은 미확인입니다. 아플라톡신 규격을 확인한 국내 구매 권고는 아닙니다. 중국 결과만으로 한국 방앗간 전체를 피하라 할 수는 없습니다. 밀폐 포장과 제조 정보가 오염검사 합격을 보장하지 않습니다. 주로 본인과 함께 먹는 가족이 이득을 봅니다.",
+  "target_sentence_before": "국내에서는 방앗간처럼 기름을 직접 짜서 손님에게 파는 곳이 「즉석판매제조·가공업」이라는 별도 업종입니다.",
+  "target_sentence_after": "국내에는 방앗간처럼 기름을 직접 짜서 손님에게 파는 곳이 있습니다. 이런 곳은 「즉석판매제조·가공업」이라는 별도 업종입니다.",
+  "old_sentence_chars": 58,
+  "new_sentences": [
+    {
+      "text": "국내에는 방앗간처럼 기름을 직접 짜서 손님에게 파는 곳이 있습니다.",
+      "chars": 37
+    },
+    {
+      "text": "이런 곳은 「즉석판매제조·가공업」이라는 별도 업종입니다.",
+      "chars": 31
+    }
+  ],
+  "reason": "기존57자 업종 설명 한 문장만 두 문장으로 분리합니다. 방앗간처럼 직접 기름을 짜 최종소비자에게 판매하는 범위 및 업종 명칭은 그대로 보존합니다.",
+  "source_evidence": {
+    "url": "https://www.law.go.kr/법령/식품위생법시행령/제21조",
+    "exact_primary_quote": "2. 즉석판매제조ㆍ가공업: 총리령으로 정하는 식품을 제조ㆍ가공업소에서 직접 최종소비자에게 판매하는 영업",
+    "raw_path": "/tmp/ch02e40-sources/decree-article.raw",
+    "raw_sha256": "9f4dcce6cb8e433245c8f52da33774436a5a158ed51c37ed48543d2c9509afdc",
+    "read_date": "2026-10-18",
+    "scope": "기존 설명의 문장 분리만. 새 법규정/국내 식용유 규격 검증 아님. 원문의 별표15·부칙 미확인 한계 보존.",
+    "permanent_provenance": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-040-ec55/publication-entry-changes.json"
+  },
+  "approved_full_sha256": "363f3b18d23cc346e2e72c23112c28fa1952ec5ab0a2da428604b93d31eee964",
+  "approval_records": [
+    {
+      "number": 40,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-040-ec55/publication-entry-proposal.md",
+      "proposal_sha256": "363f3b18d23cc346e2e72c23112c28fa1952ec5ab0a2da428604b93d31eee964",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-040-ec55/publication-entry-changes.json",
+      "changes_sha256": "81d4c801e5bb6b1d9ca4f3fadbdc5268a3e740e7b2b763faaee0ccd619d3727b",
+      "decision": "approve",
+      "why": "중국광저우PR.650과광시직접효과모형aOR1.9/1.8을원문에대조하고확률90/80%로치환하지않게정정했습니다.국내방앗간전면기피권고를포장/제조정보확인으로제한하며현재국내규격미확인·포장이검사합격보장아님을독자에게밝혔습니다.국내규격확인에성공한승인이아니라미검증일괄금지를제거한범위승인입니다.해결되지않은tail기준TODO는유지합니다.",
+      "approval_scope": "정확SHA개별fullentry의지적해결/범위제한승인.정식KR-FIT/전체절출판승인아님.기존가격·부차정책·국내미확인규격으로검증범위확장아님."
+    },
+    {
+      "number": 40,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-040-ec55/publication-entry-proposal.md",
+      "proposal_sha256": "363f3b18d23cc346e2e72c23112c28fa1952ec5ab0a2da428604b93d31eee964",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-040-ec55/publication-entry-changes.json",
+      "changes_sha256": "81d4c801e5bb6b1d9ca4f3fadbdc5268a3e740e7b2b763faaee0ccd619d3727b",
+      "approval_batch": 4,
+      "order": 1,
+      "scope": "replace entire entry once; do not apply any earlier editorial easily/title operation to this number"
+    },
+    {
+      "number": 40,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-040-ec55/publication-style-corrections.json",
+      "proposal_sha256": "626cf5577fa1a637054e934c7039b37d0fc36bf7e57e44701dde6b4f73fc6a4f",
+      "field": "쉽게",
+      "before": "중국 광저우에서 자가압착 땅콩기름 작업장 관리 뒤 간 기능 이상이 약 35% 낮게 나타났습니다. 간암·사망을 조사한 결과는 아닙니다. 한국에 그대로 적용하기는 어렵습니다.",
+      "after": "중국 광저우에서 자가압착 땅콩기름 작업장을 관리했습니다. 관리 뒤 간 기능 이상이 약 35% 낮게 나타났습니다. 간암·사망을 조사한 결과는 아닙니다. 한국에 그대로 적용하기는 어렵습니다.",
+      "order": 3,
+      "depends_on_fullentry_sha256": "363f3b18d23cc346e2e72c23112c28fa1952ec5ab0a2da428604b93d31eee964",
+      "expected_result_entry_sha256": "a47e5a257b8b1f19164e1e71fcbe34eda4333dfcc6e359ac8779fc441e69e779",
+      "scope": "sentence split after approved fullentry only; prior editorial easily already folded into fullentry"
+    }
+  ],
+  "predecessors": {
+    "full_entry_proposal_sha256": "363f3b18d23cc346e2e72c23112c28fa1952ec5ab0a2da428604b93d31eee964",
+    "style_corrections_sha256": "626cf5577fa1a637054e934c7039b37d0fc36bf7e57e44701dde6b4f73fc6a4f",
+    "intro_correction_sha256": "217a28b6eb5a2df1b2ce9abee711c72e01b0b1cc6cbbc71f1e2b47c08d428259",
+    "relationship": "기승인 full 및 첫 쉽게 문장분리, intro 교정이 반영된 실제 최종후보를 출발점으로 삼는 후행 연산. 이전 제안/후보 파일 모두 불변."
+  },
+  "after_field_sha256": "7f1d1b34e111c9f131808f4fce7f35dd5a7fcef4040ac079044d2fecbf353971",
+  "before_field_sha256": "7853bb5636c2ec5da69f9ce42066afe9cbf93534a09fe5e61aeb9b0773fde39f",
+  "proposed_entry_sha256": "bc77817cabbfc5a8234437cee2fd2b62cb6fa2d20c86fa1bd170936fff4459b8",
+  "proposed_candidate_sha256": "6185484257eabf869efb6f02760a2007f90a5a5f63f4b610b8035ba29e1b3b29",
+  "guards": {
+    "single_sentence_only": true,
+    "other_field_bytes_identical": true,
+    "other_entries_identical": true,
+    "all_new_sentences_le_50": true,
+    "facts_conditions_numbers_unchanged": true,
+    "independent_approval_required": true
+  },
+  "authored_at_utc": "2026-10-18T14:43:17.600079+00:00"
+}

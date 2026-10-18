@@ -7,5 +7,15 @@
   "blockers": 0,
   "warnings": 4,
   "formal_sha256": "1c6471db9bb0225575e290301523c854d89943c032fa8c657f03caddda1393d2",
-  "gate": "passed/promoted"
+  "gate": "passed/promoted",
+  "additional_style_followup": {
+    "status": "queued",
+    "entries": [
+      1,
+      2,
+      3,
+      5
+    ],
+    "reason": "current length audit found ordinary sentences over50 chars, mostly inline legal citations; separate author proposals and current-hash review required before final publication"
+  }
 }

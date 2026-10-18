@@ -1,0 +1,29 @@
+{
+  "status": "applied_to_separate_candidate_only",
+  "published": false,
+  "source_candidate": {
+    "path": "final-publication-candidate.md",
+    "sha256": "9b89453131abeafdb72ada50fbe77e1ceeaf0970d838139576b546011b30b3f7"
+  },
+  "output_candidate": {
+    "path": "final-publication-candidate-r2.md",
+    "sha256": "6185484257eabf869efb6f02760a2007f90a5a5f63f4b610b8035ba29e1b3b29"
+  },
+  "entry": 40,
+  "field": "비고",
+  "before_entry_sha256": "a47e5a257b8b1f19164e1e71fcbe34eda4333dfcc6e359ac8779fc441e69e779",
+  "after_entry_sha256": "bc77817cabbfc5a8234437cee2fd2b62cb6fa2d20c86fa1bd170936fff4459b8",
+  "proposal": {
+    "path": "_workspace/2026-10-18-040-ec55/publication-style-corrections-r2.json",
+    "sha256": "9266c3c22a3ac1acfc895dd9c2586e8c6f7494cb58664ea321b97fecd258484a"
+  },
+  "review": {
+    "path": "pre-publication-style-review-r1.json",
+    "sha256": "b97b15e1381403ce40bd095683232a4a331bcd3c4ddf8d9d38a440de2a82319d"
+  },
+  "other_bytes_unchanged": true,
+  "titles_le_70": true,
+  "easy_le_120": true,
+  "ordinary_sentences_le_50": true,
+  "fresh_formal_review_required": true
+}

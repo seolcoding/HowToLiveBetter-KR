@@ -1,0 +1,30 @@
+{
+  "applied_to_working_tree": true,
+  "formal_review": "first_fresh_pass_followup_refinements_requested",
+  "deployed": false,
+  "source_sha256_before_application": "f6ae488455384ae0661f8b278436732c774f7bf34ec327942f28e011729cbe22",
+  "final_candidate": {
+    "path": "kr-harness/publication/2026-10-18/ch02/final-publication-candidate-r2.md",
+    "sha256": "6185484257eabf869efb6f02760a2007f90a5a5f63f4b610b8035ba29e1b3b29"
+  },
+  "public_sha256_after_exact_copy": "6185484257eabf869efb6f02760a2007f90a5a5f63f4b610b8035ba29e1b3b29",
+  "previous_review_archive": "kr-harness/chapters/02/kr-fit-review.r7.md",
+  "integration_plan": "integration-plan.json",
+  "intro_integration": "intro-integration.json",
+  "pre_publication_style_integration": "pre-publication-style-integration-r1.json",
+  "public_sha256_after_demotion": "bad8418941e0ac45c111b2d0db904f44fabe32c4b5479d23f1772bdd5d1b92cc",
+  "candidate_cli_sha256": "e0db99cf8dc3918b22ced785fdf056f8272f5996ff80e2ce725e86fde38160bd",
+  "machine_lint": {
+    "block": 0,
+    "warn": 0,
+    "exceptions": 0
+  },
+  "gate": "not_promoted_pending_minor_followups",
+  "formal_sha256": "d86b65f72379b541ebb4e039162b2c88ced964a481efa917dcd611dd56b429f9",
+  "formal_blockers": 0,
+  "formal_warnings": 20,
+  "formal_before_followups_archive": "kr-harness/chapters/02/kr-fit-review.r8.md",
+  "post_integration_intro_correction": "post-integration-intro-correction-r1.json",
+  "post_integration_doi_reason_correction": "post-integration-doi-reason-correction-r1.json",
+  "current_public_raw_sha256": "b580b637d34819b9de1169d80093a9d953a5298ca1e7d84a34a70a63b270949a"
+}

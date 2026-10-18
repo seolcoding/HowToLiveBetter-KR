@@ -1,0 +1,91 @@
+{
+  "entry": 16,
+  "status": "unadopted",
+  "base": "strict-entry.md",
+  "base_sha256": "f04f332dfc169d9d5630ac0668dfa810b6d1763bb080b051fe7fa3e1d7afc636",
+  "proposal_sha256": "5b109dfb5d3a63cf4db0d9d4341dd1f51e2b72c919adc24445baeb41b805e002",
+  "changes": [
+    {
+      "field": "쉽게",
+      "before": "소모적인 관계 하나의 손해는 힘이 되는 관계 하나의 이득보다 큽니다. 손해는 더 일관되게 나타납니다. 그러니 소모적인 관계부터 줄이고 힘이 되는 관계를 늘리세요.",
+      "after": "괴로운 관계는 마음의 안녕과 더 강하게 관련됐습니다. 소모적인 관계부터 줄이고 힘이 되는 관계를 늘리세요.",
+      "reason": "개별 관계 하나의 절대 손익 비교를 제거하고 연구의 안녕감 연관 범위로 제한합니다."
+    },
+    {
+      "field": "이득",
+      "before": "60~89살 홀로 된 여성 120명을 조사했습니다. 괴로운 관계는 편안한 관계보다 안녕감과 더 강하고 일관되게 연관됐습니다. 조사 결과, 소모적인 사람 하나의 손해가 힘이 되는 사람 하나의 이득보다 큽니다.",
+      "after": "60~89살 사별 여성 120명을 조사했습니다. 여러 요인을 함께 고려해 관계와 안녕감의 연관을 살폈습니다. 부정적인 관계 경험은 긍정적인 경험보다 안녕감과 더 강하게 관련됐습니다. 이 연관은 더 일관되게 나타났습니다. 이는 사람 한 명을 줄일 때 얻는 이득을 계산한 결과가 아닙니다.",
+      "reason": "초록에서 표본·연령·사별 정의 및 분석 방향을 확인했습니다. 회귀상의 연관을 개인별 절대 손익으로 환산하지 않습니다."
+    },
+    {
+      "field": "비고",
+      "before": "조사 대상은 특정 집단에 한정됐습니다. 설문을 한 번만 진행해 무엇이 먼저인지 알 수 없습니다. 연구에서 측정한 대상은 기력이 아니라 안녕감입니다. 기력에 관한 해석은 지은이의 판단입니다. 어떤 관계가 '소모'인지는 객관적 기준이 없습니다. 각자 판단해야 합니다.",
+      "after": "조사 대상은 특정 집단에 한정됐습니다. 이 결과로 관계를 줄이면 안녕감이 좋아진다고 단정할 수 없습니다. 연구에서 측정한 대상은 기력이 아니라 안녕감입니다. 기력에 관한 해석은 지은이의 판단입니다. 어떤 관계가 '소모'인지는 객관적 기준이 없습니다. 각자 판단해야 합니다. 거절하는 법의 효과를 직접 확인한 연구는 아닙니다.",
+      "reason": "초록만으로 한 번의 설문이라는 세부 설계를 확인할 수 없어 단정 대신 인과 및 권고 범위의 한계를 밝힙니다."
+    }
+  ],
+  "unchanged_fields": [
+    "title",
+    "cost_tag",
+    "비용",
+    "근거등급",
+    "출처"
+  ],
+  "verification": {
+    "date": "2026-10-18",
+    "method": "OpenAlex API에 수록된 해당 논문의 초록 전체를 역색인에서 복원해 직접 읽음. Crossref 서지 대조. APA 원문 접근은 HTTP 403으로 실패.",
+    "level": "primary abstract via bibliographic aggregator; no full text",
+    "url": "https://api.openalex.org/works/https://doi.org/10.1037/0022-3514.46.5.1097",
+    "primary_url": "https://doi.org/10.1037/0022-3514.46.5.1097",
+    "raw_paths": [
+      "/tmp/rook-openalex.json",
+      "/tmp/rook-crossref.json",
+      "/tmp/rook-abstract.txt"
+    ],
+    "raw_sha256": {
+      "/tmp/rook-openalex.json": "3f5585f4488ec629aee1654312b35078f12f4d4ebda9e02ec6af7ca94fdfbcce",
+      "/tmp/rook-crossref.json": "e747af49f581a18cb5edd98af7210ce96bc11ce3f3b7215b5f798789673e0828",
+      "/tmp/rook-abstract.txt": "17eafe6bd5db5b7420f3abee791768db84d9533ad9450c5de32a137d3d05371e"
+    },
+    "exact_quotations": [
+      "The sample consisted of 120 widowed women between the ages of 60 and 89.",
+      "Multiple regression analyses revealed that negative social outcomes were more consistently and more strongly related to well-being than were positive social outcomes."
+    ],
+    "abstract_full": "Social exchange theory has long emphasized that social interaction entails both rewards and costs. Research on the effects of social relations on psychological well-being, however, has generally ignored the negative side of social interaction. This study examined the relative impact of positive and negative social outcomes on older women's well-being. The sample consisted of 120 widowed women between the ages of 60 and 89. Multiple regression analyses revealed that negative social outcomes were more consistently and more strongly related to well-being than were positive social outcomes. This effect of negative social involvement did not appear to be due to major differences among women with high versus moderate or low levels of problematic social ties. Analyses of variance indicated that these three groups of women differed neither in important background characteristics nor in indices of social competence. The results demonstrate the importance of assessing the specific content of social relations. Implications for the design of social network interventions are discussed."
+  },
+  "intentional_numerical_changes": "수치 삭제나 추가 없음. 120명 및 60~89살을 초록으로 확인하여 유지.",
+  "intentional_scope_changes": [
+    "홀로 된 여성을 초록의 widowed women에 맞춰 사별 여성으로 명료화.",
+    "사람 하나의 손해가 이득보다 크다는 절대 손익 환산을 삭제.",
+    "설문 한 번이라는 미확인 세부 설계 단정은 삭제하고 인과 추론 한계로 대체."
+  ],
+  "source_changes": "원출처 및 DOI 변경·추가·삭제 없음.",
+  "unresolved_limitations": [
+    "원문 및 회귀표·효과크기를 읽지 못했습니다.",
+    "초록은 구체적인 설문 횟수와 측정도구를 확인해 주지 않습니다.",
+    "거절 훈련이나 관계를 실제로 줄이는 개입의 효과는 이 초록으로 확인되지 않습니다."
+  ],
+  "sentence_lengths": {
+    "쉽게": [
+      29,
+      29
+    ],
+    "이득": [
+      26,
+      33,
+      40,
+      20,
+      36
+    ],
+    "비고": [
+      21,
+      36,
+      28,
+      22,
+      28,
+      12,
+      28
+    ]
+  },
+  "easy_characters": 59
+}

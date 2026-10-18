@@ -1,0 +1,53 @@
+{
+  "status": "unadopted_proposal",
+  "entry": 3,
+  "revision": "r2",
+  "base_path": "publication-entry-proposal.md",
+  "base_sha256": "997e788a4ba08f2f90bd04e2c5ad719771192df438062c5393ea205d07e34cab",
+  "proposal_path": "publication-entry-proposal-r2.md",
+  "proposal_sha256": "819daf953ded69f827b68cdf099772fc28b4a1997e4d2559364adafea474a43b",
+  "prior_changes_path": "publication-entry-changes.json",
+  "prior_changes_sha256": "96310bfee8b24e82d8842782ad40accd8d6fa2eda8ec5b81452e88c099b79a68",
+  "changes": [
+    {
+      "field": "쉽게",
+      "before": "건강한 성인이 2주간 매일 밤 잠자리에 6시간만 머물자 인지 과제 성적이 떨어졌습니다. 저하 폭은 최대 이틀 밤샘 수준이었습니다. 본인은 저하를 충분히 알아채지 못했습니다.",
+      "after": "건강한 성인이 2주간 매일 밤 잠자리에 4~6시간만 머물자 인지 과제 성적이 떨어졌습니다. 저하 폭은 최대 이틀 밤샘 수준이었습니다. 본인은 저하를 충분히 알아채지 못했습니다.",
+      "reason": "최대 이틀 밤샘 수준이라는 범위를 6시간 단일집단에 귀속하지 않도록 초록의 4·6시간 조건을 함께 명시했습니다. 독립 검토자의 canonical 대체안을 그대로 사용했습니다.",
+      "exact_primary_quotation": "Since chronic restriction of sleep to 6 h or less per night produced cognitive performance deficits equivalent to up to 2 nights of total sleep deprivation",
+      "supporting_primary_quotation": "The chronic sleep restriction experiment involved randomization to one of three sleep doses (4 h, 6 h, or 8 h time in bed per night), which were maintained for 14 consecutive days."
+    }
+  ],
+  "verification_date": "2026-10-18",
+  "sources": [
+    {
+      "doi": "10.1093/sleep/26.2.117",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1093%2Fsleep%2F26.2.117%22&format=json&resultType=core&pageSize=10",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/b6bab3851cebff295070.json",
+      "sha256": "a35e6cc837a5419240fb33fd6ae30b85de6fcc4be8f7cdab137cb087aa1c6d6d",
+      "original_fetch_date": "2026-10-18T20:50:11.515926+09:00",
+      "verified_date": "2026-10-18",
+      "method": "원 논문 초록의 Europe PMC 캐시 JSON을 직접 열어 전문 초록 읽음; 새 원문 열람 아님",
+      "exact_primary_quotation": "<h4>Objectives</h4>To inform the debate over whether human sleep can be chronically reduced without consequences, we conducted a dose-response chronic sleep restriction experiment in which waking neurobehavioral and sleep physiological functions were monitored and compared to those for total sleep deprivation.<h4>Design</h4>The chronic sleep restriction experiment involved randomization to one of three sleep doses (4 h, 6 h, or 8 h time in bed per night), which were maintained for 14 consecutive days. The total sleep deprivation experiment involved 3 nights without sleep (0 h time in bed). Each study also involved 3 baseline (pre-deprivation) days and 3 recovery days.<h4>Setting</h4>Both experiments were conducted under standardized laboratory conditions with continuous behavioral, physiological and medical monitoring.<h4>Participants</h4>A total of n = 48 healthy adults (ages 21-38) participated in the experiments.<h4>Interventions</h4>Noctumal sleep periods were restricted to 8 h, 6 h or 4 h per day for 14 days, or to 0 h for 3 days. All other sleep was prohibited.<h4>Results</h4>Chronic restriction of sleep periods to 4 h or 6 h per night over 14 consecutive days resulted in significant cumulative, dose-dependent deficits in cognitive performance on all tasks. Subjective sleepiness ratings showed an acute response to sleep restriction but only small further increases on subsequent days, and did not significantly differentiate the 6 h and 4 h conditions. Polysomnographic variables and delta power in the non-REM sleep EEG-a putative marker of sleep homeostasis--displayed an acute response to sleep restriction with negligible further changes across the 14 restricted nights. Comparison of chronic sleep restriction to total sleep deprivation showed that the latter resulted in disproportionately large waking neurobehavioral and sleep delta power responses relative to how much sleep was lost. A statistical model revealed that, regardless of the mode of sleep deprivation, lapses in behavioral alertness were near-linearly related to the cumulative duration of wakefulness in excess of 15.84 h (s.e. 0.73 h).<h4>Conclusions</h4>Since chronic restriction of sleep to 6 h or less per night produced cognitive performance deficits equivalent to up to 2 nights of total sleep deprivation, it appears that even relatively moderate sleep restriction can seriously impair waking neurobehavioral functions in healthy adults. Sleepiness ratings suggest that subjects were largely unaware of these increasing cognitive deficits, which may explain why the impact of chronic sleep restriction on waking cognitive functions is often assumed to be benign. Physiological sleep responses to chronic restriction did not mirror waking neurobehavioral responses, but cumulative wakefulness in excess of a 15.84 h predicted performance lapses across all four experimental conditions. This suggests that sleep debt is perhaps best understood as resulting in additional wakefulness that has a neurobiological \"cost\" which accumulates over time."
+    }
+  ],
+  "reviewer_canonical_path": "../../editorial-decisions.json",
+  "reviewer_canonical_sha256": "e444028736986d1d11b9d36c1a484372fe9faf8168dfc1ba2fc424ad94e172a0",
+  "easy_chars": 98,
+  "sentence_lengths": [
+    50,
+    23,
+    23
+  ],
+  "other_bytes_unchanged": true,
+  "doi_changes": {
+    "added": [],
+    "removed": []
+  },
+  "limitations": [
+    "원 논문 전체 본문은 이번 작업에서 열람하지 않았으며 두 원 논문 초록 범위로 검증했습니다.",
+    "Van Dongen 서지에 Sleep 2004;27(4):600 정정문 표시가 있습니다. Europe PMC의 날짜·첫쪽 검색은 0건으로 정정 내용은 확인하지 못했습니다. 수정된 수치가 있다고 주장하지 않습니다.",
+    "확인한 두 초록 사이에 동일 통계의 수치 충돌은 발견하지 못했습니다. OR/RR/HR 및 개인 절대확률 환산은 해당하지 않습니다."
+  ],
+  "prior_provenance": "기존 full 및 changes 불변. 이 r2는 쉽게만 수정하며 이전 사실교정 근거와 잔여 한계를 승계합니다."
+}

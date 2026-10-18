@@ -1,0 +1,55 @@
+{
+  "status": "unadopted_proposal",
+  "entry": 5,
+  "operation": "field",
+  "field": "쉽게",
+  "before": "약과 정기 상담은 함께 이용하세요. 약과 전문가 상담을 병행한 금연 성공률은 일반 진료나 짧은 조언만 받은 경우의 1.83배입니다. 상담사가 먼저 건 전화 상담을 받은 경우는 약 25% 높았습니다.",
+  "after": "약과 정기 상담은 함께 이용하세요. 약과 전문가 상담을 병행한 금연 성공률은 1.83배입니다. 비교 대상은 일반 진료나 짧은 조언만 받은 경우입니다. 상담사가 먼저 건 전화 상담을 받은 경우는 약 25% 높았습니다.",
+  "reason": "기승인 쉽게 둘째 문장 53자를 두 문장으로 분리합니다. 수치·비교 대상·다른 문장을 그대로 보존합니다.",
+  "approved_provenance": {
+    "entry": 5,
+    "path": "kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-005-6d11/editorial-proposal.json",
+    "sha256": "808346b00cd0751fa9793c118d52ac0a354db9b3a537c938a51d9384ec73d5c4",
+    "decision": "approve",
+    "fields": [
+      {
+        "field": "쉽게",
+        "decision": "approve",
+        "before": "약과 정기 상담은 서로 다른 역할을 합니다. 함께 이용하면 금연 성공률이 가장 높습니다. 약과 전문가 상담을 병행하면 금연에 두 배 가까이 성공합니다. 비교 대상은 짧은 조언만 받은 사람입니다. 상담사가 먼저 걸어주는 전화를 받으면 성공률이 20~30% 더 오릅니다.",
+        "after": "약과 정기 상담은 함께 이용하세요. 약과 전문가 상담을 병행한 금연 성공률은 일반 진료나 짧은 조언만 받은 경우의 1.83배입니다. 상담사가 먼저 건 전화 상담을 받은 경우는 약 25% 높았습니다.",
+        "after_chars": 110,
+        "why": "일반진료/짧은조언 비교와 약물+행동지원1.83배를 보존했습니다. 국내서비스가 동일효과를 보장한다는 뜻으로 확대하지 않으면 이 필드 축약은 수용 가능합니다.",
+        "approval_scope": "해당SHA의 이 필드편집안만. 항목전체내용·국내현행성·출판승인 아님."
+      }
+    ],
+    "null_fields": "제안없음. 본문해당필드 승인아님."
+  },
+  "depends_on": {
+    "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-005-6d11/publication-entry-proposal.md",
+    "sha256": "e72d40f94747fb2628bd801bb8a4b2a284c8bb6509431430c4bba79690b9fa9f",
+    "order": "Apply only after independently approved full-entry replacement; exact before must match once.",
+    "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-005-6d11/publication-entry-changes.json",
+    "changes_sha256": "c36008664aa543fad8fbf9f7bbaa48af5808b7100282890086a3e51e52d24bf8"
+  },
+  "sentence_lengths": [
+    {
+      "text": "약과 정기 상담은 함께 이용하세요.",
+      "len": 19
+    },
+    {
+      "text": "약과 전문가 상담을 병행한 금연 성공률은 1.83배입니다.",
+      "len": 32
+    },
+    {
+      "text": "비교 대상은 일반 진료나 짧은 조언만 받은 경우입니다.",
+      "len": 30
+    },
+    {
+      "text": "상담사가 먼저 건 전화 상담을 받은 경우는 약 25% 높았습니다.",
+      "len": 36
+    }
+  ],
+  "easy_chars": 120,
+  "new_factual_content": false,
+  "original_approved_artifact_modified": false
+}

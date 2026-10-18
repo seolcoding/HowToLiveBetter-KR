@@ -1,0 +1,161 @@
+{
+  "status": "unadopted_proposal",
+  "entry": 11,
+  "chapter": 3,
+  "base": {
+    "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch03/_workspace/2026-10-18-011-823c/strict-entry.md",
+    "sha256": "9b3f29a7291bca72c98d49eaf10febedf907a7d344569288c7b9026c0a87dcdb"
+  },
+  "proposal_sha256": "a9a76d439657f5914e036cea221defa2072bc2c5c1cfdd0a1e57d55449364116",
+  "reviewed_at": "2026-10-18T14:47:47.713780+00:00",
+  "verification": {
+    "level": "cached primary article abstract independently read in full; not full text",
+    "method": "read exact DOI Europe PMC core JSON abstractText and raw metadata; no live HTTP claim",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1093%2Fsleep%2F29.6.831%22&format=json&resultType=core&pageSize=10",
+    "article_url": "https://doi.org/10.1093/sleep/29.6.831",
+    "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/e30d6909e1f95375a638.json",
+    "raw_sha256": "554aabc825b7ac29887b0269895d8b157e6ef8411357b6d34156e850f93bc17f",
+    "original_fetch": {
+      "doi": "10.1093/sleep/29.6.831",
+      "chapters": [
+        3
+      ],
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1093%2Fsleep%2F29.6.831%22&format=json&resultType=core&pageSize=10",
+      "fetched_at": "2026-10-18T20:50:16.941135+09:00",
+      "http_status": 200,
+      "status": "exact_doi_metadata_cached",
+      "sha256": "554aabc825b7ac29887b0269895d8b157e6ef8411357b6d34156e850f93bc17f",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/e30d6909e1f95375a638.json",
+      "hit_count": 1,
+      "abstract_present": true
+    },
+    "exact_primary_abstract": "<h4>Study objectives</h4>The purposes of this study were to compare the benefits of different length naps relative to no nap and to analyze the electroencephalographic elements that may account for the benefits.<h4>Design</h4>A repeated-measures design included 5 experimental conditions: a no-nap control and naps of precisely 5, 10, 20, and 30 minutes of sleep.<h4>Setting</h4>Nocturnal sleep restricted to about 5 hours in participants' homes was followed by afternoon naps at 3:00 PM and 3 hours of postnap testing conducted in a controlled laboratory environment.<h4>Participants</h4>Twenty-four healthy, young adults who were good sleepers and not regular nappers.<h4>Measurements and results</h4>The 5-minute nap produced few benefits in comparison with the no-nap control. The 10-minute nap produced immediate improvements in all outcome measures (including sleep latency, subjective sleepiness, fatigue, vigor, and cognitive performance), with some of these benefits maintained for as long as 155 minutes. The 20-minute nap was associated with improvements emerging 35 minutes after napping and lasting up to 125 minutes after napping. The 30-minute nap produced a period of impaired alertness and performance immediately after napping, indicative of sleep inertia, followed by improvements lasting up to 155 minutes after the nap.<h4>Conclusions</h4>These findings suggest that the 10-minute nap was overall the most effective afternoon nap duration of the nap lengths examined in this study. The implications from these results also suggest a need to consider a process occurring in the first 10 minutes of sleep that may account for the benefits associated with brief naps."
+  },
+  "fields": [
+    {
+      "field": "title",
+      "before": "오후에 졸리면 10분 자세요. 30분은 자지 마세요",
+      "after": "오후에 졸리면 10분 자세요. 30분 잤다면 깬 직후 활동에 주의하세요",
+      "reason": "30분 보편 금지를 깬 직후 활동 조건으로 한정. 오후·졸림·10분 및 30분 앵커 유지.",
+      "changed": true
+    },
+    {
+      "field": "비용",
+      "before": "돈이 들지 않습니다. 시간은 10분 필요합니다. 눕거나 엎드릴 자리도 필요합니다.",
+      "after": "돈이 들지 않습니다. 실제로 잠든 시간이 10분입니다. 잠드는 시간은 따로 필요합니다. 눕거나 엎드릴 자리도 필요합니다.",
+      "reason": "실제 수면 10분과 잠드는 시간을 구별.",
+      "changed": true
+    },
+    {
+      "field": "쉽게",
+      "before": "10분 낮잠을 자면 곧바로 정신이 맑아집니다. 효과는 두 시간 반 이어집니다. 5분 낮잠은 거의 소용없습니다. 20분 낮잠은 반 시간이 지나야 효과가 납니다. 30분 자면 깬 직후에는 멍해집니다. 이때는 낮잠을 자지 않았을 때보다 수행 능력이 떨어집니다.",
+      "after": "전날 잠이 부족했던 건강한 젊은 사람은 10분 낮잠 뒤 머리가 맑아졌습니다. 일부 효과는 두 시간 반쯤 이어졌습니다. 10분은 잠드는 시간을 뺀 실제 수면시간입니다.",
+      "reason": "검토자 대체안 취지 반영. 실제 수면 조건과 대상·일부 효과 보존, 설계 설명으로 시작하지 않음.",
+      "changed": true
+    },
+    {
+      "field": "이득",
+      "before": "전날 밤 잠이 부족한 상태에서 10분 낮잠을 잤습니다. 졸림, 피로, 기력, 인지 수행 능력이 즉시 나아졌습니다. 일부 효과는 155분 뒤까지 유지됐습니다. 5분은 이득이 거의 없습니다. 20분의 이득은 35분 뒤에 나타납니다. 30분 낮잠을 자면 깬 직후 수면관성이 나타납니다. 깬 직후에는 수행 능력이 오히려 떨어집니다. 이후에는 나아집니다.",
+      "after": "건강한 젊은 성인 24명을 대상으로 했습니다. 평소 잠을 잘 자고 낮잠은 규칙적으로 자지 않는 사람들이었습니다. 전날 밤 약 5시간 잔 뒤 오후 3시에 낮잠을 잤습니다. 낮잠을 자지 않는 조건과 실제 수면 5·10·20·30분을 비교했습니다. 전날 밤 잠이 부족한 상태에서 10분 낮잠을 잤습니다. 졸림, 피로, 기력, 인지 수행 능력이 즉시 나아졌습니다. 일부 효과는 155분 뒤까지 유지됐습니다. 5분은 이득이 거의 없습니다. 20분의 이득은 35분 뒤에 나타납니다. 30분 낮잠을 자면 깬 직후 수면관성이 나타납니다. 깬 직후에는 수행 능력이 오히려 떨어집니다. 이후에는 나아집니다.",
+      "reason": "초록에 확인되는 대상·노출·시각과 비교 조건을 추가. 기존 효과 수치 보존.",
+      "changed": true
+    },
+    {
+      "field": "근거등급",
+      "before": "B",
+      "after": "B",
+      "reason": "unchanged protected or citation field",
+      "changed": false
+    },
+    {
+      "field": "출처",
+      "before": "Brooks & Lack (2006). A brief afternoon nap following nocturnal sleep restriction: Which nap duration is most recuperative? Sleep. <https://doi.org/10.1093/sleep/29.6.831>",
+      "after": "Brooks & Lack (2006). A brief afternoon nap following nocturnal sleep restriction: Which nap duration is most recuperative? Sleep. <https://doi.org/10.1093/sleep/29.6.831>",
+      "reason": "unchanged protected or citation field",
+      "changed": false
+    },
+    {
+      "field": "비고",
+      "before": "실험실 연구는 하나뿐입니다. 참가자는 모두 건강한 젊은 사람입니다. 잠이 안 오면 억지로 자려고 하지 마세요. 눈을 감고 10분 누워만 있을 때의 효과는 연구되지 않았습니다. 낮잠이 한 시간을 넘으면 사망률이 더 높게 나타납니다. 관상동맥질환 위험도 함께 높게 나타납니다. 자세한 내용은 제2절 제37항(낮잠은 30분 안에)을 보세요.",
+      "after": "실험실 연구는 하나뿐입니다. 참가자는 모두 건강한 젊은 사람입니다. 30분 낮잠 자체를 누구에게나 금지할 근거는 아닙니다. 깬 직후 활동해야 한다면 일시적인 능력 저하에 주의하세요. 잠이 안 오면 억지로 자려고 하지 마세요. 눈을 감고 10분 누워만 있을 때의 효과는 연구되지 않았습니다. 낮잠이 한 시간을 넘으면 사망률이 더 높게 나타납니다. 관상동맥질환 위험도 함께 높게 나타납니다. 이 연관성이 낮잠의 인과효과를 뜻하지는 않습니다. 자세한 내용은 제2절 제37항(낮잠은 30분 안에)을 보세요.",
+      "reason": "30분 금지의 범위 완화와 일시적 저하를 명시. 장시간 낮잠의 연관성을 인과로 읽지 않게 함.",
+      "changed": true
+    }
+  ],
+  "intentional_scope_changes": [
+    "actual sleep rather than time in bed; sleep-onset time additional",
+    "30-minute universal prohibition replaced by immediate postnap activity caution",
+    "24 healthy young good sleepers, nonregular nappers; prior sleep about 5 hours; naps at 3 PM",
+    "easy omits secondary duration comparisons retained in benefit; some effects about 2.5h rather than universal fixed duration"
+  ],
+  "numerical_changes": [
+    "cost actual10 minutes clarified, not changed",
+    "easy replaces fixed two-and-half hours with some effects about two-and-half hours; exact155 minutes retained in benefit",
+    "adds24 participants, prior about5h,3PM from primary abstract"
+  ],
+  "doi_changes": {
+    "add": [],
+    "drop": [],
+    "reason": "citation preserved exactly"
+  },
+  "editorial_review_provenance": {
+    "decisions_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch03/editorial-decisions.json",
+    "prior_proposal_sha256": "b02a995617039eea8765e36884cf45c689cb4072319a770e5e7b7e63c8c44a6b",
+    "decision": "쉽게 revise; no approved field overwritten"
+  },
+  "incoming_anchor_review": "Read source.md and candidate.md intro occurrence: 오후에 졸리면10분자기(제11항). All these anchors preserved;30분 anchor retained with scoped caution. Independent title review pending.",
+  "sentence_lengths": {
+    "title": [
+      16,
+      22
+    ],
+    "비용": [
+      11,
+      18,
+      17,
+      18
+    ],
+    "쉽게": [
+      42,
+      22,
+      26
+    ],
+    "이득": [
+      25,
+      36,
+      31,
+      40,
+      30,
+      32,
+      23,
+      16,
+      22,
+      28,
+      24,
+      11
+    ],
+    "비고": [
+      15,
+      21,
+      30,
+      32,
+      23,
+      35,
+      30,
+      23,
+      27,
+      34
+    ]
+  },
+  "easy_chars": 92,
+  "unresolved_limitations": [
+    "Primary full text and correction/erratum notices not independently read; abstract record contains no correction notice, which does not establish absence.",
+    "Abstract provides no effect confidence intervals or individual effect-size tables; no CI invented.",
+    "Existing >1h mortality/coronary associations are cross-reference claims to chapter2 entry37; original source not independently rechecked here. Preserve association with explicit noncausal limit; independent review required."
+  ],
+  "approval": {
+    "status": "pending_independent_exact_hash_review",
+    "published": false,
+    "self_approved": false
+  }
+}

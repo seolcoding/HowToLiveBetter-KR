@@ -1,0 +1,1515 @@
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        
+        <title>금연길라잡이</title>
+    
+    
+        
+            <meta name="description" content="금연상담전화(1544-9030)와 카카오톡 채팅으로 전문적인 금연도움을 받아보세요. 나에게 꼭 맞는 대상자맞춤프로그램을 제공합니다."/>
+            <meta property="og:description" content="금연상담전화(1544-9030)와 카카오톡 채팅으로 전문적인 금연도움을 받아보세요. 나에게 꼭 맞는 대상자맞춤프로그램을 제공합니다."/>
+        
+        
+    
+    
+        
+            <meta name="keywords" content="1544-9030,카카오톡 채팅상담,대상자맞춤프로그램제공,금연상담전화,국가금연지원서비스"/>
+        
+    
+    <meta property="og:url" content="https://www.nosmokeguide.go.kr/helpness/counsel"/>
+    <meta property="og:title" content="금연길라잡이"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:image" content="https://www.nosmokeguide.go.kr/resources/img/ogimage.png"/>
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1536"/>
+    <meta property="og:image:height" content="804"/>
+
+    <link rel="icon" type="image/ico" href="/resources/img/common/favicon.ico">
+
+    
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0">
+
+    
+    <link href="/resources/font/pretendard/dist/web/variable/pretendardvariable-dynamic-subset.css"
+          rel="stylesheet">
+    <link href="/resources/font/khepi-icons-latest/css/khepi-icons.css" rel="stylesheet">
+
+    
+    <link rel="stylesheet" href="/resources/libs/jquery/jquery-ui.min.css">
+    <script src="/resources/libs/jquery/jquery-3.7.0.min.js"></script>
+    <script src="/resources/libs/jquery/jquery-ui.min.js"></script>
+
+    <!-- Bootstrap Bundle JS (Popper 포함) - (모달 사용) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    
+    <link rel="stylesheet" href="/resources/css/pages/platform/all.css">
+
+    
+    <link rel="stylesheet" href="/resources/css/pages/army/layoutsTwo.css"/>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.11.10/dayjs.min.js"></script>
+
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fullcalendar@5.10.1/main.css">
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.10.1/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.10.1/locales-all.js"></script>
+    <link rel="stylesheet" href="/resources/css/calendar.css">
+
+    <script src="/resources/libs/moment/min/moment-with-locales.min.js"></script>
+    <script src="/resources/libs/moment/locale/ko.js"></script>
+
+    
+    <script src="/resources/libs/ckeditor/ckeditor.js"></script>
+    <link rel="stylesheet" href="https://cdn.ckeditor.com/ckeditor5/43.3.0/ckeditor5.css">
+
+    
+    <script src="/resources/js/datepicker/datepicker.js"></script>
+    
+    <script src="/resources/libs/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
+    <script src="/resources/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.ko.min.js"></script>
+
+    <!-- DataTables -->
+    <script src="https://cdn.datatables.net/2.1.8/js/dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/select/2.1.0/js/dataTables.select.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/3.1.2/js/dataTables.buttons.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/datatables.net-bs5/2.1.8/dataTables.bootstrap5.min.js"
+            integrity="sha512-Cwi0jz7fz7mrX990DlJ1+rmiH/D9/rjfOoEex8C9qrPRDDqwMPdWV7pJFKzhM10gAAPlufZcWhfMuPN699Ej0w=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/datatables.net-select-bs5/2.1.0/select.bootstrap5.min.js"
+            integrity="sha512-REmb6w6TDvDFlrMbTdd94iFxQ7Z8v/jBrMr96P+cx7R4QS9iiTAjkG9zi5sOdpheSVNqsEVdfBrYvt5PvmgHWA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    
+    <script src="/resources/js/modules/api.module.js"></script>
+    <script src="/resources/js/modules/util.module.js"></script>
+    <script src="/resources/js/modules/pager.module.js"></script>
+    <script src="/resources/js/modules/custom-file-manager.module.js"></script>
+    <script src="/resources/js/common.js"></script>
+    <script src="/resources/js/constants.js"></script>
+    <script src="/resources/js/diagnosis.config.js"></script>
+    <script src="/resources/libs/imask/dist/imask.min.js"></script>
+    <script src="/resources/js/modules/region.module.js"></script>
+    <script src="/resources/js/modules/pagination.module.js"></script>
+
+    <script src="/resources/js/config/region.config.js"></script>
+    
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11.1.14/swiper-bundle.min.css">
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11.1.14/swiper-bundle.min.js"></script>
+
+    
+    <script src="https://t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
+
+    
+    <script src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpKeyId=2vu8ffiyfv"></script>
+
+    
+    <script id="happytalkSDK" src="https://design.happytalkio.com/sdk/happytalk.chat.v2.min.js"></script>
+
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6L0LVVG3JK"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'G-6L0LVVG3JK');
+    </script>
+
+    <script>
+        const Api = new ApiModule();
+        const Pager = new PagerModule();
+        const Editor = ClassicEditor;
+        const path = ``;
+        const IS_LOGIN_CHECK = localStorage.getItem("authInfo")  //로그인 체크 여부
+        const IS_ALL_LOGIN_CHECK = localStorage.getItem("authInfo") || sessionStorage.getItem("authInfo")  //로그인 및 pass인증 체크 여부
+    </script>
+
+    <script src="/resources/js/mlc_calendar.js"></script>
+    <script src="/resources/js/mlc_comps.js"></script>
+    <script src="/resources/js/mlc_util.js"></script>
+    <script src="/resources/js/khepi_util.js"></script>
+    <script>
+        $(document).ready(() => {
+            // 이벤트 로직 (쿼리 파라미터에 type이 존재하지않으면 세션스토리지 초기화)
+            const url = new URL(window.location.href);
+            const isEvent = url.searchParams.get('isEvent');
+
+            if (isEvent !== 'Y') {
+                sessionStorage.removeItem('eventForm')
+            }
+        });
+    </script>
+
+    <style>
+        .skip-to-content{position:absolute;left:0;top:0;z-index:100000;display:block;width:100%;text-align:center;background:#1d6fff;color:#fff;padding:10px 0;text-decoration:none;transform:translateY(-110%);transition:transform .2s}
+        .skip-to-content:focus{transform:translateY(0)}
+    </style>
+</head>
+
+<body>
+<a href="#mainContent" class="skip-to-content">본문 바로가기</a>
+<!-- 추가 코드 (군길라잡이에서 유입 된 경우 Header 교체) -->
+
+    
+    
+        
+
+
+
+<div class="sky-popup-container" style="display: none" role="region" aria-label="알림 팝업">
+  <div class="bg-container">
+    <div class="content-wrap">
+      <div class="prev-btn-box" role="button" tabindex="0" aria-label="이전 알림" onkeydown="handleSkyPopupKeyActivation(event)">
+        <div class="img-box">
+          <img src="/resources/img/sky_popup_prev_btn_arrow.png" alt="이전"/>
+        </div>
+      </div>
+      <div class="swiper-wrap swiper-area">
+        <div class="swiper">
+          <div class="swiper-wrapper"></div>
+        </div>
+      </div>
+      <div class="next-btn-box" role="button" tabindex="0" aria-label="다음 알림" onkeydown="handleSkyPopupKeyActivation(event)">
+        <div class="img-box">
+          <img src="/resources/img/sky_popup_next_btn_arrow.png" alt="다음"/>
+        </div>
+      </div>
+    </div>
+    <div class="banner-footer-box">
+      <div class="align-box">
+        <div class="slider-control-box">
+          <p class="swiper-page"></p>
+          <div class="pause-btn-box" role="button" tabindex="0" aria-label="자동 재생 정지" onkeydown="handleSkyPopupKeyActivation(event)">
+            <img src="/resources/img/sky_popup_pause_btn.png" alt=""/>
+          </div>
+        </div>
+        <div class="today-show-box">
+          <label>
+            <input name="todaySkyPopup" type="checkbox">
+            하루 동안 열지 않기
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="sky-popup-close-box">
+    <div class="close-btn" role="button" tabindex="0" aria-label="알림 팝업 닫기"
+         onclick="onClickClosePopup()" onkeydown="handleSkyPopupKeyActivation(event)">
+      <p>팝업닫기</p>
+      <div class="popup-close-btn">
+        <img src="/resources/img/sky_popup_close_btn_arrow.png" alt="팝업닫기"/>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="sky-popup-open-box" style="display: none;">
+  <div class="open-btn" role="button" tabindex="0" aria-label="알림 팝업 열기"
+       onclick="onClickOpenPopup()" onkeydown="handleSkyPopupKeyActivation(event)">
+    <p>팝업열기</p>
+    <div class="popup-open-btn">
+      <img src="/resources/img/sky_popup_close_btn_arrow.png" alt="팝업열기"/>
+    </div>
+  </div>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        // 브라우저 자동 scroll 복원 방지
+        if ('scrollRestoration' in history) {
+            history.scrollRestoration = 'manual';
+        }
+
+        initFunc();
+    });
+
+    // 초기화
+    const initFunc = () => {
+
+        const isMain = checkUrl();
+        const isTodayVisible = getTodayCookie();
+        // 메인 페이지가 아니면 팝업과 버튼 모두 숨김
+        if (!isMain) {
+            document.querySelector(".sky-popup-container").style.display = 'none';
+            document.querySelector(".sky-popup-open-box").style.display = 'none';
+        } else {
+            getSkyPopupList();
+        }
+
+    }
+
+    // 메인페이지에만 노출되게끔
+    const checkUrl = () => {
+        const path = window.location.pathname;
+        return path === '/' || path === '/main';
+    }
+
+    // Swiper 초기화
+    const initSwiper = () => {
+        // Swiper page setting
+        function updateSwiperPage(swiper) {
+            const current = swiper.realIndex + 1;
+            const total = swiper.slides.length - 0;
+            document.querySelector('.swiper-page').textContent = `${current} / ${total}`;
+        }
+
+        // Swiper 초기화
+        const swiperInstance = new Swiper('.swiper-area .swiper', {
+            loop: true,
+            slidesPerView: 2,
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+            navigation: {
+                nextEl: '.next-btn-box',
+                prevEl: '.prev-btn-box',
+            },
+            on: {
+                init: function () {
+                    updateSwiperPage(this)
+                    updateSkyPopupSlideTabIndex()
+                },
+                slideChange: function () {
+                    updateSwiperPage(this)
+                },
+                slideChangeTransitionEnd: function () {
+                    updateSkyPopupSlideTabIndex()
+                }
+            }
+        });
+
+        $(document).on('click', '.pause-btn-box', function () {
+            if (swiperInstance.autoplay.running) {
+                swiperInstance.autoplay.stop(); // 자동 재생 정지
+            } else {
+                swiperInstance.autoplay.start(); // 자동 재생 시작
+            }
+            updateSkyPopupPauseLabel();
+        });
+        // 웹접근성(항목1): 정지/재생 상태를 대체텍스트(aria-label)로 구분
+        updateSkyPopupPauseLabel();
+    }
+
+    // 자동 재생 상태에 따라 정지/재생 버튼의 대체텍스트 갱신
+    const updateSkyPopupPauseLabel = () => {
+        const box = document.querySelector('.pause-btn-box');
+        if (!box || typeof swiperInstance === 'undefined' || !swiperInstance || !swiperInstance.autoplay) return;
+        box.setAttribute('aria-label', swiperInstance.autoplay.running ? '자동 재생 정지' : '자동 재생 시작');
+    }
+
+    // 스카이 팝업이 현재 노출 상태인지
+    const isSkyPopupOpen = () => {
+        const el = document.querySelector(".sky-popup-container");
+        return el && el.style.display !== 'none';
+    }
+
+    // 스카이 팝업 내 close-btn 으로 초점 이동
+    const focusSkyPopupCloseBtn = () => {
+        const closeBtn = document.querySelector(".sky-popup-container .close-btn");
+        if (closeBtn) closeBtn.focus();
+    }
+
+    // 스카이 팝업 닫혔을 때 open-btn 으로 초점 이동
+    const focusSkyPopupOpenBtn = () => {
+        const openBtn = document.querySelector(".sky-popup-open-box .open-btn");
+        if (openBtn) openBtn.focus();
+    }
+
+    // role="button" 요소에 대한 Enter/Space 키 활성화 처리
+    function handleSkyPopupKeyActivation(event) {
+        if (event.key === 'Enter' || event.key === ' ' || event.key === 'Spacebar') {
+            event.preventDefault();
+            event.currentTarget.click();
+        }
+    }
+
+    /**
+     * 웹접근성: 현재 화면에 보이는 슬라이드(swiper-slide-active, swiper-slide-next)의
+     * popup-detail-box 만 Tab 으로 접근 가능하게 하고, 비활성/복제 슬라이드의 detail-box 는
+     * Tab 순서에서 제외한다. (loop:true + slidesPerView:2 환경에서 화면 밖 detail-box 로
+     * 초점이 흘러 Tab 이 멈추는 것처럼 보이는 문제 해결)
+     */
+    function updateSkyPopupSlideTabIndex() {
+        const slides = document.querySelectorAll('.sky-popup-container .swiper-slide');
+        slides.forEach(function (slide) {
+            const detail = slide.querySelector('.popup-detail-box');
+            if (!detail) return;
+            detail.setAttribute('tabindex', '0');
+        });
+    }
+
+    // 팝업 열기
+    function onClickOpenPopup() {
+        document.querySelector(".sky-popup-container").style.display = 'block';
+        document.querySelector(".sky-popup-open-box").style.display = 'none';
+        // 열린 직후 닫기 버튼으로 초점 이동
+        focusSkyPopupCloseBtn();
+    }
+
+    // 팝업 닫기
+    const onClickClosePopup = () => {
+        const isChecked = $('input[name="todaySkyPopup"]').is(':checked');
+        if (isChecked) {
+            setTodayCookie('true', 1);
+        } else {
+            deleteTodayCookie(); // 쿠키 삭제
+        }
+        document.querySelector(".sky-popup-container").style.display = 'none';
+        document.querySelector(".sky-popup-open-box").style.display = 'block';
+        // 웹접근성(항목11): 닫은 직후 '본문 바로가기'(skip-nav)로 초점 이동 (없으면 열기 버튼)
+        const skipNav = document.querySelector(".skip-to-content");
+        if (skipNav) skipNav.focus();
+        else focusSkyPopupOpenBtn();
+    }
+
+    // ESC 키로 팝업 닫기 지원
+    // (다른 Bootstrap 모달이 열려 있는 경우에는 그 모달의 ESC 처리를 방해하지 않도록 스킵)
+    document.addEventListener('keydown', function (event) {
+        if (event.key !== 'Escape') return;
+        if (!checkUrl() || !isSkyPopupOpen()) return;
+        if (document.querySelector('.modal.show')) return;
+        onClickClosePopup();
+    });
+
+    // 쿠키 세팅
+    const setTodayCookie = (value, days) => {
+        const expires = new Date();
+        expires.setDate(expires.getDate() + days);
+        document.cookie = `isSkyPopupToday=${value}; path=/; expires=${expires.toUTCString()}`;
+
+
+    }
+
+    // 쿠키 삭제
+    const deleteTodayCookie = () => {
+        document.cookie = "isSkyPopupToday=; path=/; expires=Thu, 01 Jan 1970 00:00:00 UTC;";
+    };
+
+    // 쿠키 가져오기
+    const getTodayCookie = () => {
+        const value = `; ${document.cookie}`;
+        const parts = value.split(`; isSkyPopupToday=`);
+        if (parts.length === 2) return parts.pop().split(';').shift();
+        return null;
+    }
+
+    // 페이지 이동
+    const onClickMovePage = (url) => {
+        window.location.href = url
+    }
+    // ================================ API
+    // 스카이 팝업 목록 조회하기
+    const getSkyPopupList = () => {
+        Api.get("/popups/skys/expose")
+            .then(response => {
+                const targetElement = $('.content-wrap .swiper-area .swiper .swiper-wrapper');
+                if (response.data.data.length > 0) {
+                    response.data.data.forEach((skyPopupItem) => {
+                        const isLinkArea = skyPopupItem.isLinkUsed ?
+                            `
+                                <div class="popup-detail-box" role="button" tabindex="0" aria-label="자세히 보기"
+                                     onclick="onClickMovePage('${skyPopupItem.popupLinkUrl}')">
+                                    <p class="title">자세히 보기</p>
+                                    <div class="img-box">
+                                        <img src="/resources/img/sky_popup_detail_arrow.png" alt="" />
+                                    </div>
+                                </div>
+                            `
+                            :
+                            ''
+                        targetElement.append(
+                            `
+                                    <div class="swiper-slide">
+                                        <div class="popup-item">
+                                            <div class="popup-content-box">
+                                                <div class="img-box">
+                                                    <img src="/resources/img/sky_popup_bell.png" alt="" />
+                                                </div>
+                                                <div class="txt-box">
+                                                    <p class="title">${skyPopupItem.popupTitle}</p>
+                                                    <p class="content">${skyPopupItem.popupContent}</p>
+                                                </div>
+                                            </div>
+                                            ${isLinkArea}
+                                        </div>
+                                    </div>
+                                `
+                        )
+                    })
+                    initSwiper();
+
+                    if (getTodayCookie() === 'true') {
+                        document.querySelector(".sky-popup-container").style.display = 'none';
+                        document.querySelector(".sky-popup-open-box").style.display = 'block';
+                    } else {
+                        document.querySelector(".sky-popup-container").style.display = 'block';
+                        document.querySelector(".sky-popup-open-box").style.display = 'none';
+                        // 페이지 로딩 시 자동 노출되는 경우 닫기 버튼으로 초점 진입
+                        setTimeout(focusSkyPopupCloseBtn, 0);
+                    }
+                } else {
+                    document.querySelector(".sky-popup-container").style.display = 'none';
+                    document.querySelector(".sky-popup-open-box").style.display = 'none';
+                }
+
+                console.log('==========================response', response)
+            })
+            .catch(error => {
+                handleServerErrorMessage(error);
+                document.querySelector(".sky-popup-container").style.display = 'none';
+                document.querySelector(".sky-popup-open-box").style.display = 'none';
+            });
+    }
+</script>
+
+<style>
+    div.sky-popup-open-box {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 10000;
+        /* 아래는 닫기 버튼과 동일한 스타일 */
+        width: 104px;
+        height: 38px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        div.open-btn {
+            display: flex;
+            align-items: center;
+            width: 104px;
+            height: 38px;
+            box-shadow: 0 2px 4px 0 #00000014;
+            border-width: 0 1px 1px 1px;
+            border-style: solid;
+            border-color: #D9D9D9;
+            border-radius: 0 0 12px 12px;
+            background-color: #ffffff;
+            cursor: pointer;
+
+            p {
+                margin-bottom: 0;
+                font-size: 14px;
+                font-weight: 500;
+                color: #222222;
+                margin-left: 20px;
+            }
+
+            div.popup-open-btn {
+                width: 24px;
+
+                img {
+                    display: block;
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    /* 웹접근성: 키보드 포커스 표시 */
+    .sky-popup-container [role="button"]:focus-visible,
+    .sky-popup-container [role="button"]:focus,
+    .sky-popup-open-box [role="button"]:focus-visible,
+    .sky-popup-open-box [role="button"]:focus,
+    .sky-popup-container input[type="checkbox"]:focus-visible,
+    .sky-popup-container input[type="checkbox"]:focus {
+        outline: 2px solid #1d6fff;
+        outline-offset: 2px;
+    }
+
+    .sky-popup-container .today-show-box label {
+        cursor: pointer;
+    }
+
+    /* 웹접근성(항목12): 체크박스 컨트롤 최소 크기 17x17px 보장 */
+    .sky-popup-container .today-show-box input[type="checkbox"] {
+        width: 17px;
+        height: 17px;
+    }
+
+    div.sky-popup-container {
+        width: 100%;
+        height: 250px;
+        position: relative;
+        z-index: 9999;
+
+        div.bg-container {
+            width: 100%;
+            height: 100%;
+            background-image: url("../../resources/img/sky_popup_bg.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+
+            div.content-wrap {
+                max-width: 1520px;
+                margin: 0 auto;
+                display: flex;
+                align-items: center;
+
+                div.swiper-wrap {
+                    flex: 1;
+                    min-width: 0;
+                    overflow: hidden;
+                    height: 100%;
+
+                    div.swiper {
+                        height: 100%;
+
+                        div.swiper-wrapper {
+                            height: 100%;
+
+                            div.swiper-slide {
+                                div.popup-item {
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: space-between;
+                                    height: 100%;
+                                    padding: 40px 75px 56px 75px;
+
+                                    div.popup-content-box {
+                                        display: flex;
+
+                                        div.img-box {
+                                            width: 72px;
+                                            margin-right: 16px;
+
+                                            img {
+                                                transform: none !important;
+                                                display: block;
+                                                width: 100%;
+                                            }
+                                        }
+
+                                        div.txt-box {
+                                            flex: 1;
+                                            min-width: 0;
+                                            p {
+                                                &.title {
+                                                    font-size: 24px;
+                                                    font-weight: 700;
+                                                    color: #222222;
+                                                    margin-bottom: 8px;
+                                                    white-space: nowrap;
+                                                    overflow: hidden;
+                                                    text-overflow: ellipsis;
+                                                }
+
+                                                &.content {
+                                                    font-size: 16px;
+                                                    font-weight: 400;
+                                                    color: #222222;
+                                                    line-height: 24px;
+                                                    white-space: nowrap;
+                                                    overflow: hidden;
+                                                    text-overflow: ellipsis;
+                                                }
+                                            }
+                                        }
+                                    }
+
+                                    div.popup-detail-box {
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: end;
+                                        cursor: pointer;
+
+                                        p.title {
+                                            font-size: 16px;
+                                            font-weight: 500;
+                                            color: #222222;
+                                            margin-bottom: 0;
+                                            margin-top: 5px;
+                                            margin-right: 5px;
+                                        }
+
+                                        div.img-box {
+                                            width: 90px;
+
+                                            img {
+                                                display: block;
+                                                width: 100%;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                div.prev-btn-box {
+                    div.img-box {
+                        width: 52px;
+                        cursor: pointer;
+
+                        img {
+                            display: block;
+                            width: 100%;
+                        }
+                    }
+                }
+
+                div.next-btn-box {
+                    div.img-box {
+                        width: 52px;
+                        cursor: pointer;
+
+                        img {
+                            display: block;
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+
+            div.banner-footer-box {
+                div.align-box {
+                    max-width: 1520px;
+                    margin: 0 auto;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    div.slider-control-box {
+                        display: flex;
+                        align-items: center;
+
+                        p.swiper-page {
+                            font-size: 16px;
+                            font-weight: 400;
+                            color: #222222;
+                            margin-bottom: 0;
+                            margin-right: 5px;
+                        }
+
+                        div.pause-btn-box {
+                            width: 18px;
+                            cursor: pointer;
+
+                            img {
+                                display: block;
+                                width: 100%;
+                            }
+                        }
+                    }
+
+                    div.today-show-box {
+                        font-size: 16px;
+                        font-weight: 500;
+                        color: #767676;
+                    }
+                }
+            }
+        }
+
+        div.sky-popup-close-box {
+            position: absolute;
+            bottom: -38px;
+            left: 50%;
+            transform: translateX(-50%);
+
+            div.close-btn {
+                display: flex;
+                align-items: center;
+                width: 104px;
+                height: 38px;
+                box-shadow: 0 2px 4px 0 #00000014;
+                border-width: 0 1px 1px 1px;
+                border-style: solid;
+                border-color: #D9D9D9;
+                border-radius: 0 0 12px 12px;
+                background-color: #ffffff;
+                cursor: pointer;
+
+                p {
+                    margin-bottom: 0;
+                    font-size: 14px;
+                    font-weight: 500;
+                    color: #222222;
+                    margin-left: 20px;
+                }
+
+                div.popup-close-btn {
+                    width: 24px;
+
+                    img {
+                        display: block;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+</style>
+        
+
+
+
+<header id="header">
+
+    <div class="user-content-wrapper web-area topbar">
+        <div class="container user-content">
+
+        </div>
+    </div>
+
+    
+    <nav class="layout-content web-area">
+        <div class="container gnb-wrapper flex-center">
+            <h1 id="logo">
+                <span class="a11yHidden">금연 길라잡이</span>
+                <a href="/main">
+                    <img src="/resources/img/logo/header-logo.svg" alt="금연 길라잡이 로고">
+                </a>
+            </h1>
+
+            <div class="gnb-right-wrap">
+                <ul class="header-menu">
+                </ul>
+
+                <div class="family-site-wrap">
+                    <select id="FAMILY_SITE_SELECT" class="form-select family-site" title="패밀리사이트">
+                        <option>패밀리사이트</option>
+                    </select>
+                    <button type="button" id="FAMILY_SITE_GO" class="btn btn-dark family-site-go" title="새 창 열림">이동</button>
+                </div>
+
+                <div class="search-menu-button-wrap">
+                    
+                    <div class="search-layer" style="height: auto;">
+                        <div class="container">
+                            <div class="search-form-wrap">
+                                <div class="search-form">
+                                    <input id="keyword" type="search" class="form-control input-keyword" value="" required
+                                           placeholder="검색어를 입력해주세요." title="검색어 입력"
+                                    >
+                                    <button type="button" class="btn btn-outline-primary btn-icon-full btn-search" onclick="moveSearchPage()">
+                                        <img src="/resources/img/icon_2/header-input-search.svg" alt="검색">
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button type="button" class="btn btn-dark search" title="통합검색" onclick="headerToggleSearchLayer(event)">
+                        <img src="/resources/img/icon_2/header-search.svg" aria-label="통합검색 열기">
+                    </button>
+                    <button type="button" class="btn btn-primary sitemap" title="사이트맵" onclick="gotoPage('/sitemap');">
+                        <img src="/resources/img/icon_2/header-hamburger.svg" aria-label="사이트맵으로 이동">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+</header>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        initializeFunc()
+        $('#keyword').on('keydown', function(event) {
+            if (event.key === 'Enter' || event.keyCode === 13) {
+                moveSearchPage();
+            } else if (event.key === 'Escape') {
+                headerCloseSearchLayer();
+            }
+        });
+    })
+
+    // 초기 진입시 실행
+    const initializeFunc = () => {
+        const loginStatus = Api.getAccessToken()
+        headerSetting((loginStatus) ? 'login' : 'noLogin')
+    }
+
+    // Header Contents Setting
+    const headerSetting = (type) => {
+        const targetElement = $(".user-content")
+        targetElement.empty()
+        switch (type) {
+            case 'login':
+                targetElement.append(`
+                    <ul class="login-wrap">
+                        <li class="user-my-page-menu">
+                            <a href="/mypage">마이페이지</a>
+                        </li>
+                        <li class="line item-divider">|</li>
+                        <li class="user-login-menu">
+                            <a href="javascript:void(0);" onclick="onClickLogOut();">로그아웃</a>
+                        </li>
+                        <li class="line item-divider">|</li>
+                        <li class="screen-zoom">
+                            <span class="label">화면크기</span>
+                            <button class="btn-icon-full zoom-out"><img src="/resources/img/icon/icon-minus-button-black.svg" alt="축소"></button>
+                            <span class="mag">100%</span>
+                            <button class="btn-icon-full zoom-in"><img src="/resources/img/icon/icon-plus-button-black.svg" alt="확대"></button>
+                        </li>
+                    </ul>
+                `)
+                break;
+            case 'noLogin':
+                targetElement.append(`
+                    <ul class="login-wrap">
+                        <li class="user-my-page-menu">
+                            <a href="/sign-up">회원가입</a>
+                        </li>
+                        <li class="line item-divider">|</li>
+                        <li class="user-login-menu">
+                            <a href='/login'>로그인</a>
+                        </li>
+                        <li class="line item-divider">|</li>
+                        <li class="screen-zoom">
+                            <span class="label">화면크기</span>
+                            <button class="btn-icon-full zoom-out"><img src="/resources/img/icon/icon-minus-button-black.svg" alt="축소"></button>
+                            <span class="mag">100%</span>
+                            <button class="btn-icon-full zoom-in"><img src="/resources/img/icon/icon-plus-button-black.svg" alt="확대"></button>
+                        </li>
+                    </ul>
+                `)
+                break;
+        }
+    }
+
+    // 로그아웃
+    const onClickLogOut = () => {
+         mlc_util.modalConfirm(`로그아웃 하시겠습니까?`, null, null, null, {
+            OK: {
+                callback: () => {
+                    _handleLogout();
+                },
+            },
+        });
+
+        function _handleLogout() {
+            let sessionTimerId = localStorage.getItem('sessionTimerId');
+            clearInterval(sessionTimerId); // 타이머 중지
+            localStorage.removeItem('sessionTimerId');
+            sessionTimerId = null; // 타이머 ID 초기화
+            localStorage.removeItem('integrate_set_expires_second');
+            localStorage.removeItem('integrate_expires');
+            localStorage.removeItem('accessToken')
+            localStorage.removeItem('authInfo')
+            sessionStorage.removeItem('authInfo');
+            window.location.href = `/main`;
+        }
+    }
+
+    /**
+     * 검색 레이어 토글 트리거 기억용
+     */
+    let headerSearchLayerTrigger = null;
+
+    /**
+     * 검색 레이어 토글
+     * 열릴 때: 검색 입력으로 초점 이동 (트리거 저장)
+     * 닫힐 때: 트리거 버튼으로 초점 복귀
+     */
+    const headerToggleSearchLayer = (event) => {
+        let layerEl = document.querySelector(".search-layer");
+        const willOpen = !(layerEl.classList && layerEl.classList.contains("ON"));
+        mlc_util.toggleClass(layerEl, "ON");
+
+        if (willOpen) {
+            if (event && event.currentTarget) {
+                headerSearchLayerTrigger = event.currentTarget;
+            }
+            const keywordInput = document.getElementById("keyword");
+            if (keywordInput) {
+                setTimeout(() => keywordInput.focus(), 0);
+            }
+        } else {
+            if (headerSearchLayerTrigger) {
+                headerSearchLayerTrigger.focus();
+                headerSearchLayerTrigger = null;
+            }
+        }
+    }
+
+    /**
+     * 검색 레이어 닫기 (ESC, 외부 사용용)
+     */
+    const headerCloseSearchLayer = () => {
+        const layerEl = document.querySelector(".search-layer");
+        if (!layerEl || !layerEl.classList.contains("ON")) return;
+        layerEl.classList.remove("ON");
+        if (headerSearchLayerTrigger) {
+            headerSearchLayerTrigger.focus();
+            headerSearchLayerTrigger = null;
+        }
+    }
+
+    function gotoPage(url, target) {
+        if(target) window.open(target).location.href = url
+        else location.href = url
+    }
+
+    const moveSearchPage = () => {
+        const keywordStr = $('#keyword').val().trim()
+
+        if (!keywordStr || keywordStr === '') {
+            window.location.href = `/search`
+        } else {
+            window.location.href = `/search?keyword=${keywordStr}`
+        }
+    }
+</script>
+    
+
+
+<div id="mainContent" tabindex="-1">
+
+    
+
+
+
+
+<main class="PC-PAGE PC-QSCG" data-param="STG-01">
+    <div class="page-title-wrap">
+        <div class="container container-1200">
+            <div class="wrap">
+                <p class="sub-title">NO SMOKE GUIDE</p>
+                <h2>금연상담전화(1544-9030)</h2>
+            </div>
+        </div>
+
+        <div class="breadcrumb-wrap">
+            <div class="container-1200">
+                <a class="btn-home" href="#none">
+                    <img src="/resources/img/icon_2/breadcrumb-home.svg" alt="홈">
+                </a>
+                <nav aria-label="현재 페이지 경로">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item">
+                            <select class="form-select" title="대메뉴">
+                                <option value="QSCG" selected>금연도전</option>
+                                <option value="COMM">소통공감</option>
+                                <option value="DATA">정보자료</option>
+                                <option value="NOTC">알림</option>
+                                <option value="MYPG">마이페이지</option>
+                            </select>
+                        </li>
+                        <li class="breadcrumb-item">
+                            <select class="form-select" title="중메뉴">
+                                <option value="" selected>금연도움받기</option>
+                            </select>
+                        </li>
+                        <li class="breadcrumb-item active">
+                            <select class="form-select" title="소메뉴">
+                                <option value="" selected>금연상담전화(1544-9030)</option>
+                            </select>
+                        </li>
+                    </ol>
+                </nav>
+
+                
+    
+        
+
+        <div class="print-share-wrap">
+            <a class="BTN_SHARE" href="javascript:void(0);" role="button" aria-haspopup="true" aria-expanded="false" aria-controls="shareLinkBox">
+                <span class="a11yHidden">공유하기</span>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
+                    <path fill-rule="evenodd"
+                        d="M15.75 4.5a3 3 0 1 1 .825 2.066l-8.421 4.679a3.002 3.002 0 0 1 0 1.51l8.421 4.679a3 3 0 1 1-.729 1.31l-8.421-4.678a3 3 0 1 1 0-4.132l8.421-4.679a3 3 0 0 1-.096-.755Z"
+                        clip-rule="evenodd" />
+                </svg>
+            </a>
+            <div class="BTN_SHARE_BOX" id="shareLinkBox">
+                <div class="SHARE_LINK_BOX">
+                    <a href="javascript:shareOnFacebook();" title="페이스북 새창열림"><img
+                            src="/resources/img/icon_2/share/share_facebook.svg" alt="페이스북" /></a>
+                    <a href="javascript:shareOnX();" title="엑스 새창열림"><img src="/resources/img/icon_2/share/share_x.svg"
+                            alt="엑스" /></a>
+                    <a href="javascript:shareOnKakao();" title="카카오스토리 새창열림"><img
+                            src="/resources/img/icon_2/share/share_kakao.svg" alt="카카오스토리" /></a>
+                    <a href="javascript:copyLink();" title="링크 복사"><img
+                            src="/resources/img/icon_2/share/share_url.svg" alt="링크복사" /></a>
+                </div>
+            </div>
+            <a class="btn-print BTN_PRINT" href="javascript:void(0);">
+                <span class="a11yHidden">프린트하기</span>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
+                    <path fill-rule="evenodd"
+                        d="M7.875 1.5C6.839 1.5 6 2.34 6 3.375v2.99c-.426.053-.851.11-1.274.174-1.454.218-2.476 1.483-2.476 2.917v6.294a3 3 0 0 0 3 3h.27l-.155 1.705A1.875 1.875 0 0 0 7.232 22.5h9.536a1.875 1.875 0 0 0 1.867-2.045l-.155-1.705h.27a3 3 0 0 0 3-3V9.456c0-1.434-1.022-2.7-2.476-2.917A48.716 48.716 0 0 0 18 6.366V3.375c0-1.036-.84-1.875-1.875-1.875h-8.25ZM16.5 6.205v-2.83A.375.375 0 0 0 16.125 3h-8.25a.375.375 0 0 0-.375.375v2.83a49.353 49.353 0 0 1 9 0Zm-.217 8.265c.178.018.317.16.333.337l.526 5.784a.375.375 0 0 1-.374.409H7.232a.375.375 0 0 1-.374-.409l.526-5.784a.373.373 0 0 1 .333-.337 41.741 41.741 0 0 1 8.566 0Zm.967-3.97a.75.75 0 0 1 .75-.75h.008a.75.75 0 0 1 .75.75v.008a.75.75 0 0 1-.75.75H18a.75.75 0 0 1-.75-.75V10.5ZM15 9.75a.75.75 0 0 0-.75.75v.008c0 .414.336.75.75.75h.008a.75.75 0 0 0 .75-.75V10.5a.75.75 0 0 0-.75-.75H15Z"
+                        clip-rule="evenodd" />
+                </svg>
+            </a>
+        </div>
+
+        <script src="https://developers.kakao.com/sdk/js/kakao.min.js"></script>
+
+        <script>
+            if (typeof Kakao !== "undefined" && !Kakao.isInitialized()) {
+                Kakao.init("458fbff26d3496fa0bb4ef321c8cbb23");
+            }
+
+            function shareOnKakao() {
+                const url = location.href;
+                const title = $("title").text();
+                Kakao.Link.sendDefault({
+                    throughTalk: false,
+                    objectType: 'feed',
+                    content: {
+                        title: $("title").text(),
+                        imageUrl: 'http://www.nosmokeguide.go.kr/images/mobilelogo.png',
+                        link: {
+                            mobileWebUrl: url,
+                            webUrl: url
+                        }
+                    },
+                    buttons: [
+                        {
+                            title: '웹으로 보기',
+                            link: {
+                                mobileWebUrl: url,
+                                webUrl: url
+                            }
+                        }
+                    ]
+                });
+            }
+
+            function shareOnFacebook() {
+                const url = 'https://nosmokeguide.go.kr/main';
+                const facebookShareUrl = "https://www.facebook.com/sharer/sharer.php?u=" + url;
+                window.open(facebookShareUrl, '_blank', 'width=600,height=400');
+            }
+
+            function shareOnX() {
+                const url = location.href;
+                const title = encodeURIComponent($("title").text());
+                window.open("https://twitter.com/intent/tweet?text=" + encodeURIComponent("[금연길라잡이]") + title + ":" + "&url=" + url);
+            }
+
+            function copyLink() {
+                window.prompt("아래의 URL을 복사하여 사용하실수 있습니다.", location.href);
+            }
+
+            // 공유하기 버튼 키보드 접근성(disclosure) - 마우스 hover 동작은 그대로 보존, 키보드/클릭 토글만 추가
+            (function () {
+                const shareWrap = document.querySelector(".print-share-wrap");
+                if (!shareWrap || shareWrap.dataset.shareA11yBound === "true") return;
+                shareWrap.dataset.shareA11yBound = "true";
+
+                const shareToggle = shareWrap.querySelector(".BTN_SHARE");
+                const shareBox = shareWrap.querySelector(".BTN_SHARE_BOX");
+                if (!shareToggle || !shareBox) return;
+
+                const shareLinks = shareBox.querySelectorAll("a");
+
+                const isShareOpen = () => shareWrap.classList.contains("is-share-open");
+
+                const openShareBox = (focusFirst) => {
+                    shareWrap.classList.add("is-share-open");
+                    shareToggle.setAttribute("aria-expanded", "true");
+                    if (focusFirst && shareLinks.length) shareLinks[0].focus();
+                };
+
+                const closeShareBox = (returnFocus) => {
+                    shareWrap.classList.remove("is-share-open");
+                    shareToggle.setAttribute("aria-expanded", "false");
+                    if (returnFocus) shareToggle.focus();
+                };
+
+                // viaKeyboard=true 일 때만 초점을 박스 안/호출 버튼으로 이동(마우스 동작 보존)
+                const toggleShareBox = (viaKeyboard) => {
+                    if (isShareOpen()) closeShareBox(viaKeyboard);
+                    else openShareBox(viaKeyboard);
+                };
+
+                // Enter 는 <a> 기본 활성화로 click 이 발생(키보드 click 은 detail 0)
+                shareToggle.addEventListener("click", (event) => {
+                    event.preventDefault();
+                    toggleShareBox(event.detail === 0);
+                });
+
+                // Space 는 링크에서 기본 활성화되지 않으므로 별도 처리
+                shareToggle.addEventListener("keydown", (event) => {
+                    if (event.key === " " || event.key === "Spacebar" || event.keyCode === 32) {
+                        event.preventDefault();
+                        toggleShareBox(true);
+                    }
+                });
+
+                // ESC 로 닫고 호출 버튼으로 초점 복귀
+                shareWrap.addEventListener("keydown", (event) => {
+                    if ((event.key === "Escape" || event.key === "Esc" || event.keyCode === 27) && isShareOpen()) {
+                        event.preventDefault();
+                        closeShareBox(true);
+                    }
+                });
+
+                // 영역 밖으로 초점이 빠져나가면 닫기
+                shareWrap.addEventListener("focusout", (event) => {
+                    if (isShareOpen() && !shareWrap.contains(event.relatedTarget)) {
+                        closeShareBox(false);
+                    }
+                });
+            })();
+
+        </script>
+            </div>
+        </div>
+    </div>
+
+
+    <section>
+        <div class="container container-1200">
+            <h3 class="d-none">금연상담전화 소개 섹션</h3>
+
+            <button type="button" class="btn btn-outline-dark fw-med ms-auto" onclick="redirectToForm('금연상담전화')" id="smoking-cessation-hotline">
+                예약하기
+            </button>
+
+            <article class="mt-60" id="basicHtmlContents">
+                <h4>기본정보</h4>
+
+                <div class="text-wrap mt-30">
+                    <div class="table-wrap list-type">
+                        <table class="table">
+                            <caption class="a11yHidden">대상, 이용기간, 이용방법, 서비스 내용, 운영기관, 이용금액 문의처 정보를 제공합니다.</caption>
+                            <colgroup>
+                                <col style="width: 25%;">
+                                <col>
+                            </colgroup>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">대상</th>
+                                    <td>
+                                        -
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">이용기간</th>
+                                    <td>
+                                        평일(월-금) 오전 9시~오후 10시, 주말/공휴일 오전 9시~오후 6시
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">이용방법</th>
+                                    <td>
+                                        1544-9030 직접전화, 카카오톡 채팅상담
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">서비스 내용</th>
+                                    <td>
+                                        대상자 맞춤 7일, 30일, 100일, 1년 금연상담프로그램 제공(예약상담제), 금연툴킷(tool-kit), SNS 문자, 이메일,
+                                        채팅상담서비스 제공
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">운영기관</th>
+                                    <td>
+                                        인하대학교 산학협력단
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">이용금액</th>
+                                    <td>
+                                        무료
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">문의처</th>
+                                    <td>
+                                        1544-9030
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div><!-- .table-wrap -->
+                </div>
+            </article>
+
+
+            <article class="mt-60 d-none" id="videoContent">
+                <h4>소개영상</h4>
+
+                <div class="aspect-ratio--16-9-box mt-30">
+                    <div class="video-wrap">
+                      <iframe
+                        src=""
+                        width="100%"
+                        height="100%"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen
+                        title="금연상담전화 가상체험관">
+                      </iframe>
+
+                    </div><!-- .video-wrap -->
+                </div>
+            </article>
+
+
+            <article class="mt-60" id="detailHtmlContents">
+                <h4>상세내용</h4>
+
+                <div class="text-wrap mt-30">
+                    <span class="fw-sbold">○ 금연상담전화(1544-9030)란?</span><br>
+                    금연상담전화(quitline)의 경우 이미 1980년대 중반부터 미국, 캐나다, 뉴질랜드, 유럽 각국 등에서 활성화되어 사업의 필요성과 운영의 효과를 입증해 오고 있습니다.
+                    최근에는 양질의 금연상담 제공을 위하여 국가별 금연상담전화 간 공조체계를 구축하고 있습니다.<br>
+                    우리나라의 경우도 2006년 4월부터 금연상담전화서비스(1544-9030)를 제공하고 있습니다. 일반인 누구에게나 금연과 흡연 예방을 위한 정보제공은 물론 전문 금연상담사가
+                    흡연자에 대하여 금연 의지 확인, 금연 결심, 금연실천, 금연 유지 등의 단계별 금연상담을 1년간 프로그램으로 제공하고 있습니다. 이 외에도 SMS 문자 서비스, 이메일
+                    서비스 등의 다양한 상담 채널을 제공하고 있습니다.<br>
+                    <br>
+                    <span class="fw-sbold">○ 금연상담전화의 특장점</span><br>
+                    금연상담전화가 전 세계적으로 널리 퍼진 이유는 프로그램의 효율성이 검증되었기 때문이기도 하지만 다른 여러 가지 이유가 있습니다.<br>
+                    <br>
+                    첫째, 서비스 이용이 쉽습니다.<br>
+                    흡연자가 오프라인으로 금연서비스를 받기를 원해도 이용 장소가 제한적이고, 거리가 멀거나 교통이 불편하여 시간이 오래 걸려, 이용자가 불편을 감수해야 합니다. 그러나
+                    금연상담전화는 집이나 직장에서 원하는 시간대에 무료로 이용할 수 있어 편리합니다.<br>
+                    <br>
+                    둘째, 개인의 비밀이 보장됩니다.<br>
+                    우리나라의 경우 여성, 청소년 흡연자들의 경우 금연 도움이 필요해도 대면 상담을 꺼리는 경우가 많습니다. 금연상담전화는 상담의 비밀성이 보장되어 금연 취약계층(여성, 청소년
+                    등)의 금연에 적극적으로 접근할 수 있습니다.<br>
+                    <br>
+                    셋째, 개인 1:1 맞춤형 상담이 제공됩니다.<br>
+                    금연 실천자의 의지 변화, 행동 변화, 생활 교정 등을 유도할 수 있는 의학적, 사회과학적, 심리학적 전문성을 갖춘 전문상담사가 1:1 개인별 전담 상담제로 운영됩니다.
+                    개인별 흡연행태 및 생활습관 등에 맞는 금연 결심과 금연 준비법, 금연실천 방법, 금단증상 대처법, 재흡연 방지를 위한 준비 등의 실천적이고 현실적인 방법의 상담을
+                    제공합니다.<br>
+                    <br>
+                    넷째, 경제적 부담이 없습니다.<br>
+                    1544-9030 단일 전화번호를 사용하여 기억하기 쉽고, 프로그램 이용 시 비용이 발생하지 않습니다<br>
+                </div><!-- .text-wrap -->
+            </article>
+
+
+            <article class="mt-60" id="programHtmlContents">
+                <h4>프로그램 개요</h4>
+
+                <div class="text-wrap mt-30">
+                    <span class="fw-sbold">○ 개인 단기프로그램</span><br>
+                    금연 하루 전일부터 금연 7일 혹은 30일 금연 성공일 까지 전담상담사가 예약된 시간에 전화하여 금연 준비사항을 비롯해 금연 초기 다양하게 경험할 수 있는 금단증상과 흡연에
+                    대한 극심한 갈망을 극복할 수 있도록 다양한 지침과 정서적 지지를 제공합니다.<br>
+                    <br>
+                    <span class="fw-sbold">○ 개인 장기프로그램</span><br>
+                    단기 프로그램과 같이 초기에는 금단 증상과 흡연에 대한 갈망을 극복할 수 있는 상담을 제공하며 장기적인 금연 유지를 위해 체중 관리, 취미생활, 금연 동기 재확인 등을 통해
+                    전반적인 생활습관과 인지적인 변화를 이루도록 상담을 제공합니다.<br>
+
+                    <div class="image text-center">
+                        <img src="/resources/img/contents/금연상담전화_기본_금연프로그램_소개.png" width="100%"
+                            alt="금연상담전화 기본 금연프로그램 소개">
+                    </div>
+
+                    <span class="fw-sbold">○ 기업&학교 프로그램</span><br>
+                    학교와 기업 상담 연계를 위하여 상담 서비스를 제공하고 있습니다.<br>
+                </div><!-- .text-wrap -->
+            </article>
+
+        </div><!-- .container -->
+    </section>
+</main>
+
+<script src="/resources/js/pages/helpness/home.js"></script>
+
+</div>
+<!-- 추가 코드 (군길라잡이에서 유입 된 경우 Footer 미노출) -->
+
+    
+    
+        
+
+        <!-- 담배 사용을 그만두고 싶다면? -->
+        <div class="non-smoking-promotion-container">
+            <div class="container container-1200">
+                <div class="non-smoking-promotion">
+                    <h5 class="title shadow-img-text">
+                        <img src="/resources/img/common/hit-the-target.svg" alt="">
+                        <span>금연을 하고 싶다면?</span>
+                    </h5>
+
+                    <div class="text-box">
+                        <div>나에게 맞는 <span class="text-warning fw-sbold">국가금연지원서비스</span> 추천 받고,</div>
+                        <a class="link link-dark" href="/helpness/recommend/home"
+                            aria-label="국가금연지원서비스 안내 페이지로 이동">
+                            무료로 이용하기
+                        </a>
+                        <i class="khi khi-chevron-solid-right fs-12 text-warning"></i>
+
+                        <img class="none-smoking-icon" src="/resources/img/icon/icon-nonSmoking.png"
+                            alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+            <footer>
+                <section class="footer-top">
+                    <h3 class="d-none">footer 상단 섹션</h3>
+
+                    <div class="container">
+                        <ul class="mb-0 footer-link-list">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        </ul>
+
+                        <div class="footer-site-wrap">
+                            <ul class="mb-0 footer-sns-list">
+                                <li>
+                                    <a href="https://www.youtube.com/channel/UCEQTmEaX64MQJAEZIAIiFgg" target="_blank" title="새 창 열림">
+                                        <img class="sns-logo" src="/resources/img/logo/footer-youtube.svg"
+                                            alt="금연길라잡이 - YouTube">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://blog.naver.com/nosmokeguide9030" target="_blank" title="새 창 열림">
+                                        <img class="sns-logo" src="/resources/img/logo/footer-blog.svg"
+                                            alt="금연, 그래 좋아! : 네이버 블로그">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.facebook.com/profile.php?id=100008155625877" target="_blank" title="새 창 열림">
+                                        <img class="sns-logo" src="/resources/img/logo/footer-facebook.svg"
+                                            alt="Nosmoke Guide | Facebook">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com/nosmokingkorea/" target="_blank" title="새 창 열림">
+                                        <img class="sns-logo" src="/resources/img/logo/footer-instagram.svg"
+                                            alt="보건복지부 금연캠페인 : 인스타그램">
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="dropdown related-site">
+                                <button id="RELATED_SITE_BUTTON" type="button"
+                                    class="btn btn-outline-dark dropdown-toggle" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    관련사이트
+                                </button>
+                                <ul id="RELATED_SITE_DROPDOWN" class="dropdown-menu" style="z-index: 10001;">
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="footer-bottom">
+                    <h3 class="d-none">footer 하단 섹션</h3>
+
+                    <div class="container">
+                        <a href="/main">
+                            <img class="homepage-logo" src="/resources/img/logo/footer-logo.svg" alt="금연길라잡이 로고">
+                        </a>
+
+                        <a href="/main">
+                            <img class="homepage-logo" src="/resources/img/logo/footer-logo2-body.svg"
+                                style="height: 28px; margin-top: 10px;" alt="한국건강증진개발원 국가금연지원센터 로고">
+                        </a>
+
+                        <div class="homepage-info">
+                            <div class="contact-wrap">
+                                <span class="label">홈페이지 문의 : </span>
+                                <span class="email">E-mail <a class="text-blue text-decoration-underline"
+                                                       href="mailto:nosmokeguide@khepi.or.kr">nosmokeguide@khepi.or.kr</a></span>
+                                <span class="contact-search">
+                                    <a href="https://www.khepi.or.kr/kps/department?menuId=MENU00917"
+                                        class="link link-warning" target="_blank" title="새 창 열림">(업무별 연락처 조회)</a>
+                                    <img src="/resources/img/icon_2/search-info.svg" alt="">
+                                </span>
+                            </div>
+                            <div class="address">[보건복지부] 세종특별자치시 도움4로 13(정부세종청사 10동)</div>
+                            <div class="copyright">Copyright&copy;2025 보건복지부. All rights reserved.</div>
+                        </div>
+
+                        <a title="새창" href="http://www.wa.or.kr/board/list.asp?BoardID=0006" target="_blank"
+                            style="margin-left: auto; align-self: flex-end;">
+                            <img class="wa" src="/resources/img/logo/footer-wa.png"
+                                alt="(사)한국장애인단체총연합회 한국정보접근성인증평가원 웹 접근성 우수사이트 인증마크(WA인증마크)"
+                                width="190" height="130">
+                        </a>
+                    </div>
+                </section>
+            </footer>
+
+            
+            <div class="modal fade modal-message" id="MODAL_MESSAGE" tabindex="-1" aria-labelledby="MODAL_MESSAGE_TITLE" aria-describedby="MODAL_MESSAGE_DESC" data-bs-backdrop="false"
+                    data-bs-keyboard="false" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header d-none">
+                                <h2 class="modal-title" id="MODAL_MESSAGE_TITLE">금연길라잡이</h2>
+                                <button type="button" class="btn-icon-full BTN_CLOSE" data-bs-dismiss="modal"
+                                    aria-label="닫기">
+                                    <img src="/resources/img/common/modal-close.png" alt="">
+                                </button>
+                            </div>
+
+                            <div class="modal-body">
+                                <div class="message" id="MODAL_MESSAGE_DESC"></div>
+                            </div>
+
+                            <div class="modal-footer"></div>
+                        </div><!-- .modal-content -->
+                    </div><!-- .modal-dialog -->
+                </div><!-- .modal -->
+
+
+
+<script>
+    document.addEventListener('show.bs.modal', function (e) {
+        if (e.target) e.target._a11yTrigger = document.activeElement;
+    });
+    document.addEventListener('hidden.bs.modal', function (e) {
+        var t = e.target && e.target._a11yTrigger;
+        if (t && typeof t.focus === 'function') { try { t.focus(); } catch (_) {} }
+        if (e.target) e.target._a11yTrigger = null;
+    });
+</script>
+</body>
+</html>
+<style>
+    /* 노담봇 style */
+    #HappytalkIframe {
+        left: 100px !important;
+        bottom: 285px !important;
+    }
+</style>

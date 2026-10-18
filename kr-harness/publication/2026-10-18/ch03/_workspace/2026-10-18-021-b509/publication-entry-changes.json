@@ -1,0 +1,251 @@
+{
+  "status": "unadopted_proposal",
+  "entry": 21,
+  "base": "strict-entry.md",
+  "base_sha256": "1030e06f5294c15675cdc9a1b529028713368a61c36aa74ae1faeb8e311a52bd",
+  "proposal_sha256": "f5e9c6b06ccf518c82e0c70e204852362c314ece2a9483818dc9ecf5f3ef28a2",
+  "verification_date": "2026-10-18",
+  "primary_sources": [
+    {
+      "doi": "10.1037/0022-3514.78.2.211",
+      "url": "https://www.psychologyib.com/uploads/1/1/7/5/11758934/the_spotlight_effect_-_ib_psychology.pdf",
+      "method": "Live HTTPS PDF downloaded; pdftotext read Studies 1–2 pp212–215; rendered pp213/215 figures and footnote3 inspected. Third-party mirror of actual primary article, not secondary summary.",
+      "exact_quotes": [
+        "The average estimate made by the targets in this study (48%) was virtually identical to that made by the targets in the previous study who were wearing an embarrassing shirt (46%). The actual accuracy of the observers, in contrast, was dramatically different (8% vs. 23% in the present and previous studies, respectively).",
+        "We cannot specify the cause of this difference with certainty, but we strongly suspect that it was due to the (uninteresting) fact that the questionnaire we had observers complete in the present study was a more involving one than the one used earlier.",
+        "The mean discrepancy was 40%, for which the relevant 95% confidence interval ranged from 21% to 59%.",
+        "One hundred nine Cornell University undergraduates volunteered to participate in exchange for extra credit in various lower-division psychology classes. Fifteen served as target participants (8 women, 7 men), 64 as observers, and 30 as controls in one of two conditions.",
+        "Seventy-nine students volunteered to participate for extra credit in various lower division psychology classes. Most of the students were Cornell University undergraduates; the rest were advanced-placement high school students attending Cornell's summer session.",
+        "The average discrepancy was 23%, for which the appropriate 95% confidence interval for the degree of overestimation ranged from 9% to 38%.",
+        "When we excluded the one session with two observers and the one with three observers, the mean discrepancy was 27% and the 95% confidence interval ranged from 11% to 43%.",
+        "When we excluded the one session with only 2 observers, the mean discrepancy was 36%, and the 95% confidence interval ranged from 17% to 56%."
+      ],
+      "correction_check": "Live Crossref exact DOI metadata relation={} and no update-to/updated-by. This does not prove no correction exists. Publisher full text 403; no official correction confirmed."
+    },
+    {
+      "doi": "10.1177/0956797618783714",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1177/0956797618783714&format=json&resultType=core",
+      "method": "Read cached primary abstract in Europe PMC core response; no new HTTP/full-text verification. Cache provenance metadata preserved.",
+      "exact_quotes": [
+        "We observed the liking gap as strangers got acquainted in the laboratory, as first-year college students got to know their dorm mates, and as formerly unacquainted members of the general public got to know each other during a personal development workshop.",
+        "The liking gap persisted in conversations of varying lengths and even lasted for several months, as college dorm mates developed new relationships."
+      ]
+    }
+  ],
+  "changes": [
+    {
+      "field": "title",
+      "before": "\"모두가 내 망신을 봤다\"고 느낄 때, 그 추정을 반으로 나누세요",
+      "after": "\"모두가 내 망신을 봤다\"고 느낄 때, 남들이 얼마나 봤을지 다시 따져보세요",
+      "reason": "Remove unvalidated personal divide-by-two rule; preserve embarrassment topic and replace with reconsideration action.",
+      "evidencequotes": [
+        "The average estimate made by the targets in this study (48%) was virtually identical to that made by the targets in the previous study who were wearing an embarrassing shirt (46%). The actual accuracy of the observers, in contrast, was dramatically different (8% vs. 23% in the present and previous studies, respectively).",
+        "We cannot specify the cause of this difference with certainty, but we strongly suspect that it was due to the (uninteresting) fact that the questionnaire we had observers complete in the present study was a more involving one than the one used earlier."
+      ]
+    },
+    {
+      "field": "쉽게",
+      "before": "민망한 티셔츠를 입고 사람들이 있는 방에 들어갔습니다. 입은 사람은 거의 절반이 인쇄된 인물을 알아볼 거라 생각했습니다. 실제로는 4분의 1도 안 됐습니다. 마음에 들어 고른 티셔츠에서는 추정이 실제의 여섯 배였습니다. 대화를 마친 사람들도 상대가 자신을 얼마나 좋아했는지 대체로 낮게 잡습니다. \"모두가 내 망신을 기억한다\"는 추정을 반으로 줄여도 여전히 높습니다.",
+      "after": "사람들은 남이 자신의 옷차림을 얼마나 알아봤는지 실제보다 높게 짐작했습니다. 일상에서도 남의 관심을 과대평가하는지 살펴보세요. 연구의 배수를 자신의 추정에 그대로 적용하지는 마세요.",
+      "reason": "Use independent reviewer alternative from editorial-decisions.json exactly (101 chars); no approval claimed. Preserve uncertainty and personal-calibration warning.",
+      "evidencequotes": [
+        "The average estimate made by the targets in this study (48%) was virtually identical to that made by the targets in the previous study who were wearing an embarrassing shirt (46%). The actual accuracy of the observers, in contrast, was dramatically different (8% vs. 23% in the present and previous studies, respectively)."
+      ]
+    },
+    {
+      "field": "이득",
+      "before": "실험 1에서는 배리 매닐로 얼굴이 인쇄된 티셔츠를 입혔습니다. 참가자들은 그 옷을 입고 다른 참가자가 있는 방에 들어갔습니다. 입은 사람은 평균 46%가 인쇄된 인물을 알아볼 거라 추정했습니다. 실제 정답률은 23%로, 추정은 실제의 정확히 두 배였습니다. 회차별 추정에서 실제 값을 빼면 평균 23%포인트 높았습니다. 95% 신뢰구간은 9~38입니다. 구경꾼이 두 명, 세 명뿐인 두 회차를 빼면 27%포인트 높았습니다. 신뢰구간은 11~43입니다. 실험 2에서는 참가자가 직접 고른 마음에 드는 티셔츠를 입혔습니다. 평균 추정은 48%, 실제는 8%로 여섯 배 차이가 났습니다. 또 다른 연구는 장면 3개를 다뤘습니다. 낯선 사람끼리의 짝 대화, 대학 신입생 룸메이트, 성인 워크숍입니다. 사람들은 대화 상대가 자신을 얼마나 좋아했는지 계속 낮게 잡았습니다. 상대가 그 대화를 얼마나 즐겼는지도 낮게 잡았습니다. 연구자들은 이를 '호감 차이(라이킹 갭)'라고 불렀습니다. 대화 길이와 무관하게 나타났습니다. 룸메이트 사이에서는 몇 달간 유지됐습니다.",
+      "after": "실험 1에는 코넬대 학부생 109명이 참여했습니다. 티셔츠를 입은 사람 15명, 구경꾼 64명, 대조군 30명입니다. 대조군은 같은 상황을 재현한 영상을 봤습니다. 실험 1에서는 배리 매닐로 얼굴이 인쇄된 티셔츠를 입혔습니다. 참가자들은 그 옷을 입고 다른 참가자가 있는 방에 들어갔습니다. 측정한 것은 티셔츠에 인쇄된 인물을 맞힌 구경꾼의 비율입니다. 입은 사람은 평균 46%가 인쇄된 인물을 알아볼 거라 추정했습니다. 실제 정답률은 23%로, 추정은 실제의 정확히 두 배였습니다. 회차별 추정에서 실제 값을 빼면 평균 23%포인트 높았습니다. 이 차이의 95% 신뢰구간은 9~38%포인트입니다. 구경꾼이 두 명, 세 명뿐인 두 회차를 빼면 27%포인트 높았습니다. 이 차이의 95% 신뢰구간은 11~43%포인트입니다. 실험 2에는 학생 79명이 참여했습니다. 대부분 코넬대 학부생이고 일부는 여름학기 고교생입니다. 티셔츠를 입은 사람은 15명, 구경꾼은 64명입니다. 참가자가 직접 고른 마음에 드는 티셔츠를 입혔습니다. 평균 추정은 48%, 실제는 8%로 여섯 배 차이가 났습니다. 회차별 차이의 평균은 40%포인트였습니다. 95% 신뢰구간은 21~59%포인트입니다. 구경꾼이 두 명뿐인 회차를 빼면 평균 36%포인트였습니다. 95% 신뢰구간은 17~56%포인트입니다. 또 다른 연구는 장면 3개를 다뤘습니다. 낯선 사람끼리의 짝 대화, 대학 신입생 룸메이트, 성인 워크숍입니다. 사람들은 대화 상대가 자신을 얼마나 좋아했는지 계속 낮게 잡았습니다. 상대가 그 대화를 얼마나 즐겼는지도 낮게 잡았습니다. 연구자들은 이를 '호감 차이(라이킹 갭)'라고 불렀습니다. 대화 길이와 무관하게 나타났습니다. 룸메이트 사이에서는 몇 달간 유지됐습니다.",
+      "reason": "Verify previously unconfirmed values in primary footnote3 and results; clarify endpoint, participants, controls, per-session percentage-point CI denominators. Add study2 CI without implying randomized head-to-head causal comparison.",
+      "evidencequotes": [
+        "The average estimate made by the targets in this study (48%) was virtually identical to that made by the targets in the previous study who were wearing an embarrassing shirt (46%). The actual accuracy of the observers, in contrast, was dramatically different (8% vs. 23% in the present and previous studies, respectively).",
+        "We cannot specify the cause of this difference with certainty, but we strongly suspect that it was due to the (uninteresting) fact that the questionnaire we had observers complete in the present study was a more involving one than the one used earlier."
+      ]
+    },
+    {
+      "field": "비고",
+      "before": "모두 인원이 적은 실험실·캠퍼스 연구라 근거등급은 B입니다. 연구에서는 옷 입기와 낯선 사람과의 대화를 다뤘습니다. '동료들이 수군거린다'는 상황에 적용할 직접 증거는 없습니다. '회의에서 말을 틀렸다'는 상황도 마찬가지입니다. 이 숫자는 과대평가의 방향과 대략의 배수만 보여줍니다. 자신의 추정을 보정하는 계수로 쓰지는 마세요. 남의 평가가 전부 중요하지 않은 것은 아닙니다. 면접, 발표 심사, 인사고과, 건강검진은 실제 평가입니다. 이런 평가에는 준비할 만합니다. 일상에서 '모두가 나를 보고 있다'는 느낌은 줄여보세요. 자신이 남의 관심을 얼마나 과대평가하는지 살펴보세요.",
+      "after": "모두 인원이 적은 실험실·캠퍼스 연구라 근거등급은 B입니다. 연구에서는 옷 입기와 낯선 사람과의 대화를 다뤘습니다. '동료들이 수군거린다'는 상황에 적용할 직접 증거는 없습니다. '회의에서 말을 틀렸다'는 상황도 마찬가지입니다. 이 숫자는 과대평가의 방향과 대략의 배수만 보여줍니다. 자신의 추정을 보정하는 계수로 쓰지는 마세요. 남의 평가가 전부 중요하지 않은 것은 아닙니다. 면접, 발표 심사, 인사고과, 건강검진은 실제 평가입니다. 이런 평가에는 준비할 만합니다. 일상에서 '모두가 나를 보고 있다'는 느낌은 줄여보세요. 자신이 남의 관심을 얼마나 과대평가하는지 살펴보세요. 두 티셔츠 실험은 인물과 질문지가 달랐습니다. 두 배와 여섯 배의 차이가 옷에 대한 만족도 때문인지는 모릅니다. 실험 2의 본문 각주와 그림 2는 수치가 다르게 보입니다. 여기서는 본문 각주의 48%와 8%를 적었습니다. 46%를 반으로 줄이면 23%로 실제 평균과 같습니다. 따라서 반으로 줄여도 여전히 높다고 일반화할 수는 없습니다.",
+      "reason": "Retain all limits; distinguish experiment conditions, disclose figure/text appearance mismatch and text attribution, remove the half-still-high inference using 46/2=23.",
+      "evidencequotes": [
+        "The average estimate made by the targets in this study (48%) was virtually identical to that made by the targets in the previous study who were wearing an embarrassing shirt (46%). The actual accuracy of the observers, in contrast, was dramatically different (8% vs. 23% in the present and previous studies, respectively).",
+        "We cannot specify the cause of this difference with certainty, but we strongly suspect that it was due to the (uninteresting) fact that the questionnaire we had observers complete in the present study was a more involving one than the one used earlier."
+      ]
+    }
+  ],
+  "protected_fields": {
+    "cost_tag": "<!-- 成本标签: 钱=0 时间=少 毅力=些 收益=小 口径=时间 -->",
+    "evidence_grade": "B",
+    "source_unchanged": true
+  },
+  "doi_changes": {
+    "added": [],
+    "removed": [],
+    "reason": "Both original DOI citations retained."
+  },
+  "numerical_scope": {
+    "study1": "109 total =15 targets+64 observers+30 video controls; 46 and23 percentages, not personal risks; CI units percentage points, session-level prediction minus actual.",
+    "study2": "79=15 targets+64 observers; selected shirt, mixed university/AP high-school students. 48/8 and sixfold within study; image and questionnaires differed from study1. 40[21,59] points; excluding 2-observer session36[17,56].",
+    "OR_HR": "Not applicable; no odds/hazard/risk-ratio inference."
+  },
+  "source_conflicts": [
+    "Figure2 bar heights visually differ from footnote3 exact48/8; reader disclosure and explicit footnote attribution included. No exact alternative graph estimates invented."
+  ],
+  "unresolved_limitations": [
+    "Boothby full text and participant counts/effect sizes not independently checked; abstract directions/scope only.",
+    "No official publisher correction verified; Crossref metadata absence is not proof.",
+    "Figure2/text discrepancy cause unresolved.",
+    "No individual correction coefficient established."
+  ],
+  "incoming_anchor_review": "rg searched original embarrassment/title wording across repository; found own entry and harness historical snapshots. No separate incoming book title reference identified; independent exact-hash review still required.",
+  "approved_provenance": "No canonical approved field for this entry found. editorial-decisions easy revise.after retained verbatim; that reviewer substitute was not approval of original proposal.",
+  "sentence_measurements": [
+    {
+      "field": "title",
+      "text": "\"모두가 내 망신을 봤다\"고 느낄 때, 남들이 얼마나 봤을지 다시 따져보세요",
+      "len": 42
+    },
+    {
+      "field": "쉽게",
+      "text": "사람들은 남이 자신의 옷차림을 얼마나 알아봤는지 실제보다 높게 짐작했습니다.",
+      "len": 42
+    },
+    {
+      "field": "쉽게",
+      "text": "일상에서도 남의 관심을 과대평가하는지 살펴보세요.",
+      "len": 27
+    },
+    {
+      "field": "쉽게",
+      "text": "연구의 배수를 자신의 추정에 그대로 적용하지는 마세요.",
+      "len": 30
+    },
+    {
+      "field": "이득",
+      "text": "실험 1에는 코넬대 학부생 109명이 참여했습니다.",
+      "len": 28
+    },
+    {
+      "field": "이득",
+      "text": "티셔츠를 입은 사람 15명, 구경꾼 64명, 대조군 30명입니다.",
+      "len": 36
+    },
+    {
+      "field": "이득",
+      "text": "대조군은 같은 상황을 재현한 영상을 봤습니다.",
+      "len": 25
+    },
+    {
+      "field": "이득",
+      "text": "측정한 것은 티셔츠에 인쇄된 인물을 맞힌 구경꾼의 비율입니다.",
+      "len": 34
+    },
+    {
+      "field": "이득",
+      "text": "이 차이의 95% 신뢰구간은 9~38%포인트입니다.",
+      "len": 28
+    },
+    {
+      "field": "이득",
+      "text": "이 차이의 95% 신뢰구간은 11~43%포인트입니다.",
+      "len": 29
+    },
+    {
+      "field": "이득",
+      "text": "실험 2에는 학생 79명이 참여했습니다.",
+      "len": 22
+    },
+    {
+      "field": "이득",
+      "text": "대부분 코넬대 학부생이고 일부는 여름학기 고교생입니다.",
+      "len": 30
+    },
+    {
+      "field": "이득",
+      "text": "티셔츠를 입은 사람은 15명, 구경꾼은 64명입니다.",
+      "len": 29
+    },
+    {
+      "field": "이득",
+      "text": "회차별 차이의 평균은 40%포인트였습니다.",
+      "len": 23
+    },
+    {
+      "field": "이득",
+      "text": "95% 신뢰구간은 21~59%포인트입니다.",
+      "len": 23
+    },
+    {
+      "field": "이득",
+      "text": "구경꾼이 두 명뿐인 회차를 빼면 평균 36%포인트였습니다.",
+      "len": 32
+    },
+    {
+      "field": "이득",
+      "text": "95% 신뢰구간은 17~56%포인트입니다.",
+      "len": 23
+    },
+    {
+      "field": "비고",
+      "text": "두 티셔츠 실험은 인물과 질문지가 달랐습니다.",
+      "len": 25
+    },
+    {
+      "field": "비고",
+      "text": "두 배와 여섯 배의 차이가 옷에 대한 만족도 때문인지는 모릅니다.",
+      "len": 36
+    },
+    {
+      "field": "비고",
+      "text": "실험 2의 본문 각주와 그림 2는 수치가 다르게 보입니다.",
+      "len": 32
+    },
+    {
+      "field": "비고",
+      "text": "여기서는 본문 각주의 48%와 8%를 적었습니다.",
+      "len": 27
+    },
+    {
+      "field": "비고",
+      "text": "46%를 반으로 줄이면 23%로 실제 평균과 같습니다.",
+      "len": 30
+    },
+    {
+      "field": "비고",
+      "text": "따라서 반으로 줄여도 여전히 높다고 일반화할 수는 없습니다.",
+      "len": 33
+    }
+  ],
+  "easy_chars": 101,
+  "raw_provenance": [
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch03/_workspace/2026-10-18-021-b509/source-evidence/gilovich-crossref-live.json",
+      "sha256": "9ac79f8e78d56d03f8156bff37610abfd748c9680bf3c545c05640a16a279af2"
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch03/_workspace/2026-10-18-021-b509/source-evidence/spotlight-page5.png",
+      "sha256": "be7dccd9dd6a40bdf0c3527e59b78f6558a7aaa1b45805e41bb8d1161487f5d0"
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch03/_workspace/2026-10-18-021-b509/source-evidence/e1c99d55cff24d9b3083.metadata.json",
+      "sha256": "cb508ef7bdfa906d8f05beadd82db8574995c4883f4ab3d60fe76de2dc9a605c"
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch03/_workspace/2026-10-18-021-b509/source-evidence/e1c99d55cff24d9b3083.json",
+      "sha256": "5a8396094db30e48b281313755392202637ede20c08d43274cdbfae1e83b52b6"
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch03/_workspace/2026-10-18-021-b509/source-evidence/spotlight.txt",
+      "sha256": "c20556efa9c6e14f3c640c7edef4e9733cbdd477ee73dd8993de9e07a57e7697"
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch03/_workspace/2026-10-18-021-b509/source-evidence/spotlight-page3.png",
+      "sha256": "83570fb2e8c48c788011c619361e78ff3b83e7f84be463f7456f9535966bfded"
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch03/_workspace/2026-10-18-021-b509/source-evidence/spotlight.pdf",
+      "sha256": "e88a86ded4a1f9b3dc79de59e3bf79588b5ebd95885f36f1e3ec050a712df988"
+    }
+  ],
+  "quotation_note": "PDF line breaks/hyphenation and OCR letter spacing normalized; exact wording checked on rendered pages213/215 for quantitative quotes. Demographic text read in extracted primary PDF pp212/214."
+}

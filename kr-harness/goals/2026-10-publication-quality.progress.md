@@ -120,3 +120,20 @@
 - 제10절까지 순수 윤문 후보를 합성했다. 원래 입력·항목 스냅샷 667개 전부의 SHA를 재대조했고 불일치0이며, `root-input-integrity.json`에 절별 근거 해시를 보존했다. 라우트644 light/23 standard는 동일하다. 이 검사는 사실·출판 승인을 대신하지 않는다.
 - 근거 수정 대기를 줄이기 위해 A의 최대3 작업자를 순수 윤문1·근거 수정2로 전환했다. ROOT·A·독립 검토자2를 포함해7슬롯을 지킨다. 제2절은 초기42지적을 최신 수정안과 다시 대조하며, 최초 필수 목록 밖의 확정된 범위/분모 문제도 같은 원작성자 후속 큐에서 처리한다.
 - 체크포인트 `fcb923b`의 한국어판 검사([39135056198](https://github.com/seolcoding/HowToLiveBetter-KR/actions/runs/39135056198))와 전자책 빌드·EPUBCheck([39135056207](https://github.com/seolcoding/HowToLiveBetter-KR/actions/runs/39135056207))가 성공했다. PR Pages 단계는 skip이며 새 출판 개선본 배포 전이다.
+
+
+## 제2절 새 정식 검토 시작
+
+- 초기42지적을 최신 exactSHA/정직한 미확인 한계로 연결한 독립 closure를 받았다.41개 전체안·제20항 쉽게·제5/40항 쉽게 style·도입11span 및 DOI add4/drop0을 승인 지도대로 기계 합성했다. 원래순수후보/도입/모든이력은 보존했다.
+- 최종 길이 점검에서 제40항 비고 한문장을 추가 분리하는 동일원작성자→별도독립exact승인을 거쳤다. final-publication-candidate-r2.md SHA6185484257eabf869efb6f02760a2007f90a5a5f63f4b610b8035ba29e1b3b29,42항·쉽게120자/제목70자/일반문장50자 기준을 확인했다. 기존 audit/decisions와 통합/도입 승인 해시는 불변이다.
+- 현재공개본문을 baselineSHA guard로 교체하고 이전정식리뷰r7을 보존했다. gate2 --save --demote는 예상대로 오래된정식해시를 거부해 README🟨로 전환했다. machine block0/warn0/예외0, 시작CLI해시 e0db99cf8dc3918b22ced785fdf056f8272f5996ff80e2ce725e86fde38160bd. 새 격리 publication_final_02가42항 전체를 검토한다. 과거assemble/integrate로 이제 제2절을 덮어쓰지 않는다.
+- 새검토에서 도입 제35항 안내와 수정된본문 범위의 불일치를 찾아 같은원작성자에게 exactspan 후속안을 요청했다. 새정식승인 전이며 아직배포하지 않았다.
+- 현재34절의 전체 균형괄호 DOI/승인주석·항목수를 다시 대조해 missing/new/unused add/drop0, count34/34를 확인했다. root-doi-audit-ch02-integration.json은 해당검사의 원본해시 근거이며 사실승인을 뜻하지 않는다. 제6/9절의 초기candidate/편집manifest도 준비됐고 제3절 사실수정첫배치5안을 독립검토 대기한다.
+
+
+## 정식 검토 후 보강 큐
+
+- 제2절 첫 새 정식KR-FIT는 block0/warn20/삭제0, CLI d86b65f72379b541ebb4e039162b2c88ced964a481efa917dcd611dd56b429f9로 pass다. #35도입과 ROOT가 잘못 작성한 bmj.j4849 DOI사유 주석을 별도exact승인·현재hashguard로 고쳤고 새검토자가 다시읽었다. 이판정은r8에보존했다.
+- 현재2는아직promote하지않는다. 단순미확인한계와달리 바로고칠수있는 #3약효/12급여/21중재불확실성/32비유의성/33증상범위/40용어, 비용단정등을같은원작성자최소안으로보강해같은독립검토자가바뀐본문과새CLI를재확인한다. 기존본문/intro/DOI/후보/승인이력은보존하고baselineassemble/integrate를재실행하지않는다.
+- 제18절정식pass는현재본문해시에유효하지만,새길이점검에서1/2/3/5항일부문장50자초과(주로괄호법조항,5항쉽게54자)를발견해후속style큐에등록했다. 출처/숫자/예외를지우지않는sameauthor별도안→독립승인→현재hash보호적용→새리뷰를거쳐최종출판한다. 제1절유일초과는원래그대로보존한행안부직접인용이다.
+- 제17절까지초기원자료감사를완료했고제3절새원작성자배치의독립검토/후속수정을진행한다. 제6/9절candidate+editorialmanifest도초기필드검토대기다. 현재A최대4(pure1/source3)는독립슬롯1개예약하에임시배분이며,두독립슬롯재개전3으로돌린다.

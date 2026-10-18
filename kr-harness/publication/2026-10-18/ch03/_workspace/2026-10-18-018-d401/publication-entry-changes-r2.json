@@ -1,0 +1,315 @@
+{
+  "status": "unadopted_proposal",
+  "entry": 18,
+  "base": {
+    "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch03/_workspace/2026-10-18-018-d401/strict-entry.md",
+    "sha256": "4211d2ad0934824854ae7aa4d5c9e2f5473be9640de3997d344bf96606cb95ec"
+  },
+  "previous_immutable_files": {
+    "publication-entry-proposal.md": "8956b9efb26aac04ff4deb520c5c7182ab49491da2bf795ee6f3f08b3c2be831",
+    "publication-entry-changes.json": "fe6bff3f827a7c663f8935bcabfa779db1ce82a3fd58d081292555be74b82c54"
+  },
+  "backup_dir": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch03/_workspace/2026-10-18-018-d401/r2-immutable-backup",
+  "new_proposal": {
+    "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch03/_workspace/2026-10-18-018-d401/publication-entry-proposal-r2.md",
+    "sha256": "540852167a51a7c823a2474105cf6042427e962db288df7ff1a5ad4fd484dbb4"
+  },
+  "review_inputs": [
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch03/content-audit.md",
+      "sha256": "8fbab10d855470f5a010950bd112b74ad86c6a0486ccd213b35a30bf5448e130"
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch03/editorial-decisions.json",
+      "sha256": "e5732aa0f9a1ed6d5440ff43cfea2d1c36dcde8203147f014a4fbbdc7f886e5c"
+    }
+  ],
+  "changes": [
+    {
+      "field": "쉽게",
+      "before": "우울에는 빠르게 걷기와 조깅이 가장 잘 듣습니다. 운동 강도가 높을수록 효과가 큽니다. 제22절 제6항(기분이 나쁠 때는 걷거나 달리기)을 보세요. 밝은 빛은 계절성 우울에 효과가 큽니다. 계절과 무관한 우울에도 효과가 있습니다. 온라인 자가 인지행동 프로그램도 효과를 보입니다. 증상이 심할 때는 사람의 안내를 받는 편이 낫습니다. 막다른 생각이 들면 먼저 109에 전화하세요.",
+      "previous_proposal": "걷기·조깅은 대조집단보다 우울 증상을 중간 정도 줄였습니다. 다른 운동보다 가장 낫다고 단정하기는 어렵습니다. 운동 강도가 높을수록 효과가 큽니다. 제22절 제6항(기분이 나쁠 때는 걷거나 달리기)을 보세요. 치료용 밝은 빛을 쓰는 광선치료는 계절성 우울과 비계절성 우울에 효과를 보였습니다. 햇빛 쬐기의 효과를 확인한 연구는 아닙니다. 온라인 자가 인지행동 프로그램도 효과를 보입니다. 증상이 심할 때는 사람의 안내를 받는 편이 낫습니다. 막다른 생각이 들면 먼저 109에 전화하세요.",
+      "after": "걷기·조깅은 우울 증상을 중간 정도 줄였습니다. 다만 효과를 뒷받침하는 근거의 확실성은 낮습니다. 증상이 심하면 병원에 가세요. 죽고 싶은 생각이 들면 먼저 109에 전화하세요.",
+      "reason": "Propose canonical independent-review 99-character alternative; moderate symptom benefit and low certainty, with care/crisis scope.",
+      "evidence": [
+        {
+          "doi": "10.1136/bmj-2023-075847",
+          "url": "https://doi.org/10.1136/bmj-2023-075847",
+          "exact_primary_quote": "<h4>Objective</h4>To identify the optimal dose and modality of exercise for treating major depressive disorder, compared with psychotherapy, antidepressants, and control conditions.<h4>Design</h4>Systematic review and network meta-analysis.<h4>Methods</h4>Screening, data extraction, coding, and risk of bias assessment were performed independently and in duplicate. Bayesian arm based, multilevel network meta-analyses were performed for the primary analyses. Quality of the evidence for each arm was graded using the confidence in network meta-analysis (CINeMA) online tool.<h4>Data sources</h4>Cochrane Library, Medline, Embase, SPORTDiscus, and PsycINFO databases.<h4>Eligibility criteria for selecting studies</h4>Any randomised trial with exercise arms for participants meeting clinical cut-offs for major depression.<h4>Results</h4>218 unique studies with a total of 495 arms and 14 170 participants were included. Compared with active controls (eg, usual care, placebo tablet), moderate reductions in depression were found for walking or jogging (n=1210, κ=51, Hedges' g -0.62, 95% credible interval -0.80 to -0.45), yoga (n=1047, κ=33, g -0.55, -0.73 to -0.36), strength training (n=643, κ=22, g -0.49, -0.69 to -0.29), mixed aerobic exercises (n=1286, κ=51, g -0.43, -0.61 to -0.24), and tai chi or qigong (n=343, κ=12, g -0.42, -0.65 to -0.21). The effects of exercise were proportional to the intensity prescribed. Strength training and yoga appeared to be the most acceptable modalities. Results appeared robust to publication bias, but only one study met the Cochrane criteria for low risk of bias. As a result, confidence in accordance with CINeMA was low for walking or jogging and very low for other treatments.<h4>Conclusions</h4>Exercise is an effective treatment for depression, with walking or jogging, yoga, and strength training more effective than other exercises, particularly when intense. Yoga and strength training were well tolerated compared with other treatments. Exercise appeared equally effective for people with and without comorbidities and with different baseline levels of depression. To mitigate expectancy effects, future studies could aim to blind participants and staff. These forms of exercise could be considered alongside psychotherapy and antidepressants as core treatments for depression.<h4>Systematic review registration</h4>PROSPERO CRD42018118040.",
+          "actual_read_date_utc": "2026-10-18T14:36:09.130641+00:00",
+          "actual_read_method": "Python JSON read of exact DOI primary abstract in Europe PMC cached raw; not a live fetch",
+          "raw_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch03/_workspace/2026-10-18-018-d401/r2-primary-raw/8fedfea8d4d7d913e313.json",
+          "sha256": "50c4bca4823901e0d3b3f5c05c2c8eeb3021c6fd276cf349f39355a34ba1a740",
+          "cache_original_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/8fedfea8d4d7d913e313.json",
+          "original_request_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1136%2Fbmj-2023-075847%22&format=json&resultType=core&pageSize=10",
+          "original_fetched_at": "2026-10-18T20:50:21.525225+09:00",
+          "limits": "Abstract only for Golden and Karyotaki; no full-text claim."
+        },
+        {
+          "doi": "10.1176/appi.ajp.162.4.656",
+          "url": "https://doi.org/10.1176/appi.ajp.162.4.656",
+          "exact_primary_quote": "<h4>Objective</h4>The purpose of this study was to assess the evidence base for the efficacy of light therapy in treating mood disorders.<h4>Method</h4>The authors systematically searched PubMed (January 1975 to July 2003) to identify randomized, controlled trials of light therapy for mood disorders that fulfilled predefined criteria. These articles were abstracted, and data were synthesized by disease and intervention category.<h4>Results</h4>Only 13% of the studies met the inclusion criteria. Meta-analyses revealed that a significant reduction in depression symptom severity was associated with bright light treatment (eight studies, having an effect size of 0.84 and 95% confidence interval [CI] of 0.60 to 1.08) and dawn simulation in seasonal affective disorder (five studies; effect size=0.73, 95% CI=0.37 to 1.08) and with bright light treatment in nonseasonal depression (three studies; effect size=0.53, 95% CI=0.18 to 0.89). Bright light as an adjunct to antidepressant pharmacotherapy for nonseasonal depression was not effective (five studies; effect size=-0.01, 95% CI=-0.36 to 0.34).<h4>Conclusions</h4>Many reports of the efficacy of light therapy are not based on rigorous study designs. This analysis of randomized, controlled trials suggests that bright light treatment and dawn simulation for seasonal affective disorder and bright light for nonseasonal depression are efficacious, with effect sizes equivalent to those in most antidepressant pharmacotherapy trials. Adopting standard approaches to light therapy's specific issues (e.g., defining parameters of active versus placebo conditions) and incorporating rigorous designs (e.g., adequate group sizes, randomized assignment) are necessary to evaluate light therapy for mood disorders.",
+          "actual_read_date_utc": "2026-10-18T14:36:09.130892+00:00",
+          "actual_read_method": "Python JSON read of exact DOI primary abstract in Europe PMC cached raw; not a live fetch",
+          "raw_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch03/_workspace/2026-10-18-018-d401/r2-primary-raw/ef79188979a8dab92c22.json",
+          "sha256": "772fbd3c9b15d2876a0456bd4f53d5910c118562cc5799792ea1d764d29aeaaf",
+          "cache_original_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/ef79188979a8dab92c22.json",
+          "original_request_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1176%2Fappi.ajp.162.4.656%22&format=json&resultType=core&pageSize=10",
+          "original_fetched_at": "2026-10-18T20:50:21.690989+09:00",
+          "limits": "Abstract only for Golden and Karyotaki; no full-text claim."
+        },
+        {
+          "doi": "10.1001/jamapsychiatry.2020.4364",
+          "url": "https://doi.org/10.1001/jamapsychiatry.2020.4364",
+          "exact_primary_quote": "<h4>Importance</h4>Personalized treatment choices would increase the effectiveness of internet-based cognitive behavioral therapy (iCBT) for depression to the extent that patients differ in interventions that better suit them.<h4>Objective</h4>To provide personalized estimates of short-term and long-term relative efficacy of guided and unguided iCBT for depression using patient-level information.<h4>Data sources</h4>We searched PubMed, Embase, PsycInfo, and Cochrane Library to identify randomized clinical trials (RCTs) published up to January 1, 2019.<h4>Study selection</h4>Eligible RCTs were those comparing guided or unguided iCBT against each other or against any control intervention in individuals with depression. Available individual patient data (IPD) was collected from all eligible studies. Depression symptom severity was assessed after treatment, 6 months, and 12 months after randomization.<h4>Data extraction and synthesis</h4>We conducted a systematic review and IPD network meta-analysis and estimated relative treatment effect sizes across different patient characteristics through IPD network meta-regression.<h4>Main outcomes and measures</h4>Patient Health Questionnaire-9 (PHQ-9) scores.<h4>Results</h4>Of 42 eligible RCTs, 39 studies comprising 9751 participants with depression contributed IPD to the IPD network meta-analysis, of which 8107 IPD were synthesized. Overall, both guided and unguided iCBT were associated with more effectiveness as measured by PHQ-9 scores than control treatments over the short term and the long term. Guided iCBT was associated with more effectiveness than unguided iCBT (mean difference [MD] in posttreatment PHQ-9 scores, -0.8; 95% CI, -1.4 to -0.2), but we found no evidence of a difference at 6 or 12 months following randomization. Baseline depression was found to be the most important modifier of the relative association for efficacy of guided vs unguided iCBT. Differences between unguided and guided iCBT in people with baseline symptoms of subthreshold depression (PHQ-9 scores 5-9) were small, while guided iCBT was associated with overall better outcomes in patients with baseline PHQ-9 greater than 9.<h4>Conclusions and relevance</h4>In this network meta-analysis with IPD, guided iCBT was associated with more effectiveness than unguided iCBT for individuals with depression, benefits were more substantial in individuals with moderate to severe depression. Unguided iCBT was associated with similar effectiveness among individuals with symptoms of mild/subthreshold depression. Personalized treatment selection is entirely possible and necessary to ensure the best allocation of treatment resources for depression.",
+          "actual_read_date_utc": "2026-10-18T14:36:09.131398+00:00",
+          "actual_read_method": "Python JSON read of exact DOI primary abstract in Europe PMC cached raw; not a live fetch",
+          "raw_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch03/_workspace/2026-10-18-018-d401/r2-primary-raw/933dfda185c200e36992.json",
+          "sha256": "1a4399cfb87aa250c96d482aea20b30a94b1f3140d9730510a5c4457570970f4",
+          "cache_original_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/933dfda185c200e36992.json",
+          "original_request_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1001%2Fjamapsychiatry.2020.4364%22&format=json&resultType=core&pageSize=10",
+          "original_fetched_at": "2026-10-18T20:50:21.864778+09:00",
+          "limits": "Abstract only for Golden and Karyotaki; no full-text claim."
+        },
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10870815/fullTextXML",
+          "exact_primary_quotes": [
+            "Supplementary file section S7 presents a forest plot of Hedges’ g values for each study. Figure 4 shows the predicted effects of each treatment compared with active controls. Compared with active controls, large reductions in depression were found for dance (n=107, κ=5, Hedges’ g −0.96, 95% credible interval −1.36 to −0.56) and moderate reductions for walking or jogging (n=1210, κ=51, g −0.63, −0.80 to −0.46), yoga (n=1047, κ=33, g=−0.55, −0.73 to −0.36), strength training (n=643, κ=22, g=−0.49, −0.69 to −0.29), mixed aerobic exercises (n=1286, κ=51, g=−0.43, −0.61 to −0.25), and tai chi or qigong (n=343, κ=12, g=−0.42, −0.65 to −0.21). Moderate, clinically meaningful effects were also present when exercise was combined with SSRIs (n=268, κ=11, g=−0.55, −0.86 to −0.23) or aerobic exercise was combined with psychotherapy (n=404, κ=15, g=−0.54, −0.76 to −0.32). All these treatments were significantly stronger than the standardised minimum clinically important difference compared with active control (g=−0.20), equating to an absolute g value of −1.16. Dance, exercise combined with SSRIs, and walking or jogging were the treatments most likely to perform best when modelling the surface under the cumulative ranking curve (fig 4). For acceptability, the odds of participants dropping out of the study were lower for strength training (n=247, direct evidence κ=6, odds ratio 0.55, 95% credible interval 0.31 to 0.99) and yoga (n=264, κ=5, 0.57, 0.35 to 0.94) than for active control. The rate of dropouts was not significantly different from active control in any other arms (see supplementary file, section S8).",
+            "Despite the large number of studies in the network, confidence in the effects were low (fig 5). This was largely due to the high within study bias described in the risk of bias summary plot. Reporting bias was also difficult to robustly assess because direct comparison with active control was often only provided in fewer than 10 studies. Many studies focused on one sex only, older adults, or those with comorbidities, so most arms had some concerns about indirect comparisons. Credible intervals were seldom wide enough to change decision making, so concerns about imprecision were few. Heterogeneity did plausibly change some conclusions around clinical significance. Few studies showed problematic incoherence, meaning direct and indirect evidence usually agreed. Overall, walking or jogging had low confidence, with other modalities being very low."
+          ],
+          "actual_read_date_utc": "2026-10-18T14:36:09.137654+00:00",
+          "actual_read_method": "Python ElementTree parsed relevant primary full-text results and certainty paragraphs from cached XML, reread in this r2 turn",
+          "raw_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch03/_workspace/2026-10-18-018-d401/r2-primary-raw/PMC10870815.xml",
+          "sha256": "180d73b3d6c5b1ed2f46d8f373820aacbcf6030988e669cb2b8a84cec38a5f59",
+          "cache_original_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/pmc-fulltext/PMC10870815.xml",
+          "limits": "Abstract/body estimates conflict; retain abstract estimate explicitly and disclose body values; no silent correction."
+        }
+      ]
+    },
+    {
+      "field": "이득",
+      "before": "무작위 대조시험 218건을 합친 망 메타분석입니다. 참가자는 모두 14,170명입니다. 대조집단은 다른 활동을 하는 사람들이었습니다. 걷기·조깅의 우울 효과 크기는 대조집단과 비교했습니다. g = -0.62(95% 신뢰구간 -0.80 ~ -0.45)입니다. 요가는 -0.55, 근력운동은 -0.49로 나타났습니다. 운동 강도가 높을수록 효과가 컸습니다. 광선치료 연구들을 합친 효과 크기도 보고됐습니다. 계절성 우울은 0.84(0.60~1.08)입니다. 비계절성 우울은 0.53(0.18~0.89)로 나타났습니다. 인터넷 인지행동치료는 온라인 자가 프로그램입니다. 또 다른 분석에서는 이 치료의 환자별 자료를 합쳤습니다. 안내 유무와 무관하게 대조집단보다 결과가 나았습니다. PHQ-9 9점 초과이면 안내가 있는 쪽이 더 나았습니다. 109는 24시간 자살예방상담전화입니다. 2024년 1월 1일부터 129와 1393에서 받던 자살예방 상담을 109로 통합했습니다. 정신건강 상담은 1577-0199에서도 24시간 받습니다.",
+      "previous_proposal": "무작위 대조시험 218건을 합친 망 메타분석입니다. 참가자는 모두 14,170명입니다. 대조집단은 통상 치료나 위약 등을 받았습니다. 걷기·조깅의 우울 효과 크기는 대조집단과 비교했습니다. g = -0.62(95% 신용구간 -0.80 ~ -0.45)입니다. 요가는 -0.55, 근력운동은 -0.49로 나타났습니다. 운동 강도가 높을수록 효과가 컸습니다. 치료용 밝은 빛을 쓰는 광선치료 연구들을 합친 효과 크기도 보고됐습니다. 계절성 우울은 0.84(0.60~1.08)입니다. 비계절성 우울은 0.53(0.18~0.89)로 나타났습니다. 다만 비계절성 우울에서 항우울제에 광선치료를 더한 효과는 확인되지 않았습니다. 인터넷 인지행동치료는 온라인 자가 프로그램입니다. 또 다른 분석에서는 이 치료의 환자별 자료를 합쳤습니다. 안내 유무와 무관하게 대조집단보다 결과가 나았습니다. PHQ-9 9점 초과이면 안내가 있는 쪽이 더 나았습니다. 109는 24시간 자살예방상담전화입니다. 2024년 1월 1일부터 129와 1393에서 받던 자살예방 상담을 109로 통합했습니다. 정신건강 상담은 1577-0199에서도 24시간 받습니다.",
+      "after": "무작위 대조시험 218건을 합친 망 메타분석입니다. 참가자는 모두 14,170명입니다. 대조집단은 통상 치료나 위약 등을 받았습니다. 걷기·조깅의 우울 효과 크기는 대조집단과 비교했습니다. 초록의 g = -0.62(95% 신용구간 -0.80 ~ -0.45)입니다. 요가는 -0.55, 근력운동은 -0.49로 나타났습니다. 운동 강도가 높을수록 효과가 컸습니다. 치료용 밝은 빛을 쓰는 광선치료 연구들을 합친 효과 크기도 보고됐습니다. 계절성 우울은 0.84(0.60~1.08)입니다. 비계절성 우울은 0.53(0.18~0.89)로 나타났습니다. 다만 비계절성 우울에서 항우울제에 광선치료를 더한 효과는 확인되지 않았습니다. 인터넷 인지행동치료는 구조화된 온라인 치료 프로그램입니다. 또 다른 분석에서는 이 치료의 환자별 자료를 합쳤습니다. 안내 유무와 무관하게 대조집단보다 결과가 나았습니다. 치료 직후에는 안내가 있는 쪽이 더 나았습니다. PHQ-9 9점 초과인 사람에게 이득이 더 컸습니다. 6개월과 12개월에는 안내 유무의 차이 근거가 없었습니다. 109는 24시간 자살예방상담전화입니다. 2024년 1월 1일부터 129와 1393에서 받던 자살예방 상담을 109로 통합했습니다. 정신건강 상담은 1577-0199에서도 24시간 받습니다.",
+      "reason": "Retain independently accepted comparator, credible interval, clinical light and adjunct exception; distinguish structured iCBT and short-term guided advantage from absent 6/12-month evidence. Explicit abstract estimate attribution.",
+      "evidence": [
+        {
+          "doi": "10.1136/bmj-2023-075847",
+          "url": "https://doi.org/10.1136/bmj-2023-075847",
+          "exact_primary_quote": "<h4>Objective</h4>To identify the optimal dose and modality of exercise for treating major depressive disorder, compared with psychotherapy, antidepressants, and control conditions.<h4>Design</h4>Systematic review and network meta-analysis.<h4>Methods</h4>Screening, data extraction, coding, and risk of bias assessment were performed independently and in duplicate. Bayesian arm based, multilevel network meta-analyses were performed for the primary analyses. Quality of the evidence for each arm was graded using the confidence in network meta-analysis (CINeMA) online tool.<h4>Data sources</h4>Cochrane Library, Medline, Embase, SPORTDiscus, and PsycINFO databases.<h4>Eligibility criteria for selecting studies</h4>Any randomised trial with exercise arms for participants meeting clinical cut-offs for major depression.<h4>Results</h4>218 unique studies with a total of 495 arms and 14 170 participants were included. Compared with active controls (eg, usual care, placebo tablet), moderate reductions in depression were found for walking or jogging (n=1210, κ=51, Hedges' g -0.62, 95% credible interval -0.80 to -0.45), yoga (n=1047, κ=33, g -0.55, -0.73 to -0.36), strength training (n=643, κ=22, g -0.49, -0.69 to -0.29), mixed aerobic exercises (n=1286, κ=51, g -0.43, -0.61 to -0.24), and tai chi or qigong (n=343, κ=12, g -0.42, -0.65 to -0.21). The effects of exercise were proportional to the intensity prescribed. Strength training and yoga appeared to be the most acceptable modalities. Results appeared robust to publication bias, but only one study met the Cochrane criteria for low risk of bias. As a result, confidence in accordance with CINeMA was low for walking or jogging and very low for other treatments.<h4>Conclusions</h4>Exercise is an effective treatment for depression, with walking or jogging, yoga, and strength training more effective than other exercises, particularly when intense. Yoga and strength training were well tolerated compared with other treatments. Exercise appeared equally effective for people with and without comorbidities and with different baseline levels of depression. To mitigate expectancy effects, future studies could aim to blind participants and staff. These forms of exercise could be considered alongside psychotherapy and antidepressants as core treatments for depression.<h4>Systematic review registration</h4>PROSPERO CRD42018118040.",
+          "actual_read_date_utc": "2026-10-18T14:36:09.130641+00:00",
+          "actual_read_method": "Python JSON read of exact DOI primary abstract in Europe PMC cached raw; not a live fetch",
+          "raw_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch03/_workspace/2026-10-18-018-d401/r2-primary-raw/8fedfea8d4d7d913e313.json",
+          "sha256": "50c4bca4823901e0d3b3f5c05c2c8eeb3021c6fd276cf349f39355a34ba1a740",
+          "cache_original_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/8fedfea8d4d7d913e313.json",
+          "original_request_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1136%2Fbmj-2023-075847%22&format=json&resultType=core&pageSize=10",
+          "original_fetched_at": "2026-10-18T20:50:21.525225+09:00",
+          "limits": "Abstract only for Golden and Karyotaki; no full-text claim."
+        },
+        {
+          "doi": "10.1176/appi.ajp.162.4.656",
+          "url": "https://doi.org/10.1176/appi.ajp.162.4.656",
+          "exact_primary_quote": "<h4>Objective</h4>The purpose of this study was to assess the evidence base for the efficacy of light therapy in treating mood disorders.<h4>Method</h4>The authors systematically searched PubMed (January 1975 to July 2003) to identify randomized, controlled trials of light therapy for mood disorders that fulfilled predefined criteria. These articles were abstracted, and data were synthesized by disease and intervention category.<h4>Results</h4>Only 13% of the studies met the inclusion criteria. Meta-analyses revealed that a significant reduction in depression symptom severity was associated with bright light treatment (eight studies, having an effect size of 0.84 and 95% confidence interval [CI] of 0.60 to 1.08) and dawn simulation in seasonal affective disorder (five studies; effect size=0.73, 95% CI=0.37 to 1.08) and with bright light treatment in nonseasonal depression (three studies; effect size=0.53, 95% CI=0.18 to 0.89). Bright light as an adjunct to antidepressant pharmacotherapy for nonseasonal depression was not effective (five studies; effect size=-0.01, 95% CI=-0.36 to 0.34).<h4>Conclusions</h4>Many reports of the efficacy of light therapy are not based on rigorous study designs. This analysis of randomized, controlled trials suggests that bright light treatment and dawn simulation for seasonal affective disorder and bright light for nonseasonal depression are efficacious, with effect sizes equivalent to those in most antidepressant pharmacotherapy trials. Adopting standard approaches to light therapy's specific issues (e.g., defining parameters of active versus placebo conditions) and incorporating rigorous designs (e.g., adequate group sizes, randomized assignment) are necessary to evaluate light therapy for mood disorders.",
+          "actual_read_date_utc": "2026-10-18T14:36:09.130892+00:00",
+          "actual_read_method": "Python JSON read of exact DOI primary abstract in Europe PMC cached raw; not a live fetch",
+          "raw_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch03/_workspace/2026-10-18-018-d401/r2-primary-raw/ef79188979a8dab92c22.json",
+          "sha256": "772fbd3c9b15d2876a0456bd4f53d5910c118562cc5799792ea1d764d29aeaaf",
+          "cache_original_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/ef79188979a8dab92c22.json",
+          "original_request_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1176%2Fappi.ajp.162.4.656%22&format=json&resultType=core&pageSize=10",
+          "original_fetched_at": "2026-10-18T20:50:21.690989+09:00",
+          "limits": "Abstract only for Golden and Karyotaki; no full-text claim."
+        },
+        {
+          "doi": "10.1001/jamapsychiatry.2020.4364",
+          "url": "https://doi.org/10.1001/jamapsychiatry.2020.4364",
+          "exact_primary_quote": "<h4>Importance</h4>Personalized treatment choices would increase the effectiveness of internet-based cognitive behavioral therapy (iCBT) for depression to the extent that patients differ in interventions that better suit them.<h4>Objective</h4>To provide personalized estimates of short-term and long-term relative efficacy of guided and unguided iCBT for depression using patient-level information.<h4>Data sources</h4>We searched PubMed, Embase, PsycInfo, and Cochrane Library to identify randomized clinical trials (RCTs) published up to January 1, 2019.<h4>Study selection</h4>Eligible RCTs were those comparing guided or unguided iCBT against each other or against any control intervention in individuals with depression. Available individual patient data (IPD) was collected from all eligible studies. Depression symptom severity was assessed after treatment, 6 months, and 12 months after randomization.<h4>Data extraction and synthesis</h4>We conducted a systematic review and IPD network meta-analysis and estimated relative treatment effect sizes across different patient characteristics through IPD network meta-regression.<h4>Main outcomes and measures</h4>Patient Health Questionnaire-9 (PHQ-9) scores.<h4>Results</h4>Of 42 eligible RCTs, 39 studies comprising 9751 participants with depression contributed IPD to the IPD network meta-analysis, of which 8107 IPD were synthesized. Overall, both guided and unguided iCBT were associated with more effectiveness as measured by PHQ-9 scores than control treatments over the short term and the long term. Guided iCBT was associated with more effectiveness than unguided iCBT (mean difference [MD] in posttreatment PHQ-9 scores, -0.8; 95% CI, -1.4 to -0.2), but we found no evidence of a difference at 6 or 12 months following randomization. Baseline depression was found to be the most important modifier of the relative association for efficacy of guided vs unguided iCBT. Differences between unguided and guided iCBT in people with baseline symptoms of subthreshold depression (PHQ-9 scores 5-9) were small, while guided iCBT was associated with overall better outcomes in patients with baseline PHQ-9 greater than 9.<h4>Conclusions and relevance</h4>In this network meta-analysis with IPD, guided iCBT was associated with more effectiveness than unguided iCBT for individuals with depression, benefits were more substantial in individuals with moderate to severe depression. Unguided iCBT was associated with similar effectiveness among individuals with symptoms of mild/subthreshold depression. Personalized treatment selection is entirely possible and necessary to ensure the best allocation of treatment resources for depression.",
+          "actual_read_date_utc": "2026-10-18T14:36:09.131398+00:00",
+          "actual_read_method": "Python JSON read of exact DOI primary abstract in Europe PMC cached raw; not a live fetch",
+          "raw_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch03/_workspace/2026-10-18-018-d401/r2-primary-raw/933dfda185c200e36992.json",
+          "sha256": "1a4399cfb87aa250c96d482aea20b30a94b1f3140d9730510a5c4457570970f4",
+          "cache_original_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/933dfda185c200e36992.json",
+          "original_request_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1001%2Fjamapsychiatry.2020.4364%22&format=json&resultType=core&pageSize=10",
+          "original_fetched_at": "2026-10-18T20:50:21.864778+09:00",
+          "limits": "Abstract only for Golden and Karyotaki; no full-text claim."
+        },
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10870815/fullTextXML",
+          "exact_primary_quotes": [
+            "Supplementary file section S7 presents a forest plot of Hedges’ g values for each study. Figure 4 shows the predicted effects of each treatment compared with active controls. Compared with active controls, large reductions in depression were found for dance (n=107, κ=5, Hedges’ g −0.96, 95% credible interval −1.36 to −0.56) and moderate reductions for walking or jogging (n=1210, κ=51, g −0.63, −0.80 to −0.46), yoga (n=1047, κ=33, g=−0.55, −0.73 to −0.36), strength training (n=643, κ=22, g=−0.49, −0.69 to −0.29), mixed aerobic exercises (n=1286, κ=51, g=−0.43, −0.61 to −0.25), and tai chi or qigong (n=343, κ=12, g=−0.42, −0.65 to −0.21). Moderate, clinically meaningful effects were also present when exercise was combined with SSRIs (n=268, κ=11, g=−0.55, −0.86 to −0.23) or aerobic exercise was combined with psychotherapy (n=404, κ=15, g=−0.54, −0.76 to −0.32). All these treatments were significantly stronger than the standardised minimum clinically important difference compared with active control (g=−0.20), equating to an absolute g value of −1.16. Dance, exercise combined with SSRIs, and walking or jogging were the treatments most likely to perform best when modelling the surface under the cumulative ranking curve (fig 4). For acceptability, the odds of participants dropping out of the study were lower for strength training (n=247, direct evidence κ=6, odds ratio 0.55, 95% credible interval 0.31 to 0.99) and yoga (n=264, κ=5, 0.57, 0.35 to 0.94) than for active control. The rate of dropouts was not significantly different from active control in any other arms (see supplementary file, section S8).",
+            "Despite the large number of studies in the network, confidence in the effects were low (fig 5). This was largely due to the high within study bias described in the risk of bias summary plot. Reporting bias was also difficult to robustly assess because direct comparison with active control was often only provided in fewer than 10 studies. Many studies focused on one sex only, older adults, or those with comorbidities, so most arms had some concerns about indirect comparisons. Credible intervals were seldom wide enough to change decision making, so concerns about imprecision were few. Heterogeneity did plausibly change some conclusions around clinical significance. Few studies showed problematic incoherence, meaning direct and indirect evidence usually agreed. Overall, walking or jogging had low confidence, with other modalities being very low."
+          ],
+          "actual_read_date_utc": "2026-10-18T14:36:09.137654+00:00",
+          "actual_read_method": "Python ElementTree parsed relevant primary full-text results and certainty paragraphs from cached XML, reread in this r2 turn",
+          "raw_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch03/_workspace/2026-10-18-018-d401/r2-primary-raw/PMC10870815.xml",
+          "sha256": "180d73b3d6c5b1ed2f46d8f373820aacbcf6030988e669cb2b8a84cec38a5f59",
+          "cache_original_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/pmc-fulltext/PMC10870815.xml",
+          "limits": "Abstract/body estimates conflict; retain abstract estimate explicitly and disclose body values; no silent correction."
+        }
+      ]
+    },
+    {
+      "field": "비고",
+      "before": "이 방법들은 가볍거나 중간 정도인 우울의 보조 수단입니다. 우울이 중간 정도보다 심하면 병원에 가세요. 죽고 싶은 생각이 있을 때도 병원에 가세요. 먼저 109에 전화하세요. 자살 위험을 줄이는 방법은 제1절(너무 일찍 죽지 않기)에서 다룹니다. 운동 시험은 대부분 참가자가 적습니다. 약 시험과 달리 누가 운동하는지도 감출 수 없습니다. 광선치료 연구는 2003년까지의 자료를 다뤘습니다. 참가자도 적습니다. '제때 자기'와 '누군가에게 말하기'는 지은이의 경험입니다. 별도 문헌은 없습니다. 우울한 사람에게 '움직여라'는 강요로 들리지 않게 하세요. 10분만 걸어도 운동입니다.",
+      "previous_proposal": "이 방법들은 가볍거나 중간 정도인 우울의 보조 수단입니다. 우울이 중간 정도보다 심하면 병원에 가세요. 죽고 싶은 생각이 있을 때도 병원에 가세요. 먼저 109에 전화하세요. 자살 위험을 줄이는 방법은 제1절(너무 일찍 죽지 않기)에서 다룹니다. 운동 시험은 대부분 참가자가 적습니다. 약 시험과 달리 누가 운동하는지도 감출 수 없습니다. 걷기·조깅의 효과에 대한 근거 확실성은 낮았고 다른 운동은 매우 낮았습니다. 광선치료 연구는 햇빛 쬐기를 평가한 자료가 아닙니다. 광선치료 연구는 2003년까지의 자료를 다뤘습니다. 참가자도 적습니다. '제때 자기'와 '누군가에게 말하기'는 지은이의 경험입니다. 별도 문헌은 없습니다. 우울한 사람에게 '움직여라'는 강요로 들리지 않게 하세요. 10분만 걸어도 운동입니다.",
+      "after": "이 방법들은 가볍거나 중간 정도인 우울의 보조 수단입니다. 우울이 중간 정도보다 심하면 병원에 가세요. 죽고 싶은 생각이 있을 때도 병원에 가세요. 먼저 109에 전화하세요. 자살 위험을 줄이는 방법은 제1절(너무 일찍 죽지 않기)에서 다룹니다. 운동 시험은 대부분 참가자가 적습니다. 약 시험과 달리 누가 운동하는지도 감출 수 없습니다. 걷기·조깅의 효과에 대한 근거 확실성은 낮았고 다른 운동은 매우 낮았습니다. 광선치료 연구는 햇빛 쬐기를 평가한 자료가 아닙니다. 광선치료 연구는 2003년까지의 자료를 다뤘습니다. 참가자도 적습니다. '제때 자기'와 '누군가에게 말하기'는 지은이의 경험입니다. 별도 문헌은 없습니다. 우울한 사람에게 '움직여라'는 강요로 들리지 않게 하세요. 10분만 걸어도 운동입니다. 걷기·조깅의 효과 크기는 초록과 본문 수치가 다릅니다. 본문은 g = -0.63(-0.80 ~ -0.46)입니다. 초록의 수치를 유지했으며 판본 확인이 필요합니다.",
+      "reason": "Retain independently accepted low certainty and sunlight limitation; transparently disclose abstract/body estimate conflict.",
+      "evidence": [
+        {
+          "doi": "10.1136/bmj-2023-075847",
+          "url": "https://doi.org/10.1136/bmj-2023-075847",
+          "exact_primary_quote": "<h4>Objective</h4>To identify the optimal dose and modality of exercise for treating major depressive disorder, compared with psychotherapy, antidepressants, and control conditions.<h4>Design</h4>Systematic review and network meta-analysis.<h4>Methods</h4>Screening, data extraction, coding, and risk of bias assessment were performed independently and in duplicate. Bayesian arm based, multilevel network meta-analyses were performed for the primary analyses. Quality of the evidence for each arm was graded using the confidence in network meta-analysis (CINeMA) online tool.<h4>Data sources</h4>Cochrane Library, Medline, Embase, SPORTDiscus, and PsycINFO databases.<h4>Eligibility criteria for selecting studies</h4>Any randomised trial with exercise arms for participants meeting clinical cut-offs for major depression.<h4>Results</h4>218 unique studies with a total of 495 arms and 14 170 participants were included. Compared with active controls (eg, usual care, placebo tablet), moderate reductions in depression were found for walking or jogging (n=1210, κ=51, Hedges' g -0.62, 95% credible interval -0.80 to -0.45), yoga (n=1047, κ=33, g -0.55, -0.73 to -0.36), strength training (n=643, κ=22, g -0.49, -0.69 to -0.29), mixed aerobic exercises (n=1286, κ=51, g -0.43, -0.61 to -0.24), and tai chi or qigong (n=343, κ=12, g -0.42, -0.65 to -0.21). The effects of exercise were proportional to the intensity prescribed. Strength training and yoga appeared to be the most acceptable modalities. Results appeared robust to publication bias, but only one study met the Cochrane criteria for low risk of bias. As a result, confidence in accordance with CINeMA was low for walking or jogging and very low for other treatments.<h4>Conclusions</h4>Exercise is an effective treatment for depression, with walking or jogging, yoga, and strength training more effective than other exercises, particularly when intense. Yoga and strength training were well tolerated compared with other treatments. Exercise appeared equally effective for people with and without comorbidities and with different baseline levels of depression. To mitigate expectancy effects, future studies could aim to blind participants and staff. These forms of exercise could be considered alongside psychotherapy and antidepressants as core treatments for depression.<h4>Systematic review registration</h4>PROSPERO CRD42018118040.",
+          "actual_read_date_utc": "2026-10-18T14:36:09.130641+00:00",
+          "actual_read_method": "Python JSON read of exact DOI primary abstract in Europe PMC cached raw; not a live fetch",
+          "raw_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch03/_workspace/2026-10-18-018-d401/r2-primary-raw/8fedfea8d4d7d913e313.json",
+          "sha256": "50c4bca4823901e0d3b3f5c05c2c8eeb3021c6fd276cf349f39355a34ba1a740",
+          "cache_original_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/8fedfea8d4d7d913e313.json",
+          "original_request_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1136%2Fbmj-2023-075847%22&format=json&resultType=core&pageSize=10",
+          "original_fetched_at": "2026-10-18T20:50:21.525225+09:00",
+          "limits": "Abstract only for Golden and Karyotaki; no full-text claim."
+        },
+        {
+          "doi": "10.1176/appi.ajp.162.4.656",
+          "url": "https://doi.org/10.1176/appi.ajp.162.4.656",
+          "exact_primary_quote": "<h4>Objective</h4>The purpose of this study was to assess the evidence base for the efficacy of light therapy in treating mood disorders.<h4>Method</h4>The authors systematically searched PubMed (January 1975 to July 2003) to identify randomized, controlled trials of light therapy for mood disorders that fulfilled predefined criteria. These articles were abstracted, and data were synthesized by disease and intervention category.<h4>Results</h4>Only 13% of the studies met the inclusion criteria. Meta-analyses revealed that a significant reduction in depression symptom severity was associated with bright light treatment (eight studies, having an effect size of 0.84 and 95% confidence interval [CI] of 0.60 to 1.08) and dawn simulation in seasonal affective disorder (five studies; effect size=0.73, 95% CI=0.37 to 1.08) and with bright light treatment in nonseasonal depression (three studies; effect size=0.53, 95% CI=0.18 to 0.89). Bright light as an adjunct to antidepressant pharmacotherapy for nonseasonal depression was not effective (five studies; effect size=-0.01, 95% CI=-0.36 to 0.34).<h4>Conclusions</h4>Many reports of the efficacy of light therapy are not based on rigorous study designs. This analysis of randomized, controlled trials suggests that bright light treatment and dawn simulation for seasonal affective disorder and bright light for nonseasonal depression are efficacious, with effect sizes equivalent to those in most antidepressant pharmacotherapy trials. Adopting standard approaches to light therapy's specific issues (e.g., defining parameters of active versus placebo conditions) and incorporating rigorous designs (e.g., adequate group sizes, randomized assignment) are necessary to evaluate light therapy for mood disorders.",
+          "actual_read_date_utc": "2026-10-18T14:36:09.130892+00:00",
+          "actual_read_method": "Python JSON read of exact DOI primary abstract in Europe PMC cached raw; not a live fetch",
+          "raw_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch03/_workspace/2026-10-18-018-d401/r2-primary-raw/ef79188979a8dab92c22.json",
+          "sha256": "772fbd3c9b15d2876a0456bd4f53d5910c118562cc5799792ea1d764d29aeaaf",
+          "cache_original_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/ef79188979a8dab92c22.json",
+          "original_request_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1176%2Fappi.ajp.162.4.656%22&format=json&resultType=core&pageSize=10",
+          "original_fetched_at": "2026-10-18T20:50:21.690989+09:00",
+          "limits": "Abstract only for Golden and Karyotaki; no full-text claim."
+        },
+        {
+          "doi": "10.1001/jamapsychiatry.2020.4364",
+          "url": "https://doi.org/10.1001/jamapsychiatry.2020.4364",
+          "exact_primary_quote": "<h4>Importance</h4>Personalized treatment choices would increase the effectiveness of internet-based cognitive behavioral therapy (iCBT) for depression to the extent that patients differ in interventions that better suit them.<h4>Objective</h4>To provide personalized estimates of short-term and long-term relative efficacy of guided and unguided iCBT for depression using patient-level information.<h4>Data sources</h4>We searched PubMed, Embase, PsycInfo, and Cochrane Library to identify randomized clinical trials (RCTs) published up to January 1, 2019.<h4>Study selection</h4>Eligible RCTs were those comparing guided or unguided iCBT against each other or against any control intervention in individuals with depression. Available individual patient data (IPD) was collected from all eligible studies. Depression symptom severity was assessed after treatment, 6 months, and 12 months after randomization.<h4>Data extraction and synthesis</h4>We conducted a systematic review and IPD network meta-analysis and estimated relative treatment effect sizes across different patient characteristics through IPD network meta-regression.<h4>Main outcomes and measures</h4>Patient Health Questionnaire-9 (PHQ-9) scores.<h4>Results</h4>Of 42 eligible RCTs, 39 studies comprising 9751 participants with depression contributed IPD to the IPD network meta-analysis, of which 8107 IPD were synthesized. Overall, both guided and unguided iCBT were associated with more effectiveness as measured by PHQ-9 scores than control treatments over the short term and the long term. Guided iCBT was associated with more effectiveness than unguided iCBT (mean difference [MD] in posttreatment PHQ-9 scores, -0.8; 95% CI, -1.4 to -0.2), but we found no evidence of a difference at 6 or 12 months following randomization. Baseline depression was found to be the most important modifier of the relative association for efficacy of guided vs unguided iCBT. Differences between unguided and guided iCBT in people with baseline symptoms of subthreshold depression (PHQ-9 scores 5-9) were small, while guided iCBT was associated with overall better outcomes in patients with baseline PHQ-9 greater than 9.<h4>Conclusions and relevance</h4>In this network meta-analysis with IPD, guided iCBT was associated with more effectiveness than unguided iCBT for individuals with depression, benefits were more substantial in individuals with moderate to severe depression. Unguided iCBT was associated with similar effectiveness among individuals with symptoms of mild/subthreshold depression. Personalized treatment selection is entirely possible and necessary to ensure the best allocation of treatment resources for depression.",
+          "actual_read_date_utc": "2026-10-18T14:36:09.131398+00:00",
+          "actual_read_method": "Python JSON read of exact DOI primary abstract in Europe PMC cached raw; not a live fetch",
+          "raw_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch03/_workspace/2026-10-18-018-d401/r2-primary-raw/933dfda185c200e36992.json",
+          "sha256": "1a4399cfb87aa250c96d482aea20b30a94b1f3140d9730510a5c4457570970f4",
+          "cache_original_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/933dfda185c200e36992.json",
+          "original_request_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1001%2Fjamapsychiatry.2020.4364%22&format=json&resultType=core&pageSize=10",
+          "original_fetched_at": "2026-10-18T20:50:21.864778+09:00",
+          "limits": "Abstract only for Golden and Karyotaki; no full-text claim."
+        },
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10870815/fullTextXML",
+          "exact_primary_quotes": [
+            "Supplementary file section S7 presents a forest plot of Hedges’ g values for each study. Figure 4 shows the predicted effects of each treatment compared with active controls. Compared with active controls, large reductions in depression were found for dance (n=107, κ=5, Hedges’ g −0.96, 95% credible interval −1.36 to −0.56) and moderate reductions for walking or jogging (n=1210, κ=51, g −0.63, −0.80 to −0.46), yoga (n=1047, κ=33, g=−0.55, −0.73 to −0.36), strength training (n=643, κ=22, g=−0.49, −0.69 to −0.29), mixed aerobic exercises (n=1286, κ=51, g=−0.43, −0.61 to −0.25), and tai chi or qigong (n=343, κ=12, g=−0.42, −0.65 to −0.21). Moderate, clinically meaningful effects were also present when exercise was combined with SSRIs (n=268, κ=11, g=−0.55, −0.86 to −0.23) or aerobic exercise was combined with psychotherapy (n=404, κ=15, g=−0.54, −0.76 to −0.32). All these treatments were significantly stronger than the standardised minimum clinically important difference compared with active control (g=−0.20), equating to an absolute g value of −1.16. Dance, exercise combined with SSRIs, and walking or jogging were the treatments most likely to perform best when modelling the surface under the cumulative ranking curve (fig 4). For acceptability, the odds of participants dropping out of the study were lower for strength training (n=247, direct evidence κ=6, odds ratio 0.55, 95% credible interval 0.31 to 0.99) and yoga (n=264, κ=5, 0.57, 0.35 to 0.94) than for active control. The rate of dropouts was not significantly different from active control in any other arms (see supplementary file, section S8).",
+            "Despite the large number of studies in the network, confidence in the effects were low (fig 5). This was largely due to the high within study bias described in the risk of bias summary plot. Reporting bias was also difficult to robustly assess because direct comparison with active control was often only provided in fewer than 10 studies. Many studies focused on one sex only, older adults, or those with comorbidities, so most arms had some concerns about indirect comparisons. Credible intervals were seldom wide enough to change decision making, so concerns about imprecision were few. Heterogeneity did plausibly change some conclusions around clinical significance. Few studies showed problematic incoherence, meaning direct and indirect evidence usually agreed. Overall, walking or jogging had low confidence, with other modalities being very low."
+          ],
+          "actual_read_date_utc": "2026-10-18T14:36:09.137654+00:00",
+          "actual_read_method": "Python ElementTree parsed relevant primary full-text results and certainty paragraphs from cached XML, reread in this r2 turn",
+          "raw_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch03/_workspace/2026-10-18-018-d401/r2-primary-raw/PMC10870815.xml",
+          "sha256": "180d73b3d6c5b1ed2f46d8f373820aacbcf6030988e669cb2b8a84cec38a5f59",
+          "cache_original_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/pmc-fulltext/PMC10870815.xml",
+          "limits": "Abstract/body estimates conflict; retain abstract estimate explicitly and disclose body values; no silent correction."
+        }
+      ]
+    }
+  ],
+  "sentence_measurements": [
+    {
+      "field": "쉽게",
+      "sentence": "걷기·조깅은 우울 증상을 중간 정도 줄였습니다.",
+      "python_len": 26
+    },
+    {
+      "field": "쉽게",
+      "sentence": "다만 효과를 뒷받침하는 근거의 확실성은 낮습니다.",
+      "python_len": 27
+    },
+    {
+      "field": "쉽게",
+      "sentence": "증상이 심하면 병원에 가세요.",
+      "python_len": 16
+    },
+    {
+      "field": "쉽게",
+      "sentence": "죽고 싶은 생각이 들면 먼저 109에 전화하세요.",
+      "python_len": 27
+    },
+    {
+      "field": "이득",
+      "sentence": "대조집단은 통상 치료나 위약 등을 받았습니다.",
+      "python_len": 25
+    },
+    {
+      "field": "이득",
+      "sentence": "초록의 g = -0.62(95% 신용구간 -0.80 ~ -0.45)입니다.",
+      "python_len": 41
+    },
+    {
+      "field": "이득",
+      "sentence": "치료용 밝은 빛을 쓰는 광선치료 연구들을 합친 효과 크기도 보고됐습니다.",
+      "python_len": 40
+    },
+    {
+      "field": "이득",
+      "sentence": "다만 비계절성 우울에서 항우울제에 광선치료를 더한 효과는 확인되지 않았습니다.",
+      "python_len": 43
+    },
+    {
+      "field": "이득",
+      "sentence": "인터넷 인지행동치료는 구조화된 온라인 치료 프로그램입니다.",
+      "python_len": 32
+    },
+    {
+      "field": "이득",
+      "sentence": "치료 직후에는 안내가 있는 쪽이 더 나았습니다.",
+      "python_len": 26
+    },
+    {
+      "field": "이득",
+      "sentence": "PHQ-9 9점 초과인 사람에게 이득이 더 컸습니다.",
+      "python_len": 29
+    },
+    {
+      "field": "이득",
+      "sentence": "6개월과 12개월에는 안내 유무의 차이 근거가 없었습니다.",
+      "python_len": 32
+    },
+    {
+      "field": "비고",
+      "sentence": "걷기·조깅의 효과에 대한 근거 확실성은 낮았고 다른 운동은 매우 낮았습니다.",
+      "python_len": 42
+    },
+    {
+      "field": "비고",
+      "sentence": "광선치료 연구는 햇빛 쬐기를 평가한 자료가 아닙니다.",
+      "python_len": 29
+    },
+    {
+      "field": "비고",
+      "sentence": "걷기·조깅의 효과 크기는 초록과 본문 수치가 다릅니다.",
+      "python_len": 30
+    },
+    {
+      "field": "비고",
+      "sentence": "본문은 g = -0.63(-0.80 ~ -0.46)입니다.",
+      "python_len": 32
+    },
+    {
+      "field": "비고",
+      "sentence": "초록의 수치를 유지했으며 판본 확인이 필요합니다.",
+      "python_len": 27
+    }
+  ],
+  "easy_chars": 99,
+  "doi_additions": [],
+  "doi_removals": [],
+  "numerical_scope_changes": "No silent numerical replacement; added current full-text walking/jogging estimate -0.63 (-0.80 to -0.46) solely to disclose discrepancy with retained abstract -0.62 (-0.80 to -0.45). Added 6/12-month scope.",
+  "statistical_review": {
+    "OR_RR_HR": "No OR/RR/HR estimates introduced; g represents symptom effect size, not probability or risk ratio.",
+    "denominators_endpoint": "218 studies and 14,170 total participants; not walking-only denominator. Outcome depression symptom severity, not cure, mortality or suicide probability.",
+    "interval_scope": "95% 신용구간 only for Noetel Bayesian g; Golden confidence intervals remain unchanged; no blanket relabel."
+  },
+  "limits": [
+    "No live primary fetch in r2; permanently copied cached exact raw documents with original provenance.",
+    "Golden/Karyotaki full text not read.",
+    "BMJ abstract/body discrepancy unresolved, reader-facing disclosure added.",
+    "109 operating details unchanged; no claim of new live verification.",
+    "All proposals remain unadopted; independent exact-hash review required."
+  ]
+}

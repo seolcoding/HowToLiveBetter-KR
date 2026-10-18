@@ -1,0 +1,77 @@
+{
+  "status": "unadopted_proposal",
+  "entry": 3,
+  "revision": 2,
+  "created_at_utc": "2026-10-18T14:58:56.995331+00:00",
+  "base_public_path": "/workspace/HowToLiveBetter-KR/book-kr/02-천천히-죽지-않기.md",
+  "base_public_sha256": "b580b637d34819b9de1169d80093a9d953a5298ca1e7d84a34a70a63b270949a",
+  "base_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-003-4cea/publication-current-entry-r2.md",
+  "base_entry_sha256": "14a26ad6cd5220fd5eb8f3b06e43a16cf3336ec822419310e4728dbe07c011fa",
+  "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-003-4cea/publication-formal-correction-r2.md",
+  "proposal_sha256": "5f871895d1612e47ded72ea5678d5301db91b9e4d299b5e5776e2a60139509c7",
+  "changes": [
+    {
+      "field": "비고",
+      "before": "국내 금연약도 같은 세 종류입니다. 니코틴 대체제만 약국에서 살 수 있습니다. 바레니클린과 부프로피온은 처방이 필요합니다. 바레니클린은 예전에 챔픽스라는 이름으로 팔았습니다. 지금은 같은 성분의 복제약을 씁니다. 바레니클린을 먹으면 구역질이 날 수 있습니다. 꿈을 많이 꾸거나 잠이 얕아질 수도 있습니다. 정신과 병력이 있으면 의사에게 미리 말하세요. 니코틴 대체제는 보통 8~12주 씁니다. 임의로 끊지 말고 의사의 지시에 따라 줄이세요. 약은 금단 증상으로 괴로운 몇 주 동안의 고통만 덜어줍니다. 담배를 피우고 싶게 만드는 상황까지 해결해 주지는 않습니다. 약을 쓰면서 제4항(금연일 정하기)도 실천하세요. 제5항(보건소 금연클리닉)도 함께 이용하세요.",
+      "after": "국내 금연약도 같은 세 종류입니다. 니코틴 대체제만 약국에서 살 수 있습니다. 바레니클린과 부프로피온은 처방이 필요합니다. 바레니클린은 예전에 챔픽스라는 이름으로 팔았습니다. 지금은 같은 성분의 복제약을 씁니다. 바레니클린을 먹으면 구역질이 날 수 있습니다. 꿈을 많이 꾸거나 잠이 얕아질 수도 있습니다. 정신과 병력이 있으면 의사에게 미리 말하세요. 니코틴 대체제는 보통 8~12주 씁니다. 임의로 끊지 말고 의사의 지시에 따라 줄이세요. 약은 금단 증상을 덜고 금연을 돕습니다. 담배를 피우고 싶게 만드는 상황까지 해결해 주지는 않습니다. 약을 쓰면서 제4항(금연일 정하기)도 실천하세요. 제5항(보건소 금연클리닉)도 함께 이용하세요.",
+      "exact_span_before": "약은 금단 증상으로 괴로운 몇 주 동안의 고통만 덜어줍니다.",
+      "exact_span_after": "약은 금단 증상을 덜고 금연을 돕습니다.",
+      "reason": "약효를 몇 주의 고통 완화만으로 한정하던 표현을 삭제합니다. 원초록에서 확인한 금단 완화와 금연 지원의 방향을 짧게 씁니다. 약으로 유발 상황까지 해결되지는 않는다는 다음 문장은 보존합니다.",
+      "new_sentence_chars": 22
+    }
+  ],
+  "primary_evidence": [
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10169257/fullTextXML",
+      "doi": "10.1002/14651858.CD006103.pub8",
+      "raw_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-003-4cea/source-evidence/varenicline.xml",
+      "raw_sha256": "b95a9e2f49c40ae40a5295ee92bec9865a2075d0a507da96a9073b1847435746",
+      "read_at_utc": "2026-10-18T14:58:56.995331+00:00",
+      "method": "Previously preserved primary full-text XML reopened; abstract Background and efficacy result actually read. No fresh HTTP request.",
+      "quotes": [
+        "Nicotine receptor partial agonists may help people to stop smoking by a combination of maintaining moderate levels of dopamine to counteract withdrawal symptoms (acting as an agonist) and reducing smoking satisfaction (acting as an antagonist).",
+        "We found high‐certainty evidence that varenicline helps more people to quit than placebo (RR 2.32, 95% CI 2.15 to 2.51; I 2 = 60%, 41 studies, 17,395 participants)"
+      ],
+      "original_fetch_provenance": "Copied from /tmp/ch02-audit/full-PMC10169257.body; original network fetch time unavailable."
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1002%2F14651858.CD000146.pub5%22&format=json&resultType=core&pageSize=10",
+      "doi": "10.1002/14651858.CD000146.pub5",
+      "raw_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-003-4cea/source-evidence/nrt-abstract.json",
+      "raw_sha256": "e9fe239ee6903bb5c34c53fa415f1c6ac3ac24661c2a50988ce090ff54eba5c4",
+      "read_at_utc": "2026-10-18T14:58:56.995331+00:00",
+      "method": "Preserved EuropePMC primary abstract cache reopened; Background read. Entire review not read for this correction.",
+      "quotes": [
+        "Nicotine replacement therapy (NRT) aims to temporarily replace much of the nicotine from cigarettes to reduce motivation to smoke and nicotine withdrawal symptoms, thus easing the transition from cigarette smoking to complete abstinence."
+      ],
+      "original_fetch_provenance": "From original cached d55015cacab9b75c4357.json; see retained publication-entry-changes.json for prior provenance."
+    }
+  ],
+  "intentional_scope_change": "Removes only unsupported restriction to several weeks of suffering; no new efficacy size, clinical duration or treatment promise.",
+  "intentional_numeric_changes": [],
+  "doi_changes": {
+    "added": [],
+    "removed": []
+  },
+  "validation": {
+    "single_unique_span_only": true,
+    "six_fields_order_exact": true,
+    "unchanged_fields": [
+      "비용",
+      "쉽게",
+      "이득",
+      "근거등급",
+      "출처"
+    ],
+    "title_unchanged": true,
+    "easy_chars": 73,
+    "new_sentence_chars": 22,
+    "public_unchanged_after": true,
+    "source_snapshot_pure_approved_artifacts_untouched": true
+  },
+  "unresolved_limitations": [
+    "This minimal correction does not newly verify current domestic licensing or distribution of all formulations.",
+    "Cached original evidence read; no claim of fresh network or entire review verification.",
+    "Independent exact-hash approval and guarded application remain required."
+  ]
+}

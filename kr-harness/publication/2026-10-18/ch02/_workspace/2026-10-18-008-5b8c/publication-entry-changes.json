@@ -1,0 +1,88 @@
+{
+  "entry": 8,
+  "status": "unadopted_pending_independent_exact_hash_review",
+  "base": "strict-entry.md",
+  "base_sha256": "09fb4757ab6c2164f2f770582ed6924094238c097e4559b3a6caeea9621d0a23",
+  "proposal_sha256": "c085fa447776ed3f497fc56fd14ab8d767195a368540ae7e6915afc06f44e3eb",
+  "changes": [
+    {
+      "field": "쉽게",
+      "before": "빈랑을 씹으면 안 씹을 때보다 같은 기간 죽을 확률이 20%쯤 높습니다. 당뇨병과 대사증후군 위험은 50% 가깝게 높습니다. 구강암과 식도암 위험도 높아집니다.",
+      "after": "빈랑이 든 혼합물을 씹은 사람은 안 씹은 사람보다 사망이 많았습니다. 개인의 죽을 확률이 20% 오른다는 뜻은 아닙니다. 빈랑을 씹지 마세요.",
+      "reason": "개인의 확률로 환산한 단정을 제거하고 혼합물 노출·관찰 방향만 쉬운 말로 제시.",
+      "evidence_refs": [
+        "Yamada2013"
+      ]
+    },
+    {
+      "field": "이득",
+      "before": "아시아 연구 17개·38만8천 명을 합쳤습니다. 빈랑을 씹는 사람은 안 씹는 사람보다 사망 위험이 약 21% 높습니다. 상대위험 1.21, P=0.02. 사망 위험을 계산한 표본은 그중 17만9천6백 명입니다. 당뇨병 위험은 약 47% 높습니다(1.47). 대사증후군 위험은 약 51% 높습니다(1.51). 빈랑 자체도 구강암과 식도암의 위험 인자로 알려져 있습니다.",
+      "after": "아시아 연구 17개, 총 388,134명을 합친 결과입니다. 대상은 빈랑 열매가 주재료인 씹는 혼합물입니다. 잎·석회 등이 들어가며 담배를 넣기도 합니다. 열매만 씹은 경우의 효과로 한정할 수 없습니다. 전체 사망 분석은 4개 연구, 179,582명입니다. 추적 기간은 5.5~12.1년입니다. 씹는 사람과 안 씹는 사람의 비교값은 RR 1.21입니다. 95% 신뢰구간은 1.04~1.42, P=0.02입니다. 제2형 당뇨병 분석은 남성 51,412명입니다. 2개 연구의 비교값은 RR 1.47입니다. 95% 신뢰구간은 1.20~1.81입니다. 대사증후군 분석은 3개 연구, 23,291명입니다. 비교값은 RR 1.51입니다. 95% 신뢰구간은 1.09~2.10입니다. RR은 논문이 묶어서 보고한 상대 비교값입니다. 원자료에는 위험비·위험률비·오즈비가 섞여 있습니다. 오즈는 일이 생길 확률과 안 생길 확률의 비입니다. 위험률비는 시간에 따른 발생 속도를 비교합니다. 이를 개인의 발생확률 증가율로 읽으면 안 됩니다. 관찰된 연관성이며 끊는 효과를 직접 시험한 결과는 아닙니다.",
+      "reason": "전체와 결과별 분모를 분리. 논문 RR 표기와 원자료의 OR/HR 혼합을 명시하여 확률 증가율 환산을 피함. 담배 유무·열매 자체와 혼합물 구별.",
+      "evidence_refs": [
+        "Yamada2013"
+      ]
+    },
+    {
+      "field": "비고",
+      "before": "빈랑을 오래 씹을수록 구강암 위험이 높아집니다. 하루에 씹는 양이 많아도 구강암 위험이 높아집니다. 끊으면 위험은 시간이 지나며 내려갑니다. 담배를 섞은 빈랑은 더 위험합니다. 한국에서 빈랑을 씹는 사람은 드뭅니다. 동남아시아 여행 중이나 현지의 씹는 습관을 접할 때 주의하세요.",
+      "after": "이 종합분석은 구강암·식도암 위험을 계산하지 않았습니다. 씹는 양·기간별 암 위험은 이 자료로 확정하지 않습니다. 끊은 뒤 암 위험 감소도 이 자료로는 확정하지 않습니다. 담배를 넣은 혼합물과 넣지 않은 혼합물은 구별해야 합니다. 담배를 빼도 안전하다는 뜻은 아닙니다. 한국에서 씹는 사람의 비율은 이 자료로 알 수 없습니다. 동남아시아 여행 중이나 현지의 씹는 습관을 접할 때 주의하세요.",
+      "reason": "인용 종합분석의 계산범위 밖 암 주장을 독자 단정으로 남기지 않고 확인범위 제한. 암 1차 근거 미확인을 감추지 않음. 국내 유병비율도 미확인으로 제한.",
+      "evidence_refs": [
+        "Yamada2013"
+      ]
+    }
+  ],
+  "unchanged_fields": [
+    "title",
+    "cost_tag",
+    "비용",
+    "근거등급",
+    "출처"
+  ],
+  "primary_evidence": {
+    "Yamada2013": {
+      "doi": "10.1371/journal.pone.0070679",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3734295/fullTextXML",
+      "read_at_utc": "2026-10-18T14:31:24.581016+00:00",
+      "method": "Existing HTTPS full-text XML raw reopened; abstract, introduction, eligibility, result sections for mortality/diabetes/metabolic syndrome and limitations read. No new HTTP request. Cancer primary studies not read.",
+      "raw_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-008-5b8c/source-evidence/PMC3734295.fullTextXML.xml",
+      "raw_sha256": "26ab7ce51abbf9ed2593bf0faafc36dea683bbc895f51c65df665cb5519c05de",
+      "provenance": "Copied byte-for-byte from /tmp/ch02-audit/full-PMC3734295.body; original fetch timestamp unrecorded, not inferred from mtime. Audit records original HTTP200.",
+      "exact_primary_quotations": [
+        "17 studies from Asia (5 cohort studies and 12 case-control studies) covering 388,134 subjects",
+        "It is a major ingredient of betel quid (BQ), which generally consists of areca nut, betel leaf, catechu, slaked lime, and sometimes tobacco",
+        "Four studies investigated all-cause mortality using 5 comparison categories",
+        "All four were cohort studies, there were 179,582 subjects, and the follow-up period ranged from 5.5 to 12.1 years",
+        "1.21 (95% CI: 1.04–1.42; P",
+        "These studies included 51,412 subjects, all of whom were men",
+        "1.47 (95% CI: 1.2–1.81",
+        "Three studies",
+        "23,291 subjects",
+        "1.51 (95% CI: 1.09 to 2.10",
+        "the relative risk (risk ratio, hazard ratio, or odds ratio) of events",
+        "Such potential confounding factors could also have a role in predisposing BQ chewers to various systemic conditions."
+      ]
+    }
+  },
+  "intentional_numerical_scope_changes": [
+    "388,000 rounded total replaced with exact 388,134; mortality 179,600 replaced with exact 179,582.",
+    "Removed exact personal-probability +20% and 47%/51% risk translations; retained reported RR1.21/1.47/1.51 with endpoint-specific denominators.",
+    "Cancer incidence, dose/duration gradient, cessation benefit, and tobacco-added comparative cancer risk are not verified by this synthesis; assertions replaced by explicit limits, not claims of no effect."
+  ],
+  "doi_changes": {
+    "added": [],
+    "removed": [],
+    "reason": "Existing citation retained; no unverified cancer citation added."
+  },
+  "unresolved_limitations": [
+    "No independent primary cancer source read; no numerical cancer risk or cessation benefit endorsed.",
+    "Constituent studies and all supplementary data not independently reanalysed. Article itself inconsistently labels non-cohort designs; no unsupported single design label added.",
+    "No Korean prevalence or market price verified; no invented current price. Existing abstention cost statement preserved."
+  ],
+  "validation": {
+    "easy_characters": 79,
+    "modified_sentence_limit": 50,
+    "or_rr_hr_review": "No OR/HR translated to personal probability; article pooled RR label preserved and mixed measures disclosed."
+  }
+}

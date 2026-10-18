@@ -4197,6 +4197,712 @@
       ],
       "formal_kr_fit": false,
       "publication_ready": false
+    },
+    {
+      "batch": 6,
+      "batch_manifest_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/author-batch-6.json",
+      "batch_manifest_sha256": "2fecc70040142136e339aa097554cfbe8d7accdd566c7d573d6b892581b73433",
+      "reviewed_at_utc": "2026-10-18T14:31:48.296517+00:00",
+      "review_status": "complete",
+      "summary": {
+        "approve": 6,
+        "revise": 0
+      },
+      "entries": [
+        {
+          "number": 1,
+          "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-001-1c88/publication-entry-proposal.md",
+          "proposal_sha256": "321498bb8e6b8851d7457f526a165a8a0b8ef2b3436362fed5b03cb25ec6e58a",
+          "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-001-1c88/publication-entry-changes.json",
+          "changes_sha256": "835efec6b91698f5836337c8c1199fe094d3f0fda9f0198b86ce9150926c9da8",
+          "decision": "approve",
+          "why": "농촌 mortality rate ratio 1.22를 22% 높음으로, 도시1.65를65% 높음으로 정확화했습니다. 미국 금연연령·회복수명과2004 세계간접흡연 추정치는 실제 원초록 일치. 개인 누적확률 계산 없음.",
+          "changes_reproduce_fullentry_from_strict": true,
+          "verified_base_sha256": "9b611085a7e51b8e3a6acd5f9db2c238b933b15bae5f496fc4234a050fcfec8e",
+          "limitations_retained": [
+            "국내담뱃값/금단기간은 새 검증 아님.",
+            "중국은2006–14 추적의 중앙2010 자료; 원문 mortality rate ratio이며 개인 누적확률 아님."
+          ],
+          "evidence_indices": [
+            0,
+            1,
+            2
+          ],
+          "supersession": "이 정확 SHA fullentry의 모든 필드가 해당 번호의 이전 strict/별도 필드연산을 대체. 과거 승인/수정 이력 보존. 포함된 쉽게를 중복적용하지 않음.",
+          "approval_scope": "개별 fullentry/changes SHA 승인. 전체 절 통합/정식KR-FIT 아님."
+        },
+        {
+          "number": 9,
+          "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-009-bdd7/publication-entry-proposal.md",
+          "proposal_sha256": "7dad227071a15f0f727e2aadf52a0403519300d08bec42fe2ee53759daeaf479",
+          "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-009-bdd7/publication-entry-changes.json",
+          "changes_sha256": "a08fcb254020247085128d5068ccf11aaa7ced1cc15e5ce562f14be7c7857fdd",
+          "decision": "approve",
+          "why": "600마을 무작위배정·20,995명·평균4.74년·75/25소금 및 endpoint별1000인년 발생률과 rate ratio가 원초록 일치. PURE의 추정배설량 기준4.00–5.99g와 OR1.27/1.15를 확률증가로 쓰지 않습니다. 젊은층 이득이 작다는 미측정 단정을 제거하고 신장/약물 선상담을 보존합니다.",
+          "changes_reproduce_fullentry_from_strict": true,
+          "verified_base_sha256": "6e9a551d621440d6acedeac855d3d563e9606f950bb5aeb25304a4279c1915f2",
+          "limitations_retained": [
+            "PURE 연결 정정문 본문 미열람. 정정무관/정정없음으로 판정하지 않음.",
+            "전체 논문/부록·국내제품 가격/맛·건강한젊은층효과 미확인."
+          ],
+          "evidence_indices": [
+            3,
+            4
+          ],
+          "supersession": "이 정확 SHA fullentry의 모든 필드가 해당 번호의 이전 strict/별도 필드연산을 대체. 과거 승인/수정 이력 보존. 포함된 쉽게를 중복적용하지 않음.",
+          "approval_scope": "개별 fullentry/changes SHA 승인. 전체 절 통합/정식KR-FIT 아님."
+        },
+        {
+          "number": 11,
+          "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-011-ed84/publication-entry-proposal.md",
+          "proposal_sha256": "732c9758957cda416b9d39f7592113351ac6145ab86c468bcbce6a4f51dc214d",
+          "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-011-ed84/publication-entry-changes.json",
+          "changes_sha256": "1ae5b2883a8a9a558a609c07735b5fb53112bb068e57e19066c47780a3907409",
+          "decision": "approve",
+          "why": "걸음수와 시간의 정확 등가·둘중하나 충족 논리를 제거하고 대략환산으로 한정했습니다. Paluch/Arem/Banach 원초록과 Ekelund XML 초록에서 분모·기간·HR·활동측정방법이 일치합니다. 이전 승인 쉽게를 fullentry에 포함하므로 별도 중복적용하지 않습니다.",
+          "changes_reproduce_fullentry_from_strict": true,
+          "verified_base_sha256": "b5bb6c8f35179b7896519a503d18b5c65836a8bcf11786ab716a557e7573e844",
+          "limitations_retained": [
+            "한국 공식 지침 첨부의 권고문·기존비용의 시간환산은 새로 확인하지 않음.",
+            "Banach 정정문/전체원문, Paluch/Arem 전체원문은 이번 열람범위 아님."
+          ],
+          "evidence_indices": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "supersession": "이 정확 SHA fullentry의 모든 필드가 해당 번호의 이전 strict/별도 필드연산을 대체. 과거 승인/수정 이력 보존. 포함된 쉽게를 중복적용하지 않음.",
+          "approval_scope": "개별 fullentry/changes SHA 승인. 전체 절 통합/정식KR-FIT 아님."
+        },
+        {
+          "number": 22,
+          "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-022-1d39/publication-entry-proposal.md",
+          "proposal_sha256": "176145c0e7e4737813aeb5f02b1a73c78a2234cd491680ad892bc866d3b0c37d",
+          "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-022-1d39/publication-entry-changes.json",
+          "changes_sha256": "ea471271f7252f62e12688c781b554ad9ee20daf998d50e8014505b898cc3286",
+          "decision": "approve",
+          "why": "사망20%낮음의 노출이 주7회이상임을 쉽게와 이득에 복원했습니다. BioC 원문에서76,464여성/42,498남성·3,038,853인년·1회28g·빈도별HR/CI·비흡연자만이 아닌 본분석/흡연자제외 민감도분석을 확인했습니다. 조리방법 미측정을 밝혔습니다.",
+          "changes_reproduce_fullentry_from_strict": true,
+          "verified_base_sha256": "b9038e6bb7ae1bc8d1b6ab5cc412845fe165df094390dab87a9f0a1b39c7301f",
+          "limitations_retained": [
+            "부록 전체와 국내제품 가격을 검증하지 않음.",
+            "소금없는 견과 권고가 이 연구의 조리방법별 효과 비교로 입증된 뜻 아님."
+          ],
+          "evidence_indices": [
+            9
+          ],
+          "supersession": "이 정확 SHA fullentry의 모든 필드가 해당 번호의 이전 strict/별도 필드연산을 대체. 과거 승인/수정 이력 보존. 포함된 쉽게를 중복적용하지 않음.",
+          "approval_scope": "개별 fullentry/changes SHA 승인. 전체 절 통합/정식KR-FIT 아님."
+        },
+        {
+          "number": 27,
+          "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-027-f02c/publication-entry-proposal.md",
+          "proposal_sha256": "649540fae57294f96394b16479d1b3472124b91146a003d788c5111fa56e0fcf",
+          "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-027-f02c/publication-entry-changes.json",
+          "changes_sha256": "1045dd7290b28cb2d381e8a9081d98c99f95cfd954f6af92096bd6f8a7f083aa",
+          "decision": "approve",
+          "why": "Aune200g당RR.90/800g관찰과80g서빙을 Wang2미국코호트HR.87/26연구RR.87과 구분했습니다. 일괄400g환산과10%인과효과상한 단정을 제거하고 주스/감자/전분채소 범위를 고지합니다.",
+          "changes_reproduce_fullentry_from_strict": true,
+          "verified_base_sha256": "62d33b5bc13b17b5f48f854f6bffd312aafc612e3734aa0fdc92963962020830",
+          "limitations_retained": [
+            "Wang전체원문/식품별serving정의 미열람. 한국지침/일괄g환산은 확인완료 아님."
+          ],
+          "evidence_indices": [
+            10,
+            11
+          ],
+          "supersession": "이 정확 SHA fullentry의 모든 필드가 해당 번호의 이전 strict/별도 필드연산을 대체. 과거 승인/수정 이력 보존. 포함된 쉽게를 중복적용하지 않음.",
+          "approval_scope": "개별 fullentry/changes SHA 승인. 전체 절 통합/정식KR-FIT 아님."
+        },
+        {
+          "number": 35,
+          "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-035-64a3/publication-entry-proposal.md",
+          "proposal_sha256": "f358876385673f5162b9ce01a1888c4ad1396f701dcc4a442af5a9803c0216bf",
+          "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-035-64a3/publication-entry-changes.json",
+          "changes_sha256": "c0056496117e767bb1d12f513158074d338aa9db6ac6007acc193dda16f4db9c",
+          "decision": "approve",
+          "why": "실제원문521,120명/129,328사망·반개추가HR1.07(1.06–1.08)·가상식품대체모형을 구분했습니다. 반대연구 원초록의 주7개이상대1개미만 결과를 인용하고 하루1개 안전/3~4개위험 경계 단정을 제거했습니다. 새 반대근거 DOI의 정확한 제목/저자/연도도 원초록 응답에서 확인했습니다.",
+          "changes_reproduce_fullentry_from_strict": true,
+          "verified_base_sha256": "a75e07fdeaf9d8fbb436200dd0dfee5f3d6ab79517c60160a0c160a4fc116165",
+          "limitations_retained": [
+            "반대연구는 실제 원초록 범위; 현행미국지침·개인별 안전량 검증 아님.",
+            "주연구 초록median16년/결과mean16년 차이가 있어 새 추적기간 수치를 주장하지 않음."
+          ],
+          "evidence_indices": [
+            12,
+            13
+          ],
+          "supersession": "이 정확 SHA fullentry의 모든 필드가 해당 번호의 이전 strict/별도 필드연산을 대체. 과거 승인/수정 이력 보존. 포함된 쉽게를 중복적용하지 않음.",
+          "approval_scope": "개별 fullentry/changes SHA 승인. 전체 절 통합/정식KR-FIT 아님."
+        }
+      ],
+      "sources": [
+        {
+          "entry": 1,
+          "url": "https://doi.org/10.1056/NEJMsa1211128",
+          "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/9a806d34dd9a22f88357.json",
+          "raw_sha256": "91b0c8c51cf954ab9709b953adaab147f3d88dfef36355c2375c39931d7e160c",
+          "read_at_utc": "2026-10-18T14:31:48.296517+00:00",
+          "scope": "기존 원초록 JSON 실제 재열람. 전체 원문/부록 아님; 새 HTTP 아님.",
+          "original_fetch_time": "작성자/공용 캐시의 수집기록 참조; 열람시각과 구분. 초기 /tmp/ch02-audit 수집시각은 미기록.",
+          "actual_quote": "Life expectancy was shortened by more than 10 years among the current smokers, as compared with those who had never smoked."
+        },
+        {
+          "entry": 1,
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4691901/fullTextXML",
+          "raw_path": "/tmp/ch02-audit/full-PMC4691901.body",
+          "raw_sha256": "c8837ca1ac5c79f5d15a2fc59eb5e37d5961772f7a3f881e0bd4c6ad90b3c198",
+          "read_at_utc": "2026-10-18T14:31:48.296517+00:00",
+          "scope": "기존 직접 수집 XML 해당 초록/방법/결과 실제 재열람. 전체 문장/부록 재검증 아님; 새 HTTP 아님.",
+          "original_fetch_time": "작성자/공용 캐시의 수집기록 참조; 열람시각과 구분. 초기 /tmp/ch02-audit 수집시각은 미기록.",
+          "actual_quote": "urban: RR 1·32 [95% CI 1·24–1·41]  vs  1·65 [1·53–1·79]; rural: RR 1·13 [1·09–1·17]  vs  1·22 [1·16–1·29]"
+        },
+        {
+          "entry": 1,
+          "url": "https://doi.org/10.1016/S0140-6736(10)61388-8",
+          "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/4419084fca5878740fdb.json",
+          "raw_sha256": "5e4528bb7aee2f65e253e198f9bcf284bf556616a3f5ab41eaf3eb27fab8e871",
+          "read_at_utc": "2026-10-18T14:31:48.296517+00:00",
+          "scope": "기존 원초록 JSON 실제 재열람. 전체 원문/부록 아님; 새 HTTP 아님.",
+          "original_fetch_time": "작성자/공용 캐시의 수집기록 참조; 열람시각과 구분. 초기 /tmp/ch02-audit 수집시각은 미기록.",
+          "actual_quote": "603,000 deaths were attributable to second-hand smoke in 2004, which was about 1·0% of worldwide mortality."
+        },
+        {
+          "entry": 9,
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1056%2FNEJMoa2105675%22&format=json&resultType=core&pageSize=10",
+          "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/f471019f1972c206279f.json",
+          "raw_sha256": "5cc708e6b4b037197a0f66ca56455188907290b0d75f4d790c77fdde96e72404",
+          "read_at_utc": "2026-10-18T14:31:48.296517+00:00",
+          "scope": "기존 원초록 JSON 실제 재열람. 전체 원문/부록 아님; 새 HTTP 아님.",
+          "original_fetch_time": "작성자/공용 캐시의 수집기록 참조; 열람시각과 구분. 초기 /tmp/ch02-audit 수집시각은 미기록.",
+          "actual_quote": "<h4>Background</h4>Salt substitutes with reduced sodium levels and increased potassium levels have been shown to lower blood pressure, but their effects on cardiovascular and safety outcomes are uncertain.<h4>Methods</h4>We conducted an open-label, cluster-randomized trial involving persons from 600 villages in rural China. The participants had a history of stroke or were 60 years of age or older and had high blood pressure. The villages were randomly assigned in a 1:1 ratio to the intervention group, in which the participants used a salt substitute (75% sodium chloride and 25% potassium chloride by mass), or to the control group, in which the participants continued to use regular salt (100% sodium chloride). The primary outcome was stroke, the secondary outcomes were major adverse cardiovascular events and death from any cause, and the safety outcome was clinical hyperkalemia.<h4>Results</h4>A total of 20,995 persons were enrolled in the trial. The mean age of the participants was 65.4 years, and 49.5% were female, 72.6% had a history of stroke, and 88.4% a history of hypertension. The mean duration of follow-up was 4.74 years. The rate of stroke was lower with the salt substitute than with regular salt (29.14 events vs. 33.65 events per 1000 person-years; rate ratio, 0.86; 95% confidence interval [CI], 0.77 to 0.96; P = 0.006), as were the rates of major cardiovascular events (49.09 events vs. 56.29 events per 1000 person-years; rate ratio, 0.87; 95% CI, 0.80 to 0.94; P<0.001) and death (39.28 events vs. 44.61 events per 1000 person-years; rate ratio, 0.88; 95% CI, 0.82 to 0.95; P<0.001). The rate of serious adverse events attributed to hyperkalemia was not significantly higher with the salt substitute than with regular salt (3.35 events vs. 3.30 events per 1000 person-years; rate ratio, 1.04; 95% CI, 0.80 to 1.37; P = 0.76).<h4>Conclusions</h4>Among persons who had a history of stroke or were 60 years of age or older and had high blood pressure, the rates of stroke, major cardiovascular events, and death from any cause were lower with the salt substitute than with regular salt. (Funded by the National Health and Medical Research Council of Australia; SSaSS ClinicalTrials.gov number, NCT02092090.)."
+        },
+        {
+          "entry": 9,
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1056%2FNEJMoa1311889%22&format=json&resultType=core&pageSize=10",
+          "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/262bccdaabbcd9a9ee70.json",
+          "raw_sha256": "1f9db29e7ca73a5a3caf6c7308e7a17cc7907a74288066ca03d72888e809dc80",
+          "read_at_utc": "2026-10-18T14:31:48.296517+00:00",
+          "scope": "기존 원초록 JSON 실제 재열람. 전체 원문/부록 아님; 새 HTTP 아님.",
+          "original_fetch_time": "작성자/공용 캐시의 수집기록 참조; 열람시각과 구분. 초기 /tmp/ch02-audit 수집시각은 미기록.",
+          "actual_quote": "<h4>Background</h4>The optimal range of sodium intake for cardiovascular health is controversial.<h4>Methods</h4>We obtained morning fasting urine samples from 101,945 persons in 17 countries and estimated 24-hour sodium and potassium excretion (used as a surrogate for intake). We examined the association between estimated urinary sodium and potassium excretion and the composite outcome of death and major cardiovascular events.<h4>Results</h4>The mean estimated sodium and potassium excretion was 4.93 g per day and 2.12 g per day, respectively. With a mean follow-up of 3.7 years, the composite outcome occurred in 3317 participants (3.3%). As compared with an estimated sodium excretion of 4.00 to 5.99 g per day (reference range), a higher estimated sodium excretion (≥ 7.00 g per day) was associated with an increased risk of the composite outcome (odds ratio, 1.15; 95% confidence interval [CI], 1.02 to 1.30), as well as increased risks of death and major cardiovascular events considered separately. The association between a high estimated sodium excretion and the composite outcome was strongest among participants with hypertension (P=0.02 for interaction), with an increased risk at an estimated sodium excretion of 6.00 g or more per day. As compared with the reference range, an estimated sodium excretion that was below 3.00 g per day was also associated with an increased risk of the composite outcome (odds ratio, 1.27; 95% CI, 1.12 to 1.44). As compared with an estimated potassium excretion that was less than 1.50 g per day, higher potassium excretion was associated with a reduced risk of the composite outcome.<h4>Conclusions</h4>In this study in which sodium intake was estimated on the basis of measured urinary excretion, an estimated sodium intake between 3 g per day and 6 g per day was associated with a lower risk of death and cardiovascular events than was either a higher or lower estimated level of intake. As compared with an estimated potassium excretion that was less than 1.50 g per day, higher potassium excretion was associated with a lower risk of death and cardiovascular events. (Funded by the Population Health Research Institute and others.)."
+        },
+        {
+          "entry": 11,
+          "url": "https://doi.org/10.1016/s2468-2667(21)00302-9",
+          "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/683bb7799e08f8155c9f.json",
+          "raw_sha256": "ccb7302a069be66d449768e66f5fe7773e66cfaf7005bd9a1b816ed088aade31",
+          "read_at_utc": "2026-10-18T14:31:48.296517+00:00",
+          "scope": "기존 원초록 JSON 실제 재열람. 전체 원문/부록 아님; 새 HTTP 아님.",
+          "original_fetch_time": "작성자/공용 캐시의 수집기록 참조; 열람시각과 구분. 초기 /tmp/ch02-audit 수집시각은 미기록.",
+          "actual_quote": "<h4>Background</h4>Although 10 000 steps per day is widely promoted to have health benefits, there is little evidence to support this recommendation. We aimed to determine the association between number of steps per day and stepping rate with all-cause mortality.<h4>Methods</h4>In this meta-analysis, we identified studies investigating the effect of daily step count on all-cause mortality in adults (aged ≥18 years), via a previously published systematic review and expert knowledge of the field. We asked participating study investigators to process their participant-level data following a standardised protocol. The primary outcome was all-cause mortality collected from death certificates and country registries. We analysed the dose-response association of steps per day and stepping rate with all-cause mortality. We did Cox proportional hazards regression analyses using study-specific quartiles of steps per day and calculated hazard ratios (HRs) with inverse-variance weighted random effects models.<h4>Findings</h4>We identified 15 studies, of which seven were published and eight were unpublished, with study start dates between 1999 and 2018. The total sample included 47 471 adults, among whom there were 3013 deaths (10·1 per 1000 participant-years) over a median follow-up of 7·1 years ([IQR 4·3-9·9]; total sum of follow-up across studies was 297 837 person-years). Quartile median steps per day were 3553 for quartile 1, 5801 for quartile 2, 7842 for quartile 3, and 10 901 for quartile 4. Compared with the lowest quartile, the adjusted HR for all-cause mortality was 0·60 (95% CI 0·51-0·71) for quartile 2, 0·55 (0·49-0·62) for quartile 3, and 0·47 (0·39-0·57) for quartile 4. Restricted cubic splines showed progressively decreasing risk of mortality among adults aged 60 years and older with increasing number of steps per day until 6000-8000 steps per day and among adults younger than 60 years until 8000-10 000 steps per day. Adjusting for number of steps per day, comparing quartile 1 with quartile 4, the association between higher stepping rates and mortality was attenuated but remained significant for a peak of 30 min (HR 0·67 [95% CI 0·56-0·83]) and a peak of 60 min (0·67 [0·50-0·90]), but not significant for time (min per day) spent walking at 40 steps per min or faster (1·12 [0·96-1·32]) and 100 steps per min or faster (0·86 [0·58-1·28]).<h4>Interpretation</h4>Taking more steps per day was associated with a progressively lower risk of all-cause mortality, up"
+        },
+        {
+          "entry": 11,
+          "url": "https://doi.org/10.1001/jamainternmed.2015.0533",
+          "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/a3967d4d88be84683f13.json",
+          "raw_sha256": "549f6f8bbe29be27c99c840e6ca2bac9ddff082ea42d3ffaa8f33baae4ae4c71",
+          "read_at_utc": "2026-10-18T14:31:48.296517+00:00",
+          "scope": "기존 원초록 JSON 실제 재열람. 전체 원문/부록 아님; 새 HTTP 아님.",
+          "original_fetch_time": "작성자/공용 캐시의 수집기록 참조; 열람시각과 구분. 초기 /tmp/ch02-audit 수집시각은 미기록.",
+          "actual_quote": "<h4>Importance</h4>The 2008 Physical Activity Guidelines for Americans recommended a minimum of 75 vigorous-intensity or 150 moderate-intensity minutes per week (7.5 metabolic-equivalent hours per week) of aerobic activity for substantial health benefit and suggested additional benefits by doing more than double this amount. However, the upper limit of longevity benefit or possible harm with more physical activity is unclear.<h4>Objective</h4>To quantify the dose-response association between leisure time physical activity and mortality and define the upper limit of benefit or harm associated with increased levels of physical activity.<h4>Design, setting, and participants</h4>We pooled data from 6 studies in the National Cancer Institute Cohort Consortium (baseline 1992-2003). Population-based prospective cohorts in the United States and Europe with self-reported physical activity were analyzed in 2014. A total of 661,137 men and women (median age, 62 years; range, 21-98 years) and 116,686 deaths were included. We used Cox proportional hazards regression with cohort stratification to generate multivariable-adjusted hazard ratios (HRs) and 95% CIs. Median follow-up time was 14.2 years.<h4>Exposures</h4>Leisure time moderate- to vigorous-intensity physical activity.<h4>Main outcomes and measures</h4>The upper limit of mortality benefit from high levels of leisure time physical activity.<h4>Results</h4>Compared with individuals reporting no leisure time physical activity, we observed a 20% lower mortality risk among those performing less than the recommended minimum of 7.5 metabolic-equivalent hours per week (HR, 0.80 [95% CI, 0.78-0.82]), a 31% lower risk at 1 to 2 times the recommended minimum (HR, 0.69 [95% CI, 0.67-0.70]), and a 37% lower risk at 2 to 3 times the minimum (HR, 0.63 [95% CI, 0.62-0.65]). An upper threshold for mortality benefit occurred at 3 to 5 times the physical activity recommendation (HR, 0.61 [95% CI, 0.59-0.62]); however, compared with the recommended minimum, the additional benefit was modest (31% vs 39%). There was no evidence of harm at 10 or more times the recommended minimum (HR, 0.69 [95% CI, 0.59-0.78]). A similar dose-response relationship was observed for mortality due to cardiovascular disease and to cancer.<h4>Conclusions and relevance</h4>Meeting the 2008 Physical Activity Guidelines for Americans minimum by either moderate- or vigorous-intensity activities was associated with nearly the maximum longevity benefit. We obser"
+        },
+        {
+          "entry": 11,
+          "url": "https://doi.org/10.1093/eurjpc/zwad229",
+          "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/e1b1009e2c926ca207f0.json",
+          "raw_sha256": "5523d4aa18ed226cc1c10f5e679f800e5646dcc1bedf5820067782f6619ca3d3",
+          "read_at_utc": "2026-10-18T14:31:48.296517+00:00",
+          "scope": "기존 원초록 JSON 실제 재열람. 전체 원문/부록 아님; 새 HTTP 아님.",
+          "original_fetch_time": "작성자/공용 캐시의 수집기록 참조; 열람시각과 구분. 초기 /tmp/ch02-audit 수집시각은 미기록.",
+          "actual_quote": "<h4>Aims</h4>There is good evidence showing that inactivity and walking minimal steps/day increase the risk of cardiovascular (CV) disease and general ill-health. The optimal number of steps and their role in health is, however, still unclear. Therefore, in this meta-analysis, we aimed to evaluate the relationship between step count and all-cause mortality and CV mortality.<h4>Methods and results</h4>We systematically searched relevant electronic databases from inception until 12 June 2022. The main endpoints were all-cause mortality and CV mortality. An inverse-variance weighted random-effects model was used to calculate the number of steps/day and mortality. Seventeen cohort studies with a total of 226 889 participants (generally healthy or patients at CV risk) with a median follow-up 7.1 years were included in the meta-analysis. A 1000-step increment was associated with a 15% decreased risk of all-cause mortality [hazard ratio (HR) 0.85; 95% confidence interval (CI) 0.81-0.91; P < 0.001], while a 500-step increment was associated with a 7% decrease in CV mortality (HR 0.93; 95% CI 0.91-0.95; P < 0.001). Compared with the reference quartile with median steps/day 3867 (2500-6675), the Quartile 1 (Q1, median steps: 5537), Quartile 2 (Q2, median steps 7370), and Quartile 3 (Q3, median steps 11 529) were associated with lower risk for all-cause mortality (48, 55, and 67%, respectively; P < 0.05, for all). Similarly, compared with the lowest quartile of steps/day used as reference [median steps 2337, interquartile range 1596-4000), higher quartiles of steps/day (Q1 = 3982, Q2 = 6661, and Q3 = 10 413) were linearly associated with a reduced risk of CV mortality (16, 49, and 77%; P < 0.05, for all). Using a restricted cubic splines model, we observed a nonlinear dose-response association between step count and all-cause and CV mortality (Pnonlineraly < 0.001, for both) with a progressively lower risk of mortality with an increased step count.<h4>Conclusion</h4>This meta-analysis demonstrates a significant inverse association between daily step count and all-cause mortality and CV mortality with more the better over the cut-off point of 3867 steps/day for all-cause mortality and only 2337 steps for CV mortality."
+        },
+        {
+          "entry": 11,
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6699591/fullTextXML",
+          "raw_path": "/tmp/ch02-audit/full-PMC6699591.body",
+          "raw_sha256": "1e613b7b86b407b39d02859e9febf6f661090b486fa634596a500fd182f52e70",
+          "read_at_utc": "2026-10-18T14:31:48.296517+00:00",
+          "scope": "기존 직접 수집 XML 해당 초록/방법/결과 실제 재열람. 전체 문장/부록 재검증 아님; 새 HTTP 아님.",
+          "original_fetch_time": "작성자/공용 캐시의 수집기록 참조; 열람시각과 구분. 초기 /tmp/ch02-audit 수집시각은 미기록.",
+          "actual_quote": "Abstract Objective To examine the dose-response associations between accelerometer assessed total physical activity, different intensities of physical activity, and sedentary time and all cause mortality. Design Systematic review and harmonised meta-analysis. Data sources PubMed, PsycINFO, Embase, Web of Science, Sport Discus from inception to 31 July 2018. Eligibility criteria Prospective cohort studies assessing physical activity and sedentary time by accelerometry and associations with all cause mortality and reported effect estimates as hazard ratios, odds ratios, or relative risks with 95% confidence intervals. Data extraction and analysis Guidelines for meta-analyses and systematic reviews for observational studies and PRISMA guidelines were followed. Two authors independently screened the titles and abstracts. One author performed a full text review and another extracted the data. Two authors independently assessed the risk of bias. Individual level participant data were harmonised and analysed at study level. Data on physical activity were categorised by quarters at study level, and study specific associations with all cause mortality were analysed using Cox proportional hazards regression analyses. Study specific results were summarised using random effects meta-analysis. Main outcome measure All cause mortality. Results 39 studies were retrieved for full text review; 10 were eligible for inclusion, three were excluded owing to harmonisation challenges (eg, wrist placement of the accelerometer), and one study did not participate. Two additional studies with unpublished mortality data were also included. Thus, individual level data from eight studies (n=36 383; mean age 62.6 years; 72.8% women), with median follow-up of 5.8 years (range 3.0-14.5 years) and 2149 (5.9%) deaths were analysed. Any physical activity, regardless of intensity, was associated with lower risk of mortality, with a non-linear dose-response. Hazards ratios for mortality were 1.00 (referent) in the first quarter (least active), 0.48 (95% confidence interval 0.43 to 0.54) in the second quarter, 0.34 (0.26 to 0.45) in the third quarter, and 0.27 (0.23 to 0.32) in the fourth quarter (most active). Corresponding hazards ratios for light physical activity were 1.00, 0.60 (0.54 to 0.68), 0.44 (0.38 to 0.51), and 0.38 (0.28 to 0.51), and for moderate-to-vigorous physical activity were 1.00, 0.64 (0.55 to 0.74), 0.55 (0.40 to 0.74), and 0.52 (0.43 to 0.61). For sedentary time, hazards "
+        },
+        {
+          "entry": 22,
+          "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC3931001/unicode",
+          "raw_path": "/tmp/ch02e22-evidence/bioc.xml",
+          "raw_sha256": "0072168569a94ce25fe912fc3e845ae0fcab87680c391de3e8ee718bb57e7514",
+          "read_at_utc": "2026-10-18T14:31:48.296517+00:00",
+          "scope": "작성자 보존 BioC 원문 실제 재열람: 방법·결과·민감도분석·한계. 부록 전체 아님; 검토자의 새 HTTP 아님.",
+          "original_fetch_time": "작성자/공용 캐시의 수집기록 참조; 열람시각과 구분. 초기 /tmp/ch02-audit 수집시각은 미기록.",
+          "actual_quote": "During 3,038,853 person-years of follow-up, 16,200 women and 11,229 men died. Nut consumption was inversely associated with total mortality among both women and men, after adjustment for other known or suspected risk factors. The pooled multivariate hazard ratios for death among participants who ate nuts, as compared with those who did not, were 0.93 (95% confidence interval [CI], 0.90 to 0.96) for the consumption of nuts less than once per week, 0.89 (95% CI, 0.86 to 0.93) for once per week, 0.87 (95% CI, 0.83 to 0.90) for two to four times per week, 0.85 (95% CI, 0.79 to 0.91) for five or six times per week, and 0.80 (95% CI, 0.73 to 0.86) for seven or more times per week (P<0.001 for trend). Significant inverse associations were also observed between nut consumption and deaths due to cancer, heart disease, and respiratory disease."
+        },
+        {
+          "entry": 27,
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5837313/fullTextXML",
+          "raw_path": "/tmp/ch02-audit/full-PMC5837313.body",
+          "raw_sha256": "0024f5772491aad3188ddc13676eb74dc2b13654ecbf69251144ac2e1fe0cfff",
+          "read_at_utc": "2026-10-18T14:31:48.296517+00:00",
+          "scope": "기존 직접 수집 XML 해당 초록/방법/결과 실제 재열람. 전체 문장/부록 재검증 아님; 새 HTTP 아님.",
+          "original_fetch_time": "작성자/공용 캐시의 수집기록 참조; 열람시각과 구분. 초기 /tmp/ch02-audit 수집시각은 미기록.",
+          "actual_quote": "Consistent with previous meta-analyses, we used 80 g as a serving size for fruit and vegetable intake."
+        },
+        {
+          "entry": 27,
+          "url": "https://doi.org/10.1161/CIRCULATIONAHA.120.048996",
+          "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/931785f9c2296f3d6d44.json",
+          "raw_sha256": "1544c4c428468f2718619db887178e3ab38633b2c6c9101392864c5380959937",
+          "read_at_utc": "2026-10-18T14:31:48.296517+00:00",
+          "scope": "기존 원초록 JSON 실제 재열람. 전체 원문/부록 아님; 새 HTTP 아님.",
+          "original_fetch_time": "작성자/공용 캐시의 수집기록 참조; 열람시각과 구분. 초기 /tmp/ch02-audit 수집시각은 미기록.",
+          "actual_quote": "<h4>Background</h4>The optimal intake levels of fruit and vegetables for maintaining long-term health are uncertain.<h4>Methods</h4>We followed 66 719 women from the Nurses' Health Study (1984-2014) and 42 016 men from the Health Professionals Follow-up Study (1986-2014) who were free from cardiovascular disease (CVD), cancer, and diabetes at baseline. Diet was assessed using a validated semiquantitative food frequency questionnaire at baseline and updated every 2 to 4 years. We also conducted a dose-response meta-analysis, including results from our 2 cohorts and 24 other prospective cohort studies.<h4>Results</h4>We documented 33 898 deaths during the follow-up. After adjustment for known and suspected confounding variables and risk factors, we observed nonlinear inverse associations of fruit and vegetable intake with total mortality and cause-specific mortality attributable to cancer, CVD, and respiratory disease (all <i>P</i><sub>nonlinear</sub><0.001). Intake of ≈5 servings per day of fruit and vegetables, or 2 servings of fruit and 3 servings of vegetables, was associated with the lowest mortality, and above that level, higher intake was not associated with additional risk reduction. In comparison with the reference level (2 servings/d), daily intake of 5 servings of fruit and vegetables was associated with hazard ratios (95% CI) of 0.87 (0.85-0.90) for total mortality, 0.88 (0.83-0.94) for CVD mortality, 0.90 (0.86-0.95) for cancer mortality, and 0.65 (0.59-0.72) for respiratory disease mortality. The dose-response meta-analysis that included 145 015 deaths accrued in 1 892 885 participants yielded similar results (summary risk ratio of mortality for 5 servings/d=0.87 [95% CI, 0.85-0.88]; <i>P</i><sub>nonlinear</sub><0.001). Higher intakes of most subgroups of fruits and vegetables were associated with lower mortality, with the exception of starchy vegetables such as peas and corn. Intakes of fruit juices and potatoes were not associated with total and cause-specific mortality.<h4>Conclusions</h4>Higher intakes of fruit and vegetables were associated with lower mortality; the risk reduction plateaued at ≈5 servings of fruit and vegetables per day. These findings support current dietary recommendations to increase intake of fruits and vegetables, but not fruit juices and potatoes."
+        },
+        {
+          "entry": 35,
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7872242/fullTextXML",
+          "raw_path": "/tmp/ch02-audit/full-PMC7872242.body",
+          "raw_sha256": "9aef53398a20e6b10b5b25f2e1cc3e2c9a88020b78c4e2923d511c7b3325f031",
+          "read_at_utc": "2026-10-18T14:31:48.296517+00:00",
+          "scope": "기존 직접 수집 XML 해당 초록/방법/결과 실제 재열람. 전체 문장/부록 재검증 아님; 새 HTTP 아님.",
+          "original_fetch_time": "작성자/공용 캐시의 수집기록 참조; 열람시각과 구분. 초기 /tmp/ch02-audit 수집시각은 미기록.",
+          "actual_quote": "There were 129,328 deaths including 38,747 deaths from CVD during a median follow-up of 16 years."
+        },
+        {
+          "entry": 35,
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1007/s00394-018-1692-3&format=json&resultType=core",
+          "raw_path": "/tmp/ch02-e35-meta.json",
+          "raw_sha256": "722278687ef99b40453a9f7ea65fbb6973cb2f02884b6a9534fbe3266d00dee3",
+          "read_at_utc": "2026-10-18T14:31:48.296517+00:00",
+          "scope": "기존 원초록 JSON 실제 재열람. 전체 원문/부록 아님; 새 HTTP 아님.",
+          "original_fetch_time": "작성자/공용 캐시의 수집기록 참조; 열람시각과 구분. 초기 /tmp/ch02-audit 수집시각은 미기록.",
+          "actual_quote": "The updated meta-analyses including our results showed that 7+ eggs/week was not associated with all-cause mortality (HR 1.09, 95% CI 0.997-1.200) or IHD (HR 0.97, 95% CI 0.90-1.05), but associated with a small reduction in stroke (HR 0.91. 95% CI 0.85-0.98)."
+        }
+      ],
+      "formal_kr_fit": false,
+      "publication_ready": false
+    },
+    {
+      "batch": 7,
+      "batch_manifest_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/author-batch-7.json",
+      "batch_manifest_sha256": "b5aace14840ee8ef25ae2a74879db165f3cc88fd66331108d5a43b1b509972aa",
+      "reviewed_at_utc": "2026-10-18T14:33:46.898496+00:00",
+      "review_status": "complete",
+      "summary": {
+        "approve": 3,
+        "revise": 0
+      },
+      "entries": [
+        {
+          "number": 8,
+          "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-008-5b8c/publication-entry-proposal.md",
+          "proposal_sha256": "c085fa447776ed3f497fc56fd14ab8d767195a368540ae7e6915afc06f44e3eb",
+          "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-008-5b8c/publication-entry-changes.json",
+          "changes_sha256": "e2dd9a7ba6ac3ddf153db03d0f57ea092b1578d3e4e973605102ed104a335dff",
+          "decision": "approve",
+          "why": "주노출이 빈랑 열매를 포함한 혼합물임을 구분했습니다. 원문 17연구388,134명, 사망4연구179,582명/5.5–12.1년, 남성당뇨2연구51,412명, 대사증후군3연구23,291명 및 원문 RR값/CI를 대조했습니다. 원자료 risk ratio/HR/OR 혼합을 고지하고 개인확률로 변환하지 않습니다. 인용분석 밖의 암·용량/기간·금연후효과 단정을 제거해 실제 확인범위로 제한했습니다.",
+          "changes_reproduce_fullentry_from_strict": true,
+          "verified_base_sha256": "09fb4757ab6c2164f2f770582ed6924094238c097e4559b3a6caeea9621d0a23",
+          "limitations_retained": [
+            "No independent primary cancer source read; no numerical cancer risk or cessation benefit endorsed.",
+            "Constituent studies and all supplementary data not independently reanalysed. Article itself inconsistently labels non-cohort designs; no unsupported single design label added.",
+            "No Korean prevalence or market price verified; no invented current price. Existing abstention cost statement preserved."
+          ],
+          "supersession": "해당번호 latest fullentry 전체필드 승인. 이전 필드승인 이력보존, fullentry에 포함된 쉽게 연산은 중복적용하지 않음.",
+          "approval_scope": "exactSHA 개별안. 전체절통합/정식KR-FIT아님."
+        },
+        {
+          "number": 18,
+          "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-018-d3c8/publication-entry-proposal.md",
+          "proposal_sha256": "cd4bcd0c91516919908d5013c0e48bb4a7a74229aa93ef21b7c80ae9ea8b9d96",
+          "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-018-d3c8/publication-entry-changes.json",
+          "changes_sha256": "a5bb1dabe4d53f988db52244e22d666b2a8075e11bac5e413d3f6f96b225b36f",
+          "decision": "approve",
+          "why": "2014 최고대최저 비교와2017 하루serving증가 비교를 나눴습니다. 2014 미가공육RR1.10 CI.98–1.22와2017RR1.10 CI1.04–1.18이 다른 점을 반영해 유의차없음을2014에 한정했습니다. 미확인 식품별그램을 임의추정하지 않고 한국식당인분 환산불가를 독자에게 고지했습니다. NutriRECS 낮은확실성/약한권고를 원초록 범위로 보존합니다.",
+          "changes_reproduce_fullentry_from_strict": true,
+          "verified_base_sha256": "4bd92450d94cce35aa2f7013fac0522972d9b0c8b10506213b31181a44909fc8",
+          "limitations_retained": [
+            "2017 full text and food-specific serving gram definitions not read. DOI HTTPS fetch failed with tunnel 403; no g value inferred. Reader explicitly warned that research serving cannot be converted to Korean restaurant serving.",
+            "Original abstracts report pooled RR, not personal absolute risks or an intervention effect. No HR or OR converted.",
+            "2014 unprocessed meat CI 0.98–1.22 includes 1; 2017 red meat CI 1.04–1.18 excludes 1. The old blanket no-statistical-difference statement is restricted to 2014.",
+            "NutriRECS abstract signals corrected article; full text and correction not checked. Proposal uses only recommendations present in the cached abstract."
+          ],
+          "supersession": "해당번호 latest fullentry 전체필드 승인. 이전 필드승인 이력보존, fullentry에 포함된 쉽게 연산은 중복적용하지 않음.",
+          "approval_scope": "exactSHA 개별안. 전체절통합/정식KR-FIT아님."
+        },
+        {
+          "number": 29,
+          "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-029-255c/publication-entry-proposal.md",
+          "proposal_sha256": "d1dfc6d1be584d79a51583d4f83913b7ee31ff929c9989773935af477cc8e292",
+          "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-029-255c/publication-entry-changes.json",
+          "changes_sha256": "bcda13cebc7b5b0834e5fc9a4d73e4cef44661f3ec37b0b7099558845254c99b",
+          "decision": "approve",
+          "why": "공기청정기 사망연구가 전세계에 없다는 주장을 인용한 실외PM연구가 그 효과를 검증하지 않았다는 범위로 제한했습니다. 중국농촌271,217명·평균7.2년·15,468사망, 조리/난방 하위분모, 연료정의 및 각HR이 원초록 일치. PM종합107연구/104추적연구를 PM2.5자연사분모로 동일시하지 않고 RR1.08/10µg/m³와 구분했습니다. 한국보급률/교체비·인과효과 미확인을 밝혔습니다.",
+          "changes_reproduce_fullentry_from_strict": true,
+          "verified_base_sha256": "cd80fd0dfdd84c50710a7b1d6d1a1fe1b1673d5b9fbef263f4257647b911fb05",
+          "limitations_retained": [
+            "Both primary abstracts fully reread, not full text or supplements.",
+            "Domestic replacement prices and fuel penetration remain unverified.",
+            "No claim that worldwide air-cleaner mortality literature is absent.",
+            "PM2.5 natural-cause pooled analysis exact study count not available in abstract.",
+            "Ventilation is retained as a general safety condition; abstracts do not establish a specific ventilation regimen for clean fuels."
+          ],
+          "supersession": "해당번호 latest fullentry 전체필드 승인. 이전 필드승인 이력보존, fullentry에 포함된 쉽게 연산은 중복적용하지 않음.",
+          "approval_scope": "exactSHA 개별안. 전체절통합/정식KR-FIT아님."
+        }
+      ],
+      "sources": [
+        {
+          "entry": 8,
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3734295/fullTextXML",
+          "raw_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-008-5b8c/source-evidence/PMC3734295.fullTextXML.xml",
+          "raw_sha256": "26ab7ce51abbf9ed2593bf0faafc36dea683bbc895f51c65df665cb5519c05de",
+          "actual_quote": "the relative risk (risk ratio, hazard ratio, or odds ratio) of events",
+          "scope": "기존 수집 원문XML 실제 해당 방법/대상별결과/노출정의 재열람. 새HTTP·모든부록 검증 아님.",
+          "read_at_utc": "2026-10-18T14:33:46.898496+00:00",
+          "initial_fetch_time": "기존수집기록참조; /tmp/ch02-audit 초기시각 미기록. 열람시각을 HTTP수집시각으로 쓰지 않음."
+        },
+        {
+          "entry": 18,
+          "url": "https://doi.org/10.1093/aje/kwt261",
+          "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/6d999285da35006e915f.json",
+          "raw_sha256": "d83722c33e32a177fd6a2ea7fc1dd1338faeb47e8529d63bc5cbfed8cc742fbc",
+          "actual_quote": "High consumption of red meat and processed meat has been associated with increased risk of several chronic diseases. We conducted a meta-analysis to summarize the evidence from prospective studies on red meat and processed meat consumption in relationship to all-cause mortality. Pertinent studies were identified by searching PubMed through May 2013 and by reviewing the reference lists of retrieved articles. Prospective studies that reported relative risks with 95% confidence intervals for the association of red meat or processed meat consumption with all-cause mortality were eligible. Study-specific results were combined by using a random-effects model. Nine prospective studies were included in the meta-analysis. The summary relative risks of all-cause mortality for the highest versus the lowest category of consumption were 1.10 (95% confidence interval (CI): 0.98, 1.22; n = 6 studies) for unprocessed red meat, 1.23 (95% CI: 1.17, 1.28; n = 6 studies) for processed meat, and 1.29 (95% CI: 1.24, 1.35; n = 5 studies) for total red meat. In a dose-response meta-analysis, consumption of processed meat and total red meat, but not unprocessed red meat, was statistically significantly positively associated with all-cause mortality in a nonlinear fashion. These results indicate that high consumption of red meat, especially processed meat, may increase all-cause mortality.",
+          "scope": "기존 원초록 JSON 실제 전체 초록 재열람. 새HTTP·전체원문/정정문 열람 아님.",
+          "read_at_utc": "2026-10-18T14:33:46.898496+00:00",
+          "initial_fetch_time": "기존수집기록참조; /tmp/ch02-audit 초기시각 미기록. 열람시각을 HTTP수집시각으로 쓰지 않음."
+        },
+        {
+          "entry": 18,
+          "url": "https://doi.org/10.3945/ajcn.117.153148",
+          "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/4b7da62d583d8e829ddf.json",
+          "raw_sha256": "78c1aa2d6eb0a605813a7b92792a1b65df45cad47ac7b116ff2abb36ac2ada6c",
+          "actual_quote": "<b>Background:</b> Suboptimal diet is one of the most important factors in preventing early death and disability worldwide.<b>Objective:</b> The aim of this meta-analysis was to synthesize the knowledge about the relation between intake of 12 major food groups, including whole grains, refined grains, vegetables, fruits, nuts, legumes, eggs, dairy, fish, red meat, processed meat, and sugar-sweetened beverages, with risk of all-cause mortality.<b>Design:</b> We conducted a systematic search in PubMed, Embase, and Google Scholar for prospective studies investigating the association between these 12 food groups and risk of all-cause mortality. Summary RRs and 95% CIs were estimated with the use of a random effects model for high-intake compared with low-intake categories, as well as for linear and nonlinear relations. Moreover, the risk reduction potential of foods was calculated by multiplying the RR by optimal intake values (serving category with the strongest association) for risk-reducing foods or risk-increasing foods, respectively.<b>Results:</b> With increasing intake (for each daily serving) of whole grains (RR: 0.92; 95% CI: 0.89, 0.95), vegetables (RR: 0.96; 95% CI: 0.95, 0.98), fruits (RR: 0.94; 95% CI: 0.92, 0.97), nuts (RR: 0.76; 95% CI: 0.69, 0.84), and fish (RR: 0.93; 95% CI: 0.88, 0.98), the risk of all-cause mortality decreased; higher intake of red meat (RR: 1.10; 95% CI: 1.04, 1.18) and processed meat (RR: 1.23; 95% CI: 1.12, 1.36) was associated with an increased risk of all-cause mortality in a linear dose-response meta-analysis. A clear indication of nonlinearity was seen for the relations between vegetables, fruits, nuts, and dairy and all-cause mortality. Optimal consumption of risk-decreasing foods results in a 56% reduction of all-cause mortality, whereas consumption of risk-increasing foods is associated with a 2-fold increased risk of all-cause mortality.<b>Conclusion:</b> Selecting specific optimal intakes of the investigated food groups can lead to a considerable change in the risk of premature death.",
+          "scope": "기존 원초록 JSON 실제 전체 초록 재열람. 새HTTP·전체원문/정정문 열람 아님.",
+          "read_at_utc": "2026-10-18T14:33:46.898496+00:00",
+          "initial_fetch_time": "기존수집기록참조; /tmp/ch02-audit 초기시각 미기록. 열람시각을 HTTP수집시각으로 쓰지 않음."
+        },
+        {
+          "entry": 18,
+          "url": "https://doi.org/10.7326/m19-1621",
+          "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/3b5f25797f64d4d98130.json",
+          "raw_sha256": "e791029afc9f2746e94aed4e75fe7e5a6ca276dd86815efe8f854a4516fcdee3",
+          "actual_quote": "This article has been corrected. The original version (PDF) is appended to this article as a Supplement.<h4>Description</h4>Dietary guideline recommendations require consideration of the certainty in the evidence, the magnitude of potential benefits and harms, and explicit consideration of people's values and preferences. A set of recommendations on red meat and processed meat consumption was developed on the basis of 5 de novo systematic reviews that considered all of these issues.<h4>Methods</h4>The recommendations were developed by using the Nutritional Recommendations (NutriRECS) guideline development process, which includes rigorous systematic review methodology, and GRADE methods to rate the certainty of evidence for each outcome and to move from evidence to recommendations. A panel of 14 members, including 3 community members, from 7 countries voted on the final recommendations. Strict criteria limited the conflicts of interest among panel members. Considerations of environmental impact or animal welfare did not bear on the recommendations. Four systematic reviews addressed the health effects associated with red meat and processed meat consumption, and 1 systematic review addressed people's health-related values and preferences regarding meat consumption.<h4>Recommendations</h4>The panel suggests that adults continue current unprocessed red meat consumption (weak recommendation, low-certainty evidence). Similarly, the panel suggests adults continue current processed meat consumption (weak recommendation, low-certainty evidence).<h4>Primary funding source</h4>None. (PROSPERO 2017: CRD42017074074; PROSPERO 2018: CRD42018088854).",
+          "scope": "기존 원초록 JSON 실제 전체 초록 재열람. 새HTTP·전체원문/정정문 열람 아님.",
+          "read_at_utc": "2026-10-18T14:33:46.898496+00:00",
+          "initial_fetch_time": "기존수집기록참조; /tmp/ch02-audit 초기시각 미기록. 열람시각을 HTTP수집시각으로 쓰지 않음."
+        },
+        {
+          "entry": 29,
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1001%2Fjama.2018.2151%22&format=json&resultType=core&pageSize=10",
+          "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/9a9a5095d6eb444aa465.json",
+          "raw_sha256": "132bac2eacaa72b23b9b4f4d121d639652edda923daa3015f618c5ecb2135275",
+          "actual_quote": "<h4>Importance</h4>When combusted indoors, solid fuels generate a large amount of pollutants such as fine particulate matter.<h4>Objective</h4>To assess the associations of solid fuel use for cooking and heating with cardiovascular and all-cause mortality.<h4>Design, setting, and participants</h4>This nationwide prospective cohort study recruited participants from 5 rural areas across China between June 2004 and July 2008; mortality follow-up was until January 1, 2014. A total of 271 217 adults without a self-reported history of physician-diagnosed cardiovascular disease at baseline were included, with a random subset (n = 10 892) participating in a resurvey after a mean interval of 2.7 years.<h4>Exposures</h4>Self-reported primary cooking and heating fuels (solid: coal, wood, or charcoal; clean: gas, electricity, or central heating), switching of fuel type before baseline, and use of ventilated cookstoves.<h4>Main outcomes and measures</h4>Death from cardiovascular and all causes, collected through established death registries.<h4>Results</h4>Among the 271 217 participants, the mean (SD) age was 51.0 (10.2) years, and 59% (n = 158 914) were women. A total of 66% (n = 179 952) of the participants reported regular cooking (at least weekly) and 60% (n = 163 882) reported winter heating, of whom 84% (n = 150 992) and 90% (n = 147 272) used solid fuels, respectively. There were 15 468 deaths, including 5519 from cardiovascular causes, documented during a mean (SD) of 7.2 (1.4) years of follow-up. Use of solid fuels for cooking was associated with greater risk of cardiovascular mortality (absolute rate difference [ARD] per 100 000 person-years, 135 [95% CI, 77-193]; hazard ratio [HR], 1.20 [95% CI, 1.02-1.41]) and all-cause mortality (ARD, 338 [95% CI, 249-427]; HR, 1.11 [95% CI, 1.03-1.20]). Use of solid fuels for heating was also associated with greater risk of cardiovascular mortality (ARD, 175 [95% CI, 118-231]; HR, 1.29 [95% CI, 1.06-1.55]) and all-cause mortality (ARD, 392 [95% CI, 297-487]; HR, 1.14 [95% CI, 1.03-1.26]). Compared with persistent solid fuel users, participants who reported having previously switched from solid to clean fuels for cooking had a lower risk of cardiovascular mortality (ARD, 138 [95% CI, 71-205]; HR, 0.83 [95% CI, 0.69-0.99]) and all-cause mortality (ARD, 407 [95% CI, 317-497]; HR, 0.87 [95% CI, 0.79-0.95]), while for heating, the ARDs were 193 (95% CI, 128-258) and 492 (95% CI, 383-601), and the HRs were 0.57 (95% CI, 0.42-0.77) and 0.67 (95% CI, 0.57-0.79), respectively. Among solid fuel users, use of ventilated cookstoves was also associated with lower risk of cardiovascular mortality (ARD, 33 [95% CI, -9 to 75]; HR, 0.89 [95% CI, 0.80-0.99]) and all-cause mortality (ARD, 87 [95% CI, 20-153]; HR, 0.91 [95% CI, 0.85-0.",
+          "scope": "기존 원초록 JSON 실제 전체 초록 재열람. 새HTTP·전체원문/정정문 열람 아님.",
+          "read_at_utc": "2026-10-18T14:33:46.898496+00:00",
+          "initial_fetch_time": "기존수집기록참조; /tmp/ch02-audit 초기시각 미기록. 열람시각을 HTTP수집시각으로 쓰지 않음."
+        },
+        {
+          "entry": 29,
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2Fj.envint.2020.105974%22&format=json&resultType=core&pageSize=10",
+          "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/da2b073459b6bda06a19.json",
+          "raw_sha256": "1c445ab674c519656ca34bb51cd07865da50878595b30aeca0387272adfa3d72",
+          "actual_quote": "As new scientific evidence on health effects of air pollution is generated, air quality guidelines need to be periodically updated. The objective of this review is to support the derivation of updated guidelines by the World Health Organization (WHO) by performing a systematic review of evidence of associations between long-term exposure to particulate matter with diameter under 2.5 µm (PM<sub>2.5</sub>) and particulate matter with diameter under 10 µm (PM<sub>10</sub>), in relation to all-cause and cause-specific mortality. As there is especially uncertainty about the relationship at the low and high end of the exposure range, the review needed to provide an indication of the shape of the concentration-response function (CRF). We systematically searched MEDLINE and EMBASE from database inception to 9 October 2018. Articles were checked for eligibility by two reviewers. We included cohort and case-control studies on outdoor air pollution in human populations using individual level data. In addition to natural-cause mortality, we evaluated mortality from circulatory diseases (ischemic heart disease (IHD) and cerebrovascular disease (stroke) also specifically), respiratory diseases (Chronic Obstructive Pulmonary Disease (COPD) and acute lower respiratory infection (ALRI) also specifically) and lung cancer. A random-effect meta-analysis was performed when at least three studies were available for a specific exposure-outcome pair. Risk of bias was assessed for all included articles using a specifically developed tool coordinated by WHO. Additional analyses were performed to assess consistency across geographic region, explain heterogeneity and explore the shape of the CRF. An adapted GRADE (Grading of Recommendations Assessment, Development and Evaluation) assessment of the body of evidence was made using a specifically developed tool coordinated by WHO. A large number (N = 107) of predominantly cohort studies (N = 104) were included after screening more than 3000 abstracts. Studies were conducted globally with the majority of studies from North America (N = 62) and Europe (N = 25). More studies used PM<sub>2.5</sub> (N = 71) as the exposure metric than PM<sub>10</sub> (N = 42). PM<sub>2.5</sub> was significantly associated with all causes of death evaluated. The combined Risk Ratio (RR) for PM<sub>2.5</sub> and natural-cause mortality was 1.08 (95%CI 1.06, 1.09) per 10 µg/m<sup>3</sup>. Meta analyses of studies conducted at the low mean PM<sub>2.5</sub> levels (<25, 20, 15, 12, 10 µg/m<sup>3</sup>) yielded RRs that were similar or higher compared to the overall RR, consistent with the finding of generally linear or supra-linear CRFs in individual studies. Pooled RRs were almost identical for studies conducted in North America, Europe and Western Pacific",
+          "scope": "기존 원초록 JSON 실제 전체 초록 재열람. 새HTTP·전체원문/정정문 열람 아님.",
+          "read_at_utc": "2026-10-18T14:33:46.898496+00:00",
+          "initial_fetch_time": "기존수집기록참조; /tmp/ch02-audit 초기시각 미기록. 열람시각을 HTTP수집시각으로 쓰지 않음."
+        }
+      ],
+      "formal_kr_fit": false,
+      "publication_ready": false
+    },
+    {
+      "batch": 8,
+      "batch_manifest_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/author-batch-8.json",
+      "batch_manifest_sha256": "91a5e6ef13879ebe99289af14f58c8ad1cc3b4fc381d0473b0b83106740229ee",
+      "reviewed_at_utc": "2026-10-18T14:35:18.120668+00:00",
+      "review_status": "complete",
+      "summary": {
+        "approve": 2,
+        "revise": 0
+      },
+      "entries": [
+        {
+          "number": 5,
+          "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-005-6d11/publication-entry-proposal.md",
+          "proposal_sha256": "e72d40f94747fb2628bd801bb8a4b2a284c8bb6509431430c4bba79690b9fa9f",
+          "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-005-6d11/publication-entry-changes.json",
+          "changes_sha256": "c36008664aa543fad8fbf9f7bbaa48af5808b7100282890086a3e51e52d24bf8",
+          "style_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-005-6d11/publication-style-corrections.json",
+          "style_sha256": "a7460a9e9e3e848dd500d67de317f9f6c17c424668a3d33a09297c3f21d8c758",
+          "decision": "approve",
+          "why": "시험에서 계획한 행동지원4~8회/총30분초과~300분미만을 국내서비스 이용시간과 구분했습니다. 원초록52시험19,488명·최소6개월금연RR1.83/의료기관43시험1.97, 전화상담14시험32,484명RR1.38/65시험41,233명RR1.25와 중간확실성이 일치합니다. 공식 서비스 RAW에서 무료/17센터/4박5일/6개월9회이상을 실제 확인했고 공단사업 본인부담금 범위로 환급을 한정했습니다.",
+          "changes_reproduce_fullentry_from_strict": true,
+          "verified_base_sha256": "125d6ea36f7f78070787b49172ef09538fcbe9929814415bde75d23737d53489",
+          "limitations_retained": [
+            "Primary review full texts not read; cached primary abstracts read independently.",
+            "Official page/raw initial fetch timestamps unavailable; raw hashes and current reopening time recorded.",
+            "The domestic service description does not guarantee identical effects to foreign trials; existing 비고 limitations retained."
+          ],
+          "supersession": "해당번호 이전 쉽게필드승인을 포함한 latest fullentry. 이전이력보존, 쉽게 중복적용금지.",
+          "approval_scope": "정확 SHA 개별안. 전체절통합/정식KR-FIT아님."
+        },
+        {
+          "number": 17,
+          "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-017-5e24/publication-entry-proposal.md",
+          "proposal_sha256": "8f5a54f45df14bbed85fbc73a041872a7fa738ad2652aff5e2fae298d0677628",
+          "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-017-5e24/publication-entry-changes.json",
+          "changes_sha256": "72326a5fc21dc2a1f9a0dd2d73b1b956e0dacd2208d233f8c0dc3088912c7363",
+          "decision": "approve",
+          "why": "각사분위 비교 HR2.63/1.96의 노출을 총좌식/평균연속좌식으로 나눴습니다. 백만명분석의 최소활동+좌식>8시간HR1.59와 최고활동층>8시간HR1.04를 다른비교로 명시하고60~75분중강도는 최고활동층의 해석량임을 보존했습니다. TV시청3시간/최고활동층5시간을 총좌식과 구분하고 관찰결과가 개인위험소거 보장이 아님을 밝힙니다.",
+          "changes_reproduce_fullentry_from_strict": true,
+          "verified_base_sha256": "9718dc3922f149c993d26b53ebe8fda39942cfd1cb2c4c7c4969c48c2bc0abac",
+          "limitations_retained": [
+            "원초록 캐시만 읽었으며 전체 논문·부록을 검증하지 않았습니다.",
+            "Ekelund 메타데이터에 Erratum DOI 10.1016/S0140-6736(16)31677-4가 있으나 정정문 내용은 열람하지 않았습니다. 수치에 대한 정정 여부는 추가 검토가 필요합니다."
+          ],
+          "supersession": "해당번호 이전 쉽게필드승인을 포함한 latest fullentry. 이전이력보존, 쉽게 중복적용금지.",
+          "approval_scope": "정확 SHA 개별안. 전체절통합/정식KR-FIT아님."
+        }
+      ],
+      "sources": [
+        {
+          "entry": 5,
+          "url": "https://doi.org/10.1002/14651858.CD008286.pub3",
+          "raw_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-005-6d11/source-evidence/7dcf6573dc7c0df04b17.json",
+          "raw_sha256": "db179f11877c10aa754474325532689faa163d6807dbfafbb6225c080cc286bd",
+          "text_path": null,
+          "actual_quote": "Behavioural support was typically provided by specialists in cessation counselling, who offered between four and eight contact sessions. The planned maximum duration of contact was typically more than 30 minutes but less than 300 minutes.",
+          "scope": "기존 원초록 캐시 실제 재열람. 새HTTP/전체원문 아님.",
+          "read_at_utc": "2026-10-18T14:35:18.120668+00:00"
+        },
+        {
+          "entry": 5,
+          "url": "https://doi.org/10.1002/14651858.CD002850.pub4",
+          "raw_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-005-6d11/source-evidence/d6469feb0a30d8a5cd20.json",
+          "raw_sha256": "81fe29da624e8a2699637347fad2668f69be73ed7a342155c8fbee3101fe4d2f",
+          "text_path": null,
+          "actual_quote": "Among trials including smokers who contacted helplines (32,484 participants), quit rates were higher for smokers receiving multiple sessions of proactive counselling (risk ratio (RR) 1.38, 95% confidence interval (CI) 1.19 to 1.61; 14 trials, 32,484 participants; I<sup>2</sup> = 72%) compared with a control condition providing self-help materials or brief counselling in a single call. Due to the substantial unexplained heterogeneity between studies, we downgraded the certainty of the evidence to moderate.",
+          "scope": "기존 원초록 캐시 실제 재열람. 새HTTP/전체원문 아님.",
+          "read_at_utc": "2026-10-18T14:35:18.120668+00:00"
+        },
+        {
+          "entry": 5,
+          "url": "https://www.nosmokeguide.go.kr/helpness/center",
+          "raw_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-005-6d11/source-evidence/center.body",
+          "raw_sha256": "7ee90ab102da1d79058c010adcf46adacabda07c51c087f95f194b0c7eb81579",
+          "text_path": null,
+          "actual_quote": "4박 5일 간 대상자 집중 금연치료",
+          "scope": "보존된 공식기관 HTML 또는 PDF 추출문 해당서비스/사업조건 실제 재열람. 새HTTP아님; 최초수집시각 미기록.",
+          "read_at_utc": "2026-10-18T14:35:18.120668+00:00"
+        },
+        {
+          "entry": 5,
+          "url": "https://www.nosmokeguide.go.kr/helpness/counsel",
+          "raw_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-005-6d11/source-evidence/counsel.body",
+          "raw_sha256": "1531c5cd72cff32e045de7a6f4568c9cc4c688d894802c7769573c338319b328",
+          "text_path": null,
+          "actual_quote": "이용방법 1544-9030 직접전화, 카카오톡 채팅상담",
+          "scope": "보존된 공식기관 HTML 또는 PDF 추출문 해당서비스/사업조건 실제 재열람. 새HTTP아님; 최초수집시각 미기록.",
+          "read_at_utc": "2026-10-18T14:35:18.120668+00:00"
+        },
+        {
+          "entry": 5,
+          "url": "https://www.nhis.or.kr/static/html/wbma/c/smkInfo_01.pdf",
+          "raw_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-005-6d11/source-evidence/nhis-smk.body",
+          "raw_sha256": "486e41ab5a3fe46ffc39c650c6d9ddefee7ae8b015a0a96fda38795ec422ff3a",
+          "text_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-005-6d11/source-evidence/nhis-smk.txt",
+          "actual_quote": "(3~6회) 본인부담 없음",
+          "scope": "보존된 공식기관 HTML 또는 PDF 추출문 해당서비스/사업조건 실제 재열람. 새HTTP아님; 최초수집시각 미기록.",
+          "read_at_utc": "2026-10-18T14:35:18.120668+00:00"
+        },
+        {
+          "entry": 17,
+          "url": "https://doi.org/10.7326/m17-0212",
+          "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/e068967c4a851dd421bf.json",
+          "raw_sha256": "89e1cc99b7756659a5add3743d000870d75bfcae2649a53b129232b26ba5e652",
+          "text_path": null,
+          "actual_quote": "<h4>Background</h4>Excessive sedentary time is ubiquitous in Western societies. Previous studies have relied on self-reporting to evaluate the total volume of sedentary time as a prognostic risk factor for mortality and have not examined whether the manner in which sedentary time is accrued (in short or long bouts) carries prognostic relevance.<h4>Objective</h4>To examine the association between objectively measured sedentary behavior (its total volume and accrual in prolonged, uninterrupted bouts) and all-cause mortality.<h4>Design</h4>Prospective cohort study.<h4>Setting</h4>Contiguous United States.<h4>Participants</h4>7985 black and white adults aged 45 years or older.<h4>Measurements</h4>Sedentary time was measured using a hip-mounted accelerometer. Prolonged, uninterrupted sedentariness was expressed as mean sedentary bout length. Hazard ratios (HRs) were calculated comparing quartiles 2 through 4 to quartile 1 for each exposure (quartile cut points: 689.7, 746.5, and 799.4 min/d for total sedentary time; 7.7, 9.6, and 12.4 min/bout for sedentary bout duration) in models that included moderate to vigorous physical activity.<h4>Results</h4>Over a median follow-up of 4.0 years, 340 participants died. In multivariable-adjusted models, greater total sedentary time (HR, 1.22 [95% CI, 0.74 to 2.02]; HR, 1.61 [CI, 0.99 to 2.63]; and HR, 2.63 [CI, 1.60 to 4.30]; P for trend < 0.001) and longer sedentary bout duration (HR, 1.03 [CI, 0.67 to 1.60]; HR, 1.22 [CI, 0.80 to 1.85]; and HR, 1.96 [CI, 1.31 to 2.93]; P for trend < 0.001) were both associated with a higher risk for all-cause mortality. Evaluation of their joint association showed that participants classified as high for both sedentary characteristics (high sedentary time [≥12.5 h/d] and high bout duration [≥10 min/bout]) had the greatest risk for death.<h4>Limitation</h4>Participants may not be representative of the general U.S. population.<h4>Conclusion</h4>Both the total volume of sedentary time and its accrual in prolonged, uninterrupted bouts are associated with all-cause mortality, suggesting that physical activity guidelines should target reducing and interrupting sedentary time to reduce risk for deat",
+          "scope": "기존 원초록 캐시 실제 재열람. 새HTTP/전체원문 아님.",
+          "read_at_utc": "2026-10-18T14:35:18.120668+00:00"
+        },
+        {
+          "entry": 17,
+          "url": "https://doi.org/10.1016/s0140-6736(16)30370-1",
+          "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/e522d333f433d51fb64d.json",
+          "raw_sha256": "ac3f7e3ebfa1388411fb6491d9e1a39cd263df03d329c88de532384b43a04606",
+          "text_path": null,
+          "actual_quote": "<h4>Background</h4>High amounts of sedentary behaviour have been associated with increased risks of several chronic conditions and mortality. However, it is unclear whether physical activity attenuates or even eliminates the detrimental effects of prolonged sitting. We examined the associations of sedentary behaviour and physical activity with all-cause mortality.<h4>Methods</h4>We did a systematic review, searching six databases (PubMed, PsycINFO, Embase, Web of Science, Sport Discus, and Scopus) from database inception until October, 2015, for prospective cohort studies that had individual level exposure and outcome data, provided data on both daily sitting or TV-viewing time and physical activity, and reported effect estimates for all-cause mortality, cardiovascular disease mortality, or breast, colon, and colorectal cancer mortality. We included data from 16 studies, of which 14 were identified through a systematic review and two were additional unpublished studies where pertinent data were available. All study data were analysed according to a harmonised protocol, which categorised reported daily sitting time and TV-viewing time into four standardised groups each, and physical activity into quartiles (in metabolic equivalent of task [MET]-hours per week). We then combined data across all studies to analyse the association of daily sitting time and physical activity with all-cause mortality, and estimated summary hazard ratios using Cox regression. We repeated these analyses using TV-viewing time instead of daily sitting time.<h4>Findings</h4>Of the 16 studies included in the meta-analysis, 13 studies provided data on sitting time and all-cause mortality. These studies included 1 005 791 individuals who were followed up for 2-18·1 years, during which 84 609 (8·4%) died. Compared with the referent group (ie, those sitting <4 h/day and in the most active quartile [>35·5 MET-h per week]), mortality rates during follow-up were 12-59% higher in the two lowest quartiles of physical activity (from HR=1·12, 95% CI 1·08-1·16, for the second lowest quartile of physical activity [<16 MET-h per week] and sitting <4 h/day; to HR=1·59, 1·52-1·66, for the lowest quartile o",
+          "scope": "기존 원초록 캐시 실제 재열람. 새HTTP/전체원문 아님.",
+          "read_at_utc": "2026-10-18T14:35:18.120668+00:00"
+        }
+      ],
+      "correction_check_entry17": {
+        "query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2FS0140-6736%2816%2931677-4%22&format=json&resultType=core",
+        "query_raw_path": "/tmp/ch02-e17-correction.json",
+        "query_raw_sha256": "568194e8c3bc1ae7338c6f005c8961df261a62a4e6aa877767871093d2f8fc53",
+        "query_started_at_utc": "2026-10-18T14:34:23.514917+00:00",
+        "query_completed_at_utc": "2026-10-18T14:34:24.072424+00:00",
+        "http": 200,
+        "scope": "새HTTPS 서지조회만. PMID27673471/정정관계확인; 초록과본문없음.",
+        "publisher_attempts": [
+          {
+            "url": "https://www.thelancet.com/article/S0140673616316774/fulltext",
+            "started_at": "2026-10-18T14:34:31.158722+00:00",
+            "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+            "completed_at": "2026-10-18T14:34:31.177350+00:00"
+          },
+          {
+            "url": "https://www.thelancet.com/article/S0140673616316774/pdf",
+            "started_at": "2026-10-18T14:34:31.159751+00:00",
+            "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+            "completed_at": "2026-10-18T14:34:31.175578+00:00"
+          }
+        ],
+        "limitation": "출판사HTML/PDF는HTTPS검증유지하에터널403실패. 접근불가는근거무효가아니며정정내용/수치변경여부미확인유지."
+      },
+      "style_review": {
+        "entry": 5,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-005-6d11/publication-style-corrections.json",
+        "proposal_sha256": "a7460a9e9e3e848dd500d67de317f9f6c17c424668a3d33a09297c3f21d8c758",
+        "decision": "approve",
+        "field": "쉽게",
+        "before": "약과 정기 상담은 함께 이용하세요. 약과 전문가 상담을 병행한 금연 성공률은 일반 진료나 짧은 조언만 받은 경우의 1.83배입니다. 상담사가 먼저 건 전화 상담을 받은 경우는 약 25% 높았습니다.",
+        "after": "약과 정기 상담은 함께 이용하세요. 약과 전문가 상담을 병행한 금연 성공률은 1.83배입니다. 비교 대상은 일반 진료나 짧은 조언만 받은 경우입니다. 상담사가 먼저 건 전화 상담을 받은 경우는 약 25% 높았습니다.",
+        "depends_on": {
+          "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-005-6d11/publication-entry-proposal.md",
+          "sha256": "e72d40f94747fb2628bd801bb8a4b2a284c8bb6509431430c4bba79690b9fa9f",
+          "order": "Apply only after independently approved full-entry replacement; exact before must match once.",
+          "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-005-6d11/publication-entry-changes.json",
+          "changes_sha256": "c36008664aa543fad8fbf9f7bbaa48af5808b7100282890086a3e51e52d24bf8"
+        },
+        "order": "fullentry 제5항 교체 후, 해당 before 한번을 치환. 기존 editorial 쉽게는 따로 적용하지 않음.",
+        "expected_result_entry_sha256": "ea726d7d04a7d01ea321992997fcd4818706e8e7eb0dd2f62c5b1670988db285",
+        "why": "53자문장을 수치/비교대상 유지한 두문장으로 분할. 쉽게120자/4문장. 새 사실 없음."
+      },
+      "formal_kr_fit": false,
+      "publication_ready": false
+    },
+    {
+      "batch": 9,
+      "batch_manifest_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/author-batch-9.json",
+      "batch_manifest_sha256": "7b90aea68a482a302ebd2b4fd3f5958cac06ede841fda989e0f2476049c591fb",
+      "reviewed_at_utc": "2026-10-18T14:36:25.451640+00:00",
+      "review_status": "complete",
+      "summary": {
+        "approve": 0,
+        "revise": 1
+      },
+      "entries": [
+        {
+          "number": 3,
+          "status": "frozen_for_independent_review",
+          "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-003-4cea/publication-entry-proposal.md",
+          "proposal_sha256": "311120d29ea648003e81945f359ba9f1751e10e739ff8c7cac17d902b279bfda",
+          "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-003-4cea/publication-entry-changes.json",
+          "changes_sha256": "a1ee33773fb38f0d25ef0ae8596df99efad9e3c4ec031c4adbdd69750454a3dc",
+          "decision": "revise",
+          "why": "27%/단일제형비교/최소6개월endpoint/공단사업본인부담환급·56/84일은실제원자료와일치.그러나제목은일반약물전체의성공률이두배넘게오른다고읽힙니다.2.32는바레니클린대위약에한정되며NRT1.55/병용1.27과혼동되므로약제·비교조건을명시하거나숫자를제거해야합니다.",
+          "changes_reproduce_fullentry_from_strict": true,
+          "sources": [
+            {
+              "raw_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-003-4cea/source-evidence/varenicline.xml",
+              "raw_sha256": "b95a9e2f49c40ae40a5295ee92bec9865a2075d0a507da96a9073b1847435746",
+              "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10169257/fullTextXML",
+              "method": "Cached primary full-text XML: abstract, endpoint criteria and relevant results paragraphs",
+              "original_fetch_time": "Not newly fetched; initial full-text fetch timestamp unavailable, not inferred from mtime"
+            },
+            {
+              "raw_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-003-4cea/source-evidence/combination.xml",
+              "raw_sha256": "3be1541f6b8f8643e9d674891cec0a484833b240d594da558033ebf170337919",
+              "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10278922/fullTextXML",
+              "method": "Cached primary full-text XML: abstract, methods, combination comparison and subgroup results",
+              "original_fetch_time": "Not newly fetched; initial full-text fetch timestamp unavailable, not inferred from mtime"
+            },
+            {
+              "raw_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-003-4cea/source-evidence/nrt-abstract.json",
+              "raw_sha256": "e9fe239ee6903bb5c34c53fa415f1c6ac3ac24661c2a50988ce090ff54eba5c4",
+              "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1002%2F14651858.CD000146.pub5%22&format=json&resultType=core&pageSize=10",
+              "method": "Cached primary abstract, not full text",
+              "original_fetch_time": "Not newly fetched; initial full-text fetch timestamp unavailable, not inferred from mtime"
+            },
+            {
+              "raw_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-003-4cea/source-evidence/nhis.pdf",
+              "raw_sha256": "486e41ab5a3fe46ffc39c650c6d9ddefee7ae8b015a0a96fda38795ec422ff3a",
+              "url": "https://www.nhis.or.kr/static/html/wbma/c/smkInfo_01.pdf",
+              "method": "Cached official PDF plus its extracted text: support, completion and refund tables",
+              "original_fetch_time": "Not newly fetched; initial full-text fetch timestamp unavailable, not inferred from mtime"
+            },
+            {
+              "raw_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-003-4cea/source-evidence/nhis.txt",
+              "raw_sha256": "1c00953195a02c9cfd68dfb48892966a931ea0cd87d97a120171504a192bc49b",
+              "url": "https://www.nhis.or.kr/static/html/wbma/c/smkInfo_01.pdf",
+              "method": "Cached pdftotext extraction of official PDF",
+              "original_fetch_time": "Not newly fetched; initial full-text fetch timestamp unavailable, not inferred from mtime"
+            }
+          ],
+          "reviewed_at_utc": "2026-10-18T14:36:25.451640+00:00",
+          "approval_scope": "정확SHA r1 revise.기존승인/원본보존.수정요청A/ROOT전달완료."
+        }
+      ],
+      "formal_kr_fit": false,
+      "publication_ready": false
+    },
+    {
+      "batch": "9-r2",
+      "batch_manifest_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/author-batch-9-r2.json",
+      "batch_manifest_sha256": "9eef080968aa7ae9aac9ac9cd07d55706f95e198cb70ddfeee3e501f6664cc63",
+      "reviewed_at_utc": "2026-10-18T14:39:22.731829+00:00",
+      "review_status": "complete",
+      "summary": {
+        "approve": 1,
+        "revise": 0
+      },
+      "entries": [
+        {
+          "number": 3,
+          "status": "frozen_for_independent_review",
+          "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-003-4cea/publication-entry-proposal-r2.md",
+          "proposal_sha256": "14a26ad6cd5220fd5eb8f3b06e43a16cf3336ec822419310e4728dbe07c011fa",
+          "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-003-4cea/publication-entry-changes-r2.json",
+          "changes_sha256": "c5f1b855a21bd364644b7403d549875248f7dff0bae10d0b2822b4b7cbe41c80",
+          "decision": "approve",
+          "why": "일반약물전체의두배효과로읽힐제목수치를삭제하고금연/의지/약치료주제와항목번호를보존했습니다.본문은실제대조한r1과첫줄외바이트동일:바레니클린대위약2.32/니코틴대체제대위약또는비사용1.55/병용대단일제형1.27/최소6개월endpoint·사업환급범위·56/84일조건이그대로남습니다.",
+          "title_only_replacement_verified": true,
+          "base_proposal_sha256": "311120d29ea648003e81945f359ba9f1751e10e739ff8c7cac17d902b279bfda",
+          "changes_chain": [
+            {
+              "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-003-4cea/publication-entry-changes.json",
+              "sha256": "a1ee33773fb38f0d25ef0ae8596df99efad9e3c4ec031c4adbdd69750454a3dc"
+            },
+            {
+              "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-003-4cea/publication-entry-changes-r2.json",
+              "sha256": "c5f1b855a21bd364644b7403d549875248f7dff0bae10d0b2822b4b7cbe41c80"
+            }
+          ],
+          "limits_retained": [
+            "Reads were cached primary XML/abstract and official PDF, not a fresh live policy status check; original full-text network timestamps unavailable.",
+            "NRT placebo-controlled review read at abstract level only, not entire full text.",
+            "Original unrelated medicine access/brand and clinical safety prose retained; this focused correction is not a new verification of every clinical assertion.",
+            "Official PDF supports displayed program rules; future administrative changes are not guaranteed.",
+            "No self-approval or publication; independent exact-hash review required."
+          ],
+          "approval_scope": "정확SHA r2 fullentry.이전r1revise/쉽게승인이력보존.전체출판승인아님.",
+          "incoming_reference_validation": {
+            "references_read_and_exact_lines_matched": 6,
+            "scope": "book-kr/*.md 전체 및 저장소 Markdown의 기존 제목/약부터 구절 rg 검색",
+            "preserved_topics": [
+              "금연",
+              "금연약",
+              "약부터"
+            ],
+            "number_preserved": 3,
+            "reference_files_changed": false
+          }
+        }
+      ],
+      "formal_kr_fit": false,
+      "publication_ready": false
     }
   ],
   "editorial_revision_reviews": [
@@ -4951,5 +5657,1223 @@
     ],
     "formal_kr_fit": false,
     "whole_chapter_approval": false
+  },
+  "canonical_closure_followup": [
+    {
+      "reviewed_at_utc": "2026-10-18T14:33:46.898496+00:00",
+      "entry3": "기존쉽게승인도RR1.27을20%쯤으로유지하므로초기수치지적미해결.약27%/약30%와사업내본인부담환급범위명시를A에게별도exactSHA수정요청.",
+      "entry20": "r3쉽게에서장기8%제거,이득/비고가진단후장기경과임을구분하고자가금주급성치사율로옮기지않음.심한혼란/전신떨림의즉시응급진료조건이기존NHS실제원문대조로확인되어안전/설계지적해결.국내진료비세부적용범위는미확인유지."
+    }
+  ],
+  "publication_style_reviews": [
+    {
+      "entry": 5,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-005-6d11/publication-style-corrections.json",
+      "proposal_sha256": "a7460a9e9e3e848dd500d67de317f9f6c17c424668a3d33a09297c3f21d8c758",
+      "decision": "approve",
+      "field": "쉽게",
+      "before": "약과 정기 상담은 함께 이용하세요. 약과 전문가 상담을 병행한 금연 성공률은 일반 진료나 짧은 조언만 받은 경우의 1.83배입니다. 상담사가 먼저 건 전화 상담을 받은 경우는 약 25% 높았습니다.",
+      "after": "약과 정기 상담은 함께 이용하세요. 약과 전문가 상담을 병행한 금연 성공률은 1.83배입니다. 비교 대상은 일반 진료나 짧은 조언만 받은 경우입니다. 상담사가 먼저 건 전화 상담을 받은 경우는 약 25% 높았습니다.",
+      "depends_on": {
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-005-6d11/publication-entry-proposal.md",
+        "sha256": "e72d40f94747fb2628bd801bb8a4b2a284c8bb6509431430c4bba79690b9fa9f",
+        "order": "Apply only after independently approved full-entry replacement; exact before must match once.",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-005-6d11/publication-entry-changes.json",
+        "changes_sha256": "c36008664aa543fad8fbf9f7bbaa48af5808b7100282890086a3e51e52d24bf8"
+      },
+      "order": "fullentry 제5항 교체 후, 해당 before 한번을 치환. 기존 editorial 쉽게는 따로 적용하지 않음.",
+      "expected_result_entry_sha256": "ea726d7d04a7d01ea321992997fcd4818706e8e7eb0dd2f62c5b1670988db285",
+      "why": "53자문장을 수치/비교대상 유지한 두문장으로 분할. 쉽게120자/4문장. 새 사실 없음."
+    }
+  ],
+  "canonical_finding_closure": [
+    {
+      "number": 1,
+      "initial_status": "warn",
+      "initial_finding": "미국 원초록의 기대수명 10년·금연연령별 10/9/6년, 중국 원문의 도시 RR1.65·농촌1.22 확인. 농촌은 ‘1.22배 높습니다’보다 ‘1.22배입니다(약22% 높음)’가 분명합니다. 담뱃값·금단기간은 국내 가격·임상 근거 미확인; 2004년 간접흡연 수치의 연도는 보존합니다.",
+      "approved_resolution": "농촌 mortality rate ratio 1.22를 22% 높음으로, 도시1.65를65% 높음으로 정확화했습니다. 미국 금연연령·회복수명과2004 세계간접흡연 추정치는 실제 원초록 일치. 개인 누적확률 계산 없음.",
+      "resolution_reference": {
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-001-1c88/publication-entry-proposal.md",
+        "proposal_sha256": "321498bb8e6b8851d7457f526a165a8a0b8ef2b3436362fed5b03cb25ec6e58a"
+      },
+      "integration_finding_status": "known_correction_or_scope_limit_approved",
+      "remaining_verification": "국내담뱃값·금단기간 새검증아님.",
+      "publication_verification_status": "recorded_limits_not_general_publication_clearance"
+    },
+    {
+      "number": 2,
+      "initial_status": "block",
+      "initial_finding": "쉽게의 ‘세 명 중 한 명’은 원초록 28%와 다릅니다. 2004년 세계 추정임을 쉽게에도 표시하세요. OR1.28/1.39/1.36을 발생확률 30% 증가로 동일시하지 마세요. 57연구·질환별 OR는 원초록과 일치. 집 안/밖 비교는 관찰자료의 차이이며 장소 자체의 독립 인과효과로 단정하지 않습니다.",
+      "approved_resolution": "2004세계603,000·아동28%를복원하고3명중1명/OR를발생확률로동일시하던표현을고쳤습니다.57연구질환별OR및CI는원초록일치.집노출대비집이외노출을실내대실외직접인과비교로확정하지않고대상·노출조건미확인한계를독자에게고지합니다.",
+      "resolution_reference": {
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-002-4b65/publication-entry-proposal.md",
+        "proposal_sha256": "5e44f647b991ececbc55b1e669e3c8560a5a260adf51ec0753cf0ec783ffa0a1"
+      },
+      "integration_finding_status": "known_correction_or_scope_limit_approved",
+      "remaining_verification": "집노출 대 비집노출을 실내 대 실외의 독립인과효과로 확정하지 않음.",
+      "publication_verification_status": "recorded_limits_not_general_publication_clearance"
+    },
+    {
+      "number": 3,
+      "initial_status": "warn",
+      "initial_finding": "바레니클린 RR2.32·NRT1.55·병용1.27과 각 분모를 원문/초록에 대조했습니다. 병용 27%를 20%로 요약하기보다 ‘약30%’가 낫습니다. 공단 PDF에서 연3차수, 1~2회20%, 3~6회면제, 이수 환급 확인. 환급은 사업 내 본인부담금이며 모든 진료비 전부라는 뜻으로 확대하지 마세요. 6회 또는 약제별56/84일 조건을 유지합니다.",
+      "approved_resolution": "일반약물전체의두배효과로읽힐제목수치를삭제하고금연/의지/약치료주제와항목번호를보존했습니다.본문은실제대조한r1과첫줄외바이트동일:바레니클린대위약2.32/니코틴대체제대위약또는비사용1.55/병용대단일제형1.27/최소6개월endpoint·사업환급범위·56/84일조건이그대로남습니다.",
+      "resolution_reference": {
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-003-4cea/publication-entry-proposal-r2.md",
+        "proposal_sha256": "14a26ad6cd5220fd5eb8f3b06e43a16cf3336ec822419310e4728dbe07c011fa"
+      },
+      "integration_finding_status": "known_correction_or_scope_limit_approved",
+      "remaining_verification": "기존공단PDF 재열람; 실시간정책현행성·임상모든문장 재검증아님.",
+      "publication_verification_status": "recorded_limits_not_general_publication_clearance"
+    },
+    {
+      "number": 4,
+      "initial_status": "block",
+      "initial_finding": "‘철회돼 더는 갱신되지 않습니다. 현재 가장 좋은 근거는 위의 무작위 시험’은 대체 리뷰 누락입니다. 2019 Smoking reduction interventions for smoking cessation(CD013183.pub2)은 22시험9,219명에서 RR1.01(0.87–1.17), 중간 확실성으로 장기 금연 우열을 확인하지 못했습니다. 2016 단일시험 22.0%/15.5%는 맞지만 제목 ‘서서히 줄이지 마세요’의 전면 금지 근거가 아닙니다. 기존 수치와 새 종합결론을 함께 제시하고 선호·치료지원에 따라 선택하도록 수정하세요.",
+      "approved_resolution": "2016영국시험의두집단NRT조건으로귀속을명확히했고선사용시점을의사·약사와상담하도록제한해frozen초안에대한두수정요청을해결했습니다. 기존검증수치·새DOI와금연일앵커를유지합니다.",
+      "resolution_reference": {
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-004-87e1/publication-entry-proposal-r2.md",
+        "proposal_sha256": "e87a1c82e8c06fe72692141df370194afccdae2e6b8c48c8f01261fca9f3812b"
+      },
+      "integration_finding_status": "known_correction_or_scope_limit_approved",
+      "remaining_verification": "2016개별시험과2019종합의 범위를 구별. NRT시험조건을 일괄자가처방으로 확대하지 않음.",
+      "publication_verification_status": "recorded_limits_not_general_publication_clearance"
+    },
+    {
+      "number": 5,
+      "initial_status": "warn",
+      "initial_finding": "약물+행동지원 RR1.83·전화 RR1.38/1.25는 원초록 확인. 전화번호1544-9030·무료·17센터는 공식 페이지 직접 확인. 전국 금연지원서비스 모두가 동일한 상담4~8회/회30~60분이라는 근거는 없습니다. 센터 페이지는 4박5일·6개월9회 이상도 제시합니다. 일반 상담의 예시와 국내 프로그램을 구분하세요.",
+      "approved_resolution": "시험에서 계획한 행동지원4~8회/총30분초과~300분미만을 국내서비스 이용시간과 구분했습니다. 원초록52시험19,488명·최소6개월금연RR1.83/의료기관43시험1.97, 전화상담14시험32,484명RR1.38/65시험41,233명RR1.25와 중간확실성이 일치합니다. 공식 서비스 RAW에서 무료/17센터/4박5일/6개월9회이상을 실제 확인했고 공단사업 본인부담금 범위로 환급을 한정했습니다.",
+      "resolution_reference": {
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-005-6d11/publication-entry-proposal.md",
+        "proposal_sha256": "e72d40f94747fb2628bd801bb8a4b2a284c8bb6509431430c4bba79690b9fa9f"
+      },
+      "integration_finding_status": "known_correction_or_scope_limit_approved",
+      "remaining_verification": "국내서비스가 외국시험과 동일효과 보장아님. 원리뷰전체본문 미열람.",
+      "publication_verification_status": "recorded_limits_not_general_publication_clearance"
+    },
+    {
+      "number": 6,
+      "initial_status": "block",
+      "initial_finding": "pub11 원문에서 80RCT29,861명, NRT대비 RR1.61·11시험4,114명·추가4/100·SAE RD0.01 확인. 비교군은 니코틴 대체요법 전체이며 쉽게의 ‘니코틴 패치’ 단독 비교로 축소하면 안 됩니다. 액상형 전자담배 연구를 궐련형 가열담배로 확대하지 않도록 명시하세요. 합성니코틴 2026.4.24 규제와 6월 보도자료는 실제 HTTPS 열람. 법 제12조 판매규정의 직접 조문 열람 상태는 아래 기록. ‘금연약이 근거도 더 확실’은 제품/비교별로 달라 일괄 단정하지 마세요.",
+      "approved_resolution": "NRT전체대비RR1.61을패치단독으로축소하던오류와액상형/궐련형범위를고쳤고장기안전성불확실성을유지했습니다. 80RCT29,861명·11시험4,114명·추가4/100·RD0.01및CI를원문과대조했습니다. 새직접조문확인으로12조2항·4항의미확인을해소했습니다. 니코틴정의확대·금연구역은이전공식보도자료열람근거를유지합니다.",
+      "resolution_reference": {
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-006-8fb2/publication-entry-proposal.md",
+        "proposal_sha256": "c4c5f315f9efe395e90677b854948687d2e66d19490f0a992f58e1450dee8ece"
+      },
+      "integration_finding_status": "known_correction_or_scope_limit_approved",
+      "remaining_verification": "법12조직접열람/정의공식발표 범위. 모든광고·유통세부조항/장기안전검증아님.",
+      "publication_verification_status": "recorded_limits_not_general_publication_clearance"
+    },
+    {
+      "number": 7,
+      "initial_status": "block",
+      "initial_finding": "Malik·EPIC 원초록/EPIC 원문에서 단 음료 HR1.21/1.14, 제로HR1.26 확인. 단위는 잔/serving이며 ‘병’으로 치환할 수 없습니다. 각 음료군의 관찰연관은 단 음료를 제로로 바꾸는 대체 효과를 직접 검증하지 않습니다. 제목·쉽게의 ‘제로로 바꿀 이득 없음’은 해당 비교를 실시하지 않았다는 뜻으로 수정해야 합니다.",
+      "approved_resolution": "미국1회분/유럽약250mL를구분하고HR1.21/1.14및1.08/1.26의분모·구간을보존했습니다. 병을잔으로정정했고각음료군비교만으로제로전환효과를알수없다고제한했습니다. HR를절대사망확률로동일시하지않는문장이있습니다. 제16절incoming앵커‘당분음료를마시지마세요’주제는제목에보존됩니다.",
+      "resolution_reference": {
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-007-a8ec/publication-entry-proposal.md",
+        "proposal_sha256": "379ff6458fb73f6d3d27d62a37079b3ba7184f0e9552e2ee4137b4f4a0acc8eb"
+      },
+      "integration_finding_status": "known_correction_or_scope_limit_approved",
+      "remaining_verification": "단음료/제로 각각 관찰비교이며 직접교체효과 미확인.",
+      "publication_verification_status": "recorded_limits_not_general_publication_clearance"
+    },
+    {
+      "number": 8,
+      "initial_status": "warn",
+      "initial_finding": "17연구388,134명 전체와 사망 하위분모179,582명·RR1.21, 당뇨1.47·대사1.51은 원문 대조. 씹는 양/기간 및 금단 뒤 암위험 감소까지는 인용 논문의 해당 암 원자료를 추가 확인하지 못했습니다. 빈랑 혼합물과 열매 자체, 담배 포함 여부를 구분하고 암 관련 1차 근거를 보강하세요.",
+      "approved_resolution": "주노출이 빈랑 열매를 포함한 혼합물임을 구분했습니다. 원문 17연구388,134명, 사망4연구179,582명/5.5–12.1년, 남성당뇨2연구51,412명, 대사증후군3연구23,291명 및 원문 RR값/CI를 대조했습니다. 원자료 risk ratio/HR/OR 혼합을 고지하고 개인확률로 변환하지 않습니다. 인용분석 밖의 암·용량/기간·금연후효과 단정을 제거해 실제 확인범위로 제한했습니다.",
+      "resolution_reference": {
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-008-5b8c/publication-entry-proposal.md",
+        "proposal_sha256": "c085fa447776ed3f497fc56fd14ab8d767195a368540ae7e6915afc06f44e3eb"
+      },
+      "integration_finding_status": "known_correction_or_scope_limit_approved",
+      "remaining_verification": "암원자료 별도미열람; 암수치/용량기간/중단효과를확정하지않도록범위축소.",
+      "publication_verification_status": "recorded_limits_not_general_publication_clearance"
+    },
+    {
+      "number": 9,
+      "initial_status": "warn",
+      "initial_finding": "SSaSS 원초록: 600마을20,995명, 뇌졸중 병력 또는60세이상 고혈압, 평균4.74년, 염화나트륨75%/염화칼륨25%, rate ratio .88/.86/.87 확인. 쉽게의 ‘5년 안에 죽을 확률12% 감소’는 발생률비의 대략풀이이므로 연구 추적기간과 누적확률을 같게 쓰지 않는 편이 정확합니다. 고칼륨 관련 중증사건 차이 미검출은 신장질환자의 안전성 확정이 아닙니다. 신장질환·칼륨잔류약은 의사 확인 조건을 반드시 유지. 국내 가격차는 미확인.",
+      "approved_resolution": "600마을 무작위배정·20,995명·평균4.74년·75/25소금 및 endpoint별1000인년 발생률과 rate ratio가 원초록 일치. PURE의 추정배설량 기준4.00–5.99g와 OR1.27/1.15를 확률증가로 쓰지 않습니다. 젊은층 이득이 작다는 미측정 단정을 제거하고 신장/약물 선상담을 보존합니다.",
+      "resolution_reference": {
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-009-bdd7/publication-entry-proposal.md",
+        "proposal_sha256": "7dad227071a15f0f727e2aadf52a0403519300d08bec42fe2ee53759daeaf479"
+      },
+      "integration_finding_status": "known_correction_or_scope_limit_approved",
+      "remaining_verification": "PURE연결정정본문미열람; 국내가격/맛·건강한젊은층/신장질환안전성 미확인.",
+      "publication_verification_status": "recorded_limits_not_general_publication_clearance"
+    },
+    {
+      "number": 10,
+      "initial_status": "block",
+      "initial_finding": "JAGES9,676명6년·HR.89/.77, 노인 치아수 OR1.87/2.04는 원초록 확인. 도구 사용 여부의 연구를 ‘매일’ 사용효과로 좁히지 마세요. OR를 사망확률 두배로 바꾸지 마세요. NHIS 공식 원문은 예방 목적 단독 스케일링의 연1회 급여와 치주질환 치료 관련 별도 급여를 구분합니다. ‘한 해 두번째부터 건강보험 안 됨’ 전면 단정을 예방 목적에 한정하세요.",
+      "approved_resolution": "치간도구매일사용효과단정을사용여부비교로정정했습니다. 일본스스로생활하는유치아노인과50세이상통합분석을구분하며OR1.87/2.04를확률배수로전환하지않습니다. 예방목적단독스케일링연1회와치주질환치료관련예외를공단원문에맞게정정했습니다. 제24절‘빠진이치료’주제앵커보존.",
+      "resolution_reference": {
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-010-2bba/publication-entry-proposal.md",
+        "proposal_sha256": "e9d1fd2559055777dae3ca5e74cc4cb1da87673410832347e43fe08c0816f211"
+      },
+      "integration_finding_status": "known_correction_or_scope_limit_approved",
+      "remaining_verification": "예방목적단독스케일링과치주치료급여구분; 모든치과행위비용확인아님.",
+      "publication_verification_status": "recorded_limits_not_general_publication_clearance"
+    },
+    {
+      "number": 11,
+      "initial_status": "warn",
+      "initial_finding": "47,471명·3,013사망·분위별 걸음수3553/5801/7842/10901·HR.60/.55/.47, 연령별 정체구간은 원초록 확인. 운동시간 연구의7.5~15MET·h/주는 걸음수 연구와 다른 비교입니다. ‘하나만 채우면 됩니다’는 두 측정법이 모든 개인에게 정확히 등가라는 뜻으로 읽히지 않게 하세요. 한국 활동지침 페이지는 열었으나 첨부 지침 원문의 해당 권고문은 아직 직접 대조하지 못했습니다.",
+      "approved_resolution": "걸음수와 시간의 정확 등가·둘중하나 충족 논리를 제거하고 대략환산으로 한정했습니다. Paluch/Arem/Banach 원초록과 Ekelund XML 초록에서 분모·기간·HR·활동측정방법이 일치합니다. 이전 승인 쉽게를 fullentry에 포함하므로 별도 중복적용하지 않습니다.",
+      "resolution_reference": {
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-011-ed84/publication-entry-proposal.md",
+        "proposal_sha256": "732c9758957cda416b9d39f7592113351ac6145ab86c468bcbce6a4f51dc214d"
+      },
+      "integration_finding_status": "known_correction_or_scope_limit_approved",
+      "remaining_verification": "국내활동지침첨부해당권고·시간비용환산·Banach정정문미열람.",
+      "publication_verification_status": "recorded_limits_not_general_publication_clearance"
+    },
+    {
+      "number": 12,
+      "initial_status": "block",
+      "initial_finding": "혈압 RR.87/.80/.73/.72와 CTT LDL1.0mmol/L당.90/.78은 원문/초록 확인. 쉽게의 ‘1 단위’는 한국에서 흔히 쓰는 mg/dL 1과 혼동돼 필수 단위를 잃습니다. mmol/L를 명시하거나 LDL수치 상세는 이득에 남기고 쉽게는 처방약 유지와 방향만 요약하세요. 복약순응 .55/.71은 관찰 비교임을 유지. 모든 처방약 하루1회라는 단정은 처방마다 다르므로 고칩니다.",
+      "approved_resolution": "1단위를1.0mmol/L로바꿔mg/dL와의혼동을막고모든약하루1회단정을삭제했습니다. 혈압10mmHg당RR.87/.80/.73/.72와CTT LDL단위당.90/.78, 순응도80%이상대미만.55/.71은원초록에일치합니다. 순응도교란을‘크게잡혔을수있다’로제한하고처방대상·임의중단금지를유지했습니다. CTT의원보고RR는rate ratio임을감사에명시하며절대확률로역산하지않습니다.",
+      "resolution_reference": {
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-012-3296/publication-entry-proposal.md",
+        "proposal_sha256": "bc01318e15559bd2d482d947d25e510894ad4971dd08e0a59769689960517129"
+      },
+      "integration_finding_status": "known_correction_or_scope_limit_approved",
+      "remaining_verification": "처방약마다 복용횟수다름; 모든개인의목표혈압/LDL처방을정한것아님.",
+      "publication_verification_status": "recorded_limits_not_general_publication_clearance"
+    },
+    {
+      "number": 13,
+      "initial_status": "block",
+      "initial_finding": "7시간 최저점의 용량반응과 수면규칙성·사회적시차 수치는 각 원문/초록 확인. Cappuccio의 short sleep RR1.12는 원연구별 짧은 수면 정의가 다르며 단일 ‘7시간 미만’ 집단의 효과가 아닙니다. 7시간 기준 연구와 RR1.12의 비교정의를 합치지 마세요. 규칙적 네 분위20~48% 감소를 최상분위 한 집단의 범위로 표현하지 않습니다. ‘대부분 역인과’는 비율을 검증한 결론이 아니므로 가능성으로 제한하세요.",
+      "approved_resolution": "Cappuccio연구별짧은수면기준≤4시간부터<7시간범위를원문HTML에서확인했습니다. 비교기준도다르므로RR1.12를일률7시간미만효과로묶지않게고친점이적합합니다. 규칙성네분위20~48%와최저분위비교를보존하고‘대부분역인과’를가능성으로낮췄습니다. Yin용량반응1.06/1.13과Kumar사회적시차≥2시간HR1.30을각연구범위로유지합니다.",
+      "resolution_reference": {
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-013-0d52/publication-entry-proposal.md",
+        "proposal_sha256": "9639cea2bd2caa9bc28de840c4a2fad50f490357979aa7acae24c1190969e1b5"
+      },
+      "integration_finding_status": "known_correction_or_scope_limit_approved",
+      "remaining_verification": "역인과가능성·다른짧은수면정의구분; 모든사람에게7시간필수량보장아님.",
+      "publication_verification_status": "recorded_limits_not_general_publication_clearance"
+    },
+    {
+      "number": 14,
+      "initial_status": "block",
+      "initial_finding": "80,306명 라켓 HR.53·심혈관.44·수영.72/.59 등은 원초록 확인. 이 연구는 운동종류별 관찰 비교이며 ‘주3회45분’이라는 최적 처방을 검증하지 않습니다. 출처 없는 횟수·시간을 제목의 확정 권고로 두지 마세요. 비용 국내 코트1만원은 근거 미확인. ‘라켓 참여자는 원래 더 건강’도 가능성으로 적어야 합니다.",
+      "approved_resolution": "r2이득에초록56%·논의59%가일치하지않음을독자에게직접고지했습니다. 실제현재출판사HTML재조회에도결과HR.44/56%와논의59%가함께있어과거초록만의차이를영구모순으로만든것이아닙니다. 기존주3회45분처방삭제·라켓노출정정과다른수치보존을유지해approve.",
+      "resolution_reference": {
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-014-2e30/publication-entry-proposal-r2.md",
+        "proposal_sha256": "9585db5f13dc584f87b8f1d3a6095ea73bf86b8e94c2c742712ee2f0894bd069"
+      },
+      "integration_finding_status": "known_correction_or_scope_limit_approved",
+      "remaining_verification": "실제현재출판사결과HR.44/토론59%차이고지; 국내코트비미확인/주3회45분최적량미확인.",
+      "publication_verification_status": "recorded_limits_not_general_publication_clearance"
+    },
+    {
+      "number": 15,
+      "initial_status": "block",
+      "initial_finding": "원문25,241 비운동인·6.9년852사망, 3 bouts와4.4분 각각의 감소폭 확인. 대조군은 VILPA가 없는 사람이지 ‘전혀 움직이지 않는 사람’이 아닙니다. 쉽게의 분모를 고치세요. 원문은 운동하는62,344명에서도 유사 결과를 제시하므로 ‘이미 운동하는 사람에게 적용되지 않는다’는 전면 배제는 연구전체 설명과 맞지 않습니다. 두 분석을 구분하세요.",
+      "approved_resolution": "주분석25,241명·평균6.9년852사망,각VILPA비교감소폭과운동인62,344명별도분석을원문방법·결과에서대조했습니다. 비운동인선정은기기측정보다평균5.5년전설문,여가산책주1회이하라는조건이맞습니다. 대조군을전혀움직이지않는사람에서해당짧은격한활동이없는사람으로정정하고운동인전면배제를없앴습니다. 인과·운동인추가효과를시험한것아님을본문에유지합니다.",
+      "resolution_reference": {
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-015-901a/publication-entry-proposal.md",
+        "proposal_sha256": "d559da9d859da3f4c42a4221707ff3bab94580c3498165c6f0124cf37025664c"
+      },
+      "integration_finding_status": "known_correction_or_scope_limit_approved",
+      "remaining_verification": "비운동인과운동인별분석구분; 관찰활동을강제개입효과로확정하지않음.",
+      "publication_verification_status": "recorded_limits_not_general_publication_clearance"
+    },
+    {
+      "number": 16,
+      "initial_status": "warn",
+      "initial_finding": "원문16연구·근력활동과10~17%낮은 위험·30~60분 부근 최대10~20% 감소 확인. 더 큰 운동량의 효과는 불확실하다는 결론입니다. ‘그 이상 추가 이득 없음’을 확정 상한으로 단정하지 마세요. 한국 활동지침의 근력운동 빈도와 연구의 시간량을 구분하세요.",
+      "approved_resolution": "전체 사망 7연구·263,058명·42,133사망의 RR0.85(0.79–0.93)에 맞게 약15%로 귀속했습니다. 다른 결과를 합친 10~17% 범위를 사망에만 적용한 오류를 해결했습니다.",
+      "resolution_reference": {
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-016-71f0/publication-entry-proposal-r2.md",
+        "proposal_sha256": "2bb09014b52824face59aa70d32383d203137d55a426b25ac518a388d601a97b"
+      },
+      "integration_finding_status": "known_correction_or_scope_limit_approved",
+      "remaining_verification": "사망약15%로결과귀속수정; 높은운동량효과/한국빈도지침과시간량구분.",
+      "publication_verification_status": "recorded_limits_not_general_publication_clearance"
+    },
+    {
+      "number": 17,
+      "initial_status": "warn",
+      "initial_finding": "좌식 총시간HR2.63·회당1.96, 활동60~75분 및8시간이상/4시간미만 비교HR1.59·활동최상군1.04는 원초록 확인. 위험 상쇄는 관찰상 통계적 차이가 뚜렷하지 않았다는 뜻입니다. 모든 개인의 좌식위험을 운동이 제거한다고 보장하지 마세요. TV시청은 별도노출이며 총좌식과 혼합하지 않습니다.",
+      "approved_resolution": "각사분위 비교 HR2.63/1.96의 노출을 총좌식/평균연속좌식으로 나눴습니다. 백만명분석의 최소활동+좌식>8시간HR1.59와 최고활동층>8시간HR1.04를 다른비교로 명시하고60~75분중강도는 최고활동층의 해석량임을 보존했습니다. TV시청3시간/최고활동층5시간을 총좌식과 구분하고 관찰결과가 개인위험소거 보장이 아님을 밝힙니다.",
+      "resolution_reference": {
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-017-5e24/publication-entry-proposal.md",
+        "proposal_sha256": "8f5a54f45df14bbed85fbc73a041872a7fa738ad2652aff5e2fae298d0677628"
+      },
+      "integration_finding_status": "known_correction_or_scope_limit_approved",
+      "remaining_verification": "정정DOI서지조회성공/출판사HTTPS터널403;정정내용미확인. 원초록범위.",
+      "publication_verification_status": "recorded_limits_not_general_publication_clearance"
+    },
+    {
+      "number": 18,
+      "initial_status": "warn",
+      "initial_finding": "높은/낮은 섭취 비교RR1.23/1.29/1.10 및 일일1인분당1.23/1.10은 서로 다른 논문 원초록과 일치. ‘1인분’의 식품별 g 정의가 빠져 한국 햄 한봉지로 오인될 수 있습니다. 해당 원문의 표에서 가공육·붉은고기 기준량을 확인해 이득에 명시해야 합니다. NutriRECS의 약한 권고와 관찰근거 불확실성은 남기세요.",
+      "approved_resolution": "2014 최고대최저 비교와2017 하루serving증가 비교를 나눴습니다. 2014 미가공육RR1.10 CI.98–1.22와2017RR1.10 CI1.04–1.18이 다른 점을 반영해 유의차없음을2014에 한정했습니다. 미확인 식품별그램을 임의추정하지 않고 한국식당인분 환산불가를 독자에게 고지했습니다. NutriRECS 낮은확실성/약한권고를 원초록 범위로 보존합니다.",
+      "resolution_reference": {
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-018-d3c8/publication-entry-proposal.md",
+        "proposal_sha256": "cd4bcd0c91516919908d5013c0e48bb4a7a74229aa93ef21b7c80ae9ea8b9d96"
+      },
+      "integration_finding_status": "known_correction_or_scope_limit_approved",
+      "remaining_verification": "식품별serving그램 원문미열람을한국식당환산불가고지로제한. NutriRECS연결정정미열람.",
+      "publication_verification_status": "recorded_limits_not_general_publication_clearance"
+    },
+    {
+      "number": 19,
+      "initial_status": "block",
+      "initial_finding": "Wood 원문에서 기대수명6개월/1~2년/4~5년은 현재음주자 주0~100g 기준과 비교한 모델 추정입니다. 쉽게에서 비교군을 빼면 평생금주자와의 차이로 읽힙니다. 기준집단을 밝혀야 합니다. 5%맥주2.5L·40%증류주300mL는 근삿값이며 동일100g의 정밀환산값이 아닙니다. GBD2016의0최저 결론은 해당연구의 결과로 귀속하고 모든연령/현재지침의 유일 결론으로 단정하지 마세요. 금단경고 유지.",
+      "approved_resolution": "r2가GBD의불확실성상한수치를제거하고초록주당/결과하루단위차이를독자본문에고지했습니다. 연결된정정공지두건을직접읽었으나이단위수정을명시하지않고현재새XML에도두표기가있음을확인했습니다. 금주최저방향·Wood현재음주자기준및모델한계는보존합니다. 확인한버전의표기차이라는범위를넘어영구미해결이라단정하지않고approve.",
+      "resolution_reference": {
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-019-e80d/publication-entry-proposal-r2.md",
+        "proposal_sha256": "b2a963b66f25a48485911b66cdc006d66a51a94c123f5e7fcf05e9ddcfd437ba"
+      },
+      "integration_finding_status": "known_correction_or_scope_limit_approved",
+      "remaining_verification": "실제GBD초록week/본문day차이고지;두연결정정은다른내용이고현재XML에도차이존재.현행전연령지침확정아님.",
+      "publication_verification_status": "recorded_limits_not_general_publication_clearance"
+    },
+    {
+      "number": 20,
+      "initial_status": "warn",
+      "initial_finding": "노르웨이36,287명·연간8.0/5.0/3.6%·SMR9.8은 원초록 확인. 이는 자가 금주의 급성 치사율이 아닌 진단 이후 장기 사망입니다. 그 구분은 현 후보 비고에 있어 유지해야 합니다. 금단이 의심되면 병원 도움을 받아 끊는 조건과 심한 증상의 긴급성은 짧게라도 남기세요. 국내 진료/입원비 건강보험 적용의 세부범위는 이번에 직접 대조 못했습니다.",
+      "approved_resolution": "쉽게r3의병원도움/즉시응급조건과기존이득·비고장기경과설명으로해결.8%는쉽게에서제거.",
+      "resolution_reference": {
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-020-e74f/editorial-proposal-r3.json",
+        "proposal_sha256": "2e9daf0df5d2719deaa1e17b958cda00373f288bca40a708d6f3e8cc1c40d9d6"
+      },
+      "integration_finding_status": "known_correction_or_scope_limit_approved",
+      "remaining_verification": "급성자가금주치사율아닌진단후장기경과. 국내진료/입원비세부급여범위 미확인.",
+      "publication_verification_status": "recorded_limits_not_general_publication_clearance"
+    },
+    {
+      "number": 21,
+      "initial_status": "warn",
+      "initial_finding": "34시험15,197명·1년주20g감소는 총69연구 중 주분석 분모입니다. Jonas 전체122RCT+1코호트22,803명과 약별NNT12의 음주재발/폭음재발 구별 확인. ‘122무작위시험22,803명’은 전체표본에 코호트1편 포함임을 보완하세요. 간단상담 무료 보장은 국내 수가 확인이 필요합니다. 레비아정 허가/50mg·아편사용 사전확인 조건을 공식 제품원문에서 확인했습니다. 처방·의사판단을 생략하지 마세요.",
+      "approved_resolution": "34시험15,197명·1년주20g상담효과와122RCT+1코호트22,803명검토전체분모를원초록에대조했습니다.약별NNT분석인원과전체검토규모를구분하고≥12주선정·음주재발/폭음재발조건을보존했습니다.무료상담보장을제거하고날트렉손의사처방/7~10일아편사용확인조건은이전실제의약품안전나라원문과대조했습니다.모든심리사회중재세부프로토콜·모든부록을검증했다는뜻아닙니다.",
+      "resolution_reference": {
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-021-e337/publication-entry-proposal.md",
+        "proposal_sha256": "4c16dc23d46a2e4ceccfeacd4af00faa05c5b44b80ca71a0e1c60f93a1fc15a1"
+      },
+      "integration_finding_status": "known_correction_or_scope_limit_approved",
+      "remaining_verification": "처방·아편사전확인보존;모든심리사회중재부록/국내수가검증아님.",
+      "publication_verification_status": "recorded_limits_not_general_publication_clearance"
+    },
+    {
+      "number": 22,
+      "initial_status": "warn",
+      "initial_finding": "두 코호트76,464여성+42,498남성·3,038,853인년, 주별.93/.89/.87/.85/.80은 원초록 확인. 첫쉽게의 ‘먹는 사람20%’는 주7회이상 범위로 한정해야 하며 모든섭취자 평균효과가 아닙니다. 국내28g월몇만원과 비흡연/질환배제 세부조리 기준 원문은 미확인. 견과는 원래 간식에 추가하기보다 열량주의를 유지합니다.",
+      "approved_resolution": "사망20%낮음의 노출이 주7회이상임을 쉽게와 이득에 복원했습니다. BioC 원문에서76,464여성/42,498남성·3,038,853인년·1회28g·빈도별HR/CI·비흡연자만이 아닌 본분석/흡연자제외 민감도분석을 확인했습니다. 조리방법 미측정을 밝혔습니다.",
+      "resolution_reference": {
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-022-1d39/publication-entry-proposal.md",
+        "proposal_sha256": "176145c0e7e4737813aeb5f02b1a73c78a2234cd491680ad892bc866d3b0c37d"
+      },
+      "integration_finding_status": "known_correction_or_scope_limit_approved",
+      "remaining_verification": "조리법별비교미조사·국내가격미검증;열량주의보존.",
+      "publication_verification_status": "recorded_limits_not_general_publication_clearance"
+    },
+    {
+      "number": 23,
+      "initial_status": "block",
+      "initial_finding": "HR.99/.99는 생선·가금육 섭취가 주2인분 늘 때의 독립 연관성입니다. 원초록은 육류를 동량 생선·가금육으로 바꾸는 대체분석 결과라고 하지 않습니다. 쉽게·이득의 ‘바꾸면’은 이 수치의 해석을 바꾸므로 삭제/정정. 가공육·살코기 각각HR1.03은 맞습니다. 실제 대체효과를 말하려면 별도 대체모델 1차 근거가 필요합니다.",
+      "approved_resolution": "가금육·생선HR.99는주2인분추가의독립연관으로정정되었고식품대체효과를직접분석한수치아님을독자본문에명시했습니다. 가공육/살코기HR1.03및각CI는원초록과일치합니다. 제목의생선·가금육선택은저자실천제안이며이수치가대체의인과효과를입증했다는뜻으로확대승인하지않습니다.",
+      "resolution_reference": {
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-023-7dfd/publication-entry-proposal.md",
+        "proposal_sha256": "19d9a03435718e4efccf7714c1dee0743f2b59e14ed96f0ef8bb561eb8becabf"
+      },
+      "integration_finding_status": "known_correction_or_scope_limit_approved",
+      "remaining_verification": "독립섭취증가관찰HR를동량대체모형효과로해석하지않음.",
+      "publication_verification_status": "recorded_limits_not_general_publication_clearance"
+    },
+    {
+      "number": 24,
+      "initial_status": "block",
+      "initial_finding": "BMJ 원문90g/일은 통곡물 식품3인분 예시(빵2장+시리얼1그릇)입니다. 마른통곡물 자체와 통곡물제품 신선중량은 다릅니다. 현미/쌀 문맥에서 무게기준을 생략하면 조리밥90g 또는 마른쌀90g으로 오인됩니다. ‘절반만 바꾸면 최대이득 구간’도 원래 총섭취량이 없는 상태에서는 도출되지 않습니다. 원문 정의를 이득에 보존하고 쉽게는 일부 바꾸기만 제안하세요.",
+      "approved_resolution": "통곡물RR.83(.77~.90)·식품90g3인분·최저위험225g·I²83%를원문에대조했습니다. 다수연구의제품신선중량과일부건조곡물중량차이를설명하고90g마른현미/조리밥처방이아님을명시해단위오독을막았습니다. 절반만교체하면최대이득이라는미지원조건도정정했습니다. AJCN하루1인분RR.92는원초록범위로확인하며그논문전체serving중량까지승인하지않습니다.",
+      "resolution_reference": {
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-024-c727/publication-entry-proposal.md",
+        "proposal_sha256": "f2cd0aeff8995ac5d5681535156539b47f1d0eb3fbc06255c7d73ac285387b08"
+      },
+      "integration_finding_status": "known_correction_or_scope_limit_approved",
+      "remaining_verification": "통곡물식품중량과마른곡물/조리밥중량구분;절반교체로최대이득보장없음.",
+      "publication_verification_status": "recorded_limits_not_general_publication_clearance"
+    },
+    {
+      "number": 25,
+      "initial_status": "block",
+      "initial_finding": "차China-PAR100,902명·중앙추적7.3년·HR.85·50세1.26/1.41년은 원초록 확인. 독소논문 둘은 실제 deterministic/probabilistic·Monte Carlo 위험평가를 했습니다. ‘식이 위험을 계산해내지 못했습니다’는 수행하지 못했다는 뜻이므로 오역입니다. ‘계산한 노출/섭취조건에서 뚜렷한 식이위험을 확인하지 못했다’로 바꾸세요. 우린 차와 고농도추출물의 간독성 구별은 인용 리뷰 초록 확인.",
+      "approved_resolution": "r2는미검증주3잔빈도를제목에서삭제한‘차를드세요’이며나머지검토된본문은r1과동일합니다. incoming제25항제목앵커는book-kr검색에서발견되지않았습니다. 차라는주제·독소/추출물경고와조건을보존하고검증하지못한섭취량권고를강화하지않아approve.",
+      "resolution_reference": {
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-025-1523/publication-entry-proposal-r2.md",
+        "proposal_sha256": "c62bce7810d622172287eb78d74962441b4029d742a6a64675540a64ef531592"
+      },
+      "integration_finding_status": "known_correction_or_scope_limit_approved",
+      "remaining_verification": "섭취조건별독소위험평가와미검출구분;섭취빈도를미검증처방으로쓰지않음.",
+      "publication_verification_status": "recorded_limits_not_general_publication_clearance"
+    },
+    {
+      "number": 26,
+      "initial_status": "block",
+      "initial_finding": "Poole 원문3~4잔·RR.83(.79–.88) 관찰연관 확인. 이 논문은 설탕·크림을 넣으면 이득이 상쇄된다는 직접 비교 근거를 제공하지 않습니다. 설탕·크림 제한 권고와 효과완전상쇄 단정을 분리하세요. 잔당부피·카페인함량이 정해지지 않은 채 하루3~4잔 처방을 강하게 내리지 마세요. 임신·불면 등 예외 유지.",
+      "approved_resolution": "2018BMJ정정문k194에맞게CI0.79~0.88을확정하고옛0.83~0.88오기를정정사실로고지했습니다. 쉽게의사망건수표현을사망위험으로바꾸고메타제목을명사형주제제목으로고쳤습니다. 원문관찰범위·증량권고아님·첨가물직접비교부재한계를보존합니다.",
+      "resolution_reference": {
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-026-c168/publication-entry-proposal-r2.md",
+        "proposal_sha256": "f249d914ac9a2a7f73e358cf6b6f18915026edc4e9b5a263aa5604a840b51410"
+      },
+      "integration_finding_status": "known_correction_or_scope_limit_approved",
+      "remaining_verification": "bmj.k194정정이RR.83 CI.79–.88을해결.설탕크림효과상쇄/고정잔수처방근거아님.",
+      "publication_verification_status": "recorded_limits_not_general_publication_clearance"
+    },
+    {
+      "number": 27,
+      "initial_status": "warn",
+      "initial_finding": "Aune 원문200g당RR.90와 최대800g, Wang 원초록5vs2인분HR.87 및 총26코호트 확인. 한 연구의80g기준 인분과 다른 연구 식품별 serving 정의를 같은400g 정밀수치로 합치지 마세요. 과일주스·감자 등 제외 범위를 독자가 5인분에 산입하지 않도록 짧게 보완 권장. 국내권장량은 별도 미확인.",
+      "approved_resolution": "Aune200g당RR.90/800g관찰과80g서빙을 Wang2미국코호트HR.87/26연구RR.87과 구분했습니다. 일괄400g환산과10%인과효과상한 단정을 제거하고 주스/감자/전분채소 범위를 고지합니다.",
+      "resolution_reference": {
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-027-f02c/publication-entry-proposal.md",
+        "proposal_sha256": "649540fae57294f96394b16479d1b3472124b91146a003d788c5111fa56e0fcf"
+      },
+      "integration_finding_status": "known_correction_or_scope_limit_approved",
+      "remaining_verification": "Wang식품별serving전체원문미열람/국내권고량미확인;일괄400g환산삭제.",
+      "publication_verification_status": "recorded_limits_not_general_publication_clearance"
+    },
+    {
+      "number": 28,
+      "initial_status": "warn",
+      "initial_finding": "원문 umbrella RR1.21·심혈관사망1.50과 epidemiological evidence class/GRADE 구별 확인. 서로 다른 등급체계를 ‘높음’과 혼동하지 않게 하세요. ‘반대 결론 연구가 지금까지 없다’는 포괄 부재주장은 이 리뷰 한편으로 검증하지 못했습니다. 중복 권고를 제거할 수 있으나 등급의 불확실성은 보존합니다.",
+      "approved_resolution": "효과 크기의 강도와 근거 분류를 혼동하던 한 문장을 근거를 분류한 기준으로 수정했습니다. 원문의 분류 방법과 GRADE 구별을 보존합니다.",
+      "resolution_reference": {
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-028-ff01/publication-entry-proposal-r2.md",
+        "proposal_sha256": "441857b58bd3091d1b7fefe3918361ee580b1016cc144636aef706f12af6a113"
+      },
+      "integration_finding_status": "known_correction_or_scope_limit_approved",
+      "remaining_verification": "evidenceclass와GRADE구별;전세계반대연구부재주장삭제.관찰근거불확실성보존.",
+      "publication_verification_status": "recorded_limits_not_general_publication_clearance"
+    },
+    {
+      "number": 29,
+      "initial_status": "warn",
+      "initial_finding": "중국271,217명 고체연료조리HR1.11·난방1.14, 전환.87/.67, PM2.5 10µg/m³당RR1.08은 원초록 확인. 한국가구 효과로 직접 옮기지 않는 비고는 유지. 국내교체비와 한국주거보급률은 별도 원자료 미확인. 청정연료도 적절한 환기를 요구한다는 일반 안전조건을 삭제하지 마세요.",
+      "approved_resolution": "공기청정기 사망연구가 전세계에 없다는 주장을 인용한 실외PM연구가 그 효과를 검증하지 않았다는 범위로 제한했습니다. 중국농촌271,217명·평균7.2년·15,468사망, 조리/난방 하위분모, 연료정의 및 각HR이 원초록 일치. PM종합107연구/104추적연구를 PM2.5자연사분모로 동일시하지 않고 RR1.08/10µg/m³와 구분했습니다. 한국보급률/교체비·인과효과 미확인을 밝혔습니다.",
+      "resolution_reference": {
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-029-255c/publication-entry-proposal.md",
+        "proposal_sha256": "d1dfc6d1be584d79a51583d4f83913b7ee31ff929c9989773935af477cc8e292"
+      },
+      "integration_finding_status": "known_correction_or_scope_limit_approved",
+      "remaining_verification": "한국교체비/보급률미확인.인용PM연구는공기청정기사망시험이아님으로한정.",
+      "publication_verification_status": "recorded_limits_not_general_publication_clearance"
+    },
+    {
+      "number": 30,
+      "initial_status": "block",
+      "initial_finding": "이란 사례대조OR2.07/8.16·대기<2분OR5.41은 원문과 일치하지만 쉽게는 ‘위험8배/5배’로 확률비처럼 표현합니다. 이란 특정암 사례대조의 오즈라는 범위를 짧게 한정하고 수치 상세는 이득에 남기는 편이 낫습니다. 2~3분만 기다리면 안전하다는 시간보장은 온도/용기에 따라 달라 원문에서 도출 못합니다. IARC65℃초과2A는 공식 보도자료 직접 확인.",
+      "approved_resolution": "OR2.07/8.16, 300환자571대조·편평세포암, 대기<2분대≥4분OR5.41과CI를원문에서확인했습니다. OR가확률배수가아님을독자본문에밝히고2~3분기다리면안전하다는임의시간기준을삭제했습니다. 초록/본문CI소수점자릿수차이는16.9/16.91·11.1/11.14의반올림정밀도차이로,서로다른추정치충돌로과장하지않습니다.65℃초과2A·커피자체분류불가를IARC공식PDF에대조했습니다.",
+      "resolution_reference": {
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-030-4d4a/publication-entry-proposal.md",
+        "proposal_sha256": "f68f58d4a8673cdeb7837a4d237df408016e4a1d1a95674abba94c664a445891"
+      },
+      "integration_finding_status": "known_correction_or_scope_limit_approved",
+      "remaining_verification": "IARC65도초과분류확인;2~3분대기로안전보장아님.사례대조OR를확률비로변환금지.",
+      "publication_verification_status": "recorded_limits_not_general_publication_clearance"
+    },
+    {
+      "number": 31,
+      "initial_status": "block",
+      "initial_finding": "스웨덴여성29,518명20년·기대수명차.6~2.1년은 원초록 확인. ‘하루 십수분이면 충분’은 이 관찰연구가 정한 안전/유효용량이 아닙니다. 한국위도·계절·피부특성별 보장량으로 제시하지 마세요. 금연위험과의 수치유사성을 햇볕이 흡연을 상쇄한다는 뜻으로 읽히지 않게 하고 피부암주의 유지.",
+      "approved_resolution": "스웨덴여성29,518명·초기25~64세·20년·기대수명차0.6~2.1년은원초록에일치합니다. 하루십수분충분이라는미지원용량을삭제하고한국/계절/피부별보장량을확정하지않으며햇빛이흡연해를상쇄한다는오독을직접차단했습니다. 피부보호조건을보존했습니다. 전체원문노출분류는미열람이므로그범위까지검증승인하지않습니다.",
+      "resolution_reference": {
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-031-7734/publication-entry-proposal.md",
+        "proposal_sha256": "22aa1a574c1bd5718a803ceec52ba9985e6dda8e4baa202f021aa1c53b6e3ab7"
+      },
+      "integration_finding_status": "known_correction_or_scope_limit_approved",
+      "remaining_verification": "관찰스웨덴여성수명을한국개인햇볕십수분처방/흡연상쇄로확정하지않음.",
+      "publication_verification_status": "recorded_limits_not_general_publication_clearance"
+    },
+    {
+      "number": 32,
+      "initial_status": "block",
+      "initial_finding": "BMI239코호트 원문에서 비흡연·질환없음·첫5년생존 조건과 각HR 확인. ‘감량이 총사망률을 낮춘다는 무작위 시험도 없습니다’는 틀립니다. Ma등2017 BMJ j4849 원초록과 원문 직접열람: 비만성인 식이감량±운동, 총사망34시험685사망 RR.82(.71–.95). BMI관찰연관을 감량효과로 환산할 수 없다는 한계는 맞지만 RCT부재 단정은 고쳐야 합니다. 한국진단기준 BMI와 관찰최저위험구간도 구분하세요.",
+      "approved_resolution": "BMI239코호트의기준22.5~<25·선정세조건·각HR및동아시아5kg/m²당1.39를원문에대조했습니다. RCT부재단정대신Ma2017총54시험30,206명·사망분석34시험685사망RR.82(.71~.95)를비만성인식이±운동범위로추가했습니다. HR/RR·절대확률·BMI관찰차이와감량개입을구분했고정상체중감량/한국진단기준으로확대하지않습니다. 쉽게의마지막‘관찰된차이’는BMI관찰비교를가리킨다는본문맥락으로읽습니다.",
+      "resolution_reference": {
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-032-d167/publication-entry-proposal.md",
+        "proposal_sha256": "d3f3cc50ea0982a6f273ee780efc8fdb4949f1f4e0a946712423dfb060f0c603"
+      },
+      "integration_finding_status": "known_correction_or_scope_limit_approved",
+      "remaining_verification": "감량RCT부재오류수정;BMI관찰연관과비만성인개입/한국진단기준구별.",
+      "publication_verification_status": "recorded_limits_not_general_publication_clearance"
+    },
+    {
+      "number": 33,
+      "initial_status": "block",
+      "initial_finding": "원초록의 최상섭취군은 >4 times/week(주4회 초과), 비교군은 없음/드묾입니다. 본문의 ‘4회 이상’과 제목‘네번 이상’은 다른 경계입니다. HR.77/.66 및22,811명·중앙8.2년·1,236사망은 맞습니다. 섭취빈도를 인과적으로 수명연장하는 처방처럼 쓰지 말고 위장관 예외 유지.",
+      "approved_resolution": "고추섭취와사망위험관계라는명사형제목으로메타검토지시를제거했습니다. r1의주4회초과조건·HR/CI·대상과인과한계는그대로보존했습니다.",
+      "resolution_reference": {
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-033-866b/publication-entry-proposal-r2.md",
+        "proposal_sha256": "0efc29aa9c2efaa27768057c55d0a489e46d6ed891e9834762c99ca831d540e9"
+      },
+      "integration_finding_status": "known_correction_or_scope_limit_approved",
+      "remaining_verification": "원문>4회관찰군과처방구별;위장관예외보존.",
+      "publication_verification_status": "recorded_limits_not_general_publication_clearance"
+    },
+    {
+      "number": 34,
+      "initial_status": "block",
+      "initial_finding": "PURE HR.83(.72–.96)은 total dairy >2 servings/day vs none입니다. total dairy에는 우유·요거트·치즈가 포함됩니다. 이를 ‘우유·요거트 두잔 이상’으로 바꾸면 노출종류·분량·경계가 달라집니다. 1~2잔 권고는 별도 한국권고 근거가 필요합니다. >2와≥2도 구분하세요. 평균9.1년 단정은 원문 추적기간 지표를 확인해 쓰세요.",
+      "approved_resolution": "우유·요거트·치즈를합친totaldairy의>2servings/day대전혀안먹음이라는실제원초록의분모/노출을복원하고두잔·1~2잔권고로환원하지않았습니다.136,384명·21개국6,796사망·HR.83(.72~.96)는일치하며9.1년을미검증평균/중앙값으로지정하지않았습니다.노출정의와HR/누적확률차이를독자본문에고지합니다.",
+      "resolution_reference": {
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-034-cb01/publication-entry-proposal.md",
+        "proposal_sha256": "39ecad1caee8a72af982c7e297156cc3f305b16ecea24da39e27260ee2488598"
+      },
+      "integration_finding_status": "known_correction_or_scope_limit_approved",
+      "remaining_verification": "totaldairy>2servings와우유요거트잔수구분;추적9.1년mean/median독립미확인으로단정회피.",
+      "publication_verification_status": "recorded_limits_not_general_publication_clearance"
+    },
+    {
+      "number": 35,
+      "initial_status": "warn",
+      "initial_finding": "원문521,120명129,328사망·하루달걀반개추가HR1.07, 대체모델 결과는 확인. 비고의 ‘메타분석도 무관’·미국콜레스테롤상한폐지·하루1개안심/3~4개경계는 본문이 인용한 단일논문만으로 충분히 확인하지 못했습니다. 해당 반대근거와 현재 공식식이지침을 직접 보강한 뒤 수량권고를 확정하세요.",
+      "approved_resolution": "실제원문521,120명/129,328사망·반개추가HR1.07(1.06–1.08)·가상식품대체모형을 구분했습니다. 반대연구 원초록의 주7개이상대1개미만 결과를 인용하고 하루1개 안전/3~4개위험 경계 단정을 제거했습니다. 새 반대근거 DOI의 정확한 제목/저자/연도도 원초록 응답에서 확인했습니다.",
+      "resolution_reference": {
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-035-64a3/publication-entry-proposal.md",
+        "proposal_sha256": "f358876385673f5162b9ce01a1888c4ad1396f701dcc4a442af5a9803c0216bf"
+      },
+      "integration_finding_status": "known_correction_or_scope_limit_approved",
+      "remaining_verification": "반대논문원초록범위;현행미국지침/개인안전량미확인.안전1개/위험3~4개삭제.",
+      "publication_verification_status": "recorded_limits_not_general_publication_clearance"
+    },
+    {
+      "number": 36,
+      "initial_status": "block",
+      "initial_finding": "원초록30,076명·0~2회/주 비교HR.72·질환별 값 확인. 쉽게의 ‘두번 미만’은 기준과 다릅니다. 비용의 ‘한번30분’은 연구가 정한 유효·안전입욕시간이 아닙니다. 고령자에게 장시간입욕을 부추길 수 있어 실제권고근거 없이 고정시간을 제시하지 마세요. 중년 일본관찰결과를 샤워보다 우월한 인과효과로 단정하지 않고 고령/심혈관주의 유지.",
+      "approved_resolution": "1차논문PDF의40~59세30,076명·CVD/암병력없음·1990~2009·거의매일대0~2회및HR.72/.65/.74/.54를대조했습니다.두번미만오류를고치고30분안전입욕처방을삭제했으며발생과사망을구분하고샤워대비인과효과/고령·심혈관주의한계를보존했습니다.",
+      "resolution_reference": {
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-036-3a64/publication-entry-proposal.md",
+        "proposal_sha256": "0634fb43ab776e6e3fcf981d1b0bd36171838fe41b96941f2a6449111cae01a0"
+      },
+      "integration_finding_status": "known_correction_or_scope_limit_approved",
+      "remaining_verification": "직접PDF0~2회기준확인;30분안전입욕처방삭제·고령/심혈관주의보존.",
+      "publication_verification_status": "recorded_limits_not_general_publication_clearance"
+    },
+    {
+      "number": 37,
+      "initial_status": "warn",
+      "initial_finding": "원문 umbrella16메타분석244결과·인지SMD.69·운동.99와 JAMA1,338명926사망·시간당1.13·횟수당1.07·오전1.30 확인. umbrella에는 운동/인지 중재자료도 들어 있으므로 ‘위 두연구 모두 관찰자료’라는 일괄설명은 결과별로 나눠야 합니다. <60분·>60분의 연구경계와 쉽게‘한시간 이내’를 일치시키세요. 30분은 실천권고이며 사망예방이 확정된 임계점이 아닙니다.",
+      "approved_resolution": "쉽게에서 조건 귀속이 충돌하는 >60분/30% 부차 수치를 제거했습니다. 이득의 원수치·초록/본문 차이 고지와 임상 점검 조건을 유지합니다. 이전 쉽게 승인은 이력으로 보존하고 이 fullentry의 쉽게가 대체합니다.",
+      "resolution_reference": {
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-037-bf31/publication-entry-proposal-r2.md",
+        "proposal_sha256": "26fb0835ad22a247ab764fdb0d9b34249ae34120deb7dbecf93dc3c9b585873f"
+      },
+      "integration_finding_status": "known_correction_or_scope_limit_approved",
+      "remaining_verification": "초록/본문의운동최적시간·질환낮잠조건차이고지;쉽게불확실30%삭제.모든하위리뷰부록미검증.",
+      "publication_verification_status": "recorded_limits_not_general_publication_clearance"
+    },
+    {
+      "number": 38,
+      "initial_status": "warn",
+      "initial_finding": "원문85,618명·중앙8년·보충없음HR1.15/1.42 및 보충군1.12/1.13의 유의하지 않은 CI 확인. 수면제한은 개인필요량 대비 누적2.5~3.5시간·심한제한>3.5시간으로 정의했습니다. 완전밤샘만 조사한 연구가 아니므로 제목·권고의 ‘밤샘’은 더 넓은 추론임을 구분하세요. 다음밤보충을 주말몰아자기로 바꾸지 않고 위험소멸 보장도 금지합니다.",
+      "approved_resolution": "수면부족밤≥2.5시간·연속부족기간누적평균2.5~3.5/심한경우>3.5·기간직후첫보충밤및초과수면평균>0정의는원문방법에맞습니다.85,618명·중앙8년·HR1.15/1.42와보충군CI미검출을대조했습니다.완전밤샘만의연구가아님을본문에명시하고위험소멸보장을피했습니다.",
+      "resolution_reference": {
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-038-17c4/publication-entry-proposal.md",
+        "proposal_sha256": "cf0b2721e241acfb095dd6f9eb4d673910da33b416cd667a622c3bc917778e26"
+      },
+      "integration_finding_status": "known_correction_or_scope_limit_approved",
+      "remaining_verification": "누적수면제한/다음첫밤보충조건구분;완전밤샘/주말보충/위험소거보장아님.",
+      "publication_verification_status": "recorded_limits_not_general_publication_clearance"
+    },
+    {
+      "number": 39,
+      "initial_status": "block",
+      "initial_finding": "원문 심혈관메타RR1.13/1.27·5년당1.07/1.05, 유방암리뷰1.05·20년1.25 및 중국남성췌장HR1.59는 대조했습니다. 1990실험 원초록은 젊은남성8명, 빛+암막 복합개입입니다. 이 설계로 ‘생체시계를 옮기는 유일방법’ 또는 ‘빛·암막·선글라스 셋중 하나라도 빠지면 무용’이라고 구성요소별 필수성을 증명할 수 없습니다. 7,000~12,000룩스의 일반 자가처방은 줄이고 실험조건으로 귀속하세요. 식사를 낮에모으는 대책은 인용목록에 해당시험이 빠져 있습니다.",
+      "approved_resolution": "RR의위험차이(RD)와비율(RR)혼동을나눈비율로정정했습니다.그한문장외전체바이트가이전검토안과일치합니다.기존1.05/4%고지·빛복합실험한계등은그대로보존합니다.",
+      "resolution_reference": {
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-039-006e/publication-entry-proposal-r2.md",
+        "proposal_sha256": "7449125c9f9a2e9a3e9e15d8af0da38215998cf016b4b6eb2ed638da0487f7cf"
+      },
+      "integration_finding_status": "known_correction_or_scope_limit_approved",
+      "remaining_verification": "CVD본문1.05/초록4%차이고지;복합빛실험으로유일방법/구성요소필수성입증아님.연결정정검색비포괄.",
+      "publication_verification_status": "recorded_limits_not_general_publication_clearance"
+    },
+    {
+      "number": 40,
+      "initial_status": "unverified",
+      "initial_finding": "중국원문 PR.650·독소중앙1.29µg/kg·개입직후−2.865 및연−2.593µg/kg, 광시1,611명·aOR1.9/1.8 확인. OR를 출생위험90/80%로 동일시하지 마세요. 국내즉석제조업의 존재는 법조문확인범위를 아래 별도기록하며 국내아플라톡신기준은 아직 미확인입니다. 중국소규모작업장결과만으로 한국방앗간전체를 금지할 수 없습니다. 밀봉·제조정보확인은 오염검사합격보증이 아닙니다. 현 TODO를 문장만 바꿔 출판승인 처리할 수 없습니다.",
+      "approved_resolution": "중국광저우PR.650과광시직접효과모형aOR1.9/1.8을원문에대조하고확률90/80%로치환하지않게정정했습니다.국내방앗간전면기피권고를포장/제조정보확인으로제한하며현재국내규격미확인·포장이검사합격보장아님을독자에게밝혔습니다.국내규격확인에성공한승인이아니라미검증일괄금지를제거한범위승인입니다.해결되지않은tail기준TODO는유지합니다.",
+      "resolution_reference": {
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-040-ec55/publication-entry-proposal.md",
+        "proposal_sha256": "363f3b18d23cc346e2e72c23112c28fa1952ec5ab0a2da428604b93d31eee964"
+      },
+      "integration_finding_status": "known_correction_or_scope_limit_approved",
+      "remaining_verification": "국내아플라톡신현행기준미확인미해결.한국방앗간전면금지를포장/제조정보확인으로제한했으나검사합격보증아님.기존tailTODO유지.",
+      "publication_verification_status": "unverified_domestic_aflatoxin_standard_not_cleared"
+    },
+    {
+      "number": 41,
+      "initial_status": "block",
+      "initial_finding": "포화지방감소15시험56,675명 RR.83, omega6 19시험6,461명은 원초록 확인. omega3 전체86시험162,796명을 식물성ALA분석 분모로 기재한 것은 오류. ALA총사망5시험19,327명·RR1.01, CHD사건4시험19,061명·RR1.00입니다. 같은리뷰는 ALA부정맥 감소와 심혈관사건 소폭감소 가능성을 보고하므로 ‘심장보호효과 없음’ 전면 단정은 넘칩니다. 효과미검출과 무효입증을 구분하세요. 국내일일조리유권장량 미확인.",
+      "approved_resolution": "포화지방전체15시험56,675명/심혈관사건12시험53,758명,omega6 19시험6,461명,omega3전체86시험162,796명과ALA총사망5시험19,327명/CHD4시험19,061명을각원초록에대조했습니다.전체분모를ALA분모로쓰던오류와모든심장보호효과없음단정을고쳤고ALA부정맥RR.73및CVD가능성을불확실성등급과함께보존했습니다.국내조리유일일량미확인은그대로이며섭취량을검증한승인아닙니다.",
+      "resolution_reference": {
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-041-488c/publication-entry-proposal.md",
+        "proposal_sha256": "b5b54663ba886d168af9c8269a137d4b8279eb6cadab79285b5ce99ba1e242d0"
+      },
+      "integration_finding_status": "known_correction_or_scope_limit_approved",
+      "remaining_verification": "ALA하위분모/부정맥가능성구별;국내조리유일일권장량미확인.",
+      "publication_verification_status": "recorded_limits_not_general_publication_clearance"
+    },
+    {
+      "number": 42,
+      "initial_status": "block",
+      "initial_finding": "원문 대만분석의 cooking time-years>10은 실제요리경력10년이 아닙니다. 하루식사수×기간의 누적지표이며 예컨대하루3끼20년=60입니다. 제안쉽게의 ‘요리경력10년이상’도 반려. 후드비율은 <.33/.33~<.67/≥.67이지 정확1/3·2/3 경계가 아닙니다. Xue원문은 연기노출10연구와 후드없음4연구를 별도통합했으며 전체초록/본문의 총연구수 자체도 불일치합니다. 10연구중4라는 포함관계로 단정하지 마세요. OR1.74/2.11·대만.49·상하이HR1.49/2.03의 연구별노출·분모를 분리합니다.",
+      "approved_resolution": "Xue연기10연구와후드4연구를별도분석으로구분하고13/14전체개수불일치를본문에고지했습니다.Chen누적요리지표>10·1일끼니수×연수·방법의.33/.67경계와표4표기차이를직접대조했고실제경력10년오기를삭제했습니다.표4의107+226+510=843환자와41+144+374=559대조분모도대조했습니다.OR.49/1.74/2.11을발생확률로바꾸지않고상하이HR비교군을분리했습니다.새BioC원문으로상하이숫자/연료·환기조건을확인했습니다.",
+      "resolution_reference": {
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-042-69a7/publication-entry-proposal.md",
+        "proposal_sha256": "db7c25aa3bb2a73c4f123dda28640f7505fba8bd0bcfa857d0e4decccafc535d"
+      },
+      "integration_finding_status": "known_correction_or_scope_limit_approved",
+      "remaining_verification": "time-years/후드방법대표라벨/초록대본문연구수차이고지.모든부록·노출지표정정전수확인아님.",
+      "publication_verification_status": "recorded_limits_not_general_publication_clearance"
+    }
+  ],
+  "exact_integration_review": {
+    "reviewed_at_utc": "2026-10-18T14:39:22.731829+00:00",
+    "decision": "approve_mechanical_integration_of_exact_reviewed_variants_only",
+    "publication_ready": false,
+    "formal_kr_fit": false,
+    "chapter_content_certification": false,
+    "fullentry_count": 41,
+    "fullentry_latest_map": [
+      {
+        "number": 1,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-001-1c88/publication-entry-proposal.md",
+        "proposal_sha256": "321498bb8e6b8851d7457f526a165a8a0b8ef2b3436362fed5b03cb25ec6e58a",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-001-1c88/publication-entry-changes.json",
+        "changes_sha256": "835efec6b91698f5836337c8c1199fe094d3f0fda9f0198b86ce9150926c9da8",
+        "approval_batch": 6,
+        "order": 1,
+        "scope": "replace entire entry once; do not apply any earlier editorial easily/title operation to this number"
+      },
+      {
+        "number": 2,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-002-4b65/publication-entry-proposal.md",
+        "proposal_sha256": "5e44f647b991ececbc55b1e669e3c8560a5a260adf51ec0753cf0ec783ffa0a1",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-002-4b65/publication-entry-changes.json",
+        "changes_sha256": "59d90e41a0bb31328103c6a5d7e130452b78f317fd4f7cc6d6cbe7135e5f17ab",
+        "approval_batch": 5,
+        "order": 1,
+        "scope": "replace entire entry once; do not apply any earlier editorial easily/title operation to this number"
+      },
+      {
+        "number": 3,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-003-4cea/publication-entry-proposal-r2.md",
+        "proposal_sha256": "14a26ad6cd5220fd5eb8f3b06e43a16cf3336ec822419310e4728dbe07c011fa",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-003-4cea/publication-entry-changes-r2.json",
+        "changes_sha256": "c5f1b855a21bd364644b7403d549875248f7dff0bae10d0b2822b4b7cbe41c80",
+        "approval_batch": "9-r2",
+        "order": 1,
+        "scope": "replace entire entry once; do not apply any earlier editorial easily/title operation to this number"
+      },
+      {
+        "number": 4,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-004-87e1/publication-entry-proposal-r2.md",
+        "proposal_sha256": "e87a1c82e8c06fe72692141df370194afccdae2e6b8c48c8f01261fca9f3812b",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-004-87e1/publication-entry-changes-r2.json",
+        "changes_sha256": "fda0a14da0b2871adbe6a9ceda8189eccd04e238e48f36345ae8290891331010",
+        "approval_batch": "1-r2",
+        "order": 1,
+        "scope": "replace entire entry once; do not apply any earlier editorial easily/title operation to this number"
+      },
+      {
+        "number": 5,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-005-6d11/publication-entry-proposal.md",
+        "proposal_sha256": "e72d40f94747fb2628bd801bb8a4b2a284c8bb6509431430c4bba79690b9fa9f",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-005-6d11/publication-entry-changes.json",
+        "changes_sha256": "c36008664aa543fad8fbf9f7bbaa48af5808b7100282890086a3e51e52d24bf8",
+        "approval_batch": 8,
+        "order": 1,
+        "scope": "replace entire entry once; do not apply any earlier editorial easily/title operation to this number"
+      },
+      {
+        "number": 6,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-006-8fb2/publication-entry-proposal.md",
+        "proposal_sha256": "c4c5f315f9efe395e90677b854948687d2e66d19490f0a992f58e1450dee8ece",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-006-8fb2/publication-entry-changes.json",
+        "changes_sha256": "977f11bfc8533974bc8eae6b60bc2a6ff2b07859586f38af36dfa77205a5bd9c",
+        "approval_batch": 1,
+        "order": 1,
+        "scope": "replace entire entry once; do not apply any earlier editorial easily/title operation to this number"
+      },
+      {
+        "number": 7,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-007-a8ec/publication-entry-proposal.md",
+        "proposal_sha256": "379ff6458fb73f6d3d27d62a37079b3ba7184f0e9552e2ee4137b4f4a0acc8eb",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-007-a8ec/publication-entry-changes.json",
+        "changes_sha256": "b5d934c1dd8e57293eef2fbff480e6905d057471e79bc26a7dad1f1e06ac9aa0",
+        "approval_batch": 1,
+        "order": 1,
+        "scope": "replace entire entry once; do not apply any earlier editorial easily/title operation to this number"
+      },
+      {
+        "number": 8,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-008-5b8c/publication-entry-proposal.md",
+        "proposal_sha256": "c085fa447776ed3f497fc56fd14ab8d767195a368540ae7e6915afc06f44e3eb",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-008-5b8c/publication-entry-changes.json",
+        "changes_sha256": "e2dd9a7ba6ac3ddf153db03d0f57ea092b1578d3e4e973605102ed104a335dff",
+        "approval_batch": 7,
+        "order": 1,
+        "scope": "replace entire entry once; do not apply any earlier editorial easily/title operation to this number"
+      },
+      {
+        "number": 9,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-009-bdd7/publication-entry-proposal.md",
+        "proposal_sha256": "7dad227071a15f0f727e2aadf52a0403519300d08bec42fe2ee53759daeaf479",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-009-bdd7/publication-entry-changes.json",
+        "changes_sha256": "a08fcb254020247085128d5068ccf11aaa7ced1cc15e5ce562f14be7c7857fdd",
+        "approval_batch": 6,
+        "order": 1,
+        "scope": "replace entire entry once; do not apply any earlier editorial easily/title operation to this number"
+      },
+      {
+        "number": 10,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-010-2bba/publication-entry-proposal.md",
+        "proposal_sha256": "e9d1fd2559055777dae3ca5e74cc4cb1da87673410832347e43fe08c0816f211",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-010-2bba/publication-entry-changes.json",
+        "changes_sha256": "b3c32fcc08a49ce90bbfb7eb4900767aa752760c4a7c18322c4f78a78644015d",
+        "approval_batch": 1,
+        "order": 1,
+        "scope": "replace entire entry once; do not apply any earlier editorial easily/title operation to this number"
+      },
+      {
+        "number": 11,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-011-ed84/publication-entry-proposal.md",
+        "proposal_sha256": "732c9758957cda416b9d39f7592113351ac6145ab86c468bcbce6a4f51dc214d",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-011-ed84/publication-entry-changes.json",
+        "changes_sha256": "1ae5b2883a8a9a558a609c07735b5fb53112bb068e57e19066c47780a3907409",
+        "approval_batch": 6,
+        "order": 1,
+        "scope": "replace entire entry once; do not apply any earlier editorial easily/title operation to this number"
+      },
+      {
+        "number": 12,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-012-3296/publication-entry-proposal.md",
+        "proposal_sha256": "bc01318e15559bd2d482d947d25e510894ad4971dd08e0a59769689960517129",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-012-3296/publication-entry-changes.json",
+        "changes_sha256": "e47f2618f9a4ee1ca383a11bc31f79dac6e86e05ddc5841c59e56c4d807e5360",
+        "approval_batch": 1,
+        "order": 1,
+        "scope": "replace entire entry once; do not apply any earlier editorial easily/title operation to this number"
+      },
+      {
+        "number": 13,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-013-0d52/publication-entry-proposal.md",
+        "proposal_sha256": "9639cea2bd2caa9bc28de840c4a2fad50f490357979aa7acae24c1190969e1b5",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-013-0d52/publication-entry-changes.json",
+        "changes_sha256": "bbc4b912c41f7a52b1e7141a407274b9f1b9380fd2127d87be272c4377b67ca8",
+        "approval_batch": 2,
+        "order": 1,
+        "scope": "replace entire entry once; do not apply any earlier editorial easily/title operation to this number"
+      },
+      {
+        "number": 14,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-014-2e30/publication-entry-proposal-r2.md",
+        "proposal_sha256": "9585db5f13dc584f87b8f1d3a6095ea73bf86b8e94c2c742712ee2f0894bd069",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-014-2e30/publication-entry-changes-r2.json",
+        "changes_sha256": "c6c588e231321735e35917457e2a6ebdf141c671348f6972828d660569adb06a",
+        "approval_batch": "2-r2",
+        "order": 1,
+        "scope": "replace entire entry once; do not apply any earlier editorial easily/title operation to this number"
+      },
+      {
+        "number": 15,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-015-901a/publication-entry-proposal.md",
+        "proposal_sha256": "d559da9d859da3f4c42a4221707ff3bab94580c3498165c6f0124cf37025664c",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-015-901a/publication-entry-changes.json",
+        "changes_sha256": "2a639a7ab39813cd9c31d55705b74d9321441444343dacf7dde4b7f5e6260705",
+        "approval_batch": 2,
+        "order": 1,
+        "scope": "replace entire entry once; do not apply any earlier editorial easily/title operation to this number"
+      },
+      {
+        "number": 16,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-016-71f0/publication-entry-proposal-r2.md",
+        "proposal_sha256": "2bb09014b52824face59aa70d32383d203137d55a426b25ac518a388d601a97b",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-016-71f0/publication-entry-changes-r2.json",
+        "changes_sha256": "99111fcb5275354a3c8167be0ea8b787a28af7e4794c53bb55a6388573e35383",
+        "approval_batch": "5-r2",
+        "order": 1,
+        "scope": "replace entire entry once; do not apply any earlier editorial easily/title operation to this number"
+      },
+      {
+        "number": 17,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-017-5e24/publication-entry-proposal.md",
+        "proposal_sha256": "8f5a54f45df14bbed85fbc73a041872a7fa738ad2652aff5e2fae298d0677628",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-017-5e24/publication-entry-changes.json",
+        "changes_sha256": "72326a5fc21dc2a1f9a0dd2d73b1b956e0dacd2208d233f8c0dc3088912c7363",
+        "approval_batch": 8,
+        "order": 1,
+        "scope": "replace entire entry once; do not apply any earlier editorial easily/title operation to this number"
+      },
+      {
+        "number": 18,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-018-d3c8/publication-entry-proposal.md",
+        "proposal_sha256": "cd4bcd0c91516919908d5013c0e48bb4a7a74229aa93ef21b7c80ae9ea8b9d96",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-018-d3c8/publication-entry-changes.json",
+        "changes_sha256": "a5bb1dabe4d53f988db52244e22d666b2a8075e11bac5e413d3f6f96b225b36f",
+        "approval_batch": 7,
+        "order": 1,
+        "scope": "replace entire entry once; do not apply any earlier editorial easily/title operation to this number"
+      },
+      {
+        "number": 19,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-019-e80d/publication-entry-proposal-r2.md",
+        "proposal_sha256": "b2a963b66f25a48485911b66cdc006d66a51a94c123f5e7fcf05e9ddcfd437ba",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-019-e80d/publication-entry-changes-r2.json",
+        "changes_sha256": "b14b238fc3747f41bb9473f72f871baf758a9f154edd7af33c84d181b8c4663b",
+        "approval_batch": "2-r2",
+        "order": 1,
+        "scope": "replace entire entry once; do not apply any earlier editorial easily/title operation to this number"
+      },
+      {
+        "number": 21,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-021-e337/publication-entry-proposal.md",
+        "proposal_sha256": "4c16dc23d46a2e4ceccfeacd4af00faa05c5b44b80ca71a0e1c60f93a1fc15a1",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-021-e337/publication-entry-changes.json",
+        "changes_sha256": "f5274f38312f2d9f28405b9e8c72cfdd3b1cba61e148cfb410fc041f77e370ef",
+        "approval_batch": 5,
+        "order": 1,
+        "scope": "replace entire entry once; do not apply any earlier editorial easily/title operation to this number"
+      },
+      {
+        "number": 22,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-022-1d39/publication-entry-proposal.md",
+        "proposal_sha256": "176145c0e7e4737813aeb5f02b1a73c78a2234cd491680ad892bc866d3b0c37d",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-022-1d39/publication-entry-changes.json",
+        "changes_sha256": "ea471271f7252f62e12688c781b554ad9ee20daf998d50e8014505b898cc3286",
+        "approval_batch": 6,
+        "order": 1,
+        "scope": "replace entire entry once; do not apply any earlier editorial easily/title operation to this number"
+      },
+      {
+        "number": 23,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-023-7dfd/publication-entry-proposal.md",
+        "proposal_sha256": "19d9a03435718e4efccf7714c1dee0743f2b59e14ed96f0ef8bb561eb8becabf",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-023-7dfd/publication-entry-changes.json",
+        "changes_sha256": "fdd38064b700a689320f03b04f266f59c353763eb1bb53bb618ead58ddb77db3",
+        "approval_batch": 1,
+        "order": 1,
+        "scope": "replace entire entry once; do not apply any earlier editorial easily/title operation to this number"
+      },
+      {
+        "number": 24,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-024-c727/publication-entry-proposal.md",
+        "proposal_sha256": "f2cd0aeff8995ac5d5681535156539b47f1d0eb3fbc06255c7d73ac285387b08",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-024-c727/publication-entry-changes.json",
+        "changes_sha256": "f9bd91803a30cbe46cc959916866ae47b2d07aacd78b55a81f486a03f239554f",
+        "approval_batch": 2,
+        "order": 1,
+        "scope": "replace entire entry once; do not apply any earlier editorial easily/title operation to this number"
+      },
+      {
+        "number": 25,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-025-1523/publication-entry-proposal-r2.md",
+        "proposal_sha256": "c62bce7810d622172287eb78d74962441b4029d742a6a64675540a64ef531592",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-025-1523/publication-entry-changes-r2.json",
+        "changes_sha256": "c6838a1fb5b29f0176958a99d9dc49a2f93d09e28c45d741af41b38474f09d73",
+        "approval_batch": "2-r2",
+        "order": 1,
+        "scope": "replace entire entry once; do not apply any earlier editorial easily/title operation to this number"
+      },
+      {
+        "number": 26,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-026-c168/publication-entry-proposal-r2.md",
+        "proposal_sha256": "f249d914ac9a2a7f73e358cf6b6f18915026edc4e9b5a263aa5604a840b51410",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-026-c168/publication-entry-changes-r2.json",
+        "changes_sha256": "1a7793885db6f0aebfb93d8c69183d138da49a7ae9f56c3a3da826d9a95cfa07",
+        "approval_batch": "3-r2",
+        "order": 1,
+        "scope": "replace entire entry once; do not apply any earlier editorial easily/title operation to this number"
+      },
+      {
+        "number": 27,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-027-f02c/publication-entry-proposal.md",
+        "proposal_sha256": "649540fae57294f96394b16479d1b3472124b91146a003d788c5111fa56e0fcf",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-027-f02c/publication-entry-changes.json",
+        "changes_sha256": "1045dd7290b28cb2d381e8a9081d98c99f95cfd954f6af92096bd6f8a7f083aa",
+        "approval_batch": 6,
+        "order": 1,
+        "scope": "replace entire entry once; do not apply any earlier editorial easily/title operation to this number"
+      },
+      {
+        "number": 28,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-028-ff01/publication-entry-proposal-r2.md",
+        "proposal_sha256": "441857b58bd3091d1b7fefe3918361ee580b1016cc144636aef706f12af6a113",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-028-ff01/publication-entry-changes-r2.json",
+        "changes_sha256": "8e2081a22ff7937ae2388d76f79c11086edb92c96fb179de9fe322844d968cc4",
+        "approval_batch": "5-r2",
+        "order": 1,
+        "scope": "replace entire entry once; do not apply any earlier editorial easily/title operation to this number"
+      },
+      {
+        "number": 29,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-029-255c/publication-entry-proposal.md",
+        "proposal_sha256": "d1dfc6d1be584d79a51583d4f83913b7ee31ff929c9989773935af477cc8e292",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-029-255c/publication-entry-changes.json",
+        "changes_sha256": "bcda13cebc7b5b0834e5fc9a4d73e4cef44661f3ec37b0b7099558845254c99b",
+        "approval_batch": 7,
+        "order": 1,
+        "scope": "replace entire entry once; do not apply any earlier editorial easily/title operation to this number"
+      },
+      {
+        "number": 30,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-030-4d4a/publication-entry-proposal.md",
+        "proposal_sha256": "f68f58d4a8673cdeb7837a4d237df408016e4a1d1a95674abba94c664a445891",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-030-4d4a/publication-entry-changes.json",
+        "changes_sha256": "07b8a5912a07976c51c4b4f1e12063a3a975f3d5aaa69791369a9f6bec9b6a6c",
+        "approval_batch": 3,
+        "order": 1,
+        "scope": "replace entire entry once; do not apply any earlier editorial easily/title operation to this number"
+      },
+      {
+        "number": 31,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-031-7734/publication-entry-proposal.md",
+        "proposal_sha256": "22aa1a574c1bd5718a803ceec52ba9985e6dda8e4baa202f021aa1c53b6e3ab7",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-031-7734/publication-entry-changes.json",
+        "changes_sha256": "6f93322ad013cdee80a863e767f17bfa34075a1eb6155757f1616c8e5a93cc75",
+        "approval_batch": 3,
+        "order": 1,
+        "scope": "replace entire entry once; do not apply any earlier editorial easily/title operation to this number"
+      },
+      {
+        "number": 32,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-032-d167/publication-entry-proposal.md",
+        "proposal_sha256": "d3f3cc50ea0982a6f273ee780efc8fdb4949f1f4e0a946712423dfb060f0c603",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-032-d167/publication-entry-changes.json",
+        "changes_sha256": "9b0b6ac6bb3f1af05cda89608e88272f1f308329c8779c5df316117e4ce4ec92",
+        "approval_batch": 3,
+        "order": 1,
+        "scope": "replace entire entry once; do not apply any earlier editorial easily/title operation to this number"
+      },
+      {
+        "number": 33,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-033-866b/publication-entry-proposal-r2.md",
+        "proposal_sha256": "0efc29aa9c2efaa27768057c55d0a489e46d6ed891e9834762c99ca831d540e9",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-033-866b/publication-entry-changes-r2.json",
+        "changes_sha256": "94b4abdcbb514b7d49d8526c925e474c4d32e16904131e19b4c514ec777f8a16",
+        "approval_batch": "3-r2",
+        "order": 1,
+        "scope": "replace entire entry once; do not apply any earlier editorial easily/title operation to this number"
+      },
+      {
+        "number": 34,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-034-cb01/publication-entry-proposal.md",
+        "proposal_sha256": "39ecad1caee8a72af982c7e297156cc3f305b16ecea24da39e27260ee2488598",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-034-cb01/publication-entry-changes.json",
+        "changes_sha256": "921537f091696dd05bbff66423d8a022381d513b3aa68520ea4c3d009f8c8558",
+        "approval_batch": 4,
+        "order": 1,
+        "scope": "replace entire entry once; do not apply any earlier editorial easily/title operation to this number"
+      },
+      {
+        "number": 35,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-035-64a3/publication-entry-proposal.md",
+        "proposal_sha256": "f358876385673f5162b9ce01a1888c4ad1396f701dcc4a442af5a9803c0216bf",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-035-64a3/publication-entry-changes.json",
+        "changes_sha256": "c0056496117e767bb1d12f513158074d338aa9db6ac6007acc193dda16f4db9c",
+        "approval_batch": 6,
+        "order": 1,
+        "scope": "replace entire entry once; do not apply any earlier editorial easily/title operation to this number"
+      },
+      {
+        "number": 36,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-036-3a64/publication-entry-proposal.md",
+        "proposal_sha256": "0634fb43ab776e6e3fcf981d1b0bd36171838fe41b96941f2a6449111cae01a0",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-036-3a64/publication-entry-changes.json",
+        "changes_sha256": "e50858dedf3d6d9edcabd9d00e51d172ae7caa934ae8dc46411b6f816a621073",
+        "approval_batch": 4,
+        "order": 1,
+        "scope": "replace entire entry once; do not apply any earlier editorial easily/title operation to this number"
+      },
+      {
+        "number": 37,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-037-bf31/publication-entry-proposal-r2.md",
+        "proposal_sha256": "26fb0835ad22a247ab764fdb0d9b34249ae34120deb7dbecf93dc3c9b585873f",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-037-bf31/publication-entry-changes-r2.json",
+        "changes_sha256": "661af6ea32205979762ac44cd6cdcf8168eed90198394415dc9824729418f4dd",
+        "approval_batch": "5-r2",
+        "order": 1,
+        "scope": "replace entire entry once; do not apply any earlier editorial easily/title operation to this number"
+      },
+      {
+        "number": 38,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-038-17c4/publication-entry-proposal.md",
+        "proposal_sha256": "cf0b2721e241acfb095dd6f9eb4d673910da33b416cd667a622c3bc917778e26",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-038-17c4/publication-entry-changes.json",
+        "changes_sha256": "3e233701a0deba602f5a80dade90eee276a3c0aa9c35a3f892da91b3febe93ec",
+        "approval_batch": 4,
+        "order": 1,
+        "scope": "replace entire entry once; do not apply any earlier editorial easily/title operation to this number"
+      },
+      {
+        "number": 39,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-039-006e/publication-entry-proposal-r2.md",
+        "proposal_sha256": "7449125c9f9a2e9a3e9e15d8af0da38215998cf016b4b6eb2ed638da0487f7cf",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-039-006e/publication-entry-changes-r2.json",
+        "changes_sha256": "c88890f0cb0b4b08fe837a4897e86d30d533baee1df9f351ed3eecb9dfd75602",
+        "approval_batch": "4-r2",
+        "order": 1,
+        "scope": "replace entire entry once; do not apply any earlier editorial easily/title operation to this number"
+      },
+      {
+        "number": 40,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-040-ec55/publication-entry-proposal.md",
+        "proposal_sha256": "363f3b18d23cc346e2e72c23112c28fa1952ec5ab0a2da428604b93d31eee964",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-040-ec55/publication-entry-changes.json",
+        "changes_sha256": "81d4c801e5bb6b1d9ca4f3fadbdc5268a3e740e7b2b763faaee0ccd619d3727b",
+        "approval_batch": 4,
+        "order": 1,
+        "scope": "replace entire entry once; do not apply any earlier editorial easily/title operation to this number"
+      },
+      {
+        "number": 41,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-041-488c/publication-entry-proposal.md",
+        "proposal_sha256": "b5b54663ba886d168af9c8269a137d4b8279eb6cadab79285b5ce99ba1e242d0",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-041-488c/publication-entry-changes.json",
+        "changes_sha256": "2a4bace660d9199ba93a4032ac460d2919b01e7a57df423e8bf82eec79223f14",
+        "approval_batch": 4,
+        "order": 1,
+        "scope": "replace entire entry once; do not apply any earlier editorial easily/title operation to this number"
+      },
+      {
+        "number": 42,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-042-69a7/publication-entry-proposal.md",
+        "proposal_sha256": "db7c25aa3bb2a73c4f123dda28640f7505fba8bd0bcfa857d0e4decccafc535d",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-042-69a7/publication-entry-changes.json",
+        "changes_sha256": "fd857bb0522f0e49ad60d87b4336077d867f754bde7e281f27351962e07a60f1",
+        "approval_batch": 4,
+        "order": 1,
+        "scope": "replace entire entry once; do not apply any earlier editorial easily/title operation to this number"
+      }
+    ],
+    "field_map": [
+      {
+        "number": 20,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-020-e74f/editorial-proposal-r3.json",
+        "proposal_sha256": "2e9daf0df5d2719deaa1e17b958cda00373f288bca40a708d6f3e8cc1c40d9d6",
+        "source_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-020-e74f/strict-entry.md",
+        "source_sha256": "b917002a3657a417f673e4c070f39375896e0b7f9eb2d3033b00d31fc9df8499",
+        "field": "쉽게",
+        "before": "매일 많이 마시다가 갑자기 끊으면 금단 증상이 나타납니다. 가벼운 증상으로는 손 떨림과 땀이 있습니다. 가슴이 두근거리거나 잠이 안 오기도 합니다. 심하면 경련이나 진전섬망이 나타납니다. 진전섬망은 생명을 위협하는 급성 질환입니다. 노르웨이에서 3만여 명을 추적했습니다. 진전섬망을 앓았던 집단에서는 이후 해마다 8%가 사망했습니다. 술을 끊고 싶으면 먼저 병원에 가세요. 하루에 얼마나 마시는지 말하세요.",
+        "after": "매일 많이 마시다 갑자기 끊거나 크게 줄이면 손 떨림 등이 생길 수 있습니다. 끊으려면 병원 도움을 받으세요. 온몸이 떨리거나 심하게 혼란스러우면 생명이 위험할 수 있습니다. 바로 응급진료를 받으세요.",
+        "order": 2,
+        "supersedes": "entry20 original/r2 editorial 쉽게. No fullentry replacement exists for20.",
+        "expected_result_entry_sha256": "50ca8ca70d49ff8f8dfd0472a5f253c81d9511a34695e41729b993e0d2c82a42"
+      }
+    ],
+    "style_map": [
+      {
+        "number": 5,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-005-6d11/publication-style-corrections.json",
+        "proposal_sha256": "a7460a9e9e3e848dd500d67de317f9f6c17c424668a3d33a09297c3f21d8c758",
+        "field": "쉽게",
+        "before": "약과 정기 상담은 함께 이용하세요. 약과 전문가 상담을 병행한 금연 성공률은 일반 진료나 짧은 조언만 받은 경우의 1.83배입니다. 상담사가 먼저 건 전화 상담을 받은 경우는 약 25% 높았습니다.",
+        "after": "약과 정기 상담은 함께 이용하세요. 약과 전문가 상담을 병행한 금연 성공률은 1.83배입니다. 비교 대상은 일반 진료나 짧은 조언만 받은 경우입니다. 상담사가 먼저 건 전화 상담을 받은 경우는 약 25% 높았습니다.",
+        "order": 3,
+        "depends_on_fullentry_sha256": "e72d40f94747fb2628bd801bb8a4b2a284c8bb6509431430c4bba79690b9fa9f",
+        "expected_result_entry_sha256": "ea726d7d04a7d01ea321992997fcd4818706e8e7eb0dd2f62c5b1670988db285",
+        "scope": "sentence split after approved fullentry only; prior editorial easily already folded into fullentry"
+      },
+      {
+        "number": 40,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-040-ec55/publication-style-corrections.json",
+        "proposal_sha256": "626cf5577fa1a637054e934c7039b37d0fc36bf7e57e44701dde6b4f73fc6a4f",
+        "field": "쉽게",
+        "before": "중국 광저우에서 자가압착 땅콩기름 작업장 관리 뒤 간 기능 이상이 약 35% 낮게 나타났습니다. 간암·사망을 조사한 결과는 아닙니다. 한국에 그대로 적용하기는 어렵습니다.",
+        "after": "중국 광저우에서 자가압착 땅콩기름 작업장을 관리했습니다. 관리 뒤 간 기능 이상이 약 35% 낮게 나타났습니다. 간암·사망을 조사한 결과는 아닙니다. 한국에 그대로 적용하기는 어렵습니다.",
+        "order": 3,
+        "depends_on_fullentry_sha256": "363f3b18d23cc346e2e72c23112c28fa1952ec5ab0a2da428604b93d31eee964",
+        "expected_result_entry_sha256": "a47e5a257b8b1f19164e1e71fcbe34eda4333dfcc6e359ac8779fc441e69e779",
+        "scope": "sentence split after approved fullentry only; prior editorial easily already folded into fullentry"
+      }
+    ],
+    "intro_map": {
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/publication-intro-proposal.json",
+      "proposal_sha256": "4c501ece7436bb42c0698982c0a0e8a0ed9b9066a7e26652cd139972ebbc262e",
+      "original_intro_sha256": "b63dc987b6f5ba59df31cae92501c3f1ceb9348c508719d12570908cb4094f6a",
+      "expected_intro_before_helper_annotations_sha256": "4f3905381cda78671ab273cb0e834a384f05d668fe52237f50d3c0f237c3e4a1",
+      "order": 4,
+      "operations": [
+        {
+          "id": "intro-01",
+          "before": "나머지 숫자는 기록만 따라간 연구에서 나왔습니다. 무리를 나누지 않고 추적만 했습니다.",
+          "after": "관찰 연구의 숫자도 함께 실었습니다. 이런 연구는 생활에 개입하지 않고 기록을 비교합니다."
+        },
+        {
+          "id": "intro-02",
+          "before": "일주일에 세 차례 이상 차(제25항)",
+          "after": "차 마시기(제25항)"
+        },
+        {
+          "id": "intro-03",
+          "before": "하루 3~4잔 커피(제26항)",
+          "after": "커피와 사망 위험(제26항)"
+        },
+        {
+          "id": "intro-04",
+          "before": "일주일에 네 번 이상 고추(제33항)",
+          "after": "고추와 사망 위험(제33항)"
+        },
+        {
+          "id": "intro-05",
+          "before": "하루 1~2잔 우유·요거트(제34항)",
+          "after": "유제품과 사망 위험(제34항)"
+        },
+        {
+          "id": "intro-06",
+          "before": "하루 7000~8000보 걷기(제11항)",
+          "after": "걷기(제11항)"
+        },
+        {
+          "id": "intro-07",
+          "before": "일주일에 근력 운동(제16항)",
+          "after": "근력 운동(제16항)"
+        },
+        {
+          "id": "intro-08",
+          "before": "밤 7시간 자기(제13항)",
+          "after": "수면 시간과 규칙성(제13항)"
+        },
+        {
+          "id": "intro-09",
+          "before": "낮잠은 30분 안으로(제37항)",
+          "after": "낮잠(제37항)"
+        },
+        {
+          "id": "intro-10",
+          "before": "밤샌 다음 날 밤 바로 보충하기(제38항)",
+          "after": "부족한 잠 보충하기(제38항)"
+        },
+        {
+          "id": "intro-11",
+          "before": "소규모 자가압착 땅콩기름 사지 않기(제40항)",
+          "after": "식용유의 밀폐 포장과 제조 정보 확인(제40항)"
+        }
+      ],
+      "supersedes": {
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-040-ec55/publication-intro-correction.json",
+        "sha256": "217a28b6eb5a2df1b2ce9abee711c72e01b0b1cc6cbbc71f1e2b47c08d428259",
+        "decision_history_preserved": true,
+        "apply_together": false,
+        "reason": "11span중intro-11이동일40한줄결과를이미포함하므로구40단독intro연산은실행목록에서제외."
+      },
+      "conditions": [
+        "검토는메모리상재현만했으며원intro/strict/승인자료는쓰지않음.",
+        "예상4f3905해시는원intro b63dc9에11span만적용한값.이미helper가승인DOI주석을추가한별도intro전체해시와같다고주장하지않음.",
+        "ROOT의helper이후별도최종후보에는승인된각before가정확히한번있는지검사하고그밖의모든바이트/승인DOI주석을보존해연산후새해시기록.",
+        "기존40단독한줄과11span안을중복적용하지않음."
+      ]
+    },
+    "doi_map": {
+      "extractor_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/scripts/humanize_publication.py",
+      "extractor_file_sha256": "63b07216592c3800663bb26dbc78fa6af03bd914a584c51b86e2756d6232d200",
+      "method": "AST extracted unchanged balanced-parentheses dois function; in-memory read-only composition of exact41full+20field+5/40style+intro11span+unchangedtail. This is not helper execution or final candidate hash.",
+      "add": [
+        "10.1002/14651858.cd013183.pub2",
+        "10.1007/s00394-018-1692-3",
+        "10.1136/bmj.j4849",
+        "10.1136/bmj.k194"
+      ],
+      "drop": [],
+      "approved_annotations": [
+        {
+          "action": "add",
+          "doi": "10.1002/14651858.cd013183.pub2",
+          "entry": 4,
+          "proposal_sha256": "e87a1c82e8c06fe72692141df370194afccdae2e6b8c48c8f01261fca9f3812b",
+          "decision": "approve source addition in reviewed fullentry; helper DOI annotation must declare this exact DOI"
+        },
+        {
+          "action": "add",
+          "doi": "10.1007/s00394-018-1692-3",
+          "entry": 35,
+          "proposal_sha256": "f358876385673f5162b9ce01a1888c4ad1396f701dcc4a442af5a9803c0216bf",
+          "decision": "approve source addition in reviewed fullentry; helper DOI annotation must declare this exact DOI"
+        },
+        {
+          "action": "add",
+          "doi": "10.1136/bmj.j4849",
+          "entry": 32,
+          "proposal_sha256": "d3f3cc50ea0982a6f273ee780efc8fdb4949f1f4e0a946712423dfb060f0c603",
+          "decision": "approve source addition in reviewed fullentry; helper DOI annotation must declare this exact DOI"
+        },
+        {
+          "action": "add",
+          "doi": "10.1136/bmj.k194",
+          "entry": 26,
+          "proposal_sha256": "f249d914ac9a2a7f73e358cf6b6f18915026edc4e9b5a263aa5604a840b51410",
+          "decision": "approve source addition in reviewed fullentry; helper DOI annotation must declare this exact DOI"
+        }
+      ]
+    },
+    "suppressed_prior_field_operations": {
+      "reason": "All earlier editorial easily/title proposals for the41fullentry numbers are already folded into/superseded by approved fullentry. Do not apply them again.",
+      "numbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42
+      ],
+      "except_after_fullentry_styles": [
+        5,
+        40
+      ]
+    },
+    "unchanged_tail": {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/tail.md",
+      "sha256": "51db88f49130245dca7edc3001f2f71de26b648e1b3945b0dfb58aeeeb2733a0",
+      "instruction": "Preserve verbatim; no tail deletion/rewrite is approved here. #40 current domestic standard remains unverified."
+    },
+    "conditions": [
+      "ROOT alone may construct a separate candidate using hash guards; original public/strict/helper candidate/proposals remain immutable.",
+      "Validate every planned before occurs exactly once; preserve protected metadata, evidence grades, all entry numbers and references, source links, and all nonplanned bytes.",
+      "DOI additions need exact approved helper annotations. Original intro eleven-span hash excludes helper annotations; preserve annotations and compute a new final candidate hash after composition.",
+      "Fresh formal KR-FIT must inspect the exact final candidate SHA; this map grants no publication approval and clears no unverified source/policy/price/standard."
+    ],
+    "finding_closure_count": 42
   }
 }

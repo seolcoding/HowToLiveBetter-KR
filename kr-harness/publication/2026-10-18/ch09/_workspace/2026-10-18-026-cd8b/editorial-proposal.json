@@ -1,0 +1,31 @@
+{
+  "status": "unadopted_proposal",
+  "easy": null,
+  "title": null,
+  "todo": {
+    "before": "차량 보관과 철도 반입 세부 제한은 TODO 확인 필요로 남겼습니다.",
+    "after": "차량 보관과 철도 반입의 세부 제한은 아직 확인하지 못했습니다.",
+    "reason": "내부 TODO 표현을 독자가 이해할 수 있는 미확인 안내로 바꿉니다. 확인 완료를 뜻하지 않습니다.",
+    "evidencequotes": [
+      "차량 보관과 철도 반입 세부 제한은 TODO 확인 필요로 남겼습니다."
+    ]
+  },
+  "checks": {
+    "easy_chars": 54,
+    "title_chars": 32,
+    "easy_over_120": false,
+    "title_over_70": false
+  },
+  "semantic_pending": [
+    {
+      "scope": "소지 허가 용도 및 정당한 사유 없는 휴대·운반·사용 제한의 법률 적용 범위",
+      "status": "independent_review_required",
+      "reason": "각 법률의 적용 대상과 조건은 별도 법률 검토가 필요합니다. 이 제안에서는 사실을 수정하거나 확인 완료로 처리하지 않습니다.",
+      "evidencequotes": [
+        "법률상 도검·분사기·전자충격기 등은 소지 허가 대상입니다.",
+        "정당한 이유 없이 위험 도구를 숨겨 휴대하면 처벌 대상입니다.",
+        "장비 사용이 정당방위인지는 별도로 판단합니다."
+      ]
+    }
+  ]
+}

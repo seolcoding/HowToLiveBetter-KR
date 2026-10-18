@@ -1,0 +1,8 @@
+### 18. 가공육(햄, 베이컨, 소시지, 런천미트)을 줄이세요
+<!-- 成本标签: 钱=0 时间=少 毅力=些 收益=大 口径=死亡率 -->
+- 비용: 돈이 들지 않고 오히려 절약됩니다. 시간도 안 걸립니다. 다만 좋아하는 맛을 덜 즐겨야 합니다.
+- 쉽게: 햄·베이컨·소시지를 많이 먹는 쪽은 사망 위험이 높았습니다. 가장 적게 먹는 쪽보다 약 20% 높았습니다. 식습관을 관찰한 결과여서 원인인지는 확실하지 않습니다.
+- 이득: 사람들을 추적한 연구 결과를 모아 분석했습니다. 연구진은 집단을 나누지 않고 기록만 했습니다. 2014년 분석은 가장 많이 먹는 쪽과 가장 적게 먹는 쪽을 비교했습니다. 지표는 모든 원인의 사망을 합친 위험비(RR)입니다. RR 1.23은 비교 집단보다 위험이 23% 높다는 뜻입니다. 가공육은 약 23% 높았습니다(RR 1.23). 붉은 고기를 모두 합치면 약 29% 높았습니다(RR 1.29). 가공하지 않은 붉은 살코기는 약 10% 높았습니다(RR 1.10). 이 살코기 비교에서는 통계적 차이가 없었습니다. 2017년의 다른 분석은 하루 섭취량을 비교했습니다. 연구상 하루 1인분 증가당 가공육은 약 23% 높았습니다(RR 1.23). 붉은 살코기는 약 10% 높았습니다(RR 1.10). 이 연구의 1인분을 국내 식당의 고기 1인분으로 환산할 수는 없습니다. 관찰한 차이이므로 줄였을 때의 효과를 확정하지는 못합니다.
+- 근거등급: A
+- 출처: Larsson SC, Orsini N (2014). Red meat and processed meat consumption and all-cause mortality: a meta-analysis. American Journal of Epidemiology. <https://doi.org/10.1093/aje/kwt261>; Schwingshackl L, et al. (2017). Food groups and risk of all-cause mortality: a systematic review and meta-analysis of prospective studies. American Journal of Clinical Nutrition. <https://doi.org/10.3945/ajcn.117.153148>; Johnston BC, et al. (2019). Unprocessed Red Meat and Processed Meat Consumption: Dietary Guideline Recommendations From the NutriRECS Consortium. Annals of Internal Medicine. <https://doi.org/10.7326/M19-1621> (반대편 NutriRECS 지침)
+- 비고: 논쟁 있음. NutriRECS 지침은 널리 쓰는 근거 평가법인 GRADE를 적용했습니다. 이 연구들의 근거는 신뢰도가 낮다고 평가했습니다. 성인에게 가공육과 가공하지 않은 붉은 고기를 계속 먹도록 제안했습니다. 다만 권고 강도는 약합니다. 근거의 확실성과 권고를 두고 논쟁이 있습니다. 앞의 관찰 결과만으로 가공육이 좋다고 할 수는 없습니다. 가공하지 않은 붉은 살코기의 결과는 분석마다 다릅니다. 2014년 집단 비교에서는 통계적 차이가 없었습니다. 가공육을 줄이세요.

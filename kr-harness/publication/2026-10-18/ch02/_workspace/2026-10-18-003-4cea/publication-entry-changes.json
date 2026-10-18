@@ -1,0 +1,210 @@
+{
+  "status": "unadopted_proposal",
+  "entry": 3,
+  "created_at_utc": "2026-10-18T14:35:01.029332+00:00",
+  "base_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-003-4cea/strict-entry.md",
+  "base_sha256": "698374f3b0e158fdb701dd7d579f847b8cc898693a281644fa2dc81d51ca4d9d",
+  "proposal_sha256": "311120d29ea648003e81945f359ba9f1751e10e739ff8c7cac17d902b279bfda",
+  "supersession": {
+    "prior_proposal_path": "kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-003-4cea/editorial-proposal.json",
+    "prior_proposal_sha256": "15c5f42041b2a81bbdfa05d40ebebd452359fccf4e242b9d48489eb944b6c974",
+    "prior_approved_easy": "의지만으로는 대부분 실패합니다. 금연 성공률은 바레니클린이 위약보다 두 배 넘게, 니코틴 대체제가 약 없이 버틸 때보다 50%쯤 높습니다. 패치에 빨리 작용하는 검을 더하면 패치만 쓸 때보다 20%쯤 더 높습니다.",
+    "prior_easy_sha256": "68c6474b28824b32d0b5f011c4aaa957cc7ec2b4c787f5f1a6a33a111261bfe2",
+    "reason": "初回 approved easy preserved inaccurate 20% and patch-only denominator despite audit warning. Primary reread found pooled RR1.27 compares combination with any single form. This new full proposal supersedes that easy operation only if independently approved; previous artifacts/decisions remain immutable.",
+    "apply_together": false
+  },
+  "changes": [
+    {
+      "field": "비용",
+      "before": "니코틴 패치와 검(껌)은 일반의약품이라 약국에서 살 수 있습니다. 치료는 보통 8~12주 동안 받습니다. 바레니클린과 부프로피온은 전문의약품이라 의사 처방이 필요합니다. 병·의원이나 보건소에서 건강보험 금연치료 지원사업에 등록하면 비용 대부분을 공단이 냅니다. 진료·상담비는 1~2회차에만 20%를 내고 3회차부터는 내지 않습니다. 상담 6회나 정해진 약 복용 기간을 채우면 그동안 낸 본인부담금을 전부 돌려받습니다. 등록은 한 해에 3번까지 할 수 있습니다. 저소득층과 의료급여 수급자는 바레니클린·부프로피온 약값을 내지 않습니다.",
+      "after": "니코틴 패치와 검(껌)은 일반의약품이라 약국에서 살 수 있습니다. 치료는 보통 8~12주 동안 받습니다. 바레니클린과 부프로피온은 전문의약품이라 의사 처방이 필요합니다. 병·의원이나 보건소에서 건강보험 금연치료 지원사업에 등록하면 비용 대부분을 공단이 냅니다. 진료·상담비는 1~2회차에만 20%를 내고 3회차부터는 내지 않습니다. 상담 6회 또는 약제별 투약일수를 채우면 이수로 인정합니다. 부프로피온은 56일 이상입니다. 바레니클린·니코틴 보조제는 84일입니다. 이수하면 사업에서 낸 본인부담금을 전부 돌려받습니다. 등록은 한 해에 3번까지 할 수 있습니다. 저소득층과 의료급여 수급자는 바레니클린·부프로피온 약값을 내지 않습니다.",
+      "reason": "환급을 사업 내 본인부담금으로 한정하고 6회 상담 또는 약제별 56/84일 조건을 명시합니다.",
+      "evidence_ids": [
+        "nhis"
+      ],
+      "new_sentence_lengths": [
+        {
+          "text": "상담 6회 또는 약제별 투약일수를 채우면 이수로 인정합니다.",
+          "chars": 33
+        },
+        {
+          "text": "부프로피온은 56일 이상입니다.",
+          "chars": 17
+        },
+        {
+          "text": "바레니클린·니코틴 보조제는 84일입니다.",
+          "chars": 22
+        },
+        {
+          "text": "이수하면 사업에서 낸 본인부담금을 전부 돌려받습니다.",
+          "chars": 29
+        }
+      ]
+    },
+    {
+      "field": "쉽게",
+      "before": "의지만으로는 대부분 실패합니다. 바레니클린을 먹으면 위약보다 금연 성공률이 두 배 넘게 높습니다. 패치·검 같은 니코틴 대체제도 금연 성공률을 높입니다. 약 없이 버틸 때보다 50%쯤 높습니다. 패치에 빨리 작용하는 검을 더하면 성공률이 20%쯤 더 오릅니다.",
+      "after": "바레니클린의 금연 성공률은 위약보다 두 배 넘게 높습니다. 패치와 검·로젠지를 함께 쓰면 한 종류만 쓸 때보다 약 27% 높습니다.",
+      "reason": "기존 승인 축약의 20%를 RR1.27에 맞는 약27%로 정정합니다. 실제 비교군은 패치만이 아니라 단일 제형입니다. 바레니클린을 중심 비교로 남기고 부차 NRT 단독 수치는 이득에 보존합니다.",
+      "evidence_ids": [
+        "varenicline",
+        "combination"
+      ],
+      "new_sentence_lengths": [
+        {
+          "text": "바레니클린의 금연 성공률은 위약보다 두 배 넘게 높습니다.",
+          "chars": 32
+        },
+        {
+          "text": "패치와 검·로젠지를 함께 쓰면 한 종류만 쓸 때보다 약 27% 높습니다.",
+          "chars": 40
+        }
+      ]
+    },
+    {
+      "field": "이득",
+      "before": "무작위 시험 41개·17,395명을 합쳤습니다. 바레니클린군의 금연 성공률은 위약군의 2.32배입니다. RR 2.32, 95% CI 2.15–2.51. CI는 추정치의 불확실성을 나타내는 구간입니다. 근거의 확실성은 높습니다. 바레니클린은 부프로피온보다 금연 성공률이 높습니다. RR 1.36, 약 36% 높음. 바레니클린은 니코틴 대체제 단일 제형보다도 성공률이 높습니다. RR 1.25, 약 25% 높음. 니코틴 대체제를 쓰는 방법과 약 없이 버티는 방법을 비교했습니다. 시험은 133개·64,640명을 합쳤습니다. 대체제를 쓰면 금연 성공률이 약 55% 높습니다. RR 1.55, 95% CI 1.49–1.61. 패치에 검·로젠지 등 빨리 작용하는 제형을 더했습니다. 금연 성공률은 패치만 쓸 때보다 약 27% 높습니다. RR 1.27, 95% CI 1.17–1.37. 시험은 16개·12,169명을 합쳤습니다. 근거의 확실성은 높습니다.",
+      "after": "금연 성공은 최소 6개월 추적한 결과입니다. RR은 두 집단의 금연 성공률을 나눈 값입니다. 무작위 시험 41개·17,395명을 합쳤습니다. 바레니클린군의 금연 성공률은 위약군의 2.32배입니다. RR 2.32, 95% CI 2.15–2.51. CI는 추정치의 불확실성을 나타내는 구간입니다. 근거의 확실성은 높습니다. 바레니클린은 부프로피온보다 금연 성공률이 높습니다. RR 1.36, 약 36% 높음. 바레니클린은 니코틴 대체제 단일 제형보다도 성공률이 높습니다. RR 1.25, 약 25% 높음. 니코틴 대체제를 위약 또는 니코틴 대체제 비사용과 비교했습니다. 시험은 133개·64,640명을 합쳤습니다. 대체제를 쓰면 금연 성공률이 약 55% 높습니다. RR 1.55, 95% CI 1.49–1.61. 패치에 검·로젠지 등 빨리 작용하는 제형을 더했습니다. 금연 성공률은 한 종류의 니코틴 대체제만 쓸 때보다 약 27% 높습니다. RR 1.27, 95% CI 1.17–1.37. 시험은 16개·12,169명을 합쳤습니다. 근거의 확실성은 높습니다.",
+      "reason": "RR1.27 비교군을 단일 제형 전체로 바로잡습니다. RR1.55의 대조군을 위약/비사용으로 명시합니다. 최소6개월 금연 endpoint와 RR 의미를 설명하고 모든 기존 RR/CI/시험분모를 보존합니다.",
+      "evidence_ids": [
+        "varenicline",
+        "combination",
+        "nrt"
+      ],
+      "new_sentence_lengths": [
+        {
+          "text": "금연 성공은 최소 6개월 추적한 결과입니다.",
+          "chars": 24
+        },
+        {
+          "text": "RR은 두 집단의 금연 성공률을 나눈 값입니다.",
+          "chars": 26
+        },
+        {
+          "text": "니코틴 대체제를 위약 또는 니코틴 대체제 비사용과 비교했습니다.",
+          "chars": 35
+        },
+        {
+          "text": "금연 성공률은 한 종류의 니코틴 대체제만 쓸 때보다 약 27% 높습니다.",
+          "chars": 40
+        }
+      ]
+    }
+  ],
+  "primary_evidence": [
+    {
+      "raw_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-003-4cea/source-evidence/varenicline.xml",
+      "raw_sha256": "b95a9e2f49c40ae40a5295ee92bec9865a2075d0a507da96a9073b1847435746",
+      "original_raw_path": "/tmp/ch02-audit/full-PMC10169257.body",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10169257/fullTextXML",
+      "read_at_utc": "2026-10-18T14:35:01.029332+00:00",
+      "method": "Cached primary full-text XML: abstract, endpoint criteria and relevant results paragraphs",
+      "network_refetch": false,
+      "original_fetch_time": "Not newly fetched; initial full-text fetch timestamp unavailable, not inferred from mtime"
+    },
+    {
+      "raw_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-003-4cea/source-evidence/combination.xml",
+      "raw_sha256": "3be1541f6b8f8643e9d674891cec0a484833b240d594da558033ebf170337919",
+      "original_raw_path": "/tmp/ch02-audit/full-PMC10278922.body",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10278922/fullTextXML",
+      "read_at_utc": "2026-10-18T14:35:01.029332+00:00",
+      "method": "Cached primary full-text XML: abstract, methods, combination comparison and subgroup results",
+      "network_refetch": false,
+      "original_fetch_time": "Not newly fetched; initial full-text fetch timestamp unavailable, not inferred from mtime"
+    },
+    {
+      "raw_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-003-4cea/source-evidence/nrt-abstract.json",
+      "raw_sha256": "e9fe239ee6903bb5c34c53fa415f1c6ac3ac24661c2a50988ce090ff54eba5c4",
+      "original_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/d55015cacab9b75c4357.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1002%2F14651858.CD000146.pub5%22&format=json&resultType=core&pageSize=10",
+      "read_at_utc": "2026-10-18T14:35:01.029332+00:00",
+      "method": "Cached primary abstract, not full text",
+      "network_refetch": false,
+      "original_fetch_time": "Not newly fetched; initial full-text fetch timestamp unavailable, not inferred from mtime"
+    },
+    {
+      "raw_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-003-4cea/source-evidence/nhis.pdf",
+      "raw_sha256": "486e41ab5a3fe46ffc39c650c6d9ddefee7ae8b015a0a96fda38795ec422ff3a",
+      "original_raw_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-005-6d11/source-evidence/nhis-smk.body",
+      "url": "https://www.nhis.or.kr/static/html/wbma/c/smkInfo_01.pdf",
+      "read_at_utc": "2026-10-18T14:35:01.029332+00:00",
+      "method": "Cached official PDF plus its extracted text: support, completion and refund tables",
+      "network_refetch": false,
+      "original_fetch_time": "Not newly fetched; initial full-text fetch timestamp unavailable, not inferred from mtime"
+    },
+    {
+      "raw_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-003-4cea/source-evidence/nhis.txt",
+      "raw_sha256": "1c00953195a02c9cfd68dfb48892966a931ea0cd87d97a120171504a192bc49b",
+      "original_raw_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-005-6d11/source-evidence/nhis-smk.txt",
+      "url": "https://www.nhis.or.kr/static/html/wbma/c/smkInfo_01.pdf",
+      "read_at_utc": "2026-10-18T14:35:01.029332+00:00",
+      "method": "Cached pdftotext extraction of official PDF",
+      "network_refetch": false,
+      "original_fetch_time": "Not newly fetched; initial full-text fetch timestamp unavailable, not inferred from mtime"
+    }
+  ],
+  "exact_primary_quotes": {
+    "varenicline": [
+      "We found high‐certainty evidence that varenicline helps more people to quit than placebo (RR 2.32, 95% CI 2.15 to 2.51; I 2 = 60%, 41 studies, 17,395 participants), and moderate‐certainty evidence that people taking varenicline are more likely to report SAEs than those not taking it (RR 1.23, 95% CI 1.01 to 1.48; I 2 = 0%; 26 studies, 14,356 participants). While point estimates suggested increased risk of cardiac SAEs (RR 1.20, 95% CI 0.79 to 1.84; I 2 = 0%; 18 studies, 7151 participants; low‐certainty evidence), and decreased risk of neuropsychiatric SAEs (RR 0.89, 95% CI 0.61 to 1.29; I 2 = 0%; 22 studies, 7846 participants; low‐certainty e",
+      "We excluded trials that did not report a minimum follow‐up period of six months from baseline. Data collection and analysis We followed standard Cochrane methods. Our main outcome was abstinence from smoking at longest follow‐up using the most rigorous definition of abstinence, preferring biochemically validated rates where reported. We pooled risk ratios (RRs), using the Mantel‐Haenszel fixed‐effect model. We also reported the number of people reporting serious adverse events (SAEs). Main results We included 75 trials of 45,049 people; 45 were new for this update. We rated 22 at low risk of bias, 18 at high risk, and 35 at unclear risk. We f"
+    ],
+    "combination": [
+      "There is high‐certainty evidence that combination NRT (fast‐acting form plus patch) results in higher long‐term quit rates than single form (risk ratio (RR) 1.27, 95% confidence interval (CI) 1.17 to 1.37; I 2 = 12%; 16 studies, 12,169 participants). Moderate‐certainty evidence, limited by imprecision, indicates that 42/44 mg patches are as effective as 21/22 mg (24‐hour) patches (RR 1.09, 95% CI 0.93 to 1.29; I 2 = 38%; 5 studies, 1655 participants), and that 21 mg patches are more effective than 14 mg (24‐hour) patches (RR 1.48, 95% CI 1.06 to 2.08; 1 study, 537 participants). Moderate‐certainty evidence, again limited by imprecision, also ",
+      "Pooled data from 16 studies found greater quit rates following combination NRT treatment when compared to single‐type NRT for smoking cessation (RR 1.27, 95% CI 1.17 to 1.37; I 2 = 12%; 16 studies, 12,169 participants; Analysis 4.1 ). When split into subgroups, this was equally true for combination therapy compared to: (1) patch alone (RR 1.24, 95% CI 1.13 to 1.37; I 2 = 28%; 13 studies, 9522 participants); (2) a fast‐acting form of NRT alone (RR 1.30, 95% CI 1.09 to 1.54; I 2 = 0%; 6 studies, 2364 participants); (3) a choice of a single form of NRT (patch or fast‐acting NRT; RR 5.16, 95% CI 1.18 to 22.6; 1 study, 253 participants). There was",
+      "We measured smoking abstinence after at least six months, using the most rigorous definition available. We extracted data on cardiac adverse events (AEs), serious adverse events (SAEs) and study withdrawals due to treatment. Main results We identified 68 completed studies with 43,327 participants, five of which are new to this update. Most completed studies recruited adults either from the community or from healthcare clinics. We judged 28 of the 68 studies to be at high risk of bias. Restricting the analysis only to those studies at low or unclear risk of bias did not significantly alter results for any comparisons apart from the preloading "
+    ],
+    "nrt": [
+      "133 with 64,640 participants contributed to the primary comparison between any type of NRT and a placebo or non-NRT control group. The majority of studies were conducted in adults and had similar numbers of men and women. People enrolled in the studies typically smoked at least 15 cigarettes a day at the start of the studies. We judged the evidence to be of high quality; we judged most studies to be at high or unclear risk of bias but restricting the analysis to only those studies at low risk of bias did not significantly alter the result. The RR of abstinence for any form of NRT relative to control was 1.55 (95% confidence interval (CI) 1.49",
+      "The RR of abstinence for any form of NRT relative to control was 1.55 (95% confidence interval (CI) 1.49 to 1.61). The pooled RRs for each type were 1.49 (95% CI 1.40 to 1.60, 56 trials, 22,581 participants) for nicotine gum; 1.64 (95% CI 1.53 to 1.75, 51 trials, 25,754 participants) for nicotine patch; 1.52 (95% CI 1.32 to 1.74, 8 trials, 4439 participants) for oral tablets/lozenges; 1.90 (95% CI 1.36 to 2.67, 4 trials, 976 participants) for nicotine inhalator; and 2.02 (95% CI 1.49 to 2.73, 4 trials, 887 participants) for nicotine nasal spray. The effects were largely independent of the definition of abstinence, the intensity of additional "
+    ],
+    "nhis": [
+      "6회 상담 또는 금연치료제별 투약기준 만족 ’20~ -부프로피온: 56일 이상 본인부담금 100% -바레니클린, 보조제: 84일 2. 금연치료 협력 우수기관 인센티브 ‣ \u0007금연치료 참여자, 이수자 그리고 문진표 입력건수 등을 고려하여 「금연치료 협력 우수기관」지정 및 비경제적 인센티브 지급 Ⅵ. 금연치료지원사업 추진협의체 1. 금연치료지원사업 추진협의체 구성 ‣ 금연치료 건강보험 및 저소득층 지원사업과 관련한 이해관계자의 의견을 수렴하여 사업을 추진함으로써 흡연율 감소를 통한 국민건강증진 도모 29 가. 구성 - 위원장을 포함 의약단체, 학계·현장 전문가, 공단 및 심평원 관계 직원 등 15인 내외로 구성 • (의약단체) 대한의사협회, 대한병원협회, 대한치과의사협회, 대한한의사협회, 대한약사회, 대한간호협회 각 1인 금연치료지원사업 지침 • (학계 등 전문가 및 소비자 단체) 대한금연학회, 금연운동협의회, 송파구 보건소, 한국건강증진개발원, 한국소비자 연맹 각 1인 • (공단 및 심평원 관계 직원) 보건복지부, 공단 건강지원사업실장, 건강보험연구원 연구위원, 심평원 의료 수가운영부장 - 협의체 운영을 위해 간사를 두되, 간사는 공단 건강지원사업실 의료이용개선부장으로 함 나. 기능 및 역할 - 금연치료 건강보험 및 저소득층 지원사업 주요사항과 사업",
+      "프로그램 이수 시 1~2회 때의 본인부담금(20%)을 전액 환급 받을 수 있습니다. 금연치료 프로그램 참여시 ※ 프로그램 이수 기준: 6회 상담 또는 금연치료제별 투약일수 2 본인부담금은 얼마인가요? 만족 - 부프로피온: 56일 이상 - 바레니클린: 84일 - 보조제(패치, 껌, 사탕): 84일 네, 가능합니다. 최초 등록한 의료기관이 아니더라도 전국 어디서나 가까운 참여 의료기관을 방문 하시면 금연치료를 받을 수 있습니다. 금연치료 참여중인데 병·의원을 3 다만, 참여자가 차기진료일로부터 7일 이내에 의료기관을 변경하고 싶어요. 가능한가요? 방문해야 진행 중인 차수로 지원이 가능합니다. 다음 차수로 진행될 경우 1~2회차 본인부담금이 발생되며 이수조건 충족시 이수인센티브로 지급됩니다. 공단 홈페이지와 모바일앱 건강보험25시에서 검색 가능합니다. ① 건강보험공단 홈페이지>건강모아>병(의)원 검진기관찾기> 병(의)원정보>금연치료 의료기관 찾기 ② 모바일앱 '건강보험25시'>건강모아>병(의)원/검진기관 찾기> 금연치료 병 · 의원은 어디에서 4 특성별 기관찾기>금연치료 의료기관 확인 가능한가요? ※ 금연치료 의료기관 조회 기준 ① 조회일 현재 의료인 교육을 이수한 의사가 1명 이상 근무 ② 최근 3개월 이내 금연치료 진료내역 있어야 함 ③ 의료기관 "
+    ]
+  },
+  "audit_and_decisions": {
+    "finding": "바레니클린 RR2.32·NRT1.55·병용1.27과 각 분모를 원문/초록에 대조했습니다. 병용 27%를 20%로 요약하기보다 ‘약30%’가 낫습니다. 공단 PDF에서 연3차수, 1~2회20%, 3~6회면제, 이수 환급 확인. 환급은 사업 내 본인부담금이며 모든 진료비 전부라는 뜻으로 확대하지 마세요. 6회 또는 약제별56/84일 조건을 유지합니다.",
+    "issues_closed_in_proposal": [
+      "27% vs20% approximation",
+      "RR1.27 pooled comparator single-form rather than patch-only",
+      "refund restricted to program copayment",
+      "6 consultations OR drug-specific 56/84 days",
+      "RR2.32/1.55/1.27 estimates, CIs and participants/studies retained",
+      "minimum6months smoking abstinence endpoint",
+      "RR1.55 placebo or noNRT comparator"
+    ]
+  },
+  "intentional_numerical_scope_changes": [
+    "쉽게 20%쯤 -> 약27%; effect is relative success, not percentage-point gain",
+    "병용 RR1.27/16시험12,169명 compares combination against single-form NRT; patch-only subgroup RR1.24 is not substituted for pooled result",
+    "약제별 투약일수 56일 이상/84일 made explicit from official completion table",
+    "No OR or HR effect is converted to probability; reported efficacy estimates here are RR of smoking abstinence, not mortality"
+  ],
+  "doi_changes": {
+    "added": [],
+    "removed": [],
+    "reason": "Existing verified citations retained exactly"
+  },
+  "validation": {
+    "easy_chars": 73,
+    "easy_sentences": 2,
+    "modified_sentence_max": 40,
+    "cost_tag_exact": true,
+    "evidence_grade_exact": true,
+    "source_field_unchanged": true,
+    "unchanged_fields": [
+      "title",
+      "근거등급",
+      "출처",
+      "비고"
+    ],
+    "pure_and_approved_artifacts_unchanged": true
+  },
+  "unresolved_limitations": [
+    "Reads were cached primary XML/abstract and official PDF, not a fresh live policy status check; original full-text network timestamps unavailable.",
+    "NRT placebo-controlled review read at abstract level only, not entire full text.",
+    "Original unrelated medicine access/brand and clinical safety prose retained; this focused correction is not a new verification of every clinical assertion.",
+    "Official PDF supports displayed program rules; future administrative changes are not guaranteed.",
+    "No self-approval or publication; independent exact-hash review required."
+  ]
+}

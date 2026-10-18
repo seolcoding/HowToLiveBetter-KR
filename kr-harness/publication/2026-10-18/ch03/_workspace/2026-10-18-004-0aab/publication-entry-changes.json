@@ -1,0 +1,270 @@
+{
+  "status": "unadopted_proposal",
+  "entry": 4,
+  "base": "strict-entry.md",
+  "base_sha256": "15a86d4b2ee413a514485c0ca866f3d1867f6fc9c2607885bd36a3bf1807b426",
+  "proposal_sha256": "52315be7567cc7db557c12c8c4544af7d1c97a3abc8c6585b5e98ebee37083bd",
+  "changes": [
+    {
+      "field": "쉽게",
+      "before": "자기 6시간 전에 큰 커피 한 잔(400mg)을 마시면 어떨까요? 그날 밤 기기로 잰 수면 시간은 1시간 넘게 줄어듭니다. 하지만 본인이 쓴 수면 일지에는 차이가 없습니다. 보통 커피 한 잔(107mg)도 일찍 마셔야 합니다. 잠에 영향을 주지 않으려면 자기 8.8시간 전까지 마치세요. 11시에 잔다면 오후 2시까지 마치세요.",
+      "after": "카페인은 수면 시간을 평균 45분 줄였습니다. 카페인 107mg이 든 커피는 자기 약 9시간 전까지 마치세요. 개인차가 있어 잠에 영향이 없다고 보장할 수는 없습니다. 대사가 느리다면 더 일찍 마치세요.",
+      "reason": "Remove study-design jargon and coffee400mg generalization; preserve central average45min, dose/timing, uncertainty and slow metabolism exception."
+    },
+    {
+      "field": "이득",
+      "before": "취침 6시간 전 카페인 400mg을 먹었을 때의 결과입니다. 기기로 잰 총 수면 시간은 위약보다 1.1~1.2시간 줄었습니다. 위약은 카페인이 없는 대조 음료입니다. 반면 참가자가 직접 쓴 수면 일지에는 차이가 없었습니다. 참가자들은 수면 시간이 줄어든 줄 몰랐습니다. 여러 연구를 합친 메타분석에서도 수면 시간이 줄었습니다. 카페인은 총 수면 시간을 평균 45분 줄였습니다. 누워 있던 시간 중 실제로 잔 비율은 7% 감소했습니다. 이 비율을 수면 효율이라고 합니다. 커피 한 잔(107mg)도 자기 8.8시간 전까지 마쳐야 합니다. 그래야 수면에 영향을 주지 않습니다.",
+      "after": "Drake 연구는 건강하게 잘 자는 성인 12명을 대상으로 했습니다. 집에서 카페인 400mg을 알약으로 복용했습니다. 취침 직전이나 3시간 전, 6시간 전 조건을 비교했습니다. 대조 조건에서는 같은 모양의 위약만 복용했습니다. 위약은 카페인이 없는 알약이었습니다. 기기로 잰 총 수면 시간은 위약보다 1.1~1.2시간 줄었습니다. 이 범위는 세 복용 시점의 결과입니다. 6시간 전 복용에서도 기기로 잰 수면 시간이 1시간 넘게 줄었습니다. 같은 조건의 수면 일지에서는 41분 줄었습니다. 다만 통계적으로 뚜렷한 차이는 아니었습니다(p = 0.08). 차이가 전혀 없었다는 뜻은 아닙니다. 별도로 24개 연구를 합친 분석에서도 수면 시간이 줄었습니다. 카페인은 총 수면 시간을 평균 45분 줄였습니다. 누워 있던 시간 중 실제로 잔 비율을 수면 효율이라고 합니다. 수면 효율의 감소 폭은 초록에 7%로 제시됐습니다. 7%가 상대 감소율인지는 초록만으로 구분하기 어렵습니다. 카페인 107mg이 든 커피 250mL를 기준으로 한 추정도 있습니다. 수면 시간 감소를 피하려면 취침 8.8시간 전까지 마시라는 추정입니다. 모든 사람에게 영향이 없다고 보장하는 기준은 아닙니다. 밤 11시에 잔다면 오후 2시까지 마치는 셈입니다.",
+      "reason": "Verify actual pill/placebo design and home setting; specify 12 adults and timing range. Replace no diary difference with nonsignificant41min decrease. Preserve meta-analysis estimates, add107mg/250mL and mark8.8h estimate, not guarantee. Disclose unresolved7% unit interpretation."
+    },
+    {
+      "field": "비고",
+      "before": "Drake 연구는 한 실험실에서만 진행했습니다. 카페인 400mg은 커피 두세 잔쯤 되는 많은 양입니다. 카페인 대사가 느리다면 더 일찍 마치세요. 카페인을 줄이면 수면 시간을 되찾습니다. 효과는 제3항(매일 밤 7~8시간 자기)과 겹칩니다.",
+      "after": "Drake 연구는 한 연구진이 집에서 수면을 측정한 소규모 실험입니다. 카페인 400mg을 커피 한 잔으로 일반화할 수 없습니다. 커피의 카페인 함량은 제품과 용량에 따라 다릅니다. 카페인 대사가 느리다면 더 일찍 마치세요. 카페인을 줄이면 수면 시간 감소를 줄이는 데 도움이 될 수 있습니다. 효과는 제3항(매일 밤 7~8시간 자기)과 겹칩니다.",
+      "reason": "Correct laboratory setting from actual home study; remove fixed cups conversion and guaranteed sleep recovery."
+    }
+  ],
+  "sources": [
+    {
+      "level_read": "cached primary abstract",
+      "verified_date": "2026-10-18",
+      "metadata": {
+        "doi": "10.5664/jcsm.3170",
+        "chapters": [
+          3
+        ],
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.5664%2Fjcsm.3170%22&format=json&resultType=core&pageSize=10",
+        "fetched_at": "2026-10-18T20:50:11.717498+09:00",
+        "http_status": 200,
+        "status": "exact_doi_metadata_cached",
+        "sha256": "2a985b43f1cd50826c43c30ff05aabefb54e8ea34427db3228f7742168a510d6",
+        "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/fcfee9b228206080c26a.json",
+        "hit_count": 1,
+        "abstract_present": true
+      },
+      "exact_primary_quote": "<h4>Study objective</h4>Sleep hygiene recommendations are widely disseminated despite the fact that few systematic studies have investigated the empirical bases of sleep hygiene in the home environment. For example, studies have yet to investigate the relative effects of a given dose of caffeine administered at different times of day on subsequent sleep.<h4>Methods</h4>This study compared the potential sleep disruptive effects of a fixed dose of caffeine (400 mg) administered at 0, 3, and 6 hours prior to habitual bedtime relative to a placebo on self-reported sleep in the home. Sleep disturbance was also monitored objectively using a validated portable sleep monitor.<h4>Results</h4>Results demonstrated a moderate dose of caffeine at bedtime, 3 hours prior to bedtime, or 6 hours prior to bedtime each have significant effects on sleep disturbance relative to placebo (p < 0.05 for all).<h4>Conclusion</h4>The magnitude of reduction in total sleep time suggests that caffeine taken 6 hours before bedtime has important disruptive effects on sleep and provides empirical support for sleep hygiene recommendations to refrain from substantial caffeine use for a minimum of 6 hours prior to bedtime.",
+      "correction_check": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "33054955",
+            "reference": "J Clin Sleep Med. 2020 Dec 17;16(S1):23-24. doi: 10.5664/jcsm.8890",
+            "type": "Comment in",
+            "orderIn": 1
+          }
+        ]
+      }
+    },
+    {
+      "level_read": "cached primary abstract",
+      "verified_date": "2026-10-18",
+      "metadata": {
+        "doi": "10.1016/j.smrv.2023.101764",
+        "chapters": [
+          3
+        ],
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2Fj.smrv.2023.101764%22&format=json&resultType=core&pageSize=10",
+        "fetched_at": "2026-10-18T20:50:11.723899+09:00",
+        "http_status": 200,
+        "status": "exact_doi_metadata_cached",
+        "sha256": "112b1ac80ce2c65ddff859f6e2647a774ef9a7d96dbc3b5063a801a1196af130",
+        "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/df5a689db3e183964c39.json",
+        "hit_count": 1,
+        "abstract_present": true
+      },
+      "exact_primary_quote": "The consumption of caffeine in response to insufficient sleep may impair the onset and maintenance of subsequent sleep. This systematic review and meta-analysis investigated the effect of caffeine on the characteristics of night-time sleep, with the intent to identify the time after which caffeine should not be consumed prior to bedtime. A systematic search of the literature was undertaken with 24 studies included in the analysis. Caffeine consumption reduced total sleep time by 45 min and sleep efficiency by 7%, with an increase in sleep onset latency of 9 min and wake after sleep onset of 12 min. Duration (+6.1 min) and proportion (+1.7%) of light sleep (N1) increased with caffeine intake and the duration (-11.4 min) and proportion (-1.4%) of deep sleep (N3 and N4) decreased with caffeine intake. To avoid reductions in total sleep time, coffee (107 mg per 250 mL) should be consumed at least 8.8 h prior to bedtime and a standard serve of pre-workout supplement (217.5 mg) should be consumed at least 13.2 h prior to bedtime. The results of the present study provide evidence-based guidance for the appropriate consumption of caffeine to mitigate the deleterious effects on sleep.",
+      "correction_check": "No correction relation listed in this record; absence is not an exhaustive publisher correction search."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3805807/?report=xml",
+      "level_read": "actual PMC full HTML article: Methods, Results, Discussion; tables represented as images not numerically transcribed",
+      "verified_date": "2026-10-18",
+      "method": "urllib HTTPS verified TLS; returned HTML read with HTMLParser",
+      "raw_path": "/tmp/ch03e04-source-1",
+      "sha256": "8771f89693826b786126c80522c1886c15d6c54d3c465476509ec8fb20048197",
+      "exact_primary_quotes": [
+        "The study group comprised 12 healthy normal sleepers",
+        "400 mg of caffeine taken in pill form at either 6, 3, or 0 hours prior to scheduled bedtime, with identical placebo given at each of the other times.",
+        "Caffeine administered 6 h prior to bedtime reduced total sleep time by 41 min, which approached significance (p = 0.08).",
+        "reducing TST between 1.1 to 1.2 hours.",
+        "Even at 6 hours, caffeine reduced sleep by more than 1 hour."
+      ],
+      "correction_check": "PMC article text contains no correction notice; cached PubMed relation is Comment in (10.5664/jcsm.8890), not Erratum. Exhaustive publisher correction search not completed."
+    }
+  ],
+  "doi_changes": {
+    "added": [],
+    "removed": [],
+    "reason": "Both original primary DOI citations retained."
+  },
+  "prior_approval": {
+    "approved_fields": [],
+    "editorial_easy_status": "revise; prior100char suggested after was not approved canonical text. New proposal preserves45min/107mg/~9h/uncertainty and adds slow-metabolism exception."
+  },
+  "intentional_numeric_scope_changes": [
+    "400mg is pill dose, not universal large cup.",
+    "1.1–1.2h is range across0/3/6h;6h>1h separately confirmed.",
+    "41min/p=.08 replaces false no-difference; nonsignificance is not zero effect.",
+    "107mg/250mL and8.8h retained as pooled estimate;9h in easy is rounding.",
+    "7% source notation retained without claiming percentage points or relative reduction."
+  ],
+  "sentence_measurements": [
+    {
+      "field": "쉽게",
+      "sentence": "카페인은 수면 시간을 평균 45분 줄였습니다.",
+      "chars": 25
+    },
+    {
+      "field": "쉽게",
+      "sentence": "카페인 107mg이 든 커피는 자기 약 9시간 전까지 마치세요.",
+      "chars": 35
+    },
+    {
+      "field": "쉽게",
+      "sentence": "개인차가 있어 잠에 영향이 없다고 보장할 수는 없습니다.",
+      "chars": 31
+    },
+    {
+      "field": "쉽게",
+      "sentence": "대사가 느리다면 더 일찍 마치세요.",
+      "chars": 19
+    },
+    {
+      "field": "이득",
+      "sentence": "Drake 연구는 건강하게 잘 자는 성인 12명을 대상으로 했습니다.",
+      "chars": 38
+    },
+    {
+      "field": "이득",
+      "sentence": "집에서 카페인 400mg을 알약으로 복용했습니다.",
+      "chars": 27
+    },
+    {
+      "field": "이득",
+      "sentence": "취침 직전이나 3시간 전, 6시간 전 조건을 비교했습니다.",
+      "chars": 32
+    },
+    {
+      "field": "이득",
+      "sentence": "대조 조건에서는 같은 모양의 위약만 복용했습니다.",
+      "chars": 27
+    },
+    {
+      "field": "이득",
+      "sentence": "위약은 카페인이 없는 알약이었습니다.",
+      "chars": 20
+    },
+    {
+      "field": "이득",
+      "sentence": "기기로 잰 총 수면 시간은 위약보다 1.1~1.2시간 줄었습니다.",
+      "chars": 36
+    },
+    {
+      "field": "이득",
+      "sentence": "이 범위는 세 복용 시점의 결과입니다.",
+      "chars": 21
+    },
+    {
+      "field": "이득",
+      "sentence": "6시간 전 복용에서도 기기로 잰 수면 시간이 1시간 넘게 줄었습니다.",
+      "chars": 38
+    },
+    {
+      "field": "이득",
+      "sentence": "같은 조건의 수면 일지에서는 41분 줄었습니다.",
+      "chars": 26
+    },
+    {
+      "field": "이득",
+      "sentence": "다만 통계적으로 뚜렷한 차이는 아니었습니다(p = 0.08).",
+      "chars": 34
+    },
+    {
+      "field": "이득",
+      "sentence": "차이가 전혀 없었다는 뜻은 아닙니다.",
+      "chars": 20
+    },
+    {
+      "field": "이득",
+      "sentence": "별도로 24개 연구를 합친 분석에서도 수면 시간이 줄었습니다.",
+      "chars": 34
+    },
+    {
+      "field": "이득",
+      "sentence": "카페인은 총 수면 시간을 평균 45분 줄였습니다.",
+      "chars": 27
+    },
+    {
+      "field": "이득",
+      "sentence": "누워 있던 시간 중 실제로 잔 비율을 수면 효율이라고 합니다.",
+      "chars": 34
+    },
+    {
+      "field": "이득",
+      "sentence": "수면 효율의 감소 폭은 초록에 7%로 제시됐습니다.",
+      "chars": 28
+    },
+    {
+      "field": "이득",
+      "sentence": "7%가 상대 감소율인지는 초록만으로 구분하기 어렵습니다.",
+      "chars": 31
+    },
+    {
+      "field": "이득",
+      "sentence": "카페인 107mg이 든 커피 250mL를 기준으로 한 추정도 있습니다.",
+      "chars": 39
+    },
+    {
+      "field": "이득",
+      "sentence": "수면 시간 감소를 피하려면 취침 8.8시간 전까지 마시라는 추정입니다.",
+      "chars": 39
+    },
+    {
+      "field": "이득",
+      "sentence": "모든 사람에게 영향이 없다고 보장하는 기준은 아닙니다.",
+      "chars": 30
+    },
+    {
+      "field": "이득",
+      "sentence": "밤 11시에 잔다면 오후 2시까지 마치는 셈입니다.",
+      "chars": 28
+    },
+    {
+      "field": "비고",
+      "sentence": "Drake 연구는 한 연구진이 집에서 수면을 측정한 소규모 실험입니다.",
+      "chars": 39
+    },
+    {
+      "field": "비고",
+      "sentence": "카페인 400mg을 커피 한 잔으로 일반화할 수 없습니다.",
+      "chars": 32
+    },
+    {
+      "field": "비고",
+      "sentence": "커피의 카페인 함량은 제품과 용량에 따라 다릅니다.",
+      "chars": 28
+    },
+    {
+      "field": "비고",
+      "sentence": "카페인 대사가 느리다면 더 일찍 마치세요.",
+      "chars": 23
+    },
+    {
+      "field": "비고",
+      "sentence": "카페인을 줄이면 수면 시간 감소를 줄이는 데 도움이 될 수 있습니다.",
+      "chars": 38
+    },
+    {
+      "field": "비고",
+      "sentence": "효과는 제3항(매일 밤 7~8시간 자기)과 겹칩니다.",
+      "chars": 29
+    }
+  ],
+  "easy_chars": 113,
+  "unresolved_limitations": [
+    "Gardiner full text not read;7% relative vs percentage-point meaning unresolved and disclosed to reader.",
+    "No exhaustive publisher correction search; Drake listed Comment in is not labelled erratum.",
+    "Title remains unchanged to preserve incoming anchor; recommendation is conditional on bedtime, clarified in benefit."
+  ],
+  "ratio_check": "No OR/RR/HR or personal probability conversion involved."
+}

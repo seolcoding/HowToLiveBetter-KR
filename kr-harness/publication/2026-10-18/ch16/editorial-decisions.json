@@ -1,0 +1,1095 @@
+{
+  "chapter": 16,
+  "status": "pending_candidate_review",
+  "reviewed_at": "2026-10-18T14:39:49.502734+00:00",
+  "source_sha256": "bcf5ffefefb4ad3c2ece04dd09052e1a3de00a0f1fc9d21e4b0eb61ad8603753",
+  "candidate_sha256": null,
+  "formal_kr_fit": "not_performed_not_approved",
+  "entries": [
+    {
+      "entry": 1,
+      "status": "revision_required",
+      "source_entry_sha256": "f965309ac7e2129830ebd57ad770046e1804af2748212e2041c3946534d9ba8c",
+      "review_scope": "Simpson 원초록과 실제 원논문PDF를 모두 확인했습니다.21연구46847명·위약8연구19633명,전체OR0.56(0.50~0.63),유익치료0.55(0.49~0.62),위약0.56(0.43~0.74),유해치료2.90(1.04~8.11)입니다. 관찰적 순응도 연관성 분석이며 무작위 약복용순응 배정 효과가 아닙니다. 쉽게의 사망위험절반/이득의 사망가능성44%·45%감소는 오즈를 확률로 바꾼 오류입니다. 오즈비·연관성으로 고치고 baseline/RR를 역산하지 마세요. 건강한복약자 효과는 지지되지만 상당부분이라고 크기를 정량 분해하지 않았습니다. “약은무조건끝까지/중단해는확실”을 모든유해치료·부작용까지 일반화하지 말고 처방변경중단은의료진과상의 조건을 유지해야 합니다.",
+      "evidence_ids": [
+        "annex:3",
+        "doi:10.1136/bmj.38875.675486.55"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 2,
+      "status": "revision_required",
+      "source_entry_sha256": "633a59e4ab0533dbc7fb902cc322d42fd430d6a276189d8ed9c60f0e436feda7",
+      "review_scope": "산정특례 고시2026-162호 실제 본문4·5·7·8과 별표3/4의2 PDF확인:암5%·등록5년,지정투석·혈관시술수술/복막관류·간췌장심장신장폐소장 이식직접관련진료10%,30일이내확진일소급/이후신청일,작성제출별도청구금지 일치. 재등록은 암/질환별법정조건이 있어 치료만이어지면자동연장처럼 확대하지 않습니다. 등록신청일은공단제출일이라는7①도 유의. 건보법44·시행령19③은 상한제 대상에서 상급병실일부·경증질환상급외래·선별급여등을 제외하므로 “1년납부본인부담금모두상한” 단정 수정. 비급여제외조건 유지. 일반입원20%는 기본급여부담이며식대/병실등다른부담률을총병원비20%로확대금지.",
+      "evidence_ids": [
+        "body:3",
+        "annex:0",
+        "annex:1",
+        "law:285273",
+        "law:289701"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 3,
+      "status": "revision_required",
+      "source_entry_sha256": "347a711a375ca5f612e53cb6847c55d2785edb93c5c5eb5403466504f7f3a3a1",
+      "review_scope": "의료법21① 환자본인기록열람사본/정당사유없는거부금지,요양급여규칙6③ 의뢰회송서발급·환자동의후자료제공 실제 확인. 수첩을제시하면 재검/추가비용이전혀없다는 두문장은이법의보장도연구결과도아닙니다. 중복검사를줄이는데도움 범위로제한해야합니다. 검사시점·질병경과·자료품질상필요재검은 가능. 비용·수첩관리기간은C등급작성자판단이며무료기록사본까지승인하지않았습니다.",
+      "evidence_ids": [
+        "law:290667",
+        "law:285513"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 4,
+      "status": "revision_recommended",
+      "source_entry_sha256": "14c4475ee31888d187b3488e20cb2dfd0c346259e51765faa7ffd0ed416e9f18",
+      "review_scope": "직접연구없는C등급·6절참조로구분. 보충제상호작용가능성은의사상담예방권고로적절하지만 모든처방중단의해가확실하다는일률문장은1항연구의유해치료순응도OR2.90과도맞지않습니다. 임의로치료를대체/중단하지말라는조건으로한정. 이항만으로 모든보충제의무효·모든처방약지속의순이득을입증하지않았습니다.",
+      "evidence_ids": [
+        "annex:3"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 5,
+      "status": "qualified_supported_with_open_todo",
+      "source_entry_sha256": "55329da5d04e08884519ccc765bc9f4e2ef3085d2fc104e7dcd919b08ddd49ce",
+      "review_scope": "건보시행령별표2 실제원문에서의원30/병원동40읍면35/종합동50읍면45/상급진찰료전액+나머지60·약국일반30/대상질환상급50종합40을확인했습니다. 산정특례6·별표6 실제PDF의원발고혈압/지질이상/무합병2형및관련상병,인슐린예외 확인. 의뢰회송규칙2③④의뢰서원칙과예외/적절의사소견기재검진결과서도가능·6②③회송동의전달확인. “돈이안듭니다”는상담추가비용뜻으로한정해야처방·진료부담존재와모순없음. 제3너목특례의위임고시는API502로정확대상/부담률미확인 유지,장기처방12주중국규정은한국수치로전용하지않음.",
+      "evidence_ids": [
+        "law:289701",
+        "body:3",
+        "annex:2",
+        "law:285513"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 6,
+      "status": "qualified_supported_with_open_todo",
+      "source_entry_sha256": "3bfcd8547536ae463f50817cb527e0b3151911824023ef0b31c83824803efe9d",
+      "review_scope": "공단의원급관리 실제본문다음진료부터진찰료30→20·65세이상총진료비15000원이하경감미적용확인. 공단일차의료사업 실제본문환자등록/개인관리계획·의사케어플랜·통합관리료20,복지부2024-09-29 실제보도본문9-30전국본사업·검사/교육/상담·재진부담20·연최대8만포인트와별도신청(공단앱/웹/지사팩스방문) 확인. 전국모든의원자동제공이아니라참여의원/환자등록·별도지원금신청을한정. 건보시행령3더목20%및임신부/영아/고령일부/희귀난치등예외와비급여고지법45③·규칙42의2확인. 위임고시명과실제참여기관검색결과는미확인. 포인트는현금무조건지급이아니며연최대조건 유지.",
+      "evidence_ids": [
+        "sources:4",
+        "sources:5",
+        "sources:6",
+        "law:289701",
+        "law:290667",
+        "law:286963"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 7,
+      "status": "revision_required",
+      "source_entry_sha256": "2c268540641f4ec6938c5231b449bc13a90f848274204be8f2a73a50a9e76b59",
+      "review_scope": "ADA2026제12장실제PDF확인:12.3성인1형발병5년후,12.4 2형진단시,12.5연례검사1회이상정상+혈당목표범위에서1~2년고려·망막병증시최소매년/진행시더자주,포괄발평가최소매년입니다. 제목의당뇨전체진단즉시안저검사는본문조건과충돌하므로2형조건을보존해야합니다.1형성인범위를소아청소년에전용금지(별도14장). 한두번검사는연례검사라는조건을남기세요. 발진료별/수가별본인부담“거의없음”은국내수가실증없어미확인,정확금액TODO유지. 조기발견이후에도치료기회가없는것처럼“이미늦음”의절대화완화권장.",
+      "evidence_ids": [
+        "annex:4",
+        "doi:10.2337/dc26-S012"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 8,
+      "status": "revision_required",
+      "source_entry_sha256": "8a557544e53b39a40a217ce60ca238fdb28db7022779dc9f77640121ff4af7d9",
+      "review_scope": "Borghi실제원초록에서199특발성첫칼슘결석·대조101명·5년12/99대27/100(P=.008),38.7±13.2대25.1±16.4개월(P=.016),기저성별소변량과P값을확인. 고수분개입이나초록에하루음수2L라고쓰지않아그실험음수량은전문미확인으로남깁니다. 55%는보고사건률의상대차를설명한근사이며전체결석종류위험감소로확대금지. P값을“차이가우연아닐가능성”으로풀이한문장은삭제/정확한귀무가설조건부해석으로수정. NICE실제1.8.1의성인물2.5~3L/소금6g이하·아동나이별1~2L·칼슘제한금지확인. NIH NIDDK실제원문은신부전예외와의료진수분량상의를명시하므로수분제한/신부전환자의임의증량을피하는조건추가.24시간소변목표2~2.5L는인용원초록/NICE1.8.1에명시없어이번에확인했다고하지않음.",
+      "evidence_ids": [
+        "doi:10.1016/s0022-5347(01)66321-3",
+        "sources:3",
+        "retry2:5"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 9,
+      "status": "qualified_supported_revision_recommended",
+      "source_entry_sha256": "77541bb6e2e9a6df32750aa41caca57b3c47751a85968e7840492b470d0f9354",
+      "review_scope": "Doherty실제PMC전문에서영국56개진료소517명255/262·개별교육/참여/목표치료의복합개입·2년95대30 RR3.18·삶의질/QALY£5066확인(영국비용이며국내간호사독자처방권효과로전용금지).후속원초록438발송82%응답·자기보고중앙값0대1/보정RR1.19확인. ACR실제BioC전문에서시작대상·6mg/dL·알로푸리놀≤100mg/CKD더낮게시작·항염3~6개월·27/211/5년·음주1.6/맥주0.16·소변알칼리화조건부반대/결석·CKD≥3요산배설약회피·HLA대상/7.4/0.7/민족별AHS3배확인. HLA양성개인의위험3배라는뜻으로혼동금지. 한국2023지침실제전문권고표:모든통풍금기없으면강한ULT·목표/무기한/콜히친조건부 일치. CARES원초록6190·56.6%치료중단45%추적중단·사망HR1.22/1.34;FAST원초록6128·기존알로푸리놀복용60세이상위험인자군·최근MI/뇌졸중/중증심부전/중증신장제외·주평가변수on-treatmentHR.85/사망7.2대8.6 확인. HR를고정기간확률비로해석금지·연구대상차이를밝혀모든고위험자안전보장금지. MFDS실제검색본문명인날카리신정/유리논정정상전문완제허가확인. 중국지침은등록일치없음으로본문미확인/한국지침대용아님.",
+      "evidence_ids": [
+        "pmc:10.1016/S0140-6736(18)32158-5",
+        "doi:10.1093/rheumatology/kez333",
+        "body:1",
+        "pmc:10.3904/kjim.2023.206",
+        "doi:10.1056/NEJMoa1710895",
+        "doi:10.1016/S0140-6736(20)32234-0",
+        "sources:8",
+        "doi:10.3760/cma.j.issn.1000-6699.2020.01.001"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    }
+  ],
+  "intro_review": "총사망률·돈이라는 측정기준은 원문과 일치합니다. 그러나 모든 권고가 사망률 효과를 직접 입증한 것은 아닙니다.9항의주요RCT종말점은요산목표달성이고7항은선별검사지침,8항은재발입니다. 도입의총사망률표시를각효과의사망률근거로읽지않도록구분. 한국통풍지침추가DOI주석은실제추가출처와일치하며중국지침을한국권고로사용하지않았습니다. 별도주제요약은없습니다.",
+  "tail_review": "TODO7건:장기처방일수상한/안저검사실제금액/HLA보험본인부담/국내약제상한및용량별비교는이번에해소하지않음.참여절차는공단실제사업소개에환자등록→관리계획→교육상담→점검평가가있고복지부본문에지원금별도신청경로까지확인;참여기관찾기실제검색결과는미확인으로분리. 제3더목20%위임고시명과제3너목경증외래고시는검색API502로미해소,확인한시행령/보도만으로고시원문확인했다고하지않음. 2026본문을훈련지식으로부정하지않았으며명시시행일을확인했습니다.",
+  "evidence": [
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC1488752/fullTextXML",
+      "requested_at": "2026-10-18T14:33:04.779969+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "PMC1488752",
+      "status": "access_failed",
+      "error": "HTTP Error 500: Internal Server Error",
+      "id": "sources:0",
+      "actual_review_scope": "접근 실패: 실제 본문 미확인"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10563586/fullTextXML",
+      "requested_at": "2026-10-18T14:33:04.780821+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "PMC10563586",
+      "status": "access_failed",
+      "error": "HTTP Error 500: Internal Server Error",
+      "id": "sources:1",
+      "actual_review_scope": "접근 실패: 실제 본문 미확인"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12690177/fullTextXML",
+      "requested_at": "2026-10-18T14:33:04.781457+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "PMC12690177",
+      "status": "access_failed",
+      "error": "HTTP Error 500: Internal Server Error",
+      "id": "sources:2",
+      "actual_review_scope": "접근 실패: 실제 본문 미확인"
+    },
+    {
+      "url": "https://www.nice.org.uk/guidance/ng118/chapter/Recommendations",
+      "requested_at": "2026-10-18T14:33:04.782063+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "NICE",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch16-audit/03093179660b0bfe61ce.raw",
+      "sha256": "87cd645df5fbf3343cb786d2b43521ac0ba24f61f5259c95f4896e883329fac1",
+      "id": "sources:3",
+      "actual_review_scope": "수신 raw 실제열람, 항목별 범위 참조"
+    },
+    {
+      "url": "https://www.nhis.or.kr/static/html/wbma/c/wbmac0216.html",
+      "requested_at": "2026-10-18T14:33:04.782675+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "NHIS2012",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch16-audit/ac6d389ef97f0213ea71.raw",
+      "sha256": "84b21847b0ed8f2f1568bc1e9f3f46dbb8c13eddc8a5a4821ae976059875472c",
+      "id": "sources:4",
+      "actual_review_scope": "수신 raw 실제열람, 항목별 범위 참조"
+    },
+    {
+      "url": "https://www.nhis.or.kr/nhis/healthin/retrieveFrstMdcCrntDiseMgmtNew.do",
+      "requested_at": "2026-10-18T14:33:04.783222+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "NHISchronic",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch16-audit/942b2bebd402bbf751cc.raw",
+      "sha256": "9fee998d9d8b1779d3b49ef681d18bf56f29a97899a146c0332ac8b82000d4e4",
+      "id": "sources:5",
+      "actual_review_scope": "수신 raw 실제열람, 항목별 범위 참조"
+    },
+    {
+      "url": "https://www.mohw.go.kr/board.es?mid=a10503000000&bid=0027&list_no=1483237&act=view",
+      "requested_at": "2026-10-18T14:33:04.784494+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "MOHW2024",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch16-audit/a7df85b39af31806d3f2.raw",
+      "sha256": "d7add1b973fb529c2541b90cffdb37bf0c9ddc89d211fd6d4595f0f3610ea8f0",
+      "id": "sources:6",
+      "actual_review_scope": "수신 raw 실제열람, 항목별 범위 참조"
+    },
+    {
+      "url": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000283320",
+      "requested_at": "2026-10-18T14:33:05.741917+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "산정특례",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch16-audit/656cfe39a2e5b23bf223.raw",
+      "sha256": "3aa1a6fb9933a8e568c02331e5e794a76729a7bae9369768306d4088eb8d137c",
+      "id": "sources:7",
+      "actual_review_scope": "행정규칙 프레임만 수신; 본문은body:3에서 재확인"
+    },
+    {
+      "url": "https://nedrug.mfds.go.kr/searchDrug?searchYn=true&itemName=%EB%B2%A4%EC%A6%88%EB%B8%8C%EB%A1%9C%EB%A7%88%EB%A1%A0",
+      "requested_at": "2026-10-18T14:33:06.081290+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "MFDS",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch16-audit/d873d5d3a78a928ef10d.raw",
+      "sha256": "e8eaa46203e0d560cba55f6a7cc1f3c6ad8eb76b26fc83024c69ed90bc54e115",
+      "id": "sources:8",
+      "actual_review_scope": "수신 raw 실제열람, 항목별 범위 참조"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC1488752/fullTextXML",
+      "requested_at": "2026-10-18T14:34:01.227243+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "PMC1488752:retry",
+      "status": "access_failed",
+      "error": "HTTP Error 500: Internal Server Error",
+      "id": "more:0",
+      "actual_review_scope": "접근 실패: 실제 본문 미확인"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10563586/fullTextXML",
+      "requested_at": "2026-10-18T14:34:01.228304+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "PMC10563586:retry",
+      "status": "access_failed",
+      "error": "HTTP Error 500: Internal Server Error",
+      "id": "more:1",
+      "actual_review_scope": "접근 실패: 실제 본문 미확인"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12690177/fullTextXML",
+      "requested_at": "2026-10-18T14:34:01.228869+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "PMC12690177:retry",
+      "status": "access_failed",
+      "error": "HTTP Error 500: Internal Server Error",
+      "id": "more:2",
+      "actual_review_scope": "접근 실패: 실제 본문 미확인"
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/admRulService.do?OC=test&target=admrul&ID=2100000283320&type=XML",
+      "requested_at": "2026-10-18T14:34:01.229544+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "산정특례XML",
+      "status": "access_failed",
+      "error": "HTTP Error 404: Not Found",
+      "id": "more:3",
+      "actual_review_scope": "접근 실패: 실제 본문 미확인"
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/admRulSearch.do?OC=test&target=admrul&type=XML&query=%EB%A7%8C%EC%84%B1%EC%A7%88%ED%99%98%EC%9E%90&display=100",
+      "requested_at": "2026-10-18T14:34:01.230074+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "만성질환자",
+      "status": "access_failed",
+      "error": "HTTP Error 404: Not Found",
+      "id": "more:4",
+      "actual_review_scope": "접근 실패: 실제 본문 미확인"
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/admRulSearch.do?OC=test&target=admrul&type=XML&query=%EA%B2%BD%EC%A6%9D%EC%A7%88%ED%99%98&display=100",
+      "requested_at": "2026-10-18T14:34:01.231132+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "경증질환",
+      "status": "access_failed",
+      "error": "HTTP Error 502: Bad Gateway",
+      "id": "more:5",
+      "actual_review_scope": "접근 실패: 실제 본문 미확인"
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/admRulSearch.do?OC=test&target=admrul&type=XML&query=%EC%82%B0%EC%A0%95%ED%8A%B9%EB%A1%80&display=100",
+      "requested_at": "2026-10-18T14:34:01.234111+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "산정특례",
+      "status": "access_failed",
+      "error": "HTTP Error 404: Not Found",
+      "id": "more:6",
+      "actual_review_scope": "접근 실패: 실제 본문 미확인"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1488752/?pdf=0",
+      "requested_at": "2026-10-18T14:34:27.035431+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "PMC1488752:html",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch16-audit/ad4abe398c6c6b1be9d3.raw",
+      "sha256": "5f5426c653f40ff15169dc5b53b8bc9871a5def3b7a37ca2c35a68e8801a2d58",
+      "id": "follow:0",
+      "actual_review_scope": "HTTP200이나 reCAPTCHA167자; 논문 본문 아님"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10563586/?pdf=0",
+      "requested_at": "2026-10-18T14:34:27.036282+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "PMC10563586:html",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch16-audit/69407d65385e72b970f1.raw",
+      "sha256": "3ca58d0c39372a337b76f4dbb831cf20fb2495d119c8ea9e33c602ad5c59141a",
+      "id": "follow:1",
+      "actual_review_scope": "HTTP200이나 reCAPTCHA167자; 논문 본문 아님"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12690177/?pdf=0",
+      "requested_at": "2026-10-18T14:34:27.036860+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "PMC12690177:html",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch16-audit/deb012869b61c0bfa6cf.raw",
+      "sha256": "286bb000804e6c88a7c5a76774e574cab9008366ab8ddeacc388ffdf09bc551d",
+      "id": "follow:2",
+      "actual_review_scope": "HTTP200이나 reCAPTCHA167자; 논문 본문 아님"
+    },
+    {
+      "url": "https://law.go.kr/DRF/admRulService.do?OC=test&target=admrul&ID=2100000283320&type=XML",
+      "requested_at": "2026-10-18T14:34:27.037452+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "산정특례XML:host",
+      "status": "access_failed",
+      "error": "<urlopen error Tunnel connection failed: 502 Bad Gateway>",
+      "id": "follow:3",
+      "actual_review_scope": "접근 실패: 실제 본문 미확인"
+    },
+    {
+      "url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000283320",
+      "requested_at": "2026-10-18T14:34:27.037973+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "산정특례body",
+      "status": "access_failed",
+      "error": "<urlopen error Tunnel connection failed: 502 Bad Gateway>",
+      "id": "follow:4",
+      "actual_review_scope": "접근 실패: 실제 본문 미확인"
+    },
+    {
+      "url": "https://law.go.kr/DRF/admRulSearch.do?OC=test&target=admrul&type=XML&query=%EB%A7%8C%EC%84%B1%EC%A7%88%ED%99%98%EC%9E%90&display=100",
+      "requested_at": "2026-10-18T14:34:27.039238+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "만성질환자:host",
+      "status": "access_failed",
+      "error": "<urlopen error Tunnel connection failed: 502 Bad Gateway>",
+      "id": "follow:5",
+      "actual_review_scope": "접근 실패: 실제 본문 미확인"
+    },
+    {
+      "url": "https://law.go.kr/DRF/admRulSearch.do?OC=test&target=admrul&type=XML&query=%EA%B2%BD%EC%A6%9D%EC%A7%88%ED%99%98&display=100",
+      "requested_at": "2026-10-18T14:34:27.042119+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "경증질환:host",
+      "status": "access_failed",
+      "error": "HTTP Error 502: Bad Gateway",
+      "id": "follow:6",
+      "actual_review_scope": "접근 실패: 실제 본문 미확인"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC1488752/fullTextXML?format=xml",
+      "requested_at": "2026-10-18T14:35:03.017299+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "PMC1488752:format",
+      "status": "access_failed",
+      "error": "HTTP Error 500: Internal Server Error",
+      "id": "retry2:0",
+      "actual_review_scope": "접근 실패: 실제 본문 미확인"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10563586/fullTextXML?format=xml",
+      "requested_at": "2026-10-18T14:35:03.018418+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "PMC10563586:format",
+      "status": "access_failed",
+      "error": "HTTP Error 500: Internal Server Error",
+      "id": "retry2:1",
+      "actual_review_scope": "접근 실패: 실제 본문 미확인"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12690177/fullTextXML?format=xml",
+      "requested_at": "2026-10-18T14:35:03.019331+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "PMC12690177:format",
+      "status": "access_failed",
+      "error": "HTTP Error 500: Internal Server Error",
+      "id": "retry2:2",
+      "actual_review_scope": "접근 실패: 실제 본문 미확인"
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/admRulService.do?OC=test&target=admrul&ID=2100000283320&type=XML&mobileYn=",
+      "requested_at": "2026-10-18T14:35:03.020381+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "산정특례XML:query",
+      "status": "access_failed",
+      "error": "<urlopen error Tunnel connection failed: 502 Bad Gateway>",
+      "id": "retry2:3",
+      "actual_review_scope": "접근 실패: 실제 본문 미확인"
+    },
+    {
+      "url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000283320&chrClsCd=010202",
+      "requested_at": "2026-10-18T14:35:03.020911+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "산정특례body:query",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch16-audit/bb640511be82b6701864.raw",
+      "sha256": "5bbf656ef8f13d9e7547e0e7b471e3229603446202ddce791a336483275f7bf5",
+      "id": "retry2:4",
+      "actual_review_scope": "행정규칙 프레임만 수신; 본문은body:3에서 재확인"
+    },
+    {
+      "url": "https://www.niddk.nih.gov/health-information/urologic-diseases/kidney-stones/eating-diet-nutrition",
+      "requested_at": "2026-10-18T14:35:03.022851+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "NIDDKfluid",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch16-audit/004ead39e239ab4c5849.raw",
+      "sha256": "7c3250316d11fa1eae6e4e63f6f4ede796975fae47c100197695d4804d11836a",
+      "id": "retry2:5",
+      "actual_review_scope": "수신 raw 실제열람, 항목별 범위 참조"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC1488752/fullTextXML?format=xml&email=review%40example.org",
+      "requested_at": "2026-10-18T14:35:29.295459+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "PMC1488752:query",
+      "status": "access_failed",
+      "error": "HTTP Error 500: Internal Server Error",
+      "id": "alternate:0",
+      "actual_review_scope": "접근 실패: 실제 본문 미확인"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10563586/fullTextXML?format=xml&email=review%40example.org",
+      "requested_at": "2026-10-18T14:35:29.296407+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "PMC10563586:query",
+      "status": "access_failed",
+      "error": "HTTP Error 500: Internal Server Error",
+      "id": "alternate:1",
+      "actual_review_scope": "접근 실패: 실제 본문 미확인"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12690177/fullTextXML?format=xml&email=review%40example.org",
+      "requested_at": "2026-10-18T14:35:29.296939+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "PMC12690177:query",
+      "status": "access_failed",
+      "error": "HTTP Error 500: Internal Server Error",
+      "id": "alternate:2",
+      "actual_review_scope": "접근 실패: 실제 본문 미확인"
+    },
+    {
+      "url": "https://europepmc.org/articles/PMC1488752",
+      "requested_at": "2026-10-18T14:35:29.297526+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "europe:PMC1488752",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch16-audit/99c9af160e9d831de04e.raw",
+      "sha256": "6c1956fe5940bc448bc688d065fa560ca4de7ec8b20ff9d3cc184db6369bec92",
+      "id": "alternate:3",
+      "actual_review_scope": "EuropePMC JS 애플리케이션 셸; 논문 본문 아님"
+    },
+    {
+      "url": "https://europepmc.org/articles/PMC10563586",
+      "requested_at": "2026-10-18T14:35:29.298309+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "europe:PMC10563586",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch16-audit/edd3ae637e6a78f472c4.raw",
+      "sha256": "d48097f5b7efe6e9c13b835ffc455700f588c773787769c8c5d3c68b87b28f99",
+      "id": "alternate:4",
+      "actual_review_scope": "EuropePMC JS 애플리케이션 셸; 논문 본문 아님"
+    },
+    {
+      "url": "https://europepmc.org/articles/PMC12690177",
+      "requested_at": "2026-10-18T14:35:29.298774+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "europe:PMC12690177",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch16-audit/0e094f37e013d7bd5dd6.raw",
+      "sha256": "c0325bcc4463bd7ab4cfa49ca0a6fa3a9ff1c91f4be25a813323fb902d535a74",
+      "id": "alternate:5",
+      "actual_review_scope": "EuropePMC JS 애플리케이션 셸; 논문 본문 아님"
+    },
+    {
+      "url": "https://www.law.go.kr/LSW/js/admrul/admrul.js",
+      "requested_at": "2026-10-18T14:35:29.299866+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "lawJS",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch16-audit/99686244fe9d4830353c.raw",
+      "sha256": "ccb4e276a51fc5e41ffead40f8327f10160739f24aaf00d548c214e687667398",
+      "id": "alternate:6",
+      "actual_review_scope": "수신 raw 실제열람, 항목별 범위 참조"
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/admRulService.do?OC=test&target=admrul&ID=2100000283320&type=HTML",
+      "requested_at": "2026-10-18T14:35:29.300950+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "산정특례HTML",
+      "status": "access_failed",
+      "error": "HTTP Error 404: Not Found",
+      "id": "alternate:7",
+      "actual_review_scope": "접근 실패: 실제 본문 미확인"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC1488752/unicode",
+      "requested_at": "2026-10-18T14:36:11.847839+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "PMC1488752:bioc",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch16-audit/9801a31b161221d3b3bb.raw",
+      "sha256": "478f38e0765ee9c406831bb2fc27e8019ac5227c20c6b28ca0de582d8449354a",
+      "id": "body:0",
+      "actual_review_scope": "BioC API No result 오류본문; 논문 전문 아님"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC10563586/unicode",
+      "requested_at": "2026-10-18T14:36:11.848823+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "PMC10563586:bioc",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch16-audit/9a10683bb4bbc6aac5b5.raw",
+      "sha256": "fd4ecc702024f15f96d730beb828617a600be72ec1915f4e4a4dcaf521462d60",
+      "id": "body:1",
+      "actual_review_scope": "ACR2020 실제 BioC XML 전문·권고표·본문·HLA/중단/수분/알칼리화·서지 확인"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC12690177/unicode",
+      "requested_at": "2026-10-18T14:36:11.849418+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "PMC12690177:bioc",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch16-audit/4a12f1d650e40fdf9044.raw",
+      "sha256": "478f38e0765ee9c406831bb2fc27e8019ac5227c20c6b28ca0de582d8449354a",
+      "id": "body:2",
+      "actual_review_scope": "BioC API No result 오류본문; 논문 전문 아님"
+    },
+    {
+      "url": "https://www.law.go.kr/LSW/admRulLsInfoR.do?admRulSeq=2100000283320&admRulId=36368&joTpYn=Y&languageType=KO&chrClsCd=010202",
+      "requested_at": "2026-10-18T14:36:11.850557+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "산정특례:actualbody",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch16-audit/bfad2fff7f355432ad0f.raw",
+      "sha256": "719a34b6e11f4ac83524e075359c65115125613fe83cbf0ad04fc8633c2b6503",
+      "id": "body:3",
+      "actual_review_scope": "실제 산정특례 고시 본문4·5·6·7·8 및 부칙/시행일 확인; 별표는annex PDF별도"
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/admRulSearch.do?OC=test&target=admrul&type=XML&query=%EB%A7%8C%EC%84%B1%EC%A7%88%ED%99%98%EC%9E%90&display=100&nw=1",
+      "requested_at": "2026-10-18T14:36:11.851670+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "만성고시:retry",
+      "status": "access_failed",
+      "error": "HTTP Error 404: Not Found",
+      "id": "body:4",
+      "actual_review_scope": "접근 실패: 실제 본문 미확인"
+    },
+    {
+      "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=167660423",
+      "requested_at": "2026-10-18T14:36:58.734886+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "annex:167660423",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch16-audit/3c09f04bce05a982b6a7.raw",
+      "sha256": "473fde2d3d360969507877541f2b77d16f786e847965ad72e59247cf184e7c9c",
+      "id": "annex:0",
+      "actual_review_scope": "산정특례 별표3 전체 PDF"
+    },
+    {
+      "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=167660495",
+      "requested_at": "2026-10-18T14:36:58.735745+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "annex:167660495",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch16-audit/7ca5690a8ced3aa2478e.raw",
+      "sha256": "64d83bcd62ad9a899a84e52a5d42c595a2f3b44d0121d83a4ddb3fecd775ad0b",
+      "id": "annex:1",
+      "actual_review_scope": "산정특례 별표4의2 PDF 표지/만성신부전/장기이식 범위"
+    },
+    {
+      "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=167660521",
+      "requested_at": "2026-10-18T14:36:58.736288+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "annex:167660521",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch16-audit/eec297d1e04a6ce9a1ae.raw",
+      "sha256": "1bf005642ea4503402c1406cee52d6bd1914f5dc20dc94a55f17136194372468",
+      "id": "annex:2",
+      "actual_review_scope": "산정특례 별표6 PDF 전체·인슐린 예외·본인부담률"
+    },
+    {
+      "url": "https://europepmc.org/articles/PMC1488752?pdf=render",
+      "requested_at": "2026-10-18T14:36:58.737172+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "PMC1488752:pdf",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch16-audit/cebf234ab5fc4d9e0d28.raw",
+      "sha256": "0da59081f8bbbd22c449043fbd69d4c883cb36cf00f39328a273f5b08097ce73",
+      "id": "annex:3",
+      "actual_review_scope": "Simpson2006 실제 원논문PDF 전문·방법·숲그림·교란논의"
+    },
+    {
+      "url": "https://europepmc.org/articles/PMC12690177?pdf=render",
+      "requested_at": "2026-10-18T14:36:58.737855+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "PMC12690177:pdf",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch16-audit/b8fabc07acdc1123fcb0.raw",
+      "sha256": "4cd9c0e27cfb5bd0060dfc7ca26a44c6c0c71482e8818d95777b136a75215807",
+      "id": "annex:4",
+      "actual_review_scope": "ADA2026 제12장 실제PDF·권고12.3~12.5·발평가·소아별도지침 범위"
+    },
+    {
+      "doi": "10.1002/acr.24180",
+      "chapters": [
+        6,
+        16
+      ],
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1002%2Facr.24180%22&format=json&resultType=core&pageSize=10",
+      "fetched_at": "2026-10-18T20:50:45.750779+09:00",
+      "http_status": 200,
+      "status": "exact_doi_metadata_cached",
+      "sha256": "e21d9a2e7d30e9fb0c4d33fb14572d2bb710b032e8c4ae800748ff3afea908b7",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/d424930cd29debd75379.json",
+      "hit_count": 1,
+      "abstract_present": true,
+      "id": "doi:10.1002/acr.24180",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T14:39:49.502734+00:00",
+      "actual_review_scope": "실제 EuropePMC 원초록·서지·분모/수치 확인; 초록 없는 등록은 아래 제한"
+    },
+    {
+      "doi": "10.1136/bmj.38875.675486.55",
+      "chapters": [
+        16
+      ],
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1136%2Fbmj.38875.675486.55%22&format=json&resultType=core&pageSize=10",
+      "fetched_at": "2026-10-18T20:51:03.115601+09:00",
+      "http_status": 200,
+      "status": "exact_doi_metadata_cached",
+      "sha256": "d9898ffc1280eca34f6560f5b8635a717088ae03e6500048b894582bd7fb2adf",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/0c40f4a493f83f4a7de6.json",
+      "hit_count": 1,
+      "abstract_present": true,
+      "id": "doi:10.1136/bmj.38875.675486.55",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T14:39:49.502734+00:00",
+      "actual_review_scope": "실제 EuropePMC 원초록·서지·분모/수치 확인; 초록 없는 등록은 아래 제한"
+    },
+    {
+      "doi": "10.2337/dc26-S012",
+      "chapters": [
+        16
+      ],
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.2337%2Fdc26-S012%22&format=json&resultType=core&pageSize=10",
+      "fetched_at": "2026-10-18T20:51:03.171995+09:00",
+      "http_status": 200,
+      "status": "exact_doi_metadata_cached",
+      "sha256": "50d2a3341b73c39f0b138f126d21de029ab9f2164335b3436436ab8fd9570c36",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/573f023a96f99ef49471.json",
+      "hit_count": 1,
+      "abstract_present": true,
+      "id": "doi:10.2337/dc26-S012",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T14:39:49.502734+00:00",
+      "actual_review_scope": "실제 EuropePMC 원초록·서지·분모/수치 확인; 초록 없는 등록은 아래 제한"
+    },
+    {
+      "doi": "10.1016/s0022-5347(01)66321-3",
+      "chapters": [
+        16
+      ],
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2Fs0022-5347%2801%2966321-3%22&format=json&resultType=core&pageSize=10",
+      "fetched_at": "2026-10-18T20:51:03.222839+09:00",
+      "http_status": 200,
+      "status": "exact_doi_metadata_cached",
+      "sha256": "5f3f4c5d08b3fe896f6e61e0b6f2e866e9ab260f2ee10a1c03597ab1068030bd",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/a97688b1f53f9dd716c7.json",
+      "hit_count": 1,
+      "abstract_present": true,
+      "id": "doi:10.1016/s0022-5347(01)66321-3",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T14:39:49.502734+00:00",
+      "actual_review_scope": "실제 EuropePMC 원초록·서지·분모/수치 확인; 초록 없는 등록은 아래 제한"
+    },
+    {
+      "doi": "10.1093/rheumatology/kez333",
+      "chapters": [
+        16
+      ],
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1093%2Frheumatology%2Fkez333%22&format=json&resultType=core&pageSize=10",
+      "fetched_at": "2026-10-18T20:51:03.389657+09:00",
+      "http_status": 200,
+      "status": "exact_doi_metadata_cached",
+      "sha256": "e779dcb84103f7b53f3ef4f40dddf8c9d4338942c9586b60b5cd3b77cbd3718b",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/bd223178b1b9e77bd2b8.json",
+      "hit_count": 1,
+      "abstract_present": true,
+      "id": "doi:10.1093/rheumatology/kez333",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T14:39:49.502734+00:00",
+      "actual_review_scope": "실제 EuropePMC 원초록·서지·분모/수치 확인; 초록 없는 등록은 아래 제한"
+    },
+    {
+      "doi": "10.1016/S0140-6736(20)32234-0",
+      "chapters": [
+        16
+      ],
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2FS0140-6736%2820%2932234-0%22&format=json&resultType=core&pageSize=10",
+      "fetched_at": "2026-10-18T20:51:03.754993+09:00",
+      "http_status": 200,
+      "status": "exact_doi_metadata_cached",
+      "sha256": "257ba4db6af642438cc7bfa78aca05f1d9244a5dc7fc4b055afadc8da2b6381f",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/1105910761f3be004e69.json",
+      "hit_count": 1,
+      "abstract_present": true,
+      "id": "doi:10.1016/S0140-6736(20)32234-0",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T14:39:49.502734+00:00",
+      "actual_review_scope": "실제 EuropePMC 원초록·서지·분모/수치 확인; 초록 없는 등록은 아래 제한"
+    },
+    {
+      "doi": "10.3760/cma.j.issn.1000-6699.2020.01.001",
+      "chapters": [
+        16
+      ],
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.3760%2Fcma.j.issn.1000-6699.2020.01.001%22&format=json&resultType=core&pageSize=10",
+      "fetched_at": "2026-10-18T20:51:04.039279+09:00",
+      "http_status": 200,
+      "status": "no_exact_doi_match",
+      "sha256": "f5f49398c424c5c15ec7b0e6d3d0393a2cdb83ff64d884a4889f6e8bd77885b7",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/1b98ab3425ddd4d9b986.json",
+      "hit_count": 0,
+      "abstract_present": false,
+      "id": "doi:10.3760/cma.j.issn.1000-6699.2020.01.001",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T14:39:49.502734+00:00",
+      "actual_review_scope": "검색결과 일치없음; 중국지침 본문 미확인, 한국지침 대용으로 세지 않음"
+    },
+    {
+      "doi": "10.3904/kjim.2023.206",
+      "chapters": [
+        16
+      ],
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.3904%2Fkjim.2023.206%22&format=json&resultType=core&pageSize=10",
+      "fetched_at": "2026-10-18T20:51:04.347516+09:00",
+      "http_status": 200,
+      "status": "exact_doi_metadata_cached",
+      "sha256": "7dcb91aebcb6d95beb0a30ea76e30491db7c48272033c51f9d591bf90f59d78a",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/6b5a701894509b1f652b.json",
+      "hit_count": 1,
+      "abstract_present": true,
+      "id": "doi:10.3904/kjim.2023.206",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T14:39:49.502734+00:00",
+      "actual_review_scope": "실제 EuropePMC 원초록·서지·분모/수치 확인; 초록 없는 등록은 아래 제한"
+    },
+    {
+      "doi": "10.1016/S0140-6736(18)32158-5",
+      "chapters": [
+        16
+      ],
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2FS0140-6736%2818%2932158-5%22&format=json&resultType=core&pageSize=10",
+      "fetched_at": "2026-10-18T20:51:03.289706+09:00",
+      "http_status": 200,
+      "status": "exact_doi_metadata_cached",
+      "sha256": "c5a7ae7ae9aec1b1e2022fbf88325e177ee1e56df42d583daa6653a9fd61594f",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/f355559d1a9a6a0849db.json",
+      "hit_count": 1,
+      "abstract_present": true,
+      "id": "doi:10.1016/S0140-6736(18)32158-5",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T14:39:49.502734+00:00",
+      "actual_review_scope": "실제 EuropePMC 원초록·서지·분모/수치 확인; 초록 없는 등록은 아래 제한"
+    },
+    {
+      "doi": "10.1056/NEJMoa1710895",
+      "chapters": [
+        16
+      ],
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1056%2FNEJMoa1710895%22&format=json&resultType=core&pageSize=10",
+      "fetched_at": "2026-10-18T20:51:03.430980+09:00",
+      "http_status": 200,
+      "status": "exact_doi_metadata_cached",
+      "sha256": "e484ec3a601461b0f18ac5ba2530b178fdc45d1fe11602a6b1076d7a68809562",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/c537490f66660525624b.json",
+      "hit_count": 1,
+      "abstract_present": true,
+      "id": "doi:10.1056/NEJMoa1710895",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T14:39:49.502734+00:00",
+      "actual_review_scope": "실제 EuropePMC 원초록·서지·분모/수치 확인; 초록 없는 등록은 아래 제한"
+    },
+    {
+      "doi": "10.1016/S0140-6736(18)32158-5",
+      "chapters": [
+        16
+      ],
+      "pmcid": "PMC6196879",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6196879/fullTextXML",
+      "fetched_at": "2026-10-18T12:16:04.021055+00:00",
+      "http_status": 200,
+      "article_dois": [
+        "10.1016/S0140-6736(18)32158-5"
+      ],
+      "exact_article_doi_match": true,
+      "status": "fulltext_xml_cached",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/pmc-fulltext/PMC6196879.xml",
+      "sha256": "0e5946468c5fe1abc1d3bd0c4bcbd95471383e02709b89390566749e295e7071",
+      "bytes": 111717,
+      "id": "pmc:10.1016/S0140-6736(18)32158-5",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T14:39:49.502734+00:00",
+      "actual_review_scope": "실제 PMC XML 전문·표·권고·방법·분모 열람"
+    },
+    {
+      "doi": "10.3904/kjim.2023.206",
+      "chapters": [
+        16
+      ],
+      "pmcid": "PMC10493448",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10493448/fullTextXML",
+      "fetched_at": "2026-10-18T12:16:01.282137+00:00",
+      "http_status": 200,
+      "article_dois": [
+        "10.3904/kjim.2023.206"
+      ],
+      "exact_article_doi_match": true,
+      "status": "fulltext_xml_cached",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/pmc-fulltext/PMC10493448.xml",
+      "sha256": "bfae81b0a3d0468494a57e7e2aeb7acd8b22a9643a703b3e7ad958d178b96cf8",
+      "bytes": 98639,
+      "id": "pmc:10.3904/kjim.2023.206",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T14:39:49.502734+00:00",
+      "actual_review_scope": "실제 PMC XML 전문·표·권고·방법·분모 열람"
+    },
+    {
+      "mst": "285273",
+      "chapters": [
+        5,
+        13,
+        16,
+        24,
+        27
+      ],
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=285273&type=XML",
+      "requested_at": "2026-10-18T12:37:57.198257+00:00",
+      "scope": "Exact cited statutory version only; article-specific commencement and claims require independent review.",
+      "http_status": 200,
+      "status": "statutory_xml_cached",
+      "title": "국민건강보험법",
+      "effective_date": "20261008",
+      "law_id": "001971",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/285273.xml",
+      "sha256": "61d71f01d2824e7332c868f26d4cc9c6ca73ad09b9a3945375ec9ea8972d0bf7",
+      "bytes": 353154,
+      "article_count": 159,
+      "id": "law:285273",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T14:39:49.502734+00:00",
+      "actual_review_scope": "건강보험법44 및 시행일·부칙"
+    },
+    {
+      "mst": "285513",
+      "chapters": [
+        16,
+        24
+      ],
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=285513&type=XML",
+      "requested_at": "2026-10-18T12:38:03.951820+00:00",
+      "scope": "Exact cited statutory version only; article-specific commencement and claims require independent review.",
+      "http_status": 200,
+      "status": "statutory_xml_cached",
+      "title": "국민건강보험 요양급여의 기준에 관한 규칙",
+      "effective_date": "20260415",
+      "law_id": "006697",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/285513.xml",
+      "sha256": "4b86d991c9ce968914c0c5d7f2e46139bf7c897ff3e446da1f57cc460a504f64",
+      "bytes": 535016,
+      "article_count": 34,
+      "id": "law:285513",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T14:39:49.502734+00:00",
+      "actual_review_scope": "요양급여 기준규칙2·6 및 별표1 처방항목·시행일"
+    },
+    {
+      "mst": "290667",
+      "chapters": [
+        16,
+        24
+      ],
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290667&type=XML",
+      "requested_at": "2026-10-18T12:38:38.446570+00:00",
+      "scope": "Exact cited statutory version only; article-specific commencement and claims require independent review.",
+      "http_status": 200,
+      "status": "statutory_xml_cached",
+      "title": "의료법",
+      "effective_date": "20261002",
+      "law_id": "001788",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290667.xml",
+      "sha256": "4f0e3b2d0b92674e5da9e66b4bb8265aefe99f7d597e398bff382b1667efe56f",
+      "bytes": 437939,
+      "article_count": 172,
+      "id": "law:290667",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T14:39:49.502734+00:00",
+      "actual_review_scope": "의료법21①·21의2·45 및 시행일"
+    },
+    {
+      "mst": "286963",
+      "chapters": [
+        16,
+        24
+      ],
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=286963&type=XML",
+      "requested_at": "2026-10-18T12:38:07.180123+00:00",
+      "scope": "Exact cited statutory version only; article-specific commencement and claims require independent review.",
+      "http_status": 200,
+      "status": "statutory_xml_cached",
+      "title": "의료법 시행규칙",
+      "effective_date": "20260612",
+      "law_id": "007863",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/286963.xml",
+      "sha256": "0b5b4779e7bb0abd06168466a066a552ae8d152b3b4155f0143d942e95202290",
+      "bytes": 1287293,
+      "article_count": 149,
+      "id": "law:286963",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T14:39:49.502734+00:00",
+      "actual_review_scope": "의료법시행규칙42의2 비급여고지·사전설명·응급예외"
+    },
+    {
+      "mst": "289701",
+      "chapters": [
+        1,
+        16,
+        18,
+        24,
+        27,
+        30
+      ],
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=289701&type=XML",
+      "requested_at": "2026-10-18T12:38:20.915902+00:00",
+      "scope": "Exact cited statutory version only; article-specific commencement and claims require independent review.",
+      "http_status": 200,
+      "status": "statutory_xml_cached",
+      "title": "국민건강보험법 시행령",
+      "effective_date": "20261001",
+      "law_id": "002813",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/289701.xml",
+      "sha256": "9c36143d7d4df72f8076d4d34b98002a510c415e13165d3efedaaf5e19b6a2af",
+      "bytes": 583584,
+      "article_count": 139,
+      "id": "law:289701",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T14:39:49.502734+00:00",
+      "actual_review_scope": "건보시행령19③상한제제외·별표2의1나/다·3너/더·해당시행일 및 부칙"
+    },
+    {
+      "id": "local:book/16-得了慢性病之后怎么活.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/book/16-得了慢性病之后怎么活.md",
+      "sha256": "6d997cf1068c123a58e296eb7d4b74f9ef619d2790049a66eb3a217129ee76d2",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T14:39:49.502734+00:00",
+      "status": "full_text_read",
+      "actual_review_scope": "전체원문대조"
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch16/source.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch16/source.md",
+      "sha256": "bcf5ffefefb4ad3c2ece04dd09052e1a3de00a0f1fc9d21e4b0eb61ad8603753",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T14:39:49.502734+00:00",
+      "status": "full_text_read",
+      "actual_review_scope": "전체원문대조"
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch16/manifest.json",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch16/manifest.json",
+      "sha256": "01c65ffcb97bff75a2c862a8cff124c40b21c67580e29356db4c67a804dd1705",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T14:39:49.502734+00:00",
+      "status": "full_text_read",
+      "actual_review_scope": "전체원문대조"
+    }
+  ]
+}

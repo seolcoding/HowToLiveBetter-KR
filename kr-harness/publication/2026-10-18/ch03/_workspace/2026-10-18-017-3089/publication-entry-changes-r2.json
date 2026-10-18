@@ -1,0 +1,131 @@
+{
+  "status": "unadopted_proposal",
+  "entry": 17,
+  "base_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch03/_workspace/2026-10-18-017-3089/strict-entry.md",
+  "base_sha256": "8821b5f92811a69aa7d4759aaa2f480b31cf44099259333090c76c37c97013a0",
+  "old_proposal_sha256": "ff1158611b9cb72b31afed5f7b2d589ccab559c9b0d7381ef3bdea9feb2858af",
+  "new_proposal_sha256": "26303b6cd881e97ad44d75df1313b95f6278fbe1566d81e554d6f467f790fdf4",
+  "old_changes_sha256": "4a1a09fc04beee7f6c47faf261b5dd8ceb379406fecc6681b1b016f5c1e90ec8",
+  "backup_paths": [
+    "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch03/_workspace/2026-10-18-017-3089/publication-entry-proposal-r1-backup.md",
+    "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch03/_workspace/2026-10-18-017-3089/publication-entry-changes-r1-backup.json"
+  ],
+  "verification_date": "2026-10-18",
+  "method": "DOI 일치 캐시의 원 저자 논문 초록 전체 재열람. 신규 HTTP 요청이나 전체 본문 열람이 아닙니다.",
+  "raw_provenance": {
+    "doi": "10.1037/a0027600",
+    "chapters": [
+      3
+    ],
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1037%2Fa0027600%22&format=json&resultType=core&pageSize=10",
+    "fetched_at": "2026-10-18T20:50:21.171139+09:00",
+    "http_status": 200,
+    "status": "exact_doi_metadata_cached",
+    "sha256": "d9451b2e01b087a2270014a2ccd1efdb16b02f8892977c7ff4002ff0d8499c8b",
+    "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/41caeffd8ae3a5f4d733.json",
+    "hit_count": 1,
+    "abstract_present": true,
+    "actual_raw_sha256": "d9451b2e01b087a2270014a2ccd1efdb16b02f8892977c7ff4002ff0d8499c8b"
+  },
+  "source_url": "https://doi.org/10.1037/a0027600",
+  "exact_quotes": [
+    "The present meta-analysis investigated the effectiveness of strategies derived from the process model of emotion regulation in modifying emotional outcomes as indexed by experiential, behavioral, and physiological measures.",
+    "The findings revealed differences in effectiveness between ER processes: Attentional deployment had no effect on emotional outcomes (d(+) = 0.00), response modulation had a small effect (d(+) = 0.16), and cognitive change had a small-to-medium effect (d(+) = 0.36).",
+    "Similarly, suppressing the expression of emotion proved effective (d(+) = 0.32), but suppressing the experience of emotion or suppressing thoughts of the emotion-eliciting event did not (d(+) = -0.04 and -0.12, respectively).",
+    "Finally, reappraising the emotional response proved less effective (d(+) = 0.23) than reappraising the emotional stimulus (d(+) = 0.36) or using perspective taking (d(+) = 0.45)."
+  ],
+  "changes": [
+    {
+      "field": "쉽게",
+      "before": "방금 일어난 일을 다르게 해석하면 감정이 가라앉습니다. 상대 입장에서 생각해 봐도 감정이 가라앉습니다. 상대 입장에서 생각하는 쪽이 더 효과가 큽니다. 감정을 억지로 드러내지 않아도 효과는 없습니다. 자신을 모욕한 사람을 벌하면 그 일을 더 오래 곱씹습니다. 벌하지 않은 사람이 더 빨리 넘어갑니다. 복수의 통쾌함은 사람들이 미리 짐작한 만큼 크지 않습니다.",
+      "previous_proposal_before": "일을 다르게 해석하거나 상대 입장에서 생각해 보세요. 감정을 가라앉히는 효과는 작거나 중간입니다. 겉으로 감정을 숨기는 데는 효과가 있었습니다. 속의 감정을 억지로 없애려 해도 효과는 없었습니다.",
+      "after": "일을 다른 관점에서 보면 감정을 다스리는 데 도움이 됩니다. 효과는 작거나 중간이었습니다. 겉으로 표현을 줄이는 방법은 효과가 있었습니다. 느끼는 감정 자체를 억지로 없애려는 방법은 효과가 없었습니다.",
+      "reason": "상대 공감으로 한정한 번역을 관점 바꾸기로 넓힙니다. 효과 크기와 표현 억제/감정 경험 억제의 상반된 결과를 짧게 구별합니다.",
+      "quote": [
+        "The present meta-analysis investigated the effectiveness of strategies derived from the process model of emotion regulation in modifying emotional outcomes as indexed by experiential, behavioral, and physiological measures.",
+        "The findings revealed differences in effectiveness between ER processes: Attentional deployment had no effect on emotional outcomes (d(+) = 0.00), response modulation had a small effect (d(+) = 0.16), and cognitive change had a small-to-medium effect (d(+) = 0.36).",
+        "Similarly, suppressing the expression of emotion proved effective (d(+) = 0.32), but suppressing the experience of emotion or suppressing thoughts of the emotion-eliciting event did not (d(+) = -0.04 and -0.12, respectively).",
+        "Finally, reappraising the emotional response proved less effective (d(+) = 0.23) than reappraising the emotional stimulus (d(+) = 0.36) or using perspective taking (d(+) = 0.45)."
+      ],
+      "url": "https://doi.org/10.1037/a0027600",
+      "date": "2026-10-18"
+    },
+    {
+      "field": "이득",
+      "before": "메타분석에서 실험 비교 306개를 종합했습니다. 일을 다르게 해석하는 인지 재평가의 감정 효과 크기는 d = 0.36입니다. 상대 입장에서 바라보면 효과 크기가 d = 0.45로 나타났습니다. 주의를 돌릴 때의 효과 크기는 d = 0.27입니다. 감정을 억지로 누르면 효과가 없었습니다(d = -0.04). 복수에 관한 실험은 별도로 3건 진행했습니다. 자신을 모욕한 사람을 벌하면 상대를 더 오래 곱씹습니다. 벌하지 않은 사람은 더 빨리 넘어갑니다. 복수의 통쾌함은 미리 짐작한 만큼 크지 않았습니다.",
+      "previous_proposal_before": "메타분석에서 실험 비교 306개를 종합했습니다. 일을 다르게 해석하는 인지 재평가의 감정 효과 크기는 d = 0.36입니다. 상대 입장에서 바라보면 효과 크기가 d = 0.45로 나타났습니다. 주의를 돌릴 때의 효과 크기는 d = 0.27입니다. 겉으로 감정을 드러내지 않는 데는 효과가 있었습니다(d = 0.32). 속에서 느끼는 감정 자체를 억지로 없애려 하면 효과가 없었습니다(d = -0.04). 복수에 관한 실험은 별도로 3건 진행했습니다. 자신을 모욕한 사람을 벌하면 상대를 더 오래 곱씹습니다. 벌하지 않은 사람은 더 빨리 넘어갑니다. 복수의 통쾌함은 미리 짐작한 만큼 크지 않았습니다.",
+      "after": "메타분석에서 실험 비교 306개를 종합했습니다. 일을 다르게 해석하는 인지 재평가의 감정 효과 크기는 d = 0.36입니다. 관점을 바꾸어 바라보면 효과 크기가 d = 0.45로 나타났습니다. 주의를 돌릴 때의 효과 크기는 d = 0.27입니다. 감정 표현을 억제하는 방법은 효과가 있었습니다(d = 0.32). 느끼는 감정 자체를 억제하는 방법은 효과가 없었습니다(d = -0.04). 복수에 관한 실험은 별도로 3건 진행했습니다. 자신을 모욕한 사람을 벌하면 상대를 더 오래 곱씹습니다. 벌하지 않은 사람은 더 빨리 넘어갑니다. 복수의 통쾌함은 미리 짐작한 만큼 크지 않았습니다.",
+      "reason": "perspective taking을 상대 입장으로 한정하지 않습니다. 표현 억제 .32와 감정 경험 억제 -.04를 구별합니다.",
+      "quote": [
+        "The present meta-analysis investigated the effectiveness of strategies derived from the process model of emotion regulation in modifying emotional outcomes as indexed by experiential, behavioral, and physiological measures.",
+        "The findings revealed differences in effectiveness between ER processes: Attentional deployment had no effect on emotional outcomes (d(+) = 0.00), response modulation had a small effect (d(+) = 0.16), and cognitive change had a small-to-medium effect (d(+) = 0.36).",
+        "Similarly, suppressing the expression of emotion proved effective (d(+) = 0.32), but suppressing the experience of emotion or suppressing thoughts of the emotion-eliciting event did not (d(+) = -0.04 and -0.12, respectively).",
+        "Finally, reappraising the emotional response proved less effective (d(+) = 0.23) than reappraising the emotional stimulus (d(+) = 0.36) or using perspective taking (d(+) = 0.45)."
+      ],
+      "url": "https://doi.org/10.1037/a0027600",
+      "date": "2026-10-18"
+    },
+    {
+      "field": "비고",
+      "before": "메타분석에서는 기력이 아닌 감정의 세기를 측정했습니다. 효과는 작거나 중간입니다. 복수에 관한 근거는 한 연구진의 실험뿐이라 B로 적었습니다. '빈 배'는 장자 「산목」 편의 비유입니다. 빈 배가 부딪히면 화내지 않습니다. 배에 사람이 타고 있으면 화냅니다. 배가 부딪힌다는 점은 같습니다. 이 비유를 증거로 삼지는 않습니다. 실제 손해가 있다면 법 절차를 밟으세요. 그 자리에서 화를 터뜨리는 것보다 비용이 적게 듭니다. 법 절차는 제8절(법적 말썽에 휘말리지 않기)과 제9절(흔한 법적 레드라인)에서 다룹니다.",
+      "previous_proposal_before": "메타분석에서는 기력이 아닌 감정의 경험·표현·생리 반응을 측정했습니다. 효과는 작거나 중간입니다. 복수에 관한 근거는 한 연구진의 실험뿐이라 B로 적었습니다. '빈 배'는 장자 「산목」 편의 비유입니다. 빈 배가 부딪히면 화내지 않습니다. 배에 사람이 타고 있으면 화냅니다. 배가 부딪힌다는 점은 같습니다. 이 비유를 증거로 삼지는 않습니다. 실제 손해가 있다면 법 절차를 밟으세요. 그 자리에서 화를 터뜨리는 것보다 비용이 적게 듭니다. 법 절차는 제8절(법적 말썽에 휘말리지 않기)과 제9절(흔한 법적 레드라인)에서 다룹니다.",
+      "after": "메타분석에서는 기력이 아닌 감정의 경험·표현·생리 반응을 측정했습니다. 효과는 작거나 중간입니다. 복수에 관한 근거는 한 연구진의 실험뿐이라 B로 적었습니다. '빈 배'는 장자 「산목」 편의 비유입니다. 빈 배가 부딪히면 화내지 않습니다. 배에 사람이 타고 있으면 화냅니다. 배가 부딪힌다는 점은 같습니다. 이 비유를 증거로 삼지는 않습니다. 실제 손해가 있다면 법 절차를 밟으세요. 그 자리에서 화를 터뜨리는 것보다 비용이 적게 듭니다. 법 절차는 제8절(법적 말썽에 휘말리지 않기)과 제9절(흔한 법적 레드라인)에서 다룹니다.",
+      "reason": "앞서 독립 검토된 경험·표현·생리 반응 측정 범위 교정을 유지합니다.",
+      "quote": [
+        "The present meta-analysis investigated the effectiveness of strategies derived from the process model of emotion regulation in modifying emotional outcomes as indexed by experiential, behavioral, and physiological measures.",
+        "The findings revealed differences in effectiveness between ER processes: Attentional deployment had no effect on emotional outcomes (d(+) = 0.00), response modulation had a small effect (d(+) = 0.16), and cognitive change had a small-to-medium effect (d(+) = 0.36).",
+        "Similarly, suppressing the expression of emotion proved effective (d(+) = 0.32), but suppressing the experience of emotion or suppressing thoughts of the emotion-eliciting event did not (d(+) = -0.04 and -0.12, respectively).",
+        "Finally, reappraising the emotional response proved less effective (d(+) = 0.23) than reappraising the emotional stimulus (d(+) = 0.36) or using perspective taking (d(+) = 0.45)."
+      ],
+      "url": "https://doi.org/10.1037/a0027600",
+      "date": "2026-10-18"
+    }
+  ],
+  "intentional_numerical_scope_changes": "표현 억제의 d = 0.32를 추가하고 기존 d = -0.04를 감정 경험 억제로 한정. d = 0.45의 관점 전환을 상대 공감으로 한정하지 않음. 다른 수치는 유지.",
+  "doi_additions": [],
+  "doi_removals": [],
+  "limits": [
+    "초록은 perspective taking의 구체 조작을 정의하지 않아 심리적 거리나 특정 기법을 새로 주장하지 않습니다.",
+    "표현 억제의 .32는 경험·행동·생리 지표를 다룬 감정 결과의 효과이며 감정 경험만 개선한다고 단정하지 않습니다.",
+    "Carlsmith의 실제 모욕 상황 범위는 본문 추가 확인 필요로 남습니다. 복수 문장은 strict 원문 그대로 유지했습니다."
+  ],
+  "validation": {
+    "easy_chars": 112,
+    "easy_sentence_count": 4,
+    "new_sentence_lengths": [
+      {
+        "text": "일을 다른 관점에서 보면 감정을 다스리는 데 도움이 됩니다.",
+        "chars": 33
+      },
+      {
+        "text": "효과는 작거나 중간이었습니다.",
+        "chars": 16
+      },
+      {
+        "text": "겉으로 표현을 줄이는 방법은 효과가 있었습니다.",
+        "chars": 26
+      },
+      {
+        "text": "느끼는 감정 자체를 억지로 없애려는 방법은 효과가 없었습니다.",
+        "chars": 34
+      },
+      {
+        "text": "관점을 바꾸어 바라보면 효과 크기가 d = 0.45로 나타났습니다.",
+        "chars": 37
+      },
+      {
+        "text": "감정 표현을 억제하는 방법은 효과가 있었습니다(d = 0.32).",
+        "chars": 36
+      },
+      {
+        "text": "느끼는 감정 자체를 억제하는 방법은 효과가 없었습니다(d = -0.04).",
+        "chars": 41
+      },
+      {
+        "text": "메타분석에서는 기력이 아닌 감정의 경험·표현·생리 반응을 측정했습니다.",
+        "chars": 39
+      }
+    ],
+    "protected_title_tag_grade_sources_unchanged": true
+  }
+}

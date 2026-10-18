@@ -1,0 +1,172 @@
+{
+  "status": "applied_to_separate_candidate_only",
+  "published": false,
+  "reviewed_candidate_sha256": "f61bfafddf511264c64a65272caf36c236ae345387d196e43b5dac19abc2795d",
+  "final_publication_candidate_sha256": "9b89453131abeafdb72ada50fbe77e1ceeaf0970d838139576b546011b30b3f7",
+  "original_intro_sha256": "b63dc987b6f5ba59df31cae92501c3f1ceb9348c508719d12570908cb4094f6a",
+  "annotated_intro_before_sha256": "49683cb075dfb875156d7e99b29921fdcd1dd0193c531c48a6066a360c752528",
+  "annotated_intro_after_sha256": "29b4b3143f907f259f417b91e66c991848a792bf3eb4832ded0de1836797e568",
+  "plain_proposed_intro_sha256": "4f3905381cda78671ab273cb0e834a384f05d668fe52237f50d3c0f237c3e4a1",
+  "proposal": {
+    "path": "publication-intro-proposal.json",
+    "sha256": "4c501ece7436bb42c0698982c0a0e8a0ed9b9066a7e26652cd139972ebbc262e"
+  },
+  "review": {
+    "path": "content-audit.md",
+    "sha256": "6242c1a80a50b913c9b26a4516db1f3350f13ab5a1e5fbde48df7ae8bc8a2804"
+  },
+  "decisions_sha256": "dac66e6fac98b0c99b44f740110a436c28b9d21285219172cd2c04ff96b15bbb",
+  "integration_sha256": "ef47c7019fdfecb98178114bba2b9ef7c06ca89daccf7b323ef52f8e945fc352",
+  "operations": [
+    {
+      "id": "intro-01",
+      "status": "unadopted_proposal",
+      "before": "나머지 숫자는 기록만 따라간 연구에서 나왔습니다. 무리를 나누지 않고 추적만 했습니다.",
+      "after": "관찰 연구의 숫자도 함께 실었습니다. 이런 연구는 생활에 개입하지 않고 기록을 비교합니다.",
+      "original_unique_match_count": 1,
+      "entries": [
+        4,
+        9,
+        21,
+        37,
+        41
+      ],
+      "reason": "무작위 시험을 포함한 제3·4·9·21·37·41항과 나머지 전부 관찰 연구라는 설명이 충돌합니다. 설계 구분을 각 항목에 맡기고 관찰 연구 설명만 한정합니다.",
+      "decision": "approve",
+      "why": "무작위시험이외수치를모두추적연구라하던전면일반화를제거하고관찰설계설명으로한정합니다.실제본문은사례대조·추적·개입등여러설계이므로새문장이맞습니다."
+    },
+    {
+      "id": "intro-02",
+      "status": "unadopted_proposal",
+      "before": "일주일에 세 차례 이상 차(제25항)",
+      "after": "차 마시기(제25항)",
+      "original_unique_match_count": 1,
+      "entries": [
+        25
+      ],
+      "reason": "승인 r2는 검증하지 못한 섭취 빈도를 제목에서 삭제했습니다.",
+      "decision": "approve",
+      "why": "미검증차섭취빈도를처방처럼반복하지않고차주제만안내합니다."
+    },
+    {
+      "id": "intro-03",
+      "status": "unadopted_proposal",
+      "before": "하루 3~4잔 커피(제26항)",
+      "after": "커피와 사망 위험(제26항)",
+      "original_unique_match_count": 1,
+      "entries": [
+        26
+      ],
+      "reason": "관찰 결과의 노출량을 개인별 증량 처방으로 바꾸지 않습니다.",
+      "decision": "approve",
+      "why": "커피3~4잔관찰노출을증량처방으로바꾸지않고사망위험주제로안내합니다."
+    },
+    {
+      "id": "intro-04",
+      "status": "unadopted_proposal",
+      "before": "일주일에 네 번 이상 고추(제33항)",
+      "after": "고추와 사망 위험(제33항)",
+      "original_unique_match_count": 1,
+      "entries": [
+        33
+      ],
+      "reason": "원초록은 주4회 초과 집단 비교이며 주4회 이상 처방이 아닙니다.",
+      "decision": "approve",
+      "why": "원문>4회관찰군을≥4회섭취처방으로오인할문구를제거하고고추주제를보존합니다."
+    },
+    {
+      "id": "intro-05",
+      "status": "unadopted_proposal",
+      "before": "하루 1~2잔 우유·요거트(제34항)",
+      "after": "유제품과 사망 위험(제34항)",
+      "original_unique_match_count": 1,
+      "entries": [
+        34
+      ],
+      "reason": "실제 노출은 우유·요거트·치즈를 합친 유제품 >2인분/일입니다. 잔 수 처방으로 환원하지 않습니다.",
+      "decision": "approve",
+      "why": "우유·요거트·치즈totaldairy의serving관찰을우유/요거트잔수처방으로바꾸지않습니다."
+    },
+    {
+      "id": "intro-06",
+      "status": "unadopted_proposal",
+      "before": "하루 7000~8000보 걷기(제11항)",
+      "after": "걷기(제11항)",
+      "original_unique_match_count": 1,
+      "entries": [
+        11
+      ],
+      "reason": "걸음 수와 운동 시간의 정확한 등가 및 국내 권고는 검증 범위 밖입니다. 항목 주제로만 안내합니다.",
+      "decision": "approve",
+      "why": "걸음수와활동시간정확등가/연령구간최적처방을주장하지않는탐색용걷기주제입니다."
+    },
+    {
+      "id": "intro-07",
+      "status": "unadopted_proposal",
+      "before": "일주일에 근력 운동(제16항)",
+      "after": "근력 운동(제16항)",
+      "original_unique_match_count": 1,
+      "entries": [
+        16
+      ],
+      "reason": "관찰한 운동량과 운동 빈도 지침을 구분해 주제명으로 안내합니다.",
+      "decision": "approve",
+      "why": "관찰운동량과주당운동빈도지침을혼합하지않는근력운동주제안내입니다."
+    },
+    {
+      "id": "intro-08",
+      "status": "unadopted_proposal",
+      "before": "밤 7시간 자기(제13항)",
+      "after": "수면 시간과 규칙성(제13항)",
+      "original_unique_match_count": 1,
+      "entries": [
+        13
+      ],
+      "reason": "승인 본문은 연구별 짧고 긴 수면 기준 차이와 수면 규칙성을 함께 다룹니다.",
+      "decision": "approve",
+      "why": "수면시간과규칙성을함께다루는본문의범위를보존하고7시간을모든개인의필수량으로제시하지않습니다."
+    },
+    {
+      "id": "intro-09",
+      "status": "unadopted_proposal",
+      "before": "낮잠은 30분 안으로(제37항)",
+      "after": "낮잠(제37항)",
+      "original_unique_match_count": 1,
+      "entries": [
+        37
+      ],
+      "reason": "인지·운동 기능의 시험과 질병·사망 관찰연관을 구분해야 합니다. 단일 시간 처방은 도입 요약에서 덜어냅니다.",
+      "decision": "approve",
+      "why": "인지/운동시험과질병/사망관찰연관을하나의30분임계량으로묶지않고낮잠주제로안내합니다."
+    },
+    {
+      "id": "intro-10",
+      "status": "unadopted_proposal",
+      "before": "밤샌 다음 날 밤 바로 보충하기(제38항)",
+      "after": "부족한 잠 보충하기(제38항)",
+      "original_unique_match_count": 1,
+      "entries": [
+        38
+      ],
+      "reason": "승인 본문은 개인 필요량에 비해 부족한 밤을 연구했으며 완전 밤샘만을 연구하지 않았다고 밝힙니다.",
+      "decision": "approve",
+      "why": "실제연구가완전밤샘만의연구가아닌점을반영해부족한잠보충으로안내합니다.다음밤/주말조건은항목본문에그대로남습니다."
+    },
+    {
+      "id": "intro-11",
+      "status": "unadopted_proposal",
+      "before": "소규모 자가압착 땅콩기름 사지 않기(제40항)",
+      "after": "식용유의 밀폐 포장과 제조 정보 확인(제40항)",
+      "original_unique_match_count": 1,
+      "entries": [
+        40
+      ],
+      "reason": "기존 제40항 별도 한줄 제안과 같은 부분교체입니다. 국내 방앗간 전체 기피를 승인된 포장·제조 정보 확인 범위로 한정합니다.",
+      "decision": "approve",
+      "why": "기승인40한줄과동일결과를하나의span으로포함하여국내방앗간전체금지와본문범위제한의충돌을없앱니다.규격/검사합격보장은하지않습니다."
+    }
+  ],
+  "entry_count": 42,
+  "doi_set_unchanged": true,
+  "new_independent_current_hash_review_required": true
+}

@@ -1,7 +1,7 @@
 {
-  "captured_at_utc": "2026-10-18T14:30:46.682741+00:00",
-  "head_before_checkpoint": "fcb923b25bf837f7d754815fcc4242427ce7c347",
-  "strict_accepted_count": 343,
+  "captured_at_utc": "2026-10-18T15:00:02.794545+00:00",
+  "head_before_checkpoint": "bd6cba875b5ead2b46b1098df81d2f5ce19364aa",
+  "strict_accepted_count": 374,
   "strict_accepted": [
     {
       "run_dir": "kr-harness/publication/2026-10-18/ch01/_workspace/2026-10-18-001-7050",
@@ -1669,6 +1669,161 @@
       "gate_sha256": "1db26818af80b7251a6ca51feaca6975041b79ce84adb177124ac088ca72ea5c"
     },
     {
+      "run_dir": "kr-harness/publication/2026-10-18/ch12/_workspace/2026-10-18-001-15f0",
+      "final_sha256": "a5eed1f575c4d2df65dac669701e785527bd774e01463efa81f1a58de63a6446",
+      "gate_sha256": "6e4b9022893c38d652625b67c4bba2b688c12fda264bea907aa8fc86c4057174"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch12/_workspace/2026-10-18-002-78f0",
+      "final_sha256": "f0ab124e35e18408b503ddc4a296e1a1b98f671847732e4a37392f4721fcf396",
+      "gate_sha256": "46137cb382e0c8cb2a6c83a4053710fdf4d6b4ad53b837adfaa2727f7539424d"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch12/_workspace/2026-10-18-003-41f9",
+      "final_sha256": "5a20da3bcf8394657d0cb54e24b2aa0d849c31a7bc4bcaea2d910ea1f9251a79",
+      "gate_sha256": "29e85eb030fa4d191e253c9ba3a6cbea6dd47408b2782f04a5e67dbba3c84369"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch12/_workspace/2026-10-18-004-b264",
+      "final_sha256": "5fc03d6ee7906841861746059cb5a4d21ee736dd9952bf320fcd35a8bcbbff6a",
+      "gate_sha256": "702493f97bacb1f2076cf96f31aa2b3a8662dbd4b1a85607564b2001c98f88b6"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch12/_workspace/2026-10-18-005-2f70",
+      "final_sha256": "9edb9d014da7ad559e7a6484b1d547bc8a22d3a71fde76483ee0f075e899e387",
+      "gate_sha256": "4cf90b8fdbdcd1f6848e269ad9718a8aa361683ec3c0797af6fd7de0350f01da"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch12/_workspace/2026-10-18-006-1ccb",
+      "final_sha256": "3ae4ddbfe1df8c37e0bbca01e401b96a42240551b1be3cbe5d127002083d78dc",
+      "gate_sha256": "5fea4bd27139506c0da0b9c7886f57ae84614ed4ad5461ed2b25251280d65236"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch12/_workspace/2026-10-18-007-d288",
+      "final_sha256": "2d8c5be8b46b3c3ea6b6c108931de8e162c034d77cdb931ce3c207a2905c22b2",
+      "gate_sha256": "90d6c4a6f4fc713aa5c10a80af9e7980ad52ef813b383781e880f6971b239b67"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch12/_workspace/2026-10-18-008-ad12",
+      "final_sha256": "09846a9696976a875e666d4f3fcd68150f3b7bcdbdd922c35fd578147ecc61af",
+      "gate_sha256": "e567fbd4d8394c5358cae86e3c379cff54ea7fd262ba37961559e793cc67f4fd"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch12/_workspace/2026-10-18-009-cc53",
+      "final_sha256": "48b0dd71aeaf5adbe2715222c4e1b479833f21e9e1a07c0643262a466279c030",
+      "gate_sha256": "2a1e157e82488fe489ca86f1fe15e5c7e445858503d2ce1dfe1652eabcf8a1ed"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch12/_workspace/2026-10-18-010-b31e",
+      "final_sha256": "5d6566ba6dde6fdcc4615b661287ebb96c24b20e8276c7e04b8e0eb3080aa15b",
+      "gate_sha256": "f6fa39dcdc12b21c8757d7c9a1a0c8a09d11a2b69504682f9d60967d3bfb3771"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch12/_workspace/2026-10-18-011-65a7",
+      "final_sha256": "42d25d764f66f19f33c45c34a88a2bc91187f412d7d42d1593470f2457121f7b",
+      "gate_sha256": "b79e54e34f1ba3ed722e29180bd1c8705a1653708a389837dcdfba2fb11f04af"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch12/_workspace/2026-10-18-012-356b",
+      "final_sha256": "2d03a146d196adc7ad8c418408b38e2be9a7bfff1726eb3bc8d2f6193a99a083",
+      "gate_sha256": "d0c419151e1c582ee794536bfbc723686aade361ecb762c27bebca500f6575e1"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch12/_workspace/2026-10-18-013-f11d",
+      "final_sha256": "026af7d0b2c0978af955d85ef9551292801efce20b88dbce5d425ec1a1cf789e",
+      "gate_sha256": "da73e0f6f01e29348ee8b496ccf33bae4534cb7456c2690c081f3cf65fab524b"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch12/_workspace/2026-10-18-014-e205",
+      "final_sha256": "5a8b46424a56666e0f10b9feea04ac929823e0c07c769973d05d965b13af8c7c",
+      "gate_sha256": "f6fa39dcdc12b21c8757d7c9a1a0c8a09d11a2b69504682f9d60967d3bfb3771"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch12/_workspace/2026-10-18-015-d68b",
+      "final_sha256": "06ca480b28325f40ffe3e81bcc486604cc05ade40aeef401004d2c11abce17a2",
+      "gate_sha256": "08a57559d3edaaaec74f0c81ae7f15b3cdf8d8ac3f0cd275358d8e2cbf267712"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch12/_workspace/2026-10-18-016-f040",
+      "final_sha256": "e3116f5a0e3a241bf89ad14954d0a5a44d585909fbc8aadf4596b868813a2c72",
+      "gate_sha256": "2a1e157e82488fe489ca86f1fe15e5c7e445858503d2ce1dfe1652eabcf8a1ed"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch12/_workspace/2026-10-18-017-912d",
+      "final_sha256": "81fe9fcd041f03266119669981310092849256532b81ce11c33d21f6b9a72a2b",
+      "gate_sha256": "90d6c4a6f4fc713aa5c10a80af9e7980ad52ef813b383781e880f6971b239b67"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch12/_workspace/2026-10-18-018-46be",
+      "final_sha256": "1e36a7b598da4c872e4d15af76126c83311d30750d9194f6c30345f594a0439f",
+      "gate_sha256": "84d5b6b5c1204f6f9889abf24cdf927b1042a3d7a6ecd34c4fd22796ef0a385e"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch12/_workspace/2026-10-18-019-ad2c",
+      "final_sha256": "8eaf6699d6c6e90178d7b5fa20982c6a05dfca70d55b6d5080c81bec82784fcf",
+      "gate_sha256": "8fced13a148fe6bfdc4f4ae36cdfd5db4e66bcdebb96e950d4e931b86fe49a62"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch12/_workspace/2026-10-18-020-1a66",
+      "final_sha256": "997ebe23e977a277c021add73e12783db930b0b398e186c3ea21ed7905fa88ae",
+      "gate_sha256": "bfbd7637198909464e51004c00e7ebf675afe1265b389a3a8c4957ad889b4d5c"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch12/_workspace/2026-10-18-021-661b",
+      "final_sha256": "7ff1bd5bf9b8565969a7d04459bc67792f1a65117e5ca23681bf7d9141da4942",
+      "gate_sha256": "9b109ddbb0225d5c86ad96ab37bc64234d3e664c0e872ac1acf58cd0e2cd13a0"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch12/_workspace/2026-10-18-022-18b4",
+      "final_sha256": "edf7485a4fb18f67f076a475984b78db662d5a7647739dc6740b27484ef8858d",
+      "gate_sha256": "bdd601936fd382866f52f83a63d45ecee74e0686dc6b761b95b633fa21022174"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch12/_workspace/2026-10-18-023-80c3",
+      "final_sha256": "824bccc1197b1c1ff2390ee7cecbe2a79b22a380576c1b1c24e993521c29356d",
+      "gate_sha256": "6c496dcb1fcf2721cc5375741f05eb8f448c4addf442e8a4977bd63905a46244"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch12/_workspace/2026-10-18-024-a0c8",
+      "final_sha256": "aa5beb382d0f14d2ea4045d599ade5493c3abf2a1dcfed2a49b5f652c3b165d2",
+      "gate_sha256": "e9bb20e3c4ae57670883d6c68666edc287edd5a9e260d860648049ec038c6332"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch13/_workspace/2026-10-18-001-cd45",
+      "final_sha256": "e3f088214fe53a94a6a7ae5bfc7f5ced5993591042120fd24420bf1c7b58abab",
+      "gate_sha256": "6dc6b6a145bc3c0238e0913b96d23ca68a878e6579f03947c508cdd68c0707b2"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch13/_workspace/2026-10-18-002-a6a5",
+      "final_sha256": "5a11eacd1765a33767784e19d273f552f54691f2f10f16303fbf1e060d1a7c9b",
+      "gate_sha256": "e982438b8a993d05400bf760f8bc46d498edb2fd52fd1c38cc886b1c185b9c3a"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch13/_workspace/2026-10-18-003-7b2e",
+      "final_sha256": "ed1453d36b1b998af99eea9ea668f5ee3aa4e45ab01a1115269ef4e7bb414fe4",
+      "gate_sha256": "63373dc5b6eb14a31261bb8b7a130e4bad477089beb143d1d021365d2e253ba0"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch13/_workspace/2026-10-18-004-53d1",
+      "final_sha256": "d677bb40747281e91fbd1b1e49664bcb6dc618af8a992b8d24289c3e6f7c366f",
+      "gate_sha256": "2052a649c15ed86de4261e6dba2ee61a28407d3a0102ee26bc59f775dc73a4ef"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch13/_workspace/2026-10-18-005-4a97",
+      "final_sha256": "518149811f4e2908ac349c78c50b4851f788cedc07fa601ffeef619fa9e00d8d",
+      "gate_sha256": "09f1ce6d4a4503ad3b4a3659c6eaf9fa87565e47d1690ef290a02a4ae1eb608e"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch13/_workspace/2026-10-18-006-2fba",
+      "final_sha256": "c9f7ddab112b8030dc2e79ecc59ec23508581b3d184734e254698f1a15e4ddd2",
+      "gate_sha256": "62e8e8a34ebdbe822f02fd34bcb557e83fd75ebcfd1876217726c8f41d3deeb8"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch13/_workspace/2026-10-18-007-3373",
+      "final_sha256": "cc29cf0d5e6651e10d0b190be5ad595d21d023c87e78c9237bd151c4fd8c14d2",
+      "gate_sha256": "c4d51b63456bdd6b4d4b2c45eace452f4722061c4c0f5dc1075d3077d8ca9497"
+    },
+    {
       "run_dir": "kr-harness/publication/2026-10-18/ch18/_workspace/2026-10-18-001-e9cc",
       "final_sha256": "e004063499d5325fd02062ba360d5fc12cc97b0298f4df20dbdf56945e93ce78",
       "gate_sha256": "e6512faf178a0000e150bbe86b66160f0e7bc5ca94fd0bccfa60a7d590e826e7"
@@ -1723,6 +1878,10 @@
     1,
     18
   ],
+  "followups": {
+    "02": "first fresh pass d86b65f7 block0/warn20 archived r8; not promoted, current-public sameauthor field refinements underway",
+    "18": "formal pass current but style length followups queued1/2/3/5"
+  },
   "initial_source_audits_complete": [
     1,
     2,
@@ -1737,11 +1896,14 @@
     11,
     12,
     13,
-    14
+    14,
+    15,
+    16,
+    17
   ],
-  "next_initial_audit": 15,
-  "max_workers": 3,
-  "allocation": "pure1/source2; two independent review slots",
+  "next_initial_audit": 19,
+  "max_workers": 4,
+  "allocation": "temporary pure1/source3 with one independent slot reserved; drain to3 before two independent reviews",
   "live_queue_checkpoint": "global-coordinator-queue.checkpoint.json",
   "deployed": false
 }

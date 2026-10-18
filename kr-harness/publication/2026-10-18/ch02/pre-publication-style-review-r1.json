@@ -1,0 +1,69 @@
+{
+  "review": "pre-publication-style-review-r1",
+  "reviewed_at_utc": "2026-10-18T14:44:56.527648+00:00",
+  "decision": "approve",
+  "approval_scope": "제40항 비고의 정확한 한 문장분할 연산만. 정식KR-FIT/전체절출판승인/새 국내규격검증 아님.",
+  "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-040-ec55/publication-style-corrections-r2.json",
+  "proposal_sha256": "9266c3c22a3ac1acfc895dd9c2586e8c6f7494cb58664ea321b97fecd258484a",
+  "candidate_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/final-publication-candidate.md",
+  "original_candidate_sha256": "9b89453131abeafdb72ada50fbe77e1ceeaf0970d838139576b546011b30b3f7",
+  "original_entry_sha256": "a47e5a257b8b1f19164e1e71fcbe34eda4333dfcc6e359ac8779fc441e69e779",
+  "entry_extraction": "from ^### 40. through whitespace immediately before ^### 41. (separator included)",
+  "entry": 40,
+  "field": "비고",
+  "before": "근거는 중국 땅콩기름 연구 두 개뿐입니다. 그래서 한국에 그대로 들어맞는 범위는 좁습니다. 두 연구 모두 관찰 자료를 분석했습니다. 광시 연구는 먹은 집단과 먹지 않은 집단을 비교했습니다. 무작위로 기름을 배정한 시험은 아닙니다. 광저우 연구는 간 기능 수치를 살폈습니다. 간암이나 사망을 조사한 연구는 아닙니다. 자가압착 기름의 독소 중앙값은 중국의 땅콩기름 한도 20 μg/kg보다 낮았습니다. <!-- kr-fit-ok: 중국 연구 결과를 해석하는 비교 수치 --> 위험은 해마다 계속 먹거나 드물게 독소 농도가 높은 기름을 먹을 때 생깁니다. 중국에서는 미리 포장한 제품이 생산 허가와 출하 검사를 거칩니다. 소규모 작업장은 성마다 정한 규칙으로 관리해 검사가 드뭅니다. <!-- kr-fit-ok: 연구 배경인 중국 제도 설명 --> 국내에서는 방앗간처럼 기름을 직접 짜서 손님에게 파는 곳이 「즉석판매제조·가공업」이라는 별도 업종입니다. 2026년 10월 18일 현재 국내 식용유 기준은 미확인입니다. 아플라톡신 규격을 확인한 국내 구매 권고는 아닙니다. 중국 결과만으로 한국 방앗간 전체를 피하라 할 수는 없습니다. 밀폐 포장과 제조 정보가 오염검사 합격을 보장하지 않습니다. 주로 본인과 함께 먹는 가족이 이득을 봅니다.",
+  "after": "근거는 중국 땅콩기름 연구 두 개뿐입니다. 그래서 한국에 그대로 들어맞는 범위는 좁습니다. 두 연구 모두 관찰 자료를 분석했습니다. 광시 연구는 먹은 집단과 먹지 않은 집단을 비교했습니다. 무작위로 기름을 배정한 시험은 아닙니다. 광저우 연구는 간 기능 수치를 살폈습니다. 간암이나 사망을 조사한 연구는 아닙니다. 자가압착 기름의 독소 중앙값은 중국의 땅콩기름 한도 20 μg/kg보다 낮았습니다. <!-- kr-fit-ok: 중국 연구 결과를 해석하는 비교 수치 --> 위험은 해마다 계속 먹거나 드물게 독소 농도가 높은 기름을 먹을 때 생깁니다. 중국에서는 미리 포장한 제품이 생산 허가와 출하 검사를 거칩니다. 소규모 작업장은 성마다 정한 규칙으로 관리해 검사가 드뭅니다. <!-- kr-fit-ok: 연구 배경인 중국 제도 설명 --> 국내에는 방앗간처럼 기름을 직접 짜서 손님에게 파는 곳이 있습니다. 이런 곳은 「즉석판매제조·가공업」이라는 별도 업종입니다. 2026년 10월 18일 현재 국내 식용유 기준은 미확인입니다. 아플라톡신 규격을 확인한 국내 구매 권고는 아닙니다. 중국 결과만으로 한국 방앗간 전체를 피하라 할 수는 없습니다. 밀폐 포장과 제조 정보가 오염검사 합격을 보장하지 않습니다. 주로 본인과 함께 먹는 가족이 이득을 봅니다.",
+  "target_sentence_before": "국내에서는 방앗간처럼 기름을 직접 짜서 손님에게 파는 곳이 「즉석판매제조·가공업」이라는 별도 업종입니다.",
+  "target_sentence_after": "국내에는 방앗간처럼 기름을 직접 짜서 손님에게 파는 곳이 있습니다. 이런 곳은 「즉석판매제조·가공업」이라는 별도 업종입니다.",
+  "before_field_sha256": "7853bb5636c2ec5da69f9ce42066afe9cbf93534a09fe5e61aeb9b0773fde39f",
+  "after_field_sha256": "7f1d1b34e111c9f131808f4fce7f35dd5a7fcef4040ac079044d2fecbf353971",
+  "proposed_entry_sha256": "bc77817cabbfc5a8234437cee2fd2b62cb6fa2d20c86fa1bd170936fff4459b8",
+  "proposed_candidate_sha256": "6185484257eabf869efb6f02760a2007f90a5a5f63f4b610b8035ba29e1b3b29",
+  "decision_reason": "긴 업종설명 한 문장을 두 문장으로 나눴습니다. 국내에서 방앗간처럼 직접 기름을 짜 손님에게 파는 곳과 즉석판매제조·가공업이라는 동일 업종의 연결을 보존합니다. 이런 곳의 지시대상이 바로 앞 문장으로 명확합니다. 국내기준 미확인·중국결과 외삽한계·포장의 검사합격 비보장 등 모든 앞뒤 조건과 주장은 그대로입니다.",
+  "sentence_count_and_length": {
+    "before_chars_including_final_period": 58,
+    "before_chars_excluding_final_period": 57,
+    "after_sentences": [
+      {
+        "text": "국내에는 방앗간처럼 기름을 직접 짜서 손님에게 파는 곳이 있습니다.",
+        "chars": 37
+      },
+      {
+        "text": "이런 곳은 「즉석판매제조·가공업」이라는 별도 업종입니다.",
+        "chars": 31
+      }
+    ]
+  },
+  "independent_checks": {
+    "proposal_sha_exact": true,
+    "candidate_sha_exact": true,
+    "entry_sha_exact_with_separator": true,
+    "entire_note_before_matches": true,
+    "entire_note_after_equals_one_sentence_replacement": true,
+    "entire_note_before_after_sha_match": true,
+    "candidate_and_entry_proposed_sha_reproduced_in_memory": true,
+    "all_other_entry_bytes_identical": true,
+    "other_entries_and_intro_and_tail_identical": true,
+    "all_urls_unchanged": true,
+    "numbers_conditions_comments_unchanged": true,
+    "new_sentences_within_50_characters": true,
+    "candidate_written": false
+  },
+  "evidence_read": {
+    "url": "https://www.law.go.kr/법령/식품위생법시행령/제21조",
+    "raw_path": "/tmp/ch02e40-sources/decree-article.raw",
+    "raw_sha256": "9f4dcce6cb8e433245c8f52da33774436a5a158ed51c37ed48543d2c9509afdc",
+    "read_at_utc": "2026-10-18T14:44:56.527648+00:00",
+    "scope": "보존된 실제 법제처 HTML 응답의 업종 정의 문단 재열람. 새HTTP/새 현행규격 검증 아님.",
+    "actual_excerpt": "2. 즉석판매제조ㆍ가공업: 총리령 으로 정하는 식품을 제조ㆍ가공업소에서 직접 최종소비자에게 판매하는 영업",
+    "limits": "앞선 승인과 동일하게 별표15/부칙/국내아플라톡신현행기준 미확인. 이 문장 분할로 해소되었다고 세지 않음."
+  },
+  "application_order": "지정 original_candidate SHA9b8945에만 exact 전체비고 before를 한 번 치환. ROOT가 별도 후행 후보를 만들고 새 전체SHA618548…을 검증. 과거 full/style/intro 연산을 다시 적용하지 않음.",
+  "preserved_existing_files": {
+    "content-audit.md": "6242c1a80a50b913c9b26a4516db1f3350f13ab5a1e5fbde48df7ae8bc8a2804",
+    "editorial-decisions.json": "dac66e6fac98b0c99b44f740110a436c28b9d21285219172cd2c04ff96b15bbb",
+    "final-publication-candidate.md": "9b89453131abeafdb72ada50fbe77e1ceeaf0970d838139576b546011b30b3f7"
+  },
+  "formal_kr_fit": false,
+  "publication_ready": false
+}

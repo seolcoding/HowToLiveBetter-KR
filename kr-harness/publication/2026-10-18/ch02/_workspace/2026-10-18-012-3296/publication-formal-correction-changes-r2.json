@@ -1,0 +1,52 @@
+{
+  "public_path": "/workspace/HowToLiveBetter-KR/book-kr/02-천천히-죽지-않기.md",
+  "public_raw_sha256": "b580b637d34819b9de1169d80093a9d953a5298ca1e7d84a34a70a63b270949a",
+  "entry": 12,
+  "entry_sha256": "bc01318e15559bd2d482d947d25e510894ad4971dd08e0a59769689960517129",
+  "entry_extraction": "^### 12. through immediately before ^### 13.; separator whitespace included",
+  "date": "2026-10-18",
+  "status": "unadopted_proposal",
+  "independent_approval_required": true,
+  "proposal_sha256": "24cc7db2aba61ded70cc6a85d8985e3a345dbc23323dd0cef45116460a6f87a6",
+  "changes": [
+    {
+      "field": "비용",
+      "before": "혈압약과 스타틴은 건강보험 급여 약이라 한 달 부담이 크지 않습니다. 다만 \"괜찮아졌다\"며 스스로 끊지 않고 버티기는 어렵습니다.",
+      "after": "국내 약제별 급여 여부와 월 부담액은 확인하지 못했습니다. 약 이름·치료 목적·환자 자격별 급여 기준을 확인하세요. 처방에 따른 본인부담은 병원이나 약국에 물어보세요. 다만 \"괜찮아졌다\"며 스스로 끊지 않고 버티기는 어렵습니다.",
+      "exact_replaced_before": "혈압약과 스타틴은 건강보험 급여 약이라 한 달 부담이 크지 않습니다.",
+      "exact_replaced_after": "국내 약제별 급여 여부와 월 부담액은 확인하지 못했습니다. 약 이름·치료 목적·환자 자격별 급여 기준을 확인하세요. 처방에 따른 본인부담은 병원이나 약국에 물어보세요.",
+      "reason": "혈압약·스타틴 전체의 급여·저부담 일반화를 철회. 국내 약제별 급여와 월 부담액 미확인을 독자에게 명시. 개별 약제·치료 목적·환자 자격·급여 기준·처방에 따른 확인으로 한정.",
+      "primary_quotes": [],
+      "primary_urls": [],
+      "primary_raw_paths": [],
+      "verification_date": "2026-10-18",
+      "verification_method": "국내 약제별 HIRA/NHIS 1차 급여 기준은 이번 작업에서 직접 확인하지 못함. 검증 완료로 표시하지 않으며 확인 권고만 제시.",
+      "unresolved_limits": [
+        "모든 성분·적응증·환자 자격별 급여와 본인부담 확인 미완료",
+        "국내 월 부담액 미확인"
+      ]
+    }
+  ],
+  "numeric_scope_changes": [
+    "급여·저부담의 모든 혈압약/스타틴에 대한 일괄 단정 제거. 수치 추가 없음."
+  ],
+  "doi_changes": {
+    "added": [],
+    "removed": []
+  },
+  "preserved": "비용 첫 문장 외 제목·태그·다섯 필드·출처·단위·조건 및 비용 후속문장 바이트 동일",
+  "sentence_lengths": [
+    {
+      "sentence": "국내 약제별 급여 여부와 월 부담액은 확인하지 못했습니다.",
+      "len": 32
+    },
+    {
+      "sentence": "약 이름·치료 목적·환자 자격별 급여 기준을 확인하세요.",
+      "len": 31
+    },
+    {
+      "sentence": "처방에 따른 본인부담은 병원이나 약국에 물어보세요.",
+      "len": 28
+    }
+  ]
+}

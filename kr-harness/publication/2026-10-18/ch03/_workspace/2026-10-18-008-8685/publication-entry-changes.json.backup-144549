@@ -1,0 +1,128 @@
+{
+  "entry": 8,
+  "status": "unadopted; incomplete source verification",
+  "strict_entry_sha256": "72b64a5f2aaa2dfa838f4639ec8fe0a530c0f115c98d84b7002aae9e4a943d04",
+  "proposal_sha256": "208f82278b613165d690f6c57551800e439d1337a52f18e2ae34acb624e4bd50",
+  "changes": [
+    {
+      "field": "title",
+      "before": "자기 전 한 시간은 빛나는 화면을 보지 마세요. 볼 거면 종이책이나 전자잉크로",
+      "after": "자기 전 빛나는 화면을 줄이세요. 읽을 거면 종이책을 고르세요",
+      "reason": "한 시간의 검증된 임계값 오독과 전자잉크 무조건 안전 암시를 줄임",
+      "modified_sentence_lengths": [
+        {
+          "text": "자기 전 빛나는 화면을 줄이세요.",
+          "len": 18
+        },
+        {
+          "text": "읽을 거면 종이책을 고르세요",
+          "len": 15
+        }
+      ]
+    },
+    {
+      "field": "비용",
+      "before": "돈이 들지 않습니다. 자기 전 한 시간 휴대전화를 내려놓는 습관은 꾸준히 들여야 합니다. 의지가 필요합니다.",
+      "after": "돈이 들지 않습니다. 자기 전 휴대전화를 내려놓는 습관은 꾸준히 들여야 합니다. 의지가 필요합니다.",
+      "reason": "초록의 취침 전 여러 시간 조건을 보존하고 한 시간 권고와 실험 결과를 구분; 수치는 원문 확인 전 유지",
+      "modified_sentence_lengths": [
+        {
+          "text": "자기 전 휴대전화를 내려놓는 습관은 꾸준히 들여야 합니다.",
+          "len": 32
+        }
+      ]
+    },
+    {
+      "field": "쉽게",
+      "before": "자기 전 빛나는 화면으로 읽으면 종이책보다 잠드는 데 10분쯤 더 걸립니다. 멜라토닌 분비가 55% 줄어듭니다. 다음 날 생체시계는 1.5시간 넘게 밀립니다. 아침에 더 졸리고 완전히 깨는 데도 더 오래 걸립니다.",
+      "after": "취침 전 여러 시간 빛나는 화면으로 읽은 실험입니다. 종이책보다 잠들기가 늦고 아침에 더 졸렸습니다. 한 시간만 화면을 봤을 때의 효과로 읽지는 마세요.",
+      "reason": "초록의 취침 전 여러 시간 조건을 보존하고 한 시간 권고와 실험 결과를 구분; 수치는 원문 확인 전 유지",
+      "modified_sentence_lengths": [
+        {
+          "text": "취침 전 여러 시간 빛나는 화면으로 읽은 실험입니다.",
+          "len": 29
+        },
+        {
+          "text": "종이책보다 잠들기가 늦고 아침에 더 졸렸습니다.",
+          "len": 26
+        },
+        {
+          "text": "한 시간만 화면을 봤을 때의 효과로 읽지는 마세요.",
+          "len": 28
+        }
+      ]
+    },
+    {
+      "field": "이득",
+      "before": "참가자마다 두 조건을 번갈아 경험한 교차시험입니다. 자기 전 빛나는 화면으로 책을 읽으면 종이책보다 약 10분 늦게 잠들었습니다. 잠드는 데 걸린 시간은 25.7분 대 15.8분입니다. 저녁 멜라토닌은 55% 억제됐습니다. 다음 날 생체시계(일주기 리듬)는 1.5시간 이상 늦춰졌습니다. 멜라토닌 분비가 시작된 시각은 22:31 대 21:01입니다. 다음 날 아침 더 졸렸고 완전히 깨어나는 데 더 오래 걸렸습니다.",
+      "after": "참가자마다 두 조건을 번갈아 경험한 교차시험입니다. 취침 전 여러 시간 화면으로 읽기와 종이책 읽기를 비교했습니다. 자기 전 빛나는 화면으로 책을 읽으면 종이책보다 약 10분 늦게 잠들었습니다. 잠드는 데 걸린 시간은 25.7분 대 15.8분입니다. 저녁 멜라토닌은 55% 억제됐습니다. 다음 날 생체시계(일주기 리듬)는 1.5시간 이상 늦춰졌습니다. 멜라토닌 분비가 시작된 시각은 22:31 대 21:01입니다. 다음 날 아침 더 졸렸고 완전히 깨어나는 데 더 오래 걸렸습니다.",
+      "reason": "초록의 취침 전 여러 시간 조건을 보존하고 한 시간 권고와 실험 결과를 구분; 수치는 원문 확인 전 유지",
+      "modified_sentence_lengths": [
+        {
+          "text": "취침 전 여러 시간 화면으로 읽기와 종이책 읽기를 비교했습니다.",
+          "len": 35
+        }
+      ]
+    },
+    {
+      "field": "비고",
+      "before": "인원이 적고 조건을 통제한 실험실 연구입니다. 평소 쓰는 휴대전화의 밝기와 사용 시간에 따라 영향은 더 작을 수 있습니다. 이 연구는 휴대전화 야간 모드의 효과를 재지 않았습니다.",
+      "after": "인원이 적고 조건을 통제한 실험실 연구입니다. 평소 쓰는 휴대전화의 밝기와 사용 시간에 따라 영향은 더 작을 수 있습니다. 이 연구는 휴대전화 야간 모드의 효과를 재지 않았습니다. 한 시간 전부터 화면을 줄이는 것은 실천을 위한 권고입니다. 이 연구가 한 시간이라는 기준의 효과를 입증한 것은 아닙니다. 전자잉크 기기도 조명 조건에 따라 빛 노출이 달라집니다.",
+      "reason": "초록의 취침 전 여러 시간 조건을 보존하고 한 시간 권고와 실험 결과를 구분; 수치는 원문 확인 전 유지",
+      "modified_sentence_lengths": [
+        {
+          "text": "한 시간 전부터 화면을 줄이는 것은 실천을 위한 권고입니다.",
+          "len": 33
+        },
+        {
+          "text": "이 연구가 한 시간이라는 기준의 효과를 입증한 것은 아닙니다.",
+          "len": 34
+        },
+        {
+          "text": "전자잉크 기기도 조명 조건에 따라 빛 노출이 달라집니다.",
+          "len": 31
+        }
+      ]
+    }
+  ],
+  "verification_date": "2026-10-18",
+  "actual_level_read": "Cached exact-DOI primary abstract read in full; full text not obtained",
+  "primary_quotes": [
+    " Here we compare the biological effects of reading an electronic book on a light-emitting device (LE-eBook) with reading a printed book in the hours before bedtime.",
+    " Participants reading an LE-eBook took longer to fall asleep and had reduced evening sleepiness, reduced melatonin secretion, later timing of their circadian clock, and reduced next-morning alertness than when reading a printed book."
+  ],
+  "primary_url": "https://doi.org/10.1073/pnas.1418490112",
+  "raw_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch03/_workspace/2026-10-18-008-8685/primary-chang-abstract.json",
+  "raw_sha256": "fb33d17c59e3cde2060b121e51c0b3b02eeb38dbec2402d9200213ec5d64968a",
+  "original_cache_provenance": {
+    "doi": "10.1073/pnas.1418490112",
+    "chapters": [
+      3
+    ],
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1073%2Fpnas.1418490112%22&format=json&resultType=core&pageSize=10",
+    "fetched_at": "2026-10-18T20:50:15.810322+09:00",
+    "http_status": 200,
+    "status": "exact_doi_metadata_cached",
+    "sha256": "fb33d17c59e3cde2060b121e51c0b3b02eeb38dbec2402d9200213ec5d64968a",
+    "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/fa247e48351151fd6551.json",
+    "hit_count": 1,
+    "abstract_present": true
+  },
+  "doi_changes": [],
+  "numerical_changes": "No original numerical values changed. Removed 10 min / 55% / 1.5 h from easy only; retained in benefit.",
+  "scope_changes": "Multiple pre-bedtime hours from abstract made explicit in easy/benefit; one-hour recommendation no longer asserted as measured threshold.",
+  "limitations": [
+    "Full-text required: exact exposure hours and repeated nights, participant denominator, 25.7/15.8,55%,1.5h,22:31/21:01 remain unverified. This proposal does not resolve that audit request and must not be approved until checked.",
+    "No source numerical conflict established; no correction notice identified from cached commentCorrectionList (three Comment in items only).",
+    "New full-text attempts: Europe PMC XML HTTP500; Europe PMC html/PDF and PNAS HTTP403; PMC HTTP200 recaptcha saved, not article; BioC returned No result, not article.",
+    "External light/e-ink scope is a caution rather than a direct intervention outcome; independent reviewer should verify or remove this addition."
+  ],
+  "approval_provenance": "Entry8 has no approved field changes in editorial-decisions.json; canonical strict-entry preserved.",
+  "checks": {
+    "easy_characters": 85,
+    "easy_sentences": 3,
+    "modified_sentence_limit": 50,
+    "protected_cost_tag": "<!-- 成本标签: 钱=0 时间=少 毅力=是 收益=中 口径=时间 -->",
+    "evidence_grade": "B"
+  }
+}
