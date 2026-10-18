@@ -1,0 +1,24 @@
+{
+  "decision": "accept",
+  "fidelity_violations": [],
+  "residual_findings": [
+    {
+      "code": "footnote_anchor",
+      "assessment": "false_positive",
+      "detail": "게이트가 신뢰구간 3.1)과 2.1)의 소수 끝자리를 같은 각주 1)로 읽음. check_footnotes(original, original)에서도 동일 경고 재현. 이득 필드는 원문과 완전히 같음."
+    }
+  ],
+  "overediting": [],
+  "correction_count": 0,
+  "summary_updated": true,
+  "validation": {
+    "body_change": "급하고, 볼 때 → 급하고 볼 때: 쉼표 1개만 삭제",
+    "four_physical_field_lines_preserved": true,
+    "numbers_urls_conditions_hedges_preserved": true,
+    "original_chars_with_final_newline": 680,
+    "final_body_chars_with_final_newline": 679,
+    "gate_change_rate": 0.0007,
+    "gate_exit_code_preserved": 1
+  },
+  "note": "원문의 쉽게 및 비고 필드 끝 미완 구절은 원문대로 보존. 본문 보정 없이 승인; 요약만 갱신."
+}
