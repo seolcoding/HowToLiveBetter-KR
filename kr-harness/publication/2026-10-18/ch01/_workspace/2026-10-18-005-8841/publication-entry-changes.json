@@ -1,0 +1,84 @@
+{
+  "entry": 5,
+  "status": "unadopted_proposal",
+  "publication_ready": false,
+  "changes": [
+    {
+      "field": "쉽게",
+      "before": "한국에 자라는 버섯 가운데 먹어도 된다고 확인된 것은 18%뿐입니다. 나머지는 독버섯이거나 먹어도 되는지 아직 밝혀지지 않았습니다. 중국에서는 한 해 동안 버섯 중독으로 13명이 숨졌습니다. 민간에 도는 구별법에는 근거가 없습니다.",
+      "after": "한국 자생 버섯 중 식용으로 확인된 것은 18%뿐입니다. 나머지는 독버섯이거나 먹어도 되는지 모릅니다. 중국은 2025년 버섯 중독 사망자가 13명이었습니다. 민간 구별법에는 근거가 없습니다.",
+      "reason": "감사 revise에 따라 불명을 먹어도 되는지 모릅니다로 풀어 씀. 한국 18%, 중국 2025년 13명 및 미확인 범위를 보존하며 4문장 120자 이내로 축약.",
+      "evidencequotes": [
+        "2,292종 가운데 식용으로 확인된 것은 416종(18%)입니다.",
+        "독버섯은 248종이고 나머지 1,550종은 먹어도 되는지 밝혀지지 않았습니다.",
+        "중국 질병예방통제센터는 2025년 버섯 중독 828건을 조사했습니다.",
+        "모두 2,165명이 중독됐고 그중 13명이 숨졌습니다.",
+        "식용버섯과 독버섯을 구별한다는 속설도 과학적 근거가 없습니다."
+      ],
+      "urls": [
+        "https://www.rda.go.kr/board/board.do?mode=view&prgId=day_farmprmninfoEntry&dataNo=100000805255",
+        "https://doi.org/10.46234/ccdcw2026.120"
+      ]
+    },
+    {
+      "field": "비고",
+      "before": "잘못 먹었다면 바로 토해 내고 먹은 버섯을 가지고 곧장 병원에 가세요(농촌진흥청). 독버섯 중독에는 여러 유형이 있습니다. 어떤 버섯을 먹었는지 알아야 의사가 치료법을 정할 수 있습니다. 중독을 일으키는 종은 해마다 새로 기록됩니다. 그러니 '동네 사람은 다 구별한다'는 전제부터 성립하지 않습니다. 은수저로 독을 확인하거나 마늘과 함께 끓여 보는 방법은 소용없습니다. 벌레 먹은 버섯은 괜찮다거나 색이 화려해야 독이 있다는 말도 틀렸습니다. 한국 버섯 중독 사망 통계의 1차 출처는 찾지 못했습니다. 그래서 사망자 수는 중국 자료를 그대로 썼습니다.",
+      "after": "잘못 먹었다면 즉시 119에 연락하거나 응급실로 가세요. 억지로 토하지 마세요. 먹은 버섯을 가지고 가세요. 독버섯 중독에는 여러 유형이 있습니다. 어떤 버섯을 먹었는지 알아야 의사가 치료법을 정할 수 있습니다. 중독을 일으키는 종은 해마다 새로 기록됩니다. 그러니 '동네 사람은 다 구별한다'는 전제부터 성립하지 않습니다. 은수저로 독을 확인하거나 마늘과 함께 끓여 보는 방법은 소용없습니다. 벌레 먹은 버섯은 괜찮다거나 색이 화려해야 독이 있다는 말도 틀렸습니다. 한국 버섯 중독 사망 통계의 1차 출처는 찾지 못했습니다. 그래서 사망자 수는 중국 자료를 그대로 썼습니다.",
+      "reason": "새로 열람한 NHS 중독 응급안내의 구토 유도 금지와 충돌하는 무조건적 토해내기 지시 삭제. 즉각 응급 도움 및 버섯 지참 안내를 유지. 영국 999는 한국 독자에게 119로 적용.",
+      "evidencequotes": [
+        "do not try to make someone sick if you think they've swallowed something harmful – they could choke and stop breathing",
+        "Call 999 or go to A&E if:",
+        "you think you, a child, or someone else may have swallowed, touched or breathed in something harmful",
+        "take some of the substance or its packaging to show doctors at the hospital, if possible"
+      ],
+      "urls": [
+        "https://www.nhs.uk/conditions/poisoning/"
+      ]
+    },
+    {
+      "field": "출처",
+      "before": "농촌진흥청 보도자료(국립원예특작과학원, 2025-09-16) 「가을 산행길, 성묫길 '버섯 중독 사고' 주의보」 https://www.rda.go.kr/board/board.do?mode=view&prgId=day_farmprmninfoEntry&dataNo=100000805255 · Mushroom Poisoning Outbreaks — China, 2025. China CDC Weekly (2026): 「In 2025, China CDC investigated 828 mushroom poisoning incidents across 27 provincial-level administrative divisions (PLADs), affecting 2,165 individuals and causing 13 deaths - a case fatality rate of 0.6%, the lowest of the past six years. In total, 138 poisonous mushroom species were identified, including 34 newly recorded in poisoning incidents in China.」「From 2019 to 2024, the annual number of incidents ranged from 276 to 676, and the case fatality rate ranged from 0.87% to 2.86%.」 https://doi.org/10.46234/ccdcw2026.120 · 같은 학술지 2024년 보고 https://doi.org/10.46234/ccdcw2025.106",
+      "after": "농촌진흥청 보도자료(국립원예특작과학원, 2025-09-16) 「가을 산행길, 성묫길 '버섯 중독 사고' 주의보」 https://www.rda.go.kr/board/board.do?mode=view&prgId=day_farmprmninfoEntry&dataNo=100000805255 · Mushroom Poisoning Outbreaks — China, 2025. China CDC Weekly (2026): 「In 2025, China CDC investigated 828 mushroom poisoning incidents across 27 provincial-level administrative divisions (PLADs), affecting 2,165 individuals and causing 13 deaths - a case fatality rate of 0.6%, the lowest of the past six years. In total, 138 poisonous mushroom species were identified, including 34 newly recorded in poisoning incidents in China.」「From 2019 to 2024, the annual number of incidents ranged from 276 to 676, and the case fatality rate ranged from 0.87% to 2.86%.」 https://doi.org/10.46234/ccdcw2026.120 · 같은 학술지 2024년 보고 https://doi.org/10.46234/ccdcw2025.106 · NHS 「Poisoning」 https://www.nhs.uk/conditions/poisoning/",
+      "reason": "실제로 읽은 NHS 중독 응급안내를 추가.",
+      "evidencequotes": [
+        "do not try to make someone sick if you think they've swallowed something harmful – they could choke and stop breathing"
+      ],
+      "urls": [
+        "https://www.nhs.uk/conditions/poisoning/"
+      ]
+    }
+  ],
+  "verification_limits": [
+    "이번 수정에서는 제공된 NHS 원시 HTML 캐시의 응급 도움·구토 금지 본문을 직접 읽었습니다. 직접 새 HTTP 요청을 수행한 것은 아닙니다.",
+    "농촌진흥청 구토 권고와 NHS 중독 응급안내의 충돌에 따라 구토 유도 지시를 교체했습니다. 버섯 통계 및 다른 출처를 새로 재검증하지 않았습니다.",
+    "NHS는 영국 999/A&E를 안내하며, 한국 독자에게 119/응급실로 적용했습니다. 한국 의료기관의 별도 지침을 새로 열람한 것은 아닙니다."
+  ],
+  "preserved_fields": [
+    "title",
+    "tag",
+    "비용",
+    "이득",
+    "근거등급"
+  ],
+  "validation": {
+    "easy_chars": 107,
+    "easy_sentences": 4,
+    "easy_sentence_lengths": [
+      30,
+      24,
+      29,
+      18
+    ],
+    "strict_final_unchanged": true
+  },
+  "primary_source_check": {
+    "method": "제공된 원시 HTML 캐시 본문 직접 열람 및 batch3-new-index.json 대조",
+    "read_date": "2026-10-18",
+    "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch01-audit/poison-nhs.txt",
+    "url": "https://www.nhs.uk/conditions/poisoning/",
+    "retrieved_at": "2026-10-18T12:27:53.451533+00:00",
+    "sha256": "db9b710fddfbd5500cc115968d9509b911bdcd32f40f428330f26fc68fc141df",
+    "exact_quote": "do not try to make someone sick if you think they've swallowed something harmful – they could choke and stop breathing"
+  },
+  "requires_fresh_review": true
+}

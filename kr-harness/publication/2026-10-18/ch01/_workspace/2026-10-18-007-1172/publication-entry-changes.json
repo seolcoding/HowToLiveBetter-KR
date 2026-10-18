@@ -1,0 +1,143 @@
+{
+  "entry": 7,
+  "status": "proposed_unadopted",
+  "publication_ready": false,
+  "base": "entry_snapshot.md",
+  "changes": [
+    {
+      "field": "title",
+      "before": "혈압을 재고, 높으면 약을 먹어 목표까지 낮추세요",
+      "after": "혈압을 재고, 의사와 약·목표를 정해 낮추세요",
+      "changed": true,
+      "reason": "단일 높은 수치만으로 자가 투약하는 오독 방지. 의사의 약·목표 판단 명시.",
+      "evidence": [
+        {
+          "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000272270&type=XML",
+          "exact_quotes": [
+            "측정결과 수축기압 120mmHg 이상 또는 이완기압 80mmHg 이상인 경우에는",
+            "2분 이상의 간격을 둔 후 재측정을 실시한다.",
+            "검진기관은 제5조 제1항에 따른 일반건강검진 및 제5조 제2항에 따른 의료급여 생애전환기검진 결과 질환이 의심되는 수검자에게 해당분야 진료(필요한 경우 해당질환 확진을 위한 검사 포함)를 받을 수 있도록 안내하고"
+          ],
+          "checked_date": "2026-10-18",
+          "method": "ch01-audit/screen.txt의 기존 원시 XML 본문과 별표 직접 열람. 신규 HTTP 아님.",
+          "limits": "재측정·후속 진료 안내만 이번 확인일에 해당. 개인별 투약 기준·치료 목표를 검증한 것은 아님."
+        }
+      ],
+      "limits": "미변경 옛 사실의 전수 재검증이나 출판 승인 아님."
+    },
+    {
+      "field": "비용",
+      "before": "전자혈압계는 몇만 원입니다. 한 번 재는 데 1분이면 되고, 국가건강검진에서도 재 줍니다. 혈압약은 건강보험이 적용돼 한 달 부담이 크지 않습니다. 다만 증상이 없는데도 약을 꾸준히 먹기가 어렵습니다.",
+      "after": "전자혈압계는 몇만 원입니다. 한 번 재는 데 1분이면 되고 국가건강검진에서도 재 줍니다. 혈압약은 건강보험이 적용돼 한 달 부담이 크지 않습니다. 다만 증상이 없는데도 약을 꾸준히 먹기가 어렵습니다.",
+      "changed": true,
+      "reason": "연결어미 뒤 쉼표만 삭제.",
+      "evidence": [],
+      "limits": "미변경 옛 사실의 전수 재검증이나 출판 승인 아님."
+    },
+    {
+      "field": "쉽게",
+      "before": "위 혈압을 10 낮출 때마다 큰 심혈관 사건이 20%쯤, 사망은 13% 줄어듭니다. 한국 성인은 열에 세 명꼴로 고혈압입니다. 20~30대 고혈압 환자는 절반 넘게 자기 병을 모르고 치료도 받지 않습니다.",
+      "after": "위 혈압을 10 낮출 때마다 큰 심혈관 사건이 20%쯤 줄어듭니다. 사망은 13% 줄어듭니다. 한국 성인은 열에 세 명꼴로 고혈압입니다. 20~30대 환자는 절반 넘게 병을 모르고 치료도 받지 않습니다.",
+      "changed": true,
+      "reason": "첫 문장을 나눠 각 문장 50자 이내로 정리. 수치와 대상 유지.",
+      "evidence": [],
+      "limits": "미변경 옛 사실의 전수 재검증이나 출판 승인 아님."
+    },
+    {
+      "field": "이득",
+      "before": "임상시험 123개, 61만여 명의 결과를 합쳐 계산했습니다. 수축기 혈압은 혈압 두 숫자 가운데 큰 쪽입니다. 이 값을 10 mmHg 낮출 때마다 주요 심혈관 사건이 20%쯤 줄었습니다. 통계 원값은 RR 0.80, 95% CI 0.77~0.83입니다. 뇌졸중은 27%쯤(RR 0.73), 심부전은 28%쯤(RR 0.72) 줄었습니다. 총사망률도 13% 낮아졌습니다(RR 0.87, 95% CI 0.84~0.91). 한국은 2023년 20세 이상 성인 약 1,260만 명(29%)이 고혈압이었습니다. 이 가운데 인지율은 79%, 치료율은 76%, 조절률은 62%입니다. 20~39세는 인지율과 치료율이 모두 50%에 못 미쳤습니다. 국가건강검진에서는 2년마다 혈압을 잽니다. 검진에서 고혈압이 의심되면 병·의원 첫 진료 1회는 본인부담이 없습니다. 기한은 검진받은 다음 해 3월 31일까지입니다.",
+      "after": "임상시험 123개, 61만여 명의 결과를 합쳐 계산했습니다. 수축기 혈압은 혈압 두 숫자 가운데 큰 쪽입니다. 이 값을 10 mmHg 낮출 때마다 주요 심혈관 사건이 20%쯤 줄었습니다. 통계 원값은 RR 0.80, 95% CI 0.77~0.83입니다. 뇌졸중은 27%쯤(RR 0.73), 심부전은 28%쯤(RR 0.72) 줄었습니다. 총사망률도 13% 낮아졌습니다(RR 0.87, 95% CI 0.84~0.91). 한국은 2023년 20세 이상 성인 약 1,260만 명(29%)이 고혈압이었습니다. 이 가운데 인지율은 79%, 치료율은 76%, 조절률은 62%입니다. 20~39세는 인지율과 치료율이 모두 50%에 못 미쳤습니다. 국가건강검진에서도 혈압을 잽니다. 검진에서 고혈압이 의심되면 병·의원 첫 진료 1회는 본인부담이 없습니다. 기한은 검진받은 다음 해 3월 31일까지입니다.",
+      "changed": true,
+      "reason": "비사무직 매년 예외를 누락한 일괄 2년 주기 단정 삭제. 혈압측정 자체만 유지.",
+      "evidence": [
+        {
+          "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000272270&type=XML",
+          "exact_quotes": [
+            "측정결과 수축기압 120mmHg 이상 또는 이완기압 80mmHg 이상인 경우에는",
+            "2분 이상의 간격을 둔 후 재측정을 실시한다.",
+            "검진기관은 제5조 제1항에 따른 일반건강검진 및 제5조 제2항에 따른 의료급여 생애전환기검진 결과 질환이 의심되는 수검자에게 해당분야 진료(필요한 경우 해당질환 확진을 위한 검사 포함)를 받을 수 있도록 안내하고"
+          ],
+          "checked_date": "2026-10-18",
+          "method": "ch01-audit/screen.txt의 기존 원시 XML 본문과 별표 직접 열람. 신규 HTTP 아님.",
+          "limits": "재측정·후속 진료 안내만 이번 확인일에 해당. 개인별 투약 기준·치료 목표를 검증한 것은 아님."
+        }
+      ],
+      "limits": "미변경 옛 사실의 전수 재검증이나 출판 승인 아님."
+    },
+    {
+      "field": "근거등급",
+      "before": "A",
+      "after": "A",
+      "changed": false,
+      "reason": "보호 필드 그대로 보존.",
+      "evidence": [],
+      "limits": "미변경 옛 사실의 전수 재검증이나 출판 승인 아님."
+    },
+    {
+      "field": "출처",
+      "before": "Ettehad D 외 (2016). Blood pressure lowering for prevention of cardiovascular disease and death: a systematic review and meta-analysis. Lancet. https://doi.org/10.1016/S0140-6736(15)01225-8 · Kim HC, Lee H, Choi H, et al. (2026). Korea Hypertension Fact Sheet 2025: national trends in hypertension with a special analysis of hypertensive disorders of pregnancy. Clinical Hypertension. https://doi.org/10.5646/ch.2026.32.e13 · 「국민건강보험법 시행령」 제25조 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=289701 · 건강검진 실시기준(보건복지부고시 제2026-6호) https://www.law.go.kr/admRulLsInfoP.do?admRulSeq=2100000272270",
+      "after": "Ettehad D 외 (2016). Blood pressure lowering for prevention of cardiovascular disease and death: a systematic review and meta-analysis. Lancet. https://doi.org/10.1016/S0140-6736(15)01225-8 · Kim HC, Lee H, Choi H, et al. (2026). Korea Hypertension Fact Sheet 2025: national trends in hypertension with a special analysis of hypertensive disorders of pregnancy. Clinical Hypertension. https://doi.org/10.5646/ch.2026.32.e13 · 「국민건강보험법 시행령」 제25조 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=289701 · 건강검진 실시기준(보건복지부고시 제2026-6호) https://www.law.go.kr/admRulLsInfoP.do?admRulSeq=2100000272270",
+      "changed": false,
+      "reason": "보호 필드 그대로 보존.",
+      "evidence": [],
+      "limits": "미변경 옛 사실의 전수 재검증이나 출판 승인 아님."
+    },
+    {
+      "field": "비고",
+      "before": "먼저 혈압을 한 번 재세요. 한국은 고혈압 관리가 꾸준히 나아졌습니다. 하지만 젊은 고혈압 환자는 아직 절반 넘게 모르고 지냅니다. 그래서 한 번 재 보기는 이 책에서 가성비가 가장 높은 행동 가운데 하나입니다. 목표를 130으로 잡을지 140으로 잡을지는 의견이 갈립니다. 그래도 내가 고혈압인지 알고 낮춰야 한다는 데는 이견이 없습니다. 2026-10-10 법령·고시 확인(국가법령정보센터).",
+      "after": "먼저 혈압을 재세요. 높게 나오면 다시 재고 의사와 약이 필요한지 상의하세요. 한 번 높은 수치만 보고 스스로 약을 먹지는 마세요. 한국은 고혈압 관리가 꾸준히 나아졌습니다. 하지만 젊은 고혈압 환자는 아직 절반 넘게 모르고 지냅니다. 그래서 혈압 재기는 이 책에서 가성비가 가장 높은 행동 가운데 하나입니다. 목표를 130으로 잡을지 140으로 잡을지는 의견이 갈립니다. 내 혈압과 치료 목표는 의사와 정하세요. 2026-10-10 법령·고시 확인(국가법령정보센터). 2026-10-18 건강검진 고시의 재측정·후속 진료 안내를 캐시 원문으로 확인했습니다.",
+      "changed": true,
+      "reason": "재측정과 의사의 약·목표 판단 추가. 일괄 치료 합의라는 절대 표현 삭제. 확인일은 이번 열람한 고시 내용으로 한정.",
+      "evidence": [
+        {
+          "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000272270&type=XML",
+          "exact_quotes": [
+            "측정결과 수축기압 120mmHg 이상 또는 이완기압 80mmHg 이상인 경우에는",
+            "2분 이상의 간격을 둔 후 재측정을 실시한다.",
+            "검진기관은 제5조 제1항에 따른 일반건강검진 및 제5조 제2항에 따른 의료급여 생애전환기검진 결과 질환이 의심되는 수검자에게 해당분야 진료(필요한 경우 해당질환 확진을 위한 검사 포함)를 받을 수 있도록 안내하고"
+          ],
+          "checked_date": "2026-10-18",
+          "method": "ch01-audit/screen.txt의 기존 원시 XML 본문과 별표 직접 열람. 신규 HTTP 아님.",
+          "limits": "재측정·후속 진료 안내만 이번 확인일에 해당. 개인별 투약 기준·치료 목표를 검증한 것은 아님."
+        }
+      ],
+      "limits": "미변경 옛 사실의 전수 재검증이나 출판 승인 아님."
+    }
+  ],
+  "medical_effect_check": [
+    {
+      "url": "https://doi.org/10.5646/ch.2026.32.e13",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/796cedefbc9e1d6d0991.json",
+      "retrieved_at": "2026-10-18T20:49:41.637234+09:00",
+      "read_date": "2026-10-18",
+      "method": "기존 원시 Europe PMC JSON 초록 직접 열람. 신규 HTTP 아님.",
+      "exact_quote": "In 2023, an estimated 12.6 million Korean adults (29% of adults aged ≥ 20 years) had hypertension. Management indicators continued to improve, with awareness, treatment, and control rates reaching 79%, 76%, and 62%, respectively. However, among young adults aged 20-39 years, awareness and treatment rates remained below 50% despite recent substantial gains. ",
+      "limits": "초록 범위 확인. 개별 환자 효과와 투약 필요성 보장 아님."
+    },
+    {
+      "url": "https://doi.org/10.1016/S0140-6736(15)01225-8",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/9d76eccee18ffd543f24.json",
+      "retrieved_at": "2026-10-18T20:49:41.563609+09:00",
+      "read_date": "2026-10-18",
+      "method": "기존 원시 Europe PMC JSON 초록 직접 열람. 신규 HTTP 아님.",
+      "exact_quote": "Every 10 mm Hg reduction in systolic blood pressure significantly reduced the risk of major cardiovascular disease events (relative risk [RR] 0·80, 95% CI 0·77-0·83), coronary heart disease (0·83, 0·78-0·88), stroke (0·73, 0·68-0·77), and heart failure (0·72, 0·67-0·78), which, in the populations studied, led to a significant 13% reduction in all-cause mortality (0·87, 0·84-0·91). ",
+      "limits": "초록 범위 확인. 개별 환자 효과와 투약 필요성 보장 아님."
+    }
+  ],
+  "validation": {
+    "easy_chars": 113,
+    "easy_sentence_lengths_without_period": [
+      36,
+      13,
+      22,
+      35
+    ],
+    "easy_within_120": true,
+    "easy_each_within_50": true,
+    "tags_grade_sources_preserved": true
+  },
+  "limits": [
+    "일반검진 주기는 삭제했으며 새 주기 규칙을 추가하지 않았다.",
+    "엄격 윤문 산출물·입력·스냅숏·게이트는 변경하지 않았다."
+  ]
+}
