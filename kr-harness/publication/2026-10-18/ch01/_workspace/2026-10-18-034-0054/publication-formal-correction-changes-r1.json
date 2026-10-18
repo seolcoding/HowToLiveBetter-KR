@@ -1,0 +1,52 @@
+{
+  "status": "unadopted_proposal",
+  "entry": 34,
+  "base_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch01/_workspace/2026-10-18-034-0054/publication-current-entry-r1.md",
+  "base_sha256": "d8b5c453df2819cff9e8d8ba9f8fd39c1748a9fd4f2ce01ba3c43e09c3eda588",
+  "whole_public_raw_sha256": "5263e9d2d36403623fe622a9fe76edb8e25c9d94d4414e42d6a252040d753645",
+  "new_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch01/_workspace/2026-10-18-034-0054/publication-formal-correction-r1.md",
+  "new_sha256": "34c57a53ed01afee4f8b5a12bf05e1195e6f06a9c5f25957748248e07bb97e28",
+  "changes": [
+    {
+      "field": "이득",
+      "before": "평균인지 중앙값인지는 전문 확인이 필요합니다.",
+      "after": "초록과 본문은 평균, 표 3은 중앙값이라고 적었습니다. 서로 달라 어느 뜻인지는 확정할 수 없습니다.",
+      "reason": "전문 열람 필요라는 과거 상태를 실제 관찰한 초록·본문과 표 3의 평균/중앙값 표기 충돌로 교정. 해석은 확정하지 않음.",
+      "scope": "이 한 문장만 교체. 103.5 및 모든 숫자·다른 필드·태그·등급·주석·번호 불변."
+    }
+  ],
+  "source": {
+    "URL": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12323124/fullTextXML",
+    "article_URL": "https://doi.org/10.1186/s12245-025-00959-4",
+    "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/pmc-fulltext/PMC12323124.xml",
+    "raw_sha256": "bf89ecd010ceeb751e681cee821cfe795e43a16d2f03b10b809fc35a6e120b11",
+    "method": "기존 PMC 전문 XML 캐시의 초록, 본문 결과, 표 3을 직접 재열람. 신규 HTTP 요청 없음.",
+    "read_at_UTC": "2026-10-18T13:44:25.436876+00:00",
+    "exact_quotes": [
+      {
+        "location": "Abstract results",
+        "quote": "with an average ventilator duration of 103.5 (24–234) hours."
+      },
+      {
+        "location": "Body results",
+        "quote": "with an average ventilator duration of 103.5 h."
+      },
+      {
+        "location": "Table 3",
+        "quote": "Ventilator median hours (IQR)"
+      },
+      {
+        "location": "Table 3 value",
+        "quote": "103.5 (24–234)"
+      }
+    ]
+  },
+  "checks": {
+    "replacement_count": 1,
+    "new_sentence_lengths": [
+      30,
+      25
+    ],
+    "interpretation_unresolved": true
+  }
+}
