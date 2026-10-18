@@ -28,7 +28,7 @@ export const DOWNLOADS = {
 };
 export const DEFAULT_TITLE = '가성비 인생 가이드 (한국어판)';
 export const LICENSE = 'CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)';
-export const NOTICE = `이 책은 《${UPSTREAM_TITLE}》을 한국 사정에 맞게 고쳐 쓴 비공식 현지화판입니다. 원저자가 만든 공식 번역이 아닙니다. 내용이 서로 다를 때는 중국어 원문이 우선합니다.`;
+export const NOTICE = `이 책은 《${UPSTREAM_TITLE}》을 한국 사정에 맞게 고쳐 쓴 비공식 현지화판입니다. 원저자가 만든 공식 번역이 아닙니다. 내용이 서로 다를 때는 중국어 원문이 우선합니다. 이는 원저자의 설명과 취지를 확인하는 기준입니다. 한국 법·제도의 실제 적용은 한국 공식 출처를 기준으로 확인하세요.`;
 
 // Windows에서 core.autocrlf=true로 받으면 CRLF다. 파싱은 전부 LF 기준.
 export const read = p => readFileSync(resolve(ROOT, p), 'utf8').replace(/\r\n?/g, '\n');
@@ -330,12 +330,12 @@ export function logSummary(label, book, extra = '') {
 export function frontFacts(book) {
   const { chapters: pc, entries: pe } = book.progress;
   return {
-    progress: `${pc.total}절 중 ${pc.now}절 공개(${pc.pct}%), 원문 ${pe.total}항목 중 ${pe.now}항목 공개(${pe.pct}%)`,
+    progress: `${pc.total}절 중 ${pc.now}절 공개(${pc.pct}%), 한국어판 ${pe.now}항목 공개 · 원문 전체 ${pe.total}항목`,
     chapterLine: `공개한 절: ${pc.now}/${pc.total}절(${pc.pct}%)`,
-    entryLine: `공개한 항목: ${pe.now}/${pe.total}항목(${pe.pct}%)`,
+    entryLine: `한국어판 공개 항목: ${pe.now}개 · 원문 전체: ${pe.total}개`,
     pendingLine: book.pending.length ? `공개 예정 ${book.pending.length}절: ${book.pending.map(c => c.num).join(', ')}` : '',
     stamp: `${book.stamp} (한국 시간)${book.commit ? ` · 커밋 ${book.commit.slice(0, 7)}` : ''}`,
-    localized: '중국의 법·제도·전화번호는 한국 것으로 바꿨습니다. 의학 근거(논문 DOI, 위험비 같은 수치)는 원문 그대로 옮겼습니다. 아직 확인하지 못한 부분은 본문에 「TODO 확인 필요」로 표시해 두었습니다.',
+    localized: '중국의 법·제도·전화번호는 한국 것으로 바꿨습니다. 의학 근거는 원문 연구의 대상과 수치가 뜻하는 범위를 확인하고, 필요한 부분은 한국 지침과 확인한 근거로 보완·수정합니다. 출처는 각 항목에 적었습니다. 「TODO 확인 필요」는 아직 확인하지 못한 내용입니다.',
     license: `본문은 원본과 같은 ${LICENSE} 조건을 따릅니다. 출처(《${UPSTREAM_TITLE}》과 원본 저장소)를 밝히고 고친 부분을 고쳤다고 적으면 자유롭게 옮겨 실을 수 있습니다.`,
   };
 }

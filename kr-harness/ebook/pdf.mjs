@@ -65,7 +65,7 @@ function anchorEntries(md, ch) {
 
 const front = `# 머리말 {#front}
 
-**비공식 현지화판입니다.** ${NOTICE}
+${NOTICE}
 
 ${f.localized}
 

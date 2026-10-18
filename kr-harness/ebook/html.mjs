@@ -65,7 +65,7 @@ export function footer(book, { offline = false } = {}) {
 </footer>`;
 }
 
-// 진행 막대 두 줄: 공개 절 수/전체 절 수, 공개 항목 수/원문 항목 수.
+// 절 공개율만 진행 막대로 표시한다. 현지화로 항목 구성이 달라지므로 항목 수는 원문과 별도로 비교한다.
 export function progressBars(book) {
   const { chapters: pc, entries: pe } = book.progress;
   const row = (name, p, unit, aria) => `<div class="prog-row">
@@ -75,7 +75,7 @@ export function progressBars(book) {
   return `<section class="progress" aria-labelledby="progress-h">
 <h2 id="progress-h" class="sr-only">진행 상황</h2>
 ${row('공개한 절', pc, '절', `전체 ${pc.total}절 중 ${pc.now}절 공개(${pc.pct}%)`)}
-${row('공개한 항목', pe, '항목', `원문 ${pe.total}항목 중 ${pe.now}항목 공개(${pe.pct}%)`)}
+<p class="prog-label"><span class="prog-name">한국어판 공개 항목</span> <strong>${pe.now}개</strong> <span>· 원문 전체 ${pe.total}개</span></p>
 </section>`;
 }
 
@@ -101,7 +101,7 @@ export function homeMain(book, { chapterHref, indexUrl, downloads = true }) {
   return `<main id="main" class="wrap" tabindex="-1">
 <h1>${esc(book.title)}</h1>
 <div class="notice" role="note">
-<p><strong>비공식 현지화판입니다.</strong> ${esc(NOTICE)}</p>
+<p>${esc(NOTICE)}</p>
 <p>원본: <a href="${UPSTREAM}">《${UPSTREAM_TITLE}》 (${UPSTREAM})</a></p>
 <p>${esc(f.localized)}</p>
 </div>

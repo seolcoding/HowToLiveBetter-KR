@@ -2,11 +2,11 @@
 
 원본 《高性价比人生指南》(github.com/eternity4719/HowToLiveBetter)의 한국 현지화판. 작업 규칙은 [KR-GUIDE.md](../KR-GUIDE.md), 워크플로는 [.claude/skills/kr-pipeline/SKILL.md](../.claude/skills/kr-pipeline/SKILL.md)(`/kr-pipeline N`), 클라우드 실행은 [kr-harness/CLOUD.md](../kr-harness/CLOUD.md).
 
-**읽기**: 웹 리더 https://seolcoding.github.io/HowToLiveBetter-KR/ · 내려받기 [EPUB](https://github.com/seolcoding/HowToLiveBetter-KR/releases/download/kr-ebook-latest/HowToLiveBetter-KR.epub) · [PDF](https://github.com/seolcoding/HowToLiveBetter-KR/releases/download/kr-ebook-latest/HowToLiveBetter-KR.pdf) · [HTML](https://github.com/seolcoding/HowToLiveBetter-KR/releases/download/kr-ebook-latest/HowToLiveBetter-KR.html). 아래 표에서 ✅인 절만 실으며, 비공식 현지화판이라 원문이 우선합니다.
+**읽기**: 웹 리더 https://seolcoding.github.io/HowToLiveBetter-KR/ · 내려받기 [EPUB](https://github.com/seolcoding/HowToLiveBetter-KR/releases/download/kr-ebook-latest/HowToLiveBetter-KR.epub) · [PDF](https://github.com/seolcoding/HowToLiveBetter-KR/releases/download/kr-ebook-latest/HowToLiveBetter-KR.pdf) · [HTML](https://github.com/seolcoding/HowToLiveBetter-KR/releases/download/kr-ebook-latest/HowToLiveBetter-KR.html). 아래 표에서 ✅인 절만 실으며, 비공식 현지화판이라 원문이 우선합니다. 원저자의 설명과 취지는 원문에서, 한국 법·제도의 실제 적용은 한국 공식 출처에서 확인하세요.
 
-현재 세션 브랜치에서는 **34절·667항목**의 현지화·검증을 완료했습니다. 원문 665항목에서 한국 전용 항목 네 개를 더하고, 한국에 대응하지 않는 항목 두 개를 뺐습니다. 아래 표의 ✅는 현재 본문의 적합성 검토와 해시 게이트를 통과했다는 뜻입니다.
+현재 공개 본문은 **34절·667항목**입니다. 원문 665항목에서 한국 전용 항목 네 개를 더하고, 한국에 대응하지 않는 항목 두 개를 뺐습니다. 아래 표의 ✅는 현재 본문이 한국 실정 적합성 검토를 통과했다는 뜻이며, TODO까지 모두 확인했다는 뜻은 아닙니다.
 
-웹 리더와 내려받기 파일은 사용자가 PR을 병합한 뒤 main 워크플로가 배포합니다. 작업 브랜치의 최신 내용이 위 링크에 이미 반영됐다는 뜻은 아닙니다. 미확인 수치·가격·판례·절차는 각 절 끝 TODO에 남겼으며 2차 조사 대상입니다. 최신 목록과 검사 결과는 [진행 기록](../kr-harness/goals/2026-10-next-publish.progress.md)을 확인하세요.
+현재는 문장을 다듬고 한국 실정과 근거를 다시 확인하는 출판 품질 개선 작업을 진행 중입니다. 이번 새 작업은 아직 웹 리더와 내려받기 파일에 배포하지 않았습니다. 사용자가 PR을 병합한 뒤 main 워크플로가 배포합니다. 미확인 수치·가격·판례·절차는 각 절 끝 「TODO 확인 필요」에 남깁니다. 최신 작업 상태는 [출판 품질 개선 진행 기록](../kr-harness/goals/2026-10-publication-quality.progress.md), 앞선 TODO 집계는 [이전 진행 기록](../kr-harness/goals/2026-10-next-publish.progress.md)을 확인하세요.
 
 **상태**: ⬜ 대기 · 🟦 작업중 · 🟨 기계번역 완료(현지화 검증 전) · ✅ 현지화·검증 완료 · 🔁 원본 갱신(재확인 필요)
 

@@ -47,7 +47,7 @@ const titlePage = wrap(book.title, `<div class="cover">
 `, 'titlepage');
 
 const frontPage = wrap('머리말', toXhtml(`<h1 id="front">머리말</h1>
-<p><strong>비공식 현지화판입니다.</strong> ${esc(NOTICE)}</p>
+<p>${esc(NOTICE)}</p>
 <p>${esc(f.localized)}</p>
 <ul class="progress-lines">
 <li>${esc(f.chapterLine)}</li>
