@@ -1,0 +1,93 @@
+{
+  "status": "unadopted_proposal",
+  "entry": 27,
+  "base": "strict-entry.md",
+  "base_sha256": "ce5aa2177c10224a0295b5d1b4a1c33142fdda281f185183e5c60f459e2069c0",
+  "proposal_sha256": "a60993021d76e01b8b5b5779f7ca051d1e0f2cf468426af28b8890d9b42990f7",
+  "field_changes": [
+    {
+      "field": "쉽게",
+      "before": "3~6개월 생활비를 바로 꺼낼 수 있는 곳에 두세요. 일자리를 잃거나 아플 때 연 20%까지 붙는 대출을 피할 수 있습니다. 투자를 손해 보며 팔지 않아도 됩니다. 보호 대상 예금은 금융회사별 1인당 원금과 소정의 이자를 합쳐 1억원까지 보호됩니다.",
+      "after": "매달 고정 지출의 3~6개월분을 비상금으로 모으세요. 널리 쓰는 경험칙입니다. 언제든 꺼낼 수 있는 곳에 두세요. 실직하거나 아플 때 연 20%까지 붙는 대출과 손해 보는 투자 매각을 피할 수 있습니다.",
+      "reason": "정확한 문구로 승인된 113자 4문장 요약을 이 별도 제안에 적용."
+    },
+    {
+      "field": "이득",
+      "before": "비상금이 있으면 일자리를 잃거나 아플 때 돈을 빌리지 않아도 됩니다. 투자를 손해 보며 팔지 않아도 됩니다. 카드사·대부업체 대출의 법정 이자 상한은 연 20%입니다. 자세한 셈은 제7항(리볼빙·소비용 대출)에 있습니다. 보호 대상 예금의 원금과 소정의 이자를 합친 한도입니다. 한 금융회사에서 1인당 1억원입니다(「예금자보호법」 제32조 제2항, 같은 법 시행령 제18조 제7항).",
+      "after": "비상금이 있으면 일자리를 잃거나 아플 때 돈을 빌리지 않아도 됩니다. 투자를 손해 보며 팔지 않아도 됩니다. 카드사·대부업체 대출의 법정 이자 상한은 연 20%입니다. 자세한 셈은 제7항(리볼빙·소비용 대출)에 있습니다. 보호 대상 예금은 원금과 소정의 이자를 합쳐 보호됩니다. 한 금융회사에서 1인당 1억원까지입니다. 소정의 이자는 예금보험위원회가 정한 이율로 계산합니다. 보험금 계산 때 해당 금융회사에 진 채무는 공제됩니다. 보증채무는 공제 대상에서 제외됩니다. 법적 근거는 「예금자보호법」 제32조입니다. 같은 법 시행령 제18조 제5항·제7항도 적용됩니다.",
+      "reason": "기존 긴 괄호를 완결 문장으로 분리. 직접 읽은 법령에 따라 소정이자 및 채무 공제 범위를 명시."
+    },
+    {
+      "field": "출처",
+      "before": "예금자보호법 제32조 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=277269 ; 예금자보호법 시행령 제18조 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=273001",
+      "after": "예금자보호법 제32조 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=277269 ; 예금자보호법 시행령 제18조 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=273001 ; 대부업 등의 등록 및 금융이용자 보호에 관한 법률 시행령 제5조·제9조 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=290377",
+      "reason": "연20% 주장에 직접 확인한 시행령 제5조·제9조 출처를 추가. 기존 두 출처 유지."
+    },
+    {
+      "field": "비고",
+      "before": "\"3~6개월\"은 널리 쓰는 경험칙입니다. 정부나 학계의 원출처를 찾지 못해 C로 둡니다. 금액은 수입이 아니라 매달 나가는 고정 지출로 정하세요. 투자 권유가 아닙니다. 2026-10-10 법령 확인(국가법령정보센터).",
+      "after": "\"3~6개월\"은 널리 쓰는 경험칙입니다. 정부나 학계의 원출처를 찾지 못해 C로 둡니다. 금액은 수입이 아니라 매달 나가는 고정 지출로 정하세요. 투자 권유가 아닙니다. 예금보호 1억원 한도는 2025-09-01부터 시행됐습니다. 시행 이후 보험사고가 발생해 지급하는 보험금에 적용됩니다.",
+      "reason": "과거 확인일 대신 독자에게 유용한 시행일과 보험사고 적용례를 명시. 경험칙 한계와 비권유 경고 보존."
+    }
+  ],
+  "primary_sources": [
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=277269&type=XML",
+      "verification_date": "2026-10-18",
+      "method": "live HTTPS XML opened",
+      "raw_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-027-f062/law-277269.raw.xml",
+      "raw_sha256": "8e64e82544171fb4e2113f9e37fea94b2f53bf196cd08a448adcbfacbc20841e",
+      "effective_date": "20260102",
+      "read_scope": "제32조 전체, 부칙 제20717호 및 정부조직법 개정 부칙",
+      "exact_quotes": [
+        "제32조제2항의 개정규정은 이 법 시행 이후 제2조제8호의 보험사고가 발생하여 보험금을 지급하는 경우부터 적용한다.",
+        "각 예금자등이 해당 부보금융회사에 대하여 지고 있는 채무(보증채무는 제외한다)의 합계액을 뺀 금액으로 한다."
+      ]
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=273001&type=XML",
+      "verification_date": "2026-10-18",
+      "method": "previously cached official XML independently reopened",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/273001.xml",
+      "raw_sha256": "5662142dd22dfc9e547601b68665da4a0057618577253b5cd58fc1b69e9ae619",
+      "effective_date": "20250901",
+      "read_scope": "제18조 전체, 부칙 제35687호",
+      "exact_quotes": [
+        "법 제32조제2항에 따른 보험금의 지급한도는 1억원",
+        "이 영은 2025년 9월 1일부터 시행한다.",
+        "부보금융회사의 1년 만기 정기예금 또는 이에 준하는 금융상품의 평균이자율을 고려하여 위원회가 정하는 이자율"
+      ]
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=277259&type=XML",
+      "verification_date": "2026-10-18",
+      "method": "previously cached official XML independently reopened",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/277259.xml",
+      "raw_sha256": "4b8f8e46ec72cefb2b4d9fe5b309e397ad397ee1ed2fd03f07d3041c0eef7374",
+      "effective_date": "20260102",
+      "read_scope": "제8조·제15조, 2025·2026 관련 부칙",
+      "exact_quotes": []
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290377&type=XML",
+      "verification_date": "2026-10-18",
+      "method": "previously cached official XML independently reopened",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290377.xml",
+      "raw_sha256": "611a2c3354aada479c0c3e0867e254693ae48ce4b4e90097100fb721e2491abd",
+      "effective_date": "20261002",
+      "read_scope": "제5조·제9조, 2025·2026 관련 부칙",
+      "exact_quotes": [
+        "법 제8조제1항에서 \"대통령령으로 정하는 율\"이란 연 100분의 20을 말한다.",
+        "법 제15조제1항에서 \"대통령령으로 정하는 율\"이란 연 100분의 20을 말한다."
+      ]
+    }
+  ],
+  "numerical_scope_changes": "기존 3~6개월·20%·1억원 유지. 새 시행일 2025-09-01과 시행 이후 보험사고 조건은 법·시행령 부칙에 근거.",
+  "doi_changes": [],
+  "title_review": "원제 70자 이하로 유지. 제목 축약 및 앵커 변경 없음.",
+  "limits": [
+    "3~6개월 경험칙의 정부·학계 원출처 미확인 상태를 독자 비고에 보존.",
+    "열람한 법령 버전의 조문·부칙에 한정한 확인. 전체 개정 연혁 및 모든 최신 버전 완전성 인증 아님."
+  ],
+  "independent_review_required": true
+}

@@ -1,0 +1,172 @@
+{
+  "entry": 25,
+  "status": "unadopted_proposal",
+  "approval": false,
+  "base": "strict-entry.md",
+  "base_sha256": "f0e9f87f2c0a44da50ae1aa7cc11f6199e652d73a420bd628ce7d28dbad7929c",
+  "proposal_sha256": "46bce1dc4b0382ac0bae819112fb76e3135e40d35f05dbd967e8694f0ec8ea12",
+  "changes": [
+    {
+      "field": "title",
+      "before": "보험은 순수 보장형을 먼저 고르고, \"환급\"과 \"배당\"은 보장되지 않는 부분으로 여기세요",
+      "after": "보험은 순수 보장형을 먼저 고르고, 환급·배당의 보장 여부를 구별하세요",
+      "reason": "환급 전부가 비보장이라는 오독을 막고 순수 보장형·환급·배당·보장 앵커를 유지합니다.",
+      "evidencequotes": [
+        "약정된 보증과 보증되지 않는 배당·변동 이율을 구별하세요."
+      ],
+      "evidence_type": "strict-entry internal consistency",
+      "independent_anchor_review_required": true
+    },
+    {
+      "field": "비용",
+      "before": "가입하면 보험료를 냅니다. 상품별 금액은 견적으로 확인하세요. 순수 보장형은 만기에 돈을 돌려주지 않아 \"버린 돈\" 같은 느낌이 듭니다. 저축은 따로 해야 합니다. 이 돈이 돌아오지 않는다는 점을 받아들이기 어렵습니다.",
+      "after": "가입하면 보험료를 냅니다. 상품별 금액은 견적으로 확인하세요. 순수 보장형은 만기에 돈을 돌려주지 않아 \"버린 돈\" 같은 느낌이 듭니다. 저축은 따로 해야 합니다. 이 돈이 돌아오지 않는다는 점을 받아들이기 어렵습니다.",
+      "changed": false,
+      "reason": "원문이 간결하여 그대로 보존합니다.",
+      "evidencequotes": [],
+      "verification_scope": "editorial or unchanged"
+    },
+    {
+      "field": "쉽게",
+      "before": "저축성 보험은 낸 보험료에서 사업비 등을 뺍니다. 남은 일부만 적립하고 운용합니다. 금리가 바뀌는 보험은 최저보증이율만 확정됩니다. 환급을 바라고 더 낸 보험료는 보험회사에 맡긴 저축입니다. 보증되는 이율·금액과 변동되는 부분을 구별하세요. 일찍 꺼내면 손실이 날 수 있습니다.",
+      "after": "환급형은 사업비 등을 뺀 보험료 일부를 맡겨 운용하는 저축입니다. 금리연동형은 약정된 최저보증이율·금액을 확인하세요. 변동 이율·배당은 보장과 구별하세요. 중도해지하면 낸 보험료보다 적게 받을 수 있습니다.",
+      "changed": true,
+      "reason": "초기 승인 요약을 바탕으로 4문장으로 줄입니다. 최저보증의 법적 적용 범위를 확인하지 못해 약정 확인 권고로 제한합니다.",
+      "evidencequotes": [],
+      "verification_scope": "공식 캐시 제12조·별표3의 사업비/환급금 설명 범위만 확인; 최저보증/변액 예금보호/보험업감독규정 현행성은 미확인"
+    },
+    {
+      "field": "이득",
+      "before": "저축성보험은 낸 보험료에서 사업비 등을 뺍니다. 남은 일부만 운용하거나 이율을 적용합니다. 보험회사는 판매할 때 이 사실을 설명해야 합니다. 금리확정형이 아니면 사업비 수준과 해약환급금도 설명해야 합니다. 변액보험은 투자 위험을 설명해야 합니다. 예금자보호 대상이 아니라는 사실도 설명해야 합니다. 보험업감독규정 제4-35조의2 제8항 제3호 마목·바목·사목에 따른 의무입니다. 금리연동형 보험은 최저보증이율이나 최저보증금액을 정해야 합니다. 같은 규정 제7-60조 제10호에 따른 의무입니다. 최저보증이율을 넘는 이율은 바뀔 수 있습니다. 환급형에서 더 낸 보험료는 보험회사가 대신 운용하는 저축과 같습니다. 약정된 보증과 보증되지 않는 배당·변동 이율을 구별하세요. 중도해지 때는 낸 보험료보다 적게 받을 수 있습니다.",
+      "after": "저축성보험은 낸 보험료에서 사업비 등을 뺍니다. 사업비는 계약을 체결·관리하는 데 드는 돈입니다. 남은 일부만 운용하거나 이율을 적용합니다. 생존 시 보험금 합계가 낸 보험료를 넘는 상품은 이를 설명해야 합니다. 이율이 고정되지 않는 계약은 사업비 금액도 설명해야 합니다. 해약·만기 환급금과 산출근거도 설명 대상입니다. 낸 보험료보다 적거나 없을 수 있다는 사실도 설명해야 합니다. 이는 금융소비자 보호에 관한 감독규정의 설명의무입니다. 제12조 제1항과 별표 3 제1호 다목·바목 3)에 따릅니다. 변액보험은 투자 위험과 예금자보호 범위를 확인하세요. 금리연동형 보험은 최저보증이율이나 최저보증금액을 확인하세요. 최저보증이율을 넘는 이율은 바뀔 수 있습니다. 환급형에서 더 낸 보험료는 보험회사가 대신 운용하는 저축과 같습니다. 약정된 보증과 보증되지 않는 배당·변동 이율을 구별하세요. 중도해지 때는 낸 보험료보다 적게 받을 수 있습니다.",
+      "changed": true,
+      "reason": "실제로 읽은 현행 표시의 금소감독규정 제12조·별표3에 맞춰 설명 대상의 생존보험금 범위와 사업비 금액 조건을 명시합니다. 미확인 보험업감독규정의 조문별 의무 단정과 변액보험 전체 예금보호 제외 단정은 확인 권고로 바꿉니다.",
+      "evidencequotes": [
+        "다. 해약을 하거나 만기에 이른 경우에 각각 금융소비자에 돌려주어야 하는 금액(이하 “환급금”이라 한다) 및 산출근거. 이 경우 그 금액이 이미 납부한 보험료보다 적거나 없을 수 있다는 사실을 함께 설명해야 한다.",
+        "3) 피보험자가 생존 시 금융상품직접판매업자가 지급하는 보험금의 합계액이 일반 금융소비자가 이미 납입한 보험료(공제료를 포함한다. 이하 같다)를 초과하는 보 장성 상품: 다음의 사항 가) 일반금융소비자가 적용받을 수 있는 이자율(이하 “적용이율”이라 한다) 및 산출기준 나) 보험료 중 사업비(계약을 체결ㆍ관리하는데 사용된 금액을 말한다. 이하 이 조에서 같다) 등을 뺀 일부 금액만 특별계정에서 운영되거나 적용이율이 적용 된다는 사실 및 그 사업비 금액(적용이율이 고정되지 않는 계약에 한정한다)"
+      ],
+      "verification_scope": "공식 캐시 제12조·별표3의 사업비/환급금 설명 범위만 확인; 최저보증/변액 예금보호/보험업감독규정 현행성은 미확인"
+    },
+    {
+      "field": "근거등급",
+      "before": "C",
+      "after": "C",
+      "changed": false,
+      "reason": "원문이 간결하여 그대로 보존합니다.",
+      "evidencequotes": [],
+      "verification_scope": "editorial or unchanged"
+    },
+    {
+      "field": "출처",
+      "before": "금융위원회 보험업감독규정(고시 제2026-16호) 제4-35조의2·제7-60조 https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000279112",
+      "after": "금융위원회 금융소비자 보호에 관한 감독규정(고시 제2026-40호) 제12조·별표 3 https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000285608 ; 보험업감독규정(고시 제2026-16호, 적용 범위 추가 확인 필요) 제4-35조의2·제7-60조 https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000279112",
+      "changed": true,
+      "reason": "사업비·환급금 설명의무를 직접 확인한 2026-40호를 추가합니다. 종전 보험업감독규정은 삭제하지 않고 적용 범위 미확인으로 표시합니다.",
+      "evidencequotes": [
+        "다. 해약을 하거나 만기에 이른 경우에 각각 금융소비자에 돌려주어야 하는 금액(이하 “환급금”이라 한다) 및 산출근거. 이 경우 그 금액이 이미 납부한 보험료보다 적거나 없을 수 있다는 사실을 함께 설명해야 한다.",
+        "3) 피보험자가 생존 시 금융상품직접판매업자가 지급하는 보험금의 합계액이 일반 금융소비자가 이미 납입한 보험료(공제료를 포함한다. 이하 같다)를 초과하는 보 장성 상품: 다음의 사항 가) 일반금융소비자가 적용받을 수 있는 이자율(이하 “적용이율”이라 한다) 및 산출기준 나) 보험료 중 사업비(계약을 체결ㆍ관리하는데 사용된 금액을 말한다. 이하 이 조에서 같다) 등을 뺀 일부 금액만 특별계정에서 운영되거나 적용이율이 적용 된다는 사실 및 그 사업비 금액(적용이율이 고정되지 않는 계약에 한정한다)"
+      ],
+      "verification_scope": "공식 캐시 제12조·별표3의 사업비/환급금 설명 범위만 확인; 최저보증/변액 예금보호/보험업감독규정 현행성은 미확인"
+    },
+    {
+      "field": "비고",
+      "before": "논쟁 있음. 환급형 보험은 정해진 날마다 돈을 내게 합니다. 돈을 전혀 못 모으는 사람에게는 실제로 효과가 있습니다. 위 권고는 스스로 돈을 관리할 수 있는 보통 사람을 기준으로 합니다. \"순수 보장형 + 아낀 보험료 직접 투자\"가 환급형보다 얼마나 나은지는 상품마다 다릅니다. 인용할 체계적 자료가 없습니다. 원문의 중국 배당 상품 설명서 규정은 한국 감독규정으로 바꿨습니다. 투자 권유가 아닙니다. 2026-10-10 규정 확인(국가법령정보센터).",
+      "after": "논쟁 있음. 환급형 보험은 정해진 날마다 돈을 내게 합니다. 돈을 전혀 못 모으는 사람에게 효과가 있는지는 추가 확인이 필요합니다. 위 권고는 스스로 돈을 관리할 수 있는 보통 사람을 기준으로 합니다. 비교 대상은 \"순수 보장형 + 아낀 보험료 직접 투자\"입니다. 환급형보다 얼마나 나은지는 상품마다 다릅니다. 인용할 체계적 자료가 없습니다. 원문의 중국 배당 상품 설명서 규정은 한국 감독규정으로 바꿨습니다. 투자 권유가 아닙니다. 최저보증 기준과 변액보험의 예금자보호 예외는 확인이 필요합니다. 2026-10-18 현재, 해당 보험업감독규정의 적용 범위는 미확인입니다.",
+      "changed": true,
+      "reason": "기존 비교 문장을 둘로 나눕니다. 현재 적용·최저보증·변액 예금보호 예외의 미확인을 독자에게 밝힙니다. 종전 2026-10-10 확인 문구를 재검토일과 실제 미확인 범위로 교체합니다. 저축 효과의 직접 근거를 확인하지 못했으므로 실제 효과의 확정 표현도 추가 확인 필요로 제한합니다.",
+      "evidencequotes": [],
+      "verification_scope": "공식 캐시 제12조·별표3의 사업비/환급금 설명 범위만 확인; 최저보증/변액 예금보호/보험업감독규정 현행성은 미확인"
+    }
+  ],
+  "verification_date": "2026-10-18",
+  "primary_sources": [
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000285608&type=XML",
+      "reader_url": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000285608",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch05-audit/2100000285608.xml",
+      "raw_sha256": "61db1d0e49a62348ea47b2d8516133c6b94e71905f38c84815a68836fa67fd08",
+      "method": "existing official XML reopened; actual article12, annex3, basic metadata and 2026-40 supplementary provision read",
+      "exact_quotes": [
+        "다. 해약을 하거나 만기에 이른 경우에 각각 금융소비자에 돌려주어야 하는 금액(이하 “환급금”이라 한다) 및 산출근거. 이 경우 그 금액이 이미 납부한 보험료보다 적거나 없을 수 있다는 사실을 함께 설명해야 한다.",
+        "3) 피보험자가 생존 시 금융상품직접판매업자가 지급하는 보험금의 합계액이 일반 금융소비자가 이미 납입한 보험료(공제료를 포함한다. 이하 같다)를 초과하는 보 장성 상품: 다음의 사항 가) 일반금융소비자가 적용받을 수 있는 이자율(이하 “적용이율”이라 한다) 및 산출기준 나) 보험료 중 사업비(계약을 체결ㆍ관리하는데 사용된 금액을 말한다. 이하 이 조에서 같다) 등을 뺀 일부 금액만 특별계정에서 운영되거나 적용이율이 적용 된다는 사실 및 그 사업비 금액(적용이율이 고정되지 않는 계약에 한정한다)",
+        "제12조(설명의무) ① 영 제13조제1항제5호에서 \"금융위원회가 정하여 고시하는 사항\"이란 별표 3 제1호 각 목의 사항을 말한다.",
+        "이 고시는 2026년 10월 2일부터 시행한다."
+      ],
+      "currentness": "XML metadata 현행여부 Y, 시행일20261002. 2026-40 부칙 시행일 확인; 다른 모든 개정 완전 탐색은 아님.",
+      "original_fetch_time": "2026-10-18T12:40:35.999638+00:00",
+      "reopened_date": "2026-10-18",
+      "exact_primary_quotes_with_original_whitespace": [
+        "다. 해약을 하거나 만기에 이른 경우에 각각 금융소비자에 돌려주어야 하는 금액(이하    \n\n  “환급금”이라 한다) 및 산출근거. 이 경우 그 금액이 이미 납부한 보험료보다 적거나       \n\n  없을 수 있다는 사실을 함께 설명해야 한다.                                               \n\n      ",
+        "3) 피보험자가 생존 시 금융상품직접판매업자가 지급하는 보험금의 합계액이 일반      \n\n  금융소비자가 이미 납입한 보험료(공제료를 포함한다. 이하 같다)를 초과하는 보             \n\n  장성 상품: 다음의 사항                                                                  \n\n          가) 일반금융소비자가 적용받을 수 있는 이자율(이하 “적용이율”이라 한다) 및     \n\n  산출기준                                                                                \n\n          나) 보험료 중 사업비(계약을 체결ㆍ관리하는데 사용된 금액을 말한다. 이하 이      \n\n  조에서 같다) 등을 뺀 일부 금액만 특별계정에서 운영되거나 적용이율이 적용                \n\n  된다는 사실 및 그 사업비 금액(적용이율이 고정되지 않는 계약에 한정한다)                 \n\n        "
+      ],
+      "quote_normalization_note": "exact_quotes의 가독성 인용은 줄바꿈·연속 공백만 정리했습니다. 원래 공백을 보존한 동일 범위 인용도 별도 기록했습니다."
+    }
+  ],
+  "failed_verification": [
+    {
+      "source": "보험업감독규정2100000279112",
+      "method": "official XML, HTML, reader URL and non-www XML reopened attempts",
+      "result": "502 errors; no source body read; no raw evidence fabricated",
+      "attempt_urls": [
+        "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000279112&type=XML",
+        "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000279112&type=HTML",
+        "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000279112",
+        "https://law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000279112&type=XML"
+      ]
+    }
+  ],
+  "intentional_changes": [
+    "종전 제4-35조의2 제8항 제3호 마목·바목·사목 설명의무 단정을 직접 확인한 금소감독규정 제12조·별표3으로 대체. 종전 조문이 폐지되었다는 주장 아님.",
+    "최저보증이율·금액 설정의무 및 제7-60조 제10호 단정을 약정 확인 권고로 제한. 해당 내용 법적 진위는 보류.",
+    "변액보험 전체 예금자보호 제외 단정을 보호 범위 확인 권고로 제한. 보호되는 부분/예외의 구체 법적 내용은 미확인.",
+    "2026-10-10 종전 확인 문구를 2026-10-18 미확인 범위로 대체.",
+    "돈을 전혀 못 모으는 사람에게 실제 효과가 있다는 단정을 추가 확인 필요로 제한. 직접 실증 원문 미확인에 따른 불확실성 표시이며 효과 없음의 단정 아님."
+  ],
+  "doi_changes": {
+    "added": [],
+    "removed": [],
+    "reason": "원래 DOI 없음. 법규 자료만 인용."
+  },
+  "unresolved_limitations": [
+    "보험업감독규정 현행 조문·부칙과 최저보증 적용 범위는 원문 미확인.",
+    "변액보험 예금자보호 예외는 해당 법령 원문 미확인.",
+    "돈을 전혀 못 모으는 사람에게 저축 효과가 있는지 실증 자료 미확인. 독자 비고에 확인 필요로 표시.",
+    "순수 보장형과 환급형의 개인별 정량 우열은 주장하지 않음."
+  ],
+  "holds": [
+    "independent_exact_hash_review",
+    "insurance_supervision_currentness_and_supplement",
+    "variable_insurance_deposit_protection_scope"
+  ],
+  "self_approved": false,
+  "title_anchor_check": {
+    "preserved": [
+      "보험",
+      "순수 보장형",
+      "환급",
+      "배당",
+      "보장"
+    ],
+    "search": "rg exact old title/환급.*배당.*보장되지 않는 across repository markdown",
+    "result": "book/draft/review/run copies found; no live incoming link found in returned matches; independent title-anchor review required"
+  },
+  "length_validation": {
+    "method": "Python len and separate literal_check.py",
+    "easy_chars": 115,
+    "easy_sentences": 4,
+    "title_chars": 39
+  },
+  "literal_check": {
+    "script": "ch05/publication-partial-review-evidence/literal_check.py",
+    "exit_code": 0,
+    "long_sentences": 0,
+    "manual_read": "Date uses hyphens, not dot segmentation. All four prose fields were read as actual complete sentences, including comparison sentences and minimum-guarantee warnings."
+  },
+  "immutable_artifacts_current_sha256": {
+    "final.md": "28a3dc217c1cf1b9a2214613f3bc13127188773938f908d96f6ecb541a3e1fef",
+    "strict-entry.md": "f0e9f87f2c0a44da50ae1aa7cc11f6199e652d73a420bd628ce7d28dbad7929c",
+    "entry_snapshot.md": "f0e9f87f2c0a44da50ae1aa7cc11f6199e652d73a420bd628ce7d28dbad7929c",
+    "editorial-proposal.json": "c7be02ed6a16973517dae049dcf86670fe6979208ac3f86132e5b7658d14cabc",
+    "01_input_with_metrics.txt": "6f787183c75e2507a74427b1eac341dac4c74d9e106b0f619b6eba9f784e94e9"
+  }
+}

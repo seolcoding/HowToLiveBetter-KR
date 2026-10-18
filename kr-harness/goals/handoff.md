@@ -195,3 +195,14 @@ node kr-harness/goals/notes/mobile-check.mjs $PWD/dist-kr <스크린숏 폴더> 
 - 작업자가 기존 standard run에 prepare를 다시 실행해 원진단/결합 입력을 갱신한 일을 발견했다. 최초 스냅샷 `c412d4c63b64859bbe6a555ee9316ffc3c277c41`과 전667항의00/combined **1,334파일을 대조해 달라진26파일을 정확히 복구**했다(기존 진단 결합 입력도 포함). 덮어쓴 사본과 전후 SHA는 `tooling/original-diagnostics-restoration-r1/`에 보존했다. 원input·항목snapshot667개는 전부 일치했다. 앞으로 원run의00/01/combined/snapshot/source/manifest를 덮어쓰지 않으며 추가 prepare는 별도 derived 폴더만 쓴다.
 - 복구 뒤 read-only 실제 게이트는 **502pass/165missing**, route644 light/23 standard·라우트 차이0·읽는 동안 변경0이다. `ROOT-REGATE.json`과 `ROOT-CLOSURE.json`이 기준이며 이후 live 작업은 계속된다. 13 r2 조립도 복구 후의 기록이다. 보호 자료 복구로 공개 본문·최종 body·사실 제안은 바뀌지 않았다.
 - 초기 source 감사는1–17·19–25 완료,18은 새 formal 완료. 25는 전11항/99증적·도입/tail을 살폈으며 후보 승인이 아니다. 26→27 초기 감사가 이어진다. pure22 전10항 조립 완료,23 진행. 05는 최신12 재검토11승인/41수정 뒤41r3와34r2를 별도 승인했고,22r2에는 실제 체육시설 환급표 적용 범위 수정이 남았다. 다음 원저자 후속안을 독립 검토 중이며 전체45 승인·통합·새 formal은 아직이다.
+
+
+## 2026-10-18 UTC 추가 인계: 제23절 pure 완료·519개 보존
+
+- 기존 최신 `fcb8576`은 check39149174711/build39149174714 둘 다 성공했다. PR#7 초안은 OPEN, 원격 main은 `225ec788fb4f8f41d687c8fae62d01f2335c5b5e`로 이번 개선본 미배포다. 전체 작업 후 정상병합·배포 확인까지 이어간다.
+- 이번 root 체크포인트는519개 gate0/final SHA 쌍, hold0을 보존한다. 제23절 전22항 strict 조립 완료, pure24부터 이어간다. 새 formal 완료는1/2/3/4/18 그대로이며 pure 통과를 내용 승인으로 세지 않는다.
+- 최초 진단1,334파일도 다시 대조해 불일치0이다. 23의 standard 제10항은 새 derived-diagnosis-r1에서만 prepare를 실행했고 보호6종 before/after SHA가 같다. 이 폴더와 보호 기록을 별도 선별해 보존한다. 앞으로 완료된 standard의 derived 증거도 같은 방식으로 포함한다.
+- 초기 원자료감사는1–17·19–27 완료(18 새formal 완료), source28→29 진행. 제26절11항/76증적과 제27절16항/110증적은 pending_candidate_review이며 전체warn·도입/tail도 A에 전달됐다. 임신 응급상황은 '즉시'를 '그날'로 지연시키지 않고 양막파수와 제대탈출 상황을 구분해야 한다.
+- `root-source-cache-integrity.json`은 감사JSON의 cache_file+sha256 1,156건을 실제 파일과 대조해 모두 일치함을 기록한다. 이는 보관 바이트 검사이며 내용/출판 승인이 아니다. raw 전체는 별도 선별된 증거를 제외하면 외부 cache에 있다는 한계도 명시했다.
+- source05의 frozen 목록r2는349파일이며 이전286목록은 불변이다. 최초부분25+다음5+21/25의32항이 최신 exact승인됐고,24r2/26r2·27/30 부분4는 별도 검토 중이다. 24는 >=20일 경계 해결 뒤 실제 가격비교 적용범위를 추가 보완하며,25r2는 새보험규정 실제열람 범위만 갱신한 별도안이다. 나머지full에는14 누락 방지를 명시했다. 전45와intro/tail의새독립closure 전에는 public 통합하지 않는다.
+- 최종 의미 참조 검토용 기계목록은 `/workspace/.cache/howtolivebetter/publication/cross-reference-inventory.mjs`로 만든다. 현재366개 대상 누락0이며 JSON에 실제 target본문/SHA가 있다. 전34절 목표수정 뒤 반드시 재생성하고 독립적으로 주장·근거범위를 대조한다. 존재하는 링크만으로 의미 검토를 통과시키지 않는다.

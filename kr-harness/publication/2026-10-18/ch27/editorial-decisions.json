@@ -1,0 +1,2375 @@
+{
+  "chapter": 27,
+  "status": "pending_candidate_review",
+  "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+  "legal_cutoff": "2026-10-18 UTC / 2026-10-19 KST;정확법령시행·조문별부칙과장래구별",
+  "source_sha256": "30edce324d2368ea75bad81829819cd647581afaa7cdbcfa64775d26d53f21cd",
+  "candidate_sha256": null,
+  "formal_kr_fit": "not_performed_not_approved",
+  "confirmed_required_corrections": [
+    {
+      "entry": 1,
+      "requirement": "하위군무차이=동등효과단정금지/일반400mcg와고위험재발의사용량구별"
+    },
+    {
+      "entry": 4,
+      "requirement": "간접흡연도위험하다는권고와직접흡연동일위험크기단정구별/금주출처보강"
+    },
+    {
+      "entry": 5,
+      "requirement": "아스피린금기·과거이상반응제외/의사판단조건"
+    },
+    {
+      "entry": 6,
+      "requirement": "기존1·2형당뇨미진단대상/검사방식·시간일률단정금지"
+    },
+    {
+      "entry": 7,
+      "requirement": "그날→즉시진료긴급성보존/출혈등실제경고범위"
+    },
+    {
+      "entry": 8,
+      "requirement": "일반양막파수와제대탈출의심구분/해외상충·한국자세미확인본문반영"
+    },
+    {
+      "entry": 9,
+      "requirement": "원고찰불확실성·기구분만전체증가와2005이후사후하위분석구별/24시간상주보장금지"
+    },
+    {
+      "entry": 10,
+      "requirement": "인구10%연관·근거없음과개인인과확정구별"
+    },
+    {
+      "entry": 11,
+      "requirement": "2·3인실급여본인부담예외/다태유산사산제외·취약지조건/건보와의료급여고시분리"
+    },
+    {
+      "entry": 12,
+      "requirement": "모든오기정정법원필수단정금지/출생증명3000원상한TODO해소"
+    },
+    {
+      "entry": 13,
+      "requirement": "난청지원청력요건/대사질환·난청불가역지능손상일률과장금지"
+    },
+    {
+      "entry": 14,
+      "requirement": "피부양자자격기준/입원2·3인실별도급여부담예외"
+    },
+    {
+      "entry": 15,
+      "requirement": "모성사용다른법정경로/헌법불합치현재효력미확인·급여60일범위구별"
+    },
+    {
+      "entry": "intro/tail",
+      "requirement": "영양근거포괄부재단정한정/모든11TODO부분해소와잔여분리"
+    }
+  ],
+  "warnings": [
+    "전16항길이·조건보강warn도A같은원저자큐에서채택/근거또는불채택사유로종결필요",
+    "1출산6708과여성7391·재발1846분모/신경관결손은사망률아님·고용량국내제품미확인",
+    "2정기검진법정간격과진료전부무료구별/지역지원·약제분업예외·시간청구조건",
+    "3HIV진료급여범위·실명전환/주산기접종미숙아기준의료진확인·매독지원미확인/에이즈7비밀누설법적대상·법령/본인동의예외보존",
+    "4간접흡연과직접흡연위험정량동일단정금지/금주안전역치없음과노출즉시손상확정구별",
+    "5연구RR상대위험·모성사망평가불가/출혈무위험확정금지·중등도복합위험의사판단",
+    "6하루반나절/당음료모든사람에일률보장없음·I등급은조기검사금지아님",
+    "7즉시긴급성·정상오로와심한출혈구분·5분암기시간보장근거없음",
+    "8해외권고상충·탯줄보임/만져짐응급조건·규칙수축/이슬도조산등예외·119사전등록셸구별",
+    "9제왕/요통정확RR/CI·낮음중간근거질·사후하위·금기/마취인력·추가진찰비확인",
+    "10집단10%는병원목표/개인필요수술임계아님·출산불안상담선택보존",
+    "11휴가급여180일외신청기한/분만취약지연속30일·다태신청시점·유산사산제외/남은이용권소멸",
+    "12대체출생서류/가정법원혈연입증심리과정비용·모든정정법원필수아님",
+    "13선별양성확진아님/지원연령·청력조건/직접치료비제외·검사외진찰료제외",
+    "14부양·소득재산자격/신고법정규정과자동등록실무구별·개별정산문의",
+    "15등록부문구와현재효력구별/헌재구체사실범위·성본다른예외·60일아동수당부득이사유기간제외",
+    "16법정임산부6개월과응급1년범위구별/지역검사·회복개인차·1308명시24시간미확인"
+  ],
+  "intro_review": "전16항+도입·11TODO·중국16항대응 검토. WHO2023전세계26만/다섯원인약75% 실제본문일치,한국산모개인위험이나국내예방율로환산하지않음. 신경관결손·조산·무통진통의효과를모성사망직접감소로일률확정하지않는다. 도입의영양은근거없음이라는포괄배제는바로1항엽산과어긋나므로범위를한정하거나주제선택으로정리권장. 두장부/언제무엇만같은메타수사·문장길이별도진단. 제18/20/13절 주제참조일치. 중국무료5회/13주건강수첩·세검사전부무료·중국임금기반생육보험·출생증명독점/무료·호구선행·위안검사비·24시간마취상주의일률전제 이식금지. 제8항은베이징출처를공개했더라도상충/환자범위가남아독립수정필요. 기존완료배너·과거KR-FIT는이번승인아님.",
+  "tail_review": [
+    {
+      "number": 1,
+      "entry": 9,
+      "status": "unresolved",
+      "scope": "무통분만급여/본인부담공식수가·조건미확보. 비용병원마다다름만으로전국급여확인완료아님."
+    },
+    {
+      "number": 2,
+      "entry": 8,
+      "status": "unresolved_with_conflicting_primary_guidance",
+      "scope": "KDCA조산즉시병원확인/한국자세지시미확인. 중국원문실제확인했지만NHS일반파수/RCOG제대탈출구분과상충해단순출처대체대기아닌본문범위수정필수."
+    },
+    {
+      "number": 3,
+      "entry": 8,
+      "status": "partially_resolved",
+      "scope": "소방청119안전신고센터현재상단안심콜링크가https://u119.nfa.go.kr/임을확인. u119는자동POST로그인셸만수신하여신청설명·가입완료검증미확인."
+    },
+    {
+      "number": 4,
+      "entry": [
+        1,
+        2,
+        16
+      ],
+      "status": "unresolved_national_scope",
+      "scope": "인천/연수실제지역혜택·12주/최대2개월/산후우울검사확인.복지부보도제목검색은사업안내전문아님.전국동일혜택미확인유지."
+    },
+    {
+      "number": 5,
+      "entry": 3,
+      "status": "unresolved",
+      "scope": "매독양성임신부전용치료비지원원문미확보.중국세검사/차단전부무료이식금지."
+    },
+    {
+      "number": 6,
+      "entry": 5,
+      "status": "unresolved",
+      "scope": "국내아스피린제품전문/일반분류·제형미확인.81mg미국권고/금기·의사처방조건과구별."
+    },
+    {
+      "number": 7,
+      "entry": 6,
+      "status": "unresolved",
+      "scope": "한국임신성당뇨검사급여·본인부담수가지침미확보.미국권고와한국급여분리."
+    },
+    {
+      "number": 8,
+      "entry": 12,
+      "status": "resolved",
+      "scope": "기존ch24실제고시원HWP다시열고OLE/DEFLATE본문확인:별표18출생증명서상한3000원·동시추가통사본1000원/진찰검사비별도.무료라는중국금액이식없음."
+    },
+    {
+      "number": 9,
+      "entry": 13,
+      "status": "partially_resolved",
+      "scope": "현재인천/연수실제본문급여검사코드·입원무료/외래일부/7만원·1년확인.2018전국급여고시전문미확보;현재지원임상조건생략은원저자보강필수."
+    },
+    {
+      "number": 10,
+      "entry": 15,
+      "status": "partially_resolved_not_current_practice_approved",
+      "scope": "헌재2021헌마975실제전문/2025-05-31계속적용주문,현재XML주석·현행검색예규609/614본문확인.그러나2022예규가2025시한뒤효력/실무를확정해주지않음.모단독의무를무조건현재명제로쓰지말고불확실성본문유지·관할법원확인.법정문구잔존=효력유지단정금지."
+    },
+    {
+      "number": 11,
+      "entry": 16,
+      "status": "partially_resolved",
+      "scope": "복지부2024언제어디서든가까운기관전화상담/2026현재1308보도·PDF확인.이번자료에명시24시간운영/2026근무편성미확인.전화번호확인과시간확정분리."
+    }
+  ],
+  "entries": [
+    {
+      "entry": 1,
+      "status": "revision_required",
+      "source_entry_sha256": "80ec5e4f2688915db3d5c6aa6e0922169eb4d8f32b56ec6bc999ac2f981a32fb",
+      "review_scope": "원고찰5시험7391여성/결과6708출산·RR.31CI.17~.58과재발4시험1846출산RR.34CI.18~.64확인. 이는신경관결손결과이며모성/신생아사망효과로환산금지. 하위군에서용량/복합여부차이증거없음은동등성확정아님:효과같았다단정수정. 초발1시험RR.07CI0~1.32와고위험재발혼합을분리;과거NTD에는일반0.4mg만으로충분하다는인상금지/의사용량상담조건. CDC원문400mcg일반/과거NTD4000mcg별도확인. 인천/연수12주지원은지역기준이며전국동일무료아님. 엽산일반적영양가까지다른효과없음단정하지말고고찰의기형결과불명범위보존.",
+      "evidence_ids": [
+        "sources:20",
+        "more:4",
+        "more:2",
+        "sources:0",
+        "sources:1"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      },
+      "editorial_observations": {
+        "title_characters": 48,
+        "title_over_70": false,
+        "easy_characters": 128,
+        "easy_over_120": true,
+        "easy_sentences": 3,
+        "easy_outside_2_to_4": false,
+        "sentences_over_50": [],
+        "counting_rule": "공백·괄호 포함 literal. 종결부호 뒤 공백으로 분할. 출처·서지만 제외/법조문 번역 임의제외 안함. 초기진단이며 후보승인 아님."
+      }
+    },
+    {
+      "entry": 2,
+      "status": "qualified_supported_with_warning",
+      "source_entry_sha256": "b2a65fd833753f5398f09d9aac40f3b7360bc5bee5ba6277281b19270fa5d4be",
+      "review_scope": "모자법8신고·9수첩·10건강관리/령13·규칙5/별표128주4주·29~36주2주·37주매주/장애35세다태고위험횟수추가확인. 근기74의2청구시간허용·임금삭감금지.건보별표2임신부외래일반10/20/30/40맞으나의약분업예외약제·선별급여/비급여등모든비용같은율로확장금지. 등록혜택지역/추가검사·시간비용단서유지.",
+      "evidence_ids": [
+        "law:286727",
+        "law:272453",
+        "law:283857",
+        "law:285279",
+        "law:289701",
+        "sources:0",
+        "sources:1"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      },
+      "editorial_observations": {
+        "title_characters": 56,
+        "title_over_70": false,
+        "easy_characters": 128,
+        "easy_over_120": true,
+        "easy_sentences": 4,
+        "easy_outside_2_to_4": false,
+        "sentences_over_50": [
+          {
+            "length": 60,
+            "text": "임산부가 의료기관이나 보건소에 임신 사실을 신고해야 이 법의 보호를 받습니다(「모자보건법」 제8조 제1항).",
+            "field": "이득"
+          },
+          {
+            "length": 53,
+            "text": "국가와 지자체는 고위험 임산부와 신생아 집중치료 시설을 지원합니다(「모자보건법」 제10조의2).",
+            "field": "비고"
+          }
+        ],
+        "counting_rule": "공백·괄호 포함 literal. 종결부호 뒤 공백으로 분할. 출처·서지만 제외/법조문 번역 임의제외 안함. 초기진단이며 후보승인 아님."
+      }
+    },
+    {
+      "entry": 3,
+      "status": "qualified_supported_with_warning",
+      "source_entry_sha256": "9f638a74e871a7ea65c469fd6e69a5cf607456c2222e6648c524cb84914d2574",
+      "review_scope": "구로실제주산기사업대상HBsAg/HBeAg·모검사시기/0·1·6개월·9~15개월검사/무료/주산기90%만성 확인. 영등포HIV익명무료·감염산모신생아지원/관련급여본인부담 한정·실명등록전환조건확인. 검사가익명이라는사실이진료비모든비급여/익명그대로수급보장아님. 감염병24⑦/에이즈3④⑤·7비밀유지실제확인. 매독검사필요와한국전용치료비지원미확인은분리유지. 이득의신생아직후접종은중요하지만항목20근거와12시간/미숙아조건을의료진확인;분모를한국모든출생위험으로확장금지. 에이즈7조의 비밀누설 금지는열거된업무자/진단진료간호·기록관리자와법령·본인동의예외가있으므로법적금지설명에서는그범위를보존.",
+      "evidence_ids": [
+        "sources:2",
+        "sources:3",
+        "sources:0",
+        "sources:25",
+        "sources:26",
+        "hiv-current:0"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      },
+      "editorial_observations": {
+        "title_characters": 58,
+        "title_over_70": false,
+        "easy_characters": 110,
+        "easy_over_120": false,
+        "easy_sentences": 3,
+        "easy_outside_2_to_4": false,
+        "sentences_over_50": [
+          {
+            "length": 52,
+            "text": "이어서 생후 1개월에 2차, 6개월에 3차를 맞고, 9~15개월에는 항원·항체 검사를 합니다.",
+            "field": "이득"
+          },
+          {
+            "length": 65,
+            "text": "B형간염은 보건소가 실시하는 필수예방접종 대상입니다(「감염병의 예방 및 관리에 관한 법률」 제24조 제1항 제7호).",
+            "field": "이득"
+          },
+          {
+            "length": 65,
+            "text": "「후천성면역결핍증 예방법」은 법에 정한 경우 말고는 감염인에게 불이익이나 차별을 주지 못하게 합니다(제3조 제4항).",
+            "field": "비고"
+          }
+        ],
+        "counting_rule": "공백·괄호 포함 literal. 종결부호 뒤 공백으로 분할. 출처·서지만 제외/법조문 번역 임의제외 안함. 초기진단이며 후보승인 아님."
+      }
+    },
+    {
+      "entry": 4,
+      "status": "revision_required",
+      "source_entry_sha256": "bab70d44a0611ce5629879387b2e7da179eb7662776cf6ba8ac7647a22753052",
+      "review_scope": "CDC실제임신흡연출혈2배·조산/저체중·구순구개/SIDS·금연시점일치. 간접흡연도피할권고타당하나비고태아에게똑같이해롭다는문구가직접흡연과위험크기동일을단정하면근거범위초과. 술안전알려진양/시점없음은CDC FASD별도실제확인으로출처보강필요. 금주권고가과거소량노출로반드시태아손상이라는뜻아님.",
+      "evidence_ids": [
+        "sources:4",
+        "more:3"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      },
+      "editorial_observations": {
+        "title_characters": 53,
+        "title_over_70": false,
+        "easy_characters": 119,
+        "easy_over_120": false,
+        "easy_sentences": 4,
+        "easy_outside_2_to_4": false,
+        "sentences_over_50": [
+          {
+            "length": 59,
+            "text": "임신 중에 담배를 피우면 아기가 \"만삭에 태어나도 너무 작을 수 있고\" \"일찍 태어날 수 있다\"고 합니다.",
+            "field": "이득"
+          },
+          {
+            "length": 66,
+            "text": "흡연이 \"발달 중인 아기의 폐와 뇌를 손상할 수 있고, 그 손상은 어린 시절 내내 이어질 수 있다\"는 설명도 있습니다.",
+            "field": "이득"
+          },
+          {
+            "length": 54,
+            "text": "CDC는 \"임신 전에 끊는 것이 가장 좋지만, 이미 임신했어도 끊으면 도움이 된다\"고 권고합니다.",
+            "field": "이득"
+          }
+        ],
+        "counting_rule": "공백·괄호 포함 literal. 종결부호 뒤 공백으로 분할. 출처·서지만 제외/법조문 번역 임의제외 안함. 초기진단이며 후보승인 아님."
+      }
+    },
+    {
+      "entry": 5,
+      "status": "revision_required",
+      "source_entry_sha256": "c449b16be70a410b12fd40e4ea027272959dc811dcd47c34b2ec797d7a5eeb0c",
+      "review_scope": "USPSTF2021 무증상고위험·과거이상반응/금기없는임신부 12주후미국81mg B권고. 전자간증RR.85 16연구14093명/조산.80 13연구13619/주산기.79 11연구13860/SGA.82 16연구14385·모든CI일치. 모성사망등드물어평가불가·RR감소를절대확률감소로환산안함. 출혈3종유의차없음은무위험보장아님. 고위험6유형과중등도다중위험도원문에있음/목록밖이일률금기는아니며의사판단유지. 제목/쉽게고위험이면자동복용인상에금기·의사확인조건보강. 국내100mg제형·의약분류는미확인유지.",
+      "evidence_ids": [
+        "sources:5"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      },
+      "editorial_observations": {
+        "title_characters": 40,
+        "title_over_70": false,
+        "easy_characters": 124,
+        "easy_over_120": true,
+        "easy_sentences": 4,
+        "easy_outside_2_to_4": false,
+        "sentences_over_50": [
+          {
+            "length": 52,
+            "text": "전자간증은 RR 0.85(95% CI 0.75~0.95, 16개 연구)로 약 15% 낮습니다.",
+            "field": "이득"
+          },
+          {
+            "length": 51,
+            "text": "조산은 RR 0.80(95% CI 0.67~0.95, 13개 연구)로 약 20% 줄어듭니다.",
+            "field": "이득"
+          },
+          {
+            "length": 52,
+            "text": "이 위험은 RR 0.79(95% CI 0.66~0.96, 11개 연구)로 약 21% 낮습니다.",
+            "field": "이득"
+          },
+          {
+            "length": 54,
+            "text": "이런 경우도 RR 0.82(95% CI 0.68~0.99, 16개 연구)로 약 18% 줄어듭니다.",
+            "field": "이득"
+          }
+        ],
+        "counting_rule": "공백·괄호 포함 literal. 종결부호 뒤 공백으로 분할. 출처·서지만 제외/법조문 번역 임의제외 안함. 초기진단이며 후보승인 아님."
+      }
+    },
+    {
+      "entry": 6,
+      "status": "revision_required",
+      "source_entry_sha256": "e9c9d94892255e1fe74c1e60844567965a06ccf0ad9a7c3c705255762890938b",
+      "review_scope": "USPSTF24주이후B/이전I는증상없고기존1·2형당뇨미진단임신부대상. I를조기검사금지로확장금지.보통24~28주·늦은산전첫방문시이후가능. 1단계75g/2단계50g후확진100g·공복혈당등다른경로,전원단음료반나절로확정하지말기. 검사조건따라공복/반복채혈비용개별화. 임신성당뇨는임신중발견/진단범위이며임신전미진단당뇨까지새발생으로단정금지. 출산후재검권고는타당하나국내급여금액미확인유지.",
+      "evidence_ids": [
+        "sources:6"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      },
+      "editorial_observations": {
+        "title_characters": 54,
+        "title_over_70": false,
+        "easy_characters": 122,
+        "easy_over_120": true,
+        "easy_sentences": 4,
+        "easy_outside_2_to_4": false,
+        "sentences_over_50": [],
+        "counting_rule": "공백·괄호 포함 literal. 종결부호 뒤 공백으로 분할. 출처·서지만 제외/법조문 번역 임의제외 안함. 초기진단이며 후보승인 아님."
+      }
+    },
+    {
+      "entry": 7,
+      "status": "revision_required",
+      "source_entry_sha256": "5e6859e53ad1eba5d3328d915787ef76847821603b11dc1ded947a3852d96e53",
+      "review_scope": "CDC원문은즉시의료진료,출산1년까지·열38/심해지는두통·시야·호흡/흉통·태동감소·출혈/액체·자해사고·편측통증붓기목록확인. 쉽게그날병원은같은날늦게까지기다려도되는오독이라즉시조건유지필수. CDC출산후출혈기준은심한출혈/악취등구체범위:정상오로전체를동일응급으로확대금지. 5분외운다는시간보장근거없음.",
+      "evidence_ids": [
+        "sources:7",
+        "sources:8"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      },
+      "editorial_observations": {
+        "title_characters": 48,
+        "title_over_70": false,
+        "easy_characters": 138,
+        "easy_over_120": true,
+        "easy_sentences": 5,
+        "easy_outside_2_to_4": true,
+        "sentences_over_50": [],
+        "counting_rule": "공백·괄호 포함 literal. 종결부호 뒤 공백으로 분할. 출처·서지만 제외/법조문 번역 임의제외 안함. 초기진단이며 후보승인 아님."
+      }
+    },
+    {
+      "entry": 8,
+      "status": "revision_required",
+      "source_entry_sha256": "29785ccc26830e131f8ce5106e87329ee6af9b789c44459862a8134f960c58a2",
+      "review_scope": "중국두실제본문과KDCA조산즉시내원범위확인. 베이징일괄누움/엉덩이받침/120권고를한국전체양막파수119·걷기/샤워금지로이식하면적용범위문제. NHS실제파수면분만팀즉시연락·샤워목욕감염증가증거없음, RCOG탯줄보임/만져짐제대탈출의심시구급차·무릎가슴/옆눕기엉덩이받침구분. 외국간상충/국내자세미확인을단순TODO뒤로숨기지말고일반파수와제대탈출응급을분리필수. 규칙수축·이슬이면차분히짐이라는절대문구도조산/대량출혈/태동감소등공존예외유지. 안심콜공식소방청메뉴의새URL u119확인·등록로그인까지/가입완료검증아님.",
+      "evidence_ids": [
+        "sources:9",
+        "sources:10",
+        "sources:11",
+        "more:0",
+        "more:1",
+        "final:2",
+        "casefinal:2"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      },
+      "editorial_observations": {
+        "title_characters": 52,
+        "title_over_70": false,
+        "easy_characters": 120,
+        "easy_over_120": false,
+        "easy_sentences": 4,
+        "easy_outside_2_to_4": false,
+        "sentences_over_50": [
+          {
+            "length": 53,
+            "text": "질병관리청은 조산 안내에서 \"물 같이 흐르는 질 분비물\"이 있으면 즉시 병원을 찾으라고 합니다.",
+            "field": "이득"
+          }
+        ],
+        "counting_rule": "공백·괄호 포함 literal. 종결부호 뒤 공백으로 분할. 출처·서지만 제외/법조문 번역 임의제외 안함. 초기진단이며 후보승인 아님."
+      }
+    },
+    {
+      "entry": 9,
+      "status": "revision_required",
+      "source_entry_sha256": "9c56fea034148489600e0f343e84eea96b402451b83af7021765a1f9e3a122da",
+      "review_scope": "원고찰원초록·Cochrane요약:52적격/40시험11000명·통증/만족낮은질/높은이질성. 제왕RR1.07CI.96~1.18·장기요통RR1.00CI.89~1.12는증가차이관찰안됨이지개인에게절대영향없음확정아님. 기구분만전체RR1.44CI1.29~1.60은증가,2005이후RR1.19CI.97~1.46은사후하위분석/CI와안전불확실성을함께보강. 혈압/발열/운동차단/소변/산정길이·옥시토신부작용맞음. 마취과의사24시간상주가항상법적필수라는근거미확인;시술가능시간·인력·개인금기의료진상담으로한정권장. 한국급여·본인부담원문미확인.",
+      "evidence_ids": [
+        "sources:21",
+        "more:5"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      },
+      "editorial_observations": {
+        "title_characters": 36,
+        "title_over_70": false,
+        "easy_characters": 88,
+        "easy_over_120": false,
+        "easy_sentences": 3,
+        "easy_outside_2_to_4": false,
+        "sentences_over_50": [],
+        "counting_rule": "공백·괄호 포함 literal. 종결부호 뒤 공백으로 분할. 출처·서지만 제외/법조문 번역 임의제외 안함. 초기진단이며 후보승인 아님."
+      }
+    },
+    {
+      "entry": 10,
+      "status": "revision_required",
+      "source_entry_sha256": "5acaf93be4c531a27167f4696fc058055f59f902106f8959f9b49194432c9396",
+      "review_scope": "WHO2015실제8쪽성명·국가수준생태분석및문헌고찰:인구10%초과와추가사망감소연관없음/근거없음. 쉽게더줄지않음이라는확정인과·개인임계값으로쓰지말기. 필요한개인수술은비율과상관없이제공,병원목표율아님. 다른이환·심리결과불명원문유지;회복/미래임신위험설명은수술일반적위험이며모든개인동일크기아님. 공포·출산불안등개인사정의사상담없이그저괜히한수술로비하/절대배제하지않게권장.",
+      "evidence_ids": [
+        "sources:13",
+        "closure:3"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      },
+      "editorial_observations": {
+        "title_characters": 49,
+        "title_over_70": false,
+        "easy_characters": 117,
+        "easy_over_120": false,
+        "easy_sentences": 3,
+        "easy_outside_2_to_4": false,
+        "sentences_over_50": [],
+        "counting_rule": "공백·괄호 포함 literal. 종결부호 뒤 공백으로 분할. 출처·서지만 제외/법조문 번역 임의제외 안함. 초기진단이며 후보승인 아님."
+      }
+    },
+    {
+      "entry": 11,
+      "status": "revision_required",
+      "source_entry_sha256": "48e9ae5439d3921b5126ea8ef609cac7caa23681c431a46848d30569b0a28275",
+      "review_scope": "건보50/령23/고시2026-85 실제100/140기본+쌍둥이60·셋이상(수-2)100/20주·추가신청·유산사산태아제외/취약지신청당시등록·추가신청까지연속30일·등록중신청·20만원·사용기한/소멸 확인. 조건없는쌍둥이200/셋째추가자동보장수정. 건보별표2제3호가목분만식대50원칙이나본문단서2·3인실입원료별도본인부담을복원. 비급여별도만으로이급여예외설명안됨. 의료급여규칙8의2는기본100/140+별도고시경로로건보추가금자동동일확정금지. 고용보험75현행180일외신청기한/부득이사유조건·휴가급여별개유지.",
+      "evidence_ids": [
+        "law:285273",
+        "law:289701",
+        "law:288079",
+        "closure:0",
+        "closure:2",
+        "sources:14"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      },
+      "editorial_observations": {
+        "title_characters": 58,
+        "title_over_70": false,
+        "easy_characters": 150,
+        "easy_over_120": true,
+        "easy_sentences": 4,
+        "easy_outside_2_to_4": false,
+        "sentences_over_50": [
+          {
+            "length": 59,
+            "text": "받으려면 휴가가 끝난 날까지 피보험 단위기간이 180일 이상이어야 합니다(「고용보험법」 제75조 제1호).",
+            "field": "비고"
+          }
+        ],
+        "counting_rule": "공백·괄호 포함 literal. 종결부호 뒤 공백으로 분할. 출처·서지만 제외/법조문 번역 임의제외 안함. 초기진단이며 후보승인 아님."
+      }
+    },
+    {
+      "entry": 12,
+      "status": "revision_required",
+      "source_entry_sha256": "463da934487a324140fae996786104af24dcaca6fa701458a153d0d758ee4ace",
+      "review_scope": "가족등록44③④출생증명원칙·직접관여자증빙/권한기관서면·119일지대체/44의2확인서받은날1개월·예규609혈연소명심리·인명한자규칙경로 확인. 개명99원칙가정법원허가맞으나등록부모든오기정정도항상법원허가아님:18②경미직권정정/예규614특정허가불요구별필수. 제증명고시실제HWP별표18출생증명3000원·동시추가통사본1000원/진찰검사비별도로TODO해소. 병원퇴원뒤발급불가같은중국전제이식없음.",
+      "evidence_ids": [
+        "law:290741",
+        "rules:1",
+        "rules:0",
+        "cache24:sources:5",
+        "cache24:attach:0"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      },
+      "editorial_observations": {
+        "title_characters": 52,
+        "title_over_70": false,
+        "easy_characters": 112,
+        "easy_over_120": false,
+        "easy_sentences": 3,
+        "easy_outside_2_to_4": false,
+        "sentences_over_50": [
+          {
+            "length": 66,
+            "text": "출생신고서에는 의사나 조산사가 작성한 출생증명서를 붙여야 합니다(「가족관계의 등록 등에 관한 법률」 제44조 제4항).",
+            "field": "이득"
+          }
+        ],
+        "counting_rule": "공백·괄호 포함 literal. 종결부호 뒤 공백으로 분할. 출처·서지만 제외/법조문 번역 임의제외 안함. 초기진단이며 후보승인 아님."
+      }
+    },
+    {
+      "entry": 13,
+      "status": "revision_required",
+      "source_entry_sha256": "75fd4404a0ccb8ce5429977e9942060470ca0c57328f19cc6454bfa2dc7db857",
+      "review_scope": "연수/인천실제검사48시간~7일/28일급여검사·입원무료/외래검사본인부담일부·확진7만원·1년·갑상선25만원범위일치. 환아19세미만·필요특수식이·갑상선직접치료비제외조건유지필요. 난청보청기는만12세미만만이아니라양측40~59dB장애등급미해당또는편측55이상·좋은귀40이하등요건·135만원상한·검사외진찰료제외. 모든난청/대사이상증상드러나면지능손상이미불가역이라는일률단정불가;조기발견지연위험을질환별로한정. 초회검사한번이면전부확진/재검불필요보장금지. 전국급여2018고시전문미확인.",
+      "evidence_ids": [
+        "sources:16",
+        "sources:17",
+        "sources:18",
+        "law:272453"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      },
+      "editorial_observations": {
+        "title_characters": 33,
+        "title_over_70": false,
+        "easy_characters": 95,
+        "easy_over_120": false,
+        "easy_sentences": 3,
+        "easy_outside_2_to_4": false,
+        "sentences_over_50": [],
+        "counting_rule": "공백·괄호 포함 literal. 종결부호 뒤 공백으로 분할. 출처·서지만 제외/법조문 번역 임의제외 안함. 초기진단이며 후보승인 아님."
+      }
+    },
+    {
+      "entry": 14,
+      "status": "revision_required",
+      "source_entry_sha256": "3d58a02fe180e0d3833a12e414870c3604e2df9f49a3462b44e68a40c8fee920",
+      "review_scope": "건보5②생계+소득재산/규칙2①부양·소득재산조건/②신생아출생일·④공단자료신고생략/지역법6③·8②14일·규칙4확인. 부모직장가입만으로어떤신생아든무조건피부양자보장금지·법정자격요건유지. 2세미만입원식대50원칙과별표2제3호본문2·3인실입원료별도부담/비급여분리필수. 1세미만외래5/10/15/20 일반율맞으나의약분업예외등구별. 이용권2세미만처방치료재료도규정. 자격정정·정산개별문의적절/모든이미낸비용자동환급보장아님.",
+      "evidence_ids": [
+        "law:285273",
+        "law:290599",
+        "law:289701"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      },
+      "editorial_observations": {
+        "title_characters": 51,
+        "title_over_70": false,
+        "easy_characters": 153,
+        "easy_over_120": true,
+        "easy_sentences": 4,
+        "easy_outside_2_to_4": false,
+        "sentences_over_50": [
+          {
+            "length": 56,
+            "text": "신생아는 \"출생한 날\"에 피부양자 자격을 얻습니다(「국민건강보험법 시행규칙」 제2조 제2항 제1호).",
+            "field": "이득"
+          },
+          {
+            "length": 60,
+            "text": "공단이 국가에서 받은 자료로 확인할 수 있으면 피부양자 신고서를 내지 않아도 됩니다(같은 조 제4항 단서).",
+            "field": "이득"
+          },
+          {
+            "length": 66,
+            "text": "2세 미만 아이가 입원하면 본인부담은 입원 기간 식대의 50%뿐입니다(「국민건강보험법 시행령」 별표 2 제3호 가목).",
+            "field": "이득"
+          },
+          {
+            "length": 67,
+            "text": "2세 미만 아이의 진료비는 엄마가 받은 임신·출산 진료비 이용권으로도 낼 수 있습니다(같은 법 시행령 제23조 제3항).",
+            "field": "이득"
+          },
+          {
+            "length": 65,
+            "text": "국가와 지자체는 입원이 필요한 미숙아와 선천성이상아에게 의료 지원을 할 수 있습니다(「모자보건법」 제10조 제2항).",
+            "field": "비고"
+          }
+        ],
+        "counting_rule": "공백·괄호 포함 literal. 종결부호 뒤 공백으로 분할. 출처·서지만 제외/법조문 번역 임의제외 안함. 초기진단이며 후보승인 아님."
+      }
+    },
+    {
+      "entry": 15,
+      "status": "revision_required",
+      "source_entry_sha256": "b09a7da6b12bebe79e1d0debd502c69fa122e6a24edfbf32250ce7fda5e62c6a",
+      "review_scope": "가족등록20/44①1개월·44의314일병원통보/44의4확인·7일최고·법원허가직권등록·122정당사유없는5만원상한 확인. 병원통보는모든비의료기관출산까지자동보장아님. 46②·57①②주석과2021헌마975실제전문은2025-05-31까지계속적용·혼인중여자/남편아닌생부사실범위. 예규614현행검색은2022본문/친생추정명백시불수리까지;2025뒤효력·실무해소아님. 본문모독점신고를무조건현재법으로단정하지말고사안별관할법원확인. 민법781①혼인신고합의외②외국인부③부불명⑤인지후종전성유지⑥자의복리법원변경예외,엄마성쓰려면항상혼인신고때라는쉽게단정수정. 아동10②60일소급은아동수당/부득이사유기간제외;첫만남까지모두태어난달급여로묶지말기.",
+      "evidence_ids": [
+        "law:290741",
+        "law:284415",
+        "law:286729",
+        "last:2",
+        "rules:0"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      },
+      "editorial_observations": {
+        "title_characters": 25,
+        "title_over_70": false,
+        "easy_characters": 126,
+        "easy_over_120": true,
+        "easy_sentences": 3,
+        "easy_outside_2_to_4": false,
+        "sentences_over_50": [
+          {
+            "length": 55,
+            "text": "출생신고는 출생 후 1개월 안에 해야 합니다(「가족관계의 등록 등에 관한 법률」 제44조 제1항).",
+            "field": "이득"
+          },
+          {
+            "length": 59,
+            "text": "정당한 이유 없이 기간 안에 신고하지 않으면 5만 원 이하 과태료를 물 수 있습니다(같은 법 제122조).",
+            "field": "이득"
+          },
+          {
+            "length": 51,
+            "text": "다만 혼인신고 때 합의하면 엄마의 성과 본을 따를 수 있습니다(「민법」 제781조 제1항).",
+            "field": "이득"
+          },
+          {
+            "length": 54,
+            "text": "출생일을 포함해 60일 안에 신청하면 태어난 달 치부터 받습니다(「아동수당법」 제10조 제2항).",
+            "field": "비고"
+          }
+        ],
+        "counting_rule": "공백·괄호 포함 literal. 종결부호 뒤 공백으로 분할. 출처·서지만 제외/법조문 번역 임의제외 안함. 초기진단이며 후보승인 아님."
+      }
+    },
+    {
+      "entry": 16,
+      "status": "qualified_supported_with_warning",
+      "source_entry_sha256": "30f75e607df1f6e6949fe2071aa44398928dd01eb9fc317eb966d8adaefb6cb7",
+      "review_scope": "모자법임산부분만후6개월미만/령13산후관리·10의5검사지원포함·11의4중앙상담센터/위기임신7지역상담 실제조문확인. 미래2027권역센터개정은현행의무확장안함. 인천연수산후우울검사지원지역조건·CDC1년응급신호별도범위. 109는기존허용목록번호와일치,1308현재2026복지부실제보도/2024언제어디서든상담확인하되명시24시간편성은미확인유지. 진찰반나절·치료회복은모든개인보장근거없음/몸회복상황·검사양성확진차이유지.",
+      "evidence_ids": [
+        "law:286727",
+        "law:272453",
+        "law:279721",
+        "sources:0",
+        "sources:1",
+        "sources:7",
+        "last:0",
+        "end:0",
+        "rules:2"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      },
+      "editorial_observations": {
+        "title_characters": 35,
+        "title_over_70": false,
+        "easy_characters": 96,
+        "easy_over_120": false,
+        "easy_sentences": 3,
+        "easy_outside_2_to_4": false,
+        "sentences_over_50": [
+          {
+            "length": 55,
+            "text": "법에서 말하는 임산부에는 분만 뒤 6개월이 안 된 여성도 포함됩니다(「모자보건법」 제2조 제1호).",
+            "field": "이득"
+          },
+          {
+            "length": 56,
+            "text": "지자체가 하는 임산부 건강관리에는 산후관리가 들어 있습니다(같은 법 시행령 제13조 제1항 제1호).",
+            "field": "이득"
+          },
+          {
+            "length": 51,
+            "text": "보건소에 등록한 임산부는 산후우울증 검사를 받을 수 있습니다(인천광역시·연수구보건소 안내).",
+            "field": "이득"
+          }
+        ],
+        "counting_rule": "공백·괄호 포함 literal. 종결부호 뒤 공백으로 분할. 출처·서지만 제외/법조문 번역 임의제외 안함. 초기진단이며 후보승인 아님."
+      }
+    }
+  ],
+  "non_entry_editorial_observations": {
+    "intro": {
+      "sentences_over_50": [
+        {
+          "length": 51,
+          "text": "출산전후휴가와 휴가 급여, 아이 키우는 돈 계산은 제18절(아이 키우기 가성비)에 있습니다."
+        },
+        {
+          "length": 59,
+          "text": "세계보건기구(WHO)에 따르면 2023년 전 세계에서 여성 약 26만 명이 임신과 출산 때문에 숨졌습니다."
+        },
+        {
+          "length": 51,
+          "text": "출산 뒤 큰 출혈, 감염, 임신성 고혈압 질환, 분만 합병증, 안전하지 않은 임신중절입니다."
+        },
+        {
+          "length": 51,
+          "text": "임신성 고혈압 질환은 임신한 뒤 혈압이 오르는 병으로, 전자간증과 자간증이 여기 들어갑니다."
+        }
+      ],
+      "counting_rule": "공백·괄호포함literal·일반서술/TODO포함;상태/제목/목차·서지불변메타제외"
+    },
+    "tail": {
+      "sentences_over_50": [
+        {
+          "length": 87,
+          "text": "항목 8: 한국 공공 안내는 즉시 병원만 말하고 눕기·엉덩이 높이기 같은 자세 지시는 없다(질병관리청 국가건강정보포털 「조산」, 2026-10-10 확인)."
+        },
+        {
+          "length": 65,
+          "text": "항목 1·2·16: 보건소 임산부 등록 혜택(엽산제 지급 기간, 산전검사 항목, 산후우울증 검사)의 전국 공통 기준."
+        },
+        {
+          "length": 72,
+          "text": "항목 12: 출생증명서 발급 수수료 상한(「의료기관의 제증명수수료 항목 및 금액에 관한 기준」 보건복지부고시 제2021-34호)."
+        },
+        {
+          "length": 54,
+          "text": "항목 13: 신생아 선별검사의 건강보험 적용 근거(2018년 10월 보건복지부 발표·고시) 원문."
+        },
+        {
+          "length": 93,
+          "text": "항목 15: 「가족관계의 등록 등에 관한 법률」 제46조 제2항·제57조 제1항·제2항의 헌법불합치 결정(2021헌마975, 개정 시한 2025.5.31.) 뒤 효력."
+        },
+        {
+          "length": 64,
+          "text": "시한이 지났지만 현행 조문(시행 2026.10.2.)은 바뀌지 않았고, 시행 예정인 개정도 국가법령정보센터에 없다."
+        },
+        {
+          "length": 57,
+          "text": "시한이 지난 뒤 이 조항이 효력을 잃었는지, 대법원 가족관계등록예규상 실무가 어떤지는 확인하지 못했다."
+        }
+      ],
+      "counting_rule": "공백·괄호포함literal·일반서술/TODO포함;상태/제목/목차·서지불변메타제외"
+    }
+  },
+  "evidence": [
+    {
+      "url": "https://www.incheon.go.kr/ml_kr/MLKR050219",
+      "requested_at": "2026-10-18T17:23:42.487325+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "source0",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch27-audit/a52d718342a664aa21bf.raw",
+      "sha256": "eaa47db56f4d4bca12ee358d157439ceee6a2add2dff7eda5eccf62ba0d1eedb",
+      "id": "sources:0",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "인천 실제 임신출산 안내본문:검사항목/엽산12주·철16주/산후우울검사·지역프로그램차이. 전국동일혜택 아님."
+    },
+    {
+      "url": "https://www.yeonsu.go.kr/clinic/health/mathernal_child/mother_sign.asp",
+      "requested_at": "2026-10-18T17:23:42.488269+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "source1",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch27-audit/f5509357ca49c77d3764.raw",
+      "sha256": "2092df976ef9e89ce1b5fa2565c1544458f865f52a90edccfbabe4199ffcfe45",
+      "id": "sources:1",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "연수 실제본문:등록신분증/확인서·엽산12주최대2개월/철최대5개월·산후우울검사·원스톱등록."
+    },
+    {
+      "url": "https://www.guro.go.kr/health/contents.do?key=1326&",
+      "requested_at": "2026-10-18T17:23:42.489133+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "source2",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch27-audit/5f41667cbc578ce9c92f.raw",
+      "sha256": "95aad1970b6b828113750de31118e32bfb19b14470b98ea3b4ce12e07e5a320b",
+      "id": "sources:2",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "구로 실제본문:B형간염주산기 대상/임신중·분만후7일검사/접종·항체검사·무료지원."
+    },
+    {
+      "url": "https://www.ydp.go.kr/health/contents.do?key=3563",
+      "requested_at": "2026-10-18T17:23:42.489636+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "source3",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch27-audit/779cc79c630f48675336.raw",
+      "sha256": "6dc2744082dc2a5df7d9ff84549469816f8ebf9aa021dea98f2b06449bc69d30",
+      "id": "sources:3",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "영등포 실제본문:HIV익명무료검사/실명등록·전환신청/감염산모신생아·HIV관련급여본인부담지원·신청서류. 비급여전체무조건지원 아님."
+    },
+    {
+      "url": "https://www.cdc.gov/tobacco/campaign/tips/diseases/pregnancy.html",
+      "requested_at": "2026-10-18T17:23:42.490387+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "source4",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch27-audit/a0adf4cb1779995c13fd.raw",
+      "sha256": "a6c3a243747f11254a73359201c92ec58c2b3932f5a51e03e821b7ae8aeea5bf",
+      "id": "sources:4",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "CDC 실제 Smoking During Pregnancy 전문:비정상출혈2배·조산/저체중/기형·SIDS·금연시점. 간접흡연이직접흡연과정확동일위험크기라는근거 아님."
+    },
+    {
+      "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/low-dose-aspirin-use-for-the-prevention-of-morbidity-and-mortality-from-preeclampsia-preventive-medication",
+      "requested_at": "2026-10-18T17:23:42.491377+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "source5",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch27-audit/484be9c0d0a35ee87b4e.raw",
+      "sha256": "943db459624f752d24bd4f4ad9098f8a388aa588fcfeb19e67ce16e596dee4fe",
+      "id": "sources:5",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "USPSTF2021 실제 권고전문·근거수치/표:무증상고위험·금기/과거이상반응제외·81mg12주후/4RR·CI·연구수/모수·출혈안전근거. 사망은주산기사망이며모성사망효과확정아님."
+    },
+    {
+      "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/gestational-diabetes-screening",
+      "requested_at": "2026-10-18T17:23:42.850577+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "source6",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch27-audit/44b9dd268109a98a7e42.raw",
+      "sha256": "61c2114199d355fd3947bd4b57c652e50190f87860c093d26a7200c72e6d3409",
+      "id": "sources:6",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "USPSTF2021 실제권고전문·표2:기존1/2형당뇨진단제외/24주이후B·이전I/1·2단계·공복측정·보통24~28주·증가위험/치료. 반나절모든검사보장 아님."
+    },
+    {
+      "url": "https://www.cdc.gov/hearher/maternal-warning-signs/index.html",
+      "requested_at": "2026-10-18T17:23:42.873540+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "source7",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch27-audit/f48586d24b81f4f5ebd2.raw",
+      "sha256": "12274e98a313f46044585ced8cb25c5a8b97b41dac10ff872c4c6e4121341f25",
+      "id": "sources:7",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "CDC 실제 Hear Her 전문:즉시진료·임신~출산1년·열38/두통·시야/흉통숨/질출혈·태동/자해사고/편측붓기. 같은날내라는지연허용 아님."
+    },
+    {
+      "url": "https://www.who.int/news-room/fact-sheets/detail/maternal-mortality",
+      "requested_at": "2026-10-18T17:23:43.173035+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "source8",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch27-audit/331680874baa94ac0a2c.raw",
+      "sha256": "3a7584f98eec8bf305dfe25328606b7e16a24bb9dd948246d30f9ee9474cb069",
+      "id": "sources:8",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "WHO2025-04-07 실제사실자료전문:2023전세계26만·75%다섯원인·대부분예방/산후출혈몇시간. 한국개인절대위험으로환산금지."
+    },
+    {
+      "url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6583",
+      "requested_at": "2026-10-18T17:23:43.205399+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "source9",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch27-audit/a95bbbb0bb33bf74da5d.raw",
+      "sha256": "3dddd81b020d426eb126fb2c7f1ef93209f4ac50c7c42fcb458eff163a6c55f2",
+      "id": "sources:9",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "KDCA 조산 실제본문:2026-06-04업데이트·물같은질분비물등 즉시병원. 눕기/엉덩이높임을국내권고로확인한것아님."
+    },
+    {
+      "url": "https://wjw.beijing.gov.cn/bmfw_20143/jkzs/jzjj/202001/t20200115_1575632.html",
+      "requested_at": "2026-10-18T17:23:44.241915+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "source10",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch27-audit/9353bb68e7debd554ffa.raw",
+      "sha256": "c776cd38a5a66e039e0cd424fced56604471d532617526fe2d5d18cda0578c7d",
+      "id": "sources:10",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "베이징위생위 실제2020-01-15 본문:평평눕기·움직이지말기·120·엉덩이받침. 한국권고아님/해외상충자료와대조."
+    },
+    {
+      "url": "https://www.bch-syfy.cn/Html/News/Articles/9453.html",
+      "requested_at": "2026-10-18T17:23:44.933351+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "source11",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch27-audit/605a5f417445b0322a61.raw",
+      "sha256": "e70e5b2f8d4728b45d3687342d738b8b613dd97bd1454aed47545211d0c04748",
+      "id": "sources:11",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "순의모자보건원 실제모체파수안내본문·자세/제대탈출위험. 한국의일률응급이송조건근거아님."
+    },
+    {
+      "url": "https://www.bokjiro.go.kr/ssis-tbu/cms/pc/news/promotion/1307375_1118.html",
+      "requested_at": "2026-10-18T17:23:46.072003+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "source12",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch27-audit/bd83e6b20caa07079546.raw",
+      "sha256": "1ba51a133e29546a714741072662ffef07c314c4543d32407403cc916ae9f40f",
+      "id": "sources:12",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "복지로 실제 게시물 제목/설명·이미지첨부정보만. 카드뉴스이미지문자 실제열람아님. 소방청현재메뉴는final:2/casefinal:2 별도."
+    },
+    {
+      "url": "https://www.who.int/publications/i/item/WHO-RHR-15.02",
+      "requested_at": "2026-10-18T17:23:47.016896+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "source13",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch27-audit/1bc331331f37b1d3bc73.raw",
+      "sha256": "9c9a21cdc512c0d2400d63f46cec5ced73321770e984cb409642daf8358d0f0b",
+      "id": "sources:13",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "WHO2015 출판페이지 실제overview/10%인구수준·PDF링크. PDF전문은closure:3."
+    },
+    {
+      "url": "https://www.nhis.or.kr/static/html/wbdf/e/03/wbdfe0103_pop_15longdesc.html",
+      "requested_at": "2026-10-18T17:23:47.106777+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "source14",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch27-audit/a1060b39e62f7071e82e.raw",
+      "sha256": "d8b0e6303f345fbdfec675f7a6fa92af066b927aabdf46ae6a961f1952d8c204",
+      "id": "sources:14",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "NHIS 실제도움말본문:구지원140만원표기·신청방법·1577-1000.현행고시추가지급과구별."
+    },
+    {
+      "url": "https://www.bokjiro.go.kr/ssis-tbu/cms/pc/news/promotion/1307309_1118.html",
+      "requested_at": "2026-10-18T17:23:47.171059+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "source15",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch27-audit/59b1a45e82d024edd2ae.raw",
+      "sha256": "350d18d67105f2f91af7aa959ef69d8e689d1345afdac43e769f198d20a3ac5a",
+      "id": "sources:15",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "복지로 실제게시물메타/이미지첨부목록만;그림금액 직접확인아님."
+    },
+    {
+      "url": "https://www.yeonsu.go.kr/clinic/health/mathernal_child/baby.asp",
+      "requested_at": "2026-10-18T17:23:47.385145+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "source16",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch27-audit/a9f557cf5004b10808ba.raw",
+      "sha256": "6bf7b58f378f17132a1f69fbe7d0ad9e6993aa26ca33985bb8c8e27855396ab8",
+      "id": "sources:16",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "연수 실제신생아선별본문:48시간~7일·28일급여코드D5190~2·입원무료/외래검사본인부담지원·7만원/1년/환아19세미만·갑상선25만원직접관련의료비·제외항목."
+    },
+    {
+      "url": "https://www.incheon.go.kr/earlychild/EC050102",
+      "requested_at": "2026-10-18T17:23:47.394587+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "source17",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch27-audit/4889862182df907d9070.raw",
+      "sha256": "16d55ed431ddd565f102ef51a47cc170bf23ff38abf1b16cb5637c596c712f68",
+      "id": "sources:17",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "인천 실제대사이상지원본문 2026-10-16:7만원/1년·환아연령·특수식이/갑상선25만원. 모든질환전액자동지원아님."
+    },
+    {
+      "url": "https://www.incheon.go.kr/earlychild/EC050103",
+      "requested_at": "2026-10-18T17:23:47.813349+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "source18",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch27-audit/9196dbd1a8db37dedbef.raw",
+      "sha256": "e13763f8a1ea448b32c9ab2b9bb4041fc87cecb958e44dfed29ce9306b2a2363",
+      "id": "sources:18",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "인천 실제난청지원본문:만12세미만+양측40~59dB·장애등급못받음/편측55dB이상·좋은귀40이하·135만원/선별검사외진찰료제외·1년."
+    },
+    {
+      "url": "https://www.bokjiro.go.kr/ssis-tbu/cms/pc/news/promotion/1308241_1118.html",
+      "requested_at": "2026-10-18T17:23:48.326943+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "source19",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch27-audit/8494da14a37f816e4ba6.raw",
+      "sha256": "357557033b252312f0320d9c012f5b7e06a695be54de7fd7e40e0b9f4cfa1123",
+      "id": "sources:19",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "복지로제목/짧은설명·카드뉴스첨부목록만. 1308운영시간을실제이미지확인한것아님."
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1002/14651858.CD007950.pub3%22&format=json&resultType=core",
+      "requested_at": "2026-10-18T17:23:49.156736+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "doi10.1002/14651858.CD007950.pub3",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch27-audit/f05407d68c3f3c4c0e98.raw",
+      "sha256": "81f353990f06a82e1c8ea6b738e675b3290e43780a486f2dbdd4e8b5af9501e1",
+      "id": "sources:20",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "EuropePMC 원고찰원초록 전부 직접열람:5RCT/준RCT7391여성·NTD결과6708출산 RR.31·재발4연구1846출산RR.34/CI·무사건초발1연구·하위군분석/다른기형효과불명·신생아사망미평가. 전문XML실패와구별."
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1002/14651858.CD000331.pub4%22&format=json&resultType=core",
+      "requested_at": "2026-10-18T17:23:49.251676+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "doi10.1002/14651858.CD000331.pub4",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch27-audit/8e6df4e5df6d1c90a47c.raw",
+      "sha256": "59a14ceb9a99ea91ee0ae8914c020744872644da6d67457911aa78e4b1f0dbff",
+      "id": "sources:21",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "EuropePMC 원고찰원초록 전부 직접열람:52적격·40시험11000여성자료/제왕RR1.07CI.96~1.18 33시험10350명·장기요통RR1.00 2시험814명/기구분만전체RR1.44와2005이후사후하위RR1.19CI.97~1.46/통증이질성/부작용·낮음~중간질. 전문XML실패와구별."
+    },
+    {
+      "url": "https://www.law.go.kr/LSW/admRulLsInfoR.do?admRulSeq=2100000277954&languageType=KO&chrClsCd=010202",
+      "requested_at": "2026-10-18T17:23:49.358770+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "voucher-rule",
+      "status": "access_failed",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "id": "sources:22",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "실제신규HTTPS접근실패·본문미열람.후속성공/검색/초록과별도기록."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=detc&ID=181755&type=XML",
+      "requested_at": "2026-10-18T17:23:49.378411+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "birth-case",
+      "status": "access_failed",
+      "error": "HTTP Error 502: Bad Gateway",
+      "id": "sources:23",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "실제신규HTTPS접근실패·본문미열람.후속성공/검색/초록과별도기록."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&ID=001761&type=XML&efYd=20260918",
+      "requested_at": "2026-10-18T17:23:49.381220+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "employment-current",
+      "status": "access_failed",
+      "error": "<urlopen error Tunnel connection failed: 502 Bad Gateway>",
+      "id": "sources:24",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "실제신규HTTPS접근실패·본문미열람.후속성공/검색/초록과별도기록."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=220905&type=XML",
+      "requested_at": "2026-10-18T17:23:49.618242+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "hivlaw",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch27-audit/93154350608644711473.raw",
+      "sha256": "4dc2454301f07b9a262ec486f635d6094fec1f818f190992e8876541ab05d48c",
+      "id": "sources:25",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "실제원응답관련조문/본문열람 또는검색서지·정확본문경로확인. 항목별범위참조."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=285325&type=XML",
+      "requested_at": "2026-10-18T17:23:50.615876+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "infectlaw",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch27-audit/cc08b2582f040ced3aeb.raw",
+      "sha256": "7d78423943bd1d4d22a29b024581cf6d3e54f33388b03f9a2e7aba129f980113",
+      "id": "sources:26",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "실제원응답관련조문/본문열람 또는검색서지·정확본문경로확인. 항목별범위참조."
+    },
+    {
+      "url": "https://u119.nfa.go.kr",
+      "requested_at": "2026-10-18T17:23:50.853899+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "119home",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch27-audit/c0767d628a6bd288abc0.raw",
+      "sha256": "e1f290817b2fd7569f3c74c61fca62bdbde69b7ef6fbb68c3bbb7553259558cb",
+      "id": "sources:27",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "HTTP200이나자동POST loginForm 셸/119제목만. 실제가입본문아님."
+    },
+    {
+      "url": "https://www.nhs.uk/pregnancy/labour-and-birth/signs-of-labour/signs-that-labour-has-begun/",
+      "requested_at": "2026-10-18T17:23:56.826237+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "nhs-water",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch27-audit/dd695ea1559b19ec13d4.raw",
+      "sha256": "98b7437956a830b4657352c93c34f5d44ca546b785bf84a7ea5aa28e6cd12ced",
+      "id": "more:0",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "NHS 실제진통/파수안내 전문:분만팀즉시연락·다음날기다리지않음/파수후샤워목욕감염증가근거없음·특정이송조건.한국119번호근거아님."
+    },
+    {
+      "url": "https://www.rcog.org.uk/for-the-public/browse-our-patient-information/umbilical-cord-prolapse-in-late-pregnancy/",
+      "requested_at": "2026-10-18T17:23:56.827899+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "rcog-cord",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch27-audit/e815f0839be30330d983.raw",
+      "sha256": "d981ea46d9c5966a7f819bbd61488e827520b4360d0f5dc603f2727295ac801f",
+      "id": "more:1",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "RCOG 실제제대탈출환자안내전문:탯줄보임/만져짐이면긴급구급·무릎가슴자세/옆눕기엉덩이받침·드문1/200~1000/고위험태위등.일반파수전체에이자세부과아님."
+    },
+    {
+      "url": "https://www.cdc.gov/folic-acid/about/index.html",
+      "requested_at": "2026-10-18T17:23:56.828693+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "cdc-folate",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch27-audit/2e5fb500819c35236e4a.raw",
+      "sha256": "3a7f2a43312fc8d5d9e5cc3a0cb79fc37538bab9da926ea4d98e069e9b9dd345",
+      "id": "more:2",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "CDC2026-09-18 실제엽산안내:일반400mcg/과거NTD임신이면의사상담4000mcg·임신전1개월~첫3개월.국내고용량제품제형확인아님."
+    },
+    {
+      "url": "https://www.cdc.gov/fasd/about/index.html",
+      "requested_at": "2026-10-18T17:23:56.829561+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "cdc-alcohol",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch27-audit/732f0957dc84593bb749.raw",
+      "sha256": "3c2834346523a345c509367a4d8cbf559090b9364e47ddf73f273fd7b694237b",
+      "id": "more:3",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "CDC 실제FASD안내:임신/계획중안전알려진음주량·시점없음. 한국단독임상시험아님."
+    },
+    {
+      "url": "https://www.cochrane.org/evidence/CD007950_effects-and-safety-taking-folic-acid-pregnancy-preventing-birth-defects",
+      "requested_at": "2026-10-18T17:23:56.830269+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "cochrane-folate",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch27-audit/7da0ce31bae134341457.raw",
+      "sha256": "b3b8bb81e6bb174dabbe2cb79b0f88eafd2b273517b8d1d51f51494b5fbd58d0",
+      "id": "more:4",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "Cochrane 실제원고찰요약/abstract본문·2015.12.14. 논문전문부록전체열람아님."
+    },
+    {
+      "url": "https://www.cochrane.org/evidence/CD000331_epidurals-pain-relief-labour",
+      "requested_at": "2026-10-18T17:23:56.838112+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "cochrane-epidural",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch27-audit/3c83bdc8897e900913f4.raw",
+      "sha256": "8c7b521af50a4f2186d6b34281a21c9232ad02d20135bce94e578b83a34e6556",
+      "id": "more:5",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "Cochrane 실제원고찰요약/abstract본문·2018.05.21. 논문전문부록전체열람아님."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000277954&type=XML",
+      "requested_at": "2026-10-18T17:24:59.219094+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "voucher-xml",
+      "status": "access_failed",
+      "error": "<urlopen error Tunnel connection failed: 502 Bad Gateway>",
+      "id": "supp:0",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "실제신규HTTPS접근실패·본문미열람.후속성공/검색/초록과별도기록."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&ID=001761&type=XML&efYd=20260918&retry=2",
+      "requested_at": "2026-10-18T17:24:59.220103+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "employment-retry",
+      "status": "access_failed",
+      "error": "<urlopen error Tunnel connection failed: 502 Bad Gateway>",
+      "id": "supp:1",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "실제신규HTTPS접근실패·본문미열람.후속성공/검색/초록과별도기록."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=detc&ID=181755&type=XML&retry=2",
+      "requested_at": "2026-10-18T17:24:59.220915+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "birth-case-retry",
+      "status": "access_failed",
+      "error": "<urlopen error Tunnel connection failed: 502 Bad Gateway>",
+      "id": "supp:2",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "실제신규HTTPS접근실패·본문미열람.후속성공/검색/초록과별도기록."
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8783750/fullTextXML",
+      "requested_at": "2026-10-18T17:24:59.221445+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "folate-full",
+      "status": "access_failed",
+      "error": "HTTP Error 500: Internal Server Error",
+      "id": "supp:3",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "실제신규HTTPS접근실패·본문미열람.후속성공/검색/초록과별도기록."
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6494646/fullTextXML",
+      "requested_at": "2026-10-18T17:24:59.221949+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "epidural-full",
+      "status": "access_failed",
+      "error": "HTTP Error 500: Internal Server Error",
+      "id": "supp:4",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "실제신규HTTPS접근실패·본문미열람.후속성공/검색/초록과별도기록."
+    },
+    {
+      "url": "https://www.who.int/publications/i/item/WHO-RHR-15.02",
+      "requested_at": "2026-10-18T17:24:59.222485+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "who-cs-recheck",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch27-audit/1bc331331f37b1d3bc73.raw",
+      "sha256": "9c9a21cdc512c0d2400d63f46cec5ced73321770e984cb409642daf8358d0f0b",
+      "id": "supp:5",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "실제원응답관련조문/본문열람 또는검색서지·정확본문경로확인. 항목별범위참조."
+    },
+    {
+      "url": "https://www.nfa.go.kr/nfa/news/pressrelease/press/",
+      "requested_at": "2026-10-18T17:25:00.588327+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "nfa-press-search",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch27-audit/e4c02e2ee2b5e6c2c5fd.raw",
+      "sha256": "2c5454fe28a50a7d928125b9116ae1ef75cb3408353aecd50a64418d69a721c1",
+      "id": "supp:6",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "실제원응답관련조문/본문열람 또는검색서지·정확본문경로확인. 항목별범위참조."
+    },
+    {
+      "url": "https://www.law.go.kr/LSW/admRulLsInfoR.do?admRulSeq=2100000277954",
+      "requested_at": "2026-10-18T17:25:26.946954+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "voucher-retry",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch27-audit/fb1fa87ec2d6b67e3790.raw",
+      "sha256": "cb11e3747af1031c1769098fdb985b0cc58ed40494ecead665dc4873b51de07d",
+      "id": "closure:0",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "고시2026-85 실제전조문1~9/부칙·5/6추가지급조건·유산사산제외·분만취약지연속30일/신청당시·확인란별도청구금지."
+    },
+    {
+      "url": "https://www.law.go.kr/LSW/detcInfoP.do?detcSeq=181755",
+      "requested_at": "2026-10-18T17:25:26.947902+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "birth-case-lsw",
+      "status": "access_failed",
+      "error": "<urlopen error Tunnel connection failed: 502 Bad Gateway>",
+      "id": "closure:1",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "실제신규HTTPS접근실패·본문미열람.후속성공/검색/초록과별도기록."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&ID=001761&type=XML&efYd=20260918&mobileYn=",
+      "requested_at": "2026-10-18T17:25:26.948555+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "employment-third",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch27-audit/6ad6486eec47d1a224d4.raw",
+      "sha256": "280b4bec05c376ed4fac83ab9077bcb4d164b9fb510e26d1060ac73b9a24d885",
+      "id": "closure:2",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "현행고용보험eflaw20260918 실제75조와관련부칙. 180피보험단위기간 외신청기한·부득이사유조건. 일반MST284449 2028미래판과구별."
+    },
+    {
+      "url": "https://iris.who.int/server/api/core/bitstreams/475b39fc-240b-462d-a5e1-429401c98a79/content",
+      "requested_at": "2026-10-18T17:25:26.949129+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "who-cs-pdf",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch27-audit/740497d9a2654211430d.raw",
+      "sha256": "e2c81382839e79225bb246ebcd7a490021357de775efee5684617fd3cfa04c0f",
+      "id": "closure:3",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "WHO2015 8쪽실제PDF전문:국가수준생태분석·10%연관/병원개인목표아님·질병/심리등결과불명/필요수술접근보장·수술장단기위험."
+    },
+    {
+      "url": "https://u119.nfa.go.kr/web/index.jsp",
+      "requested_at": "2026-10-18T17:25:26.949628+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "119-index",
+      "status": "access_failed",
+      "error": "HTTP Error 404: Not Found",
+      "id": "closure:4",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "실제신규HTTPS접근실패·본문미열람.후속성공/검색/초록과별도기록."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=expc&type=XML&query=%EC%B6%9C%EC%83%9D%EC%8B%A0%EA%B3%A0&display=100",
+      "requested_at": "2026-10-18T17:25:26.951258+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "birth-interpretation",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch27-audit/944793b68cc786f58d81.raw",
+      "sha256": "7d9a142fdde6a54c1c63b18fba04a7bab74f87d97d346c2b4e9384690fb8e172",
+      "id": "closure:5",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "출생신고법령해석검색/목록만. 해당헌법불합치시한뒤효력직접확인자료아님."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=detc&type=XML&query=2021%ED%97%8C%EB%A7%88975&display=100",
+      "requested_at": "2026-10-18T17:26:41.965956+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "birth-case-search",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch27-audit/4ded89d1ac5a6e2e8342.raw",
+      "sha256": "390db3e8eb17922d4623b58026348cb5c2f0541c4a7963af2a60ac5262d52a73",
+      "id": "final:0",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "헌재검색서지 정확181755확인만. 결정전문은last:2."
+    },
+    {
+      "url": "https://www.law.go.kr/LSW/admRulLsInfoR.do?admRulSeq=2100000277954&languageType=KO",
+      "requested_at": "2026-10-18T17:26:41.966974+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "voucher-alt",
+      "status": "access_failed",
+      "error": "<urlopen error Tunnel connection failed: 502 Bad Gateway>",
+      "id": "final:1",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "실제신규HTTPS접근실패·본문미열람.후속성공/검색/초록과별도기록."
+    },
+    {
+      "url": "https://www.119.go.kr/Center119/regist.do",
+      "requested_at": "2026-10-18T17:26:41.967672+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "119-register",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch27-audit/f8a5a6941c8533af21a4.raw",
+      "sha256": "a823d30ed1667e2cc6186c5069a71fd0fe8873a6b395038ecaca2959d31400af",
+      "id": "final:2",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "소방청 실제119안전신고센터신고화면/상단안심콜공식연결 https://u119.nfa.go.kr 확인.긴급신고접수와안심콜사전등록구별·가입완료체험아님."
+    },
+    {
+      "url": "https://www.nfa.go.kr/nfa/search/totalSearch.do?searchKeyword=1308",
+      "requested_at": "2026-10-18T17:26:41.968629+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "1308-nfa-search",
+      "status": "access_failed",
+      "error": "HTTP Error 404: Not Found",
+      "id": "final:3",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "실제신규HTTPS접근실패·본문미열람.후속성공/검색/초록과별도기록."
+    },
+    {
+      "url": "https://www.mohw.go.kr/board.es?mid=a10503000000&bid=0027&act=list&keyField=TITLE&keyWord=1308",
+      "requested_at": "2026-10-18T17:26:41.969222+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "1308-mohw-search",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch27-audit/62f7700181d3ae595509.raw",
+      "sha256": "c5c0683651d6b4c37b0b0c8bfbf2c603d4cc2c0fe5136495702942d88fd308ed",
+      "id": "final:4",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "복지부1308보도목록·2026글식별만.운영시간본문아님."
+    },
+    {
+      "url": "https://www.mohw.go.kr/board.es?mid=a10503000000&bid=0027&act=list&keyField=TITLE&keyWord=%EB%AA%A8%EC%9E%90%EB%B3%B4%EA%B1%B4%EC%82%AC%EC%97%85",
+      "requested_at": "2026-10-18T17:26:41.978221+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "mohw-maternal-search",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch27-audit/3dec4011c13f37ffc530.raw",
+      "sha256": "0c14acbe0c18decc7fbc9be2be38a0c69263ab730a828b49eacb515a9925a225",
+      "id": "final:5",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "복지부모자보건사업제목검색목록.2026사업안내전문확보아님/0또는옛결과로제도부재단정금지."
+    },
+    {
+      "url": "https://www.mohw.go.kr/board.es?mid=a10503000000&bid=0027&act=view&list_no=1491463",
+      "requested_at": "2026-10-18T17:27:15.805240+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "1308-2026",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch27-audit/9e4e3ad3a7c75daf17a5.raw",
+      "sha256": "4ad71292936787d819fe6fb1dcfdaa42f575473c51d3a39039d276c7a993d344",
+      "id": "last:0",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "복지부2026-07-30 실제보도전문:현재1308·지역상담연계/민간협력,24시간문구없음."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=detc&ID=181755&type=HTML",
+      "requested_at": "2026-10-18T17:27:15.806645+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "birth-html",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch27-audit/6c3ca27d9d395799aabf.raw",
+      "sha256": "bc80b1a9160c6b1ce47fd19236a3bec6f4160806d00a2948008828d7edd3760b",
+      "id": "last:1",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "DRF HTML HTTP200이나본문빈셸.결정전문아님."
+    },
+    {
+      "url": "https://www.law.go.kr/LSW/detcInfoP.do?mode=1&detcSeq=181755",
+      "requested_at": "2026-10-18T17:27:15.807290+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "birth-mode1",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch27-audit/60a6cab315c5a5cf9ef6.raw",
+      "sha256": "45c547304d3d7e1e8630abf34a3ef450a5a1c1a7e45dbcea9b3a558d63437fae",
+      "id": "last:2",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "국가법령LSW mode1 실제헌재2021헌마975 결정전문·주문/이유/반대의견·2025-05-31시한·당사자사실/당시예규.2025이후행정실무전체증명아님."
+    },
+    {
+      "url": "https://u119.nfa.go.kr/web/index.do",
+      "requested_at": "2026-10-18T17:27:15.807961+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "119-index-do",
+      "status": "access_failed",
+      "error": "HTTP Error 404: Not Found",
+      "id": "last:3",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "실제신규HTTPS접근실패·본문미열람.후속성공/검색/초록과별도기록."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=detc&ID=181755&type=JSON",
+      "requested_at": "2026-10-18T17:27:35.028744+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "birth-json",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch27-audit/d58324b85b81fd47c08b.raw",
+      "sha256": "a25fd0fe476fea981afe0245ddc9babd9a2bb2c89d3dad7420337d765d6a91f4",
+      "id": "casefinal:0",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "DRF JSON 실제헌재2021헌마975 결정본문/주문·이유를last:2전문과대조. 실패XML과구별."
+    },
+    {
+      "url": "https://www.law.go.kr/LSW/detcInfoR.do?detcSeq=181755",
+      "requested_at": "2026-10-18T17:27:35.029709+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "birth-r",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch27-audit/9f75f084c113224d083d.raw",
+      "sha256": "e64af23a8a87e9f4d8c2da4b89ff6dd0f26db29ce6960f92d1d1ab58ebfb899e",
+      "id": "casefinal:1",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "LSW R 실제헌재결정 전문본문.2025시한뒤현재실무의직접자료아님."
+    },
+    {
+      "url": "https://u119.nfa.go.kr/main/loginForm",
+      "requested_at": "2026-10-18T17:27:35.030395+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "119-login",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch27-audit/c95e590ba30f0fd04435.raw",
+      "sha256": "d995aabfcf4495f61f48ca6c8711b711b843170862cf3c20f98021c17ca75e22",
+      "id": "casefinal:2",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "HTTP200 loginForm은로그인처리셸·자바스크립트,가입설명본문/신청완료아님.공식이동주소는final:2에서확인."
+    },
+    {
+      "url": "https://www.mohw.go.kr/boardDownload.es?bid=0027&list_no=1491463&seq=2",
+      "requested_at": "2026-10-18T17:27:54.808249+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "1308-attachment",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch27-audit/6e07e9794b025c833060.raw",
+      "sha256": "df00233f9c7fda7947b2e1c794d4fa3218b7a7a831f7249a760806123b0d29bd",
+      "id": "end:0",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "복지부2026-07-30 공식PDF 5쪽전문·붙임1제도개요/17개소·1308.24시간운영문구미확인."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=admrul&type=XML&query=%ED%98%BC%EC%9D%B8%EC%99%B8%20%EC%B6%9C%EC%83%9D%EC%9E%90%EC%9D%98%20%EC%8B%A0%EA%B3%A0&display=100",
+      "requested_at": "2026-10-18T17:27:54.809046+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "birth-current-rule-search",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch27-audit/53bb7e33901c74fa4eca.raw",
+      "sha256": "2282ea4fb8be38ec511ec3fd084c499286865cdc62f66ee345d21249d04ad8db",
+      "id": "end:1",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "혼인외출생자신고 행정규칙검색0.검색어결과만이며관련규정없음증명아님."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=admrul&type=XML&query=%EA%B0%80%EC%A0%95%EB%B2%95%EC%9B%90%EC%9D%98%20%ED%99%95%EC%9D%B8%EC%A0%88%EC%B0%A8&display=100",
+      "requested_at": "2026-10-18T17:27:54.809659+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "birth-confirm-rule-search",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch27-audit/61f1dec9ce3e9593d5eb.raw",
+      "sha256": "f66a1bb3355db36c7566cadbf13845930a4d6ff5bf2e0e4414c9dfbe68a5cd45",
+      "id": "end:2",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "확인절차규칙검색 실제예규609/614·2022-12-23현행표시/정확URL확인."
+    },
+    {
+      "url": "https://www.law.go.kr/LSW/admRulLsInfoR.do?admRulSeq=2200000103691&languageType=KO&chrClsCd=010202",
+      "requested_at": "2026-10-18T17:28:26.463248+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "birth57-current-rule",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch27-audit/618bbe62458776baf2b7.raw",
+      "sha256": "bc7327a5af968f77ac6b2d8590a2bda4fda9f950d7b49536a7daae61f230e98d",
+      "id": "rules:0",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "예규614 실제전문1~6/4의2제3자친생추정명백불수리·혈연소명/6③특정정정허가불요·부칙.2022본문이2025시한뒤실무를갱신해확인한것아님."
+    },
+    {
+      "url": "https://www.law.go.kr/LSW/admRulLsInfoR.do?admRulSeq=2200000103693&languageType=KO&chrClsCd=010202",
+      "requested_at": "2026-10-18T17:28:26.464324+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "birth44-current-rule",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch27-audit/028ecf7492ce35988e4d.raw",
+      "sha256": "547d27ce677ffc282c7cd2d1df9859188aafae2c7560dc876a0064c9b3e8ac97",
+      "id": "rules:1",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "예규609 실제전문1~4/부칙:출생서류불능사유·모/혈연소명·법원심리확인서대체. 비용/처리평균미확인."
+    },
+    {
+      "url": "https://www.mohw.go.kr/board.es?mid=a10503000000&bid=0027&act=view&list_no=1482211",
+      "requested_at": "2026-10-18T17:28:26.464859+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "1308-2024",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch27-audit/224eb42bec618c59bb4f.raw",
+      "sha256": "372990d207380586375fe14006c00e303ac6f51a1d84dbcf11e5d06c2e9c9b33",
+      "id": "rules:2",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "복지부2024-07-09 실제보도본문:1308 언제어디서든가까운기관전화상담.명시24시간숫자문구/2026근무편성확인은아님."
+    },
+    {
+      "mst": "286727",
+      "chapters": [
+        27
+      ],
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=286727&type=XML",
+      "requested_at": "2026-10-18T12:38:06.415877+00:00",
+      "scope": "Exact cited statutory version only; article-specific commencement and claims require independent review.",
+      "http_status": 200,
+      "status": "statutory_xml_cached",
+      "title": "모자보건법",
+      "effective_date": "20260910",
+      "law_id": "000183",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/286727.xml",
+      "sha256": "7808a56842466cfc08bd88dce5324b968b0d7c6afd7349aef40883c96d635adc",
+      "bytes": 138562,
+      "article_count": 66,
+      "selected_articles": [
+        "2",
+        "8",
+        "9",
+        "10",
+        "10의2",
+        "10의5",
+        "11의4"
+      ],
+      "id": "law:286727",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "실제XML 선택조문 2,8,9,10,10의2,10의5,11의4 및관련부칙/모자규칙별표1·건보령별표2본문대조. 가족등록18도추가열람. 현행헤더만으로장래개정조문을현행적용하지않음."
+    },
+    {
+      "mst": "272453",
+      "chapters": [
+        27
+      ],
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=272453&type=XML",
+      "requested_at": "2026-10-18T12:37:11.987789+00:00",
+      "scope": "Exact cited statutory version only; article-specific commencement and claims require independent review.",
+      "http_status": 200,
+      "status": "statutory_xml_cached",
+      "title": "모자보건법 시행령",
+      "effective_date": "20250621",
+      "law_id": "003476",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/272453.xml",
+      "sha256": "19e797f8f9147402189c3e22feb2779fe34e978d52d3553818c829cb8e73d13a",
+      "bytes": 128082,
+      "article_count": 33,
+      "selected_articles": [
+        "13"
+      ],
+      "id": "law:272453",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "실제XML 선택조문 13 및관련부칙/모자규칙별표1·건보령별표2본문대조. 가족등록18도추가열람. 현행헤더만으로장래개정조문을현행적용하지않음."
+    },
+    {
+      "mst": "283857",
+      "chapters": [
+        27
+      ],
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=283857&type=XML",
+      "requested_at": "2026-10-18T12:37:50.675124+00:00",
+      "scope": "Exact cited statutory version only; article-specific commencement and claims require independent review.",
+      "http_status": 200,
+      "status": "statutory_xml_cached",
+      "title": "모자보건법 시행규칙",
+      "effective_date": "20260304",
+      "law_id": "007137",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/283857.xml",
+      "sha256": "01f76b270f00a4392804fba852d58d3abd55e9bc671f64bbef95e0ccad6ffa65",
+      "bytes": 415648,
+      "article_count": 37,
+      "selected_articles": [
+        "2",
+        "3",
+        "5"
+      ],
+      "id": "law:283857",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "실제XML 선택조문 2,3,5 및관련부칙/모자규칙별표1·건보령별표2본문대조. 가족등록18도추가열람. 현행헤더만으로장래개정조문을현행적용하지않음."
+    },
+    {
+      "mst": "285273",
+      "chapters": [
+        5,
+        13,
+        16,
+        24,
+        27
+      ],
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=285273&type=XML",
+      "requested_at": "2026-10-18T12:37:57.198257+00:00",
+      "scope": "Exact cited statutory version only; article-specific commencement and claims require independent review.",
+      "http_status": 200,
+      "status": "statutory_xml_cached",
+      "title": "국민건강보험법",
+      "effective_date": "20261008",
+      "law_id": "001971",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/285273.xml",
+      "sha256": "61d71f01d2824e7332c868f26d4cc9c6ca73ad09b9a3945375ec9ea8972d0bf7",
+      "bytes": 353154,
+      "article_count": 159,
+      "selected_articles": [
+        "5",
+        "6",
+        "8",
+        "50"
+      ],
+      "id": "law:285273",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "실제XML 선택조문 5,6,8,50 및관련부칙/모자규칙별표1·건보령별표2본문대조. 가족등록18도추가열람. 현행헤더만으로장래개정조문을현행적용하지않음."
+    },
+    {
+      "mst": "289701",
+      "chapters": [
+        1,
+        16,
+        18,
+        24,
+        27,
+        30
+      ],
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=289701&type=XML",
+      "requested_at": "2026-10-18T12:38:20.915902+00:00",
+      "scope": "Exact cited statutory version only; article-specific commencement and claims require independent review.",
+      "http_status": 200,
+      "status": "statutory_xml_cached",
+      "title": "국민건강보험법 시행령",
+      "effective_date": "20261001",
+      "law_id": "002813",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/289701.xml",
+      "sha256": "9c36143d7d4df72f8076d4d34b98002a510c415e13165d3efedaaf5e19b6a2af",
+      "bytes": 583584,
+      "article_count": 139,
+      "selected_articles": [
+        "23"
+      ],
+      "id": "law:289701",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "실제XML 선택조문 23 및관련부칙/모자규칙별표1·건보령별표2본문대조. 가족등록18도추가열람. 현행헤더만으로장래개정조문을현행적용하지않음."
+    },
+    {
+      "mst": "290599",
+      "chapters": [
+        5,
+        24,
+        27
+      ],
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290599&type=XML",
+      "requested_at": "2026-10-18T12:38:31.753739+00:00",
+      "scope": "Exact cited statutory version only; article-specific commencement and claims require independent review.",
+      "http_status": 200,
+      "status": "statutory_xml_cached",
+      "title": "국민건강보험법 시행규칙",
+      "effective_date": "20260928",
+      "law_id": "006696",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290599.xml",
+      "sha256": "dcea033f138d9ece7311e9ee3aa216c8edd0b36674038c8081d60a11a3ab0982",
+      "bytes": 1743459,
+      "article_count": 77,
+      "selected_articles": [
+        "2",
+        "4"
+      ],
+      "id": "law:290599",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "실제XML 선택조문 2,4 및관련부칙/모자규칙별표1·건보령별표2본문대조. 가족등록18도추가열람. 현행헤더만으로장래개정조문을현행적용하지않음."
+    },
+    {
+      "mst": "285279",
+      "chapters": [
+        8,
+        11,
+        13,
+        18,
+        19,
+        27
+      ],
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=285279&type=XML",
+      "requested_at": "2026-10-18T12:37:57.424991+00:00",
+      "scope": "Exact cited statutory version only; article-specific commencement and claims require independent review.",
+      "http_status": 200,
+      "status": "statutory_xml_cached",
+      "title": "근로기준법",
+      "effective_date": "20261008",
+      "law_id": "001872",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/285279.xml",
+      "sha256": "222fd311aa29570bf0045061e332c9b6696b49427a4ae8f17540763866b36c2e",
+      "bytes": 248381,
+      "article_count": 146,
+      "selected_articles": [
+        "74의2"
+      ],
+      "id": "law:285279",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "실제XML 선택조문 74의2 및관련부칙/모자규칙별표1·건보령별표2본문대조. 가족등록18도추가열람. 현행헤더만으로장래개정조문을현행적용하지않음."
+    },
+    {
+      "mst": "288079",
+      "chapters": [
+        27
+      ],
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=288079&type=XML",
+      "requested_at": "2026-10-18T12:38:10.197361+00:00",
+      "scope": "Exact cited statutory version only; article-specific commencement and claims require independent review.",
+      "http_status": 200,
+      "status": "statutory_xml_cached",
+      "title": "의료급여법 시행규칙",
+      "effective_date": "20260710",
+      "law_id": "007867",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/288079.xml",
+      "sha256": "712fabca97fe663c41529ccd086ae653270a0fcb762ddabfe6a6fc61f0dfec91",
+      "bytes": 797609,
+      "article_count": 54,
+      "selected_articles": [
+        "8의2"
+      ],
+      "id": "law:288079",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "실제XML 선택조문 8의2 및관련부칙/모자규칙별표1·건보령별표2본문대조. 가족등록18도추가열람. 현행헤더만으로장래개정조문을현행적용하지않음."
+    },
+    {
+      "mst": "290741",
+      "chapters": [
+        8,
+        27
+      ],
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290741&type=XML",
+      "requested_at": "2026-10-18T12:38:39.288513+00:00",
+      "scope": "Exact cited statutory version only; article-specific commencement and claims require independent review.",
+      "http_status": 200,
+      "status": "statutory_xml_cached",
+      "title": "가족관계의 등록 등에 관한 법률",
+      "effective_date": "20261002",
+      "law_id": "010444",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290741.xml",
+      "sha256": "1536b089044348843d550af54c4457d25cfca583c29c512643c1d0c8efb07f7c",
+      "bytes": 225693,
+      "article_count": 160,
+      "selected_articles": [
+        "20",
+        "44",
+        "44의2",
+        "44의3",
+        "44의4",
+        "45",
+        "46",
+        "57",
+        "99",
+        "104",
+        "122"
+      ],
+      "id": "law:290741",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "실제XML 선택조문 20,44,44의2,44의3,44의4,45,46,57,99,104,122 및관련부칙/모자규칙별표1·건보령별표2본문대조. 가족등록18도추가열람. 현행헤더만으로장래개정조문을현행적용하지않음."
+    },
+    {
+      "mst": "284415",
+      "chapters": [
+        5,
+        8,
+        13,
+        27,
+        30
+      ],
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=284415&type=XML",
+      "requested_at": "2026-10-18T12:37:55.111996+00:00",
+      "scope": "Exact cited statutory version only; article-specific commencement and claims require independent review.",
+      "http_status": 200,
+      "status": "statutory_xml_cached",
+      "title": "민법",
+      "effective_date": "20260317",
+      "law_id": "001706",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/284415.xml",
+      "sha256": "cd2997176df62de7b1e4bb018287987654f6054cbd0eeced9e882d5c4daf53df",
+      "bytes": 1098134,
+      "article_count": 1337,
+      "selected_articles": [
+        "781"
+      ],
+      "id": "law:284415",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "실제XML 선택조문 781 및관련부칙/모자규칙별표1·건보령별표2본문대조. 가족등록18도추가열람. 현행헤더만으로장래개정조문을현행적용하지않음."
+    },
+    {
+      "mst": "286729",
+      "chapters": [
+        27
+      ],
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=286729&type=XML",
+      "requested_at": "2026-10-18T12:38:06.791318+00:00",
+      "scope": "Exact cited statutory version only; article-specific commencement and claims require independent review.",
+      "http_status": 200,
+      "status": "statutory_xml_cached",
+      "title": "아동수당법",
+      "effective_date": "20260910",
+      "law_id": "013103",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/286729.xml",
+      "sha256": "1fe8a5b5b02e2c059f8f05f3f560633db0d787b11cbe462ec7182d7ad9c04887",
+      "bytes": 73826,
+      "article_count": 33,
+      "selected_articles": [
+        "10"
+      ],
+      "id": "law:286729",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "실제XML 선택조문 10 및관련부칙/모자규칙별표1·건보령별표2본문대조. 가족등록18도추가열람. 현행헤더만으로장래개정조문을현행적용하지않음."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290667&type=XML",
+      "requested_at": "2026-10-18T16:46:15.037401+00:00",
+      "retrieval_mode": "existing_cache_read",
+      "tag": "law:290667",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/17f7dfb06a0431cd5fb0.raw",
+      "sha256": "4f0e3b2d0b92674e5da9e66b4bb8265aefe99f7d597e398bff382b1667efe56f",
+      "id": "cache24:sources:5",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "의료법17직접진찰·검안/제증명발급과21사본·부칙"
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290113&type=XML",
+      "requested_at": "2026-10-18T16:47:22.866021+00:00",
+      "retrieval_mode": "existing_cache_read",
+      "tag": "law:290113",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/6b8d01809b2fec496ce4.raw",
+      "sha256": "dd6228b88d970e33b979d0d9e59c5b74f6f45958c01dcab79e034334365fbc92",
+      "id": "cache24:more:0",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "민소98/109소송비용·변호사비한도/과정비용일반틀"
+    },
+    {
+      "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=95830869",
+      "requested_at": "2026-10-18T16:47:48.476228+00:00",
+      "retrieval_mode": "existing_cache_read",
+      "tag": "file:95830869",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/1681d8719b980cb43670.raw",
+      "sha256": "63ec9a9696c20e387bce3706ffe0138e7392d568b588c9eb43fa48b0245231c8",
+      "id": "cache24:attach:0",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "실제HWP OLE/DEFLATE 별표18출생증명3000원·30동시추가통사본1000원/주기진찰검사비별도·고시기준"
+    },
+    {
+      "mst": "279721",
+      "chapters": [
+        27
+      ],
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=279721&type=XML",
+      "requested_at": "2026-10-18T12:37:31.183518+00:00",
+      "scope": "Exact cited statutory version only; article-specific commencement and claims require independent review.",
+      "http_status": 200,
+      "status": "statutory_xml_cached",
+      "title": "위기 임신 및 보호출산 지원과 아동 보호에 관한 특별법",
+      "effective_date": "20260512",
+      "law_id": "014531",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/279721.xml",
+      "sha256": "f8f19d478443659875b5096ec173cffbdc6260d65225406e8361528a1db1eba7",
+      "bytes": 64741,
+      "article_count": 32,
+      "id": "law:279721",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "위기임신보호출산법 실제XML7상담요청/지역기관·부칙.1308운영시간을법문에서확정하지않음."
+    },
+    {
+      "id": "local:book/27-怀孕和生产.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/book/27-怀孕和生产.md",
+      "sha256": "694b9a4e399e279c8e17aced423b5b53e32d16b3cf1004a4c4ea2484cc63e44f",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline/중국16항대응·도입/전스냅샷/기존기록대조.이전formal판정재사용아님."
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch27/source.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch27/source.md",
+      "sha256": "30edce324d2368ea75bad81829819cd647581afaa7cdbcfa64775d26d53f21cd",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline/중국16항대응·도입/전스냅샷/기존기록대조.이전formal판정재사용아님."
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch27/manifest.json",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch27/manifest.json",
+      "sha256": "bf9ca0d967538bf72a0de6ba5b74f0b4d3835560ad190c35b6a5d72abade4801",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline/중국16항대응·도입/전스냅샷/기존기록대조.이전formal판정재사용아님."
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch27/intro.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch27/intro.md",
+      "sha256": "eadb1adfca0b227f9e137b082684c95ac7cd479da9fe2d830b8ae47d81f368f2",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline/중국16항대응·도입/전스냅샷/기존기록대조.이전formal판정재사용아님."
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch27/tail.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch27/tail.md",
+      "sha256": "0518bbc4133744cacc853bd7c94e23cb99f2447a45a7db210460454e3613c5ee",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline/중국16항대응·도입/전스냅샷/기존기록대조.이전formal판정재사용아님."
+    },
+    {
+      "id": "local:kr-harness/chapters/27/1-analysis.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/chapters/27/1-analysis.md",
+      "sha256": "90eb78ddd6d7aac4689e62bf5752b634b8411f0cdf1217a3ab7e73db2b448a0f",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline/중국16항대응·도입/전스냅샷/기존기록대조.이전formal판정재사용아님."
+    },
+    {
+      "id": "local:kr-harness/chapters/27/2-research.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/chapters/27/2-research.md",
+      "sha256": "ed8ed88e057c34390365b35f831809936f1e8da867e5aae13ff753ec3c0c9726",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline/중국16항대응·도입/전스냅샷/기존기록대조.이전formal판정재사용아님."
+    },
+    {
+      "id": "local:kr-harness/chapters/27/3-draft.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/chapters/27/3-draft.md",
+      "sha256": "a39a5bc4fb91712ce7a5e577d99115db5e4a6605dabda81e6e278b4142c5aff1",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline/중국16항대응·도입/전스냅샷/기존기록대조.이전formal판정재사용아님."
+    },
+    {
+      "id": "local:kr-harness/chapters/27/kr-fit-review.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/chapters/27/kr-fit-review.md",
+      "sha256": "df726762ccb670ed61f94844f329de0ef619ba8b5b489daa706a1354f5992baf",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline/중국16항대응·도입/전스냅샷/기존기록대조.이전formal판정재사용아님."
+    },
+    {
+      "id": "local:kr-harness/chapters/27/kr-fit-review.r1.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/chapters/27/kr-fit-review.r1.md",
+      "sha256": "2c415950fe155935eeb7f687c02e64d8a0cc9f905d90a794e39245a381887fcd",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline/중국16항대응·도입/전스냅샷/기존기록대조.이전formal판정재사용아님."
+    },
+    {
+      "id": "local:kr-harness/chapters/27/kr-fit-review.r2.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/chapters/27/kr-fit-review.r2.md",
+      "sha256": "defc3a22f7bdaea5454d6edd39c08b9d2e14e58f00447597edb948a0874be8c5",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline/중국16항대응·도입/전스냅샷/기존기록대조.이전formal판정재사용아님."
+    },
+    {
+      "id": "local:kr-harness/chapters/27/kr-fit-review.r3.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/chapters/27/kr-fit-review.r3.md",
+      "sha256": "36c79f7fda04425e2c4a8411f25c0d8f398fa4c8276891f06d283deee7a03aba",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline/중국16항대응·도입/전스냅샷/기존기록대조.이전formal판정재사용아님."
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch27/_workspace/2026-10-18-001-ccc2/entry_snapshot.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch27/_workspace/2026-10-18-001-ccc2/entry_snapshot.md",
+      "sha256": "80ec5e4f2688915db3d5c6aa6e0922169eb4d8f32b56ec6bc999ac2f981a32fb",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline/중국16항대응·도입/전스냅샷/기존기록대조.이전formal판정재사용아님."
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch27/_workspace/2026-10-18-002-640a/entry_snapshot.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch27/_workspace/2026-10-18-002-640a/entry_snapshot.md",
+      "sha256": "b2a65fd833753f5398f09d9aac40f3b7360bc5bee5ba6277281b19270fa5d4be",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline/중국16항대응·도입/전스냅샷/기존기록대조.이전formal판정재사용아님."
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch27/_workspace/2026-10-18-003-f217/entry_snapshot.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch27/_workspace/2026-10-18-003-f217/entry_snapshot.md",
+      "sha256": "9f638a74e871a7ea65c469fd6e69a5cf607456c2222e6648c524cb84914d2574",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline/중국16항대응·도입/전스냅샷/기존기록대조.이전formal판정재사용아님."
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch27/_workspace/2026-10-18-004-a722/entry_snapshot.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch27/_workspace/2026-10-18-004-a722/entry_snapshot.md",
+      "sha256": "bab70d44a0611ce5629879387b2e7da179eb7662776cf6ba8ac7647a22753052",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline/중국16항대응·도입/전스냅샷/기존기록대조.이전formal판정재사용아님."
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch27/_workspace/2026-10-18-005-2f4c/entry_snapshot.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch27/_workspace/2026-10-18-005-2f4c/entry_snapshot.md",
+      "sha256": "c449b16be70a410b12fd40e4ea027272959dc811dcd47c34b2ec797d7a5eeb0c",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline/중국16항대응·도입/전스냅샷/기존기록대조.이전formal판정재사용아님."
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch27/_workspace/2026-10-18-006-0804/entry_snapshot.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch27/_workspace/2026-10-18-006-0804/entry_snapshot.md",
+      "sha256": "e9c9d94892255e1fe74c1e60844567965a06ccf0ad9a7c3c705255762890938b",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline/중국16항대응·도입/전스냅샷/기존기록대조.이전formal판정재사용아님."
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch27/_workspace/2026-10-18-007-2265/entry_snapshot.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch27/_workspace/2026-10-18-007-2265/entry_snapshot.md",
+      "sha256": "5e6859e53ad1eba5d3328d915787ef76847821603b11dc1ded947a3852d96e53",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline/중국16항대응·도입/전스냅샷/기존기록대조.이전formal판정재사용아님."
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch27/_workspace/2026-10-18-008-23ed/entry_snapshot.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch27/_workspace/2026-10-18-008-23ed/entry_snapshot.md",
+      "sha256": "29785ccc26830e131f8ce5106e87329ee6af9b789c44459862a8134f960c58a2",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline/중국16항대응·도입/전스냅샷/기존기록대조.이전formal판정재사용아님."
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch27/_workspace/2026-10-18-009-7952/entry_snapshot.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch27/_workspace/2026-10-18-009-7952/entry_snapshot.md",
+      "sha256": "9c56fea034148489600e0f343e84eea96b402451b83af7021765a1f9e3a122da",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline/중국16항대응·도입/전스냅샷/기존기록대조.이전formal판정재사용아님."
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch27/_workspace/2026-10-18-010-d835/entry_snapshot.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch27/_workspace/2026-10-18-010-d835/entry_snapshot.md",
+      "sha256": "5acaf93be4c531a27167f4696fc058055f59f902106f8959f9b49194432c9396",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline/중국16항대응·도입/전스냅샷/기존기록대조.이전formal판정재사용아님."
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch27/_workspace/2026-10-18-011-303f/entry_snapshot.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch27/_workspace/2026-10-18-011-303f/entry_snapshot.md",
+      "sha256": "48e9ae5439d3921b5126ea8ef609cac7caa23681c431a46848d30569b0a28275",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline/중국16항대응·도입/전스냅샷/기존기록대조.이전formal판정재사용아님."
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch27/_workspace/2026-10-18-012-c6a2/entry_snapshot.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch27/_workspace/2026-10-18-012-c6a2/entry_snapshot.md",
+      "sha256": "463da934487a324140fae996786104af24dcaca6fa701458a153d0d758ee4ace",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline/중국16항대응·도입/전스냅샷/기존기록대조.이전formal판정재사용아님."
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch27/_workspace/2026-10-18-013-b031/entry_snapshot.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch27/_workspace/2026-10-18-013-b031/entry_snapshot.md",
+      "sha256": "75fd4404a0ccb8ce5429977e9942060470ca0c57328f19cc6454bfa2dc7db857",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline/중국16항대응·도입/전스냅샷/기존기록대조.이전formal판정재사용아님."
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch27/_workspace/2026-10-18-014-d575/entry_snapshot.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch27/_workspace/2026-10-18-014-d575/entry_snapshot.md",
+      "sha256": "3d58a02fe180e0d3833a12e414870c3604e2df9f49a3462b44e68a40c8fee920",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline/중국16항대응·도입/전스냅샷/기존기록대조.이전formal판정재사용아님."
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch27/_workspace/2026-10-18-015-f3b7/entry_snapshot.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch27/_workspace/2026-10-18-015-f3b7/entry_snapshot.md",
+      "sha256": "b09a7da6b12bebe79e1d0debd502c69fa122e6a24edfbf32250ce7fda5e62c6a",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline/중국16항대응·도입/전스냅샷/기존기록대조.이전formal판정재사용아님."
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch27/_workspace/2026-10-18-016-0cf8/entry_snapshot.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch27/_workspace/2026-10-18-016-0cf8/entry_snapshot.md",
+      "sha256": "30f75e607df1f6e6949fe2071aa44398928dd01eb9fc317eb966d8adaefb6cb7",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline/중국16항대응·도입/전스냅샷/기존기록대조.이전formal판정재사용아님."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=law&type=XML&query=%ED%9B%84%EC%B2%9C%EC%84%B1%EB%A9%B4%EC%97%AD%EA%B2%B0%ED%95%8D%EC%A6%9D%EC%98%88%EB%B0%A9%EB%B2%95&display=100&nw=1",
+      "requested_at": "2026-10-18T17:33:02.137619+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "hiv-current-search",
+      "status": "access_failed",
+      "error": "HTTP Error 502: Bad Gateway",
+      "id": "hiv-current:0",
+      "reviewed_at": "2026-10-18T17:32:34.464425+00:00",
+      "actual_review_scope": "신규HTTPS법명현재판검색 실제접근실패·본문/현재판확인아님. 인용20200912본문3/7은sources:25직접열람,그이후개정없음확정으로사용하지않음."
+    }
+  ],
+  "collection_limitations": [
+    "초기원자료감사일뿐편집·정식KR-FIT·출판승인아님. 후보필드승인전부pending/null.",
+    "실제신규HTTPS/기존법령·제증명HWP캐시열람 분리.실패/빈셸/검색서지/카드이미지미열람/원초록/전문을구별.",
+    "두Cochrane원초록·공식reviewsummary실제열람,PMC전문XML500실패.전체부록원자료재분석을했다고표시하지않음. OR/HR없음·RR상대위험/모수/CI와인구수준제왕률구별,임의baseline역산없음.",
+    "고용보험일반MST284449미래2028판대신20260918eflaw성공본문사용.모자법2027권역센터개정을2026현행의무로확장안함.",
+    "헌재전문/2022예규현재검색은확인했으나2025시한뒤효력·실무미확인은유지.조문텍스트잔존만으로효력확정안함.",
+    "한국무통·임당수가/매독별도지원/전국보건소통일혜택/국내아스피린제형·등급/2018선별급여고시·명시1308운영시간 미확인.",
+    "공식지역안내는국가전국권고의대체보장이아님.실제의료진상담·선별후확진·신청서류·본인부담예외와진료/법원처리비용분리.",
+    "후천성면역결핍증예방법 인용20200912판3/7은직접읽었으나최신법명검색후속실패.현재판추가개정없음까지이번신규검색으로확정하지않음."
+  ]
+}

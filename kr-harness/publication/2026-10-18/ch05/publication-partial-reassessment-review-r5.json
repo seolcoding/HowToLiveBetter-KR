@@ -1,0 +1,436 @@
+{
+  "status": "completed_exact_partial_reassessment_r5_all_seven_approved",
+  "manifest_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/author-partial-reassessment-2.json",
+  "manifest_sha256": "af2705c1c85ec65c48f8d21bb60b9d4c33935456387190db9adf2afd10820771",
+  "reviewed_at_utc": "2026-10-18T17:22:31.629439+00:00",
+  "entries": [
+    {
+      "entry": 5,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-005-7f82/publication-entry-proposal-r2.md",
+      "proposal_sha256": "0fa60d60525cbc0a376c0002663fe78413ded09958fd2bf67d8b28ba6a7fdf04",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-005-7f82/publication-entry-changes-r2.json",
+      "changes_sha256": "602e5554a5f6cbe67edc8846725800102de542ba2d8092f24b5f4ba1152f84e8",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-005-7f82/strict-entry.md",
+      "base_strict_entry_sha256": "c2cbaae526bb2be0e3f200dc3b7182609455c593e103a77dbb6481eda3f51b0e",
+      "literal_exit_code": 0,
+      "decision": "approve",
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "length_check": {
+        "entry": 5,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-005-7f82/publication-entry-proposal-r2.md",
+        "title_chars": 10,
+        "easy_chars": 99,
+        "easy_sentences": 4,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "six_labels": true,
+        "tag": true,
+        "grade": true
+      },
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "revision_requests": [],
+      "approval_reuse": {
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/publication-partial-reassessment-review-r4.json",
+        "sha256": "623f78a72ae60d6579d6e5f97acfb81dd5d0185569d8448762c907606de7c61c",
+        "identical_proposal_changes_base": true,
+        "reason": "No changed bytes or new concern;prior exact approval and actual source range reused without duplicate investigation."
+      },
+      "actual_source_assessment": "법8 실제원문 전체 직접읽음:발행액50%이상,미리확정불가시판매액기준. 공식동행복권 실제HTTP200에서 로또판매액50%/기금40%이상/1등1:8145060 확인.1000×.5=500원은 장기기대액이며 개인실측과 구별.소득세84② 건별200만원이하비과세·분할지급합계와129①6의20/초과3억원30% 조건 대조.앞서 실제읽은지방세103의13 소득세10%로22/33% 산술 일치.원문통화환산이나미검증연간판매액추가없음.",
+      "proposed_root_operation": {
+        "type": "replace_complete_strict_entry_body",
+        "before_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-005-7f82/strict-entry.md",
+        "before_entire_entry_sha256": "c2cbaae526bb2be0e3f200dc3b7182609455c593e103a77dbb6481eda3f51b0e",
+        "after_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-005-7f82/publication-entry-proposal-r2.md",
+        "after_entire_entry_sha256": "0fa60d60525cbc0a376c0002663fe78413ded09958fd2bf67d8b28ba6a7fdf04",
+        "separator_policy": "verify entire before body bytes;preserve surrounding chapter separators",
+        "supersession": "latest full replaces initialfield and olderfull for same entry;do not apply both;reused approvals do not authorize repeated operation",
+        "integration_authorized": false
+      }
+    },
+    {
+      "entry": 6,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-006-1972/publication-entry-proposal-r2.md",
+      "proposal_sha256": "8bb10ba9943641c1beb018b82a73877375539af2c16ac586c9dcbd7c37decf8f",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-006-1972/publication-entry-changes-r2.json",
+      "changes_sha256": "436bc4aab424629383fd29a9fd26e9550e7697b20783b055a59c5b54385b9464",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-006-1972/strict-entry.md",
+      "base_strict_entry_sha256": "e54fdc9d686c1af36b1e93c01f257ff2ada2874649966327fc43e10475ad62f5",
+      "literal_exit_code": 0,
+      "decision": "approve",
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "length_check": {
+        "entry": 6,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-006-1972/publication-entry-proposal-r2.md",
+        "title_chars": 44,
+        "easy_chars": 119,
+        "easy_sentences": 4,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "six_labels": true,
+        "tag": true,
+        "grade": true
+      },
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "revision_requests": [],
+      "approval_reuse": {
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/publication-partial-reassessment-review-r4.json",
+        "sha256": "623f78a72ae60d6579d6e5f97acfb81dd5d0185569d8448762c907606de7c61c",
+        "identical_proposal_changes_base": true,
+        "reason": "No changed bytes or new concern;prior exact approval and actual source range reused without duplicate investigation."
+      },
+      "actual_source_assessment": "법2의 인허가·불특정다수·업·원금이상·가상자산 조건 유지. 유사수신3/4/6 실제원문 추가열람으로 수신5년/5000만원과 광고2년/2000만원 구별 확인. 본문은 수신행위 벌칙으로 명시해 광고와 혼동하지 않음. 자본시장법55의 신탁/정당사유 예외는 앞선 직접읽음 유지. 금소법21①1과 령16① 직접 읽음: 시행령 예외는21제6호 행위에 관한 것이므로 본문 단정적권유 금지범위를 줄이지 않음. 금융감독원경보/중국수치 미열람은 독자한계로 유지.",
+      "proposed_root_operation": {
+        "type": "replace_complete_strict_entry_body",
+        "before_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-006-1972/strict-entry.md",
+        "before_entire_entry_sha256": "e54fdc9d686c1af36b1e93c01f257ff2ada2874649966327fc43e10475ad62f5",
+        "after_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-006-1972/publication-entry-proposal-r2.md",
+        "after_entire_entry_sha256": "8bb10ba9943641c1beb018b82a73877375539af2c16ac586c9dcbd7c37decf8f",
+        "separator_policy": "verify entire before body bytes;preserve surrounding chapter separators",
+        "supersession": "latest full replaces initialfield and olderfull for same entry;do not apply both;reused approvals do not authorize repeated operation",
+        "integration_authorized": false
+      }
+    },
+    {
+      "entry": 9,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-009-dea2/publication-entry-proposal-r2.md",
+      "proposal_sha256": "3ddb2b861b6a30a63d926f95443d367e40dac73d40587c8372afc810b54a5e1e",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-009-dea2/publication-entry-changes-r2.json",
+      "changes_sha256": "dc9d7ba35ed3da7246a985dd55d7eeadbf0aedf6b2d88fe1767f42bb9bba91a7",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-009-dea2/strict-entry.md",
+      "base_strict_entry_sha256": "da6e9ea3b21c28d0d964cb35e4e8ad5d9eb2af739f4bf62a93c163ecd4c9206d",
+      "literal_exit_code": 0,
+      "decision": "approve",
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "length_check": {
+        "entry": 9,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-009-dea2/publication-entry-proposal-r2.md",
+        "title_chars": 61,
+        "easy_chars": 120,
+        "easy_sentences": 4,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "six_labels": true,
+        "tag": true,
+        "grade": true
+      },
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "revision_requests": [],
+      "approval_reuse": {
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/publication-partial-reassessment-review-r3.json",
+        "sha256": "6f746743fabdbfcdc1e923be386f726a046670ffba6d2ff0d359478e765ecb31",
+        "identical_proposal_changes_base": true,
+        "reason": "No changed bytes or new concern;prior exact approval and actual source range reused without duplicate investigation."
+      },
+      "actual_source_assessment": "민법146의3년 AND10년을 분리해 조건 보존. 앞선 source supplement의 실제 민법4/5/6/15/17/140/141/146 및 전자상거래법13③을 재사용. 이 항목에 없는 소비자분쟁품목표 검증을 요구하지 않음.1372발신자부담은 기존공식본문확인 재사용.",
+      "proposed_root_operation": {
+        "type": "replace_complete_strict_entry_body",
+        "before_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-009-dea2/strict-entry.md",
+        "before_entire_entry_sha256": "da6e9ea3b21c28d0d964cb35e4e8ad5d9eb2af739f4bf62a93c163ecd4c9206d",
+        "after_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-009-dea2/publication-entry-proposal-r2.md",
+        "after_entire_entry_sha256": "3ddb2b861b6a30a63d926f95443d367e40dac73d40587c8372afc810b54a5e1e",
+        "separator_policy": "verify entire before body bytes;preserve surrounding chapter separators",
+        "supersession": "latest full replaces initialfield and olderfull for same entry;do not apply both;reused approvals do not authorize repeated operation",
+        "integration_authorized": false
+      }
+    },
+    {
+      "entry": 11,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-011-5dc5/publication-entry-proposal-r3.md",
+      "proposal_sha256": "ea2fdc95c844e2c4f2161a0de1b64a13d1930f40173402b6e2a466e83fba1df0",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-011-5dc5/publication-entry-changes-r3.json",
+      "changes_sha256": "244d0fda0e2a3708c119e213f31e1942cc78df0bcf4b87c012eb422e33d2e9ec",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-011-5dc5/strict-entry.md",
+      "base_strict_entry_sha256": "577d0285b91c6fe8832188e0755bf7cd240ae2ce00c5fc0571f1f7418b5902d8",
+      "literal_exit_code": 0,
+      "decision": "approve",
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "length_check": {
+        "entry": 11,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-011-5dc5/publication-entry-proposal-r3.md",
+        "title_chars": 23,
+        "easy_chars": 84,
+        "easy_sentences": 3,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "six_labels": true,
+        "tag": true,
+        "grade": true
+      },
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "revision_requests": [],
+      "actual_source_assessment": "최대1회·전액보장·자기부담금 없음·보장제외 제외라는 단순 기대비용 가정을 명시.3/30=10%면 본전,초과면 예상 보장수리비>보증료로 정정.앞서 확인한 정상사용하자·해당부품수리·취급잘못등 제외와 기간조건 유지.연구실측으로 승격하지 않음.",
+      "actual_source_reuse": [
+        {
+          "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/publication-partial-source-supplement-r1.json",
+          "sha256": "a233ada38d2678f3c0c981b0eef1ab068fd40f1fdeb1b99b5966347ce2e6d145"
+        },
+        {
+          "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/publication-partial-reassessment-review-r2.json",
+          "sha256": "dc734c30c940c9f1a84d737e12cc701ca3b5bf3af5cb4413616a8abbf3d47828"
+        },
+        {
+          "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/publication-partial-reassessment-review-r3.json",
+          "sha256": "6f746743fabdbfcdc1e923be386f726a046670ffba6d2ff0d359478e765ecb31"
+        }
+      ],
+      "proposed_root_operation": {
+        "type": "replace_complete_strict_entry_body",
+        "before_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-011-5dc5/strict-entry.md",
+        "before_entire_entry_sha256": "577d0285b91c6fe8832188e0755bf7cd240ae2ce00c5fc0571f1f7418b5902d8",
+        "after_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-011-5dc5/publication-entry-proposal-r3.md",
+        "after_entire_entry_sha256": "ea2fdc95c844e2c4f2161a0de1b64a13d1930f40173402b6e2a466e83fba1df0",
+        "separator_policy": "verify entire before body bytes;preserve surrounding chapter separators",
+        "supersession": "latest full replaces initialfield and olderfull for same entry;do not apply both;reused approvals do not authorize repeated operation",
+        "integration_authorized": false
+      }
+    },
+    {
+      "entry": 13,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-013-1bd0/publication-entry-proposal-r3.md",
+      "proposal_sha256": "36a12daf36f0029e793e5613e159012a0112c3b75b4d68f1334f50a0c94347ce",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-013-1bd0/publication-entry-changes-r3.json",
+      "changes_sha256": "bc77d8d37d3c7089f7bc72fb2c413d00440e845bb7fb17adb962f27cdb7f625d",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-013-1bd0/strict-entry.md",
+      "base_strict_entry_sha256": "54bd4c665f6605e9f0ae4e3ccf23bba871c8cbe8289095af7b219c60c97a4a51",
+      "literal_exit_code": 0,
+      "decision": "approve",
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "length_check": {
+        "entry": 13,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-013-1bd0/publication-entry-proposal-r3.md",
+        "title_chars": 59,
+        "easy_chars": 118,
+        "easy_sentences": 4,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "six_labels": true,
+        "tag": true,
+        "grade": true
+      },
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "revision_requests": [],
+      "actual_source_assessment": "법5① 국민전체라는 불필요한 일반화 문장을 삭제.가족전체 부양조건·재건축사업소득 공단인정예외·소득재산부부조건·취득상실시기예외는 실제읽은표/조문 범위 유지.",
+      "actual_source_reuse": [
+        {
+          "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/publication-partial-source-supplement-r1.json",
+          "sha256": "a233ada38d2678f3c0c981b0eef1ab068fd40f1fdeb1b99b5966347ce2e6d145"
+        },
+        {
+          "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/publication-partial-reassessment-review-r2.json",
+          "sha256": "dc734c30c940c9f1a84d737e12cc701ca3b5bf3af5cb4413616a8abbf3d47828"
+        },
+        {
+          "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/publication-partial-reassessment-review-r3.json",
+          "sha256": "6f746743fabdbfcdc1e923be386f726a046670ffba6d2ff0d359478e765ecb31"
+        }
+      ],
+      "proposed_root_operation": {
+        "type": "replace_complete_strict_entry_body",
+        "before_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-013-1bd0/strict-entry.md",
+        "before_entire_entry_sha256": "54bd4c665f6605e9f0ae4e3ccf23bba871c8cbe8289095af7b219c60c97a4a51",
+        "after_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-013-1bd0/publication-entry-proposal-r3.md",
+        "after_entire_entry_sha256": "36a12daf36f0029e793e5613e159012a0112c3b75b4d68f1334f50a0c94347ce",
+        "separator_policy": "verify entire before body bytes;preserve surrounding chapter separators",
+        "supersession": "latest full replaces initialfield and olderfull for same entry;do not apply both;reused approvals do not authorize repeated operation",
+        "integration_authorized": false
+      }
+    },
+    {
+      "entry": 22,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-022-0bc9/publication-entry-proposal-r3.md",
+      "proposal_sha256": "a7c6bb2eef26a061ad8718e79bbcf9d8abc8611db4e4cedd716fa7fabd4feff9",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-022-0bc9/publication-entry-changes-r3.json",
+      "changes_sha256": "d79df5ec9f4c5f2c1abf77c3668660d0f8cf07b91a5fc3782adb8cda7b51660e",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-022-0bc9/strict-entry.md",
+      "base_strict_entry_sha256": "fa7f1e532862640dd7b0a44dd0c20a6db271383207164528b3ec05f0c4f39077",
+      "literal_exit_code": 0,
+      "decision": "approve",
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "length_check": {
+        "entry": 22,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-022-0bc9/publication-entry-proposal-r3.md",
+        "title_chars": 49,
+        "easy_chars": 109,
+        "easy_sentences": 4,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "six_labels": true,
+        "tag": true,
+        "grade": true
+      },
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "revision_requests": [],
+      "actual_source_assessment": "소비자책임 해지와 표대상 회원제제외,이용료총액의 가입·입회·부대료포함/보증금제외를 명시.내용불일치·이용곤란은 별도기준,그밖의 사업자책임은 위약금가산으로 구별.현행할부법20만원/2개월/3회/7일·통지·제한예외 유지.공적 소비자분쟁해결기준에 따른 안내로 평가하며 법원의 자동반환명령이나 모든업종일률환급으로 승인하는 것이 아님.",
+      "actual_source_reuse": [
+        {
+          "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/publication-partial-source-supplement-r1.json",
+          "sha256": "a233ada38d2678f3c0c981b0eef1ab068fd40f1fdeb1b99b5966347ce2e6d145"
+        },
+        {
+          "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/publication-partial-reassessment-review-r2.json",
+          "sha256": "dc734c30c940c9f1a84d737e12cc701ca3b5bf3af5cb4413616a8abbf3d47828"
+        },
+        {
+          "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/publication-partial-reassessment-review-r3.json",
+          "sha256": "6f746743fabdbfcdc1e923be386f726a046670ffba6d2ff0d359478e765ecb31"
+        }
+      ],
+      "proposed_root_operation": {
+        "type": "replace_complete_strict_entry_body",
+        "before_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-022-0bc9/strict-entry.md",
+        "before_entire_entry_sha256": "fa7f1e532862640dd7b0a44dd0c20a6db271383207164528b3ec05f0c4f39077",
+        "after_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-022-0bc9/publication-entry-proposal-r3.md",
+        "after_entire_entry_sha256": "a7c6bb2eef26a061ad8718e79bbcf9d8abc8611db4e4cedd716fa7fabd4feff9",
+        "separator_policy": "verify entire before body bytes;preserve surrounding chapter separators",
+        "supersession": "latest full replaces initialfield and olderfull for same entry;do not apply both;reused approvals do not authorize repeated operation",
+        "integration_authorized": false
+      }
+    },
+    {
+      "entry": 35,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-035-2355/publication-entry-proposal-r4.md",
+      "proposal_sha256": "4d39332f12562e3040206192f28f3b51c5f22329c0a3163a5a1b022542c596bd",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-035-2355/publication-entry-changes-r4.json",
+      "changes_sha256": "ef7c7c5ff901b8e571cdbb24c97e1b2312e5abbca7c52e398304f942d27d6976",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-035-2355/strict-entry.md",
+      "base_strict_entry_sha256": "dad90d71068f360ac46c64efd6e9bd116cc3bc47109b04c8aed3cf4a1baeb31f",
+      "literal_exit_code": 0,
+      "decision": "approve",
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "length_check": {
+        "entry": 35,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-035-2355/publication-entry-proposal-r4.md",
+        "title_chars": 42,
+        "easy_chars": 115,
+        "easy_sentences": 4,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "six_labels": true,
+        "tag": true,
+        "grade": true
+      },
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "revision_requests": [],
+      "actual_source_assessment": "새 실제법33의2①/②/③과20738부칙 대조.표시누락/거짓으로손해·사업자고의과실없음입증예외·손해액입증곤란시법원인정·고의만법원재량3배이내 구별.2025-01-31 공포6개월후=2025-07-31 이후위반 적용.소규모각사업자두조건/환산예외·디지털콘텐츠철회예외 유지.",
+      "actual_source_reuse": [
+        {
+          "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/publication-partial-source-supplement-r1.json",
+          "sha256": "a233ada38d2678f3c0c981b0eef1ab068fd40f1fdeb1b99b5966347ce2e6d145"
+        },
+        {
+          "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/publication-partial-reassessment-review-r2.json",
+          "sha256": "dc734c30c940c9f1a84d737e12cc701ca3b5bf3af5cb4413616a8abbf3d47828"
+        },
+        {
+          "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/publication-partial-reassessment-review-r3.json",
+          "sha256": "6f746743fabdbfcdc1e923be386f726a046670ffba6d2ff0d359478e765ecb31"
+        }
+      ],
+      "proposed_root_operation": {
+        "type": "replace_complete_strict_entry_body",
+        "before_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-035-2355/strict-entry.md",
+        "before_entire_entry_sha256": "dad90d71068f360ac46c64efd6e9bd116cc3bc47109b04c8aed3cf4a1baeb31f",
+        "after_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-035-2355/publication-entry-proposal-r4.md",
+        "after_entire_entry_sha256": "4d39332f12562e3040206192f28f3b51c5f22329c0a3163a5a1b022542c596bd",
+        "separator_policy": "verify entire before body bytes;preserve surrounding chapter separators",
+        "supersession": "latest full replaces initialfield and olderfull for same entry;do not apply both;reused approvals do not authorize repeated operation",
+        "integration_authorized": false
+      }
+    }
+  ],
+  "approved_entries": [
+    5,
+    6,
+    9,
+    11,
+    13,
+    22,
+    35
+  ],
+  "reused_approval_entries": [
+    5,
+    6,
+    9
+  ],
+  "newly_reassessed_entries": [
+    11,
+    13,
+    22,
+    35
+  ],
+  "revise_entries": [],
+  "source_scope": "New four complete proposals and changes read and diffed with earlier versions. Previously actually-read primary source ranges reused;no fresh HTTP this r5. Game damages actual newHTTP bytes were directly read in r3 and reused here. Academic fulltexts not read are not promoted to verified.",
+  "game_primary_reused": {
+    "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&ID=010196&type=XML&efYd=20251023",
+    "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch05-partial-review/game-reassessment.xml",
+    "sha256": "3a9ae09157c3541dd83472f1609ae601de3a87066987ab37150870055eebddbc",
+    "scope": "33의2 full and20738 supplementary provisions;originalactualHTTP2002026-10-18T17:18:03.320087+00:00"
+  },
+  "integration_approval": false,
+  "formal_kr_fit_approval": false,
+  "whole45_approval": false,
+  "preservation": "Old reviews,frozen proposals,canonical,public,runs,gates,git unchanged;newr5 JSON/MD only."
+}

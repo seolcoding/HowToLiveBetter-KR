@@ -2353,8 +2353,8 @@
         "body_todo"
       ],
       "proposal_exists": true,
-      "publication_proposal_exists": false,
-      "publication_changes_exists": false,
+      "publication_proposal_exists": true,
+      "publication_changes_exists": true,
       "worker_id": "/root/humanize_a/ch05e18"
     },
     {
@@ -2404,8 +2404,8 @@
         "easy_over120"
       ],
       "proposal_exists": true,
-      "publication_proposal_exists": false,
-      "publication_changes_exists": false,
+      "publication_proposal_exists": true,
+      "publication_changes_exists": true,
       "worker_id": "/root/humanize_a/ch05e21"
     },
     {
@@ -2454,8 +2454,8 @@
       },
       "proposal_issues": [],
       "proposal_exists": false,
-      "publication_proposal_exists": false,
-      "publication_changes_exists": false,
+      "publication_proposal_exists": true,
+      "publication_changes_exists": true,
       "worker_id": "/root/humanize_a/ch05e24"
     },
     {
@@ -2471,8 +2471,8 @@
         "easy_over120"
       ],
       "proposal_exists": true,
-      "publication_proposal_exists": false,
-      "publication_changes_exists": false,
+      "publication_proposal_exists": true,
+      "publication_changes_exists": true,
       "worker_id": "/root/humanize_a/ch05e25"
     },
     {
@@ -2488,8 +2488,8 @@
         "easy_over120"
       ],
       "proposal_exists": true,
-      "publication_proposal_exists": false,
-      "publication_changes_exists": false,
+      "publication_proposal_exists": true,
+      "publication_changes_exists": true,
       "worker_id": "/root/humanize_a/ch05e26"
     },
     {
@@ -2505,8 +2505,8 @@
         "easy_over120"
       ],
       "proposal_exists": true,
-      "publication_proposal_exists": false,
-      "publication_changes_exists": false,
+      "publication_proposal_exists": true,
+      "publication_changes_exists": true,
       "worker_id": "/root/humanize_a/ch05e27"
     },
     {
@@ -2558,8 +2558,8 @@
         "heading_over70"
       ],
       "proposal_exists": true,
-      "publication_proposal_exists": false,
-      "publication_changes_exists": false,
+      "publication_proposal_exists": true,
+      "publication_changes_exists": true,
       "worker_id": "/root/humanize_a/ch05e30"
     },
     {
@@ -2575,8 +2575,8 @@
         "easy_over120"
       ],
       "proposal_exists": true,
-      "publication_proposal_exists": false,
-      "publication_changes_exists": false,
+      "publication_proposal_exists": true,
+      "publication_changes_exists": true,
       "worker_id": "/root/humanize_a/ch05e31"
     },
     {
@@ -2593,8 +2593,8 @@
         "body_todo"
       ],
       "proposal_exists": true,
-      "publication_proposal_exists": false,
-      "publication_changes_exists": false,
+      "publication_proposal_exists": true,
+      "publication_changes_exists": true,
       "worker_id": "/root/humanize_a/ch05e32"
     },
     {
@@ -8291,194 +8291,254 @@
       "number": 9,
       "route": "light",
       "run_dir": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch23/_workspace/2026-10-18-009-5aba",
-      "gate": null,
+      "gate": {
+        "verdict": "OK — 수렴",
+        "exit_code": 0
+      },
       "proposal_issues": [
         "easy_over120"
       ],
       "proposal_exists": false,
       "publication_proposal_exists": false,
-      "publication_changes_exists": false
+      "publication_changes_exists": false,
+      "worker_id": "/root/humanize_a/ch23e09"
     },
     {
       "chapter": "23",
       "number": 10,
       "route": "standard",
       "run_dir": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch23/_workspace/2026-10-18-010-0a8f",
-      "gate": null,
+      "gate": {
+        "verdict": "OK — 수렴",
+        "exit_code": 0
+      },
       "proposal_issues": [
         "easy_over120"
       ],
       "proposal_exists": false,
       "publication_proposal_exists": false,
-      "publication_changes_exists": false
+      "publication_changes_exists": false,
+      "worker_id": "/root/humanize_a/ch23e10"
     },
     {
       "chapter": "23",
       "number": 11,
       "route": "light",
       "run_dir": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch23/_workspace/2026-10-18-011-a775",
-      "gate": null,
+      "gate": {
+        "verdict": "OK — 수렴",
+        "exit_code": 0
+      },
       "proposal_issues": [
         "easy_over120"
       ],
       "proposal_exists": false,
       "publication_proposal_exists": false,
-      "publication_changes_exists": false
+      "publication_changes_exists": false,
+      "worker_id": "/root/humanize_a/ch23e11"
     },
     {
       "chapter": "23",
       "number": 12,
       "route": "light",
       "run_dir": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch23/_workspace/2026-10-18-012-ad2e",
-      "gate": null,
+      "gate": {
+        "verdict": "OK — 수렴",
+        "exit_code": 0
+      },
       "proposal_issues": [
         "easy_over120",
         "heading_over70"
       ],
       "proposal_exists": false,
       "publication_proposal_exists": false,
-      "publication_changes_exists": false
+      "publication_changes_exists": false,
+      "worker_id": "/root/humanize_a/ch23e12"
     },
     {
       "chapter": "23",
       "number": 13,
       "route": "light",
       "run_dir": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch23/_workspace/2026-10-18-013-ae74",
-      "gate": null,
+      "gate": {
+        "verdict": "OK — 수렴",
+        "exit_code": 0
+      },
       "proposal_issues": [],
       "proposal_exists": false,
       "publication_proposal_exists": false,
-      "publication_changes_exists": false
+      "publication_changes_exists": false,
+      "worker_id": "/root/humanize_a/ch23e13"
     },
     {
       "chapter": "23",
       "number": 14,
       "route": "light",
       "run_dir": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch23/_workspace/2026-10-18-014-bd12",
-      "gate": null,
+      "gate": {
+        "verdict": "OK — 수렴",
+        "exit_code": 0
+      },
       "proposal_issues": [
         "easy_over120"
       ],
       "proposal_exists": false,
       "publication_proposal_exists": false,
-      "publication_changes_exists": false
+      "publication_changes_exists": false,
+      "worker_id": "/root/humanize_a/ch23e14"
     },
     {
       "chapter": "23",
       "number": 15,
       "route": "light",
       "run_dir": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch23/_workspace/2026-10-18-015-33dd",
-      "gate": null,
+      "gate": {
+        "verdict": "OK — 수렴",
+        "exit_code": 0
+      },
       "proposal_issues": [
         "easy_over120"
       ],
       "proposal_exists": false,
       "publication_proposal_exists": false,
-      "publication_changes_exists": false
+      "publication_changes_exists": false,
+      "worker_id": "/root/humanize_a/ch23e15"
     },
     {
       "chapter": "23",
       "number": 16,
       "route": "light",
       "run_dir": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch23/_workspace/2026-10-18-016-a62c",
-      "gate": null,
+      "gate": {
+        "verdict": "OK — 수렴",
+        "exit_code": 0
+      },
       "proposal_issues": [
         "easy_over120"
       ],
       "proposal_exists": false,
       "publication_proposal_exists": false,
-      "publication_changes_exists": false
+      "publication_changes_exists": false,
+      "worker_id": "/root/humanize_a/ch23e16"
     },
     {
       "chapter": "23",
       "number": 17,
       "route": "light",
       "run_dir": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch23/_workspace/2026-10-18-017-b1d3",
-      "gate": null,
+      "gate": {
+        "verdict": "OK — 수렴",
+        "exit_code": 0
+      },
       "proposal_issues": [
         "easy_over120"
       ],
       "proposal_exists": false,
       "publication_proposal_exists": false,
-      "publication_changes_exists": false
+      "publication_changes_exists": false,
+      "worker_id": "/root/humanize_a/ch23e17"
     },
     {
       "chapter": "23",
       "number": 18,
       "route": "light",
       "run_dir": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch23/_workspace/2026-10-18-018-1e6e",
-      "gate": null,
+      "gate": {
+        "verdict": "OK — 수렴",
+        "exit_code": 0
+      },
       "proposal_issues": [
         "easy_over120"
       ],
       "proposal_exists": false,
       "publication_proposal_exists": false,
-      "publication_changes_exists": false
+      "publication_changes_exists": false,
+      "worker_id": "/root/humanize_a/ch23e18"
     },
     {
       "chapter": "23",
       "number": 19,
       "route": "light",
       "run_dir": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch23/_workspace/2026-10-18-019-4458",
-      "gate": null,
+      "gate": {
+        "verdict": "OK — 수렴",
+        "exit_code": 0
+      },
       "proposal_issues": [
         "easy_over120"
       ],
       "proposal_exists": false,
       "publication_proposal_exists": false,
-      "publication_changes_exists": false
+      "publication_changes_exists": false,
+      "worker_id": "/root/humanize_a/ch23e19"
     },
     {
       "chapter": "23",
       "number": 20,
       "route": "light",
       "run_dir": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch23/_workspace/2026-10-18-020-ac7e",
-      "gate": null,
+      "gate": {
+        "verdict": "OK — 수렴",
+        "exit_code": 0
+      },
       "proposal_issues": [
         "easy_over120"
       ],
       "proposal_exists": false,
       "publication_proposal_exists": false,
-      "publication_changes_exists": false
+      "publication_changes_exists": false,
+      "worker_id": "/root/humanize_a/ch23e20"
     },
     {
       "chapter": "23",
       "number": 21,
       "route": "light",
       "run_dir": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch23/_workspace/2026-10-18-021-572b",
-      "gate": null,
+      "gate": {
+        "verdict": "OK — 수렴",
+        "exit_code": 0
+      },
       "proposal_issues": [
         "easy_over120"
       ],
       "proposal_exists": false,
       "publication_proposal_exists": false,
-      "publication_changes_exists": false
+      "publication_changes_exists": false,
+      "worker_id": "/root/humanize_a/ch23e21"
     },
     {
       "chapter": "23",
       "number": 22,
       "route": "light",
       "run_dir": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch23/_workspace/2026-10-18-022-3210",
-      "gate": null,
+      "gate": {
+        "verdict": "OK — 수렴",
+        "exit_code": 0
+      },
       "proposal_issues": [
         "easy_over120"
       ],
       "proposal_exists": false,
       "publication_proposal_exists": false,
-      "publication_changes_exists": false
+      "publication_changes_exists": false,
+      "worker_id": "/root/humanize_a/ch23e22"
     },
     {
       "chapter": "24",
       "number": 1,
       "route": "light",
       "run_dir": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch24/_workspace/2026-10-18-001-07ff",
-      "gate": null,
+      "gate": {
+        "verdict": "OK — 수렴",
+        "exit_code": 0
+      },
       "proposal_issues": [
         "easy_over120"
       ],
       "proposal_exists": false,
       "publication_proposal_exists": false,
-      "publication_changes_exists": false
+      "publication_changes_exists": false,
+      "worker_id": "/root/humanize_a/ch24e01"
     },
     {
       "chapter": "24",
@@ -10374,21 +10434,21 @@
   ],
   "active_jobs": [
     {
-      "worker": "/root/humanize_a/ch05e17",
+      "worker": "/root/humanize_a/ch05e32",
       "chapter": 5,
-      "entry": 17,
-      "phase": "source-full-SPIVAactual"
+      "entry": 32,
+      "phase": "source-full"
     },
     {
-      "worker": "/root/humanize_a/ch05e35",
+      "worker": "/root/humanize_a/ch05e33",
       "chapter": 5,
-      "entry": 35,
-      "phase": "reassessment-r4-current-gameprimary"
+      "entry": 33,
+      "phase": "source-full"
     },
     {
-      "worker": "/root/humanize_a/ch23e09",
-      "chapter": 23,
-      "entry": 9,
+      "worker": "/root/humanize_a/ch24e01",
+      "chapter": 24,
+      "entry": 1,
       "phase": "light-monolith"
     }
   ],
@@ -10430,7 +10490,9 @@
     "05partial15 source-revise: Koreanuniversalturnoverperformancerelation=>costreducesreturns/nosameeffectguarantee;USpregrosssimilarclaimunreadverifyorreaderlimit. Combineallbodyliteral/newr2.",
     "22e6finalcomplete gatependingROOTatomicpause;13quoteholds09untouchedawaitproductioncommands.",
     "05source-supplement13newr2:reconstructionbusinessincomeexceptionannex1-2/wholefamilycohabitationmaintenanceconditionsnotonlysiblings;combineALLlength. 11newr2:corecomponentnormalusefunctionaldefect/componentfreerepairnotallfailures,misuse/disaster/unapprovedrepairdamageexceptions;combineALLlength.",
-    "05independentnew11r3 arithmetic:3/30=EXACT10%breakevennot>10;singlecoveredrepair30full payout assumption necessary. 13r3nationalinsurance5①domesticresident/excludedmedicalaidveterans notallnationals; preservefactsshortscope. 35r4newactualgameprimarynowavailablecurrentstaleholdresolveactualonly."
+    "05independentnew11r3 arithmetic:3/30=EXACT10%breakevennot>10;singlecoveredrepair30full payout assumption necessary. 13r3nationalinsurance5①domesticresident/excludedmedicalaidveterans notallnationals; preservefactsshortscope. 35r4newactualgameprimarynowavailablecurrentstaleholdresolveactualonly.",
+    "05ALL45latestfull closure then NEWisolatedintro/tailauthor allnavigation/sourceTODOactualstatus,ALLordinary50,immutableexactspan+independentreview; latest17KoreanSPIVAactualmustsyncTODO,notallunknownresolved.",
+    "05partial3:24r2 exact20days>=not>,actualnewrawadmrul2100000184414SHA4d541ceb..;25r2actualnewinsuranceXML2100000279112SHA7b8819f9..resolveonlyverifiedstaleaccesslimits,protectionexceptionstilllimited;26r2businessmandatoryextraactive."
   ],
   "coordinator_notes": [
     "root reserved one review slot; max4 active roleworkers",
@@ -10553,7 +10615,9 @@
     "13e24/e38NEWfreshfinalizersaccept,exactcontextstdout09match+coordinatorselectedregistrygate0 publication-gates saved. e24coordinator-r1successfulstdoutnotcapturedso preservedartifactsandnewcoordinator-r2savedactualstdout;38coordinator-r1. rootnotified,body/inputexact/oldbackupsimmutable. 13 classifiedassemble ROOTonly. Actual497 after23e1.",
     "500actualgate0 checkpoint.05partialreassessment11approve/41r2revise refs;41r3donefrozenrevision14awaitindependentreview. 05revision15(22currentlawr2/34lengthr2)done,9r2/35r3progress; initialfrozenallimmutable.",
     "ProtectedprepareDRIFTincident: coordinatorstandardprepareoriginalrunrestored01only, overwrote00/combined potentially9recentstandardruns. ROOTfirstsnapshotc412d4c all667 audit/restoration/derivedhistorybackups proceeding. Original00/01/combined/snapshot/source/manifest furtherwritesPROHIBITED; nooriginalprepare; futurestandardderivedfolderonlywithallorigSHAguards. rootnotifiedapology. Actual501beforebaselineaudit.",
-    "ROOTrestored26diagnosticfilesagainstinitial1334, evidence tooling/original-diagnostics-restoration-r1;input667/snapshot667SHAexact. Nooriginaldiagnosticwritesagain. Rootread-onlyallgate/reclassified13r2verifyunderway. Pendingreassessbundle2[5r2,6r2,9r2,11r2,13r2,22r3,35r3],5/22authorswriting;34r2/41r3alreadyindependentapprovepreserved."
+    "ROOTrestored26diagnosticfilesagainstinitial1334, evidence tooling/original-diagnostics-restoration-r1;input667/snapshot667SHAexact. Nooriginaldiagnosticwritesagain. Rootread-onlyallgate/reclassified13r2verifyunderway. Pendingreassessbundle2[5r2,6r2,9r2,11r2,13r2,22r3,35r3],5/22authorswriting;34r2/41r3alreadyindependentapprovepreserved.",
+    "New23e10standardprepare DERIVEDONLY run/derived-diagnosis-r1, sixoriginalprotectedbeforeafterSHAexact original-protection.json; original00/01/combined/source/manifest untouched. Futurestandardpattern.",
+    "510actualgate0 checkpoint;05completedadditional21/24/26 outsidepartial30,25active/27next. ROOTcache1060pairsactualSHAallmatch. Alloriginaldiagnosticsreadonlystandardderivedonly."
   ],
   "chapter18_status": "rootstyle4integrated; one-wordtitleproposalunadoptedconfirmedfuture20261208, current근로감독관retain; newformalongoing",
   "holds": [
@@ -10861,7 +10925,7 @@
   },
   "audit_policy": "Always read the latest content-audit.md and editorial-decisions.json for each chapter; queue finding lists are navigation and may omit recent audit additions.",
   "chapter01_status": "ROOT freshformalpass block0/warn16;promoted gate1 CLIa380eb05cae69ed33e903826b7076bee415dccb5a4708706c026c965ff908a11. ALLFINALFROZEN neverassemble/integrate01.",
-  "chapter05_status": "latestsourcefull1/3/12/13/19/20/23/35r2/38/41/44 readyunadopted;6progress;all45canonicalinclinitialapprove/warn/summary/prose stillneededbeforefinalmanifest",
+  "chapter05_status": "32exactapproved; partialmanifest4 revised24/26new27/30frozen11aa53..reviewready;31doneunreviewed;25currentnoticer2active32sourceactive,all45+intro-tailpending",
   "chapter13_audit_pending": {
     "canonical": "ch13/content-audit.md",
     "confirmed": [
@@ -11106,5 +11170,38 @@
     "notes": "3cremationfacilitylegalexceptions;9Gov24onlinefirst2orderonlynotallvisit;11specialacceptanceadultminor1019④&1020guardiansknowledge,spousealoneifallchildrenrenounce2020그42"
   },
   "chapter22_status": "all10puregate0/strictassembled;editorialbacklognotfieldreviewready",
-  "chapter13_status": "ROOTexplicitregistryclassifiedassembly44success, ordinaryassembleprohibited;pureholdsresolvedsourcefactsunapproved/editorialbacklog"
+  "chapter13_status": "ROOTexplicitregistryclassifiedassembly44success, ordinaryassembleprohibited;pureholdsresolvedsourcefactsunapproved/editorialbacklog",
+  "chapter26_audit_pending": {
+    "status": "initial_audit_complete_pending_candidate",
+    "audit": "ch26/content-audit.md",
+    "decisions": "ch26/editorial-decisions.json",
+    "required_entries": [
+      5,
+      6,
+      7,
+      8,
+      10,
+      11
+    ],
+    "all11_warns_need_closure": true,
+    "notes": "seeexactallcanonical,3%basevsconditional10%/copyrightpublicscope/insurancewithoutarea500threshold;PGfuture20261217;11TODOpartialactualsourceverification"
+  },
+  "chapter27_audit_pending": {
+    "status": "initial_audit_in_progress",
+    "early_confirmed_entries": [
+      1,
+      5,
+      6,
+      7,
+      8,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "notes": "1nodifferencedetectednot equivalence,NTDrecurrenceRR.34/highrisk4000mcgdoctorvs0.4general;7CDCimmediatelynotjustsameday;8rupturemembranesseparatecordprolapseemergencypositions/transport, actualNHSRCOGKDCAChineseconflictmustexplain;5aspirinasymptomhigherisknocontra;6knownDMexcluded/multitests;10population10%noevidenceadditionalnotzero;11/14birthinfantcopay2/3bedcoveredroomexception,benefitmultiplefetusloss/applicationconditions/employment180+deadline;12law18minorclericalexemptcourt;13hearingaid40-59dBcriteria;15mothernamesexceptions781/2023unconstitutional2025deadlinecurrentuncertainty"
+  },
+  "chapter23_status": "all22puregate0/strictassembled;editorialbacklognotfieldreviewready"
 }

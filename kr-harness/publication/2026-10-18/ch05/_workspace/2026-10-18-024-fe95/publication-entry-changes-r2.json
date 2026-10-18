@@ -1,0 +1,161 @@
+{
+  "entry": 24,
+  "status": "unadopted_pending_independent_exact_hash_review",
+  "base": "strict-entry.md",
+  "base_sha256": "ad0e55c2941beb39b001355bcf6494e076378002d2f7c4e89d8be40f68bf807e",
+  "proposal_sha256": "d67583046bacd38212bbdc999ecf0724627cb1c6bc4d2311a259043c5d9e14c6",
+  "field_changes": [
+    {
+      "field": "비용",
+      "before": "돈은 들지 않습니다. 다만 진짜 할인도 몇 번 놓칠 수 있습니다. 자주 사는 물건의 평소 값을 기억해 둬야 합니다. 행사 날 쟁이고 싶은 마음을 참기가 어렵습니다.",
+      "after": "돈은 들지 않습니다. 다만 진짜 할인도 몇 번 놓칠 수 있습니다. 자주 사는 물건의 평소 값을 기억해 둬야 합니다. 행사 날 쟁이고 싶은 마음을 참기가 어렵습니다.",
+      "changed": false,
+      "reason": "r1 보존"
+    },
+    {
+      "field": "쉽게",
+      "before": "처음 본 숫자는 나중 판단에도 영향을 줄 수 있습니다. 정가가 높으면 할인 폭도 크게 느낄 수 있습니다. 평소 값과 비교하고 쟁여 둘지는 따로 판단하세요.",
+      "after": "처음 본 숫자는 나중 판단에도 영향을 줄 수 있습니다. 정가가 높으면 할인 폭도 크게 느낄 수 있습니다. 평소 값과 비교하고 쟁여 둘지는 따로 판단하세요.",
+      "changed": false,
+      "reason": "r1 보존"
+    },
+    {
+      "field": "이득",
+      "before": "처음 본 숫자를 기준으로 판단하는 경향을 기준점 효과라고 합니다. 판단을 고쳐도 처음 숫자의 영향이 남을 수 있습니다. \"정가 99,900원, 지금 49,900원\"도 그런 관점에서 볼 수 있습니다. 다만 인용 논문 초록은 이 할인표시를 직접 검증하지 않았습니다. 공정거래위원회 고시의 할인 전 가격은 종전거래가격입니다. 해당 사업자가 같은 상품을 최근 상당 기간 판 가격입니다. 여기서 상당 기간은 과거 20일 정도입니다. 그 사이 실제 판매가가 바뀌었으면 그중 최저가가 기준입니다. 특별한 이유 없이 20일 넘게 실제로 판 적이 없는 가격은 제외합니다. 이를 할인 전 가격으로 표시하면 부당한 표시·광고입니다.",
+      "after": "처음 본 숫자를 기준으로 판단하는 경향을 기준점 효과라고 합니다. 판단을 고쳐도 처음 숫자의 영향이 남을 수 있습니다. \"정가 99,900원, 지금 49,900원\"도 그런 관점에서 볼 수 있습니다. 다만 인용 논문 초록은 이 할인표시를 직접 검증하지 않았습니다. 공정거래위원회 고시의 할인 전 가격은 종전거래가격입니다. 해당 사업자가 같은 상품을 최근 상당 기간 판 가격입니다. 여기서 상당 기간은 과거 20일 정도입니다. 그 사이 실제 판매가가 바뀌었으면 그중 최저가가 기준입니다. 특별히 인정할 만한 사유 없이 20일 이상 실제 거래한 적 없는 가격도 있습니다. 할인 폭을 과장하려고 이를 할인 전 가격으로 표시하는 경우입니다. 고시는 이를 부당한 표시·광고의 예로 듭니다.",
+      "changed": true,
+      "reason": "고시 원문 직접 열람으로 20일 초과를 20일 이상으로 정정하고, 인정할 만한 사유·할인 폭 과장 목적을 정확히 반영합니다. 시행일·현행 표시가 확인되어 이전 접근 실패 한계를 갱신합니다."
+    },
+    {
+      "field": "근거등급",
+      "before": "C",
+      "after": "C",
+      "changed": false,
+      "reason": "r1 보존"
+    },
+    {
+      "field": "출처",
+      "before": "Tversky A, Kahneman D (1974). Judgment under Uncertainty: Heuristics and Biases. Science 185(4157):1124-1131. https://doi.org/10.1126/science.185.4157.1124 ; 공정거래위원회 부당한 표시·광고행위의 유형 및 기준 지정고시(고시 제2019-11호) 가격 표시·광고 부분 https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000184414",
+      "after": "Tversky A, Kahneman D (1974). Judgment under Uncertainty: Heuristics and Biases. Science 185(4157):1124-1131. https://doi.org/10.1126/science.185.4157.1124 ; 공정거래위원회 부당한 표시·광고행위의 유형 및 기준 지정고시(고시 제2019-11호) 가격 표시·광고 부분 https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000184414",
+      "changed": false,
+      "reason": "r1 보존"
+    },
+    {
+      "field": "비고",
+      "before": "기준점 효과는 실험실에서 나온 결론입니다. 인용 논문 초록만으로 쟁여 두기의 실제 손실액은 알 수 없습니다. 쟁여 두기에는 장부에 안 적히는 비용이 몇 가지 있습니다. 유통기한이 지나거나 자리를 차지합니다. \"집에 많으니 더 쓰자\"는 마음도 생깁니다. 세 가지를 모두 갖춘 물건만 쟁이세요. 오래 두어도 되고 반드시 다 쓰고 값이 전보다 확실히 싼 물건입니다. 한국 고시 기준은 원문의 중국 기준(행사 전 7일 최저가)과 다릅니다. 위 20일 기준은 인용된 2019년 고시 설명입니다. 2026년 10월 18일 현재 고시의 유지 여부는 확인하지 못했습니다.",
+      "after": "기준점 효과는 실험실에서 나온 결론입니다. 인용 논문 초록만으로 쟁여 두기의 실제 손실액은 알 수 없습니다. 쟁여 두기에는 장부에 안 적히는 비용이 몇 가지 있습니다. 유통기한이 지나거나 자리를 차지합니다. \"집에 많으니 더 쓰자\"는 마음도 생깁니다. 세 가지를 모두 갖춘 물건만 쟁이세요. 오래 두어도 되고 반드시 다 쓰고 값이 전보다 확실히 싼 물건입니다. 한국 고시 기준은 원문의 중국 기준(행사 전 7일 최저가)과 다릅니다. 위 기준은 2019년 12월 12일 시행 고시에 나옵니다. 2026년 10월 18일 확인한 고시는 현행으로 표시돼 있습니다.",
+      "changed": true,
+      "reason": "고시 원문 직접 열람으로 20일 초과를 20일 이상으로 정정하고, 인정할 만한 사유·할인 폭 과장 목적을 정확히 반영합니다. 시행일·현행 표시가 확인되어 이전 접근 실패 한계를 갱신합니다."
+    }
+  ],
+  "primary_evidence": [
+    {
+      "url": "https://doi.org/10.1126/science.185.4157.1124",
+      "retrieval_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1126%2Fscience.185.4157.1124%22&format=json&resultType=core&pageSize=10",
+      "method": "existing Europe PMC indexed author abstract reopened; no full text read",
+      "verified_at": "2026-10-18T17:23:16.923235+00:00",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/7b6ce6858cf5196e5c2b.json",
+      "raw_sha256": "4f7b159653b480c6f31bb689a0e5aee3940d09724c8ceb41267c4b601a2db4d6",
+      "exact_primary_quote": "This article described three heuristics that are employed in making judgements under uncertainty: (i) representativeness, which is usually employed when people are asked to judge the probability that an object or event A belongs to class or process B; (ii) availability of instances or scenarios, which is often employed when people are asked to assess the frequency of a class or the plausibility of a particular development; and (iii) adjustment from an anchor, which is usually employed in numerical prediction when a relevant value is available. These heuristics are highly economical and usually effective, but they lead to systematic and predictable errors. A better understanding of these heuristics and of the biases to which they lead could improve judgements and decisions in situations of uncertainty.",
+      "scope": "General adjustment from an anchor and systematic errors only; specific discount example and stockpiling losses not directly verified."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000184414&type=XML",
+      "method": "Independently reopened existing official XML cache; no new live request",
+      "cached_fetch_at": "2026-10-18T17:28:53.225237+00:00",
+      "cached_http_status": 200,
+      "read_at": "2026-10-18T17:31:51.345467+00:00",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch05-partial-review/admrul-2100000184414.xml",
+      "raw_sha256": "4d541cebc78a7f3cb3ceee2761ce241654edff32e24ca111109cec03dd31274f",
+      "exact_primary_quotations": [
+        "● 종전거래가격 : 당해 사업자가 당해 상품과 동일한 상품을 최근 상당기간(과거 20일 정도)동안 판매하고 있던 사실이 있는 경우로서 그 기간 동안 당해 상품에 붙인 가격 단, 위 기간 중 당해 상품의 실거래가격이 변동한 경우에는 변동된 가격 중 최저가격을 종전거래가격으로 봄",
+        "(4) 가격인하폭이나 인하율을 과장하기 위하여 특별히 인정할만한 사유 없이 20일 이상 실제 거래한 적이 없는 가격이나 이미 가격이 인하되었는데도 인하되기 전의 가격을 종전거래가격으로 표시ㆍ광고하는 행위",
+        "제1조(시행일) 이 고시는 2019년 12월 12일부터 시행한다."
+      ],
+      "metadata": {
+        "행정규칙명": "부당한 표시·광고행위의 유형 및 기준 지정고시",
+        "발령번호": "2019-11",
+        "현행여부": "Y",
+        "시행일자": "20191212"
+      },
+      "read_scope": "Price comparison reference; discount sales paragraph (4); all returned supplementary provisions including 2019-11 commencement; currentness metadata. No independent exhaustive search of later amendments."
+    }
+  ],
+  "doi_changes": "none; both citations unchanged",
+  "intentional_scope_changes": [
+    "Discount example changed from proven specific effect to possible application of general concept.",
+    "Universal absence of loss estimates narrowed to limits of cited abstract.",
+    "2026-10-10 verification assertion removed; 2026-10-18 currentness limitation added.",
+    "r2: >20 days corrected to >=20 days; recognized special-reason exception and purpose of exaggerating price cut retained explicitly.",
+    "r2: failed-access/currentness limitation superseded by actual cached primary reading with current Y metadata."
+  ],
+  "unresolved_limitations": [
+    "1974 paper full text not read; abstract evidence supports general anchoring only, not specific discount or stockpiling loss amounts.",
+    "Currentness rests on returned official XML metadata; no exhaustive later-amendment search."
+  ],
+  "protected_preserved": [
+    "title",
+    "cost tag",
+    "evidence grade C",
+    "six field labels and order",
+    "99,900원",
+    "49,900원",
+    "20일",
+    "7일",
+    "special reason condition",
+    "all three stockpiling conditions"
+  ],
+  "self_approval": false,
+  "validation": {
+    "literal_check_exit_code": 0,
+    "ordinary_sentence_lengths": {
+      "비용": [
+        11,
+        24,
+        27,
+        26
+      ],
+      "쉽게": [
+        30,
+        27,
+        27
+      ],
+      "이득": [
+        36,
+        29,
+        43,
+        35,
+        31,
+        32,
+        24,
+        33,
+        45,
+        36,
+        25
+      ],
+      "비고": [
+        23,
+        36,
+        32,
+        21,
+        24,
+        21,
+        38,
+        39,
+        32,
+        36
+      ]
+    },
+    "complete_sentence_read": "All narrative sentences independently read as complete; calendar dates fully spelled, no date abbreviation split.",
+    "title_chars": 39,
+    "easy_chars": 86,
+    "easy_sentences": 3,
+    "previous_artifacts_frozen": {
+      "publication-entry-proposal.md": "1ed74ac21718b3a0d6cea91c38fea8b2b1ffd1953f83d34e12adbe3117d5790d",
+      "publication-entry-changes.json": "ca5e23a962e6d78b88b390471a79a0065cc988da9251c545a745202140cab3eb"
+    },
+    "independent_review_hold": "Pending exact-hash independent review; no self-approval."
+  },
+  "revision": "r2 new separate proposal; r1 frozen",
+  "previous_proposal_sha256": "1ed74ac21718b3a0d6cea91c38fea8b2b1ffd1953f83d34e12adbe3117d5790d"
+}

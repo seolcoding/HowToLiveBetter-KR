@@ -1,0 +1,1824 @@
+{
+  "chapter": 26,
+  "status": "pending_candidate_review",
+  "reviewed_at": "2026-10-18T17:22:41.718039+00:00",
+  "legal_cutoff": "2026-10-18 UTC / 2026-10-19 KST;실제본문상정확시행일과조문별부칙으로현행/장래구분",
+  "source_sha256": "b66af04261c4ddbda72c3a2e24623d1be897b56acec73f063fd60f577acdd9ba",
+  "candidate_sha256": null,
+  "formal_kr_fit": "not_performed_not_approved",
+  "confirmed_required_corrections": [
+    {
+      "entry": 5,
+      "requirement": "20의2①·② 책임요건/면책구별 및 VAT75② 재량·국외공급제외"
+    },
+    {
+      "entry": 6,
+      "requirement": "조치의무사업자·일반공개정보 범위/소명요청·심의명령조건"
+    },
+    {
+      "entry": 7,
+      "requirement": "과징금 조건부10% 가중·부칙 적용례 및 청소년실제제공 벌칙요건"
+    },
+    {
+      "entry": 8,
+      "requirement": "과징금 조건부10%/법정유해매체물과성인콘텐츠범위"
+    },
+    {
+      "entry": 10,
+      "requirement": "과징금 조건부10%·재량/산정범위와 고시부분해소"
+    },
+    {
+      "entry": 11,
+      "requirement": "보호조치규모와 책임보험 적용범위 구별"
+    },
+    {
+      "entry": "tail",
+      "requirement": "PG 미래조문·정확시행/파인조회경로/인증별표 부분해소·보험TODO 수정"
+    }
+  ],
+  "warnings": [
+    "전11항 전수 경고와 길이진단 모두 원작성자 큐에서 채택·근거 또는 불채택사유로 종결해야 함",
+    "1 PG사업 해당요건·단순계좌입금 자동범죄 아님/49⑧병과·20261217장래와현행분리",
+    "2 통신판매신고와특수부가등록/자기몰분류·세금확인 잔여",
+    "3 라이브·수수료미확인/무료음악영상예외·동일내용영화제한상영제외 유지",
+    "4 일반등록부재를서비스별의무없음으로확대금지/모바일출력조건",
+    "5 소비자권리·연대배상은입증/분쟁처리·소송과정비용을없애지않음/개인정보제공소비자동의범위",
+    "6 상당주의·기술현저곤란 예외와형벌과징금과태료 분리/별표 제외·전년도기준유지",
+    "7 법정나이확인/신원확인과주민번호직접수집구별/기관요금실조회미확인",
+    "8 보호자대신법정대리인정확용어·취소예외·처리기록비용유지",
+    "9 7~14일기산점·정당소명·소제기통보·인지부터신고전책임범위/쉽게5문장",
+    "10 공개고지경로는계약필요위탁보관/해외직원조회·국가인정미확인",
+    "11 서버추천C판단/손실보험·SLA면책/별도백업원칙과약관사실구별"
+  ],
+  "intro_review": "전11항과 도입·중국대응 검토. 중국ICP备案/EDI·망문화/인터넷시청각 허가·사이버보안 실명·중국역외인원면제·VPS위안가격은 한국에 이식하지 않았다. 한국은 서비스별 신고/등급/돈·UGC·개인정보 책임을 분리한 구성이 적절하다. 도입의 앞 형사/뒤 사전신고 배열 설명은 실제2항신고가3항등급보다 먼저이므로 엄격시간순으로 읽히지 않게 다듬기 권장. 제11/12절 주제 참조 일치. 기존 상태완료 배너는 이번 승인 아님.",
+  "tail_review": [
+    {
+      "number": 1,
+      "status": "unresolved",
+      "scope": "자체상품만 판매하는 쇼핑몰의 부가역무 해당 MSIT 공식개별해석 미확인. 자본금 의제는 특수등록까지 면제 아님."
+    },
+    {
+      "number": 2,
+      "status": "partially_resolved",
+      "scope": "지방세령39/별표1 제3종89에 통신판매 신고 확인. 지방세법 정확세율표 요청2회 실패로 원화세액 확정하지 않음."
+    },
+    {
+      "number": 3,
+      "status": "resolved_future_only",
+      "scope": "21205/2025-12-16 공포·부칙1에 공포1년경과/검색상2026-12-17. 일반XML의25의4·25의5·36의3 본문과60/80단계부칙 실제확인. 현행eflaw에는 미시행문구 제외. 감독일부즉시 예외. 시행뒤에만 조문을 알 수 있다는 TODO 정정."
+    },
+    {
+      "number": 4,
+      "status": "resolved_path_only",
+      "scope": "파인 실제 홈페이지/등록현황 목록 https://fine.fss.or.kr/fine/bbs/B0000392/list.do?menuNo=900495 열림. 465건·2026-08-26 공지 확인, 개별PG 현재등록/첨부전문 아님."
+    },
+    {
+      "number": 5,
+      "status": "unresolved",
+      "scope": "FSS2022-12 원보도 미확보. 신규실제검색을 한 것으로 표시하지 않음."
+    },
+    {
+      "number": 6,
+      "status": "unresolved",
+      "scope": "실시간라이브 전체 등급범위 미확인 유지. KMRB홈 HTTP200 빈 셸은 본문확인 아님."
+    },
+    {
+      "number": 7,
+      "status": "unresolved",
+      "scope": "KMRB 수수료 규정·표 미확보. 영화90② 법정수수료체계까지만 확인."
+    },
+    {
+      "number": 8,
+      "status": "partially_resolved",
+      "scope": "고시2023-11 실제본문·공식PDF별표2 ISMS-P 확인. 개별업체 인증 및 국가·국제기구 인정현재전체목록 미확인. 인증만으로 이전 자동허용 아님."
+    },
+    {
+      "number": 9,
+      "status": "unresolved",
+      "scope": "상표·디자인에 저작권103과 동일한 별도법정통지절차 존재/부재 미확인. 저작권 절차를 그대로확장금지."
+    },
+    {
+      "number": 10,
+      "status": "resolved_correction_required",
+      "scope": "법46②/령38·별표3 보험. 타인용집적시설은 사업개시와동시 가입·매출별최저보험, 500㎡등기준은법46① 보호조치. 면적보험문턱찾기라는TODO전제수정. 실제업체보험유무미확인."
+    },
+    {
+      "number": 11,
+      "status": "not_applicable_to_initial_audit",
+      "scope": "한국 장문 미작성·중국장문 링크제거는 편집범위선택. 새본문작성은 초기감사권한밖. 현재본문의 판단만 검토."
+    }
+  ],
+  "entries": [
+    {
+      "entry": 1,
+      "status": "qualified_supported_with_warning",
+      "source_entry_sha256": "323ed21b18e641ef072160fd3fb1812e825416a0ae0ffe6d3e3c56b829e0be13",
+      "review_scope": "현행PG2⑲/28②4·③2/30③/령15⑤⑦·17/49⑤5·⑧/50 직접대조. 3억(금융위분기기준이하)/10억(그외)·정보만전달 면제/선불잔액30억 AND 연500억 미만 맞음. 단순계좌입금 자체가 무조건 범죄라기보다 PG업무인지 요건판단;형벌은 상한·병과가능/양벌 상당주의예외. 미래21205는2026-12-17 시행(일부감독즉시),현재로이식금지. TODO 법번호·25의4/25의5/36의3·60/80단계는 실제원문으로해소.",
+      "evidence_ids": [
+        "more:5",
+        "law:290247",
+        "law:285727",
+        "sources:0",
+        "closure:0",
+        "supp:4",
+        "end:0"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      },
+      "editorial_observations": {
+        "title_characters": 50,
+        "title_over_70": false,
+        "easy_characters": 120,
+        "easy_over_120": false,
+        "easy_sentences": 3,
+        "easy_outside_2_to_4": false,
+        "sentences_over_50": [
+          {
+            "length": 68,
+            "text": "법상 전자지급결제대행에는 \"그 대가의 정산을 대행하거나 매개하는 것\"이 들어 있습니다(「전자금융거래법」 제2조 제19호).",
+            "field": "이득"
+          },
+          {
+            "length": 66,
+            "text": "금융위원회 기준 이하면 3억 원, 기준을 넘으면 10억 원입니다(같은 법 제30조 제3항, 같은 법 시행령 제17조).",
+            "field": "이득"
+          },
+          {
+            "length": 80,
+            "text": "반면 돈을 주고받지 않고 결제 정보만 넘기는 업무는 등록하지 않아도 됩니다(같은 법 제28조 제3항 제2호, 같은 법 시행령 제15조 제7항).",
+            "field": "이득"
+          },
+          {
+            "length": 84,
+            "text": "발행잔액이 30억 원 미만이고 연간 총발행액이 500억 원 미만일 때도 면제됩니다(같은 법 제28조 제3항 제1호, 같은 법 시행령 제15조 제5항).",
+            "field": "비고"
+          }
+        ],
+        "counting_rule": "공백·괄호 포함 literal. 종결부호 뒤 공백으로 분할. 출처·서지만 제외/법조문 번역 임의제외 안함. 초기진단이며 후보승인 아님."
+      }
+    },
+    {
+      "entry": 2,
+      "status": "qualified_supported_with_warning",
+      "source_entry_sha256": "a215337997a49c1305aa13b148e9ec6169eed6a79181338abae8b76e288cd66a",
+      "review_scope": "전자상거래12/령13 국내관할·외국사무소FTC/선지급증빙예외·고시50회미만OR간이과세와철회제외 확인. 벌금42①3천만원상한. 통신22①/⑤1·령30①② 1억이하의제/초과1개월·96⑤2년1억/92③ 중단명령범위 확인. 특수유형22②등록을자본금만으로면제확대금지. 자체상품몰분류공식해석미확인 유지. 신고세액은지방세령별표1제3종까지/후속법34표대조별도.",
+      "evidence_ids": [
+        "sources:3",
+        "law:288143",
+        "supp:1",
+        "more:8",
+        "law:290813",
+        "final:2",
+        "end:1"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      },
+      "editorial_observations": {
+        "title_characters": 50,
+        "title_over_70": false,
+        "easy_characters": 132,
+        "easy_over_120": true,
+        "easy_sentences": 4,
+        "easy_outside_2_to_4": false,
+        "sentences_over_50": [
+          {
+            "length": 57,
+            "text": "직전 연도 거래가 50회 미만이거나 간이과세자라면 신고하지 않아도 됩니다(공정거래위원회 고시 제2조).",
+            "field": "이득"
+          },
+          {
+            "length": 52,
+            "text": "신고를 안 하거나 거짓으로 하면 3천만 원 이하 벌금입니다(「전자상거래법」 제42조 제1호).",
+            "field": "이득"
+          },
+          {
+            "length": 62,
+            "text": "전기통신역무에는 전기통신설비로 \"타인의 통신을 매개\"하는 일 등이 들어갑니다(「전기통신사업법」 제2조 제6호).",
+            "field": "이득"
+          },
+          {
+            "length": 79,
+            "text": "다만 인터넷으로 하는 자본금 1억 원 이하 사업자는 신고한 것으로 봅니다(같은 법 제22조 제5항 제1호, 같은 법 시행령 제30조 제1항).",
+            "field": "이득"
+          },
+          {
+            "length": 54,
+            "text": "신고 없이 사업을 하면 2년 이하 징역 또는 1억 원 이하 벌금입니다(같은 법 제96조 제5호).",
+            "field": "이득"
+          },
+          {
+            "length": 51,
+            "text": "자기 물건만 파는 쇼핑몰이 부가통신사업에 해당하는지 밝힌 정부 공식 안내는 찾지 못했습니다.",
+            "field": "비고"
+          },
+          {
+            "length": 54,
+            "text": "공정거래위원회는 신고된 통신판매업자 정보를 누리집에 공개합니다(「전자상거래법」 제12조 제4항).",
+            "field": "비고"
+          }
+        ],
+        "counting_rule": "공백·괄호 포함 literal. 종결부호 뒤 공백으로 분할. 출처·서지만 제외/법조문 번역 임의제외 안함. 초기진단이며 후보승인 아님."
+      }
+    },
+    {
+      "entry": 3,
+      "status": "qualified_supported_with_warning",
+      "source_entry_sha256": "a23fc6195b1a375fac5d3bfa1c561ea83c83a2a1f829d2a81e378b35e29156dd",
+      "review_scope": "OTT통신2⑫의2·22⑦ 통보/방송2·9/IPTV2·4 네트워크품질·TV단말별사업 구별. 영화비디오50① 무료예외에음악영업8~11호제작유통 음악영상파일제외/동일내용기등급영화 제한상영가제외·자체등급50의2~3 지정법인 경로 확인. 무등급53/95⑥2년2천만 상한 맞음. 라이브전반 등급대상/구체수수료는미확인·유료VOD외추론금지.",
+      "evidence_ids": [
+        "law:285185",
+        "law:279649",
+        "more:0",
+        "more:2",
+        "more:4",
+        "closure:3"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      },
+      "editorial_observations": {
+        "title_characters": 64,
+        "title_over_70": false,
+        "easy_characters": 96,
+        "easy_over_120": false,
+        "easy_sentences": 3,
+        "easy_outside_2_to_4": false,
+        "sentences_over_50": [
+          {
+            "length": 55,
+            "text": "「전기통신사업법」은 \"온라인 동영상 서비스\"를 부가통신역무로 따로 정의합니다(제2조 제12호의2).",
+            "field": "이득"
+          },
+          {
+            "length": 65,
+            "text": "이 사업 신고를 받으면 과학기술정보통신부가 문화체육관광부와 방송미디어통신위원회에 알립니다(같은 법 제22조 제7항).",
+            "field": "이득"
+          },
+          {
+            "length": 52,
+            "text": "비디오물 제작·배급자는 공급 전에 등급분류를 받아야 합니다(「영화비디오법」 제50조 제1항).",
+            "field": "이득"
+          },
+          {
+            "length": 55,
+            "text": "등급분류를 받지 않은 비디오물은 유통하거나 보여 주면 안 됩니다(같은 법 제53조 제1항 제1호).",
+            "field": "이득"
+          }
+        ],
+        "counting_rule": "공백·괄호 포함 literal. 종결부호 뒤 공백으로 분할. 출처·서지만 제외/법조문 번역 임의제외 안함. 초기진단이며 후보승인 아님."
+      }
+    },
+    {
+      "entry": 4,
+      "status": "qualified_supported_with_warning",
+      "source_entry_sha256": "194649e40155d47b7ba35e9fca8082b4f81bd972e574eaf54f2e8eb2ae4ead31",
+      "review_scope": "일반사이트일괄개설등록없음과업종별의무 구분적절. 상거래10/령11의4·규칙7①~③ 초기화면/약관연결·제한출력순차및일부확인방법 예외/FTC연결·광고13①신고번호/9②③ 호스팅신원확인·소송소비자요청범위 일치. 해외서버법전체면제·호스팅소재지일괄서버등록으로확장금지.",
+      "evidence_ids": [
+        "sources:3",
+        "law:288143",
+        "law:288167",
+        "supp:3",
+        "more:8"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      },
+      "editorial_observations": {
+        "title_characters": 63,
+        "title_over_70": false,
+        "easy_characters": 89,
+        "easy_over_120": false,
+        "easy_sentences": 3,
+        "easy_outside_2_to_4": false,
+        "sentences_over_50": [],
+        "counting_rule": "공백·괄호 포함 literal. 종결부호 뒤 공백으로 분할. 출처·서지만 제외/법조문 번역 임의제외 안함. 초기진단이며 후보승인 아님."
+      }
+    },
+    {
+      "entry": 5,
+      "status": "revision_required",
+      "source_entry_sha256": "0e9273749e53905bb236acfac2734d6b62ac7209cce37e8f54cee15b10d77404",
+      "review_scope": "20의2① 당사자아님미고지는 판매자의고의·과실 재산손해 책임. ② 신원정보 미제공·오류로발생한재산손해 책임에만 상당주의면책. 본문두경로합친뒤공통면책처럼보이는구조수정필수. 개인20의4 전화등확인/법원재판상요청·소비자동의요건·가능할때예치권고/사업자혼재표시 확인. 령6자기시스템6개월/5년/3년·25의2 3/10영업일/후기27의3첫화면예외맞음. VAT75①국외사업자공급제외·통신판매업자판매대행중개/다음달15.75②시정명령은명할수있다 재량;본문자동단정수정.76①2 불이행2천만.",
+      "evidence_ids": [
+        "sources:3",
+        "law:288143",
+        "more:1",
+        "supp:1",
+        "more:9"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      },
+      "editorial_observations": {
+        "title_characters": 61,
+        "title_over_70": false,
+        "easy_characters": 142,
+        "easy_over_120": true,
+        "easy_sentences": 4,
+        "easy_outside_2_to_4": false,
+        "sentences_over_50": [
+          {
+            "length": 61,
+            "text": "조사 결과 또는 처리방안은 10영업일 안에 알립니다(같은 법 제20조 제3항, 같은 법 시행령 제25조의2).",
+            "field": "이득"
+          },
+          {
+            "length": 57,
+            "text": "이 명령을 어기면 2천만 원 이하 과태료를 뭅니다(같은 법 제75조 제2항, 제76조 제1항 제2호).",
+            "field": "이득"
+          },
+          {
+            "length": 68,
+            "text": "공간 제약이 있으면 직접 연결되는 화면에 공개할 수 있습니다(「전자상거래법」 제21조의4, 같은 법 시행령 제27조의3).",
+            "field": "비고"
+          }
+        ],
+        "counting_rule": "공백·괄호 포함 literal. 종결부호 뒤 공백으로 분할. 출처·서지만 제외/법조문 번역 임의제외 안함. 초기진단이며 후보승인 아님."
+      }
+    },
+    {
+      "entry": 6,
+      "status": "revision_required",
+      "source_entry_sha256": "12912ca20804adf8b29e25b2f63fb5aeaa68bce393cc8ce35df56a5e7109a319",
+      "review_scope": "망44의2는일반공개정보·침해사실소명요청·지체없이필요조치/양측통지·게시판공시등·판단곤란분쟁30일임시/약관/배상감면가능. 단순삭제요청이면언제나영구삭제아님.44의7③ 명령은심의선행·명예훼손/반복불안정보피해자의사제한,④7~9호별도요건. 통신22의5①은신고·의제및특수유형가목 조치의무사업자+일반공개유통·인식범위;쉬운요약모든운영자무조건처벌보강.95의2단서상당주의/기술현저곤란·과징금22의6고의/재량 유지. 사전조치령30의6·별표3의2/책임자망령35의3별표1의3·청소년25/27·대규모2의2별표1 모두실제본문확인. 규모만으로전체게시판적용금지.",
+      "evidence_ids": [
+        "more:7",
+        "more:8",
+        "law:290813",
+        "law:290483"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      },
+      "editorial_observations": {
+        "title_characters": 59,
+        "title_over_70": false,
+        "easy_characters": 125,
+        "easy_over_120": true,
+        "easy_sentences": 5,
+        "easy_outside_2_to_4": true,
+        "sentences_over_50": [
+          {
+            "length": 60,
+            "text": "사이트 운영자는 사생활 침해나 명예훼손 정보가 돌지 않게 노력해야 합니다(「정보통신망법」 제44조 제2항).",
+            "field": "이득"
+          },
+          {
+            "length": 51,
+            "text": "피해자가 삭제를 요청하면 지체 없이 삭제나 임시조치를 합니다(같은 법 제44조의2 제2항).",
+            "field": "이득"
+          },
+          {
+            "length": 54,
+            "text": "조치하지 않으면 3년 이하 징역 또는 1억 원 이하 벌금입니다(같은 법 제95조의2 제1호의2).",
+            "field": "이득"
+          },
+          {
+            "length": 57,
+            "text": "불법촬영물등 유통방지 책임자도 별도로 판단합니다(같은 법 제44조의9, 같은 법 시행령 제35조의3).",
+            "field": "비고"
+          },
+          {
+            "length": 54,
+            "text": "해당하면 매년 4월 말까지 지정합니다(같은 법 제42조의3, 같은 법 시행령 제25조·제27조).",
+            "field": "비고"
+          },
+          {
+            "length": 56,
+            "text": "대규모 서비스의 신고 처리·보고서 공표 의무도 따로 있습니다(같은 법 제44조의12·제44조의14).",
+            "field": "비고"
+          }
+        ],
+        "counting_rule": "공백·괄호 포함 literal. 종결부호 뒤 공백으로 분할. 출처·서지만 제외/법조문 번역 임의제외 안함. 초기진단이며 후보승인 아님."
+      }
+    },
+    {
+      "entry": 7,
+      "status": "revision_required",
+      "source_entry_sha256": "bfa5e1999fc2f7737f18ddea53d57eaee46d708b550b05807f756a9ae4dcf96e",
+      "review_scope": "망44의5① 민간조항삭제/헌재2010헌마47전문·23의2①예외/23의3인증기관 확인. 개인정보24의2①적법예외·③주민번호없는회원가입·75②7/9/64의2①4 기본3% 맞으나현행②조건부10% 누락:각각고의중과실재위반·1천만이상피해·시정명령불이행유출요건/21445부칙3 적용례필수구분. 청소년2①19세미만당해1월1일제외/16①대통령령매체·58①은영리목적청소년에게제공행위:나이확인누락만으로일률3년단정금지. 본인확인기관지원요금실조회미확인.",
+      "evidence_ids": [
+        "more:7",
+        "more:6",
+        "supp:0",
+        "final:3"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      },
+      "editorial_observations": {
+        "title_characters": 54,
+        "title_over_70": false,
+        "easy_characters": 107,
+        "easy_over_120": false,
+        "easy_sentences": 3,
+        "easy_outside_2_to_4": false,
+        "sentences_over_50": [
+          {
+            "length": 71,
+            "text": "게시판 이용자 본인확인조치 의무는 국가기관, 지자체, 공기업 같은 공공기관등에만 있습니다(「정보통신망법」 제44조의5 제1항).",
+            "field": "이득"
+          },
+          {
+            "length": 52,
+            "text": "사이트 운영자는 이용자 주민등록번호를 모으거나 쓸 수 없습니다(같은 법 제23조의2 제1항).",
+            "field": "이득"
+          },
+          {
+            "length": 54,
+            "text": "근거가 있어도 회원 가입 때는 주민등록번호 없이 가입할 방법을 제공해야 합니다(같은 조 제3항).",
+            "field": "이득"
+          },
+          {
+            "length": 80,
+            "text": "어기면 전체 매출액 3% 이하 과징금이나 3천만 원 이하 과태료를 냅니다(같은 법 제64조의2 제1항 제4호, 제75조 제2항 제7호·제9호).",
+            "field": "이득"
+          },
+          {
+            "length": 56,
+            "text": "돈을 벌려고 이를 어기면 3년 이하 징역 또는 3천만 원 이하 벌금입니다(같은 법 제58조 제1호).",
+            "field": "비고"
+          }
+        ],
+        "counting_rule": "공백·괄호 포함 literal. 종결부호 뒤 공백으로 분할. 출처·서지만 제외/법조문 번역 임의제외 안함. 초기진단이며 후보승인 아님."
+      }
+    },
+    {
+      "entry": 8,
+      "status": "revision_required",
+      "source_entry_sha256": "56dd2a608dd7e03ffa2ed4d70504f07e44de1eae9c2356618dcde29b2f4bbeb1",
+      "review_scope": "개인정보22의2는법상동의필요한때법정대리인동의·확인,령17의2최소성명연락처직접수집/확인방식비용비보장 일치. 민법4·5·6·17·141상대믿음·현존이익/허락재산조건확인. 체크만으로속임수확정금지 적절. 과징금3%절대상한오독은7항같은10%가중/부칙보강. 청소년유해법정매체표시42/73②2년2천만과일반성인콘텐츠전반을같게쓰지않도록범위보강. 방송후원연령/한도조항못찾음은법전전체부재확정아님.",
+      "evidence_ids": [
+        "more:6",
+        "sources:4",
+        "law:284415",
+        "sources:3",
+        "more:7",
+        "law:290483"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      },
+      "editorial_observations": {
+        "title_characters": 77,
+        "title_over_70": true,
+        "easy_characters": 103,
+        "easy_over_120": false,
+        "easy_sentences": 4,
+        "easy_outside_2_to_4": false,
+        "sentences_over_50": [
+          {
+            "length": 53,
+            "text": "동의 확보에 필요한 최소 정보는 아동에게 먼저 받을 수 있습니다(같은 법 제22조의2 제2항).",
+            "field": "이득"
+          },
+          {
+            "length": 55,
+            "text": "동의 의무를 어기면 전체 매출액 3% 이하 과징금 대상입니다(같은 법 제64조의2 제1항 제2호).",
+            "field": "이득"
+          },
+          {
+            "length": 52,
+            "text": "미성년자가 속임수로 상대방에게 성년자라고 믿게 했다면 취소할 수 없습니다(같은 법 제17조).",
+            "field": "이득"
+          },
+          {
+            "length": 54,
+            "text": "19세 미만은 이용할 수 없다는 표시입니다(「정보통신망법」 제42조, 같은 법 시행령 제24조).",
+            "field": "비고"
+          }
+        ],
+        "counting_rule": "공백·괄호 포함 literal. 종결부호 뒤 공백으로 분할. 출처·서지만 제외/법조문 번역 임의제외 안함. 초기진단이며 후보승인 아님."
+      }
+    },
+    {
+      "entry": 9,
+      "status": "qualified_supported_with_warning",
+      "source_entry_sha256": "f0d9568570da9c5e12149177395437dfbe50de247bd6ce879f7f548bf7c9cf3d",
+      "review_scope": "저작권103소명요청·즉시중단/저장유형양측통보·령41중단3일통지/42통보30일재개요청(②진술서대체예외존재)/43요구3일판단·요구받은날7~14일재개·소제기통보시중지·44수령인공개·103⑤인지~요청전책임제외/⑥허위요청배상/102③모니터링일반의무없음 직접확인. 쉽게5문장으로2~4위반 및7~14일기산점을짧게라도보존필요. 절차상저작권면책을직접침해·타법형사·모든행위무조건면책으로확장금지. 실제소명검토/통보/입증·분쟁비용보존. 상표디자인동일법정절차미확인유지.",
+      "evidence_ids": [
+        "law:283335",
+        "law:288567",
+        "more:7"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      },
+      "editorial_observations": {
+        "title_characters": 50,
+        "title_over_70": false,
+        "easy_characters": 126,
+        "easy_over_120": true,
+        "easy_sentences": 5,
+        "easy_outside_2_to_4": true,
+        "sentences_over_50": [
+          {
+            "length": 69,
+            "text": "저작권이 침해됐다고 주장하는 사람은 그 사실을 소명해 복제·전송 중단을 요구할 수 있습니다(「저작권법」 제103조 제1항).",
+            "field": "이득"
+          },
+          {
+            "length": 63,
+            "text": "올린 사람은 통보받은 날부터 30일 안에 소명 자료를 붙여 재개를 요청할 수 있습니다(같은 법 시행령 제42조).",
+            "field": "이득"
+          },
+          {
+            "length": 51,
+            "text": "정당하면 재개예정일을 권리주장자에게 알리고 그날 다시 올립니다(같은 법 제103조 제3항).",
+            "field": "이득"
+          },
+          {
+            "length": 62,
+            "text": "재개예정일은 재개 요구를 받은 날의 7일 이후부터 14일까지 사이로 정합니다(같은 법 시행령 제43조 제2항).",
+            "field": "이득"
+          },
+          {
+            "length": 51,
+            "text": "공지하고 이 절차대로 중단·재개했으면 운영자 책임은 면제됩니다(같은 법 제103조 제5항).",
+            "field": "이득"
+          },
+          {
+            "length": 68,
+            "text": "운영자가 직접 불법 복제물을 올리거나 침해를 알고도 두면 이 면책을 받지 못합니다(「저작권법」 제102조 제1항 제3호).",
+            "field": "비고"
+          }
+        ],
+        "counting_rule": "공백·괄호 포함 literal. 종결부호 뒤 공백으로 분할. 출처·서지만 제외/법조문 번역 임의제외 안함. 초기진단이며 후보승인 아님."
+      }
+    },
+    {
+      "entry": 10,
+      "status": "revision_required",
+      "source_entry_sha256": "751c5150f63eac976eaac594d27762680758b243843bc3e3a46ded1fc8a5608c",
+      "review_scope": "28의8① 다섯경로/국외조회포함·계약필요위탁보관만공개고지경로·인증+양안전권리보장/국가인정·②동의5정보·④타규정/령29의10계약·31공개/75②14 보호조치위반3천만 확인.64의2①7 기본3%만절대상한처럼쓰지말고②가중10%/재량·산정관련매출제외③와부칙3구분. 고시2023-11/별표2 실제PDF ISMS-P확인으로TODO인증목록부분해소,현재개별국가인정/업체인증유효실조회미확인. 해외직원조회도국외이전/인원수일반면제없음 타당하나개인정보가아닌익명정보까지확장금지.",
+      "evidence_ids": [
+        "more:6",
+        "sources:4",
+        "final:0",
+        "annex:0"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      },
+      "editorial_observations": {
+        "title_characters": 60,
+        "title_over_70": false,
+        "easy_characters": 95,
+        "easy_over_120": false,
+        "easy_sentences": 3,
+        "easy_outside_2_to_4": false,
+        "sentences_over_50": [
+          {
+            "length": 60,
+            "text": "이 내용은 받는 쪽과 맺는 계약에도 넣습니다(같은 법 제28조의8 제4항, 같은 법 시행령 제29조의10).",
+            "field": "이득"
+          },
+          {
+            "length": 52,
+            "text": "보호조치를 안 하면 3천만 원 이하의 과태료가 부과됩니다(같은 법 제75조 제2항 제14호).",
+            "field": "이득"
+          },
+          {
+            "length": 56,
+            "text": "위법하게 이전하면 전체 매출액 3% 이하의 과징금이 부과됩니다(같은 법 제64조의2 제1항 제7호).",
+            "field": "이득"
+          }
+        ],
+        "counting_rule": "공백·괄호 포함 literal. 종결부호 뒤 공백으로 분할. 출처·서지만 제외/법조문 번역 임의제외 안함. 초기진단이며 후보승인 아님."
+      }
+    },
+    {
+      "entry": 11,
+      "status": "revision_required",
+      "source_entry_sha256": "81608df861da81ce7d8ca7a97fa2a2b25b7212ce6e4848e7acbd051f30275ab8",
+      "review_scope": "경험C 서버우선순위정량연구아님·원문중국VPS월금액/备案혜택이식없음. AWS실제SLA대상구성·크레딧/청구기한·제외/손실전체보장아님, EBS자동백업아님·S3증분/저장료확인. 독립계정권고는저자판단. 망46②보험과령38사업개시동시책임보험은타인용집적시설사업자에적용;46①/령37 500㎡등보호조치문턱과혼동금지.령별표3매출100억↑10억/10~100억1억/10억미만5천만최저보험. 실제업체계약/가입유무는미확인. 공정위등록조회는품질·보험·보안보증아님. TODO보험규모미확인문구수정필수.",
+      "evidence_ids": [
+        "sources:1",
+        "sources:2",
+        "law:290001",
+        "law:290483",
+        "supp:3"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      },
+      "editorial_observations": {
+        "title_characters": 52,
+        "title_over_70": false,
+        "easy_characters": 101,
+        "easy_over_120": false,
+        "easy_sentences": 4,
+        "easy_outside_2_to_4": false,
+        "sentences_over_50": [
+          {
+            "length": 54,
+            "text": "법상 해당 집적정보통신시설 사업자는 보험 가입 의무가 있습니다(「정보통신망법」 제46조 제2항).",
+            "field": "비고"
+          }
+        ],
+        "counting_rule": "공백·괄호 포함 literal. 종결부호 뒤 공백으로 분할. 출처·서지만 제외/법조문 번역 임의제외 안함. 초기진단이며 후보승인 아님."
+      }
+    }
+  ],
+  "non_entry_editorial_observations": {
+    "intro": {
+      "sentences_over_50": [
+        {
+          "length": 51,
+          "text": "회사에 고용된 기술자가 넘지 말아야 할 선은 제11절(개발자와 기술자의 레드라인)을 보세요."
+        }
+      ],
+      "counting_rule": "공백·괄호 포함 literal. 제목/상태·서지·목차링크 불변메타 제외;일반서술/TODO 포함."
+    },
+    "tail": {
+      "sentences_over_50": [
+        {
+          "length": 91,
+          "text": "자기 상품만 파는 쇼핑몰이 「전기통신사업법」상 부가통신역무(타인의 통신 매개)에 해당하는지에 대한 과학기술정보통신부 공식 안내 — 2026-10-10 찾지 못했다."
+        },
+        {
+          "length": 129,
+          "text": "2025년 11월 27일 국회를 통과한 「전자금융거래법」 개정(PG 정의 명확화, 정산자금 전액 외부관리)의 법률 번호·조문 번호·시행일 — law.go.kr 인쇄 화면에 제25조의4·제25조의5·제36조의3 본문이 나오지 않았다."
+        },
+        {
+          "length": 75,
+          "text": "금융감독원 파인(fine.fss.or.kr)의 전자금융업 등록현황 조회 경로 — 2026-10-08~10 서비스 중단으로 열지 못했다."
+        },
+        {
+          "length": 55,
+          "text": "금융감독원 2022년 12월 미등록 PG 관련 보도자료 원문 — 2차 자료에만 언급돼 있어 미확인."
+        },
+        {
+          "length": 56,
+          "text": "상표권·디자인권 침해 신고에 대한 법정 처리 절차(「저작권법」 제103조에 해당하는 것) — 미확인."
+        },
+        {
+          "length": 54,
+          "text": "「정보통신망법」 제46조 제2항 보험 가입 대상 집적정보통신시설의 규모 기준(시행령) — 미확인."
+        },
+        {
+          "length": 69,
+          "text": "원문 절 도입부의 장문 `docs/做平台要办哪些证.md`(중국 허가증 대조표와 서버 결정표)는 한국어판이 없어 링크를 뺐다."
+        }
+      ],
+      "counting_rule": "공백·괄호 포함 literal. 제목/상태·서지·목차링크 불변메타 제외;일반서술/TODO 포함."
+    }
+  },
+  "evidence": [
+    {
+      "url": "https://www.fsc.go.kr/po010105/85751",
+      "requested_at": "2026-10-18T17:16:35.846533+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "pg-release",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch26-audit/733e57876bee71af4848.raw",
+      "sha256": "d1c2a223f791e51ba89f63f266256cc9815acd9f68b4a9193e2d4a310d34896c",
+      "id": "sources:0",
+      "reviewed_at": "2026-10-18T17:22:41.718039+00:00",
+      "actual_review_scope": "금융위 2025-11-27 실제 보도 본문: PG 정의/외부관리60→80→100/국회통과·공포1년 후/현행3억10억 및 개정안 구분. 첨부전문 열람 아님."
+    },
+    {
+      "url": "https://aws.amazon.com/ec2/sla/",
+      "requested_at": "2026-10-18T17:16:35.847439+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "sla",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch26-audit/cd0329d7781290b0d7e4.raw",
+      "sha256": "18874d509544f8856f8e3da797b3e13bb97d4aa1acf811d82eade09e7795ef62",
+      "id": "sources:1",
+      "reviewed_at": "2026-10-18T17:22:41.718039+00:00",
+      "actual_review_scope": "AWS 실제 SLA 전문: 대상구성·지역99.99/단일99.5·크레딧한정·청구기한/로그증빙·제외. 모든 장애 자동배상 아님."
+    },
+    {
+      "url": "https://docs.aws.amazon.com/ebs/latest/userguide/ebs-snapshots.html",
+      "requested_at": "2026-10-18T17:16:35.848105+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "snapshots",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch26-audit/b762b4fab5700d9056aa.raw",
+      "sha256": "e6eb1d59a64966f3e4332098750989db8070c541ead9152213c60cbf201efc50",
+      "id": "sources:2",
+      "reviewed_at": "2026-10-18T17:22:41.718039+00:00",
+      "actual_review_scope": "AWS 실제 EBS 도움말 전문: 증분/S3저장·자동백업아님·별도생성책임·요금. 독립계정 권고 전체를 입증하는 연구 아님."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=282793&type=XML",
+      "requested_at": "2026-10-18T17:16:35.848734+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "282793",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch26-audit/a636e2f9ba8e4b10bcfd.raw",
+      "sha256": "f970ec9e84bae3c139fe8e190c9dda527662a64b9353daa0ee5dd3e7934250f7",
+      "id": "sources:3",
+      "reviewed_at": "2026-10-18T17:22:41.718039+00:00",
+      "actual_review_scope": "전자상거래법 실제 XML 6/9~13/20~21의4/42/45 및 2026-01-20 부칙·개인거래7-21/국내대리인2027-01-21 분리. more:9 eflaw와 대조."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=289537&type=XML",
+      "requested_at": "2026-10-18T17:16:35.849704+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "289537",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch26-audit/24be9f112b82a42c729c.raw",
+      "sha256": "f0edb134c99b20d16cd8f21ccbabf327c1786891a402910e271c1c7d0cfe0a9b",
+      "id": "sources:4",
+      "reviewed_at": "2026-10-18T17:22:41.718039+00:00",
+      "actual_review_scope": "개인정보령 실제 XML17의2/29의7~12/31·부칙. 국외이전 통지방식/보호조치·계약/동의확인."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=law&type=XML&query=%EB%B0%A9%EC%86%A1%EB%B2%95&display=100&nw=1",
+      "requested_at": "2026-10-18T17:16:35.850446+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "방송법",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch26-audit/1d9ce13e076525ef6f58.raw",
+      "sha256": "464cb7f72db6a34e317b5e0e75c32dd74055d797baeb7fe79139073f6fd195a8",
+      "id": "sources:5",
+      "reviewed_at": "2026-10-18T17:22:41.718039+00:00",
+      "actual_review_scope": "실제 공식 XML 본문 중 항목별 표시 조문·기본정보/관련 부칙 열람. 검색자료는 번호·시행일·본문경로 식별까지만."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=law&type=XML&query=%EB%B6%80%EA%B0%80%EA%B0%80%EC%B9%98%EC%84%B8%EB%B2%95&display=100&nw=1",
+      "requested_at": "2026-10-18T17:16:36.591300+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "부가가치세법",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch26-audit/94eb08103b38c1a6ed30.raw",
+      "sha256": "8cad49a667112f5796cbc705d3112f24db559c5aa2af6a5972bf944773240f66",
+      "id": "sources:6",
+      "reviewed_at": "2026-10-18T17:22:41.718039+00:00",
+      "actual_review_scope": "실제 공식 XML 본문 중 항목별 표시 조문·기본정보/관련 부칙 열람. 검색자료는 번호·시행일·본문경로 식별까지만."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=law&type=XML&query=%EC%9D%B8%ED%84%B0%EB%84%B7%EB%A9%80%ED%8B%B0%EB%AF%B8%EB%94%94%EC%96%B4%EB%B0%A9%EC%86%A1%EC%82%AC%EC%97%85%EB%B2%95&display=100&nw=1",
+      "requested_at": "2026-10-18T17:16:36.602291+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "인터넷멀티미디어방송사업법",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch26-audit/5961d3963cc4375fa132.raw",
+      "sha256": "9aeb67b4900f4b296cb4a3514bb06c20af8d857aaeaf0ac0c2d164d543742cac",
+      "id": "sources:7",
+      "reviewed_at": "2026-10-18T17:22:41.718039+00:00",
+      "actual_review_scope": "실제 공식 XML 본문 중 항목별 표시 조문·기본정보/관련 부칙 열람. 검색자료는 번호·시행일·본문경로 식별까지만."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=law&type=XML&query=%EC%B2%AD%EC%86%8C%EB%85%84%EB%B3%B4%ED%98%B8%EB%B2%95&display=100&nw=1",
+      "requested_at": "2026-10-18T17:16:38.772942+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "청소년보호법",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch26-audit/58cdae48c4065ebc1b89.raw",
+      "sha256": "424474197d4de4edce0e484ebf6c3e41dfbf8eea95255a2c1e63ebdaa41752b9",
+      "id": "sources:8",
+      "reviewed_at": "2026-10-18T17:22:41.718039+00:00",
+      "actual_review_scope": "실제 공식 XML 본문 중 항목별 표시 조문·기본정보/관련 부칙 열람. 검색자료는 번호·시행일·본문경로 식별까지만."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=law&type=XML&query=%EC%9D%8C%EC%95%85%EC%82%B0%EC%97%85%EC%A7%84%ED%9D%A5%EC%97%90%EA%B4%80%ED%95%9C%EB%B2%95%EB%A5%A0&display=100&nw=1",
+      "requested_at": "2026-10-18T17:16:39.212059+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "음악산업진흥에관한법률",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch26-audit/9ee131712a2147470e3f.raw",
+      "sha256": "6d79f848593db1c31f4f73aaab327c78f1b510ce8ca3d6db71984122ebf87fcc",
+      "id": "sources:9",
+      "reviewed_at": "2026-10-18T17:22:41.718039+00:00",
+      "actual_review_scope": "실제 공식 XML 본문 중 항목별 표시 조문·기본정보/관련 부칙 열람. 검색자료는 번호·시행일·본문경로 식별까지만."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=admrul&type=XML&query=%ED%86%B5%EC%8B%A0%ED%8C%90%EB%A7%A4%EC%97%85%20%EC%8B%A0%EA%B3%A0%20%EB%A9%B4%EC%A0%9C%20%EA%B8%B0%EC%A4%80&display=100",
+      "requested_at": "2026-10-18T17:16:39.245589+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "filing-exempt",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch26-audit/c9247098c2de3a273fc6.raw",
+      "sha256": "4ae81bdc7365006fc93fb849d3c02e4f99f61216d195b8504d3eaf91ad1edac4",
+      "id": "sources:10",
+      "reviewed_at": "2026-10-18T17:22:41.718039+00:00",
+      "actual_review_scope": "실제 공식 XML 본문 중 항목별 표시 조문·기본정보/관련 부칙 열람. 검색자료는 번호·시행일·본문경로 식별까지만."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=285487&type=XML",
+      "requested_at": "2026-10-18T17:17:18.733458+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "방송법",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch26-audit/698cf6371ef9116dce85.raw",
+      "sha256": "c249a4331d5e4adcaeb6bcace8326eb92e40e0684e5ae2f9bb910f397a4c23fd",
+      "id": "more:0",
+      "reviewed_at": "2026-10-18T17:22:41.718039+00:00",
+      "actual_review_scope": "실제 공식 XML 본문 중 항목별 표시 조문·기본정보/관련 부칙 열람. 검색자료는 번호·시행일·본문경로 식별까지만."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=276117&type=XML",
+      "requested_at": "2026-10-18T17:17:18.734383+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "부가가치세법",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch26-audit/d4b13273b73108cf90e1.raw",
+      "sha256": "b2360d874974675a3452b6775478942deff2a479bbd1d25d2bc2886a05159710",
+      "id": "more:1",
+      "reviewed_at": "2026-10-18T17:22:41.718039+00:00",
+      "actual_review_scope": "실제 공식 XML 본문 중 항목별 표시 조문·기본정보/관련 부칙 열람. 검색자료는 번호·시행일·본문경로 식별까지만."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=286115&type=XML",
+      "requested_at": "2026-10-18T17:17:18.734917+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "인터넷멀티미디어방송사업법",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch26-audit/94c1620bd18f27d42fce.raw",
+      "sha256": "fc7704a15ba65e4e571c88c72e3182e269a6008b94c0e008f52a37bc3199c65b",
+      "id": "more:2",
+      "reviewed_at": "2026-10-18T17:22:41.718039+00:00",
+      "actual_review_scope": "실제 공식 XML 본문 중 항목별 표시 조문·기본정보/관련 부칙 열람. 검색자료는 번호·시행일·본문경로 식별까지만."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290215&type=XML",
+      "requested_at": "2026-10-18T17:17:18.735600+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "청소년보호법",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch26-audit/4bd13fdef9b3c1fb29f1.raw",
+      "sha256": "9869eb7dd5014ff8db718e83ffaf47d71591ced03a8b2f3a06c6fbedf2e12ddd",
+      "id": "more:3",
+      "reviewed_at": "2026-10-18T17:22:41.718039+00:00",
+      "actual_review_scope": "검색첫결과는 아동청소년성보호법으로 청소년보호법과 다름. 본문은 수신했으나 제7항 근거로 사용하지 않음; supp:0 별도 정확법."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=270191&type=XML",
+      "requested_at": "2026-10-18T17:17:18.736088+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "음악산업진흥에관한법률",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch26-audit/b47930ccc6227cec4bee.raw",
+      "sha256": "bc50e9dea0ee504879aca0e5c87198d9dba13a2713c1e205979423a5bdad292d",
+      "id": "more:4",
+      "reviewed_at": "2026-10-18T17:22:41.718039+00:00",
+      "actual_review_scope": "실제 공식 XML 본문 중 항목별 표시 조문·기본정보/관련 부칙 열람. 검색자료는 번호·시행일·본문경로 식별까지만."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&ID=010199&type=XML&efYd=20261002",
+      "requested_at": "2026-10-18T17:17:18.737216+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "eflaw010199",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch26-audit/29e31263010787b73c5d.raw",
+      "sha256": "05776a6772e4cd91461bb3b8e98f7351fa0496d9c6ef20e6bce4ac9352431908",
+      "id": "more:5",
+      "reviewed_at": "2026-10-18T17:22:41.718039+00:00",
+      "actual_review_scope": "현행 eflaw ID010199/20261002: 정의2⑲/28③2 정보전달 면제/30③3억·령10억/49⑤5·⑧병과/50와 21205부칙. 일반MST 미래PG 문구와 직접 대조."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&ID=011357&type=XML&efYd=20260911",
+      "requested_at": "2026-10-18T17:17:20.535966+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "eflaw011357",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch26-audit/e7a4638ab5a88d633b1c.raw",
+      "sha256": "8cedd7d0a0f85dcffd17f92e244577f168c0e13d9b6d5e8286f8df3c57595c20",
+      "id": "more:6",
+      "reviewed_at": "2026-10-18T17:22:41.718039+00:00",
+      "actual_review_scope": "현행 eflaw20260911 22의2/24의2/28의8~9/64의2①~⑫/75 및21445부칙1·3 전수: 기본3%/조건부10%·시점적용. 미래20270701 일부만 제외."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&ID=000030&type=XML&efYd=20261002",
+      "requested_at": "2026-10-18T17:17:20.858925+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "eflaw000030",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch26-audit/1e89f40725373c249d01.raw",
+      "sha256": "ae09e634631129bccde72a21822d0671d7f955546a3e572f3284f97252356785",
+      "id": "more:7",
+      "reviewed_at": "2026-10-18T17:22:41.718039+00:00",
+      "actual_review_scope": "실제 공식 XML 본문 중 항목별 표시 조문·기본정보/관련 부칙 열람. 검색자료는 번호·시행일·본문경로 식별까지만."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&ID=001733&type=XML&efYd=20261001",
+      "requested_at": "2026-10-18T17:17:21.127638+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "eflaw001733",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch26-audit/e1d5cbbf99e1d4dc1413.raw",
+      "sha256": "b3150d42b110e5de2d2251ff28d650c34622a68d25a33c04503eddc3fa614c0b",
+      "id": "more:8",
+      "reviewed_at": "2026-10-18T17:22:41.718039+00:00",
+      "actual_review_scope": "실제 공식 XML 본문 중 항목별 표시 조문·기본정보/관련 부칙 열람. 검색자료는 번호·시행일·본문경로 식별까지만."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&ID=009318&type=XML&efYd=20260721",
+      "requested_at": "2026-10-18T17:17:21.861766+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "eflaw009318",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch26-audit/45e6d63f448933055e1f.raw",
+      "sha256": "34f0b159d27e93cd886843c4f4dd80b2bdcda80f7077aed6d8cdd025af064e0a",
+      "id": "more:9",
+      "reviewed_at": "2026-10-18T17:22:41.718039+00:00",
+      "actual_review_scope": "실제 공식 XML 본문 중 항목별 표시 조문·기본정보/관련 부칙 열람. 검색자료는 번호·시행일·본문경로 식별까지만."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=285397&type=XML",
+      "requested_at": "2026-10-18T17:18:05.185551+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "youth",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch26-audit/6858589ebb6af5f846c6.raw",
+      "sha256": "b22b30d3ec4b90caa8baada2ea813d398a95caa7e7deeb10a111df293cdfdc37",
+      "id": "supp:0",
+      "reviewed_at": "2026-10-18T17:22:41.718039+00:00",
+      "actual_review_scope": "실제 공식 XML 본문 중 항목별 표시 조문·기본정보/관련 부칙 열람. 검색자료는 번호·시행일·본문경로 식별까지만."
+    },
+    {
+      "url": "https://www.law.go.kr/LSW/admRulLsInfoR.do?admRulSeq=2100000210384&languageType=KO&chrClsCd=010202",
+      "requested_at": "2026-10-18T17:18:05.186468+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "filing-exempt-body",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch26-audit/a02ab87255a3d6147dab.raw",
+      "sha256": "322351704f882af787a529839596234f3f60df4a336e2563e8250b6c1ea793bb",
+      "id": "supp:1",
+      "reviewed_at": "2026-10-18T17:22:41.718039+00:00",
+      "actual_review_scope": "FTC 고시2022-4 실제 본문2와 부칙: 직전연도50회미만 OR 간이과세·청약철회 거래 제외."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&ID=010199&type=XML&efYd=20261217",
+      "requested_at": "2026-10-18T17:18:05.187041+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "pg-future",
+      "status": "access_failed",
+      "error": "HTTP Error 500: Internal Server Error",
+      "id": "supp:2",
+      "reviewed_at": "2026-10-18T17:22:41.718039+00:00",
+      "actual_review_scope": "실제 신규HTTPS 접근실패·본문미열람. 캐시/다른버전/후속성공과 구별."
+    },
+    {
+      "url": "https://www.ftc.go.kr/www/selectBizCommList.do?key=255",
+      "requested_at": "2026-10-18T17:18:05.187676+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "ftc-lookup",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch26-audit/4eb2ad1406cbc6fe0f1b.raw",
+      "sha256": "bfaf9ae3404d31a0f27102e25366a4f898d9dcc7b71dc1fb59dc1661f6a4d590",
+      "id": "supp:3",
+      "reviewed_at": "2026-10-18T17:22:41.718039+00:00",
+      "actual_review_scope": "FTC 실제 통신판매사업자 조회 안내/검색창·미등록목록. 개별사업자 조회나 품질보장 확인 아님."
+    },
+    {
+      "url": "https://fine.fss.or.kr",
+      "requested_at": "2026-10-18T17:18:05.188239+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "fine",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch26-audit/863132e635e31f6a16b3.raw",
+      "sha256": "96f37a3de7b8d527b3367d6ad3839ae76dc03b0e1ece3605cea796d0d3607d06",
+      "id": "supp:4",
+      "reviewed_at": "2026-10-18T17:22:41.718039+00:00",
+      "actual_review_scope": "파인 실제 홈페이지에 전자금융업 등록현황 조회 메뉴·정확하위URL 존재 확인. 등록목록은end:0 별도."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=law&type=XML&query=%EC%A0%84%EC%9E%90%EA%B8%88%EC%9C%B5%EA%B1%B0%EB%9E%98%EB%B2%95&display=100&nw=1",
+      "requested_at": "2026-10-18T17:18:28.944548+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "전자금융거래법",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch26-audit/9fd900a77edc1bb414b9.raw",
+      "sha256": "0dd3569bc0c1ee473ef10099bb1c5c88df3d8f6da589b2fb68ac750c8e9f2e38",
+      "id": "closure:0",
+      "reviewed_at": "2026-10-18T17:22:41.718039+00:00",
+      "actual_review_scope": "실제 공식 XML 본문 중 항목별 표시 조문·기본정보/관련 부칙 열람. 검색자료는 번호·시행일·본문경로 식별까지만."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=admrul&type=XML&query=%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%B3%B4%20%EA%B5%AD%EC%99%B8%20%EC%9D%B4%EC%A0%84&display=100&nw=1",
+      "requested_at": "2026-10-18T17:18:28.945393+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "개인정보 국외 이전",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch26-audit/3560d925ce20bac9ebed.raw",
+      "sha256": "af4085c4ee64cc5d0d32cdf110ef0678cda9ceae464d69a8e776d92549cf9396",
+      "id": "closure:1",
+      "reviewed_at": "2026-10-18T17:22:41.718039+00:00",
+      "actual_review_scope": "고시 검색서지2023-11/정확일련번호 확인. 실제본문은final:0/PDF별표annex:0."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=law&type=XML&query=%EC%A7%80%EB%B0%A9%EC%84%B8%EB%B2%95%EC%8B%9C%ED%96%89%EB%A0%B9&display=100&nw=1",
+      "requested_at": "2026-10-18T17:18:28.946063+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "지방세법시행령",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch26-audit/264f7b321f0cf9731561.raw",
+      "sha256": "7113e34ef05cd8680c0019870e0e619b6019d215e15695256b92c87d43e75a20",
+      "id": "closure:2",
+      "reviewed_at": "2026-10-18T17:22:41.718039+00:00",
+      "actual_review_scope": "실제 공식 XML 본문 중 항목별 표시 조문·기본정보/관련 부칙 열람. 검색자료는 번호·시행일·본문경로 식별까지만."
+    },
+    {
+      "url": "https://www.kmrb.or.kr",
+      "requested_at": "2026-10-18T17:18:28.946668+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "kmrb-home",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch26-audit/40bbbb7401c3e8031b3e.raw",
+      "sha256": "b14d0823019b5124907a1e98e5fdff90a61412dd393630ac26449e752ec4fd1d",
+      "id": "closure:3",
+      "reviewed_at": "2026-10-18T17:22:41.718039+00:00",
+      "actual_review_scope": "HTTP200 응답이나 빈 본문/리디렉트 스크립트 중심 KMRB 셸. 수수료·라이브등급 본문 미열람."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=detc&type=XML&query=2010%ED%97%8C%EB%A7%8847&display=20",
+      "requested_at": "2026-10-18T17:18:28.947678+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "constitution",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch26-audit/0e31beaac77156644223.raw",
+      "sha256": "b7287d121dee1c57262bf00a37877ae17db2d8950f3c918880e0ff0891214c90",
+      "id": "closure:4",
+      "reviewed_at": "2026-10-18T17:22:41.718039+00:00",
+      "actual_review_scope": "헌재 검색 서지·상세ID20549 식별만. 실제 결정은final:3."
+    },
+    {
+      "url": "https://www.law.go.kr/LSW/admRulLsInfoR.do?admRulSeq=2100000230332&languageType=KO&chrClsCd=010202",
+      "requested_at": "2026-10-18T17:19:00.236702+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "transfer-regulation",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch26-audit/7d2d7aa9b308a03687e1.raw",
+      "sha256": "3180b1c1e1c3ecabc904070800cc8e826afe2a74eaf3b46a0ffc0b3d35ebed03",
+      "id": "final:0",
+      "reviewed_at": "2026-10-18T17:22:41.718039+00:00",
+      "actual_review_scope": "고시2023-11 실제 조문1~28/시행 부칙 열람. 별표2 인증목록은annex:0 PDF 실제 본문 확인. 국가별 인정 목록 전체 확인 아님."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=280277&type=XML",
+      "requested_at": "2026-10-18T17:19:00.237553+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "pg-future-law",
+      "status": "access_failed",
+      "error": "HTTP Error 502: Bad Gateway",
+      "id": "final:1",
+      "reviewed_at": "2026-10-18T17:22:41.718039+00:00",
+      "actual_review_scope": "실제 신규HTTPS 접근실패·본문미열람. 캐시/다른버전/후속성공과 구별."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290815&type=XML",
+      "requested_at": "2026-10-18T17:19:00.238116+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "localtax-decree",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch26-audit/125f940ad12322e4e01a.raw",
+      "sha256": "9960523bae4e6b4eb61d4c540d89263e56955376302adfd8e836d964bda633f3",
+      "id": "final:2",
+      "reviewed_at": "2026-10-18T17:22:41.718039+00:00",
+      "actual_review_scope": "지방세령 실제 XML39/별표1: 통신판매 제3종89 확인. 기본시행2026-10-01/부칙. 금액은 법34·지역기준 별도."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=detc&ID=20549&type=XML",
+      "requested_at": "2026-10-18T17:19:00.238621+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "constitution-body",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch26-audit/9b44edf7e07b85548590.raw",
+      "sha256": "cf37d919bc28510649ca4c5c3b6d0d989521aff5e4d9cbfb9ba686f66bb85b3f",
+      "id": "final:3",
+      "reviewed_at": "2026-10-18T17:22:41.718039+00:00",
+      "actual_review_scope": "헌재2010헌마47 2012-08-23 실제 XML 결정전문/주문·사건범위: 민간게시판 본인확인제 위헌. 모든 법정나이확인 위헌 아님."
+    },
+    {
+      "url": "https://www.law.go.kr/LSW/admRulAttFlList.do?admRulSeq=2100000230332",
+      "requested_at": "2026-10-18T17:19:28.112403+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "transfer-attachments",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch26-audit/fef08a03fde7a2e00244.raw",
+      "sha256": "b46dbe16e2a480900303315db1ed8742238db5aa430934140c26eb742ecc6075",
+      "id": "last:0",
+      "reviewed_at": "2026-10-18T17:22:41.718039+00:00",
+      "actual_review_scope": "실제 첨부목록만/전문PDF flSeq133841385 식별."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=law&type=XML&query=%EC%A7%80%EB%B0%A9%EC%84%B8%EB%B2%95&display=100&nw=1",
+      "requested_at": "2026-10-18T17:19:28.113225+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "localtax-search",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch26-audit/b3501a09618d7cba62f1.raw",
+      "sha256": "3bf41c35fefff6cfb4616fcdf45f5ade2af0bc3c0e0c4b8764bfe94ca04e234b",
+      "id": "last:1",
+      "reviewed_at": "2026-10-18T17:22:41.718039+00:00",
+      "actual_review_scope": "실제 공식 XML 본문 중 항목별 표시 조문·기본정보/관련 부칙 열람. 검색자료는 번호·시행일·본문경로 식별까지만."
+    },
+    {
+      "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=133841385",
+      "requested_at": "2026-10-18T17:19:46.258693+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "transfer-full-pdf",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch26-audit/8c8a1f2a7972da4c1414.raw",
+      "sha256": "931897468c626eadb36233a1808b97683834146c6f62381b6b78a8e088713f9d",
+      "id": "annex:0",
+      "reviewed_at": "2026-10-18T17:22:41.718039+00:00",
+      "actual_review_scope": "공식 고시 전문PDF pdftotext 실제 전조문+별표2: ISMS-P/인증유효기간 해당없음. 자동으로 모든 해외업체 해당한다는 뜻 아님."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&ID=001649&type=XML&efYd=20260701",
+      "requested_at": "2026-10-18T17:19:46.261021+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "localtax-law",
+      "status": "access_failed",
+      "error": "<urlopen error Tunnel connection failed: 502 Bad Gateway>",
+      "id": "annex:1",
+      "reviewed_at": "2026-10-18T17:22:41.718039+00:00",
+      "actual_review_scope": "실제 신규HTTPS 접근실패·본문미열람. 캐시/다른버전/후속성공과 구별."
+    },
+    {
+      "url": "https://fine.fss.or.kr/fine/bbs/B0000392/list.do?menuNo=900495",
+      "requested_at": "2026-10-18T17:20:13.804668+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "fine-list",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch26-audit/dc0a0f8ef3e3d25884cd.raw",
+      "sha256": "cb50eec5e1069df25e042ae2e363f6d6ecb41410ce2e82ddafba304aeb26a2c5",
+      "id": "end:0",
+      "reviewed_at": "2026-10-18T17:22:41.718039+00:00",
+      "actual_review_scope": "파인 실제 등록현황 목록 본문:465건/2026-08-26공지·최신등록말소 항목. 개별PG 현재등록확인 및 첨부전문 열람 아님."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=282559&type=XML",
+      "requested_at": "2026-10-18T17:20:13.808076+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "localtax-law-retry",
+      "status": "access_failed",
+      "error": "<urlopen error Tunnel connection failed: 502 Bad Gateway>",
+      "id": "end:1",
+      "reviewed_at": "2026-10-18T17:22:41.718039+00:00",
+      "actual_review_scope": "실제 신규HTTPS 접근실패·본문미열람. 캐시/다른버전/후속성공과 구별."
+    },
+    {
+      "mst": "290247",
+      "chapters": [
+        5,
+        8,
+        11
+      ],
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290247&type=XML",
+      "requested_at": "2026-10-18T12:38:28.240394+00:00",
+      "scope": "Exact cited statutory version only; article-specific commencement and claims require independent review.",
+      "http_status": 200,
+      "status": "statutory_xml_cached",
+      "title": "전자금융거래법",
+      "effective_date": "20261002",
+      "law_id": "010199",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290247.xml",
+      "sha256": "440b67551a3f1f6119dba38469ca843ac06c55619e8aa59f3b7819c05368a621",
+      "bytes": 200746,
+      "article_count": 80,
+      "selected_articles": [
+        "2",
+        "25",
+        "28",
+        "30",
+        "49",
+        "50"
+      ],
+      "id": "law:290247",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T17:22:41.718039+00:00",
+      "actual_review_scope": "실제XML 선택조문 2,25,28,30,49,50 및관련부칙/서비스별표 직접열람. 전자금융290247 일반XML은 미래개정혼재로 현행확정은more:5 eflaw 사용;미래25의4/25의5/36의3과21205부칙 대조에만 별도사용. 망법령38/별표3 보험도 추가열람."
+    },
+    {
+      "mst": "285727",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=285727&type=XML",
+      "requested_at": "2026-10-18T12:49:48.659106+00:00",
+      "http_status": 200,
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/285727.xml",
+      "sha256": "f5d78f30107a284b294f29fe95fc2973f8df10c0d803050951dbccf025d7b216",
+      "selected_articles": [
+        "15",
+        "17"
+      ],
+      "id": "law:285727",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T17:22:41.718039+00:00",
+      "actual_review_scope": "실제XML 선택조문 15,17 및관련부칙/서비스별표 직접열람. 전자금융290247 일반XML은 미래개정혼재로 현행확정은more:5 eflaw 사용;미래25의4/25의5/36의3과21205부칙 대조에만 별도사용. 망법령38/별표3 보험도 추가열람."
+    },
+    {
+      "mst": "285185",
+      "chapters": [
+        5,
+        11
+      ],
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=285185&type=XML",
+      "requested_at": "2026-10-18T12:37:57.053030+00:00",
+      "scope": "Exact cited statutory version only; article-specific commencement and claims require independent review.",
+      "http_status": 200,
+      "status": "statutory_xml_cached",
+      "title": "전기통신사업법",
+      "effective_date": "20261001",
+      "law_id": "001733",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/285185.xml",
+      "sha256": "19211caf018039f7b50c1aea31f4cd54fe9a99cc509afee0797cc462d3ff30ad",
+      "bytes": 508358,
+      "article_count": 179,
+      "selected_articles": [
+        "2",
+        "22",
+        "22의5",
+        "22의6",
+        "95의2",
+        "96",
+        "104"
+      ],
+      "id": "law:285185",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T17:22:41.718039+00:00",
+      "actual_review_scope": "실제XML 선택조문 2,22,22의5,22의6,95의2,96,104 및관련부칙/서비스별표 직접열람. 전자금융290247 일반XML은 미래개정혼재로 현행확정은more:5 eflaw 사용;미래25의4/25의5/36의3과21205부칙 대조에만 별도사용. 망법령38/별표3 보험도 추가열람."
+    },
+    {
+      "mst": "290813",
+      "chapters": [
+        5
+      ],
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290813&type=XML",
+      "requested_at": "2026-10-18T12:38:41.008211+00:00",
+      "scope": "Exact cited statutory version only; article-specific commencement and claims require independent review.",
+      "http_status": 200,
+      "status": "statutory_xml_cached",
+      "title": "전기통신사업법 시행령",
+      "effective_date": "20261001",
+      "law_id": "004708",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290813.xml",
+      "sha256": "a6860b044e49798531374b7f272b048160d36648aa460e3b86962c06161d54f6",
+      "bytes": 743046,
+      "article_count": 160,
+      "selected_articles": [
+        "30",
+        "30의6"
+      ],
+      "id": "law:290813",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T17:22:41.718039+00:00",
+      "actual_review_scope": "실제XML 선택조문 30,30의6 및관련부칙/서비스별표 직접열람. 전자금융290247 일반XML은 미래개정혼재로 현행확정은more:5 eflaw 사용;미래25의4/25의5/36의3과21205부칙 대조에만 별도사용. 망법령38/별표3 보험도 추가열람."
+    },
+    {
+      "mst": "290001",
+      "chapters": [
+        8,
+        11
+      ],
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290001&type=XML",
+      "requested_at": "2026-10-18T12:38:22.876633+00:00",
+      "scope": "Exact cited statutory version only; article-specific commencement and claims require independent review.",
+      "http_status": 200,
+      "status": "statutory_xml_cached",
+      "title": "정보통신망 이용촉진 및 정보보호 등에 관한 법률",
+      "effective_date": "20261002",
+      "law_id": "000030",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290001.xml",
+      "sha256": "9a5b1491c704ab556b864385d0374ce13f283ccc19d8f9a43389c501a9e6578b",
+      "bytes": 433334,
+      "article_count": 181,
+      "selected_articles": [
+        "23의2",
+        "23의3",
+        "42",
+        "42의3",
+        "44",
+        "44의2",
+        "44의5",
+        "44의7",
+        "44의9",
+        "44의12",
+        "44의14",
+        "46",
+        "73",
+        "76"
+      ],
+      "id": "law:290001",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T17:22:41.718039+00:00",
+      "actual_review_scope": "실제XML 선택조문 23의2,23의3,42,42의3,44,44의2,44의5,44의7,44의9,44의12,44의14,46,73,76 및관련부칙/서비스별표 직접열람. 전자금융290247 일반XML은 미래개정혼재로 현행확정은more:5 eflaw 사용;미래25의4/25의5/36의3과21205부칙 대조에만 별도사용. 망법령38/별표3 보험도 추가열람."
+    },
+    {
+      "mst": "290483",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290483&type=XML",
+      "requested_at": "2026-10-18T12:49:55.374310+00:00",
+      "http_status": 200,
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290483.xml",
+      "sha256": "b2a661bdb62c8cff0e57c747840bd6027d55bbb90b918a4f379b0f53f9ec5571",
+      "selected_articles": [
+        "2의2",
+        "24",
+        "25",
+        "27",
+        "35의3",
+        "37"
+      ],
+      "id": "law:290483",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T17:22:41.718039+00:00",
+      "actual_review_scope": "실제XML 선택조문 2의2,24,25,27,35의3,37 및관련부칙/서비스별표 직접열람. 전자금융290247 일반XML은 미래개정혼재로 현행확정은more:5 eflaw 사용;미래25의4/25의5/36의3과21205부칙 대조에만 별도사용. 망법령38/별표3 보험도 추가열람."
+    },
+    {
+      "mst": "283839",
+      "chapters": [
+        11
+      ],
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=283839&type=XML",
+      "requested_at": "2026-10-18T12:37:49.895011+00:00",
+      "scope": "Exact cited statutory version only; article-specific commencement and claims require independent review.",
+      "http_status": 200,
+      "status": "statutory_xml_cached",
+      "title": "개인정보 보호법",
+      "effective_date": "20260911",
+      "law_id": "011357",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/283839.xml",
+      "sha256": "6d1f5a3a40b177bef82c56d4aeb0d37524c46b550a7997128fb9435555ce748f",
+      "bytes": 371427,
+      "article_count": 141,
+      "selected_articles": [
+        "22의2",
+        "24의2",
+        "28의8",
+        "28의9",
+        "64의2",
+        "75"
+      ],
+      "id": "law:283839",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T17:22:41.718039+00:00",
+      "actual_review_scope": "실제XML 선택조문 22의2,24의2,28의8,28의9,64의2,75 및관련부칙/서비스별표 직접열람. 전자금융290247 일반XML은 미래개정혼재로 현행확정은more:5 eflaw 사용;미래25의4/25의5/36의3과21205부칙 대조에만 별도사용. 망법령38/별표3 보험도 추가열람."
+    },
+    {
+      "mst": "283335",
+      "chapters": [
+        11
+      ],
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=283335&type=XML",
+      "requested_at": "2026-10-18T12:37:44.576976+00:00",
+      "scope": "Exact cited statutory version only; article-specific commencement and claims require independent review.",
+      "http_status": 200,
+      "status": "statutory_xml_cached",
+      "title": "저작권법",
+      "effective_date": "20260811",
+      "law_id": "000798",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/283335.xml",
+      "sha256": "6a429f0550556154dcad808d032185e92b6ffdf3f40d791439b14129e1ee929d",
+      "bytes": 402458,
+      "article_count": 228,
+      "selected_articles": [
+        "102",
+        "103"
+      ],
+      "id": "law:283335",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T17:22:41.718039+00:00",
+      "actual_review_scope": "실제XML 선택조문 102,103 및관련부칙/서비스별표 직접열람. 전자금융290247 일반XML은 미래개정혼재로 현행확정은more:5 eflaw 사용;미래25의4/25의5/36의3과21205부칙 대조에만 별도사용. 망법령38/별표3 보험도 추가열람."
+    },
+    {
+      "mst": "288567",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=288567&type=XML",
+      "requested_at": "2026-10-18T12:49:40.558243+00:00",
+      "http_status": 200,
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/288567.xml",
+      "sha256": "0dd2ce733ef30728843bab81c8dd48ef7318ae452347d83988529b1f8c24df89",
+      "selected_articles": [
+        "40",
+        "41",
+        "42",
+        "43",
+        "44"
+      ],
+      "id": "law:288567",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T17:22:41.718039+00:00",
+      "actual_review_scope": "실제XML 선택조문 40,41,42,43,44 및관련부칙/서비스별표 직접열람. 전자금융290247 일반XML은 미래개정혼재로 현행확정은more:5 eflaw 사용;미래25의4/25의5/36의3과21205부칙 대조에만 별도사용. 망법령38/별표3 보험도 추가열람."
+    },
+    {
+      "mst": "279649",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=279649&type=XML",
+      "requested_at": "2026-10-18T12:48:30.606360+00:00",
+      "http_status": 200,
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/279649.xml",
+      "sha256": "53fc02b4e5d749a111eb30e214117ea17d834558e28026969cda798b8c135589",
+      "selected_articles": [
+        "2",
+        "50",
+        "50의2",
+        "50의3",
+        "53",
+        "90",
+        "95"
+      ],
+      "id": "law:279649",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T17:22:41.718039+00:00",
+      "actual_review_scope": "실제XML 선택조문 2,50,50의2,50의3,53,90,95 및관련부칙/서비스별표 직접열람. 전자금융290247 일반XML은 미래개정혼재로 현행확정은more:5 eflaw 사용;미래25의4/25의5/36의3과21205부칙 대조에만 별도사용. 망법령38/별표3 보험도 추가열람."
+    },
+    {
+      "mst": "288143",
+      "chapters": [
+        5
+      ],
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=288143&type=XML",
+      "requested_at": "2026-10-18T12:38:11.701687+00:00",
+      "scope": "Exact cited statutory version only; article-specific commencement and claims require independent review.",
+      "http_status": 200,
+      "status": "statutory_xml_cached",
+      "title": "전자상거래 등에서의 소비자보호에 관한 법률 시행령",
+      "effective_date": "20260721",
+      "law_id": "009338",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/288143.xml",
+      "sha256": "754355c0b0ab2b7a5b5d9662afa9c3ed681d9557ce9ea179daef883b1c84fd67",
+      "bytes": 218170,
+      "article_count": 64,
+      "selected_articles": [
+        "6",
+        "11의4",
+        "13",
+        "18",
+        "25",
+        "25의2",
+        "25의3",
+        "27의3"
+      ],
+      "id": "law:288143",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T17:22:41.718039+00:00",
+      "actual_review_scope": "실제XML 선택조문 6,11의4,13,18,25,25의2,25의3,27의3 및관련부칙/서비스별표 직접열람. 전자금융290247 일반XML은 미래개정혼재로 현행확정은more:5 eflaw 사용;미래25의4/25의5/36의3과21205부칙 대조에만 별도사용. 망법령38/별표3 보험도 추가열람."
+    },
+    {
+      "mst": "288167",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=288167&type=XML",
+      "requested_at": "2026-10-18T12:50:00.861249+00:00",
+      "http_status": 200,
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/288167.xml",
+      "sha256": "ca8b2addcd830537bc751caccb747b5f26e1db9de8e7cb9e13bef5cc73c02374",
+      "selected_articles": [
+        "7"
+      ],
+      "id": "law:288167",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T17:22:41.718039+00:00",
+      "actual_review_scope": "실제XML 선택조문 7 및관련부칙/서비스별표 직접열람. 전자금융290247 일반XML은 미래개정혼재로 현행확정은more:5 eflaw 사용;미래25의4/25의5/36의3과21205부칙 대조에만 별도사용. 망법령38/별표3 보험도 추가열람."
+    },
+    {
+      "mst": "284415",
+      "chapters": [
+        5,
+        8,
+        13,
+        27,
+        30
+      ],
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=284415&type=XML",
+      "requested_at": "2026-10-18T12:37:55.111996+00:00",
+      "scope": "Exact cited statutory version only; article-specific commencement and claims require independent review.",
+      "http_status": 200,
+      "status": "statutory_xml_cached",
+      "title": "민법",
+      "effective_date": "20260317",
+      "law_id": "001706",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/284415.xml",
+      "sha256": "cd2997176df62de7b1e4bb018287987654f6054cbd0eeced9e882d5c4daf53df",
+      "bytes": 1098134,
+      "article_count": 1337,
+      "id": "law:284415",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T17:22:41.718039+00:00",
+      "actual_review_scope": "민법 실제XML4/5/6/17/141·부칙:19세/행위취소·현존이익·속임수와상대믿음."
+    },
+    {
+      "id": "local:book/26-做一个网站或平台.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/book/26-做一个网站或平台.md",
+      "sha256": "a9da7f7b194ea4120ab92e437a2ce45f0cc965536de00a2af9162d86c63ad6a3",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T17:22:41.718039+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline·중국원문대응·intro/tail·전스냅샷·기존기록대조. 이전formal승인재사용아님."
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch26/source.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch26/source.md",
+      "sha256": "b66af04261c4ddbda72c3a2e24623d1be897b56acec73f063fd60f577acdd9ba",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T17:22:41.718039+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline·중국원문대응·intro/tail·전스냅샷·기존기록대조. 이전formal승인재사용아님."
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch26/manifest.json",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch26/manifest.json",
+      "sha256": "3ac99bf964371f8b70094907535badf87e5350a8dbaf75f659f2df4ae72f90b0",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T17:22:41.718039+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline·중국원문대응·intro/tail·전스냅샷·기존기록대조. 이전formal승인재사용아님."
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch26/intro.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch26/intro.md",
+      "sha256": "c8a377ceb981eb1b562a89dbc54c6c5f390ae3e5cef3953be83d690a6a481c30",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T17:22:41.718039+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline·중국원문대응·intro/tail·전스냅샷·기존기록대조. 이전formal승인재사용아님."
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch26/tail.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch26/tail.md",
+      "sha256": "8477727a8e57aa7f98f33a098f64c072880c565e823acb64d49cd513712a4948",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T17:22:41.718039+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline·중국원문대응·intro/tail·전스냅샷·기존기록대조. 이전formal승인재사용아님."
+    },
+    {
+      "id": "local:kr-harness/chapters/26/1-analysis.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/chapters/26/1-analysis.md",
+      "sha256": "6182941186b9fc450e334451f6d68a9c91d732dbe85c051bc7a37f3d2dd1d1d4",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T17:22:41.718039+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline·중국원문대응·intro/tail·전스냅샷·기존기록대조. 이전formal승인재사용아님."
+    },
+    {
+      "id": "local:kr-harness/chapters/26/2-research.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/chapters/26/2-research.md",
+      "sha256": "cfb7b7596512e377210643ed4f922416b158f81157c3b750ac2316df351204b2",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T17:22:41.718039+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline·중국원문대응·intro/tail·전스냅샷·기존기록대조. 이전formal승인재사용아님."
+    },
+    {
+      "id": "local:kr-harness/chapters/26/3-draft.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/chapters/26/3-draft.md",
+      "sha256": "d9b06a7d227a943609ab162ad905e46a44a6be636dd89341c696efcb01fb6938",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T17:22:41.718039+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline·중국원문대응·intro/tail·전스냅샷·기존기록대조. 이전formal승인재사용아님."
+    },
+    {
+      "id": "local:kr-harness/chapters/26/kr-fit-review.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/chapters/26/kr-fit-review.md",
+      "sha256": "431c8ed49198777fe0babda875103e6751a9163490d7a30cd49833a8ed36506e",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T17:22:41.718039+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline·중국원문대응·intro/tail·전스냅샷·기존기록대조. 이전formal승인재사용아님."
+    },
+    {
+      "id": "local:kr-harness/chapters/26/kr-fit-review.r1.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/chapters/26/kr-fit-review.r1.md",
+      "sha256": "4d71c248134de6153a37b59e01b158cc46f926df37052a2ad0620d3e024bd152",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T17:22:41.718039+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline·중국원문대응·intro/tail·전스냅샷·기존기록대조. 이전formal승인재사용아님."
+    },
+    {
+      "id": "local:kr-harness/chapters/26/kr-fit-review.r2.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/chapters/26/kr-fit-review.r2.md",
+      "sha256": "d0ca7bbffb94171ea53c1e34616642d39ed06456448e8ef86d744946f5c6c7fd",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T17:22:41.718039+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline·중국원문대응·intro/tail·전스냅샷·기존기록대조. 이전formal승인재사용아님."
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch26/_workspace/2026-10-18-001-8ea7/entry_snapshot.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch26/_workspace/2026-10-18-001-8ea7/entry_snapshot.md",
+      "sha256": "323ed21b18e641ef072160fd3fb1812e825416a0ae0ffe6d3e3c56b829e0be13",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T17:22:41.718039+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline·중국원문대응·intro/tail·전스냅샷·기존기록대조. 이전formal승인재사용아님."
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch26/_workspace/2026-10-18-002-2cef/entry_snapshot.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch26/_workspace/2026-10-18-002-2cef/entry_snapshot.md",
+      "sha256": "a215337997a49c1305aa13b148e9ec6169eed6a79181338abae8b76e288cd66a",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T17:22:41.718039+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline·중국원문대응·intro/tail·전스냅샷·기존기록대조. 이전formal승인재사용아님."
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch26/_workspace/2026-10-18-003-c63c/entry_snapshot.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch26/_workspace/2026-10-18-003-c63c/entry_snapshot.md",
+      "sha256": "a23fc6195b1a375fac5d3bfa1c561ea83c83a2a1f829d2a81e378b35e29156dd",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T17:22:41.718039+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline·중국원문대응·intro/tail·전스냅샷·기존기록대조. 이전formal승인재사용아님."
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch26/_workspace/2026-10-18-004-3891/entry_snapshot.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch26/_workspace/2026-10-18-004-3891/entry_snapshot.md",
+      "sha256": "194649e40155d47b7ba35e9fca8082b4f81bd972e574eaf54f2e8eb2ae4ead31",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T17:22:41.718039+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline·중국원문대응·intro/tail·전스냅샷·기존기록대조. 이전formal승인재사용아님."
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch26/_workspace/2026-10-18-005-2ad6/entry_snapshot.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch26/_workspace/2026-10-18-005-2ad6/entry_snapshot.md",
+      "sha256": "0e9273749e53905bb236acfac2734d6b62ac7209cce37e8f54cee15b10d77404",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T17:22:41.718039+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline·중국원문대응·intro/tail·전스냅샷·기존기록대조. 이전formal승인재사용아님."
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch26/_workspace/2026-10-18-006-a03e/entry_snapshot.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch26/_workspace/2026-10-18-006-a03e/entry_snapshot.md",
+      "sha256": "12912ca20804adf8b29e25b2f63fb5aeaa68bce393cc8ce35df56a5e7109a319",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T17:22:41.718039+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline·중국원문대응·intro/tail·전스냅샷·기존기록대조. 이전formal승인재사용아님."
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch26/_workspace/2026-10-18-007-76fe/entry_snapshot.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch26/_workspace/2026-10-18-007-76fe/entry_snapshot.md",
+      "sha256": "bfa5e1999fc2f7737f18ddea53d57eaee46d708b550b05807f756a9ae4dcf96e",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T17:22:41.718039+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline·중국원문대응·intro/tail·전스냅샷·기존기록대조. 이전formal승인재사용아님."
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch26/_workspace/2026-10-18-008-7fb0/entry_snapshot.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch26/_workspace/2026-10-18-008-7fb0/entry_snapshot.md",
+      "sha256": "56dd2a608dd7e03ffa2ed4d70504f07e44de1eae9c2356618dcde29b2f4bbeb1",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T17:22:41.718039+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline·중국원문대응·intro/tail·전스냅샷·기존기록대조. 이전formal승인재사용아님."
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch26/_workspace/2026-10-18-009-9a6f/entry_snapshot.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch26/_workspace/2026-10-18-009-9a6f/entry_snapshot.md",
+      "sha256": "f0d9568570da9c5e12149177395437dfbe50de247bd6ce879f7f548bf7c9cf3d",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T17:22:41.718039+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline·중국원문대응·intro/tail·전스냅샷·기존기록대조. 이전formal승인재사용아님."
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch26/_workspace/2026-10-18-010-91a9/entry_snapshot.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch26/_workspace/2026-10-18-010-91a9/entry_snapshot.md",
+      "sha256": "751c5150f63eac976eaac594d27762680758b243843bc3e3a46ded1fc8a5608c",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T17:22:41.718039+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline·중국원문대응·intro/tail·전스냅샷·기존기록대조. 이전formal승인재사용아님."
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch26/_workspace/2026-10-18-011-ecd6/entry_snapshot.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch26/_workspace/2026-10-18-011-ecd6/entry_snapshot.md",
+      "sha256": "81608df861da81ce7d8ca7a97fa2a2b25b7212ce6e4848e7acbd051f30275ab8",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T17:22:41.718039+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline·중국원문대응·intro/tail·전스냅샷·기존기록대조. 이전formal승인재사용아님."
+    }
+  ],
+  "collection_limitations": [
+    "초기원자료감사이며 편집·정식KR-FIT·출판승인 아님. 후보필드승인 전부pending/null.",
+    "현행전자금융eflaw와 미래조문혼재일반MST를 직접대조. efYd없거나무시된본문은기본시행일만으로현행확정하지 않음.",
+    "기존캐시열람은신규HTTP로표시하지않음. 모든 새요청실패/검색·셸/본문 구분.",
+    "본절의학DOI·OR/RR/HR 연구없음. 법정자본금·과징금·매출문턱을효과확률로해석하지않음.",
+    "지방세법세율표 두요청실패/영상위홈빈셸·FSS2022원보도/자기몰분류·라이브범위·국가인정목록미확인유지.",
+    "법정구제·면책은민사분쟁/소명검토·통지·입증·소송비용의자동면제가아님."
+  ]
+}

@@ -1,0 +1,392 @@
+{
+  "status": "completed_partial_four_full_exact_review_r3",
+  "manifest_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/author-partial-manifest-3.json",
+  "manifest_sha256": "90d822af9d219542aa40e0f339bde14711d1bce204dbdb49de62d8421857cbb2",
+  "approved_entries": [
+    21,
+    25
+  ],
+  "revise_entries": [
+    24,
+    26
+  ],
+  "entries": [
+    {
+      "entry": 21,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-021-5639/publication-entry-proposal.md",
+      "proposal_sha256": "f0b19a3d84b1c0ab13bb8e7c5c6d2ebfaad8a6b28ecdd27142c6b0bf49c6fadb",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-021-5639/publication-entry-changes.json",
+      "changes_sha256": "fce68a60a671b816996b3145529d0786a43c32d026ec349fac6407a704aef168",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-021-5639/strict-entry.md",
+      "base_strict_entry_sha256": "bc0e2a06786aa29089dd1c518733a52e96f740fbe3e2ff5746e70e16655a4061",
+      "literal_exit_code": 0,
+      "decision": "approve",
+      "revision_requests": [],
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "length_check": {
+        "entry": 21,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-021-5639/publication-entry-proposal.md",
+        "title_chars": 51,
+        "easy_chars": 110,
+        "easy_sentences": 3,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "six_labels": true,
+        "tag": true,
+        "grade": true
+      },
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "actual_source_assessment": "Crossref 실제저자초록 직접읽음:미국3곳/7752명/3년/월70달러초과/4.3회/회당17달러초과/10회권10달러/평균포기절약600달러 일치.월계약17%높은1년초과잔류는상대확률이며%포인트로바꾸지않음.한국환급은앞서직접읽은고시별표Ⅱ 소비자책임해지·총이용료10%합의권고기준과일치.사업자책임과구별하고현행할부법2/16·령11의20만원/2개월/3회/완납전공급/카드통지조건을보존.",
+      "initial_canonical_findings": {
+        "entry": 21,
+        "entry_snapshot_sha256": "b911792f7c47e7657df9e890ec73b83b8fb1f924dbf7e0db134e4fe7614e0512",
+        "status": "reviewed_fields_approved_only",
+        "source_review": "저자 Crossref 초록: 미국3곳·7752명·3년·70달러 초과·4.3회·17달러 초과·10달러·600달러·17% 일치. 17%는 상대적 잔류확률 차이로 %포인트 전환 금지. 한국 환급기준·항변권 원문 미확인.",
+        "field_decisions": [
+          {
+            "proposal_key": "easy",
+            "field": "쉽게",
+            "decision": "approve",
+            "before": "미국 3년 자료에서 월 70달러 넘는 회원권을 살폈습니다. 이를 고른 사람은 한 달에 평균 4.3번만 갔습니다. 한 번에 17달러 넘게 낸 셈입니다. 10회권이면 한 번에 10달러였습니다. 이들은 회원 기간 동안 평균 600달러를 더 냈습니다. 1년 넘게 꾸준히 다닌 기록이 없다면 짧게 끊으세요. 1회권이나 짧은 기간권이 낫습니다.",
+            "after": "미국 자료 하나에서 월 70달러 넘는 회원권 이용자는 1회에 평균 17달러 넘게 냈습니다. 10회권은 1회 10달러였습니다. 1년 넘게 꾸준히 다닌 기록이 없다면 1회권이나 짧은 기간권을 고르세요.",
+            "before_matches_source_entry": true,
+            "before_matches_candidate_entry": true,
+            "before_occurrences_in_source_entry": 1,
+            "after_chars": 110,
+            "after_sentences": 3,
+            "length_exception_requested": false,
+            "length_exception_accepted": false,
+            "source_entry_sha256": "b911792f7c47e7657df9e890ec73b83b8fb1f924dbf7e0db134e4fe7614e0512",
+            "candidate_entry_sha256": "bc0e2a06786aa29089dd1c518733a52e96f740fbe3e2ff5746e70e16655a4061",
+            "reason": "저자 초록의 월70달러초과/회당17달러초과/10회권회당10달러와 일치합니다. 미국 자료 하나의 범위와 실제1년이용기록에 따른 선택 조건을 보존합니다.",
+            "scope": "Exact proposed wording only. Not full-entry, whole-chapter, publication, or formal KR-FIT approval.",
+            "before_equals_full_source_field": true,
+            "before_equals_full_candidate_field": true,
+            "scope_kind": "whole_field",
+            "direct_field_operation_eligible": true,
+            "operation_base_constraint": "baseline_or_candidate_only_when_whole_field_before_matches"
+          }
+        ],
+        "candidate_entry_sha256": "bc0e2a06786aa29089dd1c518733a52e96f740fbe3e2ff5746e70e16655a4061",
+        "candidate_review_scope": "Read complete current candidate entry and source snapshot; field approvals do not resolve unverified primary sources or factual corrections in other fields."
+      },
+      "initial_content_audit_section": "- 상태: pending_candidate_review\n- 확인 범위: 저자 Crossref 초록: 미국3곳·7752명·3년·70달러 초과·4.3회·17달러 초과·10달러·600달러·17% 일치. 17%는 상대적 잔류확률 차이로 %포인트 전환 금지. 한국 환급기준·항변권 원문 미확인.",
+      "closure": "resolved_with_explicit_reader_limits",
+      "review_scope": "Read complete four narrative fields,title,tag,grade,source list,exactchanges,canonical findings;not only edited spans.",
+      "proposed_root_operation": {
+        "type": "replace_complete_strict_entry_body",
+        "before_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-021-5639/strict-entry.md",
+        "before_entire_entry_sha256": "bc0e2a06786aa29089dd1c518733a52e96f740fbe3e2ff5746e70e16655a4061",
+        "after_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-021-5639/publication-entry-proposal.md",
+        "after_entire_entry_sha256": "f0b19a3d84b1c0ab13bb8e7c5c6d2ebfaad8a6b28ecdd27142c6b0bf49c6fadb",
+        "separator_policy": "verify entire beforebody;preserve surrounding chapter separators",
+        "supersession": "latestfullsupersedesinitialfield/olderfull;sameentrynotboth",
+        "integration_authorized": false
+      }
+    },
+    {
+      "entry": 24,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-024-fe95/publication-entry-proposal.md",
+      "proposal_sha256": "1ed74ac21718b3a0d6cea91c38fea8b2b1ffd1953f83d34e12adbe3117d5790d",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-024-fe95/publication-entry-changes.json",
+      "changes_sha256": "ca5e23a962e6d78b88b390471a79a0065cc988da9251c545a745202140cab3eb",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-024-fe95/strict-entry.md",
+      "base_strict_entry_sha256": "ad0e55c2941beb39b001355bcf6494e076378002d2f7c4e89d8be40f68bf807e",
+      "literal_exit_code": 0,
+      "decision": "revise",
+      "revision_requests": [
+        {
+          "field": "이득",
+          "exact_span": "특별한 이유 없이 20일 넘게 실제로 판 적이 없는 가격은 제외합니다.",
+          "issue": "새실제고시는 특별히인정할사유없이20일 이상실제거래한적없는가격을규정.넘게(>)와이상(>=)의경계다름.",
+          "required": "20일 이상으로정정하고새고시원문을직접읽어현행미확인범위를갱신.2019고시메타현행Y지만모든후속개정부존재를무제한확인한것은아님."
+        }
+      ],
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "length_check": {
+        "entry": 24,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-024-fe95/publication-entry-proposal.md",
+        "title_chars": 39,
+        "easy_chars": 86,
+        "easy_sentences": 3,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "six_labels": true,
+        "tag": true,
+        "grade": true
+      },
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "actual_source_assessment": "EuropePMC실제저자초록의adjustmentfromanchor 일반개념만확인.특정할인표시/쟁이기손실액은직접검증아니라고본문표시.새공식고시HTTPS200원문가격비교/종전거래가격참고/할인특매규정 직접읽음:최근상당기간과거20일정도·변동중최저가격은일치.단할인특매4항의20일이상경계가본문20일넘게와다름.",
+      "initial_canonical_findings": {
+        "entry": 24,
+        "entry_snapshot_sha256": "e7697f00cdce0d67a71b9dc65c406c6a865031ae8e11cffee2ad8df0dd5400cc",
+        "status": "candidate_read_no_editorial_proposal",
+        "source_review": "Tversky/Kahneman 초록의 anchoring 일반 개념 확인, 특정 할인표시와 손실액 실증 아님. 한국20일 고시 직접 미확인.",
+        "field_decisions": [],
+        "candidate_entry_sha256": "ad0e55c2941beb39b001355bcf6494e076378002d2f7c4e89d8be40f68bf807e",
+        "candidate_review_scope": "Read complete current candidate entry and source snapshot; field approvals do not resolve unverified primary sources or factual corrections in other fields."
+      },
+      "initial_content_audit_section": "- 상태: pending_candidate_review\n- 확인 범위: Tversky/Kahneman 초록의 anchoring 일반 개념 확인, 특정 할인표시와 손실액 실증 아님. 한국20일 고시 직접 미확인.",
+      "closure": "actual_error_revision_required",
+      "review_scope": "Read complete four narrative fields,title,tag,grade,source list,exactchanges,canonical findings;not only edited spans."
+    },
+    {
+      "entry": 25,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-025-efee/publication-entry-proposal.md",
+      "proposal_sha256": "46bce1dc4b0382ac0bae819112fb76e3135e40d35f05dbd967e8694f0ec8ea12",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-025-efee/publication-entry-changes.json",
+      "changes_sha256": "7a3939e9e5c0dedfcc3c3fc53d4b7f8739d285a660de1b787c976f19b8b60198",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-025-efee/strict-entry.md",
+      "base_strict_entry_sha256": "f0e9f87f2c0a44da50ae1aa7cc11f6199e652d73a420bd628ce7d28dbad7929c",
+      "literal_exit_code": 0,
+      "decision": "approve",
+      "revision_requests": [],
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "length_check": {
+        "entry": 25,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-025-efee/publication-entry-proposal.md",
+        "title_chars": 39,
+        "easy_chars": 115,
+        "easy_sentences": 4,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "six_labels": true,
+        "tag": true,
+        "grade": true
+      },
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "actual_source_assessment": "실제금소감독규정12①·별표3①다/바3 읽음:환급금/산출근거·납입액미달/없음설명,생존보험금합계>기납입보험료일때사업비제외일부운용/이율및변동계약사업비설명의무 일치.새보험감독공식HTTPS200에서4-35의2⑧의대상·예외/사업비·해약금·변액위험/비보호설명과7-60생명보험상품설계(금리연동형최저보증이율or금액설정포함) 실제읽음.본문은최저보증/예금보호법정범위를확정하지않고확인권고와미확인제한을반복.접근실패자체를내용오류로세지않으며미열람에서생긴핵심조건누락도현재본문에는없음.",
+      "initial_canonical_findings": {
+        "entry": 25,
+        "entry_snapshot_sha256": "f0e9f87f2c0a44da50ae1aa7cc11f6199e652d73a420bd628ce7d28dbad7929c",
+        "status": "reviewed_fields_approved_only",
+        "source_review": "최저보증이율·사업비·변액 보호 예외 감독규정 직접 미확인. 제목 환급 전부 비보장으로 읽히지 않게 보증/비보증 구분 필요.",
+        "field_decisions": [
+          {
+            "proposal_key": "easy",
+            "field": "쉽게",
+            "decision": "approve",
+            "before": "저축성 보험은 낸 보험료에서 사업비 등을 뺍니다. 남은 일부만 적립하고 운용합니다. 금리가 바뀌는 보험은 최저보증이율만 확정됩니다. 환급을 바라고 더 낸 보험료는 보험회사에 맡긴 저축입니다. 보증되는 이율·금액과 변동되는 부분을 구별하세요. 일찍 꺼내면 손실이 날 수 있습니다.",
+            "after": "환급형은 사업비 등을 뺀 보험료 일부를 맡겨 운용하는 저축입니다. 금리연동형은 최저보증이율이나 금액만 보장합니다. 보증과 변동 이율·배당을 구별하세요. 중도해지하면 낸 보험료보다 적게 받을 수 있습니다.",
+            "before_matches_source_entry": true,
+            "before_matches_candidate_entry": true,
+            "before_occurrences_in_source_entry": 1,
+            "after_chars": 113,
+            "after_sentences": 4,
+            "length_exception_requested": false,
+            "length_exception_accepted": false,
+            "source_entry_sha256": "f0e9f87f2c0a44da50ae1aa7cc11f6199e652d73a420bd628ce7d28dbad7929c",
+            "candidate_entry_sha256": "f0e9f87f2c0a44da50ae1aa7cc11f6199e652d73a420bd628ce7d28dbad7929c",
+            "reason": "사업비 차감·최저보증과 변동분 구별·중도해지 손실의 핵심 범위를 보존합니다. 개별 상품 수익이나 보험료 절감의 정량 효과는 주장하지 않습니다.",
+            "scope": "Exact proposed wording only. Not full-entry, whole-chapter, publication, or formal KR-FIT approval.",
+            "before_equals_full_source_field": true,
+            "before_equals_full_candidate_field": true,
+            "scope_kind": "whole_field",
+            "direct_field_operation_eligible": true,
+            "operation_base_constraint": "baseline_or_candidate_only_when_whole_field_before_matches"
+          }
+        ],
+        "candidate_entry_sha256": "f0e9f87f2c0a44da50ae1aa7cc11f6199e652d73a420bd628ce7d28dbad7929c",
+        "candidate_review_scope": "Read complete current candidate entry and source snapshot; field approvals do not resolve unverified primary sources or factual corrections in other fields."
+      },
+      "initial_content_audit_section": "- 상태: pending_candidate_review\n- 확인 범위: 최저보증이율·사업비·변액 보호 예외 감독규정 직접 미확인. 제목 환급 전부 비보장으로 읽히지 않게 보증/비보증 구분 필요.",
+      "closure": "resolved_with_explicit_reader_limits",
+      "review_scope": "Read complete four narrative fields,title,tag,grade,source list,exactchanges,canonical findings;not only edited spans.",
+      "proposed_root_operation": {
+        "type": "replace_complete_strict_entry_body",
+        "before_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-025-efee/strict-entry.md",
+        "before_entire_entry_sha256": "f0e9f87f2c0a44da50ae1aa7cc11f6199e652d73a420bd628ce7d28dbad7929c",
+        "after_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-025-efee/publication-entry-proposal.md",
+        "after_entire_entry_sha256": "46bce1dc4b0382ac0bae819112fb76e3135e40d35f05dbd967e8694f0ec8ea12",
+        "separator_policy": "verify entire beforebody;preserve surrounding chapter separators",
+        "supersession": "latestfullsupersedesinitialfield/olderfull;sameentrynotboth",
+        "integration_authorized": false
+      }
+    },
+    {
+      "entry": 26,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-026-69d5/publication-entry-proposal.md",
+      "proposal_sha256": "c5d0bc0400a66d30c6be7e6d357ea72bb142b5b12c1c55465b6e6d52b0b61757",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-026-69d5/publication-entry-changes.json",
+      "changes_sha256": "f10e9e7cec83ec7d8bb60ae31b6c5ee4d0233a8f41bf68c755b0f4abf59e5f7f",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-026-69d5/strict-entry.md",
+      "base_strict_entry_sha256": "9a012f29134f3ba82f89c22fdfcfbbd40360ee8d8070752ec46ff70f85e9d546",
+      "literal_exit_code": 0,
+      "decision": "revise",
+      "revision_requests": [
+        {
+          "field": "비고",
+          "exact_span": "넘는 차액은 어떤 의무보험도 대신 내주지 않습니다.",
+          "issue": "법5③ 사업용등은기본책임보험초과손해에추가의무보험가입.령4는피해자1명당1억원이상또는모든손해액.어떤의무보험도라는단정은틀림.",
+          "required": "일반자가용의기본대인책임보험한도설명으로범위를한정하고절대문장을삭제/정정.여객운송·대여·화물·건설기계대여·소화물배송인증등사업자의추가가입의무와혼동하지않도록명시."
+        }
+      ],
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "length_check": {
+        "entry": 26,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-026-69d5/publication-entry-proposal.md",
+        "title_chars": 55,
+        "easy_chars": 91,
+        "easy_sentences": 3,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "six_labels": true,
+        "tag": true,
+        "grade": true
+      },
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "actual_source_assessment": "법3/5/5의2/8/46③/48③와령3/별표1·2해당금액행 직접읽음.사망1명1.5억/최저2000만원,부상1급3000/2급1500/7급500만원,후유1급1.5억,대물1건2000만원및합산예외 일치.무보험운행1년/1000만원·미가입300만원과특정차/비도로전용/승인운행중지예외 유지.다만법5③/령4의사업용초과추가의무보험과어떤의무보험도라는단정충돌.",
+      "initial_canonical_findings": {
+        "entry": 26,
+        "entry_snapshot_sha256": "23a597d1086fca4df6e43a4f9ee4537f1b677ec7677eb76013675f0f1b7fceab",
+        "status": "reviewed_fields_approved_only",
+        "source_review": "자동차손배법3·5·8·46③2·48③1 및령3조·별표1/2 직접확인. 사망피해자1명1.5억원한도/손해2000만원미만이면2000만원; 부상1급3000/2급1500/7급500만원; 후유1급1.5억원; 대물사고1건2000만원 일치. 령3②는부상후사망·후유장애시합산등을규정하므로 전체한도하나로읽지않게유지. 무보험운행1년이하/1000만원이하·미가입300만원이하과태료 일치. 법5조④특정자동차·비도로전용차량예외/5조의2승인된운행중지가입면제도있어모든차를무조건동일의무로확대금지. 법21490시행2026.10.2·령36689공포2026.9.15시행확인.",
+        "field_decisions": [
+          {
+            "proposal_key": "easy",
+            "field": "쉽게",
+            "decision": "approve",
+            "before": "의무보험의 사망 배상 한도는 1명당 1억5천만원까지입니다. 부상은 등급에 따라 최대 3천만원까지입니다. 물건 피해는 1건당 2천만원까지입니다. 사람을 다치게 했을 때 배상액은 이 한도를 넘을 수 있습니다. 한도를 넘는 돈은 내 집에서 부담해야 합니다.",
+            "after": "의무보험 한도는 사망 1명당 1억5천만원, 부상 등급별 최대 3천만원입니다. 물건 피해는 1건당 2천만원까지입니다. 배상액이 한도를 넘으면 차액은 직접 부담합니다.",
+            "before_matches_source_entry": true,
+            "before_matches_candidate_entry": true,
+            "before_occurrences_in_source_entry": 1,
+            "after_chars": 91,
+            "after_sentences": 3,
+            "length_exception_requested": false,
+            "length_exception_accepted": false,
+            "source_entry_sha256": "23a597d1086fca4df6e43a4f9ee4537f1b677ec7677eb76013675f0f1b7fceab",
+            "candidate_entry_sha256": "9a012f29134f3ba82f89c22fdfcfbbd40360ee8d8070752ec46ff70f85e9d546",
+            "reason": "원문 법령과 별표에서 사망피해자1명1.5억/부상등급최대3000만원/대물사고1건2000만원을 대조했습니다. 단위와 초과액 부담을 보존합니다.",
+            "scope": "Exact proposed wording only. Not full-entry, whole-chapter, publication, or formal KR-FIT approval.",
+            "before_equals_full_source_field": true,
+            "before_equals_full_candidate_field": true,
+            "scope_kind": "whole_field",
+            "direct_field_operation_eligible": true,
+            "operation_base_constraint": "baseline_or_candidate_only_when_whole_field_before_matches"
+          }
+        ],
+        "content_status": "verified_core_with_conditions",
+        "candidate_entry_sha256": "9a012f29134f3ba82f89c22fdfcfbbd40360ee8d8070752ec46ff70f85e9d546",
+        "candidate_review_scope": "Read complete current candidate entry and source snapshot; field approvals do not resolve unverified primary sources or factual corrections in other fields."
+      },
+      "initial_content_audit_section": "- 상태: pending_candidate_review\n- 확인 범위: 사망1.5억·부상3천·대물2천·과태료·형량 원문 미확인. 한도/피해자별/사고별 단위 유지.",
+      "closure": "actual_error_revision_required",
+      "review_scope": "Read complete four narrative fields,title,tag,grade,source list,exactchanges,canonical findings;not only edited spans."
+    }
+  ],
+  "actual_primary_readings": [
+    {
+      "url": "https://api.crossref.org/works/10.1257/aer.96.3.694",
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/crossref/c9aa7405844b418a36c5.json",
+      "artifact_sha256": "0ea04e18ee5379bbe86f56595a1da0a2371606ba0fa2fc2f3e547bd387b43e08",
+      "access": "existing_primary_or_authorabstract_cache_actual_read",
+      "scope": "actualauthorabstractonly;notfullarticle",
+      "new_http": false
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1126%2Fscience.185.4157.1124%22&format=json&resultType=core&pageSize=10",
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/7b6ce6858cf5196e5c2b.json",
+      "artifact_sha256": "4f7b159653b480c6f31bb689a0e5aee3940d09724c8ceb41267c4b601a2db4d6",
+      "access": "existing_primary_or_authorabstract_cache_actual_read",
+      "scope": "actualauthorabstractonly;notfullexperiments",
+      "new_http": false
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290659&type=XML",
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290659.xml",
+      "artifact_sha256": "ee654142ff8b01f80acb71ae0cace8e68fc734d3c3a97d91ccbe8923fa42387e",
+      "access": "existing_primary_or_authorabstract_cache_actual_read",
+      "scope": "3/5/5의2/8/46③/48③ fullrelevantclauses",
+      "new_http": false
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=289683&type=XML",
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/289683.xml",
+      "artifact_sha256": "7f3d9d16dc237b41a5c0bcb099d6710ad1514c537d0ce120522f3e0f00b91c0e",
+      "access": "existing_primary_or_authorabstract_cache_actual_read",
+      "scope": "3/4;annex1grades1,2,7,annex2grade1amounts;notallclinicalclassifications",
+      "new_http": false
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000285608&type=XML",
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch05-audit/2100000285608.xml",
+      "artifact_sha256": "61db1d0e49a62348ea47b2d8516133c6b94e71905f38c84815a68836fa67fd08",
+      "access": "existing_primary_or_authorabstract_cache_actual_read",
+      "scope": "12①/annex3①다,바3 actualtext",
+      "new_http": false
+    }
+  ],
+  "fresh_http": [
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000184414&type=XML",
+      "utc": "2026-10-18T17:28:53.225237+00:00",
+      "status": 200,
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch05-partial-review/admrul-2100000184414.xml",
+      "sha256": "4d541cebc78a7f3cb3ceee2761ce241654edff32e24ca111109cec03dd31274f",
+      "scope": "basiccurrentY20191212;pricecomparisonanddiscountsectionsinclreference20days/minpriceanddiscount4>=20days",
+      "access": "reviewer_fresh_https_actual_primary"
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000279112&type=XML",
+      "utc": "2026-10-18T17:28:53.225864+00:00",
+      "status": 200,
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch05-partial-review/admrul-2100000279112.xml",
+      "sha256": "7b8819f912fbd62b74eed9138cdd958d6d6f1a08e34366df7023e4b40e944809",
+      "scope": "basiccurrentY20260506;4-35의2⑧allrelevantsubitems/exceptions;7-60lifeproductsall10items;notentiredepositprotectionlegalcorpus",
+      "access": "reviewer_fresh_https_actual_primary"
+    }
+  ],
+  "reuse_source_ranges": [
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/publication-partial-reassessment-review-r2.json",
+      "sha256": "dc734c30c940c9f1a84d737e12cc701ca3b5bf3af5cb4413616a8abbf3d47828",
+      "scope": "actualfitnessrefundtableandcurrentinstallmentlaw/decree previouslyread,reusedfor21"
+    }
+  ],
+  "source_uncertainty_vs_error": "24/26 contain actual textual errors.25 originalinsurancecachefailure was not evidence of error;reader limited unresolvedprotection/guarantee scope honestly. This review now has actual newinsurance text but doesnot claim all depositprotectionexceptions/current amendments read. Author can update provenance/readerlimitation later without invalidating current limited-advice approval.",
+  "canonical_reference": {
+    "content_audit_sha256": "79d1a93a2d839eeaa8a96036152aad96f44856a989453601050d34910ca0ece2",
+    "decisions_sha256": "1e8e0e1878d577ec9554f1af55548eb881f84aa17a5f191f891c785432f37047"
+  },
+  "integration_approval": false,
+  "whole45_approval": false,
+  "formal_kr_fit_approval": false,
+  "preservation": "Oldreview/canonical/frozen/public/runs/gates/git untouched;onlynewpartial-review-r3JSON/MDwritten."
+}
