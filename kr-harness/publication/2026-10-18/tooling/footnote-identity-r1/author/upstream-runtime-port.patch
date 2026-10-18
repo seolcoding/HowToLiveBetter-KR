@@ -1,0 +1,31 @@
+--- a/install.sh
++++ b/install.sh
+@@ -183,7 +183,7 @@
+ RUNTIME_SCRIPTS=(
+   prepare_monolith_input.py reassemble_chunks.py verify_change_rate.py
+   verify_gates.py restore_modality.py strip_injected_commas.py sanitize_text.py
+-  checks.py console.py
++  checks.py console.py quote_context.py
+ )
+ 
+ copy_runtime_scripts() {
+--- a/tests/test_runtime_boundary.py
++++ b/tests/test_runtime_boundary.py
+@@ -33,6 +33,7 @@
+     "reassemble_chunks.py",
+     "sanitize_text.py",
+     "checks.py",
++    "quote_context.py",
+ ]
+ 
+ 
+--- a/tests/test_codex_package.py
++++ b/tests/test_codex_package.py
+@@ -203,6 +203,7 @@
+             self.assertIn("METRICS_DIR", (installed / "scripts" / "prepare_monolith_input.py").read_text())
+             self.assertTrue((installed / "scripts" / "checks.py").is_file())
+             self.assertTrue((installed / "scripts" / "console.py").is_file())
++            self.assertTrue((installed / "scripts" / "quote_context.py").is_file())
+             run_dir = Path(td) / "outside" / "run"
+             run_dir.mkdir(parents=True)
+             before = "정부는 지원을 확대해야 한다. 통계는 매년 개선되고 있다."

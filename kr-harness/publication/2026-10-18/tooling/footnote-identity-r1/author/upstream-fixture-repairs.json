@@ -1,0 +1,17 @@
+{
+  "reason": "The archived upstream harness materializes the three Codex role symlinks as regular files. Original upstream test asserts resolved path identity. Reconstructed only expected symlink topology after proving role bytes equal; no assertion changes.",
+  "repairs": [
+    {
+      "path": "codex/skills/humanize-korean/references/roles/monolith.md",
+      "target": "../../../../../skills/humanize-korean/references/roles/monolith.md"
+    },
+    {
+      "path": "codex/skills/humanize-korean/references/roles/finalizer.md",
+      "target": "../../../../../skills/humanize-korean/references/roles/finalizer.md"
+    },
+    {
+      "path": "codex/skills/humanize-korean/references/roles/diagnostician.md",
+      "target": "../../../../../skills/humanize-korean/references/roles/diagnostician.md"
+    }
+  ]
+}

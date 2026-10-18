@@ -1,0 +1,56 @@
+{
+  "module_paths": {
+    "checks": "/workspace/.cache/howtolivebetter/publication/footnote-identity-code-review-r1/baseline/.claude/skills/humanize-korean/scripts/checks.py",
+    "verify_gates": "/workspace/.cache/howtolivebetter/publication/footnote-identity-code-review-r1/baseline/.claude/skills/humanize-korean/scripts/verify_gates.py"
+  },
+  "records": [
+    {
+      "name": "hold-snapshot-identity",
+      "code": 1,
+      "golden": [
+        {
+          "code": "footnote_anchor",
+          "message": "각주 6)이 원위치를 벗어났습니다 (인접 수치 앵커 '30' → '22'): 인용 출처 변조 위험"
+        },
+        {
+          "code": "footnote_anchor",
+          "message": "각주 2)이 원위치를 벗어났습니다 (인접 수치 앵커 '2' → '1'): 인용 출처 변조 위험"
+        }
+      ]
+    },
+    {
+      "name": "hold-snapshot-final",
+      "code": 1,
+      "golden": [
+        {
+          "code": "footnote_anchor",
+          "message": "각주 6)이 원위치를 벗어났습니다 (인접 수치 앵커 '30' → '22'): 인용 출처 변조 위험"
+        },
+        {
+          "code": "footnote_anchor",
+          "message": "각주 2)이 원위치를 벗어났습니다 (인접 수치 앵커 '2' → '1'): 인용 출처 변조 위험"
+        }
+      ]
+    },
+    {
+      "name": "ch27-e2-snapshot-identity",
+      "code": 1,
+      "golden": [
+        {
+          "code": "footnote_anchor",
+          "message": "각주 2)이 원위치를 벗어났습니다 (인접 수치 앵커 '10' → '74'): 인용 출처 변조 위험"
+        }
+      ]
+    },
+    {
+      "name": "ch27-e2-snapshot-final",
+      "code": 1,
+      "golden": [
+        {
+          "code": "footnote_anchor",
+          "message": "각주 2)이 원위치를 벗어났습니다 (인접 수치 앵커 '10' → '74'): 인용 출처 변조 위험"
+        }
+      ]
+    }
+  ]
+}

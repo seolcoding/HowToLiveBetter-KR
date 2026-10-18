@@ -1,0 +1,125 @@
+{
+  "module_paths": {
+    "checks": "/workspace/.cache/howtolivebetter/publication/footnote-identity-code-review-r1/candidate/.claude/skills/humanize-korean/scripts/checks.py",
+    "verify_gates": "/workspace/.cache/howtolivebetter/publication/footnote-identity-code-review-r1/candidate/.claude/skills/humanize-korean/scripts/verify_gates.py"
+  },
+  "records": [
+    {
+      "name": "distinct-repeat identity",
+      "codes": [],
+      "expected": "pass",
+      "ok": true
+    },
+    {
+      "name": "reorder pairs",
+      "codes": [],
+      "expected": "pass",
+      "ok": true
+    },
+    {
+      "name": "swap labels",
+      "codes": [
+        "footnote_anchor",
+        "footnote_anchor"
+      ],
+      "expected": "footnote_anchor",
+      "ok": true
+    },
+    {
+      "name": "delete one duplicate",
+      "codes": [
+        "footnote_count",
+        "footnote_anchor"
+      ],
+      "expected": "footnote_count",
+      "ok": true
+    },
+    {
+      "name": "duplicate pair redistribution",
+      "codes": [
+        "footnote_anchor"
+      ],
+      "expected": "footnote_anchor",
+      "ok": true
+    },
+    {
+      "name": "same-label added",
+      "codes": [
+        "footnote_count"
+      ],
+      "expected": "footnote_count",
+      "ok": true
+    },
+    {
+      "name": "anchor changed",
+      "codes": [
+        "footnote_anchor"
+      ],
+      "expected": "footnote_anchor",
+      "ok": true
+    },
+    {
+      "name": "unanchored deleted",
+      "codes": [
+        "footnote_count",
+        "footnote_numbers"
+      ],
+      "expected": "footnote_count",
+      "ok": true
+    },
+    {
+      "name": "unanchored multiplicity",
+      "codes": [
+        "footnote_count"
+      ],
+      "expected": "footnote_count",
+      "ok": true
+    },
+    {
+      "name": "bibliography deletion",
+      "codes": [
+        "footnote_def"
+      ],
+      "expected": "footnote_def",
+      "ok": true
+    },
+    {
+      "name": "bibliography mutation",
+      "codes": [
+        "footnote_def"
+      ],
+      "expected": "footnote_def",
+      "ok": true
+    },
+    {
+      "name": "statute plus real marker loss",
+      "codes": [
+        "footnote_count",
+        "footnote_numbers",
+        "footnote_anchor"
+      ],
+      "expected": "footnote_count",
+      "ok": true
+    },
+    {
+      "name": "hold-snapshot-identity",
+      "code": 0,
+      "golden": []
+    },
+    {
+      "name": "hold-snapshot-final",
+      "code": 0,
+      "golden": []
+    },
+    {
+      "name": "ch27-e2-snapshot-identity",
+      "code": 0,
+      "golden": []
+    },
+    {
+      "name": "ch27-e2-snapshot-final",
+      "code": 0,
+      "golden": []
+    }
+  ]
+}

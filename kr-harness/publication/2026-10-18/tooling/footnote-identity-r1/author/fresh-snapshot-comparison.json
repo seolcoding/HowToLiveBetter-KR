@@ -1,0 +1,141 @@
+{
+  "dataset": "fresh-snapshot",
+  "total": 667,
+  "routes_before": {
+    "light": 644,
+    "standard": 23
+  },
+  "routes_after": {
+    "light": 644,
+    "standard": 23
+  },
+  "gate_counts_before": {
+    "0": 548,
+    "1": 3,
+    "missing": 116
+  },
+  "gate_counts_after": {
+    "0": 549,
+    "1": 2,
+    "missing": 116
+  },
+  "changed_records": [
+    {
+      "chapter": "ch26",
+      "entry": 6,
+      "changed_keys": [
+        "status",
+        "gate"
+      ],
+      "before": {
+        "chapter": "ch26",
+        "entry": 6,
+        "input_sha256": "8ff3752b5c1ae22f40fc5b021b36613299e38648f45048e408824d94562a9345",
+        "automatic_spans": [],
+        "route": "light",
+        "final_file_sha256": "620ca84a031a01ffc7cb8b08d587fddb0122e57bb36693409bc44acd4c08f432",
+        "status": "1",
+        "gate": {
+          "genre": "essay",
+          "change_rate": {
+            "rate": 0.0,
+            "scope": "전문",
+            "verdict": "OK"
+          },
+          "s1_targets": [],
+          "antithesis": {
+            "before": 0,
+            "after": 0,
+            "verdict": "스킵 (원문 대구 < 5)"
+          },
+          "golden": [
+            {
+              "code": "footnote_anchor",
+              "message": "각주 6)이 원위치를 벗어났습니다 (인접 수치 앵커 '30' → '22'): 인용 출처 변조 위험"
+            },
+            {
+              "code": "footnote_anchor",
+              "message": "각주 2)이 원위치를 벗어났습니다 (인접 수치 앵커 '2' → '1'): 인용 출처 변조 위험"
+            }
+          ],
+          "sentence_touch": {
+            "rate": 0.0,
+            "touched": 0,
+            "total": 65
+          },
+          "numbers_dropped": [],
+          "modality": {
+            "lost_pairs": [],
+            "uncertain_pairs": [],
+            "counts": {
+              "deontic": {
+                "before": 11,
+                "after": 11
+              },
+              "hedge": {
+                "before": 3,
+                "after": 3
+              }
+            },
+            "verdict": "OK"
+          },
+          "gate": {
+            "verdict": "WARN — 경고. 사용자 고지 + finalize 승급",
+            "exit_code": 1
+          }
+        }
+      },
+      "after": {
+        "chapter": "ch26",
+        "entry": 6,
+        "input_sha256": "8ff3752b5c1ae22f40fc5b021b36613299e38648f45048e408824d94562a9345",
+        "automatic_spans": [],
+        "route": "light",
+        "final_file_sha256": "620ca84a031a01ffc7cb8b08d587fddb0122e57bb36693409bc44acd4c08f432",
+        "status": "0",
+        "gate": {
+          "genre": "essay",
+          "change_rate": {
+            "rate": 0.0,
+            "scope": "전문",
+            "verdict": "OK"
+          },
+          "s1_targets": [],
+          "antithesis": {
+            "before": 0,
+            "after": 0,
+            "verdict": "스킵 (원문 대구 < 5)"
+          },
+          "golden": [],
+          "sentence_touch": {
+            "rate": 0.0,
+            "touched": 0,
+            "total": 65
+          },
+          "numbers_dropped": [],
+          "modality": {
+            "lost_pairs": [],
+            "uncertain_pairs": [],
+            "counts": {
+              "deontic": {
+                "before": 11,
+                "after": 11
+              },
+              "hedge": {
+                "before": 3,
+                "after": 3
+              }
+            },
+            "verdict": "OK"
+          },
+          "gate": {
+            "verdict": "OK — 수렴",
+            "exit_code": 0
+          }
+        }
+      }
+    }
+  ],
+  "unchanged_records": 666,
+  "all_input_and_final_hashes_unchanged": true
+}

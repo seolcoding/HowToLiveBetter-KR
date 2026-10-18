@@ -40,6 +40,7 @@ Advisory (NOT a failure code): 원문 수치의 소실은 문장 병합·표기 
 from __future__ import annotations
 
 import re
+from collections import Counter
 import sys
 from dataclasses import dataclass
 
@@ -195,6 +196,9 @@ _INLINE_MARKER = re.compile(r"(?<=\S)(?<![(\d])(?<!\d[.,~–−-])(\d{1,3})\)")
 # A leading-zero-omitted decimal starts at a numeric boundary, unlike
 # a genuine sentence-attached marker such as "결과였다.29)".
 _LEADING_DECIMAL_PREFIX = re.compile(r"(?:^|[\s(\[=:+~\-–−])\.$")
+# A Korean statute subdivision ends in a number but is not a footnote.
+# Match only the complete explicit 제…조/항/호 token, never a bare number.
+_STATUTE_TAIL = re.compile(r"(?<!\w)제\d+(?:조(?:의\d+)?|항|호(?:의\d+)?)$")
 _DEF_LABEL = re.compile(r"(?:^|(?<=\s))(\d{1,3})\)\s")
 _NUM_TOKEN = re.compile(r"\d+(?:[.,]\d+)*")
 
@@ -208,7 +212,8 @@ def extract_inline_markers(text: str) -> list[tuple[str, int]]:
     for line in text.splitlines(keepends=True):
         if not _DEF_LINE.match(line):
             for m in _INLINE_MARKER.finditer(line):
-                if _LEADING_DECIMAL_PREFIX.search(line[:m.start(1)]):
+                if (_LEADING_DECIMAL_PREFIX.search(line[:m.start(1)])
+                        or _STATUTE_TAIL.search(line[:m.end(1)])):
                     continue
                 markers.append((m.group(1), offset + m.start(1)))
         offset += len(line)
@@ -246,10 +251,11 @@ def check_footnotes(original: str, output: str) -> list[Failure]:
     if not in_markers and not extract_defs(original):
         return fails  # original has no footnotes; nothing to protect
 
-    if len(out_markers) < len(in_markers):
+    if Counter(n for n, _ in in_markers) != Counter(n for n, _ in out_markers):
         fails.append(Failure(
             "footnote_count",
-            f"본문 각주 표시가 {len(in_markers)}개 → {len(out_markers)}개로 줄었습니다",
+            f"본문 각주 번호별 반복 횟수가 달라졌습니다 "
+            f"({len(in_markers)}개 → {len(out_markers)}개)",
         ))
 
     in_nums = {n for n, _ in in_markers}
@@ -272,20 +278,20 @@ def check_footnotes(original: str, output: str) -> list[Failure]:
     # marker (numbers are immutable under the skill's iron rules, so they
     # survive a legitimate rewrite). Markers with no nearby number in the
     # original are skipped — count/set checks still cover their existence.
-    out_first_pos = {}
-    for n, p in out_markers:
-        out_first_pos.setdefault(n, p)
-    for num, pos in in_markers:
-        anchor = _nearest_num_before(original, pos)
-        if anchor is None or num not in out_first_pos:
-            continue
-        out_anchor = _nearest_num_before(output, out_first_pos[num])
-        if out_anchor != anchor:
-            fails.append(Failure(
-                "footnote_anchor",
-                f"각주 {num})이 원위치를 벗어났습니다 "
-                f"(인접 수치 앵커 '{anchor}' → '{out_anchor}'): 인용 출처 변조 위험",
-            ))
+    # Compare every anchored occurrence, not every input against the first
+    # output marker with that label. Counter subtraction retains multiplicity
+    # while permitting sentence reordering with the same marker/anchor pairs.
+    in_anchors = Counter((n, _nearest_num_before(original, p))
+                         for n, p in in_markers
+                         if _nearest_num_before(original, p) is not None)
+    out_anchors = Counter((n, _nearest_num_before(output, p))
+                          for n, p in out_markers)
+    for (num, anchor), missing in (in_anchors - out_anchors).items():
+        fails.append(Failure(
+            "footnote_anchor",
+            f"각주 {num})의 인접 수치 앵커 '{anchor}' occurrence {missing}개가 "
+            "사라졌습니다: 인용 출처 변조 위험",
+        ))
 
     in_defs = extract_defs(original)
     out_defs = extract_defs(output)

@@ -45,6 +45,8 @@ jobs:
         run: node --test .claude/skills/kr-style/scripts/convert-b.test.mjs
       - name: 출판 윤문 각주·통계값 구분 회귀 검사
         run: python3 kr-harness/publication/scripts/tests/test_footnote_decimal.py
+      - name: 출판 반복 각주·법령 꼬리 identity 회귀 검사
+        run: python3 kr-harness/publication/scripts/tests/test_footnote_identity.py
       - name: 출판 직접 인용 보호·문체 적격성 회귀 검사
         run: python3 kr-harness/publication/scripts/tests/test_protected_quote_metrics.py
       - name: 출판 원문 소개·연속 인용 회귀 검사
