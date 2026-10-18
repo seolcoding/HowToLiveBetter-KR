@@ -1,0 +1,21 @@
+{
+  "status": "code_adopted_source_registry_selected_pending_fresh_finalizers",
+  "previous_selection": {
+    "path": "root-selection-r1.json",
+    "sha256": "4de28b9eaaa2268f3e08fc5a3e903a216e814a824180b6892462af451df19403"
+  },
+  "registry": {
+    "path": "root-registry-r1.json",
+    "sha256": "fcaea69ba82f916d15ea8f96d26b58c53af2407dcb82f2d0e5100de78102c89c"
+  },
+  "code_adoption": {
+    "path": "../../tooling/reviewed-quotation-classification-r2/ROOT-ADOPTION.json",
+    "sha256": "a86b09dab7b4cf5e17b2e7215327703666580a1ee59e56130538809af94621be"
+  },
+  "pending_finalizers": [
+    24,
+    38
+  ],
+  "gate1_evidence_preserved": true,
+  "public_book_changed": false
+}

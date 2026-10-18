@@ -1,0 +1,152 @@
+{
+  "status": "code_adopted_source_selection_pending_fresh_finalizers",
+  "adopted_at_utc": "2026-10-18T17:05:20.999401+00:00",
+  "patch_sha256": "facfa1f6a468c71b11ede2431af3ad47c8fd13e36a0c0aa45a52ee3ee5eb6854",
+  "candidate_file_index_sha256": "e4c14795998bf4e82abcc16955b685e3e0a3d4c8aff5d4d213a051cca83ecd87",
+  "artifact_index_sha256": "772e1e16b93a9d68b9616f740302fa31bc75e6988cd2e12545b90f59cdb2005d",
+  "independent_review": {
+    "path": "independent/REVIEW.md",
+    "sha256": "ef64a8aa082238caa84540f97325f9dd5b210188b7ecd9df58a600bd889708fa",
+    "results_sha256": "5dc15955a5551344a58fdfbf0e8f6aa921158659c4837f9638dde37ce4e8da4a",
+    "verdict": "PASS"
+  },
+  "all10_reviewed_files_matched_before_documentation_addendum": [
+    {
+      "path": ".claude/skills/humanize-korean/PROVENANCE.md",
+      "sha256": "0a769f3cc7a0047a46a6d5b62c24fdba7f75630f51908935d41fc8ab35ee8829",
+      "bytes": 12865
+    },
+    {
+      "path": ".claude/skills/humanize-korean/references/metrics_v2.py",
+      "sha256": "35aed83e56f8ced583e25ea08d9fbecb8baf15f8bb7f5bb14883a9f7318e374f",
+      "bytes": 36207
+    },
+    {
+      "path": ".claude/skills/humanize-korean/scripts/checks.py",
+      "sha256": "69a435b3a6549fded25a9796f5cdf01572951fba9feeb85db3bdcc0dd12599ef",
+      "bytes": 24238
+    },
+    {
+      "path": ".claude/skills/humanize-korean/scripts/quote_context.py",
+      "sha256": "b3689d1fc321c55bc0d1d6a5985288a34d5ea8d851c67d846321856cf4de788f",
+      "bytes": 32843
+    },
+    {
+      "path": ".claude/skills/humanize-korean/scripts/verify_gates.py",
+      "sha256": "30ab963d7c9b72cf3f395bd1279ac2e33b58d4ca8b5e099ee25da7aeb5e0c81a",
+      "bytes": 26361
+    },
+    {
+      "path": ".github/workflows/kr-check.yml",
+      "sha256": "4135ae991853a0c997e4f841ae8ec45e8b2177214911d2177ccbb216785f59b6",
+      "bytes": 5262
+    },
+    {
+      "path": "kr-harness/publication/CONTRACT.md",
+      "sha256": "1786bd7b00e76d6ed1f8cf7d815f366b5bef42d3dd3bf729a550c87a73ea4880",
+      "bytes": 14133
+    },
+    {
+      "path": "kr-harness/publication/QUOTE-CLASSIFICATION-SPEC.md",
+      "sha256": "ede7ecf4a7f7f2c35a3065a9ee90263df03d799146a1b89eeb6bed0edbfe2496",
+      "bytes": 29503
+    },
+    {
+      "path": "kr-harness/publication/scripts/humanize_publication.py",
+      "sha256": "244c194c7620c3095dc3a972eecdaa4e17fab8a0a301ae8b601cb8401569bfd3",
+      "bytes": 24413
+    },
+    {
+      "path": "kr-harness/publication/scripts/tests/test_reviewed_quote_classification.py",
+      "sha256": "fc0cc7b63a11c5179e89854122bb97dacfe19d3472bd725ddb03adfed0f11305",
+      "bytes": 32413
+    }
+  ],
+  "operational_file_hashes_after_documentation_addendum": [
+    {
+      "path": ".claude/skills/humanize-korean/PROVENANCE.md",
+      "sha256": "82c0d177665ec37c995722fd4a283061156683addee30742a000abb722c6e698"
+    },
+    {
+      "path": ".claude/skills/humanize-korean/references/metrics_v2.py",
+      "sha256": "35aed83e56f8ced583e25ea08d9fbecb8baf15f8bb7f5bb14883a9f7318e374f"
+    },
+    {
+      "path": ".claude/skills/humanize-korean/scripts/checks.py",
+      "sha256": "69a435b3a6549fded25a9796f5cdf01572951fba9feeb85db3bdcc0dd12599ef"
+    },
+    {
+      "path": ".claude/skills/humanize-korean/scripts/quote_context.py",
+      "sha256": "b3689d1fc321c55bc0d1d6a5985288a34d5ea8d851c67d846321856cf4de788f"
+    },
+    {
+      "path": ".claude/skills/humanize-korean/scripts/verify_gates.py",
+      "sha256": "30ab963d7c9b72cf3f395bd1279ac2e33b58d4ca8b5e099ee25da7aeb5e0c81a"
+    },
+    {
+      "path": ".github/workflows/kr-check.yml",
+      "sha256": "4135ae991853a0c997e4f841ae8ec45e8b2177214911d2177ccbb216785f59b6"
+    },
+    {
+      "path": "kr-harness/publication/CONTRACT.md",
+      "sha256": "3ef575d94e5d57c3e01a4a0d86cc9775f7bc090622116517d01ebd7583fd0328"
+    },
+    {
+      "path": "kr-harness/publication/QUOTE-CLASSIFICATION-SPEC.md",
+      "sha256": "ede7ecf4a7f7f2c35a3065a9ee90263df03d799146a1b89eeb6bed0edbfe2496"
+    },
+    {
+      "path": "kr-harness/publication/scripts/humanize_publication.py",
+      "sha256": "244c194c7620c3095dc3a972eecdaa4e17fab8a0a301ae8b601cb8401569bfd3"
+    },
+    {
+      "path": "kr-harness/publication/scripts/tests/test_reviewed_quote_classification.py",
+      "sha256": "fc0cc7b63a11c5179e89854122bb97dacfe19d3472bd725ddb03adfed0f11305"
+    }
+  ],
+  "documentation_only_addendum": [
+    "kr-harness/publication/CONTRACT.md",
+    ".claude/skills/humanize-korean/PROVENANCE.md"
+  ],
+  "production_tests": {
+    "exact_ci_entrypoint": 35,
+    "all_local": 68,
+    "failures": 0
+  },
+  "new_current_corpus_comparison": {
+    "total": 667,
+    "baseline_counts": {
+      "0": 483,
+      "1": 2,
+      "missing": 182
+    },
+    "candidate_counts": {
+      "0": 483,
+      "1": 2,
+      "missing": 182
+    },
+    "routes": {
+      "light": 644,
+      "standard": 23
+    },
+    "route_changes": [
+      [],
+      []
+    ],
+    "differences": {
+      "input_sha256": [],
+      "final_file_sha256": [],
+      "automatic_spans": [],
+      "route": [],
+      "gate": []
+    }
+  },
+  "source_registry_sha256": "fcaea69ba82f916d15ea8f96d26b58c53af2407dcb82f2d0e5100de78102c89c",
+  "pending_fresh_finalizers": [
+    24,
+    38
+  ],
+  "classified_publish_supported": false,
+  "public_book_modified_by_code_adoption": false,
+  "bundled_scope": "Patch, exact inventories, snapshot metadata, reports, logs and test scripts only; full external runtime workspaces/frozen text copies are not duplicated."
+}

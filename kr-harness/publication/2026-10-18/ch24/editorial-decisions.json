@@ -1,0 +1,2103 @@
+{
+  "chapter": 24,
+  "status": "pending_candidate_review",
+  "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+  "legal_cutoff": "2026-10-19 KST; 개별HTTP는UTC기록/현재·미래단계시행구별",
+  "source_sha256": "0b6ae836472ce21a4f2d8ac949487ad2768290aea9eb1d35fd95daf825107a4d",
+  "candidate_sha256": null,
+  "formal_kr_fit": "not_performed_not_approved",
+  "confirmed_required_corrections": [
+    {
+      "entry": 3,
+      "requirement": "회송실적은지정상대평가조건으로한정"
+    },
+    {
+      "entry": 6,
+      "requirement": "허위기록처벌은고의로사실과다른수정:적법정정과구별"
+    },
+    {
+      "entry": 7,
+      "requirement": "화상25%만으로일률KTAS1등급확정금지/상황조합·성인표범위"
+    },
+    {
+      "entry": 8,
+      "requirement": "응급환자·정당사유/대지급타법일부지원제외·의료기관구급차예외"
+    },
+    {
+      "entry": 9,
+      "requirement": "장애인등록까지모두치료종료필수단정금지/지속투석등유형별조건"
+    },
+    {
+      "entry": 13,
+      "requirement": "10-08이후초과금액통보대상체납공제·지급동의계좌자동지급구별/2026상한표TODO해소"
+    },
+    {
+      "entry": "tail",
+      "requirement": "권익위실제답변·상한액확보범위로미확인상태갱신"
+    }
+  ],
+  "warnings": [
+    "전13항with_warning/recommended도A같은원저자큐에서근거·채택·불채택사유로종결필요",
+    "4항의뢰서기록만있으면모든절차충족보장금지/본인확인예외별도",
+    "5항보존기본기간과최대기한구별·친족서류/연장",
+    "6항15일무응답동의간주·조정10년/3년기간·현장조사사전통지예외",
+    "7항90%격리·법정타목예외/성인·소아분리",
+    "10항90일이의예외60일·유형별정도차이",
+    "11항교원외임상의적용기관근거·일반선물/농수산예외·1회100/연300구별",
+    "12항틀니도같음은30%에한정/정적공단PFM안내과거판구별"
+  ],
+  "intro_review": "전13항·도입의7/13/16절참조·12항치과앵커·33절등록후참조를baseline과대조. 별도주제요약목록없음. 일반건보급여환자·외래/입원·소재지·산정특례·비급여구별은적절하나도입의2026-10-10기준은후보발행일에맞출필요. 중국통합지역별기금·입원공제선/2027전원센터계획·기록봉인·국가장애증등을한국법으로전용하지않고한국기술로치환했다. 한국추가13항표시보존. 중국원화환산/중국요율을이식하지않음. 기존완료배너/과거정식KR-FIT와본초기감사분리.",
+  "tail_review": "7TODO전수:①권익위진료중5만원선물/지인예약은cases:0/1/4/5실제답변으로상당부분해소:개별직무관련성/사회상규특별사정범위이지모든사건일괄결론아님.②교수가아닌임상의적용은cases:3국립대병원임상교수의공직유관단체임직원vs교원외신분구별로보강,모든대학병원고용형태포괄확정은미해소.③2026상한액은final:0실제표로해소.④환급신청기한은법91의3년확인/공단특정환급기산점안내미확보부분유지.⑤경증상급외래고시비율·질병은현행령너목존재확인/통합고시본문미확보로미해소(약국50/40조문과구별).⑥의료소송1심실제평균기간미확보유지/민소199법정5개월대체금지.⑦환자경험평가대상·기간·공개등급미확보유지/삭제숫자재도입금지. 추가보강backlog:치과2026통합수가·지르코니아시행확정원문과일반가격범위,장애등록지속치료예외/의료조정기간·동의간주,미확인문장을쉽게에신규주입금지.",
+  "entries": [
+    {
+      "entry": 1,
+      "status": "qualified_supported_with_warning",
+      "source_entry_sha256": "fa3463eac46da56eafd3268771d61eb15dc994730421b75bdd1f0bf3e6b8060d",
+      "review_scope": "급여규칙2①~④ 실제확인:1단계는상급제외/2단계상급·의뢰서또는필요소견검진결과서·직접1단계가능7범위. 재활예외는등록장애인뿐아니라단순물리치료아닌작업·운동치료등필요인정자도포함. 직원은그기관에서근무하는가입자범위. 시행규칙별표6절차미준수전액과령별표2상급진찰료전액+나머지60/의원30일치. 응급·분만등예외가쉽게에있어‘무조건미의뢰=전액’으로제목만더강화금지. 규칙2⑤심각위기경보시절차변경가능;경증고시비율/질병TODO미해소.",
+      "evidence_ids": [
+        "sources:0",
+        "sources:1",
+        "sources:2",
+        "sources:21"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      },
+      "editorial_observations": {
+        "title_characters": 41,
+        "title_over_70": false,
+        "easy_characters": 166,
+        "easy_over_120": true,
+        "sentences_over_50": [
+          {
+            "field": "이득",
+            "length": 61,
+            "text": "1단계를 거친 뒤 2단계를 받아야 합니다(「국민건강보험 요양급여의 기준에 관한 규칙」 제2조 제1항·제2항)."
+          },
+          {
+            "field": "이득",
+            "length": 62,
+            "text": "이 절차를 건너뛰면 진료비 전액을 본인이 냅니다(「국민건강보험법 시행규칙」 별표 6 제1호 가목 1)·제2호)."
+          },
+          {
+            "field": "이득",
+            "length": 55,
+            "text": "산정특례·연령·임신·고시 경증질환 등은 예외입니다(「국민건강보험법 시행령」 별표 2 제1호 나목)."
+          },
+          {
+            "field": "이득",
+            "length": 56,
+            "text": "등록 장애인 등의 재활의학과 진료, 그 병원 직원, 혈우병 환자도 됩니다(같은 규칙 제2조 제3항)."
+          }
+        ],
+        "counting_rule": "공백·괄호포함literal.문장종결후공백분할/출처필드제외.번역인용임의제외안함.초기진단이며후보게이트아님"
+      }
+    },
+    {
+      "entry": 2,
+      "status": "qualified_supported_with_warning",
+      "source_entry_sha256": "e7440c05d5c2bc9acad23ad22241454b9a1679adcee77b9c8e803f451e2e6e1e",
+      "review_scope": "현행건보령19·별표2①가/나 실제표:의원30/병원동40읍면35/종합동50읍면45/상급진찰료+잔액60, 동일급여10만원계산3/4/5만및상급6만+진찰40%수학정확. 입원기본20+식대50/일반병실2·3·일부4인별도조건 확인. 연령임신특례·경증·항목별예외/비급여제외보존. 단,특수장비등은외래와별도요율가능. HIRA법48진료비확인은실제서비스제외(자동차/산재·임상연구일부·의료행위외)와자료보존한계가있어‘모든낸돈무조건환급’아님. 약국50/40은산정특례고시6조/별표6대상주상병조건.",
+      "evidence_ids": [
+        "sources:2",
+        "sources:3",
+        "sources:21",
+        "prefetch:0"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      },
+      "editorial_observations": {
+        "title_characters": 52,
+        "title_over_70": false,
+        "easy_characters": 205,
+        "easy_over_120": true,
+        "sentences_over_50": [],
+        "counting_rule": "공백·괄호포함literal.문장종결후공백분할/출처필드제외.번역인용임의제외안함.초기진단이며후보게이트아님"
+      }
+    },
+    {
+      "entry": 3,
+      "status": "revision_required",
+      "source_entry_sha256": "eb05e03c571d1cab1e8804462fb54096f234962f3bc2f2e2e9932adeee23476f",
+      "review_scope": "급여규칙6/2026-18중계고시3·5 실제본문·서식재의뢰칸/령별표2③타3회송고시항목본인0 확인. 모든회송후진료일체무료아님. 상급지정규칙별표4나2년6개월경증외래5%이하일치하나,4다회송실적은별표7비고에제3조④상대평가에만적용한다고한정. 모든지정의독립절대필수인양단정하지않아야함. 중계시스템이모든병원간자동전송/예약보장이라는뜻아님·환자동의보존.",
+      "evidence_ids": [
+        "sources:0",
+        "sources:2",
+        "sources:4",
+        "sources:22"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      },
+      "editorial_observations": {
+        "title_characters": 52,
+        "title_over_70": false,
+        "easy_characters": 139,
+        "easy_over_120": true,
+        "sentences_over_50": [
+          {
+            "field": "이득",
+            "length": 68,
+            "text": "의뢰한 의원이나 1단계 병원으로 돌려보내는 절차입니다(「국민건강보험 요양급여의 기준에 관한 규칙」 제6조 제1항·제2항)."
+          },
+          {
+            "field": "이득",
+            "length": 74,
+            "text": "병원들은 이 시스템으로 진료정보와 영상정보를 주고받습니다(고시 「진료의뢰·회송 중계시스템 운영 등에 관한 세부사항」 제3조·제5조)."
+          },
+          {
+            "field": "이득",
+            "length": 60,
+            "text": "회송과 관련해 고시한 진료 항목은 본인부담이 없습니다(「국민건강보험법 시행령」 별표 2 제3호 타목 3))."
+          },
+          {
+            "field": "이득",
+            "length": 71,
+            "text": "경증환자를 동네 병의원으로 돌려보낸 실적도 갖춰야 합니다(「상급종합병원의 지정 및 평가에 관한 규칙」 별표 제4호 나목·다목)."
+          }
+        ],
+        "counting_rule": "공백·괄호포함literal.문장종결후공백분할/출처필드제외.번역인용임의제외안함.초기진단이며후보게이트아님"
+      }
+    },
+    {
+      "entry": 4,
+      "status": "qualified_supported_with_warning",
+      "source_entry_sha256": "ce1716bb7296edc3f0851e1a8508d9565f87f08275e9637a766961ad98bb0b16",
+      "review_scope": "건보법13/42·급여규칙2·령별표2확인:일반건보는시도별보험/별도지역승인없고기관종류소재지기준. 다만이설명을의료급여선택병원·다른보상제도까지확장금지. 제목‘의뢰서·기록만’은본인확인/예약/적용대상요건까지충분함을보장하지않게범위제한. 산정특례질환등록/기간과지역재등록을구별. 일반건보기관지정예외/개별수가조건이있으므로모든의료기관모든시술급여보장아님.",
+      "evidence_ids": [
+        "sources:0",
+        "sources:2",
+        "sources:3",
+        "closure:1"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      },
+      "editorial_observations": {
+        "title_characters": 50,
+        "title_over_70": false,
+        "easy_characters": 109,
+        "easy_over_120": false,
+        "sentences_over_50": [],
+        "counting_rule": "공백·괄호포함literal.문장종결후공백분할/출처필드제외.번역인용임의제외안함.초기진단이며후보게이트아님"
+      }
+    },
+    {
+      "entry": 5,
+      "status": "qualified_supported_with_warning",
+      "source_entry_sha256": "fb14986202467983702f424395917ff45493276f84d4433ada4da53bf0c86d67",
+      "review_scope": "의료법21①수정전후원본포함청구/정당사유거부금지·90의500만원이하확인. 친족은21③/령13의3·별표2의2서류/의사불가피예외/14세미만동의서예외·형제자매후순위조건있음. 실제제증명HWP별표25~29종이1000/100·필름5000/CD1만/DVD2만상한·진찰검사비별도일치. 규칙15진료수술10년검사영상5처방2는기본의무보존기간이고계속진료필요시1회같은기간범위연장가능. 10/5년을일률최대보관·자동폐기시점으로바꾸지않음. 매진료사본필수라는임상의학근거아닌저자관리선택·비용누적고려권장.",
+      "evidence_ids": [
+        "sources:5",
+        "sources:6",
+        "sources:23",
+        "attach:0"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      },
+      "editorial_observations": {
+        "title_characters": 40,
+        "title_over_70": false,
+        "easy_characters": 132,
+        "easy_over_120": true,
+        "sentences_over_50": [
+          {
+            "field": "이득",
+            "length": 74,
+            "text": "환자가 사망했거나 의식이 없으면 동의서 없이 친족이 요청할 수 있습니다(같은 법 제21조 제3항, 「의료법 시행규칙」 제13조의3)."
+          },
+          {
+            "field": "이득",
+            "length": 73,
+            "text": "영상은 필름 5,000원, CD 1만 원, DVD 2만 원입니다(고시 「의료기관의 제증명수수료 항목 및 금액에 관한 기준」 별표)."
+          }
+        ],
+        "counting_rule": "공백·괄호포함literal.문장종결후공백분할/출처필드제외.번역인용임의제외안함.초기진단이며후보게이트아님"
+      }
+    },
+    {
+      "entry": 6,
+      "status": "revision_required",
+      "source_entry_sha256": "0cc5fd01103939f94a52a8f3e6fe9568d146cbe8e1693a55b036c9b908c9bad3",
+      "review_scope": "의료법22③/88은거짓작성또는고의로사실과다르게추가수정에3년3천만원. 쉽게‘일부러고치면처벌’은적법정정까지포함하므로필수조건복원. 21원본사본/23④접속기록확인. 민소375/376증거보전·98/109패소비용원칙/변호사규칙한도·199법정5개월(실제평균아님)확인. 의료조정27/28/33/36/40·서식 실제22천원≤500만원/14일불응각하/일정중증자동개시/개시부터90+1회30/쌍방동의·재판상화해일치. 36②는송달후15일답없으면동의간주이므로적극동의만성립하는양한정금지.27⑬조정신청10년/손해가해자안날3년기간도저자보강권장. 법정환자요청봉인규정못찾음과법원증거보전가능을구별. 실제의료소송평균미확인유지.",
+      "evidence_ids": [
+        "sources:5",
+        "sources:6",
+        "sources:9",
+        "more:0",
+        "more:1",
+        "prefetch:1"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      },
+      "editorial_observations": {
+        "title_characters": 63,
+        "title_over_70": false,
+        "easy_characters": 139,
+        "easy_over_120": true,
+        "sentences_over_50": [
+          {
+            "field": "이득",
+            "length": 66,
+            "text": "「의료법」과 「의료사고 피해구제 및 의료분쟁 조정 등에 관한 법률」에는 환자가 요구해 기록을 봉인하는 절차가 없습니다."
+          },
+          {
+            "field": "이득",
+            "length": 51,
+            "text": "3년 이하 징역이나 3천만 원 이하 벌금입니다(같은 법 제22조 제3항, 제88조 제1호)."
+          },
+          {
+            "field": "이득",
+            "length": 69,
+            "text": "병원은 정당한 이유가 없으면 응해야 합니다(「의료사고 피해구제 및 의료분쟁 조정 등에 관한 법률」 제28조 제3항·제5항)."
+          },
+          {
+            "field": "비고",
+            "length": 72,
+            "text": "게시 내용에는 의료분쟁조정중재원에 상담·조정을 신청할 권리도 포함됩니다(「의료법」 제4조 제3항, 「의료법 시행규칙」 별표 1)."
+          }
+        ],
+        "counting_rule": "공백·괄호포함literal.문장종결후공백분할/출처필드제외.번역인용임의제외안함.초기진단이며후보게이트아님"
+      }
+    },
+    {
+      "entry": 7,
+      "status": "revision_required",
+      "source_entry_sha256": "11f3c777ac88721161edceb69a163285f1020ab27f9c99e9a9d67f3c225c4ae3",
+      "review_scope": "응급법6~8/31의4/48의2·규칙18의4/별표1·KTAS4/5/성인별표1실제확인. 분류소/훈련받은직군/1~5등급/상태변경재평가/위급순서일치. 사지외상절단1등급이나손가락외상절단2등급구별. 화상25%만으로1등급확정은불가:성인표환경손상화학노출25%이상중증화상1등급,피부화상25%이상2등급등조합별다름. 성인표를소아기준전체로확대금지. 시행규칙별표6경증권역전문외상/비응급추가지역90·상급진찰료별도100일치하나격리입원·령별표2③타해당은사목단서제외. 위험증상말하기가등급을올리는요령으로읽히지않게객관분류유지.",
+      "evidence_ids": [
+        "sources:1",
+        "sources:10",
+        "sources:11",
+        "sources:24",
+        "attach:1"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      },
+      "editorial_observations": {
+        "title_characters": 47,
+        "title_over_70": false,
+        "easy_characters": 173,
+        "easy_over_120": true,
+        "sentences_over_50": [
+          {
+            "field": "이득",
+            "length": 64,
+            "text": "교육받은 의사·간호사·1급 응급구조사가 중증도를 분류합니다(「응급의료에 관한 법률 시행규칙」 제18조의4 제1항)."
+          },
+          {
+            "field": "이득",
+            "length": 51,
+            "text": "4·5등급은 경증응급환자와 비응급환자입니다(고시 「한국 응급환자 중증도 분류기준」 제5조)."
+          },
+          {
+            "field": "이득",
+            "length": 54,
+            "text": "심장질환으로 인한 급성 흉통, 지혈이 안 되는 출혈도 들어 있습니다(같은 법 시행규칙 별표 1)."
+          },
+          {
+            "field": "이득",
+            "length": 56,
+            "text": "해당 진찰료는 별도로 전액 부담합니다(「국민건강보험법 시행규칙」 별표 6 제1호 사목·제2호 나목)."
+          },
+          {
+            "field": "비고",
+            "length": 58,
+            "text": "권역응급의료센터는 경증 응급환자를 다른 응급의료기관으로 보낼 수 있습니다(같은 법 제31조의4 제4항)."
+          },
+          {
+            "field": "비고",
+            "length": 54,
+            "text": "환자 상태도 미리 알립니다(같은 법 시행규칙 제18조의4 제2항, 같은 법 제48조의2 제1항)."
+          }
+        ],
+        "counting_rule": "공백·괄호포함literal.문장종결후공백분할/출처필드제외.번역인용임의제외안함.초기진단이며후보게이트아님"
+      }
+    },
+    {
+      "entry": 8,
+      "status": "revision_required",
+      "source_entry_sha256": "c68ecd694edfb5a9142fa630ab29be5ef79cb8e4cfb61383c96779284095c6a2",
+      "review_scope": "응급법6②정당사유없는응급환자거부기피3년3천/22대지급심사·구상/22의3청구가능일부터3년·령18~21실제확인. 제목은‘응급환자/정당한사유’범위보존. 대지급은모든응급실방문진료비자동국가결제아니며심사대상본인부담/기관청구. 령18전액타법지원제외외에일부지원+잔액부담능력있는사람제외,19이송처치료중의료기관운용구급차제외조건필요. 진료/이송종료3년기관청구·신원불명확인서·본인배우자1촌과배우자·48개월분할가능(자동권리보장아님)일치. 보험자격확인법12④/규칙7의2응급신분확인예외와2025-70고시3기타예외도확인. 실제진료가능수용능력/정당사유와단순돈부족구별.",
+      "evidence_ids": [
+        "sources:3",
+        "sources:10",
+        "sources:11",
+        "sources:12",
+        "closure:1"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      },
+      "editorial_observations": {
+        "title_characters": 68,
+        "title_over_70": false,
+        "easy_characters": 128,
+        "easy_over_120": true,
+        "sentences_over_50": [
+          {
+            "field": "이득",
+            "length": 53,
+            "text": "어기면 3년 이하 징역 또는 3천만 원 이하 벌금을 받습니다(같은 법 제60조 제3항 제1호)."
+          },
+          {
+            "field": "비고",
+            "length": 57,
+            "text": "계속 갚지 않으면 국세 체납처분과 같은 방식으로 징수될 수 있습니다(같은 법 제22조 제5항·제6항)."
+          },
+          {
+            "field": "비고",
+            "length": 53,
+            "text": "심평원이 구상할 권리는 청구할 수 있는 날부터 3년이 지나면 소멸합니다(같은 법 제22조의3)."
+          }
+        ],
+        "counting_rule": "공백·괄호포함literal.문장종결후공백분할/출처필드제외.번역인용임의제외안함.초기진단이며후보게이트아님"
+      }
+    },
+    {
+      "entry": 9,
+      "status": "revision_required",
+      "source_entry_sha256": "b756a8a62c2d18ad2a34adc38de95b4ad431e417ec89a5f34ea8c588e9e53107",
+      "review_scope": "산재법5④/57·령53별표6치유후장해1~14/자동차령3①3·별표2후유장애1~14·1급1억5천/14급1천만책임보험한도일치. 그러나장애인등록까지모두‘치료끝난후’는틀림:실제2025-228판정PDF투석3개월중·자폐확실해진때등지속치료중진단가능. 산재치유도완치만아닌치료효과기대불가증상고정이며치료중단권고아님. 유형별6개월/2년·뇌병변6개월/파킨슨1년·명백고착예외/재판정은실제기준일치. 후유장애진단서10만원상한과장애정도심사용진단서다른문서·비용구별필요.",
+      "evidence_ids": [
+        "sources:13",
+        "sources:14",
+        "sources:15",
+        "sources:25",
+        "attach:0",
+        "attach:2"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      },
+      "editorial_observations": {
+        "title_characters": 59,
+        "title_over_70": false,
+        "easy_characters": 151,
+        "easy_over_120": true,
+        "sentences_over_50": [
+          {
+            "field": "이득",
+            "length": 59,
+            "text": "더 치료해도 효과를 기대할 수 없고 증상이 고정된 상태도 치유입니다(「산업재해보상보험법」 제5조 제4호)."
+          },
+          {
+            "field": "이득",
+            "length": 77,
+            "text": "자동차사고 후유장애도 치료를 마친 뒤 증상이 고정된 상태에서 남은 장애를 말합니다(「자동차손해배상 보장법 시행령」 제3조 제1항 제3호)."
+          },
+          {
+            "field": "이득",
+            "length": 65,
+            "text": "장애 정도는 '장애의 정도가 심한 장애인'과 '심하지 않은 장애인'으로 나뉩니다(「장애인복지법 시행규칙」 별표 1)."
+          }
+        ],
+        "counting_rule": "공백·괄호포함literal.문장종결후공백분할/출처필드제외.번역인용임의제외안함.초기진단이며후보게이트아님"
+      }
+    },
+    {
+      "entry": 10,
+      "status": "qualified_supported_with_warning",
+      "source_entry_sha256": "5775b68f693be3bf5e8c27e7c4c6f5a076ba219bca71270ec43002dcaebffc65",
+      "review_scope": "장애복지법32/84·령별표1/35912부칙·규칙3/6/7/별표1실제확인:췌장포함16종·7-01시행·진단심사후등록증/사진1장읍면동경유·신체15000정신40000별도검사비. ‘장애남으면등록증이자동나옴’아니고장애유형별정도기준충족/심사필요. 90일이의신청원칙/30일결정은맞으나정당사유로못한때사유소멸부터60일예외보존권장. 췌장은실제규칙별표1에서심한장애범위가있어모든16유형이항상두정도모두있다고단정금지. 등록재활의뢰예외는1항과동일.",
+      "evidence_ids": [
+        "sources:16",
+        "sources:17",
+        "sources:18",
+        "attach:0",
+        "attach:2"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      },
+      "editorial_observations": {
+        "title_characters": 38,
+        "title_over_70": false,
+        "easy_characters": 147,
+        "easy_over_120": true,
+        "sentences_over_50": [
+          {
+            "field": "이득",
+            "length": 59,
+            "text": "신장, 심장, 호흡기, 간, 안면, 장루·요루, 뇌전증, 췌장 장애도 있습니다(같은 법 시행령 별표 1)."
+          }
+        ],
+        "counting_rule": "공백·괄호포함literal.문장종결후공백분할/출처필드제외.번역인용임의제외안함.초기진단이며후보게이트아님"
+      }
+    },
+    {
+      "entry": 11,
+      "status": "qualified_supported_with_warning",
+      "source_entry_sha256": "2634192dc1b84dcaf20f196aaf0e30d7443cd242329540c1f1d440e8a0105047",
+      "review_scope": "청탁법2/5/8/22/23·령별표1실제확인:공직자등/학교법인임직원,직무관련100만원이하2~5배과태료/1회100초과또는연300초과형사구별. 일반선물5만원외농수산15/명절30예외도있어5만원을모든물품의상한으로닫지않음. 현금은선물예외제외이나법8③다른적법예외까지전부부정아님. 권익위2025/2026실제답변으로진료중선물·퇴원후개별판단/손편지허용·병원내규/지인우선예약부정청탁가능확인. 임상교수는공직유관단체임직원근거와교원근거구별,소속·고용신분개별확인필요. 제3자청탁1천만은자기위한청탁기준/제3자위해청탁더무거운별조항구별. 환자평가반영공식규정·평가기간숫자미확인유지.",
+      "evidence_ids": [
+        "sources:19",
+        "sources:20",
+        "cases:0",
+        "cases:1",
+        "cases:2",
+        "cases:3",
+        "cases:4",
+        "cases:5"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      },
+      "editorial_observations": {
+        "title_characters": 46,
+        "title_over_70": false,
+        "easy_characters": 179,
+        "easy_over_120": true,
+        "sentences_over_50": [
+          {
+            "field": "이득",
+            "length": 64,
+            "text": "공무원, 공공기관·공직유관단체 임직원, 각급 학교의 장·교직원과 학교법인 임직원도 여기에 듭니다(같은 법 제2조)."
+          },
+          {
+            "field": "이득",
+            "length": 51,
+            "text": "공직자등은 직무와 관련된 금품을 금액과 상관없이 받으면 안 됩니다(같은 법 제8조 제2항)."
+          },
+          {
+            "field": "이득",
+            "length": 63,
+            "text": "한 번에 100만 원을 넘으면 3년 이하 징역 또는 3천만 원 이하 벌금입니다(같은 법 제22조 제1항 제3호)."
+          },
+          {
+            "field": "이득",
+            "length": 65,
+            "text": "공직자등에게 공공기관 용역을 정상 관행 밖에서 쓰게 해 달라는 부탁은 부정청탁입니다(같은 법 제5조 제1항 제9호)."
+          },
+          {
+            "field": "비고",
+            "length": 55,
+            "text": "공직자등은 받은 금품을 돌려주거나 거부해야 처벌을 피합니다(같은 법 제22조 제1항 제1호 단서)."
+          }
+        ],
+        "counting_rule": "공백·괄호포함literal.문장종결후공백분할/출처필드제외.번역인용임의제외안함.초기진단이며후보게이트아님"
+      }
+    },
+    {
+      "entry": 12,
+      "status": "qualified_supported_with_warning",
+      "source_entry_sha256": "b53441839fff47ecc757ac79ade1f4289089f4940b81d294d3c964ccee52c2f7",
+      "review_scope": "건보령별표2③바·사만65일반30/차상위별도·령19③임플란트상한제제외·급여규칙별표2④바보철/부가수술비급여와고시예외·의료법45/45의2가격고지상한확인. 공단실제부분무치악/평생2개/등록후시술/불가피중단인정개수예외·틀니7년과심각구강변화재제작예외. 연령+부분무치악만으로모든재료·시술급여충분조건아님:분리형등적용조건확인필요. 공단정적페이지PFM만안내는복지부2024-12-27지르코니아확대의결과시차있음. 최신2026-205/202원PDF는부분개정만제공하여통합수가/지르코니아시행확정날짜미해소,2024결정만으로현재가격확정금지. 본문구체수가금액없음. HIRA비급여URL200셸이므로실제가격조회완료라하지않음. 모든틀니평생2개로쉽게가읽히지않게‘틀니도같음’은30%에만한정권장.",
+      "evidence_ids": [
+        "sources:0",
+        "sources:2",
+        "sources:5",
+        "prefetch:2",
+        "prefetch:3",
+        "prefetch:4",
+        "last:0",
+        "annex:0",
+        "annex:1"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      },
+      "editorial_observations": {
+        "title_characters": 58,
+        "title_over_70": false,
+        "easy_characters": 207,
+        "easy_over_120": true,
+        "sentences_over_50": [
+          {
+            "field": "이득",
+            "length": 59,
+            "text": "일반 건강보험 가입자의 본인부담은 급여비용의 30%입니다(「국민건강보험법 시행령」 별표 2 제3호 사목)."
+          },
+          {
+            "field": "이득",
+            "length": 66,
+            "text": "65세 이상의 고시된 틀니와 임플란트만 예외입니다(「국민건강보험 요양급여의 기준에 관한 규칙」 별표 2 제4호 바목)."
+          },
+          {
+            "field": "비고",
+            "length": 58,
+            "text": "65세 이상 임플란트로 낸 본인부담은 본인부담상한제 합산에서 빠집니다(같은 영 제19조 제3항 제3호)."
+          },
+          {
+            "field": "비고",
+            "length": 52,
+            "text": "비급여로 낸 돈이 의심스러우면 심평원에 진료비 확인을 요청하세요(「국민건강보험법」 제48조)."
+          }
+        ],
+        "counting_rule": "공백·괄호포함literal.문장종결후공백분할/출처필드제외.번역인용임의제외안함.초기진단이며후보게이트아님"
+      }
+    },
+    {
+      "entry": 13,
+      "status": "revision_required",
+      "source_entry_sha256": "05c9e64d32417e97f8c21fe87ae60b3bd56fbe1fcfda9f451ef751fbc9123710",
+      "review_scope": "건보법44/91·령19③~⑤별표3실제확인:2024일반87~808/요양120일초과138~1050과거표·2025이후물가연동5%상한일치. 복지부2026-08-30실제첨부표2026일반90/112/173/326/446/536/843·요양143/181/245/404/580/698/1096만원으로TODO해소가능. 법44③체납보험료등공제10-08시행·21522부칙2에따라시행이후초과금액통보부터적용확인하므로무조건초과전액입금보장금지. 공단등록계좌사전동의자는향후자동지급/미등록자는신청으로모두매년별도신청단정금지. 제외2·3인실/임플란트/선별·전액및고시경증상급외래/추나요법등·2027미시행과구별. 법91보험급여3년은확인했으나환급개별기산점공단공식안내미확인이라‘진료일부터3년’등임의계산금지.",
+      "evidence_ids": [
+        "sources:2",
+        "sources:3",
+        "prefetch:5",
+        "depend:2",
+        "final:0",
+        "extra:1"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      },
+      "editorial_observations": {
+        "title_characters": 55,
+        "title_over_70": false,
+        "easy_characters": 132,
+        "easy_over_120": true,
+        "sentences_over_50": [
+          {
+            "field": "이득",
+            "length": 54,
+            "text": "138만 원부터 1,050만 원까지입니다(「국민건강보험법 시행령」 별표 3 제1호 가목·제2호)."
+          }
+        ],
+        "counting_rule": "공백·괄호포함literal.문장종결후공백분할/출처필드제외.번역인용임의제외안함.초기진단이며후보게이트아님"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=285513&type=XML",
+      "requested_at": "2026-10-18T16:46:15.033093+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "law:285513",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/844710db4666d8a4585e.raw",
+      "sha256": "4b86d991c9ce968914c0c5d7f2e46139bf7c897ff3e446da1f57cc460a504f64",
+      "id": "sources:0",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "실제 법령XML의 해당조문/관련별표/부칙 열람. 기본시행일과 조문·별표 단계시행을 구별."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290599&type=XML",
+      "requested_at": "2026-10-18T16:46:15.033944+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "law:290599",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/75fb6ddf3e05e878a073.raw",
+      "sha256": "dcea033f138d9ece7311e9ee3aa216c8edd0b36674038c8081d60a11a3ab0982",
+      "id": "sources:1",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "실제 법령XML의 해당조문/관련별표/부칙 열람. 기본시행일과 조문·별표 단계시행을 구별."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=289701&type=XML",
+      "requested_at": "2026-10-18T16:46:15.034661+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "law:289701",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/53624c97f548b1ce5976.raw",
+      "sha256": "9c36143d7d4df72f8076d4d34b98002a510c415e13165d3efedaaf5e19b6a2af",
+      "id": "sources:2",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "건보령 현행2026-10-01 제19·별표2/3 직접확인.36675부칙 제18의5는12-24/별표2제5의2는2027-01-01 미래시행으로현재적용제외."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=285273&type=XML",
+      "requested_at": "2026-10-18T16:46:15.035257+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "law:285273",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/611a444050387b30a947.raw",
+      "sha256": "61d71f01d2824e7332c868f26d4cc9c6ca73ad09b9a3945375ec9ea8972d0bf7",
+      "id": "sources:3",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "건보법현행2026-10-08 제12/13/42/44/48/91·21522부칙 실제확인.체납공제는시행이후초과금액통보부터적용."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=288497&type=XML",
+      "requested_at": "2026-10-18T16:46:15.036443+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "law:288497",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/2d3bc9fd878b52e48d8a.raw",
+      "sha256": "9d59210b2d9afbd1954553072013f3a15e1e9db4e1f9d38e5f0ab1228f347abe",
+      "id": "sources:4",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "실제 법령XML의 해당조문/관련별표/부칙 열람. 기본시행일과 조문·별표 단계시행을 구별."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290667&type=XML",
+      "requested_at": "2026-10-18T16:46:15.037401+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "law:290667",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/17f7dfb06a0431cd5fb0.raw",
+      "sha256": "4f0e3b2d0b92674e5da9e66b4bb8265aefe99f7d597e398bff382b1667efe56f",
+      "id": "sources:5",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "실제 법령XML의 해당조문/관련별표/부칙 열람. 기본시행일과 조문·별표 단계시행을 구별."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=286963&type=XML",
+      "requested_at": "2026-10-18T16:46:17.098805+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "law:286963",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/86ee6c8acd8cfd4da7bd.raw",
+      "sha256": "0b5b4779e7bb0abd06168466a066a552ae8d152b3b4155f0143d942e95202290",
+      "id": "sources:6",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "실제 법령XML의 해당조문/관련별표/부칙 열람. 기본시행일과 조문·별표 단계시행을 구별."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290113&type=XML",
+      "requested_at": "2026-10-18T16:46:17.467047+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "law:290113",
+      "status": "access_failed",
+      "error": "HTTP Error 502: Bad Gateway",
+      "id": "sources:7",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "실제 접근실패; 본문 확인 아님. 후속 성공과 별도 보존."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=265473&type=XML",
+      "requested_at": "2026-10-18T16:46:18.687249+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "law:265473",
+      "status": "access_failed",
+      "error": "<urlopen error Tunnel connection failed: 502 Bad Gateway>",
+      "id": "sources:8",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "실제 접근실패; 본문 확인 아님. 후속 성공과 별도 보존."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=270275&type=XML",
+      "requested_at": "2026-10-18T16:46:19.618602+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "law:270275",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/2917c806819af4ec87af.raw",
+      "sha256": "0317a6e9eafe25a3e95e14866021185d627cce74f5e0d45d0d30ca8954681eee",
+      "id": "sources:9",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "실제 법령XML의 해당조문/관련별표/부칙 열람. 기본시행일과 조문·별표 단계시행을 구별."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=280429&type=XML",
+      "requested_at": "2026-10-18T16:46:21.499577+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "law:280429",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/123beaa5cfb2da6a2209.raw",
+      "sha256": "ea4a88a9660c588508730947b9b996e9553ef1a183870c4a5ae15e310e4616f9",
+      "id": "sources:10",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "실제 법령XML의 해당조문/관련별표/부칙 열람. 기본시행일과 조문·별표 단계시행을 구별."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=288097&type=XML",
+      "requested_at": "2026-10-18T16:46:21.661575+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "law:288097",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/44ed529b5487c7b27f26.raw",
+      "sha256": "14a493245bcea10a68e89004a931ee49142772f8d548469c92946e54639c5565",
+      "id": "sources:11",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "실제 법령XML의 해당조문/관련별표/부칙 열람. 기본시행일과 조문·별표 단계시행을 구별."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=289431&type=XML",
+      "requested_at": "2026-10-18T16:46:22.404759+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "law:289431",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/e678c8235e88d684431f.raw",
+      "sha256": "45077e5c66880e12ceff0cb346632205f8d4187e4724c60ce496cab520d9b3e3",
+      "id": "sources:12",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "실제 법령XML의 해당조문/관련별표/부칙 열람. 기본시행일과 조문·별표 단계시행을 구별."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=283459&type=XML",
+      "requested_at": "2026-10-18T16:46:22.780516+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "law:283459",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/b9624966b385dede8480.raw",
+      "sha256": "9a0328a82a4a183d9280ec1c986c9660206312d5bc201bc9b08310625700860b",
+      "id": "sources:13",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "실제 법령XML의 해당조문/관련별표/부칙 열람. 기본시행일과 조문·별표 단계시행을 구별."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=287491&type=XML",
+      "requested_at": "2026-10-18T16:46:23.313111+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "law:287491",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/e53d8fe4cf93e99fa20a.raw",
+      "sha256": "70a7c52c75afb5dd41360f63fd1101cd1e33e741650ff3dac3aa32ed0aa97d8a",
+      "id": "sources:14",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "실제 법령XML의 해당조문/관련별표/부칙 열람. 기본시행일과 조문·별표 단계시행을 구별."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=289683&type=XML",
+      "requested_at": "2026-10-18T16:46:23.846656+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "law:289683",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/a02dd5205e89433c77f9.raw",
+      "sha256": "7f3d9d16dc237b41a5c0bcb099d6710ad1514c537d0ce120522f3e0f00b91c0e",
+      "id": "sources:15",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "실제 법령XML의 해당조문/관련별표/부칙 열람. 기본시행일과 조문·별표 단계시행을 구별."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=282417&type=XML",
+      "requested_at": "2026-10-18T16:46:24.791681+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "law:282417",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/ee3d315294904c60b96f.raw",
+      "sha256": "780214a24ff8c366ac1b19f758786e9d5dd2d4453355219e485d0dcb68ff5339",
+      "id": "sources:16",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "장애복지규칙 현행2026-01-01 조문3/6/7·1149부칙과별표1일부2026-07-01선시행 확인.제4의2③은2027-01-01 미래시행으로구별."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290211&type=XML",
+      "requested_at": "2026-10-18T16:46:24.930244+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "law:290211",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/5ad1e27cf310dcd5d26b.raw",
+      "sha256": "83c7457f5b987cf3b36d5257ef68fac45bd1d0197662ba87b254255c715f81df",
+      "id": "sources:17",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "실제 법령XML의 해당조문/관련별표/부칙 열람. 기본시행일과 조문·별표 단계시행을 구별."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=288467&type=XML",
+      "requested_at": "2026-10-18T16:46:25.706251+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "law:288467",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/7d413fdf7ee1ff4acc6c.raw",
+      "sha256": "57e9c27b51d4b82f3c36785bb6172824f5e3e6f386059daeca4250402f530c32",
+      "id": "sources:18",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "실제 법령XML의 해당조문/관련별표/부칙 열람. 기본시행일과 조문·별표 단계시행을 구별."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=268655&type=XML",
+      "requested_at": "2026-10-18T16:46:26.278417+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "law:268655",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/a6230c88cf88b3e522bb.raw",
+      "sha256": "dace442b0973b287aa63254f5825a5b366d0068457a2dbe5fc3122466581a337",
+      "id": "sources:19",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "실제 법령XML의 해당조문/관련별표/부칙 열람. 기본시행일과 조문·별표 단계시행을 구별."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=287511&type=XML",
+      "requested_at": "2026-10-18T16:46:26.371325+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "law:287511",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/91cd7e6d518445ad9b9e.raw",
+      "sha256": "ceb6252c220fb2de7b2fe69d9b0c8e32ff8b8da468b8d0f74a72a87dd70e55d2",
+      "id": "sources:20",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "실제 법령XML의 해당조문/관련별표/부칙 열람. 기본시행일과 조문·별표 단계시행을 구별."
+    },
+    {
+      "url": "https://www.law.go.kr/LSW/admRulLsInfoR.do?admRulSeq=2100000283320&languageType=KO&chrClsCd=010202",
+      "requested_at": "2026-10-18T16:46:26.413516+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "admrul:2100000283320",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/f85d48071ebe44470005.raw",
+      "sha256": "719a34b6e11f4ac83524e075359c65115125613fe83cbf0ad04fc8633c2b6503",
+      "id": "sources:21",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "실제 수신본문 열람; 항목별 검토범위 참조. 검색은 서지/시행일/원문링크 확인과 구별."
+    },
+    {
+      "url": "https://www.law.go.kr/LSW/admRulLsInfoR.do?admRulSeq=2100000273788&languageType=KO&chrClsCd=010202",
+      "requested_at": "2026-10-18T16:46:26.759057+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "admrul:2100000273788",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/86be028fd3c5f7e931d5.raw",
+      "sha256": "e5bc2a3d217e39f409304b3086d33af0333c4e8374fe674225f9aaa2f6bccd54",
+      "id": "sources:22",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "실제 수신본문 열람; 항목별 검토범위 참조. 검색은 서지/시행일/원문링크 확인과 구별."
+    },
+    {
+      "url": "https://www.law.go.kr/LSW/admRulLsInfoR.do?admRulSeq=2100000197953&languageType=KO&chrClsCd=010202",
+      "requested_at": "2026-10-18T16:46:26.957378+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "admrul:2100000197953",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/657eac8019d8ccb2e908.raw",
+      "sha256": "293563ad28646ff06bc720989dba5e88b235dee2e54caa5ca3af574aa96a2d3b",
+      "id": "sources:23",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "실제 수신본문 열람; 항목별 검토범위 참조. 검색은 서지/시행일/원문링크 확인과 구별."
+    },
+    {
+      "url": "https://www.law.go.kr/LSW/admRulLsInfoR.do?admRulSeq=2100000234560&languageType=KO&chrClsCd=010202",
+      "requested_at": "2026-10-18T16:46:27.077403+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "admrul:2100000234560",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/ad2a7173c74b3131429f.raw",
+      "sha256": "5ce211243691c662c15f4be3fd0de5508a7f47096959185b647274a990a7584a",
+      "id": "sources:24",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "실제 수신본문 열람; 항목별 검토범위 참조. 검색은 서지/시행일/원문링크 확인과 구별."
+    },
+    {
+      "url": "https://www.law.go.kr/LSW/admRulLsInfoR.do?admRulSeq=2100000271088&languageType=KO&chrClsCd=010202",
+      "requested_at": "2026-10-18T16:46:27.109129+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "admrul:2100000271088",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/27f582c9b9a718ad7b2f.raw",
+      "sha256": "a2125bf680fcd6da183f7b4c3b707bd43c16521cd92ffbd9910600c56b73e833",
+      "id": "sources:25",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "고시 제목/시행일만 있는 PDF뷰어 frame. 장애판정 본문은 attach:2 원PDF로 실제 열람."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290113&type=XML",
+      "requested_at": "2026-10-18T16:47:22.866021+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "law:290113",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/6b8d01809b2fec496ce4.raw",
+      "sha256": "dd6228b88d970e33b979d0d9e59c5b74f6f45958c01dcab79e034334365fbc92",
+      "id": "more:0",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "실제 수신본문 열람; 항목별 검토범위 참조. 검색은 서지/시행일/원문링크 확인과 구별."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=265473&type=XML",
+      "requested_at": "2026-10-18T16:47:22.866885+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "law:265473",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/737adc4c270d39e7a7c4.raw",
+      "sha256": "77c5737f2af92f4f9e0e5a4878457a93a92eea15913d41d28a84c5865d613966",
+      "id": "more:1",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "실제 수신본문 열람; 항목별 검토범위 참조. 검색은 서지/시행일/원문링크 확인과 구별."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=admrul&type=XML&query=%EC%9A%94%EC%96%91%EA%B8%89%EC%97%AC%EC%9D%98%20%EC%A0%81%EC%9A%A9%EA%B8%B0%EC%A4%80%20%EB%B0%8F%20%EB%B0%A9%EB%B2%95%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%84%B8%EB%B6%80%EC%82%AC%ED%95%AD&display=100",
+      "requested_at": "2026-10-18T16:47:22.867568+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "search:요양급여의 적용기준 및 방법에 관한 세부사항",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/d0ee4234c5e607fae2b4.raw",
+      "sha256": "8d8a92a8d33a831a201d2d8b27183637f3647892cb9811e429674669e5f00d10",
+      "id": "more:2",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "실제 수신본문 열람; 항목별 검토범위 참조. 검색은 서지/시행일/원문링크 확인과 구별."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=admrul&type=XML&query=%EA%B1%B4%EA%B0%95%EB%B3%B4%ED%97%98%20%ED%96%89%EC%9C%84%20%EA%B8%89%EC%97%AC%20%EB%B9%84%EA%B8%89%EC%97%AC%20%EB%AA%A9%EB%A1%9D%ED%91%9C&display=100",
+      "requested_at": "2026-10-18T16:47:22.868246+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "search:건강보험 행위 급여 비급여 목록표",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/cdfeb39766cff0a0cf25.raw",
+      "sha256": "a8e9ece4f3dde45b2de37dad053761f31de47d5d3f75ccd626c68092cf603fe7",
+      "id": "more:3",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "실제 수신본문 열람; 항목별 검토범위 참조. 검색은 서지/시행일/원문링크 확인과 구별."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=admrul&type=XML&query=%EC%83%81%EA%B8%89%EC%A2%85%ED%95%A9%EB%B3%91%EC%9B%90%20%EC%99%B8%EB%9E%98%20%EA%B2%BD%EC%A6%9D&display=100",
+      "requested_at": "2026-10-18T16:47:22.868728+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "search:상급종합병원 외래 경증",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/723e5dbf2d7fc00d3a21.raw",
+      "sha256": "ebdeb73e717f2201900674df9d4d8d919275ab4deb9f3d82a6f91281e502e6a1",
+      "id": "more:4",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "실제 수신본문 열람; 항목별 검토범위 참조. 검색은 서지/시행일/원문링크 확인과 구별."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=admrul&type=XML&query=%EC%9D%98%EB%A3%8C%EA%B8%B0%EA%B4%80%EC%9D%98%20%EC%A0%9C%EC%A6%9D%EB%AA%85%EC%88%98%EC%88%98%EB%A3%8C&display=100",
+      "requested_at": "2026-10-18T16:47:22.869478+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "search:의료기관의 제증명수수료",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/f469d14d2bafda5aa2fa.raw",
+      "sha256": "2488304768d6dc9908c0fedb058c8609c33e1b33b60758ae1e56b5711309db13",
+      "id": "more:5",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "실제 수신본문 열람; 항목별 검토범위 참조. 검색은 서지/시행일/원문링크 확인과 구별."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=admrul&type=XML&query=%EC%9E%A5%EC%95%A0%EC%A0%95%EB%8F%84%ED%8C%90%EC%A0%95%EA%B8%B0%EC%A4%80&display=100",
+      "requested_at": "2026-10-18T16:47:24.934318+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "search:장애정도판정기준",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/e277c8c3e9892d89d5b7.raw",
+      "sha256": "87a90a73dfe6cb26a8bf4754f6788d9e95ca96e6d23d4026e5f7155a716e0d02",
+      "id": "more:6",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "실제 수신본문 열람; 항목별 검토범위 참조. 검색은 서지/시행일/원문링크 확인과 구별."
+    },
+    {
+      "url": "https://www.google.com/search?q=site%3Anhis.or.kr%202026%20%EB%B3%B8%EC%9D%B8%EB%B6%80%EB%8B%B4%EC%83%81%ED%95%9C%EC%95%A1%2090%20117",
+      "requested_at": "2026-10-18T16:47:25.220070+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "search:2026cap",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/7c713c62c78524db2eba.raw",
+      "sha256": "c7409a7b2b5ec6ec8b53fc3f7f6cc92d301ad255f2e29268879e624bd23af945",
+      "id": "more:7",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "실제 수신본문 열람; 항목별 검토범위 참조. 검색은 서지/시행일/원문링크 확인과 구별."
+    },
+    {
+      "url": "https://www.google.com/search?q=site%3Aacrc.go.kr%20%EC%A7%84%EB%A3%8C%20%EC%A4%91%EC%9D%B8%20%ED%99%98%EC%9E%90%20%EC%84%A0%EB%AC%BC%20%EB%B3%91%EC%9B%90%20%EC%98%88%EC%95%BD%20%EB%B6%80%EC%A0%95%EC%B2%AD%ED%83%81",
+      "requested_at": "2026-10-18T16:47:25.374700+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "search:ACRC",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/fdd9dfc123d8f3dcd5e8.raw",
+      "sha256": "3607834ce1ac5c59b8394c45ca121ebdc833aae6b541ee4f526f6ad8d7e5862c",
+      "id": "more:8",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "실제 수신본문 열람; 항목별 검토범위 참조. 검색은 서지/시행일/원문링크 확인과 구별."
+    },
+    {
+      "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=95830869",
+      "requested_at": "2026-10-18T16:47:48.476228+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "file:95830869",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/1681d8719b980cb43670.raw",
+      "sha256": "63ec9a9696c20e387bce3706ffe0138e7392d568b588c9eb43fa48b0245231c8",
+      "id": "attach:0",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "실제 HWP5 별표를 OLE/DEFLATE로 추출: 제증명료5/6/7/25~29항/진찰검사비 제외각주 열람"
+    },
+    {
+      "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=136709629",
+      "requested_at": "2026-10-18T16:47:48.477186+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "file:136709629",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/5c9203e83934f9fb15af.raw",
+      "sha256": "5268a0164dba053c6712c26533c31d3aeb7ce437936fb990e7ead4ccfc031718",
+      "id": "attach:1",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "실제55쪽 성인KTAS 별표1 PDF의 심정지/절단/화상 및 중증도조합 열람; 소아별표2 전문과구별"
+    },
+    {
+      "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=160978255",
+      "requested_at": "2026-10-18T16:47:48.477923+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "file:160978255",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/4845018e3bc231317a15.raw",
+      "sha256": "8b8950fccf1d25d0bed557b1d30393b0123a2614e36ed7197fcee8b522529b44",
+      "id": "attach:2",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "실제39쪽 장애판정기준PDF 제1장 대상/진단전문의/진단시기/재판정 및 췌장관련부분 열람"
+    },
+    {
+      "url": "https://www.law.go.kr/LSW/admRulLsInfoR.do?admRulSeq=2100000286002&languageType=KO&chrClsCd=010202",
+      "requested_at": "2026-10-18T16:48:07.432661+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "admrul:2100000286002",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/f4955fd9ce49376a9a0c.raw",
+      "sha256": "e16f0bd920dbcf36e02b97adca08eac2c5fdb016cf94e0a4abc24395a7500a7d",
+      "id": "supp:0",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "현재 고시 제목/번호/시행일·첨부 버튼 안내만 있는 셸. 통합 수가기준 본문열람 아님. 해당 개정 첨부는 annex:0/1로 실제 확인."
+    },
+    {
+      "url": "https://www.law.go.kr/LSW/admRulLsInfoR.do?admRulSeq=2100000285728&languageType=KO&chrClsCd=010202",
+      "requested_at": "2026-10-18T16:48:07.433628+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "admrul:2100000285728",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/a629ff029d33b3ee7a81.raw",
+      "sha256": "84ee2eee546888ce0bbe15bfc57bcb5233a08ec92730ec1d09999833c7152adb",
+      "id": "supp:1",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "현재 고시 제목/번호/시행일·첨부 버튼 안내만 있는 셸. 통합 수가기준 본문열람 아님. 해당 개정 첨부는 annex:0/1로 실제 확인."
+    },
+    {
+      "url": "https://www.bing.com/search?q=site%3Anhis.or.kr%202026%EB%85%84%20%EB%B3%B8%EC%9D%B8%EB%B6%80%EB%8B%B4%EC%83%81%ED%95%9C%EC%95%A1",
+      "requested_at": "2026-10-18T16:48:07.434429+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "bing:site:nhis.or.kr 2026년 본인부담상한액",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/1a981df69f28cef825a5.raw",
+      "sha256": "54f0ebcf5ad948e5f2c71900dd033d21be7e26c3325ce7f87de317b013a35b40",
+      "id": "supp:2",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "HTTP200 검색결과이나 요청 한국어 주제와 무관한 해외사이트 결과. 한국제도 근거로 사용하지 않음."
+    },
+    {
+      "url": "https://www.bing.com/search?q=site%3Aacrc.go.kr%20%EC%A7%84%EB%A3%8C%20%EC%A4%91%EC%9D%B8%20%ED%99%98%EC%9E%90%20%EC%84%A0%EB%AC%BC",
+      "requested_at": "2026-10-18T16:48:07.434901+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "bing:site:acrc.go.kr 진료 중인 환자 선물",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/35ee371c0c1d0a88f4ac.raw",
+      "sha256": "fa3a20ce6e67b275cec0f666d733fc00aef3c19774a78678696f927105613899",
+      "id": "supp:3",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "HTTP200 검색결과이나 요청 한국어 주제와 무관한 해외사이트 결과. 한국제도 근거로 사용하지 않음."
+    },
+    {
+      "url": "https://www.bing.com/search?q=site%3Aacrc.go.kr%20%EB%B3%91%EC%9B%90%20%EC%98%88%EC%95%BD%20%EC%88%9C%EC%84%9C%20%EB%B6%80%EC%A0%95%EC%B2%AD%ED%83%81",
+      "requested_at": "2026-10-18T16:48:07.435883+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "bing:site:acrc.go.kr 병원 예약 순서 부정청탁",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/a27edd8a141299e83dec.raw",
+      "sha256": "9f5fb51ae47f40b183df3e6006c2803df1552793265df4b6bd5663eea0256cad",
+      "id": "supp:4",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "HTTP200 검색결과이나 요청 한국어 주제와 무관한 해외사이트 결과. 한국제도 근거로 사용하지 않음."
+    },
+    {
+      "url": "https://www.mohw.go.kr/board.es?mid=a10503000000&bid=0027&act=list&keyField=TITLE&keyWord=%EB%B3%B8%EC%9D%B8%EB%B6%80%EB%8B%B4%EC%83%81%ED%95%9C",
+      "requested_at": "2026-10-18T16:48:07.436632+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "MOHWsearch",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/6e05528e27ab88b8d818.raw",
+      "sha256": "4c5a635c9b03bd3f7951268a950cccb1e843987670393d6341f438a6956a4f66",
+      "id": "supp:5",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "복지부 실제 제목검색 목록/등록일/원문 링크; 보도본문과구별."
+    },
+    {
+      "url": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000286002",
+      "requested_at": "2026-10-18T16:49:01.478626+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "wrapper:2100000286002",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/ff895cb52addac06d1e8.raw",
+      "sha256": "f210af8be9de9e2769beafdb2acf8a6c591316756d305d69d37d89c05f8eccda",
+      "id": "depend:0",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "법제처 실제 외부frame/JS·첨부목록 버튼. 보험급여/수가 통합본문확인 아님."
+    },
+    {
+      "url": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000285728",
+      "requested_at": "2026-10-18T16:49:01.479681+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "wrapper:2100000285728",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/40e7dac28abb2021435a.raw",
+      "sha256": "a4527acd71bb7c1a1b8d856ea0c2afee4b07d20494e2690c88fca78db1e4c5a9",
+      "id": "depend:1",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "법제처 실제 외부frame/JS·첨부목록 버튼. 보험급여/수가 통합본문확인 아님."
+    },
+    {
+      "url": "https://www.mohw.go.kr/board.es?mid=a10503000000&bid=0027&act=view&list_no=1491727",
+      "requested_at": "2026-10-18T16:49:01.480212+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "MOHW2026refund",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/15d06e6415b677ec7395.raw",
+      "sha256": "b0ebf58ac95da741ae7c5520e46ce2a8f83f4384501b22ac7be89a5e69d6ff39",
+      "id": "depend:2",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "2026-08-30 복지부 실제 보도본문:2025진료건환급/지급동의계좌자동/체납공제10-08예정; 2026상한표는 final:0 PDF 확인."
+    },
+    {
+      "url": "https://www.mohw.go.kr/board.es?mid=a10503000000&bid=0027&act=view&list_no=1489431",
+      "requested_at": "2026-10-18T16:49:01.482346+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "MOHWdeduction",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/c1052fcdd5a008f421e0.raw",
+      "sha256": "384067e71287491fa9be23095adb3491e08bb640ca8d9fc6747937f779376734",
+      "id": "depend:3",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "2026-03-12 국회통과 보도 실제본문. 당시법안 상태이며 현행은 sources:3 법44③/부칙과 대조."
+    },
+    {
+      "url": "https://www.acrc.go.kr/board.es?mid=a10502120000&bid=130&act=list&keyField=TITLE&keyWord=%EC%9D%98%EC%82%AC",
+      "requested_at": "2026-10-18T16:49:01.484520+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "ACRCquestions",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/4c2e787e17447788523e.raw",
+      "sha256": "8862f09b8c943be5841e53b3a7adc333fd43862532c5368e36af88ae496b5ec9",
+      "id": "depend:4",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "구주소 페이지준비중 응답. 권익위 답변 미확인; 올바른메뉴 closure:0/cases로후속확인."
+    },
+    {
+      "url": "https://www.mohw.go.kr/boardDownload.es?bid=0027&list_no=1491727&seq=2",
+      "requested_at": "2026-10-18T16:49:42.563615+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "MOHWrefundPDF",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/2f51e779fe2566c948d9.raw",
+      "sha256": "1abdc0c0542b4097da2b0d1a203296e34d3c7339543d5543dd4099962ef792c0",
+      "id": "final:0",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "실제 복지부 2026-08-30 첨부PDF 전문 중 본문·붙임1 연도별상한표/2026행/신청방법 열람.2025환급과2026상한구분."
+    },
+    {
+      "url": "https://www.law.go.kr/LSW/js/admRul/admRulInfoP.js",
+      "requested_at": "2026-10-18T16:49:42.564661+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "admrulJS",
+      "status": "access_failed",
+      "error": "HTTP Error 404: Not Found",
+      "id": "final:1",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "실제 접근실패; 본문 확인 아님. 후속 성공과 별도 보존."
+    },
+    {
+      "url": "https://www.acrc.go.kr/board.es?mid=a10502120000&bid=130&act=list&keyField=TITLE&keyWord=%EC%84%A0%EB%AC%BC",
+      "requested_at": "2026-10-18T16:49:42.565260+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "ACRCgifts",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/3c5de92fbe508803027f.raw",
+      "sha256": "8862f09b8c943be5841e53b3a7adc333fd43862532c5368e36af88ae496b5ec9",
+      "id": "final:2",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "구주소 페이지준비중. 실제 권익위 유권해석 아님."
+    },
+    {
+      "url": "https://www.mohw.go.kr/boardDownload.es?bid=0027&list_no=1491727&seq=2",
+      "requested_at": "2026-10-18T16:49:51.147946+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "MOHWrefundPDF",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/2f51e779fe2566c948d9.raw",
+      "sha256": "1abdc0c0542b4097da2b0d1a203296e34d3c7339543d5543dd4099962ef792c0",
+      "id": "js:0",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "실제 복지부 2026-08-30 첨부PDF 전문 중 본문·붙임1 연도별상한표/2026행/신청방법 열람.2025환급과2026상한구분."
+    },
+    {
+      "url": "https://www.law.go.kr/LSW/js/admrul/admrulPopLayer.js",
+      "requested_at": "2026-10-18T16:49:51.148842+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "admrulJS",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/206591bed8a64b67e2f6.raw",
+      "sha256": "0172fe497a22a09f1cfbe95e07fd77c48ab1c0ec96df73be5abb598c094a08e8",
+      "id": "js:1",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "사이트 JS 수신/실패; 원자료 첨부 경로를 찾는 기술정보만. 의료 사실 근거 아님."
+    },
+    {
+      "url": "https://www.acrc.go.kr/board.es?mid=a10502120000&bid=130&act=list&keyField=TITLE&keyWord=%EC%84%A0%EB%AC%BC",
+      "requested_at": "2026-10-18T16:49:51.149445+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "ACRCgifts",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/3c5de92fbe508803027f.raw",
+      "sha256": "8862f09b8c943be5841e53b3a7adc333fd43862532c5368e36af88ae496b5ec9",
+      "id": "js:2",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "구주소 페이지준비중. 실제 권익위 유권해석 아님."
+    },
+    {
+      "url": "https://www.law.go.kr/LSW/js/admrul/admrul.js",
+      "requested_at": "2026-10-18T16:50:36.010880+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "js:admrul.js",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/99686244fe9d4830353c.raw",
+      "sha256": "ccb4e276a51fc5e41ffead40f8327f10160739f24aaf00d548c214e687667398",
+      "id": "jsmore:0",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "법제처JS 첨부목록주소 확인만. 의료제도 사실근거 아님."
+    },
+    {
+      "url": "https://www.law.go.kr/LSW/js/admrul/admrulJo.js",
+      "requested_at": "2026-10-18T16:50:36.011835+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "js:admrulJo.js",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/f3be09af84631735ae64.raw",
+      "sha256": "9b5c09daf7142bdc19c917503c823d6626ff09c3d77ba83dbdac73df2a43df7a",
+      "id": "jsmore:1",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "법제처JS 첨부목록주소 확인만. 의료제도 사실근거 아님."
+    },
+    {
+      "url": "https://www.law.go.kr/LSW/admRulAttFlList.do?admRulSeq=2100000286002",
+      "requested_at": "2026-10-18T16:50:59.025974+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "files:2100000286002",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/c690b97904bfce3cecb9.raw",
+      "sha256": "22041ac77f9a8d452b10347c078f22481a6847c7f65fa432f6a920b9f1978810",
+      "id": "lists:0",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "첨부목록 실제원문: 최신2026-205/202의 개정고시 파일 링크. 통합판 본문은 아님."
+    },
+    {
+      "url": "https://www.law.go.kr/LSW/admRulAttFlList.do?admRulSeq=2100000285728",
+      "requested_at": "2026-10-18T16:50:59.027104+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "files:2100000285728",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/9f252f556678dc7c0d6d.raw",
+      "sha256": "c73ba1b47153cf610b169102f2ff9104537bb921e462435518bd89ab1bd00b85",
+      "id": "lists:1",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "첨부목록 실제원문: 최신2026-205/202의 개정고시 파일 링크. 통합판 본문은 아님."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=admrul&type=XML&query=%EB%B3%B8%EC%9D%B8%EC%9D%BC%EB%B6%80%EB%B6%80%EB%8B%B4%EA%B8%88&display=100",
+      "requested_at": "2026-10-18T16:50:59.027785+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "search:본인일부부담금",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/983b40c4d1a29a1522a3.raw",
+      "sha256": "f3002d9c41ca214b68149524ff542fdf4f4f382e78040db50254ba8db2935cb4",
+      "id": "lists:2",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "실제 수신본문 열람; 항목별 검토범위 참조. 검색은 서지/시행일/원문링크 확인과 구별."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=admrul&type=XML&query=%EC%9A%94%EC%96%91%EA%B8%89%EC%97%AC%20%EC%A0%81%EC%9A%A9%EA%B8%B0%EC%A4%80&display=100",
+      "requested_at": "2026-10-18T16:50:59.028356+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "search:요양급여 적용기준",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/04dd4a158a63cebea1f7.raw",
+      "sha256": "bed064e020c2d38f2fd1bfd88c0720382a5124cbdeab2c58df25102190248d87",
+      "id": "lists:3",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "실제 수신본문 열람; 항목별 검토범위 참조. 검색은 서지/시행일/원문링크 확인과 구별."
+    },
+    {
+      "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170125701",
+      "requested_at": "2026-10-18T16:51:25.801183+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "amendPDF:170125701",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/fc5e636c37475190683f.raw",
+      "sha256": "c8dcb1aa2287a2008c668b374fae74ef63ed65efb89338b7bd4271bd34aac7f5",
+      "id": "annex:0",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "실제 최신개정PDF 전문.2026-205는CLDN18검사/2026-202는복막수가 변경·10-01시행으로, 임플란트전체급여조건/경증외래고시를 확인한 자료 아님."
+    },
+    {
+      "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169850175",
+      "requested_at": "2026-10-18T16:51:25.802113+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "amendPDF:169850175",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/b2508c014f9f46027389.raw",
+      "sha256": "960c254b35b4741a5e7857dac434691c5294b522cba453133624b3c05f143bc5",
+      "id": "annex:1",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "실제 최신개정PDF 전문.2026-205는CLDN18검사/2026-202는복막수가 변경·10-01시행으로, 임플란트전체급여조건/경증외래고시를 확인한 자료 아님."
+    },
+    {
+      "url": "https://www.mohw.go.kr/board.es?mid=a10503000000&bid=0027&act=list&keyField=TITLE&keyWord=%EC%9E%84%ED%94%8C%EB%9E%80%ED%8A%B8",
+      "requested_at": "2026-10-18T16:51:25.802832+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "MOHW:임플란트",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/990f27d49439885e97c4.raw",
+      "sha256": "6e95b7e471e5ebbe5948a850bff2eea3db420101f7c39b3321ab6880867c2806",
+      "id": "annex:2",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "실제 수신본문 열람; 항목별 검토범위 참조. 검색은 서지/시행일/원문링크 확인과 구별."
+    },
+    {
+      "url": "https://www.mohw.go.kr/board.es?mid=a10503000000&bid=0027&act=list&keyField=TITLE&keyWord=%EA%B2%BD%EC%A6%9D",
+      "requested_at": "2026-10-18T16:51:25.803334+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "MOHW:경증",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/17ddb150e1f590a0acef.raw",
+      "sha256": "484d470f5676322e664a7365310402735d59212d61554408dbb90506b5cf71c4",
+      "id": "annex:3",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "실제 수신본문 열람; 항목별 검토범위 참조. 검색은 서지/시행일/원문링크 확인과 구별."
+    },
+    {
+      "url": "https://www.mohw.go.kr/board.es?mid=a10503000000&bid=0027&act=list&keyField=TITLE&keyWord=%EB%B3%B8%EC%9D%B8%ED%99%95%EC%9D%B8",
+      "requested_at": "2026-10-18T16:51:25.803844+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "MOHW:본인확인",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/4645f00b489bbe5d8520.raw",
+      "sha256": "a1d16e16dc41e017d39f1bb79109f1ec6af24090ff8199c9e496ef542fc06a23",
+      "id": "annex:4",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "실제 수신본문 열람; 항목별 검토범위 참조. 검색은 서지/시행일/원문링크 확인과 구별."
+    },
+    {
+      "url": "https://www.acrc.go.kr/",
+      "requested_at": "2026-10-18T16:51:54.219260+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "ACRChome",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/7dd61a6d2d8dfbea6df3.raw",
+      "sha256": "314c0aad08cb01a28d46337b8bf968a6fbfac0394cf6c33715fd0cf4163cc604",
+      "id": "extra:0",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "실제 수신본문 열람; 항목별 검토범위 참조. 검색은 서지/시행일/원문링크 확인과 구별."
+    },
+    {
+      "url": "https://www.nhis.or.kr/nhis/policy/wbhada14200m01.do",
+      "requested_at": "2026-10-18T16:51:54.220109+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "NHIStopiccap",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/56179468486e7df0a63f.raw",
+      "sha256": "db9da28911112d1f5ebb0a904e22f03cd9a5a144d22ff858ec38d1cde5a601dd",
+      "id": "extra:1",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "현재 공단URL 실제 제도안내 본문이나 상한금액표는2024/사전급여예시2024까지만.2026금액근거로사용안함; 제외항목·신청방식 확인."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=admrul&type=XML&query=%EB%B3%B8%EC%9D%B8%20%EC%97%AC%EB%B6%80%20%EB%B0%8F%20%EC%9E%90%EA%B2%A9%20%ED%99%95%EC%9D%B8&display=100",
+      "requested_at": "2026-10-18T16:51:54.220736+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "search:IDexceptions",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/d8014fe1bd110b013665.raw",
+      "sha256": "04fbd2a96c127d71887da34f63cd880cfa17bc9e7f0084fe1e7e563f839bc403",
+      "id": "extra:2",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "실제 수신본문 열람; 항목별 검토범위 참조. 검색은 서지/시행일/원문링크 확인과 구별."
+    },
+    {
+      "url": "https://www.mohw.go.kr/board.es?mid=a10503000000&bid=0027&act=view&list_no=1484121",
+      "requested_at": "2026-10-18T16:52:23.678567+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "implant2025",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/f69863434da95802744f.raw",
+      "sha256": "0a8e447e7f2e5a868a7ee53c3ded2a9941bdb2fedbee3d87d2c8ce7bfb6972e6",
+      "id": "last:0",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "복지부2024-12-27 실제 건정심 보도본문:임플란트지르코니아급여확대 의결.시행확정고시/2026통합수가와구별."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=admrul&type=XML&query=%EA%B2%BD%EC%A6%9D%EC%A7%88%ED%99%98&display=100",
+      "requested_at": "2026-10-18T16:52:23.679440+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "search:mild",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/e978ab692b337389c0d1.raw",
+      "sha256": "456bd7eb20ed4598c75ee0a440c57ebd9f24597b7e5835ef7836d77622fa7020",
+      "id": "last:1",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "실제 수신본문 열람; 항목별 검토범위 참조. 검색은 서지/시행일/원문링크 확인과 구별."
+    },
+    {
+      "url": "https://www.acrc.go.kr/menu.es?mid=a10503040000",
+      "requested_at": "2026-10-18T16:52:34.774607+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "ACRCqa",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/3d3207c74a297179d25d.raw",
+      "sha256": "0b3c43f6d807b924fe9fb6bf031e90d0ec770619e3343e3e666f6b9be21fba8b",
+      "id": "closure:0",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "올바른 권익위 질의응답 메뉴/검색폼 파라미터·목록을 실제 확인. 답변 본문은 cases 참조."
+    },
+    {
+      "url": "https://www.law.go.kr/LSW/admRulLsInfoR.do?admRulSeq=2100000258134&languageType=KO&chrClsCd=010202",
+      "requested_at": "2026-10-18T16:52:34.775456+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "IDgosi",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/7fdb7442f88bee52a6c0.raw",
+      "sha256": "4c32b6a4597301efd5363afe8e5c87cd54be9c48ac2e7437e5b97938faeb5907",
+      "id": "closure:1",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "건보 본인확인고시2025-70 실제3조 19세미만/6개월/약국/의뢰회송/중증장애/장기요양/임신/정신입원/특정산정특례 예외 및7-01부칙 열람."
+    },
+    {
+      "url": "https://www.acrc.go.kr/board.es?mid=a10503040000&bid=130&act=list&keyField=TITLE&keyWord=%EB%B3%91%EC%9B%90",
+      "requested_at": "2026-10-18T16:52:56.670713+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "ACRCsearch:병원",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/4af047c069abed4ea915.raw",
+      "sha256": "1b92c30382dc4c212bfffd9756965bfbe39452e7d16d01438628487360a1c790",
+      "id": "acrc:0",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "올바른메뉴이나 keyField=TITLE은 검색어를반영하지않은 일반목록. 검색0건/해석부재로결론내리지않음."
+    },
+    {
+      "url": "https://www.acrc.go.kr/board.es?mid=a10503040000&bid=130&act=list&keyField=TITLE&keyWord=%EC%9D%98%EC%82%AC",
+      "requested_at": "2026-10-18T16:52:56.671858+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "ACRCsearch:의사",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/3f49017aebc31ca93171.raw",
+      "sha256": "1e01fb9e622d9d893a9712543f412e7cf3ebb289cdaaaafc672deda19114ba93",
+      "id": "acrc:1",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "올바른메뉴이나 keyField=TITLE은 검색어를반영하지않은 일반목록. 검색0건/해석부재로결론내리지않음."
+    },
+    {
+      "url": "https://www.acrc.go.kr/board.es?mid=a10503040000&bid=130&act=list&keyField=TITLE&keyWord=%ED%99%98%EC%9E%90",
+      "requested_at": "2026-10-18T16:52:56.675358+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "ACRCsearch:환자",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/241cf69aee3676d16be6.raw",
+      "sha256": "0f9adb1bf560c45b6b6dae02323b64c6c0fc9a93fe3aac111ca6c76786a05f01",
+      "id": "acrc:2",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "올바른메뉴이나 keyField=TITLE은 검색어를반영하지않은 일반목록. 검색0건/해석부재로결론내리지않음."
+    },
+    {
+      "url": "https://www.acrc.go.kr/board.es?mid=a10503040000&bid=130&act=list&keyField=T&keyWord=%EB%B3%91%EC%9B%90",
+      "requested_at": "2026-10-18T16:53:35.593613+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "ACRCsearch:병원",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/cc31279be7c14a205f20.raw",
+      "sha256": "92c5ded6c89047ddd2fda62f64aa91c2c50c3b17111b82457ceaed7332063353",
+      "id": "acrc-t:0",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "keyField=T를 쓴 실제 키워드검색목록/답변 링크. 본문은 cases로 구별."
+    },
+    {
+      "url": "https://www.acrc.go.kr/board.es?mid=a10503040000&bid=130&act=list&keyField=T&keyWord=%EC%9D%98%EC%82%AC",
+      "requested_at": "2026-10-18T16:53:35.594597+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "ACRCsearch:의사",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/9f03389a6bb834f2cac3.raw",
+      "sha256": "082a508ebcacd516cf222990aabc970f28e713ad37819db54df74c87521a5d53",
+      "id": "acrc-t:1",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "keyField=T를 쓴 실제 키워드검색목록/답변 링크. 본문은 cases로 구별."
+    },
+    {
+      "url": "https://www.acrc.go.kr/board.es?mid=a10503040000&bid=130&act=list&keyField=T&keyWord=%ED%99%98%EC%9E%90",
+      "requested_at": "2026-10-18T16:53:35.595322+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "ACRCsearch:환자",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/60e8803606a230fa005e.raw",
+      "sha256": "a52af4ba393a19621b38e1e4afc0e064abed898f21e2013ffbbae819ca01d5cc",
+      "id": "acrc-t:2",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "keyField=T를 쓴 실제 키워드검색목록/답변 링크. 본문은 cases로 구별."
+    },
+    {
+      "url": "https://www.acrc.go.kr/board.es?mid=a10503040000&bid=130&act=view&list_no=113864",
+      "requested_at": "2026-10-18T16:53:58.082967+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "ACRCcase:113864",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/78ac8dcae3de2e42f57e.raw",
+      "sha256": "b9e4fa1c311ad1dbfe4b2c3c28d6b4b9120e6f543678f63426c8d3c714465bbf",
+      "id": "cases:0",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "2026-08-04 실제권익위답변:사립대병원/퇴원후선물개별판단/직접쓴손편지사회상규/병원내규"
+    },
+    {
+      "url": "https://www.acrc.go.kr/board.es?mid=a10503040000&bid=130&act=view&list_no=87496",
+      "requested_at": "2026-10-18T16:53:58.083985+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "ACRCcase:87496",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/2d5604f366de5ed5ee55.raw",
+      "sha256": "6739ae4cbb34400ae0fde838c22ed728dcd74b1ebc78e302fb84d5c1acac8a5a",
+      "id": "cases:1",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "2025-04-09 실제권익위답변:진료중직무관련성밀접/가액범위내선물도허용되지않을수/개별판단"
+    },
+    {
+      "url": "https://www.acrc.go.kr/board.es?mid=a10503040000&bid=130&act=view&list_no=66841",
+      "requested_at": "2026-10-18T16:53:58.084539+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "ACRCcase:66841",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/54a3e0bfec3763d11cfc.raw",
+      "sha256": "34a33c5003b63f84fc4d7bec1e883ddabd11f368cc91e243c786e61488f0ae5f",
+      "id": "cases:2",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "2024-03-18 실제권익위답변:담당의퇴직때감사선물도구체관계별판단"
+    },
+    {
+      "url": "https://www.acrc.go.kr/board.es?mid=a10503040000&bid=130&act=view&list_no=97756",
+      "requested_at": "2026-10-18T16:53:58.085102+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "ACRCcase:97756",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/6b601768864990b76e62.raw",
+      "sha256": "19b7215368d6d5e97d8bae9d5f9c3c5450545c85f39c1d7715159b779b3e926f",
+      "id": "cases:3",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "2025-10-17 실제권익위답변:국립대병원공직유관단체임직원/임상교수의교원해당별도판단.당시외부강의금액은2026법령대신아님"
+    },
+    {
+      "url": "https://www.acrc.go.kr/board.es?mid=a10503040000&bid=130&act=view&list_no=15681",
+      "requested_at": "2026-10-18T16:53:58.085709+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "ACRCcase:15681",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/485bcc06cc6be3f9b846.raw",
+      "sha256": "d4894363798aa15182341435eb83fb99dd9fcf4f36eb0f2166646d63a29624f0",
+      "id": "cases:4",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "2016-10-03 실제권익위답변:직원지인핫라인우선추가예약·사회상규특별사정없으면부정청탁가능"
+    },
+    {
+      "url": "https://www.acrc.go.kr/board.es?mid=a10503040000&bid=130&act=view&list_no=19846",
+      "requested_at": "2026-10-18T16:53:58.086361+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "ACRCcase:19846",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/bd2f92fc90dcbd038055.raw",
+      "sha256": "20e5b65e05923b8f30ec76cd2978b4529cf124ffa3804484d7c599e2583e4a25",
+      "id": "cases:5",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "2017-07-12 실제권익위답변:환자음료·원활직무사교의례개별판단.옛식사3만원은현행5만원대신아님"
+    },
+    {
+      "cited_url": "https://www.hira.or.kr/rb/npay/index.do?pgmid=HIRAA030009100000",
+      "request_url": "https://www.hira.or.kr/rb/npay/index.do?pgmid=HIRAA030009100000",
+      "kind": "cited_url",
+      "requested_at_utc": "2026-10-18T16:29:01.961548+00:00",
+      "artifact": "afaeed481a2c5d1f27f350a2.raw",
+      "scope": "Prefetch only; HTTP status/content is not semantic source verification.",
+      "http_status": 200,
+      "final_url": "https://www.hira.or.kr/rb/npay/index.do?pgmid=HIRAA030009100000",
+      "content_type": "text/html;charset=utf-8",
+      "truncated": false,
+      "bytes": 155645,
+      "sha256": "498cfdac12edcfa35cd052d237af8f19c98cbc36fca276d19b15d54b2f1ceded",
+      "id": "prefetch:0",
+      "url": "https://www.hira.or.kr/rb/npay/index.do?pgmid=HIRAA030009100000",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-prefetch/afaeed481a2c5d1f27f350a2.raw",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "실제HIRA진료비확인서비스본문/대상및제외/서류·5년보존한계"
+    },
+    {
+      "cited_url": "https://www.k-medi.or.kr/",
+      "request_url": "https://www.k-medi.or.kr/",
+      "kind": "cited_url",
+      "requested_at_utc": "2026-10-18T16:29:01.962444+00:00",
+      "artifact": "8977b785b128192e0b77645c.raw",
+      "scope": "Prefetch only; HTTP status/content is not semantic source verification.",
+      "http_status": 200,
+      "final_url": "https://www.k-medi.or.kr/web/index.do;jsessionid=A66733140A8E1D6E201E9EFF44079778",
+      "content_type": "text/html;charset=UTF-8",
+      "truncated": false,
+      "bytes": 97780,
+      "sha256": "4c31aba476d3efaf8544d452b49ae49400910c7c515ac80ed2d3b8a17953c38a",
+      "id": "prefetch:1",
+      "url": "https://www.k-medi.or.kr/",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-prefetch/8977b785b128192e0b77645c.raw",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "실제중재원홈상담평일09~18/1670-2545·메뉴;기관홈이세부조정법령근거를대신하지않음"
+    },
+    {
+      "cited_url": "https://www.nhis.or.kr/static/html/wbma/c/wbmac0221.html",
+      "request_url": "https://www.nhis.or.kr/static/html/wbma/c/wbmac0221.html",
+      "kind": "cited_url",
+      "requested_at_utc": "2026-10-18T16:29:01.964014+00:00",
+      "artifact": "bc3f6c7079f0827015b1a270.raw",
+      "scope": "Prefetch only; HTTP status/content is not semantic source verification.",
+      "http_status": 200,
+      "final_url": "https://www.nhis.or.kr/static/html/wbma/c/wbmac0221.html",
+      "content_type": "text/html",
+      "truncated": false,
+      "bytes": 19523,
+      "sha256": "f63cbf4f70e1077ce26e8ceb4986d441459902e33289b11d2bf89090bd3bb8c6",
+      "id": "prefetch:2",
+      "url": "https://www.nhis.or.kr/static/html/wbma/c/wbmac0221.html",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-prefetch/bc3f6c7079f0827015b1a270.raw",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "실제공단임플란트안내 부분무치악/65세/평생2개/일반30/등록/중단횟수예외·PFM만안내하여과거재료기준일수있음을구별"
+    },
+    {
+      "cited_url": "https://www.nhis.or.kr/static/html/wbma/c/wbmac0217.html",
+      "request_url": "https://www.nhis.or.kr/static/html/wbma/c/wbmac0217.html",
+      "kind": "cited_url",
+      "requested_at_utc": "2026-10-18T16:29:01.965332+00:00",
+      "artifact": "22b816ecb0c074ce2ac256fd.raw",
+      "scope": "Prefetch only; HTTP status/content is not semantic source verification.",
+      "http_status": 200,
+      "final_url": "https://www.nhis.or.kr/static/html/wbma/c/wbmac0217.html",
+      "content_type": "text/html",
+      "truncated": false,
+      "bytes": 27949,
+      "sha256": "bcd2a7acb5d3e7ac433ba658f38b9e2417efa0144d9531ea10e0f26022bc2d67",
+      "id": "prefetch:3",
+      "url": "https://www.nhis.or.kr/static/html/wbma/c/wbmac0217.html",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-prefetch/22b816ecb0c074ce2ac256fd.raw",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "실제공단틀니안내 65세/30%/7년·심각구강변화재제작예외/진찰료와유지관리"
+    },
+    {
+      "cited_url": "https://www.hira.or.kr/npay/index.do?pgmid=HIRAA030009000000",
+      "request_url": "https://www.hira.or.kr/npay/index.do?pgmid=HIRAA030009000000",
+      "kind": "cited_url",
+      "requested_at_utc": "2026-10-18T16:29:01.965902+00:00",
+      "artifact": "6d795dea0f73daab2268cc65.raw",
+      "scope": "Prefetch only; HTTP status/content is not semantic source verification.",
+      "http_status": 200,
+      "final_url": "https://www.hira.or.kr/npay/index.do?pgmid=HIRAA030009000000",
+      "content_type": "text/html;utf-8;charset=utf-8",
+      "truncated": false,
+      "bytes": 3241,
+      "sha256": "d1878f4f30fb4659510a006db95b18324b6e507ebf4458ad738f87b2a2f17800",
+      "id": "prefetch:4",
+      "url": "https://www.hira.or.kr/npay/index.do?pgmid=HIRAA030009000000",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-prefetch/6d795dea0f73daab2268cc65.raw",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "HTTP200이나내용없는JS셸. 실제비급여가격조회/특정치과가격확인아님"
+    },
+    {
+      "cited_url": "https://www.nhis.or.kr/static/html/wbma/c/wbmac0209.html",
+      "request_url": "https://www.nhis.or.kr/static/html/wbma/c/wbmac0209.html",
+      "kind": "cited_url",
+      "requested_at_utc": "2026-10-18T16:29:01.980420+00:00",
+      "artifact": "caf5881fbe4386e341a3d9aa.raw",
+      "scope": "Prefetch only; HTTP status/content is not semantic source verification.",
+      "http_status": 200,
+      "final_url": "https://www.nhis.or.kr/static/html/wbma/c/wbmac0209.html",
+      "content_type": "text/html",
+      "truncated": false,
+      "bytes": 23737,
+      "sha256": "773cc22338821a7d4e06fce7fe4f9400c9ef58ec67600ada4c82cb71c181cd18",
+      "id": "prefetch:5",
+      "url": "https://www.nhis.or.kr/static/html/wbma/c/wbmac0209.html",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-prefetch/caf5881fbe4386e341a3d9aa.raw",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "actual_review_scope": "실제공단상한제안내이나2020까지의금액표와예시. 현행2026숫자로전용하지않음"
+    },
+    {
+      "id": "local:book/24-看病.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/book/24-看病.md",
+      "sha256": "2576eae4fdeb21f43da1efdcc609d4cbe325ff182500142de752bd1f5471eeee",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "중국대응원문/한국baseline·intro/tail/모든스냅샷·기존검토기록대조.과거formal승인재사용아님"
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch24/source.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch24/source.md",
+      "sha256": "0b6ae836472ce21a4f2d8ac949487ad2768290aea9eb1d35fd95daf825107a4d",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "중국대응원문/한국baseline·intro/tail/모든스냅샷·기존검토기록대조.과거formal승인재사용아님"
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch24/manifest.json",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch24/manifest.json",
+      "sha256": "bf5f65caa0074c42c795c834672e8015e606103baf1766cf2d11f0df7b61a306",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "중국대응원문/한국baseline·intro/tail/모든스냅샷·기존검토기록대조.과거formal승인재사용아님"
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch24/intro.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch24/intro.md",
+      "sha256": "30b281d48cf56468d6e6ec539465c42f2441ccce2803937e7f7edc7341df34de",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "중국대응원문/한국baseline·intro/tail/모든스냅샷·기존검토기록대조.과거formal승인재사용아님"
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch24/tail.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch24/tail.md",
+      "sha256": "b1e6b2bce9912b0d5365a4c13e2e759e001da095af86599a97d7256ce91cbaf3",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "중국대응원문/한국baseline·intro/tail/모든스냅샷·기존검토기록대조.과거formal승인재사용아님"
+    },
+    {
+      "id": "local:kr-harness/chapters/24/1-analysis.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/chapters/24/1-analysis.md",
+      "sha256": "1a9e02eb52ed10109fd0e7d9cf4fe111246171f21f0901d7aa9ad5381da929a3",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "중국대응원문/한국baseline·intro/tail/모든스냅샷·기존검토기록대조.과거formal승인재사용아님"
+    },
+    {
+      "id": "local:kr-harness/chapters/24/2-research.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/chapters/24/2-research.md",
+      "sha256": "001c031070fdb43347b816f2b3b5ab89885c9f9c7ccb19574ac0157300204927",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "중국대응원문/한국baseline·intro/tail/모든스냅샷·기존검토기록대조.과거formal승인재사용아님"
+    },
+    {
+      "id": "local:kr-harness/chapters/24/3-draft.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/chapters/24/3-draft.md",
+      "sha256": "8db6e184f2254b2dd2de89224004c94242166fb53ea2675c072b4498a442a294",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "중국대응원문/한국baseline·intro/tail/모든스냅샷·기존검토기록대조.과거formal승인재사용아님"
+    },
+    {
+      "id": "local:kr-harness/chapters/24/kr-fit-review.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/chapters/24/kr-fit-review.md",
+      "sha256": "477c24357f1b7cf32ab840cc865429e44c95419f61dfad73c2b7c5dad55c4559",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "중국대응원문/한국baseline·intro/tail/모든스냅샷·기존검토기록대조.과거formal승인재사용아님"
+    },
+    {
+      "id": "local:kr-harness/chapters/24/kr-fit-review.r1.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/chapters/24/kr-fit-review.r1.md",
+      "sha256": "c63933e76eed03bcdfe65cd47b32bf678a2c2c8893e26839a13b6b4204a746a3",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "중국대응원문/한국baseline·intro/tail/모든스냅샷·기존검토기록대조.과거formal승인재사용아님"
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch24/_workspace/2026-10-18-001-07ff/entry_snapshot.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch24/_workspace/2026-10-18-001-07ff/entry_snapshot.md",
+      "sha256": "fa3463eac46da56eafd3268771d61eb15dc994730421b75bdd1f0bf3e6b8060d",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "중국대응원문/한국baseline·intro/tail/모든스냅샷·기존검토기록대조.과거formal승인재사용아님"
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch24/_workspace/2026-10-18-002-9ec3/entry_snapshot.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch24/_workspace/2026-10-18-002-9ec3/entry_snapshot.md",
+      "sha256": "e7440c05d5c2bc9acad23ad22241454b9a1679adcee77b9c8e803f451e2e6e1e",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "중국대응원문/한국baseline·intro/tail/모든스냅샷·기존검토기록대조.과거formal승인재사용아님"
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch24/_workspace/2026-10-18-003-f360/entry_snapshot.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch24/_workspace/2026-10-18-003-f360/entry_snapshot.md",
+      "sha256": "eb05e03c571d1cab1e8804462fb54096f234962f3bc2f2e2e9932adeee23476f",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "중국대응원문/한국baseline·intro/tail/모든스냅샷·기존검토기록대조.과거formal승인재사용아님"
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch24/_workspace/2026-10-18-004-65d4/entry_snapshot.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch24/_workspace/2026-10-18-004-65d4/entry_snapshot.md",
+      "sha256": "ce1716bb7296edc3f0851e1a8508d9565f87f08275e9637a766961ad98bb0b16",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "중국대응원문/한국baseline·intro/tail/모든스냅샷·기존검토기록대조.과거formal승인재사용아님"
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch24/_workspace/2026-10-18-005-aeb9/entry_snapshot.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch24/_workspace/2026-10-18-005-aeb9/entry_snapshot.md",
+      "sha256": "fb14986202467983702f424395917ff45493276f84d4433ada4da53bf0c86d67",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "중국대응원문/한국baseline·intro/tail/모든스냅샷·기존검토기록대조.과거formal승인재사용아님"
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch24/_workspace/2026-10-18-006-fd86/entry_snapshot.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch24/_workspace/2026-10-18-006-fd86/entry_snapshot.md",
+      "sha256": "0cc5fd01103939f94a52a8f3e6fe9568d146cbe8e1693a55b036c9b908c9bad3",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "중국대응원문/한국baseline·intro/tail/모든스냅샷·기존검토기록대조.과거formal승인재사용아님"
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch24/_workspace/2026-10-18-007-421a/entry_snapshot.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch24/_workspace/2026-10-18-007-421a/entry_snapshot.md",
+      "sha256": "11f3c777ac88721161edceb69a163285f1020ab27f9c99e9a9d67f3c225c4ae3",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "중국대응원문/한국baseline·intro/tail/모든스냅샷·기존검토기록대조.과거formal승인재사용아님"
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch24/_workspace/2026-10-18-008-d609/entry_snapshot.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch24/_workspace/2026-10-18-008-d609/entry_snapshot.md",
+      "sha256": "c68ecd694edfb5a9142fa630ab29be5ef79cb8e4cfb61383c96779284095c6a2",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "중국대응원문/한국baseline·intro/tail/모든스냅샷·기존검토기록대조.과거formal승인재사용아님"
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch24/_workspace/2026-10-18-009-5dba/entry_snapshot.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch24/_workspace/2026-10-18-009-5dba/entry_snapshot.md",
+      "sha256": "b756a8a62c2d18ad2a34adc38de95b4ad431e417ec89a5f34ea8c588e9e53107",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "중국대응원문/한국baseline·intro/tail/모든스냅샷·기존검토기록대조.과거formal승인재사용아님"
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch24/_workspace/2026-10-18-010-fd9a/entry_snapshot.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch24/_workspace/2026-10-18-010-fd9a/entry_snapshot.md",
+      "sha256": "5775b68f693be3bf5e8c27e7c4c6f5a076ba219bca71270ec43002dcaebffc65",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "중국대응원문/한국baseline·intro/tail/모든스냅샷·기존검토기록대조.과거formal승인재사용아님"
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch24/_workspace/2026-10-18-011-c7e3/entry_snapshot.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch24/_workspace/2026-10-18-011-c7e3/entry_snapshot.md",
+      "sha256": "2634192dc1b84dcaf20f196aaf0e30d7443cd242329540c1f1d440e8a0105047",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "중국대응원문/한국baseline·intro/tail/모든스냅샷·기존검토기록대조.과거formal승인재사용아님"
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch24/_workspace/2026-10-18-012-8c24/entry_snapshot.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch24/_workspace/2026-10-18-012-8c24/entry_snapshot.md",
+      "sha256": "b53441839fff47ecc757ac79ade1f4289089f4940b81d294d3c964ccee52c2f7",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "중국대응원문/한국baseline·intro/tail/모든스냅샷·기존검토기록대조.과거formal승인재사용아님"
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch24/_workspace/2026-10-18-013-1c0e/entry_snapshot.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch24/_workspace/2026-10-18-013-1c0e/entry_snapshot.md",
+      "sha256": "05c9e64d32417e97f8c21fe87ae60b3bd56fbe1fcfda9f451ef751fbc9123710",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T16:58:39.653301+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "중국대응원문/한국baseline·intro/tail/모든스냅샷·기존검토기록대조.과거formal승인재사용아님"
+    }
+  ],
+  "collection_limitations": [
+    "ROOTprefetch는기존캐시읽기로기록/새HTTPS수집과별도.",
+    "200이라도HIRA비급여조회셸·법제처고시첨부버튼/페이지준비·무관검색은실제본문으로세지않음.",
+    "최신수가·급여기준고시는통합전문대신특정일부개정첨부만수신:해당본문직접읽되임플란트/경증전체를확인했다고주장하지않음.",
+    "공단정적임플란트PFM/상한2020·새URL상한2024안내와복지부2026표를구별.",
+    "권익위옛답변식사3만원/2025외부강의금액은2026현행령대용아님.개별사실미확인일반답변한계를보존.",
+    "본절에는원논문OR/RR/HR효과주장없음.10만원비율예시는가정급여총액계산이며실제청구액/절대위험통계가아님."
+  ]
+}

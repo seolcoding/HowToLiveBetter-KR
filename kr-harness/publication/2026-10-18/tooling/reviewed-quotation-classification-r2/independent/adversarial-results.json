@@ -1,0 +1,28 @@
+[
+  {
+    "case": "source_url_control_0x7f",
+    "loaded": false
+  },
+  {
+    "case": "source_url_control_0x85",
+    "loaded": false
+  },
+  {
+    "case": "explicit_rejected_finalizer_with_accept_word",
+    "raised": "ValueError('finalizer explicit accepting status/decision required')",
+    "candidate_created": false,
+    "assembly_created": false
+  },
+  {
+    "case": "stale_finalizer_failure_leaves_gate_success_context",
+    "raised": "ContextError('fresh finalizer context required')",
+    "context": null,
+    "assembly_exists": false
+  },
+  {
+    "case": "partial_assembly_output_failure",
+    "raised": "OSError('TEST-ONLY simulated assembly.json write failure')",
+    "candidate_created": false,
+    "assembly_created": false
+  }
+]

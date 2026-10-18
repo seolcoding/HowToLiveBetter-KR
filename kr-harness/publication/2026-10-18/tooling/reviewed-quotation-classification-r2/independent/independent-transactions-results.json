@@ -1,0 +1,45 @@
+[
+  {
+    "case": "direct_rename_failure",
+    "files": [
+      "failure.json"
+    ]
+  },
+  {
+    "case": "each_direct_fsync_position",
+    "positions": 5,
+    "all_failure_only": true
+  },
+  {
+    "case": "unknown_staged_file_preserved_owned_success_removed",
+    "foreign_hidden_stage_not_auto_consumed": true
+  },
+  {
+    "case": "assembly_rename",
+    "error": "OSError('INDEPENDENT assembly rename failure')",
+    "files": [
+      "failure.json"
+    ]
+  },
+  {
+    "case": "assembly_finalizer",
+    "error": "ValueError('finalizer explicit accepting status/decision required')",
+    "files": [
+      "failure.json"
+    ]
+  },
+  {
+    "case": "assembly_gate",
+    "error": "ContextError('upstream gate not accepted (exit 1)')",
+    "files": [
+      "failure.json"
+    ]
+  },
+  {
+    "case": "assembly_invariants",
+    "error": "ContextError('full-text number/URL/layout conservation failure')",
+    "files": [
+      "failure.json"
+    ]
+  }
+]

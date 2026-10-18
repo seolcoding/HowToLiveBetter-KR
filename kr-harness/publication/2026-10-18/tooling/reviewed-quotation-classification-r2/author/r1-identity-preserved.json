@@ -1,0 +1,34 @@
+{
+  "r1_artifacts": {
+    "candidate.patch": true,
+    "REPORT.md": true,
+    "candidate-files.json": true,
+    "upstream-runtime-port.patch": true,
+    "permanent-regressions.log": true,
+    "local-regressions-final.log": true,
+    "upstream-full.log": true,
+    "upstream-adapted-final.log": true,
+    "upstream-adapted-result.json": true,
+    "frozen-comparison.json": true,
+    "preservation-audit.json": true,
+    "baseline-frozen-audit.json": true,
+    "candidate-frozen-audit.json": true,
+    "actual-snapshot/snapshot.json": true
+  },
+  "r1_candidate_files": {
+    ".claude/skills/humanize-korean/PROVENANCE.md": true,
+    ".claude/skills/humanize-korean/references/metrics_v2.py": true,
+    ".claude/skills/humanize-korean/scripts/checks.py": true,
+    ".claude/skills/humanize-korean/scripts/quote_context.py": true,
+    ".claude/skills/humanize-korean/scripts/verify_gates.py": true,
+    "kr-harness/publication/CONTRACT.md": true,
+    "kr-harness/publication/QUOTE-CLASSIFICATION-SPEC.md": true,
+    "kr-harness/publication/scripts/humanize_publication.py": true,
+    "kr-harness/publication/scripts/tests/test_reviewed_quote_classification.py": true
+  },
+  "independently_pinned_r1_files": {
+    "candidate.patch": "4674ed5cc58708efc4071fd56d58df0a73acc22ee7e0a6038ac77b6af0e77e24",
+    "REPORT.md": "f09897b5ce6f66be025e7715a10d03433fef8eefe1fa848cf6bb4e57b732981b",
+    "artifact-sha256.json": "9455f5ae12e34cb7d494bc4b0ab8bc6c80ea85637f173e017884557a08179eda"
+  }
+}

@@ -1,0 +1,155 @@
+
+
+def prepare_test_helper(root,f,second=None):
+ """TEST-ONLY complete chapter; no real source or publication data."""
+ helper=CANDIDATE/'kr-harness/publication/scripts/humanize_publication.py'
+ text=helper.read_text();ns={'__file__':str(helper),'__name__':'TEST_ONLY_r2_helper'}
+ exec(compile(text[:text.index('parser=argparse.ArgumentParser')],str(helper),'exec'),ns)
+ ns['ROOT']=root;ns['SKILL']=SKILL
+ (root/'book-kr').mkdir(exist_ok=True)
+ source='TEST intro\n\n### 1. TEST fixture\n'+f.before
+ if second:
+  plain='- 비용: 돈은 들지 않습니다.\n- 쉽게: 확인하세요.\n- 이득: 간단한 설명입니다.\n- 비고: 확인하세요.\n'
+  if second=='gate':plain=plain.replace('간단한 설명입니다.','설명은 간단하며, 조건은 그대로입니다. '*8)
+  run=root/'_workspace/test-only-second';run.mkdir()
+  (run/'01_input.txt').write_text(plain)
+  after=plain.replace('돈은 들지 않습니다.','1원이 듭니다.') if second=='invariants' else plain
+  (run/'final.md').write_text(after+'<!-- HUMANIZE-SUMMARY\nTEST ONLY\n-->\n')
+  metrics=metrics_v2.compute_all_v2(plain);metrics['_text']=plain;metrics.update(prep.compute_route_hint(metrics));metrics.pop('_text')
+  (run/'00_metrics.json').write_bytes(encode(metrics))
+  (run/'09_finalize.json').write_bytes(encode({'status':'reject' if second=='finalizer' else 'accept','reason':'accept corrected TEST ONLY'}))
+  source+='\n### 2. TEST second\n'+plain
+  f.manifest['entries'].append({'number':2,'run_dir':'_workspace/test-only-second','input_sha256':q.digest(plain.encode()),'route':metrics['route_hint']})
+ intro,entries,tail=ns['split'](source)
+ for rel,value in [('book-kr/01-test.md',source),('source.md',source),('intro.md',intro),('tail.md',tail)]: (root/rel).write_text(value)
+ for entry,(_,original) in zip(f.manifest['entries'],entries,strict=True):
+  entry.update({'number':len([e for e in f.manifest['entries'][:f.manifest['entries'].index(entry)+1]]),'entry_sha256':ns['sha'](original)})
+  (root/entry['run_dir']/'entry_snapshot.md').write_text(original)
+ f.manifest.update({'source':'book-kr/01-test.md','source_sha256':ns['sha'](source)})
+ (root/'manifest.json').write_bytes(encode(f.manifest))
+ chapter=f.load();ctx=chapter.contexts[f.path];chapter.snapshot.close()
+ (f.run/'09_finalize.json').write_bytes(encode({'status':'accept','classification_context':ctx.report()}))
+ return ns,ctx
+
+
+class RevisionFailures(unittest.TestCase):
+ setUp=Classification.setUp
+ tearDown=Classification.tearDown
+ gate=Classification.gate
+ def failed_only(self,path):
+  self.assertTrue(path.is_dir());files=sorted(p.relative_to(path).as_posix() for p in path.rglob('*') if p.is_file())
+  self.assertEqual(files,['failure.json'],files)
+  failure=json.loads((path/'failure.json').read_text());self.assertFalse(failure['completed']);self.assertEqual(failure['status'],'failed')
+  self.assertLessEqual((path/'failure.json').stat().st_size,8192)
+  self.assertFalse(list(path.parent.glob('.quote-pending-*')))
+ def assemble(self,ns,name):
+  with contextlib.redirect_stdout(io.StringIO()):return ns['assemble'](self.root,False,'TEST-ONLY-registry.json',self.f.sha,name)
+ def test_explicit_finalizer_enums_and_conflicting_values(self):
+  ns,ctx=prepare_test_helper(self.root,self.f)
+  bad=[{'status':'reject'},{'status':'hold'},{'status':'hold_and_report'},{},{'status':True},{'status':1},{'status':None},{'status':[]},{'status':'accept','decision':'reject'},{'status':'accept','decision':'corrected'},{'decision':'accept','status':False}]
+  for index,decision in enumerate(bad):
+   value=dict(decision,reason='accept corrected but explicitly rejected TEST ONLY',classification_context=ctx.report())
+   (self.f.run/'09_finalize.json').write_bytes(encode(value));name='TEST-ONLY-rejected-'+str(index)
+   with self.assertRaisesRegex(ValueError,'finalizer'):self.assemble(ns,name)
+   self.failed_only(self.root/name)
+  for index,value in enumerate(({'status':'accept'},{'decision':'corrected'},{'status':'accept','decision':'accept'})):
+   (self.f.run/'09_finalize.json').write_bytes(encode(dict(value,classification_context=ctx.report())))
+   name='TEST-ONLY-accepted-'+str(index);self.assemble(ns,name);self.assertTrue((self.root/name/'assembly.json').is_file())
+ def test_stale_finalizer_failure_only_and_history_preserved(self):
+  ns,ctx=prepare_test_helper(self.root,self.f)
+  (self.f.run/'09_finalize.json').write_bytes(encode({'status':'accept','classification_context':{}}))
+  (self.root/'historic.md').write_text('HISTORICAL DO NOT DELETE')
+  with self.assertRaisesRegex(ValueError,'fresh finalizer'):self.assemble(ns,'TEST-ONLY-stale')
+  self.failed_only(self.root/'TEST-ONLY-stale');self.assertEqual((self.root/'historic.md').read_text(),'HISTORICAL DO NOT DELETE')
+  old=self.root/'TEST-ONLY-existing';old.mkdir();(old/'candidate.md').write_text('OLD CANDIDATE')
+  with self.assertRaises(FileExistsError):self.assemble(ns,'TEST-ONLY-existing')
+  self.assertEqual((old/'candidate.md').read_text(),'OLD CANDIDATE');self.assertEqual(list(old.iterdir()),[old/'candidate.md'])
+ def test_later_entry_failures_emit_no_partial_success(self):
+  for kind in ('finalizer','gate','invariants'):
+   temporary=Path(self.temp.name)/kind;f=Fixture(temporary);ns,_=prepare_test_helper(temporary,f,second=kind)
+   with contextlib.redirect_stdout(io.StringIO()),self.assertRaises(ValueError):ns['assemble'](temporary,False,'TEST-ONLY-registry.json',f.sha,'TEST-ONLY-later')
+   self.failed_only(temporary/'TEST-ONLY-later')
+ def test_source_url_full_control_set_rejected(self):
+  original=self.f.payload['quotations'][0]['source']['url']
+  for value in list(range(33))+list(range(127,160)):
+   self.f.payload['quotations'][0]['source']['url']='https://test.invalid/source'+chr(value)+'suffix';self.f.write()
+   with self.assertRaisesRegex(ValueError,'source HTTPS URL'):self.f.load()
+  self.f.payload['quotations'][0]['source']['url']=original;self.f.write();chapter=self.f.load();chapter.snapshot.close()
+ def test_direct_every_file_open_failure_cleans_outputs(self):
+  from unittest.mock import patch
+  chapter=self.f.load();ctx=chapter.contexts[self.f.path];_,report=self.gate(ctx.before_bytes,ctx.after_bytes,ctx)
+  for index,target in enumerate(('derived-metrics.json','classified-gates.json','context.json')):
+   real=q.os.open;fired=False
+   def fail(path,*args,**kwargs):
+    nonlocal fired
+    if path==target and not fired:fired=True;raise OSError('TEST ONLY output open failure')
+    return real(path,*args,**kwargs)
+   name='TEST-ONLY-direct-open-'+str(index)
+   with patch.object(q.os,'open',side_effect=fail),self.assertRaisesRegex(OSError,'TEST ONLY'):q.write_evidence(chapter.snapshot,name,ctx,report)
+   self.assertTrue(fired);self.failed_only(self.root/name)
+  chapter.snapshot.close()
+ def test_direct_every_fsync_failure_including_third_and_commit(self):
+  from unittest.mock import patch
+  chapter=self.f.load();ctx=chapter.contexts[self.f.path];_,report=self.gate(ctx.before_bytes,ctx.after_bytes,ctx)
+  real=q.os.fsync;observed=[]
+  with patch.object(q.os,'fsync',side_effect=lambda fd:(observed.append(fd),real(fd))[1]):q.write_evidence(chapter.snapshot,'TEST-ONLY-count-fsync',ctx,report)
+  self.assertGreaterEqual(len(observed),5)
+  for ordinal in range(1,len(observed)+1):
+   calls=0
+   def fail(fd):
+    nonlocal calls
+    calls+=1
+    if calls==ordinal:raise OSError('TEST ONLY fsync '+str(ordinal))
+    return real(fd)
+   name='TEST-ONLY-direct-fsync-'+str(ordinal)
+   with patch.object(q.os,'fsync',side_effect=fail),self.assertRaisesRegex(OSError,'TEST ONLY'):q.write_evidence(chapter.snapshot,name,ctx,report)
+   self.failed_only(self.root/name)
+  chapter.snapshot.close()
+ def test_direct_gate_warning_has_failure_only(self):
+  chapter=self.f.load();ctx=chapter.contexts[self.f.path];_,report=self.gate(ctx.before_bytes,ctx.after_bytes,ctx)
+  report['gate']['exit_code']=1;q.write_evidence(chapter.snapshot,'TEST-ONLY-warning',ctx,report)
+  self.failed_only(self.root/'TEST-ONLY-warning');self.assertEqual(json.loads((self.root/'TEST-ONLY-warning/failure.json').read_text())['gate_exit_code'],1)
+  chapter.snapshot.close()
+ def test_assembly_every_open_and_partial_write_failure(self):
+  from unittest.mock import patch
+  ns,_=prepare_test_helper(self.root,self.f)
+  for index,target in enumerate(('derived-metrics.json','classified-gates.json','context.json','candidate.md','assembly.json')):
+   real=q.os.open;fired=False
+   def fail(path,*args,**kwargs):
+    nonlocal fired
+    if path==target and not fired:fired=True;raise OSError('TEST ONLY assembly open failure')
+    return real(path,*args,**kwargs)
+   name='TEST-ONLY-assembly-open-'+str(index)
+   with patch.object(q.os,'open',side_effect=fail),self.assertRaisesRegex(OSError,'TEST ONLY'):self.assemble(ns,name)
+   self.failed_only(self.root/name)
+  real_fdopen=q.os.fdopen
+  for ordinal in range(1,6):
+   calls=0
+   class Stream:
+    def __init__(self,fd,*args,**kwargs):self.stream=real_fdopen(fd,*args,**kwargs)
+    def __enter__(self):self.stream.__enter__();return self
+    def __exit__(self,*args):return self.stream.__exit__(*args)
+    def __getattr__(self,name):return getattr(self.stream,name)
+    def write(self,data):
+     nonlocal calls
+     calls+=1
+     if calls==ordinal:self.stream.write(data[:3]);raise OSError('TEST ONLY partial write')
+     return self.stream.write(data)
+   name='TEST-ONLY-partial-write-'+str(ordinal)
+   with patch.object(q.os,'fdopen',side_effect=Stream),self.assertRaisesRegex(OSError,'TEST ONLY'):self.assemble(ns,name)
+   self.failed_only(self.root/name)
+ def test_assembly_every_fsync_failure_including_final_commit(self):
+  from unittest.mock import patch
+  ns,_=prepare_test_helper(self.root,self.f);real=q.os.fsync;observed=[]
+  with patch.object(q.os,'fsync',side_effect=lambda fd:(observed.append(fd),real(fd))[1]):self.assemble(ns,'TEST-ONLY-assembly-count')
+  self.assertGreaterEqual(len(observed),8)
+  for ordinal in range(1,len(observed)+1):
+   calls=0
+   def fail(fd):
+    nonlocal calls
+    calls+=1
+    if calls==ordinal:raise OSError('TEST ONLY assembly fsync '+str(ordinal))
+    return real(fd)
+   name='TEST-ONLY-assembly-fsync-'+str(ordinal)
+   with patch.object(q.os,'fsync',side_effect=fail),self.assertRaisesRegex(OSError,'TEST ONLY'):self.assemble(ns,name)
+   self.failed_only(self.root/name)

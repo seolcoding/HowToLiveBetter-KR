@@ -1,0 +1,55 @@
+{
+  "verdict": "PASS",
+  "scope": "Exact r2 code/CI candidate only; no source/finalizer/hold/publication approval",
+  "patch_sha256": "facfa1f6a468c71b11ede2431af3ad47c8fd13e36a0c0aa45a52ee3ee5eb6854",
+  "report_sha256": "00ff1f838c6a530955b393442f22e18cec4329692b5dff395eaa82ccf86c9f9c",
+  "artifact_index_sha256": "772e1e16b93a9d68b9616f740302fa31bc75e6988cd2e12545b90f59cdb2005d",
+  "candidate_index_sha256": "e4c14795998bf4e82abcc16955b685e3e0a3d4c8aff5d4d213a051cca83ecd87",
+  "original_findings": {
+    "R1": "resolved",
+    "R2": "resolved",
+    "R3": "resolved"
+  },
+  "tests": {
+    "permanent": {
+      "run": 35,
+      "passed": 35
+    },
+    "exact_ci_step": {
+      "run": 35,
+      "passed": 35
+    },
+    "local": {
+      "run": 33,
+      "passed": 33
+    },
+    "upstream_ten_module": {
+      "run": 397,
+      "passed": 395,
+      "skipped": 2
+    }
+  },
+  "preservation": {
+    "frozen_records_equal_to_independently_verified_original_baseline": true,
+    "input_final_spans_full_gate_report_differences": 0,
+    "total": 667,
+    "routes": {
+      "light": 644,
+      "standard": 23
+    },
+    "gate_counts": {
+      "0": 442,
+      "1": 2,
+      "missing": 223
+    },
+    "unchanged_r1_gate_metric_fidelity_files": true,
+    "full_tree_difference_matches10file_index": true
+  },
+  "actual_registry_external_copy_only": {
+    "sha256": "fcaea69ba82f916d15ea8f96d26b58c53af2407dcb82f2d0e5100de78102c89c",
+    "e24_exit": 0,
+    "e38_exit": 0,
+    "source_approval_by_this_reviewer": false
+  },
+  "review_sha256": "ef64a8aa082238caa84540f97325f9dd5b210188b7ecd9df58a600bd889708fa"
+}

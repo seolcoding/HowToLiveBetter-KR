@@ -165,3 +165,9 @@
 root458개 gate0 쌍을 고정했고 live 작업은 이어진다. 667 원입력/스냅샷 SHA 일치와644/23 route를 확인했다. 새 원고의 네 형식 빌드, EPUBCheck0/0, 실제 웹34페이지/667항·검색667·366참조와 오프라인366참조, 390px 두글자크기8검사 모두 통과했다. `root-04-validation.json`·로그·DOI감사에 재현 기준 SHA를 기록했다. 최신 fresh formal 완료는1/2/3/4/18이며 전체 목표 완료를 뜻하지 않는다.
 
 초기 제22절10항/91증적 감사 완료,23 진행 중이다. 05 전항 closure와 pure20~34를 계속한다. 두 인용은 distinct source reviewer가 정확 payload·원본·final body·실제USFA/CDC 자료를 승인했지만 운영 도구는 아직 미반영이다. 첫 코드 후보는 독립 반례로 REVISE되어 별도r2에서 수정 중이다. reject문자열 오승인·실패 산출물·URL제어문자 문제를 고치고 독립 재검토한 뒤 새 finalizer/actualgate/classified조립을 한다. main·공개 사이트에는 아직 이 체크포인트가 배포되지 않았다.
+
+## 2026-10-18 UTC — 인용 분류 r2 독립 PASS·운영68검사
+
+반려r1의 실제 세 결함을 별도r2에서 고쳤고 독립 재검토를 통과했다. PatchSHA `facfa1f6a468c71b11ede2431af3ad47c8fd13e36a0c0aa45a52ee3ee5eb6854`의10파일을 정확히 반영한 뒤 운영CI entrypoint35와 전체local68을 통과했다. 명시 finalizer enum·원자적 새산출물/실패정리·URL제어문자와 CI 연결을 포함한다. 문서의 candidate상태는 별도 날짜부운영채택설명으로 구분했다. 독립 원격CI는 다음push에서 확인한다.
+
+원frozen444 비교 외에 root가 더 최신485final(483pass/2hold)와667원입력을 고정해 기존운영/R2 전체보고서·SHA·인용범위·route차이0을 확인했다. 모든 증거는 tooling/reviewed-quotation-classification-r2/에 있다. source승인과 코드승인을 분리했고,24/38의새finalizer·명시registry gate·같은context strict조립은 A/root가 이어간다. source23/24 초기감사는 끝났고25가 진행중이다. 제5절 부분25는5approve/20revise 또는독립열람보완이며 전체45의승인으로세지않는다. 마지막전체검증 때 최신참조대상의 의미와 근거범위도 다시대조한다.

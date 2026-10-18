@@ -49,6 +49,8 @@ jobs:
         run: python3 kr-harness/publication/scripts/tests/test_protected_quote_metrics.py
       - name: 출판 원문 소개·연속 인용 회귀 검사
         run: python3 kr-harness/publication/scripts/tests/test_quote_passage.py
+      - name: 출판 검토 인용 분류·실패 증거 회귀 검사
+        run: python3 kr-harness/publication/scripts/tests/test_reviewed_quote_classification.py
       - name: 출판 연결어미·명사 구분 회귀 검사
         run: python3 kr-harness/publication/scripts/tests/test_ending_noun.py
       - name: 출판 DOI 승인 통합 회귀 검사

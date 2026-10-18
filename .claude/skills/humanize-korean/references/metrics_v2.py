@@ -764,6 +764,7 @@ def compute_all_v2(
     baseline_path: str | None = None,
     baseline_v2_path: str | None = None,
     protected_quote_texts: list[str] | None = None,
+    _eligible_quote_spans: tuple[tuple[int, int], ...] | None = None,
 ) -> dict[str, Any]:
     """Compute v1.6 metrics + v2.0 post-editese + T1~T8 signals.
 
@@ -794,6 +795,14 @@ def compute_all_v2(
                 eligible_spans.append((start,end))
                 allowed[text[start:end]]-=1
         quote_spans=eligible_spans
+    if _eligible_quote_spans is not None:
+        # Internal verified-context API. Never loaded from document metadata.
+        quote_spans=list(_eligible_quote_spans)
+        last=-1
+        for start,end in quote_spans:
+            if type(start) is not int or type(end) is not int or not (last<=start<end<=len(text)):
+                raise ValueError("invalid frozen quotation intervals")
+            last=end
     for start,end in reversed(quote_spans):
         text=text[:start]+" "+text[end:]
     base = _v1.compute_all(text, genre=genre, baseline_path=baseline_path)

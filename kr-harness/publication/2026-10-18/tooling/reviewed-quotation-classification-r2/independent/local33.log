@@ -1,0 +1,38 @@
+test_actual_differences_and_review_bound_annotations (test_doi_annotations.DoiIntegration.test_actual_differences_and_review_bound_annotations) ... ok
+test_actual_identity (test_ending_noun.EndingNoun.test_actual_identity) ... ok
+test_ambiguous_forms_still_detected (test_ending_noun.EndingNoun.test_ambiguous_forms_still_detected) ... ok
+test_author_connectives_still_warn (test_ending_noun.EndingNoun.test_author_connectives_still_warn) ... ok
+test_change_and_modality_safety (test_ending_noun.EndingNoun.test_change_and_modality_safety) ... ok
+test_fidelity_checks_unchanged (test_ending_noun.EndingNoun.test_fidelity_checks_unchanged) ... ok
+test_nouns_in_varied_contexts (test_ending_noun.EndingNoun.test_nouns_in_varied_contexts) ... ok
+test_shared_denominator_and_numerator (test_ending_noun.EndingNoun.test_shared_denominator_and_numerator) ... ok
+test_actual_ch01_entry27_identity_gate (test_footnote_decimal.FootnoteDecimalRegression.test_actual_ch01_entry27_identity_gate) ... ok
+test_actual_ch03_entry22_leading_zero_omitted_identity_gate (test_footnote_decimal.FootnoteDecimalRegression.test_actual_ch03_entry22_leading_zero_omitted_identity_gate) ... ok
+test_decimal_tails_excluded_but_sentence_markers_retained (test_footnote_decimal.FootnoteDecimalRegression.test_decimal_tails_excluded_but_sentence_markers_retained) ... ok
+test_omitted_zero_decimals_keep_real_sentence_attached_footnotes (test_footnote_decimal.FootnoteDecimalRegression.test_omitted_zero_decimals_keep_real_sentence_attached_footnotes) ... ok
+test_real_duplicate_replacing_marker_still_rejected (test_footnote_decimal.FootnoteDecimalRegression.test_real_duplicate_replacing_marker_still_rejected) ... ok
+test_real_missing_footnote_still_rejected (test_footnote_decimal.FootnoteDecimalRegression.test_real_missing_footnote_still_rejected) ... ok
+test_reviewed_folding_and_protected_structure (test_integration_continuations.IntegrationContinuations.test_reviewed_folding_and_protected_structure) ... ok
+test_actual_e10_forward_introduction_identity_passes (test_protected_quote_metrics.ProtectedQuoteMetrics.test_actual_e10_forward_introduction_identity_passes) ... ok
+test_actual_e5_protected_source_quote_identity_passes (test_protected_quote_metrics.ProtectedQuoteMetrics.test_actual_e5_protected_source_quote_identity_passes) ... ok
+test_actual_forward_quote_edit_still_rejected (test_protected_quote_metrics.ProtectedQuoteMetrics.test_actual_forward_quote_edit_still_rejected) ... ok
+test_actual_source_quote_edit_still_rejected_by_golden (test_protected_quote_metrics.ProtectedQuoteMetrics.test_actual_source_quote_edit_still_rejected_by_golden) ... ok
+test_forward_introduction_cannot_protect_a_neighbouring_rhetorical_quote (test_protected_quote_metrics.ProtectedQuoteMetrics.test_forward_introduction_cannot_protect_a_neighbouring_rhetorical_quote) ... ok
+test_new_forward_introduction_cannot_exempt_original_author_style (test_protected_quote_metrics.ProtectedQuoteMetrics.test_new_forward_introduction_cannot_exempt_original_author_style) ... ok
+test_new_output_quote_wrapper_cannot_exempt_author_style (test_protected_quote_metrics.ProtectedQuoteMetrics.test_new_output_quote_wrapper_cannot_exempt_author_style) ... ok
+test_output_cannot_expand_original_quote_to_absorb_author_style (test_protected_quote_metrics.ProtectedQuoteMetrics.test_output_cannot_expand_original_quote_to_absorb_author_style) ... ok
+test_rhetorical_quote_and_unquoted_author_comma_still_targeted (test_protected_quote_metrics.ProtectedQuoteMetrics.test_rhetorical_quote_and_unquoted_author_comma_still_targeted) ... ok
+test_same_comma_outside_attributed_quote_remains_targeted (test_protected_quote_metrics.ProtectedQuoteMetrics.test_same_comma_outside_attributed_quote_remains_targeted) ... ok
+test_speech_attribution_and_nested_ranges_share_fidelity (test_protected_quote_metrics.ProtectedQuoteMetrics.test_speech_attribution_and_nested_ranges_share_fidelity) ... ok
+test_actual_e24_honest_hold (test_quote_passage.Passage.test_actual_e24_honest_hold) ... ok
+test_actual_e30 (test_quote_passage.Passage.test_actual_e30) ... ok
+test_adjacent_sequence_and_styles (test_quote_passage.Passage.test_adjacent_sequence_and_styles) ... ok
+test_attribution_grammar (test_quote_passage.Passage.test_attribution_grammar) ... ok
+test_author_safety_and_preservation (test_quote_passage.Passage.test_author_safety_and_preservation) ... ok
+test_intervening_author_prose_breaks_sequence (test_quote_passage.Passage.test_intervening_author_prose_breaks_sequence) ... ok
+test_wrapper_attacks (test_quote_passage.Passage.test_wrapper_attacks) ... ok
+
+----------------------------------------------------------------------
+Ran 33 tests in 8.998s
+
+OK

@@ -490,15 +490,11 @@ def protected_quote_spans(text: str) -> list[tuple[int, int]]:
 
 
 def check_quotes(original: str, output: str) -> list[Failure]:
-    fails = []
-    for start,end in protected_quote_spans(original):
-        q=original[start:end]
-        if q not in output:
-            fails.append(Failure(
-                "quote_altered",
-                f"직접 인용 「{q[:30]}…」이 윤문본에 원문 그대로 없습니다 (인용 불변 철칙)",
-            ))
-    return fails
+    # Complete occurrences, scoped by field when the publication shape exists.
+    # This intentionally rejects duplicate loss even without a registry.
+    from quote_context import quote_losses
+    return [Failure("quote_altered", f"직접 인용 {key[1][:30]}… occurrence {missing}개 소실")
+            for key,missing in quote_losses(original,output)]
 
 
 # ===========================================================================

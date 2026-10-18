@@ -1,0 +1,2642 @@
+{
+  "chapter": 23,
+  "status": "pending_candidate_review",
+  "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+  "legal_cutoff": "2026-10-19 KST; 개별HTTP UTC기록",
+  "source_sha256": "03e0c77e776aad475681365762a689e52140e0344529279b506661682579184f",
+  "candidate_sha256": null,
+  "formal_kr_fit": "not_performed_not_approved",
+  "confirmed_required_corrections": [
+    {
+      "entry": 2,
+      "requirement": "관찰연구에 환자대조군·단면 포함: 모두 추적관찰 단정 정정/RR·HR혼합효과 범위 유지"
+    },
+    {
+      "entry": 3,
+      "requirement": "43.1% 분모는 30세이상 졸업인구"
+    },
+    {
+      "entry": 4,
+      "requirement": "장학연간한도/사립예외·생활비지원대상/상환예외·미래이자면제범위와 TODO 갱신"
+    },
+    {
+      "entry": 6,
+      "requirement": "시간당임금 총실근로시간 분모와 계산 연간시간 기준 일치"
+    },
+    {
+      "entry": 9,
+      "requirement": "대학생2년초과 제외/원격대·고소득대기업 예외/추가200신청·장려금 대상별 금액·자부담90%등 예외 구별"
+    },
+    {
+      "entry": 15,
+      "requirement": "특정시험일 최적간격을 원초록이 입증한 확정처방으로 제시금지"
+    },
+    {
+      "entry": "tail",
+      "requirement": "실제확보한대출·사립예외·카드고시·공무원별표 TODO 상태 갱신"
+    }
+  ],
+  "warnings": [
+    "모든22항with_warning/recommended도원저자답변/채택또는근거로종결필요",
+    "14~19효과크기는성취·기억/전이이며직접시간절약보장아님",
+    "10항수작업전체안전/14재독절대금지/19약한전이효과0 과장완화",
+    "1/3/8/12/13 남은TODO는실제미확인범위유지"
+  ],
+  "intro_review": "전22항/주제요약1~6·7~13·14~19·20~22/31절참조 대조. 중국 직칭20삭제/21~23한국국가기술자격20~22재작성·중국교육수익률DOI대체를 명시한 것은 적절하며 중국연령·위안화·직칭을 한국제도로 전용하지 않음. 한국에직칭제도없다는말은중국과동일제도가없다는범위로한정(한국직급/면허/승진제도전부부정금지). 시간효율학습연구가전부시간절약을직접측정한것으로 도입에서보장하지않음. 기존완료배너/이전KR-FIT는이번초기감사승인아님.",
+  "tail_review": "10TODO전수:1인허증15~17중학생 실제발급실무미해소(법/령문구직접확인);2상환기준2056만원총급여3037만원실제고시로해소;3이자1.70%생활비학기200만원실제고시본문·이미지표로해소/KOSAF접근실패와별개;4사립예외초중등령13의2확인으로해소;5청년별도비율원자료미확보유지;6카드2026-39운영규정본문및14/49/50표·별표4실제확인범위로해소(금액·제외예외는수정요구);7개별과정취업률화면미열람유지/기관상세와구별;8직종별KOSIS표미열람유지·현본문숫자없음;9공무원별표11/12실제XML해소;10PQI등록총수정확계수미확인유지. 미해소항목을편집으로슬쩍완료처리하지않고저자근거/범위제외결정필요.",
+  "entries": [
+    {
+      "entry": 1,
+      "status": "qualified_supported_with_warning",
+      "source_entry_sha256": "81e5a0ec4ba0cf5469686fc8fdbb65a744f5ce474f99d293cecfc22b9232a113",
+      "review_scope": "근로법64/65~70/110·근로령35·교육기본8/초중등12~15/68 확인. 15세미만(중학교재학18세미만 포함) 원칙/취직인허 예외·15~18세7h35h/합의1h5h·22~06및휴일근로의 본인동의+장관인가·위험업무·연소자증명·부모대리계약금지 구별. 인허증 실무15~17세중학생 TODO는 법64와 령35 대상 문구 불일치까지 확인했으나 실제발급절차 미해소. 인허증이 있으면 모든 취업조건 충족으로 읽히지 않게 유지.",
+      "evidence_ids": [
+        "law:285279",
+        "law:270551",
+        "depend:0",
+        "depend:1"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      },
+      "editorial_observations": {
+        "title_characters": 44,
+        "title_over_70": false,
+        "easy_characters": 123,
+        "easy_over_120": true,
+        "sentences_over_50": [
+          {
+            "field": "이득",
+            "length": 51,
+            "text": "보호자는 자녀를 중학교 졸업 때까지 다니게 해야 합니다(「초·중등교육법」 제13조 제3항)."
+          },
+          {
+            "field": "이득",
+            "length": 51,
+            "text": "다만 본인이 동의하고 고용노동부장관이 인가하면 예외로 허용됩니다(같은 법 제70조 제2항)."
+          },
+          {
+            "field": "이득",
+            "length": 54,
+            "text": "도덕상·보건상 유해하거나 위험한 사업에는 18세 미만을 쓰지 못합니다(같은 법 제65조 제1항)."
+          },
+          {
+            "field": "이득",
+            "length": 54,
+            "text": "사업주는 나이를 증명하는 가족관계 증명서와 친권자 동의서를 갖춰 둬야 합니다(같은 법 제66조)."
+          }
+        ],
+        "counting_rule": "literal공백·괄호포함;문장종결+공백분할/출처필드제외.번역인용임의제외안함;초기진단이며후보게이트아님"
+      }
+    },
+    {
+      "entry": 2,
+      "status": "revision_required",
+      "source_entry_sha256": "2535fce9ca4dd11263253200e9374ff34d4e1ea9bde14ce9fefc5a6f63011e89",
+      "review_scope": "IHME-CHAIN 실제 원초록 및 PMC10901745 전문:603연구/10355관측/59국70지역·1980~2023검색/1년1.9% UI1.8~2.0·18~49 2.9%/70초과0.8·출판편향 확인. RR/HR 입력을 함께 메타회귀한 관찰연관성으로 개인의 동일기간 절대사망확률/연명시간 보장으로 환산 금지. 포함연구가 모두 전향 코호트라는 단정은 선정기준의 여러 관찰설계보다 좁으므로 추적관찰만이라는 말 완화. 3~4년 효과를 단순가산한 등급은 저자 분류이며 인과 효과로 확정하지 않음.",
+      "evidence_ids": [
+        "prefetch:1",
+        "quoted-doi-additional-index:0",
+        "education-fulltext-index:0"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      },
+      "editorial_observations": {
+        "title_characters": 63,
+        "title_over_70": false,
+        "easy_characters": 143,
+        "easy_over_120": true,
+        "sentences_over_50": [],
+        "counting_rule": "literal공백·괄호포함;문장종결+공백분할/출처필드제외.번역인용임의제외안함;초기진단이며후보게이트아님"
+      }
+    },
+    {
+      "entry": 3,
+      "status": "revision_required",
+      "source_entry_sha256": "39ff9eaed675c2ea44f55d125a0d2d236be5e385a66b77e5a4c5a98c86c03e81",
+      "review_scope": "2020 인구주택총조사 실제 첨부PDF 표2:30세이상 졸업인구34919천명 중 대학이상15060천명43.1%. 본문 제목/쉽게의 모든30세이상 인구43.1%는 분모 누락. 졸업에는 수료/재학에는 휴학 포함 각주까지 보존;2010 32.4→2015 38.0→2020 43.1은 같은 표. 청년비율 별도원문 미확보 유지. 전국학력분포로 경쟁 노동인구나 학력 가치 인과까지 단정하지 않음.",
+      "evidence_ids": [
+        "more:0",
+        "prefetch:4"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      },
+      "editorial_observations": {
+        "title_characters": 61,
+        "title_over_70": false,
+        "easy_characters": 145,
+        "easy_over_120": true,
+        "sentences_over_50": [],
+        "counting_rule": "literal공백·괄호포함;문장종결+공백분할/출처필드제외.번역인용임의제외안함;초기진단이며후보게이트아님"
+      }
+    },
+    {
+      "entry": 4,
+      "status": "revision_required",
+      "source_entry_sha256": "d129a1d256d329badc3858d7054d2a16518ae28c166e204cfff2d283b00c4de0",
+      "review_scope": "교육기본8/초중등10의2·령13의2 실제XML, 2026장학 HWPX 및 고시2026-12 본문/학부생표 확인. 고교무상은 일부 사립학교 제외, 대학 장학금은 학적/성적/소득/등록금범위와 연간 한도이며 현금 보장 아님. 장학금600/440/360/100만원,다자녀610/505/465/135·200/8구간이하셋째전액과 일치. 취업후대출 등록금실소요/생활비학기200만/4년2400만·5~6년3200만·금리1.70%. 생활비8구간원칙/9구간긴급곤란예외. 상환기준2056만(총급여3037만) 확인;상속증여퇴직소득별도예외를 ‘일정소득넘어야만상환’에 유보. 이자면제8구간확대 고시7④는11-20 미래시행, 현재와 혼합 금지.",
+      "evidence_ids": [
+        "depend:0",
+        "depend:1",
+        "depend:2",
+        "more:1",
+        "admrul:1",
+        "images:3",
+        "sources:2"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      },
+      "editorial_observations": {
+        "title_characters": 72,
+        "title_over_70": true,
+        "easy_characters": 112,
+        "easy_over_120": false,
+        "sentences_over_50": [
+          {
+            "field": "쉽게",
+            "length": 51,
+            "text": "대학 국가장학금은 기초·차상위면 등록금 전액, 소득 1~3구간이면 연 600만 원을 줍니다."
+          },
+          {
+            "field": "이득",
+            "length": 52,
+            "text": "중학교까지는 의무교육이라서 국공립 학교가 이 비용을 받지 못합니다(같은 법 제12조 제4항)."
+          },
+          {
+            "field": "이득",
+            "length": 68,
+            "text": "9구간은 100만 원이고, 다자녀 첫째·둘째는 135만 원, 셋째 이상은 200만 원입니다(교육부, 2026-02-03)."
+          },
+          {
+            "field": "이득",
+            "length": 62,
+            "text": "취업 후 상환 학자금대출은 등록금 실소요액 전액을 빌려줍니다(「취업 후 학자금 상환 특별법」 제10조 제2항)."
+          },
+          {
+            "field": "이득",
+            "length": 56,
+            "text": "갚는 돈은 넘은 금액에 상환율(20~40% 범위)을 곱해 정합니다(같은 법 제18조 제2항·제5항)."
+          },
+          {
+            "field": "이득",
+            "length": 51,
+            "text": "졸업 전까지, 그리고 소득이 상환기준소득을 넘기 전까지입니다(같은 법 제16조의2 제2항)."
+          }
+        ],
+        "counting_rule": "literal공백·괄호포함;문장종결+공백분할/출처필드제외.번역인용임의제외안함;초기진단이며후보게이트아님"
+      }
+    },
+    {
+      "entry": 5,
+      "status": "qualified_supported_with_warning",
+      "source_entry_sha256": "5c7c677ded0ebbd7b3137a51fc95fb4f06cc2edd2d862f95d9f11c3b80e41be8",
+      "review_scope": "고등교육령29②14나/다 실제원문:특성화고전형은 마이스터 제외/동일계열, 재직자전형은 인정경로+3년재직/재직중·기간산입조건. 국기령14⑤1년인턴70%이상 학교요청 실습장소, 모든과정 자동전환 아님. 비수도권 연령/경력 특별전형도 일반법정 지원가능범위이지 학교별 모든학과 모집 보장 아님.",
+      "evidence_ids": [
+        "law:289437",
+        "law:281223",
+        "law:276847",
+        "prefetch:7"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      },
+      "editorial_observations": {
+        "title_characters": 65,
+        "title_over_70": false,
+        "easy_characters": 146,
+        "easy_over_120": true,
+        "sentences_over_50": [
+          {
+            "field": "이득",
+            "length": 53,
+            "text": "고등학교는 일반고·특수목적고·특성화고·자율고로 나뉩니다(「초·중등교육법 시행령」 제76조의3)."
+          },
+          {
+            "field": "이득",
+            "length": 54,
+            "text": "마이스터고의 법령상 이름은 「산업수요 맞춤형 고등학교」입니다(같은 영 제90조 제1항 제10호)."
+          },
+          {
+            "field": "이득",
+            "length": 70,
+            "text": "다만 학교장이 졸업자의 학과와 같은 계열로 인정한 모집단위로 한정됩니다(「고등교육법 시행령」 제29조 제2항 제14호 나목)."
+          },
+          {
+            "field": "이득",
+            "length": 66,
+            "text": "사업주는 모집·채용 때 합리적인 이유 없이 학력이나 출신학교로 차별하면 안 됩니다(「고용정책 기본법」 제7조 제1항)."
+          },
+          {
+            "field": "이득",
+            "length": 66,
+            "text": "이 조건을 갖추면 학교장이 요청하는 장소에서 실기시험을 실시할 수 있습니다(「국가기술자격법 시행령」 제14조 제5항)."
+          }
+        ],
+        "counting_rule": "literal공백·괄호포함;문장종결+공백분할/출처필드제외.번역인용임의제외안함;초기진단이며후보게이트아님"
+      }
+    },
+    {
+      "entry": 6,
+      "status": "revision_required",
+      "source_entry_sha256": "6a03cb686fd865937cb482fb2439da5c78ae7e21019615e3f502be718d5815da",
+      "review_scope": "고용부2025년6월실태조사2026-04-30 원PDF:전체25839/대졸30631/중졸16081/고졸20056/전문24268/대학원46779원 및 비율52.5/65.5/79.2/152.7 확인. 시간당임금 분모는 총실근로시간인데 계산식은 연간유급시간을 곱하므로 동일시간기준으로 정합화 필요. 기업/근로자표본·공공행정제외·교육인과수익률아닌 단면임금차/미래일정차보장없음/학비와기회비용 포함 유보.",
+      "evidence_ids": [
+        "more:2",
+        "prefetch:8"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      },
+      "editorial_observations": {
+        "title_characters": 65,
+        "title_over_70": false,
+        "easy_characters": 132,
+        "easy_over_120": true,
+        "sentences_over_50": [],
+        "counting_rule": "literal공백·괄호포함;문장종결+공백분할/출처필드제외.번역인용임의제외안함;초기진단이며후보게이트아님"
+      }
+    },
+    {
+      "entry": 7,
+      "status": "qualified_supported_with_warning",
+      "source_entry_sha256": "21051606f91045b1187b113e3603a75d8afed563110bfc824262936bf78f00b0",
+      "review_scope": "WB8402 공식 전문PDF 초록/방법/결론:1120추정치139국1950~2014 사적교육수익률9%평균. 개인임금 연9%를 어떤 한국사설강좌/모든개인/단기투자이익9%보장으로 전용 금지. 저널DOI 실패와 WB각판 구별.",
+      "evidence_ids": [
+        "more:4",
+        "prefetch:10"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      },
+      "editorial_observations": {
+        "title_characters": 41,
+        "title_over_70": false,
+        "easy_characters": 126,
+        "easy_over_120": true,
+        "sentences_over_50": [],
+        "counting_rule": "literal공백·괄호포함;문장종결+공백분할/출처필드제외.번역인용임의제외안함;초기진단이며후보게이트아님"
+      }
+    },
+    {
+      "entry": 8,
+      "status": "qualified_supported_with_warning",
+      "source_entry_sha256": "53309a57c202c554572e2b8cc3d7eb4cc2b5f465cf50710ec5ffaa0f3224ab64",
+      "review_scope": "자격기본법/령 실제 조문:국가/민간/국가공인 구별,등록=공인·취업보장아님,거짓공인광고3년3천과 일반거짓광고과태료3천 구별. PQI홈페이지와 Qnet진위확인 실제페이지 범위;PQI전체등록수 최신계수 미확인 유지, 횟수/조회시간1분은 편의추정.",
+      "evidence_ids": [
+        "law:246585",
+        "law:278267",
+        "prefetch:15",
+        "prefetch:16"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      },
+      "editorial_observations": {
+        "title_characters": 42,
+        "title_over_70": false,
+        "easy_characters": 133,
+        "easy_over_120": true,
+        "sentences_over_50": [],
+        "counting_rule": "literal공백·괄호포함;문장종결+공백분할/출처필드제외.번역인용임의제외안함;초기진단이며후보게이트아님"
+      }
+    },
+    {
+      "entry": 9,
+      "status": "revision_required",
+      "source_entry_sha256": "56a93aef1b99d633ff52ff494d174546ac5b68b8c0fe0928d566ce87526f3fb9",
+      "review_scope": "2026-39 고시4/14/16/46/49/50 및 실제 이미지표 확인:카드5년300/소진후대상자신청결정200추가(자동현금아님). 대학생 제외는 졸업까지2년초과,정확2년과원격대 예외;고소득대기업45미만도기간제/파견/단시간/일용·180일내이직등예외. 국기90%이상/max60만/한번/일반 자부담지원율별표4 구별. 별표4 외국어·법정직무 지원10%라 자기부담90%이고 공급상위직종지원10%p감액도 있어 0~55%전체상한단정은틀림. 장려금 국기5h이상20만미만8.6만은 일반대상이고 자영업피보험자등 다른대상은36만/18만표라 포괄최대금액 단정금지. 출석80/실업급여/다른수당·재정일자리중복/기숙사미지급및급식조정조건도 고시표에 있음.",
+      "evidence_ids": [
+        "admrul:0",
+        "images:1",
+        "last:0",
+        "last:1",
+        "prefetch:17",
+        "prefetch:18"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      },
+      "editorial_observations": {
+        "title_characters": 49,
+        "title_over_70": false,
+        "easy_characters": 127,
+        "easy_over_120": true,
+        "sentences_over_50": [
+          {
+            "field": "이득",
+            "length": 69,
+            "text": "고용노동부장관은 직업능력개발계좌를 발급·운영해 국민의 훈련비를 지원할 수 있습니다(「국민 평생 직업능력 개발법」 제18조)."
+          }
+        ],
+        "counting_rule": "literal공백·괄호포함;문장종결+공백분할/출처필드제외.번역인용임의제외안함;초기진단이며후보게이트아님"
+      }
+    },
+    {
+      "entry": 10,
+      "status": "revision_recommended",
+      "source_entry_sha256": "45420a0950d5f26610bf514817e3e5a79cdeebe3e923abc38df2212d34944579",
+      "review_scope": "FreyOsborne Oxford2013 workingpaper 실제PDF702미국직업/2010고용47%고위험 추정. 2017저널판 전문을 읽었다고하지 않음. unstructured환경지각·조작/창의/사회지능 병목이지 ‘손쓰는 일’ 전체가 가장 안전하다는 순위가 아님. 향후실제47%일자리소멸 확률/한국현재 예측으로 단정금지.",
+      "evidence_ids": [
+        "more:5",
+        "prefetch:20"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      },
+      "editorial_observations": {
+        "title_characters": 60,
+        "title_over_70": false,
+        "easy_characters": 142,
+        "easy_over_120": true,
+        "sentences_over_50": [],
+        "counting_rule": "literal공백·괄호포함;문장종결+공백분할/출처필드제외.번역인용임의제외안함;초기진단이며후보게이트아님"
+      }
+    },
+    {
+      "entry": 11,
+      "status": "qualified_supported_with_warning",
+      "source_entry_sha256": "ca2ba106567b6f796bd01e32f6e2c5a96e01ff5dcbc9f21d9cc771446c29ca77",
+      "review_scope": "국기법9/14·령27 및 공무원시험령31/별표11·12 실제XML:기술기능5등급/서비스분야3이내,공공우대/민간채용보수승진우대와고정수당없음 구별. 공무원 가산은6급이하 특정직류·시험/과목40%/5%이내·최고한개/과목대체예외;별표11의5/3%등급과별표12대상직류 확인으로 미열람TODO 해소.",
+      "evidence_ids": [
+        "law:243041",
+        "law:281223",
+        "sources:0"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      },
+      "editorial_observations": {
+        "title_characters": 48,
+        "title_over_70": false,
+        "easy_characters": 147,
+        "easy_over_120": true,
+        "sentences_over_50": [
+          {
+            "field": "이득",
+            "length": 55,
+            "text": "기술·기능 분야 등급은 기술사·기능장·기사·산업기사·기능사입니다(「국가기술자격법」 제9조 제1호)."
+          },
+          {
+            "field": "이득",
+            "length": 67,
+            "text": "국가·지자체·공공기관은 공무원과 직원을 채용할 때 해당 분야 취득자를 우대해야 합니다(같은 법 시행령 제27조 제1항)."
+          },
+          {
+            "field": "이득",
+            "length": 81,
+            "text": "「사업주는 … 근로자의 채용ㆍ보수 및 승진 등에서 해당 직무분야의 국가기술자격 취득자를 우대하여야 한다」(같은 조 제3항, 법 제14조 제2항)."
+          },
+          {
+            "field": "이득",
+            "length": 62,
+            "text": "다만 이 의무를 어긴 경우는 같은 법의 벌칙·과태료 조항에 들어 있지 않습니다(같은 법 제26조·제26조의2)."
+          },
+          {
+            "field": "이득",
+            "length": 58,
+            "text": "그 과목에서 만점의 40% 이상을 받아야 가산점이 붙습니다(「공무원임용시험령」 제31조 제2항·제4항)."
+          }
+        ],
+        "counting_rule": "literal공백·괄호포함;문장종결+공백분할/출처필드제외.번역인용임의제외안함;초기진단이며후보게이트아님"
+      }
+    },
+    {
+      "entry": 12,
+      "status": "qualified_supported_with_warning",
+      "source_entry_sha256": "8941a1670e27634af5f16bc24ee0b206f5ad10dd5ae640dea949819e33a7abc3",
+      "review_scope": "고용부 실제보도2025-10-01 부족449000/전년78000감소·2025Q3미충원8.4% 확인. 부족인원/미충원율/채용계획은 다른분모·시점,특정53훈련직종 지정이 해당지역현재구인·높은임금 증거 아님. 직종별KOSIS표미열람 유지,숫자를 새로 넣지않음.",
+      "evidence_ids": [
+        "prefetch:22",
+        "prefetch:18",
+        "sources:3"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      },
+      "editorial_observations": {
+        "title_characters": 63,
+        "title_over_70": false,
+        "easy_characters": 126,
+        "easy_over_120": true,
+        "sentences_over_50": [
+          {
+            "field": "이득",
+            "length": 62,
+            "text": "국가와 지자체는 인력이 부족한 직종을 골라 훈련할 수 있습니다(「국민 평생 직업능력 개발법」 제15조 제1항)."
+          }
+        ],
+        "counting_rule": "literal공백·괄호포함;문장종결+공백분할/출처필드제외.번역인용임의제외안함;초기진단이며후보게이트아님"
+      }
+    },
+    {
+      "entry": 13,
+      "status": "qualified_supported_with_warning",
+      "source_entry_sha256": "8200d7772e3f6bae21a72b1a46f2fed321c8a3339bde7bd8dccb2b87a11a24e4",
+      "review_scope": "고용24 실제 훈련기관특정 상세:종료일기준7달전/정상수료자만/중도탈락·조기취업자 제외. 전과정 상세 취업률에 일괄 적용 금지. 개별과정상세화면 미열람TODO 유지. 짧은과정 비용이항상작음/수료즉시취업은 원자료검증없어 개인가격·채용요건확인 권장.",
+      "evidence_ids": [
+        "prefetch:23"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      },
+      "editorial_observations": {
+        "title_characters": 40,
+        "title_over_70": false,
+        "easy_characters": 119,
+        "easy_over_120": false,
+        "sentences_over_50": [],
+        "counting_rule": "literal공백·괄호포함;문장종결+공백분할/출처필드제외.번역인용임의제외안함;초기진단이며후보게이트아님"
+      }
+    },
+    {
+      "entry": 14,
+      "status": "revision_recommended",
+      "source_entry_sha256": "16c45c7938e006005cca625bd96c06a42ee21a389574c5a3ead83dcbe98a3092",
+      "review_scope": "Yang 실제원초록222독립연구48478명/g.499,대조전략/시험일치/피드백/반복등 조절요인 확인. Dunlosky highutility와일치. 제목 다시읽지말라는 절대금지/총시간전혀안늘음은 연구평균 학업성취결과보다강함;이해·교정피드백읽기까지금지하지않도록.",
+      "evidence_ids": [
+        "prefetch:26",
+        "prefetch:29"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      },
+      "editorial_observations": {
+        "title_characters": 35,
+        "title_over_70": false,
+        "easy_characters": 139,
+        "easy_over_120": true,
+        "sentences_over_50": [],
+        "counting_rule": "literal공백·괄호포함;문장종결+공백분할/출처필드제외.번역인용임의제외안함;초기진단이며후보게이트아님"
+      }
+    },
+    {
+      "entry": 15,
+      "status": "revision_required",
+      "source_entry_sha256": "1d23ad76d015f9b92024db1bd70f9143d5dacffc700616b414c224fe6e7b749a",
+      "review_scope": "Cepeda 실제원초록184편317실험839평가·학습간격과파지기간 상호작용 확인. 쉽게의 내일시험당일복습/한달뒤시험며칠간격 같은 구체최적일정은 이 원초록으로 확인 안됨,본문의 고정간격없다는유보와 충돌하므로 예시로한정/근거추가. 돈·전체시간반드시동일은저자편의조건.",
+      "evidence_ids": [
+        "prefetch:32",
+        "prefetch:29"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      },
+      "editorial_observations": {
+        "title_characters": 29,
+        "title_over_70": false,
+        "easy_characters": 126,
+        "easy_over_120": true,
+        "sentences_over_50": [
+          {
+            "field": "비고",
+            "length": 51,
+            "text": "논문이 준 것은 「시험이 멀수록 간격을 길게」라는 규칙이고, 날짜를 정한 일정표는 없습니다."
+          }
+        ],
+        "counting_rule": "literal공백·괄호포함;문장종결+공백분할/출처필드제외.번역인용임의제외안함;초기진단이며후보게이트아님"
+      }
+    },
+    {
+      "entry": 16,
+      "status": "qualified_supported_with_warning",
+      "source_entry_sha256": "b60bd00987374f599d8c1a560fc04e2ad2e685f8191ee6bd6b2f996124c4b26d",
+      "review_scope": "Dunlosky 원초록10기법 high2/moderate3/low5 실제열람. low는일관성/일반화제한이며효과0아님,요약·심상일부조건효과유지. 반드시시간절약/누구나고효율은직접총시간측정으로확인되지않음.",
+      "evidence_ids": [
+        "prefetch:29",
+        "prefetch:28"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      },
+      "editorial_observations": {
+        "title_characters": 38,
+        "title_over_70": false,
+        "easy_characters": 128,
+        "easy_over_120": true,
+        "sentences_over_50": [],
+        "counting_rule": "literal공백·괄호포함;문장종결+공백분할/출처필드제외.번역인용임의제외안함;초기진단이며후보게이트아님"
+      }
+    },
+    {
+      "entry": 17,
+      "status": "qualified_supported_with_warning",
+      "source_entry_sha256": "ce4ba6afffce3501f88ba7eb116675f33dd3bf226d380c537b73872444d1239f",
+      "review_scope": "Brunmair 실제원초록59연구238효과158표본/g.42·그림.67수학.34단어-.39·설명문미각비유의 확인. 모든단어정의는모아서만학습처럼결정금지,자료/범주유사성조절. 맛자료는미각구별자료로풀기권장.",
+      "evidence_ids": [
+        "prefetch:35"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      },
+      "editorial_observations": {
+        "title_characters": 35,
+        "title_over_70": false,
+        "easy_characters": 152,
+        "easy_over_120": true,
+        "sentences_over_50": [
+          {
+            "field": "쉽게",
+            "length": 52,
+            "text": "같은 유형을 줄줄이 풀면 그 자리에선 쉽지만, 나중에 어떤 방법을 쓸지 못 가릴 수 있습니다."
+          },
+          {
+            "field": "이득",
+            "length": 56,
+            "text": "교차 연습(섞어 풀기)은 묶음 연습보다 중간 크기의 효과를 냈습니다(Hedges' g = 0.42)."
+          }
+        ],
+        "counting_rule": "literal공백·괄호포함;문장종결+공백분할/출처필드제외.번역인용임의제외안함;초기진단이며후보게이트아님"
+      }
+    },
+    {
+      "entry": 18,
+      "status": "qualified_supported_with_warning",
+      "source_entry_sha256": "1d226c1aba14492d3097f7befa773ed7e9eb25f40e543f58f931798ec9db1f51",
+      "review_scope": "Pashler 원초록의 무작위배정/동일최종시험/학습유형×교수법교차상호작용 필수기준 직접확인. 맞춤가설입증불충분이지 모든개인차/선호·적성/가능한학습유형전부반증 아님. 현문유보보존.",
+      "evidence_ids": [
+        "prefetch:38",
+        "prefetch:37"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      },
+      "editorial_observations": {
+        "title_characters": 34,
+        "title_over_70": false,
+        "easy_characters": 147,
+        "easy_over_120": true,
+        "sentences_over_50": [],
+        "counting_rule": "literal공백·괄호포함;문장종결+공백분할/출처필드제외.번역인용임의제외안함;초기진단이며후보게이트아님"
+      }
+    },
+    {
+      "entry": 19,
+      "status": "revision_recommended",
+      "source_entry_sha256": "20428d2ee29f1992085733474593e0ff48c58862796b3631f8e61b7e25f63600",
+      "review_scope": "PanRickard 실제원초록67편122실험192효과10382명 d.40CI.31~.50. 형식간/응용추론/의료진단 전이상대강함;역방향/미시험자료/예제풀이 가장약함이지거의효과0일률아님. 출판편향조정에서조절계수안정하지만절편감소·조절요인없으면긍정전이없을수있음. 시간추가0/모든회상동일효과보장금지.",
+      "evidence_ids": [
+        "prefetch:41"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      },
+      "editorial_observations": {
+        "title_characters": 56,
+        "title_over_70": false,
+        "easy_characters": 144,
+        "easy_over_120": true,
+        "sentences_over_50": [
+          {
+            "field": "이득",
+            "length": 60,
+            "text": "연습 시험으로 배운 내용은 실제로 다른 상황에 옮겨 갔습니다(d=0.40, 95% CI 0.31~0.50)."
+          }
+        ],
+        "counting_rule": "literal공백·괄호포함;문장종결+공백분할/출처필드제외.번역인용임의제외안함;초기진단이며후보게이트아님"
+      }
+    },
+    {
+      "entry": 20,
+      "status": "qualified_supported_with_warning",
+      "source_entry_sha256": "b4ede4ef4d8529ee1049639f6fafb8ff4908b16bde4982e9174ed80d88e7ee06",
+      "review_scope": "국기령14④/⑦·별표4의2 전체 실제열람:기능사제한없음,산업기사/기사/기능장/기술사각경로기간·관련학과동일유사분야·졸업후/취득후조건/106중전환외18/81/41·기준일·연속시험예외 확인. 규칙289523기본API는2027미래판이나 rule-retry:0 eflaw시행일2026-09-07로제14조및483부칙확인해현행미확인해소;국민연금건보확인 동의거부시직접제출 단서. 준비기간수개월은개인차.",
+      "evidence_ids": [
+        "law:281223",
+        "sources:1",
+        "rule-retry:0"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      },
+      "editorial_observations": {
+        "title_characters": 59,
+        "title_over_70": false,
+        "easy_characters": 143,
+        "easy_over_120": true,
+        "sentences_over_50": [
+          {
+            "field": "이득",
+            "length": 57,
+            "text": "기술·기능 분야 응시자격은 「국가기술자격법 시행령」 별표 4의2가 정합니다(같은 영 제14조 제7항)."
+          },
+          {
+            "field": "이득",
+            "length": 51,
+            "text": "81학점 이상은 3년제, 41학점 이상은 2년제 대학졸업예정자입니다(별표 4의2 비고 2)."
+          },
+          {
+            "field": "이득",
+            "length": 62,
+            "text": "경력증명서는 국민연금이나 건강보험 가입 기록으로 확인합니다(「국가기술자격법 시행규칙」 제14조 제2항·제3항)."
+          },
+          {
+            "field": "이득",
+            "length": 56,
+            "text": "다만 일부 종목은 필기 합격 여부와 관계없이 필기·실기를 연속 실시합니다(같은 영 제14조 제4항)."
+          }
+        ],
+        "counting_rule": "literal공백·괄호포함;문장종결+공백분할/출처필드제외.번역인용임의제외안함;초기진단이며후보게이트아님"
+      }
+    },
+    {
+      "entry": 21,
+      "status": "qualified_supported_with_warning",
+      "source_entry_sha256": "56644e8854ae82e7d2c2072071aadffea6974f1903435ecdad135c25c2fbd5eb",
+      "review_scope": "국기법10/11/15/16/25의3/26·자격기본31/40 실제:부정검정정지무효3년은전체/취소3년은동일종목,거짓취득·대여필요취소,대여차용알선1년천만원/고의방해2년2천 정확. 규칙15대리시험은rule-retry:0 실제현행2026-09-07판도확인,미래판과구별. Qnet본문확인범위진위메뉴,홈JS쉘과구별. 과정평가형법10허용되므로 시험장안가도됨이라는말만으로항상사기단정금지.",
+      "evidence_ids": [
+        "law:243041",
+        "law:246585",
+        "prefetch:16",
+        "sources:1",
+        "rule-retry:0"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      },
+      "editorial_observations": {
+        "title_characters": 31,
+        "title_over_70": false,
+        "easy_characters": 145,
+        "easy_over_120": true,
+        "sentences_over_50": [
+          {
+            "field": "이득",
+            "length": 65,
+            "text": "고용노동부령으로 정한 부정행위를 한 응시자는 그 검정이 정지되거나 무효가 됩니다(「국가기술자격법」 제10조 제6항)."
+          },
+          {
+            "field": "이득",
+            "length": 68,
+            "text": "성명이나 수험번호를 바꿔 내거나 미리 문제를 알고 치르는 일도 부정행위입니다(「국가기술자격법 시행규칙」 제15조 제1항)."
+          },
+          {
+            "field": "이득",
+            "length": 56,
+            "text": "정지나 무효 처분을 받은 날부터 3년 동안은 응시할 수 없습니다(「국가기술자격법」 제11조 제1호)."
+          },
+          {
+            "field": "이득",
+            "length": 53,
+            "text": "이를 어기면 2년 이하 징역 또는 2천만 원 이하 벌금입니다(같은 법 제26조 제1항 제3호)."
+          },
+          {
+            "field": "이득",
+            "length": 63,
+            "text": "취득한 자격을 빌려주거나 빌리면 1년 이하 징역 또는 1천만 원 이하 벌금입니다(「자격기본법」 제40조 제5호)."
+          }
+        ],
+        "counting_rule": "literal공백·괄호포함;문장종결+공백분할/출처필드제외.번역인용임의제외안함;초기진단이며후보게이트아님"
+      }
+    },
+    {
+      "entry": 22,
+      "status": "qualified_supported_with_warning",
+      "source_entry_sha256": "2639b9bad6a4b0bcc94aa49641705e4587777fc2368f40d5fc18d78b23654c86",
+      "review_scope": "국기법14②/령27③해당직무근로자우대/공공27①②확인. 법26/26의2에14위반별도벌칙과태료없음,자동정액수당없음. 근로법93상시10명 취업규칙 임금계산지급/승급 맞음. 우대의무없다고축소금지,개별계약·취업규칙임금권리는별개.",
+      "evidence_ids": [
+        "law:243041",
+        "law:281223",
+        "law:285279"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      },
+      "editorial_observations": {
+        "title_characters": 49,
+        "title_over_70": false,
+        "easy_characters": 138,
+        "easy_over_120": true,
+        "sentences_over_50": [
+          {
+            "field": "이득",
+            "length": 63,
+            "text": "사업주가 국가기술자격 취득자를 해당 직무 근로자로 고용했다면 우대해야 합니다(「국가기술자격법」 제14조 제2항)."
+          },
+          {
+            "field": "이득",
+            "length": 54,
+            "text": "대통령령은 그 우대를 채용·보수·승진 등에서 하라고 정했습니다(같은 법 시행령 제27조 제3항)."
+          },
+          {
+            "field": "이득",
+            "length": 53,
+            "text": "이 의무를 어겼을 때 적용되는 벌칙이나 과태료 조항도 없습니다(같은 법 제26조·제26조의2)."
+          },
+          {
+            "field": "이득",
+            "length": 61,
+            "text": "국가·지자체·공공기관은 채용과 보수·승진·전보·신분보장에서 우대해야 합니다(같은 영 제27조 제1항·제2항)."
+          },
+          {
+            "field": "이득",
+            "length": 58,
+            "text": "그 취업규칙에는 임금의 결정·계산·지급 방법과 승급을 꼭 적어야 합니다(「근로기준법」 제93조 제2호)."
+          }
+        ],
+        "counting_rule": "literal공백·괄호포함;문장종결+공백분할/출처필드제외.번역인용임의제외안함;초기진단이며후보게이트아님"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=291083&type=XML&mobileYn=",
+      "requested_at": "2026-10-18T16:32:45.145887+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "law:291083",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch23-audit/d09a21306707ffc8e3ab.raw",
+      "sha256": "9b218464fb0402ddff4a494d3e43ecf60bd4688be62d7db9ee697e811e128cf2",
+      "id": "sources:0",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "실제 원자료 본문 또는 표 열람; 아래 항목별 범위 참조. 검색결과는 법령번호/시행일 확인만."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=289523&type=XML&mobileYn=",
+      "requested_at": "2026-10-18T16:32:45.146716+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "law:289523",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch23-audit/04ab105705cc60b05e1f.raw",
+      "sha256": "536b7f4bb139e42791d4977cba2de874faab9e3dc0be2053b6963bdce1c507a0",
+      "id": "sources:1",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "2027-01-01 시행 국가기술자격법 시행규칙 XML. 2026-09-07 일부 조문·별표 선시행과 2028 별표 구별. 제14·15 현행 확인을 대신하지 않음."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=283419&type=XML&mobileYn=",
+      "requested_at": "2026-10-18T16:32:45.147281+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "law:283419",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch23-audit/1e1080b627d4d55f6c7d.raw",
+      "sha256": "20290c6f32720be4518d59f4ea6acbc2d4b4edb04b91119235e367ee70fda3b4",
+      "id": "sources:2",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "실제 원자료 본문 또는 표 열람; 아래 항목별 범위 참조. 검색결과는 법령번호/시행일 확인만."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=247245&type=XML&mobileYn=",
+      "requested_at": "2026-10-18T16:32:45.147897+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "law:247245",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch23-audit/0d0d65b90b28156426b8.raw",
+      "sha256": "6e2c9e05d2769c566342f8a85aaeb3f7a910a05b230dff8fd9323b5ff5d33cec",
+      "id": "sources:3",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "실제 원자료 본문 또는 표 열람; 아래 항목별 범위 참조. 검색결과는 법령번호/시행일 확인만."
+    },
+    {
+      "url": "https://law.go.kr/DRF/lawSearch.do?OC=test&target=law&type=XML&query=%EA%B5%90%EC%9C%A1%EA%B8%B0%EB%B3%B8%EB%B2%95&display=100&nw=1",
+      "requested_at": "2026-10-18T16:32:45.148587+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "교육기본법",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch23-audit/4be73157ec3313e89113.raw",
+      "sha256": "955784172cfcb8cd5f7019eaaf39bba931b1e8c9fdaea090efcebb8c19e63c50",
+      "id": "sources:4",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "실제 원자료 본문 또는 표 열람; 아래 항목별 범위 참조. 검색결과는 법령번호/시행일 확인만."
+    },
+    {
+      "url": "https://law.go.kr/DRF/lawSearch.do?OC=test&target=law&type=XML&query=%EC%B4%88%E3%86%8D%EC%A4%91%EB%93%B1%EA%B5%90%EC%9C%A1%EB%B2%95&display=100&nw=1",
+      "requested_at": "2026-10-18T16:32:45.149658+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "초ㆍ중등교육법",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch23-audit/41def5a35ef15ab54600.raw",
+      "sha256": "ccd331b3117a7240c970a182ee874a790b65aa5428fa5f5f2f288a66eb8ccbad",
+      "id": "sources:5",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "실제 원자료 본문 또는 표 열람; 아래 항목별 범위 참조. 검색결과는 법령번호/시행일 확인만."
+    },
+    {
+      "url": "https://law.go.kr/DRF/lawSearch.do?OC=test&target=law&type=XML&query=%EC%B4%88%E3%86%8D%EC%A4%91%EB%93%B1%EA%B5%90%EC%9C%A1%EB%B2%95%20%EC%8B%9C%ED%96%89%EB%A0%B9&display=100&nw=1",
+      "requested_at": "2026-10-18T16:32:45.150930+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "초ㆍ중등교육법 시행령",
+      "status": "access_failed",
+      "error": "<urlopen error Tunnel connection failed: 502 Bad Gateway>",
+      "id": "sources:6",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "접근 실패; 본문 확인 아님. 재시도 성공과 별도 기록."
+    },
+    {
+      "url": "https://www.korea.kr/common/download.do?fileId=197345467&tblKey=GMN",
+      "requested_at": "2026-10-18T16:34:06.955051+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "censusPDF",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch23-audit/02d8fe5e4fc6728d56d9.raw",
+      "sha256": "79dc7902ef3c77034c4d3ff69dc95692e35c68ccdcf400848a9258f110f36099",
+      "id": "more:0",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "실제 원자료 본문 또는 표 열람; 아래 항목별 범위 참조. 검색결과는 법령번호/시행일 확인만."
+    },
+    {
+      "url": "https://www.moe.go.kr/boardCnts/fileDown.do?m=020402&s=moe&fileSeq=39fb8952c792224bc65fde05c3c9c619",
+      "requested_at": "2026-10-18T16:34:06.955940+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "scholarshipPDF",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch23-audit/c0f66c3e6b9dd1e0ffc2.raw",
+      "sha256": "83e89e97fe455482a24d38e405cf4341cc51a0cfc2e14b1cb1b46f96cc7407de",
+      "id": "more:1",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "실제 HWPX 첨부의 XML 본문: 2026 국가장학금 연간 한도/신청요건, 2027 예고와 구별."
+    },
+    {
+      "url": "https://www.moel.go.kr/common/downloadFile.do?file_seq=20260402959&bbs_seq=19337&bbs_id=12&file_ext=pdf",
+      "requested_at": "2026-10-18T16:34:06.956505+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "wagePDF",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch23-audit/134208c513091c2cd012.raw",
+      "sha256": "eb9a5ff96d8f0addea98857f172891df437bbb97c10e5504466fa766fc9251a0",
+      "id": "more:2",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "실제 원자료 본문 또는 표 열람; 아래 항목별 범위 참조. 검색결과는 법령번호/시행일 확인만."
+    },
+    {
+      "url": "https://www.kosaf.go.kr/ko/tuition.do?pg=tuition04_01_01&ttab1=0",
+      "requested_at": "2026-10-18T16:34:06.957218+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "KOSAFretry",
+      "status": "access_failed",
+      "error": "HTTP Error 503: Service Unavailable",
+      "id": "more:3",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "접근 실패; 본문 확인 아님. 재시도 성공과 별도 기록."
+    },
+    {
+      "url": "https://documents1.worldbank.org/curated/en/442521523465644318/pdf/WPS8402.pdf",
+      "requested_at": "2026-10-18T16:34:06.957726+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "WBankpaper",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch23-audit/72bc8500852bcec43185.raw",
+      "sha256": "3f27d4a285b45452b103d277871188a19f3f69508e0e14d59e4f1f06b6acb89e",
+      "id": "more:4",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "실제 원자료 본문 또는 표 열람; 아래 항목별 범위 참조. 검색결과는 법령번호/시행일 확인만."
+    },
+    {
+      "url": "https://www.oxfordmartin.ox.ac.uk/downloads/academic/The_Future_of_Employment.pdf",
+      "requested_at": "2026-10-18T16:34:06.958198+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "FreyOxford",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch23-audit/711d42a19ad078e49f06.raw",
+      "sha256": "1d0ef561ebef9ececda63403a40860aa172be953fe2b050d27de8987c9e852fc",
+      "id": "more:5",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "Oxford 공식 2013 working paper 전문 PDF의 방법/702개 직업/2010 미국 고용 및47% 추정. DOI 2017 저널판 전문과 구별."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=law&type=XML&query=%EC%B4%88%EC%A4%91%EB%93%B1%EA%B5%90%EC%9C%A1%EB%B2%95%EC%8B%9C%ED%96%89%EB%A0%B9&display=100&nw=1",
+      "requested_at": "2026-10-18T16:34:06.959226+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "schoolRegretry",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch23-audit/d8564f10ad77aa2e9d47.raw",
+      "sha256": "45e809ac422c1ac8470b9d535c8890b04cc6e5c6765b2aba42c3fbac125d8a53",
+      "id": "more:6",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "실제 원자료 본문 또는 표 열람; 아래 항목별 범위 참조. 검색결과는 법령번호/시행일 확인만."
+    },
+    {
+      "url": "https://law.go.kr/DRF/lawService.do?OC=test&target=law&MST=285783&type=XML&mobileYn=",
+      "requested_at": "2026-10-18T16:34:22.096428+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "law:285783",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch23-audit/7bf9f6ea110a9e0aff24.raw",
+      "sha256": "a910dc9d83fa51c05ed6bced69bde83975ab58b3310054013d2b85dbf0e43cfa",
+      "id": "depend:0",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "실제 원자료 본문 또는 표 열람; 아래 항목별 범위 참조. 검색결과는 법령번호/시행일 확인만."
+    },
+    {
+      "url": "https://law.go.kr/DRF/lawService.do?OC=test&target=law&MST=283903&type=XML&mobileYn=",
+      "requested_at": "2026-10-18T16:34:22.097240+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "law:283903",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch23-audit/f0b79b436fb2f0ecf633.raw",
+      "sha256": "46a360e34dafbe7e1530f1a1e8215818a5b66d5680f324ceee946eb4e3947d3d",
+      "id": "depend:1",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "실제 원자료 본문 또는 표 열람; 아래 항목별 범위 참조. 검색결과는 법령번호/시행일 확인만."
+    },
+    {
+      "url": "https://law.go.kr/DRF/lawService.do?OC=test&target=law&MST=289439&type=XML&mobileYn=",
+      "requested_at": "2026-10-18T16:34:22.097820+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "law:289439",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch23-audit/9c18e8c4476a2b16f6dc.raw",
+      "sha256": "401db1e6fd63f646a178bce319e8be662115a23dedef69a64452eb4b5bcba8a6",
+      "id": "depend:2",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "실제 원자료 본문 또는 표 열람; 아래 항목별 범위 참조. 검색결과는 법령번호/시행일 확인만."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=admrul&type=XML&query=%EA%B5%AD%EB%AF%BC%EB%82%B4%EC%9D%BC%EB%B0%B0%EC%9B%80%EC%B9%B4%EB%93%9C%20%EC%9A%B4%EC%98%81%EA%B7%9C%EC%A0%95&display=100",
+      "requested_at": "2026-10-18T16:34:22.098727+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "국민내일배움카드 운영규정",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch23-audit/327c2426008dad70ef7e.raw",
+      "sha256": "0973ee161aa9d8303d0a9ec9e24ac97d9cfd3c13093341fb23c461cd28f74bc4",
+      "id": "depend:3",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "실제 원자료 본문 또는 표 열람; 아래 항목별 범위 참조. 검색결과는 법령번호/시행일 확인만."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=admrul&type=XML&query=2026%EB%85%84%EB%8F%84%20%EC%B7%A8%EC%97%85%20%ED%9B%84%20%ED%95%99%EC%9E%90%EA%B8%88%20%EC%83%81%ED%99%98%EA%B8%B0%EC%A4%80%EC%86%8C%EB%93%9D&display=100",
+      "requested_at": "2026-10-18T16:34:22.099520+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "2026년도 취업 후 학자금 상환기준소득",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch23-audit/336ea26218cca0e47503.raw",
+      "sha256": "c0d9c56eb3da5b9011ac6588da38183f65b1cb63f5b09b08b9a87e884f31984b",
+      "id": "depend:4",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "실제 원자료 본문 또는 표 열람; 아래 항목별 범위 참조. 검색결과는 법령번호/시행일 확인만."
+    },
+    {
+      "url": "https://www.law.go.kr/LSW/admRulLsInfoR.do?admRulSeq=2100000279150&languageType=KO&chrClsCd=010202",
+      "requested_at": "2026-10-18T16:35:38.483999+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "admrul:2100000279150",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch23-audit/fa098dc71cc99b7bd650.raw",
+      "sha256": "2c0960e99daeb38174720e49c864cbc86f35d51dddb166636052750362c29f6a",
+      "id": "admrul:0",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "실제 원자료 본문 또는 표 열람; 아래 항목별 범위 참조. 검색결과는 법령번호/시행일 확인만."
+    },
+    {
+      "url": "https://www.law.go.kr/LSW/admRulLsInfoR.do?admRulSeq=2100000281130&languageType=KO&chrClsCd=010202",
+      "requested_at": "2026-10-18T16:35:38.485039+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "admrul:2100000281130",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch23-audit/887945e8ef92ef9dbaac.raw",
+      "sha256": "e5f2a09bd189edc4cbd491ac4c34526d10006631e28f0fce4edbd3de8593c4a7",
+      "id": "admrul:1",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "실제 원자료 본문 또는 표 열람; 아래 항목별 범위 참조. 검색결과는 법령번호/시행일 확인만."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=admrul&type=XML&query=2026%EB%85%84%20%EC%83%81%ED%99%98%EA%B8%B0%EC%A4%80%EC%86%8C%EB%93%9D&display=100",
+      "requested_at": "2026-10-18T16:35:38.485710+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "repaymentSearch",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch23-audit/2e9ab76aa196281b0e2f.raw",
+      "sha256": "0492d15686b03d9871e3cead3ab41873e1569fb540b412902147482ab5e79f95",
+      "id": "admrul:2",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "실제 원자료 본문 또는 표 열람; 아래 항목별 범위 참조. 검색결과는 법령번호/시행일 확인만."
+    },
+    {
+      "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=164650809",
+      "requested_at": "2026-10-18T16:39:17.764119+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "image:164650809",
+      "status": "access_failed",
+      "error": "HTTP Error 502: Bad Gateway",
+      "id": "images:0",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "접근 실패; 본문 확인 아님. 재시도 성공과 별도 기록."
+    },
+    {
+      "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=164650901",
+      "requested_at": "2026-10-18T16:39:17.765068+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "image:164650901",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch23-audit/87e9d1a3d0fdbfbc34ae.raw",
+      "sha256": "e652158317d8e312a945014cd52bef895be2c940aacc9f9b314deb899b29670d",
+      "id": "images:1",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "실제 이미지 표 직접 시각 열람(추가지원200만원/훈련장려금 금액/미지급 조건/학부생 대출조건), PDF 별표4 지원율은 텍스트 추출 직접 열람."
+    },
+    {
+      "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=164650933",
+      "requested_at": "2026-10-18T16:39:17.765649+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "image:164650933",
+      "status": "access_failed",
+      "error": "HTTP Error 502: Bad Gateway",
+      "id": "images:2",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "접근 실패; 본문 확인 아님. 재시도 성공과 별도 기록."
+    },
+    {
+      "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=166265069",
+      "requested_at": "2026-10-18T16:39:17.766283+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "image:166265069",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch23-audit/02a4eb6da987bcbf0250.raw",
+      "sha256": "1424f9a1d0f3012aaf9e2c9d684ad026969208f0066599e150e48aaa576ad57c",
+      "id": "images:3",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "실제 이미지 표 직접 시각 열람(추가지원200만원/훈련장려금 금액/미지급 조건/학부생 대출조건), PDF 별표4 지원율은 텍스트 추출 직접 열람."
+    },
+    {
+      "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=164650809",
+      "requested_at": "2026-10-18T16:39:59.886406+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "table:164650809",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch23-audit/a4ee1cb12e41a2d53b27.raw",
+      "sha256": "ed312feb3358144821a05316b6a7084761100e2a779991fed7939c4f4d6a8af2",
+      "id": "last:0",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "실제 이미지 표 직접 시각 열람(추가지원200만원/훈련장려금 금액/미지급 조건/학부생 대출조건), PDF 별표4 지원율은 텍스트 추출 직접 열람."
+    },
+    {
+      "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=164650933",
+      "requested_at": "2026-10-18T16:39:59.887433+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "table:164650933",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch23-audit/cbaf8546c77c258d4ead.raw",
+      "sha256": "225a08a3f3e28a2e39b2f4977e95790adfef52cd24f64793a7146acbb1ddcc31",
+      "id": "last:1",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "실제 이미지 표 직접 시각 열람(추가지원200만원/훈련장려금 금액/미지급 조건/학부생 대출조건), PDF 별표4 지원율은 텍스트 추출 직접 열람."
+    },
+    {
+      "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=164662037",
+      "requested_at": "2026-10-18T16:39:59.888047+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "table:164662037",
+      "status": "access_failed",
+      "error": "<urlopen error Tunnel connection failed: 502 Bad Gateway>",
+      "id": "last:2",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "접근 실패; 본문 확인 아님. 재시도 성공과 별도 기록."
+    },
+    {
+      "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=164650809",
+      "requested_at": "2026-10-18T16:40:28.947079+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "table:164650809",
+      "status": "access_failed",
+      "error": "<urlopen error Tunnel connection failed: 502 Bad Gateway>",
+      "id": "annex:0",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "접근 실패; 본문 확인 아님. 재시도 성공과 별도 기록."
+    },
+    {
+      "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=164650933",
+      "requested_at": "2026-10-18T16:40:28.948117+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "table:164650933",
+      "status": "access_failed",
+      "error": "HTTP Error 502: Bad Gateway",
+      "id": "annex:1",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "접근 실패; 본문 확인 아님. 재시도 성공과 별도 기록."
+    },
+    {
+      "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=164662043",
+      "requested_at": "2026-10-18T16:40:28.948720+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "table:164662043",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch23-audit/143b4ff3eaef05040c68.raw",
+      "sha256": "e5130338921e8291891a4c169604403bb2d66ca92763d5b47c183cd2c6ca7c55",
+      "id": "annex:2",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "실제 이미지 표 직접 시각 열람(추가지원200만원/훈련장려금 금액/미지급 조건/학부생 대출조건), PDF 별표4 지원율은 텍스트 추출 직접 열람."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&ID=011273&type=XML&efYd=20261019",
+      "requested_at": "2026-10-18T16:40:46.361285+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "technicalRegCurrent",
+      "status": "access_failed",
+      "error": "HTTP Error 500: Internal Server Error",
+      "id": "current:0",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "접근 실패; 본문 확인 아님. 재시도 성공과 별도 기록."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&ID=011273&type=XML&efYd=20260907",
+      "requested_at": "2026-10-18T16:43:55.653340+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "technicalCurrent0907",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch23-audit/4c8bf704079a7fbaa7a8.raw",
+      "sha256": "66da41a61e84a436b499a857332390e6c4d595a0024139e3eca24995d61c5c63",
+      "id": "rule-retry:0",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "현행시점 지정 eflaw 실제 XML 시행2026-09-07:제14조①~⑤/제15조①②와483부칙 직접확인.2027·2028별표변경 미래시행과구별"
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=289523&type=XML&efYd=20260907",
+      "requested_at": "2026-10-18T16:43:55.655633+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "technicalLaw0907",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch23-audit/dcf9d8222f73289ec250.raw",
+      "sha256": "536b7f4bb139e42791d4977cba2de874faab9e3dc0be2053b6963bdce1c507a0",
+      "id": "rule-retry:1",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "target=law는 efYd를붙여도2027시행XML반환:현행확인아님"
+    },
+    {
+      "url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=289523&efYd=20260907&ancYnChk=0",
+      "requested_at": "2026-10-18T16:43:55.656495+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "technicalHTML0907",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch23-audit/442ddf56e8f510fc8c24.raw",
+      "sha256": "b76f8fa5cd162795fe82b0d0b8973c3dc097ba1e9bf8f18779f8918075ab5840",
+      "id": "rule-retry:2",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "실제법령 HTML; 현행판은 rule-retry:0 XML로 확인"
+    },
+    {
+      "cited_url": "https://doi.org/10.1016/S2468-2667(23)00306-7",
+      "request_url": "https://doi.org/10.1016/S2468-2667(23)00306-7",
+      "kind": "cited_url",
+      "requested_at_utc": "2026-10-18T16:27:49.286445+00:00",
+      "artifact": "2d93d6c3e09bbe2e39f92820.raw",
+      "scope": "Prefetch only; HTTP status/content is not semantic source verification.",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
+      "id": "prefetch:0",
+      "url": "https://doi.org/10.1016/S2468-2667(23)00306-7",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "요청 실패/비200; 본문 미열람",
+      "expected_artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch23-prefetch/2d93d6c3e09bbe2e39f92820.raw",
+      "cache_file": null
+    },
+    {
+      "cited_url": "https://doi.org/10.1016/S2468-2667(23)00306-7",
+      "request_url": "https://api.crossref.org/works/10.1016%2FS2468-2667%2823%2900306-7",
+      "kind": "crossref_metadata_or_embedded_abstract",
+      "requested_at_utc": "2026-10-18T16:27:49.287525+00:00",
+      "artifact": "8b71613c14e4a349604b9e4c.raw",
+      "scope": "Prefetch only; HTTP status/content is not semantic source verification.",
+      "http_status": 200,
+      "final_url": "https://api.crossref.org/works/10.1016%2FS2468-2667%2823%2900306-7",
+      "content_type": "application/json",
+      "truncated": false,
+      "bytes": 22891,
+      "sha256": "45975eb996addfab2d0cef699d74ac75c7513012c672620fedc178725d89327b",
+      "id": "prefetch:1",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch23-prefetch/8b71613c14e4a349604b9e4c.raw",
+      "url": "https://api.crossref.org/works/10.1016%2FS2468-2667%2823%2900306-7",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "Crossref 서지; 28/37은 실제 원초록 포함, 나머지는 서지와 원논문 구별"
+    },
+    {
+      "cited_url": "https://doi.org/10.1016/S2468-2667(23)00306-7",
+      "request_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1016%2FS2468-2667%2823%2900306-7&format=json&resultType=core",
+      "kind": "europepmc_metadata_or_embedded_abstract",
+      "requested_at_utc": "2026-10-18T16:27:49.289577+00:00",
+      "artifact": "4d19cf2824f10bba9018df11.raw",
+      "scope": "Prefetch only; HTTP status/content is not semantic source verification.",
+      "http_status": 200,
+      "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1016%2FS2468-2667%2823%2900306-7&format=json&resultType=core",
+      "content_type": "application/json;charset=UTF-8",
+      "truncated": false,
+      "bytes": 196,
+      "sha256": "5c4ba1123c8cf18fce931be06deee0970d1ba563b408b7a9f3cf6ed71fa95f71",
+      "id": "prefetch:2",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch23-prefetch/4d19cf2824f10bba9018df11.raw",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1016%2FS2468-2667%2823%2900306-7&format=json&resultType=core",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "EuropePMC 검색0건; 논문 부재 증명 아님. 2는 괄호 DOI 인용 추가 검색으로 해소."
+    },
+    {
+      "cited_url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156472570",
+      "request_url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156472570",
+      "kind": "cited_url",
+      "requested_at_utc": "2026-10-18T16:27:49.290468+00:00",
+      "artifact": "ef275034758d5e1e209a744f.raw",
+      "scope": "Prefetch only; HTTP status/content is not semantic source verification.",
+      "http_status": 200,
+      "final_url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156472570",
+      "content_type": "text/html;charset=UTF-8",
+      "truncated": false,
+      "bytes": 150631,
+      "sha256": "5b8000328400ff20aa8d4941c80eb04f34fc6008d1e1c63487a5b86253831d0a",
+      "id": "prefetch:3",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch23-prefetch/ef275034758d5e1e209a744f.raw",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156472570",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "공식 게시물 제목/발표일/첨부 링크 확인. 수치는 more 첨부 원자료로 확인."
+    },
+    {
+      "cited_url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156472566",
+      "request_url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156472566",
+      "kind": "cited_url",
+      "requested_at_utc": "2026-10-18T16:27:49.298816+00:00",
+      "artifact": "b21d1e76d8cb9e0555eaa706.raw",
+      "scope": "Prefetch only; HTTP status/content is not semantic source verification.",
+      "http_status": 200,
+      "final_url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156472566",
+      "content_type": "text/html;charset=UTF-8",
+      "truncated": false,
+      "bytes": 169687,
+      "sha256": "b778bf9baea32d6bc92adfc968d0356d046d30815ae2faf8315ed915bda5ef25",
+      "id": "prefetch:4",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch23-prefetch/b21d1e76d8cb9e0555eaa706.raw",
+      "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156472566",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "기존 캐시 실제 기관 안내/보도 본문 열람; 항목별 범위 참조"
+    },
+    {
+      "cited_url": "https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=294&boardSeq=105272&lev=0&searchType=null&statusYN=W&page=1&s=moe&m=020402&opType=N",
+      "request_url": "https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=294&boardSeq=105272&lev=0&searchType=null&statusYN=W&page=1&s=moe&m=020402&opType=N",
+      "kind": "cited_url",
+      "requested_at_utc": "2026-10-18T16:27:49.300467+00:00",
+      "artifact": "01b6834d8b7543aabc838884.raw",
+      "scope": "Prefetch only; HTTP status/content is not semantic source verification.",
+      "http_status": 200,
+      "final_url": "https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=294&boardSeq=105272&lev=0&searchType=null&statusYN=W&page=1&s=moe&m=020402&opType=N",
+      "content_type": "text/html;charset=UTF-8",
+      "truncated": false,
+      "bytes": 190542,
+      "sha256": "0388e923e6ef440de0db72ba1f2f656270e8a19473a48909dcb1d53e9b83fae9",
+      "id": "prefetch:5",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch23-prefetch/01b6834d8b7543aabc838884.raw",
+      "url": "https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=294&boardSeq=105272&lev=0&searchType=null&statusYN=W&page=1&s=moe&m=020402&opType=N",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "공식 게시물 제목/발표일/첨부 링크 확인. 수치는 more 첨부 원자료로 확인."
+    },
+    {
+      "cited_url": "https://www.kosaf.go.kr/ko/tuition.do?pg=tuition04_01_01&ttab1=0",
+      "request_url": "https://www.kosaf.go.kr/ko/tuition.do?pg=tuition04_01_01&ttab1=0",
+      "kind": "cited_url",
+      "requested_at_utc": "2026-10-18T16:27:49.655336+00:00",
+      "artifact": "1478e2ac7e6e2fa8497dbd00.raw",
+      "scope": "Prefetch only; HTTP status/content is not semantic source verification.",
+      "error": "HTTPError: HTTP Error 503: Service Unavailable",
+      "id": "prefetch:6",
+      "url": "https://www.kosaf.go.kr/ko/tuition.do?pg=tuition04_01_01&ttab1=0",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "요청 실패/비200; 본문 미열람",
+      "expected_artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch23-prefetch/1478e2ac7e6e2fa8497dbd00.raw",
+      "cache_file": null
+    },
+    {
+      "cited_url": "https://www.korea.kr/news/policyNewsView.do?newsId=148966610",
+      "request_url": "https://www.korea.kr/news/policyNewsView.do?newsId=148966610",
+      "kind": "cited_url",
+      "requested_at_utc": "2026-10-18T16:27:49.953203+00:00",
+      "artifact": "9ca1965e7bc135d8021605ef.raw",
+      "scope": "Prefetch only; HTTP status/content is not semantic source verification.",
+      "http_status": 200,
+      "final_url": "https://www.korea.kr/news/policyNewsView.do?newsId=148966610",
+      "content_type": "text/html;charset=UTF-8",
+      "truncated": false,
+      "bytes": 169531,
+      "sha256": "dc946b2ec0903856c5178d88223bd08dcdbc0e37c3e381a8020713143adf91f7",
+      "id": "prefetch:7",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch23-prefetch/9ca1965e7bc135d8021605ef.raw",
+      "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148966610",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "기존 캐시 실제 기관 안내/보도 본문 열람; 항목별 범위 참조"
+    },
+    {
+      "cited_url": "https://www.moel.go.kr/news/enews/report/enewsView.do?news_seq=19337",
+      "request_url": "https://www.moel.go.kr/news/enews/report/enewsView.do?news_seq=19337",
+      "kind": "cited_url",
+      "requested_at_utc": "2026-10-18T16:27:50.635496+00:00",
+      "artifact": "9e648859640cce17f24209bd.raw",
+      "scope": "Prefetch only; HTTP status/content is not semantic source verification.",
+      "http_status": 200,
+      "final_url": "https://www.moel.go.kr/news/enews/report/enewsView.do?news_seq=19337",
+      "content_type": "text/html; charset=UTF-8",
+      "truncated": false,
+      "bytes": 247370,
+      "sha256": "b87ee07d33cfd6e0c2d11f9b2994475cf0adf40b7a15bf4fe33d3613a62f973a",
+      "id": "prefetch:8",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch23-prefetch/9e648859640cce17f24209bd.raw",
+      "url": "https://www.moel.go.kr/news/enews/report/enewsView.do?news_seq=19337",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "공식 게시물 제목/발표일/첨부 링크 확인. 수치는 more 첨부 원자료로 확인."
+    },
+    {
+      "cited_url": "https://doi.org/10.1080/09645292.2018.1484426",
+      "request_url": "https://doi.org/10.1080/09645292.2018.1484426",
+      "kind": "cited_url",
+      "requested_at_utc": "2026-10-18T16:27:51.671708+00:00",
+      "artifact": "a4eaf2412c404a908798f219.raw",
+      "scope": "Prefetch only; HTTP status/content is not semantic source verification.",
+      "error": "HTTPError: HTTP Error 403: Forbidden",
+      "id": "prefetch:9",
+      "url": "https://doi.org/10.1080/09645292.2018.1484426",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "요청 실패/비200; 본문 미열람",
+      "expected_artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch23-prefetch/a4eaf2412c404a908798f219.raw",
+      "cache_file": null
+    },
+    {
+      "cited_url": "https://doi.org/10.1080/09645292.2018.1484426",
+      "request_url": "https://api.crossref.org/works/10.1080%2F09645292.2018.1484426",
+      "kind": "crossref_metadata_or_embedded_abstract",
+      "requested_at_utc": "2026-10-18T16:27:51.748427+00:00",
+      "artifact": "7679fa7383d087ab22279d55.raw",
+      "scope": "Prefetch only; HTTP status/content is not semantic source verification.",
+      "http_status": 200,
+      "final_url": "https://api.crossref.org/works/10.1080%2F09645292.2018.1484426",
+      "content_type": "application/json",
+      "truncated": false,
+      "bytes": 9081,
+      "sha256": "d6afa3838f4b5c826aed01f947757b67b11c4d6cbf94b1f7566f042e1ff83a82",
+      "id": "prefetch:10",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch23-prefetch/7679fa7383d087ab22279d55.raw",
+      "url": "https://api.crossref.org/works/10.1080%2F09645292.2018.1484426",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "Crossref 서지; 28/37은 실제 원초록 포함, 나머지는 서지와 원논문 구별"
+    },
+    {
+      "cited_url": "https://doi.org/10.1080/09645292.2018.1484426",
+      "request_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1080%2F09645292.2018.1484426&format=json&resultType=core",
+      "kind": "europepmc_metadata_or_embedded_abstract",
+      "requested_at_utc": "2026-10-18T16:27:52.123563+00:00",
+      "artifact": "3986dd7841303dfffb194717.raw",
+      "scope": "Prefetch only; HTTP status/content is not semantic source verification.",
+      "http_status": 200,
+      "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1080%2F09645292.2018.1484426&format=json&resultType=core",
+      "content_type": "application/json;charset=UTF-8",
+      "truncated": false,
+      "bytes": 196,
+      "sha256": "35a36468cddbaa28d602553483443b431efffe84ed7c8f8f15bf9731cb777402",
+      "id": "prefetch:11",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch23-prefetch/3986dd7841303dfffb194717.raw",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1080%2F09645292.2018.1484426&format=json&resultType=core",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "EuropePMC 검색0건; 논문 부재 증명 아님. 2는 괄호 DOI 인용 추가 검색으로 해소."
+    },
+    {
+      "cited_url": "https://doi.org/10.1596/1813-9450-8402",
+      "request_url": "https://doi.org/10.1596/1813-9450-8402",
+      "kind": "cited_url",
+      "requested_at_utc": "2026-10-18T16:27:52.180224+00:00",
+      "artifact": "7042c01a92e195187d4a419e.raw",
+      "scope": "Prefetch only; HTTP status/content is not semantic source verification.",
+      "http_status": 200,
+      "final_url": "https://openknowledge.worldbank.org/handle/10986/29672",
+      "content_type": "text/html; charset=UTF-8",
+      "truncated": false,
+      "bytes": 2372,
+      "sha256": "95f222f5d1221167f680c92e32e6e7d6beb89ef35a3cfbc3e65c48327803047e",
+      "id": "prefetch:12",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch23-prefetch/7042c01a92e195187d4a419e.raw",
+      "url": "https://doi.org/10.1596/1813-9450-8402",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "HTTP200이나 Angular/JS/reCAPTCHA/리다이렉트 셸. 원논문·서비스 본문 확인 아님."
+    },
+    {
+      "cited_url": "https://doi.org/10.1596/1813-9450-8402",
+      "request_url": "https://api.crossref.org/works/10.1596%2F1813-9450-8402",
+      "kind": "crossref_metadata_or_embedded_abstract",
+      "requested_at_utc": "2026-10-18T16:27:52.305366+00:00",
+      "artifact": "0a0a7a59590009e22eaed615.raw",
+      "scope": "Prefetch only; HTTP status/content is not semantic source verification.",
+      "http_status": 200,
+      "final_url": "https://api.crossref.org/works/10.1596%2F1813-9450-8402",
+      "content_type": "application/json",
+      "truncated": false,
+      "bytes": 1479,
+      "sha256": "b22ab9999b3612e4d6083943447225c40da678d72a7bedacaede45a9e032b084",
+      "id": "prefetch:13",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch23-prefetch/0a0a7a59590009e22eaed615.raw",
+      "url": "https://api.crossref.org/works/10.1596%2F1813-9450-8402",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "Crossref 서지; 28/37은 실제 원초록 포함, 나머지는 서지와 원논문 구별"
+    },
+    {
+      "cited_url": "https://doi.org/10.1596/1813-9450-8402",
+      "request_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1596%2F1813-9450-8402&format=json&resultType=core",
+      "kind": "europepmc_metadata_or_embedded_abstract",
+      "requested_at_utc": "2026-10-18T16:27:52.806842+00:00",
+      "artifact": "232bcbd42f286d7e0fd48d1a.raw",
+      "scope": "Prefetch only; HTTP status/content is not semantic source verification.",
+      "http_status": 200,
+      "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1596%2F1813-9450-8402&format=json&resultType=core",
+      "content_type": "application/json;charset=UTF-8",
+      "truncated": false,
+      "bytes": 189,
+      "sha256": "30970a557485be18a85404a2390a0faf9b2b5486eb06fac028259ef5fe5cab5f",
+      "id": "prefetch:14",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch23-prefetch/232bcbd42f286d7e0fd48d1a.raw",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1596%2F1813-9450-8402&format=json&resultType=core",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "EuropePMC 검색0건; 논문 부재 증명 아님. 2는 괄호 DOI 인용 추가 검색으로 해소."
+    },
+    {
+      "cited_url": "https://www.pqi.or.kr",
+      "request_url": "https://www.pqi.or.kr",
+      "kind": "cited_url",
+      "requested_at_utc": "2026-10-18T16:27:52.813844+00:00",
+      "artifact": "0bc67b321ebf9433bc1dcd28.raw",
+      "scope": "Prefetch only; HTTP status/content is not semantic source verification.",
+      "http_status": 200,
+      "final_url": "https://www.pqi.or.kr/indexMain.do",
+      "content_type": "text/html;charset=UTF-8",
+      "truncated": false,
+      "bytes": 55874,
+      "sha256": "17a940a4bb576730913a10feb1fde1cee030742b75f5ec2dc0d4570a4c12f46d",
+      "id": "prefetch:15",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch23-prefetch/0bc67b321ebf9433bc1dcd28.raw",
+      "url": "https://www.pqi.or.kr",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "기존 캐시 실제 기관 안내/보도 본문 열람; 항목별 범위 참조"
+    },
+    {
+      "cited_url": "https://www.q-net.or.kr/qlf001.do?id=qlf00101",
+      "request_url": "https://www.q-net.or.kr/qlf001.do?id=qlf00101",
+      "kind": "cited_url",
+      "requested_at_utc": "2026-10-18T16:27:52.979022+00:00",
+      "artifact": "43c94125c3bddade41253389.raw",
+      "scope": "Prefetch only; HTTP status/content is not semantic source verification.",
+      "http_status": 200,
+      "final_url": "https://www.q-net.or.kr/qlf001.do?id=qlf00101",
+      "content_type": "text/html;charset=UTF-8",
+      "truncated": false,
+      "bytes": 230015,
+      "sha256": "34289b47afff802d740a39b2f98a166dae0bfdae85a040107c742a09c8d4178f",
+      "id": "prefetch:16",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch23-prefetch/43c94125c3bddade41253389.raw",
+      "url": "https://www.q-net.or.kr/qlf001.do?id=qlf00101",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "기존 캐시 실제 기관 안내/보도 본문 열람; 항목별 범위 참조"
+    },
+    {
+      "cited_url": "https://m.work24.go.kr/hr/h/a/1100/selectIssuGudn.do",
+      "request_url": "https://m.work24.go.kr/hr/h/a/1100/selectIssuGudn.do",
+      "kind": "cited_url",
+      "requested_at_utc": "2026-10-18T16:27:53.250870+00:00",
+      "artifact": "a8213a53c1b2f9c031e486c7.raw",
+      "scope": "Prefetch only; HTTP status/content is not semantic source verification.",
+      "http_status": 200,
+      "final_url": "https://m.work24.go.kr/hr/h/a/1100/selectIssuGudn.do",
+      "content_type": "text/html;charset=UTF-8",
+      "truncated": false,
+      "bytes": 336373,
+      "sha256": "cd90fea0ed828aff1269815d44ed4eba47db20e2e2d6dc1500ee6be595641e3f",
+      "id": "prefetch:17",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch23-prefetch/a8213a53c1b2f9c031e486c7.raw",
+      "url": "https://m.work24.go.kr/hr/h/a/1100/selectIssuGudn.do",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "기존 캐시 실제 기관 안내/보도 본문 열람; 항목별 범위 참조"
+    },
+    {
+      "cited_url": "https://m.work24.go.kr/cm/c/f/1100/selecSystInfo.do?systId=SI00000360&systClId=SC00000048",
+      "request_url": "https://m.work24.go.kr/cm/c/f/1100/selecSystInfo.do?systId=SI00000360&systClId=SC00000048",
+      "kind": "cited_url",
+      "requested_at_utc": "2026-10-18T16:27:53.348500+00:00",
+      "artifact": "2a1faf93ee4f31a2ac27ec06.raw",
+      "scope": "Prefetch only; HTTP status/content is not semantic source verification.",
+      "http_status": 200,
+      "final_url": "https://m.work24.go.kr/cm/c/f/1100/selecSystInfo.do?systId=SI00000360&systClId=SC00000048",
+      "content_type": "text/html;charset=UTF-8",
+      "truncated": false,
+      "bytes": 410910,
+      "sha256": "a712eddf451b1823b1d58535b535d4f590b5dafbd55b4559933f4d92f9603eb0",
+      "id": "prefetch:18",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch23-prefetch/2a1faf93ee4f31a2ac27ec06.raw",
+      "url": "https://m.work24.go.kr/cm/c/f/1100/selecSystInfo.do?systId=SI00000360&systClId=SC00000048",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "기존 캐시 실제 기관 안내/보도 본문 열람; 항목별 범위 참조"
+    },
+    {
+      "cited_url": "https://doi.org/10.1016/j.techfore.2016.08.019",
+      "request_url": "https://doi.org/10.1016/j.techfore.2016.08.019",
+      "kind": "cited_url",
+      "requested_at_utc": "2026-10-18T16:27:53.356071+00:00",
+      "artifact": "a695e5688f32c72eda7240ba.raw",
+      "scope": "Prefetch only; HTTP status/content is not semantic source verification.",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
+      "id": "prefetch:19",
+      "url": "https://doi.org/10.1016/j.techfore.2016.08.019",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "요청 실패/비200; 본문 미열람",
+      "expected_artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch23-prefetch/a695e5688f32c72eda7240ba.raw",
+      "cache_file": null
+    },
+    {
+      "cited_url": "https://doi.org/10.1016/j.techfore.2016.08.019",
+      "request_url": "https://api.crossref.org/works/10.1016%2Fj.techfore.2016.08.019",
+      "kind": "crossref_metadata_or_embedded_abstract",
+      "requested_at_utc": "2026-10-18T16:27:53.516654+00:00",
+      "artifact": "50da4bdd25790fbe224c01e4.raw",
+      "scope": "Prefetch only; HTTP status/content is not semantic source verification.",
+      "http_status": 200,
+      "final_url": "https://api.crossref.org/works/10.1016%2Fj.techfore.2016.08.019",
+      "content_type": "application/json",
+      "truncated": false,
+      "bytes": 33957,
+      "sha256": "e5ff05a4f413843f80bcc4d42c29b6ef1a9d1c3a03b7088f3769f4f3a63bfc5d",
+      "id": "prefetch:20",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch23-prefetch/50da4bdd25790fbe224c01e4.raw",
+      "url": "https://api.crossref.org/works/10.1016%2Fj.techfore.2016.08.019",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "Crossref 서지; 28/37은 실제 원초록 포함, 나머지는 서지와 원논문 구별"
+    },
+    {
+      "cited_url": "https://doi.org/10.1016/j.techfore.2016.08.019",
+      "request_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1016%2Fj.techfore.2016.08.019&format=json&resultType=core",
+      "kind": "europepmc_metadata_or_embedded_abstract",
+      "requested_at_utc": "2026-10-18T16:27:53.868628+00:00",
+      "artifact": "60440e17c2ab2144388b77fb.raw",
+      "scope": "Prefetch only; HTTP status/content is not semantic source verification.",
+      "http_status": 200,
+      "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1016%2Fj.techfore.2016.08.019&format=json&resultType=core",
+      "content_type": "application/json;charset=UTF-8",
+      "truncated": false,
+      "bytes": 197,
+      "sha256": "10ba0887b44bbcfa25ce075e8d4608a6e7e5dc96c8ce92e4a02e69da811059e6",
+      "id": "prefetch:21",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch23-prefetch/60440e17c2ab2144388b77fb.raw",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1016%2Fj.techfore.2016.08.019&format=json&resultType=core",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "EuropePMC 검색0건; 논문 부재 증명 아님. 2는 괄호 DOI 인용 추가 검색으로 해소."
+    },
+    {
+      "cited_url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156737430",
+      "request_url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156737430",
+      "kind": "cited_url",
+      "requested_at_utc": "2026-10-18T16:27:54.044959+00:00",
+      "artifact": "fe978cd2f291575b4aa2531b.raw",
+      "scope": "Prefetch only; HTTP status/content is not semantic source verification.",
+      "http_status": 200,
+      "final_url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156737430",
+      "content_type": "text/html;charset=UTF-8",
+      "truncated": false,
+      "bytes": 169067,
+      "sha256": "1ad5d403c2885802481d2d2bc645543b22801a0d20cd64c29d1365d48a51b5ba",
+      "id": "prefetch:22",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch23-prefetch/fe978cd2f291575b4aa2531b.raw",
+      "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156737430",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "기존 캐시 실제 기관 안내/보도 본문 열람; 항목별 범위 참조"
+    },
+    {
+      "cited_url": "https://www.work24.go.kr/hr/a/a/3200/selectTrainInstitution.do?tracseId=&tracseTme=&trainstCstmrId=500034730103&crseTracseSe=C0031",
+      "request_url": "https://www.work24.go.kr/hr/a/a/3200/selectTrainInstitution.do?tracseId=&tracseTme=&trainstCstmrId=500034730103&crseTracseSe=C0031",
+      "kind": "cited_url",
+      "requested_at_utc": "2026-10-18T16:27:55.769552+00:00",
+      "artifact": "c59c183b51bddbb82afdcab4.raw",
+      "scope": "Prefetch only; HTTP status/content is not semantic source verification.",
+      "http_status": 200,
+      "final_url": "https://www.work24.go.kr/hr/a/a/3200/selectTrainInstitution.do?tracseId=&tracseTme=&trainstCstmrId=500034730103&crseTracseSe=C0031",
+      "content_type": "text/html;charset=UTF-8",
+      "truncated": false,
+      "bytes": 334459,
+      "sha256": "be9c14ce34889176aafece2a22bbe6f65075d35bf4310d7eb972697b771ccd9e",
+      "id": "prefetch:23",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch23-prefetch/c59c183b51bddbb82afdcab4.raw",
+      "url": "https://www.work24.go.kr/hr/a/a/3200/selectTrainInstitution.do?tracseId=&tracseTme=&trainstCstmrId=500034730103&crseTracseSe=C0031",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "기존 캐시 실제 기관 안내/보도 본문 열람; 항목별 범위 참조"
+    },
+    {
+      "cited_url": "https://doi.org/10.1037/bul0000309",
+      "request_url": "https://doi.org/10.1037/bul0000309",
+      "kind": "cited_url",
+      "requested_at_utc": "2026-10-18T16:27:55.962661+00:00",
+      "artifact": "4a263751d265effb61ab904e.raw",
+      "scope": "Prefetch only; HTTP status/content is not semantic source verification.",
+      "http_status": 200,
+      "final_url": "https://psycnet.apa.org:443/doiLanding?doi=10.1037/bul0000309",
+      "content_type": "text/html; charset=UTF-8",
+      "truncated": false,
+      "bytes": 8161,
+      "sha256": "46cb3a7608c6c0f7592e725fa1f783e474b86c87f67de47e4ba938410cbf3758",
+      "id": "prefetch:24",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch23-prefetch/4a263751d265effb61ab904e.raw",
+      "url": "https://doi.org/10.1037/bul0000309",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "HTTP200이나 Angular/JS/reCAPTCHA/리다이렉트 셸. 원논문·서비스 본문 확인 아님."
+    },
+    {
+      "cited_url": "https://doi.org/10.1037/bul0000309",
+      "request_url": "https://api.crossref.org/works/10.1037%2Fbul0000309",
+      "kind": "crossref_metadata_or_embedded_abstract",
+      "requested_at_utc": "2026-10-18T16:27:55.981724+00:00",
+      "artifact": "d8c83e92fb2153cb715d5422.raw",
+      "scope": "Prefetch only; HTTP status/content is not semantic source verification.",
+      "http_status": 200,
+      "final_url": "https://api.crossref.org/works/10.1037%2Fbul0000309",
+      "content_type": "application/json",
+      "truncated": false,
+      "bytes": 3700,
+      "sha256": "a9c668a6b37c91f7886179dfb9e34dd0a6c9b3c9bff8e2515e24ffe270a8c059",
+      "id": "prefetch:25",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch23-prefetch/d8c83e92fb2153cb715d5422.raw",
+      "url": "https://api.crossref.org/works/10.1037%2Fbul0000309",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "Crossref 서지; 28/37은 실제 원초록 포함, 나머지는 서지와 원논문 구별"
+    },
+    {
+      "cited_url": "https://doi.org/10.1037/bul0000309",
+      "request_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1037%2Fbul0000309&format=json&resultType=core",
+      "kind": "europepmc_metadata_or_embedded_abstract",
+      "requested_at_utc": "2026-10-18T16:27:56.394135+00:00",
+      "artifact": "82c1f0cacac5bf25d35d5959.raw",
+      "scope": "Prefetch only; HTTP status/content is not semantic source verification.",
+      "http_status": 200,
+      "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1037%2Fbul0000309&format=json&resultType=core",
+      "content_type": "application/json;charset=UTF-8",
+      "truncated": false,
+      "bytes": 6000,
+      "sha256": "eb4a137992e2a6c72bf0685db9cd789513d32b6c611501aeacaf4decd5a6f1b8",
+      "id": "prefetch:26",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch23-prefetch/82c1f0cacac5bf25d35d5959.raw",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1037%2Fbul0000309&format=json&resultType=core",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "EuropePMC 실제 원초록 전문 열람; 연구 방법/표본/효과크기/한계 확인. 논문 전문 열람 아님."
+    },
+    {
+      "cited_url": "https://doi.org/10.1177/1529100612453266",
+      "request_url": "https://doi.org/10.1177/1529100612453266",
+      "kind": "cited_url",
+      "requested_at_utc": "2026-10-18T16:27:56.522761+00:00",
+      "artifact": "5f6045c885ac4c8cbd52197d.raw",
+      "scope": "Prefetch only; HTTP status/content is not semantic source verification.",
+      "error": "HTTPError: HTTP Error 403: Forbidden",
+      "id": "prefetch:27",
+      "url": "https://doi.org/10.1177/1529100612453266",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "요청 실패/비200; 본문 미열람",
+      "expected_artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch23-prefetch/5f6045c885ac4c8cbd52197d.raw",
+      "cache_file": null
+    },
+    {
+      "cited_url": "https://doi.org/10.1177/1529100612453266",
+      "request_url": "https://api.crossref.org/works/10.1177%2F1529100612453266",
+      "kind": "crossref_metadata_or_embedded_abstract",
+      "requested_at_utc": "2026-10-18T16:27:56.615859+00:00",
+      "artifact": "b9455969770e90417ad75257.raw",
+      "scope": "Prefetch only; HTTP status/content is not semantic source verification.",
+      "http_status": 200,
+      "final_url": "https://api.crossref.org/works/10.1177%2F1529100612453266",
+      "content_type": "application/json",
+      "truncated": false,
+      "bytes": 49781,
+      "sha256": "0756b876ac40df0218f2ff802c50d38bb1152591472efb2e77e52b429076493a",
+      "id": "prefetch:28",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch23-prefetch/b9455969770e90417ad75257.raw",
+      "url": "https://api.crossref.org/works/10.1177%2F1529100612453266",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "Crossref 서지; 28/37은 실제 원초록 포함, 나머지는 서지와 원논문 구별"
+    },
+    {
+      "cited_url": "https://doi.org/10.1177/1529100612453266",
+      "request_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1177%2F1529100612453266&format=json&resultType=core",
+      "kind": "europepmc_metadata_or_embedded_abstract",
+      "requested_at_utc": "2026-10-18T16:27:56.919429+00:00",
+      "artifact": "b27c5df1d83aeeadba86cb93.raw",
+      "scope": "Prefetch only; HTTP status/content is not semantic source verification.",
+      "http_status": 200,
+      "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1177%2F1529100612453266&format=json&resultType=core",
+      "content_type": "application/json;charset=UTF-8",
+      "truncated": false,
+      "bytes": 8361,
+      "sha256": "328015b6bfafb7188f061a7088a75e7c41fb9ea627e8ace6613126e4072bdca7",
+      "id": "prefetch:29",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch23-prefetch/b27c5df1d83aeeadba86cb93.raw",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1177%2F1529100612453266&format=json&resultType=core",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "EuropePMC 실제 원초록 전문 열람; 연구 방법/표본/효과크기/한계 확인. 논문 전문 열람 아님."
+    },
+    {
+      "cited_url": "https://doi.org/10.1037/0033-2909.132.3.354",
+      "request_url": "https://doi.org/10.1037/0033-2909.132.3.354",
+      "kind": "cited_url",
+      "requested_at_utc": "2026-10-18T16:27:57.036823+00:00",
+      "artifact": "6aca1cea9e778808e31ee697.raw",
+      "scope": "Prefetch only; HTTP status/content is not semantic source verification.",
+      "http_status": 200,
+      "final_url": "https://psycnet.apa.org:443/doiLanding?doi=10.1037/0033-2909.132.3.354",
+      "content_type": "text/html; charset=UTF-8",
+      "truncated": false,
+      "bytes": 8161,
+      "sha256": "cb6cd41da1772ea29a4438a043cc043e92d20d69e01e97e645b6d5ffc82e709e",
+      "id": "prefetch:30",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch23-prefetch/6aca1cea9e778808e31ee697.raw",
+      "url": "https://doi.org/10.1037/0033-2909.132.3.354",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "HTTP200이나 Angular/JS/reCAPTCHA/리다이렉트 셸. 원논문·서비스 본문 확인 아님."
+    },
+    {
+      "cited_url": "https://doi.org/10.1037/0033-2909.132.3.354",
+      "request_url": "https://api.crossref.org/works/10.1037%2F0033-2909.132.3.354",
+      "kind": "crossref_metadata_or_embedded_abstract",
+      "requested_at_utc": "2026-10-18T16:27:57.333741+00:00",
+      "artifact": "ac1dc99b6cdefbc57b983be9.raw",
+      "scope": "Prefetch only; HTTP status/content is not semantic source verification.",
+      "http_status": 200,
+      "final_url": "https://api.crossref.org/works/10.1037%2F0033-2909.132.3.354",
+      "content_type": "application/json",
+      "truncated": false,
+      "bytes": 44047,
+      "sha256": "a41f8169d21292d886e52aa8581f1157283aa3fc5445801a93c8165f9e8d90be",
+      "id": "prefetch:31",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch23-prefetch/ac1dc99b6cdefbc57b983be9.raw",
+      "url": "https://api.crossref.org/works/10.1037%2F0033-2909.132.3.354",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "Crossref 서지; 28/37은 실제 원초록 포함, 나머지는 서지와 원논문 구별"
+    },
+    {
+      "cited_url": "https://doi.org/10.1037/0033-2909.132.3.354",
+      "request_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1037%2F0033-2909.132.3.354&format=json&resultType=core",
+      "kind": "europepmc_metadata_or_embedded_abstract",
+      "requested_at_utc": "2026-10-18T16:27:57.382713+00:00",
+      "artifact": "8797ea30f60da393d220656d.raw",
+      "scope": "Prefetch only; HTTP status/content is not semantic source verification.",
+      "http_status": 200,
+      "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1037%2F0033-2909.132.3.354&format=json&resultType=core",
+      "content_type": "application/json;charset=UTF-8",
+      "truncated": false,
+      "bytes": 3909,
+      "sha256": "e504d2217b3bf9c29b45362d58d2fc063e83367ba4b7888be96327006336c11c",
+      "id": "prefetch:32",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch23-prefetch/8797ea30f60da393d220656d.raw",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1037%2F0033-2909.132.3.354&format=json&resultType=core",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "EuropePMC 실제 원초록 전문 열람; 연구 방법/표본/효과크기/한계 확인. 논문 전문 열람 아님."
+    },
+    {
+      "cited_url": "https://doi.org/10.1037/bul0000209",
+      "request_url": "https://doi.org/10.1037/bul0000209",
+      "kind": "cited_url",
+      "requested_at_utc": "2026-10-18T16:27:57.546443+00:00",
+      "artifact": "534de823a3d2832fc1c71ad0.raw",
+      "scope": "Prefetch only; HTTP status/content is not semantic source verification.",
+      "http_status": 200,
+      "final_url": "https://psycnet.apa.org:443/doiLanding?doi=10.1037/bul0000209",
+      "content_type": "text/html; charset=UTF-8",
+      "truncated": false,
+      "bytes": 8161,
+      "sha256": "4a2db93e139a87c97d6238dae61d49aeb89c87b876f9fb063b0bac1292b1c87a",
+      "id": "prefetch:33",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch23-prefetch/534de823a3d2832fc1c71ad0.raw",
+      "url": "https://doi.org/10.1037/bul0000209",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "HTTP200이나 Angular/JS/reCAPTCHA/리다이렉트 셸. 원논문·서비스 본문 확인 아님."
+    },
+    {
+      "cited_url": "https://doi.org/10.1037/bul0000209",
+      "request_url": "https://api.crossref.org/works/10.1037%2Fbul0000209",
+      "kind": "crossref_metadata_or_embedded_abstract",
+      "requested_at_utc": "2026-10-18T16:27:57.613765+00:00",
+      "artifact": "0940907997a2dd751bace8fc.raw",
+      "scope": "Prefetch only; HTTP status/content is not semantic source verification.",
+      "http_status": 200,
+      "final_url": "https://api.crossref.org/works/10.1037%2Fbul0000209",
+      "content_type": "application/json",
+      "truncated": false,
+      "bytes": 2008,
+      "sha256": "f73110226a371773e85f03a6014183399e6b72516448b36f7af3e43a1d68e793",
+      "id": "prefetch:34",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch23-prefetch/0940907997a2dd751bace8fc.raw",
+      "url": "https://api.crossref.org/works/10.1037%2Fbul0000209",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "Crossref 서지; 28/37은 실제 원초록 포함, 나머지는 서지와 원논문 구별"
+    },
+    {
+      "cited_url": "https://doi.org/10.1037/bul0000209",
+      "request_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1037%2Fbul0000209&format=json&resultType=core",
+      "kind": "europepmc_metadata_or_embedded_abstract",
+      "requested_at_utc": "2026-10-18T16:27:57.627226+00:00",
+      "artifact": "84b31b13e289b1c70dfb38b7.raw",
+      "scope": "Prefetch only; HTTP status/content is not semantic source verification.",
+      "http_status": 200,
+      "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1037%2Fbul0000209&format=json&resultType=core",
+      "content_type": "application/json;charset=UTF-8",
+      "truncated": false,
+      "bytes": 4576,
+      "sha256": "6204ec1a7510b825ed0fd6b2bd24724a2b85ec9004fc1a80213e395c60bc9c47",
+      "id": "prefetch:35",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch23-prefetch/84b31b13e289b1c70dfb38b7.raw",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1037%2Fbul0000209&format=json&resultType=core",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "EuropePMC 실제 원초록 전문 열람; 연구 방법/표본/효과크기/한계 확인. 논문 전문 열람 아님."
+    },
+    {
+      "cited_url": "https://doi.org/10.1111/j.1539-6053.2009.01038.x",
+      "request_url": "https://doi.org/10.1111/j.1539-6053.2009.01038.x",
+      "kind": "cited_url",
+      "requested_at_utc": "2026-10-18T16:27:57.676729+00:00",
+      "artifact": "ab5d977017fc68ef6b20e55c.raw",
+      "scope": "Prefetch only; HTTP status/content is not semantic source verification.",
+      "error": "HTTPError: HTTP Error 403: Forbidden",
+      "id": "prefetch:36",
+      "url": "https://doi.org/10.1111/j.1539-6053.2009.01038.x",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "요청 실패/비200; 본문 미열람",
+      "expected_artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch23-prefetch/ab5d977017fc68ef6b20e55c.raw",
+      "cache_file": null
+    },
+    {
+      "cited_url": "https://doi.org/10.1111/j.1539-6053.2009.01038.x",
+      "request_url": "https://api.crossref.org/works/10.1111%2Fj.1539-6053.2009.01038.x",
+      "kind": "crossref_metadata_or_embedded_abstract",
+      "requested_at_utc": "2026-10-18T16:27:57.906772+00:00",
+      "artifact": "a0fdd4fe9d3cef87f7a07305.raw",
+      "scope": "Prefetch only; HTTP status/content is not semantic source verification.",
+      "http_status": 200,
+      "final_url": "https://api.crossref.org/works/10.1111%2Fj.1539-6053.2009.01038.x",
+      "content_type": "application/json",
+      "truncated": false,
+      "bytes": 15314,
+      "sha256": "1028739ee8c999e52572b522b48393848536f5b885d6e96b9e762443d7ce05de",
+      "id": "prefetch:37",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch23-prefetch/a0fdd4fe9d3cef87f7a07305.raw",
+      "url": "https://api.crossref.org/works/10.1111%2Fj.1539-6053.2009.01038.x",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "Crossref 서지; 28/37은 실제 원초록 포함, 나머지는 서지와 원논문 구별"
+    },
+    {
+      "cited_url": "https://doi.org/10.1111/j.1539-6053.2009.01038.x",
+      "request_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1111%2Fj.1539-6053.2009.01038.x&format=json&resultType=core",
+      "kind": "europepmc_metadata_or_embedded_abstract",
+      "requested_at_utc": "2026-10-18T16:27:57.996942+00:00",
+      "artifact": "a88b2d0c38036e8464102994.raw",
+      "scope": "Prefetch only; HTTP status/content is not semantic source verification.",
+      "http_status": 200,
+      "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1111%2Fj.1539-6053.2009.01038.x&format=json&resultType=core",
+      "content_type": "application/json;charset=UTF-8",
+      "truncated": false,
+      "bytes": 6862,
+      "sha256": "a1158cc8933fa4385155f2fbc7ccee6c3574e513fdfd3cfc465c7ee8af18bafa",
+      "id": "prefetch:38",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch23-prefetch/a88b2d0c38036e8464102994.raw",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1111%2Fj.1539-6053.2009.01038.x&format=json&resultType=core",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "EuropePMC 실제 원초록 전문 열람; 연구 방법/표본/효과크기/한계 확인. 논문 전문 열람 아님."
+    },
+    {
+      "cited_url": "https://doi.org/10.1037/bul0000151",
+      "request_url": "https://doi.org/10.1037/bul0000151",
+      "kind": "cited_url",
+      "requested_at_utc": "2026-10-18T16:27:58.026511+00:00",
+      "artifact": "20257617b88b8e79b9d7264c.raw",
+      "scope": "Prefetch only; HTTP status/content is not semantic source verification.",
+      "http_status": 200,
+      "final_url": "https://psycnet.apa.org:443/doiLanding?doi=10.1037/bul0000151",
+      "content_type": "text/html; charset=UTF-8",
+      "truncated": false,
+      "bytes": 8162,
+      "sha256": "cc84723caf620996d1c4a17b131fbc35b6893b9efe3807476406f939dc037931",
+      "id": "prefetch:39",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch23-prefetch/20257617b88b8e79b9d7264c.raw",
+      "url": "https://doi.org/10.1037/bul0000151",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "HTTP200이나 Angular/JS/reCAPTCHA/리다이렉트 셸. 원논문·서비스 본문 확인 아님."
+    },
+    {
+      "cited_url": "https://doi.org/10.1037/bul0000151",
+      "request_url": "https://api.crossref.org/works/10.1037%2Fbul0000151",
+      "kind": "crossref_metadata_or_embedded_abstract",
+      "requested_at_utc": "2026-10-18T16:27:58.040399+00:00",
+      "artifact": "4ec878b820b140286095857e.raw",
+      "scope": "Prefetch only; HTTP status/content is not semantic source verification.",
+      "http_status": 200,
+      "final_url": "https://api.crossref.org/works/10.1037%2Fbul0000151",
+      "content_type": "application/json",
+      "truncated": false,
+      "bytes": 2498,
+      "sha256": "3803185e94afae071d37f46a63836ff08c2e14e8dd389429a4b7aec5979c75c5",
+      "id": "prefetch:40",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch23-prefetch/4ec878b820b140286095857e.raw",
+      "url": "https://api.crossref.org/works/10.1037%2Fbul0000151",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "Crossref 서지; 28/37은 실제 원초록 포함, 나머지는 서지와 원논문 구별"
+    },
+    {
+      "cited_url": "https://doi.org/10.1037/bul0000151",
+      "request_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1037%2Fbul0000151&format=json&resultType=core",
+      "kind": "europepmc_metadata_or_embedded_abstract",
+      "requested_at_utc": "2026-10-18T16:27:58.045466+00:00",
+      "artifact": "3f3251e2f931d37d198e54e9.raw",
+      "scope": "Prefetch only; HTTP status/content is not semantic source verification.",
+      "http_status": 200,
+      "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1037%2Fbul0000151&format=json&resultType=core",
+      "content_type": "application/json;charset=UTF-8",
+      "truncated": false,
+      "bytes": 5635,
+      "sha256": "20de5aab5ca94357d481f52601f34fae21d2ccb6e3b18ed41b30df2d38ae945c",
+      "id": "prefetch:41",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch23-prefetch/3f3251e2f931d37d198e54e9.raw",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1037%2Fbul0000151&format=json&resultType=core",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "EuropePMC 실제 원초록 전문 열람; 연구 방법/표본/효과크기/한계 확인. 논문 전문 열람 아님."
+    },
+    {
+      "cited_url": "https://www.q-net.or.kr",
+      "request_url": "https://www.q-net.or.kr",
+      "kind": "cited_url",
+      "requested_at_utc": "2026-10-18T16:27:58.339921+00:00",
+      "artifact": "b0c0de2d97d33c6ae933b099.raw",
+      "scope": "Prefetch only; HTTP status/content is not semantic source verification.",
+      "http_status": 200,
+      "final_url": "https://www.q-net.or.kr",
+      "content_type": "text/html",
+      "truncated": false,
+      "bytes": 359,
+      "sha256": "fb161437bd542fe9a40276d0303b3dfda075d359206d781cb74fa2be5f651ba5",
+      "id": "prefetch:42",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch23-prefetch/b0c0de2d97d33c6ae933b099.raw",
+      "url": "https://www.q-net.or.kr",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "HTTP200이나 Angular/JS/reCAPTCHA/리다이렉트 셸. 원논문·서비스 본문 확인 아님."
+    },
+    {
+      "request_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2FS2468-2667%2823%2900306-7%22&format=json&resultType=core",
+      "cited_url": "https://doi.org/10.1016/S2468-2667(23)00306-7",
+      "requested_at_utc": "2026-10-18T16:31:12.059929+00:00",
+      "kind": "quoted_doi_query_metadata_or_embedded_abstract",
+      "scope": "Prefetch only; directly read full content to establish source scope.",
+      "http_status": 200,
+      "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2FS2468-2667%2823%2900306-7%22&format=json&resultType=core",
+      "artifact": "cab51e9c9377a91033a93fd4.raw",
+      "sha256": "717d01dd0da82c042b5382b26bddce595e1e0029c92508516e97724c8804f901",
+      "bytes": 8408,
+      "id": "quoted-doi-additional-index:0",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2FS2468-2667%2823%2900306-7%22&format=json&resultType=core",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch23-prefetch/cab51e9c9377a91033a93fd4.raw",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "괄호를 인용한 DOI 검색의 실제 원초록"
+    },
+    {
+      "request_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10901745/fullTextXML",
+      "requested_at_utc": "2026-10-18T16:31:58.456193+00:00",
+      "kind": "repository_fulltext_XML",
+      "scope": "Prefetch only; human source reading still required.",
+      "http_status": 200,
+      "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10901745/fullTextXML",
+      "content_type": "application/xml",
+      "artifact": "education-mortality-PMC10901745.raw.xml",
+      "sha256": "83e4fae1a3e62ca4362e3984d4291b779dee992454456356bce7bbef510e49b7",
+      "bytes": 119035,
+      "id": "education-fulltext-index:0",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10901745/fullTextXML",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch23-prefetch/education-mortality-PMC10901745.raw.xml",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "PMC10901745 실제 전문 XML의 초록/선정기준/RR·HR 입력/모형/결과/한계 열람; 단순 PMC 서지 아님"
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=243041&type=XML",
+      "requested_at": "2026-10-18T12:44:51.995772+00:00",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/243041.xml",
+      "sha256": "5145d2064ff43228ac89a4b4d0a94b6b44555a23dda44e9a0b737bb392effab9",
+      "http_status": 200,
+      "id": "law:243041",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "국가기술자격법9~16/25의3/26·벌칙 및 부칙"
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=281223&type=XML",
+      "requested_at": "2026-10-18T12:44:51.146772+00:00",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/281223.xml",
+      "sha256": "1c63d7a75008786dd1cdbb9ef00b327b28b463e81e7dbcff2e03b91fe6932ec4",
+      "http_status": 200,
+      "id": "law:281223",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "국가기술자격령14/27·별표4의2 전체·비고 및 부칙"
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=289437&type=XML",
+      "requested_at": "2026-10-18T12:44:00.732257+00:00",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/289437.xml",
+      "sha256": "31b8e290808fd08c2680dcd3a6eced2cabd8db56f694c057858e226e7be9b57d",
+      "http_status": 200,
+      "id": "law:289437",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "고등교육령29②14나·다·재직/경력 산입/부칙"
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=276847&type=XML",
+      "requested_at": "2026-10-18T12:44:12.651395+00:00",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/276847.xml",
+      "sha256": "4b55f7e547db75503e73c0186d6f46978458b4c1032670bc1a5a023fbbac4609",
+      "http_status": 200,
+      "id": "law:276847",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "고용정책법7 합리적 이유 없는 학력차별"
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=246585&type=XML",
+      "requested_at": "2026-10-18T12:48:47.379417+00:00",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/246585.xml",
+      "sha256": "dc6fb14c2056c1acbf284f5256dbba571d336bc2eb8448ddc51a80f6addc457c",
+      "http_status": 200,
+      "id": "law:246585",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "자격기본법2/14/17/30/31/33/39~41 및 부칙"
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=278267&type=XML",
+      "requested_at": "2026-10-18T12:48:42.857038+00:00",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/278267.xml",
+      "sha256": "684043e592805ee5e0d45a131a187b479dd2bddee011981304086e08fc715ce5",
+      "http_status": 200,
+      "id": "law:278267",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "자격기본령31의5 비용/환불 및 광고"
+    },
+    {
+      "mst": "285279",
+      "chapters": [
+        8,
+        11,
+        13,
+        18,
+        19,
+        27
+      ],
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=285279&type=XML",
+      "requested_at": "2026-10-18T12:37:57.424991+00:00",
+      "scope": "Exact cited statutory version only; article-specific commencement and claims require independent review.",
+      "http_status": 200,
+      "status": "statutory_xml_cached",
+      "title": "근로기준법",
+      "effective_date": "20261008",
+      "law_id": "001872",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/285279.xml",
+      "sha256": "222fd311aa29570bf0045061e332c9b6696b49427a4ae8f17540763866b36c2e",
+      "bytes": 248381,
+      "article_count": 146,
+      "id": "law:285279",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "근로법64~70/93/110 부칙"
+    },
+    {
+      "mst": "270551",
+      "chapters": [
+        19
+      ],
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=270551&type=XML",
+      "requested_at": "2026-10-18T12:37:10.914477+00:00",
+      "scope": "Exact cited statutory version only; article-specific commencement and claims require independent review.",
+      "http_status": 200,
+      "status": "statutory_xml_cached",
+      "title": "근로기준법 시행령",
+      "effective_date": "20251023",
+      "law_id": "003058",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/270551.xml",
+      "sha256": "8e70d95b19fa42b307f58535d6a47a35dd3e1226431bb54dfb38f3aa8fc6ce72",
+      "bytes": 261945,
+      "article_count": 80,
+      "id": "law:270551",
+      "retrieval_mode": "existing_cache_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "actual_review_scope": "근로령35·4인이하 적용 별표 및 부칙"
+    },
+    {
+      "id": "local:book/23-学什么技能划算.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/book/23-学什么技能划算.md",
+      "sha256": "16a43e17ce646915709daec52681d2f22f436083a36c15b3589ff12b9334c07c",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline/중국대응항목/기존검토기록/스냅샷 대조.기존formal재사용승인아님"
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch23/source.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch23/source.md",
+      "sha256": "03e0c77e776aad475681365762a689e52140e0344529279b506661682579184f",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline/중국대응항목/기존검토기록/스냅샷 대조.기존formal재사용승인아님"
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch23/manifest.json",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch23/manifest.json",
+      "sha256": "83d022b9d3b408db964d2e35ddb3ad47f15063b821ee556e64a138c316fbbdf0",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline/중국대응항목/기존검토기록/스냅샷 대조.기존formal재사용승인아님"
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch23/intro.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch23/intro.md",
+      "sha256": "88cab1492774fb3fe4005f504fca4c90c69f80b71fc817e5fcfa807c7183ed4f",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline/중국대응항목/기존검토기록/스냅샷 대조.기존formal재사용승인아님"
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch23/tail.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch23/tail.md",
+      "sha256": "bad210803b7cafb625599e361ca233cb73880d338f17819ca100687446a88ccc",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline/중국대응항목/기존검토기록/스냅샷 대조.기존formal재사용승인아님"
+    },
+    {
+      "id": "local:kr-harness/chapters/23/1-analysis.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/chapters/23/1-analysis.md",
+      "sha256": "29f4eeca33b652ae679c5f35663e2521b6e0912cc1a2e6881742a08b1bb523e8",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline/중국대응항목/기존검토기록/스냅샷 대조.기존formal재사용승인아님"
+    },
+    {
+      "id": "local:kr-harness/chapters/23/2-research.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/chapters/23/2-research.md",
+      "sha256": "28355d50d51fefbcf36e7deb4b9ea765f6cfee536601aea334c5a245c8ef3644",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline/중국대응항목/기존검토기록/스냅샷 대조.기존formal재사용승인아님"
+    },
+    {
+      "id": "local:kr-harness/chapters/23/3-draft.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/chapters/23/3-draft.md",
+      "sha256": "2e260be0c6736e1326c59f81cf09b56714c5d8d867f8e21088e263389d00df7f",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline/중국대응항목/기존검토기록/스냅샷 대조.기존formal재사용승인아님"
+    },
+    {
+      "id": "local:kr-harness/chapters/23/kr-fit-review.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/chapters/23/kr-fit-review.md",
+      "sha256": "2652e939a8de44c37383b0b42bf10875e89ea93d5cc149cb3e1b58001d2c6f3b",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline/중국대응항목/기존검토기록/스냅샷 대조.기존formal재사용승인아님"
+    },
+    {
+      "id": "local:kr-harness/chapters/23/kr-fit-review.r1.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/chapters/23/kr-fit-review.r1.md",
+      "sha256": "fd6169d33b52de86023aadb489b97bb8686fb2fd73ba77ad9dfdddc6f95242f2",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline/중국대응항목/기존검토기록/스냅샷 대조.기존formal재사용승인아님"
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch23/_workspace/2026-10-18-001-9c35/entry_snapshot.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch23/_workspace/2026-10-18-001-9c35/entry_snapshot.md",
+      "sha256": "81e5a0ec4ba0cf5469686fc8fdbb65a744f5ce474f99d293cecfc22b9232a113",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline/중국대응항목/기존검토기록/스냅샷 대조.기존formal재사용승인아님"
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch23/_workspace/2026-10-18-002-2f32/entry_snapshot.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch23/_workspace/2026-10-18-002-2f32/entry_snapshot.md",
+      "sha256": "2535fce9ca4dd11263253200e9374ff34d4e1ea9bde14ce9fefc5a6f63011e89",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline/중국대응항목/기존검토기록/스냅샷 대조.기존formal재사용승인아님"
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch23/_workspace/2026-10-18-003-fe18/entry_snapshot.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch23/_workspace/2026-10-18-003-fe18/entry_snapshot.md",
+      "sha256": "39ff9eaed675c2ea44f55d125a0d2d236be5e385a66b77e5a4c5a98c86c03e81",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline/중국대응항목/기존검토기록/스냅샷 대조.기존formal재사용승인아님"
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch23/_workspace/2026-10-18-004-02b3/entry_snapshot.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch23/_workspace/2026-10-18-004-02b3/entry_snapshot.md",
+      "sha256": "d129a1d256d329badc3858d7054d2a16518ae28c166e204cfff2d283b00c4de0",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline/중국대응항목/기존검토기록/스냅샷 대조.기존formal재사용승인아님"
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch23/_workspace/2026-10-18-005-2b4f/entry_snapshot.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch23/_workspace/2026-10-18-005-2b4f/entry_snapshot.md",
+      "sha256": "5c7c677ded0ebbd7b3137a51fc95fb4f06cc2edd2d862f95d9f11c3b80e41be8",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline/중국대응항목/기존검토기록/스냅샷 대조.기존formal재사용승인아님"
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch23/_workspace/2026-10-18-006-9d51/entry_snapshot.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch23/_workspace/2026-10-18-006-9d51/entry_snapshot.md",
+      "sha256": "6a03cb686fd865937cb482fb2439da5c78ae7e21019615e3f502be718d5815da",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline/중국대응항목/기존검토기록/스냅샷 대조.기존formal재사용승인아님"
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch23/_workspace/2026-10-18-007-beee/entry_snapshot.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch23/_workspace/2026-10-18-007-beee/entry_snapshot.md",
+      "sha256": "21051606f91045b1187b113e3603a75d8afed563110bfc824262936bf78f00b0",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline/중국대응항목/기존검토기록/스냅샷 대조.기존formal재사용승인아님"
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch23/_workspace/2026-10-18-008-4f3c/entry_snapshot.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch23/_workspace/2026-10-18-008-4f3c/entry_snapshot.md",
+      "sha256": "53309a57c202c554572e2b8cc3d7eb4cc2b5f465cf50710ec5ffaa0f3224ab64",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline/중국대응항목/기존검토기록/스냅샷 대조.기존formal재사용승인아님"
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch23/_workspace/2026-10-18-009-5aba/entry_snapshot.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch23/_workspace/2026-10-18-009-5aba/entry_snapshot.md",
+      "sha256": "56a93aef1b99d633ff52ff494d174546ac5b68b8c0fe0928d566ce87526f3fb9",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline/중국대응항목/기존검토기록/스냅샷 대조.기존formal재사용승인아님"
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch23/_workspace/2026-10-18-010-0a8f/entry_snapshot.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch23/_workspace/2026-10-18-010-0a8f/entry_snapshot.md",
+      "sha256": "45420a0950d5f26610bf514817e3e5a79cdeebe3e923abc38df2212d34944579",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline/중국대응항목/기존검토기록/스냅샷 대조.기존formal재사용승인아님"
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch23/_workspace/2026-10-18-011-a775/entry_snapshot.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch23/_workspace/2026-10-18-011-a775/entry_snapshot.md",
+      "sha256": "ca2ba106567b6f796bd01e32f6e2c5a96e01ff5dcbc9f21d9cc771446c29ca77",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline/중국대응항목/기존검토기록/스냅샷 대조.기존formal재사용승인아님"
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch23/_workspace/2026-10-18-012-ad2e/entry_snapshot.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch23/_workspace/2026-10-18-012-ad2e/entry_snapshot.md",
+      "sha256": "8941a1670e27634af5f16bc24ee0b206f5ad10dd5ae640dea949819e33a7abc3",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline/중국대응항목/기존검토기록/스냅샷 대조.기존formal재사용승인아님"
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch23/_workspace/2026-10-18-013-ae74/entry_snapshot.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch23/_workspace/2026-10-18-013-ae74/entry_snapshot.md",
+      "sha256": "8200d7772e3f6bae21a72b1a46f2fed321c8a3339bde7bd8dccb2b87a11a24e4",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline/중국대응항목/기존검토기록/스냅샷 대조.기존formal재사용승인아님"
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch23/_workspace/2026-10-18-014-bd12/entry_snapshot.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch23/_workspace/2026-10-18-014-bd12/entry_snapshot.md",
+      "sha256": "16c45c7938e006005cca625bd96c06a42ee21a389574c5a3ead83dcbe98a3092",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline/중국대응항목/기존검토기록/스냅샷 대조.기존formal재사용승인아님"
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch23/_workspace/2026-10-18-015-33dd/entry_snapshot.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch23/_workspace/2026-10-18-015-33dd/entry_snapshot.md",
+      "sha256": "1d23ad76d015f9b92024db1bd70f9143d5dacffc700616b414c224fe6e7b749a",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline/중국대응항목/기존검토기록/스냅샷 대조.기존formal재사용승인아님"
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch23/_workspace/2026-10-18-016-a62c/entry_snapshot.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch23/_workspace/2026-10-18-016-a62c/entry_snapshot.md",
+      "sha256": "b60bd00987374f599d8c1a560fc04e2ad2e685f8191ee6bd6b2f996124c4b26d",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline/중국대응항목/기존검토기록/스냅샷 대조.기존formal재사용승인아님"
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch23/_workspace/2026-10-18-017-b1d3/entry_snapshot.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch23/_workspace/2026-10-18-017-b1d3/entry_snapshot.md",
+      "sha256": "ce4ba6afffce3501f88ba7eb116675f33dd3bf226d380c537b73872444d1239f",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline/중국대응항목/기존검토기록/스냅샷 대조.기존formal재사용승인아님"
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch23/_workspace/2026-10-18-018-1e6e/entry_snapshot.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch23/_workspace/2026-10-18-018-1e6e/entry_snapshot.md",
+      "sha256": "1d226c1aba14492d3097f7befa773ed7e9eb25f40e543f58f931798ec9db1f51",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline/중국대응항목/기존검토기록/스냅샷 대조.기존formal재사용승인아님"
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch23/_workspace/2026-10-18-019-4458/entry_snapshot.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch23/_workspace/2026-10-18-019-4458/entry_snapshot.md",
+      "sha256": "20428d2ee29f1992085733474593e0ff48c58862796b3631f8e61b7e25f63600",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline/중국대응항목/기존검토기록/스냅샷 대조.기존formal재사용승인아님"
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch23/_workspace/2026-10-18-020-ac7e/entry_snapshot.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch23/_workspace/2026-10-18-020-ac7e/entry_snapshot.md",
+      "sha256": "b4ede4ef4d8529ee1049639f6fafb8ff4908b16bde4982e9174ed80d88e7ee06",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline/중국대응항목/기존검토기록/스냅샷 대조.기존formal재사용승인아님"
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch23/_workspace/2026-10-18-021-572b/entry_snapshot.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch23/_workspace/2026-10-18-021-572b/entry_snapshot.md",
+      "sha256": "56644e8854ae82e7d2c2072071aadffea6974f1903435ecdad135c25c2fbd5eb",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline/중국대응항목/기존검토기록/스냅샷 대조.기존formal재사용승인아님"
+    },
+    {
+      "id": "local:kr-harness/publication/2026-10-18/ch23/_workspace/2026-10-18-022-3210/entry_snapshot.md",
+      "url": null,
+      "cache_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch23/_workspace/2026-10-18-022-3210/entry_snapshot.md",
+      "sha256": "2639b9bad6a4b0bcc94aa49641705e4587777fc2368f40d5fc18d78b23654c86",
+      "retrieval_mode": "local_repository_read",
+      "reviewed_at": "2026-10-18T16:45:01.632678+00:00",
+      "status": "local_body_read",
+      "actual_review_scope": "한국baseline/중국대응항목/기존검토기록/스냅샷 대조.기존formal재사용승인아님"
+    }
+  ],
+  "collection_limitations": [
+    "기존ROOTprefetch수신은신규HTTP로계상하지않음.기관홈/DOI200셸·Crossref서지·원초록·전문구별.",
+    "교육사망DOI무인용검색0건은검색문법문제였으며원문부재아님;quoted추가검색과PMC전문확보.",
+    "대출KOSAF오류와교육고시실제본문/표확보는별개.",
+    "Frey2013workingpaper와2017저널판구별;학습논문은원초록범위이며추가세부본문근거를읽었다고주장하지않음."
+  ]
+}

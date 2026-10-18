@@ -1,0 +1,496 @@
+--- a/.claude/skills/humanize-korean/PROVENANCE.md
++++ b/.claude/skills/humanize-korean/PROVENANCE.md
+@@ -53,3 +53,7 @@
+ Original automated attribution grammar, metric formulas, baselines, thresholds and sample guards remain unchanged. A strictly validated, root-selected independent-review registry may supply additional exact original quote classifications with source excerpt, same-field anchor, immutable input and exact final-body bindings. This is proposed classification machinery, not any actual source approval or gate waiver. Original full-text preservation checks remain active. Fresh derived route must equal the immutable manifest route. Assembly uses retained bytes and actual regating; classified publication is disabled pending separate review.
+ 
+ Separately, quote fidelity now checks complete same-field quotation occurrence multiplicity rather than substring membership, including no-registry calls. Nested automatic eligibility remains supported; an inner occurrence cannot double-satisfy a consumed protected outer occurrence. New, expanded or repeated quote wrappers do not gain exclusions beyond the frozen original cap. Missing duplicate originals can now fail P3 where the former membership check passed. P1 metric execution failures now fail with execution error rather than quietly omitting that axis. No general semantic/negation guarantee beyond existing checks is claimed.
++
++### Candidate r2 response to independent REVISE
++
++The first isolated candidate's substring-based finalizer acceptance, premature success-shaped evidence and incomplete URL control set were independently reproduced. Candidate r2 requires explicit consistent accepting status/decision enums, stages the whole new invocation until every required validation/write/fsync passes, removes only owned new outputs on failure and retains bounded failure-only diagnostics, and rejects C0/DEL/C1 source URL controls. No metric formula, baseline, threshold, route or original-data permission changed. A dedicated permanent CI step is proposed. R1 artifacts remain immutable; this r2 is not an adoption or source approval.
+--- a/.claude/skills/humanize-korean/scripts/quote_context.py
++++ b/.claude/skills/humanize-korean/scripts/quote_context.py
+@@ -13,6 +13,7 @@
+ from pathlib import Path
+ import re
+ import stat
++import secrets
+ from urllib.parse import urlsplit
+ 
+ class ContextError(ValueError):
+@@ -348,7 +349,7 @@
+             require(candidates and any(s2+anchor_position+len(anchor)<=x.opening[0] for x in candidates),'final quote/anchor ownership')
+             source=q['source'];keys(source,'url artifact artifact_byte_length excerpt language rendering')
+             url=string(source['url'],1,2048);parts=urlsplit(url)
+-            require(parts.scheme=='https' and parts.netloc and not parts.username and not parts.password and not parts.fragment and not any(ord(c)<33 for c in url),'source HTTPS URL')
++            require(parts.scheme=='https' and parts.netloc and not parts.username and not parts.password and not parts.fragment and not any(ord(c)<=32 or 127<=ord(c)<=159 for c in url),'source HTTPS URL')
+             require(type(source['language']) is str and len(source['language'])<=35 and re.fullmatch(r'[a-z]{2,3}(?:-[A-Za-z0-9]{2,8})*',source['language']),'source language')
+             require(source['rendering'] in ('native_verbatim','reviewed_translation'),'source rendering')
+             artifact=self.snapshot.file_ref(source['artifact'],'source',8*1024*1024)
+@@ -399,24 +400,151 @@
+         require(path in self.contexts,'no approved record for direct gate run')
+         ctx=self.contexts[path];require(genre==ctx.genre,'context genre mismatch');return ctx
+ 
++def evidence_values(context,report,prefix=""):
++    """In-memory evidence only. Exposure is an InvocationOutput responsibility."""
++    return [(prefix+'derived-metrics.json',context.derived_json),
++            (prefix+'classified-gates.json',json.dumps(report,ensure_ascii=False,allow_nan=False).encode()),
++            (prefix+'context.json',json.dumps(dict(context.report(),completed=True,
++                gate_exit_code=report['gate']['exit_code'],approved_for_publication=False),ensure_ascii=False).encode())]
++
++
++class InvocationOutput:
++    """New invocation only; stage all bytes then atomically replace its empty reserve.
++
++    Owned inode checks constrain cleanup to files/directories created here. Existing
++    paths are never adopted, traversed recursively or removed. On an error no owned
++    successful output survives; only bounded failure.json is retained when writable.
++    """
++    def __init__(self,snapshot,path):
++        relative_path(path);parts=path.split('/')
++        self.parent=os.dup(snapshot.fd);self.name=parts[-1]
++        self.reserve_fd=None;self.stage_fd=None;self.stage_name=None;self.stage_identity=None;self.reserve_identity=None
++        self.dirs={};self.files=[];self.renamed=False;self.closed=False
++        try:
++            for part in parts[:-1]:
++                child=os.open(part,os.O_RDONLY|os.O_DIRECTORY|os.O_NOFOLLOW,dir_fd=self.parent)
++                os.close(self.parent);self.parent=child
++            os.mkdir(self.name,mode=0o700,dir_fd=self.parent)
++            reserve_stat=os.stat(self.name,dir_fd=self.parent,follow_symlinks=False)
++            self.reserve_identity=(reserve_stat.st_dev,reserve_stat.st_ino)
++            self.reserve_fd=os.open(self.name,os.O_RDONLY|os.O_DIRECTORY|os.O_NOFOLLOW,dir_fd=self.parent)
++            self.reserve_identity=self.identity(self.reserve_fd)
++            self.stage_name='.quote-pending-'+secrets.token_hex(12)
++            os.mkdir(self.stage_name,mode=0o700,dir_fd=self.parent)
++            stage_stat=os.stat(self.stage_name,dir_fd=self.parent,follow_symlinks=False)
++            self.stage_identity=(stage_stat.st_dev,stage_stat.st_ino)
++            self.stage_fd=os.open(self.stage_name,os.O_RDONLY|os.O_DIRECTORY|os.O_NOFOLLOW,dir_fd=self.parent)
++            self.dirs['']=(self.stage_fd,self.identity(self.stage_fd))
++        except BaseException as exc:
++            if self.stage_fd is None and self.stage_identity is not None:
++                if self.matches(self.parent,self.stage_name,self.stage_identity):
++                    os.rmdir(self.stage_name,dir_fd=self.parent)
++            if self.reserve_fd is not None:self.abort(exc)
++            elif self.reserve_identity is not None and self.matches(self.parent,self.name,self.reserve_identity):
++                os.rmdir(self.name,dir_fd=self.parent)
++            self.close();raise
++    @staticmethod
++    def identity(fd):
++        value=os.fstat(fd);return value.st_dev,value.st_ino
++    @staticmethod
++    def matches(parent,name,identity):
++        try:value=os.stat(name,dir_fd=parent,follow_symlinks=False)
++        except FileNotFoundError:return False
++        return (value.st_dev,value.st_ino)==identity
++    def directory(self,path):
++        if path in self.dirs:return self.dirs[path][0]
++        parent,name=path.rsplit('/',1) if '/' in path else ('',path)
++        parent_fd=self.directory(parent)
++        os.mkdir(name,mode=0o700,dir_fd=parent_fd)
++        value=os.stat(name,dir_fd=parent_fd,follow_symlinks=False);identity=(value.st_dev,value.st_ino)
++        try:fd=os.open(name,os.O_RDONLY|os.O_DIRECTORY|os.O_NOFOLLOW,dir_fd=parent_fd)
++        except BaseException:
++            if self.matches(parent_fd,name,identity):os.rmdir(name,dir_fd=parent_fd)
++            raise
++        self.dirs[path]=(fd,self.identity(fd));return fd
++    def commit(self,values):
++        require(self.stage_fd is not None and not self.renamed,'output transaction state')
++        seen=set()
++        for path,data in values:
++            relative_path(path);require(path not in seen and type(data) is bytes,'duplicate output/type');seen.add(path)
++            parent,name=path.rsplit('/',1) if '/' in path else ('',path)
++            directory=self.directory(parent)
++            fd=os.open(name,os.O_WRONLY|os.O_CREAT|os.O_EXCL|os.O_NOFOLLOW,0o600,dir_fd=directory)
++            self.files.append((directory,name,self.identity(fd)))
++            with os.fdopen(fd,'wb') as stream:
++                stream.write(data);stream.flush();os.fsync(stream.fileno())
++        for path,(fd,_) in sorted(self.dirs.items(),key=lambda item:len(item[0]),reverse=True):
++            os.fsync(fd)
++        require(self.matches(self.parent,self.name,self.reserve_identity),'output reserve replaced')
++        require(not os.listdir(self.reserve_fd),'output reserve not empty')
++        os.rename(self.stage_name,self.name,src_dir_fd=self.parent,dst_dir_fd=self.parent)
++        self.renamed=True
++        os.fsync(self.parent)
++    def abort(self,error,gate_exit_code=3):
++        cleanup=[]
++        for directory,name,identity in reversed(self.files):
++            try:
++                if self.matches(directory,name,identity):os.unlink(name,dir_fd=directory)
++                else:cleanup.append('owned file identity changed')
++            except OSError:cleanup.append('owned file cleanup failed')
++        for path,(fd,identity) in sorted(self.dirs.items(),key=lambda item:len(item[0]),reverse=True):
++            if not path:continue
++            parent,name=path.rsplit('/',1) if '/' in path else ('',path)
++            try:
++                if self.matches(self.dirs[parent][0],name,identity):os.rmdir(name,dir_fd=self.dirs[parent][0])
++                else:cleanup.append('owned directory identity changed')
++            except OSError:cleanup.append('owned directory cleanup failed')
++        if self.stage_fd is not None:
++            name=self.name if self.renamed else self.stage_name
++            identity=self.dirs[''][1]
++            try:
++                if self.matches(self.parent,name,identity):os.rmdir(name,dir_fd=self.parent)
++                else:cleanup.append('staging identity changed')
++            except OSError:cleanup.append('staging cleanup failed')
++        # The original reserve is empty and still owned before commit; after a
++        # rollback create a new failure-only directory at the now absent name.
++        failure_fd=self.reserve_fd
++        if self.renamed:
++            failure_fd=None
++            try:
++                os.mkdir(self.name,mode=0o700,dir_fd=self.parent)
++                failure_fd=os.open(self.name,os.O_RDONLY|os.O_DIRECTORY|os.O_NOFOLLOW,dir_fd=self.parent)
++            except OSError:cleanup.append('failure directory unavailable')
++        elif failure_fd is not None and not self.matches(self.parent,self.name,self.reserve_identity):
++            failure_fd=None;cleanup.append('reserve identity changed')
++        if failure_fd is not None:
++            payload=json.dumps({'completed':False,'status':'failed','gate_exit_code':gate_exit_code,
++                'error_type':type(error).__name__,'reason':str(error)[:512],
++                'cleanup_errors':cleanup[:8]},ensure_ascii=False).encode()
++            # Bounded diagnostic only; persistent I/O failure may prevent even
++            # this diagnostic, but never converts the invocation into success.
++            require(len(payload)<=8192,'failure diagnostic bound')
++            try:
++                fd=os.open('failure.json',os.O_WRONLY|os.O_CREAT|os.O_EXCL|os.O_NOFOLLOW,0o600,dir_fd=failure_fd)
++                with os.fdopen(fd,'wb') as stream:
++                    stream.write(payload);stream.flush();os.fsync(stream.fileno())
++                os.fsync(failure_fd)
++            except OSError:pass
++            finally:
++                if self.renamed:os.close(failure_fd)
++    def close(self):
++        if self.closed:return
++        for fd,_ in self.dirs.values():os.close(fd)
++        if self.reserve_fd is not None:os.close(self.reserve_fd)
++        os.close(self.parent);self.closed=True
++
++
+ def write_evidence(snapshot,path,context,report):
+-    """Create one new derived directory; context.json is the completion marker."""
+-    relative_path(path);parts=path.split('/');parent=os.dup(snapshot.fd)
++    output=InvocationOutput(snapshot,path)
+     try:
+-        for part in parts[:-1]:
+-            child=os.open(part,os.O_RDONLY|os.O_DIRECTORY|os.O_NOFOLLOW,dir_fd=parent)
+-            os.close(parent);parent=child
+-        os.mkdir(parts[-1],mode=0o700,dir_fd=parent)
+-        directory=os.open(parts[-1],os.O_RDONLY|os.O_DIRECTORY|os.O_NOFOLLOW,dir_fd=parent)
+-        try:
+-            values=[('derived-metrics.json',context.derived_json),
+-                    ('classified-gates.json',json.dumps(report,ensure_ascii=False,allow_nan=False).encode()),
+-                    ('context.json',json.dumps(dict(context.report(),completed=True,gate_exit_code=report['gate']['exit_code'],approved_for_publication=False),ensure_ascii=False).encode())]
+-            for name,data in values:
+-                fd=os.open(name,os.O_WRONLY|os.O_CREAT|os.O_EXCL|os.O_NOFOLLOW,0o600,dir_fd=directory)
+-                with os.fdopen(fd,'wb') as stream: stream.write(data);stream.flush();os.fsync(stream.fileno())
+-        finally:os.close(directory)
+-    finally:os.close(parent)
++        code=report['gate']['exit_code']
++        if code!=0:
++            output.abort(ContextError('gate not accepted'),gate_exit_code=code)
++            return
++        output.commit(evidence_values(context,report))
++    except BaseException as exc:
++        output.abort(exc);raise
++    finally:output.close()
+ 
+ 
+ def runtime_digests():
+--- a/.github/workflows/kr-check.yml
++++ b/.github/workflows/kr-check.yml
+@@ -49,6 +49,8 @@
+         run: python3 kr-harness/publication/scripts/tests/test_protected_quote_metrics.py
+       - name: 출판 원문 소개·연속 인용 회귀 검사
+         run: python3 kr-harness/publication/scripts/tests/test_quote_passage.py
++      - name: 출판 검토 인용 분류·실패 증거 회귀 검사
++        run: python3 kr-harness/publication/scripts/tests/test_reviewed_quote_classification.py
+       - name: 출판 연결어미·명사 구분 회귀 검사
+         run: python3 kr-harness/publication/scripts/tests/test_ending_noun.py
+       - name: 출판 DOI 승인 통합 회귀 검사
+--- a/kr-harness/publication/CONTRACT.md
++++ b/kr-harness/publication/CONTRACT.md
+@@ -51,3 +51,11 @@
+ Do not mutate original inputs, manifest, 00_metrics or prior evidence. Derive new metrics and compute the route using the exact original and frozen classification. If saved or derived route differs from manifest, error; v1 has no route override. Fresh finalizer evidence must carry the exact classification_context returned by the gate. Root's classified assembly validates the same context, retains all input/evidence bytes and invokes the actual in-memory gate on those bytes. Candidate and new evidence are written only under the new invocation directory; gate1/error3 never authorizes assembly. Classified `--publish` is deliberately unsupported in this candidate and fails closed; deployment/publication remains a separate review prerequisite.
+ 
+ The shared original occurrence freeze drives style eligibility and P3 fidelity. After-text exclusions require exact complete protected quote contents in the same field and cannot exceed original occurrence multiplicity. New/expanded wrappers receive no additional exclusion. P3 now checks complete-occurrence multiplicity even without a registry: losing one of two identical protected quotes is rejected. This is an intentional preservation hardening, separate from eligibility grammar, and may reject formerly passing duplicate-loss outputs. P0, numbers, URLs, footnotes and P5 still inspect full text under unchanged thresholds, baselines and sample guards. Final exact-body semantic review remains necessary: anchor presence alone does not prove attribution.
++
++### Candidate r2: explicit finalizer decisions and failure-only output
++
++Classified assembly requires a top-level `status` or `decision` whose exact string is `accept` or `corrected`. At least one is required; when both are present they must be identical accepting strings. Reject/hold/missing, wrong types and conflicting values block assembly even if reasons or unrelated fields contain accepting words. Matching classification_context is a separate mandatory check.
++
++Validate every entry's invariants, actual gate and required finalizer before exposing success output. Reserve only a new invocation directory and stage bytes in a private new sibling. Fsync all files/directories, atomically replace the empty reserve, and fsync the parent. An ordinary write/fsync/validation failure rolls back only tracked newly created inode-owned files/directories and retains at most a bounded failure.json in that invocation; no candidate, assembly, completed context or partial metrics may remain from the failed operation. Existing output/history is never adopted or cleaned. Persistent filesystem failure can also prevent durable failure diagnostics; it never authorizes success. Never consume hidden pending directories as evidence. Direct rejected gates retain failure-only diagnostics with their actual nonzero gate exit.
++
++Source URL validation rejects ASCII C0/space, DEL and C1 controls (the Unicode Cc set plus ASCII space), independently of human source-authenticity review. The new regression suite runs as a separate `kr-check.yml` CI step and includes explicit rejected decisions, stale/later-entry failures, every staged output open/partial write and file/directory/final-parent fsync failure. This remains candidate-only; independent re-review and root adoption are still required.
+--- a/kr-harness/publication/scripts/humanize_publication.py
++++ b/kr-harness/publication/scripts/humanize_publication.py
+@@ -141,6 +141,15 @@
+         source.write_text(candidate)
+     print(folder/'candidate.md')
+ 
++def require_accepting_finalizer(value):
++    """Only top-level explicit accepting enums authorize a fresh finalizer."""
++    decisions=[value[key] for key in ('status','decision') if key in value]
++    if not decisions or any(type(item) is not str or item not in ('accept','corrected') for item in decisions):
++        raise ValueError('finalizer explicit accepting status/decision required')
++    if len(set(decisions))!=1:
++        raise ValueError('conflicting finalizer status/decision')
++
++
+ def assemble_classified(folder,publish,registry,registry_sha,evidence_dir):
+     """Root-selected classification. All gate and candidate text uses retained bytes.
+ 
+@@ -152,13 +161,17 @@
+     if not all((registry,registry_sha,evidence_dir)):
+         raise ValueError("all classification flags required together")
+     sys.path.insert(0,str(SKILL/'scripts'))
+-    from quote_context import ChapterContext,Snapshot,require,strict_json,utf8,write_evidence,relative_path,final_body
++    from quote_context import ChapterContext,Snapshot,require,strict_json,utf8,InvocationOutput,evidence_values,relative_path,final_body
+     from verify_gates import evaluate_gate
+     import os
+     chapter=ChapterContext(folder/'manifest.json',registry,registry_sha)
+     snapshot=chapter.snapshot
+     public=Snapshot(ROOT)
++    output=None
+     try:
++        relative_path(evidence_dir)
++        require('/' not in evidence_dir,"assembly evidence directory must be direct chapter child")
++        output=InvocationOutput(snapshot,evidence_dir)
+         manifest=chapter.manifest
+         source_path=manifest['source']
+         current=public.read(source_path,'current_public')
+@@ -166,11 +179,7 @@
+         require(sha(utf8(source_bytes))==manifest['source_sha256']==sha(utf8(current)),"source/snapshot mismatch")
+         text=utf8(source_bytes);intro,originals,tail=split(text)
+         require(utf8(snapshot.read('intro.md','intro'))==intro and utf8(snapshot.read('tail.md','tail'))==tail,"intro/tail mismatch")
+-        relative_path(evidence_dir)
+-        # Exclusive root-level invocation directory, no author-selected path.
+-        require('/' not in evidence_dir,"assembly evidence directory must be direct chapter child")
+-        os.mkdir(evidence_dir,mode=0o700,dir_fd=snapshot.fd)
+-        bodies=[];classified=[]
++        bodies=[];classified=[];values=[]
+         for entry,(number,original) in zip(manifest['entries'],originals,strict=True):
+             run=entry['run_dir'];path=run+'/01_input.txt'
+             before_bytes=snapshot.read(path,'original');after_bytes=snapshot.read(run+'/final.md','final')
+@@ -184,7 +193,7 @@
+             require(invariants(before)==invariants(body),"full-text number/URL/layout conservation failure")
+             code,report=evaluate_gate(before_bytes,after_bytes,manifest['genre'],context)
+             if context is not None:
+-                write_evidence(snapshot,evidence_dir+'/'+Path(run).name,context,report)
++                values.extend(evidence_values(context,report,Path(run).name+'/'))
+                 classified.append(context.report())
+             require(code==0,f"upstream gate not accepted (exit {code})")
+             metrics=strict_json(snapshot.read(run+'/00_metrics.json','saved_metrics',256*1024),allow_floats=True)
+@@ -194,7 +203,7 @@
+                 snapshot.read(run+'/02_diagnosis.md','diagnosis')
+             if context is not None or route=='heavy' or (folder/run/'09_finalize.json').exists():
+                 finalize=strict_json(snapshot.read(run+'/09_finalize.json','finalizer',256*1024),allow_floats=True)
+-                require('hold_and_report' not in json.dumps(finalize) and any(v in json.dumps(finalize) for v in ('accept','corrected')),"finalizer not accepted")
++                require_accepting_finalizer(finalize)
+                 if context is not None:
+                     require(finalize.get('classification_context')==context.report(),"fresh finalizer context required")
+             if route=='heavy':
+@@ -207,17 +216,19 @@
+         # Candidate writes only to a new invocation directory, never historical
+         # candidate/gate/metrics evidence and never public source.
+         target=folder/evidence_dir
+-        output_fd=os.open(evidence_dir,os.O_RDONLY|os.O_DIRECTORY|os.O_NOFOLLOW,dir_fd=snapshot.fd)
+-        try:
+-            for name,data in [('candidate.md',candidate.encode()),('assembly.json',json.dumps({
+-                    'source_sha256':sha(text),'candidate_sha256':sha(candidate),'entries':len(bodies),
+-                    'registry_sha256':registry_sha,'classification_contexts':classified,
+-                    'upstream_gates':'accepted','published':False},ensure_ascii=False,indent=2).encode())]:
+-                fd=os.open(name,os.O_WRONLY|os.O_CREAT|os.O_EXCL|os.O_NOFOLLOW,0o600,dir_fd=output_fd)
+-                with os.fdopen(fd,'wb') as stream:stream.write(data);stream.flush();os.fsync(stream.fileno())
+-        finally:os.close(output_fd)
++        values.extend([('candidate.md',candidate.encode()),('assembly.json',json.dumps({
++            'source_sha256':sha(text),'candidate_sha256':sha(candidate),'entries':len(bodies),
++            'registry_sha256':registry_sha,'classification_contexts':classified,
++            'upstream_gates':'accepted','published':False},ensure_ascii=False,indent=2).encode())])
++        # No output bytes are exposed until every entry's invariants, real gate
++        # and explicit fresh finalizer are validated. Commit is directory-atomic.
++        output.commit(values)
+         print(target/'candidate.md')
++    except BaseException as exc:
++        if output is not None:output.abort(exc)
++        raise
+     finally:
++        if output is not None:output.close()
+         snapshot.close();public.close()
+ 
+ 
+--- a/kr-harness/publication/scripts/tests/test_reviewed_quote_classification.py
++++ b/kr-harness/publication/scripts/tests/test_reviewed_quote_classification.py
+@@ -236,4 +236,174 @@
+   self.assertIn(b'\r\n',ctx.before_bytes);chapter.snapshot.close()
+   (self.f.run/'final.md').write_bytes(self.f.final.replace(b'\r\n',b'\n'))
+   self.error('final body')
++
++
++def prepare_test_helper(root,f,second=None):
++ """TEST-ONLY complete chapter; no real source or publication data."""
++ helper=CANDIDATE/'kr-harness/publication/scripts/humanize_publication.py'
++ text=helper.read_text();ns={'__file__':str(helper),'__name__':'TEST_ONLY_r2_helper'}
++ exec(compile(text[:text.index('parser=argparse.ArgumentParser')],str(helper),'exec'),ns)
++ ns['ROOT']=root;ns['SKILL']=SKILL
++ (root/'book-kr').mkdir(exist_ok=True)
++ source='TEST intro\n\n### 1. TEST fixture\n'+f.before
++ if second:
++  plain='- 비용: 돈은 들지 않습니다.\n- 쉽게: 확인하세요.\n- 이득: 간단한 설명입니다.\n- 비고: 확인하세요.\n'
++  if second=='gate':plain=plain.replace('간단한 설명입니다.','설명은 간단하며, 조건은 그대로입니다. '*8)
++  run=root/'_workspace/test-only-second';run.mkdir()
++  (run/'01_input.txt').write_text(plain)
++  after=plain.replace('돈은 들지 않습니다.','1원이 듭니다.') if second=='invariants' else plain
++  (run/'final.md').write_text(after+'<!-- HUMANIZE-SUMMARY\nTEST ONLY\n-->\n')
++  metrics=metrics_v2.compute_all_v2(plain);metrics['_text']=plain;metrics.update(prep.compute_route_hint(metrics));metrics.pop('_text')
++  (run/'00_metrics.json').write_bytes(encode(metrics))
++  (run/'09_finalize.json').write_bytes(encode({'status':'reject' if second=='finalizer' else 'accept','reason':'accept corrected TEST ONLY'}))
++  source+='\n### 2. TEST second\n'+plain
++  f.manifest['entries'].append({'number':2,'run_dir':'_workspace/test-only-second','input_sha256':q.digest(plain.encode()),'route':metrics['route_hint']})
++ intro,entries,tail=ns['split'](source)
++ for rel,value in [('book-kr/01-test.md',source),('source.md',source),('intro.md',intro),('tail.md',tail)]: (root/rel).write_text(value)
++ for number,(entry,(_,original)) in enumerate(zip(f.manifest['entries'],entries,strict=True),1):
++  entry.update({'number':number,'entry_sha256':ns['sha'](original)})
++  (root/entry['run_dir']/'entry_snapshot.md').write_text(original)
++ f.manifest.update({'source':'book-kr/01-test.md','source_sha256':ns['sha'](source)})
++ (root/'manifest.json').write_bytes(encode(f.manifest))
++ chapter=f.load();ctx=chapter.contexts[f.path];chapter.snapshot.close()
++ (f.run/'09_finalize.json').write_bytes(encode({'status':'accept','classification_context':ctx.report()}))
++ return ns,ctx
++
++
++class RevisionFailures(unittest.TestCase):
++ setUp=Classification.setUp
++ tearDown=Classification.tearDown
++ gate=Classification.gate
++ def failed_only(self,path):
++  self.assertTrue(path.is_dir());files=sorted(p.relative_to(path).as_posix() for p in path.rglob('*') if p.is_file())
++  self.assertEqual(files,['failure.json'],files)
++  failure=json.loads((path/'failure.json').read_text());self.assertFalse(failure['completed']);self.assertEqual(failure['status'],'failed')
++  self.assertLessEqual((path/'failure.json').stat().st_size,8192)
++  self.assertFalse(list(path.parent.glob('.quote-pending-*')))
++ def assemble(self,ns,name):
++  with contextlib.redirect_stdout(io.StringIO()):return ns['assemble'](self.root,False,'TEST-ONLY-registry.json',self.f.sha,name)
++ def test_explicit_finalizer_enums_and_conflicting_values(self):
++  ns,ctx=prepare_test_helper(self.root,self.f)
++  bad=[{'status':'reject'},{'status':'hold'},{'status':'hold_and_report'},{},{'status':True},{'status':1},{'status':None},{'status':[]},{'status':'accept','decision':'reject'},{'status':'accept','decision':'corrected'},{'decision':'accept','status':False}]
++  for index,decision in enumerate(bad):
++   value=dict(decision,reason='accept corrected but explicitly rejected TEST ONLY',classification_context=ctx.report())
++   (self.f.run/'09_finalize.json').write_bytes(encode(value));name='TEST-ONLY-rejected-'+str(index)
++   with self.assertRaisesRegex(ValueError,'finalizer'):self.assemble(ns,name)
++   self.failed_only(self.root/name)
++  for index,value in enumerate(({'status':'accept'},{'decision':'corrected'},{'status':'accept','decision':'accept'})):
++   (self.f.run/'09_finalize.json').write_bytes(encode(dict(value,classification_context=ctx.report())))
++   name='TEST-ONLY-accepted-'+str(index);self.assemble(ns,name);self.assertTrue((self.root/name/'assembly.json').is_file())
++ def test_stale_finalizer_failure_only_and_history_preserved(self):
++  ns,ctx=prepare_test_helper(self.root,self.f)
++  (self.f.run/'09_finalize.json').write_bytes(encode({'status':'accept','classification_context':{}}))
++  (self.root/'historic.md').write_text('HISTORICAL DO NOT DELETE')
++  with self.assertRaisesRegex(ValueError,'fresh finalizer'):self.assemble(ns,'TEST-ONLY-stale')
++  self.failed_only(self.root/'TEST-ONLY-stale');self.assertEqual((self.root/'historic.md').read_text(),'HISTORICAL DO NOT DELETE')
++  old=self.root/'TEST-ONLY-existing';old.mkdir();(old/'candidate.md').write_text('OLD CANDIDATE')
++  with self.assertRaises(FileExistsError):self.assemble(ns,'TEST-ONLY-existing')
++  self.assertEqual((old/'candidate.md').read_text(),'OLD CANDIDATE');self.assertEqual(list(old.iterdir()),[old/'candidate.md'])
++ def test_later_entry_failures_emit_no_partial_success(self):
++  for kind in ('finalizer','gate','invariants'):
++   temporary=Path(self.temp.name)/kind;f=Fixture(temporary);ns,_=prepare_test_helper(temporary,f,second=kind)
++   with contextlib.redirect_stdout(io.StringIO()),self.assertRaises(ValueError):ns['assemble'](temporary,False,'TEST-ONLY-registry.json',f.sha,'TEST-ONLY-later')
++   self.failed_only(temporary/'TEST-ONLY-later')
++ def test_source_url_full_control_set_rejected(self):
++  original=self.f.payload['quotations'][0]['source']['url']
++  for value in list(range(33))+list(range(127,160)):
++   self.f.payload['quotations'][0]['source']['url']='https://test.invalid/source'+chr(value)+'suffix';self.f.write()
++   with self.assertRaisesRegex(ValueError,'source HTTPS URL|string type/length/NUL'):self.f.load()
++  self.f.payload['quotations'][0]['source']['url']=original;self.f.write();chapter=self.f.load();chapter.snapshot.close()
++ def test_direct_every_file_open_failure_cleans_outputs(self):
++  from unittest.mock import patch
++  chapter=self.f.load();ctx=chapter.contexts[self.f.path];_,report=self.gate(ctx.before_bytes,ctx.after_bytes,ctx)
++  for index,target in enumerate(('derived-metrics.json','classified-gates.json','context.json')):
++   real=q.os.open;fired=False
++   def fail(path,*args,**kwargs):
++    nonlocal fired
++    if path==target and not fired:fired=True;raise OSError('TEST ONLY output open failure')
++    return real(path,*args,**kwargs)
++   name='TEST-ONLY-direct-open-'+str(index)
++   with patch.object(q.os,'open',side_effect=fail),self.assertRaisesRegex(OSError,'TEST ONLY'):q.write_evidence(chapter.snapshot,name,ctx,report)
++   self.assertTrue(fired);self.failed_only(self.root/name)
++  chapter.snapshot.close()
++ def test_direct_every_fsync_failure_including_third_and_commit(self):
++  from unittest.mock import patch
++  chapter=self.f.load();ctx=chapter.contexts[self.f.path];_,report=self.gate(ctx.before_bytes,ctx.after_bytes,ctx)
++  real=q.os.fsync;observed=[]
++  with patch.object(q.os,'fsync',side_effect=lambda fd:(observed.append(fd),real(fd))[1]):q.write_evidence(chapter.snapshot,'TEST-ONLY-count-fsync',ctx,report)
++  self.assertGreaterEqual(len(observed),5)
++  for ordinal in range(1,len(observed)+1):
++   calls=0
++   def fail(fd):
++    nonlocal calls
++    calls+=1
++    if calls==ordinal:raise OSError('TEST ONLY fsync '+str(ordinal))
++    return real(fd)
++   name='TEST-ONLY-direct-fsync-'+str(ordinal)
++   with patch.object(q.os,'fsync',side_effect=fail),self.assertRaisesRegex(OSError,'TEST ONLY'):q.write_evidence(chapter.snapshot,name,ctx,report)
++   self.failed_only(self.root/name)
++  chapter.snapshot.close()
++ def test_direct_gate_warning_has_failure_only(self):
++  chapter=self.f.load();ctx=chapter.contexts[self.f.path];_,report=self.gate(ctx.before_bytes,ctx.after_bytes,ctx)
++  report['gate']['exit_code']=1;q.write_evidence(chapter.snapshot,'TEST-ONLY-warning',ctx,report)
++  self.failed_only(self.root/'TEST-ONLY-warning');self.assertEqual(json.loads((self.root/'TEST-ONLY-warning/failure.json').read_text())['gate_exit_code'],1)
++  chapter.snapshot.close()
++ def test_assembly_every_open_and_partial_write_failure(self):
++  from unittest.mock import patch
++  ns,_=prepare_test_helper(self.root,self.f)
++  for index,target in enumerate(('derived-metrics.json','classified-gates.json','context.json','candidate.md','assembly.json')):
++   real=q.os.open;fired=False
++   def fail(path,*args,**kwargs):
++    nonlocal fired
++    if path==target and not fired:fired=True;raise OSError('TEST ONLY assembly open failure')
++    return real(path,*args,**kwargs)
++   name='TEST-ONLY-assembly-open-'+str(index)
++   with patch.object(q.os,'open',side_effect=fail),self.assertRaisesRegex(OSError,'TEST ONLY'):self.assemble(ns,name)
++   self.failed_only(self.root/name)
++  real_fdopen=q.os.fdopen
++  for ordinal in range(1,6):
++   calls=0
++   class Stream:
++    def __init__(self,fd,*args,**kwargs):self.stream=real_fdopen(fd,*args,**kwargs)
++    def __enter__(self):self.stream.__enter__();return self
++    def __exit__(self,*args):return self.stream.__exit__(*args)
++    def __getattr__(self,name):return getattr(self.stream,name)
++    def write(self,data):
++     nonlocal calls
++     calls+=1
++     if calls==ordinal:self.stream.write(data[:3]);raise OSError('TEST ONLY partial write')
++     return self.stream.write(data)
++   name='TEST-ONLY-partial-write-'+str(ordinal)
++   with patch.object(q.os,'fdopen',side_effect=Stream),self.assertRaisesRegex(OSError,'TEST ONLY'):self.assemble(ns,name)
++   self.failed_only(self.root/name)
++ def test_assembly_every_fsync_failure_including_final_commit(self):
++  from unittest.mock import patch
++  ns,_=prepare_test_helper(self.root,self.f);real=q.os.fsync;observed=[]
++  with patch.object(q.os,'fsync',side_effect=lambda fd:(observed.append(fd),real(fd))[1]):self.assemble(ns,'TEST-ONLY-assembly-count')
++  self.assertGreaterEqual(len(observed),8)
++  for ordinal in range(1,len(observed)+1):
++   calls=0
++   def fail(fd):
++    nonlocal calls
++    calls+=1
++    if calls==ordinal:raise OSError('TEST ONLY assembly fsync '+str(ordinal))
++    return real(fd)
++   name='TEST-ONLY-assembly-fsync-'+str(ordinal)
++   with patch.object(q.os,'fsync',side_effect=fail),self.assertRaisesRegex(OSError,'TEST ONLY'):self.assemble(ns,name)
++   self.failed_only(self.root/name)
++
++ def test_staging_and_child_directory_open_failures_clean_own_dirs(self):
++  from unittest.mock import patch
++  ns,_=prepare_test_helper(self.root,self.f)
++  for index,target in enumerate(('stage','test-only')):
++   real=q.os.open
++   def fail(path,*args,**kwargs):
++    parent=kwargs.get('dir_fd')
++    pending=parent is not None and '.quote-pending-' in os.readlink('/proc/self/fd/'+str(parent))
++    if type(path) is str and ((target=='stage' and path.startswith('.quote-pending-')) or (path==target and pending)):
++     raise OSError('TEST ONLY directory open')
++    return real(path,*args,**kwargs)
++   name='TEST-ONLY-directory-open-'+str(index)
++   with patch.object(q.os,'open',side_effect=fail),self.assertRaisesRegex(OSError,'TEST ONLY'):self.assemble(ns,name)
++   self.failed_only(self.root/name)
+ if __name__=='__main__':unittest.main()

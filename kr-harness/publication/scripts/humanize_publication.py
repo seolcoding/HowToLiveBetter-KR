@@ -79,7 +79,10 @@ def prepare(folder, chapter):
     save(folder/'manifest.json',manifest)
     print(folder/'manifest.json')
 
-def assemble(folder,publish):
+def assemble(folder,publish,quote_registry=None,quote_registry_sha256=None,classification_evidence_dir=None):
+    if quote_registry is not None or quote_registry_sha256 is not None or classification_evidence_dir is not None:
+        return assemble_classified(folder,publish,quote_registry,quote_registry_sha256,classification_evidence_dir)
+
     manifest=json.loads((folder/'manifest.json').read_text())
     source=ROOT/manifest['source']
     snapshot=(folder/'source.md').read_text()
@@ -137,6 +140,97 @@ def assemble(folder,publish):
     if publish:
         source.write_text(candidate)
     print(folder/'candidate.md')
+
+def require_accepting_finalizer(value):
+    """Only top-level explicit accepting enums authorize a fresh finalizer."""
+    decisions=[value[key] for key in ('status','decision') if key in value]
+    if not decisions or any(type(item) is not str or item not in ('accept','corrected') for item in decisions):
+        raise ValueError('finalizer explicit accepting status/decision required')
+    if len(set(decisions))!=1:
+        raise ValueError('conflicting finalizer status/decision')
+
+
+def assemble_classified(folder,publish,registry,registry_sha,evidence_dir):
+    """Root-selected classification. All gate and candidate text uses retained bytes.
+
+    Standalone candidate intentionally refuses --publish: classified adoption
+    needs an independently reviewed deployment/publication write path.
+    """
+    if publish:
+        raise ValueError("candidate classified publication disabled; review-only assembly")
+    if not all((registry,registry_sha,evidence_dir)):
+        raise ValueError("all classification flags required together")
+    sys.path.insert(0,str(SKILL/'scripts'))
+    from quote_context import ChapterContext,Snapshot,require,strict_json,utf8,InvocationOutput,evidence_values,relative_path,final_body
+    from verify_gates import evaluate_gate
+    import os
+    chapter=ChapterContext(folder/'manifest.json',registry,registry_sha)
+    snapshot=chapter.snapshot
+    public=Snapshot(ROOT)
+    output=None
+    try:
+        relative_path(evidence_dir)
+        require('/' not in evidence_dir,"assembly evidence directory must be direct chapter child")
+        output=InvocationOutput(snapshot,evidence_dir)
+        manifest=chapter.manifest
+        source_path=manifest['source']
+        current=public.read(source_path,'current_public')
+        source_bytes=snapshot.read('source.md','source_snapshot')
+        require(sha(utf8(source_bytes))==manifest['source_sha256']==sha(utf8(current)),"source/snapshot mismatch")
+        text=utf8(source_bytes);intro,originals,tail=split(text)
+        require(utf8(snapshot.read('intro.md','intro'))==intro and utf8(snapshot.read('tail.md','tail'))==tail,"intro/tail mismatch")
+        bodies=[];classified=[];values=[]
+        for entry,(number,original) in zip(manifest['entries'],originals,strict=True):
+            run=entry['run_dir'];path=run+'/01_input.txt'
+            before_bytes=snapshot.read(path,'original');after_bytes=snapshot.read(run+'/final.md','final')
+            before=utf8(before_bytes);final=utf8(after_bytes)
+            expected='\n'.join(m.group(0) for m in PROSE.finditer(original))+'\n'
+            require(before==expected and utf8(snapshot.read(run+'/entry_snapshot.md','entry_snapshot'))==original
+                    and sha(original)==entry['entry_sha256'] and sha(before)==entry['input_sha256'] and int(number)==entry['number'],"input evidence mismatch")
+            context=chapter.contexts.get(path)
+            body=(utf8(final_body(after_bytes)) if context else SUMMARY.sub('',final)).rstrip()
+            require(len(re.findall(r'<!--\s*HUMANIZE-SUMMARY\b',final))==1,"one summary")
+            require(invariants(before)==invariants(body),"full-text number/URL/layout conservation failure")
+            code,report=evaluate_gate(before_bytes,after_bytes,manifest['genre'],context)
+            if context is not None:
+                values.extend(evidence_values(context,report,Path(run).name+'/'))
+                classified.append(context.report())
+            require(code==0,f"upstream gate not accepted (exit {code})")
+            metrics=strict_json(snapshot.read(run+'/00_metrics.json','saved_metrics',256*1024),allow_floats=True)
+            require(metrics.get('route_hint')==entry['route'],"original route evidence mismatch")
+            route=entry['route']
+            if route in ('standard','heavy'):
+                snapshot.read(run+'/02_diagnosis.md','diagnosis')
+            if context is not None or route=='heavy' or (folder/run/'09_finalize.json').exists():
+                finalize=strict_json(snapshot.read(run+'/09_finalize.json','finalizer',256*1024),allow_floats=True)
+                require_accepting_finalizer(finalize)
+                if context is not None:
+                    require(finalize.get('classification_context')==context.report(),"fresh finalizer context required")
+            if route=='heavy':
+                snapshot.read(run+'/chunk_manifest.json','chunks',256*1024)
+                snapshot.read(run+'/03_reassembled.md','reassembled')
+            require(len(body.splitlines())==4 and len(PROSE.findall(body))==4,"four field lines")
+            replacements=iter(body.splitlines());bodies.append(PROSE.sub(lambda match:next(replacements),original))
+        candidate=intro+''.join(bodies)+tail
+        if not candidate.endswith('\n'):candidate+='\n'
+        # Candidate writes only to a new invocation directory, never historical
+        # candidate/gate/metrics evidence and never public source.
+        target=folder/evidence_dir
+        values.extend([('candidate.md',candidate.encode()),('assembly.json',json.dumps({
+            'source_sha256':sha(text),'candidate_sha256':sha(candidate),'entries':len(bodies),
+            'registry_sha256':registry_sha,'classification_contexts':classified,
+            'upstream_gates':'accepted','published':False},ensure_ascii=False,indent=2).encode())])
+        # No output bytes are exposed until every entry's invariants, real gate
+        # and explicit fresh finalizer are validated. Commit is directory-atomic.
+        output.commit(values)
+        print(target/'candidate.md')
+    except BaseException as exc:
+        if output is not None:output.abort(exc)
+        raise
+    finally:
+        if output is not None:output.close()
+        snapshot.close();public.close()
+
 
 def integrate(folder):
     """Apply explicitly reviewed changes after strict assembly, without publication."""
@@ -291,9 +385,14 @@ parser=argparse.ArgumentParser(description=__doc__)
 parser.add_argument('command',choices=['prepare','assemble','integrate'])
 parser.add_argument('chapter',type=lambda value:f'{int(value):02d}')
 parser.add_argument('--date',default=date.today().isoformat())
+parser.add_argument('--quote-registry')
+parser.add_argument('--quote-registry-sha256')
+parser.add_argument('--classification-evidence-dir')
 parser.add_argument('--publish',action='store_true',help='explicitly replace current public chapter after all gates')
 args=parser.parse_args()
 try:
+    if args.command!='assemble' and any(value is not None for value in (args.quote_registry,args.quote_registry_sha256,args.classification_evidence_dir)):
+        raise ValueError('classification flags only valid with assemble')
     folder=ROOT/'kr-harness/publication'/args.date/f'ch{args.chapter}'
     if args.command=='prepare':
         if args.publish:
@@ -304,6 +403,6 @@ try:
             raise ValueError('integrate never publishes')
         integrate(folder)
     else:
-        assemble(folder,args.publish)
+        assemble(folder,args.publish,args.quote_registry,args.quote_registry_sha256,args.classification_evidence_dir)
 except (ValueError, OSError, KeyError) as exc:
     parser.exit(1,f'error: {exc}\n')

@@ -270,29 +270,55 @@ def main(argv: list[str] | None = None) -> int:
         action="store_true",
         help="문자율 축에서 마크업 줄·줄머리 장식을 제외하고 본문만 비교",
     )
+    p.add_argument("--quote-registry")
+    p.add_argument("--quote-registry-sha256")
+    p.add_argument("--publication-manifest")
+    p.add_argument("--classification-evidence-dir")
     args = p.parse_args(argv)
 
-    for path in (args.before, args.after):
-        if not os.path.exists(path):
-            print(f"error: 파일 없음: {path}", file=sys.stderr)
-            return 3
-
+    chapter=None
     try:
-        before = strip_summary_block(_read(args.before))
-        after = strip_summary_block(_read(args.after))
-    except OSError as e:
-        print(f"error: 파일 읽기 실패: {e}", file=sys.stderr)
+        selected=any(value is not None for value in (args.quote_registry,args.quote_registry_sha256,args.publication_manifest,args.classification_evidence_dir))
+        context=None
+        if selected:
+            if not all((args.quote_registry,args.quote_registry_sha256,args.publication_manifest,args.classification_evidence_dir)):
+                raise ValueError("all classification flags required together")
+            from quote_context import ChapterContext,write_evidence
+            chapter=ChapterContext(args.publication_manifest,args.quote_registry,args.quote_registry_sha256)
+            context=chapter.context_for(args.before,args.after,args.genre)
+            before_bytes=context.before_bytes;after_bytes=context.after_bytes
+        else:
+            from pathlib import Path
+            before_bytes=Path(args.before).read_bytes();after_bytes=Path(args.after).read_bytes()
+        code,report=evaluate_gate(before_bytes,after_bytes,args.genre,context,args.ignore_markup)
+        if context is not None:
+            write_evidence(chapter.snapshot,args.classification_evidence_dir,context,report)
+        if args.json: print(json.dumps(report,ensure_ascii=False,indent=2))
+        return code
+    except (ValueError,OSError,KeyError,TypeError,UnicodeError,RecursionError,MemoryError) as exc:
+        print(f"error: {exc}",file=sys.stderr)
+        if args.json:print(json.dumps({"gate":{"exit_code":3,"verdict":"execution error"},"error":str(exc)},ensure_ascii=False))
         return 3
+    finally:
+        if chapter is not None:chapter.snapshot.close()
 
-    report: dict = {"genre": args.genre}
+
+def evaluate_gate(before_bytes,after_bytes,genre="essay",context=None,ignore_markup=False):
+    """Gate retained input bytes; a verified context cannot be reused for other text."""
+    if context is not None:
+        context.bind(before_bytes,after_bytes,genre)
+    from quote_context import legacy_text
+    before=strip_summary_block(legacy_text(before_bytes))
+    after=strip_summary_block(legacy_text(after_bytes))
+    report: dict = {"genre": genre}
     warn = False
 
     # --- P0 문자율 (기존 verify_change_rate.py와 동일 판정) ---------------
-    rate = _m.change_rate(before, after, ignore_markup=args.ignore_markup)
+    rate = _m.change_rate(before, after, ignore_markup=ignore_markup)
     abort = rate >= _m.CHANGE_RATE_ABORT
     if _m.CHANGE_RATE_WARN <= rate < _m.CHANGE_RATE_ABORT:
         warn = True
-    scope = "본문만 (마크업 제외)" if args.ignore_markup else "전문"
+    scope = "본문만 (마크업 제외)" if ignore_markup else "전문"
     if abort:
         p0_verdict = "ABORT — 강제 중단. 윤문본 채택 금지"
     elif rate >= _m.CHANGE_RATE_WARN:
@@ -309,14 +335,20 @@ def main(argv: list[str] | None = None) -> int:
     try:
         # Freeze style exclusions from the original's attributed quotations.
         # Newly wrapped output prose cannot acquire a style exemption.
-        protected_quotes=[before[start:end] for start,end in _checks.protected_quote_spans(before)]
-        z_before = _m.compute_all_v2(before, genre=args.genre, protected_quote_texts=protected_quotes)["z_scores"]
-        after_m = _m.compute_all_v2(after, genre=args.genre, protected_quote_texts=protected_quotes)
+        from quote_context import frozen_keys,capped_spans
+        frozen=context.keys if context is not None else frozen_keys(before)
+        if context is None:
+            z_before = _m.compute_all_v2(before,genre=genre,_eligible_quote_spans=capped_spans(before,frozen))["z_scores"]
+            after_m = _m.compute_all_v2(after,genre=genre,_eligible_quote_spans=capped_spans(after,frozen,automatic_only=True))
+        else:
+            from quote_context import compute_classified_metrics
+            z_before=compute_classified_metrics(before_bytes,after_bytes,genre,context,"before")["z_scores"]
+            after_m=compute_classified_metrics(before_bytes,after_bytes,genre,context,"after")
         # 표본 가드(#130)는 원문 쪽 S1 선정에만 건다. 원문에서 뽑힌 지표는 윤문본이
         # 쉼표를 걷어내 가드 아래로 내려가도 원시 z 로 판정한다.
         z_after = {**after_m["z_scores"], **(after_m.get("z_scores_unguarded") or {})}
     except Exception as e:  # graceful degrade — 이 축만 판정 불가
-        z_before, z_after = {}, {}
+        raise ValueError(f"metrics execution error: {e}")
         print(f"[P1 목표달성] 판정 불가 (metrics 오류: {e})", file=sys.stderr)
     s1_results, s1_warn = judge_s1_targets(z_before, z_after)
     warn = warn or s1_warn
@@ -345,6 +377,11 @@ def main(argv: list[str] | None = None) -> int:
 
     # --- P3 golden + 수치 -------------------------------------------------
     failures = _checks.run_checks(before, after)
+    if context is not None:
+        from quote_context import quote_losses
+        failures=[f for f in failures if f.code!="quote_altered"]
+        failures.extend(_checks.Failure("quote_altered",f"직접 인용 {key[1][:30]}… occurrence {missing}개 소실")
+                        for key,missing in quote_losses(before,after,context.keys))
     warn = warn or bool(failures)
     report["golden"] = [{"code": f.code, "message": f.message} for f in failures]
     if failures:
@@ -426,9 +463,14 @@ def main(argv: list[str] | None = None) -> int:
     report["gate"] = {"verdict": verdict, "exit_code": code}
     print(f"gate: {verdict}")
 
-    if args.json:
-        print(json.dumps(report, ensure_ascii=False, indent=2))
-    return code
+    if context is not None:
+        report["classification_context"]=context.report()
+        report["classified_style_eligibility"]={side:{"protected_quote_count":len(spans),
+            "excluded_quote_chars":sum(end-start for start,end in spans)}
+            for side,text in (("before",before),("after",after))
+            for spans in (capped_spans(text,context.keys,automatic_only=side=="after",manual_allow=context.manual_keys),)}
+    return code,report
+
 
 
 # ── 콘솔 하드닝 (#84) ───────────────────────────────────────────────
