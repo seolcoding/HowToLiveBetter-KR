@@ -1,6 +1,6 @@
 {
   "applied_to_working_tree": true,
-  "formal_review": "first_fresh_pass_followup_refinements_requested",
+  "formal_review": "pass_at_current_hash_after_14_entry_and_tail_followups",
   "deployed": false,
   "source_sha256_before_application": "f6ae488455384ae0661f8b278436732c774f7bf34ec327942f28e011729cbe22",
   "final_candidate": {
@@ -19,12 +19,14 @@
     "warn": 0,
     "exceptions": 0
   },
-  "gate": "not_promoted_pending_minor_followups",
-  "formal_sha256": "d86b65f72379b541ebb4e039162b2c88ced964a481efa917dcd611dd56b429f9",
+  "gate": "passed_and_promoted",
+  "formal_sha256": "a50962dab3c05ee831dfcdd499dbc69c191153d9efee0d7683af8bd66b6fb01a",
   "formal_blockers": 0,
-  "formal_warnings": 20,
+  "formal_warnings": 14,
   "formal_before_followups_archive": "kr-harness/chapters/02/kr-fit-review.r8.md",
   "post_integration_intro_correction": "post-integration-intro-correction-r1.json",
   "post_integration_doi_reason_correction": "post-integration-doi-reason-correction-r1.json",
-  "current_public_raw_sha256": "b580b637d34819b9de1169d80093a9d953a5298ca1e7d84a34a70a63b270949a"
+  "current_public_raw_sha256": "bf3f1439ae8cfa4aa150e0e6b5e86f006094c690970edb8630210f4cd0d24306",
+  "post_formal_integration": "post-formal-integration-r1.json",
+  "current_review_date_kst": "2026-10-19"
 }

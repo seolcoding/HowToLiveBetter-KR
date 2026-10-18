@@ -32,13 +32,29 @@ from typing import Any
 
 VERSION = "v1.6"
 
-# Connective endings (-고, -며, -지만, -면서, -아서, -어서) followed by a comma.
-# All of these end at a syllable boundary, so we anchor to the syllable + ",".
-# Use a non-capturing group; allow space before comma (Korean writers
-# sometimes type "...고 ,").
-_ENDING_COMMA_RE = re.compile(
-    r"(?:고|며|지만|면서|아서|어서)\s*,"
+# A small exact lexicon of 고-final nouns, not verb connective forms.
+# These nouns require a copula or 하다 to predicate (연고다 / 경고하다);
+# their connective forms are 연고이고 / 경고하고, not bare 연고 / 경고.
+# Ambiguous forms such as 사고, 보고, 참고, 신고 and 재고 are intentionally
+# absent: each can be a genuine verb stem + 고. No suffix/compound matching.
+_NONCONNECTIVE_GO_NOUNS = frozenset({
+    "연고", "원고", "광고", "창고", "금고", "잔고", "경고", "선고", "최고",
+})
+_CONNECTIVE_ENDING_RE = re.compile(
+    r"(?:고|며|지만|면서|아서|어서)(?=[\s,\.!?、。]|$)"
 )
+
+
+def _connective_ending_positions(text: str):
+    """One lexical classification shared by C11 numerator and denominator."""
+    for match in _CONNECTIVE_ENDING_RE.finditer(text):
+        # Find the complete contiguous Korean word ending at this match.
+        # Checking an exact word leaves real forms such as 광고하고 intact.
+        word = re.search(r"[가-힣]+$", text[:match.end()])
+        if word and word.group() in _NONCONNECTIVE_GO_NOUNS:
+            continue
+        yield match
+
 
 # Eojeol = whitespace-separated token. Strip trailing punctuation for length
 # accounting but keep raw token for diversity / suffix tests.
@@ -137,20 +153,11 @@ def ending_comma_rate(text: str) -> float:
     text = _strip_digit_commas(text)
     if not text.strip():
         return 0.0
-    # All occurrences of the endings (with optional trailing comma).
-    all_endings = re.findall(r"(?:고|며|지만|면서|아서|어서)(?:\s*,)?", text)
-    # Filter to those that actually represent a connective ending. The bare
-    # syllable can occur inside other words (e.g. "고기"), so we require that
-    # the syllable sit at an eojeol's end OR be followed by space/punct.
-    # Approximation: count regex hits whose match ends at a token boundary.
-    boundary_endings = re.findall(
-        r"(?:고|며|지만|면서|아서|어서)(?=[\s,\.!?、。]|$)", text
-    )
-    if not boundary_endings:
+    endings = list(_connective_ending_positions(text))
+    if not endings:
         return 0.0
-    # Count those followed by comma.
-    with_comma = len(_ENDING_COMMA_RE.findall(text))
-    return with_comma / len(boundary_endings)
+    with_comma = sum(bool(re.match(r"\s*,", text[match.end():])) for match in endings)
+    return with_comma / len(endings)
 
 
 # 쉼표가 이보다 적으면 comma_segment_length 의 z-score 를 판정 불가(None)로 둔다 (#130).

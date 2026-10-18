@@ -1,0 +1,95 @@
+{
+  "status": "independently_reviewed_minimal_proposals",
+  "reviewed_at_utc": "2026-10-18T15:10:43.959170+00:00",
+  "review_date_asia_seoul": "2026-10-19",
+  "scope": "Batch3 exact proposal approvals only; not final KR-FIT or application",
+  "manifest_path": "kr-harness/publication/2026-10-18/ch02/post-formal-batch-3.json",
+  "manifest_sha256": "b9a179f9bb59ae4b36904e396211772a95d3bd10838002270357deed03bdbb59",
+  "base_public_raw_sha256": "b580b637d34819b9de1169d80093a9d953a5298ca1e7d84a34a70a63b270949a",
+  "approve": 3,
+  "revise": 0,
+  "decisions": [
+    {
+      "number": 25,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-025-1523/publication-formal-correction-r2.md",
+      "proposal_sha256": "eeedbb0efbfae7af68f1edab2f72b5e83c4e9d99d34a9b542858438cb67398c2",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-025-1523/publication-formal-correction-changes-r2.json",
+      "changes_sha256": "6bb61da6d18a204291dbaf12768f64a2cfbf3711f4f24acd2533f4d83a613634",
+      "decision": "approve",
+      "current_entry_sha256": "c62bce7810d622172287eb78d74962441b4029d742a6a64675540a64ef531592",
+      "current_whole_public_sha256": "b580b637d34819b9de1169d80093a9d953a5298ca1e7d84a34a70a63b270949a",
+      "reason": "연간 비용을 국내가격 미확인 어림으로 독자에게 명시합니다. 기존 원화범위의 근거를 새로 찾은 것이 아니며 가격 TODO를 유지합니다.",
+      "checks": {
+        "exact_declared_changes_only": true,
+        "title_tag_grade_source_separator_preserved": true,
+        "unaffected_numbers_conditions_warnings_preserved": true,
+        "easy_chars": 60,
+        "new_sentence_max_chars": 38
+      },
+      "new_sentences": [
+        {
+          "text": "연간 몇만 원에서 십수만 원은 국내 가격을 확인하지 못한 어림입니다.",
+          "chars": 38
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-026-c168/publication-formal-correction-r2.md",
+      "proposal_sha256": "87318b19924ff3bec387aac39e66c541fa1b52da83bf980e58849eebd7e1cba9",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-026-c168/publication-formal-correction-changes-r2.json",
+      "changes_sha256": "6188ba6f22b25f29e9670a1daefd6a854eb7e05af1b4012a5d9e5511998ee978",
+      "decision": "approve",
+      "current_entry_sha256": "f249d914ac9a2a7f73e358cf6b6f18915026edc4e9b5a263aa5604a840b51410",
+      "current_whole_public_sha256": "b580b637d34819b9de1169d80093a9d953a5298ca1e7d84a34a70a63b270949a",
+      "reason": "하루 몇백원을 국내가격 미확인 어림으로 한정합니다. 실제 원두량·일일사용량·구매가격 검증을 주장하지 않습니다. 커피효과·정정CI·첨가물미확인·예외는 불변입니다.",
+      "checks": {
+        "exact_declared_changes_only": true,
+        "title_tag_grade_source_separator_preserved": true,
+        "unaffected_numbers_conditions_warnings_preserved": true,
+        "easy_chars": 91,
+        "new_sentence_max_chars": 39
+      },
+      "new_sentences": [
+        {
+          "text": "집에서 내릴 때 하루 몇백 원은 국내 가격을 확인하지 않은 어림입니다.",
+          "chars": 39
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-027-f02c/publication-formal-correction-r2.md",
+      "proposal_sha256": "b11594598b35705f7a7cb24c497f075de08638171d25f5556296fe35a334a51f",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-027-f02c/publication-formal-correction-changes-r2.json",
+      "changes_sha256": "12ea50010f21152763a94238d15631482e3fb3d0c752e7e99ba873b084932691",
+      "decision": "approve",
+      "current_entry_sha256": "649540fae57294f96394b16479d1b3472124b91146a003d788c5111fa56e0fcf",
+      "current_whole_public_sha256": "b580b637d34819b9de1169d80093a9d953a5298ca1e7d84a34a70a63b270949a",
+      "reason": "검증되지 않은 일일금액을 삭제하고 국내가격 미확인 및 품목·계절별 가격 확인을 씁니다. 새가격·국내영양권장량을 추가하지 않고 관찰효과·회분차이를 보존합니다.",
+      "checks": {
+        "exact_declared_changes_only": true,
+        "title_tag_grade_source_separator_preserved": true,
+        "unaffected_numbers_conditions_warnings_preserved": true,
+        "easy_chars": 95,
+        "new_sentence_max_chars": 23
+      },
+      "new_sentences": [
+        {
+          "text": "국내 구매 비용은 확인하지 못했습니다.",
+          "chars": 21
+        },
+        {
+          "text": "살 품목과 계절에 맞춰 가격을 확인하세요.",
+          "chars": 23
+        }
+      ]
+    }
+  ],
+  "actual_source_access": "새 가격 원자료/신규HTTP 없음. 미확인 어림임을 표시하거나 금액단정을 제거한 제한 승인입니다.",
+  "limits": [
+    "미확인 국내가격·개별급여·입원기간·영양권장량을 확인성공으로 세지 않음.",
+    "원화어림의 정확성을 입증하는 승인이 아님.",
+    "ROOT current whole-public/entry guards and final reread/new CLI hash required."
+  ]
+}

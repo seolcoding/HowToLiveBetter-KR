@@ -1,0 +1,71 @@
+{
+  "entry": 26,
+  "current_public_path": "/workspace/HowToLiveBetter-KR/book-kr/02-천천히-죽지-않기.md",
+  "current_public_raw_sha256": "b580b637d34819b9de1169d80093a9d953a5298ca1e7d84a34a70a63b270949a",
+  "current_public_entry_sha256": "f249d914ac9a2a7f73e358cf6b6f18915026edc4e9b5a263aa5604a840b51410",
+  "entry_byte_start": 86126,
+  "entry_byte_end": 88332,
+  "entry_extraction": "from heading26 byte offset through separator immediately before heading27; original trailing whitespace retained",
+  "date_utc": "2026-10-18",
+  "status": "unadopted_proposal",
+  "scope": "formal domestic price minimum followup",
+  "base_snapshot": "publication-current-entry-r2.md",
+  "proposal_sha256": "87318b19924ff3bec387aac39e66c541fa1b52da83bf980e58849eebd7e1cba9",
+  "changes": [
+    {
+      "field": "비용",
+      "before": "집에서 내리면 하루 몇백 원입니다. 한 잔 내리는 데 몇 분 걸립니다.",
+      "after": "집에서 내릴 때 하루 몇백 원은 국내 가격을 확인하지 않은 어림입니다. 한 잔 내리는 데 몇 분 걸립니다.",
+      "reason": "국내 1차 가격으로 검증되지 않은 하루 몇백 원을 확정 가격으로 오독하지 않도록 독자 본문에 어림임과 국내 미확인을 명시. 시간 문장은 보존."
+    }
+  ],
+  "verification": {
+    "date_utc": "2026-10-18",
+    "method": "현재 공개 항목과 정식 검토 문서 직접 읽음. 국내 판매처 가격을 신규 열람·검증한 작업은 아님.",
+    "domestic_primary_price_verified": false,
+    "primary_price_quote": null,
+    "primary_price_url": null,
+    "review_provenance": [
+      {
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/chapters/02/kr-fit-review.md",
+        "sha256": "3b8a8630adbeb6e89450f96925cbfa2a2ca4df1905b6d5d98bb0d9f479077a2a"
+      },
+      {
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/chapters/02/kr-fit-review.r8.md",
+        "sha256": "3b8a8630adbeb6e89450f96925cbfa2a2ca4df1905b6d5d98bb0d9f479077a2a"
+      }
+    ],
+    "exact_unverified_original_quote": "집에서 내리면 하루 몇백 원입니다. 한 잔 내리는 데 몇 분 걸립니다.",
+    "source_evidence_note": "새 가격 사실을 주장하지 않아 새 가격 근거 없음. 기존 정정 CI·DOI의 근거는 source-evidence/coffee-correction-PMC5765813.xml에 그대로 보존."
+  },
+  "intentional_numeric_scope_changes": [
+    "가격 몇백 원·하루·시간 몇 분을 삭제하지 않고 미검증 어림으로 한정. 확정 국내 가격이라는 성격만 철회."
+  ],
+  "doi_changes": {
+    "added": [],
+    "removed": []
+  },
+  "unchanged": [
+    "제목",
+    "쉽게",
+    "이득",
+    "근거등급",
+    "출처",
+    "비고",
+    "비용태그",
+    "정정문 확정 CI0.79–0.88와 DOI",
+    "임신·부정맥·불안·불면 예외",
+    "설탕·크림 효과 한계"
+  ],
+  "unresolved_limitations": [
+    "국내 실제 제품별 가격·1잔 원두량·하루 사용량에 따른 비용은 검증되지 않았음."
+  ],
+  "validation": {
+    "new_sentence": "집에서 내릴 때 하루 몇백 원은 국내 가격을 확인하지 않은 어림입니다.",
+    "new_sentence_python_len": 39,
+    "easy_python_len": 91,
+    "only_cost_changed": true,
+    "public_unchanged": true,
+    "no_approval_or_publication": true
+  }
+}

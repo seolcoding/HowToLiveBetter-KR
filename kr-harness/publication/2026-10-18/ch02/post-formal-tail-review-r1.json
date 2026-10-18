@@ -1,0 +1,37 @@
+{
+  "status": "approve_conditional_on_exact_entry1_application",
+  "reviewed_at_utc": "2026-10-18T15:10:43.959170+00:00",
+  "review_date_asia_seoul": "2026-10-19",
+  "proposal_path": "kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-001-1c88/publication-formal-tail-correction-r2.json",
+  "proposal_sha256": "b0dd08c078929dc48b17f46379e3fa45ad83d01768ca22fbaafbd90c7191be00",
+  "base_public_raw_sha256": "b580b637d34819b9de1169d80093a9d953a5298ca1e7d84a34a70a63b270949a",
+  "base_tail_sha256": "23246e8c91c3202647574f8f2822e01180c3babc2edeb4369e9f1a20590e86cb",
+  "proposed_tail_sha256": "510ac5b187aebd96c4d45bc3fbe796b40084787738a83223ac93f3c8d4e83272",
+  "decision": "approve",
+  "application_condition": "현재 public 제1항에는 아직 구 비용이 남아 있음. 이 tail 수정은 위 정확 SHA의 승인 formalr2 본문 수정과 함께 또는 그 수정 적용 후에만 적용해야 함. 적용 직전 전체 public SHA가 달라지면 ROOT가 새 guard를 기록해야 함.",
+  "approved_entry1": {
+    "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-001-1c88/publication-formal-correction-r2.md",
+    "sha256": "ac9299fb4f97ee79735a9ec6af645a5978679a5749d3bcf2dc0ad3c544ffa1f0",
+    "current_public_entry_sha256": "321498bb8e6b8851d7457f526a165a8a0b8ef2b3436362fed5b03cb25ec6e58a",
+    "relationship": "기승인 formalr2 비용은 미확인 월 금액과 금단 기간의 단정을 삭제함. 이 TODO 교체는 그 수정과 일치하게 남은 확인 범위를 기록함.",
+    "application_condition": "현재 public 제1항에는 아직 구 비용이 남아 있음. 이 tail 수정은 위 정확 SHA의 승인 formalr2 본문 수정과 함께 또는 그 수정 적용 후에만 적용해야 함. 적용 직전 전체 public SHA가 달라지면 ROOT가 새 guard를 기록해야 함."
+  },
+  "reason": "지워질 십수만원 환산주장에 대한 옛TODO를 가격·소비량별월산식·금단기간 자체의 미확인으로 바꾸며 한계를 숨기지 않습니다. 기승인정확#1안이 적용돼야 마지막문장이 사실이므로 함께/후행적용조건을 명시승인합니다.",
+  "checks": {
+    "unique_span_count": 1,
+    "all_other_tail_bytes_unchanged": true,
+    "new_primary_claims": false,
+    "new_sentence_chars": [
+      2,
+      34,
+      29,
+      26
+    ]
+  },
+  "access": "현재tail과기승인#1제안 직접재열람/해시검사; 신규HTTP·가격·임상기간자료검증없음",
+  "limits": [
+    "가격/산식/금단기간은미해결.",
+    "단독tail 선행적용은승인하지않음.",
+    "전체문서해시가바뀌면 ROOT가새guard/적용기록을남기고 최종KR-FIT필요."
+  ]
+}

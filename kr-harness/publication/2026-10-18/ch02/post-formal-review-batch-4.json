@@ -1,0 +1,115 @@
+{
+  "status": "independently_reviewed_minimal_proposals",
+  "reviewed_at_utc": "2026-10-18T15:10:43.959170+00:00",
+  "review_date_asia_seoul": "2026-10-19",
+  "scope": "Batch4 exact proposal approvals only; not final KR-FIT or application",
+  "manifest_path": "kr-harness/publication/2026-10-18/ch02/post-formal-batch-4.json",
+  "manifest_sha256": "a6f863b793d600d62bc0253f3fb14d5e83acc718a818eb65e4c6ef198972f481",
+  "base_public_raw_sha256": "b580b637d34819b9de1169d80093a9d953a5298ca1e7d84a34a70a63b270949a",
+  "approve": 3,
+  "revise": 0,
+  "decisions": [
+    {
+      "number": 11,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-011-ed84/publication-formal-correction-r2.md",
+      "proposal_sha256": "4df4e76f0118266d717a1f9e528633e18073c1914bd5e60a23f32b5bdbd4355b",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-011-ed84/publication-formal-correction-changes-r2.json",
+      "changes_sha256": "a6a123c2bfcd16a46ed27849725a79dadfd1625ac88d5bf0d883477e38d46041",
+      "decision": "approve",
+      "current_entry_sha256": "732c9758957cda416b9d39f7592113351ac6145ab86c468bcbce6a4f51dc214d",
+      "current_whole_public_sha256": "b580b637d34819b9de1169d80093a9d953a5298ca1e7d84a34a70a63b270949a",
+      "reason": "실제 KDCA첨부 PDF34/38쪽에서 성인19~64·노인65+의 중강도유산소150~300분/고강도75~150분·혼합가능 및 노인기능예외를 다시읽었습니다. 제안은 걷기/활동시간 맥락의 유산소 권고 보강이며 걸음시간 정확환산이나 한국지침 전체의 걷기충족을 주장하지 않습니다. 기존 모든 연구분모·HR·관찰한계는 불변입니다.",
+      "checks": {
+        "exact_declared_changes_only": true,
+        "title_tag_grade_source_separator_preserved": true,
+        "unaffected_numbers_conditions_warnings_preserved": true,
+        "easy_chars": 115,
+        "new_sentence_max_chars": 39
+      },
+      "new_sentences": [
+        {
+          "text": "국내 지침도 성인·노인에게 주 150~300분 중강도 활동을 권합니다.",
+          "chars": 39
+        },
+        {
+          "text": "고강도라면 주 75~150분이며 두 강도를 섞어도 됩니다.",
+          "chars": 32
+        },
+        {
+          "text": "이는 걸음 수를 시간으로 정확히 바꾼 기준은 아닙니다.",
+          "chars": 30
+        },
+        {
+          "text": "노인은 권장량이 어려우면 체력·신체기능에 맞게 움직이세요.",
+          "chars": 32
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-020-e74f/publication-formal-correction-r2.md",
+      "proposal_sha256": "07d015c3eded18155198500b95c87d86498a67db28cff8bc487e6bbfb6a3fcc9",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-020-e74f/publication-formal-correction-changes-r2.json",
+      "changes_sha256": "d558ff93d06dc24d1e4dfa05a92e7f7393a44cee7fa060dcbc6fde14e34e3590",
+      "decision": "approve",
+      "current_entry_sha256": "50ca8ca70d49ff8f8dfd0472a5f253c81d9511a34695e41729b993e0d2c82a42",
+      "current_whole_public_sha256": "b580b637d34819b9de1169d80093a9d953a5298ca1e7d84a34a70a63b270949a",
+      "reason": "정신건강진료 일괄급여·며칠입원 단정을 삭제하고 개별 환자·치료·급여기준·의료진 판단으로 제한합니다. 새 국내급여/입원자료 확인이 아닙니다. 쉽게의 중증금단 즉시응급진료·본인의존평가·자가금주주의·의학수치는 보존합니다. 비용확인문장을 응급진료보다 우선시키는 뜻으로 승인하지 않습니다.",
+      "checks": {
+        "exact_declared_changes_only": true,
+        "title_tag_grade_source_separator_preserved": true,
+        "unaffected_numbers_conditions_warnings_preserved": true,
+        "easy_chars": 112,
+        "new_sentence_max_chars": 35
+      },
+      "new_sentences": [
+        {
+          "text": "진료 전 건강보험 적용 여부와 본인부담을 의료기관에 확인하세요.",
+          "chars": 35
+        },
+        {
+          "text": "환자별 치료 내용과 급여 기준도 함께 확인하세요.",
+          "chars": 27
+        },
+        {
+          "text": "치료기관과 입원 여부·기간은 상태에 따라 의료진과 상의하세요.",
+          "chars": 34
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-034-cb01/publication-formal-correction-r2.md",
+      "proposal_sha256": "4cbe1400d316474133a69ea437d72f0672141a1708f20307129e21b87b89fb0c",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-034-cb01/publication-formal-correction-changes-r2.json",
+      "changes_sha256": "7861e1306d1a474aacb20e9f653c8caa16d244ff254f458acfaa0dd4bf5740ef",
+      "decision": "approve",
+      "current_entry_sha256": "39ecad1caee8a72af982c7e297156cc3f305b16ecea24da39e27260ee2488598",
+      "current_whole_public_sha256": "b580b637d34819b9de1169d80093a9d953a5298ca1e7d84a34a70a63b270949a",
+      "reason": "일일몇천원 단정을 국내가격 미확인·제품가격과섭취량 비교로 바꿉니다. 국내 유제품권장량·가격 확인성공이 아니고 PURE연구의 회분/총유제품/관찰한계와 유당불내증주의를 보존합니다.",
+      "checks": {
+        "exact_declared_changes_only": true,
+        "title_tag_grade_source_separator_preserved": true,
+        "unaffected_numbers_conditions_warnings_preserved": true,
+        "easy_chars": 81,
+        "new_sentence_max_chars": 27
+      },
+      "new_sentences": [
+        {
+          "text": "국내 가격은 확인하지 못했습니다.",
+          "chars": 18
+        },
+        {
+          "text": "제품별 가격과 먹을 양을 보고 비용을 비교하세요.",
+          "chars": 27
+        }
+      ]
+    }
+  ],
+  "actual_source_access": "검토자의 신규HTTP 없음. 원저자의 신규수집 KDCA HTML/PDF/TXT를 기존raw로 열람했습니다. pdftotext -f34 -l34 및 -f38 -l38 stdout를 실제 읽었습니다. PDF SHA dbae305ba931cb6ad8a5ca124a340a3994c572fa44ebb7975f49440aaa476785, TXT SHA9999fe05bfd40de67125ddf516e9b9618b8643988354e0c173b3e76a31c5dcac, HTML SHA6486731c28d39c8a73938607edd1d24ac79dc28c0fdc8bc7f99af88eaac76cc8 일치. 법·기관출처가 없는 #20/#34는 새급여/가격검증으로 세지 않습니다.",
+  "limits": [
+    "미확인 국내가격·개별급여·입원기간·영양권장량을 확인성공으로 세지 않음.",
+    "KDCA는 해당두쪽 범위이며 전지침·환산·Banach정정문까지 검증한 것이 아님.",
+    "ROOT current whole-public/entry guards and final reread/new CLI hash required."
+  ]
+}

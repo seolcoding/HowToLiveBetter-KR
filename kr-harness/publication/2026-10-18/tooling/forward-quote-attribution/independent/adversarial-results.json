@@ -1,0 +1,128 @@
+{
+  "cases": [
+    {
+      "name": "canonical",
+      "text": "기관은 내용을 이렇게 설명합니다. \"조건은 복잡하며, 절차는 간단합니다\"",
+      "expected": 1,
+      "actual": 1
+    },
+    {
+      "name": "newline",
+      "text": "기관은 내용을 이렇게 설명합니다.\n\"조건은 복잡하며, 절차는 간단합니다\"",
+      "expected": 1,
+      "actual": 1
+    },
+    {
+      "name": "blank-lines",
+      "text": "기관은 내용을 이렇게 설명합니다.\n\n\"조건은 복잡하며, 절차는 간단합니다\"",
+      "expected": 1,
+      "actual": 1
+    },
+    {
+      "name": "boundary",
+      "text": "기관은 내용을 이렇게 설명합니다. 나는 생각합니다. \"조건은 복잡하며, 절차는 간단합니다\"",
+      "expected": 0,
+      "actual": 0
+    },
+    {
+      "name": "line-boundary",
+      "text": "기관은 내용을 이렇게 설명합니다.\n나는 생각합니다. \"조건은 복잡하며, 절차는 간단합니다\"",
+      "expected": 0,
+      "actual": 0
+    },
+    {
+      "name": "unrelated-speech",
+      "text": "기관은 설명했습니다. \"조건은 복잡하며, 절차는 간단합니다\"",
+      "expected": 0,
+      "actual": 0
+    },
+    {
+      "name": "no-source",
+      "text": "이렇게 설명합니다. \"조건은 복잡하며, 절차는 간단합니다\"",
+      "expected": 0,
+      "actual": 0
+    },
+    {
+      "name": "near-word",
+      "text": "기관은 내용을 이렇게 설명서로 정리합니다. \"조건은 복잡하며, 절차는 간단합니다\"",
+      "expected": 0,
+      "actual": 0
+    },
+    {
+      "name": "negated",
+      "text": "기관은 내용을 이렇게 설명하지 않습니다. \"조건은 복잡하며, 절차는 간단합니다\"",
+      "expected": 0,
+      "actual": 0
+    },
+    {
+      "name": "conditional",
+      "text": "기관은 내용을 이렇게 설명한다면. \"조건은 복잡하며, 절차는 간단합니다\"",
+      "expected": 0,
+      "actual": 0
+    },
+    {
+      "name": "extra-sentence",
+      "text": "기관은 내용을 이렇게 설명합니다. 끝입니다. \"조건은 복잡하며, 절차는 간단합니다\"",
+      "expected": 0,
+      "actual": 0
+    },
+    {
+      "name": "multiple",
+      "text": "기관은 내용을 이렇게 설명합니다. \"조건은 복잡하며, 절차는 간단합니다\" \"다른 조건은 복잡하며, 절차는 다릅니다\"",
+      "expected": 1,
+      "actual": 1
+    },
+    {
+      "name": "heading-between",
+      "text": "기관은 내용을 이렇게 설명합니다.\n# 내 생각\n\"조건은 복잡하며, 절차는 간단합니다\"",
+      "expected": 0,
+      "actual": 0
+    },
+    {
+      "name": "new-speech-wrapper",
+      "text": "기관은 내용을 이렇게 설명합니다. \"조건은 복잡하며, 절차는 간단합니다\"",
+      "expected": 1,
+      "actual": 1
+    },
+    {
+      "name": "similar-pointer",
+      "text": "기관은 내용을 그런 식으로 설명합니다. \"조건은 복잡하며, 절차는 간단합니다\"",
+      "expected": 0,
+      "actual": 0
+    }
+  ],
+  "unchanged_files": [
+    "LICENSE",
+    "PROVENANCE.md",
+    ".gitignore",
+    "SKILL.md",
+    "agents/openai.yaml",
+    "scripts/verify_gates.py",
+    "scripts/console.py",
+    "scripts/strip_injected_commas.py",
+    "scripts/verify_change_rate.py",
+    "scripts/prepare_monolith_input.py",
+    "scripts/sanitize_text.py",
+    "scripts/restore_modality.py",
+    "scripts/reassemble_chunks.py",
+    "references/quick-rules.md",
+    "references/diagnosis-rules.md",
+    "references/design-notes.md",
+    "references/rewriting-playbook.md",
+    "references/empirical-validation.md",
+    "references/quick-rules.footer.md",
+    "references/quick-rules.header.md",
+    "references/scholarship.md",
+    "references/ai-tell-taxonomy.md",
+    "references/taxonomy-candidates.md",
+    "references/metrics.py",
+    "references/baseline_v2.json",
+    "references/web-service-spec.md",
+    "references/metrics_v2.py",
+    "references/baseline.json",
+    "references/roles/monolith.md",
+    "references/roles/finalizer.md",
+    "references/roles/diagnostician.md"
+  ],
+  "patch_sha256": "cabb44a523efb610e140237ffff3a5ff44fa4a50b2a7d03de39957a49ef27af6"
+}

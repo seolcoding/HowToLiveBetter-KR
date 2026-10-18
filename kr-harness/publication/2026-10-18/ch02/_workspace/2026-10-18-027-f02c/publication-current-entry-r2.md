@@ -1,0 +1,8 @@
+### 27. 하루 과일 2인분과 채소 3인분을 채우세요
+<!-- 成本标签: 钱=少 时间=中 毅力=些 收益=中 口径=死亡率 -->
+- 비용: 하루 몇천 원이 듭니다. 씻고 써는 데 시간이 조금 듭니다. 매일 사서 필요한 양을 채우기가 어렵습니다.
+- 쉽게: 하루 과일 2인분과 채소 3인분을 먹는 사람이 덜 사망했습니다. 그보다 더 먹어도 추가 차이는 뚜렷하지 않았습니다. 먹는 양을 늘리면 그만큼 효과가 난다는 뜻은 아닙니다.
+- 이득: 여러 추적 연구를 합친 결과입니다. 연구진은 먹는 양을 기록했으며 집단을 나눠 배정하지 않았습니다. Aune 연구는 하루 200g 차이당 전체 사망을 비교했습니다. 상대적인 위험의 비율인 RR은 0.90이었습니다. 약 10% 낮은 위험과 관련됐다는 뜻입니다. 낮은 사망 위험과의 관련은 하루 800g까지 관찰됐습니다. 이 연구에서 1인분은 80g으로 계산했습니다. Wang 연구는 미국의 대규모 추적 연구 두 개를 분석했습니다. 시작 때 심혈관질환·암·당뇨병이 없던 남녀를 추적했습니다. 하루 5인분은 2인분보다 전체 사망의 HR이 0.87이었습니다. HR은 추적 중 각 시점의 사망 발생률을 비교한 값입니다. 같은 기간 죽을 확률이 13% 낮다는 뜻은 아닙니다. 이 두 연구와 다른 24개 연구도 합쳤습니다. 총 26개 연구의 전체 사망 RR도 0.87이었습니다. 과일 2인분과 채소 3인분에서 사망 위험이 가장 낮았습니다. 이 양을 넘으면 사망 위험이 더 낮아지지는 않았습니다.
+- 근거등급: A
+- 출처: Aune D, et al. (2017). Fruit and vegetable intake and the risk of cardiovascular disease, total cancer and all-cause mortality: a systematic review and dose-response meta-analysis of prospective studies. International Journal of Epidemiology. <https://doi.org/10.1093/ije/dyw319>; Wang DD, et al. (2021). Fruit and Vegetable Intake and Mortality: Results From 2 Prospective Cohort Studies of US Men and Women and a Meta-Analysis of 26 Cohort Studies. Circulation. <https://doi.org/10.1161/CIRCULATIONAHA.120.048996>
+- 비고: 두 연구가 제시한 섭취량 기준은 서로 다릅니다. 5인분을 두 연구에서 모두 정확히 400g으로 보지는 마세요. Wang 연구의 권고에는 과일주스와 감자가 포함되지 않습니다. 완두콩·옥수수 등 전분 많은 채소도 같은 관련을 보이지 않았습니다. 5인분을 목표로 하되 10인분까지 억지로 채울 필요는 없습니다. 두 연구 모두 추적 기록을 분석했습니다. 채소를 많이 먹는 사람은 소득과 교육 수준도 다릅니다. 운동 습관도 다릅니다. 이런 다른 요인이 결과에 영향을 미칠 수 있습니다. "위험 약 10% 낮음"만큼 효과가 보장되지는 않습니다.

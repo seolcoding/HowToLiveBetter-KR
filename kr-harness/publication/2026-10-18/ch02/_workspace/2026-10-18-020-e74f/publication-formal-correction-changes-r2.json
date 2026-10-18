@@ -1,0 +1,52 @@
+{
+  "status": "unadopted_proposal",
+  "entry": 20,
+  "public_path": "/workspace/HowToLiveBetter-KR/book-kr/02-천천히-죽지-않기.md",
+  "public_sha256": "b580b637d34819b9de1169d80093a9d953a5298ca1e7d84a34a70a63b270949a",
+  "entry_sha256": "50ca8ca70d49ff8f8dfd0472a5f253c81d9511a34695e41729b993e0d2c82a42",
+  "captured_at_utc": "2026-10-18T15:06:28.012962+00:00",
+  "entry_extraction": "from ### 20. through separator whitespace before ### 21.",
+  "proposal_sha256": "07d015c3eded18155198500b95c87d86498a67db28cff8bc487e6bbfb6a3fcc9",
+  "changes": [
+    {
+      "field": "비용",
+      "before": "정신건강의학과 진료는 건강보험이 적용됩니다. 알코올 치료 전문 기관도 있습니다. 증상이 심하면 며칠 입원합니다.",
+      "after": "진료 전 건강보험 적용 여부와 본인부담을 의료기관에 확인하세요. 환자별 치료 내용과 급여 기준도 함께 확인하세요. 치료기관과 입원 여부·기간은 상태에 따라 의료진과 상의하세요.",
+      "reason": "국내 세부 급여·입원기간 미확인이라는 formal review 지적을 독자 문구에 반영합니다. 일괄 건강보험 적용과 며칠 입원 단정을 삭제하고 환자·의료기관·급여 기준·치료 상태에 따른 개별 확인으로 한정합니다.",
+      "intentional_numeric_scope_changes": [
+        "비용 필드의 며칠이라는 미확인 입원기간 삭제",
+        "건강보험 일괄 적용 단정 삭제",
+        "알코올 치료 전문 기관 존재 문구를 치료기관 상담 안내로 축소"
+      ],
+      "evidence_status": "domestic_details_unverified",
+      "primary_quotes": [],
+      "provenance_limit": "이번 수정에서 국내 급여 세부범위·비용·입원기간을 뒷받침할 1차 자료를 직접 검증하지 않았습니다. 확인된 국내 적용 범위인 것처럼 주장하지 않으며 새로운 가격·기간을 넣지 않습니다."
+    }
+  ],
+  "review_basis": {
+    "path": "kr-harness/chapters/02/kr-fit-review.r8.md",
+    "quote": "국내정신건강진료의 세부급여·입원기간은 직접 확인하지 못했습니다. 개별비용과 치료장소를 의료기관에 확인하도록 보강할 수 있습니다.",
+    "type": "independent_review_not_primary_source"
+  },
+  "evidence": [],
+  "unresolved_limits": [
+    "환자별 실제 급여·본인부담·적정 치료기관·입원기간은 별도 개별 확인이 필요합니다.",
+    "기존 의학적 주장·출처의 재검증은 이번 비용 최소수정의 범위 밖입니다."
+  ],
+  "preserved": [
+    "쉽게 r3의 발생 가능성·금단 응급 조건",
+    "진단 이후 장기 사망과 자가 금주 결과의 구별",
+    "비용 외 여섯 필드와 제목·태그·근거등급·DOI·참조 모두 원문 그대로"
+  ],
+  "validation": {
+    "new_sentence_lengths": [
+      35,
+      27,
+      34
+    ],
+    "new_sentences_max50": true,
+    "easy_chars": 112,
+    "unchanged_other_lines": true
+  },
+  "created_at_utc": "2026-10-18T15:06:28.012962+00:00"
+}

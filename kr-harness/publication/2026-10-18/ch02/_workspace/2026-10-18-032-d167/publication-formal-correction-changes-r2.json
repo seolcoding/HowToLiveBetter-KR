@@ -1,0 +1,78 @@
+{
+  "status": "unadopted_proposal",
+  "entry": 32,
+  "revision": 2,
+  "base": {
+    "public_path": "/workspace/HowToLiveBetter-KR/book-kr/02-천천히-죽지-않기.md",
+    "public_sha256": "b580b637d34819b9de1169d80093a9d953a5298ca1e7d84a34a70a63b270949a",
+    "entry_sha256": "d3f3cc50ea0982a6f273ee780efc8fdb4949f1f4e0a946712423dfb060f0c603",
+    "extraction": "Exact UTF-8 substring from ^### 32. through immediately before ^### 33., includes separator whitespace",
+    "captured_at_utc": "2026-10-18T15:00:14.152382+00:00"
+  },
+  "proposal_sha256": "b925f226dc4f931c9feed91dedd253dde5f5aa7e5c1e44e22095d38722ec1aa8",
+  "changes": [
+    {
+      "field": "비고",
+      "before": "논쟁 있음. \"약간 살이 찐 편이 더 오래 산다\"는 연구 결과도 있습니다. 이 분석에서는 과체중의 사망 위험이 약 6% 낮았습니다. 가벼운 비만은 약 5% 낮았습니다. 쟁점은 흡연자와 이미 병든 사람의 데이터를 뺄지입니다. 등록 직후 몇 해의 데이터를 뺄지도 논쟁합니다. 중병에 걸리면 살이 먼저 빠지므로 이런 데이터를 뺍니다. 239개 연구 분석에서는 이 세 조건에 맞지 않는 사람을 뺐습니다. 그러자 과체중인 사람의 사망 위험이 다시 높게 나타났습니다. 비만 성인의 식이 감량 시험에서는 총사망 감소가 관찰됐습니다. 위 BMI 수치는 몸무게가 다른 사람들을 비교한 값입니다. 살을 빼면 그만큼 위험이 내려간다는 뜻은 아닙니다. 살을 뺄 생각이라면 식사 시간 조절에 공들이지 마세요. 아침 식사도 16:8 단식도 추가 이득이 없습니다. 제6절 제26항(아침 식사나 16:8 단식에 체중 조절 기대하지 않기)을 보세요. BMI 20~25는 이 관찰연구의 최저위험 구간입니다. 한국의 과체중·비만 진단기준을 뜻하지는 않습니다.",
+      "after": "논쟁 있음. \"약간 살이 찐 편이 더 오래 산다\"는 연구 결과도 있습니다. 이 분석에서는 과체중의 사망 위험이 약 6% 낮았습니다. 가벼운 비만(BMI 30 이상 35 미만)은 약 5% 낮게 나왔습니다. 정상체중(BMI 18.5 이상 25 미만)과 비교한 값입니다. HR는 0.95, 95% 신뢰구간은 0.88~1.01입니다. 다만 통계적으로 뚜렷한 차이는 아니었습니다. 쟁점은 흡연자와 이미 병든 사람의 데이터를 뺄지입니다. 등록 직후 몇 해의 데이터를 뺄지도 논쟁합니다. 중병에 걸리면 살이 먼저 빠지므로 이런 데이터를 뺍니다. 239개 연구 분석에서는 이 세 조건에 맞지 않는 사람을 뺐습니다. 그러자 과체중인 사람의 사망 위험이 다시 높게 나타났습니다. 비만 성인의 식이 감량 시험에서는 총사망 감소가 관찰됐습니다. 위 BMI 수치는 몸무게가 다른 사람들을 비교한 값입니다. 살을 빼면 그만큼 위험이 내려간다는 뜻은 아닙니다. 살을 뺄 생각이라면 식사 시간 조절에 공들이지 마세요. 아침 식사도 16:8 단식도 추가 이득이 없습니다. 제6절 제26항(아침 식사나 16:8 단식에 체중 조절 기대하지 않기)을 보세요. BMI 20~25는 이 관찰연구의 최저위험 구간입니다. 한국의 과체중·비만 진단기준을 뜻하지는 않습니다.",
+      "span_before": "가벼운 비만은 약 5% 낮았습니다.",
+      "span_after": "가벼운 비만(BMI 30 이상 35 미만)은 약 5% 낮게 나왔습니다. 정상체중(BMI 18.5 이상 25 미만)과 비교한 값입니다. HR는 0.95, 95% 신뢰구간은 0.88~1.01입니다. 다만 통계적으로 뚜렷한 차이는 아니었습니다.",
+      "reason": "Flegal 가벼운 비만의 HR0.95를 유의한 사망감소로 읽지 않도록 비교 BMI·원추정치·95%신뢰구간과 통계적 불확실성을 독자 본문에 명시."
+    }
+  ],
+  "evidence": [
+    {
+      "doi": "10.1001/jama.2012.113905",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1001%2Fjama.2012.113905%22&format=json&resultType=core&pageSize=10",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/790629f89037aa491844.json",
+      "raw_sha256": "65bcdb6b29475d18052ab5dea9a1f1ee381a29c20338a7f477d71e5641e54ec1",
+      "method": "Existing EuropePMC core primary abstract independently reopened and read; not a new HTTP fetch or full-text verification.",
+      "verified_at_utc": "2026-10-18T15:00:14.152833+00:00",
+      "exact_quotes": [
+        "Random-effects summary all-cause mortality HRs for overweight (BMI of 25-<30), obesity (BMI of ≥30), grade 1 obesity (BMI of 30-<35), and grades 2 and 3 obesity (BMI of ≥35) were calculated relative to normal weight (BMI of 18.5-<25).",
+        "0.95 (95% CI, 0.88-1.01) for grade 1 obesity",
+        "Grade 1 obesity overall was not associated with higher mortality"
+      ],
+      "scope": "General populations of adults, prospective studies; 97 studies >2.88 million individuals and >270,000 deaths across whole synthesis, not grade1-only denominators. Not intentional weight-loss effect."
+    }
+  ],
+  "intentional_numeric_scope_changes": [
+    "Added HR0.95 and CI0.88–1.01, grade1 BMI30–<35 and reference BMI18.5–<25; retained approximate5% point estimate but removed implication of clear reduction."
+  ],
+  "doi_changes": {
+    "add": [],
+    "remove": []
+  },
+  "preserved": [
+    "BMI observational association cannot quantify weight-loss effect",
+    "Ma2017 RCT evidence and all existing denominators and scope",
+    "exact cost tag/evidence grade/title/source citations and all unaffected prose"
+  ],
+  "limitations": [
+    "Cached primary abstract only; no new HTTP verification, entire full text/supplements not reread.",
+    "No new domestic price/guideline or other unmodified claims verified."
+  ],
+  "checks": {
+    "new_sentence_lengths": [
+      {
+        "text": "가벼운 비만(BMI 30 이상 35 미만)은 약 5% 낮게 나왔습니다.",
+        "len": 39
+      },
+      {
+        "text": "정상체중(BMI 18.5 이상 25 미만)과 비교한 값입니다.",
+        "len": 34
+      },
+      {
+        "text": "HR는 0.95, 95% 신뢰구간은 0.88~1.01입니다.",
+        "len": 33
+      },
+      {
+        "text": "다만 통계적으로 뚜렷한 차이는 아니었습니다.",
+        "len": 24
+      }
+    ],
+    "easy_unchanged": true,
+    "only_one_original_sentence_replaced": true,
+    "public_unchanged_sha256": "b580b637d34819b9de1169d80093a9d953a5298ca1e7d84a34a70a63b270949a"
+  }
+}

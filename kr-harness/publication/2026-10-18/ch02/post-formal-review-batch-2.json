@@ -1,0 +1,110 @@
+{
+  "status": "independently_reviewed_minimal_proposals",
+  "reviewed_at_utc": "2026-10-18T15:06:12.861299+00:00",
+  "review_date_asia_seoul": "2026-10-19",
+  "scope": "Batch2 exact proposal approvals only; not public application or final KR-FIT",
+  "manifest_path": "kr-harness/publication/2026-10-18/ch02/post-formal-batch-2.json",
+  "manifest_sha256": "74c47d0de8ab225d29639b94e8510540785b094f63140d614b99d8322efef631",
+  "base_public_raw_sha256": "b580b637d34819b9de1169d80093a9d953a5298ca1e7d84a34a70a63b270949a",
+  "approve": 3,
+  "revise": 0,
+  "decisions": [
+    {
+      "number": 1,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-001-1c88/publication-formal-correction-r2.md",
+      "proposal_sha256": "ac9299fb4f97ee79735a9ec6af645a5978679a5749d3bcf2dc0ad3c544ffa1f0",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-001-1c88/publication-formal-correction-changes-r2.json",
+      "changes_sha256": "00ba7bb9695536d857e799cc23604fccb50e48d4e0404a0d618547cd9a06618c",
+      "decision": "approve",
+      "current_entry_sha256": "321498bb8e6b8851d7457f526a165a8a0b8ef2b3436362fed5b03cb25ec6e58a",
+      "current_whole_public_sha256": "b580b637d34819b9de1169d80093a9d953a5298ca1e7d84a34a70a63b270949a",
+      "reason": "국내 월 담뱃값과 금단기간의 미검증 단정을 삭제하고 개인 구매 내역으로 계산하도록 제한합니다. 금단의 어려움·금연권고·이득의 모든 수치·비고 경고는 보존합니다. 새 국내 가격 또는 임상기간 검증으로 세지 않습니다.",
+      "checks": {
+        "exact_declared_changes_only": true,
+        "protected_layout_title_tag_grade_sources_preserved": true,
+        "unaffected_quantities_conditions_warnings_preserved": true,
+        "easy_chars": 103,
+        "new_sentence_max_chars": 27
+      },
+      "new_sentences": [
+        {
+          "text": "아끼는 담뱃값은 본인의 구매 내역으로 계산하세요.",
+          "chars": 27
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-010-2bba/publication-formal-correction-r2.md",
+      "proposal_sha256": "df9f87ce35fa1fa9a6779ea92e0d204c8378afc8ecebff116a4a7b6f7eef8b7d",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-010-2bba/publication-formal-correction-changes-r2.json",
+      "changes_sha256": "dea57718c3ef150f5027c4fdc6c36736ca7ac1308c2f74dff9783a7a25a2954a",
+      "decision": "approve",
+      "current_entry_sha256": "e9d1fd2559055777dae3ca5e74cc4cb1da87673410832347e43fe08c0816f211",
+      "current_whole_public_sha256": "b580b637d34819b9de1169d80093a9d953a5298ca1e7d84a34a70a63b270949a",
+      "reason": "연간 몇만원미만과 거의비용없음 단정을 비용·비고에서 함께 제거했습니다. 제품별 가격 확인 권고이며 새 가격 검증은 아닙니다. 스케일링19세/달력연도1회/치주치료예외·도구사용/구강상태의HR·OR와 관찰한계는 보존합니다.",
+      "checks": {
+        "exact_declared_changes_only": true,
+        "protected_layout_title_tag_grade_sources_preserved": true,
+        "unaffected_quantities_conditions_warnings_preserved": true,
+        "easy_chars": 79,
+        "new_sentence_max_chars": 29
+      },
+      "new_sentences": [
+        {
+          "text": "치실이나 치간칫솔 가격은 구입할 제품별로 확인하세요.",
+          "chars": 29
+        },
+        {
+          "text": "치아 사이 청소 비용은 구입할 제품별로 확인하세요.",
+          "chars": 28
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-040-ec55/publication-formal-correction-r2.md",
+      "proposal_sha256": "7cbbcc31791c2d3590e9c5069bbfbbb44001f2c1dffc7ce35a12119098d38df3",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-040-ec55/publication-formal-correction-changes-r2.json",
+      "changes_sha256": "9eeb8ffe60764337e4b9dbdd34fea2e3d88a846eb10e17542a5a2411c269bdf0",
+      "decision": "approve",
+      "current_entry_sha256": "bc77817cabbfc5a8234437cee2fd2b62cb6fa2d20c86fa1bd170936fff4459b8",
+      "current_whole_public_sha256": "b580b637d34819b9de1169d80093a9d953a5298ca1e7d84a34a70a63b270949a",
+      "reason": "가격동등성 미확인 단정을 제품별 비교로 제한하고 실제 포장의 소비기한·유통기한 표시 확인을 권합니다. 읽은 현행 법4조는 소비기한 용어·영업소명칭소재지를 명시하고 일부표시예외도 둡니다. 모든 국내식용유에두종류기한표시가의무라는 주장이나두기한의안전의미가동일하다는 주장으로 읽지 않습니다. 품목별예외·표시전환일·아플라톡신규격·검사합격보장은 검증하지 않았고 기존 미확인 비고를 유지합니다.",
+      "checks": {
+        "exact_declared_changes_only": true,
+        "protected_layout_title_tag_grade_sources_preserved": true,
+        "unaffected_quantities_conditions_warnings_preserved": true,
+        "easy_chars": 104,
+        "new_sentence_max_chars": 29
+      },
+      "new_sentences": [
+        {
+          "text": "사는 곳을 바꿀 때 제품 가격도 비교하세요.",
+          "chars": 24
+        },
+        {
+          "text": "포장의 제조사와 소비기한·유통기한 표시를 확인하세요.",
+          "chars": 29
+        }
+      ]
+    }
+  ],
+  "primary_read": {
+    "raw_path": "/tmp/ch02e40-label-article.raw",
+    "raw_sha256": "6f05d53f0ed4dfb63eec75702feb0707a4d6f1e17953219ab3115934d155b5f9",
+    "url": "https://www.law.go.kr/LSW//lsSideInfoP.do?lsiSeq=269957&joNo=0004&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR",
+    "access": "Author fresh HTTP raw reopened by reviewer; no new HTTP request by this reviewer in this batch. Read article4(1)-(3) and proviso, not whole act/appendices.",
+    "confirmed_quote": [
+      "영업소 명칭 및 소재지",
+      "제조연월일, 소비기한 또는 품질유지기한",
+      "다만, 총리령으로 정하는 경우에는 그 일부만을 표시할 수 있다."
+    ]
+  },
+  "limits": [
+    "Domestic prices and withdrawal duration remain unverified; deleting assertions does not verify them.",
+    "Food-specific exceptions, transition date and aflatoxin specifications remain unverified.",
+    "After entry1 application, TODO1 should be separately reconciled with its revised cost field; not a condition to copy unrelated unsupported price claim.",
+    "ROOT exact document/entry guards and final reread/new CLI hash review required."
+  ]
+}

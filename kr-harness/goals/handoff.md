@@ -15,6 +15,13 @@
 - 원문 캐시: `/workspace/.cache/howtolivebetter/source-check/2026-10-18/`. 캐시·자동 메타데이터 수집은 사실 검토 완료가 아니다. 열람한 URL·확인일·실제 인용과 적용 범위를 기록한다. 원본 스킬의 prepare가 입력 후행 공백을 바꾸므로 명령 뒤 원본 바이트 복원을 지킨다.
 - 최종 공개 후보마다 새 독립 KR-FIT 검토와 현재 본문 해시 게이트, 전자책4종/EPUBCheck/390px/참조/검색/CI를 완료해야 한다. 중간 체크포인트를 최종 출판 완료라고 보고하지 않는다.
 
+## 최신 체크포인트 — 2026-10-19 KST
+
+- 제2절은14항+tail후속교정까지새독립정식리뷰를마쳤다. CLI `a50962dab3c05ee831dfcdd499dbc69c191153d9efee0d7683af8bd66b6fb01a`, block0/warn14, gate2 promote/README✅다. 제1·2·18절에baseline assemble/integrate를재실행하지않는다. 제18절은별도style후속1/2/3/5가아직남았다.
+- 제3절마지막12항원저자초록/논문연결과9/20style의독립closure를기다린다. 위이전2절🟨·첫리뷰후보해시는이력이다. 정확한현재state는각chNN/publication-state.json을읽는다.
+- 보존시점gate0 402/667,입력667SHA불일치0,라우트644/23. 현재13절24/38원거리직접인용의기계귀속hold는면제하지않았다. 30항은출처분류수정후freshfinalizer중이다. 새도구독립후보/R2증거는publication/2026-10-18/tooling/에있고production회귀33건통과다.
+- A최대3작성자와독립2슬롯을예약한다. live큐는A소유,root체크포인트는별도스냅샷이다.19절초기source감사를시작했다. 새작업은PR#7초안이며병합·배포전이다.
+
 ---
 
 

@@ -1,0 +1,31 @@
+{
+  "status": "accept",
+  "genre": "essay",
+  "correction_count": 0,
+  "summary_updated": true,
+  "fidelity_violations": [],
+  "overediting": [],
+  "body_identical_to_input": true,
+  "field_count": 4,
+  "protected_quote_review": {
+    "speaker_marker": "노인의학 고찰에서는 증상을 이렇게 설명합니다.",
+    "protected_span": "전형적으로 의식 혼미, 인지 저하, 보행 장애나 졸림을 포함하며, 다른 노인 증후군과 비슷해 보일 수 있다",
+    "c11_candidate": "포함하며,",
+    "eligible_c11_count": 0,
+    "reason": "Only actual connective-ending comma occurs inside attributed direct quotation; other commas delimit enumeration or nominal clauses."
+  },
+  "residual_findings": [
+    {
+      "metric": "ending_comma_rate",
+      "z_before": 2.02,
+      "z_after": 2.02,
+      "gate": "P1 미달",
+      "disposition": "preserve protected quotation; report unresolved metric warning"
+    }
+  ],
+  "gate_exit_code": 1,
+  "change_rate": 0.0,
+  "self_check_passed": 6,
+  "grade": "B",
+  "decision_reason": "Independent source/final comparison found identical body and no eligible C-11 span. Accept unchanged body with explicit unresolved gate warning; no claim of gate pass."
+}

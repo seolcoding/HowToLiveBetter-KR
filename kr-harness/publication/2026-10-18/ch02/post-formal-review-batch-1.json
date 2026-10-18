@@ -1,0 +1,166 @@
+{
+  "status": "independently_reviewed_minimal_proposals",
+  "reviewed_at_utc": "2026-10-18T15:04:15.356204+00:00",
+  "review_date_asia_seoul": "2026-10-19",
+  "scope": "Post-formal batch1 exact proposal approval only; not public application or final KR-FIT",
+  "manifest_path": "kr-harness/publication/2026-10-18/ch02/post-formal-batch-1.json",
+  "manifest_sha256": "7318c2844b446237985bdea0135ee1fb88fe670d1c7c35a86c657e9d9554434f",
+  "base_public_raw_sha256": "b580b637d34819b9de1169d80093a9d953a5298ca1e7d84a34a70a63b270949a",
+  "approve": 5,
+  "revise": 0,
+  "decisions": [
+    {
+      "number": 3,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-003-4cea/publication-formal-correction-r2.md",
+      "proposal_sha256": "5f871895d1612e47ded72ea5678d5301db91b9e4d299b5e5776e2a60139509c7",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-003-4cea/publication-formal-correction-changes-r2.json",
+      "changes_sha256": "f392693ce53d1121f82b9d91cf2bb8acfd198a0b1d006016c4a00aa9cbb00ac6",
+      "decision": "approve",
+      "current_entry_sha256": "14a26ad6cd5220fd5eb8f3b06e43a16cf3336ec822419310e4728dbe07c011fa",
+      "current_whole_public_sha256": "b580b637d34819b9de1169d80093a9d953a5298ca1e7d84a34a70a63b270949a",
+      "reason": "금단 완화·흡연 보상 감소와 금연 효과를 다룬 기존 원초록/전문 배경에 맞습니다. 몇 주 고통만 줄인다는 과도한 제한만 제거하고 유발 상황 대처·의사 지시·치료 기간을 보존합니다.",
+      "checks": {
+        "exact_declared_changes_only": true,
+        "protected_layout_title_tag_grade_source_preserved": true,
+        "unaffected_quantities_conditions_negation_citations_preserved": true,
+        "new_sentence_max_chars": 22,
+        "easy_chars": 73
+      },
+      "new_sentences": [
+        {
+          "text": "약은 금단 증상을 덜고 금연을 돕습니다.",
+          "chars": 22
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-012-3296/publication-formal-correction-r2.md",
+      "proposal_sha256": "24cc7db2aba61ded70cc6a85d8985e3a345dbc23323dd0cef45116460a6f87a6",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-012-3296/publication-formal-correction-changes-r2.json",
+      "changes_sha256": "5c6f1de0d4bb053b214da606e1f105b36227a0535cb063b7b1a3728a89e3be8d",
+      "decision": "approve",
+      "current_entry_sha256": "bc01318e15559bd2d482d947d25e510894ad4971dd08e0a59769689960517129",
+      "current_whole_public_sha256": "b580b637d34819b9de1169d80093a9d953a5298ca1e7d84a34a70a63b270949a",
+      "reason": "전체 혈압약·스타틴이 무조건 급여·저부담이라는 단정을 철회합니다. 개별 약제·목적·환자 자격·처방별 확인을 권하고 국내 기준 미확인을 명시합니다. 새 한국 급여 사실을 확인한 것으로 세지 않습니다.",
+      "checks": {
+        "exact_declared_changes_only": true,
+        "protected_layout_title_tag_grade_source_preserved": true,
+        "unaffected_quantities_conditions_negation_citations_preserved": true,
+        "new_sentence_max_chars": 32,
+        "easy_chars": 91
+      },
+      "new_sentences": [
+        {
+          "text": "국내 약제별 급여 여부와 월 부담액은 확인하지 못했습니다.",
+          "chars": 32
+        },
+        {
+          "text": "약 이름·치료 목적·환자 자격별 급여 기준을 확인하세요.",
+          "chars": 31
+        },
+        {
+          "text": "처방에 따른 본인부담은 병원이나 약국에 물어보세요.",
+          "chars": 28
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-021-e337/publication-formal-correction-r2.md",
+      "proposal_sha256": "2e71b391d2b29c786d97e0a6eb6ac0605ce1fcdf71ac66892d96dfd31426bfa9",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-021-e337/publication-formal-correction-changes-r2.json",
+      "changes_sha256": "18cad49fbc28d36d94ad79130a444868e9adbff628ce288f355f07ccfa134d6b",
+      "decision": "approve",
+      "current_entry_sha256": "4c16dc23d46a2e4ceccfeacd4af00faa05c5b44b80ca71a0e1c60f93a1fc15a1",
+      "current_whole_public_sha256": "b580b637d34819b9de1169d80093a9d953a5298ca1e7d84a34a70a63b270949a",
+      "reason": "Kaner 원초록의 extended versus brief는 MD2g/주 CI−42~45, 3시험552명·낮은 확실성입니다. 추가 효과 불확실과 추정 부정확으로 제한한 쉽게/이득이 정확합니다. 기존 중간 확실성20g 효과 및 NNT·약제 조건·비고를 보존합니다.",
+      "checks": {
+        "exact_declared_changes_only": true,
+        "protected_layout_title_tag_grade_source_preserved": true,
+        "unaffected_quantities_conditions_negation_citations_preserved": true,
+        "new_sentence_max_chars": 32,
+        "easy_chars": 120
+      },
+      "new_sentences": [
+        {
+          "text": "근거는 중간 수준이며 긴 상담의 추가 효과는 불확실합니다.",
+          "chars": 32
+        },
+        {
+          "text": "더 긴 중재의 추가 이득은 불확실합니다.",
+          "chars": 22
+        },
+        {
+          "text": "추정이 부정확하고 근거의 확실성도 낮습니다.",
+          "chars": 24
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-032-d167/publication-formal-correction-r2.md",
+      "proposal_sha256": "b925f226dc4f931c9feed91dedd253dde5f5aa7e5c1e44e22095d38722ec1aa8",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-032-d167/publication-formal-correction-changes-r2.json",
+      "changes_sha256": "19ce2544a695ca9c8be1e85fe509938203ddab5be6504a9fbb7838dd119eba64",
+      "decision": "approve",
+      "current_entry_sha256": "d3f3cc50ea0982a6f273ee780efc8fdb4949f1f4e0a946712423dfb060f0c603",
+      "current_whole_public_sha256": "b580b637d34819b9de1169d80093a9d953a5298ca1e7d84a34a70a63b270949a",
+      "reason": "Flegal 원초록의 grade1 BMI30–<35 대 정상18.5–<25 HR0.95 CI0.88–1.01과 일치합니다. 5%는 점추정으로 남기고 비유의를 밝힙니다. 관찰 BMI연관과 Ma감량RCT 효과 및 한국 진단기준의 구분을 보존합니다.",
+      "checks": {
+        "exact_declared_changes_only": true,
+        "protected_layout_title_tag_grade_source_preserved": true,
+        "unaffected_quantities_conditions_negation_citations_preserved": true,
+        "new_sentence_max_chars": 39,
+        "easy_chars": 112
+      },
+      "new_sentences": [
+        {
+          "text": "가벼운 비만(BMI 30 이상 35 미만)은 약 5% 낮게 나왔습니다.",
+          "chars": 39
+        },
+        {
+          "text": "정상체중(BMI 18.5 이상 25 미만)과 비교한 값입니다.",
+          "chars": 34
+        },
+        {
+          "text": "HR는 0.95, 95% 신뢰구간은 0.88~1.01입니다.",
+          "chars": 33
+        },
+        {
+          "text": "다만 통계적으로 뚜렷한 차이는 아니었습니다.",
+          "chars": 24
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-033-866b/publication-formal-correction-r2.md",
+      "proposal_sha256": "7f1c999ef16409ed373596697dd94a446a79a9a33122dd081955aa7803adb839",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-033-866b/publication-formal-correction-changes-r2.json",
+      "changes_sha256": "d8419e256a1c656204631f08a1df2691c838ef6cd4820765a9f561cab7345d67",
+      "decision": "approve",
+      "current_entry_sha256": "0efc29aa9c2efaa27768057c55d0a489e46d6ed891e9834762c99ca831d540e9",
+      "current_whole_public_sha256": "b580b637d34819b9de1169d80093a9d953a5298ca1e7d84a34a70a63b270949a",
+      "reason": "Bonaccio 사망 관찰연구는 세 위장관 질환의 보편적 증상 악화를 검증하지 않습니다. 본인 증상이 심해지는 경우의 회피 권고로 좁혀 새 안전량·효과를 주장하지 않습니다. 질환명·무리하지 말라는 조건·관찰 한계를 보존합니다.",
+      "checks": {
+        "exact_declared_changes_only": true,
+        "protected_layout_title_tag_grade_source_preserved": true,
+        "unaffected_quantities_conditions_negation_citations_preserved": true,
+        "new_sentence_max_chars": 39,
+        "easy_chars": 85
+      },
+      "new_sentences": [
+        {
+          "text": "위식도 역류, 치질, 과민성 장 증상이 심해지면 무리해서 먹지 마세요.",
+          "chars": 39
+        }
+      ]
+    }
+  ],
+  "source_access": "Existing primary raw re-opened and pertinent passages read; no new HTTP in this batch. Varenicline XML background/efficacy, NRT abstract background, Kaner abstract extended-v-brief result, Flegal abstract BMI/result, Bonaccio abstract objective/method/results. Domestic drug-specific reimbursement remains unverified.",
+  "limitations": [
+    "No reapproval of unmodified claims or all primary full texts/supplements.",
+    "All future public copying requires ROOT current document/entry guards; final reread and fresh CLI hash KR-FIT still required."
+  ]
+}

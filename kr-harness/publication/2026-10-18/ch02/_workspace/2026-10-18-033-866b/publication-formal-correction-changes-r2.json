@@ -1,0 +1,51 @@
+{
+  "public_path": "/workspace/HowToLiveBetter-KR/book-kr/02-천천히-죽지-않기.md",
+  "public_sha256": "b580b637d34819b9de1169d80093a9d953a5298ca1e7d84a34a70a63b270949a",
+  "entry": 33,
+  "entry_sha256": "0efc29aa9c2efaa27768057c55d0a489e46d6ed891e9834762c99ca831d540e9",
+  "extraction": "raw bytes from ^### 33. through byte before ^### 34.; includes separator whitespace",
+  "captured_at_utc": "2026-10-18T15:01:09.107993+00:00",
+  "status": "unadopted_proposal",
+  "base_current_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-033-866b/publication-current-entry-r2.md",
+  "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-033-866b/publication-formal-correction-r2.md",
+  "proposal_sha256": "7f1c999ef16409ed373596697dd94a446a79a9a33122dd081955aa7803adb839",
+  "changes": [
+    {
+      "field": "비고",
+      "before": "논쟁 있음. 지중해식 식단을 배경으로 한 추적 기록입니다. 고추를 먹는 사람은 식단도 그 지역 전통에 가까웠을 수 있습니다. 매운 음식은 위식도 역류, 치질, 과민성 장 증상을 악화합니다. 이런 질환이 있는 사람은 무리해서 먹지 마세요. 관찰된 연관성이므로 고추 자체의 효과로 단정할 수 없습니다.",
+      "after": "논쟁 있음. 지중해식 식단을 배경으로 한 추적 기록입니다. 고추를 먹는 사람은 식단도 그 지역 전통에 가까웠을 수 있습니다. 위식도 역류, 치질, 과민성 장 증상이 심해지면 무리해서 먹지 마세요. 관찰된 연관성이므로 고추 자체의 효과로 단정할 수 없습니다.",
+      "old_span": "매운 음식은 위식도 역류, 치질, 과민성 장 증상을 악화합니다. 이런 질환이 있는 사람은 무리해서 먹지 마세요.",
+      "new_span": "위식도 역류, 치질, 과민성 장 증상이 심해지면 무리해서 먹지 마세요.",
+      "reason": "사망 관찰연구에서 확인되지 않은 모든 질환·환자의 악화 단정을 개인 증상 반응 조건으로 최소 한정. 질환 이름과 무리한 섭취 회피 권고 보존.",
+      "new_sentence_length": 39
+    }
+  ],
+  "review": {
+    "path": "/workspace/HowToLiveBetter-KR/kr-harness/chapters/02/kr-fit-review.r8.md",
+    "sha256": "3b8a8630adbeb6e89450f96925cbfa2a2ca4df1905b6d5d98bb0d9f479077a2a",
+    "quote": "“매운 음식은 위식도 역류, 치질, 과민성 장 증상을 악화합니다”의 모든질환·모든환자에대한단정은 이사망연구로검증되지않았습니다."
+  },
+  "evidence": [
+    {
+      "url": "https://doi.org/10.1016/j.jacc.2019.09.068",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/edda638827db3ce65f50.json",
+      "raw_sha256": "a3a27d4290375b707c0c283f3057339a0f305f15cb1ca3dadc6289ca11483a35",
+      "read_at_utc": "2026-10-18T15:01:09.109715+00:00",
+      "method": "제공된 EuropePMC primary abstract 캐시 직접 재열람. 신규 HTTP 아님; full text 미열람.",
+      "exact_quote": "This study sought to examine the association between chili pepper consumption and risk of death in a large sample of the adult Italian general population, and to account for biological mediators of the association.",
+      "scope": "사망 연관 연구 목적 확인. 위장관 질환 악화의 보편적 인과 주장은 검증하지 못함."
+    }
+  ],
+  "intentional_numeric_changes": [],
+  "intentional_scope_changes": [
+    "모든 해당 질환 환자의 증상 악화 단정 → 본인 증상이 심해지는 경우의 회피 조건"
+  ],
+  "doi_changes": {
+    "added": [],
+    "removed": []
+  },
+  "preserved": "제목, >4회 조건, HR/CI 원값, 표본·추적기간·사망 건수, 다른 필드, 비용태그, 보호주석 및 separator 바이트 동일",
+  "limitations": [
+    "질환별 임상 시험이나 안전량을 새로 검증한 제안이 아님. 새 의학 효과·안전량을 추가하지 않음."
+  ]
+}

@@ -47,6 +47,10 @@ jobs:
         run: python3 kr-harness/publication/scripts/tests/test_footnote_decimal.py
       - name: 출판 직접 인용 보호·문체 적격성 회귀 검사
         run: python3 kr-harness/publication/scripts/tests/test_protected_quote_metrics.py
+      - name: 출판 원문 소개·연속 인용 회귀 검사
+        run: python3 kr-harness/publication/scripts/tests/test_quote_passage.py
+      - name: 출판 연결어미·명사 구분 회귀 검사
+        run: python3 kr-harness/publication/scripts/tests/test_ending_noun.py
       - name: 출판 DOI 승인 통합 회귀 검사
         run: python3 kr-harness/publication/scripts/tests/test_doi_annotations.py
       - name: 출판 필드 연속행·보호 구조 통합 회귀 검사

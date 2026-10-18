@@ -83,4 +83,38 @@ class ProtectedQuoteMetrics(unittest.TestCase):
         self.assertEqual(len(spans),1)
         metrics_v2.compute_all_v2(nested)
 
+    def forward_sample(self):
+        folder=ROOT/'kr-harness/publication/2026-10-18/ch13'
+        manifest=json.loads((folder/'manifest.json').read_text())
+        entry=next(entry for entry in manifest['entries'] if entry['number']==10)
+        return (folder/entry['run_dir']/'01_input.txt').read_text()
+
+    def test_actual_e10_forward_introduction_identity_passes(self):
+        text=self.forward_sample()
+        self.assertIn('고찰에서는 증상을 이렇게 설명합니다.',text)
+        code,report=self.gate(text,text)
+        self.assertEqual(code,0,report)
+        quotes=[text[start:end] for start,end in checks.protected_quote_spans(text)]
+        self.assertTrue(any('졸림을 포함하며,' in value for value in quotes))
+
+    def test_actual_forward_quote_edit_still_rejected(self):
+        text=self.forward_sample()
+        code,report=self.gate(text,text.replace('졸림을 포함하며,','졸림을 포함합니다.'))
+        self.assertNotEqual(code,0,report)
+        self.assertIn('quote_altered',{failure['code'] for failure in report['golden']})
+
+    def test_forward_introduction_cannot_protect_a_neighbouring_rhetorical_quote(self):
+        value='기관은 이렇게 설명합니다. 그는 돌아갔다. "조건은 복잡하며, 절차는 간단합니다"'
+        self.assertFalse(checks.protected_quote_spans(value))
+        similar='기관은 이렇게 생각합니다. "조건은 복잡하며, 절차는 간단합니다"'
+        self.assertFalse(checks.protected_quote_spans(similar))
+
+    def test_new_forward_introduction_cannot_exempt_original_author_style(self):
+        before='설명은 간단하며, 조건은 그대로입니다. '*8
+        after='기관은 이렇게 설명합니다. "'+before+'"'
+        code,report=self.gate(before,after)
+        self.assertEqual(code,1,report)
+        target=next(target for target in report['s1_targets'] if target['metric']=='ending_comma_rate')
+        self.assertGreater(target['z_after'],2)
+
 if __name__=='__main__':unittest.main()

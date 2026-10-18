@@ -1,0 +1,51 @@
+test_actual_identity_and_final (ending_production.EndingNoun.test_actual_identity_and_final) ... ERROR
+test_ambiguous_forms_still_detected (ending_production.EndingNoun.test_ambiguous_forms_still_detected) ... ok
+test_author_connectives_still_warn (ending_production.EndingNoun.test_author_connectives_still_warn) ... ok
+test_change_and_modality_safety (ending_production.EndingNoun.test_change_and_modality_safety) ... ERROR
+test_fidelity_checks_unchanged (ending_production.EndingNoun.test_fidelity_checks_unchanged) ... ERROR
+test_nouns_in_varied_contexts (ending_production.EndingNoun.test_nouns_in_varied_contexts) ... ok
+test_shared_denominator_and_numerator (ending_production.EndingNoun.test_shared_denominator_and_numerator) ... ok
+
+======================================================================
+ERROR: test_actual_identity_and_final (ending_production.EndingNoun.test_actual_identity_and_final)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/HowToLiveBetter-KR/kr-harness/publication/scripts/tests/test_ending_noun.py", line 17, in test_actual_identity_and_final
+    a,b=self.sample()
+        ^^^^^^^^^^^^^
+  File "/workspace/HowToLiveBetter-KR/kr-harness/publication/scripts/tests/test_ending_noun.py", line 15, in sample
+    p=ROOT/'kr-harness/publication/2026-10-18/ch13';e=next(e for e in json.loads((p/'manifest.json').read_text())['entries'] if e['number']==14);r=p/e['run_dir'];return (r/'01_input.txt').read_text(),(r/'final.md').read_text()
+                                                                                                                                                                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<stdin>", line 6, in read
+FileNotFoundError: /workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch13/_workspace/2026-10-18-014-8ef0/final.md
+
+======================================================================
+ERROR: test_change_and_modality_safety (ending_production.EndingNoun.test_change_and_modality_safety)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/HowToLiveBetter-KR/kr-harness/publication/scripts/tests/test_ending_noun.py", line 41, in test_change_and_modality_safety
+    a,_=self.sample()
+        ^^^^^^^^^^^^^
+  File "/workspace/HowToLiveBetter-KR/kr-harness/publication/scripts/tests/test_ending_noun.py", line 15, in sample
+    p=ROOT/'kr-harness/publication/2026-10-18/ch13';e=next(e for e in json.loads((p/'manifest.json').read_text())['entries'] if e['number']==14);r=p/e['run_dir'];return (r/'01_input.txt').read_text(),(r/'final.md').read_text()
+                                                                                                                                                                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<stdin>", line 6, in read
+FileNotFoundError: /workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch13/_workspace/2026-10-18-014-8ef0/final.md
+
+======================================================================
+ERROR: test_fidelity_checks_unchanged (ending_production.EndingNoun.test_fidelity_checks_unchanged)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/HowToLiveBetter-KR/kr-harness/publication/scripts/tests/test_ending_noun.py", line 35, in test_fidelity_checks_unchanged
+    a,_=self.sample()
+        ^^^^^^^^^^^^^
+  File "/workspace/HowToLiveBetter-KR/kr-harness/publication/scripts/tests/test_ending_noun.py", line 15, in sample
+    p=ROOT/'kr-harness/publication/2026-10-18/ch13';e=next(e for e in json.loads((p/'manifest.json').read_text())['entries'] if e['number']==14);r=p/e['run_dir'];return (r/'01_input.txt').read_text(),(r/'final.md').read_text()
+                                                                                                                                                                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<stdin>", line 6, in read
+FileNotFoundError: /workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch13/_workspace/2026-10-18-014-8ef0/final.md
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.101s
+
+FAILED (errors=3)

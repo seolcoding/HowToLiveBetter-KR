@@ -1,0 +1,118 @@
+{
+  "entry": 34,
+  "status": "unadopted_proposal",
+  "revision": 2,
+  "base_guard": {
+    "entry": 34,
+    "public_path": "/workspace/HowToLiveBetter-KR/book-kr/02-천천히-죽지-않기.md",
+    "raw_public_sha256": "b580b637d34819b9de1169d80093a9d953a5298ca1e7d84a34a70a63b270949a",
+    "exact_entry_sha256": "39ecad1caee8a72af982c7e297156cc3f305b16ecea24da39e27260ee2488598",
+    "extraction": "From ^### 34. through bytes immediately before ^### 35., including separator whitespace",
+    "captured_at_utc": "2026-10-18T15:05:18.776208+00:00"
+  },
+  "proposal_sha256": "4cbe1400d316474133a69ea437d72f0672141a1708f20307129e21b87b89fb0c",
+  "title": {
+    "before": "### 34. 우유나 요거트는 몸에 맞게 드세요",
+    "after": "### 34. 우유나 요거트는 몸에 맞게 드세요"
+  },
+  "fields": [
+    {
+      "field": "비용",
+      "before": "하루 몇천 원이 듭니다. 시간은 안 걸립니다.",
+      "after": "국내 가격은 확인하지 못했습니다. 제품별 가격과 먹을 양을 보고 비용을 비교하세요. 시간은 안 걸립니다.",
+      "changed": true,
+      "reason": "국내 1차 가격 미확인으로 확정 금액을 삭제하고 실제 제품별 가격·섭취량 비교 조건을 명시"
+    },
+    {
+      "field": "쉽게",
+      "before": "유제품을 먹는 쪽에서 사망이 적게 나타났습니다. 우유·요거트·치즈를 합쳐 비교한 결과입니다. 우유나 요거트를 하루 두 잔 마시라는 뜻은 아닙니다.",
+      "after": "유제품을 먹는 쪽에서 사망이 적게 나타났습니다. 우유·요거트·치즈를 합쳐 비교한 결과입니다. 우유나 요거트를 하루 두 잔 마시라는 뜻은 아닙니다.",
+      "changed": false,
+      "reason": "현재 공개 문구 그대로 보존"
+    },
+    {
+      "field": "이득",
+      "before": "PURE는 21개국 136,384명을 조사했습니다. 초록에 보고된 추적기간은 9.1년입니다. 이 기간에 6,796명이 사망했습니다. 우유·요거트·치즈를 합친 유제품 섭취량을 비교했습니다. 하루 2회분 초과 섭취군과 전혀 먹지 않는 군의 비교입니다. 전체 사망의 순간적 위험이 약 17% 낮게 나타났습니다. 위험비(HR)는 0.83입니다. 95% 신뢰구간은 0.72–0.96입니다. 추세 P=0.0052입니다. 신뢰구간은 추정치의 불확실성을 나타냅니다. 이는 같은 기간 사망할 확률이 17% 낮다는 뜻은 아닙니다. 연구의 회분을 우유 두 잔으로 바꿔 읽어서는 안 됩니다.",
+      "after": "PURE는 21개국 136,384명을 조사했습니다. 초록에 보고된 추적기간은 9.1년입니다. 이 기간에 6,796명이 사망했습니다. 우유·요거트·치즈를 합친 유제품 섭취량을 비교했습니다. 하루 2회분 초과 섭취군과 전혀 먹지 않는 군의 비교입니다. 전체 사망의 순간적 위험이 약 17% 낮게 나타났습니다. 위험비(HR)는 0.83입니다. 95% 신뢰구간은 0.72–0.96입니다. 추세 P=0.0052입니다. 신뢰구간은 추정치의 불확실성을 나타냅니다. 이는 같은 기간 사망할 확률이 17% 낮다는 뜻은 아닙니다. 연구의 회분을 우유 두 잔으로 바꿔 읽어서는 안 됩니다.",
+      "changed": false,
+      "reason": "현재 공개 문구 그대로 보존"
+    },
+    {
+      "field": "근거등급",
+      "before": "B",
+      "after": "B",
+      "changed": false,
+      "reason": "현재 공개 문구 그대로 보존"
+    },
+    {
+      "field": "출처",
+      "before": "Dehghan M, Mente A, Rangarajan S, et al. (2018). Association of dairy intake with cardiovascular disease and mortality in 21 countries from five continents (PURE): a prospective cohort study. Lancet, 392(10161), 2288-2297. <https://doi.org/10.1016/S0140-6736(18)31812-9>",
+      "after": "Dehghan M, Mente A, Rangarajan S, et al. (2018). Association of dairy intake with cardiovascular disease and mortality in 21 countries from five continents (PURE): a prospective cohort study. Lancet, 392(10161), 2288-2297. <https://doi.org/10.1016/S0140-6736(18)31812-9>",
+      "changed": false,
+      "reason": "현재 공개 문구 그대로 보존"
+    },
+    {
+      "field": "비고",
+      "before": "논쟁 있음. PURE는 중저소득 국가를 많이 포함합니다. 이들 나라에서는 매일 유제품을 먹는 일이 경제적 여유를 나타냅니다. 경제적 여유가 결과에 미친 영향을 구분하기 어렵습니다. 관찰 결과이므로 유제품 자체의 효과라고 단정할 수 없습니다. 이 연구만으로 하루 1~2잔이 적정량이라고 정할 수는 없습니다. 유당불내증이 있다면 요거트나 저유당 우유로 바꾸세요. 우유를 억지로 마실 필요는 없습니다.",
+      "after": "논쟁 있음. PURE는 중저소득 국가를 많이 포함합니다. 이들 나라에서는 매일 유제품을 먹는 일이 경제적 여유를 나타냅니다. 경제적 여유가 결과에 미친 영향을 구분하기 어렵습니다. 관찰 결과이므로 유제품 자체의 효과라고 단정할 수 없습니다. 이 연구만으로 하루 1~2잔이 적정량이라고 정할 수는 없습니다. 유당불내증이 있다면 요거트나 저유당 우유로 바꾸세요. 우유를 억지로 마실 필요는 없습니다.",
+      "changed": false,
+      "reason": "현재 공개 문구 그대로 보존"
+    }
+  ],
+  "intentional_numeric_changes": [
+    {
+      "before": "하루 몇천 원",
+      "after": null,
+      "reason": "국내 1차 가격 미검증 상태에서 확정된 일일 비용처럼 보이는 어림 금액을 삭제. 실제 가격이나 범위를 새로 주장하지 않음."
+    }
+  ],
+  "evidence": [
+    {
+      "scope": "No domestic primary price evidence obtained; this revision explicitly discloses that limitation rather than claiming price verification.",
+      "verified_at_utc": "2026-10-18T15:05:18.776208+00:00",
+      "method": "Current public entry bytes and formal r8/current review reread; no new HTTP or primary-price verification in this minimal followup.",
+      "primary_quotes": [],
+      "primary_urls": [],
+      "raw_path": null,
+      "provenance_paths": [
+        "/workspace/HowToLiveBetter-KR/kr-harness/chapters/02/kr-fit-review.r8.md",
+        "/workspace/HowToLiveBetter-KR/kr-harness/chapters/02/kr-fit-review.md"
+      ],
+      "review_exact_quote": "국내유제품권장량·가격은 미확인으로 TODO5를 유지합니다."
+    }
+  ],
+  "preserved": [
+    "total dairy >2 servings/day vs none",
+    "HR 0.83 and confidence interval / trend P",
+    "Exact N 136,384, deaths 6,796, abstract followup 9.1 years without mean/median assertion",
+    "Title, easily, benefit, grade, citations, controversy/safety wording, protected cost tag, all unaffected bytes"
+  ],
+  "doi_changes": {
+    "added": [],
+    "removed": []
+  },
+  "unresolved_limits": [
+    "국내 실제 유제품 가격과 권장량은 여전히 미확인.",
+    "절의 기존 TODO5는 미해결이며 이 항목만의 제안에서 수정·삭제하지 않음.",
+    "기존 PURE 전문·평균/중앙값 미확인 한계도 그대로임."
+  ],
+  "validation": {
+    "new_sentence_lengths": [
+      {
+        "sentence": "국내 가격은 확인하지 못했습니다.",
+        "length": 18
+      },
+      {
+        "sentence": "제품별 가격과 먹을 양을 보고 비용을 비교하세요.",
+        "length": 27
+      },
+      {
+        "sentence": "시간은 안 걸립니다.",
+        "length": 11
+      }
+    ],
+    "easy_length": 81,
+    "only_cost_changed": true,
+    "public_unchanged_at_write": true
+  }
+}

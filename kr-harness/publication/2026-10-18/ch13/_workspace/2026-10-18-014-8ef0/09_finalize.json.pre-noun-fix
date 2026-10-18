@@ -1,0 +1,32 @@
+{
+  "status": "accept",
+  "genre": "essay",
+  "correction_count": 0,
+  "summary_updated": true,
+  "fidelity_violations": [],
+  "overediting": [],
+  "body_identical_to_input": true,
+  "field_count": 4,
+  "protected_quote_review": {
+    "protected_spans": [
+      "다친 뒤 3시간 안 20분간 흐르는 시원한 물이 피부이식과 상처 수술이 필요할 가능성을 크게 낮췄다",
+      "적어도 10분"
+    ],
+    "eligible_c11_count": 0,
+    "reason": "No connective-ending comma in either protected quote or author prose. The sole morphological candidate 연고, is the noun 연고 followed by an enumeration comma, not connective -고."
+  },
+  "residual_findings": [
+    {
+      "metric": "ending_comma_rate",
+      "z_before": 2.02,
+      "z_after": 2.02,
+      "gate": "P1 미달",
+      "disposition": "false positive on noun 연고,; preserve enumeration and report unchanged warning"
+    }
+  ],
+  "gate_exit_code": 1,
+  "change_rate": 0.0,
+  "self_check_passed": 6,
+  "grade": "B",
+  "decision_reason": "Independent comparison found identical body and no eligible C-11 correction. Accept unchanged text with explicit unresolved machine warning; no claim of gate pass."
+}

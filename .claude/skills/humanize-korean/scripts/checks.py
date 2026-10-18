@@ -403,13 +403,32 @@ _SPEECH_MARK_RE = re.compile(
 # 인용 닫힘 직후의 "~고/~라고 + 용언"은 동사가 무엇이든 발화·전거 구문이다
 # ("…"고 말했다 / "…"라고 보고하였다 / "…"으로 정의한다). 어휘 사전은 새는 반면
 # (실측: "보고하였다" 누락으로 학술 인용이 무보호), 이 구조 신호는 포괄적이다.
-_ATTRIB_AFTER_RE = re.compile(r'^[""\"]?\s*(?:[이으]?라고|고|[으]?로)\s*[가-힣]{1,8}(?:하|했|한다|된다|였|입니다)')
+_ATTRIB_AFTER_RE = re.compile(r'^["”」』]?\s*(?:[이으]?라고|고|[으]?로)\s*(?:합니다|한다|했다|했습니다|[가-힣]{1,8}(?:하|했|한다|된다|였|입니다))')
 
 
 _SOURCE_CITATION_AFTER_RE = re.compile(
     r'^["”」』]?[가-힣]{0,12}\('
     r'[가-힣A-Za-z][가-힣A-Za-z0-9·-]*(?:부|청|처|원|공사|공단|위원회|은행|협회|복권|연구소|병원|대학교|대학|센터|재단|기구|학회)'
     r'\s+[^()\n]{0,80}(?:소개|안내|보고서|보도자료|자료|지침|원문|설명)\)'
+)
+
+
+# A completed introduction can license the immediately following quotation.
+# Require a named subject/source, a forward pointer, and a reporting predicate;
+# an unrelated neighbouring speech sentence must not license rhetorical quotes.
+_QUOTE_INTRO_BEFORE_RE = re.compile(
+    r'(?:^|[.!?]\s+|\n)[^.!?\n"“”「」『』]*?'
+    r'(?:에서는|에 따르면|은|는)\s+[^.!?\n"“”「」『』]*?'
+    r'(?:이렇게|다음과 같이)\s+(?:설명|말|밝히|강조|전|덧붙이|지적|주장|경고|권)'
+    r'(?:합니다|한다|했습니다|했다)\.\s*["“「『]$'
+)
+
+
+# Explicit source-original introduction; unlike an unrelated speech sentence,
+# this syntactically points forward to the immediately following quotation.
+_SOURCE_ORIGINAL_INTRO_RE = re.compile(
+    r'(?:^|[.!?]\s+|\n)[^.!?\n"“”「」『』]+\s+원문은\s+'
+    r'(?:이렇습니다|다음과 같습니다)\.\s*["“「『]$'
 )
 
 
@@ -420,6 +439,9 @@ def _is_protected_quote(original: str, span: str, start: int | None = None) -> b
     # A source-labelled institutional parenthesis immediately after the quotation
     # is attribution too; ordinary author asides and unlabelled quotes are not.
     if _SOURCE_CITATION_AFTER_RE.match(original[i + len(span):i + len(span) + 160]):
+        return True
+    if (_QUOTE_INTRO_BEFORE_RE.search(original[:i])
+            or _SOURCE_ORIGINAL_INTRO_RE.search(original[:i])):
         return True
     before = original[max(0, i - 30):i]
     cut = max(before.rfind(". "), before.rfind("다. "))
@@ -437,14 +459,27 @@ def _is_protected_quote(original: str, span: str, start: int | None = None) -> b
 def protected_quote_spans(text: str) -> list[tuple[int, int]]:
     """Shared eligibility for style scoring and immutable source quotations."""
     spans=[]
+    candidates=[]
     for opening,closing in (("「","」"),("『","』"),("“","”"),('"','"')):
         if opening=='"' and text.count('"') % 2:
             continue
         pattern=re.escape(opening)+r'([^'+re.escape(closing)+r']+)'+re.escape(closing)
-        for match in re.finditer(pattern,text):
-            value=match.group(1)
-            if len(value.strip())>=MIN_QUOTE_LEN and _is_protected_quote(text,value,match.start(1)):
-                spans.append(match.span(1))
+        candidates.extend(re.finditer(pattern,text))
+    previous_end=None
+    previous_protected=False
+    for match in sorted(candidates,key=lambda item:(item.start(),-item.end())):
+        value=match.group(1)
+        # Carry attribution only across adjacent quotations, allowing sentence
+        # punctuation and whitespace. Any intervening prose breaks the chain.
+        adjacent=(previous_protected and previous_end is not None
+                  and previous_end<=match.start()
+                  and re.fullmatch(r'[.!?。]*\s*',text[previous_end:match.start()]) is not None)
+        protected=bool(adjacent or _is_protected_quote(text,value,match.start(1)))
+        if len(value.strip())>=MIN_QUOTE_LEN and protected:
+            spans.append(match.span(1))
+        if previous_end is None or match.end()>=previous_end:
+            previous_end=match.end()
+            previous_protected=protected
     merged=[]
     for start,end in sorted(set(spans)):
         if merged and start<=merged[-1][1]:

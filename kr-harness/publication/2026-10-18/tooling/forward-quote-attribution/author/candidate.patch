@@ -1,0 +1,29 @@
+--- a/.claude/skills/humanize-korean/scripts/checks.py
++++ b/.claude/skills/humanize-korean/scripts/checks.py
+@@ -413,6 +413,17 @@
+ )
+ 
+ 
++# A completed introduction can license the immediately following quotation.
++# Require a named subject/source, a forward pointer, and a reporting predicate;
++# an unrelated neighbouring speech sentence must not license rhetorical quotes.
++_QUOTE_INTRO_BEFORE_RE = re.compile(
++    r'(?:^|[.!?]\s+|\n)[^.!?\n"“”「」『』]*?'
++    r'(?:에서는|에 따르면|은|는)\s+[^.!?\n"“”「」『』]*?'
++    r'(?:이렇게|다음과 같이)\s+(?:설명|말|밝히|강조|전|덧붙이|지적|주장|경고)'
++    r'(?:합니다|한다|했습니다|했다)\.\s*["“「『]$'
++)
++
++
+ def _is_protected_quote(original: str, span: str, start: int | None = None) -> bool:
+     i = original.find(span) if start is None else start
+     if i < 0:
+@@ -420,6 +431,8 @@
+     # A source-labelled institutional parenthesis immediately after the quotation
+     # is attribution too; ordinary author asides and unlabelled quotes are not.
+     if _SOURCE_CITATION_AFTER_RE.match(original[i + len(span):i + len(span) + 160]):
++        return True
++    if _QUOTE_INTRO_BEFORE_RE.search(original[:i]):
+         return True
+     before = original[max(0, i - 30):i]
+     cut = max(before.rfind(". "), before.rfind("다. "))

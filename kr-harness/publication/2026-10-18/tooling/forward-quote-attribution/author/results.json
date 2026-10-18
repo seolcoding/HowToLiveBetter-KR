@@ -1,0 +1,148 @@
+{
+  "cases": [
+    {
+      "name": "e10-identity",
+      "exit": 0,
+      "golden": [],
+      "targets": []
+    },
+    {
+      "name": "e10-final",
+      "exit": 0,
+      "golden": [],
+      "targets": []
+    },
+    {
+      "name": "e10-altered",
+      "exit": 1,
+      "golden": [
+        {
+          "code": "quote_altered",
+          "message": "직접 인용 「전형적으로 의식 혼미, 인지 저하, 보행 장애나 졸림을…」이 윤문본에 원문 그대로 없습니다 (인용 불변 철칙)"
+        }
+      ],
+      "targets": []
+    },
+    {
+      "name": "no-source",
+      "exit": 1,
+      "golden": [],
+      "targets": [
+        {
+          "metric": "ending_comma_rate",
+          "z_before": 2.02,
+          "z_after": 2.02,
+          "verdict": "미달"
+        }
+      ]
+    },
+    {
+      "name": "neighbour-rhetorical",
+      "exit": 1,
+      "golden": [],
+      "targets": [
+        {
+          "metric": "ending_comma_rate",
+          "z_before": 2.02,
+          "z_after": 2.02,
+          "verdict": "미달"
+        }
+      ]
+    },
+    {
+      "name": "e14-identity",
+      "exit": 1,
+      "golden": [],
+      "targets": [
+        {
+          "metric": "ending_comma_rate",
+          "z_before": 2.02,
+          "z_after": 2.02,
+          "verdict": "미달"
+        }
+      ]
+    },
+    {
+      "name": "e14-final",
+      "exit": 1,
+      "golden": [],
+      "targets": [
+        {
+          "metric": "ending_comma_rate",
+          "z_before": 2.02,
+          "z_after": 2.02,
+          "verdict": "미달"
+        }
+      ]
+    },
+    {
+      "name": "prefix-identity",
+      "exit": 0,
+      "golden": [],
+      "targets": []
+    },
+    {
+      "name": "new-wrapper",
+      "exit": 1,
+      "golden": [],
+      "targets": [
+        {
+          "metric": "comma_inclusion_rate",
+          "z_before": 4.24,
+          "z_after": 3.09,
+          "verdict": "미달"
+        },
+        {
+          "metric": "ending_comma_rate",
+          "z_before": 12.19,
+          "z_after": 12.19,
+          "verdict": "미달"
+        }
+      ]
+    },
+    {
+      "name": "expanded-wrapper",
+      "exit": 1,
+      "golden": [],
+      "targets": [
+        {
+          "metric": "comma_inclusion_rate",
+          "z_before": 3.6,
+          "z_after": 3.09,
+          "verdict": "미달"
+        },
+        {
+          "metric": "ending_comma_rate",
+          "z_before": 12.19,
+          "z_after": 12.19,
+          "verdict": "미달"
+        }
+      ]
+    },
+    {
+      "name": "repeated-wrapper",
+      "exit": 1,
+      "golden": [],
+      "targets": [
+        {
+          "metric": "comma_inclusion_rate",
+          "z_before": 3.6,
+          "z_after": 3.2,
+          "verdict": "미달"
+        },
+        {
+          "metric": "ending_comma_rate",
+          "z_before": 12.19,
+          "z_after": 12.19,
+          "verdict": "미달"
+        }
+      ]
+    }
+  ],
+  "route": {
+    "light": 644,
+    "standard": 23
+  },
+  "total": 667,
+  "changes": []
+}

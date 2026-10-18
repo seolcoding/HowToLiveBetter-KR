@@ -1,0 +1,81 @@
+{
+  "status": "unadopted_proposal",
+  "entry": 27,
+  "revision": 2,
+  "guards": {
+    "entry": 27,
+    "public_path": "/workspace/HowToLiveBetter-KR/book-kr/02-천천히-죽지-않기.md",
+    "public_sha256": "b580b637d34819b9de1169d80093a9d953a5298ca1e7d84a34a70a63b270949a",
+    "entry_sha256": "649540fae57294f96394b16479d1b3472124b91146a003d788c5111fa56e0fcf",
+    "entry_byte_start": 88332,
+    "entry_byte_end": 91244,
+    "extracted_at_utc": "2026-10-18T15:04:28.309694+00:00",
+    "extraction": "From heading ### 27. inclusive to heading ### 28. exclusive; includes separator whitespace."
+  },
+  "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-027-f02c/publication-formal-correction-r2.md",
+  "proposal_sha256": "b11594598b35705f7a7cb24c497f075de08638171d25f5556296fe35a334a51f",
+  "changes": [
+    {
+      "field": "비용",
+      "before": "하루 몇천 원이 듭니다. 씻고 써는 데 시간이 조금 듭니다. 매일 사서 필요한 양을 채우기가 어렵습니다.",
+      "after": "국내 구매 비용은 확인하지 못했습니다. 살 품목과 계절에 맞춰 가격을 확인하세요. 씻고 써는 데 시간이 조금 듭니다. 매일 사서 필요한 양을 채우기가 어렵습니다.",
+      "reason": "국내 1차 가격을 확인하지 않은 하루 몇천 원 단정을 제거하고 미확인 및 구매 시 가격 확인을 독자에게 명시."
+    }
+  ],
+  "intentional_numeric_changes": [
+    {
+      "before": "하루 몇천 원",
+      "after": null,
+      "reason": "국내 실제 품목·계절·구매량별 1차 가격 미확인. 검증되지 않은 일일 비용 어림을 삭제."
+    }
+  ],
+  "scope_changes": [
+    "Only cost opening changed; no new domestic price asserted."
+  ],
+  "evidence": [
+    {
+      "type": "current_public_text",
+      "raw_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-027-f02c/publication-current-entry-r2.md",
+      "sha256": "649540fae57294f96394b16479d1b3472124b91146a003d788c5111fa56e0fcf",
+      "quote": "하루 몇천 원이 듭니다. 씻고 써는 데 시간이 조금 듭니다. 매일 사서 필요한 양을 채우기가 어렵습니다.",
+      "url": null,
+      "read_at_utc": "2026-10-18T15:04:28.309694+00:00",
+      "method": "Read exact current public entry; no primary domestic price source independently verified."
+    },
+    {
+      "type": "formal_author_instruction",
+      "raw_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/formal-author-constraints.md",
+      "url": null,
+      "quote": "Unverified costs/guidelines stay honestly unverified; actual primary confirmation is required to say verified. Do not invent domestic prices or precision.",
+      "read_at_utc": "2026-10-18T15:04:28.309694+00:00"
+    }
+  ],
+  "unresolved_limitations": [
+    "국내 실제 일일 구입비 미확인. 가격을 확인했다거나 금액을 추정할 근거가 있다고 주장하지 않음."
+  ],
+  "preserved": [
+    "Title, cost tag, 쉽게, 이득, evidence grade, source citations, 비고 byte-identical.",
+    "Serving distinction, no common 400g conversion, excluded foods, causal guarantee limitation, all RR/HR retained."
+  ],
+  "sentence_length_checks": [
+    {
+      "sentence": "국내 구매 비용은 확인하지 못했습니다",
+      "len": 20
+    },
+    {
+      "sentence": "살 품목과 계절에 맞춰 가격을 확인하세요",
+      "len": 22
+    },
+    {
+      "sentence": "씻고 써는 데 시간이 조금 듭니다",
+      "len": 18
+    },
+    {
+      "sentence": "매일 사서 필요한 양을 채우기가 어렵습니다.",
+      "len": 24
+    }
+  ],
+  "doi_additions": [],
+  "doi_removals": [],
+  "self_approved": false
+}

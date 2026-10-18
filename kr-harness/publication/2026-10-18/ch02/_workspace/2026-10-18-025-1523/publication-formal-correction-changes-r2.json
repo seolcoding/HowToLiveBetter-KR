@@ -1,0 +1,57 @@
+{
+  "status": "unadopted; ROOT and independent reviewer approval required",
+  "entry": 25,
+  "base_guard": {
+    "entry": 25,
+    "public_path": "/workspace/HowToLiveBetter-KR/book-kr/02-천천히-죽지-않기.md",
+    "public_raw_sha256": "b580b637d34819b9de1169d80093a9d953a5298ca1e7d84a34a70a63b270949a",
+    "entry_sha256": "c62bce7810d622172287eb78d74962441b4029d742a6a64675540a64ef531592",
+    "entry_extraction": "^### 25. through byte immediately before ^### 26., including separator whitespace",
+    "captured_at_utc": "2026-10-18T15:03:15.179606+00:00"
+  },
+  "proposal_sha256": "eeedbb0efbfae7af68f1edab2f72b5e83c4e9d99d34a9b542858438cb67398c2",
+  "changes": [
+    {
+      "field": "비용",
+      "before": "1년에 몇만 원에서 십수만 원이 듭니다. 한 잔을 우려내는 데는 몇 분이면 됩니다.",
+      "after": "연간 몇만 원에서 십수만 원은 국내 가격을 확인하지 못한 어림입니다. 한 잔을 우려내는 데는 몇 분이면 됩니다.",
+      "reason": "Annual domestic tea price has not been verified against a primary seller price and consumption calculation. Explicitly mark existing range as an unverified estimate in reader prose."
+    }
+  ],
+  "verification": {
+    "date": "2026-10-18",
+    "primary_price_verification": false,
+    "primary_price_quotes": [],
+    "primary_price_urls": [],
+    "method": "Current public entry and preserved formal review read directly; no domestic price source retrieved or claimed. This change narrows certainty and adds no price assertion.",
+    "review_path": "/workspace/HowToLiveBetter-KR/kr-harness/chapters/02/kr-fit-review.r8.md",
+    "review_sha256": "3b8a8630adbeb6e89450f96925cbfa2a2ca4df1905b6d5d98bb0d9f479077a2a",
+    "review_exact_quote": "- 판단·문제·수정 권고: China-PAR100,902명·중앙7.3년·HR0.85·50세기대수명1.26/무질환1.41년을 대조했습니다. 독소158건중2양성과352건16종 검사·섭취량모형평가를 미검출/모든식품안전보장으로 바꾸지 않습니다. 국내차연비용은 미확인입니다. “1년에 몇만 원에서 십수만 원”에는 추정표시를 권합니다.",
+    "inherited_medical_provenance_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-025-1523/publication-entry-changes-r2.json",
+    "inherited_medical_provenance_sha256": "c6838a1fb5b29f0176958a99d9dc49a2f93d09e28c45d741af41b38474f09d73",
+    "medical_sources_reverified_this_followup": false
+  },
+  "intentional_numeric_scope_changes": [
+    "No numbers removed or added. Existing annual few-tens-of-thousands to over-a-hundred-thousand won range explicitly labeled an unverified estimate."
+  ],
+  "limitations": [
+    "Domestic current tea prices, annual drinking quantity and annual cost calculation remain unverified.",
+    "No new habitual-frequency or cup-volume definition verified; existing title unchanged."
+  ],
+  "validation": {
+    "new_sentence": "연간 몇만 원에서 십수만 원은 국내 가격을 확인하지 못한 어림입니다.",
+    "new_sentence_len": 38,
+    "easy_len": 60,
+    "only_cost_changed": true,
+    "six_fields_order": [
+      "비용",
+      "쉽게",
+      "이득",
+      "근거등급",
+      "출처",
+      "비고"
+    ],
+    "doi_added": [],
+    "doi_removed": []
+  }
+}

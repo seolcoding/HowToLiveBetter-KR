@@ -1,0 +1,69 @@
+{
+  "scope": "local forward-introduction quote classifier; preservation evidence remains historical at reviewed runtime SHA",
+  "files": [
+    {
+      "path": "author/REPORT.md",
+      "sha256": "a1fd2d3f74b55deea860fe6cc17db5c3a41f7cec747d19ae3c12a8fb42a2328e"
+    },
+    {
+      "path": "author/candidate.patch",
+      "sha256": "cabb44a523efb610e140237ffff3a5ff44fa4a50b2a7d03de39957a49ef27af6"
+    },
+    {
+      "path": "author/results.json",
+      "sha256": "3baf6aac04e7adf64106782c86932c7d1c769efe0efec87b53c8a95caeddf164"
+    },
+    {
+      "path": "author/upstream-golden-result.txt",
+      "sha256": "b10c1df6b256ebb61e801cda5a93a44e26cb93bc583df213a9c1ccb8b9b2cc50"
+    },
+    {
+      "path": "author/validate.py",
+      "sha256": "ace02b49d15ffa430c42bef673ee141335321dd1f81f1b042f3e213af84269e1"
+    },
+    {
+      "path": "independent/REVIEW.md",
+      "sha256": "59892d5056b0e4503c08b715d1f26346ec7cb4896f1bc8b07c50cfbd1a32475c"
+    },
+    {
+      "path": "independent/R2-REVIEW.md",
+      "sha256": "3c92748704a8bed33d898424bd917b2a778b4a15033b7382ab132aba1c94282b"
+    },
+    {
+      "path": "independent/results.json",
+      "sha256": "3baf6aac04e7adf64106782c86932c7d1c769efe0efec87b53c8a95caeddf164"
+    },
+    {
+      "path": "independent/adversarial-results.json",
+      "sha256": "084b309f0b52085e5188d9c2b4915e3ae1f67cd79aa100fb10def96a48ac88e6"
+    },
+    {
+      "path": "independent/preservation-results.json",
+      "sha256": "e2f95438794ed4355d7a4b067d34ee906132e2fc8f066f89b95a27933d8fae64"
+    },
+    {
+      "path": "independent/r2-hashes.json",
+      "sha256": "3f18ff16875f543d8503acd441c3e20ae352af6daeef48d081570ed15593bda6"
+    },
+    {
+      "path": "independent/reproduce.py",
+      "sha256": "ace02b49d15ffa430c42bef673ee141335321dd1f81f1b042f3e213af84269e1"
+    },
+    {
+      "path": "independent/adversarial.py",
+      "sha256": "3e11686d96e3368f395b7cafba857ede630bc0766eab936b6163ed0efba5f7a0"
+    },
+    {
+      "path": "independent/preservation.py",
+      "sha256": "ba7b5b127b59715f38b76ede60cda9de088400d87a90250b3d47ec41e79a58c9"
+    },
+    {
+      "path": "independent/r2-PROVENANCE.md.diff",
+      "sha256": "09b3a7f22553602dad168f884b7b1ecc51ecce047456e38d18b75112344f10e9"
+    },
+    {
+      "path": "independent/r2-test_protected_quote_metrics.py.diff",
+      "sha256": "34cb0a5f2aee85f0479bd0e0f6461a837c829364d7d16c038b1842dfe00a75f4"
+    }
+  ]
+}

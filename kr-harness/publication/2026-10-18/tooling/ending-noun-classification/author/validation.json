@@ -1,0 +1,94 @@
+{
+  "test_golden": {
+    "count": 38,
+    "failures": 0,
+    "errors": 0
+  },
+  "test_metrics": {
+    "count": 22,
+    "failures": 1,
+    "errors": 0
+  },
+  "test_metrics_v2": {
+    "count": 69,
+    "failures": 0,
+    "errors": 0
+  },
+  "routes": {
+    "light": 644,
+    "standard": 23
+  },
+  "total": 667,
+  "route_changes": [],
+  "raw_metric_changes": [
+    {
+      "chapter": "ch01",
+      "entry": 42,
+      "old": 0.08333333333333333,
+      "new": 0.1111111111111111
+    },
+    {
+      "chapter": "ch13",
+      "entry": 14,
+      "old": 0.2,
+      "new": 0.0
+    },
+    {
+      "chapter": "ch15",
+      "entry": 1,
+      "old": 0.42857142857142855,
+      "new": 0.5
+    },
+    {
+      "chapter": "ch19",
+      "entry": 16,
+      "old": 0.14285714285714285,
+      "new": 0.16666666666666666
+    },
+    {
+      "chapter": "ch21",
+      "entry": 3,
+      "old": 0.09090909090909091,
+      "new": 0.1
+    },
+    {
+      "chapter": "ch21",
+      "entry": 5,
+      "old": 0.1111111111111111,
+      "new": 0.125
+    },
+    {
+      "chapter": "ch21",
+      "entry": 9,
+      "old": 0.4,
+      "new": 0.3333333333333333
+    },
+    {
+      "chapter": "ch23",
+      "entry": 12,
+      "old": 0.3333333333333333,
+      "new": 0.5
+    },
+    {
+      "chapter": "ch30",
+      "entry": 9,
+      "old": 0.14285714285714285,
+      "new": 0.16666666666666666
+    },
+    {
+      "chapter": "ch34",
+      "entry": 1,
+      "old": 0.3333333333333333,
+      "new": 0.4
+    },
+    {
+      "chapter": "ch34",
+      "entry": 2,
+      "old": 0.125,
+      "new": 0.14285714285714285
+    }
+  ],
+  "skill_diffs": [
+    "references/metrics.py"
+  ]
+}

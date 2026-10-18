@@ -1,0 +1,56 @@
+[
+  {
+    "name": "numbers",
+    "exit": 1,
+    "evidence": [
+      {
+        "code": "number_injected",
+        "message": "원문에 없던 수치가 윤문본에 등장했습니다: ['31'] (수치 불변 철칙 — 없던 주장 주입 위험)"
+      }
+    ]
+  },
+  {
+    "name": "quote",
+    "exit": 1,
+    "evidence": [
+      {
+        "code": "quote_altered",
+        "message": "직접 인용 「조건은 복잡하며, 절차는 간단합니다…」이 윤문본에 원문 그대로 없습니다 (인용 불변 철칙)"
+      }
+    ]
+  },
+  {
+    "name": "P0",
+    "exit": 2,
+    "evidence": {
+      "rate": 0.8776,
+      "scope": "전문",
+      "verdict": "ABORT — 강제 중단. 윤문본 채택 금지"
+    }
+  },
+  {
+    "name": "P5",
+    "exit": 1,
+    "evidence": {
+      "lost_pairs": [
+        {
+          "kind": "당위",
+          "before": "안전을 위해 확인해야 합니다.",
+          "after": "안전을 위해 확인합니다."
+        }
+      ],
+      "uncertain_pairs": [],
+      "counts": {
+        "deontic": {
+          "before": 1,
+          "after": 0
+        },
+        "hedge": {
+          "before": 1,
+          "after": 1
+        }
+      },
+      "verdict": "FAIL — 서법 소실 1문장"
+    }
+  }
+]
