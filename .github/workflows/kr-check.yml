@@ -45,6 +45,12 @@ jobs:
         run: node --test .claude/skills/kr-style/scripts/convert-b.test.mjs
       - name: 출판 윤문 각주·통계값 구분 회귀 검사
         run: python3 kr-harness/publication/scripts/tests/test_footnote_decimal.py
+      - name: 출판 DOI 승인 통합 회귀 검사
+        run: python3 kr-harness/publication/scripts/tests/test_doi_annotations.py
+      - name: 전자책 검사 의존성 설치
+        run: npm ci --prefix kr-harness/ebook --ignore-scripts
+      - name: 전자책 진행 안내 회귀 검사
+        run: node --test kr-harness/ebook/frontmatter.test.mjs
       - name: 세션 시작 훅
         run: CLAUDE_PROJECT_DIR="$PWD" node .claude/hooks/session-start.mjs
       - name: 실행별 검증(반려 시 실패)

@@ -211,9 +211,66 @@ def integrate(folder):
         spacing=re.search(r'\s*\Z',before).group()
         bodies[number]=after.rstrip()+spacing
         applied.append({'entry':int(number),'base':operation['base'],'before_sha256':sha(before),'after_sha256':sha(bodies[number]),'review':operation['review']})
-    reviewed=intro+''.join(bodies[number] for number,_ in entries)+tail
+    revised_body=''.join(bodies[number] for number,_ in entries)+tail
+    def dois(text):
+        """Extract full DOI URLs, preserving balanced internal parentheses.
+
+        Closing Markdown/prose parentheses and Unicode punctuation bound a URL;
+        a following URL also bounds it even when the source omits whitespace.
+        Malformed unbalanced DOI tokens fail closed instead of approving a prefix.
+        """
+        text=re.sub(r'<!--.*?-->', '', text, flags=re.S)
+        found=set()
+        for match in re.finditer(r'https://doi\.org/',text,re.I):
+            position=match.end(); depth=0; token=[]
+            while position<len(text):
+                char=text[position]
+                if char.isspace() or char in '<>\"\'`[]，；：。、）」『』《》“”‘’' or re.match(r'https?://',text[position:],re.I):
+                    break
+                if char=='(':
+                    depth+=1
+                elif char==')':
+                    if depth==0:
+                        break
+                    depth-=1
+                token.append(char);position+=1
+            doi=''.join(token).rstrip(".,;:」·》'\"；：。、”’")
+            if depth or not re.fullmatch(r'10\.\d{4,9}/[^\s<>]+',doi):
+                raise ValueError('malformed or unbalanced DOI citation; refusing truncated token')
+            found.add(doi.lower())
+        return found
+    old_dois=dois(candidate)
+    new_dois=dois(intro+revised_body)
+    needed={('add',doi) for doi in new_dois-old_dois}|{('drop',doi) for doi in old_dois-new_dois}
+    annotations=plan.get('doi_annotations',[])
+    declared=set()
+    annotation_lines=[]
+    if annotations and plan.get('intro_sha256')!=sha(intro):
+        raise ValueError('DOI annotation intro hash mismatch')
+    for annotation in annotations:
+        if annotation.get('status')!='approved':
+            raise ValueError('DOI annotation requires explicit approval')
+        evidence(annotation['review'])
+        action=annotation['action']; doi=annotation['doi']; reason=annotation['reason']
+        if action not in ('add','drop') or not re.fullmatch(r'10\.\d{4,9}/[^\s<>]+',doi) or doi!=doi.rstrip(".,;:」·》'\"；：。、”’"):
+            raise ValueError('invalid exact DOI or annotation action')
+        if not reason.strip() or any(token in reason for token in ('\n','\r','<!--','-->')):
+            raise ValueError('DOI annotation requires a single-line reason')
+        key=(action,doi.lower())
+        if key in declared or key not in needed:
+            raise ValueError('duplicate or unnecessary DOI annotation')
+        if re.search(r'<!--\s*kr-doi-(?:add|drop):[^\n]*'+re.escape(doi)+r'[^\n]*-->',intro,re.I):
+            raise ValueError('DOI annotation conflicts with existing protected marker')
+        declared.add(key)
+        annotation_lines.append(f'<!-- kr-doi-{action}: <{doi}> — {reason} -->\n')
+    if declared!=needed:
+        raise ValueError('missing DOI annotations for actual citation additions/removals')
+    # Append only approved markers; keep every original intro byte intact.
+    if annotation_lines:
+        intro+=('' if intro.endswith('\n') else '\n')+''.join(annotation_lines)+'\n'
+    reviewed=intro+revised_body
     (folder/'reviewed-candidate.md').write_text(reviewed)
-    save(folder/'integration.json',{'source_sha256':sha(baseline),'strict_candidate_sha256':sha(candidate),'reviewed_candidate_sha256':sha(reviewed),'plan_sha256':sha((folder/'integration-plan.json').read_text()),'operations':applied,'published':False,'kr_fit':'new hash review required; integration approval is not KR-FIT'})
+    save(folder/'integration.json',{'source_sha256':sha(baseline),'strict_candidate_sha256':sha(candidate),'reviewed_candidate_sha256':sha(reviewed),'plan_sha256':sha((folder/'integration-plan.json').read_text()),'operations':applied,'doi_annotations':annotations,'published':False,'kr_fit':'new hash review required; integration approval is not KR-FIT'})
     print(folder/'reviewed-candidate.md')
 
 parser=argparse.ArgumentParser(description=__doc__)

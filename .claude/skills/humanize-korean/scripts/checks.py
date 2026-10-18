@@ -192,6 +192,9 @@ def check_headings(original: str, output: str) -> list[Failure]:
 # Decimal and interval tails such as CI 2.5~3.1) or 12~33) are numeric
 # values, not inline footnote markers.
 _INLINE_MARKER = re.compile(r"(?<=\S)(?<![(\d])(?<!\d[.,~–−-])(\d{1,3})\)")
+# A leading-zero-omitted decimal starts at a numeric boundary, unlike
+# a genuine sentence-attached marker such as "결과였다.29)".
+_LEADING_DECIMAL_PREFIX = re.compile(r"(?:^|[\s(\[=:+~\-–−])\.$")
 _DEF_LABEL = re.compile(r"(?:^|(?<=\s))(\d{1,3})\)\s")
 _NUM_TOKEN = re.compile(r"\d+(?:[.,]\d+)*")
 
@@ -205,6 +208,8 @@ def extract_inline_markers(text: str) -> list[tuple[str, int]]:
     for line in text.splitlines(keepends=True):
         if not _DEF_LINE.match(line):
             for m in _INLINE_MARKER.finditer(line):
+                if _LEADING_DECIMAL_PREFIX.search(line[:m.start(1)]):
+                    continue
                 markers.append((m.group(1), offset + m.start(1)))
         offset += len(line)
     return markers
