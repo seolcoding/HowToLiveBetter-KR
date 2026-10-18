@@ -307,8 +307,11 @@ def main(argv: list[str] | None = None) -> int:
 
     # --- P1 목표 달성 (before z > +2.0인 어휘 S1 지표) --------------------
     try:
-        z_before = _m.compute_all_v2(before, genre=args.genre)["z_scores"]
-        after_m = _m.compute_all_v2(after, genre=args.genre)
+        # Freeze style exclusions from the original's attributed quotations.
+        # Newly wrapped output prose cannot acquire a style exemption.
+        protected_quotes=[before[start:end] for start,end in _checks.protected_quote_spans(before)]
+        z_before = _m.compute_all_v2(before, genre=args.genre, protected_quote_texts=protected_quotes)["z_scores"]
+        after_m = _m.compute_all_v2(after, genre=args.genre, protected_quote_texts=protected_quotes)
         # 표본 가드(#130)는 원문 쪽 S1 선정에만 건다. 원문에서 뽑힌 지표는 윤문본이
         # 쉼표를 걷어내 가드 아래로 내려가도 원시 z 로 판정한다.
         z_after = {**after_m["z_scores"], **(after_m.get("z_scores_unguarded") or {})}

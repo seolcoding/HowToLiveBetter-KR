@@ -406,10 +406,21 @@ _SPEECH_MARK_RE = re.compile(
 _ATTRIB_AFTER_RE = re.compile(r'^[""\"]?\s*(?:[이으]?라고|고|[으]?로)\s*[가-힣]{1,8}(?:하|했|한다|된다|였|입니다)')
 
 
-def _is_protected_quote(original: str, span: str) -> bool:
-    i = original.find(span)
+_SOURCE_CITATION_AFTER_RE = re.compile(
+    r'^["”」』]?[가-힣]{0,12}\('
+    r'[가-힣A-Za-z][가-힣A-Za-z0-9·-]*(?:부|청|처|원|공사|공단|위원회|은행|협회|복권|연구소|병원|대학교|대학|센터|재단|기구|학회)'
+    r'\s+[^()\n]{0,80}(?:소개|안내|보고서|보도자료|자료|지침|원문|설명)\)'
+)
+
+
+def _is_protected_quote(original: str, span: str, start: int | None = None) -> bool:
+    i = original.find(span) if start is None else start
     if i < 0:
         return True  # 못 찾으면 보수적으로 보호
+    # A source-labelled institutional parenthesis immediately after the quotation
+    # is attribution too; ordinary author asides and unlabelled quotes are not.
+    if _SOURCE_CITATION_AFTER_RE.match(original[i + len(span):i + len(span) + 160]):
+        return True
     before = original[max(0, i - 30):i]
     cut = max(before.rfind(". "), before.rfind("다. "))
     if cut >= 0:
@@ -423,10 +434,31 @@ def _is_protected_quote(original: str, span: str) -> bool:
     return bool(_SPEECH_MARK_RE.search(before) or _SPEECH_MARK_RE.search(after))
 
 
+def protected_quote_spans(text: str) -> list[tuple[int, int]]:
+    """Shared eligibility for style scoring and immutable source quotations."""
+    spans=[]
+    for opening,closing in (("「","」"),("『","』"),("“","”"),('"','"')):
+        if opening=='"' and text.count('"') % 2:
+            continue
+        pattern=re.escape(opening)+r'([^'+re.escape(closing)+r']+)'+re.escape(closing)
+        for match in re.finditer(pattern,text):
+            value=match.group(1)
+            if len(value.strip())>=MIN_QUOTE_LEN and _is_protected_quote(text,value,match.start(1)):
+                spans.append(match.span(1))
+    merged=[]
+    for start,end in sorted(set(spans)):
+        if merged and start<=merged[-1][1]:
+            merged[-1]=(merged[-1][0],max(merged[-1][1],end))
+        else:
+            merged.append((start,end))
+    return merged
+
+
 def check_quotes(original: str, output: str) -> list[Failure]:
     fails = []
-    for q in extract_quotes(original):
-        if q not in output and _is_protected_quote(original, q):
+    for start,end in protected_quote_spans(original):
+        q=original[start:end]
+        if q not in output:
             fails.append(Failure(
                 "quote_altered",
                 f"직접 인용 「{q[:30]}…」이 윤문본에 원문 그대로 없습니다 (인용 불변 철칙)",

@@ -5,6 +5,7 @@
 **현재 목표는 아래 2026-10-10 제작 완료 이후의 후속 작업이다.** 사용자 지시: 대한민국의 출판물 수준으로 34절 전체의 문체·실정·근거를 다시 검토하고 간결하게 개선한다. 먼저 [출판 품질 진행 기록](2026-10-publication-quality.progress.md)을 읽는다.
 
 - 사용자 제공 [im-not-ai](https://github.com/epoko77-ai/im-not-ai) 스킬 부재는 해결했다. 고정 커밋 `b37e0206d31fffd9149bf57168d4d62eb2086bee`의 Codex 번들을 `.claude/skills/humanize-korean/`에 설치했다.
+- 이번 출판 재검토 초안은 [PR #7](https://github.com/seolcoding/HowToLiveBetter-KR/pull/7)이다. 현재 작업은 계속 진행 중이며 아직 병합·배포하지 않았다.
 - 이전 작업은 PR #6으로 main `225ec78`에 병합·배포됐다. 같은 세션 브랜치에 main을 fast-forward했다. 준비 체크포인트는 `c412d4c`, 제18절 개선 체크포인트는 `ea4de8c`다. 새 작업은 아직 웹사이트에 배포하지 않았다.
 - `kr-harness/publication/2026-10-18/chNN/manifest.json`에 34절·667항목 스냅샷/별도 실행을 준비했다. 실제 라우트는 light644·standard23. 항목마다 격리 작업자이며 순수 윤문 게이트와 별도 내용/요약 편집 제안을 구분한다.
 - 전역 조정자 `/root/humanize_a`가 큐를 이어받았다. 항목 작업자 3명과 독립 절 검토자 2명으로 전환 중이다(루트·조정자 포함 총 7명). B/C 인계 파일과 전역 큐가 publication 날짜 폴더에 있다. 에이전트 이름은 현재 세션용이며 새 세션에서는 파일 증거를 기준으로 재개한다.

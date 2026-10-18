@@ -763,6 +763,7 @@ def compute_all_v2(
     genre: str = "essay",
     baseline_path: str | None = None,
     baseline_v2_path: str | None = None,
+    protected_quote_texts: list[str] | None = None,
 ) -> dict[str, Any]:
     """Compute v1.6 metrics + v2.0 post-editese + T1~T8 signals.
 
@@ -772,7 +773,32 @@ def compute_all_v2(
         - ``v2_baseline_warnings``: list of metric keys whose baseline cell
           carries `_placeholder: true`.
     """
+    # Do-NOT: attributed source quotations are immutable and are not the author's
+    # style. Use the same classifier as golden quote fidelity; rhetorical quotes
+    # remain eligible. Keep raw length metadata and every numerical guard intact.
+    runtime_scripts=os.path.abspath(os.path.join(_HERE,"..","scripts"))
+    if not os.path.isdir(runtime_scripts):
+        runtime_scripts=os.path.abspath(os.path.join(_HERE,"..","..","..","scripts"))
+    if runtime_scripts not in sys.path:
+        sys.path.insert(0,runtime_scripts)
+    import checks as quote_checks
+    raw_length=len(text)
+    quote_spans=quote_checks.protected_quote_spans(text)
+    if protected_quote_texts is not None:
+        # The gate fixes eligibility from the original, so adding an attributed
+        # wrapper in the output cannot exempt previously eligible author prose.
+        allowed=Counter(protected_quote_texts)
+        eligible_spans=[]
+        for start,end in quote_spans:
+            if allowed[text[start:end]]>0:
+                eligible_spans.append((start,end))
+                allowed[text[start:end]]-=1
+        quote_spans=eligible_spans
+    for start,end in reversed(quote_spans):
+        text=text[:start]+" "+text[end:]
     base = _v1.compute_all(text, genre=genre, baseline_path=baseline_path)
+    base["char_count"]=raw_length
+    base["style_eligibility"]={"protected_quote_count":len(quote_spans),"excluded_quote_chars":sum(end-start for start,end in quote_spans)}
     v2_metrics: dict[str, float | int] = {
         "lexical_diversity_ttr": lexical_diversity_ttr(text),
         "lexical_density": lexical_density(text),
