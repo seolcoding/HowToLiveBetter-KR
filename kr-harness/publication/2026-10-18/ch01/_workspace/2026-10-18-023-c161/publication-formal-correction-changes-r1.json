@@ -1,0 +1,51 @@
+{
+  "entry": 23,
+  "status": "unadopted_formal_correction",
+  "public_source_sha256": "e547eb2e90568ff14306c1ccb6a5e06ab3e43547484fbc932b1835ab95a9d750",
+  "base_file": "publication-current-entry-r1.md",
+  "base_sha256": "91d04aa305a9b0fe9eceac17ad6ab83acd17d05f2ef1410228595c9ffbccd12f",
+  "output_file": "publication-formal-correction-r1.md",
+  "output_sha256": "6b685badb5f2ebb7aa3dc7d9a9d97c8a468e8161978e8d49d0b853f533db791c",
+  "checked_date": "2026-10-18",
+  "method": "기존 캐시의 1차 논문 초록 RAW JSON 직접 재열람. 새 HTTP 요청 없음.",
+  "source": {
+    "doi": "10.1136/bmj.l5016",
+    "chapters": [
+      1
+    ],
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1136%2Fbmj.l5016%22&format=json&resultType=core&pageSize=10",
+    "fetched_at": "2026-10-18T20:49:44.823577+09:00",
+    "http_status": 200,
+    "status": "exact_doi_metadata_cached",
+    "sha256": "b498badd438aef89d320599e537a9a01a2aaf6355b533fb200258f48c178e519",
+    "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/0b2608858da3fe59f9be.json",
+    "hit_count": 1,
+    "abstract_present": true
+  },
+  "raw_sha256": "b498badd438aef89d320599e537a9a01a2aaf6355b533fb200258f48c178e519",
+  "exact_quotes": [
+    "2258 participants seropositive for antibodies to <i>H pylori</i> were randomly assigned to <i>H pylori</i> treatment, vitamin supplementation, garlic supplementation, or their placebos in a 2×2×2 factorial design",
+    "A protective effect of <i>H pylori</i> treatment on gastric cancer incidence persisted 22 years post-intervention (odds ratio 0.48, 95% confidence interval 0.32 to 0.71).",
+    "fully adjusted hazard ratio for <i>H pylori</i> treatment was 0.62 (95% confidence interval 0.39 to 0.99)"
+  ],
+  "url": "https://doi.org/10.1136/bmj.l5016",
+  "provenance": "Europe PMC core result의 abstractText. 캐시 회수 시각은 source.fetched_at에 보존. 오즈 정의는 통계량 해석 설명이며 원문 인용이 아님.",
+  "changes": [
+    {
+      "field": "쉽게",
+      "before": "중국의 위암 고위험 지역 주민을 살펴봤습니다. 헬리코박터 항체 양성자 중 치료받도록 정해진 사람의 결과입니다. 22년 동안 위암 위험은 절반쯤 낮았습니다. 위암 사망 위험도 40%쯤 낮았습니다.",
+      "after": "중국 위암 고위험 지역의 헬리코박터 항체 양성자를 살펴봤습니다. 치료받도록 정해진 사람은 22년간 위암이 덜 생겼습니다. 걸릴 확률이 절반으로 줄었다는 뜻은 아닙니다. 위암 사망 위험은 40%쯤 낮았습니다.",
+      "reason": "OR를 발생 확률의 비로 읽을 수 있는 표현을 고쳤습니다. 오즈와 확률을 구분했습니다.",
+      "intentional_numeric_scope_change": false
+    },
+    {
+      "field": "이득",
+      "before": "중국 린취의 위암 고위험 지역에서 한 무작위 시험입니다. 헬리코박터 항체 양성자 2258명을 나눠 배정했습니다. 제균 치료에 배정된 사람과 위약에 배정된 사람을 비교했습니다. 22년 동안 따라갔습니다. 치료 배정군의 위암 위험은 절반쯤 낮았습니다. 원값은 OR 0.48, 95% CI 0.32~0.71입니다. 위암 사망 위험은 38%쯤 낮았습니다. HR 0.62, 95% CI 0.39~0.99입니다.",
+      "after": "중국 린취의 위암 고위험 지역에서 한 무작위 시험입니다. 헬리코박터 항체 양성자 2258명을 나눠 배정했습니다. 제균 치료에 배정된 사람과 위약에 배정된 사람을 비교했습니다. 22년 동안 따라갔습니다. 치료 배정군의 위암 발생 오즈는 절반쯤 낮았습니다. 오즈는 발생 확률을 미발생 확률로 나눈 값입니다. 발생 확률 자체가 절반으로 줄었다는 뜻은 아닙니다. 원값은 OR 0.48, 95% CI 0.32~0.71입니다. 위암 사망 위험은 38%쯤 낮았습니다. HR 0.62, 95% CI 0.39~0.99입니다.",
+      "reason": "OR를 발생 확률의 비로 읽을 수 있는 표현을 고쳤습니다. 오즈와 확률을 구분했습니다.",
+      "intentional_numeric_scope_change": false
+    }
+  ],
+  "preserved": "원값·CI·2258명·항체 양성·무작위 배정·22년·사망 HR·다른 수치·제목·태그·등급·출처·다른 필드 보존. RR 역산 없음.",
+  "easy_chars": 115
+}

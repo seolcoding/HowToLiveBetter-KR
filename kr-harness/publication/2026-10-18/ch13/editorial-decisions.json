@@ -1,0 +1,3153 @@
+{
+  "chapter": 13,
+  "status": "pending_candidate_review",
+  "reviewed_at": "2026-10-18T13:40:12.593628+00:00",
+  "source_sha256": "e3f9b030a63bf8d1a0141933d095be573e9db6c49c439c4da6396292ff0e9cc6",
+  "candidate_sha256": null,
+  "formal_kr_fit": "not_performed_not_approved",
+  "entries": [
+    {
+      "entry": 1,
+      "status": "revision_required",
+      "source_entry_sha256": "dbf4625f4a7101fe2b8672dca8fb3c4e1e6b08328cdac96bd0594f64e0294756",
+      "review_scope": "Sasson 원초록:79연구/142740명·성인추정심인성OHCA·전체퇴원7.6%, 목격53%/CPR32%를 확인했습니다. 3.9~16.1%는 기저생존율 층화범위이며 미시행→시행 비교가 아닙니다. 해당 향상 문장을 수정해야 합니다. KDCA 실제HTML에서33034건/가정44.8%/시행30.3%/생존14.4대6.1/뇌회복11.4대3.5 확인. 한국성인BLS PMC 전문의119먼저·약5cm·100~120·6cm초과위험·AED맨가슴/브래지어·비심정지압박합병증8.7/1.7 확인. 응급의료법5의2의고의중과실/민사·상해면책/사망감면·적용주체와47의2 AED설치범위 확인. 집발생44.8%만으로 실제구조대상가족확률을 추정했다고 하지 않습니다.",
+      "evidence_ids": [
+        "S022",
+        "S058",
+        "S029",
+        "S059",
+        "S098",
+        "S103",
+        "S072"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 2,
+      "status": "revision_recommended",
+      "source_entry_sha256": "a2436f7177ba938b1442691b812c8c53deda3c732b1e666cfcc5d5345b9a53e7",
+      "review_scope": "IFRC PDF307~308쪽의65세초과/뼈질환경미외상·척추의심EMS·움직임최소·정상호흡유지·구급대전위험때만이동 확인. KDCA 낙상65.1%는 퇴원손상노인 분모이며 전체노인발생률이 아닙니다. 한국응급처치PMC의편한자세/119/음식물금지 확인. 민법735는급박위해면하는사무관리에한정하므로 단순부축모두면책처럼해석하지마세요. 응급의료5신고협조의무/별도위반벌칙없음은의무부존재와다릅니다. 민소98·109·199 5개월선고규정은확인했으나 실제종결을보장하지않습니다. 변호사보수한도규칙은재시도원문상태를전체목록에남깁니다.",
+      "evidence_ids": [
+        "S053",
+        "S028",
+        "S056",
+        "S072",
+        "S076",
+        "S083",
+        "S081",
+        "S080",
+        "S065"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 3,
+      "status": "revision_required",
+      "source_entry_sha256": "7e675514c1f8c57bce5d89bf26e62f2bff7a94ad2a651f881ddaaed687af95c2",
+      "review_scope": "Emberson PMC4441266 전문/원초록은6756명9개RCT입니다.16개시험은수정해야합니다. 3시간내OR1.75(1.35~2.27)·32.9대23.1%,3~4.5hOR1.26(1.05~1.51)·35.3대30.1%,4.5h초과OR1.15(0.95~1.40) 확인. OR을회복확률배수로바꾸지마세요. 4.5h초과통계비유의를거의소용없다로단정하면안됩니다. 선택된환자의재관류치료전체를4.5h뒤무효라고할수없습니다. 한국응급처치PMC의119·금식·이송권고확인.",
+      "evidence_ids": [
+        "S006",
+        "S028"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 4,
+      "status": "verified_scope",
+      "source_entry_sha256": "b6fe5ce0b8261d3fab50febec6dbb8bf954f8f9ed48574f2322b324a207158f7",
+      "review_scope": "Aroor 원초록858기록중736포함/14.1%FAST없음/보행다리시야추가4.4%·단일센터후향기록·전향검증필요확인. 한국응급처치PMC의FAST/BE-FAST와비전형증상확인. 이연구수치를한국일반인진단정확도로확정하지않으며 환자세우기금지·신고지연금지조건을유지합니다.",
+      "evidence_ids": [
+        "S024",
+        "S028"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 5,
+      "status": "revision_recommended",
+      "source_entry_sha256": "2fd30dfdd3ef70bf6aca8d794ee4040b489ae43eb393a18e46d2b7133614ef9c",
+      "review_scope": "AHA CRAO원초록은응급우선진료/혈관위험평가권고입니다. EXPRESS원초록은TIA/경증뇌졸중의전후비무작위외래진료비교이며눈증상만의연구가아닙니다. 90일10.3%(32/310)대2.1%(6/281) 원자료서술을확인했습니다. 쉽게의눈커튼증상만으로혈관폐쇄확진처럼쓰지말고 의심/즉시평가로바꾸세요. 일반TIA집단효과를눈환자만의치료효과로단정하지마세요. 건보44일부부담근거확인.",
+      "evidence_ids": [
+        "S023",
+        "S005",
+        "S064"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 6,
+      "status": "revision_required",
+      "source_entry_sha256": "15d68e5559840846aa35e0007e9283830c9c62167de11575c39aaea29a280c3a",
+      "review_scope": "Zhou PMC9802666 전문과초록54명64안대46명51안/241.84대121.53h/52.63대45.16mmHg/실명21.87대7.84/시신경병변20/64대7/51 확인. 봉쇄의다른차이와치료지연효과를분리못하는유보유지. Sung원초록50안중25안1년시야결손·지연p.005 확인. Wang원초록43명86안얕은앞방1시간DRPPT·중앙값3.60대2.70mmHg확인. 이안압대리연구로두조건겹쳐야발작/젊은게임러거의없음/가장흔한오진까지단정할근거는없으므로삭제또는직접근거보강필요. 증상은의심표현으로합니다.",
+      "evidence_ids": [
+        "S033",
+        "S020",
+        "S016",
+        "S064"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 7,
+      "status": "revision_required",
+      "source_entry_sha256": "065e43467e3e15335c9ce4a8178f07eec8d02c1ba01a12611ea98659b83bb6a1",
+      "review_scope": "qcaa037원초록은D2B개선전133명/후200명연속STEMI총333명입니다. 전국급성관상동맥증후군조사라고쓴설계를수정하세요. 개선전후사망률차이없음도누락하지마세요.55분이하5/178=2.8%대초과15/155=9.7%는층화연관이며55분이보편치료효과컷오프는아닙니다. 한국응급처치PMC에서자가차흉통300명중1심정지·119우선·본인처방니트로증상시복용확인.",
+      "evidence_ids": [
+        "S017",
+        "S028"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 8,
+      "status": "revision_required",
+      "source_entry_sha256": "47cbf163fd12232b7233c0ebeff5ac76a85845255c8d8c0df7215e3027c46b5e",
+      "review_scope": "IRAD원초록12센터464명전체입원사망27.4%,A형비수술58%,A형수술26%,B형약물10.7%확인.58%는주로고령/동반질환으로수술못받은A형집단입원사망률입니다. 쉽게의이병약만쓰면58%에는A형·입원중·선택된비수술집단조건을보강해야합니다. 모든대동맥박리처치가심근경색과정반대라는단정대신약선택이달라즉시평가필요로제한하세요.",
+      "evidence_ids": [
+        "S003"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 9,
+      "status": "revision_required",
+      "source_entry_sha256": "a3845646e0847badafa9f967fb293b6dcec27f1f610882f9e58e138b92f9c9dd",
+      "review_scope": "Perry원초록캐나다10곳2131명/132명6.2%·오타와6요소민감도100%(97.2~100)특이도15.3%확인. 대상은비외상성두통·1시간내최고조·신경학진찰정상성인입니다. 해당적용집단을보강하고 모든극심두통의6%나자가검사음성배제처럼일반화하지마세요. 다른환자가검사불필요하다는뜻은아닙니다.",
+      "evidence_ids": [
+        "S002"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 10,
+      "status": "revision_recommended",
+      "source_entry_sha256": "c7567193ad21987f69bc8cc03bef9380ed3ac0ba76a6c87df77aad28b3e28510",
+      "review_scope": "Zhang PMC8607705전문/초록의만성경막하혈종외상뒤3주째·수술재발최대33%·사망최대32%·90세초과좋은예후24%확인. Dziho PMC12720100의18연구12국가/발생3.39~39.1/10만년·80세초과최대3배,Mathon원초록의혼미인지보행졸림/비조영CT우선확인. 피가보통3주째에야고임은급성출혈이없다가정확히3주뒤시작한다는오독을막아만성질환이수주뒤드러날수있음으로보강권장.",
+      "evidence_ids": [
+        "S026",
+        "S010",
+        "S031"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 11,
+      "status": "verified_scope",
+      "source_entry_sha256": "cf838bc168833d85764611a162d3b46bda51b03786c89a261a211f0ae44e9b90",
+      "review_scope": "ICOPER원초록7국52병원2454명3개월원인불문17.4%(426/2454),52추적소실포함및부검처음발견61명제외시15.3%인표본범위확인. 다리부종일반인의사망률이아니라는비고유지. WHO공식본문연속여행4h초과약2배/약6000명중1확인. 일반사무실앉기의정확한위험으로넓히지않습니다.",
+      "evidence_ids": [
+        "S007",
+        "S118"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 12,
+      "status": "verified_scope_with_open_detail",
+      "source_entry_sha256": "fc8e273d1f75a95be8a6e78127be9228fb7bc2e8d9a314d2ead4007aa1f1d442",
+      "review_scope": "Teixeira원초록11개1급센터1026명/181명지혈대·미보정3.9대5.2%·보정생존OR5.86(1.41~24.47),Kragh전쟁터232명/쇼크없을때90대10%·필요했으나미사용5명0%대사용87%·일시신경마비4/지혈대단독절단없음확인. IFRC256~258쪽직접압박우선/생명위협사지출혈만지혈대/EMS도착까지풀지않기확인. 중국2020합의DOI는등록메타데이터만있고초록/본문은확인하지못했습니다. 위팔상부/허벅지맨위·아래팔종아리일괄금지·2h제한·임시막대지혈대세부는확인완료아님. 최종채택전해당합의직접본문또는한국/국제공식근거로정리해야합니다.",
+      "evidence_ids": [
+        "S011",
+        "S018",
+        "S035"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 13,
+      "status": "verified_scope",
+      "source_entry_sha256": "af5ebb6d39fd813596af27a07b81d191cd904b3ba58d884b0af114365838717a",
+      "review_scope": "WHO공식본문2021추정44203연사망·최대99%개·증상시사실상100%치명·최소15분세척·III급백신/면역글로불린또는단클론항체확인. KDCA2023보도자료의2005이후사람/2014이후동물보고없음·휴전선야생동물주의·15분씻고진료확인. 국내확정환자수와세계모델사망자를혼동하지않습니다.",
+      "evidence_ids": [
+        "S116",
+        "S113",
+        "S055"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 14,
+      "status": "revision_required",
+      "source_entry_sha256": "915ff26b8c6d559e289f50498f01c4f7062026495d2486b2faeb3499bc8bfee9",
+      "review_scope": "Griffin원초록어린이2495명등록코호트·3h내20분적절냉각의피부이식OR.6(.4~.8)확인. OR을필요할확률60%로바꾼문장은수정해야합니다.7연구메타분석은수술/이식오즈감소입니다. IFRC288~290쪽최소10분이상적20분·얼음금지·붙은옷억지제거금지·소아과냉각감시확인. 국민안전2410분은연구20분과구분유지.",
+      "evidence_ids": [
+        "S008",
+        "S009",
+        "S103"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 15,
+      "status": "verified_scope",
+      "source_entry_sha256": "887fcbed1e22876197f4fa2b262d282af744abb5c50ed814be55154cd63d4f83",
+      "review_scope": "중국아나필락시스지침PMC8996305의GRADEII~IV근육에피우선·중앞가쪽허벅지·대체약아님,EAACI원초록대부분매우낮은근거확인. 한국응급처치PMC에서자동주사기우선/초기무반응+구조도착5~10분지연반복/도움주체예시/147응급실3.0→11.6확인. 의약품안전나라검색실제본문젝스트150/300정상허가·전문의약품확인. 낮은근거와강한권고를구분합니다.",
+      "evidence_ids": [
+        "S034",
+        "S019",
+        "S028",
+        "S040"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 16,
+      "status": "verified_scope",
+      "source_entry_sha256": "b21ff483db2b93d6043ebf6328c33534be0a5349bc8d10775fef72ede277b053",
+      "review_scope": "CDC실제본문및한국응급처치PMC의억제금지/입물건금지/옆으로조심히/머리보호/시간기록/처음·5분초과·의식회복전반복·호흡문제·물속·상해·임신·6개월미만·종료5~10분의식미회복119확인. 응급의료면책은생명위급/주체/고의중과실조건이있어법적문제가거의없다는보장으로확대하지않습니다.",
+      "evidence_ids": [
+        "S043",
+        "S028"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 17,
+      "status": "verified_scope",
+      "source_entry_sha256": "2628da70aa69d76bcccdb1d9f3f29a7b8de9d1a0b2be94f01f38ad2cef7a1a19",
+      "review_scope": "ADA2025 PMID/DOI메타데이터에이어NIH PMC11635034실제전문HTML을대체경로로확보했습니다. Table6.4의1단계70미만54이상/2단계54미만/도움필요3단계·일반15g/15분재처치·인슐린또는고위험글루카곤처방·재구성불요제형선호를대조했습니다. 자동인슐린전달기기는대개5~10g예외가있으므로모두무조건15g이라고단정하지않습니다. IFRC391~393쪽반응있고삼킴가능시당15~20g/15분반복·의식흐리면구급대조건확인. 각설탕/작은주스한팩은제품당함량이다르니15g라벨기준보강권장. 국내글루카곤허가는이번신규검색하지않았습니다.",
+      "evidence_ids": [
+        "S032"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 18,
+      "status": "verified_scope",
+      "source_entry_sha256": "d45ac0c2b5c8accd6e65b632e18038fdf58619b49da612c833c7f36a3f733598",
+      "review_scope": "CDC전기사고실제본문의먼저보기/전원차단/불가시비전도체·분리뒤CPR,Spies원초록성공소생환자예후대체로좋음확인. 한국특수상황PMC구조자안전확보후구조·일반BLS/AED확인. 국민안전24전기사고의전선/변전설비접근금지·한전123본문확인. 마른나무권고를고압전선직접구조에확대하지않는단서를유지합니다.",
+      "evidence_ids": [
+        "S046",
+        "S036",
+        "S027",
+        "S101"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 19,
+      "status": "verified_scope",
+      "source_entry_sha256": "ee1c64f7e7429dd8191c78440187dc4cea5d496e4b9fc6013d7d444a72c09ffd",
+      "review_scope": "KDCA2023실제본문15기관/5997명/2022.6~2023.5·집73.5%·비의도CO19.3%를확인. CDC미국비화재사고사망400초과/응급10만초과/입원14000초과및CPSC즉시밖신선한공기뒤전화확인. 표본응급실을전국사망집계로확대하지않습니다. 밖에서호전이가장강한진단단서라는최상급은별도비교근거없어보강권장.",
+      "evidence_ids": [
+        "S054",
+        "S042",
+        "S051"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 20,
+      "status": "verified_scope",
+      "source_entry_sha256": "11f0bd81663fd238af971e6d9093e42941c6690598d5e779e9af9dc9e778479e",
+      "review_scope": "IFRC346~347쪽입헹궈뱉기/전문가때만희석제/구토금지/물질시각용기EMS전달, NHS실제본문구토/음식물금지·포장보존확인. CDC락스혼합금지확인. KDCA15기관5997·집73.5·10세미만30.5생활화학비의도분모확인.119법10의2상담/지도확인. 용기챙기느라신고/안전대피를늦추지않도록조건유지.",
+      "evidence_ids": [
+        "S053",
+        "S090",
+        "S045",
+        "S054",
+        "S068"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 21,
+      "status": "verified_scope",
+      "source_entry_sha256": "8925a643c6f92c13b854a4e12008928c53785e3a22067d20957594e967c0fc25",
+      "review_scope": "IFRC288~291쪽화학피부/눈세척통증가라앉을때·즉시물/렌즈세척중제거·반대눈오염금지·다른약품임의금지확인. NHS실제본문약1h흐르는시원미지근물/오염옷제거확인. 산안법114MSDS대상물질/교육·52급박위험대피/불이익금지및보고의무, 규칙465허가물질작업장/508실험실설비,산재37상당인과·40③3일이내요양제외와근로78사업주요양확인. 모든화학물질에장시간세척후에만이송이라는획일화보다119동시상담·물질MSDS확인보강권장.",
+      "evidence_ids": [
+        "S053",
+        "S089",
+        "S074",
+        "S070",
+        "S075",
+        "S078"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 22,
+      "status": "verified_scope",
+      "source_entry_sha256": "4e1a19e5f15beb4f1e89c6200b63bbdb6896eaed189da437bdf865c46a7dc64e",
+      "review_scope": "NWS실제본문열사병응급/즉시신고·냉각·음료금지와열탈진분기확인. KDCA2025감시4460명/추정사망29·93.1%열사병/62.1%60대이상확인. WMS2024학회직접요약은기도호흡순환평가후찬물담금우선·대체증발냉각절반속도·목겨드랑이서혜국소냉각근거없음확인. 논문전문은확인하지않았으며학회원요약과서지초록을구분. 열사병에도땀이날수있으므로땀없음이필수요건처럼읽히지않게권장.",
+      "evidence_ids": [
+        "S111",
+        "S104",
+        "S057",
+        "S025",
+        "S041",
+        "S012"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 23,
+      "status": "verified_scope",
+      "source_entry_sha256": "50caa998110a3e88ad0f04638d864b3fd6f04e674a4644b927dc4b4b02cd2e3e",
+      "review_scope": "국민안전24폭염·응급처치및NIOSH실제본문의물자주조금씩·전해질/탄수화물음료·소금알약피하기·NWS열사병음료금지확인. 의식/삼킴가능이라는조건을유지하며깨어있기만하면모든열사병에음료주기처럼넓히지않습니다.",
+      "evidence_ids": [
+        "S104",
+        "S103",
+        "S047",
+        "S111"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 24,
+      "status": "verified_scope_with_open_detail",
+      "source_entry_sha256": "5e1a884f8ba7b4c16fa0bf8416c8888cd7829628754bef294cf299d1b79465c7",
+      "review_scope": "국민안전24화재실제본문몸낮춤/손등문온도/계단/다른곳화재시우리집연기불길없으면실내대기·닫기·119/안내방송·대피시설확인. 소방시설법시행령10소화기/단독경보형감지기확인. 모법236977은target=eflaw대체경로로HTTP200실제XML본문10조의단독주택·공동주택소유자/아파트기숙사제외조건을확인했고현행검색도같은버전을반환했습니다. FEMA Ready.gov는반복403이라직접문구대조못했습니다. 한국공식본문으로확인된대피범위와FEMA인용미확인을구분합니다.",
+      "evidence_ids": [
+        "S097",
+        "S102",
+        "S066",
+        "S085"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 25,
+      "status": "verified_scope",
+      "source_entry_sha256": "7aa004930fc426e67b817031369d27a9c2ab558768f42866dc9771d3732fa3c2",
+      "review_scope": "WHO현재공식본문연익사약30만/92%중저소득/1~4세4위·5~14세3위확인. 국민안전24물놀이실제본문함부로입수금지·소리/119·구명장비·해로드언급확인. 한국성인BLS PMC익수후안전하면즉시CPR·배운/원하면인공호흡포함·아니면압박확인. 익사통계자체가이조언의정량사망감소효과는아닙니다. 해로드운영기관은별도미조사.",
+      "evidence_ids": [
+        "S114",
+        "S107",
+        "S029"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 26,
+      "status": "revision_required",
+      "source_entry_sha256": "75cdd7e4af74c0d81317d0373b40d114e706c5707c445c5f4680bace8ab105af",
+      "review_scope": "MedlinePlus실제본문및한국성인BLS PMC심한막힘등5+복부5/기침가능시기침/임신고도비만가슴/무반응CPR확인. IFRC240쪽은첫등5복부5실패시즉시EMS후반복입니다. 현재쉽게의쓰러지면119는신고를의식소실까지늦출수있어의식있을때다른사람에게119신고부탁/반복실패시즉시신고를보강해야합니다.",
+      "evidence_ids": [
+        "S038",
+        "S029",
+        "S059"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 27,
+      "status": "verified_scope",
+      "source_entry_sha256": "4033c1029ce080710e3d48941d4addde2ca6eb520ce58a77edea520e5005bb04",
+      "review_scope": "NPS모하비/데스밸리/사막운전실제본문최소1갤런/하이킹자전거2갤런·행선/복귀/차정보·차곁대기·통신불안정확인. 국민안전24산행아는위치되돌아가확인·계곡피해능선·위치번호확인. 두지역조언을서로혼합하지않는해외오지/국내산범위를유지합니다. 차가항상가장큰그늘이라는일률표현은차종·환경예외가능.",
+      "evidence_ids": [
+        "S094",
+        "S093",
+        "S092",
+        "S106",
+        "S107"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 28,
+      "status": "verified_scope",
+      "source_entry_sha256": "d8311cf6b0250362c8d28294d13e6d77363def9d74480045c23b25e988eaf648",
+      "review_scope": "NWS실제본문35도·중심가온/술피하기,IFRC461~463쪽젖은옷/심한경우잘라움직임최소·보온·반응있고삼킬때따뜻한당분/모든저체온EMS확인. KDCA2025~26감시364명/저체온79.7%/65세이상57.4%/추정사망14모두저체온·인지장애5확인. WMS2019는초록범위만확인해모든처치가전문검증됐다고하지않습니다. 가온후정상회복으로떨림멎는상황과지속저체온악화의떨림소실을구분권장.",
+      "evidence_ids": [
+        "S110",
+        "S013",
+        "S060",
+        "S099",
+        "S028",
+        "S053"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 29,
+      "status": "verified_scope",
+      "source_entry_sha256": "ae095034bbd2f49af0e7969e6208cae061c59d58dfafd9ddd7790197fd87a2f0",
+      "review_scope": "WHO공식본문연사망81410~137880·장애약3배·항독소가장효과적·절개지혈대피하기확인. KDCA2026실제본문2021~25참여응급실665건/9월24.7%/60대30.2·70이상24.5·50대18.2·입원60.2와움직임최소·심장아래·빨기금지확인. 국민안전24옛빨기허용·1339와충돌을알리고최신KDCA/WHO우선한방향은맞습니다. 표본을전국건수로말하지않습니다.",
+      "evidence_ids": [
+        "S113",
+        "S117",
+        "S063",
+        "S103"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 30,
+      "status": "verified_scope_with_open_detail",
+      "source_entry_sha256": "d84422d0613659512ae2daaf759a06208893df5f16702c6f857e1e6063b7831d",
+      "review_scope": "국민안전24지진실제본문흔들릴때탁자밑/멈추면전기가스차단출구/계단/운동장등확인. 건축법48③내진확인·48의3공개대상2층/200제곱·목조3층/500제곱및예외확인. Armenian1992 EuropePMC API의실제원초록에서입원부상189명/비부상대조159명·12.20(3.62~63.79)·3.65(2.12~6.33)·4.40(2.24~8.71)를확인했습니다. 전문XML은접근실패,NIH페이지HTTP200은reCAPTCHA여서전문확인으로세지않습니다. Northridge원초록4190기록·야간지진/잡기/받기위험확인. FEMA직접페이지403. 오래된타국생존자표본으로국내흔들릴때달리기를권하지않는유보유지.",
+      "evidence_ids": [
+        "S100",
+        "S037",
+        "S096",
+        "S015",
+        "S069",
+        "S088"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 31,
+      "status": "revision_required",
+      "source_entry_sha256": "1e49676d7d1aea57f043132a7df7ed70fc386265719d85c72dfb0d60e7363942",
+      "review_scope": "NPS곰안전실제본문뛰지않기/옆물러남/나무금지/종별공격대응확인. 필수누락:불곰·회색곰공격이계속되면강하게맞서기,어떤곰이든텐트안공격또는추적후먹잇감공격이면죽은척금지입니다. 불곰공격무조건죽은척이라는문장은예외보강필요. 국내반달곰/멧돼지/들개공통지침으로확장금지유지. 국내종별공식문서는이번추가조사하지않았습니다.",
+      "evidence_ids": [
+        "S095"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 32,
+      "status": "verified_scope",
+      "source_entry_sha256": "db93e218f1c9c1a15d27214f266bf5c576c2a6cf5df186ec4d8d79a8455ea1de",
+      "review_scope": "NWS낙뢰실제본문야외안전장소없음/건물단단한지붕차/마지막천둥30분/능선외딴나무물금속피하기확인. 국민안전2430-30및대피권고,한국특수상황PMC다수낙뢰사상시호흡심장멎은환자우선·무호흡CPR/AED확인. 야외몸낮추기가안전을보장한다는표현으로늘리지않습니다.",
+      "evidence_ids": [
+        "S112",
+        "S105",
+        "S027"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 33,
+      "status": "verified_scope",
+      "source_entry_sha256": "4f289b16bda726b62ccf1f200fe69849c571ed88e72c6ab7968411dfe916ba14",
+      "review_scope": "CDC Yellow Book실제본문비순응자는잠자는고도2450m이상때로더낮아도위험·3000m초과밤상승최대500m·누적1000m마다적응하루·휴식치료에도악화시하산확인. WMS2024논문은초록범위서지만확인했습니다. 해외고산전제와휴식/악화·보행실조의식변화/휴식호흡곤란하산조건유지. 예방약처방량은독자자가처방지시가아닙니다.",
+      "evidence_ids": [
+        "S049",
+        "S014"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 34,
+      "status": "verified_scope",
+      "source_entry_sha256": "7351b93bf310545e997128f4dfebaedb54ff7450e84e2ca077304129f70c2836",
+      "review_scope": "CDC실제본문뾰족핀셋피부가까이·균일압력직선·기름열등금지, KDCA2026본문의료기관제거·2013~25확진2345/사망422=18.0%·2025환자60세이상81.8·4~11월·백신치료제없음확인. 물린사람전체치명률로확장하지않습니다. 한국우선의료기관/불가시CDC핀셋이라는두기관차이를명시한방향유지.",
+      "evidence_ids": [
+        "S048",
+        "S061",
+        "S062"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 35,
+      "status": "revision_recommended",
+      "source_entry_sha256": "bfdea93990f968ecd5ee377791448ef1b59904f3f6a11d49c0f761aa52e4bafc",
+      "review_scope": "CDC Yellow Book실제본문끓는온도수초병원체불활성/끓음판단오차대비1분·60도30분·일반여행고도끓는온도충분(4900m약83도예시)확인. 고도무제한명제가아닌common travel elevations범위를명시권장. 미생물처리근거를화학오염수도모두안전해짐으로확대하지않아야합니다. 필터와화학소독은각각제거한계가달라아무제품이나대체가능하다고단정하지않습니다.",
+      "evidence_ids": [
+        "S050"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 36,
+      "status": "verified_scope",
+      "source_entry_sha256": "4e81361c1073a2d29d70b1f5a131d69aa34591edcac5cf2c757d986ceb836499",
+      "review_scope": "형법333강도3년이상·334야간주거침입/흉기/2인합동무기또는5년이상·337상해무기또는7년·338살인사형무기/치사무기또는10년확인.21은현재침해뿐아니라상당한이유도필요합니다. 강도형량은돈주면안전하다는직접근거가아니라는C유보유지. 제목의낯선사람요구는비고의길막힘/신체위협조건으로제한되어야하므로제목축약때조건을앞으로옮기기권장.",
+      "evidence_ids": [
+        "S083"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 37,
+      "status": "revision_required",
+      "source_entry_sha256": "6a621d700c378515641636dae0fbce7c468bbe7d802a56481b5237e146619383",
+      "review_scope": "형법260/261/257/263·폭력행위법2②공동2인이상가중1/2·④반의사불벌배제·형소221출석요구/221의2증인신문·151과태료500만원/7일감치·161과태료50만원을대조. 필수:일반고발의무없음과응급의료법5①응급환자발견즉시신고의무를구분하세요. 쓰러진응급환자가있어도신고가무조건선택이라는서술은수정필요. 참고인반나절은사건별확정시간으로단정할근거가없습니다. 형법151·155·152는타인사건/법정선서등각요건을뭉개지않고유지해야합니다.",
+      "evidence_ids": [
+        "S083",
+        "S082",
+        "S084",
+        "S087"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 38,
+      "status": "revision_recommended",
+      "source_entry_sha256": "db5fbfde439232e94485ba6045a0d195ff6e3887fe5f000d08199e95d455075a",
+      "review_scope": "CDC PEP실제본문노출후72h이내가능한빨리·매일28일·응급상황에한정/의료인판단확인.72h지났으면진료자체가소용없다는오독을막고검사/다른예방상담을받도록보강권장. 국내PEP처방기관·보험본인부담은이번독립공식문서미조사이며기존찾지못함기록을새검색실패라고하지않습니다.",
+      "evidence_ids": [
+        "S044"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 39,
+      "status": "revision_recommended",
+      "source_entry_sha256": "38bbaa294066baa5d8f7f70c432b7745a3d87973329ddcc1bdf0cc1d0287f156",
+      "review_scope": "의사상자법2제2·3호의직무외구조조건과위험무릅쓴직접적극행위·3적용/자초위험·중과실제외·5시장신청→복지부청구수령60일/불가피30연장·8일시보상/중복공제·9물건손해·11~13및령167~9급제외확인. 직무외조건을본문에보강하세요. 범죄피해법3②및16~17·25의국내등범위/사망장해중상해/3년10년·건보58급여비한도구상·민법740무과실/현존이익한도확인. 신청부터60일확정이나자동전액보상처럼넓히지않습니다. 변호사비/증거/시간부담유지.",
+      "evidence_ids": [
+        "S071",
+        "S073",
+        "S067",
+        "S087",
+        "S076",
+        "S077"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 40,
+      "status": "verified_scope",
+      "source_entry_sha256": "9d697b90d64710e5fd7c8456b3cb7ea3da1df0cd4a7619c248a94c78ddfa8171",
+      "review_scope": "IFRC256~257·267~268쪽박힌물건주변압박/제거금지·느슨고정/박동따라이동허용·장기재삽입금지/젖은멸균거즈·흉부폐쇄드레싱금지/비출혈열어둘수있음확인. 응급의료규칙18의4교육의사간호사1급구조사의입구분류/증상활력징후의식기전통증확인. 유일한예외가기도막힘이라는절대문장은그특정범위를추가근거로확인해야하며다른상황의유일성까지증명한것은아닙니다.",
+      "evidence_ids": [
+        "S053",
+        "S079"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 41,
+      "status": "revision_recommended",
+      "source_entry_sha256": "7839edd48d603c18cfd3254e163a2510c8edbd8204b59c5bfbf61e0aa5e325ad",
+      "review_scope": "IFRC301~302쪽사지부상골절가능성/움직임통증최소고정·냉각최대20분·장골출혈/원격+말단차고창백또는이송고정불가+훈련조건정복예외확인. 국민안전24산행개방성골절재삽입금지/덮어이송확인. 엑스레이만유일확진은IFRC인용문구와일치하나의료조언은의료기관진찰/영상검사로확인으로완곡화권장. 견인고정단일후향연구의수혈/입원·사망불명확은지침근거요약범위로만다룹니다.",
+      "evidence_ids": [
+        "S053",
+        "S106"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 42,
+      "status": "verified_scope",
+      "source_entry_sha256": "a09dfb91c998b2e537f1ba4a70df33de3196caa64e74cde77e5fdf4de7c9859b",
+      "review_scope": "NHS실제본문세척옷갈기피함/씻었어도도움가능·조기증거채취확인. 한국여성인권진흥원실제본문41곳16/18/7·전담무료진료/응급키트/국선연계확인. 각센터운영형태와24h기관연락은개별확인필요. 법18/27/28통합/전담치료/의료비지원및WHO응급피임120h/빨리·LNG임신1.2~2.1확인. MFDS노레보원정전문의약품/가능하면12h늦어도72h허가문구확인.72h이후다른방법상담가능유지. 신고결정과응급진료를분리합니다.",
+      "evidence_ids": [
+        "S091",
+        "S109",
+        "S108",
+        "S086",
+        "S115",
+        "S039",
+        "S044"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 43,
+      "status": "verified_scope",
+      "source_entry_sha256": "98177f59ea5ec9dea7165464ab15d7a20845f59237e1285f1655fb6f629f9192",
+      "review_scope": "한국소아BLS PMC13277414전문·AHA2025공식전문·KDCA2026본문기침가능시관찰/등5가슴5/한손손꿈치/복부금지/무반응CPR/보이는이물만확인. IFRC238~240쪽은등5뒤두엄지감싸가슴5이며한국미국과손모양다름을확인. 두손가락삭제와기도폐쇄가슴밀어내기/심정지가슴압박을혼동하지않아야합니다. 수치효과가없는전문가권고B라는범위유지.",
+      "evidence_ids": [
+        "S021",
+        "S001",
+        "S053",
+        "S030",
+        "S059"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 44,
+      "status": "verified_scope",
+      "source_entry_sha256": "08238deab0b5bffbf8462466e4b0d1870b1b2ebfed5084d57d508c3642f57962",
+      "review_scope": "한국소아BLS PMC전문두엄지우선/한손백업·약4cm/100~120·혼자전화즉시/전화없으면2분후신고확인. AHA공식전문영아퇴원6.6%·1손또는두엄지·1인30:2/2인15:2확인. Naim원초록3900명59.4%영아/전체아동보정생존13.2대9.5·OR1.57(1.25~1.96)·영아인공호흡포함연관/압박만은미시행유사확인. 전체아이수치를영아단독효과로바꾸지않는비고유지. IFRC186~188쪽전화없으면1분후연락·ERC5회호흡우선PDF의기관차이를확인. 한국기준우선순서를본문에서흐리지마세요.",
+      "evidence_ids": [
+        "S021",
+        "S001",
+        "S004",
+        "S053",
+        "S030",
+        "S059",
+        "S052"
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    }
+  ],
+  "evidence_inventory": [
+    {
+      "cited_url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/pediatric-basic-life-support",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/pediatric-basic-life-support",
+      "requested_at": "2026-10-18T13:30:58.912075+00:00",
+      "retrieval_mode": "new_https_retry",
+      "status": "body_received",
+      "previous_failure": {
+        "cited_url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/pediatric-basic-life-support",
+        "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/pediatric-basic-life-support",
+        "requested_at": "2026-10-18T13:29:03.143099+00:00",
+        "retrieval_mode": "new_https",
+        "status": "access_failed",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      "http_status": 200,
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch13-audit/351f7483b781768d098b-retry.raw",
+      "sha256": "eece4fd8f5cf84ed3bda9bde59b4ec3df6ecbc871648a910dd02a4588c512486",
+      "evidence_id": "S001",
+      "verified_retrieval_utc": "2026-10-18T13:30:58.912075+00:00"
+    },
+    {
+      "doi": "10.1001/jama.2013.278018",
+      "chapters": [
+        13
+      ],
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1001%2Fjama.2013.278018%22&format=json&resultType=core&pageSize=10",
+      "fetched_at": "2026-10-18T20:51:00.074758+09:00",
+      "http_status": 200,
+      "status": "exact_doi_metadata_cached",
+      "sha256": "762049c7bce54378dfb058a97607738ef3034fcf4a29544e38731c5eb9759d60",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/b5a9eb7fb1f0f6219155.json",
+      "hit_count": 1,
+      "abstract_present": true,
+      "cited_url": "https://doi.org/10.1001/jama.2013.278018",
+      "retrieval_mode": "existing_cache_read",
+      "body_scope": "metadata_abstract",
+      "evidence_id": "S002",
+      "verified_retrieval_utc": "2026-10-18T11:51:00.074758+00:00"
+    },
+    {
+      "doi": "10.1001/jama.283.7.897",
+      "chapters": [
+        13
+      ],
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1001%2Fjama.283.7.897%22&format=json&resultType=core&pageSize=10",
+      "fetched_at": "2026-10-18T20:51:00.026820+09:00",
+      "http_status": 200,
+      "status": "exact_doi_metadata_cached",
+      "sha256": "0e2d356eefc3f6cb49774b548c6966358818abe4a7a5d7546aa38f65e948d269",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/77cbdba4b2ed51a8a438.json",
+      "hit_count": 1,
+      "abstract_present": true,
+      "cited_url": "https://doi.org/10.1001/jama.283.7.897",
+      "retrieval_mode": "existing_cache_read",
+      "body_scope": "metadata_abstract",
+      "evidence_id": "S003",
+      "verified_retrieval_utc": "2026-10-18T11:51:00.026820+00:00"
+    },
+    {
+      "doi": "10.1001/jamapediatrics.2016.3643",
+      "chapters": [
+        13
+      ],
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1001%2Fjamapediatrics.2016.3643%22&format=json&resultType=core&pageSize=10",
+      "fetched_at": "2026-10-18T20:51:02.949848+09:00",
+      "http_status": 200,
+      "status": "exact_doi_metadata_cached",
+      "sha256": "8ef71534ed50f9ea6410ed0c0d55fda4484b279ba58fdd2badde93d5862c720d",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/38d58839a0f744776b77.json",
+      "hit_count": 1,
+      "abstract_present": true,
+      "cited_url": "https://doi.org/10.1001/jamapediatrics.2016.3643",
+      "retrieval_mode": "existing_cache_read",
+      "body_scope": "metadata_abstract",
+      "evidence_id": "S004",
+      "verified_retrieval_utc": "2026-10-18T11:51:02.949848+00:00"
+    },
+    {
+      "doi": "10.1016/S0140-6736(07)61448-2",
+      "chapters": [
+        13
+      ],
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2FS0140-6736%2807%2961448-2%22&format=json&resultType=core&pageSize=10",
+      "fetched_at": "2026-10-18T20:50:59.558831+09:00",
+      "http_status": 200,
+      "status": "exact_doi_metadata_cached",
+      "sha256": "7f4d679503baec5a44dcb08b9ecfcf269fe69b5908adb88c9d410f05e0ab72a9",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/bc909d9c9be737851c12.json",
+      "hit_count": 1,
+      "abstract_present": true,
+      "cited_url": "https://doi.org/10.1016/S0140-6736(07)61448-2",
+      "retrieval_mode": "existing_cache_read",
+      "body_scope": "metadata_abstract",
+      "evidence_id": "S005",
+      "verified_retrieval_utc": "2026-10-18T11:50:59.558831+00:00"
+    },
+    {
+      "doi": "10.1016/S0140-6736(14)60584-5",
+      "chapters": [
+        13
+      ],
+      "pmcid": "PMC4441266",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4441266/fullTextXML",
+      "fetched_at": "2026-10-18T12:15:57.901014+00:00",
+      "http_status": 200,
+      "article_dois": [
+        "10.1016/S0140-6736(14)60584-5"
+      ],
+      "exact_article_doi_match": true,
+      "status": "fulltext_xml_cached",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/pmc-fulltext/PMC4441266.xml",
+      "sha256": "7709ef6ff132f522f4d9cbcdffb3b4cd6e69be12f4fc4abd35ee6e40011c660b",
+      "bytes": 98656,
+      "cited_url": "https://doi.org/10.1016/S0140-6736(14)60584-5",
+      "retrieval_mode": "existing_cache_read",
+      "body_scope": "fulltext",
+      "evidence_id": "S006",
+      "verified_retrieval_utc": "2026-10-18T12:15:57.901014+00:00"
+    },
+    {
+      "doi": "10.1016/S0140-6736(98)07534-5",
+      "chapters": [
+        13
+      ],
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2FS0140-6736%2898%2907534-5%22&format=json&resultType=core&pageSize=10",
+      "fetched_at": "2026-10-18T20:51:00.443460+09:00",
+      "http_status": 200,
+      "status": "exact_doi_metadata_cached",
+      "sha256": "690ef81fdbfb74a4ffe88423ca686896b0bd8800df5cca86fa8c4c221276ed5d",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/5c9140cd67949f008095.json",
+      "hit_count": 1,
+      "abstract_present": true,
+      "cited_url": "https://doi.org/10.1016/S0140-6736(98)07534-5",
+      "retrieval_mode": "existing_cache_read",
+      "body_scope": "metadata_abstract",
+      "evidence_id": "S007",
+      "verified_retrieval_utc": "2026-10-18T11:51:00.443460+00:00"
+    },
+    {
+      "doi": "10.1016/j.annemergmed.2019.06.028",
+      "chapters": [
+        13
+      ],
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2Fj.annemergmed.2019.06.028%22&format=json&resultType=core&pageSize=10",
+      "fetched_at": "2026-10-18T20:51:01.181939+09:00",
+      "http_status": 200,
+      "status": "exact_doi_metadata_cached",
+      "sha256": "e86a1b52e586969d881742ca8b3822805bbd61e4941fcb018bda74b5c6856570",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/3ecc370aad334de1ad4c.json",
+      "hit_count": 1,
+      "abstract_present": true,
+      "cited_url": "https://doi.org/10.1016/j.annemergmed.2019.06.028",
+      "retrieval_mode": "existing_cache_read",
+      "body_scope": "metadata_abstract",
+      "evidence_id": "S008",
+      "verified_retrieval_utc": "2026-10-18T11:51:01.181939+00:00"
+    },
+    {
+      "doi": "10.1016/j.auec.2022.05.004",
+      "chapters": [
+        13
+      ],
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2Fj.auec.2022.05.004%22&format=json&resultType=core&pageSize=10",
+      "fetched_at": "2026-10-18T20:51:01.406233+09:00",
+      "http_status": 200,
+      "status": "exact_doi_metadata_cached",
+      "sha256": "7fd5e797e759c397a7da7cce86f1580e2d5f0f83ea4fff3f73f288fc800dd602",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/87e2647c89cf54a95b02.json",
+      "hit_count": 1,
+      "abstract_present": true,
+      "cited_url": "https://doi.org/10.1016/j.auec.2022.05.004",
+      "retrieval_mode": "existing_cache_read",
+      "body_scope": "metadata_abstract",
+      "evidence_id": "S009",
+      "verified_retrieval_utc": "2026-10-18T11:51:01.406233+00:00"
+    },
+    {
+      "doi": "10.1016/j.bas.2025.105893",
+      "chapters": [
+        13
+      ],
+      "pmcid": "PMC12720100",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12720100/fullTextXML",
+      "fetched_at": "2026-10-18T12:15:59.369104+00:00",
+      "http_status": 200,
+      "article_dois": [
+        "10.1016/j.bas.2025.105893"
+      ],
+      "exact_article_doi_match": true,
+      "status": "fulltext_xml_cached",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/pmc-fulltext/PMC12720100.xml",
+      "sha256": "a7c1582a639ff32fbd0fa6844b73220a9a3fb77d07775eabd1e2173fbad11506",
+      "bytes": 122319,
+      "cited_url": "https://doi.org/10.1016/j.bas.2025.105893",
+      "retrieval_mode": "existing_cache_read",
+      "body_scope": "fulltext",
+      "evidence_id": "S010",
+      "verified_retrieval_utc": "2026-10-18T12:15:59.369104+00:00"
+    },
+    {
+      "doi": "10.1016/j.jamcollsurg.2018.01.047",
+      "chapters": [
+        13
+      ],
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2Fj.jamcollsurg.2018.01.047%22&format=json&resultType=core&pageSize=10",
+      "fetched_at": "2026-10-18T20:51:00.742214+09:00",
+      "http_status": 200,
+      "status": "exact_doi_metadata_cached",
+      "sha256": "7a2c48ca318f788ba869f57cd4fdb3ef3417662e94d4ce9d1563c2669e46999f",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/086b539053a9f2c8ca33.json",
+      "hit_count": 1,
+      "abstract_present": true,
+      "cited_url": "https://doi.org/10.1016/j.jamcollsurg.2018.01.047",
+      "retrieval_mode": "existing_cache_read",
+      "body_scope": "metadata_abstract",
+      "evidence_id": "S011",
+      "verified_retrieval_utc": "2026-10-18T11:51:00.742214+00:00"
+    },
+    {
+      "doi": "10.1016/j.wem.2018.10.004",
+      "chapters": [
+        13
+      ],
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2Fj.wem.2018.10.004%22&format=json&resultType=core&pageSize=10",
+      "fetched_at": "2026-10-18T20:51:02.436179+09:00",
+      "http_status": 200,
+      "status": "exact_doi_metadata_cached",
+      "sha256": "265d53b1d5b1671229b0a524991f371fdf62a787df9203175fcd9ed318f23fa3",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/9bfe6716794cdff7c7b8.json",
+      "hit_count": 1,
+      "abstract_present": true,
+      "cited_url": "https://doi.org/10.1016/j.wem.2018.10.004",
+      "retrieval_mode": "existing_cache_read",
+      "body_scope": "metadata_abstract",
+      "evidence_id": "S012",
+      "verified_retrieval_utc": "2026-10-18T11:51:02.436179+00:00"
+    },
+    {
+      "doi": "10.1016/j.wem.2019.10.002",
+      "chapters": [
+        13
+      ],
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2Fj.wem.2019.10.002%22&format=json&resultType=core&pageSize=10",
+      "fetched_at": "2026-10-18T20:51:02.552446+09:00",
+      "http_status": 200,
+      "status": "exact_doi_metadata_cached",
+      "sha256": "7a34bc6c3987e4f1d5ef32c2e5adf181ce95718c5f7ca35f72783e0cc3e61cbd",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/e89867e8fbdad5c015f0.json",
+      "hit_count": 1,
+      "abstract_present": true,
+      "cited_url": "https://doi.org/10.1016/j.wem.2019.10.002",
+      "retrieval_mode": "existing_cache_read",
+      "body_scope": "metadata_abstract",
+      "evidence_id": "S013",
+      "verified_retrieval_utc": "2026-10-18T11:51:02.552446+00:00"
+    },
+    {
+      "doi": "10.1016/j.wem.2023.05.013",
+      "chapters": [
+        13
+      ],
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2Fj.wem.2023.05.013%22&format=json&resultType=core&pageSize=10",
+      "fetched_at": "2026-10-18T20:51:02.638879+09:00",
+      "http_status": 200,
+      "status": "exact_doi_metadata_cached",
+      "sha256": "758c464f4c8000c7e84556d179cc88fd57aa88b3fa2eb8a6cff97ee3964bcede",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/b5006fedce4fcdcafa6a.json",
+      "hit_count": 1,
+      "abstract_present": true,
+      "cited_url": "https://doi.org/10.1016/j.wem.2023.05.013",
+      "retrieval_mode": "existing_cache_read",
+      "body_scope": "metadata_abstract",
+      "evidence_id": "S014",
+      "verified_retrieval_utc": "2026-10-18T11:51:02.638879+00:00"
+    },
+    {
+      "doi": "10.1016/s1047-2797(01)00220-4",
+      "chapters": [
+        13
+      ],
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2Fs1047-2797%2801%2900220-4%22&format=json&resultType=core&pageSize=10",
+      "fetched_at": "2026-10-18T20:51:02.592995+09:00",
+      "http_status": 200,
+      "status": "exact_doi_metadata_cached",
+      "sha256": "c34f23cf90de0b9a5df5ae29104ddfce28fa2ae29e5c4d644567825f8a26a12d",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/d645c4dc8d91077f1027.json",
+      "hit_count": 1,
+      "abstract_present": true,
+      "cited_url": "https://doi.org/10.1016/s1047-2797(01)00220-4",
+      "retrieval_mode": "existing_cache_read",
+      "body_scope": "metadata_abstract",
+      "evidence_id": "S015",
+      "verified_retrieval_utc": "2026-10-18T11:51:02.592995+00:00"
+    },
+    {
+      "doi": "10.1080/08820538.2024.2443972",
+      "chapters": [
+        13
+      ],
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1080%2F08820538.2024.2443972%22&format=json&resultType=core&pageSize=10",
+      "fetched_at": "2026-10-18T20:50:59.899837+09:00",
+      "http_status": 200,
+      "status": "exact_doi_metadata_cached",
+      "sha256": "b9b663c6b65fc7d2f506abd045244b700c5e6a3b25b1e0ff84a759925414f143",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/c769fefe8b4bf1bffee4.json",
+      "hit_count": 1,
+      "abstract_present": true,
+      "cited_url": "https://doi.org/10.1080/08820538.2024.2443972",
+      "retrieval_mode": "existing_cache_read",
+      "body_scope": "metadata_abstract",
+      "evidence_id": "S016",
+      "verified_retrieval_utc": "2026-10-18T11:50:59.899837+00:00"
+    },
+    {
+      "doi": "10.1093/ehjqcco/qcaa037",
+      "chapters": [
+        13
+      ],
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1093%2Fehjqcco%2Fqcaa037%22&format=json&resultType=core&pageSize=10",
+      "fetched_at": "2026-10-18T20:50:59.956734+09:00",
+      "http_status": 200,
+      "status": "exact_doi_metadata_cached",
+      "sha256": "ae3a91d4e9c54be639dccacbac2c42615491e1ba32b6fd204a7149fbf97f94ff",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/ffb437006b606a594912.json",
+      "hit_count": 1,
+      "abstract_present": true,
+      "cited_url": "https://doi.org/10.1093/ehjqcco/qcaa037",
+      "retrieval_mode": "existing_cache_read",
+      "body_scope": "metadata_abstract",
+      "evidence_id": "S017",
+      "verified_retrieval_utc": "2026-10-18T11:50:59.956734+00:00"
+    },
+    {
+      "doi": "10.1097/SLA.0b013e31818842ba",
+      "chapters": [
+        13
+      ],
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1097%2FSLA.0b013e31818842ba%22&format=json&resultType=core&pageSize=10",
+      "fetched_at": "2026-10-18T20:51:00.778226+09:00",
+      "http_status": 200,
+      "status": "exact_doi_metadata_cached",
+      "sha256": "fe0f1cf3b163b3bc3f5b97e52470805f9e2718daca712fd9020b46d4026ae961",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/09819bccbf071c100806.json",
+      "hit_count": 1,
+      "abstract_present": true,
+      "cited_url": "https://doi.org/10.1097/SLA.0b013e31818842ba",
+      "retrieval_mode": "existing_cache_read",
+      "body_scope": "metadata_abstract",
+      "evidence_id": "S018",
+      "verified_retrieval_utc": "2026-10-18T11:51:00.778226+00:00"
+    },
+    {
+      "doi": "10.1111/all.15032",
+      "chapters": [
+        13
+      ],
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1111%2Fall.15032%22&format=json&resultType=core&pageSize=10",
+      "fetched_at": "2026-10-18T20:51:01.735410+09:00",
+      "http_status": 200,
+      "status": "exact_doi_metadata_cached",
+      "sha256": "fe886a11381126d91ad04e1fe1a5492e09670b3fe228348b1c9dde4874f47990",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/35b62dcbf4c9ae57449a.json",
+      "hit_count": 1,
+      "abstract_present": true,
+      "cited_url": "https://doi.org/10.1111/all.15032",
+      "retrieval_mode": "existing_cache_read",
+      "body_scope": "metadata_abstract",
+      "evidence_id": "S019",
+      "verified_retrieval_utc": "2026-10-18T11:51:01.735410+00:00"
+    },
+    {
+      "doi": "10.1111/ceo.14206",
+      "chapters": [
+        13
+      ],
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1111%2Fceo.14206%22&format=json&resultType=core&pageSize=10",
+      "fetched_at": "2026-10-18T20:50:59.826872+09:00",
+      "http_status": 200,
+      "status": "exact_doi_metadata_cached",
+      "sha256": "81511aec60818994f1e9d3bc437a1914a64b8aaa10a8cb13ef7b0edb9077748f",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/0375029a881f737192e9.json",
+      "hit_count": 1,
+      "abstract_present": true,
+      "cited_url": "https://doi.org/10.1111/ceo.14206",
+      "retrieval_mode": "existing_cache_read",
+      "body_scope": "metadata_abstract",
+      "evidence_id": "S020",
+      "verified_retrieval_utc": "2026-10-18T11:50:59.826872+00:00"
+    },
+    {
+      "doi": "10.1161/CIR.0000000000001370",
+      "chapters": [
+        13
+      ],
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1161%2FCIR.0000000000001370%22&format=json&resultType=core&pageSize=10",
+      "fetched_at": "2026-10-18T20:51:02.783183+09:00",
+      "http_status": 200,
+      "status": "exact_doi_metadata_cached",
+      "sha256": "3b2a29109397e4e2a904f4612de9af47aec832e472ee7a4e5010741b7d29acc4",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/166e18a7a1c8d331bf0e.json",
+      "hit_count": 1,
+      "abstract_present": true,
+      "cited_url": "https://doi.org/10.1161/CIR.0000000000001370",
+      "retrieval_mode": "existing_cache_read",
+      "body_scope": "metadata_abstract",
+      "evidence_id": "S021",
+      "verified_retrieval_utc": "2026-10-18T11:51:02.783183+00:00"
+    },
+    {
+      "doi": "10.1161/CIRCOUTCOMES.109.889576",
+      "chapters": [
+        13
+      ],
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1161%2FCIRCOUTCOMES.109.889576%22&format=json&resultType=core&pageSize=10",
+      "fetched_at": "2026-10-18T20:50:58.831649+09:00",
+      "http_status": 200,
+      "status": "exact_doi_metadata_cached",
+      "sha256": "6f21542fc3bc77f8445d80afb780642d35c906846890f0ba22bf182370ac3c49",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/72455049924d147c6100.json",
+      "hit_count": 1,
+      "abstract_present": true,
+      "cited_url": "https://doi.org/10.1161/CIRCOUTCOMES.109.889576",
+      "retrieval_mode": "existing_cache_read",
+      "body_scope": "metadata_abstract",
+      "evidence_id": "S022",
+      "verified_retrieval_utc": "2026-10-18T11:50:58.831649+00:00"
+    },
+    {
+      "doi": "10.1161/STR.0000000000000366",
+      "chapters": [
+        13
+      ],
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1161%2FSTR.0000000000000366%22&format=json&resultType=core&pageSize=10",
+      "fetched_at": "2026-10-18T20:50:59.537683+09:00",
+      "http_status": 200,
+      "status": "exact_doi_metadata_cached",
+      "sha256": "dfda44a025e09b8fb675651586059f4b769a086c8fab2941b11a239595f2cad0",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/a31a14dde9f099761cb1.json",
+      "hit_count": 1,
+      "abstract_present": true,
+      "cited_url": "https://doi.org/10.1161/STR.0000000000000366",
+      "retrieval_mode": "existing_cache_read",
+      "body_scope": "metadata_abstract",
+      "evidence_id": "S023",
+      "verified_retrieval_utc": "2026-10-18T11:50:59.537683+00:00"
+    },
+    {
+      "doi": "10.1161/STROKEAHA.116.015169",
+      "chapters": [
+        13
+      ],
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1161%2FSTROKEAHA.116.015169%22&format=json&resultType=core&pageSize=10",
+      "fetched_at": "2026-10-18T20:50:59.383441+09:00",
+      "http_status": 200,
+      "status": "exact_doi_metadata_cached",
+      "sha256": "6a06f3970ee339e9c937385ba393f89b89a28af51c90c57c8f4a0c62113a465e",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/e1d8a570b654a0b7be1a.json",
+      "hit_count": 1,
+      "abstract_present": true,
+      "cited_url": "https://doi.org/10.1161/STROKEAHA.116.015169",
+      "retrieval_mode": "existing_cache_read",
+      "body_scope": "metadata_abstract",
+      "evidence_id": "S024",
+      "verified_retrieval_utc": "2026-10-18T11:50:59.383441+00:00"
+    },
+    {
+      "doi": "10.1177/10806032241227924",
+      "chapters": [
+        13
+      ],
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1177%2F10806032241227924%22&format=json&resultType=core&pageSize=10",
+      "fetched_at": "2026-10-18T20:51:02.390644+09:00",
+      "http_status": 200,
+      "status": "exact_doi_metadata_cached",
+      "sha256": "b4b54a8b0836672cd266d5d145a4ded5fedd97d97c281992d724607a0448e565",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/b9354bb50fb5475f15dd.json",
+      "hit_count": 1,
+      "abstract_present": true,
+      "cited_url": "https://doi.org/10.1177/10806032241227924",
+      "retrieval_mode": "existing_cache_read",
+      "body_scope": "metadata_abstract",
+      "evidence_id": "S025",
+      "verified_retrieval_utc": "2026-10-18T11:51:02.390644+00:00"
+    },
+    {
+      "doi": "10.1186/s41016-021-00263-z",
+      "chapters": [
+        13
+      ],
+      "pmcid": "PMC8607705",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8607705/fullTextXML",
+      "fetched_at": "2026-10-18T12:15:59.663077+00:00",
+      "http_status": 200,
+      "article_dois": [
+        "10.1186/s41016-021-00263-z"
+      ],
+      "exact_article_doi_match": true,
+      "status": "fulltext_xml_cached",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/pmc-fulltext/PMC8607705.xml",
+      "sha256": "b13fe3e05a1a91ee7dc92baf8cf906cee122d6b8af0bbc5a2c332e6f800c558b",
+      "bytes": 117401,
+      "cited_url": "https://doi.org/10.1186/s41016-021-00263-z",
+      "retrieval_mode": "existing_cache_read",
+      "body_scope": "fulltext",
+      "evidence_id": "S026",
+      "verified_retrieval_utc": "2026-10-18T12:15:59.663077+00:00"
+    },
+    {
+      "doi": "10.15441/ceem.26.074",
+      "chapters": [
+        13
+      ],
+      "pmcid": "PMC13277411",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13277411/fullTextXML",
+      "fetched_at": "2026-10-18T12:16:00.093472+00:00",
+      "http_status": 200,
+      "article_dois": [
+        "10.15441/ceem.26.074"
+      ],
+      "exact_article_doi_match": true,
+      "status": "fulltext_xml_cached",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/pmc-fulltext/PMC13277411.xml",
+      "sha256": "7a555d63ef8bcfbd594a08de97c743fa679a385876f03c133389909aa38ec42d",
+      "bytes": 161773,
+      "cited_url": "https://doi.org/10.15441/ceem.26.074",
+      "retrieval_mode": "existing_cache_read",
+      "body_scope": "fulltext",
+      "evidence_id": "S027",
+      "verified_retrieval_utc": "2026-10-18T12:16:00.093472+00:00"
+    },
+    {
+      "doi": "10.15441/ceem.26.076",
+      "chapters": [
+        13
+      ],
+      "pmcid": "PMC13277412",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13277412/fullTextXML",
+      "fetched_at": "2026-10-18T12:15:55.602951+00:00",
+      "http_status": 200,
+      "article_dois": [
+        "10.15441/ceem.26.076"
+      ],
+      "exact_article_doi_match": true,
+      "status": "fulltext_xml_cached",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/pmc-fulltext/PMC13277412.xml",
+      "sha256": "d3740ab0bdd98c5be4f7f3a0aeb1b677a965819e232303c804317ea7cf6c0a39",
+      "bytes": 99339,
+      "cited_url": "https://doi.org/10.15441/ceem.26.076",
+      "retrieval_mode": "existing_cache_read",
+      "body_scope": "fulltext",
+      "evidence_id": "S028",
+      "verified_retrieval_utc": "2026-10-18T12:15:55.602951+00:00"
+    },
+    {
+      "doi": "10.15441/ceem.26.095",
+      "chapters": [
+        13
+      ],
+      "pmcid": "PMC13277413",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13277413/fullTextXML",
+      "fetched_at": "2026-10-18T12:15:51.190548+00:00",
+      "http_status": 200,
+      "article_dois": [
+        "10.15441/ceem.26.095"
+      ],
+      "exact_article_doi_match": true,
+      "status": "fulltext_xml_cached",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/pmc-fulltext/PMC13277413.xml",
+      "sha256": "c8f65e054a256ee8be22f98635d6a6676dcadeaac1941115c89d413abb424378",
+      "bytes": 122823,
+      "cited_url": "https://doi.org/10.15441/ceem.26.095",
+      "retrieval_mode": "existing_cache_read",
+      "body_scope": "fulltext",
+      "evidence_id": "S029",
+      "verified_retrieval_utc": "2026-10-18T12:15:51.190548+00:00"
+    },
+    {
+      "doi": "10.15441/ceem.26.150",
+      "chapters": [
+        13
+      ],
+      "pmcid": "PMC13277414",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13277414/fullTextXML",
+      "fetched_at": "2026-10-18T12:16:00.828937+00:00",
+      "http_status": 200,
+      "article_dois": [
+        "10.15441/ceem.26.150"
+      ],
+      "exact_article_doi_match": true,
+      "status": "fulltext_xml_cached",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/pmc-fulltext/PMC13277414.xml",
+      "sha256": "2eb030502873867ceb1bd64dd4a552effd4b4443d5b9c48c5086a076f1874942",
+      "bytes": 125426,
+      "cited_url": "https://doi.org/10.15441/ceem.26.150",
+      "retrieval_mode": "existing_cache_read",
+      "body_scope": "fulltext",
+      "evidence_id": "S030",
+      "verified_retrieval_utc": "2026-10-18T12:16:00.828937+00:00"
+    },
+    {
+      "doi": "10.1684/pnv.2026.1274",
+      "chapters": [
+        13
+      ],
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1684%2Fpnv.2026.1274%22&format=json&resultType=core&pageSize=10",
+      "fetched_at": "2026-10-18T20:51:00.309970+09:00",
+      "http_status": 200,
+      "status": "exact_doi_metadata_cached",
+      "sha256": "48a5256c04d31663c738e8c00602f764a3cc37efaea0d366687814bffc6e8bb1",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/4450ce81d6b21e922e44.json",
+      "hit_count": 1,
+      "abstract_present": true,
+      "cited_url": "https://doi.org/10.1684/pnv.2026.1274",
+      "retrieval_mode": "existing_cache_read",
+      "body_scope": "metadata_abstract",
+      "evidence_id": "S031",
+      "verified_retrieval_utc": "2026-10-18T11:51:00.309970+00:00"
+    },
+    {
+      "doi": "10.2337/dc25-S006",
+      "chapters": [
+        13
+      ],
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.2337%2Fdc25-S006%22&format=json&resultType=core&pageSize=10",
+      "fetched_at": "2026-10-18T20:51:02.014535+09:00",
+      "http_status": 200,
+      "status": "exact_doi_metadata_cached",
+      "sha256": "871ce43c72273b0db03a2091e24bc1c134616caab2d8b632beffd71f6cf66c3a",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/ef7a156a1c51eff9a12e.json",
+      "hit_count": 1,
+      "abstract_present": true,
+      "cited_url": "https://doi.org/10.2337/dc25-S006",
+      "retrieval_mode": "existing_cache_read",
+      "body_scope": "metadata_abstract",
+      "evidence_id": "S032",
+      "verified_retrieval_utc": "2026-10-18T11:51:02.014535+00:00"
+    },
+    {
+      "doi": "10.3389/fmed.2022.1078237",
+      "chapters": [
+        13
+      ],
+      "pmcid": "PMC9802666",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9802666/fullTextXML",
+      "fetched_at": "2026-10-18T12:15:58.800520+00:00",
+      "http_status": 200,
+      "article_dois": [
+        "10.3389/fmed.2022.1078237"
+      ],
+      "exact_article_doi_match": true,
+      "status": "fulltext_xml_cached",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/pmc-fulltext/PMC9802666.xml",
+      "sha256": "0d389ba94d278a913183cd0d7c7a8c19ea17a5c0a255095851a75aa60fe2c119",
+      "bytes": 78712,
+      "cited_url": "https://doi.org/10.3389/fmed.2022.1078237",
+      "retrieval_mode": "existing_cache_read",
+      "body_scope": "fulltext",
+      "evidence_id": "S033",
+      "verified_retrieval_utc": "2026-10-18T12:15:58.800520+00:00"
+    },
+    {
+      "doi": "10.3389/fphar.2022.845689",
+      "chapters": [
+        13
+      ],
+      "pmcid": "PMC8996305",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8996305/fullTextXML",
+      "fetched_at": "2026-10-18T12:16:00.037715+00:00",
+      "http_status": 200,
+      "article_dois": [
+        "10.3389/fphar.2022.845689"
+      ],
+      "exact_article_doi_match": true,
+      "status": "fulltext_xml_cached",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/pmc-fulltext/PMC8996305.xml",
+      "sha256": "9f9b795b4a138593dd042035652447e25bcc4ee0251daa7d29c6ef39c64fd6fb",
+      "bytes": 307932,
+      "cited_url": "https://doi.org/10.3389/fphar.2022.845689",
+      "retrieval_mode": "existing_cache_read",
+      "body_scope": "fulltext",
+      "evidence_id": "S034",
+      "verified_retrieval_utc": "2026-10-18T12:16:00.037715+00:00"
+    },
+    {
+      "doi": "10.3760/cma.j.issn.1671-0282.2020.06.006",
+      "chapters": [
+        13
+      ],
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.3760%2Fcma.j.issn.1671-0282.2020.06.006%22&format=json&resultType=core&pageSize=10",
+      "fetched_at": "2026-10-18T20:51:00.994896+09:00",
+      "http_status": 200,
+      "status": "no_exact_doi_match",
+      "sha256": "7e205b88d8201ece1feb4591b0456c026feab723d7b54000ab0248df49c5169a",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/5a4679bdb6896acbe4fe.json",
+      "hit_count": 0,
+      "abstract_present": false,
+      "cited_url": "https://doi.org/10.3760/cma.j.issn.1671-0282.2020.06.006",
+      "retrieval_mode": "existing_cache_read",
+      "body_scope": "metadata_abstract",
+      "evidence_id": "S035",
+      "verified_retrieval_utc": "2026-10-18T11:51:00.994896+00:00"
+    },
+    {
+      "doi": "10.7326/0003-4819-145-7-200610030-00011",
+      "chapters": [
+        13
+      ],
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.7326%2F0003-4819-145-7-200610030-00011%22&format=json&resultType=core&pageSize=10",
+      "fetched_at": "2026-10-18T20:51:02.192515+09:00",
+      "http_status": 200,
+      "status": "exact_doi_metadata_cached",
+      "sha256": "b4a9a88d924d0258e653a6522a94f7108152ae296705934213993435125db7a3",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/433afbd8219e6d180eba.json",
+      "hit_count": 1,
+      "abstract_present": true,
+      "cited_url": "https://doi.org/10.7326/0003-4819-145-7-200610030-00011",
+      "retrieval_mode": "existing_cache_read",
+      "body_scope": "metadata_abstract",
+      "evidence_id": "S036",
+      "verified_retrieval_utc": "2026-10-18T11:51:02.192515+00:00"
+    },
+    {
+      "cited_url": "https://europepmc.org/article/MED/1600585",
+      "url": "https://europepmc.org/article/MED/1600585",
+      "requested_at": "2026-10-18T13:30:58.912932+00:00",
+      "retrieval_mode": "new_https_retry",
+      "status": "body_received",
+      "previous_failure": {
+        "cited_url": "https://europepmc.org/article/MED/1600585",
+        "url": "https://europepmc.org/article/MED/1600585",
+        "requested_at": "2026-10-18T13:29:03.149248+00:00",
+        "retrieval_mode": "new_https",
+        "status": "access_failed",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      "http_status": 200,
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch13-audit/f8e854c142b0ee9d92b7-retry.raw",
+      "sha256": "c86c4e4e82f75ee4b82463ab506141d98689fc07b2cfb5371b6be2f19469298a",
+      "evidence_id": "S037",
+      "verified_retrieval_utc": "2026-10-18T13:30:58.912932+00:00"
+    },
+    {
+      "cited_url": "https://medlineplus.gov/ency/article/000047.htm",
+      "url": "https://medlineplus.gov/ency/article/000047.htm",
+      "requested_at": "2026-10-18T13:29:03.154074+00:00",
+      "retrieval_mode": "new_https",
+      "http_status": 200,
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch13-audit/8437ae1fc09173a433eb.raw",
+      "sha256": "29a38b14fcb6b920005027df6192b6f902022ab0b4936e1b0cb0b412ab59a2ff",
+      "status": "body_received",
+      "evidence_id": "S038",
+      "verified_retrieval_utc": "2026-10-18T13:29:03.154074+00:00"
+    },
+    {
+      "cited_url": "https://nedrug.mfds.go.kr/pbp/CCBBB01/getItemDetail?itemSeq=200700537",
+      "url": "https://nedrug.mfds.go.kr/pbp/CCBBB01/getItemDetail?itemSeq=200700537",
+      "requested_at": "2026-10-18T13:29:03.154511+00:00",
+      "retrieval_mode": "new_https",
+      "http_status": 200,
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch13-audit/7901af5dc8fb4cff5f3a.raw",
+      "sha256": "e0b9beecbfeeb17a8afdee4b5a356c6ac96275979168e25c9994feca3a87af77",
+      "status": "body_received",
+      "evidence_id": "S039",
+      "verified_retrieval_utc": "2026-10-18T13:29:03.154511+00:00"
+    },
+    {
+      "cited_url": "https://nedrug.mfds.go.kr/searchDrug?searchYn=true&itemName=%EC%A0%9D%EC%8A%A4%ED%8A%B8",
+      "url": "https://nedrug.mfds.go.kr/searchDrug?searchYn=true&itemName=%EC%A0%9D%EC%8A%A4%ED%8A%B8",
+      "requested_at": "2026-10-18T13:29:03.155854+00:00",
+      "retrieval_mode": "new_https",
+      "http_status": 200,
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch13-audit/723aeee58e5a22e20334.raw",
+      "sha256": "1c28c23d12790758dcb43a4a8a6c9649dd9a9185dd390e9e3eaeb158d7c06649",
+      "status": "body_received",
+      "evidence_id": "S040",
+      "verified_retrieval_utc": "2026-10-18T13:29:03.155854+00:00"
+    },
+    {
+      "cited_url": "https://wms.org/magazine/magazine/1540/Heat-Illness-CPG/default.aspx",
+      "url": "https://wms.org/magazine/magazine/1540/Heat-Illness-CPG/default.aspx",
+      "requested_at": "2026-10-18T13:30:58.913728+00:00",
+      "retrieval_mode": "new_https_retry",
+      "status": "body_received",
+      "previous_failure": {
+        "cited_url": "https://wms.org/magazine/magazine/1540/Heat-Illness-CPG/default.aspx",
+        "url": "https://wms.org/magazine/magazine/1540/Heat-Illness-CPG/default.aspx",
+        "requested_at": "2026-10-18T13:29:03.159228+00:00",
+        "retrieval_mode": "new_https",
+        "status": "access_failed",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      "http_status": 200,
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch13-audit/3e8b2005912af4304e61-retry.raw",
+      "sha256": "4c62be06dbd6c0439f284a35ad2f35b0da57bd8025f0d2940832c0d22ba0687d",
+      "evidence_id": "S041",
+      "verified_retrieval_utc": "2026-10-18T13:30:58.913728+00:00"
+    },
+    {
+      "cited_url": "https://www.cdc.gov/carbon-monoxide/about/index.html",
+      "url": "https://www.cdc.gov/carbon-monoxide/about/index.html",
+      "requested_at": "2026-10-18T13:29:03.162077+00:00",
+      "retrieval_mode": "new_https",
+      "http_status": 200,
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch13-audit/e30c2ddd19def46c6877.raw",
+      "sha256": "347d6e44388613f55932be11db4d511aa8048404eef39677f40080bad924131e",
+      "status": "body_received",
+      "evidence_id": "S042",
+      "verified_retrieval_utc": "2026-10-18T13:29:03.162077+00:00"
+    },
+    {
+      "cited_url": "https://www.cdc.gov/epilepsy/first-aid-for-seizures/index.html",
+      "url": "https://www.cdc.gov/epilepsy/first-aid-for-seizures/index.html",
+      "requested_at": "2026-10-18T13:29:03.162341+00:00",
+      "retrieval_mode": "new_https",
+      "http_status": 200,
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch13-audit/06174d692f1b23938e75.raw",
+      "sha256": "6f3e5abc93c36654b99887b1aa8ce461c2c8cee8d74298fd4b8b8b07eae138bb",
+      "status": "body_received",
+      "evidence_id": "S043",
+      "verified_retrieval_utc": "2026-10-18T13:29:03.162341+00:00"
+    },
+    {
+      "cited_url": "https://www.cdc.gov/hiv/prevention/pep.html",
+      "url": "https://www.cdc.gov/hiv/prevention/pep.html",
+      "requested_at": "2026-10-18T13:29:03.162579+00:00",
+      "retrieval_mode": "new_https",
+      "http_status": 200,
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch13-audit/9d767b8f358be7f92203.raw",
+      "sha256": "99dd1a9ccddcfe18805fa49d568eff6760b7dfdcf296152d1476360209788a29",
+      "status": "body_received",
+      "evidence_id": "S044",
+      "verified_retrieval_utc": "2026-10-18T13:29:03.162579+00:00"
+    },
+    {
+      "cited_url": "https://www.cdc.gov/hygiene/about/cleaning-and-disinfecting-with-bleach.html",
+      "url": "https://www.cdc.gov/hygiene/about/cleaning-and-disinfecting-with-bleach.html",
+      "requested_at": "2026-10-18T13:29:03.162729+00:00",
+      "retrieval_mode": "new_https",
+      "http_status": 200,
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch13-audit/bde5b3bbb0075f12618f.raw",
+      "sha256": "ffbc47f46246c4e0898f28f65e854f0426898da8f9b2d4aa05d85b4e846d5aee",
+      "status": "body_received",
+      "evidence_id": "S045",
+      "verified_retrieval_utc": "2026-10-18T13:29:03.162729+00:00"
+    },
+    {
+      "cited_url": "https://www.cdc.gov/natural-disasters/response/what-to-do-protect-yourself-from-electrical-hazards.html",
+      "url": "https://www.cdc.gov/natural-disasters/response/what-to-do-protect-yourself-from-electrical-hazards.html",
+      "requested_at": "2026-10-18T13:29:03.397676+00:00",
+      "retrieval_mode": "new_https",
+      "http_status": 200,
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch13-audit/d6d6b648226ef06dc22e.raw",
+      "sha256": "812888429cbde8d9935dbe9d3dbb16a49229c09dc0212499df3102d12636336a",
+      "status": "body_received",
+      "evidence_id": "S046",
+      "verified_retrieval_utc": "2026-10-18T13:29:03.397676+00:00"
+    },
+    {
+      "cited_url": "https://www.cdc.gov/niosh/heat-stress/about/illnesses.html",
+      "url": "https://www.cdc.gov/niosh/heat-stress/about/illnesses.html",
+      "requested_at": "2026-10-18T13:29:03.412494+00:00",
+      "retrieval_mode": "new_https",
+      "http_status": 200,
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch13-audit/3fb752ccfa01f2a374f6.raw",
+      "sha256": "3f630d028863d92f3e3f0b070407fe50ad4bcd6536c205e685bd334fdcfb6d47",
+      "status": "body_received",
+      "evidence_id": "S047",
+      "verified_retrieval_utc": "2026-10-18T13:29:03.412494+00:00"
+    },
+    {
+      "cited_url": "https://www.cdc.gov/ticks/after-a-tick-bite/index.html",
+      "url": "https://www.cdc.gov/ticks/after-a-tick-bite/index.html",
+      "requested_at": "2026-10-18T13:29:03.524118+00:00",
+      "retrieval_mode": "new_https",
+      "http_status": 200,
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch13-audit/871157cd28a5826dd7e0.raw",
+      "sha256": "4932044c71d82914401b3e1f78f3bce4d030f17ce9c99a8d9e2fe2f35f4a36c5",
+      "status": "body_received",
+      "evidence_id": "S048",
+      "verified_retrieval_utc": "2026-10-18T13:29:03.524118+00:00"
+    },
+    {
+      "cited_url": "https://www.cdc.gov/yellow-book/hcp/environmental-hazards-risks/high-altitude-travel-and-altitude-illness.html",
+      "url": "https://www.cdc.gov/yellow-book/hcp/environmental-hazards-risks/high-altitude-travel-and-altitude-illness.html",
+      "requested_at": "2026-10-18T13:29:03.558617+00:00",
+      "retrieval_mode": "new_https",
+      "http_status": 200,
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch13-audit/fe0e783292de5e5a7c8e.raw",
+      "sha256": "73e52d68e23a23ebe9ffe08d5d4ebc74299ffc2879d7895a68c6ed251c6ab675",
+      "status": "body_received",
+      "evidence_id": "S049",
+      "verified_retrieval_utc": "2026-10-18T13:29:03.558617+00:00"
+    },
+    {
+      "cited_url": "https://www.cdc.gov/yellow-book/hcp/preparing-international-travelers/water-disinfection-for-travelers.html",
+      "url": "https://www.cdc.gov/yellow-book/hcp/preparing-international-travelers/water-disinfection-for-travelers.html",
+      "requested_at": "2026-10-18T13:29:03.559732+00:00",
+      "retrieval_mode": "new_https",
+      "http_status": 200,
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch13-audit/abfbbcc5a51a966f1a3c.raw",
+      "sha256": "c3bd96959f2057c891f370001b7f6201eefc38fafceb4ea3f9499f27e700fe28",
+      "status": "body_received",
+      "evidence_id": "S050",
+      "verified_retrieval_utc": "2026-10-18T13:29:03.559732+00:00"
+    },
+    {
+      "cited_url": "https://www.cpsc.gov/Safety-Education/Safety-Education-Centers/Carbon-Monoxide-Information-Center",
+      "url": "https://www.cpsc.gov/Safety-Education/Safety-Education-Centers/Carbon-Monoxide-Information-Center",
+      "requested_at": "2026-10-18T13:29:03.645465+00:00",
+      "retrieval_mode": "new_https",
+      "http_status": 200,
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch13-audit/9106c46a5fad50a30ab1.raw",
+      "sha256": "0a062bcb93ba699493f5179af5ce7072c71375379dd10ee17602a1e580f2e33e",
+      "status": "body_received",
+      "evidence_id": "S051",
+      "verified_retrieval_utc": "2026-10-18T13:29:03.645465+00:00"
+    },
+    {
+      "cited_url": "https://www.erc.edu/media/p5ymaeej/gl2025_layperson_book_ipdf-v11-e.pdf",
+      "url": "https://www.erc.edu/media/p5ymaeej/gl2025_layperson_book_ipdf-v11-e.pdf",
+      "requested_at": "2026-10-18T13:30:58.914341+00:00",
+      "retrieval_mode": "new_https_retry",
+      "status": "body_received",
+      "previous_failure": {
+        "cited_url": "https://www.erc.edu/media/p5ymaeej/gl2025_layperson_book_ipdf-v11-e.pdf",
+        "url": "https://www.erc.edu/media/p5ymaeej/gl2025_layperson_book_ipdf-v11-e.pdf",
+        "requested_at": "2026-10-18T13:29:03.767030+00:00",
+        "retrieval_mode": "new_https",
+        "status": "access_failed",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      "http_status": 200,
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch13-audit/ae54eb49e0780ffc3c90-retry.raw",
+      "sha256": "b5a39510ef33ecacd94591bc01c179ed4aaf5fcb3f0a3a9edaf5968aca2e5afb",
+      "evidence_id": "S052",
+      "verified_retrieval_utc": "2026-10-18T13:30:58.914341+00:00"
+    },
+    {
+      "cited_url": "https://www.ifrc.org/sites/default/files/2026-03/IFRC%20International%20First%20Aid,%20Resuscitation%20and%20Education%20Guidelines%202025.pdf",
+      "url": "https://www.ifrc.org/sites/default/files/2026-03/IFRC%20International%20First%20Aid,%20Resuscitation%20and%20Education%20Guidelines%202025.pdf",
+      "requested_at": "2026-10-18T13:30:58.914769+00:00",
+      "retrieval_mode": "new_https_retry",
+      "status": "body_received",
+      "previous_failure": {
+        "cited_url": "https://www.ifrc.org/sites/default/files/2026-03/IFRC%20International%20First%20Aid,%20Resuscitation%20and%20Education%20Guidelines%202025.pdf",
+        "url": "https://www.ifrc.org/sites/default/files/2026-03/IFRC%20International%20First%20Aid,%20Resuscitation%20and%20Education%20Guidelines%202025.pdf",
+        "requested_at": "2026-10-18T13:29:03.797020+00:00",
+        "retrieval_mode": "new_https",
+        "status": "access_failed",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      "http_status": 200,
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch13-audit/b704e4b287b75fe422a6-retry.raw",
+      "sha256": "eed67bdff38ca8a7628c7b01be5bcd23796601e0d85bb021dc301ec3f9ff8f1f",
+      "evidence_id": "S053",
+      "verified_retrieval_utc": "2026-10-18T13:30:58.914769+00:00"
+    },
+    {
+      "cited_url": "https://www.kdca.go.kr/bbs/kdca/42/214540/artclView.do",
+      "url": "https://www.kdca.go.kr/bbs/kdca/42/214540/artclView.do",
+      "requested_at": "2026-10-18T13:29:03.799758+00:00",
+      "retrieval_mode": "new_https",
+      "http_status": 200,
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch13-audit/8b40a04a23ce63f33993.raw",
+      "sha256": "9222baa989f6f050c243f25e02fc768ae537d269e94635d64bcd06e85a0c0dd3",
+      "status": "body_received",
+      "evidence_id": "S054",
+      "verified_retrieval_utc": "2026-10-18T13:29:03.799758+00:00"
+    },
+    {
+      "cited_url": "https://www.kdca.go.kr/bbs/kdca/42/214541/artclView.do",
+      "url": "https://www.kdca.go.kr/bbs/kdca/42/214541/artclView.do",
+      "requested_at": "2026-10-18T13:29:03.817269+00:00",
+      "retrieval_mode": "new_https",
+      "http_status": 200,
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch13-audit/ad16944f8da1c52ece11.raw",
+      "sha256": "3f6b39aa8d9d8b8575114c270013eb5bb103836d03b112db31fc6fef25907fc1",
+      "status": "body_received",
+      "evidence_id": "S055",
+      "verified_retrieval_utc": "2026-10-18T13:29:03.817269+00:00"
+    },
+    {
+      "cited_url": "https://www.kdca.go.kr/bbs/kdca/42/214925/artclView.do",
+      "url": "https://www.kdca.go.kr/bbs/kdca/42/214925/artclView.do",
+      "requested_at": "2026-10-18T13:29:03.975196+00:00",
+      "retrieval_mode": "new_https",
+      "http_status": 200,
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch13-audit/8d7e6d2de5d79cba8c97.raw",
+      "sha256": "6669a20373717f0a9e2551c837fde47a7f34b5e642d2b9ee545b890fde8ed0a6",
+      "status": "body_received",
+      "evidence_id": "S056",
+      "verified_retrieval_utc": "2026-10-18T13:29:03.975196+00:00"
+    },
+    {
+      "cited_url": "https://www.kdca.go.kr/bbs/kdca/42/215434/artclView.do",
+      "url": "https://www.kdca.go.kr/bbs/kdca/42/215434/artclView.do",
+      "requested_at": "2026-10-18T13:29:03.991408+00:00",
+      "retrieval_mode": "new_https",
+      "http_status": 200,
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch13-audit/af9e332f4c5c5f24a9de.raw",
+      "sha256": "0598ed3542c3e96e98b3db0abd3172bc71b89b3a12f5944a1e46c12ca0be4a2c",
+      "status": "body_received",
+      "evidence_id": "S057",
+      "verified_retrieval_utc": "2026-10-18T13:29:03.991408+00:00"
+    },
+    {
+      "cited_url": "https://www.kdca.go.kr/bbs/kdca/42/215518/artclView.do",
+      "url": "https://www.kdca.go.kr/bbs/kdca/42/215518/artclView.do",
+      "requested_at": "2026-10-18T13:29:04.192554+00:00",
+      "retrieval_mode": "new_https",
+      "http_status": 200,
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch13-audit/65a1e31886bd22278d32.raw",
+      "sha256": "13dc3c038367400f7b7c3bde5da0d3e931b678b89941c7c4cb4e3dce13c57db9",
+      "status": "body_received",
+      "evidence_id": "S058",
+      "verified_retrieval_utc": "2026-10-18T13:29:04.192554+00:00"
+    },
+    {
+      "cited_url": "https://www.kdca.go.kr/bbs/kdca/42/309906/artclView.do",
+      "url": "https://www.kdca.go.kr/bbs/kdca/42/309906/artclView.do",
+      "requested_at": "2026-10-18T13:29:04.525982+00:00",
+      "retrieval_mode": "new_https",
+      "http_status": 200,
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch13-audit/0c0ecc70900ccf42a4ed.raw",
+      "sha256": "bcf63346e5c4696062c00f3415f26b398297f1f52955351bfa70b4e095c3880a",
+      "status": "body_received",
+      "evidence_id": "S059",
+      "verified_retrieval_utc": "2026-10-18T13:29:04.525982+00:00"
+    },
+    {
+      "cited_url": "https://www.kdca.go.kr/bbs/kdca/42/310408/artclView.do",
+      "url": "https://www.kdca.go.kr/bbs/kdca/42/310408/artclView.do",
+      "requested_at": "2026-10-18T13:29:04.584515+00:00",
+      "retrieval_mode": "new_https",
+      "http_status": 200,
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch13-audit/9b1a23331d3a1fdf2545.raw",
+      "sha256": "17e628afe668c63b005d33fea31e0f84a32ee9fb91d8f748cff6efc91405bb76",
+      "status": "body_received",
+      "evidence_id": "S060",
+      "verified_retrieval_utc": "2026-10-18T13:29:04.584515+00:00"
+    },
+    {
+      "cited_url": "https://www.kdca.go.kr/bbs/kdca/42/310736/artclView.do",
+      "url": "https://www.kdca.go.kr/bbs/kdca/42/310736/artclView.do",
+      "requested_at": "2026-10-18T13:29:04.630728+00:00",
+      "retrieval_mode": "new_https",
+      "http_status": 200,
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch13-audit/ee4c1b104ab8af9ae5a0.raw",
+      "sha256": "c0ac94762207dcba380b3dbc97af4c1d65b91aadcab884d17f8888a85bb21edd",
+      "status": "body_received",
+      "evidence_id": "S061",
+      "verified_retrieval_utc": "2026-10-18T13:29:04.630728+00:00"
+    },
+    {
+      "cited_url": "https://www.kdca.go.kr/bbs/kdca/42/310842/artclView.do",
+      "url": "https://www.kdca.go.kr/bbs/kdca/42/310842/artclView.do",
+      "requested_at": "2026-10-18T13:29:05.719487+00:00",
+      "retrieval_mode": "new_https",
+      "http_status": 200,
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch13-audit/f40004fc9ae051bc5bf2.raw",
+      "sha256": "610d71753095e45b04157b31f0ab63f754691ed522b8a8740870d3d8c344518b",
+      "status": "body_received",
+      "evidence_id": "S062",
+      "verified_retrieval_utc": "2026-10-18T13:29:05.719487+00:00"
+    },
+    {
+      "cited_url": "https://www.kdca.go.kr/bbs/kdca/42/312053/artclView.do",
+      "url": "https://www.kdca.go.kr/bbs/kdca/42/312053/artclView.do",
+      "requested_at": "2026-10-18T13:29:05.733479+00:00",
+      "retrieval_mode": "new_https",
+      "http_status": 200,
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch13-audit/9b5964ef75044bbd7d67.raw",
+      "sha256": "1ab0d10a0409626aaabe0b443715ee4e277d231bcb18fba2a24923dcccf085c3",
+      "status": "body_received",
+      "evidence_id": "S063",
+      "verified_retrieval_utc": "2026-10-18T13:29:05.733479+00:00"
+    },
+    {
+      "mst": "285273",
+      "chapters": [
+        5,
+        13,
+        16,
+        24,
+        27
+      ],
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=285273&type=XML",
+      "requested_at": "2026-10-18T12:37:57.198257+00:00",
+      "scope": "Exact cited statutory version only; article-specific commencement and claims require independent review.",
+      "http_status": 200,
+      "status": "statutory_xml_cached",
+      "title": "국민건강보험법",
+      "effective_date": "20261008",
+      "law_id": "001971",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/285273.xml",
+      "sha256": "61d71f01d2824e7332c868f26d4cc9c6ca73ad09b9a3945375ec9ea8972d0bf7",
+      "bytes": 353154,
+      "article_count": 159,
+      "cited_url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&type=XML&MST=285273&efYd=20261008",
+      "retrieval_mode": "existing_cache_read",
+      "body_scope": "statutory_xml",
+      "evidence_id": "S064",
+      "verified_retrieval_utc": "2026-10-18T12:37:57.198257+00:00"
+    },
+    {
+      "cited_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=225413",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=225413&type=XML",
+      "requested_at": "2026-10-18T13:30:58.915370+00:00",
+      "retrieval_mode": "new_https_retry",
+      "status": "access_failed",
+      "error": "HTTP Error 502: Bad Gateway",
+      "previous_failure": {
+        "cited_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=225413",
+        "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=225413&type=XML",
+        "requested_at": "2026-10-18T13:29:06.004227+00:00",
+        "retrieval_mode": "new_https",
+        "status": "access_failed",
+        "error": "HTTP Error 502: Bad Gateway"
+      },
+      "evidence_id": "S065",
+      "verified_retrieval_utc": "2026-10-18T13:30:58.915370+00:00"
+    },
+    {
+      "cited_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=236977",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=236977&type=XML",
+      "requested_at": "2026-10-18T13:30:58.919802+00:00",
+      "retrieval_mode": "new_https_retry",
+      "status": "access_failed",
+      "error": "<urlopen error Tunnel connection failed: 502 Bad Gateway>",
+      "previous_failure": {
+        "cited_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=236977",
+        "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=236977&type=XML",
+        "requested_at": "2026-10-18T13:29:06.005350+00:00",
+        "retrieval_mode": "new_https",
+        "status": "access_failed",
+        "error": "HTTP Error 502: Bad Gateway"
+      },
+      "evidence_id": "S066",
+      "verified_retrieval_utc": "2026-10-18T13:30:58.919802+00:00"
+    },
+    {
+      "mst": "252715",
+      "chapters": [
+        13
+      ],
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=252715&type=XML",
+      "requested_at": "2026-10-18T12:36:17.489623+00:00",
+      "scope": "Exact cited statutory version only; article-specific commencement and claims require independent review.",
+      "http_status": 200,
+      "status": "statutory_xml_cached",
+      "title": "의료급여법",
+      "effective_date": "20250719",
+      "law_id": "001780",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/252715.xml",
+      "sha256": "2062cfc5e4f7ed5b8ede394e93e1c9a2f0a4bd23f7dd59194ea04e58806bbbbf",
+      "bytes": 134266,
+      "article_count": 50,
+      "cited_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=252715",
+      "retrieval_mode": "existing_cache_read",
+      "body_scope": "statutory_xml",
+      "evidence_id": "S067",
+      "verified_retrieval_utc": "2026-10-18T12:36:17.489623+00:00"
+    },
+    {
+      "mst": "266637",
+      "chapters": [
+        13
+      ],
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=266637&type=XML",
+      "requested_at": "2026-10-18T12:36:41.938958+00:00",
+      "scope": "Exact cited statutory version only; article-specific commencement and claims require independent review.",
+      "http_status": 200,
+      "status": "statutory_xml_cached",
+      "title": "119구조ㆍ구급에 관한 법률",
+      "effective_date": "20250604",
+      "law_id": "011349",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/266637.xml",
+      "sha256": "7627a1eae69d869fec8ff3f8837cc67298b2cad50c52a241ff65759c0b19e572",
+      "bytes": 86071,
+      "article_count": 49,
+      "cited_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=266637",
+      "retrieval_mode": "existing_cache_read",
+      "body_scope": "statutory_xml",
+      "evidence_id": "S068",
+      "verified_retrieval_utc": "2026-10-18T12:36:41.938958+00:00"
+    },
+    {
+      "mst": "273437",
+      "chapters": [
+        13
+      ],
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=273437&type=XML",
+      "requested_at": "2026-10-18T12:37:13.850920+00:00",
+      "scope": "Exact cited statutory version only; article-specific commencement and claims require independent review.",
+      "http_status": 200,
+      "status": "statutory_xml_cached",
+      "title": "건축법",
+      "effective_date": "20260227",
+      "law_id": "001823",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/273437.xml",
+      "sha256": "e94c7bc4c383b7283f04800c6b4c980564e0ffaf4ae43565147268da5ccaa283",
+      "bytes": 487666,
+      "article_count": 178,
+      "cited_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=273437",
+      "retrieval_mode": "existing_cache_read",
+      "body_scope": "statutory_xml",
+      "evidence_id": "S069",
+      "verified_retrieval_utc": "2026-10-18T12:37:13.850920+00:00"
+    },
+    {
+      "mst": "273603",
+      "chapters": [
+        1,
+        13
+      ],
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=273603&type=XML",
+      "requested_at": "2026-10-18T12:37:15.710973+00:00",
+      "scope": "Exact cited statutory version only; article-specific commencement and claims require independent review.",
+      "http_status": 200,
+      "status": "statutory_xml_cached",
+      "title": "산업안전보건기준에 관한 규칙",
+      "effective_date": "20250901",
+      "law_id": "007363",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/273603.xml",
+      "sha256": "e58db9eb73c05a0421606ba2afd76e09a5522990574f30349a49070a217071c8",
+      "bytes": 1262038,
+      "article_count": 853,
+      "cited_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=273603",
+      "retrieval_mode": "existing_cache_read",
+      "body_scope": "statutory_xml",
+      "evidence_id": "S070",
+      "verified_retrieval_utc": "2026-10-18T12:37:15.710973+00:00"
+    },
+    {
+      "mst": "276679",
+      "chapters": [
+        13
+      ],
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=276679&type=XML",
+      "requested_at": "2026-10-18T12:37:22.010956+00:00",
+      "scope": "Exact cited statutory version only; article-specific commencement and claims require independent review.",
+      "http_status": 200,
+      "status": "statutory_xml_cached",
+      "title": "의사상자 등 예우 및 지원에 관한 법률",
+      "effective_date": "20251001",
+      "law_id": "000178",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/276679.xml",
+      "sha256": "7814a73e19704b9653f925894cfe88ef6b1a5549f657eaf3015fe49b5697d761",
+      "bytes": 46398,
+      "article_count": 23,
+      "cited_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=276679",
+      "retrieval_mode": "existing_cache_read",
+      "body_scope": "statutory_xml",
+      "evidence_id": "S071",
+      "verified_retrieval_utc": "2026-10-18T12:37:22.010956+00:00"
+    },
+    {
+      "mst": "280429",
+      "chapters": [
+        13,
+        24
+      ],
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=280429&type=XML",
+      "requested_at": "2026-10-18T12:37:34.012384+00:00",
+      "scope": "Exact cited statutory version only; article-specific commencement and claims require independent review.",
+      "http_status": 200,
+      "status": "statutory_xml_cached",
+      "title": "응급의료에 관한 법률",
+      "effective_date": "20260624",
+      "law_id": "000218",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/280429.xml",
+      "sha256": "ea4a88a9660c588508730947b9b996e9553ef1a183870c4a5ae15e310e4616f9",
+      "bytes": 267117,
+      "article_count": 113,
+      "cited_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=280429",
+      "retrieval_mode": "existing_cache_read",
+      "body_scope": "statutory_xml",
+      "evidence_id": "S072",
+      "verified_retrieval_utc": "2026-10-18T12:37:34.012384+00:00"
+    },
+    {
+      "mst": "281595",
+      "chapters": [
+        13
+      ],
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=281595&type=XML",
+      "requested_at": "2026-10-18T12:37:39.397284+00:00",
+      "scope": "Exact cited statutory version only; article-specific commencement and claims require independent review.",
+      "http_status": 200,
+      "status": "statutory_xml_cached",
+      "title": "의사상자 등 예우 및 지원에 관한 법률 시행령",
+      "effective_date": "20260102",
+      "law_id": "004490",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/281595.xml",
+      "sha256": "59ef245a062d410e16031ce9856daf52aae518a69823652e2f05b9d7d752704b",
+      "bytes": 80058,
+      "article_count": 21,
+      "cited_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=281595",
+      "retrieval_mode": "existing_cache_read",
+      "body_scope": "statutory_xml",
+      "evidence_id": "S073",
+      "verified_retrieval_utc": "2026-10-18T12:37:39.397284+00:00"
+    },
+    {
+      "mst": "283449",
+      "chapters": [
+        13
+      ],
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=283449&type=XML",
+      "requested_at": "2026-10-18T12:37:47.068222+00:00",
+      "scope": "Exact cited statutory version only; article-specific commencement and claims require independent review.",
+      "http_status": 200,
+      "status": "statutory_xml_cached",
+      "title": "산업안전보건법",
+      "effective_date": "20260601",
+      "law_id": "001766",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/283449.xml",
+      "sha256": "6f396e886068ad10e9198db889d4dfa30975f14eed75f253b15ecdd2ac5dc21d",
+      "bytes": 433210,
+      "article_count": 211,
+      "cited_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=283449",
+      "retrieval_mode": "existing_cache_read",
+      "body_scope": "statutory_xml",
+      "evidence_id": "S074",
+      "verified_retrieval_utc": "2026-10-18T12:37:47.068222+00:00"
+    },
+    {
+      "mst": "283459",
+      "chapters": [
+        13,
+        24
+      ],
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=283459&type=XML",
+      "requested_at": "2026-10-18T12:37:48.073590+00:00",
+      "scope": "Exact cited statutory version only; article-specific commencement and claims require independent review.",
+      "http_status": 200,
+      "status": "statutory_xml_cached",
+      "title": "산업재해보상보험법",
+      "effective_date": "20260701",
+      "law_id": "001760",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/283459.xml",
+      "sha256": "9a0328a82a4a183d9280ec1c986c9660206312d5bc201bc9b08310625700860b",
+      "bytes": 353460,
+      "article_count": 172,
+      "cited_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=283459",
+      "retrieval_mode": "existing_cache_read",
+      "body_scope": "statutory_xml",
+      "evidence_id": "S075",
+      "verified_retrieval_utc": "2026-10-18T12:37:48.073590+00:00"
+    },
+    {
+      "mst": "284415",
+      "chapters": [
+        5,
+        8,
+        13,
+        27,
+        30
+      ],
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=284415&type=XML",
+      "requested_at": "2026-10-18T12:37:55.111996+00:00",
+      "scope": "Exact cited statutory version only; article-specific commencement and claims require independent review.",
+      "http_status": 200,
+      "status": "statutory_xml_cached",
+      "title": "민법",
+      "effective_date": "20260317",
+      "law_id": "001706",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/284415.xml",
+      "sha256": "cd2997176df62de7b1e4bb018287987654f6054cbd0eeced9e882d5c4daf53df",
+      "bytes": 1098134,
+      "article_count": 1337,
+      "cited_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=284415",
+      "retrieval_mode": "existing_cache_read",
+      "body_scope": "statutory_xml",
+      "evidence_id": "S076",
+      "verified_retrieval_utc": "2026-10-18T12:37:55.111996+00:00"
+    },
+    {
+      "mst": "285273",
+      "chapters": [
+        5,
+        13,
+        16,
+        24,
+        27
+      ],
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=285273&type=XML",
+      "requested_at": "2026-10-18T12:37:57.198257+00:00",
+      "scope": "Exact cited statutory version only; article-specific commencement and claims require independent review.",
+      "http_status": 200,
+      "status": "statutory_xml_cached",
+      "title": "국민건강보험법",
+      "effective_date": "20261008",
+      "law_id": "001971",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/285273.xml",
+      "sha256": "61d71f01d2824e7332c868f26d4cc9c6ca73ad09b9a3945375ec9ea8972d0bf7",
+      "bytes": 353154,
+      "article_count": 159,
+      "cited_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=285273",
+      "retrieval_mode": "existing_cache_read",
+      "body_scope": "statutory_xml",
+      "evidence_id": "S077",
+      "verified_retrieval_utc": "2026-10-18T12:37:57.198257+00:00"
+    },
+    {
+      "mst": "285279",
+      "chapters": [
+        8,
+        11,
+        13,
+        18,
+        19,
+        27
+      ],
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=285279&type=XML",
+      "requested_at": "2026-10-18T12:37:57.424991+00:00",
+      "scope": "Exact cited statutory version only; article-specific commencement and claims require independent review.",
+      "http_status": 200,
+      "status": "statutory_xml_cached",
+      "title": "근로기준법",
+      "effective_date": "20261008",
+      "law_id": "001872",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/285279.xml",
+      "sha256": "222fd311aa29570bf0045061e332c9b6696b49427a4ae8f17540763866b36c2e",
+      "bytes": 248381,
+      "article_count": 146,
+      "cited_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=285279",
+      "retrieval_mode": "existing_cache_read",
+      "body_scope": "statutory_xml",
+      "evidence_id": "S078",
+      "verified_retrieval_utc": "2026-10-18T12:37:57.424991+00:00"
+    },
+    {
+      "mst": "288097",
+      "chapters": [
+        13,
+        24
+      ],
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=288097&type=XML",
+      "requested_at": "2026-10-18T12:38:11.124955+00:00",
+      "scope": "Exact cited statutory version only; article-specific commencement and claims require independent review.",
+      "http_status": 200,
+      "status": "statutory_xml_cached",
+      "title": "응급의료에 관한 법률 시행규칙",
+      "effective_date": "20260713",
+      "law_id": "007858",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/288097.xml",
+      "sha256": "14a493245bcea10a68e89004a931ee49142772f8d548469c92946e54639c5565",
+      "bytes": 1090756,
+      "article_count": 71,
+      "cited_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=288097",
+      "retrieval_mode": "existing_cache_read",
+      "body_scope": "statutory_xml",
+      "evidence_id": "S079",
+      "verified_retrieval_utc": "2026-10-18T12:38:11.124955+00:00"
+    },
+    {
+      "mst": "290113",
+      "chapters": [
+        8,
+        13,
+        24
+      ],
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290113&type=XML",
+      "requested_at": "2026-10-18T12:38:24.090334+00:00",
+      "scope": "Exact cited statutory version only; article-specific commencement and claims require independent review.",
+      "http_status": 200,
+      "status": "statutory_xml_cached",
+      "title": "민사소송법",
+      "effective_date": "20261002",
+      "law_id": "001700",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290113.xml",
+      "sha256": "dd6228b88d970e33b979d0d9e59c5b74f6f45958c01dcab79e034334365fbc92",
+      "bytes": 538397,
+      "article_count": 569,
+      "cited_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=290113",
+      "retrieval_mode": "existing_cache_read",
+      "body_scope": "statutory_xml",
+      "evidence_id": "S080",
+      "verified_retrieval_utc": "2026-10-18T12:38:24.090334+00:00"
+    },
+    {
+      "mst": "290135",
+      "chapters": [
+        13
+      ],
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290135&type=XML",
+      "requested_at": "2026-10-18T12:38:24.911483+00:00",
+      "scope": "Exact cited statutory version only; article-specific commencement and claims require independent review.",
+      "http_status": 200,
+      "status": "statutory_xml_cached",
+      "title": "경범죄 처벌법",
+      "effective_date": "20261002",
+      "law_id": "001674",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290135.xml",
+      "sha256": "afeade8846b7d5b65a2a2da45d7c2a5709df794d44cbc95fdbba6e737b71a0e1",
+      "bytes": 39540,
+      "article_count": 13,
+      "cited_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=290135",
+      "retrieval_mode": "existing_cache_read",
+      "body_scope": "statutory_xml",
+      "evidence_id": "S081",
+      "verified_retrieval_utc": "2026-10-18T12:38:24.911483+00:00"
+    },
+    {
+      "mst": "290181",
+      "chapters": [
+        13
+      ],
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290181&type=XML",
+      "requested_at": "2026-10-18T12:38:25.260820+00:00",
+      "scope": "Exact cited statutory version only; article-specific commencement and claims require independent review.",
+      "http_status": 200,
+      "status": "statutory_xml_cached",
+      "title": "폭력행위 등 처벌에 관한 법률",
+      "effective_date": "20261002",
+      "law_id": "001135",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290181.xml",
+      "sha256": "eca5caab4b9396972cc45b23c557b80b23d516442f7465a60bfb8a667923c2eb",
+      "bytes": 31836,
+      "article_count": 10,
+      "cited_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=290181",
+      "retrieval_mode": "existing_cache_read",
+      "body_scope": "statutory_xml",
+      "evidence_id": "S082",
+      "verified_retrieval_utc": "2026-10-18T12:38:25.260820+00:00"
+    },
+    {
+      "mst": "290185",
+      "chapters": [
+        5,
+        8,
+        11,
+        13,
+        30
+      ],
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290185&type=XML",
+      "requested_at": "2026-10-18T12:38:25.603245+00:00",
+      "scope": "Exact cited statutory version only; article-specific commencement and claims require independent review.",
+      "http_status": 200,
+      "status": "statutory_xml_cached",
+      "title": "형법",
+      "effective_date": "20261002",
+      "law_id": "001692",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290185.xml",
+      "sha256": "391f3c2bb7173fff4040eda9ae2259674b616e58aeadf4371206b63c70f1c89b",
+      "bytes": 390555,
+      "article_count": 463,
+      "cited_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=290185",
+      "retrieval_mode": "existing_cache_read",
+      "body_scope": "statutory_xml",
+      "evidence_id": "S083",
+      "verified_retrieval_utc": "2026-10-18T12:38:25.603245+00:00"
+    },
+    {
+      "mst": "290189",
+      "chapters": [
+        8,
+        11,
+        13
+      ],
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290189&type=XML",
+      "requested_at": "2026-10-18T12:38:26.047262+00:00",
+      "scope": "Exact cited statutory version only; article-specific commencement and claims require independent review.",
+      "http_status": 200,
+      "status": "statutory_xml_cached",
+      "title": "형사소송법",
+      "effective_date": "20261002",
+      "law_id": "001671",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290189.xml",
+      "sha256": "f917fd5794540a55cc19ef2b94e5142ee97cdaafc9215827fa653b6c275ab9fa",
+      "bytes": 804458,
+      "article_count": 653,
+      "cited_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=290189",
+      "retrieval_mode": "existing_cache_read",
+      "body_scope": "statutory_xml",
+      "evidence_id": "S084",
+      "verified_retrieval_utc": "2026-10-18T12:38:26.047262+00:00"
+    },
+    {
+      "mst": "290451",
+      "chapters": [
+        1,
+        13
+      ],
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290451&type=XML",
+      "requested_at": "2026-10-18T12:38:29.960878+00:00",
+      "scope": "Exact cited statutory version only; article-specific commencement and claims require independent review.",
+      "http_status": 200,
+      "status": "statutory_xml_cached",
+      "title": "소방시설 설치 및 관리에 관한 법률 시행령",
+      "effective_date": "20261002",
+      "law_id": "009694",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290451.xml",
+      "sha256": "ab7459b0a0099c0f6937085210c4182bf64e7eadc983509ed84e84cec098667f",
+      "bytes": 346812,
+      "article_count": 63,
+      "cited_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=290451",
+      "retrieval_mode": "existing_cache_read",
+      "body_scope": "statutory_xml",
+      "evidence_id": "S085",
+      "verified_retrieval_utc": "2026-10-18T12:38:29.960878+00:00"
+    },
+    {
+      "mst": "290759",
+      "chapters": [
+        13
+      ],
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290759&type=XML",
+      "requested_at": "2026-10-18T12:38:39.981812+00:00",
+      "scope": "Exact cited statutory version only; article-specific commencement and claims require independent review.",
+      "http_status": 200,
+      "status": "statutory_xml_cached",
+      "title": "성폭력방지 및 피해자보호 등에 관한 법률",
+      "effective_date": "20261002",
+      "law_id": "011185",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290759.xml",
+      "sha256": "f78b158f0530ae5ec38384dd6cb2c75acffe42d3f3ebfba33f8bb68cb72cc887",
+      "bytes": 131224,
+      "article_count": 51,
+      "cited_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=290759",
+      "retrieval_mode": "existing_cache_read",
+      "body_scope": "statutory_xml",
+      "evidence_id": "S086",
+      "verified_retrieval_utc": "2026-10-18T12:38:39.981812+00:00"
+    },
+    {
+      "mst": "290793",
+      "chapters": [
+        13
+      ],
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290793&type=XML",
+      "requested_at": "2026-10-18T12:38:40.684774+00:00",
+      "scope": "Exact cited statutory version only; article-specific commencement and claims require independent review.",
+      "http_status": 200,
+      "status": "statutory_xml_cached",
+      "title": "범죄피해자 보호법",
+      "effective_date": "20261002",
+      "law_id": "010109",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290793.xml",
+      "sha256": "11758f4917fb63fd8a958dcad1e48af7fb58bc1b3555f9429e594821697d5444",
+      "bytes": 102971,
+      "article_count": 63,
+      "cited_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=290793",
+      "retrieval_mode": "existing_cache_read",
+      "body_scope": "statutory_xml",
+      "evidence_id": "S087",
+      "verified_retrieval_utc": "2026-10-18T12:38:40.684774+00:00"
+    },
+    {
+      "mst": "290833",
+      "chapters": [
+        13
+      ],
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290833&type=XML",
+      "requested_at": "2026-10-18T12:38:41.167858+00:00",
+      "scope": "Exact cited statutory version only; article-specific commencement and claims require independent review.",
+      "http_status": 200,
+      "status": "statutory_xml_cached",
+      "title": "건축법 시행령",
+      "effective_date": "20261006",
+      "law_id": "002118",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290833.xml",
+      "sha256": "f4f0c16f2779fc4371b00f59e906ca90274d16ec97e656de7f2f11454521cee1",
+      "bytes": 945007,
+      "article_count": 210,
+      "cited_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=290833",
+      "retrieval_mode": "existing_cache_read",
+      "body_scope": "statutory_xml",
+      "evidence_id": "S088",
+      "verified_retrieval_utc": "2026-10-18T12:38:41.167858+00:00"
+    },
+    {
+      "cited_url": "https://www.nhs.uk/conditions/acid-and-chemical-burns/",
+      "url": "https://www.nhs.uk/conditions/acid-and-chemical-burns/",
+      "requested_at": "2026-10-18T13:29:06.010798+00:00",
+      "retrieval_mode": "new_https",
+      "http_status": 200,
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch13-audit/9c33e68a213cd0a00a2f.raw",
+      "sha256": "1ee80ed1ba0ff94432c41d47b3d18b6c48f2a42611f0b6b2e0971cf112019ba3",
+      "status": "body_received",
+      "evidence_id": "S089",
+      "verified_retrieval_utc": "2026-10-18T13:29:06.010798+00:00"
+    },
+    {
+      "cited_url": "https://www.nhs.uk/conditions/poisoning/",
+      "url": "https://www.nhs.uk/conditions/poisoning/",
+      "requested_at": "2026-10-18T13:29:06.264189+00:00",
+      "retrieval_mode": "new_https",
+      "http_status": 200,
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch13-audit/10790fb1fab48f9a26b5.raw",
+      "sha256": "db9b710fddfbd5500cc115968d9509b911bdcd32f40f428330f26fc68fc141df",
+      "status": "body_received",
+      "evidence_id": "S090",
+      "verified_retrieval_utc": "2026-10-18T13:29:06.264189+00:00"
+    },
+    {
+      "cited_url": "https://www.nhs.uk/live-well/sexual-health/help-after-rape-and-sexual-assault/",
+      "url": "https://www.nhs.uk/live-well/sexual-health/help-after-rape-and-sexual-assault/",
+      "requested_at": "2026-10-18T13:29:06.269068+00:00",
+      "retrieval_mode": "new_https",
+      "http_status": 200,
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch13-audit/94ed30cb5cbb5b9c3d8e.raw",
+      "sha256": "02653d1d27d921ceaab4c392f5b3abd7f7ed1bf729fbf82723ecc293c83a2dea",
+      "status": "body_received",
+      "evidence_id": "S091",
+      "verified_retrieval_utc": "2026-10-18T13:29:06.269068+00:00"
+    },
+    {
+      "cited_url": "https://www.nps.gov/articles/000/desertdrivingsafety.htm",
+      "url": "https://www.nps.gov/articles/000/desertdrivingsafety.htm",
+      "requested_at": "2026-10-18T13:29:06.337372+00:00",
+      "retrieval_mode": "new_https",
+      "http_status": 200,
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch13-audit/ec5cabf5b14626f5f867.raw",
+      "sha256": "93d6d1c9912c43b9d32f5898dd95515ad099638f35109761daf792ded643d88a",
+      "status": "body_received",
+      "evidence_id": "S092",
+      "verified_retrieval_utc": "2026-10-18T13:29:06.337372+00:00"
+    },
+    {
+      "cited_url": "https://www.nps.gov/deva/planyourvisit/safety.htm",
+      "url": "https://www.nps.gov/deva/planyourvisit/safety.htm",
+      "requested_at": "2026-10-18T13:29:06.391434+00:00",
+      "retrieval_mode": "new_https",
+      "http_status": 200,
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch13-audit/fe119c4ae1b8de053f02.raw",
+      "sha256": "89ecd0fde776799a8153ee2c945ff64666c7046906a64fe13b46798b33a1abd9",
+      "status": "body_received",
+      "evidence_id": "S093",
+      "verified_retrieval_utc": "2026-10-18T13:29:06.391434+00:00"
+    },
+    {
+      "cited_url": "https://www.nps.gov/moja/planyourvisit/safety.htm",
+      "url": "https://www.nps.gov/moja/planyourvisit/safety.htm",
+      "requested_at": "2026-10-18T13:29:06.781475+00:00",
+      "retrieval_mode": "new_https",
+      "http_status": 200,
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch13-audit/870227d9a1e2e289f3a5.raw",
+      "sha256": "4b3d6b9f4b4b3e8f24e326c0f66b61f7acbe544b94624546916ec0aa8dc58e85",
+      "status": "body_received",
+      "evidence_id": "S094",
+      "verified_retrieval_utc": "2026-10-18T13:29:06.781475+00:00"
+    },
+    {
+      "cited_url": "https://www.nps.gov/subjects/bears/safety.htm",
+      "url": "https://www.nps.gov/subjects/bears/safety.htm",
+      "requested_at": "2026-10-18T13:29:06.858577+00:00",
+      "retrieval_mode": "new_https",
+      "http_status": 200,
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch13-audit/aef5e1c19fd21584aeb1.raw",
+      "sha256": "031c3d4d0af3071987fc3338fc7079d71d2deccfd43c6760d7e00697ba2bcb2b",
+      "status": "body_received",
+      "evidence_id": "S095",
+      "verified_retrieval_utc": "2026-10-18T13:29:06.858577+00:00"
+    },
+    {
+      "cited_url": "https://www.ready.gov/earthquakes",
+      "url": "https://www.ready.gov/earthquakes",
+      "requested_at": "2026-10-18T13:30:58.924344+00:00",
+      "retrieval_mode": "new_https_retry",
+      "status": "access_failed",
+      "error": "HTTP Error 403: Forbidden",
+      "previous_failure": {
+        "cited_url": "https://www.ready.gov/earthquakes",
+        "url": "https://www.ready.gov/earthquakes",
+        "requested_at": "2026-10-18T13:29:06.859115+00:00",
+        "retrieval_mode": "new_https",
+        "status": "access_failed",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      "evidence_id": "S096",
+      "verified_retrieval_utc": "2026-10-18T13:30:58.924344+00:00"
+    },
+    {
+      "cited_url": "https://www.ready.gov/home-fires",
+      "url": "https://www.ready.gov/home-fires",
+      "requested_at": "2026-10-18T13:30:59.414135+00:00",
+      "retrieval_mode": "new_https_retry",
+      "status": "access_failed",
+      "error": "HTTP Error 403: Forbidden",
+      "previous_failure": {
+        "cited_url": "https://www.ready.gov/home-fires",
+        "url": "https://www.ready.gov/home-fires",
+        "requested_at": "2026-10-18T13:29:07.022986+00:00",
+        "retrieval_mode": "new_https",
+        "status": "access_failed",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      "evidence_id": "S097",
+      "verified_retrieval_utc": "2026-10-18T13:30:59.414135+00:00"
+    },
+    {
+      "cited_url": "https://www.safekorea.go.kr/safekorea-kor/acts/nacts/action-guide.do?category=cardiopulmonaryResuscitation&actsHeaderTitle=%EC%8B%AC%ED%8F%90%EC%86%8C%EC%83%9D%EC%88%A0&menuSn=4",
+      "url": "https://www.safekorea.go.kr/safekorea-kor/acts/nacts/action-guide.do?category=cardiopulmonaryResuscitation&actsHeaderTitle=%EC%8B%AC%ED%8F%90%EC%86%8C%EC%83%9D%EC%88%A0&menuSn=4",
+      "requested_at": "2026-10-18T13:29:07.064281+00:00",
+      "retrieval_mode": "new_https",
+      "http_status": 200,
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch13-audit/e3dcedf59729d3520bd0.raw",
+      "sha256": "18a46dab8287b45e7e81be1c71866bea31084a14172b9f2b51c9194d4c64c2c9",
+      "status": "body_received",
+      "evidence_id": "S098",
+      "verified_retrieval_utc": "2026-10-18T13:29:07.064281+00:00"
+    },
+    {
+      "cited_url": "https://www.safekorea.go.kr/safekorea-kor/acts/nacts/action-guide.do?category=coldWave&actsHeaderTitle=%ED%95%9C%ED%8C%8C&menuSn=4",
+      "url": "https://www.safekorea.go.kr/safekorea-kor/acts/nacts/action-guide.do?category=coldWave&actsHeaderTitle=%ED%95%9C%ED%8C%8C&menuSn=4",
+      "requested_at": "2026-10-18T13:29:07.273863+00:00",
+      "retrieval_mode": "new_https",
+      "http_status": 200,
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch13-audit/15d06d68987f882369ac.raw",
+      "sha256": "5c81ea961f9fe7d8460f06b18c1ea2706c12af292a8ecd1e57ee12e09b0e44c0",
+      "status": "body_received",
+      "evidence_id": "S099",
+      "verified_retrieval_utc": "2026-10-18T13:29:07.273863+00:00"
+    },
+    {
+      "cited_url": "https://www.safekorea.go.kr/safekorea-kor/acts/nacts/action-guide.do?category=earthQuake&actsHeaderTitle=%EC%A7%80%EC%A7%84&menuSn=4",
+      "url": "https://www.safekorea.go.kr/safekorea-kor/acts/nacts/action-guide.do?category=earthQuake&actsHeaderTitle=%EC%A7%80%EC%A7%84&menuSn=4",
+      "requested_at": "2026-10-18T13:29:07.327914+00:00",
+      "retrieval_mode": "new_https",
+      "http_status": 200,
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch13-audit/3adbb480636d25e422e7.raw",
+      "sha256": "69840a105102ea1754086293fe8fbcd34e31bb36fb4edbe48f3c83117a136d56",
+      "status": "body_received",
+      "evidence_id": "S100",
+      "verified_retrieval_utc": "2026-10-18T13:29:07.327914+00:00"
+    },
+    {
+      "cited_url": "https://www.safekorea.go.kr/safekorea-kor/acts/nacts/action-guide.do?category=electircGasAccident&actsHeaderTitle=%EC%A0%84%EA%B8%B0%C2%B7%EA%B0%80%EC%8A%A4%20%EC%82%AC%EA%B3%A0&menuSn=4",
+      "url": "https://www.safekorea.go.kr/safekorea-kor/acts/nacts/action-guide.do?category=electircGasAccident&actsHeaderTitle=%EC%A0%84%EA%B8%B0%C2%B7%EA%B0%80%EC%8A%A4%20%EC%82%AC%EA%B3%A0&menuSn=4",
+      "requested_at": "2026-10-18T13:29:07.329584+00:00",
+      "retrieval_mode": "new_https",
+      "http_status": 200,
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch13-audit/761be959cb45c97d5787.raw",
+      "sha256": "5594136b7de7f71c996d187948a62b9de8375fb412156c06c40be58f7edafcf7",
+      "status": "body_received",
+      "evidence_id": "S101",
+      "verified_retrieval_utc": "2026-10-18T13:29:07.329584+00:00"
+    },
+    {
+      "cited_url": "https://www.safekorea.go.kr/safekorea-kor/acts/nacts/action-guide.do?category=fires&actsHeaderTitle=%ED%99%94%EC%9E%AC&menuSn=4",
+      "url": "https://www.safekorea.go.kr/safekorea-kor/acts/nacts/action-guide.do?category=fires&actsHeaderTitle=%ED%99%94%EC%9E%AC&menuSn=4",
+      "requested_at": "2026-10-18T13:29:07.424502+00:00",
+      "retrieval_mode": "new_https",
+      "http_status": 200,
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch13-audit/8e41452b1a8c32ff5aa0.raw",
+      "sha256": "0426a5bc201191a8ac06b73ca0150280b392868f3095795784e50524a803f3b3",
+      "status": "body_received",
+      "evidence_id": "S102",
+      "verified_retrieval_utc": "2026-10-18T13:29:07.424502+00:00"
+    },
+    {
+      "cited_url": "https://www.safekorea.go.kr/safekorea-kor/acts/nacts/action-guide.do?category=firstAid&actsHeaderTitle=%EC%9D%91%EA%B8%89%EC%B2%98%EC%B9%98&menuSn=4",
+      "url": "https://www.safekorea.go.kr/safekorea-kor/acts/nacts/action-guide.do?category=firstAid&actsHeaderTitle=%EC%9D%91%EA%B8%89%EC%B2%98%EC%B9%98&menuSn=4",
+      "requested_at": "2026-10-18T13:29:07.430465+00:00",
+      "retrieval_mode": "new_https",
+      "http_status": 200,
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch13-audit/9465bc20d0edce47ce06.raw",
+      "sha256": "76a638573d5a64b7eef57b0cd6a67896fc36b651564275da664abb1e932df372",
+      "status": "body_received",
+      "evidence_id": "S103",
+      "verified_retrieval_utc": "2026-10-18T13:29:07.430465+00:00"
+    },
+    {
+      "cited_url": "https://www.safekorea.go.kr/safekorea-kor/acts/nacts/action-guide.do?category=heatWave&actsHeaderTitle=%ED%8F%AD%EC%97%BC&menuSn=4",
+      "url": "https://www.safekorea.go.kr/safekorea-kor/acts/nacts/action-guide.do?category=heatWave&actsHeaderTitle=%ED%8F%AD%EC%97%BC&menuSn=4",
+      "requested_at": "2026-10-18T13:29:07.566849+00:00",
+      "retrieval_mode": "new_https",
+      "http_status": 200,
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch13-audit/467247e718292abca392.raw",
+      "sha256": "df23d2e414e86aac65e6cdb2d1f4af97d8214ca6ec0ae1f3f8b9485c6964571f",
+      "status": "body_received",
+      "evidence_id": "S104",
+      "verified_retrieval_utc": "2026-10-18T13:29:07.566849+00:00"
+    },
+    {
+      "cited_url": "https://www.safekorea.go.kr/safekorea-kor/acts/nacts/action-guide.do?category=lightningStrike&actsHeaderTitle=%EB%82%99%EB%A2%B0&menuSn=4",
+      "url": "https://www.safekorea.go.kr/safekorea-kor/acts/nacts/action-guide.do?category=lightningStrike&actsHeaderTitle=%EB%82%99%EB%A2%B0&menuSn=4",
+      "requested_at": "2026-10-18T13:29:07.652556+00:00",
+      "retrieval_mode": "new_https",
+      "http_status": 200,
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch13-audit/ffa23720d80803580f3a.raw",
+      "sha256": "c9ee1e5423548e1c05f956a1c250905c426ca586a2bcdd47371914ab73e1f36e",
+      "status": "body_received",
+      "evidence_id": "S105",
+      "verified_retrieval_utc": "2026-10-18T13:29:07.652556+00:00"
+    },
+    {
+      "cited_url": "https://www.safekorea.go.kr/safekorea-kor/acts/nacts/action-guide.do?category=mtSafetyAccident&actsHeaderTitle=%EC%82%B0%ED%96%89%EC%95%88%EC%A0%84%EC%82%AC%EA%B3%A0&menuSn=4",
+      "url": "https://www.safekorea.go.kr/safekorea-kor/acts/nacts/action-guide.do?category=mtSafetyAccident&actsHeaderTitle=%EC%82%B0%ED%96%89%EC%95%88%EC%A0%84%EC%82%AC%EA%B3%A0&menuSn=4",
+      "requested_at": "2026-10-18T13:29:08.681518+00:00",
+      "retrieval_mode": "new_https",
+      "http_status": 200,
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch13-audit/a791387c30a717694199.raw",
+      "sha256": "01da8c78934972519c06bef0541c36ad0eca5753452c1b4a9fb7c91f095444d9",
+      "status": "body_received",
+      "evidence_id": "S106",
+      "verified_retrieval_utc": "2026-10-18T13:29:08.681518+00:00"
+    },
+    {
+      "cited_url": "https://www.safekorea.go.kr/safekorea-kor/acts/nacts/action-guide.do?category=summerWaterPlay&actsHeaderTitle=%EC%97%AC%EB%A6%84%EC%B2%A0%EB%AC%BC%EB%86%80%EC%9D%B4&menuSn=4",
+      "url": "https://www.safekorea.go.kr/safekorea-kor/acts/nacts/action-guide.do?category=summerWaterPlay&actsHeaderTitle=%EC%97%AC%EB%A6%84%EC%B2%A0%EB%AC%BC%EB%86%80%EC%9D%B4&menuSn=4",
+      "requested_at": "2026-10-18T13:29:09.024280+00:00",
+      "retrieval_mode": "new_https",
+      "http_status": 200,
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch13-audit/cdb2771b35a3b452be81.raw",
+      "sha256": "1e6e2642021d389478116d9a847d6bea08e9fcfce931cf7b9b141541e747ece8",
+      "status": "body_received",
+      "evidence_id": "S107",
+      "verified_retrieval_utc": "2026-10-18T13:29:09.024280+00:00"
+    },
+    {
+      "cited_url": "https://www.stop.or.kr/home/kor/M129958142/contents.do",
+      "url": "https://www.stop.or.kr/home/kor/M129958142/contents.do",
+      "requested_at": "2026-10-18T13:29:09.073366+00:00",
+      "retrieval_mode": "new_https",
+      "http_status": 200,
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch13-audit/eb5f14a94efdcb39beb1.raw",
+      "sha256": "33c6c986716f883ac9e98849cffcb1793df21a3e02015ffbe5ce6530b5a4f0d7",
+      "status": "body_received",
+      "evidence_id": "S108",
+      "verified_retrieval_utc": "2026-10-18T13:29:09.073366+00:00"
+    },
+    {
+      "cited_url": "https://www.stop.or.kr/home/kor/M369584875/support/network/index.do",
+      "url": "https://www.stop.or.kr/home/kor/M369584875/support/network/index.do",
+      "requested_at": "2026-10-18T13:29:09.197940+00:00",
+      "retrieval_mode": "new_https",
+      "http_status": 200,
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch13-audit/c9748b815de9840b2247.raw",
+      "sha256": "4a628c0cfc7d15e024560d70db0138afb02648a22d42ad46c2963890060bb10b",
+      "status": "body_received",
+      "evidence_id": "S109",
+      "verified_retrieval_utc": "2026-10-18T13:29:09.197940+00:00"
+    },
+    {
+      "cited_url": "https://www.weather.gov/safety/cold-during",
+      "url": "https://www.weather.gov/safety/cold-during",
+      "requested_at": "2026-10-18T13:29:09.228374+00:00",
+      "retrieval_mode": "new_https",
+      "http_status": 200,
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch13-audit/fa2c6d2ad6fb575b0179.raw",
+      "sha256": "691c9498af313baa1502c0dcb46841b04f1d53e0748ff5c738e90ea6c54d9743",
+      "status": "body_received",
+      "evidence_id": "S110",
+      "verified_retrieval_utc": "2026-10-18T13:29:09.228374+00:00"
+    },
+    {
+      "cited_url": "https://www.weather.gov/safety/heat-illness",
+      "url": "https://www.weather.gov/safety/heat-illness",
+      "requested_at": "2026-10-18T13:29:09.281707+00:00",
+      "retrieval_mode": "new_https",
+      "http_status": 200,
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch13-audit/2dfc12653775ee062fdb.raw",
+      "sha256": "ca5b61bc4d6622e7b426cd597c7a1e1bdf5b10504c685c3a0749df5f253d0724",
+      "status": "body_received",
+      "evidence_id": "S111",
+      "verified_retrieval_utc": "2026-10-18T13:29:09.281707+00:00"
+    },
+    {
+      "cited_url": "https://www.weather.gov/safety/lightning-outdoors",
+      "url": "https://www.weather.gov/safety/lightning-outdoors",
+      "requested_at": "2026-10-18T13:29:09.405406+00:00",
+      "retrieval_mode": "new_https",
+      "http_status": 200,
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch13-audit/7e36dcadc8a3ce2fcfcf.raw",
+      "sha256": "5af39d9a11bb3d38c27956d94e7e4e313eb9f9965e2e6ab2402329d28ab04f9f",
+      "status": "body_received",
+      "evidence_id": "S112",
+      "verified_retrieval_utc": "2026-10-18T13:29:09.405406+00:00"
+    },
+    {
+      "cited_url": "https://www.who.int/news-room/fact-sheets/detail/animal-bites",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/animal-bites",
+      "requested_at": "2026-10-18T13:30:59.488012+00:00",
+      "retrieval_mode": "new_https_retry",
+      "status": "body_received",
+      "previous_failure": {
+        "cited_url": "https://www.who.int/news-room/fact-sheets/detail/animal-bites",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/animal-bites",
+        "requested_at": "2026-10-18T13:29:09.490715+00:00",
+        "retrieval_mode": "new_https",
+        "status": "access_failed",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      "http_status": 200,
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch13-audit/6b971fe2c2de73d6608c-retry.raw",
+      "sha256": "e2f3f9d015c0250fe9edc29268be450f25c7d5788493ea7e7f15256e185f1c50",
+      "evidence_id": "S113",
+      "verified_retrieval_utc": "2026-10-18T13:30:59.488012+00:00"
+    },
+    {
+      "cited_url": "https://www.who.int/news-room/fact-sheets/detail/drowning",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/drowning",
+      "requested_at": "2026-10-18T13:30:59.493236+00:00",
+      "retrieval_mode": "new_https_retry",
+      "status": "body_received",
+      "previous_failure": {
+        "cited_url": "https://www.who.int/news-room/fact-sheets/detail/drowning",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/drowning",
+        "requested_at": "2026-10-18T13:29:09.618308+00:00",
+        "retrieval_mode": "new_https",
+        "status": "access_failed",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      "http_status": 200,
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch13-audit/5c2abcf05c18f6e24974-retry.raw",
+      "sha256": "1034331e7eca715d55ab9408ec886d9a167a9ab0007752acec418f5a7288473e",
+      "evidence_id": "S114",
+      "verified_retrieval_utc": "2026-10-18T13:30:59.493236+00:00"
+    },
+    {
+      "cited_url": "https://www.who.int/news-room/fact-sheets/detail/emergency-contraception",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/emergency-contraception",
+      "requested_at": "2026-10-18T13:30:59.696412+00:00",
+      "retrieval_mode": "new_https_retry",
+      "status": "body_received",
+      "previous_failure": {
+        "cited_url": "https://www.who.int/news-room/fact-sheets/detail/emergency-contraception",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/emergency-contraception",
+        "requested_at": "2026-10-18T13:29:09.691421+00:00",
+        "retrieval_mode": "new_https",
+        "status": "access_failed",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      "http_status": 200,
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch13-audit/1643a8044934a1d4ba30-retry.raw",
+      "sha256": "4438a85632e7c7901adab325a985d7b6304b470fb7b969ad5ca89014ee4ee1f1",
+      "evidence_id": "S115",
+      "verified_retrieval_utc": "2026-10-18T13:30:59.696412+00:00"
+    },
+    {
+      "cited_url": "https://www.who.int/news-room/fact-sheets/detail/rabies",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/rabies",
+      "requested_at": "2026-10-18T13:31:00.049534+00:00",
+      "retrieval_mode": "new_https_retry",
+      "status": "body_received",
+      "previous_failure": {
+        "cited_url": "https://www.who.int/news-room/fact-sheets/detail/rabies",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/rabies",
+        "requested_at": "2026-10-18T13:29:09.884100+00:00",
+        "retrieval_mode": "new_https",
+        "status": "access_failed",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      "http_status": 200,
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch13-audit/6fd871657b41a75da75c-retry.raw",
+      "sha256": "dcd5d005fba8416f5023156b970e30b6712aef334eb9f3e99593aeb6165dcfb4",
+      "evidence_id": "S116",
+      "verified_retrieval_utc": "2026-10-18T13:31:00.049534+00:00"
+    },
+    {
+      "cited_url": "https://www.who.int/news-room/fact-sheets/detail/snakebite-envenoming",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/snakebite-envenoming",
+      "requested_at": "2026-10-18T13:31:00.091225+00:00",
+      "retrieval_mode": "new_https_retry",
+      "status": "body_received",
+      "previous_failure": {
+        "cited_url": "https://www.who.int/news-room/fact-sheets/detail/snakebite-envenoming",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/snakebite-envenoming",
+        "requested_at": "2026-10-18T13:29:09.902767+00:00",
+        "retrieval_mode": "new_https",
+        "status": "access_failed",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      "http_status": 200,
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch13-audit/eaedb3fa111236c06623-retry.raw",
+      "sha256": "e3cb6dc8e51b0e963fcbdc606ba0b7d03cd4489a0784f088191a50e3a4082528",
+      "evidence_id": "S117",
+      "verified_retrieval_utc": "2026-10-18T13:31:00.091225+00:00"
+    },
+    {
+      "cited_url": "https://www.who.int/news/item/29-06-2007-study-results-released-on-travel-and-blood-clots",
+      "url": "https://www.who.int/news/item/29-06-2007-study-results-released-on-travel-and-blood-clots",
+      "requested_at": "2026-10-18T13:31:00.224620+00:00",
+      "retrieval_mode": "new_https_retry",
+      "status": "body_received",
+      "previous_failure": {
+        "cited_url": "https://www.who.int/news/item/29-06-2007-study-results-released-on-travel-and-blood-clots",
+        "url": "https://www.who.int/news/item/29-06-2007-study-results-released-on-travel-and-blood-clots",
+        "requested_at": "2026-10-18T13:29:10.059450+00:00",
+        "retrieval_mode": "new_https",
+        "status": "access_failed",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      "http_status": 200,
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch13-audit/ba0c53d1fa5ee9de7bb7-retry.raw",
+      "sha256": "e686f42b87ad1468e70f56f739d138fe4d13870abd208a4aebd598d370d9da8c",
+      "evidence_id": "S118",
+      "verified_retrieval_utc": "2026-10-18T13:31:00.224620+00:00"
+    }
+  ],
+  "external_directory": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch13-audit",
+  "current_search_inventory": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch13-audit/current.json",
+  "current_retry_inventory": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch13-audit/current-retry.json",
+  "additional_evidence": [
+    {
+      "url": "https://www.globalfirstaidcentre.org/first-aid-guidelines/",
+      "requested_at": "2026-10-18T13:31:56.142635+00:00",
+      "retrieval_mode": "new_https",
+      "http_status": 200,
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch13-audit/756849ba986f41329f56.raw",
+      "sha256": "852d73448e8ed249ab891647a5f006313537d351523930ee0c700842e0847fc5",
+      "status": "body_received",
+      "inventory_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch13-audit/additional.json"
+    },
+    {
+      "url": "https://www.ifrc.org/document/international-first-aid-resuscitation-and-education-guidelines",
+      "requested_at": "2026-10-18T13:31:56.143394+00:00",
+      "retrieval_mode": "new_https",
+      "status": "access_failed",
+      "error": "HTTP Error 403: Forbidden",
+      "inventory_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch13-audit/additional.json"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:1600585&format=json&resultType=core",
+      "requested_at": "2026-10-18T13:31:56.143893+00:00",
+      "retrieval_mode": "new_https",
+      "http_status": 200,
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch13-audit/3bdd92493a1993f6d084.raw",
+      "sha256": "fa1fc9545cab69a51f3b7b4a43115e4057eaabc687a81618ea4d2abc7961abd0",
+      "status": "body_received",
+      "inventory_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch13-audit/additional.json",
+      "body_scope": "original_indexed_abstract_189_cases_159_controls_and_ORs_checked"
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=225413&type=XML",
+      "requested_at": "2026-10-18T13:35:57.769826+00:00",
+      "retrieval_mode": "new_https",
+      "http_status": 200,
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch13-audit/172db77c33512d8e9029-extra.xml",
+      "sha256": "37c1a7acf11d65cee9da63fc703d157204c50b9a25c5b94eaebefb3f9200dff9",
+      "status": "body_received",
+      "inventory_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch13-audit/extra-bodies.json",
+      "body_scope": "statutory_xml_exact_article_checked"
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=236977&type=XML",
+      "requested_at": "2026-10-18T13:35:57.770512+00:00",
+      "retrieval_mode": "new_https",
+      "status": "access_failed",
+      "error": "HTTP Error 502: Bad Gateway",
+      "inventory_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch13-audit/extra-bodies.json"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11635034/fullTextXML",
+      "requested_at": "2026-10-18T13:35:57.771040+00:00",
+      "retrieval_mode": "new_https",
+      "status": "access_failed",
+      "error": "HTTP Error 500: Internal Server Error",
+      "inventory_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch13-audit/extra-bodies.json"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11635034/",
+      "requested_at": "2026-10-18T13:36:46.166021+00:00",
+      "retrieval_mode": "new_https_alternate",
+      "http_status": 200,
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch13-audit/ad17f112c1d2f6beb154-alternate.raw",
+      "sha256": "d363bfcf2aa14267a3254f3e971e0b37cd98453711a80f17dcaa283e62b0caef",
+      "status": "body_received",
+      "inventory_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch13-audit/alternate.json",
+      "body_scope": "fulltext_html_actual_treatment_and_glucose_tables_checked"
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=236977&type=XML&efYd=20241201",
+      "requested_at": "2026-10-18T13:36:46.167009+00:00",
+      "retrieval_mode": "new_https_alternate",
+      "http_status": 200,
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch13-audit/76ab65b2915610f0e38c-alternate.raw",
+      "sha256": "769561738b2bcc79f69f5abd09f60ca330021f9a523ba53fb9b9e00f0201b6c4",
+      "status": "body_received",
+      "inventory_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch13-audit/alternate.json",
+      "body_scope": "statutory_xml_exact_article_checked"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2393295/fullTextXML",
+      "requested_at": "2026-10-18T13:37:05.825423+00:00",
+      "retrieval_mode": "new_https",
+      "status": "access_failed",
+      "error": "HTTP Error 500: Internal Server Error",
+      "inventory_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch13-audit/armenia.json"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2393295/",
+      "requested_at": "2026-10-18T13:40:43.896460+00:00",
+      "retrieval_mode": "new_https",
+      "http_status": 200,
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch13-audit/armenia-page.raw",
+      "sha256": "932c8e84aa7d87b67db12384a97f40e30eb8e1f14ec305efa62358e065323e0b",
+      "status": "body_received",
+      "inventory_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch13-audit/armenia-page.json",
+      "body_scope": "browser_challenge_no_article_body"
+    }
+  ],
+  "intro_review": {
+    "status": "verified_scope",
+    "scope": "1394는전기통신금융사기통합대응단공식안내캐시본문확인,법290245 제3조피해구제신청·4조거래내역확인/의심사정인정시즉시지급정지조건확인. 가정발생44.8%는1항과동일KDCA범위.",
+    "evidence": [
+      {
+        "mst": "290245",
+        "chapters": [
+          5,
+          8
+        ],
+        "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290245&type=XML",
+        "requested_at": "2026-10-18T12:38:28.074515+00:00",
+        "scope": "Exact cited statutory version only; article-specific commencement and claims require independent review.",
+        "http_status": 200,
+        "status": "statutory_xml_cached",
+        "title": "전기통신금융사기 피해 방지 및 피해자산 환급에 관한 특별법",
+        "effective_date": "20261002",
+        "law_id": "011359",
+        "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290245.xml",
+        "sha256": "b8a133db27e47ca6cf2d60fd38b110b0b2934b5447b9d1c90a82d8612be45af7",
+        "bytes": 99783,
+        "article_count": 32,
+        "retrieval_mode": "existing_cache_read"
+      },
+      {
+        "url": "https://www.credit4u.or.kr/",
+        "requested_at": "2026-10-18T12:59:56.801653+00:00",
+        "http_status": 200,
+        "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch08-audit/credit4u.raw",
+        "sha256": "975a68101a3060e2faf20726d481604d188a6282cb7780ee93ba3bbce37765c6",
+        "retrieval_mode": "existing_cache_read",
+        "body_scope": "1394통합대응단/112/1332공식안내문구"
+      }
+    ]
+  },
+  "ratio_interpretation_review": {
+    "contract": "OR/RR/HR/event counts/absolute probabilities separated; no invented baseline or RR back-calculation",
+    "required_corrections": [
+      3,
+      14
+    ],
+    "entry44": "OR1.57 refers to odds;13.2%and9.5%are directly reported adjusted probabilities in Naim abstract. Relative roughly40% is based on those probabilities, not OR inversion; overall-child denominator preserved."
+  }
+}

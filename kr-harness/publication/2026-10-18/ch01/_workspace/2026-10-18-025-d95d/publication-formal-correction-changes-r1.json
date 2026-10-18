@@ -1,0 +1,44 @@
+{
+  "entry": 25,
+  "status": "unadopted_proposal",
+  "public_source": "book-kr/01-너무-일찍-죽지-않기.md",
+  "public_source_sha256": "e547eb2e90568ff14306c1ccb6a5e06ab3e43547484fbc932b1835ab95a9d750",
+  "base_file": "publication-current-entry-r1.md",
+  "base_sha256": "15b303c6c32b53ec270f95964b342fc3b3725ab819067735987030628344d68a",
+  "new_file": "publication-formal-correction-r1.md",
+  "new_sha256": "97097cdc669d657135999d234497e41b0e047866aeebda7ae785885c2459eda8",
+  "changes": [
+    {
+      "field": "이득",
+      "before": "학교의 인식 개선 프로그램은 자살 시도를 55%쯤 줄였습니다. 원값은 OR 0.45입니다. 95% CI는 0.24~0.85입니다.",
+      "after": "학교의 인식 개선 프로그램은 자살 시도 오즈를 55%쯤 줄였습니다. 원값은 OR 0.45입니다. 95% CI는 0.24~0.85입니다. 오즈는 확률을 1에서 그 확률을 뺀 값으로 나눈 값입니다. 자살 시도 확률이 55% 줄었다는 뜻은 아닙니다.",
+      "reason": "OR 0.45의 55% 감소는 오즈 기준임을 명시하고 확률 감소와 구분했습니다. RR로 역산하지 않았습니다.",
+      "exactquotes": [
+        "School-based awareness programmes have been shown to reduce suicide attempts (odds ratio [OR] 0·45, 95% CI 0·24-0·85; p=0·014)"
+      ],
+      "url": "https://doi.org/10.1016/S2215-0366(16)30030-X",
+      "provenance": {
+        "method": "기존 Europe PMC 원시 JSON 초록 재열람. 신규 HTTP나 전문 열람 아님.",
+        "read_date": "2026-10-18",
+        "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/66387f44b2a3cd9f8250.json",
+        "cache_sha256": "a4e2f25be5c94c26c957f63144eb7031e81ab96a1f34029e0b368f90f745104a",
+        "cache_fetched_at": "2026-10-18T20:49:45.586629+09:00"
+      },
+      "limits": "종설 초록의 학교 인식 개선 프로그램 결과에 한정. 확률 감소율 및 RR은 추정하지 않았습니다."
+    }
+  ],
+  "validation": {
+    "only_exact_span_changed": true,
+    "unchanged": [
+      "쉽게",
+      "진통제 43%",
+      "시설 설치 장소 86%",
+      "태그",
+      "근거등급",
+      "이전 승인 부분"
+    ],
+    "all_new_sentences_max_50": true,
+    "easy_chars": 116,
+    "easy_sentence_count": 4
+  }
+}

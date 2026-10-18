@@ -1,0 +1,42 @@
+{
+  "entry": 5,
+  "status": "unadopted_proposal",
+  "requires_fresh_review": true,
+  "base_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch01/_workspace/2026-10-18-005-8841/publication-current-entry-r1.md",
+  "base_sha256": "7017f1785acc3540830f2a527ced85676abf58046651d938a326b0f0206b13c8",
+  "public_source_sha256": "e547eb2e90568ff14306c1ccb6a5e06ab3e43547484fbc932b1835ab95a9d750",
+  "proposal_sha256": "b0b04221be00da72fb294be91eb8ee5b44aaae85faf9f6ff252450473120d54c",
+  "changes": [
+    {
+      "field": "비고",
+      "before": "잘못 먹었다면 즉시 119에 연락하거나 응급실로 가세요. 억지로 토하지 마세요. 먹은 버섯을 가지고 가세요. 독버섯 중독에는 여러 유형이 있습니다. 어떤 버섯을 먹었는지 알아야 의사가 치료법을 정할 수 있습니다. 중독을 일으키는 종은 해마다 새로 기록됩니다. 그러니 '동네 사람은 다 구별한다'는 전제부터 성립하지 않습니다. 은수저로 독을 확인하거나 마늘과 함께 끓여 보는 방법은 소용없습니다. 벌레 먹은 버섯은 괜찮다거나 색이 화려해야 독이 있다는 말도 틀렸습니다. 한국 버섯 중독 사망 통계의 1차 출처는 찾지 못했습니다. 그래서 사망자 수는 중국 자료를 그대로 썼습니다.",
+      "after": "잘못 먹었다면 즉시 119에 연락하거나 응급실로 가세요. 억지로 토하지 마세요. 먹은 버섯을 가지고 가세요. 독버섯 중독에는 여러 유형이 있습니다. 어떤 버섯을 먹었는지 알아야 의사가 치료법을 정할 수 있습니다. 중독을 일으키는 종은 해마다 새로 기록됩니다. 그러니 '동네 사람은 다 구별한다'는 전제부터 성립하지 않습니다. 은수저로 독을 확인하거나 마늘과 함께 끓여 보는 방법은 소용없습니다. 벌레 먹은 버섯은 괜찮다거나 색이 화려해야 독이 있다는 말도 틀렸습니다. 한국 버섯 중독 사망 통계의 1차 출처는 찾지 못했습니다. 그래서 사망자 수는 중국 자료를 그대로 썼습니다. 원출처의 분류별 합계는 2,214종으로 총 2,292종보다 78종 적습니다. 분류별 집계는 추가 확인이 필요합니다.",
+      "reason": "원출처 분류 합계 416+248+1550=2214와 총 2292 사이 78종 차이를 알림. 원 수치 보존하며 원인이나 보정값을 추정하지 않음.",
+      "evidencequotes": [
+        "현재 우리나라에 자생하는 버섯 2,292종 가운데 식용으로 확인된 버섯은 416종(18%)에 불과하다. 독버섯이 248종이고, 나머지 1,550종은 아직 식용 여부가 명확히 규명되지 않았다(식독 불명)"
+      ],
+      "urls": [
+        "https://www.rda.go.kr/board/board.do?mode=view&prgId=day_farmprmninfoEntry&dataNo=100000805255"
+      ]
+    }
+  ],
+  "source_check": {
+    "method": "기존 수집 원시 HTML의 해당 본문을 직접 재열람하고 공백 정규화 인용 및 raw SHA-256 대조. 신규 HTTP 요청 아님.",
+    "read_date": "2026-10-18",
+    "raw_provenance": {
+      "key": "rda",
+      "url": "https://www.rda.go.kr/board/board.do?mode=view&prgId=day_farmprmninfoEntry&dataNo=100000805255",
+      "date": "2026-10-18T12:01:10.878781+00:00",
+      "status": 200,
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch01-audit/rda.txt",
+      "bytes": 182984,
+      "sha256": "ace6f8d0ecea99b755c6bd324607a7504f0d4a02eb3d2116ecf8be424ec8e23e"
+    },
+    "limits": "집계 불일치 원인과 어느 수치가 잘못됐는지는 확인하지 못했습니다. 총계나 분류 수를 임의 보정하지 않았습니다."
+  },
+  "validation": {
+    "only_field_changed": "비고",
+    "other_lines_byte_preserved": true,
+    "strict_and_public_untouched": true
+  }
+}

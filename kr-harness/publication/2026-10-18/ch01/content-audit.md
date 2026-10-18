@@ -334,3 +334,19 @@ NHS Poisoning의직접인용: “do not try to make someone sick if you think th
 제28항추가DOI `10.5534/wjmh.2013.31.2.83`은실제열람한국지침의개별평가/질산염금기보강목적으로승인.원관찰메타대체가아니다.ROOT는도입부kr-doi-add주석과intro SHA를통합계획에고정해야한다.다른의도된DOI추가/삭제없음. 최종DOI·참조·형식검사는통합후새본문으로진행한다.
 
 **formal_kr_fit=false; publication_ready=false**. 이판정은통합할정확입력만승인한다. 일부전문·현행지원정책·실패법령요청등의검증한계는각항기록대로남고,통합본문의새SHA에대한정식독립리뷰가필요하다. 공개본문·README·pure/strict·승인fullentry/style·git는수정하지않았다.
+
+
+## 제42항 보호 주석 복원 r2 — 통합 입력 승인 갱신
+
+통합 도구가 제42항의 원본 `kr-fit-ok` 주석 누락을 정상 거부했다. 이전 감사에서 내부 주석 삭제로 허용했던 판단을 정정한다. 이 주석은 보호 대상이므로 남겨야 한다. 같은 원작성자의 별도 r2 variant를 독립 대조했다. 출처 줄 끝 원래 위치의 공백1개와 아래 주석1개를 제외하면 이전 승인안과 **바이트 전체가 동일**하다. 기존 승인 proposal/changes 및 각각 `.approved-backup`의 SHA 일치도 확인했다.
+
+`<!-- kr-fit-ok: 중국 지방정부 사고조사보고서 2건은 법 근거가 아니라 해외 사고 사례로 인용(한국 공식 사고 사례는 찾지 못함) -->`
+
+새 통합 입력은 기존 canonical 파일이 아니라 다음 정확한 별도 파일이다.
+
+- proposal: `/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch01/_workspace/2026-10-18-042-e57b/publication-entry-proposal-r2.md`, SHA `f02fe156486ab5cb6c3fb9b204b566211c6fc9df88ff6d4f9583e40aee742ec2`.
+- changes: `/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch01/_workspace/2026-10-18-042-e57b/publication-entry-changes-r2.json`, SHA `14c370830aa8d1467cd8b517e54b08ba257a1fcac2452e0ab3d7bd81ddd1b3e2`.
+
+**approve**: 사실·수치·문체·근거·DOI는 추가 변경없음. 이전 승인이력은 보존하고 최신고정목록의42항 proposal/changes SHA와 explicit파일경로 및 editorial대체해시를 갱신했다. 앞의 최종목록에서42항 행만 이 r2목록이 대체한다. 모든41개fullentry를 strict baseline과 다시 대조해 비용태그·근거등급·모든HTML주석·6필드라벨/순서가 일치함을 확인했다(불일치0). 개별검사·실제proposal경로·SHA는JSON integration_approval.protected_structure_recheck에 보존했다. 신규HTTP는 없으며 이전근거한계는유지한다.
+
+최종 verdict는 **approved_for_integration** 그대로다. **formal_kr_fit=false, publication_ready=false**. 기존style적용순서와제28항DOI추가조건은유지한다. 새 통합본문의정식독립리뷰는별도다. 원본문/pure/strict/이전승인파일/README/git는수정하지않고감사두파일만갱신했다.

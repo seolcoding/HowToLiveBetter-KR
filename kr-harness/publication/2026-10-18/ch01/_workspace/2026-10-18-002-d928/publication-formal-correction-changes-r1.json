@@ -1,0 +1,64 @@
+{
+  "entry": 2,
+  "status": "unadopted_formal_correction",
+  "base": "publication-current-entry-r1.md",
+  "public_source_sha256": "e547eb2e90568ff14306c1ccb6a5e06ab3e43547484fbc932b1835ab95a9d750",
+  "base_entry_sha256": "03e29759f53895ba458462323c99d27b8d4a81f567f422f62f8df1db5cd39d3e",
+  "new_entry_sha256": "2c73b9b2adf3c9352f493b53d9175fa647f99cf4b59c7885bc70c0308b8319fd",
+  "changes": [
+    {
+      "field": "쉽게",
+      "before": "오토바이 사고 연구에서 헬멧을 쓴 사람은 덜 죽고 덜 다쳤습니다. 사망은 약 40%, 머리 손상은 약 70% 적었습니다. 헬멧을 쓰고 턱끈까지 채우세요.",
+      "after": "오토바이 사고 연구에서 헬멧을 쓴 사람은 덜 죽고 덜 다쳤습니다. 내 사망·머리 손상 확률이 얼마나 줄지는 이 수치만으로 알 수 없습니다. 헬멧을 쓰고 턱끈까지 채우세요.",
+      "reason": "OR를 개인 확률 감소율로 읽는 혼동 교정. 42%·69%는 오즈 감소로 표현하고 약40%·70% 반올림 수치도 확률 감소율이 아님을 명시. OR/CI와 오토바이 사고 관찰연구 대상 및 4편/6편 보존.",
+      "evidence": [
+        {
+          "exact_quote": "From four higher quality studies helmets were estimated to reduce the risk of death by 42% (OR 0.58, 95% CI 0.50 to 0.68) and from six higher quality studies helmets were estimated to reduce the risk of head injury by 69% (OR 0.31, 95% CI 0.25 to 0.38).",
+          "url": "https://doi.org/10.1002/14651858.CD004333.pub3",
+          "method": "실제 캐시 원시 Europe PMC JSON abstractText 재열람",
+          "date": "2026-10-18",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/3829000ae1f79efea88f.json",
+          "limits": "초록은 risk reduction이라는 표현과 OR를 함께 제시. 제안은 OR의 정의에 맞춰 오즈로 명료화. 개인 확률·RR·절대위험은 역산하지 않음."
+        }
+      ]
+    },
+    {
+      "field": "이득",
+      "before": "코크런(Cochrane)이 오토바이 사고 관찰연구를 모았습니다. 사망 위험은 질이 높은 연구 4편에서 42% 낮게 추정됐습니다. 원값은 OR 0.58, 95% CI 0.50~0.68입니다. 머리 손상 위험은 연구 6편에서 69% 낮게 추정됐습니다. 원값은 OR 0.31, 95% CI 0.25~0.38입니다.",
+      "after": "코크런(Cochrane)이 오토바이 사고 관찰연구를 모았습니다. 사망 오즈는 질이 높은 연구 4편에서 42% 낮게 추정됐습니다. 원값은 OR 0.58, 95% CI 0.50~0.68입니다. 머리 손상 오즈는 연구 6편에서 69% 낮게 추정됐습니다. 원값은 OR 0.31, 95% CI 0.25~0.38입니다. 오즈는 사건이 생길 확률을 안 생길 확률로 나눈 값입니다. 약 40%·70%로 반올림해도 개인의 확률 감소율은 아닙니다.",
+      "reason": "OR를 개인 확률 감소율로 읽는 혼동 교정. 42%·69%는 오즈 감소로 표현하고 약40%·70% 반올림 수치도 확률 감소율이 아님을 명시. OR/CI와 오토바이 사고 관찰연구 대상 및 4편/6편 보존.",
+      "evidence": [
+        {
+          "exact_quote": "From four higher quality studies helmets were estimated to reduce the risk of death by 42% (OR 0.58, 95% CI 0.50 to 0.68) and from six higher quality studies helmets were estimated to reduce the risk of head injury by 69% (OR 0.31, 95% CI 0.25 to 0.38).",
+          "url": "https://doi.org/10.1002/14651858.CD004333.pub3",
+          "method": "실제 캐시 원시 Europe PMC JSON abstractText 재열람",
+          "date": "2026-10-18",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/3829000ae1f79efea88f.json",
+          "limits": "초록은 risk reduction이라는 표현과 OR를 함께 제시. 제안은 OR의 정의에 맞춰 오즈로 명료화. 개인 확률·RR·절대위험은 역산하지 않음."
+        }
+      ]
+    }
+  ],
+  "checks": {
+    "easy_chars": 95,
+    "sentence_lengths": {
+      "쉽게": [
+        36,
+        40,
+        17
+      ],
+      "이득": [
+        35,
+        35,
+        33,
+        32,
+        33,
+        32,
+        34
+      ]
+    },
+    "all_other_fields_unchanged": true,
+    "protected_comment_title_tags_grade_source_unchanged": true,
+    "public_files_modified": false
+  }
+}
