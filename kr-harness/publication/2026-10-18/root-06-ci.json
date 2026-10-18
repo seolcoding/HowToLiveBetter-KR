@@ -1,0 +1,22 @@
+{
+  "observed_at_utc": "2026-10-18T19:43:16.802429+00:00",
+  "commit": "4bbbb376336a49dc6bfd14c590146345fc1e53e5",
+  "branch": "claude/inspiring-ramanujan-lool68",
+  "pull_request": "https://github.com/seolcoding/HowToLiveBetter-KR/pull/7",
+  "checks": [
+    {
+      "name": "한국어판 검사",
+      "run_id": 39159918614,
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "name": "한국어판 전자책",
+      "run_id": 39159918610,
+      "status": "completed",
+      "conclusion": "success"
+    }
+  ],
+  "pages_release_deployed": false,
+  "scope": "Remote checkpoint CI only; final667 full-source/formal work continues and final commit/main deployment require separate verification."
+}

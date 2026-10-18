@@ -1,0 +1,429 @@
+{
+  "status": "approved_for_integration",
+  "decision": "approve",
+  "final_approval": true,
+  "formal_kr_fit_approval": false,
+  "publication_approval": false,
+  "whole_chapter_approval": false,
+  "reviewer_id": "/root/publication_review_09",
+  "reviewed_at_utc": "2026-10-18T19:44:48.028895+00:00",
+  "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/publication-intro-tail-proposal-r5.json",
+  "proposal_sha256": "bb963fdc2fa8b51c354f0c71121dd4480b7d13601eb68ef759f2bb23e2e4e12c",
+  "manifest_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/author-final-manifest-r5.json",
+  "manifest_sha256": "0fad4d4613014ed1aec2fc73c1bcbb0b494b8c3ca725a6e2f4b36def72dd0204",
+  "intro_decision": "approve_preserve_exact_bytes",
+  "tail_decision": "approve_exact_four_operations",
+  "intro_before_sha256": "34d870200139bc6d0449446adddbcfc899d0acffc61a0435b72e0f96eb65ca04",
+  "intro_after_sha256": "34d870200139bc6d0449446adddbcfc899d0acffc61a0435b72e0f96eb65ca04",
+  "tail_before_sha256": "1b4e541d79eb339b924ce10bd65d369ca3ca0ed1a21c187b5429bd3d7c74ccfc",
+  "tail_after_sha256": "643f5f1b97bea25f98cdb92de6a63cf4b018d4c892c0d0f922dcb83ba138a40b",
+  "operations": [
+    {
+      "target": "tail.md",
+      "entry": 3,
+      "before": "- 제3항: 대한법률구조공단 무료 소송구조별 현행 경제기준·지원 범위. 누리집 열람이 실패하여 전국 일률 기준과 전화번호를 확정하지 않았습니다.",
+      "after": "- 제3항: 무료 소송구조 유형별 최신 소득표와 지원 범위. 공단의 일반 안내는 확인했습니다. 본인 유형의 경제기준과 비용 부담 범위는 신청할 때 확인하세요.",
+      "before_sha256": "f17f92dd7f7fa71477374835d36e51bd71ae111fe017045c67d8ffabf3476c4b",
+      "after_sha256": "dc5377e8512550a31eb9dad6f66df70de085b6de7495158eedac7ef6dd3b4627"
+    },
+    {
+      "target": "tail.md",
+      "entry": 9,
+      "before": "- 제9항: 퇴직자 임의계속가입의 세부 이력기간과 적용기간, 소득 조정·정산 절차 및 개인별 보험료. 현행 시행규칙·공단 안내 보강 필요.",
+      "after": "- 제9항: 소득 조정·정산 절차와 개인별 보험료·피부양자 자격. 임의계속가입의 이력기간과 적용기간은 법령으로 확인했습니다. 실제 보험료와 자격은 공단에 확인하세요.",
+      "before_sha256": "6f36a4c945e0647979210dacec79e9a6707868ba543109c657730dbbc569cab6",
+      "after_sha256": "fe31392ac01fe5a4104e388c67d21a0b4dcb4ddd5e12bc7d8b72be8dfb57370c"
+    },
+    {
+      "target": "tail.md",
+      "entry": 10,
+      "before": "- 제10항: 2026년 본인부담상한액 표와 재난적의료비 지원율·상한. 오래된 공단 static 안내의 금액은 쓰지 않았습니다.",
+      "after": "- 제10항: 재난적의료비의 현행 지원율·상한. 2026년 본인부담상한액 표는 확인했습니다. 개인별 적용 금액과 지원율은 공단에 확인하세요.",
+      "before_sha256": "1e9b31920d6c3ba92162e1f6befc8cb1ba43ed9a7b6e33d387d0cd828f381612",
+      "after_sha256": "c2aca87792caeee7abea074b702031223b73295195cea521720dabd7f62552d3"
+    },
+    {
+      "target": "tail.md",
+      "entry": 17,
+      "before": "- 제17항: 한국에서 단기숙박·합가·직접 요리의 비용 차이를 뒷받침할 공공 자료와 지역별 급식·푸드지원 조건. 절약률은 제시하지 않았습니다.",
+      "after": "- 제17항: 한국에서 단기숙박·합가·직접 요리의 비용 차이를 뒷받침할 공공 자료. 지역별 급식·푸드지원 조건도 확인해야 합니다. 절약률은 제시하지 않았습니다.",
+      "before_sha256": "da58b27b7b91ca7026be493bd8896f9aa6330cb99cc07c753ad603791b5b3ba9",
+      "after_sha256": "5929a93d326097fa704d3401d80b47f2f96a7e846952ce3980505936dc9d4a6e"
+    }
+  ],
+  "latest_full22_exact_approvals": [
+    {
+      "entry": 1,
+      "proposal_sha256": "e49ecabf1a74a244860c2a39fcad6605f012638252ce01e231059d8b807dee90",
+      "changes_sha256": "e397d90cf7bdad1d8d71e8acb6d10e3ddd5bd81f8d01d0d681376c5ab5101676",
+      "review_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/publication-partial-review-r1.json",
+      "review_sha256": "7dc3ebfb0e13ab2682fbd751d5b3c81c2bd6240334d02f8453d873b9226c33f7"
+    },
+    {
+      "entry": 2,
+      "proposal_sha256": "e838686c7d92161c41f61a40d16d154edbca3adfbe664ae9f474645cbe0d7b46",
+      "changes_sha256": "80926bbd3f8de2fd5813967cae007858f13684438bc5fcb3bacc711f0e610feb",
+      "review_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/publication-partial-review-r2.json",
+      "review_sha256": "7a7f07074b89d0d3d644353ed2b6448e7560a2f612c1844eba85a6e96e2fec64"
+    },
+    {
+      "entry": 3,
+      "proposal_sha256": "a57c50061e545ebd4c54098f89a10a5e5e201f71c659a40a410c1a4fe6b5b658",
+      "changes_sha256": "495fbf7dfbdff2c6f78fb8f684cf2a57d103525bcca8f2d2266be895345f86c7",
+      "review_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/publication-partial-review-r17.json",
+      "review_sha256": "d1aac53c1fb676a27a6ce048f1170158de84d93cd7192e46ed5864bafca04d40"
+    },
+    {
+      "entry": 4,
+      "proposal_sha256": "b0f3882df1ce3dbbb81c9723a9cd2a122b6a5f88c5784adcdb12ecc4794abcae",
+      "changes_sha256": "842cabb74acfb084f3e96f8931ee710eb97b21ed68a1f2439261a5714748e392",
+      "review_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/publication-partial-review-r1.json",
+      "review_sha256": "7dc3ebfb0e13ab2682fbd751d5b3c81c2bd6240334d02f8453d873b9226c33f7"
+    },
+    {
+      "entry": 5,
+      "proposal_sha256": "fa015e1089c0a2e6192c48276cd5e302095a73d9cba5f2a1cec3b0abd0048876",
+      "changes_sha256": "d0692ac6b6d5c4adfeb4db55b642498c8b29e99465cf65303885442967475bc0",
+      "review_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/publication-partial-review-r2.json",
+      "review_sha256": "7a7f07074b89d0d3d644353ed2b6448e7560a2f612c1844eba85a6e96e2fec64"
+    },
+    {
+      "entry": 6,
+      "proposal_sha256": "8144bb351989eb70fa8e48139afd005e9e96a102c8796e8792172519aabafc1a",
+      "changes_sha256": "82fd661b90f88e66c3347afd3deb81b5f7e50e71a0a667d504cd92b8ea283a70",
+      "review_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/publication-partial-review-r4.json",
+      "review_sha256": "84558f2ff9aa89a6fb8212eec6f68ea77a891bc856677d0d684d368b0871791b"
+    },
+    {
+      "entry": 7,
+      "proposal_sha256": "b28a435fa9bd8a29f35a0f7a7db6e002a930ceb4f8a234bc14347d7c884d7e49",
+      "changes_sha256": "217645151d5fd5ff65d9d8fc1b1fd2f172e5be192a136ef7c456400c11e2dca4",
+      "review_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/publication-partial-review-r4.json",
+      "review_sha256": "84558f2ff9aa89a6fb8212eec6f68ea77a891bc856677d0d684d368b0871791b"
+    },
+    {
+      "entry": 8,
+      "proposal_sha256": "7d54f071fec715f088f172632661e937be81a6f1b55a43f9a9eb101298b2f8fe",
+      "changes_sha256": "038b1f2897dd3746f927d4dfc135f764a08a015383b21c8a04b63f27c3436091",
+      "review_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/publication-partial-review-r4.json",
+      "review_sha256": "84558f2ff9aa89a6fb8212eec6f68ea77a891bc856677d0d684d368b0871791b"
+    },
+    {
+      "entry": 9,
+      "proposal_sha256": "1faf0a36f9e46b6eb6c250ca044970bba5dc556f0c4f9a8a7176d381a7ff1e7c",
+      "changes_sha256": "08d67678f7d00d6c3296245144e4be30b0d814242a9dea1851638107416db399",
+      "review_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/publication-partial-review-r4.json",
+      "review_sha256": "84558f2ff9aa89a6fb8212eec6f68ea77a891bc856677d0d684d368b0871791b"
+    },
+    {
+      "entry": 10,
+      "proposal_sha256": "cdf948c47faf457035a262f47203a8cb9aaed0784542ec9c4a66f1625ef62fa4",
+      "changes_sha256": "f898d2981de2cec826937a93c859be2cd7d9c8b3abfe9c6ecfa8460e1c75b205",
+      "review_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/publication-partial-review-r9.json",
+      "review_sha256": "cfeaef1f492e1f6f41054aa199e6b0c3ac8422dc399bddc2f3c8ceea56d79364"
+    },
+    {
+      "entry": 11,
+      "proposal_sha256": "6e00547d58df1ce6dd888679f726b392a58aaece823ba46091aa6c34cbd7ed06",
+      "changes_sha256": "b0ee88acdc2e8c3be00e7674e813d34f9fbf2cf626c4517b9e72b7c924539375",
+      "review_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/publication-partial-review-r10.json",
+      "review_sha256": "089703fb2213d1a3a21f76032548de688a208fe01b2070fddc7647f080a6f8e2"
+    },
+    {
+      "entry": 12,
+      "proposal_sha256": "3f6b9172d58c70322b3aa8554abb57420865efedb43fc756295ce9fac05c3cd7",
+      "changes_sha256": "3110230216ebdf020c230cda63a005e060ec138d07ed114e3da105042eb3ae03",
+      "review_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/publication-partial-review-r6.json",
+      "review_sha256": "e0fb0f2da6ddceb1eac2a390703808ecdfa4925cbce54b92e675f023e31f0ed0"
+    },
+    {
+      "entry": 13,
+      "proposal_sha256": "461c409a6dec77e083eb7b10e38c7911b3f2abf981d3e2b8303810a4afcfd382",
+      "changes_sha256": "e6bba16cd4ea024693d22f48862538cb606df3c15d4c654a4070f29aaea6ebd7",
+      "review_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/publication-partial-review-r7.json",
+      "review_sha256": "10901515ab775dd0d0e3aac1f3bef0e52ca47ff71c9b1c7a55c80f6f561df2c2"
+    },
+    {
+      "entry": 14,
+      "proposal_sha256": "fd888664d98d25df1d443b4e0eba0debd346f04eb41f9fca38a49dc214d01e84",
+      "changes_sha256": "b7a94ea36691ff88bb509280654c90f8b67a2333d1f05fca00262f9a7c8c7662",
+      "review_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/publication-partial-review-r7.json",
+      "review_sha256": "10901515ab775dd0d0e3aac1f3bef0e52ca47ff71c9b1c7a55c80f6f561df2c2"
+    },
+    {
+      "entry": 15,
+      "proposal_sha256": "f7d404a07e178b64c676d48d45d59ed6056985344da96002535eccf5a733d257",
+      "changes_sha256": "a43cc59bd920a0acdc7dd8692adb01db0470668c0ef83b50ece535a8e75af1b4",
+      "review_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/publication-partial-review-r8.json",
+      "review_sha256": "84c1570dd6c50e2d32888c7fe12560c63bed79092a8de94ef4ff5d682d8c9082"
+    },
+    {
+      "entry": 16,
+      "proposal_sha256": "8408ec304c5d297b86d0ac938918370a91fca131f4d462acd8e4aa4473453c35",
+      "changes_sha256": "10fedb19e476dd2b498a2e77810bf90289e7e1615d35ffae9b34bd19432561f8",
+      "review_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/publication-partial-review-r8.json",
+      "review_sha256": "84c1570dd6c50e2d32888c7fe12560c63bed79092a8de94ef4ff5d682d8c9082"
+    },
+    {
+      "entry": 17,
+      "proposal_sha256": "2738902dd8f75887956333b5c8468babd3a36b1372721bf98861632d14a7b11f",
+      "changes_sha256": "5ec964cc3ff4e6aa02d907f05125c4d893a2f0403a58eda34c6f76a81c2514b0",
+      "review_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/publication-partial-review-r10.json",
+      "review_sha256": "089703fb2213d1a3a21f76032548de688a208fe01b2070fddc7647f080a6f8e2"
+    },
+    {
+      "entry": 18,
+      "proposal_sha256": "4827db1ebb16a6df75ee7b6ed0c5daff6f472ce8f72aa0ff38a34fadee0af02a",
+      "changes_sha256": "c8f83aa1c05f298ec1932fde7ac9bb5a41d5ff32df70b7896502f125c3dace03",
+      "review_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/publication-partial-review-r11.json",
+      "review_sha256": "2354a4377b4a3f7171c7216bd51eb8c8d75f9130bdbbe728b048e21ce9e67839"
+    },
+    {
+      "entry": 19,
+      "proposal_sha256": "35fc9b870c2b090baeeeef704b042c5da3bfde88a676690a2eed08e02c3f4de5",
+      "changes_sha256": "aba528647348b168d5f6add75d78384b655145c92e68e0381ac8a7183a02ab66",
+      "review_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/publication-partial-review-r14.json",
+      "review_sha256": "ab09b6600c3d884696feb20ded9754bfa7db534a37a858639ccb20504bc66fc7"
+    },
+    {
+      "entry": 20,
+      "proposal_sha256": "824edcd8933385a97a8f2e969edd083557c005a5c2ad34e1db5b1f3b4965bff2",
+      "changes_sha256": "0287a8b313b3a8935bb1f6261184508fd8dcac8a4e4fa4beaea1ca77ee2ad345",
+      "review_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/publication-partial-review-r12.json",
+      "review_sha256": "cd6a93cfdb7e7ddc34680d5c32f18f344bd034f4ac434638a55b6a0f238c159c"
+    },
+    {
+      "entry": 21,
+      "proposal_sha256": "7f2469fb31cc8c3f5f126a90f8bbbec85bed69e769174063ac66e407a3e9a2a2",
+      "changes_sha256": "6f61f162c5012a3b294f33a11279e9b523524f2eeddea1de4664e01309441e8f",
+      "review_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/publication-partial-review-r12.json",
+      "review_sha256": "cd6a93cfdb7e7ddc34680d5c32f18f344bd034f4ac434638a55b6a0f238c159c"
+    },
+    {
+      "entry": 22,
+      "proposal_sha256": "b96b54da4fe3fd16df8c24f93c3820b41426c25aa3e91d693b05f86be42891d6",
+      "changes_sha256": "481da49ef29f79306806d8d35a24aa255e9b9b575b0e99c32d1e81205ff54683",
+      "review_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/publication-partial-review-r16.json",
+      "review_sha256": "2db27b703f6bff61785e862df770c55b1a6bab09e1d9deaae68b4459fdb89dc8"
+    }
+  ],
+  "source_review_references": [
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/publication-partial-review-r1.json",
+      "sha256": "7dc3ebfb0e13ab2682fbd751d5b3c81c2bd6240334d02f8453d873b9226c33f7",
+      "actual_read_scope": "공단일반유료125/유형별무료/3억초과제외·전화상담및개별표미열람"
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/publication-partial-review-r4.json",
+      "sha256": "84558f2ff9aa89a6fb8212eec6f68ea77a891bc856677d0d684d368b0871791b",
+      "actual_read_scope": "9항법110/령77/규칙62·63직접기간·신청/부칙"
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/publication-partial-review-r9.json",
+      "sha256": "cfeaef1f492e1f6f41054aa199e6b0c3ac8422dc399bddc2f3c8ceea56d79364",
+      "actual_read_scope": "10항MOHW2026실PDF표확인·재난지원율미확인분리"
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/publication-partial-review-r17.json",
+      "sha256": "d1aac53c1fb676a27a6ce048f1170158de84d93cd7192e46ed5864bafca04d40",
+      "actual_read_scope": "3항whole기관주체최소교정및다른fullbytes불변/법정선정주체실조문"
+    }
+  ],
+  "whole_source_findings_closed": [
+    "3공단일반안내확인범위갱신/유형별표유보보존",
+    "9법정이력기간·유지기간실조문해소/개인보험료조정유보",
+    "10실제2026상한표해소/지원율·상한유보",
+    "17기존60자ordinary를의미보존분리",
+    "최종3/19/22교정승인·22map모든binding정합"
+  ],
+  "literal_check": {
+    "ordinary_sentences": [
+      {
+        "scope": "intro",
+        "text": "오늘 필요한 먹을 것과 잠자리부터 구하세요.",
+        "characters": 24
+      },
+      {
+        "scope": "intro",
+        "text": "갑작스러운 실직이나 질병에는 긴급지원을 요청합니다.",
+        "characters": 28
+      },
+      {
+        "scope": "intro",
+        "text": "계속 부족한 생활비는 기초생활보장을 확인하세요.",
+        "characters": 26
+      },
+      {
+        "scope": "intro",
+        "text": "신청하지 않으면 놓치는 지원이 많습니다.",
+        "characters": 22
+      },
+      {
+        "scope": "intro",
+        "text": "지원은 가구·소득·재산·근로 이력에 따라 달라집니다.",
+        "characters": 29
+      },
+      {
+        "scope": "intro",
+        "text": "아래 금액은 표시한 연도의 기준입니다.",
+        "characters": 21
+      },
+      {
+        "scope": "intro",
+        "text": "내 상황의 실제 지급액은 담당기관에서 확인하세요.",
+        "characters": 27
+      },
+      {
+        "scope": "intro",
+        "text": "상담이 무료여도 교통비와 서류 준비 시간은 듭니다.",
+        "characters": 28
+      },
+      {
+        "scope": "intro",
+        "text": "일을 잃었다면 제1항(구직급여)을 보세요.",
+        "characters": 23
+      },
+      {
+        "scope": "intro",
+        "text": "임금이 밀렸다면 제2항(임금체불)과 제22항(실제 고용관계)을 보세요.",
+        "characters": 39
+      },
+      {
+        "scope": "intro",
+        "text": "당장 잘 곳이 없으면 제4항(노숙인 지원시설)을 확인하세요.",
+        "characters": 33
+      },
+      {
+        "scope": "intro",
+        "text": "갑작스러운 위기에는 제6항(긴급복지지원)을 보세요.",
+        "characters": 28
+      },
+      {
+        "scope": "tail",
+        "text": "제3항: 무료 소송구조 유형별 최신 소득표와 지원 범위.",
+        "characters": 31
+      },
+      {
+        "scope": "tail",
+        "text": "공단의 일반 안내는 확인했습니다.",
+        "characters": 18
+      },
+      {
+        "scope": "tail",
+        "text": "본인 유형의 경제기준과 비용 부담 범위는 신청할 때 확인하세요.",
+        "characters": 35
+      },
+      {
+        "scope": "tail",
+        "text": "제4항·제21항: 지역별 시설 연락처·공실·입소 조건·가족 동반 가능 여부.",
+        "characters": 42
+      },
+      {
+        "scope": "tail",
+        "text": "이용하는 날 해당 지자체·시설에 확인해야 합니다.",
+        "characters": 27
+      },
+      {
+        "scope": "tail",
+        "text": "제8항: 장애수당·부가급여의 2026년 유형별 실제 지급액과 활동지원 신청조건.",
+        "characters": 44
+      },
+      {
+        "scope": "tail",
+        "text": "장애인연금 기초급여와 구분해 확인해야 합니다.",
+        "characters": 25
+      },
+      {
+        "scope": "tail",
+        "text": "제9항: 소득 조정·정산 절차와 개인별 보험료·피부양자 자격.",
+        "characters": 34
+      },
+      {
+        "scope": "tail",
+        "text": "임의계속가입의 이력기간과 적용기간은 법령으로 확인했습니다.",
+        "characters": 32
+      },
+      {
+        "scope": "tail",
+        "text": "실제 보험료와 자격은 공단에 확인하세요.",
+        "characters": 22
+      },
+      {
+        "scope": "tail",
+        "text": "제10항: 재난적의료비의 현행 지원율·상한.",
+        "characters": 24
+      },
+      {
+        "scope": "tail",
+        "text": "2026년 본인부담상한액 표는 확인했습니다.",
+        "characters": 24
+      },
+      {
+        "scope": "tail",
+        "text": "개인별 적용 금액과 지원율은 공단에 확인하세요.",
+        "characters": 26
+      },
+      {
+        "scope": "tail",
+        "text": "제12항: 국민취업지원제도 수당의 현행 지급액·부양가족 가산, 청년 선발형 추가 기준.",
+        "characters": 48
+      },
+      {
+        "scope": "tail",
+        "text": "일반형의 법령상 요건만 확정했습니다.",
+        "characters": 20
+      },
+      {
+        "scope": "tail",
+        "text": "제16항: 실제 신청 지역·주택 유형의 모집공고.",
+        "characters": 27
+      },
+      {
+        "scope": "tail",
+        "text": "무주택·소득·자산·선정순위·보증금·임대료를 개별 공고로 확인해야 합니다.",
+        "characters": 40
+      },
+      {
+        "scope": "tail",
+        "text": "제17항: 한국에서 단기숙박·합가·직접 요리의 비용 차이를 뒷받침할 공공 자료.",
+        "characters": 44
+      },
+      {
+        "scope": "tail",
+        "text": "지역별 급식·푸드지원 조건도 확인해야 합니다.",
+        "characters": 25
+      },
+      {
+        "scope": "tail",
+        "text": "절약률은 제시하지 않았습니다.",
+        "characters": 16
+      },
+      {
+        "scope": "tail",
+        "text": "제20항: 실제 검토 상품의 갱신·재가입·중복보상 약관과 보험료.",
+        "characters": 36
+      },
+      {
+        "scope": "tail",
+        "text": "특정 상품의 혜택이나 요율을 보장하지 않았습니다.",
+        "characters": 27
+      }
+    ],
+    "max_characters": 48,
+    "counting_rule": "spaces/parentheses included; protected status banner/navigation/headings excluded as metadata; no narrative sentence exception"
+  },
+  "guards": {
+    "original_intro_exact": true,
+    "protected_banner_and_links_and_heading_exact": true,
+    "TODO_items_9_preserved": true,
+    "original_tail_whitespace_boundary_preserved": true,
+    "numbered_entries_unchanged_by_tail_operations": true,
+    "all22_bindings_match_latest_frozen_manifest": true,
+    "all22_exact_approve_tuple": true
+  },
+  "limitations": [
+    "원래상태배너는보호된역사텍스트이며이번정식KR-FIT통과선언아님.",
+    "9개TODO의개인자격·금액·공실·약관·논문전문등미확인은그대로명시.",
+    "새HTTP없음/원자료실제열람기록은위고정partial리뷰에보존/가상candidate파일·원본문수정없음."
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "status": "pending_candidate_review",
+  "chapter": 7,
+  "source_sha256": "48c5d96b9d2c280eabe9ecfedf11cb6674a2ec25ea35c3da1326b2de60d11656",
+  "candidate_sha256": null,
+  "review_kind": "independent_source_content_audit_not_formal_KR_FIT",
+  "entries": [
+    {
+      "entry": 1,
+      "source_review_status": "검증·버전주의",
+      "candidate_review": "pending",
+      "field_decisions": []
+    },
+    {
+      "entry": 2,
+      "source_review_status": "검증",
+      "candidate_review": "pending",
+      "field_decisions": []
+    },
+    {
+      "entry": 3,
+      "source_review_status": "수정권장",
+      "candidate_review": "pending",
+      "field_decisions": []
+    },
+    {
+      "entry": 4,
+      "source_review_status": "검증·개별이용조건 유보",
+      "candidate_review": "pending",
+      "field_decisions": []
+    },
+    {
+      "entry": 5,
+      "source_review_status": "검증",
+      "candidate_review": "pending",
+      "field_decisions": []
+    },
+    {
+      "entry": 6,
+      "source_review_status": "검증",
+      "candidate_review": "pending",
+      "field_decisions": []
+    },
+    {
+      "entry": 7,
+      "source_review_status": "검증·가구조건 보강권장",
+      "candidate_review": "pending",
+      "field_decisions": []
+    },
+    {
+      "entry": 8,
+      "source_review_status": "검증·추가급여 유보",
+      "candidate_review": "pending",
+      "field_decisions": []
+    },
+    {
+      "entry": 9,
+      "source_review_status": "부분검증·세부기간 유보",
+      "candidate_review": "pending",
+      "field_decisions": []
+    },
+    {
+      "entry": 10,
+      "source_review_status": "검증·현행금액표 유보",
+      "candidate_review": "pending",
+      "field_decisions": []
+    },
+    {
+      "entry": 11,
+      "source_review_status": "검증",
+      "candidate_review": "pending",
+      "field_decisions": []
+    },
+    {
+      "entry": 12,
+      "source_review_status": "수정권장",
+      "candidate_review": "pending",
+      "field_decisions": []
+    },
+    {
+      "entry": 13,
+      "source_review_status": "기관본문검증·고시접근실패",
+      "candidate_review": "pending",
+      "field_decisions": []
+    },
+    {
+      "entry": 14,
+      "source_review_status": "초록검증·본문미확보",
+      "candidate_review": "pending",
+      "field_decisions": []
+    },
+    {
+      "entry": 15,
+      "source_review_status": "검증·예외 명시권장",
+      "candidate_review": "pending",
+      "field_decisions": []
+    },
+    {
+      "entry": 16,
+      "source_review_status": "검증·공고별 유보",
+      "candidate_review": "pending",
+      "field_decisions": []
+    },
+    {
+      "entry": 17,
+      "source_review_status": "경험조언·등급주의",
+      "candidate_review": "pending",
+      "field_decisions": []
+    },
+    {
+      "entry": 18,
+      "source_review_status": "검증",
+      "candidate_review": "pending",
+      "field_decisions": []
+    },
+    {
+      "entry": 19,
+      "source_review_status": "검증·자격보강권장",
+      "candidate_review": "pending",
+      "field_decisions": []
+    },
+    {
+      "entry": 20,
+      "source_review_status": "법률부분검증·상품범위 유보",
+      "candidate_review": "pending",
+      "field_decisions": []
+    },
+    {
+      "entry": 21,
+      "source_review_status": "경험조언·시설법검증",
+      "candidate_review": "pending",
+      "field_decisions": []
+    },
+    {
+      "entry": 22,
+      "source_review_status": "검증",
+      "candidate_review": "pending",
+      "field_decisions": []
+    }
+  ],
+  "editorial_proposals": [],
+  "requirements": [
+    "Read current candidate and exact proposal bytes; record SHA256, before and field-specific approve/revise/reject before final editorial approval.",
+    "Resolve factual revisions only through reviewed integration; pure humanization and protected metadata remain unchanged."
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "chapter": 8,
+  "status": "completed_exact_partial_review_r9",
+  "manifest_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/author-partial-manifest-9.json",
+  "manifest_sha256": "0ae6b0169a570b08084db6f5033ccb66b991e2af923fc00ba9954a5d5a2f5edd",
+  "entries": [
+    {
+      "entry": 12,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-012-f9e3/publication-entry-proposal.md",
+      "proposal_sha256": "5a313088be6badf904cf97987290ce127a83569ef9ac968f24fa3b6ad8a586f8",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-012-f9e3/publication-entry-changes.json",
+      "changes_sha256": "5156874aeff9b06e56cd1c43245b30c9034fa7a0f9e299f37ed7d504109922c9",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-012-f9e3/strict-entry.md",
+      "base_strict_entry_sha256": "5a313088be6badf904cf97987290ce127a83569ef9ac968f24fa3b6ad8a586f8",
+      "literal_exit_code": 0,
+      "decision": "approve",
+      "all_four_complete_fields_read": true,
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "snapshot_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-012-f9e3/entry_snapshot.md",
+      "snapshot_sha256": "5a313088be6badf904cf97987290ce127a83569ef9ac968f24fa3b6ad8a586f8",
+      "strict_candidate_contains_exact_base": true,
+      "length_check": {
+        "entry": 12,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-012-f9e3/publication-entry-proposal.md",
+        "title_chars": 25,
+        "easy_chars": 65,
+        "easy_sentences": 3,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "number": true,
+        "six_labels": true,
+        "tags": true,
+        "grade": true
+      },
+      "production_layout_check": true,
+      "initial_canonical_entry": {
+        "entry": 12,
+        "title": "### 12. 임금·해고·금전 분쟁은 법정 절차로 해결하세요",
+        "source_entry_snapshot_path": "_workspace/2026-10-18-012-f9e3/entry_snapshot.md",
+        "source_entry_snapshot_sha256": "5a313088be6badf904cf97987290ce127a83569ef9ac968f24fa3b6ad8a586f8",
+        "source_review_status": "no_new_error_found",
+        "candidate_review_status": "pending_candidate_review",
+        "scope_and_findings": "근로기준법28조 해고일부터3개월, 적용 사업장·근로자 확인 유보 일치. 진정/노동위원회/민사를 구분했고 회수불능·소송비용 유보 유지. 적용 요건을 생략한 보편 구제권으로 줄이지 마세요."
+      },
+      "finding_closure": "엄밀한source수정없는strict동일안도전체필드독립검토했다.근기법2/11/28/49·시행유보및형법실조문·NLRC공식신청본문을직접읽음.3개월기한·적용사업장/근로자확인·임금시효확인·사업자대금다른절차·비용/회수불확실보존.노동관서URL하나실패를검증으로세지않고별도공식노동포털실제임금체불진정서메뉴확인.학생실습생개별판례는미열람이나본문이개별분류결론을내리지않고실관계확인권고라허위로판정하지않음.5명이상/동거친족·가사사용인예외는직접읽고12본문의적용요건확인과실제연결19e6의5미만제외를함께대조;모든사업장보편구제라고승인한것아님.전필드·길이/layout·보호·DOI0통과.",
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "revision_requests": [],
+      "proposed_root_operation": {
+        "type": "replace_complete_strict_entry_body",
+        "before_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-012-f9e3/strict-entry.md",
+        "before_entire_entry_sha256": "5a313088be6badf904cf97987290ce127a83569ef9ac968f24fa3b6ad8a586f8",
+        "after_proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-012-f9e3/publication-entry-proposal.md",
+        "after_original_proposal_sha256": "5a313088be6badf904cf97987290ce127a83569ef9ac968f24fa3b6ad8a586f8",
+        "effective_after_sha256": "5a313088be6badf904cf97987290ce127a83569ef9ac968f24fa3b6ad8a586f8",
+        "effective_after_rule": "proposal.rstrip()+original strict entry trailing whitespace; preserve original separators",
+        "supersession": "Latest approved full replaces any initial field/older full once.",
+        "integration_authorized": false
+      },
+      "field_decisions": {
+        "title": "approve",
+        "비용": "approve",
+        "쉽게": "approve",
+        "이득": "approve",
+        "근거등급": "approve",
+        "출처": "approve",
+        "비고": "approve"
+      }
+    }
+  ],
+  "approved_entries": [
+    12
+  ],
+  "revise_entries": [],
+  "actual_primary_readings": [
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/285279.xml",
+      "artifact_sha256": "222fd311aa29570bf0045061e332c9b6696b49427a4ae8f17540763866b36c2e",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=285279&type=XML",
+      "read_at_utc": "2026-10-18T19:40:19.561276+00:00",
+      "read_scope": "직접읽음:근기법2전체/11전체/28전체/49전체·21472/21533부칙.근로자임금목적실제근로/상시5이상·동거친족만및가사사용인제외/4이하일부위임,구제3개월·임금시효3년확인.해당28/49를2027장래시행43의6/44의4나8개월지연101~105와혼동하지않음.학생실습생개별판례·지휘감독판단판례전수미열람;본문은명칭만으로정해지지않고실관계확인조언에한정.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/nlrc",
+      "artifact_sha256": "66406d771b7a31900b190e2954825070c82f3550a81ac656a5eca98f2f4c4416",
+      "url": "https://www.nlrc.go.kr/nlrc/commIntro/workGuide03.do",
+      "read_at_utc": "2026-10-18T19:40:19.561421+00:00",
+      "read_scope": "공식온라인사건신청실제HTML·구제신청대상/입증자료/지방노동위원회·부당해고등3개월본문직접읽음.로그인실신청/개별적용판정안함.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch19-audit/548741634c2a42f54bad.raw",
+      "artifact_sha256": "6862913cace8f27d5ef39357e4fefa55bfddb6a6a023e39a0bc1f6376a999452",
+      "url": "https://labor.moel.go.kr/main/main.do",
+      "read_at_utc": "2026-10-18T19:40:19.561541+00:00",
+      "read_scope": "공식고용노동부노동포털실제HTML제목/진정청원/임금체불등진정서메뉴직접읽음.홈/메뉴만으로처리기간·성공보장·개인사건검증안함.원저자실패한별도moel정책URL과구별되는보존원자료.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290185.xml",
+      "artifact_sha256": "391f3c2bb7173fff4040eda9ae2259674b616e58aeadf4371206b63c70f1c89b",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290185&type=XML",
+      "read_at_utc": "2026-10-18T19:40:19.562500+00:00",
+      "read_scope": "250살인①②추가읽기/257상해260폭행·관련22007부칙은이번r2직접읽기재사용.금전분쟁이라는이유만의보복정당화아님범위.형량/개별범죄성립/처분결과보장아님.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    }
+  ],
+  "prior_actual_reading_reuse": [
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/publication-followup-review-04-r2.json",
+      "sha256": "c21d1d67f38b01c83f62e30fc550e1fb580a1bb99174ffa633ee4691ba8d0135",
+      "scope": "형법257/260·22007부칙직접읽기재사용.새HTTP아님."
+    }
+  ],
+  "cross_reference_review": [
+    {
+      "source_entry": 12,
+      "target_chapter": 19,
+      "target_entry": 1,
+      "path": "/workspace/HowToLiveBetter-KR/book-kr/19-재직-퇴사-산재.md",
+      "file_sha256": "3e644d50e218cc04049177fa5a6ff81785f657f1eb9f5cbd68a61c6d7057fb3d",
+      "target_body_sha256": "ae483ba95f86c59fc2e7f2f9eec00e1b93969a7de4a6de4e731f84f66f827a83",
+      "actual_scope": "임금진정/부당해고신청기한·5미만적용제외가대상비고에있고12의적용사업장근로자요건확인·사업자대금별도와부합.타절모든수치/시행규정전체의신규승인아님."
+    },
+    {
+      "source_entry": 12,
+      "target_chapter": 19,
+      "target_entry": 6,
+      "path": "/workspace/HowToLiveBetter-KR/book-kr/19-재직-퇴사-산재.md",
+      "file_sha256": "3e644d50e218cc04049177fa5a6ff81785f657f1eb9f5cbd68a61c6d7057fb3d",
+      "target_body_sha256": "53aa140b6d3d8c729277e337941599ab8ab1c8840445622c22c1f7110140e7c3",
+      "actual_scope": "임금진정/부당해고신청기한·5미만적용제외가대상비고에있고12의적용사업장근로자요건확인·사업자대금별도와부합.타절모든수치/시행규정전체의신규승인아님."
+    }
+  ],
+  "production_helper_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/scripts/humanize_publication.py",
+  "production_helper_sha256": "244c194c7620c3095dc3a972eecdaa4e17fab8a0a301ae8b601cb8401569bfd3",
+  "helper_code_modified": false,
+  "fresh_http_performed": false,
+  "whole46_approval": false,
+  "integration_approval": false,
+  "formal_kr_fit_approval": false,
+  "preservation": "Prior reviews/frozen proposals/canonical/public/runs/gates/git unchanged.",
+  "reviewer_id": "/root/publication_review_04",
+  "six_complete_fields_read": true,
+  "access_limits": [
+    "학생·실습생개별판례/근로자성최종판단미열람.본문은개별결론아닌확인권고.",
+    "근기법11②4이하적용시행령별표원문은이번에읽지않았고새세부적용법규를확정추가하지않음.제19절신청참조범위만대조.",
+    "원저자moel정책안내서비스오류는원문검증아님.별도노동포털실기관메뉴직접확인으로진정경로존재만확인."
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "status": "revision_required_before_whole_canonical",
+  "reviewer_id": "/root/publication_review_09",
+  "reviewed_at_utc": "2026-10-18T19:42:36.721444+00:00",
+  "manifest_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/author-final-manifest-r4.json",
+  "manifest_sha256": "c241a50b351a304be2f88d7f4df30187908c32abe282ca26a7d744edc5bd2433",
+  "entry": 3,
+  "proposal_sha256": "4397a2f08a4ee703189e4e24b7f70f950153b4c83b4ed42134315b9b42b7e7a1",
+  "changes_sha256": "f7a8e658bc645dc5e66ab7c0bbeaebbeec2a3136517a410b1f2fa1d83fb85b5a",
+  "finding": "whole reread found retained institutional wording not fully current-source-scoped",
+  "request": "검찰청이지정이라는구형기관안내표현을법정권한주체검사가선정한경우등으로정리.원자료미열람을기관폐지확정이라고쓰지않음.공단지정예외조건보존·전피해자보편국선권리추가금지.",
+  "prior_approval": "publication-partial-review-r1.json approval retained as historical exact-entry record; this later finding blocks whole approval until new correction reviewed",
+  "actual_artifact_read_log": [
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=289993&type=XML",
+      "source_collected_at_utc": "2026-10-18T12:38:21.881519+00:00",
+      "http_status": 200,
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/289993.xml",
+      "sha256": "59d81472328677059564df800389cc6e54e12e4788061dd146f949df56af60c4",
+      "reviewed_at_utc": "2026-10-18T19:42:36.721444+00:00",
+      "method": "cached_primary_XML_independently_read_not_new_HTTP",
+      "actual_read_scope": "성폭특례27전항/21997부칙실제읽음.27⑥검사가국선선정·19세미만피해자등필수단서.20261002현행.법정선정주체를검찰청이아닌검사로표현가능.공단고소대리예외범위자체를이법으로입증한것은아님."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=289809&type=XML",
+      "source_collected_at_utc": "2026-10-18T12:38:21.791452+00:00",
+      "http_status": 200,
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/289809.xml",
+      "sha256": "f5d2dab54b255190fc8c3212d6371e5ef39aff84ce2604e0575031afc1b8041f",
+      "reviewed_at_utc": "2026-10-18T19:42:36.721444+00:00",
+      "method": "cached_primary_XML_independently_read_not_new_HTTP",
+      "actual_read_scope": "아동학대특례16전항/21999및21321·21657부칙실제읽음.16⑥검사가피해아동변호사없으면국선선정.20261002현행.모든범죄피해자에게전면국선보장으로확대하지않음."
+    }
+  ],
+  "reviewer_fresh_http": [],
+  "formal_kr_fit_approval": false,
+  "final_approval": false,
+  "integration_approval": false
+}

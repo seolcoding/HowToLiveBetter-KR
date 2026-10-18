@@ -1,0 +1,234 @@
+{
+  "chapter": 8,
+  "status": "completed_exact_partial_review_r16",
+  "manifest_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/author-partial-manifest-16.json",
+  "manifest_sha256": "1fb90258f9c124b5c81e5a04bbde7b3b1782a285fb593c6ee0798e66a88f1e42",
+  "entries": [
+    {
+      "entry": 26,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-026-721f/publication-entry-proposal.md",
+      "proposal_sha256": "84cf0a11ae1c46c3b684ad2b071454442dcde7c28caff142dbbc05680b828c87",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-026-721f/publication-entry-changes.json",
+      "changes_sha256": "a9d5d168d0e428cbf5a547bfc09dd387261351ae903e41863d1e922411512a80",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-026-721f/strict-entry.md",
+      "base_strict_entry_sha256": "50cba8a87a2fd030a6e35584626aeb60d10b78cef20d2c11bd1776b75f494f9a",
+      "literal_exit_code": 0,
+      "decision": "approve",
+      "all_four_complete_fields_read": true,
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "snapshot_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-026-721f/entry_snapshot.md",
+      "snapshot_sha256": "50cba8a87a2fd030a6e35584626aeb60d10b78cef20d2c11bd1776b75f494f9a",
+      "strict_candidate_contains_exact_base": true,
+      "length_check": {
+        "entry": 26,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-026-721f/publication-entry-proposal.md",
+        "title_chars": 22,
+        "easy_chars": 75,
+        "easy_sentences": 3,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "number": true,
+        "six_labels": true,
+        "tags": true,
+        "grade": true
+      },
+      "production_layout_check": true,
+      "initial_canonical_entry": {
+        "entry": 26,
+        "title": "### 26. 결혼 전 혼인관계증명서를 함께 확인하세요",
+        "source_entry_snapshot_path": "_workspace/2026-10-18-026-721f/entry_snapshot.md",
+        "source_entry_snapshot_sha256": "50cba8a87a2fd030a6e35584626aeb60d10b78cef20d2c11bd1776b75f494f9a",
+        "source_review_status": "no_new_error_found",
+        "candidate_review_status": "pending_candidate_review",
+        "scope_and_findings": "가족관계등록법14·15 발급권한과 증명서 종류·민법810/816 중혼 금지와 취소 구분 확인. 예비배우자가 몰래 발급할 보편 권한 없음 유지. 혼인사기/관계종료 자동사기 구분."
+      },
+      "finding_closure": "실가족관계14/15와혼인증명서현재혼인·본인권한·예비배우자만의권한아님/목적외금지일치.본인발급확인권고여서제삼자발급모든예외를없애지않음.중혼은810금지/816취소사유로구별하고혼인사기는관계종료만으로단정안함.개별수수료표/외국제도미확인정직유보.전필드/길이/layout/보호/DOI0통과.",
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "revision_requests": [],
+      "proposed_root_operation": {
+        "type": "replace_complete_strict_entry_body",
+        "before_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-026-721f/strict-entry.md",
+        "before_entire_entry_sha256": "50cba8a87a2fd030a6e35584626aeb60d10b78cef20d2c11bd1776b75f494f9a",
+        "after_proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-026-721f/publication-entry-proposal.md",
+        "after_original_proposal_sha256": "84cf0a11ae1c46c3b684ad2b071454442dcde7c28caff142dbbc05680b828c87",
+        "effective_after_sha256": "84cf0a11ae1c46c3b684ad2b071454442dcde7c28caff142dbbc05680b828c87",
+        "effective_after_rule": "proposal.rstrip()+original strict entry trailing whitespace; preserve original separators",
+        "supersession": "Latest approved full replaces any initial field/older full once.",
+        "integration_authorized": false
+      },
+      "field_decisions": {
+        "title": "approve",
+        "비용": "approve",
+        "쉽게": "approve",
+        "이득": "approve",
+        "근거등급": "approve",
+        "출처": "approve",
+        "비고": "approve"
+      }
+    },
+    {
+      "entry": 27,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-027-1373/publication-entry-proposal.md",
+      "proposal_sha256": "6f93be329945927935d04f53cd5d7df2a328403f153fb64577e5a345a6770d09",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-027-1373/publication-entry-changes.json",
+      "changes_sha256": "d4a40c7a24ecb57b6cbbcbae03dc95e2fce289ac4ebf6a3d80f2f6c2912430d5",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-027-1373/strict-entry.md",
+      "base_strict_entry_sha256": "0974e1bb9db7755eedff37880bfc69867a6fb8db4dcf1d7f930609a7028d769a",
+      "literal_exit_code": 0,
+      "decision": "approve",
+      "all_four_complete_fields_read": true,
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "snapshot_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-027-1373/entry_snapshot.md",
+      "snapshot_sha256": "0974e1bb9db7755eedff37880bfc69867a6fb8db4dcf1d7f930609a7028d769a",
+      "strict_candidate_contains_exact_base": true,
+      "length_check": {
+        "entry": 27,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-027-1373/publication-entry-proposal.md",
+        "title_chars": 29,
+        "easy_chars": 72,
+        "easy_sentences": 3,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "number": true,
+        "six_labels": true,
+        "tags": true,
+        "grade": true
+      },
+      "production_layout_check": true,
+      "initial_canonical_entry": {
+        "entry": 27,
+        "title": "### 27. 출장 수리·공사는 작업 전에 총액과 부품을 확인하세요",
+        "source_entry_snapshot_path": "_workspace/2026-10-18-027-1373/entry_snapshot.md",
+        "source_entry_snapshot_sha256": "0974e1bb9db7755eedff37880bfc69867a6fb8db4dcf1d7f930609a7028d769a",
+        "source_review_status": "limited_support",
+        "candidate_review_status": "pending_candidate_review",
+        "scope_and_findings": "소비자기본법55조 피해구제와 민법110/750만 확인. 출장수리·자동차검사·인테리어 각각의 가격표/견적 강제의무·배상표는 미확인. 현재 확인/기록 권고로만 쓰고 모든 업종 의무·벌금은 단정하지 않아야 합니다."
+      },
+      "finding_closure": "실소비자55한국소비자원신청및부적합시사유통보후재량중지명시와일치.실민110/750일반근거를개별업종법정의무/성공보장으로확대안함.견적/추가작업/부품사진기록은실용조언이며전업종가격표벌금/절약비율미확인독자유보.안전거리와업체안내조건유지.전필드/길이/layout/보호/DOI0통과.",
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "revision_requests": [],
+      "proposed_root_operation": {
+        "type": "replace_complete_strict_entry_body",
+        "before_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-027-1373/strict-entry.md",
+        "before_entire_entry_sha256": "0974e1bb9db7755eedff37880bfc69867a6fb8db4dcf1d7f930609a7028d769a",
+        "after_proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-027-1373/publication-entry-proposal.md",
+        "after_original_proposal_sha256": "6f93be329945927935d04f53cd5d7df2a328403f153fb64577e5a345a6770d09",
+        "effective_after_sha256": "6f93be329945927935d04f53cd5d7df2a328403f153fb64577e5a345a6770d09",
+        "effective_after_rule": "proposal.rstrip()+original strict entry trailing whitespace; preserve original separators",
+        "supersession": "Latest approved full replaces any initial field/older full once.",
+        "integration_authorized": false
+      },
+      "field_decisions": {
+        "title": "approve",
+        "비용": "approve",
+        "쉽게": "approve",
+        "이득": "approve",
+        "근거등급": "approve",
+        "출처": "approve",
+        "비고": "approve"
+      }
+    }
+  ],
+  "approved_entries": [
+    26,
+    27
+  ],
+  "revise_entries": [],
+  "actual_primary_readings": [
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290741.xml",
+      "artifact_sha256": "1536b089044348843d550af54c4457d25cfca583c29c512643c1d0c8efb07f7c",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290741&type=XML",
+      "read_at_utc": "2026-10-18T19:52:35.765787+00:00",
+      "read_scope": "14조전체·15①증명서종류/②3일반혼인현재/③3상세혼인이혼관련부분·21857부칙1/15④직접읽음.본인배우자직계혈족/위임대리·법정이해관계예외·최소정보/목적외금지·가정폭력피해교부제한을구별.본문본인발급함께확인/예비배우자만으로권한아님과맞음.친양자증명서와혼인증명서발급근거혼동안함.수수료표/대법원규칙이해관계자세부/외국제도전수미열람.새HTTP아님.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/284415.xml",
+      "artifact_sha256": "cd2997176df62de7b1e4bb018287987654f6054cbd0eeced9e882d5c4daf53df",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=284415&type=XML",
+      "read_at_utc": "2026-10-18T19:52:35.767521+00:00",
+      "read_scope": "810/816전체·750직접읽음.중혼금지대혼인취소(자동무효단정아님),고의과실위법/타인손해배상일반근거.110전체는r5읽기재사용·개별혼인사기/공사하자판례검증아님.새HTTP아님.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/283837.xml",
+      "artifact_sha256": "710ddcc550c27e43b59573bb1e8bd58b2149a865b18ee48d5977dbbdbdee1096",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=283837&type=XML",
+      "read_at_utc": "2026-10-18T19:52:35.767843+00:00",
+      "read_scope": "55①~④전체·21444부칙1~5및기본시행20260911직접읽음.소비자물품등사용피해→한국소비자원신청권,부적합사건원장이사유통보후중지할수있음·무조건구제보장아님.업종별견적의무/표시금액/감소율확인안해본문유보유지.새58처리기간/소송지원시행적용을55에잘못추가안함.새HTTP아님.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290185.xml",
+      "artifact_sha256": "391f3c2bb7173fff4040eda9ae2259674b616e58aeadf4371206b63c70f1c89b",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290185&type=XML",
+      "read_at_utc": "2026-10-18T19:52:35.768262+00:00",
+      "read_scope": "347실조문직접읽기는r8재사용.기망/재물이나이익취득을관계종료만으로추정하지않음.현재원고에처벌형량/수사결과보장추가없음.새HTTP아님.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    }
+  ],
+  "prior_actual_reading_reuse": [
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/publication-followup-review-04-r5.json",
+      "sha256": "b76c9bceacda67df26cfc21f093fa6aaef02bf2735b2da21ead361452bfaf134",
+      "scope": "민110/21454부칙직접읽기재사용"
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/publication-followup-review-04-r8.json",
+      "sha256": "9f694335e809aa4e1fff4c9b83153fbb1d2967e17630d8b28d2b1bf63f155fc0",
+      "scope": "형347/최신부칙직접읽기재사용"
+    }
+  ],
+  "cross_reference_review": [
+    {
+      "entries": [
+        26,
+        27
+      ],
+      "outgoing": [],
+      "titles_unchanged": true,
+      "scope": "명시타항목참조없음.독립전항목승인/법규전수검증아님."
+    }
+  ],
+  "production_helper_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/scripts/humanize_publication.py",
+  "production_helper_sha256": "244c194c7620c3095dc3a972eecdaa4e17fab8a0a301ae8b601cb8401569bfd3",
+  "helper_code_modified": false,
+  "fresh_http_performed": false,
+  "whole46_approval": false,
+  "integration_approval": false,
+  "formal_kr_fit_approval": false,
+  "preservation": "Prior reviews/frozen proposals/canonical/public/runs/gates/git unchanged.",
+  "reviewer_id": "/root/publication_review_04",
+  "six_complete_fields_read": true
+}

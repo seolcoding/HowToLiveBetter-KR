@@ -1,0 +1,53 @@
+{
+  "chapter": 8,
+  "entry": 8,
+  "revision": 2,
+  "status": "unadopted_pending_independent_exact_hash_review",
+  "same_original_author": true,
+  "date_utc": "2026-10-18T20:08:38.332589+00:00",
+  "previous_proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-008-b780/publication-entry-proposal.md",
+  "previous_proposal_sha256": "e4771c9c07e7e0d5a7d090dc2fbda8b2e06a76d048f0ca76f79ae57c1206f687",
+  "previous_changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-008-b780/publication-entry-changes.json",
+  "previous_changes_sha256": "285f6c663514423e5933f714b8f09a0b7b4f0299336422660bc724127a0de6b2",
+  "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-008-b780/publication-entry-proposal-r2.md",
+  "proposal_sha256": "18b6c42fedaeccb9fb890f87821a3cadeb238443b3a4570a8f709b2be166b377",
+  "strict_entry_sha256": "d5fbe0eacc8815f3d0f77ad52e8539ae8b0b03fc51c93509585948134d4378b4",
+  "exact_diff": {
+    "field": "비고",
+    "before": "제45항(명의를 빌려주지 마세요)",
+    "after": "제45항(명의·인증번호)",
+    "occurrences": 1,
+    "reason": "기존 앵커는 target45 실제 제목의 연속 부분이 아니므로 실제 연속 부분 명의·인증번호로 한 참조만 수정."
+  },
+  "unified_diff": "--- publication-entry-proposal.md\n+++ publication-entry-proposal-r2.md\n@@ -5,5 +5,5 @@\n - 이득: 「전자금융거래법」 제6조는 금융 접근매체의 양도·양수를 원칙적으로 금지합니다. 통장·카드 등이 그 대상입니다. 대가를 받거나 요구·약속하며 대여해도 금지됩니다. 범죄에 쓰려는 목적이 있거나 이를 알고 빌려줘도 금지합니다. 다른 법률에 특별한 규정이 있으면 예외입니다. 제18조에 따른 선불전자지급수단·전자화폐 양도·담보에는 단서가 있습니다. 범죄 목적·인식이 있는 대여·보관·전달·유통은 예외가 아닙니다. 그 알선·중개도 이 단서에서 제외됩니다. 계좌 사용을 돕는 모든 행위를 같은 범죄로 단정하지는 않습니다. 휴대전화 명의·유심의 법적 책임은 이 조항만으로 판단하지 않습니다. 휴대전화 개통을 대신해 주는 제안도 거절하세요.\n - 근거등급: A\n - 출처: 국가법령정보센터. 「전자금융거래법」 제6조·제18조·제49조. https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290247&type=XML\n-- 비고: 이미 넘겼다면 은행·통신사에 사용 중지를 요청하세요. 범죄 의심 정황과 대화 기록을 경찰에 알리세요. 사기 자금이 거쳐 갔다면 거래 제한도 생길 수 있습니다. 제45항(명의를 빌려주지 마세요)도 보세요. 2026-10-10 법령 확인(국가법령정보센터).\n+- 비고: 이미 넘겼다면 은행·통신사에 사용 중지를 요청하세요. 범죄 의심 정황과 대화 기록을 경찰에 알리세요. 사기 자금이 거쳐 갔다면 거래 제한도 생길 수 있습니다. 제45항(명의·인증번호)도 보세요. 2026-10-10 법령 확인(국가법령정보센터).\n \n",
+  "reference_target": {
+    "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-045-585b/publication-entry-proposal.md",
+    "sha256": "73f82c4a605041c9b559bdeb878e14b568904f68b5e0cd11a9cc05d075fd60f6",
+    "actual_title": "### 45. 지인의 대출에 얼굴 인증·명의·인증번호를 빌려주지 마세요",
+    "read_scope": "최신45 full entry의 제목과 여섯 필드를 직접 읽음. 대출명의/인증 제공과 채무/명의도용 조건 범위가 #8 상호참조에 부합. 법률을 새 검증한 것으로 처리하지 않음.",
+    "anchor_is_contiguous_title_substring": true
+  },
+  "all_other_bytes_unchanged": true,
+  "factual_claims_numbers_conditions_grade_costtag_sources_unchanged": true,
+  "source_evidence_inherited_from": {
+    "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-008-b780/publication-entry-changes.json",
+    "sha256": "285f6c663514423e5933f714b8f09a0b7b4f0299336422660bc724127a0de6b2",
+    "note": "법조건 수정 및 새 검증 없음. r1의 원자료 열람 범위와 한계를 유지; r1의 outgoing anchor 적합 판단은 이번 r2에서 연속 substring 기준으로 정정."
+  },
+  "checks": [
+    {
+      "script": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/publication-partial-review-evidence/literal_check.py",
+      "exit_code": 0,
+      "stdout": "[\n  {\n    \"entry\": 8,\n    \"path\": \"/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-008-b780/publication-entry-proposal-r2.md\",\n    \"title_chars\": 23,\n    \"easy_chars\": 70,\n    \"easy_sentences\": 3,\n    \"long_sentences\": [],\n    \"pass_length\": true\n  }\n]\n",
+      "stderr": ""
+    },
+    {
+      "script": "/workspace/.cache/howtolivebetter/publication/check-full-layout.py",
+      "exit_code": 0,
+      "stdout": "{\"checked\": 1, \"failures\": []}\n",
+      "stderr": ""
+    }
+  ],
+  "r1_files_preserved": true,
+  "publication_or_self_approval": false
+}

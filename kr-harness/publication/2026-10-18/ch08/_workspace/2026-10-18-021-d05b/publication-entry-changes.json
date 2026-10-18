@@ -1,0 +1,115 @@
+{
+  "entry": 21,
+  "status": "proposal_pending_independent_review",
+  "base_path": "kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-021-d05b/strict-entry.md",
+  "base_sha256": "af982af4a1263d97ba00cb386674baa57682db2bf64bcc842955d037724adcb2",
+  "proposal_sha256": "2b73d18a1c472ecbfaf1673834739fe7978f5286958478567ab5345f38c11bf2",
+  "changes": [
+    {
+      "field": "이득",
+      "before": "「민사집행법」 제70조가 명부 등재 사유를 정합니다. 금전 지급 집행권원의 확정·작성 후 6개월 내 미이행이 일반 사유입니다. 법이 제외하는 집행권원도 있습니다. 재산명시기일 불출석·목록 제출 거부·선서 거부는 별도 사유입니다. 정당한 사유가 없는 경우에 해당합니다. 거짓 재산목록 제출도 별도 사유입니다. 채권자가 등재를 신청하고 사유를 소명해야 합니다. 제73조에 따라 채무 소멸을 증명하면 말소를 신청할 수 있습니다. 명부에 오른 다음 해부터 10년이 지나면 직권 말소합니다. 명부에서 빠져도 다른 신용정보까지 함께 정정되지는 않습니다.",
+      "after": "「민사집행법」 제70조가 명부 등재 사유를 정합니다. 금전 지급 집행권원의 확정·작성 후 6개월 내 미이행이 일반 사유입니다. 제61조제1항 단서의 가집행 선고가 붙은 집행권원은 제외합니다. 재산명시기일 불출석·목록 제출 거부·선서 거부는 별도 사유입니다. 정당한 사유가 없는 경우에 해당합니다. 거짓 재산목록 제출도 별도 사유입니다. 채권자가 등재를 신청하고 사유를 소명해야 합니다. 쉽게 강제집행할 명백한 사유가 있으면 신청을 기각합니다(제71조). 제73조에 따라 채무 소멸을 증명하면 말소를 신청할 수 있습니다. 명부에 오른 다음 해부터 10년이 지나면 직권 말소합니다. 법원은 명부 부본을 받은 금융기관 등에도 말소 결정을 통지합니다. 통지받은 기관은 부본에서도 이름을 말소해야 합니다. 명부에서 빠져도 다른 신용정보까지 함께 정정되지는 않습니다. 사실과 다른 신용정보는 별도로 정정을 청구할 수 있습니다.",
+      "reason": "Specify excluded provisional-execution titles and dismissal condition; distinguish law-mandated deletion of register copies from separate correction of other credit information."
+    },
+    {
+      "field": "출처",
+      "before": "국가법령정보센터. 「민사집행법」 제70조·제73조. https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=268837&type=XML · 국가법령정보센터. 「신용정보의 이용 및 보호에 관한 법률」 제38조. https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=283841&type=XML",
+      "after": "국가법령정보센터. 「민사집행법」 제61조·제68조·제70조·제71조·제73조. https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=268837&type=XML · 국가법령정보센터. 「신용정보의 이용 및 보호에 관한 법률」 제38조. https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=283841&type=XML",
+      "reason": "Add directly read supporting articles without changing source URLs."
+    },
+    {
+      "field": "비고",
+      "before": "한국 명부를 항공·고속열차 이용 금지 제도로 설명하지 않습니다. 잘못된 등재나 다른 집행 결정은 문서별 불복 절차를 확인하세요. 개인회생·파산은 제7절(돈이 없을 때 사는 법)을 보세요. 2026-10-10 법령 확인(국가법령정보센터).",
+      "after": "잘못된 등재나 다른 집행 결정은 문서별 불복 절차를 확인하세요. 개인회생·파산은 제7절(돈이 없을 때 사는 법)을 보세요. 2026-10-18 법령 확인(국가법령정보센터).",
+      "reason": "Remove translation-process comparison; update date to actual cache reading date."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=268837&type=XML",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch08-audit/law268837.raw",
+      "sha256": "e85b1c66c027d60c73cef3a7067b0593f6612eb47a27f532e477d0d3c77900c7",
+      "verification_date": "2026-10-18",
+      "method": "Previously fetched primary-source XML read directly; no new HTTP request",
+      "read_scope": "Named articles in full, basic effective-date metadata, latest supplementary provision; earlier supplementary provisions were output with truncation and are not claimed fully read",
+      "effective_date": "20260201",
+      "quotations": [
+        {
+          "article": "61",
+          "exact_xml_text": "\n61\n조문\n재산명시신청\n20260201\n\n\nN\n제61조(재산명시신청)\n\n①\n①금전의 지급을 목적으로 하는 집행권원에 기초하여 강제집행을 개시할 수 있는 채권자는 채무자의 보통재판적이 있는 곳의 법원에 채무자의 재산명시를 요구하는 신청을 할 수 있다. 다만, 민사소송법 제213조에 따른 가집행의 선고가 붙은 판결 또는 같은 조의 준용에 따른 가집행의 선고가 붙어 집행력을 가지는 집행권원의 경우에는 그러하지 아니하다.\n\n\n②\n②제1항의 신청에는 집행력 있는 정본과 강제집행을 개시하는데 필요한 문서를 붙여야 한다.\n\n"
+        },
+        {
+          "article": "68",
+          "exact_xml_text": "\n68\n조문\n채무자의 감치 및 벌칙\n20260201\n\n\nN\n제68조(채무자의 감치 및 벌칙)\n\n①\n①채무자가 정당한 사유 없이 다음 각호 가운데 어느 하나에 해당하는 행위를 한 경우에는 법원은 결정으로 20일 이내의 감치(監置)에 처한다.\n\n1.\n1. 명시기일 불출석\n\n\n2.\n2. 재산목록 제출 거부\n\n\n3.\n3. 선서 거부\n\n\n\n②\n②채무자가 법인 또는 민사소송법 제52조의 사단이나 재단인 때에는 그 대표자 또는 관리인을 감치에 처한다.\n\n\n③\n③법원은 감치재판기일에 채무자를 소환하여 제1항 각호의 위반행위에 대하여 정당한 사유가 있는지 여부를 심리하여야 한다.\n\n\n④\n④제1항의 결정에 대하여는 즉시항고를 할 수 있다.\n\n\n⑤\n⑤채무자가 감치의 집행중에 재산명시명령을 이행하겠다고 신청한 때에는 법원은 바로 명시기일을 열어야 한다.\n\n\n⑥\n⑥채무자가 제5항의 명시기일에 출석하여 재산목록을 내고 선서하거나 신청채권자에 대한 채무를 변제하고 이를 증명하는 서면을 낸 때에는 법원은 바로 감치결정을 취소하고 그 채무자를 석방하도록 명하여야 한다.\n\n\n⑦\n⑦제5항의 명시기일은 신청채권자에게 통지하지 아니하고도 실시할 수 있다. 이 경우 제6항의 사실을 채권자에게 통지하여야 한다.\n\n\n⑧\n⑧제1항 내지 제7항의 규정에 따른 재판절차 및 그 집행 그 밖에 필요한 사항은 대법원규칙으로 정한다.\n\n\n⑨\n⑨채무자가 거짓의 재산목록을 낸 때에는 3년 이하의 징역 또는 500만원 이하의 벌금에 처한다.\n\n\n⑩\n⑩채무자가 법인 또는 민사소송법 제52조의 사단이나 재단인 때에는 그 대표자 또는 관리인을 제9항의 규정에 따라 처벌하고, 채무자는 제9항의 벌금에 처한다.\n\n"
+        },
+        {
+          "article": "70",
+          "exact_xml_text": "\n70\n조문\n채무불이행자명부 등재신청\n20260201\n\n\nN\n제70조(채무불이행자명부 등재신청)\n\n①\n①채무자가 다음 각호 가운데 어느 하나에 해당하면 채권자는 그 채무자를 채무불이행자명부(債務不履行者名簿)에 올리도록 신청할 수 있다.\n\n1.\n1. 금전의 지급을 명한 집행권원이 확정된 후 또는 집행권원을 작성한 후 6월 이내에 채무를 이행하지 아니하는 때. 다만, 제61조제1항 단서에 규정된 집행권원의 경우를 제외한다.\n\n\n2.\n2. 제68조제1항 각호의 사유 또는 같은 조제9항의 사유 가운데 어느 하나에 해당하는 때\n\n\n\n②\n②제1항의 신청을 할 때에는 그 사유를 소명하여야 한다.\n\n\n③\n③제1항의 신청에 대한 재판은 제1항제1호의 경우에는 채무자의 보통재판적이 있는 곳의 법원이 관할하고, 제1항제2호의 경우에는 재산명시절차를 실시한 법원이 관할한다.\n\n"
+        },
+        {
+          "article": "71",
+          "exact_xml_text": "\n71\n조문\n등재신청에 대한 재판\n20260201\n\n\nN\n제71조(등재신청에 대한 재판)\n\n①\n①제70조의 신청에 정당한 이유가 있는 때에는 법원은 채무자를 채무불이행자명부에 올리는 결정을 하여야 한다.\n\n\n②\n②등재신청에 정당한 이유가 없거나 쉽게 강제집행할 수 있다고 인정할 만한 명백한 사유가 있는 때에는 법원은 결정으로 이를 기각하여야 한다.\n\n\n③\n③제1항 및 제2항의 재판에 대하여는 즉시항고를 할 수 있다. 이 경우 민사소송법 제447조의 규정은 준용하지 아니한다.\n\n"
+        },
+        {
+          "article": "73",
+          "exact_xml_text": "\n73\n조문\n명부등재의 말소\n20260201\n\n\nN\n제73조(명부등재의 말소)\n\n①\n①변제, 그 밖의 사유로 채무가 소멸되었다는 것이 증명된 때에는 법원은 채무자의 신청에 따라 채무불이행자명부에서 그 이름을 말소하는 결정을 하여야 한다.\n\n\n②\n②채권자는 제1항의 결정에 대하여 즉시항고를 할 수 있다. 이 경우 민사소송법 제447조의 규정은 준용하지 아니한다.\n\n\n③\n③채무불이행자명부에 오른 다음 해부터 10년이 지난 때에는 법원은 직권으로 그 명부에 오른 이름을 말소하는 결정을 하여야 한다.\n\n\n④\n④제1항과 제3항의 결정을 한 때에는 그 취지를 채무자의 주소지(채무자가 법인인 경우에는 주된 사무소가 있는 곳) 시ㆍ구ㆍ읍ㆍ면의 장 및 제72조제3항의 규정에 따라 채무불이행자명부의 부본을 보낸 금융기관 등의 장에게 통지하여야 한다.\n\n\n⑤\n⑤제4항의 통지를 받은 시ㆍ구ㆍ읍ㆍ면의 장 및 금융기관 등의 장은 그 명부의 부본에 오른 이름을 말소하여야 한다.\n\n"
+        }
+      ],
+      "latest_supplementary_provision_exact_text": "\n20250131\n20733\n부칙 <제20733호,2025.1.31>\n\n\n제1조(시행일) 이 법은 공포 후 1년이 경과한 날부터 시행한다.\n\n\n제2조(압류금지채권에 관한 적용례) 제246조제1항의 개정규정은 이 법 시행 이후 최초로 접수된 압류명령 신청 및 취소사건부터 적용한다.\n\n\n\n\n"
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=283841&type=XML",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/283841.xml",
+      "sha256": "3ba19a1070fd85bd04b03b7d7031997464613b09e59096ccc000a8d5cfd1b058",
+      "verification_date": "2026-10-18",
+      "method": "Previously fetched primary-source XML read directly; no new HTTP request",
+      "read_scope": "Named articles in full, basic effective-date metadata, latest supplementary provision; earlier supplementary provisions were output with truncation and are not claimed fully read",
+      "effective_date": "20260911",
+      "quotations": [
+        {
+          "article": "38",
+          "exact_xml_text": "\n38\n조문\n신용정보의 열람 및 정정청구 등\n20260911\n\n\nN\n제38조(신용정보의 열람 및 정정청구 등)\n\n①\n① 신용정보주체는 신용정보회사등에 본인의 신분을 나타내는 증표를 내보이거나 전화, 인터넷 홈페이지의 이용 등 대통령령으로 정하는 방법으로 본인임을 확인받아 신용정보회사등이 가지고 있는 신용정보주체 본인에 관한 신용정보로서 대통령령으로 정하는 신용정보의 교부 또는 열람을 청구할 수 있다. <개정 2020.2.4>\n\n\n②\n② 제1항에 따라 자신의 신용정보를 열람한 신용정보주체는 본인 신용정보가 사실과 다른 경우에는 금융위원회가 정하여 고시하는 바에 따라 정정을 청구할 수 있다. <신설 2020.2.4>\n\n\n③\n③ 제2항에 따라 정정청구를 받은 신용정보회사등은 정정청구에 정당한 사유가 있다고 인정하면 지체 없이 해당 신용정보의 제공ㆍ이용을 중단한 후 사실인지를 조사하여 사실과 다르거나 확인할 수 없는 신용정보는 삭제하거나 정정하여야 한다. <개정 2020.2.4>\n\n\n④\n④ 제3항에 따라 신용정보를 삭제하거나 정정한 신용정보회사등은 해당 신용정보를 최근 6개월 이내에 제공받은 자와 해당 신용정보주체가 요구하는 자에게 해당 신용정보에서 삭제하거나 정정한 내용을 알려야 한다. <개정 2020.2.4>\n\n\n⑤\n⑤ 신용정보회사등은 제3항 및 제4항에 따른 처리결과를 7일 이내에 해당 신용정보주체에게 알려야 하며, 해당 신용정보주체는 처리결과에 이의가 있으면 대통령령으로 정하는 바에 따라 금융위원회에 그 시정을 요청할 수 있다. 다만, 개인신용정보에 대한 제45조의3제1항에 따른 상거래기업 및 법인의 처리에 대하여 이의가 있으면 대통령령으로 정하는 바에 따라 「개인정보 보호법」에 따른 개인정보 보호위원회(이하 \"보호위원회\"라 한다)에 그 시정을 요청할 수 있다. <개정 2020.2.4>\n\n\n⑥\n⑥ 금융위원회 또는 보호위원회는 제5항에 따른 시정을 요청받으면 「금융위원회의 설치 등에 관한 법률」 제24조에 따라 설립된 금융감독원의 원장(이하 \"금융감독원장\"이라 한다) 또는 보호위원회가 지정한 자로 하여금 그 사실 여부를 조사하게 하고, 조사결과에 따라 신용정보회사등에 대하여 시정을 명하거나 그 밖에 필요한 조치를 할 수 있다. 다만, 필요한 경우 보호위원회는 해당 업무를 직접 수행할 수 있다. <개정 2020.2.4>\n\n\n⑦\n⑦ 제6항에 따라 조사를 하는 자는 그 권한을 표시하는 증표를 지니고 이를 관계인에게 내보여야 한다. <개정 2020.2.4>\n\n\n⑧\n⑧ 신용정보회사등이 제6항에 따른 금융위원회 또는 보호위원회의 시정명령에 따라 시정조치를 한 경우에는 그 결과를 금융위원회 또는 보호위원회에 보고하여야 한다. <개정 2020.2.4>\n\n"
+        }
+      ],
+      "latest_supplementary_provision_exact_text": "\n20260310\n21445\n부칙(개인정보 보호법) <제21445호,2026.3.10>\n\n\n제1조(시행일) 이 법은 공포 후 6개월이 경과한 날부터 시행한다. <단서 생략>\n\n\n제2조 및 제3조 생략\n\n\n제4조(다른 법률의 개정) ① 신용정보의 이용 및 보호에 관한 법률 일부를 다음과 같이 개정한다.\n\n\n  제20조제4항제1호가목 중 \"「개인정보 보호법」 제31조제3항제1호부터 제5호까지\"를 \"「개인정보 보호법」 제31조제4항제1호 및 같은 항 제4호부터 제7호까지\"로 하고, 같은 조 제5항 중 \"「개인정보 보호법」 제31조제4항 및 제6항\"을 \"「개인정보 보호법」 제31조제5항 및 제7항\"으로 한다.\n\n\n  ② 생략\n\n\n\n\n"
+    }
+  ],
+  "intentional_numerical_changes": {
+    "date": "2026-10-10 to 2026-10-18 denotes actual reading date",
+    "new_article_references": [
+      "61(1) proviso",
+      "71"
+    ],
+    "retained": [
+      "6개월",
+      "10년"
+    ]
+  },
+  "doi_additions": [],
+  "doi_removals": [],
+  "unresolved_limitations": [
+    "No new network request; primary cached XML read directly. No individual case documents or financial-company policies reviewed.",
+    "Formal-author-constraints chapter02 correction snapshot instructions do not apply to this chapter08 strict-entry proposal."
+  ],
+  "references": {
+    "incoming_title_anchors": [
+      {
+        "path": "book-kr/08-법적-말썽에-휘말리지-않기.md",
+        "line": 187,
+        "text": "- 비고: 빚을 못 갚는다는 사실만으로 강제집행면탈이 되지는 않습니다. 상환 여력과 생활 상황을 사실대로 설명하세요. 빠진 재산을 발견하면 법원의 정정 절차를 확인하세요. 명부 문제는 제21항(채무불이행자명부)을 보세요. 2026-10-10 법령 확인(국가법령정보센터)."
+      }
+    ],
+    "heading_unchanged": true,
+    "outgoing": {
+      "text": "제7절(돈이 없을 때 사는 법)",
+      "current_target_path": "book-kr/07-돈이-없을-때-사는-법.md",
+      "sha256": "48c5d96b9d2c280eabe9ecfedf11cb6674a2ec25ea35c3da1326b2de60d11656",
+      "scope_confirmed": true
+    }
+  },
+  "protected_invariants": {
+    "number_heading_tag_grade_unchanged": true,
+    "six_single_physical_fields": true
+  },
+  "approval": "Not approved; no publication authorized by this artifact"
+}

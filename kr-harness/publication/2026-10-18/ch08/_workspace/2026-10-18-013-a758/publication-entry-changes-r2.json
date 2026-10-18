@@ -1,0 +1,37 @@
+{
+  "chapter": 8,
+  "entry": 13,
+  "revision": 2,
+  "status": "unadopted_pending_independent_exact_hash_review",
+  "prior_proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-013-a758/publication-entry-proposal.md",
+  "prior_proposal_sha256": "da35dbe30b3dc2b1c1f35d11e37d54d5a92f75f1334d6269ac388227591a509e",
+  "prior_changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-013-a758/publication-entry-changes.json",
+  "prior_changes_sha256": "c4cfa56ea83edee07fb5d10f40417c08d2a67ebac79f244a6b87da8a10b5d85e",
+  "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-013-a758/publication-entry-proposal-r2.md",
+  "proposal_sha256": "e9232de30d2d01169e1a70aaf4c0bd012bbd8ec288c02acfba1189da370add38",
+  "base_strict_entry_sha256": "da1854f8962544566f3b967d2bab296f001c7028a5e7ec7d5fb9cd51237e2fab",
+  "change": {
+    "field": "비고",
+    "exact_deleted_span": "중국 사건의 사상자 수와 사형 집행 사례를 한국의 형량표로 쓰지 않습니다. ",
+    "before": "중국 사건의 사상자 수와 사형 집행 사례를 한국의 형량표로 쓰지 않습니다. 자신이나 타인을 해칠 생각이 구체적이면 즉시 도움을 요청하세요. 제14항(위험한 물건)을 바로 따르세요. 2026-10-18 법령 확인(국가법령정보센터).",
+    "after": "자신이나 타인을 해칠 생각이 구체적이면 즉시 도움을 요청하세요. 제14항(위험한 물건)을 바로 따르세요. 2026-10-18 법령 확인(국가법령정보센터).",
+    "reason": "A same-author 최소 r2 지시: 독자에게 불필요한 변환 메모만 삭제. 법정형·죄명 유보·긴급 도움·제14항 앵커와 모든 나머지 바이트 보존."
+  },
+  "only_change_assertion": true,
+  "source_provenance": "All legal verification and source scope retained in immutable prior changes JSON; no factual additions, no new primary-source verification performed in r2. A reports reviewer04 confirmed actual statute/scope.",
+  "numeric_scope_source_changes": [],
+  "checks": {
+    "literal": {
+      "exit_code": 0,
+      "stdout": "[\n  {\n    \"entry\": null,\n    \"path\": \"/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-013-a758/publication-entry-proposal-r2.md\",\n    \"title_chars\": 21,\n    \"easy_chars\": 73,\n    \"easy_sentences\": 3,\n    \"long_sentences\": [],\n    \"pass_length\": true\n  }\n]\n",
+      "stderr": ""
+    },
+    "layout": {
+      "exit_code": 0,
+      "stdout": "{\"checked\": 1, \"failures\": []}\n",
+      "stderr": ""
+    }
+  },
+  "approval": null,
+  "published": false
+}

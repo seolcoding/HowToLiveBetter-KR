@@ -1,0 +1,240 @@
+{
+  "chapter": 8,
+  "status": "completed_exact_partial_review_r22",
+  "manifest_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/author-partial-manifest-22.json",
+  "manifest_sha256": "d1990c1811cbd2f31c6db4dd8eff5216f98a1e229330610fe748bd917cd72f6d",
+  "entries": [
+    {
+      "entry": 38,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-038-4ada/publication-entry-proposal-r2.md",
+      "proposal_sha256": "1c6657076ce7f5b770ae5bdcbd949ede51e64c5e2c8ab0e6ef0baf5823fc39db",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-038-4ada/publication-entry-changes-r2.json",
+      "changes_sha256": "faaf68d6448a5dcd755be347006f5dd169046da12868b7e644de9c7ccbc5f559",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-038-4ada/strict-entry.md",
+      "base_strict_entry_sha256": "be0adef05a6e612a26a05bf99982622a79c72262f2eae12299499e83ec8b0797",
+      "literal_exit_code": 0,
+      "decision": "approve",
+      "all_four_complete_fields_read": true,
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "snapshot_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-038-4ada/entry_snapshot.md",
+      "snapshot_sha256": "be0adef05a6e612a26a05bf99982622a79c72262f2eae12299499e83ec8b0797",
+      "strict_candidate_contains_exact_base": true,
+      "length_check": {
+        "entry": 38,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-038-4ada/publication-entry-proposal-r2.md",
+        "title_chars": 20,
+        "easy_chars": 83,
+        "easy_sentences": 3,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "number": true,
+        "six_labels": true,
+        "tags": true,
+        "grade": true
+      },
+      "production_layout_check": true,
+      "initial_canonical_entry": {
+        "entry": 38,
+        "title": "### 38. 보험금을 노리고 사람을 해치지 마세요",
+        "source_entry_snapshot_path": "_workspace/2026-10-18-038-4ada/entry_snapshot.md",
+        "source_entry_snapshot_sha256": "be0adef05a6e612a26a05bf99982622a79c72262f2eae12299499e83ec8b0797",
+        "source_review_status": "revise_precision",
+        "candidate_review_status": "pending_candidate_review",
+        "scope_and_findings": "상법731 타인사망 서면동의에는 신뢰성 갖춘 전자문서 포함. 732조는15세미만자·심신상실자·심신박약자 계약 무효와 의사능력 있는 심신박약자 단서가 있습니다. 15세 미만자 등의 사망보험 계약 금지라는 모호한 축약은 예외를 함께 적거나 범위를15세미만자로 좁히세요. 659조와 생명보험 세부 예외/다른 수익자 권리 유보 유지."
+      },
+      "finding_closure": "전필드승인.직전r14실제단체보험예외지적해소:731원칙표시/735의3규약·구성원대상단체생명보험·피보험자상속인외수익자지정의규약명시없는경우서면동의·출처추가를원조문직접읽어확인.기존계약시점/전자문서신뢰성/15세미만무효·다른수익자/적립금유보·14위험한물건참조보존.새반대수치삭제없음.",
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "revision_requests": [],
+      "proposed_root_operation": {
+        "type": "replace_complete_strict_entry_body",
+        "before_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-038-4ada/strict-entry.md",
+        "before_entire_entry_sha256": "be0adef05a6e612a26a05bf99982622a79c72262f2eae12299499e83ec8b0797",
+        "after_proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-038-4ada/publication-entry-proposal-r2.md",
+        "after_original_proposal_sha256": "1c6657076ce7f5b770ae5bdcbd949ede51e64c5e2c8ab0e6ef0baf5823fc39db",
+        "effective_after_sha256": "1c6657076ce7f5b770ae5bdcbd949ede51e64c5e2c8ab0e6ef0baf5823fc39db",
+        "effective_after_rule": "proposal.rstrip()+original strict entry trailing whitespace; preserve original separators",
+        "supersession": "Latest approved full replaces any initial field/older full once.",
+        "integration_authorized": false
+      },
+      "field_decisions": {
+        "title": "approve",
+        "비용": "approve",
+        "쉽게": "approve",
+        "이득": "approve",
+        "근거등급": "approve",
+        "출처": "approve",
+        "비고": "approve"
+      }
+    },
+    {
+      "entry": 41,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-041-8f44/publication-entry-proposal.md",
+      "proposal_sha256": "408a50b997ba0c2946b68e9d1954cc5864a71ea46301d62fea0f887e65981a6c",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-041-8f44/publication-entry-changes.json",
+      "changes_sha256": "3cd3abbd39e111d94ada8da92f0c17163feabb2348693aefaabc15dce548629d",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-041-8f44/strict-entry.md",
+      "base_strict_entry_sha256": "3e70fc0b8d1537f3df6e5f4fbfa95f6adcdb497c34cca964e1d0d43869f35b01",
+      "literal_exit_code": 0,
+      "decision": "approve",
+      "all_four_complete_fields_read": true,
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "snapshot_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-041-8f44/entry_snapshot.md",
+      "snapshot_sha256": "3e70fc0b8d1537f3df6e5f4fbfa95f6adcdb497c34cca964e1d0d43869f35b01",
+      "strict_candidate_contains_exact_base": true,
+      "length_check": {
+        "entry": 41,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-041-8f44/publication-entry-proposal.md",
+        "title_chars": 28,
+        "easy_chars": 64,
+        "easy_sentences": 3,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "number": true,
+        "six_labels": true,
+        "tags": true,
+        "grade": true
+      },
+      "production_layout_check": true,
+      "initial_canonical_entry": {
+        "entry": 41,
+        "title": "### 41. 참여한 대화는 원본을 남겨 녹음하되 공개하지 마세요",
+        "source_entry_snapshot_path": "_workspace/2026-10-18-041-8f44/entry_snapshot.md",
+        "source_entry_snapshot_sha256": "3e70fc0b8d1537f3df6e5f4fbfa95f6adcdb497c34cca964e1d0d43869f35b01",
+        "source_review_status": "verified_new_http",
+        "candidate_review_status": "pending_candidate_review",
+        "scope_and_findings": "2006도4981 판결 원문 직접확보.3인 대화의 일방 참여자가 상호대화를 몰래 녹음한 행위는 타인간대화 녹음 금지 위반 아님. 모든 장소의 녹음·제3자 수집·인터넷공개·민사책임까지 적법하다는 판결은 아닙니다. 현재 예외·공개위험 유지."
+      },
+      "finding_closure": "전필드승인.법3/14의타인간비공개대화금지와수사기관법정예외,2006도4981실제3인상호대화참여녹음사실관계·판결범위를직접대조.모든녹음방법·공개적법성확대금지/자리떠난후녹음금지·편집원본맥락유보유지.374증거조사근거를채택승소보장으로확대안함.36r2→41참여한대화·41→16온라인욕설제목내용정합.",
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "revision_requests": [],
+      "proposed_root_operation": {
+        "type": "replace_complete_strict_entry_body",
+        "before_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-041-8f44/strict-entry.md",
+        "before_entire_entry_sha256": "3e70fc0b8d1537f3df6e5f4fbfa95f6adcdb497c34cca964e1d0d43869f35b01",
+        "after_proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-041-8f44/publication-entry-proposal.md",
+        "after_original_proposal_sha256": "408a50b997ba0c2946b68e9d1954cc5864a71ea46301d62fea0f887e65981a6c",
+        "effective_after_sha256": "408a50b997ba0c2946b68e9d1954cc5864a71ea46301d62fea0f887e65981a6c",
+        "effective_after_rule": "proposal.rstrip()+original strict entry trailing whitespace; preserve original separators",
+        "supersession": "Latest approved full replaces any initial field/older full once.",
+        "integration_authorized": false
+      },
+      "field_decisions": {
+        "title": "approve",
+        "비용": "approve",
+        "쉽게": "approve",
+        "이득": "approve",
+        "근거등급": "approve",
+        "출처": "approve",
+        "비고": "approve"
+      }
+    }
+  ],
+  "approved_entries": [
+    38,
+    41
+  ],
+  "revise_entries": [],
+  "actual_primary_readings": [
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/273629.xml",
+      "artifact_sha256": "48b6b00f5625f842d6005eeab12e41dc93c5d8596e5db4163266c53e4a21ab22",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=273629&type=XML",
+      "read_at_utc": "2026-10-18T20:03:58.711945+00:00",
+      "read_scope": "735의3①②③전문직접읽음.단체규약구성원생명보험731배제·피보험자상속인외수익자지정시규약명시없는경우서면동의조건정확해소.12397부칙1/2모든항·14969·17354시행직접읽음.2015시행전구계약의이후수익자지정에도③적용됨.신규계약권고에소급무효주장없음.다른상법조문/타법읽기는r14재사용.기존보존캐시직접읽기/새HTTP아님.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290003.xml",
+      "artifact_sha256": "ca503d7bd0ed46dbe29118f431c21749fcd96b5b35ca3139a52742a1e3cdaa99",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290003&type=XML",
+      "read_at_utc": "2026-10-18T20:03:58.712220+00:00",
+      "read_scope": "3①~③/14①②전문과20735·21989부칙전체직접읽음.타인간비공개대화금지와법에따른수사기관등예외를구별.개별수사허가요건4~8등전문전체를이번확인한것아님.일반독자에게수사기관권한행사를허용하는설명아님.기존보존캐시직접읽기/새HTTP아님.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290113.xml",
+      "artifact_sha256": "dd6228b88d970e33b979d0d9e59c5b74f6f45958c01dcab79e034334365fbc92",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290113&type=XML",
+      "read_at_utc": "2026-10-18T20:03:58.712789+00:00",
+      "read_scope": "374전문·21455/21993부칙직접읽음.녹음물증거조사규정이며제출만으로채택승소보장없음.2028관할개정장래시행을374현행조문과혼동안함.기존보존캐시직접읽기/새HTTP아님.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch08-audit/prec215873.raw",
+      "artifact_sha256": "5e6dc8fd1da7623ae4db9a58f79196b4a0540a17b087ed6e5cbadcba8ed974d4",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=prec&ID=215873&type=XML",
+      "read_at_utc": "2026-10-18T20:03:58.712827+00:00",
+      "read_scope": "사건번호2006도4981/선고일20061012/대법원·판시사항·요지·참조조문·판례내용전문직접읽음.3인상호대화당사자의상대모르게녹음은타인간대화금지위반아님을확인.모든장소/수집방법/인터넷공개/민사책임적법일반화안함.원래참여안한제3자와자리떠난후타인대화구별.기존보존캐시/새HTTP아님.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    }
+  ],
+  "prior_actual_reading_reuse": [
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/publication-followup-review-04-r14.json",
+      "sha256": "1cd621f6b2d9087aff2533d3570a1665c9cf1c5a4024f587b1a1f814ea1de4f1",
+      "scope": "38상법659/731/732/732의2/736·민법1004·형법250·보험사기2/8실제읽기/14참조확인재사용."
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/publication-followup-review-04-r5.json",
+      "sha256": "b76c9bceacda67df26cfc21f093fa6aaef02bf2735b2da21ead361452bfaf134",
+      "scope": "16온라인욕설최신승인full본문다시읽어41공개경고범위대조."
+    }
+  ],
+  "cross_reference_review": [
+    {
+      "entries": [
+        36,
+        41,
+        16
+      ],
+      "scope": "최신승인36r2실본문과새41제목참여한대화연속일치.41→최신승인16full온라인욕설연속일치·공개욕설사실허위비방명예훼손조건과공개유보내용범위대조.기존36의pending41full참조재대조완료."
+    },
+    {
+      "entries": [
+        38,
+        14
+      ],
+      "scope": "r14에서직접읽은최신14full변경없음.위험한물건연속앵커/실천거리두기참조,자살연구타해효과외삽아님."
+    }
+  ],
+  "production_helper_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/scripts/humanize_publication.py",
+  "production_helper_sha256": "244c194c7620c3095dc3a972eecdaa4e17fab8a0a301ae8b601cb8401569bfd3",
+  "helper_code_modified": false,
+  "fresh_http_performed": false,
+  "whole46_approval": false,
+  "integration_approval": false,
+  "formal_kr_fit_approval": false,
+  "preservation": "Prior reviews/frozen proposals/canonical/public/runs/gates/git unchanged.",
+  "reviewer_id": "/root/publication_review_04",
+  "six_complete_fields_read": true
+}

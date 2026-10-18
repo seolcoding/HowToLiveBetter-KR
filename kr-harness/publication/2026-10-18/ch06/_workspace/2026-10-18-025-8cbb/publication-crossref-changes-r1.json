@@ -1,0 +1,56 @@
+{
+  "status": "unadopted_pending_independent_exact_hash_review",
+  "entry": 25,
+  "before": "환경과 문장을 바꾸는 방법은 무작위시험이 뒷받침합니다. 제4절 제10항(만지고 싶은 것은 멀리 두기)을 보세요.",
+  "after": "음식의 거리와 가용성을 바꾼 무작위시험이 있습니다. 휴대폰과 게임의 효과를 직접 입증한 근거는 아닙니다. 제4절 제10항(만지고 싶은 것은 멀리 두기)을 보세요.",
+  "reason": "제4절 제10항의 실제 음식 거리·가용성 연구 범위로 연결문장을 한정하고 휴대폰·게임의 직접 입증으로 넓히지 않음. 문장·계획 방법까지 묶어 무작위시험으로 입증했다는 연결을 제거함.",
+  "current_whole_guard": {
+    "path": "/workspace/HowToLiveBetter-KR/book-kr/06-함정-목록.md",
+    "sha256": "6746d07a3b0158c91141dc949b70892117f6fdfc3c9d62a1fc5572fdc51fdc85",
+    "snapshot": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-025-8cbb/publication-crossref-current-whole-r1.md"
+  },
+  "current_entry_guard": {
+    "sha256": "c2c9aae84dbaba83e14dc54292bba9458416d5255865c32b232797fe93af270b",
+    "snapshot": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-025-8cbb/publication-crossref-current-entry-r1.md",
+    "extraction": "heading 25 through bytes preceding next ### heading; trailing separator preserved"
+  },
+  "target": {
+    "path": "/workspace/HowToLiveBetter-KR/book-kr/04-시간-낭비-줄이기.md",
+    "whole_sha256": "1c7813e9f107ce79def53adf806cabdfe50a41fc845c659e855627bd64b774d4",
+    "entry_sha256": "ccc0421dedaf583a873c0fdf79632763d64b0df41cbfc211a5643de6f43a602a",
+    "title": "### 10. 쓸 물건은 가까이 두고, 만지고 싶은 것은 멀리 두세요",
+    "read_scope": "Current public chapter 4 entry 10: actual title, cost tag and every field read directly; primary paper not newly reviewed.",
+    "evidence_quotes": [
+      "리뷰에 포함된 24건은 모두 음식 연구였습니다.",
+      "이 리뷰는 휴대폰과 게임의 효과를 시험한 근거가 아닙니다.",
+      "코크란 리뷰는 무작위시험 24건을 종합했습니다."
+    ]
+  },
+  "guards": {
+    "only_requested_span_changed": true,
+    "all_other_fields_bytes_unchanged": true,
+    "six_fields_single_lines": true,
+    "title_and_tag_unchanged": true,
+    "doi_numbers_conditions_unchanged_outside_span": true
+  },
+  "literal_validation": {
+    "command": [
+      "python",
+      "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/publication-partial-review-evidence/literal_check.py",
+      "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-025-8cbb/publication-crossref-proposal-r1.md"
+    ],
+    "exit_code": 0,
+    "stdout": "[\n  {\n    \"entry\": null,\n    \"path\": \"/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-025-8cbb/publication-crossref-proposal-r1.md\",\n    \"title_chars\": 32,\n    \"easy_chars\": 107,\n    \"easy_sentences\": 4,\n    \"long_sentences\": [],\n    \"pass_length\": true\n  }\n]\n",
+    "stderr": "",
+    "new_sentence_lengths": [
+      28,
+      29,
+      31
+    ]
+  },
+  "proposal_sha256": "f4e48c40700e0bb6abceafcb6a47eb1ee629d8d1f350be597315b0046bfbe8d2",
+  "limitations": [
+    "Only cross-reference scope correction; no new primary-source verification or broad effect claim."
+  ],
+  "doi_changes": []
+}

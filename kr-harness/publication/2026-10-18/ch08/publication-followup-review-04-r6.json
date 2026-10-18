@@ -1,0 +1,286 @@
+{
+  "chapter": 8,
+  "status": "completed_exact_partial_review_r12",
+  "manifest_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/author-partial-manifest-12.json",
+  "manifest_sha256": "4835ca1a0e77e6d6798c5729fd858fa779e760f2fb0a9496b2832038a62a7acd",
+  "entries": [
+    {
+      "entry": 18,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-018-fa5d/publication-entry-proposal.md",
+      "proposal_sha256": "9410d5ab91470ab201256c203cbc696c125ecf5ae1f66fcada3d86e753daf879",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-018-fa5d/publication-entry-changes.json",
+      "changes_sha256": "3eb4dedf2da718db69b5827923b96ed1334a19f841e97f73b4f7711f3747c8f4",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-018-fa5d/strict-entry.md",
+      "base_strict_entry_sha256": "71dc28085b505949d2ec08887c62ce49a2fec2fb6b3407ef4b54ff10c205c9f5",
+      "literal_exit_code": 0,
+      "decision": "approve",
+      "all_four_complete_fields_read": true,
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "snapshot_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-018-fa5d/entry_snapshot.md",
+      "snapshot_sha256": "71dc28085b505949d2ec08887c62ce49a2fec2fb6b3407ef4b54ff10c205c9f5",
+      "strict_candidate_contains_exact_base": true,
+      "length_check": {
+        "entry": 18,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-018-fa5d/publication-entry-proposal.md",
+        "title_chars": 30,
+        "easy_chars": 62,
+        "easy_sentences": 3,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "number": true,
+        "six_labels": true,
+        "tags": true,
+        "grade": true
+      },
+      "production_layout_check": true,
+      "initial_canonical_entry": {
+        "entry": 18,
+        "title": "### 18. 돈을 빌려줄 때 기록하고 보증은 상환 책임을 확인하세요",
+        "source_entry_snapshot_path": "_workspace/2026-10-18-018-fa5d/entry_snapshot.md",
+        "source_entry_snapshot_sha256": "71dc28085b505949d2ec08887c62ce49a2fec2fb6b3407ef4b54ff10c205c9f5",
+        "source_review_status": "revise_precision",
+        "candidate_review_status": "pending_candidate_review",
+        "scope_and_findings": "428의2의 문언은 기명날인 또는 서명입니다. 서명·기명날인이 모두 필요하다는 오독을 없애세요. 전자 보증 의사표시 무효와 이행한 범위 방식 하자 주장 불가(3항)도 구분 필요. 437조 최고·검색 항변의 변제자력/집행용이 입증 및 연대보증 예외는 일치."
+      },
+      "finding_closure": "일반보증최고검색항변의두증명조건/연대보증제외및전자보증무효/불리변경/이행범위하자주장제한이실조문과일치.13125부칙적용시점체결갱신/2016.2.4와이전계약별도유보도r5읽기와맞음.45참조를현제목실제어구로수정,특별법/최고금리전수검증아님을독자비고에유지.전필드/길이/layout/보호/DOI0통과.",
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "revision_requests": [],
+      "proposed_root_operation": {
+        "type": "replace_complete_strict_entry_body",
+        "before_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-018-fa5d/strict-entry.md",
+        "before_entire_entry_sha256": "71dc28085b505949d2ec08887c62ce49a2fec2fb6b3407ef4b54ff10c205c9f5",
+        "after_proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-018-fa5d/publication-entry-proposal.md",
+        "after_original_proposal_sha256": "9410d5ab91470ab201256c203cbc696c125ecf5ae1f66fcada3d86e753daf879",
+        "effective_after_sha256": "9410d5ab91470ab201256c203cbc696c125ecf5ae1f66fcada3d86e753daf879",
+        "effective_after_rule": "proposal.rstrip()+original strict entry trailing whitespace; preserve original separators",
+        "supersession": "Latest approved full replaces any initial field/older full once.",
+        "integration_authorized": false
+      },
+      "field_decisions": {
+        "title": "approve",
+        "비용": "approve",
+        "쉽게": "approve",
+        "이득": "approve",
+        "근거등급": "approve",
+        "출처": "approve",
+        "비고": "approve"
+      }
+    },
+    {
+      "entry": 19,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-019-b771/publication-entry-proposal.md",
+      "proposal_sha256": "249e7b768fe8d0b8b2b1310b297010b695cc3e569f63497beb41a689e42e8798",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-019-b771/publication-entry-changes.json",
+      "changes_sha256": "65c58d1f945d1ba2e0f06ebfb26b74b93b86d3a1f5ec1740c124e0ec17e4002d",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-019-b771/strict-entry.md",
+      "base_strict_entry_sha256": "8459a4755030f5609bf73664edfb84196c06804d590274f868ad5e167b5d44aa",
+      "literal_exit_code": 0,
+      "decision": "approve",
+      "all_four_complete_fields_read": true,
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "snapshot_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-019-b771/entry_snapshot.md",
+      "snapshot_sha256": "8459a4755030f5609bf73664edfb84196c06804d590274f868ad5e167b5d44aa",
+      "strict_candidate_contains_exact_base": true,
+      "length_check": {
+        "entry": 19,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-019-b771/publication-entry-proposal.md",
+        "title_chars": 25,
+        "easy_chars": 74,
+        "easy_sentences": 3,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "number": true,
+        "six_labels": true,
+        "tags": true,
+        "grade": true
+      },
+      "production_layout_check": true,
+      "initial_canonical_entry": {
+        "entry": 19,
+        "title": "### 19. 청구 종류마다 시효·신청기한을 따로 확인하세요",
+        "source_entry_snapshot_path": "_workspace/2026-10-18-019-b771/entry_snapshot.md",
+        "source_entry_snapshot_sha256": "8459a4755030f5609bf73664edfb84196c06804d590274f868ad5e167b5d44aa",
+        "source_review_status": "no_new_error_found",
+        "candidate_review_status": "pending_candidate_review",
+        "scope_and_findings": "민법 일반10년·일부3년, 임금3년, 해고구제3개월, 최고후6개월 후속조치 일치. 권리행사 가능 시점과 상사/불법행위 등 별도 시효 유보 유지. 독촉 반복으로 영구 연장이라는 오해 배제."
+      },
+      "finding_closure": "민법실조문10년/일부3년·기산·최고후6개월내후속과근기28/49기한일치.모든청구보편기한으로쓰지않고상사/불법행위·사업장적용유보보존.원저자미열람인내용증명은이번독립fresh공식우편법시행규칙25①4가/46을확보·직접읽어발송내용증명범위확인,판결/회수보장아님과부합.실패/검색은본문열람으로세지않음.전필드/길이/layout/보호/DOI0통과.",
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "revision_requests": [],
+      "proposed_root_operation": {
+        "type": "replace_complete_strict_entry_body",
+        "before_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-019-b771/strict-entry.md",
+        "before_entire_entry_sha256": "8459a4755030f5609bf73664edfb84196c06804d590274f868ad5e167b5d44aa",
+        "after_proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-019-b771/publication-entry-proposal.md",
+        "after_original_proposal_sha256": "249e7b768fe8d0b8b2b1310b297010b695cc3e569f63497beb41a689e42e8798",
+        "effective_after_sha256": "249e7b768fe8d0b8b2b1310b297010b695cc3e569f63497beb41a689e42e8798",
+        "effective_after_rule": "proposal.rstrip()+original strict entry trailing whitespace; preserve original separators",
+        "supersession": "Latest approved full replaces any initial field/older full once.",
+        "integration_authorized": false
+      },
+      "field_decisions": {
+        "title": "approve",
+        "비용": "approve",
+        "쉽게": "approve",
+        "이득": "approve",
+        "근거등급": "approve",
+        "출처": "approve",
+        "비고": "approve"
+      }
+    }
+  ],
+  "approved_entries": [
+    18,
+    19
+  ],
+  "revise_entries": [],
+  "actual_primary_readings": [
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/284415.xml",
+      "artifact_sha256": "cd2997176df62de7b1e4bb018287987654f6054cbd0eeced9e882d5c4daf53df",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=284415&type=XML",
+      "read_at_utc": "2026-10-18T19:48:15.798116+00:00",
+      "read_scope": "직접읽음:428/437/598전체·162/163/165/166/168/174전체.428의2및13125부칙1~3/6은r5직접읽기재사용.채무자변제자력/집행용이증명후최고검색항변·연대배제·소비대차,일반10년/일부3년/권리행사가능기산·최고6월내재판청구등후속필요확인.165판결확정단기10년과아직미도래예외확인.166위헌주석은특정과거사사건범위이며일반대금전체에무효로확장안함.개별사건/특별법전수검증아님.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/285279.xml",
+      "artifact_sha256": "222fd311aa29570bf0045061e332c9b6696b49427a4ae8f17540763866b36c2e",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=285279&type=XML",
+      "read_at_utc": "2026-10-18T19:48:15.798570+00:00",
+      "read_scope": "28부당해고3개월/49임금3년·11사업장범위/21533등부칙은r3직접읽기재사용.본문적용사업장별도확인과보편기한금지유지.최신시행령별표전체는새로확인안함.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch08-review04/postal-rule-effective-273389.raw",
+      "artifact_sha256": "a6f3570f01ed5c323e8e7b8dceb00f888f415de8d1f6bd73eede28cbcb06622b",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=273389&type=XML&efYd=20260401",
+      "read_at_utc": "2026-10-18T19:48:15.799260+00:00",
+      "read_scope": "신규HTTPS성공실본문의법령정체우편법시행규칙/기본20260401시행과25①4가내용증명정의·46전체직접읽음.발송인→수취인문서내용과발송시점우체국증명으로서발송내용증거범위일치.실제개인우편물/법원증거평가/돈회수결과까지검증아님.부칙154호시행은아래별도직접읽기확인.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": true,
+      "fresh_http_status": 200,
+      "retrieved_at_utc": "2026-10-18T19:47:37.881674+00:00",
+      "tls_verify": true
+    }
+  ],
+  "prior_actual_reading_reuse": [
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/publication-followup-review-04-r5.json",
+      "sha256": "b76c9bceacda67df26cfc21f093fa6aaef02bf2735b2da21ead361452bfaf134",
+      "scope": "428의2/13125부칙직접읽기재사용"
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/publication-followup-review-04-r3.json",
+      "sha256": "0f1e5ce908a47936548543303e5582c1b061ece3c4c5e205fb2c92c71ccb4b0d",
+      "scope": "근기28/49/사업장범위·미래지연시행구분직접읽기재사용"
+    }
+  ],
+  "cross_reference_review": [
+    {
+      "source_entry": 18,
+      "target_entry": 45,
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-045-585b/strict-entry.md",
+      "sha256": "60db72fc893861d977c634f52efbcd8654253b2250d5f35d98f2c4355a2642b5",
+      "scope": "지인명의대출·전자서명자동유효아님·본인계약상환위험취지부합.최신full아직없어향후재대조필수.",
+      "full_target_approval": false
+    },
+    {
+      "source_entry": 19,
+      "outgoing": [],
+      "scope": "독촉/시효설명은자족.외부타항목으로법적기한을넘기지않음."
+    }
+  ],
+  "production_helper_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/scripts/humanize_publication.py",
+  "production_helper_sha256": "244c194c7620c3095dc3a972eecdaa4e17fab8a0a301ae8b601cb8401569bfd3",
+  "helper_code_modified": false,
+  "fresh_http_performed": true,
+  "whole46_approval": false,
+  "integration_approval": false,
+  "formal_kr_fit_approval": false,
+  "preservation": "Prior reviews/frozen proposals/canonical/public/runs/gates/git unchanged.",
+  "reviewer_id": "/root/publication_review_04",
+  "six_complete_fields_read": true,
+  "http_attempts": [
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&type=XML&efYd=20261018&LM=%EC%9A%B0%ED%8E%B8%EB%B2%95%20%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99",
+      "utc": "2026-10-18T19:46:35.762737+00:00",
+      "http_status": 200,
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch08-review04/postal-regulation.raw",
+      "sha256": "dbd9ad479a65d73fbe51abe94bd9c018f1af264627d57aea2cf9c922524524d1",
+      "bytes": 126,
+      "tls_verify": true
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&type=XML&efYd=20261018&LM=%EC%9A%B0%ED%8E%B8%EB%B2%95%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99",
+      "utc": "2026-10-18T19:46:50.368858+00:00",
+      "http_status": 200,
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch08-review04/postal-regulation-exact.raw",
+      "sha256": "dbd9ad479a65d73fbe51abe94bd9c018f1af264627d57aea2cf9c922524524d1",
+      "bytes": 126,
+      "tls_verify": true
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=law&type=XML&query=%EC%9A%B0%ED%8E%B8%EB%B2%95%20%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99",
+      "utc": "2026-10-18T19:46:59.448544+00:00",
+      "http_status": 200,
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch08-review04/postal-search.raw",
+      "sha256": "f237247d5ea8da5749b1023f1f260c59e126027911f263f84633e4591d292b39",
+      "bytes": 1881,
+      "tls_verify": true
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=273389&type=XML&efYd=20261018",
+      "utc": "2026-10-18T19:47:12.320364+00:00",
+      "http_status": 200,
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch08-review04/postal-rule-273389.raw",
+      "sha256": "dbd9ad479a65d73fbe51abe94bd9c018f1af264627d57aea2cf9c922524524d1",
+      "bytes": 126,
+      "tls_verify": true
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=273389&type=XML",
+      "utc": "2026-10-18T19:47:27.540608+00:00",
+      "error": "HTTP Error 403: Forbidden",
+      "tls_verify": true
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=273389&type=XML&efYd=20260401",
+      "utc": "2026-10-18T19:47:37.881674+00:00",
+      "http_status": 200,
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch08-review04/postal-rule-effective-273389.raw",
+      "sha256": "a6f3570f01ed5c323e8e7b8dceb00f888f415de8d1f6bd73eede28cbcb06622b",
+      "bytes": 398143,
+      "tls_verify": true
+    }
+  ],
+  "http_scope_classification": "LM/잘못된efYd세응답HTTP200126byte일치없음은실패,검색1881byte는발견서지만,lawMST조회403실패.실효일20260401eflaw응답398143byte실본문만내용확인.",
+  "pending_reference_targets_for_final_recheck": [
+    45
+  ]
+}

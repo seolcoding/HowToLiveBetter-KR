@@ -1,0 +1,235 @@
+{
+  "chapter": 8,
+  "status": "completed_exact_partial_review_r14",
+  "manifest_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/author-partial-manifest-14.json",
+  "manifest_sha256": "972b7d593839700adf0e15c4e5f51ca061c899f4253357e36e2a9017e017265b",
+  "entries": [
+    {
+      "entry": 22,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-022-0650/publication-entry-proposal.md",
+      "proposal_sha256": "a038a774191131d3e70c1ec3dd1e5b945d0359711b9857d2469860197cf0b350",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-022-0650/publication-entry-changes.json",
+      "changes_sha256": "3243c7bf4f1df8cb718358f29991d21ac52fefd8a5de5b7ede08179ce9fe41c6",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-022-0650/strict-entry.md",
+      "base_strict_entry_sha256": "34f55e310db0c6ae2906341884fea57159e44f0d900e44e7afc725e9b6235ed4",
+      "literal_exit_code": 0,
+      "decision": "approve",
+      "all_four_complete_fields_read": true,
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "snapshot_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-022-0650/entry_snapshot.md",
+      "snapshot_sha256": "34f55e310db0c6ae2906341884fea57159e44f0d900e44e7afc725e9b6235ed4",
+      "strict_candidate_contains_exact_base": true,
+      "length_check": {
+        "entry": 22,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-022-0650/publication-entry-proposal.md",
+        "title_chars": 33,
+        "easy_chars": 70,
+        "easy_sentences": 3,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "number": true,
+        "six_labels": true,
+        "tags": true,
+        "grade": true
+      },
+      "production_layout_check": true,
+      "initial_canonical_entry": {
+        "entry": 22,
+        "title": "### 22. 온라인·중고거래 사기는 기록을 모아 플랫폼과 경찰에 알리세요",
+        "source_entry_snapshot_path": "_workspace/2026-10-18-022-0650/entry_snapshot.md",
+        "source_entry_snapshot_sha256": "34f55e310db0c6ae2906341884fea57159e44f0d900e44e7afc725e9b6235ed4",
+        "source_review_status": "no_new_error_found",
+        "candidate_review_status": "pending_candidate_review",
+        "scope_and_findings": "소액사건심판규칙1의2는3천만원 초과하지 않는 제1심 금전 등 청구. 특별법2조 재화·용역 가장 제외 확인. 소액을 형사면책·보이스피싱 자동지급정지로 오해하지 않는 유보·법원비용/회수한계 유지."
+      },
+      "finding_closure": "초기3000만원범위와상품사기특별법제외유보유지.실소액규칙1의2단서소변경/범위외사건병합예외까지명시,형347기망취득·소액자동면책아님일치.현행특별법2/개정시행적용을읽어상품가장제외·지급정지자동적용부정범위확인.플랫폼신고/회수비용개인사건확정안함.2최신incoming참조부합.전필드/길이/layout/보호/DOI0통과.",
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "revision_requests": [],
+      "proposed_root_operation": {
+        "type": "replace_complete_strict_entry_body",
+        "before_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-022-0650/strict-entry.md",
+        "before_entire_entry_sha256": "34f55e310db0c6ae2906341884fea57159e44f0d900e44e7afc725e9b6235ed4",
+        "after_proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-022-0650/publication-entry-proposal.md",
+        "after_original_proposal_sha256": "a038a774191131d3e70c1ec3dd1e5b945d0359711b9857d2469860197cf0b350",
+        "effective_after_sha256": "a038a774191131d3e70c1ec3dd1e5b945d0359711b9857d2469860197cf0b350",
+        "effective_after_rule": "proposal.rstrip()+original strict entry trailing whitespace; preserve original separators",
+        "supersession": "Latest approved full replaces any initial field/older full once.",
+        "integration_authorized": false
+      },
+      "field_decisions": {
+        "title": "approve",
+        "비용": "approve",
+        "쉽게": "approve",
+        "이득": "approve",
+        "근거등급": "approve",
+        "출처": "approve",
+        "비고": "approve"
+      }
+    },
+    {
+      "entry": 23,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-023-c65b/publication-entry-proposal.md",
+      "proposal_sha256": "cc176cd1e70b4a8dc03bb7f7ef65fe0e1aa48a09051963d016f7f44903e519ca",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-023-c65b/publication-entry-changes.json",
+      "changes_sha256": "b0057c58adf7d7fc03214e2dfea5f578475f2d5d51854101925c95c1952016dc",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-023-c65b/strict-entry.md",
+      "base_strict_entry_sha256": "6130fc49f5dca3eb2c02063e267b0fc7ea353199f5fe6b10f84c30213382b1ce",
+      "literal_exit_code": 0,
+      "decision": "approve",
+      "all_four_complete_fields_read": true,
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "snapshot_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-023-c65b/entry_snapshot.md",
+      "snapshot_sha256": "6130fc49f5dca3eb2c02063e267b0fc7ea353199f5fe6b10f84c30213382b1ce",
+      "strict_candidate_contains_exact_base": true,
+      "length_check": {
+        "entry": 23,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-023-c65b/publication-entry-proposal.md",
+        "title_chars": 24,
+        "easy_chars": 78,
+        "easy_sentences": 3,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "number": true,
+        "six_labels": true,
+        "tags": true,
+        "grade": true
+      },
+      "production_layout_check": true,
+      "initial_canonical_entry": {
+        "entry": 23,
+        "title": "### 23. 큰돈을 주기 전에 대여인지 증여인지 정하세요",
+        "source_entry_snapshot_path": "_workspace/2026-10-18-023-c65b/entry_snapshot.md",
+        "source_entry_snapshot_sha256": "6130fc49f5dca3eb2c02063e267b0fc7ea353199f5fe6b10f84c30213382b1ce",
+        "source_review_status": "no_new_error_found",
+        "candidate_review_status": "pending_candidate_review",
+        "scope_and_findings": "555~558조 서면 여부·해제사유·이행완료 부분 효력 구분 확인. 서면증여 언제든 철회로 바꾸지 마세요. 조건부증여·대여의 증거 판단을 별도 남긴 점 적절."
+      },
+      "finding_closure": "실555~558/598와증여해제요건/수증자범죄대상·부양의무/6개월·용서/재산변경·생계조건·이행부분범위일치.서면증여언제든철회나관계종료자동반환으로강화하지않음.조건부증여/대여별도증거및판본이후현행조회미실시독자한계보존.새동결24full예단예물반환미확인범위와실제참조대조.전필드/길이/layout/보호/DOI0통과.",
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "revision_requests": [],
+      "proposed_root_operation": {
+        "type": "replace_complete_strict_entry_body",
+        "before_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-023-c65b/strict-entry.md",
+        "before_entire_entry_sha256": "6130fc49f5dca3eb2c02063e267b0fc7ea353199f5fe6b10f84c30213382b1ce",
+        "after_proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-023-c65b/publication-entry-proposal.md",
+        "after_original_proposal_sha256": "cc176cd1e70b4a8dc03bb7f7ef65fe0e1aa48a09051963d016f7f44903e519ca",
+        "effective_after_sha256": "cc176cd1e70b4a8dc03bb7f7ef65fe0e1aa48a09051963d016f7f44903e519ca",
+        "effective_after_rule": "proposal.rstrip()+original strict entry trailing whitespace; preserve original separators",
+        "supersession": "Latest approved full replaces any initial field/older full once.",
+        "integration_authorized": false
+      },
+      "field_decisions": {
+        "title": "approve",
+        "비용": "approve",
+        "쉽게": "approve",
+        "이득": "approve",
+        "근거등급": "approve",
+        "출처": "approve",
+        "비고": "approve"
+      }
+    }
+  ],
+  "approved_entries": [
+    22,
+    23
+  ],
+  "revise_entries": [],
+  "actual_primary_readings": [
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/187995.xml",
+      "artifact_sha256": "f1e6a14b7103639345021d2e8ab6d57de780bf527ec2d3306d406d417c4fd770",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=187995&type=XML",
+      "read_at_utc": "2026-10-18T19:50:38.440972+00:00",
+      "read_scope": "1의2본문및단서각호전체·2694부칙시행20170101/종전계속중범위외사건경과조치직접읽음.제소시값≤3000만원·제1심민사금전등일정수량·소변경/범위외사건과참가중간확인반소병합예외일치. 새HTTP아닌기존공식캐시직접읽기.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290185.xml",
+      "artifact_sha256": "391f3c2bb7173fff4040eda9ae2259674b616e58aeadf4371206b63c70f1c89b",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290185&type=XML",
+      "read_at_utc": "2026-10-18T19:50:38.441539+00:00",
+      "read_scope": "347①②직접읽음.속임수/재물또는이익취득및제삼자취득형태확인.소액면책규정없음.최신형량은본문에수치추가안함·22007부칙r7재사용. 새HTTP아닌기존공식캐시직접읽기.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290245.xml",
+      "artifact_sha256": "b8a133db27e47ca6cf2d60fd38b110b0b2934b5447b9d1c90a82d8612be45af7",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290245&type=XML",
+      "read_at_utc": "2026-10-18T19:50:38.441697+00:00",
+      "read_scope": "2조전체·21320/21503부칙1~6/21909·22047시행/적용직접읽음.재화/용역가장제외와대출제공알선중개가장포함구별.가상자산개정/과거적용·지급정지후속적용을모든상품사기에넓히지않음.수수료/플랫폼별정책/개인회수사례미열람. 새HTTP아닌기존공식캐시직접읽기.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/284415.xml",
+      "artifact_sha256": "cd2997176df62de7b1e4bb018287987654f6054cbd0eeced9e882d5c4daf53df",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=284415&type=XML",
+      "read_at_utc": "2026-10-18T19:50:38.443267+00:00",
+      "read_scope": "555/556①②/557/558/598전체직접읽음.서면없는증여해제·수증자범죄대상/부양의무조건·인지6개월또는용서소멸·계약후재산현저변화+이행생계중대영향·555~557해제는이행완료부분영향없음.조건부증여/예단판례개별판단미열람.21454부칙은r7직접읽기재사용하며상속특례를증여조문에무관확장안함. 새HTTP아닌기존공식캐시직접읽기.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    }
+  ],
+  "prior_actual_reading_reuse": [
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/publication-followup-review-04-r7.json",
+      "sha256": "43f97c3389a3d3363c164ccf36c2e9ed66638c72d5ee456ad44e4aa785d33643",
+      "scope": "형법22007/민21454부칙직접읽기범위재사용"
+    }
+  ],
+  "cross_reference_review": [
+    {
+      "source_entry": 23,
+      "target_entry": 24,
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-024-0dc4/publication-entry-proposal.md",
+      "sha256": "a6ebec61e938c850991845a3d7621493c3f96c3552adb6efd988242f42050367",
+      "target_title": "### 24. 예단·예물은 용도와 반환 조건을 기록하세요",
+      "scope": "예단예물용도반환조건기록·민555~558만으로자동반환판정못함·판례미확인독자고지와23대여/증여·조건부별도증거판단참조부합.24자체전체독립승인은아직별도필요."
+    },
+    {
+      "source_entry": 2,
+      "target_entry": 22,
+      "incoming_source_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-002-514a/publication-entry-proposal.md",
+      "incoming_source_sha256": "9a1268ba391a3fc896c35816132f631f6470fcc80948679bfe62b9aec40cd061",
+      "scope": "2의재화용역가장제외/대출가장포함유보와22소액사건·자동지급정지부정범위일치.22제목중고거래사기앵커유지."
+    }
+  ],
+  "production_helper_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/scripts/humanize_publication.py",
+  "production_helper_sha256": "244c194c7620c3095dc3a972eecdaa4e17fab8a0a301ae8b601cb8401569bfd3",
+  "helper_code_modified": false,
+  "fresh_http_performed": false,
+  "whole46_approval": false,
+  "integration_approval": false,
+  "formal_kr_fit_approval": false,
+  "preservation": "Prior reviews/frozen proposals/canonical/public/runs/gates/git unchanged.",
+  "reviewer_id": "/root/publication_review_04",
+  "six_complete_fields_read": true
+}

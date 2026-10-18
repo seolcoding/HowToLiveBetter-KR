@@ -1,0 +1,160 @@
+{
+  "chapter": 8,
+  "status": "completed_exact_partial_review_r25",
+  "manifest_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/author-partial-manifest-25.json",
+  "manifest_sha256": "15ee93976b09ef659a419542cbe63cd0740fa5e2e0775b26654a2ad9fc21fe0b",
+  "entries": [
+    {
+      "entry": 46,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-046-48df/publication-entry-proposal.md",
+      "proposal_sha256": "e8b62cfed7201b53bee2b62730418d9342b40d0665baafe5dd0d7d600331b185",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-046-48df/publication-entry-changes.json",
+      "changes_sha256": "fd7127e52ee96624c8eb50d78adb56ea8a91d9990324430bf642e27547d640fe",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-046-48df/strict-entry.md",
+      "base_strict_entry_sha256": "8687e8cda50f3961b0e22452931d5236f39dbaa6ceecbba5d473a568b6611133",
+      "literal_exit_code": 0,
+      "decision": "approve",
+      "all_four_complete_fields_read": true,
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "snapshot_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-046-48df/entry_snapshot.md",
+      "snapshot_sha256": "5f025ec6fd0be83efb7950d7e2b010d863893c8308a47c31f92323192404e78b",
+      "strict_candidate_contains_exact_base": true,
+      "length_check": {
+        "entry": 46,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-046-48df/publication-entry-proposal.md",
+        "title_chars": 29,
+        "easy_chars": 80,
+        "easy_sentences": 3,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "number": true,
+        "six_labels": true,
+        "tags": true,
+        "grade": true
+      },
+      "production_layout_check": true,
+      "initial_canonical_entry": {
+        "entry": 46,
+        "title": "### 46. 문·창문 잠금과 외부 조명을 확인하고 실제로 잠그세요",
+        "source_entry_snapshot_path": "_workspace/2026-10-18-046-48df/entry_snapshot.md",
+        "source_entry_snapshot_sha256": "5f025ec6fd0be83efb7950d7e2b010d863893c8308a47c31f92323192404e78b",
+        "source_review_status": "verified_new_http",
+        "candidate_review_status": "pending_candidate_review",
+        "scope_and_findings": "Security Journal 원문표3 WD12.54/EWD34.41/EIWD49.12 확인(49는 반올림). 원문은SPF 비교지표로 절대 침입확률 감소율이 아닙니다. Crime Science 본문31→7/1000,77%,비강제침입7/1000 확인. 장치 배정실험이 아니고 한국효과 아님 유지. 비고의 세부값 독립미확인은 해소가능. 한국 인증/설치비·다른 논문 경보기 역효과/1992~96 반증의 세부값까지 전부 검증한 것은 아닙니다."
+      },
+      "finding_closure": "전필드승인.실제원문37416분모/4.9·36.6/표3WD12.54/EWD34.41/EIWD49.12 entrySPF열과단독효과·장치수평균·경보기역설·1992~1996반대근거/선택편향유보를대조.단일연구의실험·한국효과율/재실강도방지보장으로일반화안함.SPF는장치없는집대비비교지표이며실제침입확률인과배수라고하지않음.추이31→7·77%/비강제7단위시점일치.한국인증설치비미확인·임차인협의유지.전체길이/layout/보호/hash/DOI0통과.",
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "revision_requests": [],
+      "proposed_root_operation": {
+        "type": "replace_complete_strict_entry_body",
+        "before_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-046-48df/strict-entry.md",
+        "before_entire_entry_sha256": "8687e8cda50f3961b0e22452931d5236f39dbaa6ceecbba5d473a568b6611133",
+        "after_proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-046-48df/publication-entry-proposal.md",
+        "after_original_proposal_sha256": "e8b62cfed7201b53bee2b62730418d9342b40d0665baafe5dd0d7d600331b185",
+        "effective_after_sha256": "e8b62cfed7201b53bee2b62730418d9342b40d0665baafe5dd0d7d600331b185",
+        "effective_after_rule": "proposal.rstrip()+original strict entry trailing whitespace; preserve original separators",
+        "supersession": "Latest approved full replaces any initial field/older full once.",
+        "integration_authorized": false
+      },
+      "field_decisions": {
+        "title": "approve",
+        "비용": "approve",
+        "쉽게": "approve",
+        "이득": "approve",
+        "근거등급": "approve",
+        "출처": "approve",
+        "비고": "approve"
+      }
+    }
+  ],
+  "approved_entries": [
+    46
+  ],
+  "revise_entries": [],
+  "actual_primary_readings": [
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch08-audit/security.raw",
+      "artifact_sha256": "52827eeecd3f1fc19b906888cf345b21365f30f59d28a3660ddff708217e5bd3",
+      "url": "https://doi.org/10.1057/sj.2014.30",
+      "read_at_utc": "2026-10-18T20:22:46.880517+00:00",
+      "read_scope": "저자출판본문제목DOI/초록·방법CSEW2008/09~2011/12/표2해설37416·1835무장치4.9·821/2245피해36.6/도구SIAT·SPF계산7.46/0.59=12.54직접읽음.문double/deadlockD·창W·외부timer/sensorE·실내timer/sensorI정의/개별조명3·문2.8·창6.58유의아님/경보기단독양종위험·가짜시도위험/장치3종평균4~5종유사·선택역인과가설본문직접읽음.실제확률인과효과율보장아님.기존캐시직접읽음/이번새HTTP아님.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch08-audit/security-table3.raw",
+      "artifact_sha256": "26972c8fd10d1786d523585bec514ef6dd200aaed24517cdbfe5ea019b0f0c2e",
+      "url": "https://link.springer.com/article/10.1057/sj.2014.30/tables/3",
+      "read_at_utc": "2026-10-18T20:22:46.881004+00:00",
+      "read_scope": "표3전체열제목·행직접읽음.Burglarywithentry SPF WD12.54/EWD34.41/EIWD49.12와attempted열7.56/13.93/21.78구분.본문인용숫자는entrySPF일치·NIE와혼동없음.타조합전체본문주장확대아님.기존캐시직접읽음/이번새HTTP아님.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch08-audit/crime.raw",
+      "artifact_sha256": "2a31c43a74567d11376978aa763c05c1c7e18c62e3961cee17e078025c36b75f",
+      "url": "https://doi.org/10.1186/s40163-017-0064-2",
+      "read_at_utc": "2026-10-18T20:22:46.882507+00:00",
+      "read_scope": "저자본문DOI제목/방법영국CSEW·강제/비강제추이단락직접읽음.1993~2006/07강제31→7/1000·77%,비강제7/1000유지.재실침입시간별가설논의는있으나강도예방실험으로세지않음.기존캐시직접읽음/이번새HTTP아님.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch08-review04/cpcs-original.raw",
+      "artifact_sha256": "76537703eb2396549b2b26c5b2825f6fa4d11d92c37596dff25ae81a0c4d5d01",
+      "url": "https://link.springer.com/article/10.1057/cpcs.2014.17",
+      "read_at_utc": "2026-10-18T20:22:46.883240+00:00",
+      "read_scope": "저자출판본문DOI제목/초록·방법SIAT·1992~1996대2008/09~2011/12비교결과/경보기가문창조합에36%추가보호관련단락/경보기결과역설가설직접읽음.본문1992~1996경보기낮은위험관련반대증거보존.모든외부인용원논문/전표전셀재현아님.원저자보존/tmp바이트동일외부복사·새HTTP아님.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/284415.xml",
+      "artifact_sha256": "cd2997176df62de7b1e4bb018287987654f6054cbd0eeced9e882d5c4daf53df",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=284415&type=XML",
+      "read_at_utc": "2026-10-18T20:22:46.885064+00:00",
+      "read_scope": "615/654전문직접읽음.반환시원상회복/부속물철거및임대차준용.모든설치법정사전허락의무아닌임차협의실천권고.21454시행읽기는r13재사용.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    }
+  ],
+  "prior_actual_reading_reuse": [],
+  "cross_reference_review": [
+    {
+      "entries": [
+        46
+      ],
+      "outgoing": [],
+      "scope": "다른항목절참조없음.실제주거상황/설치비한국효과는확인한것으로세지않음."
+    }
+  ],
+  "production_helper_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/scripts/humanize_publication.py",
+  "production_helper_sha256": "244c194c7620c3095dc3a972eecdaa4e17fab8a0a301ae8b601cb8401569bfd3",
+  "helper_code_modified": false,
+  "fresh_http_performed": false,
+  "whole46_approval": false,
+  "integration_approval": false,
+  "formal_kr_fit_approval": false,
+  "preservation": "Prior reviews/frozen proposals/canonical/public/runs/gates/git unchanged.",
+  "reviewer_id": "/root/publication_review_04",
+  "six_complete_fields_read": true
+}

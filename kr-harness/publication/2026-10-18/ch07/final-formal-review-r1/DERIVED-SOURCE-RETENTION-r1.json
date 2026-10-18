@@ -1,0 +1,693 @@
+{
+  "status": "exact_derived_source_reading_artifacts_retained_outside_git_original_local_files_unchanged",
+  "created_at_utc": "2026-10-18T20:25:48.065828+00:00",
+  "scope": "Readability extractions of cached legal/official source responses produced by chapter07 formal reviewer. Original cache inventory, raw-source provenance, read log, review, and byte-bound verification remain unchanged. These derived reading copies remain byte-identical both at their original local paths and in the external retained directory. No manuscript/runtime/source response/approval edits or source authenticity approval is granted by retention.",
+  "reason": "Keep complete source-reading material outside Git and preserve original whitespace, rather than formatting primary-source-derived text to satisfy optional Git whitespace diagnostics. Metadata and source SHA/provenance remain reviewable.",
+  "files_count": 114,
+  "files": [
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/00-supplements.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/00-supplements.txt",
+      "sha256": "64f98b7a70a61da08c5b9cca955fb57a5f34855169d5f0dc48399c241541d0b7",
+      "bytes": 39084
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/00-text.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/00-text.txt",
+      "sha256": "d1307044cb6eb371bdb3df041b32f4623a22e23dd846680636e7dbf847718ddf",
+      "bytes": 18145
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/01-text.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/01-text.txt",
+      "sha256": "e7192261cf6286fb4670fbcd7f1dc359f4cd23c9af088bfd9df942376f7898f2",
+      "bytes": 1035
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/02-text.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/02-text.txt",
+      "sha256": "dda0bbec17cb4a324259d7cc99632b2e89fa1d328848b276771d946a7d506618",
+      "bytes": 26434
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/03-supplements.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/03-supplements.txt",
+      "sha256": "409404a24a2efeb520b382bd2e995bea9b9609b58045deb7b50bdafc3c84519f",
+      "bytes": 38845
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/03-text.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/03-text.txt",
+      "sha256": "619e82f4ee7b69a734b3d34212b436738971cca802eeaeae953b91d59a98256c",
+      "bytes": 6291
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/04-supplements.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/04-supplements.txt",
+      "sha256": "97172b21b413717bf94850132dbcd7e675f34072aad0457a3db640d5af1fead1",
+      "bytes": 23944
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/04-text.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/04-text.txt",
+      "sha256": "111b8e3ab97590ba64866da0aaa906699478af4b4298427da24c1725be239eee",
+      "bytes": 1123
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/05-supplements.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/05-supplements.txt",
+      "sha256": "3dd47a8011800abf885e023e7300b1583d1597b0849352598dd398dabe709942",
+      "bytes": 1766
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/05-text.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/05-text.txt",
+      "sha256": "5c6d7cb9293e2e0d31b3e57c58a82b6f13930597fa3fb3642300e9d1c3688787",
+      "bytes": 1775
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/06-supplements.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/06-supplements.txt",
+      "sha256": "921bc4c26c8fc91339ca6a40acd215b4ea4407505c1aabdac72e07a8205b5fe0",
+      "bytes": 24473
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/06-text.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/06-text.txt",
+      "sha256": "40ce46a81a74dad02fde7b88a6d93c47e438cbd8c60fa3a7d4d39df833451d8b",
+      "bytes": 1419
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/07-text.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/07-text.txt",
+      "sha256": "db8d64a0493dc02b3aaef6bf3b770c3a07712ba135e40bed331a3ab22bc04480",
+      "bytes": 21638
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/08-text.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/08-text.txt",
+      "sha256": "c60fe3ce089b6895921977274bcf9a26408ecd2fcfbd1b3a8526265a3ff1b01b",
+      "bytes": 12260
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/09-text.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/09-text.txt",
+      "sha256": "11463c3d25fadba8b302f8bd23f6aa2ce191d3ae58beee2a32716e2925ff754d",
+      "bytes": 13342
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/10-text.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/10-text.txt",
+      "sha256": "bf548b83b631c545bb293bf8c3a32cbb8b80dc2cc76ff89ad0701be6772e96eb",
+      "bytes": 9385
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/11-supplements.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/11-supplements.txt",
+      "sha256": "7f57bb7665146819e700261f4d181df601d8638bcdd17d35fe680f10a8b97e9f",
+      "bytes": 9127
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/11-text.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/11-text.txt",
+      "sha256": "cd0ccf50932169951ca2b11da8f85308d88b9ce0c52cd84244b232db16cdcfef",
+      "bytes": 3135
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/12-supplements.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/12-supplements.txt",
+      "sha256": "b22ae9fb11bdb5194e29c90dc0ead7e7ee15988d5b2c5cfee1450a6b768dfba9",
+      "bytes": 6273
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/12-text.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/12-text.txt",
+      "sha256": "c98f480803f4449daf50d29297664899381be670fb736841b6b4058f420785af",
+      "bytes": 2736
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/13-text.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/13-text.txt",
+      "sha256": "d992aa5d0681b20c9b0bd30d454ccd2f53095925b099d2461ba2192e599647f8",
+      "bytes": 1922
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/14-supplements.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/14-supplements.txt",
+      "sha256": "d37a0871735a4a941e6bdd8fbc071c2023fc838d2214960ceee0ef27a6eaf377",
+      "bytes": 4988
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/14-text.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/14-text.txt",
+      "sha256": "c087899f5e01f0c2925fee6f39631a83dbd62d5b796c88d4613d6855a497024e",
+      "bytes": 6479
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/15-supplements.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/15-supplements.txt",
+      "sha256": "f486f4e74204340024475e831f51088349cf3619cd1b209f58e56deec0fbcfdf",
+      "bytes": 4515
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/15-text.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/15-text.txt",
+      "sha256": "0d8866828e75e304b148e2739ca53203ed9930391e657699f1b0e4f997548e64",
+      "bytes": 1864
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/16-supplements.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/16-supplements.txt",
+      "sha256": "aea7899fa74be7e58add926f6cc1801c74cd1a95233355d27bbd0ec855ce480a",
+      "bytes": 3935
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/16-text.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/16-text.txt",
+      "sha256": "257d511abbfca86a5477ed673c491b35061f4ccfe0df64d690a327633512d34d",
+      "bytes": 7763
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/17-text.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/17-text.txt",
+      "sha256": "9a448efb67116df7e3d7e5cfa1a09f25e69c9f258daac2c6e9a078ef6feb7f6d",
+      "bytes": 17715
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/18-text.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/18-text.txt",
+      "sha256": "4059b2272525da84ba550e699b1e6facdb7926be20f2e420ef588f2a103f0975",
+      "bytes": 895
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/19-supplements.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/19-supplements.txt",
+      "sha256": "e9dae726512ecfea1257efb0ee3cd70c2970db1c7ad07bed992a18aecaef906e",
+      "bytes": 38820
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/19-text.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/19-text.txt",
+      "sha256": "bae27f10d7fe20f2f8fb3cbd2b52e08ac027d49c1ba3496288e9ae27e4dbeb58",
+      "bytes": 17529
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/20-supplements.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/20-supplements.txt",
+      "sha256": "eb9fb5475b7224e8d204fc70a6097f6cf5f636578c76cec6bf6087d9c4d2b2d4",
+      "bytes": 44839
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/20-text.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/20-text.txt",
+      "sha256": "dfba0a82b73e31aefec7b2809b499a02d440c763c772ca11cf53103b1484aefe",
+      "bytes": 5932
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/21-supplements.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/21-supplements.txt",
+      "sha256": "8da1ae035be6d91d53f983698df396d4d4862106588ff3fffdb397b33acc000d",
+      "bytes": 19540
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/21-text.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/21-text.txt",
+      "sha256": "192e8a9f224d743a853a3eccea47d09da77c5bf6bd9a36bfa706da7d348a7e20",
+      "bytes": 6454
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/22-text.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/22-text.txt",
+      "sha256": "9ffae8a410770d4bf57dd59f57a542a8f84598d1ad547ac36121b9339f14eda1",
+      "bytes": 4365
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/23-text.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/23-text.txt",
+      "sha256": "088d0c97aee4a4ec87cafeacde2386a0a1dfce2d8f4d4b491e918eccd855fcf5",
+      "bytes": 4289
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/24-text.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/24-text.txt",
+      "sha256": "0372d8fc2eb0777897f7a6af27ba91763e06a20560b6dca3d74a76db875cf215",
+      "bytes": 2045
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/25-supplements.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/25-supplements.txt",
+      "sha256": "36bb9c8fdc51bedfa610923e7ca1bcda6f9366d5346a17d0f9e9e8a0975a2b7b",
+      "bytes": 72377
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/25-text.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/25-text.txt",
+      "sha256": "cb91c3b8542f454eeb5e41e6725f82cacfe9fd900355c6d382166a93a91f6ce5",
+      "bytes": 5534
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/26-supplements.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/26-supplements.txt",
+      "sha256": "6e3c08bf1483437ac4f316192faeeac5d20b698bc5efa96338387df8de679d71",
+      "bytes": 46362
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/26-text.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/26-text.txt",
+      "sha256": "b4d3d50c2b8db160bf1634c5b9b0217c447e7086893985f62e1872b9f4a91625",
+      "bytes": 10747
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/27-supplements.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/27-supplements.txt",
+      "sha256": "0ec1b9254a0da1f7798849d672b655b0f7c783d455140cc2f23849882dda5e9b",
+      "bytes": 11726
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/27-text.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/27-text.txt",
+      "sha256": "0f952f59805338d0bb7bd48e9e954ebd4fdb3f734fc34a9bb7f290a720ccc162",
+      "bytes": 3706
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/28-supplements.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/28-supplements.txt",
+      "sha256": "3a59df16a8768f3fc98123890fd93b6e4c658ef539a308edc39f9bb2ad4609a2",
+      "bytes": 62740
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/28-text.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/28-text.txt",
+      "sha256": "a5367e6687cae554559257921a2e831fc6a59342be9a1171a08d73abd83025cc",
+      "bytes": 9021
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/29-supplements.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/29-supplements.txt",
+      "sha256": "972aec34bbdac612e11e94b237aebc96afb151f6bcd42ffef995216463fc63b0",
+      "bytes": 47896
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/29-text.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/29-text.txt",
+      "sha256": "6908afea36542d96e14cfb0869bad1dbb0472b0c89be2e9a8cd9d2192823970e",
+      "bytes": 1572
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/30-supplements.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/30-supplements.txt",
+      "sha256": "2151600be057a34cc380c425b45af69c18bb435b9e5f2309492d9d5db25c82cb",
+      "bytes": 2215
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/30-text.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/30-text.txt",
+      "sha256": "cfbed32dfaef870639c53b887cd300e009d6a9ae7349cbf648ae6cf4f3313681",
+      "bytes": 5358
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/31-supplements.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/31-supplements.txt",
+      "sha256": "5271f2639f8871f0ded6780d85bd5b4d53dff910e85499dc3003fdd96afbfb16",
+      "bytes": 683
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/31-text.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/31-text.txt",
+      "sha256": "84a55b22b22afa4d0cca390114abe8a074252829ace570b45fb4489a4718db39",
+      "bytes": 2312
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/32-supplements.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/32-supplements.txt",
+      "sha256": "65f72d15de39e28d1d8882786ab53ecaf6e32025e1ac70da270d158db887b564",
+      "bytes": 22733
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/32-text.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/32-text.txt",
+      "sha256": "d803b916cef661091712f0c5290fd5ba4c67cbc950433953e5ff9ddab53edb45",
+      "bytes": 1836
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/33-supplements.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/33-supplements.txt",
+      "sha256": "51c2fded3a9e8df6e9138c5efc4970ca2f2f98fa33618763b66a33d80dd4b701",
+      "bytes": 10179
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/33-text.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/33-text.txt",
+      "sha256": "ba24dbc55cbbf6fa587fa48b680604f57ebd8277873b74fdc7ffa7192906b3fb",
+      "bytes": 1904
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/34-text.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/34-text.txt",
+      "sha256": "a156c1e9f2fd26e8eb2f6af4c6e7b81899960f8967626b77c2bd3eda6f264bc5",
+      "bytes": 22694
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/35-text.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/35-text.txt",
+      "sha256": "04a195efc457bfc986b166dbe5e0b68d318d7fe69ee256684547ddf391ee543b",
+      "bytes": 13099
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/36-supplements.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/36-supplements.txt",
+      "sha256": "79c4969854f169ef4da997ae6f1445b42b1eb3bbf4ff6111c627095f93783dc5",
+      "bytes": 16225
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/36-text.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/36-text.txt",
+      "sha256": "773c283fb825ef0d5b3921be181c29a8aa40a52c7b38987e17fcf7abf8683eb8",
+      "bytes": 3812
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/37-text.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/37-text.txt",
+      "sha256": "157a9f6481bc6667c95cef6c11262e57ac33daac6e0f17a8697baf82e0cdbdbc",
+      "bytes": 841
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/38-supplements.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/38-supplements.txt",
+      "sha256": "212e2b3a3bd33cba59ff06974875d38dd48504b8a72d19fa8fb71a5b53f5237f",
+      "bytes": 16957
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/38-text.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/38-text.txt",
+      "sha256": "41660a508cc581e2336b2817be5155f84eedc4d8589e3f54bd63c40b768c265c",
+      "bytes": 4035
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/39-supplements.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/39-supplements.txt",
+      "sha256": "1275c3f622ab136b52c63c0bd3646633ee6b3bb1b53e81fb71ba15bd0ff2f26c",
+      "bytes": 5678
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/39-text.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/39-text.txt",
+      "sha256": "684c87307f68be38a9e806dc3b136482356a8398900b74f625734c6f394b601e",
+      "bytes": 15780
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/40-supplements.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/40-supplements.txt",
+      "sha256": "1e7cbc021d90f5b9d9945e54d9607e33024e98d5ead1ed7f23c4c38d87b981b7",
+      "bytes": 6720
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/40-text.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/40-text.txt",
+      "sha256": "032eb2efefc455b6539ee66ca1977f78d6949fc525b0de341cc2acd2589214c2",
+      "bytes": 1344
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/41-text.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/41-text.txt",
+      "sha256": "0d91d28e1a38fbf2cce16a64762a52892934248520c30e5af432a7122b05243f",
+      "bytes": 5179
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/42-text.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/42-text.txt",
+      "sha256": "a7bde40373c754713f8050685328d0d177a4bee8bb848f1f6e4e8df41b4f0115",
+      "bytes": 3628
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/43-text.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/43-text.txt",
+      "sha256": "bdc9cf2d66ca021ba7c84b7a8d9d60478b7705119b43c340e592c425c57937b3",
+      "bytes": 4442
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/44-text.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/44-text.txt",
+      "sha256": "5ffdddefa3c0982f394a90e8ed7b3941f5cad038b90fbc01bdb4060ed05f1e85",
+      "bytes": 671
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/45-supplements.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/45-supplements.txt",
+      "sha256": "7eff9856b26dbec358a7efb0f25837fdce92e79098019ef19fe00d5689c72be4",
+      "bytes": 26122
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/45-text.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/45-text.txt",
+      "sha256": "6936745aaf6396caccaf43e99f919aa4846b05a0a89e823d2e345cb7cbd875cf",
+      "bytes": 8341
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/46-text.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/46-text.txt",
+      "sha256": "aa94d6b1926cba6981404b614e2bd201efb0154aced3a50ea2eea09b22a2f207",
+      "bytes": 3925
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/47-text.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/47-text.txt",
+      "sha256": "513edf75cb157ce80e6902f7be40f02aa6aee7e2e4ca7f3e176696cfc861954b",
+      "bytes": 3214
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/48-text.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/48-text.txt",
+      "sha256": "5b55b92b5a17859e78e1651a1ed7c9ee6cbf385d0ef547fda88a6d71602d960a",
+      "bytes": 2195
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/49-supplements.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/49-supplements.txt",
+      "sha256": "121338a2ab462f4c16452f9028e3468469d3ea1c6a3acb4e258acc0d0c254725",
+      "bytes": 26536
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/49-text.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/49-text.txt",
+      "sha256": "1499fc3925294d74e15a2635518c9364a03f438d9c17d5fc88953b8905f19517",
+      "bytes": 2761
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/50-text.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/50-text.txt",
+      "sha256": "5fada24c72a32cf31437c763871e490fd1210ff43444f64605caba6e2f52bca0",
+      "bytes": 282
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/51-text.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/51-text.txt",
+      "sha256": "10b985e163dddd43f6d2b1888ae3f9459f0e2071d13e61b3ce167954f0911ffa",
+      "bytes": 949
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/52-supplements.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/52-supplements.txt",
+      "sha256": "527cc0226a950e333925cd2043bbd518c23875f92d7a1554f42a6b8d6eee609e",
+      "bytes": 12331
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/52-text.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/52-text.txt",
+      "sha256": "88bd2b509f1d468dbb36996aca9d3e32c6fc40a122f20cc6d95ef21b19b4c273",
+      "bytes": 10064
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/53-supplements.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/53-supplements.txt",
+      "sha256": "6cee51d511a613c625140e0d31adb66ad7c9279af58255b7727feb9b2a1e6aba",
+      "bytes": 44528
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/53-text.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/53-text.txt",
+      "sha256": "c42c09a9758d91e5681e5a5ffe89d381597cc5959f8495eecb38119fdf5cde15",
+      "bytes": 1511
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/54-supplements.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/54-supplements.txt",
+      "sha256": "124709d703e81cd8e6facb02849ceebdb59d8c60462f906d0b4457ca90a16758",
+      "bytes": 30658
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/54-text.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/54-text.txt",
+      "sha256": "6a12479768ed2a3e45c97413d0f433231b4bc27288da1c8d7130636872f6887c",
+      "bytes": 1838
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/55-text.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/55-text.txt",
+      "sha256": "7e87afe4ef3f1e22564bb951a71aee05e12035c87ffc905deb5fd552691e3ea5",
+      "bytes": 4644
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/56-text.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/56-text.txt",
+      "sha256": "0fa5da2ad18262f556018f0e7b4d21d1d30a65880f3a9399d8ec915db81ddf47",
+      "bytes": 659
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/57-text.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/57-text.txt",
+      "sha256": "1fceb50d430bfc6a024723d87151ea89c52415f733d504409294f1e3fb50764e",
+      "bytes": 856
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/58-text.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/58-text.txt",
+      "sha256": "17e63f4c4eb67f195ce872cc0ed60caebe7e492c17f4978c63180c7686500103",
+      "bytes": 262
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/59-supplements.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/59-supplements.txt",
+      "sha256": "0db53aa82ef06c0293760bbf7fad741e15f549382dadeba3a7becd31731bdcb4",
+      "bytes": 69182
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/59-text.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/59-text.txt",
+      "sha256": "480620a85e49b4dc20d3b6a183eb7e71b2af196dd924c25510b2653554224aa3",
+      "bytes": 1691
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/60-supplements.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/60-supplements.txt",
+      "sha256": "2f270cd3377dd227f06c4555e8cef599727413a7b2ebf9d90ff2bfcad2ee2ec4",
+      "bytes": 44396
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/60-text.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/60-text.txt",
+      "sha256": "2f9d192cbd7baca3480689483e388d052ce4ca4a0d5c401f94ecbc9f12827a5f",
+      "bytes": 7830
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/61-text.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/61-text.txt",
+      "sha256": "f63476c0f9cda755af1ee5ae6ab4fe6fe9aea19591e84151ec9214adbd13495a",
+      "bytes": 23810
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/62-text.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/62-text.txt",
+      "sha256": "98602a65420052d766bfe723d0ceb5b7247a36b2277262d87566cfcab3ab1b31",
+      "bytes": 6984
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/63-text.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/63-text.txt",
+      "sha256": "3216641c737f9b2607ee2face43365256fd99cddb1b248793b22d45deb2b187b",
+      "bytes": 12772
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/64-supplements.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/64-supplements.txt",
+      "sha256": "8089fd4b94b75c1115a945e04aeb96c96baff8738941973d2885f1e306e6b691",
+      "bytes": 1398
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/64-text.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/64-text.txt",
+      "sha256": "0d39f9bedcf37c0cf08aa515420ef99cc8e6eee3d30a17576e2c2b3b19e79f32",
+      "bytes": 3198
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/65-text.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/65-text.txt",
+      "sha256": "17159a4db7047159c74102f638cdcce24315c6b0a5c84ee5a2eddc8a1e7fa488",
+      "bytes": 28321
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/66-supplements.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/66-supplements.txt",
+      "sha256": "f72b5a14df406a29c5f1100e40a872a9f30c701ed5118c61e0ea50dbfd5562cf",
+      "bytes": 3125
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/66-text.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/66-text.txt",
+      "sha256": "3b0896b241c6dd5bf72404953d13fc37fac79451c258dfabf83dfc5b30930d27",
+      "bytes": 6059
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/67-supplements.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/67-supplements.txt",
+      "sha256": "f8f22abf4a25f17784d51b8d898e1532be9893e61d17c14661bf8fae258c0928",
+      "bytes": 2219
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/67-text.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/67-text.txt",
+      "sha256": "d38dea08f02d62058763798fd03e37d6205752d67b6061af8d8b1bd40d6b28c6",
+      "bytes": 10377
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/68-text.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/68-text.txt",
+      "sha256": "367dd8aee3d3c1f0ddf47b479c86a011b9918aa5027ed72d7c85578bb39eae11",
+      "bytes": 22187
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/69-text.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/69-text.txt",
+      "sha256": "42e5c39144e94f153b39aa2c72fe7751856d3b4c4790b45e0f9fe6aa5eaff97f",
+      "bytes": 101120
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/70-text.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/70-text.txt",
+      "sha256": "368d591be47025d8193c9a78065a9ae4117b9900cceac4e84c67bded8bfe84d2",
+      "bytes": 291
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/71-text.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/71-text.txt",
+      "sha256": "46b20b32104bf1c9d5924c26b7a0d6d736f4802fa634ba9c6cb081add89555bf",
+      "bytes": 8417
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/72-supplements.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/72-supplements.txt",
+      "sha256": "1ce1fadd098ab200be6e366515db33a58ffe3bce53b03b0b86f24f3c62b68ab6",
+      "bytes": 2023
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/72-text.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/72-text.txt",
+      "sha256": "fc16b672b87357e36a236a2eb35d1d4420320347acf8d53abbb3d14c8cf98386",
+      "bytes": 1667
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/73-supplements.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/73-supplements.txt",
+      "sha256": "6edf8fceaa4557e7896a2712e253d8402905f414af3b0de9f93c9a7482e94517",
+      "bytes": 890
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/73-text.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/73-text.txt",
+      "sha256": "1d9b5e18decdde7b580a62431475176342dcca51d12845346b1c4641d419b35c",
+      "bytes": 84
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/74-supplements.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/74-supplements.txt",
+      "sha256": "6bdde214229c0a6bf255de6d928b5e06e10d67cb45004a168933db8707616196",
+      "bytes": 75149
+    },
+    {
+      "original_path": "kr-harness/publication/2026-10-18/ch07/final-formal-review-r1/74-text.txt",
+      "external_path": "/workspace/.cache/howtolivebetter/publication/ch07-formal-derived-source-r1/74-text.txt",
+      "sha256": "c8d3270b3803c9759d0fc5413d0663f632834b900cfd732598b53f83a225abfc",
+      "bytes": 1187
+    }
+  ]
+}

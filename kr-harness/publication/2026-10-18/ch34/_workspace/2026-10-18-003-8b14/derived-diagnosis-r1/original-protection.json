@@ -1,0 +1,33 @@
+{
+  "status": "original_six_protected_files_byte_identical",
+  "command": [
+    "python3",
+    "/workspace/HowToLiveBetter-KR/.claude/skills/humanize-korean/scripts/prepare_monolith_input.py",
+    "--run-dir",
+    "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch34/_workspace/2026-10-18-003-8b14/derived-diagnosis-r1",
+    "--genre",
+    "essay",
+    "--diagnosis",
+    "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch34/_workspace/2026-10-18-003-8b14/02_diagnosis.md",
+    "--no-sanitize"
+  ],
+  "exit_code": 0,
+  "original_before_sha256": {
+    "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch34/_workspace/2026-10-18-003-8b14/00_metrics.json": "c4b3bbcf453e98954f20eaef17368575fe0524f57304e42deef21892e04773fe",
+    "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch34/_workspace/2026-10-18-003-8b14/01_input.txt": "208f62498fac3083034400f6d7d672a7a82cc34cc1a01064a446eb0b62e7cb39",
+    "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch34/_workspace/2026-10-18-003-8b14/01_input_with_metrics.txt": "3ad8d90540d395cf4ad3ef49378458e4239dc1fd06e98867ef2d67ac4147cc7c",
+    "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch34/_workspace/2026-10-18-003-8b14/entry_snapshot.md": "bbf7e295a855d5508ec24ffe07d2e05969b916e04858fff77b3715556083fdc2",
+    "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch34/source.md": "1171281e286b8e792285b3f0aca8ae6c2fe272a1e53f9e8265525428025058e0",
+    "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch34/manifest.json": "66354c404f459e6fa06c4b3233a673d0178aa2d8959f9940dde5b116e2d02193"
+  },
+  "original_after_sha256": {
+    "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch34/_workspace/2026-10-18-003-8b14/00_metrics.json": "c4b3bbcf453e98954f20eaef17368575fe0524f57304e42deef21892e04773fe",
+    "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch34/_workspace/2026-10-18-003-8b14/01_input.txt": "208f62498fac3083034400f6d7d672a7a82cc34cc1a01064a446eb0b62e7cb39",
+    "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch34/_workspace/2026-10-18-003-8b14/01_input_with_metrics.txt": "3ad8d90540d395cf4ad3ef49378458e4239dc1fd06e98867ef2d67ac4147cc7c",
+    "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch34/_workspace/2026-10-18-003-8b14/entry_snapshot.md": "bbf7e295a855d5508ec24ffe07d2e05969b916e04858fff77b3715556083fdc2",
+    "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch34/source.md": "1171281e286b8e792285b3f0aca8ae6c2fe272a1e53f9e8265525428025058e0",
+    "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch34/manifest.json": "66354c404f459e6fa06c4b3233a673d0178aa2d8959f9940dde5b116e2d02193"
+  },
+  "derived_input_sha256": "208f62498fac3083034400f6d7d672a7a82cc34cc1a01064a446eb0b62e7cb39",
+  "diagnosis_sha256": "94b79f0d5cbc117b5d97bf0829f53c743bb89f589c050045a49b1577a8a1bba2"
+}

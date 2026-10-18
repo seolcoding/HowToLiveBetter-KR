@@ -1,0 +1,92 @@
+{
+  "entry": 8,
+  "status": "unadopted_pending_independent_exact_hash_review",
+  "task": "cross-reference scope only",
+  "before": "운동 자체는 효과가 있습니다. 제2절(천천히 죽지 않기)을 보세요.",
+  "after": "일반적인 운동 안내는 제2절(천천히 죽지 않기)을 보세요. 운동 항목의 수치는 주로 활동량과 사망의 연관입니다. 감량 효과를 직접 보여 주는 수치는 아닙니다.",
+  "reason": "제2절 운동 안내의 사망 관련 관찰 결과를 이 항목의 감량 직접근거로 읽는 오해를 제한합니다.",
+  "source_guard": {
+    "path": "/workspace/HowToLiveBetter-KR/book-kr/06-함정-목록.md",
+    "sha256": "6746d07a3b0158c91141dc949b70892117f6fdfc3c9d62a1fc5572fdc51fdc85",
+    "whole_snapshot": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-008-734d/publication-crossref-current-whole-r1.md",
+    "entry_snapshot": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-008-734d/publication-crossref-current-entry-r1.md",
+    "entry_sha256": "d3f2a1dbf98d324d4af27dd51e0d11fff78cb67cb387f9f5c4abdf276d50cc0e",
+    "whole_unchanged_at_completion": true
+  },
+  "target_read": {
+    "path": "/workspace/HowToLiveBetter-KR/book-kr/02-천천히-죽지-않기.md",
+    "sha256": "773251e22e2964d827ea1ca997dc73810887e42bd3297a6fd352837528c79f8c",
+    "sections": {
+      "11": {
+        "sha256": "4df4e76f0118266d717a1f9e528633e18073c1914bd5e60a23f32b5bdbd4355b",
+        "level_read": "complete entry including all six fields"
+      },
+      "14": {
+        "sha256": "9585db5f13dc584f87b8f1d3a6095ea73bf86b8e94c2c742712ee2f0894bd069",
+        "level_read": "complete entry including all six fields"
+      },
+      "15": {
+        "sha256": "d559da9d859da3f4c42a4221707ff3bab94580c3498165c6f0124cf37025664c",
+        "level_read": "complete entry including all six fields"
+      },
+      "16": {
+        "sha256": "2bb09014b52824face59aa70d32383d203137d55a426b25ac518a388d601a97b",
+        "level_read": "complete entry including all six fields"
+      },
+      "17": {
+        "sha256": "8f5a54f45df14bbed85fbc73a041872a7fa738ad2652aff5e2fae298d0677628",
+        "level_read": "complete entry including all six fields"
+      }
+    },
+    "intro_read": "총사망률과 관찰 연구 해석 범위; 운동과 체중 항목 안내",
+    "exact_target_quotes": [
+      "이 연구들은 활동량과 사망을 추적해 기록했습니다.",
+      "참여자를 관찰했으며 활동량을 정해 배정하지는 않았습니다.",
+      "국내 지침도 성인·노인에게 주 150~300분 중강도 활동을 권합니다."
+    ],
+    "scope": "Published target text read directly; no new primary-source verification asserted."
+  },
+  "unchanged_guards": {
+    "other_entry_bytes": true,
+    "all_other_entry_text": true,
+    "doi": true,
+    "conditions_numbers_hedges": true,
+    "cost_tag_grade_six_fields": true
+  },
+  "validation": {
+    "literal_check": {
+      "command": [
+        "python",
+        "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/publication-partial-review-evidence/literal_check.py",
+        "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-008-734d/publication-crossref-proposal-r1.md"
+      ],
+      "exit_code": 0,
+      "result": [
+        {
+          "entry": null,
+          "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-008-734d/publication-crossref-proposal-r1.md",
+          "title_chars": 29,
+          "easy_chars": 84,
+          "easy_sentences": 3,
+          "long_sentences": [],
+          "pass_length": true
+        }
+      ]
+    },
+    "layout": {
+      "six_single_line_fields": true,
+      "field_order": [
+        "비용",
+        "쉽게",
+        "이득",
+        "근거등급",
+        "출처",
+        "비고"
+      ],
+      "physical_lines": 8,
+      "passed": true
+    }
+  },
+  "proposal_sha256": "c12e0340d8dccc6aa6b4698470c86617ebc6add1512d939e395a779169c68f4b",
+  "date": "2026-10-18"
+}

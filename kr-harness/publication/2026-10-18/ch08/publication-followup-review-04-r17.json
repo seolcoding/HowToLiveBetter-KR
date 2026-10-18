@@ -1,0 +1,440 @@
+{
+  "chapter": 8,
+  "status": "completed_exact_partial_review_r23",
+  "manifest_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/author-partial-manifest-23.json",
+  "manifest_sha256": "0a67bf514238612a696930a534afae8ba4d6910fdcf5f2b6513522fb8bf2b03e",
+  "entries": [
+    {
+      "entry": 42,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-042-fcec/publication-entry-proposal.md",
+      "proposal_sha256": "a970ddc164b39f23d944c37973e10c9d2e52f09b56f7702e60ff15433be845d2",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-042-fcec/publication-entry-changes.json",
+      "changes_sha256": "ac767d3b5f1c4d5e815304039b1dee3b95070b9da86d9891e7e0ef530dfaa9c4",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-042-fcec/strict-entry.md",
+      "base_strict_entry_sha256": "6b09d69b05ec3096b6afb109afc8cf94c6bff0c5828d7bf3b36c560b425476e8",
+      "literal_exit_code": 0,
+      "decision": "approve",
+      "all_four_complete_fields_read": true,
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "snapshot_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-042-fcec/entry_snapshot.md",
+      "snapshot_sha256": "6b09d69b05ec3096b6afb109afc8cf94c6bff0c5828d7bf3b36c560b425476e8",
+      "strict_candidate_contains_exact_base": true,
+      "length_check": {
+        "entry": 42,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-042-fcec/publication-entry-proposal.md",
+        "title_chars": 26,
+        "easy_chars": 62,
+        "easy_sentences": 3,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "number": true,
+        "six_labels": true,
+        "tags": true,
+        "grade": true
+      },
+      "production_layout_check": true,
+      "initial_canonical_entry": {
+        "entry": 42,
+        "title": "### 42. 현장은 전체·위치·손상을 찍고 원본을 보관하세요",
+        "source_entry_snapshot_path": "_workspace/2026-10-18-042-fcec/entry_snapshot.md",
+        "source_entry_snapshot_sha256": "6b09d69b05ec3096b6afb109afc8cf94c6bff0c5828d7bf3b36c560b425476e8",
+        "source_review_status": "no_new_error_found",
+        "candidate_review_status": "pending_candidate_review",
+        "scope_and_findings": "민사소송법202·374조는 증거조사·자유심증 근거입니다. 전체→위치→손상 촬영순서는 경험적 권고이며 법정 의무/확정승소가 아닙니다. C등급·효과수치 미확인·구호우선 유지."
+      },
+      "finding_closure": "전필드승인.202자유심증·374사진녹음등조사조문과경험적촬영순서/효과율미확인구분정확.안전구조우선과원본맥락보존유지.최신1사고구호참조정합.",
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "revision_requests": [],
+      "proposed_root_operation": {
+        "type": "replace_complete_strict_entry_body",
+        "before_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-042-fcec/strict-entry.md",
+        "before_entire_entry_sha256": "6b09d69b05ec3096b6afb109afc8cf94c6bff0c5828d7bf3b36c560b425476e8",
+        "after_proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-042-fcec/publication-entry-proposal.md",
+        "after_original_proposal_sha256": "a970ddc164b39f23d944c37973e10c9d2e52f09b56f7702e60ff15433be845d2",
+        "effective_after_sha256": "a970ddc164b39f23d944c37973e10c9d2e52f09b56f7702e60ff15433be845d2",
+        "effective_after_rule": "proposal.rstrip()+original strict entry trailing whitespace; preserve original separators",
+        "supersession": "Latest approved full replaces any initial field/older full once.",
+        "integration_authorized": false
+      },
+      "field_decisions": {
+        "title": "approve",
+        "비용": "approve",
+        "쉽게": "approve",
+        "이득": "approve",
+        "근거등급": "approve",
+        "출처": "approve",
+        "비고": "approve"
+      }
+    },
+    {
+      "entry": 43,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-043-881a/publication-entry-proposal.md",
+      "proposal_sha256": "6542d69d9641d13c5996f6095af507abd437b1148b42f66809a90d32532a87f9",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-043-881a/publication-entry-changes.json",
+      "changes_sha256": "d2dd5156ca3de1af0f585d652702d8d56ad728eb3e7b7bdc4b83c685f3e088e0",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-043-881a/strict-entry.md",
+      "base_strict_entry_sha256": "7a9acf1cfe9accfb5eddd587b60ffe8a8537f6820f406d1854eb6eb0d3211f75",
+      "literal_exit_code": 0,
+      "decision": "approve",
+      "all_four_complete_fields_read": true,
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "snapshot_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-043-881a/entry_snapshot.md",
+      "snapshot_sha256": "7a9acf1cfe9accfb5eddd587b60ffe8a8537f6820f406d1854eb6eb0d3211f75",
+      "strict_candidate_contains_exact_base": true,
+      "length_check": {
+        "entry": 43,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-043-881a/publication-entry-proposal.md",
+        "title_chars": 25,
+        "easy_chars": 69,
+        "easy_sentences": 3,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "number": true,
+        "six_labels": true,
+        "tags": true,
+        "grade": true
+      },
+      "production_layout_check": true,
+      "initial_canonical_entry": {
+        "entry": 43,
+        "title": "### 43. 가정폭력은 신고하고 피해자보호명령을 확인하세요",
+        "source_entry_snapshot_path": "_workspace/2026-10-18-043-881a/entry_snapshot.md",
+        "source_entry_snapshot_sha256": "7a9acf1cfe9accfb5eddd587b60ffe8a8537f6820f406d1854eb6eb0d3211f75",
+        "source_review_status": "partial_medical_verified",
+        "candidate_review_status": "pending_candidate_review",
+        "scope_and_findings": "가정폭력처벌법5/55의2/55의4에서 현장조치·피해자/법정대리인/검사청구·판사 필요성 판단·이혼불요 확인. Glass 원초록506/427·OR6.70(3.91~11.49),7.48(4.53~12.35) 일치. Stöckl66개국38.6%/6.3%는 이번 독립원문대조 미완료. 보호명령이 실제안전을 보장하지 않는 유보·신청비용 미확인 유지."
+      },
+      "finding_closure": "전필드승인.두실제저자원초록의66국중앙값/506대427사례대조·ORCI수치와해외관찰범위를대조.법2가정구성원·55의2신청자판사필요성/55의4청구후임시명령·이혼독립조건정확.수수료무료지원미확인독자고지충분.의료지침독립문구미열람은사실오류아니며고위험목조름후진료안전권고를그대로보존;실제의료지침검증완료로세지않음.",
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "revision_requests": [],
+      "proposed_root_operation": {
+        "type": "replace_complete_strict_entry_body",
+        "before_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-043-881a/strict-entry.md",
+        "before_entire_entry_sha256": "7a9acf1cfe9accfb5eddd587b60ffe8a8537f6820f406d1854eb6eb0d3211f75",
+        "after_proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-043-881a/publication-entry-proposal.md",
+        "after_original_proposal_sha256": "6542d69d9641d13c5996f6095af507abd437b1148b42f66809a90d32532a87f9",
+        "effective_after_sha256": "6542d69d9641d13c5996f6095af507abd437b1148b42f66809a90d32532a87f9",
+        "effective_after_rule": "proposal.rstrip()+original strict entry trailing whitespace; preserve original separators",
+        "supersession": "Latest approved full replaces any initial field/older full once.",
+        "integration_authorized": false
+      },
+      "field_decisions": {
+        "title": "approve",
+        "비용": "approve",
+        "쉽게": "approve",
+        "이득": "approve",
+        "근거등급": "approve",
+        "출처": "approve",
+        "비고": "approve"
+      }
+    },
+    {
+      "entry": 44,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-044-e993/publication-entry-proposal.md",
+      "proposal_sha256": "21a0a5822c9b7fa61c3eedf9cc450f8f56c358ecbd85872ed98dda38471eec11",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-044-e993/publication-entry-changes.json",
+      "changes_sha256": "7d115b5155497f809076fe8c1c92d966311023d77354c0249c9add3250672e46",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-044-e993/strict-entry.md",
+      "base_strict_entry_sha256": "02636b367c7257582aab15e4b80dbc60a76bde179c8531c26ff128b02ab0a7f1",
+      "literal_exit_code": 0,
+      "decision": "approve",
+      "all_four_complete_fields_read": true,
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "snapshot_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-044-e993/entry_snapshot.md",
+      "snapshot_sha256": "02636b367c7257582aab15e4b80dbc60a76bde179c8531c26ff128b02ab0a7f1",
+      "strict_candidate_contains_exact_base": true,
+      "length_check": {
+        "entry": 44,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-044-e993/publication-entry-proposal.md",
+        "title_chars": 29,
+        "easy_chars": 65,
+        "easy_sentences": 3,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "number": true,
+        "six_labels": true,
+        "tags": true,
+        "grade": true
+      },
+      "production_layout_check": true,
+      "initial_canonical_entry": {
+        "entry": 44,
+        "title": "### 44. 가족의 도박 빚을 대신 갚기 전에 책임부터 확인하세요",
+        "source_entry_snapshot_path": "_workspace/2026-10-18-044-e993/entry_snapshot.md",
+        "source_entry_snapshot_sha256": "02636b367c7257582aab15e4b80dbc60a76bde179c8531c26ff128b02ab0a7f1",
+        "source_review_status": "pending_case_verification",
+        "candidate_review_status": "pending_candidate_review",
+        "scope_and_findings": "민법103·428·832조 확인. 일상가사채무와 개인 빚/보증 구분. 도박자금·도박자금대여 검색에서 사건을 받았으나 도박목적 대여 무효의 구체적 대법원 판결 원문은 확보하지 못했습니다. 대출 전부 무효로 단정하지 않는 유보 유지."
+      },
+      "finding_closure": "전필드승인.103반사회질서/832일상가사책임사전상대방명시예외/428보증별도계약을대조.가족만으로모든빚공동또는도박사용만으로모든대출무효오독없음.개별도박대여판례미확인독자유보충분.7장참조는회복지원일반범위.",
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "revision_requests": [],
+      "proposed_root_operation": {
+        "type": "replace_complete_strict_entry_body",
+        "before_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-044-e993/strict-entry.md",
+        "before_entire_entry_sha256": "02636b367c7257582aab15e4b80dbc60a76bde179c8531c26ff128b02ab0a7f1",
+        "after_proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-044-e993/publication-entry-proposal.md",
+        "after_original_proposal_sha256": "21a0a5822c9b7fa61c3eedf9cc450f8f56c358ecbd85872ed98dda38471eec11",
+        "effective_after_sha256": "21a0a5822c9b7fa61c3eedf9cc450f8f56c358ecbd85872ed98dda38471eec11",
+        "effective_after_rule": "proposal.rstrip()+original strict entry trailing whitespace; preserve original separators",
+        "supersession": "Latest approved full replaces any initial field/older full once.",
+        "integration_authorized": false
+      },
+      "field_decisions": {
+        "title": "approve",
+        "비용": "approve",
+        "쉽게": "approve",
+        "이득": "approve",
+        "근거등급": "approve",
+        "출처": "approve",
+        "비고": "approve"
+      }
+    },
+    {
+      "entry": 45,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-045-585b/publication-entry-proposal.md",
+      "proposal_sha256": "73f82c4a605041c9b559bdeb878e14b568904f68b5e0cd11a9cc05d075fd60f6",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-045-585b/publication-entry-changes.json",
+      "changes_sha256": "7c6d30eeeb44a6622549b40547a94623b37db2eeffc6ddb73b3b87d1478f06d4",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-045-585b/strict-entry.md",
+      "base_strict_entry_sha256": "60db72fc893861d977c634f52efbcd8654253b2250d5f35d98f2c4355a2642b5",
+      "literal_exit_code": 0,
+      "decision": "approve",
+      "all_four_complete_fields_read": true,
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "snapshot_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-045-585b/entry_snapshot.md",
+      "snapshot_sha256": "60db72fc893861d977c634f52efbcd8654253b2250d5f35d98f2c4355a2642b5",
+      "strict_candidate_contains_exact_base": true,
+      "length_check": {
+        "entry": 45,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-045-585b/publication-entry-proposal.md",
+        "title_chars": 31,
+        "easy_chars": 74,
+        "easy_sentences": 3,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "number": true,
+        "six_labels": true,
+        "tags": true,
+        "grade": true
+      },
+      "production_layout_check": true,
+      "initial_canonical_entry": {
+        "entry": 45,
+        "title": "### 45. 지인의 대출에 얼굴 인증·명의·인증번호를 빌려주지 마세요",
+        "source_entry_snapshot_path": "_workspace/2026-10-18-045-585b/entry_snapshot.md",
+        "source_entry_snapshot_sha256": "60db72fc893861d977c634f52efbcd8654253b2250d5f35d98f2c4355a2642b5",
+        "source_review_status": "no_new_error_found",
+        "candidate_review_status": "pending_candidate_review",
+        "scope_and_findings": "민법110조2항 제3자사기와 상대방 인식/알수있음,454조 채무자와 제3자의 인수계약에 채권자승낙,598조 소비대차 확인. 모든 채무인수 방식에 승낙이 따로 필요하다고 확대하지 마세요. 명의도용/의사·전자서명 자동유효 부정 유지."
+      },
+      "finding_closure": "전필드승인.454채무인수는채무자3자약정후채권자승낙한정/110제삼자사기인지및선의제삼자/전자서명형식효력과계약전체유효구별정확.타인에게돈넘겨도자신계약자동변경없음.기존3/17/18→새45대출명의인증과보증구분참조정합.45→최신9신용정보·18상환책임조건정합.",
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "revision_requests": [],
+      "proposed_root_operation": {
+        "type": "replace_complete_strict_entry_body",
+        "before_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-045-585b/strict-entry.md",
+        "before_entire_entry_sha256": "60db72fc893861d977c634f52efbcd8654253b2250d5f35d98f2c4355a2642b5",
+        "after_proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-045-585b/publication-entry-proposal.md",
+        "after_original_proposal_sha256": "73f82c4a605041c9b559bdeb878e14b568904f68b5e0cd11a9cc05d075fd60f6",
+        "effective_after_sha256": "73f82c4a605041c9b559bdeb878e14b568904f68b5e0cd11a9cc05d075fd60f6",
+        "effective_after_rule": "proposal.rstrip()+original strict entry trailing whitespace; preserve original separators",
+        "supersession": "Latest approved full replaces any initial field/older full once.",
+        "integration_authorized": false
+      },
+      "field_decisions": {
+        "title": "approve",
+        "비용": "approve",
+        "쉽게": "approve",
+        "이득": "approve",
+        "근거등급": "approve",
+        "출처": "approve",
+        "비고": "approve"
+      }
+    }
+  ],
+  "approved_entries": [
+    42,
+    43,
+    44,
+    45
+  ],
+  "revise_entries": [],
+  "actual_primary_readings": [
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290113.xml",
+      "artifact_sha256": "dd6228b88d970e33b979d0d9e59c5b74f6f45958c01dcab79e034334365fbc92",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290113&type=XML",
+      "read_at_utc": "2026-10-18T20:21:44.590430+00:00",
+      "read_scope": "202全文直接읽음.자유심증은변론전체/증거조사결과·사회정의형평/논리경험법칙조건있음.374본문/21455장래관할및21993시행은r16읽기재사용.42는촬영순서를경험적권고·법정의무아님으로한정하고채택승소효과보장안함.기존캐시직접읽기/새HTTP아님.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290603.xml",
+      "artifact_sha256": "3a8a84ecbf806f7101ee1cdd37438ee7a4448811e860819c7b24403213993f84",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290603&type=XML",
+      "read_at_utc": "2026-10-18T20:21:44.590754+00:00",
+      "read_scope": "2모든정의/5/8의2/55의2/55의3/55의4전항·19068/20929/21490부칙직접읽음.가정구성원/배우자전배우자사실혼·범죄범위한정·판사필요성/신청자/명령청구후임시명령조건정확.이혼청구불요·명령안전보장없음.수수료무료지원기관실무는미확인고지유지.기존캐시직접읽기/새HTTP아님.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/284415.xml",
+      "artifact_sha256": "cd2997176df62de7b1e4bb018287987654f6054cbd0eeced9e882d5c4daf53df",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=284415&type=XML",
+      "read_at_utc": "2026-10-18T20:21:44.592209+00:00",
+      "read_scope": "103/428/832/110/454/598전문직접읽음.일상가사연대의사전제삼자책임없음명시예외,가족빚일률공동아님.도박모든대출무효아님/개별도박판례미확인고지.110제삼자사기상대방인지가능·선의제삼자취소대항불가/454채무자3자계약채권자승낙/598반환약정.21454시행r13재사용.기존캐시직접읽기/새HTTP아님.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/236201.xml",
+      "artifact_sha256": "3614b3492242469c6de01576e0031a04583520ed5f5c16cca55e251f3a7e4459",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=236201&type=XML",
+      "read_at_utc": "2026-10-18T20:21:44.592330+00:00",
+      "read_scope": "3①②전문/17354부칙1~3/18479시행직접읽음.전자형식만으로효력부인불가와계약전체자동유효아님구별.구공인인증서경과를개별명의도용판단에확대안함.기존캐시직접읽기/새HTTP아님.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290247.xml",
+      "artifact_sha256": "440b67551a3f1f6119dba38469ca843ac06c55619e8aa59f3b7819c05368a621",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290247&type=XML",
+      "read_at_utc": "2026-10-18T20:21:44.592577+00:00",
+      "read_scope": "6전항및21205시행과22048시행직접읽음.접근매체관리·금융회사확인/양도대여등금지와예외범위;휴대전화명의모든도움을같은범죄로일률단정안함.기존캐시직접읽기/새HTTP아님.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch08-audit/glass.raw",
+      "artifact_sha256": "2fe6ff08f80f82015379f6598e431f1bd19dbaf957a0797675bcb67467abf12b",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1016/j.jemermed.2007.02.065&format=json&resultType=core",
+      "read_at_utc": "2026-10-18T20:21:44.592615+00:00",
+      "read_scope": "정확DOI제목의저자원초록전체직접읽음.여성살인미수및살인506/폭력피해대조427사례대조·이전비치명목조름과OR6.70CI3.91–11.49/7.48CI4.53–12.35관찰연관.개인확률이나한국효과로일반화안함.논문전체는미확인.겉상처없어도진료는위험우선안전권고로보존하지만별도의료지침정확문구를확인했다고세지않음.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch08-review04/stockl-original.json",
+      "artifact_sha256": "96f26a167ca8bee0c5d5a2badcdbc57023ae359e691245f799949852d22d8242",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A23791474+AND+SRC%3AMED&format=json&resultType=core",
+      "read_at_utc": "2026-10-18T20:21:44.592651+00:00",
+      "read_scope": "저자원초록전체직접읽음.66국/나라연도1추정품질선택·국가/지역중앙값산출,여성38.6남성6.3피살중파트너비율.전체여성인구의피살확률아님.논문전체미열람.원저자보존/tmp원바이트를외부캐시에그대로복사했으며이번freshHTTP아님.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    }
+  ],
+  "prior_actual_reading_reuse": [],
+  "cross_reference_review": [
+    {
+      "entries": [
+        42,
+        1
+      ],
+      "scope": "최신1full구호신고/차노면전차파손신고예외와제목앵커직접읽어정합."
+    },
+    {
+      "entries": [
+        3,
+        17,
+        18,
+        45,
+        9
+      ],
+      "scope": "최신3/17/18full전체및9full읽어새45제목명의·인증번호/얼굴인증·명의·인증번호를빌려주지마세요/지인의대출연속앵커정합.18보증문서가실제대출계약이면멈춤과45차주책임구별정합.45→9본인신용정보조회/18상환책임정합.3의중국변환메모는별도sameauthorr2요청중이며이참조검토로전체3후속승인아님."
+    },
+    {
+      "entries": [
+        44
+      ],
+      "target_path": "/workspace/HowToLiveBetter-KR/book-kr/07-돈이-없을-때-사는-법.md",
+      "target_sha256": "3074dd62fa9ec9d92d3e3e7049c3f9782b1adfac5cd223d0726da93e53fd491e",
+      "scope": "현재7장채무·생계회복일반주제목차/기존21→7장19독립읽기범위재사용.도박채무모두면책보장아님."
+    }
+  ],
+  "production_helper_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/scripts/humanize_publication.py",
+  "production_helper_sha256": "244c194c7620c3095dc3a972eecdaa4e17fab8a0a301ae8b601cb8401569bfd3",
+  "helper_code_modified": false,
+  "fresh_http_performed": true,
+  "whole46_approval": false,
+  "integration_approval": false,
+  "formal_kr_fit_approval": false,
+  "preservation": "Prior reviews/frozen proposals/canonical/public/runs/gates/git unchanged.",
+  "reviewer_id": "/root/publication_review_04",
+  "six_complete_fields_read": true,
+  "http_attempts": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2573025/?pdf=render",
+      "utc": "2026-10-18T20:20:00.998395+00:00",
+      "tls_verify": true,
+      "status": 200,
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch08-review04/glass-pmc.raw",
+      "sha256": "1f5b74e965e835049685ede0cf1c65208c6b7874bece273f2b95a5262cb24974",
+      "bytes": 21377
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2573025/fullTextXML",
+      "utc": "2026-10-18T20:20:01.473377+00:00",
+      "tls_verify": true,
+      "error": "HTTP Error 500: Internal Server Error"
+    },
+    {
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/injuries/strangulation/",
+      "utc": "2026-10-18T20:20:25.520505+00:00",
+      "tls_verify": true,
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "failed_fulltext_scope": "PMC HTTP200은실제RecaptchaChallengePageUi로논문아님.EPMCfullTextXML500/NHSinform403도본문확인실패.원초록읽기와구분."
+}

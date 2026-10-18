@@ -1,0 +1,66 @@
+{
+  "status": "six_exact_approved_tail_sentence_splits_applied_pending_new_current_hash_formal",
+  "at_utc": "2026-10-18T20:16:24.042265+00:00",
+  "before_raw_sha256": "69a79965f2a310648379cf87c6bbe27ea3a5033552de9630c16f25cda6165286",
+  "after_raw_sha256": "62c6bc704264bd7a2c40a4ba9e6f5b713b7edc3e6c8a34b64a8cd9cba46c7217",
+  "tail_before_sha256": "efcb305420747e48c51b786f91f37240afcced2c15416254edca1db2a3c64007",
+  "tail_after_sha256": "a922b3b0ba5001ebe839fce818ff2427a6482e3d638df7661a2f4acfc31278f0",
+  "proposal_sha256": "a24ce034aaf1f7d15aa1fdfa1b456817ca2ace4c7d4675be9ba0f495e0eef51c",
+  "independent_review_sha256": "7d572393dd18385319397184f78685f6fcbc3dade262940b166232ca4cd13b13",
+  "operations": [
+    {
+      "finding_id": "TAIL-2",
+      "todo_item": 2,
+      "before": "제15항(사주·점술): 점술·무속 사기의 한국 공식 사례(검찰·경찰 보도자료 또는 확정 판례 사건번호).",
+      "after": "제15항(사주·점술): 한국의 점술·무속 사기 공식 사례를 확인해야 합니다. 검찰·경찰 보도자료나 확정 판례의 사건번호가 필요합니다.",
+      "before_sha256": "94ecffa5e0659b77dac505216112f046e4d8a19d849ac5be175f60c5b0edfb71",
+      "after_sha256": "8b74ce54cf96dd7646054e3ed9c93880bfc3f8b78be3708616a5611061196aaf"
+    },
+    {
+      "finding_id": "TAIL-3",
+      "todo_item": 3,
+      "before": "제16항(블루라이트 차단안경): 용접 불꽃에 의한 각막 화상의 한국 표준 의학용어와 업무상 질병(산재) 인정 근거 조문.",
+      "after": "제16항(블루라이트 차단안경): 한국 표준 의학용어를 확인해야 합니다. 대상은 용접 불꽃에 의한 각막 화상입니다. 업무상 질병(산재) 인정 근거 조문도 확인해야 합니다.",
+      "before_sha256": "2a34859f08b1f4652cb045080184a33a54ccedfaab9afa3aa0a0936964caf776",
+      "after_sha256": "f68d88e9a0ff1f27e137397683659ee33ec0793d25797d86a9026d33aad81696"
+    },
+    {
+      "finding_id": "TAIL-5",
+      "todo_item": 5,
+      "before": "제20항(담낭에 돌): 중국 담도외과 2021년 전문가 합의 전문의 수술 적응증 목록(원문의 미확인 사항 승계).",
+      "after": "제20항(담낭에 돌): 중국 담도외과 2021년 전문가 합의 전문을 확인해야 합니다. 확인 대상은 수술 적응증 목록입니다. 원문의 미확인 사항을 이어받았습니다.",
+      "before_sha256": "2956a93fb2bed5c9b591e09a0a81cd2d29f6fcf8de108dbad2a198ace86ce4ce",
+      "after_sha256": "20ca36214f3269b2252edfd6c244f285644327a929d8a74923cb3229ebb96572"
+    },
+    {
+      "finding_id": "TAIL-6",
+      "todo_item": 6,
+      "before": "제22항(크리스털·팔찌·행운 소품): 크리스털·파워스톤류 효능 허위·과장 광고로 적발된 한국 사례(공정거래위원회 등).",
+      "after": "제22항(크리스털·팔찌·행운 소품): 한국 적발 사례를 확인해야 합니다. 대상은 크리스털·파워스톤류 효능의 허위·과장 광고입니다. 공정거래위원회 등 공식 자료가 필요합니다.",
+      "before_sha256": "dee0f5504ab636645a83dc06946c9efe2fbd28d557c24763f4c6dd3b814f62b3",
+      "after_sha256": "af87abb08d2b3847dfdf6f56a6a27b2a987bfa9db28929dea6e293508a31af24"
+    },
+    {
+      "finding_id": "TAIL-7",
+      "todo_item": 7,
+      "before": "제28항(성적 지향 교정): 한국의 성적 지향 '교정 치료' 관련 판례·인권위원회 결정 등 공식 사례.",
+      "after": "제28항(성적 지향 교정): 한국 공식 사례를 확인해야 합니다. 성적 지향 '교정 치료' 관련 판례나 인권위원회 결정 등이 대상입니다.",
+      "before_sha256": "24f37ae9c0de159b95549208f92577836e6b6ee9012fb80dc1f3d372a5dc0698",
+      "after_sha256": "e32a7744d9a8f6a0f6e04e2ee5757e341236d5267dc77472ede2451d4fc1ec5b"
+    },
+    {
+      "finding_id": "TAIL-8",
+      "todo_item": 8,
+      "before": "제18항(일반 검진 패키지): 일반건강검진 기본 항목의 본인 부담 여부와 암검진 본인부담률(국민건강보험공단 원문).",
+      "after": "제18항(일반 검진 패키지): 일반건강검진 본인 부담 여부를 확인해야 합니다. 확인 대상은 기본 검진 항목입니다. 암검진 본인부담률도 확인해야 합니다. 국민건강보험공단 원문이 필요합니다.",
+      "before_sha256": "fbc047a49e72bdd821753f235f855cb2aca64f93e2cc3da09f8d3550bbd5367d",
+      "after_sha256": "3caf93615b1e03509b58497d178f9a049169614f1e1bdd34dc3b43c54afd0bae"
+    }
+  ],
+  "all29_entries_intro_and_all_other_bytes_unchanged": true,
+  "todo_heading_and_8_items_unchanged": true,
+  "archived_formal": "kr-harness/chapters/06/kr-fit-review.r9.md",
+  "archived_formal_sha256": "598d9715a8c13dac57b7e7b1d236769070fa563fa5f8f7b1ce01ba213b380d43",
+  "formal_kr_fit_approval": false,
+  "deployed": false
+}

@@ -1,0 +1,250 @@
+{
+  "chapter": 8,
+  "status": "completed_exact_partial_review_r17",
+  "manifest_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/author-partial-manifest-17.json",
+  "manifest_sha256": "26e988e630147e34c837366413ffcfbf41c712d8daf0858f5e2634fcc597a392",
+  "entries": [
+    {
+      "entry": 28,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-028-3856/publication-entry-proposal.md",
+      "proposal_sha256": "f6fcc8af62b6b3ab0c0b41b0c257f704219dabb354c4310f78f8d0233678785f",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-028-3856/publication-entry-changes.json",
+      "changes_sha256": "c4b975e21b2a4d92ba365553cc08f1af6715f757ea4889c0ee7cf534486ef14c",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-028-3856/strict-entry.md",
+      "base_strict_entry_sha256": "e427d71858f95e18a91d21f133f4db206ae6b295cbdbcec9fa9d701dfd950b9d",
+      "literal_exit_code": 0,
+      "decision": "approve",
+      "all_four_complete_fields_read": true,
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "snapshot_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-028-3856/entry_snapshot.md",
+      "snapshot_sha256": "e427d71858f95e18a91d21f133f4db206ae6b295cbdbcec9fa9d701dfd950b9d",
+      "strict_candidate_contains_exact_base": true,
+      "length_check": {
+        "entry": 28,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-028-3856/publication-entry-proposal.md",
+        "title_chars": 27,
+        "easy_chars": 73,
+        "easy_sentences": 3,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "number": true,
+        "six_labels": true,
+        "tags": true,
+        "grade": true
+      },
+      "production_layout_check": true,
+      "initial_canonical_entry": {
+        "entry": 28,
+        "title": "### 28. 명의만 빌려주는 대표이사·사업자 등록을 거절하세요",
+        "source_entry_snapshot_path": "_workspace/2026-10-18-028-3856/entry_snapshot.md",
+        "source_entry_snapshot_sha256": "e427d71858f95e18a91d21f133f4db206ae6b295cbdbcec9fa9d701dfd950b9d",
+        "source_review_status": "no_new_error_found",
+        "candidate_review_status": "pending_candidate_review",
+        "scope_and_findings": "상법401조 주체 이사·고의/중과실 임무해태·제3자 손해배상. 회사 모든 빚의 대표자 자동부담과 다릅니다. 개인사업자/주주 등과 구분하고 사임·변경등기 세부절차 미확인 유지."
+      },
+      "finding_closure": "실상401/399준용을직접읽어주체이사·고의중과실임무해태·제삼자손해연대배상조건정확.회사모든빚자동개인부담아님/개인사업자주주등지위구별·구체퇴임절차추가확인유지.법인실체배제나형사자동책임을추정안함.전필드/길이/layout/보호/DOI0통과.",
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "revision_requests": [],
+      "proposed_root_operation": {
+        "type": "replace_complete_strict_entry_body",
+        "before_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-028-3856/strict-entry.md",
+        "before_entire_entry_sha256": "e427d71858f95e18a91d21f133f4db206ae6b295cbdbcec9fa9d701dfd950b9d",
+        "after_proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-028-3856/publication-entry-proposal.md",
+        "after_original_proposal_sha256": "f6fcc8af62b6b3ab0c0b41b0c257f704219dabb354c4310f78f8d0233678785f",
+        "effective_after_sha256": "f6fcc8af62b6b3ab0c0b41b0c257f704219dabb354c4310f78f8d0233678785f",
+        "effective_after_rule": "proposal.rstrip()+original strict entry trailing whitespace; preserve original separators",
+        "supersession": "Latest approved full replaces any initial field/older full once.",
+        "integration_authorized": false
+      },
+      "field_decisions": {
+        "title": "approve",
+        "비용": "approve",
+        "쉽게": "approve",
+        "이득": "approve",
+        "근거등급": "approve",
+        "출처": "approve",
+        "비고": "approve"
+      }
+    },
+    {
+      "entry": 29,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-029-79fe/publication-entry-proposal.md",
+      "proposal_sha256": "f74f9dbae29a3269e23d2e1fb8e6ad15e74171a758f0457a0c6bb935aa3545f0",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-029-79fe/publication-entry-changes.json",
+      "changes_sha256": "68f2615fae9fe052da25d6537608f28417649318f7ad8fde66f50fe5282b34a2",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-029-79fe/strict-entry.md",
+      "base_strict_entry_sha256": "bfb96ad583175b73cec031e04d8022bd227efeff7bf0c12194caa5925c086018",
+      "literal_exit_code": 0,
+      "decision": "approve",
+      "all_four_complete_fields_read": true,
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "snapshot_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-029-79fe/entry_snapshot.md",
+      "snapshot_sha256": "bfb96ad583175b73cec031e04d8022bd227efeff7bf0c12194caa5925c086018",
+      "strict_candidate_contains_exact_base": true,
+      "length_check": {
+        "entry": 29,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-029-79fe/publication-entry-proposal.md",
+        "title_chars": 28,
+        "easy_chars": 72,
+        "easy_sentences": 3,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "number": true,
+        "six_labels": true,
+        "tags": true,
+        "grade": true
+      },
+      "production_layout_check": true,
+      "initial_canonical_entry": {
+        "entry": 29,
+        "title": "### 29. 출입국 때 모르는 짐과 소포를 대신 운반하지 마세요",
+        "source_entry_snapshot_path": "_workspace/2026-10-18-029-79fe/entry_snapshot.md",
+        "source_entry_snapshot_sha256": "bfb96ad583175b73cec031e04d8022bd227efeff7bf0c12194caa5925c086018",
+        "source_review_status": "changes_required",
+        "candidate_review_status": "pending_candidate_review",
+        "scope_and_findings": "형법13조와 형사소송법307조는 서로 다른 법입니다. 앞에 형법만 나온 뒤 제307조라고 써서 명예훼손 조문으로 오독됩니다. 반드시 형사소송법명을 명시하세요. 고의·특별 과실규정·수사 증거평가를 구분하고 무죄 입증책임을 운반자에게 전가하지 않아야 합니다. 외국 통관법 미확인 유지."
+      },
+      "finding_closure": "초기필수법률명오독수정해소:형법13/14와형사소송법307을따로명시.고의·특별과실규정·합리적의심증명원칙/운반자무지입증책임전가금지구별.모랐다고자동면책아님·국내외운반책임세부/외국법미확인독자고지유지.관세법246실본문추가읽기로기본검사가능성만확인했고본인수하물분류/처벌세부검증으로확대안함.전필드/길이/layout/보호/DOI0통과.",
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "revision_requests": [],
+      "proposed_root_operation": {
+        "type": "replace_complete_strict_entry_body",
+        "before_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-029-79fe/strict-entry.md",
+        "before_entire_entry_sha256": "bfb96ad583175b73cec031e04d8022bd227efeff7bf0c12194caa5925c086018",
+        "after_proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-029-79fe/publication-entry-proposal.md",
+        "after_original_proposal_sha256": "f74f9dbae29a3269e23d2e1fb8e6ad15e74171a758f0457a0c6bb935aa3545f0",
+        "effective_after_sha256": "f74f9dbae29a3269e23d2e1fb8e6ad15e74171a758f0457a0c6bb935aa3545f0",
+        "effective_after_rule": "proposal.rstrip()+original strict entry trailing whitespace; preserve original separators",
+        "supersession": "Latest approved full replaces any initial field/older full once.",
+        "integration_authorized": false
+      },
+      "field_decisions": {
+        "title": "approve",
+        "비용": "approve",
+        "쉽게": "approve",
+        "이득": "approve",
+        "근거등급": "approve",
+        "출처": "approve",
+        "비고": "approve"
+      }
+    }
+  ],
+  "approved_entries": [
+    28,
+    29
+  ],
+  "revise_entries": [],
+  "actual_primary_readings": [
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/273629.xml",
+      "artifact_sha256": "48b6b00f5625f842d6005eeab12e41dc93c5d8596e5db4163266c53e4a21ab22",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=273629&type=XML",
+      "read_at_utc": "2026-10-18T19:55:00.972028+00:00",
+      "read_scope": "401①②/399②③준용본문및20991/21044부칙직접읽음.이사고의중과실임무해태/제삼자연대손해배상·이사회찬성/의사록이의없음추정구별.일반모든회사채무개인부담아님·명의이사개별판례/사임등기절차미열람.기본시행20260910과2027총회규정장래시행을401범위와혼동안함.이번새HTTP아닌캐시직접읽기.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290185.xml",
+      "artifact_sha256": "391f3c2bb7173fff4040eda9ae2259674b616e58aeadf4371206b63c70f1c89b",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290185&type=XML",
+      "read_at_utc": "2026-10-18T19:55:00.972561+00:00",
+      "read_scope": "형법13/14전체직접읽음.범죄성립요소사실인식/불인식원칙및특별규정예외·과실처벌특별규정필요확인.형법307명예훼손과형소법307증거재판주의법률명명확히구별.17571/22007부칙은r2읽기재사용.이번새HTTP아닌캐시직접읽기.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290189.xml",
+      "artifact_sha256": "f917fd5794540a55cc19ef2b94e5142ee97cdaafc9215827fa653b6c275ab9fa",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290189&type=XML",
+      "read_at_utc": "2026-10-18T19:55:00.973519+00:00",
+      "read_scope": "형소법307①②전체직접읽음.증거에의한사실인정/합리적의심없는증명원칙으로피의자가무지를반드시증명한다는책임전가아님.22009시행부칙r2직접읽기재사용.개별통관/마약예외·외국법미열람.이번새HTTP아닌캐시직접읽기.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch08-review04/customs-effective.raw",
+      "artifact_sha256": "a33ba8bc33fcb55d3fd1667dfa55bb3146d230a9eeab63444b14e3747a577399",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&type=XML&MST=290673&efYd=20261002",
+      "read_at_utc": "2026-10-18T19:55:00.974700+00:00",
+      "read_scope": "이번신규HTTPS실본문정체관세법·기본20261002시행및246①~③직접읽음.수출수입반송물품검사할수있다는권한으로운반물품검사가능성만확인.본인짐으로부과되는책임/국내외운반자처벌요건·모든수하물특례확정아님.발견검색응답은조문검증으로세지않음.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": true,
+      "fresh_http_status": 200,
+      "retrieved_at_utc": "2026-10-18T19:54:19.364835+00:00",
+      "tls_verify": true
+    }
+  ],
+  "prior_actual_reading_reuse": [
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/publication-followup-review-04-r2.json",
+      "sha256": "c21d1d67f38b01c83f62e30fc550e1fb580a1bb99174ffa633ee4691ba8d0135",
+      "scope": "형법17571/22007·형소22009부칙읽기재사용"
+    }
+  ],
+  "cross_reference_review": [
+    {
+      "entries": [
+        28,
+        29
+      ],
+      "outgoing": [],
+      "titles_unchanged": true,
+      "scope": "명시항목참조없음.지위별퇴임/외국통관법의추가확인유보는그대로유지."
+    }
+  ],
+  "production_helper_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/scripts/humanize_publication.py",
+  "production_helper_sha256": "244c194c7620c3095dc3a972eecdaa4e17fab8a0a301ae8b601cb8401569bfd3",
+  "helper_code_modified": false,
+  "fresh_http_performed": true,
+  "whole46_approval": false,
+  "integration_approval": false,
+  "formal_kr_fit_approval": false,
+  "preservation": "Prior reviews/frozen proposals/canonical/public/runs/gates/git unchanged.",
+  "reviewer_id": "/root/publication_review_04",
+  "six_complete_fields_read": true,
+  "http_attempts": [
+    {
+      "url": "https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=law&type=XML&query=%EA%B4%80%EC%84%B8%EB%B2%95",
+      "utc": "2026-10-18T19:54:12.203440+00:00",
+      "http_status": 200,
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch08-review04/customs-search.raw",
+      "sha256": "ee94e6fd3a97067a4609a2f5337031df3ce36a52598881ab8b55db0105ee513e",
+      "tls_verify": true
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&type=XML&MST=290673&efYd=20261002",
+      "utc": "2026-10-18T19:54:19.364835+00:00",
+      "http_status": 200,
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch08-review04/customs-effective.raw",
+      "sha256": "a33ba8bc33fcb55d3fd1667dfa55bb3146d230a9eeab63444b14e3747a577399",
+      "tls_verify": true
+    }
+  ],
+  "customs_scope_limit": "공식검색은정확판본발견용,실제조문246만기본검사권한확인.원고의국내외운반자책임세부/외국법미확인유보를해소했다고하지않음."
+}

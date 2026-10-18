@@ -1,0 +1,73 @@
+{
+  "status": "applied_exact_approved_candidate_pending_fresh_formal",
+  "created_at_utc": "2026-10-18T19:46:40.579628+00:00",
+  "canonical_decisions_sha256": "abbad07e848402890cac16b2223a51e31783ce4837dfc76d2061899de69cd21a",
+  "entry_integration": {
+    "path": "integration.json",
+    "sha256": "ac7e0dc776dc4607eabd7c8282023ef7b244709a997be55613ba5138b9263bd9"
+  },
+  "before": {
+    "path": "reviewed-candidate.md",
+    "sha256": "690c693092c7ceee640605f83543d98f4230e535390934f9704872100ca2ebe9"
+  },
+  "after": {
+    "path": "final-publication-candidate.md",
+    "sha256": "0bcf4cded05742d613070c35e1cfac19c2be5e8645aabcb1f8c614f2e3e5f859"
+  },
+  "independent_expected_after_sha256": "0bcf4cded05742d613070c35e1cfac19c2be5e8645aabcb1f8c614f2e3e5f859",
+  "operations": [
+    {
+      "target": "tail.md",
+      "entry": 3,
+      "before": "- 제3항: 대한법률구조공단 무료 소송구조별 현행 경제기준·지원 범위. 누리집 열람이 실패하여 전국 일률 기준과 전화번호를 확정하지 않았습니다.",
+      "after": "- 제3항: 무료 소송구조 유형별 최신 소득표와 지원 범위. 공단의 일반 안내는 확인했습니다. 본인 유형의 경제기준과 비용 부담 범위는 신청할 때 확인하세요.",
+      "before_sha256": "f17f92dd7f7fa71477374835d36e51bd71ae111fe017045c67d8ffabf3476c4b",
+      "after_sha256": "dc5377e8512550a31eb9dad6f66df70de085b6de7495158eedac7ef6dd3b4627",
+      "whole_before_sha256": "690c693092c7ceee640605f83543d98f4230e535390934f9704872100ca2ebe9",
+      "whole_after_sha256": "ff1f3b9559a634bdc424cbfb5c2ba62b8c1b859aeb5032ae6a9e1cd8587bfc7a",
+      "independent_review_sha256": "74680bd06f16583c87382ba528135628967182c75a687501a596b732bfbabcd3"
+    },
+    {
+      "target": "tail.md",
+      "entry": 9,
+      "before": "- 제9항: 퇴직자 임의계속가입의 세부 이력기간과 적용기간, 소득 조정·정산 절차 및 개인별 보험료. 현행 시행규칙·공단 안내 보강 필요.",
+      "after": "- 제9항: 소득 조정·정산 절차와 개인별 보험료·피부양자 자격. 임의계속가입의 이력기간과 적용기간은 법령으로 확인했습니다. 실제 보험료와 자격은 공단에 확인하세요.",
+      "before_sha256": "6f36a4c945e0647979210dacec79e9a6707868ba543109c657730dbbc569cab6",
+      "after_sha256": "fe31392ac01fe5a4104e388c67d21a0b4dcb4ddd5e12bc7d8b72be8dfb57370c",
+      "whole_before_sha256": "ff1f3b9559a634bdc424cbfb5c2ba62b8c1b859aeb5032ae6a9e1cd8587bfc7a",
+      "whole_after_sha256": "30f42e87826eee5e2a91faaa23f7a9bb556b703587b5ec9b57ff800a7dc02d20",
+      "independent_review_sha256": "74680bd06f16583c87382ba528135628967182c75a687501a596b732bfbabcd3"
+    },
+    {
+      "target": "tail.md",
+      "entry": 10,
+      "before": "- 제10항: 2026년 본인부담상한액 표와 재난적의료비 지원율·상한. 오래된 공단 static 안내의 금액은 쓰지 않았습니다.",
+      "after": "- 제10항: 재난적의료비의 현행 지원율·상한. 2026년 본인부담상한액 표는 확인했습니다. 개인별 적용 금액과 지원율은 공단에 확인하세요.",
+      "before_sha256": "1e9b31920d6c3ba92162e1f6befc8cb1ba43ed9a7b6e33d387d0cd828f381612",
+      "after_sha256": "c2aca87792caeee7abea074b702031223b73295195cea521720dabd7f62552d3",
+      "whole_before_sha256": "30f42e87826eee5e2a91faaa23f7a9bb556b703587b5ec9b57ff800a7dc02d20",
+      "whole_after_sha256": "a33686d5e9c8fad6f3de642fff80e9476f55626ee7bd9e1d7a81af8d546bf91d",
+      "independent_review_sha256": "74680bd06f16583c87382ba528135628967182c75a687501a596b732bfbabcd3"
+    },
+    {
+      "target": "tail.md",
+      "entry": 17,
+      "before": "- 제17항: 한국에서 단기숙박·합가·직접 요리의 비용 차이를 뒷받침할 공공 자료와 지역별 급식·푸드지원 조건. 절약률은 제시하지 않았습니다.",
+      "after": "- 제17항: 한국에서 단기숙박·합가·직접 요리의 비용 차이를 뒷받침할 공공 자료. 지역별 급식·푸드지원 조건도 확인해야 합니다. 절약률은 제시하지 않았습니다.",
+      "before_sha256": "da58b27b7b91ca7026be493bd8896f9aa6330cb99cc07c753ad603791b5b3ba9",
+      "after_sha256": "5929a93d326097fa704d3401d80b47f2f96a7e846952ce3980505936dc9d4a6e",
+      "whole_before_sha256": "a33686d5e9c8fad6f3de642fff80e9476f55626ee7bd9e1d7a81af8d546bf91d",
+      "whole_after_sha256": "0bcf4cded05742d613070c35e1cfac19c2be5e8645aabcb1f8c614f2e3e5f859",
+      "independent_review_sha256": "74680bd06f16583c87382ba528135628967182c75a687501a596b732bfbabcd3"
+    }
+  ],
+  "old_public_sha256": "48c5d96b9d2c280eabe9ecfedf11cb6674a2ec25ea35c3da1326b2de60d11656",
+  "archived_formal": {
+    "path": "kr-harness/chapters/07/kr-fit-review.r2.md",
+    "sha256": "00cfcad59b210cba958c7cdf8c64fcaf216403af7853ff1770a87bd70f487cdc",
+    "cli_sha256": "e5417289ad6f06ce7301fee1fb21e97090ad0f6eff738dcc0941d409802e99ab"
+  },
+  "doi_add": [],
+  "doi_drop": [],
+  "formal_kr_fit_approval": false
+}

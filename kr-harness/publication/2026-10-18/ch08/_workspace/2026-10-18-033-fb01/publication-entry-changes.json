@@ -1,0 +1,82 @@
+{
+  "entry": 33,
+  "status": "proposal_only_pending_independent_exact_hash_review",
+  "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-033-fb01/strict-entry.md",
+  "base_strict_sha256": "2c68c22f0683bf7a0ce17eef01aed64976683dc5585861abcee303eb5d0c7959",
+  "proposal_sha256": "d69924017435acd8ddd1a332d79045dc61c8638213e9af031bba07bec3808e6c",
+  "field_changes": [
+    {
+      "field": "출처",
+      "before": "국가법령정보센터. 「형법」 제156조. https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290185&type=XML · 국가법령정보센터. 「형사소송법」 제307조. https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290189&type=XML",
+      "after": "국가법령정보센터. 「형법」 제13조·제156조. https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290185&type=XML · 국가법령정보센터. 「형사소송법」 제307조. https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290189&type=XML",
+      "reason": "고의 요건의 직접 근거인 형법 제13조를 추가합니다."
+    },
+    {
+      "field": "비고",
+      "before": "허위 신고의 원문과 당시 자료를 보관하세요. 공개적으로 신고자의 신상을 퍼뜨리지 마세요. 본인 방어는 제5항(진술거부권)을 보세요. 무죄 판단은 제34항(증거 부족)을 보세요. 2026-10-10 법령 확인(국가법령정보센터).",
+      "after": "허위 신고의 원문과 당시 자료를 보관하세요. 공개적으로 신고자의 신상을 퍼뜨리지 마세요. 본인 방어는 제5항(진술거부권)을 보세요. 무죄 판단은 제34항(증거 부족)을 보세요. 2026-10-18 법령 확인(국가법령정보센터).",
+      "reason": "실제 캐시 원문 재열람일로 갱신합니다."
+    }
+  ],
+  "evidence": [
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290185&type=XML",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290185.xml",
+      "raw_sha256": "391f3c2bb7173fff4040eda9ae2259674b616e58aeadf4371206b63c70f1c89b",
+      "read_level": "cached official XML: basic information, specified full articles, applicable commencement supplementary provisions; no fresh HTTP request",
+      "verified_date": "2026-10-18",
+      "quotes": [
+        {
+          "article": "13",
+          "effective_date": "20261002",
+          "exact_quote": "13 조문 고의 20261002 N 제13조(고의) 죄의 성립요소인 사실을 인식하지 못한 행위는 벌하지 아니한다. 다만, 법률에 특별한 규정이 있는 경우에는 예외로 한다. [전문개정 2020.12.8]"
+        },
+        {
+          "article": "156",
+          "effective_date": "20261002",
+          "exact_quote": "156 조문 무고 20261002 N 제156조(무고) 타인으로 하여금 형사처분 또는 징계처분을 받게 할 목적으로 공무소 또는 공무원에 대하여 허위의 사실을 신고한 자는 10년 이하의 징역 또는 1천500만원 이하의 벌금에 처한다. <개정 1995.12.29>"
+        }
+      ],
+      "supplementary_provisions": [
+        "부칙 <제21450호,2026.3.12>\n\n\n이 법은 공포 후 6개월이 경과한 날부터 시행한다. 다만, 제123조의2의 개정규정은 공포한 날부터 시행한다.",
+        "부칙 <제22007호,2026.9.29>\n\n\n이 법은 2026년 10월 2일부터 시행한다."
+      ]
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290189&type=XML",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290189.xml",
+      "raw_sha256": "f917fd5794540a55cc19ef2b94e5142ee97cdaafc9215827fa653b6c275ab9fa",
+      "read_level": "cached official XML: basic information, specified full articles, applicable commencement supplementary provisions; no fresh HTTP request",
+      "verified_date": "2026-10-18",
+      "quotes": [
+        {
+          "article": "307",
+          "effective_date": "20261002",
+          "exact_quote": "307 조문 증거재판주의 20261002 N 제307조(증거재판주의) ① ①사실의 인정은 증거에 의하여야 한다. ② ②범죄사실의 인정은 합리적인 의심이 없는 정도의 증명에 이르러야 한다. [전문개정 2007.6.1]"
+        }
+      ],
+      "supplementary_provisions": [
+        "부칙 <제21857호,2026.8.4>\n\n\n제1조(시행일) 이 법은 2026년 10월 2일부터 시행한다. 다만, 다음 각 호의 개정규정은 해당 각 호의 구분에 따른 날부터 시행한다. <개정 2026.9.29>\n\n\n  1. 제197조의4, 제260조제1항, 제261조, 부칙 제15조제1항 및 부칙 제15조제9항ㆍ제19항ㆍ제36항에 따라 개정되는 법률(제260조제1항의 개정규정과 관련된 부분으로 한정한다)의 개정규정: 공포 후 6개월이 경과한 날\n\n\n  2. 제220조의2 및 제244조의6의 개정규정: 공포 후 1년이 경과한 날\n\n\n  3. 제199조의2의 개정규정: 다음 각 목의 구분에 따른 날\n\n\n    가. 공소청, 중대범죄수사청, 경찰청, 해양경찰청, 고위공직자범죄수사처 및 그 소속 기관: 공포 후 1년이 경과한 날\n\n\n    나. 그 밖에 범죄수사업무를 처리하는 기관: 공포한 날부터 3년을 넘지 아니하는 범위에서 대통령령으로 정하는 날\n\n\n  4. 부칙 제15조제23항에 따라 개정되는 법률 제21765호 군인사법 일부개정법률 제59조의3제4항의 개정규정: 2026년 12월 10일\n\n\n  5. 부칙 제15조제60항에 따라 개정되는 「형사사법절차에서의 전자문서 이용 등에 관한 법률」 제16조제1항(제220조의2의 개정규정과 관련된 부분으로 한정한다)의 개정규정: 2027년 8월 5일\n\n\n",
+        "부칙 <제22009호,2026.9.29>\n\n\n이 법은 2026년 10월 2일부터 시행한다."
+      ]
+    }
+  ],
+  "audit_disposition": "8-33 no_new_error_found: all conditions and hedges preserved; no factual correction invented",
+  "intentional_numerical_scope_changes": [],
+  "doi_additions": [],
+  "doi_removals": [],
+  "reference_checks": {
+    "incoming": "current book-kr: no same-chapter 제33항 or cross-chapter 제8절 제33항 occurrences; title unchanged",
+    "outgoing": [
+      "제5항(진술거부권): current actual title includes 진술거부권 and concerns suspect defence",
+      "제34항(증거 부족): current actual title includes 증거 부족 and concerns acquittal and reopening"
+    ],
+    "chapter_path": "book-kr/08-법적-말썽에-휘말리지-않기.md"
+  },
+  "limitations": [
+    "개별 사건의 허위성·고의는 판단하지 않았습니다.",
+    "조문은 무고 성립과 증명 원칙의 직접 근거입니다. 착오·기억 차이에 관한 개별 판례를 새로 확인한 것은 아닙니다.",
+    "법령 원문 캐시를 읽었으며 신규 네트워크 조회로 표시하지 않습니다."
+  ],
+  "preserved": "number, title, tags, grade, other fields and all legal conditions, penalties, safeguards unchanged"
+}

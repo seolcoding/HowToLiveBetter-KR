@@ -1,0 +1,138 @@
+{
+  "status": "proposed_unadopted",
+  "chapter": 8,
+  "entry": 27,
+  "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-027-1373/strict-entry.md",
+  "base_strict_entry_sha256": "0974e1bb9db7755eedff37880bfc69867a6fb8db4dcf1d7f930609a7028d769a",
+  "proposal_sha256": "6f93be329945927935d04f53cd5d7df2a328403f153fb64577e5a345a6770d09",
+  "per_field": [
+    {
+      "field": "비용",
+      "before": "견적을 비교하고 작업 내용을 확인하는 시간.",
+      "after": "견적을 비교하고 작업 내용을 확인하는 시간.",
+      "reason": "Unchanged; preserve scope, recommendations and explicit unknowns."
+    },
+    {
+      "field": "쉽게",
+      "before": "출장비·점검비·부품비·취소비를 먼저 물어보세요. 작업 범위와 총액을 글로 받으세요. 작업이 끝나면 영수증과 수리 기록을 받으세요.",
+      "after": "출장비·점검비·부품비·취소비를 먼저 물어보세요. 작업 범위와 총액을 글로 받으세요. 작업이 끝나면 영수증과 수리 기록을 받으세요.",
+      "reason": "Unchanged; preserve scope, recommendations and explicit unknowns."
+    },
+    {
+      "field": "이득",
+      "before": "「소비자기본법」 제55조는 소비자 피해구제 신청을 규정합니다. 수리 전 견적과 승인 범위를 남기세요. 추가 작업은 이유와 금액을 확인한 뒤 결정하세요. 교체 부품과 작업 전후 사진은 분쟁 자료가 됩니다. 모든 업종의 가격표 의무·벌금이 같다고 단정하지 마세요. 견적을 받아 줄어드는 비용 비율은 확인하지 못했습니다.",
+      "after": "「소비자기본법」 제55조는 소비자의 피해구제 신청을 규정합니다. 신청 기관은 한국소비자원입니다. 수리 전 견적과 승인 범위를 남기세요. 추가 작업은 이유와 금액을 확인한 뒤 결정하세요. 교체 부품과 작업 전후 사진은 분쟁 자료가 됩니다. 모든 업종의 가격표 의무·벌금이 같다고 단정하지 마세요. 견적을 받아 줄어드는 비용 비율은 확인하지 못했습니다.",
+      "reason": "Clarify consumer applicant, receiving institution and article55(4) discontinuation limitation."
+    },
+    {
+      "field": "근거등급",
+      "before": "B",
+      "after": "B",
+      "reason": "Unchanged; preserve scope, recommendations and explicit unknowns."
+    },
+    {
+      "field": "출처",
+      "before": "국가법령정보센터. 「소비자기본법」 제55조. https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=283837&type=XML · 국가법령정보센터. 「민법」 제110조·제750조. https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=284415&type=XML",
+      "after": "국가법령정보센터. 「소비자기본법」 제55조. https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=283837&type=XML · 국가법령정보센터. 「민법」 제110조·제750조. https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=284415&type=XML",
+      "reason": "Unchanged; preserve scope, recommendations and explicit unknowns."
+    },
+    {
+      "field": "비고",
+      "before": "작업을 지켜볼 때는 안전거리와 업체 안내를 따르세요. 사람의 외모보다 사업자·견적·작업 내용을 확인하세요. 업종별 표시 의무와 분쟁해결기준의 금액은 추가 확인이 필요합니다. 2026-10-10 법령 확인(국가법령정보센터).",
+      "after": "작업을 지켜볼 때는 안전거리와 업체 안내를 따르세요. 사람의 외모보다 사업자·견적·작업 내용을 확인하세요. 부적합한 사건은 사유 통보 후 처리가 중지될 수 있습니다. 업종별 표시 의무와 분쟁해결기준의 금액은 추가 확인이 필요합니다. 2026-10-10 법령 확인(국가법령정보센터).",
+      "reason": "Clarify consumer applicant, receiving institution and article55(4) discontinuation limitation."
+    }
+  ],
+  "primary_evidence": [
+    {
+      "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=283837&type=XML",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/283837.xml",
+      "raw_sha256": "710ddcc550c27e43b59573bb1e8bd58b2149a865b18ee48d5977dbbdbdee1096",
+      "method": "Direct reading of cached primary-source XML; no fresh HTTP request",
+      "read_date": "2026-10-18",
+      "law": "소비자기본법",
+      "effective_date": "20260911",
+      "scope_read": [
+        "Articles 2,3,55",
+        "last two supplementary provisions including current amending act commencement and applicability"
+      ],
+      "quotes": [
+        "2\n조문\n정의\n20260911\n\n\nN\n제2조(정의) 이 법에서 사용하는 용어의 정의는 다음과 같다.\n\n\n1.\n1. \"소비자\"라 함은 사업자가 제공하는 물품 또는 용역(시설물을 포함한다. 이하 같다)을 소비생활을 위하여 사용(이용을 포함한다. 이하 같다)하는 자 또는 생산활동을 위하여 사용하는 자로서 대통령령이 정하는 자를 말한다.\n\n\n2.\n2. \"사업자\"라 함은 물품을 제조(가공 또는 포장을 포함한다. 이하 같다)ㆍ수입ㆍ판매하거나 용역을 제공하는 자를 말한다.\n\n\n3.\n3. \"소비자단체\"라 함은 소비자의 권익을 증진하기 위하여 소비자가 조직한 단체를 말한다.\n\n\n4.\n4. \"사업자단체\"라 함은 2 이상의 사업자가 공동의 이익을 증진할 목적으로 조직한 단체를 말한다.",
+        "3\n조문\n다른 법률과의 관계\n20260911\n\n\nN\n제3조(다른 법률과의 관계) 소비자의 권익에 관하여 다른 법률에서 특별한 규정을 두고 있는 경우를 제외하고는 이 법을 적용한다.",
+        "55\n조문\n피해구제의 신청 등\n20260911\n\n\nN\n제55조(피해구제의 신청 등)\n\n①\n①소비자는 물품등의 사용으로 인한 피해의 구제를 한국소비자원에 신청할 수 있다.\n\n\n②\n②국가ㆍ지방자치단체 또는 소비자단체는 소비자로부터 피해구제의 신청을 받은 때에는 한국소비자원에 그 처리를 의뢰할 수 있다.\n\n\n③\n③사업자는 소비자로부터 피해구제의 신청을 받은 때에는 다음 각 호의 어느 하나에 해당하는 경우에 한하여 한국소비자원에 그 처리를 의뢰할 수 있다.\n\n1.\n1. 소비자로부터 피해구제의 신청을 받은 날부터 30일이 경과하여도 합의에 이르지 못하는 경우\n\n\n2.\n2. 한국소비자원에 피해구제의 처리를 의뢰하기로 소비자와 합의한 경우\n\n\n3.\n3. 그 밖에 한국소비자원의 피해구제의 처리가 필요한 경우로서 대통령령이 정하는 사유에 해당하는 경우\n\n\n\n④\n④원장은 제1항의 규정에 따른 피해구제의 신청(제2항 및 제3항의 규정에 따른 피해구제의 의뢰를 포함한다. 이하 이 절에서 같다)을 받은 경우 그 내용이 한국소비자원에서 처리하는 것이 부적합하다고 판단되는 때에는 신청인에게 그 사유를 통보하고 그 사건의 처리를 중지할 수 있다."
+      ]
+    },
+    {
+      "source_url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=284415&type=XML",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/284415.xml",
+      "raw_sha256": "cd2997176df62de7b1e4bb018287987654f6054cbd0eeced9e882d5c4daf53df",
+      "method": "Direct reading of cached primary-source XML; no fresh HTTP request",
+      "read_date": "2026-10-18",
+      "law": "민법",
+      "effective_date": "20260317",
+      "scope_read": [
+        "Articles 110,750",
+        "last two supplementary provisions including current amending act commencement and applicability"
+      ],
+      "quotes": [
+        "110\n조문\n사기, 강박에 의한 의사표시\n20260317\n\n\nN\n제110조(사기, 강박에 의한 의사표시)\n\n①\n①사기나 강박에 의한 의사표시는 취소할 수 있다.\n\n\n②\n②상대방있는 의사표시에 관하여 제삼자가 사기나 강박을 행한 경우에는 상대방이 그 사실을 알았거나 알 수 있었을 경우에 한하여 그 의사표시를 취소할 수 있다.\n\n\n③\n③전2항의 의사표시의 취소는 선의의 제삼자에게 대항하지 못한다.",
+        "750\n조문\n불법행위의 내용\n20260317\n\n\nN\n제750조(불법행위의 내용) 고의 또는 과실로 인한 위법행위로 타인에게 손해를 가한 자는 그 손해를 배상할 책임이 있다."
+      ]
+    }
+  ],
+  "audit_closure": {
+    "all_entry_findings": "limited_support: general consumer redress and Civil Act110/750 only; no uniform sectoral price-list/estimate duty or damages table verified",
+    "warnings": "No universal obligation or penalty claimed. Recommendations remain recommendations.",
+    "incoming_title_anchors": [
+      {
+        "path": "/workspace/HowToLiveBetter-KR/book-kr/01-너무-일찍-죽지-않기.md",
+        "text": "- 비고: 14개 모두 한 무리를 따라가며 결과를 본 연구입니다. 무작위 시험은 아닙니다. 따라서 '40% 많다'는 연관성을 뜻합니다. 원인이라는 뜻은 아닙니다. 반복되거나 걱정되면 진료받으세요. 검사할 것은 제7항(혈압)·제8항(공복혈당)과 같습니다. 혈압과 공복혈당에 지질, 흡연, 허리둘레를 더합니다. 인터넷에서 '정력' 건강식품을 사지 마세요. 정식 치료제는 전문의약품입니다. 설명서는 질산염 계열 약을 금기로 적었습니다. 니트로글리세린 같은 약을 쓰는 사람은 먹으면 안 됩니다. 같이 쓰면 혈압이 갑자기 떨어집니다. 나아지는 방법은 제29항(감량·금연과 발기 기능)을 보세요. 이득을 '대'가 아닌 '중'으로 매겼습니다. 44%는 두 무리의 위험 차이입니다. '한 번 검사하면 사망이 얼마나 줄어드는지'는 아닙니다. 그렇다고 '소'로 매기지도 않았습니다. 제27항(눈에 보이는 혈뇨) 같은 신호는 발견 비율뿐입니다. 여기서 찾아낸 고혈압·당뇨병·이상지질혈증은 치료법이 있습니다."
+      },
+      {
+        "path": "/workspace/HowToLiveBetter-KR/book-kr/05-돈-낭비-줄이기.md",
+        "text": "- 비고: 원문의 중국 개인연금은 소득공제였습니다. 그래서 \"세율 3%면 이득 0, 세금을 안 내는 사람은 순손실\"이었습니다. 한국 연금계좌는 세액공제라 셈이 다릅니다. 공제받은 납입액과 운용수익의 연금 수령을 비교합니다. 공제율 12% 또는 15%에서 연금 수령 때 세율 5% 이하를 뺍니다. 그러면 100원마다 7~10원 남짓을 아낍니다. 소득세만 넣은 본서 계산이고 지방소득세는 넣지 않았습니다. 실제 원천징수 지방소득세는 소득세의 10%입니다(「지방세법」 제103조의13). 낼 세금이 없는 사람은 지금 받을 공제가 없습니다. 공제받지 못한 납입 원금은 확인을 받으면 과세 없이 꺼낼 수 있습니다. 세금이 없다는 뜻이며 상품 손실까지 없다는 뜻은 아닙니다. 돈이 묶이는 대가만 남습니다. 아낀 세금은 한 번 받고 돈은 수십 년 묶입니다. 은퇴가 멀수록 한 해로 나눈 이득은 작아집니다. 비상금까지 여기에 넣지 마세요(제27항(비상금)). 계좌 안의 돈은 직접 상품을 골라 굴립니다. 손실이 날 수 있습니다. 고르는 법은 제17항(지수펀드)과 제18항(보수 낮은 펀드)과 같습니다. 공제는 연말정산 때 받습니다(제2항(연말정산)). 2026-10-10 법령 확인(국가법령정보센터)."
+      },
+      {
+        "path": "/workspace/HowToLiveBetter-KR/book-kr/05-돈-낭비-줄이기.md",
+        "text": "- 비고: 셈법만 주고 결론은 내리지 않습니다. 투자 수익이 꾸준히 대출 금리를 넘는 빈도는 확인하지 못했습니다. 어느 쪽을 고르든 비상금은 먼저 남겨 두세요(제27항(비상금)). 원문은 중국 대출 기준금리를 참고 숫자로 들었지만 한국과 무관해 뺐습니다. 투자 권유가 아닙니다. 2026-10-18 법령·감독규정의 해당 조문과 부칙을 확인했습니다."
+      },
+      {
+        "path": "/workspace/HowToLiveBetter-KR/book-kr/05-돈-낭비-줄이기.md",
+        "text": "- 비고: 어떤 보험을 사야 이득인지 계산할 공식 숫자가 없어 C로 뒀습니다. 여기서는 보험을 고르는 방법을 설명합니다. 휴대폰 파손보험, 항공 지연 보험은 손실이 작습니다. 내가 감당할 수 있다면 이 기준으로는 안 사도 됩니다. 중대질병 진단금 보험은 병으로 일을 쉬는 몇 년의 소득을 메웁니다. 저축으로 1~2년 쉬어도 버틸 수 있으면 안 들어도 됩니다. 국민건강보험은 사회보험이라 이 방법으로 고르지 않습니다. 작은 손실을 무엇으로 메울지는 제27항(비상금)을 보세요. 원문의 중국 단기건강보험 종합보상률 공시 규정을 바꿨습니다. 한국 감독규정의 지수 공시로 대신했습니다. 수혜자는 나와 가족입니다. 2026-10-18에 인용한 판의 공시 조문과 관련 부칙을 확인했습니다. 협회 홈페이지의 실제 공시 현황은 확인하지 않았습니다. 이후 개정의 반영 여부는 가입 전에 확인하세요."
+      },
+      {
+        "path": "/workspace/HowToLiveBetter-KR/book-kr/06-함정-목록.md",
+        "text": "**의지력과 성**: 의지력은 근육이라는 말 제25항(의지력은 근육), 자위가 몸을 상하게 한다는 말 제27항(자위는 몸을 상하게 한다), 성적 지향 교정 제28항(성적 지향 교정)."
+      },
+      {
+        "path": "/workspace/HowToLiveBetter-KR/book-kr/06-함정-목록.md",
+        "text": "- 비고: 논쟁 있음. 심혈관질환 오즈비 1.17은 기록을 살핀 연구에서 나왔습니다. 연구자가 집단을 배정하지 않았습니다. 아침을 거르는 사람은 흡연, 음주, 앉아서 보내는 시간, 소득이 원래 다릅니다. 연구에서 이런 차이를 완전히 보정하지 못합니다. 이 관련 중 아침 결식 자체의 영향이 얼마인지는 알 수 없습니다. 전체 사망 위험도 신뢰범위에 1이 포함됐습니다. 16:8의 효과도 논쟁 중입니다. 시험 30건, 1341명을 합친 분석도 있습니다. 과체중 또는 비만 성인을 대상으로 했습니다. 세부 시간대별 효과는 이 수치만으로 알 수 없습니다. 같은 열량을 먹는 조건에서 시간제한 섭취군이 1.46kg 더 감량했습니다. 신뢰범위는 −2.65~−0.26입니다. 대신 지방을 뺀 체중인 제지방 체중도 0.41kg 더 줄었습니다. 이 시험들의 추적 기간은 대부분 짧았습니다. 12개월 시험에서는 유의한 차이가 확인되지 않았습니다. 효과가 전혀 없다고 입증한 것은 아닙니다. 빈속으로 지내는 시간이 길면 담낭과도 관련이 있습니다. 초록에 따르면 6,547명의 첫 식사 시간과 담석을 살폈습니다. 본문에는 6,457명으로도 적혀 수가 일치하지 않습니다. 첫 식사는 일부 음료를 제외한 음식 섭취로 정했습니다. 담석은 의사 등에게 과거 진단받았다는 자기보고입니다. 검사로 새 담석을 검출한 결과가 아닙니다. 첫 식사가 한 시간 늦을수록 담석 진단 과거력과 양의 관련이 있었습니다. 오즈비는 1.05였습니다(95% 신뢰범위 1.02–1.08). 유병 비율이 5% 높다는 뜻은 아닙니다. 첫 식사가 9시에서 14시 사이인 사람도 비교했습니다. 비교 대상은 첫 식사가 0시에서 9시 사이인 사람입니다. 담석 진단 과거력과 양의 관련이 있었습니다. 오즈비는 1.49였습니다(95% 신뢰범위 1.24–1.77). 유병 비율이 49% 높다는 뜻은 아닙니다. 담즙이 담낭에 오래 머무는 것이 가능한 설명입니다. 다만 한 시점에 식사 습관과 담석 진단 과거력을 함께 조사했습니다. 담낭 문제로 식사 습관을 바꿨을 가능성도 있습니다. 중국 카이루안 코호트는 5.6년간 소화기암 369건을 관찰했습니다. 아침 결식군의 대장암 위험비는 2.32였습니다. 95% 신뢰범위는 1.34–4.01이었습니다. 담낭과 간외담관암의 위험비는 5.43이었습니다. 95% 신뢰범위는 1.34–21.93이었습니다. 이 위험비도 각 시점의 발생률을 비교한 값입니다. 고정 기간의 암 발생 확률이 그 배수라는 뜻은 아닙니다. 후자의 신뢰범위는 21.93까지 넓게 벌어져 있습니다. 추정이 불확실하므로 실마리로만 보세요. 체중 조절만을 목표로 삼으면 식사 시간의 추가 효과는 불확실합니다. 식사 시간을 엄격히 지키는 데 의지를 쓰지 마세요. 아침을 완전히 끊을 때의 장기 영향은 상관관계를 본 연구만 있습니다. 인과관계를 증명하지 못하지만 결과의 방향은 모두 불리합니다. 안전하게 가려면 정상적으로 먹으세요. 식사 시간 변경만으로 큰 감량 효과를 기대하지 마세요. 위염과 위궤양은 빈속보다 헬리코박터균과 진통제 장기 복용이 주원인입니다. 헬리코박터균 검사와 제균 치료는 제1절(너무 일찍 죽지 않기)에서 다룹니다. 검진에서 담석이 나왔지만 아픈 적이 없다면 제20항(담낭에 돌)을 보세요. 일반 식사 안내는 제2절 제27항(하루 5인분 과일과 채소)을 보세요. 제2절 제28항(초가공식품 줄이기)도 참고하세요. 두 항목은 식습관과 사망의 관련성을 다룹니다. 체중 감량 효과를 직접 입증한 근거로 보지는 마세요. 체중 관리 안내는 제2절 제32항(BMI 20~25 유지)을 보세요. 당뇨병 환자, 혈당강하제 복용자, 임신부에게는 적용되지 않습니다. 한 끼 거르면 저혈당이 올 수 있습니다. 의사 지시를 따르세요. 극단적 단식과 구토는 다른 문제입니다. 극단적 절식·단식·구토로 체중을 조절하면 위험합니다. 제28절(외모 때문에 몸 망치지 않기)에서 다룹니다."
+      }
+    ],
+    "title_changed": false,
+    "outgoing_references": [],
+    "reference_check_scope": "Current book-kr markdown; no outgoing chapter/entry references in proposal."
+  },
+  "intentional_numerical_changes": [],
+  "intentional_scope_changes": [
+    "Explicit consumer applicant and Korea Consumer Agency destination; possible discontinuation of unsuitable case."
+  ],
+  "doi_additions": [],
+  "doi_removals": [],
+  "unresolved_limitations": [
+    "No fresh online law update check; cached official law versions read directly.",
+    "No sector-specific price-list, mandatory estimate, damages table or cost-saving percentage verified.",
+    "No new authority for practical recording recommendations; they are recommendations, not mandatory legal duties."
+  ],
+  "materials_read": [
+    "AGENTS.md",
+    "KR-GUIDE.md",
+    "publication-author-constraints.md",
+    "formal-author-constraints.md",
+    "CONTRACT.md",
+    "ch08 content-audit assigned entry",
+    "ch08 editorial-decisions assigned entry",
+    "strict-entry.md"
+  ],
+  "approval": "Independent exact-hash review required; not approved or published."
+}

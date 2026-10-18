@@ -1,7 +1,8 @@
 {
-  "captured_at_utc": "2026-10-18T19:37:53.620228+00:00",
-  "head_before_checkpoint": "44c97408fe68cd790c1f2805d22ff43671877c59",
-  "strict_accepted_count": 640,
+  "worker_constraints_sha256": "327c29d9249873dbdc64c74b51f00241f0cee44ab889f8df76d3a53783781a61",
+  "captured_at_utc": "2026-10-18T20:23:20.729411+00:00",
+  "head_before_checkpoint": "4bbbb376336a49dc6bfd14c590146345fc1e53e5",
+  "strict_accepted_count": 667,
   "strict_accepted": [
     {
       "run_dir": "kr-harness/publication/2026-10-18/ch01/_workspace/2026-10-18-001-7050",
@@ -3202,6 +3203,141 @@
       "run_dir": "kr-harness/publication/2026-10-18/ch33/_workspace/2026-10-18-004-5c1e",
       "final_sha256": "404086cbb7d66cb2f3709df4d4ad0ef24acb3669aecacffb56376c6ddb2a78be",
       "gate_sha256": "ea4fe694e22f42f50e8d29e9baa551f0683e1dc6c02e2e7e831dc1eace282121"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch33/_workspace/2026-10-18-005-5aa0",
+      "final_sha256": "3e43349abed21e1fc7eecc947cc83a82751880f53fd5d7e4ce9241929b6d0284",
+      "gate_sha256": "20eded5aef145a92ed75be6f2b3c278e7be1a3c52899dd408b19fc033579dc8a"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch33/_workspace/2026-10-18-006-11fd",
+      "final_sha256": "f0084a95880462e8d86de64fe442aa08f3dda908dff616546cfdb5684adad8fe",
+      "gate_sha256": "e6eeed2f8f79dc7fc2343be2b0e929dd72f54cdba91090aebb4d516ccc4a3b4d"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch33/_workspace/2026-10-18-007-a459",
+      "final_sha256": "1aea95e3ec33fabb1d79b5462c2b4ba79e6d4d734bef367cc3a92ff334d398bd",
+      "gate_sha256": "99c65efac27de65d719b6a4fdd11e1cb74b8ce69f6f99d0049bece1e2fa73d58"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch33/_workspace/2026-10-18-008-e4ea",
+      "final_sha256": "b1b5c13c4669fcdd3c6579a029d0901449b096538384af7436ac5b83ccf20da6",
+      "gate_sha256": "aa95b0d2f670937d0e91b524c78af4a0557c997ae02c6bdef0cbd2592189f1eb"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch33/_workspace/2026-10-18-009-11dd",
+      "final_sha256": "86bb06e10ff3836696193c0d1431ca6aa901419e480d3a5cef73283f6628e3c9",
+      "gate_sha256": "ec3b7c982612b0c8575f0c1a59f7c8ad59eddee0c75e6027fdebe28cbe038403"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch33/_workspace/2026-10-18-010-63c3",
+      "final_sha256": "b066f40602aa0803585b6b8bea311b8b2ec182812cc13f245f1017ad1d90a651",
+      "gate_sha256": "23a699665ff9cd2466742ad6f3bda41fb84a7170c186ab5962121614c33b195b"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch33/_workspace/2026-10-18-011-3284",
+      "final_sha256": "72bb75ac25c7baf93e5c39ba3f224ee81ff35735a44ebd8a4ca73b7a2970bbc9",
+      "gate_sha256": "0c011fdc1800150f265127aadb72d0d3c1786abbcad941c51a2cccd6d4cd984c"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch33/_workspace/2026-10-18-012-ae93",
+      "final_sha256": "67e5a37a471bb76ba2700d615e0393fcd3a4d196d16112db101888ecf78f7cce",
+      "gate_sha256": "542f39054b648e86db0d16227c28d488aa4f1c7e4b72a15ebc0ab86c5e6d6812"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch33/_workspace/2026-10-18-013-84f0",
+      "final_sha256": "1207a0881317e2d7affc9ca1f77910aa426957cbbe0b2f914f800aeb25e9177c",
+      "gate_sha256": "e1829ca42368e5936870157a8194d6230f3cd641852aeef9dd6bfa35a2b68c70"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch33/_workspace/2026-10-18-014-f40e",
+      "final_sha256": "dc79b637ea229942e718758302608953f8e93752bfb682a50ef3bdd7e4d11751",
+      "gate_sha256": "d2d6552755a899c93160dcaa33b8d82ae753d3660efc6f2d039ee8e2cebc5e29"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch33/_workspace/2026-10-18-015-5f22",
+      "final_sha256": "216a0fea357baf57d5e773a9df63a002d287ac410c9e9d477072517ef155c0d0",
+      "gate_sha256": "5c4ab48160bd4e10d97667372eb1a87edb264c96ec888b3e15d65151f0d9e7a2"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch33/_workspace/2026-10-18-016-9f8b",
+      "final_sha256": "0d8b2c2f10df4888c704126e4b3e8684af515a21c70fd387e4fcde5f91cc7f1c",
+      "gate_sha256": "9e1b9cbf18468bcf1b8294336c323b2f3ee097928673c6212139d13cce984257"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch33/_workspace/2026-10-18-017-f820",
+      "final_sha256": "a2cb049bb7012fd4e41f50cebb8a5a4123b18a8ed10a470c9e174b982c52fee4",
+      "gate_sha256": "098558f2c6807fe790eb1c09a7988edb30dfbdc395bae9b6947efc29b72f55e0"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch33/_workspace/2026-10-18-018-4322",
+      "final_sha256": "7fce9ae412ab3cb513b94744cd9abbac8dfe664c6400460889ae6e8761b91f4d",
+      "gate_sha256": "e9f6d03c835745f9748c7a615201cefd7c50a80109b658b5b6d2d6b4beb3803a"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch33/_workspace/2026-10-18-019-534e",
+      "final_sha256": "a500c2d195b5287d92c00b441bc615fa1aeb00377cfa931151c0da95a520ef3b",
+      "gate_sha256": "48266587f8e56e4fee1cb880fed351e505fb2926978c05d7c5b48e730fe2391d"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch33/_workspace/2026-10-18-020-6357",
+      "final_sha256": "b5800a6dbe1b65c3fb1cc9b3a4b55e000a25d4d94ffdaf0ef36f3c8ead60a5a2",
+      "gate_sha256": "5d9761a36b3adc394253efd0ada247ee5acc1aaecf0f149471087499a61ef181"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch34/_workspace/2026-10-18-001-2983",
+      "final_sha256": "0cb05795b49a2d7fa4ef8c1b2c890b5bf75f12c40d62bd27ea3decca85f800a9",
+      "gate_sha256": "8be7974af16a6e0563fd34fd637e54bc367006deb1dfae3edc2f018cc77f7ee5"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch34/_workspace/2026-10-18-002-6b60",
+      "final_sha256": "85d236e6c32e1b67beb6ec823aec1644f672980b481e90f4ea2e9b50d9c8ad57",
+      "gate_sha256": "d8ee309777cc02bfa0a59a02b79dacb7f0795478cb562df5ab02f8bd299a6cff"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch34/_workspace/2026-10-18-003-8b14",
+      "final_sha256": "8fd179657b8cc712c4f46e07c85d64b17dfa6cc41fd2757a262861f3641004e7",
+      "gate_sha256": "4da05298ef6bac805057205cdc966119f7f121d86daf46cf2aaa03545df38a1c"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch34/_workspace/2026-10-18-004-2c30",
+      "final_sha256": "8fab3db300c995b58cb78d8ca50f039514401f47e7bfe318c6749c962f52bf8b",
+      "gate_sha256": "a20d15ddbf7cac4440a8d90bc68cfd1bb30eb4b87a5feab880ec80c3167a739a"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch34/_workspace/2026-10-18-005-968c",
+      "final_sha256": "9b31165dcf013f3fc1fcbfc951956a7768a0f3962a172b34745efd926e62e18b",
+      "gate_sha256": "68349d5581061763f76199e81d1573031e8f186e8c97124a1bc7b5f51acd54c4"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch34/_workspace/2026-10-18-006-f02d",
+      "final_sha256": "1ece38e2b5a81d16384315c53f7ef9a0ea1d10ed75e8c34b4d674f0e35623e37",
+      "gate_sha256": "7e6d1162e795a19f0dbb0897d45469d720b6eb8bdbde02d3b505ae1d0a42463b"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch34/_workspace/2026-10-18-007-96a2",
+      "final_sha256": "27fd2dd82f8442ab091438dd97fd22193a07ecde38ceaaae808a8b7001d69eb1",
+      "gate_sha256": "e02b093032d211067b0a5739d65a9d6ccb5fc353b3035476c5f727cd2568e516"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch34/_workspace/2026-10-18-008-ff4c",
+      "final_sha256": "ae8ff38b260ea0047eab7f586311a6c40176d744f585c2f535699fecce109a81",
+      "gate_sha256": "214b2281a20d414a8b8d0a480e135ec4aed65e3a578c3f9f991f331ca0e0bf2a"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch34/_workspace/2026-10-18-009-cfbd",
+      "final_sha256": "cc098b71686aa7d9d5ddfd763b1aeabe41be32d0d8b052eaae98e2f02a07d905",
+      "gate_sha256": "d282b7f787c061c2eaf79a355be4f67cc304c19980ed0d0968e5ff6ccb2a8e49"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch34/_workspace/2026-10-18-010-5e85",
+      "final_sha256": "9c5d263b095eaf085d9dfe8a674bf9895a0d70d6370cb062ee64d035a3a0946c",
+      "gate_sha256": "36d402f399c1a45f43ebd8edd3103524e87268a56b1d1f65dae8a16ed58efa81"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch34/_workspace/2026-10-18-011-c261",
+      "final_sha256": "f54f62202ade0b4dcf24b8e934cbdf9eae252f2491ca8ef0090b6db84b1c6a90",
+      "gate_sha256": "c55564a79505ca2b89669064a40bd69b921d49fcc3fc9ca00f535123a9e8929d"
     }
   ],
   "strict_counts_by_chapter": {
@@ -3237,8 +3373,8 @@
     "30": 18,
     "31": 16,
     "32": 11,
-    "33": 4,
-    "34": 0
+    "33": 20,
+    "34": 11
   },
   "holds": [],
   "fresh_formal_complete_chapters": [
@@ -3248,13 +3384,28 @@
     4,
     5,
     6,
+    7,
     18
   ],
+  "fresh_formal_scope": "Actual matching CLI-hash pass records; additional reader-prose followups are tracked separately and no whole-project completion is claimed",
+  "known_additional_tail_style_followups": {
+    "01": [
+      4,
+      5,
+      7
+    ],
+    "02": [
+      3,
+      5,
+      9
+    ],
+    "18": "five inherited explanatory sentences; exact author and independent review pending; public bytes unchanged"
+  },
   "followups": {
-    "02": "current-public32 minimal scope correction independently approved and fresh whole formal passed; post-formal-scope-state-r1.json",
-    "06": "all29 full and intro/tail integrated; four approved reference corrections; current-hash formal block0/warn0 and actual promote complete; no baseline reassembly",
-    "07": "latest22 map-r4 and intro/tail-r4 frozen; independent09 canonical closure pending; public baseline unchanged",
-    "08": "completed author entries1–12 frozen; independent04 reviews new bundles; public baseline unchanged"
+    "06": "Two stable-reference scope corrections and six inherited TODO sentence splits approved/applied; current-hash r3 formal pass and actual promote; immutable old failures preserved",
+    "07": "All22 full-source and4tail regions approved, integrated, fresh current-hash formal pass and actual promote",
+    "08": "All46 full-source proposals authored; independent last entries/intro-tail/canonical pending; public baseline unchanged",
+    "18": "style4 applied; future20261208 titleword proposal not adopted, currentlaw verified"
   },
   "initial_source_audits_complete": [
     1,
@@ -3293,9 +3444,7 @@
   ],
   "next_initial_audit": null,
   "max_workers": 3,
-  "allocation": "A up to3 workers (pure plus source07/08); independent current-hash06 formal and source07/08 full reviews; initial source audits complete all34; use current environment total7 slots",
+  "allocation": "A up to3 isolated authors while formal slot is free; drain to2 before new cold formal; independent stable-reference and full-source08 reviews; fresh full-publication formals1-7/18; after pure667 shift authors to remaining full-source chapters; environment total7 slots",
   "live_queue_checkpoint": "global-coordinator-queue.checkpoint.json",
-  "deployed": false,
-  "validation": "root-06-validation.json",
-  "worker_constraints_sha256": "327c29d9249873dbdc64c74b51f00241f0cee44ab889f8df76d3a53783781a61"
+  "deployed": false
 }

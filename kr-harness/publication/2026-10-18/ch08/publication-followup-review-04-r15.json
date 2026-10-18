@@ -1,0 +1,206 @@
+{
+  "chapter": 8,
+  "status": "completed_exact_partial_review_r21",
+  "manifest_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/author-partial-manifest-21.json",
+  "manifest_sha256": "f58815134b132635e8a26a827fcceb25aec495c23e05bc877c51bb091f1c02ec",
+  "entries": [
+    {
+      "entry": 39,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-039-f39d/publication-entry-proposal.md",
+      "proposal_sha256": "965ed48b9b42d4284ef5613c62204217899d884b26bf7a3c96fbb86a73a32c92",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-039-f39d/publication-entry-changes.json",
+      "changes_sha256": "893f06a9287b0334ad7a3939df819d2f7d1620f49ded3e1feb6185fbb32620c6",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-039-f39d/strict-entry.md",
+      "base_strict_entry_sha256": "15d5be43a97b779479aa2a6a6b06ecb0ca22aed1447cfa4e77cc0a7246a99833",
+      "literal_exit_code": 0,
+      "decision": "approve",
+      "all_four_complete_fields_read": true,
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "snapshot_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-039-f39d/entry_snapshot.md",
+      "snapshot_sha256": "15d5be43a97b779479aa2a6a6b06ecb0ca22aed1447cfa4e77cc0a7246a99833",
+      "strict_candidate_contains_exact_base": true,
+      "length_check": {
+        "entry": 39,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-039-f39d/publication-entry-proposal.md",
+        "title_chars": 34,
+        "easy_chars": 83,
+        "easy_sentences": 3,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "number": true,
+        "six_labels": true,
+        "tags": true,
+        "grade": true
+      },
+      "production_layout_check": true,
+      "initial_canonical_entry": {
+        "entry": 39,
+        "title": "### 39. 신고 접수와 불송치 통지를 기록하고 이의신청 기한을 확인하세요",
+        "source_entry_snapshot_path": "_workspace/2026-10-18-039-f39d/entry_snapshot.md",
+        "source_entry_snapshot_sha256": "15d5be43a97b779479aa2a6a6b06ecb0ca22aed1447cfa4e77cc0a7246a99833",
+        "source_review_status": "no_new_error_found",
+        "candidate_review_status": "pending_candidate_review",
+        "scope_and_findings": "형사소송법245의6 서면통지/결정서/안내서식,245의7 통지일부터3개월·정당사유 송부일부터6개월 범위 연장·고발인 대통령령 예외 일치.21857호 부칙1조와7조 확인:2026-10-02 이후 통지에 새 기한 적용. 기본시행일만 보고 과거통지까지 소급시키지 마세요."
+      },
+      "finding_closure": "전필드승인.245의6통지결정서신청안내,245의7신청기한과연장기산점/주체·고발인복합대상조건,부칙21857제7통지시점적용을법문직접확인.중국불필요전환메모삭제·미열람시행령대상독자별도확인한계충분.불기소불송치/신고접수구별유지.39→최신2의지급정지와특별법대상예외범위정합.",
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "revision_requests": [],
+      "proposed_root_operation": {
+        "type": "replace_complete_strict_entry_body",
+        "before_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-039-f39d/strict-entry.md",
+        "before_entire_entry_sha256": "15d5be43a97b779479aa2a6a6b06ecb0ca22aed1447cfa4e77cc0a7246a99833",
+        "after_proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-039-f39d/publication-entry-proposal.md",
+        "after_original_proposal_sha256": "965ed48b9b42d4284ef5613c62204217899d884b26bf7a3c96fbb86a73a32c92",
+        "effective_after_sha256": "965ed48b9b42d4284ef5613c62204217899d884b26bf7a3c96fbb86a73a32c92",
+        "effective_after_rule": "proposal.rstrip()+original strict entry trailing whitespace; preserve original separators",
+        "supersession": "Latest approved full replaces any initial field/older full once.",
+        "integration_authorized": false
+      },
+      "field_decisions": {
+        "title": "approve",
+        "비용": "approve",
+        "쉽게": "approve",
+        "이득": "approve",
+        "근거등급": "approve",
+        "출처": "approve",
+        "비고": "approve"
+      }
+    },
+    {
+      "entry": 40,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-040-4ee2/publication-entry-proposal.md",
+      "proposal_sha256": "a9361310267a60c2e6984e81dfea58c2fa1517a7c3f7e105b6ff5659b6f4fed1",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-040-4ee2/publication-entry-changes.json",
+      "changes_sha256": "c756808efd5562bfbbc778d4d68a54f48fd12e4e6ff3df6afb1616a59937862e",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-040-4ee2/strict-entry.md",
+      "base_strict_entry_sha256": "728ba454b61f19a222b66439aada7261a8a8d00989018c2f12fd9138092c33eb",
+      "literal_exit_code": 0,
+      "decision": "approve",
+      "all_four_complete_fields_read": true,
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "snapshot_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-040-4ee2/entry_snapshot.md",
+      "snapshot_sha256": "728ba454b61f19a222b66439aada7261a8a8d00989018c2f12fd9138092c33eb",
+      "strict_candidate_contains_exact_base": true,
+      "length_check": {
+        "entry": 40,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-040-4ee2/publication-entry-proposal.md",
+        "title_chars": 27,
+        "easy_chars": 77,
+        "easy_sentences": 3,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "number": true,
+        "six_labels": true,
+        "tags": true,
+        "grade": true
+      },
+      "production_layout_check": true,
+      "initial_canonical_entry": {
+        "entry": 40,
+        "title": "### 40. 수사·재판을 무마하려고 돈이나 선물을 주지 마세요",
+        "source_entry_snapshot_path": "_workspace/2026-10-18-040-4ee2/entry_snapshot.md",
+        "source_entry_snapshot_sha256": "728ba454b61f19a222b66439aada7261a8a8d00989018c2f12fd9138092c33eb",
+        "source_review_status": "no_new_error_found",
+        "candidate_review_status": "pending_candidate_review",
+        "scope_and_findings": "형법133조129~132조 뇌물 약속·공여·의사표시와 제3자 제공·아는 수령자의 범위,5년/2천만원 일치. 모든 선물/모든 민간수임료를 뇌물로 단정하지 않아야 합니다. 압박 자동면책 부정 유지."
+      },
+      "finding_closure": "전필드승인.133범위129~132/의사표시포함·5년2000만원·목적제3자교부와사정아는수령자정확.직무/공무원중재인대상과모든선물민간수임료비해당유보로권고범위적합.12강요처벌제외조건을실제법문대로보존.단순요구압박자동면책없음과진짜저항불능예외충돌없음.기관별수수료/신고절차를확인한것으로세지않음.",
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "revision_requests": [],
+      "proposed_root_operation": {
+        "type": "replace_complete_strict_entry_body",
+        "before_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-040-4ee2/strict-entry.md",
+        "before_entire_entry_sha256": "728ba454b61f19a222b66439aada7261a8a8d00989018c2f12fd9138092c33eb",
+        "after_proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-040-4ee2/publication-entry-proposal.md",
+        "after_original_proposal_sha256": "a9361310267a60c2e6984e81dfea58c2fa1517a7c3f7e105b6ff5659b6f4fed1",
+        "effective_after_sha256": "a9361310267a60c2e6984e81dfea58c2fa1517a7c3f7e105b6ff5659b6f4fed1",
+        "effective_after_rule": "proposal.rstrip()+original strict entry trailing whitespace; preserve original separators",
+        "supersession": "Latest approved full replaces any initial field/older full once.",
+        "integration_authorized": false
+      },
+      "field_decisions": {
+        "title": "approve",
+        "비용": "approve",
+        "쉽게": "approve",
+        "이득": "approve",
+        "근거등급": "approve",
+        "출처": "approve",
+        "비고": "approve"
+      }
+    }
+  ],
+  "approved_entries": [
+    39,
+    40
+  ],
+  "revise_entries": [],
+  "actual_primary_readings": [
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290189.xml",
+      "artifact_sha256": "f917fd5794540a55cc19ef2b94e5142ee97cdaafc9215827fa653b6c275ab9fa",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290189&type=XML",
+      "read_at_utc": "2026-10-18T20:02:46.792746+00:00",
+      "read_scope": "245의6전문/245의7①~④및21857부칙1전문과7전문·22009시행직접읽음.통지3개월/송부6개월연장기산점구분·정당사유관서장재량/20261002이후통지적용명확.고발인은직접이해관계피해자준함+대통령령범죄+불송치통지복합조건.대통령령범죄목록미열람을독자에게별도확인고지해개별신청자격확정안함.자동기간연장/무제한고발인이의신청아님.기존보존캐시직접읽음/새HTTP아님.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290185.xml",
+      "artifact_sha256": "391f3c2bb7173fff4040eda9ae2259674b616e58aeadf4371206b63c70f1c89b",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290185&type=XML",
+      "read_at_utc": "2026-10-18T20:02:46.793512+00:00",
+      "read_scope": "12/129/130/131/132/133전항전문직접읽음.129한정위헌주석포함,17571/22007시행직접읽음.133의약속공여의사표시/5년2000만원/목적금품교부와사정아는제3자수령범위정확.12저항불능폭력또는자기친족생명신체위해방어방법없는협박조건/자동압박면책없음.공무원특별법별지위판단·개별민간수임료·신고기관절차미검증.기존보존캐시직접읽음/새HTTP아님.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    }
+  ],
+  "prior_actual_reading_reuse": [],
+  "cross_reference_review": [
+    {
+      "entries": [
+        39,
+        2
+      ],
+      "scope": "manifest1최신승인2full실본문과제목직접읽음.지급정지앵커존재/금융회사신청·의심조건/잔여재산환급·상품서비스가장제외및대출가장포함한계와39의돈피해신고참조정합.39는모든금전분쟁이특별법자동적용된다고주장안함."
+    },
+    {
+      "entries": [
+        40
+      ],
+      "outgoing": [],
+      "scope": "다른항목절참조없음.제목불변."
+    }
+  ],
+  "production_helper_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/scripts/humanize_publication.py",
+  "production_helper_sha256": "244c194c7620c3095dc3a972eecdaa4e17fab8a0a301ae8b601cb8401569bfd3",
+  "helper_code_modified": false,
+  "fresh_http_performed": false,
+  "whole46_approval": false,
+  "integration_approval": false,
+  "formal_kr_fit_approval": false,
+  "preservation": "Prior reviews/frozen proposals/canonical/public/runs/gates/git unchanged.",
+  "reviewer_id": "/root/publication_review_04",
+  "six_complete_fields_read": true
+}

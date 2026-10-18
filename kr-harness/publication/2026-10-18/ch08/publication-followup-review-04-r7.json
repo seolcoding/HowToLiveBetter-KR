@@ -1,0 +1,236 @@
+{
+  "chapter": 8,
+  "status": "completed_exact_partial_review_r13",
+  "manifest_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/author-partial-manifest-13.json",
+  "manifest_sha256": "52755d9633095f60609f82c7c7013269f26364e1af4d7ecb79735b3e427bf5fb",
+  "entries": [
+    {
+      "entry": 20,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-020-fdb1/publication-entry-proposal.md",
+      "proposal_sha256": "60fa4693c885aef4efbda7f97d515ebeb042e0fa39bb67849adb1bb1398739d9",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-020-fdb1/publication-entry-changes.json",
+      "changes_sha256": "6dcf4de8d0f588c107b07a5486d9bf5a5bc67167d529e8d610b2d668f798d7ba",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-020-fdb1/strict-entry.md",
+      "base_strict_entry_sha256": "ab26a53fa9bbce1d3b4fc5a021d2e4bc9f3910502965eb613cc70657d95cc082",
+      "literal_exit_code": 0,
+      "decision": "approve",
+      "all_four_complete_fields_read": true,
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "snapshot_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-020-fdb1/entry_snapshot.md",
+      "snapshot_sha256": "ab26a53fa9bbce1d3b4fc5a021d2e4bc9f3910502965eb613cc70657d95cc082",
+      "strict_candidate_contains_exact_base": true,
+      "length_check": {
+        "entry": 20,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-020-fdb1/publication-entry-proposal.md",
+        "title_chars": 20,
+        "easy_chars": 74,
+        "easy_sentences": 3,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "number": true,
+        "six_labels": true,
+        "tags": true,
+        "grade": true
+      },
+      "production_layout_check": true,
+      "initial_canonical_entry": {
+        "entry": 20,
+        "title": "### 20. 집행을 피하려고 재산을 숨기지 마세요",
+        "source_entry_snapshot_path": "_workspace/2026-10-18-020-fdb1/entry_snapshot.md",
+        "source_entry_snapshot_sha256": "ab26a53fa9bbce1d3b4fc5a021d2e4bc9f3910502965eb613cc70657d95cc082",
+        "source_review_status": "verified_new_http",
+        "candidate_review_status": "pending_candidate_review",
+        "scope_and_findings": "민사집행법268837 새 원문 확보:68조9항 거짓 재산목록3년/500만원 일치. 형법327조 목적·행위·채권자해함 구분. 민법406조는 채무자 악의·수익자/전득자 선의 예외가 있으므로 모든 처분 자동 취소로 넓히지 마세요."
+      },
+      "finding_closure": "초기327/거짓목록/406조건지적을실법과직접대조.목적·채권자해함/선의수익자전득자예외·1년5년양제소기한을명시해모든재산처분자동취소/채무미변제만범죄화아님유지.3년500만원은민집68⑨허위목록형량과일치.재산정정은절차확인권고.최신21참조부합.전필드·길이/layout/보호/DOI0통과.",
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "revision_requests": [],
+      "proposed_root_operation": {
+        "type": "replace_complete_strict_entry_body",
+        "before_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-020-fdb1/strict-entry.md",
+        "before_entire_entry_sha256": "ab26a53fa9bbce1d3b4fc5a021d2e4bc9f3910502965eb613cc70657d95cc082",
+        "after_proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-020-fdb1/publication-entry-proposal.md",
+        "after_original_proposal_sha256": "60fa4693c885aef4efbda7f97d515ebeb042e0fa39bb67849adb1bb1398739d9",
+        "effective_after_sha256": "60fa4693c885aef4efbda7f97d515ebeb042e0fa39bb67849adb1bb1398739d9",
+        "effective_after_rule": "proposal.rstrip()+original strict entry trailing whitespace; preserve original separators",
+        "supersession": "Latest approved full replaces any initial field/older full once.",
+        "integration_authorized": false
+      },
+      "field_decisions": {
+        "title": "approve",
+        "비용": "approve",
+        "쉽게": "approve",
+        "이득": "approve",
+        "근거등급": "approve",
+        "출처": "approve",
+        "비고": "approve"
+      }
+    },
+    {
+      "entry": 21,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-021-d05b/publication-entry-proposal.md",
+      "proposal_sha256": "2b73d18a1c472ecbfaf1673834739fe7978f5286958478567ab5345f38c11bf2",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-021-d05b/publication-entry-changes.json",
+      "changes_sha256": "4c0f0ca4caf82d680fd5da1f9615a3f84cd0f71a893f2307b939d5805e2bacda",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-021-d05b/strict-entry.md",
+      "base_strict_entry_sha256": "af982af4a1263d97ba00cb386674baa57682db2bf64bcc842955d037724adcb2",
+      "literal_exit_code": 0,
+      "decision": "approve",
+      "all_four_complete_fields_read": true,
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "snapshot_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-021-d05b/entry_snapshot.md",
+      "snapshot_sha256": "af982af4a1263d97ba00cb386674baa57682db2bf64bcc842955d037724adcb2",
+      "strict_candidate_contains_exact_base": true,
+      "length_check": {
+        "entry": 21,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-021-d05b/publication-entry-proposal.md",
+        "title_chars": 29,
+        "easy_chars": 68,
+        "easy_sentences": 3,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "number": true,
+        "six_labels": true,
+        "tags": true,
+        "grade": true
+      },
+      "production_layout_check": true,
+      "initial_canonical_entry": {
+        "entry": 21,
+        "title": "### 21. 채무불이행자명부는 등재 이유와 말소 요건을 확인하세요",
+        "source_entry_snapshot_path": "_workspace/2026-10-18-021-d05b/entry_snapshot.md",
+        "source_entry_snapshot_sha256": "af982af4a1263d97ba00cb386674baa57682db2bf64bcc842955d037724adcb2",
+        "source_review_status": "verified_new_http",
+        "candidate_review_status": "pending_candidate_review",
+        "scope_and_findings": "민사집행법70조6개월 미이행·제외 집행권원, 재산명시 불응/허위 별도 사유와73조 채무소멸 증명·다음해부터10년 직권말소 일치. 금융회사 정보와 법원명부를 분리."
+      },
+      "finding_closure": "초기명부/신용정보구분과70/73기한범위보존.금전집행권원확정작성6개월일반경로및가집행제외,명시불응정당사유/허위목록별도경로,채권자신청소명/쉬운집행기각,소멸증명말소/다음해부터10년과기관부본말소를정확히설명.다른신용정보자동정정아님은38실조문검토범위와맞음.최신공개7e19회생파산상담참조본문대조.전필드·길이/layout/보호/DOI0통과.",
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "revision_requests": [],
+      "proposed_root_operation": {
+        "type": "replace_complete_strict_entry_body",
+        "before_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-021-d05b/strict-entry.md",
+        "before_entire_entry_sha256": "af982af4a1263d97ba00cb386674baa57682db2bf64bcc842955d037724adcb2",
+        "after_proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-021-d05b/publication-entry-proposal.md",
+        "after_original_proposal_sha256": "2b73d18a1c472ecbfaf1673834739fe7978f5286958478567ab5345f38c11bf2",
+        "effective_after_sha256": "2b73d18a1c472ecbfaf1673834739fe7978f5286958478567ab5345f38c11bf2",
+        "effective_after_rule": "proposal.rstrip()+original strict entry trailing whitespace; preserve original separators",
+        "supersession": "Latest approved full replaces any initial field/older full once.",
+        "integration_authorized": false
+      },
+      "field_decisions": {
+        "title": "approve",
+        "비용": "approve",
+        "쉽게": "approve",
+        "이득": "approve",
+        "근거등급": "approve",
+        "출처": "approve",
+        "비고": "approve"
+      }
+    }
+  ],
+  "approved_entries": [
+    20,
+    21
+  ],
+  "revise_entries": [],
+  "actual_primary_readings": [
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch08-audit/law268837.raw",
+      "artifact_sha256": "e85b1c66c027d60c73cef3a7067b0593f6612eb47a27f532e477d0d3c77900c7",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=268837&type=XML",
+      "read_at_utc": "2026-10-18T19:49:31.090128+00:00",
+      "read_scope": "직접읽음:61/64/66/68/70/71/73전체·기본시행20260201/20434·20733부칙.거짓재산목록3년/500만원·6개월미이행가집행제외·정당사유없는불출석/거부와거짓목록별도등재·명백히쉬운집행이면기각·채무소멸신청말소/다음해부터10년직권말소/금융기관부본말소통지확인.재산정정은법원허가조건의형식흠/불명확범위;본문은절차확인권고로허위무조건치유보장아님.개별집행사건/모든과거부칙통독아님.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290185.xml",
+      "artifact_sha256": "391f3c2bb7173fff4040eda9ae2259674b616e58aeadf4371206b63c70f1c89b",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290185&type=XML",
+      "read_at_utc": "2026-10-18T19:49:31.090671+00:00",
+      "read_scope": "327전체및21450/22007부칙직접읽음.면탈목적·재산행위·채권자해함요건이며채무미변제자체와구별.원형량은본문상거짓목록제68조형량과구별.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/284415.xml",
+      "artifact_sha256": "cd2997176df62de7b1e4bb018287987654f6054cbd0eeced9e882d5c4daf53df",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=284415&type=XML",
+      "read_at_utc": "2026-10-18T19:49:31.092468+00:00",
+      "read_scope": "406①②전체·21454최신부칙직접읽음.채무자해함알고재산권행위/수익자또는전득자행위전득당시선의예외/취소원인안날1년·행위5년이내양기한확인.최신부칙의상속/유류분특례를406에일괄적용안함.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/283841.xml",
+      "artifact_sha256": "3ba19a1070fd85bd04b03b7d7031997464613b09e59096ccc000a8d5cfd1b058",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=283841&type=XML",
+      "read_at_utc": "2026-10-18T19:49:31.092864+00:00",
+      "read_scope": "38전체/21445부칙은r1직접읽기재사용.법원명부말소/금융기관부본삭제와다른신용정보의개별정정청구를구분.각금융회사시스템정책/개인로그인미열람.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    }
+  ],
+  "prior_actual_reading_reuse": [
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/publication-followup-review-04-r1.json",
+      "sha256": "ae97a6f493ff77687fdefe46b5885af31db16bc3472ccabcdee0fed3b7189b6a",
+      "scope": "38/21445실제읽기재사용.신규HTTP아님."
+    }
+  ],
+  "cross_reference_review": [
+    {
+      "source_entry": 20,
+      "target_entry": 21,
+      "target_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-021-d05b/publication-entry-proposal.md",
+      "target_sha256": "2b73d18a1c472ecbfaf1673834739fe7978f5286958478567ab5345f38c11bf2",
+      "scope": "최신21full의등재별사유/말소요건·신용정보별도범위와20명부문제참조부합."
+    },
+    {
+      "source_entry": 21,
+      "target_chapter": 7,
+      "target_entry": 19,
+      "target_path": "/workspace/HowToLiveBetter-KR/book-kr/07-돈이-없을-때-사는-법.md",
+      "target_file_sha256": "25b43943728c7922b0327f5d0fc0cc12c3589d2485f50e766d780f3b6195581f",
+      "target_body_sha256": "35fc9b870c2b090baeeeef704b042c5da3bfde88a676690a2eed08e02c3f4de5",
+      "scope": "현시점공개7e19회생소득/채무한도·파산면책별개·면책제외/신용정보범죄기록구분실제본문읽기.21은상담참조만하며명부말소가모든채무/신용자동삭제라는뜻아님.해당법전체새승인아님."
+    }
+  ],
+  "production_helper_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/scripts/humanize_publication.py",
+  "production_helper_sha256": "244c194c7620c3095dc3a972eecdaa4e17fab8a0a301ae8b601cb8401569bfd3",
+  "helper_code_modified": false,
+  "fresh_http_performed": false,
+  "whole46_approval": false,
+  "integration_approval": false,
+  "formal_kr_fit_approval": false,
+  "preservation": "Prior reviews/frozen proposals/canonical/public/runs/gates/git unchanged.",
+  "reviewer_id": "/root/publication_review_04",
+  "six_complete_fields_read": true
+}

@@ -1,0 +1,245 @@
+{
+  "chapter": 8,
+  "status": "completed_exact_partial_review_r10",
+  "manifest_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/author-partial-manifest-10.json",
+  "manifest_sha256": "991e8745158c947b77fbd8bd4870b91b4ecf70d9bc4f57fc61e077838e2d429b",
+  "entries": [
+    {
+      "entry": 13,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-013-a758/publication-entry-proposal.md",
+      "proposal_sha256": "da35dbe30b3dc2b1c1f35d11e37d54d5a92f75f1334d6269ac388227591a509e",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-013-a758/publication-entry-changes.json",
+      "changes_sha256": "c4cfa56ea83edee07fb5d10f40417c08d2a67ebac79f244a6b87da8a10b5d85e",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-013-a758/strict-entry.md",
+      "base_strict_entry_sha256": "da1854f8962544566f3b967d2bab296f001c7028a5e7ec7d5fb9cd51237e2fab",
+      "literal_exit_code": 0,
+      "decision": "revise",
+      "all_four_complete_fields_read": true,
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "snapshot_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-013-a758/entry_snapshot.md",
+      "snapshot_sha256": "da1854f8962544566f3b967d2bab296f001c7028a5e7ec7d5fb9cd51237e2fab",
+      "strict_candidate_contains_exact_base": true,
+      "length_check": {
+        "entry": 13,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-013-a758/publication-entry-proposal.md",
+        "title_chars": 21,
+        "easy_chars": 73,
+        "easy_sentences": 3,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "number": true,
+        "six_labels": true,
+        "tags": true,
+        "grade": true
+      },
+      "production_layout_check": true,
+      "initial_canonical_entry": {
+        "entry": 13,
+        "title": "### 13. 분노를 관계없는 사람에게 돌리지 마세요",
+        "source_entry_snapshot_path": "_workspace/2026-10-18-013-a758/entry_snapshot.md",
+        "source_entry_snapshot_sha256": "da1854f8962544566f3b967d2bab296f001c7028a5e7ec7d5fb9cd51237e2fab",
+        "source_review_status": "no_new_error_found",
+        "candidate_review_status": "pending_candidate_review",
+        "scope_and_findings": "형법250조 일반 살인 형량·283조 협박 근거 확인. 의도·수단·결과별 죄명 차이 유지. 중국 공공안전죄·사형사례를 한국에 대입하지 않았습니다."
+      },
+      "finding_closure": "법250일반살인제1항형량한정/283협박③공소제한정밀화는실조문과맞고사건별죄명/의도/수단/피해유보보존.14앵커도최신제목/본문과맞음.그러나비고첫문장중국사건사상자/사형집행한국형량표비적용은9r1과같은독자불필요변환메모라삭제요청.법정형이나중국사건사실오류판정아님.",
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "revision_requests": [
+        {
+          "field": "비고",
+          "before": "중국 사건의 사상자 수와 사형 집행 사례를 한국의 형량표로 쓰지 않습니다.",
+          "required": "불필요한원문변환메모첫문장삭제.한국법정형/범죄성립유보·위급시도움·14참조는보존.새사실추가불필요."
+        }
+      ],
+      "field_decisions": {
+        "title": "approve",
+        "비용": "approve",
+        "쉽게": "approve",
+        "이득": "approve",
+        "근거등급": "approve",
+        "출처": "approve",
+        "비고": "revise"
+      }
+    },
+    {
+      "entry": 14,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-014-a082/publication-entry-proposal.md",
+      "proposal_sha256": "d8dd32bcae299fc9b8ce12c5406e7d8a063ed7dbb30d915632096c6be3bc5ab8",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-014-a082/publication-entry-changes.json",
+      "changes_sha256": "248f7a6f43b3295ff54d443d785bc4ce1be547ddd60456f010eae2b9bdd878b0",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-014-a082/strict-entry.md",
+      "base_strict_entry_sha256": "067c4c96aedab89da7421e7860c2e8260993febb0544b179535f53adc3998e01",
+      "literal_exit_code": 0,
+      "decision": "approve",
+      "all_four_complete_fields_read": true,
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "snapshot_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-014-a082/entry_snapshot.md",
+      "snapshot_sha256": "067c4c96aedab89da7421e7860c2e8260993febb0544b179535f53adc3998e01",
+      "strict_candidate_contains_exact_base": true,
+      "length_check": {
+        "entry": 14,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-014-a082/publication-entry-proposal.md",
+        "title_chars": 29,
+        "easy_chars": 87,
+        "easy_sentences": 4,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "number": true,
+        "six_labels": true,
+        "tags": true,
+        "grade": true
+      },
+      "production_layout_check": true,
+      "initial_canonical_entry": {
+        "entry": 14,
+        "title": "### 14. 같이 죽자는 충동이 생기면 위험한 물건에서 떨어지세요",
+        "source_entry_snapshot_path": "_workspace/2026-10-18-014-a082/entry_snapshot.md",
+        "source_entry_snapshot_sha256": "067c4c96aedab89da7421e7860c2e8260993febb0544b179535f53adc3998e01",
+        "source_review_status": "changes_required",
+        "candidate_review_status": "pending_candidate_review",
+        "scope_and_findings": "원초록 PMID19026258은 시도 후3일 이내 면담입니다. 입원 후3일은 원초록과 다릅니다. 82명·47.6%·10분은 일치. 연구 전체 본문은 미열람. 수단제한43%·86%(79~91%)의 Zalsman 원문 대조는 이 감사에서 완료하지 못했습니다. 타해에 직접 적용하지 않는 유보·B등급 유지."
+      },
+      "finding_closure": "초기시도시점지적해소:82명을시도후3일내접근·면담,47.6%/39명첫현재생각→시도10분일치.2005–2014서술종설의수단제한43/86/79–91범위와메타분석아님·개인확률아님·타해직접효과아님구별.109공식페이지/112법본문직접읽음.두논문전문미열람을독자비고에명시해초록검증을전문으로과장하지않음.38incoming불일치는해당발신항목후속요청,14불변제목자체문제아님.전필드/길이/layout/보호/DOI0통과.",
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "revision_requests": [],
+      "proposed_root_operation": {
+        "type": "replace_complete_strict_entry_body",
+        "before_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-014-a082/strict-entry.md",
+        "before_entire_entry_sha256": "067c4c96aedab89da7421e7860c2e8260993febb0544b179535f53adc3998e01",
+        "after_proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-014-a082/publication-entry-proposal.md",
+        "after_original_proposal_sha256": "d8dd32bcae299fc9b8ce12c5406e7d8a063ed7dbb30d915632096c6be3bc5ab8",
+        "effective_after_sha256": "d8dd32bcae299fc9b8ce12c5406e7d8a063ed7dbb30d915632096c6be3bc5ab8",
+        "effective_after_rule": "proposal.rstrip()+original strict entry trailing whitespace; preserve original separators",
+        "supersession": "Latest approved full replaces any initial field/older full once.",
+        "integration_authorized": false
+      },
+      "field_decisions": {
+        "title": "approve",
+        "비용": "approve",
+        "쉽게": "approve",
+        "이득": "approve",
+        "근거등급": "approve",
+        "출처": "approve",
+        "비고": "approve"
+      }
+    }
+  ],
+  "approved_entries": [
+    14
+  ],
+  "revise_entries": [
+    13
+  ],
+  "actual_primary_readings": [
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290185.xml",
+      "artifact_sha256": "391f3c2bb7173fff4040eda9ae2259674b616e58aeadf4371206b63c70f1c89b",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290185&type=XML",
+      "read_at_utc": "2026-10-18T19:41:55.258788+00:00",
+      "read_scope": "250①②는r3직접읽기재사용/283①~③이번직접읽음.일반살인5년이상대존속7년이상구별·협박공소제한명시일치.기본20261002/22007부칙r2읽기재사용.개별형량/중국사건검증아님.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch08-audit/deisenhammer-title.raw",
+      "artifact_sha256": "b34fbc7b3a7f1f132589876a50fc6014cd8fcbd102b0d3293b60033110d74aab",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22duration%20of%20the%20suicidal%20process%22&format=json&resultType=core",
+      "read_at_utc": "2026-10-18T19:41:55.258850+00:00",
+      "read_scope": "논문정체·원저자초록전체직접읽음:정신과대학병원82시도자·행동후3일내접근/반구조면담·현재자살생각첫발생→실제시도39명47.6%10분이내.2004.7~2005.12자료.개별최초평생생각이나타해과정으로확장안함.전문/표미열람.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch08-review04/zalsman-title-original.json",
+      "artifact_sha256": "d22e4326a7789757a319c986c2fa64ad85d207346d2ca5c7259a1c80f0fe0326",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Suicide+prevention+strategies+revisited%22&format=json&resultType=core",
+      "read_at_utc": "2026-10-18T19:41:55.258891+00:00",
+      "read_scope": "원저자초록전체직접읽음.제목/DOI일치,2005.1.1~2014.12.31검색·집단방법이질성으로공식메타불가→서술분석,진통제통제43%·투신hotspot86%(79~91)2005이후.초록은범위를CI라표시안해CI로추측하지않음.개인자살확률/타해효과율아님.원연구별분모/기간과전문미열람.저자보존HTTP응답파일을복사후직접읽은것이며이번새HTTP아님.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch08-audit/109.raw",
+      "artifact_sha256": "779eb5f1d7a10b1a7ee703e2f035af6f4f011093aa2a70287437816c86561f83",
+      "url": "https://www.129.go.kr/109/",
+      "read_at_utc": "2026-10-18T19:41:55.259053+00:00",
+      "read_scope": "공식보건복지상담센터실제HTML제목/109배너및자살상담안내직접읽음.단순보건부홈페이지가아님.통화료/개인상담성공보장은검증안함.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/257787.xml",
+      "artifact_sha256": "fdb882c418c5cfe84ea14907dc1b7dc082f1a2c5707338667884fa30c097711e",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=257787&type=XML",
+      "read_at_utc": "2026-10-18T19:41:55.259106+00:00",
+      "read_scope": "2조/19870부칙은r2읽기재사용·4①②/5조이번직접읽기.위급발생또는예상시112요청범위확인.효과수치검증아님.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    }
+  ],
+  "prior_actual_reading_reuse": [
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/publication-followup-review-04-r3.json",
+      "sha256": "0f1e5ce908a47936548543303e5582c1b061ece3c4c5e205fb2c92c71ccb4b0d",
+      "scope": "형법250실제직접읽기·개별판례미확인한계재사용"
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/publication-followup-review-04-r2.json",
+      "sha256": "c21d1d67f38b01c83f62e30fc550e1fb580a1bb99174ffa633ee4691ba8d0135",
+      "scope": "형법22007/112정의·19870부칙실제읽기재사용"
+    }
+  ],
+  "cross_reference_review": [
+    {
+      "source_entry": 13,
+      "target_entry": 14,
+      "target_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-014-a082/publication-entry-proposal.md",
+      "target_sha256": "d8dd32bcae299fc9b8ce12c5406e7d8a063ed7dbb30d915632096c6be3bc5ab8",
+      "actual_scope": "같이죽자는충동/위험물거리/109·긴급112/직접위험물정리금지·안전업무인계범위.13의최신위험한물건앵커는제목substring과부합."
+    },
+    {
+      "source_entry": 38,
+      "target_entry": 14,
+      "status": "followup_required_on_entry38_full",
+      "actual_scope": "현재public의제14항(위험한충동)은제목substring아님.14제목변경요청아니며38sameauthor최신안에서앵커정리후closure재검토.이미A통지."
+    }
+  ],
+  "production_helper_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/scripts/humanize_publication.py",
+  "production_helper_sha256": "244c194c7620c3095dc3a972eecdaa4e17fab8a0a301ae8b601cb8401569bfd3",
+  "helper_code_modified": false,
+  "fresh_http_performed": false,
+  "whole46_approval": false,
+  "integration_approval": false,
+  "formal_kr_fit_approval": false,
+  "preservation": "Prior reviews/frozen proposals/canonical/public/runs/gates/git unchanged.",
+  "reviewer_id": "/root/publication_review_04",
+  "six_complete_fields_read": true
+}

@@ -1,0 +1,362 @@
+{
+  "scope": "Optional Git whitespace diagnostic; original and reviewed evidence bytes remain hash-bound and unchanged. Only inherited/new-file EOF separator warnings accepted; every other whitespace diagnostic rejects this check. Production gates and style thresholds unchanged.",
+  "git_diff_check_exit_code": 2,
+  "public_or_runtime_warnings": 0,
+  "preserved_evidence_eof_warnings": [
+    {
+      "path": "kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-008-734d/publication-crossref-current-whole-r1.md",
+      "sha256": "6746d07a3b0158c91141dc949b70892117f6fdfc3c9d62a1fc5572fdc51fdc85",
+      "kind": "Immutable entry separator or exact complete-document snapshot EOF, preserved intentionally; no public prose whitespace warning."
+    },
+    {
+      "path": "kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-025-8cbb/publication-crossref-current-whole-r1.md",
+      "sha256": "6746d07a3b0158c91141dc949b70892117f6fdfc3c9d62a1fc5572fdc51fdc85",
+      "kind": "Immutable entry separator or exact complete-document snapshot EOF, preserved intentionally; no public prose whitespace warning."
+    },
+    {
+      "path": "kr-harness/publication/2026-10-18/ch06/current-tail-style-candidate-r1.md",
+      "sha256": "62c6bc704264bd7a2c40a4ba9e6f5b713b7edc3e6c8a34b64a8cd9cba46c7217",
+      "kind": "Immutable entry separator or exact complete-document snapshot EOF, preserved intentionally; no public prose whitespace warning."
+    },
+    {
+      "path": "kr-harness/publication/2026-10-18/ch06/publication-current-tail-style-before-tail-r1.md",
+      "sha256": "efcb305420747e48c51b786f91f37240afcced2c15416254edca1db2a3c64007",
+      "kind": "Immutable entry separator or exact complete-document snapshot EOF, preserved intentionally; no public prose whitespace warning."
+    },
+    {
+      "path": "kr-harness/publication/2026-10-18/ch06/publication-current-tail-style-before-whole-r1.md",
+      "sha256": "69a79965f2a310648379cf87c6bbe27ea3a5033552de9630c16f25cda6165286",
+      "kind": "Immutable entry separator or exact complete-document snapshot EOF, preserved intentionally; no public prose whitespace warning."
+    },
+    {
+      "path": "kr-harness/publication/2026-10-18/ch06/stable-crossref-candidate-r1.md",
+      "sha256": "c4dc139bf0af5889953784e7c5d6e9214ebecbbf0938b5fbe4496e4320cf96e4",
+      "kind": "Immutable entry separator or exact complete-document snapshot EOF, preserved intentionally; no public prose whitespace warning."
+    },
+    {
+      "path": "kr-harness/publication/2026-10-18/ch06/stable-crossref-public-before-r1.md",
+      "sha256": "6746d07a3b0158c91141dc949b70892117f6fdfc3c9d62a1fc5572fdc51fdc85",
+      "kind": "Immutable entry separator or exact complete-document snapshot EOF, preserved intentionally; no public prose whitespace warning."
+    },
+    {
+      "path": "kr-harness/publication/2026-10-18/ch07/_workspace/2026-10-18-008-33f8/publication-entry-proposal.md.bak-185917",
+      "sha256": "2aabc710ef629701d49b77df7da763840160a3293837db5d4d925cff061fd8a0",
+      "kind": "Immutable entry separator or exact complete-document snapshot EOF, preserved intentionally; no public prose whitespace warning."
+    },
+    {
+      "path": "kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-003-3aff/publication-entry-proposal-r2.md",
+      "sha256": "64f08efeda1ee8b469384989fe3cfe3996a2293e467d594eae64aa72a57187c6",
+      "kind": "Immutable entry separator or exact complete-document snapshot EOF, preserved intentionally; no public prose whitespace warning."
+    },
+    {
+      "path": "kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-008-b780/publication-entry-proposal-r2.md",
+      "sha256": "18b6c42fedaeccb9fb890f87821a3cadeb238443b3a4570a8f709b2be166b377",
+      "kind": "Immutable entry separator or exact complete-document snapshot EOF, preserved intentionally; no public prose whitespace warning."
+    },
+    {
+      "path": "kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-013-a758/publication-entry-proposal-r2.md",
+      "sha256": "e9232de30d2d01169e1a70aaf4c0bd012bbd8ec288c02acfba1189da370add38",
+      "kind": "Immutable entry separator or exact complete-document snapshot EOF, preserved intentionally; no public prose whitespace warning."
+    },
+    {
+      "path": "kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-013-a758/publication-entry-proposal.md",
+      "sha256": "da35dbe30b3dc2b1c1f35d11e37d54d5a92f75f1334d6269ac388227591a509e",
+      "kind": "Immutable entry separator or exact complete-document snapshot EOF, preserved intentionally; no public prose whitespace warning."
+    },
+    {
+      "path": "kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-014-a082/publication-entry-proposal.md",
+      "sha256": "d8dd32bcae299fc9b8ce12c5406e7d8a063ed7dbb30d915632096c6be3bc5ab8",
+      "kind": "Immutable entry separator or exact complete-document snapshot EOF, preserved intentionally; no public prose whitespace warning."
+    },
+    {
+      "path": "kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-015-4b6c/publication-entry-proposal.md",
+      "sha256": "db77da23b8fe2edef96daef3c684236d4652925a6812c3378f62b23af77d0f26",
+      "kind": "Immutable entry separator or exact complete-document snapshot EOF, preserved intentionally; no public prose whitespace warning."
+    },
+    {
+      "path": "kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-016-9f8b/publication-entry-proposal.md",
+      "sha256": "e93ddb23b2f4614056632268092b2792e516242aabcb9bba37bea75402d5b9e2",
+      "kind": "Immutable entry separator or exact complete-document snapshot EOF, preserved intentionally; no public prose whitespace warning."
+    },
+    {
+      "path": "kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-017-25b9/publication-entry-proposal.md",
+      "sha256": "efbb40fb6dcf75cf4d20c4b2dbc805dcfe506103a19dcf6760ad4cac4e25baf8",
+      "kind": "Immutable entry separator or exact complete-document snapshot EOF, preserved intentionally; no public prose whitespace warning."
+    },
+    {
+      "path": "kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-018-fa5d/publication-entry-proposal.md",
+      "sha256": "9410d5ab91470ab201256c203cbc696c125ecf5ae1f66fcada3d86e753daf879",
+      "kind": "Immutable entry separator or exact complete-document snapshot EOF, preserved intentionally; no public prose whitespace warning."
+    },
+    {
+      "path": "kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-019-b771/publication-entry-proposal.md",
+      "sha256": "249e7b768fe8d0b8b2b1310b297010b695cc3e569f63497beb41a689e42e8798",
+      "kind": "Immutable entry separator or exact complete-document snapshot EOF, preserved intentionally; no public prose whitespace warning."
+    },
+    {
+      "path": "kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-020-fdb1/publication-entry-proposal.md",
+      "sha256": "60fa4693c885aef4efbda7f97d515ebeb042e0fa39bb67849adb1bb1398739d9",
+      "kind": "Immutable entry separator or exact complete-document snapshot EOF, preserved intentionally; no public prose whitespace warning."
+    },
+    {
+      "path": "kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-021-d05b/publication-entry-proposal.md",
+      "sha256": "2b73d18a1c472ecbfaf1673834739fe7978f5286958478567ab5345f38c11bf2",
+      "kind": "Immutable entry separator or exact complete-document snapshot EOF, preserved intentionally; no public prose whitespace warning."
+    },
+    {
+      "path": "kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-022-0650/publication-entry-proposal.md",
+      "sha256": "a038a774191131d3e70c1ec3dd1e5b945d0359711b9857d2469860197cf0b350",
+      "kind": "Immutable entry separator or exact complete-document snapshot EOF, preserved intentionally; no public prose whitespace warning."
+    },
+    {
+      "path": "kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-023-c65b/publication-entry-proposal.md",
+      "sha256": "cc176cd1e70b4a8dc03bb7f7ef65fe0e1aa48a09051963d016f7f44903e519ca",
+      "kind": "Immutable entry separator or exact complete-document snapshot EOF, preserved intentionally; no public prose whitespace warning."
+    },
+    {
+      "path": "kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-024-0dc4/publication-entry-proposal.md",
+      "sha256": "a6ebec61e938c850991845a3d7621493c3f96c3552adb6efd988242f42050367",
+      "kind": "Immutable entry separator or exact complete-document snapshot EOF, preserved intentionally; no public prose whitespace warning."
+    },
+    {
+      "path": "kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-025-8c84/publication-entry-proposal.md",
+      "sha256": "1902169f513f2c6c6341c294834e3cb97f299d40177b84571d811b919f12df92",
+      "kind": "Immutable entry separator or exact complete-document snapshot EOF, preserved intentionally; no public prose whitespace warning."
+    },
+    {
+      "path": "kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-026-721f/publication-entry-proposal.md",
+      "sha256": "84cf0a11ae1c46c3b684ad2b071454442dcde7c28caff142dbbc05680b828c87",
+      "kind": "Immutable entry separator or exact complete-document snapshot EOF, preserved intentionally; no public prose whitespace warning."
+    },
+    {
+      "path": "kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-027-1373/publication-entry-proposal.md",
+      "sha256": "6f93be329945927935d04f53cd5d7df2a328403f153fb64577e5a345a6770d09",
+      "kind": "Immutable entry separator or exact complete-document snapshot EOF, preserved intentionally; no public prose whitespace warning."
+    },
+    {
+      "path": "kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-028-3856/publication-entry-proposal.md",
+      "sha256": "f6fcc8af62b6b3ab0c0b41b0c257f704219dabb354c4310f78f8d0233678785f",
+      "kind": "Immutable entry separator or exact complete-document snapshot EOF, preserved intentionally; no public prose whitespace warning."
+    },
+    {
+      "path": "kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-029-79fe/publication-entry-proposal.md",
+      "sha256": "f74f9dbae29a3269e23d2e1fb8e6ad15e74171a758f0457a0c6bb935aa3545f0",
+      "kind": "Immutable entry separator or exact complete-document snapshot EOF, preserved intentionally; no public prose whitespace warning."
+    },
+    {
+      "path": "kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-030-914e/publication-entry-proposal.md",
+      "sha256": "3ff0f5a2b5f9a99197f3ed36de42dd35fbc586075bac21fcdd523ce93a03ca45",
+      "kind": "Immutable entry separator or exact complete-document snapshot EOF, preserved intentionally; no public prose whitespace warning."
+    },
+    {
+      "path": "kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-031-ff82/publication-entry-proposal.md",
+      "sha256": "9e5aa56dab22e46e3ac584053ecfab159cef74e6dec4614adb6d274c9bd56a2f",
+      "kind": "Immutable entry separator or exact complete-document snapshot EOF, preserved intentionally; no public prose whitespace warning."
+    },
+    {
+      "path": "kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-032-9270/publication-entry-proposal.md",
+      "sha256": "dc0010800179cd2dfbb204cc79252bb481cd11c895b05c9aff35b82cbf9fabe5",
+      "kind": "Immutable entry separator or exact complete-document snapshot EOF, preserved intentionally; no public prose whitespace warning."
+    },
+    {
+      "path": "kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-033-fb01/publication-entry-proposal.md",
+      "sha256": "d69924017435acd8ddd1a332d79045dc61c8638213e9af031bba07bec3808e6c",
+      "kind": "Immutable entry separator or exact complete-document snapshot EOF, preserved intentionally; no public prose whitespace warning."
+    },
+    {
+      "path": "kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-034-6fd6/publication-entry-proposal.md",
+      "sha256": "c35d40153b50a5351f5ed55eec5ded0b16ec7485bdd56df88423207591eda70c",
+      "kind": "Immutable entry separator or exact complete-document snapshot EOF, preserved intentionally; no public prose whitespace warning."
+    },
+    {
+      "path": "kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-035-fb81/publication-entry-proposal.md",
+      "sha256": "7f820d4b2d5e36e3fe51cfa96d3f705dc3614ab7fda838fab1f46b1cbff5638c",
+      "kind": "Immutable entry separator or exact complete-document snapshot EOF, preserved intentionally; no public prose whitespace warning."
+    },
+    {
+      "path": "kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-036-9393/publication-entry-proposal-r2.md",
+      "sha256": "d12fc822db013bb10e49a181bb0b3eb1de7aafe6d604ecda2fb566f0c33e87b6",
+      "kind": "Immutable entry separator or exact complete-document snapshot EOF, preserved intentionally; no public prose whitespace warning."
+    },
+    {
+      "path": "kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-036-9393/publication-entry-proposal.md",
+      "sha256": "05aa70aeb650f46682f2f86ce89dfb6006f185856bb564bc632d5ce897a1e7d1",
+      "kind": "Immutable entry separator or exact complete-document snapshot EOF, preserved intentionally; no public prose whitespace warning."
+    },
+    {
+      "path": "kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-037-ce9a/publication-entry-proposal.md",
+      "sha256": "debd10ef3f663cbf675f51223ae727202ac28f9829ac153f04041a1cf771225a",
+      "kind": "Immutable entry separator or exact complete-document snapshot EOF, preserved intentionally; no public prose whitespace warning."
+    },
+    {
+      "path": "kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-038-4ada/publication-entry-proposal-r2.md",
+      "sha256": "1c6657076ce7f5b770ae5bdcbd949ede51e64c5e2c8ab0e6ef0baf5823fc39db",
+      "kind": "Immutable entry separator or exact complete-document snapshot EOF, preserved intentionally; no public prose whitespace warning."
+    },
+    {
+      "path": "kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-038-4ada/publication-entry-proposal.md",
+      "sha256": "727b5b481d17c27929e4b2f7f3b014629f850639ef81ac2a0e91f05a3b59b84d",
+      "kind": "Immutable entry separator or exact complete-document snapshot EOF, preserved intentionally; no public prose whitespace warning."
+    },
+    {
+      "path": "kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-039-f39d/publication-entry-proposal.md",
+      "sha256": "965ed48b9b42d4284ef5613c62204217899d884b26bf7a3c96fbb86a73a32c92",
+      "kind": "Immutable entry separator or exact complete-document snapshot EOF, preserved intentionally; no public prose whitespace warning."
+    },
+    {
+      "path": "kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-040-4ee2/publication-entry-proposal.md",
+      "sha256": "a9361310267a60c2e6984e81dfea58c2fa1517a7c3f7e105b6ff5659b6f4fed1",
+      "kind": "Immutable entry separator or exact complete-document snapshot EOF, preserved intentionally; no public prose whitespace warning."
+    },
+    {
+      "path": "kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-041-8f44/publication-entry-proposal.md",
+      "sha256": "408a50b997ba0c2946b68e9d1954cc5864a71ea46301d62fea0f887e65981a6c",
+      "kind": "Immutable entry separator or exact complete-document snapshot EOF, preserved intentionally; no public prose whitespace warning."
+    },
+    {
+      "path": "kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-042-fcec/publication-entry-proposal.md",
+      "sha256": "a970ddc164b39f23d944c37973e10c9d2e52f09b56f7702e60ff15433be845d2",
+      "kind": "Immutable entry separator or exact complete-document snapshot EOF, preserved intentionally; no public prose whitespace warning."
+    },
+    {
+      "path": "kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-043-881a/publication-entry-proposal.md",
+      "sha256": "6542d69d9641d13c5996f6095af507abd437b1148b42f66809a90d32532a87f9",
+      "kind": "Immutable entry separator or exact complete-document snapshot EOF, preserved intentionally; no public prose whitespace warning."
+    },
+    {
+      "path": "kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-044-e993/publication-entry-proposal.md",
+      "sha256": "21a0a5822c9b7fa61c3eedf9cc450f8f56c358ecbd85872ed98dda38471eec11",
+      "kind": "Immutable entry separator or exact complete-document snapshot EOF, preserved intentionally; no public prose whitespace warning."
+    },
+    {
+      "path": "kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-045-585b/publication-entry-proposal.md",
+      "sha256": "73f82c4a605041c9b559bdeb878e14b568904f68b5e0cd11a9cc05d075fd60f6",
+      "kind": "Immutable entry separator or exact complete-document snapshot EOF, preserved intentionally; no public prose whitespace warning."
+    },
+    {
+      "path": "kr-harness/publication/2026-10-18/ch33/_workspace/2026-10-18-005-5aa0/strict-entry.md",
+      "sha256": "a627e36df10ed8420a4b424b736f26d21a8742fafe8110d75af597811ca7b3cf",
+      "kind": "Immutable entry separator or exact complete-document snapshot EOF, preserved intentionally; no public prose whitespace warning."
+    },
+    {
+      "path": "kr-harness/publication/2026-10-18/ch33/_workspace/2026-10-18-006-11fd/strict-entry.md",
+      "sha256": "912abc454e4bcea28a11fba503cd21942c87d1c7b23abfbbc83eaf6e2f1a1dd8",
+      "kind": "Immutable entry separator or exact complete-document snapshot EOF, preserved intentionally; no public prose whitespace warning."
+    },
+    {
+      "path": "kr-harness/publication/2026-10-18/ch33/_workspace/2026-10-18-007-a459/strict-entry.md",
+      "sha256": "10f238afa765413affd716ea2624cdf5421af276c97aedee19b52013085d9193",
+      "kind": "Immutable entry separator or exact complete-document snapshot EOF, preserved intentionally; no public prose whitespace warning."
+    },
+    {
+      "path": "kr-harness/publication/2026-10-18/ch33/_workspace/2026-10-18-008-e4ea/strict-entry.md",
+      "sha256": "505644bb0a949699158aa13206752b40272804555e245f849710cffe8c1ed909",
+      "kind": "Immutable entry separator or exact complete-document snapshot EOF, preserved intentionally; no public prose whitespace warning."
+    },
+    {
+      "path": "kr-harness/publication/2026-10-18/ch33/_workspace/2026-10-18-009-11dd/strict-entry.md",
+      "sha256": "d6e1b58a2770c1ae69f772013bf47aa2cba1aa528498b317e1f268c1d57fd813",
+      "kind": "Immutable entry separator or exact complete-document snapshot EOF, preserved intentionally; no public prose whitespace warning."
+    },
+    {
+      "path": "kr-harness/publication/2026-10-18/ch33/_workspace/2026-10-18-010-63c3/strict-entry.md",
+      "sha256": "516e0b1ee67a8cf4508ffa2e321cbca83d7b67a575690f77c3d48c993726865a",
+      "kind": "Immutable entry separator or exact complete-document snapshot EOF, preserved intentionally; no public prose whitespace warning."
+    },
+    {
+      "path": "kr-harness/publication/2026-10-18/ch33/_workspace/2026-10-18-011-3284/strict-entry.md",
+      "sha256": "8a264c4e3287f388453415ae1b692dba5cdceabce0cc3a1f3fc17c19dd85ac9d",
+      "kind": "Immutable entry separator or exact complete-document snapshot EOF, preserved intentionally; no public prose whitespace warning."
+    },
+    {
+      "path": "kr-harness/publication/2026-10-18/ch33/_workspace/2026-10-18-012-ae93/strict-entry.md",
+      "sha256": "a380d864d663444d3ef67bf795363ff4558b8b3def0781ef475ffa41e16018b5",
+      "kind": "Immutable entry separator or exact complete-document snapshot EOF, preserved intentionally; no public prose whitespace warning."
+    },
+    {
+      "path": "kr-harness/publication/2026-10-18/ch33/_workspace/2026-10-18-013-84f0/strict-entry.md",
+      "sha256": "879307aa0ee837247cdfc8933fc44c2b3953d612dce34d448a2d6f83789b6b0e",
+      "kind": "Immutable entry separator or exact complete-document snapshot EOF, preserved intentionally; no public prose whitespace warning."
+    },
+    {
+      "path": "kr-harness/publication/2026-10-18/ch33/_workspace/2026-10-18-014-f40e/strict-entry.md",
+      "sha256": "75110d859eb748e2211a3608f6a953d3a4f68b3f21f8b2fafbde7e48dcca09d1",
+      "kind": "Immutable entry separator or exact complete-document snapshot EOF, preserved intentionally; no public prose whitespace warning."
+    },
+    {
+      "path": "kr-harness/publication/2026-10-18/ch33/_workspace/2026-10-18-015-5f22/strict-entry.md",
+      "sha256": "3a1d06e711fd8790a113e0a6b8366bc463ea16435c57af3a4d7e7a1a5affa063",
+      "kind": "Immutable entry separator or exact complete-document snapshot EOF, preserved intentionally; no public prose whitespace warning."
+    },
+    {
+      "path": "kr-harness/publication/2026-10-18/ch33/_workspace/2026-10-18-016-9f8b/strict-entry.md",
+      "sha256": "5cc896ab4bc95bb7c337b6447107bd25cb3cf70eb2673c7d7d28bfd8cd123715",
+      "kind": "Immutable entry separator or exact complete-document snapshot EOF, preserved intentionally; no public prose whitespace warning."
+    },
+    {
+      "path": "kr-harness/publication/2026-10-18/ch33/_workspace/2026-10-18-017-f820/strict-entry.md",
+      "sha256": "3c65a1db86ce4d116bc476350f9068e6f4daa647b235ce10614946b9eb8590f3",
+      "kind": "Immutable entry separator or exact complete-document snapshot EOF, preserved intentionally; no public prose whitespace warning."
+    },
+    {
+      "path": "kr-harness/publication/2026-10-18/ch33/_workspace/2026-10-18-018-4322/strict-entry.md",
+      "sha256": "30d84bcdf4a82767cc38f458ca3fdacabf926fbfa0c7bd8797f7660261f2c1b1",
+      "kind": "Immutable entry separator or exact complete-document snapshot EOF, preserved intentionally; no public prose whitespace warning."
+    },
+    {
+      "path": "kr-harness/publication/2026-10-18/ch33/_workspace/2026-10-18-019-534e/strict-entry.md",
+      "sha256": "98d6392b08d7187f83c8419f124e5dc712588967d626ddee095d2ccefc7da9f1",
+      "kind": "Immutable entry separator or exact complete-document snapshot EOF, preserved intentionally; no public prose whitespace warning."
+    },
+    {
+      "path": "kr-harness/publication/2026-10-18/ch34/_workspace/2026-10-18-001-2983/strict-entry.md",
+      "sha256": "3464dce491deeea19607f35e6657757cc4e1b49de38f5b16ad74c3b2914d68db",
+      "kind": "Immutable entry separator or exact complete-document snapshot EOF, preserved intentionally; no public prose whitespace warning."
+    },
+    {
+      "path": "kr-harness/publication/2026-10-18/ch34/_workspace/2026-10-18-002-6b60/strict-entry.md",
+      "sha256": "95dc875cf4049b012c196822bdad588f45ad26e261c63f5109b134d191d85f70",
+      "kind": "Immutable entry separator or exact complete-document snapshot EOF, preserved intentionally; no public prose whitespace warning."
+    },
+    {
+      "path": "kr-harness/publication/2026-10-18/ch34/_workspace/2026-10-18-003-8b14/strict-entry.md",
+      "sha256": "6976d0a05d75b34ab6b27e77ad607ac350c1e42a2b05ae81a1c0f006adcfc949",
+      "kind": "Immutable entry separator or exact complete-document snapshot EOF, preserved intentionally; no public prose whitespace warning."
+    },
+    {
+      "path": "kr-harness/publication/2026-10-18/ch34/_workspace/2026-10-18-004-2c30/strict-entry.md",
+      "sha256": "50c46c009614b754953479a9b75ed76abaf1c9f2d88cef26fe4e86869a685618",
+      "kind": "Immutable entry separator or exact complete-document snapshot EOF, preserved intentionally; no public prose whitespace warning."
+    },
+    {
+      "path": "kr-harness/publication/2026-10-18/ch34/_workspace/2026-10-18-005-968c/strict-entry.md",
+      "sha256": "e4f5a872a0602be219cf98ee35321cc24a69364b19f2940ba34484ddf726ecde",
+      "kind": "Immutable entry separator or exact complete-document snapshot EOF, preserved intentionally; no public prose whitespace warning."
+    },
+    {
+      "path": "kr-harness/publication/2026-10-18/ch34/_workspace/2026-10-18-006-f02d/strict-entry.md",
+      "sha256": "32126b5d00624f3c7981e0fcaa3cae1b3238bdcf0b5adc31fa711fa2f87c7362",
+      "kind": "Immutable entry separator or exact complete-document snapshot EOF, preserved intentionally; no public prose whitespace warning."
+    },
+    {
+      "path": "kr-harness/publication/2026-10-18/ch34/_workspace/2026-10-18-007-96a2/strict-entry.md",
+      "sha256": "01f03ae6c37a209e0c8679c59c310b0c4adfe4974446cdcb7dbf7bba07e4c410",
+      "kind": "Immutable entry separator or exact complete-document snapshot EOF, preserved intentionally; no public prose whitespace warning."
+    },
+    {
+      "path": "kr-harness/publication/2026-10-18/ch34/_workspace/2026-10-18-008-ff4c/strict-entry.md",
+      "sha256": "2d18564f824f9f26a13c4b02cbb369e4ef66c58859195f6a92ddcb1b48df6c9e",
+      "kind": "Immutable entry separator or exact complete-document snapshot EOF, preserved intentionally; no public prose whitespace warning."
+    },
+    {
+      "path": "kr-harness/publication/2026-10-18/ch34/_workspace/2026-10-18-009-cfbd/strict-entry.md",
+      "sha256": "eae310151851d4e85397fa42827d245459c043d6ce021c9dc16c954ede73e93e",
+      "kind": "Immutable entry separator or exact complete-document snapshot EOF, preserved intentionally; no public prose whitespace warning."
+    },
+    {
+      "path": "kr-harness/publication/2026-10-18/ch34/_workspace/2026-10-18-010-5e85/strict-entry.md",
+      "sha256": "985208c150d2deb2d34771430ee5ba96c8530fa61b7375f802b27aa3e28b3502",
+      "kind": "Immutable entry separator or exact complete-document snapshot EOF, preserved intentionally; no public prose whitespace warning."
+    }
+  ]
+}

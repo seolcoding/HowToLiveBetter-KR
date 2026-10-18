@@ -1,227 +1,265 @@
-# 제7절 출판 원자료 독립 감사
+# 제7절 전체22항 원자료·편집 canonical 종결
 
-작성시각: 2026-10-18T12:57:08.725975+00:00
-대상: source.md SHA256 `48c5d96b9d2c280eabe9ecfedf11cb6674a2ec25ea35c3da1326b2de60d11656` · 22항 및 모든 entry_snapshot.md를 읽고 source와 일치 확인.
-상태: pending_candidate_review. 후보 및 editorial 제안의 exact SHA/before 대조 전 최종 승인 없음. 본 기록은 정식 KR-FIT 판정이 아니다.
+UTC 2026-10-18T19:44:48.165235+00:00 · status `approved_for_integration` · final_approval true.
+정식 KR-FIT·출판 승인은 false다. 실제 통합은 수행하지 않았으며 공개 원고·source·strict candidate·저자 제안·순수 실행·Git을 수정하지 않았다.
 
-## 검증 범위와 판정
-공용 캐시는 실제 로컬 XML을 읽었다. 신규 HTTP와 혼동하지 않는다. HTTPS 인증검증을 유지했다. 아래 조회대장에 실제 요청시각·상태·SHA·raw경로를 기록했다. HTTP200도 본문/표/조문의 실제 읽기와 구분했다. 법령 현행성은 일부 검색API 및 부칙 대조이며 모든 인용법령의 신규 현행검색을 완료했다는 주장은 하지 않는다.
+- baseline/source/strict candidate SHA `48c5d96b9d2c280eabe9ecfedf11cb6674a2ec25ea35c3da1326b2de60d11656`
+- 최신22 map SHA `0fad4d4613014ed1aec2fc73c1bcbb0b494b8c3ca725a6e2f4b36def72dd0204`
+- 도입·꼬리 proposal SHA `bb963fdc2fa8b51c354f0c71121dd4480b7d13601eb68ef759f2bb23e2e4e12c`
+- 항목만 통합한 중간 예상 SHA `690c693092c7ceee640605f83543d98f4230e535390934f9704872100ca2ebe9`
+- 도입·꼬리 반영 최종 예상 SHA `0bcf4cded05742d613070c35e1cfac19c2be5e8645aabcb1f8c614f2e3e5f859`
+- 도입 SHA `34d870200139bc6d0449446adddbcfc899d0acffc61a0435b72e0f96eb65ca04` · 꼬리 SHA `643f5f1b97bea25f98cdb92de6a63cf4b018d4c892c0d0f922dcb83ba138a40b`
 
-### 7-1. 검증·버전주의
-법40·46·48·50의 18개월/180일/60%/12개월 대조. 검색API는 MST284449·20260918을 현행, 같은 MST·20280101을 시행예정으로 반환. 캐시 본문은 후자다. 부칙21473 제1조 및 제3조는 2028년 전 이직자의 제45조 산정을 종전 규정으로 남긴다. 미래 산정변경을 현재 규정으로 추가하지 말 것.
+## 보호·생산 검증
 
-### 7-2. 검증
-근로기준법36·43·49: 퇴직14일(특별사정 합의 예외), 매월정기 전액 원칙, 시효3년 확인. 민사소송98·109, 집행18·53와 변호사보수규칙3·6 대조. 민사시효·회수·실제보수 경고 유지.
+생산 helper의 split/invariants/structure/dois를 AST로 추출해 실제 규칙을 실행했다. 각 항은 after.rstrip()+원래 separator로 메모리에서만 교체했다. 순서별 whole-before/after와 각 effective entry SHA는 동반 JSON에 있다. 가상 candidate 파일은 쓰지 않았다. 전22항 번호/6필드/태그·grade·다른 항 bytes, TODO heading 경계·9개 유지, DOI 10.1037/a0035923 유지(추가삭제·새 annotation 0), 모든 ordinary≤50·쉽게2~4문장≤120·제목≤70을 확인했다. 도입과 현재 실제 절·항 참조의 의미도 재독했다.
 
-### 7-3. 수정권장
-법률구조법2·7의 비용예외 확인. KLAC 공식 소송구조개요·대상자 안내는 현재 HTTP200으로 열림. ‘누리집 이번 조사에서 열리지 않았다’는 새 감사에는 적용 불가. 개요는 일반 유료구조 중위소득125% 이하, 무료구조는 체불·수급자 등 대상별 조건이라고 명시한다. 125%를 모든 무료소송의 단일기준으로 쓰지 말 것. 본문/비고/출처 및 TODO를 현행 확인 내용으로 갱신 권장.
+## 초기 감사·field 제안의 보존과 supersession
 
-### 7-4. 검증·개별이용조건 유보
-노숙인복지법10~15 지원 법적 근거와129 공식페이지 열람. 주거·급식 권한 규정이며 모든 시설의 당일 입소를 보장하지 않음. 실제 공실·가족동반은 이용일별 확인 유지.
+초기 content-audit SHA `806d25f07080909253372cacef346a68c0a4c558c8fc74954d79c62304246bc9` 및 editorial-decisions SHA `20e9a12186633e18228c66d97c25761be1694c9bef32cd5c34da1a5b8803e858`를 canonical-before-final-r1/에 원bytes로 보존했다. 초기22개 field_decisions는 모두 빈 배열이며 editorial_proposals도 0개였다. 별도 원래 field 메타 파일은 없다. 새 full22 각각은 title와6필드의 정확 SHA 승인으로 이전 부분/field 제안을 대체한다. 과거 revise·approve 보고서는 덮어쓰지 않았으며 latest exact tuple만 선택한다.
 
-### 7-5. 검증
-고용24 홈 및 직업안정법19 등록 유료소개사업 확인. 무료 공공창구와 합법 유료소개를 구분하는 유보 유지.
+## 전항 판정·모든 초기 경고 종결
 
-### 7-6. 검증
-법2·8·10·13와 시행령7 대조. 75%, 생계3개월/총6개월, PDF 1인783,000·4인1,994,600 일치. 금융고시2025-211 생활준비금+600만원/주거+200만원 확인. 고시2025-210 발령20251217, 20260101 지급분부터 적용. 재산 공제는 실거주1주택 한도임을 확인.
+### 7-1. approve
+- 초기: 검증·버전주의 법40·46·48·50의 18개월/180일/60%/12개월 대조. 검색API는 MST284449·20260918을 현행, 같은 MST·20280101을 시행예정으로 반환. 캐시 본문은 후자다. 부칙21473 제1조 및 제3조는 2028년 전 이직자의 제45조 산정을 종전 규정으로 남긴다. 미래 산정변경을 현재 규정으로 추가하지 말 것.
+- 종결: 초기감사판정재사용없이fullstrict/proposal/changes와원자료재열람.새후보조립·정식KR-FIT승인아님.
+- full 판정: approve: 현행20260918 고용보험법 별도raw와미래기본XML/21473부칙을직접대조했다. 18개월/180일·의사능력/재취업·60%/하한·연령가입기간일수·원칙12개월 및2028전이직자종전산정에맞는다. 기준기간/수급기간의예외가있으므로본문원칙이라는범위를유지한다. 신청수수료와센터방문/실업인정의시간을분리하며온라인만으로완료보장하지않는다. 일반근로자대상한정·특수형태별도/자진퇴사정당사유심사·건보자동면제부정유지. 최신요청실패는기관본문없음/법규오류로바꾸지않고실제현행캐시로독립확인했다.
+- proposal `e49ecabf1a74a244860c2a39fcad6605f012638252ce01e231059d8b807dee90` · changes `e397d90cf7bdad1d8d71e8acb6d10e3ddd5bd81f8d01d0d681376c5ab5101676`
+- current before `2c25607e35ff219c8bbd0ecbe5c3af222a864adfa30f08dc49579cadfeee1183` · effective after `e49ecabf1a74a244860c2a39fcad6605f012638252ce01e231059d8b807dee90`
+- 승인 근거: publication-partial-review-r1.json SHA `7dc3ebfb0e13ab2682fbd751d5b3c81c2bd6240334d02f8453d873b9226c33f7`
+- 실제 원자료 범위: See exact partial review actual_artifact_read_log for source_ids; full source/translation scope and limits independently reviewed.
+- 실제 참조: 제9항건강보험자격의현재제목·제19절재직·퇴사·산재 실제확인;제목불변으로incoming보존.
 
-### 7-7. 검증·가구조건 보강권장
-법2·8·26 및 실제 HWPX 표: 생계820,556/2,078,316, 의료1인1,025,695, 주거1인1,230,834 일치. 30일/예외60일 확인. 가구는 개인월급이나 주민등록표만으로 일률 판단하지 않음; 구체 개별가구 범위·부양의무자 예외는 시행령/사업안내 추가확인 대상으로 남김.
+### 7-2. approve
+- 초기: 검증 근로기준법36·43·49: 퇴직14일(특별사정 합의 예외), 매월정기 전액 원칙, 시효3년 확인. 민사소송98·109, 집행18·53와 변호사보수규칙3·6 대조. 민사시효·회수·실제보수 경고 유지.
+- 종결: 수수료미확인잔재를실제확인상태로갱신하고22항앵커를실제고용관계로고쳤다. r1→r2는비고수수료문장만,r2→r3는비고앵커만바뀌며다른모든bytes보존을검증. r1에서대조한임금14일/예외·시효3년/회수·보수산입/집행비용·시간한계와legacy이득continuation을모두보존. 신규금액/회수기한/지원보장을추가하지않아두수정요건해소.
+- full 판정: 수수료미확인잔재를실제확인상태로갱신하고22항앵커를실제고용관계로고쳤다. r1→r2는비고수수료문장만,r2→r3는비고앵커만바뀌며다른모든bytes보존을검증. r1에서대조한임금14일/예외·시효3년/회수·보수산입/집행비용·시간한계와legacy이득continuation을모두보존. 신규금액/회수기한/지원보장을추가하지않아두수정요건해소.
+- proposal `e838686c7d92161c41f61a40d16d154edbca3adfbe664ae9f474645cbe0d7b46` · changes `80926bbd3f8de2fd5813967cae007858f13684438bc5fcb3bacc711f0e610feb`
+- current before `b7e23690028acd8f42e83fa77e16cc0f8f5078f591bf272a95b095c98dd0285a` · effective after `e838686c7d92161c41f61a40d16d154edbca3adfbe664ae9f474645cbe0d7b46`
+- 승인 근거: publication-partial-review-r2.json SHA `7a7f07074b89d0d3d644353ed2b6448e7560a2f612c1844eba85a6e96e2fec64`
+- 실제 원자료 범위: See exact partial review actual_artifact_read_log for source_ids; full source/translation scope and limits independently reviewed.
+- 실제 참조: 제3항법률구조·제22항실제고용관계현재제목과일치.2항incoming임금체불은도입/22항과일치.
 
-### 7-8. 검증·추가급여 유보
-법4·6과 고시2026-3:140만/224만/349,700 일치. 부부20% 감액·소득역전감액·기초연금 수급권자 제외 확인. 장애수당 법49/시행령30 중증제외 확인. 부가급여·활동지원의 실제 지급액/자격은 확정하지 않음.
+### 7-3. approve
+- 초기: 수정권장 법률구조법2·7의 비용예외 확인. KLAC 공식 소송구조개요·대상자 안내는 현재 HTTP200으로 열림. ‘누리집 이번 조사에서 열리지 않았다’는 새 감사에는 적용 불가. 개요는 일반 유료구조 중위소득125% 이하, 무료구조는 체불·수급자 등 대상별 조건이라고 명시한다. 125%를 모든 무료소송의 단일기준으로 쓰지 말 것. 본문/비고/출처 및 TODO를 현행 확인 내용으로 갱신 권장.
+- 종결: 초기7-3수수료/무료범위·공단실제열람TODO갱신및새whole기관주체한정요청모두종결.미열람유형별최신표는독자확인으로정직하게남음.
+- full 판정: whole재독후기관표현요청을법정선정주체검사가선정한경우로최소교정했다.성폭특례27⑥·아동학대특례16⑥및20261002부칙을직접읽어주체·용어와대조했다.공단고소대리업무예외는기존실공단안내근거에한정하며두특례법이공단예외자체를입증한다고주장하지않는다.이1문장외이전fullproposalbytes완전불변.일반유료125%와유형별무료·3억원초과제외·패소상대비용/국가부담대상사건심사·세부소득표미확인도그대로다.
+- proposal `a57c50061e545ebd4c54098f89a10a5e5e201f71c659a40a410c1a4fe6b5b658` · changes `495fbf7dfbdff2c6f78fb8f684cf2a57d103525bcca8f2d2266be895345f86c7`
+- current before `a292771902514c063f627e726db2bd67865834136a31d1c9492d919c30811913` · effective after `2f78cf2a5f0619125168f3205b2374ae028aeed7a6bdc4066b64b0cce7e68ecf`
+- 승인 근거: publication-partial-review-r17.json SHA `d1aac53c1fb676a27a6ce048f1170158de84d93cd7192e46ed5864bafca04d40`
+- 실제 원자료 범위: r1실법률구조법2/7/8·령4·KLAC안내전체검토범위는불변full과재대조.이번2추가raw성폭27/아동학대16·부칙직접읽음.새HTTP0/전피해자보편국선권리추가없음.
+- 실제 참조: 3제목불변/2·22항법률구조incoming충족/새outgoing없음.사기기관명정정이절차범위확대아님.
 
-### 7-9. 부분검증·세부기간 유보
-건보법110: 법정이력기간 내 통산1년, 최초지역보험료 납부기한+2개월 전 신청, 본인전액부담 확인. 시행규칙 검색 실패로 세부이력기간·유지기간·개인보험료를 확정하지 않음. 본문은 그 숫자를 단정하지 않으므로 오류 판정하지 않음.
+### 7-4. approve
+- 초기: 검증·개별이용조건 유보 노숙인복지법10~15 지원 법적 근거와129 공식페이지 열람. 주거·급식 권한 규정이며 모든 시설의 당일 입소를 보장하지 않음. 실제 공실·가족동반은 이용일별 확인 유지.
+- 종결: 초기감사판정재사용없이fullstrict/proposal/changes와원자료재열람.새후보조립·정식KR-FIT승인아님.
+- full 판정: approve: 노숙인법10~15/령4/규칙2·11~14/해당부칙과129본문을직접대조. 법상대상18세이상,주거지원할수있다의재량·상담/심사·당일공실/가족/이용시간/비용확인범위를보존했다. 무료는129상담에만한정,귀향표전국보장없음/시설당일입소보장없음 명시. 무신분우선상담권고는무신분입소보장아님. 중국무료귀향표·10일이용조건이식없음.
+- proposal `b0f3882df1ce3dbbb81c9723a9cd2a122b6a5f88c5784adcdb12ecc4794abcae` · changes `842cabb74acfb084f3e96f8931ee710eb97b21ed68a1f2439261a5714748e392`
+- current before `70da58bd8e542044732dbfe734b80e14847a6e60d37fe4a8ff5d28c5164c5358` · effective after `b0f3882df1ce3dbbb81c9723a9cd2a122b6a5f88c5784adcdb12ecc4794abcae`
+- 승인 근거: publication-partial-review-r1.json SHA `7dc3ebfb0e13ab2682fbd751d5b3c81c2bd6240334d02f8453d873b9226c33f7`
+- 실제 원자료 범위: See exact partial review actual_artifact_read_log for source_ids; full source/translation scope and limits independently reviewed.
+- 실제 참조: outgoing없음/title불변으로incoming보존.
 
-### 7-10. 검증·현행금액표 유보
-건보법44 및 공단 상한·산정특례 원문 열람. 재난적의료비법9·10·13와 시행규칙2: 최종진료/퇴원 다음날180일 확인. 긴급지원고시 의료한도300만원 확인. 2026 상한표·재난지원율을 확정하지 않았으며 구형 공단 금액을 새로 쓰지 않음.
+### 7-5. approve
+- 초기: 검증 고용24 홈 및 직업안정법19 등록 유료소개사업 확인. 무료 공공창구와 합법 유료소개를 구분하는 유보 유지.
+- 종결: 고용24실제메뉴/1350유료와직업안정법현행19/32·미래21787부칙을독립대조. 공공창구우선이용·민간등록/요금별도확인·등록만으로모든요금허용아님·개별국취/훈련자격별도확인으로범위를적절히한정. 고시별상한/고급전문인력예외의개별범위를새수치·전면무료로단정하지않고등록기관확인을안내. 원문중국무료서비스규정·12333·모든민간유료불법전제이식없음. 취업성공·지원금자동지급보장없음.
+- full 판정: 고용24실제메뉴/1350유료와직업안정법현행19/32·미래21787부칙을독립대조. 공공창구우선이용·민간등록/요금별도확인·등록만으로모든요금허용아님·개별국취/훈련자격별도확인으로범위를적절히한정. 고시별상한/고급전문인력예외의개별범위를새수치·전면무료로단정하지않고등록기관확인을안내. 원문중국무료서비스규정·12333·모든민간유료불법전제이식없음. 취업성공·지원금자동지급보장없음.
+- proposal `fa015e1089c0a2e6192c48276cd5e302095a73d9cba5f2a1cec3b0abd0048876` · changes `d0692ac6b6d5c4adfeb4db55b642498c8b29e99465cf65303885442967475bc0`
+- current before `bbf1800a6765ecc2f1f572c310f9c81f86af346d5b6987e4dcd1eaa5f76d8705` · effective after `fa015e1089c0a2e6192c48276cd5e302095a73d9cba5f2a1cec3b0abd0048876`
+- 승인 근거: publication-partial-review-r2.json SHA `7a7f07074b89d0d3d644353ed2b6448e7560a2f612c1844eba85a6e96e2fec64`
+- 실제 원자료 범위: See exact partial review actual_artifact_read_log for source_ids; full source/translation scope and limits independently reviewed.
+- 실제 참조: 제15항채용보증금은현재실제제목에존재.5항제목불변으로incoming보존.
 
-### 7-11. 검증
-주민등록시행령40, 시행규칙17·18 원문 재시도 성공. 일반5천원/IC1만원, 수급자 일반면제·IC절반 일치. 전국 시군구·전자신청과 발급확인서 안내 유지.
+### 7-6. approve
+- 초기: 검증 법2·8·10·13와 시행령7 대조. 75%, 생계3개월/총6개월, PDF 1인783,000·4인1,994,600 일치. 금융고시2025-211 생활준비금+600만원/주거+200만원 확인. 고시2025-210 발령20251217, 20260101 지급분부터 적용. 재산 공제는 실거주1주택 한도임을 확인.
+- 종결: 초기금액/기간검증및r3재량표현수정요청종결.
+- full 판정: 이전필수요청인법10③재량을연장할수있습니다로복원했다.새문장한곳외기존full제안전bytes불변검증.생계기본3개월/심의거쳐총6상한·2026금액/소득75/재산금융동시요건·실거주1주택한도공제/600·주거200·동일지원제외·환수가능성/절차비용한정모두보존.
+- proposal `8144bb351989eb70fa8e48139afd005e9e96a102c8796e8792172519aabafc1a` · changes `82fd661b90f88e66c3347afd3deb81b5f7e50e71a0a667d504cd92b8ea283a70`
+- current before `f04094df5c14c23aef69100eafddbc2060e367b2b6f7dbf9729755325caaabd0` · effective after `8144bb351989eb70fa8e48139afd005e9e96a102c8796e8792172519aabafc1a`
+- 승인 근거: publication-partial-review-r4.json SHA `84558f2ff9aa89a6fb8212eec6f68ea77a891bc856677d0d684d368b0871791b`
+- 실제 원자료 범위: 앞r3full원자료표/법령범위와새법10재독.개별위기사유·선정/재산평가는확정하지않음.
+- 실제 참조: 제목긴급복지지원불변,도입/7항incoming보존.129공식상담요청일뿐지급보장아님.
 
-### 7-12. 수정권장
-법6·7와 시행령2·3·4:60%/원칙4억/2년100일 또는800시간 일치. 서비스 일반 15~64세 연령을 본문에 보강 권장. 법7③3 구직급여 마지막 지급 다음날부터6개월 제한을 ‘있는지 확인’보다 명확하게 쓸 수 있음. 법정 가구범위는 시행령2를 구분해 상담 안내할 것. 청년 특례·개인소득제한·계획이행 유보 삭제 금지.
+### 7-7. approve
+- 초기: 검증·가구조건 보강권장 법2·8·26 및 실제 HWPX 표: 생계820,556/2,078,316, 의료1인1,025,695, 주거1인1,230,834 일치. 30일/예외60일 확인. 가구는 개인월급이나 주민등록표만으로 일률 판단하지 않음; 구체 개별가구 범위·부양의무자 예외는 시행령/사업안내 추가확인 대상으로 남김.
+- 종결: 초기가구범위보강및r3연령조건요청종결.
+- full 판정: 별거미혼자녀포함설명에현행령2①2나의30세미만조건을복원했다.해당1문장외전bytes불변.기준액4개/생계산식·30/60통지·선정비보장·부양의무자/가구제외상담유보유지.임의연령추정이아닌실조문범위보존.
+- proposal `b28a435fa9bd8a29f35a0f7a7db6e002a930ceb4f8a234bc14347d7c884d7e49` · changes `217645151d5fd5ff65d9d8fc1b1fd2f172e5be192a136ef7c456400c11e2dca4`
+- current before `97fe8cbfabf9b2330271d47078822fa00974b54976679df3ad4271f66c62d5a3` · effective after `b28a435fa9bd8a29f35a0f7a7db6e002a930ceb4f8a234bc14347d7c884d7e49`
+- 승인 근거: publication-partial-review-r4.json SHA `84558f2ff9aa89a6fb8212eec6f68ea77a891bc856677d0d684d368b0871791b`
+- 실제 원자료 범위: 앞r3원표/고시·법26과령2전항재독.2026사업안내/부양의무자세부예외전수미열람은개별상담유보.
+- 실제 참조: 제6항긴급복지지원실제제목과일치/제목불변.
 
-### 7-13. 기관본문검증·고시접근실패
-고용24 일반훈련 공식본문:5년300만원+요건200만원/총500만원,0~55% 확인. 고시2026-39는3회 HTTP502/403으로 미열람. 기관본문이 지원·자부담 수치를 직접 뒷받침하므로 금액 자체를 미확인으로 남기지 않음. 모든 과정무료·장려금자동지급 오독 금지.
+### 7-8. approve
+- 초기: 검증·추가급여 유보 법4·6과 고시2026-3:140만/224만/349,700 일치. 부부20% 감액·소득역전감액·기초연금 수급권자 제외 확인. 장애수당 법49/시행령30 중증제외 확인. 부가급여·활동지원의 실제 지급액/자격은 확정하지 않음.
+- 종결: 초기8추가급여유보유지및고시금액검증완료.미확인개별활동지원/부가액을숨기지않음.
+- full 판정: 법정중증정의/18세·본인배우자소득재산/140만·224만/349700을실고시·법과대조.부부/소득감액·기초연금수급권자제외·직역연금제외여부확인,장애아동수당·법정중증장애인의장애수당제외를추가하여전등록장애인동일지급보장아님.부가급여액/활동지원개별조건을단정하지않고등록진단비가능성도비용에보존.
+- proposal `7d54f071fec715f088f172632661e937be81a6f1b55a43f9a9eb101298b2f8fe` · changes `038b1f2897dd3746f927d4dfc135f764a08a015383b21c8a04b63f27c3436091`
+- current before `ea2b9c7025b2c66ef05e2670ec3178ac1df51d1f5abc62a335493acb58fcedd5` · effective after `7d54f071fec715f088f172632661e937be81a6f1b55a43f9a9eb101298b2f8fe`
+- 승인 근거: publication-partial-review-r4.json SHA `84558f2ff9aa89a6fb8212eec6f68ea77a891bc856677d0d684d368b0871791b`
+- 실제 원자료 범위: 연금법·복지법·령30/2026-3본문·부칙및저자새수신현행검색실제읽음.직역연금별시행령/2014특례전문을새단정하지않음.
+- 실제 참조: 제33절장애이후사는법실제절제목과일치/8제목불변.
 
-### 7-14. 초록검증·본문미확보
-DOI 직접403, EuropePMC MED24588365 초록 확보.47개 실험·준실험/취업오즈2.67 및 기술+동기 구성 확인. 논문전문은 구독필요로 미열람. ‘대부분 유럽·미국’은 초록에서 확인되지 않아 지리적 분포 단정 삭제 또는 전문 근거 필요.
+### 7-9. approve
+- 초기: 부분검증·세부기간 유보 건보법110: 법정이력기간 내 통산1년, 최초지역보험료 납부기한+2개월 전 신청, 본인전액부담 확인. 시행규칙 검색 실패로 세부이력기간·유지기간·개인보험료를 확정하지 않음. 본문은 그 숫자를 단정하지 않으므로 오류 판정하지 않음.
+- 종결: 초기9세부기간유보를실법령원문확보로해소.개인료·피부양자상세예외는확정하지않음.
+- full 판정: 초기미확인이던18개월이력/통산1년·최초지역납기2개월전/최대36개월을현재실규칙62·법110·령77로직접확인.조기상실/재취업·의료급여법3①2수급권자한정재적용·36개월안재취득/공단기한과첫보험료2개월미납탈락도정확.임의계속본인납부·피부양자요건/개인료미확정/체납불이익유보보존,중국연400위안/실업급여건보대납이식없음.
+- proposal `1faf0a36f9e46b6eb6c250ca044970bba5dc556f0c4f9a8a7176d381a7ff1e7c` · changes `08d67678f7d00d6c3296245144e4be30b0d814242a9dea1851638107416db399`
+- current before `f8ba94a69c72bdb877d0fa392a248fd231d986a8fe60e23e1ebe614488b01667` · effective after `eb0bccae8185bf0c126c6795a1caee023c701cc6080cdbc606c953d43812e6d7`
+- 승인 근거: publication-partial-review-r4.json SHA `84558f2ff9aa89a6fb8212eec6f68ea77a891bc856677d0d684d368b0871791b`
+- 실제 원자료 범위: 건보법110·령77·규칙2/62/63/최근부칙·공단지역료본문직접읽음.이번신규현행검색2회실패를성공으로세지않음.본문시행일20261008/20261001/20260928과조문별미래시행구분.
+- 실제 참조: 제7항기초생활보장실제제목과일치/9제목불변.
 
-### 7-15. 검증·예외 명시권장
-직업안정법19·32·34, 근로기준법20, 이자제한법2 및 최고이자율규정20% 확인. 이자제한법2⑤ 원금10만원 미만 적용제외를 실제 확인. 현 문구가 적용범위 확인을 요구하므로 곧바로 거짓은 아니지만 ‘원금10만원 이상’으로 명시하면 더 정확함. 등록대부/불법사금융 별도법 유보 유지.
+### 7-10. approve
+- 초기: 검증·현행금액표 유보 건보법44 및 공단 상한·산정특례 원문 열람. 재난적의료비법9·10·13와 시행규칙2: 최종진료/퇴원 다음날180일 확인. 긴급지원고시 의료한도300만원 확인. 2026 상한표·재난지원율을 확정하지 않았으며 구형 공단 금액을 새로 쓰지 않음.
+- 종결: 초기10상한액TODO및r5수정요청종결.재난지원율/병가·지역진료추가법령미열람은개별보편권리단정삭제로명확한한계.상담권고가검증완료주장아님.
+- full 판정: r5필수요청을해소했다.2026상한액미확인을공식표확인상태(소득·요양병원입원일수별차등)로갱신하고PDF출처를추가했다.미확인재난지원율과개인별금액확인권고를분리했다.근거미검증이던타지역사전등록불요/전국공통유급병가권리주장을철회하고건보·의료급여등적용제도와의뢰/승인·회사병가규정을개별문의하도록한정한다.이득180일/300만원·상한제제외/공제재량·일부지원·중복제외및다른보호필드는이전full그대로다.
+- proposal `cdf948c47faf457035a262f47203a8cb9aaed0784542ec9c4a66f1625ef62fa4` · changes `f898d2981de2cec826937a93c859be2cd7d9c8b3abfe9c6ecfa8460e1c75b205`
+- current before `84256dbfec04dbfd477aabb29e92d67e976d298b9a9eb0f86cc37847da94434c` · effective after `cdf948c47faf457035a262f47203a8cb9aaed0784542ec9c4a66f1625ef62fa4`
+- 승인 근거: publication-partial-review-r9.json SHA `cfeaef1f492e1f6f41054aa199e6b0c3ac8422dc399bddc2f3c8ceea56d79364`
+- 실제 원자료 범위: r5직접읽은7raw와이번PDF2026표재독/새full전필드대조.출처·비고이외이전proposalbytes보존별도확인.지원율최신고시·개별병가·의료급여의뢰조항은미열람이며해당권리를단정하지않음.
+- 실제 참조: 제19/24절실제제목/내용보존.10제목불변/incoming유지.
 
-### 7-16. 검증·공고별 유보
-공공주택법48 및 주거급여 HWPX 확인. 1인1,230,834 일치. 개별 공고를 선정하지 않았으므로 무주택/순위/자산/임대료의 실제 값은 확정하지 않음.
+### 7-11. approve
+- 초기: 검증 주민등록시행령40, 시행규칙17·18 원문 재시도 성공. 일반5천원/IC1만원, 수급자 일반면제·IC절반 일치. 전국 시군구·전자신청과 발급확인서 안내 유지.
+- 종결: r6메타날짜revise종결/초기수수료·사진·예외warn전부해소.옛리뷰/원changes보존.
+- full 판정: r6유일수정요청인changes의장래시행일10/28을실검색10/29로정정했다.메타추적키추가외나머지changes객체동일·proposalSHA완전불변을검증했다.이미실조문과대조한본문전필드는그대로이며현재291005/20261002와미래285757/20261029를혼동하지않는다.
+- proposal `6e00547d58df1ce6dd888679f726b392a58aaece823ba46091aa6c34cbd7ed06` · changes `b0ee88acdc2e8c3be00e7674e813d34f9fbf2cf626c4517b9e72b7c924539375`
+- current before `7938ba9f5306f69b83e06bd84ee39c42ae776c9fd06ed81e76a7817c71b0b003` · effective after `6e00547d58df1ce6dd888679f726b392a58aaece823ba46091aa6c34cbd7ed06`
+- 승인 근거: publication-partial-review-r10.json SHA `089703fb2213d1a3a21f76032548de688a208fe01b2070fddc7647f080a6f8e2`
+- 실제 원자료 범위: 앞r6주민령40~42/규칙11·17·18/부칙실본문·실검색4raw와이번메타diff직접대조.새HTTP0/기관별확인서수용·사진실비미확정유지.
+- 실제 참조: 11제목/태그·6필드본문전체불변.명시outgoing없음.
 
-### 7-17. 경험조언·등급주의
-주거급여고시가 뒷받침하는 부분만 검증. 직접요리·합가 절약은 한국 절감률의 실증근거가 아님을 본문이 정직하게 유보. B등급은 출판계약상 보존하되 경험조언에 대한 A/B실증 주장으로 표현하지 말 것.
+### 7-12. approve
+- 초기: 수정권장 법6·7와 시행령2·3·4:60%/원칙4억/2년100일 또는800시간 일치. 서비스 일반 15~64세 연령을 본문에 보강 권장. 법7③3 구직급여 마지막 지급 다음날부터6개월 제한을 ‘있는지 확인’보다 명확하게 쓸 수 있음. 법정 가구범위는 시행령2를 구분해 상담 안내할 것. 청년 특례·개인소득제한·계획이행 유보 삭제 금지.
+- 종결: 초기7-12연령·6개월·가구범위warn보강완료.현행세부수당액/청년고시·개별공공일자리는독자별도확인으로남음.
+- full 판정: 초기warn인일반서비스15~64세·구직급여종료후6개월/개인소득제한·법정가구범위및예외를추가했다.수당60%/원칙4억/2년100일또는800시간과청년선발별도기준·계획이행·심사조건을보존했다.2024시행본문기준과현재신청조건/수당액·가산·청년상세별도확인을독자에게명시해미확인수치를현재보장으로쓰지않는다.중국사회보험2/3보조이식없음.
+- proposal `3f6b9172d58c70322b3aa8554abb57420865efedb43fc756295ce9fac05c3cd7` · changes `3110230216ebdf020c230cda63a005e060ec138d07ed114e3da105042eb3ae03`
+- current before `62b4b318982ba305f021c70c0062bce48fc60206420c79956cfaa0e8a30a04bd` · effective after `3f6b9172d58c70322b3aa8554abb57420865efedb43fc756295ce9fac05c3cd7`
+- 승인 근거: publication-partial-review-r6.json SHA `e0fb0f2da6ddceb1eac2a390703808ecdfa4925cbce54b92e675f023e31f0ed0`
+- 실제 원자료 범위: 법6/7/18·19610부칙과령2~5·34195부칙실본문직접읽음.저자미보존현행검색은이번검증증거로세지않음.이번현행검색3회실패.2024기준으로범위를명시한제안만판정하며미확인현행세부급여승인아님.
+- 실제 참조: 제목불변/공공일자리공고조건유보/명시항목참조없음.
 
-### 7-18. 검증
-국민연금61·91·92: 가입10년, 납부예외 미산입, 추납10년 미만 확인. 반환일시금 반납 예외·추납분할 이자도 원문 확인. 출생연도별 수급나이를 하나로 단정하지 않은 유보 유지.
+### 7-13. approve
+- 초기: 기관본문검증·고시접근실패 고용24 일반훈련 공식본문:5년300만원+요건200만원/총500만원,0~55% 확인. 고시2026-39는3회 HTTP502/403으로 미열람. 기관본문이 지원·자부담 수치를 직접 뒷받침하므로 금액 자체를 미확인으로 남기지 않음. 모든 과정무료·장려금자동지급 오독 금지.
+- 종결: 초기7-13고시미열람warn는4/14/16/46/49/50실제HTML텍스트범위해소.일부이미지호/산식은미열람한계그대로이며새개별액/지원확정없음.
+- full 판정: 초기고시접근실패를실제HTML본문으로보완했다.계좌300/추가조건200/총500·5년·소진후·1회·대상증빙과유형별0~55부담을고용24실본문및고시와대조했다.생계급여원칙제외의조건부·조건유예예외도정확하다.기존구직신청재신청불요와장려금별도심사·특화훈련별도조건을보존해모든강좌무료/자격증자동현금지급을보장하지않는다.
+- proposal `461c409a6dec77e083eb7b10e38c7911b3f2abf981d3e2b8303810a4afcfd382` · changes `e6bba16cd4ea024693d22f48862538cb606df3c15d4c654a4070f29aaea6ebd7`
+- current before `c3075eda96152db0850625c282e9aeab5e3a74aff081b5c79f6a8f4448c108bc` · effective after `461c409a6dec77e083eb7b10e38c7911b3f2abf981d3e2b8303810a4afcfd382`
+- 승인 근거: publication-partial-review-r7.json SHA `10901515ab775dd0d0e3aac1f3bef0e52ca47ff71c9b1c7a55c80f6f561df2c2`
+- 실제 원자료 범위: 기관실본문·고시지정조문/부칙·검색XML캐시3개직접읽음/새HTTP0.장려금산식이미지·세부모든대상전수는검증하지않고개별심사로한정.
+- 실제 참조: 제목불변/13항incoming명시없음/outgoing없음.
 
-### 7-19. 검증·자격보강권장
-보호관찰법65 숙식·취업 등 확인. 회생파산법566·579·611·625 확인: 원칙3년/특별5년, 면책확정·비면책채무 구분 정확. 반복수입만으로 충분하지 않음; 법579 담보15억/무담보10억 한도와 지급불능/염려를 자격상담에 보강 권장. 법원비·대리인비 외 소요기간 개인차도 명시 권장.
+### 7-14. approve
+- 초기: 초록검증·본문미확보 DOI 직접403, EuropePMC MED24588365 초록 확보.47개 실험·준실험/취업오즈2.67 및 기술+동기 구성 확인. 논문전문은 구독필요로 미열람. ‘대부분 유럽·미국’은 초록에서 확인되지 않아 지리적 분포 단정 삭제 또는 전문 근거 필요.
+- 종결: 초기7-14국가분포전문근거없음warn는단정삭제로해소.구독전문미열람은범위한계로남기며원초록직접검증과구별.
+- full 판정: 원초록의47개실험·준실험과취업OR2.67을보존하고오즈=취업확률/미취업확률을정확히설명한다.RR나개인확률2.67배로환산하지않는다.구성요소moderator관련성및기술+동기모두포함조건과대조일치.초록에없는대부분유럽·미국/최대효과단정을제거하고국내동일효과유보·유료강의불필요보장삭제가적절하다.
+- proposal `fd888664d98d25df1d443b4e0eba0debd346f04eb41f9fca38a49dc214d01e84` · changes `b7a94ea36691ff88bb509280654c90f8b67a2333d1f05fca00262f9a7c8c7662`
+- current before `d408f810c9fbcd62558b6da2ac0f36aeea403fade865f4111728dc8f0f92cc68` · effective after `fd888664d98d25df1d443b4e0eba0debd346f04eb41f9fca38a49dc214d01e84`
+- 승인 근거: publication-partial-review-r7.json SHA `10901515ab775dd0d0e3aac1f3bef0e52ca47ff71c9b1c7a55c80f6f561df2c2`
+- 실제 원자료 범위: EuropePMC에실린저자초록전체읽음/논문전문미열람.47은연구·프로그램수이며사람수아님.국내효과/기저위험·절대확률미산출.정성실천권고는별도효과보장아님.
+- 실제 참조: 제목불변/명시outgoing없음.중국원문·strict·proposal DOI10.1037/a0035923그대로보존.
 
-### 7-20. 법률부분검증·상품범위 유보
-상법651·651의2 고지위반·서면질문 근거 확인. 재난지원법13 중복지원 제외 확인. 이 법조문은 특정 실손상품의 갱신·비례보상 약관을 입증하지 않음. 상품개별 약관·보험료는 아직 미확인임을 그대로 남길 것.
+### 7-15. approve
+- 초기: 검증·예외 명시권장 직업안정법19·32·34, 근로기준법20, 이자제한법2 및 최고이자율규정20% 확인. 이자제한법2⑤ 원금10만원 미만 적용제외를 실제 확인. 현 문구가 적용범위 확인을 요구하므로 곧바로 거짓은 아니지만 ‘원금10만원 이상’으로 명시하면 더 정확함. 등록대부/불법사금융 별도법 유보 유지.
+- 종결: 초기7-15소액원금예외warn명시로해소.2021부칙적용범위와2025불법사금융별도법범위보강.등록중개실제요금·개별계약/다단계사건성립은별도확인.
+- full 판정: 초기warn인원금10만원미만제외를명시했고연20%의20210707이후체결·갱신적용을부칙과대조했다.등록금융/대부·불법사금융업은이자제한법적용밖이며별도법확인으로구분한다.모집금품금지의등록유료소개예외·법정요금/주체·거짓구인금지와근로계약불이행위약예정금지를보존한다.모든교육대출·다단계불법/초과이자때모든채무소멸을단정하지않음.
+- proposal `f7d404a07e178b64c676d48d45d59ed6056985344da96002535eccf5a733d257` · changes `a43cc59bd920a0acdc7dd8692adb01db0470668c0ef83b50ece535a8e75af1b4`
+- current before `1405c59450d20bc29b9ed422fb6119dcafaf865837883c1259de78de334b973b` · effective after `f7d404a07e178b64c676d48d45d59ed6056985344da96002535eccf5a733d257`
+- 승인 근거: publication-partial-review-r8.json SHA `84c1570dd6c50e2d32888c7fe12560c63bed79092a8de94ef4ff5d682d8c9082`
+- 실제 원자료 범위: 실법령4raw지정조항/부칙직접읽음.한국LPR4배·중국벌금/전부환급이식없음.근로자/사용자범위·개별계약의실질판단별도.
+- 실제 참조: 제5절돈낭비줄이기/제9절흔한법적레드라인실제절제목일치.15제목불변.
 
-### 7-21. 경험조언·시설법검증
-노숙인법10·14·15 및129 근거 확인. 영업장 취침권리·야외안전·절감액을 보장하지 않는 C경험조언이며 당일시설조건은 유보.
+### 7-16. approve
+- 초기: 검증·공고별 유보 공공주택법48 및 주거급여 HWPX 확인. 1인1,230,834 일치. 개별 공고를 선정하지 않았으므로 무주택/순위/자산/임대료의 실제 값은 확정하지 않음.
+- 종결: 초기7-16개별공고미선정warn를독자공고확인·자격임대료미확정으로분명히유지.이미확인2026기준을미확인으로되돌리지않음.
+- full 판정: 공공주택48의유형별자격/선정차이를확인하고공고별무주택·소득자산·순위추첨배점을독자확인으로한정했다.2026주거급여1인소득인정액1230834이하는정식고시연결첨부원표와일치하며수급액으로오독하지않는다.보증금/임대료와대기중거처비용·주거급여별도제도·선등록선입주비보장을보존해중국5년대기보장등이식없음.
+- proposal `8408ec304c5d297b86d0ac938918370a91fca131f4d462acd8e4aa4473453c35` · changes `10fedb19e476dd2b498a2e77810bf90289e7e1615d35ffae9b34bd19432561f8`
+- current before `d372fb219c0dc17de069f8faade68772bb040aa460fe4e1500accd78039432b9` · effective after `8408ec304c5d297b86d0ac938918370a91fca131f4d462acd8e4aa4473453c35`
+- 승인 근거: publication-partial-review-r8.json SHA `84c1570dd6c50e2d32888c7fe12560c63bed79092a8de94ef4ff5d682d8c9082`
+- 실제 원자료 범위: 법48/21895개별유예·고시본문/부칙·HWPX표3raw직접읽음.모든공고자격·월세를일반확정하는검토아님.
+- 실제 참조: 4항노숙인지원시설실제제목과내용일치.제목불변으로incoming보존.
 
-### 7-22. 검증
-근로기준법2·11·44·44의2 및 가사근로자법2·3·5 실제 본문 확인. 등록유무와 사용자/근로자성 구분, 직접가사고용 제외와 인증제공기관 구분, 원청자동책임 부정 일치. 회수절차 비용과 재산유보 유지.
+### 7-17. approve
+- 초기: 경험조언·등급주의 주거급여고시가 뒷받침하는 부분만 검증. 직접요리·합가 절약은 한국 절감률의 실증근거가 아님을 본문이 정직하게 유보. B등급은 출판계약상 보존하되 경험조언에 대한 A/B실증 주장으로 표현하지 말 것.
+- 종결: 초기7-17경험과법령근거구분/보호등급오독warn는쉽게와비고명료화로해소.일반절약률국내실증은미확인이라독자명시유지.
+- full 판정: 초기7-17B등급경험조언warn를비고에비용비교/직접요리는경험이며실증근거아님이라고명확히했다.월세관리비/보증금·공과금/이동비·배달비/폐기재료와조리보관조건을비교하며직접요리가무조건싸거나숙식직장이비용전부제거한다고보장하지않는다.주거급여대상임차비감경만제도근거에한정하고한국절감통계미확인을유지했다.
+- proposal `2738902dd8f75887956333b5c8468babd3a36b1372721bf98861632d14a7b11f` · changes `5ec964cc3ff4e6aa02d907f05125c4d893a2f0403a58eda34c6f76a81c2514b0`
+- current before `57eb913794ffe57cb71c5fa4094814db6e39cff443a2e0f19a58853a4354c9a4` · effective after `2738902dd8f75887956333b5c8468babd3a36b1372721bf98861632d14a7b11f`
+- 승인 근거: publication-partial-review-r10.json SHA `089703fb2213d1a3a21f76032548de688a208fe01b2070fddc7647f080a6f8e2`
+- 실제 원자료 범위: 주거급여실고시본문/부칙직접읽음.중국소비비율29.3/21.7·가격·임금/식당보편개방을이식하지않음.가격절감률/개별임대계약/무료급식자격전수미검증이며비용비교·지역확인권고로제한.
+- 실제 참조: 제15절월세와내집마련실제절제목일치/17제목불변.
 
-## 핵심 원문 짧은 인용
-- 긴급복지지원법10: “긴급지원은 3개월간” / “총 6개월을 초과하여서는 아니 되고”.
-- 재난적의료비 시행규칙2: “최종 진료일(입원진료의 경우에는 퇴원일 …)의 다음 날부터 180일 이내”.
-- 고용보험법 부칙21473 제3조: “2028년 1월 1일 전에 이직한 근로자 … 종전의 규정에 따른다.”
-- KLAC 소송구조개요: “중위소득 125%이하 … 유료 법률구조대상자”. 무료대상과 혼동 금지.
-- Liu 등 초록: “47 experimentally or quasi-experimentally evaluated … odds … 2.67 times”.
+### 7-18. approve
+- 초기: 검증 국민연금61·91·92: 가입10년, 납부예외 미산입, 추납10년 미만 확인. 반환일시금 반납 예외·추납분할 이자도 원문 확인. 출생연도별 수급나이를 하나로 단정하지 않은 유보 유지.
+- 종결: 초기7-18가입기간/추납/분할이자·반환예외/건보분리warn보존·신청시가입자와출생연도부칙명료화로해소.
+- full 판정: 실61/91/92와8541부칙8에따라가입10년과출생연도별수급나이·납부예외신청/미산입·추납자격/10년미만을정확히구분한다.분할이자·반환일시금기간배제/반납금예외도보존했다.개별추납보험료와건보자격은따로계산·신청하며중국15년/퇴직건보연한면제를이식하지않았다.2027청년지원/2026년보험료연도별특례를과거수치로새단정하지않는다.
+- proposal `4827db1ebb16a6df75ee7b6ed0c5daff6f472ce8f72aa0ff38a34fadee0af02a` · changes `c8f83aa1c05f298ec1932fde7ac9bb5a41d5ff32df70b7896502f125c3dace03`
+- current before `58148882d902543cb34bfd765b123834766e8db5084f1fc9a942c6693620d955` · effective after `4827db1ebb16a6df75ee7b6ed0c5daff6f472ce8f72aa0ff38a34fadee0af02a`
+- 승인 근거: publication-partial-review-r11.json SHA `2354a4377b4a3f7171c7216bd51eb8c8d75f9130bdbbe728b048e21ce9e67839`
+- 실제 원자료 범위: 국민연금61/91/92·8541/최근각부칙및건보5/110실원문2raw직접읽음.구체추납분할이율·개인납부액·신청절차령전수미검증으로금액추가없음.
+- 실제 참조: 9항건강보험자격실제제목/내용일치.18제목불변/incoming보존.
 
-## 조회대장
-초기 실패 후 성공한 URL은 각 시도를 모두 남겼다. raw 및 추출문은 저장소 밖에 있다. 신규요청의 requested_at은 실제 UTC, 캐시행 requested_at은 캐시생성시각이다. 캐시 독서는 본 감사 작성시각 전에 수행했다.
+### 7-19. approve
+- 초기: 검증·자격보강권장 보호관찰법65 숙식·취업 등 확인. 회생파산법566·579·611·625 확인: 원칙3년/특별5년, 면책확정·비면책채무 구분 정확. 반복수입만으로 충분하지 않음; 법579 담보15억/무담보10억 한도와 지급불능/염려를 자격상담에 보강 권장. 법원비·대리인비 외 소요기간 개인차도 명시 권장.
+- 종결: r11신규재량표현요청및초기7-19전warn종결.개별법무보호시설/비용·적용사건미확정은독자한정유지.
+- full 판정: r11필수611⑤재량요청을정할수있습니다로복원했다.정확1span치환후전체이전proposalbytes와비교하여나머지모든필드/조건·제목태그/DOI불변을검증했다.기본3년·특별5년상한/변제개시일기산·15/10억/수입과파산원인·필요성심사/비면책/법원·대리인비용및개별기간유보를그대로유지한다.
+- proposal `35fc9b870c2b090baeeeef704b042c5da3bfde88a676690a2eed08e02c3f4de5` · changes `aba528647348b168d5f6add75d78384b655145c92e68e0381ac8a7183a02ab66`
+- current before `3c5c1c937255dfc324fdde40a7c1a6479d03da31a2230eda30ae33fe86c33f95` · effective after `35fc9b870c2b090baeeeef704b042c5da3bfde88a676690a2eed08e02c3f4de5`
+- 승인 근거: publication-partial-review-r14.json SHA `ab09b6600c3d884696feb20ded9754bfa7db534a37a858639ccb20504bc66fc7`
+- 실제 원자료 범위: 이전r11실제보호관찰3/65~67·회생564/566/579/611/625·신청일부칙전체검토위에611⑤/15158재독.이번2cachedraw·신규HTTP0.원저자새본문추가외다른bytes불변.
+- 실제 참조: 제목불변/outgoing없음.현재fullmap변경행19로별도동결재승인.
 
-1. https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=284449&type=XML&efYd=20260918
-   - existing_cache_read · 2026-10-18T12:37:55.663809+00:00 · 상태 200 · path `/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/284449.xml` · SHA256 `e7af050cadeb394c82d5e94d8fc41af99b234270e0b45119671d958c8c5da4e0` · XML 기본시행일 20280101
-2. https://www.work24.go.kr/cm/c/f/1100/selecSystInfo.do?systClId=SC00000254&systId=SI00000411
-   - new_https_verified · 2026-10-18T12:54:03.038703+00:00 · 상태 200 · path `/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/c778f1fdbcc5b8fcefb0.raw` · SHA256 `b3e89162e7deca1ea5829c50789b12c532f0826c687271b98398ec5bf93385e2`
-3. https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=285279&type=XML&efYd=20261008
-   - existing_cache_read · 2026-10-18T12:37:57.424991+00:00 · 상태 200 · path `/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/285279.xml` · SHA256 `222fd311aa29570bf0045061e332c9b6696b49427a4ae8f17540763866b36c2e` · XML 기본시행일 20261008
-4. https://labor.moel.go.kr/main/main.do
-   - new_https_verified · 2026-10-18T12:54:03.039346+00:00 · 상태 200 · path `/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/548741634c2a42f54bad.raw` · SHA256 `02da728174bf4cde4bdf5a85f21c4a82f3450774c2fe37602fd08039682b95f2`
-5. https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=290113&type=XML&efYd=20261002
-   - existing_cache_read · 2026-10-18T12:38:24.090334+00:00 · 상태 200 · path `/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290113.xml` · SHA256 `dd6228b88d970e33b979d0d9e59c5b74f6f45958c01dcab79e034334365fbc92` · XML 기본시행일 20261002
-6. https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=225413&type=XML&efYd=20201228
-   - new_https_verified · 2026-10-18T12:54:03.039855+00:00 · 상태 200 · path `/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/205b7388dcdd447deada.raw` · SHA256 `b6fed84c2a5a5ce636850c5ef3b85eb0795e92cf4390f54e6a89c2aaec6fd051` · XML 기본시행일 20201228
-7. https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=268837&type=XML&efYd=20260201
-   - new_https_verified · 2026-10-18T12:54:03.040225+00:00 · 상태 HTTP Error 502: Bad Gateway · 원문 미보존(접근실패)
-8. https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=239375&type=XML&efYd=20230112
-   - new_https_verified · 2026-10-18T12:54:03.040806+00:00 · 상태 <urlopen error Tunnel connection failed: 502 Bad Gateway> · 원문 미보존(접근실패)
-9. https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=268883&type=XML&efYd=20260201
-   - new_https_verified · 2026-10-18T12:54:03.041926+00:00 · 상태 200 · path `/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/c51838b9b6776d36dbf5.raw` · SHA256 `e16072e129dac3a7faea67c9d087921d35c5b3837e9c6dad2269352c8f1d0b7d` · XML 기본시행일 20260201
-10. https://www.129.go.kr/
-   - new_https_verified · 2026-10-18T12:54:03.046217+00:00 · 상태 200 · path `/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/eeb953ae0f6d9fdffda1.raw` · SHA256 `e09b5ce232858e3845988c4a556b881cc5b21c4956c1267b0ea8188530a73420`
-11. https://www.work24.go.kr/
-   - new_https_verified · 2026-10-18T12:54:03.050338+00:00 · 상태 200 · path `/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/5605690ebe535d6c6ffb.raw` · SHA256 `1b3b53c80ee71ff10ecee4f9a2e7fe8a962a2ad4049839eb5ac95d6f92fd7d6c`
-12. https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=259231&type=XML&efYd=20240724
-   - new_https_verified · 2026-10-18T12:54:03.062105+00:00 · 상태 200 · path `/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/193075cc1e87f1b982fa.raw` · SHA256 `60dcdcc778a9573bcd80216da6a6e3c8ef22f951797e7bde5408e9757fdbd903` · XML 기본시행일 20240724
-13. https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=270789&type=XML&efYd=20251023
-   - new_https_verified · 2026-10-18T12:54:03.063287+00:00 · 상태 200 · path `/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/442407b07e340f39720c.raw` · SHA256 `1dc3b7c368634291cc98e267358ebc669a283e1bbe117dc859134fcf73135572` · XML 기본시행일 20251023
-14. https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=242023&type=XML&efYd=20220503
-   - new_https_verified · 2026-10-18T12:54:05.483188+00:00 · 상태 200 · path `/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/cedbc83c93d783553003.raw` · SHA256 `2103a5d6cb22993e69ba1c2d4e1150da9d194ef3beab702bc2a25d6068830c38` · XML 기본시행일 20220503
-15. https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000269954&type=XML
-   - new_https_verified · 2026-10-18T12:54:05.727699+00:00 · 상태 <urlopen error Tunnel connection failed: 502 Bad Gateway> · 원문 미보존(접근실패)
-16. https://www.law.go.kr/flDownload.do?flSeq=159360289
-   - new_https_verified · 2026-10-18T12:54:05.840453+00:00 · 상태 <urlopen error Tunnel connection failed: 502 Bad Gateway> · 원문 미보존(접근실패)
-17. https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000269956&type=XML
-   - new_https_verified · 2026-10-18T12:54:06.510844+00:00 · 상태 200 · path `/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/4c180e95bce410f3c9e3.raw` · SHA256 `e67faa6e75247805398f67a03f4640ab83c02195b177933719e47f5cccb1b9ac` · XML 기본시행일 20260101
-18. https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=276653&type=XML&efYd=20251001
-   - new_https_verified · 2026-10-18T12:54:07.087234+00:00 · 상태 200 · path `/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/1caa1995e780df6b82f6.raw` · SHA256 `77d9d27f2bce61ff32f055a91c442f96d8b3db519d7dcdaa944ff92444a7ddad` · XML 기본시행일 20251001
-19. https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000262584&type=XML
-   - new_https_verified · 2026-10-18T12:54:09.343059+00:00 · 상태 200 · path `/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/1130372e29b8610d820a.raw` · SHA256 `417b860572299cb5c8fbe5558de302fd43a6dec387b89447df0d48b8f13a7368` · XML 기본시행일 20260101
-20. https://www.law.go.kr/flDownload.do?flSeq=155034253
-   - new_https_verified · 2026-10-18T12:54:10.543300+00:00 · 상태 200 · path `/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/8c0b2dc46ce0092075fa.raw` · SHA256 `47f5eb050e7343f937b00fc84d0c6bda39a803912b12dbdf71b0633ff154312f`
-21. https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000264366&type=XML
-   - new_https_verified · 2026-10-18T12:54:11.266688+00:00 · 상태 200 · path `/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/42face5a7417e999cefd.raw` · SHA256 `530d813b468c954acef60db07dad6786ff3097c784bac26814bce35f31757316` · XML 기본시행일 20260101
-22. https://www.law.go.kr/flDownload.do?flSeq=156379585
-   - new_https_verified · 2026-10-18T12:54:13.073068+00:00 · 상태 200 · path `/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/d295d2e1354d94027c14.raw` · SHA256 `6aabf85be793036246dfd3df3959d0b2de93db4923a40c32a90a0d055339d522`
-23. https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=276683&type=XML&efYd=20251001
-   - new_https_verified · 2026-10-18T12:54:13.619286+00:00 · 상태 HTTP Error 502: Bad Gateway · 원문 미보존(접근실패)
-24. https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000272272&type=XML
-   - new_https_verified · 2026-10-18T12:54:13.964618+00:00 · 상태 200 · path `/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/bc74402bbc416d7c546a.raw` · SHA256 `98e21dc5c06e7b7b2b16de6dc574e8f084be25af90e9b53803aaef24f27940ff` · XML 기본시행일 20260108
-25. https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=290211&type=XML&efYd=20261002
-   - existing_cache_read · 2026-10-18T12:38:27.594457+00:00 · 상태 200 · path `/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290211.xml` · SHA256 `83c7457f5b987cf3b36d5257ef68fac45bd1d0197662ba87b254255c715f81df` · XML 기본시행일 20261002
-26. https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=288467&type=XML&efYd=20260901
-   - existing_cache_read · 2026-10-18T12:38:14.218701+00:00 · 상태 200 · path `/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/288467.xml` · SHA256 `57e9c27b51d4b82f3c36785bb6172824f5e3e6f386059daeca4250402f530c32` · XML 기본시행일 20260901
-27. https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=285273&type=XML&efYd=20261008
-   - existing_cache_read · 2026-10-18T12:37:57.198257+00:00 · 상태 200 · path `/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/285273.xml` · SHA256 `61d71f01d2824e7332c868f26d4cc9c6ca73ad09b9a3945375ec9ea8972d0bf7` · XML 기본시행일 20261008
-28. https://www.nhis.or.kr/static/html/wbma/c/wbmac0209.html
-   - new_https_verified · 2026-10-18T12:54:14.061902+00:00 · 상태 200 · path `/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/caf5881fbe4386e341a3.raw` · SHA256 `773cc22338821a7d4e06fce7fe4f9400c9ef58ec67600ada4c82cb71c181cd18`
-29. https://www.nhis.or.kr/static/html/wbma/c/wbmac0215.html
-   - new_https_verified · 2026-10-18T12:54:14.532380+00:00 · 상태 200 · path `/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/02b613e259644120a939.raw` · SHA256 `1ac0dc6f8524f999a5e700968a7bb594fe4b11d06745fed1a3d985729a041361`
-30. https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=249317&type=XML&efYd=20230929
-   - new_https_verified · 2026-10-18T12:54:14.881677+00:00 · 상태 200 · path `/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/744be0daff4cb310fc9e.raw` · SHA256 `027654910b141ca7607b25a0e7d41857f3373a2ce0ae820a72b0fbf92dee11b8` · XML 기본시행일 20230929
-31. https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=273903&type=XML&efYd=20250919
-   - new_https_verified · 2026-10-18T12:54:15.587623+00:00 · 상태 <urlopen error Tunnel connection failed: 502 Bad Gateway> · 원문 미보존(접근실패)
-32. https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=285733&type=XML&efYd=20260428
-   - new_https_verified · 2026-10-18T12:54:15.731250+00:00 · 상태 200 · path `/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/0096e1411929edfcfa3d.raw` · SHA256 `c982515ac3410d8b2f3bcdc61d6eeda3cbac2ae8db8052be59961e5d6a8bda41` · XML 기본시행일 20260428
-33. https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=291005&type=XML&efYd=20261002
-   - new_https_verified · 2026-10-18T12:54:15.843877+00:00 · 상태 HTTP Error 503: Service Unavailable · 원문 미보존(접근실패)
-34. https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=253641&type=XML&efYd=20240209
-   - new_https_verified · 2026-10-18T12:54:17.157861+00:00 · 상태 <urlopen error Tunnel connection failed: 403 Forbidden> · 원문 미보존(접근실패)
-35. https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=260081&type=XML&efYd=20240209
-   - new_https_verified · 2026-10-18T12:54:17.560016+00:00 · 상태 HTTP Error 502: Bad Gateway · 원문 미보존(접근실패)
-36. https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000279150&type=XML
-   - new_https_verified · 2026-10-18T12:54:18.733272+00:00 · 상태 HTTP Error 502: Bad Gateway · 원문 미보존(접근실패)
-37. https://www.work24.go.kr/cm/c/f/1100/selecSystInfo.do?systClId=SC00000052&systId=SI00000358
-   - new_https_verified · 2026-10-18T12:54:19.240817+00:00 · 상태 200 · path `/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/5ef578adf691e5fdb6d8.raw` · SHA256 `98289fad7e407697f1370ecc83f29dafd8c7e32bd1cb0a72fd88ba2aca36da8e`
-38. https://doi.org/10.1037/a0035923
-   - new_https_verified · 2026-10-18T12:54:20.046723+00:00 · 상태 HTTP Error 403: Forbidden · 원문 미보존(접근실패)
-39. https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=268667&type=XML&efYd=20250722
-   - existing_cache_read · 2026-10-18T12:36:50.155046+00:00 · 상태 200 · path `/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/268667.xml` · SHA256 `a9d6d5ef4f83b994dd30766a65a77e6f4debbf61bd3df676be15f2799bbefcfa` · XML 기본시행일 20250722
-40. https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=230727&type=XML
-   - new_https_verified · 2026-10-18T12:54:20.734091+00:00 · 상태 200 · path `/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/c9076ba4a32409e4c0fe.raw` · SHA256 `28dc713697f7bea3e91afdbd8dcfac030b01250f2dd0c9fc95ceffce7fbd407f` · XML 기본시행일 20210707
-41. https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=289289&type=XML&efYd=20260908
-   - new_https_verified · 2026-10-18T12:54:21.489834+00:00 · 상태 200 · path `/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/8601e2477f1ae8b34b58.raw` · SHA256 `759446f2e6460ab4e1a7051249becf6f4826469dbfecc5ab5f8eb168ed5b638c` · XML 기본시행일 20260908
-42. https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=280269&type=XML&efYd=20260617
-   - new_https_verified · 2026-10-18T12:54:21.629567+00:00 · 상태 200 · path `/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/8fb1ccbb92dd941dccef.raw` · SHA256 `8f38ebee8e80617ae1430b07c0df1a9abc8d63a8034ec41f7c9081546cd6a5f8` · XML 기본시행일 20260617
-43. https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=290705&type=XML&efYd=20261002
-   - new_https_verified · 2026-10-18T12:54:22.513791+00:00 · 상태 200 · path `/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/d0cb8cb1c66fcce2f11d.raw` · SHA256 `a551371c0b4b9a2636a8ec576716af36931737080a41d8d0a09e33419010fc09` · XML 기본시행일 20261002
-44. https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=290631&type=XML&efYd=20261002
-   - new_https_verified · 2026-10-18T12:54:22.697394+00:00 · 상태 <urlopen error Tunnel connection failed: 502 Bad Gateway> · 원문 미보존(접근실패)
-45. https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=273629&type=XML&efYd=20260910
-   - existing_cache_read · 2026-10-18T12:37:16.807462+00:00 · 상태 200 · path `/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/273629.xml` · SHA256 `48b6b00f5625f842d6005eeab12e41dc93c5d8596e5db4163266c53e4a21ab22` · XML 기본시행일 20260910
-46. https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=232959&type=XML&efYd=20220616
-   - new_https_verified · 2026-10-18T12:54:23.970730+00:00 · 상태 <urlopen error Tunnel connection failed: 403 Forbidden> · 원문 미보존(접근실패)
-47. https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=239375&type=XML&efYd=20230112
-   - existing_additional_cache_read · 공용 추가캐시; name-index 참조 · 상태 cached · path `/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/239375.xml` · SHA256 `cdb10e2603ca1c1bac6f0bcc4400427fc092c70323fa8615bf06c54d8e3534da` · XML 기본시행일 20230112
-48. https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=268837&type=XML
-   - new_https_verified · 2026-10-18T12:54:51.026633+00:00 · 상태 200 · path `/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/c48226fbd549eccbc620.raw` · SHA256 `e85b1c66c027d60c73cef3a7067b0593f6612eb47a27f532e477d0d3c77900c7` · XML 기본시행일 20260201
-49. https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000269954&type=XML
-   - new_https_verified · 2026-10-18T12:54:51.027238+00:00 · 상태 200 · path `/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/40df6bb1990090bf77f9.raw` · SHA256 `0f2bb74b418685a41687b5902c91d76e000714b3d5e5aa1e4af124b906584f16` · XML 기본시행일 20251217
-50. https://www.law.go.kr/flDownload.do?flSeq=159360289
-   - new_https_verified · 2026-10-18T12:54:51.027735+00:00 · 상태 200 · path `/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/ce0ae31ed097539d31e9.raw` · SHA256 `4a2d935934bfe47bdc7b732d6913fb055cf7ac987d17d05e528dddaa4be88c40`
-51. https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=276683&type=XML
-   - new_https_verified · 2026-10-18T12:54:51.028220+00:00 · 상태 200 · path `/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/85c5e53d270c8795208f.raw` · SHA256 `fd6f4ee7bddfc4d61825ddfaad89064347fe6b530f017743fdcbadd13fbf43e5` · XML 기본시행일 20251001
-52. https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=273903&type=XML
-   - new_https_verified · 2026-10-18T12:54:51.028793+00:00 · 상태 200 · path `/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/2cc6b2a4af4c4af1be10.raw` · SHA256 `010fa605b456fb074ac5d96eed7bd1b8f4755da597bfc72df3db35fb6681a6c3` · XML 기본시행일 20250919
-53. https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=291005&type=XML
-   - new_https_verified · 2026-10-18T12:54:51.029773+00:00 · 상태 HTTP Error 502: Bad Gateway · 원문 미보존(접근실패)
-54. https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=253641&type=XML
-   - new_https_verified · 2026-10-18T12:54:51.030650+00:00 · 상태 200 · path `/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/b4bae50e0900f9499c52.raw` · SHA256 `79c9d79dba5db64066c70dc142fb14d7ecefb44bd9fdf9a8b3752b7af6ac5ec5` · XML 기본시행일 20230808
-55. https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=260081&type=XML
-   - new_https_verified · 2026-10-18T12:54:51.031201+00:00 · 상태 200 · path `/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/da07c82deeed404e3660.raw` · SHA256 `d0322a25defd489e2362e327dc2ca1087624aff6dc47de22dc516b89f481ca52` · XML 기본시행일 20240209
-56. https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000279150&type=XML
-   - new_https_verified · 2026-10-18T12:54:51.034088+00:00 · 상태 HTTP Error 502: Bad Gateway · 원문 미보존(접근실패)
-57. https://doi.org/10.1037/a0035923
-   - new_https_verified · 2026-10-18T12:54:51.046063+00:00 · 상태 HTTP Error 403: Forbidden · 원문 미보존(접근실패)
-58. https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290631&type=XML
-   - new_https_verified · 2026-10-18T12:54:52.276958+00:00 · 상태 200 · path `/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/e2db437dcf6766c31db7.raw` · SHA256 `0f25c76b847f02c2753e0099d9e2102902fd00567a94c5ceb1e09627be3e3bce` · XML 기본시행일 20261002
-59. https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=232959&type=XML
-   - new_https_verified · 2026-10-18T12:54:53.189938+00:00 · 상태 <urlopen error Tunnel connection failed: 502 Bad Gateway> · 원문 미보존(접근실패)
-60. https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1037/a0035923&format=json&resultType=core
-   - new_https_verified · 2026-10-18T12:54:55.089890+00:00 · 상태 200 · path `/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/075ed48f1676cd6ca4ba.raw` · SHA256 `9ff540975af30a35ad4e08b25ab6053ca40fc525c5ffde2ae70329393f912df8`
-61. https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=law&type=XML&query=%EA%B3%A0%EC%9A%A9%EB%B3%B4%ED%97%98%EB%B2%95&display=100&nw=1
-   - new_https_verified · 2026-10-18T12:54:36.435424+00:00 · 상태 <urlopen error Tunnel connection failed: 403 Forbidden> · 원문 미보존(접근실패)
-62. https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=law&type=XML&query=%EA%B5%AD%EB%AF%BC%EA%B1%B4%EA%B0%95%EB%B3%B4%ED%97%98%EB%B2%95%20%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99&display=100&nw=1
-   - new_https_verified · 2026-10-18T12:54:36.436121+00:00 · 상태 HTTP Error 502: Bad Gateway · 원문 미보존(접근실패)
-63. https://www.klac.or.kr/legalstruct/visitingConsultation.do
-   - new_https_verified · 2026-10-18T12:54:36.436695+00:00 · 상태 200 · path `/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/b67b58910b1461174e82.raw` · SHA256 `c7666e0314674b32bbd29b9e5a104a9ecbacec2d76db8831e65c33308463351f`
-64. https://www.klac.or.kr/legalstruct/legalAid.do
-   - new_https_verified · 2026-10-18T12:54:36.437280+00:00 · 상태 HTTP Error 404: Not Found · 원문 미보존(접근실패)
-65. https://www.klac.or.kr/
-   - new_https_verified · 2026-10-18T12:54:36.437965+00:00 · 상태 200 · path `/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/3e177dfd030941917214.raw` · SHA256 `04b9176c4c33bc5008f3cc2441b82090fefb85335e864a882388ab458101daf4`
-66. https://www.klac.or.kr/legalstruct/legalRescueGuide.do
-   - new_https_verified · 2026-10-18T12:55:35.678967+00:00 · 상태 200 · path `/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/6aec6f568a81493de43f.raw` · SHA256 `9e69fca8d449944e4d19bc79e351512faa7f4edff375cabfbebc2b72b19fd925`
-67. https://www.klac.or.kr/legalstruct/outlineOfLitigationStruct.do
-   - new_https_verified · 2026-10-18T12:55:35.679608+00:00 · 상태 200 · path `/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/a882e56314250a86c39a.raw` · SHA256 `3422b17fd8f2de372aade4ded4d02aa6a2f811ca27e54fdf258e0a6a6cdcba8a`
-68. https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=291005&type=XML
-   - new_https_verified · 2026-10-18T12:55:35.680215+00:00 · 상태 200 · path `/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/d1a0c93bb7a594b8a163.raw` · SHA256 `7c8ad212a248bf64626e2c4c0d9e3e2864832cbcc90d9a58342b0020d5ed8b9d` · XML 기본시행일 20261002
-69. https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=232959&type=XML
-   - new_https_verified · 2026-10-18T12:55:35.680779+00:00 · 상태 200 · path `/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/2c5998100ed8e3def674.raw` · SHA256 `39bdbcb902d381d8abcb846432a2a8fb99bf8e5be58c338f8de7ad7cfc4fc834` · XML 기본시행일 20220616
-70. https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000279150&type=XML
-   - new_https_verified · 2026-10-18T12:55:35.681292+00:00 · 상태 <urlopen error Tunnel connection failed: 403 Forbidden> · 원문 미보존(접근실패)
-71. https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=law&type=XML&query=%EA%B3%A0%EC%9A%A9%EB%B3%B4%ED%97%98%EB%B2%95&display=100&nw=1
-   - new_https_verified · 2026-10-18T12:55:35.682482+00:00 · 상태 200 · path `/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/a6ee716897f7e7bbbf16.raw` · SHA256 `d8396188ef9d8a1bfc078c7736c0dc92695403aa54ab258886c661a9549c7acf` · XML 기본시행일 20261127
+### 7-20. approve
+- 초기: 법률부분검증·상품범위 유보 상법651·651의2 고지위반·서면질문 근거 확인. 재난지원법13 중복지원 제외 확인. 이 법조문은 특정 실손상품의 갱신·비례보상 약관을 입증하지 않음. 상품개별 약관·보험료는 아직 미확인임을 그대로 남길 것.
+- 종결: 초기7-20법률vs상품범위유보warn전부본문명시보존/고지의무기간·예외명료화.개별보험료/실약관미확정은독자고지로남음.
+- full 판정: 초기7-20법적고지의무와상품별약관미열람warn를정확히구분했다.651고의중과실·중요사항/안날1개월·계약3년둘다·보험자악의중과실예외/서면질문추정을명시했다.개별보험료갱신재가입중복보상은미확인이라약관확인으로한정하고공적지원중복분제외법을민간비례보상입증으로쓰지않는다.중국보장갱신/2년불가쟁·보험료금액이식없음.
+- proposal `824edcd8933385a97a8f2e969edd083557c005a5c2ad34e1db5b1f3b4965bff2` · changes `0287a8b313b3a8935bb1f6261184508fd8dcac8a4e4fa4beaea1ca77ee2ad345`
+- current before `8ddc048ea08808e7cf36b3633d9dd7c2474c0283416108bd244f2122783fe2db` · effective after `664b55027bfe8ef67ab920263f9a3481ba9c2bb159db2e081698cc7847111d4e`
+- 승인 근거: publication-partial-review-r12.json SHA `cd6a93cfdb7e7ddc34680d5c32f18f344bd034f4ac434638a55b6a0f238c159c`
+- 실제 원자료 범위: 상법지정5조문·부칙/재난지원13실원문2raw직접읽음.계약별특약·갱신보험료견적·국내절감액실증미열람을정직히구분.새HTTP0.
+- 실제 참조: 9항건보자격/10항의료비지원실제최신승인제목/내용일치.20제목불변.
+
+### 7-21. approve
+- 초기: 경험조언·시설법검증 노숙인법10·14·15 및129 근거 확인. 영업장 취침권리·야외안전·절감액을 보장하지 않는 C경험조언이며 당일시설조건은 유보.
+- 종결: 초기7-21경험조언/영업장안전근거미확인warn를본문한정으로해소.당일시설조건은미확정명시유지.
+- full 판정: C등급경험권고·영업장안전/절감공식근거없음을이득/출처에명시한다.시설연결을우선하고직원허용·운영시간/퇴거요구·머물권리비보장·당일공실/입소가족조건확인을보존했다.법10재량지원·14응급조치/시설15와129무료상담실본문일치하며모든영업장취침권리/시설전원무료를단정하지않음.
+- proposal `7f2469fb31cc8c3f5f126a90f8bbbec85bed69e769174063ac66e407a3e9a2a2` · changes `6f61f162c5012a3b294f33a11279e9b523524f2eeddea1de4664e01309441e8f`
+- current before `27be4d21f4dd7ee95fba0de9001abc57ae90eb015d46ca8b63f1ba341972e171` · effective after `7f2469fb31cc8c3f5f126a90f8bbbec85bed69e769174063ac66e407a3e9a2a2`
+- 승인 근거: publication-partial-review-r12.json SHA `cd6a93cfdb7e7ddc34680d5c32f18f344bd034f4ac434638a55b6a0f238c159c`
+- 실제 원자료 범위: 노숙인법10/14/15·최근부칙/129무료긴급상담실본문2raw재독.지역영업장안전·요금/야외안전실험·시설당일공실은검증하지않았으며그결과보장없음.
+- 실제 참조: 4항노숙인지원시설실제제목/내용일치.21제목불변/incoming보존.
+
+### 7-22. approve
+- 초기: 검증 근로기준법2·11·44·44의2 및 가사근로자법2·3·5 실제 본문 확인. 등록유무와 사용자/근로자성 구분, 직접가사고용 제외와 인증제공기관 구분, 원청자동책임 부정 일치. 회수절차 비용과 재산유보 유지.
+- 종결: r13단일도급법적조건및literalbefore메타교정요청모두종결/초기7-22전warn해소.예외없는원청자동책임·무료주장없음.
+- full 판정: r13요청인44①단일도급직상수급인=도급인/하수급인=수급인특례를정확히추가했다.그두문장외이전fullproposalbytes완전동일·현재직상귀책/상위귀책·44의2건설2차례/비건설사업자하수급/상위최하위건설사업자를실조문과재대조했다.6필드별실제rawbefore/각SHA와legacy개행정규화규칙을분리하여r13before문제도종결.소송보수·집행예납/회수자산유보·가사/동거친족예외모두보존.
+- proposal `b96b54da4fe3fd16df8c24f93c3820b41426c25aa3e91d693b05f86be42891d6` · changes `481da49ef29f79306806d8d35a24aa255e9b9b575b0e99c32d1e81205ff54683`
+- current before `05e3dcda40d39767a25bd533d535f3d1fa868394f7a3415e3596a9a1612dc724` · effective after `ea7d5b5f4ef6dd2be89f2bd4e1532038ff19ee838043257249c72eda8a871474`
+- 승인 근거: publication-partial-review-r16.json SHA `2db27b703f6bff61785e862df770c55b1a6bab09e1d9deaae68b4459fdb89dc8`
+- 실제 원자료 범위: r13지정5raw실조문·부칙검토위에44①전항재독/6rawbeforeexact·정규화규칙·현재strictSHA/후보after검증.새HTTP0/개별근로자성·도급귀책/재산·요금은확정하지않음.
+- 실제 참조: 2항임금체불/3항법률구조실제제목내용보존.22제목실제고용관계불변/intro·2incoming충족.
+
+## 도입·꼬리와 남은 정보
+
+도입은 정확bytes 보존이다. 꼬리3의 공단 일반안내 열람,9의 법정 이력·기간,10의 실제2026상한표 확인과 미확인 범위를 정합화했다.17의60자 문장은 의미를 보존해 분리했다. 모든9개 TODO는 그대로 존재한다. “확인 완료”는 모든 개별 수급조건/원문 전문/과거·미래판 전수검색의 완결을 뜻하지 않는다.
+
+- 제3항: 무료 소송구조 유형별 최신 소득표와 지원 범위. 공단의 일반 안내는 확인했습니다. 본인 유형의 경제기준과 비용 부담 범위는 신청할 때 확인하세요.
+- 제4항·제21항: 지역별 시설 연락처·공실·입소 조건·가족 동반 가능 여부. 이용하는 날 해당 지자체·시설에 확인해야 합니다.
+- 제8항: 장애수당·부가급여의 2026년 유형별 실제 지급액과 활동지원 신청조건. 장애인연금 기초급여와 구분해 확인해야 합니다.
+- 제9항: 소득 조정·정산 절차와 개인별 보험료·피부양자 자격. 임의계속가입의 이력기간과 적용기간은 법령으로 확인했습니다. 실제 보험료와 자격은 공단에 확인하세요.
+- 제10항: 재난적의료비의 현행 지원율·상한. 2026년 본인부담상한액 표는 확인했습니다. 개인별 적용 금액과 지원율은 공단에 확인하세요.
+- 제12항: 국민취업지원제도 수당의 현행 지급액·부양가족 가산, 청년 선발형 추가 기준. 일반형의 법령상 요건만 확정했습니다.
+- 제16항: 실제 신청 지역·주택 유형의 모집공고. 무주택·소득·자산·선정순위·보증금·임대료를 개별 공고로 확인해야 합니다.
+- 제17항: 한국에서 단기숙박·합가·직접 요리의 비용 차이를 뒷받침할 공공 자료. 지역별 급식·푸드지원 조건도 확인해야 합니다. 절약률은 제시하지 않았습니다.
+- 제20항: 실제 검토 상품의 갱신·재가입·중복보상 약관과 보험료. 특정 상품의 혜택이나 요율을 보장하지 않았습니다.
+
+## 원자료·통계·법령 범위
+
+각 partial JSON은 실제 읽은 raw의 URL·원취득UTC·HTTP·SHA·정확경로·이번 열람범위를 보존한다. 신규HTTP 실패/검색·본문·기존캐시를 분리했다. 법령은 현행·장래 병합판과 조문별 시행/적용례를 구분했다. 14항은 원초록의 실험·준실험47/취업OR2.67을 직접 검증했고 논문 전문은 미열람이다. OR를 RR·절대확률로 환산하지 않았고 원초록에 없는 국가분포 단정을 삭제했다. 실제 원판례가 없는 조언을 판례로 검증했다고 쓰지 않았다.
+
+마지막whole재독에서3항의구형기관안내표현을현재법정선정주체로최소교정하고r17의새exact승인으로종결했다.그최신승인튜플만map에포함한다. 해당추가source기록은새partialreview와whole-findings-r1에있다.
+
+## 후속 조건
+
+ROOT의 실제 통합·guards 및 별도 cold current-hash 정식 KR-FIT가 남는다. 기존 배너는 보호된 역사적 원문이며 이번 승인 단계의 정식 통과를 뜻하지 않는다. 공개·배포 승인은 없다.

@@ -1,0 +1,38 @@
+{
+  "chapter": 8,
+  "entry": 36,
+  "status": "unadopted_pending_independent_exact_hash_review",
+  "base_proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-036-9393/publication-entry-proposal.md",
+  "base_proposal_sha256": "05aa70aeb650f46682f2f86ce89dfb6006f185856bb564bc632d5ce897a1e7d1",
+  "base_changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-036-9393/publication-entry-changes.json",
+  "base_changes_sha256": "8b5659472ea3722e1dc552dcfb29d501a0a4402c001aa00916e13e3e52a6f0d0",
+  "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-036-9393/publication-entry-proposal-r2.md",
+  "proposal_sha256": "d12fc822db013bb10e49a181bb0b3eb1de7aafe6d604ecda2fb566f0c33e87b6",
+  "change_scope": "제36항 비고의 제41항 참조 앵커만 정정. 법률·숫자·출처·등급·태그·기타 바이트 동일.",
+  "exact_diff": "--- publication-entry-proposal.md\n+++ publication-entry-proposal-r2.md\n@@ -5,5 +5,5 @@\n - 이득: 고의·과실로 위법하게 남에게 손해를 주면 배상 책임이 있습니다(「민법」 제750조). 배상 요구 자체가 공갈은 아닙니다. 「형법」 제350조의 공갈은 위법한 협박 등의 요건을 따집니다. 돈과 폭로를 거래 조건처럼 묶어 압박하지 마세요. 합의 범위와 추가 청구 여부는 서면으로 확인하세요. 「소비자기본법」 제55조는 소비자의 피해구제 신청을 정합니다. 사업자와 소비자 간 물품·서비스 사용 피해가 대상입니다. 소비자는 한국소비자원에 신청할 수 있습니다. 한국소비자원은 처리가 부적합하면 사유를 알리고 중지할 수 있습니다.\n - 근거등급: B\n - 출처: 국가법령정보센터. 「민법」 제750조. https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=284415&type=XML · 국가법령정보센터. 「형법」 제350조. https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290185&type=XML · 국가법령정보센터. 「소비자기본법」 제55조. https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=283837&type=XML\n-- 비고: 큰 금액을 요구했다는 이유만으로 범죄가 되지는 않습니다. 정당한 권리라도 행사하는 방법에는 한계가 있습니다. 강요·협박을 받으면 기록하고 신고하세요. 녹음은 제41항(참여한 대화 녹음)을 보세요. 2026-10-18 법령 확인(국가법령정보센터).\n+- 비고: 큰 금액을 요구했다는 이유만으로 범죄가 되지는 않습니다. 정당한 권리라도 행사하는 방법에는 한계가 있습니다. 강요·협박을 받으면 기록하고 신고하세요. 녹음은 제41항(참여한 대화)을 보세요. 2026-10-18 법령 확인(국가법령정보센터).\n \n",
+  "fields": [
+    {
+      "field": "비고",
+      "before": "큰 금액을 요구했다는 이유만으로 범죄가 되지는 않습니다. 정당한 권리라도 행사하는 방법에는 한계가 있습니다. 강요·협박을 받으면 기록하고 신고하세요. 녹음은 제41항(참여한 대화 녹음)을 보세요. 2026-10-18 법령 확인(국가법령정보센터).",
+      "after": "큰 금액을 요구했다는 이유만으로 범죄가 되지는 않습니다. 정당한 권리라도 행사하는 방법에는 한계가 있습니다. 강요·협박을 받으면 기록하고 신고하세요. 녹음은 제41항(참여한 대화)을 보세요. 2026-10-18 법령 확인(국가법령정보센터).",
+      "reason": "현재 제41항 제목에 연속해 존재하는 앵커로 정정."
+    }
+  ],
+  "target_reference": {
+    "public_path": "/workspace/HowToLiveBetter-KR/book-kr/08-법적-말썽에-휘말리지-않기.md",
+    "public_sha256": "d3bc3df4c03ef5f74d391c47424b7a09433b26f0c8f2ce2850deb34559b79f23",
+    "entry41_sha256": "3e70fc0b8d1537f3df6e5f4fbfa95f6adcdb497c34cca964e1d0d43869f35b01",
+    "title": "### 41. 참여한 대화는 원본을 남겨 녹음하되 공개하지 마세요",
+    "before_anchor": "참여한 대화 녹음",
+    "after_anchor": "참여한 대화",
+    "title_contains_anchor": true,
+    "method": "현재 공개 제41항 제목 및 여섯 필드 본문 직접 열람",
+    "read_date": "2026-10-18"
+  },
+  "source_evidence": "r1 changes JSON의 법령 근거와 열람 한계 그대로 승계. 새로운 법적 주장이나 출처 변경 없음.",
+  "verification": {
+    "exact_bytes": "PASS: one exact byte span replacement, other bytes preserved",
+    "literal": "PASS: full proposal literal_check.py exit0; title29, easy71/3 sentences, no narrative sentence >50 including parentheses",
+    "layout": "PASS: full proposal production structure helper exit0, temporary manifest /tmp/ch08-36-r2-layout-manifest.json"
+  }
+}

@@ -1,0 +1,359 @@
+{
+  "status": "unadopted_tail_style_proposal_pending_independent_exact_hash_review",
+  "chapter": 6,
+  "created_at_utc": "2026-10-18T20:14:29.194415+00:00",
+  "scope": "Current public tail only: split exactly six flagged sentences; no entry or intro change",
+  "current_public_path": "/workspace/HowToLiveBetter-KR/book-kr/06-함정-목록.md",
+  "whole_guard_sha256": "69a79965f2a310648379cf87c6bbe27ea3a5033552de9630c16f25cda6165286",
+  "tail_guard_sha256": "efcb305420747e48c51b786f91f37240afcced2c15416254edca1db2a3c64007",
+  "tail_boundary": "Exact bytes from ## TODO 확인 필요 through EOF",
+  "tail_byte_start": 131497,
+  "snapshots": {
+    "whole": {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/publication-current-tail-style-before-whole-r1.md",
+      "sha256": "69a79965f2a310648379cf87c6bbe27ea3a5033552de9630c16f25cda6165286"
+    },
+    "tail": {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/publication-current-tail-style-before-tail-r1.md",
+      "sha256": "efcb305420747e48c51b786f91f37240afcced2c15416254edca1db2a3c64007"
+    }
+  },
+  "root_findings": {
+    "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/final-formal-review-r2/findings.json",
+    "sha256": "075ceecfe616e335201b8dcf0aa82da54fe1fd13f918d5878f60894e943586b5",
+    "finding_ids": [
+      "TAIL-2",
+      "TAIL-3",
+      "TAIL-5",
+      "TAIL-6",
+      "TAIL-7",
+      "TAIL-8"
+    ]
+  },
+  "operations": [
+    {
+      "finding_id": "TAIL-2",
+      "todo_item": 2,
+      "before": "제15항(사주·점술): 점술·무속 사기의 한국 공식 사례(검찰·경찰 보도자료 또는 확정 판례 사건번호).",
+      "after": "제15항(사주·점술): 한국의 점술·무속 사기 공식 사례를 확인해야 합니다. 검찰·경찰 보도자료나 확정 판례의 사건번호가 필요합니다.",
+      "before_occurrences": 1,
+      "original_tail_byte_start": 111,
+      "original_tail_byte_end_exclusive": 246,
+      "before_chars_excluding_ordinal": 58,
+      "before_chars_including_ordinal": 61,
+      "reason": "50자 초과인 해당 설명문만 나눕니다. 미확인 대상·범위·조건을 보존하며 새 사실을 추가하지 않습니다.",
+      "whole_todo_line_before": "2. 제15항(사주·점술): 점술·무속 사기의 한국 공식 사례(검찰·경찰 보도자료 또는 확정 판례 사건번호). 지금은 형법 제347조·제350조(조문 확인 완료)만 인용."
+    },
+    {
+      "finding_id": "TAIL-3",
+      "todo_item": 3,
+      "before": "제16항(블루라이트 차단안경): 용접 불꽃에 의한 각막 화상의 한국 표준 의학용어와 업무상 질병(산재) 인정 근거 조문.",
+      "after": "제16항(블루라이트 차단안경): 한국 표준 의학용어를 확인해야 합니다. 대상은 용접 불꽃에 의한 각막 화상입니다. 업무상 질병(산재) 인정 근거 조문도 확인해야 합니다.",
+      "before_occurrences": 1,
+      "original_tail_byte_start": 321,
+      "original_tail_byte_end_exclusive": 478,
+      "before_chars_excluding_ordinal": 67,
+      "before_chars_including_ordinal": 70,
+      "reason": "50자 초과인 해당 설명문만 나눕니다. 미확인 대상·범위·조건을 보존하며 새 사실을 추가하지 않습니다.",
+      "whole_todo_line_before": "3. 제16항(블루라이트 차단안경): 용접 불꽃에 의한 각막 화상의 한국 표준 의학용어와 업무상 질병(산재) 인정 근거 조문. 원문의 '법정 직업병' 표현은 의료 사실로만 옮김."
+    },
+    {
+      "finding_id": "TAIL-5",
+      "todo_item": 5,
+      "before": "제20항(담낭에 돌): 중국 담도외과 2021년 전문가 합의 전문의 수술 적응증 목록(원문의 미확인 사항 승계).",
+      "after": "제20항(담낭에 돌): 중국 담도외과 2021년 전문가 합의 전문을 확인해야 합니다. 확인 대상은 수술 적응증 목록입니다. 원문의 미확인 사항을 이어받았습니다.",
+      "before_occurrences": 1,
+      "original_tail_byte_start": 750,
+      "original_tail_byte_end_exclusive": 889,
+      "before_chars_excluding_ordinal": 63,
+      "before_chars_including_ordinal": 66,
+      "reason": "50자 초과인 해당 설명문만 나눕니다. 미확인 대상·범위·조건을 보존하며 새 사실을 추가하지 않습니다.",
+      "whole_todo_line_before": "5. 제20항(담낭에 돌): 중국 담도외과 2021년 전문가 합의 전문의 수술 적응증 목록(원문의 미확인 사항 승계). 무증상 담낭결석에 관한 한국 학회 지침 유무."
+    },
+    {
+      "finding_id": "TAIL-6",
+      "todo_item": 6,
+      "before": "제22항(크리스털·팔찌·행운 소품): 크리스털·파워스톤류 효능 허위·과장 광고로 적발된 한국 사례(공정거래위원회 등).",
+      "after": "제22항(크리스털·팔찌·행운 소품): 한국 적발 사례를 확인해야 합니다. 대상은 크리스털·파워스톤류 효능의 허위·과장 광고입니다. 공정거래위원회 등 공식 자료가 필요합니다.",
+      "before_occurrences": 1,
+      "original_tail_byte_start": 955,
+      "original_tail_byte_end_exclusive": 1115,
+      "before_chars_excluding_ordinal": 66,
+      "before_chars_including_ordinal": 69,
+      "reason": "50자 초과인 해당 설명문만 나눕니다. 미확인 대상·범위·조건을 보존하며 새 사실을 추가하지 않습니다.",
+      "whole_todo_line_before": "6. 제22항(크리스털·팔찌·행운 소품): 크리스털·파워스톤류 효능 허위·과장 광고로 적발된 한국 사례(공정거래위원회 등)."
+    },
+    {
+      "finding_id": "TAIL-7",
+      "todo_item": 7,
+      "before": "제28항(성적 지향 교정): 한국의 성적 지향 '교정 치료' 관련 판례·인권위원회 결정 등 공식 사례.",
+      "after": "제28항(성적 지향 교정): 한국 공식 사례를 확인해야 합니다. 성적 지향 '교정 치료' 관련 판례나 인권위원회 결정 등이 대상입니다.",
+      "before_occurrences": 1,
+      "original_tail_byte_start": 1119,
+      "original_tail_byte_end_exclusive": 1247,
+      "before_chars_excluding_ordinal": 57,
+      "before_chars_including_ordinal": 60,
+      "reason": "50자 초과인 해당 설명문만 나눕니다. 미확인 대상·범위·조건을 보존하며 새 사실을 추가하지 않습니다.",
+      "whole_todo_line_before": "7. 제28항(성적 지향 교정): 한국의 성적 지향 '교정 치료' 관련 판례·인권위원회 결정 등 공식 사례. 지금은 정신건강복지법 제41조·제43조(조문 확인 완료)만 인용."
+    },
+    {
+      "finding_id": "TAIL-8",
+      "todo_item": 8,
+      "before": "제18항(일반 검진 패키지): 일반건강검진 기본 항목의 본인 부담 여부와 암검진 본인부담률(국민건강보험공단 원문).",
+      "after": "제18항(일반 검진 패키지): 일반건강검진 본인 부담 여부를 확인해야 합니다. 확인 대상은 기본 검진 항목입니다. 암검진 본인부담률도 확인해야 합니다. 국민건강보험공단 원문이 필요합니다.",
+      "before_occurrences": 1,
+      "original_tail_byte_start": 1335,
+      "original_tail_byte_end_exclusive": 1489,
+      "before_chars_excluding_ordinal": 64,
+      "before_chars_including_ordinal": 67,
+      "reason": "50자 초과인 해당 설명문만 나눕니다. 미확인 대상·범위·조건을 보존하며 새 사실을 추가하지 않습니다.",
+      "whole_todo_line_before": "8. 제18항(일반 검진 패키지): 일반건강검진 기본 항목의 본인 부담 여부와 암검진 본인부담률(국민건강보험공단 원문)."
+    }
+  ],
+  "full_before_tail": "## TODO 확인 필요\n\n1. 제7항(전신 PET-CT): 종양 표지자 패키지의 한국 시세(1차 출처).\n2. 제15항(사주·점술): 점술·무속 사기의 한국 공식 사례(검찰·경찰 보도자료 또는 확정 판례 사건번호). 지금은 형법 제347조·제350조(조문 확인 완료)만 인용.\n3. 제16항(블루라이트 차단안경): 용접 불꽃에 의한 각막 화상의 한국 표준 의학용어와 업무상 질병(산재) 인정 근거 조문. 원문의 '법정 직업병' 표현은 의료 사실로만 옮김.\n4. 제19항(요산강하제): 한국인만의 HLA-B*5801 보유 빈도. ACR의 7.4%는 한족·한국인·태국계 묶음의 값입니다. 백인 0.7%와의 비교는 지침에서 확인했습니다.\n5. 제20항(담낭에 돌): 중국 담도외과 2021년 전문가 합의 전문의 수술 적응증 목록(원문의 미확인 사항 승계). 무증상 담낭결석에 관한 한국 학회 지침 유무.\n6. 제22항(크리스털·팔찌·행운 소품): 크리스털·파워스톤류 효능 허위·과장 광고로 적발된 한국 사례(공정거래위원회 등).\n7. 제28항(성적 지향 교정): 한국의 성적 지향 '교정 치료' 관련 판례·인권위원회 결정 등 공식 사례. 지금은 정신건강복지법 제41조·제43조(조문 확인 완료)만 인용.\n8. 제18항(일반 검진 패키지): 일반건강검진 기본 항목의 본인 부담 여부와 암검진 본인부담률(국민건강보험공단 원문).\n\n\n\n",
+  "full_after_tail": "## TODO 확인 필요\n\n1. 제7항(전신 PET-CT): 종양 표지자 패키지의 한국 시세(1차 출처).\n2. 제15항(사주·점술): 한국의 점술·무속 사기 공식 사례를 확인해야 합니다. 검찰·경찰 보도자료나 확정 판례의 사건번호가 필요합니다. 지금은 형법 제347조·제350조(조문 확인 완료)만 인용.\n3. 제16항(블루라이트 차단안경): 한국 표준 의학용어를 확인해야 합니다. 대상은 용접 불꽃에 의한 각막 화상입니다. 업무상 질병(산재) 인정 근거 조문도 확인해야 합니다. 원문의 '법정 직업병' 표현은 의료 사실로만 옮김.\n4. 제19항(요산강하제): 한국인만의 HLA-B*5801 보유 빈도. ACR의 7.4%는 한족·한국인·태국계 묶음의 값입니다. 백인 0.7%와의 비교는 지침에서 확인했습니다.\n5. 제20항(담낭에 돌): 중국 담도외과 2021년 전문가 합의 전문을 확인해야 합니다. 확인 대상은 수술 적응증 목록입니다. 원문의 미확인 사항을 이어받았습니다. 무증상 담낭결석에 관한 한국 학회 지침 유무.\n6. 제22항(크리스털·팔찌·행운 소품): 한국 적발 사례를 확인해야 합니다. 대상은 크리스털·파워스톤류 효능의 허위·과장 광고입니다. 공정거래위원회 등 공식 자료가 필요합니다.\n7. 제28항(성적 지향 교정): 한국 공식 사례를 확인해야 합니다. 성적 지향 '교정 치료' 관련 판례나 인권위원회 결정 등이 대상입니다. 지금은 정신건강복지법 제41조·제43조(조문 확인 완료)만 인용.\n8. 제18항(일반 검진 패키지): 일반건강검진 본인 부담 여부를 확인해야 합니다. 확인 대상은 기본 검진 항목입니다. 암검진 본인부담률도 확인해야 합니다. 국민건강보험공단 원문이 필요합니다.\n\n\n\n",
+  "virtual_after_tail_sha256": "a922b3b0ba5001ebe839fce818ff2427a6482e3d638df7661a2f4acfc31278f0",
+  "virtual_after_whole_sha256": "62c6bc704264bd7a2c40a4ba9e6f5b713b7edc3e6c8a34b64a8cd9cba46c7217",
+  "sentence_audit": {
+    "method": "Python len; all parentheses/article references/topic prefixes counted. For conservative first-sentence evidence, visible ordinal plus period and space are counted too. Split boundary: sentence-ending period followed by whitespace and Korean/Latin letter; decimal points stay internal. Markdown heading is structural, not a narrative sentence.",
+    "all_after_tail_sentences": [
+      {
+        "todo_item": 1,
+        "sentence_index": 1,
+        "text": "제7항(전신 PET-CT): 종양 표지자 패키지의 한국 시세(1차 출처).",
+        "python_len_all_visible_characters_except_list_ordinal": 41,
+        "text_with_visible_ordinal_when_first": "1. 제7항(전신 PET-CT): 종양 표지자 패키지의 한국 시세(1차 출처).",
+        "python_len_including_visible_ordinal_and_topic_prefix_parentheses": 44
+      },
+      {
+        "todo_item": 2,
+        "sentence_index": 1,
+        "text": "제15항(사주·점술): 한국의 점술·무속 사기 공식 사례를 확인해야 합니다.",
+        "python_len_all_visible_characters_except_list_ordinal": 42,
+        "text_with_visible_ordinal_when_first": "2. 제15항(사주·점술): 한국의 점술·무속 사기 공식 사례를 확인해야 합니다.",
+        "python_len_including_visible_ordinal_and_topic_prefix_parentheses": 45
+      },
+      {
+        "todo_item": 2,
+        "sentence_index": 2,
+        "text": "검찰·경찰 보도자료나 확정 판례의 사건번호가 필요합니다.",
+        "python_len_all_visible_characters_except_list_ordinal": 31,
+        "text_with_visible_ordinal_when_first": "검찰·경찰 보도자료나 확정 판례의 사건번호가 필요합니다.",
+        "python_len_including_visible_ordinal_and_topic_prefix_parentheses": 31
+      },
+      {
+        "todo_item": 2,
+        "sentence_index": 3,
+        "text": "지금은 형법 제347조·제350조(조문 확인 완료)만 인용.",
+        "python_len_all_visible_characters_except_list_ordinal": 33,
+        "text_with_visible_ordinal_when_first": "지금은 형법 제347조·제350조(조문 확인 완료)만 인용.",
+        "python_len_including_visible_ordinal_and_topic_prefix_parentheses": 33
+      },
+      {
+        "todo_item": 3,
+        "sentence_index": 1,
+        "text": "제16항(블루라이트 차단안경): 한국 표준 의학용어를 확인해야 합니다.",
+        "python_len_all_visible_characters_except_list_ordinal": 39,
+        "text_with_visible_ordinal_when_first": "3. 제16항(블루라이트 차단안경): 한국 표준 의학용어를 확인해야 합니다.",
+        "python_len_including_visible_ordinal_and_topic_prefix_parentheses": 42
+      },
+      {
+        "todo_item": 3,
+        "sentence_index": 2,
+        "text": "대상은 용접 불꽃에 의한 각막 화상입니다.",
+        "python_len_all_visible_characters_except_list_ordinal": 23,
+        "text_with_visible_ordinal_when_first": "대상은 용접 불꽃에 의한 각막 화상입니다.",
+        "python_len_including_visible_ordinal_and_topic_prefix_parentheses": 23
+      },
+      {
+        "todo_item": 3,
+        "sentence_index": 3,
+        "text": "업무상 질병(산재) 인정 근거 조문도 확인해야 합니다.",
+        "python_len_all_visible_characters_except_list_ordinal": 30,
+        "text_with_visible_ordinal_when_first": "업무상 질병(산재) 인정 근거 조문도 확인해야 합니다.",
+        "python_len_including_visible_ordinal_and_topic_prefix_parentheses": 30
+      },
+      {
+        "todo_item": 3,
+        "sentence_index": 4,
+        "text": "원문의 '법정 직업병' 표현은 의료 사실로만 옮김.",
+        "python_len_all_visible_characters_except_list_ordinal": 28,
+        "text_with_visible_ordinal_when_first": "원문의 '법정 직업병' 표현은 의료 사실로만 옮김.",
+        "python_len_including_visible_ordinal_and_topic_prefix_parentheses": 28
+      },
+      {
+        "todo_item": 4,
+        "sentence_index": 1,
+        "text": "제19항(요산강하제): 한국인만의 HLA-B*5801 보유 빈도.",
+        "python_len_all_visible_characters_except_list_ordinal": 36,
+        "text_with_visible_ordinal_when_first": "4. 제19항(요산강하제): 한국인만의 HLA-B*5801 보유 빈도.",
+        "python_len_including_visible_ordinal_and_topic_prefix_parentheses": 39
+      },
+      {
+        "todo_item": 4,
+        "sentence_index": 2,
+        "text": "ACR의 7.4%는 한족·한국인·태국계 묶음의 값입니다.",
+        "python_len_all_visible_characters_except_list_ordinal": 31,
+        "text_with_visible_ordinal_when_first": "ACR의 7.4%는 한족·한국인·태국계 묶음의 값입니다.",
+        "python_len_including_visible_ordinal_and_topic_prefix_parentheses": 31
+      },
+      {
+        "todo_item": 4,
+        "sentence_index": 3,
+        "text": "백인 0.7%와의 비교는 지침에서 확인했습니다.",
+        "python_len_all_visible_characters_except_list_ordinal": 26,
+        "text_with_visible_ordinal_when_first": "백인 0.7%와의 비교는 지침에서 확인했습니다.",
+        "python_len_including_visible_ordinal_and_topic_prefix_parentheses": 26
+      },
+      {
+        "todo_item": 5,
+        "sentence_index": 1,
+        "text": "제20항(담낭에 돌): 중국 담도외과 2021년 전문가 합의 전문을 확인해야 합니다.",
+        "python_len_all_visible_characters_except_list_ordinal": 47,
+        "text_with_visible_ordinal_when_first": "5. 제20항(담낭에 돌): 중국 담도외과 2021년 전문가 합의 전문을 확인해야 합니다.",
+        "python_len_including_visible_ordinal_and_topic_prefix_parentheses": 50
+      },
+      {
+        "todo_item": 5,
+        "sentence_index": 2,
+        "text": "확인 대상은 수술 적응증 목록입니다.",
+        "python_len_all_visible_characters_except_list_ordinal": 20,
+        "text_with_visible_ordinal_when_first": "확인 대상은 수술 적응증 목록입니다.",
+        "python_len_including_visible_ordinal_and_topic_prefix_parentheses": 20
+      },
+      {
+        "todo_item": 5,
+        "sentence_index": 3,
+        "text": "원문의 미확인 사항을 이어받았습니다.",
+        "python_len_all_visible_characters_except_list_ordinal": 20,
+        "text_with_visible_ordinal_when_first": "원문의 미확인 사항을 이어받았습니다.",
+        "python_len_including_visible_ordinal_and_topic_prefix_parentheses": 20
+      },
+      {
+        "todo_item": 5,
+        "sentence_index": 4,
+        "text": "무증상 담낭결석에 관한 한국 학회 지침 유무.",
+        "python_len_all_visible_characters_except_list_ordinal": 25,
+        "text_with_visible_ordinal_when_first": "무증상 담낭결석에 관한 한국 학회 지침 유무.",
+        "python_len_including_visible_ordinal_and_topic_prefix_parentheses": 25
+      },
+      {
+        "todo_item": 6,
+        "sentence_index": 1,
+        "text": "제22항(크리스털·팔찌·행운 소품): 한국 적발 사례를 확인해야 합니다.",
+        "python_len_all_visible_characters_except_list_ordinal": 40,
+        "text_with_visible_ordinal_when_first": "6. 제22항(크리스털·팔찌·행운 소품): 한국 적발 사례를 확인해야 합니다.",
+        "python_len_including_visible_ordinal_and_topic_prefix_parentheses": 43
+      },
+      {
+        "todo_item": 6,
+        "sentence_index": 2,
+        "text": "대상은 크리스털·파워스톤류 효능의 허위·과장 광고입니다.",
+        "python_len_all_visible_characters_except_list_ordinal": 31,
+        "text_with_visible_ordinal_when_first": "대상은 크리스털·파워스톤류 효능의 허위·과장 광고입니다.",
+        "python_len_including_visible_ordinal_and_topic_prefix_parentheses": 31
+      },
+      {
+        "todo_item": 6,
+        "sentence_index": 3,
+        "text": "공정거래위원회 등 공식 자료가 필요합니다.",
+        "python_len_all_visible_characters_except_list_ordinal": 23,
+        "text_with_visible_ordinal_when_first": "공정거래위원회 등 공식 자료가 필요합니다.",
+        "python_len_including_visible_ordinal_and_topic_prefix_parentheses": 23
+      },
+      {
+        "todo_item": 7,
+        "sentence_index": 1,
+        "text": "제28항(성적 지향 교정): 한국 공식 사례를 확인해야 합니다.",
+        "python_len_all_visible_characters_except_list_ordinal": 35,
+        "text_with_visible_ordinal_when_first": "7. 제28항(성적 지향 교정): 한국 공식 사례를 확인해야 합니다.",
+        "python_len_including_visible_ordinal_and_topic_prefix_parentheses": 38
+      },
+      {
+        "todo_item": 7,
+        "sentence_index": 2,
+        "text": "성적 지향 '교정 치료' 관련 판례나 인권위원회 결정 등이 대상입니다.",
+        "python_len_all_visible_characters_except_list_ordinal": 39,
+        "text_with_visible_ordinal_when_first": "성적 지향 '교정 치료' 관련 판례나 인권위원회 결정 등이 대상입니다.",
+        "python_len_including_visible_ordinal_and_topic_prefix_parentheses": 39
+      },
+      {
+        "todo_item": 7,
+        "sentence_index": 3,
+        "text": "지금은 정신건강복지법 제41조·제43조(조문 확인 완료)만 인용.",
+        "python_len_all_visible_characters_except_list_ordinal": 36,
+        "text_with_visible_ordinal_when_first": "지금은 정신건강복지법 제41조·제43조(조문 확인 완료)만 인용.",
+        "python_len_including_visible_ordinal_and_topic_prefix_parentheses": 36
+      },
+      {
+        "todo_item": 8,
+        "sentence_index": 1,
+        "text": "제18항(일반 검진 패키지): 일반건강검진 본인 부담 여부를 확인해야 합니다.",
+        "python_len_all_visible_characters_except_list_ordinal": 43,
+        "text_with_visible_ordinal_when_first": "8. 제18항(일반 검진 패키지): 일반건강검진 본인 부담 여부를 확인해야 합니다.",
+        "python_len_including_visible_ordinal_and_topic_prefix_parentheses": 46
+      },
+      {
+        "todo_item": 8,
+        "sentence_index": 2,
+        "text": "확인 대상은 기본 검진 항목입니다.",
+        "python_len_all_visible_characters_except_list_ordinal": 19,
+        "text_with_visible_ordinal_when_first": "확인 대상은 기본 검진 항목입니다.",
+        "python_len_including_visible_ordinal_and_topic_prefix_parentheses": 19
+      },
+      {
+        "todo_item": 8,
+        "sentence_index": 3,
+        "text": "암검진 본인부담률도 확인해야 합니다.",
+        "python_len_all_visible_characters_except_list_ordinal": 20,
+        "text_with_visible_ordinal_when_first": "암검진 본인부담률도 확인해야 합니다.",
+        "python_len_including_visible_ordinal_and_topic_prefix_parentheses": 20
+      },
+      {
+        "todo_item": 8,
+        "sentence_index": 4,
+        "text": "국민건강보험공단 원문이 필요합니다.",
+        "python_len_all_visible_characters_except_list_ordinal": 19,
+        "text_with_visible_ordinal_when_first": "국민건강보험공단 원문이 필요합니다.",
+        "python_len_including_visible_ordinal_and_topic_prefix_parentheses": 19
+      }
+    ],
+    "all_pass_at_most_50": true,
+    "max_chars_including_ordinal": 50,
+    "sentence_count": 25
+  },
+  "preservation": {
+    "whole_prefix_before_tail_sha256": "7649e1ff33736f56254bc70fbb778be439684927d3eeac8eac0cfdd1cc26af29",
+    "all_29_entries_intro_two_reference_corrections_unchanged": true,
+    "todo_title_and_ordinals": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "untouched_todo_items": [
+      1,
+      4
+    ],
+    "all_other_sentences_in_changed_items_byte_exact": true,
+    "all_unresolved_subjects_conditions_limits_numbers_links_metadata_retained": true,
+    "doi_additions": [],
+    "doi_removals": [],
+    "all_old_proposals_and_snapshots_immutable": true
+  },
+  "semantic_preservation_notes": {
+    "2": "한국 점술·무속 사기; 검찰·경찰 보도자료 또는 확정 판례 사건번호; 뒤의 형법 확인 문장 그대로.",
+    "3": "용접 불꽃에 의한 각막 화상의 한국 표준 의학용어 및 업무상 질병(산재) 인정 근거 조문; 뒤의 원문 표현 제한 그대로.",
+    "5": "중국 담도외과 2021년 전문가 합의 전문의 수술 적응증 목록과 원문 미확인 사항 승계; 한국 지침 유무 문장 그대로.",
+    "6": "한국 적발 사례; 크리스털·파워스톤류 효능 허위·과장 광고; 공정거래위원회 등 자료.",
+    "7": "한국 성적 지향 교정 치료 관련 판례·인권위원회 결정 등 공식 사례; 뒤의 법조문 확인 문장 그대로.",
+    "8": "일반건강검진 기본 항목 본인 부담 여부와 암검진 본인부담률; 국민건강보험공단 원문."
+  },
+  "approval": false,
+  "integration_authorized": false,
+  "new_facts_or_source_verification": false
+}

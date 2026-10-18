@@ -1,0 +1,55 @@
+{
+  "entry": 3,
+  "status": "unadopted_pending_independent_exact_hash_review",
+  "previous_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-003-3aff/publication-entry-proposal.md",
+  "previous_sha256": "b2c167cda388184e120748e3cd8799e26058b8cc3235e7b32d34010aaa344198",
+  "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-003-3aff/publication-entry-proposal-r2.md",
+  "proposal_sha256": "64f08efeda1ee8b469384989fe3cfe3996a2293e467d594eae64aa72a57187c6",
+  "change": {
+    "operation": "delete_exact_span",
+    "field": "비고",
+    "deleted_span": "중국 예방 앱·경고전화·사기 유형 점유율을 국내 자료로 쓰지 않습니다. ",
+    "byte_start": 1242,
+    "deleted_byte_length": 98,
+    "replacement": "",
+    "reason": "reviewer04 requested removal of reader-unnecessary conversion note; removes this sentence and following space only"
+  },
+  "byte_check": {
+    "exact_single_deletion": true,
+    "all_other_bytes_unchanged": true,
+    "frozen_r1_unchanged": true
+  },
+  "preserved": "법근거·수치·유보·제45항 실제 앵커·근거등급·비용태그·제목·나머지 모든 바이트 보존",
+  "layout": {
+    "six_single_physical_field_lines": true,
+    "field_order": [
+      "비용",
+      "쉽게",
+      "이득",
+      "근거등급",
+      "출처",
+      "비고"
+    ]
+  },
+  "literal_check": {
+    "command": [
+      "python",
+      "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/publication-partial-review-evidence/literal_check.py",
+      "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-003-3aff/publication-entry-proposal-r2.md"
+    ],
+    "exit_code": 0,
+    "stdout": "[\n  {\n    \"entry\": null,\n    \"path\": \"/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-003-3aff/publication-entry-proposal-r2.md\",\n    \"title_chars\": 28,\n    \"easy_chars\": 67,\n    \"easy_sentences\": 3,\n    \"long_sentences\": [],\n    \"pass_length\": true\n  }\n]\n",
+    "stderr": "",
+    "parsed": [
+      {
+        "entry": null,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-003-3aff/publication-entry-proposal-r2.md",
+        "title_chars": 28,
+        "easy_chars": 67,
+        "easy_sentences": 3,
+        "long_sentences": [],
+        "pass_length": true
+      }
+    ]
+  }
+}

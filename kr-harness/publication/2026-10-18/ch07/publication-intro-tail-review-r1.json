@@ -1,0 +1,50 @@
+{
+  "status": "revise",
+  "reviewer_id": "/root/publication_review_09",
+  "reviewed_at_utc": "2026-10-18T19:37:23.794593+00:00",
+  "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/publication-intro-tail-proposal-r1.json",
+  "proposal_sha256": "ca4738afb8f8419ae9ae75e133c98e2ddc32d8a6fc44645d4921cf44c43d44d9",
+  "intro_decision": "approve_preserve_exact_bytes",
+  "tail_decision": "revise",
+  "original_intro_sha256": "34d870200139bc6d0449446adddbcfc899d0acffc61a0435b72e0f96eb65ca04",
+  "original_tail_sha256": "1b4e541d79eb339b924ce10bd65d369ca3ca0ed1a21c187b5429bd3d7c74ccfc",
+  "proposed_tail_sha256": "d132f606849833d9f87302b9c4c1008dcabf2f320470a0e8e60a9990c2ed1c01",
+  "operations_3_9_10": "source_scope_consistent_with_actual_independent_primary_reads",
+  "source_review_references": [
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/publication-partial-review-r1.json",
+      "sha256": "7dc3ebfb0e13ab2682fbd751d5b3c81c2bd6240334d02f8453d873b9226c33f7",
+      "scope": "3항공단유료/무료기준실본문확인범위·목록미열람"
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/publication-partial-review-r4.json",
+      "sha256": "84558f2ff9aa89a6fb8212eec6f68ea77a891bc856677d0d684d368b0871791b",
+      "scope": "9항현행법110/령77/규칙62·63실본문기간"
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/publication-partial-review-r9.json",
+      "sha256": "cfeaef1f492e1f6f41054aa199e6b0c3ac8422dc399bddc2f3c8ceea56d79364",
+      "scope": "10항실PDF2026표확인/지원율미확인분리"
+    }
+  ],
+  "revision_requests": [
+    {
+      "issue": "unchanged TODO17 ordinary sentence exceeds50",
+      "actual": [
+        {
+          "text": "제17항: 한국에서 단기숙박·합가·직접 요리의 비용 차이를 뒷받침할 공공 자료와 지역별 급식·푸드지원 조건.",
+          "literal": 60
+        }
+      ],
+      "requirement": "의미와미확인한계를보존하여둘이하50자문장으로분리.9개TODO와heading/배너수보존."
+    },
+    {
+      "issue": "old full22 bindings include #19/#22 requiring new correction review",
+      "requirement": "수정동결최신fullmap과각proposal/changes에다시binding하고새intro-tailrevision작성.이전파일불변."
+    }
+  ],
+  "formal_kr_fit_approval": false,
+  "whole_chapter_approval": false,
+  "integration_approval": false,
+  "public_files_modified": false
+}

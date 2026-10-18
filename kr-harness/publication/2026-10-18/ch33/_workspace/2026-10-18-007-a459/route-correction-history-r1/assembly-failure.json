@@ -1,0 +1,14 @@
+{
+  "command": [
+    "python3",
+    "kr-harness/publication/scripts/humanize_publication.py",
+    "assemble",
+    "33",
+    "--date",
+    "2026-10-18"
+  ],
+  "cwd": "/workspace/HowToLiveBetter-KR",
+  "exit_code": 1,
+  "combined_output": "error: diagnosis evidence required: /workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch33/_workspace/2026-10-18-007-a459\n",
+  "capture_provenance": "Exact combined output returned by exec_command at original failed assembly; persisted after observing failure. No rerun or fabricated success."
+}

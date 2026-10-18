@@ -1,0 +1,116 @@
+{
+  "chapter": 8,
+  "status": "completed_exact_partial_review_r24",
+  "manifest_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/author-partial-manifest-24.json",
+  "manifest_sha256": "6b1fe3e8e058960fa3676b6d88cbb68c4416e415384bc084f706f5448d72c15f",
+  "entries": [
+    {
+      "entry": 8,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-008-b780/publication-entry-proposal-r2.md",
+      "proposal_sha256": "18b6c42fedaeccb9fb890f87821a3cadeb238443b3a4570a8f709b2be166b377",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-008-b780/publication-entry-changes-r2.json",
+      "changes_sha256": "aa824d4f4bb63eb96581e09e018a5ff0a065df6e4275494f74795b466336bae8",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-008-b780/strict-entry.md",
+      "base_strict_entry_sha256": "d5fbe0eacc8815f3d0f77ad52e8539ae8b0b03fc51c93509585948134d4378b4",
+      "literal_exit_code": 0,
+      "decision": "approve",
+      "all_four_complete_fields_read": true,
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "snapshot_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-008-b780/entry_snapshot.md",
+      "snapshot_sha256": "d5fbe0eacc8815f3d0f77ad52e8539ae8b0b03fc51c93509585948134d4378b4",
+      "strict_candidate_contains_exact_base": true,
+      "length_check": {
+        "entry": 8,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-008-b780/publication-entry-proposal-r2.md",
+        "title_chars": 23,
+        "easy_chars": 70,
+        "easy_sentences": 3,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "number": true,
+        "six_labels": true,
+        "tags": true,
+        "grade": true
+      },
+      "production_layout_check": true,
+      "initial_canonical_entry": {
+        "entry": 8,
+        "title": "### 8. 통장·카드·휴대전화 명의를 빌려주지 마세요",
+        "source_entry_snapshot_path": "_workspace/2026-10-18-008-b780/entry_snapshot.md",
+        "source_entry_snapshot_sha256": "d5fbe0eacc8815f3d0f77ad52e8539ae8b0b03fc51c93509585948134d4378b4",
+        "source_review_status": "revise_scope",
+        "candidate_review_status": "pending_candidate_review",
+        "scope_and_findings": "전자금융거래법6조 양도·대가 대여·범죄목적/인식 대여의 차이 일치. 다른 법률 특별규정과 선불수단·전자화폐 단서가 있으므로 접근매체 양도 일률금지 문장은 통장·카드 맥락으로 한정 권장. 휴대전화 명의 자체의 법률은 출처에 없으며 형벌을 만들지 않는 현 문구 유지."
+      },
+      "finding_closure": "전필드승인.정확히45참조앵커하나만명의를빌려주지마세요→명의·인증번호로변경/다른bytes동일.최신45전체제안과명의차주/본인의사·사기취소·자동유효비보장범위대조.기존8의접근매체금지및특례근거는09의exact승인재사용,이번신규법률주장없음.실제6조읽기도r17에서확인.전필드길이/layout/hash/보호/DOI0통과.",
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "revision_requests": [],
+      "proposed_root_operation": {
+        "type": "replace_complete_strict_entry_body",
+        "before_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-008-b780/strict-entry.md",
+        "before_entire_entry_sha256": "d5fbe0eacc8815f3d0f77ad52e8539ae8b0b03fc51c93509585948134d4378b4",
+        "after_proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-008-b780/publication-entry-proposal-r2.md",
+        "after_original_proposal_sha256": "18b6c42fedaeccb9fb890f87821a3cadeb238443b3a4570a8f709b2be166b377",
+        "effective_after_sha256": "18b6c42fedaeccb9fb890f87821a3cadeb238443b3a4570a8f709b2be166b377",
+        "effective_after_rule": "proposal.rstrip()+original strict entry trailing whitespace; preserve original separators",
+        "supersession": "Latest approved full replaces any initial field/older full once.",
+        "integration_authorized": false
+      },
+      "field_decisions": {
+        "title": "approve",
+        "비용": "approve",
+        "쉽게": "approve",
+        "이득": "approve",
+        "근거등급": "approve",
+        "출처": "approve",
+        "비고": "approve"
+      }
+    }
+  ],
+  "approved_entries": [
+    8
+  ],
+  "revise_entries": [],
+  "actual_primary_readings": [],
+  "prior_actual_reading_reuse": [
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/publication-partial-review-r5.json",
+      "sha256": "35a1faa8257eb1fb571a13861cca76c453e2754be71243474e95a71e7d9b2c6b",
+      "scope": "09의기존8원full exact승인재사용.원proposal SHA e4771c9c07e7e0d5a7d090dc2fbda8b2e06a76d048f0ca76f79ae57c1206f687와참조한곳외동일확인."
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/publication-followup-review-04-r17.json",
+      "sha256": "cabd63be1d404c26152150bf9f08f5ff3c364d1327205428778155acbee5caab",
+      "scope": "새45전체독립승인및전자금융6직접읽기재사용."
+    }
+  ],
+  "cross_reference_review": [
+    {
+      "entries": [
+        8,
+        45
+      ],
+      "scope": "새45actual제목명의·인증번호연속일치.양도대여접근매체범위와대출계약차주/명의도용구별내용정합.옛조건부45참조검토종결."
+    }
+  ],
+  "production_helper_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/scripts/humanize_publication.py",
+  "production_helper_sha256": "244c194c7620c3095dc3a972eecdaa4e17fab8a0a301ae8b601cb8401569bfd3",
+  "helper_code_modified": false,
+  "fresh_http_performed": false,
+  "whole46_approval": false,
+  "integration_approval": false,
+  "formal_kr_fit_approval": false,
+  "preservation": "Prior reviews/frozen proposals/canonical/public/runs/gates/git unchanged.",
+  "reviewer_id": "/root/publication_review_04",
+  "six_complete_fields_read": true,
+  "exact_single_reference_replacement_only": true
+}

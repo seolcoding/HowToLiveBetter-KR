@@ -1,0 +1,233 @@
+{
+  "chapter": 8,
+  "status": "completed_exact_partial_review_r19",
+  "manifest_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/author-partial-manifest-19.json",
+  "manifest_sha256": "b54db9f894eebcbdd844288e0232c5dfe1f405cce63ff9375312b38f4ee70254",
+  "entries": [
+    {
+      "entry": 35,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-035-fb81/publication-entry-proposal.md",
+      "proposal_sha256": "7f820d4b2d5e36e3fe51cfa96d3f705dc3614ab7fda838fab1f46b1cbff5638c",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-035-fb81/publication-entry-changes.json",
+      "changes_sha256": "213b872b33e35f97814ae82af41d99ab2b30a232a97b33650b8dacc65dbf631d",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-035-fb81/strict-entry.md",
+      "base_strict_entry_sha256": "8a53d576e15640c35a2e1c8f2ccc452d835580164b81fef8122ac8fa9b6182cf",
+      "literal_exit_code": 0,
+      "decision": "approve",
+      "all_four_complete_fields_read": true,
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "snapshot_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-035-fb81/entry_snapshot.md",
+      "snapshot_sha256": "8a53d576e15640c35a2e1c8f2ccc452d835580164b81fef8122ac8fa9b6182cf",
+      "strict_candidate_contains_exact_base": true,
+      "length_check": {
+        "entry": 35,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-035-fb81/publication-entry-proposal.md",
+        "title_chars": 32,
+        "easy_chars": 83,
+        "easy_sentences": 3,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "number": true,
+        "six_labels": true,
+        "tags": true,
+        "grade": true
+      },
+      "production_layout_check": true,
+      "initial_canonical_entry": {
+        "entry": 35,
+        "title": "### 35. 구금 뒤 무죄·불기소·불송치라면 보상 요건을 확인하세요",
+        "source_entry_snapshot_path": "_workspace/2026-10-18-035-fb81/entry_snapshot.md",
+        "source_entry_snapshot_sha256": "8a53d576e15640c35a2e1c8f2ccc452d835580164b81fef8122ac8fa9b6182cf",
+        "source_review_status": "verified_new_http",
+        "candidate_review_status": "pending_candidate_review",
+        "scope_and_findings": "형사보상법2/7/8의 무죄·관할·안날3년/확정5년,27/28 피의자 구금·불기소/불송치·제외·통지후3년 일치. 시행령290527 새 원문2조에서 원인 발생한 해 일급최저임금5배 상한 확인. 본법5조 하한1배. 공소청 명칭은21490호 부칙2026-10-02 시행 확인. 단순 무죄만으로 미구금자 구금보상을 인정하지 마세요."
+      },
+      "finding_closure": "전필드승인.초기구금요건주의해소/중국변환메모삭제,법2미결구금과상소권회복등원판결집행구별,5일급1~5배/8인지3년확정5년/27필수및재량예외/28청구관할기한을직접원문대조.6동일원인공제정확.군사법원/상속/26특례와지급청구후속절차전부안내는대상밖이며보상액결과보장없음.",
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "revision_requests": [],
+      "proposed_root_operation": {
+        "type": "replace_complete_strict_entry_body",
+        "before_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-035-fb81/strict-entry.md",
+        "before_entire_entry_sha256": "8a53d576e15640c35a2e1c8f2ccc452d835580164b81fef8122ac8fa9b6182cf",
+        "after_proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-035-fb81/publication-entry-proposal.md",
+        "after_original_proposal_sha256": "7f820d4b2d5e36e3fe51cfa96d3f705dc3614ab7fda838fab1f46b1cbff5638c",
+        "effective_after_sha256": "7f820d4b2d5e36e3fe51cfa96d3f705dc3614ab7fda838fab1f46b1cbff5638c",
+        "effective_after_rule": "proposal.rstrip()+original strict entry trailing whitespace; preserve original separators",
+        "supersession": "Latest approved full replaces any initial field/older full once.",
+        "integration_authorized": false
+      },
+      "field_decisions": {
+        "title": "approve",
+        "비용": "approve",
+        "쉽게": "approve",
+        "이득": "approve",
+        "근거등급": "approve",
+        "출처": "approve",
+        "비고": "approve"
+      }
+    },
+    {
+      "entry": 36,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-036-9393/publication-entry-proposal.md",
+      "proposal_sha256": "05aa70aeb650f46682f2f86ce89dfb6006f185856bb564bc632d5ce897a1e7d1",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-036-9393/publication-entry-changes.json",
+      "changes_sha256": "8b5659472ea3722e1dc552dcfb29d501a0a4402c001aa00916e13e3e52a6f0d0",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-036-9393/strict-entry.md",
+      "base_strict_entry_sha256": "21170c9ef5a19a3e95867f8354de7b9a8ad9fca9cafaa3033d0c5bd7edabb9cc",
+      "literal_exit_code": 0,
+      "decision": "revise",
+      "all_four_complete_fields_read": true,
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "snapshot_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-036-9393/entry_snapshot.md",
+      "snapshot_sha256": "21170c9ef5a19a3e95867f8354de7b9a8ad9fca9cafaa3033d0c5bd7edabb9cc",
+      "strict_candidate_contains_exact_base": true,
+      "length_check": {
+        "entry": 36,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-036-9393/publication-entry-proposal.md",
+        "title_chars": 29,
+        "easy_chars": 71,
+        "easy_sentences": 3,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "number": true,
+        "six_labels": true,
+        "tags": true,
+        "grade": true
+      },
+      "production_layout_check": true,
+      "initial_canonical_entry": {
+        "entry": 36,
+        "title": "### 36. 손해배상 요구는 기록을 남기고 위법한 협박을 피하세요",
+        "source_entry_snapshot_path": "_workspace/2026-10-18-036-9393/entry_snapshot.md",
+        "source_entry_snapshot_sha256": "21170c9ef5a19a3e95867f8354de7b9a8ad9fca9cafaa3033d0c5bd7edabb9cc",
+        "source_review_status": "no_new_error_found",
+        "candidate_review_status": "pending_candidate_review",
+        "scope_and_findings": "민법750조 고의/과실·위법·손해,형법350조 공갈·정당청구 구분. 이득의 위법행위 책임 요약을 무과실 배상으로 읽히지 않게 주의하세요. 소비자기본법55조는 사업자-소비자 범위. 요구액 큼만으로 범죄 단정하지 않는 유보 유지."
+      },
+      "finding_closure": "법률내용/전필드길이·보호·layout·DOI0은통과.750고의과실위법손해/350정당배상과위법협박구별/55소비자신청과부적합중지정확.단비고41앵커가현재대상제목에연속일치하지않아참조한정수정요청.본문사실오류로판정하지않음.",
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "revision_requests": [
+        {
+          "field": "비고/reference",
+          "exact_span": "제41항(참여한 대화 녹음)",
+          "problem": "현재41제목에연속앵커문자열없음",
+          "required": "같은저자36새variant에서실제41제목앵커로최소수정하거나새41제목에이앵커를보존한exact안을제출.원안불변."
+        }
+      ],
+      "field_decisions": {
+        "title": "approve",
+        "비용": "approve",
+        "쉽게": "approve",
+        "이득": "approve",
+        "근거등급": "approve",
+        "출처": "approve",
+        "비고": "revise_reference_only"
+      }
+    }
+  ],
+  "approved_entries": [
+    35
+  ],
+  "revise_entries": [
+    36
+  ],
+  "actual_primary_readings": [
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290625.xml",
+      "artifact_sha256": "6dcaa4f8cc423d10de912c763c0482c57a1bf30b908f4615f60887b7638d0de0",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290625&type=XML",
+      "read_at_utc": "2026-10-18T19:59:37.762364+00:00",
+      "read_scope": "2/4/5/6/7/8/27/28모든항직접읽음.구금/무죄확정·상소권회복재심등구분,3년인지/5년확정한계,지방공소청심의회관할·피의자구금후사유/비종국/기소유예제외,거짓자백목적/다른범죄등재량제외,같은원인배상공제정확.21490시행20261002및다른법률개정50호직접읽음.28⑤의보상결정송달후2년지급청구는원고가절차전체를설명하지않는한계로기록하며앞단3년보상청구와다른절차임.기존캐시직접읽음/이번새HTTP아님.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch08-audit/law290527.raw",
+      "artifact_sha256": "32f9912ebaad226d160f7057c7515709c164936a067b556a4334116df9a56591",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290527&type=XML",
+      "read_at_utc": "2026-10-18T19:59:37.762461+00:00",
+      "read_scope": "2전체·36728시행직접읽음.원인발생해일급최저임금5배상한,법5①하한과결합1~5배.현금연도환산없음.기존캐시직접읽음/이번새HTTP아님.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/284415.xml",
+      "artifact_sha256": "cd2997176df62de7b1e4bb018287987654f6054cbd0eeced9e882d5c4daf53df",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=284415&type=XML",
+      "read_at_utc": "2026-10-18T19:59:37.764071+00:00",
+      "read_scope": "750전문·21454시행직접읽음.고의과실/위법/타인손해의배상책임.기존캐시직접읽음/이번새HTTP아님.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/283837.xml",
+      "artifact_sha256": "710ddcc550c27e43b59573bb1e8bd58b2149a865b18ee48d5977dbbdbdee1096",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=283837&type=XML",
+      "read_at_utc": "2026-10-18T19:59:37.764413+00:00",
+      "read_scope": "2/55/59전체·21444시행/적용례직접읽음.사업자소비자물품용역사용피해신청/부적합사유통지중지,소제기시절차중지구분.본문은신청가능권고로해결보장없음.기관운영페이지신규열람없음.기존캐시직접읽음/이번새HTTP아님.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    }
+  ],
+  "prior_actual_reading_reuse": [
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/publication-followup-review-04-r12.json",
+      "sha256": "e427746ddb6288971965668a248400e6c1ba12d340559a7d907f5aa2e29dc35f",
+      "scope": "형법350전항/22007시행읽기재사용"
+    }
+  ],
+  "cross_reference_review": [
+    {
+      "entries": [
+        11,
+        34,
+        35
+      ],
+      "scope": "최신승인11→35형사보상/34→35보상요건이새35제목연속부분문자열과내용에일치.작성자기록29→35는최신승인29실본문에없으므로incoming으로세지않음."
+    },
+    {
+      "entries": [
+        32,
+        36,
+        41
+      ],
+      "scope": "최신승인32→새36손해배상요구앵커/공갈구별내용일치.36→41참여한대화녹음은현재41제목참여한대화는원본을남겨녹음하되공개하지마세요의연속문자열아님.같은저자36r2또는새41full제목앵커보존후exact재검토필요.현재41본문참여자대화와타인간대화구분/공개유보범위는적합."
+    }
+  ],
+  "production_helper_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/scripts/humanize_publication.py",
+  "production_helper_sha256": "244c194c7620c3095dc3a972eecdaa4e17fab8a0a301ae8b601cb8401569bfd3",
+  "helper_code_modified": false,
+  "fresh_http_performed": false,
+  "whole46_approval": false,
+  "integration_approval": false,
+  "formal_kr_fit_approval": false,
+  "preservation": "Prior reviews/frozen proposals/canonical/public/runs/gates/git unchanged.",
+  "reviewer_id": "/root/publication_review_04",
+  "six_complete_fields_read": true
+}

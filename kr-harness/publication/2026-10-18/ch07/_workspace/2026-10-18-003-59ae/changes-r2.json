@@ -1,0 +1,70 @@
+{
+  "status": "unadopted_pending_independent_exact_hash_review",
+  "chapter": 7,
+  "entry": 3,
+  "previous_proposal_path": "kr-harness/publication/2026-10-18/ch07/_workspace/2026-10-18-003-59ae/publication-entry-proposal.md",
+  "previous_proposal_sha256": "4397a2f08a4ee703189e4e24b7f70f950153b4c83b4ed42134315b9b42b7e7a1",
+  "previous_changes_sha256": "f7a8e658bc645dc5e66ab7c0bbeaebbeec2a3136517a410b1f2fa1d83fb85b5a",
+  "proposal_path": "kr-harness/publication/2026-10-18/ch07/_workspace/2026-10-18-003-59ae/newpublication-entry-proposal-r2.md",
+  "proposal_sha256": "a57c50061e545ebd4c54098f89a10a5e5e201f71c659a40a410c1a4fe6b5b658",
+  "changes": [
+    {
+      "field": "비고",
+      "before": "검찰청이 피해자국선변호사로 지정한 경우는 예외입니다.",
+      "after": "검사가 피해자국선변호사로 선정한 경우는 예외입니다.",
+      "reason": "국선변호사의 법정 선정 주체는 검사. 공단 안내의 기관명 표기를 현행 권한 근거로 삼지 않고 고소대리 예외 문장만 최소 교정. 보편적 선정권·추가 자격 조건을 주장하지 않음."
+    }
+  ],
+  "exact_diff": "--- publication-entry-proposal.md\n+++ newpublication-entry-proposal-r2.md\n@@ -5,4 +5,4 @@\n - 이득: 법률구조는 법률상담과 소송대리 등을 포함합니다. 법은 원칙적으로 구조 수수료 징수를 금지합니다. 다만 소송비용·변호사보수는 예외가 있습니다. 기초생활수급자·등록장애인 등은 국가가 비용을 부담할 수 있습니다. 「법률구조법」 제2조·제7조를 확인하세요. 상담에서 청구 상대방과 증거부터 확인하세요. 임금체불·양육비·산재 등도 사건별 지원 조건을 확인하세요. 일반 유료구조의 소득 기준은 기준중위소득 125% 이하입니다. 무료구조는 대상 유형마다 지원 조건과 비용 부담 범위가 다릅니다.\n - 근거등급: A\n - 출처: 「법률구조법」 제2조·제7조·제8조. <https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=239375&type=XML&efYd=20230112> 「법률구조법 시행령」 제4조. <https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=242387&type=XML> 대한법률구조공단 방문상담·소송구조개요·법률구조 대상자 안내. <https://www.klac.or.kr/legalstruct/visitingConsultation.do> <https://www.klac.or.kr/legalstruct/outlineOfLitigationStruct.do> <https://www.klac.or.kr/legalstruct/legalRescueGuide.do>\n-- 비고: 2026-10-18 법령·공단 안내 확인. 무료구조 유형별 최신 소득표 전체를 확인한 것은 아닙니다. 신청할 때 본인 유형의 소득 기준과 지원 범위를 확인하세요. 상담이 무료여도 법원 비용까지 전부 면제되는 것은 아닙니다. 국가가 비용을 부담하는 대상이어도 사건 심사가 필요합니다. 공단 안내상 승소금액 3억원 초과 사건은 무료구조에서 제외됩니다. 패소하면 상대방 변호사비 등 소송비용을 부담할 수 있습니다. 형사고소 대리는 원칙적으로 공단 업무에 포함되지 않습니다. 검찰청이 피해자국선변호사로 지정한 경우는 예외입니다.\n+- 비고: 2026-10-18 법령·공단 안내 확인. 무료구조 유형별 최신 소득표 전체를 확인한 것은 아닙니다. 신청할 때 본인 유형의 소득 기준과 지원 범위를 확인하세요. 상담이 무료여도 법원 비용까지 전부 면제되는 것은 아닙니다. 국가가 비용을 부담하는 대상이어도 사건 심사가 필요합니다. 공단 안내상 승소금액 3억원 초과 사건은 무료구조에서 제외됩니다. 패소하면 상대방 변호사비 등 소송비용을 부담할 수 있습니다. 형사고소 대리는 원칙적으로 공단 업무에 포함되지 않습니다. 검사가 피해자국선변호사로 선정한 경우는 예외입니다.\n",
+  "primary_evidence": [
+    {
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/289993.xml",
+      "raw_sha256": "59d81472328677059564df800389cc6e54e12e4788061dd146f949df56af60c4",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=289993&type=XML",
+      "verification_method": "existing raw XML independently read; no new HTTP claim",
+      "read_at": "2026-10-18T19:42:27.494486+00:00",
+      "read_scope": "기본정보, 제27조 전항, 최신 부칙",
+      "exact_quote": "⑥ 검사는 피해자에게 변호사가 없는 경우 국선변호사를 선정하여 형사절차에서 피해자의 권익을 보호할 수 있다. 다만, 19세미만피해자등에게 변호사가 없는 경우에는 국선변호사를 선정하여야 한다. <개정 2023.7.11>",
+      "supplementary_quote": "부칙 <제21997호,2026.9.29>\n\n\n제1조(시행일) 이 법은 2026년 10월 2일부터 시행한다.\n\n\n제2조(적용례) 제26조의2의 개정규정은 이 법 시행 당시 수사 중인 성폭력범죄의 경우에도 적용한다. 이 경우 법률 제21857호 형사소송법 일부개정법률 제245조의5제1항제2호 후단의 기간이 경과하지 아니하거나 같은 법 제245조의8제1항에 따라 검사가 재수사요구를 한 경우를 포함한다.\n\n\n\n",
+      "effective_date": "20261002"
+    },
+    {
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/289809.xml",
+      "raw_sha256": "f5d2dab54b255190fc8c3212d6371e5ef39aff84ce2604e0575031afc1b8041f",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=289809&type=XML",
+      "verification_method": "existing raw XML independently read; no new HTTP claim",
+      "read_at": "2026-10-18T19:42:27.496900+00:00",
+      "read_scope": "기본정보, 제16조 전항, 최신 부칙",
+      "exact_quote": "⑥ 검사는 피해아동에게 변호사가 없는 경우 형사 및 아동보호 절차에서 피해아동의 권익을 보호하기 위하여 국선변호사를 선정하여야 한다.",
+      "supplementary_quote": "부칙 <제21999호,2026.9.29>\n\n\n이 법은 2026년 10월 2일부터 시행한다.\n\n\n\n",
+      "effective_date": "20261002"
+    }
+  ],
+  "literal_check": {
+    "command": [
+      "python",
+      "kr-harness/publication/2026-10-18/ch05/publication-partial-review-evidence/literal_check.py",
+      "kr-harness/publication/2026-10-18/ch07/_workspace/2026-10-18-003-59ae/newpublication-entry-proposal-r2.md"
+    ],
+    "exit_code": 0,
+    "stdout": "[\n  {\n    \"entry\": null,\n    \"path\": \"kr-harness/publication/2026-10-18/ch07/_workspace/2026-10-18-003-59ae/newpublication-entry-proposal-r2.md\",\n    \"title_chars\": 26,\n    \"easy_chars\": 81,\n    \"easy_sentences\": 3,\n    \"long_sentences\": [],\n    \"pass_length\": true\n  }\n]\n"
+  },
+  "layout_check": {
+    "field_count": 6,
+    "field_order": [
+      "비용",
+      "쉽게",
+      "이득",
+      "근거등급",
+      "출처",
+      "비고"
+    ],
+    "single_physical_lines": true,
+    "cost_tag_unchanged": true,
+    "evidence_grade_unchanged": true,
+    "title_unchanged": true
+  },
+  "preserved": "다른 문장·출처·제목·태그·등급·숫자·원자료·r1 파일 전부 보존",
+  "doi_changes": [],
+  "additional_scope_changes": []
+}

@@ -1,0 +1,232 @@
+{
+  "chapter": 8,
+  "status": "completed_exact_partial_review_r15",
+  "manifest_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/author-partial-manifest-15.json",
+  "manifest_sha256": "72d541c2cbae7d7ce4480d7d38379bd2a1ccfdb9787cecde6f314e20af0263bd",
+  "entries": [
+    {
+      "entry": 24,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-024-0dc4/publication-entry-proposal.md",
+      "proposal_sha256": "a6ebec61e938c850991845a3d7621493c3f96c3552adb6efd988242f42050367",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-024-0dc4/publication-entry-changes.json",
+      "changes_sha256": "561f37b0757c183078ad6f3f71dc081e125c9ef248fbc05366f3e2693a815098",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-024-0dc4/strict-entry.md",
+      "base_strict_entry_sha256": "d5f0b8be48a4a24e2cf94bc88a28d102380c357f433d2a26fd5b431047860735",
+      "literal_exit_code": 0,
+      "decision": "approve",
+      "all_four_complete_fields_read": true,
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "snapshot_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-024-0dc4/entry_snapshot.md",
+      "snapshot_sha256": "d5f0b8be48a4a24e2cf94bc88a28d102380c357f433d2a26fd5b431047860735",
+      "strict_candidate_contains_exact_base": true,
+      "length_check": {
+        "entry": 24,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-024-0dc4/publication-entry-proposal.md",
+        "title_chars": 23,
+        "easy_chars": 74,
+        "easy_sentences": 3,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "number": true,
+        "six_labels": true,
+        "tags": true,
+        "grade": true
+      },
+      "production_layout_check": true,
+      "initial_canonical_entry": {
+        "entry": 24,
+        "title": "### 24. 예단·예물은 용도와 반환 조건을 기록하세요",
+        "source_entry_snapshot_path": "_workspace/2026-10-18-024-0dc4/entry_snapshot.md",
+        "source_entry_snapshot_sha256": "d5f0b8be48a4a24e2cf94bc88a28d102380c357f433d2a26fd5b431047860735",
+        "source_review_status": "pending_case_verification",
+        "candidate_review_status": "pending_candidate_review",
+        "scope_and_findings": "민법555~558 일반증여 원문만 확인. 한국 예물 반환 판례는 검색 범위를 넓혀 실제 결과까지 받았으나 해당 대법원 판단을 아직 확보하지 못했습니다. 자동반환 비율/사유는 금지. A등급만으로 예물 반환법리까지 검증됐다고 표시하지 마세요."
+      },
+      "finding_closure": "실555~558범위를일반증여해제로만제한하고예단예물자동반환/비율을추정하지않음.한국판례·혼인전후요건미확인은독자본문에정직유지.반환조건기록만으로무조건집행보장하지않는조언이므로미열람을사실오류로세지않음.최신23앵커정정확인.전필드/길이/layout/보호/DOI0통과.",
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "revision_requests": [],
+      "proposed_root_operation": {
+        "type": "replace_complete_strict_entry_body",
+        "before_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-024-0dc4/strict-entry.md",
+        "before_entire_entry_sha256": "d5f0b8be48a4a24e2cf94bc88a28d102380c357f433d2a26fd5b431047860735",
+        "after_proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-024-0dc4/publication-entry-proposal.md",
+        "after_original_proposal_sha256": "a6ebec61e938c850991845a3d7621493c3f96c3552adb6efd988242f42050367",
+        "effective_after_sha256": "a6ebec61e938c850991845a3d7621493c3f96c3552adb6efd988242f42050367",
+        "effective_after_rule": "proposal.rstrip()+original strict entry trailing whitespace; preserve original separators",
+        "supersession": "Latest approved full replaces any initial field/older full once.",
+        "integration_authorized": false
+      },
+      "field_decisions": {
+        "title": "approve",
+        "비용": "approve",
+        "쉽게": "approve",
+        "이득": "approve",
+        "근거등급": "approve",
+        "출처": "approve",
+        "비고": "approve"
+      }
+    },
+    {
+      "entry": 25,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-025-8c84/publication-entry-proposal.md",
+      "proposal_sha256": "1902169f513f2c6c6341c294834e3cb97f299d40177b84571d811b919f12df92",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-025-8c84/publication-entry-changes.json",
+      "changes_sha256": "2fbf579d6c5859268d62b1f35748e44b1e0f347fe3910ddd00066e0d25d9a177",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-025-8c84/strict-entry.md",
+      "base_strict_entry_sha256": "60c466aa2105de02197ef7402135523cdf65a8547331ecdd77166d5adad2f3ad",
+      "literal_exit_code": 0,
+      "decision": "approve",
+      "all_four_complete_fields_read": true,
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "snapshot_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-025-8c84/entry_snapshot.md",
+      "snapshot_sha256": "60c466aa2105de02197ef7402135523cdf65a8547331ecdd77166d5adad2f3ad",
+      "strict_candidate_contains_exact_base": true,
+      "length_check": {
+        "entry": 25,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-025-8c84/publication-entry-proposal.md",
+        "title_chars": 29,
+        "easy_chars": 76,
+        "easy_sentences": 3,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "number": true,
+        "six_labels": true,
+        "tags": true,
+        "grade": true
+      },
+      "production_layout_check": true,
+      "initial_canonical_entry": {
+        "entry": 25,
+        "title": "### 25. 혼전재산·부모 지원금은 소유와 이혼 분할을 구분하세요",
+        "source_entry_snapshot_path": "_workspace/2026-10-18-025-8c84/entry_snapshot.md",
+        "source_entry_snapshot_sha256": "60c466aa2105de02197ef7402135523cdf65a8547331ecdd77166d5adad2f3ad",
+        "source_review_status": "verified_new_http",
+        "candidate_review_status": "pending_candidate_review",
+        "scope_and_findings": "93므1020 실제 판결: 적극적인 유지 협력으로 감소 방지/증식 기여를 인정한 사안. 가사 외 가업 경리·경영참여 사실입니다. 특유재산이 언제나 분할되는 것으로 확대 금지. 민법829조 혼인성립 전 약정·등기/830조 소유·839의2 분할 구분 일치."
+      },
+      "finding_closure": "실829/830/839의2및93므1020재산분할요지·이유2직접읽음.적극적인유지감소방지또는증식기여조건을독자본문에명시해특유재산자동분할아님구별.혼인전약정/성립전등기대항조건과소유분할별도정확.분할액/부모지원금귀속/등기세금대출개별결론추정안함.현재10e10~12참조본문범위대조.전필드/길이/layout/보호/DOI0통과.",
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "revision_requests": [],
+      "proposed_root_operation": {
+        "type": "replace_complete_strict_entry_body",
+        "before_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-025-8c84/strict-entry.md",
+        "before_entire_entry_sha256": "60c466aa2105de02197ef7402135523cdf65a8547331ecdd77166d5adad2f3ad",
+        "after_proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-025-8c84/publication-entry-proposal.md",
+        "after_original_proposal_sha256": "1902169f513f2c6c6341c294834e3cb97f299d40177b84571d811b919f12df92",
+        "effective_after_sha256": "1902169f513f2c6c6341c294834e3cb97f299d40177b84571d811b919f12df92",
+        "effective_after_rule": "proposal.rstrip()+original strict entry trailing whitespace; preserve original separators",
+        "supersession": "Latest approved full replaces any initial field/older full once.",
+        "integration_authorized": false
+      },
+      "field_decisions": {
+        "title": "approve",
+        "비용": "approve",
+        "쉽게": "approve",
+        "이득": "approve",
+        "근거등급": "approve",
+        "출처": "approve",
+        "비고": "approve"
+      }
+    }
+  ],
+  "approved_entries": [
+    24,
+    25
+  ],
+  "revise_entries": [],
+  "actual_primary_readings": [
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/284415.xml",
+      "artifact_sha256": "cd2997176df62de7b1e4bb018287987654f6054cbd0eeced9e882d5c4daf53df",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=284415&type=XML",
+      "read_at_utc": "2026-10-18T19:51:33.016594+00:00",
+      "read_scope": "829/830/839의2전체및4199부칙1/2/6직접읽음.혼인전약정/혼인성립까지등기제삼자대항·특유재산과분할구별·협력/기타사정·분할청구2년범위확인.24의555~558직접읽기는r8재사용,판본20260317/21454부칙재사용.예물반환판례/개별지원금수증자확정아님.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch08-audit/prec110226.raw",
+      "artifact_sha256": "815263fd98309b9552801d1e9bb5e5c4227954963c5e44262df5b66b3dee17c6",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=prec&ID=110226&type=XML",
+      "read_at_utc": "2026-10-18T19:51:33.016691+00:00",
+      "read_scope": "실제93므1020/1994.5.13대법원판결정체·판시사항/요지·이유2재산분할부분직접읽음.혼전부모증여특유재산도타방적극유지/감소방지또는증식기여시포함가능.이사건가사전담외24시간잡화상경리/가사비용협력사실확인.다른모든부부재산판례/부모지원금개별세금검증아님.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    }
+  ],
+  "prior_actual_reading_reuse": [
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/publication-followup-review-04-r8.json",
+      "sha256": "9f694335e809aa4e1fff4c9b83153fbb1d2967e17630d8b28d2b1bf63f155fc0",
+      "scope": "555~558전체·21454부칙직접읽기재사용.예물반환판례미열람은여전히미확인범위."
+    }
+  ],
+  "cross_reference_review": [
+    {
+      "source_entry": 23,
+      "target_entry": 24,
+      "incoming_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-023-c65b/publication-entry-proposal.md",
+      "incoming_sha256": "cc176cd1e70b4a8dc03bb7f7ef65fe0e1aa48a09051963d016f7f44903e519ca",
+      "scope": "승인최신23의예단예물앵커는24제목실제어구/일반증여와혼인조건별반환한계에부합."
+    },
+    {
+      "source_entry": 25,
+      "target_chapter": 10,
+      "target_entry": 10,
+      "path": "/workspace/HowToLiveBetter-KR/book-kr/10-연애와-결혼의-가성비.md",
+      "file_sha256": "0ce3b4fd4934c8c91363ee1136c5034ccd3e9253f722c21563728835476f5baf",
+      "body_sha256": "f4029eda064fa6fa807d9b61d2753e7a718c7dccbd4af94e2034763fd389268d",
+      "scope": "부부재산약정/부모지원금수증자·대여증여/배우자채무와소유·분할구분안내문맥대조.다른판례/증여세수치전체독립신규승인아님."
+    },
+    {
+      "source_entry": 25,
+      "target_chapter": 10,
+      "target_entry": 11,
+      "path": "/workspace/HowToLiveBetter-KR/book-kr/10-연애와-결혼의-가성비.md",
+      "file_sha256": "0ce3b4fd4934c8c91363ee1136c5034ccd3e9253f722c21563728835476f5baf",
+      "body_sha256": "73b8e6dfe8e7577d3d43a6d318bb4f4a4a3ede731a2d6c992c437ef444df9d84",
+      "scope": "부부재산약정/부모지원금수증자·대여증여/배우자채무와소유·분할구분안내문맥대조.다른판례/증여세수치전체독립신규승인아님."
+    },
+    {
+      "source_entry": 25,
+      "target_chapter": 10,
+      "target_entry": 12,
+      "path": "/workspace/HowToLiveBetter-KR/book-kr/10-연애와-결혼의-가성비.md",
+      "file_sha256": "0ce3b4fd4934c8c91363ee1136c5034ccd3e9253f722c21563728835476f5baf",
+      "body_sha256": "cdb75a4fb11d5372b96fd0415234f5bebf17f6041b19c0db13afd1a424076716",
+      "scope": "부부재산약정/부모지원금수증자·대여증여/배우자채무와소유·분할구분안내문맥대조.다른판례/증여세수치전체독립신규승인아님."
+    }
+  ],
+  "production_helper_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/scripts/humanize_publication.py",
+  "production_helper_sha256": "244c194c7620c3095dc3a972eecdaa4e17fab8a0a301ae8b601cb8401569bfd3",
+  "helper_code_modified": false,
+  "fresh_http_performed": false,
+  "whole46_approval": false,
+  "integration_approval": false,
+  "formal_kr_fit_approval": false,
+  "preservation": "Prior reviews/frozen proposals/canonical/public/runs/gates/git unchanged.",
+  "reviewer_id": "/root/publication_review_04",
+  "six_complete_fields_read": true
+}

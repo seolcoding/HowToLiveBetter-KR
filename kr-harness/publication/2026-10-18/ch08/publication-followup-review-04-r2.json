@@ -1,0 +1,228 @@
+{
+  "chapter": 8,
+  "status": "completed_exact_partial_review_r8",
+  "manifest_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/author-partial-manifest-8.json",
+  "manifest_sha256": "370dcde1ff8fc2ffc5cd31e3867247b1921d6a154f823aede51de28a8fa0ab88",
+  "entries": [
+    {
+      "entry": 10,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-010-f204/publication-entry-proposal.md",
+      "proposal_sha256": "5030467c65ff41fb72be4f8314cf0c94ea99ed23420ed60389d35453a5f0c9a3",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-010-f204/publication-entry-changes.json",
+      "changes_sha256": "9e2b8fb21f776b36f222c7a239959496fb3217ba186494047ea79fc66a625f81",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-010-f204/strict-entry.md",
+      "base_strict_entry_sha256": "359e3e7f8b9df4e4e8941f1ed4f932280098f0d6b4caaf5d1fb4b14cffa02e6d",
+      "literal_exit_code": 0,
+      "decision": "approve",
+      "all_four_complete_fields_read": true,
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "snapshot_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-010-f204/entry_snapshot.md",
+      "snapshot_sha256": "359e3e7f8b9df4e4e8941f1ed4f932280098f0d6b4caaf5d1fb4b14cffa02e6d",
+      "strict_candidate_contains_exact_base": true,
+      "length_check": {
+        "entry": 10,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-010-f204/publication-entry-proposal.md",
+        "title_chars": 20,
+        "easy_chars": 60,
+        "easy_sentences": 3,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "number": true,
+        "six_labels": true,
+        "tags": true,
+        "grade": true
+      },
+      "production_layout_check": true,
+      "initial_canonical_entry": {
+        "entry": 10,
+        "title": "### 10. 충돌이 생기면 거리를 두고 신고하세요",
+        "source_entry_snapshot_path": "_workspace/2026-10-18-010-f204/entry_snapshot.md",
+        "source_entry_snapshot_sha256": "359e3e7f8b9df4e4e8941f1ed4f932280098f0d6b4caaf5d1fb4b14cffa02e6d",
+        "source_review_status": "no_new_error_found",
+        "candidate_review_status": "pending_candidate_review",
+        "scope_and_findings": "폭행260·상해257·정당방위21의 현재 부당침해와 상당한 이유를 분리. 선제 폭행만으로 결론 내리거나 맞대응 모두 유죄로 단정하지 않는 문장 유지."
+      },
+      "finding_closure": "초기no_new_error범위유지하며21조1항의현재부당침해/자타법익방위목적/상당이유명시로정확화.법21/257/260과112법2실조문·부칙직접대조.맞대응별도판단/선제폭행만으로모든반격면책아님보존.과잉방위예외는11최신안참조에있음.안전회피/CCTV기록은실용제안이며법이예방효과수치를증명한다고하지않음.전6필드/4본문·길이/layout·보호/DOI0통과.",
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "revision_requests": [],
+      "proposed_root_operation": {
+        "type": "replace_complete_strict_entry_body",
+        "before_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-010-f204/strict-entry.md",
+        "before_entire_entry_sha256": "359e3e7f8b9df4e4e8941f1ed4f932280098f0d6b4caaf5d1fb4b14cffa02e6d",
+        "after_proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-010-f204/publication-entry-proposal.md",
+        "after_original_proposal_sha256": "5030467c65ff41fb72be4f8314cf0c94ea99ed23420ed60389d35453a5f0c9a3",
+        "effective_after_sha256": "5030467c65ff41fb72be4f8314cf0c94ea99ed23420ed60389d35453a5f0c9a3",
+        "effective_after_rule": "proposal.rstrip()+original strict entry trailing whitespace; preserve original separators",
+        "supersession": "Latest approved full replaces any initial field/older full once.",
+        "integration_authorized": false
+      },
+      "field_decisions": {
+        "title": "approve",
+        "비용": "approve",
+        "쉽게": "approve",
+        "이득": "approve",
+        "근거등급": "approve",
+        "출처": "approve",
+        "비고": "approve"
+      }
+    },
+    {
+      "entry": 11,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-011-6b18/publication-entry-proposal.md",
+      "proposal_sha256": "abca332ac4b58c0bc61e49d9924511ffe1e6361789cc556ed381a59b5f248d69",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-011-6b18/publication-entry-changes.json",
+      "changes_sha256": "c6179b37c0f9b84a2ceb6a2e751c955235723639826813ce608498472aefa9fd",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-011-6b18/strict-entry.md",
+      "base_strict_entry_sha256": "f5d7f6da74904215c34c9aede7eda011bc0ca884da0e34eeea07af725ea3927f",
+      "literal_exit_code": 0,
+      "decision": "approve",
+      "all_four_complete_fields_read": true,
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "snapshot_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-011-6b18/entry_snapshot.md",
+      "snapshot_sha256": "f5d7f6da74904215c34c9aede7eda011bc0ca884da0e34eeea07af725ea3927f",
+      "strict_candidate_contains_exact_base": true,
+      "length_check": {
+        "entry": 11,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-011-6b18/publication-entry-proposal.md",
+        "title_chars": 23,
+        "easy_chars": 77,
+        "easy_sentences": 3,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "number": true,
+        "six_labels": true,
+        "tags": true,
+        "grade": true
+      },
+      "production_layout_check": true,
+      "initial_canonical_entry": {
+        "entry": 11,
+        "title": "### 11. 현재 침해를 막는 행동과 보복을 구분하세요",
+        "source_entry_snapshot_path": "_workspace/2026-10-18-011-6b18/entry_snapshot.md",
+        "source_entry_snapshot_sha256": "f5d7f6da74904215c34c9aede7eda011bc0ca884da0e34eeea07af725ea3927f",
+        "source_review_status": "revise_precision",
+        "candidate_review_status": "pending_candidate_review",
+        "scope_and_findings": "21조3항은 과잉방위가 야간 등 불안한 상태의 공포·경악·흥분·당황 때문에 이루어진 경우 불처벌입니다. 현재 별도 규정이라는 요약은 틀리지는 않으나 조건·결과를 평이하게 명시 권장. 정당방위가 수사 자체를 막는다는 주장은 금지."
+      },
+      "finding_closure": "초기revise_precision해소.21조3항의과잉방위·야간또는그밖불안상태·공포등때문이라는인과및불처벌결과를모두명시.정도초과재량감경면제와자동면책/수사자동종료부정구별.실법30/200의2/201및관련시행예외읽음.판례별치명적방위결론이나실비수치검증은아님.5최신본문/35strict의안내범위와참조부합하며35는후속full재검토조건.전필드/길이/layout·보호/DOI0통과.",
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "revision_requests": [],
+      "proposed_root_operation": {
+        "type": "replace_complete_strict_entry_body",
+        "before_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-011-6b18/strict-entry.md",
+        "before_entire_entry_sha256": "f5d7f6da74904215c34c9aede7eda011bc0ca884da0e34eeea07af725ea3927f",
+        "after_proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-011-6b18/publication-entry-proposal.md",
+        "after_original_proposal_sha256": "abca332ac4b58c0bc61e49d9924511ffe1e6361789cc556ed381a59b5f248d69",
+        "effective_after_sha256": "abca332ac4b58c0bc61e49d9924511ffe1e6361789cc556ed381a59b5f248d69",
+        "effective_after_rule": "proposal.rstrip()+original strict entry trailing whitespace; preserve original separators",
+        "supersession": "Latest approved full replaces any initial field/older full once.",
+        "integration_authorized": false
+      },
+      "field_decisions": {
+        "title": "approve",
+        "비용": "approve",
+        "쉽게": "approve",
+        "이득": "approve",
+        "근거등급": "approve",
+        "출처": "approve",
+        "비고": "approve"
+      }
+    }
+  ],
+  "approved_entries": [
+    10,
+    11
+  ],
+  "revise_entries": [],
+  "actual_primary_readings": [
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290185.xml",
+      "artifact_sha256": "391f3c2bb7173fff4040eda9ae2259674b616e58aeadf4371206b63c70f1c89b",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290185&type=XML",
+      "read_at_utc": "2026-10-18T19:39:03.042119+00:00",
+      "read_scope": "형법21조①~③/257조①~③/260조①~③전체·기본정보와17571/21450/22007부칙직접읽음.현재부당침해·자타법익방위·상당이유,과잉방위재량감면및야간등불안상태공포등원인불처벌,상해/폭행·반의사불벌범위확인.20261002기본/해당조문시행.본문에인용하지않은형량전체를추가하지않음. 신규HTTP아님;개별사건판례/비용전수검증아님.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/257787.xml",
+      "artifact_sha256": "fdb882c418c5cfe84ea14907dc1b7dc082f1a2c5707338667884fa30c097711e",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=257787&type=XML",
+      "read_at_utc": "2026-10-18T19:39:03.042227+00:00",
+      "read_scope": "112신고법2조전체/기본정보·19870부칙직접읽음.범죄/사건사고위급상황발생또는예상신고정의,20240703시행.112사후효과수치/통화료검증아님. 신규HTTP아님;개별사건판례/비용전수검증아님.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290189.xml",
+      "artifact_sha256": "f917fd5794540a55cc19ef2b94e5142ee97cdaafc9215827fa653b6c275ab9fa",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290189&type=XML",
+      "read_at_utc": "2026-10-18T19:39:03.043282+00:00",
+      "read_scope": "형사소송법30조전체·200의2전체·201조전체/기본정보및21857부칙1조의각장래시행항목과22009부칙직접읽음.체포/구속독립요건·변호인선임및면담보장확인.20261002시행규정대상이며21857제1조예외목록은이조문들과구별.거대한개정법률부칙15조다른법전부읽었다고하지않음.본문은정당방위주장만으로수사자동종료아님을요약하며모든체포절차나비용을법령이입증한다고하지않음. 신규HTTP아님;개별사건판례/비용전수검증아님.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    }
+  ],
+  "prior_actual_reading_reuse": [],
+  "cross_reference_review": [
+    {
+      "source_entry": 10,
+      "target_entry": 11,
+      "target_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-011-6b18/publication-entry-proposal.md",
+      "target_sha256": "abca332ac4b58c0bc61e49d9924511ffe1e6361789cc556ed381a59b5f248d69",
+      "actual_scope": "10이인용한현재방위/과잉/보복구분이최신11full에존재",
+      "target_full_final_approval": true
+    },
+    {
+      "source_entry": 11,
+      "target_entry": 5,
+      "target_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-005-58f1/publication-entry-proposal.md",
+      "target_sha256": "8a45b0a61ce4862157018c031c0bf1a2e2d6fab32aa48d4f25d54d9c8588e736",
+      "actual_scope": "11의진술거부권·변호인안내는최신승인5full의전체진술/개별답변거부·참여제한조건과부합",
+      "target_full_final_approval": true
+    },
+    {
+      "source_entry": 11,
+      "target_entry": 35,
+      "target_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-035-fb81/strict-entry.md",
+      "target_sha256": "8a53d576e15640c35a2e1c8f2ccc452d835580164b81fef8122ac8fa9b6182cf",
+      "actual_scope": "구금후보상요건을확인하라는연결만부합.현재대상은strict이고full아직없어향후full/최종closure에서재검토필요.타항목금액/기한전체승인아님.",
+      "target_full_final_approval": false
+    }
+  ],
+  "production_helper_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/scripts/humanize_publication.py",
+  "production_helper_sha256": "244c194c7620c3095dc3a972eecdaa4e17fab8a0a301ae8b601cb8401569bfd3",
+  "helper_code_modified": false,
+  "fresh_http_performed": false,
+  "whole46_approval": false,
+  "integration_approval": false,
+  "formal_kr_fit_approval": false,
+  "preservation": "Prior reviews/frozen proposals/canonical/public/runs/gates/git unchanged.",
+  "reviewer_id": "/root/publication_review_04",
+  "six_complete_fields_read": true,
+  "reference_recheck_on_target35_full_required": true
+}

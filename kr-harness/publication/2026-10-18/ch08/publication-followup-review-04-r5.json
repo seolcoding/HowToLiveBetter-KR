@@ -1,0 +1,420 @@
+{
+  "chapter": 8,
+  "status": "completed_exact_partial_review_r11",
+  "manifest_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/author-partial-manifest-11.json",
+  "manifest_sha256": "256c4ed203c5dd0e9d71a7d282fa7658c097e889b3c5790cb4962ea07c14d562",
+  "entries": [
+    {
+      "entry": 13,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-013-a758/publication-entry-proposal-r2.md",
+      "proposal_sha256": "e9232de30d2d01169e1a70aaf4c0bd012bbd8ec288c02acfba1189da370add38",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-013-a758/publication-entry-changes-r2.json",
+      "changes_sha256": "2b2e33801280d8abb9f07a6801b4d4932332a35ef333d534438b5bc8fc25f39d",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-013-a758/strict-entry.md",
+      "base_strict_entry_sha256": "da1854f8962544566f3b967d2bab296f001c7028a5e7ec7d5fb9cd51237e2fab",
+      "literal_exit_code": 0,
+      "decision": "approve",
+      "all_four_complete_fields_read": true,
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "snapshot_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-013-a758/entry_snapshot.md",
+      "snapshot_sha256": "da1854f8962544566f3b967d2bab296f001c7028a5e7ec7d5fb9cd51237e2fab",
+      "strict_candidate_contains_exact_base": true,
+      "length_check": {
+        "entry": 13,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-013-a758/publication-entry-proposal-r2.md",
+        "title_chars": 21,
+        "easy_chars": 73,
+        "easy_sentences": 3,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "number": true,
+        "six_labels": true,
+        "tags": true,
+        "grade": true
+      },
+      "production_layout_check": true,
+      "initial_canonical_entry": {
+        "entry": 13,
+        "title": "### 13. 분노를 관계없는 사람에게 돌리지 마세요",
+        "source_entry_snapshot_path": "_workspace/2026-10-18-013-a758/entry_snapshot.md",
+        "source_entry_snapshot_sha256": "da1854f8962544566f3b967d2bab296f001c7028a5e7ec7d5fb9cd51237e2fab",
+        "source_review_status": "no_new_error_found",
+        "candidate_review_status": "pending_candidate_review",
+        "scope_and_findings": "형법250조 일반 살인 형량·283조 협박 근거 확인. 의도·수단·결과별 죄명 차이 유지. 중국 공공안전죄·사형사례를 한국에 대입하지 않았습니다."
+      },
+      "finding_closure": "r4유일수정요청인중국사상자/사형집행비적용메모첫문장정확삭제외r1byte동일.실법250①/283공소제한·범죄명유보/14긴급도움범위는r4직접읽기재사용.전필드/길이/layout·보호·DOI0통과.",
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "revision_requests": [],
+      "proposed_root_operation": {
+        "type": "replace_complete_strict_entry_body",
+        "before_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-013-a758/strict-entry.md",
+        "before_entire_entry_sha256": "da1854f8962544566f3b967d2bab296f001c7028a5e7ec7d5fb9cd51237e2fab",
+        "after_proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-013-a758/publication-entry-proposal-r2.md",
+        "after_original_proposal_sha256": "e9232de30d2d01169e1a70aaf4c0bd012bbd8ec288c02acfba1189da370add38",
+        "effective_after_sha256": "e9232de30d2d01169e1a70aaf4c0bd012bbd8ec288c02acfba1189da370add38",
+        "effective_after_rule": "proposal.rstrip()+original strict entry trailing whitespace; preserve original separators",
+        "supersession": "Latest approved full replaces any initial field/older full once.",
+        "integration_authorized": false
+      },
+      "field_decisions": {
+        "title": "approve",
+        "비용": "approve",
+        "쉽게": "approve",
+        "이득": "approve",
+        "근거등급": "approve",
+        "출처": "approve",
+        "비고": "approve"
+      }
+    },
+    {
+      "entry": 15,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-015-4b6c/publication-entry-proposal.md",
+      "proposal_sha256": "db77da23b8fe2edef96daef3c684236d4652925a6812c3378f62b23af77d0f26",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-015-4b6c/publication-entry-changes.json",
+      "changes_sha256": "eda32f66f36e4cd30000f6ef273227393337c913b10b17a504f2eb8de3b59caa",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-015-4b6c/strict-entry.md",
+      "base_strict_entry_sha256": "2b82648eec2ef4b5da9397099e74969078295f66026eec431b45c3cbdef037ec",
+      "literal_exit_code": 0,
+      "decision": "approve",
+      "all_four_complete_fields_read": true,
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "snapshot_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-015-4b6c/entry_snapshot.md",
+      "snapshot_sha256": "2b82648eec2ef4b5da9397099e74969078295f66026eec431b45c3cbdef037ec",
+      "strict_candidate_contains_exact_base": true,
+      "length_check": {
+        "entry": 15,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-015-4b6c/publication-entry-proposal.md",
+        "title_chars": 28,
+        "easy_chars": 72,
+        "easy_sentences": 3,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "number": true,
+        "six_labels": true,
+        "tags": true,
+        "grade": true
+      },
+      "production_layout_check": true,
+      "initial_canonical_entry": {
+        "entry": 15,
+        "title": "### 15. 가족이 해치겠다고 말하면 안전을 확보하고 신고하세요",
+        "source_entry_snapshot_path": "_workspace/2026-10-18-015-4b6c/entry_snapshot.md",
+        "source_entry_snapshot_sha256": "2b82648eec2ef4b5da9397099e74969078295f66026eec431b45c3cbdef037ec",
+        "source_review_status": "no_new_error_found",
+        "candidate_review_status": "pending_candidate_review",
+        "scope_and_findings": "정신건강복지법50조 정신질환 추정·큰 위험·급박성·다른 입원 절차 시간 없음·의사와 경찰관 동의·공휴일 제외3일·전문의 진단·퇴원요건 일치. 가족 요구만의 강제입원과 구분."
+      },
+      "finding_closure": "50조응급입원발견자/의사경찰동의·질환추정/큰위험/급박/다른절차시간없음·공휴일뺀3일·지체없는전문의진단·계속입원시41~44요건및즉시퇴원조건이원문과일치.가족만으로결정못함/상담109·급박112구별.평가이송진료실비미측정을수치로추정안함.전필드검사통과.",
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "revision_requests": [],
+      "proposed_root_operation": {
+        "type": "replace_complete_strict_entry_body",
+        "before_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-015-4b6c/strict-entry.md",
+        "before_entire_entry_sha256": "2b82648eec2ef4b5da9397099e74969078295f66026eec431b45c3cbdef037ec",
+        "after_proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-015-4b6c/publication-entry-proposal.md",
+        "after_original_proposal_sha256": "db77da23b8fe2edef96daef3c684236d4652925a6812c3378f62b23af77d0f26",
+        "effective_after_sha256": "db77da23b8fe2edef96daef3c684236d4652925a6812c3378f62b23af77d0f26",
+        "effective_after_rule": "proposal.rstrip()+original strict entry trailing whitespace; preserve original separators",
+        "supersession": "Latest approved full replaces any initial field/older full once.",
+        "integration_authorized": false
+      },
+      "field_decisions": {
+        "title": "approve",
+        "비용": "approve",
+        "쉽게": "approve",
+        "이득": "approve",
+        "근거등급": "approve",
+        "출처": "approve",
+        "비고": "approve"
+      }
+    },
+    {
+      "entry": 16,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-016-9f8b/publication-entry-proposal.md",
+      "proposal_sha256": "e93ddb23b2f4614056632268092b2792e516242aabcb9bba37bea75402d5b9e2",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-016-9f8b/publication-entry-changes.json",
+      "changes_sha256": "ebd3b633b963ea3fba388cd02abe94ff532989bb18131d9a192bf413a04e1f94",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-016-9f8b/strict-entry.md",
+      "base_strict_entry_sha256": "6adabfee7fa5dc2f04c274c63aa31ab90f1c7ae6938237bb9b1175fd8553150f",
+      "literal_exit_code": 0,
+      "decision": "approve",
+      "all_four_complete_fields_read": true,
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "snapshot_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-016-9f8b/entry_snapshot.md",
+      "snapshot_sha256": "6adabfee7fa5dc2f04c274c63aa31ab90f1c7ae6938237bb9b1175fd8553150f",
+      "strict_candidate_contains_exact_base": true,
+      "length_check": {
+        "entry": 16,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-016-9f8b/publication-entry-proposal.md",
+        "title_chars": 25,
+        "easy_chars": 72,
+        "easy_sentences": 3,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "number": true,
+        "six_labels": true,
+        "tags": true,
+        "grade": true
+      },
+      "production_layout_check": true,
+      "initial_canonical_entry": {
+        "entry": 16,
+        "title": "### 16. 온라인 욕설·폭로·확인 안 된 전달을 멈추세요",
+        "source_entry_snapshot_path": "_workspace/2026-10-18-016-9f8b/entry_snapshot.md",
+        "source_entry_snapshot_sha256": "6adabfee7fa5dc2f04c274c63aa31ab90f1c7ae6938237bb9b1175fd8553150f",
+        "source_review_status": "no_new_error_found",
+        "candidate_review_status": "pending_candidate_review",
+        "scope_and_findings": "형법307·310·311, 정보통신망법70 구분 확인. 사실 적시 명예훼손을 사실이면 항상 위법으로 바꾸거나 공공이익 요건을 지우지 마세요. 공개범위·목적을 따지는 현재 유보 유지."
+      },
+      "finding_closure": "초기명예훼손공익요건보존.310을307①처벌예외로정밀화하고망법70비방목적/공공연성·사실거짓구분·인용공유자동면책아님은실조문과맞음.기소조건312/70③도직접읽었고원고의개별검토·신고권고를무조건기소/자동처벌로해석하지않음.ECRM실안내직접읽음.37strict참조는취지부합하나후속full재검토필요.전필드검사통과.",
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "revision_requests": [],
+      "proposed_root_operation": {
+        "type": "replace_complete_strict_entry_body",
+        "before_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-016-9f8b/strict-entry.md",
+        "before_entire_entry_sha256": "6adabfee7fa5dc2f04c274c63aa31ab90f1c7ae6938237bb9b1175fd8553150f",
+        "after_proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-016-9f8b/publication-entry-proposal.md",
+        "after_original_proposal_sha256": "e93ddb23b2f4614056632268092b2792e516242aabcb9bba37bea75402d5b9e2",
+        "effective_after_sha256": "e93ddb23b2f4614056632268092b2792e516242aabcb9bba37bea75402d5b9e2",
+        "effective_after_rule": "proposal.rstrip()+original strict entry trailing whitespace; preserve original separators",
+        "supersession": "Latest approved full replaces any initial field/older full once.",
+        "integration_authorized": false
+      },
+      "field_decisions": {
+        "title": "approve",
+        "비용": "approve",
+        "쉽게": "approve",
+        "이득": "approve",
+        "근거등급": "approve",
+        "출처": "approve",
+        "비고": "approve"
+      }
+    },
+    {
+      "entry": 17,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-017-25b9/publication-entry-proposal.md",
+      "proposal_sha256": "efbb40fb6dcf75cf4d20c4b2dbc805dcfe506103a19dcf6760ad4cac4e25baf8",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-017-25b9/publication-entry-changes.json",
+      "changes_sha256": "7d2656037c5c77d9fd25108e3d5f02bf2743af159d7d46b6f8b8910b465e22ce",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-017-25b9/strict-entry.md",
+      "base_strict_entry_sha256": "453fedf889116a50d82f57b6601875f63fcd47fade0aa0c16aa39edab9784b9b",
+      "literal_exit_code": 0,
+      "decision": "approve",
+      "all_four_complete_fields_read": true,
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "snapshot_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-017-25b9/entry_snapshot.md",
+      "snapshot_sha256": "453fedf889116a50d82f57b6601875f63fcd47fade0aa0c16aa39edab9784b9b",
+      "strict_candidate_contains_exact_base": true,
+      "length_check": {
+        "entry": 17,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-017-25b9/publication-entry-proposal.md",
+        "title_chars": 26,
+        "easy_chars": 60,
+        "easy_sentences": 3,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "number": true,
+        "six_labels": true,
+        "tags": true,
+        "grade": true
+      },
+      "production_layout_check": true,
+      "initial_canonical_entry": {
+        "entry": 17,
+        "title": "### 17. 서명 전에 읽고 빈칸을 채운 뒤 사본을 받으세요",
+        "source_entry_snapshot_path": "_workspace/2026-10-18-017-25b9/entry_snapshot.md",
+        "source_entry_snapshot_sha256": "453fedf889116a50d82f57b6601875f63fcd47fade0aa0c16aa39edab9784b9b",
+        "source_review_status": "no_new_error_found",
+        "candidate_review_status": "pending_candidate_review",
+        "scope_and_findings": "민법109·110 취소·중과실/제3자 조건, 전자서명법3조 전자형식만으로 효력부인 금지, 민법428의2 보증 서면 차이를 확인. 읽지 않았다고 자동 취소나 전자서명만으로 자동 유효는 금지."
+      },
+      "finding_closure": "실민법109/110·428의2및관련부칙/전자서명3직접읽기와모든요건일치.보증서면전자제외·불리변경·이행한도·2016.2.4이후체결갱신의적용범위보존.중과실/제삼자선의및인식조건·자동취소/자동유효금지유보.45strict명의·얼굴인증참조취지만맞으며그후속full재검토조건.전필드검사통과.",
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "revision_requests": [],
+      "proposed_root_operation": {
+        "type": "replace_complete_strict_entry_body",
+        "before_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-017-25b9/strict-entry.md",
+        "before_entire_entry_sha256": "453fedf889116a50d82f57b6601875f63fcd47fade0aa0c16aa39edab9784b9b",
+        "after_proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-017-25b9/publication-entry-proposal.md",
+        "after_original_proposal_sha256": "efbb40fb6dcf75cf4d20c4b2dbc805dcfe506103a19dcf6760ad4cac4e25baf8",
+        "effective_after_sha256": "efbb40fb6dcf75cf4d20c4b2dbc805dcfe506103a19dcf6760ad4cac4e25baf8",
+        "effective_after_rule": "proposal.rstrip()+original strict entry trailing whitespace; preserve original separators",
+        "supersession": "Latest approved full replaces any initial field/older full once.",
+        "integration_authorized": false
+      },
+      "field_decisions": {
+        "title": "approve",
+        "비용": "approve",
+        "쉽게": "approve",
+        "이득": "approve",
+        "근거등급": "approve",
+        "출처": "approve",
+        "비고": "approve"
+      }
+    }
+  ],
+  "approved_entries": [
+    13,
+    15,
+    16,
+    17
+  ],
+  "revise_entries": [],
+  "actual_primary_readings": [
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/285345.xml",
+      "artifact_sha256": "104f6e8ceb1e5d4f0c35b5bffa866b09a38e4b8c72047452d6ba6d8d40c8f35b",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=285345&type=XML",
+      "read_at_utc": "2026-10-18T19:45:31.237231+00:00",
+      "read_scope": "41/42/43/44/50전체및21117/21525부칙직접읽음.50①정신질환추정·큰위험·급박/다른절차시간없음·의사경찰동의,③공휴일제외3일·④지체없이전문의진단·⑤계속입원요건과41~44절차/필요없으면즉시퇴원·가족요구만강제아님확인.개별진단/비용/이송보장검증아님. 새HTTP아님.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290185.xml",
+      "artifact_sha256": "391f3c2bb7173fff4040eda9ae2259674b616e58aeadf4371206b63c70f1c89b",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290185&type=XML",
+      "read_at_utc": "2026-10-18T19:45:31.237918+00:00",
+      "read_scope": "307/310/311/312직접읽음.사실/허위구별·310은307①진실+공익한정·모욕공연성·312고소/피해자의사조건확인.22007부칙은r2직접읽기재사용.원고는범죄성립유보/검토안내이며무조건기소보장아님. 새HTTP아님.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290001.xml",
+      "artifact_sha256": "9a5b1491c704ab556b864385d0374ce13f283ccc19d8f9a43389c501a9e6578b",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290001&type=XML",
+      "read_at_utc": "2026-10-18T19:45:31.238526+00:00",
+      "read_scope": "44의2전체·70전체·21305부칙1~6및21988시행직접읽음.비방목적/공공연사실거짓명예훼손·피해자의사공소조건,삭제임시조치요청및개정적용/경과구분.신규형량/몰수수치나과거사건에장래법소급추가하지않음. 새HTTP아님.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/284415.xml",
+      "artifact_sha256": "cd2997176df62de7b1e4bb018287987654f6054cbd0eeced9e882d5c4daf53df",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=284415&type=XML",
+      "read_at_utc": "2026-10-18T19:45:31.240618+00:00",
+      "read_scope": "109①②/110①~③/428의2①~③전체·13125부칙1~3/6직접읽음.중요부분착오·중과실제외·제삼자사기/강박과상대방인식조건·선의제삼자보호·보증서면/전자제외/불리변경/이행한도하자무효주장제한·2016.2.4이후체결갱신적용확인.이캐시실조문110②는사기나강박둘다명시하며과거기억으로줄이지않음.개별판례사건검증아님. 새HTTP아님.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/236201.xml",
+      "artifact_sha256": "3614b3492242469c6de01576e0031a04583520ed5f5c16cca55e251f3a7e4459",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=236201&type=XML",
+      "read_at_utc": "2026-10-18T19:45:31.240826+00:00",
+      "read_scope": "전자서명법3①②전체/17354시행및18479부칙직접읽음.전자형식만의효력부인금지·법령약정선택서명효력이며실체계약전체자동유효와구분.거대한타법정비부칙7조전체가아니라해당시행/효력범위만읽음. 새HTTP아님.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch08-review04/e16-ecrm-original.html",
+      "artifact_sha256": "efb3a093543aea0d7545d715c0173d3efff01428492617c3e5bdcde004df9055",
+      "url": "https://ecrm.police.go.kr/minwon/main",
+      "read_at_utc": "2026-10-18T19:45:31.240904+00:00",
+      "read_scope": "실제경찰공식ECRM제목/신고·상담메뉴/온라인신고전안내직접읽음.출석진술원칙·다수피해사이버사기예외·증빙첨부안내존재.개인로그인/실제접수성공·고소기간세부확정아님.저자원HTTP파일복사보존후읽기,이번신규HTTP아님.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    }
+  ],
+  "prior_actual_reading_reuse": [
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/publication-followup-review-04-r4.json",
+      "sha256": "4b61a027f7f32de1c146c3072f81db82a37ff375dfd3f3d25d2359e624814af2",
+      "scope": "13실법/14최신본문·109실기관/112조문읽기재사용"
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/publication-followup-review-04-r2.json",
+      "sha256": "c21d1d67f38b01c83f62e30fc550e1fb580a1bb99174ffa633ee4691ba8d0135",
+      "scope": "형법22007부칙·112정의/19870부칙읽기재사용"
+    }
+  ],
+  "cross_reference_review": [
+    {
+      "source_entry": 13,
+      "target_entry": 14,
+      "target_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-014-a082/publication-entry-proposal.md",
+      "target_sha256": "d8dd32bcae299fc9b8ce12c5406e7d8a063ed7dbb30d915632096c6be3bc5ab8",
+      "target_is_full": true,
+      "scope": "14위험물거리/도움/타해효과미측정유보·37증거/차단/삭제신고·45명의/전자서명자동유효아님·제삼자사기조건을실제현재본문과대조.각참조취지만승인.37/45full아직없으므로완료후재대조필요."
+    },
+    {
+      "source_entry": 16,
+      "target_entry": 37,
+      "target_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-037-ce9a/strict-entry.md",
+      "target_sha256": "cfc7b15f6539e588556354483736a5f7de5d7d2bbb56f96e17bd2f0bdffdd3a8",
+      "target_is_full": false,
+      "scope": "14위험물거리/도움/타해효과미측정유보·37증거/차단/삭제신고·45명의/전자서명자동유효아님·제삼자사기조건을실제현재본문과대조.각참조취지만승인.37/45full아직없으므로완료후재대조필요."
+    },
+    {
+      "source_entry": 17,
+      "target_entry": 45,
+      "target_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-045-585b/strict-entry.md",
+      "target_sha256": "60db72fc893861d977c634f52efbcd8654253b2250d5f35d98f2c4355a2642b5",
+      "target_is_full": false,
+      "scope": "14위험물거리/도움/타해효과미측정유보·37증거/차단/삭제신고·45명의/전자서명자동유효아님·제삼자사기조건을실제현재본문과대조.각참조취지만승인.37/45full아직없으므로완료후재대조필요."
+    }
+  ],
+  "production_helper_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/scripts/humanize_publication.py",
+  "production_helper_sha256": "244c194c7620c3095dc3a972eecdaa4e17fab8a0a301ae8b601cb8401569bfd3",
+  "helper_code_modified": false,
+  "fresh_http_performed": false,
+  "whole46_approval": false,
+  "integration_approval": false,
+  "formal_kr_fit_approval": false,
+  "preservation": "Prior reviews/frozen proposals/canonical/public/runs/gates/git unchanged.",
+  "reviewer_id": "/root/publication_review_04",
+  "six_complete_fields_read": true,
+  "entry13_only_requested_span_removed": true,
+  "pending_reference_targets_for_final_recheck": [
+    37,
+    45
+  ]
+}

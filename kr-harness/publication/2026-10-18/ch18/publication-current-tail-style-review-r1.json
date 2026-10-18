@@ -1,0 +1,134 @@
+{
+  "review_id": "publication-current-tail-style-review-r1",
+  "status": "approved_for_exact_integration",
+  "decision": "approve",
+  "chapter": 18,
+  "reviewed_at_utc": "2026-10-18T20:23:20.804110+00:00",
+  "proposal_path": "kr-harness/publication/2026-10-18/ch18/publication-current-tail-style-proposal-r1.json",
+  "proposal_sha256": "d2a24b51c77696bd68c00530c9e0450127c437577499487d486e57640de7cee1",
+  "before_whole_sha256": "3176ee900412a711aed03090c222d290dac32d88fc06c5a0cb422f9440009957",
+  "before_tail_sha256": "72a0c926e426e99dc0cb1c2b0064e667b655c250f73101f892290f8fd78548c4",
+  "after_tail_sha256": "7ad07d99ab1027ac12ef6cd73edf2483148a32bc06a9e86f884035b32b3e98ff",
+  "expected_whole_after_sha256": "d3e764db98a7b07c79aff330761eef9b9f59dc1303103124f05af3d6cd04f8cb",
+  "operations": [
+    {
+      "before": "한국에서 부모급여·아동수당·첫만남이용권이 기초생활보장 소득인정액에서 빠지는지는 「국민기초생활 보장법 시행령」 제5조에 명시가 없다.",
+      "after": "한국에서 부모급여·아동수당·첫만남이용권이 빠지는지는 명시가 없다. 「국민기초생활 보장법 시행령」 제5조의 기초생활보장 소득인정액에 관한 내용이다.",
+      "decision": "approve"
+    },
+    {
+      "before": "보건복지부 「국민기초생활보장사업안내」 원문 확인 후 비고에 보강(2026-10-10 미확인).",
+      "after": "보건복지부 「국민기초생활보장사업안내」 원문 확인 후 비고에 보강. 2026-10-10 미확인.",
+      "decision": "approve"
+    },
+    {
+      "before": "- 항목 1: 원문의 「개인소득세 면제」에 대응하는 아동수당·부모급여 자체의 비과세 근거 조문은 확인하지 못해 뺐다.",
+      "after": "- 항목 1: 원문의 「개인소득세 면제」에 대응하는 근거 조문은 확인하지 못해 뺐다. 대상은 아동수당·부모급여 자체의 비과세다.",
+      "decision": "approve"
+    },
+    {
+      "before": "- 항목 2: 고용노동부고시 제2026-67호(90일 상한 660만 원)는 2026년 12월 31일까지 유효하다.",
+      "after": "- 항목 2: 고용노동부고시 제2026-67호는 90일 상한 660만 원이다. 2026년 12월 31일까지 유효하다.",
+      "decision": "approve"
+    }
+  ],
+  "semantic_reason": "부모급여·아동수당·첫만남이용권의 소득인정액 제외 여부는 시행령5조 문맥의 미확인 상태로 유지한다. 사업안내 확인 대기·2026-10-10 미확인과 비과세 근거 미확인, 고시2026-67호의90일660만원 및2026-12-31 유효조건을 보존한다. 새 제외/비과세 혜택을 확정하지 않는다.",
+  "sentence_audit": [
+    {
+      "text": "원문은 육아 보조금이 「저소득 구조 심사 때 소득에 넣지 않는다」고 적었다.",
+      "actual_chars_including_parentheses": 42,
+      "visible_prefix_chars": 50
+    },
+    {
+      "text": "한국에서 부모급여·아동수당·첫만남이용권이 빠지는지는 명시가 없다.",
+      "actual_chars_including_parentheses": 36,
+      "visible_prefix_chars": 36
+    },
+    {
+      "text": "「국민기초생활 보장법 시행령」 제5조의 기초생활보장 소득인정액에 관한 내용이다.",
+      "actual_chars_including_parentheses": 44,
+      "visible_prefix_chars": 44
+    },
+    {
+      "text": "보건복지부 「국민기초생활보장사업안내」 원문 확인 후 비고에 보강.",
+      "actual_chars_including_parentheses": 36,
+      "visible_prefix_chars": 36
+    },
+    {
+      "text": "2026-10-10 미확인.",
+      "actual_chars_including_parentheses": 15,
+      "visible_prefix_chars": 15
+    },
+    {
+      "text": "원문의 「개인소득세 면제」에 대응하는 근거 조문은 확인하지 못해 뺐다.",
+      "actual_chars_including_parentheses": 39,
+      "visible_prefix_chars": 47
+    },
+    {
+      "text": "대상은 아동수당·부모급여 자체의 비과세다.",
+      "actual_chars_including_parentheses": 23,
+      "visible_prefix_chars": 23
+    },
+    {
+      "text": "확인되면 비고에 추가.",
+      "actual_chars_including_parentheses": 12,
+      "visible_prefix_chars": 12
+    },
+    {
+      "text": "시·군·구 조례 출산지원금은 지역마다 달라 전국 공통 출처가 없다.",
+      "actual_chars_including_parentheses": 37,
+      "visible_prefix_chars": 45
+    },
+    {
+      "text": "금액 없이 안내만 남겼다.",
+      "actual_chars_including_parentheses": 14,
+      "visible_prefix_chars": 14
+    },
+    {
+      "text": "고용노동부고시 제2026-67호는 90일 상한 660만 원이다.",
+      "actual_chars_including_parentheses": 35,
+      "visible_prefix_chars": 43
+    },
+    {
+      "text": "2026년 12월 31일까지 유효하다.",
+      "actual_chars_including_parentheses": 21,
+      "visible_prefix_chars": 21
+    },
+    {
+      "text": "2027년 고시가 나오면 상한액을 갱신.",
+      "actual_chars_including_parentheses": 22,
+      "visible_prefix_chars": 22
+    },
+    {
+      "text": "노동위원회 구제신청 수수료 유무는 중앙노동위원회 안내 화면에 없어 확인하지 못했다.",
+      "actual_chars_including_parentheses": 46,
+      "visible_prefix_chars": 54
+    },
+    {
+      "text": "확인되면 비고의 과정 비용에 추가.",
+      "actual_chars_including_parentheses": 19,
+      "visible_prefix_chars": 19
+    }
+  ],
+  "length_convention": {
+    "actual_sentence_includes": "법령·기관·수치·괄호·공백 전체 포함; 문장 밖 서수/항목 표시는 별도보수집계",
+    "actual_max": 46,
+    "visible_prefix_included_max": 54,
+    "untouched_prefix_over50": "항목3 actual46자, 항목표시 포함54자를 구별하여 유지. 전체표시포함50이하라고 주장하지 않음."
+  },
+  "checks": {
+    "actual_whole_tail_and_snapshots_match": true,
+    "only_unique_operations_changed": true,
+    "all_other_tail_bytes_unchanged": true,
+    "intro_and_all_numbered_entries_unchanged": true,
+    "entry_count": 6,
+    "todo_count": 5,
+    "todo_heading_numbers_conditions_unresolved_status_preserved": true,
+    "literal50_actual_sentences": true,
+    "public_guard_rechecked": true
+  },
+  "source_verification_scope": "이 승인에서는 기존 미확인/확인 상태를 바꾸지 않은 문장 분리만 판단했다. 새 원자료 사실 승인 아님; 신규HTTP/외부raw재열람0.",
+  "formal_approval": false,
+  "publication_approval": false,
+  "public_written": false
+}
