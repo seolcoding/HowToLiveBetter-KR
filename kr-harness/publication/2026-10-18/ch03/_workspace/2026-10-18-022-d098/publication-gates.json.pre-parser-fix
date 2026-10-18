@@ -1,0 +1,45 @@
+{
+  "genre": "essay",
+  "change_rate": {
+    "rate": 0.0024,
+    "scope": "전문",
+    "verdict": "OK"
+  },
+  "s1_targets": [],
+  "antithesis": {
+    "before": 0,
+    "after": 0,
+    "verdict": "스킵 (원문 대구 < 5)"
+  },
+  "golden": [
+    {
+      "code": "footnote_anchor",
+      "message": "각주 29)이 원위치를 벗어났습니다 (인접 수치 앵커 '08' → '11'): 인용 출처 변조 위험"
+    }
+  ],
+  "sentence_touch": {
+    "rate": 0.0172,
+    "touched": 1,
+    "total": 58
+  },
+  "numbers_dropped": [],
+  "modality": {
+    "lost_pairs": [],
+    "uncertain_pairs": [],
+    "counts": {
+      "deontic": {
+        "before": 0,
+        "after": 0
+      },
+      "hedge": {
+        "before": 1,
+        "after": 1
+      }
+    },
+    "verdict": "OK"
+  },
+  "gate": {
+    "verdict": "WARN — 경고. 사용자 고지 + finalize 승급",
+    "exit_code": 1
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "decision": "accept",
+  "fidelity_violations": [],
+  "residual_findings": [
+    {
+      "code": "footnote_anchor",
+      "classification": "parser_false_positive",
+      "message": "29) anchor 08→11; same failure reproduced for before=before. CI endings .29) parsed as duplicate footnote markers; first-position comparison creates false mismatch."
+    }
+  ],
+  "overediting": [],
+  "correction_count": 0,
+  "body_changes_during_finalize": 0,
+  "self_check": {
+    "passed": 6,
+    "total": 6
+  },
+  "physical_fields": 4,
+  "characters": {
+    "before": 1660,
+    "after": 1660,
+    "definition": "body excluding trailing newline"
+  },
+  "gate": {
+    "exit_code": 1,
+    "verdict": "WARN",
+    "change_rate": 0.0024,
+    "preserved": true
+  },
+  "verification": {
+    "before_equals_before_warning_reproduced": true,
+    "only_edit": "D-8 문제는 기준이 어디서 왔느냐입니다. → 기준이 어디서 왔느냐가 문제입니다.",
+    "all_other_body_text_identical": true,
+    "input_and_snapshot_untouched": true
+  },
+  "diagnosis": "light; no separate diagnosis"
+}

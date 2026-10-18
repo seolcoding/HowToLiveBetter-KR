@@ -1,0 +1,679 @@
+{
+  "status": "pending_candidate_review",
+  "chapter": 4,
+  "reviewed_at": "2026-10-18T12:36:58.875443+00:00",
+  "source_sha256": "75862eb5fd6b44340bc3e939add11e1e9a7cd74b57ce639827d99ec7a6ceaa37",
+  "candidate_sha256": null,
+  "editorial_approval": false,
+  "formal_kr_fit": "not_performed_this_is_editorial_source_audit",
+  "machine_check": {
+    "target": "source.md",
+    "blocks": 0,
+    "warnings": 0
+  },
+  "scope": "전18항 source와 entry_snapshot 정독; 후보 아직 없음. 모든 편집결정 미승인. 기존 감사/원문책은 맥락일 뿐 재검증 근거로 대체하지 않음.",
+  "entries": [
+    {
+      "entry": 1,
+      "source_review_status": "source_verification_incomplete",
+      "source_note": "94개·d=0.65·주로 학생 건강습관·원하는 목표에만 통한다는 범위는 현재 캐시가 서지만 제공해 재검증 미완료. d를 달성률 퍼센트 증가로 바꾸면 안 됨.",
+      "entry_snapshot": "_workspace/2026-10-18-001-e4c0/entry_snapshot.md",
+      "entry_snapshot_sha256": "46384cb06ca226a03bd6e42b798803693c8e414c4cbd8ae3804beae5c3c403c2",
+      "candidate_review_status": "pending_candidate_review",
+      "proposal": {
+        "path": "_workspace/2026-10-18-001-e4c0/editorial-proposal.json",
+        "sha256": "031e9a0b87a17c76f21ba96763cfe03f5aa351f21f149f399ce341f704f014ce",
+        "field_decisions": [
+          {
+            "field": "easy",
+            "decision": "pending_candidate_review",
+            "preliminary_concern": null
+          }
+        ]
+      }
+    },
+    {
+      "entry": 2,
+      "source_review_status": "source_verification_incomplete",
+      "source_note": "실행 의도 메타분석 서지만 확보. disengagement 원문 단락 직접 확인 미완료. 절약 시간 미측정이라는 유보 유지.",
+      "entry_snapshot": "_workspace/2026-10-18-002-716c/entry_snapshot.md",
+      "entry_snapshot_sha256": "6da75c5b9876f5de4359f20ffe97a8cbdfefab818b9a01802910b3c501176ae4",
+      "candidate_review_status": "pending_candidate_review",
+      "proposal": null
+    },
+    {
+      "entry": 3,
+      "source_review_status": "partially_verified",
+      "source_note": "Roth 초록의 98 effect sizes와 연령·시간 조절 확인. 시간에 따른 약화는 utilization decisions에 한정해야 함. Arkes 시즌권 가격·4.11/3.32/3.29 수치는 원문 직접 확인 미완료.",
+      "entry_snapshot": "_workspace/2026-10-18-003-e342/entry_snapshot.md",
+      "entry_snapshot_sha256": "31aac7dfe16b1960dfae236ec073559139bf3e2a78f7734cc1c66945e61fab65",
+      "candidate_review_status": "pending_candidate_review",
+      "proposal": {
+        "path": "_workspace/2026-10-18-003-e342/editorial-proposal.json",
+        "sha256": "9aa7fb56494d73abeb8868278e3fd789042c5fe40fa7f14faf04313c55c1e93b",
+        "field_decisions": [
+          {
+            "field": "easy",
+            "decision": "pending_candidate_review",
+            "preliminary_concern": null
+          }
+        ]
+      }
+    },
+    {
+      "entry": 4,
+      "source_review_status": "revision_required",
+      "source_note": "Halkjelsvik 초록: 과소추정은 공학·경영 문헌에서 더 흔했으나 심리학 문헌에서는 그렇지 않았음. 비고의 전체 연구 일반화 수정. Buehler 논문 33.9/55.5·29.7·29.3/60.0·37명/약40명은 서지로 확인 불가. 제안의 60.0/29.3을 논문쓰기 연구로 한정하는 것은 서로 다른 연구 혼동 위험.",
+      "entry_snapshot": "_workspace/2026-10-18-004-3813/entry_snapshot.md",
+      "entry_snapshot_sha256": "7355b55bddeccb9faa832e25b5ee6f27fcec69d0d830ec0d7accf2dd0b6d43db",
+      "candidate_review_status": "pending_candidate_review",
+      "proposal": {
+        "path": "_workspace/2026-10-18-004-3813/editorial-proposal.json",
+        "sha256": "bbb7a79c5fcd1072a82091d05c913d6d0566d27f9ff8b2cf2bf3234e6da84d18",
+        "field_decisions": [
+          {
+            "field": "easy",
+            "decision": "pending_candidate_review",
+            "preliminary_concern": "60.0/29.3을 논문쓰기 연구로 한정하지 말 것; 원문 후속 연구확인 필요"
+          }
+        ]
+      }
+    },
+    {
+      "entry": 5,
+      "source_review_status": "source_verification_incomplete",
+      "source_note": "두 DOI 서지만 직접 열람. 958/292·55/56팀·34%와 실험 과제 세부 미확인. 34%는 앉은 회의가 선 회의보다 길다는 분모 유지(서서34%단축으로 역산 금지). 안건 조사연관과 실험 구별 유지.",
+      "entry_snapshot": "_workspace/2026-10-18-005-91a6/entry_snapshot.md",
+      "entry_snapshot_sha256": "bee6e1e005ba8d7c2a0ac03a34ef47e0994f314a310ab1aebb62048525e4c184",
+      "candidate_review_status": "pending_candidate_review",
+      "proposal": null
+    },
+    {
+      "entry": 6,
+      "source_review_status": "partially_verified",
+      "source_note": "Rogelberg 초록의 676/304와 주35시간 이상(원문35 hr or more; 본문 넘게는 이상으로 수정 권장), 조절요인 확인. 일기 연구 수치/내용은 서지만. 회의 감축·비동기 소통의 인과효과 직접 검증 없음이라는 유보 유지.",
+      "entry_snapshot": "_workspace/2026-10-18-006-f386/entry_snapshot.md",
+      "entry_snapshot_sha256": "2b2abf44324f65a1e2f390d09273d3141828b32214dcff388eff52778e43fb9e",
+      "candidate_review_status": "pending_candidate_review",
+      "proposal": null
+    },
+    {
+      "entry": 7,
+      "source_review_status": "revision_required",
+      "source_note": "Kruger DOI 서지만 확보. Steel은 상관 메타분석으로 단계 쪼개기 개입이 미루기를 줄인다는 직접 근거가 아님. 쉽게/이득의 단정은 추론으로 한정하거나 직접 개입근거 확보. 백분율 미확인과 논문 미접근 구분.",
+      "entry_snapshot": "_workspace/2026-10-18-007-7441/entry_snapshot.md",
+      "entry_snapshot_sha256": "ad14a95affe3c622c1a0f117badda182c0ba27dc7376367082763a5bb5195d8d",
+      "candidate_review_status": "pending_candidate_review",
+      "proposal": {
+        "path": "_workspace/2026-10-18-007-7441/editorial-proposal.json",
+        "sha256": "f803a564e8dd0f40fe6c273bfc71f57c6c68073b94ce556908e384354f9ce269",
+        "field_decisions": [
+          {
+            "field": "todo",
+            "decision": "pending_candidate_review",
+            "preliminary_concern": null
+          }
+        ]
+      }
+    },
+    {
+      "entry": 8,
+      "source_review_status": "source_verification_incomplete",
+      "source_note": "Buehler 서지만 확보해 80.6/38.7/r=.82 세부 미확인. 외부 마감과 자기 예측 비교이지 자가마감 시험이 아니라는 제한을 쉽게에도 유지. 마감을 남에게 알리면 외부마감과 같다는 인과단정 피함.",
+      "entry_snapshot": "_workspace/2026-10-18-008-b4b7/entry_snapshot.md",
+      "entry_snapshot_sha256": "69c99aae85c00d4f545e26a4847d98f868e4532208b077d4723e355f4ed56a94",
+      "candidate_review_status": "pending_candidate_review",
+      "proposal": {
+        "path": "_workspace/2026-10-18-008-b4b7/editorial-proposal.json",
+        "sha256": "7c4a935ea063ab347e672432ba1211ca53c88f2825601ce07278cdfb4f791f30",
+        "field_decisions": [
+          {
+            "field": "easy",
+            "decision": "pending_candidate_review",
+            "preliminary_concern": null
+          }
+        ]
+      }
+    },
+    {
+      "entry": 9,
+      "source_review_status": "revision_required",
+      "source_note": "Steel 초록은 neuroticism/rebelliousness/sensation seeking만 weak. conscientiousness와 self-control/distractibility/organization/achievement motivation은 strong consistent predictors. 쉽게의 성격 전체와 약한 관계라는 문구 오류. 자기를 몰아붙여서는 해결되지 않는다는 개입단정도 상관연구가 직접 입증하지 않음.",
+      "entry_snapshot": "_workspace/2026-10-18-009-a03e/entry_snapshot.md",
+      "entry_snapshot_sha256": "d11115e800cfacd1199bdeb943a3587a97c7aaed2902001f0ca396c94ea5c5c9",
+      "candidate_review_status": "pending_candidate_review",
+      "proposal": null
+    },
+    {
+      "entry": 10,
+      "source_review_status": "partially_verified",
+      "source_note": "Cochrane XML 초록 확인:24건, 음식만,14실험실,12연구1098명 SMD−.60 CI−.84~−.36,3연구154명 선택 SMD−1.13 CI−1.90~−.37 모두 일치. 낮은 확실성 유지. 식품 선택량 감소를 사람 비율 감소로 바꾸지 않기. 휴대폰/게임으로 일반화 제한 유지.",
+      "entry_snapshot": "_workspace/2026-10-18-010-c59f/entry_snapshot.md",
+      "entry_snapshot_sha256": "180ffaed99d30b2ac90c3708b67993c1d632d18b3961f829bf82ceb4e169ec7f",
+      "candidate_review_status": "pending_candidate_review",
+      "proposal": {
+        "path": "_workspace/2026-10-18-010-c59f/editorial-proposal.json",
+        "sha256": "dad090f50ae328a8b175bf489a572db9338431e3603bc6c2432ba0adf647e3a2",
+        "field_decisions": [
+          {
+            "field": "easy",
+            "decision": "pending_candidate_review",
+            "preliminary_concern": null
+          }
+        ]
+      }
+    },
+    {
+      "entry": 11,
+      "source_review_status": "revision_required",
+      "source_note": "Halpern 초록의2538,90.0/13.7%,150/650/약800달러,6개월9.4~16.0/6.0,15.7/10.2,13.2pp CI3.1~22.8 확인. 마지막 비교는 IV 분석상 어느 프로그램이든 수락했을 것으로 추정되는13.7% 잠재집단 결과. 실제 두 방식 모두 동의한 사람을 관측 비교한 것으로 쓰면 오류. 적은 금액도 무보증금보다 낫다는 일반화 직접 미입증.",
+      "entry_snapshot": "_workspace/2026-10-18-011-59a6/entry_snapshot.md",
+      "entry_snapshot_sha256": "22efb51c296b51a9d1ea7a73c94e44721ecaeed0d471cc22a9331dba1c7d3db5",
+      "candidate_review_status": "pending_candidate_review",
+      "proposal": {
+        "path": "_workspace/2026-10-18-011-59a6/editorial-proposal.json",
+        "sha256": "4e3022dddf5e28decf9d3d82f3f766aca20bd7f8d81e87aac08cbada7a66fffe",
+        "field_decisions": [
+          {
+            "field": "easy",
+            "decision": "pending_candidate_review",
+            "preliminary_concern": null
+          }
+        ]
+      }
+    },
+    {
+      "entry": 12,
+      "source_review_status": "revision_required",
+      "source_note": "Crossref에 수록된 원논문 초록 확인:96지원자,82자료,62모형적합(그중39 good fit),84일 관찰.18~254일은 모형에서 자동성 최대치95%까지 도달시간을 추정한 값.254일 실측으로 읽히지 않게 쉽게·이득 수정. 빠르면18일 등의 실측표현 피함.",
+      "entry_snapshot": "_workspace/2026-10-18-012-75ad/entry_snapshot.md",
+      "entry_snapshot_sha256": "312f76c59a51c066af80f153a9668e28442eb932e2d37a70a11a8a125abf4c10",
+      "candidate_review_status": "pending_candidate_review",
+      "proposal": null
+    },
+    {
+      "entry": 13,
+      "source_review_status": "revision_required",
+      "source_note": "Rozental 초록 N150, 효과크기·CI·호전율·집단차비유의 모두 확인. 시험은 특정 internet-based CBT 자조 프로그램. 임의 인지행동 자조서/무료자료에 동일 효과를 부여할 수 없음. 한국어판 미확인 조건 쉽게에도 반영. 차이 비유의를 동등효과 입증으로 쓰지 않기.109 공식센터 직접 확인.",
+      "entry_snapshot": "_workspace/2026-10-18-013-463e/entry_snapshot.md",
+      "entry_snapshot_sha256": "71772b31f0e4fdcc0fc433816afafca336429837feee053987cfe555e0fdd775",
+      "candidate_review_status": "pending_candidate_review",
+      "proposal": null
+    },
+    {
+      "entry": 14,
+      "source_review_status": "partially_verified",
+      "source_note": "Whillans 초록4개국6271·관찰적 삶의만족 연관 및 별도 현장실험 행복 차이 구별 확인. 통계청PDF물리13쪽1:52/2019 1:56 및 가정관리+돌봄 확인. 시급보다 외주단가가 낮아야 한다는 것은 지은이 판단기준이며 휴식가치의 필요조건으로 단정하지 않기.",
+      "entry_snapshot": "_workspace/2026-10-18-014-9d6a/entry_snapshot.md",
+      "entry_snapshot_sha256": "71dbe0e0027b3576056d4d6c95af2f6b8353004c6befe28c7239a38730235ace",
+      "candidate_review_status": "pending_candidate_review",
+      "proposal": null
+    },
+    {
+      "entry": 15,
+      "source_review_status": "verified_with_scope_limit",
+      "source_note": "통계청PDF물리13쪽2:43/2019 2:26;22쪽 일요일93.4%·참여자3:41·동영상45.4/21.2 확인.10세이상, 여가미디어, 일요일/참여자 분모 유지. 매일1시간×365일은 조건부 산술이며 개입 관측효과로 쓰지 않기.",
+      "entry_snapshot": "_workspace/2026-10-18-015-4e59/entry_snapshot.md",
+      "entry_snapshot_sha256": "0b83659d87ffda9f0d31cc743c0582a9d58fc542c15ee7d16eb937d46d265a6e",
+      "candidate_review_status": "pending_candidate_review",
+      "proposal": null
+    },
+    {
+      "entry": 16,
+      "source_review_status": "verified_with_scope_limit",
+      "source_note": "BLS2025 공식발표2.6/5.2시간 확인. 통계청PDF22쪽 실시간방송 평일1:30·일요일2:08·행위자71.1%·행위자평균3:01 확인. 전체평균과 시청자평균 구분. 끊기·모아보기 개입효과는 입증되지 않은 C등급 판단 유지.",
+      "entry_snapshot": "_workspace/2026-10-18-016-7d2c/entry_snapshot.md",
+      "entry_snapshot_sha256": "2ac0e91e98d6f18f3cd254ec4524b424a142d26b4af17d535232c8113f55211b",
+      "candidate_review_status": "pending_candidate_review",
+      "proposal": null
+    },
+    {
+      "entry": 17,
+      "source_review_status": "source_verification_incomplete",
+      "source_note": "Lane DOI 서지만 확보.251명·효율실험6명·단축키 최속 미확인. 단축키 결과를 자동화 효과 전체로 일반화하지 말고 초기 학습시간과 작업별 차이 유지.",
+      "entry_snapshot": "_workspace/2026-10-18-017-3699/entry_snapshot.md",
+      "entry_snapshot_sha256": "288e61f7bdb16b86153c7511141334e5eecb4d878e767a3edbb4559a1e2a5bc2",
+      "candidate_review_status": "pending_candidate_review",
+      "proposal": null
+    },
+    {
+      "entry": 18,
+      "source_review_status": "revision_required",
+      "source_note": "통계청PDF13쪽 전체10세이상이동1:32,33쪽 취업자15세이상1:46 확인(출퇴근만 아님). Stutzer초록 longer commute/lower subjective wellbeing 연관 확인. Chatterjee 서지만 열람해 전체삶만족/보상 결론 직접확인 미완료. 편도30분→주5시간은 주5일왕복 조건 명시 필요. 관찰연관을 이사하면 행복향상 인과효과로 쓰지 않기.",
+      "entry_snapshot": "_workspace/2026-10-18-018-63e0/entry_snapshot.md",
+      "entry_snapshot_sha256": "f5fd0541d3c4e54f85549221556396cdf4b966e69bcf916e78a2cc1c70fb1090",
+      "candidate_review_status": "pending_candidate_review",
+      "proposal": null
+    }
+  ],
+  "opened_existing_caches": [
+    {
+      "doi": "10.1016/S0065-2601(06)38002-1",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2FS0065-2601%2806%2938002-1%22&format=json&resultType=core&pageSize=10",
+      "fetched_at": "2026-10-18T20:50:25.970178+09:00",
+      "http_status": 200,
+      "status": "no_exact_doi_match",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/f88e340000582f551c4a.json",
+      "sha256": "8f2ed85121184d0431355602a655d1434f98a73dd405cfb36d1ebf15e065cbce",
+      "actual_sha256": "8f2ed85121184d0431355602a655d1434f98a73dd405cfb36d1ebf15e065cbce",
+      "read_scope": "metadata/abstract as present"
+    },
+    {
+      "doi": "10.1016/0749-5978(85)90049-4",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2F0749-5978%2885%2990049-4%22&format=json&resultType=core&pageSize=10",
+      "fetched_at": "2026-10-18T20:50:26.225013+09:00",
+      "http_status": 200,
+      "status": "no_exact_doi_match",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/a28d057130b8ad3c03b2.json",
+      "sha256": "d9349010d9817d8e15d17ae3255d2524856fb5737d34038fdb77d43d251e6c1f",
+      "actual_sha256": "d9349010d9817d8e15d17ae3255d2524856fb5737d34038fdb77d43d251e6c1f",
+      "read_scope": "metadata/abstract as present"
+    },
+    {
+      "doi": "10.1007/s40685-014-0014-8",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1007%2Fs40685-014-0014-8%22&format=json&resultType=core&pageSize=10",
+      "fetched_at": "2026-10-18T20:50:26.399793+09:00",
+      "http_status": 200,
+      "status": "no_exact_doi_match",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/14fb6f3495da5c34a807.json",
+      "sha256": "bf638bb4c44cbae6293c529f051c1ede7066d5919918bb821a90b4fe7c881fc8",
+      "actual_sha256": "bf638bb4c44cbae6293c529f051c1ede7066d5919918bb821a90b4fe7c881fc8",
+      "read_scope": "metadata/abstract as present"
+    },
+    {
+      "doi": "10.1037/0022-3514.67.3.366",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1037%2F0022-3514.67.3.366%22&format=json&resultType=core&pageSize=10",
+      "fetched_at": "2026-10-18T20:50:26.573437+09:00",
+      "http_status": 200,
+      "status": "no_exact_doi_match",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/3fcf7218a7f1a5b55ca6.json",
+      "sha256": "8442b5c62b6884a7283910d79ee31ce7d9293976e77ef42c29a6be3ac87a5614",
+      "actual_sha256": "8442b5c62b6884a7283910d79ee31ce7d9293976e77ef42c29a6be3ac87a5614",
+      "read_scope": "metadata/abstract as present"
+    },
+    {
+      "doi": "10.1177/875697280603700302",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1177%2F875697280603700302%22&format=json&resultType=core&pageSize=10",
+      "fetched_at": "2026-10-18T20:50:26.737066+09:00",
+      "http_status": 200,
+      "status": "no_exact_doi_match",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/2757a11eba265541cd7a.json",
+      "sha256": "03345b003ed2800b3ac2f950b46c1856e2b70201f3e6a494576263a454b59b04",
+      "actual_sha256": "03345b003ed2800b3ac2f950b46c1856e2b70201f3e6a494576263a454b59b04",
+      "read_scope": "metadata/abstract as present"
+    },
+    {
+      "doi": "10.1037/a0025996",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1037%2Fa0025996%22&format=json&resultType=core&pageSize=10",
+      "fetched_at": "2026-10-18T20:50:26.904673+09:00",
+      "http_status": 200,
+      "status": "exact_doi_metadata_cached",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/4cec846a0874c64c9d91.json",
+      "sha256": "9481e791b8668b42529c3cfe13182960a639755dea6f684d1334dc7e0e4cab31",
+      "actual_sha256": "9481e791b8668b42529c3cfe13182960a639755dea6f684d1334dc7e0e4cab31",
+      "read_scope": "metadata/abstract as present"
+    },
+    {
+      "doi": "10.1007/s10869-009-9092-6",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1007%2Fs10869-009-9092-6%22&format=json&resultType=core&pageSize=10",
+      "fetched_at": "2026-10-18T20:50:26.979670+09:00",
+      "http_status": 200,
+      "status": "no_exact_doi_match",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/088a9773da2a17de5c43.json",
+      "sha256": "3dd5ca52f9f2d2a091a6a5436fd25d33924e9f80db6c962de79dfc3c32b729d0",
+      "actual_sha256": "3dd5ca52f9f2d2a091a6a5436fd25d33924e9f80db6c962de79dfc3c32b729d0",
+      "read_scope": "metadata/abstract as present"
+    },
+    {
+      "doi": "10.1037/0021-9010.91.1.83",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1037%2F0021-9010.91.1.83%22&format=json&resultType=core&pageSize=10",
+      "fetched_at": "2026-10-18T20:50:31.662266+09:00",
+      "http_status": 200,
+      "status": "exact_doi_metadata_cached",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/bf9de0081998f62feadb.json",
+      "sha256": "d6d104feff9b27c333175edaed09fe982257b22f3fcd17638c161b31d7b3d402",
+      "actual_sha256": "d6d104feff9b27c333175edaed09fe982257b22f3fcd17638c161b31d7b3d402",
+      "read_scope": "metadata/abstract as present"
+    },
+    {
+      "doi": "10.1037/1089-2699.9.1.58",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1037%2F1089-2699.9.1.58%22&format=json&resultType=core&pageSize=10",
+      "fetched_at": "2026-10-18T20:50:31.797041+09:00",
+      "http_status": 200,
+      "status": "no_exact_doi_match",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/2f86bd86fb3595b81c8c.json",
+      "sha256": "d1a40c9347fafbf8d54a1db5f72c1854635014a3cc8bd57fe2bd769f89ae68f1",
+      "actual_sha256": "d1a40c9347fafbf8d54a1db5f72c1854635014a3cc8bd57fe2bd769f89ae68f1",
+      "read_scope": "metadata/abstract as present"
+    },
+    {
+      "doi": "10.1016/j.jesp.2003.11.001",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2Fj.jesp.2003.11.001%22&format=json&resultType=core&pageSize=10",
+      "fetched_at": "2026-10-18T20:50:31.835321+09:00",
+      "http_status": 200,
+      "status": "no_exact_doi_match",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/b5f4a0084ec4a98592e0.json",
+      "sha256": "584db748ef21f94fbd84702f566596c224f58c6e4e904e36b88e0ed806b48d43",
+      "actual_sha256": "584db748ef21f94fbd84702f566596c224f58c6e4e904e36b88e0ed806b48d43",
+      "read_scope": "metadata/abstract as present"
+    },
+    {
+      "doi": "10.1037/0033-2909.133.1.65",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1037%2F0033-2909.133.1.65%22&format=json&resultType=core&pageSize=10",
+      "fetched_at": "2026-10-18T20:50:31.984327+09:00",
+      "http_status": 200,
+      "status": "exact_doi_metadata_cached",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/d96cbd6fc03d12ce102e.json",
+      "sha256": "f44e1dec4296a40a4166cf8a59556dbb45aae93c1069cd0fa08e4e3e618a37cb",
+      "actual_sha256": "f44e1dec4296a40a4166cf8a59556dbb45aae93c1069cd0fa08e4e3e618a37cb",
+      "read_scope": "metadata/abstract as present"
+    },
+    {
+      "doi": "10.1002/14651858.CD012573.pub3",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1002%2F14651858.CD012573.pub3%22&format=json&resultType=core&pageSize=10",
+      "fetched_at": "2026-10-18T20:50:32.000258+09:00",
+      "http_status": 200,
+      "status": "exact_doi_metadata_cached",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/767d68d835b3d0f1468e.json",
+      "sha256": "2d14e179e4fdbfcb7c922138603b52a7c816c258c43a786c9b65bc9a810c9488",
+      "actual_sha256": "2d14e179e4fdbfcb7c922138603b52a7c816c258c43a786c9b65bc9a810c9488",
+      "read_scope": "metadata/abstract as present"
+    },
+    {
+      "doi": "10.1056/NEJMoa1414293",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1056%2FNEJMoa1414293%22&format=json&resultType=core&pageSize=10",
+      "fetched_at": "2026-10-18T20:50:32.185823+09:00",
+      "http_status": 200,
+      "status": "exact_doi_metadata_cached",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/2d8a738a4644d42ef424.json",
+      "sha256": "5918ed1c14061b88e41c0d3b8cf90a2b33cb995a93a5fcddccd94407cc2a5e06",
+      "actual_sha256": "5918ed1c14061b88e41c0d3b8cf90a2b33cb995a93a5fcddccd94407cc2a5e06",
+      "read_scope": "metadata/abstract as present"
+    },
+    {
+      "doi": "10.1002/ejsp.674",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1002%2Fejsp.674%22&format=json&resultType=core&pageSize=10",
+      "fetched_at": "2026-10-18T20:50:32.227400+09:00",
+      "http_status": 200,
+      "status": "no_exact_doi_match",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/248f8ea4bd81051a8323.json",
+      "sha256": "108306e611a2ca3b85d7cbf7feb7aadaf0cd8282160bfc9ee8611f7541e1555c",
+      "actual_sha256": "108306e611a2ca3b85d7cbf7feb7aadaf0cd8282160bfc9ee8611f7541e1555c",
+      "read_scope": "metadata/abstract as present"
+    },
+    {
+      "doi": "10.1037/ccp0000023",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1037%2Fccp0000023%22&format=json&resultType=core&pageSize=10",
+      "fetched_at": "2026-10-18T20:50:32.378546+09:00",
+      "http_status": 200,
+      "status": "exact_doi_metadata_cached",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/38f8e8e3f9f3ac35ff75.json",
+      "sha256": "132f4836429d389c25303feddd8cded87267f0452f135777d23c4ab7288211d2",
+      "actual_sha256": "132f4836429d389c25303feddd8cded87267f0452f135777d23c4ab7288211d2",
+      "read_scope": "metadata/abstract as present"
+    },
+    {
+      "doi": "10.1207/s15327590ijhc1802_1",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1207%2Fs15327590ijhc1802_1%22&format=json&resultType=core&pageSize=10",
+      "fetched_at": "2026-10-18T20:50:32.682541+09:00",
+      "http_status": 200,
+      "status": "no_exact_doi_match",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/13d78a52f21a42818ebf.json",
+      "sha256": "1a3e2b54760a1fc189118dcfe1ac2bad85ddcaa852463653d668aebd9888d720",
+      "actual_sha256": "1a3e2b54760a1fc189118dcfe1ac2bad85ddcaa852463653d668aebd9888d720",
+      "read_scope": "metadata/abstract as present"
+    },
+    {
+      "doi": "10.1111/j.1467-9442.2008.00542.x",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1111%2Fj.1467-9442.2008.00542.x%22&format=json&resultType=core&pageSize=10",
+      "fetched_at": "2026-10-18T20:50:32.905465+09:00",
+      "http_status": 200,
+      "status": "no_exact_doi_match",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/d62873daa6a4671186d5.json",
+      "sha256": "8ce22df07507a8412413546bcbef526f214d20088e16adfa50bcd0cfeb21c89b",
+      "actual_sha256": "8ce22df07507a8412413546bcbef526f214d20088e16adfa50bcd0cfeb21c89b",
+      "read_scope": "metadata/abstract as present"
+    },
+    {
+      "doi": "10.1080/01441647.2019.1649317",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1080%2F01441647.2019.1649317%22&format=json&resultType=core&pageSize=10",
+      "fetched_at": "2026-10-18T20:50:33.067781+09:00",
+      "http_status": 200,
+      "status": "no_exact_doi_match",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/cd0a0ef7a610e4bb2cbb.json",
+      "sha256": "51ec59484c8baf6903ff676d03b0935850d85a2cb93ca96109607137b8ac5463",
+      "actual_sha256": "51ec59484c8baf6903ff676d03b0935850d85a2cb93ca96109607137b8ac5463",
+      "read_scope": "metadata/abstract as present"
+    },
+    {
+      "doi": "10.1037/0021-9010.84.2.277",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1037%2F0021-9010.84.2.277%22&format=json&resultType=core&pageSize=10",
+      "fetched_at": "2026-10-18T20:50:30.693033+09:00",
+      "http_status": 200,
+      "status": "no_exact_doi_match",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/463f355ba40d49378b89.json",
+      "sha256": "8dda584ab0e81b1d5b17589a4aa51dd4b62194414dc578ee630ce26d16a26c07",
+      "actual_sha256": "8dda584ab0e81b1d5b17589a4aa51dd4b62194414dc578ee630ce26d16a26c07",
+      "read_scope": "metadata/abstract as present"
+    },
+    {
+      "doi": "10.1073/pnas.1706541114",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1073%2Fpnas.1706541114%22&format=json&resultType=core&pageSize=10",
+      "fetched_at": "2026-10-18T20:50:32.484504+09:00",
+      "http_status": 200,
+      "status": "exact_doi_metadata_cached",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/08f732b5bcb3c9861f9f.json",
+      "sha256": "83897b2a0b8015bba63d650b1d7bbd58d6e682c30f51b1e3f6e45a0e9ad429ef",
+      "actual_sha256": "83897b2a0b8015bba63d650b1d7bbd58d6e682c30f51b1e3f6e45a0e9ad429ef",
+      "read_scope": "metadata/abstract as present"
+    },
+    {
+      "doi": "10.1016/0749-5978(85)90049-4",
+      "url": "https://api.crossref.org/works/10.1016%2F0749-5978%2885%2990049-4",
+      "fetched_at": "2026-10-18T20:52:28.660811+09:00",
+      "http_status": 200,
+      "status": "exact_doi_bibliography_cached",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/crossref/a28d057130b8ad3c03b2.json",
+      "sha256": "15cb5a25e801da6417ac7c632184618a6299d22de4cad4e28f0f15870e275848",
+      "actual_sha256": "15cb5a25e801da6417ac7c632184618a6299d22de4cad4e28f0f15870e275848",
+      "read_scope": "metadata/abstract as present"
+    },
+    {
+      "doi": "10.1007/s40685-014-0014-8",
+      "url": "https://api.crossref.org/works/10.1007%2Fs40685-014-0014-8",
+      "fetched_at": "2026-10-18T20:52:28.821812+09:00",
+      "http_status": 200,
+      "status": "exact_doi_bibliography_cached",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/crossref/14fb6f3495da5c34a807.json",
+      "sha256": "c0e712a7488fbeabd244bc3812f5c124cf2586e7542c427532b2a78951d04fc7",
+      "actual_sha256": "c0e712a7488fbeabd244bc3812f5c124cf2586e7542c427532b2a78951d04fc7",
+      "read_scope": "metadata/abstract as present"
+    },
+    {
+      "doi": "10.1007/s10869-009-9092-6",
+      "url": "https://api.crossref.org/works/10.1007%2Fs10869-009-9092-6",
+      "fetched_at": "2026-10-18T20:52:29.073884+09:00",
+      "http_status": 200,
+      "status": "exact_doi_bibliography_cached",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/crossref/088a9773da2a17de5c43.json",
+      "sha256": "a095a700b51fca154aeb3347adc333ac877daef41f246458c409f1b933481568",
+      "actual_sha256": "a095a700b51fca154aeb3347adc333ac877daef41f246458c409f1b933481568",
+      "read_scope": "metadata/abstract as present"
+    },
+    {
+      "doi": "10.1037/1089-2699.9.1.58",
+      "url": "https://api.crossref.org/works/10.1037%2F1089-2699.9.1.58",
+      "fetched_at": "2026-10-18T20:52:29.159251+09:00",
+      "http_status": 200,
+      "status": "exact_doi_bibliography_cached",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/crossref/2f86bd86fb3595b81c8c.json",
+      "sha256": "014f0cbbddf835407b0405fa41c7a449fecf364ad43a51b822a2487a51965137",
+      "actual_sha256": "014f0cbbddf835407b0405fa41c7a449fecf364ad43a51b822a2487a51965137",
+      "read_scope": "metadata/abstract as present"
+    },
+    {
+      "doi": "10.1016/j.jesp.2003.11.001",
+      "url": "https://api.crossref.org/works/10.1016%2Fj.jesp.2003.11.001",
+      "fetched_at": "2026-10-18T20:52:29.228845+09:00",
+      "http_status": 200,
+      "status": "exact_doi_bibliography_cached",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/crossref/b5f4a0084ec4a98592e0.json",
+      "sha256": "6ac235e8983bda8a6fca9463d5c7e760cf80d5fe36062630a8daf970aef76774",
+      "actual_sha256": "6ac235e8983bda8a6fca9463d5c7e760cf80d5fe36062630a8daf970aef76774",
+      "read_scope": "metadata/abstract as present"
+    },
+    {
+      "doi": "10.1002/ejsp.674",
+      "url": "https://api.crossref.org/works/10.1002%2Fejsp.674",
+      "fetched_at": "2026-10-18T20:52:29.475838+09:00",
+      "http_status": 200,
+      "status": "exact_doi_bibliography_cached",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/crossref/248f8ea4bd81051a8323.json",
+      "sha256": "c10ffe61aa82f253dbee7916b9c2e572bdd2cdc1cd9864cf31948eab236deac7",
+      "actual_sha256": "c10ffe61aa82f253dbee7916b9c2e572bdd2cdc1cd9864cf31948eab236deac7",
+      "read_scope": "metadata/abstract as present"
+    },
+    {
+      "doi": "10.1207/s15327590ijhc1802_1",
+      "url": "https://api.crossref.org/works/10.1207%2Fs15327590ijhc1802_1",
+      "fetched_at": "2026-10-18T20:52:29.489357+09:00",
+      "http_status": 200,
+      "status": "exact_doi_bibliography_cached",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/crossref/13d78a52f21a42818ebf.json",
+      "sha256": "3b88c4701733d94ea4fbd2e584e18b915b1dce86ab066d3e7a049d9ce076e712",
+      "actual_sha256": "3b88c4701733d94ea4fbd2e584e18b915b1dce86ab066d3e7a049d9ce076e712",
+      "read_scope": "metadata/abstract as present"
+    },
+    {
+      "doi": "10.1111/j.1467-9442.2008.00542.x",
+      "url": "https://api.crossref.org/works/10.1111%2Fj.1467-9442.2008.00542.x",
+      "fetched_at": "2026-10-18T20:52:29.763243+09:00",
+      "http_status": 200,
+      "status": "exact_doi_bibliography_cached",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/crossref/d62873daa6a4671186d5.json",
+      "sha256": "c9da44824862d71d9be4d1b04b42167f2ffe0f706d3ca97bdff74d55a4a08731",
+      "actual_sha256": "c9da44824862d71d9be4d1b04b42167f2ffe0f706d3ca97bdff74d55a4a08731",
+      "read_scope": "metadata/abstract as present"
+    },
+    {
+      "doi": "10.1080/01441647.2019.1649317",
+      "url": "https://api.crossref.org/works/10.1080%2F01441647.2019.1649317",
+      "fetched_at": "2026-10-18T20:52:29.797626+09:00",
+      "http_status": 200,
+      "status": "exact_doi_bibliography_cached",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/crossref/cd0a0ef7a610e4bb2cbb.json",
+      "sha256": "7f031b2060e9ab2f78bc2f951a3fab6a8ee344c8062f89ace2d4f4828e82e581",
+      "actual_sha256": "7f031b2060e9ab2f78bc2f951a3fab6a8ee344c8062f89ace2d4f4828e82e581",
+      "read_scope": "metadata/abstract as present"
+    },
+    {
+      "doi": "10.1037/0021-9010.84.2.277",
+      "url": "https://api.crossref.org/works/10.1037%2F0021-9010.84.2.277",
+      "fetched_at": "2026-10-18T20:52:30.514806+09:00",
+      "http_status": 200,
+      "status": "exact_doi_bibliography_cached",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/crossref/463f355ba40d49378b89.json",
+      "sha256": "c49abb5e76ee1afd007e3983dde8590ce3724b74e197f0f3ade2ed9f5cd30b39",
+      "actual_sha256": "c49abb5e76ee1afd007e3983dde8590ce3724b74e197f0f3ade2ed9f5cd30b39",
+      "read_scope": "metadata/abstract as present"
+    },
+    {
+      "doi": "10.1016/S0065-2601(06)38002-1",
+      "url": "https://api.crossref.org/works/10.1016%2FS0065-2601%2806%2938002-1",
+      "fetched_at": "2026-10-18T21:02:59.210533+09:00",
+      "http_status": 200,
+      "status": "exact_doi_bibliography_cached",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/crossref/f88e340000582f551c4a.json",
+      "sha256": "7850543755940bfe2a78d299d4426a96cf4215e9d5925c4cc1212c6f7e2bc3f3",
+      "actual_sha256": "7850543755940bfe2a78d299d4426a96cf4215e9d5925c4cc1212c6f7e2bc3f3",
+      "read_scope": "metadata/abstract as present"
+    },
+    {
+      "doi": "10.1037/0022-3514.67.3.366",
+      "url": "https://api.crossref.org/works/10.1037%2F0022-3514.67.3.366",
+      "fetched_at": "2026-10-18T21:03:01.529923+09:00",
+      "http_status": 200,
+      "status": "exact_doi_bibliography_cached",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/crossref/3fcf7218a7f1a5b55ca6.json",
+      "sha256": "bde3124879ff84eea973425c6ac58aa544fb85f99755b5bc3f4c32c50946342c",
+      "actual_sha256": "bde3124879ff84eea973425c6ac58aa544fb85f99755b5bc3f4c32c50946342c",
+      "read_scope": "metadata/abstract as present"
+    },
+    {
+      "doi": "10.1177/875697280603700302",
+      "url": "https://api.crossref.org/works/10.1177%2F875697280603700302",
+      "fetched_at": "2026-10-18T21:03:03.436841+09:00",
+      "http_status": 200,
+      "status": "exact_doi_bibliography_cached",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/crossref/2757a11eba265541cd7a.json",
+      "sha256": "a52dcf6d864a9d2ecb36c46ecbdb1a9b09097a5cc33fedfd41819a5f04ade0e9",
+      "actual_sha256": "a52dcf6d864a9d2ecb36c46ecbdb1a9b09097a5cc33fedfd41819a5f04ade0e9",
+      "read_scope": "metadata/abstract as present"
+    },
+    {
+      "doi": "10.1002/14651858.CD012573.pub3",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6953356/fullTextXML",
+      "fetched_at": "2026-10-18T12:15:43.493260+00:00",
+      "http_status": 200,
+      "status": "fulltext_xml_cached",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/pmc-fulltext/PMC6953356.xml",
+      "sha256": "117c145aa3bb1f238010b969da5c9427e70d90366eb08739c5fdffa5aaf6e746",
+      "actual_sha256": "117c145aa3bb1f238010b969da5c9427e70d90366eb08739c5fdffa5aaf6e746",
+      "read_scope": "abstract only"
+    }
+  ],
+  "live_http_checks": [
+    {
+      "url": "https://www.mods.go.kr/boardDownload.es?bid=220&list_no=437764&seq=9",
+      "fetched_at": "2026-10-18T12:37:30.524928+00:00",
+      "http_status": 200,
+      "sha256": "d4c59023bd2e73cb5352d256f14d5d99f78465dba0383e751d39452aa444c9e9",
+      "bytes": 4270529,
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch04-audit/time-use-2024.pdf",
+      "read_scope": "PDF 물리13/22/33쪽과9/15/19/29쪽 직접 메모리 추출. 재수집한 원응답 파일 보존."
+    },
+    {
+      "url": "https://www.bls.gov/news.release/atus.nr0.htm",
+      "fetched_at": "2026-10-18T12:37:25.400933+00:00",
+      "http_status": 200,
+      "sha256": "b7f704b50a02457cdeb58f0d61ef5d89f5cd2ecfccf9463f5b801c5260c299ad",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch04-audit/atus-2025.html",
+      "read_scope": "HTML 본문 TV/leisure 요약",
+      "bytes": 62901
+    },
+    {
+      "url": "https://www.129.go.kr/109",
+      "fetched_at": "2026-10-18T12:37:27.023687+00:00",
+      "http_status": 200,
+      "sha256": "779eb5f1d7a10b1a7ee703e2f035af6f4f011093aa2a70287437816c86561f83",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch04-audit/109.html",
+      "read_scope": "HTML 본문 109 자살예방상담 안내",
+      "bytes": 123197
+    },
+    {
+      "url": "https://link.springer.com/article/10.1007/s40685-014-0014-8",
+      "fetched_at": "2026-10-18T12:37:27.736234+00:00",
+      "http_status": 200,
+      "sha256": "b6467cd07d215c22493c6455d986036d1f94c247163dfade1c8eeda84f830cea",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch04-audit/roth-2015.html",
+      "read_scope": "HTML 초록 확인; Arkes4.11/3.32 문자열 없음. 전체 원문 검증으로 처리하지 않음.",
+      "bytes": 529279
+    }
+  ],
+  "unavailable_live_sources": [
+    {
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/ejsp.674",
+      "status": "HTTP403"
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0065260106380021",
+      "status": "tunnel403"
+    }
+  ],
+  "limitations": [
+    "기존 캐시는 실제 파일을 열었으며 새 HTTP로 기록하지 않음. Crossref 서지확인은 본문 숫자 검증과 다름.",
+    "모든 incoming anchor:2 그만두는조건,18 집고를때출퇴근,10 만지고싶은것멀리,1 몇시어디무엇,15 짧은영상,16 실시간뉴스를 보존해야 함.",
+    "후보/최신 제안 해시 확정 후 필드별 approve/revise/reject 별도 필요.",
+    "첫 HTTP 열람 뒤 루트가 원시 캐시 작성을 허용해 동일 URL을 재수집·보존함. live_http_checks는 이 보존 응답의 실제 시각·해시·경로이며 첫 응답 해시와 같다고 가정하지 않음."
+  ]
+}
