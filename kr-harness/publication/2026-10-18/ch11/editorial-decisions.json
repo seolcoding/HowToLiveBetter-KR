@@ -1,0 +1,940 @@
+{
+  "chapter": 11,
+  "status": "pending_candidate_review",
+  "reviewed_at": "2026-10-18T13:20:17.249314+00:00",
+  "source_sha256": "190f1bfb76853df9cee7f4a460f7f8a96d8eae39482fcbe352c65c6e8045c1fe",
+  "candidate_sha256": null,
+  "formal_kr_fit": "not_performed_not_approved",
+  "entries": [
+    {
+      "entry": 1,
+      "source_entry_sha256": "cc0adfef91e1822d19bb302ccf5ae308274bb1b14dba8cacb51d5580797c314f",
+      "status": "verified_scope",
+      "verified_scope": [
+        "30",
+        "200의2⑤",
+        "201의2⑦⑧",
+        "202",
+        "203",
+        "203의2",
+        "205",
+        "214의2",
+        "243의2"
+      ],
+      "short_quote": "정당한 사유가 없는 한",
+      "finding": "변호인선임·신문참여, 체포48시간, 경찰10일/검사 인치후10일/1차10일 연장, 기산일과 영장심사 불산입, 국선 범위를 본문과 대조했습니다. 기소후 구속기간 합계로 확대하지 않습니다. 선임비·대응시간을 유지합니다.",
+      "evidence": [
+        {
+          "mst": "290189",
+          "kind": "law",
+          "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290189&type=XML",
+          "requested_at": "2026-10-18T12:38:26.047262+00:00",
+          "http_status": 200,
+          "retrieval_mode": "existing_cache_read",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290189.xml",
+          "sha256": "f917fd5794540a55cc19ef2b94e5142ee97cdaafc9215827fa653b6c275ab9fa"
+        }
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 2,
+      "source_entry_sha256": "fd176ab87352624f272826a1fc07d88388993e0ff80528b12484295e4cb74a7f",
+      "status": "verified_scope",
+      "verified_scope": [
+        "32①8~10",
+        "44①2",
+        "46제3의2호",
+        "판시사항·판결요지·이유"
+      ],
+      "short_quote": "정상적인 운영을 방해할 목적으로",
+      "finding": "미승인 도구/정상운영 방해 목적 및 배포목적제작1년/1천만원, 사설게임 제공/목적제작5년/5천만원 확인. 2019도2862는 게임이미지 인식 자동조준·데이터변경없음·장애증거없음의 악성프로그램 판단 파기환송입니다. 게임산업법까지 무죄확정이라는 확대를 금지합니다.",
+      "evidence": [
+        {
+          "mst": "265811",
+          "kind": "law",
+          "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=265811&type=XML",
+          "requested_at": "2026-10-18T13:16:52.714090+00:00",
+          "http_status": 200,
+          "retrieval_mode": "new_https_retry",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch11-audit/law-265811-retry.xml",
+          "sha256": "6e41f58c5b0a9b4dca3fc1a474e8ad4d600878703f40b13eade5201456752c61"
+        },
+        {
+          "mst": "214311",
+          "kind": "prec",
+          "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=prec&ID=214311&type=XML",
+          "requested_at": "2026-10-18T13:15:46.602047+00:00",
+          "http_status": 200,
+          "retrieval_mode": "new_https",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch11-audit/prec-214311.xml",
+          "sha256": "cc32c0534be2e4fd99f8e14acb30c82dab1aeb196e3d0dbbe7aafd259556779d"
+        }
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 3,
+      "source_entry_sha256": "21f3af374fe8962141340135404dc0d80a69cfd7fbd85de5966fabcd393e47d7",
+      "status": "verified_scope",
+      "verified_scope": [
+        "공연4의2·4의4·41",
+        "체육6의2·6의4·49의2",
+        "형법314",
+        "판시사항·요지·이유"
+      ],
+      "short_quote": "판매금액의 50배 이하",
+      "finding": "부정구매는 정보통신망에서 최초판매자의 공정구입과정을 우회방해해 재판매목적으로 구입, 부정판매는 동의없이 상습/영업·구입가 초과판매/알선입니다. 1년/1천만원 및50배이하 과징금 확인. 2017도16520은 자동광고/댓글 프로그램의 악성프로그램성에 대한 형사무죄이며 순위조작 일반 면책이 아닙니다.",
+      "evidence": [
+        {
+          "mst": "283673",
+          "kind": "law",
+          "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=283673&type=XML",
+          "requested_at": "2026-10-18T12:37:49.110921+00:00",
+          "http_status": 200,
+          "retrieval_mode": "existing_cache_read",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/283673.xml",
+          "sha256": "369ccce122c47edb4481dce1820f1487d5eeea257bb91c16884ed1250f0f9528"
+        },
+        {
+          "mst": "286627",
+          "kind": "law",
+          "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=286627&type=XML",
+          "requested_at": "2026-10-18T12:38:06.233574+00:00",
+          "http_status": 200,
+          "retrieval_mode": "existing_cache_read",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/286627.xml",
+          "sha256": "69f0b792ad02d2ab9a30801ebea453145a59713501005cf69f20847e6b23c1c6"
+        },
+        {
+          "mst": "290185",
+          "kind": "law",
+          "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290185&type=XML",
+          "requested_at": "2026-10-18T12:38:25.603245+00:00",
+          "http_status": 200,
+          "retrieval_mode": "existing_cache_read",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290185.xml",
+          "sha256": "391f3c2bb7173fff4040eda9ae2259674b616e58aeadf4371206b63c70f1c89b"
+        },
+        {
+          "mst": "225803",
+          "kind": "prec",
+          "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=prec&ID=225803&type=XML",
+          "requested_at": "2026-10-18T13:15:52.311119+00:00",
+          "http_status": 200,
+          "retrieval_mode": "new_https",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch11-audit/prec-225803.xml",
+          "sha256": "f9fc1f5205d763f10b680b86b9def5c5e97be58bc14814da1079f81c8ae5bcf8"
+        }
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 4,
+      "source_entry_sha256": "2335a5cba3a004c66f455a185ba67bbfe58ba4195e1c219115cbb6ac3f2216c2",
+      "status": "verified_scope",
+      "verified_scope": [
+        "망48①·71①11",
+        "저작권93·136",
+        "개인정보15·17·59제1호·72제2호",
+        "판시사항·요지·이유"
+      ],
+      "short_quote": "상당한 부분",
+      "finding": "접근침입5년/5천만원, 부정수단 개인정보취득3년/3천만원 확인. 2021도1533의 API URL은 적극공개는 아니지만 쉽게 식별·보호조치없이 회원/비회원 접근 가능했습니다. 공개API라는 요약을 누구나 모든API 이용허락으로 확대하지 않습니다. 데이터베이스 양적/질적 상당부분·체계반복복제와 민사별개 유보 유지.",
+      "evidence": [
+        {
+          "mst": "290001",
+          "kind": "law",
+          "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290001&type=XML",
+          "requested_at": "2026-10-18T12:38:22.876633+00:00",
+          "http_status": 200,
+          "retrieval_mode": "existing_cache_read",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290001.xml",
+          "sha256": "9a5b1491c704ab556b864385d0374ce13f283ccc19d8f9a43389c501a9e6578b"
+        },
+        {
+          "mst": "283335",
+          "kind": "law",
+          "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=283335&type=XML",
+          "requested_at": "2026-10-18T12:37:44.576976+00:00",
+          "http_status": 200,
+          "retrieval_mode": "existing_cache_read",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/283335.xml",
+          "sha256": "6a429f0550556154dcad808d032185e92b6ffdf3f40d791439b14129e1ee929d"
+        },
+        {
+          "mst": "283839",
+          "kind": "law",
+          "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=283839&type=XML",
+          "requested_at": "2026-10-18T12:37:49.895011+00:00",
+          "http_status": 200,
+          "retrieval_mode": "existing_cache_read",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/283839.xml",
+          "sha256": "6d1f5a3a40b177bef82c56d4aeb0d37524c46b550a7997128fb9435555ce748f"
+        },
+        {
+          "mst": "221765",
+          "kind": "prec",
+          "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=prec&ID=221765&type=XML",
+          "requested_at": "2026-10-18T13:15:48.947370+00:00",
+          "http_status": 200,
+          "retrieval_mode": "new_https",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch11-audit/prec-221765.xml",
+          "sha256": "086c515fc99e75d3adbd636c79ce93ed572924fa8572356e3236279f83075869"
+        }
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 5,
+      "source_entry_sha256": "2e7a5ce5042197260dfeadaf226997a880bcde397760611d5cf30ef23f532aa8",
+      "status": "verified_scope",
+      "verified_scope": [
+        "체육26②1·48제4호",
+        "형법32·247",
+        "전자6③·49④"
+      ],
+      "short_quote": "설계ㆍ제작ㆍ유통",
+      "finding": "유사 스포츠투표 발행시스템 설계제작유통공중제공5년/5천만원 확인. 일반 개발외주 전체를 금지하지 않고 범죄인식·도움과 접근매체 양도/대가 또는 범죄인식 대여5년/3천만원을 구분합니다. 계정해제 대행판례는 미조사입니다.",
+      "evidence": [
+        {
+          "mst": "286627",
+          "kind": "law",
+          "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=286627&type=XML",
+          "requested_at": "2026-10-18T12:38:06.233574+00:00",
+          "http_status": 200,
+          "retrieval_mode": "existing_cache_read",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/286627.xml",
+          "sha256": "69f0b792ad02d2ab9a30801ebea453145a59713501005cf69f20847e6b23c1c6"
+        },
+        {
+          "mst": "290185",
+          "kind": "law",
+          "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290185&type=XML",
+          "requested_at": "2026-10-18T12:38:25.603245+00:00",
+          "http_status": 200,
+          "retrieval_mode": "existing_cache_read",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290185.xml",
+          "sha256": "391f3c2bb7173fff4040eda9ae2259674b616e58aeadf4371206b63c70f1c89b"
+        },
+        {
+          "mst": "290247",
+          "kind": "law",
+          "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290247&type=XML",
+          "requested_at": "2026-10-18T12:38:28.240394+00:00",
+          "http_status": 200,
+          "retrieval_mode": "existing_cache_read",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290247.xml",
+          "sha256": "440b67551a3f1f6119dba38469ca843ac06c55619e8aa59f3b7819c05368a621"
+        }
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 6,
+      "source_entry_sha256": "f75bc9579bef75a2bc24a02dac2de6bbe173b4653ac7e872f86e2ca9f952d2f7",
+      "status": "revision_recommended",
+      "verified_scope": [
+        "망48①③④·49·71",
+        "형법314·366",
+        "근로36",
+        "판시사항·요지·이유"
+      ],
+      "short_quote": "특별한 사정이 있을 경우",
+      "finding": "망침입/인증우회장치/타인정보훼손5년/5천만원과 업무방해5년/1천500만원, 퇴직금품14일 확인. 지급기일 연장은 합의 외에 근로36의 특별한 사정 조건도 보강하세요. 2005도870은 군 상관계정으로 협박성 이메일 전송 사건이며 퇴사계정판례로 소개하지 않습니다.",
+      "evidence": [
+        {
+          "mst": "290001",
+          "kind": "law",
+          "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290001&type=XML",
+          "requested_at": "2026-10-18T12:38:22.876633+00:00",
+          "http_status": 200,
+          "retrieval_mode": "existing_cache_read",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290001.xml",
+          "sha256": "9a5b1491c704ab556b864385d0374ce13f283ccc19d8f9a43389c501a9e6578b"
+        },
+        {
+          "mst": "290185",
+          "kind": "law",
+          "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290185&type=XML",
+          "requested_at": "2026-10-18T12:38:25.603245+00:00",
+          "http_status": 200,
+          "retrieval_mode": "existing_cache_read",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290185.xml",
+          "sha256": "391f3c2bb7173fff4040eda9ae2259674b616e58aeadf4371206b63c70f1c89b"
+        },
+        {
+          "mst": "285279",
+          "kind": "law",
+          "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=285279&type=XML",
+          "requested_at": "2026-10-18T12:37:57.424991+00:00",
+          "http_status": 200,
+          "retrieval_mode": "existing_cache_read",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/285279.xml",
+          "sha256": "222fd311aa29570bf0045061e332c9b6696b49427a4ae8f17540763866b36c2e"
+        },
+        {
+          "mst": "216531",
+          "kind": "prec",
+          "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=prec&ID=216531&type=XML",
+          "requested_at": "2026-10-18T13:15:48.283054+00:00",
+          "http_status": 200,
+          "retrieval_mode": "new_https",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch11-audit/prec-216531.xml",
+          "sha256": "9ddf466e277c11fe4184d8fee61435aecbfa742a87527f8a21c62dccce992467"
+        }
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 7,
+      "source_entry_sha256": "8681dd9cc472ae7b98dcdb04fbd73592d5702a8ce2389a013db55ce068569fa8",
+      "status": "revision_required",
+      "verified_scope": [
+        "부정경쟁2제2호·18①②",
+        "산업14·36①",
+        "판시사항·요지·이유"
+      ],
+      "short_quote": "재산상 이득액의 2배 이상 10배 이하",
+      "finding": "필수: 국내침해도18② 단서상 이득액10배가5억원을 초과하면 이득액2~10배 벌금이므로 국내5억원이 고정상한이라는 문장을 수정하세요. 해외15년/15억원 및 이득액예외, 국가핵심기술 외국사용인식3년이상+65억원이하 벌금 병과 확인. 2017도3808은 재직반출/퇴사시 반환거부의 배임과 퇴사후 이용의 별도배임 불성립을 구분합니다. 이득줄 continuation도 최종6필드 구조에서 확인해야 합니다.",
+      "evidence": [
+        {
+          "mst": "277201",
+          "kind": "law",
+          "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=277201&type=XML",
+          "requested_at": "2026-10-18T12:37:24.007461+00:00",
+          "http_status": 200,
+          "retrieval_mode": "existing_cache_read",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/277201.xml",
+          "sha256": "025c1b30ee981d96772245f66b7577cda416da8363e1e1ca0c7afbc731494d04"
+        },
+        {
+          "mst": "280043",
+          "kind": "law",
+          "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=280043&type=XML",
+          "requested_at": "2026-10-18T12:37:31.948768+00:00",
+          "http_status": 200,
+          "retrieval_mode": "existing_cache_read",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/280043.xml",
+          "sha256": "f70aacd3873c6a3a66d463c0a929eed0184e01f06d6998627d3d14ca7c5f30d6"
+        },
+        {
+          "mst": "185254",
+          "kind": "prec",
+          "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=prec&ID=185254&type=XML",
+          "requested_at": "2026-10-18T13:15:46.599248+00:00",
+          "http_status": 200,
+          "retrieval_mode": "new_https",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch11-audit/prec-185254.xml",
+          "sha256": "0e2e3ec66b4b5c891373a82da3315be3d3be26a1308ee5c8e1faf5e87a8bce9c"
+        }
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 8,
+      "source_entry_sha256": "7fcbd3508f3f23f7d21708fa489f280db2611f2ee79e5ba91de134c91617e2f2",
+      "status": "verified_scope",
+      "verified_scope": [
+        "망48①②③·70의2·71",
+        "형법314"
+      ],
+      "short_quote": "7년 이하의 징역 또는 7천만원",
+      "finding": "무단침입·운영방해목적 장애5년/5천만원, 정당사유없는 악성프로그램 전달유포7년/7천만원 확인. 채굴기기수로 일괄 면책하지 않으며 단순회사자원 사용과 침입 구성요건을 구분합니다. 무단채굴 확정판례는 미조사입니다.",
+      "evidence": [
+        {
+          "mst": "290001",
+          "kind": "law",
+          "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290001&type=XML",
+          "requested_at": "2026-10-18T12:38:22.876633+00:00",
+          "http_status": 200,
+          "retrieval_mode": "existing_cache_read",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290001.xml",
+          "sha256": "9a5b1491c704ab556b864385d0374ce13f283ccc19d8f9a43389c501a9e6578b"
+        },
+        {
+          "mst": "290185",
+          "kind": "law",
+          "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290185&type=XML",
+          "requested_at": "2026-10-18T12:38:25.603245+00:00",
+          "http_status": 200,
+          "retrieval_mode": "existing_cache_read",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290185.xml",
+          "sha256": "391f3c2bb7173fff4040eda9ae2259674b616e58aeadf4371206b63c70f1c89b"
+        }
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 9,
+      "source_entry_sha256": "cceae073711c79f990e1bcf259dc18a57fd1c72443e2132af9775f53470f418c",
+      "status": "verified_scope",
+      "verified_scope": [
+        "망48①·71②",
+        "판시사항·요지·이유"
+      ],
+      "short_quote": "제1항제11호의 미수범은 처벌한다",
+      "finding": "침입미수 처벌 확인. 2005도870의 서비스제공자 기준과 이용자의 사자/이익을 위한 사실행위대행·제공자의 승낙권한/추인가능 등 예외를 대조했습니다. 해당판례를 선의취약점신고 사건으로 오인시키지 않는 비고 유지. 서면승인은 실무상 증거확보 권고이지 법조문상 모든 점검의 단일형식요건이라는 설명을 덧붙이지 않습니다.",
+      "evidence": [
+        {
+          "mst": "290001",
+          "kind": "law",
+          "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290001&type=XML",
+          "requested_at": "2026-10-18T12:38:22.876633+00:00",
+          "http_status": 200,
+          "retrieval_mode": "existing_cache_read",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290001.xml",
+          "sha256": "9a5b1491c704ab556b864385d0374ce13f283ccc19d8f9a43389c501a9e6578b"
+        },
+        {
+          "mst": "216531",
+          "kind": "prec",
+          "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=prec&ID=216531&type=XML",
+          "requested_at": "2026-10-18T13:15:48.283054+00:00",
+          "http_status": 200,
+          "retrieval_mode": "new_https",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch11-audit/prec-216531.xml",
+          "sha256": "9ddf466e277c11fe4184d8fee61435aecbfa742a87527f8a21c62dccce992467"
+        }
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 10,
+      "source_entry_sha256": "1bd693942b29655b2591f2be19ab6b0c6ee9bf0caded60bb1ffe13e4aa3e71a3",
+      "status": "verified_scope_with_open_detail",
+      "verified_scope": [
+        "47의6",
+        "48②·70의2",
+        "판시사항·요지·이유"
+      ],
+      "short_quote": "예산의 범위에서 포상금을 지급할 수 있다",
+      "finding": "포상은 지급가능 근거이며 확정수급권이 아닙니다. 악성프로그램 판단은 용도/구성/작동/영향/운용자동의를 종합하며 실제장애결과가 항상 필요한 것은 아닙니다. KISA포상 참여약정·공개조건 및 해외제출 일반금지는 독립확인하지 않았습니다. 미조사를 접근실패라고 새로 주장하지 않습니다.",
+      "evidence": [
+        {
+          "mst": "290001",
+          "kind": "law",
+          "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290001&type=XML",
+          "requested_at": "2026-10-18T12:38:22.876633+00:00",
+          "http_status": 200,
+          "retrieval_mode": "existing_cache_read",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290001.xml",
+          "sha256": "9a5b1491c704ab556b864385d0374ce13f283ccc19d8f9a43389c501a9e6578b"
+        },
+        {
+          "mst": "214311",
+          "kind": "prec",
+          "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=prec&ID=214311&type=XML",
+          "requested_at": "2026-10-18T13:15:46.602047+00:00",
+          "http_status": 200,
+          "retrieval_mode": "new_https",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch11-audit/prec-214311.xml",
+          "sha256": "cc32c0534be2e4fd99f8e14acb30c82dab1aeb196e3d0dbbe7aafd259556779d"
+        }
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 11,
+      "source_entry_sha256": "7c9689873510eff92fb52285ba189f425fb3c325761634facf4a8490a8d7c8f2",
+      "status": "verified_scope",
+      "verified_scope": [
+        "9①",
+        "9의2①",
+        "15①",
+        "40제2·4호"
+      ],
+      "short_quote": "사업을 개시한 날부터 1개월 이내",
+      "finding": "개인위치정보 대상 위치기반서비스 신고·방송미디어통신위원회 명칭, 소상공인/1인창조기업1개월조건·계속영업 신고기한 확인. 비개인위치정보 제외와 긴급구조등15① 예외 유지. 독립수집/다른사업자제공 등록과 서비스신고를 구분합니다.",
+      "evidence": [
+        {
+          "mst": "277359",
+          "kind": "law",
+          "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=277359&type=XML",
+          "requested_at": "2026-10-18T12:37:28.478537+00:00",
+          "http_status": 200,
+          "retrieval_mode": "existing_cache_read",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/277359.xml",
+          "sha256": "8245a47aae7d002386769c2ffb51edba6b2849568b14032ec375a317d6594b58"
+        }
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 12,
+      "source_entry_sha256": "ae55732c2fdd7a37ebdec21298117ed92dc22bebb386f47d7e6774540d487016",
+      "status": "verified_scope",
+      "verified_scope": [
+        "판시사항·판결요지·이유"
+      ],
+      "short_quote": "보호할 가치 있는 사용자의 이익",
+      "finding": "2009다82244 경업금지의 이익·직위·기간지역직종·대가·퇴직경위·공익 종합요소와 해당사건 회사청구 배척 확인. 모든약정무효/무보상자동해제라는 확대가 없습니다. 민사 시간·상담소송비·가처분 부담 유지.",
+      "evidence": [
+        {
+          "mst": "215665",
+          "kind": "prec",
+          "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=prec&ID=215665&type=XML",
+          "requested_at": "2026-10-18T13:15:46.602339+00:00",
+          "http_status": 200,
+          "retrieval_mode": "new_https",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch11-audit/prec-215665.xml",
+          "sha256": "d4a0eea94b2a6aefd2935de9fbfd378f16465b590509976affc1b856bf9fdfb2"
+        }
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 13,
+      "source_entry_sha256": "d73efc98dc3d1d5070836c4ad17d0c84db12d6f34ac423e316e563e653172ada",
+      "status": "verified_scope",
+      "verified_scope": [
+        "저작권2제31호·9",
+        "발명12·13·15"
+      ],
+      "short_quote": "발명을 완성한 때부터 사용자등에게 승계",
+      "finding": "업무상프로그램의 공표불요 및 계약/근무규칙예외 확인. 일반저작물은 법인명의공표 조건이므로 프로그램 밖으로 회사저작자 자동귀속을 확대하지 않도록 보강 권장. 직무발명 서면통지·사전승계약정/예외통지·정당보상권 확인. 실제 보상분쟁 비용 유보 유지.",
+      "evidence": [
+        {
+          "mst": "283335",
+          "kind": "law",
+          "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=283335&type=XML",
+          "requested_at": "2026-10-18T12:37:44.576976+00:00",
+          "http_status": 200,
+          "retrieval_mode": "existing_cache_read",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/283335.xml",
+          "sha256": "6a429f0550556154dcad808d032185e92b6ffdf3f40d791439b14129e1ee929d"
+        },
+        {
+          "mst": "277197",
+          "kind": "law",
+          "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=277197&type=XML",
+          "requested_at": "2026-10-18T13:16:52.714837+00:00",
+          "http_status": 200,
+          "retrieval_mode": "new_https_retry",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch11-audit/law-277197-retry.xml",
+          "sha256": "81b5eef91d4a3e7bb3414e4d969a8090286d34dded265213204684a4b1322237"
+        }
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 14,
+      "source_entry_sha256": "5ad2c75d2c8fec3830bd5a51f1c04a5d728db922c337e1ccbbc712d8e2778283",
+      "status": "revision_required",
+      "verified_scope": [
+        "125①②④",
+        "부칙21336 제1·2조",
+        "판시사항·요지·이유"
+      ],
+      "short_quote": "5배를 넘지 아니하는 범위",
+      "finding": "필수: 5배배상은 고의 및 법원재량·인정손해액 상한이며2026-08-11 이후 발생 침해부터 적용된다는 부칙 조건을 보강하세요. 2006도8369는 GPL공개의무위반 회사의 파생소스도 비공개/경제가치/비밀관리 충족시 영업비밀이라는 형사사건이며 GPL권리자승소 집행판례가 아닙니다. 실제 라이선스버전과 결합배포는 미조사입니다.",
+      "evidence": [
+        {
+          "mst": "283335",
+          "kind": "law",
+          "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=283335&type=XML",
+          "requested_at": "2026-10-18T12:37:44.576976+00:00",
+          "http_status": 200,
+          "retrieval_mode": "existing_cache_read",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/283335.xml",
+          "sha256": "6a429f0550556154dcad808d032185e92b6ffdf3f40d791439b14129e1ee929d"
+        },
+        {
+          "mst": "129612",
+          "kind": "prec",
+          "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=prec&ID=129612&type=XML",
+          "requested_at": "2026-10-18T13:15:46.594544+00:00",
+          "http_status": 200,
+          "retrieval_mode": "new_https",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch11-audit/prec-129612.xml",
+          "sha256": "516aeea295bda6576f00ad700e13104ce197328bc668435f19accd118fc716e5"
+        }
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 15,
+      "source_entry_sha256": "ee1f485795c50aee11a5d4e70054756f6dc9eb73d91f1a638b6ad7dbfe609b36",
+      "status": "verified_scope",
+      "verified_scope": [
+        "개인정보16·22의2·30·71제3호",
+        "망22의2"
+      ],
+      "short_quote": "만 14세 미만",
+      "finding": "최소수집·입증책임·법정동의가 필요한14세미만 처리/대리인동의확인·최소연락정보 예외·5년/5천만원·선택접근권한 거부시 서비스거부금지·처리방침 공개 확인. 동의 이외 법정처리근거를 삭제하지 않습니다. 시행령상 최소연락정보 항목 자체는 이번 대조범위 밖입니다.",
+      "evidence": [
+        {
+          "mst": "283839",
+          "kind": "law",
+          "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=283839&type=XML",
+          "requested_at": "2026-10-18T12:37:49.895011+00:00",
+          "http_status": 200,
+          "retrieval_mode": "existing_cache_read",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/283839.xml",
+          "sha256": "6d1f5a3a40b177bef82c56d4aeb0d37524c46b550a7997128fb9435555ce748f"
+        },
+        {
+          "mst": "290001",
+          "kind": "law",
+          "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290001&type=XML",
+          "requested_at": "2026-10-18T12:38:22.876633+00:00",
+          "http_status": 200,
+          "retrieval_mode": "existing_cache_read",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290001.xml",
+          "sha256": "9a5b1491c704ab556b864385d0374ce13f283ccc19d8f9a43389c501a9e6578b"
+        }
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 16,
+      "source_entry_sha256": "5c0e4f7d9b987a0c241b845cf356aa9c2b4ae808d0864c65661da72f5df19fbd",
+      "status": "verified_scope_with_open_detail",
+      "verified_scope": [
+        "전자상거래12",
+        "통신22",
+        "개인정보29",
+        "고시2023-6 제8①",
+        "2025-9·2026-9부칙",
+        "통신비밀령41②"
+      ],
+      "short_quote": "5만명 이상의 정보주체",
+      "finding": "개인정보취급자의 시스템접속1년·5만명은 시스템별분모/민감고유식별/기간통신2년 확인. 2025-9부칙상8①② 발령1년후2026-10-31 시행이므로 현행2023-6 문구 적용이 맞습니다.2026-9부칙도 확인. 전기통신사업자 통신사실확인자료 중법2제11호마·사3개월이며 모든사이트 방문로그가 아닙니다. 통신판매신고·부가통신소규모 예외 법률근거 확인, 구체고시/시행령면제금액·지방세·ISMS세부대상은 미조사.",
+      "evidence": [
+        {
+          "mst": "282793",
+          "kind": "law",
+          "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=282793&type=XML",
+          "requested_at": "2026-10-18T13:15:46.590544+00:00",
+          "http_status": 200,
+          "retrieval_mode": "new_https",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch11-audit/law-282793.xml",
+          "sha256": "f970ec9e84bae3c139fe8e190c9dda527662a64b9353daa0ee5dd3e7934250f7"
+        },
+        {
+          "mst": "285185",
+          "kind": "law",
+          "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=285185&type=XML",
+          "requested_at": "2026-10-18T12:37:57.053030+00:00",
+          "http_status": 200,
+          "retrieval_mode": "existing_cache_read",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/285185.xml",
+          "sha256": "19211caf018039f7b50c1aea31f4cd54fe9a99cc509afee0797cc462d3ff30ad"
+        },
+        {
+          "mst": "283839",
+          "kind": "law",
+          "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=283839&type=XML",
+          "requested_at": "2026-10-18T12:37:49.895011+00:00",
+          "http_status": 200,
+          "retrieval_mode": "existing_cache_read",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/283839.xml",
+          "sha256": "6d1f5a3a40b177bef82c56d4aeb0d37524c46b550a7997128fb9435555ce748f"
+        },
+        {
+          "mst": "2100000229672",
+          "kind": "admrul",
+          "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000229672&type=XML",
+          "requested_at": "2026-10-18T13:15:52.403365+00:00",
+          "http_status": 200,
+          "retrieval_mode": "new_https",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch11-audit/admrul-2100000229672.xml",
+          "sha256": "49ce1fc5fd1cbbd7b63082a40ec948fab4c8cb8d13e9daeb736888b362ade653"
+        },
+        {
+          "mst": "2100000281400",
+          "kind": "admrul",
+          "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000281400&type=XML",
+          "requested_at": "2026-10-18T13:16:52.719070+00:00",
+          "http_status": 200,
+          "retrieval_mode": "new_https_retry",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch11-audit/admrul-2100000281400-retry.xml",
+          "sha256": "c7964a1ae22ea82b438c066f1c2224c9b2f2a7744dbf35861bf14e836e579d6c"
+        },
+        {
+          "mst": "290505",
+          "kind": "law",
+          "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290505&type=XML",
+          "requested_at": "2026-10-18T12:38:30.378215+00:00",
+          "http_status": 200,
+          "retrieval_mode": "existing_cache_read",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290505.xml",
+          "sha256": "3faea7131225ed526a651b51827105cd753c3e5bc38230a17d006c9a5e5983a8"
+        }
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 17,
+      "source_entry_sha256": "3470531a1ef0bd258a7646a5b28306a8f476bcd45d805d9096434dc7f4d06cad",
+      "status": "revision_required",
+      "verified_scope": [
+        "법31①②③④·43①",
+        "령23①②③④"
+      ],
+      "short_quote": "내부 업무 용도로만 사용되는 경우",
+      "finding": "필수: 현행령23④ AI활용명백/내부업무전용 등 전부일부 적용예외를 비고·출처에 보강하세요.23② 표시는 사람인지방법 또는 기계판독+1회이상안내가 가능하여 모든결과물의 시각워터마크만 의무처럼 쓰면 안 됩니다. 법31③ 창의적표현 향유저해않는표시 단서도 확인.3천만원 과태료는 사전고지위반/시정명령불이행 등43①과 연결되며 결과물미표시 자체와 구분한 본문은 맞습니다. 과태료계도기간은 MSIT공식문서 미대조로 남깁니다.",
+      "evidence": [
+        {
+          "mst": "282791",
+          "kind": "law",
+          "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=282791&type=XML",
+          "requested_at": "2026-10-18T12:37:43.108598+00:00",
+          "http_status": 200,
+          "retrieval_mode": "existing_cache_read",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/282791.xml",
+          "sha256": "29c74f00f805b53552d3a6209041f0e44d3b725cc0033a7547899ff33b9470d7"
+        },
+        {
+          "mst": "288781",
+          "kind": "law",
+          "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=288781&type=XML",
+          "requested_at": "2026-10-18T13:17:41.909528+00:00",
+          "http_status": 200,
+          "retrieval_mode": "new_https",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch11-audit/ai-reg.xml",
+          "sha256": "6f87164a02363cb54b4240d7c6213dd074db121d6806750481c1015bc835cbbe"
+        }
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 18,
+      "source_entry_sha256": "34c10db4a82a562e6cfc3b91470d51e63e8cee632b2e586567231e939892e878",
+      "status": "verified_scope",
+      "verified_scope": [
+        "판시사항·판결요지·이유",
+        "부정경쟁2①파·4·5"
+      ],
+      "short_quote": "프로그램의 제조, 사용 등의 금지까지는 필요하지",
+      "finding": "2008마1541 원문을 세번째HTTPS시도에 확보했습니다. 네이버광고를 대체/여백삽입/키워드삽입한 영업행위 가처분이며 민법상성과무단이용·이익형량을 적용했습니다. 프로그램 제조사용 일반금지·순수광고차단 일괄불법 판결이 아니라는 비고 일치. 현행부정경쟁법파목과의 대응은 별도법률요건으로 다뤘습니다.",
+      "evidence": [
+        {
+          "mst": "146181",
+          "kind": "prec",
+          "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=prec&ID=146181&type=XML",
+          "requested_at": "2026-10-18T13:17:41.910269+00:00",
+          "http_status": 200,
+          "retrieval_mode": "new_https_third_attempt",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch11-audit/prec146181-third.xml",
+          "sha256": "25a8ced270c6bedd327a55155b334d363b759210d95aeb2848f53cbbcd6f38f0"
+        },
+        {
+          "mst": "277201",
+          "kind": "law",
+          "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=277201&type=XML",
+          "requested_at": "2026-10-18T12:37:24.007461+00:00",
+          "http_status": 200,
+          "retrieval_mode": "existing_cache_read",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/277201.xml",
+          "sha256": "025c1b30ee981d96772245f66b7577cda416da8363e1e1ca0c7afbc731494d04"
+        }
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    },
+    {
+      "entry": 19,
+      "source_entry_sha256": "52f7e8aeea14c32b40d0ae5a6e4c0fb8ae407492a5d333c78bf3a7ea7773ab81",
+      "status": "verified_scope_with_open_detail",
+      "verified_scope": [
+        "망48①·71",
+        "2005도870 판시사항·요지·이유",
+        "개인정보28의8①~⑤·64의2①7"
+      ],
+      "short_quote": "계약의 체결 및 이행",
+      "finding": "개인정보 국외이전 별도동의·법률조약·계약이행 위탁보관+고지공개 등 법정근거 확인, 위법국외이전 과징금 확인. 2005도870 군계정 사건을 AI중개사이트 직접판례로 소개하지 않는 유보 유지. 개별계정공유·재판매 최신약관은 미조사, 원문에 기록된 이전403과 이번감사 실제요청을 혼동하지 않습니다.",
+      "evidence": [
+        {
+          "mst": "290001",
+          "kind": "law",
+          "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290001&type=XML",
+          "requested_at": "2026-10-18T12:38:22.876633+00:00",
+          "http_status": 200,
+          "retrieval_mode": "existing_cache_read",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290001.xml",
+          "sha256": "9a5b1491c704ab556b864385d0374ce13f283ccc19d8f9a43389c501a9e6578b"
+        },
+        {
+          "mst": "216531",
+          "kind": "prec",
+          "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=prec&ID=216531&type=XML",
+          "requested_at": "2026-10-18T13:15:48.283054+00:00",
+          "http_status": 200,
+          "retrieval_mode": "new_https",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch11-audit/prec-216531.xml",
+          "sha256": "9ddf466e277c11fe4184d8fee61435aecbfa742a87527f8a21c62dccce992467"
+        },
+        {
+          "mst": "283839",
+          "kind": "law",
+          "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=283839&type=XML",
+          "requested_at": "2026-10-18T12:37:49.895011+00:00",
+          "http_status": 200,
+          "retrieval_mode": "existing_cache_read",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/283839.xml",
+          "sha256": "6d1f5a3a40b177bef82c56d4aeb0d37524c46b550a7997128fb9435555ce748f"
+        }
+      ],
+      "candidate_sha256": null,
+      "field_decisions": {
+        "title": "pending_candidate_review",
+        "비용": "pending_candidate_review",
+        "쉽게": "pending_candidate_review",
+        "이득": "pending_candidate_review",
+        "출처": "pending_candidate_review",
+        "비고": "pending_candidate_review"
+      }
+    }
+  ],
+  "source_inventory": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch11-audit/sources-retry.json",
+  "additional_inventory": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch11-audit/additional.json",
+  "current_version_inventory": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch11-audit/current.json",
+  "current_version_retry_inventory": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch11-audit/current-retry.json",
+  "current_version_search_unresolved": [
+    "전자상거래 등에서의 소비자보호에 관한 법률"
+  ]
+}
