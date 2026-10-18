@@ -1,0 +1,1333 @@
+{
+  "chapter": 2,
+  "audit_date": "2026-10-18",
+  "source_sha256": "f6ae488455384ae0661f8b278436732c774f7bf34ec327942f28e011729cbe22",
+  "candidate_sha256": "de97a4f0638c7621b72afef6329c971bf379ff82028768e2412143a3e669aa51",
+  "manifest_sha256": "15ae3b83a9a2a75281ec9abb4a8beef420a0476058fef989f2ba92c2da8b0dba",
+  "verdict": "changes_required",
+  "publication_ready": false,
+  "formal_kr_fit": false,
+  "all_entries_reviewed": 42,
+  "entry_status_counts": {
+    "warn": 18,
+    "block": 23,
+    "unverified": 1
+  },
+  "source_limitations": "캐시 원초록·서지와 직접 HTTPS 원문을 항목별 구분. DOI존재만으로 주장승인하지 않음. 접근불가와내용오류를구별. 국내미확인비용/지침은승인하지않음.",
+  "entries": [
+    {
+      "entry": 1,
+      "heading": "### 1. 금연하세요. 빨리 끊을수록 좋습니다",
+      "status": "warn",
+      "finding": "미국 원초록의 기대수명 10년·금연연령별 10/9/6년, 중국 원문의 도시 RR1.65·농촌1.22 확인. 농촌은 ‘1.22배 높습니다’보다 ‘1.22배입니다(약22% 높음)’가 분명합니다. 담뱃값·금단기간은 국내 가격·임상 근거 미확인; 2004년 간접흡연 수치의 연도는 보존합니다.",
+      "evidence": [
+        {
+          "doi": "10.1056/NEJMsa1211128",
+          "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
+          "url": "https://doi.org/10.1056/NEJMsa1211128",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/9a806d34dd9a22f88357.json"
+        },
+        {
+          "doi": "10.1016/S0140-6736(15)00340-2",
+          "scope": "HTTPS 원문 XML 직접 열람·항목의 주요 수치/조건 대조",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4691901/fullTextXML",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/bf9ac65f9d9ef2b71512.json"
+        },
+        {
+          "doi": "10.1016/S0140-6736(10)61388-8",
+          "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
+          "url": "https://doi.org/10.1016/S0140-6736(10)61388-8",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/4419084fca5878740fdb.json"
+        }
+      ]
+    },
+    {
+      "entry": 2,
+      "heading": "### 2. 집과 차 안에서는 담배를 피우지 마세요. 손님에게도 금연시키세요",
+      "status": "block",
+      "finding": "쉽게의 ‘세 명 중 한 명’은 원초록 28%와 다릅니다. 2004년 세계 추정임을 쉽게에도 표시하세요. OR1.28/1.39/1.36을 발생확률 30% 증가로 동일시하지 마세요. 57연구·질환별 OR는 원초록과 일치. 집 안/밖 비교는 관찰자료의 차이이며 장소 자체의 독립 인과효과로 단정하지 않습니다.",
+      "evidence": [
+        {
+          "doi": "10.1016/S0140-6736(10)61388-8",
+          "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
+          "url": "https://doi.org/10.1016/S0140-6736(10)61388-8",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/4419084fca5878740fdb.json"
+        },
+        {
+          "doi": "10.1093/ntr/ntaf111",
+          "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
+          "url": "https://doi.org/10.1093/ntr/ntaf111",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/c8c171be347ded2a2f52.json"
+        }
+      ]
+    },
+    {
+      "entry": 3,
+      "heading": "### 3. 금연은 의지로만 버티지 말고 약부터 받으세요. 성공률이 두 배 넘게 오릅니다",
+      "status": "warn",
+      "finding": "바레니클린 RR2.32·NRT1.55·병용1.27과 각 분모를 원문/초록에 대조했습니다. 병용 27%를 20%로 요약하기보다 ‘약30%’가 낫습니다. 공단 PDF에서 연3차수, 1~2회20%, 3~6회면제, 이수 환급 확인. 환급은 사업 내 본인부담금이며 모든 진료비 전부라는 뜻으로 확대하지 마세요. 6회 또는 약제별56/84일 조건을 유지합니다.",
+      "evidence": [
+        {
+          "doi": "10.1002/14651858.CD006103.pub8",
+          "scope": "HTTPS 원문 XML 직접 열람·항목의 주요 수치/조건 대조",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10169257/fullTextXML",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/7edb7882b06470c96504.json"
+        },
+        {
+          "doi": "10.1002/14651858.CD000146.pub5",
+          "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
+          "url": "https://doi.org/10.1002/14651858.CD000146.pub5",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/d55015cacab9b75c4357.json"
+        },
+        {
+          "doi": "10.1002/14651858.CD013308.pub2",
+          "scope": "HTTPS 원문 XML 직접 열람·항목의 주요 수치/조건 대조",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10278922/fullTextXML",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/d7233d91d92af809e2ee.json"
+        }
+      ]
+    },
+    {
+      "entry": 4,
+      "heading": "### 4. 금연일을 정하고 그날 한 번에 끊으세요. 서서히 줄이지 마세요",
+      "status": "block",
+      "finding": "‘철회돼 더는 갱신되지 않습니다. 현재 가장 좋은 근거는 위의 무작위 시험’은 대체 리뷰 누락입니다. 2019 Smoking reduction interventions for smoking cessation(CD013183.pub2)은 22시험9,219명에서 RR1.01(0.87–1.17), 중간 확실성으로 장기 금연 우열을 확인하지 못했습니다. 2016 단일시험 22.0%/15.5%는 맞지만 제목 ‘서서히 줄이지 마세요’의 전면 금지 근거가 아닙니다. 기존 수치와 새 종합결론을 함께 제시하고 선호·치료지원에 따라 선택하도록 수정하세요.",
+      "evidence": [
+        {
+          "doi": "10.7326/M14-2805",
+          "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
+          "url": "https://doi.org/10.7326/M14-2805",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/e8b65ecbbea63c8460dc.json"
+        },
+        {
+          "doi": "10.1002/14651858.CD013308.pub2",
+          "scope": "HTTPS 원문 XML 직접 열람·항목의 주요 수치/조건 대조",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10278922/fullTextXML",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/d7233d91d92af809e2ee.json"
+        }
+      ]
+    },
+    {
+      "entry": 5,
+      "heading": "### 5. 보건소 금연클리닉에 가보세요. 금연상담전화 1544-9030도 있습니다",
+      "status": "warn",
+      "finding": "약물+행동지원 RR1.83·전화 RR1.38/1.25는 원초록 확인. 전화번호1544-9030·무료·17센터는 공식 페이지 직접 확인. 전국 금연지원서비스 모두가 동일한 상담4~8회/회30~60분이라는 근거는 없습니다. 센터 페이지는 4박5일·6개월9회 이상도 제시합니다. 일반 상담의 예시와 국내 프로그램을 구분하세요.",
+      "evidence": [
+        {
+          "doi": "10.1002/14651858.CD008286.pub3",
+          "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
+          "url": "https://doi.org/10.1002/14651858.CD008286.pub3",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/7dcf6573dc7c0df04b17.json"
+        },
+        {
+          "doi": "10.1002/14651858.CD002850.pub4",
+          "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
+          "url": "https://doi.org/10.1002/14651858.CD002850.pub4",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/d6469feb0a30d8a5cd20.json"
+        }
+      ]
+    },
+    {
+      "entry": 6,
+      "heading": "### 6. 끊지 못할 때만 전자담배를 고려하세요. 원래 안 피우던 사람은 만지지 마세요",
+      "status": "block",
+      "finding": "pub11 원문에서 80RCT29,861명, NRT대비 RR1.61·11시험4,114명·추가4/100·SAE RD0.01 확인. 비교군은 니코틴 대체요법 전체이며 쉽게의 ‘니코틴 패치’ 단독 비교로 축소하면 안 됩니다. 액상형 전자담배 연구를 궐련형 가열담배로 확대하지 않도록 명시하세요. 합성니코틴 2026.4.24 규제와 6월 보도자료는 실제 HTTPS 열람. 법 제12조 판매규정의 직접 조문 열람 상태는 아래 기록. ‘금연약이 근거도 더 확실’은 제품/비교별로 달라 일괄 단정하지 마세요.",
+      "evidence": [
+        {
+          "doi": "10.1002/14651858.CD010216.pub11",
+          "scope": "HTTPS 원문 XML 직접 열람·항목의 주요 수치/조건 대조",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13506250/fullTextXML",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/9326e464f38ade934dda.json"
+        }
+      ]
+    },
+    {
+      "entry": 7,
+      "heading": "### 7. 당분 음료를 마시지 마세요. 제로로 바꾼다고 해결되지 않습니다",
+      "status": "block",
+      "finding": "Malik·EPIC 원초록/EPIC 원문에서 단 음료 HR1.21/1.14, 제로HR1.26 확인. 단위는 잔/serving이며 ‘병’으로 치환할 수 없습니다. 각 음료군의 관찰연관은 단 음료를 제로로 바꾸는 대체 효과를 직접 검증하지 않습니다. 제목·쉽게의 ‘제로로 바꿀 이득 없음’은 해당 비교를 실시하지 않았다는 뜻으로 수정해야 합니다.",
+      "evidence": [
+        {
+          "doi": "10.1161/CIRCULATIONAHA.118.037401",
+          "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
+          "url": "https://doi.org/10.1161/CIRCULATIONAHA.118.037401",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/d589bf67028de68ae779.json"
+        },
+        {
+          "doi": "10.1001/jamainternmed.2019.2478",
+          "scope": "HTTPS 원문 XML 직접 열람·항목의 주요 수치/조건 대조",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6724165/fullTextXML",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/1deca7ea2a5476b815ed.json"
+        }
+      ]
+    },
+    {
+      "entry": 8,
+      "heading": "### 8. 빈랑(빈랑나무 열매)을 씹지 마세요",
+      "status": "warn",
+      "finding": "17연구388,134명 전체와 사망 하위분모179,582명·RR1.21, 당뇨1.47·대사1.51은 원문 대조. 씹는 양/기간 및 금단 뒤 암위험 감소까지는 인용 논문의 해당 암 원자료를 추가 확인하지 못했습니다. 빈랑 혼합물과 열매 자체, 담배 포함 여부를 구분하고 암 관련 1차 근거를 보강하세요.",
+      "evidence": [
+        {
+          "doi": "10.1371/journal.pone.0070679",
+          "scope": "HTTPS 원문 XML 직접 열람·항목의 주요 수치/조건 대조",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3734295/fullTextXML",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/156bcb32b83b43193b51.json"
+        }
+      ]
+    },
+    {
+      "entry": 9,
+      "heading": "### 9. 집의 소금을 저나트륨 소금(칼륨염)으로 바꾸세요",
+      "status": "warn",
+      "finding": "SSaSS 원초록: 600마을20,995명, 뇌졸중 병력 또는60세이상 고혈압, 평균4.74년, 염화나트륨75%/염화칼륨25%, rate ratio .88/.86/.87 확인. 쉽게의 ‘5년 안에 죽을 확률12% 감소’는 발생률비의 대략풀이이므로 연구 추적기간과 누적확률을 같게 쓰지 않는 편이 정확합니다. 고칼륨 관련 중증사건 차이 미검출은 신장질환자의 안전성 확정이 아닙니다. 신장질환·칼륨잔류약은 의사 확인 조건을 반드시 유지. 국내 가격차는 미확인.",
+      "evidence": [
+        {
+          "doi": "10.1056/NEJMoa2105675",
+          "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
+          "url": "https://doi.org/10.1056/NEJMoa2105675",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/f471019f1972c206279f.json"
+        },
+        {
+          "doi": "10.1056/NEJMoa1311889",
+          "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
+          "url": "https://doi.org/10.1056/NEJMoa1311889",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/262bccdaabbcd9a9ee70.json"
+        }
+      ]
+    },
+    {
+      "entry": 10,
+      "heading": "### 10. 칫솔질을 제대로 하고, 하루 한 번 치아 사이를 청소하고, 빠진 이는 바로 치료하세요",
+      "status": "block",
+      "finding": "JAGES9,676명6년·HR.89/.77, 노인 치아수 OR1.87/2.04는 원초록 확인. 도구 사용 여부의 연구를 ‘매일’ 사용효과로 좁히지 마세요. OR를 사망확률 두배로 바꾸지 마세요. NHIS 공식 원문은 예방 목적 단독 스케일링의 연1회 급여와 치주질환 치료 관련 별도 급여를 구분합니다. ‘한 해 두번째부터 건강보험 안 됨’ 전면 단정을 예방 목적에 한정하세요.",
+      "evidence": [
+        {
+          "doi": "10.1016/j.jdent.2026.106789",
+          "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
+          "url": "https://doi.org/10.1016/j.jdent.2026.106789",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/85937fcbb2df949bcf5f.json"
+        },
+        {
+          "doi": "10.1007/s41999-025-01319-4",
+          "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
+          "url": "https://doi.org/10.1007/s41999-025-01319-4",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/7687b13873bdd5f9ebb2.json"
+        }
+      ]
+    },
+    {
+      "entry": 11,
+      "heading": "### 11. 하루 7000~8000보를 걷거나, 일주일에 150~300분 빠르게 걷세요",
+      "status": "warn",
+      "finding": "47,471명·3,013사망·분위별 걸음수3553/5801/7842/10901·HR.60/.55/.47, 연령별 정체구간은 원초록 확인. 운동시간 연구의7.5~15MET·h/주는 걸음수 연구와 다른 비교입니다. ‘하나만 채우면 됩니다’는 두 측정법이 모든 개인에게 정확히 등가라는 뜻으로 읽히지 않게 하세요. 한국 활동지침 페이지는 열었으나 첨부 지침 원문의 해당 권고문은 아직 직접 대조하지 못했습니다.",
+      "evidence": [
+        {
+          "doi": "10.1016/S2468-2667(21)00302-9",
+          "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
+          "url": "https://doi.org/10.1016/S2468-2667(21)00302-9",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/683bb7799e08f8155c9f.json"
+        },
+        {
+          "doi": "10.1093/eurjpc/zwad229",
+          "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
+          "url": "https://doi.org/10.1093/eurjpc/zwad229",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/e1b1009e2c926ca207f0.json"
+        },
+        {
+          "doi": "10.1001/jamainternmed.2015.0533",
+          "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
+          "url": "https://doi.org/10.1001/jamainternmed.2015.0533",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/a3967d4d88be84683f13.json"
+        },
+        {
+          "doi": "10.1136/bmj.l4570",
+          "scope": "HTTPS 원문 XML 직접 열람·항목의 주요 수치/조건 대조",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6699591/fullTextXML",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/a8a5eafff37c58c7d874.json"
+        }
+      ]
+    },
+    {
+      "entry": 12,
+      "heading": "### 12. 고혈압·고지혈증이 있으면 처방대로 꾸준히 드세요. 임의로 끊지 마세요",
+      "status": "block",
+      "finding": "혈압 RR.87/.80/.73/.72와 CTT LDL1.0mmol/L당.90/.78은 원문/초록 확인. 쉽게의 ‘1 단위’는 한국에서 흔히 쓰는 mg/dL 1과 혼동돼 필수 단위를 잃습니다. mmol/L를 명시하거나 LDL수치 상세는 이득에 남기고 쉽게는 처방약 유지와 방향만 요약하세요. 복약순응 .55/.71은 관찰 비교임을 유지. 모든 처방약 하루1회라는 단정은 처방마다 다르므로 고칩니다.",
+      "evidence": [
+        {
+          "doi": "10.1016/S0140-6736(15)01225-8",
+          "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
+          "url": "https://doi.org/10.1016/S0140-6736(15)01225-8",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/9d76eccee18ffd543f24.json"
+        },
+        {
+          "doi": "10.1016/S0140-6736(10)61350-5",
+          "scope": "HTTPS 원문 XML 직접 열람·항목의 주요 수치/조건 대조",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2988224/fullTextXML",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/879f70de45077f18cea1.json"
+        },
+        {
+          "doi": "10.1093/eurheartj/eht295",
+          "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
+          "url": "https://doi.org/10.1093/eurheartj/eht295",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/f4c786bd3453be05c2b1.json"
+        }
+      ]
+    },
+    {
+      "entry": 13,
+      "heading": "### 13. 밤마다 7시간쯤 자고, 자고 일어나는 시각을 고정하세요",
+      "status": "block",
+      "finding": "7시간 최저점의 용량반응과 수면규칙성·사회적시차 수치는 각 원문/초록 확인. Cappuccio의 short sleep RR1.12는 원연구별 짧은 수면 정의가 다르며 단일 ‘7시간 미만’ 집단의 효과가 아닙니다. 7시간 기준 연구와 RR1.12의 비교정의를 합치지 마세요. 규칙적 네 분위20~48% 감소를 최상분위 한 집단의 범위로 표현하지 않습니다. ‘대부분 역인과’는 비율을 검증한 결론이 아니므로 가능성으로 제한하세요.",
+      "evidence": [
+        {
+          "doi": "10.1093/sleep/33.5.585",
+          "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
+          "url": "https://doi.org/10.1093/sleep/33.5.585",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/98ed1f52f78b79d8a5ec.json"
+        },
+        {
+          "doi": "10.1161/JAHA.117.005947",
+          "scope": "HTTPS 원문 XML 직접 열람·항목의 주요 수치/조건 대조",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5634263/fullTextXML",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/ac28c0b40432ac8d05e6.json"
+        },
+        {
+          "doi": "10.1093/sleep/zsad253",
+          "scope": "HTTPS 원문 XML 직접 열람·항목의 주요 수치/조건 대조",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10782501/fullTextXML",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/41a3b8c317dcaf2b78ce.json"
+        },
+        {
+          "doi": "10.1111/joim.70133",
+          "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
+          "url": "https://doi.org/10.1111/joim.70133",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/6ec72dd8f254bf56dca9.json"
+        }
+      ]
+    },
+    {
+      "entry": 14,
+      "heading": "### 14. 일주일에 세 번, 45분씩 라켓 운동을 하세요",
+      "status": "block",
+      "finding": "80,306명 라켓 HR.53·심혈관.44·수영.72/.59 등은 원초록 확인. 이 연구는 운동종류별 관찰 비교이며 ‘주3회45분’이라는 최적 처방을 검증하지 않습니다. 출처 없는 횟수·시간을 제목의 확정 권고로 두지 마세요. 비용 국내 코트1만원은 근거 미확인. ‘라켓 참여자는 원래 더 건강’도 가능성으로 적어야 합니다.",
+      "evidence": [
+        {
+          "doi": "10.1136/bjsports-2016-096822",
+          "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
+          "url": "https://doi.org/10.1136/bjsports-2016-096822",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/0b283ffd37147f6ec12d.json"
+        }
+      ]
+    },
+    {
+      "entry": 15,
+      "heading": "### 15. 계단 오르기, 부리나케 걷기 같은 자투리 '힘든 움직임'을 하루 4~5분 모으세요",
+      "status": "block",
+      "finding": "원문25,241 비운동인·6.9년852사망, 3 bouts와4.4분 각각의 감소폭 확인. 대조군은 VILPA가 없는 사람이지 ‘전혀 움직이지 않는 사람’이 아닙니다. 쉽게의 분모를 고치세요. 원문은 운동하는62,344명에서도 유사 결과를 제시하므로 ‘이미 운동하는 사람에게 적용되지 않는다’는 전면 배제는 연구전체 설명과 맞지 않습니다. 두 분석을 구분하세요.",
+      "evidence": [
+        {
+          "doi": "10.1038/s41591-022-02100-x",
+          "scope": "HTTPS 원문 XML 직접 열람·항목의 주요 수치/조건 대조",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9800274/fullTextXML",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/c87a83bee6d4f965e53a.json"
+        }
+      ]
+    },
+    {
+      "entry": 16,
+      "heading": "### 16. 일주일에 30~60분 근력 운동을 하세요",
+      "status": "warn",
+      "finding": "원문16연구·근력활동과10~17%낮은 위험·30~60분 부근 최대10~20% 감소 확인. 더 큰 운동량의 효과는 불확실하다는 결론입니다. ‘그 이상 추가 이득 없음’을 확정 상한으로 단정하지 마세요. 한국 활동지침의 근력운동 빈도와 연구의 시간량을 구분하세요.",
+      "evidence": [
+        {
+          "doi": "10.1136/bjsports-2021-105061",
+          "scope": "HTTPS 원문 XML 직접 열람·항목의 주요 수치/조건 대조",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9209691/fullTextXML",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/648e30fdf4ead0bd50fb.json"
+        }
+      ]
+    },
+    {
+      "entry": 17,
+      "heading": "### 17. 한자리에 오래 앉아 있지 말고, 틈틈이 일어나 움직이세요",
+      "status": "warn",
+      "finding": "좌식 총시간HR2.63·회당1.96, 활동60~75분 및8시간이상/4시간미만 비교HR1.59·활동최상군1.04는 원초록 확인. 위험 상쇄는 관찰상 통계적 차이가 뚜렷하지 않았다는 뜻입니다. 모든 개인의 좌식위험을 운동이 제거한다고 보장하지 마세요. TV시청은 별도노출이며 총좌식과 혼합하지 않습니다.",
+      "evidence": [
+        {
+          "doi": "10.7326/M17-0212",
+          "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
+          "url": "https://doi.org/10.7326/M17-0212",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/e068967c4a851dd421bf.json"
+        },
+        {
+          "doi": "10.1016/S0140-6736(16)30370-1",
+          "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
+          "url": "https://doi.org/10.1016/S0140-6736(16)30370-1",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/e522d333f433d51fb64d.json"
+        }
+      ]
+    },
+    {
+      "entry": 18,
+      "heading": "### 18. 가공육(햄, 베이컨, 소시지, 런천미트)을 줄이세요",
+      "status": "warn",
+      "finding": "높은/낮은 섭취 비교RR1.23/1.29/1.10 및 일일1인분당1.23/1.10은 서로 다른 논문 원초록과 일치. ‘1인분’의 식품별 g 정의가 빠져 한국 햄 한봉지로 오인될 수 있습니다. 해당 원문의 표에서 가공육·붉은고기 기준량을 확인해 이득에 명시해야 합니다. NutriRECS의 약한 권고와 관찰근거 불확실성은 남기세요.",
+      "evidence": [
+        {
+          "doi": "10.1093/aje/kwt261",
+          "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
+          "url": "https://doi.org/10.1093/aje/kwt261",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/6d999285da35006e915f.json"
+        },
+        {
+          "doi": "10.3945/ajcn.117.153148",
+          "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
+          "url": "https://doi.org/10.3945/ajcn.117.153148",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/4b7da62d583d8e829ddf.json"
+        },
+        {
+          "doi": "10.7326/M19-1621",
+          "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
+          "url": "https://doi.org/10.7326/M19-1621",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/3b5f25797f64d4d98130.json"
+        }
+      ]
+    },
+    {
+      "entry": 19,
+      "heading": "### 19. 술을 줄이거나 끊으세요",
+      "status": "block",
+      "finding": "Wood 원문에서 기대수명6개월/1~2년/4~5년은 현재음주자 주0~100g 기준과 비교한 모델 추정입니다. 쉽게에서 비교군을 빼면 평생금주자와의 차이로 읽힙니다. 기준집단을 밝혀야 합니다. 5%맥주2.5L·40%증류주300mL는 근삿값이며 동일100g의 정밀환산값이 아닙니다. GBD2016의0최저 결론은 해당연구의 결과로 귀속하고 모든연령/현재지침의 유일 결론으로 단정하지 마세요. 금단경고 유지.",
+      "evidence": [
+        {
+          "doi": "10.1016/S0140-6736(18)30134-X",
+          "scope": "HTTPS 원문 XML 직접 열람·항목의 주요 수치/조건 대조",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5899998/fullTextXML",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/b0ff44e44a3d91f9048f.json"
+        },
+        {
+          "doi": "10.1016/S0140-6736(18)31310-2",
+          "scope": "HTTPS 원문 XML 직접 열람·항목의 주요 수치/조건 대조",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6148333/fullTextXML",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/76580b9193ca0c12e83b.json"
+        },
+        {
+          "doi": "10.1001/jamanetworkopen.2023.6185",
+          "scope": "HTTPS 원문 XML 직접 열람·항목의 주요 수치/조건 대조",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10066463/fullTextXML",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/b4f3ad5110145baa34db.json"
+        },
+        {
+          "doi": "10.1001/archinte.166.22.2437",
+          "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
+          "url": "https://doi.org/10.1001/archinte.166.22.2437",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/c9d68df968a86f93b3e7.json"
+        }
+      ]
+    },
+    {
+      "entry": 20,
+      "heading": "### 20. 매일 마시다가 끊으면 손이 떨리는 사람은 스스로 끊지 마세요",
+      "status": "warn",
+      "finding": "노르웨이36,287명·연간8.0/5.0/3.6%·SMR9.8은 원초록 확인. 이는 자가 금주의 급성 치사율이 아닌 진단 이후 장기 사망입니다. 그 구분은 현 후보 비고에 있어 유지해야 합니다. 금단이 의심되면 병원 도움을 받아 끊는 조건과 심한 증상의 긴급성은 짧게라도 남기세요. 국내 진료/입원비 건강보험 적용의 세부범위는 이번에 직접 대조 못했습니다.",
+      "evidence": [
+        {
+          "doi": "10.1016/j.ejim.2026.107103",
+          "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
+          "url": "https://doi.org/10.1016/j.ejim.2026.107103",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/b9c928ac241d047dc531.json"
+        },
+        {
+          "doi": "10.1111/add.16297",
+          "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
+          "url": "https://doi.org/10.1111/add.16297",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/2230022860fe369613e8.json"
+        }
+      ]
+    },
+    {
+      "entry": 21,
+      "heading": "### 21. 술을 줄이려면 일주일 치부터 세고, 의사와 몇 분 이야기하세요",
+      "status": "warn",
+      "finding": "34시험15,197명·1년주20g감소는 총69연구 중 주분석 분모입니다. Jonas 전체122RCT+1코호트22,803명과 약별NNT12의 음주재발/폭음재발 구별 확인. ‘122무작위시험22,803명’은 전체표본에 코호트1편 포함임을 보완하세요. 간단상담 무료 보장은 국내 수가 확인이 필요합니다. 레비아정 허가/50mg·아편사용 사전확인 조건을 공식 제품원문에서 확인했습니다. 처방·의사판단을 생략하지 마세요.",
+      "evidence": [
+        {
+          "doi": "10.1002/14651858.CD004148.pub4",
+          "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
+          "url": "https://doi.org/10.1002/14651858.CD004148.pub4",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/5f4aff456ae7268e9379.json"
+        },
+        {
+          "doi": "10.1001/jama.2014.3628",
+          "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
+          "url": "https://doi.org/10.1001/jama.2014.3628",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/52ab8a5eff9189bb5042.json"
+        }
+      ]
+    },
+    {
+      "entry": 22,
+      "heading": "### 22. 하루에 견과 한 줌을 드세요",
+      "status": "warn",
+      "finding": "두 코호트76,464여성+42,498남성·3,038,853인년, 주별.93/.89/.87/.85/.80은 원초록 확인. 첫쉽게의 ‘먹는 사람20%’는 주7회이상 범위로 한정해야 하며 모든섭취자 평균효과가 아닙니다. 국내28g월몇만원과 비흡연/질환배제 세부조리 기준 원문은 미확인. 견과는 원래 간식에 추가하기보다 열량주의를 유지합니다.",
+      "evidence": [
+        {
+          "doi": "10.1056/NEJMoa1307352",
+          "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
+          "url": "https://doi.org/10.1056/NEJMoa1307352",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/a12e0c2ec1910d24976c.json"
+        }
+      ]
+    },
+    {
+      "entry": 23,
+      "heading": "### 23. 붉은 살코기 일부를 생선과 가금육으로 바꾸세요",
+      "status": "block",
+      "finding": "HR.99/.99는 생선·가금육 섭취가 주2인분 늘 때의 독립 연관성입니다. 원초록은 육류를 동량 생선·가금육으로 바꾸는 대체분석 결과라고 하지 않습니다. 쉽게·이득의 ‘바꾸면’은 이 수치의 해석을 바꾸므로 삭제/정정. 가공육·살코기 각각HR1.03은 맞습니다. 실제 대체효과를 말하려면 별도 대체모델 1차 근거가 필요합니다.",
+      "evidence": [
+        {
+          "doi": "10.1001/jamainternmed.2019.6969",
+          "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
+          "url": "https://doi.org/10.1001/jamainternmed.2019.6969",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/0b6beb299d71a48a9114.json"
+        }
+      ]
+    },
+    {
+      "entry": 24,
+      "heading": "### 24. 흰쌀·밀가루 일부를 통곡물로 바꾸세요",
+      "status": "block",
+      "finding": "BMJ 원문90g/일은 통곡물 식품3인분 예시(빵2장+시리얼1그릇)입니다. 마른통곡물 자체와 통곡물제품 신선중량은 다릅니다. 현미/쌀 문맥에서 무게기준을 생략하면 조리밥90g 또는 마른쌀90g으로 오인됩니다. ‘절반만 바꾸면 최대이득 구간’도 원래 총섭취량이 없는 상태에서는 도출되지 않습니다. 원문 정의를 이득에 보존하고 쉽게는 일부 바꾸기만 제안하세요.",
+      "evidence": [
+        {
+          "doi": "10.1136/bmj.i2716",
+          "scope": "HTTPS 원문 XML 직접 열람·항목의 주요 수치/조건 대조",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4908315/fullTextXML",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/190df93ef40965b88825.json"
+        },
+        {
+          "doi": "10.3945/ajcn.117.153148",
+          "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
+          "url": "https://doi.org/10.3945/ajcn.117.153148",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/4b7da62d583d8e829ddf.json"
+        }
+      ]
+    },
+    {
+      "entry": 25,
+      "heading": "### 25. 일주일에 세 잔 이상 차를 드세요",
+      "status": "block",
+      "finding": "차China-PAR100,902명·중앙추적7.3년·HR.85·50세1.26/1.41년은 원초록 확인. 독소논문 둘은 실제 deterministic/probabilistic·Monte Carlo 위험평가를 했습니다. ‘식이 위험을 계산해내지 못했습니다’는 수행하지 못했다는 뜻이므로 오역입니다. ‘계산한 노출/섭취조건에서 뚜렷한 식이위험을 확인하지 못했다’로 바꾸세요. 우린 차와 고농도추출물의 간독성 구별은 인용 리뷰 초록 확인.",
+      "evidence": [
+        {
+          "doi": "10.1177/2047487319894685",
+          "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
+          "url": "https://doi.org/10.1177/2047487319894685",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/4e0e0655683271e12c19.json"
+        },
+        {
+          "doi": "10.1016/j.fct.2020.111830",
+          "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
+          "url": "https://doi.org/10.1016/j.fct.2020.111830",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/5fde18292b4ae6fd255f.json"
+        },
+        {
+          "doi": "10.3390/toxins14070452",
+          "scope": "HTTPS 원문 XML 직접 열람·항목의 주요 수치/조건 대조",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9318285/fullTextXML",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/fb779ced00d87af760f5.json"
+        },
+        {
+          "doi": "10.1016/j.yrtph.2018.03.019",
+          "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
+          "url": "https://doi.org/10.1016/j.yrtph.2018.03.019",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/7bdf70026746773e4d1c.json"
+        }
+      ]
+    },
+    {
+      "entry": 26,
+      "heading": "### 26. 하루 3~4잔 커피를 드세요. 설탕과 크림은 넣지 마세요",
+      "status": "block",
+      "finding": "Poole 원문3~4잔·RR.83(.79–.88) 관찰연관 확인. 이 논문은 설탕·크림을 넣으면 이득이 상쇄된다는 직접 비교 근거를 제공하지 않습니다. 설탕·크림 제한 권고와 효과완전상쇄 단정을 분리하세요. 잔당부피·카페인함량이 정해지지 않은 채 하루3~4잔 처방을 강하게 내리지 마세요. 임신·불면 등 예외 유지.",
+      "evidence": [
+        {
+          "doi": "10.1136/bmj.j5024",
+          "scope": "HTTPS 원문 XML 직접 열람·항목의 주요 수치/조건 대조",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5696634/fullTextXML",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/b52b1e14c57ddd410243.json"
+        }
+      ]
+    },
+    {
+      "entry": 27,
+      "heading": "### 27. 하루 5인분(약 400g) 과일과 채소를 채우세요",
+      "status": "warn",
+      "finding": "Aune 원문200g당RR.90와 최대800g, Wang 원초록5vs2인분HR.87 및 총26코호트 확인. 한 연구의80g기준 인분과 다른 연구 식품별 serving 정의를 같은400g 정밀수치로 합치지 마세요. 과일주스·감자 등 제외 범위를 독자가 5인분에 산입하지 않도록 짧게 보완 권장. 국내권장량은 별도 미확인.",
+      "evidence": [
+        {
+          "doi": "10.1093/ije/dyw319",
+          "scope": "HTTPS 원문 XML 직접 열람·항목의 주요 수치/조건 대조",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5837313/fullTextXML",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/c15fa559b9104d8fdd17.json"
+        },
+        {
+          "doi": "10.1161/CIRCULATIONAHA.120.048996",
+          "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
+          "url": "https://doi.org/10.1161/CIRCULATIONAHA.120.048996",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/931785f9c2296f3d6d44.json"
+        }
+      ]
+    },
+    {
+      "entry": 28,
+      "heading": "### 28. 초가공식품(감자칩, 라면, 과자, 즉석식품)을 줄이세요",
+      "status": "warn",
+      "finding": "원문 umbrella RR1.21·심혈관사망1.50과 epidemiological evidence class/GRADE 구별 확인. 서로 다른 등급체계를 ‘높음’과 혼동하지 않게 하세요. ‘반대 결론 연구가 지금까지 없다’는 포괄 부재주장은 이 리뷰 한편으로 검증하지 못했습니다. 중복 권고를 제거할 수 있으나 등급의 불확실성은 보존합니다.",
+      "evidence": [
+        {
+          "doi": "10.1136/bmj-2023-077310",
+          "scope": "HTTPS 원문 XML 직접 열람·항목의 주요 수치/조건 대조",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10899807/fullTextXML",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/1db316287e0c39f6b946.json"
+        }
+      ]
+    },
+    {
+      "entry": 29,
+      "heading": "### 29. 밥 짓고 난방할 때 연탄과 장작을 태우지 마세요. 전기나 가스로 바꾸세요",
+      "status": "warn",
+      "finding": "중국271,217명 고체연료조리HR1.11·난방1.14, 전환.87/.67, PM2.5 10µg/m³당RR1.08은 원초록 확인. 한국가구 효과로 직접 옮기지 않는 비고는 유지. 국내교체비와 한국주거보급률은 별도 원자료 미확인. 청정연료도 적절한 환기를 요구한다는 일반 안전조건을 삭제하지 마세요.",
+      "evidence": [
+        {
+          "doi": "10.1001/jama.2018.2151",
+          "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
+          "url": "https://doi.org/10.1001/jama.2018.2151",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/9a9a5095d6eb444aa465.json"
+        },
+        {
+          "doi": "10.1016/j.envint.2020.105974",
+          "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
+          "url": "https://doi.org/10.1016/j.envint.2020.105974",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/da2b073459b6bda06a19.json"
+        }
+      ]
+    },
+    {
+      "entry": 30,
+      "heading": "### 30. 뜨거운 것은 좀 식혀서 드세요. 끓는 차·국·커피를 곧바로 마시지 마세요",
+      "status": "block",
+      "finding": "이란 사례대조OR2.07/8.16·대기<2분OR5.41은 원문과 일치하지만 쉽게는 ‘위험8배/5배’로 확률비처럼 표현합니다. 이란 특정암 사례대조의 오즈라는 범위를 짧게 한정하고 수치 상세는 이득에 남기는 편이 낫습니다. 2~3분만 기다리면 안전하다는 시간보장은 온도/용기에 따라 달라 원문에서 도출 못합니다. IARC65℃초과2A는 공식 보도자료 직접 확인.",
+      "evidence": [
+        {
+          "doi": "10.1136/bmj.b929",
+          "scope": "HTTPS 원문 XML 직접 열람·항목의 주요 수치/조건 대조",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3269898/fullTextXML",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/252a099803319d0f8443.json"
+        },
+        {
+          "doi": "10.1016/S1470-2045(16)30239-X",
+          "scope": "서지 메타데이터 캐시만 확인; 내용 미확인",
+          "url": "https://doi.org/10.1016/S1470-2045(16)30239-X",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/eeaca2b0cbf9a50935ec.json"
+        }
+      ]
+    },
+    {
+      "entry": 31,
+      "heading": "### 31. 낮에 나가 햇빛을 쬐세요. 종일 햇빛을 피하지 마세요",
+      "status": "block",
+      "finding": "스웨덴여성29,518명20년·기대수명차.6~2.1년은 원초록 확인. ‘하루 십수분이면 충분’은 이 관찰연구가 정한 안전/유효용량이 아닙니다. 한국위도·계절·피부특성별 보장량으로 제시하지 마세요. 금연위험과의 수치유사성을 햇볕이 흡연을 상쇄한다는 뜻으로 읽히지 않게 하고 피부암주의 유지.",
+      "evidence": [
+        {
+          "doi": "10.1111/joim.12496",
+          "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
+          "url": "https://doi.org/10.1111/joim.12496",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/e68a6464b290a05b21d2.json"
+        }
+      ]
+    },
+    {
+      "entry": 32,
+      "heading": "### 32. BMI를 20~25로 유지하세요. 과체중이면 빼세요",
+      "status": "block",
+      "finding": "BMI239코호트 원문에서 비흡연·질환없음·첫5년생존 조건과 각HR 확인. ‘감량이 총사망률을 낮춘다는 무작위 시험도 없습니다’는 틀립니다. Ma등2017 BMJ j4849 원초록과 원문 직접열람: 비만성인 식이감량±운동, 총사망34시험685사망 RR.82(.71–.95). BMI관찰연관을 감량효과로 환산할 수 없다는 한계는 맞지만 RCT부재 단정은 고쳐야 합니다. 한국진단기준 BMI와 관찰최저위험구간도 구분하세요.",
+      "evidence": [
+        {
+          "doi": "10.1016/S0140-6736(16)30175-1",
+          "scope": "HTTPS 원문 XML 직접 열람·항목의 주요 수치/조건 대조",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4995441/fullTextXML",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/b33e4208c4b4ebee022f.json"
+        },
+        {
+          "doi": "10.1001/jama.2012.113905",
+          "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
+          "url": "https://doi.org/10.1001/jama.2012.113905",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/790629f89037aa491844.json"
+        }
+      ]
+    },
+    {
+      "entry": 33,
+      "heading": "### 33. 일주일에 네 번 이상 고추를 드세요",
+      "status": "block",
+      "finding": "원초록의 최상섭취군은 >4 times/week(주4회 초과), 비교군은 없음/드묾입니다. 본문의 ‘4회 이상’과 제목‘네번 이상’은 다른 경계입니다. HR.77/.66 및22,811명·중앙8.2년·1,236사망은 맞습니다. 섭취빈도를 인과적으로 수명연장하는 처방처럼 쓰지 말고 위장관 예외 유지.",
+      "evidence": [
+        {
+          "doi": "10.1016/j.jacc.2019.09.068",
+          "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
+          "url": "https://doi.org/10.1016/j.jacc.2019.09.068",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/edda638827db3ce65f50.json"
+        }
+      ]
+    },
+    {
+      "entry": 34,
+      "heading": "### 34. 하루에 우유나 요거트 1~2잔을 드세요",
+      "status": "block",
+      "finding": "PURE HR.83(.72–.96)은 total dairy >2 servings/day vs none입니다. total dairy에는 우유·요거트·치즈가 포함됩니다. 이를 ‘우유·요거트 두잔 이상’으로 바꾸면 노출종류·분량·경계가 달라집니다. 1~2잔 권고는 별도 한국권고 근거가 필요합니다. >2와≥2도 구분하세요. 평균9.1년 단정은 원문 추적기간 지표를 확인해 쓰세요.",
+      "evidence": [
+        {
+          "doi": "10.1016/S0140-6736(18)31812-9",
+          "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
+          "url": "https://doi.org/10.1016/S0140-6736(18)31812-9",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/d3719f3370e6ea4aeb80.json"
+        }
+      ]
+    },
+    {
+      "entry": 35,
+      "heading": "### 35. 달걀은 끊을 필요 없습니다. 다만 날마다 3~4개는 피하세요",
+      "status": "warn",
+      "finding": "원문521,120명129,328사망·하루달걀반개추가HR1.07, 대체모델 결과는 확인. 비고의 ‘메타분석도 무관’·미국콜레스테롤상한폐지·하루1개안심/3~4개경계는 본문이 인용한 단일논문만으로 충분히 확인하지 못했습니다. 해당 반대근거와 현재 공식식이지침을 직접 보강한 뒤 수량권고를 확정하세요.",
+      "evidence": [
+        {
+          "doi": "10.1371/journal.pmed.1003508",
+          "scope": "HTTPS 원문 XML 직접 열람·항목의 주요 수치/조건 대조",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7872242/fullTextXML",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/a0f64cf2a93beec39bfc.json"
+        }
+      ]
+    },
+    {
+      "entry": 36,
+      "heading": "### 36. 여건이 되면 몸을 담그는 목욕을 하세요. 샤워로만 때우지 마세요",
+      "status": "block",
+      "finding": "원초록30,076명·0~2회/주 비교HR.72·질환별 값 확인. 쉽게의 ‘두번 미만’은 기준과 다릅니다. 비용의 ‘한번30분’은 연구가 정한 유효·안전입욕시간이 아닙니다. 고령자에게 장시간입욕을 부추길 수 있어 실제권고근거 없이 고정시간을 제시하지 마세요. 중년 일본관찰결과를 샤워보다 우월한 인과효과로 단정하지 않고 고령/심혈관주의 유지.",
+      "evidence": [
+        {
+          "doi": "10.1136/heartjnl-2019-315752",
+          "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
+          "url": "https://doi.org/10.1136/heartjnl-2019-315752",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/0e15be4104e49df0da5f.json"
+        }
+      ]
+    },
+    {
+      "entry": 37,
+      "heading": "### 37. 낮잠은 30분 안으로 끝내세요. 1시간을 넘기지 마세요. 1~2시간은 자야 버틸 수 있다면 몸을 점검하세요",
+      "status": "warn",
+      "finding": "원문 umbrella16메타분석244결과·인지SMD.69·운동.99와 JAMA1,338명926사망·시간당1.13·횟수당1.07·오전1.30 확인. umbrella에는 운동/인지 중재자료도 들어 있으므로 ‘위 두연구 모두 관찰자료’라는 일괄설명은 결과별로 나눠야 합니다. <60분·>60분의 연구경계와 쉽게‘한시간 이내’를 일치시키세요. 30분은 실천권고이며 사망예방이 확정된 임계점이 아닙니다.",
+      "evidence": [
+        {
+          "doi": "10.3389/phrs.2026.1609013",
+          "scope": "HTTPS 원문 XML 직접 열람·항목의 주요 수치/조건 대조",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12909254/fullTextXML",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/3a43bc70f539217294b6.json"
+        },
+        {
+          "doi": "10.1001/jamanetworkopen.2026.7938",
+          "scope": "HTTPS 원문 XML 직접 열람·항목의 주요 수치/조건 대조",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13096975/fullTextXML",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/ae28aefbe1ccc7000bd4.json"
+        },
+        {
+          "doi": "10.1038/s41467-020-20585-3",
+          "scope": "HTTPS 원문 XML 직접 열람·항목의 주요 수치/조건 대조",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7876146/fullTextXML",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/10f476808bce3a7c7d29.json"
+        }
+      ]
+    },
+    {
+      "entry": 38,
+      "heading": "### 38. 밤새고 나면 다음 날 밤에 바로 보충하세요. 주말로 미루지 마세요",
+      "status": "warn",
+      "finding": "원문85,618명·중앙8년·보충없음HR1.15/1.42 및 보충군1.12/1.13의 유의하지 않은 CI 확인. 수면제한은 개인필요량 대비 누적2.5~3.5시간·심한제한>3.5시간으로 정의했습니다. 완전밤샘만 조사한 연구가 아니므로 제목·권고의 ‘밤샘’은 더 넓은 추론임을 구분하세요. 다음밤보충을 주말몰아자기로 바꾸지 않고 위험소멸 보장도 금지합니다.",
+      "evidence": [
+        {
+          "doi": "10.1038/s41467-026-72461-1",
+          "scope": "HTTPS 원문 XML 직접 열람·항목의 주요 수치/조건 대조",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13121452/fullTextXML",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/d9122b213c22906fa8ad.json"
+        }
+      ]
+    },
+    {
+      "entry": 39,
+      "heading": "### 39. 야간 교대를 오래 할수록 심혈관 위험이 커집니다. 옮길 수 있으면 일찍 옮기세요",
+      "status": "block",
+      "finding": "원문 심혈관메타RR1.13/1.27·5년당1.07/1.05, 유방암리뷰1.05·20년1.25 및 중국남성췌장HR1.59는 대조했습니다. 1990실험 원초록은 젊은남성8명, 빛+암막 복합개입입니다. 이 설계로 ‘생체시계를 옮기는 유일방법’ 또는 ‘빛·암막·선글라스 셋중 하나라도 빠지면 무용’이라고 구성요소별 필수성을 증명할 수 없습니다. 7,000~12,000룩스의 일반 자가처방은 줄이고 실험조건으로 귀속하세요. 식사를 낮에모으는 대책은 인용목록에 해당시험이 빠져 있습니다.",
+      "evidence": [
+        {
+          "doi": "10.3389/fpubh.2025.1668848",
+          "scope": "HTTPS 원문 XML 직접 열람·항목의 주요 수치/조건 대조",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12506678/fullTextXML",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/84c9895f1d5a1cd6d973.json"
+        },
+        {
+          "doi": "10.1093/occmed/kqaf040",
+          "scope": "HTTPS 원문 XML 직접 열람·항목의 주요 수치/조건 대조",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12794909/fullTextXML",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/37d716cf70d6d27c928e.json"
+        },
+        {
+          "doi": "10.5271/sjweh.4290",
+          "scope": "HTTPS 원문 XML 직접 열람·항목의 주요 수치/조건 대조",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13344439/fullTextXML",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/c07e30ac799e35e1533c.json"
+        },
+        {
+          "doi": "10.1056/NEJM199005033221801",
+          "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
+          "url": "https://doi.org/10.1056/NEJM199005033221801",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/cf5aca00940d2def4af9.json"
+        }
+      ]
+    },
+    {
+      "entry": 40,
+      "heading": "### 40. 밀폐 포장에 제조 정보가 찍힌 식용유를 사세요. 소규모 자가압착 땅콩기름은 사지 마세요",
+      "status": "unverified",
+      "finding": "중국원문 PR.650·독소중앙1.29µg/kg·개입직후−2.865 및연−2.593µg/kg, 광시1,611명·aOR1.9/1.8 확인. OR를 출생위험90/80%로 동일시하지 마세요. 국내즉석제조업의 존재는 법조문확인범위를 아래 별도기록하며 국내아플라톡신기준은 아직 미확인입니다. 중국소규모작업장결과만으로 한국방앗간전체를 금지할 수 없습니다. 밀봉·제조정보확인은 오염검사합격보증이 아닙니다. 현 TODO를 문장만 바꿔 출판승인 처리할 수 없습니다.",
+      "evidence": [
+        {
+          "doi": "10.3389/fpubh.2024.1484414",
+          "scope": "HTTPS 원문 XML 직접 열람·항목의 주요 수치/조건 대조",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11695283/fullTextXML",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/68e1ffa9ea623ad1b44f.json"
+        },
+        {
+          "doi": "10.1080/16549716.2024.2336312",
+          "scope": "HTTPS 원문 XML 직접 열람·항목의 주요 수치/조건 대조",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11025407/fullTextXML",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/fef2f14697dce605c0b3.json"
+        }
+      ]
+    },
+    {
+      "entry": 41,
+      "heading": "### 41. 요리에는 돼지기름·버터 대신 식물성 기름을 쓰세요. 기름을 갈아 사 다닐 필요도, 아마씨유의 심장 보호 효과를 기대하지도 마세요",
+      "status": "block",
+      "finding": "포화지방감소15시험56,675명 RR.83, omega6 19시험6,461명은 원초록 확인. omega3 전체86시험162,796명을 식물성ALA분석 분모로 기재한 것은 오류. ALA총사망5시험19,327명·RR1.01, CHD사건4시험19,061명·RR1.00입니다. 같은리뷰는 ALA부정맥 감소와 심혈관사건 소폭감소 가능성을 보고하므로 ‘심장보호효과 없음’ 전면 단정은 넘칩니다. 효과미검출과 무효입증을 구분하세요. 국내일일조리유권장량 미확인.",
+      "evidence": [
+        {
+          "doi": "10.1002/14651858.CD011737.pub3",
+          "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
+          "url": "https://doi.org/10.1002/14651858.CD011737.pub3",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/fed4ecd055021a77a46b.json"
+        },
+        {
+          "doi": "10.1002/14651858.CD011094.pub4",
+          "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
+          "url": "https://doi.org/10.1002/14651858.CD011094.pub4",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/73fe7c4149bcd3f2f4d2.json"
+        },
+        {
+          "doi": "10.1002/14651858.CD003177.pub5",
+          "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
+          "url": "https://doi.org/10.1002/14651858.CD003177.pub5",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/2a6d4461b4b4fe0070fb.json"
+        }
+      ]
+    },
+    {
+      "entry": 42,
+      "heading": "### 42. 볶고 튀길 때는 레인지후드를 켜세요. 불 붙인 때부터 끝날 때까지",
+      "status": "block",
+      "finding": "원문 대만분석의 cooking time-years>10은 실제요리경력10년이 아닙니다. 하루식사수×기간의 누적지표이며 예컨대하루3끼20년=60입니다. 제안쉽게의 ‘요리경력10년이상’도 반려. 후드비율은 <.33/.33~<.67/≥.67이지 정확1/3·2/3 경계가 아닙니다. Xue원문은 연기노출10연구와 후드없음4연구를 별도통합했으며 전체초록/본문의 총연구수 자체도 불일치합니다. 10연구중4라는 포함관계로 단정하지 마세요. OR1.74/2.11·대만.49·상하이HR1.49/2.03의 연구별노출·분모를 분리합니다.",
+      "evidence": [
+        {
+          "doi": "10.2147/OTT.S100949",
+          "scope": "HTTPS 원문 XML 직접 열람·항목의 주요 수치/조건 대조",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4881732/fullTextXML",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/00efb55badb5af137a4e.json"
+        },
+        {
+          "doi": "10.1038/s41598-020-63656-7",
+          "scope": "HTTPS 원문 XML 직접 열람·항목의 주요 수치/조건 대조",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7174336/fullTextXML",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/6b4d69222cd678138588.json"
+        },
+        {
+          "doi": "10.1002/ijc.29020",
+          "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
+          "url": "https://doi.org/10.1002/ijc.29020",
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/640e361c1efc7d803c07.json"
+        }
+      ]
+    }
+  ],
+  "editorial_proposals": [
+    {
+      "entry": 2,
+      "path": "kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-002-4b65/editorial-proposal.json",
+      "sha256": "43da9a83b5e14b12440609d61ac64106edb3a54af7be9edebc029a0b14d65612",
+      "decision": "revise",
+      "fields": [
+        {
+          "field": "쉽게",
+          "decision": "revise",
+          "before": "전 세계 간접흡연 사망자는 약 60만 명으로 추산됐습니다. 그중 세 명 중 한 명꼴은 아이입니다. 간접흡연에 오래 노출되면 고혈압·심장병·뇌졸중 위험이 커집니다. 이 질환에 걸릴 확률은 30% 안팎 높습니다. 집 안의 간접흡연은 집 밖의 노출보다 더 해롭습니다.",
+          "after": "2004년 간접흡연 사망자는 약 60만 명으로 추산됐고 28%는 아동입니다. 장기 노출군의 고혈압·심장병·뇌졸중 오즈는 비노출군의 약 1.28~1.39배입니다. 집 안 노출은 집 밖보다 위험이 큽니다.",
+          "after_chars": 112,
+          "why": "오즈라는 전문용어를 쉽게에 직접 넣었습니다. 2004년·28% 정정은 타당하지만 고혈압 등 모든 수치를 유지할 필요는 없습니다. 주요 건강위험 방향과 가족금연 행동으로 2~4문장120자 안에 다시 쓰세요.",
+          "approval_scope": "해당SHA의 이 필드편집안만. 항목전체내용·국내현행성·출판승인 아님."
+        }
+      ],
+      "null_fields": "제안없음. 본문해당필드 승인아님."
+    },
+    {
+      "entry": 3,
+      "path": "kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-003-4cea/editorial-proposal.json",
+      "sha256": "15c5f42041b2a81bbdfa05d40ebebd452359fccf4e242b9d48489eb944b6c974",
+      "decision": "approve",
+      "fields": [
+        {
+          "field": "쉽게",
+          "decision": "approve",
+          "before": "의지만으로는 대부분 실패합니다. 바레니클린을 먹으면 위약보다 금연 성공률이 두 배 넘게 높습니다. 패치·검 같은 니코틴 대체제도 금연 성공률을 높입니다. 약 없이 버틸 때보다 50%쯤 높습니다. 패치에 빨리 작용하는 검을 더하면 성공률이 20%쯤 더 오릅니다.",
+          "after": "의지만으로는 대부분 실패합니다. 금연 성공률은 바레니클린이 위약보다 두 배 넘게, 니코틴 대체제가 약 없이 버틸 때보다 50%쯤 높습니다. 패치에 빨리 작용하는 검을 더하면 패치만 쓸 때보다 20%쯤 더 높습니다.",
+          "after_chars": 119,
+          "why": "비교군과 병용조건을 보존하고 3문장119자로 줄였습니다. 이 필드의 축약만 승인합니다. 병용27%를20%로 둔 근사치는 약30%로 보완 권장이며 전체 약제·사업의 출판승인은 아닙니다.",
+          "approval_scope": "해당SHA의 이 필드편집안만. 항목전체내용·국내현행성·출판승인 아님."
+        }
+      ],
+      "null_fields": "제안없음. 본문해당필드 승인아님."
+    },
+    {
+      "entry": 5,
+      "path": "kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-005-6d11/editorial-proposal.json",
+      "sha256": "808346b00cd0751fa9793c118d52ac0a354db9b3a537c938a51d9384ec73d5c4",
+      "decision": "approve",
+      "fields": [
+        {
+          "field": "쉽게",
+          "decision": "approve",
+          "before": "약과 정기 상담은 서로 다른 역할을 합니다. 함께 이용하면 금연 성공률이 가장 높습니다. 약과 전문가 상담을 병행하면 금연에 두 배 가까이 성공합니다. 비교 대상은 짧은 조언만 받은 사람입니다. 상담사가 먼저 걸어주는 전화를 받으면 성공률이 20~30% 더 오릅니다.",
+          "after": "약과 정기 상담은 함께 이용하세요. 약과 전문가 상담을 병행한 금연 성공률은 일반 진료나 짧은 조언만 받은 경우의 1.83배입니다. 상담사가 먼저 건 전화 상담을 받은 경우는 약 25% 높았습니다.",
+          "after_chars": 110,
+          "why": "일반진료/짧은조언 비교와 약물+행동지원1.83배를 보존했습니다. 국내서비스가 동일효과를 보장한다는 뜻으로 확대하지 않으면 이 필드 축약은 수용 가능합니다.",
+          "approval_scope": "해당SHA의 이 필드편집안만. 항목전체내용·국내현행성·출판승인 아님."
+        }
+      ],
+      "null_fields": "제안없음. 본문해당필드 승인아님."
+    },
+    {
+      "entry": 6,
+      "path": "kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-006-8fb2/editorial-proposal.json",
+      "sha256": "818e50985f11c2c117806f5a356a861f6faa62a489ed12c5b3e3443ed53be04e",
+      "decision": "revise",
+      "fields": [
+        {
+          "field": "쉽게",
+          "decision": "revise",
+          "before": "궐련을 니코틴이 든 전자담배로 바꾸면 니코틴 패치보다 금연 성공률이 60%쯤 높습니다. 금연 효과를 뒷받침하는 근거는 확실합니다. 다만 전자담배가 무해하지는 않습니다. 장기 사용 후 안전성 자료는 아직 없습니다. 원래 담배를 피우지 않던 사람에게는 이득이 없습니다.",
+          "after": "궐련을 니코틴 전자담배로 바꾸면 니코틴 패치보다 금연 성공률이 약 60% 높고 근거는 확실합니다. 다만 무해하지 않으며 장기 안전성 자료는 아직 없습니다. 원래 담배를 피우지 않던 사람에게는 이득이 없습니다.",
+          "after_chars": 116,
+          "why": "원논문은 NRT 전체 비교입니다. 패치 단독으로 바꾼 비교군 오류를 그대로 보존해 수정 필요합니다. 액상형 범위를 명확히 하고 비흡연자 제외·장기안전성 불확실성을 유지하세요.",
+          "approval_scope": "해당SHA의 이 필드편집안만. 항목전체내용·국내현행성·출판승인 아님."
+        }
+      ],
+      "null_fields": "제안없음. 본문해당필드 승인아님."
+    },
+    {
+      "entry": 7,
+      "path": "kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-007-a8ec/editorial-proposal.json",
+      "sha256": "1b30cd0be531007f0653d34b9720cb5ac1f9c63409a7bf397595339bf1a464ad",
+      "decision": "revise",
+      "fields": [
+        {
+          "field": "쉽게",
+          "decision": "revise",
+          "before": "하루 두 병 이상 단 음료를 마시는 사람과 거의 안 마시는 사람을 비교했습니다. 같은 기간 죽을 확률은 많이 마시는 쪽이 20%쯤 높습니다. 하루 한두 병을 마셔도 10% 넘게 높습니다. 제로로 바꾼다고 이득이 보이지는 않습니다. 인공감미료 음료를 하루 두 잔 이상 마시는 사람도 비교했습니다. 죽을 확률은 오히려 4분의 1쯤 높습니다.",
+          "after": "추적 연구에서 단 음료를 하루 2잔 이상 마시면 한 달 1잔 미만인 사람보다 사망 위험이 약 21%, 하루 1~2잔도 약 14% 높게 나타났습니다. 제로 음료도 하루 2잔 이상이면 약 26% 높았습니다. 제로로 바꿀 이득은 보이지 않지만, 인과관계가 거꾸로거나 생활 차이 탓일 수 있어 감미료가 더 독하다는 근거는 아닙니다.",
+          "after_chars": 181,
+          "why": "관찰연구라는 설계용어·181자 예외는 불필요합니다. 제로 전환효과는 연구가 직접 평가하지 않았으므로 ‘이득없음’ 대신 ‘이 자료로 전환효과는 알 수 없습니다’로 제한하고 잔 단위를 유지하세요.",
+          "approval_scope": "해당SHA의 이 필드편집안만. 항목전체내용·국내현행성·출판승인 아님."
+        }
+      ],
+      "null_fields": "제안없음. 본문해당필드 승인아님."
+    },
+    {
+      "entry": 10,
+      "path": "kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-010-2bba/editorial-proposal.json",
+      "sha256": "d3906a50a542ea4431f9ea4000ae2cfdf9aef53aeca0cadd9d6614f83fe1346e",
+      "decision": "revise",
+      "fields": [
+        {
+          "field": "쉽게",
+          "decision": "revise",
+          "before": "치실·치간칫솔로 매일 치아 사이를 닦는 사람을 비교했습니다. 같은 기간 사망 확률이 10%쯤 낮습니다. 이가 다 빠진 노인은 죽을 확률이 90%쯤 높습니다. 남은 이가 스무 개 안 되면 사망 확률이 두 배에 가깝습니다.",
+          "after": "관찰연구에서 매일 치실·치간칫솔을 쓴 사람은 같은 기간 사망 위험이 약 10% 낮았습니다. 지역사회 노인은 이가 없으면 사망 오즈가 약 1.87배, 20개 미만이면 약 2.04배였습니다. 인과관계는 불확실합니다.",
+          "after_chars": 118,
+          "why": "쉽게에 관찰연구·오즈가 들어갑니다. 원자료가 단순 도구사용 여부이므로 매일사용 효과로 제한하지 말고 노인범위·확률과 오즈의 차이를 일상어로 축약하세요. 스케일링 급여오류는 별도수정입니다.",
+          "approval_scope": "해당SHA의 이 필드편집안만. 항목전체내용·국내현행성·출판승인 아님."
+        }
+      ],
+      "null_fields": "제안없음. 본문해당필드 승인아님."
+    },
+    {
+      "entry": 11,
+      "path": "kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-011-ed84/editorial-proposal.json",
+      "sha256": "c5674e0308931380422bfeb50e70943f77d5041aa91a6f6cef4cc3b4eaf40f56",
+      "decision": "revise",
+      "fields": [
+        {
+          "field": "쉽게",
+          "decision": "revise",
+          "before": "하루 7800보쯤 걷는 사람과 3500보쯤 걷는 사람을 비교했습니다. 같은 기간 죽을 확률은 많이 걷는 쪽이 45% 가깝게 낮습니다. 운동 시간으로 비교해도 사망 위험이 낮습니다. 일주일에 150~300분 빠르게 걷는 사람도 비교했습니다. 죽을 확률은 안 걷는 사람보다 30%쯤 낮습니다. 다만 일정량을 넘기면 위험이 더 낮아지지 않습니다. 예순이 넘었으면 6000~8000보로 충분합니다. 걸음 수나 운동 시간 중 하나만 채우세요.",
+          "after": "관찰 연구에서 하루 약 7800보를 걷는 사람은 약 3500보를 걷는 사람보다 사망 위험이 약 45% 낮았습니다. 주 150~300분 빠르게 걷는 사람도 활동 없는 사람보다 약 31% 낮았지만, 걷기 때문이라고 단정할 수는 없습니다. 걸음 수나 운동 시간 중 하나만 채우세요. 이득은 일정량부터 더 늘지 않으며, 걸음 수 기준으로 60세 이상은 6000~8000보, 60세 미만은 8000~10000보부터입니다.",
+          "after_chars": 230,
+          "why": "230자 예외는 연구수치와 양쪽 연령구간을 모두 쉽게에 실으려 생깁니다. 상세수치는 이득에 남기고 중강도활동 권고와 대략효과 하나만 120자 안으로 요약하세요. 걸음수와 활동시간의 절대등가 주장은 제한하세요.",
+          "approval_scope": "해당SHA의 이 필드편집안만. 항목전체내용·국내현행성·출판승인 아님."
+        }
+      ],
+      "null_fields": "제안없음. 본문해당필드 승인아님."
+    },
+    {
+      "entry": 12,
+      "path": "kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-012-3296/editorial-proposal.json",
+      "sha256": "7ea5bcc9bdbcd935e82d6eb04f6ba01bfc77d5f025ffa577f1c2b301b4dabaeb",
+      "decision": "revise",
+      "fields": [
+        {
+          "field": "쉽게",
+          "decision": "revise",
+          "before": "혈압이 10 mmHg 내려갈 때마다 죽을 확률이 약 13% 낮아집니다. 뇌졸중 위험은 약 27% 낮아집니다. 스타틴으로 나쁜 콜레스테롤을 1 단위 낮추면 사망 위험이 10%쯤 낮아집니다. 처방대로 먹는 사람은 자주 거르는 사람보다 사망 위험이 30%에서 45% 낮습니다.",
+          "after": "의사가 처방한 사람만 약을 꾸준히 드세요. 수축기 혈압이 10 mmHg 낮아지면 사망 위험은 약 13%, 뇌졸중 위험은 약 27% 줄고, 스타틴으로 LDL이 1.0 mmol/L 낮아지면 사망 위험은 약 10% 줄어듭니다. 처방약을 80% 이상 먹은 사람은 자주 거른 사람보다 사망 위험이 혈압약은 약 29%, 스타틴은 약 45% 낮았지만, 자기 관리 차이도 반영된 관찰 결과입니다. 건강한 사람의 복용이나 혈당을 더 낮추라는 권고는 아닙니다.",
+          "after_chars": 247,
+          "why": "247자·단위상세·순응도·모든부차비교를 쉽게에 넣을 필요가 없습니다. 처방대상·임의중단금지와 주효과를 남기고 상세 mmol/L 및 약별 수치는 이득으로 넘겨120자 안에 정리하세요.",
+          "approval_scope": "해당SHA의 이 필드편집안만. 항목전체내용·국내현행성·출판승인 아님."
+        }
+      ],
+      "null_fields": "제안없음. 본문해당필드 승인아님."
+    },
+    {
+      "entry": 13,
+      "path": "kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-013-0d52/editorial-proposal.json",
+      "sha256": "e3749f1e6fa70cb7b57bebba6e1e5fe29fcd1e2096a53403e50aecdc5978a167",
+      "decision": "revise",
+      "fields": [
+        {
+          "field": "쉽게",
+          "decision": "revise",
+          "before": "7시간보다 적게 자는 생활이 오래 이어지면 위험이 커집니다. 같은 기간 죽을 확률이 10%쯤 높습니다. 생활 패턴이 흐트러질수록 위험은 커집니다. 가장 규칙적인 사람은 가장 불규칙한 사람보다 사망 위험이 낮습니다. 차이는 20%에서 50%에 가깝습니다. 수면 시간보다 규칙성이 사망 위험을 더 잘 예측합니다.",
+          "after": "관찰 연구에서 오래 7시간 미만 잔 사람은 사망 위험이 약 12% 높았습니다. 규칙적인 수면군은 가장 불규칙한 군보다 20~48% 낮았습니다. 수면 시간보다 규칙성이 사망 위험을 더 잘 예측했습니다. 인과관계는 확인되지 않았습니다.",
+          "after_chars": 129,
+          "why": "짧은수면 통합RR1.12를 일률7시간미만으로 묶는 오류가 있습니다. 설계용어와129자예외를 제거하고 수면규칙성 주비교 하나로 요약하세요. 규칙적 네집단을 최상한집단으로 바꾸지 마세요.",
+          "approval_scope": "해당SHA의 이 필드편집안만. 항목전체내용·국내현행성·출판승인 아님."
+        }
+      ],
+      "null_fields": "제안없음. 본문해당필드 승인아님."
+    },
+    {
+      "entry": 15,
+      "path": "kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-015-901a/editorial-proposal.json",
+      "sha256": "3d58b5fdd0d183b8745c8dfb68356b33964da7a7bda04625ee2a4eb96db25e70",
+      "decision": "revise",
+      "fields": [
+        {
+          "field": "쉽게",
+          "decision": "revise",
+          "before": "평소 운동을 안 하는 사람이 하루 한두 분씩 세 번 숨차게 움직였습니다. 전혀 움직이지 않는 사람보다 사망 위험이 40%쯤 낮습니다. 심혈관 사망은 절반 가깝게 낮습니다. 계단 오르기나 부리나케 걷기가 이런 힘든 움직임에 해당합니다.",
+          "after": "평소 운동하지 않는 사람의 관찰 연구입니다. 하루 1~2분씩 세 번 계단 오르기나 부리나케 걷기를 했습니다. 이런 활동이 전혀 없는 사람보다 사망 위험이 38~40% 낮았습니다. 인과관계는 확인되지 않았습니다.",
+          "after_chars": 117,
+          "why": "관찰연구라는 설계용어를 빼고 VILPA없는 대조군으로 명확히 하세요. 해당노출이 없는 것과 전혀움직이지 않는 것은 다릅니다. 참가자에게 계단오르기를 배정한 시험처럼 쓰지 마세요.",
+          "approval_scope": "해당SHA의 이 필드편집안만. 항목전체내용·국내현행성·출판승인 아님."
+        }
+      ],
+      "null_fields": "제안없음. 본문해당필드 승인아님."
+    },
+    {
+      "entry": 16,
+      "path": "kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-016-71f0/editorial-proposal.json",
+      "sha256": "eb8b4418ad43f902cb74bc232ed54e1bd80838ae1e7c07c9cb945124cd2c93f6",
+      "decision": "revise",
+      "fields": [
+        {
+          "field": "쉽게",
+          "decision": "revise",
+          "before": "주 30~60분 근력 운동을 하는 사람을 비교했습니다. 같은 기간 사망 확률은 안 하는 쪽보다 10~20% 낮습니다. 그 이상 운동해도 추가 이득은 늘지 않습니다. 근력 운동과 유산소 운동을 함께 하면 가장 좋습니다.",
+          "after": "관찰 연구에서 주 30~60분 근력 운동을 한 사람을 비교했습니다. 안 한 사람보다 사망 위험이 약 10~20% 낮았습니다. 운동량에 따라 이득이 계속 늘지는 않았습니다.",
+          "after_chars": 95,
+          "why": "주30~60분 비교·위험크기·고용량불확실성은 남길 수 있습니다. 쉽게 첫머리 관찰연구라는 설계말만 걷어내 일상어로 바꾸세요.",
+          "approval_scope": "해당SHA의 이 필드편집안만. 항목전체내용·국내현행성·출판승인 아님."
+        }
+      ],
+      "null_fields": "제안없음. 본문해당필드 승인아님."
+    },
+    {
+      "entry": 17,
+      "path": "kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-017-5e24/editorial-proposal.json",
+      "sha256": "42f1ba2fa754ab698f99acda1f2130482255c9342176c7520198dffbe9e2a4ac",
+      "decision": "revise",
+      "fields": [
+        {
+          "field": "쉽게",
+          "decision": "revise",
+          "before": "가장 오래 앉는 사람과 가장 적게 앉는 사람을 비교했습니다. 가장 오래 앉는 쪽은 죽을 확률이 2.6배입니다. 한 번에 오래 앉아 있어도 위험이 더 커집니다. 하루 60~75분 중간 강도로 움직이면 이 위험은 거의 상쇄됩니다.",
+          "after": "관찰 연구에서 가장 오래 앉는 집단의 사망 위험은 가장 적게 앉는 집단의 2.6배였습니다. 몸이 나빠 오래 앉는 경우도 섞여 있습니다. 하루 60~75분 중간 강도 활동 시 좌식 위험은 거의 상쇄됐습니다.",
+          "after_chars": 114,
+          "why": "첫머리 관찰연구라는 설계말을 제거하고 비교조건·역인과·운동량은 보존하세요. 좌식위험 상쇄를 개인별보장으로 표현하지 않습니다.",
+          "approval_scope": "해당SHA의 이 필드편집안만. 항목전체내용·국내현행성·출판승인 아님."
+        }
+      ],
+      "null_fields": "제안없음. 본문해당필드 승인아님."
+    },
+    {
+      "entry": 19,
+      "path": "kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-019-e80d/editorial-proposal.json",
+      "sha256": "8404b9fb4c88a17c918ba771e0975cb03abbdc0ba4542c8060f5e24c5201e768",
+      "decision": "revise",
+      "fields": [
+        {
+          "field": "쉽게",
+          "decision": "revise",
+          "before": "일주일에 순수 알코올 100g을 넘으면 음주량이 많을수록 수명이 짧습니다. 100g은 맥주 약 2.5L입니다. 마흔에 일주일 100~200g을 마시면 기대수명이 반년쯤 짧습니다. 200~350g이면 1~2년 짧습니다. 350g이 넘으면 4~5년 짧습니다. 건강 전반을 따지면 안 마실 때 이득이 가장 큽니다.",
+          "after": "관찰 연구 결과입니다. 마흔에 주당 순수 알코올 100~200g은 기대수명 약 6개월 감소와 관련됐습니다. 건강을 위해 술을 시작할 근거는 없습니다. 매일 마신다면 끊기 전 의사와 상담하세요.",
+          "after_chars": 107,
+          "why": "기대수명6개월의 기준집단이 빠져 있습니다. 현재음주자 주0~100g과 비교한40세 모델임은 이득에 명시하고 쉽게는 술줄이기/금단상담으로 간결하게 요약하세요. 설계용어를 쉽게에 넣지 마세요.",
+          "approval_scope": "해당SHA의 이 필드편집안만. 항목전체내용·국내현행성·출판승인 아님."
+        }
+      ],
+      "null_fields": "제안없음. 본문해당필드 승인아님."
+    },
+    {
+      "entry": 20,
+      "path": "kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-020-e74f/editorial-proposal.json",
+      "sha256": "c16add47974da2802afacef577c78463bbd2714b4e6b98be7f625cc18b56f855",
+      "decision": "revise",
+      "fields": [
+        {
+          "field": "쉽게",
+          "decision": "revise",
+          "before": "매일 많이 마시다가 갑자기 끊으면 금단 증상이 나타납니다. 가벼운 증상으로는 손 떨림과 땀이 있습니다. 가슴이 두근거리거나 잠이 안 오기도 합니다. 심하면 경련이나 진전섬망이 나타납니다. 진전섬망은 생명을 위협하는 급성 질환입니다. 노르웨이에서 3만여 명을 추적했습니다. 진전섬망을 앓았던 집단에서는 이후 해마다 8%가 사망했습니다. 술을 끊고 싶으면 먼저 병원에 가세요. 하루에 얼마나 마시는지 말하세요.",
+          "after": "오랫동안 많이 마시다 갑자기 끊거나 크게 줄이면 금단 증상이 나타납니다. 병원 도움을 받아 끊으세요. 노르웨이 진전섬망군의 이후 연간 사망률은 8%였습니다. 스스로 끊은 결과를 조사한 연구는 아닙니다.",
+          "after_chars": 112,
+          "why": "금단발생조건·병원도움·장기사망과 자가금주결과의 구별을 지켰지만 진전섬망이라는 말만 남기고 생명위협 설명을 뺐습니다. 경련/심한혼란 등 경고와 응급진료 조건을 쉬운말로 남기고8%수치는 이득에 두는 편이 낫습니다.",
+          "approval_scope": "해당SHA의 이 필드편집안만. 항목전체내용·국내현행성·출판승인 아님."
+        }
+      ],
+      "null_fields": "제안없음. 본문해당필드 승인아님."
+    },
+    {
+      "entry": 21,
+      "path": "kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-021-e337/editorial-proposal.json",
+      "sha256": "1752a9e6656001b211017d467f00c223c85c89c7541ca628d06dcf2c0170545d",
+      "decision": "revise",
+      "fields": [
+        {
+          "field": "쉽게",
+          "decision": "revise",
+          "before": "의사가 몇 분간 음주량을 살핍니다. 음주 위험을 설명하고 목표도 함께 잡습니다. 이렇게 하면 1년 뒤 일주일에 순알코올을 평균 20g 덜 마십니다. 맥주 반 리터쯤에 해당합니다. 상담을 더 길게 해도 이득이 늘지는 않습니다. 이미 술을 멈추지 못하는 단계라면 약물 치료도 있습니다. 12명을 치료하면 한 명이 추가로 폭음을 피합니다.",
+          "after": "의사와 음주량을 살피고 줄일 목표를 잡으세요. 짧은 상담을 받은 쪽은 1년 뒤 주당 순알코올을 평균 20g 덜 마셨습니다. 근거의 품질은 중간 수준입니다. 상담을 늘려도 추가 이득은 없었습니다.",
+          "after_chars": 108,
+          "why": "주20g을 덜 마신 비교대상이 빠져 있습니다. 짧은상담을 받은 사람이 최소상담/무처치보다 덜마셨다는 관계를 남기고 효과수치·판단한계를 유지하세요. 12명NNT를 생략한 것은 허용됩니다.",
+          "approval_scope": "해당SHA의 이 필드편집안만. 항목전체내용·국내현행성·출판승인 아님."
+        }
+      ],
+      "null_fields": "제안없음. 본문해당필드 승인아님."
+    },
+    {
+      "entry": 23,
+      "path": "kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-023-7dfd/editorial-proposal.json",
+      "sha256": "b478606bc784e244b2318e1dbd38850015e13f3513c1d3058813aa4d150b6cde",
+      "decision": "revise",
+      "fields": [
+        {
+          "field": "쉽게",
+          "decision": "revise",
+          "before": "가공육·붉은 살코기를 주 2인분 더 먹으면 같은 기간 사망 확률이 3%쯤 높아집니다. 같은 양을 가금육이나 생선으로 바꾸면 이런 상승이 보이지 않습니다. 효과는 이 절의 다른 권고보다 작습니다. 바꿀 만하지만 크게 애쓸 필요는 없습니다.",
+          "after": "가공육·붉은 살코기를 주 2인분 더 먹은 경우 사망 위험이 약 3% 높았습니다. 생선·가금육으로 바꾸면 이런 상승은 없었습니다. 효과는 이 절의 다른 권고보다 작습니다. 바꿀 만하지만 크게 애쓸 필요는 없습니다.",
+          "after_chars": 118,
+          "why": "주2인분 증가의 독립연관을 식품대체효과로 잘못 바꾸었습니다. 생선·가금육으로 바꾸면 위험상승없음이라는 문장을 승인할 수 없습니다.",
+          "approval_scope": "해당SHA의 이 필드편집안만. 항목전체내용·국내현행성·출판승인 아님."
+        }
+      ],
+      "null_fields": "제안없음. 본문해당필드 승인아님."
+    },
+    {
+      "entry": 28,
+      "path": "kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-028-ff01/editorial-proposal.json",
+      "sha256": "8bd1282092abd9e2f59f08c836fae771679bdb41393c3fc5e425684bfee88a40",
+      "decision": "revise",
+      "fields": [
+        {
+          "field": "쉽게",
+          "decision": "revise",
+          "before": "초가공식품을 가장 많이 먹는 사람과 가장 적게 먹는 사람을 비교했습니다. 같은 기간 죽을 확률은 많이 먹는 쪽이 20%쯤 높습니다. 심혈관 사망은 50%쯤 높습니다. 다만 이 근거는 불확실성이 크다고 평가했습니다. 수치는 그 한계를 감안해 보세요.",
+          "after": "초가공식품을 가장 많이 먹는 쪽은 가장 적게 먹는 쪽보다 같은 기간 사망 위험이 20%쯤 높았습니다. 관찰연구라 인과관계는 확정할 수 없습니다. 근거의 불확실성이 커 수치 해석에 주의하세요.",
+          "after_chars": 106,
+          "why": "핵심비교·낮은확실성은 남겼습니다. 쉽게의 관찰연구라는 설계말을 빼고 ‘이 자료만으로 원인이라 단정할 수 없습니다’처럼 정리하세요.",
+          "approval_scope": "해당SHA의 이 필드편집안만. 항목전체내용·국내현행성·출판승인 아님."
+        }
+      ],
+      "null_fields": "제안없음. 본문해당필드 승인아님."
+    },
+    {
+      "entry": 32,
+      "path": "kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-032-d167/editorial-proposal.json",
+      "sha256": "0c6d2c40cf5c84a15359a98c35ddad3e6084341daf96701914032f00c0fd4909",
+      "decision": "revise",
+      "fields": [
+        {
+          "field": "쉽게",
+          "decision": "revise",
+          "before": "죽을 확률은 BMI 20~25 구간에서 가장 낮습니다. BMI 27.5~30은 20%쯤 높습니다. 30~35는 45%쯤 높습니다. 35~40은 두 배 가까이 높습니다. 동아시아인은 체중 증가에 더 민감합니다. BMI가 5 오를 때마다 위험이 40%쯤 높아집니다.",
+          "after": "평생 비흡연자로 등록 시 만성질환이 없고 5년 더 생존한 사람을 분석했습니다. 사망 위험은 BMI 20~25에서 가장 낮았습니다. 27.5~30은 약 20% 높았습니다. 감량으로 그만큼 줄어든다는 뜻은 아닙니다.",
+          "after_chars": 118,
+          "why": "대상선정상세는 쉽게의 핵심이 아닙니다. BMI관찰범위와 감량효과 불확실성은 남기되 선발기준은 이득에 두세요. 항목전체의 RCT부재오류가 해결되기 전에는 출판승인 불가.",
+          "approval_scope": "해당SHA의 이 필드편집안만. 항목전체내용·국내현행성·출판승인 아님."
+        }
+      ],
+      "null_fields": "제안없음. 본문해당필드 승인아님."
+    },
+    {
+      "entry": 37,
+      "path": "kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-037-bf31/editorial-proposal.json",
+      "sha256": "8c5b8f27281af87e077184dae8483e5630c58028d7fe79eb8b38a4b482704638",
+      "decision": "revise",
+      "fields": [
+        {
+          "field": "쉽게",
+          "decision": "revise",
+          "before": "낮잠이 한 시간 이내면 사망과 만성질환 위험이 오르지 않았습니다. 머리도 더 맑았습니다. 한 시간을 넘기면 관상동맥질환 위험은 30%쯤 높았습니다. 당뇨병과 비만 위험은 20%쯤 높았습니다. 알람을 맞추고 30분 뒤에 일어나세요. 매일 1~2시간은 자야 버틸 수 있다면 몸을 점검하세요.",
+          "after": "알람을 맞추고 30분 뒤에 일어나세요. 관찰 연구에서 1시간 넘는 낮잠은 관상동맥질환 위험이 약 30% 높았습니다. 매일 1~2시간은 자야 버틸 수 있다면 몸을 점검하세요.",
+          "after_chars": 96,
+          "why": "관찰연구라는 설계말을 빼고1시간초과 낮잠과 위험의 연관을 과거형으로 남기세요.30분실천권고와 지속졸림 점검조건은 보존합니다.",
+          "approval_scope": "해당SHA의 이 필드편집안만. 항목전체내용·국내현행성·출판승인 아님."
+        }
+      ],
+      "null_fields": "제안없음. 본문해당필드 승인아님."
+    },
+    {
+      "entry": 38,
+      "path": "kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-038-17c4/editorial-proposal.json",
+      "sha256": "b9b298310b4dea0b2039d17cebe56515155fbe1168f0c38f82db3eda3b6d59a2",
+      "decision": "revise",
+      "fields": [
+        {
+          "field": "쉽게",
+          "decision": "revise",
+          "before": "규칙적으로 자는 사람과 수면이 부족한 사람을 비교했습니다. 다음 날 밤에 보충하지 못한 사람은 사망 확률이 15%쯤 높습니다. 수면이 심하게 부족하고 보충도 못하면 42%쯤 높습니다. 보충한 사람에게서는 뚜렷한 위험 상승이 보이지 않았습니다. 밤새면 다음 날 일찍 눕세요.",
+          "after": "규칙적으로 자는 사람과 비교했습니다. 잠이 부족한 뒤 다음 날 밤에 보충 못한 사람의 사망 위험이 약 15% 높았습니다. 인과관계는 확인되지 않았습니다. 밤새면 주말로 미루지 말고 다음 날 밤 일찍 누우세요.",
+          "after_chars": 116,
+          "why": "보충을 다음날밤으로 제한하고 인과를단정하지 않은 점은 타당합니다. 쉽게의 연구설계/비교서두를 줄여 독자가 바로읽는 요약으로 다듬으세요. 밤샘만 조사한 연구라는 인상은 피하세요.",
+          "approval_scope": "해당SHA의 이 필드편집안만. 항목전체내용·국내현행성·출판승인 아님."
+        }
+      ],
+      "null_fields": "제안없음. 본문해당필드 승인아님."
+    },
+    {
+      "entry": 39,
+      "path": "kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-039-006e/editorial-proposal.json",
+      "sha256": "971da703a473cd833e19f33d2fe5448c397537769b0d65dc4a14a94491fa8fcc",
+      "decision": "revise",
+      "fields": [
+        {
+          "field": "쉽게",
+          "decision": "revise",
+          "before": "야간 교대 근무자는 심혈관 질환 위험이 13%쯤 높습니다. 비교 대상은 야간 교대를 하지 않는 사람입니다. 심혈관 사망 위험은 27%쯤 높습니다. 오래 일할수록 위험이 커집니다. 야간 교대 5년마다 심혈관 질환이 7%쯤 더 늘어납니다. 야간 교대 근무 기간은 햇수로 계산하세요. 옮길 수 있으면 일찍 옮기세요. 야간 근무가 암을 유발한다는 근거는 통념보다 약합니다.",
+          "after": "관찰 연구에서 야간 교대 5년마다 심혈관 질환 발생이 약 7% 높았습니다. 인과관계는 확정되지 않았습니다. 근무 햇수를 세고, 옮길 수 있으면 일찍 옮기세요. 암 위험을 기준으로 삼지는 마세요.",
+          "after_chars": 108,
+          "why": "관찰연구라는 설계말을 제거하세요. 이동가능조건과기간별심혈관연관은 유지하되 암을판단기준에서 일률제외하는 권고를 짧은요약의 핵심으로 삼을 필요는 없습니다. 별도본문 빛요법절대화 오류를 해결해야 합니다.",
+          "approval_scope": "해당SHA의 이 필드편집안만. 항목전체내용·국내현행성·출판승인 아님."
+        }
+      ],
+      "null_fields": "제안없음. 본문해당필드 승인아님."
+    },
+    {
+      "entry": 40,
+      "path": "kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-040-ec55/editorial-proposal.json",
+      "sha256": "8bafcf30719d44dcc33a0fbe381ac675a469c1020ef54a507f1f6d9080bbb454",
+      "decision": "revise",
+      "fields": [
+        {
+          "field": "쉽게",
+          "decision": "approve",
+          "before": "땅콩이 눅눅해지면 곰팡이가 피고 아플라톡신이 생깁니다. 아플라톡신은 확실한 발암물질입니다. 주로 간을 손상시킵니다. 광저우에서는 소규모 작업장 관리 뒤 간 기능 이상이 약 35% 줄었습니다. 자가압착 기름을 즐겨 쓰던 주민에게서 나온 결과입니다. 광시에서 자가압착 땅콩기름을 먹은 임산부를 추적했습니다. 그 아이의 저체중 출생 위험은 90%쯤 높았습니다. 조산 위험은 80%쯤 높았습니다.",
+          "after": "중국 광저우에서 자가압착 땅콩기름 작업장 관리 뒤 간 기능 이상이 약 35% 낮게 나타났습니다. 간암·사망을 조사한 결과는 아닙니다. 한국에 그대로 적용하기는 어렵습니다.",
+          "after_chars": 95,
+          "why": "중국광저우·간기능결과·간암/사망미조사·한국적용한계를 유지한 축약은 수용합니다. 국내방앗간금지의 근거로 확대할 수는 없고 항목전체 국내규격은 미확인입니다.",
+          "approval_scope": "해당SHA의 이 필드편집안만. 항목전체내용·국내현행성·출판승인 아님."
+        },
+        {
+          "field": "todo",
+          "decision": "revise",
+          "before": "국내 식용유 아플라톡신 기준은 TODO 확인 필요.",
+          "after": "국내 식용유의 아플라톡신 기준은 아직 확인하지 못했습니다.",
+          "after_chars": 32,
+          "why": "미확인이라는 정직한 문장 자체는 사실을추가하지 않지만 현행국내기준 확인을 대신하지 않습니다. 출판전 확인하거나 검증된범위로 권고를제한하고 TODO추적표를보존하세요. 문장교체만으로 미확인을 해결했다고 승인할 수 없습니다.",
+          "approval_scope": "해당SHA의 이 필드편집안만. 항목전체내용·국내현행성·출판승인 아님."
+        }
+      ],
+      "null_fields": "제안없음. 본문해당필드 승인아님."
+    },
+    {
+      "entry": 41,
+      "path": "kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-041-488c/editorial-proposal.json",
+      "sha256": "ceecf1042719dbaea70fb35726c1c30fb5f0a00a0c9797276f5aeaea25ed6cbb",
+      "decision": "revise",
+      "fields": [
+        {
+          "field": "쉽게",
+          "decision": "approve",
+          "before": "돼지기름·버터 같은 포화지방을 줄이고 식물성 기름으로 바꾸세요. 심장병·뇌졸중 같은 심혈관 사건이 약 17% 줄어듭니다. 다만 총사망 위험은 달라지지 않았습니다. 대두유·옥수수유·카놀라유를 번갈아 사면 좋다는 근거는 없습니다. 아마씨유를 더 먹어도 심장병 위험은 줄지 않았습니다.",
+          "after": "돼지기름·버터 같은 포화지방을 줄이고 식물성 기름으로 바꾸세요. 심혈관 사건은 약 17% 줄지만 총사망 위험은 달라지지 않았습니다.",
+          "after_chars": 73,
+          "why": "포화지방감소의 심혈관사건17%와 총사망효과미검출이라는 주비교를 간결하게 보존했습니다. 이 필드 축약만 승인하며 ALA분모오류나 제목절대화를 승인하는 뜻은 아닙니다.",
+          "approval_scope": "해당SHA의 이 필드편집안만. 항목전체내용·국내현행성·출판승인 아님."
+        },
+        {
+          "field": "title",
+          "decision": "revise",
+          "before": "요리에는 돼지기름·버터 대신 식물성 기름을 쓰세요. 기름을 갈아 사 다닐 필요도, 아마씨유의 심장 보호 효과를 기대하지도 마세요",
+          "after": "돼지기름·버터 대신 식물성 기름을 쓰세요. 기름을 번갈아 살 근거와 아마씨유의 심장 보호 효과는 없습니다",
+          "after_chars": 58,
+          "why": "주제·지방대체·번갈아구매·아마씨유를 남긴 축약은 제목삭제금지로 반려하지 않습니다. 저장소 book-kr와 관련기록에서 이 항목을향한 incoming anchor는 발견하지 못했습니다. 다만 ‘심장보호효과는 없습니다’는 ALA리뷰의 부정맥·심혈관사건결과보다 절대적이므로 ‘추가효과를 기대해 더먹을 근거는 제한적’ 등 확인범위로 다시쓰세요.",
+          "approval_scope": "해당SHA의 이 필드편집안만. 항목전체내용·국내현행성·출판승인 아님."
+        },
+        {
+          "field": "todo",
+          "decision": "revise",
+          "before": "한국 지침의 하루 조리유 권장량은 TODO 확인 필요.",
+          "after": "한국 지침의 하루 조리유 권장량은 아직 확인하지 못했습니다.",
+          "after_chars": 33,
+          "why": "미확인이라는 정직한 문장 자체는 사실을추가하지 않지만 현행국내기준 확인을 대신하지 않습니다. 출판전 확인하거나 검증된범위로 권고를제한하고 TODO추적표를보존하세요. 문장교체만으로 미확인을 해결했다고 승인할 수 없습니다.",
+          "approval_scope": "해당SHA의 이 필드편집안만. 항목전체내용·국내현행성·출판승인 아님."
+        }
+      ],
+      "null_fields": "제안없음. 본문해당필드 승인아님."
+    },
+    {
+      "entry": 42,
+      "path": "kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-042-69a7/editorial-proposal.json",
+      "sha256": "9d866b5378678a23bf924f62fa203377efca006da5696b5091518018ac23e7e6",
+      "decision": "revise",
+      "fields": [
+        {
+          "field": "쉽게",
+          "decision": "revise",
+          "before": "담배를 안 피우는 중국 여성의 볶음 요리를 살펴봤습니다. 후드를 안 켜거나 드물게 켠 사람은 폐암 위험이 두 배쯤입니다. 항상 켜는 사람과 비교한 수치입니다. 주방 환기가 나쁜 집에 살았던 사람도 위험이 50%쯤 높았습니다. 위험 차이는 연탄을 태우는 집에서 가장 뚜렷했습니다.",
+          "after": "요리 경력 10년 이상인 비흡연 중국 여성 연구입니다. 후드를 자주 켠 집단은 드물게 켠 집단보다 폐암 발생 오즈가 절반쯤 낮았습니다. 과거 사용을 되물어 차이가 과장됐을 수 있습니다.",
+          "after_chars": 103,
+          "why": "대상 cooking time-years>10을 실제요리경력10년이상으로 오기한 조건을 유지했으므로 수정필요. 표본선정상세·오즈는 이득에 두고 후드사용과폐암의 관찰연관 및한계를 쉬운말로 요약하세요.",
+          "approval_scope": "해당SHA의 이 필드편집안만. 항목전체내용·국내현행성·출판승인 아님."
+        }
+      ],
+      "null_fields": "제안없음. 본문해당필드 승인아님."
+    }
+  ],
+  "legal_direct_read_limitations": "식품위생법시행규칙37조 직접열람, 별표15 미확인. 담배사업법12조·식품위생법시행령21조 wrapper200이나 조문iframe502로 미확인. 보도자료확인과 조문확인을 구분."
+}
