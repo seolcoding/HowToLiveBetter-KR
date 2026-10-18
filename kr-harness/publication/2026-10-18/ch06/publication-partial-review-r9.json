@@ -1,0 +1,180 @@
+{
+  "chapter": 6,
+  "status": "completed_exact_partial_review_r9",
+  "manifest_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/author-partial-manifest-9.json",
+  "manifest_sha256": "9b414a92cc9ffdc475cc63131da76328c8c361013e5baf3353f08e3f09d0f4d3",
+  "entries": [
+    {
+      "entry": 15,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-015-821a/publication-entry-proposal-r2.md",
+      "proposal_sha256": "4e70c9d3148ebda90535c18028bfe43b1170e2f05da8ddf4c229741a3f67392f",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-015-821a/publication-entry-changes-r2.json",
+      "changes_sha256": "8a7a0c5e6e680b02b53b566758624d986052e588ca961c0e2b9f4e8a96131205",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-015-821a/strict-entry.md",
+      "base_strict_entry_sha256": "2a78a051c54b7921c963544e7c33564d8e965964fc3c49a8040dff8c99c12ba8",
+      "literal_exit_code": 0,
+      "decision": "approve",
+      "all_four_complete_fields_read": true,
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "snapshot_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-015-821a/entry_snapshot.md",
+      "snapshot_sha256": "2a78a051c54b7921c963544e7c33564d8e965964fc3c49a8040dff8c99c12ba8",
+      "strict_candidate_contains_exact_base": true,
+      "length_check": {
+        "entry": 15,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-015-821a/publication-entry-proposal-r2.md",
+        "title_chars": 31,
+        "easy_chars": 115,
+        "easy_sentences": 4,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "number": true,
+        "six_labels": true,
+        "tags": true,
+        "grade": true
+      },
+      "production_layout_check": true,
+      "initial_canonical_entry": {
+        "entry": 15,
+        "baseline_entry_sha256": "2a78a051c54b7921c963544e7c33564d8e965964fc3c49a8040dff8c99c12ba8",
+        "findings": [],
+        "candidate_review": "pending",
+        "snapshot_path": "_workspace/2026-10-18-015-821a/entry_snapshot.md",
+        "manifest_entry_sha256": "2a78a051c54b7921c963544e7c33564d8e965964fc3c49a8040dff8c99c12ba8",
+        "snapshot_sha_matches_manifest": true
+      },
+      "finding_closure": "source-supplement-r2에서실제로읽은Forer두원논문facsimile/인쇄118~123이미지·Archive텍스트및r5Carlson표2를재사용했다. r2전필드를대조해낡은원표재확인필요문장을삭제하고실제열람가능한원논문사본URL을추가했음을확인했다. 표1B(Sketch)39명·2/3/4/5점1/4/18/16명·4–5점34·가중평균166/39≈4.26은맞고원문평균직접보고와독자계산을구분했다. Carlson인쇄38.5/58.5와단순116/3·116/2차이도유지한다. 일반적문장을개별정확분석으로받아들이는수업실험의해석이며모든신앙을실험으로판정한것처럼확대하지않는다. 이전미완료기록은사실오류가아니었고새actual원표읽기로해소됐다.",
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "revision_requests": [],
+      "proposed_root_operation": {
+        "type": "replace_complete_strict_entry_body",
+        "before_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-015-821a/strict-entry.md",
+        "before_entire_entry_sha256": "2a78a051c54b7921c963544e7c33564d8e965964fc3c49a8040dff8c99c12ba8",
+        "after_proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-015-821a/publication-entry-proposal-r2.md",
+        "after_original_proposal_sha256": "4e70c9d3148ebda90535c18028bfe43b1170e2f05da8ddf4c229741a3f67392f",
+        "effective_after_sha256": "4e70c9d3148ebda90535c18028bfe43b1170e2f05da8ddf4c229741a3f67392f",
+        "effective_after_rule": "proposal.rstrip()+original strict entry trailing whitespace; preserve original separators",
+        "supersession": "Latest approved full replaces any initial field/older full once.",
+        "integration_authorized": false
+      }
+    },
+    {
+      "entry": 20,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-020-950b/publication-entry-proposal-r2.md",
+      "proposal_sha256": "898d4fa2ac0db3d87eabf8f8983d8aac9e3088b2273fc34a0c703e361bae8c69",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-020-950b/publication-entry-changes-r2.json",
+      "changes_sha256": "d0254addb3c48857283a240a3320f801139c0c0070a5cabaf55ea3d3551b613c",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-020-950b/strict-entry.md",
+      "base_strict_entry_sha256": "7761f4a449ad766a8ce39729134a1db254f1918ac83ee6679e3e6b0822dd73e9",
+      "literal_exit_code": 0,
+      "decision": "approve",
+      "all_four_complete_fields_read": true,
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "snapshot_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-020-950b/entry_snapshot.md",
+      "snapshot_sha256": "7761f4a449ad766a8ce39729134a1db254f1918ac83ee6679e3e6b0822dd73e9",
+      "strict_candidate_contains_exact_base": true,
+      "length_check": {
+        "entry": 20,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-020-950b/publication-entry-proposal-r2.md",
+        "title_chars": 44,
+        "easy_chars": 108,
+        "easy_sentences": 4,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "number": true,
+        "six_labels": true,
+        "tags": true,
+        "grade": true
+      },
+      "production_layout_check": true,
+      "initial_canonical_entry": {
+        "entry": 20,
+        "baseline_entry_sha256": "7761f4a449ad766a8ce39729134a1db254f1918ac83ee6679e3e6b0822dd73e9",
+        "findings": [
+          {
+            "severity": "warn",
+            "field": "쉽게",
+            "before_excerpt": "담낭 절제도 위험이 따릅니다. 약 1.5%에서 담관이 다칩니다.",
+            "request": "스웨덴 2005~2010년 전국등록의 경미한 수술후 담즙누출까지 포함한 정의임을 한정하세요. 한국 현재수술의 일반발생률로 읽히지 않게 하세요. 무증상 정상담낭·정상담도와 총담관 결석 예외는 유지하세요.",
+            "evidence_key": "10.1136/bmj.e6457"
+          }
+        ],
+        "candidate_review": "pending",
+        "snapshot_path": "_workspace/2026-10-18-020-950b/entry_snapshot.md",
+        "manifest_entry_sha256": "7761f4a449ad766a8ce39729134a1db254f1918ac83ee6679e3e6b0822dd73e9",
+        "snapshot_sha_matches_manifest": true
+      },
+      "finding_closure": "r6실제EASL원PDF인쇄154/155이미지·151/161관련텍스트,NICE/BMJ/여섯원초록읽기범위를재사용했다. 전체r2에서도자기담낭의수술을고려할수있음/매우낮은근거/약한권고·균일담낭벽석회화시회피가능·수술전CT확인을보존해확정권고오류를해소했다. 다른복부수술때일괄절제불권고와일부큰수술시제안가능도같이보존했다. RCT부재를2007Cochrane/검색2006종료의결과로한정해현재전체에확정하지않는다. 1cm이상용종/총담관예외·정상담낭/담도·증상시진료·스웨덴1.5%정의·모형의계산과관찰경과구분도그대로다. 중국합의전문/한국지침유무미확인은해소됐다고세지않고독자제한을유지한다.",
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "revision_requests": [],
+      "proposed_root_operation": {
+        "type": "replace_complete_strict_entry_body",
+        "before_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-020-950b/strict-entry.md",
+        "before_entire_entry_sha256": "7761f4a449ad766a8ce39729134a1db254f1918ac83ee6679e3e6b0822dd73e9",
+        "after_proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-020-950b/publication-entry-proposal-r2.md",
+        "after_original_proposal_sha256": "898d4fa2ac0db3d87eabf8f8983d8aac9e3088b2273fc34a0c703e361bae8c69",
+        "effective_after_sha256": "898d4fa2ac0db3d87eabf8f8983d8aac9e3088b2273fc34a0c703e361bae8c69",
+        "effective_after_rule": "proposal.rstrip()+original strict entry trailing whitespace; preserve original separators",
+        "supersession": "Latest approved full replaces any initial field/older full once.",
+        "integration_authorized": false
+      }
+    }
+  ],
+  "approved_entries": [
+    15,
+    20
+  ],
+  "revise_entries": [],
+  "actual_primary_readings": [],
+  "prior_actual_reading_reuse": [
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/publication-partial-source-supplement-r2.json",
+      "sha256": "4a02f0d83afbe06d25179e49ded4450aae95364c8147de175d1e5e078cbc82e4",
+      "scope": "Forerrawfacsimileidentity/printed118–123visual/table1Bcounts/calculatedmean/absenceofreportedmeanonly;notnewHTTP"
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/publication-partial-review-r5.json",
+      "sha256": "c21b67c80849677ac1498d64b38b2a6c4392242bc551ae2532e3183e5ef7599e",
+      "scope": "Carlsonprinted423table2andfraud/extortionconditionallegalcontext"
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/publication-partial-review-r6.json",
+      "sha256": "82e4c8715f61852a992b5e5fe66a59322f57134ad68dbed9e5d1b3ea9f1c420f",
+      "scope": "EASLactualPDF154/155and151/161;NICE1.2.1/1.3.1;BMJdefinition;allinheritedactualabstractscope;knownChineseconsensusfulltextunknownretained"
+    }
+  ],
+  "cross_reference_review": [
+    {
+      "scope": "15/20outgoingnumbered/chapterreferenceabsent.Originaltitles/numericanchorspreserved.20normalgallbladder/commonduct/porcelainconditionspreservedforincomingreferences.18r2nowpoints20subjectwithoutclaimingblanketsurgeryavoidance.",
+      "decision": "approve_limited_reference_scope",
+      "source_entry": 18,
+      "target_entry": 20,
+      "target_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-020-950b/publication-entry-proposal-r2.md"
+    }
+  ],
+  "production_helper_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/scripts/humanize_publication.py",
+  "production_helper_sha256": "244c194c7620c3095dc3a972eecdaa4e17fab8a0a301ae8b601cb8401569bfd3",
+  "helper_code_modified": false,
+  "fresh_http_performed": false,
+  "whole29_approval": false,
+  "integration_approval": false,
+  "formal_kr_fit_approval": false,
+  "preservation": "Prior reviews/frozen proposals/canonical/public/runs/gates/git unchanged."
+}

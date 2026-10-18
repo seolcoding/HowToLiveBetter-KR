@@ -1,14 +1,32 @@
 {
   "status": "accept",
   "decision": "accept",
+  "reviewer_id": "footnote_identity_review_fresh_finalizer",
+  "reviewed_at_utc": "2026-10-18T18:23:53.327888+00:00",
+  "genre": "essay",
+  "route": "light",
   "fidelity_violations": [],
+  "residual_findings": [],
+  "overediting": [],
   "correction_count": 0,
-  "body_correction_count": 0,
-  "summary_updated": true,
-  "self_check": "6/6",
+  "accepted_existing_corrections": 1,
+  "summary_updated": false,
   "grade": "B",
   "change_rate": 0.0007,
-  "gate_exit_code": 0,
+  "self_check": {
+    "passed": 6,
+    "total": 6
+  },
+  "independent_review": {
+    "comparison": "말고, → 말고의 쉼표 한 개 삭제만 확인했습니다. 가능한 HIV 노출, 72시간/3일 및 28일, PEP 응급 상황 한정, 국내 보험·처방 기관 미확인, 의사 판단·복약·재검사 경고와 CDC 완결 인용을 보존했습니다.",
+    "preserved": [
+      "네 prose field의 label·순서와 protected heading/tag/source/grade 그대로",
+      "모든 수치·날짜·기관명·인용·조건·부정·필수 경고 그대로",
+      "root가 다시 선택한 exact registry/payload/source-review와 original/final raw body SHA 일치"
+    ],
+    "source_approval_read": "quote-attribution/source-review/payload-38-review-r1.json",
+    "scope": "현재 원문과 정확 final 전체 직접 대조에 따른 fresh fidelity/style finalizer입니다. 본문/입력/summary 수정 없음. 기존 root 재선택과 exact source-review를 읽었으나 전체 항목의 사실·출처 또는 출판을 새로 승인하지 않습니다. ready.gov 직접 열람 제한(24) 및 72시간 경과 절대 표현과 국내 보험/처방 안내 검증 제외(38)의 기존 출처리뷰 범위는 유지됩니다."
+  },
   "classification_context": {
     "registry_sha256": "fcaea69ba82f916d15ea8f96d26b58c53af2407dcb82f2d0e5100de78102c89c",
     "payload_sha256": "90ab1381c1f8cc2a3098d87d1e0c4c87e8e9c3abe04cace2e10c0c1172c88898",
@@ -23,7 +41,7 @@
       "references/baseline_v2.json": "b5f1725bd02fb4cc40eece68c5b8f1d7c7655775743196d8fd0bc5978f2ed916",
       "references/metrics.py": "c17ef0bbb25f24fc1695068a319d421d35e4cffd9a8c277da3ad6a30ea96b8e3",
       "references/metrics_v2.py": "35aed83e56f8ced583e25ea08d9fbecb8baf15f8bb7f5bb14883a9f7318e374f",
-      "scripts/checks.py": "69a435b3a6549fded25a9796f5cdf01572951fba9feeb85db3bdcc0dd12599ef",
+      "scripts/checks.py": "5f83f68e4acbc103ecde11e9a5c19d1015e0b514a36e9933ca10284489fa0bcc",
       "scripts/prepare_monolith_input.py": "3774a9faecf3791057d4c8e887dd222e701d131ac1605ba4de2e76c7c064a9a2",
       "scripts/quote_context.py": "b3689d1fc321c55bc0d1d6a5985288a34d5ea8d851c67d846321856cf4de788f",
       "scripts/verify_gates.py": "30ab963d7c9b72cf3f395bd1279ac2e33b58d4ca8b5e099ee25da7aeb5e0c81a"
@@ -32,26 +50,9 @@
     "reviewed_quote_count": 1,
     "excluded_quote_chars_before": 28
   },
-  "residuals": [],
-  "independent_fidelity_review": {
-    "result": "accept",
-    "comparison": "Exact original and full final reread against protected entry snapshot. Sole body change removes comma after 말고; meaning and register unchanged.",
-    "preserved": [
-      "28일/72시간/3일 and all numeric occurrences",
-      "HIV/PEP, named CDC attribution and complete quotation",
-      "possible exposure condition, urgent timing, emergency-only scope",
-      "domestic coverage/provider uncertainty, physician decision, adherence warning, follow-up and prevention limits",
-      "protected heading, source URL, grade and context outside editable fields"
-    ],
-    "scope": "Fidelity review only; classification selection is not fact/source approval."
-  },
-  "evidence": {
-    "original_sha256": "c28be01c207caeb56676cf81cd6f9f3060d49334a522179b278d147ad24c4081",
-    "final_file_sha256": "be2e0327308cffca0848e5efe77db1050b82534a7b1517392d3631255acf643f",
-    "final_body_sha256": "59e04574fc494ae398f3a443cefeead6bafcf0367ff51962f2f982244a765060",
-    "body_bytes": 1688,
-    "registry_sha256": "fcaea69ba82f916d15ea8f96d26b58c53af2407dcb82f2d0e5100de78102c89c",
-    "actual_gate_argv": [
+  "gate": {
+    "exit_code": 0,
+    "command": [
       "python3",
       "/workspace/HowToLiveBetter-KR/.claude/skills/humanize-korean/scripts/verify_gates.py",
       "--before",
@@ -68,15 +69,28 @@
       "--quote-registry-sha256",
       "fcaea69ba82f916d15ea8f96d26b58c53af2407dcb82f2d0e5100de78102c89c",
       "--classification-evidence-dir",
-      "_workspace/2026-10-18-038-eea4/classification-finalize-r1"
+      "fresh-finalizer-footnote-r1-038"
     ],
-    "gate_stdout": "_workspace/2026-10-18-038-eea4/finalizer-reviewed-gate-r1.json",
-    "gate_stderr_exit": "_workspace/2026-10-18-038-eea4/finalizer-reviewed-gate-r1.txt",
-    "immutable_backups": {
-      "09_finalize.json.before-reviewed-classification-r1": "7b0155b300008a48346feacdaaa602dedb1749a07a7e6f8215091e01d21aa189",
-      "final.md.before-reviewed-classification-r1": "247c447850f43db0278415974593793eb1d9a12923592903f66b970467d6fb21",
-      "publication-gates.json.before-reviewed-classification-r1": "e2b5b560e1ceab80ada600c83ee0311413f887e81a66ab4b3bb70f2569acd8d0",
-      "publication-gates.txt.before-reviewed-classification-r1": "6d60f152caa9ea659bd61410ef1b1fdd3e743365c9a2e98235dd62a8cece8a54"
+    "stdout": "fresh-finalizer-evidence-footnote-r1/038/actual-gate.stdout.txt",
+    "stderr": "fresh-finalizer-evidence-footnote-r1/038/actual-gate.stderr.txt",
+    "result": {
+      "verdict": "OK — 수렴",
+      "exit_code": 0
     }
+  },
+  "body_sha256": "59e04574fc494ae398f3a443cefeead6bafcf0367ff51962f2f982244a765060",
+  "body_bytes": 1688,
+  "evidence": {
+    "backup_directory": "fresh-finalizer-evidence-footnote-r1/038",
+    "before_sha256": {
+      "final.md": "be2e0327308cffca0848e5efe77db1050b82534a7b1517392d3631255acf643f",
+      "09_finalize.json": "276763c1b3532b197cf0cbe9de656dda420e12b788f482cfd375a1334d6178e6",
+      "publication-gates.json": "531ca788c8e8d001332031b0052f9b7b19723d02ff85f98ac04542df024024c6",
+      "publication-gates.txt": "9bc20c508b41eb45cf7c2091280dc73cc8ba6dadfbf737f26164ae825681f89c",
+      "01_input.txt": "c28be01c207caeb56676cf81cd6f9f3060d49334a522179b278d147ad24c4081",
+      "00_metrics.json": "31a90e85626ef21673b265eab1eb9a4bfa1cefefd906e6395e7660655b91c28f",
+      "entry_snapshot.md": "db5fbfde439232e94485ba6045a0d195ff6e3887fe5f000d08199e95d455075a"
+    },
+    "classification_evidence_dir": "fresh-finalizer-footnote-r1-038"
   }
 }

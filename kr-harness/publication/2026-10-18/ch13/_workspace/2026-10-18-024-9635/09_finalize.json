@@ -1,6 +1,8 @@
 {
   "status": "accept",
   "decision": "accept",
+  "reviewer_id": "footnote_identity_review_fresh_finalizer",
+  "reviewed_at_utc": "2026-10-18T18:23:53.325693+00:00",
   "genre": "essay",
   "route": "light",
   "fidelity_violations": [],
@@ -8,19 +10,22 @@
   "overediting": [],
   "correction_count": 0,
   "accepted_existing_corrections": 2,
-  "summary_updated": true,
+  "summary_updated": false,
+  "grade": "B",
+  "change_rate": 0.0008,
   "self_check": {
     "passed": 6,
     "total": 6
   },
-  "grade": "B",
-  "change_rate": 0.0008,
   "independent_review": {
-    "comparison": "Read complete original, final, protected entry_snapshot and historical 09. Only two author-prose commas removed; all other body bytes unchanged. No diagnosis file exists for light route.",
-    "numbers_dates_urls": "119, 1992년 10월, 2026-10-10 and both 제10조 preserved. No URLs in editable input; protected source URLs and heading/evidence grade are outside this run and untouched.",
-    "scope_conditions_negation": "Ownership scope and apartment/dormitory exclusions preserved; heat/smoke checks, alternate route, evacuation impossibility, other-unit fire with no incoming fire/smoke and all conditional warnings preserved.",
-    "quotes_warnings": "All three quoted strings unchanged, including attributed FEMA wording and stop/drop/roll. Elevator prohibition, no reentry for belongings, face covering, older-apartment limitation and equipment checks preserved.",
-    "attribution_limit": "Accepts fidelity and selected classification only; no independent factual/source approval inferred."
+    "comparison": "두 쉼표 삭제만 확인했습니다: 만져 보고, → 만져 보고 / 천천히 열고, → 천천히 열고. 화재 상황의 대피 불가 대안, 다른 세대 화재 시 불길·연기 유입 없음 조건, 엘리베이터 금지·재진입 금지, 아파트/기숙사 제외 범위와 1992년10월 제한, 모든 FEMA 인용을 보존했습니다.",
+    "preserved": [
+      "네 prose field의 label·순서와 protected heading/tag/source/grade 그대로",
+      "모든 수치·날짜·기관명·인용·조건·부정·필수 경고 그대로",
+      "root가 다시 선택한 exact registry/payload/source-review와 original/final raw body SHA 일치"
+    ],
+    "source_approval_read": "quote-attribution/source-review/payload-24-review-r1.json",
+    "scope": "현재 원문과 정확 final 전체 직접 대조에 따른 fresh fidelity/style finalizer입니다. 본문/입력/summary 수정 없음. 기존 root 재선택과 exact source-review를 읽었으나 전체 항목의 사실·출처 또는 출판을 새로 승인하지 않습니다. ready.gov 직접 열람 제한(24) 및 72시간 경과 절대 표현과 국내 보험/처방 안내 검증 제외(38)의 기존 출처리뷰 범위는 유지됩니다."
   },
   "classification_context": {
     "registry_sha256": "fcaea69ba82f916d15ea8f96d26b58c53af2407dcb82f2d0e5100de78102c89c",
@@ -36,7 +41,7 @@
       "references/baseline_v2.json": "b5f1725bd02fb4cc40eece68c5b8f1d7c7655775743196d8fd0bc5978f2ed916",
       "references/metrics.py": "c17ef0bbb25f24fc1695068a319d421d35e4cffd9a8c277da3ad6a30ea96b8e3",
       "references/metrics_v2.py": "35aed83e56f8ced583e25ea08d9fbecb8baf15f8bb7f5bb14883a9f7318e374f",
-      "scripts/checks.py": "69a435b3a6549fded25a9796f5cdf01572951fba9feeb85db3bdcc0dd12599ef",
+      "scripts/checks.py": "5f83f68e4acbc103ecde11e9a5c19d1015e0b514a36e9933ca10284489fa0bcc",
       "scripts/prepare_monolith_input.py": "3774a9faecf3791057d4c8e887dd222e701d131ac1605ba4de2e76c7c064a9a2",
       "scripts/quote_context.py": "b3689d1fc321c55bc0d1d6a5985288a34d5ea8d851c67d846321856cf4de788f",
       "scripts/verify_gates.py": "30ab963d7c9b72cf3f395bd1279ac2e33b58d4ca8b5e099ee25da7aeb5e0c81a"
@@ -47,8 +52,6 @@
   },
   "gate": {
     "exit_code": 0,
-    "stdout": "finalizer-reviewed-gate-r1.json",
-    "stderr_exit": "finalizer-reviewed-gate-r1.txt",
     "command": [
       "python3",
       "/workspace/HowToLiveBetter-KR/.claude/skills/humanize-korean/scripts/verify_gates.py",
@@ -66,8 +69,10 @@
       "--quote-registry-sha256",
       "fcaea69ba82f916d15ea8f96d26b58c53af2407dcb82f2d0e5100de78102c89c",
       "--classification-evidence-dir",
-      "_workspace/2026-10-18-024-9635/classification-finalize-r1"
+      "fresh-finalizer-footnote-r1-024"
     ],
+    "stdout": "fresh-finalizer-evidence-footnote-r1/024/actual-gate.stdout.txt",
+    "stderr": "fresh-finalizer-evidence-footnote-r1/024/actual-gate.stderr.txt",
     "result": {
       "verdict": "OK — 수렴",
       "exit_code": 0
@@ -75,18 +80,17 @@
   },
   "body_sha256": "d109b6bfa07ecd32a092ad93342c135e3d04e4fb34d9f5bd709a83a93ca7e291",
   "body_bytes": 2916,
-  "evidence_sha256": {
-    "01_input.txt": "e35406db9b7597853b3be829d042373bf269db9070afe66e389c4cbaf0984c4c",
-    "final.md": "0bddfb55e6a05fea4be03a053bf946d80e98b917f2cf9dd97142d42c106ea5d5",
-    "entry_snapshot.md": "5e1a884f8ba7b4c16fa0bf8416c8888cd7829628754bef294cf299d1b79465c7",
-    "final.md.before-reviewed-classification-r1": "c43166d48dd643ebe834a1f27f0bfa332236e652be5bd113b383fede100cba5f",
-    "09_finalize.json.before-reviewed-classification-r1": "f1e54a6b04f0441c67e2a1bb11cdbba38bbd6a82746eaf504b7d78afacae66fa",
-    "publication-gates.json.before-reviewed-classification-r1": "e40cb09a983361db60d3cc32018e7e038a72339ca86fdc6e08ba396f313f5fe5",
-    "publication-gates.txt.before-reviewed-classification-r1": "49e93d8b66b6c4eda1348a07b9656e40a811df9a5ed88c75871321ea5e75a6f1",
-    "finalizer-reviewed-gate-r1.json": "4477207aa099eac87483dfbede2ac8c99aa5a3a443dd18fb2c545981df2bed84",
-    "finalizer-reviewed-gate-r1.txt": "b813c8ec685493913067fe526ed2ee282aef15778c9eaedd7b1916b8661c4a93",
-    "manifest.json": "cc5dabf1b2aafefa79b7473ad905394ceb61b6c16f7644789ee363b85a8f83aa",
-    "quote-attribution/root-registry-r1.json": "fcaea69ba82f916d15ea8f96d26b58c53af2407dcb82f2d0e5100de78102c89c"
-  },
-  "publication_gate_files_modified": false
+  "evidence": {
+    "backup_directory": "fresh-finalizer-evidence-footnote-r1/024",
+    "before_sha256": {
+      "final.md": "0bddfb55e6a05fea4be03a053bf946d80e98b917f2cf9dd97142d42c106ea5d5",
+      "09_finalize.json": "82dfe4bde41fc9d6ff1866c0a54fd96f07536693d925786833c5f357f2b14303",
+      "publication-gates.json": "ce8e7df3ff9d10ac13a932c527aa896ea0f99754937a96cb3fe92788a62d823b",
+      "publication-gates.txt": "f3e81c35d9c0958bf51a41c2b909bcea230f31b656f12470a50c98e1facc5cd0",
+      "01_input.txt": "e35406db9b7597853b3be829d042373bf269db9070afe66e389c4cbaf0984c4c",
+      "00_metrics.json": "8262c03574d315bf2416a7f67ffef7e3ba3fe24aea763e27a69fd99415183aba",
+      "entry_snapshot.md": "5e1a884f8ba7b4c16fa0bf8416c8888cd7829628754bef294cf299d1b79465c7"
+    },
+    "classification_evidence_dir": "fresh-finalizer-footnote-r1-024"
+  }
 }

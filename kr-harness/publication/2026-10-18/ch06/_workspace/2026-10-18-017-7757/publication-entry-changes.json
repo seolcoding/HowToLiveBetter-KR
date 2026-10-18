@@ -1,0 +1,245 @@
+{
+  "status": "unadopted_proposal",
+  "independent_exact_hash_review": "pending",
+  "entry": 17,
+  "basis": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-017-7757/strict-entry.md",
+  "basis_sha256": "e8d42bb69d5f447bb2400d98d3ea0b50ed77dcdc8fc62efe1743989e7283fff3",
+  "proposal_sha256": "63fb4f814948d8962bc520f1955b353d4e8075af21fe95849774dee28a09abb2",
+  "title": {
+    "before": "### 17. 헌혈을 몸보신으로 여기지 마세요. '디톡스, 혈중지방 감소, 심근경색 예방'에는 무작위시험 근거가 없습니다. 자주 헌혈하면 철이 실제로 부족해집니다",
+    "after": "### 17. 헌혈을 몸보신으로 여기지 마세요. 건강 효과는 입증되지 않았고, 자주 하면 철이 부족해집니다",
+    "reason": "70자 초과 제목 축약. 헌혈을 몸보신으로 incoming anchor 유지. 건강 효과 미입증과 잦은 헌혈 철 부족 위험 유지.",
+    "incoming_anchor_scan": [
+      "ch06/intro.md:15",
+      "ch06/source.md:15",
+      "ch06/candidate.md:15"
+    ],
+    "independent_anchor_review": "pending"
+  },
+  "fields": {
+    "비용": {
+      "before": "돈은 들지 않습니다. 신분 확인부터 문진, 채혈, 휴식까지 한 시간 남짓 걸립니다. 헌혈 뒤 몸은 몇 주에 걸쳐 잃은 철을 다시 채웁니다.",
+      "after": "돈은 들지 않습니다. 신분 확인부터 문진, 채혈, 휴식까지 한 시간 남짓 걸립니다. 헌혈 뒤 몸은 몇 주에 걸쳐 잃은 철을 다시 채웁니다.",
+      "changed": false
+    },
+    "쉽게": {
+      "before": "헌혈이 독을 빼거나 혈중지방을 낮춘다는 말은 믿기 어렵습니다. 심근경색을 예방한다는 주장도 입증되지 않았습니다. 계속 헌혈하는 사람은 원래 더 건강합니다. 이 영향을 고려해 1년에 한 번 더 헌혈할 때의 사망률을 봤습니다. 사망률 감소폭은 20% 가까이에서 7.5%로 줄었습니다. 사람을 나눠 비교한 시험에서도 사망 수 차이는 뚜렷하지 않았습니다. 반면 너무 자주 헌혈하면 철이 부족해집니다. 철 부족으로 기운이 없거나 추위를 탈 수 있습니다.",
+      "after": "자료에서 연 1회 추가 헌혈의 사망률 감소폭은 18.6%였습니다. 건강 차이를 따지자 7.5%로 줄었으며 헌혈 덕분인지는 모릅니다. 너무 자주 헌혈하면 철 부족으로 기운이 없거나 추위를 탈 수 있습니다.",
+      "changed": true
+    },
+    "이득": {
+      "before": "핀란드 쿠오피오 연구는 42~60세 남성 2862명을 추적했습니다. 평균 추적 기간은 9년 가까이 됩니다. 조사 시작 전 24개월 동안 헌혈한 사람은 153명입니다. 이 중 1명(0.7%)이 급성 심근경색을 겪었습니다. 헌혈하지 않은 2529명 중에는 316명(12.5%)이 겪었습니다. 두 비율의 차이는 P<0.0001입니다. 나이와 그 밖의 관상동맥질환 위험 인자를 보정했습니다. 헌혈 경험자의 심근경색 위험은 약 88% 낮았습니다. 상대위험은 0.12입니다. 95% CI 0.02–0.86, P=0.035입니다. 다만 이 연구는 헌혈 여부를 무작위로 나누지 않고 추적했습니다. 북유럽 SCANDAT 데이터베이스에는 헌혈자 1,182,495명이 있습니다. 누적 추적 기간은 9,526,627인년입니다. 이 중 15,401명이 사망했습니다. 나이·성별 같은 특성을 보정해 사망률을 비교했습니다. 1년에 한 번 더 헌혈할 때 사망률은 18.6% 낮았습니다. 95% CI 16.8%–20.4%입니다. 건강해야 계속 헌혈이 허용되는 영향도 보정했습니다. 그러자 감소폭은 7.5%(5.7%–9.4%)로 줄었습니다. 저자들은 건강에 이롭다는 확증적 증거로 해석할 수 없다고 밝혔습니다. FeAST 무작위 배정 대조시험은 하지동맥질환 환자 1277명을 모집했습니다. 모두 증상이 있는 환자였습니다. 한 군은 6개월마다 피를 뽑아 철을 줄였습니다. 다른 군은 대조군으로 두었습니다. 주요 관찰 지표인 전체 사망은 125/636(20%) 대 148/641(23%)입니다. HR은 0.85로 나타났습니다. HR은 위험비로, 1이면 양쪽의 위험이 같다는 뜻입니다. 95% CI 0.67–1.08, P=0.17입니다. 사망과 사망에 이르지 않은 심근경색·뇌졸중도 합산했습니다. 결과는 180(28%) 대 205(32%)입니다. HR 0.88(0.72–1.07, P=0.20)입니다. 두 지표 모두 통계적으로 유의한 차이는 없었습니다. INTERVAL 무작위 시험은 전혈 헌혈자 45,263명을 모집했습니다. 헌혈 간격은 세 가지로 나눴습니다. 남자는 12주·10주·8주, 여자는 16주·14주·12주입니다. 간격을 줄이자 2년간 채혈량이 뚜렷하게 늘었습니다. 남자 8주 군은 12주 군보다 1.69 단위 더 헌혈했습니다. 95% CI 1.59–1.80입니다. 삶의 질, 신체 활동, 인지 기능에는 군 간 차이가 없었습니다. 대신 헌혈에 따른 불편은 늘었습니다. 무기력, 숨참, 실신, 어지럼증, 하지불안증후군이 더 많았습니다. 하지불안증후군은 밤에 다리가 불편해 가만히 누워 있기 힘든 증상입니다. 평균 혈색소와 페리틴 수치도 더 낮았습니다. 혈색소가 낮아 헌혈을 연기한 횟수도 더 많았습니다. 모두 P<0.0001입니다. 철 결핍은 체온 유지에도 영향을 줍니다. 실험에는 철 결핍성 빈혈 여성 10명이 참여했습니다. 빈혈은 없지만 저장 철이 바닥난 사람 8명도 참여했습니다. 대조군 여성은 12명입니다. 모두 28℃ 물에 100분간 몸을 담갔습니다. 빈혈 군의 직장 온도는 36.0±0.2℃입니다. 대조군은 36.2±0.1℃(P=0.001)로 나타났습니다. 산소 소비량은 5.28±0.26 대 5.99±0.29 mL·min⁻¹·kg⁻¹입니다. P=0.04입니다. 갑상선 호르몬인 티록신과 트리요오드티로닌도 더 낮았습니다(P<0.002). 헌혈자는 반복 선별검사를 통과한 건강한 사람들입니다. 이 때문에 헌혈이 건강에 좋다는 주장이 맞는 듯 보입니다. 철을 빼면 심장을 지킨다는 가설은 무작위시험에서 입증되지 않았습니다. 대한적십자사는 다음 헌혈 기준을 적용합니다. 전혈 320mL는 만 16~69세, 400mL는 만 17~69세입니다. 65세 이상은 60~64세 사이에 헌혈한 경험이 있어야 합니다. 체중은 남자 50kg, 여자 45kg 이상이어야 합니다. 400mL 헌혈은 50kg 이상이어야 합니다. 다음 전혈 헌혈은 8주 뒤부터 가능합니다. 전혈 헌혈은 1년에 5회까지 허용합니다. 다만 연간 헌혈량 제한에 따라 횟수가 달라질 수 있습니다.",
+      "after": "핀란드 쿠오피오 연구는 42~60세 남성 2862명을 추적했습니다. 평균 추적 기간은 9년 가까이 됩니다. 조사 시작 전 24개월 동안 헌혈한 사람은 153명입니다. 이 중 1명(0.7%)이 급성 심근경색을 겪었습니다. 헌혈하지 않은 2529명 중에는 316명(12.5%)이 겪었습니다. 두 비율의 차이는 P<0.0001입니다. 나이와 그 밖의 관상동맥질환 위험 인자를 보정했습니다. 헌혈 경험자의 심근경색 발생 HR은 약 88% 낮았습니다. HR은 0.12입니다. HR은 추적 중 순간별 사건 발생률을 비교한 값입니다. 일정 기간의 발생 확률 비율과는 다릅니다. 95% CI 0.02–0.86, P=0.035입니다. 다만 이 연구는 헌혈 여부를 무작위로 나누지 않고 추적했습니다. 초록의 전체 인원과 위 두 집단의 합계는 180명 차이가 납니다. 초록은 이 차이의 이유를 설명하지 않습니다. 북유럽 SCANDAT 데이터베이스에는 헌혈자 1,182,495명이 있습니다. 누적 추적 기간은 9,526,627인년입니다. 이 중 15,401명이 사망했습니다. 나이·성별 같은 특성을 보정해 사망률을 비교했습니다. 1년에 한 번 더 헌혈할 때 사망률은 18.6% 낮았습니다. 95% CI 16.8%–20.4%입니다. 건강해야 계속 헌혈이 허용되는 영향도 보정했습니다. 그러자 감소폭은 7.5%(5.7%–9.4%)로 줄었습니다. 저자들은 건강에 이롭다는 확증적 증거로 해석할 수 없다고 밝혔습니다. FeAST 무작위 배정 대조시험은 하지동맥질환 환자 1277명을 모집했습니다. 모두 증상이 있지만 상태는 안정된 환자였습니다. 일반 헌혈자의 건강 효과를 직접 시험한 것은 아닙니다. 한 군은 철 결핍을 피하며 6개월마다 피를 뽑아 철을 줄였습니다. 다른 군은 대조군으로 두었습니다. 주요 관찰 지표인 전체 사망은 125/636(20%) 대 148/641(23%)입니다. HR은 0.85로 나타났습니다. HR이 1이면 순간별 사건 발생률이 같다는 뜻입니다. 95% CI 0.67–1.08, P=0.17입니다. 사망과 사망에 이르지 않은 심근경색·뇌졸중도 합산했습니다. 결과는 180(28%) 대 205(32%)입니다. HR 0.88(0.72–1.07, P=0.20)입니다. 두 지표 모두 통계적으로 유의한 차이는 없었습니다. 효과가 전혀 없다고 확정한 결과는 아닙니다. INTERVAL 무작위 시험은 전혈 헌혈자 45,263명을 모집했습니다. 헌혈 간격은 세 가지로 나눴습니다. 남자는 12주·10주·8주, 여자는 16주·14주·12주입니다. 간격을 줄이자 2년간 채혈량이 뚜렷하게 늘었습니다. 남자 8주 군은 12주 군보다 1.69 단위 더 헌혈했습니다. 95% CI 1.59–1.80입니다. 삶의 질, 신체 활동, 인지 기능에는 유의한 군 간 차이가 없었습니다. 대신 헌혈에 따른 불편은 늘었습니다. 무기력, 숨참, 실신할 듯한 느낌, 어지럼증, 하지불안증후군이 늘었습니다. 이런 증상 증가는 특히 남자에게서 나타났습니다. 하지불안증후군은 밤에 다리가 불편해 가만히 누워 있기 힘든 증상입니다. 평균 혈색소와 페리틴 수치도 더 낮았습니다. 혈색소가 낮아 헌혈을 연기한 횟수도 더 많았습니다. 모두 P<0.0001입니다. 철 결핍은 체온 유지에도 영향을 줍니다. 실험에는 철 결핍성 빈혈 여성 10명이 참여했습니다. 빈혈은 없지만 저장 철이 바닥난 사람 8명도 참여했습니다. 대조군 여성은 12명입니다. 모두 28℃ 물에 100분간 몸을 담갔습니다. 빈혈 군의 직장 온도는 36.0±0.2℃입니다. 대조군은 36.2±0.1℃(P=0.001)로 나타났습니다. 산소 소비량은 5.28±0.26 대 5.99±0.29 mL·min⁻¹·kg⁻¹입니다. P=0.04입니다. 갑상선 호르몬인 티록신과 트리요오드티로닌도 더 낮았습니다(P<0.002). 빈혈 없는 저장 철 부족 군의 반응은 대조군과 비슷했습니다. 헌혈자는 반복 선별검사를 통과한 건강한 사람들입니다. 이 때문에 헌혈이 건강에 좋다는 주장이 맞는 듯 보입니다. 이 환자 시험에서는 철 감소의 심장 보호 효과가 입증되지 않았습니다. 대한적십자사는 다음 헌혈 기준을 적용합니다. 전혈 320mL는 만 16~69세, 400mL는 만 17~69세입니다. 65세 이상은 60~64세 사이에 헌혈한 경험이 있어야 합니다. 체중은 남자 50kg, 여자 45kg 이상이어야 합니다. 400mL 헌혈은 50kg 이상이어야 합니다. 다음 전혈 헌혈은 8주 뒤부터 가능합니다. 전혈 헌혈은 1년에 5회까지 허용합니다. 다만 연간 헌혈량 제한에 따라 횟수가 달라질 수 있습니다.",
+      "changed": true
+    },
+    "근거등급": {
+      "before": "A",
+      "after": "A",
+      "changed": false
+    },
+    "출처": {
+      "before": "Salonen JT, Tuomainen TP, Salonen R, Lakka TA, Nyyssönen K (1998). Donation of blood is associated with reduced risk of myocardial infarction. The Kuopio Ischaemic Heart Disease Risk Factor Study. American Journal of Epidemiology, 148(5), 445-451. https://doi.org/10.1093/oxfordjournals.aje.a009669 ; Ullum H, Rostgaard K, Kamper-Jørgensen M, et al. (2015). Blood donation and blood donor mortality after adjustment for a healthy donor effect. Transfusion, 55(10), 2479-2485. https://doi.org/10.1111/trf.13205 ; Zacharski LR, Chow BK, Howes PS, et al. (2007). Reduction of iron stores and cardiovascular outcomes in patients with peripheral arterial disease: a randomized controlled trial. JAMA, 297(6), 603-610. https://doi.org/10.1001/jama.297.6.603 ; Di Angelantonio E, Thompson SG, Kaptoge S, et al. (2017). Efficiency and safety of varying the frequency of whole blood donation (INTERVAL): a randomised trial of 45 000 donors. Lancet, 390(10110), 2360-2371. https://doi.org/10.1016/S0140-6736(17)31928-1 ; Beard JL, Borel MJ, Derr J (1990). Impaired thermoregulation and thyroid function in iron-deficiency anemia. American Journal of Clinical Nutrition, 52(5), 813-819. https://doi.org/10.1093/ajcn/52.5.813 ; 혈액관리법 제14조(헌혈증서의 발급 및 수혈비용의 보상 등). https://www.law.go.kr/법령/혈액관리법/제14조 ; 대한적십자사 혈액관리본부, 헌혈증서 안내 https://www.bloodinfo.net/knrcbs/cm/cntnts/cntntsView.do?mi=1142&cntntsId=1022 , 헌혈과정(헌혈 기준) https://www.bloodinfo.net/knrcbs/cm/cntnts/cntntsView.do?mi=1048&cntntsId=1124 (2026-10-06 확인)",
+      "after": "Salonen JT, Tuomainen TP, Salonen R, Lakka TA, Nyyssönen K (1998). Donation of blood is associated with reduced risk of myocardial infarction. The Kuopio Ischaemic Heart Disease Risk Factor Study. American Journal of Epidemiology, 148(5), 445-451. https://doi.org/10.1093/oxfordjournals.aje.a009669 ; Ullum H, Rostgaard K, Kamper-Jørgensen M, et al. (2015). Blood donation and blood donor mortality after adjustment for a healthy donor effect. Transfusion, 55(10), 2479-2485. https://doi.org/10.1111/trf.13205 ; Zacharski LR, Chow BK, Howes PS, et al. (2007). Reduction of iron stores and cardiovascular outcomes in patients with peripheral arterial disease: a randomized controlled trial. JAMA, 297(6), 603-610. https://doi.org/10.1001/jama.297.6.603 ; Di Angelantonio E, Thompson SG, Kaptoge S, et al. (2017). Efficiency and safety of varying the frequency of whole blood donation (INTERVAL): a randomised trial of 45 000 donors. Lancet, 390(10110), 2360-2371. https://doi.org/10.1016/S0140-6736(17)31928-1 ; Beard JL, Borel MJ, Derr J (1990). Impaired thermoregulation and thyroid function in iron-deficiency anemia. American Journal of Clinical Nutrition, 52(5), 813-819. https://doi.org/10.1093/ajcn/52.5.813 ; 혈액관리법 제14조(헌혈증서의 발급 및 수혈비용의 보상 등). https://www.law.go.kr/법령/혈액관리법/제14조 ; 대한적십자사 혈액관리본부, 헌혈증서 안내 https://www.bloodinfo.net/knrcbs/cm/cntnts/cntntsView.do?mi=1142&cntntsId=1022 , 헌혈과정(헌혈 기준) https://www.bloodinfo.net/knrcbs/cm/cntnts/cntntsView.do?mi=1048&cntntsId=1124 (2026-10-06 확인)",
+      "changed": false
+    },
+    "비고": {
+      "before": "헌혈을 내 몸의 건강을 위한 방법으로 여기지 마세요. 헌혈 자체를 버리라는 뜻은 아닙니다. 헌혈한 피는 다른 사람에게 쓰입니다. 이 책의 수혜자 구분으로는 제④그룹(모르는 사람)에 속합니다. 헌혈자에게 돌아오는 혜택은 제도가 보장합니다. 「혈액관리법」 제14조는 혈액원이 헌혈자에게 헌혈증서를 발급하도록 합니다. 헌혈자나 증서를 양도받은 사람은 의료기관에 증서를 낼 수 있습니다. 증서를 내면 혈액제제를 무상으로 수혈받습니다. 대한적십자사 안내에 따르면 수혈 비용 중 본인 부담금을 면제받습니다. 헌혈은 법정 간격을 지키세요. 표창이나 단체 목표를 채우려고 간격을 최단으로 당기지 마세요. 여성이나 체중이 적은 사람은 원래 철이 부족하기 쉽습니다. 월경량이 많은 사람도 철이 부족하기 쉽습니다. 반복 헌혈자는 자비로 페리틴을 한 번 검사해 보세요. 헌혈 뒤 무기력과 추위가 계속되는지 살피세요. 밤에 다리가 불편해 가만히 못 있으면 하지불안증후군일 수 있습니다. 이런 증상을 '기가 빠졌다'고 넘기지 마세요. 혈액검사와 페리틴 수치를 확인하세요. 철 결핍이면 의사 지시대로 철을 보충하세요. 헌혈 간격도 벌리세요. 추위 관련 인체 실험의 빈혈 군은 10명에 불과합니다. 이 실험은 철 부족으로 추위를 타는 이유를 설명하는 근거입니다. 이런 증상을 겪는 사람의 비율을 알려주지는 않습니다.",
+      "after": "헌혈을 내 몸의 건강을 위한 방법으로 여기지 마세요. 헌혈 자체를 버리라는 뜻은 아닙니다. 헌혈한 피는 다른 사람에게 쓰입니다. 이 책의 수혜자 구분으로는 제④그룹(모르는 사람)에 속합니다. 헌혈자에게 돌아오는 혜택은 제도가 보장합니다. 「혈액관리법」 제14조는 혈액원이 헌혈자에게 헌혈증서를 발급하도록 합니다. 헌혈자나 증서를 양도받은 사람은 의료기관에 증서를 낼 수 있습니다. 증서를 내면 혈액제제를 무상으로 수혈받습니다. 대한적십자사 안내에 따르면 수혈 비용 중 본인 부담금을 면제받습니다. 헌혈은 법정 간격을 지키세요. 표창이나 단체 목표를 채우려고 간격을 최단으로 당기지 마세요. 여성이나 체중이 적은 사람은 원래 철이 부족하기 쉽습니다. 월경량이 많은 사람도 철이 부족하기 쉽습니다. 반복 헌혈자는 자비로 페리틴을 한 번 검사해 보세요. 헌혈 뒤 무기력과 추위가 계속되는지 살피세요. 밤에 다리가 불편해 가만히 못 있으면 하지불안증후군일 수 있습니다. 이런 증상을 '기가 빠졌다'고 넘기지 마세요. 혈액검사와 페리틴 수치를 확인하세요. 철 결핍이면 의사 지시대로 철을 보충하세요. 헌혈 간격도 벌리세요. 추위 관련 인체 실험의 빈혈 군은 10명에 불과합니다. 이 실험은 철 결핍성 빈혈에서 추위를 타는 이유를 설명하는 근거입니다. 빈혈 없는 철 부족에 그대로 적용할 수는 없습니다. 이런 증상을 겪는 사람의 비율을 알려주지는 않습니다.",
+      "changed": true
+    }
+  },
+  "reasons": [
+    "쉽게는 사망률 관련성의 크기와 불확실성, 잦은 헌혈 철 부족 위험만 선택했습니다.",
+    "쿠오피오 relative hazard 0.12를 상대위험에서 HR로 정정했습니다. 88%는 순간별 발생률 비교이며 고정 기간 확률 감소가 아닙니다.",
+    "쿠오피오 원초록 전체2862와 153+2529의 차이180을 독자에게 고지했습니다. 제외 이유를 추정하지 않았습니다.",
+    "FeAST는 안정된 증상성 하지동맥질환 환자의 치료적 철 감소입니다. 일반 건강헌혈 효능으로 일반화하지 않고 철결핍 회피 조건을 추가했습니다.",
+    "INTERVAL 원초록의 feeling faint를 실신할 듯한 느낌으로 정정하고 특히 남성의 증상 증가 범위를 표시했습니다. 비유의 차이를 차이 없음으로 확정하지 않습니다.",
+    "체온실험의 빈혈 없는 저장철부족군 반응이 대조군과 비슷했다는 제한을 반영했습니다."
+  ],
+  "numerical_scope_changes": [
+    "No published numeric estimates, CI, denominators or units removed from 이득. HR label corrected; source-denominator discrepancy180 explicitly computed from quoted original numbers.",
+    "Easy secondary comparisons omitted; original statistics remain in 이득."
+  ],
+  "doi_changes": {
+    "added": [],
+    "removed": [],
+    "reason": "기존 인용 유지. 검증된 원초록 범위에서 해석·적용범위만 정정."
+  },
+  "sources": [
+    {
+      "doi": "10.1093/oxfordjournals.aje.a009669",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:9737556&format=json&resultType=core",
+      "raw_path": "/tmp/ch06e17-primary/0.json",
+      "raw_sha256": "c821542aea2a994828d42404ed27473e128eec7a7d055fc74c3b74d92f9357c6",
+      "level_read": "primary abstract in Europe PMC core record; full text not read",
+      "verified_date": "2026-10-18",
+      "method": "live urllib GET; read entire abstract and indexed commentCorrectionList",
+      "exact_primary_abstract": "Because high body iron stores have been suggested as a risk factor for acute myocardial infarction, donation of blood could theoretically reduce the risk by lowering body iron stores. For this reason, the authors tested the hypothesis that voluntary blood donation is associated with reduced risk of acute myocardial infarction in a prospective epidemiologic follow-up study in men from eastern Finland. The subjects are all participants of the Kuopio Ischaemic Heart Disease Risk Factor Study. A cohort of 2,862 men aged 42-60 years were followed for an average of almost 9 years. One man (0.7%) out of 153 men who had donated blood in 24 months preceding the baseline examination experienced an acute myocardial infarction during 1984 to 1995, whereas 316 men (12.5%) of 2,529 non-blood donors had an acute myocardial infarction (p < 0.0001 for difference between proportions). In a Cox proportional hazards model adjusting for age, examination years and all other predictive coronary disease risk factors, blood donors had a 88% reduced risk (relative hazard = 0.12, 95% confidence interval 0.02-0.86, p = 0.035) of acute myocardial infarction, compared with non-blood donors. These findings suggest that frequent blood loss through voluntary blood donations may be associated with a reduced risk of acute myocardial infarction in middle-aged men.",
+      "indexed_comments_or_corrections": null
+    },
+    {
+      "doi": "10.1111/trf.13205",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:26098293&format=json&resultType=core",
+      "raw_path": "/tmp/ch06e17-primary/1.json",
+      "raw_sha256": "360d1c6a539c523ed47d7d6680632a9357b25c299fa0eed2ad98b4c57799173f",
+      "level_read": "primary abstract in Europe PMC core record; full text not read",
+      "verified_date": "2026-10-18",
+      "method": "live urllib GET; read entire abstract and indexed commentCorrectionList",
+      "exact_primary_abstract": "<h4>Background</h4>Studies have repeatedly demonstrated that blood donors experience lower mortality than the general population. While this may suggest a beneficial effect of blood donation, it may also reflect the selection of healthy persons into the donor population. To overcome this bias, we investigated the relation between blood donation frequency and mortality within a large cohort of blood donors. In addition, our analyses also took into consideration the effects of presumed health differences linked to donation behavior.<h4>Study design and methods</h4>Using the Scandinavian Donation and Transfusion database (SCANDAT), we assessed the association between annual number of donations in 5-year windows and donor mortality by means of Poisson regression analysis. The analyses included adjustment for demographic characteristics and for an internal healthy donor effect, estimated among elderly donors exempted from continued donation because of age criteria.<h4>Results</h4>Statistical analyses included 1,182,495 donors of whom 15,401 died during 9,526,627 person-years of follow-up. Analyses adjusted only for demographic characteristics showed a 18.6% reduction in mortality per additional annual donation (95% confidence interval [CI], 16.8%-20.4%). After additional adjustment for the internal healthy donor effect, each additional annual donation was associated with a 7.5% decreased mortality risk 7.5% (95% CI, 5.7%-9.4%).<h4>Conclusion</h4>We observed an inverse relationship between donation frequency and mortality. The magnitude of the association was reduced after adjustment for an estimate of self-selection in the donor population. Our observations indicate that repeated blood donation is not associated with premature death, but cannot be interpreted as conclusive evidence of a beneficial health effect.",
+      "indexed_comments_or_corrections": null
+    },
+    {
+      "doi": "10.1001/jama.297.6.603",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:17299195&format=json&resultType=core",
+      "raw_path": "/tmp/ch06e17-primary/2.json",
+      "raw_sha256": "a69e354b4ba3f773cca02340079c3db4fd6e12ed902eb25723ef3a804fdd2bdb",
+      "level_read": "primary abstract in Europe PMC core record; full text not read",
+      "verified_date": "2026-10-18",
+      "method": "live urllib GET; read entire abstract and indexed commentCorrectionList",
+      "exact_primary_abstract": "<h4>Context</h4>Accumulation of iron in excess of physiologic requirements has been implicated in risk of cardiovascular disease because of increased iron-catalyzed free radical-mediated oxidative stress.<h4>Objective</h4>To test the hypothesis that reducing body iron stores through phlebotomy will influence clinical outcomes in a cohort of patients with symptomatic peripheral arterial disease (PAD).<h4>Design, setting, and patients</h4>Multicenter, randomized, controlled, single-blinded clinical trial based on the Iron (Fe) and Atherosclerosis Study (FeAST) (VA Cooperative Study #410) and conducted between May 1, 1999, and April 30, 2005, within the Department of Veterans Affairs Cooperative Studies Program and enrolling 1277 patients with symptomatic but stable PAD. Those with conditions likely to cause acute-phase increase of the ferritin level or with a diagnosis of visceral malignancy within the preceding 5 years were excluded. Analysis was by intent-to-treat.<h4>Intervention</h4>Patients were assigned to a control group (n = 641) or to a group undergoing reduction of iron stores by phlebotomy with removal of defined volumes of blood at 6-month intervals (avoiding iron deficiency) (n = 636), stratified by hospital, age, and baseline smoking status, diagnosis of diabetes mellitus, ratio of high-density to low-density lipoprotein cholesterol level, and ferritin level.<h4>Main outcome measures</h4>The primary end point was all-cause mortality; the secondary end point was death plus nonfatal myocardial infarction and stroke.<h4>Results</h4>There were no significant differences between treatment groups for the primary or secondary study end points. All-cause deaths occurred in 148 patients (23%) in the control group and in 125 (20%) in the iron-reduction group (hazard ratio (HR), 0.85; 95% confidence interval (CI), 0.67-1.08; P = .17). Death plus nonfatal myocardial infarction and stroke occurred in 205 patients (32%) in the control group and in 180 (28%) in the iron-reduction group (HR, 0.88; 95% CI, 0.72-1.07; P = .20).<h4>Conclusion</h4>Reduction of body iron stores in patients with symptomatic PAD did not significantly decrease all-cause mortality or death plus nonfatal myocardial infarction and stroke.<h4>Trial registration</h4>Clinicaltrials.gov Identifier: NCT00032357.",
+      "indexed_comments_or_corrections": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "17299200",
+            "reference": "JAMA. 2007 Feb 14;297(6):639-41. doi: 10.1001/jama.297.6.639",
+            "type": "Comment in",
+            "orderIn": 1
+          },
+          {
+            "source": "MED",
+            "id": "17507338",
+            "reference": "JAMA. 2007 May 16;297(19):2075-6; author reply 2076. doi: 10.1001/jama.297.19.2075-b",
+            "type": "Comment in",
+            "orderIn": 2
+          },
+          {
+            "source": "MED",
+            "id": "17507339",
+            "reference": "JAMA. 2007 May 16;297(19):2075; author reply 2076. doi: 10.1001/jama.297.19.2075-a",
+            "type": "Comment in",
+            "orderIn": 3
+          }
+        ]
+      }
+    },
+    {
+      "doi": "10.1016/s0140-6736(17)31928-1",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:28941948&format=json&resultType=core",
+      "raw_path": "/tmp/ch06e17-primary/interval.json",
+      "raw_sha256": "0cac24236b7a46fb97d40379ecf139fa20634d824da8e612aa7949e5b70bb06d",
+      "level_read": "primary abstract in Europe PMC core record; full text not read",
+      "verified_date": "2026-10-18",
+      "method": "live urllib GET; read entire abstract and indexed commentCorrectionList",
+      "exact_primary_abstract": "<h4>Background</h4>Limits on the frequency of whole blood donation exist primarily to safeguard donor health. However, there is substantial variation across blood services in the maximum frequency of donations allowed. We compared standard practice in the UK with shorter inter-donation intervals used in other countries.<h4>Methods</h4>In this parallel group, pragmatic, randomised trial, we recruited whole blood donors aged 18 years or older from 25 centres across England, UK. By use of a computer-based algorithm, men were randomly assigned (1:1:1) to 12-week (standard) versus 10-week versus 8-week inter-donation intervals, and women were randomly assigned (1:1:1) to 16-week (standard) versus 14-week versus 12-week intervals. Participants were not masked to their allocated intervention group. The primary outcome was the number of donations over 2 years. Secondary outcomes related to safety were quality of life, symptoms potentially related to donation, physical activity, cognitive function, haemoglobin and ferritin concentrations, and deferrals because of low haemoglobin. This trial is registered with ISRCTN, number ISRCTN24760606, and is ongoing but no longer recruiting participants.<h4>Findings</h4>45 263 whole blood donors (22 466 men, 22 797 women) were recruited between June 11, 2012, and June 15, 2014. Data were analysed for 45 042 (99·5%) participants. Men were randomly assigned to the 12-week (n=7452) versus 10-week (n=7449) versus 8-week (n=7456) groups; and women to the 16-week (n=7550) versus 14-week (n=7567) versus 12-week (n=7568) groups. In men, compared with the 12-week group, the mean amount of blood collected per donor over 2 years increased by 1·69 units (95% CI 1·59-1·80; approximately 795 mL) in the 8-week group and by 0·79 units (0·69-0·88; approximately 370 mL) in the 10-week group (p<0·0001 for both). In women, compared with the 16-week group, it increased by 0·84 units (95% CI 0·76-0·91; approximately 395 mL) in the 12-week group and by 0·46 units (0·39-0·53; approximately 215 mL) in the 14-week group (p<0·0001 for both). No significant differences were observed in quality of life, physical activity, or cognitive function across randomised groups. However, more frequent donation resulted in more donation-related symptoms (eg, tiredness, breathlessness, feeling faint, dizziness, and restless legs, especially among men [for all listed symptoms]), lower mean haemoglobin and ferritin concentrations, and more deferrals for low haemoglobin (p<0·0001 for each) than those observed in the standard frequency groups.<h4>Interpretation</h4>Over 2 years, more frequent donation than is standard practice in the UK collected substantially more blood without having a major effect on donors' quality of life, physical activity, or cognitive function, but resulted in more donation-related symptoms, deferrals, and iron deficiency.<h4>Funding</h4>NHS Blood and Transplant, National Institute for Health Research, UK Medical Research Council, and British Heart Foundation.",
+      "indexed_comments_or_corrections": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "30070219",
+            "reference": "Lancet. 2018 Jun 30;391(10140):2604-2605. doi: 10.1016/S0140-6736(18)30795-5.",
+            "type": "Comment in",
+            "orderIn": 1
+          },
+          {
+            "source": "MED",
+            "id": "30070220",
+            "reference": "Lancet. 2018 Jun 30;391(10140):2605-2606. doi: 10.1016/S0140-6736(18)30791-8.",
+            "type": "Comment in",
+            "orderIn": 2
+          },
+          {
+            "source": "MED",
+            "id": "30070221",
+            "reference": "Lancet. 2018 Jun 30;391(10140):2606. doi: 10.1016/S0140-6736(18)30760-8.",
+            "type": "Comment in",
+            "orderIn": 3
+          },
+          {
+            "source": "MED",
+            "id": "31383582",
+            "reference": "Lancet Haematol. 2019 Oct;6(10):e492-e493. doi: 10.1016/S2352-3026(19)30162-0.",
+            "type": "Comment in",
+            "orderIn": 4
+          }
+        ]
+      }
+    },
+    {
+      "doi": "10.1093/ajcn/52.5.813",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:2239756&format=json&resultType=core",
+      "raw_path": "/tmp/ch06e17-primary/4.json",
+      "raw_sha256": "3923e9b9da27a07573a92a4d497320e2998e6ac0aca2060312a16843394ebafb",
+      "level_read": "primary abstract in Europe PMC core record; full text not read",
+      "verified_date": "2026-10-18",
+      "method": "live urllib GET; read entire abstract and indexed commentCorrectionList",
+      "exact_primary_abstract": "Ten women with iron-deficiency anemia, 8 with depleted iron stores (nonanemic), and 12 control women, all of similar body fatness, were exposed to a 28 degrees C water bath to test the hypothesis that iron-deficiency anemia impairs thermoregulatory performance. The anemic women had lower rectal temperatures than did control women (36.0 +/- 0.2 vs 36.2 +/- 0.1 degree C, respectively, P = 0.001) and a lower rate of oxygen consumption (5.28 +/- 0.26 vs 5.99 +/- 0.29 mL.min-1.kg body wt-1, respectively, P = 0.04) at 100 min of cold exposure. Plasma thyroxine and triiodothyronine concentrations were significantly (P less than 0.002) lower in anemic than in control women at baseline and during cold exposure. Responses of iron-depleted subjects were similar to those of control subjects. Iron supplementation corrected the anemia, significantly (P = 0.03) improved rectal temperature at 100 min, and partially normalized plasma thyroid hormone concentrations. Plasma catecholamines were unaffected by iron status. This experiment demonstrates a functional consequence of iron-deficiency anemia in the balance of heat production and loss and suggests that thyroid-hormone metabolism may be responsible.",
+      "indexed_comments_or_corrections": null
+    },
+    {
+      "url": "https://www.bloodinfo.net/knrcbs/cm/cntnts/cntntsView.do?mi=1048&cntntsId=1124",
+      "raw_path": "/tmp/ch06e17-primary/criteria.html",
+      "raw_sha256": "756ddb2a138e8b6efbf97f2b7d8b7a63d0071777fb0578a4f93221ca96bdd9b1",
+      "level_read": "official HTML content for age/weight/interval/count or certificate coverage; no independent consolidated legislation read",
+      "verified_date": "2026-10-18",
+      "exact_primary_quotations": [
+        "헌혈일로부터 8주 후 같은 요일",
+        "연 5회 가능, 단 연간 헌혈량 제한에 따라 달라질 수 있음."
+      ]
+    },
+    {
+      "url": "https://www.bloodinfo.net/knrcbs/cm/cntnts/cntntsView.do?mi=1142&cntntsId=1022",
+      "raw_path": "/tmp/ch06e17-primary/certificate.html",
+      "raw_sha256": "74934f0f47007c475b5366602fdf2ac5d37dd3b956b2612136a5c8080539fcd4",
+      "level_read": "official HTML content for age/weight/interval/count or certificate coverage; no independent consolidated legislation read",
+      "verified_date": "2026-10-18",
+      "exact_primary_quotations": [
+        "수혈 시 의료기관에 헌혈증서를 제시하면 수혈 비용 중 본인 부담금을 면제받을 수 있습니다."
+      ]
+    }
+  ],
+  "limitations": [
+    "Five medical sources read at abstract level; full texts and original correction notices not independently read. Indexed relations contain comments, no indexed erratum/retraction identified; this is not an exhaustive correction search.",
+    "Kuopio total vs subgroup denominator mismatch remains unexplained by abstract; reader is informed.",
+    "Law source is unchanged; official Red Cross reproduces Article14 and operational criteria, but effective-date/amendment/supplementary-law independent verification was not performed.",
+    "INTERVAL restless-legs ordinary-language explanation and ferritin testing advice inherited, not newly clinically validated."
+  ],
+  "audit_requests_addressed": [
+    "제17항 factual finding array empty; content-audit FeAST/PAD and iron-deficiency-anemia scope cautions addressed.",
+    "Title>70 and easy>120 corrected without adopting earlier proposal."
+  ],
+  "checks": {
+    "literal_check_command": "python kr-harness/publication/2026-10-18/ch05/publication-partial-review-evidence/literal_check.py kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-017-7757/publication-entry-proposal.md",
+    "literal_check_exit_code": 0,
+    "literal_check_result": [
+      {
+        "entry": null,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-017-7757/publication-entry-proposal.md",
+        "title_chars": 51,
+        "easy_chars": 113,
+        "easy_sentences": 3,
+        "long_sentences": [],
+        "pass_length": true
+      }
+    ],
+    "field_order": [
+      "비용",
+      "쉽게",
+      "이득",
+      "근거등급",
+      "출처",
+      "비고"
+    ],
+    "six_physical_field_lines": true,
+    "grade_and_cost_tag_exact": true,
+    "protected_current_sha256": {
+      "strict-entry.md": "e8d42bb69d5f447bb2400d98d3ea0b50ed77dcdc8fc62efe1743989e7283fff3",
+      "entry_snapshot.md": "e8d42bb69d5f447bb2400d98d3ea0b50ed77dcdc8fc62efe1743989e7283fff3",
+      "final.md": "49214ffce5316489dea9593089abdbe6d506894463f09abe594031e53c7eff57",
+      "01_input_with_metrics.txt": "7e9fc66c55f1f63f160d398782bd0be120fac19e32a6bee68aaf0cdaef406865"
+    },
+    "proposal_sha256": "63fb4f814948d8962bc520f1955b353d4e8075af21fe95849774dee28a09abb2",
+    "self_approved": false,
+    "published": false
+  }
+}

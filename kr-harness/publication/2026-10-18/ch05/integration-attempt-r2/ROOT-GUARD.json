@@ -1,0 +1,31 @@
+{
+  "created_at_utc": "2026-10-18T18:02:02.789235+00:00",
+  "status": "full_entry_helper_succeeded_but_independent_whole_sha_guard_blocked_regional_application",
+  "expected_entry_only_sha256": "9ada434f6f06922b2a67007e9a0015d8a50509dd072351aa9d850d45c6a2a7fd",
+  "actual_entry_only_sha256": "ca416e08ca69ccf20f4fd0019aafc61ec7ea659b80c3aeaaa80e2384fb3d131b",
+  "cause": "Canonical simulation used raw proposal ending whitespace; production helper correctly preserves original separators. Eighteen entry endings differ; net document difference is 17 bytes. Entry prose is whitespace-equivalent.",
+  "changed_entries": [
+    1,
+    2,
+    3,
+    7,
+    8,
+    11,
+    12,
+    22,
+    24,
+    25,
+    26,
+    27,
+    32,
+    33,
+    37,
+    39,
+    42,
+    43
+  ],
+  "regional_application_started": false,
+  "final_publication_candidate_created": false,
+  "public_book_changed": false,
+  "new_canonical_reproduction": "pending unchanged-helper separator policy and independent exact expected final SHA"
+}

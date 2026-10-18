@@ -1,0 +1,81 @@
+{
+  "role": "independent_finalizer",
+  "decision": "hold_and_report",
+  "actual_gate_exit_code": 1,
+  "body_correction_count": 0,
+  "fidelity_violations": [],
+  "overediting": [],
+  "remaining_findings": [
+    "S1 ending_comma_rate z 6.74 -> 3.11, actual gate 1; remaining ending commas are inside verbatim quotes."
+  ],
+  "full_fidelity_evidence": {
+    "source_and_final_entirely_read": true,
+    "exact_body_difference": "Only two previously removed commas outside quotations; programmatically verified against full source.",
+    "verbatim_quotes_equal": true,
+    "quote_count": 6,
+    "facts_numbers_negation_conditions_causality_names_cross_references_fields_register": "All preserved; source body otherwise identical.",
+    "remaining_commas": [
+      "조산, 저체중아, 입술·입천장갈림증 (enumeration)",
+      "있고, 그 손상 (direct quote)",
+      "좋지만, 이미 임신했어도 (direct quote)"
+    ]
+  },
+  "sha256": {
+    "01_input.txt": "076d81ff359bf1030cc1f883fec3995d28c64a176106d997f341fd8a0946cdfe",
+    "final_pre_finalize.md": "7e9ebba05046d55d0826c7d0370a0b9ddc77d21c053d17e7136cc7e8811fa431",
+    "final.md": "4114bd6629fadad547cf510210e3ce3c504a388dea1147e2778901b614715b34",
+    "publication-gates.json": "12b38a8a0634dff62bcab0d794a68aa1ec5de0cf9992822c6436f14da5f2abe5"
+  },
+  "gate": {
+    "genre": "essay",
+    "change_rate": {
+      "rate": 0.0012,
+      "scope": "전문",
+      "verdict": "OK"
+    },
+    "s1_targets": [
+      {
+        "metric": "ending_comma_rate",
+        "z_before": 6.74,
+        "z_after": 3.11,
+        "verdict": "미달"
+      }
+    ],
+    "antithesis": {
+      "before": 0,
+      "after": 0,
+      "verdict": "스킵 (원문 대구 < 5)"
+    },
+    "golden": [],
+    "sentence_touch": {
+      "rate": 0.0909,
+      "touched": 2,
+      "total": 22
+    },
+    "numbers_dropped": [],
+    "modality": {
+      "lost_pairs": [],
+      "uncertain_pairs": [],
+      "counts": {
+        "deontic": {
+          "before": 0,
+          "after": 0
+        },
+        "hedge": {
+          "before": 2,
+          "after": 2
+        }
+      },
+      "verdict": "OK"
+    },
+    "gate": {
+      "verdict": "WARN — 경고. 사용자 고지 + finalize 승급",
+      "exit_code": 1
+    }
+  },
+  "character_counts": {
+    "source": 832,
+    "final_body": 830
+  },
+  "summary_block_count": 1
+}

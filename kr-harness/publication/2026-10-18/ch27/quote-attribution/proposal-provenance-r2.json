@@ -1,0 +1,16 @@
+{
+  "status": "unapproved_new_payload_pending_distinct_source_review",
+  "proposer_id": "root-mechanical-payload",
+  "payload_sha256": "190800f1813b26d36e49aee2b3153feea57d88e550aa86f1d3711cc74fa889b5",
+  "supersedes_for_machine_use_only": "r1 source approval remains historical semantic evidence; raw CDC legacy HTML has leading UTF8 BOM forbidden by v1, so actual preflight returned3 before classification. No source byte was stripped or normalized. Registryr1/preflight/error retained and not adopted.",
+  "source_retrieval": {
+    "url": "https://www.cdc.gov/tobacco/about/cigarettes-and-reproductive-health.html",
+    "http_status": 200,
+    "at_utc": "2026-10-18T18:30:38.402425+00:00",
+    "sha256": "084e000589352db2ad44671dcaeeec8e479daedb89af8a51ff0ee17aac145f84",
+    "bytes": 69313,
+    "artifact": "source-review/cdc-reproductive-health-r2.raw.html",
+    "method": "Actual new HTTPS response, full raw body retained unchanged; no BOM, no entity/tag crossing in selected excerpts."
+  },
+  "scope": "Two complete pre-existing CDC quotes, lung/brain and cessation, independently review original/full final attribution, faithful translation/qualifiers. No original/body/metric/route/runtime changes, no new registry selected."
+}

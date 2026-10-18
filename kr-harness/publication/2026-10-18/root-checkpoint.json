@@ -1,7 +1,7 @@
 {
-  "captured_at_utc": "2026-10-18T17:35:19.552308+00:00",
-  "head_before_checkpoint": "fcb8576d6b08b28a314091581fed788e0f4ada5b",
-  "strict_accepted_count": 519,
+  "captured_at_utc": "2026-10-18T18:40:37.904876+00:00",
+  "head_before_checkpoint": "f784afe355af729e050828e6fdbca08605c43988",
+  "strict_accepted_count": 585,
   "strict_accepted": [
     {
       "run_dir": "kr-harness/publication/2026-10-18/ch01/_workspace/2026-10-18-001-7050",
@@ -1906,7 +1906,7 @@
     {
       "run_dir": "kr-harness/publication/2026-10-18/ch13/_workspace/2026-10-18-024-9635",
       "final_sha256": "0bddfb55e6a05fea4be03a053bf946d80e98b917f2cf9dd97142d42c106ea5d5",
-      "gate_sha256": "ce8e7df3ff9d10ac13a932c527aa896ea0f99754937a96cb3fe92788a62d823b"
+      "gate_sha256": "b8fe528b7416a30c34d7018f6e3cf4d6203600375075c4b92ae2ada465d9007c"
     },
     {
       "run_dir": "kr-harness/publication/2026-10-18/ch13/_workspace/2026-10-18-025-f636",
@@ -1976,7 +1976,7 @@
     {
       "run_dir": "kr-harness/publication/2026-10-18/ch13/_workspace/2026-10-18-038-eea4",
       "final_sha256": "be2e0327308cffca0848e5efe77db1050b82534a7b1517392d3631255acf643f",
-      "gate_sha256": "531ca788c8e8d001332031b0052f9b7b19723d02ff85f98ac04542df024024c6"
+      "gate_sha256": "b13a100de48583ebf808abdd0cdbc073f3e0fe0cf2174005e2a670ef72b81cc6"
     },
     {
       "run_dir": "kr-harness/publication/2026-10-18/ch13/_workspace/2026-10-18-039-009d",
@@ -2597,6 +2597,336 @@
       "run_dir": "kr-harness/publication/2026-10-18/ch24/_workspace/2026-10-18-001-07ff",
       "final_sha256": "5b4a5cff0e0064996a3f84e390cfda8ca484849920eb3b89dc427d467e809864",
       "gate_sha256": "ef5d15320a3c0bf819d52728f17c43a029eb5d2b1473d7754bde07a211006bf2"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch24/_workspace/2026-10-18-002-9ec3",
+      "final_sha256": "b5c58c5cc1d64175d0b166a4c2e00add4bda452739a9bfcc75c0143fa4d4cd90",
+      "gate_sha256": "fa5d07dad7b71a26982ec4894014c93ca04640721138ca29391b802823d51550"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch24/_workspace/2026-10-18-003-f360",
+      "final_sha256": "4c8185ae678f74b7134ac798628ca1b0d3bc5e90ac75377faad8b2ec009c674f",
+      "gate_sha256": "1b8afbce945c7af850eb90fdff4d50ba837cbf6ef15d55e3227f2c902b2b3b0a"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch24/_workspace/2026-10-18-004-65d4",
+      "final_sha256": "f9ff1d69aefaaa9963256f7459873c8314f85f639a34bb533487893bca0c0f08",
+      "gate_sha256": "6c7f40c2343ef1bec6100bfc7f50c1ea5ee1513ce2d90ab7a3bff6139c1ae295"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch24/_workspace/2026-10-18-005-aeb9",
+      "final_sha256": "df6f8b25c9787b9995c66248426875cc5eb40387fcd2ffe5c7c36fe2749614d6",
+      "gate_sha256": "0a2f59c8176889ca696e16dea88923638e51ed5e2410e5ea4585b70f617a9138"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch24/_workspace/2026-10-18-006-fd86",
+      "final_sha256": "2dfedfe005c5ad876498ef1d44135e782ed2af8dd4dab55dd14a5eacfb81b222",
+      "gate_sha256": "4062d1f52a7206d08d2a3ccdd10722920c4d71f523c77b9cccb73068d5a05afc"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch24/_workspace/2026-10-18-007-421a",
+      "final_sha256": "ed2dc1d241246af7e5f6c66c9a6608bd4e833767bf6ecfafa162251bd8ac75fc",
+      "gate_sha256": "51622e9a07a16085f5e5471c0b2acfa7b9037fbd9a08661a86244e12f9212fbd"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch24/_workspace/2026-10-18-008-d609",
+      "final_sha256": "177f24667a60c74d45fcbc7d044ca44bc6577399aef3332c6e58ebfa5bc3936b",
+      "gate_sha256": "1f548f9ab8c385a0c7366e30e0dcabe532898ed4e3f6e430a458f6cb62581bd2"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch24/_workspace/2026-10-18-009-5dba",
+      "final_sha256": "2032c1632fae1e8c4b78f9ec11dbba50adee793fe6cca9349feebb00f8e72429",
+      "gate_sha256": "0822abede21ae4db9485fe5d7351456b61178408e743672c9f099149581c1e9f"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch24/_workspace/2026-10-18-010-fd9a",
+      "final_sha256": "cc38a926cce30c932b9f78a988a585334422c6566d1b15c8750bc2e4b9d9d242",
+      "gate_sha256": "9bf8287ce111b19d0883cefb3edef4b43bb83114e658d9d6fa72545be982e4ac"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch24/_workspace/2026-10-18-011-c7e3",
+      "final_sha256": "d566161957131c5493a42d09ffdb637460e258f0dabec513733769d87e6dd4a0",
+      "gate_sha256": "6bc94f5af7a01c1b25176e081a2953804ecc578d8dcc4756e656baa387531b1a"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch24/_workspace/2026-10-18-012-8c24",
+      "final_sha256": "f46ae60adf2c91eb2e83da07c0a30b5da6f25a0e7f7a8369bc854f3b8a721bb6",
+      "gate_sha256": "d381024785b2887d34f9cbab13a379b68d6f897916bba99071cf537951d8e821"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch24/_workspace/2026-10-18-013-1c0e",
+      "final_sha256": "f2086a9c652b57038d75b5dea0dbc1a473a9c9a37395e3547f388f1e087d6f45",
+      "gate_sha256": "c6f80b63dfe8cf033773d590e89adfdc597ae215348141c615d4afdd9eef1fea"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch25/_workspace/2026-10-18-001-1306",
+      "final_sha256": "f2ba22e194949f69bc716873bae7c2134d69a8c9402f3db0cd9b7377feb93735",
+      "gate_sha256": "7b7833a7cf194c374258e5122f911b1dd401f77addb7e752f832e20c3840f47a"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch25/_workspace/2026-10-18-002-b552",
+      "final_sha256": "511c1a7e48b8ea920fce2d6f5b62147a9e55d4c6bc8247d70b3459047e1148fe",
+      "gate_sha256": "4b4f824aeea5d4a928b948b405542f01db668308b956b5ac570b5316f2748ccb"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch25/_workspace/2026-10-18-003-8a63",
+      "final_sha256": "47e28bdda59994d87061e008326c911e112cecefd98f98e05fdb7d5273773b8a",
+      "gate_sha256": "575d1ed4594de495c00d8d1f7033d9e758ea7171efce20aeb1b6b588d0c8f8ee"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch25/_workspace/2026-10-18-004-c616",
+      "final_sha256": "797d07eb163012cbd440a1f63c148bc2405bdf8fc869570976ad6e906d2974f7",
+      "gate_sha256": "8949e2b9d2e3616bee05826154ececd3413a6d4882f9aea5ed2ca819bdc5a526"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch25/_workspace/2026-10-18-005-d055",
+      "final_sha256": "ea33f31fde021721b614cf0afe517982c3e47c50210a595114f2e760652f57e1",
+      "gate_sha256": "4faf0b4156b33985ae01c154e93841e1e412b720275f027fdde47053990f267b"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch25/_workspace/2026-10-18-006-0d4b",
+      "final_sha256": "0b76c3c7c09785f798c7c84f9df0848a944ebe86a7e3e5374b76cfc44e60e692",
+      "gate_sha256": "b244b644c1fbbc00addb80ae729fbe008b4e931bfabc2bf99c5422bc9e749114"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch25/_workspace/2026-10-18-007-5f27",
+      "final_sha256": "c011774fb2fdf17cc00e733fb50c2cff674701c57fca8b1e0e36cb92cb1f93fe",
+      "gate_sha256": "6ca11fb5149876ebca6bc470742e0b69a2fd23d2a0583f3475f3085451218b0b"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch25/_workspace/2026-10-18-008-7078",
+      "final_sha256": "5529c4dc3e76fcf8d0af9e95c7e258542ed8384ac26f8e29d292a13f92fd7ec1",
+      "gate_sha256": "6734b060fde4d2b41c8c1a9507f281b709d4f0d36fb3146e02bffc4f95b7a08f"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch25/_workspace/2026-10-18-009-0c69",
+      "final_sha256": "98b3353dc737c4d210f7840224e7cdff576bf161e51e4185d33a6facba5bb883",
+      "gate_sha256": "6aa9eea90bb4224847838e8717065c4b40cbc00d754dcbfb35a86083546248e2"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch25/_workspace/2026-10-18-010-3e08",
+      "final_sha256": "4c9300b99e9626f40570373c32156e5c225b6c075d0a09c46ffdebd954403cc8",
+      "gate_sha256": "320b06a60a5c3306aed32e4a2305cf0cd08a2735c24f94ea4796127802ba0a8d"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch25/_workspace/2026-10-18-011-1f57",
+      "final_sha256": "6224e0541cabba41a20e1d6803065af95ca8a253160a563619a6ca23fdb8fcd1",
+      "gate_sha256": "005930888addac61d71bd80666b10d78225ef3ac450ea6b1b3290b146ecbff70"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch26/_workspace/2026-10-18-001-8ea7",
+      "final_sha256": "f750f8938e87153985aac2630b44ca92f1f768d46a3228c3c134e284d30cb45b",
+      "gate_sha256": "44f998ce58082ecd2a2a758f5401671ffcacc643c49b7a2133cff759d524e837"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch26/_workspace/2026-10-18-002-2cef",
+      "final_sha256": "0cbda735f0483d35b2555f03dbdc0597659fe726075fd581567bc9c2027fb98f",
+      "gate_sha256": "7e298480c0081823cc5496ba4268ebe5f19882086cbd1dd41d13a99e38928556"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch26/_workspace/2026-10-18-003-c63c",
+      "final_sha256": "39a9b8168a1a318e2edcd481eded0611140ea1679b829bf76c0976d6d83c3635",
+      "gate_sha256": "37e30d7fe5fb69dd8269956e76f05746f7c5c1081864e102a36cc4021af1b331"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch26/_workspace/2026-10-18-004-3891",
+      "final_sha256": "ffe0f73f417bfdf1ab0e400de50c95286838e7f79220c73e2241d4e87624ce26",
+      "gate_sha256": "d381024785b2887d34f9cbab13a379b68d6f897916bba99071cf537951d8e821"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch26/_workspace/2026-10-18-005-2ad6",
+      "final_sha256": "e90d6f836cc154149f729742b53e0d7deb31fb80d6524aecccaee3b812429026",
+      "gate_sha256": "9996314c769aee975011a5b1b065ee651eff5ff721925d0728c6cfa91bfd77ed"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch26/_workspace/2026-10-18-006-a03e",
+      "final_sha256": "dcc37be965aecbed38a3925093c5a7a0fbf0f8263bc5c63dcfab01e81fd6bc49",
+      "gate_sha256": "e98f0ca45e4f74257d8b793c51356d21749a24efe39daf0ce325564b090ee021"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch26/_workspace/2026-10-18-007-76fe",
+      "final_sha256": "e8b6d1ccef7c7eee76751bec1981be61c093a30aeedc275bad807832425ab5a1",
+      "gate_sha256": "2d424ff04b58b9ad500eee5d718cabeabc84ebaaf73c9da7edcde394deb2f8f7"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch26/_workspace/2026-10-18-008-7fb0",
+      "final_sha256": "80bf10b8ea7bfcf929fa3e389834ecbd08878855950823b12fc2b7ae596173c4",
+      "gate_sha256": "7e219f95ac2fb42c3ba9743422e53ef14bcf29a6e896502af9657c116bec82e1"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch26/_workspace/2026-10-18-009-9a6f",
+      "final_sha256": "ab17f04945ac46e13c6e756890dd7490ad2e135cfa5b6b55ebd0b4be0651dc5c",
+      "gate_sha256": "5dc4589ad2e1b2cf877e8ef3a65d8c8bac253f2deac88becf88f714fd763ecdb"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch26/_workspace/2026-10-18-010-91a9",
+      "final_sha256": "4fc175dc4a0b336e6b28f20af573e802c5dca3630c3cea7d439b98d591bc9ad4",
+      "gate_sha256": "89bc763a8b77c65767f7b529f41a1036b3e9efe312fb4635c731557529f08f41"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch26/_workspace/2026-10-18-011-ecd6",
+      "final_sha256": "2a2f1bd81720d3ea074fbd81b5d3f9ec42c091818acc023a507e559bcdac4c67",
+      "gate_sha256": "4041e8dfa8041fe135ffdfab62049d35f6cfacf1d78f5fd967d4eccf67ee7730"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch27/_workspace/2026-10-18-001-ccc2",
+      "final_sha256": "986c68d76f00e378481aebcdd8f1f0c7505b69e5beb67eee928dc6ef8a09c447",
+      "gate_sha256": "b94f381954aabbbd2172f5b4ee23ddba61a5a7b4be8a94a989e621e9fe5d8ac6"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch27/_workspace/2026-10-18-002-640a",
+      "final_sha256": "47e3e48a269ea3db2bbfab64564188fe612f1bfd92a91dac2c0015022ec5e268",
+      "gate_sha256": "5f93ee812fc5ad91e5f2a27f59f28bcbd379c8c7db37722f85d4c32c552290f8"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch27/_workspace/2026-10-18-003-f217",
+      "final_sha256": "4f079f09460bad0e3097b616958ec574d1bf04328eb5c9bca34f164be6b5495e",
+      "gate_sha256": "9552ff59cbbe7e2c5c09ccb49cb67e7bbda2c6c1d6b26e7a368059e6677c94c4"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch27/_workspace/2026-10-18-004-a722",
+      "final_sha256": "b169671074afd42ff588ccc723f1de6cd2e0d879810713c9833539553de66d7a",
+      "gate_sha256": "b64f3ba3c8cabebcc93d410ec7dc616be402c4ea5e30e65e6bc380ca05db1d18"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch27/_workspace/2026-10-18-005-2f4c",
+      "final_sha256": "dfe4b7f4ea30dbb3212f7cf39473798f85535f8bd94ef820f32473f00f05be15",
+      "gate_sha256": "e6eeed2f8f79dc7fc2343be2b0e929dd72f54cdba91090aebb4d516ccc4a3b4d"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch27/_workspace/2026-10-18-006-0804",
+      "final_sha256": "09515c4b845f247513c7ce8ff7c261bdff0314fd803773cbaf6d2467fb13cdd4",
+      "gate_sha256": "bf44b78f9d99a28763d7448d8b544c06cc4e8f1fc175fae2670e4438bde10994"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch27/_workspace/2026-10-18-007-2265",
+      "final_sha256": "7a6895faf3f1fe7f111b0a902c04125e9d0bc35a6da63ef74de230ff614456d7",
+      "gate_sha256": "228fa9a110d683080ec297f81afe4717c10058bb01161b4f0511879c27a65a43"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch27/_workspace/2026-10-18-008-23ed",
+      "final_sha256": "61a91d58ec60975c90a5f230f488670eda43ec484cac2483c2f440545e2fc2df",
+      "gate_sha256": "19f90372429cc69a334adf95cff4bafe9b89a3040788c797ea0feb5b5cf30ac1"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch27/_workspace/2026-10-18-009-7952",
+      "final_sha256": "bd13be5d3bbb90d214cfc0cf050dfcf49b45296e6d1b185175d47b6fe6449920",
+      "gate_sha256": "8c6a7c5da8702b00cadee2d3cdd397a5f228f7d34847e6fbdc1ffb8bcab04c5a"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch27/_workspace/2026-10-18-010-d835",
+      "final_sha256": "4f928dd9ebfe837931527f2e3e34a79ec715ec97f3368fea1d8b4c52cc141e10",
+      "gate_sha256": "449b22a174f0f3eee5343caf5bc55f1bc3a955974cebdf82a8ec108b203302bc"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch27/_workspace/2026-10-18-011-303f",
+      "final_sha256": "426310af167b5a3a799b33a58389b4a37968273542d38f6e9fc8867e887412e0",
+      "gate_sha256": "214f0d0047df4009dd9fb67538d1aa86af732f64a456ff16309da5658687eeb6"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch27/_workspace/2026-10-18-012-c6a2",
+      "final_sha256": "4c80d339c599f6f5cf3b1fe3a653a8afe11e31d3366f4da5b09c0f3fff54a413",
+      "gate_sha256": "8f528dfd4e2c1ff31dd0d8626a213e65dfca26624601041f58f84160b31e1f0d"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch27/_workspace/2026-10-18-013-b031",
+      "final_sha256": "8c4cdde428f01087628deaea8b9bc444b3831df20e1b5a3991eb95fd4755cf03",
+      "gate_sha256": "77a0692eeaad636183d1d425e268e979e11e3bcd97b115a85543e030e46b7a29"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch27/_workspace/2026-10-18-014-d575",
+      "final_sha256": "84e8cde160f79672f09adc57aae9e26293a6d2efab84bb58bdf4d6b1675f3b8e",
+      "gate_sha256": "cfe2cb15cd5f7311fec50386de08c852d274d7dd37add91a8ce426f82169d22a"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch27/_workspace/2026-10-18-015-f3b7",
+      "final_sha256": "5e2658436d8eb0d994b18498c18a5ffe13ec06d82167c0ca9d0be54042da99b1",
+      "gate_sha256": "61e25db97eb948a2ce8f2c35168b581965cb1559932555b56a5029407e8aa2c6"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch27/_workspace/2026-10-18-016-0cf8",
+      "final_sha256": "449e1f3c306cbaece1e358cf2904f41fd2edf90557054622527d4a704efe29e8",
+      "gate_sha256": "771680f5da35a28b7856b2d4f252d53fe8e2f792e8d56e0e61166a4edba1f5e5"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch28/_workspace/2026-10-18-001-9493",
+      "final_sha256": "c3405ca7ceeff8061b95c7a506435658e545e0f1eecb12e7132bdb5430baf82c",
+      "gate_sha256": "65967d59eff40e752a9b0f36b44361b9886509fcb2a7bbd48290da57a8e69bc4"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch28/_workspace/2026-10-18-002-60c2",
+      "final_sha256": "ab6518e328d39053968a7e5d46bfd45d4a84182b6787018a6cf981aff04c162a",
+      "gate_sha256": "0aae6b3eff5bc00125651869c30aeb84748c8c1d9655c85b1482b1bace0b143f"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch28/_workspace/2026-10-18-003-4ae7",
+      "final_sha256": "c74fbad2b014578defa7c3b3117f5785720d0ff8b99c128e0313ccab331cfc82",
+      "gate_sha256": "41a6b63e2b725db8eae213487bebd7da62fb0682732a50641b703bb40cb3c6d0"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch28/_workspace/2026-10-18-004-a380",
+      "final_sha256": "4ce25c0a97acdf9779ec89815d288dda688f4cb938604ec277342f07e5cf7b08",
+      "gate_sha256": "7e5322b7dde97c8f08b3bfda19b7064b145b723ec29023ca2bd858d574bf7fbb"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch28/_workspace/2026-10-18-005-1516",
+      "final_sha256": "ce5d64d5f527c7e2abce69a4a10a4855ae188ba396a6aa01b92746001a5a8cdf",
+      "gate_sha256": "25cec0a34b821f30719614acf1115a5d2807b66d1dda4e0b35ba28020436506a"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch28/_workspace/2026-10-18-006-f59d",
+      "final_sha256": "f30a81e0c6ef9e210823629d6183a3de0af946d0703daf0a199bd1622459a7d5",
+      "gate_sha256": "b9ff8437de6b811933c34c05a08a6c44b594a79ce2906269b454179c5ccfb433"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch28/_workspace/2026-10-18-007-c133",
+      "final_sha256": "ff5b474f024542959b2293185514fec60472b17511586daff2dd981ed6513573",
+      "gate_sha256": "e69c6ef935933fe692a9f57c0061c4f5af08df3fb5540c0f8a2cb1932fe4c61f"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch28/_workspace/2026-10-18-008-ea73",
+      "final_sha256": "e085620b81ab5be5cbe60a4dc5fe101fbf76ccef9018dbe7f0a38e1b83d80e26",
+      "gate_sha256": "691e7039cb052c4618868d965e0e8474e309d2389e2b9ff195b89b398cc56317"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch28/_workspace/2026-10-18-009-f767",
+      "final_sha256": "895d2344dbbf939cdf36bd426ec0579953ad6cc97c9bc88da6c8ce4000f80841",
+      "gate_sha256": "e948d53139039293a634adcb457056ff29c785951e824489f14c323f438a689a"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch29/_workspace/2026-10-18-001-4839",
+      "final_sha256": "7a64e0bb74de67f694dc73be09ca30beb17abd4b64d6bf6e30e5dec4f18ea9ec",
+      "gate_sha256": "3a85f043ce50e651d671bfdc0c7f2849a7c998c3d7c683e7f2eec01dc7d4219d"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch29/_workspace/2026-10-18-002-b2a1",
+      "final_sha256": "81057c2eab7c640f9a9f34d219f7f23e7f3c4f4e43a9861342bdba7a33853b0d",
+      "gate_sha256": "fc23e61b82bca6ef8cba007238d76c800058dc5b06e28fa0eaa717432bd79a24"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch29/_workspace/2026-10-18-003-3a81",
+      "final_sha256": "d395fdd43a95c3bfa1e636cca8c1dc053cecf01ddbb9cf8a01a7ac554ac10d32",
+      "gate_sha256": "24fc2e37d5e39c86efc33b238e5e3aea47d211ff8697e1125e572123bd8ba0b2"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch29/_workspace/2026-10-18-004-3ce3",
+      "final_sha256": "f83ceac9d5db68bfe3172279a46e3875f954a6194893e641e11089a8130a58fd",
+      "gate_sha256": "c1568de0fa79fce69b871730248ea290faa64a8154e11f92e741813564245378"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch29/_workspace/2026-10-18-005-13ba",
+      "final_sha256": "3339c048db6ef6fa1e9d3a56c0a8ae81fcaaa5cca649724c5718b993240f26a0",
+      "gate_sha256": "f1e22b4244a1e0c7c5f038633b158d51d189b1901d70797328f3c1a7525eb714"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch29/_workspace/2026-10-18-006-a680",
+      "final_sha256": "35d31b0b2ba37524dde26ba99fdbf58d5de3522817e10a1df00a4390956a906b",
+      "gate_sha256": "8d3a44f8b13ec1834b19aa493aeebf5f957342021d669b66531425ec4b236993"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch29/_workspace/2026-10-18-007-185e",
+      "final_sha256": "30279750e6529d5f4693ec9251abe5548c7cd84b1395debfea8854d80de0bfbe",
+      "gate_sha256": "2f3cf0d1a5f3f263e12f365f46b63473cd599e89fcdf2eacca4d5c771bfd9724"
     }
   ],
   "strict_counts_by_chapter": {
@@ -2623,12 +2953,12 @@
     "21": 11,
     "22": 10,
     "23": 22,
-    "24": 1,
-    "25": 0,
-    "26": 0,
-    "27": 0,
-    "28": 0,
-    "29": 0,
+    "24": 13,
+    "25": 11,
+    "26": 11,
+    "27": 16,
+    "28": 9,
+    "29": 7,
     "30": 0,
     "31": 0,
     "32": 0,
@@ -2641,6 +2971,7 @@
     2,
     3,
     4,
+    5,
     18
   ],
   "followups": {
@@ -2673,11 +3004,18 @@
     24,
     25,
     26,
-    27
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34
   ],
-  "next_initial_audit": 28,
-  "max_workers": 3,
-  "allocation": "A3 workers; independent source28/29 and source05 review slots; drain A to2 if a third independent slot is needed",
+  "next_initial_audit": null,
+  "max_workers": 4,
+  "allocation": "A4 workers (pure plus source06/07/08); independent source06 full review; initial source audit completed for all34 including fresh18; drain A when next independent review/formal slot is needed",
   "live_queue_checkpoint": "global-coordinator-queue.checkpoint.json",
   "deployed": false
 }

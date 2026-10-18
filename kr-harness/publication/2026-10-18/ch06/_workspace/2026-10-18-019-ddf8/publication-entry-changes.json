@@ -1,0 +1,121 @@
+{
+  "status": "unadopted_proposal",
+  "entry": 19,
+  "baseline": "strict-entry.md",
+  "baseline_sha256": "66c6cd05c0ea72861ebe99070c67d4511c33e6da269ac2aeb7752cec583d668a",
+  "proposal_sha256": "c73457971f042963664f4113753fee2b51614f88b0d52831cf470e68d2afacd4",
+  "field_changes": [
+    {
+      "field": "비용",
+      "before": "돈이 안 듭니다. 평생 약값과 정기 검사 비용을 아낍니다. 불필요한 약물 위험도 피합니다.",
+      "after": "돈이 안 듭니다. 평생 약값과 정기 검사 비용을 아낍니다. 불필요한 약물 위험도 피합니다.",
+      "reason": "원문 보존"
+    },
+    {
+      "field": "쉽게",
+      "before": "요산이 기준을 넘어도 통풍 발작과 통풍결절이 없으면 약부터 먹지 마세요. 미국류마티스학회도 이렇게 권고합니다. 3년 동안 24명이 먹어야 발작 한 번을 막습니다. 콩팥을 보호하는 효과도 확인되지 않았습니다. 약을 먹은 사람의 콩팥 기능도 가짜약을 먹은 사람처럼 떨어졌습니다. 발작을 한 번이라도 겪은 뒤에 치료를 시작하세요.",
+      "after": "요산이 높아도 통풍 발작·통풍결절이 없으면 보통 약부터 먹지 마세요. 발작 예방 이득은 작습니다. 첫 발작 뒤에도 무조건 약을 시작하지는 않습니다. 예외와 약 시작 여부는 의사와 상의하세요.",
+      "reason": "첫 발작의 무조건 약 시작 오류를 제거하고 조건부 권고와 의사 판단을 보존한 4문장 요약."
+    },
+    {
+      "field": "이득",
+      "before": "미국류마티스학회 2020년 통풍 진료지침은 무증상 고요산혈증을 다룹니다. 혈중 요산 >6.8 mg/dL인 경우입니다. 과거 통풍 발작이 없고 피부 밑 통풍결절도 없어야 합니다. 지침은 이들에게 요산강하약을 시작하지 않도록 조건부로 권고합니다. 해당 약은 알로푸리놀, 페북소스타트, 프로베네시드입니다. 근거의 확실성은 '높음'으로 평가했습니다. 표의 각주는 귀인 위험으로 계산한 결과를 제시합니다. 3년간 24명을 치료해야 통풍 발작 1회를 예방합니다. CKD-FIX 무작위 배정 대조시험에는 363명이 참여했습니다. 참여자는 3기 또는 4기 만성콩팥병 환자였습니다. 통풍 병력은 없지만 콩팥병이 악화할 위험이 있었습니다. 한 군은 매일 알로푸리놀 100–300mg을 먹었습니다. 다른 군은 위약을 먹었습니다. 시험은 104주 진행됐습니다. 콩팥 기능은 eGFR로 측정했습니다. 단위는 mL/min/1.73 m²입니다. 알로푸리놀 군의 연간 변화는 -3.33이었습니다. 신뢰범위는 95% CI -4.11~-2.55입니다. 위약 군의 연간 변화는 -3.23(-3.98~-2.47)이었습니다. 두 군 차이는 -0.10(-1.18~0.97), P=0.85입니다. 콩팥 기능이 떨어지는 속도에는 뚜렷한 차이가 없었습니다. 중대한 이상사건은 46% 대 44%였습니다. PERL 무작위 배정 대조시험에는 1형 당뇨병 환자 530명이 참여했습니다. 참여자는 초기~중기 당뇨콩팥병을 앓고 있었습니다. 알로푸리놀 군은 3년간 약을 먹었습니다. 이후 2개월간 약효가 사라지도록 기다렸습니다. 알로푸리놀 복용 뒤 혈중 요산은 6.1에서 3.9 mg/dL로 낮아졌습니다. 약을 끊은 뒤에는 콩팥 기능 지표인 GFR을 비교했습니다. 두 군 차이는 0.001 mL/min/1.73 m²였습니다. 신뢰범위는 95% CI -1.9~1.9, P=0.99입니다. 소변으로 새는 알부민은 알로푸리놀 군에서 오히려 40% 많았습니다(0~80). 요산 수치가 기준을 넘으면 약으로 낮춰야 한다고 생각하기 쉽습니다.",
+      "after": "미국류마티스학회 2020년 통풍 진료지침은 무증상 고요산혈증을 다룹니다. 혈중 요산 >6.8 mg/dL인 경우입니다. 과거 통풍 발작이 없고 피부 밑 통풍결절도 없어야 합니다. 지침은 이들에게 요산강하약을 시작하지 않도록 조건부로 권고합니다. 해당 약은 알로푸리놀, 페북소스타트, 프로베네시드입니다. 근거의 확실성은 '높음'으로 평가했습니다. 표의 각주는 귀인 위험으로 계산한 결과를 제시합니다. 3년간 24명을 치료해야 통풍 발작 1회를 예방합니다. CKD-FIX 무작위 배정 대조시험에는 369명이 배정됐습니다. 각 군에서 3명씩 즉시 철회해 363명을 분석했습니다. 참여자는 3기 또는 4기 만성콩팥병 환자였습니다. 통풍 병력은 없지만 콩팥병이 악화할 위험이 있었습니다. 한 군은 매일 알로푸리놀 100–300mg을 먹었습니다. 다른 군은 위약을 먹었습니다. 시험은 104주 진행됐습니다. 콩팥 기능은 eGFR로 측정했습니다. 이는 콩팥이 혈액을 거르는 능력을 추정한 값입니다. 단위는 mL/min/1.73 m²입니다. 알로푸리놀 군의 연간 변화는 -3.33이었습니다. 신뢰범위는 95% CI -4.11~-2.55입니다. 위약 군의 연간 변화는 -3.23이었습니다. 95% 신뢰구간은 -3.98~-2.47입니다. 두 군 차이는 -0.10, P=0.85입니다. 95% 신뢰구간은 -1.18~0.97입니다. 콩팥 기능이 떨어지는 속도에는 뚜렷한 차이가 없었습니다. 중대한 이상사건은 182명 중 84명(46%)이었습니다. 위약 군에서는 181명 중 79명(44%)이었습니다. PERL 무작위 배정 대조시험에는 1형 당뇨병 환자 530명이 참여했습니다. 참여자는 초기~중기 당뇨콩팥병을 앓고 있었습니다. 알로푸리놀 군은 3년간 약을 먹었습니다. 이후 2개월간 약효가 사라지도록 기다렸습니다. 알로푸리놀 복용 뒤 혈중 요산은 6.1에서 3.9 mg/dL로 낮아졌습니다. 약을 끊은 뒤에는 콩팥 기능 지표인 GFR을 비교했습니다. GFR은 콩팥이 혈액을 거르는 능력을 나타냅니다. 두 군 차이는 0.001 mL/min/1.73 m²였습니다. 신뢰범위는 95% CI -1.9~1.9, P=0.99입니다. 소변으로 새는 알부민은 알로푸리놀 군에서 40% 많았습니다. 95% 신뢰구간은 0~80%입니다. 요산 수치가 기준을 넘으면 약으로 낮춰야 한다고 생각하기 쉽습니다.",
+      "reason": "369명 배정/363명 분석 구분, 신뢰구간·분모 명시, 콩팥 지표 설명. 유의하지 않음을 무효로 단정하지 않음."
+    },
+    {
+      "field": "근거등급",
+      "before": "A",
+      "after": "A",
+      "reason": "원문 보존"
+    },
+    {
+      "field": "출처",
+      "before": "FitzGerald JD, Dalbeth N, Mikuls T, et al. (2020). 2020 American College of Rheumatology Guideline for the Management of Gout. Arthritis Care & Research, 72(6), 744-760(표 1과 각주). https://doi.org/10.1002/acr.24180 ; Badve SV, Pascoe EM, Tiku A, et al. (2020). Effects of Allopurinol on the Progression of Chronic Kidney Disease. New England Journal of Medicine, 382(26), 2504-2513. https://doi.org/10.1056/NEJMoa1915833 ; Doria A, Galecki AT, Spino C, et al. (2020). Serum Urate Lowering with Allopurinol and Kidney Function in Type 1 Diabetes. New England Journal of Medicine, 382(26), 2493-2503. https://doi.org/10.1056/NEJMoa1916624",
+      "after": "FitzGerald JD, Dalbeth N, Mikuls T, et al. (2020). 2020 American College of Rheumatology Guideline for the Management of Gout. Arthritis Care & Research, 72(6), 744-760(표 1과 각주). https://doi.org/10.1002/acr.24180 ; Badve SV, Pascoe EM, Tiku A, et al. (2020). Effects of Allopurinol on the Progression of Chronic Kidney Disease. New England Journal of Medicine, 382(26), 2504-2513. https://doi.org/10.1056/NEJMoa1915833 ; Doria A, Galecki AT, Spino C, et al. (2020). Serum Urate Lowering with Allopurinol and Kidney Function in Type 1 Diabetes. New England Journal of Medicine, 382(26), 2493-2503. https://doi.org/10.1056/NEJMoa1916624",
+      "reason": "원문 보존"
+    },
+    {
+      "field": "비고",
+      "before": "발작도 없는데 평생 요산강하약을 먹기 시작하지 마세요. 다만 요산이 높아도 문제가 없다는 뜻은 아닙니다. 같은 지침은 첫 발작 때 치료를 고려할 예외도 제시합니다. 이미 3기 이상 만성콩팥병이 있으면 약을 고려할 수 있습니다. 혈중 요산 >9 mg/dL(약 535 µmol/L)인 경우도 해당합니다. 요로결석이 한 번이라도 있었던 경우도 마찬가지입니다. 발작을 겪었거나 통풍결절이 있으면 약을 먹어야 합니다. 영상에서 뼈가 이미 침식된 사람도 약을 먹어야 합니다. 통풍 확진 뒤의 요산강하약 복용은 제16절(만성질환 진단 후 사는 법)에서 다룹니다. 중국 한족 인구의 약 7.4%는 HLA-B*5801 유전형을 지닙니다. 백인은 0.7%입니다. 이 유전형을 지닌 사람은 알로푸리놀을 먹으면 심한 약물 발진이 잘 생깁니다. 이 발진은 생명을 위협합니다. 아시아인의 과민증후군 위험은 백인의 3배입니다. 한국인의 보유 빈도는 TODO 확인 필요. 안 먹어도 되는 약 때문에 이런 위험까지 감수할 필요는 없습니다. 꼭 약을 시작해야 한다면 먼저 이 유전형 검사를 받으세요. 콩팥 시험 두 건의 대상은 만성콩팥병 환자와 1형 당뇨병 환자였습니다. 이 결과로 높은 요산이 콩팥에 무해하다고 해석하지 마세요. 두 시험에서는 약으로 요산을 낮춰도 콩팥 보호 효과를 확인하지 못했습니다.",
+      "after": "발작도 없는데 평생 요산강하약을 먹기 시작하지 마세요. 다만 요산이 높아도 문제가 없다는 뜻은 아닙니다. 같은 지침은 첫 발작 후 보통 약을 시작하지 않도록 권고합니다. 이는 조건부 권고이며 의사와 함께 판단해야 합니다. 첫 발작 때도 약을 고려할 예외는 있습니다. 이미 3기 이상 만성콩팥병이 있으면 약을 고려할 수 있습니다. 혈중 요산 >9 mg/dL(약 535 µmol/L)인 경우도 해당합니다. 요로결석이 한 번이라도 있었던 경우도 마찬가지입니다. 통풍결절이나 통풍에 따른 영상 손상이 있으면 약을 권고합니다. 발작이 연 2회 이상인 경우도 강한 치료 권고 대상입니다. 발작이 2회 이상이지만 연 2회 미만이면 조건부 권고입니다. 통풍 확진 뒤의 요산강하약 복용은 제16절(만성질환 진단 후 사는 법)에서 다룹니다. 지침은 한족·한국인·태국계의 유전형 빈도를 함께 제시합니다. HLA-B*5801 보유 빈도는 이 집단에서 7.4%입니다. 백인은 0.7%입니다. 이 유전형을 지닌 사람은 알로푸리놀을 먹으면 심한 약물 발진이 잘 생깁니다. 이 발진은 생명을 위협합니다. 알로푸리놀 복용자의 과민증후군 위험을 비교한 수치입니다. 아시아인과 아프리카계 미국인은 백인의 3배였습니다. 지침의 7.4%를 한국인만의 빈도로 해석하지 마세요. 안 먹어도 되는 약 때문에 이런 위험까지 감수할 필요는 없습니다. 검사 권고는 알로푸리놀을 시작하기 전의 조건부 권고입니다. 대상은 한족·한국인·태국계와 아프리카계 미국인입니다. 다른 집단 모두에게 검사하도록 권하지는 않습니다. 한국인이라면 알로푸리놀 시작 전 검사를 의사와 상의하세요. 콩팥 시험 두 건의 대상은 만성콩팥병 환자와 1형 당뇨병 환자였습니다. 이 결과로 높은 요산이 콩팥에 무해하다고 해석하지 마세요. 두 시험에서는 약으로 요산을 낮춰도 콩팥 보호 효과를 확인하지 못했습니다.",
+      "reason": "첫 발작/반복 발작/통풍결절/통풍성 영상 손상의 권고 강도 구분. HLA 빈도 집단 및 알로푸리놀 검사 조건부 대상 교정; 미확인 TODO 제거."
+    }
+  ],
+  "verification": {
+    "date": "2026-10-18",
+    "method": "urllib로 원자료 HTML 및 Europe PMC core 초록을 받아 실제 본문 독해",
+    "sources": [
+      {
+        "doi": "10.1002/acr.24180",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10563586/",
+        "level": "full text HTML; Tables 1 and 4 and corresponding narrative read",
+        "raw_path": "/tmp/ch06e19-primary/pmc2",
+        "text_path": "/tmp/ch06e19-primary/acr.txt",
+        "quotes": [
+          "For patients experiencing their first flare, we conditionally recommend against initiating ULT over no ULT, with the following exceptions.",
+          "For patients experiencing their first flare and CKD stage ≥3, SU >9 mg/dl, or urolithiasis, we conditionally recommend initiating ULT.",
+          "The prevalence of HLA–B*5801 is highest among persons of Han Chinese, Korean, and Thai descent (7.4%)",
+          "Testing for the HLA–B*5801 allele prior to starting allopurinol is conditionally recommended for patients of Southeast Asian descent (e.g., Han Chinese, Korean, Thai) and for African American patients",
+          "24 patients would need to be treated for 3 years to prevent a single (incident) gout flare"
+        ],
+        "raw_sha256": "25a5db7b97fdf634dd11d8c8604d23e249b7a1f06aa429188dd87ea1c92f98c9"
+      },
+      {
+        "doi": "10.1056/NEJMoa1915833",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1056/NEJMoa1915833&format=json&resultType=core",
+        "level": "primary abstract",
+        "raw_path": "/tmp/ch06e19-primary/NEJMoa1915833.json",
+        "quotes": [
+          "369 of 620 intended patients were randomly assigned",
+          "The remaining 363 patients",
+          "84 of 182 patients (46%)",
+          "79 of 181 patients (44%)"
+        ],
+        "raw_sha256": "ae4bd5176db240eae5e40121179abfff5341822a48826fff95c5835a096291d3"
+      },
+      {
+        "doi": "10.1056/NEJMoa1916624",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1056/NEJMoa1916624&format=json&resultType=core",
+        "level": "primary abstract",
+        "raw_path": "/tmp/ch06e19-primary/NEJMoa1916624.json",
+        "quotes": [
+          "40% (95% CI, 0 to 80) higher with allopurinol than with placebo",
+          "We found no evidence of clinically meaningful benefits"
+        ],
+        "raw_sha256": "b820a30f896d6fad599f0544a1b1362f229e8745b32c1baceb4206ff07a25b4d"
+      }
+    ]
+  },
+  "intentional_changes": [
+    "363명 참여를 369명 배정 및 363명 분석으로 구분",
+    "7.4%는 한족만 또는 한국인만의 값이 아니라 지침의 한족·한국인·태국계 집단값",
+    "알로푸리놀 복용자에서 아시아인 및 아프리카계 미국인의 과민증후군 위험 3배 범위 명시",
+    "신뢰구간과 이상사건 분모 명시"
+  ],
+  "doi_changes": {
+    "added": [],
+    "removed": [],
+    "reason": "원 DOI 세 건 유지"
+  },
+  "unresolved_limitations": [
+    "한국인 단독 보유빈도는 독립 확인하지 않았으며 집단값을 개별 한국인 빈도로 해석하지 않도록 본문에 명시",
+    "CKD-FIX/PERL 전문 및 정정 이력은 별도 확인하지 못했고 원초록 수준만 검증",
+    "지침의 근거 참고문헌 개별 유전형 원자료를 재분석하지 않음"
+  ],
+  "title_anchor_check": "제목 44자 그대로 보존하여 incoming anchor 변경 없음",
+  "approval": false,
+  "validation": {
+    "literal_checker": "kr-harness/publication/2026-10-18/ch05/publication-partial-review-evidence/literal_check.py",
+    "actually_executed": true,
+    "exit_code": 0,
+    "title_chars": 44,
+    "easy_chars": 106,
+    "easy_sentences": 4,
+    "long_sentences": [],
+    "all_six_fields_single_physical_lines": true,
+    "cost_tag_exact": true,
+    "evidence_grade_exact": true,
+    "protected_files_unchanged": "Only proposal and changes files written in run; provenance downloaded to /tmp"
+  }
+}

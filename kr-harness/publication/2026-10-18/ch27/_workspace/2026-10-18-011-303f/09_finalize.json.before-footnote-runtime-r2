@@ -1,0 +1,51 @@
+{
+  "status": "hold_and_report",
+  "accepted": false,
+  "fidelity_violations": [],
+  "fidelity_review": {
+    "facts_numbers_dates_names_quotes_negation_scope_conditions_causality": "preserved; only ordinary comma deleted",
+    "fields": 4,
+    "actual_body_diff": {
+      "operation": "delete",
+      "before_char_offset": 1274,
+      "text": ",",
+      "context": "건강보조식품과 의약외품은 이용권으로 살 수 없고, 의약품만 됩니다."
+    },
+    "over_editing": []
+  },
+  "body_corrections": 0,
+  "summary_updates": 1,
+  "residual_findings": [
+    {
+      "code": "footnote_anchor",
+      "message": "각주 2)이 원위치를 벗어났습니다 (인접 수치 앵커 '8' → '60'): 인용 출처 변조 위험"
+    }
+  ],
+  "actual_gate_exit_code": 1,
+  "identity_gate_exit_code": 1,
+  "identity_reproduces_same_golden": true,
+  "identity_evidence": "finalizer-identity-gates.json",
+  "actual_evidence": "finalizer-actual-gates.json",
+  "diagnosis": "checks.py retains first output occurrence for repeated marker number 2 and compares later original occurrence to it, even on identity. No actual marker movement. No waiver or acceptance.",
+  "original_marker_evidence": [
+    {
+      "number": "2",
+      "position": 799,
+      "anchor": "60",
+      "context": "처음 신청할 때 함께 나옵니다. 셋 이상이면 여기에 (태아 수-2)×100만 원을 더합니다. 셋째 태아부터 "
+    },
+    {
+      "number": "2",
+      "position": 953,
+      "anchor": "8",
+      "context": "자도 같은 상한으로 지원받습니다(「의료급여법 시행규칙」 제8조의2). 자연분만이나 제왕절개로 입원하면 건강보"
+    }
+  ],
+  "sha256": {
+    "input": "5a5056e82ad3b3a0b7003ef4f342976482977e59d375593a8f4e674257bc3efd",
+    "pre_finalize": "6440b2b2f0ee5c7fde235b22d70c05d643f45d74cb4d39835cde716610d0aa12",
+    "final": "d417418f8df61e8218b578e88d66ccc99eaad99779d0667a432d28863dee49f1",
+    "final_body_without_summary": "b07571efe42f0b719f5accf833ff37f3a7208c8efaaae56431ebc6ccdf81f0fd"
+  },
+  "summary_count": 1
+}

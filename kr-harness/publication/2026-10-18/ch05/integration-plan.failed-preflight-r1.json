@@ -1,0 +1,826 @@
+{
+  "status": "approved",
+  "source_sha256": "6f34f5dbe2095e729683aad99ee62cb9bac6f3ca15c2ad205befcbcb2fa1d44a",
+  "candidate_sha256": "08e1b59d4b051cfa40bbd21401b773cfbe9c1b3e4b1b95d8f72223d7f3667095",
+  "review": {
+    "path": "content-audit.md",
+    "sha256": "c093662533654511151f8be7dcfb4d809871794999d6fb11802efd4fa8e3f499"
+  },
+  "review_decisions_sha256": "dca9b1081d300aa12e1448b6dca5cf2ba6b82389228d2dc5541aeb4d32dd54f5",
+  "operations": [
+    {
+      "entry": 1,
+      "base": "candidate",
+      "status": "approved",
+      "before_sha256": "4af5f3acc0f0069083ef618749e85dbcd49e63aa74d574acf472628cbb9950f8",
+      "replacement": {
+        "path": "_workspace/2026-10-18-001-5b85/publication-entry-proposal.md",
+        "sha256": "60c6521067aec4622a1b9d62325b5f48b76c90e02ab4522d08aa7b4a2ee2cc9c"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-001-5b85/publication-entry-changes.json",
+        "sha256": "54d8dac939c2b9421184ac8ff843a68e1218e0cb51e85f47d534b21c5d89559d"
+      },
+      "review": {
+        "path": "publication-partial-review-r1.json",
+        "sha256": "2014b7eee3797d3b0336776f2922993b2e21692d6957769743062601acbaee3b"
+      }
+    },
+    {
+      "entry": 2,
+      "base": "candidate",
+      "status": "approved",
+      "before_sha256": "1695dc03ed0c4275d2be83dbb7e4b1e2d786fd2e8283693617f947016c0480fe",
+      "replacement": {
+        "path": "_workspace/2026-10-18-002-5644/publication-entry-proposal.md",
+        "sha256": "a5d4b51b34861cd134d1e60e703e9f35e9d678e00aecde150991af81d8ad6639"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-002-5644/publication-entry-changes.json",
+        "sha256": "6985334a6a3bed5c5b0d49ca7c5267f2d08a9cb21f3d2c884431297dd84ad11a"
+      },
+      "review": {
+        "path": "publication-partial-review-r1.json",
+        "sha256": "2014b7eee3797d3b0336776f2922993b2e21692d6957769743062601acbaee3b"
+      }
+    },
+    {
+      "entry": 3,
+      "base": "candidate",
+      "status": "approved",
+      "before_sha256": "6f639cb3cc99982809fded74fdea6198fe88f7494395388d4d631bab7b9d5e6e",
+      "replacement": {
+        "path": "_workspace/2026-10-18-003-ebf0/publication-entry-proposal.md",
+        "sha256": "ce3be8f668dedffceeb3e80e9ac8240c6251a59d113b3cecdef87f5c5eee3340"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-003-ebf0/publication-entry-changes.json",
+        "sha256": "f1c8eaa0d1671182f58da836708f095ff4e79da90f594fdd74cde6074e9c318c"
+      },
+      "review": {
+        "path": "publication-partial-reassessment-review-r1.json",
+        "sha256": "cb273fc2cbfd7672795920db80c8b253e3cceec06454723f93f307f8c61b5341"
+      }
+    },
+    {
+      "entry": 4,
+      "base": "candidate",
+      "status": "approved",
+      "before_sha256": "723842b1d51a96ab3406d60d94f23da885f01df6e1830cb9306b1689e0bed847",
+      "replacement": {
+        "path": "_workspace/2026-10-18-004-aad2/publication-entry-proposal.md",
+        "sha256": "73f00af5e53c8c8cbd438437f5818bfecacc30c22534e24ec2b43fc3e3c4aba7"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-004-aad2/publication-entry-changes.json",
+        "sha256": "7c187355985c58cda2b8f93f8b5cf73440f8be567fbd2ca77f1e356fa907e56f"
+      },
+      "review": {
+        "path": "publication-partial-reassessment-review-r1.json",
+        "sha256": "cb273fc2cbfd7672795920db80c8b253e3cceec06454723f93f307f8c61b5341"
+      }
+    },
+    {
+      "entry": 5,
+      "base": "candidate",
+      "status": "approved",
+      "before_sha256": "c2cbaae526bb2be0e3f200dc3b7182609455c593e103a77dbb6481eda3f51b0e",
+      "replacement": {
+        "path": "_workspace/2026-10-18-005-7f82/publication-entry-proposal-r2.md",
+        "sha256": "0fa60d60525cbc0a376c0002663fe78413ded09958fd2bf67d8b28ba6a7fdf04"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-005-7f82/publication-entry-changes-r2.json",
+        "sha256": "602e5554a5f6cbe67edc8846725800102de542ba2d8092f24b5f4ba1152f84e8"
+      },
+      "review": {
+        "path": "publication-partial-reassessment-review-r4.json",
+        "sha256": "623f78a72ae60d6579d6e5f97acfb81dd5d0185569d8448762c907606de7c61c"
+      }
+    },
+    {
+      "entry": 6,
+      "base": "candidate",
+      "status": "approved",
+      "before_sha256": "e54fdc9d686c1af36b1e93c01f257ff2ada2874649966327fc43e10475ad62f5",
+      "replacement": {
+        "path": "_workspace/2026-10-18-006-1972/publication-entry-proposal-r2.md",
+        "sha256": "8bb10ba9943641c1beb018b82a73877375539af2c16ac586c9dcbd7c37decf8f"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-006-1972/publication-entry-changes-r2.json",
+        "sha256": "436bc4aab424629383fd29a9fd26e9550e7697b20783b055a59c5b54385b9464"
+      },
+      "review": {
+        "path": "publication-partial-reassessment-review-r4.json",
+        "sha256": "623f78a72ae60d6579d6e5f97acfb81dd5d0185569d8448762c907606de7c61c"
+      }
+    },
+    {
+      "entry": 7,
+      "base": "candidate",
+      "status": "approved",
+      "before_sha256": "ce3cd09351bc9193c722f5b172bf822a877f7a2c658a0e2ef69782eb187956b8",
+      "replacement": {
+        "path": "_workspace/2026-10-18-007-56d5/publication-entry-proposal-r2.md",
+        "sha256": "c58591505b54731aa65a1d0e622e117c0d1703e9b6e7b4326fc0ed34690dde8e"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-007-56d5/publication-entry-changes-r2.json",
+        "sha256": "112d1209fbe3def325b1cde035bd0c3f8b9fd2ec17ab9070de83edca8cba00f2"
+      },
+      "review": {
+        "path": "publication-partial-reassessment-review-r1.json",
+        "sha256": "cb273fc2cbfd7672795920db80c8b253e3cceec06454723f93f307f8c61b5341"
+      }
+    },
+    {
+      "entry": 8,
+      "base": "candidate",
+      "status": "approved",
+      "before_sha256": "4c145baecf5ae2015100e07f3e5b9a25d97785541f452868e6468def40e97802",
+      "replacement": {
+        "path": "_workspace/2026-10-18-008-a5e5/publication-entry-proposal.md",
+        "sha256": "a7cf9ba37c957df742794caf5c12eb9f8555f4aa263ac15a052463a6707438fb"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-008-a5e5/publication-entry-changes.json",
+        "sha256": "4a973d3b9cf15ce854f4c28ef0a72be1fbf7411222baf2243125c827f8cdbc08"
+      },
+      "review": {
+        "path": "publication-partial-review-r2.json",
+        "sha256": "ad554ce16a3d8212ded4cf930311a6270ec54904b7e325c3c777489c595ab383"
+      }
+    },
+    {
+      "entry": 9,
+      "base": "candidate",
+      "status": "approved",
+      "before_sha256": "da6e9ea3b21c28d0d964cb35e4e8ad5d9eb2af739f4bf62a93c163ecd4c9206d",
+      "replacement": {
+        "path": "_workspace/2026-10-18-009-dea2/publication-entry-proposal-r2.md",
+        "sha256": "3ddb2b861b6a30a63d926f95443d367e40dac73d40587c8372afc810b54a5e1e"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-009-dea2/publication-entry-changes-r2.json",
+        "sha256": "dc9d7ba35ed3da7246a985dd55d7eeadbf0aedf6b2d88fe1767f42bb9bba91a7"
+      },
+      "review": {
+        "path": "publication-partial-reassessment-review-r5.json",
+        "sha256": "58d7b4a3f747b76d0e9478864f4e6a6cde73ae0e645fd6ac57255b2e36fbad3e"
+      }
+    },
+    {
+      "entry": 10,
+      "base": "candidate",
+      "status": "approved",
+      "before_sha256": "a1ea43348b335993597d2c800fd55341f0c2ec4669853499332c02bf4cf7663d",
+      "replacement": {
+        "path": "_workspace/2026-10-18-010-203e/publication-entry-proposal.md",
+        "sha256": "145ae1b5c7b47bad5b23ba788ab324e780ae2026680ce3952bb54ed53b979214"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-010-203e/publication-entry-changes.json",
+        "sha256": "015aed6282275055ae31761ad4d7d2401384ab65c96844ab1f680ecde758ee95"
+      },
+      "review": {
+        "path": "publication-partial-review-r2.json",
+        "sha256": "ad554ce16a3d8212ded4cf930311a6270ec54904b7e325c3c777489c595ab383"
+      }
+    },
+    {
+      "entry": 11,
+      "base": "candidate",
+      "status": "approved",
+      "before_sha256": "577d0285b91c6fe8832188e0755bf7cd240ae2ce00c5fc0571f1f7418b5902d8",
+      "replacement": {
+        "path": "_workspace/2026-10-18-011-5dc5/publication-entry-proposal-r3.md",
+        "sha256": "ea2fdc95c844e2c4f2161a0de1b64a13d1930f40173402b6e2a466e83fba1df0"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-011-5dc5/publication-entry-changes-r3.json",
+        "sha256": "244d0fda0e2a3708c119e213f31e1942cc78df0bcf4b87c012eb422e33d2e9ec"
+      },
+      "review": {
+        "path": "publication-partial-reassessment-review-r5.json",
+        "sha256": "58d7b4a3f747b76d0e9478864f4e6a6cde73ae0e645fd6ac57255b2e36fbad3e"
+      }
+    },
+    {
+      "entry": 12,
+      "base": "candidate",
+      "status": "approved",
+      "before_sha256": "568fddd18cd68009b39cf57735284f00a04ff4250f0df39d053c4ca1d5727159",
+      "replacement": {
+        "path": "_workspace/2026-10-18-012-6337/publication-entry-proposal-r2.md",
+        "sha256": "8e71c217e12995e3653fe3439f8a31eba6df5ea6f1af24139153432b8c0c0a4d"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-012-6337/publication-entry-changes-r2.json",
+        "sha256": "15ad78a189e0b61e8de708e655d07c81c4431a754a5ac8716050d604ab48f6fe"
+      },
+      "review": {
+        "path": "publication-partial-reassessment-review-r1.json",
+        "sha256": "cb273fc2cbfd7672795920db80c8b253e3cceec06454723f93f307f8c61b5341"
+      }
+    },
+    {
+      "entry": 13,
+      "base": "candidate",
+      "status": "approved",
+      "before_sha256": "54bd4c665f6605e9f0ae4e3ccf23bba871c8cbe8289095af7b219c60c97a4a51",
+      "replacement": {
+        "path": "_workspace/2026-10-18-013-1bd0/publication-entry-proposal-r3.md",
+        "sha256": "36a12daf36f0029e793e5613e159012a0112c3b75b4d68f1334f50a0c94347ce"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-013-1bd0/publication-entry-changes-r3.json",
+        "sha256": "bc77d8d37d3c7089f7bc72fb2c413d00440e845bb7fb17adb962f27cdb7f625d"
+      },
+      "review": {
+        "path": "publication-partial-reassessment-review-r5.json",
+        "sha256": "58d7b4a3f747b76d0e9478864f4e6a6cde73ae0e645fd6ac57255b2e36fbad3e"
+      }
+    },
+    {
+      "entry": 14,
+      "base": "candidate",
+      "status": "approved",
+      "before_sha256": "a762d880a8ee97110e61016ef4d40316571dd49d59f370fd4eecc5979e578dc3",
+      "replacement": {
+        "path": "_workspace/2026-10-18-014-cbd8/publication-entry-proposal-r2.md",
+        "sha256": "7fb3be05879b9683b7fc5a20895a684cb426d68cb0b83a4ba288cf6bcd82d77b"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-014-cbd8/publication-entry-changes-r2.json",
+        "sha256": "b6f5aa1482bbb5828c74608fd384da4ff12adb104a59ff484d785e2490df7492"
+      },
+      "review": {
+        "path": "publication-partial-review-r8.json",
+        "sha256": "a0b64b68e9c9b5a6641b8080fe7de7df5fdde83bdf35f9d977cd43a5fe67cff8"
+      }
+    },
+    {
+      "entry": 15,
+      "base": "candidate",
+      "status": "approved",
+      "before_sha256": "57f8a2b201b7671adf5ec976b67d3d81e6fd6bb2649ea636f0d7dd2df89ebd3b",
+      "replacement": {
+        "path": "_workspace/2026-10-18-015-5516/publication-entry-proposal-r2.md",
+        "sha256": "0be75e5d5cc09498f2b17ee7cb51cdd955a8ad72e0beb54714ddc25465aa38a7"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-015-5516/publication-entry-changes-r2.json",
+        "sha256": "8ea02e59c9a14990cdaf7b387ebbdf1ef6dc778e5fbeaee8866330d147cc2b18"
+      },
+      "review": {
+        "path": "publication-partial-reassessment-review-r1.json",
+        "sha256": "cb273fc2cbfd7672795920db80c8b253e3cceec06454723f93f307f8c61b5341"
+      }
+    },
+    {
+      "entry": 16,
+      "base": "candidate",
+      "status": "approved",
+      "before_sha256": "4f8a9679d67ee4dd63f7ddf8238b6943c0b2efcaa9a0ba2a6fa6a1e6e857f051",
+      "replacement": {
+        "path": "_workspace/2026-10-18-016-d3f4/publication-entry-proposal.md",
+        "sha256": "0f60fcdeb61a6a0271b5e7f2f4add1476408ad0e5501ca12bbc0506172b65e6d"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-016-d3f4/publication-entry-changes.json",
+        "sha256": "0f22b79de211c0f322afbd72bbb8be26ba982b14321a078bf96368e6b539edc5"
+      },
+      "review": {
+        "path": "publication-partial-review-r2.json",
+        "sha256": "ad554ce16a3d8212ded4cf930311a6270ec54904b7e325c3c777489c595ab383"
+      }
+    },
+    {
+      "entry": 17,
+      "base": "candidate",
+      "status": "approved",
+      "before_sha256": "f366ad28bb1bab050a942da1b5a955a86539d64d032f34d8556ad708877ef9dd",
+      "replacement": {
+        "path": "_workspace/2026-10-18-017-a298/publication-entry-proposal.md",
+        "sha256": "aaa30c77092b137c75d4393dfa0e3a4d117352533073b95369e0ab4975fcf8da"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-017-a298/publication-entry-changes.json",
+        "sha256": "a0e8c16b61817ea234e5389423ae18313490d733285a1d98424abf4e9bec41bd"
+      },
+      "review": {
+        "path": "publication-partial-review-r2.json",
+        "sha256": "ad554ce16a3d8212ded4cf930311a6270ec54904b7e325c3c777489c595ab383"
+      }
+    },
+    {
+      "entry": 18,
+      "base": "candidate",
+      "status": "approved",
+      "before_sha256": "20749856487c93b1041260ee7aa9145aec9d320cc51645777efd8cc21264265b",
+      "replacement": {
+        "path": "_workspace/2026-10-18-018-4a6d/publication-entry-proposal.md",
+        "sha256": "493c4b5d88aaeb4f3345886a3b354dc63c95b13e558a7d90d513a3bc8656e300"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-018-4a6d/publication-entry-changes.json",
+        "sha256": "e651c3d6fd65a07298112b71618088537a1743bc78028a9e10b489596c09010d"
+      },
+      "review": {
+        "path": "publication-partial-review-r2.json",
+        "sha256": "ad554ce16a3d8212ded4cf930311a6270ec54904b7e325c3c777489c595ab383"
+      }
+    },
+    {
+      "entry": 19,
+      "base": "candidate",
+      "status": "approved",
+      "before_sha256": "b475ffb0b9433e46dd368b79e9ab2dbcdd95727c04a0a5b7d808e5b718960bcd",
+      "replacement": {
+        "path": "_workspace/2026-10-18-019-e28a/publication-entry-proposal.md",
+        "sha256": "cecce88e0ef4d8755f0f5171bffecb3e8770443919bc4b2e6dd6313875127c51"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-019-e28a/publication-entry-changes.json",
+        "sha256": "33f4b98d0b1dec42d85e0659cebfa0e72ab4126b61684c6f442d7b7846ebb37a"
+      },
+      "review": {
+        "path": "publication-partial-review-r1.json",
+        "sha256": "2014b7eee3797d3b0336776f2922993b2e21692d6957769743062601acbaee3b"
+      }
+    },
+    {
+      "entry": 20,
+      "base": "candidate",
+      "status": "approved",
+      "before_sha256": "cc7a781f650cc565929e8a59d1c1534e0363d192c2cd8799e2729e2060a443ee",
+      "replacement": {
+        "path": "_workspace/2026-10-18-020-1e07/publication-entry-proposal-r2.md",
+        "sha256": "1bfcb5dc54708a7b0ddf8d6b9d0e8206fd66b6d0e604a22b37bb959a9b603a30"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-020-1e07/publication-entry-changes-r2.json",
+        "sha256": "738432a4f57d0439018c5c25743928b4552b03c9669160f68ef24ff5e24badb9"
+      },
+      "review": {
+        "path": "publication-partial-reassessment-review-r1.json",
+        "sha256": "cb273fc2cbfd7672795920db80c8b253e3cceec06454723f93f307f8c61b5341"
+      }
+    },
+    {
+      "entry": 21,
+      "base": "candidate",
+      "status": "approved",
+      "before_sha256": "bc0e2a06786aa29089dd1c518733a52e96f740fbe3e2ff5746e70e16655a4061",
+      "replacement": {
+        "path": "_workspace/2026-10-18-021-5639/publication-entry-proposal.md",
+        "sha256": "f0b19a3d84b1c0ab13bb8e7c5c6d2ebfaad8a6b28ecdd27142c6b0bf49c6fadb"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-021-5639/publication-entry-changes.json",
+        "sha256": "fce68a60a671b816996b3145529d0786a43c32d026ec349fac6407a704aef168"
+      },
+      "review": {
+        "path": "publication-partial-review-r3.json",
+        "sha256": "7a6e3173c9e3d7b350b1af4de2608ca61f5a239983ab3afce46ab9e111d914d0"
+      }
+    },
+    {
+      "entry": 22,
+      "base": "candidate",
+      "status": "approved",
+      "before_sha256": "fa7f1e532862640dd7b0a44dd0c20a6db271383207164528b3ec05f0c4f39077",
+      "replacement": {
+        "path": "_workspace/2026-10-18-022-0bc9/publication-entry-proposal-r3.md",
+        "sha256": "a7c6bb2eef26a061ad8718e79bbcf9d8abc8611db4e4cedd716fa7fabd4feff9"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-022-0bc9/publication-entry-changes-r3.json",
+        "sha256": "d79df5ec9f4c5f2c1abf77c3668660d0f8cf07b91a5fc3782adb8cda7b51660e"
+      },
+      "review": {
+        "path": "publication-partial-reassessment-review-r5.json",
+        "sha256": "58d7b4a3f747b76d0e9478864f4e6a6cde73ae0e645fd6ac57255b2e36fbad3e"
+      }
+    },
+    {
+      "entry": 23,
+      "base": "candidate",
+      "status": "approved",
+      "before_sha256": "531b9caaf2f86dc0ecdcecefdfab81346e64f3651f0ebb332f8784c20108956c",
+      "replacement": {
+        "path": "_workspace/2026-10-18-023-3d19/publication-entry-proposal.md",
+        "sha256": "dfdc72a7076ab7ecbb53262a72f8d0afd898f65bb2a841286dfb125d6ff2b224"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-023-3d19/publication-entry-changes.json",
+        "sha256": "b0a9b7f61337c9029ce425973d19e572c65f8606ffb40421ac3947f7c0503d94"
+      },
+      "review": {
+        "path": "publication-partial-review-r1.json",
+        "sha256": "2014b7eee3797d3b0336776f2922993b2e21692d6957769743062601acbaee3b"
+      }
+    },
+    {
+      "entry": 24,
+      "base": "candidate",
+      "status": "approved",
+      "before_sha256": "ad0e55c2941beb39b001355bcf6494e076378002d2f7c4e89d8be40f68bf807e",
+      "replacement": {
+        "path": "_workspace/2026-10-18-024-fe95/publication-entry-proposal-r3.md",
+        "sha256": "c42470180abfc7c239095a1be50310051edaec8b7bab6aeb2ebd1cc1ed1836d7"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-024-fe95/publication-entry-changes-r3.json",
+        "sha256": "c8aca48581b9360eef1204eef29ea5cbbf692ea0d726f4b8ed4c44f878b05bdd"
+      },
+      "review": {
+        "path": "publication-partial-review-r5.json",
+        "sha256": "7f9b521f9b504a81d0b0eeb8464bb35bc0775f2cfbf8ca35a4a02f4eb1832166"
+      }
+    },
+    {
+      "entry": 25,
+      "base": "candidate",
+      "status": "approved",
+      "before_sha256": "f0e9f87f2c0a44da50ae1aa7cc11f6199e652d73a420bd628ce7d28dbad7929c",
+      "replacement": {
+        "path": "_workspace/2026-10-18-025-efee/publication-entry-proposal-r2.md",
+        "sha256": "41c8f6289ac760b2c6f60877a4db52ab8fe19f50e340c02cbe0a41b8885168ac"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-025-efee/publication-entry-changes-r2.json",
+        "sha256": "9467434b392f11fe7570a824e289ce7bc64d5e5a140d01b01a555a347c0eed86"
+      },
+      "review": {
+        "path": "publication-partial-review-r5.json",
+        "sha256": "7f9b521f9b504a81d0b0eeb8464bb35bc0775f2cfbf8ca35a4a02f4eb1832166"
+      }
+    },
+    {
+      "entry": 26,
+      "base": "candidate",
+      "status": "approved",
+      "before_sha256": "9a012f29134f3ba82f89c22fdfcfbbd40360ee8d8070752ec46ff70f85e9d546",
+      "replacement": {
+        "path": "_workspace/2026-10-18-026-69d5/publication-entry-proposal-r2.md",
+        "sha256": "c90c07337e12cb101dfb9a44b4221d07df20b9af5bd9ed4dafab05c1ea6203fc"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-026-69d5/publication-entry-changes-r2.json",
+        "sha256": "831da4a3a57220ac28f50270a885456c2a64b1a0767a5f4a837e1ec7b6f867f5"
+      },
+      "review": {
+        "path": "publication-partial-review-r4.json",
+        "sha256": "5c322941160d79bb9e3ddbe164d0fbc7afff0bb662256af8d2bc7863f7561210"
+      }
+    },
+    {
+      "entry": 27,
+      "base": "candidate",
+      "status": "approved",
+      "before_sha256": "ce5aa2177c10224a0295b5d1b4a1c33142fdda281f185183e5c60f459e2069c0",
+      "replacement": {
+        "path": "_workspace/2026-10-18-027-f062/publication-entry-proposal.md",
+        "sha256": "e117af9c2bea8ccf582e5930047f07101adce86b031603595d1c21e534986388"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-027-f062/publication-entry-changes.json",
+        "sha256": "fce2d4161cb0a2aa823931f8ff02fe2949e6acf4f5b442ed830ebed7ab5b358c"
+      },
+      "review": {
+        "path": "publication-partial-review-r4.json",
+        "sha256": "5c322941160d79bb9e3ddbe164d0fbc7afff0bb662256af8d2bc7863f7561210"
+      }
+    },
+    {
+      "entry": 28,
+      "base": "candidate",
+      "status": "approved",
+      "before_sha256": "9de316aa3ca3c38b4941a9791a96b0c0b4bf3e3ed803deb290ab9439ff66ad0c",
+      "replacement": {
+        "path": "_workspace/2026-10-18-028-d213/publication-entry-proposal.md",
+        "sha256": "73f5e715b15e1787ae84584a8106f4ed9e3a754bc8bae0d2ec70be833c04241a"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-028-d213/publication-entry-changes.json",
+        "sha256": "3d781f518e2730e0c53c9c472abff59e9ac05f91c0105821f66024b3fa74b940"
+      },
+      "review": {
+        "path": "publication-partial-review-r1.json",
+        "sha256": "2014b7eee3797d3b0336776f2922993b2e21692d6957769743062601acbaee3b"
+      }
+    },
+    {
+      "entry": 29,
+      "base": "candidate",
+      "status": "approved",
+      "before_sha256": "ca6bf38b231ac9a1c98ef037f2ef45fc22fb4a177d239eb6bda9d045f7b745e5",
+      "replacement": {
+        "path": "_workspace/2026-10-18-029-09a7/publication-entry-proposal-r2.md",
+        "sha256": "321af8111a367f4dff0d0263b7aed950e2da348f3fc623eddf4fdb2873451dac"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-029-09a7/publication-entry-changes-r2.json",
+        "sha256": "d5695750a5bc2d822d3d869cda3f84e930e2e74cf04ab6a43c1d540356e7de16"
+      },
+      "review": {
+        "path": "publication-partial-reassessment-review-r1.json",
+        "sha256": "cb273fc2cbfd7672795920db80c8b253e3cceec06454723f93f307f8c61b5341"
+      }
+    },
+    {
+      "entry": 30,
+      "base": "candidate",
+      "status": "approved",
+      "before_sha256": "40d470cdbdf09ac1a8bdf1a99d991998b4f9d3fdc02a1164859cd0ce79622e6c",
+      "replacement": {
+        "path": "_workspace/2026-10-18-030-4334/publication-entry-proposal.md",
+        "sha256": "fc427cb22dbddeb57f94441b9fe4564f62820842d36cf67d4704e1f90b44763d"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-030-4334/publication-entry-changes.json",
+        "sha256": "f29aa02eef1eb6d2c8dc52507f079ff6f2c4e17a65acf499e2e68ce14a9182dd"
+      },
+      "review": {
+        "path": "publication-partial-review-r4.json",
+        "sha256": "5c322941160d79bb9e3ddbe164d0fbc7afff0bb662256af8d2bc7863f7561210"
+      }
+    },
+    {
+      "entry": 31,
+      "base": "candidate",
+      "status": "approved",
+      "before_sha256": "900eb61d65809842c09a6fd8d8073535184c9a2aa879ed67bf0b58d0ce0c7d4e",
+      "replacement": {
+        "path": "_workspace/2026-10-18-031-3235/publication-entry-proposal-r3.md",
+        "sha256": "f1bfdd5c890cb1da91191a11b70caa8dbe047d31d7153d90d7fcb07b65d4734e"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-031-3235/changes-r3.json",
+        "sha256": "732725402034c2c60abd342e2b147fe55addd9b9ac908d8034f479f99b13538e"
+      },
+      "review": {
+        "path": "publication-entry31-r3-review.json",
+        "sha256": "d39a4f880cb29b16cbd91713a461eeb5531b568438bd8c8ffe5887c6e7efe492"
+      }
+    },
+    {
+      "entry": 32,
+      "base": "candidate",
+      "status": "approved",
+      "before_sha256": "5ff3646f3cf746c29d069fc0beb214a721e472509f2d6baa6c565199ffc1bb0c",
+      "replacement": {
+        "path": "_workspace/2026-10-18-032-8322/publication-entry-proposal.md",
+        "sha256": "415b2f3763f986bb3db002942a17b211a7c7e24f1a82f8591699c206ddbe345f"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-032-8322/publication-entry-changes.json",
+        "sha256": "525d3dfedb7a2ca6a2a87732011783bcf4a008f75ad1611ad36ec4a646f24335"
+      },
+      "review": {
+        "path": "publication-partial-review-r5.json",
+        "sha256": "7f9b521f9b504a81d0b0eeb8464bb35bc0775f2cfbf8ca35a4a02f4eb1832166"
+      }
+    },
+    {
+      "entry": 33,
+      "base": "candidate",
+      "status": "approved",
+      "before_sha256": "af393c3d4d602e1f97c0f7aad5a89daae073ad920659574b39c853252986c323",
+      "replacement": {
+        "path": "_workspace/2026-10-18-033-8e2f/publication-entry-proposal.md",
+        "sha256": "d2cb4aaf9e41a65a79b62177a659374ee25e1940432519be90a896e27f6270ba"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-033-8e2f/publication-entry-changes.json",
+        "sha256": "948bf163960ba1479a35ea0d1115eba1e35de98f91e6808cd394d688426a9a0b"
+      },
+      "review": {
+        "path": "publication-partial-review-r5.json",
+        "sha256": "7f9b521f9b504a81d0b0eeb8464bb35bc0775f2cfbf8ca35a4a02f4eb1832166"
+      }
+    },
+    {
+      "entry": 34,
+      "base": "candidate",
+      "status": "approved",
+      "before_sha256": "f2467aae76b2512d23fc45bea77846090a6d50e2b91241b87cdc0deaf8a3ce81",
+      "replacement": {
+        "path": "_workspace/2026-10-18-034-9bb5/publication-entry-proposal-r2.md",
+        "sha256": "07235d414516313aa13b8913177ab13d5cc7fb22d6633b52b7d1a1645f979566"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-034-9bb5/publication-entry-changes-r2.json",
+        "sha256": "dc646cad08d29e89c9a1f06aea7edd7b845080a0f48dcace05372f0400e35e36"
+      },
+      "review": {
+        "path": "publication-partial-reassessment-review-r2.json",
+        "sha256": "dc734c30c940c9f1a84d737e12cc701ca3b5bf3af5cb4413616a8abbf3d47828"
+      }
+    },
+    {
+      "entry": 35,
+      "base": "candidate",
+      "status": "approved",
+      "before_sha256": "dad90d71068f360ac46c64efd6e9bd116cc3bc47109b04c8aed3cf4a1baeb31f",
+      "replacement": {
+        "path": "_workspace/2026-10-18-035-2355/publication-entry-proposal-r4.md",
+        "sha256": "4d39332f12562e3040206192f28f3b51c5f22329c0a3163a5a1b022542c596bd"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-035-2355/publication-entry-changes-r4.json",
+        "sha256": "ef7c7c5ff901b8e571cdbb24c97e1b2312e5abbca7c52e398304f942d27d6976"
+      },
+      "review": {
+        "path": "publication-partial-reassessment-review-r5.json",
+        "sha256": "58d7b4a3f747b76d0e9478864f4e6a6cde73ae0e645fd6ac57255b2e36fbad3e"
+      }
+    },
+    {
+      "entry": 36,
+      "base": "candidate",
+      "status": "approved",
+      "before_sha256": "b6ad91b47a45b25794642e67d920b3fa5099429273b636dfd618425dffdbb874",
+      "replacement": {
+        "path": "_workspace/2026-10-18-036-2880/publication-entry-proposal.md",
+        "sha256": "bf0c07ae1b0991bb6167f1d9f27de0399e87dd654e463c4a35e6738befdc62b6"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-036-2880/publication-entry-changes.json",
+        "sha256": "03b24659bf492e9dd8b3a3c3c7e0c28ff82c2aa2c8d0aa3af3fdc9857c72fa41"
+      },
+      "review": {
+        "path": "publication-partial-review-r6.json",
+        "sha256": "aa26ce9cf9a3b4c38cff602603cf8dc61082068d8c01506fd00139ddbbf36f7f"
+      }
+    },
+    {
+      "entry": 37,
+      "base": "candidate",
+      "status": "approved",
+      "before_sha256": "dce2225dad6fc7cb76ad08ece0f5c55f60ef06191e31908da02c9de9f34564e4",
+      "replacement": {
+        "path": "_workspace/2026-10-18-037-bfaa/publication-entry-proposal-r2.md",
+        "sha256": "3157c81446c5b07572216a2b15cf9a32fa9db698f679f1a8892659a1acfe3208"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-037-bfaa/publication-entry-changes-r2.json",
+        "sha256": "cae61d5222ea7f35fefc210c772540470b645b559ea749d9090da4563164c633"
+      },
+      "review": {
+        "path": "publication-partial-reassessment-review-r1.json",
+        "sha256": "cb273fc2cbfd7672795920db80c8b253e3cceec06454723f93f307f8c61b5341"
+      }
+    },
+    {
+      "entry": 38,
+      "base": "candidate",
+      "status": "approved",
+      "before_sha256": "518f8c97c989f005e85c210f10462a5ba4c1d91d3fc8dc98fd4f976efc0fffed",
+      "replacement": {
+        "path": "_workspace/2026-10-18-038-df3d/publication-entry-proposal-r3.md",
+        "sha256": "83d6309c40b710296b3c9ec8dc60c219c4091bf5079e027db498c4ef69ba114f"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-038-df3d/publication-entry-changes-r3.json",
+        "sha256": "d5d7ffa3ab16369ceb54ccddb10bb427a91c22a750ce49613f5160f69850ec50"
+      },
+      "review": {
+        "path": "publication-partial-reassessment-review-r1.json",
+        "sha256": "cb273fc2cbfd7672795920db80c8b253e3cceec06454723f93f307f8c61b5341"
+      }
+    },
+    {
+      "entry": 39,
+      "base": "candidate",
+      "status": "approved",
+      "before_sha256": "b4f8118e34e7e0549a9d3f2e4418aa674e02f354b3153c2d307ea4b19c01a9da",
+      "replacement": {
+        "path": "_workspace/2026-10-18-039-de91/publication-entry-proposal.md",
+        "sha256": "c60007d0336c0a9f9cc572273a580bf9f6882d833e88363587870cea0223d8c2"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-039-de91/publication-entry-changes.json",
+        "sha256": "1f5959e528ffc4e6446fd68ad3841f6f8aed551b43501b72728ed713394b9c7d"
+      },
+      "review": {
+        "path": "publication-partial-review-r7.json",
+        "sha256": "78092ebf0c6981696a15fdfc22b82bb6fd87e45fc690226931d60fd4b07bebc2"
+      }
+    },
+    {
+      "entry": 40,
+      "base": "candidate",
+      "status": "approved",
+      "before_sha256": "fa610e18a8209f1a89df3d1627d11b5b95f1a20ccb8702c9f92eda65bfdbfd2b",
+      "replacement": {
+        "path": "_workspace/2026-10-18-040-bee1/publication-entry-proposal.md",
+        "sha256": "4140ff8a89c176ee64d258fcbaf1572aaa1068da965b1cd95cf2f8fec01e1f41"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-040-bee1/publication-entry-changes.json",
+        "sha256": "440ac929588275fe781dd0aa88a45ee08e46f51d395b7cfbf135394eb67cade0"
+      },
+      "review": {
+        "path": "publication-partial-review-r7.json",
+        "sha256": "78092ebf0c6981696a15fdfc22b82bb6fd87e45fc690226931d60fd4b07bebc2"
+      }
+    },
+    {
+      "entry": 41,
+      "base": "candidate",
+      "status": "approved",
+      "before_sha256": "23e9b61fc4afebb282bcb27081fed4fd58ffb511f7597c4c7ebc36bf02121ca3",
+      "replacement": {
+        "path": "_workspace/2026-10-18-041-439b/publication-entry-proposal-r3.md",
+        "sha256": "3fb5f82728b7214582890f21316948928f25badda91c47f4fd9425c1d49f8339"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-041-439b/publication-entry-changes-r3.json",
+        "sha256": "8e4b2cd418be18c6ff6d9cefd919b208aaa665936b9908817cc6984343463529"
+      },
+      "review": {
+        "path": "publication-partial-reassessment-review-r2.json",
+        "sha256": "dc734c30c940c9f1a84d737e12cc701ca3b5bf3af5cb4413616a8abbf3d47828"
+      }
+    },
+    {
+      "entry": 42,
+      "base": "candidate",
+      "status": "approved",
+      "before_sha256": "4cfc78209525c0116f63925597846abc4869e0e468a56a97e5609105878dad70",
+      "replacement": {
+        "path": "_workspace/2026-10-18-042-7b88/publication-entry-proposal.md",
+        "sha256": "f95d1be6a40ea3f4ac97cad4d7fdf57317d0a44425011523d0c819c8a41847d7"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-042-7b88/publication-entry-changes.json",
+        "sha256": "f69197eb45ce373136ad1a0298f93aa88fd42bb0d153be24e56b7360c1155910"
+      },
+      "review": {
+        "path": "publication-partial-review-r8.json",
+        "sha256": "a0b64b68e9c9b5a6641b8080fe7de7df5fdde83bdf35f9d977cd43a5fe67cff8"
+      }
+    },
+    {
+      "entry": 43,
+      "base": "candidate",
+      "status": "approved",
+      "before_sha256": "e48d95a91b72b1395ee9a8011f6241831f0bcc30076498efd8df512b016b32b9",
+      "replacement": {
+        "path": "_workspace/2026-10-18-043-8784/publication-entry-proposal.md",
+        "sha256": "fafa2875756a91d03ef8666d3e29a104488dd860dd9d192e364f3dae3486d226"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-043-8784/publication-entry-changes.json",
+        "sha256": "5b1deed20f085c5146ff743826242205d0753e7ab3f19e4239872e87ed291441"
+      },
+      "review": {
+        "path": "publication-partial-review-r8.json",
+        "sha256": "a0b64b68e9c9b5a6641b8080fe7de7df5fdde83bdf35f9d977cd43a5fe67cff8"
+      }
+    },
+    {
+      "entry": 44,
+      "base": "candidate",
+      "status": "approved",
+      "before_sha256": "d948a7052fa1880a6d751c8ac6272f4f7f184454493832db82bf796467111733",
+      "replacement": {
+        "path": "_workspace/2026-10-18-044-5111/publication-entry-proposal-r2.md",
+        "sha256": "730a7c920f1b46645a4dbe3a029d3a1c0b5a398a5bb84f17152c699fdb8a5264"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-044-5111/publication-entry-changes-r2.json",
+        "sha256": "e008bbbe13b8081c0a3fe922b5e08a0209c55b33525a6abb6370a0cb1f5fc49f"
+      },
+      "review": {
+        "path": "publication-partial-reassessment-review-r1.json",
+        "sha256": "cb273fc2cbfd7672795920db80c8b253e3cceec06454723f93f307f8c61b5341"
+      }
+    },
+    {
+      "entry": 45,
+      "base": "candidate",
+      "status": "approved",
+      "before_sha256": "56ac275c5e66a4f03da2598a5a8d8b3931648b20844ce74599045ca2c148efb5",
+      "replacement": {
+        "path": "_workspace/2026-10-18-045-52d1/publication-entry-proposal-r2.md",
+        "sha256": "c2a722c7337d799c8e31e543fe6717fc15abbd0503d89b768e4e9ee156f01ecd"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-045-52d1/publication-entry-changes-r2.json",
+        "sha256": "e80d7b9b6d2791358646fe909c0c2a86f7227ab3d1dfc262de383a394029b391"
+      },
+      "review": {
+        "path": "publication-partial-reassessment-review-r1.json",
+        "sha256": "cb273fc2cbfd7672795920db80c8b253e3cceec06454723f93f307f8c61b5341"
+      }
+    }
+  ],
+  "doi_annotations": [],
+  "formal_kr_fit": false,
+  "publication_approval": false,
+  "expected_entry_only_candidate_sha256": "ee3691952030b68c2cfaf3c279272092cf190a8b8f4be96bd734c548bc6a4f02"
+}

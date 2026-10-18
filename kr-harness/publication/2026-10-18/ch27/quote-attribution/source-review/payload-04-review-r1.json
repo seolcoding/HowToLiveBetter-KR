@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "payload_sha256": "e46d446b2957e5207dff8f8174130159f25e4daf79433948122b7ee6e16f0fe6",
+  "decision": "approved",
+  "reviewer_role": "independent_source_reviewer",
+  "reviewer_id": "/root/publication_review_09",
+  "proposer_id": "root-mechanical-payload",
+  "reviewed_original_sha256": "076d81ff359bf1030cc1f883fec3995d28c64a176106d997f341fd8a0946cdfe",
+  "reviewed_final_body_sha256": "dfc485bcc7181184b9205391b67c0d5c6df5be383f4d8dd6e1cdba96cf0e3796",
+  "assessments": [
+    {
+      "occurrence_ordinal": 4,
+      "field": "이득",
+      "source_authenticity": "verified",
+      "direct_quotation": "verified",
+      "translation_or_verbatim_fidelity": "verified",
+      "original_attribution": "verified",
+      "final_attribution": "verified",
+      "reason": "독립 검토자가 CDC 원응답 HTML과 전체 원본 이득 필드 및 정확 final body 이득 필드를 직접 읽었다. provenance의 실제 CDC HTTPS200 취득시각은2026-10-18T17:23:42.490387+00:00이며 이번에는 그 보존 raw를 재열람했다(새 HTTP 아님). 원캐시와 보존물 bytes가 같고 SHA a6c3a243747f11254a73359201c92ec58c2b3932f5a51e03e821b7ae8aeea5bf,118427bytes·CDC canonical URL/제목·quitting-help 절의 기관 설명문을 확인했다. [25283,25429)의146bytes는 태그나 entity를 건너지 않는 연속 원문 한 문장 The best time to quit smoking is before you get pregnant, but quitting at any time during pregnancy can help your baby get a better start on life.이다. 환자 경험담/제3자 발언이 아니라 CDC의 권고 문단이다. 한국어 전체 인용 임신 전에 끊는 것이 가장 좋지만, 이미 임신했어도 끊으면 도움이 된다는 임신 전 최적시점과 이미 임신한 경우에도 금연이 유익하다는 양보 조건을 충실하게 옮긴 자연스러운 축약 번역이다. better start on life의 비유를 도움이 된다로 풀었고, 임신 중 언제 끊어도 도움을 줄 수 있다는 뜻을 특정 시점·확률·건강한 출생의 무조건 보장으로 바꾸지 않는다. 아기는 앞뒤 임신·아기 문맥에서 명확하며 다른 대상이나 질환 효과를 보태지 않았다. can help를 질환 완전예방의 보장으로 확장하는 문구도 없다. 원본과 final 모두 동일 이득 필드의 유일한 CDC는 앵커 뒤에 이 완전 인용이1회 있으며 CDC 귀속이 유지된다. 기존 따옴표 전체·부정 없음·대비/조건과 권고 소유권을 확인했다. 이 승인은 field이득/ordinal4 한 occurrence에 한정한다. 이웃 폐·뇌 인용과 끊기에 너무 늦은 때는 없다 인용, 다른 본문 사실, metric/route/gate 및 출판 승인은 범위 밖이다."
+    }
+  ]
+}

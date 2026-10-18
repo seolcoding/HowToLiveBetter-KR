@@ -1,0 +1,353 @@
+{
+  "status": "completed_exact_partial_review_r7",
+  "manifest_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/author-partial-manifest-7.json",
+  "manifest_sha256": "641a883f3879bc9b744bbfbba0c8ceccb3100cd93dbdc042984b6b0ed745ef89",
+  "entries": [
+    {
+      "entry": 31,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-031-3235/publication-entry-proposal-r2.md",
+      "proposal_sha256": "dc2f01787679926fd24d51ce44e3e5ea3f5ea5c445c4401e7bdb0ffe0803e5f8",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-031-3235/changes-r2.json",
+      "changes_sha256": "7dda359cda6db8fd69e4792e2d13b0d06702c827ec4b7297aced79c9e7891be8",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-031-3235/strict-entry.md",
+      "base_strict_entry_sha256": "900eb61d65809842c09a6fd8d8073535184c9a2aa879ed67bf0b58d0ce0c7d4e",
+      "literal_exit_code": 0,
+      "decision": "revise",
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "length_check": {
+        "entry": 31,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-031-3235/publication-entry-proposal-r2.md",
+        "title_chars": 54,
+        "easy_chars": 119,
+        "easy_sentences": 4,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "six_labels": true,
+        "tag": true,
+        "grade": true
+      },
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "initial_canonical_findings": {
+        "entry": 31,
+        "entry_snapshot_sha256": "900eb61d65809842c09a6fd8d8073535184c9a2aa879ed67bf0b58d0ce0c7d4e",
+        "status": "reviewed_fields_approved_only",
+        "source_review": "교환환급은 합의·권고 기준임을 이득에서 구분. 치료비 인과관계·제조물3배 조건 및1372 조정 권한 원문 미확인.",
+        "field_decisions": [
+          {
+            "proposal_key": "easy",
+            "field": "쉽게",
+            "decision": "approve",
+            "before": "상했거나 소비기한이 지난 식품은 교환이나 구입가 환불이 기준입니다. 이물질이 들었거나 양이 모자라도 같은 기준을 적용합니다. 먹고 탈이 났으면 치료비와 들어간 경비를 배상하는 것이 기준입니다. 일을 못 한 손해도 배상 대상입니다. 한국에는 중국식 \"가격 10배 배상\"이 없습니다.",
+            "after": "상함·소비기한 경과·이물질·양 부족은 교환이나 구입가 환불이 기준입니다. 먹고 탈이 나면 치료비·경비·못 번 소득도 배상 대상입니다. 합의·권고에 쓰는 기준입니다. 한국에는 중국식 가격 10배 배상이 없습니다.",
+            "before_matches_source_entry": true,
+            "before_matches_candidate_entry": true,
+            "before_occurrences_in_source_entry": 1,
+            "after_chars": 117,
+            "after_sentences": 4,
+            "length_exception_requested": false,
+            "length_exception_accepted": false,
+            "source_entry_sha256": "900eb61d65809842c09a6fd8d8073535184c9a2aa879ed67bf0b58d0ce0c7d4e",
+            "candidate_entry_sha256": "900eb61d65809842c09a6fd8d8073535184c9a2aa879ed67bf0b58d0ce0c7d4e",
+            "reason": "합의·권고에 쓰는 기준이라는 성격을 드러내고 환급·손해 항목을 보존합니다. 치료 손해의 인과관계 및 고시 세부사항 검증 완료를 뜻하지 않습니다.",
+            "scope": "Exact proposed wording only. Not full-entry, whole-chapter, publication, or formal KR-FIT approval.",
+            "before_equals_full_source_field": true,
+            "before_equals_full_candidate_field": true,
+            "scope_kind": "whole_field",
+            "direct_field_operation_eligible": true,
+            "operation_base_constraint": "baseline_or_candidate_only_when_whole_field_before_matches"
+          }
+        ],
+        "candidate_entry_sha256": "900eb61d65809842c09a6fd8d8073535184c9a2aa879ed67bf0b58d0ce0c7d4e",
+        "candidate_review_scope": "Read complete current candidate entry and source snapshot; field approvals do not resolve unverified primary sources or factual corrections in other fields."
+      },
+      "actual_primary_assessment": "일실소득은 소득상실 입증 및 금액 입증 불가 시 시중노임단가 조건을 보완했다. 제조물책임법4조 면책 입증과 공급 후 결함 인식 시 조치의무 예외도 보완했다. 다만 3배 손해배상은 법3조2항인데 바로 앞 4조 설명 뒤 같은 조 제2항이라 해 조문 귀속이 잘못된다. r3 별도 제출 사실은 이 r2 판정을 소급 변경하지 않는다.",
+      "all_four_body_fields_read": true,
+      "revision_requests": [
+        {
+          "exact_span": "같은 조 제2항에 따른 책임입니다.",
+          "required": "제조물책임법 제3조 제2항으로 귀속을 명확히 할 것.",
+          "reason": "직전 조문4조의2항은 공급후 결함인지에 따른 면책 제한이고 3배배상 조문이 아니다."
+        }
+      ]
+    },
+    {
+      "entry": 39,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-039-de91/publication-entry-proposal.md",
+      "proposal_sha256": "c60007d0336c0a9f9cc572273a580bf9f6882d833e88363587870cea0223d8c2",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-039-de91/publication-entry-changes.json",
+      "changes_sha256": "1f5959e528ffc4e6446fd68ad3841f6f8aed551b43501b72728ed713394b9c7d",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-039-de91/strict-entry.md",
+      "base_strict_entry_sha256": "b4f8118e34e7e0549a9d3f2e4418aa674e02f354b3153c2d307ea4b19c01a9da",
+      "literal_exit_code": 0,
+      "decision": "approve",
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "length_check": {
+        "entry": 39,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-039-de91/publication-entry-proposal.md",
+        "title_chars": 45,
+        "easy_chars": 109,
+        "easy_sentences": 4,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "six_labels": true,
+        "tag": true,
+        "grade": true
+      },
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "initial_canonical_findings": {
+        "entry": 39,
+        "entry_snapshot_sha256": "b4f8118e34e7e0549a9d3f2e4418aa674e02f354b3153c2d307ea4b19c01a9da",
+        "status": "reviewed_fields_approved_only",
+        "source_review": "보험료 구조·보험지수 정의·공시 원문 미확인. 개인별 보장 우선순위는 C 경험칙으로 유지.",
+        "field_decisions": [
+          {
+            "proposal_key": "easy",
+            "field": "쉽게",
+            "decision": "approve",
+            "before": "낸 보험료가 모두 보험금으로 돌아오지는 않습니다. 일부는 보험회사의 사업비 등으로 쓰입니다. 보험은 드물지만 집안에서 감당 못 할 손실에 대비하세요. 큰 병이나 차로 사람을 다치게 하는 사고가 해당합니다. 돈 버는 사람이 떠나는 일도 해당합니다. 저축으로 버틸 수 있는 작은 손실은 비상금에 맡기세요.",
+            "after": "보험료 일부는 보험회사의 사업비로 쓰입니다. 보험은 드물지만 집안에서 감당 못 할 손실에 대비하세요. 저축으로 버틸 작은 손실은 비상금으로 메우세요. 국민건강보험에는 이 기준을 적용하지 않습니다.",
+            "before_matches_source_entry": true,
+            "before_matches_candidate_entry": true,
+            "before_occurrences_in_source_entry": 1,
+            "after_chars": 109,
+            "after_sentences": 4,
+            "length_exception_requested": false,
+            "length_exception_accepted": false,
+            "source_entry_sha256": "b4f8118e34e7e0549a9d3f2e4418aa674e02f354b3153c2d307ea4b19c01a9da",
+            "candidate_entry_sha256": "b4f8118e34e7e0549a9d3f2e4418aa674e02f354b3153c2d307ea4b19c01a9da",
+            "reason": "감당 가능한 작은 손실/감당 못할 큰 손실을 구분하고 국민건강보험 제외를 드러냅니다. 경험칙을 실증 효과나 법정 보험가입 권리로 바꾸지 않습니다.",
+            "scope": "Exact proposed wording only. Not full-entry, whole-chapter, publication, or formal KR-FIT approval.",
+            "before_equals_full_source_field": true,
+            "before_equals_full_candidate_field": true,
+            "scope_kind": "whole_field",
+            "direct_field_operation_eligible": true,
+            "operation_base_constraint": "baseline_or_candidate_only_when_whole_field_before_matches"
+          }
+        ],
+        "candidate_entry_sha256": "b4f8118e34e7e0549a9d3f2e4418aa674e02f354b3153c2d307ea4b19c01a9da",
+        "candidate_review_scope": "Read complete current candidate entry and source snapshot; field approvals do not resolve unverified primary sources or factual corrections in other fields."
+      },
+      "actual_primary_assessment": "보험업법124 및 감독규정7-45⑦/⑪·7-46① 전체 관련 범위와 2026-3호 부칙1·2를 직접 읽었다. 일반손해보험/자동차/단체·특정단체 예외, 부가보험료지수 1.4배 예외와 외화/자동차 제외, 채널별 수수료 공시 제외, 20260301 시행 및 이후 최초 기초서류 작성·변경/판매개시 조건에 부합한다. 협회 실제 웹 공시는 미열람임을 독자에게 표시한다. 감당 가능한 소액손실·비상금·소득공백 판단은 C등급 저자 조언이며 실측 이익으로 제시하지 않는다.",
+      "all_four_body_fields_read": true,
+      "revision_requests": [],
+      "proposed_root_operation": {
+        "type": "replace_complete_strict_entry_body",
+        "before_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-039-de91/strict-entry.md",
+        "before_entire_entry_sha256": "b4f8118e34e7e0549a9d3f2e4418aa674e02f354b3153c2d307ea4b19c01a9da",
+        "after_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-039-de91/publication-entry-proposal.md",
+        "after_entire_entry_sha256": "c60007d0336c0a9f9cc572273a580bf9f6882d833e88363587870cea0223d8c2",
+        "separator_policy": "Preserve surrounding chapter separators; verify entire before entry.",
+        "supersession": "Full supersedes initial field and older full; never both.",
+        "integration_authorized": false
+      }
+    },
+    {
+      "entry": 40,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-040-bee1/publication-entry-proposal.md",
+      "proposal_sha256": "4140ff8a89c176ee64d258fcbaf1572aaa1068da965b1cd95cf2f8fec01e1f41",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-040-bee1/publication-entry-changes.json",
+      "changes_sha256": "440ac929588275fe781dd0aa88a45ee08e46f51d395b7cfbf135394eb67cade0",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-040-bee1/strict-entry.md",
+      "base_strict_entry_sha256": "fa610e18a8209f1a89df3d1627d11b5b95f1a20ccb8702c9f92eda65bfdbfd2b",
+      "literal_exit_code": 0,
+      "decision": "approve",
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "length_check": {
+        "entry": 40,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-040-bee1/publication-entry-proposal.md",
+        "title_chars": 45,
+        "easy_chars": 120,
+        "easy_sentences": 4,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "six_labels": true,
+        "tag": true,
+        "grade": true
+      },
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "initial_canonical_findings": {
+        "entry": 40,
+        "entry_snapshot_sha256": "fa610e18a8209f1a89df3d1627d11b5b95f1a20ccb8702c9f92eda65bfdbfd2b",
+        "status": "reviewed_fields_approved_only",
+        "source_review": "15세미만 사망보험 무효 조문 및 예외 직접 미확인. \"아이가 아파도 소득 줄지 않음\"은 돌봄 휴직/실직 가능성을 배제하여 단정 완화 검토.",
+        "field_decisions": [
+          {
+            "proposal_key": "easy",
+            "field": "쉽게",
+            "decision": "approve",
+            "before": "정기보험은 정한 기간에만 보장합니다. 그 기간에 돈 버는 사람이 사망하면 가족이 보험금을 받습니다. 주택담보대출이 남았거나 아이가 어리면 필요합니다. 내 소득에 기대 사는 사람이 없으면 필요 없습니다. 한국에서는 15세 미만 아이의 사망보험 계약은 무효입니다.",
+            "after": "정기보험은 정한 기간 돈 버는 이가 사망하면 가족이 보험금을 받습니다. 주택담보대출이 남았거나 아이가 어리면 필요합니다. 내 소득에 기대는 이가 없으면 불필요합니다. 한국은 15세 미만의 사망보험 계약이 무효입니다.",
+            "before_matches_source_entry": true,
+            "before_matches_candidate_entry": true,
+            "before_occurrences_in_source_entry": 1,
+            "after_chars": 120,
+            "after_sentences": 4,
+            "length_exception_requested": false,
+            "length_exception_accepted": false,
+            "source_entry_sha256": "fa610e18a8209f1a89df3d1627d11b5b95f1a20ccb8702c9f92eda65bfdbfd2b",
+            "candidate_entry_sha256": "fa610e18a8209f1a89df3d1627d11b5b95f1a20ccb8702c9f92eda65bfdbfd2b",
+            "reason": "정해진 기간·사망보장·소득의존 가족과15세미만 사망보험 무효의 기존 범위를 보존합니다. 필요/불필요 판단은 원문의 C등급 권고이며 법정 필수 가입이라는 뜻으로 승인하지 않습니다.",
+            "scope": "Exact proposed wording only. Not full-entry, whole-chapter, publication, or formal KR-FIT approval.",
+            "before_equals_full_source_field": true,
+            "before_equals_full_candidate_field": true,
+            "scope_kind": "whole_field",
+            "direct_field_operation_eligible": true,
+            "operation_base_constraint": "baseline_or_candidate_only_when_whole_field_before_matches"
+          }
+        ],
+        "candidate_entry_sha256": "fa610e18a8209f1a89df3d1627d11b5b95f1a20ccb8702c9f92eda65bfdbfd2b",
+        "candidate_review_scope": "Read complete current candidate entry and source snapshot; field approvals do not resolve unverified primary sources or factual corrections in other fields."
+      },
+      "actual_primary_assessment": "상법730·731·732 원문 전체를 직접 읽었다. 사망/생존 보험금, 타인 사망의 계약 당시 서면·법정 전자문서 동의, 15세 미만/심신상실/심신박약 무효와 심신박약자 의사능력 예외가 맞다. 소득대체 필요액은 공식 법정 산식과 구분된 저자 조언이며 양육으로 인한 부모 소득 감소도 보존했다. 중국 아동 금액은 미검증·미채택임을 명시한다.",
+      "all_four_body_fields_read": true,
+      "revision_requests": [],
+      "proposed_root_operation": {
+        "type": "replace_complete_strict_entry_body",
+        "before_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-040-bee1/strict-entry.md",
+        "before_entire_entry_sha256": "fa610e18a8209f1a89df3d1627d11b5b95f1a20ccb8702c9f92eda65bfdbfd2b",
+        "after_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-040-bee1/publication-entry-proposal.md",
+        "after_entire_entry_sha256": "4140ff8a89c176ee64d258fcbaf1572aaa1068da965b1cd95cf2f8fec01e1f41",
+        "separator_policy": "Preserve surrounding chapter separators; verify entire before entry.",
+        "supersession": "Full supersedes initial field and older full; never both.",
+        "integration_authorized": false
+      }
+    }
+  ],
+  "approved_entries": [
+    39,
+    40
+  ],
+  "revise_entries": [
+    31
+  ],
+  "actual_primary_readings": [
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch05-partial-review/admrul-2100000279112.xml",
+      "artifact_sha256": "7b8819f912fbd62b74eed9138cdd958d6d6f1a08e34366df7023e4b40e944809",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000279112&type=XML",
+      "scope": "7-45⑦/⑪;7-46①;2026-3 부칙1·2",
+      "access": "Preserved primary XML directly read; not fresh HTTP",
+      "new_http": false
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch05-audit/265389.xml",
+      "artifact_sha256": "5d3d5e9b22d1fad26158da529677b362f06f623d9030872beb822a73c37c09b7",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=265389&type=XML",
+      "scope": "124 전체",
+      "access": "Preserved primary XML directly read; not fresh HTTP",
+      "new_http": false
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/273629.xml",
+      "artifact_sha256": "48b6b00f5625f842d6005eeab12e41dc93c5d8596e5db4163266c53e4a21ab22",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=273629&type=XML",
+      "scope": "730/731/732 전체",
+      "access": "Preserved primary XML directly read; not fresh HTTP",
+      "new_http": false
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/193381.xml",
+      "artifact_sha256": "c467f6ce099f0e1434d40da1bbb2d9f16c16df662d56b256011cf0912c5715b8",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=193381&type=XML",
+      "scope": "3/4·14764 부칙; r5 직접읽기 범위 재사용",
+      "access": "Preserved primary XML directly read; not fresh HTTP",
+      "new_http": false
+    }
+  ],
+  "prior_evidence_reuse": "31 food46/consumer annex food/刑350 and chapter8/12 evidence reuse r5 exact scope; inherited source warning does not imply all unrelated sources verified.",
+  "cross_reference_review": [
+    {
+      "path": "/workspace/HowToLiveBetter-KR/book-kr/07-돈이-없을-때-사는-법.md",
+      "file_sha256": "48c5d96b9d2c280eabe9ecfedf11cb6674a2ec25ea35c3da1326b2de60d11656",
+      "entry": 20,
+      "body_sha256": "8ddc048ea08808e7cf36b3633d9dd7c2474c0283416108bd244f2122783fe2db",
+      "body_read": true,
+      "scope": "해당 의료보험/해외 의료이송/소액소송/식품표시·인허가 안내와 연결. 대상 절 전체 근거의 독립 승인으로 확대하지 않는다."
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/book-kr/21-해외여행과-현지-안전.md",
+      "file_sha256": "38eaee10395f83580cba50f488c8c349f3b299fe140b648369371fc97e8be251",
+      "entry": 4,
+      "body_sha256": "7a9cb31f1477dd2db5c814f43999464e1f06617813283d4597d72da936c571b2",
+      "body_read": true,
+      "scope": "해당 의료보험/해외 의료이송/소액소송/식품표시·인허가 안내와 연결. 대상 절 전체 근거의 독립 승인으로 확대하지 않는다."
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/book-kr/08-법적-말썽에-휘말리지-않기.md",
+      "file_sha256": "d3bc3df4c03ef5f74d391c47424b7a09433b26f0c8f2ce2850deb34559b79f23",
+      "entry": 22,
+      "body_sha256": "34f55e310db0c6ae2906341884fea57159e44f0d900e44e7afc725e9b6235ed4",
+      "body_read": true,
+      "scope": "해당 의료보험/해외 의료이송/소액소송/식품표시·인허가 안내와 연결. 대상 절 전체 근거의 독립 승인으로 확대하지 않는다."
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/book-kr/12-창업과-장사.md",
+      "file_sha256": "01aa7401bf3d69e2186f55d4299a23ff488c06dcfb8a77637976717829c20b2d",
+      "entry": 8,
+      "body_sha256": "bf06f8446758410a2c32b569810a443984d1c218d35f18124082e3ed605b9df5",
+      "body_read": true,
+      "scope": "해당 의료보험/해외 의료이송/소액소송/식품표시·인허가 안내와 연결. 대상 절 전체 근거의 독립 승인으로 확대하지 않는다."
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/book-kr/12-창업과-장사.md",
+      "file_sha256": "01aa7401bf3d69e2186f55d4299a23ff488c06dcfb8a77637976717829c20b2d",
+      "entry": 9,
+      "body_sha256": "a22164c85d93bef2ec1ea94d958aeb61671d52bab3633abf97da0299ccfad3dc",
+      "body_read": true,
+      "scope": "해당 의료보험/해외 의료이송/소액소송/식품표시·인허가 안내와 연결. 대상 절 전체 근거의 독립 승인으로 확대하지 않는다."
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-026-69d5/publication-entry-proposal-r2.md",
+      "sha256": "c90c07337e12cb101dfb9a44b4221d07df20b9af5bd9ed4dafab05c1ea6203fc",
+      "entry": 26,
+      "body_read": true,
+      "scope": "26 기본/사업용 추가 의무보험 구분;27 비상금;40 부양가족 소득대체. 최신 후보 내용과 조언 범위 일치."
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-027-f062/publication-entry-proposal.md",
+      "sha256": "e117af9c2bea8ccf582e5930047f07101adce86b031603595d1c21e534986388",
+      "entry": 27,
+      "body_read": true,
+      "scope": "26 기본/사업용 추가 의무보험 구분;27 비상금;40 부양가족 소득대체. 최신 후보 내용과 조언 범위 일치."
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-040-bee1/publication-entry-proposal.md",
+      "sha256": "4140ff8a89c176ee64d258fcbaf1572aaa1068da965b1cd95cf2f8fec01e1f41",
+      "entry": 40,
+      "body_read": true,
+      "scope": "26 기본/사업용 추가 의무보험 구분;27 비상금;40 부양가족 소득대체. 최신 후보 내용과 조언 범위 일치."
+    }
+  ],
+  "fresh_http_performed": false,
+  "whole45_approval": false,
+  "integration_approval": false,
+  "formal_kr_fit_approval": false,
+  "preservation": "Historical/frozen/canonical/public/runs/gates/git unchanged."
+}

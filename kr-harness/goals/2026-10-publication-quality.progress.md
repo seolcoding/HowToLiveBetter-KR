@@ -188,3 +188,14 @@ root458개 gate0 쌍을 고정했고 live 작업은 이어진다. 667 원입력/
 초기 source26/27의전11/16항과도입/tail감사 완료,28→29진행. 감사JSON의cache_file+sha256 1,156건이 실제파일과 일치했다. 캐시 바이트 확인과내용승인을구분하고외부raw의보관범위도명시했다.05는현재32항exact승인·부분4재검토와남은full/intro-tail을계속한다.519pure를내용/출판승인으로세지않으며새formal은여전히1/2/3/4/18이다.
 
 fcb8576의한국어판검사·전자책CI둘다성공했고PR#7초안과원격main225ec78을확인했다.전체목표완료후최종검사·정상병합·Pages/Release실제반영까지계속한다.
+
+
+## 2026-10-18 UTC — 제5절 새 formal·585개 보존·전34절 초기감사
+
+585개 실제gate0/final SHA쌍과hold0,667원입력/항목snapshot 및 최초진단1,334파일의0차이를 보존했다. route644/23불변, pure제28절까지완료·29진행이다. 새formal완료는1/2/3/4/5/18이며 나머지절의사실/길이/문체closure를계속한다.
+
+제5절45full+intro/tail exact통합뒤 새formal의38·45항 두block을 같은원저자·독립exact승인·현재whole/entry SHA보호로해소했다. 최종CLI3876d4f07cdbc4acdad15dc27d913a5bffcfef574d66f536098801c7bf644142,block0/warn7,gatepromote완료다. 네형식빌드/EPUBCheck0·0/실제34쪽667항·검색667/웹·오프라인참조365개/390px10검사 넘침0을 새본문으로검증했다. root-05-validation.json과전후/승인/실패이력을보존한다. 05에도baseline조립을다시실행하지않는다.
+
+각주identity repair exact5파일을독립codePASS뒤운영채택했고16+35+33검사와원격CI가통과했다. runtime변경뒤13의새독립finalizer/contextgate/strict44도동일후보를재현했다.27은CDC공식원자료·독립번역승인·freshfinalizer/contextgate/strict16으로인용hold를해제했다.13/27은각각root가선택한명시registry+고정SHA+새증거폴더로만조립한다. 기존입력/00/본문/threshold/route는불변이다.
+
+34절전체초기감사도마쳤으며18은새formal로확인했다. source06부분수정승인과07/08full을병행한다. Forer원표추가확보·EASL약한수술권고예외등실제원자료대조를반영했고1,820캐시기록의바이트보관을확인했다. 초기감사·캐시·pure검사를내용/출판승인으로세지않는다. PR#7초안과main기존배포를구분하며전체목표완료후최종CI·정상병합·Pages/Release실제반영까지이어간다. 상세현재인계는 handoff.md 최신절을따른다.

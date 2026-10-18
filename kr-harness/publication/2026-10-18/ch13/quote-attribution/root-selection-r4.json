@@ -1,0 +1,88 @@
+{
+  "status": "fresh_finalizers_and_current_runtime_pinned_classified_strict_assembly_accepted",
+  "at_utc": "2026-10-18T18:24:53.485268+00:00",
+  "previous_selection": {
+    "path": "root-selection-r3.json",
+    "sha256": "88ca7fe790e20e727795283c07289c334ac370f9094faeadf39f5fda704c0fcb"
+  },
+  "registry": {
+    "path": "root-registry-r1.json",
+    "sha256": "fcaea69ba82f916d15ea8f96d26b58c53af2407dcb82f2d0e5100de78102c89c"
+  },
+  "code_adoption": {
+    "path": "../../tooling/footnote-identity-r1/ROOT-ADOPTION.json",
+    "sha256": "23b8499d5725b626374bb1c4e61bf9a1959dd6dc5eb1e76d02ce837bf338bf60"
+  },
+  "selected_assembly": {
+    "path": "../classified-assembly-r3/assembly.json",
+    "sha256": "09b020853010cf9df7ca651a077a0115987b86e923fdd84c200e5525c2ccb286",
+    "candidate_sha256": "84575a80224a341671f5b9bbeca113fdf523b14b5be108fb42c283b5efc858bc",
+    "entries": 44,
+    "candidate_unchanged": true
+  },
+  "fresh_finalizers": [
+    {
+      "entry": 24,
+      "run_dir": "_workspace/2026-10-18-024-9635",
+      "final_sha256": "0bddfb55e6a05fea4be03a053bf946d80e98b917f2cf9dd97142d42c106ea5d5",
+      "finalizer_sha256": "a35eaaed27f89430c85d6b84a50ae032c8cf672025a57f9acfac311f970a2ae7",
+      "gate_sha256": "b8fe528b7416a30c34d7018f6e3cf4d6203600375075c4b92ae2ada465d9007c",
+      "classification_context": {
+        "registry_sha256": "fcaea69ba82f916d15ea8f96d26b58c53af2407dcb82f2d0e5100de78102c89c",
+        "payload_sha256": "66df593473174757e793da0a3c62a6d6e3aeb4ee1fe5196d7e3b3a9df12f2c33",
+        "review_sha256": "f90ce7ca4554ceab917d160978b79ce86863ca189c9f08c06eff31d534b07019",
+        "original_sha256": "e35406db9b7597853b3be829d042373bf269db9070afe66e389c4cbaf0984c4c",
+        "final_body_sha256": "d109b6bfa07ecd32a092ad93342c135e3d04e4fb34d9f5bd709a83a93ca7e291",
+        "final_file_sha256": "0bddfb55e6a05fea4be03a053bf946d80e98b917f2cf9dd97142d42c106ea5d5",
+        "route": "light",
+        "original_path": "_workspace/2026-10-18-024-9635/01_input.txt",
+        "runtime_sha256": {
+          "references/baseline.json": "6b64904daa27c3f759f39a664bf8e7e6c2ea1f9dcacd6d457e97b10f60f43dc5",
+          "references/baseline_v2.json": "b5f1725bd02fb4cc40eece68c5b8f1d7c7655775743196d8fd0bc5978f2ed916",
+          "references/metrics.py": "c17ef0bbb25f24fc1695068a319d421d35e4cffd9a8c277da3ad6a30ea96b8e3",
+          "references/metrics_v2.py": "35aed83e56f8ced583e25ea08d9fbecb8baf15f8bb7f5bb14883a9f7318e374f",
+          "scripts/checks.py": "5f83f68e4acbc103ecde11e9a5c19d1015e0b514a36e9933ca10284489fa0bcc",
+          "scripts/prepare_monolith_input.py": "3774a9faecf3791057d4c8e887dd222e701d131ac1605ba4de2e76c7c064a9a2",
+          "scripts/quote_context.py": "b3689d1fc321c55bc0d1d6a5985288a34d5ea8d851c67d846321856cf4de788f",
+          "scripts/verify_gates.py": "30ab963d7c9b72cf3f395bd1279ac2e33b58d4ca8b5e099ee25da7aeb5e0c81a"
+        },
+        "protected_quote_count": 2,
+        "reviewed_quote_count": 1,
+        "excluded_quote_chars_before": 42
+      }
+    },
+    {
+      "entry": 38,
+      "run_dir": "_workspace/2026-10-18-038-eea4",
+      "final_sha256": "be2e0327308cffca0848e5efe77db1050b82534a7b1517392d3631255acf643f",
+      "finalizer_sha256": "923beb0c84fa71bfa3c8bb2f5220e80f0c09cbb2a2aa0bcd132cf20a5c943c56",
+      "gate_sha256": "b13a100de48583ebf808abdd0cdbc073f3e0fe0cf2174005e2a670ef72b81cc6",
+      "classification_context": {
+        "registry_sha256": "fcaea69ba82f916d15ea8f96d26b58c53af2407dcb82f2d0e5100de78102c89c",
+        "payload_sha256": "90ab1381c1f8cc2a3098d87d1e0c4c87e8e9c3abe04cace2e10c0c1172c88898",
+        "review_sha256": "ec3e1e18b289dd9f36f6cfde3ae53c8f4df58ebf8c33d39591a449e839b2d89d",
+        "original_sha256": "c28be01c207caeb56676cf81cd6f9f3060d49334a522179b278d147ad24c4081",
+        "final_body_sha256": "59e04574fc494ae398f3a443cefeead6bafcf0367ff51962f2f982244a765060",
+        "final_file_sha256": "be2e0327308cffca0848e5efe77db1050b82534a7b1517392d3631255acf643f",
+        "route": "light",
+        "original_path": "_workspace/2026-10-18-038-eea4/01_input.txt",
+        "runtime_sha256": {
+          "references/baseline.json": "6b64904daa27c3f759f39a664bf8e7e6c2ea1f9dcacd6d457e97b10f60f43dc5",
+          "references/baseline_v2.json": "b5f1725bd02fb4cc40eece68c5b8f1d7c7655775743196d8fd0bc5978f2ed916",
+          "references/metrics.py": "c17ef0bbb25f24fc1695068a319d421d35e4cffd9a8c277da3ad6a30ea96b8e3",
+          "references/metrics_v2.py": "35aed83e56f8ced583e25ea08d9fbecb8baf15f8bb7f5bb14883a9f7318e374f",
+          "scripts/checks.py": "5f83f68e4acbc103ecde11e9a5c19d1015e0b514a36e9933ca10284489fa0bcc",
+          "scripts/prepare_monolith_input.py": "3774a9faecf3791057d4c8e887dd222e701d131ac1605ba4de2e76c7c064a9a2",
+          "scripts/quote_context.py": "b3689d1fc321c55bc0d1d6a5985288a34d5ea8d851c67d846321856cf4de788f",
+          "scripts/verify_gates.py": "30ab963d7c9b72cf3f395bd1279ac2e33b58d4ca8b5e099ee25da7aeb5e0c81a"
+        },
+        "protected_quote_count": 1,
+        "reviewed_quote_count": 1,
+        "excluded_quote_chars_before": 28
+      }
+    }
+  ],
+  "public_book_changed": false,
+  "formal_publication_approval": false,
+  "facts_and_editorial_closure": "pending independent review"
+}

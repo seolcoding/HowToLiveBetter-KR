@@ -1,0 +1,23 @@
+{
+  "command": [
+    "python3",
+    "/workspace/HowToLiveBetter-KR/.claude/skills/humanize-korean/scripts/verify_gates.py",
+    "--before",
+    "_workspace/2026-10-18-004-a722/01_input.txt",
+    "--after",
+    "_workspace/2026-10-18-004-a722/final.md",
+    "--genre",
+    "essay",
+    "--json",
+    "--publication-manifest",
+    "manifest.json",
+    "--quote-registry",
+    "quote-attribution/root-registry-r2.json",
+    "--quote-registry-sha256",
+    "b4f694b512038d0156d9508e57dd8723100396c4d2d378b60da24842b8705f19",
+    "--classification-evidence-dir",
+    "_workspace/2026-10-18-004-a722/classification-coordinator-r2"
+  ],
+  "cwd": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch27",
+  "exit_code": 0
+}

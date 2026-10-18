@@ -1,0 +1,64 @@
+{
+  "status": "unadopted_proposal",
+  "independent_review": "pending",
+  "entry": 18,
+  "previous_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-018-5df9/publication-entry-proposal.md",
+  "previous_sha256": "453adfdb0c11c15ab706381b1a3b447eb1e15344687a8d7d58808d7fc139eb70",
+  "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-018-5df9/publication-entry-proposal-r2.md",
+  "proposal_sha256": "090e82025267510b134b321d6cc9fc60e645b7371d51da804d532b6a7b855b53",
+  "changes": [
+    {
+      "field": "비고",
+      "before": "패키지에서 흔히 쓰지만 근거가 없는 항목은 종양 표지자입니다. 전신 영상검사도 근거가 없습니다.",
+      "after": "무증상자의 종양 표지자 검진은 종류와 대상에 따라 근거를 구분해야 합니다. 전신 CT 자료만으로 PET-CT의 사망 예방 효과는 판단할 수 없습니다.",
+      "reason": "모든 종양 표지자·전신 영상의 근거가 없다는 포괄 단정을 제거. 최신 제7항의 검사·대상 구분과 전신 CT 자료로 PET-CT 사망 예방을 판단할 수 없다는 유보를 반영.",
+      "new_sentence_lengths": [
+        41,
+        41
+      ]
+    }
+  ],
+  "reference_read": {
+    "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-007-74f3/publication-entry-proposal.md",
+    "sha256": "294d0d1df3a5df8995452227b7bdf6649e87be2fd5a34b95c508925a32ce7943",
+    "level": "latest full reader-facing entry, all six fields read on 2026-10-18; no additional primary-source verification in r2",
+    "quotes": [
+      "증상 없고 고위험 유전성 암증후군이 알려지지 않은 여성 대상입니다.",
+      "CA-125와 초음파를 이용한 난소암 검사는 D등급입니다.",
+      "PET-CT를 직접 평가한 연구는 아닙니다.",
+      "이 자료만으로 PET-CT의 사망 예방 효과는 판단할 수 없습니다.",
+      "고위험군의 저선량 흉부 CT는 따로 봐야 합니다."
+    ]
+  },
+  "preservation": {
+    "section7_anchor_exact": "해당 검사는 제7항(전신 PET-CT)을 보세요.",
+    "all_other_text_exact": true,
+    "previous_proposal_unchanged": "453adfdb0c11c15ab706381b1a3b447eb1e15344687a8d7d58808d7fc139eb70",
+    "numerical_changes": [],
+    "doi_changes": [],
+    "protected_files_modified": false
+  },
+  "validation": {
+    "command": [
+      "python",
+      "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/publication-partial-review-evidence/literal_check.py",
+      "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-018-5df9/publication-entry-proposal-r2.md"
+    ],
+    "exit_code": 0,
+    "literal_result": [
+      {
+        "entry": null,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-018-5df9/publication-entry-proposal-r2.md",
+        "title_chars": 55,
+        "easy_chars": 115,
+        "easy_sentences": 4,
+        "long_sentences": [],
+        "pass_length": true
+      }
+    ],
+    "six_fields_single_physical_line": true
+  },
+  "unresolved_limitations": [
+    "r1의 원초록·국내 법령 재검증 한계는 그대로 유지합니다. r2는 최신 제7항의 독자 본문과 참조 범위를 맞추는 최소 수정입니다."
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "status": "accept",
+  "decision": "accept",
+  "accepted": true,
+  "fidelity_violations": [],
+  "fidelity_review": {
+    "entire_body_reviewed": true,
+    "facts_numbers_dates_names_quotes_negation_scope_conditions_causality": "preserved",
+    "urls": "none in either body",
+    "fields": 4,
+    "actual_body_diff": {
+      "operation": "delete",
+      "before_char_offset": 1274,
+      "text": ",",
+      "context": "건강보조식품과 의약외품은 이용권으로 살 수 없고, 의약품만 됩니다."
+    },
+    "over_editing": []
+  },
+  "body_corrections": 0,
+  "summary_updates": 1,
+  "residual_findings": [],
+  "actual_gate_exit_code": 0,
+  "actual_gate_verdict": "OK — 수렴",
+  "actual_runtime": {
+    "checks_sha256": "5f83f68e4acbc103ecde11e9a5c19d1015e0b514a36e9933ca10284489fa0bcc",
+    "command": [
+      "python",
+      ".claude/skills/humanize-korean/scripts/verify_gates.py",
+      "--before",
+      "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch27/_workspace/2026-10-18-011-303f/01_input.txt",
+      "--after",
+      "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch27/_workspace/2026-10-18-011-303f/final.md",
+      "--genre",
+      "essay",
+      "--json"
+    ],
+    "manifest_or_registry_or_classification_flags": false
+  },
+  "actual_evidence": [
+    "publication-gates.json",
+    "publication-gates.txt"
+  ],
+  "historical_warning_evidence": {
+    "immutable_files": {
+      "09_finalize.json.before-footnote-runtime-r2": "bfcbb714ab9de99d83b1087837e9e06ac5db68105d7ff8a527c74d33fadcda05",
+      "final.md.before-footnote-runtime-r2": "d417418f8df61e8218b578e88d66ccc99eaad99779d0667a432d28863dee49f1",
+      "publication-gates.json.before-footnote-runtime-r2": "72d02fa3413ddfc5900a7f2342e45bf0cd8730c960ee0ed6f68fdacbfdb79c7b",
+      "publication-gates.txt.before-footnote-runtime-r2": "74405b8a8a4a68d63baaa2b96ae9e8eeb72299a80d8806dbfb0baa62a1899aaf"
+    },
+    "note": "Historical warning evidence retained unchanged; current decision uses rerun production gate and full-body fidelity comparison."
+  },
+  "backup": "final_pre_finalize.footnote-runtime-r2.md",
+  "sha256": {
+    "input": "5a5056e82ad3b3a0b7003ef4f342976482977e59d375593a8f4e674257bc3efd",
+    "pre_finalize": "d417418f8df61e8218b578e88d66ccc99eaad99779d0667a432d28863dee49f1",
+    "final": "426310af167b5a3a799b33a58389b4a37968273542d38f6e9fc8867e887412e0",
+    "final_body_without_summary": "b07571efe42f0b719f5accf833ff37f3a7208c8efaaae56431ebc6ccdf81f0fd"
+  },
+  "summary_count": 1
+}

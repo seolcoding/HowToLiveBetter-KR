@@ -1,0 +1,77 @@
+{
+  "status": "unadopted_proposal",
+  "entry": 17,
+  "revision": "r2",
+  "independent_exact_hash_review": "pending",
+  "previous_proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-017-7757/publication-entry-proposal.md",
+  "previous_proposal_sha256": "63fb4f814948d8962bc520f1955b353d4e8075af21fe95849774dee28a09abb2",
+  "previous_changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-017-7757/publication-entry-changes.json",
+  "previous_changes_sha256": "c33e75b698003bc28297ed757a060757e0b757e4710ab5e819dbf8581867042d",
+  "proposal_sha256": "2e8992a3f32b300609a19be3a6b0d9763c45c212b5ef8af90378cbeed3b9640d",
+  "changes": [
+    {
+      "field": "비용",
+      "before": "돈은 들지 않습니다. 신분 확인부터 문진, 채혈, 휴식까지 한 시간 남짓 걸립니다. 헌혈 뒤 몸은 몇 주에 걸쳐 잃은 철을 다시 채웁니다.",
+      "after": "돈은 들지 않습니다. 신분 확인부터 문진, 채혈, 휴식까지 한 시간 남짓 걸립니다. 자주 헌혈하면 철이 부족해질 수 있습니다.",
+      "before_sentence": "헌혈 뒤 몸은 몇 주에 걸쳐 잃은 철을 다시 채웁니다.",
+      "after_sentence": "자주 헌혈하면 철이 부족해질 수 있습니다.",
+      "after_sentence_literal_chars": 23,
+      "reason": "몇 주라는 철 회복기간은 기존 실제 열람 원초록에서 확인되지 않았습니다. 수치 오기로 단정하지 않고 특정 회복기간 주장을 제거합니다. 원초록이 뒷받침하는 잦은 헌혈의 철 결핍 가능성만 남깁니다."
+    }
+  ],
+  "actual_primary_read": {
+    "date": "2026-10-18",
+    "method": "Re-read entire primary INTERVAL abstract in previously live-fetched Europe PMC core record; no full text or iron-recovery-specific study newly read.",
+    "doi": "10.1016/S0140-6736(17)31928-1",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:28941948&format=json&resultType=core",
+    "raw_path": "/tmp/ch06e17-primary/interval.json",
+    "raw_sha256": "0cac24236b7a46fb97d40379ecf139fa20634d824da8e612aa7949e5b70bb06d",
+    "exact_quote": "Over 2 years, more frequent donation than is standard practice in the UK collected substantially more blood without having a major effect on donors' quality of life, physical activity, or cognitive function, but resulted in more donation-related symptoms, deferrals, and iron deficiency.",
+    "scope": "Adults aged 18 years or older; UK donor-frequency comparison over 2 years. This abstract does not establish a universal iron recovery time after a donation.",
+    "limitation": "건강 상태·철 보충 여부에 따른 회복기간은 확인하지 않았고 독자본문에 기간을 제시하지 않습니다."
+  },
+  "unchanged_verified_content": {
+    "all_other_text_exactly_r1": true,
+    "unchanged_fields": [
+      "쉽게",
+      "이득",
+      "근거등급",
+      "출처",
+      "비고"
+    ],
+    "title_and_incoming_anchor_unchanged": true,
+    "cost_tag_exact": true,
+    "doi_additions": [],
+    "doi_removals": [],
+    "prior_verification_ledger": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-017-7757/publication-entry-changes.json",
+    "prior_limitations_retained": true
+  },
+  "checks": {
+    "command": "python kr-harness/publication/2026-10-18/ch05/publication-partial-review-evidence/literal_check.py kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-017-7757/publication-entry-proposal-r2.md",
+    "exit_code": 0,
+    "literal_result": [
+      {
+        "entry": null,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-017-7757/publication-entry-proposal-r2.md",
+        "title_chars": 51,
+        "easy_chars": 113,
+        "easy_sentences": 3,
+        "long_sentences": [],
+        "pass_length": true
+      }
+    ],
+    "six_single_physical_field_lines": true,
+    "field_order": [
+      "비용",
+      "쉽게",
+      "이득",
+      "근거등급",
+      "출처",
+      "비고"
+    ],
+    "r1_immutable_proposal_sha256": "63fb4f814948d8962bc520f1955b353d4e8075af21fe95849774dee28a09abb2",
+    "r1_immutable_changes_sha256": "c33e75b698003bc28297ed757a060757e0b757e4710ab5e819dbf8581867042d",
+    "no_self_approval": true,
+    "no_publication": true
+  }
+}

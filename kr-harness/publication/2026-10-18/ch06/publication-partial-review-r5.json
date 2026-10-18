@@ -1,0 +1,544 @@
+{
+  "chapter": 6,
+  "status": "completed_exact_partial_review_r5",
+  "manifest_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/author-partial-manifest-5.json",
+  "manifest_sha256": "fcad04f7939dfe7c09e2d1bfec9aa27ade445a1118a355cf67f9e97552c626cd",
+  "entries": [
+    {
+      "entry": 15,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-015-821a/publication-entry-proposal.md",
+      "proposal_sha256": "a27df454f759998053ce9283b8e93f2ded99e2d3a6e71d185442936a3a1928ef",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-015-821a/publication-entry-changes.json",
+      "changes_sha256": "c65063bea29c79f1bbbe8273b63d309a50e9332dc01f1c907bcd48dabd79f9f4",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-015-821a/strict-entry.md",
+      "base_strict_entry_sha256": "2a78a051c54b7921c963544e7c33564d8e965964fc3c49a8040dff8c99c12ba8",
+      "literal_exit_code": 0,
+      "decision": "revise",
+      "all_four_complete_fields_read": true,
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "snapshot_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-015-821a/entry_snapshot.md",
+      "snapshot_sha256": "2a78a051c54b7921c963544e7c33564d8e965964fc3c49a8040dff8c99c12ba8",
+      "strict_candidate_contains_exact_base": true,
+      "length_check": {
+        "entry": 15,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-015-821a/publication-entry-proposal.md",
+        "title_chars": 31,
+        "easy_chars": 115,
+        "easy_sentences": 4,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "number": true,
+        "six_labels": true,
+        "tags": true,
+        "grade": true
+      },
+      "production_layout_check": true,
+      "initial_canonical_entry": {
+        "entry": 15,
+        "baseline_entry_sha256": "2a78a051c54b7921c963544e7c33564d8e965964fc3c49a8040dff8c99c12ba8",
+        "findings": [],
+        "candidate_review": "pending",
+        "snapshot_path": "_workspace/2026-10-18-015-821a/entry_snapshot.md",
+        "manifest_entry_sha256": "2a78a051c54b7921c963544e7c33564d8e965964fc3c49a8040dff8c99c12ba8",
+        "snapshot_sha_matches_manifest": true
+      },
+      "finding_closure": "Carlson 원PDF 표2의 이미지와 해당방법/결과를 직접 읽어116회40적중/표인쇄무작위38.5·예상58.5를 확인했다.116/3≈38.67·116/2=58과 인쇄표차이를 독자에 명시했다. 형법347/350의 사기/공갈 조건부 안내와 부합한다. Forer 원표는 원저자도미열람이며 독립HTTPS4경로404로39명/평점분포/34명/평균부재 확인이 아직 완료되지 않았다. 제시분포를 가정하면166/39≈4.26 산술은맞으나 원자료확인은아니다. 원표가틀렸다는 판정이 아니라 source-verification pending이다. 독자미확인표시를 지우거나 단지미열람만으로사실삭제를요청하지 않는다.",
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "revision_requests": [
+        {
+          "classification": "independent_source_verification_pending_not_factual_error",
+          "field": "Forer 수치/원표",
+          "required": "원표 접근이 가능해지면 독립 보완 검증. 현재 미확인 독자표시를 유지하며 확인성공으로 세지 말 것. 미열람만으로 원사실 삭제를 요구하지 않음.",
+          "actual_attempts_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch06-partial-review/forer-attempts.json",
+          "claim_remaining": "39명·2/3/4/5점1/4/18/16명·34명4또는5·원표평균부재"
+        }
+      ]
+    },
+    {
+      "entry": 16,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-016-6849/publication-entry-proposal.md",
+      "proposal_sha256": "c803e6e70f875f1a02848ab9953fa801854cd934045b76c3c08261e001fded7b",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-016-6849/publication-entry-changes.json",
+      "changes_sha256": "14b016b65e9d4ff116af466606c73736fb4965a7c3c24b60141563ea6f37b1f2",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-016-6849/strict-entry.md",
+      "base_strict_entry_sha256": "208562cf37bdfd8e1a9fa273fcf6699ed404e9b10e7095ef09df029668ba620c",
+      "literal_exit_code": 0,
+      "decision": "approve",
+      "all_four_complete_fields_read": true,
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "snapshot_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-016-6849/entry_snapshot.md",
+      "snapshot_sha256": "3bc480f7b93766d02fc28c3f42f6ae3f623f640126b4d94215aef8743e68aa7b",
+      "strict_candidate_contains_exact_base": true,
+      "length_check": {
+        "entry": 16,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-016-6849/publication-entry-proposal.md",
+        "title_chars": 50,
+        "easy_chars": 101,
+        "easy_sentences": 4,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "number": true,
+        "six_labels": true,
+        "tags": true,
+        "grade": true
+      },
+      "production_layout_check": true,
+      "initial_canonical_entry": {
+        "entry": 16,
+        "baseline_entry_sha256": "3bc480f7b93766d02fc28c3f42f6ae3f623f640126b4d94215aef8743e68aa7b",
+        "findings": [
+          {
+            "severity": "block",
+            "field": "비고",
+            "before_excerpt": "며칠 사이에 시신경이 손상될 수 있습니다.",
+            "request": "급성 눈통증·충혈·시력저하·두통·구역은 즉시 응급진료로 명확히 쓰세요. 단순 화면피로와 강한 빛의 손상, 급성녹내장 메커니즘에는 현재 인용한 렌즈 고찰 외 직접 의학 근거가 필요합니다. 레이저/자외선/아크광을 모두 영구손상으로 일률 단정하지 마세요.",
+            "evidence_key": "10.1002/14651858.CD013244.pub2"
+          }
+        ],
+        "candidate_review": "pending",
+        "snapshot_path": "_workspace/2026-10-18-016-6849/entry_snapshot.md",
+        "manifest_entry_sha256": "3bc480f7b93766d02fc28c3f42f6ae3f623f640126b4d94215aef8743e68aa7b",
+        "snapshot_sha_matches_manifest": true
+      },
+      "finding_closure": "렌즈Cochrane 원초록전체와NHS녹내장/NEI안구건조/CCOHS용접광 실제페이지를 직접 읽었다.17시험5~156명/하루미만~5주/합산안함/눈피로MD9.76CI−33.95~53.47/시력0logMARCI−.02~.02/156명/각성42명/황반미측정이 맞다. 낮음/중간/매우낮음확실성을 구분했고 수면/눈속보호효과를 확정하지 않았다. 갑작스런통증·충혈·시력저하/무지개·두통·구역은즉시응급,50세이상/원시위험,심한건조미치료각막손상,강한UV몇초아크안염/보호구를 각공식페이지와 대조해 초기block을해소했다. 레이저 별도자료미접근은 모든광원영구손상 주장으로 바꾸지 않았고 개인전방평가/화면발작원인미확인 제한을 유지했다.",
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "revision_requests": [],
+      "proposed_root_operation": {
+        "type": "replace_complete_strict_entry_body",
+        "before_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-016-6849/strict-entry.md",
+        "before_entire_entry_sha256": "208562cf37bdfd8e1a9fa273fcf6699ed404e9b10e7095ef09df029668ba620c",
+        "after_proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-016-6849/publication-entry-proposal.md",
+        "after_original_proposal_sha256": "c803e6e70f875f1a02848ab9953fa801854cd934045b76c3c08261e001fded7b",
+        "effective_after_sha256": "c803e6e70f875f1a02848ab9953fa801854cd934045b76c3c08261e001fded7b",
+        "effective_after_rule": "proposal.rstrip()+original strict entry trailing whitespace; preserve original separators",
+        "supersession": "Latest approved full replaces any initial field/older full once.",
+        "integration_authorized": false
+      }
+    },
+    {
+      "entry": 17,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-017-7757/publication-entry-proposal.md",
+      "proposal_sha256": "63fb4f814948d8962bc520f1955b353d4e8075af21fe95849774dee28a09abb2",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-017-7757/publication-entry-changes.json",
+      "changes_sha256": "c33e75b698003bc28297ed757a060757e0b757e4710ab5e819dbf8581867042d",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-017-7757/strict-entry.md",
+      "base_strict_entry_sha256": "e8d42bb69d5f447bb2400d98d3ea0b50ed77dcdc8fc62efe1743989e7283fff3",
+      "literal_exit_code": 0,
+      "decision": "revise",
+      "all_four_complete_fields_read": true,
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "snapshot_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-017-7757/entry_snapshot.md",
+      "snapshot_sha256": "e8d42bb69d5f447bb2400d98d3ea0b50ed77dcdc8fc62efe1743989e7283fff3",
+      "strict_candidate_contains_exact_base": true,
+      "length_check": {
+        "entry": 17,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-017-7757/publication-entry-proposal.md",
+        "title_chars": 51,
+        "easy_chars": 113,
+        "easy_sentences": 3,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "number": true,
+        "six_labels": true,
+        "tags": true,
+        "grade": true
+      },
+      "production_layout_check": true,
+      "initial_canonical_entry": {
+        "entry": 17,
+        "baseline_entry_sha256": "e8d42bb69d5f447bb2400d98d3ea0b50ed77dcdc8fc62efe1743989e7283fff3",
+        "findings": [],
+        "candidate_review": "pending",
+        "snapshot_path": "_workspace/2026-10-18-017-7757/entry_snapshot.md",
+        "manifest_entry_sha256": "e8d42bb69d5f447bb2400d98d3ea0b50ed77dcdc8fc62efe1743989e7283fff3",
+        "snapshot_sha_matches_manifest": true
+      },
+      "finding_closure": "Salonen/SCANDAT/FeAST/INTERVAL/Beard 원초록전체·적십자실제기준/증서페이지·혈액관리법14전체를 직접읽었다.2862 대집단153+2529의180차이를설명미확인으로한정하고HR.12/18.6→7.5보정연관/FeAST1277및사망125대148·HR.85/복합180대205·.88/INTERVAL45263·8~12/12~16주·남자1.69단위·부작용/Beard빈혈10·철고갈8·대조12/28℃100분·각온도/산소소비·P가맞다. 빈혈없는철고갈반응은대조와유사하므로추위는빈혈조건에한정했다. 적십자연령/체중/8주/연5회·연량예외와증서본인부담면제도맞다. 다만 비용의철회복몇주는 읽은초록/표에서확인되지 않아별도근거·범위보완이필요하다.",
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "revision_requests": [
+        {
+          "field": "비용",
+          "exact_span": "헌혈 뒤 몸은 몇 주에 걸쳐 잃은 철을 다시 채웁니다.",
+          "classification": "source_scope_incomplete_not_proven_false",
+          "required": "철회복기간의 실제1차근거/집단·철보충조건을 제공하거나 특정기간확정을 피할 것. INTERVAL의 간격단축과 철결핍은 단일헌혈후회복기간의 직접근거가 아님."
+        }
+      ]
+    },
+    {
+      "entry": 18,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-018-5df9/publication-entry-proposal.md",
+      "proposal_sha256": "453adfdb0c11c15ab706381b1a3b447eb1e15344687a8d7d58808d7fc139eb70",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-018-5df9/publication-entry-changes.json",
+      "changes_sha256": "809b9c8096eea7fa44985bb2bffe5754a8cb3f18eaf8b135b1fc6f569bc13b1a",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-018-5df9/strict-entry.md",
+      "base_strict_entry_sha256": "d85b35ec6acaa07e2470a6f5aefff9d96d76f10336ea7a1874b9c2e336e04544",
+      "literal_exit_code": 0,
+      "decision": "revise",
+      "all_four_complete_fields_read": true,
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "snapshot_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-018-5df9/entry_snapshot.md",
+      "snapshot_sha256": "d85b35ec6acaa07e2470a6f5aefff9d96d76f10336ea7a1874b9c2e336e04544",
+      "strict_candidate_contains_exact_base": true,
+      "length_check": {
+        "entry": 18,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-018-5df9/publication-entry-proposal.md",
+        "title_chars": 55,
+        "easy_chars": 115,
+        "easy_sentences": 4,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "number": true,
+        "six_labels": true,
+        "tags": true,
+        "grade": true
+      },
+      "production_layout_check": true,
+      "initial_canonical_entry": {
+        "entry": 18,
+        "baseline_entry_sha256": "d85b35ec6acaa07e2470a6f5aefff9d96d76f10336ea7a1874b9c2e336e04544",
+        "findings": [],
+        "candidate_review": "pending",
+        "snapshot_path": "_workspace/2026-10-18-018-5df9/entry_snapshot.md",
+        "manifest_entry_sha256": "d85b35ec6acaa07e2470a6f5aefff9d96d76f10336ea7a1874b9c2e336e04544",
+        "snapshot_sha_matches_manifest": true
+      },
+      "finding_closure": "Cochrane 원초록전체·NRC국가검진실제대상/주기/공통항목/6암종표와 신선HTTPS 국가암정보센터 본문·암관리법20260331시행11전체를 직접읽었다.17시험중전체사망11/233298/21535·RR1.00CI.97–1.03,CVD9/170227/6237·1.05CI.94–1.16,암8/139290/3663·1.01CI.92–1.12가맞다. 비선별성인/노인시험제외·고소득의료접근제한을 보존한다. 한국검진대상·주기·기본항목/암연령표,수면내시경·헬리코박터추가비본인부담 및법11④비용전부또는일부지원재량이일치한다. 다만 전신영상모두근거없음은 최신7의CT후향/PET사망예방판단불가 범위를다시확대한참조이므로revise.",
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "revision_requests": [
+        {
+          "field": "비고",
+          "exact_span": "전신 영상검사도 근거가 없습니다.",
+          "classification": "confirmed_reference_scope_overgeneralization",
+          "required": "무증상검진/검사종류·평가결과를 한정하거나 최신7의CT후향·PET사망예방판단불가 유보를 보존. 검진일반회피로확대하지말것."
+        }
+      ]
+    }
+  ],
+  "approved_entries": [
+    16
+  ],
+  "revise_entries": [
+    15,
+    17,
+    18
+  ],
+  "actual_primary_readings": [
+    {
+      "artifact_path": "/tmp/ch06e15/carlson.raw",
+      "artifact_sha256": "8e0caec4419776dd0b6904bab890960b1da35bf064967fb4aac9452995fb38dd",
+      "url": "https://muller.lbl.gov/papers/Astrology-Carlson.pdf",
+      "read_at_utc": "2026-10-18T18:29:39.924659+00:00",
+      "read_scope": "Printedpage423table2 visualimage read;correspondingmatchingmethod/results;not all subsequent debates",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/tmp/ch06e15/page-5.png",
+      "artifact_sha256": "24092d6575ed6a5da1c0fe71fd8d1543c0b9812b776c8e58548fa7faa5d285aa",
+      "url": "https://muller.lbl.gov/papers/Astrology-Carlson.pdf",
+      "read_at_utc": "2026-10-18T18:29:39.929706+00:00",
+      "read_scope": "Rendered originaltable2 directly viewed;116/40/38.5/58.5",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/573f6471c57338f53ce0.json",
+      "artifact_sha256": "6e2ee5fed190d38122aee3a24f83dec95c44b39df202ca2c3c1b70709578d141",
+      "url": "https://doi.org/10.1002/14651858.CD013244.pub2",
+      "read_at_utc": "2026-10-18T18:29:39.929805+00:00",
+      "read_scope": "Complete original abstract;not fulltext/correction notice",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/tmp/ch06e16-evidence/glaucoma.html",
+      "artifact_sha256": "5cebe2e153077d88a70690b7d5df6df21c0e66473ab4e6db0b612756663c7c7a",
+      "url": "https://www.nhs.uk/conditions/glaucoma/",
+      "read_at_utc": "2026-10-18T18:29:39.929918+00:00",
+      "read_scope": "Sudden symptoms/emergency advice/over50+refractive risk",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/tmp/ch06e16-evidence/dryeye.html",
+      "artifact_sha256": "068e24d3e94e02fe141bc17255f8beb6364f0439c40696732905ddc4286d690e",
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/dry-eye",
+      "read_at_utc": "2026-10-18T18:29:39.930088+00:00",
+      "read_scope": "Screen-associated dryness/severe untreated corneal damage/treatment and screen breaks",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/tmp/ch06e16-evidence/welding.html",
+      "artifact_sha256": "19510e041f8e1f86b3aff783b5ca1901cbb317493dc4db4fda7c2ab593751aed",
+      "url": "https://www.ccohs.ca/oshanswers/safety_haz/welding/eyes.html",
+      "read_at_utc": "2026-10-18T18:29:39.930205+00:00",
+      "read_scope": "IntenseUVfewseconds/arceye;duration/type/strength and eyeprotection distinctions",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/tmp/ch06e17-primary/0.json",
+      "artifact_sha256": "c821542aea2a994828d42404ed27473e128eec7a7d055fc74c3b74d92f9357c6",
+      "url": "https://doi.org/10.1093/oxfordjournals.aje.a009669",
+      "read_at_utc": "2026-10-18T18:29:39.930234+00:00",
+      "read_scope": "Complete original abstract inclpopulation/denominators/duration/endpoints/numerical results/limitations",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/tmp/ch06e17-primary/1.json",
+      "artifact_sha256": "360d1c6a539c523ed47d7d6680632a9357b25c299fa0eed2ad98b4c57799173f",
+      "url": "https://doi.org/10.1111/trf.13205",
+      "read_at_utc": "2026-10-18T18:29:39.932232+00:00",
+      "read_scope": "Complete original abstract inclpopulation/denominators/duration/endpoints/numerical results/limitations",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/tmp/ch06e17-primary/2.json",
+      "artifact_sha256": "a69e354b4ba3f773cca02340079c3db4fd6e12ed902eb25723ef3a804fdd2bdb",
+      "url": "https://doi.org/10.1001/jama.297.6.603",
+      "read_at_utc": "2026-10-18T18:29:39.932276+00:00",
+      "read_scope": "Complete original abstract inclpopulation/denominators/duration/endpoints/numerical results/limitations",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/tmp/ch06e17-primary/interval.json",
+      "artifact_sha256": "0cac24236b7a46fb97d40379ecf139fa20634d824da8e612aa7949e5b70bb06d",
+      "url": "https://doi.org/10.1016/S0140-6736(17)31928-1",
+      "read_at_utc": "2026-10-18T18:29:39.932324+00:00",
+      "read_scope": "Complete original abstract inclpopulation/denominators/duration/endpoints/numerical results/limitations",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/tmp/ch06e17-primary/4.json",
+      "artifact_sha256": "3923e9b9da27a07573a92a4d497320e2998e6ac0aca2060312a16843394ebafb",
+      "url": "https://doi.org/10.1093/ajcn/52.5.813",
+      "read_at_utc": "2026-10-18T18:29:39.932364+00:00",
+      "read_scope": "Complete original abstract inclpopulation/denominators/duration/endpoints/numerical results/limitations",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/tmp/ch06e17-primary/criteria.html",
+      "artifact_sha256": "756ddb2a138e8b6efbf97f2b7d8b7a63d0071777fb0578a4f93221ca96bdd9b1",
+      "url": "https://www.bloodinfo.net/knrcbs/cm/cntnts/cntntsView.do?mi=1048&cntntsId=1124",
+      "read_at_utc": "2026-10-18T18:29:39.932492+00:00",
+      "read_scope": "Actualwholeblood320/400age/weight/65priorhistory/8weeks/5timesyear/annualvolumeexception",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/tmp/ch06e17-primary/certificate.html",
+      "artifact_sha256": "74934f0f47007c475b5366602fdf2ac5d37dd3b956b2612136a5c8080539fcd4",
+      "url": "https://www.bloodinfo.net/knrcbs/cm/cntnts/cntntsView.do?mi=1142&cntntsId=1022",
+      "read_at_utc": "2026-10-18T18:29:39.932571+00:00",
+      "read_scope": "Actual certificate provision and transfusion copayment waiver",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/238113.xml",
+      "artifact_sha256": "953f96897c88abb6c41b65cc8b591365237217b3ddbb8c19f8b728410f1d2cc2",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=238113&type=XML",
+      "read_at_utc": "2026-10-18T18:29:39.932696+00:00",
+      "read_scope": "Bloodmanagementlaw14complete inclinvalidreissuedcertificateexception;version20230622,not blanket currentlaw audit",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/4ec8fef72bc40fc44bd6.json",
+      "artifact_sha256": "ced618db16e1d331ae65fd0c1ba4ee36fd6989cef7e76ae558db6544f7f4350e",
+      "url": "https://doi.org/10.1002/14651858.CD009009.pub3",
+      "read_at_utc": "2026-10-18T18:29:39.932726+00:00",
+      "read_scope": "Complete original abstract;all numerical pooled endpoints and unselectedadult/excludedgeriatric methods",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch06-audit/nrc.raw",
+      "artifact_sha256": "ea5b36558bbc4e0ba3cd6856d70973b09bbba11092a5015f3cc6771e16cd1b31",
+      "url": "https://www.nrc.go.kr/checkup/html/content.do?depth=nc&menu_cd=03_01_01",
+      "read_at_utc": "2026-10-18T18:29:39.932806+00:00",
+      "read_scope": "Actualeligibility/period/commonitem/age-sex/cancer screening tables",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=law&type=XML&query=%EC%95%94%EA%B4%80%EB%A6%AC%EB%B2%95&display=5&nw=1",
+      "requested_at_utc": "2026-10-18T18:26:55.568698+00:00",
+      "tls_verification": true,
+      "http_status": 200,
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch06-partial-review/screening-94739594d399.raw",
+      "sha256": "5b3b81275e1eb23e83e4881d17453aa0b254f93ae7a6e0c45dd7bed7927fb3b4",
+      "bytes": 2683,
+      "artifact_sha256": "5b3b81275e1eb23e83e4881d17453aa0b254f93ae7a6e0c45dd7bed7927fb3b4",
+      "fresh_http": true,
+      "read_scope": "Search resulttitle/MSTmetadata only;not lawtext"
+    },
+    {
+      "url": "https://www.cancer.go.kr/lay1/S1T261C262/contents.do",
+      "requested_at_utc": "2026-10-18T18:26:55.569386+00:00",
+      "tls_verification": true,
+      "http_status": 200,
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch06-partial-review/screening-7cf98da430d9.raw",
+      "sha256": "198e3eec4412a2678fc77bcbdf0b63bebb82d9b2439fd4ee3f0ccda18bfa1e6f",
+      "bytes": 113318,
+      "artifact_sha256": "198e3eec4412a2678fc77bcbdf0b63bebb82d9b2439fd4ee3f0ccda18bfa1e6f",
+      "fresh_http": true,
+      "read_scope": "Actualpage screening/costparagraphs inclsedation/Hpylori extras"
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=281931&type=XML&efYd=20260331",
+      "requested_at_utc": "2026-10-18T18:27:30.892392+00:00",
+      "tls_verification": true,
+      "http_status": 200,
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch06-partial-review/cancer-law-281931.raw",
+      "sha256": "98771b99905229cc444088ad19a821f6162923eeb202670eb2be2600c8f5fe34",
+      "artifact_sha256": "98771b99905229cc444088ad19a821f6162923eeb202670eb2be2600c8f5fe34",
+      "fresh_http": true,
+      "read_scope": "ActualstatutoryXML11complete/effective20260331 inclcostsupport④"
+    }
+  ],
+  "prior_actual_reading_reuse": [],
+  "cross_reference_review": [
+    {
+      "source_entry": 18,
+      "target_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-007-74f3/publication-entry-proposal.md",
+      "target_sha256": "294d0d1df3a5df8995452227b7bdf6649e87be2fd5a34b95c508925a32ce7943",
+      "decision": "revise",
+      "scope": "Target gives CTretrospective findings andcannotdeterminePETmortalityeffect;doesnotestablishallwholebodyimagingnoevidence."
+    },
+    {
+      "source_entry": 16,
+      "target_path": "/workspace/HowToLiveBetter-KR/book-kr/13-응급상황.md",
+      "file_sha256": "e3f9b030a63bf8d1a0141933d095be573e9db6c49c439c4da6396292ff0e9cc6",
+      "read_scope": "Actualspecific emergencyglaucoma / workplacePPE / childmyopiaoutdoor+cycloplegia topic paragraphs. Targetcrossref only;not wholechapterprimaryapproval.",
+      "scope_alignment": true
+    },
+    {
+      "source_entry": 16,
+      "target_path": "/workspace/HowToLiveBetter-KR/book-kr/19-재직-퇴사-산재.md",
+      "file_sha256": "3e644d50e218cc04049177fa5a6ff81785f657f1eb9f5cbd68a61c6d7057fb3d",
+      "read_scope": "Actualspecific emergencyglaucoma / workplacePPE / childmyopiaoutdoor+cycloplegia topic paragraphs. Targetcrossref only;not wholechapterprimaryapproval.",
+      "scope_alignment": true
+    },
+    {
+      "source_entry": 16,
+      "target_path": "/workspace/HowToLiveBetter-KR/book-kr/30-학교-다니는-아이.md",
+      "file_sha256": "fcf4091d1dde978fddec620fc51f04e531fa5aa907b32e246f2e56aeccc52615",
+      "read_scope": "Actualspecific emergencyglaucoma / workplacePPE / childmyopiaoutdoor+cycloplegia topic paragraphs. Targetcrossref only;not wholechapterprimaryapproval.",
+      "scope_alignment": true
+    }
+  ],
+  "production_helper_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/scripts/humanize_publication.py",
+  "production_helper_sha256": "244c194c7620c3095dc3a972eecdaa4e17fab8a0a301ae8b601cb8401569bfd3",
+  "helper_code_modified": false,
+  "fresh_http_performed": true,
+  "whole29_approval": false,
+  "integration_approval": false,
+  "formal_kr_fit_approval": false,
+  "preservation": "Prior reviews/frozen proposals/canonical/public/runs/gates/git unchanged.",
+  "fresh_access_failures": [
+    {
+      "url": "https://psych.fullerton.edu/mbirnbaum/psych101/forer.pdf",
+      "requested_at_utc": "2026-10-18T18:24:42.402626+00:00",
+      "tls_verification": true,
+      "status": "access_failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.sakkyndig.com/psykologi/artvit/forer1949.pdf",
+      "requested_at_utc": "2026-10-18T18:24:42.403342+00:00",
+      "tls_verification": true,
+      "status": "access_failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://psych.fullerton.edu/mbirnbaum/psych101/Forer.pdf",
+      "requested_at_utc": "2026-10-18T18:26:03.456061+00:00",
+      "tls_verification": true,
+      "status": "access_failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://psychclassics.yorku.ca/Forer/",
+      "requested_at_utc": "2026-10-18T18:26:03.456678+00:00",
+      "tls_verification": true,
+      "status": "access_failed",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "classification15": "Pending independent primary-table completion, not established factual error; do not convert access failure into content rejection."
+}

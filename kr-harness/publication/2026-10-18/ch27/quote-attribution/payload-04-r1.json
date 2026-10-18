@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "original": {
+    "path": "_workspace/2026-10-18-004-a722/01_input.txt",
+    "sha256": "076d81ff359bf1030cc1f883fec3995d28c64a176106d997f341fd8a0946cdfe",
+    "byte_length": 1963
+  },
+  "final_body": {
+    "sha256": "dfc485bcc7181184b9205391b67c0d5c6df5be383f4d8dd6e1cdba96cf0e3796",
+    "byte_length": 1961
+  },
+  "quotations": [
+    {
+      "occurrence": {
+        "field": "이득",
+        "ordinal": 4,
+        "opening": {
+          "start": 1175,
+          "end": 1176,
+          "sha256": "8a331fdde7032f33a71e1b2e257d80166e348e00fcb17914f48bdb57a1c63007"
+        },
+        "content": {
+          "start": 1176,
+          "end": 1271,
+          "sha256": "cfdc959661e785a9a6516b622e9e4df423f129e91e1a842ecaaf3cf4b283cf08"
+        },
+        "closing": {
+          "start": 1271,
+          "end": 1272,
+          "sha256": "8a331fdde7032f33a71e1b2e257d80166e348e00fcb17914f48bdb57a1c63007"
+        }
+      },
+      "source_anchor": {
+        "start": 1168,
+        "end": 1175,
+        "sha256": "d467a93ebda31eeeff7a2c54cf624625dab0bc23d4b5eb784e78e94e3085711c"
+      },
+      "source": {
+        "url": "https://www.cdc.gov/tobacco/campaign/tips/diseases/pregnancy.html",
+        "artifact": {
+          "path": "quote-attribution/source-review/cdc-pregnancy-r1.raw.html",
+          "sha256": "a6c3a243747f11254a73359201c92ec58c2b3932f5a51e03e821b7ae8aeea5bf"
+        },
+        "artifact_byte_length": 118427,
+        "excerpt": {
+          "start": 25283,
+          "end": 25429,
+          "sha256": "d4c2892ad8afcf38580445aa30cc9b84a46b6f71a0cb758a9d2dd7fde86a460b"
+        },
+        "language": "en",
+        "rendering": "reviewed_translation"
+      }
+    }
+  ]
+}

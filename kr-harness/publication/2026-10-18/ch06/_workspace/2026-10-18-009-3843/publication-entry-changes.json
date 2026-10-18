@@ -1,0 +1,194 @@
+{
+  "status": "unadopted_proposal",
+  "entry": 9,
+  "basis": "strict-entry.md",
+  "basis_sha256": "5b0e3c46416265f2e5022354aa2c6405cb74023fcc0cc3934233c15ebb889ecf",
+  "verification": {
+    "date": "2026-10-18",
+    "method": "Europe PMC core API를 통한 원논문 초록 전체 직접 열람. 전문은 미열람. 연결된 정정 2건은 서지 존재만 확인; 검색으로 정정 본문은 찾지 못함.",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.7326/0003-4819-157-5-201209040-00007&format=json&resultType=core",
+    "raw_path": "/tmp/ch06e09-primary.json",
+    "raw_sha256": "104a5805196d6f4911be7e5aa281d24aa51908b93b31cde8d4ebb553d52895bd",
+    "exact_primary_quotes": [
+      "<h4>Background</h4>The health benefits of organic foods are unclear.<h4>Purpose</h4>To review evidence comparing the health effects of organic and conventional foods.<h4>Data sources</h4>MEDLINE (January 1966 to May 2011), EMBASE, CAB Direct, Agricola, TOXNET, Cochrane Library (January 1966 to May 2009), and bibliographies of retrieved articles.<h4>Study selection</h4>English-language reports of comparisons of organically and conventionally grown food or of populations consuming these foods.<h4>Data extraction</h4>2 independent investigators extracted data on methods, health outcomes, and nutrient and contaminant levels.<h4>Data synthesis</h4>17 studies in humans and 223 studies of nutrient and contaminant levels in foods met inclusion criteria. Only 3 of the human studies examined clinical outcomes, finding no significant differences between populations by food type for allergic outcomes (eczema, wheeze, atopic sensitization) or symptomatic Campylobacter infection. Two studies reported significantly lower urinary pesticide levels among children consuming organic versus conventional diets, but studies of biomarker and nutrient levels in serum, urine, breast milk, and semen in adults did not identify clinically meaningful differences. All estimates of differences in nutrient and contaminant levels in foods were highly heterogeneous except for the estimate for phosphorus; phosphorus levels were significantly higher than in conventional produce, although this difference is not clinically significant. The risk for contamination with detectable pesticide residues was lower among organic than conventional produce (risk difference, 30% [CI, -37% to -23%]), but differences in risk for exceeding maximum allowed limits were small. Escherichia coli contamination risk did not differ between organic and conventional produce. Bacterial contamination of retail chicken and pork was common but unrelated to farming method. However, the risk for isolating bacteria resistant to 3 or more antibiotics was higher in conventional than in organic chicken and pork (risk difference, 33% [CI, 21% to 45%]).<h4>Limitation</h4>Studies were heterogeneous and limited in number, and publication bias may be present.<h4>Conclusion</h4>The published literature lacks strong evidence that organic foods are significantly more nutritious than conventional foods. Consumption of organic foods may reduce exposure to pesticide residues and antibiotic-resistant bacteria.<h4>Primary funding source</h4>None."
+    ],
+    "correction_records": {
+      "commentCorrection": [
+        {
+          "source": "MED",
+          "reference": "Ann Intern Med. 2012 Nov 6;157(9):680",
+          "type": "Erratum in",
+          "orderIn": 1
+        },
+        {
+          "source": "MED",
+          "reference": "Ann Intern Med. 2012 Oct 2;157(7):532",
+          "type": "Erratum in",
+          "orderIn": 2
+        },
+        {
+          "source": "MED",
+          "id": "23420241",
+          "reference": "Ann Intern Med. 2013 Feb 19;158(4):295. doi: 10.7326/0003-4819-158-4-201302190-00014.",
+          "type": "Comment in",
+          "orderIn": 3
+        },
+        {
+          "source": "MED",
+          "id": "23420242",
+          "reference": "Ann Intern Med. 2013 Feb 19;158(4):295-6. doi: 10.7326/0003-4819-158-4-201302190-00015.",
+          "type": "Comment in",
+          "orderIn": 4
+        },
+        {
+          "source": "MED",
+          "id": "23420243",
+          "reference": "Ann Intern Med. 2013 Feb 19;158(4):296. doi: 10.7326/0003-4819-158-4-201302190-00016.",
+          "type": "Comment in",
+          "orderIn": 5
+        },
+        {
+          "source": "MED",
+          "id": "23420244",
+          "reference": "Ann Intern Med. 2013 Feb 19;158(4):296-7. doi: 10.7326/0003-4819-158-4-201302190-00017.",
+          "type": "Comment in",
+          "orderIn": 6
+        },
+        {
+          "source": "MED",
+          "id": "23420245",
+          "reference": "Ann Intern Med. 2013 Feb 19;158(4):297. doi: 10.7326/0003-4819-158-4-201302190-00018.",
+          "type": "Comment in",
+          "orderIn": 7
+        },
+        {
+          "source": "MED",
+          "id": "23420246",
+          "reference": "Ann Intern Med. 2013 Feb 19;158(4):297-300. doi: 10.7326/0003-4819-158-4-201302190-00019.",
+          "type": "Comment in",
+          "orderIn": 8
+        }
+      ]
+    },
+    "attempt_raw_paths": [
+      "/tmp/ch06e09-erratum0.json",
+      "/tmp/ch06e09-erratum1.json",
+      "/tmp/ch06e09-corrections.json"
+    ]
+  },
+  "fields": [
+    {
+      "field": "비용",
+      "before": "같은 종류의 일반 식품 가격의 1~3배입니다.",
+      "after": "한국에서 일반 식품 대비 가격이 얼마나 높은지는 확인하지 못했습니다.",
+      "reason": "한국 1~3배 가격 근거 미확인. 새로운 정성 가격 단정도 피하고 확인 범위를 독자에게 명시."
+    },
+    {
+      "field": "쉽게",
+      "before": "유기농이 더 영양가 있다는 확실한 근거는 없습니다. 사람이 먹은 뒤 건강을 직접 살핀 연구는 3건뿐입니다. 이 연구들에서는 건강 차이가 없었습니다. 유기농 농산물에서 농약이 검출되는 비율은 30퍼센트포인트 낮습니다. 다만 농약 검출이 곧 기준 초과를 뜻하지는 않습니다. 채소와 과일을 많이 먹으면 건강에 도움이 됩니다. 유기농 여부는 그 효과에 영향을 주지 않습니다.",
+      "after": "유기농이 더 영양가 있다는 확실한 근거는 없습니다. 건강을 살핀 자료에서는 뚜렷한 차이를 찾지 못했습니다. 자료가 적어 이롭지 않다고 단정할 수도 없습니다.",
+      "reason": "120자 초과 축약. 표본수와 설계 설명 없이 영양 우월성 부족 및 건강 차이 비검출과 자료 부족 유지."
+    },
+    {
+      "field": "이득",
+      "before": "체계적 문헌고찰 한 편에서 사람 대상 연구 17건을 검토했습니다. 식품 성분을 측정한 연구 223건도 포함했습니다. 유기농이 일반 식품보다 더 영양가 있다는 강한 근거는 부족했습니다. 먹은 뒤 건강을 직접 살핀 연구는 이 중 3건뿐입니다. 알레르기와 증상이 있는 감염을 살폈습니다. 유기농과 일반 식품을 먹은 사람 사이에 차이가 없었습니다. 유기농 농산물의 농약 검출 비율은 30퍼센트포인트 낮습니다. 다만 농약 검출이 곧 기준 초과를 뜻하지는 않습니다. 농약이 없으면 더 안전하다는 추론입니다. 여기서 더 안전하면 더 건강하다고 추론합니다. 각 단계가 상식처럼 들려 가성비가 좋아 보입니다.",
+      "after": "체계적 문헌고찰 한 편에서 사람 대상 연구 17건을 검토했습니다. 식품 성분을 측정한 연구 223건도 포함했습니다. 유기농이 일반 식품보다 더 영양가 있다는 강한 근거는 부족했습니다. 먹은 뒤 건강을 직접 살핀 연구는 이 중 3건뿐입니다. 알레르기와 증상이 있는 감염을 살폈습니다. 유기농과 일반 식품을 먹은 사람 사이에 뚜렷한 차이를 찾지 못했습니다. 유기농 농산물의 농약 검출 비율은 30퍼센트포인트 낮았습니다. 95% 신뢰구간은 23~37퍼센트포인트 낮은 범위입니다. 다만 농약 검출이 곧 기준 초과를 뜻하지는 않습니다. 농약이 없으면 더 안전하다는 추론입니다. 여기서 더 안전하면 더 건강하다고 추론합니다. 각 단계가 상식처럼 들려 가성비가 좋아 보입니다.",
+      "reason": "비유의 결과를 무효 확정으로 읽지 않도록 완화. 초록의 농약 검출 차이 신뢰구간을 정확한 퍼센트포인트로 보완."
+    },
+    {
+      "field": "근거등급",
+      "before": "B",
+      "after": "B",
+      "reason": "원문 보존"
+    },
+    {
+      "field": "출처",
+      "before": "Smith-Spangler C et al. (2012). Are organic foods safer or healthier than conventional alternatives?: a systematic review. Ann Intern Med. https://doi.org/10.7326/0003-4819-157-5-201209040-00007",
+      "after": "Smith-Spangler C et al. (2012). Are organic foods safer or healthier than conventional alternatives?: a systematic review. Ann Intern Med. https://doi.org/10.7326/0003-4819-157-5-201209040-00007",
+      "reason": "원문 보존"
+    },
+    {
+      "field": "비고",
+      "before": "먹은 뒤 건강을 직접 살핀 사람 대상 연구는 매우 적습니다. 따라서 유기농이 더 좋다는 근거가 없다는 뜻입니다. 유기농이 이롭지 않다고 증명한 결과는 아닙니다. 환경 영향, 동물 복지, 맛은 별개로 봅니다. 채소와 과일을 많이 먹으면 건강에 도움이 됩니다. 유기농 여부는 그 효과를 바꾸지 않습니다.",
+      "after": "논문에 정정 2건이 있으나 정정 내용까지는 확인하지 못했습니다. 먹은 뒤 건강을 직접 살핀 사람 대상 연구는 매우 적습니다. 따라서 유기농이 더 좋다는 근거가 부족하다는 뜻입니다. 유기농이 이롭지 않다고 증명한 결과는 아닙니다. 환경 영향, 동물 복지, 맛은 별개로 봅니다. 채소와 과일을 많이 먹으면 건강에 도움이 됩니다. 이 고찰만으로 유기농 여부가 그 효과를 바꾸지 않는다고 단정할 수는 없습니다.",
+      "reason": "정정 내용 미확인 고지. 유기농 여부의 효과 불변 단정을 이 고찰의 한계로 완화."
+    }
+  ],
+  "numerical_scope_changes": [
+    "한국 가격 1~3배 미검증 수치 삭제",
+    "건강 차이 없음 → 뚜렷한 차이를 찾지 못함",
+    "농약 검출 차이의 95% 신뢰구간 23~37퍼센트포인트 낮음 추가"
+  ],
+  "doi_changes": {
+    "added": [],
+    "removed": [],
+    "reason": "기존 DOI 보존"
+  },
+  "title": {
+    "changed": false,
+    "incoming_anchors": "제목 전체를 보존하여 모든 기존 앵커 유지"
+  },
+  "unresolved_limitations": [
+    "한국 1차 가격자료 미확인",
+    "정정 2건 내용 미확인: 독자 비고에 명시",
+    "전문·정정 미열람이므로 초록 확인 범위를 넘는 검증을 주장하지 않음"
+  ],
+  "checks": {
+    "six_single_physical_fields": true,
+    "literal_sentence_lengths": {
+      "비용": [
+        38
+      ],
+      "쉽게": [
+        28,
+        30,
+        27
+      ],
+      "이득": [
+        36,
+        27,
+        37,
+        30,
+        23,
+        39,
+        34,
+        31,
+        29,
+        22,
+        25,
+        27
+      ],
+      "비고": [
+        35,
+        33,
+        30,
+        26,
+        25,
+        27,
+        43
+      ]
+    },
+    "easy_chars": 87,
+    "title_chars": 34,
+    "literal_check_actual_execution": {
+      "command": [
+        "python",
+        "kr-harness/publication/2026-10-18/ch05/publication-partial-review-evidence/literal_check.py",
+        "kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-009-3843/publication-entry-proposal.md"
+      ],
+      "exit_code": 0,
+      "result": [
+        {
+          "entry": null,
+          "path": "kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-009-3843/publication-entry-proposal.md",
+          "title_chars": 34,
+          "easy_chars": 87,
+          "easy_sentences": 3,
+          "long_sentences": [],
+          "pass_length": true
+        }
+      ]
+    }
+  },
+  "proposal_sha256": "406846866cc31ab94f37fa82cfa469cad3bf7c17db564cbac6079c718c0dc317"
+}

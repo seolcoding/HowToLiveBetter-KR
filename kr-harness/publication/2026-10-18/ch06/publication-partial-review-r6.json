@@ -1,0 +1,455 @@
+{
+  "chapter": 6,
+  "status": "completed_exact_partial_review_r6",
+  "manifest_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/author-partial-manifest-6.json",
+  "manifest_sha256": "a90afdd13c522240e82e1ba31527e49140214a88bc3fec46c71bcc0837c3ed47",
+  "entries": [
+    {
+      "entry": 19,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-019-ddf8/publication-entry-proposal.md",
+      "proposal_sha256": "c73457971f042963664f4113753fee2b51614f88b0d52831cf470e68d2afacd4",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-019-ddf8/publication-entry-changes.json",
+      "changes_sha256": "f25a421369fbd4be03790d22eb112f1f4ce99fbe6838c4636b6d28156e2467bc",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-019-ddf8/strict-entry.md",
+      "base_strict_entry_sha256": "66c6cd05c0ea72861ebe99070c67d4511c33e6da269ac2aeb7752cec583d668a",
+      "literal_exit_code": 0,
+      "decision": "approve",
+      "all_four_complete_fields_read": true,
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "snapshot_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-019-ddf8/entry_snapshot.md",
+      "snapshot_sha256": "66c6cd05c0ea72861ebe99070c67d4511c33e6da269ac2aeb7752cec583d668a",
+      "strict_candidate_contains_exact_base": true,
+      "length_check": {
+        "entry": 19,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-019-ddf8/publication-entry-proposal.md",
+        "title_chars": 44,
+        "easy_chars": 106,
+        "easy_sentences": 4,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "number": true,
+        "six_labels": true,
+        "tags": true,
+        "grade": true
+      },
+      "production_layout_check": true,
+      "initial_canonical_entry": {
+        "entry": 19,
+        "baseline_entry_sha256": "66c6cd05c0ea72861ebe99070c67d4511c33e6da269ac2aeb7752cec583d668a",
+        "findings": [
+          {
+            "severity": "block",
+            "field": "쉽게",
+            "before_excerpt": "발작을 한 번이라도 겪은 뒤에 치료를 시작하세요.",
+            "request": "첫 발작이면 무조건 약을 시작한다는 뜻을 제거하세요. 통풍결절·통풍성 영상손상·잦은 발작은 치료권고, 첫 발작은 CKD3이상·요산>9·요로결석 등의 예외와 의사 판단으로 구분해야 합니다.",
+            "evidence_key": "10.1002/acr.24180"
+          },
+          {
+            "severity": "block",
+            "field": "비고",
+            "before_excerpt": "중국 한족 인구의 약 7.4%",
+            "request": "ACR 지침은 Han Chinese, Korean, Thai를 포함한 집단의 높은 유병빈도 7.4%를 서술합니다. 한국 빈도를 별도로 확인하지 못했다면 한족만의 값으로 확정하지 마세요. 알로푸리놀 전 HLA검사 권고는 동남아계(예:한족·한국인·태국인)와 아프리카계 미국인 대상 조건부 권고입니다. 전문접근이 실패해 이 수치의 정확집단 판정은 재검토 필요합니다.",
+            "evidence_key": "10.1002/acr.24180"
+          }
+        ],
+        "candidate_review": "pending",
+        "snapshot_path": "_workspace/2026-10-18-019-ddf8/entry_snapshot.md",
+        "manifest_entry_sha256": "66c6cd05c0ea72861ebe99070c67d4511c33e6da269ac2aeb7752cec583d668a",
+        "snapshot_sha_matches_manifest": true
+      },
+      "finding_closure": "ACR 실제 원문 표1/각주·HLA본문/표4,CKD-FIX/PERL 원초록전체를 직접읽었다. 무증상은요산>6.8/발작·피하결절없음/조건부불시작(근거높음),3년24명치료1건예방·첫발작후보통불시작 및CKD≥3/요산>9/요로결석예외,잦은발작·결절·영상손상 치료강도와일치한다. HLA7.4%는한족/한국/태국계묶음·백인.7%,AHS3배는아시아·아프리카계미국인복용자대백인복용자이며보유빈도와약물위험을구분했다. 조건부검사권고대상을보존해 초기block둘다해소했다. CKDFIX369배정/363분석·104주·각eGFR/CI/이상사건분모,PERL530/3년+2개월/요산6.1→3.9/GFR차.001CI−1.9~1.9/알부민40%CI0–80도맞다.9mg/dL≈535µmol/L변환타당.",
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "revision_requests": [],
+      "proposed_root_operation": {
+        "type": "replace_complete_strict_entry_body",
+        "before_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-019-ddf8/strict-entry.md",
+        "before_entire_entry_sha256": "66c6cd05c0ea72861ebe99070c67d4511c33e6da269ac2aeb7752cec583d668a",
+        "after_proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-019-ddf8/publication-entry-proposal.md",
+        "after_original_proposal_sha256": "c73457971f042963664f4113753fee2b51614f88b0d52831cf470e68d2afacd4",
+        "effective_after_sha256": "c73457971f042963664f4113753fee2b51614f88b0d52831cf470e68d2afacd4",
+        "effective_after_rule": "proposal.rstrip()+original strict entry trailing whitespace; preserve original separators",
+        "supersession": "Latest approved full replaces any initial field/older full once.",
+        "integration_authorized": false
+      }
+    },
+    {
+      "entry": 20,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-020-950b/publication-entry-proposal.md",
+      "proposal_sha256": "34d8c914ed016fa84bb71b98e1d3dae07ac89926694d76395a64c3772b8c202d",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-020-950b/publication-entry-changes.json",
+      "changes_sha256": "bb62e0207e1768eef1ea1af29e4718b281a04044e943f3d84a1c4ad628b7b57f",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-020-950b/strict-entry.md",
+      "base_strict_entry_sha256": "7761f4a449ad766a8ce39729134a1db254f1918ac83ee6679e3e6b0822dd73e9",
+      "literal_exit_code": 0,
+      "decision": "revise",
+      "all_four_complete_fields_read": true,
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "snapshot_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-020-950b/entry_snapshot.md",
+      "snapshot_sha256": "7761f4a449ad766a8ce39729134a1db254f1918ac83ee6679e3e6b0822dd73e9",
+      "strict_candidate_contains_exact_base": true,
+      "length_check": {
+        "entry": 20,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-020-950b/publication-entry-proposal.md",
+        "title_chars": 44,
+        "easy_chars": 108,
+        "easy_sentences": 4,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "number": true,
+        "six_labels": true,
+        "tags": true,
+        "grade": true
+      },
+      "production_layout_check": true,
+      "initial_canonical_entry": {
+        "entry": 20,
+        "baseline_entry_sha256": "7761f4a449ad766a8ce39729134a1db254f1918ac83ee6679e3e6b0822dd73e9",
+        "findings": [
+          {
+            "severity": "warn",
+            "field": "쉽게",
+            "before_excerpt": "담낭 절제도 위험이 따릅니다. 약 1.5%에서 담관이 다칩니다.",
+            "request": "스웨덴 2005~2010년 전국등록의 경미한 수술후 담즙누출까지 포함한 정의임을 한정하세요. 한국 현재수술의 일반발생률로 읽히지 않게 하세요. 무증상 정상담낭·정상담도와 총담관 결석 예외는 유지하세요.",
+            "evidence_key": "10.1136/bmj.e6457"
+          }
+        ],
+        "candidate_review": "pending",
+        "snapshot_path": "_workspace/2026-10-18-020-950b/entry_snapshot.md",
+        "manifest_entry_sha256": "7761f4a449ad766a8ce39729134a1db254f1918ac83ee6679e3e6b0822dd73e9",
+        "snapshot_sha_matches_manifest": true
+      },
+      "finding_closure": "NICE실제1.2.1/1.3.1·BMJ원문초록/손상정의·여섯추가원초록·EASL2016원PDF인쇄154/155이미지와관련151/161쪽텍스트를직접읽었다. 무증상정상담낭/담도와총담관예외,두추적연구수치,스웨덴51041/747·1.5%(경미누출포함)/제외.3%·사망3.9대1.1이맞고초기warn해소했다. EASL연증상.7–2.5%/합병증.1–.3%/첫통증후1–3%·지속불편10–40%도맞다. 그러나도자기담낭은may/매우낮은근거/약한권고·균일벽석회화는수술피할수있음·수술전CT확인을필요로하는데있으면절제로단정했다. 다른큰복부수술병행도routine불권고/선별제안가능이다. 지금까지RCT없음은2007검색2006종료고찰/2016지침의시점을현재로확대해범위수정이필요하다. 중국합의전문미확인/한국지침미확인은본문에정직하게남긴다.",
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "revision_requests": [
+        {
+          "field": "비고",
+          "exact_span": "담낭벽 석회화(도자기 담낭)가 있으면 절제합니다.",
+          "classification": "confirmed_recommendation_strength_and_exception_error",
+          "required": "EASL2016printed154의may/verylowquality/weak권고·균일벽석회화수술회피가능·수술전CT확인/의사개별판단을보존.1cm이상용종강한권고와구별."
+        },
+        {
+          "field": "비고",
+          "exact_span": "다른 큰 복부 수술을 받을 때는 담낭 절제를 함께 고려할 수 있습니다.",
+          "required": "155p다른복부수술시routine불권고와선별제안가능을함께보존.고려를일괄적응증으로읽히지않게할것."
+        },
+        {
+          "field": "이득",
+          "exact_span": "절제 여부를 무작위로 나눠 비교한 시험은 지금까지 없습니다.",
+          "classification": "unverified_current_universal_from_dated_search",
+          "required": "2007고찰(검색2006종료) 또는2016지침당시의범위로한정. 현재전세계RCT부재를별도확인없이확정하지말것."
+        }
+      ]
+    },
+    {
+      "entry": 21,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-021-1266/publication-entry-proposal.md",
+      "proposal_sha256": "3949f1e7ecff338752f3d75d0b44858d54a18e54814d016ff27def3fe5023a87",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-021-1266/publication-entry-changes.json",
+      "changes_sha256": "f8db09cada864f43e7cbff388d8762b56d251644f79306f68a914a342445d2e0",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-021-1266/strict-entry.md",
+      "base_strict_entry_sha256": "3773b0bfe43ac182747a0efa3d51d64066392e4005fface8180786d8ef540859",
+      "literal_exit_code": 0,
+      "decision": "approve",
+      "all_four_complete_fields_read": true,
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "snapshot_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-021-1266/entry_snapshot.md",
+      "snapshot_sha256": "3773b0bfe43ac182747a0efa3d51d64066392e4005fface8180786d8ef540859",
+      "strict_candidate_contains_exact_base": true,
+      "length_check": {
+        "entry": 21,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-021-1266/publication-entry-proposal.md",
+        "title_chars": 20,
+        "easy_chars": 77,
+        "easy_sentences": 3,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "number": true,
+        "six_labels": true,
+        "tags": true,
+        "grade": true
+      },
+      "production_layout_check": true,
+      "initial_canonical_entry": {
+        "entry": 21,
+        "baseline_entry_sha256": "3773b0bfe43ac182747a0efa3d51d64066392e4005fface8180786d8ef540859",
+        "findings": [],
+        "candidate_review": "pending",
+        "snapshot_path": "_workspace/2026-10-18-021-1266/entry_snapshot.md",
+        "manifest_entry_sha256": "3773b0bfe43ac182747a0efa3d51d64066392e4005fface8180786d8ef540859",
+        "snapshot_sha_matches_manifest": true
+      },
+      "finding_closure": "Borghi 원초록전체와NICE NG118실제1.8.1를직접읽었다. 재발옥살산칼슘결석·고칼슘뇨남자120/5년,정상칼슘30mmol+동물단백52g+NaCl50mmol 대저칼슘10mmol,12/60대23/60/원논문보정전RR.49CI.24–.98/P=.04·양군소변칼슘170mg감소/옥살산+5.4대−7.2가맞다. 복합식사변화를칼슘단독효과로세지않는다. NICE성인칼슘700–1200mg/소아연령별350–1000mg·성인물2.5–3L 권고와맞고음식칼슘과보충제를구분한다.16절8항의동일물권고/성분별예외와정합한다.",
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "revision_requests": [],
+      "proposed_root_operation": {
+        "type": "replace_complete_strict_entry_body",
+        "before_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-021-1266/strict-entry.md",
+        "before_entire_entry_sha256": "3773b0bfe43ac182747a0efa3d51d64066392e4005fface8180786d8ef540859",
+        "after_proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-021-1266/publication-entry-proposal.md",
+        "after_original_proposal_sha256": "3949f1e7ecff338752f3d75d0b44858d54a18e54814d016ff27def3fe5023a87",
+        "effective_after_sha256": "3949f1e7ecff338752f3d75d0b44858d54a18e54814d016ff27def3fe5023a87",
+        "effective_after_rule": "proposal.rstrip()+original strict entry trailing whitespace; preserve original separators",
+        "supersession": "Latest approved full replaces any initial field/older full once.",
+        "integration_authorized": false
+      }
+    }
+  ],
+  "approved_entries": [
+    19,
+    21
+  ],
+  "revise_entries": [
+    20
+  ],
+  "actual_primary_readings": [
+    {
+      "artifact_path": "/tmp/ch06e19-primary/pmc2",
+      "artifact_sha256": "25a5db7b97fdf634dd11d8c8604d23e249b7a1f06aa429188dd87ea1c92f98c9",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10563586/",
+      "read_at_utc": "2026-10-18T18:35:12.357901+00:00",
+      "read_scope": "ActualsubstantiveguidelineHTML;table1/footnotes and asymptomatic/firstflare/radiographicdamage recommendations;HLAparagraph/table4;not all underlyingprimarygeneticstudies",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/tmp/ch06e19-primary/NEJMoa1915833.json",
+      "artifact_sha256": "ae4bd5176db240eae5e40121179abfff5341822a48826fff95c5835a096291d3",
+      "url": "https://doi.org/10.1056/NEJMoa1915833",
+      "read_at_utc": "2026-10-18T18:35:12.358109+00:00",
+      "read_scope": "Completeoriginalprimaryabstract",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/tmp/ch06e19-primary/NEJMoa1916624.json",
+      "artifact_sha256": "b820a30f896d6fad599f0544a1b1362f229e8745b32c1baceb4206ff07a25b4d",
+      "url": "https://doi.org/10.1056/NEJMoa1916624",
+      "read_at_utc": "2026-10-18T18:35:12.358525+00:00",
+      "read_scope": "Completeoriginalprimaryabstract",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch06-audit/nice.raw",
+      "artifact_sha256": "31c01c1ead5dccfd343634010b3548e37e804e542440ed9f62e29bbadf334c2e",
+      "url": "https://www.nice.org.uk/guidance/cg188/chapter/Recommendations",
+      "read_at_utc": "2026-10-18T18:35:12.358664+00:00",
+      "read_scope": "Actual1.2.1and1.3.1normalgallbladder/biliarytree/commonduct exceptions",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/pmc-fulltext/PMC3469410.xml",
+      "artifact_sha256": "33d3519a32db9ea659db7950835f969a3e0aeeb094603092de9c88464a1ee9da",
+      "url": "https://doi.org/10.1136/bmj.e6457",
+      "read_at_utc": "2026-10-18T18:35:12.358764+00:00",
+      "read_scope": "Abstract;inclusiondates;minorpostoperativeleakdiscussion;1.5vs.3percentdefinition",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/71ef7cea76eab28e3f41.json",
+      "artifact_sha256": "39406792504a8257c1590aabd22442e5c447fa5e0ca70970bbebd58f3d2286d2",
+      "url": "https://doi.org/10.1056/NEJMoa010369",
+      "read_at_utc": "2026-10-18T18:35:12.358801+00:00",
+      "read_scope": "Completeprimaryabstractmethods/results/cointervention",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/tmp/ch06e21-nice.html",
+      "artifact_sha256": "87cd645df5fbf3343cb786d2b43521ac0ba24f61f5259c95f4896e883329fac1",
+      "url": "https://www.nice.org.uk/guidance/ng118/chapter/Recommendations",
+      "read_at_utc": "2026-10-18T18:35:12.359023+00:00",
+      "read_scope": "Actual1.8.1water/salt/calciumrecommendationsandagequalifiers",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/74870df121a77d420780.json",
+      "artifact_sha256": "9eb79720052a74c453159f82ebae858c2dbb98bf0e3554aed8762a9e367b6d31",
+      "url": "https://doi.org/10.3760/cma.j.cn112139-20220119-00031",
+      "read_at_utc": "2026-10-18T18:35:12.359231+00:00",
+      "read_scope": "Completeoriginalabstract;whereChineseguidelineinterpretation,nofullconsensusclaim;Cochrane2007searchto2006",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/ec74655efb315f62ef53.json",
+      "artifact_sha256": "ae737d6c5a5f674c9b45c22158c4eacad5f578d7f73c3f428f8eecef5612f0e4",
+      "url": "https://doi.org/10.1002/14651858.cd006230.pub2",
+      "read_at_utc": "2026-10-18T18:35:12.359286+00:00",
+      "read_scope": "Completeoriginalabstract;whereChineseguidelineinterpretation,nofullconsensusclaim;Cochrane2007searchto2006",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/1a6f54686c090e75c32e.json",
+      "artifact_sha256": "a3a0b737b8b0a78db4228b758294f6aed9bb8b57f97bbc23c34fc34a90fb790e",
+      "url": "https://doi.org/10.7326/0003-4819-99-2-199",
+      "read_at_utc": "2026-10-18T18:35:12.359313+00:00",
+      "read_scope": "Completeoriginalabstract;whereChineseguidelineinterpretation,nofullconsensusclaim;Cochrane2007searchto2006",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/34ab36452f00da039795.json",
+      "artifact_sha256": "e57647e0c82b47390f3ebdfa56f1b73c2bc0bb1983add71fccd3c976a4cf1f99",
+      "url": "https://doi.org/10.1111/j.1440-1746.2009.06146.x",
+      "read_at_utc": "2026-10-18T18:35:12.359341+00:00",
+      "read_scope": "Completeoriginalabstract;whereChineseguidelineinterpretation,nofullconsensusclaim;Cochrane2007searchto2006",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/145027236543a9be7315.json",
+      "artifact_sha256": "44bbc38404b2fd05497bdd3d22da8b6832217472591067b2506b0d5c4eb11a0e",
+      "url": "https://doi.org/10.1111/j.1572-0241.2005.00317.x",
+      "read_at_utc": "2026-10-18T18:35:12.359365+00:00",
+      "read_scope": "Completeoriginalabstract;whereChineseguidelineinterpretation,nofullconsensusclaim;Cochrane2007searchto2006",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/87d6d9e371b27e1a5c37.json",
+      "artifact_sha256": "dce630aacd9172050cc80f03a9dd307833a78adeae1f17ca2d7d81e9fb0fe005",
+      "url": "https://doi.org/10.1097/00000658-198507000-00009",
+      "read_at_utc": "2026-10-18T18:35:12.359388+00:00",
+      "read_scope": "Completeoriginalabstract;whereChineseguidelineinterpretation,nofullconsensusclaim;Cochrane2007searchto2006",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "url": "https://easl.eu/wp-content/uploads/2018/10/Gallstones-English-report.pdf?download=1",
+      "requested_at_utc": "2026-10-18T18:32:36.177623+00:00",
+      "tls_verification": true,
+      "http_status": 200,
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch06-partial-review/easl-24c0d1cb561c.raw",
+      "sha256": "f2b05f247e49ca4bfaac08f025b8a29831740eadc2cbbc03fc317246b7c0d094",
+      "bytes": 2423939,
+      "artifact_sha256": "f2b05f247e49ca4bfaac08f025b8a29831740eadc2cbbc03fc317246b7c0d094",
+      "fresh_http": true,
+      "read_scope": "OriginalEASL2016guidelinePDF identity;printed154/155recommendationsandcomments visuallyread;related151risk/161persistentcomplainttext;notall36pages/allreferences"
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch06-partial-review/easl-printed-154.png",
+      "artifact_sha256": "044d24bf3d8912653f27c277ae44928d7a62decf0033dce9f618eb56fe385599",
+      "url": "https://easl.eu/wp-content/uploads/2018/10/Gallstones-English-report.pdf?download=1",
+      "read_at_utc": "2026-10-18T18:35:12.361115+00:00",
+      "read_scope": "RenderedoriginalPDFprinted154directvisualreading",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch06-partial-review/easl-printed-155.png",
+      "artifact_sha256": "14c407fffae8004b10ab45cd3cf14e383b909b9c274cc8241eefe789da9a65b2",
+      "url": "https://easl.eu/wp-content/uploads/2018/10/Gallstones-English-report.pdf?download=1",
+      "read_at_utc": "2026-10-18T18:35:12.362785+00:00",
+      "read_scope": "RenderedoriginalPDFprinted155directvisualreading",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    }
+  ],
+  "prior_actual_reading_reuse": [],
+  "cross_reference_review": [
+    {
+      "source_entry": 19,
+      "target_path": "/workspace/HowToLiveBetter-KR/book-kr/16-만성질환-진단-후-사는-법.md",
+      "file_sha256": "bcf5ffefefb4ad3c2ece04dd09052e1a3de00a0f1fc9d21e4b0eb61ad8603753",
+      "target_entry": 9,
+      "body_sha256": "b81f8bab6e9df9fe59994bb09390f302ceb12b00a645e32cf6ac1b643fec5f66",
+      "body_read_scope": "Actualtargetgoutconfirmed-treatment vsasymptomatic distinction;waterquantity/stone-typeexceptions. Separatechapterfullsourceapprovalnotclaimed.",
+      "alignment": true
+    },
+    {
+      "source_entry": 21,
+      "target_path": "/workspace/HowToLiveBetter-KR/book-kr/16-만성질환-진단-후-사는-법.md",
+      "file_sha256": "bcf5ffefefb4ad3c2ece04dd09052e1a3de00a0f1fc9d21e4b0eb61ad8603753",
+      "target_entry": 8,
+      "body_sha256": "8a557544e53b39a40a217ce60ca238fdb28db7022779dc9f77640121ff4af7d9",
+      "body_read_scope": "Actualtargetgoutconfirmed-treatment vsasymptomatic distinction;waterquantity/stone-typeexceptions. Separatechapterfullsourceapprovalnotclaimed.",
+      "alignment": true
+    }
+  ],
+  "production_helper_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/scripts/humanize_publication.py",
+  "production_helper_sha256": "244c194c7620c3095dc3a972eecdaa4e17fab8a0a301ae8b601cb8401569bfd3",
+  "helper_code_modified": false,
+  "fresh_http_performed": true,
+  "whole29_approval": false,
+  "integration_approval": false,
+  "formal_kr_fit_approval": false,
+  "preservation": "Prior reviews/frozen proposals/canonical/public/runs/gates/git unchanged.",
+  "fresh_access_failures": [
+    {
+      "url": "https://easl.eu/wp-content/uploads/2018/10/Gallstones-English-report.pdf",
+      "requested_at_utc": "2026-10-18T18:31:52.174395+00:00",
+      "tls_verification": true,
+      "status": "access_failed",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "url": "https://www.journal-of-hepatology.eu/article/S0168-8278(16)00162-4/pdf",
+      "requested_at_utc": "2026-10-18T18:32:36.178522+00:00",
+      "tls_verification": true,
+      "status": "access_failed",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ]
+}

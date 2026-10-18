@@ -1,0 +1,176 @@
+{
+  "status": "unadopted_proposal",
+  "chapter": 6,
+  "entry": 1,
+  "baseline_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-001-37f5/strict-entry.md",
+  "baseline_sha256": "fdb30e7b8d9ec77509a0b6578429c7d1e909c9ecaf518ba1be5b92fd8c4374ac",
+  "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-001-37f5/publication-entry-proposal.md",
+  "proposal_sha256": "0721030c294ea16c800a6220760a49a552eae996154907a0653af4b7f1a8a38c",
+  "changes": [
+    {
+      "field": "title",
+      "before": "### 1. 장수나 심혈관 예방을 위해 종합비타민을 먹지 마세요",
+      "after": "### 1. 종합비타민의 장수·심혈관 예방 효과를 확신하지 마세요",
+      "reason": "I 등급은 복용 반대 권고가 아닌 근거 부족. 장수·심혈관·종합비타민 범위와 incoming anchor 종합비타민 보존.",
+      "evidence_doi": [
+        "10.1001/jama.2022.8970"
+      ]
+    },
+    {
+      "field": "비용",
+      "before": "계속 먹으려면 매달 제품값이 듭니다. 하루 한 알이라 시간은 거의 들지 않습니다. 오래 먹으면 습관이 됩니다. 안 먹은 날은 뭔가 빠뜨린 느낌이 듭니다.",
+      "after": "계속 먹으려면 매달 제품값이 듭니다. 하루 한 알이라 시간은 거의 들지 않습니다. 오래 먹으면 습관이 됩니다. 안 먹은 날은 뭔가 빠뜨린 느낌이 듭니다.",
+      "changed": false,
+      "reason": "원문 유지",
+      "evidence_doi": []
+    },
+    {
+      "field": "쉽게",
+      "before": "남자 의사 1만4천 명을 11년 동안 비교했습니다. 복용 여부에 따라 심장·혈관 질환 발생에 차이가 없었습니다. 사망자 수도 차이가 없었습니다. 시험 9건, 5만여 명을 합쳐 봐도 사망에 영향이 없었습니다. 안 사면 그 제품값을 아낍니다. 검사에서 특정 영양소 부족이 확인된 사람은 예외입니다. 엽산을 보충해야 하는 임산부도 예외에 해당합니다.",
+      "after": "종합비타민의 사망 감소 효과는 뚜렷하지 않습니다. 예방 효과는 근거가 부족합니다. 확인된 영양소 결핍·극도로 치우친 식사·임산부의 엽산 보충은 별개입니다. 보충은 의사의 지시에 따르세요.",
+      "changed": true,
+      "reason": "120자·2–4문장 요약; 무효 단정을 비유의와 근거 부족으로 한정. 보충 조건 유지.",
+      "evidence_doi": [
+        "10.1001/jama.2012.14805",
+        "10.1001/jama.2012.14641",
+        "10.1001/jama.2022.8970"
+      ]
+    },
+    {
+      "field": "이득",
+      "before": "PHS II 시험에는 남자 의사 14,641명이 참여했습니다. 추적 기간의 중앙값은 11.2년입니다. 절반은 더 길게, 나머지 절반은 더 짧게 추적했습니다. 복용 여부에 따라 주요 심혈관 사건 발생에 차이가 없었습니다. 주요 심혈관 사건 HR 1.01입니다. HR은 위험비를 뜻합니다. 1이면 두 집단의 위험이 같다는 뜻입니다. 95% CI 0.91–1.10은 신뢰범위를 나타냅니다. 전체 사망에서도 차이가 없었습니다. 전체 사망 HR 0.94(0.88–1.02)입니다. USPSTF는 미국에서 예방의료 근거를 평가하는 기구입니다. 2022년에 무작위 배정 대조시험 9건을 합쳐 분석했습니다. 참가자는 51,550명입니다. 종합비타민 복용과 전체 사망 사이에 관련이 없었습니다. USPSTF는 I 등급으로 판단을 유보했습니다. 근거가 부족하다는 뜻입니다. '한 알로 모든 영양소'라는 말이 그럴듯하게 들립니다. 하루 드는 돈도 적어 가성비가 좋아 보입니다.",
+      "after": "PHS II 시험에는 미국의 50세 이상 남자 의사가 참여했습니다. 참가자는 14,641명이었습니다. 추적 기간의 중앙값은 11.2년입니다. 절반은 더 길게, 나머지 절반은 더 짧게 추적했습니다. 주요 심혈관 사건의 유의한 감소는 확인되지 않았습니다. 주요 심혈관 사건 HR 1.01입니다. HR은 추적 중 순간적인 사건 발생률의 비입니다. 1이면 두 집단의 순간적인 발생률이 같다는 뜻입니다. 개인의 11년간 발생 확률과는 다릅니다. 95% CI는 추정치의 불확실성을 나타내는 범위입니다. 주요 심혈관 사건의 95% CI는 0.91–1.10입니다. 전체 사망의 유의한 감소도 확인되지 않았습니다. 전체 사망 HR은 0.94, 95% CI는 0.88–1.02입니다. USPSTF는 미국에서 예방의료 근거를 평가하는 기구입니다. 2022년에 무작위 배정 대조시험 9건을 합쳐 분석했습니다. 참가자는 51,550명입니다. 종합비타민 복용과 전체 사망의 유의한 관련은 없었습니다. USPSTF는 I 등급으로 판단을 유보했습니다. 심혈관병·암 예방의 이득과 해를 판단할 근거가 부족합니다. 주 대상은 지역사회에서 사는 임신하지 않은 성인입니다. 알려진 영양소 결핍이 있는 사람은 적용 대상이 아닙니다. '한 알로 모든 영양소'라는 말이 그럴듯하게 들립니다. 하루 드는 돈도 적어 가성비가 좋아 보입니다.",
+      "changed": true,
+      "reason": "HR과 고정기간 확률 구별, 미국50세이상 남자의 범위, 비유의와 무효 구별. 공식 권고 본문에서 9건51,550명 독립 확인.",
+      "evidence_doi": [
+        "10.1001/jama.2012.14805",
+        "10.1001/jama.2012.14641",
+        "10.1001/jama.2022.8970"
+      ]
+    },
+    {
+      "field": "근거등급",
+      "before": "A",
+      "after": "A",
+      "changed": false,
+      "reason": "원문 유지",
+      "evidence_doi": []
+    },
+    {
+      "field": "출처",
+      "before": "Sesso HD et al. (2012). Multivitamins in the prevention of cardiovascular disease in men: the Physicians' Health Study II randomized controlled trial. JAMA. https://doi.org/10.1001/jama.2012.14805 ; US Preventive Services Task Force (2022). Vitamin, Mineral, and Multivitamin Supplementation to Prevent Cardiovascular Disease and Cancer. JAMA. https://doi.org/10.1001/jama.2022.8970 ; Gaziano JM 외 (2012). Multivitamins in the Prevention of Cancer in Men. JAMA. https://doi.org/10.1001/jama.2012.14641 (비고의 암 결과)",
+      "after": "Sesso HD et al. (2012). Multivitamins in the prevention of cardiovascular disease in men: the Physicians' Health Study II randomized controlled trial. JAMA. https://doi.org/10.1001/jama.2012.14805 ; US Preventive Services Task Force (2022). Vitamin, Mineral, and Multivitamin Supplementation to Prevent Cardiovascular Disease and Cancer. JAMA. https://doi.org/10.1001/jama.2022.8970 ; Gaziano JM 외 (2012). Multivitamins in the Prevention of Cancer in Men. JAMA. https://doi.org/10.1001/jama.2012.14641 (비고의 암 결과)",
+      "changed": false,
+      "reason": "원문 유지",
+      "evidence_doi": []
+    },
+    {
+      "field": "비고",
+      "before": "논쟁 있음. 같은 의사 집단에서 암 발생도 따로 살펴봤습니다. 복용한 사람의 암 발생 비율은 약 8% 낮았습니다. 수치는 0.86–0.998, P=0.04입니다. 통계적으로 유의하다고 보는 기준을 겨우 충족합니다. 암 사망은 약 12% 낮았습니다(0.77–1.01). 이 범위는 1을 포함하므로 우연일 수 있습니다. 이득은 작았습니다. 남자 의사에게서만 관찰됐습니다. 검사로 실제 결핍이 확인된 사람은 예외입니다. 엽산이 필요한 임산부도 예외에 해당합니다. 식사가 극도로 치우친 사람도 예외입니다. 보충이 필요한 사람은 의사의 지시에 따르세요.",
+      "after": "논쟁 있음. 같은 의사 집단에서 암 발생도 따로 살펴봤습니다. 비흑색종 피부암을 제외한 전체 암이 대상입니다. 암 발생 HR은 0.92였습니다. 95% CI는 0.86–0.998, 초록의 P=0.04입니다. 순간적인 암 발생률이 약 8% 낮게 추정됐습니다. 개인의 암 발생 확률이 8% 낮다는 뜻은 아닙니다. 통계적으로 유의하다고 보는 기준을 겨우 충족합니다. 암 사망 HR은 0.88, 95% CI는 0.77–1.01입니다. 순간적인 암 사망률은 약 12% 낮게 추정됐습니다. 이 범위는 1을 포함하며 유의한 감소는 아니었습니다. 이득은 작았습니다. 남자 의사에게서만 관찰됐습니다. 암 논문에는 2014년 정정 공지가 있습니다. 그 정정이 이 수치에 영향을 주는지는 불명확합니다. 검사로 실제 결핍이 확인된 사람은 예외입니다. 엽산이 필요한 임산부도 예외에 해당합니다. 식사가 극도로 치우친 사람도 예외입니다. 보충이 필요한 사람은 의사의 지시에 따르세요.",
+      "changed": true,
+      "reason": "HR 점추정과95% CI를 구별. 8%·12%는 순간발생률 비교로 한정. 피부암 제외와 정정 불확실성 명시.",
+      "evidence_doi": [
+        "10.1001/jama.2012.14805",
+        "10.1001/jama.2012.14641",
+        "10.1001/jama.2022.8970"
+      ]
+    }
+  ],
+  "primary_evidence": [
+    {
+      "doi": "10.1001/jama.2012.14805",
+      "url": "https://doi.org/10.1001/jama.2012.14805",
+      "verified_at": "2026-10-18",
+      "method": "原著 structured abstract, Europe PMC core record",
+      "raw_path": "/tmp/ch06e01-primary/jama.2012.14805.json",
+      "raw_sha256": "d075f78a6953da954e1a86cb5fc106d1b2b073aecbb8bee57c9273d495a5449d",
+      "exact_primary_quotations": [
+        "A total of 14,641 male US physicians initially aged 50 years or older",
+        "A daily multivitamin was also not significantly associated with total mortality (HR, 0.94; 95% CI, 0.88-1.02; P = .13)."
+      ]
+    },
+    {
+      "doi": "10.1001/jama.2012.14641",
+      "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/PMC3517179/unicode",
+      "verified_at": "2026-10-18",
+      "method": "Full author manuscript BioC: abstract, Methods, Results, Tables 2–3 read",
+      "raw_path": "/tmp/ch06e01-primary/cancer-bioc.json",
+      "raw_sha256": "c87e62178fd690183e65ca2f3839f134cac44a6f07286406704c73c4bceb8557",
+      "exact_primary_quotations": [
+        "A primary outcome was total cancer (excluding non-melanoma skin cancer)",
+        "hazard ratio [HR], 0.92; 95% confidence interval [CI], 0.86–0.998; P=0.044",
+        "There was a 12% reduction in cancer mortality that did not reach statistical significance (HR, 0.88; 95% CI, 0.77–1.01; P=0.07)."
+      ]
+    },
+    {
+      "doi": "10.1001/jama.2022.8970",
+      "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/vitamin-supplementation-to-prevent-cvd-and-cancer-preventive-medication",
+      "verified_at": "2026-10-18",
+      "method": "Official recommendation HTML: population, recommendation, supporting evidence multivitamins read",
+      "raw_path": "/tmp/ch06e01-primary/uspstf.html",
+      "raw_sha256": "6f88656317949b59d550744377eff8f1e781a359c4439b98d5e44d26199efbd2",
+      "exact_primary_quotations": [
+        "A pooled analysis of these studies showed no association between multivitamin supplementation and all-cause mortality (OR, 0.94 [95% CI, 0.87-1.01]; 9 RCTs; n = 51,550).",
+        "The evidence is insufficient to recommend for or against the use of multivitamin supplements",
+        "This recommendation does not apply to children, persons who are pregnant or may become pregnant, or persons who are chronically ill, are hospitalized, or have a known nutritional deficiency."
+      ]
+    },
+    {
+      "doi": "10.1001/jama.2014.9370",
+      "url": "https://doi.org/10.1001/jama.2014.9370",
+      "verified_at": "2026-10-18",
+      "method": "Correction bibliographic metadata only; correction full text 403; NOT substantive verification",
+      "raw_path": "/tmp/ch06e01-primary/correction-crossref.json",
+      "raw_sha256": "8d33d4e3f751a1d103d41ae6cf095a3ca40da36a4182b82def3a9e77edf7b04d",
+      "exact_primary_quotations": [
+        "Incorrect Word in Comment Section"
+      ]
+    }
+  ],
+  "intentional_numerical_scope_changes": [
+    "HR0.92/0.88 added; 0.86–0.998 and0.77–1.01 labeled95%CI",
+    "8%/12% retained only as instantaneous rate comparison, not cumulative probabilities",
+    "US male physicians age>=50 added; nonmelanoma skin cancer exclusion added",
+    "9 RCTs51,550 independently verified in official recommendation; no new pooledOR added"
+  ],
+  "doi_changes": {
+    "added": [],
+    "removed": [],
+    "reason": "기존3DOI 유지. 정정DOI는 원문 미확인으로 출처에 추가하지 않고 여기서 추적."
+  },
+  "incoming_title_anchors": {
+    "source_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/source.md",
+    "anchors": [
+      "종합비타민"
+    ],
+    "preserved": true
+  },
+  "unresolved_limitations": [
+    "Cancer paper erratum linked in Europe PMC metadata: JAMA2014;312(5):560. Crossref identifies10.1001/jama.2014.9370; actual correction text returned403 and was not read. Reader note explicitly limits confidence.",
+    "Author manuscript abstract/body P=.044 versus indexed journal abstract P=.04; table95%CI rounds0.998 to1.00. Reader uses indexed abstract .04 and precise text CI0.998; no claim of substantive contradiction.",
+    "Cardiovascular fullXML endpoint returned500; original structured abstract read, not fulltext.",
+    "This is not approval or publication; independent exact-hash review pending."
+  ],
+  "checks": {
+    "literal_check": {
+      "command": "python kr-harness/publication/2026-10-18/ch05/publication-partial-review-evidence/literal_check.py kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-001-37f5/publication-entry-proposal.md",
+      "executed_at": "2026-10-18",
+      "exit_code": 0,
+      "result": [
+        {
+          "entry": null,
+          "path": "kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-001-37f5/publication-entry-proposal.md",
+          "title_chars": 29,
+          "easy_chars": 104,
+          "easy_sentences": 4,
+          "long_sentences": [],
+          "pass_length": true
+        }
+      ]
+    },
+    "immutable_basis": "strict-entry.md; no final/input/snapshot/manifest/public edits",
+    "all_six_fields": true,
+    "cost_tag_evidence_grade_unchanged": true
+  }
+}

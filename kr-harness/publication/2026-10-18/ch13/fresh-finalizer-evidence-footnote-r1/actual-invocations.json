@@ -1,0 +1,91 @@
+[
+  {
+    "entry": 24,
+    "run_dir": "_workspace/2026-10-18-024-9635",
+    "before_sha256": {
+      "final.md": "0bddfb55e6a05fea4be03a053bf946d80e98b917f2cf9dd97142d42c106ea5d5",
+      "09_finalize.json": "82dfe4bde41fc9d6ff1866c0a54fd96f07536693d925786833c5f357f2b14303",
+      "publication-gates.json": "ce8e7df3ff9d10ac13a932c527aa896ea0f99754937a96cb3fe92788a62d823b",
+      "publication-gates.txt": "f3e81c35d9c0958bf51a41c2b909bcea230f31b656f12470a50c98e1facc5cd0",
+      "01_input.txt": "e35406db9b7597853b3be829d042373bf269db9070afe66e389c4cbaf0984c4c",
+      "00_metrics.json": "8262c03574d315bf2416a7f67ffef7e3ba3fe24aea763e27a69fd99415183aba",
+      "entry_snapshot.md": "5e1a884f8ba7b4c16fa0bf8416c8888cd7829628754bef294cf299d1b79465c7"
+    },
+    "body_sha256": "d109b6bfa07ecd32a092ad93342c135e3d04e4fb34d9f5bd709a83a93ca7e291",
+    "body_bytes": 2916,
+    "diff": [
+      {
+        "op": "delete",
+        "before": ",",
+        "after": ""
+      },
+      {
+        "op": "delete",
+        "before": ",",
+        "after": ""
+      }
+    ],
+    "command": [
+      "python3",
+      "/workspace/HowToLiveBetter-KR/.claude/skills/humanize-korean/scripts/verify_gates.py",
+      "--before",
+      "_workspace/2026-10-18-024-9635/01_input.txt",
+      "--after",
+      "_workspace/2026-10-18-024-9635/final.md",
+      "--genre",
+      "essay",
+      "--json",
+      "--publication-manifest",
+      "manifest.json",
+      "--quote-registry",
+      "quote-attribution/root-registry-r1.json",
+      "--quote-registry-sha256",
+      "fcaea69ba82f916d15ea8f96d26b58c53af2407dcb82f2d0e5100de78102c89c",
+      "--classification-evidence-dir",
+      "fresh-finalizer-footnote-r1-024"
+    ],
+    "exit_code": 0
+  },
+  {
+    "entry": 38,
+    "run_dir": "_workspace/2026-10-18-038-eea4",
+    "before_sha256": {
+      "final.md": "be2e0327308cffca0848e5efe77db1050b82534a7b1517392d3631255acf643f",
+      "09_finalize.json": "276763c1b3532b197cf0cbe9de656dda420e12b788f482cfd375a1334d6178e6",
+      "publication-gates.json": "531ca788c8e8d001332031b0052f9b7b19723d02ff85f98ac04542df024024c6",
+      "publication-gates.txt": "9bc20c508b41eb45cf7c2091280dc73cc8ba6dadfbf737f26164ae825681f89c",
+      "01_input.txt": "c28be01c207caeb56676cf81cd6f9f3060d49334a522179b278d147ad24c4081",
+      "00_metrics.json": "31a90e85626ef21673b265eab1eb9a4bfa1cefefd906e6395e7660655b91c28f",
+      "entry_snapshot.md": "db5fbfde439232e94485ba6045a0d195ff6e3887fe5f000d08199e95d455075a"
+    },
+    "body_sha256": "59e04574fc494ae398f3a443cefeead6bafcf0367ff51962f2f982244a765060",
+    "body_bytes": 1688,
+    "diff": [
+      {
+        "op": "delete",
+        "before": ",",
+        "after": ""
+      }
+    ],
+    "command": [
+      "python3",
+      "/workspace/HowToLiveBetter-KR/.claude/skills/humanize-korean/scripts/verify_gates.py",
+      "--before",
+      "_workspace/2026-10-18-038-eea4/01_input.txt",
+      "--after",
+      "_workspace/2026-10-18-038-eea4/final.md",
+      "--genre",
+      "essay",
+      "--json",
+      "--publication-manifest",
+      "manifest.json",
+      "--quote-registry",
+      "quote-attribution/root-registry-r1.json",
+      "--quote-registry-sha256",
+      "fcaea69ba82f916d15ea8f96d26b58c53af2407dcb82f2d0e5100de78102c89c",
+      "--classification-evidence-dir",
+      "fresh-finalizer-footnote-r1-038"
+    ],
+    "exit_code": 0
+  }
+]

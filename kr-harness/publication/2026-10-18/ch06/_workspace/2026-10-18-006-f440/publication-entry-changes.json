@@ -1,0 +1,103 @@
+{
+  "status": "unadopted_proposal",
+  "entry": 6,
+  "base": "strict-entry.md",
+  "base_sha256": "54e1d4d6f11e15173ea4e475ed73f771c67497342e58a76ba64eb983a5ed79d9",
+  "field_changes": [
+    {
+      "field": "비용",
+      "before": "발포정을 매일 먹으면 1년 내내 제품값이 듭니다.",
+      "after": "발포정을 매일 먹으면 1년 내내 제품값이 듭니다.",
+      "reason": "그대로 보존"
+    },
+    {
+      "field": "쉽게",
+      "before": "매일 먹어도 감기에 걸리는 횟수는 거의 줄지 않습니다. 감기에 걸린 뒤 먹기 시작하면 효과는 일정하지 않습니다. 매일 먹으면 한 번 앓는 감기 기간이 약 8% 짧아집니다. 한 번 감기에 반나절 정도 덜 아픈 셈입니다. 1년치 비용을 들일 만한지 직접 계산해 보세요. 마라톤 선수와 추위 속에서 행군하는 군인은 예외입니다. 이들이 먹으면 감기에 걸릴 위험이 절반으로 줄었습니다.",
+      "after": "일반인은 매일 먹어도 감기가 거의 줄지 않습니다. 걸린 뒤 먹는 효과도 일정하지 않습니다. 단기간 격하게 운동한 마라톤·스키 선수와 혹한 훈련 군인은 예외입니다. 이들은 감기 위험이 약 절반 줄었습니다.",
+      "reason": "120자 이내 예방 비교 중심 요약. 기준 기간 없는 반나절 환산 삭제. 복용 시점 불확실성과 단기간 강한 활동의 예외 유지."
+    },
+    {
+      "field": "이득",
+      "before": "코크런은 대조시험 29건, 11,306명의 결과를 합쳤습니다. 일반인이 매일 비타민 C를 먹어도 감기 발생은 거의 줄지 않았습니다. 감기 발생 비율은 RR 0.97입니다. RR은 위험비이며 1이면 두 집단의 위험이 같습니다. 95% CI 0.94–1.00은 신뢰범위입니다. 감기에 걸린 뒤 먹기 시작한 시험들의 결론은 '일관된 효과 없음'입니다. 효과가 있는 시험도 있고 없는 시험도 있습니다. 같은 분석에서 매일 장기 복용한 성인은 감기 기간이 약 8% 줄었습니다. 95% CI 3%–12%입니다. 아동의 감기 기간은 14%(7%–21%) 줄었습니다. 다만 마라톤 선수, 스키 선수, 추위 속 행군 군인은 예외입니다. 시험 5건, 598명에서 감기에 걸릴 위험이 약 절반 줄었습니다. 발생률은 RR 0.48(95% CI 0.35–0.64)입니다. 값이 싸고 새큼달콤한 맛이라 마시기 좋습니다. 그래서 비용에 비해 효과가 좋아 보입니다. '비타민 C는 감기 예방'이라는 말도 반세기 넘게 이어졌습니다.",
+      "after": "코크런은 감기 발생을 비교한 29건, 11,306명을 분석했습니다. 연구 중 한 번 이상 감기에 걸린 사람의 비율을 비교했습니다. 일반인 10,708명에서 매일 비타민 C를 먹은 결과입니다. 감기 발생은 거의 줄지 않았습니다. 감기 발생 위험비는 RR 0.97입니다. RR은 위험비이며 1이면 두 집단의 위험이 같습니다. 95% CI 0.94–1.00은 추정의 불확실성을 나타냅니다. 차이가 없는 값인 1도 포함합니다. 감기에 걸린 뒤 먹기 시작한 시험들의 결론은 '일관된 효과 없음'입니다. 효과가 있는 시험도 있고 없는 시험도 있습니다. 같은 분석에서 매일 장기 복용한 성인의 결과입니다. 감기 기간은 약 8% 줄었습니다. 95% CI 3%–12%입니다. 아동의 감기 기간은 14%(7%–21%) 줄었습니다. 다만 단기간 격한 신체활동을 한 집단은 예외입니다. 마라톤·스키 선수와 혹한 훈련 군인이 해당합니다. 시험 5건, 598명에서 감기에 걸릴 위험이 약 절반 줄었습니다. 위험비는 RR 0.48(95% CI 0.35–0.64)입니다. 값이 싸고 새큼달콤한 맛이라 마시기 좋습니다. 그래서 비용에 비해 효과가 좋아 보입니다. '비타민 C는 감기 예방'이라는 말도 반세기 넘게 이어졌습니다.",
+      "reason": "감기 발생 분모와 기간 정의, 일반인 표본 범위, 위험비와 불확실성 설명. 예외 활동 조건 명시. 50자 초과 문장 분리."
+    },
+    {
+      "field": "근거등급",
+      "before": "A",
+      "after": "A",
+      "reason": "그대로 보존"
+    },
+    {
+      "field": "출처",
+      "before": "Hemilä H, Chalker E (2013). Vitamin C for preventing and treating the common cold. Cochrane Database Syst Rev. https://doi.org/10.1002/14651858.CD000980.pub4",
+      "after": "Hemilä H, Chalker E (2013). Vitamin C for preventing and treating the common cold. Cochrane Database Syst Rev. https://doi.org/10.1002/14651858.CD000980.pub4",
+      "reason": "그대로 보존"
+    },
+    {
+      "field": "비고",
+      "before": "논쟁 있음. 같은 분석에서 매일 먹으면 감기 기간이 짧아졌습니다. 성인은 약 8%(3%–12%) 줄었습니다. 아동은 14%(7%–21%) 줄었습니다. 한 번 감기에 반나절 정도 덜 아픈 셈입니다. 마라톤 선수, 스키 선수, 추위 속 행군 군인은 예외입니다. 시험 5건, 598명에서 감기에 걸릴 위험이 약 절반 줄었습니다. RR 0.48, 0.35–0.64입니다. 대다수는 이런 예외 집단에 속하지 않습니다.",
+      "after": "논쟁 있음. 같은 분석에서 매일 먹으면 감기 기간이 짧아졌습니다. 성인은 약 8%(3%–12%) 줄었습니다. 아동은 14%(7%–21%) 줄었습니다. 단기간 격한 신체활동을 한 집단은 예외입니다. 마라톤·스키 선수와 혹한 훈련 군인이 해당합니다. 시험 5건, 598명에서 감기에 걸릴 위험이 약 절반 줄었습니다. RR 0.48, 0.35–0.64입니다. 대다수는 이런 예외 집단에 속하지 않습니다.",
+      "reason": "반나절 환산 삭제. 단기간 격한 신체활동 조건 명시."
+    }
+  ],
+  "primary_verification": {
+    "date_utc": "2026-10-18T17:52:57.466497+00:00",
+    "method": "Independently read complete primary abstract in existing Europe PMC core record; no full-text confirmation. Current fullTextXML request returned HTTP 500.",
+    "url": "https://doi.org/10.1002/14651858.CD000980.pub4",
+    "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/1966e93f8770c5f10e1f.json",
+    "raw_sha256": "58f8a06a205c4df73bbc7e869be667bc460c3ddef2836befa70277dcb0f582f7",
+    "pmid": "23440782",
+    "precise_level": "complete abstract and metadata including commentCorrectionList",
+    "corrections": "Metadata lists Update of pub3; no correction listed. No claim of exhaustive correction search.",
+    "quotes": [
+      "We assessed 'incidence' of colds during regular supplementation as the proportion of participants experiencing one or more colds during the study period.",
+      "In the general community trials involving 10,708 participants, the pooled RR was 0.97 (95% confidence interval (CI) 0.94 to 1.00).",
+      "Five trials involving a total of 598 marathon runners, skiers and soldiers on subarctic exercises yielded a pooled RR of 0.48 (95% CI 0.35 to 0.64).",
+      "In adults the duration of colds was reduced by 8% (3% to 12%) and in children by 14% (7% to 21%).",
+      "No consistent effect of vitamin C was seen on the duration or severity of colds in the therapeutic trials.",
+      "vitamin C may be useful for people exposed to brief periods of severe physical exercise."
+    ]
+  },
+  "intentional_scope_changes": [
+    "Removed unsupported half-day conversion from easy and note; no assumed baseline duration supplied.",
+    "Easy selects prevention direction and subgroup size; duration details remain in benefit and note.",
+    "General-community sample size added separately from total trial sample."
+  ],
+  "doi_changes": {
+    "added": [],
+    "removed": [],
+    "reason": "Existing DOI remains verified by primary abstract."
+  },
+  "title_review": {
+    "before": "### 6. 비타민 C로 감기를 예방하지 마세요",
+    "after": "### 6. 비타민 C로 감기를 예방하지 마세요",
+    "changed": false,
+    "incoming_anchor_action": "Title unchanged, preserving all incoming anchors; rg exact title searched repository Markdown/JSON."
+  },
+  "unresolved_limitations": [
+    "Full text not read; no additional dose recommendation or fixed absolute duration asserted.",
+    "Existing product taste/value descriptions are not clinical outcomes verified by this abstract."
+  ],
+  "proposal_sha256": "78c49cf95ca806748abbcd158462164ae1c6d609cb51b4f2d3a0971e383bc7c0",
+  "literal_validation": {
+    "command": [
+      "python",
+      "kr-harness/publication/2026-10-18/ch05/publication-partial-review-evidence/literal_check.py",
+      "kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-006-f440/publication-entry-proposal.md"
+    ],
+    "exit_code": 0,
+    "result": [
+      {
+        "entry": null,
+        "path": "kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-006-f440/publication-entry-proposal.md",
+        "title_chars": 19,
+        "easy_chars": 113,
+        "easy_sentences": 4,
+        "long_sentences": [],
+        "pass_length": true
+      }
+    ],
+    "method": "Actual specified read-only checker; Python len includes parentheses and spaces; all inherited narrative fields checked."
+  }
+}

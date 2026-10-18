@@ -1,0 +1,201 @@
+{
+  "entry": 15,
+  "status": "unadopted_proposal",
+  "variant": "r2",
+  "independent_exact_hash_review": "pending",
+  "base_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-015-821a/publication-entry-proposal.md",
+  "base_sha256": "a27df454f759998053ce9283b8e93f2ded99e2d3a6e71d185442936a3a1928ef",
+  "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-015-821a/publication-entry-proposal-r2.md",
+  "proposal_sha256": "4e70c9d3148ebda90535c18028bfe43b1170e2f05da8ddf4c229741a3f67392f",
+  "frozen_r1_unchanged": true,
+  "prior_changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-015-821a/publication-entry-changes.json",
+  "prior_changes_sha256": "c65063bea29c79f1bbbe8273b63d309a50e9332dc01f1c907bcd48dabd79f9f4",
+  "source_supplement_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/publication-partial-source-supplement-r2.json",
+  "source_supplement_sha256": "4a02f0d83afbe06d25179e49ded4450aae95364c8147de175d1e5e078cbc82e4",
+  "actual_read_at_utc": "2026-10-18T18:33:08.888296+00:00",
+  "verification_method": "Existing raw PDFs bytes/SHA checked; actual IHMC facsimile spreads printed118–123 visually read; Archive extracted primary fulltext pp118–123 read. No new HTTP request or source approval asserted.",
+  "actual_primary_readings": [
+    {
+      "url": "https://skat.ihmc.us/rid=1TWXTKSR8-1BSYX2S-3L9L/forer_the%20fallacy%20of%20personal%20validation_1949.pdf",
+      "at_utc": "2026-10-18T18:29:06.290233+00:00",
+      "scope": "Discovered PDF copy; identity/content must be directly verified before source approval.",
+      "status": 200,
+      "final_url": "https://skat.ihmc.us/rid=1TWXTKSR8-1BSYX2S-3L9L/forer_the%20fallacy%20of%20personal%20validation_1949.pdf",
+      "content_type": "application/pdf",
+      "path": "/workspace/.cache/howtolivebetter/publication/forer-discovery-r1/7da63172d103ed478e477f3293eb22e6a1b032f9fa054b3957d386b5231692c5.raw",
+      "sha256": "76cc0c3a0ba6ea3abc13eebe7ac5d2d26da1d02b64406442e8555d73df41920e",
+      "bytes": 723853,
+      "pdf_magic": true,
+      "pdftotext_exit": 0,
+      "text_path": "/workspace/.cache/howtolivebetter/publication/forer-discovery-r1/7da63172d103ed478e477f3293eb22e6a1b032f9fa054b3957d386b5231692c5.txt",
+      "access_for_this_review": "Existing raw facsimile directly opened/read;ROOT earlierHTTPprovenance only,not this reviewer freshHTTP",
+      "read_at_utc": "2026-10-18T18:30:59.238379+00:00",
+      "identity": "Facsimile of Forer article title/author and printedpp118–123; no assertion hostingdomain ispublisher or authorinstitution",
+      "read_scope": "IHMC3two-page scannedspreads visuallyreadpp118–123; ArchivePDFextractedtext cross-check methods/results/table1/conclusions; not a secondary paraphrase",
+      "extraction_limitation": "IHMCpdftotext almostempty because scanned images; table checked visually,not emptytext treatedasbody"
+    },
+    {
+      "url": "https://archive.org/download/wikipedia-scholarly-sources-corpus/10.1037%252Fh0034974.zip/10.1037%252Fh0059240.pdf",
+      "at_utc": "2026-10-18T18:29:06.291780+00:00",
+      "scope": "Discovered PDF copy; identity/content must be directly verified before source approval.",
+      "status": 200,
+      "final_url": "https://ia600108.us.archive.org/view_archive.php?archive=/24/items/wikipedia-scholarly-sources-corpus/10.1037%252Fh0034974.zip&file=10.1037%252Fh0059240.pdf",
+      "content_type": "application/pdf",
+      "path": "/workspace/.cache/howtolivebetter/publication/forer-discovery-r1/b25cb48e7853081cb2576166bdeacefa477a8c2a9fa174923826d24b6775bab5.raw",
+      "sha256": "e86dfca7b702723f10cb0ff4c6da3f416157e23035c9d62671e08124fd213824",
+      "bytes": 416658,
+      "pdf_magic": true,
+      "pdftotext_exit": 0,
+      "text_path": "/workspace/.cache/howtolivebetter/publication/forer-discovery-r1/b25cb48e7853081cb2576166bdeacefa477a8c2a9fa174923826d24b6775bab5.txt",
+      "access_for_this_review": "Existing raw facsimile directly opened/read;ROOT earlierHTTPprovenance only,not this reviewer freshHTTP",
+      "read_at_utc": "2026-10-18T18:30:59.238973+00:00",
+      "identity": "Facsimile of Forer article title/author and printedpp118–123; no assertion hostingdomain ispublisher or authorinstitution",
+      "read_scope": "IHMC3two-page scannedspreads visuallyreadpp118–123; ArchivePDFextractedtext cross-check methods/results/table1/conclusions; not a secondary paraphrase",
+      "extraction_limitation": "IHMCpdftotext almostempty because scanned images; table checked visually,not emptytext treatedasbody"
+    }
+  ],
+  "visual_artifacts": [
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch06-partial-review/forer-original-spread-1.png",
+      "sha256": "53c843c0f6810f551c8a89c62a1bdfdd3bb31e8542a131b5a622c7b9fa752f57",
+      "printed_pages": [
+        118,
+        119
+      ],
+      "visual_read": true
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch06-partial-review/forer-original-spread-2.png",
+      "sha256": "5500f102ad70a42b1d2ae32ffab416659e81e5267a5e1f360dca9aabd9544fcb",
+      "printed_pages": [
+        120,
+        121
+      ],
+      "visual_read": true
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch06-partial-review/forer-original-spread-3.png",
+      "sha256": "1726115dd70043b0cdbd68e9201eeade8be54ecf3f6be547c09be9ebe5f5afdb",
+      "printed_pages": [
+        122,
+        123
+      ],
+      "visual_read": true
+    }
+  ],
+  "exact_primary_evidence": [
+    {
+      "page": 120,
+      "quote": "At the next meeting the 39 students were given DIB’s to fill out",
+      "meaning": "39 students; identical sketches and 0–5 rating B methods read on printed120"
+    },
+    {
+      "page": 121,
+      "quote": "B (Sketch) 0 0 1 4 18 16 39",
+      "meaning": "Table1 counts at ratings0,1,2,3,4,5 and N39; A(DIB) row is separate"
+    },
+    {
+      "page": 121,
+      "quote": "Mean acceptance was 10.2 items.",
+      "meaning": "10.2 is accepted item count, not a mean personality rating"
+    },
+    {
+      "page": 122,
+      "quote": "Validation of a test instrument or of a personality sketch by means of personal validation is a fallacious procedure",
+      "meaning": "Conclusion concerns validation, not accuracy of all divination or faiths"
+    }
+  ],
+  "derived_calculation": {
+    "formula": "(2*1+3*4+4*18+5*16)/39 = 166/39",
+    "weighted_sum": 166,
+    "N": 39,
+    "high_ratings": "18+16=34",
+    "mean": 4.256410256410256,
+    "rounded_mean": 4.26,
+    "author_reported_mean": false,
+    "scope": "Six printed pages read: no author-reported mean0–5rating; existing derived mean wording remains intact."
+  },
+  "fields": {
+    "비용": {
+      "before": "돈이 안 듭니다. 결정을 빨리 내리는 수단을 포기하기는 어렵습니다. 앞으로는 스스로 결정해야 합니다.",
+      "after": "돈이 안 듭니다. 결정을 빨리 내리는 수단을 포기하기는 어렵습니다. 앞으로는 스스로 결정해야 합니다.",
+      "changed": false,
+      "reason": "Unchanged from frozen r1."
+    },
+    "쉽게": {
+      "before": "점성가의 적중 횟수는 아무렇게나 고를 때와 비슷했습니다. 퇴사·결혼·투자 결정을 점술에 맡기지 마세요. 오락 삼아 적은 돈을 쓰는 경우는 제외합니다. 점을 빌미로 속여 돈을 받으면 사기죄가 될 수 있습니다.",
+      "after": "점성가의 적중 횟수는 아무렇게나 고를 때와 비슷했습니다. 퇴사·결혼·투자 결정을 점술에 맡기지 마세요. 오락 삼아 적은 돈을 쓰는 경우는 제외합니다. 점을 빌미로 속여 돈을 받으면 사기죄가 될 수 있습니다.",
+      "changed": false,
+      "reason": "Unchanged from frozen r1."
+    },
+    "이득": {
+      "before": "고전적인 수업 실험에서 학생들은 성격 검사를 했습니다. 이어서 '개인 분석'을 받았습니다. 분석 내용은 모두 같았지만 대다수가 정확하다고 평했습니다. 본인이나 분석자가 받아들여도 해석이 옳다는 증거는 아닙니다. 저자는 이 점을 지적했습니다. 39명의 학생이 분석의 정확도를 0점에서 5점으로 매겼습니다. 34명이 4점이나 5점을 줬습니다. 표의 분포로 계산한 평균은 약 4.26점입니다. 이처럼 점술이 정확해 보이는 현상을 바넘 효과라고 부릅니다. 점성술도 이중맹검으로 검증했습니다. 결과는 네이처에 실렸습니다. 점성가는 성격 검사 결과 세 부를 받았습니다. 별자리와 맞는 하나를 골라야 했습니다. 116회 중 40번 맞혔습니다. 표 2의 무작위 기대 적중 횟수는 38.5번입니다. 표 2의 점성가 예상 적중 횟수는 58.5번입니다. 점술·무속을 빌미로 사람을 속여 금품을 받으면 사기죄가 될 수 있습니다. 근거는 「형법」 제347조입니다. 불행이 닥친다며 겁을 주어 돈을 받아 내는 경우도 있습니다. 공갈죄(제350조)가 될 수도 있습니다.",
+      "after": "고전적인 수업 실험에서 학생들은 성격 검사를 했습니다. 이어서 '개인 분석'을 받았습니다. 분석 내용은 모두 같았지만 대다수가 정확하다고 평했습니다. 본인이나 분석자가 받아들여도 해석이 옳다는 증거는 아닙니다. 저자는 이 점을 지적했습니다. 39명의 학생이 분석의 정확도를 0점에서 5점으로 매겼습니다. 34명이 4점이나 5점을 줬습니다. 표의 분포로 계산한 평균은 약 4.26점입니다. 이처럼 점술이 정확해 보이는 현상을 바넘 효과라고 부릅니다. 점성술도 이중맹검으로 검증했습니다. 결과는 네이처에 실렸습니다. 점성가는 성격 검사 결과 세 부를 받았습니다. 별자리와 맞는 하나를 골라야 했습니다. 116회 중 40번 맞혔습니다. 표 2의 무작위 기대 적중 횟수는 38.5번입니다. 표 2의 점성가 예상 적중 횟수는 58.5번입니다. 점술·무속을 빌미로 사람을 속여 금품을 받으면 사기죄가 될 수 있습니다. 근거는 「형법」 제347조입니다. 불행이 닥친다며 겁을 주어 돈을 받아 내는 경우도 있습니다. 공갈죄(제350조)가 될 수도 있습니다.",
+      "changed": false,
+      "reason": "Unchanged from frozen r1."
+    },
+    "근거등급": {
+      "before": "B",
+      "after": "B",
+      "changed": false,
+      "reason": "Unchanged from frozen r1."
+    },
+    "출처": {
+      "before": "Forer BR (1949). The fallacy of personal validation: A classroom demonstration of gullibility. Journal of Abnormal and Social Psychology 44(1):118-123(표 1 평점 분포: 2점 1명, 3점 4명, 4점 18명, 5점 16명, N=39). https://doi.org/10.1037/h0059240 ; Carlson S (1985). A double-blind test of astrology. Nature 318:419-425(표 2: 첫 선택 116건, 적중 40건, 무작위 기댓값 38.5, 점성가 예상 58.5. 'The data are consistent with chance, inconsistent with astrological hypothesis'). https://doi.org/10.1038/318419a0 , 논문 전문 https://muller.lbl.gov/papers/Astrology-Carlson.pdf ; 대한민국 형법 제347조(사기), 제350조(공갈) [시행 2026. 10. 2.]. https://www.law.go.kr/법령/형법/제347조 , https://www.law.go.kr/법령/형법/제350조 (2026-10-10 확인)",
+      "after": "Forer BR (1949). The fallacy of personal validation: A classroom demonstration of gullibility. Journal of Abnormal and Social Psychology 44(1):118-123(표 1 평점 분포: 2점 1명, 3점 4명, 4점 18명, 5점 16명, N=39). https://doi.org/10.1037/h0059240 , 원문 사본 https://skat.ihmc.us/rid=1TWXTKSR8-1BSYX2S-3L9L/forer_the%20fallacy%20of%20personal%20validation_1949.pdf ; Carlson S (1985). A double-blind test of astrology. Nature 318:419-425(표 2: 첫 선택 116건, 적중 40건, 무작위 기댓값 38.5, 점성가 예상 58.5. 'The data are consistent with chance, inconsistent with astrological hypothesis'). https://doi.org/10.1038/318419a0 , 논문 전문 https://muller.lbl.gov/papers/Astrology-Carlson.pdf ; 대한민국 형법 제347조(사기), 제350조(공갈) [시행 2026. 10. 2.]. https://www.law.go.kr/법령/형법/제347조 , https://www.law.go.kr/법령/형법/제350조 (2026-10-10 확인)",
+      "changed": true,
+      "reason": "Add primary facsimile access link; host is not represented as author/publisher."
+    },
+    "비고": {
+      "before": "두 논문은 각각 단독 연구입니다. Forer의 원문에는 평균 점수가 직접 적혀 있지 않습니다. 4.26은 원문 표 1의 분포에서 계산한 값입니다. Forer의 표 1 수치는 원문 재확인이 필요합니다. Carlson 결과는 이 시험에서 우연 수준과 비슷했습니다. 표 2의 38.5와 58.5는 단순 계산과 조금 다릅니다. 116을 3과 2로 나누면 각각 약 38.67과 58입니다. 어떤 신앙을 평가하지는 않습니다. 오락 삼아 적은 돈을 쓰는 경우는 해당하지 않습니다. 퇴사, 결혼, 투자 같은 결정을 점술에 맡기지 마세요. 사기죄인지 공갈죄인지는 수사기관과 법원이 판단합니다. 피해를 봤다면 경찰에 고소하는 것부터 시작합니다.",
+      "after": "두 논문은 각각 단독 연구입니다. Forer의 원문에는 평균 점수가 직접 적혀 있지 않습니다. 4.26은 원문 표 1의 분포에서 계산한 값입니다. Carlson 결과는 이 시험에서 우연 수준과 비슷했습니다. 표 2의 38.5와 58.5는 단순 계산과 조금 다릅니다. 116을 3과 2로 나누면 각각 약 38.67과 58입니다. 어떤 신앙을 평가하지는 않습니다. 오락 삼아 적은 돈을 쓰는 경우는 해당하지 않습니다. 퇴사, 결혼, 투자 같은 결정을 점술에 맡기지 마세요. 사기죄인지 공갈죄인지는 수사기관과 법원이 판단합니다. 피해를 봤다면 경찰에 고소하는 것부터 시작합니다.",
+      "changed": true,
+      "reason": "Direct fulltext/table1 verification makes the old recheck warning obsolete; remove only this warning."
+    }
+  },
+  "exact_diff": "--- publication-entry-proposal.md\n+++ publication-entry-proposal-r2.md\n@@ -4,5 +4,5 @@\n - 쉽게: 점성가의 적중 횟수는 아무렇게나 고를 때와 비슷했습니다. 퇴사·결혼·투자 결정을 점술에 맡기지 마세요. 오락 삼아 적은 돈을 쓰는 경우는 제외합니다. 점을 빌미로 속여 돈을 받으면 사기죄가 될 수 있습니다.\n - 이득: 고전적인 수업 실험에서 학생들은 성격 검사를 했습니다. 이어서 '개인 분석'을 받았습니다. 분석 내용은 모두 같았지만 대다수가 정확하다고 평했습니다. 본인이나 분석자가 받아들여도 해석이 옳다는 증거는 아닙니다. 저자는 이 점을 지적했습니다. 39명의 학생이 분석의 정확도를 0점에서 5점으로 매겼습니다. 34명이 4점이나 5점을 줬습니다. 표의 분포로 계산한 평균은 약 4.26점입니다. 이처럼 점술이 정확해 보이는 현상을 바넘 효과라고 부릅니다. 점성술도 이중맹검으로 검증했습니다. 결과는 네이처에 실렸습니다. 점성가는 성격 검사 결과 세 부를 받았습니다. 별자리와 맞는 하나를 골라야 했습니다. 116회 중 40번 맞혔습니다. 표 2의 무작위 기대 적중 횟수는 38.5번입니다. 표 2의 점성가 예상 적중 횟수는 58.5번입니다. 점술·무속을 빌미로 사람을 속여 금품을 받으면 사기죄가 될 수 있습니다. 근거는 「형법」 제347조입니다. 불행이 닥친다며 겁을 주어 돈을 받아 내는 경우도 있습니다. 공갈죄(제350조)가 될 수도 있습니다.\n - 근거등급: B\n-- 출처: Forer BR (1949). The fallacy of personal validation: A classroom demonstration of gullibility. Journal of Abnormal and Social Psychology 44(1):118-123(표 1 평점 분포: 2점 1명, 3점 4명, 4점 18명, 5점 16명, N=39). https://doi.org/10.1037/h0059240 ; Carlson S (1985). A double-blind test of astrology. Nature 318:419-425(표 2: 첫 선택 116건, 적중 40건, 무작위 기댓값 38.5, 점성가 예상 58.5. 'The data are consistent with chance, inconsistent with astrological hypothesis'). https://doi.org/10.1038/318419a0 , 논문 전문 https://muller.lbl.gov/papers/Astrology-Carlson.pdf ; 대한민국 형법 제347조(사기), 제350조(공갈) [시행 2026. 10. 2.]. https://www.law.go.kr/법령/형법/제347조 , https://www.law.go.kr/법령/형법/제350조 (2026-10-10 확인)\n-- 비고: 두 논문은 각각 단독 연구입니다. Forer의 원문에는 평균 점수가 직접 적혀 있지 않습니다. 4.26은 원문 표 1의 분포에서 계산한 값입니다. Forer의 표 1 수치는 원문 재확인이 필요합니다. Carlson 결과는 이 시험에서 우연 수준과 비슷했습니다. 표 2의 38.5와 58.5는 단순 계산과 조금 다릅니다. 116을 3과 2로 나누면 각각 약 38.67과 58입니다. 어떤 신앙을 평가하지는 않습니다. 오락 삼아 적은 돈을 쓰는 경우는 해당하지 않습니다. 퇴사, 결혼, 투자 같은 결정을 점술에 맡기지 마세요. 사기죄인지 공갈죄인지는 수사기관과 법원이 판단합니다. 피해를 봤다면 경찰에 고소하는 것부터 시작합니다.\n+- 출처: Forer BR (1949). The fallacy of personal validation: A classroom demonstration of gullibility. Journal of Abnormal and Social Psychology 44(1):118-123(표 1 평점 분포: 2점 1명, 3점 4명, 4점 18명, 5점 16명, N=39). https://doi.org/10.1037/h0059240 , 원문 사본 https://skat.ihmc.us/rid=1TWXTKSR8-1BSYX2S-3L9L/forer_the%20fallacy%20of%20personal%20validation_1949.pdf ; Carlson S (1985). A double-blind test of astrology. Nature 318:419-425(표 2: 첫 선택 116건, 적중 40건, 무작위 기댓값 38.5, 점성가 예상 58.5. 'The data are consistent with chance, inconsistent with astrological hypothesis'). https://doi.org/10.1038/318419a0 , 논문 전문 https://muller.lbl.gov/papers/Astrology-Carlson.pdf ; 대한민국 형법 제347조(사기), 제350조(공갈) [시행 2026. 10. 2.]. https://www.law.go.kr/법령/형법/제347조 , https://www.law.go.kr/법령/형법/제350조 (2026-10-10 확인)\n+- 비고: 두 논문은 각각 단독 연구입니다. Forer의 원문에는 평균 점수가 직접 적혀 있지 않습니다. 4.26은 원문 표 1의 분포에서 계산한 값입니다. Carlson 결과는 이 시험에서 우연 수준과 비슷했습니다. 표 2의 38.5와 58.5는 단순 계산과 조금 다릅니다. 116을 3과 2로 나누면 각각 약 38.67과 58입니다. 어떤 신앙을 평가하지는 않습니다. 오락 삼아 적은 돈을 쓰는 경우는 해당하지 않습니다. 퇴사, 결혼, 투자 같은 결정을 점술에 맡기지 마세요. 사기죄인지 공갈죄인지는 수사기관과 법원이 판단합니다. 피해를 봤다면 경찰에 고소하는 것부터 시작합니다.\n",
+  "doi_changes": {
+    "added": [],
+    "removed": []
+  },
+  "intentional_numerical_scope_changes": [],
+  "unchanged_scope": [
+    "Carlson findings and all table2 arithmetic notes unchanged",
+    "Criminal law articles, conditions, dates and warnings unchanged",
+    "All narrative numbers unchanged except removal of obsolete warning reference to table1; original table1 figures preserved",
+    "Title and cost tag unchanged"
+  ],
+  "remaining_limitations": [
+    "No exhaustive correction/history search newly performed; this r2 only closes actual Forer original/table verification.",
+    "r1 Carlson/legal provenance remains at its stated scope."
+  ],
+  "checks": {
+    "literal_check": {
+      "command": "python /workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/publication-partial-review-evidence/literal_check.py /workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-015-821a/publication-entry-proposal-r2.md",
+      "exit_code": 0,
+      "result": [
+        {
+          "entry": null,
+          "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-015-821a/publication-entry-proposal-r2.md",
+          "title_chars": 31,
+          "easy_chars": 115,
+          "easy_sentences": 4,
+          "long_sentences": [],
+          "pass_length": true
+        }
+      ]
+    },
+    "six_single_line_fields": true,
+    "field_order": [
+      "비용",
+      "쉽게",
+      "이득",
+      "근거등급",
+      "출처",
+      "비고"
+    ],
+    "title_identical": true,
+    "cost_tag_identical": true,
+    "new_or_modified_narrative_sentence_lengths": []
+  }
+}

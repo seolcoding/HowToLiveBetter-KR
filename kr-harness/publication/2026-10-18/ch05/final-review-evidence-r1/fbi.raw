@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script nonce="fmwrhuji1fasoerw">
+    if (window.trustedTypes) {
+        trustedTypes.createPolicy('default', {
+            createHtml: s => { console.error(`TrustedHTML Violation: ${s}`); return null; },
+            createScript: s => { console.error(`TrustedScript Violation: ${s}`); return null; },
+            createScriptURL: s => { const prefix = ['https://www.gstatic.com/recaptcha/releases/', 'https://www.googletagmanager.com/gtag/js']; let u = undefined; try { u = new URL(s); u = `${u.protocol}//${u.host}${u.pathname}`; } catch { } if ((u && prefix.some(x => u.startsWith(x))) || 'https://www.google-analytics.com/analytics.js' === s) { return s; } else { console.error(`TrustedScriptURL Violation: ${s}`); return null; } }
+        });
+    }
+</script>
+    <link rel="stylesheet" href="/css/psa.css">
+    <!-- We participate in the US government's analytics program. See the data at analytics.usa.gov. -->
+    <script async src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=DOJ" id="_fed_an_ua_tag" nonce="fmwrhuji1fasoerw"></script>
+    <title>Internet Crime Complaint Center (IC3) | Scammers Target and Exploit Owners of Cryptocurrencies in Liquidity Mining Scam</title>
+</head>
+<body>
+    <a class="skip-link" href="#main">Skip to main</a>
+    <div>
+        <header>
+            <picture>
+                <source srcset="/img/IC3PressReleaseBanner3.webp" type="image/webp">
+                <img class="logo" src="/img/IC3PressReleaseBanner3.png" alt="FBI/IC3 Public Service Announcement">
+            </picture>
+        </header>
+        <div id="container">
+            <aside>
+                <time class="published" datetime="2022-07-21T10:00:00.000-04:00">July 21, 2022</time>
+                <div>
+                    <div>
+                        Alert Number
+                    </div>
+                    <div id="alert-number">
+                        
+    I-072122-PSA
+
+                    </div>
+
+                    <div>
+                        <p>Questions regarding this PSA should be directed to your local <span class="bold">FBI Field Office</span>.</p>
+                        <p>
+                            Local Field Office Locations: <a target="_blank" href="http://www.fbi.gov/contact-us/field-offices">www.fbi.gov/contact-us/field-offices</a>
+                        </p>
+                    </div>
+                </div>
+            </aside>
+            <main>
+                <h2>Scammers Target and Exploit Owners of Cryptocurrencies in Liquidity Mining Scam</h2>
+                
+<style nonce="fmwrhuji1fasoerw">
+    main > footer hr {margin:0 60% 0 0;width:40%;border-color:currentColor;}
+    .sidebar {float:right;background-color:#00f;color:#fff;border:thin solid #000;padding:0.5em;margin:0.5em;max-width:25%;}
+    @media (prefers-color-scheme:dark) { .sidebar {border-color:#ccc;color:#ccc} .sidebar .footnote a {color:#ccc;} }
+    .sidebar h3 {text-decoration:underline;text-align:center;}
+    .sidebar .footnote a {color:#fff;}
+</style>
+
+<aside class="sidebar">
+    <header><h3>Liquidity Mining</h3></header>
+    <p>Liquidity Mining is an investment strategy used to earn passive income with cryptocurrency. In legitimate liquidity mining operations, investors stake<sup class="footnote" id="sideretfn1"><a aria-label="footnote" href="#sidefn1">1</a></sup> their cryptocurrency in a liquidity pool to provide traders with the liquidity necessary to conduct transactions. In return, the investor receives a portion of the trading fees.</p>
+    <footer>
+        <hr>
+        <p id="sidefn1" class="footnote"><sup>1</sup><dfn>Term used to describe investing cryptocurrency and receiving rewards for holding it for a period of time.</dfn><a title="Jump back to footnote 1 in the text" href="#sideretfn1">↩</a></p>
+    </footer>
+</aside>
+<p>The FBI is issuing this Public Service Announcement to warn American citizens about a cryptocurrency scam using an investment strategy called Liquidity Mining<sup class="footnote" id="retfna"><a aria-label="footnote" href="#fna">a</a></sup> in which scammers exploit owners of cryptocurrency, typically Tether (USDT) and/or Ethereum (ETH). The scammer builds a professional or personal relationship with victims over a few days to weeks, gives instructions for purchasing if the victims do not already own cryptocurrency, and entices them to participate in liquidity mining by guaranteeing a return on investment of one to three percent daily. Scammers convince victims to link their cryptocurrency wallet<sup class="footnote" id="retfnb"><a aria-label="footnote" href="#fnb">b</a></sup> to a fraudulent liquidity mining application<sup class="footnote" id="retfnc"><a aria-label="footnote" href="#fnc">c</a></sup>. Scammers then wipe out the victims' funds without notification or permission from the victim.</p>
+<p>Since January 2019, according to the FBI's Internet Crime Complaint Center (IC3) and open source, this scam has been responsible for over $70 million in combined victim losses.</p>
+<h3>Tactics:</h3>
+<p>Scammers approach potential victims through an unsolicited direct message (DM) on social media, dating applications, or messaging services such as Facebook, Instagram, Twitter, LinkedIn, WhatsApp, etc. Victims may also learn of the fraudulent liquidity mining site through someone they know who is unwittingly being scammed on the same platform. Scammers do not differentiate between individuals who own or do not own cryptocurrency, directing victims who do not already own cryptocurrency to set up an account with a wallet service and purchase cryptocurrency. The scam does not require a minimum investment, allowing the victims to "invest" any amount they want.</p>
+<p>In the DM approach, scammers send out unsolicited messages to potential victims through social media or messaging services. The scammer engages the victim in conversation and attempts to initiate a personal or professional relationship, building trust over a period of days to weeks. During this period, the scammer will bring up the topic of cryptocurrency investment opportunities, including liquidity mining. The scammer states they have used this technique for a long time and have seen an amazing return on investment. The scam is not immediately apparent since the overall conversation is two people trying to get to know each other.</p>
+<p>In the word-of-mouth approach, victims who invested into the scammers' liquidity mining initially see the purported returns on investment, building a false sense of security that encourages victims to continue purchasing and "invest" additional cryptocurrency. The first victim then tells their contacts about this lucrative investment opportunity, bringing more victims into the scam. The scammers then proceed to empty the victims' wallets. This approach may be more effective since the fraudulent platforms are recommended by someone a victim trusts rather than an unknown party.</p>
+<p>Whatever initial contact method is used, victims who express an interest in the investment receive a link to the fraudulent liquidity mining application. In order to begin investing, the victim must link their cryptocurrency wallet to the application. The scammers instruct victims on how to connect their cryptocurrency wallet to the liquidity mining operation by clicking a button to receive a so-called mining certificate, voucher, or node, in exchange for a small fee. A pop-up designed to mirror the interface of the wallet application presents a list of permissions it is allegedly requesting. By clicking the link and accepting the permissions presented, victims unknowingly authorize scammers to pull an unlimited amount of funds out of their cryptocurrency wallets without permission or notification.<sup class="footnote" id="retfnd"><a aria-label="footnote" href="#fnd">d</a></sup></p>
+<p>In the liquidity mining scam, victims move cryptocurrency from their wallets to the liquidity mining platform and see the purported returns on a falsified dashboard. Believing their investments to be a success, victims purchase additional cryptocurrency. Scammers ultimately move all stored cryptocurrency and investments made to a scammer-controlled wallet.</p>
+<p>Once the victim's money is stolen, the victim typically contacts their wallet provider or the customer service portal on the scam application. Individuals purporting to be customer service representatives for the scam may present one of several explanations as to where the money went and why it is no longer accessible, culminating in the assertion that the victim needs to deposit additional funds in order to receive their money back. Victims are unable to reclaim their funds even if they add additional funds as directed.</p>
+<h3>Actions to Protect Yourself</h3>
+<ul>
+    <li>Be cognizant that investors in legitimate liquidity mining operations deposit funds into the platform and later withdraw the original funds along with any returns generated. Reconsider joining pools that stray from this procedure. In a legitimate liquidity mining process, returns are usually tied to cryptocurrency market fluctuations in the specific cryptocurrency or cryptocurrency pair being used.</li>
+    <li>Be vigilant when learning of investment opportunities via online research. Scam websites or applications are not usually advertised online, nor are they allowed to be indexed by webcrawlers from search engines like Google and others. Verify the spelling of web addresses, websites, and email addresses that look trustworthy, but may be imitations of legitimate websites.</li>
+    <li>If you are concerned about the legitimacy of the domain, do not connect your cryptocurrency wallet.</li>
+    <li>Do not send payment to someone you have only spoken to online, even if you believe you have established a relationship with the individual.</li>
+    <li>Authenticate all links sent from known and unknown contacts before clicking.</li>
+    <li>Periodically use a third-party token allowance checker to determine whether you have inadvertently permitted any sites or applications access to your wallet.</li>
+</ul>
+<h3>Reporting Notice</h3>
+<p>If you believe you have been a victim of a Liquidity Mining Scam or other fraudulent scheme, please file a report with the FBI's Internet Crime Complaint Center at <a href="https://www.ic3.gov/">www.ic3.gov</a>. If possible, include the following:</p>
+<ul>
+    <li>Identifying information about the individuals, including name, phone number, address, and email address.</li>
+    <li>Financial transaction information such as the date, type of payment, amount, account numbers involved (to include cryptocurrency wallet), the name and address of the receiving financial institution, and receiving cryptocurrency addresses.</li>
+</ul>
+<footer>
+    <hr>
+    <p id="fna"><sup>a</sup> Scammers may refer to the investment opportunity as a liquidity pool, liquidity mining, or mining pool; for purposes of this PSA, the term liquidity mining will be used to describe all iterations of the scheme.<a title="Jump back to footnote a in the text" href="#retfna">↩</a></p>
+    <p id="fnb"><sup>b</sup> A "<dfn>cryptocurrency wallet</dfn>" is software for storing cryptocurrency and other virtual assets.<a title="Jump back to footnote b in the text" href="#retfnb">↩</a></p>
+    <p id="fnc"><sup>c</sup> This linkage is achieved through the use of dApps aka <dfn>decentralized applications</dfn>. Similar to normal apps, the difference being dApps run on peer-to-peer networks or on the blockchain, and are not controlled by a single entity; once published, the dApps become public and open-source.<a title="Jump back to footnote c in the text" href="#retfnc">↩</a></p>
+    <p id="fnd"><sup>d</sup> This is accomplished through a function of a <dfn>smart contract</dfn>, which is a program stored on the cryptocurrency blockchain and executes automatically when specific conditions are met.<a title="Jump back to footnote d in the text" href="#retfnd">↩</a></p>
+</footer>
+            </main>
+        </div>
+    </div>
+</body>
+</html>

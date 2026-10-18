@@ -1,0 +1,362 @@
+{
+  "chapter": 6,
+  "status": "completed_exact_partial_review_r4",
+  "manifest_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/author-partial-manifest-4.json",
+  "manifest_sha256": "dad549642e0b8da686b8b98b532e49f1591898a4f4ebeeae18e13d7e633bbaf1",
+  "entries": [
+    {
+      "entry": 11,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-011-da33/publication-entry-proposal.md",
+      "proposal_sha256": "729e0b058e4965f25b65b5b8024eff85a32e1ea8354b67c6f7bce071a1723d34",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-011-da33/publication-entry-changes.json",
+      "changes_sha256": "d488e9f95754163926e8afe6000d3fa7017f1212fe8b3e7ca90289cf5221848b",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-011-da33/strict-entry.md",
+      "base_strict_entry_sha256": "78cfb541cc06ea35a2059ea07218c1136586f950942270a486746ff6901d5c5c",
+      "literal_exit_code": 0,
+      "decision": "approve",
+      "all_four_complete_fields_read": true,
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "snapshot_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-011-da33/entry_snapshot.md",
+      "snapshot_sha256": "78cfb541cc06ea35a2059ea07218c1136586f950942270a486746ff6901d5c5c",
+      "strict_candidate_contains_exact_base": true,
+      "length_check": {
+        "entry": 11,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-011-da33/publication-entry-proposal.md",
+        "title_chars": 33,
+        "easy_chars": 91,
+        "easy_sentences": 3,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "number": true,
+        "six_labels": true,
+        "tags": true,
+        "grade": true
+      },
+      "production_layout_check": true,
+      "initial_canonical_entry": {
+        "entry": 11,
+        "baseline_entry_sha256": "78cfb541cc06ea35a2059ea07218c1136586f950942270a486746ff6901d5c5c",
+        "findings": [
+          {
+            "severity": "warn",
+            "field": "쉽게",
+            "before_excerpt": "복용을 끊으면 장 안 세균은 원래대로 돌아갑니다.",
+            "request": "지속적 변화 근거 부족을 모든 사람의 완전 원상복귀로 단정하지 마세요. 일부 면역반응·장 증상 개선을 보고한 고찰이므로 장건강 전체의 무효로 넓히지 마세요.",
+            "evidence_key": "10.1038/s41430-018-0135-9"
+          }
+        ],
+        "candidate_review": "pending",
+        "snapshot_path": "_workspace/2026-10-18-011-da33/entry_snapshot.md",
+        "manifest_entry_sha256": "78cfb541cc06ea35a2059ea07218c1136586f950942270a486746ff6901d5c5c",
+        "snapshot_sha_matches_manifest": true
+      },
+      "finding_closure": "Khalesi 원초록 전체를 직접 읽었다. 건강성인 실험45건/제품균의일시증가·지속변화근거부족·혈중지질근거부족이 맞다. 면역반응/대변형태·배변/여성질내유산균 등 일부개선을 보존해 초기warn인 복용중단후완전원상복귀·모든장건강무효 확대를 해소했다. 특정질환/균주·항생제후설사 사용은 이 건강성인 장기복용 결론과 구분한 안내다.",
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "revision_requests": [],
+      "proposed_root_operation": {
+        "type": "replace_complete_strict_entry_body",
+        "before_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-011-da33/strict-entry.md",
+        "before_entire_entry_sha256": "78cfb541cc06ea35a2059ea07218c1136586f950942270a486746ff6901d5c5c",
+        "after_proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-011-da33/publication-entry-proposal.md",
+        "after_original_proposal_sha256": "729e0b058e4965f25b65b5b8024eff85a32e1ea8354b67c6f7bce071a1723d34",
+        "effective_after_sha256": "729e0b058e4965f25b65b5b8024eff85a32e1ea8354b67c6f7bce071a1723d34",
+        "effective_after_rule": "proposal.rstrip()+original strict entry trailing whitespace; preserve original separators",
+        "supersession": "Latest approved full replaces any initial field/older full once.",
+        "integration_authorized": false
+      }
+    },
+    {
+      "entry": 12,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-012-6b8a/publication-entry-proposal.md",
+      "proposal_sha256": "2c9693b37e35e17fe1112bb42997f6ca6f4ac8cf6626ad752a65cf64cd88fbae",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-012-6b8a/publication-entry-changes.json",
+      "changes_sha256": "2e9c3b59125a630a766b592748efcd8aff72af1680a5a0c2a3bee12e84d32793",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-012-6b8a/strict-entry.md",
+      "base_strict_entry_sha256": "4789e353bcf86ec20a9c74fea90c235f0e9c073c8210c451df5effec91517391",
+      "literal_exit_code": 0,
+      "decision": "approve",
+      "all_four_complete_fields_read": true,
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "snapshot_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-012-6b8a/entry_snapshot.md",
+      "snapshot_sha256": "2f3d357f6e7182c2c878aaaca69de6bb7f7a9a5b3486393c3baa92d9109e830e",
+      "strict_candidate_contains_exact_base": true,
+      "length_check": {
+        "entry": 12,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-012-6b8a/publication-entry-proposal.md",
+        "title_chars": 28,
+        "easy_chars": 97,
+        "easy_sentences": 4,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "number": true,
+        "six_labels": true,
+        "tags": true,
+        "grade": true
+      },
+      "production_layout_check": true,
+      "initial_canonical_entry": {
+        "entry": 12,
+        "baseline_entry_sha256": "2f3d357f6e7182c2c878aaaca69de6bb7f7a9a5b3486393c3baa92d9109e830e",
+        "findings": [],
+        "candidate_review": "pending",
+        "snapshot_path": "_workspace/2026-10-18-012-6b8a/entry_snapshot.md",
+        "manifest_entry_sha256": "2f3d357f6e7182c2c878aaaca69de6bb7f7a9a5b3486393c3baa92d9109e830e",
+        "snapshot_sha_matches_manifest": true
+      },
+      "finding_closure": "두 PLOS 원문XML의초록·2016참가자/결과·표2/논의·2025연구특성/급성메타결과/제한을 직접 읽었다.3018명18~65중증질환제외/30일중재+60일추적/자기보고·IRR.71CI.56–.89와 illness유의차이없음이 맞다. 정신건강30일작은차이 임상비의미/90일비유의·업무능률/불안 비유의·관련중대이상반응미보고도 맞다.2025는11시험3177명(3018명한시험과 작은다른시험;각분석분모와구분),직후/1시간염증증가·면역변화비유의·스트레스12시간만유의가 맞다. 병가감소를 면역강화·실제아픈일수감소로 바꾸지 않고 장기안전성/심혈관질환자일반화 제한을 보존했다.",
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "revision_requests": [],
+      "proposed_root_operation": {
+        "type": "replace_complete_strict_entry_body",
+        "before_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-012-6b8a/strict-entry.md",
+        "before_entire_entry_sha256": "4789e353bcf86ec20a9c74fea90c235f0e9c073c8210c451df5effec91517391",
+        "after_proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-012-6b8a/publication-entry-proposal.md",
+        "after_original_proposal_sha256": "2c9693b37e35e17fe1112bb42997f6ca6f4ac8cf6626ad752a65cf64cd88fbae",
+        "effective_after_sha256": "2c9693b37e35e17fe1112bb42997f6ca6f4ac8cf6626ad752a65cf64cd88fbae",
+        "effective_after_rule": "proposal.rstrip()+original strict entry trailing whitespace; preserve original separators",
+        "supersession": "Latest approved full replaces any initial field/older full once.",
+        "integration_authorized": false
+      }
+    },
+    {
+      "entry": 13,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-013-8319/publication-entry-proposal.md",
+      "proposal_sha256": "995ae8422668e5476349cfcdf374187bde2c851c63f679dfa6dda40eb4c1501d",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-013-8319/publication-entry-changes.json",
+      "changes_sha256": "103f177e3b6b31c2850a8e1b4653d4eebbb335e8f0813d3112e73d386d7e0e22",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-013-8319/strict-entry.md",
+      "base_strict_entry_sha256": "d6ac3781f59acebb3f7620a2bf07ee7c3c031e262af1b8062f8d3e614b8d9efc",
+      "literal_exit_code": 0,
+      "decision": "approve",
+      "all_four_complete_fields_read": true,
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "snapshot_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-013-8319/entry_snapshot.md",
+      "snapshot_sha256": "d6ac3781f59acebb3f7620a2bf07ee7c3c031e262af1b8062f8d3e614b8d9efc",
+      "strict_candidate_contains_exact_base": true,
+      "length_check": {
+        "entry": 13,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-013-8319/publication-entry-proposal.md",
+        "title_chars": 29,
+        "easy_chars": 66,
+        "easy_sentences": 2,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "number": true,
+        "six_labels": true,
+        "tags": true,
+        "grade": true
+      },
+      "production_layout_check": true,
+      "initial_canonical_entry": {
+        "entry": 13,
+        "baseline_entry_sha256": "d6ac3781f59acebb3f7620a2bf07ee7c3c031e262af1b8062f8d3e614b8d9efc",
+        "findings": [],
+        "candidate_review": "pending",
+        "snapshot_path": "_workspace/2026-10-18-013-8319/entry_snapshot.md",
+        "manifest_entry_sha256": "d6ac3781f59acebb3f7620a2bf07ee7c3c031e262af1b8062f8d3e614b8d9efc",
+        "snapshot_sha_matches_manifest": true
+      },
+      "finding_closure": "Klein 원초록 전체와Fenton 원문XML초록·결과·표1·논의/결론을 직접 읽었다.2015당시상업디톡스식단임상근거부족/RCT미발견,2016문헌8278중1코호트/남성흡연자식단산부하-방광암 비유의·알칼리수나암치료직접시험없음이 맞다. 초록OR/p=.36 대본문RR/p=.38 모순을 명시하고 수치를 선택확정하지 않았다. 현재모든제품영구무효 증명이 아니라 당시근거부족임을 유지한다.",
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "revision_requests": [],
+      "proposed_root_operation": {
+        "type": "replace_complete_strict_entry_body",
+        "before_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-013-8319/strict-entry.md",
+        "before_entire_entry_sha256": "d6ac3781f59acebb3f7620a2bf07ee7c3c031e262af1b8062f8d3e614b8d9efc",
+        "after_proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-013-8319/publication-entry-proposal.md",
+        "after_original_proposal_sha256": "995ae8422668e5476349cfcdf374187bde2c851c63f679dfa6dda40eb4c1501d",
+        "effective_after_sha256": "995ae8422668e5476349cfcdf374187bde2c851c63f679dfa6dda40eb4c1501d",
+        "effective_after_rule": "proposal.rstrip()+original strict entry trailing whitespace; preserve original separators",
+        "supersession": "Latest approved full replaces any initial field/older full once.",
+        "integration_authorized": false
+      }
+    },
+    {
+      "entry": 14,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-014-18ba/publication-entry-proposal.md",
+      "proposal_sha256": "c76f50c6b4b49706ade7e3dbd7cd899f141afa646ebb200740964899ce3414f4",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-014-18ba/publication-entry-changes.json",
+      "changes_sha256": "49cdc765d0fe978717f176606f93c656c7753e17766b84faba9dbbe194ba31b7",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-014-18ba/strict-entry.md",
+      "base_strict_entry_sha256": "102bf99e83f072939ce24378cb0be2af9225adfc15d24e11c37f74045c4bd503",
+      "literal_exit_code": 0,
+      "decision": "approve",
+      "all_four_complete_fields_read": true,
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "snapshot_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-014-18ba/entry_snapshot.md",
+      "snapshot_sha256": "102bf99e83f072939ce24378cb0be2af9225adfc15d24e11c37f74045c4bd503",
+      "strict_candidate_contains_exact_base": true,
+      "length_check": {
+        "entry": 14,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-014-18ba/publication-entry-proposal.md",
+        "title_chars": 28,
+        "easy_chars": 120,
+        "easy_sentences": 4,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "number": true,
+        "six_labels": true,
+        "tags": true,
+        "grade": true
+      },
+      "production_layout_check": true,
+      "initial_canonical_entry": {
+        "entry": 14,
+        "baseline_entry_sha256": "102bf99e83f072939ce24378cb0be2af9225adfc15d24e11c37f74045c4bd503",
+        "findings": [
+          {
+            "severity": "warn",
+            "field": "이득",
+            "before_excerpt": "'8x8'을 뒷받침하는 과학적 연구는 찾지 못했습니다.",
+            "request": "2002년 고찰의 결론임을 명시하세요. 온화한 기후에서 주로 앉아서 지내는 건강한 성인 대상이라는 적용범위를 보존하세요.",
+            "evidence_key": "10.1152/ajpregu.00365.2002"
+          }
+        ],
+        "candidate_review": "pending",
+        "snapshot_path": "_workspace/2026-10-18-014-18ba/entry_snapshot.md",
+        "manifest_entry_sha256": "102bf99e83f072939ce24378cb0be2af9225adfc15d24e11c37f74045c4bd503",
+        "snapshot_sha_matches_manifest": true
+      },
+      "finding_closure": "Valtin 원초록 전체를 직접 읽었다.2002년8×8근거검색에서지지연구를 찾지못했고 수천명식품/음료조사로과도한양불필요를시사했다. 온화한기후·주로앉아사는건강성인이라는범위와고온/격한활동·질환예외를 보존했다. 초기warn인시점/모집단누락을해소했다. 신결석/고령자의정확섭취량을이자료만으로정하지않는다고독자에게한정했다.8온스약240mL는반올림으로타당하다.",
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "revision_requests": [],
+      "proposed_root_operation": {
+        "type": "replace_complete_strict_entry_body",
+        "before_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-014-18ba/strict-entry.md",
+        "before_entire_entry_sha256": "102bf99e83f072939ce24378cb0be2af9225adfc15d24e11c37f74045c4bd503",
+        "after_proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-014-18ba/publication-entry-proposal.md",
+        "after_original_proposal_sha256": "c76f50c6b4b49706ade7e3dbd7cd899f141afa646ebb200740964899ce3414f4",
+        "effective_after_sha256": "c76f50c6b4b49706ade7e3dbd7cd899f141afa646ebb200740964899ce3414f4",
+        "effective_after_rule": "proposal.rstrip()+original strict entry trailing whitespace; preserve original separators",
+        "supersession": "Latest approved full replaces any initial field/older full once.",
+        "integration_authorized": false
+      }
+    }
+  ],
+  "approved_entries": [
+    11,
+    12,
+    13,
+    14
+  ],
+  "revise_entries": [],
+  "actual_primary_readings": [
+    {
+      "artifact_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-011-da33/source-evidence/primary-abstract.json",
+      "artifact_sha256": "4fda5acedea97b7c8601a2effe0ca2140a5738758719a257e4150aedaf3a8b31",
+      "url": "https://doi.org/10.1038/s41430-018-0135-9",
+      "read_at_utc": "2026-10-18T18:24:00.864400+00:00",
+      "read_scope": "Complete original indexed abstract; not all fulltext",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/tmp/ch06e12-0161749.xml",
+      "artifact_sha256": "e01e48c5d4dc9fcca7231bd6dff7f910b471d2246c2b5f9c69c874b0ac174636",
+      "url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0161749&type=manuscript",
+      "read_at_utc": "2026-10-18T18:24:00.864593+00:00",
+      "read_scope": "Abstract;Participants;Results includingtable2;mentalcomponent and adverse-event discussion; not all supplements",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/tmp/ch06e12-0317615.xml",
+      "artifact_sha256": "4f6e369d863366315d1d14907b75367b68a8b21aa5068c4bba809f75c436c01a",
+      "url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0317615&type=manuscript",
+      "read_at_utc": "2026-10-18T18:24:00.864731+00:00",
+      "read_scope": "Abstract;studycharacteristics/table1;inflammation/stress/immunity/narrative results and limitations;not allsupplements",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-013-8319/source-evidence/primary-1.json",
+      "artifact_sha256": "71decf9c06765a0eb40330f1479b0fb8d3c513764bd82b7bba8258cdf5a6e444",
+      "url": "https://doi.org/10.1111/jhn.12286",
+      "read_at_utc": "2026-10-18T18:24:00.864772+00:00",
+      "read_scope": "Complete original abstract only",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-013-8319/source-evidence/fenton-full.xml",
+      "artifact_sha256": "d56524db52e9334f21ec13a3d92bcadaac2f7357b77a72f34dff0b67d335b7aa",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4916623/fullTextXML",
+      "read_at_utc": "2026-10-18T18:24:00.864858+00:00",
+      "read_scope": "Abstract;results/table1;discussion and conclusion;actual inconsistentOR/RR/p labels read",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/1977fb61e79fba94c5ad.json",
+      "artifact_sha256": "4244cbcd6ada7bb25ebf088ce4b8790de5daf3bdff37d108618de79044b10d7b",
+      "url": "https://doi.org/10.1152/ajpregu.00365.2002",
+      "read_at_utc": "2026-10-18T18:24:00.864896+00:00",
+      "read_scope": "Complete original abstract and its applicability exclusions",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    }
+  ],
+  "prior_actual_reading_reuse": [],
+  "cross_reference_review": [
+    {
+      "scope": "No outgoing numbered/chapter cross-reference in selected11–14 bodies; original entry titles retained. Chapter navigation short anchors remain same topics; final29map review still needed.",
+      "decision": "no_new_target_reference"
+    }
+  ],
+  "production_helper_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/scripts/humanize_publication.py",
+  "production_helper_sha256": "244c194c7620c3095dc3a972eecdaa4e17fab8a0a301ae8b601cb8401569bfd3",
+  "helper_code_modified": false,
+  "fresh_http_performed": false,
+  "whole29_approval": false,
+  "integration_approval": false,
+  "formal_kr_fit_approval": false,
+  "preservation": "Prior reviews/frozen proposals/canonical/public/runs/gates/git unchanged."
+}

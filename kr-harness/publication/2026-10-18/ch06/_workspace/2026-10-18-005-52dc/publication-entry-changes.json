@@ -1,0 +1,86 @@
+{
+  "status": "unadopted_proposal",
+  "entry": 5,
+  "baseline": "strict-entry.md",
+  "baseline_sha256": "4a688842301905396aaa30198fe59962e7b43fda1511be910be19a09145b90c1",
+  "proposal_sha256": "8736893f0d4a1b1674f79f24b4518afe70b03c3ee395e5e1b3912e3b54251260",
+  "fields": [
+    {
+      "field": "비용",
+      "before": "매달 제품값이 들고 오래 먹을수록 그 돈이 쌓입니다.",
+      "after": "매달 제품값이 들고 오래 먹을수록 그 돈이 쌓입니다.",
+      "reason": "변경 없음"
+    },
+    {
+      "field": "쉽게",
+      "before": "무릎 관절염 환자는 가짜약을 24주간 먹어도 6할이 덜 아프다고 했습니다. 글루코사민이나 콘드로이틴은 통증이 나아진 비율이 4~5퍼센트포인트 높습니다. 우연일 가능성을 배제하지 못합니다. 1년 내내 돈을 써도 가짜약의 그 6할 효과와 다를지 불확실합니다.",
+      "after": "무릎 관절염에서 글루코사민이나 콘드로이틴의 효과는 불확실합니다. 통증이 20% 이상 줄어든 비율은 가짜약보다 4~5퍼센트포인트 높았습니다. 이 차이가 우연일 가능성을 배제하지 못합니다.",
+      "reason": "120자 이내 독자 요약. 24주 결과를 1년 효과로 외삽하는 문장을 제외하고 통증 호전 기준과 핵심 차이·불확실성을 명시."
+    },
+    {
+      "field": "이득",
+      "before": "GAIT 시험에는 무릎 골관절염 환자 1,583명이 참여했습니다. 환자들은 24주간 복용했습니다. 가짜약(위약)을 먹은 사람 중 60.1%가 통증이 나아졌다고 했습니다. 글루코사민은 위약보다 3.9퍼센트포인트 높았습니다(P=0.30). 콘드로이틴은 위약보다 5.3퍼센트포인트 높았습니다(P=0.17). 둘을 함께 먹으면 위약보다 6.5퍼센트포인트 높았습니다(P=0.09). 이 차이가 우연일 가능성을 배제하지 못합니다. 같은 시험에서 치료약인 셀레콕시브도 비교했습니다. 통증이 나아진 비율은 위약보다 10.0퍼센트포인트 높았습니다(P=0.008). '연골의 원료를 보충한다'는 말이 맞는 처방처럼 들립니다. 가짜약만 먹어도 6할이 덜 아프다고 했다는 사실은 잘 알려져 있지 않습니다. 그래서 가성비가 좋아 보입니다.",
+      "after": "GAIT 시험에는 무릎 골관절염 환자 1,583명이 참여했습니다. 환자들은 24주간 복용했습니다. 통증 호전은 처음보다 통증이 20% 이상 줄어든 경우입니다. 가짜약(위약)을 먹은 사람 중 60.1%가 이 기준에 들었습니다. 글루코사민은 위약보다 3.9퍼센트포인트 높았습니다(P=0.30). 콘드로이틴은 위약보다 5.3퍼센트포인트 높았습니다(P=0.17). 둘을 함께 먹으면 위약보다 6.5퍼센트포인트 높았습니다(P=0.09). 이 차이가 우연일 가능성을 배제하지 못합니다. 같은 시험에서 치료약인 셀레콕시브도 비교했습니다. 통증이 나아진 비율은 위약보다 10.0퍼센트포인트 높았습니다. P값은 0.008이었습니다. '연골의 원료를 보충한다'는 말이 맞는 처방처럼 들립니다. 가짜약만 먹어도 6할이 덜 아프다고 했다는 사실은 잘 알려져 있지 않습니다. 그래서 가성비가 좋아 보입니다.",
+      "reason": "20% 이상 감소라는 호전 기준 명시 및 괄호 포함 문장 50자 제한."
+    },
+    {
+      "field": "근거등급",
+      "before": "A",
+      "after": "A",
+      "reason": "변경 없음"
+    },
+    {
+      "field": "출처",
+      "before": "Clegg DO et al. (2006). Glucosamine, chondroitin sulfate, and the two in combination for painful knee osteoarthritis. NEJM. https://doi.org/10.1056/NEJMoa052771",
+      "after": "Clegg DO et al. (2006). Glucosamine, chondroitin sulfate, and the two in combination for painful knee osteoarthritis. NEJM. https://doi.org/10.1056/NEJMoa052771",
+      "reason": "변경 없음"
+    },
+    {
+      "field": "비고",
+      "before": "논쟁 있음. 같은 시험에서 처음부터 통증이 심했던 사람만 따로 봤습니다. 둘을 함께 먹은 군에서 통증이 나아진 비율은 79.2%였습니다. 대조군은 54.3%(P=0.002)였습니다. 저자는 데이터를 사후에 뒤져 찾은 결과라고 적었습니다. 이 결과는 후속 연구를 위한 실마리로만 쓸 수 있습니다. 무릎 관절염에서 근거가 있는 방법은 체중 감량과 근력 운동입니다. 제2절(천천히 죽지 않기)을 보세요.",
+      "after": "논쟁 있음. 같은 시험은 처음 통증이 가벼운 군과 중등도~중증인 군으로 나눠 배정했습니다. 중등도~중증 통증인 사람들의 결과도 따로 봤습니다. 둘을 함께 먹은 군에서 통증이 나아진 비율은 79.2%였습니다. 대조군은 54.3%(P=0.002)였습니다. 저자는 이 하위집단 결과를 탐색적 분석으로 설명했습니다. 이 결과는 후속 연구를 위한 실마리로만 쓸 수 있습니다. 무릎 관절염에서 근거가 있는 방법은 체중 감량과 근력 운동입니다. 제2절(천천히 죽지 않기)을 보세요.",
+      "reason": "중등도~중증 범위를 복원하고 층화 배정과 탐색적 분석을 구분. 사후에 뒤졌다는 확인되지 않은 단정 삭제."
+    }
+  ],
+  "verification": {
+    "date": "2026-10-18T17:51:49.262267+00:00",
+    "level": "primary article abstract read via Europe PMC core metadata; full text and correction history not verified",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1056%2FNEJMoa052771&format=json&resultType=core",
+    "primary_url": "https://doi.org/10.1056/NEJMoa052771",
+    "raw_path": "/tmp/ch06e05-primary.json",
+    "raw_sha256": "b4821a9f837de51fdf26d4c1fc33e2ee77ddd074ba73c09aeb0e82439675ecd2",
+    "exact_primary_abstract": "<h4>Background</h4>Glucosamine and chondroitin sulfate are used to treat osteoarthritis. The multicenter, double-blind, placebo- and celecoxib-controlled Glucosamine/chondroitin Arthritis Intervention Trial (GAIT) evaluated their efficacy and safety as a treatment for knee pain from osteoarthritis.<h4>Methods</h4>We randomly assigned 1583 patients with symptomatic knee osteoarthritis to receive 1500 mg of glucosamine daily, 1200 mg of chondroitin sulfate daily, both glucosamine and chondroitin sulfate, 200 mg of celecoxib daily, or placebo for 24 weeks. Up to 4000 mg of acetaminophen daily was allowed as rescue analgesia. Assignment was stratified according to the severity of knee pain (mild [N=1229] vs. moderate to severe [N=354]). The primary outcome measure was a 20 percent decrease in knee pain from baseline to week 24.<h4>Results</h4>The mean age of the patients was 59 years, and 64 percent were women. Overall, glucosamine and chondroitin sulfate were not significantly better than placebo in reducing knee pain by 20 percent. As compared with the rate of response to placebo (60.1 percent), the rate of response to glucosamine was 3.9 percentage points higher (P=0.30), the rate of response to chondroitin sulfate was 5.3 percentage points higher (P=0.17), and the rate of response to combined treatment was 6.5 percentage points higher (P=0.09). The rate of response in the celecoxib control group was 10.0 percentage points higher than that in the placebo control group (P=0.008). For patients with moderate-to-severe pain at baseline, the rate of response was significantly higher with combined therapy than with placebo (79.2 percent vs. 54.3 percent, P=0.002). Adverse events were mild, infrequent, and evenly distributed among the groups.<h4>Conclusions</h4>Glucosamine and chondroitin sulfate alone or in combination did not reduce pain effectively in the overall group of patients with osteoarthritis of the knee. Exploratory analyses suggest that the combination of glucosamine and chondroitin sulfate may be effective in the subgroup of patients with moderate-to-severe knee pain. (ClinicalTrials.gov number, NCT00032890.)."
+  },
+  "intentional_changes": [
+    "호전 정의 20% 이상 감소 추가.",
+    "중증만이 아닌 중등도~중증 하위집단으로 수정.",
+    "쉽게의 1년 외삽 제외. 그 외 시험 수치·P값 유지.",
+    "DOI 추가·삭제 없음. 비용 태그와 근거등급 유지."
+  ],
+  "limitations": [
+    "원문 전문·보충자료·정정 공지 미확인. 하위군 분석의 사전지정 여부는 확정하지 않음.",
+    "체중 감량·근력 운동 권고는 기존 문구로 보존했으며 이번 초록의 검증 범위 밖."
+  ],
+  "incoming_title_anchor_check": {
+    "source": "ch06/source.md:11",
+    "anchors": [
+      "콘드로이틴"
+    ],
+    "title_unchanged": true
+  },
+  "literal_check": {
+    "command": "python kr-harness/publication/2026-10-18/ch05/publication-partial-review-evidence/literal_check.py /workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-005-52dc/publication-entry-proposal.md",
+    "exit_code": 0,
+    "result": [
+      {
+        "entry": null,
+        "path": "kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-005-52dc/publication-entry-proposal.md",
+        "title_chars": 39,
+        "easy_chars": 103,
+        "easy_sentences": 3,
+        "long_sentences": [],
+        "pass_length": true
+      }
+    ]
+  }
+}

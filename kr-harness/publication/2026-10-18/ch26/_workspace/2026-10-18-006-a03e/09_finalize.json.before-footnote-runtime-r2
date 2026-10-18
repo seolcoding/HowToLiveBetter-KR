@@ -1,0 +1,59 @@
+{
+  "decision": "hold_and_report",
+  "status": "hold_and_report",
+  "fidelity_violations": [],
+  "residual_findings": [
+    {
+      "code": "footnote_anchor",
+      "message": "각주 6)이 원위치를 벗어났습니다 (인접 수치 앵커 '30' → '22'): 인용 출처 변조 위험"
+    },
+    {
+      "code": "footnote_anchor",
+      "message": "각주 2)이 원위치를 벗어났습니다 (인접 수치 앵커 '2' → '1'): 인용 출처 변조 위험"
+    }
+  ],
+  "overediting": [],
+  "correction_count": 0,
+  "summary_updated": true,
+  "validation": {
+    "entire_source_reviewed": true,
+    "body_byte_identity": true,
+    "input_sha256": "8ff3752b5c1ae22f40fc5b021b36613299e38648f45048e408824d94562a9345",
+    "final_body_sha256": "8ff3752b5c1ae22f40fc5b021b36613299e38648f45048e408824d94562a9345",
+    "old_final_sha256": "d59f39d3cfdfeafc14300296c4a0f52b0110c73045f93fa88d90318ffcee00db",
+    "final_sha256": "620ca84a031a01ffc7cb8b08d587fddb0122e57bb36693409bc44acd4c08f432",
+    "source_body_chars_including_final_newline": 2327,
+    "source_body_bytes": 5438,
+    "summary_count": 1,
+    "gate_change_rate": 0.0,
+    "gate_exit_code": 1,
+    "sentence_touch": "0/65",
+    "numbers_dropped": [],
+    "modality_counts": {
+      "deontic": [
+        11,
+        11
+      ],
+      "hedge": [
+        3,
+        3
+      ]
+    },
+    "review_scope": [
+      "all four fields and headings",
+      "all numerical tokens and units, statute article references and date",
+      "all negation and exception clauses",
+      "all obligations, permissions, causality and scope",
+      "all quoted law names and inline citations",
+      "all size thresholds and conjunctive/disjunctive conditions"
+    ],
+    "specific_checks": [
+      "30일 이내; 3년/1억원; 2년/2천만원; 3%; 5천만원 preserved",
+      "10억원 또는 10만명, 전년도 말 직전 3개월, 법인 전 사업연도 preserved",
+      "별표 3의2/1의3/1, excluded service categories, 대상 제한 preserved",
+      "4월 말, 100만명 동시에 시행령 별표1, 2026-10-10 preserved",
+      "상당한 주의/기술적 현저한 곤란 처벌 예외; 일부러 미조치 과징금 preserved"
+    ]
+  },
+  "evidence": "Full final body equals input bytes. check_footnotes(input,input) reproduces both warnings; repeated statute closing numbers are treated as repeated footnote markers and matched to their first occurrence. Actual gate remains exit 1; no waiver, metric changes, or body workaround."
+}

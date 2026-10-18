@@ -1,0 +1,29 @@
+{
+  "created_at_utc": "2026-10-18T17:56:47.505451+00:00",
+  "status": "production_helper_refused_incompatible_replacement_layout",
+  "command": "python3 kr-harness/publication/scripts/humanize_publication.py integrate 5 --date 2026-10-18",
+  "observed_exit_code": 1,
+  "observed_error": "error: integration changed protected entry layout",
+  "failed_plan": {
+    "path": "integration-plan.failed-preflight-r1.json",
+    "sha256": "673e3c6655da72d8bb3c7123754507edd929c4ca4df53d98c9dc11be616a3c8e"
+  },
+  "canonical_archive": [
+    {
+      "path": "canonical-approved-r1/content-audit.md",
+      "sha256": "c093662533654511151f8be7dcfb4d809871794999d6fb11802efd4fa8e3f499"
+    },
+    {
+      "path": "canonical-approved-r1/editorial-decisions.json",
+      "sha256": "dca9b1081d300aa12e1448b6dca5cf2ba6b82389228d2dc5541aeb4d32dd54f5"
+    }
+  ],
+  "entry": 41,
+  "selected_proposal_revision": "r3",
+  "cause": "Replacement retains indented continuation lines. Helper permits folding old input continuations but requires normalized replacement layout. Literal sentence and easy checks pass; no literal-check bug.",
+  "candidate_output_created": false,
+  "integration_success_record_created": false,
+  "public_book_changed": false,
+  "public_source_sha256": "6f34f5dbe2095e729683aad99ee62cb9bac6f3ca15c2ad205befcbcb2fa1d44a",
+  "next": "Same author whitespace-only r4, independent exact review, new manifest/binding and canonical expected SHA, then retry unchanged production helper."
+}

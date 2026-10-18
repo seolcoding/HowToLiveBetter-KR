@@ -1,0 +1,272 @@
+{
+  "status": "unadopted_proposal",
+  "chapter": 6,
+  "entry": 4,
+  "basis_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-004-1203/strict-entry.md",
+  "basis_sha256": "3af217cce072e1fb7338968aba37c9e8b05f1e5f6b36b059918fa636c895f9f2",
+  "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-004-1203/publication-entry-proposal.md",
+  "proposal_sha256": "3e7cb403557dc2539532a6d96ea2847ee51f6347fd0a14bef8bb2915fb317223",
+  "title": {
+    "before": "### 4. 암 예방을 위해 항산화 보충제(베타카로틴, 비타민 E, 비타민 A)를 먹지 마세요",
+    "after": "### 4. 암 예방을 위해 항산화 보충제(베타카로틴, 비타민 E, 비타민 A)를 먹지 마세요",
+    "reason": "70자 이내라 유지. 절 도입 incoming anchor 항산화 보충제를 그대로 포함합니다.",
+    "incoming_anchors": [
+      "항산화 보충제"
+    ],
+    "anchor_scan_path": "kr-harness/publication/2026-10-18/ch06/source.md"
+  },
+  "fields": {
+    "비용": {
+      "before": "매일 먹으려면 제품값이 계속 듭니다. 흡연자는 폐암 위험까지 높아집니다.",
+      "after": "매일 먹으려면 제품값이 계속 듭니다. 흡연자는 베타카로틴 보충제로 폐암 위험도 높아질 수 있습니다.",
+      "reason": "흡연자의 위험을 모든 항산화제로 넓히지 않고 베타카로틴 보충제로 한정합니다.",
+      "evidence_keys": [
+        "cochrane",
+        "atbc",
+        "caret"
+      ]
+    },
+    "쉽게": {
+      "before": "항산화 보충제는 효과가 없을 뿐 아니라 해롭기도 합니다. 시험 78건에 참여한 약 30만 명을 합쳐 분석했습니다. 항산화 보충제를 먹은 사람의 사망률이 오히려 조금 높았습니다. 흡연자 대상 대형 시험 2건은 베타카로틴을 조사했습니다. 폐암 발생은 18~28% 높아졌습니다. 사망은 8~17% 높아졌습니다. 흡연자와 석면에 노출된 적 있는 사람은 특히 먹지 마세요.",
+      "after": "암 예방을 위한 항산화 보충제는 권하지 않습니다. 남성 흡연자의 베타카로틴 복용 시험에서 폐암은 18% 늘었습니다. 흡연자·석면 노출자는 특히 피하세요. 채소·과일 속 항산화 물질은 예외입니다.",
+      "reason": "4문장 요약. 전체78건의 사망 증가 단정을 삭제하고 ATBC 남성 흡연자 폐암 상대증가18% 한 가지를 남깁니다. 석면노출자 주의와 식품 예외를 보존합니다.",
+      "evidence_keys": [
+        "cochrane",
+        "atbc",
+        "caret"
+      ]
+    },
+    "이득": {
+      "before": "코크런은 무작위 배정 대조시험 78건을 분석했습니다. 참여자는 총 296,707명입니다. 항산화 보충제를 먹은 사람의 전체 사망 위험은 RR 1.02입니다. RR은 위험비를 뜻합니다. 값이 1이면 양쪽 위험이 같습니다. 95% CI 0.98–1.05는 신뢰범위입니다. 결과가 왜곡될 위험이 낮은 시험만 따로 분석했습니다. 이 시험들에서는 사망 위험이 조금 높았습니다. RR 1.04(1.01–1.07)입니다. 베타카로틴의 사망 위험은 RR 1.05(1.01–1.09)입니다. 비타민 E의 사망 위험은 RR 1.03(1.00–1.05)로 나타났습니다. ATBC 시험에는 남성 흡연자 29,133명이 참여했습니다. 이들은 베타카로틴을 매일 20mg씩 먹었습니다. 폐암 발생은 18% 증가했습니다(3%–36%). 전체 사망은 8% 증가했습니다(1%–16%). CARET 시험은 흡연자 또는 석면 노출자 18,314명을 모았습니다. 폐암 위험은 약 28% 높았습니다. RR 1.28, 1.04–1.57입니다. 사망 위험은 약 17% 높았습니다. 전체 사망 위험은 RR 1.17, 1.03–1.33입니다. 항산화가 노화를 막는다는 추론입니다. 노화를 막으면 암도 예방한다는 추론도 이어집니다. 각 단계가 상식처럼 들려 비용 대비 효과가 커 보입니다.",
+      "after": "코크런은 무작위 배정 대조시험 78건을 분석했습니다. 참여자는 총 296,707명입니다. 복용 기간은 28일부터 12년까지로 서로 달랐습니다. 전체 사망의 무작위효과 합산은 RR 1.02입니다. RR은 두 집단의 사망 위험을 나눈 값입니다. 값이 1이면 양쪽 위험이 같습니다. 95% 신뢰구간은 0.98–1.05입니다. 이 분석에서는 통계적으로 유의한 차이를 확인하지 못했습니다. 효과가 없다고 확정한 것은 아닙니다. 고정효과 합산은 RR 1.03으로 유의한 증가였습니다. 95% 신뢰구간은 1.01–1.05입니다. 결과가 왜곡될 위험이 낮은 시험은 56건이었습니다. 이 시험들에서는 사망 위험이 조금 높았습니다. RR 1.04이며 95% 신뢰구간은 1.01–1.07입니다. 아래 두 성분의 결과도 왜곡 위험이 낮은 시험에 한정됩니다. 베타카로틴의 사망 위험은 RR 1.05입니다. 95% 신뢰구간은 1.01–1.09입니다. 비타민 E의 사망 위험은 RR 1.03입니다. 95% 신뢰구간은 1.00–1.05입니다. ATBC 시험에는 남성 흡연자 29,133명이 참여했습니다. 핀란드의 50~69세 남성을 5~8년 추적했습니다. 베타카로틴 복용군은 매일 20mg씩 먹었습니다. 복용하지 않은 군보다 폐암 발생은 18% 증가했습니다. 95% 신뢰구간은 3%–36%입니다. 전체 사망은 8% 증가했습니다. 95% 신뢰구간은 1%–16%입니다. CARET 시험에는 18,314명이 참여했습니다. 흡연자·과거 흡연자와 석면 노출 근로자가 대상입니다. 베타카로틴과 비타민 A를 함께 먹는 시험이었습니다. 매일 베타카로틴 30mg과 비타민 A 25,000IU를 썼습니다. 평균 추적 기간은 4년이었습니다. 위약군보다 폐암 위험은 약 28% 높았습니다. RR 1.28이며 95% 신뢰구간은 1.04–1.57입니다. 전체 사망 위험은 약 17% 높았습니다. RR 1.17이며 95% 신뢰구간은 1.03–1.33입니다. 항산화가 노화를 막는다는 추론입니다. 노화를 막으면 암도 예방한다는 추론도 이어집니다. 각 단계가 상식처럼 들려 비용 대비 효과가 커 보입니다.",
+      "reason": "78시험 무작위효과의 비유의 결과와 고정효과 결과 및 저왜곡56시험의 증가를 구분합니다. 성분별 결과도 저왜곡시험 범위를 명시합니다. ATBC 전체참가자가 베타카로틴을 먹었다는 오독을 막고, CARET 병용·과거흡연자·용량·추적기간을 명시합니다. 모든 구간을 95% 신뢰구간으로 명명합니다.",
+      "evidence_keys": [
+        "cochrane",
+        "atbc",
+        "caret"
+      ]
+    },
+    "근거등급": {
+      "before": "A",
+      "after": "A",
+      "reason": "변경 없음. 원문 보존.",
+      "evidence_keys": []
+    },
+    "출처": {
+      "before": "Bjelakovic G et al. (2012). Antioxidant supplements for prevention of mortality in healthy participants and patients with various diseases. Cochrane Database Syst Rev. https://doi.org/10.1002/14651858.CD007176.pub2 ; The Alpha-Tocopherol, Beta Carotene Cancer Prevention Study Group (1994). The effect of vitamin E and beta carotene on the incidence of lung cancer and other cancers in male smokers. NEJM. https://doi.org/10.1056/NEJM199404143301501 ; Omenn GS et al. (1996). Effects of a combination of beta carotene and vitamin A on lung cancer and cardiovascular disease. NEJM. https://doi.org/10.1056/NEJM199605023341802",
+      "after": "Bjelakovic G et al. (2012). Antioxidant supplements for prevention of mortality in healthy participants and patients with various diseases. Cochrane Database Syst Rev. https://doi.org/10.1002/14651858.CD007176.pub2 ; The Alpha-Tocopherol, Beta Carotene Cancer Prevention Study Group (1994). The effect of vitamin E and beta carotene on the incidence of lung cancer and other cancers in male smokers. NEJM. https://doi.org/10.1056/NEJM199404143301501 ; Omenn GS et al. (1996). Effects of a combination of beta carotene and vitamin A on lung cancer and cardiovascular disease. NEJM. https://doi.org/10.1056/NEJM199605023341802",
+      "reason": "변경 없음. 원문 보존.",
+      "evidence_keys": []
+    },
+    "비고": {
+      "before": "미국 예방서비스 특별위원회 USPSTF가 2022년에 평가했습니다. 베타카로틴과 비타민 E 모두 D등급을 받았습니다. 사용을 권장하지 않는다는 뜻입니다. 흡연자와 석면 노출자는 실제로 피해를 입었습니다. 채소와 과일에 원래 들어 있는 항산화 물질은 여기 해당하지 않습니다. 채소와 과일은 그대로 드세요.",
+      "after": "미국 예방서비스 특별위원회 USPSTF가 2022년에 평가했습니다. 베타카로틴과 비타민 E 모두 D등급을 받았습니다. 사용을 권장하지 않는다는 뜻입니다. 흡연자와 석면 노출자는 실제로 피해를 입었습니다. 채소와 과일에 원래 들어 있는 항산화 물질은 여기 해당하지 않습니다. 채소와 과일은 그대로 드세요.",
+      "reason": "변경 없음. 원문 보존.",
+      "evidence_keys": []
+    }
+  },
+  "source_verification": [
+    {
+      "key": "cochrane",
+      "doi": "10.1002/14651858.cd007176.pub2",
+      "pmid": "22419320",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1002%2F14651858.cd007176.pub2&format=json&resultType=core",
+      "verification_date": "2026-10-18",
+      "method": "Live Europe PMC core response; independently read entire indexed primary abstract and commentCorrectionList. Full text not read.",
+      "raw_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-004-1203/source-evidence/cochrane.json",
+      "raw_sha256": "4970bf777f6ff4af42264d528485d0c24d7b9e61fdc8afa099a9da595305be69",
+      "exact_primary_abstract": "<h4>Background</h4>Our systematic review has demonstrated that antioxidant supplements may increase mortality. We have now updated this review.<h4>Objectives</h4>To assess the beneficial and harmful effects of antioxidant supplements for prevention of mortality in adults.<h4>Search methods</h4>We searched The Cochrane Library, MEDLINE, EMBASE, LILACS, the Science Citation Index Expanded, and Conference Proceedings Citation Index-Science to February 2011. We scanned bibliographies of relevant publications and asked pharmaceutical companies for additional trials.<h4>Selection criteria</h4>We included all primary and secondary prevention randomised clinical trials on antioxidant supplements (beta-carotene, vitamin A, vitamin C, vitamin E, and selenium) versus placebo or no intervention.<h4>Data collection and analysis</h4>Three authors extracted data. Random-effects and fixed-effect model meta-analyses were conducted. Risk of bias was considered in order to minimise the risk of systematic errors. Trial sequential analyses were conducted to minimise the risk of random errors. Random-effects model meta-regression analyses were performed to assess sources of intertrial heterogeneity.<h4>Main results</h4>Seventy-eight randomised trials with 296,707 participants were included. Fifty-six trials including 244,056 participants had low risk of bias. Twenty-six trials included 215,900 healthy participants. Fifty-two trials included 80,807 participants with various diseases in a stable phase. The mean age was 63 years (range 18 to 103 years). The mean proportion of women was 46%. Of the 78 trials, 46 used the parallel-group design, 30 the factorial design, and 2 the cross-over design. All antioxidants were administered orally, either alone or in combination with vitamins, minerals, or other interventions. The duration of supplementation varied from 28 days to 12 years (mean duration 3 years; median duration 2 years). Overall, the antioxidant supplements had no significant effect on mortality in a random-effects model meta-analysis (21,484 dead/183,749 (11.7%) versus 11,479 dead/112,958 (10.2%); 78 trials, relative risk (RR) 1.02, 95% confidence interval (CI) 0.98 to 1.05) but significantly increased mortality in a fixed-effect model (RR 1.03, 95% CI 1.01 to 1.05). Heterogeneity was low with an I(2)- of 12%. In meta-regression analysis, the risk of bias and type of antioxidant supplement were the only significant predictors of intertrial heterogeneity. Meta-regression analysis did not find a significant difference in the estimated intervention effect in the primary prevention and the secondary prevention trials. In the 56 trials with a low risk of bias, the antioxidant supplements significantly increased mortality (18,833 dead/146,320 (12.9%) versus 10,320 dead/97,736 (10.6%); RR 1.04, 95% CI 1.01 to 1.07). This effect was confirmed by trial sequential analysis. Excluding factorial trials with potential confounding showed that 38 trials with low risk of bias demonstrated a significant increase in mortality (2822 dead/26,903 (10.5%) versus 2473 dead/26,052 (9.5%); RR 1.10, 95% CI 1.05 to 1.15). In trials with low risk of bias, beta-carotene (13,202 dead/96,003 (13.8%) versus 8556 dead/77,003 (11.1%); 26 trials, RR 1.05, 95% CI 1.01 to 1.09) and vitamin E (11,689 dead/97,523 (12.0%) versus 7561 dead/73,721 (10.3%); 46 trials, RR 1.03, 95% CI 1.00 to 1.05) significantly increased mortality, whereas vitamin A (3444 dead/24,596 (14.0%) versus 2249 dead/16,548 (13.6%); 12 trials, RR 1.07, 95% CI 0.97 to 1.18), vitamin C (3637 dead/36,659 (9.9%) versus 2717 dead/29,283 (9.3%); 29 trials, RR 1.02, 95% CI 0.98 to 1.07), and selenium (2670 dead/39,779 (6.7%) versus 1468 dead/22,961 (6.4%); 17 trials, RR 0.97, 95% CI 0.91 to 1.03) did not significantly affect mortality. In univariate meta-regression analysis, the dose of vitamin A was significantly associated with increased mortality (RR 1.0006, 95% CI 1.0002 to 1.001, P = 0.002).<h4>Authors' conclusions</h4>We found no evidence to support antioxidant supplements for primary or secondary prevention. Beta-carotene and vitamin E seem to increase mortality, and so may higher doses of vitamin A. Antioxidant supplements need to be considered as medicinal products and should undergo sufficient evaluation before marketing.",
+      "correction_metadata_read": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "18425980",
+            "reference": "Cochrane Database Syst Rev. 2008 Apr 16;(2):CD007176. doi: 10.1002/14651858.CD007176.",
+            "type": "Update of",
+            "orderIn": 1
+          },
+          {
+            "source": "MED",
+            "id": "26018887",
+            "reference": "Sao Paulo Med J. 2015 Mar-Apr;133(2):164-5. doi: 10.1590/1516-3180.20151332T1.",
+            "type": "Comment in",
+            "orderIn": 2
+          }
+        ]
+      },
+      "scope": "Primary abstract as indexed by Europe PMC; this is not independent full-text verification."
+    },
+    {
+      "key": "atbc",
+      "doi": "10.1056/nejm199404143301501",
+      "pmid": "8127329",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1056%2Fnejm199404143301501&format=json&resultType=core",
+      "verification_date": "2026-10-18",
+      "method": "Live Europe PMC core response; independently read entire indexed primary abstract and commentCorrectionList. Full text not read.",
+      "raw_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-004-1203/source-evidence/atbc.json",
+      "raw_sha256": "01b6c2c8b99a3740c4d2af55270fbd24c83e3fc29838401f96ae51c75684b2c1",
+      "exact_primary_abstract": "<h4>Background</h4>Epidemiologic evidence indicates that diets high in carotenoid-rich fruits and vegetables, as well as high serum levels of vitamin E (alpha-tocopherol) and beta carotene, are associated with a reduced risk of lung cancer.<h4>Methods</h4>We performed a randomized, double-blind, placebo-controlled primary-prevention trial to determine whether daily supplementation with alpha-tocopherol, beta carotene, or both would reduce the incidence of lung cancer and other cancers. A total of 29,133 male smokers 50 to 69 years of age from southwestern Finland were randomly assigned to one of four regimens: alpha-tocopherol (50 mg per day) alone, beta carotene (20 mg per day) alone, both alpha-tocopherol and beta carotene, or placebo. Follow-up continued for five to eight years.<h4>Results</h4>Among the 876 new cases of lung cancer diagnosed during the trial, no reduction in incidence was observed among the men who received alpha-tocopherol (change in incidence as compared with those who did not, -2 percent; 95 percent confidence interval, -14 to 12 percent). Unexpectedly, we observed a higher incidence of lung cancer among the men who received beta carotene than among those who did not (change in incidence, 18 percent; 95 percent confidence interval, 3 to 36 percent). We found no evidence of an interaction between alpha-tocopherol and beta carotene with respect to the incidence of lung cancer. Fewer cases of prostate cancer were diagnosed among those who received alpha-tocopherol than among those who did not. Beta carotene had little or no effect on the incidence of cancer other than lung cancer. Alpha-tocopherol had no apparent effect on total mortality, although more deaths from hemorrhagic stroke were observed among the men who received this supplement than among those who did not. Total mortality was 8 percent higher (95 percent confidence interval, 1 to 16 percent) among the participants who received beta carotene than among those who did not, primarily because there were more deaths from lung cancer and ischemic heart disease.<h4>Conclusions</h4>We found no reduction in the incidence of lung cancer among male smokers after five to eight years of dietary supplementation with alpha-tocopherol or beta carotene. In fact, this trial raises the possibility that these supplements may actually have harmful as well as beneficial effects.",
+      "correction_metadata_read": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "reference": "ACP J Club. 1994 Nov-Dec;121(3):74",
+            "type": "Comment in",
+            "orderIn": 1
+          },
+          {
+            "source": "MED",
+            "id": "7818644",
+            "reference": "N Engl J Med. 1994 Sep 1;331(9):611-2; author reply 613. doi: 10.1056/NEJM199409013310912",
+            "type": "Comment in",
+            "orderIn": 2
+          },
+          {
+            "source": "MED",
+            "id": "7818645",
+            "reference": "N Engl J Med. 1994 Sep 1;331(9):612; author reply 613.",
+            "type": "Comment in",
+            "orderIn": 3
+          },
+          {
+            "source": "MED",
+            "id": "8047090",
+            "reference": "N Engl J Med. 1994 Sep 1;331(9):611; author reply 613-4.",
+            "type": "Comment in",
+            "orderIn": 4
+          },
+          {
+            "source": "MED",
+            "id": "8047091",
+            "reference": "N Engl J Med. 1994 Sep 1;331(9):612; author reply 613.",
+            "type": "Comment in",
+            "orderIn": 5
+          },
+          {
+            "source": "MED",
+            "id": "8047092",
+            "reference": "N Engl J Med. 1994 Sep 1;331(9):612; author reply 613.",
+            "type": "Comment in",
+            "orderIn": 6
+          },
+          {
+            "source": "MED",
+            "id": "8047093",
+            "reference": "N Engl J Med. 1994 Sep 1;331(9):612-3.",
+            "type": "Comment in",
+            "orderIn": 7
+          },
+          {
+            "source": "MED",
+            "id": "8127337",
+            "reference": "N Engl J Med. 1994 Apr 14;330(15):1080-1. doi: 10.1056/NEJM199404143301510",
+            "type": "Comment in",
+            "orderIn": 8
+          },
+          {
+            "source": "MED",
+            "id": "8177252",
+            "reference": "N Engl J Med. 1994 Jun 2;330(22):1608-9. doi: 10.1056/NEJM199406023302211",
+            "type": "Comment in",
+            "orderIn": 9
+          }
+        ]
+      },
+      "scope": "Primary abstract as indexed by Europe PMC; this is not independent full-text verification."
+    },
+    {
+      "key": "caret",
+      "doi": "10.1056/nejm199605023341802",
+      "pmid": "8602180",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1056%2Fnejm199605023341802&format=json&resultType=core",
+      "verification_date": "2026-10-18",
+      "method": "Live Europe PMC core response; independently read entire indexed primary abstract and commentCorrectionList. Full text not read.",
+      "raw_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-004-1203/source-evidence/caret.json",
+      "raw_sha256": "9148946647f0cc8271670b0b88b3a5225c453f7aa5df1db4e815a7c3f228ee01",
+      "exact_primary_abstract": "<h4>Background</h4>Lung cancer and cardiovascular disease are major causes of death in the United States. It has been proposed that carotenoids and retinoids are agents that may prevent these disorders.<h4>Methods</h4>We conducted a multicenter, randomized, double-blind, placebo-controlled primary prevention trial -- the Beta Carotene and Retinol Efficacy Trial -- involving a total of 18,314 smokers, former smokers, and workers exposed to asbestos. The effects of a combination of 30 mg of beta carotene per day and 25,000 IU of retinol (vitamin A) in the form of retinyl palmitate per day on the primary end point, the incidence of lung cancer, were compared with those of placebo.<h4>Results</h4>A total of 388 new cases of lung cancer were diagnosed during the 73,135 person-years of follow-up (mean length of follow-up, 4.0 years). The active-treatment group had a relative risk of lung cancer of 1.28 (95 percent confidence interval, 1.04 to 1.57; P=0.02), as compared with the placebo group. There were no statistically significant differences in the risks of other types of cancer. In the active-treatment group, the relative risk of death from any cause was 1.17 (95 percent confidence interval, 1.03 to 1.33); of death from lung cancer, 1.46 (95 percent confidence interval, 1.07 to 2.00); and of death from cardiovascular disease, 1.26 (95 percent confidence interval, 0.99 to 1.61). On the basis of these findings, the randomized trial was stopped 21 months earlier than planned; follow-up will continue for another 5 years.<h4>Conclusions</h4>After an average of four years of supplementation, the combination of beta carotene and vitamin A had no benefit and may have had an adverse effect on the incidence of lung cancer and on the risk of death from lung cancer, cardiovascular disease, and any cause in smokers and workers exposed to asbestos.",
+      "correction_metadata_read": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "reference": "ACP J Club. 1996 Sep-Oct;125(2):40-1",
+            "type": "Comment in",
+            "orderIn": 1
+          },
+          {
+            "source": "MED",
+            "id": "8602188",
+            "reference": "N Engl J Med. 1996 May 2;334(18):1189-90. doi: 10.1056/NEJM199605023341810",
+            "type": "Comment in",
+            "orderIn": 2
+          },
+          {
+            "source": "MED",
+            "id": "8801449",
+            "reference": "N Engl J Med. 1996 Oct 3;335(14):1065; author reply 1067-8. doi: 10.1056/NEJM199610033351415",
+            "type": "Comment in",
+            "orderIn": 3
+          },
+          {
+            "source": "MED",
+            "id": "8801450",
+            "reference": "N Engl J Med. 1996 Oct 3;335(14):1065-6; author reply 1067-8.",
+            "type": "Comment in",
+            "orderIn": 4
+          }
+        ]
+      },
+      "scope": "Primary abstract as indexed by Europe PMC; this is not independent full-text verification."
+    }
+  ],
+  "intentional_numerical_scope_changes": [
+    "쉽게의 78건·약30만명·18~28%·8~17%를 삭제하고 ATBC 남성흡연자 폐암18% 비교만 요약합니다. 상세 수치는 이득에 남깁니다.",
+    "전체78시험 RR1.02(0.98–1.05)는 무작위효과 합산 비유의로 명시합니다. 고정효과 RR1.03(1.01–1.05)도 함께 구분합니다.",
+    "저왜곡56시험 RR1.04(1.01–1.07)로 범위를 한정합니다. 성분별 RR도 같은 범위입니다.",
+    "ATBC 50~69세 핀란드 남성·5~8년 추적 및 CARET 과거흡연자·병용용량·평균4년을 초록에서 추가합니다."
+  ],
+  "doi_changes": {
+    "added": [],
+    "removed": [],
+    "reason": "기존 DOI 3개 유지. 근거등급과 비용 태그 유지."
+  },
+  "unresolved_limitations": [
+    "세 논문은 원초록 전체와 정정/논평 연결 메타데이터까지 읽었습니다. 본문·보충자료는 읽지 않았으므로 초록 밖 세부범위의 완전 검증을 주장하지 않습니다.",
+    "조회 메타데이터에는 정정 표시가 없으나 정정 부재의 완전한 증명은 아닙니다.",
+    "기존 비고의 USPSTF 2022 D등급은 이번 수정 대상이 아니며 별도 공식원문 재검증은 하지 않았습니다."
+  ],
+  "review": "Independent exact-hash review pending; no publication or self-approval.",
+  "validation": {
+    "literal_command": [
+      "python",
+      "kr-harness/publication/2026-10-18/ch05/publication-partial-review-evidence/literal_check.py",
+      "kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-004-1203/publication-entry-proposal.md"
+    ],
+    "actual_execution_date": "2026-10-18",
+    "exit_code": 0,
+    "result": [
+      {
+        "entry": null,
+        "path": "kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-004-1203/publication-entry-proposal.md",
+        "title_chars": 45,
+        "easy_chars": 108,
+        "easy_sentences": 4,
+        "long_sentences": [],
+        "pass_length": true
+      }
+    ],
+    "all_narrative_fields_including_inherited_and_parentheses_checked": true,
+    "title_unchanged": true,
+    "incoming_anchor_preserved": true,
+    "cost_tag_and_grade_unchanged": true,
+    "no_HUMANIZE_SUMMARY": true,
+    "easy_has_no_design_jargon_sample_sizes_years": true,
+    "protected_file_sha256": {
+      "00_metrics.json": "0d1cc1d7ec6e1f04cd133f192d5f4bac3b4067eed062d8b0c4b1b31e506bda51",
+      "01_input.txt": "ed7b8f9f9d944c32d18c3050004caa033b95db1d8dfa6ba31acca3d6d6a1abda",
+      "01_input_with_metrics.txt": "928159156281ed65746f8a3940c8154b2f7626a8e4137b829e4db596c092b544",
+      "entry_snapshot.md": "3af217cce072e1fb7338968aba37c9e8b05f1e5f6b36b059918fa636c895f9f2",
+      "strict-entry.md": "3af217cce072e1fb7338968aba37c9e8b05f1e5f6b36b059918fa636c895f9f2",
+      "final.md": "07e9e95619f7ac3cf322e004b173cddaded04965f0f864ccc22a4c1613c2da07"
+    }
+  }
+}

@@ -1,0 +1,320 @@
+{
+  "status": "completed_two_full_exact_partial_review_r6",
+  "manifest_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/author-partial-manifest-6.json",
+  "manifest_sha256": "2a432129f9d99d3ff6987d8fc8f417d690b6391d10a96184e9431fb511616053",
+  "entries": [
+    {
+      "entry": 14,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-014-cbd8/publication-entry-proposal.md",
+      "proposal_sha256": "b67090677d58525c3aaa08458788480e9386cc7b5581a4577ef84579667dbf01",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-014-cbd8/publication-entry-changes.json",
+      "changes_sha256": "9c7217bc148c8dd1b7656be81ad40420cdf86bfd7ec24bd0c5a3fa566530d79f",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-014-cbd8/strict-entry.md",
+      "base_strict_entry_sha256": "a762d880a8ee97110e61016ef4d40316571dd49d59f370fd4eecc5979e578dc3",
+      "literal_exit_code": 0,
+      "decision": "revise",
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "length_check": {
+        "entry": 14,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-014-cbd8/publication-entry-proposal.md",
+        "title_chars": 27,
+        "easy_chars": 114,
+        "easy_sentences": 4,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "six_labels": true,
+        "tag": true,
+        "grade": true
+      },
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "initial_canonical_findings": {
+        "entry": 14,
+        "entry_snapshot_sha256": "a762d880a8ee97110e61016ef4d40316571dd49d59f370fd4eecc5979e578dc3",
+        "status": "reviewed_fields_approved_only",
+        "source_review": "620원/1000L=0.62원, 500/0.62≈806 계산 확인. 인천 요금·수질기준 직접 미확인. 끓여도 화학오염 제거 안 된다는 경고 보존.",
+        "field_decisions": [
+          {
+            "proposal_key": "easy",
+            "field": "쉽게",
+            "decision": "approve",
+            "before": "인천 가정용 상수도 사용요금만 보면 1리터에 1원도 안 됩니다. 기본료·하수도료·끓이는 연료비는 뺀 비교입니다. 생수를 2리터 한 병 1,000원으로 잡아 보세요. 1리터에 500원으로, 수돗물의 약 800배입니다. 수돗물은 법정 수질기준을 맞춰야 합니다. 검사 결과도 공개됩니다. 냄새가 나거나 탁하면 끓이지 말고 마시지 마세요.",
+            "after": "생수는 인천 수돗물 사용요금의 약 800배입니다. 생수 2리터 1,000원 가정, 기본료·하수도료·연료비 제외 기준입니다. 평소에는 수돗물을 끓여 마시세요. 냄새가 나거나 탁하면 끓이지 말고 마시지 마세요.",
+            "before_matches_source_entry": true,
+            "before_matches_candidate_entry": true,
+            "before_occurrences_in_source_entry": 1,
+            "after_chars": 115,
+            "after_sentences": 4,
+            "length_exception_requested": false,
+            "length_exception_accepted": false,
+            "source_entry_sha256": "a762d880a8ee97110e61016ef4d40316571dd49d59f370fd4eecc5979e578dc3",
+            "candidate_entry_sha256": "a762d880a8ee97110e61016ef4d40316571dd49d59f370fd4eecc5979e578dc3",
+            "reason": "인천 사용요금/생수 가정가격/제외비용의 범위와 이상 물 음용 금지 경고를 보존합니다. 약800배는500/0.62≈806의 예시 계산입니다. 지역 요금의 최신성 전체를 확인한 것으로 보지 않습니다.",
+            "scope": "Exact proposed wording only. Not full-entry, whole-chapter, publication, or formal KR-FIT approval.",
+            "before_equals_full_source_field": true,
+            "before_equals_full_candidate_field": true,
+            "scope_kind": "whole_field",
+            "direct_field_operation_eligible": true,
+            "operation_base_constraint": "baseline_or_candidate_only_when_whole_field_before_matches"
+          },
+          {
+            "proposal_key": "todo",
+            "field": "비고의 TODO 문장",
+            "decision": "approve",
+            "before": "한국의 비슷한 사고는 정부 조사 원문을 확보하지 못해 쓰지 않았습니다(TODO).",
+            "after": "한국의 비슷한 사고는 정부 조사 원문을 확보하지 못해 사례로 싣지 않았습니다.",
+            "before_matches_source_entry": true,
+            "before_matches_candidate_entry": true,
+            "before_occurrences_in_source_entry": 1,
+            "after_chars": 43,
+            "after_sentences": null,
+            "length_exception_requested": false,
+            "length_exception_accepted": false,
+            "source_entry_sha256": "a762d880a8ee97110e61016ef4d40316571dd49d59f370fd4eecc5979e578dc3",
+            "candidate_entry_sha256": "a762d880a8ee97110e61016ef4d40316571dd49d59f370fd4eecc5979e578dc3",
+            "reason": "미확인 상태를 독자용 문장으로 유지하며 TODO 작업표지만 제거합니다. 확인 완료를 주장하거나 미해결 제한을 숨기지 않습니다. 장말 TODO 대조는 별도 승인 사항입니다.",
+            "scope": "Exact proposed wording only. Not full-entry, whole-chapter, publication, or formal KR-FIT approval.",
+            "before_equals_full_source_field": false,
+            "before_equals_full_candidate_field": false,
+            "scope_kind": "exact_substring_within_field",
+            "direct_field_operation_eligible": false,
+            "operation_base_constraint": "baseline_or_candidate_only_when_whole_field_before_matches"
+          }
+        ],
+        "candidate_entry_sha256": "a762d880a8ee97110e61016ef4d40316571dd49d59f370fd4eecc5979e578dc3",
+        "candidate_review_scope": "Read complete current candidate entry and source snapshot; field approvals do not resolve unverified primary sources or factual corrections in other fields."
+      },
+      "initial_content_audit_section": "- 상태: pending_candidate_review\n- 확인 범위: 620원/1000L=0.62원, 500/0.62≈806 계산 확인. 인천 요금·수질기준 직접 미확인. 끓여도 화학오염 제거 안 된다는 경고 보존.",
+      "revision_requests": [
+        {
+          "field": "비고",
+          "exact_span": "냄새 물질이나 물에 녹은 화학물질은 없어지지 않습니다.",
+          "issue": "모든냄새/용존화학물질불변이라는단정은CDC범위를넘음.CDC는연료/독성화학/방사성물질오염을끓이거나소독해안전하게할수없다고한정.",
+          "required": "유해화학오염해결불가라는범위로좁히고냄새/탁한물음용금지유지."
+        },
+        {
+          "field": "비고",
+          "exact_span": "그 경우에는 정수 필터를 달거나 생수를 사세요.",
+          "issue": "노후물탱크등오염우려에필터종류/제거성능확인없이일반필터를동등해결책으로권하면근거범위초과.",
+          "required": "오염/성능확인·수도사업자문의조건을명시하거나불확실할때생수사용으로한정.끓임으로화학오염을해결한다고바꾸지말것."
+        }
+      ],
+      "review_scope": "Allfourcompletebodyfields/title/tag/grade/source/exactchangesread;notonlychangedspans.",
+      "actual_primary_assessment": "실제인천공식요율표2025이후가정용1㎥620원행/기본료별도직접읽음.620/1000=.62,1000/2=500,500/.62≈806.45로약800배조건부예시일치.수도법26/29·먹는물법5원문직접읽음.실제CDC비상식수문서는미생물가열과연료/독성화학/방사성오염을구별.냄새/탁도시음용금지·생수/수도사업자문의경고는유지되나일부문장은모든화학물질/일반필터로너무확대."
+    },
+    {
+      "entry": 36,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-036-2880/publication-entry-proposal.md",
+      "proposal_sha256": "bf0c07ae1b0991bb6167f1d9f27de0399e87dd654e463c4a35e6738befdc62b6",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-036-2880/publication-entry-changes.json",
+      "changes_sha256": "03b24659bf492e9dd8b3a3c3c7e0c28ff82c2aa2c8d0aa3af3fdc9857c72fa41",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-036-2880/strict-entry.md",
+      "base_strict_entry_sha256": "b6ad91b47a45b25794642e67d920b3fa5099429273b636dfd618425dffdbb874",
+      "literal_exit_code": 0,
+      "decision": "approve",
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "length_check": {
+        "entry": 36,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-036-2880/publication-entry-proposal.md",
+        "title_chars": 63,
+        "easy_chars": 104,
+        "easy_sentences": 4,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "six_labels": true,
+        "tag": true,
+        "grade": true
+      },
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "initial_canonical_findings": {
+        "entry": 36,
+        "entry_snapshot_sha256": "b6ad91b47a45b25794642e67d920b3fa5099429273b636dfd618425dffdbb874",
+        "status": "reviewed_fields_approved_only",
+        "source_review": "즉석판매 게시 대체·선식/택배예외·얼음제외중량 고시 직접 미확인. 2026시행판 근거인지 후속 확인.",
+        "field_decisions": [
+          {
+            "proposal_key": "easy",
+            "field": "쉽게",
+            "decision": "approve",
+            "before": "식품에는 원재료명을 표시해야 합니다. 즉석판매제조·가공 대상식품은 조건에 따라 제품별 표시를 생략할 수 있습니다. 표시사항을 진열상자나 별도 표지판에 게시해야 합니다. 선식과 우편·택배 배달 식품은 제품별 표시를 생략할 수 없습니다. 그래서 내가 산 봉지에는 원재료명이 없을 수 있습니다. 궁금하면 포장 제품을 사거나 게시판을 보세요. 얼음막을 입힌 냉동 수산물은 얼음을 뺀 무게를 표시해야 합니다.",
+            "after": "원재료명은 포장이나 게시판에서 확인하세요. 즉석판매 식품은 조건에 따라 게시로 대신합니다. 선식·우편·택배 식품은 제품별 표시가 필요합니다. 냉동 수산물은 얼음막을 뺀 무게로 비교하세요.",
+            "before_matches_source_entry": true,
+            "before_matches_candidate_entry": true,
+            "before_occurrences_in_source_entry": 1,
+            "after_chars": 104,
+            "after_sentences": 4,
+            "length_exception_requested": false,
+            "length_exception_accepted": false,
+            "source_entry_sha256": "b6ad91b47a45b25794642e67d920b3fa5099429273b636dfd618425dffdbb874",
+            "candidate_entry_sha256": "b6ad91b47a45b25794642e67d920b3fa5099429273b636dfd618425dffdbb874",
+            "reason": "즉석판매의 조건부 게시대체와 선식/우편/택배 예외, 얼음막 제외중량을 유지합니다. 해당 식약처 고시의 새 직접 검증 완료를 뜻하지 않습니다.",
+            "scope": "Exact proposed wording only. Not full-entry, whole-chapter, publication, or formal KR-FIT approval.",
+            "before_equals_full_source_field": true,
+            "before_equals_full_candidate_field": true,
+            "scope_kind": "whole_field",
+            "direct_field_operation_eligible": true,
+            "operation_base_constraint": "baseline_or_candidate_only_when_whole_field_before_matches"
+          },
+          {
+            "proposal_key": "todo",
+            "field": "비고의 TODO 문장",
+            "decision": "approve",
+            "before": "원문은 중국 기준의 수산물 보수제(인산염) 허용량을 실었습니다. 한국 「식품첨가물의 기준 및 규격」의 같은 수치는 확인하지 못했습니다. 그래서 쓰지 않았습니다(TODO).",
+            "after": "원문은 중국 기준의 수산물 보수제(인산염) 허용량을 실었습니다. 한국 「식품첨가물의 기준 및 규격」의 같은 수치는 확인하지 못해 이 글에는 싣지 않았습니다.",
+            "before_matches_source_entry": true,
+            "before_matches_candidate_entry": true,
+            "before_occurrences_in_source_entry": 1,
+            "after_chars": 87,
+            "after_sentences": null,
+            "length_exception_requested": false,
+            "length_exception_accepted": false,
+            "source_entry_sha256": "b6ad91b47a45b25794642e67d920b3fa5099429273b636dfd618425dffdbb874",
+            "candidate_entry_sha256": "b6ad91b47a45b25794642e67d920b3fa5099429273b636dfd618425dffdbb874",
+            "reason": "미확인 상태를 독자용 문장으로 유지하며 TODO 작업표지만 제거합니다. 확인 완료를 주장하거나 미해결 제한을 숨기지 않습니다. 장말 TODO 대조는 별도 승인 사항입니다.",
+            "scope": "Exact proposed wording only. Not full-entry, whole-chapter, publication, or formal KR-FIT approval.",
+            "before_equals_full_source_field": false,
+            "before_equals_full_candidate_field": false,
+            "scope_kind": "exact_substring_within_field",
+            "direct_field_operation_eligible": false,
+            "operation_base_constraint": "baseline_or_candidate_only_when_whole_field_before_matches"
+          }
+        ],
+        "candidate_entry_sha256": "b6ad91b47a45b25794642e67d920b3fa5099429273b636dfd618425dffdbb874",
+        "candidate_review_scope": "Read complete current candidate entry and source snapshot; field approvals do not resolve unverified primary sources or factual corrections in other fields."
+      },
+      "initial_content_audit_section": "- 상태: pending_candidate_review\n- 확인 범위: 즉석판매 게시 대체·선식/택배예외·얼음제외중량 고시 직접 미확인. 2026시행판 근거인지 후속 확인.",
+      "revision_requests": [],
+      "review_scope": "Allfourcompletebodyfields/title/tag/grade/source/exactchangesread;notonlychangedspans.",
+      "actual_primary_assessment": "실제법4전체·2025-27/2025-60/2026-37세고시의해당게시/중량조항과부칙직접읽음.즉석판매대상식품게시대체·선식/우편택배예외·얼음막및먹기전버리는액체중량제외·자연발생액체예외일치.2025-27시행20260101/일부즉시,2025-60발령즉시·시행후제조가공수입적용,2026-37본칙20280101/고시일즉시예외너8및표5는해당조항아님을구별.인산염허용량미검증/수치미수록제한유지.물많음만으로첨가물위법이라고단정안함.영양표시효과연구를주장하는항목이아니며주장범위는식품표시규정/중량안내.",
+      "proposed_root_operation": {
+        "type": "replace_complete_strict_entry_body",
+        "before_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-036-2880/strict-entry.md",
+        "before_entire_entry_sha256": "b6ad91b47a45b25794642e67d920b3fa5099429273b636dfd618425dffdbb874",
+        "after_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-036-2880/publication-entry-proposal.md",
+        "after_entire_entry_sha256": "bf0c07ae1b0991bb6167f1d9f27de0399e87dd654e463c4a35e6738befdc62b6",
+        "separator_policy": "verifywholebeforeentry;preservesurroundingchapterseparators",
+        "supersession": "latestfullsupersedesinitialfield/olderfull;sameentrynotboth",
+        "integration_authorized": false
+      }
+    }
+  ],
+  "approved_entries": [
+    36
+  ],
+  "revise_entries": [
+    14
+  ],
+  "actual_primary_readings": [
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/284311.xml",
+      "artifact_sha256": "cd865dd067c2ed7c3defe3795e96a0fbcfdb8f6e09af1a8ba56f8a2d8c381de4",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=284311&type=XML",
+      "scope": "26/29full",
+      "access": "existing_author_or_official_primary_artifact_direct_read",
+      "new_http": false
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/276727.xml",
+      "artifact_sha256": "4cc0f4882c2f995256b4493f37b3f1df671e9bafb90d69679a253681f3e78e5d",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=276727&type=XML",
+      "scope": "5full",
+      "access": "existing_author_or_official_primary_artifact_direct_read",
+      "new_http": false
+    },
+    {
+      "artifact_path": "/tmp/ch05e14-incheon.html",
+      "artifact_sha256": "c4f345fe2c1f00366aaf1dee5d40e62289ff365ddf69d0b772290dbe0b13b293",
+      "url": "https://www.incheon.go.kr/water/WA060303",
+      "scope": "actualhousehold2024/2025rateandfixedchargecolumns;pageupdate20240214",
+      "access": "existing_author_or_official_primary_artifact_direct_read",
+      "new_http": false
+    },
+    {
+      "artifact_path": "/tmp/ch05e14-cdc.html",
+      "artifact_sha256": "403a9acc422568c7bc9cbf0feea9cb3f9aacf30ddc325f8bfc0ecd48b6e53f38",
+      "url": "https://www.cdc.gov/water-emergency/about/index.html",
+      "scope": "emergencyoverview;fuel/toxic/radioactivewaterwarning;boilingandfiltersections",
+      "access": "existing_author_or_official_primary_artifact_direct_read",
+      "new_http": false
+    },
+    {
+      "artifact_path": "/tmp/ch05e36-law.xml",
+      "artifact_sha256": "9fb95b63ffa6113ff0b33eac3b281a5b75c68f07289c76b1a7308eb87148056a",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=269957&type=XML",
+      "scope": "4full",
+      "access": "existing_author_or_official_primary_artifact_direct_read",
+      "new_http": false
+    },
+    {
+      "artifact_path": "/tmp/ch05e36-2100000258070.xml",
+      "artifact_sha256": "7ff432e43b5cce4f4ad71c7c7ce076ec19ae5d9810a2c2ecfbf48bc312ca60d3",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000258070&type=XML",
+      "scope": "Ⅱ1거1가andannex1마2;2025-27supplement",
+      "access": "existing_author_or_official_primary_artifact_direct_read",
+      "new_http": false
+    },
+    {
+      "artifact_path": "/tmp/ch05e36-2025-60.xml",
+      "artifact_sha256": "f401fcbd8c9812f13346fd0439807b0f060adde6ea40a9bef7871e4b25ec2387",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000263558&type=XML",
+      "scope": "samerelevantlabeling/weightclauses;2025-60supplement",
+      "access": "existing_author_or_official_primary_artifact_direct_read",
+      "new_http": false
+    },
+    {
+      "artifact_path": "/tmp/ch05e36-future.xml",
+      "artifact_sha256": "7fab531c1281fdad873360003ea603926ab815466ef8ba299e6084bca6556d44",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000279014&type=XML",
+      "scope": "sameclausesand2026-37future2028supplement/limitedimmediateexceptions;notfuturelawpresentedcurrent",
+      "access": "existing_author_or_official_primary_artifact_direct_read",
+      "new_http": false
+    }
+  ],
+  "arithmetic14": {
+    "won_per_liter": 0.62,
+    "assumed_bottled_per_liter": 500.0,
+    "ratio": 806.4516129032259,
+    "excluded": "fixedwatercharge,sewage,boilingfuel;notmarketbottledstatistics"
+  },
+  "cross_reference_review": {
+    "inventory_path": "/workspace/.cache/howtolivebetter/publication/cross-reference-inventory-current.json",
+    "inventory_sha256": "546e2d29fdd800ff3bb927d748cdcc311f2fee0b9ef67cc4118841554417c16f",
+    "outgoing": [
+      {
+        "source_entry": 36,
+        "reference": "제12절(창업과 장사)",
+        "actual_target_path": "/workspace/HowToLiveBetter-KR/book-kr/12-창업과-장사.md",
+        "actual_target_file_sha256": "01aa7401bf3d69e2186f55d4299a23ff488c06dcfb8a77637976717829c20b2d",
+        "actual_target_entry": 9,
+        "actual_target_entry_sha256": "a22164c85d93bef2ec1ea94d958aeb61671d52bab3633abf97da0299ccfad3dc",
+        "body_read": true,
+        "claim_scope_alignment": "포장식품표시방법을다루는실제12절9항이제품명/내용량/원재료/날짜/품목별예외확인을안내.새36의게시대체/특정조건부중량설명을거짓보장이나건강효과로확대하는링크아님.",
+        "evidence_scope": "식품표시법4/28인용;이번검토는법4·해당고시범위실제읽음과연결.대상절전체미검증표시TODO를확정된것처럼전가하지않음."
+      }
+    ],
+    "incoming": "현재candidateintro14수돗물·36원재료명포장제품주제및새36제목의즉석게시제한과일치;14는내용revision전최종semanticapproval보류.",
+    "final_recheck_required": true
+  },
+  "integration_approval": false,
+  "whole45_approval": false,
+  "formal_kr_fit_approval": false,
+  "fresh_http_performed": false,
+  "preservation": "Oldreview/canonical/frozen/public/gates/gitunchanged;newpartial-review-r6JSON/MDonly."
+}

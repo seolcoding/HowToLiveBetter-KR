@@ -1,0 +1,115 @@
+{
+  "status": "source_verification_sufficient_for_entry15_Forer_claims_not_new_variant_approval",
+  "entry": 15,
+  "exact_current_proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-015-821a/publication-entry-proposal.md",
+  "exact_current_proposal_sha256": "a27df454f759998053ce9283b8e93f2ded99e2d3a6e71d185442936a3a1928ef",
+  "historical_review_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/publication-partial-review-r5.json",
+  "historical_review_sha256": "c21b67c80849677ac1498d64b38b2a6c4392242bc551ae2532e3183e5ef7599e",
+  "historical_review_unchanged": true,
+  "actual_primary_readings": [
+    {
+      "url": "https://skat.ihmc.us/rid=1TWXTKSR8-1BSYX2S-3L9L/forer_the%20fallacy%20of%20personal%20validation_1949.pdf",
+      "at_utc": "2026-10-18T18:29:06.290233+00:00",
+      "scope": "Discovered PDF copy; identity/content must be directly verified before source approval.",
+      "status": 200,
+      "final_url": "https://skat.ihmc.us/rid=1TWXTKSR8-1BSYX2S-3L9L/forer_the%20fallacy%20of%20personal%20validation_1949.pdf",
+      "content_type": "application/pdf",
+      "path": "/workspace/.cache/howtolivebetter/publication/forer-discovery-r1/7da63172d103ed478e477f3293eb22e6a1b032f9fa054b3957d386b5231692c5.raw",
+      "sha256": "76cc0c3a0ba6ea3abc13eebe7ac5d2d26da1d02b64406442e8555d73df41920e",
+      "bytes": 723853,
+      "pdf_magic": true,
+      "pdftotext_exit": 0,
+      "text_path": "/workspace/.cache/howtolivebetter/publication/forer-discovery-r1/7da63172d103ed478e477f3293eb22e6a1b032f9fa054b3957d386b5231692c5.txt",
+      "access_for_this_review": "Existing raw facsimile directly opened/read;ROOT earlierHTTPprovenance only,not this reviewer freshHTTP",
+      "read_at_utc": "2026-10-18T18:30:59.238379+00:00",
+      "identity": "Facsimile of Forer article title/author and printedpp118–123; no assertion hostingdomain ispublisher or authorinstitution",
+      "read_scope": "IHMC3two-page scannedspreads visuallyreadpp118–123; ArchivePDFextractedtext cross-check methods/results/table1/conclusions; not a secondary paraphrase",
+      "extraction_limitation": "IHMCpdftotext almostempty because scanned images; table checked visually,not emptytext treatedasbody"
+    },
+    {
+      "url": "https://archive.org/download/wikipedia-scholarly-sources-corpus/10.1037%252Fh0034974.zip/10.1037%252Fh0059240.pdf",
+      "at_utc": "2026-10-18T18:29:06.291780+00:00",
+      "scope": "Discovered PDF copy; identity/content must be directly verified before source approval.",
+      "status": 200,
+      "final_url": "https://ia600108.us.archive.org/view_archive.php?archive=/24/items/wikipedia-scholarly-sources-corpus/10.1037%252Fh0034974.zip&file=10.1037%252Fh0059240.pdf",
+      "content_type": "application/pdf",
+      "path": "/workspace/.cache/howtolivebetter/publication/forer-discovery-r1/b25cb48e7853081cb2576166bdeacefa477a8c2a9fa174923826d24b6775bab5.raw",
+      "sha256": "e86dfca7b702723f10cb0ff4c6da3f416157e23035c9d62671e08124fd213824",
+      "bytes": 416658,
+      "pdf_magic": true,
+      "pdftotext_exit": 0,
+      "text_path": "/workspace/.cache/howtolivebetter/publication/forer-discovery-r1/b25cb48e7853081cb2576166bdeacefa477a8c2a9fa174923826d24b6775bab5.txt",
+      "access_for_this_review": "Existing raw facsimile directly opened/read;ROOT earlierHTTPprovenance only,not this reviewer freshHTTP",
+      "read_at_utc": "2026-10-18T18:30:59.238973+00:00",
+      "identity": "Facsimile of Forer article title/author and printedpp118–123; no assertion hostingdomain ispublisher or authorinstitution",
+      "read_scope": "IHMC3two-page scannedspreads visuallyreadpp118–123; ArchivePDFextractedtext cross-check methods/results/table1/conclusions; not a secondary paraphrase",
+      "extraction_limitation": "IHMCpdftotext almostempty because scanned images; table checked visually,not emptytext treatedasbody"
+    }
+  ],
+  "visual_artifacts": [
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch06-partial-review/forer-original-spread-1.png",
+      "sha256": "53c843c0f6810f551c8a89c62a1bdfdd3bb31e8542a131b5a622c7b9fa752f57",
+      "printed_pages": [
+        118,
+        119
+      ],
+      "visual_read": true
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch06-partial-review/forer-original-spread-2.png",
+      "sha256": "5500f102ad70a42b1d2ae32ffab416659e81e5267a5e1f360dca9aabd9544fcb",
+      "printed_pages": [
+        120,
+        121
+      ],
+      "visual_read": true
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch06-partial-review/forer-original-spread-3.png",
+      "sha256": "1726115dd70043b0cdbd68e9201eeade8be54ecf3f6be547c09be9ebe5f5afdb",
+      "printed_pages": [
+        122,
+        123
+      ],
+      "visual_read": true
+    }
+  ],
+  "findings": {
+    "identity": "BertramRForer,TheFallacyofPersonalValidation:AClassroomDemonstrationofGullibility;printed118–123,originalarticlefacsimile corroboratedbytwoPDFcopies",
+    "methods": "Printed120:39introductorypsychologystudents;DiagnosticInterestBlank;allsketchesidentical;13statements;ratingAinstrumenteffectiveness distinctfromratingBpersonalitydescriptionaccuracy;both0–5scale",
+    "table1_printed121": {
+      "row": "B(Sketch)",
+      "ratings": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "counts": [
+        0,
+        0,
+        1,
+        4,
+        18,
+        16
+      ],
+      "N": 39,
+      "rating4_or5": 34,
+      "weighted_sum": 166,
+      "derived_mean": 4.256410256410256,
+      "rounded_mean": 4.26
+    },
+    "not_author_reported_mean": "No meanrating4.26 was found in actualsixprintedpages. Mean10.2 in results refers to countof13sketchitemsaccepted,notmean0–5rating. Proposal correctly labels4.26 as derivedfromtable.",
+    "interpretive_scope": "Classroomdemonstration;acceptancebyperson/clientoranalystdoesnotvalidateinterpretation. Doesnotmeasureaccuracyofalltarot/divinationorallfaiths.",
+    "numerical_discrepancy_found": false
+  },
+  "remaining_editorial_action": "Currentreaderwarning Forer표1수치는원문재확인이필요합니다 is now obsolete relative to this independentread. A sameauthorr2 may update onlythiswarning/sourceprovenance, frozenr1 remains. Newr2 exactapproval stillrequired.",
+  "fresh_http_performed_by_this_supplement": false,
+  "full_entry15_approval": false,
+  "whole29_approval": false,
+  "integration_approval": false,
+  "formal_kr_fit_approval": false
+}

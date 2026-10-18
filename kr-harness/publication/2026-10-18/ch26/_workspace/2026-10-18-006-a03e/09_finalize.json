@@ -1,0 +1,79 @@
+{
+  "decision": "accept",
+  "status": "accept",
+  "fidelity_violations": [],
+  "residual_findings": [],
+  "overediting": [],
+  "correction_count": 0,
+  "summary_updated": true,
+  "validation": {
+    "entire_source_reviewed": true,
+    "body_byte_identity": true,
+    "input_sha256": "8ff3752b5c1ae22f40fc5b021b36613299e38648f45048e408824d94562a9345",
+    "final_body_sha256": "8ff3752b5c1ae22f40fc5b021b36613299e38648f45048e408824d94562a9345",
+    "old_final_sha256": "620ca84a031a01ffc7cb8b08d587fddb0122e57bb36693409bc44acd4c08f432",
+    "final_sha256": "dcc37be965aecbed38a3925093c5a7a0fbf0f8263bc5c63dcfab01e81fd6bc49",
+    "source_body_chars_including_final_newline": 2327,
+    "source_body_bytes": 5438,
+    "summary_count": 1,
+    "gate_change_rate": 0.0,
+    "gate_exit_code": 0,
+    "sentence_touch": "0/65",
+    "numbers_dropped": [],
+    "modality_counts": {
+      "deontic": [
+        11,
+        11
+      ],
+      "hedge": [
+        3,
+        3
+      ]
+    },
+    "review_scope": [
+      "all four fields and headings",
+      "all numerical tokens and units, statute article references and date",
+      "all negation and exception clauses",
+      "all obligations, permissions, causality and scope",
+      "all quoted law names and inline citations",
+      "all size thresholds and conjunctive/disjunctive conditions"
+    ],
+    "specific_checks": [
+      "30일 이내; 3년/1억원; 2년/2천만원; 3%; 5천만원 preserved",
+      "10억원 또는 10만명, 전년도 말 직전 3개월, 법인 전 사업연도 preserved",
+      "별표 3의2/1의3/1, excluded service categories, 대상 제한 preserved",
+      "4월 말, 100만명 동시에 시행령 별표1, 2026-10-10 preserved",
+      "상당한 주의/기술적 현저한 곤란 처벌 예외; 일부러 미조치 과징금 preserved"
+    ],
+    "runtime_checks_sha256": "5f83f68e4acbc103ecde11e9a5c19d1015e0b514a36e9933ca10284489fa0bcc",
+    "actual_command": [
+      "python",
+      ".claude/skills/humanize-korean/scripts/verify_gates.py",
+      "--before",
+      "kr-harness/publication/2026-10-18/ch26/_workspace/2026-10-18-006-a03e/01_input.txt",
+      "--after",
+      "kr-harness/publication/2026-10-18/ch26/_workspace/2026-10-18-006-a03e/final.md",
+      "--genre",
+      "essay",
+      "--json"
+    ],
+    "gate_report_sha256": "e98f0ca45e4f74257d8b793c51356d21749a24efe39daf0ce325564b090ee021",
+    "gate_stdout_sha256": "e4918d434be419c7d9b395605f77c7488f5b26a37764aded5066ded6bb19e075",
+    "manifest_sha256": "3ac99bf964371f8b70094907535badf87e5350a8dbaf75f659f2df4ae72f90b0",
+    "manifest_use": "Read-only entry 6 input hash validation; no classification/registry flags.",
+    "backups": {
+      "publication-gates.txt.before-footnote-runtime-r2": "c971d6f3f6e357883c25336bed236aa2a1cf6d817d97851e835fc634d54a1456",
+      "publication-gates.json.before-footnote-runtime-r2": "e107a2a9f166532dde98c93579da3fba3806425a239c781419cd78e492c2cfa7",
+      "final.md.before-footnote-runtime-r2": "620ca84a031a01ffc7cb8b08d587fddb0122e57bb36693409bc44acd4c08f432",
+      "09_finalize.json.before-footnote-runtime-r2": "911de0bb1afe620e524997d622711473b430d30baa93f5987d70bd123e0491bf"
+    },
+    "final_pre_finalize_sha256": "620ca84a031a01ffc7cb8b08d587fddb0122e57bb36693409bc44acd4c08f432",
+    "invalid_cli_attempt": {
+      "exit_code": 3,
+      "error": "all classification flags required together",
+      "evidence": "runtime-r2-invalid-cli.txt",
+      "cause": "Coordinator corrected manifest-only flag instruction; not a runtime defect."
+    }
+  },
+  "evidence": "Independent full source/final comparison: all four fields, numerical and legal references, negations, conditions, exceptions, permissions, scope, quotes, and absent URLs preserved. Entire body remains original byte-identical; summary only updated. Production checks runtime SHA verified. Fresh actual gate after summary update exits 0 with no golden, numeric, or modality findings. Previous WARN evidence remains immutable in before-footnote-runtime-r2 backups; no waiver or code/threshold/input/manifest edits."
+}

@@ -1,0 +1,53 @@
+{
+  "status": "exact_approved_corrections_applied_pending_new_current_hash_formal",
+  "at_utc": "2026-10-18T18:32:21.861249+00:00",
+  "before_raw_sha256": "4f371aa8502b59d44bb5c5bb9bb52037ec32503eab3d0640171b99ca60e53f80",
+  "after_raw_sha256": "eb47e601b30e186c0021daad6a99339177c66d611ff3ad47a3380b3973f223c3",
+  "new_cli_sha256": "3876d4f07cdbc4acdad15dc27d913a5bffcfef574d66f536098801c7bf644142",
+  "review": {
+    "path": "final-review-evidence-r1/post-formal-review-r1.json",
+    "sha256": "44700403b3af728a8db97f2de147633c8c3605a649f9cd21cc611d79e733907e"
+  },
+  "operations": [
+    {
+      "entry": 38,
+      "before_public_entry_sha256": "83d6309c40b710296b3c9ec8dc60c219c4091bf5079e027db498c4ef69ba114f",
+      "base_entry_sha256": "83d6309c40b710296b3c9ec8dc60c219c4091bf5079e027db498c4ef69ba114f",
+      "raw_proposal_sha256": "483dfa079bf14acf483b48eee0f3c920ece97faaa14af77e3e72a38e8263c095",
+      "effective_after_sha256": "483dfa079bf14acf483b48eee0f3c920ece97faaa14af77e3e72a38e8263c095",
+      "changes_sha256": "671fd33d375c8fc44f681a261d0afe3a97bea93dfc25421be5d2be2ad0566b00",
+      "changed_fields": [
+        "비고",
+        "출처"
+      ],
+      "numbers_added": {
+        "2": 1,
+        "4": 6,
+        "5": 3,
+        "6": 1
+      },
+      "numbers_dropped": {
+        "21": 1
+      },
+      "numeric_scope": "Exact independently approved legal article/conditional-card-cap additions and obsolete21 reference removal in38; no numeric change45."
+    },
+    {
+      "entry": 45,
+      "before_public_entry_sha256": "66b5305618fc9a16df69004a47f4997ef8e7d16baef9913e217597e66060cb34",
+      "base_entry_sha256": "c2a722c7337d799c8e31e543fe6717fc15abbd0503d89b768e4e9ee156f01ecd",
+      "raw_proposal_sha256": "adfa1dcfbf6afdf6066f36491e22ca7377366cc4b735b77314a34da47e915cdb",
+      "effective_after_sha256": "a7d88450194eacf080344e646230b3ebf9d8357649d30f5f3f102909e063b7b9",
+      "changes_sha256": "54b16b25b193550b22172299faf8da64a4cd52231f389bbb218fdf68cac1678b",
+      "changed_fields": [
+        "비고"
+      ],
+      "numbers_added": {},
+      "numbers_dropped": {},
+      "numeric_scope": "Exact independently approved legal article/conditional-card-cap additions and obsolete21 reference removal in38; no numeric change45."
+    }
+  ],
+  "unchanged_entries": 43,
+  "intro_tail_and_dois_unchanged": true,
+  "previous_formal_archive": "kr-harness/chapters/05/kr-fit-review.r4.md",
+  "deployed": false
+}

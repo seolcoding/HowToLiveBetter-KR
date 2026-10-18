@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "original": {
+    "path": "_workspace/2026-10-18-004-a722/01_input.txt",
+    "sha256": "076d81ff359bf1030cc1f883fec3995d28c64a176106d997f341fd8a0946cdfe",
+    "byte_length": 1963
+  },
+  "final_body": {
+    "sha256": "dfc485bcc7181184b9205391b67c0d5c6df5be383f4d8dd6e1cdba96cf0e3796",
+    "byte_length": 1961
+  },
+  "quotations": [
+    {
+      "occurrence": {
+        "field": "이득",
+        "ordinal": 3,
+        "opening": {
+          "start": 855,
+          "end": 856,
+          "sha256": "8a331fdde7032f33a71e1b2e257d80166e348e00fcb17914f48bdb57a1c63007"
+        },
+        "content": {
+          "start": 856,
+          "end": 971,
+          "sha256": "9bb7eecc1171d756c7cbe1acad6df4becd57ad90e7bdcf466e44bb361c5611ce"
+        },
+        "closing": {
+          "start": 971,
+          "end": 972,
+          "sha256": "8a331fdde7032f33a71e1b2e257d80166e348e00fcb17914f48bdb57a1c63007"
+        }
+      },
+      "source_anchor": {
+        "start": 465,
+        "end": 521,
+        "sha256": "5eb3294287982df2eb4ab888b31ed52f63fdfa118e2763b005b4a52116e4b06a"
+      },
+      "source": {
+        "url": "https://www.cdc.gov/tobacco/about/cigarettes-and-reproductive-health.html",
+        "artifact": {
+          "path": "quote-attribution/source-review/cdc-reproductive-health-r2.raw.html",
+          "sha256": "084e000589352db2ad44671dcaeeec8e479daedb89af8a51ff0ee17aac145f84"
+        },
+        "artifact_byte_length": 69313,
+        "excerpt": {
+          "start": 31335,
+          "end": 31463,
+          "sha256": "c699a572729ab5084ce55e3cbd8bd2379320fd3d2104096e7dbcfeffed53074d"
+        },
+        "language": "en",
+        "rendering": "reviewed_translation"
+      }
+    },
+    {
+      "occurrence": {
+        "field": "이득",
+        "ordinal": 4,
+        "opening": {
+          "start": 1175,
+          "end": 1176,
+          "sha256": "8a331fdde7032f33a71e1b2e257d80166e348e00fcb17914f48bdb57a1c63007"
+        },
+        "content": {
+          "start": 1176,
+          "end": 1271,
+          "sha256": "cfdc959661e785a9a6516b622e9e4df423f129e91e1a842ecaaf3cf4b283cf08"
+        },
+        "closing": {
+          "start": 1271,
+          "end": 1272,
+          "sha256": "8a331fdde7032f33a71e1b2e257d80166e348e00fcb17914f48bdb57a1c63007"
+        }
+      },
+      "source_anchor": {
+        "start": 1168,
+        "end": 1175,
+        "sha256": "d467a93ebda31eeeff7a2c54cf624625dab0bc23d4b5eb784e78e94e3085711c"
+      },
+      "source": {
+        "url": "https://www.cdc.gov/tobacco/about/cigarettes-and-reproductive-health.html",
+        "artifact": {
+          "path": "quote-attribution/source-review/cdc-reproductive-health-r2.raw.html",
+          "sha256": "084e000589352db2ad44671dcaeeec8e479daedb89af8a51ff0ee17aac145f84"
+        },
+        "artifact_byte_length": 69313,
+        "excerpt": {
+          "start": 34634,
+          "end": 34817,
+          "sha256": "37052c4c93b99db666aa68c1d219dfa37b6401606312cb9593d2db03a0dab754"
+        },
+        "language": "en",
+        "rendering": "reviewed_translation"
+      }
+    }
+  ]
+}

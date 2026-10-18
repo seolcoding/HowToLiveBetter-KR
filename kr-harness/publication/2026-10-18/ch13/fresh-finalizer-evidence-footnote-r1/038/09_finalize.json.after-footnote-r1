@@ -1,0 +1,96 @@
+{
+  "status": "accept",
+  "decision": "accept",
+  "reviewer_id": "footnote_identity_review_fresh_finalizer",
+  "reviewed_at_utc": "2026-10-18T18:23:53.327888+00:00",
+  "genre": "essay",
+  "route": "light",
+  "fidelity_violations": [],
+  "residual_findings": [],
+  "overediting": [],
+  "correction_count": 0,
+  "accepted_existing_corrections": 1,
+  "summary_updated": false,
+  "grade": "B",
+  "change_rate": 0.0007,
+  "self_check": {
+    "passed": 6,
+    "total": 6
+  },
+  "independent_review": {
+    "comparison": "말고, → 말고의 쉼표 한 개 삭제만 확인했습니다. 가능한 HIV 노출, 72시간/3일 및 28일, PEP 응급 상황 한정, 국내 보험·처방 기관 미확인, 의사 판단·복약·재검사 경고와 CDC 완결 인용을 보존했습니다.",
+    "preserved": [
+      "네 prose field의 label·순서와 protected heading/tag/source/grade 그대로",
+      "모든 수치·날짜·기관명·인용·조건·부정·필수 경고 그대로",
+      "root가 다시 선택한 exact registry/payload/source-review와 original/final raw body SHA 일치"
+    ],
+    "source_approval_read": "quote-attribution/source-review/payload-38-review-r1.json",
+    "scope": "현재 원문과 정확 final 전체 직접 대조에 따른 fresh fidelity/style finalizer입니다. 본문/입력/summary 수정 없음. 기존 root 재선택과 exact source-review를 읽었으나 전체 항목의 사실·출처 또는 출판을 새로 승인하지 않습니다. ready.gov 직접 열람 제한(24) 및 72시간 경과 절대 표현과 국내 보험/처방 안내 검증 제외(38)의 기존 출처리뷰 범위는 유지됩니다."
+  },
+  "classification_context": {
+    "registry_sha256": "fcaea69ba82f916d15ea8f96d26b58c53af2407dcb82f2d0e5100de78102c89c",
+    "payload_sha256": "90ab1381c1f8cc2a3098d87d1e0c4c87e8e9c3abe04cace2e10c0c1172c88898",
+    "review_sha256": "ec3e1e18b289dd9f36f6cfde3ae53c8f4df58ebf8c33d39591a449e839b2d89d",
+    "original_sha256": "c28be01c207caeb56676cf81cd6f9f3060d49334a522179b278d147ad24c4081",
+    "final_body_sha256": "59e04574fc494ae398f3a443cefeead6bafcf0367ff51962f2f982244a765060",
+    "final_file_sha256": "be2e0327308cffca0848e5efe77db1050b82534a7b1517392d3631255acf643f",
+    "route": "light",
+    "original_path": "_workspace/2026-10-18-038-eea4/01_input.txt",
+    "runtime_sha256": {
+      "references/baseline.json": "6b64904daa27c3f759f39a664bf8e7e6c2ea1f9dcacd6d457e97b10f60f43dc5",
+      "references/baseline_v2.json": "b5f1725bd02fb4cc40eece68c5b8f1d7c7655775743196d8fd0bc5978f2ed916",
+      "references/metrics.py": "c17ef0bbb25f24fc1695068a319d421d35e4cffd9a8c277da3ad6a30ea96b8e3",
+      "references/metrics_v2.py": "35aed83e56f8ced583e25ea08d9fbecb8baf15f8bb7f5bb14883a9f7318e374f",
+      "scripts/checks.py": "5f83f68e4acbc103ecde11e9a5c19d1015e0b514a36e9933ca10284489fa0bcc",
+      "scripts/prepare_monolith_input.py": "3774a9faecf3791057d4c8e887dd222e701d131ac1605ba4de2e76c7c064a9a2",
+      "scripts/quote_context.py": "b3689d1fc321c55bc0d1d6a5985288a34d5ea8d851c67d846321856cf4de788f",
+      "scripts/verify_gates.py": "30ab963d7c9b72cf3f395bd1279ac2e33b58d4ca8b5e099ee25da7aeb5e0c81a"
+    },
+    "protected_quote_count": 1,
+    "reviewed_quote_count": 1,
+    "excluded_quote_chars_before": 28
+  },
+  "gate": {
+    "exit_code": 0,
+    "command": [
+      "python3",
+      "/workspace/HowToLiveBetter-KR/.claude/skills/humanize-korean/scripts/verify_gates.py",
+      "--before",
+      "_workspace/2026-10-18-038-eea4/01_input.txt",
+      "--after",
+      "_workspace/2026-10-18-038-eea4/final.md",
+      "--genre",
+      "essay",
+      "--json",
+      "--publication-manifest",
+      "manifest.json",
+      "--quote-registry",
+      "quote-attribution/root-registry-r1.json",
+      "--quote-registry-sha256",
+      "fcaea69ba82f916d15ea8f96d26b58c53af2407dcb82f2d0e5100de78102c89c",
+      "--classification-evidence-dir",
+      "fresh-finalizer-footnote-r1-038"
+    ],
+    "stdout": "fresh-finalizer-evidence-footnote-r1/038/actual-gate.stdout.txt",
+    "stderr": "fresh-finalizer-evidence-footnote-r1/038/actual-gate.stderr.txt",
+    "result": {
+      "verdict": "OK — 수렴",
+      "exit_code": 0
+    }
+  },
+  "body_sha256": "59e04574fc494ae398f3a443cefeead6bafcf0367ff51962f2f982244a765060",
+  "body_bytes": 1688,
+  "evidence": {
+    "backup_directory": "fresh-finalizer-evidence-footnote-r1/038",
+    "before_sha256": {
+      "final.md": "be2e0327308cffca0848e5efe77db1050b82534a7b1517392d3631255acf643f",
+      "09_finalize.json": "276763c1b3532b197cf0cbe9de656dda420e12b788f482cfd375a1334d6178e6",
+      "publication-gates.json": "531ca788c8e8d001332031b0052f9b7b19723d02ff85f98ac04542df024024c6",
+      "publication-gates.txt": "9bc20c508b41eb45cf7c2091280dc73cc8ba6dadfbf737f26164ae825681f89c",
+      "01_input.txt": "c28be01c207caeb56676cf81cd6f9f3060d49334a522179b278d147ad24c4081",
+      "00_metrics.json": "31a90e85626ef21673b265eab1eb9a4bfa1cefefd906e6395e7660655b91c28f",
+      "entry_snapshot.md": "db5fbfde439232e94485ba6045a0d195ff6e3887fe5f000d08199e95d455075a"
+    },
+    "classification_evidence_dir": "fresh-finalizer-footnote-r1-038"
+  }
+}

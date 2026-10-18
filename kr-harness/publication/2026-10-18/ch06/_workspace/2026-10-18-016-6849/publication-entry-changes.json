@@ -1,0 +1,130 @@
+{
+  "entry": 16,
+  "status": "unadopted_proposal",
+  "independent_exact_hash_review": "pending",
+  "base_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-016-6849/strict-entry.md",
+  "base_sha256": "208562cf37bdfd8e1a9fa273fcf6699ed404e9b10e7095ef09df029668ba620c",
+  "proposal_sha256": "c803e6e70f875f1a02848ab9953fa801854cd934045b76c3c08261e001fded7b",
+  "verification_date": "2026-10-18",
+  "verification_method": "Existing Europe PMC indexed primary abstract read in full; official NHS/NEI/CCOHS substantive pages fetched and read. No review full text or correction history certified.",
+  "primary_quotes": {
+    "review": [
+      "There may be no difference in subjective visual fatigue scores with blue-light filtering lenses compared to non-blue-light filtering lenses, at less than one week of follow-up (low-certainty evidence).",
+      "as none of the studies evaluated these outcomes."
+    ],
+    "glaucoma": [
+      "you develop symptoms of glaucoma suddenly",
+      "This is a medical emergency that may require immediate treatment."
+    ],
+    "dryeye": [
+      "Dry eye can happen if you spend a lot of time looking at your computer, tablet, or smart phone",
+      "If severe dry eye isn’t treated, it can sometimes damage your cornea"
+    ],
+    "welding": [
+      "exposure to just a few seconds of intense UV light can cause arc eye."
+    ]
+  },
+  "raw_provenance": [
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/573f6471c57338f53ce0.json",
+      "sha256": "6e2ee5fed190d38122aee3a24f83dec95c44b39df202ca2c3c1b70709578d141"
+    },
+    {
+      "path": "/tmp/ch06e16-evidence/welding.html",
+      "sha256": "19510e041f8e1f86b3aff783b5ca1901cbb317493dc4db4fda7c2ab593751aed"
+    },
+    {
+      "path": "/tmp/ch06e16-evidence/dryeye.html",
+      "sha256": "068e24d3e94e02fe141bc17255f8beb6364f0439c40696732905ddc4286d690e"
+    },
+    {
+      "path": "/tmp/ch06e16-evidence/glaucoma.html",
+      "sha256": "5cebe2e153077d88a70690b7d5df6df21c0e66473ab4e6db0b612756663c7c7a"
+    }
+  ],
+  "changes": [
+    {
+      "field": "title",
+      "before": "### 16. 눈 보호를 위해 블루라이트 차단안경을 사지 마세요. '화면을 몇 달 보면 눈이 못 쓰게 된다'는 말도 믿지 마세요. 다만 눈이 아프고 붉어질 때는 응급입니다",
+      "after": "### 16. 눈 보호용 블루라이트 차단안경은 사지 마세요. 갑작스러운 눈 통증·충혈은 즉시 진료받으세요",
+      "reason": "제목을 70자 이내로 줄이고 incoming anchor 블루라이트 차단안경을 보존합니다. 화면 손상 절대명제와 단순 충혈 전체의 응급 단정을 피합니다."
+    },
+    {
+      "field": "비용",
+      "before": "돈이 안 듭니다. 차단 가공에 붙는 추가 비용도 아낍니다.",
+      "after": "돈이 안 듭니다. 차단 가공에 붙는 추가 비용도 아낍니다.",
+      "reason": "변경 없음"
+    },
+    {
+      "field": "쉽게",
+      "before": "블루라이트 차단 렌즈의 효과는 확인되지 않았습니다. 안 사면 렌즈에 붙는 추가 비용을 아낍니다. 보통 렌즈와 비교해 눈 피로와 시력에 차이가 없었습니다. 눈 속을 보호한다는 근거도 찾지 못했습니다. 화면을 본 뒤 눈이 시리고 마른 증상은 회복됩니다. 용접 아크광, 자외선, 레이저는 눈을 손상시킵니다. 녹내장 급성 발작도 눈을 손상시킵니다.",
+      "after": "블루라이트 차단 렌즈는 안 사도 됩니다. 짧게 살핀 자료에서는 보통 렌즈와 눈 피로 차이가 없을 수 있습니다. 다만 근거는 불확실합니다. 눈 속을 보호한다는 근거도 찾지 못했습니다.",
+      "reason": "단기 눈피로의 불확실한 무차이를 중심으로 요약. 비유의가 무효 입증은 아님."
+    },
+    {
+      "field": "이득",
+      "before": "코크런은 2023년 체계적 문헌고찰에 무작위 대조시험 17건을 모았습니다. 시험마다 참여자는 5명에서 156명이었습니다. 추적 기간은 하루 미만부터 5주까지였습니다. 데이터가 적고 참여자 집단도 서로 달랐습니다. 추적 기간도 달라 연구진은 결과를 합산하지 않았습니다. 비교 대상은 모두 차단 코팅이 없는 렌즈였습니다. 1주 미만 추적에서 참여자가 보고한 눈 피로는 차이가 없을 가능성이 있습니다. 이 결과의 근거 확실성은 낮습니다. 그중 120명 시험에서 두 군의 차이는 9.76 단위였습니다. 차이의 신뢰구간은 95% CI −33.95에서 53.47입니다. 양수와 음수를 모두 포함해 통계적 차이를 확인하지 못했습니다. 눈 피로의 객관 지표로는 임계 융합 빈도를 썼습니다. 이 지표도 차이가 거의 없을 가능성이 있습니다. 근거 확실성은 낮습니다. 안경으로 교정한 최대 시력에도 영향이 없을 가능성이 큽니다. 두 군의 차이는 0.00 logMAR였습니다. 신뢰구간은 95% CI −0.02–0.02입니다. 시력 결과는 연구 1건, 156명에서 나왔습니다. 근거 확실성은 중간 수준입니다. 낮 동안의 각성도에 미치는 영향은 알 수 없습니다. 각성도를 살핀 시험은 2건, 참여자는 42명이었습니다. 근거 확실성은 매우 낮습니다. 눈 속 황반을 보호한다는 근거도 찾지 못했습니다.",
+      "after": "코크런은 2023년 체계적 문헌고찰에 무작위 대조시험 17건을 모았습니다. 시험마다 참여자는 5명에서 156명이었습니다. 추적 기간은 하루 미만부터 5주까지였습니다. 데이터가 적고 참여자 집단도 서로 달랐습니다. 추적 기간도 달라 연구진은 결과를 합산하지 않았습니다. 비교 대상은 모두 차단 코팅이 없는 렌즈였습니다. 1주 미만 추적에서 참여자가 보고한 눈 피로는 차이가 없을 가능성이 있습니다. 이 결과의 근거 확실성은 낮습니다. 그중 120명 시험에서 두 군의 차이는 9.76 단위였습니다. 차이의 신뢰구간은 95% CI −33.95에서 53.47입니다. 양수와 음수를 모두 포함해 통계적 차이를 확인하지 못했습니다. 눈 피로의 객관 지표로는 임계 융합 빈도를 썼습니다. 깜박이는 빛을 연속된 빛으로 느끼는 경계 빈도입니다. 하루 미만 추적에서 이 지표도 차이가 거의 없을 가능성이 있습니다. 근거 확실성은 낮습니다. 안경으로 교정한 최대 시력에도 영향이 없을 가능성이 큽니다. 두 군의 차이는 0.00 logMAR였습니다. logMAR는 시력을 나타내는 단위입니다. 신뢰구간은 95% CI −0.02–0.02입니다. 시력 결과는 연구 1건, 156명에서 나왔습니다. 근거 확실성은 중간 수준입니다. 낮 동안의 각성도에 미치는 영향은 알 수 없습니다. 각성도를 살핀 시험은 2건, 참여자는 42명이었습니다. 근거 확실성은 매우 낮습니다. 눈 속 황반의 건강은 포함된 시험에서 평가하지 않았습니다.",
+      "reason": "하루 미만 CFF 범위와 단위 풀이; 황반 미평가를 무효와 구별."
+    },
+    {
+      "field": "근거등급",
+      "before": "A",
+      "after": "A",
+      "reason": "변경 없음"
+    },
+    {
+      "field": "출처",
+      "before": "Singh S, Downie LE, Anderson AJ, Keller PR, White SJ, Ang M, Wolffsohn JS (2023). Blue-light filtering spectacle lenses for visual performance, sleep, and macular health in adults. Cochrane Database of Systematic Reviews, 8, CD013244. https://doi.org/10.1002/14651858.CD013244.pub2",
+      "after": "Singh S, Keller PR, Busija L, McMillan P, Makrai E, Lawrenson JG, Hull CC, Downie LE (2023). Blue-light filtering spectacle lenses for visual performance, sleep, and macular health in adults. Cochrane Database of Systematic Reviews, 8, CD013244. https://doi.org/10.1002/14651858.CD013244.pub2; NHS, Glaucoma. https://www.nhs.uk/conditions/glaucoma/; NEI, Dry Eye. https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/dry-eye; CCOHS, Welding – Radiation and the Effects On Eyes and Skin. https://www.ccohs.ca/oshanswers/safety_haz/welding/eyes.html",
+      "reason": "실제 초록의 저자명 정정, 직접 읽은 공식 안내 추가."
+    },
+    {
+      "field": "비고",
+      "before": "화면을 보면 눈 피로와 안구건조가 생깁니다. 눈이 시리고 마르며 오래 보면 시야가 흐려집니다. 쉬면서 눈을 자주 깜빡이면 증상이 풀립니다. 이런 증상은 회복되며 영구적인 눈 손상을 뜻하지는 않습니다. 이는 코크런 고찰의 결론이 아니라 안과의 합의에 해당합니다. 따라서 근거는 사실상 C급입니다. 용접 아크광, 자외선, 레이저 같은 강한 빛은 눈을 손상시킵니다. 짧은 시간에도 되돌릴 수 없는 손상이 생깁니다. 용접 불꽃을 맨눈으로 보면 각막에 화상을 입습니다. 보호안경과 안면 보호구로 막으세요. 작업장 보호구 이야기는 제19절(재직·퇴사·산재)에서 다룹니다. 블루라이트 차단 렌즈로는 막지 못합니다. 밤새 화면을 볼 때는 다음 증상을 조심하세요. 눈 통증과 충혈에 불빛 주위로 무지개가 보일 수 있습니다. 두통과 구역질까지 함께 오면 응급입니다. 급성 폐쇄각 녹내장 발작을 의심하세요. 며칠 사이에 시신경이 손상될 수 있습니다. 당일 안과 응급진료를 받으세요. 응급 증상은 제13절(응급상황)에서 다룹니다. 어두운 곳에서는 동공이 커집니다. 이때 오래 고개를 숙이면 수정체가 앞으로 밀릴 수 있습니다. 이로 인해 발작이 생길 수 있습니다. 50세 이상, 원시가 있거나 전방이 얕은 눈은 발작 위험이 큽니다. 화면 때문에 생긴 안구건조가 오래가면 치료가 필요한 만성병이 됩니다. 잠을 잔다고 저절로 없어지지는 않습니다. 눈이 계속 불편하거나 실제로 시력이 떨어지면 안과에서 원인을 찾으세요. 렌즈만 바꿔서는 해결되지 않습니다. 아동·청소년의 근시 예방은 제30절(학교 다니는 아이)에서 다룹니다. 하루 실외 2시간 활동, 조절마비굴절검사, '근시 치료' 제품을 사지 말라는 권고가 들어갑니다.",
+      "after": "화면을 보면 눈 피로와 안구건조가 생길 수 있습니다. 눈이 시리고 마르며 오래 보면 시야가 흐려집니다. 화면을 쉬어 보고 눈을 자주 깜빡이세요. 증상만으로 영구적인 눈 손상이라고 볼 수는 없습니다. 다만 심한 안구건조를 치료하지 않으면 각막이 손상될 수 있습니다. 이 설명은 렌즈 고찰과 별도의 안구건조 안내에 근거합니다. 용접 아크광, 자외선, 레이저는 눈을 손상시킬 수 있습니다. 손상의 종류와 지속 기간은 빛의 세기와 노출에 따라 다릅니다. 강한 자외선은 몇 초 노출로도 용접광 안염을 일으킬 수 있습니다. 보호안경과 안면 보호구로 막으세요. 작업장 보호구 이야기는 제19절(재직·퇴사·산재)에서 다룹니다. 블루라이트 차단 렌즈를 작업용 보호구로 대신 쓰지 마세요. 갑자기 눈이 아프고 붉어지거나 시력이 떨어지면 응급입니다. 불빛 주위 무지개, 두통, 구역질도 나타날 수 있습니다. 이런 증상이 갑자기 생기면 즉시 응급진료를 받으세요. 급성 폐쇄각 녹내장 등 응급질환을 의심해야 합니다. 응급 증상은 제13절(응급상황)에서 다룹니다. 화면을 밤새 보는 일이 발작 원인인지는 이 고찰로 알 수 없습니다. 녹내장 위험은 50세 이상이나 원시가 있으면 커집니다. 전방이 얕은 눈의 발작 위험은 안과에서 평가받으세요. 안구건조는 원인에 따라 치료가 필요합니다. 잠만 자면 저절로 낫는다고 여기지 마세요. 눈이 계속 불편하거나 실제로 시력이 떨어지면 안과에서 원인을 찾으세요. 렌즈만 바꿔서는 해결되지 않습니다. 아동·청소년의 근시 예방은 제30절(학교 다니는 아이)에서 다룹니다. 하루 실외 2시간 활동과 조절마비굴절검사를 다룹니다. '근시 치료' 제품을 사지 말라는 권고도 들어갑니다.",
+      "reason": "즉시 응급진료, 심한 안구건조 손상 가능성, UV 노출별 위험. 화면·자세의 발작 기전 단정 삭제."
+    }
+  ],
+  "doi_changes": "기존 DOI 유지. 추가/삭제 없음.",
+  "intentional_scope_changes": [
+    "황반 보호 무효가 아닌 시험 미평가",
+    "일률적 영구손상 단정 제거",
+    "당일 진료를 갑작스러운 증상 즉시 응급진료로 강화",
+    "밤샘 화면·고개 숙임·수정체 전방 이동의 확인되지 않은 인과 설명 제거"
+  ],
+  "unresolved_limitations": [
+    "렌즈 고찰 전문·정정 이력 미확인. 초록 수준 확인.",
+    "레이저 별도 직접 자료 접근 404; 손상 가능성 경고는 기존 범위 유지, 모든 광원을 영구손상으로 단정하지 않음.",
+    "얕은 전방의 개인 위험은 평가 권고로 한정.",
+    "기존 근거등급 A는 보존되지만 모든 비고 설명에 적용한다는 뜻이 아님."
+  ],
+  "incoming_anchors": {
+    "scan": "ch06/intro.md와 source.md 제16항",
+    "preserved": [
+      "블루라이트 차단안경"
+    ]
+  },
+  "validation": {
+    "literal_check_command": [
+      "python",
+      "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/publication-partial-review-evidence/literal_check.py",
+      "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-016-6849/publication-entry-proposal.md"
+    ],
+    "returncode": 0,
+    "output": [
+      {
+        "entry": null,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-016-6849/publication-entry-proposal.md",
+        "title_chars": 50,
+        "easy_chars": 101,
+        "easy_sentences": 4,
+        "long_sentences": [],
+        "pass_length": true
+      }
+    ],
+    "six_fields_one_physical_line": true,
+    "cost_tag_exact": true,
+    "evidence_grade_exact": true
+  }
+}

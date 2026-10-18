@@ -1,0 +1,187 @@
+{
+  "status": "completed_exact_two_entry_partial_reassessment_r4",
+  "manifests": [
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/author-revision-batch-17.json",
+      "sha256": "ec154b5314ac5c4a763760f0fc0e2253c5eb05e4123cd1614d0840852aed7402"
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/author-revision-batch-18.json",
+      "sha256": "76a3cf5e9a5137a3aaa0f396101777c319a68de8cf6fbc176532acaa5f907a7c"
+    }
+  ],
+  "approved_entries": [
+    6,
+    5
+  ],
+  "revise_entries": [],
+  "entries": [
+    {
+      "entry": 6,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-006-1972/publication-entry-proposal-r2.md",
+      "proposal_sha256": "8bb10ba9943641c1beb018b82a73877375539af2c16ac586c9dcbd7c37decf8f",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-006-1972/publication-entry-changes-r2.json",
+      "changes_sha256": "436bc4aab424629383fd29a9fd26e9550e7697b20783b055a59c5b54385b9464",
+      "decision": "approve",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-006-1972/strict-entry.md",
+      "base_strict_entry_sha256": "e54fdc9d686c1af36b1e93c01f257ff2ada2874649966327fc43e10475ad62f5",
+      "hash_checks": {
+        "proposal": true,
+        "changes": true
+      },
+      "length_check": {
+        "entry": 6,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-006-1972/publication-entry-proposal-r2.md",
+        "title_chars": 44,
+        "easy_chars": 119,
+        "easy_sentences": 4,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "six_labels": true,
+        "tag": true,
+        "grade": true,
+        "base_hash": true
+      },
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "revision_requests": [],
+      "actual_review_scope": "Read complete title,tag,cost,easy,benefit,grade,sources,notes and diff against originalfull. Literal50 includes inherited text and parentheses. No automatic quote exception used.",
+      "source_assessment": "법2의 인허가·불특정다수·업·원금이상·가상자산 조건 유지. 유사수신3/4/6 실제원문 추가열람으로 수신5년/5000만원과 광고2년/2000만원 구별 확인. 본문은 수신행위 벌칙으로 명시해 광고와 혼동하지 않음. 자본시장법55의 신탁/정당사유 예외는 앞선 직접읽음 유지. 금소법21①1과 령16① 직접 읽음: 시행령 예외는21제6호 행위에 관한 것이므로 본문 단정적권유 금지범위를 줄이지 않음. 금융감독원경보/중국수치 미열람은 독자한계로 유지.",
+      "proposed_root_operation": {
+        "type": "replace_complete_strict_entry_body",
+        "before_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-006-1972/strict-entry.md",
+        "before_entire_entry_sha256": "e54fdc9d686c1af36b1e93c01f257ff2ada2874649966327fc43e10475ad62f5",
+        "after_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-006-1972/publication-entry-proposal-r2.md",
+        "after_entire_entry_sha256": "8bb10ba9943641c1beb018b82a73877375539af2c16ac586c9dcbd7c37decf8f",
+        "separator_policy": "verify whole before entry bytes; preserve surrounding separators",
+        "supersession": "latest full supersedes earlier initialfield/olderfull;do not apply both",
+        "integration_authorized": false
+      }
+    },
+    {
+      "entry": 5,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-005-7f82/publication-entry-proposal-r2.md",
+      "proposal_sha256": "0fa60d60525cbc0a376c0002663fe78413ded09958fd2bf67d8b28ba6a7fdf04",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-005-7f82/publication-entry-changes-r2.json",
+      "changes_sha256": "602e5554a5f6cbe67edc8846725800102de542ba2d8092f24b5f4ba1152f84e8",
+      "decision": "approve",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-005-7f82/strict-entry.md",
+      "base_strict_entry_sha256": "c2cbaae526bb2be0e3f200dc3b7182609455c593e103a77dbb6481eda3f51b0e",
+      "hash_checks": {
+        "proposal": true,
+        "changes": true
+      },
+      "length_check": {
+        "entry": 5,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-005-7f82/publication-entry-proposal-r2.md",
+        "title_chars": 10,
+        "easy_chars": 99,
+        "easy_sentences": 4,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "six_labels": true,
+        "tag": true,
+        "grade": true,
+        "base_hash": true
+      },
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "revision_requests": [],
+      "actual_review_scope": "Read complete title,tag,cost,easy,benefit,grade,sources,notes and diff against originalfull. Literal50 includes inherited text and parentheses. No automatic quote exception used.",
+      "source_assessment": "법8 실제원문 전체 직접읽음:발행액50%이상,미리확정불가시판매액기준. 공식동행복권 실제HTTP200에서 로또판매액50%/기금40%이상/1등1:8145060 확인.1000×.5=500원은 장기기대액이며 개인실측과 구별.소득세84② 건별200만원이하비과세·분할지급합계와129①6의20/초과3억원30% 조건 대조.앞서 실제읽은지방세103의13 소득세10%로22/33% 산술 일치.원문통화환산이나미검증연간판매액추가없음.",
+      "proposed_root_operation": {
+        "type": "replace_complete_strict_entry_body",
+        "before_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-005-7f82/strict-entry.md",
+        "before_entire_entry_sha256": "c2cbaae526bb2be0e3f200dc3b7182609455c593e103a77dbb6481eda3f51b0e",
+        "after_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-005-7f82/publication-entry-proposal-r2.md",
+        "after_entire_entry_sha256": "0fa60d60525cbc0a376c0002663fe78413ded09958fd2bf67d8b28ba6a7fdf04",
+        "separator_policy": "verify whole before entry bytes; preserve surrounding separators",
+        "supersession": "latest full supersedes earlier initialfield/olderfull;do not apply both",
+        "integration_authorized": false
+      }
+    }
+  ],
+  "actual_primary_readings": [
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/276115.xml",
+      "artifact_sha256": "de706e9b349ecdf0c53725cadca32de996d5a13fd1aadaa2cefac5281b8be062",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=276115&type=XML",
+      "access": "existing_primary_cache_actual_read_or_explicit_reuse",
+      "scope": "8 entire",
+      "new_http": false
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/280405.xml",
+      "artifact_sha256": "c430c1daf89379c4213ebbfbaa8f5ae76ad210bf2154d258686828d02a126e87",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=280405&type=XML",
+      "access": "existing_primary_cache_actual_read_or_explicit_reuse",
+      "scope": "84 entire;129①6 previously directlyread reused",
+      "new_http": false
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/260861.xml",
+      "artifact_sha256": "48c79028c2f10530016ea5dbcba209713636fb0080bcd85cccf421f11a6fd957",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=260861&type=XML",
+      "access": "existing_primary_cache_actual_read_or_explicit_reuse",
+      "scope": "3·4·6 entire;2 scope previously directlyread reused",
+      "new_http": false
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/277247.xml",
+      "artifact_sha256": "df88739da5899708ec4c7cb5a254e4794b9cef8f9680b97c7ce376200d21e8bf",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=277247&type=XML",
+      "access": "existing_primary_cache_actual_read_or_explicit_reuse",
+      "scope": "21 entire",
+      "new_http": false
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/285715.xml",
+      "artifact_sha256": "f4cc2ef36e09e278b9bb1b55e121b9a1520a8a68f292bab94e267f07eefb7ab1",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=285715&type=XML",
+      "access": "existing_primary_cache_actual_read_or_explicit_reuse",
+      "scope": "16① entire relevant exceptions",
+      "new_http": false
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/288615.xml",
+      "artifact_sha256": "f636a6a9449a6c03608e624496c2d52182179a166150dadd964507262c26ebb3",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=288615&type=XML",
+      "access": "existing_primary_cache_actual_read_or_explicit_reuse",
+      "scope": "55 previously actually-read scope reused",
+      "new_http": false
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch05-partial-review/localtax-reassessment.xml",
+      "artifact_sha256": "ad1a6c5143e50981beece9425e5eccf8d1b3ca2c58da8d2dd6294d7880d7a3d0",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=282559&efYd=20260701&type=XML",
+      "access": "existing_primary_cache_actual_read_or_explicit_reuse",
+      "scope": "103의13① previously fresh actualread reused",
+      "new_http": false
+    }
+  ],
+  "fresh_http": {
+    "url": "https://www.dhlottery.co.kr/lt645/intro",
+    "utc": "2026-10-18T17:20:31.642101+00:00",
+    "status": 200,
+    "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch05-partial-review/lottery-reassessment.html",
+    "sha256": "aced9b0000cc0288c551ecd54644a5a3b619fb444b08b29fca5a00a60f03bc3e",
+    "scope": "substantive Lotto6/45 game price,payout50%,fund40%,probability8145060 actualHTML;not shell or searchsnippet"
+  },
+  "prior_review_reference": {
+    "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/publication-partial-review-r1.json",
+    "sha256": "2014b7eee3797d3b0336776f2922993b2e21692d6957769743062601acbaee3b"
+  },
+  "clarification": "Earlier r1 entry5 actual_primary_reading_scope mistakenly referred to pension59의3/61. That scope is not used as lottery verification;this r4 records the actual lottery statute/operator/tax reading precisely. Prior historical record is preserved.",
+  "integration_approval": false,
+  "formal_kr_fit_approval": false,
+  "whole45_approval": false,
+  "preservation": "Oldreviews/canonical/frozen/public/runs/gates/git untouched;only newr4 JSON/MD written."
+}

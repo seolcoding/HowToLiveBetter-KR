@@ -1,0 +1,412 @@
+{
+  "chapter": 6,
+  "status": "completed_exact_partial_review_r2",
+  "manifest_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/author-partial-manifest-2.json",
+  "manifest_sha256": "2a27040ef977a3dae4809aa513ff840c5af8f3990f90c2fd40497b606d387edf",
+  "entries": [
+    {
+      "entry": 3,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-003-8633/proposal-r2.md",
+      "proposal_sha256": "97a0c9cd4884c4296df30345c61c9a9efa3ce538feeb050f2a7f5a925274a3c3",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-003-8633/changes-r2.json",
+      "changes_sha256": "dffa961cbe0c61b15bd37d5e7eac63bc77c9d3ab263f8af60f9c01f5be8f9615",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-003-8633/strict-entry.md",
+      "base_strict_entry_sha256": "83f967470bfdc23d765cce14130e68f5e7bdec391b43a44bd32b96d293aa4915",
+      "literal_exit_code": 0,
+      "decision": "approve",
+      "all_four_complete_fields_read": true,
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "snapshot_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-003-8633/entry_snapshot.md",
+      "snapshot_sha256": "83f967470bfdc23d765cce14130e68f5e7bdec391b43a44bd32b96d293aa4915",
+      "strict_candidate_contains_exact_base": true,
+      "length_check": {
+        "entry": 3,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-003-8633/proposal-r2.md",
+        "title_chars": 43,
+        "easy_chars": 98,
+        "easy_sentences": 3,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "number": true,
+        "six_labels": true,
+        "tags": true,
+        "grade": true
+      },
+      "production_layout_check": true,
+      "initial_canonical_entry": {
+        "entry": 3,
+        "baseline_entry_sha256": "83f967470bfdc23d765cce14130e68f5e7bdec391b43a44bd32b96d293aa4915",
+        "findings": [
+          {
+            "severity": "block",
+            "field": "쉽게",
+            "before_excerpt": "비타민 D가 부족하지 않은 사람이 5년간 보충했습니다.",
+            "request": "결핍이 없는 사람만 모집한 시험으로 쓰지 마세요. 결핍 여부로 선별하지 않은 성인 대상 시험이며 결핍 치료에 일반화할 수 없다고 구분하세요.",
+            "evidence_key": "10.1016/S2213-8587(21)00345-4"
+          }
+        ],
+        "candidate_review": "pending",
+        "snapshot_path": "_workspace/2026-10-18-003-8633/entry_snapshot.md",
+        "manifest_entry_sha256": "83f967470bfdc23d765cce14130e68f5e7bdec391b43a44bd32b96d293aa4915",
+        "snapshot_sha_matches_manifest": true
+      },
+      "finding_closure": "r1에서 실제 읽은 VITAL/D-Health 원초록·결핍 발췌를 재사용했다. r2 전체를 읽어 정정 내용과 위 수치 영향 미확인을 독자 비고에도 명시했음을 확인했다. 초기 결핍 모집단 오류·이후 독자 제한 누락을 해소했고 효과없음 확정/결핍치료 일반화는 하지 않는다.",
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "revision_requests": [],
+      "proposed_root_operation": {
+        "type": "replace_complete_strict_entry_body",
+        "before_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-003-8633/strict-entry.md",
+        "before_entire_entry_sha256": "83f967470bfdc23d765cce14130e68f5e7bdec391b43a44bd32b96d293aa4915",
+        "after_proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-003-8633/proposal-r2.md",
+        "after_original_proposal_sha256": "97a0c9cd4884c4296df30345c61c9a9efa3ce538feeb050f2a7f5a925274a3c3",
+        "effective_after_sha256": "97a0c9cd4884c4296df30345c61c9a9efa3ce538feeb050f2a7f5a925274a3c3",
+        "effective_after_rule": "proposal.rstrip()+original strict entry trailing whitespace; preserve original separators",
+        "supersession": "Latest approved full replaces any initial field/older full once.",
+        "integration_authorized": false
+      }
+    },
+    {
+      "entry": 5,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-005-52dc/publication-entry-proposal-r2.md",
+      "proposal_sha256": "afa301260da58e2e665897a61ada775a6d03eb371e198ef8eec8d14c43327f7e",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-005-52dc/publication-entry-changes-r2.json",
+      "changes_sha256": "c4114f0608abd8f378c67f640c4396187f51e8df21a9ade2a67339f34c658120",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-005-52dc/strict-entry.md",
+      "base_strict_entry_sha256": "4a688842301905396aaa30198fe59962e7b43fda1511be910be19a09145b90c1",
+      "literal_exit_code": 0,
+      "decision": "approve",
+      "all_four_complete_fields_read": true,
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "snapshot_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-005-52dc/entry_snapshot.md",
+      "snapshot_sha256": "c9351442613bdaedb1df9b0116836626e160345b75bb0e5147c78d94f7d7846c",
+      "strict_candidate_contains_exact_base": true,
+      "length_check": {
+        "entry": 5,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-005-52dc/publication-entry-proposal-r2.md",
+        "title_chars": 39,
+        "easy_chars": 103,
+        "easy_sentences": 3,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "number": true,
+        "six_labels": true,
+        "tags": true,
+        "grade": true
+      },
+      "production_layout_check": true,
+      "initial_canonical_entry": {
+        "entry": 5,
+        "baseline_entry_sha256": "c9351442613bdaedb1df9b0116836626e160345b75bb0e5147c78d94f7d7846c",
+        "findings": [
+          {
+            "severity": "block",
+            "field": "비고",
+            "before_excerpt": "저자는 데이터를 사후에 뒤져 찾은 결과라고 적었습니다.",
+            "request": "초록은 기저 통증중증도에 따른 층화 배정과 exploratory analyses를 명시합니다. 사후에 뒤졌다는 단정 대신 중등도~중증 통증 하위집단의 탐색적 결과라고 쓰세요. 초기 통증이 심했던 사람으로만 쓰면 중등도가 빠집니다. 통증 호전은 20% 이상 감소 기준입니다.",
+            "evidence_key": "10.1056/NEJMoa052771"
+          }
+        ],
+        "candidate_review": "pending",
+        "snapshot_path": "_workspace/2026-10-18-005-52dc/entry_snapshot.md",
+        "manifest_entry_sha256": "c9351442613bdaedb1df9b0116836626e160345b75bb0e5147c78d94f7d7846c",
+        "snapshot_sha_matches_manifest": true
+      },
+      "finding_closure": "r1 실제 GAIT 원초록 범위를 재사용했다. 전체 r2에서 무릎관절염 치료 근거라는 참조문장을 제거하고 일반 운동·체중관리 안내이며 대상2절 항목은 사망위험을 다룬다고 명시했다. GAIT20%통증 감소·퍼센트포인트·중등도~중증 층화/탐색 분석을 보존해 초기block과 참조 범위 revise를 해소했다.",
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "revision_requests": [],
+      "proposed_root_operation": {
+        "type": "replace_complete_strict_entry_body",
+        "before_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-005-52dc/strict-entry.md",
+        "before_entire_entry_sha256": "4a688842301905396aaa30198fe59962e7b43fda1511be910be19a09145b90c1",
+        "after_proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-005-52dc/publication-entry-proposal-r2.md",
+        "after_original_proposal_sha256": "afa301260da58e2e665897a61ada775a6d03eb371e198ef8eec8d14c43327f7e",
+        "effective_after_sha256": "afa301260da58e2e665897a61ada775a6d03eb371e198ef8eec8d14c43327f7e",
+        "effective_after_rule": "proposal.rstrip()+original strict entry trailing whitespace; preserve original separators",
+        "supersession": "Latest approved full replaces any initial field/older full once.",
+        "integration_authorized": false
+      }
+    },
+    {
+      "entry": 6,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-006-f440/publication-entry-proposal.md",
+      "proposal_sha256": "78c49cf95ca806748abbcd158462164ae1c6d609cb51b4f2d3a0971e383bc7c0",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-006-f440/publication-entry-changes.json",
+      "changes_sha256": "4f470a98db20f18ed9d4359ad7f4362dceafffcf0e9c76cc42e8e75ee3bc5f2f",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-006-f440/strict-entry.md",
+      "base_strict_entry_sha256": "54e1d4d6f11e15173ea4e475ed73f771c67497342e58a76ba64eb983a5ed79d9",
+      "literal_exit_code": 0,
+      "decision": "approve",
+      "all_four_complete_fields_read": true,
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "snapshot_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-006-f440/entry_snapshot.md",
+      "snapshot_sha256": "06dcf56aa9494e18b8ac961eea1fd27bf60330add7597053fa12954091f37eae",
+      "strict_candidate_contains_exact_base": true,
+      "length_check": {
+        "entry": 6,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-006-f440/publication-entry-proposal.md",
+        "title_chars": 19,
+        "easy_chars": 113,
+        "easy_sentences": 4,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "number": true,
+        "six_labels": true,
+        "tags": true,
+        "grade": true
+      },
+      "production_layout_check": true,
+      "initial_canonical_entry": {
+        "entry": 6,
+        "baseline_entry_sha256": "06dcf56aa9494e18b8ac961eea1fd27bf60330add7597053fa12954091f37eae",
+        "findings": [
+          {
+            "severity": "warn",
+            "field": "쉽게",
+            "before_excerpt": "한 번 감기에 반나절 정도 덜 아픈 셈입니다.",
+            "request": "8%를 반나절로 바꾸려면 기준 감기기간이 필요합니다. 원문이 제공한 상대적 기간 단축만 쓰거나 계산의 가정을 밝히세요.",
+            "evidence_key": "10.1002/14651858.CD000980.pub4"
+          }
+        ],
+        "candidate_review": "pending",
+        "snapshot_path": "_workspace/2026-10-18-006-f440/entry_snapshot.md",
+        "manifest_entry_sha256": "06dcf56aa9494e18b8ac961eea1fd27bf60330add7597053fa12954091f37eae",
+        "snapshot_sha_matches_manifest": true
+      },
+      "finding_closure": "원초록 전체를 직접 읽었다. 감기 발생29비교11306명/일반10708명RR.97·CI.94–1.00, 격한단기운동5비교598명RR.48·CI.35–.64가 맞다. 장기복용 성인 기간8%(3–12)/아동14%(7–21), 발병후 치료 일관효과 없음이 맞다. 초기warn인8%를 반나절로 환산한 주장을 삭제해 임의 기준기간이 없어도 자족한다. 비고 두번째RR의범위는 이득의95%CI 설명을 통해 해석 가능하다.",
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "revision_requests": [],
+      "proposed_root_operation": {
+        "type": "replace_complete_strict_entry_body",
+        "before_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-006-f440/strict-entry.md",
+        "before_entire_entry_sha256": "54e1d4d6f11e15173ea4e475ed73f771c67497342e58a76ba64eb983a5ed79d9",
+        "after_proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-006-f440/publication-entry-proposal.md",
+        "after_original_proposal_sha256": "78c49cf95ca806748abbcd158462164ae1c6d609cb51b4f2d3a0971e383bc7c0",
+        "effective_after_sha256": "78c49cf95ca806748abbcd158462164ae1c6d609cb51b4f2d3a0971e383bc7c0",
+        "effective_after_rule": "proposal.rstrip()+original strict entry trailing whitespace; preserve original separators",
+        "supersession": "Latest approved full replaces any initial field/older full once.",
+        "integration_authorized": false
+      }
+    },
+    {
+      "entry": 7,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-007-74f3/publication-entry-proposal.md",
+      "proposal_sha256": "294d0d1df3a5df8995452227b7bdf6649e87be2fd5a34b95c508925a32ce7943",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-007-74f3/publication-entry-changes.json",
+      "changes_sha256": "9580a3842e93f8f7b63664abcc42b9b8ca66f810cb2a626bbe9b3a53a15cc730",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-007-74f3/strict-entry.md",
+      "base_strict_entry_sha256": "5cb33fba6b9c40e4245b21cfcb084d8acbc1faf68679b1f1dc3f5057fdc9fefb",
+      "literal_exit_code": 0,
+      "decision": "approve",
+      "all_four_complete_fields_read": true,
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "snapshot_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-007-74f3/entry_snapshot.md",
+      "snapshot_sha256": "677b2dee0d11039928fcaf89ad9847a8df881005c1584fe8ace9eba4ce59ba24",
+      "strict_candidate_contains_exact_base": true,
+      "length_check": {
+        "entry": 7,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-007-74f3/publication-entry-proposal.md",
+        "title_chars": 43,
+        "easy_chars": 111,
+        "easy_sentences": 3,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "number": true,
+        "six_labels": true,
+        "tags": true,
+        "grade": true
+      },
+      "production_layout_check": true,
+      "initial_canonical_entry": {
+        "entry": 7,
+        "baseline_entry_sha256": "677b2dee0d11039928fcaf89ad9847a8df881005c1584fe8ace9eba4ce59ba24",
+        "findings": [
+          {
+            "severity": "block",
+            "field": "이득",
+            "before_excerpt": "USPSTF는 증상 없는 여성을 평가했습니다.",
+            "request": "고위험 유전성 암증후군이 알려지지 않은 무증상 여성이라는 적용대상을 덧붙이세요. 쉽게의 사망비율 조금 높음도 통계적으로 유의하지 않다는 점을 바로 붙이세요. 전신CT 결과를 PET-CT 직접시험처럼 쓰지 마세요.",
+            "evidence_key": "10.1001/jama.2017.21926"
+          }
+        ],
+        "candidate_review": "pending",
+        "snapshot_path": "_workspace/2026-10-18-007-74f3/entry_snapshot.md",
+        "manifest_entry_sha256": "677b2dee0d11039928fcaf89ad9847a8df881005c1584fe8ace9eba4ce59ba24",
+        "snapshot_sha_matches_manifest": true
+      },
+      "finding_closure": "USPSTF 공식 실제 권고/PLCO 및 harms 문단·Furtado 원초록 전체·병원 실제 비급여표를 읽었다. 권고는 알려진고위험유전성증후군 없는 무증상여성, PLCO중앙12.4년/원발복막암포함 난소암사망.34대.29%/RR1.18·CI.82–1.71 비유의, 위양성수술 시험별.2–3.25%와 수술여성최대15%중대합병증에 부합한다. CT후향1192명/86%이상소견/37%추가평가권고·대부분기술상양성이고 PET-CT 직접평가 아님을 보존했다. 메리놀병원 F18FDG전신HK040010110만원·급여기준외비급여 행에 맞다. 개별 병원 공시값이며 전국평균/종양표지자 시세로 세지 않는다. PET-CT 사망예방 결론은 이 자료만으로 판단못함을 독자비고에 보존했다.",
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "revision_requests": [],
+      "proposed_root_operation": {
+        "type": "replace_complete_strict_entry_body",
+        "before_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-007-74f3/strict-entry.md",
+        "before_entire_entry_sha256": "5cb33fba6b9c40e4245b21cfcb084d8acbc1faf68679b1f1dc3f5057fdc9fefb",
+        "after_proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-007-74f3/publication-entry-proposal.md",
+        "after_original_proposal_sha256": "294d0d1df3a5df8995452227b7bdf6649e87be2fd5a34b95c508925a32ce7943",
+        "effective_after_sha256": "294d0d1df3a5df8995452227b7bdf6649e87be2fd5a34b95c508925a32ce7943",
+        "effective_after_rule": "proposal.rstrip()+original strict entry trailing whitespace; preserve original separators",
+        "supersession": "Latest approved full replaces any initial field/older full once.",
+        "integration_authorized": false
+      }
+    }
+  ],
+  "approved_entries": [
+    3,
+    5,
+    6,
+    7
+  ],
+  "revise_entries": [],
+  "actual_primary_readings": [
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/1966e93f8770c5f10e1f.json",
+      "artifact_sha256": "58f8a06a205c4df73bbc7e869be667bc460c3ddef2836befa70277dcb0f582f7",
+      "url": "https://doi.org/10.1002/14651858.CD000980.pub4",
+      "read_at_utc": "2026-10-18T18:21:15.408493+00:00",
+      "read_scope": "Complete original abstract: definitions,all incidence/duration/therapeutic results and exceptions",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/tmp/ch06e07/uspstf.raw",
+      "artifact_sha256": "b424ebbdf4849f19751e5d8d63f09b80000990f76472c1ca04b478aef7d19fa5",
+      "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/ovarian-cancer-screening",
+      "read_at_utc": "2026-10-18T18:21:15.408743+00:00",
+      "read_scope": "Recommendation population; PLCO mortality and followup; all relevant false-positive surgery/complications paragraphs",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/tmp/ch06e07/furtado.raw",
+      "artifact_sha256": "59dda89cd6c5f2be4f874714edc7cb9c135b833f481bbd7ab390687481e5cc28",
+      "url": "https://doi.org/10.1148/radiol.2372041741",
+      "read_at_utc": "2026-10-18T18:21:15.408787+00:00",
+      "read_scope": "Complete original indexed primary abstract; retrospective non-PET CT findings/recommendations",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/tmp/ch06e07/price.raw",
+      "artifact_sha256": "5bb2c473f9a6aefae0ef21695f46abc3d14fac0066235363a442a74302d9ae73",
+      "url": "https://www.maryknoll.co.kr/popup/nopay_new.php?type=M006",
+      "read_at_utc": "2026-10-18T18:21:15.408821+00:00",
+      "read_scope": "Actual cp949 decoded noncovered fee table, F18FDG wholebodyHK0400101100000won and criteria footnote; not current nationwide market",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    }
+  ],
+  "prior_actual_reading_reuse": [
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/publication-partial-review-r1.json",
+      "sha256": "874a42caa7afcfb115fb01504ee962d08d8d7f9525b2d79430b5e6a698f45541",
+      "scope": "3/5 exact primary reading scope only; new qualification wording does not add numerical/research claims."
+    }
+  ],
+  "cross_reference_review": [
+    {
+      "source_entry": 5,
+      "target_path": "/workspace/HowToLiveBetter-KR/book-kr/02-천천히-죽지-않기.md",
+      "file_sha256": "bf3f1439ae8cfa4aa150e0e6b5e86f006094c690970edb8630210f4cd0d24306",
+      "target_entry": 16,
+      "body_sha256": "2bb09014b52824face59aa70d32383d203137d55a426b25ac518a388d601a97b",
+      "body_read": true,
+      "scope_alignment": "General mortality-related exercise/weight management only; no OA-treatment proof imported."
+    },
+    {
+      "source_entry": 5,
+      "target_path": "/workspace/HowToLiveBetter-KR/book-kr/02-천천히-죽지-않기.md",
+      "file_sha256": "bf3f1439ae8cfa4aa150e0e6b5e86f006094c690970edb8630210f4cd0d24306",
+      "target_entry": 32,
+      "body_sha256": "b925f226dc4f931c9feed91dedd253dde5f5aa7e5c1e44e22095d38722ec1aa8",
+      "body_read": true,
+      "scope_alignment": "General mortality-related exercise/weight management only; no OA-treatment proof imported."
+    },
+    {
+      "source_entry": 7,
+      "target_path": "/workspace/HowToLiveBetter-KR/book-kr/01-너무-일찍-죽지-않기.md",
+      "file_sha256": "22535ac03620bae83541ce2baea5e6ff2b2bddd4bee5c7c0bfd3de526506e0d1",
+      "target_entry": 17,
+      "body_sha256": "3f0851d900c8c5a0664c4621912204073e1204cfeb94e8040a23e9c16fb78d2d",
+      "body_read": true,
+      "scope_alignment": "Specific breast/cervix/colorectal/high-risk smoking low-dose screening and exclusions exist; no endorsement of all screenings or PET-CT outcome proof."
+    },
+    {
+      "source_entry": 7,
+      "target_path": "/workspace/HowToLiveBetter-KR/book-kr/01-너무-일찍-죽지-않기.md",
+      "file_sha256": "22535ac03620bae83541ce2baea5e6ff2b2bddd4bee5c7c0bfd3de526506e0d1",
+      "target_entry": 18,
+      "body_sha256": "9aa103f6b7d838d25099cbaaa05c93a30f26e070ef1a746fbef1c8064b340d9d",
+      "body_read": true,
+      "scope_alignment": "Specific breast/cervix/colorectal/high-risk smoking low-dose screening and exclusions exist; no endorsement of all screenings or PET-CT outcome proof."
+    },
+    {
+      "source_entry": 7,
+      "target_path": "/workspace/HowToLiveBetter-KR/book-kr/01-너무-일찍-죽지-않기.md",
+      "file_sha256": "22535ac03620bae83541ce2baea5e6ff2b2bddd4bee5c7c0bfd3de526506e0d1",
+      "target_entry": 19,
+      "body_sha256": "8500df865a601a7173ae844d08dab795ef5058b30309ef45bc9b55ef0199c7e2",
+      "body_read": true,
+      "scope_alignment": "Specific breast/cervix/colorectal/high-risk smoking low-dose screening and exclusions exist; no endorsement of all screenings or PET-CT outcome proof."
+    },
+    {
+      "source_entry": 7,
+      "target_path": "/workspace/HowToLiveBetter-KR/book-kr/01-너무-일찍-죽지-않기.md",
+      "file_sha256": "22535ac03620bae83541ce2baea5e6ff2b2bddd4bee5c7c0bfd3de526506e0d1",
+      "target_entry": 24,
+      "body_sha256": "4a19017cb710f334792d02fd3a60de7bfcaea4b603782096075f651e67820b47",
+      "body_read": true,
+      "scope_alignment": "Specific breast/cervix/colorectal/high-risk smoking low-dose screening and exclusions exist; no endorsement of all screenings or PET-CT outcome proof."
+    }
+  ],
+  "production_helper_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/scripts/humanize_publication.py",
+  "production_helper_sha256": "244c194c7620c3095dc3a972eecdaa4e17fab8a0a301ae8b601cb8401569bfd3",
+  "helper_code_modified": false,
+  "fresh_http_performed": false,
+  "whole29_approval": false,
+  "integration_approval": false,
+  "formal_kr_fit_approval": false,
+  "preservation": "Prior reviews/frozen proposals/canonical/public/runs/gates/git unchanged."
+}

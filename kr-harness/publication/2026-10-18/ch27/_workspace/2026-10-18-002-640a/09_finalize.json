@@ -1,0 +1,60 @@
+{
+  "status": "accept",
+  "decision": "accept",
+  "role": "fresh_independent_finalizer_ch27e2_runtime2",
+  "correction_count": 0,
+  "summary_update_count": 1,
+  "fidelity_violations": [],
+  "residual_findings": [],
+  "overediting": [],
+  "body_identity": true,
+  "input_characters": 1191,
+  "final_body_characters": 1191,
+  "input_bytes": 2786,
+  "final_body_bytes": 2786,
+  "body_sha256": "44c20d28dd76f261515786f2eee95d2924472f039f13946832f30d4c285329be",
+  "input_sha256": "44c20d28dd76f261515786f2eee95d2924472f039f13946832f30d4c285329be",
+  "final_sha256": "47e3e48a269ea3db2bbfab64564188fe612f1bfd92a91dac2c0015022ec5e268",
+  "backup": {
+    "path": "final_pre_finalize.md",
+    "sha256": "17956ec351b605465031ff50592684b35e05584205f433eecf0f7a63bd1e6ed9"
+  },
+  "historical_evidence": {
+    "09_finalize.json.before-footnote-runtime-r2": "a5e0fe9b66df89869ce57fcd97d658f93c7e402dc8ec488f31a9b1f101105317",
+    "final.md.before-footnote-runtime-r2": "17956ec351b605465031ff50592684b35e05584205f433eecf0f7a63bd1e6ed9",
+    "publication-gates.json.before-footnote-runtime-r2": "a7307fd67b75a53369022feb14845c57ec685db7fe1ed722d1bc04912c74bf2e",
+    "publication-gates.txt.before-footnote-runtime-r2": "af7ec98d0be203f30c27a8a2a4b51397ed0af5c04354c0266648f639f0f401ac"
+  },
+  "fidelity_review": {
+    "full_source_and_final_read": true,
+    "numbers_dates_legal_references": "28/29~36/37 weeks, 4/2/1 intervals, age 35, 10/20/30/40%, article 11, all legal references and date 2026-10-10 preserved.",
+    "negations_conditions_scope": "Registration free; examinations not universally free; reporting protection condition; employer obligation and wage protection; high-risk eligibility; regional benefits and transfer condition preserved.",
+    "quotes_footnotes_urls": "All legal titles, quotations, parentheses and article citations preserved; no URLs in source or final body.",
+    "fields": "비용/쉽게/이득/비고 and complete body independently read and byte-identical.",
+    "naturalness": "No genuine fidelity repair required; no introduced claims or tonal changes."
+  },
+  "runtime": {
+    "checks_path": ".claude/skills/humanize-korean/scripts/checks.py",
+    "checks_sha256": "5f83f68e4acbc103ecde11e9a5c19d1015e0b514a36e9933ca10284489fa0bcc",
+    "command": [
+      "python",
+      ".claude/skills/humanize-korean/scripts/verify_gates.py",
+      "--before",
+      "kr-harness/publication/2026-10-18/ch27/_workspace/2026-10-18-002-640a/01_input.txt",
+      "--after",
+      "kr-harness/publication/2026-10-18/ch27/_workspace/2026-10-18-002-640a/final.md",
+      "--genre",
+      "essay",
+      "--json"
+    ],
+    "manifest_used": false
+  },
+  "gate_exit_code": 0,
+  "gate_verdict": "OK — 수렴",
+  "change_rate": 0.0,
+  "gate_evidence": [
+    "publication-gates.json",
+    "publication-gates.txt"
+  ],
+  "summary_blocks": 1
+}

@@ -1,0 +1,17 @@
+{
+  "status": "unapproved_proposal_pending_distinct_source_and_translation_review",
+  "proposer_id": "root-mechanical-payload",
+  "payload_sha256": "e46d446b2957e5207dff8f8174130159f25e4daf79433948122b7ee6e16f0fe6",
+  "original_sha256": "076d81ff359bf1030cc1f883fec3995d28c64a176106d997f341fd8a0946cdfe",
+  "final_body_sha256": "dfc485bcc7181184b9205391b67c0d5c6df5be383f4d8dd6e1cdba96cf0e3796",
+  "source_retrieval": {
+    "url": "https://www.cdc.gov/tobacco/campaign/tips/diseases/pregnancy.html",
+    "http_status": 200,
+    "requested_at_utc": "2026-10-18T17:23:42.490387+00:00",
+    "original_cache_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch27-audit/a0adf4cb1779995c13fd.raw",
+    "artifact_sha256": "a6c3a243747f11254a73359201c92ec58c2b3932f5a51e03e821b7ae8aeea5bf",
+    "retention": "exact raw original HTTP response bytes, no extraction or decoding"
+  },
+  "review_scope": "Complete existing cessation quotation and exact same-field attribution in immutable input and final body. Literal plain raw English sentence from Quitting Help section. Other quotations outside payload; no source approval or registry selection implied. Independent reviewer must assess translation and full context.",
+  "preflight_history": "Initial preparation stopped at strict final_body before payload creation due to legacy two-comment summary format. A preserved old final and normalized summary wrapper only; body unchanged; hold remained."
+}

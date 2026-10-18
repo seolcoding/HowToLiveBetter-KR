@@ -1,0 +1,87 @@
+[P0 문자율] 0.1% [전문] — OK (경고 30% / 중단 50%)
+[P1 목표달성] ending_comma_rate: z +3.72 → -0.52  달성
+[P2 전멸] C-8 대구 0 → 0 — 스킵 (원문 대구 < 5)
+[P3 golden] PASS (수치 주입·각주·인용·register 이상 없음)
+[P4 터치율] 3.8% (1/26 문장) — 보고 전용
+[P5 서법] 소실 0문장 (참고 총수: 당위 4→4 / 완곡 1→1) — OK
+gate: OK — 수렴
+{
+  "genre": "essay",
+  "change_rate": {
+    "rate": 0.0007,
+    "scope": "전문",
+    "verdict": "OK"
+  },
+  "s1_targets": [
+    {
+      "metric": "ending_comma_rate",
+      "z_before": 3.72,
+      "z_after": -0.52,
+      "verdict": "달성"
+    }
+  ],
+  "antithesis": {
+    "before": 0,
+    "after": 0,
+    "verdict": "스킵 (원문 대구 < 5)"
+  },
+  "golden": [],
+  "sentence_touch": {
+    "rate": 0.0385,
+    "touched": 1,
+    "total": 26
+  },
+  "numbers_dropped": [],
+  "modality": {
+    "lost_pairs": [],
+    "uncertain_pairs": [],
+    "counts": {
+      "deontic": {
+        "before": 4,
+        "after": 4
+      },
+      "hedge": {
+        "before": 1,
+        "after": 1
+      }
+    },
+    "verdict": "OK"
+  },
+  "gate": {
+    "verdict": "OK — 수렴",
+    "exit_code": 0
+  },
+  "classification_context": {
+    "registry_sha256": "fcaea69ba82f916d15ea8f96d26b58c53af2407dcb82f2d0e5100de78102c89c",
+    "payload_sha256": "90ab1381c1f8cc2a3098d87d1e0c4c87e8e9c3abe04cace2e10c0c1172c88898",
+    "review_sha256": "ec3e1e18b289dd9f36f6cfde3ae53c8f4df58ebf8c33d39591a449e839b2d89d",
+    "original_sha256": "c28be01c207caeb56676cf81cd6f9f3060d49334a522179b278d147ad24c4081",
+    "final_body_sha256": "59e04574fc494ae398f3a443cefeead6bafcf0367ff51962f2f982244a765060",
+    "final_file_sha256": "be2e0327308cffca0848e5efe77db1050b82534a7b1517392d3631255acf643f",
+    "route": "light",
+    "original_path": "_workspace/2026-10-18-038-eea4/01_input.txt",
+    "runtime_sha256": {
+      "references/baseline.json": "6b64904daa27c3f759f39a664bf8e7e6c2ea1f9dcacd6d457e97b10f60f43dc5",
+      "references/baseline_v2.json": "b5f1725bd02fb4cc40eece68c5b8f1d7c7655775743196d8fd0bc5978f2ed916",
+      "references/metrics.py": "c17ef0bbb25f24fc1695068a319d421d35e4cffd9a8c277da3ad6a30ea96b8e3",
+      "references/metrics_v2.py": "35aed83e56f8ced583e25ea08d9fbecb8baf15f8bb7f5bb14883a9f7318e374f",
+      "scripts/checks.py": "5f83f68e4acbc103ecde11e9a5c19d1015e0b514a36e9933ca10284489fa0bcc",
+      "scripts/prepare_monolith_input.py": "3774a9faecf3791057d4c8e887dd222e701d131ac1605ba4de2e76c7c064a9a2",
+      "scripts/quote_context.py": "b3689d1fc321c55bc0d1d6a5985288a34d5ea8d851c67d846321856cf4de788f",
+      "scripts/verify_gates.py": "30ab963d7c9b72cf3f395bd1279ac2e33b58d4ca8b5e099ee25da7aeb5e0c81a"
+    },
+    "protected_quote_count": 1,
+    "reviewed_quote_count": 1,
+    "excluded_quote_chars_before": 28
+  },
+  "classified_style_eligibility": {
+    "before": {
+      "protected_quote_count": 1,
+      "excluded_quote_chars": 28
+    },
+    "after": {
+      "protected_quote_count": 1,
+      "excluded_quote_chars": 28
+    }
+  }
+}

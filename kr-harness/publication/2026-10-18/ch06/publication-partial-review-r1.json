@@ -1,0 +1,585 @@
+{
+  "status": "completed_five_exact_partial_source_full_review",
+  "chapter": 6,
+  "manifest_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/author-partial-manifest-1.json",
+  "manifest_sha256": "cd27b064d7d65809d0a8affce9a4a10a25582629268391d4efc8637c50fe9dfe",
+  "approved_entries": [
+    1,
+    2,
+    4
+  ],
+  "revise_entries": [
+    3,
+    5
+  ],
+  "entries": [
+    {
+      "entry": 1,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-001-37f5/publication-entry-proposal.md",
+      "proposal_sha256": "0721030c294ea16c800a6220760a49a552eae996154907a0653af4b7f1a8a38c",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-001-37f5/publication-entry-changes.json",
+      "changes_sha256": "c8066a7e4b76a6adc2270284939ce238ed28234b59b6c87485285216e675442f",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-001-37f5/strict-entry.md",
+      "base_strict_entry_sha256": "fdb30e7b8d9ec77509a0b6578429c7d1e909c9ecaf518ba1be5b92fd8c4374ac",
+      "literal_exit_code": 0,
+      "decision": "approve",
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "snapshot_comparison": {
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-001-37f5/entry_snapshot.md",
+        "sha256": "fdb30e7b8d9ec77509a0b6578429c7d1e909c9ecaf518ba1be5b92fd8c4374ac",
+        "same_as_strict_base": true,
+        "difference_reason": "identical"
+      },
+      "length_check": {
+        "entry": 1,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-001-37f5/publication-entry-proposal.md",
+        "title_chars": 29,
+        "easy_chars": 104,
+        "easy_sentences": 4,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "six_labels": true,
+        "number": true,
+        "tag": true,
+        "grade": true
+      },
+      "all_four_complete_fields_read": true,
+      "actual_primary_assessment": "PHSII 미국50세 이상 남자 의사14641명·중앙11.2년 원초록, 암논문 원초록/BioC 결과·표2, USPSTF 실제 공식 권고/근거 부분을 읽었다. 주요 심혈관HR1.01/전체사망.94 및 각CI, 암HR.92/CI.86–.998/P=.04, 암사망HR.88/CI.77–1.01이 일치한다. HR과 기간누적확률을 구분했다. USPSTF9RCT/51550·I등급·비임신 지역사회 성인/결핍 제외와 맞고 제목이 확신금지로 좁혀졌다. 암 정정 원문 미확인 및 수치 영향 불명확을 독자 비고에 남긴다.",
+      "initial_canonical_entry": {
+        "entry": 1,
+        "baseline_entry_sha256": "fdb30e7b8d9ec77509a0b6578429c7d1e909c9ecaf518ba1be5b92fd8c4374ac",
+        "findings": [
+          {
+            "severity": "warn",
+            "field": "비고",
+            "before_excerpt": "수치는 0.86–0.998",
+            "request": "HR 0.92의 95% 신뢰구간임을 명시하세요. 암 사망도 HR 0.88와 신뢰구간을 구별하세요.",
+            "evidence_key": "10.1001/jama.2012.14641"
+          }
+        ],
+        "candidate_review": "pending",
+        "snapshot_path": "_workspace/2026-10-18-001-37f5/entry_snapshot.md",
+        "manifest_entry_sha256": "fdb30e7b8d9ec77509a0b6578429c7d1e909c9ecaf518ba1be5b92fd8c4374ac",
+        "snapshot_sha_matches_manifest": true
+      },
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "revision_requests": [],
+      "proposed_root_operation": {
+        "type": "replace_complete_strict_entry_body",
+        "before_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-001-37f5/strict-entry.md",
+        "before_entire_entry_sha256": "fdb30e7b8d9ec77509a0b6578429c7d1e909c9ecaf518ba1be5b92fd8c4374ac",
+        "after_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-001-37f5/publication-entry-proposal.md",
+        "after_entire_entry_sha256": "0721030c294ea16c800a6220760a49a552eae996154907a0653af4b7f1a8a38c",
+        "separator_policy": "Verify whole before entry exactly; preserve chapter separators.",
+        "supersession": "Approved full replaces initial field/older full once; no double application.",
+        "integration_authorized": false
+      }
+    },
+    {
+      "entry": 2,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-002-3148/publication-entry-proposal.md",
+      "proposal_sha256": "714a7d02403766360151cc787bfeff5539355c77cad24af301dc7f0eb6b30398",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-002-3148/publication-entry-changes.json",
+      "changes_sha256": "7b9e1117adcc0dca4649bf744322a5f0dc59916bb5b7260d7379e0909d2a254b",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-002-3148/strict-entry.md",
+      "base_strict_entry_sha256": "1aa5fc895b9a9d334ec30d45498df2966b27ed013fd7c0787376db7b547a97d2",
+      "literal_exit_code": 0,
+      "decision": "approve",
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "snapshot_comparison": {
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-002-3148/entry_snapshot.md",
+        "sha256": "1aa5fc895b9a9d334ec30d45498df2966b27ed013fd7c0787376db7b547a97d2",
+        "same_as_strict_base": true,
+        "difference_reason": "identical"
+      },
+      "length_check": {
+        "entry": 2,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-002-3148/publication-entry-proposal.md",
+        "title_chars": 27,
+        "easy_chars": 107,
+        "easy_sentences": 4,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "six_labels": true,
+        "number": true,
+        "tag": true,
+        "grade": true
+      },
+      "all_four_complete_fields_read": true,
+      "actual_primary_assessment": "VITAL/ASCEND/REDUCE-IT 원초록 전체와 한국소비자원 실제 본문 가격표·섭취량 안내를 읽었다. VITAL25871/5.3년/1g/HR.92·1.02, ASCEND15480당뇨·죽상경화성 심혈관병 증거 없음/7.4년/1g/rate ratio.97·.95, REDUCE-IT8179/스타틴·TG135–499·LDL41–100/4g/4.9년/17.2대22.0/HR.75·CI.68–.83/AF입원3.1대2.1·중증출혈2.7대2.1(P=.06)이 일치한다. 고순도 처방약과 일반 캡슐·생선 자체를 구분했다. 2022년20제품의7400~122000원/30~360캡슐/1~4캡슐 및 판매원 확인·시기장소 변동 조건을 확인했다. 현재가격 주장 아님.",
+      "initial_canonical_entry": {
+        "entry": 2,
+        "baseline_entry_sha256": "1aa5fc895b9a9d334ec30d45498df2966b27ed013fd7c0787376db7b547a97d2",
+        "findings": [],
+        "candidate_review": "pending",
+        "snapshot_path": "_workspace/2026-10-18-002-3148/entry_snapshot.md",
+        "manifest_entry_sha256": "1aa5fc895b9a9d334ec30d45498df2966b27ed013fd7c0787376db7b547a97d2",
+        "snapshot_sha_matches_manifest": true
+      },
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "revision_requests": [],
+      "proposed_root_operation": {
+        "type": "replace_complete_strict_entry_body",
+        "before_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-002-3148/strict-entry.md",
+        "before_entire_entry_sha256": "1aa5fc895b9a9d334ec30d45498df2966b27ed013fd7c0787376db7b547a97d2",
+        "after_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-002-3148/publication-entry-proposal.md",
+        "after_entire_entry_sha256": "714a7d02403766360151cc787bfeff5539355c77cad24af301dc7f0eb6b30398",
+        "separator_policy": "Verify whole before entry exactly; preserve chapter separators.",
+        "supersession": "Approved full replaces initial field/older full once; no double application.",
+        "integration_authorized": false
+      }
+    },
+    {
+      "entry": 3,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-003-8633/publication-entry-proposal.md",
+      "proposal_sha256": "4229bda5d8e59a16a5db091b95bcdd5e3da7d28e0c564a032b549a44e9f414bb",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-003-8633/publication-entry-changes.json",
+      "changes_sha256": "b7c4879407a578185e18e5cc72f78deb5759f5a92223650837f1aefd161e0738",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-003-8633/strict-entry.md",
+      "base_strict_entry_sha256": "83f967470bfdc23d765cce14130e68f5e7bdec391b43a44bd32b96d293aa4915",
+      "literal_exit_code": 0,
+      "decision": "revise",
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "snapshot_comparison": {
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-003-8633/entry_snapshot.md",
+        "sha256": "83f967470bfdc23d765cce14130e68f5e7bdec391b43a44bd32b96d293aa4915",
+        "same_as_strict_base": true,
+        "difference_reason": "identical"
+      },
+      "length_check": {
+        "entry": 3,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-003-8633/publication-entry-proposal.md",
+        "title_chars": 43,
+        "easy_chars": 98,
+        "easy_sentences": 3,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "six_labels": true,
+        "number": true,
+        "tag": true,
+        "grade": true
+      },
+      "all_four_complete_fields_read": true,
+      "actual_primary_assessment": "VITAL 원초록과 실제 BioC 결핍 논의 발췌, D-Health 원초록을 읽었다. 결핍 없는 사람만 모집했다는 초기block을 해소했다. VITAL25871/2000IU/5.3년/암.96·CVD.97·사망.99 및CI, DHealth21315/호주60세이상/월60000IU·5년투여/중앙5.7년/분석10661·10649/5.3대5.1%/HR1.04·CI.93–1.18이 초록과 일치한다. 다만 알려진 D-Health 정정의 내용·영향 미확인이 changes에만 있고 독자 비고에는 없다.",
+      "initial_canonical_entry": {
+        "entry": 3,
+        "baseline_entry_sha256": "83f967470bfdc23d765cce14130e68f5e7bdec391b43a44bd32b96d293aa4915",
+        "findings": [
+          {
+            "severity": "block",
+            "field": "쉽게",
+            "before_excerpt": "비타민 D가 부족하지 않은 사람이 5년간 보충했습니다.",
+            "request": "결핍이 없는 사람만 모집한 시험으로 쓰지 마세요. 결핍 여부로 선별하지 않은 성인 대상 시험이며 결핍 치료에 일반화할 수 없다고 구분하세요.",
+            "evidence_key": "10.1016/S2213-8587(21)00345-4"
+          }
+        ],
+        "candidate_review": "pending",
+        "snapshot_path": "_workspace/2026-10-18-003-8633/entry_snapshot.md",
+        "manifest_entry_sha256": "83f967470bfdc23d765cce14130e68f5e7bdec391b43a44bd32b96d293aa4915",
+        "snapshot_sha_matches_manifest": true
+      },
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "revision_requests": [
+        {
+          "field": "비고",
+          "issue": "D-Health 정정 내용/수치 영향 미확인이 독자본문에 없음. 정정이 수치 오류라는 판정이 아니라 확인 범위 고지 누락.",
+          "required": "정정 원문을 실제 읽어 영향 여부를 확인하거나, 원문 미확인·수치 영향 불명확을 독자 비고에도 짧게 고지. 기존 결핍/치료 예외를 없애지 말 것.",
+          "proposal_sha256": "4229bda5d8e59a16a5db091b95bcdd5e3da7d28e0c564a032b549a44e9f414bb",
+          "correction_doi": "10.1016/S2213-8587(22)00083-3",
+          "source_uncertainty": "Author correction record/metadata only; no correction content verified."
+        }
+      ]
+    },
+    {
+      "entry": 4,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-004-1203/publication-entry-proposal.md",
+      "proposal_sha256": "3e7cb403557dc2539532a6d96ea2847ee51f6347fd0a14bef8bb2915fb317223",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-004-1203/publication-entry-changes.json",
+      "changes_sha256": "69c4ec5186daa38c1ed38649d9d68deb13b120db309561a8ff1fdbf2e2251bfe",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-004-1203/strict-entry.md",
+      "base_strict_entry_sha256": "3af217cce072e1fb7338968aba37c9e8b05f1e5f6b36b059918fa636c895f9f2",
+      "literal_exit_code": 0,
+      "decision": "approve",
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "snapshot_comparison": {
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-004-1203/entry_snapshot.md",
+        "sha256": "3af217cce072e1fb7338968aba37c9e8b05f1e5f6b36b059918fa636c895f9f2",
+        "same_as_strict_base": true,
+        "difference_reason": "identical"
+      },
+      "length_check": {
+        "entry": 4,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-004-1203/publication-entry-proposal.md",
+        "title_chars": 45,
+        "easy_chars": 108,
+        "easy_sentences": 4,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "six_labels": true,
+        "number": true,
+        "tag": true,
+        "grade": true
+      },
+      "all_four_complete_fields_read": true,
+      "actual_primary_assessment": "Cochrane/ATBC/CARET 원초록 전체와 USPSTF 공식 권고를 직접 읽었다. 78시험296707명 전체 무작위효과RR1.02·CI.98–1.05 유의하지 않음/고정효과1.03·CI1.01–1.05, 낮은왜곡위험56시험RR1.04·CI1.01–1.07, 저위험시험 beta1.05/E1.03 각CI가 맞다. ATBC29133핀란드50~69남성흡연자/20mg/5~8년/폐암18%·사망8% 및CI, CARET18314/흡연·과거흡연·석면/베타30mg+레티놀25000IU/평균4년/폐암RR1.28·사망1.17 및CI가 맞다. 초기block인 전체합산 일반화를 고쳤고 병용 조건도 보존했다. USPSTF D등급은 지역사회 비임신 성인의 CVD·암 예방 권고이며 치료/결핍으로 확대하지 않는다.",
+      "initial_canonical_entry": {
+        "entry": 4,
+        "baseline_entry_sha256": "3af217cce072e1fb7338968aba37c9e8b05f1e5f6b36b059918fa636c895f9f2",
+        "findings": [
+          {
+            "severity": "block",
+            "field": "쉽게",
+            "before_excerpt": "시험 78건에 참여한 약 30만 명을 합쳐 분석했습니다. 항산화 보충제를 먹은 사람의 사망률이 오히려 조금 높았습니다.",
+            "request": "전체 78시험의 무작위효과 합산은 유의하지 않음. 왜곡 위험이 낮은 56시험 분석에서 증가했다고 한정하세요. CARET는 베타카로틴+비타민 A 병용이라는 조건도 보존하세요.",
+            "evidence_key": "10.1002/14651858.CD007176.pub2"
+          }
+        ],
+        "candidate_review": "pending",
+        "snapshot_path": "_workspace/2026-10-18-004-1203/entry_snapshot.md",
+        "manifest_entry_sha256": "3af217cce072e1fb7338968aba37c9e8b05f1e5f6b36b059918fa636c895f9f2",
+        "snapshot_sha_matches_manifest": true
+      },
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "revision_requests": [],
+      "proposed_root_operation": {
+        "type": "replace_complete_strict_entry_body",
+        "before_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-004-1203/strict-entry.md",
+        "before_entire_entry_sha256": "3af217cce072e1fb7338968aba37c9e8b05f1e5f6b36b059918fa636c895f9f2",
+        "after_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-004-1203/publication-entry-proposal.md",
+        "after_entire_entry_sha256": "3e7cb403557dc2539532a6d96ea2847ee51f6347fd0a14bef8bb2915fb317223",
+        "separator_policy": "Verify whole before entry exactly; preserve chapter separators.",
+        "supersession": "Approved full replaces initial field/older full once; no double application.",
+        "integration_authorized": false
+      }
+    },
+    {
+      "entry": 5,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-005-52dc/publication-entry-proposal.md",
+      "proposal_sha256": "8736893f0d4a1b1674f79f24b4518afe70b03c3ee395e5e1b3912e3b54251260",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-005-52dc/publication-entry-changes.json",
+      "changes_sha256": "2c5d18b9f1cd64c7d918bcdd7bb57108a5ea565429da6847c989e41b39c6df7c",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-005-52dc/strict-entry.md",
+      "base_strict_entry_sha256": "4a688842301905396aaa30198fe59962e7b43fda1511be910be19a09145b90c1",
+      "literal_exit_code": 0,
+      "decision": "revise",
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "snapshot_comparison": {
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-005-52dc/entry_snapshot.md",
+        "sha256": "c9351442613bdaedb1df9b0116836626e160345b75bb0e5147c78d94f7d7846c",
+        "same_as_strict_base": false,
+        "difference_reason": "5항 비용 쉼표1개 제거가 strict 윤문에 반영됨; 연구사실/보호필드 차이 없음."
+      },
+      "length_check": {
+        "entry": 5,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-005-52dc/publication-entry-proposal.md",
+        "title_chars": 39,
+        "easy_chars": 103,
+        "easy_sentences": 3,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "six_labels": true,
+        "number": true,
+        "tag": true,
+        "grade": true
+      },
+      "all_four_complete_fields_read": true,
+      "actual_primary_assessment": "GAIT 원초록 전체를 직접 읽었다. 1583명·24주·통증20%이상 감소 기준, 위약60.1%, 단독3.9/5.3 및병용6.5퍼센트포인트 차이와P, 셀레콕시브10.0/P=.008, 층화배정 mild1229/moderate-severe354, 하위집단병용79.2대54.3/P=.002 및exploratory가 맞다. 사후 데이터 뒤지기 단정과 심한사람만이라는 초기block을 해소했다. 다만 관절염 치료로 소개한 체중감량/근력운동의 참조2절 실제본문은 일반 사망위험 연구여서 해당 치료근거를 제공하지 않는다.",
+      "initial_canonical_entry": {
+        "entry": 5,
+        "baseline_entry_sha256": "c9351442613bdaedb1df9b0116836626e160345b75bb0e5147c78d94f7d7846c",
+        "findings": [
+          {
+            "severity": "block",
+            "field": "비고",
+            "before_excerpt": "저자는 데이터를 사후에 뒤져 찾은 결과라고 적었습니다.",
+            "request": "초록은 기저 통증중증도에 따른 층화 배정과 exploratory analyses를 명시합니다. 사후에 뒤졌다는 단정 대신 중등도~중증 통증 하위집단의 탐색적 결과라고 쓰세요. 초기 통증이 심했던 사람으로만 쓰면 중등도가 빠집니다. 통증 호전은 20% 이상 감소 기준입니다.",
+            "evidence_key": "10.1056/NEJMoa052771"
+          }
+        ],
+        "candidate_review": "pending",
+        "snapshot_path": "_workspace/2026-10-18-005-52dc/entry_snapshot.md",
+        "manifest_entry_sha256": "c9351442613bdaedb1df9b0116836626e160345b75bb0e5147c78d94f7d7846c",
+        "snapshot_sha_matches_manifest": true
+      },
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "revision_requests": [
+        {
+          "field": "비고",
+          "exact_span": "무릎 관절염에서 근거가 있는 방법은 체중 감량과 근력 운동입니다. 제2절(천천히 죽지 않기)을 보세요.",
+          "issue": "최신2절16/32항은 근력운동·체중과 사망위험 연구다. 특정 무릎관절염 치료효과와 체중감량 적용조건의 근거가 아니다.",
+          "required": "실제 OA 지침으로 치료 권고·대상조건을 확인해 출처를 연결하거나,2절 참조를 일반 운동·체중관리 안내로 한정. 관절염 치료근거 확인으로 세지 말 것.",
+          "proposal_sha256": "8736893f0d4a1b1674f79f24b4518afe70b03c3ee395e5e1b3912e3b54251260",
+          "not_a_verdict": "운동/감량 효과가 없다는 판정이 아니라 실제 참조 대상의 범위 불일치 및 적용조건 근거 누락."
+        }
+      ]
+    }
+  ],
+  "actual_primary_readings": [
+    {
+      "url": "https://doi.org/10.1001/jama.2012.14805",
+      "artifact_path": "/tmp/ch06e01-primary/jama.2012.14805.json",
+      "artifact_sha256": "d075f78a6953da954e1a86cb5fc106d1b2b073aecbb8bee57c9273d495a5449d",
+      "read_at_utc": "2026-10-18T17:56:25.885422+00:00",
+      "scope": "Exact original indexed structured abstract whole",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "new_http": false,
+      "fresh_http_status": null,
+      "limitation": "Only the stated abstract/selected fulltext/official page range read; not cover-to-cover all linked supplements."
+    },
+    {
+      "url": "https://doi.org/10.1001/jama.2012.14641",
+      "artifact_path": "/tmp/ch06e01-primary/jama.2012.14641.json",
+      "artifact_sha256": "70390f3ed79677087fb8692bdef24e625d83ec6ee15629cd84d5a4b1123aeea9",
+      "read_at_utc": "2026-10-18T17:56:25.885422+00:00",
+      "scope": "Exact original indexed structured abstract whole",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "new_http": false,
+      "fresh_http_status": null,
+      "limitation": "Only the stated abstract/selected fulltext/official page range read; not cover-to-cover all linked supplements."
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/PMC3517179/unicode",
+      "artifact_path": "/tmp/ch06e01-primary/cancer-bioc.json",
+      "artifact_sha256": "c87e62178fd690183e65ca2f3839f134cac44a6f07286406704c73c4bceb8557",
+      "read_at_utc": "2026-10-18T17:56:25.885422+00:00",
+      "scope": "Selected results paragraphs and table2; paper text P=.044 vs indexed abstract=.04, table roundedCI1.00 vs text.998",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "new_http": false,
+      "fresh_http_status": null,
+      "limitation": "Only the stated abstract/selected fulltext/official page range read; not cover-to-cover all linked supplements."
+    },
+    {
+      "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/vitamin-supplementation-to-prevent-cvd-and-cancer-preventive-medication",
+      "artifact_path": "/tmp/ch06e01-primary/uspstf.html",
+      "artifact_sha256": "6f88656317949b59d550744377eff8f1e781a359c4439b98d5e44d26199efbd2",
+      "read_at_utc": "2026-10-18T17:56:25.885422+00:00",
+      "scope": "Recommendation table D/I;target exclusions; multivitamin9RCT/51550 evidence; beta/E recommendation",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "new_http": false,
+      "fresh_http_status": null,
+      "limitation": "Only the stated abstract/selected fulltext/official page range read; not cover-to-cover all linked supplements."
+    },
+    {
+      "url": "https://doi.org/10.1001/jama.2014.9370",
+      "artifact_path": "/tmp/ch06e01-primary/correction-crossref.json",
+      "artifact_sha256": "8d33d4e3f751a1d103d41ae6cf095a3ca40da36a4182b82def3a9e77edf7b04d",
+      "read_at_utc": "2026-10-18T17:56:25.885422+00:00",
+      "scope": "Bibliographic correction identification only; correction content NOT read",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "new_http": false,
+      "fresh_http_status": null,
+      "limitation": "Only the stated abstract/selected fulltext/official page range read; not cover-to-cover all linked supplements."
+    },
+    {
+      "url": "https://doi.org/10.1056/NEJMoa1812792",
+      "artifact_path": "/tmp/ch06e02-evidence/NEJMoa1812792.json",
+      "artifact_sha256": "c27b0a519c68ee4999715c848fed37d96382e786bc1b001a3f387d1b372db526",
+      "read_at_utc": "2026-10-18T17:56:25.885422+00:00",
+      "scope": "Original structured abstract whole including design/population/endpoints/adverse events",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "new_http": false,
+      "fresh_http_status": null,
+      "limitation": "Only the stated abstract/selected fulltext/official page range read; not cover-to-cover all linked supplements."
+    },
+    {
+      "url": "https://doi.org/10.1056/NEJMoa1804989",
+      "artifact_path": "/tmp/ch06e02-evidence/NEJMoa1804989.json",
+      "artifact_sha256": "b5221bcd0db197baafb22f3a9c9a701f88c47b59182ad185250728368568d03b",
+      "read_at_utc": "2026-10-18T17:56:25.885422+00:00",
+      "scope": "Original structured abstract whole including design/population/endpoints/adverse events",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "new_http": false,
+      "fresh_http_status": null,
+      "limitation": "Only the stated abstract/selected fulltext/official page range read; not cover-to-cover all linked supplements."
+    },
+    {
+      "url": "https://doi.org/10.1056/NEJMoa1811403",
+      "artifact_path": "/tmp/ch06e02-evidence/NEJMoa1811403.json",
+      "artifact_sha256": "9fd2bd226492e034a75740bc5ce0576fad097134479a823bfea0a5fbe0d47f1e",
+      "read_at_utc": "2026-10-18T17:56:25.885422+00:00",
+      "scope": "Original structured abstract whole including design/population/endpoints/adverse events",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "new_http": false,
+      "fresh_http_status": null,
+      "limitation": "Only the stated abstract/selected fulltext/official page range read; not cover-to-cover all linked supplements."
+    },
+    {
+      "url": "https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1079183",
+      "artifact_path": "/tmp/ch06e02-evidence/consumer.html",
+      "artifact_sha256": "3ca3a5814169ed4e18db8ca7abfc0c84c83b1dc82729797c8541c71942a79360",
+      "read_at_utc": "2026-10-18T17:56:25.885422+00:00",
+      "scope": "Actual2022 twenty-product table all price/package rows,price footnote,daily1–4 capsule paragraph; not attached PDF/current market-price survey",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "new_http": false,
+      "fresh_http_status": null,
+      "limitation": "Only the stated abstract/selected fulltext/official page range read; not cover-to-cover all linked supplements."
+    },
+    {
+      "url": "https://doi.org/10.1056/NEJMoa1809944",
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/9747d128c0ef4c0928bb.json",
+      "artifact_sha256": "7dae1a2942a1219a0ce19c6c8cb1b2f5473ad7be3fe3f4dc7a6fd9e7e7d5f670",
+      "read_at_utc": "2026-10-18T17:56:25.885422+00:00",
+      "scope": "Original structured abstract whole",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "new_http": false,
+      "fresh_http_status": null,
+      "limitation": "Only the stated abstract/selected fulltext/official page range read; not cover-to-cover all linked supplements."
+    },
+    {
+      "url": "https://doi.org/10.1016/S2213-8587(21)00345-4",
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/7fae5f036002c7159805.json",
+      "artifact_sha256": "2ed5b9a597d1f028c3dce9b9776282cc686c296afe32fd771094d5710b0a8005",
+      "read_at_utc": "2026-10-18T17:56:25.885422+00:00",
+      "scope": "Original structured abstract whole",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "new_http": false,
+      "fresh_http_status": null,
+      "limitation": "Only the stated abstract/selected fulltext/official page range read; not cover-to-cover all linked supplements."
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC6425757/unicode",
+      "artifact_path": "/tmp/ch06e03-vital-bioc.raw",
+      "artifact_sha256": "630eabd401555c6ee71fb7396d445e14fb89dac4c67caf3b0b63919d5cb30234",
+      "read_at_utc": "2026-10-18T17:56:25.885422+00:00",
+      "scope": "Selected deficiency discussion; extremely low D trial ethics/clinical care and baseline deficiency applicability; not whole manuscript",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "new_http": false,
+      "fresh_http_status": null,
+      "limitation": "Only the stated abstract/selected fulltext/official page range read; not cover-to-cover all linked supplements."
+    },
+    {
+      "url": "https://doi.org/10.1002/14651858.CD007176.pub2",
+      "artifact_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-004-1203/source-evidence/cochrane.json",
+      "artifact_sha256": "4970bf777f6ff4af42264d528485d0c24d7b9e61fdc8afa099a9da595305be69",
+      "read_at_utc": "2026-10-18T17:56:25.885422+00:00",
+      "scope": "Original primary abstract whole; no fulltext/supplements",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "new_http": false,
+      "fresh_http_status": null,
+      "limitation": "Only the stated abstract/selected fulltext/official page range read; not cover-to-cover all linked supplements."
+    },
+    {
+      "url": "https://doi.org/10.1056/NEJM199404143301501",
+      "artifact_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-004-1203/source-evidence/atbc.json",
+      "artifact_sha256": "01b6c2c8b99a3740c4d2af55270fbd24c83e3fc29838401f96ae51c75684b2c1",
+      "read_at_utc": "2026-10-18T17:56:25.885422+00:00",
+      "scope": "Original primary abstract whole; no fulltext/supplements",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "new_http": false,
+      "fresh_http_status": null,
+      "limitation": "Only the stated abstract/selected fulltext/official page range read; not cover-to-cover all linked supplements."
+    },
+    {
+      "url": "https://doi.org/10.1056/NEJM199605023341802",
+      "artifact_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-004-1203/source-evidence/caret.json",
+      "artifact_sha256": "9148946647f0cc8271670b0b88b3a5225c453f7aa5df1db4e815a7c3f228ee01",
+      "read_at_utc": "2026-10-18T17:56:25.885422+00:00",
+      "scope": "Original primary abstract whole; no fulltext/supplements",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "new_http": false,
+      "fresh_http_status": null,
+      "limitation": "Only the stated abstract/selected fulltext/official page range read; not cover-to-cover all linked supplements."
+    },
+    {
+      "url": "https://doi.org/10.1056/NEJMoa052771",
+      "artifact_path": "/tmp/ch06e05-primary.json",
+      "artifact_sha256": "b4821a9f837de51fdf26d4c1fc33e2ee77ddd074ba73c09aeb0e82439675ecd2",
+      "read_at_utc": "2026-10-18T17:56:25.885422+00:00",
+      "scope": "Original GAIT abstract whole; methods stratification/20% response; all main and exploratory subgroup numerical results",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "new_http": false,
+      "fresh_http_status": null,
+      "limitation": "Only the stated abstract/selected fulltext/official page range read; not cover-to-cover all linked supplements."
+    }
+  ],
+  "cross_reference_review": [
+    {
+      "source_entry": 5,
+      "target_path": "/workspace/HowToLiveBetter-KR/book-kr/02-천천히-죽지-않기.md",
+      "target_file_sha256": "bf3f1439ae8cfa4aa150e0e6b5e86f006094c690970edb8630210f4cd0d24306",
+      "target_entry": 16,
+      "target_entry_sha256": "2bb09014b52824face59aa70d32383d203137d55a426b25ac518a388d601a97b",
+      "body_read": true,
+      "decision": "revise_scope",
+      "reason": "Target studies general mortality association/intervention, not OA-specific treatment recommendation. No OA effect size or healthy-weight weight-loss recommendation may be inferred."
+    },
+    {
+      "source_entry": 5,
+      "target_path": "/workspace/HowToLiveBetter-KR/book-kr/02-천천히-죽지-않기.md",
+      "target_file_sha256": "bf3f1439ae8cfa4aa150e0e6b5e86f006094c690970edb8630210f4cd0d24306",
+      "target_entry": 32,
+      "target_entry_sha256": "b925f226dc4f931c9feed91dedd253dde5f5aa7e5c1e44e22095d38722ec1aa8",
+      "body_read": true,
+      "decision": "revise_scope",
+      "reason": "Target studies general mortality association/intervention, not OA-specific treatment recommendation. No OA effect size or healthy-weight weight-loss recommendation may be inferred."
+    }
+  ],
+  "incoming_title_review": "1 new title preserves multivitamin/longlife-CVD topic with uncertainty; no numbered anchor removed.2–5 retain original titles and tags. Chapter intro shorttopic labels preserve meaning but final29map recheck required.",
+  "independent_reading_limit": "No new HTTP in this review. Indexed primary abstracts actually opened; no claim of all fulltext/errata access.3 known erratum reader-limit missing;5 actual target scope mismatch distinguished from not-yet-read source.",
+  "canonical_mutated": false,
+  "whole29_approval": false,
+  "integration_approval": false,
+  "formal_kr_fit_approval": false,
+  "preservation": "Existing ch06 canonical/ch05/frozen proposals/public/runs/gates/git unchanged."
+}

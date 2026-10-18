@@ -1,0 +1,48 @@
+{
+  "status": "fresh_current_hash_formal_requires_two_narrow_corrections",
+  "at_utc": "2026-10-18T18:27:49.757647+00:00",
+  "current_cli_sha256": "29fdc5ad8e58c0f87797b98c14790f7f256fd5af2d4fa5787bcfbef9e4c79266",
+  "public_raw_sha256": "4f371aa8502b59d44bb5c5bb9bb52037ec32503eab3d0640171b99ca60e53f80",
+  "formal": {
+    "path": "kr-harness/chapters/05/kr-fit-review.md",
+    "sha256": "30357bcc023cb54be0bb89b53b54cd56ec1cfd9d338d0718dce1dd3ba5a7bbb9",
+    "verdict": "fail",
+    "blockers": 2,
+    "warnings": 7,
+    "delete_recommendations": 0
+  },
+  "gate_exit": 1,
+  "gate_command": [
+    "node",
+    ".claude/skills/kr-pipeline/scripts/pipeline.mjs",
+    "gate",
+    "5",
+    "--save",
+    "--demote"
+  ],
+  "correction_scope": [
+    {
+      "entry": 38,
+      "field": "비고",
+      "problem": "Overseas-card annual ceiling claim lacks national-resident scope and references similarly overbroad chapter21."
+    },
+    {
+      "entry": 45,
+      "field": "비고",
+      "problem": "Unverified Chinese legal claim loses original public-order condition and author attribution."
+    }
+  ],
+  "before_state": {
+    "status": "awaiting_independent_current_hash_formal",
+    "source": "book-kr/05-돈-낭비-줄이기.md",
+    "current_cli_sha256": "29fdc5ad8e58c0f87797b98c14790f7f256fd5af2d4fa5787bcfbef9e4c79266",
+    "current_public_raw_sha256": "4f371aa8502b59d44bb5c5bb9bb52037ec32503eab3d0640171b99ca60e53f80",
+    "approved_candidate_raw_sha256": "800a48b1226f6ed74680a995913eec124208674214dee38d1eaae855a7892433",
+    "pre_formal_gate_exit_code": 1,
+    "regional_integration_sha256": "f0725c22183c099e8b249128ff109ba4feb359b02719df8f35dfcdf22a4f9c94",
+    "formal_kr_fit_approval": false,
+    "deployed": false
+  },
+  "public_body_changed_by_review": false,
+  "deployed": false
+}

@@ -1,0 +1,404 @@
+{
+  "status": "completed_exact_partial_review_r8",
+  "manifest_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/author-partial-manifest-8.json",
+  "manifest_sha256": "e98cb9f17ad3b51a75aa7209a85d7bee177b1df37e2c748b021dd4e52440a60b",
+  "entries": [
+    {
+      "entry": 14,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-014-cbd8/publication-entry-proposal-r2.md",
+      "proposal_sha256": "7fb3be05879b9683b7fc5a20895a684cb426d68cb0b83a4ba288cf6bcd82d77b",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-014-cbd8/publication-entry-changes-r2.json",
+      "changes_sha256": "b6f5aa1482bbb5828c74608fd384da4ff12adb104a59ff484d785e2490df7492",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-014-cbd8/strict-entry.md",
+      "base_strict_entry_sha256": "a762d880a8ee97110e61016ef4d40316571dd49d59f370fd4eecc5979e578dc3",
+      "literal_exit_code": 0,
+      "decision": "approve",
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "length_check": {
+        "entry": 14,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-014-cbd8/publication-entry-proposal-r2.md",
+        "title_chars": 27,
+        "easy_chars": 114,
+        "easy_sentences": 4,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "six_labels": true,
+        "tag": true,
+        "grade": true
+      },
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "initial_canonical_findings": {
+        "entry": 14,
+        "entry_snapshot_sha256": "a762d880a8ee97110e61016ef4d40316571dd49d59f370fd4eecc5979e578dc3",
+        "status": "reviewed_fields_approved_only",
+        "source_review": "620원/1000L=0.62원, 500/0.62≈806 계산 확인. 인천 요금·수질기준 직접 미확인. 끓여도 화학오염 제거 안 된다는 경고 보존.",
+        "field_decisions": [
+          {
+            "proposal_key": "easy",
+            "field": "쉽게",
+            "decision": "approve",
+            "before": "인천 가정용 상수도 사용요금만 보면 1리터에 1원도 안 됩니다. 기본료·하수도료·끓이는 연료비는 뺀 비교입니다. 생수를 2리터 한 병 1,000원으로 잡아 보세요. 1리터에 500원으로, 수돗물의 약 800배입니다. 수돗물은 법정 수질기준을 맞춰야 합니다. 검사 결과도 공개됩니다. 냄새가 나거나 탁하면 끓이지 말고 마시지 마세요.",
+            "after": "생수는 인천 수돗물 사용요금의 약 800배입니다. 생수 2리터 1,000원 가정, 기본료·하수도료·연료비 제외 기준입니다. 평소에는 수돗물을 끓여 마시세요. 냄새가 나거나 탁하면 끓이지 말고 마시지 마세요.",
+            "before_matches_source_entry": true,
+            "before_matches_candidate_entry": true,
+            "before_occurrences_in_source_entry": 1,
+            "after_chars": 115,
+            "after_sentences": 4,
+            "length_exception_requested": false,
+            "length_exception_accepted": false,
+            "source_entry_sha256": "a762d880a8ee97110e61016ef4d40316571dd49d59f370fd4eecc5979e578dc3",
+            "candidate_entry_sha256": "a762d880a8ee97110e61016ef4d40316571dd49d59f370fd4eecc5979e578dc3",
+            "reason": "인천 사용요금/생수 가정가격/제외비용의 범위와 이상 물 음용 금지 경고를 보존합니다. 약800배는500/0.62≈806의 예시 계산입니다. 지역 요금의 최신성 전체를 확인한 것으로 보지 않습니다.",
+            "scope": "Exact proposed wording only. Not full-entry, whole-chapter, publication, or formal KR-FIT approval.",
+            "before_equals_full_source_field": true,
+            "before_equals_full_candidate_field": true,
+            "scope_kind": "whole_field",
+            "direct_field_operation_eligible": true,
+            "operation_base_constraint": "baseline_or_candidate_only_when_whole_field_before_matches"
+          },
+          {
+            "proposal_key": "todo",
+            "field": "비고의 TODO 문장",
+            "decision": "approve",
+            "before": "한국의 비슷한 사고는 정부 조사 원문을 확보하지 못해 쓰지 않았습니다(TODO).",
+            "after": "한국의 비슷한 사고는 정부 조사 원문을 확보하지 못해 사례로 싣지 않았습니다.",
+            "before_matches_source_entry": true,
+            "before_matches_candidate_entry": true,
+            "before_occurrences_in_source_entry": 1,
+            "after_chars": 43,
+            "after_sentences": null,
+            "length_exception_requested": false,
+            "length_exception_accepted": false,
+            "source_entry_sha256": "a762d880a8ee97110e61016ef4d40316571dd49d59f370fd4eecc5979e578dc3",
+            "candidate_entry_sha256": "a762d880a8ee97110e61016ef4d40316571dd49d59f370fd4eecc5979e578dc3",
+            "reason": "미확인 상태를 독자용 문장으로 유지하며 TODO 작업표지만 제거합니다. 확인 완료를 주장하거나 미해결 제한을 숨기지 않습니다. 장말 TODO 대조는 별도 승인 사항입니다.",
+            "scope": "Exact proposed wording only. Not full-entry, whole-chapter, publication, or formal KR-FIT approval.",
+            "before_equals_full_source_field": false,
+            "before_equals_full_candidate_field": false,
+            "scope_kind": "exact_substring_within_field",
+            "direct_field_operation_eligible": false,
+            "operation_base_constraint": "baseline_or_candidate_only_when_whole_field_before_matches"
+          }
+        ],
+        "candidate_entry_sha256": "a762d880a8ee97110e61016ef4d40316571dd49d59f370fd4eecc5979e578dc3",
+        "candidate_review_scope": "Read complete current candidate entry and source snapshot; field approvals do not resolve unverified primary sources or factual corrections in other fields."
+      },
+      "actual_primary_assessment": "r6 실제 CDC/인천요율/수도법·먹는물법 직접읽기 범위를 재사용했다. 새 r2 전문을 대조해 모든 화학·냄새 물질 일반화를 연료·유해화학·방사성 오염의 안전성으로 한정했고, 무조건 필터 권고를 수도사업자 문의 및 안전 확인 전 생수 사용으로 바꿨음을 확인했다. 약800배는 가정 생수가격/인천 사용요금만의 조건부 산술이며 실제 시장평균이나 전국 요율 주장이 아니다.",
+      "all_four_body_fields_read": true,
+      "revision_requests": [],
+      "proposed_root_operation": {
+        "type": "replace_complete_strict_entry_body",
+        "before_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-014-cbd8/strict-entry.md",
+        "before_entire_entry_sha256": "a762d880a8ee97110e61016ef4d40316571dd49d59f370fd4eecc5979e578dc3",
+        "after_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-014-cbd8/publication-entry-proposal-r2.md",
+        "after_entire_entry_sha256": "7fb3be05879b9683b7fc5a20895a684cb426d68cb0b83a4ba288cf6bcd82d77b",
+        "separator_policy": "Preserve surrounding chapter separators; verify entire before entry.",
+        "supersession": "Full supersedes initial field and older full; never both.",
+        "integration_authorized": false
+      }
+    },
+    {
+      "entry": 42,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-042-7b88/publication-entry-proposal.md",
+      "proposal_sha256": "f95d1be6a40ea3f4ac97cad4d7fdf57317d0a44425011523d0c819c8a41847d7",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-042-7b88/publication-entry-changes.json",
+      "changes_sha256": "f69197eb45ce373136ad1a0298f93aa88fd42bb0d153be24e56b7360c1155910",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-042-7b88/strict-entry.md",
+      "base_strict_entry_sha256": "4cfc78209525c0116f63925597846abc4869e0e468a56a97e5609105878dad70",
+      "literal_exit_code": 0,
+      "decision": "approve",
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "length_check": {
+        "entry": 42,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-042-7b88/publication-entry-proposal.md",
+        "title_chars": 40,
+        "easy_chars": 107,
+        "easy_sentences": 4,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "six_labels": true,
+        "tag": true,
+        "grade": true
+      },
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "initial_canonical_findings": {
+        "entry": 42,
+        "entry_snapshot_sha256": "4cfc78209525c0116f63925597846abc4869e0e468a56a97e5609105878dad70",
+        "status": "reviewed_fields_approved_only",
+        "source_review": "방카슈랑스 고지·분리창구·대출끼움·변액 예금보호 예외 원문 미확인. 중국65세 규칙 미적용이 명시됨.",
+        "field_decisions": [
+          {
+            "proposal_key": "easy",
+            "field": "쉽게",
+            "decision": "approve",
+            "before": "은행은 보험을 대신 팔 수 있습니다. 은행은 보험회사가 아니라 대리점이라고 알려야 합니다. 보험금은 보험회사가 지급한다는 사실도 알려야 합니다. 대출을 받으러 갔을 때 보험을 권할 수 있습니다. 이때 가입하지 않아도 대출에 영향이 없다고 알려야 합니다. 서류에 보험회사 이름이 있으면 예금이 아닙니다. 철회 기간이 지난 뒤 해지하면 손해가 날 수 있습니다.",
+            "after": "은행은 대리점이며 보험금은 보험회사가 준다고 알려야 합니다. 보험 가입하지 않아도 대출에 영향이 없다고 알려야 합니다. 서류에 보험회사 이름이 있으면 예금이 아닙니다. 철회 기간 뒤 해지 시 손해 볼 수 있습니다.",
+            "before_matches_source_entry": true,
+            "before_matches_candidate_entry": true,
+            "before_occurrences_in_source_entry": 1,
+            "after_chars": 119,
+            "after_sentences": 4,
+            "length_exception_requested": false,
+            "length_exception_accepted": false,
+            "source_entry_sha256": "4cfc78209525c0116f63925597846abc4869e0e468a56a97e5609105878dad70",
+            "candidate_entry_sha256": "4cfc78209525c0116f63925597846abc4869e0e468a56a97e5609105878dad70",
+            "reason": "보험을 모집하는 은행의 대리/중개 지위·보험회사 지급책임·보험 미가입에 따른 대출 영향 없음 고지는 보험업법100조②와 일치합니다. 보험을 팔지 않는 모든 은행업무가 대리점이라는 뜻으로 읽지 않도록 제목 문맥을 유지합니다.",
+            "scope": "Exact proposed wording only. Not full-entry, whole-chapter, publication, or formal KR-FIT approval.",
+            "before_equals_full_source_field": true,
+            "before_equals_full_candidate_field": true,
+            "scope_kind": "whole_field",
+            "direct_field_operation_eligible": true,
+            "operation_base_constraint": "baseline_or_candidate_only_when_whole_field_before_matches"
+          },
+          {
+            "proposal_key": "todo",
+            "field": "비고의 TODO 문장",
+            "decision": "approve",
+            "before": "같은 내용의 한국 조항은 확인하지 못했습니다. 그래서 옮기지 않았습니다(TODO).",
+            "after": "같은 내용의 한국 조항은 확인하지 못해 옮기지 않았습니다.",
+            "before_matches_source_entry": true,
+            "before_matches_candidate_entry": true,
+            "before_occurrences_in_source_entry": 1,
+            "after_chars": 32,
+            "after_sentences": null,
+            "length_exception_requested": false,
+            "length_exception_accepted": false,
+            "source_entry_sha256": "4cfc78209525c0116f63925597846abc4869e0e468a56a97e5609105878dad70",
+            "candidate_entry_sha256": "4cfc78209525c0116f63925597846abc4869e0e468a56a97e5609105878dad70",
+            "reason": "미확인 상태를 독자용 문장으로 유지하며 TODO 작업표지만 제거합니다. 확인 완료를 주장하거나 미해결 제한을 숨기지 않습니다. 장말 TODO 대조는 별도 승인 사항입니다.",
+            "scope": "Exact proposed wording only. Not full-entry, whole-chapter, publication, or formal KR-FIT approval.",
+            "before_equals_full_source_field": false,
+            "before_equals_full_candidate_field": false,
+            "scope_kind": "exact_substring_within_field",
+            "direct_field_operation_eligible": false,
+            "operation_base_constraint": "baseline_or_candidate_only_when_whole_field_before_matches"
+          }
+        ],
+        "candidate_entry_sha256": "4cfc78209525c0116f63925597846abc4869e0e468a56a97e5609105878dad70",
+        "candidate_review_scope": "Read complete current candidate entry and source snapshot; field approvals do not resolve unverified primary sources or factual corrections in other fields."
+      },
+      "actual_primary_assessment": "보험업법100 전체·시행령40 전체·금소법21 전체·감독규정4-35조의2⑧ 전체와 관련 부칙을 직접 읽었다. 보험 미가입 대출 영향 없음 고지, 대리점/보험회사 책임 고지, 창구 분리, 미동의 보험료 대출 포함 금지가 일치한다. 사업비 운용·금리확정형 제외·법인/비경로우대 온라인 제외·변액 위험 및 예금보호 설명의무도 원문 범위다. 변액 최저보증 부분은 독자 본문에서 미확인임을 반복 표시하므로 모든 부분의 보호 여부가 확정됐다고 승인하지 않는다. 중국65세 규칙은 한국 적용 주장으로 옮기지 않았다.",
+      "all_four_body_fields_read": true,
+      "revision_requests": [],
+      "proposed_root_operation": {
+        "type": "replace_complete_strict_entry_body",
+        "before_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-042-7b88/strict-entry.md",
+        "before_entire_entry_sha256": "4cfc78209525c0116f63925597846abc4869e0e468a56a97e5609105878dad70",
+        "after_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-042-7b88/publication-entry-proposal.md",
+        "after_entire_entry_sha256": "f95d1be6a40ea3f4ac97cad4d7fdf57317d0a44425011523d0c819c8a41847d7",
+        "separator_policy": "Preserve surrounding chapter separators; verify entire before entry.",
+        "supersession": "Full supersedes initial field and older full; never both.",
+        "integration_authorized": false
+      }
+    },
+    {
+      "entry": 43,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-043-8784/publication-entry-proposal.md",
+      "proposal_sha256": "fafa2875756a91d03ef8666d3e29a104488dd860dd9d192e364f3dae3486d226",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-043-8784/publication-entry-changes.json",
+      "changes_sha256": "5b1deed20f085c5146ff743826242205d0753e7ab3f19e4239872e87ed291441",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-043-8784/strict-entry.md",
+      "base_strict_entry_sha256": "e48d95a91b72b1395ee9a8011f6241831f0bcc30076498efd8df512b016b32b9",
+      "literal_exit_code": 0,
+      "decision": "approve",
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "length_check": {
+        "entry": 43,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-043-8784/publication-entry-proposal.md",
+        "title_chars": 61,
+        "easy_chars": 113,
+        "easy_sentences": 3,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "six_labels": true,
+        "tag": true,
+        "grade": true
+      },
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "initial_canonical_findings": {
+        "entry": 43,
+        "entry_snapshot_sha256": "e48d95a91b72b1395ee9a8011f6241831f0bcc30076498efd8df512b016b32b9",
+        "status": "reviewed_fields_approved_only",
+        "source_review": "부당승환1개월/6개월·자필예외·비교고지·부활6개월·조정30/60일·해지3개월 등 원문 미확인. \"보험 깨면 즉시\" 보장종료는 철회/해지/승환 구분 유지.",
+        "field_decisions": [
+          {
+            "proposal_key": "easy",
+            "field": "쉽게",
+            "decision": "approve",
+            "before": "보험을 깨면 보장도 그 자리에서 끝납니다. 다시 들 때는 그때의 건강 상태를 새로 알리고 심사받습니다. 설계사가 기존 보험을 깨게 해서는 안 됩니다. 비슷한 새 보험에 들게 하려는 경우입니다. 그렇게 해지했다면 6개월 안에 옛 계약을 되살려 달라고 할 수 있습니다. 잘못 판매됐다고 생각되면 금융감독원 분쟁조정을 쓰세요.",
+            "after": "해지하면 보장이 끝나고 재가입 때 건강 상태를 알리고 심사받습니다. 설계사가 비슷한 새 보험을 권해 부당히 해지시켰다면 6개월 내 옛 계약 회복을 요청하세요. 잘못 팔렸다고 생각되면 금융감독원 분쟁조정을 쓰세요.",
+            "before_matches_source_entry": true,
+            "before_matches_candidate_entry": true,
+            "before_occurrences_in_source_entry": 1,
+            "after_chars": 118,
+            "after_sentences": 3,
+            "length_exception_requested": false,
+            "length_exception_accepted": false,
+            "source_entry_sha256": "e48d95a91b72b1395ee9a8011f6241831f0bcc30076498efd8df512b016b32b9",
+            "candidate_entry_sha256": "e48d95a91b72b1395ee9a8011f6241831f0bcc30076498efd8df512b016b32b9",
+            "reason": "보험업법97조의 부당승환·유사 새보험·기존 계약 회복·소멸후6개월의 요약으로 확인했습니다. 중개사 제외 등 상세조건과 새계약취소는 이득에 보존해야 합니다.",
+            "scope": "Exact proposed wording only. Not full-entry, whole-chapter, publication, or formal KR-FIT approval.",
+            "before_equals_full_source_field": true,
+            "before_equals_full_candidate_field": true,
+            "scope_kind": "whole_field",
+            "direct_field_operation_eligible": true,
+            "operation_base_constraint": "baseline_or_candidate_only_when_whole_field_before_matches"
+          },
+          {
+            "proposal_key": "todo",
+            "field": "비고의 TODO 문장",
+            "decision": "approve",
+            "before": "이번에 금감원 누리집을 점검했지만 관련 경보를 찾지 못했습니다(TODO). 한국 금융감독원이 같은 업자를 두고 낸 경보를 뜻합니다.",
+            "after": "한국 금융감독원이 같은 대리 해지 업자를 경고한 자료는 이번 누리집 점검에서 찾지 못했습니다.",
+            "before_matches_source_entry": true,
+            "before_matches_candidate_entry": true,
+            "before_occurrences_in_source_entry": 1,
+            "after_chars": 52,
+            "after_sentences": null,
+            "length_exception_requested": false,
+            "length_exception_accepted": false,
+            "source_entry_sha256": "e48d95a91b72b1395ee9a8011f6241831f0bcc30076498efd8df512b016b32b9",
+            "candidate_entry_sha256": "e48d95a91b72b1395ee9a8011f6241831f0bcc30076498efd8df512b016b32b9",
+            "reason": "미확인 상태를 독자용 문장으로 유지하며 TODO 작업표지만 제거합니다. 확인 완료를 주장하거나 미해결 제한을 숨기지 않습니다. 장말 TODO 대조는 별도 승인 사항입니다.",
+            "scope": "Exact proposed wording only. Not full-entry, whole-chapter, publication, or formal KR-FIT approval.",
+            "before_equals_full_source_field": false,
+            "before_equals_full_candidate_field": false,
+            "scope_kind": "exact_substring_within_field",
+            "direct_field_operation_eligible": false,
+            "operation_base_constraint": "baseline_or_candidate_only_when_whole_field_before_matches"
+          }
+        ],
+        "candidate_entry_sha256": "e48d95a91b72b1395ee9a8011f6241831f0bcc30076498efd8df512b016b32b9",
+        "candidate_review_scope": "Read complete current candidate entry and source snapshot; field approvals do not resolve unverified primary sources or factual corrections in other fields."
+      },
+      "actual_primary_assessment": "보험업법97①5/11·③·④·⑤, 금소법36/47, 시행령38, 상법638의3/651을 직접 읽었다. 부당 유사계약 전환의1개월·6개월 기준과 자필 동의 예외, 중개사 제외·모집자 소속/위탁 회사에 소멸 후6개월 내 회복 및 새계약 취소,30일/회부 후60일 분쟁조정 및 예외가 보존된다. 위법계약은 안 날1년/계약일5년, 증빙서류·자동차 다른 동종책임보험·10일 회신·20210325 이후 계약 조건이 맞다. 상법 약관 미교부/중요설명 위반의 성립 후3개월 취소도 맞다. 중국 대리해지 경보를 한국 당국 경보로 바꾸지 않으며 한국 미확인 제한을 유지한다.",
+      "all_four_body_fields_read": true,
+      "revision_requests": [],
+      "proposed_root_operation": {
+        "type": "replace_complete_strict_entry_body",
+        "before_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-043-8784/strict-entry.md",
+        "before_entire_entry_sha256": "e48d95a91b72b1395ee9a8011f6241831f0bcc30076498efd8df512b016b32b9",
+        "after_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-043-8784/publication-entry-proposal.md",
+        "after_entire_entry_sha256": "fafa2875756a91d03ef8666d3e29a104488dd860dd9d192e364f3dae3486d226",
+        "separator_policy": "Preserve surrounding chapter separators; verify entire before entry.",
+        "supersession": "Full supersedes initial field and older full; never both.",
+        "integration_authorized": false
+      }
+    }
+  ],
+  "approved_entries": [
+    14,
+    42,
+    43
+  ],
+  "revise_entries": [],
+  "actual_primary_readings": [
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch05-audit/265389.xml",
+      "artifact_sha256": "5d3d5e9b22d1fad26158da529677b362f06f623d9030872beb822a73c37c09b7",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=265389&type=XML",
+      "scope": "97/100 complete",
+      "access": "Preserved primary XML directly read; not fresh HTTP",
+      "new_http": false
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290427.xml",
+      "artifact_sha256": "03d9b4c3124291f2e78c59f08c20267c2cc091698d717b42f732c22fc1b403ca",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290427&type=XML",
+      "scope": "40/44 complete;36275/36728 supplements",
+      "access": "Preserved primary XML directly read; not fresh HTTP",
+      "new_http": false
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/277247.xml",
+      "artifact_sha256": "df88739da5899708ec4c7cb5a254e4794b9cef8f9680b97c7ce376200d21e8bf",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=277247&type=XML",
+      "scope": "21/36/47;17112 supplementary1/8 and latest supplements",
+      "access": "Preserved primary XML directly read; not fresh HTTP",
+      "new_http": false
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/273629.xml",
+      "artifact_sha256": "48b6b00f5625f842d6005eeab12e41dc93c5d8596e5db4163266c53e4a21ab22",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=273629&type=XML",
+      "scope": "638의3/651;20991/21044 supplements",
+      "access": "Preserved primary XML directly read; not fresh HTTP",
+      "new_http": false
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/285715.xml",
+      "artifact_sha256": "f4cc2ef36e09e278b9bb1b55e121b9a1520a8a68f292bab94e267f07eefb7ab1",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=285715&type=XML",
+      "scope": "38 complete;36287 supplement",
+      "access": "Preserved primary XML directly read; not fresh HTTP",
+      "new_http": false
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch05-partial-review/admrul-2100000279112.xml",
+      "artifact_sha256": "7b8819f912fbd62b74eed9138cdd958d6d6f1a08e34366df7023e4b40e944809",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000279112&type=XML",
+      "scope": "4-35의2⑧ complete;2026-16/2026-3 supplements",
+      "access": "Preserved primary XML directly read; not fresh HTTP",
+      "new_http": false
+    }
+  ],
+  "prior_evidence_reuse": {
+    "report": "publication-partial-review-r6.json",
+    "scope": "14 actual CDC emergency water warning,Incheon household620원/㎥,수도법26/29,먹는물법5. New text compared against same evidence, no new HTTP."
+  },
+  "cross_reference_review": [
+    {
+      "entry": 10,
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-010-203e/publication-entry-proposal.md",
+      "sha256": "145ae1b5c7b47bad5b23ba788ab324e780ae2026680ce3952bb54ed53b979214",
+      "body_read": true,
+      "alignment": "10 인증번호/신분증 사기 주의;41 기한/대상 예외를 둔 청약철회;43 직접 해지/구제 절차. 해당 참조 조언과 최신 대상 범위 일치."
+    },
+    {
+      "entry": 41,
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-041-439b/publication-entry-proposal-r3.md",
+      "sha256": "3fb5f82728b7214582890f21316948928f25badda91c47f4fd9425c1d49f8339",
+      "body_read": true,
+      "alignment": "10 인증번호/신분증 사기 주의;41 기한/대상 예외를 둔 청약철회;43 직접 해지/구제 절차. 해당 참조 조언과 최신 대상 범위 일치."
+    },
+    {
+      "entry": 43,
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-043-8784/publication-entry-proposal.md",
+      "sha256": "fafa2875756a91d03ef8666d3e29a104488dd860dd9d192e364f3dae3486d226",
+      "body_read": true,
+      "alignment": "10 인증번호/신분증 사기 주의;41 기한/대상 예외를 둔 청약철회;43 직접 해지/구제 절차. 해당 참조 조언과 최신 대상 범위 일치."
+    }
+  ],
+  "fresh_http_performed": false,
+  "whole45_approval": false,
+  "integration_approval": false,
+  "formal_kr_fit_approval": false,
+  "preservation": "Historical/frozen/canonical/public/runs/gates/git unchanged."
+}

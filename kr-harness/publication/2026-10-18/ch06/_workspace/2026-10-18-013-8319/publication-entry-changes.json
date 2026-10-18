@@ -1,0 +1,116 @@
+{
+  "status": "unadopted_proposal",
+  "independent_exact_hash_review": "pending",
+  "entry": 13,
+  "baseline_path": "kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-013-8319/strict-entry.md",
+  "baseline_sha256": "d6ac3781f59acebb3f7620a2bf07ee7c3c031e262af1b8062f8d3e614b8d9efc",
+  "proposal_sha256": "995ae8422668e5476349cfcdf374187bde2c851c63f679dfa6dda40eb4c1501d",
+  "fields": {
+    "비용": {
+      "before": "제품값이 듭니다. 굶는 '디톡스' 방식은 혈당을 떨어뜨릴 수 있습니다. 영양 균형도 깨뜨릴 수 있습니다.",
+      "after": "제품값이 듭니다. 굶는 '디톡스' 방식은 혈당을 떨어뜨릴 수 있습니다. 영양 균형도 깨뜨릴 수 있습니다.",
+      "changed": false,
+      "reason": "원문 유지"
+    },
+    "쉽게": {
+      "before": "디톡스 산업은 크지만 임상 근거는 매우 부족합니다. 시판 디톡스 식단을 충분히 검증한 시험도 없습니다. 식단의 산염기·알칼리수와 암의 관계를 살핀 연구가 있습니다. 기준을 통과한 논문은 1편뿐입니다. 이 논문에서는 관련성을 확인하지 못했습니다.",
+      "after": "디톡스 식단이 도움이 된다는 근거는 매우 부족합니다. 알칼리 식단·알칼리수를 암 예방이나 치료에 권할 근거도 없습니다.",
+      "changed": true,
+      "reason": "136자 5문장을 66자 2문장으로 줄이고 근거 부족과 암 예방·치료 범위를 보존."
+    },
+    "이득": {
+      "before": "고찰에 따르면 디톡스 식단의 임상 근거는 매우 부족합니다. 디톡스 산업은 그와 달리 번성합니다. 시판 디톡스 식단의 무작위 대조시험도 없었습니다. 다른 체계적 문헌고찰은 식단의 산 부하와 암의 관계를 살폈습니다. 알칼리수와 암의 관계도 살폈습니다. 문헌 8,278편 중 1편만 채택했습니다. 채택한 논문에서는 관련성을 확인하지 못했습니다. 저자는 알칼리 식단·알칼리수를 암 예방용으로 권할 근거가 없다고 합니다. 암 치료용으로 권할 근거도 없다고 합니다. 이런 제품은 '몸속에 쌓인 독을 빼야 한다'고 전제합니다. '체질이 산성이 되면 암이 생긴다'는 전제도 내세웁니다. 두 전제 모두 생리학에 근거한 듯 들립니다. 그래서 제품의 가성비가 좋아 보입니다.",
+      "after": "2015년 고찰에 따르면 디톡스 식단의 임상 근거는 매우 부족합니다. 디톡스 산업은 그와 달리 번성합니다. 당시 시판 디톡스 식단의 무작위 대조시험도 없었습니다. 2016년의 다른 체계적 문헌고찰은 식단의 산 부하와 암의 관계를 살폈습니다. 알칼리수와 암의 관계도 살폈습니다. 문헌 8,278편 중 1편만 채택했습니다. 채택한 논문은 남성 흡연자의 식단 산 부하와 방광암을 살폈습니다. 통계적으로 뚜렷한 관련성은 확인하지 못했습니다. 효과가 없다는 증명은 아닙니다. 알칼리수나 암 치료를 직접 검증한 결과도 아닙니다. 고찰의 수치 표기는 초록과 본문에서 서로 다릅니다. 저자는 알칼리 식단·알칼리수를 암 예방용으로 권할 근거가 없다고 합니다. 암 치료용으로 권할 근거도 없다고 합니다. 이런 제품은 '몸속에 쌓인 독을 빼야 한다'고 전제합니다. '체질이 산성이 되면 암이 생긴다'는 전제도 내세웁니다. 두 전제 모두 생리학에 근거한 듯 들립니다. 그래서 제품의 가성비가 좋아 보입니다.",
+      "changed": true,
+      "reason": "고찰 시점, 단일 연구의 남성 흡연자·방광암 범위, 비유의와 효과 부재 구분. 초록 OR/p와 본문 RR/p의 내부 불일치를 독자에게 명시. 수치를 새로 옮기거나 위험비로 변환하지 않음."
+    },
+    "근거등급": {
+      "before": "C",
+      "after": "C",
+      "changed": false,
+      "reason": "원문 유지"
+    },
+    "출처": {
+      "before": "Klein AV, Kiat H (2015). Detox diets for toxin elimination and weight management: a critical review of the evidence. J Hum Nutr Diet. https://doi.org/10.1111/jhn.12286 ; Fenton TR, Huang T (2016). Systematic review of the association between dietary acid load, alkaline water and cancer. BMJ Open. https://doi.org/10.1136/bmjopen-2015-010438",
+      "after": "Klein AV, Kiat H (2015). Detox diets for toxin elimination and weight management: a critical review of the evidence. J Hum Nutr Diet. https://doi.org/10.1111/jhn.12286 ; Fenton TR, Huang T (2016). Systematic review of the association between dietary acid load, alkaline water and cancer. BMJ Open. https://doi.org/10.1136/bmjopen-2015-010438",
+      "changed": false,
+      "reason": "원문 유지"
+    },
+    "비고": {
+      "before": "'근거가 없다'는 판단에 그쳐 C급입니다. 간과 콩팥은 원래 몸에서 생긴 노폐물을 제거합니다. 이 두 장기에 병이 없다면 따로 '디톡스'를 할 필요가 없습니다.",
+      "after": "'근거가 없다'는 판단에 그쳐 C급입니다. 간과 콩팥은 원래 몸에서 생긴 노폐물을 제거합니다. 이 두 장기에 병이 없다면 따로 '디톡스'를 할 필요가 없습니다.",
+      "changed": false,
+      "reason": "원문 유지"
+    }
+  },
+  "primary_evidence": [
+    {
+      "doi": "10.1111/jhn.12286",
+      "url": "https://doi.org/10.1111/jhn.12286",
+      "method": "Europe PMC core record: actual primary abstract read",
+      "verified_date": "2026-10-18",
+      "raw_path": "kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-013-8319/source-evidence/primary-1.json",
+      "sha256": "71decf9c06765a0eb40330f1479b0fb8d3c513764bd82b7bba8258cdf5a6e444",
+      "exact_primary_quotation": "Detox diets are popular dieting strategies that claim to facilitate toxin elimination and weight loss, thereby promoting health and well-being. The present review examines whether detox diets are necessary, what they involve, whether they are effective and whether they present any dangers. Although the detox industry is booming, there is very little clinical evidence to support the use of these diets. A handful of clinical studies have shown that commercial detox diets enhance liver detoxification and eliminate persistent organic pollutants from the body, although these studies are hampered by flawed methodologies and small sample sizes. There is preliminary evidence to suggest that certain foods such as coriander, nori and olestra have detoxification properties, although the majority of these studies have been performed in animals. To the best of our knowledge, no randomised controlled trials have been conducted to assess the effectiveness of commercial detox diets in humans. This is an area that deserves attention so that consumers can be informed of the potential benefits and risks of detox programmes."
+    },
+    {
+      "doi": "10.1136/bmjopen-2015-010438",
+      "url": "https://doi.org/10.1136/bmjopen-2015-010438",
+      "method": "Europe PMC core record: actual primary abstract read",
+      "verified_date": "2026-10-18",
+      "raw_path": "kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-013-8319/source-evidence/primary-2.json",
+      "sha256": "ddc54c1d081e6de55437e6203a483317b1b6a7fd35d4d0921c5221ac9d6436ed",
+      "exact_primary_quotation": "<h4>Objectives</h4>To evaluate the evidence for a causal relationship between dietary acid/alkaline and alkaline water for the aetiology and treatment of cancer.<h4>Design</h4>A systematic review was conducted on published and grey literature separately for randomised intervention and observational studies with either varying acid-base dietary intakes and/or alkaline water with any cancer outcome or for cancer treatment.<h4>Outcome measures</h4>Incidence of cancer and outcomes of cancer treatment.<h4>Results</h4>8278 citations were identified, and 252 abstracts were reviewed; 1 study met the inclusion criteria and was included in this systematic review. No randomised trials were located. No studies were located that examined dietary acid or alkaline or alkaline water for cancer treatment. The included study was a cohort study with a low risk of bias. This study revealed no association between the diet acid load with bladder cancer (OR=1.15: 95% CI 0.86 to 1.55, p=0.36). No association was found even among long-term smokers (OR=1.72: 95% CI 0.96 to 3.10, p=0.08).<h4>Conclusions</h4>Despite the promotion of the alkaline diet and alkaline water by the media and salespeople, there is almost no actual research to either support or disprove these ideas. This systematic review of the literature revealed a lack of evidence for or against diet acid load and/or alkaline water for the initiation or treatment of cancer. Promotion of alkaline diet and alkaline water to the public for cancer prevention or treatment is not justified."
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4916623/fullTextXML",
+      "method": "primary full text XML: Results and Conclusions read",
+      "verified_date": "2026-10-18",
+      "raw_path": "kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-013-8319/source-evidence/fenton-full.xml",
+      "sha256": "d56524db52e9334f21ec13a3d92bcadaac2f7357b77a72f34dff0b67d335b7aa",
+      "exact_primary_quotations": [
+        "This study examined the diet acid load and the occurrence of bladder cancer.",
+        "The relative risk estimate for bladder cancer was 1.15 (CI 0.86 to 1.55, p=0.38)",
+        "This study revealed no association between the diet acid load with bladder cancer (OR=1.15: 95% CI 0.86 to 1.55, p=0.36)."
+      ]
+    }
+  ],
+  "intentional_numerical_scope_changes": [
+    "2015/2016 고찰 연도 명시.",
+    "단일 논문의 대상·결과 범위를 남성 흡연자와 방광암으로 한정. 기존 문헌 8,278편 및 채택 1편 유지."
+  ],
+  "doi_changes": {
+    "added": [],
+    "removed": []
+  },
+  "unresolved_limitations": [
+    "Klein 고찰은 원초록 열람; 전문과 독립 정정문 전체를 확인한 것으로 주장하지 않음.",
+    "Fenton 원문의 초록 OR/p=0.36과 본문 RR/p=0.38 표기가 상충함. 숫자를 선택하여 확정하지 않음.",
+    "현재까지 모든 디톡스 제품의 영구적 무효를 검증한 결과가 아님."
+  ],
+  "title_review": {
+    "shortened": false,
+    "incoming_anchors": "제목 전체 원문 보존; 모든 기존 앵커 유지"
+  },
+  "checks": {
+    "literal_check_command": [
+      "python",
+      "kr-harness/publication/2026-10-18/ch05/publication-partial-review-evidence/literal_check.py",
+      "kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-013-8319/publication-entry-proposal.md"
+    ],
+    "exit_code": 0,
+    "actual_output": [
+      {
+        "entry": null,
+        "path": "kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-013-8319/publication-entry-proposal.md",
+        "title_chars": 29,
+        "easy_chars": 66,
+        "easy_sentences": 2,
+        "long_sentences": [],
+        "pass_length": true
+      }
+    ],
+    "six_fields_one_physical_line": true,
+    "inherited_sentences_checked": true
+  }
+}

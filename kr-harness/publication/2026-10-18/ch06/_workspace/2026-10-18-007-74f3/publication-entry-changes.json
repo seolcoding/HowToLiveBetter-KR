@@ -1,0 +1,214 @@
+{
+  "status": "unadopted_proposal",
+  "entry": 7,
+  "baseline_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-007-74f3/strict-entry.md",
+  "baseline_sha256": "5cb33fba6b9c40e4245b21cfcb084d8acbc1faf68679b1f1dc3f5057fdc9fefb",
+  "proposal_sha256": "294d0d1df3a5df8995452227b7bdf6649e87be2fd5a34b95c508925a32ce7943",
+  "fields": [
+    {
+      "field": "비용",
+      "before": "전신 PET-CT 한 번에 백만 원대가 듭니다. 비급여 공시 기준 전신 촬영 비용은 약 110만 원입니다. 검사 때 전리방사선에도 노출됩니다. 종양 표지자 패키지에도 따로 돈이 듭니다. 한국 시세는 TODO 확인 필요. 검사 뒤에도 비용이 듭니다. 검사에서 찾은 '이상'이 위양성일 수 있습니다. 실제로는 문제가 없는데 이상이 있다고 나온 경우입니다. 이후 재검사, 조직검사, 수술로 돈과 수고가 듭니다.",
+      "after": "전신 PET-CT 한 번에 백만 원대가 듭니다. 비급여 공시 기준 전신 촬영 비용은 약 110만 원입니다. 검사 때 전리방사선에도 노출됩니다. 종양 표지자 패키지에도 따로 돈이 듭니다. 종양 표지자 패키지의 한국 시세는 아직 확인하지 못했습니다. 검사 뒤에도 비용이 듭니다. 검사에서 찾은 '이상'이 위양성일 수 있습니다. 실제로는 문제가 없는데 이상이 있다고 나온 경우입니다. 이후 재검사, 조직검사, 수술로 돈과 수고가 듭니다.",
+      "changed": true,
+      "reason": "Replace unresolved TODO with transparent reader limitation; price amount retained."
+    },
+    {
+      "field": "쉽게",
+      "before": "증상 없이 검사하면 헛걱정이 가장 흔합니다. 전신 CT를 찍은 사람 중 8할 넘게 '이상' 소견을 받았습니다. 거의 4할이 재검사를 권고받았지만 소견은 대부분 양성이었습니다. 난소암 표지자 검사를 받은 여성의 난소암 사망 비율은 조금 높았습니다. 위양성 때문에 불필요한 수술을 받은 사람도 있었습니다.",
+      "after": "증상 없고 고위험 유전성 암증후군이 알려지지 않은 여성 대상 권고입니다. 난소암 사망은 두 집단 모두 약 0.3%로 차이가 뚜렷하지 않았습니다. 잘못된 이상 소견으로 불필요한 수술을 받기도 했습니다.",
+      "changed": true,
+      "reason": "Three-sentence plain summary; essential hereditary-risk scope and non-significant result retained; secondary CT findings remain in benefit."
+    },
+    {
+      "field": "이득",
+      "before": "미국 예방시책 평가기구 USPSTF는 증상 없는 여성을 평가했습니다. CA-125와 초음파를 이용한 난소암 검사는 D등급입니다. 검사를 하지 말라는 권고이며 근거는 PLCO 시험입니다. 난소암 사망 비율은 검진군 0.34%, 일반군 0.29%였습니다. RR 1.18(95% CI 0.82–1.71). 시험에서 검진의 이득은 확인되지 않았습니다. 위양성 때문에 불필요한 수술을 받은 비율은 시험별로 0.2%–3.25%였습니다. 이들 중 최대 15%가 심각한 수술 합병증을 겪었습니다. 다른 연구에서는 증상 없는 1,192명이 전신 CT 검진을 받았습니다. 86%가 최소 한 곳에서 '이상' 소견을 받았습니다. 37%는 추가 검사를 권고받았습니다. 원문은 '대부분의 소견은 기술된 대로 양성'이라고 적습니다. '한 번에 전신을 검사해 일찍 발견하고 치료한다'는 말은 그럴듯합니다. 이 때문에 검진의 가성비가 좋아 보입니다.",
+      "after": "미국 예방시책 평가기구 USPSTF의 난소암 검진 권고입니다. 증상 없고 고위험 유전성 암증후군이 알려지지 않은 여성 대상입니다. CA-125와 초음파를 이용한 난소암 검사는 D등급입니다. 검사를 하지 말라는 권고이며 PLCO 등 여러 시험을 검토했습니다. PLCO의 추적기간 중앙값은 12.4년입니다. 원발성 복막암을 포함한 난소암 사망 비율입니다. 검진군 0.34%, 일반군 0.29%였습니다. 두 집단의 사망 비율을 나눈 상대위험은 1.18입니다. 95% 신뢰구간은 0.82–1.71입니다. 차이는 통계적으로 유의하지 않았습니다. 시험에서 검진의 이득은 확인되지 않았습니다. 위양성 때문에 불필요한 수술을 받은 비율은 시험별로 0.2%–3.25%였습니다. 이들 중 최대 15%가 심각한 수술 합병증을 겪었습니다. 다른 연구는 전신 CT 검진을 받은 1,192명의 판독 기록을 살폈습니다. PET-CT를 직접 평가한 연구는 아닙니다. 86%가 최소 한 곳에서 '이상' 소견을 받았습니다. 37%는 추가 검사를 권고받았습니다. 원문은 대부분의 소견이 양성으로 기술됐다고 적습니다. '한 번에 전신을 검사해 일찍 발견하고 치료한다'는 말은 그럴듯합니다. 이 때문에 검진의 가성비가 좋아 보입니다.",
+      "changed": true,
+      "reason": "Apply actual recommendation scope; distinguish recommendation population from PLCO recruitment; state trial duration, primary peritoneal mortality and uncertainty; correctly describe CT record review rather than infer PET-CT evidence."
+    },
+    {
+      "field": "근거등급",
+      "before": "A",
+      "after": "A",
+      "changed": false,
+      "reason": "Preserved unchanged."
+    },
+    {
+      "field": "출처",
+      "before": "US Preventive Services Task Force (2018). Screening for Ovarian Cancer: US Preventive Services Task Force Recommendation Statement. JAMA(같은 권고의 USPSTF 공식 페이지 별도). https://doi.org/10.1001/jama.2017.21926 ; https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/ovarian-cancer-screening ; Furtado CD et al. (2005). Whole-body CT screening: spectrum of findings and recommendations in 1192 patients. Radiology. https://doi.org/10.1148/radiol.2372041741 ; 가격 공시: 메리놀병원 비급여 진료비 안내(양전자단층촬영 F-18 FDG 전신 1,100,000원). https://www.maryknoll.co.kr/popup/nopay_new.php?type=M006 (2026-10-06 확인)",
+      "after": "US Preventive Services Task Force (2018). Screening for Ovarian Cancer: US Preventive Services Task Force Recommendation Statement. JAMA(같은 권고의 USPSTF 공식 페이지 별도). https://doi.org/10.1001/jama.2017.21926 ; https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/ovarian-cancer-screening ; Furtado CD et al. (2005). Whole-body CT screening: spectrum of findings and recommendations in 1192 patients. Radiology. https://doi.org/10.1148/radiol.2372041741 ; 가격 공시: 메리놀병원 비급여 진료비 안내(양전자단층촬영 F-18 FDG 전신 1,100,000원). https://www.maryknoll.co.kr/popup/nopay_new.php?type=M006 (2026-10-06 확인)",
+      "changed": false,
+      "reason": "Preserved unchanged."
+    },
+    {
+      "field": "비고",
+      "before": "종양 표지자 검사에는 무작위 대조시험 근거가 있습니다. 전신 CT와 PET-CT 근거는 검사받은 사람들을 추적한 기록뿐입니다. 대조군과 비교하지 않아 근거가 한 단계 약합니다. 사실상 B급에 해당합니다. 대장암, 자궁경부암, 유방암 검진은 근거가 있습니다. 고위험군의 저선량 흉부 CT는 따로 봐야 합니다. 이 검진들은 제1절(너무 일찍 죽지 않기)에서 다룹니다. 증상이 있거나 암 진단 후 받는 PET-CT는 진료에 해당합니다. 검진과는 구분해야 합니다.",
+      "after": "종양 표지자 검사에는 무작위 대조시험 근거가 있습니다. 인용한 전신 CT 연구는 검사받은 사람들의 판독 기록입니다. 이 자료만으로 PET-CT의 사망 예방 효과는 판단할 수 없습니다. 대조군과 비교하지 않아 근거가 한 단계 약합니다. 사실상 B급에 해당합니다. 대장암, 자궁경부암, 유방암 검진은 근거가 있습니다. 고위험군의 저선량 흉부 CT는 따로 봐야 합니다. 이 검진들은 제1절(너무 일찍 죽지 않기)에서 다룹니다. 증상이 있거나 암 진단 후 받는 PET-CT는 진료에 해당합니다. 검진과는 구분해야 합니다.",
+      "changed": true,
+      "reason": "Limit evidence description to actual CT records; explicitly separate unassessed PET-CT mortality benefit."
+    }
+  ],
+  "primary_evidence": [
+    {
+      "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/ovarian-cancer-screening",
+      "raw_path": "/tmp/ch06e07/uspstf.raw",
+      "read_level": "Official recommendation full HTML; population, benefits, harms sections read",
+      "quotes": [
+        "This recommendation applies to asymptomatic women who are not known to have a high-risk hereditary cancer syndrome.",
+        "median follow-up was 12.4 years.",
+        "No difference was found in ovarian cancer mortality, which includes primary peritoneal cancer mortality, with 0.34% in the screening group and 0.29% in the usual care group (relative risk, 1.18 [95% CI, 0.82 to 1.71]).",
+        "Up to 15% of these women had major surgical complications."
+      ],
+      "verified_at_utc": "2026-10-18T17:53:54.739335+00:00",
+      "method": "Python urllib GET and direct text reading",
+      "sha256": "b424ebbdf4849f19751e5d8d63f09b80000990f76472c1ca04b478aef7d19fa5"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1148/radiol.2372041741&format=json&resultType=core",
+      "raw_path": "/tmp/ch06e07/furtado.raw",
+      "read_level": "Primary article abstract in Europe PMC MED record; full abstract read",
+      "quotes": [
+        "The radiologic reports of 1192 consecutive patients who underwent whole-body CT screening of the chest, abdomen, and pelvis at an outpatient imaging center from January to June 2000 were reviewed.",
+        "1030 (86%) of 1192 subjects had at least one abnormal finding described in the whole-body CT screening report.",
+        "Four hundred forty-five (37%) patients received at least one recommendation for further evaluation.",
+        "most findings were benign by description and required no further evaluation."
+      ],
+      "verified_at_utc": "2026-10-18T17:53:54.739559+00:00",
+      "method": "Python urllib GET and direct text reading",
+      "sha256": "59dda89cd6c5f2be4f874714edc7cb9c135b833f481bbd7ab390687481e5cc28"
+    },
+    {
+      "url": "https://www.maryknoll.co.kr/popup/nopay_new.php?type=M006",
+      "raw_path": "/tmp/ch06e07/price.raw",
+      "read_level": "Official current fee table decoded EUC-KR, matching row read",
+      "quotes": [
+        "우 비급여 PET 진단료 양전자단층촬영(F-18 FDG)-전신 HK040010 &nbsp; 1,100,000 &nbsp; &nbsp; 포함 급여 인정기준 외 실시한 경우 비급여 PET 진단료 PET CT-("
+      ],
+      "verified_at_utc": "2026-10-18T17:53:54.739788+00:00",
+      "method": "Python urllib GET and direct text reading",
+      "sha256": "5bb2c473f9a6aefae0ef21695f46abc3d14fac0066235363a442a74302d9ae73"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:17057082&format=json&resultType=core",
+      "raw_path": "/tmp/ch06e07/comment.raw",
+      "read_level": "Related comment metadata only; no abstract/fulltext; not treated as correction",
+      "quotes": [
+        "Callback and follow-up guidelines for whole-body CT screening."
+      ],
+      "verified_at_utc": "2026-10-18T17:53:54.739827+00:00",
+      "method": "Python urllib GET and direct text reading",
+      "sha256": "88227dd2bb96c94186d67c87cfee3811b11be247a50010f2b6ed52800896053e"
+    }
+  ],
+  "intentional_numerical_scope_changes": [
+    "Added high-risk hereditary cancer syndrome exclusion to recommendation, not to PLCO enrolment.",
+    "Added PLCO median follow-up 12.4 years and inclusion of primary peritoneal cancer deaths.",
+    "Kept 0.34%, 0.29%, 1.18 and 0.82–1.71; easy rounds both mortality proportions to about 0.3%.",
+    "Removed unsupported asymptomatic description from Furtado abstract; retained CT-only scope."
+  ],
+  "doi_changes": {
+    "added": [],
+    "removed": [],
+    "reason": "Existing DOI citations preserved; related comment is not a correction and has not been read beyond metadata."
+  },
+  "title": {
+    "changed": false,
+    "reason": "Original title retained; no incoming anchor changed."
+  },
+  "limitations": [
+    "Korean tumour-marker package pricing remains unverified and is disclosed.",
+    "Furtado full text and related letter were not read; abstract wording benign by description is not a pathological confirmation.",
+    "No PET-CT mortality trial is provided by these citations; reader text states this limitation.",
+    "No source conflict or retraction/correction was found in read records; related comment remains unassessed."
+  ],
+  "approval": false,
+  "literal_check": {
+    "command": [
+      "python",
+      "kr-harness/publication/2026-10-18/ch05/publication-partial-review-evidence/literal_check.py",
+      "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-007-74f3/publication-entry-proposal.md"
+    ],
+    "exit_code": 0,
+    "result": [
+      {
+        "entry": null,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-007-74f3/publication-entry-proposal.md",
+        "title_chars": 43,
+        "easy_chars": 111,
+        "easy_sentences": 3,
+        "long_sentences": [],
+        "pass_length": true
+      }
+    ],
+    "scope": "All four narrative fields including inherited sentences, quotes and parentheses; no exemptions."
+  },
+  "protected_file_hashes": {
+    "entry_snapshot.md": "677b2dee0d11039928fcaf89ad9847a8df881005c1584fe8ace9eba4ce59ba24",
+    "strict-entry.md": "5cb33fba6b9c40e4245b21cfcb084d8acbc1faf68679b1f1dc3f5057fdc9fefb",
+    "final.md": "d2e409dee2b58af825551d4e4e7f73c271e91146350dd7a400af1d28af592311",
+    "01_input_with_metrics.txt": "20c7de708795a74e78c8da05752dd530910d0e40e83405366a9b9e02a35eeff9"
+  },
+  "incoming_anchor_check": {
+    "method": "rg -n of both title anchor phrases in chapter source; title unchanged",
+    "command": [
+      "rg",
+      "-n",
+      "전신 PET-CT|종양 표지자 패키지",
+      "kr-harness/publication/2026-10-18/ch06/source.md"
+    ],
+    "matches": "13:**검진과 검진에서 나오는 가벼운 이상**: 전신 PET-CT와 종양 표지자 패키지 제7항(전신 PET-CT), 일반 검진 패키지 제18항(일반 검진 패키지), 요산이 높지만 아픈 적 없으면 약 먹지 않기 제19항(요산강하제), 담석이 있지만 아픈 적 없으면 잘라내지 않기 제20항(담낭에 돌), 신결석 예방한다고 칼슘 끊지 않기 제21항(칼슘을 끊지).\n69:### 7. 증상 없는 사람이 '전신 PET-CT'나 '종양 표지자 패키지'를 받지 마세요\n71:- 비용: 전신 PET-CT 한 번에 백만 원대가 듭니다. 비급여 공시 기준 전신 촬영 비용은 약 110만 원입니다. 검사 때 전리방사선에도 노출됩니다. 종양 표지자 패키지에도 따로 돈이 듭니다. 한국 시세는 TODO 확인 필요. 검사 뒤에도 비용이 듭니다. 검사에서 찾은 '이상'이 위양성일 수 있습니다. 실제로는 문제가 없는데 이상이 있다고 나온 경우입니다. 이후 재검사, 조직검사, 수술로 돈과 수고가 듭니다.\n164:- 비고: 연례 패키지를 병 예방 수단으로 삼지 마세요. 모든 검사를 피하라는 말은 아닙니다. 국가는 암검진을 받는 사람 가운데 의료급여수급자와 대통령령으로 정하는 건강보험가입자에게 비용의 전부 또는 일부를 지원할 수 있습니다(「암관리법」 제11조 제4항). 위내시경 때 수면내시경이나 헬리코박터 검사를 더하면 그 비용은 본인이 냅니다. 내가 대상인지, 본인이 내는 몫이 있는지는 국민건강보험공단이 보낸 안내문으로 확인하세요. 검사할 이유가 있는 항목은 받으세요. 위험 행동이 있었다면 검사를 받으세요. 근거 있는 검진은 제1절(너무 일찍 죽지 않기)에서 항목별로 다룹니다. 혈압·혈당·B형간염 검사와 유방·자궁경부·대장 검진이 들어갑니다. 헬리코박터균 검사, 저선량 CT, 65세 이상 여성의 골밀도 검사도 들어갑니다. 위험 행동 뒤에 받을 검사와 검진 나이·주기도 그곳에 적습니다. 회사가 마련하거나 남이 돈을 내는 검진은 받으세요. 자기 돈으로 패키지를 사고 검사를 추가하지 마세요. 만성병이나 증상 때문에 받는 검사는 여기에 해당하지 않습니다. 의사가 질병에 따라 지시한 검사도 제외합니다. 이런 검사는 검진이 아니라 진료입니다. 패키지에서 흔히 쓰지만 근거가 없는 항목은 종양 표지자입니다. 전신 영상검사도 근거가 없습니다. 해당 검사는 제7항(전신 PET-CT)을 보세요. 요산만 높고 아픈 적이 없다면 제19항(요산강하제)을 보세요. 담석이 있고 아픈 적이 없다면 제20항(담낭에 돌)을 보세요. 코크런이 모은 시험은 대부분 고소득 국가에서 진행됐습니다. 이들 국가는 의료 접근성이 좋았습니다. 의료 자원이 부족한 지역에 이 결론을 그대로 적용하지 마세요.\n256:1. 제7항(전신 PET-CT): 종양 표지자 패키지의 한국 시세(1차 출처).\n",
+    "result": "Both literal title anchors retained; no title shortening."
+  },
+  "narrative_sentence_lengths": {
+    "비용": [
+      26,
+      32,
+      19,
+      23,
+      33,
+      15,
+      26,
+      30,
+      29
+    ],
+    "쉽게": [
+      40,
+      39,
+      30
+    ],
+    "이득": [
+      34,
+      37,
+      32,
+      37,
+      25,
+      26,
+      25,
+      30,
+      23,
+      21,
+      24,
+      44,
+      31,
+      41,
+      24,
+      29,
+      20,
+      29,
+      39,
+      23
+    ],
+    "비고": [
+      30,
+      33,
+      37,
+      27,
+      14,
+      29,
+      27,
+      31,
+      36,
+      14
+    ]
+  }
+}

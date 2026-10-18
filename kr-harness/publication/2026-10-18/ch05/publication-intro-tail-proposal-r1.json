@@ -1,0 +1,954 @@
+{
+  "status": "authored_proposal_pending_independent_exact_hash_review",
+  "chapter": 5,
+  "author_scope": "INTRO/TAIL ONLY; no numbered entry, original intro/tail, strict, manifest, approval, public, or git mutation",
+  "base_files": {
+    "intro.md": {
+      "source_sha256": "20eafa153348c8ddb552468dc5f8dfa87bac4e6f358d98e56732013f5fc0abcc",
+      "source_bytes": 2872,
+      "hypothetical_after_sha256": "f74d2b730e1ab02f31fc5f8aba8f85941b2f3e9a006a684824a315e4d3752a52",
+      "hypothetical_after_bytes": 3065,
+      "helper_annotations_included": false
+    },
+    "tail.md": {
+      "source_sha256": "aa8c0b7bfb8f28ea130094633e56edf8fd62d8b3121fd3c6da74f0d62c16421c",
+      "source_bytes": 1591,
+      "hypothetical_after_sha256": "6cb46d3b36626f430612ca9e9994525e8cef832f20246e6f70e40794f16db112",
+      "hypothetical_after_bytes": 2081,
+      "helper_annotations_included": false
+    }
+  },
+  "full45_binding": {
+    "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/author-final-manifest-r1.json",
+    "sha256": "0b2a45d6c061d646784513959640b6e99cc52696bd1a04c377b9ce8000f2741c",
+    "entries_count": 45,
+    "canonical_independent_approval": false,
+    "entries": [
+      {
+        "entry": 1,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-001-5b85/publication-entry-proposal.md",
+        "proposal_sha256": "60c6521067aec4622a1b9d62325b5f48b76c90e02ab4522d08aa7b4a2ee2cc9c",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-001-5b85/publication-entry-changes.json",
+        "changes_sha256": "54d8dac939c2b9421184ac8ff843a68e1218e0cb51e85f47d534b21c5d89559d",
+        "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-001-5b85/strict-entry.md",
+        "base_strict_entry_sha256": "4af5f3acc0f0069083ef618749e85dbcd49e63aa74d574acf472628cbb9950f8",
+        "intro_tail_relation": "full entry controls scope; this proposal does not replace or approve numbered entries"
+      },
+      {
+        "entry": 2,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-002-5644/publication-entry-proposal.md",
+        "proposal_sha256": "a5d4b51b34861cd134d1e60e703e9f35e9d678e00aecde150991af81d8ad6639",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-002-5644/publication-entry-changes.json",
+        "changes_sha256": "6985334a6a3bed5c5b0d49ca7c5267f2d08a9cb21f3d2c884431297dd84ad11a",
+        "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-002-5644/strict-entry.md",
+        "base_strict_entry_sha256": "1695dc03ed0c4275d2be83dbb7e4b1e2d786fd2e8283693617f947016c0480fe",
+        "intro_tail_relation": "full entry controls scope; this proposal does not replace or approve numbered entries"
+      },
+      {
+        "entry": 3,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-003-ebf0/publication-entry-proposal.md",
+        "proposal_sha256": "ce3be8f668dedffceeb3e80e9ac8240c6251a59d113b3cecdef87f5c5eee3340",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-003-ebf0/publication-entry-changes.json",
+        "changes_sha256": "f1c8eaa0d1671182f58da836708f095ff4e79da90f594fdd74cde6074e9c318c",
+        "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-003-ebf0/strict-entry.md",
+        "base_strict_entry_sha256": "6f639cb3cc99982809fded74fdea6198fe88f7494395388d4d631bab7b9d5e6e",
+        "intro_tail_relation": "full entry controls scope; this proposal does not replace or approve numbered entries"
+      },
+      {
+        "entry": 4,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-004-aad2/publication-entry-proposal.md",
+        "proposal_sha256": "73f00af5e53c8c8cbd438437f5818bfecacc30c22534e24ec2b43fc3e3c4aba7",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-004-aad2/publication-entry-changes.json",
+        "changes_sha256": "7c187355985c58cda2b8f93f8b5cf73440f8be567fbd2ca77f1e356fa907e56f",
+        "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-004-aad2/strict-entry.md",
+        "base_strict_entry_sha256": "723842b1d51a96ab3406d60d94f23da885f01df6e1830cb9306b1689e0bed847",
+        "intro_tail_relation": "full entry controls scope; this proposal does not replace or approve numbered entries"
+      },
+      {
+        "entry": 5,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-005-7f82/publication-entry-proposal-r2.md",
+        "proposal_sha256": "0fa60d60525cbc0a376c0002663fe78413ded09958fd2bf67d8b28ba6a7fdf04",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-005-7f82/publication-entry-changes-r2.json",
+        "changes_sha256": "602e5554a5f6cbe67edc8846725800102de542ba2d8092f24b5f4ba1152f84e8",
+        "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-005-7f82/strict-entry.md",
+        "base_strict_entry_sha256": "c2cbaae526bb2be0e3f200dc3b7182609455c593e103a77dbb6481eda3f51b0e",
+        "intro_tail_relation": "full entry controls scope; this proposal does not replace or approve numbered entries"
+      },
+      {
+        "entry": 6,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-006-1972/publication-entry-proposal-r2.md",
+        "proposal_sha256": "8bb10ba9943641c1beb018b82a73877375539af2c16ac586c9dcbd7c37decf8f",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-006-1972/publication-entry-changes-r2.json",
+        "changes_sha256": "436bc4aab424629383fd29a9fd26e9550e7697b20783b055a59c5b54385b9464",
+        "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-006-1972/strict-entry.md",
+        "base_strict_entry_sha256": "e54fdc9d686c1af36b1e93c01f257ff2ada2874649966327fc43e10475ad62f5",
+        "intro_tail_relation": "full entry controls scope; this proposal does not replace or approve numbered entries"
+      },
+      {
+        "entry": 7,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-007-56d5/publication-entry-proposal-r2.md",
+        "proposal_sha256": "c58591505b54731aa65a1d0e622e117c0d1703e9b6e7b4326fc0ed34690dde8e",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-007-56d5/publication-entry-changes-r2.json",
+        "changes_sha256": "112d1209fbe3def325b1cde035bd0c3f8b9fd2ec17ab9070de83edca8cba00f2",
+        "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-007-56d5/strict-entry.md",
+        "base_strict_entry_sha256": "ce3cd09351bc9193c722f5b172bf822a877f7a2c658a0e2ef69782eb187956b8",
+        "intro_tail_relation": "full entry controls scope; this proposal does not replace or approve numbered entries"
+      },
+      {
+        "entry": 8,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-008-a5e5/publication-entry-proposal.md",
+        "proposal_sha256": "a7cf9ba37c957df742794caf5c12eb9f8555f4aa263ac15a052463a6707438fb",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-008-a5e5/publication-entry-changes.json",
+        "changes_sha256": "4a973d3b9cf15ce854f4c28ef0a72be1fbf7411222baf2243125c827f8cdbc08",
+        "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-008-a5e5/strict-entry.md",
+        "base_strict_entry_sha256": "4c145baecf5ae2015100e07f3e5b9a25d97785541f452868e6468def40e97802",
+        "intro_tail_relation": "full entry controls scope; this proposal does not replace or approve numbered entries"
+      },
+      {
+        "entry": 9,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-009-dea2/publication-entry-proposal-r2.md",
+        "proposal_sha256": "3ddb2b861b6a30a63d926f95443d367e40dac73d40587c8372afc810b54a5e1e",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-009-dea2/publication-entry-changes-r2.json",
+        "changes_sha256": "dc9d7ba35ed3da7246a985dd55d7eeadbf0aedf6b2d88fe1767f42bb9bba91a7",
+        "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-009-dea2/strict-entry.md",
+        "base_strict_entry_sha256": "da6e9ea3b21c28d0d964cb35e4e8ad5d9eb2af739f4bf62a93c163ecd4c9206d",
+        "intro_tail_relation": "full entry controls scope; this proposal does not replace or approve numbered entries"
+      },
+      {
+        "entry": 10,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-010-203e/publication-entry-proposal.md",
+        "proposal_sha256": "145ae1b5c7b47bad5b23ba788ab324e780ae2026680ce3952bb54ed53b979214",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-010-203e/publication-entry-changes.json",
+        "changes_sha256": "015aed6282275055ae31761ad4d7d2401384ab65c96844ab1f680ecde758ee95",
+        "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-010-203e/strict-entry.md",
+        "base_strict_entry_sha256": "a1ea43348b335993597d2c800fd55341f0c2ec4669853499332c02bf4cf7663d",
+        "intro_tail_relation": "full entry controls scope; this proposal does not replace or approve numbered entries"
+      },
+      {
+        "entry": 11,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-011-5dc5/publication-entry-proposal-r3.md",
+        "proposal_sha256": "ea2fdc95c844e2c4f2161a0de1b64a13d1930f40173402b6e2a466e83fba1df0",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-011-5dc5/publication-entry-changes-r3.json",
+        "changes_sha256": "244d0fda0e2a3708c119e213f31e1942cc78df0bcf4b87c012eb422e33d2e9ec",
+        "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-011-5dc5/strict-entry.md",
+        "base_strict_entry_sha256": "577d0285b91c6fe8832188e0755bf7cd240ae2ce00c5fc0571f1f7418b5902d8",
+        "intro_tail_relation": "full entry controls scope; this proposal does not replace or approve numbered entries"
+      },
+      {
+        "entry": 12,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-012-6337/publication-entry-proposal-r2.md",
+        "proposal_sha256": "8e71c217e12995e3653fe3439f8a31eba6df5ea6f1af24139153432b8c0c0a4d",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-012-6337/publication-entry-changes-r2.json",
+        "changes_sha256": "15ad78a189e0b61e8de708e655d07c81c4431a754a5ac8716050d604ab48f6fe",
+        "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-012-6337/strict-entry.md",
+        "base_strict_entry_sha256": "568fddd18cd68009b39cf57735284f00a04ff4250f0df39d053c4ca1d5727159",
+        "intro_tail_relation": "full entry controls scope; this proposal does not replace or approve numbered entries"
+      },
+      {
+        "entry": 13,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-013-1bd0/publication-entry-proposal-r3.md",
+        "proposal_sha256": "36a12daf36f0029e793e5613e159012a0112c3b75b4d68f1334f50a0c94347ce",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-013-1bd0/publication-entry-changes-r3.json",
+        "changes_sha256": "bc77d8d37d3c7089f7bc72fb2c413d00440e845bb7fb17adb962f27cdb7f625d",
+        "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-013-1bd0/strict-entry.md",
+        "base_strict_entry_sha256": "54bd4c665f6605e9f0ae4e3ccf23bba871c8cbe8289095af7b219c60c97a4a51",
+        "intro_tail_relation": "full entry controls scope; this proposal does not replace or approve numbered entries"
+      },
+      {
+        "entry": 14,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-014-cbd8/publication-entry-proposal-r2.md",
+        "proposal_sha256": "7fb3be05879b9683b7fc5a20895a684cb426d68cb0b83a4ba288cf6bcd82d77b",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-014-cbd8/publication-entry-changes-r2.json",
+        "changes_sha256": "b6f5aa1482bbb5828c74608fd384da4ff12adb104a59ff484d785e2490df7492",
+        "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-014-cbd8/strict-entry.md",
+        "base_strict_entry_sha256": "a762d880a8ee97110e61016ef4d40316571dd49d59f370fd4eecc5979e578dc3",
+        "intro_tail_relation": "full entry controls scope; this proposal does not replace or approve numbered entries",
+        "binding_status": "14r2 exact bytes now supplied by frozen final map; independent canonical review pending"
+      },
+      {
+        "entry": 15,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-015-5516/publication-entry-proposal-r2.md",
+        "proposal_sha256": "0be75e5d5cc09498f2b17ee7cb51cdd955a8ad72e0beb54714ddc25465aa38a7",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-015-5516/publication-entry-changes-r2.json",
+        "changes_sha256": "8ea02e59c9a14990cdaf7b387ebbdf1ef6dc778e5fbeaee8866330d147cc2b18",
+        "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-015-5516/strict-entry.md",
+        "base_strict_entry_sha256": "57f8a2b201b7671adf5ec976b67d3d81e6fd6bb2649ea636f0d7dd2df89ebd3b",
+        "intro_tail_relation": "full entry controls scope; this proposal does not replace or approve numbered entries"
+      },
+      {
+        "entry": 16,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-016-d3f4/publication-entry-proposal.md",
+        "proposal_sha256": "0f60fcdeb61a6a0271b5e7f2f4add1476408ad0e5501ca12bbc0506172b65e6d",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-016-d3f4/publication-entry-changes.json",
+        "changes_sha256": "0f22b79de211c0f322afbd72bbb8be26ba982b14321a078bf96368e6b539edc5",
+        "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-016-d3f4/strict-entry.md",
+        "base_strict_entry_sha256": "4f8a9679d67ee4dd63f7ddf8238b6943c0b2efcaa9a0ba2a6fa6a1e6e857f051",
+        "intro_tail_relation": "full entry controls scope; this proposal does not replace or approve numbered entries"
+      },
+      {
+        "entry": 17,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-017-a298/publication-entry-proposal.md",
+        "proposal_sha256": "aaa30c77092b137c75d4393dfa0e3a4d117352533073b95369e0ab4975fcf8da",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-017-a298/publication-entry-changes.json",
+        "changes_sha256": "a0e8c16b61817ea234e5389423ae18313490d733285a1d98424abf4e9bec41bd",
+        "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-017-a298/strict-entry.md",
+        "base_strict_entry_sha256": "f366ad28bb1bab050a942da1b5a955a86539d64d032f34d8556ad708877ef9dd",
+        "intro_tail_relation": "full entry controls scope; this proposal does not replace or approve numbered entries"
+      },
+      {
+        "entry": 18,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-018-4a6d/publication-entry-proposal.md",
+        "proposal_sha256": "493c4b5d88aaeb4f3345886a3b354dc63c95b13e558a7d90d513a3bc8656e300",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-018-4a6d/publication-entry-changes.json",
+        "changes_sha256": "e651c3d6fd65a07298112b71618088537a1743bc78028a9e10b489596c09010d",
+        "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-018-4a6d/strict-entry.md",
+        "base_strict_entry_sha256": "20749856487c93b1041260ee7aa9145aec9d320cc51645777efd8cc21264265b",
+        "intro_tail_relation": "full entry controls scope; this proposal does not replace or approve numbered entries"
+      },
+      {
+        "entry": 19,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-019-e28a/publication-entry-proposal.md",
+        "proposal_sha256": "cecce88e0ef4d8755f0f5171bffecb3e8770443919bc4b2e6dd6313875127c51",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-019-e28a/publication-entry-changes.json",
+        "changes_sha256": "33f4b98d0b1dec42d85e0659cebfa0e72ab4126b61684c6f442d7b7846ebb37a",
+        "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-019-e28a/strict-entry.md",
+        "base_strict_entry_sha256": "b475ffb0b9433e46dd368b79e9ab2dbcdd95727c04a0a5b7d808e5b718960bcd",
+        "intro_tail_relation": "full entry controls scope; this proposal does not replace or approve numbered entries"
+      },
+      {
+        "entry": 20,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-020-1e07/publication-entry-proposal-r2.md",
+        "proposal_sha256": "1bfcb5dc54708a7b0ddf8d6b9d0e8206fd66b6d0e604a22b37bb959a9b603a30",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-020-1e07/publication-entry-changes-r2.json",
+        "changes_sha256": "738432a4f57d0439018c5c25743928b4552b03c9669160f68ef24ff5e24badb9",
+        "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-020-1e07/strict-entry.md",
+        "base_strict_entry_sha256": "cc7a781f650cc565929e8a59d1c1534e0363d192c2cd8799e2729e2060a443ee",
+        "intro_tail_relation": "full entry controls scope; this proposal does not replace or approve numbered entries"
+      },
+      {
+        "entry": 21,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-021-5639/publication-entry-proposal.md",
+        "proposal_sha256": "f0b19a3d84b1c0ab13bb8e7c5c6d2ebfaad8a6b28ecdd27142c6b0bf49c6fadb",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-021-5639/publication-entry-changes.json",
+        "changes_sha256": "fce68a60a671b816996b3145529d0786a43c32d026ec349fac6407a704aef168",
+        "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-021-5639/strict-entry.md",
+        "base_strict_entry_sha256": "bc0e2a06786aa29089dd1c518733a52e96f740fbe3e2ff5746e70e16655a4061",
+        "intro_tail_relation": "full entry controls scope; this proposal does not replace or approve numbered entries"
+      },
+      {
+        "entry": 22,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-022-0bc9/publication-entry-proposal-r3.md",
+        "proposal_sha256": "a7c6bb2eef26a061ad8718e79bbcf9d8abc8611db4e4cedd716fa7fabd4feff9",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-022-0bc9/publication-entry-changes-r3.json",
+        "changes_sha256": "d79df5ec9f4c5f2c1abf77c3668660d0f8cf07b91a5fc3782adb8cda7b51660e",
+        "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-022-0bc9/strict-entry.md",
+        "base_strict_entry_sha256": "fa7f1e532862640dd7b0a44dd0c20a6db271383207164528b3ec05f0c4f39077",
+        "intro_tail_relation": "full entry controls scope; this proposal does not replace or approve numbered entries"
+      },
+      {
+        "entry": 23,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-023-3d19/publication-entry-proposal.md",
+        "proposal_sha256": "dfdc72a7076ab7ecbb53262a72f8d0afd898f65bb2a841286dfb125d6ff2b224",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-023-3d19/publication-entry-changes.json",
+        "changes_sha256": "b0a9b7f61337c9029ce425973d19e572c65f8606ffb40421ac3947f7c0503d94",
+        "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-023-3d19/strict-entry.md",
+        "base_strict_entry_sha256": "531b9caaf2f86dc0ecdcecefdfab81346e64f3651f0ebb332f8784c20108956c",
+        "intro_tail_relation": "full entry controls scope; this proposal does not replace or approve numbered entries"
+      },
+      {
+        "entry": 24,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-024-fe95/publication-entry-proposal-r3.md",
+        "proposal_sha256": "c42470180abfc7c239095a1be50310051edaec8b7bab6aeb2ebd1cc1ed1836d7",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-024-fe95/publication-entry-changes-r3.json",
+        "changes_sha256": "c8aca48581b9360eef1204eef29ea5cbbf692ea0d726f4b8ed4c44f878b05bdd",
+        "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-024-fe95/strict-entry.md",
+        "base_strict_entry_sha256": "ad0e55c2941beb39b001355bcf6494e076378002d2f7c4e89d8be40f68bf807e",
+        "intro_tail_relation": "full entry controls scope; this proposal does not replace or approve numbered entries"
+      },
+      {
+        "entry": 25,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-025-efee/publication-entry-proposal-r2.md",
+        "proposal_sha256": "41c8f6289ac760b2c6f60877a4db52ab8fe19f50e340c02cbe0a41b8885168ac",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-025-efee/publication-entry-changes-r2.json",
+        "changes_sha256": "9467434b392f11fe7570a824e289ce7bc64d5e5a140d01b01a555a347c0eed86",
+        "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-025-efee/strict-entry.md",
+        "base_strict_entry_sha256": "f0e9f87f2c0a44da50ae1aa7cc11f6199e652d73a420bd628ce7d28dbad7929c",
+        "intro_tail_relation": "full entry controls scope; this proposal does not replace or approve numbered entries"
+      },
+      {
+        "entry": 26,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-026-69d5/publication-entry-proposal-r2.md",
+        "proposal_sha256": "c90c07337e12cb101dfb9a44b4221d07df20b9af5bd9ed4dafab05c1ea6203fc",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-026-69d5/publication-entry-changes-r2.json",
+        "changes_sha256": "831da4a3a57220ac28f50270a885456c2a64b1a0767a5f4a837e1ec7b6f867f5",
+        "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-026-69d5/strict-entry.md",
+        "base_strict_entry_sha256": "9a012f29134f3ba82f89c22fdfcfbbd40360ee8d8070752ec46ff70f85e9d546",
+        "intro_tail_relation": "full entry controls scope; this proposal does not replace or approve numbered entries"
+      },
+      {
+        "entry": 27,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-027-f062/publication-entry-proposal.md",
+        "proposal_sha256": "e117af9c2bea8ccf582e5930047f07101adce86b031603595d1c21e534986388",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-027-f062/publication-entry-changes.json",
+        "changes_sha256": "fce2d4161cb0a2aa823931f8ff02fe2949e6acf4f5b442ed830ebed7ab5b358c",
+        "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-027-f062/strict-entry.md",
+        "base_strict_entry_sha256": "ce5aa2177c10224a0295b5d1b4a1c33142fdda281f185183e5c60f459e2069c0",
+        "intro_tail_relation": "full entry controls scope; this proposal does not replace or approve numbered entries"
+      },
+      {
+        "entry": 28,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-028-d213/publication-entry-proposal.md",
+        "proposal_sha256": "73f5e715b15e1787ae84584a8106f4ed9e3a754bc8bae0d2ec70be833c04241a",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-028-d213/publication-entry-changes.json",
+        "changes_sha256": "3d781f518e2730e0c53c9c472abff59e9ac05f91c0105821f66024b3fa74b940",
+        "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-028-d213/strict-entry.md",
+        "base_strict_entry_sha256": "9de316aa3ca3c38b4941a9791a96b0c0b4bf3e3ed803deb290ab9439ff66ad0c",
+        "intro_tail_relation": "full entry controls scope; this proposal does not replace or approve numbered entries"
+      },
+      {
+        "entry": 29,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-029-09a7/publication-entry-proposal-r2.md",
+        "proposal_sha256": "321af8111a367f4dff0d0263b7aed950e2da348f3fc623eddf4fdb2873451dac",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-029-09a7/publication-entry-changes-r2.json",
+        "changes_sha256": "d5695750a5bc2d822d3d869cda3f84e930e2e74cf04ab6a43c1d540356e7de16",
+        "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-029-09a7/strict-entry.md",
+        "base_strict_entry_sha256": "ca6bf38b231ac9a1c98ef037f2ef45fc22fb4a177d239eb6bda9d045f7b745e5",
+        "intro_tail_relation": "full entry controls scope; this proposal does not replace or approve numbered entries"
+      },
+      {
+        "entry": 30,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-030-4334/publication-entry-proposal.md",
+        "proposal_sha256": "fc427cb22dbddeb57f94441b9fe4564f62820842d36cf67d4704e1f90b44763d",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-030-4334/publication-entry-changes.json",
+        "changes_sha256": "f29aa02eef1eb6d2c8dc52507f079ff6f2c4e17a65acf499e2e68ce14a9182dd",
+        "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-030-4334/strict-entry.md",
+        "base_strict_entry_sha256": "40d470cdbdf09ac1a8bdf1a99d991998b4f9d3fdc02a1164859cd0ce79622e6c",
+        "intro_tail_relation": "full entry controls scope; this proposal does not replace or approve numbered entries"
+      },
+      {
+        "entry": 31,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-031-3235/publication-entry-proposal-r3.md",
+        "proposal_sha256": "f1bfdd5c890cb1da91191a11b70caa8dbe047d31d7153d90d7fcb07b65d4734e",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-031-3235/changes-r3.json",
+        "changes_sha256": "732725402034c2c60abd342e2b147fe55addd9b9ac908d8034f479f99b13538e",
+        "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-031-3235/strict-entry.md",
+        "base_strict_entry_sha256": "900eb61d65809842c09a6fd8d8073535184c9a2aa879ed67bf0b58d0ce0c7d4e",
+        "intro_tail_relation": "full entry controls scope; this proposal does not replace or approve numbered entries"
+      },
+      {
+        "entry": 32,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-032-8322/publication-entry-proposal.md",
+        "proposal_sha256": "415b2f3763f986bb3db002942a17b211a7c7e24f1a82f8591699c206ddbe345f",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-032-8322/publication-entry-changes.json",
+        "changes_sha256": "525d3dfedb7a2ca6a2a87732011783bcf4a008f75ad1611ad36ec4a646f24335",
+        "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-032-8322/strict-entry.md",
+        "base_strict_entry_sha256": "5ff3646f3cf746c29d069fc0beb214a721e472509f2d6baa6c565199ffc1bb0c",
+        "intro_tail_relation": "full entry controls scope; this proposal does not replace or approve numbered entries"
+      },
+      {
+        "entry": 33,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-033-8e2f/publication-entry-proposal.md",
+        "proposal_sha256": "d2cb4aaf9e41a65a79b62177a659374ee25e1940432519be90a896e27f6270ba",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-033-8e2f/publication-entry-changes.json",
+        "changes_sha256": "948bf163960ba1479a35ea0d1115eba1e35de98f91e6808cd394d688426a9a0b",
+        "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-033-8e2f/strict-entry.md",
+        "base_strict_entry_sha256": "af393c3d4d602e1f97c0f7aad5a89daae073ad920659574b39c853252986c323",
+        "intro_tail_relation": "full entry controls scope; this proposal does not replace or approve numbered entries"
+      },
+      {
+        "entry": 34,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-034-9bb5/publication-entry-proposal-r2.md",
+        "proposal_sha256": "07235d414516313aa13b8913177ab13d5cc7fb22d6633b52b7d1a1645f979566",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-034-9bb5/publication-entry-changes-r2.json",
+        "changes_sha256": "dc646cad08d29e89c9a1f06aea7edd7b845080a0f48dcace05372f0400e35e36",
+        "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-034-9bb5/strict-entry.md",
+        "base_strict_entry_sha256": "f2467aae76b2512d23fc45bea77846090a6d50e2b91241b87cdc0deaf8a3ce81",
+        "intro_tail_relation": "full entry controls scope; this proposal does not replace or approve numbered entries"
+      },
+      {
+        "entry": 35,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-035-2355/publication-entry-proposal-r4.md",
+        "proposal_sha256": "4d39332f12562e3040206192f28f3b51c5f22329c0a3163a5a1b022542c596bd",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-035-2355/publication-entry-changes-r4.json",
+        "changes_sha256": "ef7c7c5ff901b8e571cdbb24c97e1b2312e5abbca7c52e398304f942d27d6976",
+        "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-035-2355/strict-entry.md",
+        "base_strict_entry_sha256": "dad90d71068f360ac46c64efd6e9bd116cc3bc47109b04c8aed3cf4a1baeb31f",
+        "intro_tail_relation": "full entry controls scope; this proposal does not replace or approve numbered entries"
+      },
+      {
+        "entry": 36,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-036-2880/publication-entry-proposal.md",
+        "proposal_sha256": "bf0c07ae1b0991bb6167f1d9f27de0399e87dd654e463c4a35e6738befdc62b6",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-036-2880/publication-entry-changes.json",
+        "changes_sha256": "03b24659bf492e9dd8b3a3c3c7e0c28ff82c2aa2c8d0aa3af3fdc9857c72fa41",
+        "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-036-2880/strict-entry.md",
+        "base_strict_entry_sha256": "b6ad91b47a45b25794642e67d920b3fa5099429273b636dfd618425dffdbb874",
+        "intro_tail_relation": "full entry controls scope; this proposal does not replace or approve numbered entries"
+      },
+      {
+        "entry": 37,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-037-bfaa/publication-entry-proposal-r2.md",
+        "proposal_sha256": "3157c81446c5b07572216a2b15cf9a32fa9db698f679f1a8892659a1acfe3208",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-037-bfaa/publication-entry-changes-r2.json",
+        "changes_sha256": "cae61d5222ea7f35fefc210c772540470b645b559ea749d9090da4563164c633",
+        "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-037-bfaa/strict-entry.md",
+        "base_strict_entry_sha256": "dce2225dad6fc7cb76ad08ece0f5c55f60ef06191e31908da02c9de9f34564e4",
+        "intro_tail_relation": "full entry controls scope; this proposal does not replace or approve numbered entries"
+      },
+      {
+        "entry": 38,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-038-df3d/publication-entry-proposal-r3.md",
+        "proposal_sha256": "83d6309c40b710296b3c9ec8dc60c219c4091bf5079e027db498c4ef69ba114f",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-038-df3d/publication-entry-changes-r3.json",
+        "changes_sha256": "d5d7ffa3ab16369ceb54ccddb10bb427a91c22a750ce49613f5160f69850ec50",
+        "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-038-df3d/strict-entry.md",
+        "base_strict_entry_sha256": "518f8c97c989f005e85c210f10462a5ba4c1d91d3fc8dc98fd4f976efc0fffed",
+        "intro_tail_relation": "full entry controls scope; this proposal does not replace or approve numbered entries"
+      },
+      {
+        "entry": 39,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-039-de91/publication-entry-proposal.md",
+        "proposal_sha256": "c60007d0336c0a9f9cc572273a580bf9f6882d833e88363587870cea0223d8c2",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-039-de91/publication-entry-changes.json",
+        "changes_sha256": "1f5959e528ffc4e6446fd68ad3841f6f8aed551b43501b72728ed713394b9c7d",
+        "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-039-de91/strict-entry.md",
+        "base_strict_entry_sha256": "b4f8118e34e7e0549a9d3f2e4418aa674e02f354b3153c2d307ea4b19c01a9da",
+        "intro_tail_relation": "full entry controls scope; this proposal does not replace or approve numbered entries"
+      },
+      {
+        "entry": 40,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-040-bee1/publication-entry-proposal.md",
+        "proposal_sha256": "4140ff8a89c176ee64d258fcbaf1572aaa1068da965b1cd95cf2f8fec01e1f41",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-040-bee1/publication-entry-changes.json",
+        "changes_sha256": "440ac929588275fe781dd0aa88a45ee08e46f51d395b7cfbf135394eb67cade0",
+        "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-040-bee1/strict-entry.md",
+        "base_strict_entry_sha256": "fa610e18a8209f1a89df3d1627d11b5b95f1a20ccb8702c9f92eda65bfdbfd2b",
+        "intro_tail_relation": "full entry controls scope; this proposal does not replace or approve numbered entries"
+      },
+      {
+        "entry": 41,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-041-439b/publication-entry-proposal-r3.md",
+        "proposal_sha256": "3fb5f82728b7214582890f21316948928f25badda91c47f4fd9425c1d49f8339",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-041-439b/publication-entry-changes-r3.json",
+        "changes_sha256": "8e4b2cd418be18c6ff6d9cefd919b208aaa665936b9908817cc6984343463529",
+        "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-041-439b/strict-entry.md",
+        "base_strict_entry_sha256": "23e9b61fc4afebb282bcb27081fed4fd58ffb511f7597c4c7ebc36bf02121ca3",
+        "intro_tail_relation": "full entry controls scope; this proposal does not replace or approve numbered entries"
+      },
+      {
+        "entry": 42,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-042-7b88/publication-entry-proposal.md",
+        "proposal_sha256": "f95d1be6a40ea3f4ac97cad4d7fdf57317d0a44425011523d0c819c8a41847d7",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-042-7b88/publication-entry-changes.json",
+        "changes_sha256": "f69197eb45ce373136ad1a0298f93aa88fd42bb0d153be24e56b7360c1155910",
+        "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-042-7b88/strict-entry.md",
+        "base_strict_entry_sha256": "4cfc78209525c0116f63925597846abc4869e0e468a56a97e5609105878dad70",
+        "intro_tail_relation": "full entry controls scope; this proposal does not replace or approve numbered entries"
+      },
+      {
+        "entry": 43,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-043-8784/publication-entry-proposal.md",
+        "proposal_sha256": "fafa2875756a91d03ef8666d3e29a104488dd860dd9d192e364f3dae3486d226",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-043-8784/publication-entry-changes.json",
+        "changes_sha256": "5b1deed20f085c5146ff743826242205d0753e7ab3f19e4239872e87ed291441",
+        "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-043-8784/strict-entry.md",
+        "base_strict_entry_sha256": "e48d95a91b72b1395ee9a8011f6241831f0bcc30076498efd8df512b016b32b9",
+        "intro_tail_relation": "full entry controls scope; this proposal does not replace or approve numbered entries"
+      },
+      {
+        "entry": 44,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-044-5111/publication-entry-proposal-r2.md",
+        "proposal_sha256": "730a7c920f1b46645a4dbe3a029d3a1c0b5a398a5bb84f17152c699fdb8a5264",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-044-5111/publication-entry-changes-r2.json",
+        "changes_sha256": "e008bbbe13b8081c0a3fe922b5e08a0209c55b33525a6abb6370a0cb1f5fc49f",
+        "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-044-5111/strict-entry.md",
+        "base_strict_entry_sha256": "d948a7052fa1880a6d751c8ac6272f4f7f184454493832db82bf796467111733",
+        "intro_tail_relation": "full entry controls scope; this proposal does not replace or approve numbered entries"
+      },
+      {
+        "entry": 45,
+        "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-045-52d1/publication-entry-proposal-r2.md",
+        "proposal_sha256": "c2a722c7337d799c8e31e543fe6717fc15abbd0503d89b768e4e9ee156f01ecd",
+        "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-045-52d1/publication-entry-changes-r2.json",
+        "changes_sha256": "e80d7b9b6d2791358646fe909c0c2a86f7227ab3d1dfc262de383a394029b391",
+        "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-045-52d1/strict-entry.md",
+        "base_strict_entry_sha256": "56ac275c5e66a4f03da2598a5a8d8b3931648b20844ce74599045ca2c148efb5",
+        "intro_tail_relation": "full entry controls scope; this proposal does not replace or approve numbered entries"
+      }
+    ]
+  },
+  "operations": [
+    {
+      "target": "intro.md",
+      "scope": "exact_unique_span",
+      "before": "얼마를 아끼는지, 해마다 수익이 얼마나 벌어지는지, 한 덩이 돈을 오래 굴렸을 때 평균 얼마가 돌아오는지도 봅니다.",
+      "after": "절약할 돈과 해마다 달라지는 수익을 봅니다. 목돈을 오래 굴리는 셈도 살펴봅니다.",
+      "reason": "긴 일반문장을 나눠 세후수익·가정계산과 실제자료를 혼동하지 않도록 안내합니다.",
+      "related_entries": [
+        18,
+        19,
+        28
+      ],
+      "supersession": "Replaces only this original intro span after separate independent approval; numbered full entries remain independently selected."
+    },
+    {
+      "target": "intro.md",
+      "scope": "exact_unique_span",
+      "before": "투자 항목은 셈하는 법만 다루고, 확인된 과거 자료만 씁니다.",
+      "after": "투자 항목은 과거 자료와 가정을 밝힌 계산을 다룹니다. 자료의 범위와 확인하지 못한 내용도 함께 적습니다.",
+      "reason": "전체full은 법령·실천조언·가상계산도 포함하므로 과거확인자료만이라는 절대표현을 해소합니다.",
+      "related_entries": [
+        11,
+        16,
+        17,
+        18,
+        19,
+        37,
+        45
+      ],
+      "supersession": "Replaces only this original intro span after separate independent approval; numbered full entries remain independently selected."
+    },
+    {
+      "target": "intro.md",
+      "scope": "exact_unique_span",
+      "before": "전자제품 연장보증 거절(제11항)",
+      "after": "전자제품 연장보증의 조건·기대비용 비교(제11항)",
+      "reason": "최대1회·전액보장 가정과 기존보장 중복을 비교하는 full의 범위를 반영합니다.",
+      "related_entries": [
+        11
+      ],
+      "supersession": "Replaces only this original intro span after separate independent approval; numbered full entries remain independently selected."
+    },
+    {
+      "target": "intro.md",
+      "scope": "exact_unique_span",
+      "before": "수돗물 끓여 마시기(제14항)",
+      "after": "평소 수돗물 끓여 마시기·이상 시 음용 중단(제14항)",
+      "reason": "14r2의 이상 수질 음용금지와 평시권고를 구별합니다.",
+      "related_entries": [
+        14
+      ],
+      "supersession": "Replaces only this original intro span after separate independent approval; numbered full entries remain independently selected."
+    },
+    {
+      "target": "intro.md",
+      "scope": "exact_unique_span",
+      "before": "헬스장 1회권(제21항)",
+      "after": "이용 기록에 맞춘 헬스장 이용권(제21항)",
+      "reason": "1년 초과 꾸준한 이용 기록의 예외와 실제가격 비교를 보존합니다.",
+      "related_entries": [
+        21
+      ],
+      "supersession": "Replaces only this original intro span after separate independent approval; numbered full entries remain independently selected."
+    },
+    {
+      "target": "intro.md",
+      "scope": "exact_unique_span",
+      "before": "큰 지출에 냉각기(제23항)",
+      "after": "큰 지출 냉각기·온라인 청약철회 조건(제23항)",
+      "reason": "냉각기 경험칙과 온라인 법정권리의 예외를 구별합니다.",
+      "related_entries": [
+        23
+      ],
+      "supersession": "Replaces only this original intro span after separate independent approval; numbered full entries remain independently selected."
+    },
+    {
+      "target": "intro.md",
+      "scope": "exact_unique_span",
+      "before": "자동차보험 대인·대물(제26항)",
+      "after": "자동차보험 대인·대물과 추가 의무보험(제26항)",
+      "reason": "사업용 추가의무보험을 포함하는 full 범위를 반영합니다.",
+      "related_entries": [
+        26
+      ],
+      "supersession": "Replaces only this original intro span after separate independent approval; numbered full entries remain independently selected."
+    },
+    {
+      "target": "intro.md",
+      "scope": "exact_unique_span",
+      "before": "감당 못 할 손실만 보험(제39항)",
+      "after": "감당 못 할 손실의 보험·건강보험 제외(제39항)",
+      "reason": "국민건강보험을 제외한 경험칙 범위를 보존합니다.",
+      "related_entries": [
+        39
+      ],
+      "supersession": "Replaces only this original intro span after separate independent approval; numbered full entries remain independently selected."
+    },
+    {
+      "target": "intro.md",
+      "scope": "exact_unique_span",
+      "before": "돈 버는 사람의 정기보험(제40항)",
+      "after": "소득에 기대는 가족이 있을 때 정기보험(제40항)",
+      "reason": "소득의존 가족 조건을 요약 안내에도 보존합니다.",
+      "related_entries": [
+        40
+      ],
+      "supersession": "Replaces only this original intro span after separate independent approval; numbered full entries remain independently selected."
+    },
+    {
+      "target": "tail.md",
+      "scope": "whole_original_tail_exact_span",
+      "before": "\n\n## TODO 확인 필요\n\n- 한국의 연간 복권 판매액(복권위원회 공식 통계) — 2026-10-10 bokgwon.go.kr 503 오류(제5항).\n- 금융감독원의 유사수신·고수익 투자 소비자경보 — 2026-10-08~10-10 금감원 누리집 시스템 점검(제6항).\n- 한국 이용자 1인당 게임·라이브 방송 후원 지출 공식 통계(제8항).\n- 청소년 대상 사기 수법을 정리한 경찰청·금융감독원 공식 자료(원문 제10항의 중국 사례 6건에 대응) — 경찰청 누리집 검색 결과 없음, counterscam112.go.kr 503(제10항).\n- 스마트초이스(통신요금정보포털) 운영 주체 문구 — 첫 화면 본문에서 확인하지 못함(제4항).\n- 한국 수돗물 사고(2019년 인천 적수 사태 등) 정부 조사 보고서 원문(제14항).\n- 한국 시장 SPIVA 통계가 있는지(제17항).\n- 한국 펀드의 평균 총보수 공식 통계(제18항).\n- 국가기술표준원 연간 제품 안전성조사 불합격률(제32항).\n- 보석 감정서 발급 자격이나 법정 표지를 정한 한국 법령·고시 — 법령명 검색(\"귀금속\", \"보석\")에서 찾지 못함(제34항).\n- 「식품첨가물의 기준 및 규격」의 냉동수산물 인산염 사용 기준(제36항).\n- 은행 보험 판매 때 고령자 보호 조항(원문 65세 이상 규정에 대응하는 한국 조항)(제42항).\n- 금융감독원의 \"보험 해지·민원 대행\" 업자 경보(제43항).\n- 금융정보분석원 가상자산사업자 신고 현황 공지 주소 — 2026-10-10 kofiu.go.kr 오류 페이지(제45항).\n",
+      "after": "\n\n## 추가 확인과 확인 범위\n\n아래는 기존 확인 과제 14개의 현재 범위입니다.\n확인한 내용과 아직 확인하지 못한 내용을 구분했습니다.\n\n- 제5항: 한국의 연간 복권 판매액 공식 통계는 미확인입니다.\n- 제6항: 금융감독원의 유사수신·고수익 투자 경보는 미확인입니다.\n- 제8항: 한국 이용자의 게임·방송 후원 지출 공식 통계는 미확인입니다.\n- 제10항: 청소년 사기 수법을 묶은 한국 공식 자료는 미확인입니다. 공식 통합대응 누리집 확인과는 별개입니다.\n- 제4항: 스마트초이스 운영 주체의 정확한 문구는 미확인입니다. 요금 비교 화면과 1372 통화료는 확인했습니다.\n- 제14항: 한국 수돗물 사고의 정부 조사 보고서 원문은 미확인입니다. 인천 요금표 확인과는 별개입니다.\n- 제17항: 한국 대형주 액티브 펀드의 SPIVA 표를 확인했습니다. 2025년 6월 말 종료 기준 1·3·5년 자료입니다. 비교 지수는 S&P Korea BMI입니다. 모든 한국 펀드나 미래 수익으로 확대할 수 없습니다.\n- 제18항: 한국 펀드의 평균 총보수 공식 통계는 미확인입니다.\n- 제32항: 국가기술표준원의 연간 안전성조사 불합격률은 미확인입니다. 인증·리콜 조회 메뉴 확인과는 별개입니다.\n- 제34항: 보석 감정서 발급 자격·법정 표지의 한국 규정은 미확인입니다. 귀금속 교환·환급 기준 확인과는 별개입니다.\n- 제36항: 한국 식품첨가물 기준의 수산물 인산염 허용량은 미확인입니다. 표시 방법과 얼음막 제외 중량 기준은 확인했습니다.\n- 제42항: 원문의 65세 이상 판매 규정에 대응하는 한국 조항은 미확인입니다. 은행 보험 판매 고지 의무 확인과는 별개입니다.\n- 제43항: 보험 해지·민원 대행 업자에 대한 금감원 경보는 미확인입니다.\n- 제45항: 금융정보분석원 가상자산사업자 신고 현황 공지 주소는 미확인입니다.\n",
+      "reason": "기존14개 주제를 모두 보존하되17의 미열람 상태를 실제확인범위로 갱신합니다. 과거 접속오류를 현재 오류로 주장하지 않습니다. 다른 한국 통계·경보·가격·정책 미확인은 유지합니다. 배너의 TODO14는 보호된 이력이며 현재 미해결개수로 재해석하지 않습니다.",
+      "related_entries": [
+        4,
+        5,
+        6,
+        8,
+        10,
+        14,
+        17,
+        18,
+        32,
+        34,
+        36,
+        42,
+        43,
+        45
+      ],
+      "supersession": "Only separately approved tail replaces original tail; original canonical files and previous reviews remain immutable."
+    }
+  ],
+  "sentence_measurements": [
+    {
+      "text": "절약할 돈과 해마다 달라지는 수익을 봅니다.",
+      "python_len": 24
+    },
+    {
+      "text": "목돈을 오래 굴리는 셈도 살펴봅니다.",
+      "python_len": 20
+    },
+    {
+      "text": "투자 항목은 과거 자료와 가정을 밝힌 계산을 다룹니다.",
+      "python_len": 30
+    },
+    {
+      "text": "자료의 범위와 확인하지 못한 내용도 함께 적습니다.",
+      "python_len": 28
+    },
+    {
+      "text": "아래는 기존 확인 과제 14개의 현재 범위입니다.",
+      "python_len": 27
+    },
+    {
+      "text": "확인한 내용과 아직 확인하지 못한 내용을 구분했습니다.",
+      "python_len": 30
+    },
+    {
+      "text": "한국의 연간 복권 판매액 공식 통계는 미확인입니다.",
+      "python_len": 28
+    },
+    {
+      "text": "금융감독원의 유사수신·고수익 투자 경보는 미확인입니다.",
+      "python_len": 30
+    },
+    {
+      "text": "한국 이용자의 게임·방송 후원 지출 공식 통계는 미확인입니다.",
+      "python_len": 34
+    },
+    {
+      "text": "청소년 사기 수법을 묶은 한국 공식 자료는 미확인입니다.",
+      "python_len": 31
+    },
+    {
+      "text": "공식 통합대응 누리집 확인과는 별개입니다.",
+      "python_len": 23
+    },
+    {
+      "text": "스마트초이스 운영 주체의 정확한 문구는 미확인입니다.",
+      "python_len": 29
+    },
+    {
+      "text": "요금 비교 화면과 1372 통화료는 확인했습니다.",
+      "python_len": 27
+    },
+    {
+      "text": "한국 수돗물 사고의 정부 조사 보고서 원문은 미확인입니다.",
+      "python_len": 32
+    },
+    {
+      "text": "인천 요금표 확인과는 별개입니다.",
+      "python_len": 18
+    },
+    {
+      "text": "한국 대형주 액티브 펀드의 SPIVA 표를 확인했습니다.",
+      "python_len": 31
+    },
+    {
+      "text": "2025년 6월 말 종료 기준 1·3·5년 자료입니다.",
+      "python_len": 30
+    },
+    {
+      "text": "비교 지수는 S&P Korea BMI입니다.",
+      "python_len": 24
+    },
+    {
+      "text": "모든 한국 펀드나 미래 수익으로 확대할 수 없습니다.",
+      "python_len": 29
+    },
+    {
+      "text": "한국 펀드의 평균 총보수 공식 통계는 미확인입니다.",
+      "python_len": 28
+    },
+    {
+      "text": "국가기술표준원의 연간 안전성조사 불합격률은 미확인입니다.",
+      "python_len": 31
+    },
+    {
+      "text": "인증·리콜 조회 메뉴 확인과는 별개입니다.",
+      "python_len": 23
+    },
+    {
+      "text": "보석 감정서 발급 자격·법정 표지의 한국 규정은 미확인입니다.",
+      "python_len": 34
+    },
+    {
+      "text": "귀금속 교환·환급 기준 확인과는 별개입니다.",
+      "python_len": 24
+    },
+    {
+      "text": "한국 식품첨가물 기준의 수산물 인산염 허용량은 미확인입니다.",
+      "python_len": 33
+    },
+    {
+      "text": "표시 방법과 얼음막 제외 중량 기준은 확인했습니다.",
+      "python_len": 28
+    },
+    {
+      "text": "원문의 65세 이상 판매 규정에 대응하는 한국 조항은 미확인입니다.",
+      "python_len": 37
+    },
+    {
+      "text": "은행 보험 판매 고지 의무 확인과는 별개입니다.",
+      "python_len": 26
+    },
+    {
+      "text": "보험 해지·민원 대행 업자에 대한 금감원 경보는 미확인입니다.",
+      "python_len": 34
+    },
+    {
+      "text": "금융정보분석원 가상자산사업자 신고 현황 공지 주소는 미확인입니다.",
+      "python_len": 36
+    }
+  ],
+  "evidence_readings": [
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/publication-author-constraints.md",
+      "sha256": "6c76545eef9db9908d22ed111b0919cd26ad3152b38b010f6e8a1451e019cc99",
+      "scope": "actual read audit/review evidence; primary-reading claims remain confined to cited reviewer scope"
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/CONTRACT.md",
+      "sha256": "3ef575d94e5d57c3e01a4a0d86cc9775f7bc090622116517d01ebd7583fd0328",
+      "scope": "actual read audit/review evidence; primary-reading claims remain confined to cited reviewer scope"
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/content-audit.md",
+      "sha256": "79d1a93a2d839eeaa8a96036152aad96f44856a989453601050d34910ca0ece2",
+      "scope": "actual read audit/review evidence; primary-reading claims remain confined to cited reviewer scope"
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/editorial-decisions.json",
+      "sha256": "1e8e0e1878d577ec9554f1af55548eb881f84aa17a5f191f891c785432f37047",
+      "scope": "actual read audit/review evidence; primary-reading claims remain confined to cited reviewer scope"
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/author-final-manifest-r1.json",
+      "sha256": "0b2a45d6c061d646784513959640b6e99cc52696bd1a04c377b9ce8000f2741c",
+      "scope": "actual read audit/review evidence; primary-reading claims remain confined to cited reviewer scope"
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/author-partial-manifest-1.json",
+      "sha256": "f48c939747aa4044b7af8264ed5da8476f00934994b070492d26649fb3902899",
+      "scope": "actual read audit/review evidence; primary-reading claims remain confined to cited reviewer scope"
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/author-partial-manifest-2.json",
+      "sha256": "a7b8b6268646cc1905a6dfdcc2e10b8710f5c7e0736f2c01998e0923fde34faf",
+      "scope": "actual read audit/review evidence; primary-reading claims remain confined to cited reviewer scope"
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/author-partial-manifest-3.json",
+      "sha256": "90d822af9d219542aa40e0f339bde14711d1bce204dbdb49de62d8421857cbb2",
+      "scope": "actual read audit/review evidence; primary-reading claims remain confined to cited reviewer scope"
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/author-partial-manifest-4.json",
+      "sha256": "11aa53cdbe90f34ee8664d3a80e5637ca6fea85e231f9315babe27a6da591ee3",
+      "scope": "actual read audit/review evidence; primary-reading claims remain confined to cited reviewer scope"
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/author-partial-manifest-5.json",
+      "sha256": "0ed539eaa3cf2760fc62838d4359585d382f9ae7f31a3db6fc399a6518100eeb",
+      "scope": "actual read audit/review evidence; primary-reading claims remain confined to cited reviewer scope"
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/author-partial-manifest-6.json",
+      "sha256": "2a432129f9d99d3ff6987d8fc8f417d690b6391d10a96184e9431fb511616053",
+      "scope": "actual read audit/review evidence; primary-reading claims remain confined to cited reviewer scope"
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/author-partial-manifest-7.json",
+      "sha256": "641a883f3879bc9b744bbfbba0c8ceccb3100cd93dbdc042984b6b0ed745ef89",
+      "scope": "actual read audit/review evidence; primary-reading claims remain confined to cited reviewer scope"
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/author-partial-manifest-8.json",
+      "sha256": "e98cb9f17ad3b51a75aa7209a85d7bee177b1df37e2c748b021dd4e52440a60b",
+      "scope": "actual read audit/review evidence; primary-reading claims remain confined to cited reviewer scope"
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/author-partial-reassessment-1.json",
+      "sha256": "6245db8d2e2d2ea7e6a630e03233f186df3595edfd7c405c1561bbc70a8d630f",
+      "scope": "actual read audit/review evidence; primary-reading claims remain confined to cited reviewer scope"
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/author-partial-reassessment-2.json",
+      "sha256": "af2705c1c85ec65c48f8d21bb60b9d4c33935456387190db9adf2afd10820771",
+      "scope": "actual read audit/review evidence; primary-reading claims remain confined to cited reviewer scope"
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/publication-partial-reassessment-review-r1.json",
+      "sha256": "cb273fc2cbfd7672795920db80c8b253e3cceec06454723f93f307f8c61b5341",
+      "scope": "actual read audit/review evidence; primary-reading claims remain confined to cited reviewer scope"
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/publication-partial-reassessment-review-r2.json",
+      "sha256": "dc734c30c940c9f1a84d737e12cc701ca3b5bf3af5cb4413616a8abbf3d47828",
+      "scope": "actual read audit/review evidence; primary-reading claims remain confined to cited reviewer scope"
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/publication-partial-reassessment-review-r3.json",
+      "sha256": "6f746743fabdbfcdc1e923be386f726a046670ffba6d2ff0d359478e765ecb31",
+      "scope": "actual read audit/review evidence; primary-reading claims remain confined to cited reviewer scope"
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/publication-partial-reassessment-review-r4.json",
+      "sha256": "623f78a72ae60d6579d6e5f97acfb81dd5d0185569d8448762c907606de7c61c",
+      "scope": "actual read audit/review evidence; primary-reading claims remain confined to cited reviewer scope"
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/publication-partial-reassessment-review-r5.json",
+      "sha256": "58d7b4a3f747b76d0e9478864f4e6a6cde73ae0e645fd6ac57255b2e36fbad3e",
+      "scope": "actual read audit/review evidence; primary-reading claims remain confined to cited reviewer scope"
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/publication-partial-review-r1.json",
+      "sha256": "2014b7eee3797d3b0336776f2922993b2e21692d6957769743062601acbaee3b",
+      "scope": "actual read audit/review evidence; primary-reading claims remain confined to cited reviewer scope"
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/publication-partial-review-r2.json",
+      "sha256": "ad554ce16a3d8212ded4cf930311a6270ec54904b7e325c3c777489c595ab383",
+      "scope": "actual read audit/review evidence; primary-reading claims remain confined to cited reviewer scope"
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/publication-partial-review-r3.json",
+      "sha256": "7a6e3173c9e3d7b350b1af4de2608ca61f5a239983ab3afce46ab9e111d914d0",
+      "scope": "actual read audit/review evidence; primary-reading claims remain confined to cited reviewer scope"
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/publication-partial-review-r4.json",
+      "sha256": "5c322941160d79bb9e3ddbe164d0fbc7afff0bb662256af8d2bc7863f7561210",
+      "scope": "actual read audit/review evidence; primary-reading claims remain confined to cited reviewer scope"
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/publication-partial-review-r5.json",
+      "sha256": "7f9b521f9b504a81d0b0eeb8464bb35bc0775f2cfbf8ca35a4a02f4eb1832166",
+      "scope": "actual read audit/review evidence; primary-reading claims remain confined to cited reviewer scope"
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/publication-partial-review-r6.json",
+      "sha256": "aa26ce9cf9a3b4c38cff602603cf8dc61082068d8c01506fd00139ddbbf36f7f",
+      "scope": "actual read audit/review evidence; primary-reading claims remain confined to cited reviewer scope"
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/publication-partial-source-supplement-r1.json",
+      "sha256": "a233ada38d2678f3c0c981b0eef1ab068fd40f1fdeb1b99b5966347ce2e6d145",
+      "scope": "actual read audit/review evidence; primary-reading claims remain confined to cited reviewer scope"
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/publication-partial-reassessment-review-r1.md",
+      "sha256": "89327d27adf16e6137871a933a695a85a06d61db8fc71d7b4f355c47eb9c5e78",
+      "scope": "actual read audit/review evidence; primary-reading claims remain confined to cited reviewer scope"
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/publication-partial-reassessment-review-r2.md",
+      "sha256": "6bee8af80627855ccac4bd421cc71727c92988d744c3148918d75fa739e5eb9e",
+      "scope": "actual read audit/review evidence; primary-reading claims remain confined to cited reviewer scope"
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/publication-partial-reassessment-review-r3.md",
+      "sha256": "2d375090bf3e596faad7d5d138d78e9e59f9da091f5cb66d4d63bb1daa875520",
+      "scope": "actual read audit/review evidence; primary-reading claims remain confined to cited reviewer scope"
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/publication-partial-reassessment-review-r4.md",
+      "sha256": "f00338416eebdcf92b1f1784fc3a9636d4e3dc00eb560991b922c2f5425271bc",
+      "scope": "actual read audit/review evidence; primary-reading claims remain confined to cited reviewer scope"
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/publication-partial-reassessment-review-r5.md",
+      "sha256": "3866326e09818daff42212c9e07172e4487d1b7fe0e5019a64cf5affa7679c93",
+      "scope": "actual read audit/review evidence; primary-reading claims remain confined to cited reviewer scope"
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/publication-partial-review-r1.md",
+      "sha256": "6a0ccd2598adf764b1bd4108662be28087e4e9971140fa7560cecba67593b76e",
+      "scope": "actual read audit/review evidence; primary-reading claims remain confined to cited reviewer scope"
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/publication-partial-review-r2.md",
+      "sha256": "46e6d819ee0dceeb0861045121db92568a581ffd2d6c23c53952a0e19569aaf8",
+      "scope": "actual read audit/review evidence; primary-reading claims remain confined to cited reviewer scope"
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/publication-partial-review-r3.md",
+      "sha256": "1fc3936da993f8deba1f9fdccc1e3c59f00f831274d193641630d57f2bf62c85",
+      "scope": "actual read audit/review evidence; primary-reading claims remain confined to cited reviewer scope"
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/publication-partial-review-r4.md",
+      "sha256": "3e64868d630991dce303b423efbe5b2e2615f1c3ef58a8011a93aa85bb8dbd65",
+      "scope": "actual read audit/review evidence; primary-reading claims remain confined to cited reviewer scope"
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/publication-partial-review-r5.md",
+      "sha256": "9fd7bbc9da7861d2cefecc9c2af879dcadb1998b6bdad637c62e609ce4b5b71e",
+      "scope": "actual read audit/review evidence; primary-reading claims remain confined to cited reviewer scope"
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/publication-partial-review-r6.md",
+      "sha256": "da41875600a242c4ca23240ee0538e56d67af1631d85c58d1d295ea97922f4b6",
+      "scope": "actual read audit/review evidence; primary-reading claims remain confined to cited reviewer scope"
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/publication-partial-source-supplement-r1.md",
+      "sha256": "13a96596ed0b785759c756a8ec16667ee84eb8249f4c79862f12c93f3351c9dd",
+      "scope": "actual read audit/review evidence; primary-reading claims remain confined to cited reviewer scope"
+    }
+  ],
+  "primary_reading": {
+    "fresh_http": false,
+    "scope": "SPIVA cached PDF Report1a table and category/benchmark rows directly extracted and read for this author; all other completion statements reuse exact independent review evidence, not fresh primary verification",
+    "artifact_path": "/tmp/ch05e17-archive-1.raw",
+    "artifact_sha256": "dc280f8aca394109f2f0c1df42f9fddc2525a1c53752da79948f819b261ab41b",
+    "quote": "Korea Large-Cap South Korea S&P Korea BMI 23.8 23.9 49.5 43.4",
+    "interpretation": "YTD23.8 kept distinct from1year23.9; tail does not add numeric percentages"
+  },
+  "remaining_limits": [
+    "Protected banner remains byte-exact as legacy status; tail states14 historical topics, not14 unresolved findings.",
+    "14r2 bound after map delivery but pending independent canonical review. 31r3,42,43 likewise do not gain approval here.",
+    "Bioequivalence/insurance price notices(12),16 amendment effective provisions,25/42 variable insurance protection exceptions,32 later amendment status remain reader limitations in selected full entries; not promoted to verified by tail.",
+    "All genuine Korean statistics, warnings, water incident reports, jewelry qualification rules, phosphate limits, senior-sales counterpart and FIU notice address gaps remain unresolved."
+  ],
+  "doi_scope": {
+    "existing_intro_comments": "preserve byte-exact including10.1001/jama.2008.758",
+    "add_drop_authority": "ROOT helper only after exact full45 DOI-set delta and independently approved reasons; this proposal adds or drops no DOI or marker",
+    "application_order": "ROOT approved full45 helper integration first; separately approved exact spans only on a separate publication candidate; recheck DOI accounting and new final whole-chapter review"
+  },
+  "self_approval": false,
+  "integration_authorized": false,
+  "formal_kr_fit_approval": false
+}
