@@ -1,0 +1,35 @@
+{
+  "status": "hold_and_report",
+  "fidelity_violations": [],
+  "residual_findings": [
+    {
+      "metric": "ending_comma_rate",
+      "z_before": 5.84,
+      "z_after": 5.84,
+      "span": "총 당첨금은 로또 전체 판매액의 50%이며, 40% 이상은 복권기금으로 활용",
+      "reason": "유일한 연결어미 뒤 쉼표는 동행복권 직접 인용 내부에 있어 보존. 법령 출처나 설명문 전체를 인용으로 간주하지 않고 개별 쉼표를 대조함."
+    }
+  ],
+  "overediting": [],
+  "correction_count": 0,
+  "body_changed": false,
+  "self_check": {
+    "passed": 6,
+    "total": 6
+  },
+  "gate": {
+    "exit_code": 1,
+    "change_rate": 0.0,
+    "verdict": "WARN"
+  },
+  "comma_audit": {
+    "connective_comma": [
+      "이며, — 직접 인용 내부"
+    ],
+    "other_commas": [
+      "1,000 / 8,145,060 — 수치 자릿수 구분",
+      "제2호, 제129조 / 제6호, 「지방세법」 — 법령 출처 열거, 연결어미 쉼표 아님",
+      "법령 확인(국가법령정보센터), 동행복권 페이지 확인 — 확인 출처 열거, 연결어미 쉼표 아님"
+    ]
+  }
+}

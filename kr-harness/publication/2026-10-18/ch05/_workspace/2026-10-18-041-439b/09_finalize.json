@@ -1,0 +1,92 @@
+{
+  "verdict": "corrected",
+  "independent_judgment": true,
+  "fidelity_violations": [],
+  "remaining_findings": [],
+  "overediting": [],
+  "correction_count": 1,
+  "corrections": [
+    {
+      "category": "C-11",
+      "field": "비고",
+      "before": "숙려기간을 두고, 은행 판매분은",
+      "after": "숙려기간을 두고 은행 판매분은",
+      "reason": "설명문에서 실제 연결어미 뒤 쉼표를 확인. 직접 법률 인용이 아니며 삭제해도 절의 관계·조건·사실 불변."
+    }
+  ],
+  "span_inspection": {
+    "all_fields": [
+      "비용",
+      "쉽게",
+      "이득",
+      "비고"
+    ],
+    "comma_spans": [
+      {
+        "span": "제37조 제1항 제1호, 금융소비자 보호에 관한 감독규정",
+        "judgment": "법령 병렬 인용, C-11 아님; 보존"
+      },
+      {
+        "span": "숙려기간을 두고, 은행 판매분은",
+        "judgment": "실제 편집 가능 C-11; 보정"
+      }
+    ],
+    "direct_legal_quotes": 0,
+    "explanatory_prose_not_blanket_protected": true
+  },
+  "body_character_count": {
+    "before": 1159,
+    "after": 1158
+  },
+  "body_diff": "단 하나의 쉼표 삭제; 그 외 본문 동일",
+  "grade": "A",
+  "self_check": "6/6",
+  "gate": {
+    "genre": "essay",
+    "change_rate": {
+      "rate": 0.0004,
+      "scope": "전문",
+      "verdict": "OK"
+    },
+    "s1_targets": [
+      {
+        "metric": "ending_comma_rate",
+        "z_before": 2.66,
+        "z_after": -0.52,
+        "verdict": "달성"
+      }
+    ],
+    "antithesis": {
+      "before": 0,
+      "after": 0,
+      "verdict": "스킵 (원문 대구 < 5)"
+    },
+    "golden": [],
+    "sentence_touch": {
+      "rate": 0.0345,
+      "touched": 1,
+      "total": 29
+    },
+    "numbers_dropped": [],
+    "modality": {
+      "lost_pairs": [],
+      "uncertain_pairs": [],
+      "counts": {
+        "deontic": {
+          "before": 3,
+          "after": 3
+        },
+        "hedge": {
+          "before": 3,
+          "after": 3
+        }
+      },
+      "verdict": "OK"
+    },
+    "gate": {
+      "verdict": "OK — 수렴",
+      "exit_code": 0
+    }
+  },
+  "input_immutable": true
+}

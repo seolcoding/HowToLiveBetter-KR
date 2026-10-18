@@ -1,0 +1,49 @@
+{
+  "status": "accept",
+  "fidelity_violations": [],
+  "residual_findings": [
+    {
+      "metric": "ending_comma_rate",
+      "z_before": 5.84,
+      "z_after": 5.84,
+      "span": "총 당첨금은 로또 전체 판매액의 50%이며, 40% 이상은 복권기금으로 활용",
+      "reason": "유일한 연결어미 뒤 쉼표는 동행복권 직접 인용 내부에 있어 보존. 법령 출처나 설명문 전체를 인용으로 간주하지 않고 개별 쉼표를 대조함.",
+      "actionable": false
+    }
+  ],
+  "overediting": [],
+  "correction_count": 0,
+  "body_changed": false,
+  "self_check": {
+    "passed": 6,
+    "total": 6
+  },
+  "gate": {
+    "exit_code": 0,
+    "change_rate": 0.0,
+    "verdict": "OK — 수렴",
+    "evidence": "current publication-gates.txt and publication-gates.json; P1 structural N/A; P3 PASS; P5 lost 0"
+  },
+  "comma_audit": {
+    "connective_comma": [
+      "이며, — 직접 인용 내부"
+    ],
+    "other_commas": [
+      "1,000 / 8,145,060 — 수치 자릿수 구분",
+      "제2호, 제129조 / 제6호, 「지방세법」 — 법령 출처 열거, 연결어미 쉼표 아님",
+      "법령 확인(국가법령정보센터), 동행복권 페이지 확인 — 확인 출처 열거, 연결어미 쉼표 아님"
+    ]
+  },
+  "independent_review": {
+    "body_exactly_matches_input": true,
+    "fields_preserved": [
+      "비용",
+      "쉽게",
+      "이득",
+      "비고"
+    ],
+    "meaning_numbers_quotes_conditions": "직접 대조: 원문과 본문 동일. 50%, 1,000원, 500원, 건별 200만원 초과, 3억원 초과분, 세율 20/30/22/33%, 확률 8,145,060분의 1, 날짜와 법령·동행복권 인용 보존.",
+    "previous_hold": "이전 gate WARN 기록은 현재 보고서 OK/exit 0과 불일치하여 판정 메타데이터만 갱신.",
+    "summary_count": 1
+  }
+}
