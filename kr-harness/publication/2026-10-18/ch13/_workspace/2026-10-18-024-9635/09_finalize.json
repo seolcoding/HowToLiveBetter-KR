@@ -1,41 +1,92 @@
 {
   "status": "accept",
+  "decision": "accept",
   "genre": "essay",
-  "backup": "final_pre_finalize.md",
+  "route": "light",
   "fidelity_violations": [],
-  "residual_findings": [
-    {
-      "type": "metric_warning",
-      "metric": "ending_comma_rate",
-      "z_before": 4.56,
-      "z_after": 2.02,
-      "gate_exit": 1,
-      "reason": "Protected attributed FEMA quote contains 멈추고, 엎드리고,; no eligible author C-11 remains."
-    }
-  ],
+  "residual_findings": [],
   "overediting": [],
   "correction_count": 0,
   "accepted_existing_corrections": 2,
+  "summary_updated": true,
   "self_check": {
     "passed": 6,
     "total": 6
   },
   "grade": "B",
   "change_rate": 0.0008,
-  "diagnosis_note": "Light route; no 02_diagnosis.md present. Independently compared original, final, metrics and current gates.",
-  "inspection": {
-    "eligible_author_C11_remaining": 0,
-    "protected_quote": "멈추고, 엎드리고, 구른다",
-    "noun_lists": "대피공간, 경량칸막이 / 다른 세대, 복도, 계단실, 주차장 / 아파트, 기숙사 / 경량칸막이, 완강기 preserved as noun enumerations",
-    "anchors_conditions_hedges_register": "preserved"
+  "independent_review": {
+    "comparison": "Read complete original, final, protected entry_snapshot and historical 09. Only two author-prose commas removed; all other body bytes unchanged. No diagnosis file exists for light route.",
+    "numbers_dates_urls": "119, 1992년 10월, 2026-10-10 and both 제10조 preserved. No URLs in editable input; protected source URLs and heading/evidence grade are outside this run and untouched.",
+    "scope_conditions_negation": "Ownership scope and apartment/dormitory exclusions preserved; heat/smoke checks, alternate route, evacuation impossibility, other-unit fire with no incoming fire/smoke and all conditional warnings preserved.",
+    "quotes_warnings": "All three quoted strings unchanged, including attributed FEMA wording and stop/drop/roll. Elevator prohibition, no reentry for belongings, face covering, older-apartment limitation and equipment checks preserved.",
+    "attribution_limit": "Accepts fidelity and selected classification only; no independent factual/source approval inferred."
+  },
+  "classification_context": {
+    "registry_sha256": "fcaea69ba82f916d15ea8f96d26b58c53af2407dcb82f2d0e5100de78102c89c",
+    "payload_sha256": "66df593473174757e793da0a3c62a6d6e3aeb4ee1fe5196d7e3b3a9df12f2c33",
+    "review_sha256": "f90ce7ca4554ceab917d160978b79ce86863ca189c9f08c06eff31d534b07019",
+    "original_sha256": "e35406db9b7597853b3be829d042373bf269db9070afe66e389c4cbaf0984c4c",
+    "final_body_sha256": "d109b6bfa07ecd32a092ad93342c135e3d04e4fb34d9f5bd709a83a93ca7e291",
+    "final_file_sha256": "0bddfb55e6a05fea4be03a053bf946d80e98b917f2cf9dd97142d42c106ea5d5",
+    "route": "light",
+    "original_path": "_workspace/2026-10-18-024-9635/01_input.txt",
+    "runtime_sha256": {
+      "references/baseline.json": "6b64904daa27c3f759f39a664bf8e7e6c2ea1f9dcacd6d457e97b10f60f43dc5",
+      "references/baseline_v2.json": "b5f1725bd02fb4cc40eece68c5b8f1d7c7655775743196d8fd0bc5978f2ed916",
+      "references/metrics.py": "c17ef0bbb25f24fc1695068a319d421d35e4cffd9a8c277da3ad6a30ea96b8e3",
+      "references/metrics_v2.py": "35aed83e56f8ced583e25ea08d9fbecb8baf15f8bb7f5bb14883a9f7318e374f",
+      "scripts/checks.py": "69a435b3a6549fded25a9796f5cdf01572951fba9feeb85db3bdcc0dd12599ef",
+      "scripts/prepare_monolith_input.py": "3774a9faecf3791057d4c8e887dd222e701d131ac1605ba4de2e76c7c064a9a2",
+      "scripts/quote_context.py": "b3689d1fc321c55bc0d1d6a5985288a34d5ea8d851c67d846321856cf4de788f",
+      "scripts/verify_gates.py": "30ab963d7c9b72cf3f395bd1279ac2e33b58d4ca8b5e099ee25da7aeb5e0c81a"
+    },
+    "protected_quote_count": 2,
+    "reviewed_quote_count": 1,
+    "excluded_quote_chars_before": 42
   },
   "gate": {
-    "exit_code": 1,
-    "P0": "OK",
-    "P1": "warning",
-    "P2": "skip",
-    "P3": "PASS",
-    "P5": "OK"
+    "exit_code": 0,
+    "stdout": "finalizer-reviewed-gate-r1.json",
+    "stderr_exit": "finalizer-reviewed-gate-r1.txt",
+    "command": [
+      "python3",
+      "/workspace/HowToLiveBetter-KR/.claude/skills/humanize-korean/scripts/verify_gates.py",
+      "--before",
+      "_workspace/2026-10-18-024-9635/01_input.txt",
+      "--after",
+      "_workspace/2026-10-18-024-9635/final.md",
+      "--genre",
+      "essay",
+      "--json",
+      "--publication-manifest",
+      "manifest.json",
+      "--quote-registry",
+      "quote-attribution/root-registry-r1.json",
+      "--quote-registry-sha256",
+      "fcaea69ba82f916d15ea8f96d26b58c53af2407dcb82f2d0e5100de78102c89c",
+      "--classification-evidence-dir",
+      "_workspace/2026-10-18-024-9635/classification-finalize-r1"
+    ],
+    "result": {
+      "verdict": "OK — 수렴",
+      "exit_code": 0
+    }
+  },
+  "body_sha256": "d109b6bfa07ecd32a092ad93342c135e3d04e4fb34d9f5bd709a83a93ca7e291",
+  "body_bytes": 2916,
+  "evidence_sha256": {
+    "01_input.txt": "e35406db9b7597853b3be829d042373bf269db9070afe66e389c4cbaf0984c4c",
+    "final.md": "0bddfb55e6a05fea4be03a053bf946d80e98b917f2cf9dd97142d42c106ea5d5",
+    "entry_snapshot.md": "5e1a884f8ba7b4c16fa0bf8416c8888cd7829628754bef294cf299d1b79465c7",
+    "final.md.before-reviewed-classification-r1": "c43166d48dd643ebe834a1f27f0bfa332236e652be5bd113b383fede100cba5f",
+    "09_finalize.json.before-reviewed-classification-r1": "f1e54a6b04f0441c67e2a1bb11cdbba38bbd6a82746eaf504b7d78afacae66fa",
+    "publication-gates.json.before-reviewed-classification-r1": "e40cb09a983361db60d3cc32018e7e038a72339ca86fdc6e08ba396f313f5fe5",
+    "publication-gates.txt.before-reviewed-classification-r1": "49e93d8b66b6c4eda1348a07b9656e40a811df9a5ed88c75871321ea5e75a6f1",
+    "finalizer-reviewed-gate-r1.json": "4477207aa099eac87483dfbede2ac8c99aa5a3a443dd18fb2c545981df2bed84",
+    "finalizer-reviewed-gate-r1.txt": "b813c8ec685493913067fe526ed2ee282aef15778c9eaedd7b1916b8661c4a93",
+    "manifest.json": "cc5dabf1b2aafefa79b7473ad905394ceb61b6c16f7644789ee363b85a8f83aa",
+    "quote-attribution/root-registry-r1.json": "fcaea69ba82f916d15ea8f96d26b58c53af2407dcb82f2d0e5100de78102c89c"
   },
   "publication_gate_files_modified": false
 }

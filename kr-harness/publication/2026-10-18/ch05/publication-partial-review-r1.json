@@ -1,0 +1,2253 @@
+{
+  "status": "completed_partial_25_revisions_required",
+  "scope": "partial25only;not45approval",
+  "manifest_sha256": "f48c939747aa4044b7af8264ed5da8476f00934994b070492d26649fb3902899",
+  "entries": [
+    {
+      "entry": 1,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-001-5b85/publication-entry-proposal.md",
+      "proposal_sha256": "60c6521067aec4622a1b9d62325b5f48b76c90e02ab4522d08aa7b4a2ee2cc9c",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-001-5b85/publication-entry-changes.json",
+      "changes_sha256": "54d8dac939c2b9421184ac8ff843a68e1218e0cb51e85f47d534b21c5d89559d",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-001-5b85/strict-entry.md",
+      "base_strict_entry_sha256": "4af5f3acc0f0069083ef618749e85dbcd49e63aa74d574acf472628cbb9950f8",
+      "variant": "initialfull",
+      "decision": "approve",
+      "length_revision_requests": [],
+      "additional_revision_requests": [],
+      "actual_primary_reading_scope": "전자상거래법13⑥·21의2①4, 시행령20의2, 방문판매법2⑩·30③ 직접 대조. 정당한 사유 및 2개월/갱신의사 예외 복구.",
+      "initial_canonical_findings": [
+        {
+          "entry": 1,
+          "entry_snapshot_sha256": "4af5f3acc0f0069083ef618749e85dbcd49e63aa74d574acf472628cbb9950f8",
+          "status": "candidate_read_no_editorial_proposal",
+          "source_review": "수정 필요: 해지절차 금지의 \"정당한 사유 없이\"가 쉽게·이득에서 빠짐. 법21조의2제1항4호 직접 확인. 30일은 시행령20조의2와 일치. 방문판매 계속계약 통지·예외는 아직 원문 미확인.",
+          "field_decisions": [],
+          "candidate_entry_sha256": "4af5f3acc0f0069083ef618749e85dbcd49e63aa74d574acf472628cbb9950f8",
+          "candidate_review_scope": "Read complete current candidate entry and source snapshot; field approvals do not resolve unverified primary sources or factual corrections in other fields."
+        }
+      ],
+      "canonical_closure": "resolved_with_explicit_reader_limitations",
+      "exact_hashes_rechecked": true,
+      "protected_checks": {
+        "six_labels": true,
+        "tag_preserved": true,
+        "grade_preserved": true,
+        "title_chars": 51,
+        "doi_add": [],
+        "doi_drop": []
+      },
+      "supersession": "This full proposal, if later integrated after approval, supersedes initial field edits for this entry; this review does not apply any operation.",
+      "proposed_operation": {
+        "type": "replace_complete_strict_entry",
+        "before_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-001-5b85/strict-entry.md",
+        "before_sha256": "4af5f3acc0f0069083ef618749e85dbcd49e63aa74d574acf472628cbb9950f8",
+        "after_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-001-5b85/publication-entry-proposal.md",
+        "after_sha256": "60c6521067aec4622a1b9d62325b5f48b76c90e02ab4522d08aa7b4a2ee2cc9c",
+        "separator_policy": "entry body only; preserve surrounding chapter separators; verify entire before entry SHA before replacement",
+        "integration_authorized": false
+      }
+    },
+    {
+      "entry": 2,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-002-5644/publication-entry-proposal.md",
+      "proposal_sha256": "a5d4b51b34861cd134d1e60e703e9f35e9d678e00aecde150991af81d8ad6639",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-002-5644/publication-entry-changes.json",
+      "changes_sha256": "6985334a6a3bed5c5b0d49ca7c5267f2d08a9cb21f3d2c884431297dd84ad11a",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-002-5644/strict-entry.md",
+      "base_strict_entry_sha256": "1695dc03ed0c4275d2be83dbb7e4b1e2d786fd2e8283693617f947016c0480fe",
+      "variant": "initialfull",
+      "decision": "approve",
+      "length_revision_requests": [],
+      "additional_revision_requests": [],
+      "actual_primary_reading_scope": "소득세법59의4②·70·73·137 및 국세기본법45의2 직접 대조. 5년 기산·회사 납부/기한내 지급명세서·2개월은 환급 보장 아님을 확인.",
+      "initial_canonical_findings": [
+        {
+          "entry": 2,
+          "entry_snapshot_sha256": "1695dc03ed0c4275d2be83dbb7e4b1e2d786fd2e8283693617f947016c0480fe",
+          "status": "reviewed_fields_approved_only",
+          "source_review": "소득세법137조(2월정산, 미신고 본인·표준공제),70조(다음해5/1~31),73조(복수근로소득 합산예외),59조의4②(의료비 나이·소득제한 제외)를 조문 확인했습니다. 국세기본법45조의2①·③·⑤는 연말정산/원천징수 세액 납부기한이 지난 뒤5년, 청구후2개월 통지를 명시합니다.⑤에는 원천징수의무자의 지급명세서 기한내 제출 등의 전제도 있어 단순히 모든 미신고자에게 동일 권리로 확대하지 않습니다.③·④상2개월 내 결정을 못 하면 진행상황 및 불복가능 통지도 규정하므로 2개월 안 환급 보장이라는 뜻이 아닙니다.289999법률21987 부칙2026.10.2시행 확인; 280405의 2026.7.1별도시행은 외국납부세액공제 관련으로 이 검토 조문과 구분했습니다.",
+          "field_decisions": [
+            {
+              "proposal_key": "easy",
+              "field": "쉽게",
+              "decision": "approve",
+              "before": "연말정산에서 부양가족, 의료비, 교육비 공제를 빠뜨리면 세금을 더 냅니다. 놓쳤으면 5월 종합소득세 신고 때 넣으세요. 또는 5년 안에 세무서에 세금을 다시 계산해 달라고 청구하세요. 회사 두 곳 이상에서 받은 월급이 합산되지 않았다면 직접 신고해야 합니다.",
+              "after": "빠뜨린 공제는 다음 해 5월 종합소득세 신고 때 넣으세요. 그 뒤에는 연말정산 세액 납부기한이 지난 뒤 5년 안에 경정청구하세요. 두 곳 이상 월급이 합산되지 않았다면 직접 신고해야 합니다.",
+              "before_matches_source_entry": true,
+              "before_matches_candidate_entry": true,
+              "before_occurrences_in_source_entry": 1,
+              "after_chars": 106,
+              "after_sentences": 3,
+              "length_exception_requested": false,
+              "length_exception_accepted": false,
+              "source_entry_sha256": "1695dc03ed0c4275d2be83dbb7e4b1e2d786fd2e8283693617f947016c0480fe",
+              "candidate_entry_sha256": "1695dc03ed0c4275d2be83dbb7e4b1e2d786fd2e8283693617f947016c0480fe",
+              "reason": "5년의 연말정산 납부기한 기산점과 복수 월급 미합산 신고 의무가 실제 세법과 일치합니다. 106자·3문장입니다.",
+              "scope": "Exact proposed wording only. Not full-entry, whole-chapter, publication, or formal KR-FIT approval.",
+              "before_equals_full_source_field": true,
+              "before_equals_full_candidate_field": true,
+              "scope_kind": "whole_field",
+              "direct_field_operation_eligible": true,
+              "operation_base_constraint": "baseline_or_candidate_only_when_whole_field_before_matches"
+            }
+          ],
+          "content_status": "verified_core_with_conditions",
+          "candidate_entry_sha256": "1695dc03ed0c4275d2be83dbb7e4b1e2d786fd2e8283693617f947016c0480fe",
+          "candidate_review_scope": "Read complete current candidate entry and source snapshot; field approvals do not resolve unverified primary sources or factual corrections in other fields."
+        }
+      ],
+      "canonical_closure": "resolved_with_explicit_reader_limitations",
+      "exact_hashes_rechecked": true,
+      "protected_checks": {
+        "six_labels": true,
+        "tag_preserved": true,
+        "grade_preserved": true,
+        "title_chars": 45,
+        "doi_add": [],
+        "doi_drop": []
+      },
+      "supersession": "This full proposal, if later integrated after approval, supersedes initial field edits for this entry; this review does not apply any operation.",
+      "proposed_operation": {
+        "type": "replace_complete_strict_entry",
+        "before_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-002-5644/strict-entry.md",
+        "before_sha256": "1695dc03ed0c4275d2be83dbb7e4b1e2d786fd2e8283693617f947016c0480fe",
+        "after_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-002-5644/publication-entry-proposal.md",
+        "after_sha256": "a5d4b51b34861cd134d1e60e703e9f35e9d678e00aecde150991af81d8ad6639",
+        "separator_policy": "entry body only; preserve surrounding chapter separators; verify entire before entry SHA before replacement",
+        "integration_authorized": false
+      }
+    },
+    {
+      "entry": 3,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-003-ebf0/publication-entry-proposal.md",
+      "proposal_sha256": "ce3be8f668dedffceeb3e80e9ac8240c6251a59d113b3cecdef87f5c5eee3340",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-003-ebf0/publication-entry-changes.json",
+      "changes_sha256": "f1c8eaa0d1671182f58da836708f095ff4e79da90f594fdd74cde6074e9c318c",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-003-ebf0/strict-entry.md",
+      "base_strict_entry_sha256": "6f639cb3cc99982809fded74fdea6198fe88f7494395388d4d631bab7b9d5e6e",
+      "variant": "initialfull",
+      "decision": "revise",
+      "length_revision_requests": [],
+      "additional_revision_requests": [
+        {
+          "kind": "verification_scope",
+          "issue": "독립 재검증이 남은 범위: 조특법95의2와 령95, 소득세법61 대조. 15/17%, 소득·주택·면적·세대·배우자 합산 한도 확인. 적용 부칙 전체 독립 재검증은 완료하지 않음."
+        }
+      ],
+      "actual_primary_reading_scope": "조특법95의2와 령95, 소득세법61 대조. 15/17%, 소득·주택·면적·세대·배우자 합산 한도 확인. 적용 부칙 전체 독립 재검증은 완료하지 않음.",
+      "initial_canonical_findings": [
+        {
+          "entry": 3,
+          "entry_snapshot_sha256": "6f639cb3cc99982809fded74fdea6198fe88f7494395388d4d631bab7b9d5e6e",
+          "status": "candidate_read_no_editorial_proposal",
+          "source_review": "조특법95조의2①: 총급여8000만원이하/종합소득7000만원초과 제외,15%; 총급여5500만원이하/종합소득4500만원초과 제외17%; 월세연1000만원 한도·신청주의 일치. 소득세법61조① 산출세액 초과분 소멸도 일치. 수정필요: 세대원은 세대주가 월세공제뿐 아니라 법87조②·소득세법52조④⑤ 주택공제도 받지 않아야 합니다. 시행령95조②는 기본공제 대상 자녀·손자녀3명이상일 때100㎡이하 특례(또는 기준시가4억원)를 규정하는데 본문에 빠졌습니다. 임대차계약 본인/기본공제대상자 명의·주소일치·부속토지배율 요건도 확인했습니다. 법95조의2②와령95조⑤는 다른 시군구 거주 배우자 추가공제를 부부 월세합계1000만원내 허용합니다. 법21223부칙1·17조는2026.1.1이후 월세지급 적용, 령36127은2026.2.27공포시행(95조 유예목록 아님)으로 현재 적용범위 확인. 쉽게에도 소득·주택요건을 생략해 모든 무주택근로자 공제로 단정하지 않도록 수정 요청.",
+          "field_decisions": [],
+          "content_status": "revision_required",
+          "candidate_entry_sha256": "6f639cb3cc99982809fded74fdea6198fe88f7494395388d4d631bab7b9d5e6e",
+          "candidate_review_scope": "Read complete current candidate entry and source snapshot; field approvals do not resolve unverified primary sources or factual corrections in other fields."
+        }
+      ],
+      "canonical_closure": "partial_or_unresolved_see_requests_and_actual_scope",
+      "exact_hashes_rechecked": true,
+      "protected_checks": {
+        "six_labels": true,
+        "tag_preserved": true,
+        "grade_preserved": true,
+        "title_chars": 48,
+        "doi_add": [],
+        "doi_drop": []
+      },
+      "supersession": "This full proposal, if later integrated after approval, supersedes initial field edits for this entry; this review does not apply any operation."
+    },
+    {
+      "entry": 4,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-004-aad2/publication-entry-proposal.md",
+      "proposal_sha256": "73f00af5e53c8c8cbd438437f5818bfecacc30c22534e24ec2b43fc3e3c4aba7",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-004-aad2/publication-entry-changes.json",
+      "changes_sha256": "7c187355985c58cda2b8f93f8b5cf73440f8be567fbd2ca77f1e356fa907e56f",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-004-aad2/strict-entry.md",
+      "base_strict_entry_sha256": "723842b1d51a96ab3406d60d94f23da885f01df6e1830cb9306b1689e0bed847",
+      "variant": "initialfull",
+      "decision": "revise",
+      "length_revision_requests": [],
+      "additional_revision_requests": [
+        {
+          "kind": "verification_scope",
+          "issue": "독립 재검증이 남은 범위: 전기통신사업법45의2·50·58, 시행령 별표4 실제 본문 및 스마트초이스 홈페이지 대조. 1372 통화료는 별도 운영자료 미확인."
+        }
+      ],
+      "actual_primary_reading_scope": "전기통신사업법45의2·50·58, 시행령 별표4 실제 본문 및 스마트초이스 홈페이지 대조. 1372 통화료는 별도 운영자료 미확인.",
+      "initial_canonical_findings": [
+        {
+          "entry": 4,
+          "entry_snapshot_sha256": "723842b1d51a96ab3406d60d94f23da885f01df6e1830cb9306b1689e0bed847",
+          "status": "reviewed_fields_approved_only",
+          "source_review": "전기통신사업법·시행령·기관명·스마트초이스 직접 미확인. 할인반환금 경고 보존 필요.",
+          "field_decisions": [
+            {
+              "proposal_key": "easy",
+              "field": "쉽게",
+              "decision": "approve",
+              "before": "해마다 지금 요금제를 다시 살펴보세요. 실제로 쓰는 데이터·통화량에 맞는지 확인하세요. 통신사는 정당한 이유 없이 해지를 거부하거나 미루면 안 됩니다. 약정·요금할인 같은 중요한 조건도 설명해야 합니다. 이를 거짓으로 알려도 안 됩니다. 분쟁이 생기면 통신분쟁조정위원회에 조정을 신청하세요.",
+              "after": "해마다 실제 데이터·통화량에 맞게 요금제를 고르세요. 정당한 이유 없는 해지 거부·지연에는 분쟁조정을 신청하세요. 약정·요금할인 조건의 설명 누락·거짓 설명도 통신분쟁조정위원회에 조정을 신청하세요.",
+              "before_matches_source_entry": true,
+              "before_matches_candidate_entry": true,
+              "before_occurrences_in_source_entry": 1,
+              "after_chars": 110,
+              "after_sentences": 3,
+              "length_exception_requested": false,
+              "length_exception_accepted": false,
+              "source_entry_sha256": "723842b1d51a96ab3406d60d94f23da885f01df6e1830cb9306b1689e0bed847",
+              "candidate_entry_sha256": "723842b1d51a96ab3406d60d94f23da885f01df6e1830cb9306b1689e0bed847",
+              "reason": "사용량에 맞춘 선택·정당한 이유 없는 해지 방해·중요 조건 거짓 설명의 범위를 보존합니다. 법령 전체의 현행성 승인과 구분합니다.",
+              "scope": "Exact proposed wording only. Not full-entry, whole-chapter, publication, or formal KR-FIT approval.",
+              "before_equals_full_source_field": true,
+              "before_equals_full_candidate_field": true,
+              "scope_kind": "whole_field",
+              "direct_field_operation_eligible": true,
+              "operation_base_constraint": "baseline_or_candidate_only_when_whole_field_before_matches"
+            }
+          ],
+          "candidate_entry_sha256": "723842b1d51a96ab3406d60d94f23da885f01df6e1830cb9306b1689e0bed847",
+          "candidate_review_scope": "Read complete current candidate entry and source snapshot; field approvals do not resolve unverified primary sources or factual corrections in other fields."
+        }
+      ],
+      "canonical_closure": "partial_or_unresolved_see_requests_and_actual_scope",
+      "exact_hashes_rechecked": true,
+      "protected_checks": {
+        "six_labels": true,
+        "tag_preserved": true,
+        "grade_preserved": true,
+        "title_chars": 72,
+        "doi_add": [],
+        "doi_drop": []
+      },
+      "supersession": "This full proposal, if later integrated after approval, supersedes initial field edits for this entry; this review does not apply any operation."
+    },
+    {
+      "entry": 5,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-005-7f82/publication-entry-proposal.md",
+      "proposal_sha256": "05d93478b9697f99977379c2fd78a36b54a330fc0fb87fe79a566b5ac95078b5",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-005-7f82/publication-entry-changes.json",
+      "changes_sha256": "0804ced0a1abc0c6abd2f51a2e8551b5a5758eb5969a119d4e5c32a74e032bc8",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-005-7f82/strict-entry.md",
+      "base_strict_entry_sha256": "c2cbaae526bb2be0e3f200dc3b7182609455c593e103a77dbb6481eda3f51b0e",
+      "variant": "initialfull",
+      "decision": "revise",
+      "length_revision_requests": [
+        {
+          "field": "이득",
+          "literal_chars": 72,
+          "sentence": "로또6/45는 \"총 당첨금은 로또 전체 판매액의 50%이며, 40% 이상은 복권기금으로 활용\"됩니다(동행복권 로또6/45 소개).",
+          "required": "문장과인용조항의뜻/조건을유지한채2개이하50자문장으로분리. 인용목록을별도문장으로옮길수있음."
+        },
+        {
+          "field": "이득",
+          "literal_chars": 76,
+          "sentence": "지방소득세까지 합치면 각각 22%와 33%입니다(「소득세법」 제84조 제2호, 제129조 제1항 제6호, 「지방세법」 제103조의13).",
+          "required": "문장과인용조항의뜻/조건을유지한채2개이하50자문장으로분리. 인용목록을별도문장으로옮길수있음."
+        }
+      ],
+      "additional_revision_requests": [],
+      "actual_primary_reading_scope": "소득세법59의3·61의 납입600/900·세율12/15·ISA 추가 한도 대조.",
+      "initial_canonical_findings": [
+        {
+          "entry": 5,
+          "entry_snapshot_sha256": "c2cbaae526bb2be0e3f200dc3b7182609455c593e103a77dbb6481eda3f51b0e",
+          "status": "reviewed_fields_approved_only",
+          "source_review": "판매액 절반의 기대값 계산은 1000×0.5=500으로 확인. 확률·세율·동행복권 현재 1차 원문은 미확인. 비고 \"반드시\"는 개인 실현손실 보장으로 오독될 수 있어 기대값 표현 권장.",
+          "field_decisions": [
+            {
+              "proposal_key": "todo",
+              "field": "비고의 TODO 문장",
+              "decision": "approve",
+              "before": "한국의 한 해 복권 판매액은 공식 자료로 확인하지 못했습니다(TODO).",
+              "after": "한국의 한 해 복권 판매액은 공식 자료로 확인하지 못했습니다.",
+              "before_matches_source_entry": true,
+              "before_matches_candidate_entry": true,
+              "before_occurrences_in_source_entry": 1,
+              "after_chars": 34,
+              "after_sentences": null,
+              "length_exception_requested": false,
+              "length_exception_accepted": false,
+              "source_entry_sha256": "c2cbaae526bb2be0e3f200dc3b7182609455c593e103a77dbb6481eda3f51b0e",
+              "candidate_entry_sha256": "c2cbaae526bb2be0e3f200dc3b7182609455c593e103a77dbb6481eda3f51b0e",
+              "reason": "미확인 상태를 독자용 문장으로 유지하며 TODO 작업표지만 제거합니다. 확인 완료를 주장하거나 미해결 제한을 숨기지 않습니다. 장말 TODO 대조는 별도 승인 사항입니다.",
+              "scope": "Exact proposed wording only. Not full-entry, whole-chapter, publication, or formal KR-FIT approval.",
+              "before_equals_full_source_field": false,
+              "before_equals_full_candidate_field": false,
+              "scope_kind": "exact_substring_within_field",
+              "direct_field_operation_eligible": false,
+              "operation_base_constraint": "baseline_or_candidate_only_when_whole_field_before_matches"
+            }
+          ],
+          "candidate_entry_sha256": "c2cbaae526bb2be0e3f200dc3b7182609455c593e103a77dbb6481eda3f51b0e",
+          "candidate_review_scope": "Read complete current candidate entry and source snapshot; field approvals do not resolve unverified primary sources or factual corrections in other fields."
+        }
+      ],
+      "canonical_closure": "partial_or_unresolved_see_requests_and_actual_scope",
+      "exact_hashes_rechecked": true,
+      "protected_checks": {
+        "six_labels": true,
+        "tag_preserved": true,
+        "grade_preserved": true,
+        "title_chars": 17,
+        "doi_add": [],
+        "doi_drop": []
+      },
+      "supersession": "This full proposal, if later integrated after approval, supersedes initial field edits for this entry; this review does not apply any operation."
+    },
+    {
+      "entry": 6,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-006-1972/publication-entry-proposal.md",
+      "proposal_sha256": "0965ce9f3aba2e9291c82f6cd9f90e4525c36b56cec043f433da82ad292141da",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-006-1972/publication-entry-changes.json",
+      "changes_sha256": "b75862010b98e53bfea23f353e4083fe63d963a17861634db2f295830d55f4d1",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-006-1972/strict-entry.md",
+      "base_strict_entry_sha256": "e54fdc9d686c1af36b1e93c01f257ff2ada2874649966327fc43e10475ad62f5",
+      "variant": "initialfull",
+      "decision": "revise",
+      "length_revision_requests": [
+        {
+          "field": "이득",
+          "literal_chars": 53,
+          "sentence": "유사수신을 하면 5년 이하 징역 또는 5천만원 이하 벌금입니다(같은 법 제3조·제4조·제6조).",
+          "required": "문장과인용조항의뜻/조건을유지한채2개이하50자문장으로분리. 인용목록을별도문장으로옮길수있음."
+        }
+      ],
+      "additional_revision_requests": [],
+      "actual_primary_reading_scope": "유사수신법2·6, 자본시장법55 실제 본문 확인. 광고와 실제 수신의 벌칙 구별.",
+      "initial_canonical_findings": [
+        {
+          "entry": 6,
+          "entry_snapshot_sha256": "e54fdc9d686c1af36b1e93c01f257ff2ada2874649966327fc43e10475ad62f5",
+          "status": "reviewed_revisions_required",
+          "source_review": "유사수신·손실보전·부당권유 조문 원문 미확인. 합법 예금과 투자 구분은 보존.",
+          "field_decisions": [
+            {
+              "proposal_key": "easy",
+              "field": "쉽게",
+              "decision": "revise",
+              "before": "허가 없이 원금이나 그 이상을 돌려주겠다며 돈을 모으면 범죄입니다. 정식 금융투자회사도 투자 손실을 메워 주겠다고 약속하면 안 됩니다. 이익을 보장하겠다는 약속도 금지합니다. 예금이 아닌 투자에 원금과 높은 수익을 함께 약속하면 의심하세요.",
+              "after": "허가 없이 원금 이상 반환을 약속하며 불특정 다수의 돈을 모으면 범죄입니다. 정식 금융투자회사도 손실 보전이나 이익 보장을 약속하면 안 됩니다. 예금이 아닌 투자에 원금과 높은 수익을 함께 약속하면 의심하세요.",
+              "before_matches_source_entry": true,
+              "before_matches_candidate_entry": true,
+              "before_occurrences_in_source_entry": 1,
+              "after_chars": 117,
+              "after_sentences": 3,
+              "length_exception_requested": false,
+              "length_exception_accepted": false,
+              "source_entry_sha256": "e54fdc9d686c1af36b1e93c01f257ff2ada2874649966327fc43e10475ad62f5",
+              "candidate_entry_sha256": "e54fdc9d686c1af36b1e93c01f257ff2ada2874649966327fc43e10475ad62f5",
+              "reason": "자본시장법55조에는103조③ 및 건전한 거래질서를 해할 우려 없는 정당사유 예외가 있습니다. 금융회사 손실보전/이익보장은 원칙적 금지로 쓰세요. 유사수신은 무인가·불특정다수·업으로모집 조건도 보존해야 합니다.",
+              "scope": "Exact proposed wording only. Not full-entry, whole-chapter, publication, or formal KR-FIT approval.",
+              "before_equals_full_source_field": true,
+              "before_equals_full_candidate_field": true,
+              "scope_kind": "whole_field",
+              "direct_field_operation_eligible": false,
+              "operation_base_constraint": "baseline_or_candidate_only_when_whole_field_before_matches"
+            },
+            {
+              "proposal_key": "todo",
+              "field": "비고의 TODO 문장",
+              "decision": "approve",
+              "before": "이번 누리집 점검에서 금융감독원의 유사수신 경보도 확인하지 못했습니다(TODO).",
+              "after": "이번 누리집 점검에서는 금융감독원의 유사수신 경보를 확인하지 못했습니다. 경보 내용은 추가 확인이 필요합니다.",
+              "before_matches_source_entry": true,
+              "before_matches_candidate_entry": true,
+              "before_occurrences_in_source_entry": 1,
+              "after_chars": 61,
+              "after_sentences": null,
+              "length_exception_requested": false,
+              "length_exception_accepted": false,
+              "source_entry_sha256": "e54fdc9d686c1af36b1e93c01f257ff2ada2874649966327fc43e10475ad62f5",
+              "candidate_entry_sha256": "e54fdc9d686c1af36b1e93c01f257ff2ada2874649966327fc43e10475ad62f5",
+              "reason": "미확인 상태를 독자용 문장으로 유지하며 TODO 작업표지만 제거합니다. 확인 완료를 주장하거나 미해결 제한을 숨기지 않습니다. 장말 TODO 대조는 별도 승인 사항입니다.",
+              "scope": "Exact proposed wording only. Not full-entry, whole-chapter, publication, or formal KR-FIT approval.",
+              "before_equals_full_source_field": false,
+              "before_equals_full_candidate_field": false,
+              "scope_kind": "exact_substring_within_field",
+              "direct_field_operation_eligible": false,
+              "operation_base_constraint": "baseline_or_candidate_only_when_whole_field_before_matches"
+            }
+          ],
+          "candidate_entry_sha256": "e54fdc9d686c1af36b1e93c01f257ff2ada2874649966327fc43e10475ad62f5",
+          "candidate_review_scope": "Read complete current candidate entry and source snapshot; field approvals do not resolve unverified primary sources or factual corrections in other fields."
+        }
+      ],
+      "canonical_closure": "partial_or_unresolved_see_requests_and_actual_scope",
+      "exact_hashes_rechecked": true,
+      "protected_checks": {
+        "six_labels": true,
+        "tag_preserved": true,
+        "grade_preserved": true,
+        "title_chars": 51,
+        "doi_add": [],
+        "doi_drop": []
+      },
+      "supersession": "This full proposal, if later integrated after approval, supersedes initial field edits for this entry; this review does not apply any operation."
+    },
+    {
+      "entry": 7,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-007-56d5/publication-entry-proposal.md",
+      "proposal_sha256": "554897d90502a157be5032fd2b6d9a33545a02fa5e270442cb17d0eb918b1306",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-007-56d5/publication-entry-changes.json",
+      "changes_sha256": "8c327d770fc0409f14fd4fbd8c3be22498bda0763ae5b2776c8aa52357f4b689",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-007-56d5/strict-entry.md",
+      "base_strict_entry_sha256": "ce3cd09351bc9193c722f5b172bf822a877f7a2c658a0e2ef69782eb187956b8",
+      "variant": "initialfull",
+      "decision": "revise",
+      "length_revision_requests": [],
+      "additional_revision_requests": [
+        {
+          "issue": "할부법 현행 조항을 과거 시행판/개정 대비로 확인하거나, 독자 본문의 확정적인 현행 기간·금액·이율 주장을 보류하세요. 미래판과 현행 미확인 비고만으로는 충분하지 않습니다.",
+          "kind": "source_scope"
+        }
+      ],
+      "actual_primary_reading_scope": "대부업법8·8의2·11·15 및 령5·5의2·9, 이자제한법2·3·7 확인. 할부법은 미래 시행 통합본이므로 현행 입증 실패.",
+      "initial_canonical_findings": [
+        {
+          "entry": 7,
+          "entry_snapshot_sha256": "ace65659baaf7c3ac6e32cf4fd47f02ef0580eca5aab497e15c1cdd38f1a7234",
+          "status": "reviewed_fields_approved_only",
+          "source_review": "20%·60% 계약무효·미등록 원금/이자·비용 예외 적용범위 및 시행일 원문 미확인. 쉽게의 \"모두20%\"와 이득의 미등록0% 관계 후속 검토.",
+          "field_decisions": [
+            {
+              "proposal_key": "easy",
+              "field": "쉽게",
+              "decision": "approve",
+              "before": "리볼빙은 다 못 갚은 카드값을 다음 달로 넘기는 빚입니다. 넘긴 금액에 이자가 붙습니다. 카드사·대부업체·개인이 받는 이자는 모두 연 20%가 상한입니다. 수수료도 원칙적으로 이자로 칩니다. 담보권 설정비용 등 법정 제외비용은 예외입니다. 할부는 계약 전에 연 단위 실제 요율을 보여 줘야 합니다. 그 숫자로 비교하세요.",
+              "after": "리볼빙은 못 갚은 카드값을 다음 달로 넘기는 빚입니다. 넘긴 금액에는 이자가 붙습니다. 꼭 빌려야 한다면 연 이율로 비교하고, 할부는 계약 전 실제연간요율을 확인하세요.",
+              "before_matches_source_entry": true,
+              "before_matches_candidate_entry": true,
+              "before_occurrences_in_source_entry": 1,
+              "after_chars": 94,
+              "after_sentences": 3,
+              "length_exception_requested": false,
+              "length_exception_accepted": false,
+              "source_entry_sha256": "ace65659baaf7c3ac6e32cf4fd47f02ef0580eca5aab497e15c1cdd38f1a7234",
+              "candidate_entry_sha256": "ce3cd09351bc9193c722f5b172bf822a877f7a2c658a0e2ef69782eb187956b8",
+              "reason": "리볼빙의 부채·이자와 비교 행동으로 범위를 좁히며 연20%의 일률적 요약은 제거합니다. 이득의 상세 이자 예외를 승인한 것은 아닙니다.",
+              "scope": "Exact proposed wording only. Not full-entry, whole-chapter, publication, or formal KR-FIT approval.",
+              "before_equals_full_source_field": true,
+              "before_equals_full_candidate_field": true,
+              "scope_kind": "whole_field",
+              "direct_field_operation_eligible": true,
+              "operation_base_constraint": "baseline_or_candidate_only_when_whole_field_before_matches"
+            }
+          ],
+          "candidate_entry_sha256": "ce3cd09351bc9193c722f5b172bf822a877f7a2c658a0e2ef69782eb187956b8",
+          "candidate_review_scope": "Read complete current candidate entry and source snapshot; field approvals do not resolve unverified primary sources or factual corrections in other fields."
+        }
+      ],
+      "canonical_closure": "partial_or_unresolved_see_requests_and_actual_scope",
+      "exact_hashes_rechecked": true,
+      "protected_checks": {
+        "six_labels": true,
+        "tag_preserved": true,
+        "grade_preserved": true,
+        "title_chars": 59,
+        "doi_add": [],
+        "doi_drop": []
+      },
+      "supersession": "This full proposal, if later integrated after approval, supersedes initial field edits for this entry; this review does not apply any operation."
+    },
+    {
+      "entry": 9,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-009-dea2/publication-entry-proposal.md",
+      "proposal_sha256": "ae19260854c1d2961a0d5c5f345fca2450b60a34a60bd501b0b382e98e35a911",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-009-dea2/publication-entry-changes.json",
+      "changes_sha256": "21ea42ed9a2561dc9f37606627999f36beae83e467e2fabe020149006dc220eb",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-009-dea2/strict-entry.md",
+      "base_strict_entry_sha256": "da6e9ea3b21c28d0d964cb35e4e8ad5d9eb2af739f4bf62a93c163ecd4c9206d",
+      "variant": "initialfull",
+      "decision": "revise",
+      "length_revision_requests": [
+        {
+          "field": "이득",
+          "literal_chars": 53,
+          "sentence": "취소권은 인정할 수 있게 된 날부터 3년, 결제한 날부터 10년 안에 써야 합니다(제146조).",
+          "required": "문장과인용조항의뜻/조건을유지한채2개이하50자문장으로분리. 인용목록을별도문장으로옮길수있음."
+        }
+      ],
+      "additional_revision_requests": [
+        {
+          "kind": "verification_scope",
+          "issue": "독립 재검증이 남은 범위: 소비자분쟁해결기준 실제 별표와 소비자기본법 시행령 별표를 부분 열람. 품목별 적용의 전체 예외를 독립 완결 확인한 것으로 세지 않음."
+        }
+      ],
+      "actual_primary_reading_scope": "소비자분쟁해결기준 실제 별표와 소비자기본법 시행령 별표를 부분 열람. 품목별 적용의 전체 예외를 독립 완결 확인한 것으로 세지 않음.",
+      "initial_canonical_findings": [
+        {
+          "entry": 9,
+          "entry_snapshot_sha256": "87847b92409a0408c6a9a48ff98ab7998c12d5b28485699af2ed33b288a4eac4",
+          "status": "reviewed_revisions_required",
+          "source_review": "민법4조19세,5조동의없는행위취소,6조범위를정해처분허락한재산,15조①②최고기간1개월이상·법정대리인이기간내확답을발송하지않으면추인간주,17조속임수예외,140조취소권자,141조현존이익,146조추인할수있는날3년/행위날10년 원문 일치. 법15조③ 특별절차가 필요한 행위는 미회신 취소간주여서 모든 경우의 침묵을 추인으로 일반화하지 않아야 합니다. 민법21454부칙 공포시행, 해당 기본조문은 표기된 이전개정이며 미래시행 없음. 부모는 법정대리인 자격으로 취소하는 것이므로 부모라는 사실만으로 자동권한이 있다는 뜻으로 확대하지 않습니다.",
+          "field_decisions": [
+            {
+              "proposal_key": "easy",
+              "field": "쉽게",
+              "decision": "revise",
+              "before": "19세 미만 아이가 부모 동의 없이 결제했다면 취소할 수 있습니다. 아이나 부모가 취소를 요구할 수 있습니다. 다만 부모가 용돈처럼 쓰라고 허락한 돈이면 취소할 수 없습니다. 업체가 기한을 정해 결제를 인정할지 물어 올 수 있습니다. 기한 안에 답하지 않으면 인정한 것으로 봅니다.",
+              "after": "19세 미만 아이가 부모 동의 없이 결제하면 아이나 부모가 취소할 수 있습니다. 허락받은 돈을 쓰거나 성인·부모 동의가 있는 척 속인 경우는 제외됩니다. 업체가 인정 여부를 물으면 기한 안에 답하세요. 답하지 않으면 인정한 것으로 봅니다.",
+              "before_matches_source_entry": true,
+              "before_matches_candidate_entry": true,
+              "before_occurrences_in_source_entry": 1,
+              "after_chars": 133,
+              "after_sentences": 4,
+              "length_exception_requested": true,
+              "length_exception_accepted": false,
+              "source_entry_sha256": "87847b92409a0408c6a9a48ff98ab7998c12d5b28485699af2ed33b288a4eac4",
+              "candidate_entry_sha256": "da6e9ea3b21c28d0d964cb35e4e8ad5d9eb2af739f4bf62a93c163ecd4c9206d",
+              "reason": "미회신 추인간주는 법정대리인에게1개월이상의 기한으로 확답을 요구한 경우입니다. 임의의 업체 기한으로 읽히지 않게 대상과 최소기간을 명시하세요. 길이133자 예외 자체보다 법정 조건 누락이 문제입니다.",
+              "scope": "Exact proposed wording only. Not full-entry, whole-chapter, publication, or formal KR-FIT approval.",
+              "before_equals_full_source_field": true,
+              "before_equals_full_candidate_field": true,
+              "scope_kind": "whole_field",
+              "direct_field_operation_eligible": false,
+              "operation_base_constraint": "baseline_or_candidate_only_when_whole_field_before_matches"
+            }
+          ],
+          "content_status": "verified_core_with_conditions",
+          "candidate_entry_sha256": "da6e9ea3b21c28d0d964cb35e4e8ad5d9eb2af739f4bf62a93c163ecd4c9206d",
+          "candidate_review_scope": "Read complete current candidate entry and source snapshot; field approvals do not resolve unverified primary sources or factual corrections in other fields."
+        }
+      ],
+      "canonical_closure": "partial_or_unresolved_see_requests_and_actual_scope",
+      "exact_hashes_rechecked": true,
+      "protected_checks": {
+        "six_labels": true,
+        "tag_preserved": true,
+        "grade_preserved": true,
+        "title_chars": 68,
+        "doi_add": [],
+        "doi_drop": []
+      },
+      "supersession": "This full proposal, if later integrated after approval, supersedes initial field edits for this entry; this review does not apply any operation."
+    },
+    {
+      "entry": 11,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-011-5dc5/publication-entry-proposal.md",
+      "proposal_sha256": "16b6deedfa7e2acee4788112e0828ec61860e3059820858d6ce1106435e711d1",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-011-5dc5/publication-entry-changes.json",
+      "changes_sha256": "c0bae24b09ea887832b7ab7453c087dc878121bf46ae27b91005865e8d7a66ef",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-011-5dc5/strict-entry.md",
+      "base_strict_entry_sha256": "577d0285b91c6fe8832188e0755bf7cd240ae2ce00c5fc0571f1f7418b5902d8",
+      "variant": "initialfull",
+      "decision": "revise",
+      "length_revision_requests": [
+        {
+          "field": "이득",
+          "literal_chars": 58,
+          "sentence": "품질보증기간은 산 날(인도일이 다르면 인도일)부터 셉니다(「소비자기본법 시행령」 별표 1 제4호 라목).",
+          "required": "문장과인용조항의뜻/조건을유지한채2개이하50자문장으로분리. 인용목록을별도문장으로옮길수있음."
+        },
+        {
+          "field": "이득",
+          "literal_chars": 53,
+          "sentence": "세탁기 모터·냉장고 컴프레서는 3년, 에어컨 컴프레서는 4년입니다(소비자분쟁해결기준 별표 Ⅲ).",
+          "required": "문장과인용조항의뜻/조건을유지한채2개이하50자문장으로분리. 인용목록을별도문장으로옮길수있음."
+        }
+      ],
+      "additional_revision_requests": [
+        {
+          "kind": "verification_scope",
+          "issue": "독립 재검증이 남은 범위: 초기 source 범위를 넘어선 모든 원문을 독립 재열람하지 못함. 저자 출처기록은 원문 확인과 구별."
+        }
+      ],
+      "actual_primary_reading_scope": "초기 source 범위를 넘어선 모든 원문을 독립 재열람하지 못함. 저자 출처기록은 원문 확인과 구별.",
+      "initial_canonical_findings": [
+        {
+          "entry": 11,
+          "entry_snapshot_sha256": "577d0285b91c6fe8832188e0755bf7cd240ae2ce00c5fc0571f1f7418b5902d8",
+          "status": "reviewed_revisions_required",
+          "source_review": "Crossref 제목·DOI 확인만 완료, 본문 없음. 10~50%·18배·BestBuy 이익 수치는 논문 실측 아닌 업계 인용으로 구분됨. 법정 보증기간 직접 미확인.",
+          "field_decisions": [
+            {
+              "proposal_key": "easy",
+              "field": "쉽게",
+              "decision": "revise",
+              "before": "인용한 2000년대 미국 소매자료에서 연장보증 가격은 제품값의 10~50%였습니다. 판매자 이익률은 일반 상품의 18배쯤이었습니다. 한국의 현재 가격·이익률은 아닙니다. 세탁기·냉장고는 기준상 이미 1년, 모터·컴프레서는 3년을 보증합니다. 연장보증 값을 수리 한 번의 비용으로 나누세요. 고장 확률이 그 값보다 높다고 볼 때만 사세요.",
+              "after": "과거 미국 자료의 연장보증 값은 제품값의 10~50%로, 한국의 현재 값은 아닙니다. 기존 보증기간을 빼고 연장보증 값을 수리 1회 비용으로 나누세요. 고장 확률이 그 값보다 클 때만 사세요. 수리비를 감당하기 어렵거나 예비 기기 없는 생계용 기기라면 따로 셈하세요.",
+              "before_matches_source_entry": true,
+              "before_matches_candidate_entry": true,
+              "before_occurrences_in_source_entry": 1,
+              "after_chars": 149,
+              "after_sentences": 4,
+              "length_exception_requested": true,
+              "length_exception_accepted": false,
+              "source_entry_sha256": "577d0285b91c6fe8832188e0755bf7cd240ae2ce00c5fc0571f1f7418b5902d8",
+              "candidate_entry_sha256": "577d0285b91c6fe8832188e0755bf7cd240ae2ce00c5fc0571f1f7418b5902d8",
+              "reason": "10~50%의 정확한 원문 및 업계 추정 인용 범위를 아직 확인하지 못했습니다. 공식 OUP PDF가403이므로 내용 오류로 단정하지 않고 수치 근거 확인 또는 검증된 비수치 요약 뒤 재심합니다. 가격 비교·수리비 감당 예외 보존은 적절합니다.",
+              "scope": "Exact proposed wording only. Not full-entry, whole-chapter, publication, or formal KR-FIT approval.",
+              "before_equals_full_source_field": true,
+              "before_equals_full_candidate_field": true,
+              "scope_kind": "whole_field",
+              "direct_field_operation_eligible": false,
+              "operation_base_constraint": "baseline_or_candidate_only_when_whole_field_before_matches"
+            }
+          ],
+          "candidate_entry_sha256": "577d0285b91c6fe8832188e0755bf7cd240ae2ce00c5fc0571f1f7418b5902d8",
+          "candidate_review_scope": "Read complete current candidate entry and source snapshot; field approvals do not resolve unverified primary sources or factual corrections in other fields."
+        }
+      ],
+      "canonical_closure": "partial_or_unresolved_see_requests_and_actual_scope",
+      "exact_hashes_rechecked": true,
+      "protected_checks": {
+        "six_labels": true,
+        "tag_preserved": true,
+        "grade_preserved": true,
+        "title_chars": 31,
+        "doi_add": [],
+        "doi_drop": []
+      },
+      "supersession": "This full proposal, if later integrated after approval, supersedes initial field edits for this entry; this review does not apply any operation."
+    },
+    {
+      "entry": 12,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-012-6337/publication-entry-proposal.md",
+      "proposal_sha256": "cbcfffce99fff1fbab900ebe225bebc4efaf3381c2fb844a5b45caa20c5c8c9c",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-012-6337/publication-entry-changes.json",
+      "changes_sha256": "4da783c98e2f4c7ad62cdd9cf6e2debc4c8043839c5cd3eba58e7272920082e7",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-012-6337/strict-entry.md",
+      "base_strict_entry_sha256": "568fddd18cd68009b39cf57735284f00a04ff4250f0df39d053c4ca1d5727159",
+      "variant": "initialfull",
+      "decision": "revise",
+      "length_revision_requests": [],
+      "additional_revision_requests": [
+        {
+          "issue": "쉽게의 “처방전을 낸 사람”을 실제 조문 대상인 “처방전을 지닌 사람”으로 고치세요. 의사 통지는 별도 1일/예외3일입니다.",
+          "kind": "source_scope"
+        }
+      ],
+      "actual_primary_reading_scope": "약사법27 실제 대체조제 조건·환자 즉시 통지·의사1일/3일 통지 확인. 임상 논문은 이번 검토에서 전문 재열람하지 않음.",
+      "initial_canonical_findings": [
+        {
+          "entry": 12,
+          "entry_snapshot_sha256": "568fddd18cd68009b39cf57735284f00a04ff4250f0df39d053c4ca1d5727159",
+          "status": "reviewed_revisions_required",
+          "source_review": "JAMA 초록 직접 캐시 열람. 47편·9계열·38RCT·효과크기−0.03/CI−0.15~0.08·사설23/43=53% 일치. 837명 통합분모를 필요시 명시 가능. 한국 대체조제·90%CI/80~125% 조문 미확인. 쉽게에는 의사 대체불가 임상사유 예외 누락 위험.",
+          "field_decisions": [
+            {
+              "proposal_key": "easy",
+              "field": "쉽게",
+              "decision": "revise",
+              "before": "제네릭은 오리지널과 같은 성분의 복제약입니다. 식약처가 동등성을 인정한 제네릭으로 바꿀 수 있습니다. 약사가 바꿀 때 의사 동의는 필요 없습니다. 바꾸면 바로 알려야 합니다. 심장약 연구들을 모아 보면 오리지널이 더 낫다는 근거는 없었습니다.",
+              "after": "같은 성분으로 식약처가 동등성을 인정한 제네릭은 의사 사전 동의 없이 바꿀 수 있습니다. 처방전에 임상적 사유와 대체조제 불가가 적혀 있으면 예외입니다. 바꾸면 약사는 환자에게 즉시 알려야 합니다. 심장약 자료에서는 오리지널이 더 낫다는 근거가 없었습니다.",
+              "before_matches_source_entry": true,
+              "before_matches_candidate_entry": true,
+              "before_occurrences_in_source_entry": 1,
+              "after_chars": 143,
+              "after_sentences": 4,
+              "length_exception_requested": true,
+              "length_exception_accepted": false,
+              "source_entry_sha256": "568fddd18cd68009b39cf57735284f00a04ff4250f0df39d053c4ca1d5727159",
+              "candidate_entry_sha256": "568fddd18cd68009b39cf57735284f00a04ff4250f0df39d053c4ca1d5727159",
+              "reason": "대체조제 주체를 약사로 명시하고 같은 성분·함량·제형 조건을 보존하세요. 임상 사유가 적힌 대체불가 예외 및 즉시 환자통보는 정확합니다.143자 예외는 의학 조건 보존을 위한 합리적 예외이나 주체/동등성 범위는 수정 필요합니다.",
+              "scope": "Exact proposed wording only. Not full-entry, whole-chapter, publication, or formal KR-FIT approval.",
+              "before_equals_full_source_field": true,
+              "before_equals_full_candidate_field": true,
+              "scope_kind": "whole_field",
+              "direct_field_operation_eligible": false,
+              "operation_base_constraint": "baseline_or_candidate_only_when_whole_field_before_matches"
+            }
+          ],
+          "candidate_entry_sha256": "568fddd18cd68009b39cf57735284f00a04ff4250f0df39d053c4ca1d5727159",
+          "candidate_review_scope": "Read complete current candidate entry and source snapshot; field approvals do not resolve unverified primary sources or factual corrections in other fields."
+        }
+      ],
+      "canonical_closure": "partial_or_unresolved_see_requests_and_actual_scope",
+      "exact_hashes_rechecked": true,
+      "protected_checks": {
+        "six_labels": true,
+        "tag_preserved": true,
+        "grade_preserved": true,
+        "title_chars": 46,
+        "doi_add": [],
+        "doi_drop": []
+      },
+      "supersession": "This full proposal, if later integrated after approval, supersedes initial field edits for this entry; this review does not apply any operation."
+    },
+    {
+      "entry": 13,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-013-1bd0/publication-entry-proposal.md",
+      "proposal_sha256": "5cfbbd1a762ce8fbfb3a640e53042684a896973b633a8312e40b9a1bfd03856c",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-013-1bd0/publication-entry-changes.json",
+      "changes_sha256": "4f64aba114ccc1703387fe7df3cfad853913c7552ba2685fec87aeb579700703",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-013-1bd0/strict-entry.md",
+      "base_strict_entry_sha256": "54bd4c665f6605e9f0ae4e3ccf23bba871c8cbe8289095af7b219c60c97a4a51",
+      "variant": "initialfull",
+      "decision": "revise",
+      "length_revision_requests": [
+        {
+          "field": "이득",
+          "literal_chars": 53,
+          "sentence": "배우자·부모·자녀 등 별표 1 제1~9호의 재산세 과세표준 합계는 5억4천만원 이하여야 합니다.",
+          "required": "문장과인용조항의뜻/조건을유지한채2개이하50자문장으로분리. 인용목록을별도문장으로옮길수있음."
+        },
+        {
+          "field": "이득",
+          "literal_chars": 52,
+          "sentence": "형제자매는 재산세 과세표준 합계 1억8천만원 이하가 기준입니다(같은 별표 제2호 가목·나목).",
+          "required": "문장과인용조항의뜻/조건을유지한채2개이하50자문장으로분리. 인용목록을별도문장으로옮길수있음."
+        },
+        {
+          "field": "비고",
+          "literal_chars": 61,
+          "sentence": "거짓으로 신고해 피부양자가 되면 취득한 날로 거슬러 자격을 잃습니다(시행규칙 제2조 제3항 제9호·제12호).",
+          "required": "문장과인용조항의뜻/조건을유지한채2개이하50자문장으로분리. 인용목록을별도문장으로옮길수있음."
+        }
+      ],
+      "additional_revision_requests": [
+        {
+          "kind": "verification_scope",
+          "issue": "독립 재검증이 남은 범위: 건강보험법5 및 시행규칙2 취득·상실·90일·소득조정 예외 직접 대조. 부속 피부양자 소득/재산표 전체는 독립 완결 재검증하지 않음."
+        }
+      ],
+      "actual_primary_reading_scope": "건강보험법5 및 시행규칙2 취득·상실·90일·소득조정 예외 직접 대조. 부속 피부양자 소득/재산표 전체는 독립 완결 재검증하지 않음.",
+      "initial_canonical_findings": [
+        {
+          "entry": 13,
+          "entry_snapshot_sha256": "54bd4c665f6605e9f0ae4e3ccf23bba871c8cbe8289095af7b219c60c97a4a51",
+          "status": "reviewed_revisions_required",
+          "source_review": "국민건강보험법5조②가 배우자/직계존속·배우자직계존속/직계비속·배우자직계비속과그배우자/형제자매를 열거하며 주로생계의존 요건을 둠. 규칙2조·별표1·1의2 직접 확인: 연2000만원·사업소득없음/미등록500만원예외와주택임대제외·장애인/상이자예외·기혼부부둘다충족·재산세과표5.4억/5.4초과9억이하+연소득1000만원·형제1.8억 일치. 별표1형제30세미만/65세이상/장애인·상이자 및 동거별부양요건 확인. 수정필요: 90일후신고는일반적으로신고일부터이나천재지변·질병사고등본인무책임부득이사유는소급가능(2조②3단서). 비고 자격상실일도 일반적확인다음날 외 소득조정·정산대상사업소득등특례③10·11호(발생월다음월말/발생월말)가 있어 예외를남겨야함. 거짓취득은취득일상실③12호일치.법21522시행2026.10.8/규칙1202공포2026.9.28시행·최근개정은서식1 확인.",
+          "field_decisions": [
+            {
+              "proposal_key": "easy",
+              "field": "쉽게",
+              "decision": "revise",
+              "before": "내 직장 건강보험에 가족을 피부양자로 올리세요. 피부양자는 가입자가 아니므로 보험료를 따로 내지 않습니다. 배우자, 부모, 자녀 등이 대상입니다. 형제자매는 나이·부양관계·재산 기준이 더 엄격합니다. 내 소득으로 생계를 이어가는 가족이어야 합니다. 가족의 소득은 연 2천만원 이하여야 합니다. 재산도 기준 이하여야 합니다.",
+              "after": "내 소득으로 주로 생계를 잇는 가족을 피부양자로 올리면 보험료를 따로 내지 않습니다. 가족의 연 소득은 2천만원 이하이고 재산도 기준 이하여야 합니다. 사업소득은 예외를 빼면 없어야 하고, 기혼자는 부부 모두 기준을 맞춰야 합니다. 배우자·부모·자녀 등이 대상이며 형제자매는 조건이 더 엄격하니, 등록 전 공단에 확인하세요.",
+              "before_matches_source_entry": true,
+              "before_matches_candidate_entry": true,
+              "before_occurrences_in_source_entry": 1,
+              "after_chars": 181,
+              "after_sentences": 4,
+              "length_exception_requested": true,
+              "length_exception_accepted": false,
+              "source_entry_sha256": "54bd4c665f6605e9f0ae4e3ccf23bba871c8cbe8289095af7b219c60c97a4a51",
+              "candidate_entry_sha256": "54bd4c665f6605e9f0ae4e3ccf23bba871c8cbe8289095af7b219c60c97a4a51",
+              "reason": "핵심 소득·재산·사업소득·부부 조건은 확인됐지만181자·최장51자로 압축이 부족합니다. 조건을 삭제하지 않고 대상/혜택과 요건 문장을 더 간단히 구성하세요. 이득90일예외와 비고 상실일특례는 별도 사실 교정 필요합니다.",
+              "scope": "Exact proposed wording only. Not full-entry, whole-chapter, publication, or formal KR-FIT approval.",
+              "before_equals_full_source_field": true,
+              "before_equals_full_candidate_field": true,
+              "scope_kind": "whole_field",
+              "direct_field_operation_eligible": false,
+              "operation_base_constraint": "baseline_or_candidate_only_when_whole_field_before_matches"
+            }
+          ],
+          "content_status": "revision_required",
+          "candidate_entry_sha256": "54bd4c665f6605e9f0ae4e3ccf23bba871c8cbe8289095af7b219c60c97a4a51",
+          "candidate_review_scope": "Read complete current candidate entry and source snapshot; field approvals do not resolve unverified primary sources or factual corrections in other fields."
+        }
+      ],
+      "canonical_closure": "partial_or_unresolved_see_requests_and_actual_scope",
+      "exact_hashes_rechecked": true,
+      "protected_checks": {
+        "six_labels": true,
+        "tag_preserved": true,
+        "grade_preserved": true,
+        "title_chars": 67,
+        "doi_add": [],
+        "doi_drop": []
+      },
+      "supersession": "This full proposal, if later integrated after approval, supersedes initial field edits for this entry; this review does not apply any operation."
+    },
+    {
+      "entry": 15,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-015-5516/publication-entry-proposal.md",
+      "proposal_sha256": "05369cd165d84e9cabca2d727fbc4d0e1c0050f00ff1b8e8efd26e91b010851a",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-015-5516/publication-entry-changes.json",
+      "changes_sha256": "9c54bbd40551beebb0f571db38dd94d02916df7a8579acf5166703317b3952bf",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-015-5516/strict-entry.md",
+      "base_strict_entry_sha256": "57f8a2b201b7671adf5ec976b67d3d81e6fd6bb2649ea636f0d7dd2df89ebd3b",
+      "variant": "initialfull",
+      "decision": "revise",
+      "length_revision_requests": [],
+      "additional_revision_requests": [
+        {
+          "issue": "한국에서도 회전율이 높을수록 실수익이 낮다는 보편 단정을 조건부 비용 설명으로 제한하세요. 미국 수수료 전 수익 거의 동일은 실제 본문을 제시하거나 삭제/미확인으로 제한하세요.",
+          "kind": "source_scope"
+        }
+      ],
+      "actual_primary_reading_scope": "An/Lou/Shi 저자 PDF의 초록·자료·계층정의·28/31% 분모 직접 열람. 미국 논문은 Crossref 초록만 열람. 한국 일반화 및 미국 수수료 전 상세 주장 미입증.",
+      "initial_canonical_findings": [
+        {
+          "entry": 15,
+          "entry_snapshot_sha256": "57f8a2b201b7671adf5ec976b67d3d81e6fd6bb2649ea636f0d7dd2df89ebd3b",
+          "status": "reviewed_fields_approved_only",
+          "source_review": "Barber/Odean Crossref 저자 초록 직접 캐시: 66465가구(계좌수와 구분), 1991~1996, 11.4/17.9/16.4%, 회전율75% 일치. 중국 4천만·28/31%·18개월 원문 미확인. 관찰자료를 인과로 단정하지 않도록 검토.",
+          "field_decisions": [
+            {
+              "proposal_key": "easy",
+              "field": "쉽게",
+              "decision": "approve",
+              "before": "가장 자주 사고판 미국 가구는 1년에 11.4%를 벌었습니다. 같은 기간 시장 전체는 17.9%였습니다. 차이는 거의 모두 거래 비용에서 나왔습니다. 중국 증시가 폭등·폭락한 시기의 결과도 있습니다. 계좌가 작은 85% 가구는 너무 자주 사고팔았습니다. 가만히 들고 있을 때보다 원금의 약 3할을 덜 벌었습니다.",
+              "after": "중국 증시가 급등락할 때 작은 계좌 가구는 자주 사고팔았습니다. 가만히 보유했을 때보다 처음 주식 시가총액의 약 3할을 덜 벌었습니다. 주식을 사지 말라는 뜻은 아닙니다.",
+              "before_matches_source_entry": true,
+              "before_matches_candidate_entry": true,
+              "before_occurrences_in_source_entry": 1,
+              "after_chars": 95,
+              "after_sentences": 3,
+              "length_exception_requested": false,
+              "length_exception_accepted": false,
+              "source_entry_sha256": "57f8a2b201b7671adf5ec976b67d3d81e6fd6bb2649ea636f0d7dd2df89ebd3b",
+              "candidate_entry_sha256": "57f8a2b201b7671adf5ec976b67d3d81e6fd6bb2649ea636f0d7dd2df89ebd3b",
+              "reason": "LSE 저자 원문을 새로 열어 하위85%의 buy-and-hold 대비 초기 주식가치28% 손실과 상위0.5%31% 이익을 확인했습니다. 요약의 약3할·중국·비교 기준이 맞습니다. 본문 분류기준 오류는 별도 교정 필요합니다.",
+              "scope": "Exact proposed wording only. Not full-entry, whole-chapter, publication, or formal KR-FIT approval.",
+              "before_equals_full_source_field": true,
+              "before_equals_full_candidate_field": true,
+              "scope_kind": "whole_field",
+              "direct_field_operation_eligible": true,
+              "operation_base_constraint": "baseline_or_candidate_only_when_whole_field_before_matches"
+            }
+          ],
+          "candidate_entry_sha256": "57f8a2b201b7671adf5ec976b67d3d81e6fd6bb2649ea636f0d7dd2df89ebd3b",
+          "candidate_review_scope": "Read complete current candidate entry and source snapshot; field approvals do not resolve unverified primary sources or factual corrections in other fields."
+        }
+      ],
+      "canonical_closure": "partial_or_unresolved_see_requests_and_actual_scope",
+      "exact_hashes_rechecked": true,
+      "protected_checks": {
+        "six_labels": true,
+        "tag_preserved": true,
+        "grade_preserved": true,
+        "title_chars": 46,
+        "doi_add": [],
+        "doi_drop": []
+      },
+      "supersession": "This full proposal, if later integrated after approval, supersedes initial field edits for this entry; this review does not apply any operation."
+    },
+    {
+      "entry": 19,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-019-e28a/publication-entry-proposal.md",
+      "proposal_sha256": "cecce88e0ef4d8755f0f5171bffecb3e8770443919bc4b2e6dd6313875127c51",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-019-e28a/publication-entry-changes.json",
+      "changes_sha256": "33f4b98d0b1dec42d85e0659cebfa0e72ab4126b61684c6f442d7b7846ebb37a",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-019-e28a/strict-entry.md",
+      "base_strict_entry_sha256": "b475ffb0b9433e46dd368b79e9ab2dbcdd95727c04a0a5b7d808e5b718960bcd",
+      "variant": "initialfull",
+      "decision": "approve",
+      "length_revision_requests": [],
+      "additional_revision_requests": [],
+      "actual_primary_reading_scope": "기대수익 가중평균과 공분산 분산효과의 정성적 설명으로 범위 제한. Markowitz 전문 수식은 미열람이며 독자 비고에도 제한 표시.",
+      "initial_canonical_findings": [
+        {
+          "entry": 19,
+          "entry_snapshot_sha256": "b475ffb0b9433e46dd368b79e9ab2dbcdd95727c04a0a5b7d808e5b718960bcd",
+          "status": "reviewed_fields_approved_only",
+          "source_review": "수정 검토 필요: \"나눠 두어도 기대수익은 그대로\"는 임의의 분산에 대한 일반 명제로 성립하지 않음. 동일 기대수익 포트폴리오 비교 등 조건 필요. Markowitz 캐시는 서지뿐, 원문 미확인으로 근거판정 보류.",
+          "field_decisions": [
+            {
+              "proposal_key": "easy",
+              "field": "쉽게",
+              "decision": "approve",
+              "before": "여러 자산이 완전히 같이 오르내리지만 않으면 됩니다. 돈을 나눠 두어도 평균 수익은 같습니다. 계좌의 출렁임은 줄어듭니다. 반대로 한 종목, 한 플랫폼, 집 한 채에 다 넣으면 위험합니다. 그 하나가 무너질 때 내 돈 전체가 무너집니다.",
+              "after": "한 종목, 한 플랫폼, 집 한 채에 돈을 몰지 마세요. 완전히 같이 움직이지 않는 여러 자산에 나누면 출렁임을 줄일 수 있습니다. 손실이 없다는 보장은 아닙니다.",
+              "before_matches_source_entry": true,
+              "before_matches_candidate_entry": true,
+              "before_occurrences_in_source_entry": 1,
+              "after_chars": 90,
+              "after_sentences": 3,
+              "length_exception_requested": false,
+              "length_exception_accepted": false,
+              "source_entry_sha256": "b475ffb0b9433e46dd368b79e9ab2dbcdd95727c04a0a5b7d808e5b718960bcd",
+              "candidate_entry_sha256": "b475ffb0b9433e46dd368b79e9ab2dbcdd95727c04a0a5b7d808e5b718960bcd",
+              "reason": "평균/기대수익이 항상 같다는 단정을 제거하고 변동 감소 가능성과 손실 보장 없음만 요약합니다. 이득에 남은 기대수익 동일 단정은 아직 수정 필요하며 이 필드 승인으로 해결되지 않습니다.",
+              "scope": "Exact proposed wording only. Not full-entry, whole-chapter, publication, or formal KR-FIT approval.",
+              "before_equals_full_source_field": true,
+              "before_equals_full_candidate_field": true,
+              "scope_kind": "whole_field",
+              "direct_field_operation_eligible": true,
+              "operation_base_constraint": "baseline_or_candidate_only_when_whole_field_before_matches"
+            }
+          ],
+          "candidate_entry_sha256": "b475ffb0b9433e46dd368b79e9ab2dbcdd95727c04a0a5b7d808e5b718960bcd",
+          "candidate_review_scope": "Read complete current candidate entry and source snapshot; field approvals do not resolve unverified primary sources or factual corrections in other fields."
+        }
+      ],
+      "canonical_closure": "resolved_with_explicit_reader_limitations",
+      "exact_hashes_rechecked": true,
+      "protected_checks": {
+        "six_labels": true,
+        "tag_preserved": true,
+        "grade_preserved": true,
+        "title_chars": 42,
+        "doi_add": [],
+        "doi_drop": []
+      },
+      "supersession": "This full proposal, if later integrated after approval, supersedes initial field edits for this entry; this review does not apply any operation.",
+      "proposed_operation": {
+        "type": "replace_complete_strict_entry",
+        "before_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-019-e28a/strict-entry.md",
+        "before_sha256": "b475ffb0b9433e46dd368b79e9ab2dbcdd95727c04a0a5b7d808e5b718960bcd",
+        "after_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-019-e28a/publication-entry-proposal.md",
+        "after_sha256": "cecce88e0ef4d8755f0f5171bffecb3e8770443919bc4b2e6dd6313875127c51",
+        "separator_policy": "entry body only; preserve surrounding chapter separators; verify entire before entry SHA before replacement",
+        "integration_authorized": false
+      }
+    },
+    {
+      "entry": 20,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-020-1e07/publication-entry-proposal.md",
+      "proposal_sha256": "a248bb0ca7ce2d954423da7c4f961355f64aa13131e184e23a2f9f4e6c490c25",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-020-1e07/publication-entry-changes.json",
+      "changes_sha256": "431278eeed7d7950cbef5d10477a0d492447991ff3c9ad4a3bd64e85267ad412",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-020-1e07/strict-entry.md",
+      "base_strict_entry_sha256": "cc7a781f650cc565929e8a59d1c1534e0363d192c2cd8799e2729e2060a443ee",
+      "variant": "initialfull",
+      "decision": "revise",
+      "length_revision_requests": [
+        {
+          "field": "이득",
+          "literal_chars": 55,
+          "sentence": "IRP 같은 퇴직연금계좌를 연금저축과 합치면 연 900만원입니다(「소득세법」 제59조의3 제1항).",
+          "required": "문장과인용조항의뜻/조건을유지한채2개이하50자문장으로분리. 인용목록을별도문장으로옮길수있음."
+        },
+        {
+          "field": "이득",
+          "literal_chars": 78,
+          "sentence": "지방소득세까지 합치면 각각 5.5%, 4.4%, 3.3%입니다(같은 법 제129조 제1항 제5호의2, 같은 법 시행령 제40조의2 제3항).",
+          "required": "문장과인용조항의뜻/조건을유지한채2개이하50자문장으로분리. 인용목록을별도문장으로옮길수있음."
+        },
+        {
+          "field": "이득",
+          "literal_chars": 56,
+          "sentence": "지방소득세까지 합치면 16.5%입니다(법 제21조 제1항 제21호, 제129조 제1항 제6호 나목).",
+          "required": "문장과인용조항의뜻/조건을유지한채2개이하50자문장으로분리. 인용목록을별도문장으로옮길수있음."
+        },
+        {
+          "field": "이득",
+          "literal_chars": 58,
+          "sentence": "공제를 받지 못한 납입액은 확인을 받으면 꺼낼 때 과세하지 않습니다(시행령 제40조의3 제2항 제4호).",
+          "required": "문장과인용조항의뜻/조건을유지한채2개이하50자문장으로분리. 인용목록을별도문장으로옮길수있음."
+        },
+        {
+          "field": "비고",
+          "literal_chars": 57,
+          "sentence": "원문의 중국 개인연금은 소득공제라서 \"세율 3%면 이득 0, 세금을 안 내는 사람은 순손실\"이었습니다.",
+          "required": "문장과인용조항의뜻/조건을유지한채2개이하50자문장으로분리. 인용목록을별도문장으로옮길수있음."
+        }
+      ],
+      "additional_revision_requests": [
+        {
+          "field": "이득",
+          "issue": "연령별5/4/3%는공제납입액/운용수익범위. 종신3%와겹치면낮은세율. 이연퇴직소득은별도129①5의3세율방식.",
+          "source": "보존law-versions/280405.xml129①5의2·5의3직접읽음"
+        }
+      ],
+      "actual_primary_reading_scope": "소득세법129①5의2·5의3 실제 원문 확인. 이연퇴직소득과 그 밖의 연금소득 세율 혼합을 수정해야 함.",
+      "initial_canonical_findings": [
+        {
+          "entry": 20,
+          "entry_snapshot_sha256": "b71cf526d7b316eb63e37914652cccc869c1c7ea180c3ce77e322025d9c38a85",
+          "status": "reviewed_revisions_required",
+          "source_review": "소득세법59조의3① 600/900만원·12/15%·종합소득4500/근로5500만원기준,61조②③산출세액한도·초과분미공제취급,129조①5의2호70세미만5/80세미만4/80세이상3%·종신계약3%,기타소득15% 확인. 령40조의2③55세·가입5년·수령한도,40조의3②4호미공제납입액확인후과세제외,118조의3미공제금액해당연도전환신청 원문일치. 보강필요: 5년가입요건은이연퇴직소득있는계좌에예외. 부득이인출은사유확인6개월내증빙제출이필요하고요양·재난인출은한도존재(령20조의2). 납입공제는근로소득뿐인경우5500만원기준임을쉽게에도보존. ISA만기전환시전환금액10%/300만원중작은액추가공제한도 특례가있으므로900만원은일반한도로표현. 사적연금1500만원은법14조③9호해당소득한정이며퇴직연금전체수령액기준아님. 법21221부칙2026.1.1원칙·7.1외국납부세액공제조문별시행 구분, 령36737부칙2026.10.1시행 확인.",
+          "field_decisions": [
+            {
+              "proposal_key": "easy",
+              "field": "쉽게",
+              "decision": "revise",
+              "before": "연금저축과 IRP에 넣은 돈은 1년에 900만원까지 12%를 세금에서 빼 줍니다. 총급여 5,500만원 이하면 15%입니다. 나중에 요건을 갖춰 연금으로 받으면 소득세율은 3~5%입니다. 지방소득세를 합치면 3.3~5.5%입니다. 낼 세금이 없으면 공제를 받지 못하고 돈만 묶입니다.",
+              "after": "연금저축은 연 600만원, IRP와 합치면 900만원까지 소득세 12%를 공제합니다. 종합소득금액 4,500만원 이하(근로소득만 있으면 총급여 5,500만원 이하)는 15%입니다. 공제는 낼 세금 한도이며 낼 세금이 없으면 지금 받을 공제도 없습니다. 연금 수령 요건 전 인출에는 과세될 수 있고, 부득이한 사유 등 예외는 이득에서 확인하세요.",
+              "before_matches_source_entry": true,
+              "before_matches_candidate_entry": true,
+              "before_occurrences_in_source_entry": 1,
+              "after_chars": 192,
+              "after_sentences": 4,
+              "length_exception_requested": true,
+              "length_exception_accepted": false,
+              "source_entry_sha256": "b71cf526d7b316eb63e37914652cccc869c1c7ea180c3ce77e322025d9c38a85",
+              "candidate_entry_sha256": "cc7a781f650cc565929e8a59d1c1534e0363d192c2cd8799e2729e2060a443ee",
+              "reason": "600/900만원·종합소득4500/근로5500·12/15%·산출세액한도는 세법과 맞지만192자·최장52자라 다시 간결하게 다듬어야 합니다. 이득에서 부득이인출 예외를 확인하라고 보내기 전에6개월 증빙 및5년계좌 예외 등 실제 조건을 보강해야 합니다.",
+              "scope": "Exact proposed wording only. Not full-entry, whole-chapter, publication, or formal KR-FIT approval.",
+              "before_equals_full_source_field": true,
+              "before_equals_full_candidate_field": true,
+              "scope_kind": "whole_field",
+              "direct_field_operation_eligible": false,
+              "operation_base_constraint": "baseline_or_candidate_only_when_whole_field_before_matches"
+            }
+          ],
+          "content_status": "revision_required",
+          "candidate_entry_sha256": "cc7a781f650cc565929e8a59d1c1534e0363d192c2cd8799e2729e2060a443ee",
+          "candidate_review_scope": "Read complete current candidate entry and source snapshot; field approvals do not resolve unverified primary sources or factual corrections in other fields."
+        }
+      ],
+      "canonical_closure": "partial_or_unresolved_see_requests_and_actual_scope",
+      "exact_hashes_rechecked": true,
+      "protected_checks": {
+        "six_labels": true,
+        "tag_preserved": true,
+        "grade_preserved": true,
+        "title_chars": 69,
+        "doi_add": [],
+        "doi_drop": []
+      },
+      "supersession": "This full proposal, if later integrated after approval, supersedes initial field edits for this entry; this review does not apply any operation."
+    },
+    {
+      "entry": 22,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-022-0bc9/publication-entry-proposal.md",
+      "proposal_sha256": "3e73aa4ea48e163fadf70363ac7638cf398c5b3ccbe672e856b80998d2a11f12",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-022-0bc9/publication-entry-changes.json",
+      "changes_sha256": "df55d0676c0b3d358993e995ee26cbfd65a483f61ac820275ef4666a1547d00a",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-022-0bc9/strict-entry.md",
+      "base_strict_entry_sha256": "fa7f1e532862640dd7b0a44dd0c20a6db271383207164528b3ec05f0c4f39077",
+      "variant": "initialfull",
+      "decision": "revise",
+      "length_revision_requests": [
+        {
+          "field": "이득",
+          "literal_chars": 73,
+          "sentence": "대금, 거래 기간, 해지 방법과 효과를 설명하고 계약서를 줘야 합니다(같은 법 제30조 제1항·제2항, 같은 법 시행령 제37조).",
+          "required": "문장과인용조항의뜻/조건을유지한채2개이하50자문장으로분리. 인용목록을별도문장으로옮길수있음."
+        },
+        {
+          "field": "이득",
+          "literal_chars": 67,
+          "sentence": "남은 할부금을 내지 않을 수 있습니다(「할부거래법」 제2조 제1호, 제16조 제1항·제2항, 같은 법 시행령 제11조).",
+          "required": "문장과인용조항의뜻/조건을유지한채2개이하50자문장으로분리. 인용목록을별도문장으로옮길수있음."
+        }
+      ],
+      "additional_revision_requests": [
+        {
+          "issue": "현재 인용한 할부법 통합본은 2027년 시행입니다. 2026-10-18의 20만원·7일 등 확정 주장에는 당시 시행 원문 대조가 필요합니다.",
+          "kind": "source_scope"
+        }
+      ],
+      "actual_primary_reading_scope": "할부법289407은 2027-09-09 시행 통합본. 2026-10-18 현행 조항 입증으로 사용할 수 없음. 계속거래31·32 전체는 독립 재열람 미완료.",
+      "initial_canonical_findings": [
+        {
+          "entry": 22,
+          "entry_snapshot_sha256": "fa7f1e532862640dd7b0a44dd0c20a6db271383207164528b3ec05f0c4f39077",
+          "status": "reviewed_revisions_required",
+          "source_review": "계속거래10만원/3개월·언제든 해지의 법정/별도약정 예외·할부20만원/2개월3회·철회7일 직접 미확인. 쉽게 항변권에 결제횟수·기간 조건 누락 위험.",
+          "field_decisions": [
+            {
+              "proposal_key": "easy",
+              "field": "쉽게",
+              "decision": "revise",
+              "before": "헬스장·학원·학습지처럼 한 달 넘게 이어지는 서비스입니다. 10만원 이상, 3개월 이상으로 맺으면 업체는 계약서를 줘야 합니다. 소비자는 계약 기간 중 언제든 해지할 수 있습니다. 업체는 손실을 크게 넘는 위약금을 받으면 안 됩니다. 카드 할부 20만원 이상이면 업체가 문을 닫았을 때 남은 할부금을 거절할 수 있습니다.",
+              "after": "한 달 넘게 이어지는 서비스는 중간에 해지할 수 있습니다. 10만원 이상·3개월 이상 계약이면 서면 계약서를 받으세요. 이용한 몫과 위약금을 뺀 나머지를 돌려받습니다.",
+              "before_matches_source_entry": true,
+              "before_matches_candidate_entry": true,
+              "before_occurrences_in_source_entry": 1,
+              "after_chars": 93,
+              "after_sentences": 3,
+              "length_exception_requested": false,
+              "length_exception_accepted": false,
+              "source_entry_sha256": "fa7f1e532862640dd7b0a44dd0c20a6db271383207164528b3ec05f0c4f39077",
+              "candidate_entry_sha256": "fa7f1e532862640dd7b0a44dd0c20a6db271383207164528b3ec05f0c4f39077",
+              "reason": "방문판매법31조는 중도해지 원칙에 다른 법률 및 대통령령 예외를 둡니다. 단순히 한 달 넘는 모든 서비스에 일반화하지 말고 계속거래 계약의 원칙적 권리와 해지 조건을 남기세요.",
+              "scope": "Exact proposed wording only. Not full-entry, whole-chapter, publication, or formal KR-FIT approval.",
+              "before_equals_full_source_field": true,
+              "before_equals_full_candidate_field": true,
+              "scope_kind": "whole_field",
+              "direct_field_operation_eligible": false,
+              "operation_base_constraint": "baseline_or_candidate_only_when_whole_field_before_matches"
+            }
+          ],
+          "candidate_entry_sha256": "fa7f1e532862640dd7b0a44dd0c20a6db271383207164528b3ec05f0c4f39077",
+          "candidate_review_scope": "Read complete current candidate entry and source snapshot; field approvals do not resolve unverified primary sources or factual corrections in other fields."
+        }
+      ],
+      "canonical_closure": "partial_or_unresolved_see_requests_and_actual_scope",
+      "exact_hashes_rechecked": true,
+      "protected_checks": {
+        "six_labels": true,
+        "tag_preserved": true,
+        "grade_preserved": true,
+        "title_chars": 57,
+        "doi_add": [],
+        "doi_drop": []
+      },
+      "supersession": "This full proposal, if later integrated after approval, supersedes initial field edits for this entry; this review does not apply any operation."
+    },
+    {
+      "entry": 23,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-023-3d19/publication-entry-proposal.md",
+      "proposal_sha256": "dfdc72a7076ab7ecbb53262a72f8d0afd898f65bb2a841286dfb125d6ff2b224",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-023-3d19/publication-entry-changes.json",
+      "changes_sha256": "b0a9b7f61337c9029ce425973d19e572c65f8606ffb40421ac3947f7c0503d94",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-023-3d19/strict-entry.md",
+      "base_strict_entry_sha256": "531b9caaf2f86dc0ecdcecefdfab81346e64f3651f0ebb332f8784c20108956c",
+      "variant": "initialfull",
+      "decision": "approve",
+      "length_revision_requests": [],
+      "additional_revision_requests": [],
+      "actual_primary_reading_scope": "전자상거래법17·18 및 시행령21·21의2 본문 직접 대조. 두 기한 AND, 개별제작의 세 조건, 디지털 보호조치 AND 확인.",
+      "initial_canonical_findings": [
+        {
+          "entry": 23,
+          "entry_snapshot_sha256": "531b9caaf2f86dc0ecdcecefdfab81346e64f3651f0ebb332f8784c20108956c",
+          "status": "reviewed_revisions_required",
+          "source_review": "수정 필요 확정: 주문제작 철회제한은 개별생산+회복불가 중대한 피해 예상+사전 별도고지+서면동의 조건 모두 필요(시행령21조). 쉽게·이득의 주문제작 일반 금지는 과도. 법17조1항의 주소 미고지/방해 후 기산 특례·가분적 미제공 부분·더 긴 약정 보존 검토. 반품비/위약금/3개월30일 원문 확인.",
+          "field_decisions": [
+            {
+              "proposal_key": "easy",
+              "field": "쉽게",
+              "decision": "revise",
+              "before": "다음 날이면 필요 없어질 물건의 값을 아낍니다. 온라인으로 산 물건은 받은 날부터 7일 안에 이유 없이 철회할 수 있습니다. 써서 가치가 크게 떨어졌거나 내가 망가뜨린 물건은 빠집니다. 복제할 수 있는 상품 포장을 뜯었거나 주문 제작한 물건도 빠집니다.",
+              "after": "큰 지출은 하루 기다려 불필요한 구매를 줄이세요. 아끼는 비율은 알 수 없습니다. 온라인 구매는 보통 7일 안에 철회할 수 있지만, 기한과 제외 조건을 확인하세요. 단순 변심 반품비는 내가 냅니다.",
+              "before_matches_source_entry": true,
+              "before_matches_candidate_entry": true,
+              "before_occurrences_in_source_entry": 1,
+              "after_chars": 110,
+              "after_sentences": 4,
+              "length_exception_requested": false,
+              "length_exception_accepted": false,
+              "source_entry_sha256": "531b9caaf2f86dc0ecdcecefdfab81346e64f3651f0ebb332f8784c20108956c",
+              "candidate_entry_sha256": "531b9caaf2f86dc0ecdcecefdfab81346e64f3651f0ebb332f8784c20108956c",
+              "reason": "일반7일의 기산점이 사라졌습니다. 계약내용 서면 수령일·공급이 늦으면 수령일이라는 핵심 조건을 유지하세요. 저자도 명시했듯 이득 주문제작 배제의 중대피해·별도고지·서면동의 교정안이 아직 없어 이득과 함께 재심해야 합니다.",
+              "scope": "Exact proposed wording only. Not full-entry, whole-chapter, publication, or formal KR-FIT approval.",
+              "before_equals_full_source_field": true,
+              "before_equals_full_candidate_field": true,
+              "scope_kind": "whole_field",
+              "direct_field_operation_eligible": false,
+              "operation_base_constraint": "baseline_or_candidate_only_when_whole_field_before_matches"
+            }
+          ],
+          "candidate_entry_sha256": "531b9caaf2f86dc0ecdcecefdfab81346e64f3651f0ebb332f8784c20108956c",
+          "candidate_review_scope": "Read complete current candidate entry and source snapshot; field approvals do not resolve unverified primary sources or factual corrections in other fields."
+        }
+      ],
+      "canonical_closure": "resolved_with_explicit_reader_limitations",
+      "exact_hashes_rechecked": true,
+      "protected_checks": {
+        "six_labels": true,
+        "tag_preserved": true,
+        "grade_preserved": true,
+        "title_chars": 61,
+        "doi_add": [],
+        "doi_drop": []
+      },
+      "supersession": "This full proposal, if later integrated after approval, supersedes initial field edits for this entry; this review does not apply any operation.",
+      "proposed_operation": {
+        "type": "replace_complete_strict_entry",
+        "before_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-023-3d19/strict-entry.md",
+        "before_sha256": "531b9caaf2f86dc0ecdcecefdfab81346e64f3651f0ebb332f8784c20108956c",
+        "after_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-023-3d19/publication-entry-proposal.md",
+        "after_sha256": "dfdc72a7076ab7ecbb53262a72f8d0afd898f65bb2a841286dfb125d6ff2b224",
+        "separator_policy": "entry body only; preserve surrounding chapter separators; verify entire before entry SHA before replacement",
+        "integration_authorized": false
+      }
+    },
+    {
+      "entry": 28,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-028-d213/publication-entry-proposal.md",
+      "proposal_sha256": "73f5e715b15e1787ae84584a8106f4ed9e3a754bc8bae0d2ec70be833c04241a",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-028-d213/publication-entry-changes.json",
+      "changes_sha256": "3d781f518e2730e0c53c9c472abff59e9ac05f91c0105821f66024b3fa74b940",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-028-d213/strict-entry.md",
+      "base_strict_entry_sha256": "9de316aa3ca3c38b4941a9791a96b0c0b4bf3e3ed803deb290ab9439ff66ad0c",
+      "variant": "initialfull",
+      "decision": "approve",
+      "length_revision_requests": [],
+      "additional_revision_requests": [],
+      "actual_primary_reading_scope": "금소법20①4나, 령15, 감독규정14⑥9 및 2024-36 부칙 직접 대조. 2025-01-13 이후 신규/갱신 적용 및 동일대출 기간 합산 확인.",
+      "initial_canonical_findings": [
+        {
+          "entry": 28,
+          "entry_snapshot_sha256": "5ad906d3ab7b827f5735a793a1c34e92cc07b30670f795224a3f08a10ffb93e7",
+          "status": "reviewed_fields_approved_only",
+          "source_review": "대출금리만큼 확정이득은 수수료·세금공제·유동성 고려 전 비교임을 분명히 할 필요. 3년/법정예외·비용범위 감독규정 직접 미확인.",
+          "field_decisions": [
+            {
+              "proposal_key": "easy",
+              "field": "쉽게",
+              "decision": "approve",
+              "before": "대출을 미리 갚으면 대출 금리만큼 확실히 버는 셈입니다. 다음 질문으로 판단하세요. 세금을 뗀 뒤 꾸준히 얻는 수익이 대출 금리보다 높은가? 높으면 서두르지 말고, 낮거나 모르겠으면 갚으세요. 통상 계약일부터 3년 안에 갚을 때만 수수료를 받습니다. 다른 법령에서 허용하는 경우 등 법정 예외가 있어 계약을 확인하세요.",
+              "after": "세후 수익이 꾸준히 대출 금리보다 높으면 상환을 서두르지 마세요. 낮거나 불확실하면 비상금을 남기고 갚으세요. 갚은 만큼 대출 금리의 이자를 아낍니다. 수수료는 통상 계약일부터 3년 안에만 받지만 법정 예외가 있어 계약을 확인하세요.",
+              "before_matches_source_entry": true,
+              "before_matches_candidate_entry": false,
+              "before_occurrences_in_source_entry": 1,
+              "after_chars": 130,
+              "after_sentences": 4,
+              "length_exception_requested": true,
+              "length_exception_accepted": true,
+              "source_entry_sha256": "5ad906d3ab7b827f5735a793a1c34e92cc07b30670f795224a3f08a10ffb93e7",
+              "candidate_entry_sha256": "9de316aa3ca3c38b4941a9791a96b0c0b4bf3e3ed803deb290ab9439ff66ad0c",
+              "reason": "세후 수익의 불확실성·비상금·중도상환수수료3년 원칙과 법정예외를 보존합니다.130자는 조건 보존을 위한 명시적 길이예외로 인정합니다. before는 baseline과 일치하나 strict의 쉼표 삭제로 candidate와 불일치하므로 baseline에만 적용 가능합니다.",
+              "scope": "Exact proposed wording only. Not full-entry, whole-chapter, publication, or formal KR-FIT approval.",
+              "before_equals_full_source_field": true,
+              "before_equals_full_candidate_field": false,
+              "scope_kind": "whole_field",
+              "direct_field_operation_eligible": true,
+              "operation_base_constraint": "baseline"
+            }
+          ],
+          "candidate_entry_sha256": "9de316aa3ca3c38b4941a9791a96b0c0b4bf3e3ed803deb290ab9439ff66ad0c",
+          "candidate_review_scope": "Read complete current candidate entry and source snapshot; field approvals do not resolve unverified primary sources or factual corrections in other fields."
+        }
+      ],
+      "canonical_closure": "resolved_with_explicit_reader_limitations",
+      "exact_hashes_rechecked": true,
+      "protected_checks": {
+        "six_labels": true,
+        "tag_preserved": true,
+        "grade_preserved": true,
+        "title_chars": 46,
+        "doi_add": [],
+        "doi_drop": []
+      },
+      "supersession": "This full proposal, if later integrated after approval, supersedes initial field edits for this entry; this review does not apply any operation.",
+      "proposed_operation": {
+        "type": "replace_complete_strict_entry",
+        "before_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-028-d213/strict-entry.md",
+        "before_sha256": "9de316aa3ca3c38b4941a9791a96b0c0b4bf3e3ed803deb290ab9439ff66ad0c",
+        "after_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-028-d213/publication-entry-proposal.md",
+        "after_sha256": "73f5e715b15e1787ae84584a8106f4ed9e3a754bc8bae0d2ec70be833c04241a",
+        "separator_policy": "entry body only; preserve surrounding chapter separators; verify entire before entry SHA before replacement",
+        "integration_authorized": false
+      }
+    },
+    {
+      "entry": 29,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-029-09a7/publication-entry-proposal.md",
+      "proposal_sha256": "34c1699b806018c827d5ddd9bc32cd03b7a996e7e63ae48b87b18ae3e9947b0d",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-029-09a7/publication-entry-changes.json",
+      "changes_sha256": "f65a50af6f3f3cdf3b5fb2f9d103f1a7b506b72ea3df47d4181f951acb6801d4",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-029-09a7/strict-entry.md",
+      "base_strict_entry_sha256": "ca6bf38b231ac9a1c98ef037f2ef45fc22fb4a177d239eb6bda9d045f7b745e5",
+      "variant": "initialfull",
+      "decision": "revise",
+      "length_revision_requests": [
+        {
+          "field": "이득",
+          "literal_chars": 54,
+          "sentence": "다만 피해를 막기 위해 상당한 주의를 기울였다면 면책됩니다(같은 법 제20조의2 제1항·제2항).",
+          "required": "문장과인용조항의뜻/조건을유지한채2개이하50자문장으로분리. 인용목록을별도문장으로옮길수있음."
+        }
+      ],
+      "additional_revision_requests": [
+        {
+          "field": "이득",
+          "issue": "상당주의면책이두책임모두로읽히지않게신원정보누락/오류책임에만한정.",
+          "source": "전자상거래법20조의2②"
+        }
+      ],
+      "actual_primary_reading_scope": "전자상거래법20의2 실제 본문 대조. 상당한 주의 면책은 신원정보 누락/오류 책임②에만 적용.",
+      "initial_canonical_findings": [
+        {
+          "entry": 29,
+          "entry_snapshot_sha256": "ca6bf38b231ac9a1c98ef037f2ef45fc22fb4a177d239eb6bda9d045f7b745e5",
+          "status": "reviewed_revisions_required",
+          "source_review": "전자상거래법20조·20조의2 원문으로 사업자 신원정보·고지없음 연대책임·신원정보 상당주의 면책 범위 확인. 표시광고·추천보증·계약금·위약금감액은 원문 미확인.",
+          "field_decisions": [
+            {
+              "proposal_key": "easy",
+              "field": "쉽게",
+              "decision": "revise",
+              "before": "오픈마켓은 자신이 판매 당사자가 아님을 알려야 합니다. 판매자 정보도 제공해야 합니다. 고지나 정보제공 의무를 어겨 손해가 생기면 연대배상 문제가 생깁니다. 신원정보 관련 책임에는 상당한 주의를 기울인 경우의 면책이 있습니다. 거짓·과장 광고로 피해를 준 사업자는 배상 책임이 있습니다. 고의나 과실이 없었다는 이유로 책임을 피할 수 없습니다. 대가를 받고 쓴 후기는 그 사실을 밝혀야 합니다.",
+              "after": "오픈마켓은 판매 당사자가 아님을 알리고, 판매자가 사업자면 신원정보를 확인해 주문 전에 제공해야 합니다. 이 의무를 어겨 손해가 나면 연대배상 문제가 생기지만, 신원정보 관련 책임은 상당한 주의를 기울였다면 면책됩니다. 거짓·과장 광고로 피해를 준 사업자는 고의·과실이 없었다는 이유로 배상 책임을 피할 수 없습니다. 대가를 받고 쓴 후기는 그 사실을 밝혀야 합니다.",
+              "before_matches_source_entry": true,
+              "before_matches_candidate_entry": true,
+              "before_occurrences_in_source_entry": 1,
+              "after_chars": 205,
+              "after_sentences": 4,
+              "length_exception_requested": true,
+              "length_exception_accepted": false,
+              "source_entry_sha256": "ca6bf38b231ac9a1c98ef037f2ef45fc22fb4a177d239eb6bda9d045f7b745e5",
+              "candidate_entry_sha256": "ca6bf38b231ac9a1c98ef037f2ef45fc22fb4a177d239eb6bda9d045f7b745e5",
+              "reason": "205자·최장63자로 요약 목적을 충분히 달성하지 못합니다. 중개 의무 위반 유형과 면책을 간결하게 쓰되, 당사자아님 미고지 책임의 경우 판매자의 고의·과실 조건과 정보오류 책임의 인과관계를 구분하세요. 상당주의 면책을 모든 책임으로 확대하지 마세요.",
+              "scope": "Exact proposed wording only. Not full-entry, whole-chapter, publication, or formal KR-FIT approval.",
+              "before_equals_full_source_field": true,
+              "before_equals_full_candidate_field": true,
+              "scope_kind": "whole_field",
+              "direct_field_operation_eligible": false,
+              "operation_base_constraint": "baseline_or_candidate_only_when_whole_field_before_matches"
+            }
+          ],
+          "candidate_entry_sha256": "ca6bf38b231ac9a1c98ef037f2ef45fc22fb4a177d239eb6bda9d045f7b745e5",
+          "candidate_review_scope": "Read complete current candidate entry and source snapshot; field approvals do not resolve unverified primary sources or factual corrections in other fields."
+        }
+      ],
+      "canonical_closure": "partial_or_unresolved_see_requests_and_actual_scope",
+      "exact_hashes_rechecked": true,
+      "protected_checks": {
+        "six_labels": true,
+        "tag_preserved": true,
+        "grade_preserved": true,
+        "title_chars": 48,
+        "doi_add": [],
+        "doi_drop": []
+      },
+      "supersession": "This full proposal, if later integrated after approval, supersedes initial field edits for this entry; this review does not apply any operation."
+    },
+    {
+      "entry": 34,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-034-9bb5/publication-entry-proposal.md",
+      "proposal_sha256": "a446f5cf50c8d4c9541b5ea3e2f3cfd803f81c5828e25c77d688546ba3f2287e",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-034-9bb5/publication-entry-changes.json",
+      "changes_sha256": "45215e7066503a6ee30ca1cc1d9a89ebd79a5908d58bab5f0c551ec485138ff9",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-034-9bb5/strict-entry.md",
+      "base_strict_entry_sha256": "f2467aae76b2512d23fc45bea77846090a6d50e2b91241b87cdc0deaf8a3ce81",
+      "variant": "initialfull",
+      "decision": "revise",
+      "length_revision_requests": [
+        {
+          "field": "비고",
+          "literal_chars": 59,
+          "sentence": "라이브 방송에서 문제가 생기면 제29항(플랫폼 규칙과 법)과 제30항(라이브커머스 판매자 정보)을 보세요.",
+          "required": "문장과인용조항의뜻/조건을유지한채2개이하50자문장으로분리. 인용목록을별도문장으로옮길수있음."
+        }
+      ],
+      "additional_revision_requests": [
+        {
+          "kind": "verification_scope",
+          "issue": "독립 재검증이 남은 범위: 표시광고법10 직접 대조. 보증기간/귀금속 기준 표 일부만 확인. 모든 귀금속 품목별 환급 조건 재검증 완료로 세지 않음."
+        }
+      ],
+      "actual_primary_reading_scope": "표시광고법10 직접 대조. 보증기간/귀금속 기준 표 일부만 확인. 모든 귀금속 품목별 환급 조건 재검증 완료로 세지 않음.",
+      "initial_canonical_findings": [
+        {
+          "entry": 34,
+          "entry_snapshot_sha256": "4e7f65ab20650588e0ce1bf22df1ee3816bc228637fdd9ca10fdd9762698836f",
+          "status": "reviewed_revisions_required",
+          "source_review": "보증서와 감정서 구분·환급기준의 권고성·배상 인과관계 및1개월/1년 직접 미확인. 한국 법정 감정자격 미확인을 존재부정으로 바꾸면 안 됨.",
+          "field_decisions": [
+            {
+              "proposal_key": "easy",
+              "field": "쉽게",
+              "decision": "revise",
+              "before": "감정서는 위조할 수 있으니 발급처를 확인하세요. 함량이나 무게가 모자라면 교환이나 환불을 요구하세요. 등급·색·크기·천연 여부가 표시와 달라도 마찬가지입니다. \"천연\", \"무처리\" 같은 말이 거짓이면 판매자는 책임을 집니다. 몰랐다는 이유로 책임을 피할 수 없습니다.",
+              "after": "감정서는 위조될 수 있으니 발급처를 확인하세요. 함량·무게가 모자라거나 등급·색·크기·천연 여부가 표시와 다르면 교환·환불을 요구하세요. 판매자는 “천연”·“무처리”가 거짓인 줄 몰랐어도 책임을 집니다.",
+              "before_matches_source_entry": true,
+              "before_matches_candidate_entry": true,
+              "before_occurrences_in_source_entry": 1,
+              "after_chars": 113,
+              "after_sentences": 3,
+              "length_exception_requested": false,
+              "length_exception_accepted": false,
+              "source_entry_sha256": "4e7f65ab20650588e0ce1bf22df1ee3816bc228637fdd9ca10fdd9762698836f",
+              "candidate_entry_sha256": "f2467aae76b2512d23fc45bea77846090a6d50e2b91241b87cdc0deaf8a3ce81",
+              "reason": "표시광고법10조는 부당 광고로 피해가 생긴 경우의 배상책임입니다. 판매자가 거짓임을 몰랐어도 무조건 배상한다는 문장 대신 거짓 광고로 손해가 생겼다는 인과조건을 명시하세요.",
+              "scope": "Exact proposed wording only. Not full-entry, whole-chapter, publication, or formal KR-FIT approval.",
+              "before_equals_full_source_field": true,
+              "before_equals_full_candidate_field": true,
+              "scope_kind": "whole_field",
+              "direct_field_operation_eligible": false,
+              "operation_base_constraint": "baseline_or_candidate_only_when_whole_field_before_matches"
+            },
+            {
+              "proposal_key": "todo",
+              "field": "비고의 TODO 문장",
+              "decision": "approve",
+              "before": "국가법령정보센터에서는 찾지 못했습니다(TODO).",
+              "after": "국가법령정보센터 검색에서는 해당 법령을 확인하지 못했습니다. 추가 확인이 필요합니다.",
+              "before_matches_source_entry": true,
+              "before_matches_candidate_entry": true,
+              "before_occurrences_in_source_entry": 1,
+              "after_chars": 47,
+              "after_sentences": null,
+              "length_exception_requested": false,
+              "length_exception_accepted": false,
+              "source_entry_sha256": "4e7f65ab20650588e0ce1bf22df1ee3816bc228637fdd9ca10fdd9762698836f",
+              "candidate_entry_sha256": "f2467aae76b2512d23fc45bea77846090a6d50e2b91241b87cdc0deaf8a3ce81",
+              "reason": "미확인 상태를 독자용 문장으로 유지하며 TODO 작업표지만 제거합니다. 확인 완료를 주장하거나 미해결 제한을 숨기지 않습니다. 장말 TODO 대조는 별도 승인 사항입니다.",
+              "scope": "Exact proposed wording only. Not full-entry, whole-chapter, publication, or formal KR-FIT approval.",
+              "before_equals_full_source_field": false,
+              "before_equals_full_candidate_field": false,
+              "scope_kind": "exact_substring_within_field",
+              "direct_field_operation_eligible": false,
+              "operation_base_constraint": "baseline_or_candidate_only_when_whole_field_before_matches"
+            }
+          ],
+          "candidate_entry_sha256": "f2467aae76b2512d23fc45bea77846090a6d50e2b91241b87cdc0deaf8a3ce81",
+          "candidate_review_scope": "Read complete current candidate entry and source snapshot; field approvals do not resolve unverified primary sources or factual corrections in other fields."
+        }
+      ],
+      "canonical_closure": "partial_or_unresolved_see_requests_and_actual_scope",
+      "exact_hashes_rechecked": true,
+      "protected_checks": {
+        "six_labels": true,
+        "tag_preserved": true,
+        "grade_preserved": true,
+        "title_chars": 62,
+        "doi_add": [],
+        "doi_drop": []
+      },
+      "supersession": "This full proposal, if later integrated after approval, supersedes initial field edits for this entry; this review does not apply any operation."
+    },
+    {
+      "entry": 35,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-035-2355/publication-entry-proposal-r2.md",
+      "proposal_sha256": "20003e7b639fa49a64e6a2fbad6d257fd866330250beacab45b70e3a377d684c",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-035-2355/publication-entry-changes-r2.json",
+      "changes_sha256": "b34a76d1b09b825d53dad14022310cc8cad3236fb02faff9736a5d7851ce8cb1",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-035-2355/strict-entry.md",
+      "base_strict_entry_sha256": "dad90d71068f360ac46c64efd6e9bd116cc3bc47109b04c8aed3cf4a1baeb31f",
+      "variant": "r2",
+      "decision": "revise",
+      "length_revision_requests": [
+        {
+          "field": "비고",
+          "literal_chars": 53,
+          "sentence": "\"사도 금방 시들해져서 또 사는\" 고리는 제6절 제23항(사는 것으로 기분 나아지기)을 보세요.",
+          "required": "문장과인용조항의뜻/조건을유지한채2개이하50자문장으로분리. 인용목록을별도문장으로옮길수있음."
+        }
+      ],
+      "additional_revision_requests": [],
+      "actual_primary_reading_scope": "게임령19의2 실제 소규모 예외 확인. 게임법 과거판과 현행성 범위를 구별. 미확인 3배 배상 제거는 타당. 전자상거래 청약철회 제한은 실제 원문 대조.",
+      "initial_canonical_findings": [
+        {
+          "entry": 35,
+          "entry_snapshot_sha256": "dad90d71068f360ac46c64efd6e9bd116cc3bc47109b04c8aed3cf4a1baeb31f",
+          "status": "reviewed_fields_approved_only",
+          "source_review": "수정 필요 확정: 법17조6항 단서는 디지털콘텐츠 철회불가 \"표시와 함께\" 시험사용 제공 등 요구. \"표시하거나 맛보기\"는 조건 오류. 시행령21조의2는 미리보기/기간체험/기능제한/곤란시 정보제공 중 하나 이상. 3배배상 게임법 및 소규모 적용예외는 원문 미확인.",
+          "field_decisions": [
+            {
+              "proposal_key": "easy",
+              "field": "쉽게",
+              "decision": "approve",
+              "before": "게임 회사는 확률형 아이템의 종류와 확률을 표시해야 합니다. 게임, 홈페이지, 광고마다 표시해야 합니다. 표시하지 않거나 거짓으로 표시해 손해를 입히면 배상합니다. 고의면 손해의 3배까지 물 수 있습니다. 그래도 표시된 확률대로 돈을 잃는다는 점은 같습니다.",
+              "after": "확률형 아이템은 돈을 내도 무엇이 나올지 모릅니다. 게임 회사는 종류와 종류별 확률을 표시해야 합니다. 게임물, 홈페이지, 광고·선전물마다 표시해야 합니다.",
+              "before_matches_source_entry": true,
+              "before_matches_candidate_entry": true,
+              "before_occurrences_in_source_entry": 1,
+              "after_chars": 87,
+              "after_sentences": 3,
+              "length_exception_requested": false,
+              "length_exception_accepted": false,
+              "source_entry_sha256": "dad90d71068f360ac46c64efd6e9bd116cc3bc47109b04c8aed3cf4a1baeb31f",
+              "candidate_entry_sha256": "dad90d71068f360ac46c64efd6e9bd116cc3bc47109b04c8aed3cf4a1baeb31f",
+              "reason": "표시의무를 중심으로 요약하고3배배상이나 돈을 반드시 잃는다는 단정은 넣지 않습니다. 이번에 실제 읽은265811XML의33조는 종류/확률·게임/홈페이지/광고를 확인하지만 기본시행20241022판이므로 이후 개정의 현행성·소규모 예외 검토는 별도입니다. 이득의 디지털 OR오류는 함께 고쳐야 합니다.",
+              "scope": "Exact proposed wording only. Not full-entry, whole-chapter, publication, or formal KR-FIT approval.",
+              "before_equals_full_source_field": true,
+              "before_equals_full_candidate_field": true,
+              "scope_kind": "whole_field",
+              "direct_field_operation_eligible": true,
+              "operation_base_constraint": "baseline_or_candidate_only_when_whole_field_before_matches"
+            },
+            {
+              "proposal_key": "required_factual_corrections[0]",
+              "field": "이득의 지정 문장",
+              "decision": "approve",
+              "before": "다만 판매자가 그 사실을 분명히 표시하거나 맛보기를 줘야 합니다. 이런 조치를 하지 않았다면 철회할 수 있습니다",
+              "after": "다만 판매자는 청약철회가 제한된다는 사실을 분명히 표시하고, 시험 사용 상품 제공 등 해당 디지털콘텐츠에 필요한 조치도 해야 합니다. 필요한 조치를 하지 않았다면 철회할 수 있습니다",
+              "before_matches_source_entry": true,
+              "before_matches_candidate_entry": true,
+              "reason": "전자상거래법17조⑥단서 및령21조의2 직접검토로 고지 AND 해당 시험사용 제공 등 조치가 필요함을 확인했습니다. 제공개시·가분적 미제공부분·적용범위의 주변 문장도 보존해야 합니다.",
+              "scope": "Exact span wording approved; this is not a whole-field integration operation. A full-entry/whole-field authored proposal remains necessary under CONTRACT.",
+              "direct_field_operation_eligible": false,
+              "before_equals_full_source_field": false,
+              "before_equals_full_candidate_field": false,
+              "scope_kind": "exact_substring_within_field",
+              "operation_base_constraint": "baseline_or_candidate_only_when_whole_field_before_matches"
+            }
+          ],
+          "candidate_entry_sha256": "dad90d71068f360ac46c64efd6e9bd116cc3bc47109b04c8aed3cf4a1baeb31f",
+          "candidate_review_scope": "Read complete current candidate entry and source snapshot; field approvals do not resolve unverified primary sources or factual corrections in other fields."
+        }
+      ],
+      "canonical_closure": "partial_or_unresolved_see_requests_and_actual_scope",
+      "exact_hashes_rechecked": true,
+      "protected_checks": {
+        "six_labels": true,
+        "tag_preserved": true,
+        "grade_preserved": true,
+        "title_chars": 50,
+        "doi_add": [],
+        "doi_drop": []
+      },
+      "supersession": "This full proposal, if later integrated after approval, supersedes initial field edits for this entry; this review does not apply any operation."
+    },
+    {
+      "entry": 37,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-037-bfaa/publication-entry-proposal.md",
+      "proposal_sha256": "7c1d579a9c9a7cf07e421f4598a3040993b8df7c8bd7266d96f56d3a5dac7d8e",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-037-bfaa/publication-entry-changes.json",
+      "changes_sha256": "bebef8b496df1a57a8285301813a01a66bd1f5406a36cf26136b3acddaaea9c3",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-037-bfaa/strict-entry.md",
+      "base_strict_entry_sha256": "dce2225dad6fc7cb76ad08ece0f5c55f60ef06191e31908da02c9de9f34564e4",
+      "variant": "initialfull",
+      "decision": "revise",
+      "length_revision_requests": [
+        {
+          "field": "비고",
+          "literal_chars": 65,
+          "sentence": "국내 상장주식은 대주주가 아니면 증권시장 매매차익에 양도소득세가 없습니다(「소득세법」 제94조 제1항 제3호 가목).",
+          "required": "문장과인용조항의뜻/조건을유지한채2개이하50자문장으로분리. 인용목록을별도문장으로옮길수있음."
+        },
+        {
+          "field": "비고",
+          "literal_chars": 83,
+          "sentence": "법정 특수유형은 별도 세율을 확인하세요(같은 법 제103조 제1항 제2호, 제104조 제1항 제12호, 「지방세법」 제103조의3 제1항 제12호).",
+          "required": "문장과인용조항의뜻/조건을유지한채2개이하50자문장으로분리. 인용목록을별도문장으로옮길수있음."
+        }
+      ],
+      "additional_revision_requests": [],
+      "actual_primary_reading_scope": "Odean 저자 공개 PDF 직접 열람: 1만 계좌·1987–1993, PGR/PLR, t>35, 독립성 유보, TableVI 252거래일 3.41%p, 4.4%는 세율/기회수익 가정 예시.",
+      "initial_canonical_findings": [
+        {
+          "entry": 37,
+          "entry_snapshot_sha256": "dce2225dad6fc7cb76ad08ece0f5c55f60ef06191e31908da02c9de9f34564e4",
+          "status": "reviewed_revisions_required",
+          "source_review": "Odean 캐시는 DOI/서지만 확인. PGR/PLR·0.135/0.094·3.4%p·세후4.4% 본문표 미확인. 미국세제와 한국세제를 분리한 경고 보존.",
+          "field_decisions": [
+            {
+              "proposal_key": "easy",
+              "field": "쉽게",
+              "decision": "revise",
+              "before": "사람은 주식이 오르면 팔고 떨어지면 버티려 합니다. 미국 1만 개 계좌의 7년 기록을 살펴본 연구가 있습니다. 오른 주식은 떨어진 주식보다 팔릴 가능성이 5할 넘게 높았습니다. 같은 사람들이 손실 난 주식을 더 사들이기도 했습니다. 그렇게 남긴 손실 주식은 그 뒤 1년 동안 수익이 더 낮았습니다. 판 주식보다 평균 3.4%포인트 덜 벌었습니다.",
+              "after": "미국 자료에서는 남긴 손실 주식의 이후 1년 시장 대비 수익이 낮았습니다. 판 이익 주식보다 평균 3.4%포인트 낮았습니다. 한국의 거래 비용과 세제는 다릅니다.",
+              "before_matches_source_entry": true,
+              "before_matches_candidate_entry": true,
+              "before_occurrences_in_source_entry": 1,
+              "after_chars": 90,
+              "after_sentences": 3,
+              "length_exception_requested": false,
+              "length_exception_accepted": false,
+              "source_entry_sha256": "dce2225dad6fc7cb76ad08ece0f5c55f60ef06191e31908da02c9de9f34564e4",
+              "candidate_entry_sha256": "dce2225dad6fc7cb76ad08ece0f5c55f60ef06191e31908da02c9de9f34564e4",
+              "reason": "3.4%포인트의 정확한 원문 표/본문을 아직 열지 못했습니다. Wiley 공식 PDF403을 기록했으며 실제 내용 오류와 구분합니다. 시장대비수익·미국범위·이후1년 조건은 적절하지만 수치 확인 뒤 재심합니다.",
+              "scope": "Exact proposed wording only. Not full-entry, whole-chapter, publication, or formal KR-FIT approval.",
+              "before_equals_full_source_field": true,
+              "before_equals_full_candidate_field": true,
+              "scope_kind": "whole_field",
+              "direct_field_operation_eligible": false,
+              "operation_base_constraint": "baseline_or_candidate_only_when_whole_field_before_matches"
+            }
+          ],
+          "candidate_entry_sha256": "dce2225dad6fc7cb76ad08ece0f5c55f60ef06191e31908da02c9de9f34564e4",
+          "candidate_review_scope": "Read complete current candidate entry and source snapshot; field approvals do not resolve unverified primary sources or factual corrections in other fields."
+        }
+      ],
+      "canonical_closure": "partial_or_unresolved_see_requests_and_actual_scope",
+      "exact_hashes_rechecked": true,
+      "protected_checks": {
+        "six_labels": true,
+        "tag_preserved": true,
+        "grade_preserved": true,
+        "title_chars": 59,
+        "doi_add": [],
+        "doi_drop": []
+      },
+      "supersession": "This full proposal, if later integrated after approval, supersedes initial field edits for this entry; this review does not apply any operation."
+    },
+    {
+      "entry": 38,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-038-df3d/publication-entry-proposal.md",
+      "proposal_sha256": "394fc5c514ebedc1c773424b717612d6647b7da88e9b11ff368d113feebc127d",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-038-df3d/publication-entry-changes.json",
+      "changes_sha256": "91a871e3ab4733d963e9e4333f1b50d0f4000787b407960b141c271352772dda",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-038-df3d/strict-entry.md",
+      "base_strict_entry_sha256": "518f8c97c989f005e85c210f10462a5ba4c1d91d3fc8dc98fd4f976efc0fffed",
+      "variant": "initialfull",
+      "decision": "revise",
+      "length_revision_requests": [
+        {
+          "field": "이득",
+          "literal_chars": 62,
+          "sentence": "자본거래를 신고 없이 하면 1억원 이하 과태료입니다(「외국환거래법」 제18조 제1항, 제32조 제1항 제4호).",
+          "required": "문장과인용조항의뜻/조건을유지한채2개이하50자문장으로분리. 인용목록을별도문장으로옮길수있음."
+        },
+        {
+          "field": "이득",
+          "literal_chars": 67,
+          "sentence": "1년 이하 징역 또는 1억원 이하 벌금입니다(같은 법 제29조 제1항 제3호, 같은 법 시행령 제40조 제1항 제2호).",
+          "required": "문장과인용조항의뜻/조건을유지한채2개이하50자문장으로분리. 인용목록을별도문장으로옮길수있음."
+        },
+        {
+          "field": "이득",
+          "literal_chars": 66,
+          "sentence": "다음 해 6월 1일~30일에 세무서에 신고합니다(「국제조세조정법」 제53조 제1항, 같은 법 시행령 제92조 제3항).",
+          "required": "문장과인용조항의뜻/조건을유지한채2개이하50자문장으로분리. 인용목록을별도문장으로옮길수있음."
+        },
+        {
+          "field": "이득",
+          "literal_chars": 69,
+          "sentence": "다음 해 5월에 신고·납부합니다(「소득세법」 제103조·제104조·제110조, 「지방세법」 제103조의3 제1항 제12호).",
+          "required": "문장과인용조항의뜻/조건을유지한채2개이하50자문장으로분리. 인용목록을별도문장으로옮길수있음."
+        }
+      ],
+      "additional_revision_requests": [
+        {
+          "issue": "외국환거래규정7-33⑤의 적법하게 해외 취득한 증권 해외 매각 예외를 일반거주자 국내 중개 필수 설명에 보존하세요.",
+          "kind": "source_scope"
+        }
+      ],
+      "actual_primary_reading_scope": "외국환거래규정7-11·7-31·7-33·7-34, 외국환거래법29·32, 국제조세법53·54 직접 대조. 7-33⑤ 해외매각 예외 누락 수정 필요. 지방세 상세 미재검증.",
+      "initial_canonical_findings": [
+        {
+          "entry": 38,
+          "entry_snapshot_sha256": "518f8c97c989f005e85c210f10462a5ba4c1d91d3fc8dc98fd4f976efc0fffed",
+          "status": "reviewed_revisions_required",
+          "source_review": "외국환거래규정(2026-103)7-33①대상외화증권제한없음·④일반투자자중개위탁·⑤인정취득해외증권해외매도예외,7-34①전용외화계정,7-31①신고예외열거/②그외한국은행신고,7-11①해외예금예외/②지정은행/③동일자동일인건당5만달러초과은행신고대상확인. 외국환법18·32①4의1억과태료와령40①2의자본거래20억원형사기준확인. 수정필요: 법29①단서는목적물가액3배가1억원을넘으면벌금상한을3배이하로규정하므로본문1억원이하벌금일률단정오류. 국제조세법53·54/령92③으로월말해외계좌합산5억원초과·다음해6/1~30·재외국민182일등면제확인. 쉽게에월말/합산/면제조건보강필요. 직접계좌개설자체가곧신고대상이라는제목은거래별신고예외확인으로수정권장. 외국환규정기본2026.9.16시행/2026-88부칙은제1-2조7호만2027.1.1유예로검토조문과구분. 세율20%/지방2%·연공제250만원은소득세법기본조문확인,지방세원문재시도중.",
+          "field_decisions": [
+            {
+              "proposal_key": "easy",
+              "field": "쉽게",
+              "decision": "approve",
+              "before": "한국 개인은 투자할 수 있는 외국 주식에 제한이 없습니다. 국내 증권사를 통해 사면 됩니다. 해외 증권사에서 직접 사거나 해외에 예금할 때는 신고 규정을 확인하세요. 법정 신고 예외를 벗어난 거래는 신고 대상입니다. 신고하지 않으면 과태료가 나올 수 있습니다. 해외 계좌 잔액이 5억원을 넘은 달이 있으면 신고해야 합니다. 신고는 다음 해 6월에 세무서에 합니다.",
+              "after": "해외 주식은 국내 증권사로 사세요. 해외 직접 거래·예금은 신고 예외를 확인하세요. 해외 계좌의 어느 달 말 잔액 합계가 5억원을 넘으면 다음 해 6월 신고 대상입니다. 면제 조건도 확인하세요.",
+              "before_matches_source_entry": true,
+              "before_matches_candidate_entry": true,
+              "before_occurrences_in_source_entry": 1,
+              "after_chars": 108,
+              "after_sentences": 4,
+              "length_exception_requested": false,
+              "length_exception_accepted": false,
+              "source_entry_sha256": "518f8c97c989f005e85c210f10462a5ba4c1d91d3fc8dc98fd4f976efc0fffed",
+              "candidate_entry_sha256": "518f8c97c989f005e85c210f10462a5ba4c1d91d3fc8dc98fd4f976efc0fffed",
+              "reason": "국내 증권사 권고·거래별 신고예외·어느 달말 해외계좌 잔액 합계5억 초과·다음해6월·면제 조건이 확인한 외국환/국제조세 법령과 일치합니다. 제목과 이득 벌금 상한은 별도 수정 필요합니다.",
+              "scope": "Exact proposed wording only. Not full-entry, whole-chapter, publication, or formal KR-FIT approval.",
+              "before_equals_full_source_field": true,
+              "before_equals_full_candidate_field": true,
+              "scope_kind": "whole_field",
+              "direct_field_operation_eligible": true,
+              "operation_base_constraint": "baseline_or_candidate_only_when_whole_field_before_matches"
+            },
+            {
+              "proposal_key": "title",
+              "field": "title",
+              "decision": "revise",
+              "before": "미국 주식 같은 해외 자산은 국내 증권사의 해외주식 거래로 사세요. 해외 증권사에 직접 계좌를 열면 신고 의무가 따릅니다",
+              "after": "미국 주식 같은 해외 자산은 국내 증권사로 사세요. 해외 직접 거래의 신고 예외를 확인하세요",
+              "before_matches_source_entry": true,
+              "before_matches_candidate_entry": true,
+              "before_occurrences_in_source_entry": 1,
+              "after_chars": 51,
+              "after_sentences": null,
+              "length_exception_requested": false,
+              "length_exception_accepted": false,
+              "source_entry_sha256": "518f8c97c989f005e85c210f10462a5ba4c1d91d3fc8dc98fd4f976efc0fffed",
+              "candidate_entry_sha256": "518f8c97c989f005e85c210f10462a5ba4c1d91d3fc8dc98fd4f976efc0fffed",
+              "reason": "51자로 제목 길이는 맞지만 incoming anchor 해외 주식이 after에 없습니다. 해외 주식·해외 자산·국내 증권사 세 앵커와 거래별 신고예외를 모두 보존하세요.",
+              "scope": "Exact proposed wording only. Not full-entry, whole-chapter, publication, or formal KR-FIT approval.",
+              "before_equals_full_source_field": true,
+              "before_equals_full_candidate_field": true,
+              "scope_kind": "whole_field",
+              "direct_field_operation_eligible": false,
+              "operation_base_constraint": "baseline_or_candidate_only_when_whole_field_before_matches"
+            }
+          ],
+          "content_status": "revision_required",
+          "candidate_entry_sha256": "518f8c97c989f005e85c210f10462a5ba4c1d91d3fc8dc98fd4f976efc0fffed",
+          "candidate_review_scope": "Read complete current candidate entry and source snapshot; field approvals do not resolve unverified primary sources or factual corrections in other fields."
+        }
+      ],
+      "canonical_closure": "partial_or_unresolved_see_requests_and_actual_scope",
+      "exact_hashes_rechecked": true,
+      "protected_checks": {
+        "six_labels": true,
+        "tag_preserved": true,
+        "grade_preserved": true,
+        "title_chars": 70,
+        "doi_add": [],
+        "doi_drop": []
+      },
+      "supersession": "This full proposal, if later integrated after approval, supersedes initial field edits for this entry; this review does not apply any operation."
+    },
+    {
+      "entry": 41,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-041-439b/publication-entry-proposal.md",
+      "proposal_sha256": "750ef9b419eb4e1633d4980df9ae50abca74bc1a59fd1acec2aaed6d871eb3d0",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-041-439b/publication-entry-changes.json",
+      "changes_sha256": "4919c37e47e8a83aa79512c36ccda81ca29bc38a39e07eceeea684c39a8a1ae9",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-041-439b/strict-entry.md",
+      "base_strict_entry_sha256": "23e9b61fc4afebb282bcb27081fed4fd58ffb511f7597c4c7ebc36bf02121ca3",
+      "variant": "initialfull",
+      "decision": "revise",
+      "length_revision_requests": [
+        {
+          "field": "이득",
+          "literal_chars": 56,
+          "sentence": "일반금융소비자가 가입한 철회 대상 보장성 보험의 청약철회 기한은 보험증권을 받은 날부터 15일입니다.",
+          "required": "문장과인용조항의뜻/조건을유지한채2개이하50자문장으로분리. 인용목록을별도문장으로옮길수있음."
+        },
+        {
+          "field": "이득",
+          "literal_chars": 61,
+          "sentence": "다만 청약한 날부터 30일과 비교해 먼저 끝나는 기간을 따릅니다(「금융소비자보호법」 제46조 제1항 제1호).",
+          "required": "문장과인용조항의뜻/조건을유지한채2개이하50자문장으로분리. 인용목록을별도문장으로옮길수있음."
+        },
+        {
+          "field": "이득",
+          "literal_chars": 81,
+          "sentence": "제3자 동의가 필요한 보증보험도 철회 대상이 아닙니다(같은 법 시행령 제37조 제1항 제1호, 금융소비자 보호에 관한 감독규정 제30조 제1항).",
+          "required": "문장과인용조항의뜻/조건을유지한채2개이하50자문장으로분리. 인용목록을별도문장으로옮길수있음."
+        },
+        {
+          "field": "이득",
+          "literal_chars": 63,
+          "sentence": "계약 전에 판매자가 건강상태 진단을 지원하는 보장성 상품도 제외됩니다(같은 규정 제30조 제2항 제1호·제2호).",
+          "required": "문장과인용조항의뜻/조건을유지한채2개이하50자문장으로분리. 인용목록을별도문장으로옮길수있음."
+        },
+        {
+          "field": "이득",
+          "literal_chars": 64,
+          "sentence": "해지되면 회사는 수수료·위약금을 받을 수 없습니다(「금융소비자보호법」 제47조, 같은 법 시행령 제38조 제2항).",
+          "required": "문장과인용조항의뜻/조건을유지한채2개이하50자문장으로분리. 인용목록을별도문장으로옮길수있음."
+        },
+        {
+          "field": "이득",
+          "literal_chars": 57,
+          "sentence": "그때는 회사가 적립한 금액(해지환급금)을 돌려받습니다(「상법」 제649조 제1항, 제736조 제1항).",
+          "required": "문장과인용조항의뜻/조건을유지한채2개이하50자문장으로분리. 인용목록을별도문장으로옮길수있음."
+        },
+        {
+          "field": "비고",
+          "literal_chars": 51,
+          "sentence": "원문의 중국 규정은 1년 넘는 인보험에만 숙려기간을 두고 은행 판매분은 15일로 정했습니다.",
+          "required": "문장과인용조항의뜻/조건을유지한채2개이하50자문장으로분리. 인용목록을별도문장으로옮길수있음."
+        }
+      ],
+      "additional_revision_requests": [],
+      "actual_primary_reading_scope": "상법649·731·733·734·662 및 대법원 판례 요지/판시사항 직접 대조. 판결 전문은 미열람.",
+      "initial_canonical_findings": [
+        {
+          "entry": 41,
+          "entry_snapshot_sha256": "2a26bddc038f6b9d92d84f6afdb3af5941161d62c1e92b7052e4d0570fa5c172",
+          "status": "reviewed_revisions_required",
+          "source_review": "금소법46①1일반금융소비자·대상상품은증권수령15일/청약30일중먼저기한·더긴약정우선,②발송효력,③접수3영업일반환,④위약금불가,⑤보험사고이미발생시원칙철회무효/사실알고철회면예외 원문일치. 령37①보증보험제3자동의필요/자동차책임보험(동종타보험있으면예외)/감독규정30의90일이내·법률상가입의무/건강진단지원제외 확인. 령37④발송사실지체없이통지. 법47/령38②는위반인지1년·계약5년내위법해지확인. 상법638의3약관교부·중요설명의무위반3개월취소·649사고전해지·736적립금반환확인. 타인을위한보험계약해지는상법649①단서동의/증권소지조건이있어무조건언제든은대상제한필요. 법21065시행2026.1.2/령36287공포2026.4.28/감독고시2026-40부칙2026.10.2시행확인. 제목기한은더긴약정예외를본문에서보존할것.",
+          "field_decisions": [
+            {
+              "proposal_key": "easy",
+              "field": "쉽게",
+              "decision": "revise",
+              "before": "철회 대상인 보장성 보험은 증권 수령일부터 15일 안에 철회할 수 있습니다. 청약한 날부터 30일과 비교해 먼저 끝나는 기간을 따릅니다. 유효한 철회가 접수되면 회사는 접수일부터 3영업일 안에 낸 돈을 돌려줍니다. 단기보험·법정 의무보험·건강진단 지원상품 등은 제외될 수 있습니다.\n  위약금은 받을 수 없습니다. 약관을 받지 못했거나 중요한 설명을 못 들은 경우입니다.\n  이때는 계약 성립일부터 3개월 안에 취소할 수 있습니다. 그 뒤에 해지하면 회사가 적립한 해지환급금만 돌려받습니다.",
+              "after": "대상 보장성 보험 철회 기한은 증권 수령일부터 15일·청약일부터 30일 중 빠른 쪽입니다. 단기·의무보험·건강진단 지원상품 등은 제외될 수 있습니다. 유효한 철회 접수 후 3영업일 안에 낸 돈을 돌려받습니다.",
+              "before_matches_source_entry": true,
+              "before_matches_candidate_entry": true,
+              "before_occurrences_in_source_entry": 1,
+              "after_chars": 116,
+              "after_sentences": 3,
+              "length_exception_requested": false,
+              "length_exception_accepted": false,
+              "source_entry_sha256": "2a26bddc038f6b9d92d84f6afdb3af5941161d62c1e92b7052e4d0570fa5c172",
+              "candidate_entry_sha256": "23e9b61fc4afebb282bcb27081fed4fd58ffb511f7597c4c7ebc36bf02121ca3",
+              "reason": "금소법46조①은 당사자가 더 긴 철회 기간을 약정했으면 그 기간이 우선합니다.15일/30일을 절대 기한으로 읽지 않도록 더긴약정 예외도 쉽게에 보존하세요. 대상과3영업일 반환은 원문과 일치합니다.",
+              "scope": "Exact proposed wording only. Not full-entry, whole-chapter, publication, or formal KR-FIT approval.",
+              "before_equals_full_source_field": true,
+              "before_equals_full_candidate_field": true,
+              "scope_kind": "whole_field",
+              "direct_field_operation_eligible": false,
+              "operation_base_constraint": "baseline_or_candidate_only_when_whole_field_before_matches"
+            },
+            {
+              "proposal_key": "title",
+              "field": "title",
+              "decision": "approve",
+              "before": "보험에 가입하고 후회되면 청약철회 대상인지 확인하고, 증권 수령일부터 15일과 청약일부터 30일 중 먼저 끝나는 기한 안에 철회하세요",
+              "after": "보험 가입이 후회되면 청약철회 대상을 확인하고 증권 수령 15일·청약 30일 중 먼저 끝나는 기한 안에 철회하세요",
+              "before_matches_source_entry": true,
+              "before_matches_candidate_entry": true,
+              "before_occurrences_in_source_entry": 1,
+              "after_chars": 63,
+              "after_sentences": null,
+              "length_exception_requested": false,
+              "length_exception_accepted": false,
+              "source_entry_sha256": "2a26bddc038f6b9d92d84f6afdb3af5941161d62c1e92b7052e4d0570fa5c172",
+              "candidate_entry_sha256": "23e9b61fc4afebb282bcb27081fed4fd58ffb511f7597c4c7ebc36bf02121ca3",
+              "reason": "63자이고 청약철회 앵커·보험 대상확인·증권수령15일/청약30일중먼저라는 주제를 유지합니다. 더긴약정 등 이득의 예외는 삭제할 수 없습니다.",
+              "scope": "Exact proposed wording only. Not full-entry, whole-chapter, publication, or formal KR-FIT approval.",
+              "before_equals_full_source_field": true,
+              "before_equals_full_candidate_field": true,
+              "scope_kind": "whole_field",
+              "direct_field_operation_eligible": true,
+              "operation_base_constraint": "baseline_or_candidate_only_when_whole_field_before_matches"
+            }
+          ],
+          "content_status": "verified_core_with_conditions",
+          "candidate_entry_sha256": "23e9b61fc4afebb282bcb27081fed4fd58ffb511f7597c4c7ebc36bf02121ca3",
+          "candidate_review_scope": "Read complete current candidate entry and source snapshot; field approvals do not resolve unverified primary sources or factual corrections in other fields."
+        }
+      ],
+      "canonical_closure": "partial_or_unresolved_see_requests_and_actual_scope",
+      "exact_hashes_rechecked": true,
+      "protected_checks": {
+        "six_labels": true,
+        "tag_preserved": true,
+        "grade_preserved": true,
+        "title_chars": 38,
+        "doi_add": [],
+        "doi_drop": []
+      },
+      "supersession": "This full proposal, if later integrated after approval, supersedes initial field edits for this entry; this review does not apply any operation."
+    },
+    {
+      "entry": 44,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-044-5111/publication-entry-proposal.md",
+      "proposal_sha256": "b9eb869263aeecc57ce9b0d3838499eabbc3c1b205bbeb88584aef8afe909e1c",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-044-5111/publication-entry-changes.json",
+      "changes_sha256": "0a23763b3a6c2a6f89dce7971620b3ef497788da0aae29c3c5c33f8f5a706c22",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-044-5111/strict-entry.md",
+      "base_strict_entry_sha256": "d948a7052fa1880a6d751c8ac6272f4f7f184454493832db82bf796467111733",
+      "variant": "initialfull",
+      "decision": "revise",
+      "length_revision_requests": [
+        {
+          "field": "이득",
+          "literal_chars": 56,
+          "sentence": "다시 정하기 전에 보험사고가 나면 피보험자나 수익자의 상속인이 수익자입니다(같은 조 제2항~제4항).",
+          "required": "문장과인용조항의뜻/조건을유지한채2개이하50자문장으로분리. 인용목록을별도문장으로옮길수있음."
+        },
+        {
+          "field": "비고",
+          "literal_chars": 52,
+          "sentence": "목숨으로 빚을 갚으려는 생각이 통하지 않는 이유는 제29절(큰 타격을 입은 후에)에 있습니다.",
+          "required": "문장과인용조항의뜻/조건을유지한채2개이하50자문장으로분리. 인용목록을별도문장으로옮길수있음."
+        }
+      ],
+      "additional_revision_requests": [],
+      "actual_primary_reading_scope": "상법 보험계약 조항 및 대법원 요지 직접 대조. 법정상속인 보험금의 고유재산과 상속세 문제를 구별. 판결 전문 미열람.",
+      "initial_canonical_findings": [
+        {
+          "entry": 44,
+          "entry_snapshot_sha256": "d948a7052fa1880a6d751c8ac6272f4f7f184454493832db82bf796467111733",
+          "status": "reviewed_revisions_required",
+          "source_review": "상법662조보험금청구권3년·보험료반환/적립금반환3년(보험료청구2년과구분),733①지정변경권/②미지정계약자사망피보험자/③수익자선사망후계약자미재지정사망수익자상속인/④미지정전보험사고피보험자또는수익자상속인,734①보험자통지 원문확인. 보강필요:734②는731①의타인의사망보험피보험자서면동의를수익자지정변경에도준용하므로회사통지만이면충분하다고읽히지않게하기. 비고한국은항상상속인이수익자라는단정은733세부상황에맞춰범위를제한해야함. 두판례2003다29463·2000다31502의공식판시사항/판결요지를신규HTTPSXML에서읽어상속인고유재산일치확인(상속세면제판결아님). 상법21044부칙2026.9.10시행은주주총회집중투표관련,검토보험조문미래시행없음.",
+          "field_decisions": [
+            {
+              "proposal_key": "easy",
+              "field": "쉽게",
+              "decision": "revise",
+              "before": "수익자를 안 정하거나 수익자가 먼저 세상을 떠날 수 있습니다. 이때는 피보험자나 수익자의 상속인이 보험금을 받습니다. 수익자를 바꾸면 보험회사에 알리세요. 알리지 않으면 회사에 그 변경을 주장하지 못합니다. 보험금 청구권은 3년이 지나면 사라집니다. 가족에게 이 보험이 있다는 사실을 알려 두세요.",
+              "after": "수익자를 정하거나 바꾸면 보험회사에 알리세요. 알리지 않으면 회사에 그 변경을 주장하지 못합니다. 보험금 청구권은 3년이 지나면 사라집니다. 가족에게 보험 가입 사실을 알려 두세요.",
+              "before_matches_source_entry": true,
+              "before_matches_candidate_entry": true,
+              "before_occurrences_in_source_entry": 1,
+              "after_chars": 101,
+              "after_sentences": 4,
+              "length_exception_requested": false,
+              "length_exception_accepted": false,
+              "source_entry_sha256": "d948a7052fa1880a6d751c8ac6272f4f7f184454493832db82bf796467111733",
+              "candidate_entry_sha256": "d948a7052fa1880a6d751c8ac6272f4f7f184454493832db82bf796467111733",
+              "reason": "회사 통지만으로 수익자 변경 요건이 끝나는 것으로 읽힙니다. 상법734조②가 준용하는731조①의 타인 사망보험 피보험자 서면동의 조건도 함께 보존하세요. 청구권3년 및 회사에 대한 대항요건 자체는 확인했습니다.",
+              "scope": "Exact proposed wording only. Not full-entry, whole-chapter, publication, or formal KR-FIT approval.",
+              "before_equals_full_source_field": true,
+              "before_equals_full_candidate_field": true,
+              "scope_kind": "whole_field",
+              "direct_field_operation_eligible": false,
+              "operation_base_constraint": "baseline_or_candidate_only_when_whole_field_before_matches"
+            }
+          ],
+          "content_status": "revision_required",
+          "candidate_entry_sha256": "d948a7052fa1880a6d751c8ac6272f4f7f184454493832db82bf796467111733",
+          "candidate_review_scope": "Read complete current candidate entry and source snapshot; field approvals do not resolve unverified primary sources or factual corrections in other fields."
+        }
+      ],
+      "canonical_closure": "partial_or_unresolved_see_requests_and_actual_scope",
+      "exact_hashes_rechecked": true,
+      "protected_checks": {
+        "six_labels": true,
+        "tag_preserved": true,
+        "grade_preserved": true,
+        "title_chars": 55,
+        "doi_add": [],
+        "doi_drop": []
+      },
+      "supersession": "This full proposal, if later integrated after approval, supersedes initial field edits for this entry; this review does not apply any operation."
+    },
+    {
+      "entry": 45,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-045-52d1/publication-entry-proposal.md",
+      "proposal_sha256": "bfcb16aada2e6150c82173460a09da7f6667976033e0da5cfe31ad492790085f",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-045-52d1/publication-entry-changes.json",
+      "changes_sha256": "3b3bb1c4e88bf392b1e2e2ca56a41db28b3784f51a46da1224edbff34cbfc779",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-045-52d1/strict-entry.md",
+      "base_strict_entry_sha256": "56ac275c5e66a4f03da2598a5a8d8b3931648b20844ce74599045ca2c148efb5",
+      "variant": "initialfull",
+      "decision": "revise",
+      "length_revision_requests": [
+        {
+          "field": "이득",
+          "literal_chars": 52,
+          "sentence": "신고 없이 영업하면 5년 이하 징역 또는 5천만원 이하 벌금입니다(같은 법 제17조 제1항).",
+          "required": "문장과인용조항의뜻/조건을유지한채2개이하50자문장으로분리. 인용목록을별도문장으로옮길수있음."
+        }
+      ],
+      "additional_revision_requests": [],
+      "actual_primary_reading_scope": "가상자산법6·7, 특금법7·17 및 FBI IC3 PSA220721 본문 직접 확인. 승인권한 철회 조언은 FBI 본문 범위.",
+      "initial_canonical_findings": [
+        {
+          "entry": 45,
+          "entry_snapshot_sha256": "8f7bed66ebdb1237f15891c4a517ccb52c0c194a3dc69814ca54d151f3040d7e",
+          "status": "reviewed_revisions_required",
+          "source_review": "가상자산 분리보관·유사수신·미신고처벌·FBI권한 사기 경보 원문 미확인. 신고사업자 거래 가능과 시세손실 미보장 구분은 보존; 불공정거래 손해배상 가능성까지 부정 금지.",
+          "field_decisions": [
+            {
+              "proposal_key": "easy",
+              "field": "쉽게",
+              "decision": "revise",
+              "before": "한국에서는 신고된 거래소에서 가상자산을 사고팔 수 있습니다. 법은 거래소에 맡긴 현금과 코인을 따로 보관하게 합니다. 하지만 시세가 떨어진 손실을 메워 주는 조항은 없습니다. 신고 없이 영업하는 거래소는 그 자체로 불법입니다. 가상자산으로 원금 이상을 약속하며 돈을 모으면 유사수신입니다.",
+              "after": "국내 신고 거래소에서 가상자산을 사고팔 수 있습니다. 맡긴 현금·코인은 따로 보관해야 하지만 시세 손실 보전 조항은 없습니다. 미신고 영업은 불법입니다. 가상자산으로 원금 이상을 약속하며 돈을 모으면 유사수신입니다.",
+              "before_matches_source_entry": true,
+              "before_matches_candidate_entry": true,
+              "before_occurrences_in_source_entry": 1,
+              "after_chars": 120,
+              "after_sentences": 4,
+              "length_exception_requested": false,
+              "length_exception_accepted": false,
+              "source_entry_sha256": "e77eea2e06e3095b6642e857872a9431cae7743e717bbe14fed867122b69aa38",
+              "candidate_entry_sha256": "434ed95bd3a07d1acf3cd663d8e13920f72f1d4a408b91589dd6bafc9c74647c",
+              "reason": "가상자산으로 원금이상 약속하며 돈을 모으면 모두 유사수신이라는 단정은 과도합니다. 유사수신법2조의 무인가·불특정다수·업으로모집 조건을 남기세요. 분리보관은 확인한 가상자산법6·7조와 일치합니다.",
+              "scope": "Exact proposed wording only. Not full-entry, whole-chapter, publication, or formal KR-FIT approval.",
+              "before_equals_full_source_field": true,
+              "before_equals_full_candidate_field": true,
+              "scope_kind": "whole_field",
+              "direct_field_operation_eligible": false,
+              "operation_base_constraint": "baseline_or_candidate_only_when_whole_field_before_matches"
+            },
+            {
+              "proposal_key": "title",
+              "field": "title",
+              "decision": "approve",
+              "before": "비트코인·테더 같은 가상자산에 돈을 넣지 마세요. 같이 하자고 끌어도 따라가지 마세요. 값이 떨어진 손해는 누구도 메워 주지 않습니다",
+              "after": "비트코인·테더 같은 가상자산에 돈을 넣지 마세요. 같이 하자고 해도 따르지 마세요. 시세 손실 보전 조항은 없습니다",
+              "before_matches_source_entry": true,
+              "before_matches_candidate_entry": true,
+              "before_occurrences_in_source_entry": 1,
+              "after_chars": 64,
+              "after_sentences": null,
+              "length_exception_requested": false,
+              "length_exception_accepted": false,
+              "source_entry_sha256": "e77eea2e06e3095b6642e857872a9431cae7743e717bbe14fed867122b69aa38",
+              "candidate_entry_sha256": "434ed95bd3a07d1acf3cd663d8e13920f72f1d4a408b91589dd6bafc9c74647c",
+              "reason": "64자이며 비트코인·테더·가상자산 및 매수/동참 만류를 보존합니다. 누구도 메워주지 않는다는 일반화를 시세손실 보전조항 부재로 한정합니다. 분리보관법의 맥락과 별도 손해배상권은 이득에서 유지해야 합니다.",
+              "scope": "Exact proposed wording only. Not full-entry, whole-chapter, publication, or formal KR-FIT approval.",
+              "before_equals_full_source_field": true,
+              "before_equals_full_candidate_field": true,
+              "scope_kind": "whole_field",
+              "direct_field_operation_eligible": true,
+              "operation_base_constraint": "baseline_or_candidate_only_when_whole_field_before_matches"
+            },
+            {
+              "proposal_key": "todo",
+              "field": "비고의 TODO 문장",
+              "decision": "approve",
+              "before": "거래소의 신고 여부는 금융정보분석원 공지로 확인하세요(공지 주소는 TODO).",
+              "after": "거래소의 신고 여부는 금융정보분석원 공지로 확인하세요. 공지 주소는 아직 확인하지 못했습니다.",
+              "before_matches_source_entry": true,
+              "before_matches_candidate_entry": true,
+              "before_occurrences_in_source_entry": 1,
+              "after_chars": 52,
+              "after_sentences": null,
+              "length_exception_requested": false,
+              "length_exception_accepted": false,
+              "source_entry_sha256": "e77eea2e06e3095b6642e857872a9431cae7743e717bbe14fed867122b69aa38",
+              "candidate_entry_sha256": "434ed95bd3a07d1acf3cd663d8e13920f72f1d4a408b91589dd6bafc9c74647c",
+              "reason": "미확인 상태를 독자용 문장으로 유지하며 TODO 작업표지만 제거합니다. 확인 완료를 주장하거나 미해결 제한을 숨기지 않습니다. 장말 TODO 대조는 별도 승인 사항입니다.",
+              "scope": "Exact proposed wording only. Not full-entry, whole-chapter, publication, or formal KR-FIT approval.",
+              "before_equals_full_source_field": false,
+              "before_equals_full_candidate_field": false,
+              "scope_kind": "exact_substring_within_field",
+              "direct_field_operation_eligible": false,
+              "operation_base_constraint": "baseline_or_candidate_only_when_whole_field_before_matches"
+            }
+          ],
+          "candidate_entry_sha256": "434ed95bd3a07d1acf3cd663d8e13920f72f1d4a408b91589dd6bafc9c74647c",
+          "candidate_review_scope": "Read complete current candidate entry and source snapshot; field approvals do not resolve unverified primary sources or factual corrections in other fields."
+        }
+      ],
+      "canonical_closure": "partial_or_unresolved_see_requests_and_actual_scope",
+      "exact_hashes_rechecked": true,
+      "protected_checks": {
+        "six_labels": true,
+        "tag_preserved": true,
+        "grade_preserved": true,
+        "title_chars": 72,
+        "doi_add": [],
+        "doi_drop": []
+      },
+      "supersession": "This full proposal, if later integrated after approval, supersedes initial field edits for this entry; this review does not apply any operation."
+    }
+  ],
+  "approved_entries": [
+    1,
+    2,
+    19,
+    23,
+    28
+  ],
+  "revise_entries": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    9,
+    11,
+    12,
+    13,
+    15,
+    20,
+    22,
+    29,
+    34,
+    35,
+    37,
+    38,
+    41,
+    44,
+    45
+  ],
+  "formal_kr_fit_approval": false,
+  "integration_approval": false,
+  "whole_chapter_approval": false,
+  "scope_limit": "Frozen manifest 25 entries only; later author r2 proposals are not reviewed or adopted. No canonical files changed.",
+  "review_method": "Direct primary cache reading; author metadata is provenance only, not proof of unexamined text. Failed HTTP, shell HTML and bibliographic records are not counted as full text. Length checker includes inherited sentences and parentheses.",
+  "literal_checker": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/publication-partial-review-evidence/literal_check.py",
+  "source_provenance_policy": "Existing artifacts retain author retrieval metadata in each exact changes_path. This reviewer did not make their retrievals. Missing retrieval time/status remains unknown; artifact hashes below attest the bytes actually read, not currentness.",
+  "actual_artifact_read_log": [
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch05-audit/282793.xml",
+      "sha256": "f970ec9e84bae3c139fe8e190c9dda527662a64b9353daa0ee5dd3e7934250f7",
+      "access": "existing_cache_direct_read",
+      "scope": "Only clauses/pages specified in per-entry reading scope; no whole corpus assertion"
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/288143.xml",
+      "sha256": "754355c0b0ab2b7a5b5d9662afa9c3ed681d9557ce9ea179daef883b1c84fd67",
+      "access": "existing_cache_direct_read",
+      "scope": "Only clauses/pages specified in per-entry reading scope; no whole corpus assertion"
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290239.xml",
+      "sha256": "4044d5ecce3aa9332ae7d0a1576e170aae0c11e2bb50de55d781fbf90bd8e2a1",
+      "access": "existing_cache_direct_read",
+      "scope": "Only clauses/pages specified in per-entry reading scope; no whole corpus assertion"
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/280405.xml",
+      "sha256": "c430c1daf89379c4213ebbfbaa8f5ae76ad210bf2154d258686828d02a126e87",
+      "access": "existing_cache_direct_read",
+      "scope": "Only clauses/pages specified in per-entry reading scope; no whole corpus assertion"
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch05-audit/289999.xml",
+      "sha256": "7bef4053b5934f73d35d857f594ff58e8eaf94214d7b622289f983c9dd1eb603",
+      "access": "existing_cache_direct_read",
+      "scope": "Only clauses/pages specified in per-entry reading scope; no whole corpus assertion"
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/284389.xml",
+      "sha256": "c4d88fcbc2ad79526866b2614a30b2c610079a672d2105c429ce497670dc5569",
+      "access": "existing_cache_direct_read",
+      "scope": "Only clauses/pages specified in per-entry reading scope; no whole corpus assertion"
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/288915.xml",
+      "sha256": "b96a47d5b7a0de512c2e92b1be6d46fa346940a34089220b39e8838061345e8b",
+      "access": "existing_cache_direct_read",
+      "scope": "Only clauses/pages specified in per-entry reading scope; no whole corpus assertion"
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/285185.xml",
+      "sha256": "19211caf018039f7b50c1aea31f4cd54fe9a99cc509afee0797cc462d3ff30ad",
+      "access": "existing_cache_direct_read",
+      "scope": "Only clauses/pages specified in per-entry reading scope; no whole corpus assertion"
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290813.xml",
+      "sha256": "a6860b044e49798531374b7f272b048160d36648aa460e3b86962c06161d54f6",
+      "access": "existing_cache_direct_read",
+      "scope": "Only clauses/pages specified in per-entry reading scope; no whole corpus assertion"
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/277259.xml",
+      "sha256": "4b8f8e46ec72cefb2b4d9fe5b309e397ad397ee1ed2fd03f07d3041c0eef7374",
+      "access": "existing_cache_direct_read",
+      "scope": "Only clauses/pages specified in per-entry reading scope; no whole corpus assertion"
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290377.xml",
+      "sha256": "611a2c3354aada479c0c3e0867e254693ae48ce4b4e90097100fb721e2491abd",
+      "access": "existing_cache_direct_read",
+      "scope": "Only clauses/pages specified in per-entry reading scope; no whole corpus assertion"
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/268667.xml",
+      "sha256": "a9d6d5ef4f83b994dd30766a65a77e6f4debbf61bd3df676be15f2799bbefcfa",
+      "access": "existing_cache_direct_read",
+      "scope": "Only clauses/pages specified in per-entry reading scope; no whole corpus assertion"
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/289407.xml",
+      "sha256": "6fc47fae7ffca7654852bec70eaa54dc2a62a05083eb1348d32d2ad19ab69eec",
+      "access": "existing_cache_direct_read",
+      "scope": "Only clauses/pages specified in per-entry reading scope; no whole corpus assertion"
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/285341.xml",
+      "sha256": "77072a350394f9389186cc95430e677173d0883c8540728c23b84e476c9aa0e4",
+      "access": "existing_cache_direct_read",
+      "scope": "Only clauses/pages specified in per-entry reading scope; no whole corpus assertion"
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290599.xml",
+      "sha256": "dcea033f138d9ece7311e9ee3aa216c8edd0b36674038c8081d60a11a3ab0982",
+      "access": "existing_cache_direct_read",
+      "scope": "Only clauses/pages specified in per-entry reading scope; no whole corpus assertion"
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/285273.xml",
+      "sha256": "61d71f01d2824e7332c868f26d4cc9c6ca73ad09b9a3945375ec9ea8972d0bf7",
+      "access": "existing_cache_direct_read",
+      "scope": "Only clauses/pages specified in per-entry reading scope; no whole corpus assertion"
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch05-audit/268659.xml",
+      "sha256": "cbd6c690649b0d02b22f7832b8e39c99b9c066f9d3f10da236497dc9bcb70e9f",
+      "access": "existing_cache_direct_read",
+      "scope": "Only clauses/pages specified in per-entry reading scope; no whole corpus assertion"
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/260861.xml",
+      "sha256": "48c79028c2f10530016ea5dbcba209713636fb0080bcd85cccf421f11a6fd957",
+      "access": "existing_cache_direct_read",
+      "scope": "Only clauses/pages specified in per-entry reading scope; no whole corpus assertion"
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/288615.xml",
+      "sha256": "f636a6a9449a6c03608e624496c2d52182179a166150dadd964507262c26ebb3",
+      "access": "existing_cache_direct_read",
+      "scope": "Only clauses/pages specified in per-entry reading scope; no whole corpus assertion"
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/273629.xml",
+      "sha256": "48b6b00f5625f842d6005eeab12e41dc93c5d8596e5db4163266c53e4a21ab22",
+      "access": "existing_cache_direct_read",
+      "scope": "Only clauses/pages specified in per-entry reading scope; no whole corpus assertion"
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch05-audit/prec-83347.xml",
+      "sha256": "780d3977383ce2832b03e4e8e1dca6d69ab8c3861fae2d49d693bf05a44caa66",
+      "access": "existing_cache_direct_read",
+      "scope": "Only clauses/pages specified in per-entry reading scope; no whole corpus assertion"
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch05-audit/prec-191837.xml",
+      "sha256": "c8ddb723f0a114ebd4fcee7620c2b85f6517128d3dd1f62a2613e9dec5aef285",
+      "access": "existing_cache_direct_read",
+      "scope": "Only clauses/pages specified in per-entry reading scope; no whole corpus assertion"
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch05-audit/2100000285608.xml",
+      "sha256": "61db1d0e49a62348ea47b2d8516133c6b94e71905f38c84815a68836fa67fd08",
+      "access": "existing_cache_direct_read",
+      "scope": "Only clauses/pages specified in per-entry reading scope; no whole corpus assertion"
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/285715.xml",
+      "sha256": "f4cc2ef36e09e278b9bb1b55e121b9a1520a8a68f292bab94e267f07eefb7ab1",
+      "access": "existing_cache_direct_read",
+      "scope": "Only clauses/pages specified in per-entry reading scope; no whole corpus assertion"
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/277247.xml",
+      "sha256": "df88739da5899708ec4c7cb5a254e4794b9cef8f9680b97c7ce376200d21e8bf",
+      "access": "existing_cache_direct_read",
+      "scope": "Only clauses/pages specified in per-entry reading scope; no whole corpus assertion"
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch05-audit/2100000285140.xml",
+      "sha256": "1ca8fc0af06bd5fcf36fbac9f07e5f23c76c8cbe44cb3a0aa6e5c1ad612b5688",
+      "access": "existing_cache_direct_read",
+      "scope": "Only clauses/pages specified in per-entry reading scope; no whole corpus assertion"
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/276137.xml",
+      "sha256": "c264929821722c913d423fb7c57c7ff80ac4b7ab2364e1dfeb7bce5adf199c9c",
+      "access": "existing_cache_direct_read",
+      "scope": "Only clauses/pages specified in per-entry reading scope; no whole corpus assertion"
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/280389.xml",
+      "sha256": "0a598740eeba1fe889df5afd3396a517810a72545b07b212c0e34fc1c59a8770",
+      "access": "existing_cache_direct_read",
+      "scope": "Only clauses/pages specified in per-entry reading scope; no whole corpus assertion"
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/283629.xml",
+      "sha256": "1b715ee17c00ac659c9a729aeeac644fb05e9dbd37fd36b526087ce741f6f90a",
+      "access": "existing_cache_direct_read",
+      "scope": "Only clauses/pages specified in per-entry reading scope; no whole corpus assertion"
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290735.xml",
+      "sha256": "e500174ae43e28c185b6272a99032c3cfc300d006193d9284a8810894c7f3b3c",
+      "access": "existing_cache_direct_read",
+      "scope": "Only clauses/pages specified in per-entry reading scope; no whole corpus assertion"
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290725.xml",
+      "sha256": "8645c0e053dc589a64d5fa2b31a25b4f775a5ddfa3618b864998679e7a816fee",
+      "access": "existing_cache_direct_read",
+      "scope": "Only clauses/pages specified in per-entry reading scope; no whole corpus assertion"
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch05-audit/anlou2021.pdf",
+      "sha256": "73f35efe405933a5ba2eed8ce2ee34261db015c2419a20c1376aa5016abaad1f",
+      "access": "existing_cache_direct_read",
+      "scope": "Only clauses/pages specified in per-entry reading scope; no whole corpus assertion"
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/crossref/e9245621627a6c47e93a.json",
+      "sha256": "0431658cbcc4a4a0dc6902d4249f517130cc07c1b7e6d3e9c211795ada3d8efd",
+      "access": "existing_cache_direct_read",
+      "scope": "Only clauses/pages specified in per-entry reading scope; no whole corpus assertion"
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch05-partial-review/halbu-current-1.xml",
+      "sha256": "14c97aaabdd73f5013ccc8d0bd71d09983c92bc78dedcc20286727aaf1f69260",
+      "access": "reviewer_fresh_https_200_future_version",
+      "scope": "Only clauses/pages specified in per-entry reading scope; no whole corpus assertion"
+    },
+    {
+      "path": "/tmp/ch05-entry4-smartchoice.html",
+      "sha256": "28646ce468528432271304691419efb9d3d9926bc76ea9e8a01688e477b84735",
+      "access": "existing_author_artifact_direct_read"
+    },
+    {
+      "path": "/tmp/ch05e34-criteria.xml",
+      "sha256": "64e922b28e0d2e2b79c275cf1acec392e97d60975226d383201511e1a9e9a7f1",
+      "access": "existing_author_artifact_direct_read"
+    },
+    {
+      "path": "/tmp/entry35-game-proof/decree.xml",
+      "sha256": "a2abbdc3829ad6f21de04bfd77d8781c6fdedf391cc3eafca48b0a642b48be30",
+      "access": "existing_author_artifact_direct_read"
+    },
+    {
+      "path": "/tmp/ch05e37-sources/0.raw",
+      "sha256": "022ccc2eb81788489af6908ba139dd7dbe9ccd737bb70551d9b66c35b1e68c2d",
+      "access": "existing_author_artifact_direct_read"
+    },
+    {
+      "path": "/tmp/ch05e37-sources/author-index.html",
+      "sha256": "23a71026616ceb6390d349b0446f5459b86b524d1ba093bdb7105c4fa8b50be9",
+      "access": "existing_author_artifact_direct_read"
+    },
+    {
+      "path": "/tmp/ch05e45-fbi.html",
+      "sha256": "1a7773e837a2503137f46cd16799dc0b49657b463d0b5bdc50300b50aeb9c971",
+      "access": "existing_author_artifact_direct_read"
+    }
+  ],
+  "reviewer_fresh_http": [
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&ID=000355&efYd=20261018&type=XML",
+      "utc": "2026-10-18T16:54:10.742945Z",
+      "status": 200,
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch05-partial-review/halbu-current-1.xml",
+      "finding": "Returned 2027-09-09 future consolidated law, not requested current-law verification"
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&ID=000355&efYd=20261018&type=XML",
+      "status": 500,
+      "utc": null,
+      "body_preserved": false,
+      "scope": "failure only"
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=law&type=XML&query=%ED%95%A0%EB%B6%80%EA%B1%B0%EB%9E%98%EC%97%90%20%EA%B4%80%ED%95%9C%20%EB%B2%95%EB%A5%A0&display=30",
+      "status": 502,
+      "utc": null,
+      "body_preserved": false,
+      "scope": "failure only"
+    }
+  ]
+}

@@ -1,0 +1,335 @@
+{
+  "entry": 37,
+  "status": "unadopted_proposal",
+  "base_file": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-037-bfaa/strict-entry.md",
+  "base_sha256": "dce2225dad6fc7cb76ad08ece0f5c55f60ef06191e31908da02c9de9f34564e4",
+  "proposal_sha256": "7c1d579a9c9a7cf07e421f4598a3040993b8df7c8bd7266d96f56d3a5dac7d8e",
+  "created_at": "2026-10-18T16:39:57.070658+00:00",
+  "field_changes": [
+    {
+      "field": "비용",
+      "before": "돈은 들지 않습니다. 이번 거래에서 이미 손해를 봤다고 인정하고 팔기가 어렵습니다.",
+      "after": "돈은 들지 않습니다. 이번 거래에서 이미 손해를 봤다고 인정하고 팔기가 어렵습니다.",
+      "changed": false,
+      "reason": "원문 보존",
+      "primary_evidence": [],
+      "change_type": "unchanged"
+    },
+    {
+      "field": "쉽게",
+      "before": "사람은 주식이 오르면 팔고 떨어지면 버티려 합니다. 미국 1만 개 계좌의 7년 기록을 살펴본 연구가 있습니다. 오른 주식은 떨어진 주식보다 팔릴 가능성이 5할 넘게 높았습니다. 같은 사람들이 손실 난 주식을 더 사들이기도 했습니다. 그렇게 남긴 손실 주식은 그 뒤 1년 동안 수익이 더 낮았습니다. 판 주식보다 평균 3.4%포인트 덜 벌었습니다.",
+      "after": "미국 자료에서는 남긴 손실 주식의 이후 1년 시장 대비 수익이 낮았습니다. 판 이익 주식보다 평균 3.4%포인트 낮았습니다. 한국의 거래 비용과 세제는 다릅니다.",
+      "changed": true,
+      "reason": "독립 확인한 3.4%포인트를 미국·이후1년·시장대비 비교로 간결하게 요약했습니다. 2차 비교와 표본수·설계 설명은 이득에 남겼습니다.",
+      "primary_evidence": [
+        {
+          "locator": "p.1790",
+          "quote": "Returns are calculated in excess of the CRSP value-weighted index. For winners that are sold, the average excess return over the following year is 3.4 percent more than it is for losers that are not sold."
+        },
+        {
+          "locator": "p.1792 Table VI",
+          "quote": "Difference in excess returns 0.0103 0.0341 0.0358",
+          "note": "252-trading-day column is 0.0341 = 3.41 percentage points, rounded 3.4."
+        }
+      ],
+      "change_type": "editorial_summary"
+    },
+    {
+      "field": "이득",
+      "before": "이 연구는 미국 할인 증권사 1만 개 계좌를 살펴봤습니다. 1987~1993년 전체 거래 기록을 분석했습니다. 오른 주식이 팔린 비율(PGR)은 0.148이었습니다. 떨어진 주식이 팔린 비율(PLR)은 0.098이었습니다. 차이는 0.050이고 t값은 35를 넘었습니다. 날짜 단위로 보면 오른 주식이 팔릴 가능성이 더 높았습니다. 떨어진 주식보다 50% 넘게 높았습니다. 같은 계좌들은 손실 주식을 더 적극적으로 추가 매수했습니다. 손실 주식을 다시 산 비율은 0.135였습니다. 이익 주식은 0.094였고 t값은 19였습니다. \"남겨 둔 주식은 회복한다\"는 생각도 검증했습니다. 결과는 반대였습니다. 판 이익 주식의 이후 1년 초과수익이 더 높았습니다. 남긴 손실 주식보다 평균 3.4%포인트 높았습니다. 초과수익은 시장 지수보다 더 번 몫입니다. 저자는 평균값으로 예시도 계산했습니다. 같은 1,000달러어치를 팔 때 손실 주식을 판 쪽이 더 벌었습니다. 이익 주식을 판 쪽보다 이후 1년 수익이 약 4.4% 높았습니다. 이 4.4%에는 손실 주식을 팔아 세금을 일찍 줄인 몫이 들어 있습니다. 미국 세제로 계산한 결과입니다(미국, 1987~1993년).",
+      "after": "이 연구는 미국 할인 증권사 1만 개 계좌를 살펴봤습니다. 1987~1993년 전체 거래 기록을 분석했습니다. 오른 주식이 팔린 비율(PGR)은 0.148이었습니다. 떨어진 주식이 팔린 비율(PLR)은 0.098이었습니다. 차이는 0.050이고 t값은 35를 넘었습니다. 주식을 판 날의 이익·손실 주식을 각각 분모로 삼았습니다. 각 분모에는 그날 팔지 않은 주식도 포함됩니다. 12월에는 반대로 손실 주식이 더 잘 팔렸습니다. 날짜 단위로 보면 오른 주식이 팔릴 가능성이 더 높았습니다. 떨어진 주식보다 50% 넘게 높았습니다. 같은 계좌들은 손실 주식을 더 적극적으로 추가 매수했습니다. 손실 주식을 다시 산 비율은 0.135였습니다. 이익 주식은 0.094였고 t값은 19였습니다. 두 t값은 거래 판단들이 서로 독립적이라고 가정한 값입니다. 판단들이 서로 연관되면 통계적 유의성이 과장될 수 있습니다. \"남겨 둔 주식은 회복한다\"는 생각도 검증했습니다. 결과는 반대였습니다. 판 이익 주식의 이후 1년 초과수익이 더 높았습니다. 남긴 손실 주식보다 평균 3.4%포인트 높았습니다. 초과수익은 시장 지수보다 더 번 몫입니다. 저자는 평균값으로 가상의 투자자 예시도 계산했습니다. 같은 1,000달러어치를 팔 때를 비교했습니다. 세율은 15%이고 손실과 상계할 과세 이익이 있다고 가정했습니다. 남긴 주식은 1년 뒤 판다고 가정했습니다. 절세액을 굴려 얻을 수익률은 8%로 잡았습니다. 이 조건에서 손실 주식을 판 쪽의 이득이 더 컸습니다. 이후 1년의 이득 차이는 1,000달러의 약 4.4%였습니다. 이 4.4%에는 손실 주식을 팔아 세금을 일찍 줄인 몫이 들어 있습니다. 미국 세제로 계산한 결과입니다(미국, 1987~1993년).",
+      "changed": true,
+      "reason": "저자 원문으로 비율·표VI·추가매수·4.4% 예시를 대조했습니다. 비율의 분모와 12월 예외, t값의 독립 가정 한계, 4.4% 가상예시의 세율·상계가능이익·매도시점·기회수익률을 명시했습니다.",
+      "primary_evidence": [
+        {
+          "locator": "pp.1775,1780",
+          "quote": "I obtained the trading records from 1987 through 1993 for 10,000 accounts at a large discount brokerage house."
+        },
+        {
+          "locator": "p.1783 Table I",
+          "quote": "PLR 0.098; PGR 0.148; t-statistic -35",
+          "note": "pdftotext renders minus sign as 2; positive PGR-minus-PLR reverses table subtraction."
+        },
+        {
+          "locator": "p.1784",
+          "quote": "This lack of independence will inflate the test statistics, though it won’t bias the observed proportions."
+        },
+        {
+          "locator": "p.1790",
+          "quote": "Returns are calculated in excess of the CRSP value-weighted index. For winners that are sold, the average excess return over the following year is 3.4 percent more than it is for losers that are not sold."
+        },
+        {
+          "locator": "p.1792 Table VI",
+          "quote": "Difference in excess returns 0.0103 0.0341 0.0358",
+          "note": "252-trading-day column is 0.0341 = 3.41 percentage points, rounded 3.4."
+        },
+        {
+          "locator": "p.1794",
+          "quote": "For the entire sample PLPA = 0.135 and PGPA = 0.094.",
+          "note": "PDF extraction renders equals as 5. t=19, independence caveat in footnote13."
+        },
+        {
+          "locator": "p.1796",
+          "quote": "Assume that our investor’s marginal tax rate is 15 percent and that he has taxable gains against which to offset losses."
+        },
+        {
+          "locator": "p.1796",
+          "quote": "Suppose that whichever stock the investor does not sell now, he will sell in one year; ... If he can expect a return of 8 percent on his money ... Using $1,000 as a basis ... the investor’s return is about 4.4 percent higher over the next year if he sells the loser rather than the winner."
+        }
+      ],
+      "change_type": "source_verified_clarification"
+    },
+    {
+      "field": "근거등급",
+      "before": "A",
+      "after": "A",
+      "changed": false,
+      "reason": "원문 보존",
+      "primary_evidence": [],
+      "change_type": "unchanged"
+    },
+    {
+      "field": "출처",
+      "before": "Odean T (1998). Are Investors Reluctant to Realize Their Losses? The Journal of Finance 53(5):1775-1798. https://doi.org/10.1111/0022-1082.00072 ; 소득세법 제94조·제103조·제104조 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=280405 ; 지방세법 제103조의3 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=282559&efYd=20260701",
+      "after": "Odean T (1998). Are Investors Reluctant to Realize Their Losses? The Journal of Finance 53(5):1775-1798. https://doi.org/10.1111/0022-1082.00072 ; 소득세법 제94조·제103조·제104조 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=280405 ; 지방세법 제103조의3 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=282559&efYd=20260701",
+      "changed": false,
+      "reason": "원문 보존",
+      "primary_evidence": [],
+      "change_type": "unchanged"
+    },
+    {
+      "field": "비고",
+      "before": "여기서는 \"팔지 말지\"를 판단합니다. 제15항(주식 자주 사고팔지 않기)은 \"자주 손대지 말라\"는 권고입니다. 두 권고는 부딪치지 않습니다. 규칙을 미리 정해 따르면 오히려 손대는 횟수가 줄어듭니다. 물타기로 평균 단가가 낮아진다는 계산은 맞습니다. 이를 손실을 만회하는 방법으로 여기는 게 문제입니다. 실제로는 그 한 종목에 건 돈이 늘어납니다. 제19항(한곳에 몰지 않기)을 보세요. 세금 부분은 한국에 그대로 맞지 않습니다. 국내 상장주식은 대주주가 아니면 증권시장 매매차익에 양도소득세가 없습니다(「소득세법」 제94조 제1항 제3호 가목). 해외 주식은 양도차익에서 1년에 250만원을 공제합니다. 일반적인 국외주식의 공제 후 양도소득세율은 20%입니다. 지방소득세 2%를 합치면 22%입니다. 법정 특수유형은 별도 세율을 확인하세요(같은 법 제103조 제1항 제2호, 제104조 제1항 제12호, 「지방세법」 제103조의3 제1항 제12호). 나머지 결론은 그대로 성립합니다. 자료는 1980~1990년대 미국 계좌 기록입니다. 한국의 거래 비용과 세제는 다릅니다. 투자 권유가 아닙니다. 2026-10-10 법령 확인(국가법령정보센터).",
+      "after": "여기서는 \"팔지 말지\"를 판단합니다. 제목은 이 자료를 참고한 필자의 권고입니다. 제15항(주식 자주 사고팔지 않기)은 \"자주 손대지 말라\"는 권고입니다. 두 권고는 부딪치지 않습니다. 미리 정한 규칙을 따르면 손대는 횟수를 줄일 수도 있습니다. 물타기로 평균 단가가 낮아진다는 계산은 맞습니다. 이를 손실을 만회하는 방법으로 여기는 게 문제입니다. 실제로는 그 한 종목에 건 돈이 늘어납니다. 제19항(한곳에 몰지 않기)을 보세요. 세금 부분은 한국에 그대로 맞지 않습니다. 국내 상장주식은 대주주가 아니면 증권시장 매매차익에 양도소득세가 없습니다(「소득세법」 제94조 제1항 제3호 가목). 해외 주식은 양도차익에서 1년에 250만원을 공제합니다. 일반적인 국외주식의 공제 후 양도소득세율은 20%입니다. 지방소득세 2%를 합치면 22%입니다. 법정 특수유형은 별도 세율을 확인하세요(같은 법 제103조 제1항 제2호, 제104조 제1항 제12호, 「지방세법」 제103조의3 제1항 제12호). 이 자료가 한국 투자자의 수익을 보장하지는 않습니다. 자료는 1980~1990년대 미국 계좌 기록입니다. 한국의 거래 비용과 세제는 다릅니다. 투자 권유가 아닙니다. 2026-10-10 법령 확인(국가법령정보센터).",
+      "changed": true,
+      "reason": "제목이 필자의 권고임을 구분하고 규칙 준수 효과와 한국 적용을 단정하지 않도록 한정했습니다. 한국 세법 문장과 기존 경고·부정·조건은 변경하지 않았습니다.",
+      "primary_evidence": [],
+      "change_type": "author_judgment_and_scope"
+    }
+  ],
+  "source_verification": {
+    "method": "HTTPS GET with default TLS certificate verification; pdftotext -layout; independently read abstract, data, Tables I/VI and associated results, additional-purchase discussion/footnote13, final hypothetical calculation. Not a DOI/HTTP-only check.",
+    "requests": [
+      {
+        "url": "https://faculty.haas.berkeley.edu/odean/papers%20current%20versions/areinvestorsreluctant.pdf",
+        "requested_at": "2026-10-18T16:38:25.206590+00:00",
+        "status": 200,
+        "final_url": "https://faculty.haas.berkeley.edu/odean/papers%20current%20versions/areinvestorsreluctant.pdf",
+        "raw_path": "/tmp/ch05e37-sources/0.raw",
+        "sha256": "022ccc2eb81788489af6908ba139dd7dbe9ccd737bb70551d9b66c35b1e68c2d",
+        "bytes": 133322,
+        "pdf": true
+      },
+      {
+        "url": "https://faculty.haas.berkeley.edu/odean/Papers%20current%20versions/AreInvestorsReluctant.pdf",
+        "requested_at": "2026-10-18T16:38:26.206880+00:00",
+        "status": 200,
+        "final_url": "https://faculty.haas.berkeley.edu/odean/Papers%20current%20versions/AreInvestorsReluctant.pdf",
+        "raw_path": "/tmp/ch05e37-sources/1.raw",
+        "sha256": "022ccc2eb81788489af6908ba139dd7dbe9ccd737bb70551d9b66c35b1e68c2d",
+        "bytes": 133322,
+        "pdf": true
+      },
+      {
+        "url": "https://faculty.haas.berkeley.edu/odean/papers/AreInvestorsReluctant.pdf",
+        "requested_at": "2026-10-18T16:38:26.641397+00:00",
+        "error": "HTTP Error 404: Not Found",
+        "status": 404,
+        "raw_path": "/tmp/ch05e37-sources/2.raw",
+        "sha256": "dc1d54dab6ec8c00f70137927504e4f222c8395f10760b6beecfcfa94e08249f",
+        "bytes": 1245,
+        "pdf": false
+      }
+    ],
+    "actual_level_read": "Author-hosted published Journal of Finance PDF, pp1775–1798; relevant passages above read. Author homepage links exact PDF.",
+    "author_homepage": {
+      "url": "https://faculty.haas.berkeley.edu/odean/",
+      "requested_at": "2026-10-18T16:38:39.945343+00:00",
+      "http_status": 200,
+      "raw_path": "/tmp/ch05e37-sources/author-index.html",
+      "sha256": "23a71026616ceb6390d349b0446f5459b86b524d1ba093bdb7105c4fa8b50be9"
+    },
+    "text_path": "/tmp/ch05e37-sources/odean.txt",
+    "text_sha256": "0e12d803cb8ae6e0d04d44750f9f37a3936f96503bec277ba332643b6ceecc6c",
+    "quotations": [
+      {
+        "locator": "pp.1775,1780",
+        "quote": "I obtained the trading records from 1987 through 1993 for 10,000 accounts at a large discount brokerage house."
+      },
+      {
+        "locator": "p.1783 Table I",
+        "quote": "PLR 0.098; PGR 0.148; t-statistic -35",
+        "note": "pdftotext renders minus sign as 2; positive PGR-minus-PLR reverses table subtraction."
+      },
+      {
+        "locator": "p.1784",
+        "quote": "This lack of independence will inflate the test statistics, though it won’t bias the observed proportions."
+      },
+      {
+        "locator": "p.1790",
+        "quote": "Returns are calculated in excess of the CRSP value-weighted index. For winners that are sold, the average excess return over the following year is 3.4 percent more than it is for losers that are not sold."
+      },
+      {
+        "locator": "p.1792 Table VI",
+        "quote": "Difference in excess returns 0.0103 0.0341 0.0358",
+        "note": "252-trading-day column is 0.0341 = 3.41 percentage points, rounded 3.4."
+      },
+      {
+        "locator": "p.1794",
+        "quote": "For the entire sample PLPA = 0.135 and PGPA = 0.094.",
+        "note": "PDF extraction renders equals as 5. t=19, independence caveat in footnote13."
+      },
+      {
+        "locator": "p.1796",
+        "quote": "Assume that our investor’s marginal tax rate is 15 percent and that he has taxable gains against which to offset losses."
+      },
+      {
+        "locator": "p.1796",
+        "quote": "Suppose that whichever stock the investor does not sell now, he will sell in one year; ... If he can expect a return of 8 percent on his money ... Using $1,000 as a basis ... the investor’s return is about 4.4 percent higher over the next year if he sells the loser rather than the winner."
+      }
+    ]
+  },
+  "intentional_numeric_or_scope_changes": [
+    "쉽게 omits secondary 50%-sale and repurchase comparisons; retains verified central 3.4 percentage-point comparison. No numerical correction or removal for lack of verification is needed.",
+    "4.4% is explicitly a hypothetical difference based on $1,000, not a personal promised return or a relative change in a realized yield. All original figures retained in 이득.",
+    "Adds source-specific December exception and independence caveat.",
+    "Author advice is identified as judgment; Korean outcomes are not guaranteed."
+  ],
+  "doi_changes": {
+    "added": [],
+    "removed": [],
+    "reason": "Original DOI and source field preserved exactly; alternative author PDF provenance is in this changes record."
+  },
+  "unresolved_limitations": [
+    "No new legal verification undertaken; unchanged Korean tax statements retain their original 2026-10-10 as-of claim, which this worker does not certify.",
+    "Study reflects historical US discount brokerage accounts; no causal guarantee or Korean individual return forecast.",
+    "4.4% is a conditional illustration; original evidence grade is protected and not independently regraded.",
+    "Pending independent exact-hash review; neither this proposal nor earlier editorial proposal is self-approved."
+  ],
+  "validation": {
+    "new_or_modified_sentences": [
+      {
+        "field": "쉽게",
+        "sentence": "미국 자료에서는 남긴 손실 주식의 이후 1년 시장 대비 수익이 낮았습니다.",
+        "chars": 41
+      },
+      {
+        "field": "쉽게",
+        "sentence": "판 이익 주식보다 평균 3.4%포인트 낮았습니다.",
+        "chars": 27
+      },
+      {
+        "field": "쉽게",
+        "sentence": "한국의 거래 비용과 세제는 다릅니다.",
+        "chars": 20
+      },
+      {
+        "field": "이득",
+        "sentence": "주식을 판 날의 이익·손실 주식을 각각 분모로 삼았습니다.",
+        "chars": 32
+      },
+      {
+        "field": "이득",
+        "sentence": "각 분모에는 그날 팔지 않은 주식도 포함됩니다.",
+        "chars": 26
+      },
+      {
+        "field": "이득",
+        "sentence": "12월에는 반대로 손실 주식이 더 잘 팔렸습니다.",
+        "chars": 27
+      },
+      {
+        "field": "이득",
+        "sentence": "두 t값은 거래 판단들이 서로 독립적이라고 가정한 값입니다.",
+        "chars": 33
+      },
+      {
+        "field": "이득",
+        "sentence": "판단들이 서로 연관되면 통계적 유의성이 과장될 수 있습니다.",
+        "chars": 33
+      },
+      {
+        "field": "이득",
+        "sentence": "저자는 평균값으로 가상의 투자자 예시도 계산했습니다.",
+        "chars": 29
+      },
+      {
+        "field": "이득",
+        "sentence": "같은 1,000달러어치를 팔 때를 비교했습니다.",
+        "chars": 26
+      },
+      {
+        "field": "이득",
+        "sentence": "세율은 15%이고 손실과 상계할 과세 이익이 있다고 가정했습니다.",
+        "chars": 36
+      },
+      {
+        "field": "이득",
+        "sentence": "남긴 주식은 1년 뒤 판다고 가정했습니다.",
+        "chars": 23
+      },
+      {
+        "field": "이득",
+        "sentence": "절세액을 굴려 얻을 수익률은 8%로 잡았습니다.",
+        "chars": 26
+      },
+      {
+        "field": "이득",
+        "sentence": "이 조건에서 손실 주식을 판 쪽의 이득이 더 컸습니다.",
+        "chars": 30
+      },
+      {
+        "field": "이득",
+        "sentence": "이후 1년의 이득 차이는 1,000달러의 약 4.4%였습니다.",
+        "chars": 34
+      },
+      {
+        "field": "비고",
+        "sentence": "제목은 이 자료를 참고한 필자의 권고입니다.",
+        "chars": 24
+      },
+      {
+        "field": "비고",
+        "sentence": "미리 정한 규칙을 따르면 손대는 횟수를 줄일 수도 있습니다.",
+        "chars": 33
+      },
+      {
+        "field": "비고",
+        "sentence": "이 자료가 한국 투자자의 수익을 보장하지는 않습니다.",
+        "chars": 29
+      }
+    ],
+    "max_chars": 41,
+    "easy_chars": 90,
+    "easy_sentence_count": 3,
+    "six_fields_original_order": [
+      "비용",
+      "쉽게",
+      "이득",
+      "근거등급",
+      "출처",
+      "비고"
+    ],
+    "cost_tag_exact": true,
+    "evidence_grade_exact": true,
+    "title_unchanged": true,
+    "immutable_sha256_before": {
+      "final.md": "f03d58ddee1bffc3b354d8a315d46202ca0f8ebe0f6aea7b5432196f0756664b",
+      "01_input.txt": "30a26cc9b68bd30275470141dd83cde760748c7e2854c2fa3b0bd382f640232f",
+      "01_input_with_metrics.txt": "e57765835a11631bfd126c75484b5c8105ee4b4974d7ee818735d5fcecdbebf1",
+      "entry_snapshot.md": "dce2225dad6fc7cb76ad08ece0f5c55f60ef06191e31908da02c9de9f34564e4",
+      "strict-entry.md": "dce2225dad6fc7cb76ad08ece0f5c55f60ef06191e31908da02c9de9f34564e4",
+      "editorial-proposal.json": "727a94d3d207f5def29fdbd410797dd269cc8e29d52686ae04ad204653512b7d",
+      "00_metrics.json": "abfedb005fdcfd2ee0307e9fefc962d3a7546225ffa6c5555a6d8c0ef95bc27e"
+    },
+    "immutable_sha256_after": {
+      "final.md": "f03d58ddee1bffc3b354d8a315d46202ca0f8ebe0f6aea7b5432196f0756664b",
+      "01_input.txt": "30a26cc9b68bd30275470141dd83cde760748c7e2854c2fa3b0bd382f640232f",
+      "01_input_with_metrics.txt": "e57765835a11631bfd126c75484b5c8105ee4b4974d7ee818735d5fcecdbebf1",
+      "entry_snapshot.md": "dce2225dad6fc7cb76ad08ece0f5c55f60ef06191e31908da02c9de9f34564e4",
+      "strict-entry.md": "dce2225dad6fc7cb76ad08ece0f5c55f60ef06191e31908da02c9de9f34564e4",
+      "editorial-proposal.json": "727a94d3d207f5def29fdbd410797dd269cc8e29d52686ae04ad204653512b7d",
+      "00_metrics.json": "abfedb005fdcfd2ee0307e9fefc962d3a7546225ffa6c5555a6d8c0ef95bc27e"
+    }
+  }
+}

@@ -1,0 +1,358 @@
+{
+  "entry": 45,
+  "status": "unadopted_r2_pending_independent_exact_hash_review",
+  "base_file": "strict-entry.md",
+  "base_sha256": "56ac275c5e66a4f03da2598a5a8d8b3931648b20844ce74599045ca2c148efb5",
+  "proposal_sha256": "c2a722c7337d799c8e31e543fe6717fc15abbd0503d89b768e4e9ee156f01ecd",
+  "protected_before_sha256": {
+    "final.md": "ba60c5703ac4877f9cbdf5006354f4585685c96429fed1b474b5a83bd87a14d6",
+    "01_input_with_metrics.txt": "5277bc9132baac6cc52dcab75eb16339dc628cc2345d1d1fc2d2e87d5559aeac",
+    "entry_snapshot.md": "8f7bed66ebdb1237f15891c4a517ccb52c0c194a3dc69814ca54d151f3040d7e",
+    "strict-entry.md": "56ac275c5e66a4f03da2598a5a8d8b3931648b20844ce74599045ca2c148efb5",
+    "editorial-proposal.json": "526996c625a03f8ba1ec92a27cfefe65f4d2c8d8bd7ecbe06f43de52a6478450"
+  },
+  "changes": [
+    {
+      "field": "title",
+      "before": "### 45. 비트코인·테더 같은 가상자산에 돈을 넣지 마세요. 같이 하자고 끌어도 따라가지 마세요. 값이 떨어진 손해는 누구도 메워 주지 않습니다",
+      "after": "### 45. 비트코인·테더 같은 가상자산에 돈을 넣지 마세요. 같이 하자고 해도 따르지 마세요. 시세 손실 보전 조항은 없습니다",
+      "reason": "Joint source-backed editorial revision; legal conditions, investor protections and separate safety advice retained."
+    },
+    {
+      "field": "쉽게",
+      "before": "- 쉽게: 한국에서는 신고된 거래소에서 가상자산을 사고팔 수 있습니다. 법은 거래소에 맡긴 현금과 코인을 따로 보관하게 합니다. 하지만 시세가 떨어진 손실을 메워 주는 조항은 없습니다. 신고 없이 영업하는 거래소는 그 자체로 불법입니다. 가상자산으로 원금 이상을 약속하며 돈을 모으면 유사수신입니다.",
+      "after": "- 쉽게: 국내 신고 거래소에서 거래할 수 있습니다. 현금·코인은 따로 보관하되 시세 손실은 보장하지 않습니다. 허가·등록·신고 없이 불특정 다수의 돈·코인을 모으는 업이 있습니다. 원금 이상을 약속해 받으면 유사수신입니다.",
+      "reason": "Joint source-backed editorial revision; legal conditions, investor protections and separate safety advice retained."
+    },
+    {
+      "field": "이득",
+      "before": "- 이득: 가상자산은 경제적 가치를 지닌 전자적 증표입니다. 전자적으로 거래·이전됩니다(「가상자산이용자보호법」 제2조 제1호). 사업자는 이용자가 맡긴 현금(예치금)을 자기 재산과 분리해야 합니다. 은행 등에 예치·신탁해야 합니다. 사업자 신고가 말소되거나 파산하면 그 기관이 이용자에게 먼저 돌려줍니다(같은 법 제6조). 이용자의 가상자산도 따로 보관해야 합니다. 같은 종류·수량을 실제로 갖고 있어야 합니다(같은 법 제7조). 미공개 정보 이용, 짜고 하는 매매, 시세조종, 부정거래는 금지합니다. 어긴 사람은 이용자 손해를 배상합니다(같은 법 제10조). 이 법은 맡긴 돈과 코인의 보관을 보호합니다. 시세가 떨어져 생긴 손실을 보전하는 조항은 없습니다. 가상자산 거래를 영업으로 하려면 신고해야 합니다. 신고는 금융정보분석원장에게 합니다(「특정금융정보법」 제7조 제1항). 신고 없이 영업하면 5년 이하 징역 또는 5천만원 이하 벌금입니다(같은 법 제17조 제1항). 허가 없이 불특정 다수에게서 자금을 모으는 경우입니다. 자금에는 가상자산도 포함됩니다. 이때 원금 이상을 주겠다고 하면 유사수신행위입니다(「유사수신행위법」 제2조). 코인 지갑을 노리는 수법도 있습니다. 미국 연방수사국(FBI)은 2022년 지갑 권한 요청을 경고했습니다. 요청 창에서 동의를 누르면 상대가 코인을 빼 갈 수 있습니다. 한도 없이 빼 갈 수 있다는 경고였습니다. 확실하지 않은 사이트에는 지갑을 연결하지 말라고 권했습니다. 전송 권한을 받은 사이트도 정기적으로 확인하라고 했습니다. 확인에는 권한 조회 도구를 쓰라고 했습니다.",
+      "after": "- 이득: 가상자산은 경제적 가치를 지닌 전자적 증표입니다. 전자적으로 거래·이전됩니다(「가상자산이용자보호법」 제2조 제1호). 사업자는 이용자가 맡긴 현금(예치금)을 자기 재산과 분리해야 합니다. 은행 등에 예치·신탁해야 합니다. 신고 말소·해산·합병 결의·파산선고 때 지급합니다. 이용자의 청구에 따라 우선 지급합니다(같은 법 제6조). 이용자의 가상자산도 따로 보관해야 합니다. 같은 종류·수량을 실제로 갖고 있어야 합니다(같은 법 제7조). 미공개 정보 이용, 짜고 하는 매매, 시세조종, 부정거래는 금지합니다. 어긴 사람은 그 위반으로 생긴 손해를 배상합니다(같은 법 제10조). 이 법은 맡긴 돈과 코인의 보관을 보호합니다. 시세가 떨어져 생긴 손실을 보전하는 조항은 없습니다. 가상자산 거래를 영업으로 하려면 신고해야 합니다. 신고는 금융정보분석원장에게 합니다(「특정금융정보법」 제7조 제1항). 신고 없이 영업하면 5년 이하 징역 또는 5천만원 이하 벌금입니다(같은 법 제17조 제1항). 다른 법령의 인가·허가·등록·신고 없이 자금을 모으는 경우입니다. 불특정 다수에게서 자금을 모으는 일을 업으로 해야 합니다. 자금에는 가상자산도 포함됩니다. 원금 이상을 주기로 약속하고 받는 행위 등이 유사수신입니다. 근거는 「유사수신행위법」 제2조입니다. 개인 사이의 모든 차용 약속이 여기에 해당하지는 않습니다. 코인 지갑을 노리는 수법도 있습니다. 미국 연방수사국(FBI)은 2022년 지갑 권한 요청을 경고했습니다. 요청 창에서 동의를 누르면 상대가 코인을 빼 갈 수 있습니다. 한도 없이 빼 갈 수 있다는 경고였습니다. 확실하지 않은 사이트에는 지갑을 연결하지 말라고 권했습니다. 전송 권한을 받은 사이트도 정기적으로 확인하라고 했습니다. 확인에는 권한 조회 도구를 쓰라고 했습니다.",
+      "reason": "Joint source-backed editorial revision; legal conditions, investor protections and separate safety advice retained."
+    },
+    {
+      "field": "비고",
+      "before": "- 비고: 원문은 중국의 규정과 판결을 근거로 했습니다. 중국은 개인의 가상화폐 투자를 공서양속 위반으로 무효로 봅니다. 손실은 본인 부담으로 한다는 규정입니다. 테더 구매 대금 반환 소송을 기각한 중국 판결도 들었습니다. 한국에서는 신고 사업자를 통한 거래가 합법입니다. 보관 보호 장치도 있습니다. 그래서 \"사지 마라\"는 권고는 그대로 뒀습니다. 근거는 \"시세 손실은 아무도 보전하지 않고, 미신고 업체와 유사수신을 경계해야 한다\"로 바꿨습니다. 거래소의 신고 여부는 금융정보분석원 공지로 확인하세요(공지 주소는 TODO). 남이 훔쳐 가거나 속여 가져간 코인은 형사 사건입니다. 112에 신고하세요. 내 통장으로 남의 돈을 받아 코인을 사서 보내 주는 부업은 다른 문제입니다. 처벌받을 수 있습니다. 제9절(흔한 법적 레드라인)을 보세요. 고수익을 약속하는 투자를 알아보는 법은 제6항(\"고수익\"이면 떠나기)에 있습니다. 해외 자산을 사는 합법 경로는 제38항(해외 주식은 국내 증권사로)에 있습니다. 투자 권유가 아닙니다. 2026-10-10 법령 확인(국가법령정보센터).",
+      "after": "- 비고: 원문은 중국의 규정과 판결을 근거로 했습니다. 중국은 개인의 가상화폐 투자를 공서양속 위반으로 무효로 봅니다. 손실은 본인 부담으로 한다는 규정입니다. 테더 구매 대금 반환 소송을 기각한 중국 판결도 들었습니다. 이 중국 규정과 판결은 이번에 원문을 확인하지 못했습니다. 한국에서는 신고 사업자를 통한 거래가 합법입니다. 보관 보호 장치도 있습니다. 그래서 \"사지 마라\"는 권고는 그대로 뒀습니다. 이 법에는 시세 손실 보전 조항이 없습니다. 불공정거래로 생긴 손해의 배상 책임과는 구별합니다. 미신고 업체와 유사수신을 경계하세요. 매수하지 말라는 권고는 개인의 투자 선택에 관한 조언입니다. 거래소의 신고 여부는 금융정보분석원 공지로 확인하세요. 공지 주소는 아직 확인하지 못했습니다. 남이 훔쳐 가거나 속여 가져간 코인은 형사 사건입니다. 112에 신고하세요. 내 통장으로 남의 돈을 받아 코인을 사서 보내 주는 부업은 다른 문제입니다. 처벌받을 수 있습니다. 제9절(흔한 법적 레드라인)을 보세요. 고수익을 약속하는 투자를 알아보는 법은 제6항(\"고수익\"이면 떠나기)에 있습니다. 해외 자산을 사는 합법 경로는 제38항(해외 주식은 국내 증권사로)에 있습니다. 투자 권유가 아닙니다. 부업의 처벌 여부는 실제 관여와 사실관계에 따라 달라집니다. 2026-10-18 관련 법령 확인(국가법령정보센터).",
+      "reason": "Joint source-backed editorial revision; legal conditions, investor protections and separate safety advice retained."
+    }
+  ],
+  "primary_sources": [
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=260861&type=XML",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/260861.xml",
+      "raw_sha256": "48c79028c2f10530016ea5dbcba209713636fb0080bcd85cccf421f11a6fd957",
+      "verification_date": "2026-10-18",
+      "method": "Previously cached official statutory XML independently read; not a new HTTP request",
+      "level_read": "Named articles and applicable supplementary provisions; protection statute full article headings checked for scope",
+      "effective_date": "20240528",
+      "exact_primary_quotes": [
+        {
+          "article": "2",
+          "quotation": "2 조문 정의 20240528 개정 2024.2.27 000000 000000 Y 제2조(정의) 이 법에서 \"유사수신행위\"란 다른 법령에 따른 인가ㆍ허가를 받지 아니하거나 등록ㆍ신고(「특정 금융거래정보의 보고 및 이용 등에 관한 법률」 제7조에 따른 신고를 포함한다) 등을 하지 아니하고 불특정 다수인으로부터 자금[가상자산(「가상자산 이용자 보호 등에 관한 법률」 제2조제1호의 가상자산을 말한다)을 포함한다]을 조달하는 것을 업(業)으로 하는 행위로서 다음 각 호의 어느 하나에 해당하는 행위를 말한다. <개정 2024.2.27> 1. 1. 장래에 출자금의 전액 또는 이를 초과하는 금액을 지급할 것을 약정하고 출자금을 받는 행위 2. 2. 장래에 원금의 전액 또는 이를 초과하는 금액을 지급할 것을 약정하고 예금ㆍ적금ㆍ부금ㆍ예탁금 등의 명목으로 금전을 받는 행위 3. 3. 장래에 발행가액(發行價額) 또는 매출가액 이상으로 재매입(再買入)할 것을 약정하고 사채(社債)를 발행하거나 매출하는 행위 4. 4. 장래의 경제적 손실을 금전이나 유가증권으로 보전(補塡)하여 줄 것을 약정하고 회비 등의 명목으로 금전을 받는 행위 [전문개정 2010.2.4]"
+        }
+      ],
+      "supplementary_provisions": [
+        "20000112 06105 부칙 <제6105호,2000.1.12> 이 법은 공포한 날부터 시행한다. 20100204 10045 부칙 <제10045호,2010.2.4> ①(시행일) 이 법은 공포한 날부터 시행한다. ②(경과조치) 이 법 시행 전의 행위에 대하여 벌칙을 적용할 때에는 종전의 규정에 따른다. 20240227 20367 부칙 <제20367호,2024.2.27> 제1조(시행일) 이 법은 공포 후 3개월이 경과한 날부터 시행한다. 제2조(「가상자산 이용자 보호 등에 관한 법률」 제2조제1호에 관한 경과조치) 제2조의 개정규정 중 \"「가상자산 이용자 보호 등에 관한 법률」 제2조제1호의 가상자산\"은 2024년 7월 18일까지는 \"「특정 금융거래정보의 보고 및 이용 등에 관한 법률」 제2조제3호의 가상자산\"으로 본다."
+      ]
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290735&type=XML",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290735.xml",
+      "raw_sha256": "e500174ae43e28c185b6272a99032c3cfc300d006193d9284a8810894c7f3b3c",
+      "verification_date": "2026-10-18",
+      "method": "Previously cached official statutory XML independently read; not a new HTTP request",
+      "level_read": "Named articles and applicable supplementary provisions; protection statute full article headings checked for scope",
+      "effective_date": "20261002",
+      "exact_primary_quotes": [
+        {
+          "article": "2",
+          "quotation": "2 조문 정의 20261002 N 제2조(정의) 이 법에서 사용하는 용어의 뜻은 다음과 같다. 1. 1. \"가상자산\"이란 경제적 가치를 지닌 것으로서 전자적으로 거래 또는 이전될 수 있는 전자적 증표(그에 관한 일체의 권리를 포함한다)를 말한다. 다만, 다음 각 목의 어느 하나에 해당하는 것은 제외한다. 가. 가. 화폐ㆍ재화ㆍ용역 등으로 교환될 수 없는 전자적 증표 또는 그 증표에 관한 정보로서 발행인이 사용처와 그 용도를 제한한 것 나. 나. 「게임산업진흥에 관한 법률」 제32조제1항제7호에 따른 게임물의 이용을 통하여 획득한 유ㆍ무형의 결과물 다. 다. 「전자금융거래법」 제2조제14호에 따른 선불전자지급수단 및 같은 조 제15호에 따른 전자화폐 라. 라. 「주식ㆍ사채 등의 전자등록에 관한 법률」 제2조제4호에 따른 전자등록주식등 마. 마. 「전자어음의 발행 및 유통에 관한 법률」 제2조제2호에 따른 전자어음 바. 바. 「상법」 제862조에 따른 전자선하증권 사. 사. 「한국은행법」에 따른 한국은행(이하 \"한국은행\"이라 한다)이 발행하는 전자적 형태의 화폐 및 그와 관련된 서비스 아. 아. 거래의 형태와 특성을 고려하여 대통령령으로 정하는 것 2. 2. \"가상자산사업자\"란 가상자산과 관련하여 다음 각 목의 어느 하나에 해당하는 행위를 영업으로 하는 자를 말한다. 가. 가. 가상자산을 매도ㆍ매수(이하 \"매매\"라 한다)하는 행위 나. 나. 가상자산을 다른 가상자산과 교환하는 행위 다. 다. 가상자산을 이전하는 행위 중 대통령령으로 정하는 행위 라. 라. 가상자산을 보관 또는 관리하는 행위 마. 마. 가목 및 나목의 행위를 중개ㆍ알선하거나 대행하는 행위 3. 3. \"이용자\"란 가상자산사업자를 통하여 가상자산을 매매, 교환, 이전 또는 보관ㆍ관리하는 자를 말한다. 4. 4. \"가상자산시장\"이란 가상자산의 매매 또는 가상자산 간 교환을 할 수 있는 시장을 말한다."
+        },
+        {
+          "article": "6",
+          "quotation": "6 조문 예치금의 보호 20261002 N 제6조(예치금의 보호) ① ① 가상자산사업자는 이용자의 예치금(이용자로부터 가상자산의 매매, 매매의 중개, 그 밖의 영업행위와 관련하여 예치받은 금전을 말한다. 이하 같다)을 고유재산과 분리하여 「은행법」에 따른 은행 등 대통령령으로 정하는 공신력 있는 기관(이하 \"관리기관\"이라 한다)에 대통령령으로 정하는 방법에 따라 예치 또는 신탁하여 관리하여야 한다. ② ② 가상자산사업자는 제1항에 따라 관리기관에 이용자의 예치금을 예치 또는 신탁하는 경우에는 그 예치금이 이용자의 재산이라는 뜻을 밝혀야 한다. ③ ③ 누구든지 제1항에 따라 관리기관에 예치 또는 신탁한 예치금을 상계ㆍ압류(가압류를 포함한다)하지 못하며, 예치금을 예치 또는 신탁한 가상자산사업자는 대통령령으로 정하는 경우 외에는 관리기관에 예치 또는 신탁한 예치금을 양도하거나 담보로 제공하여서는 아니된다. ④ ④ 관리기관은 가상자산사업자가 다음 각 호의 어느 하나에 해당하게 된 경우에는 이용자의 청구에 따라 예치 또는 신탁된 예치금을 대통령령으로 정하는 방법과 절차에 따라 그 이용자에게 우선하여 지급하여야 한다. 1. 1. 사업자 신고가 말소된 경우 2. 2. 해산ㆍ합병의 결의를 한 경우 3. 3. 파산선고를 받은 경우"
+        },
+        {
+          "article": "7",
+          "quotation": "7 조문 가상자산의 보관 20261002 N 제7조(가상자산의 보관) ① ① 가상자산사업자가 이용자로부터 위탁을 받아 가상자산을 보관하는 경우 다음 각 호의 사항을 기재한 이용자명부를 작성ㆍ비치하여야 한다. 1. 1. 이용자의 주소 및 성명 2. 2. 이용자가 위탁하는 가상자산의 종류 및 수량 3. 3. 이용자의 가상자산주소(가상자산의 전송 기록 및 보관 내역의 관리를 위하여 전자적으로 생성시킨 고유식별번호를 말한다) ② ② 가상자산사업자는 자기의 가상자산과 이용자의 가상자산을 분리하여 보관하여야 하며, 이용자로부터 위탁받은 가상자산과 동일한 종류와 수량의 가상자산을 실질적으로 보유하여야 한다. ③ ③ 가상자산사업자는 제1항에 따라 보관하는 이용자의 가상자산 중 대통령령으로 정하는 비율 이상의 가상자산을 인터넷과 분리하여 안전하게 보관하여야 한다. ④ ④ 가상자산사업자는 이용자의 가상자산을 대통령령으로 정하는 보안기준을 충족하는 기관에 위탁하여 보관할 수 있다."
+        },
+        {
+          "article": "10",
+          "quotation": "10 조문 불공정거래행위 등 금지 20261002 N 제10조(불공정거래행위 등 금지) ① ① 다음 각 호의 어느 하나에 해당하는 자는 가상자산에 관한 미공개중요정보(이용자의 투자판단에 중대한 영향을 미칠 수 있는 정보로서 대통령령으로 정하는 방법에 따라 불특정 다수인이 알 수 있도록 공개되기 전의 것을 말한다. 이하 같다)를 해당 가상자산의 매매, 그 밖의 거래에 이용하거나 타인에게 이용하게 하여서는 아니 된다. 1. 1. 가상자산사업자, 가상자산을 발행하는 자(법인인 경우를 포함한다. 이하 이 조에서 같다) 및 그 임직원ㆍ대리인으로서 그 직무와 관련하여 미공개중요정보를 알게 된 자 2. 2. 제1호의 자가 법인인 경우 주요주주(「금융회사의 지배구조에 관한 법률」 제2조제6호나목에 따른 주요주주를 말한다. 이 경우 \"금융회사\"는 \"법인\"으로 본다)로서 그 권리를 행사하는 과정에서 미공개중요정보를 알게 된 자 3. 3. 가상자산사업자 또는 가상자산을 발행하는 자에 대하여 법령에 따른 허가ㆍ인가ㆍ지도ㆍ감독, 그 밖의 권한을 가지는 자로서 그 권한을 행사하는 과정에서 미공개중요정보를 알게 된 자 4. 4. 가상자산사업자 또는 가상자산을 발행하는 자와 계약을 체결하고 있거나 체결을 교섭하고 있는 자로서 그 계약을 체결ㆍ교섭 또는 이행하는 과정에서 미공개중요정보를 알게 된 자 5. 5. 제2호부터 제4호까지의 어느 하나에 해당하는 자의 대리인(이에 해당하는 자가 법인인 경우에는 그 임직원 및 대리인을 포함한다)ㆍ사용인, 그 밖의 종업원(제2호부터 제4호까지의 어느 하나에 해당하는 자가 법인인 경우에는 그 임직원 및 대리인)으로서 그 직무와 관련하여 미공개중요정보를 알게 된 자 6. 6. 제1호부터 제5호까지의 어느 하나에 해당하는 자(제1호부터 제5호까지의 어느 하나의 자에 해당하지 아니하게 된 날부터 1년이 경과하지 아니한 자를 포함한다)로부터 미공개중요정보를 받은 자 7. 7. 그 밖에 이에 준하는 자로서 대통령령으로 정하는 자 ② ② 누구든지 가상자산의 매매에 관하여 그 매매가 성황을 이루고 있는 듯이 잘못 알게 하거나, 그 밖에 타인에게 그릇된 판단을 하게 할 목적으로 다음 각 호의 어느 하나에 해당하는 행위를 하여서는 아니 된다. 1. 1. 자기가 매도하는 것과 같은 시기에 그와 같은 가격으로 타인이 가상자산을 매수할 것을 사전에 그 자와 서로 짠 후 매매를 하는 행위 2. 2. 자기가 매수하는 것과 같은 시기에 그와 같은 가격으로 타인이 가상자산을 매도할 것을 사전에 그 자와 서로 짠 후 매매를 하는 행위 3. 3. 가상자산의 매매를 할 때 그 권리의 이전을 목적으로 하지 아니하는 거짓으로 꾸민 매매를 하는 행위 4. 4. 제1호부터 제3호까지의 행위를 위탁하거나 수탁하는 행위 ③ ③ 누구든지 가상자산의 매매를 유인할 목적으로 가상자산의 매매가 성황을 이루고 있는 듯이 잘못 알게 하거나 그 시세를 변동 또는 고정시키는 매매 또는 그 위탁이나 수탁을 하는 행위를 하여서는 아니 된다. ④ ④ 누구든지 가상자산의 매매, 그 밖의 거래와 관련하여 다음 각 호의 행위를 하여서는 아니 된다. 1. 1. 부정한 수단, 계획 또는 기교를 사용하는 행위 2. 2. 중요사항에 관하여 거짓의 기재 또는 표시를 하거나 타인에게 오해를 유발시키지 아니하기 위하여 필요한 중요사항의 기재 또는 표시가 누락된 문서, 그 밖의 기재 또는 표시를 사용하여 금전, 그 밖의 재산상의 이익을 얻고자 하는 행위 3. 3. 가상자산의 매매, 그 밖의 거래를 유인할 목적으로 거짓의 시세를 이용하는 행위 4. 4. 제1호부터 제3호까지의 행위를 위탁하거나 수탁하는 행위 ⑤ ⑤ 가상자산사업자는 다음 각 호의 어느 하나에 해당하는 경우 외에는 자기 또는 대통령령으로 정하는 특수한 관계에 있는 자(이하 \"특수관계인\"이라 한다)가 발행한 가상자산의 매매, 그 밖의 거래를 하여서는 아니 된다. 1. 1. 특정 재화나 서비스의 지급수단으로 발행된 가상자산으로서 가상자산사업자가 이용자에게 약속한 특정 재화나 서비스를 제공하고, 그 반대급부로 가상자산을 취득하는 경우 2. 2. 가상자산의 특성으로 인하여 가상자산사업자가 불가피하게 가상자산을 취득하는 경우로서 불공정거래행위의 방지 또는 이용자와의 이해상충 방지를 위하여 대통령령으로 정하는 절차와 방법을 따르는 경우 ⑥ ⑥ 제1항부터 제5항까지를 위반한 자는 그 위반행위로 인하여 이용자가 그 가상자산의 매매, 그 밖의 거래와 관련하여 입은 손해를 배상할 책임이 있다."
+        }
+      ],
+      "supplementary_provisions": [
+        "20230718 19563 부칙 <제19563호,2023.7.18> 제1조(시행일) 이 법은 공포 후 1년이 경과한 날부터 시행한다. 다만, 부칙 제2조제6항은 2025년 1월 1일부터 시행한다. 제2조(다른 법률의 개정) ① 법률 제19470호 공직자윤리법 일부개정법률 일부를 다음과 같이 개정한다. 제4조제2항제6호 중 \"「특정 금융거래정보의 보고 및 이용 등에 관한 법률」 제2조제3호\"를 \"「가상자산 이용자 보호 등에 관한 법률」 제2조제1호\"로 한다. 제6조의5제1항 전단 중 \"「특정 금융거래정보의 보고 및 이용 등에 관한 법률」 제2조제1호하목\"을 \"「가상자산 이용자 보호 등에 관한 법률」 제2조제2호\"로 한다. ② 국회법 일부를 다음과 같이 개정한다. <개정 2024.3.12> 제32조의2제1항제6호의2 각 목 외의 부분 중 \"「특정 금융거래정보의 보고 및 이용 등에 관한 법률」 제2조제3호\"를 \"「가상자산 이용자 보호 등에 관한 법률」 제2조제1호\"로 한다. ③ 국세징수법 일부를 다음과 같이 개정한다. 제55조제3항 중 \"「특정 금융거래정보의 보고 및 이용 등에 관한 법률」 제2조제3호\"를 \"「가상자산 이용자 보호 등에 관한 법률」 제2조제1호\"로, \"제2조제1호하목\"을 \"제2조제2호\"로 한다. ④ 국제조세조정에 관한 법률 일부를 다음과 같이 개정한다. 제52조제1호나목 중 \"「특정 금융거래정보의 보고 및 이용 등에 관한 법률」 제2조제1호하목\"을 \"「가상자산 이용자 보호 등에 관한 법률」 제2조제2호\"로 하고, 같은 조 제2호라목 중 \" 「특정 금융거래정보의 보고 및 이용 등에 관한 법률」 제2조제3호\"를 \"「가상자산 이용자 보호 등에 관한 법률」 제2조제1호\"로, \"제1호하목\"을 \"제2호\"로 한다. ⑤ 상속세 및 증여세법 일부를 다음과 같이 개정한다. 제60조제1항제2호 중 \"「특정 금융거래정보의 보고 및 이용 등에 관한 법률」 제2조제3호\"를 \"「가상자산 이용자 보호 등에 관한 법률」 제2조제1호\"로 한다. 제65조제2항 중 \"「특정 금융거래정보의 보고 및 이용 등에 관한 법률」 제2조제3호\"를 \"「가상자산 이용자 보호 등에 관한 법률」 제2조제1호\"로 한다. ⑥ 법률 제17757호 소득세법 일부개정법률 일부를 다음과 같이 개정한다. 제21조제1항제27호 중 \"「특정 금융거래정보의 보고 및 이용 등에 관한 법률」 제2조제3호\"를 \"「가상자산 이용자 보호 등에 관한 법률」 제2조제1호\"로 한다. 제119조제12호타목 중 \"「특정 금융거래정보의 보고 및 이용 등에 관한 법률」 제2조제1호하목\"을 \"「가상자산 이용자 보호 등에 관한 법률」 제2조제2호\"로 한다. ⑦ 지방세징수법 일부를 다음과 같이 개정한다. 제61조제3항 전단 중 \"「특정 금융거래정보의 보고 및 이용 등에 관한 법률」 제2조제3호\"를 \"「가상자산 이용자 보호 등에 관한 법률」 제2조제1호\"로, \"제2조제1호하목\"을 \"제2조제2호\"로 한다. ⑧ 특정 금융거래정보의 보고 및 이용 등에 관한 법률 일부를 다음과 같이 개정한다. 제2조제1호하목을 다음과 같이 한다. 하. 「가상자산 이용자 보호 등에 관한 법률」 제2조제2호에 따른 가상자산사업자(이하 \"가상자산사업자\"라 한다) 제2조제2호라목을 다음과 같이 한다. 라. 가상자산사업자가 「가상자산 이용자 보호 등에 관한 법률」에 따라 수행하는 업무(이하 \"가상자산거래\"라 한다) 제2조제3호를 다음과 같이 한다. 3. \"가상자산\"이란 「가상자산 이용자 보호 등에 관한 법률」 제2조제1호에 따른 가상자산을 말한다. 20240312 20372 부칙(국회법) <제20372호,2024.3.12> 제1조(시행일) 이 법은 공포한 날부터 시행한다. 다만, 부칙 제3조는 2024년 7월 19일부터 시행한다. 제2조 생략 제3조(다른 법률의 개정) 법률 제19563호 가상자산 이용자 보호 등에 관한 법률 일부를 다음과 같이 개정한다. 부칙 제2조제2항 중 \"제32조의2제1항제6호의2\"를 \"제32조의2제1항제6호의2 각 목 외의 부분\"으로 한다. 20260804 21857 부칙(형사소송법) <제21857호,2026.8.4> 제1조(시행일) 이 법은 2026년 10월 2일부터 시행한다. <단서 생략> 제2조부터 제14조까지 생략 제15조(다른 법률의 개정) ① 및 ② 생략 ③ 가상자산 이용자 보호 등에 관한 법률 일부를 다음과 같이 개정한다. <신설 2026.9.29> 제17조제3항 중 \"검찰총장\"을 \"검찰총장 및 중대범죄수사청장\"으로, \"자료\"를 \"자료(공소제기 여부나 공소유지와 관련된 자료를 포함한다)\"로 한다. ④부터 <60>까지 생략 제16조 생략"
+      ]
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290725&type=XML",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290725.xml",
+      "raw_sha256": "8645c0e053dc589a64d5fa2b31a25b4f775a5ddfa3618b864998679e7a816fee",
+      "verification_date": "2026-10-18",
+      "method": "Previously cached official statutory XML independently read; not a new HTTP request",
+      "level_read": "Named articles and applicable supplementary provisions; protection statute full article headings checked for scope",
+      "effective_date": "20261002",
+      "exact_primary_quotes": [
+        {
+          "article": "7",
+          "quotation": "7 조문 신고 20261002 N 제7조(신고) ① ① 가상자산사업자(이를 운영하려는 자를 포함한다. 이하 이 조에서 같다)는 대통령령으로 정하는 바에 따라 다음 각 호의 사항을 금융정보분석원장에게 신고하여야 한다. <개정 2026.2.19> 1. 1. 상호 및 대표자의 성명 1. 2 1의2. 대주주(최대주주의 특수관계인인 주주를 포함하며, 최대주주가 법인인 경우에는 그 법인의 주요 경영사항에 대하여 사실상의 영향력을 행사하고 있는 자로서 대통령령으로 정하는 자를 포함한다. 이하 이 조에서 같다)와 관련하여 대통령령으로 정하는 사항 2. 2. 사업장의 소재지, 연락처 등 대통령령으로 정하는 사항 ② ② 제1항에 따라 신고한 자는 신고한 사항이 변경된 경우에는 대통령령으로 정하는 바에 따라 금융정보분석원장에게 변경신고를 하여야 한다. ③ ③ 금융정보분석원장은 제1항에도 불구하고 다음 각 호의 어느 하나에 해당하는 자에 대해서는 대통령령으로 정하는 바에 따라 가상자산사업자의 신고를 수리하지 아니할 수 있다. <개정 2026.2.19> 1. 1. 정보보호 관리체계 인증을 획득하지 못한 자 2. 2. 실명확인이 가능한 입출금 계정[동일 금융회사등(대통령령으로 정하는 금융회사등에 한정한다)에 개설된 가상자산사업자의 계좌와 그 가상자산사업자의 고객의 계좌 사이에서만 금융거래등을 허용하는 계정을 말한다]을 통하여 금융거래등을 하지 아니하는 자. 다만, 가상자산거래의 특성을 고려하여 금융정보분석원장이 정하는 자에 대해서는 예외로 한다. 3. 3. 이 법, 「범죄수익은닉의 규제 및 처벌 등에 관한 법률」, 「공중 등 협박목적 및 대량살상무기확산을 위한 자금조달행위의 금지에 관한 법률」, 「마약류 불법거래 방지에 관한 특례법」, 「독점규제 및 공정거래에 관한 법률」, 「조세범 처벌법」, 「특정경제범죄 가중처벌 등에 관한 법률」, 「외국환거래법」, 「가상자산 이용자 보호 등에 관한 법률」 및 「자본시장과 금융투자업에 관한 법률」 등 대통령령으로 정하는 관련 법률(이에 상당하는 외국의 관련 법률을 포함한다)에 따라 벌금 이상의 형을 선고받거나 기타 다른 법률(금융 및 자금세탁 관련 범죄를 규정한 외국의 기타 다른 법률을 포함한다)에 따라 금고 이상의 실형을 선고받고 그 집행이 끝나거나(집행이 끝난 것으로 보는 경우를 포함한다) 집행이 면제된 날부터 5년이 지나지 아니한 자(가상자산사업자가 법인인 경우에는 그 대표자와 임원 및 대주주를 포함한다) 4. 4. 제4항에 따라 신고 또는 변경신고가 말소되고 5년이 지나지 아니한 자 5. 5. 대통령령으로 정하는 건전한 재무상태 또는 사회적 신용을 갖추지 아니한 자(가상자산사업자가 법인인 경우에는 그 대표자와 임원 및 대주주를 포함한다) 6. 6. 이 법, 「가상자산 이용자 보호 등에 관한 법률」 및 기타 대통령령으로 정하는 가상자산 관련 법령을 준수하기 위한 적절한 조직ㆍ인력, 전산설비 및 내부통제체계를 갖추지 아니한 자 등 대통령령으로 정하는 자 7. 7. 신청서나 그 밖의 첨부서류에 거짓이 있거나 신고에 필요한 내용을 적지 아니한 자 8. 8. 그 밖에 제1호부터 제7호까지에 준하는 경우로서 자금세탁행위와 공중협박자금조달행위의 방지, 건전하고 투명한 금융거래 질서 확립, 가상자산 이용자 보호 등을 위하여 대통령령으로 정하는 자 ④ ④ 금융정보분석원장은 가상자산사업자가 다음 각 호의 어느 하나에 해당하는 경우에는 대통령령으로 정하는 바에 따라 제1항 또는 제2항에 따른 신고 또는 변경신고를 직권으로 말소할 수 있다. 1. 1. 제3항 각 호의 어느 하나에 해당하는 경우. 다만, 제3항제1호에 해당하는 경우로서 대통령령으로 정하는 경우에는 그러하지 아니하다. 2. 2. 「부가가치세법」 제8조에 따라 관할 세무서장에게 폐업신고를 하거나 관할 세무서장이 사업자등록을 말소한 경우 3. 3. 제5항에 따른 영업의 전부 또는 일부의 정지 명령을 이행하지 아니한 경우 4. 4. 거짓이나 그 밖의 부정한 방법으로 신고 또는 변경신고를 하는 등 대통령령으로 정하는 경우 ⑤ ⑤ 금융정보분석원장은 가상자산사업자가 다음 각 호의 어느 하나에 해당하는 경우에는 대통령령으로 정하는 바에 따라 6개월의 범위에서 영업의 전부 또는 일부의 정지를 명할 수 있다. 1. 1. 제15조제2항제1호에 따른 시정명령을 이행하지 아니한 경우 2. 2. 제15조제2항제2호에 따른 기관경고를 3회 이상 받은 경우 3. 3. 그 밖에 고의 또는 중대한 과실로 자금세탁행위와 공중협박자금조달행위를 방지하기 위하여 필요한 조치를 하지 아니한 경우로서 대통령령으로 정하는 경우 ⑥ ⑥ 제1항에 따른 신고의 유효기간은 신고를 수리한 날부터 5년 이하의 범위에서 대통령령으로 정하는 기간으로 한다. 신고 유효기간이 지난 후 계속하여 같은 행위를 영업으로 하려는 자는 대통령령으로 정하는 바에 따라 신고를 갱신하여야 한다. ⑦ ⑦ 금융정보분석원장은 제1항부터 제6항까지에 따른 가상자산사업자의 신고에 관한 정보 및 금융정보분석원장의 조치를 대통령령으로 정하는 바에 따라 공개할 수 있다. ⑧ ⑧ 금융정보분석원장은 이 조에 따른 가상자산사업자의 신고와 관련한 업무로서 대통령령으로 정하는 업무를 「금융위원회의 설치 등에 관한 법률」에 따른 금융감독원의 원장(이하 \"금융감독원장\"이라 한다)에게 위탁할 수 있다. ⑨ ⑨ 금융회사등이 제3항제2호에 따른 실명확인이 가능한 입출금 계정을 개시하는 기준, 조건 및 절차에 관하여 필요한 사항은 대통령령으로 정한다. ⑩ ⑩ 금융정보분석원장은 제1항에 따른 신고 또는 제2항에 따른 변경신고를 수리하는 경우 자금세탁행위와 공중협박자금조달행위의 방지, 금융거래 질서 확립, 가상자산 이용자 보호 등을 위하여 필요한 조건을 붙일 수 있다. <신설 2026.2.19> [본조신설 2020.3.24] [종전 제7조는 제10조로 이동 <2020.3.24>]"
+        },
+        {
+          "article": "17",
+          "quotation": "17 조문 벌칙 20261002 N 제17조(벌칙) ① ① 제7조제1항을 위반하여 신고를 하지 아니하고 가상자산거래를 영업으로 한 자(거짓이나 그 밖의 부정한 방법으로 신고를 하고 가상자산거래를 영업으로 한 자를 포함한다)는 5년 이하의 징역 또는 5천만원 이하의 벌금에 처한다. <신설 2020.3.24> ② ② 제7조제2항을 위반하여 변경신고를 하지 아니한 자(거짓이나 그 밖의 부정한 방법으로 변경신고를 한 자를 포함한다)는 3년 이하의 징역 또는 3천만원 이하의 벌금에 처한다. <신설 2020.3.24> ③ ③ 다음 각 호의 어느 하나에 해당하는 자는 1년 이하의 징역 또는 1천만원 이하의 벌금에 처한다. <개정 2013.8.13, 2014.5.28, 2020.3.24> 1. 1. 제4조제1항 및 제4조의2제1항ㆍ제2항에 따른 보고를 거짓으로 한 자 2. 2. 제4조제6항을 위반한 자 [전문개정 2011.5.19] [제14조에서 이동, 종전 제17조는 제20조로 이동 <2020.3.24>]"
+        }
+      ],
+      "supplementary_provisions": []
+    },
+    {
+      "url": "https://www.ic3.gov/PSA/2022/PSA220721",
+      "raw_path": "/tmp/ch05e45-fbi.html",
+      "raw_sha256": "1a7773e837a2503137f46cd16799dc0b49657b463d0b5bdc50300b50aeb9c971",
+      "verification_date": "2026-10-18",
+      "method": "Direct HTTPS GET; decoded entire alert read",
+      "level_read": "Full official PSA including tactics and protective actions",
+      "exact_primary_quotes": [
+        "By clicking the link and accepting the permissions presented, victims unknowingly authorize scammers to pull an unlimited amount of funds out of their cryptocurrency wallets without permission or notification.",
+        "If you are concerned about the legitimacy of the domain, do not connect your cryptocurrency wallet.",
+        "Periodically use a third-party token allowance checker to determine whether you have inadvertently permitted any sites or applications access to your wallet."
+      ]
+    }
+  ],
+  "intentional_numerical_scope_changes": [
+    "No statistical or penalty numbers changed. Added statutory claim prerequisite, omitted dissolution/merger triggers, and causally bounded damages. Restored authorization/registration/reporting, unspecified public, and business fundraising requirements.",
+    "Title and 비고 no longer deny every possible compensation; the scope is absence of a price-loss guarantee in the named protection statute."
+  ],
+  "doi_changes": {
+    "added": [],
+    "removed": [],
+    "reason": "No DOI cited in this entry."
+  },
+  "incoming_title_anchors": {
+    "checked": "publication/2026-10-18 markdown search: 제45항,45항,비트코인·테더",
+    "preserved": [
+      "비트코인",
+      "테더",
+      "가상자산"
+    ],
+    "findings": "ch05 intro uses 가상자산; ch08 제45항 refers to a separate chapter-local name-lending entry."
+  },
+  "validation": {
+    "cost_tag_exact": true,
+    "evidence_grade_exact": true,
+    "six_fields_in_order": [
+      "비용",
+      "쉽게",
+      "이득",
+      "근거등급",
+      "출처",
+      "비고"
+    ],
+    "easy_chars": 119,
+    "easy_sentences": 4,
+    "all_current_literal_results": [
+      {
+        "entry": null,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-045-52d1/publication-entry-proposal-r2.md",
+        "title_chars": 64,
+        "easy_chars": 119,
+        "easy_sentences": 4,
+        "long_sentences": [],
+        "pass_length": true
+      }
+    ]
+  },
+  "unresolved_limitations": [
+    "Financial Intelligence Unit announcement URL remains unverified and explicitly disclosed in reader text.",
+    "Chinese legal/historical framing not independently verified; reader text explicitly discloses this.",
+    "Individual criminal liability for the coin-transfer side job depends on facts; reader limitation added. This review does not independently verify all criminal-law elements."
+  ],
+  "canonical_findings_addressed": [
+    "Separately distinguishes legitimate reported trading from advisory nonpurchase recommendation.",
+    "Keeps custody protection, price-loss limitation and unfair-trading damages separate.",
+    "FBI alert independently read; permissions theft and checker advice supported.",
+    "Unlicensed fundraising rule conditions corrected in both easy and benefit."
+  ],
+  "self_approval": false,
+  "protected_after_sha256": {
+    "final.md": "ba60c5703ac4877f9cbdf5006354f4585685c96429fed1b474b5a83bd87a14d6",
+    "01_input_with_metrics.txt": "5277bc9132baac6cc52dcab75eb16339dc628cc2345d1d1fc2d2e87d5559aeac",
+    "entry_snapshot.md": "8f7bed66ebdb1237f15891c4a517ccb52c0c194a3dc69814ca54d151f3040d7e",
+    "strict-entry.md": "56ac275c5e66a4f03da2598a5a8d8b3931648b20844ce74599045ca2c148efb5",
+    "editorial-proposal.json": "526996c625a03f8ba1ec92a27cfefe65f4d2c8d8bd7ecbe06f43de52a6478450"
+  },
+  "variant": "r2",
+  "initial_proposal_sha256": "bfcb16aada2e6150c82173460a09da7f6667976033e0da5cfe31ad492790085f",
+  "revision_scope": "Only one sentence split requested by independent partial review; all initial source-backed changes and warnings remain verbatim.",
+  "r2_delta": [
+    {
+      "field": "이득",
+      "before": "신고 없이 영업하면 5년 이하 징역 또는 5천만원 이하 벌금입니다(같은 법 제17조 제1항).",
+      "after": "신고 없이 영업하면 5년 이하 징역 또는 5천만원 이하 벌금입니다. 근거는 같은 법 제17조 제1항입니다.",
+      "reason": "Separate legal reference into adjacent complete sentence; penalty, condition and cited subsection unchanged.",
+      "after_sentence_lengths": [
+        37,
+        21
+      ]
+    }
+  ],
+  "literal_check": {
+    "script": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/publication-partial-review-evidence/literal_check.py",
+    "exit_code": 0,
+    "result": [
+      {
+        "entry": null,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-045-52d1/publication-entry-proposal-r2.md",
+        "title_chars": 64,
+        "easy_chars": 119,
+        "easy_sentences": 4,
+        "long_sentences": [],
+        "pass_length": true
+      }
+    ]
+  },
+  "all_field_results": {
+    "비용": {
+      "chars": 83,
+      "sentence_lengths": [
+        11,
+        11,
+        31,
+        27
+      ],
+      "ordinary_body_limit_applies": true,
+      "complete_sentence_read": "Entire field reread in source context; no date abbreviation or parentheses used to create an artificial boundary."
+    },
+    "쉽게": {
+      "chars": 119,
+      "sentence_lengths": [
+        23,
+        32,
+        38,
+        23
+      ],
+      "ordinary_body_limit_applies": true,
+      "complete_sentence_read": "Entire field reread in source context; no date abbreviation or parentheses used to create an artificial boundary."
+    },
+    "이득": {
+      "chars": 894,
+      "sentence_lengths": [
+        27,
+        37,
+        38,
+        18,
+        28,
+        31,
+        23,
+        35,
+        39,
+        38,
+        25,
+        29,
+        27,
+        38,
+        37,
+        21,
+        36,
+        32,
+        17,
+        33,
+        21,
+        32,
+        20,
+        38,
+        34,
+        23,
+        33,
+        32,
+        24
+      ],
+      "ordinary_body_limit_applies": true,
+      "complete_sentence_read": "Entire field reread in source context; no date abbreviation or parentheses used to create an artificial boundary."
+    },
+    "근거등급": {
+      "chars": 1,
+      "sentence_lengths": [
+        1
+      ],
+      "ordinary_body_limit_applies": false,
+      "complete_sentence_read": "Entire field reread in source context; no date abbreviation or parentheses used to create an artificial boundary."
+    },
+    "출처": {
+      "chars": 443,
+      "sentence_lengths": [
+        295,
+        108,
+        38
+      ],
+      "ordinary_body_limit_applies": false,
+      "complete_sentence_read": "Entire field reread in source context; no date abbreviation or parentheses used to create an artificial boundary."
+    },
+    "비고": {
+      "chars": 674,
+      "sentence_lengths": [
+        25,
+        35,
+        22,
+        33,
+        32,
+        27,
+        15,
+        26,
+        24,
+        28,
+        20,
+        33,
+        30,
+        21,
+        30,
+        11,
+        42,
+        12,
+        21,
+        45,
+        44,
+        12,
+        33,
+        30
+      ],
+      "ordinary_body_limit_applies": true,
+      "complete_sentence_read": "Entire field reread in source context; no date abbreviation or parentheses used to create an artificial boundary."
+    }
+  },
+  "actual_complete_sentence_review": {
+    "date": "2026-10-18",
+    "method": "Read entire r2 full entry, including all parentheticals, source references, dates and abbreviations. Ordinary body sentence endings are complete Korean sentences; source bibliography alone is excluded by policy.",
+    "all_initial_factual_corrections_preserved": true,
+    "all_numbers_negations_conditions_and_warnings_preserved": true
+  },
+  "protected_r2_before_sha256": {
+    "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-045-52d1/entry_snapshot.md": "8f7bed66ebdb1237f15891c4a517ccb52c0c194a3dc69814ca54d151f3040d7e",
+    "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-045-52d1/strict-entry.md": "56ac275c5e66a4f03da2598a5a8d8b3931648b20844ce74599045ca2c148efb5",
+    "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-045-52d1/publication-gates.txt": "123fda9b55b5c3483451ea2786082380dd37dd8195709bfef12954905746159d",
+    "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-045-52d1/editorial-proposal.json": "526996c625a03f8ba1ec92a27cfefe65f4d2c8d8bd7ecbe06f43de52a6478450",
+    "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-045-52d1/final.md": "ba60c5703ac4877f9cbdf5006354f4585685c96429fed1b474b5a83bd87a14d6",
+    "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-045-52d1/00_metrics.json": "75ee45b3d3419f973133cd059b48b7ce30f2dcb7b34b90173a15b30c091f087d",
+    "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-045-52d1/publication-gates.json": "22e6d071e3955b24cddc799245453a75cfe4e4ef2b1342c34a62b9025c1f33fd",
+    "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-045-52d1/01_input_with_metrics.txt": "5277bc9132baac6cc52dcab75eb16339dc628cc2345d1d1fc2d2e87d5559aeac",
+    "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-045-52d1/publication-entry-proposal.md": "bfcb16aada2e6150c82173460a09da7f6667976033e0da5cfe31ad492790085f",
+    "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-045-52d1/prepare.log": "7a944607f89a9f429c56b1b9cfdfd1b51bffd6da1bac5b79680da7125cb6bbc4",
+    "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-045-52d1/01_input.txt": "b100c931c544f376144cbed358d3d38f9128c3ddd33049ceb57493b9a4805a8e",
+    "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-045-52d1/publication-entry-changes.json": "3b3bb1c4e88bf392b1e2e2ca56a41db28b3784f51a46da1224edbff34cbfc779"
+  },
+  "protected_r2_after_sha256": {
+    "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-045-52d1/entry_snapshot.md": "8f7bed66ebdb1237f15891c4a517ccb52c0c194a3dc69814ca54d151f3040d7e",
+    "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-045-52d1/strict-entry.md": "56ac275c5e66a4f03da2598a5a8d8b3931648b20844ce74599045ca2c148efb5",
+    "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-045-52d1/publication-gates.txt": "123fda9b55b5c3483451ea2786082380dd37dd8195709bfef12954905746159d",
+    "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-045-52d1/editorial-proposal.json": "526996c625a03f8ba1ec92a27cfefe65f4d2c8d8bd7ecbe06f43de52a6478450",
+    "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-045-52d1/final.md": "ba60c5703ac4877f9cbdf5006354f4585685c96429fed1b474b5a83bd87a14d6",
+    "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-045-52d1/00_metrics.json": "75ee45b3d3419f973133cd059b48b7ce30f2dcb7b34b90173a15b30c091f087d",
+    "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-045-52d1/publication-gates.json": "22e6d071e3955b24cddc799245453a75cfe4e4ef2b1342c34a62b9025c1f33fd",
+    "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-045-52d1/01_input_with_metrics.txt": "5277bc9132baac6cc52dcab75eb16339dc628cc2345d1d1fc2d2e87d5559aeac",
+    "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-045-52d1/publication-entry-proposal.md": "bfcb16aada2e6150c82173460a09da7f6667976033e0da5cfe31ad492790085f",
+    "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-045-52d1/prepare.log": "7a944607f89a9f429c56b1b9cfdfd1b51bffd6da1bac5b79680da7125cb6bbc4",
+    "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-045-52d1/01_input.txt": "b100c931c544f376144cbed358d3d38f9128c3ddd33049ceb57493b9a4805a8e",
+    "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-045-52d1/publication-entry-changes.json": "3b3bb1c4e88bf392b1e2e2ca56a41db28b3784f51a46da1224edbff34cbfc779"
+  }
+}

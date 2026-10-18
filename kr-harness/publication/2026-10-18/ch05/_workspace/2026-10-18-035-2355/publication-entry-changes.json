@@ -1,0 +1,182 @@
+{
+  "status": "unadopted_proposal",
+  "entry": 35,
+  "basis": "strict-entry.md",
+  "basis_sha256": "dad90d71068f360ac46c64efd6e9bd116cc3bc47109b04c8aed3cf4a1baeb31f",
+  "proposal_sha256": "403bd517f9ade47d684c23d3c8d31cb9fc6ebbf7d7f1e3c38f4787624a87920a",
+  "requires_independent_exact_hash_review": true,
+  "self_approved": false,
+  "changes": [
+    {
+      "field": "쉽게",
+      "before": "게임 회사는 확률형 아이템의 종류와 확률을 표시해야 합니다. 게임, 홈페이지, 광고마다 표시해야 합니다. 표시하지 않거나 거짓으로 표시해 손해를 입히면 배상합니다. 고의면 손해의 3배까지 물 수 있습니다. 그래도 표시된 확률대로 돈을 잃는다는 점은 같습니다.",
+      "after": "확률형 아이템은 돈을 내도 무엇이 나올지 모릅니다. 게임 회사는 종류와 종류별 확률을 표시해야 합니다. 게임물, 홈페이지, 광고·선전물마다 표시해야 합니다.",
+      "reason": "기존 독립 검토의 87자안을 통합합니다. 유료·우연성과 표시 의무를 중심으로 3문장 요약합니다. 배상 설명은 이득에 유지합니다."
+    },
+    {
+      "field": "이득",
+      "before": "확률형 아이템은 돈을 내고 사는 게임 아이템입니다. 무엇이 나올지는 우연으로 정해집니다(「게임산업법」 제2조 제11호). 게임물을 만들거나 배급·제공하는 사업자에게는 표시 의무가 있습니다. 확률형 아이템의 종류와 종류별 확률을 표시해야 합니다. 게임물, 홈페이지, 광고·선전물마다 표시합니다(같은 법 제33조 제2항). 표시하지 않거나 거짓으로 표시해 이용자에게 손해를 입히면 배상해야 합니다. 사업자가 고의·과실이 없음을 증명하지 못하면 책임을 집니다. 손해액을 증명하기 어려우면 법원이 상당한 금액을 정할 수 있습니다. 고의면 손해의 3배까지 정할 수 있습니다(같은 법 제33조의2 제1항~제3항). 디지털콘텐츠는 제공이 시작되면 청약철회가 막힐 수 있습니다. 다만 판매자가 그 사실을 분명히 표시하거나 맛보기를 줘야 합니다. 이런 조치를 하지 않았다면 철회할 수 있습니다(「전자상거래법」 제17조 제2항 제5호·제6항).",
+      "after": "확률형 아이템은 돈을 내고 사는 게임 아이템입니다. 무엇이 나올지는 우연으로 정해집니다(「게임산업법」 제2조 제11호). 게임물을 만들거나 배급·제공하는 사업자에게는 표시 의무가 있습니다. 확률형 아이템의 종류와 종류별 확률을 표시해야 합니다. 게임물, 홈페이지, 광고·선전물마다 표시합니다(같은 법 제33조 제2항). 표시하지 않거나 거짓으로 표시해 이용자에게 손해를 입히면 배상해야 합니다. 사업자가 고의·과실이 없음을 증명하지 못하면 책임을 집니다. 손해액을 증명하기 어려우면 법원이 상당한 금액을 정할 수 있습니다. 고의면 손해의 3배까지 정할 수 있습니다(같은 법 제33조의2 제1항~제3항). 디지털콘텐츠는 제공이 시작되면 청약철회가 막힐 수 있습니다. 다만 나눌 수 있는 콘텐츠의 미제공 부분은 제외합니다. 판매자는 철회 불가 사실을 분명히 표시해야 합니다. 그와 함께 시험 사용 상품 등을 제공해야 합니다. 미리보기·기간 체험·기능 제한 체험 중 하나 이상입니다. 이런 제공이 곤란하면 콘텐츠 정보를 제공해야 합니다. 필요한 조치가 없으면 철회할 수 있습니다. (「전자상거래법」 제17조 제2항 제5호·제6항).",
+      "reason": "디지털콘텐츠에 필요한 명확한 철회 불가 고지 AND 시험 사용 등 조치를 구분합니다. 나눌 수 있는 콘텐츠의 미제공 부분 예외와 시험 제공 곤란 시 정보 제공 조건을 추가합니다. 기존 승인된 부분 문구를 50자 이하 문장으로 다시 저술한 별도 전체 필드 제안입니다."
+    },
+    {
+      "field": "출처",
+      "before": "게임산업진흥에 관한 법률 제2조·제33조·제33조의2 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=265811&efYd=20251023 ; 전자상거래 등에서의 소비자보호에 관한 법률 제17조 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=282793",
+      "after": "게임산업진흥에 관한 법률 제2조·제33조·제33조의2 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=265811&efYd=20251023 ; 전자상거래 등에서의 소비자보호에 관한 법률 제17조 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=282793 ; 전자상거래 등에서의 소비자보호에 관한 법률 시행령 제21조의2 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=288143",
+      "reason": "추가한 시험 제공 방법의 직접 근거인 시행령 제21조의2만 추가합니다. 기존 법률 인용은 유지합니다."
+    }
+  ],
+  "sources": [
+    {
+      "mst": "282793",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=282793&type=XML",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch05-audit/282793.xml",
+      "raw_sha256": "f970ec9e84bae3c139fe8e190c9dda527662a64b9353daa0ee5dd3e7934250f7",
+      "read_at_utc": "2026-10-18T16:15:03.295395+00:00",
+      "method": "Existing official full statutory XML reopened and parsed; no fresh HTTP request in this follow-up.",
+      "scope_actually_read": "제17조 전체, 기본정보·조문시행일, 부칙 제21312호",
+      "exact_primary_quotations": [
+        "② 소비자는 다음 각 호의 어느 하나에 해당하는 경우에는 통신판매업자의 의사에 반하여 제1항에 따른 청약철회등을 할 수 없다. 다만, 통신판매업자가 제6항에 따른 조치를 하지 아니하는 경우에는 제2호부터 제5호까지의 규정에 해당하는 경우에도 청약철회등을 할 수 있다. <개정 2016.3.29>",
+        "5. 용역 또는 「문화산업진흥 기본법」 제2조제5호의 디지털콘텐츠의 제공이 개시된 경우. 다만, 가분적 용역 또는 가분적 디지털콘텐츠로 구성된 계약의 경우에는 제공이 개시되지 아니한 부분에 대하여는 그러하지 아니하다.",
+        "⑥ 통신판매업자는 제2항제2호부터 제5호까지의 규정에 따라 청약철회등이 불가능한 재화등의 경우에는 그 사실을 재화등의 포장이나 그 밖에 소비자가 쉽게 알 수 있는 곳에 명확하게 표시하거나 시험 사용 상품을 제공하는 등의 방법으로 청약철회등의 권리 행사가 방해받지 아니하도록 조치하여야 한다. 다만, 제2항제5호 중 디지털콘텐츠에 대하여 소비자가 청약철회등을 할 수 없는 경우에는 청약철회등이 불가능하다는 사실의 표시와 함께 대통령령으로 정하는 바에 따라 시험 사용 상품을 제공하는 등의 방법으로 청약철회등의 권리 행사가 방해받지 아니하도록 하여야 한다. <개정 2016.3.29>"
+      ],
+      "effective_date": "20260721",
+      "promulgation_date": "20260120"
+    },
+    {
+      "mst": "288143",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=288143&type=XML",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch05-audit/288143.xml",
+      "raw_sha256": "754355c0b0ab2b7a5b5d9662afa9c3ed681d9557ce9ea179daef883b1c84fd67",
+      "read_at_utc": "2026-10-18T16:15:03.295395+00:00",
+      "method": "Existing official full statutory XML reopened and parsed; no fresh HTTP request in this follow-up.",
+      "scope_actually_read": "제21조의2 전체, 기본정보·조문시행일, 부칙 제27530호·제36507호",
+      "exact_primary_quotations": [
+        "제21조의2(시험 사용 상품 등의 제공 방법) 통신판매업자는 법 제17조제6항 단서에 따라 다음 각 호의 구분에 따른 방법 중 하나 이상의 방법으로 소비자에게 시험 사용 상품 등을 제공하여야 한다.",
+        "1. 일부 이용의 허용: 디지털콘텐츠의 일부를 미리보기, 미리듣기 등으로 제공",
+        "2. 한시적 이용의 허용: 일정 사용기간을 설정하여 디지털콘텐츠 제공",
+        "3. 체험용 디지털콘텐츠 제공: 일부 제한된 기능만을 사용할 수 있는 디지털콘텐츠 제공",
+        "4. 제1호부터 제3호까지의 방법으로 시험 사용 상품 등을 제공하기 곤란한 경우: 디지털콘텐츠에 관한 정보 제공"
+      ],
+      "effective_date": "20260721",
+      "promulgation_date": "20260720"
+    },
+    {
+      "mst": "265811",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=265811&type=XML",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch05-audit/265811.xml",
+      "raw_sha256": "6e41f58c5b0a9b4dca3fc1a474e8ad4d600878703f40b13eade5201456752c61",
+      "read_at_utc": "2026-10-18T16:15:03.295395+00:00",
+      "method": "Existing official full statutory XML reopened and parsed; no fresh HTTP request in this follow-up.",
+      "scope_actually_read": "제2조 제11호·제33조 표시의무; 기본 시행일 20241022의 구판으로 현재 3배배상·소규모 예외 검증 아님",
+      "exact_primary_quotations": [
+        "② 게임물을 유통시키거나 이용에 제공할 목적으로 게임물을 제작, 배급 또는 제공하는 자는 해당 게임물과 그 인터넷 홈페이지 및 광고ㆍ선전물마다 해당 게임물 내에서 사용되는 확률형 아이템의 종류와 종류별 공급 확률정보 및 그 밖에 대통령령으로 정하는 사항을 표시하여야 한다. <신설 2023.3.21>",
+        "⑨ 문화체육관광부장관은 제33조제2항을 위반하여 확률형 아이템의 종류 및 종류별 공급 확률정보 등을 표시하지 아니하거나 거짓으로 표시한 게임물을 유통시키거나 이용에 제공한 자에 대하여 시정을 명할 수 있다. 이 경우 시정을 명하기 전에 문화체육관광부장관은 시정 방안을 정하여 이에 따를 것을 권고할 수 있다. <신설 2023.3.21>"
+      ],
+      "effective_date": "20241022",
+      "promulgation_date": "20241022"
+    }
+  ],
+  "commencement_review": {
+    "282793": "기본·제17조 시행일 2026-07-21. 부칙 제21312호의 6개월 시행과 제20조의5 등 2027-01-21 별도 시행 확인. 미래 시행 조항을 근거로 쓰지 않음.",
+    "288143": "제21조의2 시행일 2026-07-21. 신설 당시 제27530호 부칙 2016-09-30 시행 및 제36507호 부칙 2026-07-21 기본 시행과 일부 2027-01-21 별도 시행 확인."
+  },
+  "intentional_scope_changes": [
+    "쉽게의 3배 배상 수치·확률대로 반드시 손실이라는 단정을 요약에서 제외합니다. 이득의 3배 배상 수치와 고의 조건은 그대로 남깁니다.",
+    "디지털콘텐츠의 가분적 미제공 부분 예외를 법17조2항5호에 따라 명시합니다.",
+    "고지 OR 맛보기 관계를 고지 AND 적용 가능한 시험 제공 등 조치로 바로잡습니다.",
+    "제공 곤란 시 정보 제공이라는 시행령 대체 조치의 조건을 명시합니다."
+  ],
+  "doi_changes": {
+    "added": [],
+    "removed": [],
+    "reason": "법령 항목이며 DOI 변경 없음"
+  },
+  "unresolved_limitations": [
+    "기존265811 XML은20241022 시행 구판입니다. 현재3배 배상·고의 과실 입증·소규모 적용 제외를 독립 검증한 자료로 간주하지 않습니다. 이 부분의 독립 재검증 전 전체 항목 출판 승인을 보류해야 합니다.",
+    "비고의 중국 랜덤박스 지침과 국내 실물 랜덤박스 별도 규정 부재를 이번에 독립 검증하지 않았습니다. 원문 한계·날짜를 그대로 유지합니다.",
+    "초기 필드 승인과 지정 부분문장 승인은 전체 이득·전체 항목 승인이 아닙니다. 이번 짧은 문장과 가분적 예외를 포함한 전체 후보는 새 독립 검토가 필요합니다."
+  ],
+  "preservation": {
+    "unchanged_fields": [
+      "비용",
+      "근거등급",
+      "비고"
+    ],
+    "title_unchanged": true,
+    "tag_and_grade_exact": true,
+    "six_field_order_preserved": true,
+    "canonical_warnings_preserved_in_review_record": true,
+    "protected_files_before_sha256": {
+      "strict-entry.md": "dad90d71068f360ac46c64efd6e9bd116cc3bc47109b04c8aed3cf4a1baeb31f",
+      "final.md": "0f60a21f1c01296b75458c524d67e1cec4dfdc191a6c5a7383a8f27c75ef903f",
+      "entry_snapshot.md": "dad90d71068f360ac46c64efd6e9bd116cc3bc47109b04c8aed3cf4a1baeb31f",
+      "editorial-proposal.json": "239ee7a66ed5f8cfae3562d8afb780283b90c2a0e23b527aeaaeedd6c712f355",
+      "01_input_with_metrics.txt": "1ec14069d00bff89ce81a5ba0a18585a132bf7b73d152553d79bf87bbfc9592e",
+      "00_metrics.json": "db66df0b38427f3bc333bca7473014f4e6300aded4a7761a1df42b2d2102e8f0"
+    },
+    "protected_files_after_sha256": {
+      "strict-entry.md": "dad90d71068f360ac46c64efd6e9bd116cc3bc47109b04c8aed3cf4a1baeb31f",
+      "final.md": "0f60a21f1c01296b75458c524d67e1cec4dfdc191a6c5a7383a8f27c75ef903f",
+      "entry_snapshot.md": "dad90d71068f360ac46c64efd6e9bd116cc3bc47109b04c8aed3cf4a1baeb31f",
+      "editorial-proposal.json": "239ee7a66ed5f8cfae3562d8afb780283b90c2a0e23b527aeaaeedd6c712f355",
+      "01_input_with_metrics.txt": "1ec14069d00bff89ce81a5ba0a18585a132bf7b73d152553d79bf87bbfc9592e",
+      "00_metrics.json": "db66df0b38427f3bc333bca7473014f4e6300aded4a7761a1df42b2d2102e8f0"
+    }
+  },
+  "length_checks": {
+    "easy_chars": 87,
+    "easy_sentences": 3,
+    "new_or_modified_narrative_sentences": [
+      {
+        "text": "확률형 아이템은 돈을 내도 무엇이 나올지 모릅니다.",
+        "chars": 28
+      },
+      {
+        "text": "게임 회사는 종류와 종류별 확률을 표시해야 합니다.",
+        "chars": 28
+      },
+      {
+        "text": "게임물, 홈페이지, 광고·선전물마다 표시해야 합니다.",
+        "chars": 29
+      },
+      {
+        "text": "디지털콘텐츠는 제공이 시작되면 청약철회가 막힐 수 있습니다.",
+        "chars": 33
+      },
+      {
+        "text": "다만 나눌 수 있는 콘텐츠의 미제공 부분은 제외합니다.",
+        "chars": 30
+      },
+      {
+        "text": "판매자는 철회 불가 사실을 분명히 표시해야 합니다.",
+        "chars": 28
+      },
+      {
+        "text": "그와 함께 시험 사용 상품 등을 제공해야 합니다.",
+        "chars": 27
+      },
+      {
+        "text": "미리보기·기간 체험·기능 제한 체험 중 하나 이상입니다.",
+        "chars": 31
+      },
+      {
+        "text": "이런 제공이 곤란하면 콘텐츠 정보를 제공해야 합니다.",
+        "chars": 29
+      },
+      {
+        "text": "필요한 조치가 없으면 철회할 수 있습니다.",
+        "chars": 23
+      },
+      {
+        "text": "(「전자상거래법」 제17조 제2항 제5호·제6항).",
+        "chars": 28
+      }
+    ],
+    "max_new_sentence_chars": 33
+  },
+  "holds": [
+    "Unadopted pending independent exact-hash review.",
+    "Unverified current game-law commencement and small-business exception require review; no self-approval."
+  ]
+}

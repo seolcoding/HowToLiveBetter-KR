@@ -1,0 +1,310 @@
+{
+  "status": "completed_source_supplement_for_six_frozen_entries",
+  "created_at_utc": "2026-10-18T17:07:13.567851+00:00",
+  "frozen_manifest_sha256": "f48c939747aa4044b7af8264ed5da8476f00934994b070492d26649fb3902899",
+  "scope": "3/4/9/11/13/34 source verification supplement only; prior r1 and canonical unchanged",
+  "formal_kr_fit_approval": false,
+  "integration_approval": false,
+  "new_r2_approval": false,
+  "entries": [
+    {
+      "entry": 3,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-003-ebf0/publication-entry-proposal.md",
+      "proposal_sha256": "ce3be8f668dedffceeb3e80e9ac8240c6251a59d113b3cecdef87f5c5eee3340",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-003-ebf0/publication-entry-changes.json",
+      "changes_sha256": "f1c8eaa0d1671182f58da836708f095ff4e79da90f594fdd74cde6074e9c318c",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-003-ebf0/strict-entry.md",
+      "base_strict_entry_sha256": "6f639cb3cc99982809fded74fdea6198fe88f7494395388d4d631bab7b9d5e6e",
+      "source_sufficiency": "sufficient_for_claimed_tax_scope",
+      "direct_read_scope": [
+        "법95의2 전체",
+        "법21223 부칙1·17",
+        "령95 전체 및 36127 부칙 시행일/95 관련 특례 유무"
+      ],
+      "findings": [
+        "법21223 부칙1: 2026-01-01 시행;17: 시행 이후 월세 지급분에 적용.",
+        "령36127은 2026-02-27 공포일 시행. 95조는 별도 장래시행 열거에 없음.",
+        "15/17%,8000/7000·5500/4500만원,1000만원,3자녀100㎡ OR4억원,세대/외국인/다른 시군구 배우자와 합산 조건은 법·령과 일치.",
+        "령95③ 월세액은 계약기간 일수로 안분. 본문 연간 예시는 1년 지급 전제이므로 모순 없음."
+      ],
+      "remaining_content_revision_requests": [],
+      "sources": [
+        {
+          "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=284389&type=XML",
+          "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/284389.xml",
+          "artifact_sha256": "c4d88fcbc2ad79526866b2614a30b2c610079a672d2105c429ce497670dc5569",
+          "access": "existing_cached_primary_direct_read",
+          "review_read_at_utc": "2026-10-18T17:07:13.567851+00:00",
+          "original_http_status": null,
+          "original_http_time_utc": null,
+          "provenance_note": "원래 HTTP 상태/시각은 exact changes의 원기록과 구별. 이 검토는 새 HTTP가 아님."
+        },
+        {
+          "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=288915&type=XML",
+          "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/288915.xml",
+          "artifact_sha256": "b96a47d5b7a0de512c2e92b1be6d46fa346940a34089220b39e8838061345e8b",
+          "access": "existing_cached_primary_direct_read",
+          "review_read_at_utc": "2026-10-18T17:07:13.567851+00:00",
+          "original_http_status": null,
+          "original_http_time_utc": null,
+          "provenance_note": "원래 HTTP 상태/시각은 exact changes의 원기록과 구별. 이 검토는 새 HTTP가 아님."
+        }
+      ],
+      "length_review": "기존 r1 길이 지적은 그대로이며 본 보완은 길이나 후속r2 승인을 하지 않음.",
+      "unexamined_scope": "본문에서 주장하지 않은 다른 품목/전체법령/별도학술전문/후속r2는 검증 범위 아님."
+    },
+    {
+      "entry": 4,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-004-aad2/publication-entry-proposal.md",
+      "proposal_sha256": "73f00af5e53c8c8cbd438437f5818bfecacc30c22534e24ec2b43fc3e3c4aba7",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-004-aad2/publication-entry-changes.json",
+      "changes_sha256": "7c187355985c58cda2b8f93f8b5cf73440f8be567fbd2ca77f1e356fa907e56f",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-004-aad2/strict-entry.md",
+      "base_strict_entry_sha256": "723842b1d51a96ab3406d60d94f23da885f01df6e1830cb9306b1689e0bed847",
+      "source_sufficiency": "sufficient_for_1372_fee_claim",
+      "direct_read_scope": [
+        "공식1372 홈페이지 footer 실제 본문"
+      ],
+      "findings": [
+        "상담전화:국번없이 1372(유료, 통화료는 발신자 부담)"
+      ],
+      "remaining_content_revision_requests": [],
+      "sources": [
+        {
+          "url": "https://www.ccn.go.kr/index.ccn",
+          "utc": "2026-10-18T17:05:48.120538+00:00",
+          "status": 200,
+          "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch05-partial-review/1372-3.html",
+          "sha256": "37b36f6808ad132c60adf02b199632a73594a6ac54aac7f7effd64cf08e3859c",
+          "access": "reviewer_fresh_primary_https",
+          "short_quote": "상담전화:국번없이 1372(유료, 통화료는 발신자 부담)"
+        }
+      ],
+      "length_review": "기존 r1 길이 지적은 그대로이며 본 보완은 길이나 후속r2 승인을 하지 않음.",
+      "unexamined_scope": "본문에서 주장하지 않은 다른 품목/전체법령/별도학술전문/후속r2는 검증 범위 아님."
+    },
+    {
+      "entry": 9,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-009-dea2/publication-entry-proposal.md",
+      "proposal_sha256": "ae19260854c1d2961a0d5c5f345fca2450b60a34a60bd501b0b382e98e35a911",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-009-dea2/publication-entry-changes.json",
+      "changes_sha256": "21ea42ed9a2561dc9f37606627999f36beae83e467e2fabe020149006dc220eb",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-009-dea2/strict-entry.md",
+      "base_strict_entry_sha256": "da6e9ea3b21c28d0d964cb35e4e8ad5d9eb2af739f4bf62a93c163ecd4c9206d",
+      "source_sufficiency": "sufficient_for_claimed_korean_minor_contract_scope",
+      "direct_read_scope": [
+        "민법4·5·6·15·17·140·141·146 전체",
+        "민법10429·21454 부칙",
+        "전자상거래법13③"
+      ],
+      "findings": [
+        "19세,동의없는 행위 취소,처분허락재산·속임수 예외,1개월 이상 확답 발송과 침묵 추인,특별절차 예외,현존이익,3년 AND10년은 실제 조문과 일치.",
+        "r1에서 소비자분쟁 별표 미완료를 이 항목에 연결한 것은 부정확했다. 이 frozen 본문은 해당 별표 품목/환급기준을 주장하지 않으므로 해당 검증은 불필요."
+      ],
+      "remaining_content_revision_requests": [],
+      "sources": [
+        {
+          "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=284415&type=XML",
+          "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/284415.xml",
+          "artifact_sha256": "cd2997176df62de7b1e4bb018287987654f6054cbd0eeced9e882d5c4daf53df",
+          "access": "existing_cached_primary_direct_read",
+          "review_read_at_utc": "2026-10-18T17:07:13.567851+00:00",
+          "original_http_status": null,
+          "original_http_time_utc": null,
+          "provenance_note": "원래 HTTP 상태/시각은 exact changes의 원기록과 구별. 이 검토는 새 HTTP가 아님."
+        },
+        {
+          "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=282793&type=XML",
+          "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch05-audit/282793.xml",
+          "artifact_sha256": "f970ec9e84bae3c139fe8e190c9dda527662a64b9353daa0ee5dd3e7934250f7",
+          "access": "existing_cached_primary_direct_read",
+          "review_read_at_utc": "2026-10-18T17:07:13.567851+00:00",
+          "original_http_status": null,
+          "original_http_time_utc": null,
+          "provenance_note": "원래 HTTP 상태/시각은 exact changes의 원기록과 구별. 이 검토는 새 HTTP가 아님."
+        }
+      ],
+      "length_review": "기존 r1 길이 지적은 그대로이며 본 보완은 길이나 후속r2 승인을 하지 않음.",
+      "unexamined_scope": "본문에서 주장하지 않은 다른 품목/전체법령/별도학술전문/후속r2는 검증 범위 아님."
+    },
+    {
+      "entry": 11,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-011-5dc5/publication-entry-proposal.md",
+      "proposal_sha256": "16b6deedfa7e2acee4788112e0828ec61860e3059820858d6ce1106435e711d1",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-011-5dc5/publication-entry-changes.json",
+      "changes_sha256": "c0bae24b09ea887832b7ab7453c087dc878121bf46ae27b91005865e8d7a66ef",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-011-5dc5/strict-entry.md",
+      "base_strict_entry_sha256": "577d0285b91c6fe8832188e0755bf7cd240ae2ce00c5fc0571f1f7418b5902d8",
+      "source_sufficiency": "numbers_verified_scope_conditions_require_revision",
+      "direct_read_scope": [
+        "소비자기본법 시행령 별표1 전체",
+        "소비자분쟁해결기준 별표Ⅲ 세탁기·냉장고 완제품 및 세탁기 모터·냉장고/에어컨 컴프레서 전체행·핵심부품 공통조건"
+      ],
+      "findings": [
+        "세탁기·냉장고 완제품1년,세탁기모터·냉장고컴프레서3년,에어컨컴프레서4년 일치.",
+        "주요부품 보장은 정상 사용 중 성능·기능 하자로 부품수리가 필요한 경우 해당 부품 무상수리.",
+        "시행령 별표1 4가·나: 사업자 표시가 더 길면 표시기간,짧거나 미표시하면 품목기준. 4라: 구입/인도/교환일 기산.4마: 날짜 입증 곤란시 제조/통관3개월 후 기산.",
+        "별표1 1가: 취급잘못·천재지변·비지정 수리/설치로 변경·손상시 사업자 비용부담 제외."
+      ],
+      "remaining_content_revision_requests": [
+        "보장기간 중 모든 고장/전체 수리비가 보장되는 것처럼 겹침을 계산하지 않도록 정상사용 하자·해당부품 수리 및 취급잘못 등 예외를 보존할 것.",
+        "학술논문은 이 보완의 대상이 아니며 전문 확인으로 승격하지 않음. 산술 예시3/30=10%는 원자료 통계가 아님."
+      ],
+      "sources": [
+        {
+          "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=289451&type=XML",
+          "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/289451.xml",
+          "artifact_sha256": "c2c6b4329c34a7de863d9fd408afee440548a0903483c2801aacd84421662807",
+          "access": "existing_cached_primary_direct_read",
+          "review_read_at_utc": "2026-10-18T17:07:13.567851+00:00",
+          "original_http_status": null,
+          "original_http_time_utc": null,
+          "provenance_note": "원래 HTTP 상태/시각은 exact changes의 원기록과 구별. 이 검토는 새 HTTP가 아님."
+        },
+        {
+          "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000270136&type=XML",
+          "artifact_path": "/tmp/ch05e34-criteria.xml",
+          "artifact_sha256": "64e922b28e0d2e2b79c275cf1acec392e97d60975226d383201511e1a9e9a7f1",
+          "access": "existing_author_primary_artifact_direct_read",
+          "review_read_at_utc": "2026-10-18T17:07:13.567851+00:00",
+          "original_http_status": null,
+          "original_http_time_utc": null
+        }
+      ],
+      "length_review": "기존 r1 길이 지적은 그대로이며 본 보완은 길이나 후속r2 승인을 하지 않음.",
+      "unexamined_scope": "본문에서 주장하지 않은 다른 품목/전체법령/별도학술전문/후속r2는 검증 범위 아님."
+    },
+    {
+      "entry": 13,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-013-1bd0/publication-entry-proposal.md",
+      "proposal_sha256": "5cfbbd1a762ce8fbfb3a640e53042684a896973b633a8312e40b9a1bfd03856c",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-013-1bd0/publication-entry-changes.json",
+      "changes_sha256": "4f64aba114ccc1703387fe7df3cfad853913c7552ba2685fec87aeb579700703",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-013-1bd0/strict-entry.md",
+      "base_strict_entry_sha256": "54bd4c665f6605e9f0ae4e3ccf23bba871c8cbe8289095af7b219c60c97a4a51",
+      "source_sufficiency": "thresholds_verified_missing_exceptions_require_revision",
+      "direct_read_scope": [
+        "시행규칙 별표1 제1~10호 전체표",
+        "별표1의2 제1·2호 전체"
+      ],
+      "findings": [
+        "연소득2000만원 이하 AND 사업소득 없음; 미등록(주택임대 제외)·등록장애인·상이등급유공/보훈대상자의 사업소득500만원 이하 예외 확인.",
+        "기혼은 부부 모두 제1호가~다 소득요건. 재산은1~9호 5.4억원 이하 OR 초과9억원이하+소득1000만원 이하;형제자매1.8억원 이하 확인.",
+        "별표1은 동거/비동거와 가족구성·혼인/소득 조건을 각 관계별로 달리 정함. 숫자 자체는 일치."
+      ],
+      "remaining_content_revision_requests": [
+        "별표1의2 제1호다: 재건축 사업소득을 제외하면 소득요건 충족 등 공단이 관계자료로 인정한 경우의 예외를 독자본문에 보존.",
+        "가족 전반에 별표1 부양요건이 적용됨을 명확히 할 것. 비동거 직계비속 배우자/배우자 직계비속 부양불인정,비동거 자녀 미혼 등 조건이 있고 형제자매에만 동거조건이 있는 것이 아님."
+      ],
+      "sources": [
+        {
+          "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290599&type=XML",
+          "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290599.xml",
+          "artifact_sha256": "dcea033f138d9ece7311e9ee3aa216c8edd0b36674038c8081d60a11a3ab0982",
+          "access": "existing_cached_primary_direct_read",
+          "review_read_at_utc": "2026-10-18T17:07:13.567851+00:00",
+          "original_http_status": null,
+          "original_http_time_utc": null,
+          "provenance_note": "원래 HTTP 상태/시각은 exact changes의 원기록과 구별. 이 검토는 새 HTTP가 아님."
+        }
+      ],
+      "length_review": "기존 r1 길이 지적은 그대로이며 본 보완은 길이나 후속r2 승인을 하지 않음.",
+      "unexamined_scope": "본문에서 주장하지 않은 다른 품목/전체법령/별도학술전문/후속r2는 검증 범위 아님."
+    },
+    {
+      "entry": 34,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-034-9bb5/publication-entry-proposal.md",
+      "proposal_sha256": "a446f5cf50c8d4c9541b5ea3e2f3cfd803f81c5828e25c77d688546ba3f2287e",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-034-9bb5/publication-entry-changes.json",
+      "changes_sha256": "45215e7066503a6ee30ca1cc1d9a89ebd79a5908d58bab5f0c551ec485138ff9",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-034-9bb5/strict-entry.md",
+      "base_strict_entry_sha256": "f2467aae76b2512d23fc45bea77846090a6d50e2b91241b87cdc0deaf8a3ce81",
+      "source_sufficiency": "sufficient_for_claimed_jewelry_table_scope",
+      "direct_read_scope": [
+        "소비자분쟁해결기준1~3조와 별표Ⅰ 귀금속대상품목",
+        "별표Ⅱ 문화용품①귀금속·보석 전체5행 및 비고",
+        "시행령 별표1 공통기준",
+        "표시광고법3·10"
+      ],
+      "findings": [
+        "함량/중량미달 및 표시내용차이:교환 또는 구입가환급.치수상이1개월 이내/도금·입힘불량1년 이내:무상수리 또는 교환.조립불량:무상수리 또는 교환.해당표 별도 비고조건 없음.",
+        "별표Ⅰ 금·백금·백색금·은 및 보석 장신구,도금/입힘 포함.일반 악세사리는 별도품목이며 귀금속으로 확대하지 않음.",
+        "고시 제1조는 구체적 합의·권고 기준을 제시하는 목적,제2조는 합의 실패 시 행정기관·소비자원·소비자단체 피해구제청구를 규정. 본문은 자동 환급보장으로 쓰지 않음.",
+        "본문 손해/인과조건과 고의과실 부재 항변불가는 표시광고법10과 일치. 감정서 법정자격 미확인이라는 독자 한계는 그대로 유지."
+      ],
+      "remaining_content_revision_requests": [],
+      "sources": [
+        {
+          "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=289451&type=XML",
+          "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/289451.xml",
+          "artifact_sha256": "c2c6b4329c34a7de863d9fd408afee440548a0903483c2801aacd84421662807",
+          "access": "existing_cached_primary_direct_read",
+          "review_read_at_utc": "2026-10-18T17:07:13.567851+00:00",
+          "original_http_status": null,
+          "original_http_time_utc": null,
+          "provenance_note": "원래 HTTP 상태/시각은 exact changes의 원기록과 구별. 이 검토는 새 HTTP가 아님."
+        },
+        {
+          "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=268659&type=XML",
+          "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch05-audit/268659.xml",
+          "artifact_sha256": "cbd6c690649b0d02b22f7832b8e39c99b9c066f9d3f10da236497dc9bcb70e9f",
+          "access": "existing_cached_primary_direct_read",
+          "review_read_at_utc": "2026-10-18T17:07:13.567851+00:00",
+          "original_http_status": null,
+          "original_http_time_utc": null,
+          "provenance_note": "원래 HTTP 상태/시각은 exact changes의 원기록과 구별. 이 검토는 새 HTTP가 아님."
+        },
+        {
+          "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000270136&type=XML",
+          "artifact_path": "/tmp/ch05e34-criteria.xml",
+          "artifact_sha256": "64e922b28e0d2e2b79c275cf1acec392e97d60975226d383201511e1a9e9a7f1",
+          "access": "existing_author_primary_artifact_direct_read",
+          "review_read_at_utc": "2026-10-18T17:07:13.567851+00:00",
+          "original_http_status": null,
+          "original_http_time_utc": null
+        }
+      ],
+      "length_review": "기존 r1 길이 지적은 그대로이며 본 보완은 길이나 후속r2 승인을 하지 않음.",
+      "unexamined_scope": "본문에서 주장하지 않은 다른 품목/전체법령/별도학술전문/후속r2는 검증 범위 아님."
+    }
+  ],
+  "common_criteria_governing_articles_directly_read": [
+    "제1조(목적) 이 고시는 「소비자기본법」 제16조 제2항과 같은 법 시행령 제8조 제3항의 규정에 의해 일반적 소비자분쟁해결기준에 따라 품목별 소비자분쟁해결기준을 정함으로써 소비자와 사업자(이하 \"분쟁당사자\"라 한다)간에 발생한 분쟁이 원활하게 해결될 수 있도록 구체적인 합의 또는 권고의 기준을 제시하는데 그 목적이 있다.",
+    "제2조(피해구제청구) 분쟁당사자간에 합의가 이루어지지 않을 경우 분쟁당사자는 중앙행정기관의 장, 시ㆍ도지사, 한국소비자원장 또는 소비자단체에게 그 피해구제를 청구할 수 있다.",
+    "제3조(품목 및 보상기준) 이 고시에서 정하는 대상품목, 품목별분쟁해결기준, 품목별 품질보증기간 및 부품보유기간, 품목별 내용연수표는 각각 별표 Ⅰ, 별표 Ⅱ, 별표 Ⅲ, 별표 Ⅳ와 같다."
+  ],
+  "fresh_http_attempts": [
+    {
+      "url": "https://www.ccn.go.kr/",
+      "utc": "2026-10-18T17:05:11.553715+00:00",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "url": "https://www.kca.go.kr/home/sub.do?menukey=4005",
+      "utc": "2026-10-18T17:05:14.673315+00:00",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "url": "https://www.kca.go.kr/home/main.do",
+      "utc": "2026-10-18T17:05:46.362293+00:00",
+      "status": 503,
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch05-partial-review/1372-2.html",
+      "sha256": "b5b660bc2bb92e97199b4b045f7e21eca39307fa087b8be85bb006cc7d83b34b"
+    },
+    {
+      "url": "https://www.ccn.go.kr/index.ccn",
+      "utc": "2026-10-18T17:05:48.120538+00:00",
+      "status": 200,
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch05-partial-review/1372-3.html",
+      "sha256": "37b36f6808ad132c60adf02b199632a73594a6ac54aac7f7effd64cf08e3859c"
+    },
+    {
+      "url": "https://www.kca.go.kr/home/sub.do?menukey=4001",
+      "utc": "2026-10-18T17:05:50.001957+00:00",
+      "status": 503,
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch05-partial-review/1372-4.html",
+      "sha256": "b5b660bc2bb92e97199b4b045f7e21eca39307fa087b8be85bb006cc7d83b34b"
+    }
+  ],
+  "prior_record_clarification": "r1 verification_scope requests caused solely by incomplete independent reading are fulfilled here where source_sufficiency is sufficient. They are not findings of falsehood or author instructions to delete facts. 11/13 now have actual textual omission findings. This supplement does not change frozen r1 decisions."
+}

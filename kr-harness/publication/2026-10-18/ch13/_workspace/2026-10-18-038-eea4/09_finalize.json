@@ -1,6 +1,6 @@
 {
-  "decision": "accept",
   "status": "accept",
+  "decision": "accept",
   "fidelity_violations": [],
   "correction_count": 0,
   "body_correction_count": 0,
@@ -8,24 +8,75 @@
   "self_check": "6/6",
   "grade": "B",
   "change_rate": 0.0007,
-  "gate_exit_code": 1,
-  "residuals": [
-    {
-      "metric": "ending_comma_rate",
-      "z_before": 5.84,
-      "z_after": 2.66,
-      "verdict": "미달; warning retained",
-      "reason": "보호되는 출처 귀속 직접 인용의 좋고, 및 간접의문절 해당하는지,의 계수 영향. 추가 필자 C-11 없음."
-    }
-  ],
-  "inspection": {
-    "eligible_author_C11_before": [
-      "72시간을 넘기지 말고, 될 수 있는 한 빨리 시작하세요."
-    ],
-    "eligible_author_C11_after": [],
-    "protected_quote": "미국 질병통제예방센터 안내에 귀속된 \"빨리 시작할수록 좋고, 한 시간 한 시간이 중요하다\" 보존",
-    "false_pattern": "노출에 해당하는지, 약을 쓸지는 — 간접의문절 병렬; 연결어미 -고/-며/-지만/-면서/-아서/-어서 아님",
-    "overediting": []
+  "gate_exit_code": 0,
+  "classification_context": {
+    "registry_sha256": "fcaea69ba82f916d15ea8f96d26b58c53af2407dcb82f2d0e5100de78102c89c",
+    "payload_sha256": "90ab1381c1f8cc2a3098d87d1e0c4c87e8e9c3abe04cace2e10c0c1172c88898",
+    "review_sha256": "ec3e1e18b289dd9f36f6cfde3ae53c8f4df58ebf8c33d39591a449e839b2d89d",
+    "original_sha256": "c28be01c207caeb56676cf81cd6f9f3060d49334a522179b278d147ad24c4081",
+    "final_body_sha256": "59e04574fc494ae398f3a443cefeead6bafcf0367ff51962f2f982244a765060",
+    "final_file_sha256": "be2e0327308cffca0848e5efe77db1050b82534a7b1517392d3631255acf643f",
+    "route": "light",
+    "original_path": "_workspace/2026-10-18-038-eea4/01_input.txt",
+    "runtime_sha256": {
+      "references/baseline.json": "6b64904daa27c3f759f39a664bf8e7e6c2ea1f9dcacd6d457e97b10f60f43dc5",
+      "references/baseline_v2.json": "b5f1725bd02fb4cc40eece68c5b8f1d7c7655775743196d8fd0bc5978f2ed916",
+      "references/metrics.py": "c17ef0bbb25f24fc1695068a319d421d35e4cffd9a8c277da3ad6a30ea96b8e3",
+      "references/metrics_v2.py": "35aed83e56f8ced583e25ea08d9fbecb8baf15f8bb7f5bb14883a9f7318e374f",
+      "scripts/checks.py": "69a435b3a6549fded25a9796f5cdf01572951fba9feeb85db3bdcc0dd12599ef",
+      "scripts/prepare_monolith_input.py": "3774a9faecf3791057d4c8e887dd222e701d131ac1605ba4de2e76c7c064a9a2",
+      "scripts/quote_context.py": "b3689d1fc321c55bc0d1d6a5985288a34d5ea8d851c67d846321856cf4de788f",
+      "scripts/verify_gates.py": "30ab963d7c9b72cf3f395bd1279ac2e33b58d4ca8b5e099ee25da7aeb5e0c81a"
+    },
+    "protected_quote_count": 1,
+    "reviewed_quote_count": 1,
+    "excluded_quote_chars_before": 28
   },
-  "note": "본문은 원문 대비 쉼표 1개 삭제뿐. 현재 verify_gates.py를 절대경로 입력과 essay로 실행한 실제 exit 1을 수용하며 production publication-gates 파일은 변경하지 않음."
+  "residuals": [],
+  "independent_fidelity_review": {
+    "result": "accept",
+    "comparison": "Exact original and full final reread against protected entry snapshot. Sole body change removes comma after 말고; meaning and register unchanged.",
+    "preserved": [
+      "28일/72시간/3일 and all numeric occurrences",
+      "HIV/PEP, named CDC attribution and complete quotation",
+      "possible exposure condition, urgent timing, emergency-only scope",
+      "domestic coverage/provider uncertainty, physician decision, adherence warning, follow-up and prevention limits",
+      "protected heading, source URL, grade and context outside editable fields"
+    ],
+    "scope": "Fidelity review only; classification selection is not fact/source approval."
+  },
+  "evidence": {
+    "original_sha256": "c28be01c207caeb56676cf81cd6f9f3060d49334a522179b278d147ad24c4081",
+    "final_file_sha256": "be2e0327308cffca0848e5efe77db1050b82534a7b1517392d3631255acf643f",
+    "final_body_sha256": "59e04574fc494ae398f3a443cefeead6bafcf0367ff51962f2f982244a765060",
+    "body_bytes": 1688,
+    "registry_sha256": "fcaea69ba82f916d15ea8f96d26b58c53af2407dcb82f2d0e5100de78102c89c",
+    "actual_gate_argv": [
+      "python3",
+      "/workspace/HowToLiveBetter-KR/.claude/skills/humanize-korean/scripts/verify_gates.py",
+      "--before",
+      "_workspace/2026-10-18-038-eea4/01_input.txt",
+      "--after",
+      "_workspace/2026-10-18-038-eea4/final.md",
+      "--genre",
+      "essay",
+      "--json",
+      "--publication-manifest",
+      "manifest.json",
+      "--quote-registry",
+      "quote-attribution/root-registry-r1.json",
+      "--quote-registry-sha256",
+      "fcaea69ba82f916d15ea8f96d26b58c53af2407dcb82f2d0e5100de78102c89c",
+      "--classification-evidence-dir",
+      "_workspace/2026-10-18-038-eea4/classification-finalize-r1"
+    ],
+    "gate_stdout": "_workspace/2026-10-18-038-eea4/finalizer-reviewed-gate-r1.json",
+    "gate_stderr_exit": "_workspace/2026-10-18-038-eea4/finalizer-reviewed-gate-r1.txt",
+    "immutable_backups": {
+      "09_finalize.json.before-reviewed-classification-r1": "7b0155b300008a48346feacdaaa602dedb1749a07a7e6f8215091e01d21aa189",
+      "final.md.before-reviewed-classification-r1": "247c447850f43db0278415974593793eb1d9a12923592903f66b970467d6fb21",
+      "publication-gates.json.before-reviewed-classification-r1": "e2b5b560e1ceab80ada600c83ee0311413f887e81a66ab4b3bb70f2569acd8d0",
+      "publication-gates.txt.before-reviewed-classification-r1": "6d60f152caa9ea659bd61410ef1b1fdd3e743365c9a2e98235dd62a8cece8a54"
+    }
+  }
 }

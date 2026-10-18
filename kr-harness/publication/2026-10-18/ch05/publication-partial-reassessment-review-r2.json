@@ -1,0 +1,216 @@
+{
+  "status": "completed_exact_three_entry_partial_reassessment_r2",
+  "manifests": [
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/author-revision-batch-14.json",
+      "sha256": "90e2b17a22c411eb7b422e4f700ecd05c3a4373c819ef8dabb5445b779183f7b"
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/author-revision-batch-15.json",
+      "sha256": "76ac9898e7ed9c4d4443ffdca1749211d72e68ffd55049a1013211e071005223"
+    }
+  ],
+  "entries": [
+    {
+      "entry": 41,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-041-439b/publication-entry-proposal-r3.md",
+      "proposal_sha256": "3fb5f82728b7214582890f21316948928f25badda91c47f4fd9425c1d49f8339",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-041-439b/publication-entry-changes-r3.json",
+      "changes_sha256": "8e4b2cd418be18c6ff6d9cefd919b208aaa665936b9908817cc6984343463529",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-041-439b/strict-entry.md",
+      "base_strict_entry_sha256": "23e9b61fc4afebb282bcb27081fed4fd58ffb511f7597c4c7ebc36bf02121ca3",
+      "decision": "approve",
+      "hash_checks": {
+        "proposal": true,
+        "changes": true
+      },
+      "base_hash_matches": true,
+      "length_check": {
+        "entry": 41,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-041-439b/publication-entry-proposal-r3.md",
+        "title_chars": 30,
+        "easy_chars": 106,
+        "easy_sentences": 3,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "six_labels": true,
+        "tag": true,
+        "grade": true
+      },
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "revision_requests": [],
+      "source_assessment": "r2에서 지적한 환급·위약금·보험금 지급사유의 세 인용이 모두 법46조③1/④/⑤로 명시되어 해소. 다른 내용은 이전검토와 동일. 이전 실제 읽은 법46 원문 및 시행령·상법 범위를 재사용. 새 HTTP 없음.",
+      "source_reuse": {
+        "review_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/publication-partial-reassessment-review-r1.json",
+        "review_sha256": "cb273fc2cbfd7672795920db80c8b253e3cceec06454723f93f307f8c61b5341"
+      },
+      "proposed_root_operation": {
+        "type": "replace_complete_strict_entry_body",
+        "before_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-041-439b/strict-entry.md",
+        "before_entire_entry_sha256": "23e9b61fc4afebb282bcb27081fed4fd58ffb511f7597c4c7ebc36bf02121ca3",
+        "after_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-041-439b/publication-entry-proposal-r3.md",
+        "after_entire_entry_sha256": "3fb5f82728b7214582890f21316948928f25badda91c47f4fd9425c1d49f8339",
+        "separator_policy": "verify whole before entry bytes;preserve surrounding separators",
+        "supersession": "latest approved full supersedes initial field edits and older full versions of same entry;do not apply both",
+        "integration_authorized": false
+      }
+    },
+    {
+      "entry": 22,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-022-0bc9/publication-entry-proposal-r2.md",
+      "proposal_sha256": "012625669af730d6b517d1f6faf990cb02ecad58b599f82545e2f004a157bf80",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-022-0bc9/publication-entry-changes-r2.json",
+      "changes_sha256": "1a30f14dfe5bdb4f701975c995d91a29c429c828328aed753f18bc2ec959855a",
+      "literal_exit_code": 0,
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-022-0bc9/strict-entry.md",
+      "base_strict_entry_sha256": "fa7f1e532862640dd7b0a44dd0c20a6db271383207164528b3ec05f0c4f39077",
+      "decision": "revise",
+      "hash_checks": {
+        "proposal": true,
+        "changes": true
+      },
+      "base_hash_matches": true,
+      "length_check": {
+        "entry": 22,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-022-0bc9/publication-entry-proposal-r2.md",
+        "title_chars": 49,
+        "easy_chars": 109,
+        "easy_sentences": 4,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "six_labels": true,
+        "tag": true,
+        "grade": true
+      },
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "revision_requests": [
+        {
+          "field": "이득",
+          "exact_span": "체육시설은 소비자분쟁해결기준을 따릅니다. 쓴 만큼과 위약금(이용료의 10분의 1)을 빼고 돌려줍니다.",
+          "issue": "해당표는 소비자 귀책 해지의 계산이며 법19/령18 회원제체육시설을 제외. 사업자 귀책은 위약금을 더해 환급. 기준 성격·적용범위 일반화 방지 필요.",
+          "required": "비회원제 해당표·소비자책임 해지 조건 및 합의/권고기준임을 명시. 이용료는 계약납부총액(가입·입회·부대료포함,보증금제외)임을 보존. 기존법조건/길이 삭제없이 sameauthor 새제안."
+        }
+      ],
+      "source_assessment": "actual 현행20260908 할부법8·16과 령6·11,방문판매법30~32와 령37·40을 직접 읽어 기간·금액·통지·개별제작·철회제한조건 확인. 미래통합본을 현행 검증으로 세지 않음. 다만 별표Ⅱ 체육시설 표의 귀책사유/회원제 제외/이용료분모가 일반 체육시설10% 표현에서 빠져 revise."
+    },
+    {
+      "entry": 34,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-034-9bb5/publication-entry-proposal-r2.md",
+      "proposal_sha256": "07235d414516313aa13b8913177ab13d5cc7fb22d6633b52b7d1a1645f979566",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-034-9bb5/publication-entry-changes-r2.json",
+      "changes_sha256": "dc646cad08d29e89c9a1f06aea7edd7b845080a0f48dcace05372f0400e35e36",
+      "literal_exit_code": 0,
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-034-9bb5/strict-entry.md",
+      "base_strict_entry_sha256": "f2467aae76b2512d23fc45bea77846090a6d50e2b91241b87cdc0deaf8a3ce81",
+      "decision": "approve",
+      "hash_checks": {
+        "proposal": true,
+        "changes": true
+      },
+      "base_hash_matches": true,
+      "length_check": {
+        "entry": 34,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-034-9bb5/publication-entry-proposal-r2.md",
+        "title_chars": 54,
+        "easy_chars": 119,
+        "easy_sentences": 4,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "six_labels": true,
+        "tag": true,
+        "grade": true
+      },
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "revision_requests": [],
+      "source_assessment": "변경은 비고의 두 incoming anchor를 두 문장으로 분할한 것. 귀금속 표 주장·책임 범위는 supplement에서 직접 읽은 동일값/조건.5행 중 함량중량/치수1개월/도금입힘1년/표시차이를 정확히 반영. 조립불량5행은 본문에 주장하지 않아 추가할 필요 없음. 공통기준과 품목의 다른 예외를 새로 확대하지 않음. 미확인 감정서 법정자격은 독자 유보 유지.",
+      "source_reuse": {
+        "review_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/publication-partial-source-supplement-r1.json",
+        "review_sha256": "a233ada38d2678f3c0c981b0eef1ab068fd40f1fdeb1b99b5966347ce2e6d145",
+        "entry": 34
+      },
+      "proposed_root_operation": {
+        "type": "replace_complete_strict_entry_body",
+        "before_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-034-9bb5/strict-entry.md",
+        "before_entire_entry_sha256": "f2467aae76b2512d23fc45bea77846090a6d50e2b91241b87cdc0deaf8a3ce81",
+        "after_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/_workspace/2026-10-18-034-9bb5/publication-entry-proposal-r2.md",
+        "after_entire_entry_sha256": "07235d414516313aa13b8913177ab13d5cc7fb22d6633b52b7d1a1645f979566",
+        "separator_policy": "verify whole before entry bytes;preserve surrounding separators",
+        "supersession": "latest approved full supersedes initial field edits and older full versions of same entry;do not apply both",
+        "integration_authorized": false
+      }
+    }
+  ],
+  "approved_entries": [
+    41,
+    34
+  ],
+  "revise_entries": [
+    22
+  ],
+  "actual_primary_readings": [
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290239&type=XML",
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290239.xml",
+      "artifact_sha256": "4044d5ecce3aa9332ae7d0a1576e170aae0c11e2bb50de55d781fbf90bd8e2a1",
+      "access": "existing_primary_cache_direct_read",
+      "scope": "30·31·32 full",
+      "review_read_at_utc": "2026-10-18T17:15:56.774204+00:00",
+      "new_http": false
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=286997&type=XML",
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/286997.xml",
+      "artifact_sha256": "73968bbd78e4698a9125c1b6a11f186f3520eee3bd1c12e046c938bccbf6bb70",
+      "access": "existing_primary_cache_direct_read",
+      "scope": "37·40 full",
+      "review_read_at_utc": "2026-10-18T17:15:56.774421+00:00",
+      "new_http": false
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=287001&type=XML",
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/287001.xml",
+      "artifact_sha256": "d0f941bfcbc01270307d0aad417262a808149fc8985e33634b574750f02ef01a",
+      "access": "existing_primary_cache_direct_read",
+      "scope": "6·11 full",
+      "review_read_at_utc": "2026-10-18T17:15:56.774579+00:00",
+      "new_http": false
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&ID=000355&type=XML&efYd=20260908",
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch25-audit/ee6ca9c282f36f689dd1.raw",
+      "artifact_sha256": "21bd36f7aa603d5ee1e192495694a7c9609d3370b7c67a917b9991762899b15c",
+      "access": "existing_primary_cache_direct_read",
+      "scope": "8·16 full; current20260908;21906 supplement previously read",
+      "review_read_at_utc": "2026-10-18T17:15:56.774766+00:00",
+      "new_http": false
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000270136&type=XML",
+      "artifact_path": "/tmp/ch05e34-criteria.xml",
+      "artifact_sha256": "64e922b28e0d2e2b79c275cf1acec392e97d60975226d383201511e1a9e9a7f1",
+      "access": "existing_author_primary_artifact_direct_read",
+      "scope": "별표Ⅱ 체육시설업·레저용역업·할인회원권업 full rows(2-1,2-2),all adjoining notes incl exclusions/payment basis;not unrelated sports industries",
+      "new_http": false
+    }
+  ],
+  "integration_approval": false,
+  "formal_kr_fit_approval": false,
+  "whole_chapter_approval": false,
+  "preservation": "old source supplements/canonical/partial review/frozen bytes/public/runs/git unchanged;this new review JSON/MD only",
+  "source_limit": "No new HTTP performed. Reused previously actually-read source scope for unchanged41/34. Existing author source metadata is not itself primary verification."
+}

@@ -5,7 +5,7 @@
   "metrics": {
     "comma_inclusion_rate": 0.13432835820895522,
     "comma_usage_rate": 0.13432835820895522,
-    "ending_comma_rate": 0.16666666666666666,
+    "ending_comma_rate": 0.14285714285714285,
     "comma_segment_length": 5.5,
     "conclusion_pivot_count": 0,
     "safe_balance_count": 0,
@@ -15,7 +15,7 @@
   "z_scores": {
     "comma_inclusion_rate": -0.7417721301327463,
     "comma_usage_rate": -1.3925477507567057,
-    "ending_comma_rate": 1.5977961432506886,
+    "ending_comma_rate": 1.2950685677958405,
     "comma_segment_length": 0.5463182897862233,
     "hanja_nominalizer_density": -1.9194847020933976,
     "lexical_diversity": 3.0386473429951697
@@ -25,10 +25,6 @@
   "evidence": {
     "conclusion_pivots": [],
     "safe_balances": []
-  },
-  "style_eligibility": {
-    "protected_quote_count": 0,
-    "excluded_quote_chars": 0
   },
   "v2_metrics": {
     "lexical_diversity_ttr": 0.8019323671497585,

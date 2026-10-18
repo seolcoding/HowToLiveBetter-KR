@@ -1,0 +1,259 @@
+{
+  "status": "unadopted_proposal",
+  "entry": 16,
+  "base": "strict-entry.md",
+  "base_sha256": "4f8a9679d67ee4dd63f7ddf8238b6943c0b2efcaa9a0ba2a6fa6a1e6e857f051",
+  "review_scope": "ALL entry16 findings in content-audit.md and editorial-decisions.json; independent new full-entry proposal; not self-approved",
+  "changes": [
+    {
+      "field": "쉽게",
+      "before": "빌린 돈으로 산 주식이 떨어져 담보가 모자랄 수 있습니다. 그러면 증권사가 추가 담보를 요구합니다. 못 채우면 다음 영업일에 증권사가 내 주식을 팔아 버립니다. 장부상 손실이 그 자리에서 실제 손실로 바뀝니다. \"다시 오를 때까지 기다리기\"도 못 합니다.",
+      "after": "빌린 돈으로 투자하면 손실이 커집니다. 추가 담보를 제때 못 내면 다음 영업일에 주식 등이 처분될 수 있습니다. 사전 합의가 있고 시세 급변 등으로 빚 회수가 매우 위험하면 바로 처분될 수도 있습니다.",
+      "reason": "107자 승인안의 단정 처분을 가능으로 고치고, 즉시처분의 채권회수 현저 위험 요건을 보완합니다."
+    },
+    {
+      "field": "이득",
+      "before": "레버리지는 빌린 돈으로 투자하는 방식이며 손실을 키웁니다. 증권사가 신용으로 주식을 사게 해 줄 때는 담보를 잡아야 합니다. 담보는 빌려준 돈의 140% 이상이어야 합니다(금융투자업규정 제4-25조 제1항). 담보 평가액이 증권사가 정한 담보유지비율 밑으로 떨어질 수 있습니다. 이때 증권사는 지체 없이 추가 담보를 요구합니다(같은 조 제3항). 정한 날까지 내지 못하면 증권사는 다음 영업일에 빚을 회수합니다. 계좌의 현금을 먼저 빚 갚는 데 씁니다. 담보 주식 등도 필요한 만큼 처분합니다. 이를 흔히 반대매매라고 부릅니다(같은 규정 제4-28조 제1항). 미리 합의했다면 시세가 급변할 때 바로 처분할 수도 있습니다. 이때는 추가 담보를 요구하지 않을 수 있습니다(같은 조 제2항).",
+      "after": "레버리지는 빌린 돈으로 투자하는 방식이며 손실을 키웁니다. 여기서는 돈을 빌려 주식을 사는 신용매수를 말합니다. 증권사가 신용으로 주식을 사게 해 줄 때는 담보를 잡아야 합니다. 담보는 빌려준 돈의 140% 이상이어야 합니다. 금융투자업규정 제4-25조 제1항에 따른 기준입니다. 담보 평가액이 증권사가 정한 담보유지비율 밑으로 떨어질 수 있습니다. 이때 증권사는 지체 없이 추가 담보를 요구합니다. 사전 합의가 있으면 별도 요구 없이 계좌의 다른 현금·증권을 담보로 잡을 수도 있습니다. 같은 조 제3항에 따른 예외입니다. 정한 날까지 내지 못하면 다음 영업일에 증권사가 빚을 회수할 수 있습니다. 계좌의 현금을 먼저 빚 갚는 데 씁니다. 담보 주식, 그 밖의 증권 순으로 필요한 만큼 처분할 수 있습니다. 이를 흔히 반대매매라고 부릅니다. 같은 규정 제4-28조 제1항에 따른 절차입니다. 사전 합의가 있으면 상환기일에도 계좌의 현금으로 빚을 갚을 수 있습니다. 시세 급변 등으로 빚 회수가 매우 위험하다고 판단될 때는 예외가 있습니다. 미리 합의했다면 추가 담보 요구나 징구 없이 바로 처분할 수도 있습니다. 필요한 만큼 담보증권이나 그 밖에 맡긴 증권을 처분할 수 있습니다. 처분내역은 지체 없이 투자자에게 알려야 합니다. 같은 조 제2항에 따른 예외입니다.",
+      "reason": "제4-25조 제3항의 사전 합의 추가담보 예외와 제4-28조 제1항의 재량 및 현금상환 예외, 제2항의 현저한 회수 위험·필요수량·통지 요건을 보완합니다. 모든 법률 괄호를 짧은 문장으로 분리합니다."
+    },
+    {
+      "field": "비고",
+      "before": "\"이해 못 하는 상품은 사지 말라\"는 말에는 직접 문헌이 없습니다. 공통된 경험칙이므로 따로 보면 C입니다. 카드론이나 리볼빙으로 투자하는 것도 사실상 레버리지입니다. 그 금리는 제7항(리볼빙·소비용 대출)을 보세요. 원문은 중국 신용계좌 개설 문턱(거래 경력·자산 기준)을 근거로 삼았습니다. 이를 근거로 \"보통 사람용 도구가 아니다\"라고 썼습니다. 한국의 같은 문턱은 확인하지 못해 옮기지 않았습니다. 투자 권유가 아닙니다. 2026-10-10 규정 확인(국가법령정보센터).",
+      "after": "\"이해 못 하는 상품은 사지 말라\"는 말에는 직접 문헌이 없습니다. 공통된 경험칙이므로 따로 보면 C입니다. 카드론이나 리볼빙으로 투자하는 것도 사실상 레버리지입니다. 그 금리는 제7항(리볼빙·소비용 대출)을 보세요. 원문은 중국 신용계좌 개설 문턱(거래 경력·자산 기준)을 근거로 삼았습니다. 이를 근거로 \"보통 사람용 도구가 아니다\"라고 썼습니다. 한국의 같은 문턱은 확인하지 못해 옮기지 않았습니다. 투자 권유가 아닙니다. 2026-09-15 시행본 기준입니다. 2026-10-18 국가법령정보센터에서 확인했습니다.",
+      "reason": "실제 열람한 시행본과 확인일을 구분합니다."
+    }
+  ],
+  "source_verification": {
+    "actual_checked_at_utc": "2026-10-18T16:53:19.033520+00:00",
+    "method": "HTTPS certificate verification enabled; parsed actual official XML articles and available supplementary provisions, opened attached official consolidated PDF via pdftotext",
+    "level_read": "Official primary full article text 4-25 and 4-28; available supplementary provisions; basic metadata and attached consolidated PDF supplementary text",
+    "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000285020&type=XML",
+    "reader_url": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000285020",
+    "raw_path": "/tmp/ch05e16-primary.xml",
+    "sha256": "90dea2a5a1f92c61434850e34e2393099970323f9e7692047071d1bef2d83982",
+    "metadata": {
+      "발령일자": "20260909",
+      "발령번호": "2026-38",
+      "현행여부": "Y",
+      "시행일자": "20260915"
+    },
+    "exact_primary_quotations": [
+      "제4-25조(담보비율 등)\n ① 투자매매업자 또는 투자중개업자는 투자자의 신용상태 및 종목별 거래상황 등을 고려하여 신용공여금액의 100분의 140 이상(신용거래대주의 경우에는 신용거래 대주 시가상당액의 100분의 105 이상)에 상당하는 담보를 징구하여야 한다. 다만 매도되었거나 환매청구된 예탁증권을 담보로 하여 매도금액 또는 환매금액 한도 내에서 융자를 하는 경우에는 그러하지 아니하다.<개정 2022. 11. 9., 2024. 10. 2.>\n  ② 투자매매업자 또는 투자중개업자가 신용거래를 수탁하고자 하는 경우에는 투자자가 주문하는 매매수량에 지정가격(지정가격이 없을 때에는 상한가를 말한다)을 곱하여 산출한 금액에 투자자의 신용상태 및 종목별 거래상황 등을 고려하여 정한 비율에 상당하는 금액을 보증금으로 징수하여야 한다. 이 경우 보증금은 대용증권으로 대신할 수 있다.\n  ③ 투자매매업자 또는 투자중개업자는 신용공여금액에 대한 담보 평가금액의 비율이 투자매매업자 또는 투자중개업자가 정한 일정비율(\"담보유지비율\"이라 한다. 이하 이 절에서 같다)에 미달하는 때에는 지체 없이 투자자에게 추가담보의 납부를 요구하여야 한다. 다만, 투자자와 사전에 합의한 경우에는 담보의 추가납부를 요구하지 아니하고 투자자의 계좌에 담보로 제공하지 아니한 현금 또는 증권을 추가담보로 징구할 수 있다.\n  ④ 제2항에 따른 비율은 100분의 40 이상으로 한다.\n  ⑤ 제1항부터 제4항까지의 비율을 산정함에 있어 투자자의 매매거래에 따른 결제를 감안하여 계산할 수 있으며 제3항의 비율을 계산함에 있어 다수의 신용공여가 있을 때에는 이를 합산하여 계산할 수 있다.\n  ⑥ 투자매매업자 또는 투자중개업자가 제3항에 따라 징구하는 추가담보는 현금 또는 증권에 한하며, 추가담보를 징구함에 있어서는 가치산정이 곤란하거나 담보권의 행사가 곤란한 증권을 담보로 징구하여서는 아니 된다. 이 경우 협회는 그 구체적인 기준을 정할 수 있다.<개정 2016. 6. 28.>\n  ⑦ 투자매매업자 또는 투자중개업자는 제3항에 따라 투자자에게 추가담보를 요구하는 경우에는 내용증명 우편, 통화내용 녹취 또는 투자자와 사전에 합의한 방법 등 그 요구사실이 입증될 수 있는 방법에 따라야 한다.\n",
+      "제4-28조(임의상환방법)\n ① 투자매매업자 또는 투자중개업자는 다음 각 호의 어느 하나에 해당하는 경우 그 다음 영업일에 투자자계좌에 예탁된 현금을 투자자의 채무변제에 우선 충당하고, 담보증권, 그 밖의 증권의 순서로 필요한 수량만큼 임의처분하여 투자자의 채무변제에 충당할 수 있다. 다만, 투자매매업자 또는 투자중개업자와 투자자가 사전에 합의한 경우에는 상환기일에도 투자자계좌에 예탁되어 있는 현금으로 채무변제에 충당할 수 있다.\n  1. 투자자가 신용공여에 따른 채무의 상환요구를 받고 상환기일 이내에 상환하지 아니하였을 때\n  2. 투자자가 담보의 추가납부를 요구받고 투자매매업자 또는 투자중개업자가 정한 납입기일까지 담보를 추가로 납입하지 않았을 때\n  3. 투자자가 신용공여와 관련한 이자ㆍ매매수수료 및 제세금 등의 납부요구를 받고 투자매매업자 또는 투자중개업자가 정한 납입기일까지 이를 납입하지 아니하였을 때\n  ② 투자매매업자 또는 투자중개업자는 제4-25조제3항에 불구하고 투자자와 사전에 합의하고 시세의 급격한 변동 등으로 인하여 채권회수가 현저히 위험하다고 판단되는 경우에는 투자자에 대하여 담보의 추가납부를 요구하지 아니하거나 추가로 담보를 징구하지 아니하고 필요한 수량의 담보증권, 그 밖에 예탁한 증권을 임의로 처분할 수 있다. 이 경우 투자매매업자 또는 투자중개업자는 처분내역을 지체 없이 투자자에게 내용증명우편, 통화내용 녹취 또는 투자자와 사전에 합의한 방법 등 그 통지사실이 입증될 수 있는 방법에 따라 통지하여야 한다.\n  ③ 제1항 및 제2항에 따라 투자매매업자 또는 투자중개업자가 증권시장에 상장된 증권을 처분하는 경우에는 투자자와 사전에 합의한 방법에 따라 호가를 제시하여야 한다.<개정 2016. 6. 28.>\n  ④ 투자매매업자 또는 투자중개업자가 비상장주권, 비상장채권, 집합투자증권, 그 밖에 투자매매업자 또는 투자중개업자가 제3항에 따라 처분할 수 없는 증권을 처분하고자 하는 경우 처분방법은 협회가 정한다.\n  ⑤ 제1항부터 제4항까지에 따른 처분대금은 처분제비용, 연체이자, 이자, 채무원금의 순서로 충당한다. 다만, 투자매매업자 또는 투자중개업자는 투자자의 요청이 있는 경우 연체이자, 이자, 채무원금 간 충당 순서를 변경할 수 있다. <단서 신설 2021. 12. 9.>\n"
+    ],
+    "available_supplementary_quote": "부칙 <제2026-28호, 2026. 7. 8.>\n제1조(시행일) 이 규정은 고시한 날부터 시행한다.\n제2조(차감항목의 적용례)제3-14조제1항제4호사목의 개정규정은 이 규정 시행 이후에 신규로 취급한 부동산 투자부터 적용한다.\n제3조(부동산 투자금액 한도에 대한 특례) 이 규정 시행 당시 제3-24조의5제1항의 개정규정에 따른 부동산 투자금액 한도를 초과한 1종 금융투자업자는 부동산 투자금액 비율을 이 규정 시행일부터 2026년 12월 31일까지는 100분의 130 이하로, 2027년 1월 1일부터 1년간은 100분의 120 이하로, 2028년 1월 1일부터 1년간은 100분의 110 이하로 유지하여야 한다.\n제4조(인가심사 기준의 적용례) 별표 3 제1호 바목(3)의 개정규정은 이 규정 시행일 당시 심사가 진행 중인 건에 대해서도 적용한다.",
+    "pdf_url": "https://www.law.go.kr/flDownload.do?flSeq=169196315",
+    "pdf_raw_path": "/tmp/ch05e16-primary.pdf",
+    "pdf_sha256": "fe47d4c8d2303ffba7a89c360b1a3f4f39444abd042ecc29767f2188791a3434",
+    "pdf_text_path": "/tmp/ch05e16-primary.txt"
+  },
+  "intentional_factual_scope_changes": [
+    "Mandatory next-day recovery changed to permitted recovery, matching 충당할 수 있다.",
+    "Immediate-disposal exception now requires preagreement plus markedly risky debt recovery due to price fluctuation etc.",
+    "140% explicitly scoped to borrowing money for stock purchases; stock borrowing 105% and sold/redeemed-security bridge-loan exception are outside this selected scope.",
+    "Added preagreed automatic collateral collection, repayment-date cash exception and prompt disposal notice.",
+    "140% retained unchanged; no DOI additions/removals."
+  ],
+  "unresolved_limitations": [
+    "Official metadata labels cited version current, effective 20260915, issued 2026-38. Both XML supplementary list and attached consolidated PDF end with 2026-28; 2026-38 separate commencement supplementary text was not supplied in these records. Therefore metadata-supported version date is stated, without claiming independent complete amendment-history verification.",
+    "Direct literature support for the unfamiliar-product maxim and Korean equivalent of the Chinese account threshold remains unconfirmed, as reader-facing 비고 already states."
+  ],
+  "reader_sentence_measurements": [
+    {
+      "field": "비용",
+      "sentence": "돈은 들지 않습니다.",
+      "chars": 11
+    },
+    {
+      "field": "비용",
+      "sentence": "장이 좋을 때 \"조금 빌려서 더 벌자\"는 생각을 참기가 어렵습니다.",
+      "chars": 37
+    },
+    {
+      "field": "쉽게",
+      "sentence": "빌린 돈으로 투자하면 손실이 커집니다.",
+      "chars": 21
+    },
+    {
+      "field": "쉽게",
+      "sentence": "추가 담보를 제때 못 내면 다음 영업일에 주식 등이 처분될 수 있습니다.",
+      "chars": 40
+    },
+    {
+      "field": "쉽게",
+      "sentence": "사전 합의가 있고 시세 급변 등으로 빚 회수가 매우 위험하면 바로 처분될 수도 있습니다.",
+      "chars": 49
+    },
+    {
+      "field": "이득",
+      "sentence": "레버리지는 빌린 돈으로 투자하는 방식이며 손실을 키웁니다.",
+      "chars": 32
+    },
+    {
+      "field": "이득",
+      "sentence": "여기서는 돈을 빌려 주식을 사는 신용매수를 말합니다.",
+      "chars": 29
+    },
+    {
+      "field": "이득",
+      "sentence": "증권사가 신용으로 주식을 사게 해 줄 때는 담보를 잡아야 합니다.",
+      "chars": 36
+    },
+    {
+      "field": "이득",
+      "sentence": "담보는 빌려준 돈의 140% 이상이어야 합니다.",
+      "chars": 26
+    },
+    {
+      "field": "이득",
+      "sentence": "금융투자업규정 제4-25조 제1항에 따른 기준입니다.",
+      "chars": 29
+    },
+    {
+      "field": "이득",
+      "sentence": "담보 평가액이 증권사가 정한 담보유지비율 밑으로 떨어질 수 있습니다.",
+      "chars": 38
+    },
+    {
+      "field": "이득",
+      "sentence": "이때 증권사는 지체 없이 추가 담보를 요구합니다.",
+      "chars": 27
+    },
+    {
+      "field": "이득",
+      "sentence": "사전 합의가 있으면 별도 요구 없이 계좌의 다른 현금·증권을 담보로 잡을 수도 있습니다.",
+      "chars": 49
+    },
+    {
+      "field": "이득",
+      "sentence": "같은 조 제3항에 따른 예외입니다.",
+      "chars": 19
+    },
+    {
+      "field": "이득",
+      "sentence": "정한 날까지 내지 못하면 다음 영업일에 증권사가 빚을 회수할 수 있습니다.",
+      "chars": 41
+    },
+    {
+      "field": "이득",
+      "sentence": "계좌의 현금을 먼저 빚 갚는 데 씁니다.",
+      "chars": 22
+    },
+    {
+      "field": "이득",
+      "sentence": "담보 주식, 그 밖의 증권 순으로 필요한 만큼 처분할 수 있습니다.",
+      "chars": 37
+    },
+    {
+      "field": "이득",
+      "sentence": "이를 흔히 반대매매라고 부릅니다.",
+      "chars": 18
+    },
+    {
+      "field": "이득",
+      "sentence": "같은 규정 제4-28조 제1항에 따른 절차입니다.",
+      "chars": 27
+    },
+    {
+      "field": "이득",
+      "sentence": "사전 합의가 있으면 상환기일에도 계좌의 현금으로 빚을 갚을 수 있습니다.",
+      "chars": 40
+    },
+    {
+      "field": "이득",
+      "sentence": "시세 급변 등으로 빚 회수가 매우 위험하다고 판단될 때는 예외가 있습니다.",
+      "chars": 41
+    },
+    {
+      "field": "이득",
+      "sentence": "미리 합의했다면 추가 담보 요구나 징구 없이 바로 처분할 수도 있습니다.",
+      "chars": 40
+    },
+    {
+      "field": "이득",
+      "sentence": "필요한 만큼 담보증권이나 그 밖에 맡긴 증권을 처분할 수 있습니다.",
+      "chars": 37
+    },
+    {
+      "field": "이득",
+      "sentence": "처분내역은 지체 없이 투자자에게 알려야 합니다.",
+      "chars": 26
+    },
+    {
+      "field": "이득",
+      "sentence": "같은 조 제2항에 따른 예외입니다.",
+      "chars": 19
+    },
+    {
+      "field": "비고",
+      "sentence": "\"이해 못 하는 상품은 사지 말라\"는 말에는 직접 문헌이 없습니다.",
+      "chars": 37
+    },
+    {
+      "field": "비고",
+      "sentence": "공통된 경험칙이므로 따로 보면 C입니다.",
+      "chars": 22
+    },
+    {
+      "field": "비고",
+      "sentence": "카드론이나 리볼빙으로 투자하는 것도 사실상 레버리지입니다.",
+      "chars": 32
+    },
+    {
+      "field": "비고",
+      "sentence": "그 금리는 제7항(리볼빙·소비용 대출)을 보세요.",
+      "chars": 27
+    },
+    {
+      "field": "비고",
+      "sentence": "원문은 중국 신용계좌 개설 문턱(거래 경력·자산 기준)을 근거로 삼았습니다.",
+      "chars": 42
+    },
+    {
+      "field": "비고",
+      "sentence": "이를 근거로 \"보통 사람용 도구가 아니다\"라고 썼습니다.",
+      "chars": 31
+    },
+    {
+      "field": "비고",
+      "sentence": "한국의 같은 문턱은 확인하지 못해 옮기지 않았습니다.",
+      "chars": 29
+    },
+    {
+      "field": "비고",
+      "sentence": "투자 권유가 아닙니다.",
+      "chars": 12
+    },
+    {
+      "field": "비고",
+      "sentence": "2026-09-15 시행본 기준입니다.",
+      "chars": 21
+    },
+    {
+      "field": "비고",
+      "sentence": "2026-10-18 국가법령정보센터에서 확인했습니다.",
+      "chars": 29
+    }
+  ],
+  "easy_chars": 112,
+  "easy_sentences": 3,
+  "immutable_inputs_sha256_before": {
+    "final.md": "1e3041b9476426664dd3d1052e77673aaf7139f2263360de84e6686c2b2ea9b3",
+    "01_input.txt": "040982f06db79eacad023175d7ca7678db9ca0da69e8bda3a82af5ce4a6b4492",
+    "01_input_with_metrics.txt": "80dccd4093a566c23702fc39219fa1aa981a4c314f11f2743ded16ef8ac83a85",
+    "entry_snapshot.md": "4f8a9679d67ee4dd63f7ddf8238b6943c0b2efcaa9a0ba2a6fa6a1e6e857f051",
+    "strict-entry.md": "4f8a9679d67ee4dd63f7ddf8238b6943c0b2efcaa9a0ba2a6fa6a1e6e857f051",
+    "editorial-proposal.json": "461b9725b754d1d09f0acc1bfb39dee59c8b23f7b688b38cb596ed07fe3beb91"
+  },
+  "immutable_inputs_sha256_after": {
+    "final.md": "1e3041b9476426664dd3d1052e77673aaf7139f2263360de84e6686c2b2ea9b3",
+    "01_input.txt": "040982f06db79eacad023175d7ca7678db9ca0da69e8bda3a82af5ce4a6b4492",
+    "01_input_with_metrics.txt": "80dccd4093a566c23702fc39219fa1aa981a4c314f11f2743ded16ef8ac83a85",
+    "entry_snapshot.md": "4f8a9679d67ee4dd63f7ddf8238b6943c0b2efcaa9a0ba2a6fa6a1e6e857f051",
+    "strict-entry.md": "4f8a9679d67ee4dd63f7ddf8238b6943c0b2efcaa9a0ba2a6fa6a1e6e857f051",
+    "editorial-proposal.json": "461b9725b754d1d09f0acc1bfb39dee59c8b23f7b688b38cb596ed07fe3beb91"
+  },
+  "proposal_sha256": "c7344a7ef6a369358d33391c1b7dd1b22a4834d67280e62c10b8cf91e9a84edb",
+  "review_required": "Independent exact-hash review pending; no publication or adoption."
+}

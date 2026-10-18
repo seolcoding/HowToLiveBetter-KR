@@ -171,3 +171,11 @@ root458개 gate0 쌍을 고정했고 live 작업은 이어진다. 667 원입력/
 반려r1의 실제 세 결함을 별도r2에서 고쳤고 독립 재검토를 통과했다. PatchSHA `facfa1f6a468c71b11ede2431af3ad47c8fd13e36a0c0aa45a52ee3ee5eb6854`의10파일을 정확히 반영한 뒤 운영CI entrypoint35와 전체local68을 통과했다. 명시 finalizer enum·원자적 새산출물/실패정리·URL제어문자와 CI 연결을 포함한다. 문서의 candidate상태는 별도 날짜부운영채택설명으로 구분했다. 독립 원격CI는 다음push에서 확인한다.
 
 원frozen444 비교 외에 root가 더 최신485final(483pass/2hold)와667원입력을 고정해 기존운영/R2 전체보고서·SHA·인용범위·route차이0을 확인했다. 모든 증거는 tooling/reviewed-quotation-classification-r2/에 있다. source승인과 코드승인을 분리했고,24/38의새finalizer·명시registry gate·같은context strict조립은 A/root가 이어간다. source23/24 초기감사는 끝났고25가 진행중이다. 제5절 부분25는5approve/20revise 또는독립열람보완이며 전체45의승인으로세지않는다. 마지막전체검증 때 최신참조대상의 의미와 근거범위도 다시대조한다.
+
+## 2026-10-18 UTC — 제13절 strict44와 원진단 전체 대조
+
+코드 채택 커밋0a9d833의 원격 검사·빌드가 통과했다. 제13절24/38의 새 독립 finalizer·실제 명시registry gate0·정확 body/input 보존·09 context 일치 뒤 ROOT가 strict 전44항을 조립했다. 원진단 복구 후 새 classified-assembly-r2에서도 같은 후보SHA `84575a80224a341671f5b9bbeca113fdf523b14b5be108fb42c283b5efc858bc`를 재현했다. r2를 표준candidate/assembly에 정확히 복사했고 root-selection-r3에 결속했다. 원고 공개·사실 승인·새formal을 뜻하지 않는다.
+
+기존run의 standard prepare 재실행으로 원진단/결합입력이 바뀐 문제를 찾아 최초c412d4c의1,334파일과 대조했다. 차이26파일을 정확 복구하고 덮어쓴 사본/전후SHA를 별도 보존했다. 원input/snapshot667쌍 일치, 복구 후 실제502gate0/165missing·route644/23·차이0·읽기 중 변경0을 확인했다. 앞으로 추가prepare는 derived폴더만 사용하며 원run 증거는 불변이다. 공개본문·최종body·사실제안은 이 복구로 바뀌지 않았다.
+
+초기 원자료감사25 전11항/99증적 완료,26→27을 이어간다. pure22 조립 완료·23 진행,05의 남은 원저자 사실/길이 후속과 exact독립검토를 계속한다. 전체 작업 후 PR#7 정상병합·Pages/Release 확인까지 완료 지시는 유지되며 아직 main에 새 개선본을 반영하지 않았다.
