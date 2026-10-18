@@ -1,0 +1,76 @@
+[
+  {
+    "entry": 16,
+    "decision": "approve",
+    "paths": {
+      "proposal": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-016-6849/publication-postformal-proposal-r1.md",
+      "changes": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-016-6849/publication-postformal-changes-r1.json",
+      "base": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-016-6849/publication-postformal-current-entry-r1.md"
+    },
+    "sha256": {
+      "proposal": "8052f1d3ee3db5a660a19a6a4d94af825100dc12b99fedc26a017d504943a30a",
+      "changes": "5d1f1d730bd30d3d46df5334732fbc66b6e011a54a1a11432513fd3a3e4dded8",
+      "base": "c803e6e70f875f1a02848ab9953fa801854cd934045b76c3c08261e001fded7b"
+    },
+    "production_helper_sha256": "244c194c7620c3095dc3a972eecdaa4e17fab8a0a301ae8b601cb8401569bfd3",
+    "production_validation_execution": "Unmodified split/invariants function AST executed without invoking CLI top-level",
+    "base_matches_current_production_split": true,
+    "full_snapshot_matches_current": true,
+    "exact_single_span_only": true,
+    "changed_fields": [
+      "비고"
+    ],
+    "protected_invariants_unchanged": [
+      "headings",
+      "tags",
+      "fields",
+      "source",
+      "urls"
+    ],
+    "number_tokens_removed": {
+      "2": 1
+    },
+    "number_tokens_added": {},
+    "number_change_scope": "Only removed unsupported reference duration2hours",
+    "long_sentences": [],
+    "title_chars": 50,
+    "easy_chars": 101,
+    "easy_sentences": 4
+  },
+  {
+    "entry": 26,
+    "decision": "approve",
+    "paths": {
+      "proposal": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-026-722f/publication-postformal-proposal-r1.md",
+      "changes": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-026-722f/publication-postformal-changes-r1.json",
+      "base": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/postformal-base-entry-26-extracted-r1.md"
+    },
+    "sha256": {
+      "proposal": "64f1988db933ed361980b507e28aeefecef07c0b7dd17e21c2b9d1dcc25a9a94",
+      "changes": "f22d57e6a24c045b5e2100291af6cd5984b0fa1de9257aca4a031267c0f809a2",
+      "base": "be1e266ff14b67d065ec037e53b79647ebddcea5797a5734ab7e47a05914230b"
+    },
+    "production_helper_sha256": "244c194c7620c3095dc3a972eecdaa4e17fab8a0a301ae8b601cb8401569bfd3",
+    "production_validation_execution": "Unmodified split/invariants function AST executed without invoking CLI top-level",
+    "base_matches_current_production_split": true,
+    "full_snapshot_matches_current": true,
+    "exact_single_span_only": true,
+    "changed_fields": [
+      "비고"
+    ],
+    "protected_invariants_unchanged": [
+      "headings",
+      "tags",
+      "fields",
+      "source",
+      "urls"
+    ],
+    "number_tokens_removed": {},
+    "number_tokens_added": {},
+    "number_change_scope": "No numerical changes",
+    "long_sentences": [],
+    "title_chars": 59,
+    "easy_chars": 108,
+    "easy_sentences": 4
+  }
+]

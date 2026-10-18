@@ -1,0 +1,160 @@
+{
+  "chapter": 6,
+  "status": "completed_exact_partial_review_r14",
+  "manifest_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/author-final-manifest-r2.json",
+  "manifest_sha256": "f2dcfeb2bb16b3cd48ec44178870bd6096e916cbaa79616220d9c0477e943215",
+  "entries": [
+    {
+      "entry": 28,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-028-88e1/publication-entry-proposal-r2.md",
+      "proposal_sha256": "7cfbf31ee423d155e2385d5c8629d5a0647646ae78144c751da73727bf6d2786",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-028-88e1/publication-entry-changes-r2.json",
+      "changes_sha256": "aff9dd4ffe6f082e767e45beeac4f1c74bf1645d75ec2cdb268753f41b8ef31c",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-028-88e1/strict-entry.md",
+      "base_strict_entry_sha256": "d76f22dd3f879010f6ff4e47621e1c50946797d86daa20ca8f6d0236f18e641a",
+      "literal_exit_code": 0,
+      "decision": "approve",
+      "all_four_complete_fields_read": true,
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "snapshot_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-028-88e1/entry_snapshot.md",
+      "snapshot_sha256": "18249d2e10b3da3038cc7ca8043d0b2a62d1590bcb2b9f2e7ec7659ffa8cf125",
+      "strict_candidate_contains_exact_base": true,
+      "length_check": {
+        "entry": 28,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-028-88e1/publication-entry-proposal-r2.md",
+        "title_chars": 43,
+        "easy_chars": 95,
+        "easy_sentences": 3,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "number": true,
+        "six_labels": true,
+        "tags": true,
+        "grade": true
+      },
+      "production_layout_check": true,
+      "initial_canonical_entry": {
+        "entry": 28,
+        "baseline_entry_sha256": "18249d2e10b3da3038cc7ca8043d0b2a62d1590bcb2b9f2e7ec7659ffa8cf125",
+        "findings": [
+          {
+            "severity": "block",
+            "field": "쉽게",
+            "before_excerpt": "교정 경험자는 자살을 생각했다는 응답이 90% 가까이 많았습니다.",
+            "request": "오즈비1.92는 응답률 또는 위험92% 증가가 아닙니다. 교정경험과 자살생각 사이에 관련이 있었다고 쓰고 이득에 보정 오즈비를 남기세요. nontransgender 성소수자 성인이라는 표본범위와 회상식 단면조사임을 보존하세요.",
+            "evidence_key": "10.2105/AJPH.2020.305637"
+          },
+          {
+            "severity": "block",
+            "field": "쉽게",
+            "before_excerpt": "이런 '교정'은 성적 지향을 바꾸지 못합니다.",
+            "request": "본문이 인용한 APA 판단 성공가능성이 낮고 해 위험이 있다와 맞추어 효과가 입증되지 않았다고 쓰세요. 불가능이라는 절대명제로 강화하지 마세요. 정신건강법 시행일 표기는 현재2026-10-08 버전과 대조하여 갱신 검토하세요.",
+            "evidence_key": "law-versions/285345.xml"
+          }
+        ],
+        "candidate_review": "pending",
+        "snapshot_path": "_workspace/2026-10-18-028-88e1/entry_snapshot.md",
+        "manifest_entry_sha256": "18249d2e10b3da3038cc7ca8043d0b2a62d1590bcb2b9f2e7ec7659ffa8cf125",
+        "snapshot_sha_matches_manifest": true
+      },
+      "finding_closure": "이전독립접근부족해소후suppl3에서확인한두범위수정완료.상처없음/경미합산endpoint로OR1.88CI1.01~3.50정정,APA비자발적/강제적교정프로그램문맥아래거주형/입원형·부모보호자청소년권고로한정.강제적교정이라는조건이연속문장에서유지돼일반입원전체해롭다는뜻아님.기존OR위험92%오독/성적지향변경불가능절대명제도이미해소.나머지4필드·한국법/WHO/Ryan/반대해석·모든길이/layout/보호/DOI/참조검토유지.2023반박commentary전문미열람을확인성공으로세지않음.",
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "revision_requests": [],
+      "proposed_root_operation": {
+        "type": "replace_complete_strict_entry_body",
+        "before_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-028-88e1/strict-entry.md",
+        "before_entire_entry_sha256": "d76f22dd3f879010f6ff4e47621e1c50946797d86daa20ca8f6d0236f18e641a",
+        "after_proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-028-88e1/publication-entry-proposal-r2.md",
+        "after_original_proposal_sha256": "7cfbf31ee423d155e2385d5c8629d5a0647646ae78144c751da73727bf6d2786",
+        "effective_after_sha256": "7cfbf31ee423d155e2385d5c8629d5a0647646ae78144c751da73727bf6d2786",
+        "effective_after_rule": "proposal.rstrip()+original strict entry trailing whitespace; preserve original separators",
+        "supersession": "Latest approved full replaces any initial field/older full once.",
+        "integration_authorized": false
+      }
+    }
+  ],
+  "approved_entries": [
+    28
+  ],
+  "revise_entries": [],
+  "actual_primary_readings": [
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/publication/hse-apa-retrieval-r1/11e60aca3a4b582584214a78954c4e27031cfec5310397c99ab346f4cff33c63.raw",
+      "artifact_sha256": "2c518e230df0b4f48dd86be04aee6c81ac6cfc2c49734486bbeafa2211c99a0e",
+      "url": "https://web.archive.org/web/20261011030136id_/https://www.apa.org/pi/lgbt/resources/therapeutic-response.pdf",
+      "read_at_utc": "2026-10-18T19:00:05.985029+00:00",
+      "read_scope": "APA2009표지/작업반/서지와ExecutiveSummary첫결론,아동·청소년절선택본문,인쇄79쪽결론을추출텍스트와이미지로직접읽음.공식원URL의비주석보존PDF이며전체통독아님.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null,
+      "retrieved_at_utc": "2026-10-18T18:57:38.331697+00:00",
+      "retrieval_http_status": 200,
+      "retriever": "ROOT; this reviewer directly read preserved bytes, no fresh HTTP in supplement"
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/publication/blosnich2020-discovery-r1/d0b5e842e1d7d350c6d0f2c622f728dc3507cb269050b327a9177507584a9aa5.raw",
+      "artifact_sha256": "0cc378fd460249a80630d69db25c2a88da981ccbff72be46d360b2f60e9b73d6",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7287530/?pdf=render",
+      "read_at_utc": "2026-10-18T19:00:05.985277+00:00",
+      "read_scope": "논문제목/DOI확인.Methods의C-SSRS두문항·3범주,Results·표3/4의분모/OR/CI/표주·선택한계본문직접읽음.실제HTML본문이며PDF로세지않음.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null,
+      "retrieved_at_utc": "2026-10-18T18:57:19.732102+00:00",
+      "retrieval_http_status": 200,
+      "retriever": "ROOT; this reviewer directly read preserved bytes, no fresh HTTP in supplement"
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch06-partial-review/apa-print79.png",
+      "artifact_sha256": "094901a79e51aa71875436581a2a60fa4967b7fa8b7e6ebdf5468101c7b3851f",
+      "url": "https://web.archive.org/web/20261011030136id_/https://www.apa.org/pi/lgbt/resources/therapeutic-response.pdf",
+      "read_at_utc": "2026-10-18T19:00:05.986103+00:00",
+      "read_scope": "APA원본PDF87번째페이지=인쇄79쪽을직접시각확인.두단레이아웃인용과프로그램권고조건대조.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    }
+  ],
+  "prior_actual_reading_reuse": [
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/publication-partial-source-supplement-r3.json",
+      "sha256": "8393f545b824b87f71ad68c51d560163ba40c3b39f989b5b185fdfdf2ba722eb",
+      "scope": "APA실제원보고서·인쇄79이미지/Blosnich방법·표4분모·CI읽기재사용.두수정요청모두28r2에반영."
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/publication-partial-review-r12.json",
+      "sha256": "7ab918790b278a7da3a9536d869e2ce8302028eda2a78057937d5f59bacffebc",
+      "scope": "WHO실제F66/한국법41·43및부칙/Ryan원표와초록·반대Sullins범위재사용.2023반박전문은미열람그대로."
+    }
+  ],
+  "cross_reference_review": [
+    {
+      "chapter": 30,
+      "entry": 15,
+      "path": "/workspace/HowToLiveBetter-KR/book-kr/30-학교-다니는-아이.md",
+      "file_sha256": "fcf4091d1dde978fddec620fc51f04e531fa5aa907b32e246f2e56aeccc52615",
+      "target_body_sha256": "21f486d7961436c0c09970917af8b5a532b6c06330216345b3ab54f509a9931b",
+      "read_scope": "부모거부/교정연관과지원안내;현재대상숫자전부의독립재승인아님"
+    }
+  ],
+  "production_helper_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/scripts/humanize_publication.py",
+  "production_helper_sha256": "244c194c7620c3095dc3a972eecdaa4e17fab8a0a301ae8b601cb8401569bfd3",
+  "helper_code_modified": false,
+  "fresh_http_performed": false,
+  "whole29_approval": false,
+  "integration_approval": false,
+  "formal_kr_fit_approval": false,
+  "preservation": "Prior reviews/frozen proposals/canonical/public/runs/gates/git unchanged."
+}

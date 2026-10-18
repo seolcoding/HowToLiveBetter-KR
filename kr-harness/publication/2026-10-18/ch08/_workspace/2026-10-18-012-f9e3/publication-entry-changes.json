@@ -1,0 +1,225 @@
+{
+  "chapter": 8,
+  "entry": 12,
+  "status": "unadopted_pending_independent_exact_hash_review",
+  "author_task": "/root/humanize_b/b08012",
+  "verification_date_utc": "2026-10-18T19:36:27.033268+00:00",
+  "base_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-012-f9e3/strict-entry.md",
+  "base_sha256": "5a313088be6badf904cf97987290ce127a83569ef9ac968f24fa3b6ad8a586f8",
+  "public_chapter_path": "/workspace/HowToLiveBetter-KR/book-kr/08-법적-말썽에-휘말리지-않기.md",
+  "public_chapter_sha256": "d3bc3df4c03ef5f74d391c47424b7a09433b26f0c8f2ce2850deb34559b79f23",
+  "proposal_sha256": "5a313088be6badf904cf97987290ce127a83569ef9ac968f24fa3b6ad8a586f8",
+  "proposal_identical_to_strict": true,
+  "decision": "retain_existing_text_no_confirmed_error",
+  "findings_addressed": [
+    {
+      "audit": "content-audit.md section8-12 and editorial-decisions.json entry12",
+      "action": "retain three-month deadline, worker/workplace eligibility checks, wage claim limitation check, violence warning, distinct labor procedures, litigation costs and collection uncertainty"
+    }
+  ],
+  "per_field": [
+    {
+      "field": "title",
+      "before": "### 12. 임금·해고·금전 분쟁은 법정 절차로 해결하세요",
+      "after": "### 12. 임금·해고·금전 분쟁은 법정 절차로 해결하세요",
+      "changed": false,
+      "reason": "25 characters; retain meaning and all title anchors"
+    },
+    {
+      "field": "비용",
+      "before": "진정·신청·소송과 증거 정리에 시간이 듭니다. 소송 비용은 별도입니다.",
+      "after": "진정·신청·소송과 증거 정리에 시간이 듭니다. 소송 비용은 별도입니다.",
+      "changed": false,
+      "reason": "No confirmed source error; preserve factual limits and accepted style"
+    },
+    {
+      "field": "쉽게",
+      "before": "임금체불은 노동관서에 진정하세요. 부당해고는 노동위원회 구제신청을 검토하세요. 폭력으로 보복하면 별도 범죄가 됩니다.",
+      "after": "임금체불은 노동관서에 진정하세요. 부당해고는 노동위원회 구제신청을 검토하세요. 폭력으로 보복하면 별도 범죄가 됩니다.",
+      "changed": false,
+      "reason": "No confirmed source error; preserve factual limits and accepted style"
+    },
+    {
+      "field": "이득",
+      "before": "부당해고 구제신청 기한은 「근로기준법」 제28조에 따릅니다. 해고일부터 3개월 이내에 신청해야 합니다. 적용 사업장·근로자 요건도 확인하세요. 임금채권은 제49조의 소멸시효를 확인하세요. 학생·실습생이라는 이름만으로 근로자 여부가 정해지지는 않습니다. 실제 지휘·감독과 업무 관계를 따져보세요. 폭행·살인은 분쟁과 별개로 처벌됩니다.",
+      "after": "부당해고 구제신청 기한은 「근로기준법」 제28조에 따릅니다. 해고일부터 3개월 이내에 신청해야 합니다. 적용 사업장·근로자 요건도 확인하세요. 임금채권은 제49조의 소멸시효를 확인하세요. 학생·실습생이라는 이름만으로 근로자 여부가 정해지지는 않습니다. 실제 지휘·감독과 업무 관계를 따져보세요. 폭행·살인은 분쟁과 별개로 처벌됩니다.",
+      "changed": false,
+      "reason": "No confirmed source error; preserve factual limits and accepted style"
+    },
+    {
+      "field": "근거등급",
+      "before": "A",
+      "after": "A",
+      "changed": false,
+      "reason": "No confirmed source error; preserve factual limits and accepted style"
+    },
+    {
+      "field": "출처",
+      "before": "국가법령정보센터. 「근로기준법」 제28조·제49조. https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=285279&type=XML · 국가법령정보센터. 「형법」 제250조·제257조·제260조. https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290185&type=XML",
+      "after": "국가법령정보센터. 「근로기준법」 제28조·제49조. https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=285279&type=XML · 국가법령정보센터. 「형법」 제250조·제257조·제260조. https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290185&type=XML",
+      "changed": false,
+      "reason": "No confirmed source error; preserve factual limits and accepted style"
+    },
+    {
+      "field": "비고",
+      "before": "승소해도 상대에게 재산이 없으면 회수가 어려울 수 있습니다. 회수가 어렵다고 보복이 정당해지지는 않습니다. 구체적 신청은 제19절(재직·퇴사·산재)을 보세요. 사업자 간 대금 분쟁은 노동절차와 다릅니다. 2026-10-10 법령 확인(국가법령정보센터).",
+      "after": "승소해도 상대에게 재산이 없으면 회수가 어려울 수 있습니다. 회수가 어렵다고 보복이 정당해지지는 않습니다. 구체적 신청은 제19절(재직·퇴사·산재)을 보세요. 사업자 간 대금 분쟁은 노동절차와 다릅니다. 2026-10-10 법령 확인(국가법령정보센터).",
+      "changed": false,
+      "reason": "No confirmed source error; preserve factual limits and accepted style"
+    }
+  ],
+  "primary_sources": [
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=285279&type=XML",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/285279.xml",
+      "raw_sha256": "222fd311aa29570bf0045061e332c9b6696b49427a4ae8f17540763866b36c2e",
+      "method": "existing official raw XML cache directly read; no new HTTP retrieval",
+      "reading_level": "listed articles in full; basic effective-date metadata; all 2025–2026 supplementary provisions",
+      "law_name": "근로기준법",
+      "basic_effective_date": "20261008",
+      "exact_primary_quotes": {
+        "2": "2 조문 정의 20261008 N 제2조(정의) ① ① 이 법에서 사용하는 용어의 뜻은 다음과 같다. <개정 2018.3.20, 2019.1.15, 2020.5.26> 1. 1. \"근로자\"란 직업의 종류와 관계없이 임금을 목적으로 사업이나 사업장에 근로를 제공하는 사람을 말한다. 2. 2. \"사용자\"란 사업주 또는 사업 경영 담당자, 그 밖에 근로자에 관한 사항에 대하여 사업주를 위하여 행위하는 자를 말한다. 3. 3. \"근로\"란 정신노동과 육체노동을 말한다. 4. 4. \"근로계약\"이란 근로자가 사용자에게 근로를 제공하고 사용자는 이에 대하여 임금을 지급하는 것을 목적으로 체결된 계약을 말한다. 5. 5. \"임금\"이란 사용자가 근로의 대가로 근로자에게 임금, 봉급, 그 밖에 어떠한 명칭으로든지 지급하는 모든 금품을 말한다. 6. 6. \"평균임금\"이란 이를 산정하여야 할 사유가 발생한 날 이전 3개월 동안에 그 근로자에게 지급된 임금의 총액을 그 기간의 총일수로 나눈 금액을 말한다. 근로자가 취업한 후 3개월 미만인 경우도 이에 준한다. 7. 7. \"1주\"란 휴일을 포함한 7일을 말한다. 8. 8. \"소정(所定)근로시간\"이란 제50조, 제69조 본문 또는 「산업안전보건법」 제139조제1항에 따른 근로시간의 범위에서 근로자와 사용자 사이에 정한 근로시간을 말한다. 9. 9. \"단시간근로자\"란 1주 동안의 소정근로시간이 그 사업장에서 같은 종류의 업무에 종사하는 통상 근로자의 1주 동안의 소정근로시간에 비하여 짧은 근로자를 말한다. ② ② 제1항제6호에 따라 산출된 금액이 그 근로자의 통상임금보다 적으면 그 통상임금액을 평균임금으로 한다.",
+        "11": "11 조문 적용 범위 20261008 N 제11조(적용 범위) ① ① 이 법은 상시 5명 이상의 근로자를 사용하는 모든 사업 또는 사업장에 적용한다. 다만, 동거하는 친족만을 사용하는 사업 또는 사업장과 가사(家事) 사용인에 대하여는 적용하지 아니한다. ② ② 상시 4명 이하의 근로자를 사용하는 사업 또는 사업장에 대하여는 대통령령으로 정하는 바에 따라 이 법의 일부 규정을 적용할 수 있다. ③ ③ 이 법을 적용하는 경우에 상시 사용하는 근로자 수를 산정하는 방법은 대통령령으로 정한다. <신설 2008.3.21>",
+        "28": "28 조문 부당해고등의 구제신청 20261008 N 제28조(부당해고등의 구제신청) ① ① 사용자가 근로자에게 부당해고등을 하면 근로자는 노동위원회에 구제를 신청할 수 있다. ② ② 제1항에 따른 구제신청은 부당해고등이 있었던 날부터 3개월 이내에 하여야 한다.",
+        "49": "49 조문 임금의 시효 20261008 N 제49조(임금의 시효) 이 법에 따른 임금채권은 3년간 행사하지 아니하면 시효로 소멸한다."
+      },
+      "supplementary_provisions_read": [
+        {
+          "number": "21065",
+          "text": "20251001 21065 부칙(정부조직법) <제21065호,2025.10.1> 제1조(시행일) 이 법은 공포한 날부터 시행한다. 다만, 부칙 제7조에 따라 개정되는 법률 중 이 법 시행 전에 공포되었으나 시행일이 도래하지 아니한 법률을 개정한 부분은 각각 해당 법률의 시행일부터ㆍㆍㆍ<생략>ㆍㆍㆍ 시행한다. 1. 및 2. 생략 제2조부터 제6조까지 생략 제7조(다른 법률의 개정) ①부터 <399>까지 생략 <400> 근로기준법 일부를 다음과 같이 개정한다. 제59조제1항 각 호 외의 부분 중 \"통계청장\"을 \"국가데이터처장\"으로 한다. <401>부터 <626>까지 생략 제8조 생략"
+        },
+        {
+          "number": "21373",
+          "text": "20260219 21373 부칙(남녀고용평등과 일ㆍ가정 양립 지원에 관한 법률) <제21373호,2026.2.19> 제1조(시행일) 이 법은 공포 후 6개월이 경과한 날부터 시행한다. 제2조(다른 법률의 개정) 근로기준법 일부를 다음과 같이 개정한다. 제60조제6항제3호 중 \"「남녀고용평등과 일ㆍ가정 양립 지원에 관한 법률」 제19조제1항\"을 \"「남녀고용평등과 일ㆍ가정 양립 지원에 관한 법률」 제19조\"로 한다."
+        },
+        {
+          "number": "21472",
+          "text": "20260317 21472 부칙(고용보험 및 산업재해보상보험의 보험료징수 등에 관한 법률) <제21472호,2026.3.17> 제1조(시행일) 이 법은 2027년 1월 1일부터 시행한다. 제2조부터 제8조까지 생략 제9조(다른 법률의 개정) ① 근로기준법 일부를 다음과 같이 개정한다. 제43조의6제1항제4호 및 같은 조 제2항 중 \"월평균보수\"를 각각 \"월 보수\"로 한다. ② 및 ③ 생략"
+        },
+        {
+          "number": "21533",
+          "text": "20260407 21533 부칙 <제21533호,2026.4.7> 제1조(시행일) 이 법은 공포 후 6개월이 경과한 날부터 시행한다. 다만, 제13조, 제11장의 제목, 제101조, 제102조, 제102조의2, 제103조부터 제105조까지, 제108조, 제110조제1호, 제114조제1호 및 제116조제2항제1호ㆍ제4호의 개정규정은 공포 후 8개월이 경과한 날부터 시행하고, 제44조의4, 제116조제1항제2호 및 제116조제2항제2호의 개정규정은 2027년 1월 1일부터 시행한다. 제2조(임금비용의 구분지급 등에 관한 적용례) 제44조의4의 개정규정은 같은 개정규정 시행 이후 도급계약을 체결하는 경우부터 적용한다."
+        }
+      ]
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290185&type=XML",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290185.xml",
+      "raw_sha256": "391f3c2bb7173fff4040eda9ae2259674b616e58aeadf4371206b63c70f1c89b",
+      "method": "existing official raw XML cache directly read; no new HTTP retrieval",
+      "reading_level": "listed articles in full; basic effective-date metadata; all 2025–2026 supplementary provisions",
+      "law_name": "형법",
+      "basic_effective_date": "20261002",
+      "exact_primary_quotes": {
+        "250": "250 조문 살인, 존속살해 20261002 N 제250조(살인, 존속살해) ① ①사람을 살해한 자는 사형, 무기 또는 5년 이상의 징역에 처한다. ② ②자기 또는 배우자의 직계존속을 살해한 자는 사형, 무기 또는 7년 이상의 징역에 처한다. <개정 1995.12.29>",
+        "257": "257 조문 상해, 존속상해 20261002 N 제257조(상해, 존속상해) ① ①사람의 신체를 상해한 자는 7년 이하의 징역, 10년 이하의 자격정지 또는 1천만원 이하의 벌금에 처한다. <개정 1995.12.29> ② ②자기 또는 배우자의 직계존속에 대하여 제1항의 죄를 범한 때에는 10년 이하의 징역 또는 1천500만원 이하의 벌금에 처한다. <개정 1995.12.29> ③ ③전 2항의 미수범은 처벌한다.",
+        "260": "260 조문 폭행, 존속폭행 20261002 N 제260조(폭행, 존속폭행) ① ①사람의 신체에 대하여 폭행을 가한 자는 2년 이하의 징역, 500만원 이하의 벌금, 구류 또는 과료에 처한다. <개정 1995.12.29> ② ②자기 또는 배우자의 직계존속에 대하여 제1항의 죄를 범한 때에는 5년 이하의 징역 또는 700만원 이하의 벌금에 처한다. <개정 1995.12.29> ③ ③제1항 및 제2항의 죄는 피해자의 명시한 의사에 반하여 공소를 제기할 수 없다. <개정 1995.12.29>"
+      },
+      "supplementary_provisions_read": [
+        {
+          "number": "20795",
+          "text": "20250318 20795 부칙 <제20795호,2025.3.18> 이 법은 공포한 날부터 시행한다."
+        },
+        {
+          "number": "20908",
+          "text": "20250408 20908 부칙 <제20908호,2025.4.8> 이 법은 공포한 날부터 시행한다."
+        },
+        {
+          "number": "21231",
+          "text": "20251223 21231 부칙 <제21231호,2025.12.23> 이 법은 공포한 날부터 시행한다."
+        },
+        {
+          "number": "21307",
+          "text": "20251231 21307 부칙 <제21307호,2025.12.31> 제1조(시행일) 이 법은 공포한 날부터 시행한다. 제2조(친족 사이의 범행에 관한 적용례) 제328조 및 제365조제1항의 개정규정은 2024년 6월 27일 이후에 최초로 지은 범죄부터 적용한다. 제3조(고소기간에 관한 특례) 2024년 6월 27일부터 이 법 시행 전까지 지은 죄로서 종전의 제328조제1항에 해당하는 범죄(준용되는 경우를 포함한다)에 대해서는 「형사소송법」 제230조제1항 본문에도 불구하고 이 법 시행일부터 6개월까지 고소를 할 수 있다."
+        },
+        {
+          "number": "21450",
+          "text": "20260312 21450 부칙 <제21450호,2026.3.12> 이 법은 공포 후 6개월이 경과한 날부터 시행한다. 다만, 제123조의2의 개정규정은 공포한 날부터 시행한다."
+        },
+        {
+          "number": "22007",
+          "text": "20260929 22007 부칙 <제22007호,2026.9.29> 이 법은 2026년 10월 2일부터 시행한다."
+        }
+      ]
+    },
+    {
+      "url": "https://www.nlrc.go.kr/nlrc/commIntro/workGuide03.do",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/nlrc",
+      "raw_sha256": "66406d771b7a31900b190e2954825070c82f3550a81ac656a5eca98f2f4c4416",
+      "method": "existing official HTML cache directly read; source attribution from current ch19 entry; cached page identifies official online application service",
+      "reading_level": "official adjudication/application procedure content",
+      "exact_primary_quotes": [
+        "사용자로부터 정당한 이유없이 해고·휴직·정직·전직·감봉 기타 징벌을 당한 근로자는",
+        "구제신청은 부당해고 또는 부당노동행위가 있은 날(계속되는 행위는 그 종료일)부터",
+        "3개월 이내"
+      ]
+    }
+  ],
+  "scope_and_exceptions": {
+    "dismissal": "Article28 applies to eligible workers/workplaces; Article11 ordinarily requires five or more workers and excludes cohabiting-family-only workplaces and domestic employees. Four-or-fewer workplaces receive only provisions designated by decree. Do not infer universal eligibility. No detailed counting/decree exception expansion proposed.",
+    "worker_status": "Article2 defines worker by actual wage-purpose labor. Student/intern label alone is not asserted sufficient. Existing actual direction/supervision inquiry remains advice, not a definitive legal classification.",
+    "wages": "Article49 says three years without exercise; existing text only asks readers to check it. No universal start-date/tolling rule added.",
+    "violence": "Articles250/257/260 establish homicide/injury/assault offenses; Article260(3) prosecution limit retained in source evidence. Debt or dismissal grievance is not a justification. No unconditional penalty amount or prosecution guarantee proposed.",
+    "effective_dates": "285279 basic date20261008 does not make every displayed amendment current. 21533 supplementary Article1 delays Chapter11 and Article104 amendments eight months; no claim relies on prematurely effective Article104. 290185 supplementary22007 effective20261002."
+  },
+  "limitations": [
+    "Student/intern specific case-law or official detailed classification guidance was not directly read; no categorical eligibility determination proposed.",
+    "New request to https://www.moel.go.kr/policy/policyinfo/wages/list.do returned HTTP200 service-error text, not substantive wage petition guidance. It is not treated as verification. Labor-office petition route retained as existing advice; no new fee, processing deadline, or outcome guarantee added.",
+    "Actual individual litigation costs, collection prospects, and filing applicability were not independently quantified; existing uncertainty is retained.",
+    "No claim of comprehensive current-law search beyond cited versions and listed articles/addenda."
+  ],
+  "intentional_numeric_changes": [],
+  "intentional_scope_changes": [],
+  "doi_additions": [],
+  "doi_removals": [],
+  "references": {
+    "incoming_search_scope": "all current book-kr/*.md; numbered chapter8entry12 plus same-chapter named anchors",
+    "incoming_matches": [],
+    "title_changed": false,
+    "outgoing": [
+      {
+        "reference": "제19절(재직·퇴사·산재)",
+        "table_title_exact": true,
+        "latest_body_path": "/workspace/HowToLiveBetter-KR/book-kr/19-재직-퇴사-산재.md",
+        "latest_body_sha256": "3e644d50e218cc04049177fa5a6ff81785f657f1eb9f5cbd68a61c6d7057fb3d",
+        "read_scope": "heading list and complete entry6; supports dismissal application detail; wage petition details found in chapter heading1",
+        "finding": "chapter topic and scope appropriate; no outgoing reference changed"
+      }
+    ]
+  },
+  "constraints_applied": [
+    "publication-author-constraints.md",
+    "formal-author-constraints.md general factual/protection/length rules; chapter02 formal-r2 artifacts not applicable to this separate chapter08 strict-based proposal",
+    "CONTRACT.md"
+  ],
+  "checks": [
+    {
+      "command": [
+        "python",
+        "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/publication-partial-review-evidence/literal_check.py",
+        "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-012-f9e3/publication-entry-proposal.md"
+      ],
+      "exit_code": 0,
+      "stdout": "[\n  {\n    \"entry\": null,\n    \"path\": \"/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-012-f9e3/publication-entry-proposal.md\",\n    \"title_chars\": 25,\n    \"easy_chars\": 65,\n    \"easy_sentences\": 3,\n    \"long_sentences\": [],\n    \"pass_length\": true\n  }\n]\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "/workspace/.cache/howtolivebetter/publication/check-full-layout.py",
+        "/tmp/b08012-publication-layout-manifest.json"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"checked\": 1, \"failures\": []}\n",
+      "stderr": ""
+    }
+  ],
+  "immutable_input_hashes": {
+    "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-012-f9e3/strict-entry.md": "5a313088be6badf904cf97987290ce127a83569ef9ac968f24fa3b6ad8a586f8",
+    "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-012-f9e3/final.md": "71636e6a3a91e83120cfe983fd85905f80e51c53045581fb7de60ec72635d44d",
+    "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-012-f9e3/01_input.txt": "35814051771f209349ef35e9a2d7d1a6338b963c729c295240e25084fa9ee060",
+    "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-012-f9e3/01_input_with_metrics.txt": "0941a006b9eb88eed5de98c2bb4e7a752e777e0616ec4725f822a7061c080af7",
+    "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-012-f9e3/entry_snapshot.md": "5a313088be6badf904cf97987290ce127a83569ef9ac968f24fa3b6ad8a586f8",
+    "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/manifest.json": "66e34c750ac88ddf1a9293beeb049f8018e507283fbf22744d626fb3a0962681"
+  }
+}

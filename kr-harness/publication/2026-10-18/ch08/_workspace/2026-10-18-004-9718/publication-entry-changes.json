@@ -1,0 +1,99 @@
+{
+  "entry": 4,
+  "status": "unadopted_proposal",
+  "basis_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-004-9718/strict-entry.md",
+  "basis_sha256": "e0a0df915c09f92cf996fec17825b99803af20efd120a6337c788ad9c76e2922",
+  "proposal_sha256": "eb4ed17133aa2c9d93469826f5c43d532429610a85adcf3c1d4eb306da9a9e21",
+  "fields": {
+    "비용": {
+      "before": "전화를 끊고 직접 확인할 시간이 듭니다. 공개 계정에 얼굴·음성 자료를 올릴 때도 주의하세요.",
+      "after": "전화를 끊고 직접 확인할 시간이 듭니다. 공개 계정에 얼굴·음성 자료를 올릴 때도 주의하세요.",
+      "changed": false,
+      "reason": "保持"
+    },
+    "쉽게": {
+      "before": "영상과 목소리만 보고 돈을 보내지 마세요. 원래 저장한 번호로 다시 연락하세요. 상대가 알려준 새 번호로 확인하지 마세요.",
+      "after": "영상과 목소리만 보고 돈을 보내지 마세요. 원래 저장한 번호로 다시 연락하세요. 상대가 알려준 새 번호로 확인하지 마세요.",
+      "changed": false,
+      "reason": "保持"
+    },
+    "이득": {
+      "before": "얼굴이나 목소리를 보여줘도 사기는 성립합니다. 그 근거는 「형법」 제347조입니다. 원래 알던 연락처나 공동 지인에게 직접 확인하세요. 영상의 끊김·표정·목소리만으로 진위를 판단하지 마세요. 합성 기술이 달라지면 이런 단서도 달라집니다. 확인 방법별 피해 감소율은 확인하지 못했습니다.",
+      "after": "얼굴이나 목소리를 보여줘도 사기일 수 있습니다. 속여서 돈이나 재산상 이익을 얻는 경우입니다. 「형법」 제347조가 그 근거입니다. 원래 알던 연락처나 공동 지인에게 직접 확인하세요. 영상의 끊김·표정·목소리만으로 진위를 판단하지 마세요. 합성 기술이 달라지면 이런 단서도 달라집니다. 확인 방법별 피해 감소율은 확인하지 못했습니다.",
+      "changed": true,
+      "reason": "사기 성립을 무조건 단정하지 않고 기망과 재물·재산상 이익 취득 조건을 명시합니다."
+    },
+    "근거등급": {
+      "before": "B",
+      "after": "B",
+      "changed": false,
+      "reason": "保持"
+    },
+    "출처": {
+      "before": "국가법령정보센터. 「형법」 제347조. https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290185&type=XML",
+      "after": "국가법령정보센터. 「형법」 제347조. https://www.law.go.kr/법령/형법/제347조",
+      "changed": true,
+      "reason": "같은 조문의 독자용 법령 주소로 바꿉니다."
+    },
+    "비고": {
+      "before": "AI 표시가 없다고 해서 진짜라는 증거가 되지는 않습니다. 한국의 모든 영상에 같은 표시 의무가 있다고 쓰지는 않습니다. 이미 송금했다면 제2항(지급정지)을 보세요. 2026-10-10 법령 확인(국가법령정보센터).",
+      "after": "AI 표시가 없다고 해서 진짜라는 증거가 되지는 않습니다. 한국 영상의 AI 표시 의무 범위는 확인하지 못했습니다. 이미 송금했다면 제2항(지급정지)을 보세요. 2026-10-10 법령 확인(국가법령정보센터).",
+      "changed": true,
+      "reason": "집필 지시 표현을 독자에게 필요한 미확인 범위로 바꿉니다."
+    }
+  },
+  "verification": {
+    "verified_at_utc": "2026-10-18T19:03:37.965928+00:00",
+    "method": "Existing cached primary XML independently read; no new HTTP request.",
+    "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290185.xml",
+    "raw_sha256": "391f3c2bb7173fff4040eda9ae2259674b616e58aeadf4371206b63c70f1c89b",
+    "retrieval_url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290185&type=XML",
+    "read_scope": "기본정보; 제347조 제1·2항; 부칙 제21231호 및 제22007호. No case law or AI labeling statute read.",
+    "exact_quotes": [
+      "제347조(사기)",
+      "① 사람을 기망하여 재물의 교부를 받거나 재산상의 이익을 취득한 자는 20년 이하의 징역 또는 5천만원 이하의 벌금에 처한다. <개정 2025.12.23>",
+      "②전항의 방법으로 제삼자로 하여금 재물의 교부를 받게 하거나 재산상의 이익을 취득하게 한 때에도 전항의 형과 같다."
+    ],
+    "supplementary_provisions": [
+      "부칙 <제21231호,2025.12.23>\n\n\n이 법은 공포한 날부터 시행한다.\n\n\n\n",
+      "부칙 <제22007호,2026.9.29>\n\n\n이 법은 2026년 10월 2일부터 시행한다.\n\n\n\n"
+    ],
+    "effective_date": "2026-10-02; already in force as of 2026-10-18, not future.",
+    "finding": "제347조 supports fraud elements, not video verification efficacy or universal AI labeling."
+  },
+  "limitations": [
+    "영상 진위 판별법별 피해 감소율은 미확인.",
+    "AI 표시 의무 적용대상을 검증하지 않았으므로 보편 의무 주장 없음.",
+    "판례는 미열람이며 개별 영상 사기 사건의 성립을 판정하지 않음."
+  ],
+  "preservation": {
+    "grade": "B",
+    "cost_tag": "unchanged",
+    "numbers_dates": "Original 2026-10-10 historical confirmation date and 제2항 preserved; 347 citation unchanged. No numerical effects added.",
+    "cross_reference": "제2항(지급정지): chapter08 manifest entry2 matches 지급정지 request; preserved.",
+    "title": "Unchanged; incoming anchors preserved by identical title.",
+    "doi": "None present; none added or removed.",
+    "six_single_physical_field_lines": true
+  },
+  "literal_check": {
+    "command": [
+      "python",
+      "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/publication-partial-review-evidence/literal_check.py",
+      "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-004-9718/publication-entry-proposal.md"
+    ],
+    "exit_code": 0,
+    "stdout": "[\n  {\n    \"entry\": null,\n    \"path\": \"/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-004-9718/publication-entry-proposal.md\",\n    \"title_chars\": 30,\n    \"easy_chars\": 68,\n    \"easy_sentences\": 3,\n    \"long_sentences\": [],\n    \"pass_length\": true\n  }\n]\n",
+    "stderr": "",
+    "parsed": [
+      {
+        "entry": null,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-004-9718/publication-entry-proposal.md",
+        "title_chars": 30,
+        "easy_chars": 68,
+        "easy_sentences": 3,
+        "long_sentences": [],
+        "pass_length": true
+      }
+    ]
+  }
+}

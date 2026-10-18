@@ -1,0 +1,429 @@
+{
+  "status": "completed_partial_6_and7_revisions_required",
+  "chapter": "07",
+  "reviewer_id": "/root/publication_review_09",
+  "reviewed_at_utc": "2026-10-18T19:02:49.101463+00:00",
+  "manifest_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/author-partial-manifest-3.json",
+  "manifest_sha256": "716386de90dcab189f3a7f097553d456d6e51feaf9515aa583727f40a40f4907",
+  "entries": [
+    {
+      "entry": 6,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/_workspace/2026-10-18-006-c9f4/publication-entry-proposal.md",
+      "proposal_sha256": "c684eb81e865cbad8a8b9a58364b4d05e87456395a74497ce8caa328360b2947",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/_workspace/2026-10-18-006-c9f4/publication-entry-changes.json",
+      "changes_sha256": "8ccc0d59e82ea245f11b739c6e5c8fb150bcbe762bdcadd9db60052c8e20681d",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/_workspace/2026-10-18-006-c9f4/strict-entry.md",
+      "base_strict_entry_sha256": "f04094df5c14c23aef69100eafddbc2060e367b2b6f7dbf9729755325caaabd0",
+      "literal_exit_code": 0,
+      "decision": "revise",
+      "review_kind": "independent_full_entry_source_review",
+      "reason": "revise: 원자료와대조한소득75%/재산·금융동시조건·2026금액783000/1994600·기본3개월/총6상한·선지원후조사/동일내용중복지원금지·부적정환수가능성은맞는다. 그러나법10③의연장할수있다를연장합니다로바꿔재량을확정화한1문장은수정필요. 소득재산/개별위기사유심사·절차시간/금융동의유보는보존. 신규보강으로실거주1주택한도공제·금융600/주거200을실제고시에서확인하였다.",
+      "revision_requests": [
+        {
+          "field": "이득",
+          "before": "위기가 계속되면 심의위원회 심의를 거쳐 총 6개월까지 연장합니다(제10조).",
+          "requirement": "법10③의재량을보존하여연장할수있다는범위로보정. 위기가계속된다고심의후자동으로총6개월이보장되는표현금지. 총6개월상한·심의조건은유지.",
+          "primary_quote": "시장ㆍ군수ㆍ구청장은 ... 긴급지원심의위원회의 심의를 거쳐 지원을 연장할 수 있다.",
+          "source_id": "6:0"
+        }
+      ],
+      "field_decisions": {
+        "title": "approve",
+        "비용": "approve",
+        "쉽게": "approve",
+        "이득": "revise",
+        "근거등급": "approve",
+        "출처": "approve",
+        "비고": "approve"
+      },
+      "initial_warning_closure": "초기7-6금액/기간검증및신규범위보강은자료상일치.재량표현오독은초기검증재사용으로면제하지않고새필수수정으로반려.",
+      "source_ids": [
+        "6:0",
+        "6:1",
+        "6:2",
+        "6:3",
+        "6:4",
+        "6:5"
+      ],
+      "literal_check": {
+        "title_characters": 26,
+        "easy_characters": 56,
+        "easy_sentences": 2,
+        "ordinary_over_50": [],
+        "counting_rule": "공백괄호포함literal·출처서지만제외·法名/인용괄호임의면제없음"
+      },
+      "structure": {
+        "title_unchanged": true,
+        "cost_tag_verbatim": true,
+        "evidence_grade_verbatim": true,
+        "six_single_physical_fields_in_order": true,
+        "summary_absent": true,
+        "all_declared_before_after_exact": true,
+        "actual_changed_fields": [
+          "쉽게",
+          "이득",
+          "출처",
+          "비고"
+        ]
+      },
+      "doi_before": [],
+      "doi_after": [],
+      "cross_reference_check": "제목긴급복지지원불변/도입·7항incoming유지;129공식상담번호는기존실공식raw대조."
+    },
+    {
+      "entry": 7,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/_workspace/2026-10-18-007-fa73/publication-entry-proposal.md",
+      "proposal_sha256": "36d7825ac1f0aac0c39771c628a10157630f525ccb67bbd49e7ebcb48cd409e0",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/_workspace/2026-10-18-007-fa73/publication-entry-changes.json",
+      "changes_sha256": "ed35e284dff0c4beab90d21d4210f6d31ac7de4eaa4f6ab3c6ad2715ccc49700",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/_workspace/2026-10-18-007-fa73/strict-entry.md",
+      "base_strict_entry_sha256": "97fe8cbfabf9b2330271d47078822fa00974b54976679df3ad4271f66c62d5a3",
+      "literal_exit_code": 0,
+      "decision": "revise",
+      "review_kind": "independent_full_entry_source_review",
+      "reason": "revise: 2026생계1인820556/4인2078316·의료1인1025695·주거1인1230834와생계기준-소득인정액산식·법26원칙30/법정사유60통지는실제표/조문에맞는다. 가구가주소표만으로정해지지않고부양의무자·개별조건을상담해야한다는보강도적절하다. 다만새로추가한별거미혼자녀포함설명에는현행시행령의30세미만조건이빠져원자료의대상범위가넓게읽힌다.그연령조건을함께보존한새제안을검토해야한다. 2026사업안내전문·부양의무자세부예외전수는미열람이며승인처럼대신확정하지않음.",
+      "revision_requests": [
+        {
+          "field": "비고",
+          "before": "따로 사는 배우자·미혼 자녀가 포함될 수도 있습니다.",
+          "requirement": "새로설명한별거미혼자녀가구원기준에시행령2①2나의30세미만조건을함께명시. 미혼여부만으로가구합산되는듯한범위생략보정. 배우자·기타생계주거동일·가구제외/개별심사상담유보유지.",
+          "primary_quote": "제1호에 해당하는 사람의 미혼 자녀 중 30세 미만인 사람",
+          "source_id": "7:5"
+        }
+      ],
+      "field_decisions": {
+        "title": "approve",
+        "비용": "approve",
+        "쉽게": "approve",
+        "이득": "approve",
+        "근거등급": "approve",
+        "출처": "approve",
+        "비고": "revise"
+      },
+      "initial_warning_closure": "초기7-7가구범위보강권장은시행령실제조회와독자상담유보로대부분처리했으나추가설명30세미만조건누락을남겨최종종결아님.",
+      "source_ids": [
+        "7:0",
+        "7:1",
+        "7:2",
+        "7:3",
+        "7:4",
+        "7:5",
+        "7:6",
+        "7:7"
+      ],
+      "literal_check": {
+        "title_characters": 29,
+        "easy_characters": 74,
+        "easy_sentences": 3,
+        "ordinary_over_50": [],
+        "counting_rule": "공백괄호포함literal·출처서지만제외·法名/인용괄호임의면제없음"
+      },
+      "structure": {
+        "title_unchanged": true,
+        "cost_tag_verbatim": true,
+        "evidence_grade_verbatim": true,
+        "six_single_physical_fields_in_order": true,
+        "summary_absent": true,
+        "all_declared_before_after_exact": true,
+        "actual_changed_fields": [
+          "출처",
+          "비고"
+        ]
+      },
+      "doi_before": [],
+      "doi_after": [],
+      "cross_reference_check": "제6항긴급복지지원은현행source/6제안제목에존재.7항제목불변으로9항기초생활보장incoming유지."
+    }
+  ],
+  "approved_entries": [],
+  "revise_entries": [
+    6,
+    7
+  ],
+  "actual_artifact_read_log": [
+    {
+      "id": "6:0",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=270789&type=XML&efYd=20251023",
+      "original_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/442407b07e340f39720c.raw",
+      "retained_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/442407b07e340f39720c.raw",
+      "sha256": "1dc3b7c368634291cc98e267358ebc669a283e1bbe117dc859134fcf73135572",
+      "byte_length": 59147,
+      "source_collected_at_utc": "2026-10-18T12:54:03.063287+00:00",
+      "http_status": 200,
+      "reviewed_at_utc": "2026-10-18T19:02:49.101463+00:00",
+      "reviewer_method": "existing_primary_raw_independently_read_not_new_HTTP",
+      "author_reported_method": "existing_cached_primary_raw_read; not a new HTTP fetch",
+      "author_reported_read_time": "2026-10-18T18:52:27.718424+00:00",
+      "actual_read_scope": "긴급복지지원법현행20251023 XML2·3·7·8·8의2·10·13·15 직접읽음;최근부칙19448/20929의시행일대조. 10③실제문구는심의거쳐연장할수있다/총6개월상한.재량확정화문제확인.",
+      "collection_limit": "author verification/read time를HTTP취득시각으로단정하지않음;원취득별도증빙없으면null"
+    },
+    {
+      "id": "6:1",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=242023&type=XML&efYd=20220503",
+      "original_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/cedbc83c93d783553003.raw",
+      "retained_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/cedbc83c93d783553003.raw",
+      "sha256": "2103a5d6cb22993e69ba1c2d4e1150da9d194ef3beab702bc2a25d6068830c38",
+      "byte_length": 42871,
+      "source_collected_at_utc": "2026-10-18T12:54:05.483188+00:00",
+      "http_status": 200,
+      "reviewed_at_utc": "2026-10-18T19:02:49.101463+00:00",
+      "reviewer_method": "existing_primary_raw_independently_read_not_new_HTTP",
+      "author_reported_method": "existing_cached_primary_raw_read; not a new HTTP fetch",
+      "author_reported_read_time": "2026-10-18T18:52:27.718424+00:00",
+      "actual_read_scope": "시행령7 전항:소득중위75%이하+재산/금융기준모두충족·사후조사1개월/금융예외. 최근부칙의20220503시행범위직접대조. 고시기준과별도개별선정미확정.",
+      "collection_limit": "author verification/read time를HTTP취득시각으로단정하지않음;원취득별도증빙없으면null"
+    },
+    {
+      "id": "6:2",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000269954&type=XML",
+      "original_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/40df6bb1990090bf77f9.raw",
+      "retained_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/40df6bb1990090bf77f9.raw",
+      "sha256": "0f2bb74b418685a41687b5902c91d76e000714b3d5e5aa1e4af124b906584f16",
+      "byte_length": 8368,
+      "source_collected_at_utc": "2026-10-18T12:54:51.027238+00:00",
+      "http_status": 200,
+      "reviewed_at_utc": "2026-10-18T19:02:49.101463+00:00",
+      "reviewer_method": "existing_primary_raw_independently_read_not_new_HTTP",
+      "author_reported_method": "existing_cached_primary_raw_read; not a new HTTP fetch",
+      "author_reported_read_time": "2026-10-18T18:52:27.718424+00:00",
+      "actual_read_scope": "2025-210실제행정규칙XML 본문/재산공제·실거주주택1호조건·부칙발령일시행/20260101지급분적용및첨부링크.표는이미지placeholder여서별도실PDF확인.",
+      "collection_limit": "author verification/read time를HTTP취득시각으로단정하지않음;원취득별도증빙없으면null"
+    },
+    {
+      "id": "6:3",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000269956&type=XML",
+      "original_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/4c180e95bce410f3c9e3.raw",
+      "retained_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/4c180e95bce410f3c9e3.raw",
+      "sha256": "e67faa6e75247805398f67a03f4640ab83c02195b177933719e47f5cccb1b9ac",
+      "byte_length": 6212,
+      "source_collected_at_utc": "2026-10-18T12:54:06.510844+00:00",
+      "http_status": 200,
+      "reviewed_at_utc": "2026-10-18T19:02:49.101463+00:00",
+      "reviewer_method": "existing_primary_raw_independently_read_not_new_HTTP",
+      "author_reported_method": "existing_cached_primary_raw_read; not a new HTTP fetch",
+      "author_reported_read_time": "2026-10-18T18:52:27.718424+00:00",
+      "actual_read_scope": "2025-211실제행정규칙XML 금융재산생활준비금+600만원이하/주거+200만원/중위소득백원단위이하절사·부칙20260101시행 직접읽음. 모든후속고시부존재검색주장아님.",
+      "collection_limit": "author verification/read time를HTTP취득시각으로단정하지않음;원취득별도증빙없으면null"
+    },
+    {
+      "id": "6:4",
+      "url": "https://www.law.go.kr/flDownload.do?flSeq=159360289",
+      "original_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/ce0ae31ed097539d31e9.raw",
+      "retained_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/ce0ae31ed097539d31e9.raw",
+      "sha256": "4a2d935934bfe47bdc7b732d6913fb055cf7ac987d17d05e528dddaa4be88c40",
+      "byte_length": 158712,
+      "source_collected_at_utc": "2026-10-18T12:54:51.027735+00:00",
+      "http_status": 200,
+      "reviewed_at_utc": "2026-10-18T19:02:49.101463+00:00",
+      "reviewer_method": "existing_primary_raw_independently_read_not_new_HTTP",
+      "author_reported_method": "existing_cached_primary_raw_read; not a new HTTP fetch",
+      "author_reported_read_time": "2026-10-18T18:52:27.718424+00:00",
+      "actual_read_scope": "실PDF3쪽전체표와부칙직접읽음(pdftotext-layout).생계1인783000/4인1994600·실거주주택1호한도공제·고시발령20251217시행/20260101지급분적용. 추출표의배열을원열제목과대조.",
+      "collection_limit": "author verification/read time를HTTP취득시각으로단정하지않음;원취득별도증빙없으면null"
+    },
+    {
+      "id": "6:5",
+      "url": "https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=law&type=XML&query=%EA%B8%B4%EA%B8%89%EB%B3%B5%EC%A7%80%EC%9B%90%EB%B2%95&display=100&nw=1",
+      "original_raw_path": "/tmp/ch07e06-law.xml",
+      "retained_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-partial-review-r3/764a99601ae152ec231a.raw",
+      "sha256": "764a99601ae152ec231afa695b82288f809e9cedfb301259b39820000b253160",
+      "byte_length": 2647,
+      "source_collected_at_utc": null,
+      "http_status": null,
+      "reviewed_at_utc": "2026-10-18T19:02:49.101463+00:00",
+      "reviewer_method": "existing_primary_raw_independently_read_not_new_HTTP",
+      "author_reported_method": "new HTTPS request with default certificate validation; response XML read",
+      "author_reported_read_time": "2026-10-18T18:51:42.073404+00:00",
+      "actual_read_scope": "실검색XML3결과:법270789/20251023·령242023/20220503·규칙237465/20220101현행.검색자체조문확인과분리.",
+      "collection_limit": "author verification/read time를HTTP취득시각으로단정하지않음;원취득별도증빙없으면null"
+    },
+    {
+      "id": "7:0",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=276653&type=XML&efYd=20251001",
+      "original_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/1caa1995e780df6b82f6.raw",
+      "retained_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/1caa1995e780df6b82f6.raw",
+      "sha256": "77d9d27f2bce61ff32f055a91c442f96d8b3db519d7dcdaa944ff92444a7ddad",
+      "byte_length": 206912,
+      "source_collected_at_utc": "2026-10-18T12:54:07.087234+00:00",
+      "http_status": 200,
+      "reviewed_at_utc": "2026-10-18T19:02:49.101463+00:00",
+      "reviewer_method": "existing_primary_raw_independently_read_not_new_HTTP",
+      "author_reported_method": "existing_cache_read; XML parse / HWPX ZIP XML extraction",
+      "author_reported_read_time": "2026-10-18T18:57:18.717878+00:00",
+      "actual_read_scope": "국민기초생활보장법현행20251001 XML2·8·8의2·21·26와최근부칙20787/21065 직접대조.소득인정액정의·금융동의·원칙30/법정사유60통지.부양의무자·개별선정/2026사업안내전체미확정.",
+      "collection_limit": "author verification/read time를HTTP취득시각으로단정하지않음;원취득별도증빙없으면null"
+    },
+    {
+      "id": "7:1",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000262584&type=XML",
+      "original_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/1130372e29b8610d820a.raw",
+      "retained_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/1130372e29b8610d820a.raw",
+      "sha256": "417b860572299cb5c8fbe5558de302fd43a6dec387b89447df0d48b8f13a7368",
+      "byte_length": 5869,
+      "source_collected_at_utc": "2026-10-18T12:54:09.343059+00:00",
+      "http_status": 200,
+      "reviewed_at_utc": "2026-10-18T19:02:49.101463+00:00",
+      "reviewer_method": "existing_primary_raw_independently_read_not_new_HTTP",
+      "author_reported_method": "existing_cache_read; XML parse / HWPX ZIP XML extraction",
+      "author_reported_read_time": "2026-10-18T18:57:18.717878+00:00",
+      "actual_read_scope": "2025-135 행정규칙XML 공식등록본문/2026생계·의료선정과최저보장수준·20260101시행확인.이미지표placeholder는별도HWPX실표직접읽음.",
+      "collection_limit": "author verification/read time를HTTP취득시각으로단정하지않음;원취득별도증빙없으면null"
+    },
+    {
+      "id": "7:2",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000264366&type=XML",
+      "original_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/42face5a7417e999cefd.raw",
+      "retained_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/42face5a7417e999cefd.raw",
+      "sha256": "530d813b468c954acef60db07dad6786ff3097c784bac26814bce35f31757316",
+      "byte_length": 3431,
+      "source_collected_at_utc": "2026-10-18T12:54:11.266688+00:00",
+      "http_status": 200,
+      "reviewed_at_utc": "2026-10-18T19:02:49.101463+00:00",
+      "reviewer_method": "existing_primary_raw_independently_read_not_new_HTTP",
+      "author_reported_method": "existing_cache_read; XML parse / HWPX ZIP XML extraction",
+      "author_reported_read_time": "2026-10-18T18:57:18.717878+00:00",
+      "actual_read_scope": "2025-506 행정규칙XML 공식등록주거급여선정/최저보장수준과부칙20260101시행·실첨부링크확인. 주거실지급액으로소득문턱을바꾸지않음.",
+      "collection_limit": "author verification/read time를HTTP취득시각으로단정하지않음;원취득별도증빙없으면null"
+    },
+    {
+      "id": "7:3",
+      "url": "https://www.law.go.kr/flDownload.do?flSeq=155034253",
+      "original_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/8c0b2dc46ce0092075fa.raw",
+      "retained_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/8c0b2dc46ce0092075fa.raw",
+      "sha256": "47f5eb050e7343f937b00fc84d0c6bda39a803912b12dbdf71b0633ff154312f",
+      "byte_length": 55399,
+      "source_collected_at_utc": "2026-10-18T12:54:10.543300+00:00",
+      "http_status": 200,
+      "reviewed_at_utc": "2026-10-18T19:02:49.101463+00:00",
+      "reviewer_method": "existing_primary_raw_independently_read_not_new_HTTP",
+      "author_reported_method": "existing_cache_read; XML parse / HWPX ZIP XML extraction",
+      "author_reported_read_time": "2026-10-18T18:57:18.717878+00:00",
+      "actual_read_scope": "공식첨부HWPX Contents/section*.xml 직접읽음:2026생계1인820556/4인2078316·의료1인1025695·생계액=기준액-소득인정액·20260101시행.제목/단위/다른보장시설표와구분.",
+      "collection_limit": "author verification/read time를HTTP취득시각으로단정하지않음;원취득별도증빙없으면null"
+    },
+    {
+      "id": "7:4",
+      "url": "https://www.law.go.kr/flDownload.do?flSeq=156379585",
+      "original_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/d295d2e1354d94027c14.raw",
+      "retained_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/d295d2e1354d94027c14.raw",
+      "sha256": "6aabf85be793036246dfd3df3959d0b2de93db4923a40c32a90a0d055339d522",
+      "byte_length": 46417,
+      "source_collected_at_utc": "2026-10-18T12:54:13.073068+00:00",
+      "http_status": 200,
+      "reviewed_at_utc": "2026-10-18T19:02:49.101463+00:00",
+      "reviewer_method": "existing_primary_raw_independently_read_not_new_HTTP",
+      "author_reported_method": "existing_cache_read; XML parse / HWPX ZIP XML extraction",
+      "author_reported_read_time": "2026-10-18T18:57:18.717878+00:00",
+      "actual_read_scope": "공식등록2025-506에연결된실HWPX Contents/section*.xml 직접읽음:주거1인선정기준1230834/월·20260101시행. 첨부내표제제정고시안문구를별도비공식초안으로채택한것아니며공식최종행정규칙등록과연결확인.기준임대료·수선비를이항지원금으로추가하지않음.",
+      "collection_limit": "author verification/read time를HTTP취득시각으로단정하지않음;원취득별도증빙없으면null"
+    },
+    {
+      "id": "7:5",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=281585&type=XML&efYd=20260102",
+      "original_raw_path": "/tmp/ch07e07-decree.xml",
+      "retained_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-partial-review-r3/400b860de5adbdd011a2.raw",
+      "sha256": "400b860de5adbdd011a2a7d594e7227ac9bdc2da2f52a6e888ee6f3dd73d7f25",
+      "byte_length": 199769,
+      "source_collected_at_utc": null,
+      "http_status": null,
+      "reviewed_at_utc": "2026-10-18T19:02:49.101463+00:00",
+      "reviewer_method": "existing_primary_raw_independently_read_not_new_HTTP",
+      "author_reported_method": "new HTTPS verified urllib request then XML read",
+      "author_reported_read_time": "2026-10-18T18:57:18.717878+00:00",
+      "actual_read_scope": "국민기초생활보장법시행령현행20260102 XML2 전항/부칙35948 직접읽음.같은주민등록표동거인제외/따로사는배우자사실혼포함/미혼자녀30세미만/생계주거동일조건과군복무·해외체류등제외범위대조.최초신청자해외체류예외를신청금지로바꾸지않음.",
+      "collection_limit": "author verification/read time를HTTP취득시각으로단정하지않음;원취득별도증빙없으면null"
+    },
+    {
+      "id": "7:6",
+      "url": "https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=law&type=XML&query=%EA%B5%AD%EB%AF%BC%EA%B8%B0%EC%B4%88%EC%83%9D%ED%99%9C+%EB%B3%B4%EC%9E%A5%EB%B2%95+%EC%8B%9C%ED%96%89%EB%A0%B9&display=100&nw=1",
+      "original_raw_path": "/tmp/ch07e07-decree-search.xml",
+      "retained_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-partial-review-r3/0d63899b6809c4f2d3ac.raw",
+      "sha256": "0d63899b6809c4f2d3ac3515796de11b560f4cf8699bdf9c3b12cab678a6ef36",
+      "byte_length": 1088,
+      "source_collected_at_utc": null,
+      "http_status": null,
+      "reviewed_at_utc": "2026-10-18T19:02:49.101463+00:00",
+      "reviewer_method": "existing_primary_raw_independently_read_not_new_HTTP",
+      "author_reported_method": "read actual official search XML",
+      "author_reported_read_time": "2026-10-18T18:57:18.717878+00:00",
+      "actual_read_scope": "실제시행령검색XML1결과281585/20260102현행선택.검색을본문열람으로세지않음.",
+      "collection_limit": "author verification/read time를HTTP취득시각으로단정하지않음;원취득별도증빙없으면null"
+    },
+    {
+      "id": "7:7",
+      "url": "https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=law&type=XML&query=%EA%B5%AD%EB%AF%BC%EA%B8%B0%EC%B4%88%EC%83%9D%ED%99%9C%EB%B3%B4%EC%9E%A5%EB%B2%95&display=100&nw=1",
+      "original_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-name-search/f9772ced2b829e940e56.xml",
+      "retained_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-name-search/f9772ced2b829e940e56.xml",
+      "sha256": "a75db3eb9b73b7799c89c206bd67a4b8bdd510028feac80dbfa352bcf2d1fd8e",
+      "byte_length": 3508,
+      "source_collected_at_utc": null,
+      "http_status": null,
+      "reviewed_at_utc": "2026-10-18T19:02:49.101463+00:00",
+      "reviewer_method": "existing_primary_raw_independently_read_not_new_HTTP",
+      "author_reported_method": "read actual official search XML",
+      "author_reported_read_time": "2026-10-18T18:57:18.717878+00:00",
+      "actual_read_scope": "기존공용실제법령검색XML:법276653/20251001현행과289559/20270316미래·령281585/20260102구분.미래법본문열람/승인아님.",
+      "collection_limit": "author verification/read time를HTTP취득시각으로단정하지않음;원취득별도증빙없으면null"
+    },
+    {
+      "id": "129",
+      "url": "https://www.129.go.kr/",
+      "retained_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/eeb953ae0f6d9fdffda1.raw",
+      "sha256": "e09b5ce232858e3845988c4a556b881cc5b21c4956c1267b0ea8188530a73420",
+      "byte_length": 160496,
+      "reviewed_at_utc": "2026-10-18T19:02:49.101463+00:00",
+      "reviewer_method": "cached_official_contact_page_read_not_new_HTTP",
+      "actual_read_scope": "129무료복지상담·긴급지원상담24시공식본문/번호문맥.이항은129에서개별선정/당일지급보장한다고쓰지않음."
+    }
+  ],
+  "reviewer_fresh_http": [],
+  "reviewer_http_statement": "이번묶음신규HTTP없음;저자의최근수집원응답/기존공용캐시를실제열람.캐시와신규수집을혼동하지않음.",
+  "local_inputs": [
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/author-partial-manifest-3.json",
+      "sha256": "716386de90dcab189f3a7f097553d456d6e51feaf9515aa583727f40a40f4907",
+      "scope": "対象6·7原文/초기판정·전필드및실참조대상제목대조.다른항목승인아님."
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/manifest.json",
+      "sha256": "dd61070f50a2b9cb70dccf685f986e01d6b2172998db370487a51e8214c3ddd8",
+      "scope": "対象6·7原文/초기판정·전필드및실참조대상제목대조.다른항목승인아님."
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/content-audit.md",
+      "sha256": "806d25f07080909253372cacef346a68c0a4c558c8fc74954d79c62304246bc9",
+      "scope": "対象6·7原文/초기판정·전필드및실참조대상제목대조.다른항목승인아님."
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/editorial-decisions.json",
+      "sha256": "20e9a12186633e18228c66d97c25761be1694c9bef32cd5c34da1a5b8803e858",
+      "scope": "対象6·7原文/초기판정·전필드및실참조대상제목대조.다른항목승인아님."
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/source.md",
+      "sha256": "48c5d96b9d2c280eabe9ecfedf11cb6674a2ec25ea35c3da1326b2de60d11656",
+      "scope": "対象6·7原文/초기판정·전필드및실참조대상제목대조.다른항목승인아님."
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/book/07-没钱的时候怎么活.md",
+      "sha256": "4f23050edf70baba7bf41e361ce1f682517633aa7d381b7eda1746db65122908",
+      "scope": "対象6·7原文/초기판정·전필드및실참조대상제목대조.다른항목승인아님."
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/book-kr/07-돈이-없을-때-사는-법.md",
+      "sha256": "48c5d96b9d2c280eabe9ecfedf11cb6674a2ec25ea35c3da1326b2de60d11656",
+      "scope": "対象6·7原文/초기판정·전필드및실참조대상제목대조.다른항목승인아님."
+    }
+  ],
+  "formal_kr_fit_approval": false,
+  "integration_approval": false,
+  "whole_chapter_approval": false,
+  "scope_limit": "고정6·7full정확proposal/changesSHA만대상.초기감사검증/길이통과≠새내용승인.수정된새bytes는독립재검토필요.",
+  "limitations": [
+    "긴급지원개별위기사유·가구범위/재산평가·개별지원선정은확정하지않음.모든후속고시부존재검색도수행하지않음.",
+    "기초생활2026사업안내전문/부양의무자세부예외는미열람.해외체류가구제외를최초신청금지로변경하지않음.",
+    "금액은실제PDF/HWPX표에서읽었으며XML이미지placeholder·검색목록만으로검증완료라하지않음.",
+    "원문중국임시구호조건/위안798.1·593.9·298.1예시·호적지신청규칙이식없음.대상6/7原文·strict·제안DOI빈집합.",
+    "public/proposal/strict/기존canonical/정식formal/pure/gates/Git를수정하지않음.검토JSON·MD와외부캐시만작성."
+  ]
+}

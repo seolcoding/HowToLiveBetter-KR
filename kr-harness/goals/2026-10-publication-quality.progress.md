@@ -199,3 +199,13 @@ fcb8576의한국어판검사·전자책CI둘다성공했고PR#7초안과원격ma
 각주identity repair exact5파일을독립codePASS뒤운영채택했고16+35+33검사와원격CI가통과했다. runtime변경뒤13의새독립finalizer/contextgate/strict44도동일후보를재현했다.27은CDC공식원자료·독립번역승인·freshfinalizer/contextgate/strict16으로인용hold를해제했다.13/27은각각root가선택한명시registry+고정SHA+새증거폴더로만조립한다. 기존입력/00/본문/threshold/route는불변이다.
 
 34절전체초기감사도마쳤으며18은새formal로확인했다. source06부분수정승인과07/08full을병행한다. Forer원표추가확보·EASL약한수술권고예외등실제원자료대조를반영했고1,820캐시기록의바이트보관을확인했다. 초기감사·캐시·pure검사를내용/출판승인으로세지않는다. PR#7초안과main기존배포를구분하며전체목표완료후최종CI·정상병합·Pages/Release실제반영까지이어간다. 상세현재인계는 handoff.md 최신절을따른다.
+
+## 2026-10-18 UTC — 제6절 완료·제2절 범위 교정·640개 검사 기록
+
+640개 실제 pure gate0/final SHA쌍과hold0을 보존했다. 제32절까지 strict 조립 완료, 제33절을 계속한다. 원입력/항목snapshot667쌍과 최초 진단1,334파일 일치, route644/23 불변이다. 전체 사실 검증과 출판 완료 수로 세지 않는다.
+
+제6절 전29 full+intro/tail의 독립 예상 SHA와 실제 helper 결과가 일치했다. 새 formal이 찾은16/26의 잘못된 내용 참조와5/22의 형식 경고는 같은 원작성자·별도 exact 승인·단일 span 보호 적용으로 고쳤다. 다른25항·intro/tail·DOI·과학 수치는 그대로다. 전체 새 해시 재검토 block0/warn0/delete0, CLI2801696240c04548e25d17448ce1b65e03000f40ad2cc4c29be3c4ff5d62874e, 실제promote 완료다. 제2절32항도16:8의 추가 감량 범위를 현재 연구 설명과 맞춰 새 독립 whole formal/CLI1397188cb818c9acfa6741f2b7dca929ab166ac198000db70bcde5a4b605ea30로 재승인했다. 이전 formal과 모든 후속·실패 기록을 보존하며 완료한1~6/18에 baseline조립을 다시 하지 않는다.
+
+현재34절 gate·balanced DOI/항목 회계·네 형식 빌드·EPUBCheck0/0·실제34쪽667항/검색667/웹·오프라인참조367/390px 기본·큰글자12검사와02/06 큰글자 화면 확인을 통과했다. `root-06-validation.json`과 로그/DOI 증거는 이번 public snapshot을 기록하며 마지막 전체 작업의 검증을 대신하지 않는다. 새 current-hash formal 완료는1/2/3/4/5/6/18이다.
+
+제7절 최신 전22 map-r4/지역r4와 각 법령 예외·재량·rawbefore 후속은 독립 전체 canonical closure 중이다. 제8절1~12 완료 author 파일과9r2를 포함한 후속은04가 별도 독립 검토한다. 완료 source07/08 inventory-r2 122파일과640 pure만 선별해 진행 중 산출물과 구분했다. 초기감사/캐시/스킬 gate를 사실·출판 승인으로 대신하지 않는다. 상세 최신 SHA와 다음 작업은 handoff.md의 같은 날짜 최신 절을 따른다. 남은 전34절 source/formal·최종 검증·정상 PR 병합·실제 Pages/Release 배포까지 계속한다.

@@ -1,0 +1,255 @@
+{
+  "status": "completed_partial_review",
+  "chapter": "07",
+  "reviewed_at_utc": "2026-10-18T19:28:23.620701+00:00",
+  "reviewer_id": "/root/publication_review_09",
+  "manifest_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/author-partial-manifest-9.json",
+  "manifest_sha256": "497ee46adb1ccf93f288eb9bf428bf6b63eb9a8d0bcbd9c8746166b2479c1e78",
+  "candidate_sha256": "48c5d96b9d2c280eabe9ecfedf11cb6674a2ec25ea35c3da1326b2de60d11656",
+  "entries": [
+    {
+      "entry": 10,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/_workspace/2026-10-18-010-2906/publication-entry-proposal-r2.md",
+      "proposal_sha256": "cdf948c47faf457035a262f47203a8cb9aaed0784542ec9c4a66f1625ef62fa4",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/_workspace/2026-10-18-010-2906/publication-entry-changes-r2.json",
+      "changes_sha256": "f898d2981de2cec826937a93c859be2cd7d9c8b3abfe9c6ecfa8460e1c75b205",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/_workspace/2026-10-18-010-2906/strict-entry.md",
+      "base_strict_entry_sha256": "84256dbfec04dbfd477aabb29e92d67e976d298b9a9eb0f86cc37847da94434c",
+      "literal_exit_code": 0,
+      "decision": "approve",
+      "reason": "r5필수요청을해소했다.2026상한액미확인을공식표확인상태(소득·요양병원입원일수별차등)로갱신하고PDF출처를추가했다.미확인재난지원율과개인별금액확인권고를분리했다.근거미검증이던타지역사전등록불요/전국공통유급병가권리주장을철회하고건보·의료급여등적용제도와의뢰/승인·회사병가규정을개별문의하도록한정한다.이득180일/300만원·상한제제외/공제재량·일부지원·중복제외및다른보호필드는이전full그대로다.",
+      "field_decisions": {
+        "title": "approve",
+        "비용": "approve",
+        "쉽게": "approve",
+        "이득": "approve",
+        "근거등급": "approve",
+        "출처": "approve",
+        "비고": "approve"
+      },
+      "revision_requests": [],
+      "initial_warning_closure": "초기10상한액TODO및r5수정요청종결.재난지원율/병가·지역진료추가법령미열람은개별보편권리단정삭제로명확한한계.상담권고가검증완료주장아님.",
+      "primary_read_scope": "r5직접읽은7raw와이번PDF2026표재독/새full전필드대조.출처·비고이외이전proposalbytes보존별도확인.지원율최신고시·개별병가·의료급여의뢰조항은미열람이며해당권리를단정하지않음.",
+      "source_ids": [
+        "raw:0",
+        "raw:1",
+        "raw:2",
+        "raw:3",
+        "raw:4",
+        "raw:5",
+        "raw:6"
+      ],
+      "cross_reference_check": "제19/24절실제제목/내용보존.10제목불변/incoming유지.",
+      "literal_check": {
+        "title_characters": 28,
+        "easy_characters": 67,
+        "easy_sentences": 3,
+        "ordinary_over_50": [],
+        "counting_rule": "공백괄호포함literal/출처서지만제외/진짜immutable인용만별도심사·법명괄호임의면제없음"
+      },
+      "structure": {
+        "six_single_physical_fields_in_order": true,
+        "cost_tag_verbatim": true,
+        "evidence_grade_verbatim": true,
+        "title_verbatim": true,
+        "summary_absent": true,
+        "declared_before_after_verified": true,
+        "revision_span_only_and_other_bytes_unchanged": false,
+        "current_candidate_base_exact_once": true
+      },
+      "doi_original": [],
+      "doi_strict": [],
+      "doi_proposal": []
+    }
+  ],
+  "approved_entries": [
+    10
+  ],
+  "revise_entries": [],
+  "actual_artifact_read_log": [
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=285273&type=XML&efYd=20261008",
+      "requested_at": "2026-10-18T12:37:57.198257+00:00",
+      "http_status": 200,
+      "entries": [
+        10
+      ],
+      "actual_read_scope": "건보법44①~⑤/21522부칙1·2직접재독:연간본인부담합산·소득상한/20261008부터체납공제가능·시행후초과금통보분적용. 이번r2전필드재대조.새수치추가없이PDF확인상태/적용제도별문의로갱신.",
+      "id": "raw:0",
+      "original_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/285273.xml",
+      "retained_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/285273.xml",
+      "sha256": "61d71f01d2824e7332c868f26d4cc9c6ca73ad09b9a3945375ec9ea8972d0bf7",
+      "byte_length": 353154,
+      "actual_fetch_url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=285273&type=XML",
+      "source_collected_at_utc": "2026-10-18T12:37:57.198257+00:00",
+      "reviewed_at_utc": "2026-10-18T19:28:23.620701+00:00",
+      "reviewer_method": "cached_primary_artifact_independently_read_not_new_HTTP_this_batch"
+    },
+    {
+      "url": "https://www.nhis.or.kr/static/html/wbma/c/wbmac0209.html",
+      "requested_at": "2026-10-18T12:54:14.061902+00:00",
+      "http_status": 200,
+      "entries": [
+        10
+      ],
+      "actual_read_scope": "NHIS상한제본문전체직접읽음:비급여/선별급여/전액본인부담·implant/2~3인실/추나제외.2020표는구판으로2026금액근거아님. 이번r2전필드재대조.새수치추가없이PDF확인상태/적용제도별문의로갱신.",
+      "id": "raw:1",
+      "original_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/caf5881fbe4386e341a3.raw",
+      "retained_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/caf5881fbe4386e341a3.raw",
+      "sha256": "773cc22338821a7d4e06fce7fe4f9400c9ef58ec67600ada4c82cb71c181cd18",
+      "byte_length": 23737,
+      "actual_fetch_url": "https://www.nhis.or.kr/static/html/wbma/c/wbmac0209.html",
+      "source_collected_at_utc": "2026-10-18T12:54:14.061902+00:00",
+      "reviewed_at_utc": "2026-10-18T19:28:23.620701+00:00",
+      "reviewer_method": "cached_primary_artifact_independently_read_not_new_HTTP_this_batch"
+    },
+    {
+      "url": "https://www.nhis.or.kr/static/html/wbma/c/wbmac0215.html",
+      "requested_at": "2026-10-18T12:54:14.532380+00:00",
+      "http_status": 200,
+      "entries": [
+        10
+      ],
+      "actual_read_scope": "NHIS산정특례본문직접읽음:대상중증·희귀·난치/상병별조건·대상급여부담경감/비급여제외.구형상병목록·수가를현행전수인증하지않음. 이번r2전필드재대조.새수치추가없이PDF확인상태/적용제도별문의로갱신.",
+      "id": "raw:2",
+      "original_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/02b613e259644120a939.raw",
+      "retained_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/02b613e259644120a939.raw",
+      "sha256": "1ac0dc6f8524f999a5e700968a7bb594fe4b11d06745fed1a3d985729a041361",
+      "byte_length": 30446,
+      "actual_fetch_url": "https://www.nhis.or.kr/static/html/wbma/c/wbmac0215.html",
+      "source_collected_at_utc": "2026-10-18T12:54:14.532380+00:00",
+      "reviewed_at_utc": "2026-10-18T19:28:23.620701+00:00",
+      "reviewer_method": "cached_primary_artifact_independently_read_not_new_HTTP_this_batch"
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=249317&type=XML&efYd=20230929",
+      "requested_at": "2026-10-18T12:54:14.881677+00:00",
+      "http_status": 200,
+      "entries": [
+        10
+      ],
+      "actual_read_scope": "재난적의료비법9·10·13및19304부칙직접읽음:소득/의료비부담/필요예외·일부지원·국가지자체급여와민간보험중복제외.현행개별지원율전문미확보. 이번r2전필드재대조.새수치추가없이PDF확인상태/적용제도별문의로갱신.",
+      "id": "raw:3",
+      "original_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/744be0daff4cb310fc9e.raw",
+      "retained_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/744be0daff4cb310fc9e.raw",
+      "sha256": "027654910b141ca7607b25a0e7d41857f3373a2ce0ae820a72b0fbf92dee11b8",
+      "byte_length": 59845,
+      "actual_fetch_url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=249317&type=XML&efYd=20230929",
+      "source_collected_at_utc": "2026-10-18T12:54:14.881677+00:00",
+      "reviewed_at_utc": "2026-10-18T19:28:23.620701+00:00",
+      "reviewer_method": "cached_primary_artifact_independently_read_not_new_HTTP_this_batch"
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=273903&type=XML",
+      "requested_at": "2026-10-18T12:54:51.028793+00:00",
+      "http_status": 200,
+      "entries": [
+        10
+      ],
+      "actual_read_scope": "시행규칙2전항/1125부칙직접읽음:최종진료일(입원퇴원일)다음날180일/가족·진료·금융보험동의·계좌·영수증추가자료.20250919시행. 이번r2전필드재대조.새수치추가없이PDF확인상태/적용제도별문의로갱신.",
+      "id": "raw:4",
+      "original_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/2cc6b2a4af4c4af1be10.raw",
+      "retained_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/2cc6b2a4af4c4af1be10.raw",
+      "sha256": "010fa605b456fb074ac5d96eed7bd1b8f4755da597bfc72df3db35fb6681a6c3",
+      "byte_length": 185975,
+      "actual_fetch_url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=273903&type=XML",
+      "source_collected_at_utc": "2026-10-18T12:54:51.028793+00:00",
+      "reviewed_at_utc": "2026-10-18T19:28:23.620701+00:00",
+      "reviewer_method": "cached_primary_artifact_independently_read_not_new_HTTP_this_batch"
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000269954&type=XML",
+      "requested_at": "2026-10-18T12:54:51.027238+00:00",
+      "http_status": 200,
+      "entries": [
+        10
+      ],
+      "actual_read_scope": "2025-210고시의료지원300만원이내/발령일시행·20260101지급적용원문재독.그밖의총위기사유/기간조건은6항r3직접검토와교차대조. 이번r2전필드재대조.새수치추가없이PDF확인상태/적용제도별문의로갱신.",
+      "id": "raw:5",
+      "original_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/40df6bb1990090bf77f9.raw",
+      "retained_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/40df6bb1990090bf77f9.raw",
+      "sha256": "0f2bb74b418685a41687b5902c91d76e000714b3d5e5aa1e4af124b906584f16",
+      "byte_length": 8368,
+      "actual_fetch_url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000269954&type=XML",
+      "source_collected_at_utc": "2026-10-18T12:54:51.027238+00:00",
+      "reviewed_at_utc": "2026-10-18T19:28:23.620701+00:00",
+      "reviewer_method": "cached_primary_artifact_independently_read_not_new_HTTP_this_batch"
+    },
+    {
+      "url": "https://www.mohw.go.kr/boardDownload.es?bid=0027&list_no=1491727&seq=2",
+      "requested_at": "2026-10-18T16:49:42.563615+00:00",
+      "http_status": 200,
+      "entries": [
+        10
+      ],
+      "actual_read_scope": "실제PDF를pdftotext-layout로직접재독.보도자료20260828/2025진료환급과붙임1의2026상한표를구분.2026일반분위별90/112/173/326/446/536/843만원,요양병원120일초과143/181/245/404/580/698/1096만원.20261008공제도본문명시.본문상한액미확인유보는낡았음. 이번r2전필드재대조.새수치추가없이PDF확인상태/적용제도별문의로갱신.",
+      "id": "raw:6",
+      "original_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/2f51e779fe2566c948d9.raw",
+      "retained_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch24-audit/2f51e779fe2566c948d9.raw",
+      "sha256": "1abdc0c0542b4097da2b0d1a203296e34d3c7339543d5543dd4099962ef792c0",
+      "byte_length": 675069,
+      "actual_fetch_url": "https://www.mohw.go.kr/boardDownload.es?bid=0027&list_no=1491727&seq=2",
+      "source_collected_at_utc": "2026-10-18T16:49:42.563615+00:00",
+      "reviewed_at_utc": "2026-10-18T19:28:23.620701+00:00",
+      "reviewer_method": "cached_primary_artifact_independently_read_not_new_HTTP_this_batch"
+    }
+  ],
+  "reviewer_fresh_http": [],
+  "prior_reviews": [
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/publication-partial-review-r5.json",
+      "sha256": "5406c8bb056b8b63a9ea2d584ee847042293f4de720c9833ae50a53ece28f156",
+      "scope": "이전r1full실제조문/부칙/PDF대조및revise요건.이번exactr2에서모두해소.기존리뷰불변."
+    }
+  ],
+  "local_inputs": [
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/author-partial-manifest-9.json",
+      "sha256": "497ee46adb1ccf93f288eb9bf428bf6b63eb9a8d0bcbd9c8746166b2479c1e78",
+      "scope": "対象번호full本文/초기경고·실제target참조·원문DOI대조.다른항새승인아님."
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/manifest.json",
+      "sha256": "dd61070f50a2b9cb70dccf685f986e01d6b2172998db370487a51e8214c3ddd8",
+      "scope": "対象번호full本文/초기경고·실제target참조·원문DOI대조.다른항새승인아님."
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/source.md",
+      "sha256": "48c5d96b9d2c280eabe9ecfedf11cb6674a2ec25ea35c3da1326b2de60d11656",
+      "scope": "対象번호full本文/초기경고·실제target참조·원문DOI대조.다른항새승인아님."
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/content-audit.md",
+      "sha256": "806d25f07080909253372cacef346a68c0a4c558c8fc74954d79c62304246bc9",
+      "scope": "対象번호full本文/초기경고·실제target참조·원문DOI대조.다른항새승인아님."
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/editorial-decisions.json",
+      "sha256": "20e9a12186633e18228c66d97c25761be1694c9bef32cd5c34da1a5b8803e858",
+      "scope": "対象번호full本文/초기경고·실제target참조·원문DOI대조.다른항새승인아님."
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/book/07-没钱的时候怎么活.md",
+      "sha256": "4f23050edf70baba7bf41e361ce1f682517633aa7d381b7eda1746db65122908",
+      "scope": "対象번호full本文/초기경고·실제target참조·원문DOI대조.다른항새승인아님."
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/book-kr/07-돈이-없을-때-사는-법.md",
+      "sha256": "48c5d96b9d2c280eabe9ecfedf11cb6674a2ec25ea35c3da1326b2de60d11656",
+      "scope": "対象번호full本文/초기경고·실제target참조·원문DOI대조.다른항새승인아님."
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/candidate.md",
+      "sha256": "48c5d96b9d2c280eabe9ecfedf11cb6674a2ec25ea35c3da1326b2de60d11656",
+      "scope": "対象번호full本文/초기경고·실제target참조·원문DOI대조.다른항새승인아님."
+    }
+  ],
+  "formal_kr_fit_approval": false,
+  "integration_approval": false,
+  "whole_chapter_approval": false,
+  "limitations": [
+    "고정partial의정확proposal/changesSHA만검토.初기감사/다른항승인/길이통과로전체내용승인대체안함.",
+    "원시본문/표실열람·검색/메타·실패와기존캐시/신규HTTP구분.취득시각모르면null이며read_at으로바꾸지않음.",
+    "public/제안/strict/candidate/원문/초기canonical/정식formal/pure/gates/Git불변.검토JSON/MD와외부cache만작성."
+  ]
+}

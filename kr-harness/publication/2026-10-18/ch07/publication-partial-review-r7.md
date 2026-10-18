@@ -1,0 +1,44 @@
+# 제07절 partial7 독립 full-source 검토 r7
+
+UTC 2026-10-18T19:25:39.976601+00:00 · manifest SHA `617b5ce0b50d7db70dc45e413280ff5d1d496585c7a72197c5734e2d9bb55dd0`
+현재candidate SHA `48c5d96b9d2c280eabe9ecfedf11cb6674a2ec25ea35c3da1326b2de60d11656`
+
+approve [13, 14] / revise []. 정식KR-FIT·통합·전체절·출판승인아님.
+
+## 제13항 — approve
+초기고시접근실패를실제HTML본문으로보완했다.계좌300/추가조건200/총500·5년·소진후·1회·대상증빙과유형별0~55부담을고용24실본문및고시와대조했다.생계급여원칙제외의조건부·조건유예예외도정확하다.기존구직신청재신청불요와장려금별도심사·특화훈련별도조건을보존해모든강좌무료/자격증자동현금지급을보장하지않는다.
+- proposal SHA `461c409a6dec77e083eb7b10e38c7911b3f2abf981d3e2b8303810a4afcfd382`
+- changes SHA `e6bba16cd4ea024693d22f48862538cb606df3c15d4c654a4070f29aaea6ebd7`
+- strict SHA `c3075eda96152db0850625c282e9aeab5e3a74aff081b5c79f6a8f4448c108bc`
+- 초기warn: 초기7-13고시미열람warn는4/14/16/46/49/50실제HTML텍스트범위해소.일부이미지호/산식은미열람한계그대로이며새개별액/지원확정없음.
+- 실제범위: 기관실본문·고시지정조문/부칙·검색XML캐시3개직접읽음/새HTTP0.장려금산식이미지·세부모든대상전수는검증하지않고개별심사로한정.
+- 참조: 제목불변/13항incoming명시없음/outgoing없음.
+- literal {"title_characters": 29, "easy_characters": 79, "easy_sentences": 3, "ordinary_over_50": [], "counting_rule": "공백괄호포함literal/출처서지만제외/진짜immutable인용만별도심사·법명괄호임의면제없음"}
+
+## 제14항 — approve
+원초록의47개실험·준실험과취업OR2.67을보존하고오즈=취업확률/미취업확률을정확히설명한다.RR나개인확률2.67배로환산하지않는다.구성요소moderator관련성및기술+동기모두포함조건과대조일치.초록에없는대부분유럽·미국/최대효과단정을제거하고국내동일효과유보·유료강의불필요보장삭제가적절하다.
+- proposal SHA `fd888664d98d25df1d443b4e0eba0debd346f04eb41f9fca38a49dc214d01e84`
+- changes SHA `b7a94ea36691ff88bb509280654c90f8b67a2333d1f05fca00262f9a7c8c7662`
+- strict SHA `d408f810c9fbcd62558b6da2ac0f36aeea403fade865f4111728dc8f0f92cc68`
+- 초기warn: 초기7-14국가분포전문근거없음warn는단정삭제로해소.구독전문미열람은범위한계로남기며원초록직접검증과구별.
+- 실제범위: EuropePMC에실린저자초록전체읽음/논문전문미열람.47은연구·프로그램수이며사람수아님.국내효과/기저위험·절대확률미산출.정성실천권고는별도효과보장아님.
+- 참조: 제목불변/명시outgoing없음.중국원문·strict·proposal DOI10.1037/a0035923그대로보존.
+- literal {"title_characters": 31, "easy_characters": 84, "easy_sentences": 3, "ordinary_over_50": [], "counting_rule": "공백괄호포함literal/출처서지만제외/진짜immutable인용만별도심사·법명괄호임의면제없음"}
+
+## 원자료 직접 열람 기록
+캐시 원취득UTC와이번열람UTC를분리한다.원자료/tmp파일은원시bytes그대로외부전용캐시에보존했다.
+
+- {"url": "https://www.work24.go.kr/cm/c/f/1100/selecSystInfo.do?systClId=SC00000052&systId=SI00000358", "requested_at": "2026-10-18T12:54:19.240817+00:00", "entries": [13], "actual_read_scope": "고용24기관실본문지원내용·자격·절차·주의FAQ직접읽음.일반300+조건200/5년/총500/유효중1회·소진후·대상서류/기간제파견단시간일용피보험자·수급차상위장애등예시/0~55·기존구직재신청예외.훈련장려금개별액은제안하지않음.", "id": "raw:0", "original_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/5ef578adf691e5fdb6d8.raw", "retained_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/5ef578adf691e5fdb6d8.raw", "sha256": "98289fad7e407697f1370ecc83f29dafd8c7e32bd1cb0a72fd88ba2aca36da8e", "byte_length": 462993, "actual_fetch_url": "https://www.work24.go.kr/cm/c/f/1100/selecSystInfo.do?systClId=SC00000052&systId=SI00000358", "source_collected_at_utc": "2026-10-18T12:54:19.240817+00:00", "http_status": 200, "reviewed_at_utc": "2026-10-18T19:25:39.976601+00:00", "reviewer_method": "cached_primary_artifact_independently_read_not_new_HTTP_this_batch"}
+- {"url": "https://www.law.go.kr/LSW/admRulLsInfoR.do?admRulSeq=2100000279150&languageType=KO&chrClsCd=010202", "requested_at": "2026-10-18T16:35:38.483999+00:00", "entries": [13], "actual_read_scope": "고시2026-39실제HTML4·14·16·46·49·50/부칙2026-101·2026-39직접읽음.생계급여제외의조건부/조건유예예외·5년·기본300/추가200/총500·소진후신청.14②각호/49③계산/50각호일부이미지추출누락은확인못했으며대상예시는고용24실제본문으로검증.일반계좌와특화훈련별도구분.", "id": "raw:1", "original_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch23-audit/fa098dc71cc99b7bd650.raw", "retained_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch23-audit/fa098dc71cc99b7bd650.raw", "sha256": "2c0960e99daeb38174720e49c864cbc86f35d51dddb166636052750362c29f6a", "byte_length": 303268, "actual_fetch_url": "https://www.law.go.kr/LSW/admRulLsInfoR.do?admRulSeq=2100000279150&languageType=KO&chrClsCd=010202", "source_collected_at_utc": "2026-10-18T16:35:38.483999+00:00", "http_status": null, "reviewed_at_utc": "2026-10-18T19:25:39.976601+00:00", "reviewer_method": "cached_primary_artifact_independently_read_not_new_HTTP_this_batch"}
+- {"url": null, "requested_at": null, "entries": [13], "actual_read_scope": "실제고시검색XML현행2100000279150/2026-39/20260511직접읽음.목록으로본문검증대체하지않음.", "id": "raw:2", "original_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch23-audit/327c2426008dad70ef7e.raw", "retained_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch23-audit/327c2426008dad70ef7e.raw", "sha256": "0973ee161aa9d8303d0a9ec9e24ac97d9cfd3c13093341fb23c461cd28f74bc4", "byte_length": 1052, "actual_fetch_url": null, "source_collected_at_utc": null, "http_status": null, "reviewed_at_utc": "2026-10-18T19:25:39.976601+00:00", "reviewer_method": "cached_primary_artifact_independently_read_not_new_HTTP_this_batch"}
+- {"url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1037/a0035923&format=json&resultType=core", "requested_at": "2026-10-18T12:54:55.089890+00:00", "entries": [14], "actual_read_scope": "MED24588365저자원초록전체/서지·subscriptionmetadata직접읽음.47실험·준실험/OR2.67/6요소moderator/기술+동기둘다포함때취업효과.전문/국가분포/참가인원·추적분모·기저취업률미열람으로임의한국RR·절대확률산출없음.국가대부분단정은삭제됨.", "id": "raw:3", "original_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/075ed48f1676cd6ca4ba.raw", "retained_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/075ed48f1676cd6ca4ba.raw", "sha256": "9ff540975af30a35ad4e08b25ab6053ca40fc525c5ffde2ae70329393f912df8", "byte_length": 5344, "actual_fetch_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1037/a0035923&format=json&resultType=core", "source_collected_at_utc": "2026-10-18T12:54:55.089890+00:00", "http_status": 200, "reviewed_at_utc": "2026-10-18T19:25:39.976601+00:00", "reviewer_method": "cached_primary_artifact_independently_read_not_new_HTTP_this_batch"}
+
+## 이번 새 HTTPS
+
+
+## 이전 검토와 제한
+
+[]
+- 고정partial의정확proposal/changesSHA만검토.初기감사/다른항승인/길이통과로전체내용승인대체안함.
+- 원시본문/표실열람·검색/메타·실패와기존캐시/신규HTTP구분.취득시각모르면null이며read_at으로바꾸지않음.
+- public/제안/strict/candidate/원문/초기canonical/정식formal/pure/gates/Git불변.검토JSON/MD와외부cache만작성.

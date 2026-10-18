@@ -1,0 +1,297 @@
+{
+  "status": "approved_exact_postformal_entry_corrections_only",
+  "reviewer": "publication_final_06",
+  "at_utc": "2026-10-18T19:28:08.504421+00:00",
+  "manifest_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/author-postformal-manifest-2.json",
+  "manifest_sha256": "93dd5827ce35674cc0a8b922233c52262b56a187890978257ef62ea074b48245",
+  "approved_entries": [
+    5,
+    22
+  ],
+  "revise_entries": [],
+  "entries": [
+    {
+      "entry": 5,
+      "decision": "approve",
+      "paths": {
+        "proposal": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-005-52dc/publication-postformal-proposal-r1.md",
+        "changes": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-005-52dc/publication-postformal-changes-r1.json",
+        "base": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-005-52dc/publication-postformal-before-entry-r1.md"
+      },
+      "sha256": {
+        "proposal": "48249ee8b6830a85e32e4631c67fb261cb93577045b3a09cb36a265da65700e8",
+        "changes": "4e8690367f13330717ec99370e8120c43d0f6bf500e7938f03ac7ce01a0f56cc",
+        "base": "afa301260da58e2e665897a61ada775a6d03eb371e198ef8eec8d14c43327f7e"
+      },
+      "production_helper_sha256": "244c194c7620c3095dc3a972eecdaa4e17fab8a0a301ae8b601cb8401569bfd3",
+      "production_validation_execution": "Unmodified split/invariants function AST executed without invoking CLI top-level",
+      "base_matches_current_production_split": true,
+      "full_snapshot_matches_current": true,
+      "exact_single_span_only": true,
+      "changed_fields": [
+        "비고"
+      ],
+      "protected_invariants_unchanged": [
+        "headings",
+        "tags",
+        "fields",
+        "source",
+        "urls"
+      ],
+      "exact_before": "제2절의 해당 항목은 사망 위험을 다룹니다.",
+      "exact_after": "제2절(천천히 죽지 않기)의 해당 항목은 사망 위험을 다룹니다.",
+      "exact_before_occurrences_in_base": 1,
+      "remainder_bytes_identical": true,
+      "scientific_estimates_changed": false,
+      "reference_edit_only": true,
+      "long_sentences": [],
+      "title_chars": 39,
+      "easy_chars": 103,
+      "easy_sentences": 3,
+      "remaining_requests": [],
+      "numbers_multiset": {
+        "before": {
+          "5": 2,
+          "0": 1,
+          "20": 2,
+          "4": 1,
+          "1,583": 1,
+          "24": 1,
+          "60.1": 1,
+          "3.9": 1,
+          "0.30": 1,
+          "5.3": 1,
+          "0.17": 1,
+          "6.5": 1,
+          "0.09": 1,
+          "10.0": 1,
+          "0.008": 1,
+          "6": 1,
+          "2006": 1,
+          "10.1056": 1,
+          "052771": 1,
+          "79.2": 1,
+          "54.3": 1,
+          "0.002": 1,
+          "2": 2
+        },
+        "after": {
+          "5": 2,
+          "0": 1,
+          "20": 2,
+          "4": 1,
+          "1,583": 1,
+          "24": 1,
+          "60.1": 1,
+          "3.9": 1,
+          "0.30": 1,
+          "5.3": 1,
+          "0.17": 1,
+          "6.5": 1,
+          "0.09": 1,
+          "10.0": 1,
+          "0.008": 1,
+          "6": 1,
+          "2006": 1,
+          "10.1056": 1,
+          "052771": 1,
+          "79.2": 1,
+          "54.3": 1,
+          "0.002": 1,
+          "2": 2
+        },
+        "removed": {},
+        "added": {}
+      },
+      "urls_multiset": {
+        "before": {
+          "https://doi.org/10.1056/NEJMoa052771": 1
+        },
+        "after": {
+          "https://doi.org/10.1056/NEJMoa052771": 1
+        },
+        "removed": {},
+        "added": {}
+      },
+      "number_tokens_added": {},
+      "number_tokens_removed": {},
+      "number_change_scope": "No numerical changes",
+      "assessment": "절 제목만추가하여기계KF-REF-FORM종결.02절16/32를일반안내로가리키며사망위험범위를보존.",
+      "reference_targets_read": [
+        {
+          "chapter": 2,
+          "entry": 16,
+          "path": "/workspace/HowToLiveBetter-KR/book-kr/02-천천히-죽지-않기.md",
+          "document_sha256": "773251e22e2964d827ea1ca997dc73810887e42bd3297a6fd352837528c79f8c",
+          "entry_sha256": "2bb09014b52824face59aa70d32383d203137d55a426b25ac518a388d601a97b",
+          "title": "### 16. 일주일에 30~60분 근력 운동을 하세요",
+          "read_scope": "Current full target entry actually read; no fresh primary-source claim"
+        },
+        {
+          "chapter": 2,
+          "entry": 32,
+          "path": "/workspace/HowToLiveBetter-KR/book-kr/02-천천히-죽지-않기.md",
+          "document_sha256": "773251e22e2964d827ea1ca997dc73810887e42bd3297a6fd352837528c79f8c",
+          "entry_sha256": "d37e790d26393701522831f75c94a7f88d6a4d55ab7085282fe5e519465988af",
+          "title": "### 32. BMI를 20~25로 유지하세요. 과체중이면 빼세요",
+          "read_scope": "Current full target entry actually read; no fresh primary-source claim"
+        }
+      ],
+      "actual_machine_check": {
+        "exit_code": 0,
+        "stdout": "요약: kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-005-52dc/publication-postformal-proposal-r1.md — block 0 · warn 0 · 예외 통과 0\n\n전체: 1개 파일 — block 0 · warn 0 → 통과\n"
+      }
+    },
+    {
+      "entry": 22,
+      "decision": "approve",
+      "paths": {
+        "proposal": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-022-e834/publication-postformal-proposal-r1.md",
+        "changes": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-022-e834/publication-postformal-changes-r1.json",
+        "base": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-022-e834/publication-postformal-current-entry-r1.md"
+      },
+      "sha256": {
+        "proposal": "ff2cab011c9a1a2e59b4b9df95477e4ade5c0eb71e0cf930c791fd5bb17d22f5",
+        "changes": "6bad79bc6739d5bc38ebe3ef622a248bea2f45ab6355cc7d4c642dbd3d1a240b",
+        "base": "9d0815da9e9c710f49ab42ec362502428471e1d011ce0a121e585d04ad336987"
+      },
+      "production_helper_sha256": "244c194c7620c3095dc3a972eecdaa4e17fab8a0a301ae8b601cb8401569bfd3",
+      "production_validation_execution": "Unmodified split/invariants function AST executed without invoking CLI top-level",
+      "base_matches_current_production_split": true,
+      "full_snapshot_matches_current": true,
+      "exact_single_span_only": true,
+      "changed_fields": [
+        "비고"
+      ],
+      "protected_invariants_unchanged": [
+        "headings",
+        "tags",
+        "fields",
+        "source",
+        "urls"
+      ],
+      "exact_before": "소비와 투자 구분은 제5절(돈 낭비 줄이기) 제33항을 보세요. 보증서 확인 방법은 같은 절 제34항에서 다룹니다.",
+      "exact_after": "소비와 투자 구분은 제5절 제33항(팔찌·옥·명품 시계·아트토이)을 보세요. 보증서 확인 방법은 제5절 제34항(보석·귀금속 보증서)에서 다룹니다.",
+      "exact_before_occurrences_in_base": 1,
+      "remainder_bytes_identical": true,
+      "scientific_estimates_changed": false,
+      "reference_edit_only": true,
+      "long_sentences": [],
+      "title_chars": 36,
+      "easy_chars": 86,
+      "easy_sentences": 3,
+      "remaining_requests": [],
+      "numbers_multiset": {
+        "before": {
+          "22": 1,
+          "0": 1,
+          "3": 4,
+          "7": 3,
+          "1949": 2,
+          "10.1037": 1,
+          "0059240": 1,
+          "1": 2,
+          "8": 1,
+          "2": 1,
+          "9": 1,
+          "20": 4,
+          "2026": 1,
+          "10": 2,
+          "1372": 3,
+          "5": 1,
+          "33": 1,
+          "34": 1,
+          "15": 1
+        },
+        "after": {
+          "22": 1,
+          "0": 1,
+          "3": 4,
+          "7": 3,
+          "1949": 2,
+          "10.1037": 1,
+          "0059240": 1,
+          "1": 2,
+          "8": 1,
+          "2": 1,
+          "9": 1,
+          "20": 4,
+          "2026": 1,
+          "10": 2,
+          "1372": 3,
+          "5": 2,
+          "33": 1,
+          "34": 1,
+          "15": 1
+        },
+        "removed": {},
+        "added": {
+          "5": 1
+        }
+      },
+      "urls_multiset": {
+        "before": {
+          "https://doi.org/10.1037/h0059240": 1,
+          "https://skat.ihmc.us/rid=1TWXTKSR8-1BSYX2S-3L9L/forer_the%20fallacy%20of%20personal%20validation_1949.pdf": 1,
+          "https://www.law.go.kr/법령/표시ㆍ광고의공정화에관한법률/제3조": 1,
+          "https://www.law.go.kr/법령/표시ㆍ광고의공정화에관한법률/제7조": 1,
+          "https://www.ccn.go.kr/index.ccn": 1
+        },
+        "after": {
+          "https://doi.org/10.1037/h0059240": 1,
+          "https://skat.ihmc.us/rid=1TWXTKSR8-1BSYX2S-3L9L/forer_the%20fallacy%20of%20personal%20validation_1949.pdf": 1,
+          "https://www.law.go.kr/법령/표시ㆍ광고의공정화에관한법률/제3조": 1,
+          "https://www.law.go.kr/법령/표시ㆍ광고의공정화에관한법률/제7조": 1,
+          "https://www.ccn.go.kr/index.ccn": 1
+        },
+        "removed": {},
+        "added": {}
+      },
+      "number_tokens_added": {
+        "5": 1
+      },
+      "number_tokens_removed": {},
+      "number_change_scope": "Explicit second chapter5 reference replaces samechapter; reference identifier only, not science or legal article",
+      "assessment": "현재05절33/34의실제제목에서추출한앵커를각각붙이고같은절참조를제5절로명시.소비/투자와보증서확인이라는범위유지.",
+      "reference_targets_read": [
+        {
+          "chapter": 5,
+          "entry": 33,
+          "path": "/workspace/HowToLiveBetter-KR/book-kr/05-돈-낭비-줄이기.md",
+          "document_sha256": "71074014560ada2d12df9a6a1232d8f5c3837cd8d375808f97615bf558ad7e32",
+          "entry_sha256": "ee6c7a05eac6709541e96b7adb614ab1b716aee009abe997424601bda19b3421",
+          "title": "### 33. 팔찌·옥·명품 시계·아트토이는 \"쓴 돈\"으로 셈하고 \"모은 돈\"으로 셈하지 마세요",
+          "read_scope": "Current full target entry actually read; no fresh primary-source claim"
+        },
+        {
+          "chapter": 5,
+          "entry": 34,
+          "path": "/workspace/HowToLiveBetter-KR/book-kr/05-돈-낭비-줄이기.md",
+          "document_sha256": "71074014560ada2d12df9a6a1232d8f5c3837cd8d375808f97615bf558ad7e32",
+          "entry_sha256": "07235d414516313aa13b8913177ab13d5cc7fb22d6633b52b7d1a1645f979566",
+          "title": "### 34. 보석·귀금속은 천연·합성 여부와 함량이 적힌 보증서를 받고, 감정서를 낸 곳이 어디인지 확인하세요",
+          "read_scope": "Current full target entry actually read; no fresh primary-source claim"
+        }
+      ],
+      "actual_machine_check": {
+        "exit_code": 0,
+        "stdout": "요약: kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-022-e834/publication-postformal-proposal-r1.md — block 0 · warn 0 · 예외 통과 0\n\n전체: 1개 파일 — block 0 · warn 0 → 통과\n"
+      }
+    }
+  ],
+  "current_public_raw_sha256": "2f52e4efe2356e5363bff1be570a29986e568540aca597059b1f116780791ab7",
+  "current_cli_sha256": "a86ad1ecb068de842a9d60e10a035689961106f45cdd1f4cc18643d64d73e81e",
+  "frozen_whole_formal_path": "/workspace/HowToLiveBetter-KR/kr-harness/chapters/06/kr-fit-review.md",
+  "frozen_whole_formal_sha256": "fba4f8b97384ab1efe09065a157062532eb3d99f3ce3e9aa28c870e51e34f481",
+  "frozen_whole_formal_result": "fail blockers=2,warn2; preserved unchanged",
+  "previous_r1_approval_sha256": "a6c0850d39a37599bab2a12d6907414fbd31cd20435f0ac00395b071af0d7659",
+  "fresh_http_performed": false,
+  "public_changed": false,
+  "candidate_changed": false,
+  "previous_formal_changed_after_frozen": false,
+  "git_commands_run": false,
+  "formal_kr_fit_approval": false,
+  "promotion_or_publication_approval": false,
+  "root_apply_scope": "Single unique exact before→after span per approved entry; preserve all other bytes, DOI set, intro/tail and all other entries. Repeated chapter5 number is reference identifier only, not a scientific change.",
+  "root_integration_precondition": "Recheck common public raw2f52..., exact base/proposal/changes SHA and all four prior approvals; preserve frozenformal, apply approved spans only, then obtain fresh whole29 formal and actual gate."
+}

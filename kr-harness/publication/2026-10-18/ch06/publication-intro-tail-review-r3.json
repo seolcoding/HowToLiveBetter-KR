@@ -1,0 +1,151 @@
+{
+  "chapter": 6,
+  "decision": "approve",
+  "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/publication-intro-tail-proposal-r3.json",
+  "proposal_sha256": "4d8b81cdf157d5c8e8f5837f6ccd7f9567d25d76aaff04087c97871f1cee82f5",
+  "bound_full_manifest_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/author-final-manifest-r3.json",
+  "bound_full_manifest_sha256": "90077e0ebe1a04373a026cd0da81992d46a45724597a79d48860eec981b99a21",
+  "operations": [
+    {
+      "target": "intro.md",
+      "status": "proposed_pending_independent_exact_hash_review",
+      "original_sha256": "877b053882043510e21e7bd60fa5e1538f093b415ce79ada7924af5076ad3af3",
+      "original_byte_length": 2798,
+      "before": "싸고 효과도 있어 보이는 제품과 행동을 모았습니다. 원래 연구를 보면 이득이 0에 가깝거나 아예 0입니다. 오히려 손해인 경우도 있습니다. 순서를 정한 기준은 두 가지입니다. 사람들이 여기에 쓰는 돈이 많은가, 뒷받침하는 근거는 단단한가. 앞에 올수록 먼저 끊을 가치가 큽니다.",
+      "after": "싸고 효과도 있어 보이는 제품과 행동을 모았습니다. 기대한 이득이 뚜렷하지 않거나 근거가 부족한 경우를 다룹니다. 일부에서는 이득과 해가 함께 보고됐습니다. 연구마다 대상과 방법, 살핀 결과가 다릅니다. 효과가 전혀 없다고 한데 묶어 단정할 수는 없습니다. 순서를 정한 기준은 두 가지입니다. 사람들이 여기에 쓰는 돈이 많은가, 뒷받침하는 근거는 단단한가. 지출을 줄일지는 각 항목의 대상과 예외를 보고 판단하세요.",
+      "before_occurrences": 1,
+      "byte_start": 216,
+      "byte_end_exclusive": 589,
+      "virtual_after_sha256": "f2b9a8206b47552d21ef44915e31f32ea64d2c3dce7bf14f4dd391cae3f1e541",
+      "reason": "모든 항목을 이득0·일괄중단으로 묶는 도입부가 최신29개 안의 작은 이득·비유의·근거부족·대상별 예외와 충돌합니다. 단일 설계나 결과가 전체에 공통이라고 일반화하지 않습니다.",
+      "modified_sentence_lengths_python_len": [
+        {
+          "text": "싸고 효과도 있어 보이는 제품과 행동을 모았습니다.",
+          "len": 28
+        },
+        {
+          "text": "기대한 이득이 뚜렷하지 않거나 근거가 부족한 경우를 다룹니다.",
+          "len": 34
+        },
+        {
+          "text": "일부에서는 이득과 해가 함께 보고됐습니다.",
+          "len": 23
+        },
+        {
+          "text": "연구마다 대상과 방법, 살핀 결과가 다릅니다.",
+          "len": 25
+        },
+        {
+          "text": "효과가 전혀 없다고 한데 묶어 단정할 수는 없습니다.",
+          "len": 29
+        },
+        {
+          "text": "순서를 정한 기준은 두 가지입니다.",
+          "len": 19
+        },
+        {
+          "text": "사람들이 여기에 쓰는 돈이 많은가, 뒷받침하는 근거는 단단한가.",
+          "len": 35
+        },
+        {
+          "text": "지출을 줄일지는 각 항목의 대상과 예외를 보고 판단하세요.",
+          "len": 32
+        }
+      ],
+      "decision": "approve",
+      "actual_independent_reason": "도입부일괄무효단정을최신혼재근거범위로완화.장말HLA7.4는ACR한족/한국/태국계묶음으로정정,한국만의빈도미확인보존.본문새수치/효과추가없음."
+    },
+    {
+      "target": "tail.md",
+      "status": "proposed_pending_independent_exact_hash_review",
+      "original_sha256": "daa71fb3e1af914d9f04bc3d6abf25007d2fbd581679add332584a8699b09267",
+      "original_byte_length": 1421,
+      "before": "4. 제19항(요산강하제): 한국인의 HLA-B*5801 보유 빈도(원문의 한족 7.4%·백인 0.7%는 원문대로 유지).",
+      "after": "4. 제19항(요산강하제): 한국인만의 HLA-B*5801 보유 빈도. ACR의 7.4%는 한족·한국인·태국계 묶음의 값입니다. 백인 0.7%와의 비교는 지침에서 확인했습니다.",
+      "before_occurrences": 1,
+      "byte_start": 547,
+      "byte_end_exclusive": 674,
+      "virtual_after_sha256": "018e91f1acb9c481a6cedb2aa2aca70d17e459735d0f7f43e687c47896a813e9",
+      "reason": "ACR 실제 HLA 문단 및 최신19항·완료r6와 맞춥니다. 지침의7.4%가 한족만의 값이라는 옛 설명은 교체합니다. 한국인만의 빈도는 아직 해결됐다고 하지 않습니다.",
+      "modified_sentence_lengths_python_len": [
+        {
+          "text": "4.",
+          "len": 2
+        },
+        {
+          "text": "제19항(요산강하제): 한국인만의 HLA-B*5801 보유 빈도.",
+          "len": 36
+        },
+        {
+          "text": "ACR의 7.4%는 한족·한국인·태국계 묶음의 값입니다.",
+          "len": 31
+        },
+        {
+          "text": "백인 0.7%와의 비교는 지침에서 확인했습니다.",
+          "len": 26
+        }
+      ],
+      "decision": "approve",
+      "actual_independent_reason": "도입부일괄무효단정을최신혼재근거범위로완화.장말HLA7.4는ACR한족/한국/태국계묶음으로정정,한국만의빈도미확인보존.본문새수치/효과추가없음."
+    }
+  ],
+  "todo_accounting": [
+    {
+      "item": 1,
+      "status": "open_reader_visible",
+      "reason": "종양표지자한국시세실제미확인"
+    },
+    {
+      "item": 2,
+      "status": "open_reader_visible",
+      "reason": "한국점술사기공식사례미확인;법조문만확인"
+    },
+    {
+      "item": 3,
+      "status": "open_reader_visible",
+      "reason": "한국용접각막화상의학용어/산재조문미확인"
+    },
+    {
+      "item": 4,
+      "status": "open_reader_visible",
+      "reason": "한국인만HLA빈도미확인;ACR묶음값정정"
+    },
+    {
+      "item": 5,
+      "status": "open_reader_visible",
+      "reason": "중국합의전문수술적응증/한국지침미확인;EASL대체안함"
+    },
+    {
+      "item": 6,
+      "status": "open_reader_visible",
+      "reason": "한국크리스털허위효능적발사례미확인"
+    },
+    {
+      "item": 7,
+      "status": "open_reader_visible",
+      "reason": "한국교정관련판례/인권위사례미확인;미국연구로대체안함"
+    },
+    {
+      "item": 8,
+      "status": "open_reader_visible",
+      "reason": "NHIS일반/암본인부담정확범위미확인;특정추가항목비용과구별"
+    }
+  ],
+  "HLA_primary_reading": {
+    "artifact_path": "/tmp/ch06e19-primary/pmc2",
+    "artifact_sha256": "25a5db7b97fdf634dd11d8c8604d23e249b7a1f06aa429188dd87ea1c92f98c9",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10563586/",
+    "read_at_utc": "2026-10-18T19:09:36.851667+00:00",
+    "read_scope": "ACR실제HLA문단7.4한족·한국·태국계및백인.7범위재읽기;한국별개원연구검증아님.",
+    "access": "Existing preserved primary bytes directly read",
+    "cache_read_status": "success",
+    "fresh_http": false,
+    "fresh_http_status": null
+  },
+  "protected_intro_banner_navigation_topic_order_retained": true,
+  "TODO_heading_boundary_preserved": true,
+  "source_fact_scope": "기존실제원자료읽기와독립보고서범위만재사용.완료Forer/EASL/28APA/HSE를독립미열람으로표시하지않음;실제남은국내/전문주제8개유지.",
+  "formal_approval": false,
+  "integration_execution_authorized": false,
+  "fresh_http": false
+}

@@ -1,0 +1,125 @@
+{
+  "chapter": 6,
+  "entry": 28,
+  "status": "source_access_resolved_new_scope_revision_required",
+  "exact_proposal": {
+    "entry": 28,
+    "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-028-88e1/publication-entry-proposal.md",
+    "proposal_sha256": "4248a8a4b9fe87f694c10671499c12086fb2e550e11034fef32c1de3c5cedccd",
+    "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-028-88e1/publication-entry-changes.json",
+    "changes_sha256": "2730bcb10ba122bc33c6b3336d2c8faa345747b453cd0681b4240211f54aeef5",
+    "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-028-88e1/strict-entry.md",
+    "base_strict_entry_sha256": "d76f22dd3f879010f6ff4e47621e1c50946797d86daa20ca8f6d0236f18e641a",
+    "literal_exit_code": 0
+  },
+  "prior_review": {
+    "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/publication-partial-review-r12.json",
+    "sha256": "7ab918790b278a7da3a9536d869e2ce8302028eda2a78057937d5f59bacffebc",
+    "preserved": true
+  },
+  "decision": "revise",
+  "reason": "이전독립접근부족을해소했고새롭게결과변수/APA권고범위불일치를확인했다.숫자자체오류나성적지향교정효과입증판정은아님.",
+  "actual_primary_readings": [
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/publication/hse-apa-retrieval-r1/11e60aca3a4b582584214a78954c4e27031cfec5310397c99ab346f4cff33c63.raw",
+      "artifact_sha256": "2c518e230df0b4f48dd86be04aee6c81ac6cfc2c49734486bbeafa2211c99a0e",
+      "url": "https://web.archive.org/web/20261011030136id_/https://www.apa.org/pi/lgbt/resources/therapeutic-response.pdf",
+      "read_at_utc": "2026-10-18T19:00:05.985029+00:00",
+      "read_scope": "APA2009표지/작업반/서지와ExecutiveSummary첫결론,아동·청소년절선택본문,인쇄79쪽결론을추출텍스트와이미지로직접읽음.공식원URL의비주석보존PDF이며전체통독아님.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null,
+      "retrieved_at_utc": "2026-10-18T18:57:38.331697+00:00",
+      "retrieval_http_status": 200,
+      "retriever": "ROOT; this reviewer directly read preserved bytes, no fresh HTTP in supplement"
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/publication/blosnich2020-discovery-r1/d0b5e842e1d7d350c6d0f2c622f728dc3507cb269050b327a9177507584a9aa5.raw",
+      "artifact_sha256": "0cc378fd460249a80630d69db25c2a88da981ccbff72be46d360b2f60e9b73d6",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7287530/?pdf=render",
+      "read_at_utc": "2026-10-18T19:00:05.985277+00:00",
+      "read_scope": "논문제목/DOI확인.Methods의C-SSRS두문항·3범주,Results·표3/4의분모/OR/CI/표주·선택한계본문직접읽음.실제HTML본문이며PDF로세지않음.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null,
+      "retrieved_at_utc": "2026-10-18T18:57:19.732102+00:00",
+      "retrieval_http_status": 200,
+      "retriever": "ROOT; this reviewer directly read preserved bytes, no fresh HTTP in supplement"
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch06-partial-review/apa-print79.png",
+      "artifact_sha256": "094901a79e51aa71875436581a2a60fa4967b7fa8b7e6ebdf5468101c7b3851f",
+      "url": "https://web.archive.org/web/20261011030136id_/https://www.apa.org/pi/lgbt/resources/therapeutic-response.pdf",
+      "read_at_utc": "2026-10-18T19:00:05.986103+00:00",
+      "read_scope": "APA원본PDF87번째페이지=인쇄79쪽을직접시각확인.두단레이아웃인용과프로그램권고조건대조.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    }
+  ],
+  "findings": [
+    {
+      "field": "이득",
+      "before": "경미한 상처를 동반한 자살 시도는 OR 1.88입니다.",
+      "primary_quote": "attempt with no or minor injury; Suicide Attempt With No/Minor Injury (n = 1507), AOR 1.88 (1.01, 3.50)",
+      "required": "상처가없는경우또는경미한상처가있는경우를모두포함한자살시도로정정.경미한상처만의효과로좁히지않기.",
+      "source_scope": "Methods자살시도문항/3범주+Table4;평생시도대시도없음참조.원초록minorinjury축약보다원방법/표를우선."
+    },
+    {
+      "field": "이득 APA권고",
+      "before": "미성년자를 강제 교정이나 입원형 프로그램에 보내지 말라고 권고했습니다.",
+      "primary_quote": "involuntary or coercive residential or inpatient programs ... parents, guardians, or youth not consider such treatments",
+      "required": "비자발적·강제적거주형/입원형SOCE라는조건을명확히.모든일반입원치료를포괄하는OR문장으로읽히지않게하기.",
+      "source_scope": "APA2009인쇄79쪽결론.다른SOCE효과/해가능성일반판단은executivesummary와일치."
+    }
+  ],
+  "verified_numbers": {
+    "ideation": {
+      "n": 1489,
+      "aor": 1.92,
+      "ci": [
+        1.01,
+        3.64
+      ]
+    },
+    "planning": {
+      "n": 1480,
+      "aor": 1.75,
+      "ci": [
+        1.01,
+        3.06
+      ]
+    },
+    "attempt_no_or_minor_injury": {
+      "n": 1507,
+      "aor": 1.88,
+      "ci": [
+        1.01,
+        3.5
+      ]
+    },
+    "attempt_moderate_or_severe_injury": {
+      "n": 1507,
+      "aor": 1.67,
+      "ci": [
+        0.76,
+        3.64
+      ],
+      "not_significant": true
+    }
+  },
+  "remaining_limits": [
+    "반박commentary전문미열람은r12대로유지.원저자수정안이아직없으므로새proposal승인아님.",
+    "APA공식원URL의Wayback보존PDF를읽음;현재APA라이브사이트차단이해소됐다고하지않음.",
+    "본보완의source-read충분성은위실제읽은주장범위에한정.정정전수검증아님."
+  ],
+  "fresh_http_by_this_reviewer": false,
+  "canonical_modified": false,
+  "public_modified": false,
+  "formal_approval": false,
+  "integration_approval": false,
+  "A_notified": true
+}

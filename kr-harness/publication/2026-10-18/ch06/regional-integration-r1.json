@@ -1,0 +1,125 @@
+{
+  "status": "applied_exact_approved_candidate_pending_fresh_formal",
+  "created_at_utc": "2026-10-18T19:13:47.927419+00:00",
+  "canonical_decisions_sha256": "9b040a7a725657bd8c279e905aaf5e01ca00e81a9e0f1455523611052101eb4e",
+  "entry_integration": {
+    "path": "integration.json",
+    "sha256": "c2bfc3dfdab1d415150f2c8952e93b7ab8024425836b829e36e704c9e055c938"
+  },
+  "before": {
+    "path": "reviewed-candidate.md",
+    "sha256": "5ec5274a8eac435ffc9cd75d8c9cee8a18801b3da147204c255f285275f93c28"
+  },
+  "after": {
+    "path": "final-publication-candidate.md",
+    "sha256": "d78af367feabdbe3bd8f5988510843260f59a542b069c1d34e2e19755c76f754"
+  },
+  "independent_expected_after_sha256": "d78af367feabdbe3bd8f5988510843260f59a542b069c1d34e2e19755c76f754",
+  "operations": [
+    {
+      "target": "intro.md",
+      "status": "proposed_pending_independent_exact_hash_review",
+      "original_sha256": "877b053882043510e21e7bd60fa5e1538f093b415ce79ada7924af5076ad3af3",
+      "original_byte_length": 2798,
+      "before": "싸고 효과도 있어 보이는 제품과 행동을 모았습니다. 원래 연구를 보면 이득이 0에 가깝거나 아예 0입니다. 오히려 손해인 경우도 있습니다. 순서를 정한 기준은 두 가지입니다. 사람들이 여기에 쓰는 돈이 많은가, 뒷받침하는 근거는 단단한가. 앞에 올수록 먼저 끊을 가치가 큽니다.",
+      "after": "싸고 효과도 있어 보이는 제품과 행동을 모았습니다. 기대한 이득이 뚜렷하지 않거나 근거가 부족한 경우를 다룹니다. 일부에서는 이득과 해가 함께 보고됐습니다. 연구마다 대상과 방법, 살핀 결과가 다릅니다. 효과가 전혀 없다고 한데 묶어 단정할 수는 없습니다. 순서를 정한 기준은 두 가지입니다. 사람들이 여기에 쓰는 돈이 많은가, 뒷받침하는 근거는 단단한가. 지출을 줄일지는 각 항목의 대상과 예외를 보고 판단하세요.",
+      "before_occurrences": 1,
+      "byte_start": 216,
+      "byte_end_exclusive": 589,
+      "virtual_after_sha256": "f2b9a8206b47552d21ef44915e31f32ea64d2c3dce7bf14f4dd391cae3f1e541",
+      "reason": "모든 항목을 이득0·일괄중단으로 묶는 도입부가 최신29개 안의 작은 이득·비유의·근거부족·대상별 예외와 충돌합니다. 단일 설계나 결과가 전체에 공통이라고 일반화하지 않습니다.",
+      "modified_sentence_lengths_python_len": [
+        {
+          "text": "싸고 효과도 있어 보이는 제품과 행동을 모았습니다.",
+          "len": 28
+        },
+        {
+          "text": "기대한 이득이 뚜렷하지 않거나 근거가 부족한 경우를 다룹니다.",
+          "len": 34
+        },
+        {
+          "text": "일부에서는 이득과 해가 함께 보고됐습니다.",
+          "len": 23
+        },
+        {
+          "text": "연구마다 대상과 방법, 살핀 결과가 다릅니다.",
+          "len": 25
+        },
+        {
+          "text": "효과가 전혀 없다고 한데 묶어 단정할 수는 없습니다.",
+          "len": 29
+        },
+        {
+          "text": "순서를 정한 기준은 두 가지입니다.",
+          "len": 19
+        },
+        {
+          "text": "사람들이 여기에 쓰는 돈이 많은가, 뒷받침하는 근거는 단단한가.",
+          "len": 35
+        },
+        {
+          "text": "지출을 줄일지는 각 항목의 대상과 예외를 보고 판단하세요.",
+          "len": 32
+        }
+      ],
+      "order": 30,
+      "type": "replace_exact_region",
+      "decision": "approve",
+      "before_span_sha256": "192e1c3f381a3abc025a2141792d046edae3f6ac666a675465087c134a68d906",
+      "after_span_sha256": "f124426d06fabc0cf881b006ae5e016a6ee96ec2e9a5c6240712f05134c8d1d9",
+      "whole_document_before_step_sha256": "5ec5274a8eac435ffc9cd75d8c9cee8a18801b3da147204c255f285275f93c28",
+      "approval_report_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/publication-intro-tail-review-r3.json",
+      "approval_report_sha256": "57f73fa0a8955cc5f6029a2533e9e5846226f17231e7130340a1f0d620af11a9",
+      "whole_document_after_step_sha256": "0259cdcbb3894ff2a48347809ae006daf7323ee3404357c1535a41121e5cbebe"
+    },
+    {
+      "target": "tail.md",
+      "status": "proposed_pending_independent_exact_hash_review",
+      "original_sha256": "daa71fb3e1af914d9f04bc3d6abf25007d2fbd581679add332584a8699b09267",
+      "original_byte_length": 1421,
+      "before": "4. 제19항(요산강하제): 한국인의 HLA-B*5801 보유 빈도(원문의 한족 7.4%·백인 0.7%는 원문대로 유지).",
+      "after": "4. 제19항(요산강하제): 한국인만의 HLA-B*5801 보유 빈도. ACR의 7.4%는 한족·한국인·태국계 묶음의 값입니다. 백인 0.7%와의 비교는 지침에서 확인했습니다.",
+      "before_occurrences": 1,
+      "byte_start": 547,
+      "byte_end_exclusive": 674,
+      "virtual_after_sha256": "018e91f1acb9c481a6cedb2aa2aca70d17e459735d0f7f43e687c47896a813e9",
+      "reason": "ACR 실제 HLA 문단 및 최신19항·완료r6와 맞춥니다. 지침의7.4%가 한족만의 값이라는 옛 설명은 교체합니다. 한국인만의 빈도는 아직 해결됐다고 하지 않습니다.",
+      "modified_sentence_lengths_python_len": [
+        {
+          "text": "4.",
+          "len": 2
+        },
+        {
+          "text": "제19항(요산강하제): 한국인만의 HLA-B*5801 보유 빈도.",
+          "len": 36
+        },
+        {
+          "text": "ACR의 7.4%는 한족·한국인·태국계 묶음의 값입니다.",
+          "len": 31
+        },
+        {
+          "text": "백인 0.7%와의 비교는 지침에서 확인했습니다.",
+          "len": 26
+        }
+      ],
+      "order": 31,
+      "type": "replace_exact_region",
+      "decision": "approve",
+      "before_span_sha256": "eb9181ba5569f5ecc32fc16c583d458a5eaf596b31679e9efda9beac7b7bc191",
+      "after_span_sha256": "7d9fe63836558f292ae941ddfdfa04275ada544ae6ba8fe85182f39367dbfb4d",
+      "whole_document_before_step_sha256": "0259cdcbb3894ff2a48347809ae006daf7323ee3404357c1535a41121e5cbebe",
+      "approval_report_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/publication-intro-tail-review-r3.json",
+      "approval_report_sha256": "57f73fa0a8955cc5f6029a2533e9e5846226f17231e7130340a1f0d620af11a9",
+      "whole_document_after_step_sha256": "d78af367feabdbe3bd8f5988510843260f59a542b069c1d34e2e19755c76f754"
+    }
+  ],
+  "old_public_sha256": "5235f6ff782071306bf53638ad962e7e4a612fe09670eaba256517ebb6ae7dd3",
+  "archived_formal": {
+    "path": "kr-harness/chapters/06/kr-fit-review.r6.md",
+    "sha256": "4c14322cc51a55b6c65a87262d05ec72c20badaf78e9516a2d8eb2c60455406c",
+    "cli_sha256": "3efed3c671be09db90f97d5338c29afc0a28def417da31f79da636ff69084bb6"
+  },
+  "doi_add": [],
+  "doi_drop": [],
+  "formal_kr_fit_approval": false
+}

@@ -1,0 +1,348 @@
+{
+  "status": "completed_partial_review",
+  "chapter": "08",
+  "reviewed_at_utc": "2026-10-18T19:22:25.314918+00:00",
+  "reviewer_id": "/root/publication_review_09",
+  "manifest_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/author-partial-manifest-2.json",
+  "manifest_sha256": "b2911c8ec2488c739b20d3fcd567e25e68e1a0739c65cbf2c15935f5b7f4a76e",
+  "candidate_sha256": "df979c3d91ba44157603401a4894cff6d0d9eb9d01a7778e43c11cf49de4e017",
+  "entries": [
+    {
+      "entry": 4,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-004-9718/publication-entry-proposal.md",
+      "proposal_sha256": "eb4ed17133aa2c9d93469826f5c43d532429610a85adcf3c1d4eb306da9a9e21",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-004-9718/publication-entry-changes.json",
+      "changes_sha256": "5cb38e4cded26c083aa69c770fe1da96ad41c6dba5ce0082f5ea267b9f7f3f75",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-004-9718/strict-entry.md",
+      "base_strict_entry_sha256": "e0a0df915c09f92cf996fec17825b99803af20efd120a6337c788ad9c76e2922",
+      "literal_exit_code": 0,
+      "decision": "revise",
+      "reason": "기망과재산취득조건을추가하여얼굴을보이면무조건사기성립한다는오독을해소했다.국내예방효과수치미확인도명시했다.그러나한국AI표시범위를통째미확인으로둔것은이번실제기본법31/현행령23으로해소가능하다.의무주체·단서와예외를확인한범위로갱신해야하며모든개인영상의무로확대하면안된다.",
+      "field_decisions": {
+        "title": "approve",
+        "비용": "approve",
+        "쉽게": "approve",
+        "이득": "approve",
+        "근거등급": "approve",
+        "출처": "revise",
+        "비고": "revise"
+      },
+      "revision_requests": [
+        {
+          "field": "비고",
+          "issue": "한국표시의무범위포괄미확인유보",
+          "requirement": "이번확인한사업자대상법31/령23기본범위와개별적용·장관예외고시미열람을분리.간단한한정문구로도가능하며모든영상에같은표시의무라고추가하지않을것."
+        },
+        {
+          "field": "출처",
+          "issue": "표시범위설명시법원자료누락",
+          "requirement": "기본법31및현행령23의실제읽음근거를changes/source에연결.단순형법347로표시의무를입증하지않을것."
+        }
+      ],
+      "initial_warning_closure": "초기8-4형법한계는사기요건·효과유보로해소.표시의무warn는이번일차본문으로부분해소가능하여저자갱신필요.",
+      "primary_read_scope": "형법347·AI법2/31·현행령23·각부칙실제본문.개별영상주체/세부행정고시/피해감소율·판례미검증.",
+      "source_ids": [
+        "raw:0",
+        "raw:2",
+        "raw:3",
+        "raw:4",
+        "raw:5"
+      ],
+      "cross_reference_check": "2항실제지급정지제목/내용일치.4제목불변incoming보존.",
+      "literal_check": {
+        "title_characters": 30,
+        "easy_characters": 68,
+        "easy_sentences": 3,
+        "ordinary_over_50": [],
+        "counting_rule": "공백괄호포함literal/출처서지만제외/진짜immutable인용만별도심사·법명괄호임의면제없음"
+      },
+      "structure": {
+        "six_single_physical_fields_in_order": true,
+        "cost_tag_verbatim": true,
+        "evidence_grade_verbatim": true,
+        "title_verbatim": true,
+        "summary_absent": true,
+        "declared_before_after_verified": true,
+        "revision_span_only_and_other_bytes_unchanged": false,
+        "current_candidate_base_exact_once": true
+      },
+      "doi_original": [],
+      "doi_strict": [],
+      "doi_proposal": []
+    },
+    {
+      "entry": 5,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-005-58f1/publication-entry-proposal.md",
+      "proposal_sha256": "8a45b0a61ce4862157018c031c0bf1a2e2d6fab32aa48d4f25d54d9c8588e736",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-005-58f1/publication-entry-changes.json",
+      "changes_sha256": "6d6684330cceaa40e55401132ba6d773ef1c52626f7d87a0143a65bc62d96426",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-005-58f1/strict-entry.md",
+      "base_strict_entry_sha256": "8f5923cd2819e80d6bbdf0e271be8a7955e4b3c4c89d762a63b74a347c8088d0",
+      "literal_exit_code": 0,
+      "decision": "approve",
+      "reason": "신청요건을복원하고정당사유예외를별도유지했다.30선임/33피고인국선·요건/34신체구속피고인·피의자접견을구분한다.244의3전체·개별답변거부와침묵불이익금지,200출석과200의2영장체포,244조서열람·이의기재와대조일치.중국48시간·12/24시간·전원무료변호·자동보상을이식하지않았다.",
+      "field_decisions": {
+        "title": "approve",
+        "비용": "approve",
+        "쉽게": "approve",
+        "이득": "approve",
+        "근거등급": "approve",
+        "출처": "approve",
+        "비고": "approve"
+      },
+      "revision_requests": [],
+      "initial_warning_closure": "초기8-5신청·정당사유/피고인국선경고전부보존·명료화.개별무료사업/사건별정당사유는단정하지않음.",
+      "primary_read_scope": "형소법해당전조항과최근부칙1~12·22009직접읽음.기본20261002/미래·검사기존수사경과범위구분.각사건비용·특별무료제도전수미검증이지만일괄무료/금액보장없음.",
+      "source_ids": [
+        "raw:1"
+      ],
+      "cross_reference_check": "제6/11/33항의5항진술거부권참조실제제목/내용일치.새outgoing없음.",
+      "literal_check": {
+        "title_characters": 29,
+        "easy_characters": 72,
+        "easy_sentences": 3,
+        "ordinary_over_50": [],
+        "counting_rule": "공백괄호포함literal/출처서지만제외/진짜immutable인용만별도심사·법명괄호임의면제없음"
+      },
+      "structure": {
+        "six_single_physical_fields_in_order": true,
+        "cost_tag_verbatim": true,
+        "evidence_grade_verbatim": true,
+        "title_verbatim": true,
+        "summary_absent": true,
+        "declared_before_after_verified": true,
+        "revision_span_only_and_other_bytes_unchanged": false,
+        "current_candidate_base_exact_once": true
+      },
+      "doi_original": [],
+      "doi_strict": [],
+      "doi_proposal": []
+    }
+  ],
+  "approved_entries": [
+    5
+  ],
+  "revise_entries": [
+    4
+  ],
+  "actual_artifact_read_log": [
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290185&type=XML",
+      "entries": [
+        4
+      ],
+      "actual_read_scope": "형법347①②/21231·22007부칙실제재독:기망·재물/재산상이익취득(제3자포함),20251223상한20년/5000만원개정현행.영상확인법효과증명조항아님.",
+      "id": "raw:0",
+      "original_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290185.xml",
+      "retained_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290185.xml",
+      "sha256": "391f3c2bb7173fff4040eda9ae2259674b616e58aeadf4371206b63c70f1c89b",
+      "byte_length": 390555,
+      "actual_fetch_url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290185&type=XML",
+      "source_collected_at_utc": "2026-10-18T12:38:25.603245+00:00",
+      "http_status": 200,
+      "reviewed_at_utc": "2026-10-18T19:22:25.314918+00:00",
+      "reviewer_method": "cached_primary_artifact_independently_read_not_new_HTTP_this_batch"
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290189&type=XML",
+      "entries": [
+        5
+      ],
+      "actual_read_scope": "형소법30/33/34/200/200의2/243의2/244/244의3전항직접재독.신청·정당사유예외/피의자와피고인무료국선범위구별/전체·개별침묵·불이익없음/조서열람이의·원문남김.21857부칙1~12실제확인:20261002기본시행과197의4·재정신청202702/220의2·244의6등202708·199의2별도시행을구분;검사기존수사경과조치.22009시행20261002.",
+      "id": "raw:1",
+      "original_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290189.xml",
+      "retained_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290189.xml",
+      "sha256": "f917fd5794540a55cc19ef2b94e5142ee97cdaafc9215827fa653b6c275ab9fa",
+      "byte_length": 804458,
+      "actual_fetch_url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290189&type=XML",
+      "source_collected_at_utc": "2026-10-18T12:38:26.047262+00:00",
+      "http_status": 200,
+      "reviewed_at_utc": "2026-10-18T19:22:25.314918+00:00",
+      "reviewer_method": "cached_primary_artifact_independently_read_not_new_HTTP_this_batch"
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=282791&type=XML",
+      "entries": [
+        4
+      ],
+      "actual_read_scope": "AI기본법2⑦사업자정의/31전항및20676·21311부칙직접읽음:사업자고지·표시/실제와구분어려운영상·음향·이미지명확인지/예술창작향유단서/방법예외는령위임.20260122현재시행.개별사기영상면책/표시없어진품증거아님.",
+      "id": "raw:2",
+      "original_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/282791.xml",
+      "retained_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/282791.xml",
+      "sha256": "29c74f00f805b53552d3a6209041f0e44d3b725cc0033a7547899ff33b9470d7",
+      "byte_length": 141897,
+      "actual_fetch_url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=282791&type=XML",
+      "source_collected_at_utc": "2026-10-18T12:37:43.108598+00:00",
+      "http_status": 200,
+      "reviewed_at_utc": "2026-10-18T19:22:25.314918+00:00",
+      "reviewer_method": "cached_primary_artifact_independently_read_not_new_HTTP_this_batch"
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=eflaw&type=XML&query=%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%20%EB%B0%9C%EC%A0%84%EA%B3%BC%20%EC%8B%A0%EB%A2%B0%20%EA%B8%B0%EB%B0%98%20%EC%A1%B0%EC%84%B1%20%EB%93%B1%EC%97%90%20%EA%B4%80%ED%95%9C%20%EA%B8%B0%EB%B3%B8%EB%B2%95%20%EC%8B%9C%ED%96%89%EB%A0%B9",
+      "requested_at": "2026-10-18T19:21:10.483792+00:00",
+      "http_status": 200,
+      "entries": [
+        4
+      ],
+      "actual_read_scope": "실제검색XML total3:현재288781/20260820와이전288145·282879구분.본문아님.",
+      "id": "raw:3",
+      "original_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch08-partial-review-r2/68630a0677f90ba511da.raw",
+      "retained_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch08-partial-review-r2/68630a0677f90ba511da.raw",
+      "sha256": "94db8b88a916620832d9870ed04016b574416e5fd4b19eb0dc5c38239597f8c0",
+      "byte_length": 2979,
+      "actual_fetch_url": "https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=eflaw&type=XML&query=%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%20%EB%B0%9C%EC%A0%84%EA%B3%BC%20%EC%8B%A0%EB%A2%B0%20%EA%B8%B0%EB%B0%98%20%EC%A1%B0%EC%84%B1%20%EB%93%B1%EC%97%90%20%EA%B4%80%ED%95%9C%20%EA%B8%B0%EB%B3%B8%EB%B2%95%20%EC%8B%9C%ED%96%89%EB%A0%B9",
+      "source_collected_at_utc": "2026-10-18T19:21:10.483792+00:00",
+      "reviewed_at_utc": "2026-10-18T19:22:25.314918+00:00",
+      "reviewer_method": "cached_primary_artifact_independently_read_not_new_HTTP_this_batch"
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=288781&type=XML&efYd=20260820",
+      "requested_at": "2026-10-18T19:21:30.627164+00:00",
+      "http_status": 200,
+      "entries": [
+        4
+      ],
+      "actual_read_scope": "실제현행XML본문23①~④및36053/36506/36580부칙직접읽음.표시방법과명백한AI·내부업무·장관고시예외.20260820시행.",
+      "id": "raw:4",
+      "original_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch08-partial-review-r2/9c59ad59bfeaa9058d3e.raw",
+      "retained_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch08-partial-review-r2/9c59ad59bfeaa9058d3e.raw",
+      "sha256": "f0460e1f956ddb2298a8ff638c3394c8d94578d5865bb5c8bb12210e29a15d9a",
+      "byte_length": 168693,
+      "actual_fetch_url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=288781&type=XML&efYd=20260820",
+      "source_collected_at_utc": "2026-10-18T19:21:30.627164+00:00",
+      "reviewed_at_utc": "2026-10-18T19:22:25.314918+00:00",
+      "reviewer_method": "cached_primary_artifact_independently_read_not_new_HTTP_this_batch"
+    },
+    {
+      "url": "https://law.go.kr/DRF/lawSearch.do?OC=test&target=eflaw&type=XML&query=%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EA%B8%B0%EB%B3%B8%EB%B2%95",
+      "requested_at": "2026-10-18T19:21:30.628035+00:00",
+      "http_status": 200,
+      "entries": [
+        4
+      ],
+      "actual_read_scope": "실제검색성공XML total0.약칭검색실패이며법부재아님.기존실본문282791읽음.",
+      "id": "raw:5",
+      "original_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch08-partial-review-r2/166c5890a39ca351c6b8.raw",
+      "retained_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch08-partial-review-r2/166c5890a39ca351c6b8.raw",
+      "sha256": "b17584d2b4a496f4d01fb6e2af6bb0c75924eb82ca57eb894e21a91425474e07",
+      "byte_length": 271,
+      "actual_fetch_url": "https://law.go.kr/DRF/lawSearch.do?OC=test&target=eflaw&type=XML&query=%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EA%B8%B0%EB%B3%B8%EB%B2%95",
+      "source_collected_at_utc": "2026-10-18T19:21:30.628035+00:00",
+      "reviewed_at_utc": "2026-10-18T19:22:25.314918+00:00",
+      "reviewer_method": "cached_primary_artifact_independently_read_not_new_HTTP_this_batch"
+    }
+  ],
+  "reviewer_fresh_http": [
+    {
+      "url": "https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=eflaw&type=XML&query=%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%20%EB%B0%9C%EC%A0%84%EA%B3%BC%20%EC%8B%A0%EB%A2%B0%20%EA%B8%B0%EB%B0%98%20%EC%A1%B0%EC%84%B1%20%EB%93%B1%EC%97%90%20%EA%B4%80%ED%95%9C%20%EA%B8%B0%EB%B3%B8%EB%B2%95",
+      "requested_at": "2026-10-18T19:21:10.482953+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "AI법",
+      "status": "access_failed",
+      "error": "<urlopen error Tunnel connection failed: 502 Bad Gateway>",
+      "actual_read_scope": "새HTTPS검색실패.목록/본문미확보이며기존실제XML과부칙재독으로대조."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=eflaw&type=XML&query=%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%20%EB%B0%9C%EC%A0%84%EA%B3%BC%20%EC%8B%A0%EB%A2%B0%20%EA%B8%B0%EB%B0%98%20%EC%A1%B0%EC%84%B1%20%EB%93%B1%EC%97%90%20%EA%B4%80%ED%95%9C%20%EA%B8%B0%EB%B3%B8%EB%B2%95%20%EC%8B%9C%ED%96%89%EB%A0%B9",
+      "requested_at": "2026-10-18T19:21:10.483792+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "AI령",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch08-partial-review-r2/68630a0677f90ba511da.raw",
+      "sha256": "94db8b88a916620832d9870ed04016b574416e5fd4b19eb0dc5c38239597f8c0",
+      "actual_read_scope": "실제검색XML total3:현재288781/20260820와이전288145·282879구분.본문아님."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=eflaw&type=XML&query=%ED%98%95%EC%82%AC%EC%86%8C%EC%86%A1%EB%B2%95",
+      "requested_at": "2026-10-18T19:21:10.484424+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "형소법",
+      "status": "access_failed",
+      "error": "HTTP Error 403: Forbidden",
+      "actual_read_scope": "새HTTPS검색실패.목록/본문미확보이며기존실제XML과부칙재독으로대조."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=288781&type=XML&efYd=20260820",
+      "requested_at": "2026-10-18T19:21:30.627164+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "AI현행령",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch08-partial-review-r2/9c59ad59bfeaa9058d3e.raw",
+      "sha256": "f0460e1f956ddb2298a8ff638c3394c8d94578d5865bb5c8bb12210e29a15d9a",
+      "actual_read_scope": "실제현행XML본문23①~④및36053/36506/36580부칙직접읽음.표시방법과명백한AI·내부업무·장관고시예외.20260820시행."
+    },
+    {
+      "url": "https://law.go.kr/DRF/lawSearch.do?OC=test&target=eflaw&type=XML&query=%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EA%B8%B0%EB%B3%B8%EB%B2%95",
+      "requested_at": "2026-10-18T19:21:30.628035+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "AI법재검색",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch08-partial-review-r2/166c5890a39ca351c6b8.raw",
+      "sha256": "b17584d2b4a496f4d01fb6e2af6bb0c75924eb82ca57eb894e21a91425474e07",
+      "actual_read_scope": "실제검색성공XML total0.약칭검색실패이며법부재아님.기존실본문282791읽음."
+    },
+    {
+      "url": "https://law.go.kr/DRF/lawSearch.do?OC=test&target=eflaw&type=XML&query=%ED%98%95%EC%82%AC%EC%86%8C%EC%86%A1%EB%B2%95",
+      "requested_at": "2026-10-18T19:21:30.628639+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "형소법재검색",
+      "status": "access_failed",
+      "error": "<urlopen error Tunnel connection failed: 502 Bad Gateway>",
+      "actual_read_scope": "새HTTPS검색실패.목록/본문미확보이며기존실제XML과부칙재독으로대조."
+    }
+  ],
+  "prior_reviews": [],
+  "local_inputs": [
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/author-partial-manifest-2.json",
+      "sha256": "b2911c8ec2488c739b20d3fcd567e25e68e1a0739c65cbf2c15935f5b7f4a76e",
+      "scope": "対象번호full本文/초기경고·실제target참조·원문DOI대조.다른항새승인아님."
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/manifest.json",
+      "sha256": "66e34c750ac88ddf1a9293beeb049f8018e507283fbf22744d626fb3a0962681",
+      "scope": "対象번호full本文/초기경고·실제target참조·원문DOI대조.다른항새승인아님."
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/source.md",
+      "sha256": "d3bc3df4c03ef5f74d391c47424b7a09433b26f0c8f2ce2850deb34559b79f23",
+      "scope": "対象번호full本文/초기경고·실제target참조·원문DOI대조.다른항새승인아님."
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/content-audit.md",
+      "sha256": "d509272f805a82856fafb5343cefad87f45ffa2ef36a5ae507e02424857f8b5f",
+      "scope": "対象번호full本文/초기경고·실제target참조·원문DOI대조.다른항새승인아님."
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/editorial-decisions.json",
+      "sha256": "ff8532a8c08d0355cf38567f0177d516380c4450975b888e3b480866e0b9cabe",
+      "scope": "対象번호full本文/초기경고·실제target참조·원문DOI대조.다른항새승인아님."
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/book/08-别把自己搭进去.md",
+      "sha256": "fce7dbda5f1e9a5195b865bc74c21c9a27c46d2a59604c8f2e471aebb7b26159",
+      "scope": "対象번호full本文/초기경고·실제target참조·원문DOI대조.다른항새승인아님."
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/book-kr/08-법적-말썽에-휘말리지-않기.md",
+      "sha256": "d3bc3df4c03ef5f74d391c47424b7a09433b26f0c8f2ce2850deb34559b79f23",
+      "scope": "対象번호full本文/초기경고·실제target참조·원문DOI대조.다른항새승인아님."
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/candidate.md",
+      "sha256": "df979c3d91ba44157603401a4894cff6d0d9eb9d01a7778e43c11cf49de4e017",
+      "scope": "対象번호full本文/초기경고·실제target참조·원문DOI대조.다른항새승인아님."
+    }
+  ],
+  "formal_kr_fit_approval": false,
+  "integration_approval": false,
+  "whole_chapter_approval": false,
+  "limitations": [
+    "고정partial의정확proposal/changesSHA만검토.初기감사/다른항승인/길이통과로전체내용승인대체안함.",
+    "원시본문/표실열람·검색/메타·실패와기존캐시/신규HTTP구분.취득시각모르면null이며read_at으로바꾸지않음.",
+    "public/제안/strict/candidate/원문/초기canonical/정식formal/pure/gates/Git불변.검토JSON/MD와외부cache만작성."
+  ]
+}

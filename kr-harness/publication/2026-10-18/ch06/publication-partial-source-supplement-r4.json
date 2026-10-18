@@ -1,0 +1,75 @@
+{
+  "chapter": 6,
+  "entry": 29,
+  "status": "partial_HSE_source_scope_verified_specific_technique_still_unread",
+  "decision": "pending_source_verification",
+  "exact_proposal": {
+    "entry": 29,
+    "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-029-f514/publication-entry-proposal.md",
+    "proposal_sha256": "6061b32d165f8808c7758bd1d1659b12b741bcfdd4d5b6dc9a94dbd17f584bda",
+    "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-029-f514/publication-entry-changes.json",
+    "changes_sha256": "dc0b87fd68cd44bcd89e60488b0348d6835fbbb761031c5eba1280fbb689f50f",
+    "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-029-f514/strict-entry.md",
+    "base_strict_entry_sha256": "380469a0adbf51dd5f46562503aabc46aa61c6970bc55425bea4a2365bebf075",
+    "literal_exit_code": 0
+  },
+  "prior_review": {
+    "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/publication-partial-review-r13.json",
+    "sha256": "079738d9d8af7dadc9b6537c2926647c303a75aa549a228acb07f93db94e5e0e",
+    "preserved": true
+  },
+  "readings": [
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/publication/hse-apa-retrieval-r1/hse-indg143-20261001.raw",
+      "artifact_sha256": "7532812264700a1ab183acd411ecdc8b4ac8c12e1a25a454374d025b0e26e7c9",
+      "url": "https://web.archive.org/web/20261001022355id_/https://www.hse.gov.uk/pubns/indg143.pdf",
+      "read_at_utc": "2026-10-18T19:01:13.643222+00:00",
+      "read_scope": "HSE Manual handling at work:A brief guide,01/20INDG143rev4,TSO/Crown표지·판권정체확인.인쇄2–6일반위험/법적위계/회피·기계화·개별위험/필터한계,7–10필터·자세·기록,11훈련,12–14위험과통제표,15–16참조/판권본문을직접읽음.도식kg필터를개인안전상한으로해석하지않음.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null,
+      "retriever": "ROOT",
+      "retrieved_at_utc": "2026-10-18T18:58:59.870605+00:00",
+      "retrieval_http_status": 200,
+      "fresh_http_by_this_reviewer": false
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/publication/hse-apa-retrieval-r1/hse-indg143-20261001.txt",
+      "artifact_sha256": "68b0303c1c1e014ea5558de0bd17957b23a9a1bcb0ac22e166c1ac744d0d6364",
+      "url": "https://web.archive.org/web/20261001022355id_/https://www.hse.gov.uk/pubns/indg143.pdf",
+      "read_at_utc": "2026-10-18T19:01:13.643383+00:00",
+      "read_scope": "위원PDF추출텍스트직접읽음.별도원자료로중복계산안함.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    }
+  ],
+  "verified_claims": [
+    {
+      "claim": "교육만으로운반안전보장불가/기구·작업·화물개선대체불가",
+      "scope": "인쇄11쪽.avoid/design/reduce가먼저이며훈련도남은위험관리에중요."
+    },
+    {
+      "claim": "무게/운반횟수·기구등위험관리실천제안",
+      "scope": "인쇄3–6및12–14.가능하면운반회피→기계화고려→평가→합리적으로가능한낮은수준까지위험감소.개별능력/임신/장애/기존상해/작업환경등조건."
+    }
+  ],
+  "remaining_exact_claims": [
+    {
+      "field": "비고",
+      "text": "물건을 몸에 붙이고 발을 단단히 딛으세요. 허리를 비틀거나 물건을 급히 당기지 마세요. 물건을 들기 시작할 때는 등과 엉덩이, 무릎을 살짝 굽히세요. 완전히 굽히거나 완전히 앉는 자세와 비교한 권고입니다.",
+      "scope": "rev4에는안정발자세·급히당기지않음·시작시slightflexvsfullstoop/squat세부문장이없음.본문기구/작업위계는검증됐지만별도인용HSE good-handling-technique원본문추가읽기필요.같은뜻이허위라는판정아님."
+    }
+  ],
+  "not_requested": [
+    "자료미접근만을이유로원저자에게사실삭제요청하지않음.",
+    "rev4위험필터kg수치나영국법을한국개인안전한계로추가하지않음."
+  ],
+  "fresh_http_by_this_reviewer": false,
+  "whole29_approval": false,
+  "integration_approval": false,
+  "formal_approval": false,
+  "canonical_public_git_modified": false
+}

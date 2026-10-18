@@ -1,0 +1,197 @@
+{
+  "chapter": 6,
+  "status": "completed_exact_partial_review_r13",
+  "manifest_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/author-final-manifest-r1.json",
+  "manifest_sha256": "5ddf37b24ef8ba19011e9c5f42f2b92d3a36624147aa2a3f3fd278a04b025b93",
+  "entries": [
+    {
+      "entry": 29,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-029-f514/publication-entry-proposal.md",
+      "proposal_sha256": "6061b32d165f8808c7758bd1d1659b12b741bcfdd4d5b6dc9a94dbd17f584bda",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-029-f514/publication-entry-changes.json",
+      "changes_sha256": "dc0b87fd68cd44bcd89e60488b0348d6835fbbb761031c5eba1280fbb689f50f",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-029-f514/strict-entry.md",
+      "base_strict_entry_sha256": "380469a0adbf51dd5f46562503aabc46aa61c6970bc55425bea4a2365bebf075",
+      "literal_exit_code": 0,
+      "decision": "revise",
+      "all_four_complete_fields_read": true,
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "snapshot_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-029-f514/entry_snapshot.md",
+      "snapshot_sha256": "97f84e6fcc64a81d20c7860d65b23120d82a4985616c1318e65462bfb41f67b3",
+      "strict_candidate_contains_exact_base": true,
+      "length_check": {
+        "entry": 29,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-029-f514/publication-entry-proposal.md",
+        "title_chars": 65,
+        "easy_chars": 78,
+        "easy_sentences": 3,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "number": true,
+        "six_labels": true,
+        "tags": true,
+        "grade": true
+      },
+      "production_layout_check": true,
+      "initial_canonical_entry": {
+        "entry": 29,
+        "baseline_entry_sha256": "97f84e6fcc64a81d20c7860d65b23120d82a4985616c1318e65462bfb41f67b3",
+        "findings": [
+          {
+            "severity": "block",
+            "field": "쉽게",
+            "before_excerpt": "위험은 각각 10% 안팎씩 증가했습니다.",
+            "request": "OR1.11/1.09는 위험비와 구분하세요. 정확한 위험증가로 번역하지 말고 오즈 또는 관련방향을 쓰세요. 낮은 질의 굽힘연구에서 효과부재를 확정하지 말고 위험증가 근거를 찾지 못했다고 쓰세요.",
+            "evidence_key": "10.1136/oemed-2014-102346"
+          },
+          {
+            "severity": "block",
+            "field": "비고",
+            "before_excerpt": "허리통증은 죽음과도 연결되지 않습니다.",
+            "request": "인용한 예방시험은 사망을 평가한 근거가 아닙니다. 사망감소를 확인한 결과가 아니라 허리통증 발생을 다룬 결과라고 바꾸세요. 병가도 효과없음 확정 대신 유의한 감소를 확인하지 못함으로 쓰세요.",
+            "evidence_key": "10.1001/jamainternmed.2015.7431"
+          }
+        ],
+        "candidate_review": "pending",
+        "snapshot_path": "_workspace/2026-10-18-029-f514/entry_snapshot.md",
+        "manifest_entry_sha256": "97f84e6fcc64a81d20c7860d65b23120d82a4985616c1318e65462bfb41f67b3",
+        "snapshot_sha_matches_manifest": true
+      },
+      "finding_closure": "초기block의OR11%/9%위험증가오역해소.5개실제원저자초록에서운반교육·굽힘각도·무게/회수관찰연관·운동RR/낮은질·반대인과해석·병가비유의확인.모든4필드/길이/layout/보호/DOI통과.다만HSE공식training/technique/PDF추가조회가모두403이라구체자세지침원문독립확인은접근부족으로남음.원저자changes도HSE미열람을명시했다.이는내용오류나삭제요청아니며보존raw/실제공식본문추가읽기후승인가능.",
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "revision_requests": [
+        {
+          "field": "independent_source_verification",
+          "required": "HSE운반교육/구체자세지침원본문을보존raw또는접근가능공식자료로독립열람.403을사실오류/삭제요청으로취급하지않음."
+        }
+      ],
+      "decision_basis": "pending independent source access, not confirmed content error"
+    }
+  ],
+  "approved_entries": [],
+  "revise_entries": [
+    29
+  ],
+  "actual_primary_readings": [
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/5d5fd32efc63f2ce7951.json",
+      "artifact_sha256": "a71f6c4ef9af01a355c575bc52c29cb80b1030344548ed6463d90fa631c7df87",
+      "url": "https://doi.org/10.1136/oemed-2014-102346",
+      "read_at_utc": "2026-10-18T18:56:42.938839+00:00",
+      "read_scope": "실제원저자초록전체읽음:8longitudinal·OR1.11/10kg CI1.05~1.18・OR1.09/10回CI1.03~1.15.모델추정연간발생환산본문에추가안함。전문/추가정정전체조회아님.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/6017ced472d3d15c9201.json",
+      "artifact_sha256": "1342c5f18fc126857089460fda014662479efb1b050c5b3631977c50dd6fdc20",
+      "url": "https://doi.org/10.2519/jospt.2020.9218",
+      "read_at_utc": "2026-10-18T18:56:42.939187+00:00",
+      "read_scope": "실제원저자초록전체읽음:4연구5문헌intralumbar/7단면thoracopelvic각도차이·1.5도CI−.7~3.7·−6도CI−11.2~−.9·9/11비유의·낮은질。전문/추가정정전체조회아님.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/9fafe6e732666ab4cce5.json",
+      "artifact_sha256": "0cacaec160ff1d3255084d82496bb705786da5877f4b0bc88a0d2e0589b07299",
+      "url": "https://doi.org/10.1016/j.spinee.2010.03.033",
+      "read_at_utc": "2026-10-18T18:56:42.939315+00:00",
+      "read_scope": "실제원저자초록전체읽음:2010반대리뷰35포함/9고품질·4유의5비유의·독립인과가능성낮음·특정운반유형연관중간근거。전문/추가정정전체조회아님.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/a1a25f6fa05eea60a0ad.json",
+      "artifact_sha256": "a2c6bf99335308c23591c19fd066ae38a35c492971069e09fb0d3928dd19ffee",
+      "url": "https://doi.org/10.1002/14651858.cd005958.pub3",
+      "read_at_utc": "2026-10-18T18:56:42.939421+00:00",
+      "read_scope": "실제원저자초록전체읽음:2011Cochrane원초록9RCT20101/9코호트1280·RCT만결론·7RCT19317·OR1.17CI.68~2.02/영상RR.93CI.69~1.25·중간질/넓은CI·치료RCT없음。전문/추가정정전체조회아님.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/6a26694c442a96a15042.json",
+      "artifact_sha256": "f5872168888e83d25ad5bf0806abab930af181cb55a796aa45372b290b0505ec",
+      "url": "https://doi.org/10.1001/jamainternmed.2015.7431",
+      "read_at_utc": "2026-10-18T18:56:42.939519+00:00",
+      "read_scope": "실제원저자초록전체읽음:2016 21RCT30850·운동교육RR.55CI.41~.74중간질/병가.74CI.44~1.26비유의·운동단독.65CI.50~.86낮음~매우낮음·교육1.03/보호대1.01CI일치。전문/추가정정전체조회아님.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    }
+  ],
+  "prior_actual_reading_reuse": [],
+  "cross_reference_review": [
+    {
+      "chapter": 2,
+      "entry": 11,
+      "path": "/workspace/HowToLiveBetter-KR/book-kr/02-천천히-죽지-않기.md",
+      "file_sha256": "38102667b44ebbb6512a8018c9ccbde42153cccdd273cd786d4a698f43f7d440",
+      "body_sha256": "4df4e76f0118266d717a1f9e528633e18073c1914bd5e60a23f32b5bdbd4355b",
+      "actual_scope": "걷기/근력운동일반안내.허리통증예방시험이해당회수/걸음수자체를증명한것으로단정하지않고운동방법참조만."
+    },
+    {
+      "chapter": 2,
+      "entry": 16,
+      "path": "/workspace/HowToLiveBetter-KR/book-kr/02-천천히-죽지-않기.md",
+      "file_sha256": "38102667b44ebbb6512a8018c9ccbde42153cccdd273cd786d4a698f43f7d440",
+      "body_sha256": "2bb09014b52824face59aa70d32383d203137d55a426b25ac518a388d601a97b",
+      "actual_scope": "걷기/근력운동일반안내.허리통증예방시험이해당회수/걸음수자체를증명한것으로단정하지않고운동방법참조만."
+    }
+  ],
+  "production_helper_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/scripts/humanize_publication.py",
+  "production_helper_sha256": "244c194c7620c3095dc3a972eecdaa4e17fab8a0a301ae8b601cb8401569bfd3",
+  "helper_code_modified": false,
+  "fresh_http_performed": true,
+  "whole29_approval": false,
+  "integration_approval": false,
+  "formal_kr_fit_approval": false,
+  "preservation": "Prior reviews/frozen proposals/canonical/public/runs/gates/git unchanged.",
+  "http_attempts": [
+    {
+      "url": "https://www.hse.gov.uk/msd/manual-handling/training.htm",
+      "utc": "2026-10-18T18:56:02.123942+00:00",
+      "error": "HTTP Error 403: Forbidden",
+      "tls_verify": true
+    },
+    {
+      "url": "https://www.hse.gov.uk/msd/manual-handling/good-handling-technique.htm",
+      "utc": "2026-10-18T18:56:02.124573+00:00",
+      "error": "HTTP Error 403: Forbidden",
+      "tls_verify": true
+    },
+    {
+      "url": "https://www.hse.gov.uk/pubns/indg143.pdf",
+      "utc": "2026-10-18T18:56:14.723982+00:00",
+      "error": "HTTP Error 403: Forbidden",
+      "tls_verify": true
+    },
+    {
+      "url": "https://www.hse.gov.uk/msd/manual-handling/good-handling-technique.htm?view=print",
+      "utc": "2026-10-18T18:56:14.724648+00:00",
+      "error": "HTTP Error 403: Forbidden",
+      "tls_verify": true
+    }
+  ],
+  "pending_independent_source_entries": [
+    29
+  ]
+}

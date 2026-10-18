@@ -1,0 +1,47 @@
+{
+  "genre": "essay",
+  "change_rate": {
+    "rate": 0.0003,
+    "scope": "전문",
+    "verdict": "OK"
+  },
+  "s1_targets": [
+    {
+      "metric": "ending_comma_rate",
+      "z_before": 2.66,
+      "z_after": -0.52,
+      "verdict": "달성"
+    }
+  ],
+  "antithesis": {
+    "before": 0,
+    "after": 0,
+    "verdict": "스킵 (원문 대구 < 5)"
+  },
+  "golden": [],
+  "sentence_touch": {
+    "rate": 0.0204,
+    "touched": 1,
+    "total": 49
+  },
+  "numbers_dropped": [],
+  "modality": {
+    "lost_pairs": [],
+    "uncertain_pairs": [],
+    "counts": {
+      "deontic": {
+        "before": 2,
+        "after": 2
+      },
+      "hedge": {
+        "before": 6,
+        "after": 6
+      }
+    },
+    "verdict": "OK"
+  },
+  "gate": {
+    "verdict": "OK — 수렴",
+    "exit_code": 0
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "status": "completed_partial_review",
+  "chapter": "08",
+  "reviewed_at_utc": "2026-10-18T19:31:34.359528+00:00",
+  "reviewer_id": "/root/publication_review_09",
+  "manifest_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/author-partial-manifest-6.json",
+  "manifest_sha256": "bd0ba867dbac7ece0dfeb7c5741bd3389e70f698cfce0d26504722fd8e607a90",
+  "candidate_sha256": "df979c3d91ba44157603401a4894cff6d0d9eb9d01a7778e43c11cf49de4e017",
+  "entries": [
+    {
+      "entry": 9,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-009-1e25/publication-entry-proposal.md",
+      "proposal_sha256": "783042df23d8715de242c6ff5e328f4c3d3118319bd025bee53ef80be40186d4",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-009-1e25/publication-entry-changes.json",
+      "changes_sha256": "0fc78b7f7bac8af064b34cba681bb961479052cb2362829366acd0dea7c43fad",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-009-1e25/strict-entry.md",
+      "base_strict_entry_sha256": "0fafbebae141a45375a014a0b91574032b468d011a3a2a533bc14e5a821348ee",
+      "literal_exit_code": 0,
+      "decision": "revise",
+      "reason": "금융주체·정당사유·지체없는제공이용중단후조사·사실다름/미확인삭제정정·처리결과7일통지를실조문과정확히대조했다.크레딧포유무료대출/연체/보증도실기관본문으로확인.그러나비고첫문장의중국연2회무료·20일답변은한국독자에게필요없는원문변환메모와외국수치를남겨한국출판문체기준에맞지않는다.한국7일처리결과/비보장설명이이득에이미있어삭제로의미손실이없다.",
+      "field_decisions": {
+        "title": "approve",
+        "비용": "approve",
+        "쉽게": "approve",
+        "이득": "approve",
+        "근거등급": "approve",
+        "출처": "approve",
+        "비고": "revise"
+      },
+      "revision_requests": [
+        {
+          "field": "비고",
+          "issue": "불필요한중국제도·수치대비메모",
+          "requirement": "첫문장중국연2회무료·20일답변규칙비적용을삭제.이득의한국기관/7일통지와한계·모르는거래확인/명의도용신고권고는보존.새금액이나제도추가불필요."
+        }
+      ],
+      "initial_warning_closure": "초기8-9법적7일/정정비보장warn및공식무료본문검증은해소.새필수편집중국변환잔재삭제만남음.",
+      "primary_read_scope": "법38/20의2및21445부칙·기관실HTML2raw직접읽음.새HTTP0/개인로그인내역·모든보관기간/최신개별고시전수미확정.중국수치의현행성을검증한것아님.",
+      "source_ids": [
+        "raw:0",
+        "raw:1"
+      ],
+      "cross_reference_check": "9제목불변/원문45참조는strict에서이미삭제된상태를유지하며새출처DOI변동없음.명시outgoing없음.",
+      "literal_check": {
+        "title_characters": 27,
+        "easy_characters": 77,
+        "easy_sentences": 3,
+        "ordinary_over_50": [],
+        "counting_rule": "공백괄호포함literal/출처서지만제외/진짜immutable인용만별도심사·법명괄호임의면제없음"
+      },
+      "structure": {
+        "six_single_physical_fields_in_order": true,
+        "cost_tag_verbatim": true,
+        "evidence_grade_verbatim": true,
+        "title_verbatim": true,
+        "summary_absent": true,
+        "declared_before_after_verified": true,
+        "revision_span_only_and_other_bytes_unchanged": false,
+        "current_candidate_base_exact_once": true
+      },
+      "doi_original": [],
+      "doi_strict": [],
+      "doi_proposal": []
+    }
+  ],
+  "approved_entries": [],
+  "revise_entries": [
+    9
+  ],
+  "actual_artifact_read_log": [
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=283841&type=XML",
+      "entries": [
+        9
+      ],
+      "actual_read_scope": "신용정보법38①~⑧/20의2전항및21445부칙직접읽음.본인확인열람·사실다른정정청구·정당사유인정시지체없이제공이용중단/조사·삭제정정/처리결과7일통지.7일내모든조사정정완료보장아님.20의2상거래종료후최장5년및목적달성3개월/법률의무·재산보호·가명정보등예외·위임구분.20260911현행.",
+      "id": "raw:0",
+      "original_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/283841.xml",
+      "retained_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/283841.xml",
+      "sha256": "3ba19a1070fd85bd04b03b7d7031997464613b09e59096ccc000a8d5cfd1b058",
+      "byte_length": 371436,
+      "actual_fetch_url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=283841&type=XML",
+      "source_collected_at_utc": "2026-10-18T12:37:50.267371+00:00",
+      "http_status": 200,
+      "reviewed_at_utc": "2026-10-18T19:31:34.359528+00:00",
+      "reviewer_method": "cached_primary_artifact_independently_read_not_new_HTTP_this_batch"
+    },
+    {
+      "url": "https://www.credit4u.or.kr/",
+      "entries": [
+        9
+      ],
+      "actual_read_scope": "한국신용정보원credit4u실제HTML전체직접읽음.본문무료조회/대출·연체·보증·보험·개인인증로그인메뉴안내확인.개별로그인거래/실제정정신청결과를열람한것아님.검색shell이아닌공식기관실본문.",
+      "id": "raw:1",
+      "original_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch08-audit/credit4u.raw",
+      "retained_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch08-audit/credit4u.raw",
+      "sha256": "975a68101a3060e2faf20726d481604d188a6282cb7780ee93ba3bbce37765c6",
+      "byte_length": 54779,
+      "actual_fetch_url": "https://www.credit4u.or.kr/",
+      "source_collected_at_utc": null,
+      "http_status": null,
+      "reviewed_at_utc": "2026-10-18T19:31:34.359528+00:00",
+      "reviewer_method": "cached_primary_artifact_independently_read_not_new_HTTP_this_batch"
+    }
+  ],
+  "reviewer_fresh_http": [],
+  "prior_reviews": [],
+  "local_inputs": [
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/author-partial-manifest-6.json",
+      "sha256": "bd0ba867dbac7ece0dfeb7c5741bd3389e70f698cfce0d26504722fd8e607a90",
+      "scope": "対象번호full本文/초기경고·실제target참조·원문DOI대조.다른항새승인아님."
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/manifest.json",
+      "sha256": "66e34c750ac88ddf1a9293beeb049f8018e507283fbf22744d626fb3a0962681",
+      "scope": "対象번호full本文/초기경고·실제target참조·원문DOI대조.다른항새승인아님."
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/source.md",
+      "sha256": "d3bc3df4c03ef5f74d391c47424b7a09433b26f0c8f2ce2850deb34559b79f23",
+      "scope": "対象번호full本文/초기경고·실제target참조·원문DOI대조.다른항새승인아님."
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/content-audit.md",
+      "sha256": "d509272f805a82856fafb5343cefad87f45ffa2ef36a5ae507e02424857f8b5f",
+      "scope": "対象번호full本文/초기경고·실제target참조·원문DOI대조.다른항새승인아님."
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/editorial-decisions.json",
+      "sha256": "ff8532a8c08d0355cf38567f0177d516380c4450975b888e3b480866e0b9cabe",
+      "scope": "対象번호full本文/초기경고·실제target참조·원문DOI대조.다른항새승인아님."
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/book/08-别把自己搭进去.md",
+      "sha256": "fce7dbda5f1e9a5195b865bc74c21c9a27c46d2a59604c8f2e471aebb7b26159",
+      "scope": "対象번호full本文/초기경고·실제target참조·원문DOI대조.다른항새승인아님."
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/book-kr/08-법적-말썽에-휘말리지-않기.md",
+      "sha256": "d3bc3df4c03ef5f74d391c47424b7a09433b26f0c8f2ce2850deb34559b79f23",
+      "scope": "対象번호full本文/초기경고·실제target참조·원문DOI대조.다른항새승인아님."
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/candidate.md",
+      "sha256": "df979c3d91ba44157603401a4894cff6d0d9eb9d01a7778e43c11cf49de4e017",
+      "scope": "対象번호full本文/초기경고·실제target참조·원문DOI대조.다른항새승인아님."
+    }
+  ],
+  "formal_kr_fit_approval": false,
+  "integration_approval": false,
+  "whole_chapter_approval": false,
+  "limitations": [
+    "고정partial의정확proposal/changesSHA만검토.初기감사/다른항승인/길이통과로전체내용승인대체안함.",
+    "원시본문/표실열람·검색/메타·실패와기존캐시/신규HTTP구분.취득시각모르면null이며read_at으로바꾸지않음.",
+    "public/제안/strict/candidate/원문/초기canonical/정식formal/pure/gates/Git불변.검토JSON/MD와외부cache만작성."
+  ]
+}

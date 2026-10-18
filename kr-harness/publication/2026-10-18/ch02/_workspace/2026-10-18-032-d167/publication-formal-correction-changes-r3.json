@@ -1,0 +1,99 @@
+{
+  "status": "unadopted_proposal",
+  "entry": 32,
+  "revision": 3,
+  "base": {
+    "public_path": "/workspace/HowToLiveBetter-KR/book-kr/02-천천히-죽지-않기.md",
+    "public_sha256": "bf3f1439ae8cfa4aa150e0e6b5e86f006094c690970edb8630210f4cd0d24306",
+    "entry_sha256": "b925f226dc4f931c9feed91dedd253dde5f5aa7e5c1e44e22095d38722ec1aa8",
+    "captured_at_utc": "2026-10-18T18:49:58.650976+00:00",
+    "extraction": "Exact UTF-8 substring ^### 32. up to before ^### 33., with separator whitespace"
+  },
+  "proposal_sha256": "d37e790d26393701522831f75c94a7f88d6a4d55ab7085282fe5e519465988af",
+  "changes": [
+    {
+      "field": "비고",
+      "before": "논쟁 있음. \"약간 살이 찐 편이 더 오래 산다\"는 연구 결과도 있습니다. 이 분석에서는 과체중의 사망 위험이 약 6% 낮았습니다. 가벼운 비만(BMI 30 이상 35 미만)은 약 5% 낮게 나왔습니다. 정상체중(BMI 18.5 이상 25 미만)과 비교한 값입니다. HR는 0.95, 95% 신뢰구간은 0.88~1.01입니다. 다만 통계적으로 뚜렷한 차이는 아니었습니다. 쟁점은 흡연자와 이미 병든 사람의 데이터를 뺄지입니다. 등록 직후 몇 해의 데이터를 뺄지도 논쟁합니다. 중병에 걸리면 살이 먼저 빠지므로 이런 데이터를 뺍니다. 239개 연구 분석에서는 이 세 조건에 맞지 않는 사람을 뺐습니다. 그러자 과체중인 사람의 사망 위험이 다시 높게 나타났습니다. 비만 성인의 식이 감량 시험에서는 총사망 감소가 관찰됐습니다. 위 BMI 수치는 몸무게가 다른 사람들을 비교한 값입니다. 살을 빼면 그만큼 위험이 내려간다는 뜻은 아닙니다. 살을 뺄 생각이라면 식사 시간 조절에 공들이지 마세요. 아침 식사도 16:8 단식도 추가 이득이 없습니다. 제6절 제26항(아침 식사나 16:8 단식에 체중 조절 기대하지 않기)을 보세요. BMI 20~25는 이 관찰연구의 최저위험 구간입니다. 한국의 과체중·비만 진단기준을 뜻하지는 않습니다.",
+      "after": "논쟁 있음. \"약간 살이 찐 편이 더 오래 산다\"는 연구 결과도 있습니다. 이 분석에서는 과체중의 사망 위험이 약 6% 낮았습니다. 가벼운 비만(BMI 30 이상 35 미만)은 약 5% 낮게 나왔습니다. 정상체중(BMI 18.5 이상 25 미만)과 비교한 값입니다. HR는 0.95, 95% 신뢰구간은 0.88~1.01입니다. 다만 통계적으로 뚜렷한 차이는 아니었습니다. 쟁점은 흡연자와 이미 병든 사람의 데이터를 뺄지입니다. 등록 직후 몇 해의 데이터를 뺄지도 논쟁합니다. 중병에 걸리면 살이 먼저 빠지므로 이런 데이터를 뺍니다. 239개 연구 분석에서는 이 세 조건에 맞지 않는 사람을 뺐습니다. 그러자 과체중인 사람의 사망 위험이 다시 높게 나타났습니다. 비만 성인의 식이 감량 시험에서는 총사망 감소가 관찰됐습니다. 위 BMI 수치는 몸무게가 다른 사람들을 비교한 값입니다. 살을 빼면 그만큼 위험이 내려간다는 뜻은 아닙니다. 아침 식사를 더하는 방법은 감량에 도움이 된다고 보기 어렵습니다. 16:8 단식은 열량과 기간 등 조건에 따라 결과가 달랐습니다. 일부 시험에서는 추가 감량도 나타났습니다. 장기 시험에서 차이가 뚜렷하지 않아도 효과가 없다고 입증한 것은 아닙니다. 제6절 제26항(아침 식사나 16:8 단식)을 보세요. BMI 20~25는 이 관찰연구의 최저위험 구간입니다. 한국의 과체중·비만 진단기준을 뜻하지는 않습니다.",
+      "span_before": "살을 뺄 생각이라면 식사 시간 조절에 공들이지 마세요. 아침 식사도 16:8 단식도 추가 이득이 없습니다. 제6절 제26항(아침 식사나 16:8 단식에 체중 조절 기대하지 않기)을 보세요.",
+      "span_after": "아침 식사를 더하는 방법은 감량에 도움이 된다고 보기 어렵습니다. 16:8 단식은 열량과 기간 등 조건에 따라 결과가 달랐습니다. 일부 시험에서는 추가 감량도 나타났습니다. 장기 시험에서 차이가 뚜렷하지 않아도 효과가 없다고 입증한 것은 아닙니다. 제6절 제26항(아침 식사나 16:8 단식)을 보세요.",
+      "reason": "아침 식사를 더하는 감량 전략과 시간제한 섭취를 구분. 조건별 양성 결과와 비유의 장기 결과가 공존하므로 추가 이득이 전혀 없다는 단정을 철회. 참조 앵커는 주제로 한정."
+    }
+  ],
+  "sources": [
+    {
+      "doi": "10.1093/nutrit/nuaf053",
+      "url": "https://doi.org/10.1093/nutrit/nuaf053",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/82183c9894a90ce35f32.json",
+      "raw_sha256": "a0e9d3d8c6961428a2b5c4dbd0560be7253ea90429cd9062cac7c68eae32a4f1",
+      "actual_level": "Existing primary abstract cached in EuropePMC core; independently read this turn; no new HTTP or full text verification",
+      "read_at_utc": "2026-10-18T18:49:58.650976+00:00",
+      "exact_primary_quote": "<h4>Context</h4>Although it is well established that caloric restriction (CR) is the primary driver of weight loss, circadian-driven metabolic benefits have been recognized as possibly enhancing the effects of CR. Time-restricted eating (TRE) has emerged as a promising approach in this context.<h4>Objective</h4>We conducted a systematic review and meta-analysis to compare the effects of TRE with isocaloric diet controls (analysis 1) and non-isocaloric controls (analysis 2) on anthropometric and body-composition parameters in adults with overweight or obesity.<h4>Data sources</h4>A search was carried out in the Medline, LILACS, Embase, and CENTRAL databases using Medical Subject Heading (MeSH) and similar terms such as \"Obesity,\" \"Obesity, Abdominal,\" \"Time-restricted eating,\" \"Body weight,\" \"Changes in body weight,\" and others.<h4>Data extraction</h4>We included 30 studies involving a total of 1341 participants. Studies were screened based on titles and abstracts followed by full-text reading, and data were extracted from eligible studies using a pre-established form. All these steps were performed by 2 authors independently and blinded, with discrepancies resolved by a third author.<h4>Data analysis</h4>The results of main findings revealed that, in studies using non-isocaloric controls, the TRE group showed significant reductions in body weight (BW) (mean difference [MD]: -2.82 kg; 95% CI: -3.49, -2.15), fat mass (FM) (MD: -1.36 kg; 95% CI: -2.09, -0.63), and fat-free mass (FFM) (MD: -0.86 kg; 95% CI: -1.23, -0.49). In studies that used isocaloric control strategies, the TRE group showed significant reductions in BW (MD: -1.46 kg; 95% CI: -2.65, -0.26), FM (MD: -1.50 kg; 95% CI: -2.77, -0.24), and FFM (MD: -0.41 kg; 95% CI: -0.79, -0. 03).<h4>Conclusion</h4>TRE yields favorable anthropometric and clinical outcomes, even when intake is isocaloric between the intervention and control groups. This result suggests that circadian effects may enhance the impact of CR on excess weight.<h4>Systematic review registration</h4>PROSPERO registration no. CRD42022301594."
+    },
+    {
+      "doi": "10.1056/nejmoa2114833",
+      "url": "https://doi.org/10.1056/nejmoa2114833",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/b4f8b45880d4bb6c611b.json",
+      "raw_sha256": "beabbee02ee720ecc3fc8727715c915eb73995fe4072111d73b60285642354b4",
+      "actual_level": "Existing primary abstract cached in EuropePMC core; independently read this turn; no new HTTP or full text verification",
+      "read_at_utc": "2026-10-18T18:49:58.650976+00:00",
+      "exact_primary_quote": "<h4>Background</h4>The long-term efficacy and safety of time-restricted eating for weight loss are not clear.<h4>Methods</h4>We randomly assigned 139 patients with obesity to time-restricted eating (eating only between 8:00 a.m. and 4:00 p.m.) with calorie restriction or daily calorie restriction alone. For 12 months, all the participants were instructed to follow a calorie-restricted diet that consisted of 1500 to 1800 kcal per day for men and 1200 to 1500 kcal per day for women. The primary outcome was the difference between the two groups in the change from baseline in body weight; secondary outcomes included changes in waist circumference, body-mass index (BMI), amount of body fat, and measures of metabolic risk factors.<h4>Results</h4>Of the total 139 participants who underwent randomization, 118 (84.9%) completed the 12-month follow-up visit. The mean weight loss from baseline at 12 months was -8.0 kg (95% confidence interval [CI], -9.6 to -6.4) in the time-restriction group and -6.3 kg (95% CI, -7.8 to -4.7) in the daily-calorie-restriction group. Changes in weight were not significantly different in the two groups at the 12-month assessment (net difference, -1.8 kg; 95% CI, -4.0 to 0.4; P = 0.11). Results of analyses of waist circumferences, BMI, body fat, body lean mass, blood pressure, and metabolic risk factors were consistent with the results of the primary outcome. In addition, there were no substantial differences between the groups in the numbers of adverse events.<h4>Conclusions</h4>Among patients with obesity, a regimen of time-restricted eating was not more beneficial with regard to reduction in body weight, body fat, or metabolic risk factors than daily calorie restriction. (Funded by the National Key Research and Development Project [No. 2018YFA0800404] and others; ClinicalTrials.gov number, NCT03745612.)."
+    },
+    {
+      "doi": "10.1136/bmj.l42",
+      "url": "https://doi.org/10.1136/bmj.l42",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/9d5f37375edf77fdcd9d.json",
+      "raw_sha256": "c95ce7f03dd69d878e4df6c839a9e6a43d37e4d0096e9202ef314b3cd1df9c6d",
+      "actual_level": "Existing primary abstract cached in EuropePMC core; independently read this turn; no new HTTP or full text verification",
+      "read_at_utc": "2026-10-18T18:49:58.650976+00:00",
+      "exact_primary_quote": "<h4>Objective</h4>To examine the effect of regular breakfast consumption on weight change and energy intake in people living in high income countries.<h4>Design</h4>Systematic review and meta-analysis.<h4>Data sources</h4>PubMed, Ovid Medline, and CINAHL were searched for randomised controlled trials published between January 1990 and January 2018 investigating the effect of breakfast on weight or energy intake. ClinicalTrials.gov and the World Health Organization's International Clinical Trials Registry Platform search portal were also searched in October 2018 to identify any registered yet unpublished or ongoing trials.<h4>Eligibility criteria for selecting studies</h4>Randomised controlled trials from high income countries in adults comparing breakfast consumption with no breakfast consumption that included a measure of body weight or energy intake. Two independent reviewers extracted the data and assessed the risk of bias of included studies. Random effects meta-analyses of the effect of breakfast consumption on weight and daily energy intake were performed.<h4>Results</h4>Of 13 included trials, seven examined the effect of eating breakfast on weight change, and 10 examined the effect on energy intake. Meta-analysis of the results found a small difference in weight favouring participants who skipped breakfast (mean difference 0.44 kg, 95% confidence interval 0.07 to 0.82), but there was some inconsistency across trial results (I<sup>2</sup>=43%). Participants assigned to breakfast had a higher total daily energy intake than those assigned to skip breakfast (mean difference 259.79 kcal/day, 78.87 to 440.71; 1 kcal=4.18 kJ), despite substantial inconsistency across trial results (I<sup>2</sup>=80%). All of the included trials were at high or unclear risk of bias in at least one domain and had only short term follow-ups (mean period seven weeks for weight, two weeks for energy intake). As the quality of the included studies was mostly low, the findings should be interpreted with caution.<h4>Conclusion</h4>This study suggests that the addition of breakfast might not be a good strategy for weight loss, regardless of established breakfast habit. Caution is needed when recommending breakfast for weight loss in adults, as it could have the opposite effect. Further randomised controlled trials of high quality are needed to examine the role of breakfast eating in the approach to weight management.<h4>Study registration</h4>PROSPERO registration number CRD42017057687."
+    }
+  ],
+  "linked_ch06_r2": {
+    "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-026-722f/publication-entry-proposal-r2.md",
+    "proposal_sha256": "5f605ef1be7c3427301bd1a7c8241bcbcbbb1e58b7b37cfd484f1d494cbe93d2",
+    "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-026-722f/publication-entry-changes-r2.json",
+    "changes_sha256": "bf19ff92661e975621999011da752aeb2e6557c62e9c39b134a67f649dc1ad45",
+    "status": "read for consistency; not treated as source verification or approval"
+  },
+  "intentional_numeric_scope_changes": [
+    "No existing numerical estimates or DOI changed. Meal timing categorical no-benefit claim narrowed; no study-specific statistics added to this entry.",
+    "TRE pooled trials in overweight/obese adults found -1.46kg under isocaloric control; 12month obese-adult calorie-restriction trial found -1.8kg CI -4.0 to0.4. These are differing conditions, not proof of absent effect.",
+    "Breakfast addition in adult high-income-country short trials not established as weight-loss strategy; trial quality mostly low."
+  ],
+  "doi_changes": {
+    "add": [],
+    "remove": []
+  },
+  "limitations": [
+    "Primary abstracts only read; no fresh external correction search or all supplements verification.",
+    "Long-term clinical effects and individual suitability are not resolved; no personal recommendation for fasting added.",
+    "All unmodified costs, BMI statistics, Ma RCT evidence and Flegal uncertainty retained without new re-verification."
+  ],
+  "checks": {
+    "literal50_all_narrative": true,
+    "long_sentences": [],
+    "title_chars": 28,
+    "easy_chars": 112,
+    "easy_sentences": 3,
+    "six_field_order": [
+      "비용",
+      "쉽게",
+      "이득",
+      "근거등급",
+      "출처",
+      "비고"
+    ],
+    "all_other_fields_equal": true,
+    "protected_prefix_unchanged": true,
+    "source_urls_grade_unchanged": true,
+    "new_sentence_lengths": [
+      36,
+      35,
+      23,
+      41,
+      30
+    ],
+    "public_sha_after": "bf3f1439ae8cfa4aa150e0e6b5e86f006094c690970edb8630210f4cd0d24306"
+  }
+}

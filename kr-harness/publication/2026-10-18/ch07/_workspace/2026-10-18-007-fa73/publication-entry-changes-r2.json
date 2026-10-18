@@ -1,0 +1,42 @@
+{
+  "status": "unadopted_pending_independent_exact_hash_review",
+  "chapter": 7,
+  "entry": 7,
+  "revision": "r2",
+  "base_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/_workspace/2026-10-18-007-fa73/publication-entry-proposal.md",
+  "base_sha256": "36d7825ac1f0aac0c39771c628a10157630f525ccb67bbd49e7ebcb48cd409e0",
+  "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/_workspace/2026-10-18-007-fa73/publication-entry-proposal-r2.md",
+  "proposal_sha256": "b28a435fa9bd8a29f35a0f7a7db6e002a930ceb4f8a234bc14347d7c884d7e49",
+  "field_changes": [
+    {
+      "field": "비고",
+      "before": "따로 사는 배우자·미혼 자녀가 포함될 수도 있습니다.",
+      "after": "따로 사는 배우자·30세 미만 미혼 자녀가 포함될 수도 있습니다.",
+      "reason": "시행령 제2조제1항제2호나목의 30세 미만 범위만 추가; 그 외 모든 bytes 보존"
+    }
+  ],
+  "verification": {
+    "read_at": "2026-10-18T19:06:50.713984+00:00",
+    "method": "cached raw XML 직접 재독",
+    "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=281585&type=XML&efYd=20260102",
+    "raw_path": "/tmp/ch07e07-decree.xml",
+    "raw_sha256": "400b860de5adbdd011a2a7d594e7227ac9bdc2da2f52a6e888ee6f3dd73d7f25",
+    "scope": "시행령 제2조 전체; 배우자 사실혼 포함·미혼자녀 나이·생계주거동일·제외요건",
+    "exact_quote": "나. 제1호에 해당하는 사람의 미혼 자녀 중 30세 미만인 사람",
+    "full_article_exact_text": "\n2\n조문\n개별가구\n20260102\n타법개정\n\n\nN\n제2조(개별가구)\n\n①\n① 「국민기초생활 보장법」(이하 \"법\"이라 한다) 제2조제8호에 따른 개별가구는 다음 각 호의 사람으로 구성된 가구로 한다. <개정 2015.4.20, 2015.12.31>\n\n1.\n1. 「주민등록법」 제6조제1항제1호에 따른 거주자 중 같은 법 시행령 제6조제1항에 따른 세대별 주민등록표에 등재(登載)된 사람(동거인은 제외한다)\n\n\n2.\n2. 제1호 외의 사람으로서 다음 각 목의 어느 하나에 해당하는 사람\n\n가.\n가. 제1호에 해당하는 사람의 배우자(사실상 혼인관계에 있는 사람을 포함한다. 이하 같다)\n\n\n나.\n나. 제1호에 해당하는 사람의 미혼 자녀 중 30세 미만인 사람\n\n\n다.\n다. 제1호에 해당하는 사람과 생계 및 주거를 같이 하는 사람(제1호에 해당하는 사람 중 생계를 책임지는 사람이 그의 부양의무자인 경우로 한정한다)\n\n\n\n\n②\n② 제1항에도 불구하고 다음 각 호의 어느 하나에 해당하는 사람은 개별가구에서 제외한다. <개정 2015.4.20, 2016.11.29, 2022.6.21>\n\n1.\n1. 현역 군인 등 법률상 의무를 이행하기 위하여 다른 곳에서 거주하면서 의무 이행과 관련하여 생계를 보장받고 있는 사람\n\n\n2.\n2. 다음 각 목의 어느 하나에 해당하는 사람으로서 조사를 시작한 날부터 역산하여 180일까지 통산하여 60일을 초과하여 외국에 체류하고 있거나 체류했던 사람\n\n가.\n가. 법 제22조에 따른 조사의 대상이 되는 사람(법 제21조에 따른 급여 신청을 최초로 하는 사람은 제외한다)\n\n\n나.\n나. 법 제23조에 따른 조사의 대상이 되는 수급자\n\n\n\n3.\n3. 「형의 집행 및 수용자의 처우에 관한 법률」 및 「치료감호 등에 관한 법률」 등에 따른 교도소, 구치소, 치료감호시설 등에 수용 중인 사람\n\n\n4.\n4. 법 제32조에 따른 보장시설에서 급여를 받고 있는 사람\n\n\n5.\n5. 실종선고 절차가 진행 중인 사람\n\n\n6.\n6. 가출 또는 행방불명으로 경찰서 등 행정관청에 신고된 후 1개월이 지났거나 가출 또는 행방불명 사실을 특별자치시장ㆍ특별자치도지사ㆍ시장ㆍ군수ㆍ구청장(자치구의 구청장을 말하며, 이하 \"시장ㆍ군수ㆍ구청장\"이라 한다)이 확인한 사람\n\n\n7.\n7. 그 밖에 제1항제1호에 해당하는 사람과 생계 및 주거를 달리한다고 시장ㆍ군수ㆍ구청장이 확인한 사람\n\n\n[전문개정 2011.9.8]\n"
+  },
+  "literal_check": {
+    "command": "python kr-harness/publication/2026-10-18/ch05/publication-partial-review-evidence/literal_check.py kr-harness/publication/2026-10-18/ch07/_workspace/2026-10-18-007-fa73/publication-entry-proposal-r2.md",
+    "exit_code": 0,
+    "stdout": "[\n  {\n    \"entry\": null,\n    \"path\": \"kr-harness/publication/2026-10-18/ch07/_workspace/2026-10-18-007-fa73/publication-entry-proposal-r2.md\",\n    \"title_chars\": 29,\n    \"easy_chars\": 74,\n    \"easy_sentences\": 3,\n    \"long_sentences\": [],\n    \"pass_length\": true\n  }\n]\n"
+  },
+  "layout_check": {
+    "six_fields_single_physical_line": true,
+    "only_authorized_literal_replacement": true,
+    "original_proposal_sha256": "36d7825ac1f0aac0c39771c628a10157630f525ccb67bbd49e7ebcb48cd409e0",
+    "original_changes_sha256": "ed35e284dff0c4beab90d21d4210f6d31ac7de4eaa4f6ab3c6ad2715ccc49700",
+    "changed_sentence_python_len": 36
+  },
+  "preserved": "금액·산식·기간·배우자/사실혼·기타 생계주거동일·제외 요건 상담 유보 및 그 외 모든 bytes 유지. 기존 frozen proposal/changes 불변.",
+  "prior_provenance": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/_workspace/2026-10-18-007-fa73/publication-entry-changes.json"
+}

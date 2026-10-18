@@ -1,0 +1,55 @@
+{
+  "status": "unadopted_proposal",
+  "independent_exact_hash_review": "pending",
+  "entry": 16,
+  "source_path": "/workspace/HowToLiveBetter-KR/book-kr/06-함정-목록.md",
+  "whole_guard_sha256": "2f52e4efe2356e5363bff1be570a29986e568540aca597059b1f116780791ab7",
+  "current_whole_snapshot": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-016-6849/publication-postformal-current-whole-r1.md",
+  "current_whole_snapshot_sha256": "2f52e4efe2356e5363bff1be570a29986e568540aca597059b1f116780791ab7",
+  "current_entry_snapshot": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-016-6849/publication-postformal-current-entry-r1.md",
+  "current_entry_sha256": "c803e6e70f875f1a02848ab9953fa801854cd934045b76c3c08261e001fded7b",
+  "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-016-6849/publication-postformal-proposal-r1.md",
+  "proposal_sha256": "8052f1d3ee3db5a660a19a6a4d94af825100dc12b99fedc26a017d504943a30a",
+  "exact_before": "하루 실외 2시간 활동과 조절마비굴절검사를 다룹니다.",
+  "exact_after": "실외 활동 늘리기와 조절마비굴절검사를 다룹니다.",
+  "field": "비고",
+  "reason": "현행 제30절 제4항은 학교 실외 수업 40분 추가 연구를 설명합니다. 하루 2시간 목표는 확인된 한국 공식 기준이 아니므로 참조 안내의 확정 시간만 삭제합니다.",
+  "verification_date": "2026-10-18",
+  "verification_method": "현재 공개 제6절 제16항, 제30절 제4항 및 TODO 직접 대조; 새로운 의학 효과 검증이나 시간 권고 추가 없음.",
+  "target_path": "/workspace/HowToLiveBetter-KR/book-kr/30-학교-다니는-아이.md",
+  "target_whole_sha256": "fcf4091d1dde978fddec620fc51f04e531fa5aa907b32e246f2e56aeccc52615",
+  "target_entry_sha256": "4c8efcecfdd5d1b1444fc78fa9660653c402075e8a71455914da5dd1fb61ce55",
+  "evidence_quotes": [
+    "실험 학교는 수업일마다 40분짜리 바깥 활동 수업을 한 교시 더 했습니다.",
+    "하루 몇 시간을 채우라는 한국 정부의 공식 기준은 찾지 못했습니다."
+  ],
+  "preservation": {
+    "other_bytes_exact": true,
+    "source_public_unchanged": true,
+    "incoming_anchor_preserved": true,
+    "doi_citations_identical": true,
+    "six_fields_one_physical_line": true
+  },
+  "validation": {
+    "command": [
+      "python",
+      "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/publication-partial-review-evidence/literal_check.py",
+      "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-016-6849/publication-postformal-proposal-r1.md"
+    ],
+    "returncode": 0,
+    "literal_check": [
+      {
+        "entry": null,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-016-6849/publication-postformal-proposal-r1.md",
+        "title_chars": 50,
+        "easy_chars": 101,
+        "easy_sentences": 4,
+        "long_sentences": [],
+        "pass_length": true
+      }
+    ]
+  },
+  "limitations": [
+    "독립 exact-hash 검토 전 미채택. 한국 공식 시간 목표를 확인했다고 주장하지 않습니다."
+  ]
+}

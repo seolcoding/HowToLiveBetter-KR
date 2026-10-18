@@ -1,0 +1,161 @@
+{
+  "status": "completed_partial_review",
+  "chapter": "07",
+  "reviewed_at_utc": "2026-10-18T19:37:52.301843+00:00",
+  "reviewer_id": "/root/publication_review_09",
+  "manifest_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/author-partial-manifest-14.json",
+  "manifest_sha256": "d32b0595b9aef82461e6e5e98b3fcd61a3402a17e4688e5f963a7f32c012bf2c",
+  "candidate_sha256": "48c5d96b9d2c280eabe9ecfedf11cb6674a2ec25ea35c3da1326b2de60d11656",
+  "entries": [
+    {
+      "entry": 19,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/_workspace/2026-10-18-019-2027/publication-entry-proposal-r2.md",
+      "proposal_sha256": "35fc9b870c2b090baeeeef704b042c5da3bfde88a676690a2eed08e02c3f4de5",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/_workspace/2026-10-18-019-2027/changes-r2.json",
+      "changes_sha256": "aba528647348b168d5f6add75d78384b655145c92e68e0381ac8a7183a02ab66",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/_workspace/2026-10-18-019-2027/strict-entry.md",
+      "base_strict_entry_sha256": "3c5c1c937255dfc324fdde40a7c1a6479d03da31a2230eda30ae33fe86c33f95",
+      "literal_exit_code": 0,
+      "decision": "approve",
+      "reason": "r11필수611⑤재량요청을정할수있습니다로복원했다.정확1span치환후전체이전proposalbytes와비교하여나머지모든필드/조건·제목태그/DOI불변을검증했다.기본3년·특별5년상한/변제개시일기산·15/10억/수입과파산원인·필요성심사/비면책/법원·대리인비용및개별기간유보를그대로유지한다.",
+      "field_decisions": {
+        "title": "approve",
+        "비용": "approve",
+        "쉽게": "approve",
+        "이득": "approve",
+        "근거등급": "approve",
+        "출처": "approve",
+        "비고": "approve"
+      },
+      "revision_requests": [],
+      "initial_warning_closure": "r11신규재량표현요청및초기7-19전warn종결.개별법무보호시설/비용·적용사건미확정은독자한정유지.",
+      "primary_read_scope": "이전r11실제보호관찰3/65~67·회생564/566/579/611/625·신청일부칙전체검토위에611⑤/15158재독.이번2cachedraw·신규HTTP0.원저자새본문추가외다른bytes불변.",
+      "source_ids": [
+        "raw:0",
+        "raw:1"
+      ],
+      "cross_reference_check": "제목불변/outgoing없음.현재fullmap변경행19로별도동결재승인.",
+      "literal_check": {
+        "title_characters": 32,
+        "easy_characters": 80,
+        "easy_sentences": 3,
+        "ordinary_over_50": [],
+        "counting_rule": "공백괄호포함literal/출처서지만제외/진짜immutable인용만별도심사·법명괄호임의면제없음"
+      },
+      "structure": {
+        "six_single_physical_fields_in_order": true,
+        "cost_tag_verbatim": true,
+        "evidence_grade_verbatim": true,
+        "title_verbatim": true,
+        "summary_absent": true,
+        "declared_before_after_verified": true,
+        "before_mismatches": [],
+        "revision_span_only_and_other_bytes_unchanged": true,
+        "current_candidate_base_exact_once": true
+      },
+      "doi_original": [],
+      "doi_strict": [],
+      "doi_proposal": []
+    }
+  ],
+  "approved_entries": [
+    19
+  ],
+  "revise_entries": [],
+  "actual_artifact_read_log": [
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=290705&type=XML&efYd=20261002",
+      "requested_at": "2026-10-18T12:54:22.513791+00:00",
+      "entries": [
+        19
+      ],
+      "actual_read_scope": "보호관찰법3·65·66·67전항/20751·21490부칙직접읽음.갱생보호형사/보호처분·필요성인정/숙식주거직업가족심리/신청후필요결정.20261002현행과개별지원필요·시설유보. 이번611⑤정할수있습니다재량복원과불변나머지전필드재대조.",
+      "id": "raw:0",
+      "original_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/d0cb8cb1c66fcce2f11d.raw",
+      "retained_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/d0cb8cb1c66fcce2f11d.raw",
+      "sha256": "a551371c0b4b9a2636a8ec576716af36931737080a41d8d0a09e33419010fc09",
+      "byte_length": 191592,
+      "actual_fetch_url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=290705&type=XML&efYd=20261002",
+      "source_collected_at_utc": "2026-10-18T12:54:22.513791+00:00",
+      "http_status": 200,
+      "reviewed_at_utc": "2026-10-18T19:37:52.301843+00:00",
+      "reviewer_method": "cached_primary_artifact_independently_read_not_new_HTTP_this_batch"
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290631&type=XML",
+      "requested_at": "2026-10-18T12:54:52.276958+00:00",
+      "entries": [
+        19
+      ],
+      "actual_read_scope": "회생파산법564/566/579/611/625전항·15158/18084/21490부칙직접읽음.파산원인또는염려·급여정기확실/영업반복소득가능성·신청시담보15억/그밖10억/기본3·특별5상한정할수있다/면책확정·비면책세금벌금양육고의손배등/과거사건신청일적용례.문장정합니다의재량오독발견. 이번611⑤정할수있습니다재량복원과불변나머지전필드재대조.",
+      "id": "raw:1",
+      "original_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/e2db437dcf6766c31db7.raw",
+      "retained_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/e2db437dcf6766c31db7.raw",
+      "sha256": "0f25c76b847f02c2753e0099d9e2102902fd00567a94c5ceb1e09627be3e3bce",
+      "byte_length": 1063768,
+      "actual_fetch_url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290631&type=XML",
+      "source_collected_at_utc": "2026-10-18T12:54:52.276958+00:00",
+      "http_status": 200,
+      "reviewed_at_utc": "2026-10-18T19:37:52.301843+00:00",
+      "reviewer_method": "cached_primary_artifact_independently_read_not_new_HTTP_this_batch"
+    }
+  ],
+  "reviewer_fresh_http": [],
+  "prior_reviews": [
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/publication-partial-review-r11.json",
+      "sha256": "2354a4377b4a3f7171c7216bd51eb8c8d75f9130bdbbe728b048e21ce9e67839",
+      "scope": "19full원자료검토및611⑤재량교정요청.기존revise보존/새r2exact승인."
+    }
+  ],
+  "local_inputs": [
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/author-partial-manifest-14.json",
+      "sha256": "d32b0595b9aef82461e6e5e98b3fcd61a3402a17e4688e5f963a7f32c012bf2c",
+      "scope": "対象번호full本文/초기경고·실제target참조·원문DOI대조.다른항새승인아님."
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/manifest.json",
+      "sha256": "dd61070f50a2b9cb70dccf685f986e01d6b2172998db370487a51e8214c3ddd8",
+      "scope": "対象번호full本文/초기경고·실제target참조·원문DOI대조.다른항새승인아님."
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/source.md",
+      "sha256": "48c5d96b9d2c280eabe9ecfedf11cb6674a2ec25ea35c3da1326b2de60d11656",
+      "scope": "対象번호full本文/초기경고·실제target참조·원문DOI대조.다른항새승인아님."
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/content-audit.md",
+      "sha256": "806d25f07080909253372cacef346a68c0a4c558c8fc74954d79c62304246bc9",
+      "scope": "対象번호full本文/초기경고·실제target참조·원문DOI대조.다른항새승인아님."
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/editorial-decisions.json",
+      "sha256": "20e9a12186633e18228c66d97c25761be1694c9bef32cd5c34da1a5b8803e858",
+      "scope": "対象번호full本文/초기경고·실제target참조·원문DOI대조.다른항새승인아님."
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/book/07-没钱的时候怎么活.md",
+      "sha256": "4f23050edf70baba7bf41e361ce1f682517633aa7d381b7eda1746db65122908",
+      "scope": "対象번호full本文/초기경고·실제target참조·원문DOI대조.다른항새승인아님."
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/book-kr/07-돈이-없을-때-사는-법.md",
+      "sha256": "48c5d96b9d2c280eabe9ecfedf11cb6674a2ec25ea35c3da1326b2de60d11656",
+      "scope": "対象번호full本文/초기경고·실제target참조·원문DOI대조.다른항새승인아님."
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/candidate.md",
+      "sha256": "48c5d96b9d2c280eabe9ecfedf11cb6674a2ec25ea35c3da1326b2de60d11656",
+      "scope": "対象번호full本文/초기경고·실제target참조·원문DOI대조.다른항새승인아님."
+    }
+  ],
+  "formal_kr_fit_approval": false,
+  "integration_approval": false,
+  "whole_chapter_approval": false,
+  "limitations": [
+    "고정partial의정확proposal/changesSHA만검토.初기감사/다른항승인/길이통과로전체내용승인대체안함.",
+    "원시본문/표실열람·검색/메타·실패와기존캐시/신규HTTP구분.취득시각모르면null이며read_at으로바꾸지않음.",
+    "public/제안/strict/candidate/원문/초기canonical/정식formal/pure/gates/Git불변.검토JSON/MD와외부cache만작성."
+  ]
+}

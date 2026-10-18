@@ -1,0 +1,182 @@
+{
+  "entry": 14,
+  "status": "proposal_pending_independent_exact_hash_review",
+  "base_path": "kr-harness/publication/2026-10-18/ch07/_workspace/2026-10-18-014-2ef9/strict-entry.md",
+  "base_sha256": "d408f810c9fbcd62558b6da2ac0f36aeea403fade865f4111728dc8f0f92cc68",
+  "proposal_sha256": "fd888664d98d25df1d443b4e0eba0debd346f04eb41f9fca38a49dc214d01e84",
+  "verified_at_utc": "2026-10-18T19:17:34.558370+00:00",
+  "field_changes": [
+    {
+      "field": "비용",
+      "before": "공공 취업상담을 이용하면 유료 강의를 살 필요가 없습니다. 구직 준비를 일정에 넣고 반복하세요. 도움을 요청하고 면접을 연습하는 데 수고가 듭니다.",
+      "after": "유료 강의를 사기 전에 공공 취업상담부터 이용하세요. 구직 준비를 일정에 넣고 반복하세요. 도움을 요청하고 면접을 연습하는 데 수고가 듭니다.",
+      "reason": "상담만으로 유료 강의가 불필요하다는 미검증 보장을 권고로 제한."
+    },
+    {
+      "field": "이득",
+      "before": "실험·준실험 구직지원 연구 47건을 합친 결과입니다. 참여 집단의 취업 오즈는 비교 집단의 2.67배였습니다(OR 2.67). 취업 확률이 무조건 2.67배라는 뜻은 아닙니다. 프로그램에는 구직 기술과 자기소개 연습이 포함됩니다. 자기효능감·주도적 행동·목표 설정도 다룹니다. 사회적 지지를 구하는 활동도 포함됩니다. 기술과 동기를 함께 다룬 프로그램의 효과가 가장 컸습니다.",
+      "after": "실험·준실험 구직지원 연구 47건을 합친 결과입니다. 참여 집단의 취업 오즈는 비교 집단의 2.67배였습니다(OR 2.67). 오즈는 취업할 확률을 취업하지 못할 확률로 나눈 값입니다. 취업 확률이 무조건 2.67배라는 뜻은 아닙니다. 구직 기술과 자기소개 연습을 포함한 프로그램의 효과가 더 컸습니다. 자기효능감·주도적 행동·목표 설정도 효과와 관련됐습니다. 자기효능감은 해낼 수 있다는 믿음입니다. 사회적 지지를 구하는 활동도 효과와 관련됐습니다. 기술 개발과 동기 향상을 모두 포함했을 때만 취업 촉진 효과가 나타났습니다.",
+      "reason": "초록의 구성요소 비교와 기술·동기 모두 포함 조건으로 범위 정정. 오즈/확률 구분을 일상어로 설명."
+    },
+    {
+      "field": "비고",
+      "before": "연구 대부분은 유럽·미국의 프로그램을 다뤘습니다. 한국에서 같은 크기의 효과를 측정한 결과는 아닙니다. 주변 사람에게 채용정보나 면접 연습을 부탁하세요. 고용센터의 취업상담도 이용하세요. 원문 DOI·근거등급을 보존했습니다.",
+      "after": "이 결과를 한국에 같은 크기로 적용할 수 있다고 단정하지 않습니다. 주변 사람에게 채용정보나 면접 연습을 부탁하세요. 고용센터의 취업상담도 이용하세요.",
+      "reason": "초록에서 입증되지 않은 유럽·미국 대부분 단정 삭제. 한국 적용 불확실성 보존. 편집 작업 메모 삭제."
+    }
+  ],
+  "unchanged_fields": [
+    "title",
+    "cost_tag",
+    "쉽게",
+    "근거등급",
+    "출처"
+  ],
+  "evidence": [
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1037/a0035923&format=json&resultType=core",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/075ed48f1676cd6ca4ba.raw",
+      "raw_sha256": "9ff540975af30a35ad4e08b25ab6053ca40fc525c5ffde2ae70329393f912df8",
+      "method": "independent_existing_cached_primary_abstract_read; no new HTTP",
+      "source_collected_at_utc": "2026-10-18T12:54:55.089890+00:00",
+      "actual_read_scope": "Complete MED24588365 abstract and bibliographic/fullTextUrl metadata; not subscription full text.",
+      "exact_primary_quotes": [
+        "The current meta-analytic review examined the effectiveness of job search interventions in facilitating job search success (i.e., obtaining employment). Major theoretical perspectives on job search interventions, including behavioral learning theory, theory of planned behavior, social cognitive theory, and coping theory, were reviewed and integrated to derive a taxonomy of critical job search intervention components. Summarizing the data from 47 experimentally or quasi-experimentally evaluated job search interventions, we found that the odds of obtaining employment were 2.67 times higher for job seekers participating in job search interventions compared to job seekers in the control group, who did not participate in such intervention programs. Our moderator analysis also suggested that job search interventions that contained certain components, including teaching job search skills, improving self-presentation, boosting self-efficacy, encouraging proactivity, promoting goal setting, and enlisting social support, were more effective than interventions that did not include such components. More important, job search interventions effectively promoted employment only when both skill development and motivation enhancement were included. In addition, we found that job search interventions were more effective in helping younger and older (vs. middle-aged) job seekers, short-term (vs. long-term) unemployed job seekers, and job seekers with special needs and conditions (vs. job seekers in general) to find employment. Furthermore, meta-analytic path analysis revealed that increased job search skills, job search self-efficacy, and job search behaviors partially mediated the positive effect of job search interventions on obtaining employment. Theoretical and practical implications and future research directions are discussed."
+      ],
+      "availability": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1037/a0035923"
+          }
+        ]
+      }
+    }
+  ],
+  "intentional_numeric_scope_changes": [
+    "47/2.67/OR 2.67 unchanged; no RR or probability computed.",
+    "Geographic majority removed because abstract gives no country distribution.",
+    "Skills plus motivation: both included condition replaces unsupported largest-effect superlative."
+  ],
+  "doi_changes": {
+    "add": [],
+    "drop": []
+  },
+  "unresolved_limits": [
+    "Full text not read; no geographic distribution verified.",
+    "No domestic effect size or personal employment probability inferred.",
+    "Public counseling advice and qualitative effort are recommendations; no domestic cost or outcome guarantee verified."
+  ],
+  "audit_closure": {
+    "content_audit": "7-14 abstract verified/full text unavailable: geographic majority removed.",
+    "editorial_decisions": "entry14 candidate pending; field_decisions empty.",
+    "kr_fit_review": "7-14 appropriate with abstract/OR distinction; retained and clarified.",
+    "incoming_refs": "rg book-kr: no explicit 제7절 제14항 incoming match; same-chapter 제14항 match absent. Title unchanged.",
+    "outgoing_refs": "No numbered chapter/entry references.",
+    "legal_scope": "No legal citation/benefit eligibility claim in this entry; legal articles/supplementary provisions not applicable."
+  },
+  "checks": {
+    "literal_check": "passed read-only literal_check.py; includes all parentheses",
+    "sentences": [
+      {
+        "field": "비용",
+        "sentence": "유료 강의를 사기 전에 공공 취업상담부터 이용하세요.",
+        "len": 29
+      },
+      {
+        "field": "비용",
+        "sentence": "구직 준비를 일정에 넣고 반복하세요.",
+        "len": 20
+      },
+      {
+        "field": "비용",
+        "sentence": "도움을 요청하고 면접을 연습하는 데 수고가 듭니다.",
+        "len": 28
+      },
+      {
+        "field": "쉽게",
+        "sentence": "이력서 작성과 면접을 함께 연습하세요.",
+        "len": 21
+      },
+      {
+        "field": "쉽게",
+        "sentence": "목표를 정하고 주변 사람에게도 도움을 요청하세요.",
+        "len": 27
+      },
+      {
+        "field": "쉽게",
+        "sentence": "체계적인 구직 코칭을 받은 집단은 취업 결과가 더 좋았습니다.",
+        "len": 34
+      },
+      {
+        "field": "이득",
+        "sentence": "실험·준실험 구직지원 연구 47건을 합친 결과입니다.",
+        "len": 29
+      },
+      {
+        "field": "이득",
+        "sentence": "참여 집단의 취업 오즈는 비교 집단의 2.67배였습니다(OR 2.67).",
+        "len": 40
+      },
+      {
+        "field": "이득",
+        "sentence": "오즈는 취업할 확률을 취업하지 못할 확률로 나눈 값입니다.",
+        "len": 32
+      },
+      {
+        "field": "이득",
+        "sentence": "취업 확률이 무조건 2.67배라는 뜻은 아닙니다.",
+        "len": 27
+      },
+      {
+        "field": "이득",
+        "sentence": "구직 기술과 자기소개 연습을 포함한 프로그램의 효과가 더 컸습니다.",
+        "len": 37
+      },
+      {
+        "field": "이득",
+        "sentence": "자기효능감·주도적 행동·목표 설정도 효과와 관련됐습니다.",
+        "len": 31
+      },
+      {
+        "field": "이득",
+        "sentence": "자기효능감은 해낼 수 있다는 믿음입니다.",
+        "len": 22
+      },
+      {
+        "field": "이득",
+        "sentence": "사회적 지지를 구하는 활동도 효과와 관련됐습니다.",
+        "len": 27
+      },
+      {
+        "field": "이득",
+        "sentence": "기술 개발과 동기 향상을 모두 포함했을 때만 취업 촉진 효과가 나타났습니다.",
+        "len": 42
+      },
+      {
+        "field": "비고",
+        "sentence": "이 결과를 한국에 같은 크기로 적용할 수 있다고 단정하지 않습니다.",
+        "len": 37
+      },
+      {
+        "field": "비고",
+        "sentence": "주변 사람에게 채용정보나 면접 연습을 부탁하세요.",
+        "len": 27
+      },
+      {
+        "field": "비고",
+        "sentence": "고용센터의 취업상담도 이용하세요.",
+        "len": 18
+      }
+    ],
+    "max_sentence_len": 42,
+    "easy_len": 84,
+    "easy_sentences": 3,
+    "title_len": 31,
+    "layout": "PASS: six physical single-line fields in exact order; heading/tag/grade protected; no added comments/workflow prose"
+  },
+  "protected_artifacts": "Only new publication-entry-proposal.md and publication-entry-changes.json written. Prior protected artifacts unchanged; no publishing or self-approval."
+}

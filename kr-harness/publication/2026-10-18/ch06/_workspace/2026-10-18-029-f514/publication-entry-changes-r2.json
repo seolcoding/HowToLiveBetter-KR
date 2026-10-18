@@ -1,0 +1,62 @@
+{
+  "status": "unadopted_proposal",
+  "entry": 29,
+  "revision": "r2",
+  "base_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-029-f514/publication-entry-proposal.md",
+  "base_sha256": "6061b32d165f8808c7758bd1d1659b12b741bcfdd4d5b6dc9a94dbd17f584bda",
+  "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-029-f514/publication-entry-proposal-r2.md",
+  "proposal_sha256": "86909c8dcf8243150ec4e7a3cd5738b19975aa6e490044fcebf09b9529420265",
+  "prior_changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-029-f514/publication-entry-changes.json",
+  "prior_changes_sha256": "dc0b87fd68cd44bcd89e60488b0348d6835fbbb761031c5eba1280fbb689f50f",
+  "changes": [
+    {
+      "field": "비고",
+      "before": "이 권고를 따라도 나쁠 것은 없습니다.",
+      "after": "작업에 맞춰 적용하고 쉽게 감당할 수 있는 무게만 드세요. 의심되면 조언이나 도움을 구하세요.",
+      "reason": "무조건 무해하다는 보장을 삭제하고 HSE 실제 작업 조건으로 한정합니다. 기존 자세 안내와 연구 한계는 유지합니다."
+    }
+  ],
+  "verification": {
+    "date": "2026-10-18",
+    "method": "보존된 HSE 원기관 아카이브 HTML gzip을 직접 해제하여 전체 본문 열람. 신규 HTTP 미실행.",
+    "source_url": "https://www.hse.gov.uk/msd/manual-handling/good-handling-technique.htm",
+    "archive_url": "https://web.archive.org/web/20261012061522id_/https://www.hse.gov.uk/msd/manual-handling/good-handling-technique.htm",
+    "raw_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/retained-primary-supplements-r1/hse-good-handling-official-archive-20261012.html",
+    "raw_sha256": "62e1a4d3a9b3b55914970443ee393796b5b999db2aa7c89a1daa4d08c0b00498",
+    "index_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/retained-primary-supplements-r1/hse-technique-retrieval-r1-index.json",
+    "index_sha256": "44211017112c6ab44b295f4d742db44095a90f7e953c5d95982f4a97da09e68a",
+    "reviewer_supplement_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/publication-partial-source-supplement-r5.json",
+    "reviewer_supplement_sha256": "1d36939361b76cff86e56108c3c5c74d420009734b7f4f55e55b4ac516a8e168",
+    "exact_primary_quotes": [
+      "These principles can be adapted to suit the actual task.",
+      "Don't lift or handle more than you can easily manage",
+      "If in doubt, seek advice or get help."
+    ],
+    "scope": "작업 맞춤·쉽게 감당 가능한 무게·의심 시 도움 조건만 최소 반영"
+  },
+  "validation": {
+    "command": "python kr-harness/publication/2026-10-18/ch05/publication-partial-review-evidence/literal_check.py kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-029-f514/publication-entry-proposal-r2.md",
+    "exit_code": 0,
+    "result": [
+      {
+        "entry": null,
+        "path": "kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-029-f514/publication-entry-proposal-r2.md",
+        "title_chars": 65,
+        "easy_chars": 78,
+        "easy_sentences": 3,
+        "long_sentences": [],
+        "pass_length": true
+      }
+    ],
+    "six_fields_each_one_physical_line": true,
+    "new_sentence_lengths": [
+      32,
+      19
+    ],
+    "unchanged_outside_single_replacement": true
+  },
+  "doi_additions": [],
+  "doi_removals": [],
+  "numerical_changes": [],
+  "independent_review": "pending exact-hash review; no self-approval"
+}

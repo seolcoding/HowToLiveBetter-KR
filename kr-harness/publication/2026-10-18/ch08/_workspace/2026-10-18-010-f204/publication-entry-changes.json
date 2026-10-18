@@ -1,0 +1,158 @@
+{
+  "status": "unadopted_pending_independent_exact_hash_review",
+  "entry": 10,
+  "chapter": 8,
+  "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-010-f204/strict-entry.md",
+  "base_strict_sha256": "359e3e7f8b9df4e4e8941f1ed4f932280098f0d6b4caaf5d1fb4b14cffa02e6d",
+  "current_public_sha256": "d3bc3df4c03ef5f74d391c47424b7a09433b26f0c8f2ce2850deb34559b79f23",
+  "current_public_entry_sha256": "359e3e7f8b9df4e4e8941f1ed4f932280098f0d6b4caaf5d1fb4b14cffa02e6d",
+  "proposal_sha256": "5030467c65ff41fb72be4f8314cf0c94ea99ed23420ed60389d35453a5f0c9a3",
+  "fields": {
+    "비용": {
+      "before": "추가 비용은 없습니다. 말싸움에 응하지 않고 참는 노력이 필요합니다.",
+      "after": "추가 비용은 없습니다. 말싸움에 응하지 않고 참는 노력이 필요합니다.",
+      "changed": false,
+      "reason": "기존 범위·안전경고·출처 보존"
+    },
+    "쉽게": {
+      "before": "사람이 있는 곳으로 물러나세요. 위협이 계속되면 112에 신고하세요. 말다툼 때문에 밀치거나 때리지 마세요.",
+      "after": "사람이 있는 곳으로 물러나세요. 위협이 계속되면 112에 신고하세요. 말다툼 때문에 밀치거나 때리지 마세요.",
+      "changed": false,
+      "reason": "기존 범위·안전경고·출처 보존"
+    },
+    "이득": {
+      "before": "「형법」 제260조는 폭행을 처벌합니다. 제257조는 신체 상해를 처벌합니다. 맞대응한 사람의 행위도 따로 판단합니다. 상대가 먼저 때렸어도 모든 반격이 정당방위가 되지는 않습니다. 제21조에서 정한 현재 침해와 상당한 이유를 충족해야 합니다.",
+      "after": "「형법」 제260조는 폭행을 처벌합니다. 제257조는 신체 상해를 처벌합니다. 맞대응한 사람의 행위도 따로 판단합니다. 상대가 먼저 때렸어도 모든 반격이 정당방위가 되지는 않습니다. 제21조는 현재의 부당한 침해에 대한 방위에 적용됩니다. 자기나 타인의 법익을 지키는 행위에 상당한 이유가 있어야 합니다.",
+      "changed": true,
+      "reason": "정당방위의 현재성뿐 아니라 부당한 침해, 자기·타인의 법익 방위 목적, 상당한 이유 요건을 명시"
+    },
+    "근거등급": {
+      "before": "A",
+      "after": "A",
+      "changed": false,
+      "reason": "기존 범위·안전경고·출처 보존"
+    },
+    "출처": {
+      "before": "국가법령정보센터. 「형법」 제21조·제257조·제260조. https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290185&type=XML · 국가법령정보센터. 「112신고의 운영 및 처리에 관한 법률」 제2조. https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=257787&type=XML",
+      "after": "국가법령정보센터. 「형법」 제21조·제257조·제260조. https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290185&type=XML · 국가법령정보센터. 「112신고의 운영 및 처리에 관한 법률」 제2조. https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=257787&type=XML",
+      "changed": false,
+      "reason": "기존 범위·안전경고·출처 보존"
+    },
+    "비고": {
+      "before": "상대가 멈췄는데 따라가서 때리지 마세요. CCTV 위치와 목격자 연락처를 남기세요. 위험한 물건을 꺼내는 행동은 상황을 악화시킵니다. 긴급한 방위 판단은 제11항(현재 침해를 막는 행동)을 보세요. 2026-10-10 법령 확인(국가법령정보센터).",
+      "after": "상대가 멈췄는데 따라가서 때리지 마세요. CCTV 위치와 목격자 연락처를 남기세요. 위험한 물건을 꺼내는 행동은 상황을 악화시킵니다. 긴급한 방위 판단은 제11항(현재 침해를 막는 행동)을 보세요. 2026-10-10 법령 확인(국가법령정보센터).",
+      "changed": false,
+      "reason": "기존 범위·안전경고·출처 보존"
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290185&type=XML",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290185.xml",
+      "sha256": "391f3c2bb7173fff4040eda9ae2259674b616e58aeadf4371206b63c70f1c89b",
+      "read_scope": {
+        "articles": [
+          "21",
+          "257",
+          "260"
+        ],
+        "all_paragraphs": true,
+        "basic_information": true,
+        "supplementary_provisions": [
+          "20201208\n17571\n부칙 <제17571호,2020.12.8>\n\n\n이 법은 공포 후 1년이 경과한 날부터 시행한다.",
+          "20230808\n19582\n부칙 <제19582호,2023.8.8>\n\n\n제1조(시행일) 이 법은 공포한 날부터 시행한다. 다만, 제251조, 제254조, 제272조 및 제275조의 개정규정은 공포 후 6개월이 경과한 날부터 시행한다.\n\n\n제2조(사형의 시효 폐지에 관한 적용례) 제77조, 제78조제1호 및 제80조의 개정규정은 이 법 시행 전에 사형을 선고받은 경우에도 적용한다.",
+          "20250318\n20795\n부칙 <제20795호,2025.3.18>\n\n\n이 법은 공포한 날부터 시행한다.",
+          "20250408\n20908\n부칙 <제20908호,2025.4.8>\n\n\n이 법은 공포한 날부터 시행한다.",
+          "20251223\n21231\n부칙 <제21231호,2025.12.23>\n\n\n이 법은 공포한 날부터 시행한다.",
+          "20251231\n21307\n부칙 <제21307호,2025.12.31>\n\n\n제1조(시행일) 이 법은 공포한 날부터 시행한다.\n\n\n제2조(친족 사이의 범행에 관한 적용례) 제328조 및 제365조제1항의 개정규정은 2024년 6월 27일 이후에 최초로 지은 범죄부터 적용한다.\n\n\n제3조(고소기간에 관한 특례) 2024년 6월 27일부터 이 법 시행 전까지 지은 죄로서 종전의 제328조제1항에 해당하는 범죄(준용되는 경우를 포함한다)에 대해서는 「형사소송법」 제230조제1항 본문에도 불구하고 이 법 시행일부터 6개월까지 고소를 할 수 있다.",
+          "20260312\n21450\n부칙 <제21450호,2026.3.12>\n\n\n이 법은 공포 후 6개월이 경과한 날부터 시행한다. 다만, 제123조의2의 개정규정은 공포한 날부터 시행한다.",
+          "20260929\n22007\n부칙 <제22007호,2026.9.29>\n\n\n이 법은 2026년 10월 2일부터 시행한다."
+        ]
+      },
+      "exact_primary_quotes": [
+        "21\n조문\n정당방위\n20261002\n\n\nN\n제21조(정당방위)\n\n①\n① 현재의 부당한 침해로부터 자기 또는 타인의 법익(法益)을 방위하기 위하여 한 행위는 상당한 이유가 있는 경우에는 벌하지 아니한다.\n\n\n②\n② 방위행위가 그 정도를 초과한 경우에는 정황(情況)에 따라 그 형을 감경하거나 면제할 수 있다.\n\n\n③\n③ 제2항의 경우에 야간이나 그 밖의 불안한 상태에서 공포를 느끼거나 경악(驚愕)하거나 흥분하거나 당황하였기 때문에 그 행위를 하였을 때에는 벌하지 아니한다.\n\n[전문개정 2020.12.8]",
+        "257\n조문\n상해, 존속상해\n20261002\n\n\nN\n제257조(상해, 존속상해)\n\n①\n①사람의 신체를 상해한 자는 7년 이하의 징역, 10년 이하의 자격정지 또는 1천만원 이하의 벌금에 처한다. <개정 1995.12.29>\n\n\n②\n②자기 또는 배우자의 직계존속에 대하여 제1항의 죄를 범한 때에는 10년 이하의 징역 또는 1천500만원 이하의 벌금에 처한다. <개정 1995.12.29>\n\n\n③\n③전 2항의 미수범은 처벌한다.",
+        "260\n조문\n폭행, 존속폭행\n20261002\n\n\nN\n제260조(폭행, 존속폭행)\n\n①\n①사람의 신체에 대하여 폭행을 가한 자는 2년 이하의 징역, 500만원 이하의 벌금, 구류 또는 과료에 처한다. <개정 1995.12.29>\n\n\n②\n②자기 또는 배우자의 직계존속에 대하여 제1항의 죄를 범한 때에는 5년 이하의 징역 또는 700만원 이하의 벌금에 처한다. <개정 1995.12.29>\n\n\n③\n③제1항 및 제2항의 죄는 피해자의 명시한 의사에 반하여 공소를 제기할 수 없다. <개정 1995.12.29>"
+      ],
+      "verification_method": "기존 국가법령정보센터 XML 캐시 직접 파싱·원문 열람. 신규 HTTP 요청 아님",
+      "verification_date_utc": "2026-10-18T19:33:06.665512+00:00"
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=257787&type=XML",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/257787.xml",
+      "sha256": "fdb882c418c5cfe84ea14907dc1b7dc082f1a2c5707338667884fa30c097711e",
+      "read_scope": {
+        "articles": [
+          "2"
+        ],
+        "all_paragraphs": true,
+        "basic_information": true,
+        "supplementary_provisions": [
+          "20240102\n19870\n부칙 <제19870호,2024.1.2>\n\n\n이 법은 공포 후 6개월이 경과한 날부터 시행한다."
+        ]
+      },
+      "exact_primary_quotes": [
+        "2\n조문\n정의\n20240703\n000000\n000000\nY\n제2조(정의) 이 법에서 사용하는 용어의 뜻은 다음과 같다.\n\n\n1.\n1. \"112\"란 「전기통신사업법」 제48조에 따른 전기통신번호자원 관리계획에 따라 부여하는 특수번호인 112를 말한다.\n\n\n2.\n2. \"112신고\"란 범죄나 각종 사건ㆍ사고 등 위급한 상황이 발생하였거나 발생할 것이 예상될 때 그 피해자 또는 이를 인지한 사람이 112를 이용한 음성, 문자 신고와 그 밖의 인터넷, 영상, 스마트기기 등을 통하여 신고하는 것을 말한다."
+      ],
+      "verification_method": "기존 국가법령정보센터 XML 캐시 직접 파싱·원문 열람. 신규 HTTP 요청 아님",
+      "verification_date_utc": "2026-10-18T19:33:06.666274+00:00"
+    }
+  ],
+  "audit_findings_addressed": [
+    "8-10 no_new_error_found: 선제 폭행만으로 면책 또는 맞대응 모두 유죄라는 단정 금지 유지",
+    "정당방위 범위 명확화: 형법21조1항의 방위 목적·부당성 추가"
+  ],
+  "intentional_numeric_changes": [],
+  "intentional_scope_changes": [
+    "기존 현재 침해라는 축약을 현재의 부당한 침해와 자기·타인 법익 방위로 구체화. 새로운 일반 면책 보장 없음"
+  ],
+  "doi_changes": {
+    "added": [],
+    "removed": []
+  },
+  "references": {
+    "incoming_title_anchors": [],
+    "title_unchanged": true,
+    "outgoing": {
+      "target": 11,
+      "current_title": "현재 침해를 막는 행동과 보복을 구분하세요",
+      "anchor": "현재 침해를 막는 행동",
+      "in_range": true,
+      "matches_current_title": true
+    }
+  },
+  "unresolved_limits": [
+    "법령 캐시 열람 범위에 한정하며 새 HTTP로 현행성 재검증하지 않았습니다.",
+    "제21조2·3항의 과잉방위 예외는 직접 읽었으나 본 항의 일반요건 요약에 전부 싣지 않고 기존 제11항 참조를 유지했습니다.",
+    "CCTV·목격자 기록 및 위험 회피는 실용적 안전 권고이며 그 예방효과 수치를 법령으로 입증하지 않습니다."
+  ],
+  "protected_preservation": {
+    "cost_tag": true,
+    "evidence_grade": "A",
+    "all_existing_urls": true,
+    "all_original_numbers": true,
+    "original_files_untouched": true
+  },
+  "actual_checks": [
+    {
+      "command": [
+        "python",
+        "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch05/publication-partial-review-evidence/literal_check.py",
+        "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-010-f204/publication-entry-proposal.md"
+      ],
+      "exit_code": 0,
+      "stdout": "[\n  {\n    \"entry\": null,\n    \"path\": \"/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-010-f204/publication-entry-proposal.md\",\n    \"title_chars\": 20,\n    \"easy_chars\": 60,\n    \"easy_sentences\": 3,\n    \"long_sentences\": [],\n    \"pass_length\": true\n  }\n]\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "/workspace/.cache/howtolivebetter/publication/check-full-layout.py",
+        "/tmp/b08010-layout-manifest.json"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"checked\": 1, \"failures\": []}\n",
+      "stderr": ""
+    }
+  ]
+}

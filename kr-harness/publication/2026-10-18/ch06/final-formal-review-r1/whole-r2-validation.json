@@ -1,0 +1,894 @@
+{
+  "reviewer": "publication_final_06",
+  "current_public_raw_sha256": "fd85a1dbc1742ba636afa2580e34f5bf70c0f8f03a2207c30f684debd292dcec",
+  "reversed_four_spans_raw_sha256": "2f52e4efe2356e5363bff1be570a29986e568540aca597059b1f116780791ab7",
+  "matches_prior_public_and_all_other_bytes": true,
+  "intro_tail_unchanged": true,
+  "unchanged_entries": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    17,
+    18,
+    19,
+    20,
+    21,
+    23,
+    24,
+    25,
+    27,
+    28,
+    29
+  ],
+  "operations": [
+    {
+      "entry": 16,
+      "current_entry_sha256": "8052f1d3ee3db5a660a19a6a4d94af825100dc12b99fedc26a017d504943a30a",
+      "approved_entry_exact": true,
+      "only_approved_span_changed": true,
+      "protected_structure_source_urls_unchanged": true
+    },
+    {
+      "entry": 26,
+      "current_entry_sha256": "64f1988db933ed361980b507e28aeefecef07c0b7dd17e21c2b9d1dcc25a9a94",
+      "approved_entry_exact": true,
+      "only_approved_span_changed": true,
+      "protected_structure_source_urls_unchanged": true
+    },
+    {
+      "entry": 5,
+      "current_entry_sha256": "48249ee8b6830a85e32e4631c67fb261cb93577045b3a09cb36a265da65700e8",
+      "approved_entry_exact": true,
+      "only_approved_span_changed": true,
+      "protected_structure_source_urls_unchanged": true
+    },
+    {
+      "entry": 22,
+      "current_entry_sha256": "ff2cab011c9a1a2e59b4b9df95477e4ade5c0eb71e0cf930c791fd5bb17d22f5",
+      "approved_entry_exact": true,
+      "only_approved_span_changed": true,
+      "protected_structure_source_urls_unchanged": true
+    }
+  ],
+  "source_cache_records_rehashed": 96,
+  "fresh_http": false,
+  "reference_targets": [
+    {
+      "chapter": 30,
+      "entry": 4,
+      "document_sha256": "fcf4091d1dde978fddec620fc51f04e531fa5aa907b32e246f2e56aeccc52615",
+      "entry_sha256": "4c8efcecfdd5d1b1444fc78fa9660653c402075e8a71455914da5dd1fb61ce55",
+      "same_actual_target_as_independently_read_approval": true
+    },
+    {
+      "chapter": 2,
+      "entry": 27,
+      "document_sha256": "773251e22e2964d827ea1ca997dc73810887e42bd3297a6fd352837528c79f8c",
+      "entry_sha256": "b11594598b35705f7a7cb24c497f075de08638171d25f5556296fe35a334a51f",
+      "same_actual_target_as_independently_read_approval": true
+    },
+    {
+      "chapter": 2,
+      "entry": 28,
+      "document_sha256": "773251e22e2964d827ea1ca997dc73810887e42bd3297a6fd352837528c79f8c",
+      "entry_sha256": "441857b58bd3091d1b7fefe3918361ee580b1016cc144636aef706f12af6a113",
+      "same_actual_target_as_independently_read_approval": true
+    },
+    {
+      "chapter": 2,
+      "entry": 32,
+      "document_sha256": "773251e22e2964d827ea1ca997dc73810887e42bd3297a6fd352837528c79f8c",
+      "entry_sha256": "d37e790d26393701522831f75c94a7f88d6a4d55ab7085282fe5e519465988af",
+      "same_actual_target_as_independently_read_approval": true
+    },
+    {
+      "chapter": 2,
+      "entry": 16,
+      "document_sha256": "773251e22e2964d827ea1ca997dc73810887e42bd3297a6fd352837528c79f8c",
+      "entry_sha256": "2bb09014b52824face59aa70d32383d203137d55a426b25ac518a388d601a97b",
+      "same_actual_target_as_independently_read_approval": true
+    },
+    {
+      "chapter": 2,
+      "entry": 32,
+      "document_sha256": "773251e22e2964d827ea1ca997dc73810887e42bd3297a6fd352837528c79f8c",
+      "entry_sha256": "d37e790d26393701522831f75c94a7f88d6a4d55ab7085282fe5e519465988af",
+      "same_actual_target_as_independently_read_approval": true
+    },
+    {
+      "chapter": 5,
+      "entry": 33,
+      "document_sha256": "71074014560ada2d12df9a6a1232d8f5c3837cd8d375808f97615bf558ad7e32",
+      "entry_sha256": "ee6c7a05eac6709541e96b7adb614ab1b716aee009abe997424601bda19b3421",
+      "same_actual_target_as_independently_read_approval": true
+    },
+    {
+      "chapter": 5,
+      "entry": 34,
+      "document_sha256": "71074014560ada2d12df9a6a1232d8f5c3837cd8d375808f97615bf558ad7e32",
+      "entry_sha256": "07235d414516313aa13b8913177ab13d5cc7fb22d6633b52b7d1a1645f979566",
+      "same_actual_target_as_independently_read_approval": true
+    },
+    {
+      "chapter": 1,
+      "path": "/workspace/HowToLiveBetter-KR/book-kr/01-너무-일찍-죽지-않기.md",
+      "document_sha256": "22535ac03620bae83541ce2baea5e6ff2b2bddd4bee5c7c0bfd3de526506e0d1",
+      "title": "> **상태: ✅ 현지화·검증·적합성 게이트 통과(2026-10-18)** · 원문: [book/01-不要早死.md](../book/01-不要早死.md) · 현지화 등급: 🟡"
+    },
+    {
+      "chapter": 3,
+      "path": "/workspace/HowToLiveBetter-KR/book-kr/03-기력-낭비-줄이기.md",
+      "document_sha256": "4a28ef24bf2def0a43f93bb2e2daad4bc53959f47322f6fcdf85a6a60480420e",
+      "title": "> **상태: ✅ 현지화·검증·적합성 게이트 통과(2026-10-18)** · 원문: [book/03-不要浪费精力.md](../book/03-不要浪费精力.md) · 현지화 등급: 🟢"
+    },
+    {
+      "chapter": 4,
+      "path": "/workspace/HowToLiveBetter-KR/book-kr/04-시간-낭비-줄이기.md",
+      "document_sha256": "1c7813e9f107ce79def53adf806cabdfe50a41fc845c659e855627bd64b774d4",
+      "title": "> **상태: ✅ 현지화·검증·적합성 게이트 통과(2026-10-18)** · 원문: [book/04-不要浪费时间.md](../book/04-不要浪费时间.md) · 현지화 등급: 🟢"
+    },
+    {
+      "chapter": 5,
+      "path": "/workspace/HowToLiveBetter-KR/book-kr/05-돈-낭비-줄이기.md",
+      "document_sha256": "71074014560ada2d12df9a6a1232d8f5c3837cd8d375808f97615bf558ad7e32",
+      "title": "> **상태: ✅ 현지화·검증·적합성 게이트 통과(2026-10-18)** · 원문: [book/05-不要浪费钱.md](../book/05-不要浪费钱.md) · 현지화 등급: 🟡"
+    },
+    {
+      "chapter": 9,
+      "path": "/workspace/HowToLiveBetter-KR/book-kr/09-흔한-법적-레드라인.md",
+      "document_sha256": "944ab983bf1467dd3e475b1798c9284c2df0ab927bfc75657ac87d928c95a4c4",
+      "title": "> **상태: ✅ 현지화·검증 완료 (R09a 항목별 개선본, 검증 통과) — TODO 9건** · 원문: [book/09-普通人容易踩的法律红线.md](../book/09-普通人容易踩的法律红线.md) · 현지화 등급: 🔴"
+    },
+    {
+      "chapter": 13,
+      "path": "/workspace/HowToLiveBetter-KR/book-kr/13-응급상황.md",
+      "document_sha256": "e3f9b030a63bf8d1a0141933d095be573e9db6c49c439c4da6396292ff0e9cc6",
+      "title": "> **상태: ✅ 현지화·검증 완료 (R13a 항목별 개선본, 검증 조건부 통과) — TODO 12건** · 원문: [book/13-紧急情况.md](../book/13-紧急情况.md) · 현지화 등급: 🟡"
+    },
+    {
+      "chapter": 16,
+      "path": "/workspace/HowToLiveBetter-KR/book-kr/16-만성질환-진단-후-사는-법.md",
+      "document_sha256": "bcf5ffefefb4ad3c2ece04dd09052e1a3de00a0f1fc9d21e4b0eb61ad8603753",
+      "title": "> **상태: ✅ 현지화·검증·적합성 게이트 통과(2026-10-10)** · 원문: [book/16-得了慢性病之后怎么活.md](../book/16-得了慢性病之后怎么活.md) · 현지화 등급: 🟡"
+    },
+    {
+      "chapter": 17,
+      "path": "/workspace/HowToLiveBetter-KR/book-kr/17-집에-어르신이-있을-때.md",
+      "document_sha256": "350305c3d67ff9b920a23fbee9e00d1ab3b6c6ae3e9eb9f6a4011f373dcb4c71",
+      "title": "> **상태: ✅ 현지화·검증·적합성 게이트 통과(2026-10-10)** · 원문: [book/17-家里有老人.md](../book/17-家里有老人.md) · 현지화 등급: 🟡"
+    },
+    {
+      "chapter": 19,
+      "path": "/workspace/HowToLiveBetter-KR/book-kr/19-재직-퇴사-산재.md",
+      "document_sha256": "3e644d50e218cc04049177fa5a6ff81785f657f1eb9f5cbd68a61c6d7057fb3d",
+      "title": "> **상태: ✅ 현지화·검증 완료 (R19a 항목별 개선본, 검증 통과) — TODO 8건** · 원문: [book/19-在职离职和工伤.md](../book/19-在职离职和工伤.md) · 현지화 등급: 🔴"
+    },
+    {
+      "chapter": 22,
+      "path": "/workspace/HowToLiveBetter-KR/book-kr/22-푹-쉬는-법.md",
+      "document_sha256": "85bc5c825ea174688e94248fe3af50e64f5438229b9a046e52dd3deff8df32d3",
+      "title": "> **상태: ✅ 항목별 개선(개별 서브에이전트) 완료 — 2차 TODO 정리 대기** · 원문: [book/22-怎么放松.md](../book/22-怎么放松.md) · 현지화 등급: 🟢"
+    },
+    {
+      "chapter": 28,
+      "path": "/workspace/HowToLiveBetter-KR/book-kr/28-외모-때문에-몸-망치지-않기.md",
+      "document_sha256": "772848381c48147797f9fb4cda86a85f7b02713cc272eccc8d983fb2ca38a723",
+      "title": "> **상태: ✅ 현지화·검증 완료 (R28a 항목별 개선본, 검증 조건부 통과) — TODO 6건** · 원문: [book/28-别为了外形把身体搞坏.md](../book/28-别为了外形把身体搞坏.md) · 현지화 등급: 🟡"
+    },
+    {
+      "chapter": 29,
+      "path": "/workspace/HowToLiveBetter-KR/book-kr/29-큰-타격을-입은-후에.md",
+      "document_sha256": "4f3db5f9a348fed21cc549c285dc5efb10ca2bfbf9c98c90b685d18b2568ea19",
+      "title": "> **상태: ✅ 현지화·검증 완료 (R29a 항목별 개선본, 검증 조건부 통과) — TODO 5건** · 원문: [book/29-遭遇重大打击之后.md](../book/29-遭遇重大打击之后.md) · 현지화 등급: 🟡"
+    },
+    {
+      "chapter": 30,
+      "path": "/workspace/HowToLiveBetter-KR/book-kr/30-학교-다니는-아이.md",
+      "document_sha256": "fcf4091d1dde978fddec620fc51f04e531fa5aa907b32e246f2e56aeccc52615",
+      "title": "> **상태: ✅ 현지화·검증·적합성 게이트 통과(2026-10-10)** · 원문: [book/30-上学以后的孩子.md](../book/30-上学以后的孩子.md) · 현지화 등급: 🟡"
+    }
+  ],
+  "lengths": [
+    {
+      "entry": 1,
+      "title_chars": 29,
+      "easy_chars": 104,
+      "easy_sentences": 4,
+      "long_sentences": []
+    },
+    {
+      "entry": 2,
+      "title_chars": 27,
+      "easy_chars": 107,
+      "easy_sentences": 4,
+      "long_sentences": []
+    },
+    {
+      "entry": 3,
+      "title_chars": 43,
+      "easy_chars": 98,
+      "easy_sentences": 3,
+      "long_sentences": []
+    },
+    {
+      "entry": 4,
+      "title_chars": 45,
+      "easy_chars": 108,
+      "easy_sentences": 4,
+      "long_sentences": []
+    },
+    {
+      "entry": 5,
+      "title_chars": 39,
+      "easy_chars": 103,
+      "easy_sentences": 3,
+      "long_sentences": []
+    },
+    {
+      "entry": 6,
+      "title_chars": 19,
+      "easy_chars": 113,
+      "easy_sentences": 4,
+      "long_sentences": []
+    },
+    {
+      "entry": 7,
+      "title_chars": 43,
+      "easy_chars": 111,
+      "easy_sentences": 3,
+      "long_sentences": []
+    },
+    {
+      "entry": 8,
+      "title_chars": 29,
+      "easy_chars": 84,
+      "easy_sentences": 3,
+      "long_sentences": []
+    },
+    {
+      "entry": 9,
+      "title_chars": 34,
+      "easy_chars": 87,
+      "easy_sentences": 3,
+      "long_sentences": []
+    },
+    {
+      "entry": 10,
+      "title_chars": 34,
+      "easy_chars": 102,
+      "easy_sentences": 4,
+      "long_sentences": []
+    },
+    {
+      "entry": 11,
+      "title_chars": 33,
+      "easy_chars": 91,
+      "easy_sentences": 3,
+      "long_sentences": []
+    },
+    {
+      "entry": 12,
+      "title_chars": 28,
+      "easy_chars": 97,
+      "easy_sentences": 4,
+      "long_sentences": []
+    },
+    {
+      "entry": 13,
+      "title_chars": 29,
+      "easy_chars": 66,
+      "easy_sentences": 2,
+      "long_sentences": []
+    },
+    {
+      "entry": 14,
+      "title_chars": 28,
+      "easy_chars": 120,
+      "easy_sentences": 4,
+      "long_sentences": []
+    },
+    {
+      "entry": 15,
+      "title_chars": 31,
+      "easy_chars": 115,
+      "easy_sentences": 4,
+      "long_sentences": []
+    },
+    {
+      "entry": 16,
+      "title_chars": 50,
+      "easy_chars": 101,
+      "easy_sentences": 4,
+      "long_sentences": []
+    },
+    {
+      "entry": 17,
+      "title_chars": 51,
+      "easy_chars": 113,
+      "easy_sentences": 3,
+      "long_sentences": []
+    },
+    {
+      "entry": 18,
+      "title_chars": 55,
+      "easy_chars": 115,
+      "easy_sentences": 4,
+      "long_sentences": []
+    },
+    {
+      "entry": 19,
+      "title_chars": 44,
+      "easy_chars": 106,
+      "easy_sentences": 4,
+      "long_sentences": []
+    },
+    {
+      "entry": 20,
+      "title_chars": 44,
+      "easy_chars": 108,
+      "easy_sentences": 4,
+      "long_sentences": []
+    },
+    {
+      "entry": 21,
+      "title_chars": 20,
+      "easy_chars": 77,
+      "easy_sentences": 3,
+      "long_sentences": []
+    },
+    {
+      "entry": 22,
+      "title_chars": 36,
+      "easy_chars": 86,
+      "easy_sentences": 3,
+      "long_sentences": []
+    },
+    {
+      "entry": 23,
+      "title_chars": 36,
+      "easy_chars": 112,
+      "easy_sentences": 4,
+      "long_sentences": []
+    },
+    {
+      "entry": 24,
+      "title_chars": 51,
+      "easy_chars": 120,
+      "easy_sentences": 4,
+      "long_sentences": []
+    },
+    {
+      "entry": 25,
+      "title_chars": 32,
+      "easy_chars": 107,
+      "easy_sentences": 4,
+      "long_sentences": []
+    },
+    {
+      "entry": 26,
+      "title_chars": 59,
+      "easy_chars": 108,
+      "easy_sentences": 4,
+      "long_sentences": []
+    },
+    {
+      "entry": 27,
+      "title_chars": 48,
+      "easy_chars": 102,
+      "easy_sentences": 3,
+      "long_sentences": []
+    },
+    {
+      "entry": 28,
+      "title_chars": 43,
+      "easy_chars": 95,
+      "easy_sentences": 3,
+      "long_sentences": []
+    },
+    {
+      "entry": 29,
+      "title_chars": 65,
+      "easy_chars": 78,
+      "easy_sentences": 3,
+      "long_sentences": []
+    }
+  ],
+  "source_cache": [
+    {
+      "path": "/tmp/ch06e01-primary/jama.2012.14805.json",
+      "sha256": "d075f78a6953da954e1a86cb5fc106d1b2b073aecbb8bee57c9273d495a5449d",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/tmp/ch06e01-primary/jama.2012.14641.json",
+      "sha256": "70390f3ed79677087fb8692bdef24e625d83ec6ee15629cd84d5a4b1123aeea9",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/tmp/ch06e02-evidence/NEJMoa1812792.json",
+      "sha256": "c27b0a519c68ee4999715c848fed37d96382e786bc1b001a3f387d1b372db526",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/tmp/ch06e02-evidence/NEJMoa1804989.json",
+      "sha256": "b5221bcd0db197baafb22f3a9c9a701f88c47b59182ad185250728368568d03b",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/tmp/ch06e02-evidence/NEJMoa1811403.json",
+      "sha256": "9fd2bd226492e034a75740bc5ce0576fad097134479a823bfea0a5fbe0d47f1e",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/9747d128c0ef4c0928bb.json",
+      "sha256": "7dae1a2942a1219a0ce19c6c8cb1b2f5473ad7be3fe3f4dc7a6fd9e7e7d5f670",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/7fae5f036002c7159805.json",
+      "sha256": "2ed5b9a597d1f028c3dce9b9776282cc686c296afe32fd771094d5710b0a8005",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-004-1203/source-evidence/cochrane.json",
+      "sha256": "4970bf777f6ff4af42264d528485d0c24d7b9e61fdc8afa099a9da595305be69",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-004-1203/source-evidence/atbc.json",
+      "sha256": "01b6c2c8b99a3740c4d2af55270fbd24c83e3fc29838401f96ae51c75684b2c1",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-004-1203/source-evidence/caret.json",
+      "sha256": "9148946647f0cc8271670b0b88b3a5225c453f7aa5df1db4e815a7c3f228ee01",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/tmp/ch06e05-primary.json",
+      "sha256": "b4821a9f837de51fdf26d4c1fc33e2ee77ddd074ba73c09aeb0e82439675ecd2",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch06-partial-review/e23-author-preserved-primary-0.json",
+      "sha256": "24c8dfa1ebeacbda7d7ae6f31e295dca89184ea3681ea229c862f44ee32b9c62",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch06-partial-review/e23-author-preserved-primary-1.json",
+      "sha256": "955c3d1fe0cdf4f7ecebee9895594ff82e41e9016d8e7692f2e7a5014c27bd48",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/5ad7cf2187fe044c7a87.json",
+      "sha256": "3e6d82149cb898d582d7d2c83e8b5bfc06162d057c8ee82bb01180ace3aa6c13",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/70e76d00f88d9012320b.json",
+      "sha256": "e1acf79ccf1033edae5cde94cd0437590d1325022bc76f4ac4bd5ff65ee6c863",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/9d5f37375edf77fdcd9d.json",
+      "sha256": "c95ce7f03dd69d878e4df6c839a9e6a43d37e4d0096e9202ef314b3cd1df9c6d",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/a95c3e5bd96b5fe12bfe.json",
+      "sha256": "7e9d83d4fbd73948ad0bb68e01b100731864c54968df6e52e573e70864f99a2a",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/b4f8b45880d4bb6c611b.json",
+      "sha256": "beabbee02ee720ecc3fc8727715c915eb73995fe4072111d73b60285642354b4",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/82183c9894a90ce35f32.json",
+      "sha256": "a0e9d3d8c6961428a2b5c4dbd0560be7253ea90429cd9062cac7c68eae32a4f1",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/afd354b2e3a193d3645c.json",
+      "sha256": "69cc8d851ef436f042847e9e65c4ecbad139cc000355a6f30d3ea28413a0c67b",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/92bc9883495b8644c390.json",
+      "sha256": "965be1a704d73f9d600e79cf4011f128fd6edfc0c9e600ac77cb7a3017a62b50",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/61899516627b1139394a.json",
+      "sha256": "ca71db06aed89a4b9c9f0422111a340c2cdc3afff2f2baa8781648b221fed905",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/37b200f972c6ce1078ea.json",
+      "sha256": "64321a7e2cc06b959e70669017d33a005683dc1729eea92c400f7be553d2d069",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/cb802f53bfa103c005f5.json",
+      "sha256": "787daa18ae32fa10e82ff4a58bf1a7c5e9a541de58a4a242458c41cc52b0b642",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/1c3317031879209f8439.json",
+      "sha256": "c1fbc1ef48a0bebaec0a97e3b479a7039bc36812f3e9d26167c5b7e11da1e6d9",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/6c682b55c19551c9da45.json",
+      "sha256": "fc7ae9e4588f3f160777b4792a6fbd3d17e9ae1ae2cfba40612d552da06874c4",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/99e26407154cfc0c2adb.json",
+      "sha256": "c4d537680fd0cc3bf8a168d84bbb0f41fbb58f2dd9a843322605ec8d3c6f0c5f",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/5d5fd32efc63f2ce7951.json",
+      "sha256": "a71f6c4ef9af01a355c575bc52c29cb80b1030344548ed6463d90fa631c7df87",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/6017ced472d3d15c9201.json",
+      "sha256": "1342c5f18fc126857089460fda014662479efb1b050c5b3631977c50dd6fdc20",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/9fafe6e732666ab4cce5.json",
+      "sha256": "0cacaec160ff1d3255084d82496bb705786da5877f4b0bc88a0d2e0589b07299",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/a1a25f6fa05eea60a0ad.json",
+      "sha256": "a2c6bf99335308c23591c19fd066ae38a35c492971069e09fb0d3928dd19ffee",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/6a26694c442a96a15042.json",
+      "sha256": "f5872168888e83d25ad5bf0806abab930af181cb55a796aa45372b290b0505ec",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/1966e93f8770c5f10e1f.json",
+      "sha256": "58f8a06a205c4df73bbc7e869be667bc460c3ddef2836befa70277dcb0f582f7",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/tmp/ch06e07/furtado.raw",
+      "sha256": "59dda89cd6c5f2be4f874714edc7cb9c135b833f481bbd7ab390687481e5cc28",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/2493cd912afbfccc8225.json",
+      "sha256": "0390e6833524cbf0604ef6eed7b842e4973146651cdd82574feee78a5dd82f1c",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/tmp/ch06e09-primary.json",
+      "sha256": "104a5805196d6f4911be7e5aa281d24aa51908b93b31cde8d4ebb553d52895bd",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-011-da33/source-evidence/primary-abstract.json",
+      "sha256": "4fda5acedea97b7c8601a2effe0ca2140a5738758719a257e4150aedaf3a8b31",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-013-8319/source-evidence/primary-1.json",
+      "sha256": "71decf9c06765a0eb40330f1479b0fb8d3c513764bd82b7bba8258cdf5a6e444",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/1977fb61e79fba94c5ad.json",
+      "sha256": "4244cbcd6ada7bb25ebf088ce4b8790de5daf3bdff37d108618de79044b10d7b",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/573f6471c57338f53ce0.json",
+      "sha256": "6e2ee5fed190d38122aee3a24f83dec95c44b39df202ca2c3c1b70709578d141",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/tmp/ch06e17-primary/0.json",
+      "sha256": "c821542aea2a994828d42404ed27473e128eec7a7d055fc74c3b74d92f9357c6",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/tmp/ch06e17-primary/1.json",
+      "sha256": "360d1c6a539c523ed47d7d6680632a9357b25c299fa0eed2ad98b4c57799173f",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/tmp/ch06e17-primary/2.json",
+      "sha256": "a69e354b4ba3f773cca02340079c3db4fd6e12ed902eb25723ef3a804fdd2bdb",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/tmp/ch06e17-primary/interval.json",
+      "sha256": "0cac24236b7a46fb97d40379ecf139fa20634d824da8e612aa7949e5b70bb06d",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/tmp/ch06e17-primary/4.json",
+      "sha256": "3923e9b9da27a07573a92a4d497320e2998e6ac0aca2060312a16843394ebafb",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/4ec8fef72bc40fc44bd6.json",
+      "sha256": "ced618db16e1d331ae65fd0c1ba4ee36fd6989cef7e76ae558db6544f7f4350e",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/tmp/ch06e19-primary/NEJMoa1915833.json",
+      "sha256": "ae4bd5176db240eae5e40121179abfff5341822a48826fff95c5835a096291d3",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/tmp/ch06e19-primary/NEJMoa1916624.json",
+      "sha256": "b820a30f896d6fad599f0544a1b1362f229e8745b32c1baceb4206ff07a25b4d",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/71ef7cea76eab28e3f41.json",
+      "sha256": "39406792504a8257c1590aabd22442e5c447fa5e0ca70970bbebd58f3d2286d2",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/74870df121a77d420780.json",
+      "sha256": "9eb79720052a74c453159f82ebae858c2dbb98bf0e3554aed8762a9e367b6d31",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/ec74655efb315f62ef53.json",
+      "sha256": "ae737d6c5a5f674c9b45c22158c4eacad5f578d7f73c3f428f8eecef5612f0e4",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/1a6f54686c090e75c32e.json",
+      "sha256": "a3a0b737b8b0a78db4228b758294f6aed9bb8b57f97bbc23c34fc34a90fb790e",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/34ab36452f00da039795.json",
+      "sha256": "e57647e0c82b47390f3ebdfa56f1b73c2bc0bb1983add71fccd3c976a4cf1f99",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/145027236543a9be7315.json",
+      "sha256": "44bbc38404b2fd05497bdd3d22da8b6832217472591067b2506b0d5c4eb11a0e",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/87d6d9e371b27e1a5c37.json",
+      "sha256": "dce630aacd9172050cc80f03a9dd307833a78adeae1f17ca2d7d81e9fb0fe005",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/tmp/ch06e01-primary/cancer-bioc.json",
+      "sha256": "c87e62178fd690183e65ca2f3839f134cac44a6f07286406704c73c4bceb8557",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/tmp/ch06e01-primary/uspstf.html",
+      "sha256": "6f88656317949b59d550744377eff8f1e781a359c4439b98d5e44d26199efbd2",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/tmp/ch06e02-evidence/consumer.html",
+      "sha256": "3ca3a5814169ed4e18db8ca7abfc0c84c83b1dc82729797c8541c71942a79360",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/tmp/ch06e03-vital-bioc.raw",
+      "sha256": "630eabd401555c6ee71fb7396d445e14fb89dac4c67caf3b0b63919d5cb30234",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch06-audit/adlaw-retry.raw",
+      "sha256": "cbd6c690649b0d02b22f7832b8e39c99b9c066f9d3f10da236497dc9bcb70e9f",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/tmp/entry22-source/1.raw",
+      "sha256": "37b36f6808ad132c60adf02b199632a73594a6ac54aac7f7effd64cf08e3859c",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch06-partial-review/e24-nber-original.pdf",
+      "sha256": "bc8412f1b10b1a0c478ce82b34b61dd06916eb5b83976164e1ee2f91d63d4e54",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/pmc-fulltext/PMC11684388.xml",
+      "sha256": "fa89a40373ddacc888ea32343c8c65db3829017da907d93c3204a80aba882ef2",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/pmc-fulltext/PMC12702892.xml",
+      "sha256": "5bc463443b6ea9fe77586748ee5076680699510f3aa45a4979114d4cfc71cd91",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/285345.xml",
+      "sha256": "104f6e8ceb1e5d4f0c35b5bffa866b09a38e4b8c72047452d6ba6d8d40c8f35b",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch06-partial-review/who-f66-r12.raw",
+      "sha256": "17cc5922bb13ec187092821af6baad8e1dd4c4c6f5ce41f8ec12ac8e4a83e29c",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch06-partial-review/ryan-bioc-r12.raw",
+      "sha256": "6043093a9e655d5b890199a430032e993c4685636177d8fe29060037b286c1f3",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/publication/hse-apa-retrieval-r1/11e60aca3a4b582584214a78954c4e27031cfec5310397c99ab346f4cff33c63.raw",
+      "sha256": "2c518e230df0b4f48dd86be04aee6c81ac6cfc2c49734486bbeafa2211c99a0e",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/publication/blosnich2020-discovery-r1/d0b5e842e1d7d350c6d0f2c622f728dc3507cb269050b327a9177507584a9aa5.raw",
+      "sha256": "0cc378fd460249a80630d69db25c2a88da981ccbff72be46d360b2f60e9b73d6",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/publication/hse-technique-retrieval-r1/good-handling-technique.raw",
+      "sha256": "62e1a4d3a9b3b55914970443ee393796b5b999db2aa7c89a1daa4d08c0b00498",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/publication/hse-technique-retrieval-r1/training.raw",
+      "sha256": "7e4f44e772f6ab11ef1cce58ebf1e12f3338cee9939cee9d88dd25f61a9c4334",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/tmp/ch06e07/uspstf.raw",
+      "sha256": "b424ebbdf4849f19751e5d8d63f09b80000990f76472c1ca04b478aef7d19fa5",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/tmp/ch06e07/price.raw",
+      "sha256": "5bb2c473f9a6aefae0ef21695f46abc3d14fac0066235363a442a74302d9ae73",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch06-audit/foodlaw-full.raw",
+      "sha256": "9fb95b63ffa6113ff0b33eac3b281a5b75c68f07289c76b1a7308eb87148056a",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/tmp/ch06e12-0161749.xml",
+      "sha256": "e01e48c5d4dc9fcca7231bd6dff7f910b471d2246c2b5f9c69c874b0ac174636",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/tmp/ch06e12-0317615.xml",
+      "sha256": "4f6e369d863366315d1d14907b75367b68a8b21aa5068c4bba809f75c436c01a",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-013-8319/source-evidence/fenton-full.xml",
+      "sha256": "d56524db52e9334f21ec13a3d92bcadaac2f7357b77a72f34dff0b67d335b7aa",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/tmp/ch06e16-evidence/glaucoma.html",
+      "sha256": "5cebe2e153077d88a70690b7d5df6df21c0e66473ab4e6db0b612756663c7c7a",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/tmp/ch06e16-evidence/dryeye.html",
+      "sha256": "068e24d3e94e02fe141bc17255f8beb6364f0439c40696732905ddc4286d690e",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/tmp/ch06e16-evidence/welding.html",
+      "sha256": "19510e041f8e1f86b3aff783b5ca1901cbb317493dc4db4fda7c2ab593751aed",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/tmp/ch06e17-primary/criteria.html",
+      "sha256": "756ddb2a138e8b6efbf97f2b7d8b7a63d0071777fb0578a4f93221ca96bdd9b1",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/tmp/ch06e17-primary/certificate.html",
+      "sha256": "74934f0f47007c475b5366602fdf2ac5d37dd3b956b2612136a5c8080539fcd4",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/238113.xml",
+      "sha256": "953f96897c88abb6c41b65cc8b591365237217b3ddbb8c19f8b728410f1d2cc2",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch06-audit/nrc.raw",
+      "sha256": "ea5b36558bbc4e0ba3cd6856d70973b09bbba11092a5015f3cc6771e16cd1b31",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch06-partial-review/screening-7cf98da430d9.raw",
+      "sha256": "198e3eec4412a2678fc77bcbdf0b63bebb82d9b2439fd4ee3f0ccda18bfa1e6f",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch06-partial-review/cancer-law-281931.raw",
+      "sha256": "98771b99905229cc444088ad19a821f6162923eeb202670eb2be2600c8f5fe34",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/tmp/ch06e19-primary/pmc2",
+      "sha256": "25a5db7b97fdf634dd11d8c8604d23e249b7a1f06aa429188dd87ea1c92f98c9",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch06-audit/nice.raw",
+      "sha256": "31c01c1ead5dccfd343634010b3548e37e804e542440ed9f62e29bbadf334c2e",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/pmc-fulltext/PMC3469410.xml",
+      "sha256": "33d3519a32db9ea659db7950835f969a3e0aeeb094603092de9c88464a1ee9da",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/tmp/ch06e21-nice.html",
+      "sha256": "87cd645df5fbf3343cb786d2b43521ac0ba24f61f5259c95f4896e883329fac1",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch06-partial-review/easl-24c0d1cb561c.raw",
+      "sha256": "f2b05f247e49ca4bfaac08f025b8a29831740eadc2cbbc03fc317246b7c0d094",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290185.xml",
+      "sha256": "391f3c2bb7173fff4040eda9ae2259674b616e58aeadf4371206b63c70f1c89b",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/publication/forer-discovery-r1/7da63172d103ed478e477f3293eb22e6a1b032f9fa054b3957d386b5231692c5.raw",
+      "sha256": "76cc0c3a0ba6ea3abc13eebe7ac5d2d26da1d02b64406442e8555d73df41920e",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch06-partial-review/forer-original-spread-2.png",
+      "sha256": "5500f102ad70a42b1d2ae32ffab416659e81e5267a5e1f360dca9aabd9544fcb",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/tmp/ch06e15/carlson.raw",
+      "sha256": "8e0caec4419776dd0b6904bab890960b1da35bf064967fb4aac9452995fb38dd",
+      "matches_previously_actually_read_bytes": true
+    },
+    {
+      "path": "/tmp/ch06e15/page-5.png",
+      "sha256": "24092d6575ed6a5da1c0fe71fd8d1543c0b9812b776c8e58548fa7faa5d285aa",
+      "matches_previously_actually_read_bytes": true
+    }
+  ],
+  "old_formal_archive_sha256": "fba4f8b97384ab1efe09065a157062532eb3d99f3ce3e9aa28c870e51e34f481",
+  "immutable_approvals_sha256": {
+    "post-formal-source-review-r1.json": "a6c0850d39a37599bab2a12d6907414fbd31cd20435f0ac00395b071af0d7659",
+    "post-formal-source-review-r2.json": "93a9405ba3b77f6b9941e0ef738147e164a1b3d6d182cac89d7edb6239372998"
+  }
+}

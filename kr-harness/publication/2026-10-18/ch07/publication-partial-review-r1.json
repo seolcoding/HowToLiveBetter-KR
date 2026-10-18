@@ -1,0 +1,708 @@
+{
+  "status": "completed_partial_1_to_4_revisions_required",
+  "chapter": "07",
+  "reviewer_id": "/root/publication_review_09",
+  "reviewed_at_utc": "2026-10-18T18:51:17.120122+00:00",
+  "scope": "frozen first batch entries1–4only;all22approval아님",
+  "manifest_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/author-partial-manifest-1.json",
+  "manifest_sha256": "76946aad59bee921ec00a3b8d70bb592b5e9446e854a2eac41c6079635b65730",
+  "entries": [
+    {
+      "entry": 1,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/_workspace/2026-10-18-001-44a6/publication-entry-proposal.md",
+      "proposal_sha256": "e49ecabf1a74a244860c2a39fcad6605f012638252ce01e231059d8b807dee90",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/_workspace/2026-10-18-001-44a6/publication-entry-changes.json",
+      "changes_sha256": "e397d90cf7bdad1d8d71e8acb6d10e3ddd5bd81f8d01d0d681376c5ab5101676",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/_workspace/2026-10-18-001-44a6/strict-entry.md",
+      "base_strict_entry_sha256": "2c25607e35ff219c8bbd0ecbe5c3af222a864adfa30f08dc49579cadfeee1183",
+      "literal_exit_code": 0,
+      "decision": "approve",
+      "review_kind": "independent_full_entry_source_and_editorial_review",
+      "reason": "approve: 현행20260918 고용보험법 별도raw와미래기본XML/21473부칙을직접대조했다. 18개월/180일·의사능력/재취업·60%/하한·연령가입기간일수·원칙12개월 및2028전이직자종전산정에맞는다. 기준기간/수급기간의예외가있으므로본문원칙이라는범위를유지한다. 신청수수료와센터방문/실업인정의시간을분리하며온라인만으로완료보장하지않는다. 일반근로자대상한정·특수형태별도/자진퇴사정당사유심사·건보자동면제부정유지. 최신요청실패는기관본문없음/법규오류로바꾸지않고실제현행캐시로독립확인했다.",
+      "field_decisions": {
+        "title": "approve",
+        "비용": "approve",
+        "쉽게": "approve",
+        "이득": "approve",
+        "근거등급": "approve",
+        "출처": "approve",
+        "비고": "approve"
+      },
+      "revision_requests": [],
+      "length_check": {
+        "title_characters": 29,
+        "easy_characters": 89,
+        "easy_sentences": 3,
+        "ordinary_sentences_over_50": [],
+        "counting_rule": "공백괄호포함literal;출처서지만제외;법명·조문번호포함ordinary전수;임의50자면제없음."
+      },
+      "structural_check": {
+        "six_single_line_fields_in_order": true,
+        "cost_tag_verbatim": true,
+        "evidence_grade_verbatim": true,
+        "title_verbatim": true,
+        "title_change_review": "unchanged",
+        "summary_absent": true,
+        "legacy_continuation_accounted_for": false,
+        "all_changes_before_after_exact": true,
+        "actual_changed_fields": [
+          "이득",
+          "출처",
+          "비고"
+        ],
+        "doi_before": [],
+        "doi_after": []
+      },
+      "source_ids": [
+        "raw:e7af050cadeb394c82d5",
+        "raw:d8396188ef9d8a1bfc07",
+        "raw:b3e89162e7deca1ea582",
+        "raw:280b4bec05c376ed4fac"
+      ],
+      "canonical_closure": "초기감사판정재사용없이fullstrict/proposal/changes와원자료재열람.새후보조립·정식KR-FIT승인아님.",
+      "cross_references": "제9항건강보험자격의현재제목·제19절재직·퇴사·산재 실제확인;제목불변으로incoming보존."
+    },
+    {
+      "entry": 2,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/_workspace/2026-10-18-002-d1df/publication-entry-proposal.md",
+      "proposal_sha256": "f5266e9de82437e530575e83d8e8ca65f128730ea9d50c495d275b95f6be42dc",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/_workspace/2026-10-18-002-d1df/publication-entry-changes.json",
+      "changes_sha256": "a6d3f7d0914134e6f4f33fdbf104035fadf94aea31811a031703a5a3ec4fa104",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/_workspace/2026-10-18-002-d1df/strict-entry.md",
+      "base_strict_entry_sha256": "b7e23690028acd8f42e83fa77e16cc0f8f5078f591bf272a95b095c98dd0285a",
+      "literal_exit_code": 0,
+      "decision": "revise",
+      "review_kind": "independent_full_entry_source_and_editorial_review",
+      "reason": "revise: 임금14일/합의예외·월1회정기전액과법령단체협약/임시지급예외·시효3년,소송/변호사산입/집행예납/회수가능성한계는원문과맞는다. 신규공식진정서상세에서수수료없음이실제확인되었으므로비고의현재안내미확인은오래된상태다. 또한제22항실제고용주라는앵커는현재대상제목실제고용관계에맞지않는다. 이두곳수정및변경근거갱신후새exactSHA검토필요.",
+      "field_decisions": {
+        "title": "approve",
+        "비용": "approve",
+        "쉽게": "approve",
+        "이득": "approve",
+        "근거등급": "approve",
+        "출처": "revise",
+        "비고": "revise"
+      },
+      "revision_requests": [
+        {
+          "field": "비고",
+          "before": "진정 수수료의 현재 안내는 확인하지 못했습니다.",
+          "requirement": "신규공식상세의수수료없음확인상태로갱신.출처/changes에진정서상세URL·rawSHA·실제열람범위반영.더이상미확인이라고남기지말것.",
+          "source_url": "https://labor.moel.go.kr/minwonApply/minwonFormat.do?searchVal=SN001"
+        },
+        {
+          "field": "비고",
+          "before": "제3항(법률구조), 제22항(실제 고용주)을 함께 보세요.",
+          "requirement": "제22항의실제현재제목에서뽑은앵커사용.현재제목은체불임금이면사업자등록보다실제고용관계부터확인하세요.추후제목승인변경시그exact제목으로재확인."
+        }
+      ],
+      "length_check": {
+        "title_characters": 32,
+        "easy_characters": 75,
+        "easy_sentences": 3,
+        "ordinary_sentences_over_50": [],
+        "counting_rule": "공백괄호포함literal;출처서지만제외;법명·조문번호포함ordinary전수;임의50자면제없음."
+      },
+      "structural_check": {
+        "six_single_line_fields_in_order": true,
+        "cost_tag_verbatim": true,
+        "evidence_grade_verbatim": true,
+        "title_verbatim": false,
+        "title_change_review": "2항 임금이밀리면→임금체불이면:의미동일/도입·22항incoming임금체불복구",
+        "summary_absent": true,
+        "legacy_continuation_accounted_for": true,
+        "all_changes_before_after_exact": true,
+        "actual_changed_fields": [
+          "이득",
+          "비고"
+        ],
+        "doi_before": [],
+        "doi_after": []
+      },
+      "source_ids": [
+        "raw:222fd311aa29570bf004",
+        "raw:dd6228b88d970e33b979",
+        "raw:b6fed84c2a5a5ce63685",
+        "raw:e85b1c66c027d60c73ce",
+        "raw:02da728174bf4cde4bdf"
+      ],
+      "canonical_closure": "초기감사판정재사용없이fullstrict/proposal/changes와원자료재열람.새후보조립·정식KR-FIT승인아님.",
+      "cross_references": "제3항법률구조일치.제22항실제고용주앵커불일치로revise."
+    },
+    {
+      "entry": 3,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/_workspace/2026-10-18-003-59ae/publication-entry-proposal.md",
+      "proposal_sha256": "4397a2f08a4ee703189e4e24b7f70f950153b4c83b4ed42134315b9b42b7e7a1",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/_workspace/2026-10-18-003-59ae/publication-entry-changes.json",
+      "changes_sha256": "f7a8e658bc645dc5e66ab7c0bbeaebbeec2a3136517a410b1f2fa1d83fb85b5a",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/_workspace/2026-10-18-003-59ae/strict-entry.md",
+      "base_strict_entry_sha256": "a292771902514c063f627e726db2bd67865834136a31d1c9492d919c30811913",
+      "literal_exit_code": 0,
+      "decision": "approve",
+      "review_kind": "independent_full_entry_source_and_editorial_review",
+      "reason": "approve: 공단실제소송구조개요의일반유료125%와무료유형별조건을구분했다. 법7/시행령4의수수료원칙·소송비/보수예외·국가부담가능성을보장으로바꾸지않았다. 공단안내의승소금액3억원초과무료제외/패소상대방비용/형사고소대리원칙제외와피해자국선지정예외를그대로한정했다. 동적무료대상표/내부규정전체미열람을독자비고에공개하고개별심사를안내하여미확인을숨기지않는다.",
+      "field_decisions": {
+        "title": "approve",
+        "비용": "approve",
+        "쉽게": "approve",
+        "이득": "approve",
+        "근거등급": "approve",
+        "출처": "approve",
+        "비고": "approve"
+      },
+      "revision_requests": [],
+      "length_check": {
+        "title_characters": 26,
+        "easy_characters": 81,
+        "easy_sentences": 3,
+        "ordinary_sentences_over_50": [],
+        "counting_rule": "공백괄호포함literal;출처서지만제외;법명·조문번호포함ordinary전수;임의50자면제없음."
+      },
+      "structural_check": {
+        "six_single_line_fields_in_order": true,
+        "cost_tag_verbatim": true,
+        "evidence_grade_verbatim": true,
+        "title_verbatim": true,
+        "title_change_review": "unchanged",
+        "summary_absent": true,
+        "legacy_continuation_accounted_for": false,
+        "all_changes_before_after_exact": true,
+        "actual_changed_fields": [
+          "이득",
+          "출처",
+          "비고"
+        ],
+        "doi_before": [],
+        "doi_after": []
+      },
+      "source_ids": [
+        "raw:c7666e0314674b32bbd2",
+        "raw:9e69fca8d449944e4d19",
+        "raw:3422b17fd8f2de372aad",
+        "raw:cdb10e2603ca1c1bac6f",
+        "raw:1c7ee8ba2835b35fd473",
+        "raw:84b195dcc59383645c71"
+      ],
+      "canonical_closure": "초기감사판정재사용없이fullstrict/proposal/changes와원자료재열람.새후보조립·정식KR-FIT승인아님.",
+      "cross_references": "outgoing없음/title불변으로incoming보존."
+    },
+    {
+      "entry": 4,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/_workspace/2026-10-18-004-a0c7/publication-entry-proposal.md",
+      "proposal_sha256": "b0f3882df1ce3dbbb81c9723a9cd2a122b6a5f88c5784adcdb12ecc4794abcae",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/_workspace/2026-10-18-004-a0c7/publication-entry-changes.json",
+      "changes_sha256": "842cabb74acfb084f3e96f8931ee710eb97b21ed68a1f2439261a5714748e392",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/_workspace/2026-10-18-004-a0c7/strict-entry.md",
+      "base_strict_entry_sha256": "70da58bd8e542044732dbfe734b80e14847a6e60d37fe4a8ff5d28c5164c5358",
+      "literal_exit_code": 0,
+      "decision": "approve",
+      "review_kind": "independent_full_entry_source_and_editorial_review",
+      "reason": "approve: 노숙인법10~15/령4/규칙2·11~14/해당부칙과129본문을직접대조. 법상대상18세이상,주거지원할수있다의재량·상담/심사·당일공실/가족/이용시간/비용확인범위를보존했다. 무료는129상담에만한정,귀향표전국보장없음/시설당일입소보장없음 명시. 무신분우선상담권고는무신분입소보장아님. 중국무료귀향표·10일이용조건이식없음.",
+      "field_decisions": {
+        "title": "approve",
+        "비용": "approve",
+        "쉽게": "approve",
+        "이득": "approve",
+        "근거등급": "approve",
+        "출처": "approve",
+        "비고": "approve"
+      },
+      "revision_requests": [],
+      "length_check": {
+        "title_characters": 34,
+        "easy_characters": 80,
+        "easy_sentences": 3,
+        "ordinary_sentences_over_50": [],
+        "counting_rule": "공백괄호포함literal;출처서지만제외;법명·조문번호포함ordinary전수;임의50자면제없음."
+      },
+      "structural_check": {
+        "six_single_line_fields_in_order": true,
+        "cost_tag_verbatim": true,
+        "evidence_grade_verbatim": true,
+        "title_verbatim": true,
+        "title_change_review": "unchanged",
+        "summary_absent": true,
+        "legacy_continuation_accounted_for": false,
+        "all_changes_before_after_exact": true,
+        "actual_changed_fields": [
+          "비용",
+          "이득",
+          "출처",
+          "비고"
+        ],
+        "doi_before": [],
+        "doi_after": []
+      },
+      "source_ids": [
+        "raw:e16072e129dac3a7faea",
+        "raw:5e482d7b4ca01cf24a87",
+        "raw:bb3d69330c2e49dbda3a",
+        "raw:e09b5ce232858e384598",
+        "raw:e677234e1a7e177e97b2"
+      ],
+      "canonical_closure": "초기감사판정재사용없이fullstrict/proposal/changes와원자료재열람.새후보조립·정식KR-FIT승인아님.",
+      "cross_references": "outgoing없음/title불변으로incoming보존."
+    }
+  ],
+  "approved_entries": [
+    1,
+    3,
+    4
+  ],
+  "revise_entries": [
+    2
+  ],
+  "formal_kr_fit_approval": false,
+  "integration_approval": false,
+  "whole_chapter_approval": false,
+  "actual_artifact_read_log": [
+    {
+      "id": "raw:e7af050cadeb394c82d5",
+      "original_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/284449.xml",
+      "retained_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/284449.xml",
+      "sha256": "e7af050cadeb394c82d5e94d8fc41af99b234270e0b45119671d958c8c5da4e0",
+      "byte_length": 344843,
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=284449&type=XML",
+      "source_collected_at_utc": "2026-10-18T12:37:55.663809+00:00",
+      "http_status": 200,
+      "reviewed_at_utc": "2026-10-18T18:51:17.120122+00:00",
+      "reviewer_method": "existing_raw_independently_read_not_new_HTTP",
+      "actual_read_scope": "기본시행20280101인 미래병합XML:40·41·42·43·45·46·48·50·58 및21473부칙1/3 직접대조. 현행45평균임금은 별도current raw로대조; 미래연1년보수산식 적용하지않음.",
+      "entries": [
+        1
+      ]
+    },
+    {
+      "id": "raw:d8396188ef9d8a1bfc07",
+      "original_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/a6ee716897f7e7bbbf16.raw",
+      "retained_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/a6ee716897f7e7bbbf16.raw",
+      "sha256": "d8396188ef9d8a1bfc078c7736c0dc92695403aa54ab258886c661a9549c7acf",
+      "byte_length": 4181,
+      "url": "https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=law&type=XML&query=%EA%B3%A0%EC%9A%A9%EB%B3%B4%ED%97%98%EB%B2%95&display=100&nw=1",
+      "source_collected_at_utc": "2026-10-18T12:55:35.682482+00:00",
+      "http_status": 200,
+      "reviewed_at_utc": "2026-10-18T18:51:17.120122+00:00",
+      "reviewer_method": "existing_raw_independently_read_not_new_HTTP",
+      "actual_read_scope": "실제검색XML 전5결과:고용보험법현행20260918·미래20280101동일MST284449/20261127별도286253 구분.",
+      "entries": [
+        1
+      ]
+    },
+    {
+      "id": "raw:b3e89162e7deca1ea582",
+      "original_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/c778f1fdbcc5b8fcefb0.raw",
+      "retained_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/c778f1fdbcc5b8fcefb0.raw",
+      "sha256": "b3e89162e7deca1ea5829c50789b12c532f0826c687271b98398ec5bf93385e2",
+      "byte_length": 487612,
+      "url": "https://www.work24.go.kr/cm/c/f/1100/selecSystInfo.do?systClId=SC00000254&systId=SI00000411",
+      "source_collected_at_utc": "2026-10-18T12:54:03.038703+00:00",
+      "http_status": 200,
+      "reviewed_at_utc": "2026-10-18T18:51:17.120122+00:00",
+      "reviewer_method": "existing_raw_independently_read_not_new_HTTP",
+      "actual_read_scope": "고용24 실제상용직정책본문:서류요청→사전확인/구직등록/교육/반드시센터방문/재취업/실업인정·원칙1년종료와재난온라인예외 직접읽음. 메뉴·shell만본것아님. 수수료표시의별도문장미확인;신청수수료와방문/이동실비구분.",
+      "entries": [
+        1
+      ]
+    },
+    {
+      "id": "raw:222fd311aa29570bf004",
+      "original_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/285279.xml",
+      "retained_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/285279.xml",
+      "sha256": "222fd311aa29570bf0045061e332c9b6696b49427a4ae8f17540763866b36c2e",
+      "byte_length": 248381,
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=285279&type=XML&efYd=20261008",
+      "source_collected_at_utc": "2026-10-18T12:37:57.424991+00:00",
+      "http_status": 200,
+      "reviewed_at_utc": "2026-10-18T18:51:17.120122+00:00",
+      "reviewer_method": "existing_raw_independently_read_not_new_HTTP",
+      "actual_read_scope": "근로기준법36·43·49 전항/부칙21472의20270101 43의6변경과21533 조문별20261008/20261208/20270101 구분.",
+      "entries": [
+        2
+      ],
+      "author_reported_retrieval": "existing primary XML cache independently read; not a new HTTP request",
+      "author_reported_collection_time_not_reviewer_HTTP": "2026-10-18T18:40:02.376256+00:00"
+    },
+    {
+      "id": "raw:dd6228b88d970e33b979",
+      "original_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290113.xml",
+      "retained_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/290113.xml",
+      "sha256": "dd6228b88d970e33b979d0d9e59c5b74f6f45958c01dcab79e034334365fbc92",
+      "byte_length": 538397,
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=290113&type=XML&efYd=20261002",
+      "source_collected_at_utc": "2026-10-18T12:38:24.090334+00:00",
+      "http_status": 200,
+      "reviewed_at_utc": "2026-10-18T18:51:17.120122+00:00",
+      "reviewer_method": "existing_raw_independently_read_not_new_HTTP",
+      "actual_read_scope": "민사소송법98·109 전항/부칙21455 20280301관할변경과21993 20261002시행 구분.",
+      "entries": [
+        2
+      ],
+      "author_reported_retrieval": "existing primary XML cache independently read; not a new HTTP request",
+      "author_reported_collection_time_not_reviewer_HTTP": "2026-10-18T18:40:02.383890+00:00"
+    },
+    {
+      "id": "raw:b6fed84c2a5a5ce63685",
+      "original_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/205b7388dcdd447deada.raw",
+      "retained_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/205b7388dcdd447deada.raw",
+      "sha256": "b6fed84c2a5a5ce636850c5ef3b85eb0795e92cf4390f54e6a89c2aaec6fd051",
+      "byte_length": 22061,
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=225413&type=XML&efYd=20201228",
+      "source_collected_at_utc": "2026-10-18T12:54:03.039855+00:00",
+      "http_status": 200,
+      "reviewed_at_utc": "2026-10-18T18:51:17.120122+00:00",
+      "reviewer_method": "existing_raw_independently_read_not_new_HTTP",
+      "actual_read_scope": "변호사보수산입규칙3/6·부칙2936·별표참조구조 확인. 실제계약보수전액반환보장없음. 개별청구가액별별표금액산출은하지않음.",
+      "entries": [
+        2
+      ],
+      "author_reported_retrieval": "existing primary XML cache independently read; not a new HTTP request",
+      "author_reported_collection_time_not_reviewer_HTTP": "2026-10-18T18:40:02.384926+00:00"
+    },
+    {
+      "id": "raw:e85b1c66c027d60c73ce",
+      "original_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/c48226fbd549eccbc620.raw",
+      "retained_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/c48226fbd549eccbc620.raw",
+      "sha256": "e85b1c66c027d60c73cef3a7067b0593f6612eb47a27f532e477d0d3c77900c7",
+      "byte_length": 403897,
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=268837&type=XML",
+      "source_collected_at_utc": "2026-10-18T12:54:51.026633+00:00",
+      "http_status": 200,
+      "reviewed_at_utc": "2026-10-18T18:51:17.120122+00:00",
+      "reviewer_method": "existing_raw_independently_read_not_new_HTTP",
+      "actual_read_scope": "민사집행법18·53 전항/최근부칙20733/20434 확인. 채권자예납/채무자최종부담과회수가능성구분.",
+      "entries": [
+        2
+      ],
+      "author_reported_retrieval": "existing primary XML cache independently read; not a new HTTP request",
+      "author_reported_collection_time_not_reviewer_HTTP": "2026-10-18T18:40:02.389808+00:00"
+    },
+    {
+      "id": "raw:02da728174bf4cde4bdf",
+      "original_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/548741634c2a42f54bad.raw",
+      "retained_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/548741634c2a42f54bad.raw",
+      "sha256": "02da728174bf4cde4bdf5a85f21c4a82f3450774c2fe37602fd08039682b95f2",
+      "byte_length": 96209,
+      "url": "https://labor.moel.go.kr/main/main.do",
+      "source_collected_at_utc": "2026-10-18T12:54:03.039346+00:00",
+      "http_status": 200,
+      "reviewed_at_utc": "2026-10-18T18:51:17.120122+00:00",
+      "reviewer_method": "existing_raw_independently_read_not_new_HTTP",
+      "actual_read_scope": "노동포털실제메인민원/대지급금메뉴및1350유료footer 직접읽음. 본메인은진정수수료상세근거아님;별도신규상세확보.",
+      "entries": [
+        2
+      ],
+      "author_reported_retrieval": "existing primary HTML independently read after tag stripping",
+      "author_reported_collection_time_not_reviewer_HTTP": "2026-10-18T18:40:20.591826+00:00"
+    },
+    {
+      "id": "raw:c7666e0314674b32bbd2",
+      "original_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/b67b58910b1461174e82.raw",
+      "retained_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/b67b58910b1461174e82.raw",
+      "sha256": "c7666e0314674b32bbd29b9e5a104a9ecbacec2d76db8831e65c33308463351f",
+      "byte_length": 116578,
+      "url": "https://www.klac.or.kr/legalstruct/visitingConsultation.do",
+      "source_collected_at_utc": "2026-10-18T12:54:36.436695+00:00",
+      "http_status": 200,
+      "reviewed_at_utc": "2026-10-18T18:51:17.120122+00:00",
+      "reviewer_method": "existing_raw_independently_read_not_new_HTTP",
+      "actual_read_scope": "공단방문상담 실제본문:평일9~18/예약·상담장소·제한·서류준비·유의사항직접읽음.",
+      "entries": [
+        3
+      ],
+      "author_reported_retrieval": "existing audit raw independently read; HTML tag stripping; not a new HTTP request",
+      "author_reported_collection_time_not_reviewer_HTTP": "2026-10-18T18:42:05.865905+00:00"
+    },
+    {
+      "id": "raw:9e69fca8d449944e4d19",
+      "original_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/6aec6f568a81493de43f.raw",
+      "retained_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/6aec6f568a81493de43f.raw",
+      "sha256": "9e69fca8d449944e4d19bc79e351512faa7f4edff375cabfbebc2b72b19fd925",
+      "byte_length": 136441,
+      "url": "https://www.klac.or.kr/legalstruct/legalRescueGuide.do",
+      "source_collected_at_utc": "2026-10-18T12:55:35.678967+00:00",
+      "http_status": 200,
+      "reviewed_at_utc": "2026-10-18T18:51:17.120122+00:00",
+      "reviewer_method": "existing_raw_independently_read_not_new_HTTP",
+      "actual_read_scope": "공단대상자안내 서버본문/조건별지원메뉴 직접읽음. 일정조건소송지원·기본본인부담·기관지원감면. 동적각무료유형최신표전수미열람.",
+      "entries": [
+        3
+      ],
+      "author_reported_retrieval": "existing audit raw independently read; HTML tag stripping; not a new HTTP request",
+      "author_reported_collection_time_not_reviewer_HTTP": "2026-10-18T18:42:05.867812+00:00"
+    },
+    {
+      "id": "raw:3422b17fd8f2de372aad",
+      "original_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/a882e56314250a86c39a.raw",
+      "retained_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/a882e56314250a86c39a.raw",
+      "sha256": "3422b17fd8f2de372aade4ded4d02aa6a2f811ca27e54fdf258e0a6a6cdcba8a",
+      "byte_length": 110712,
+      "url": "https://www.klac.or.kr/legalstruct/outlineOfLitigationStruct.do",
+      "source_collected_at_utc": "2026-10-18T12:55:35.679608+00:00",
+      "http_status": 200,
+      "reviewed_at_utc": "2026-10-18T18:51:17.120122+00:00",
+      "reviewer_method": "existing_raw_independently_read_not_new_HTTP",
+      "actual_read_scope": "공단소송구조개요 실제본문전문:일반유료125%/국내거주외국인·무료각유형/승소금액3억원초과제외/형사고소대리제외및피해자국선지정예외/패소상대방비용 직접읽음.",
+      "entries": [
+        3
+      ],
+      "author_reported_retrieval": "existing audit raw independently read; HTML tag stripping; not a new HTTP request",
+      "author_reported_collection_time_not_reviewer_HTTP": "2026-10-18T18:42:05.869192+00:00"
+    },
+    {
+      "id": "raw:cdb10e2603ca1c1bac6f",
+      "original_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/239375.xml",
+      "retained_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/239375.xml",
+      "sha256": "cdb10e2603ca1c1bac6f0bcc4400427fc092c70323fa8615bf06c54d8e3534da",
+      "byte_length": 66427,
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=239375&type=XML&efYd=20230112",
+      "source_collected_at_utc": "2026-10-18T18:42:05.870378+00:00",
+      "http_status": null,
+      "reviewed_at_utc": "2026-10-18T18:51:17.120122+00:00",
+      "reviewer_method": "existing_raw_independently_read_not_new_HTTP",
+      "actual_read_scope": "법률구조법2·7·8 전항/18755 수산업법부칙·법7비용예외/국가부담할수있다 직접읽음.",
+      "entries": [
+        3
+      ],
+      "author_reported_retrieval": "independently read XML; law cached; decree newly fetched with default TLS validation",
+      "author_reported_collection_time_not_reviewer_HTTP": "2026-10-18T18:42:05.870378+00:00"
+    },
+    {
+      "id": "raw:1c7ee8ba2835b35fd473",
+      "original_path": "/tmp/ch07e03-decree.raw",
+      "retained_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-partial-review-r1/1c7ee8ba2835b35fd473.raw",
+      "sha256": "1c7ee8ba2835b35fd473162c61db785d087cacf83b883dbd88a6e0ff6e6fde26",
+      "byte_length": 46297,
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=242387&type=XML",
+      "source_collected_at_utc": null,
+      "http_status": null,
+      "reviewed_at_utc": "2026-10-18T18:51:17.120122+00:00",
+      "reviewer_method": "existing_raw_independently_read_not_new_HTTP",
+      "actual_read_scope": "법률구조법시행령4 전항:소송비/보수·내부규정위임·국가부담범위심사;최신부칙32635 20220518/20220818분리. 내부규정전문미열람.",
+      "entries": [
+        3
+      ],
+      "author_reported_retrieval": "independently read XML; law cached; decree newly fetched with default TLS validation",
+      "author_reported_collection_time_not_reviewer_HTTP": "2026-10-18T18:42:05.871050+00:00",
+      "collection_time_limitation": "원응답취득시각이별도증빙에없음;저자의verified_at을실제HTTP시각으로단정하지않음."
+    },
+    {
+      "id": "raw:84b195dcc59383645c71",
+      "original_path": "/tmp/ch07e03-lawsearch.raw",
+      "retained_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-partial-review-r1/84b195dcc59383645c71.raw",
+      "sha256": "84b195dcc59383645c714d2206bbd05012d5dd883d926e14b024ec60b0fcf41e",
+      "byte_length": 6818,
+      "url": "https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=law&type=XML&query=%EB%B2%95%EB%A5%A0%EA%B5%AC%EC%A1%B0%EB%B2%95&display=100&nw=1",
+      "source_collected_at_utc": null,
+      "http_status": null,
+      "reviewed_at_utc": "2026-10-18T18:51:17.120122+00:00",
+      "reviewer_method": "existing_raw_independently_read_not_new_HTTP",
+      "actual_read_scope": "법률구조법239375/20230112·시행령242387/20220818현행선택을실제검색XML전체8결과와구분.",
+      "entries": [
+        3
+      ],
+      "author_reported_retrieval": "new HTTPS default TLS validation; actual XML results read",
+      "author_reported_collection_time_not_reviewer_HTTP": "2026-10-18T18:42:05.871267+00:00",
+      "collection_time_limitation": "원응답취득시각이별도증빙에없음;저자의verified_at을실제HTTP시각으로단정하지않음."
+    },
+    {
+      "id": "raw:e16072e129dac3a7faea",
+      "original_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/c51838b9b6776d36dbf5.raw",
+      "retained_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/c51838b9b6776d36dbf5.raw",
+      "sha256": "e16072e129dac3a7faea67c9d087921d35c5b3837e9c6dad2269352c8f1d0b7d",
+      "byte_length": 74384,
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=268883&type=XML&efYd=20260201",
+      "source_collected_at_utc": "2026-10-18T12:54:03.041926+00:00",
+      "http_status": 200,
+      "reviewed_at_utc": "2026-10-18T18:51:17.120122+00:00",
+      "reviewer_method": "existing_raw_independently_read_not_new_HTTP",
+      "actual_read_scope": "노숙인법2·10~15 전항/부칙20752 공포1년/21101즉시. 주거·급식지원재량과응급조치의무/권리범위구분.",
+      "entries": [
+        4
+      ],
+      "author_reported_retrieval": "cached_primary_raw_read",
+      "author_reported_collection_time_not_reviewer_HTTP": "2026-10-18T18:44:23.399263+00:00"
+    },
+    {
+      "id": "raw:5e482d7b4ca01cf24a87",
+      "original_path": "/tmp/ch07e04-224121.xml",
+      "retained_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-partial-review-r1/5e482d7b4ca01cf24a87.raw",
+      "sha256": "5e482d7b4ca01cf24a87f8048aa95b55b2e9c18472f8e51b94bf585972cae143",
+      "byte_length": 38117,
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=224121&type=XML",
+      "source_collected_at_utc": null,
+      "http_status": null,
+      "reviewed_at_utc": "2026-10-18T18:51:17.120122+00:00",
+      "reviewer_method": "existing_raw_independently_read_not_new_HTTP",
+      "actual_read_scope": "노숙인시행령4 전항/부칙31269·29839 직접읽음. 본인의사/기관별연계절차;주거보장아님.",
+      "entries": [
+        4
+      ],
+      "author_reported_retrieval": "new_HTTPS_primary_XML_read",
+      "author_reported_collection_time_not_reviewer_HTTP": "2026-10-18T18:44:23.399345+00:00",
+      "collection_time_limitation": "원응답취득시각이별도증빙에없음;저자의verified_at을실제HTTP시각으로단정하지않음."
+    },
+    {
+      "id": "raw:bb3d69330c2e49dbda3a",
+      "original_path": "/tmp/ch07e04-283231.xml",
+      "retained_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-partial-review-r1/bb3d69330c2e49dbda3a.raw",
+      "sha256": "bb3d69330c2e49dbda3a2b7f39807fc7a153715dfc0750cc5516f287fbcbc311",
+      "byte_length": 401609,
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=283231&type=XML",
+      "source_collected_at_utc": null,
+      "http_status": null,
+      "reviewed_at_utc": "2026-10-18T18:51:17.120122+00:00",
+      "reviewer_method": "existing_raw_independently_read_not_new_HTTP",
+      "actual_read_scope": "노숙인시행규칙2·11·12·14 전항/부칙1155 20260201.18세이상·조사/상담/입소심사/일시보호직접읽음;개별시설공실/이용료미조회.",
+      "entries": [
+        4
+      ],
+      "author_reported_retrieval": "new_HTTPS_primary_XML_read",
+      "author_reported_collection_time_not_reviewer_HTTP": "2026-10-18T18:44:23.400070+00:00",
+      "collection_time_limitation": "원응답취득시각이별도증빙에없음;저자의verified_at을실제HTTP시각으로단정하지않음."
+    },
+    {
+      "id": "raw:e09b5ce232858e384598",
+      "original_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/eeb953ae0f6d9fdffda1.raw",
+      "retained_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/eeb953ae0f6d9fdffda1.raw",
+      "sha256": "e09b5ce232858e3845988c4a556b881cc5b21c4956c1267b0ea8188530a73420",
+      "byte_length": 160496,
+      "url": "https://www.129.go.kr/",
+      "source_collected_at_utc": "2026-10-18T12:54:03.046217+00:00",
+      "http_status": 200,
+      "reviewed_at_utc": "2026-10-18T18:51:17.120122+00:00",
+      "reviewer_method": "existing_raw_independently_read_not_new_HTTP",
+      "actual_read_scope": "129공식본문·footer의국번없이무료129/평일9~18/긴급지원상담24시 직접읽음. 시설전체무료보장아님.",
+      "entries": [
+        4
+      ],
+      "author_reported_retrieval": "cached_primary_raw_read",
+      "author_reported_collection_time_not_reviewer_HTTP": "2026-10-18T18:44:23.400389+00:00"
+    },
+    {
+      "id": "raw:e677234e1a7e177e97b2",
+      "original_path": "/tmp/ch07e04-current.xml",
+      "retained_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-partial-review-r1/e677234e1a7e177e97b2.raw",
+      "sha256": "e677234e1a7e177e97b2f4c9b0bf1e585d2c92f90f1f94300a74453aa0a7797d",
+      "byte_length": 2868,
+      "url": "https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=law&type=XML&query=노숙인%20등의%20복지%20및%20자립지원에%20관한%20법률&display=100&nw=1",
+      "source_collected_at_utc": null,
+      "http_status": null,
+      "reviewed_at_utc": "2026-10-18T18:51:17.120122+00:00",
+      "reviewer_method": "existing_raw_independently_read_not_new_HTTP",
+      "actual_read_scope": "노숙인법268883/20260201·령224121/20201215·규칙283231/20260201실제검색3결과직접읽음.",
+      "entries": [
+        4
+      ],
+      "author_reported_retrieval": "new_HTTPS_primary_XML_read",
+      "author_reported_collection_time_not_reviewer_HTTP": "2026-10-18T18:44:23.400416+00:00",
+      "collection_time_limitation": "원응답취득시각이별도증빙에없음;저자의verified_at을실제HTTP시각으로단정하지않음."
+    },
+    {
+      "id": "raw:280b4bec05c376ed4fac",
+      "original_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch19-audit/d8d2ad1851b9783291c3.raw",
+      "retained_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch19-audit/d8d2ad1851b9783291c3.raw",
+      "sha256": "280b4bec05c376ed4fac83ab9077bcb4d164b9fb510e26d1060ac73b9a24d885",
+      "byte_length": 349734,
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=284449&efYd=20260918&type=XML",
+      "source_collected_at_utc": "2026-10-18T15:33:24.157113+00:00",
+      "http_status": 200,
+      "reviewed_at_utc": "2026-10-18T18:51:17.120122+00:00",
+      "reviewer_method": "existing_raw_independently_read_not_new_HTTP",
+      "actual_read_scope": "추가재사용한실제현행고용보험법20260918 XML의40·41·42·43·45·46·48·50·58/21473부칙1·3 대조.45①이직당시평균임금·46①60%/최저기초80%·48원칙12개월/임신출산육아연장·40기준기간예외직접읽음. 캐시열람이며새HTTP아님.",
+      "entries": [
+        1
+      ]
+    }
+  ],
+  "reviewer_fresh_http": [
+    {
+      "url": "https://law.go.kr/DRF/lawService.do?OC=test&target=eflaw&ID=001761&type=XML&efYd=20260918",
+      "requested_at": "2026-10-18T18:45:59.984919+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "employmentcurrent",
+      "status": "access_failed",
+      "error": "HTTP Error 502: Bad Gateway",
+      "reviewed_at_utc": "2026-10-18T18:51:17.120122+00:00",
+      "actual_read_scope": "HTTPS접근실패·원문미열람"
+    },
+    {
+      "url": "https://labor.moel.go.kr/minwonApply/minwonFormat.do?searchVal=SN001",
+      "requested_at": "2026-10-18T18:45:59.985887+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "wagepetitionfee",
+      "http_status": 200,
+      "status": "body_received",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-partial-review-r1/70d31eed4bc977061b68.raw",
+      "sha256": "c2f982a76c8d3d3e679aefad9fe6ed9587aaf8e8e552c971ce0de878351aeedf",
+      "reviewed_at_utc": "2026-10-18T18:51:17.120122+00:00",
+      "actual_read_scope": "노동포털진정서실제상세본문 신청자격및방법:처리기간25일/방문우편인터넷/수수료없음 직접읽음.법정일괄완료보장으로해석하지않음."
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&ID=001761&type=XML&efYd=20260918",
+      "requested_at": "2026-10-18T18:46:42.377460+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "employmentretry",
+      "status": "access_failed",
+      "error": "<urlopen error Tunnel connection failed: 502 Bad Gateway>",
+      "reviewed_at_utc": "2026-10-18T18:51:17.120122+00:00",
+      "actual_read_scope": "HTTPS접근실패·원문미열람"
+    },
+    {
+      "url": "https://law.go.kr/DRF/lawService.do?OC=test&target=eflaw&ID=001761&type=XML&efYd=20261018",
+      "requested_at": "2026-10-18T18:46:42.378430+00:00",
+      "retrieval_mode": "new_https",
+      "tag": "employmentcutoff",
+      "status": "access_failed",
+      "error": "HTTP Error 500: Internal Server Error",
+      "reviewed_at_utc": "2026-10-18T18:51:17.120122+00:00",
+      "actual_read_scope": "HTTPS접근실패·원문미열람"
+    }
+  ],
+  "local_inputs": [
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/author-partial-manifest-1.json",
+      "sha256": "76946aad59bee921ec00a3b8d70bb592b5e9446e854a2eac41c6079635b65730",
+      "scope": "대상1–4원문/제안문맥또는참조대상제목실제읽음;다른항목새승인아님."
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/manifest.json",
+      "sha256": "dd61070f50a2b9cb70dccf685f986e01d6b2172998db370487a51e8214c3ddd8",
+      "scope": "대상1–4원문/제안문맥또는참조대상제목실제읽음;다른항목새승인아님."
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/source.md",
+      "sha256": "48c5d96b9d2c280eabe9ecfedf11cb6674a2ec25ea35c3da1326b2de60d11656",
+      "scope": "대상1–4원문/제안문맥또는참조대상제목실제읽음;다른항목새승인아님."
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/content-audit.md",
+      "sha256": "806d25f07080909253372cacef346a68c0a4c558c8fc74954d79c62304246bc9",
+      "scope": "대상1–4원문/제안문맥또는참조대상제목실제읽음;다른항목새승인아님."
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch07/editorial-decisions.json",
+      "sha256": "20e9a12186633e18228c66d97c25761be1694c9bef32cd5c34da1a5b8803e858",
+      "scope": "대상1–4원문/제안문맥또는참조대상제목실제읽음;다른항목새승인아님."
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/book/07-没钱的时候怎么活.md",
+      "sha256": "4f23050edf70baba7bf41e361ce1f682517633aa7d381b7eda1746db65122908",
+      "scope": "대상1–4원문/제안문맥또는참조대상제목실제읽음;다른항목새승인아님."
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/book-kr/07-돈이-없을-때-사는-법.md",
+      "sha256": "48c5d96b9d2c280eabe9ecfedf11cb6674a2ec25ea35c3da1326b2de60d11656",
+      "scope": "대상1–4원문/제안문맥또는참조대상제목실제읽음;다른항목새승인아님."
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/book-kr/19-재직-퇴사-산재.md",
+      "sha256": "3e644d50e218cc04049177fa5a6ff81785f657f1eb9f5cbd68a61c6d7057fb3d",
+      "scope": "대상1–4원문/제안문맥또는참조대상제목실제읽음;다른항목새승인아님."
+    }
+  ],
+  "limits": [
+    "법령·기관원문을직접읽고캐시와신규HTTP구분.3건법령HTTP실패는실패기록유지.현행고용보험법실본문은기존ch19raw재사용.",
+    "개별법률구조자격/내부규정전문·동적무료대상표전체및노숙시설실공실·이용료는미확정.그한계는승인제안본문에서독자에게고지.",
+    "범위는동결제안·변경기록의exactSHA만.저자가새bytes제출하면재검토.기존초기감사·canonical·public·pure/gates·Git수정없음."
+  ]
+}

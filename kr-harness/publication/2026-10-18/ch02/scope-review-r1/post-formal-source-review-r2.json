@@ -1,0 +1,66 @@
+{
+  "decision": "approve",
+  "reviewer_role": "독립 source/exact 검토자; 본문 저작 및 proposal 변경 없음",
+  "reviewed_at_utc": "2026-10-18T18:53:46.612537+00:00",
+  "manifest_path": "kr-harness/publication/2026-10-18/ch02/author-postformal-scope-manifest-r1.json",
+  "manifest_sha256": "d94005b29515e71751a8150ed9fd83d6aba71ec883d44e564a9d44b7a7599dd5",
+  "base_whole_public_raw_sha256": "bf3f1439ae8cfa4aa150e0e6b5e86f006094c690970edb8630210f4cd0d24306",
+  "entry": 32,
+  "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-032-d167/publication-formal-correction-r3.md",
+  "proposal_sha256": "d37e790d26393701522831f75c94a7f88d6a4d55ab7085282fe5e519465988af",
+  "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-032-d167/publication-formal-correction-changes-r3.json",
+  "changes_sha256": "29f3c95a588fbf5738acf914ae9309041ad4d01c37bc677fd36c041f3f30a60a",
+  "base_entry_sha256": "b925f226dc4f931c9feed91dedd253dde5f5aa7e5c1e44e22095d38722ec1aa8",
+  "exact_base_matches_current_public_entry": true,
+  "only_declared_span_changed": true,
+  "protected_layout_grade_sources_and_other_fields_unchanged": true,
+  "doi_add": [],
+  "doi_drop": [],
+  "numeric_preservation": "기존 숫자·DOI 전부 보존. 참조 제목의 체중 조절 기대하지 않기만 제거하며 제6절 제26항과 16:8 유지. 새 효과 수치·OR/RR/HR 변환 없음.",
+  "literal_checks": {
+    "easy_chars": 112,
+    "easy_sentences": 3,
+    "title_chars": 28,
+    "long_sentences": []
+  },
+  "sources": [
+    {
+      "doi": "10.1093/nutrit/nuaf053",
+      "url": "https://doi.org/10.1093/nutrit/nuaf053",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/82183c9894a90ce35f32.json",
+      "raw_sha256": "a0e9d3d8c6961428a2b5c4dbd0560be7253ea90429cd9062cac7c68eae32a4f1",
+      "read_scope": "기존 EuropePMC core JSON의 원 논문 초록 전체와 서지 직접 열람. 원문·표·보충자료 미열람. 신규 HTTP 없음.",
+      "abstract_read": "<h4>Context</h4>Although it is well established that caloric restriction (CR) is the primary driver of weight loss, circadian-driven metabolic benefits have been recognized as possibly enhancing the effects of CR. Time-restricted eating (TRE) has emerged as a promising approach in this context.<h4>Objective</h4>We conducted a systematic review and meta-analysis to compare the effects of TRE with isocaloric diet controls (analysis 1) and non-isocaloric controls (analysis 2) on anthropometric and body-composition parameters in adults with overweight or obesity.<h4>Data sources</h4>A search was carried out in the Medline, LILACS, Embase, and CENTRAL databases using Medical Subject Heading (MeSH) and similar terms such as \"Obesity,\" \"Obesity, Abdominal,\" \"Time-restricted eating,\" \"Body weight,\" \"Changes in body weight,\" and others.<h4>Data extraction</h4>We included 30 studies involving a total of 1341 participants. Studies were screened based on titles and abstracts followed by full-text reading, and data were extracted from eligible studies using a pre-established form. All these steps were performed by 2 authors independently and blinded, with discrepancies resolved by a third author.<h4>Data analysis</h4>The results of main findings revealed that, in studies using non-isocaloric controls, the TRE group showed significant reductions in body weight (BW) (mean difference [MD]: -2.82 kg; 95% CI: -3.49, -2.15), fat mass (FM) (MD: -1.36 kg; 95% CI: -2.09, -0.63), and fat-free mass (FFM) (MD: -0.86 kg; 95% CI: -1.23, -0.49). In studies that used isocaloric control strategies, the TRE group showed significant reductions in BW (MD: -1.46 kg; 95% CI: -2.65, -0.26), FM (MD: -1.50 kg; 95% CI: -2.77, -0.24), and FFM (MD: -0.41 kg; 95% CI: -0.79, -0. 03).<h4>Conclusion</h4>TRE yields favorable anthropometric and clinical outcomes, even when intake is isocaloric between the intervention and control groups. This result suggests that circadian effects may enhance the impact of CR on excess weight.<h4>Systematic review registration</h4>PROSPERO registration no. CRD42022301594."
+    },
+    {
+      "doi": "10.1056/nejmoa2114833",
+      "url": "https://doi.org/10.1056/nejmoa2114833",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/b4f8b45880d4bb6c611b.json",
+      "raw_sha256": "beabbee02ee720ecc3fc8727715c915eb73995fe4072111d73b60285642354b4",
+      "read_scope": "기존 EuropePMC core JSON의 원 논문 초록 전체와 서지 직접 열람. 원문·표·보충자료 미열람. 신규 HTTP 없음.",
+      "abstract_read": "<h4>Background</h4>The long-term efficacy and safety of time-restricted eating for weight loss are not clear.<h4>Methods</h4>We randomly assigned 139 patients with obesity to time-restricted eating (eating only between 8:00 a.m. and 4:00 p.m.) with calorie restriction or daily calorie restriction alone. For 12 months, all the participants were instructed to follow a calorie-restricted diet that consisted of 1500 to 1800 kcal per day for men and 1200 to 1500 kcal per day for women. The primary outcome was the difference between the two groups in the change from baseline in body weight; secondary outcomes included changes in waist circumference, body-mass index (BMI), amount of body fat, and measures of metabolic risk factors.<h4>Results</h4>Of the total 139 participants who underwent randomization, 118 (84.9%) completed the 12-month follow-up visit. The mean weight loss from baseline at 12 months was -8.0 kg (95% confidence interval [CI], -9.6 to -6.4) in the time-restriction group and -6.3 kg (95% CI, -7.8 to -4.7) in the daily-calorie-restriction group. Changes in weight were not significantly different in the two groups at the 12-month assessment (net difference, -1.8 kg; 95% CI, -4.0 to 0.4; P = 0.11). Results of analyses of waist circumferences, BMI, body fat, body lean mass, blood pressure, and metabolic risk factors were consistent with the results of the primary outcome. In addition, there were no substantial differences between the groups in the numbers of adverse events.<h4>Conclusions</h4>Among patients with obesity, a regimen of time-restricted eating was not more beneficial with regard to reduction in body weight, body fat, or metabolic risk factors than daily calorie restriction. (Funded by the National Key Research and Development Project [No. 2018YFA0800404] and others; ClinicalTrials.gov number, NCT03745612.)."
+    },
+    {
+      "doi": "10.1136/bmj.l42",
+      "url": "https://doi.org/10.1136/bmj.l42",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/9d5f37375edf77fdcd9d.json",
+      "raw_sha256": "c95ce7f03dd69d878e4df6c839a9e6a43d37e4d0096e9202ef314b3cd1df9c6d",
+      "read_scope": "기존 EuropePMC core JSON의 원 논문 초록 전체와 서지 직접 열람. 원문·표·보충자료 미열람. 신규 HTTP 없음.",
+      "abstract_read": "<h4>Objective</h4>To examine the effect of regular breakfast consumption on weight change and energy intake in people living in high income countries.<h4>Design</h4>Systematic review and meta-analysis.<h4>Data sources</h4>PubMed, Ovid Medline, and CINAHL were searched for randomised controlled trials published between January 1990 and January 2018 investigating the effect of breakfast on weight or energy intake. ClinicalTrials.gov and the World Health Organization's International Clinical Trials Registry Platform search portal were also searched in October 2018 to identify any registered yet unpublished or ongoing trials.<h4>Eligibility criteria for selecting studies</h4>Randomised controlled trials from high income countries in adults comparing breakfast consumption with no breakfast consumption that included a measure of body weight or energy intake. Two independent reviewers extracted the data and assessed the risk of bias of included studies. Random effects meta-analyses of the effect of breakfast consumption on weight and daily energy intake were performed.<h4>Results</h4>Of 13 included trials, seven examined the effect of eating breakfast on weight change, and 10 examined the effect on energy intake. Meta-analysis of the results found a small difference in weight favouring participants who skipped breakfast (mean difference 0.44 kg, 95% confidence interval 0.07 to 0.82), but there was some inconsistency across trial results (I<sup>2</sup>=43%). Participants assigned to breakfast had a higher total daily energy intake than those assigned to skip breakfast (mean difference 259.79 kcal/day, 78.87 to 440.71; 1 kcal=4.18 kJ), despite substantial inconsistency across trial results (I<sup>2</sup>=80%). All of the included trials were at high or unclear risk of bias in at least one domain and had only short term follow-ups (mean period seven weeks for weight, two weeks for energy intake). As the quality of the included studies was mostly low, the findings should be interpreted with caution.<h4>Conclusion</h4>This study suggests that the addition of breakfast might not be a good strategy for weight loss, regardless of established breakfast habit. Caution is needed when recommending breakfast for weight loss in adults, as it could have the opposite effect. Further randomised controlled trials of high quality are needed to examine the role of breakfast eating in the approach to weight management.<h4>Study registration</h4>PROSPERO registration number CRD42017057687."
+    }
+  ],
+  "new_http_requests": [],
+  "reason": [
+    "아침 식사 추가를 감량 전략으로 보기 어렵다는 제한된 문장은 BMJ 초록의 저품질·단기시험 결론과 부합하며 아침 결식의 장기 안전성을 주장하지 않는다.",
+    "동일열량 TRE 통합 BW −1.46kg(−2.65~−0.26)와 비동일열량 −2.82kg을 읽었다. 열량 조건별 혼재와 일부 추가 감량을 인정하는 방향이 적절하다. 모든16:8 시간대에서 같은 효과라는 뜻으로 읽지 않도록 조건에 따라 결과가 달랐다는 문장을 함께 평가했다.",
+    "139명·12개월 오전8시~오후4시+열량제한 대 열량제한 단독 시험은 차이 −1.8kg(−4.0~0.4), P=.11. 비유의가 효과 부재의 입증은 아니라는 새 문장이 정확하다.",
+    "현재 실제공개06e26에는 같은열량 1.46kg 추가감량이 이미 있다. 따라서 기존02e32의 추가 이득 없음이 자체 모순이었고 새 span이 이를 고친다. 미통합06e26 r3는 직접 읽어 비교했으나 본 승인 범위에 포함하지 않는다."
+  ],
+  "limitations": [
+    "이번 승인은32항의 명시 span exact-copy만 승인하며 절 전체 최종 formal 승인으로 대신하지 않는다.",
+    "기존BMI·Flegal·Ma 수치를 새로 전면 검증하지 않았다.",
+    "원문·모든 RCT·보충자료 미열람은 오류와 구별한다. 추적 기간 대부분 짧다는 별도06문장은 이번 초록으로 새 확인했다고 승격하지 않았다.",
+    "공개06e26의 기존 OR 위험표현·비유의=차이없음 문제는 별도06r3 수정 대상이며 이 source 승인으로 승인하지 않는다."
+  ],
+  "formal_status": "root exact-copy 및 새 실제 CLI hash 통지 후 전체42항·intro/tail 독립 재독과 새 formal 필요"
+}

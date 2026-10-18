@@ -1,0 +1,198 @@
+{
+  "entry": 19,
+  "status": "unadopted_pending_independent_exact_hash_review",
+  "revision": 2,
+  "previous_proposal_path": "kr-harness/publication/2026-10-18/ch07/_workspace/2026-10-18-019-2027/publication-entry-proposal.md",
+  "previous_proposal_sha256": "948df400b6e456e0a2228e7c6d3fcd0d00be3be333e198a72d9ef679b413e079",
+  "previous_changes_path": "kr-harness/publication/2026-10-18/ch07/_workspace/2026-10-18-019-2027/publication-entry-changes.json",
+  "previous_changes_sha256": "077d2defa7842758e98074b8716c96afcefb28042a7e34517767af3fb1b41eba",
+  "proposal_sha256": "35fc9b870c2b090baeeeef704b042c5da3bfde88a676690a2eed08e02c3f4de5",
+  "diff": {
+    "field": "이득",
+    "before_span": "특별한 사정이 있으면 변제개시일부터 5년 이하로 정합니다.",
+    "after_span": "특별한 사정이 있으면 변제개시일부터 5년 이하로 정할 수 있습니다.",
+    "before_field": "갱생보호에는 숙식·주거·직업훈련·취업 지원이 포함됩니다. 심리상담과 가족 지원도 법에 규정되어 있습니다. 「보호관찰 등에 관한 법률」 제65조에 따른 지원입니다. 개인회생은 수입·지급능력·채무 한도 등을 따집니다. 정기적이거나 계속·반복적인 수입을 얻을 가능성이 있어야 합니다. 파산의 원인인 사실이 있거나 생길 염려도 있어야 합니다. 신청 당시 담보 채무는 15억원 이하여야 합니다. 그 밖의 채무는 10억원 이하여야 합니다. 변제계획 기간은 변제개시일부터 원칙적으로 3년 이하입니다. 특별한 사정이 있으면 변제개시일부터 5년 이하로 정합니다. 파산과 면책결정은 구분해야 합니다. 면책이 확정되어도 조세·벌금·양육비 등은 남을 수 있습니다. 「채무자 회생 및 파산에 관한 법률」 제579조를 보세요. 같은 법 제566조·제611조·제625조도 보세요.",
+    "after_field": "갱생보호에는 숙식·주거·직업훈련·취업 지원이 포함됩니다. 심리상담과 가족 지원도 법에 규정되어 있습니다. 「보호관찰 등에 관한 법률」 제65조에 따른 지원입니다. 개인회생은 수입·지급능력·채무 한도 등을 따집니다. 정기적이거나 계속·반복적인 수입을 얻을 가능성이 있어야 합니다. 파산의 원인인 사실이 있거나 생길 염려도 있어야 합니다. 신청 당시 담보 채무는 15억원 이하여야 합니다. 그 밖의 채무는 10억원 이하여야 합니다. 변제계획 기간은 변제개시일부터 원칙적으로 3년 이하입니다. 특별한 사정이 있으면 변제개시일부터 5년 이하로 정할 수 있습니다. 파산과 면책결정은 구분해야 합니다. 면책이 확정되어도 조세·벌금·양육비 등은 남을 수 있습니다. 「채무자 회생 및 파산에 관한 법률」 제579조를 보세요. 같은 법 제566조·제611조·제625조도 보세요.",
+    "reason": "Preserve statutory discretion in article611(5) proviso; 3-year principle and special 5-year ceiling unchanged."
+  },
+  "primary_evidence": {
+    "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290631&type=XML",
+    "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/e2db437dcf6766c31db7.raw",
+    "sha256": "0f25c76b847f02c2753e0099d9e2102902fd00567a94c5ceb1e09627be3e3bce",
+    "read_at_utc": "2026-10-18T19:33:46.317480+00:00",
+    "method": "direct reread of existing primary XML cache, no new HTTP",
+    "actual_read_scope": "Article611(5) complete paragraph; supplementary provisions15158 and21490 complete text. Prior r1 evidence remains applicable to unchanged content.",
+    "exact_quotes": [
+      "\n⑤\n⑤변제계획에서 정하는 변제기간은 변제개시일부터 3년을 초과하여서는 아니된다. 다만, 제614조제1항제4호의 요건을 충족하기 위하여 필요한 경우 등 특별한 사정이 있는 때에는 변제개시일부터 5년을 초과하지 아니하는 범위에서 변제기간을 정할 수 있다. <개정 2017.12.12>\n",
+      "\n20171212\n15158\n부칙 <제15158호,2017.12.12>\n\n\n제1조(시행일) 이 법은 공포 후 3개월이 경과한 날부터 시행한다. 다만, 제611조제5항의 개정규정은 공포 후 6개월이 경과한 날부터 시행한다.\n\n\n제2조(적용례) ① 제611조제5항의 개정규정은 같은 개정규정 시행 후 최초로 신청하는 개인회생사건부터 적용한다. 다만, 이 개정규정 시행 전에 변제계획인가결정을 받은 채무자가 이 개정규정 시행일에 이미 변제계획안에 따라 3년 이상 변제계획을 수행한 경우에는 당사자의 신청 또는 직권으로 이해관계인의 의견을 들은 후 면책의 결정을 할 수 있다. <개정 2020.3.24>\n\n\n  ② 제617조의2의 개정규정은 이 법 시행 전에 신청된 개인회생사건에도 적용한다.\n\n\n\n\n",
+      "\n20260324\n21490\n부칙(공소청법) <제21490호,2026.3.24>\n\n\n제1조(시행일) 이 법은 2026년 10월 2일부터 시행한다. <단서 생략>\n\n\n제2조부터 제8조까지 생략\n\n\n제9조(다른 법률의 개정) ①부터 <46>까지 생략\n\n\n  <47> 채무자 회생 및 파산에 관한 법률 일부를 다음과 같이 개정한다.\n\n\n  제601조제1항제4호 중 \"법원주사보ㆍ검찰주사보\"를 \"법원주사보ㆍ형사법무주사보\"로 한다.\n\n\n  <48>부터 <51>까지 생략\n\n\n제10조 및 제11조 생략\n\n\n\n\n"
+    ]
+  },
+  "literal_layout_checks": {
+    "six_single_physical_fields": true,
+    "heading_and_cost_tag_identical": true,
+    "all_other_bytes_identical": true,
+    "grade_identical": true,
+    "easy_chars": 80,
+    "easy_sentences": 3,
+    "title_chars": 32,
+    "sentences": [
+      {
+        "field": "비용",
+        "sentence": "지원 상담과 서류 준비에 시간이 듭니다.",
+        "literal_chars": 22
+      },
+      {
+        "field": "비용",
+        "sentence": "개인회생·파산에는 법원 비용이 듭니다.",
+        "literal_chars": 21
+      },
+      {
+        "field": "비용",
+        "sentence": "대리인을 선임하면 보수가 추가될 수 있습니다.",
+        "literal_chars": 25
+      },
+      {
+        "field": "쉽게",
+        "sentence": "출소 후 숙식과 취업지원은 법무보호기관에 문의하세요.",
+        "literal_chars": 29
+      },
+      {
+        "field": "쉽게",
+        "sentence": "갚기 어려운 채무는 회생·파산을 상담하세요.",
+        "literal_chars": 24
+      },
+      {
+        "field": "쉽게",
+        "sentence": "신청만으로 채무와 기록이 지워지지는 않습니다.",
+        "literal_chars": 25
+      },
+      {
+        "field": "이득",
+        "sentence": "갱생보호에는 숙식·주거·직업훈련·취업 지원이 포함됩니다.",
+        "literal_chars": 31
+      },
+      {
+        "field": "이득",
+        "sentence": "심리상담과 가족 지원도 법에 규정되어 있습니다.",
+        "literal_chars": 26
+      },
+      {
+        "field": "이득",
+        "sentence": "「보호관찰 등에 관한 법률」 제65조에 따른 지원입니다.",
+        "literal_chars": 31
+      },
+      {
+        "field": "이득",
+        "sentence": "개인회생은 수입·지급능력·채무 한도 등을 따집니다.",
+        "literal_chars": 28
+      },
+      {
+        "field": "이득",
+        "sentence": "정기적이거나 계속·반복적인 수입을 얻을 가능성이 있어야 합니다.",
+        "literal_chars": 35
+      },
+      {
+        "field": "이득",
+        "sentence": "파산의 원인인 사실이 있거나 생길 염려도 있어야 합니다.",
+        "literal_chars": 31
+      },
+      {
+        "field": "이득",
+        "sentence": "신청 당시 담보 채무는 15억원 이하여야 합니다.",
+        "literal_chars": 27
+      },
+      {
+        "field": "이득",
+        "sentence": "그 밖의 채무는 10억원 이하여야 합니다.",
+        "literal_chars": 23
+      },
+      {
+        "field": "이득",
+        "sentence": "변제계획 기간은 변제개시일부터 원칙적으로 3년 이하입니다.",
+        "literal_chars": 32
+      },
+      {
+        "field": "이득",
+        "sentence": "특별한 사정이 있으면 변제개시일부터 5년 이하로 정할 수 있습니다.",
+        "literal_chars": 37
+      },
+      {
+        "field": "이득",
+        "sentence": "파산과 면책결정은 구분해야 합니다.",
+        "literal_chars": 19
+      },
+      {
+        "field": "이득",
+        "sentence": "면책이 확정되어도 조세·벌금·양육비 등은 남을 수 있습니다.",
+        "literal_chars": 33
+      },
+      {
+        "field": "이득",
+        "sentence": "「채무자 회생 및 파산에 관한 법률」 제579조를 보세요.",
+        "literal_chars": 32
+      },
+      {
+        "field": "이득",
+        "sentence": "같은 법 제566조·제611조·제625조도 보세요.",
+        "literal_chars": 28
+      },
+      {
+        "field": "비고",
+        "sentence": "2026-10-18 법령 확인.",
+        "literal_chars": 17
+      },
+      {
+        "field": "비고",
+        "sentence": "한국의 개인회생·파산은 특정 도시만의 제도가 아닙니다.",
+        "literal_chars": 30
+      },
+      {
+        "field": "비고",
+        "sentence": "자격·비용·면책 제외채무를 법률구조 상담에서 확인하세요.",
+        "literal_chars": 31
+      },
+      {
+        "field": "비고",
+        "sentence": "개별 비용과 소요기간도 상담에서 확인하세요.",
+        "literal_chars": 24
+      },
+      {
+        "field": "비고",
+        "sentence": "신용정보와 범죄기록은 별도 규정에 따릅니다.",
+        "literal_chars": 24
+      },
+      {
+        "field": "비고",
+        "sentence": "전과를 지워준다며 돈을 요구하는 업체는 믿지 마세요.",
+        "literal_chars": 29
+      },
+      {
+        "field": "비고",
+        "sentence": "법무보호 지원은 대상 여부와 시설·프로그램 상황을 심사합니다.",
+        "literal_chars": 34
+      },
+      {
+        "field": "비고",
+        "sentence": "형사처분 또는 보호처분을 받고 보호 필요성이 인정돼야 합니다.",
+        "literal_chars": 34
+      },
+      {
+        "field": "비고",
+        "sentence": "「보호관찰 등에 관한 법률」 제3조·제66조에 따른 조건입니다.",
+        "literal_chars": 35
+      },
+      {
+        "field": "비고",
+        "sentence": "오래된 개인회생 사건은 신청일에 따른 적용법도 확인하세요.",
+        "literal_chars": 32
+      }
+    ],
+    "pass": true
+  },
+  "intentional_numeric_changes": [],
+  "doi_changes": [],
+  "limitations": [
+    "Existing r1 limitations remain unchanged. No adoption or approval asserted."
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "chapter": 6,
+  "entry": 29,
+  "exact_proposal": {
+    "entry": 29,
+    "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-029-f514/publication-entry-proposal.md",
+    "proposal_sha256": "6061b32d165f8808c7758bd1d1659b12b741bcfdd4d5b6dc9a94dbd17f584bda",
+    "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-029-f514/publication-entry-changes.json",
+    "changes_sha256": "dc0b87fd68cd44bcd89e60488b0348d6835fbbb761031c5eba1280fbb689f50f",
+    "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/_workspace/2026-10-18-029-f514/strict-entry.md",
+    "base_strict_entry_sha256": "380469a0adbf51dd5f46562503aabc46aa61c6970bc55425bea4a2365bebf075",
+    "literal_exit_code": 0
+  },
+  "decision": "revise",
+  "status": "all_pending_HSE_source_access_resolved_one_unconditional_safety_claim_revision",
+  "readings": [
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/publication/hse-technique-retrieval-r1/good-handling-technique.raw",
+      "artifact_sha256": "62e1a4d3a9b3b55914970443ee393796b5b999db2aa7c89a1daa4d08c0b00498",
+      "url": "https://web.archive.org/web/20261012061522id_/https://www.hse.gov.uk/msd/manual-handling/good-handling-technique.htm",
+      "read_at_utc": "2026-10-18T19:03:37.642844+00:00",
+      "read_scope": "실제HSE원기관페이지아카이브본문을직접읽음.원raw SHA보존. good-handling-technique는gzip압축raw를해제해본문읽었고 training은HTML원본문읽음.정체제목/업데이트/훈련·기술본문과조건직접대조.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null,
+      "retrieved_at_utc": "2026-10-18T19:01:47.354866+00:00",
+      "retrieval_http_status": 200,
+      "retriever": "ROOT; this reviewer read saved bytes",
+      "fresh_http_by_this_reviewer": false
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/publication/hse-technique-retrieval-r1/training.raw",
+      "artifact_sha256": "7e4f44e772f6ab11ef1cce58ebf1e12f3338cee9939cee9d88dd25f61a9c4334",
+      "url": "https://web.archive.org/web/20260614072626id_/https://www.hse.gov.uk/MSD/manual-handling/training.htm",
+      "read_at_utc": "2026-10-18T19:03:37.642915+00:00",
+      "read_scope": "실제HSE원기관페이지아카이브본문을직접읽음.원raw SHA보존. good-handling-technique는gzip압축raw를해제해본문읽었고 training은HTML원본문읽음.정체제목/업데이트/훈련·기술본문과조건직접대조.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null,
+      "retrieved_at_utc": "2026-10-18T19:01:46.210780+00:00",
+      "retrieval_http_status": 200,
+      "retriever": "ROOT; this reviewer read saved bytes",
+      "fresh_http_by_this_reviewer": false
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch06-partial-review/good-handling-technique.raw.decoded.txt",
+      "artifact_sha256": "fdf85446c6f954881eace157fa136d87ba07e31688d4182ee551ffbe47b1ad3b",
+      "url": "see exact archive URL in raw record",
+      "read_at_utc": "2026-10-18T19:03:37.642964+00:00",
+      "read_scope": "원HTML의압축해제/텍스트추출파생물.원raw와별도근거로중복계산안함.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch06-partial-review/training.raw.decoded.txt",
+      "artifact_sha256": "6083742ef05f9d41360cd04e247b39828f77da5e7890a52c61bb9643d8d7629d",
+      "url": "see exact archive URL in raw record",
+      "read_at_utc": "2026-10-18T19:03:37.642998+00:00",
+      "read_scope": "원HTML의압축해제/텍스트추출파생물.원raw와별도근거로중복계산안함.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    }
+  ],
+  "verified_claims": [
+    "교육만으로안전보장불가/작업설계·기구·화물·환경개선우선",
+    "몸가까이하중/안정발자세/비틀기피함/jerk또는snatch금지",
+    "들기시작에등·엉덩이·무릎살짝굽힘 대완전허리굽힘/완전깊은쪼그리기비교"
+  ],
+  "source_conditions": [
+    "양손으로몸앞가까이무비틀기기본들기예시이며실제작업에맞춰조정",
+    "좋은기술은다른위험감소조치대체아님",
+    "쉽게감당할수있는양이상들지않음;들수있는것과안전하게들수있는것은다름;의심되면조언/도움요청",
+    "훈련내용은개별작업에맞춰야하고절차점검/개선필요"
+  ],
+  "revision_requests": [
+    {
+      "field": "비고",
+      "before": "이 권고를 따라도 나쁠 것은 없습니다.",
+      "required": "무조건안전보장삭제·완화하고실제HSE조건(작업에맞춤/감당가능한무게/의심되면도움)을간결히보존.기존올바른자세내용과연구한계는유지.",
+      "reason": "원문은추가적인위험감소도움과조건있는기술안내이며누구에게나해가없음을입증하지않음.새가상위험경고를만들지않음."
+    }
+  ],
+  "prior_reviews": [
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/publication-partial-review-r13.json",
+      "sha256": "079738d9d8af7dadc9b6537c2926647c303a75aa549a228acb07f93db94e5e0e",
+      "preserved": true
+    },
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch06/publication-partial-source-supplement-r4.json",
+      "sha256": "5bbb89893561a6112a13e0729c078598ee757bb184f6fe005c3b58438e4ed80d",
+      "preserved": true
+    }
+  ],
+  "fresh_http_by_this_reviewer": false,
+  "source_access_failure_is_not_content_error": true,
+  "A_notified": true,
+  "canonical_public_git_modified": false,
+  "whole29_integration_formal_approval": false
+}

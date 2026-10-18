@@ -1,0 +1,152 @@
+{
+  "status": "unadopted_pending_independent_exact_hash_review",
+  "chapter": 7,
+  "entry": 5,
+  "base_path": "kr-harness/publication/2026-10-18/ch07/_workspace/2026-10-18-005-f759/strict-entry.md",
+  "base_sha256": "bbf1800a6765ecc2f1f572c310f9c81f86af346d5b6987e4dcd1eaa5f76d8705",
+  "proposal_path": "kr-harness/publication/2026-10-18/ch07/_workspace/2026-10-18-005-f759/publication-entry-proposal.md",
+  "proposal_sha256": "fa015e1089c0a2e6192c48276cd5e302095a73d9cba5f2a1cec3b0abd0048876",
+  "verified_at": "2026-10-18T18:46:58.481456+00:00",
+  "audit_resolution": {
+    "content_audit": "7-5 검증. 공공 무료 창구와 합법 유료소개 구분 유지. 확인 대상을 오류로 처리하지 않음.",
+    "editorial_decisions": "entry 5 field_decisions empty; editorial_proposals empty.",
+    "pure_corrections": "strict-entry에서만 구성. 기존 네 필드 문장 보존."
+  },
+  "field_changes": [
+    {
+      "field": "비용",
+      "before": "공공 구직정보와 취업상담부터 이용하세요. 이력서 작성과 상담에 시간이 듭니다. 1350 전화는 유료입니다.",
+      "after": "공공 구직정보와 취업상담부터 이용하세요. 이력서 작성과 상담에 시간이 듭니다. 1350 전화는 유료입니다.",
+      "changed": false,
+      "reason": "그대로 보존"
+    },
+    {
+      "field": "쉽게",
+      "before": "돈을 내고 일자리를 찾기 전에 공공 서비스를 쓰세요. 고용24에서 채용정보를 확인하고 구직신청을 하세요. 고용센터에도 상담을 요청하세요.",
+      "after": "돈을 내고 일자리를 찾기 전에 공공 서비스를 쓰세요. 고용24에서 채용정보를 확인하고 구직신청을 하세요. 고용센터에도 상담을 요청하세요.",
+      "changed": false,
+      "reason": "그대로 보존"
+    },
+    {
+      "field": "이득",
+      "before": "고용24에서 지역·직종별 채용정보를 확인할 수 있습니다. 이력서 관리와 구직신청도 할 수 있습니다. 국민취업지원제도와 직업훈련 신청으로 연결됩니다. 공공 상담을 통해 경력·근무조건을 정리하세요. 민간 소개소는 등록 여부와 요금을 따로 확인하세요. 등록된 유료직업소개사업 자체는 불법이 아닙니다(「직업안정법」 제19조).",
+      "after": "고용24에서 지역·직종별 채용정보를 확인할 수 있습니다. 이력서 관리와 구직신청도 할 수 있습니다. 국민취업지원제도와 직업훈련 신청으로 연결됩니다. 제도별 신청 자격과 제외 조건은 따로 확인하세요. 공공 상담을 통해 경력·근무조건을 정리하세요. 민간 소개소는 등록 여부와 요금을 따로 확인하세요. 등록만으로 모든 요금 청구가 허용되지는 않습니다. 등록된 유료직업소개사업 자체는 불법이 아닙니다(「직업안정법」 제19조).",
+      "changed": true,
+      "reason": "법19③에 따라 등록과 개별 요금 적법성을 구분하고, 신청제도별 조건·구체적 요금 상한은 별도 확인하도록 한정."
+    },
+    {
+      "field": "근거등급",
+      "before": "A",
+      "after": "A",
+      "changed": false,
+      "reason": "그대로 보존"
+    },
+    {
+      "field": "출처",
+      "before": "고용24, 채용정보·구직신청·취업상담 메뉴. <https://www.work24.go.kr/> · 「직업안정법」 제19조. <https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=259231&type=XML&efYd=20240724>",
+      "after": "고용24, 채용정보·구직신청·취업상담 메뉴. <https://www.work24.go.kr/> · 「직업안정법」 제19조. <https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=259231&type=XML&efYd=20240724>",
+      "changed": false,
+      "reason": "그대로 보존"
+    },
+    {
+      "field": "비고",
+      "before": "2026-10-10 고용24·법령 확인. 일용직이면 실제 고용주와 현장 주소를 남기세요. 지급일·임금액·공제 조건도 기록하세요. 소개소 비용을 현장 임금에서 뺄 때는 내역을 확인하세요. 보증금이나 대출을 먼저 요구하면 제15항(채용 보증금)을 보세요.",
+      "after": "2026-10-10 고용24·법령 확인. 소개요금 상한은 관할 등록기관에 확인하세요. 일용직이면 실제 고용주와 현장 주소를 남기세요. 지급일·임금액·공제 조건도 기록하세요. 소개소 비용을 현장 임금에서 뺄 때는 내역을 확인하세요. 보증금이나 대출을 먼저 요구하면 제15항(채용 보증금)을 보세요.",
+      "changed": true,
+      "reason": "법19③에 따라 등록과 개별 요금 적법성을 구분하고, 신청제도별 조건·구체적 요금 상한은 별도 확인하도록 한정."
+    }
+  ],
+  "title": {
+    "before": "### 5. 일자리는 고용24와 공공 취업상담부터 찾으세요",
+    "after": "### 5. 일자리는 고용24와 공공 취업상담부터 찾으세요",
+    "changed": false,
+    "incoming_anchor_action": "제목을 줄이지 않았으므로 모든 기존 앵커 보존."
+  },
+  "sources": [
+    {
+      "url": "https://www.work24.go.kr/",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/5605690ebe535d6c6ffb.raw",
+      "raw_sha256": "1b3b53c80ee71ff10ecee4f9a2e7fe8a962a2ad4049839eb5ac95d6f92fd7d6c",
+      "method": "existing_cached_primary_HTML_read; HTMLParser text extraction",
+      "read_at": "2026-10-18T18:46:58.481456+00:00",
+      "scope": "채용정보·구직(이력서) 관리·취업상담·국민취업지원제도·훈련 메뉴와 고객상담센터 문구; 개별 제도 신청·제외조건 본문은 읽지 않음",
+      "quotes": [
+        "구직신청",
+        "이력서/자기소개서 관리",
+        "취업똑똑 온라인 취업상담",
+        "Ⅰ유형 구직촉진수당 신청",
+        "국번없이 1350 (유료, 고용노동부 고객상담센터, 평일 09시 ~ 18시)"
+      ]
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=259231&type=XML&efYd=20240724",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/193075cc1e87f1b982fa.raw",
+      "raw_sha256": "60dcdcc778a9573bcd80216da6a6e3c8ef22f951797e7bde5408e9757fdbd903",
+      "method": "existing_cached_primary_XML_read",
+      "read_at": "2026-10-18T18:46:58.481456+00:00",
+      "scope": "기본정보·제19조 전체·제32조·부칙 전체 추출 및 최신 부칙20121 재독; 고시 요금표·시행규칙 고급전문인력 범위는 미열람",
+      "quotes": [
+        "① 유료직업소개사업은 소개대상이 되는 근로자가 취업하려는 장소를 기준으로 하여 국내 유료직업소개사업과 국외 유료직업소개사업으로 구분하되, 국내 유료직업소개사업을 하려는 자는 주된 사업소의 소재지를 관할하는 특별자치도지사ㆍ시장ㆍ군수 및 구청장에게 등록하여야 하고, 국외 유료직업소개사업을 하려는 자는 고용노동부장관에게 등록하여야 한다. 등록한 사항을 변경하려는 경우에도 또한 같다. <개정 2010.6.4>",
+        "③ 제1항에 따른 등록을 하고 유료직업소개사업을 하는 자는 고용노동부장관이 결정ㆍ고시한 요금 외의 금품을 받아서는 아니 된다. 다만, 고용노동부령으로 정하는 고급ㆍ전문인력을 소개하는 경우에는 당사자 사이에 정한 요금을 구인자로부터 받을 수 있다. <개정 2010.6.4>",
+        "제1조(시행일) 이 법은 공포 후 6개월이 경과한 날부터 시행한다."
+      ]
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=law&type=XML&query=%EC%A7%81%EC%97%85%EC%95%88%EC%A0%95%EB%B2%95&display=100&nw=1",
+      "raw_path": "/tmp/ch07e05-law-search.xml",
+      "raw_sha256": "2f73a632ab579062d99b6ad9acf84352fadb1fc49fe50e18116e21f1d26b4445",
+      "method": "new_verified_HTTPS_XML_read",
+      "requested_at": "2026-10-18T18:46:12.975678+00:00",
+      "scope": "검색 결과 4개 전체; 법 현행259231/20240724, 시행예정286819/20261210 구분",
+      "quotes": [
+        "<현행연혁코드>현행</현행연혁코드>",
+        "<법령일련번호>259231</법령일련번호>",
+        "<시행일자>20240724</시행일자>"
+      ]
+    },
+    {
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=286819&type=XML",
+      "raw_path": "/tmp/ch07e05-future.xml",
+      "raw_sha256": "d8542fe99e28bbb901541ccd933ce7ef9f450c976db25c827afae2e2f1b842a6",
+      "method": "new_verified_HTTPS_XML_read",
+      "read_at": "2026-10-18T18:46:58.481456+00:00",
+      "scope": "제19조 전체 및 부칙21787 전체. 시행예정 규정은 현행으로 추가하지 않음.",
+      "quotes": [
+        "제1조(시행일) 이 법은 공포 후 6개월이 경과한 날부터 시행한다."
+      ]
+    }
+  ],
+  "intentional_numerical_scope_changes": [],
+  "doi_additions": [],
+  "doi_removals": [],
+  "unresolved_limitations": [
+    "고용24 개별 국민취업지원제도·직업훈련의 자격과 제외조건은 이 항에서 확정하지 않음. 신청 전 별도 확인을 본문에 명시.",
+    "구체적 소개요금 고시별 상한·고급전문인력의 예외 범위는 미열람. 새 금액·상한·일률적 무료 주장은 추가하지 않음. 관할 등록기관 확인 안내."
+  ],
+  "literal_check": {
+    "command": [
+      "python",
+      "kr-harness/publication/2026-10-18/ch05/publication-partial-review-evidence/literal_check.py",
+      "kr-harness/publication/2026-10-18/ch07/_workspace/2026-10-18-005-f759/publication-entry-proposal.md"
+    ],
+    "exit_code": 0,
+    "stdout": [
+      {
+        "entry": null,
+        "path": "kr-harness/publication/2026-10-18/ch07/_workspace/2026-10-18-005-f759/publication-entry-proposal.md",
+        "title_chars": 25,
+        "easy_chars": 76,
+        "easy_sentences": 3,
+        "long_sentences": [],
+        "pass_length": true
+      }
+    ],
+    "measured_with": "Python len; 법조문 괄호 포함 예외 없음"
+  },
+  "preservation": {
+    "cost_tag": true,
+    "grade": true,
+    "numbers_dates_references": "1350, 2026-10-10, 제19조, 제15항(채용 보증금) 모두 보존",
+    "protected_artifacts": "읽기만; final/input/metrics/snapshot/source/manifest 불변"
+  }
+}

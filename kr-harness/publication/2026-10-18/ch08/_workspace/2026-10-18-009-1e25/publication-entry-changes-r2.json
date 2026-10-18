@@ -1,0 +1,44 @@
+{
+  "status": "proposed_unapproved_pending_independent_review",
+  "chapter": 8,
+  "entry": 9,
+  "revision": 2,
+  "author": "sameoriginalauthor /root/humanize_b/b08009",
+  "date_utc": "2026-10-18T19:31:50.380490+00:00",
+  "previous_proposal": {
+    "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-009-1e25/publication-entry-proposal.md",
+    "sha256": "783042df23d8715de242c6ff5e328f4c3d3118319bd025bee53ef80be40186d4"
+  },
+  "previous_changes": {
+    "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-009-1e25/publication-entry-changes.json",
+    "sha256": "0fc78b7f7bac8af064b34cba681bb961479052cb2362829366acd0dea7c43fad"
+  },
+  "proposal_sha256": "5f75b43ebccc253268477ab046c741f9b4ade787d5b72f63d2d93ddf96b13e10",
+  "change": {
+    "field": "비고",
+    "before": "중국의 연 2회 무료·20일 답변 규칙은 적용하지 않습니다. 본인 명의 대출을 발견하면 해당 금융회사에 바로 알리세요. 명의도용이 의심되면 경찰에도 신고하세요. 2026-10-10 법령 확인(국가법령정보센터).",
+    "after": "본인 명의 대출을 발견하면 해당 금융회사에 바로 알리세요. 명의도용이 의심되면 경찰에도 신고하세요. 2026-10-10 법령 확인(국가법령정보센터).",
+    "exact_deleted_span": "중국의 연 2회 무료·20일 답변 규칙은 적용하지 않습니다. ",
+    "reason": "독립 reviewer09 지적: 한국 독자에게 불필요한 중국 원문 변환 메모 삭제. 한국 법령 조건과 결과통지 범위는 이득에 유지."
+  },
+  "intentional_numeric_change": "삭제한 중국 비적용 규칙의 2회·20일만 제거. 나머지 수치와 조건·부정·출처·등급·비용태그·여섯 필드 불변.",
+  "source_verification": "r1 실제 원자료 읽기와 증거 JSON을 정확 해시로 계승. 새 사실 추가나 신규 출처 열람 없음.",
+  "checks": {
+    "literal": {
+      "exit_code": 0,
+      "stdout": "[\n  {\n    \"entry\": 9,\n    \"path\": \"/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-009-1e25/publication-entry-proposal-r2.md\",\n    \"title_chars\": 27,\n    \"easy_chars\": 77,\n    \"easy_sentences\": 3,\n    \"long_sentences\": [],\n    \"pass_length\": true\n  }\n]\n",
+      "stderr": ""
+    },
+    "layout": {
+      "exit_code": 0,
+      "stdout": "{\"checked\": 1, \"failures\": []}\n",
+      "stderr": ""
+    }
+  },
+  "invariants": {
+    "r1_unchanged": true,
+    "only_exact_span_deleted": true,
+    "public_unmodified": true,
+    "not_adopted": true
+  }
+}

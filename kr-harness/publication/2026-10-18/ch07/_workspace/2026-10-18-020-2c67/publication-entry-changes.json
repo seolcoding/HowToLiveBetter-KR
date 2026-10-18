@@ -1,0 +1,220 @@
+{
+  "status": "unadopted_pending_independent_exact_hash_review",
+  "chapter": 7,
+  "entry": 20,
+  "base_path": "kr-harness/publication/2026-10-18/ch07/_workspace/2026-10-18-020-2c67/strict-entry.md",
+  "base_sha256": "8ddc048ea08808e7cf36b3633d9dd7c2474c0283416108bd244f2122783fe2db",
+  "proposal_sha256": "824edcd8933385a97a8f2e969edd083557c005a5c2ad34e1db5b1f3b4965bff2",
+  "changes": [
+    {
+      "field": "비용",
+      "before": "나이·병력·상품에 따라 보험료가 달라집니다. 이번 조사에서는 일반적인 연간 보험료를 확인하지 못했습니다. 보험료를 계속 낼 여력과 약관 검토 시간이 필요합니다.",
+      "after": "나이·병력·상품에 따라 보험료가 달라집니다. 일반적인 연간 보험료를 확인하지 못했습니다. 보험료를 계속 낼 여력과 약관 검토 시간이 필요합니다.",
+      "reason": "조사과정 표현을 걷고 보험료 미확인 한계 보존"
+    },
+    {
+      "field": "이득",
+      "before": "실손형은 실제 부담한 의료비를 약정 범위 안에서 보상합니다. 진단비형은 약관에 정한 질병·진단조건을 따릅니다. 갱신주기·재가입 조건·자기부담금을 확인하세요. 비급여·면책기간·보장 제외도 비교하세요. 갱신이 가능해도 보험료가 고정된다는 뜻은 아닙니다. 여러 실손에 가입했다면 약관의 비례보상 조건을 확인하세요. 중요한 병력 등을 고의로 숨기면 계약해지 문제가 생깁니다. 「상법」 제651조·제651조의2를 보세요.",
+      "after": "실손형은 실제 부담한 의료비의 보상 범위를 약관에서 확인하세요. 진단비형은 약관에 정한 질병·진단조건을 따릅니다. 갱신주기·재가입 조건·자기부담금을 확인하세요. 비급여·면책기간·보장 제외도 비교하세요. 갱신이 가능해도 보험료가 고정된다는 뜻은 아닙니다. 여러 실손에 가입했다면 약관의 비례보상 조건을 확인하세요. 계약자나 피보험자가 고의·중대한 과실로 고지를 어기면 해지될 수 있습니다. 중요한 사항을 숨기거나 사실과 다르게 알리는 경우입니다. 해지는 보험사가 안 날부터 1개월, 계약일부터 3년 안에만 가능합니다. 보험사가 알았거나 중대한 과실로 몰랐다면 해지할 수 없습니다. 보험사가 서면으로 질문한 사항은 중요한 사항으로 추정합니다. 「상법」 제651조·제651조의2를 보세요.",
+      "reason": "상품 미검증을 확정 보상으로 쓰지 않고 약관 확인으로 한정. 고지의무의 주체·중과실·부실고지·해지기한·보험자 예외·서면질문 추정효과를 실제 조문에 맞춰 명시"
+    },
+    {
+      "field": "출처",
+      "before": "「상법」 제651조·제651조의2. <https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=273629&type=XML&efYd=20260910> · 의료비 중복 보상 제외는 「재난적의료비 지원에 관한 법률」 제13조도 확인하세요. <https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=249317&type=XML&efYd=20230929>",
+      "after": "「상법」 제651조·제651조의2. <https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=273629&type=XML&efYd=20260910> · 재난적의료비 지원에서 중복분 제외는 「재난적의료비 지원에 관한 법률」 제13조도 확인하세요. <https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=249317&type=XML&efYd=20230929>",
+      "reason": "재난지원금 산정의 중복분 제외를 특정 실손약관 근거와 구분"
+    },
+    {
+      "field": "비고",
+      "before": "2026-10-10 법령 확인. B등급은 원문과 같습니다. 가입에 따른 절감액을 검증한 수치는 아닙니다. 새 상품을 사기 전에 기존 보장을 확인하세요. 설계사에게 말로만 알리지 말고 청약서 질문에 답하세요. 보험별 갱신·중복보상은 실제 약관을 확인해야 합니다. 건강보험·공적 의료비 지원은 제9항(건강보험 자격), 제10항(의료비 지원)을 보세요.",
+      "after": "2026-10-18 법령 확인. 가입에 따른 절감액을 검증한 수치는 아닙니다. 새 상품을 사기 전에 기존 보장을 확인하세요. 설계사에게 말로만 알리지 말고 청약서 질문에 답하세요. 개별 상품의 보험료·갱신·재가입·중복보상 약관은 미확인입니다. 가입하려는 보험의 실제 약관을 확인하세요. 건강보험 자격은 제9항(건강보험 자격)을 보세요. 공적 의료비 지원은 제10항(의료비 지원)을 보세요.",
+      "reason": "등급보존 작업메모 삭제, 개별상품 약관·요율 미확인 명시, 실제 읽은 법령 확인일 및 짧은 참조 문장"
+    }
+  ],
+  "evidence": [
+    {
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/273629.xml",
+      "raw_sha256": "48b6b00f5625f842d6005eeab12e41dc93c5d8596e5db4163266c53e4a21ab22",
+      "method": "cached_primary_XML_direct_read_not_new_HTTP",
+      "verified_at_utc": "2026-10-18T19:28:59.267956+00:00",
+      "actual_read_scope": "기본정보·해당 조문 전문 및 부칙. 상법은 651·651의2 및 638·638의2·638의3, 12397·21044 부칙; 재난적의료비법은 13①②와 수록 부칙 전문. 개별 상품약관은 미열람.",
+      "quotes": [
+        "651\n조문\n고지의무위반으로 인한 계약해지\n20260910\n\n\nN\n제651조(고지의무위반으로 인한 계약해지) 보험계약당시에 보험계약자 또는 피보험자가 고의 또는 중대한 과실로 인하여 중요한 사항을 고지하지 아니하거나 부실의 고지를 한 때에는 보험자는 그 사실을 안 날로부터 1월내에, 계약을 체결한 날로부터 3년내에 한하여 계약을 해지할 수 있다. 그러나 보험자가 계약당시에 그 사실을 알았거나 중대한 과실로 인하여 알지 못한 때에는 그러하지 아니하다. <개정 1991.12.31>",
+        "651\n2\n조문\n서면에 의한 질문의 효력\n20260910\n\n\nN\n제651조의2(서면에 의한 질문의 효력) 보험자가 서면으로 질문한 사항은 중요한 사항으로 추정한다.\n[본조신설 1991.12.31]"
+      ],
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=273629&type=XML&efYd=20260910",
+      "effective_date": "20260910"
+    },
+    {
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/744be0daff4cb310fc9e.raw",
+      "raw_sha256": "027654910b141ca7607b25a0e7d41857f3373a2ce0ae820a72b0fbf92dee11b8",
+      "method": "cached_primary_XML_direct_read_not_new_HTTP",
+      "verified_at_utc": "2026-10-18T19:28:59.270134+00:00",
+      "actual_read_scope": "기본정보·해당 조문 전문 및 부칙. 상법은 651·651의2 및 638·638의2·638의3, 12397·21044 부칙; 재난적의료비법은 13①②와 수록 부칙 전문. 개별 상품약관은 미열람.",
+      "quotes": [
+        "13\n조문\n지급범위\n20230929\n일부개정\n\n\nN\n제13조(지급범위)\n\n①\n① 공단은 지원대상자에 대하여 대통령령으로 정하는 기준에 따라 재난적의료비 중 일부에 해당하는 금액을 지급한다. 이 경우 지원대상자의 소득수준 및 제20조에 따른 재원 등을 고려하여 지원금액의 상한선을 정할 수 있다.\n\n\n②\n② 지원대상자가 다른 법령 또는 계약에 따라 재난적의료비에 대하여 국가 또는 지방자치단체로부터 급여ㆍ금품 등을 받았거나 받을 수 있는 경우 또는 「보험업법」에 따른 보험회사 등으로부터 보험금ㆍ금품 등을 받았거나 받을 수 있는 경우로서 대통령령으로 정하는 경우에는 해당 급여, 보험금 또는 금품 등에 상당하는 액수를 제외하고 지급한다."
+      ],
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=249317&type=XML&efYd=20230929",
+      "effective_date": "20230929"
+    }
+  ],
+  "findings_closure": {
+    "initial_7_20": "법률 부분만 확인. 실제 상품약관·보험료·갱신·비례보상 미확인은 독자본문에 명시. 법률이 특정상품 약관을 입증한다는 주장 없음.",
+    "editorial_decisions": "entry20 pending, field_decisions empty; no false error assumed"
+  },
+  "references": {
+    "outgoing": [
+      {
+        "path": "kr-harness/publication/2026-10-18/ch07/_workspace/2026-10-18-009-7df1/publication-entry-proposal.md",
+        "sha256": "1faf0a36f9e46b6eb6c250ca044970bba5dc556f0c4f9a8a7176d381a7ff1e7c",
+        "actual_title": "### 9. 퇴직하면 건강보험 자격과 보험료부터 확인하세요",
+        "read_scope": "full entry; anchor and reference scope match; proposal is not adoption"
+      },
+      {
+        "path": "kr-harness/publication/2026-10-18/ch07/_workspace/2026-10-18-010-2906/publication-entry-proposal-r2.md",
+        "sha256": "cdf948c47faf457035a262f47203a8cb9aaed0784542ec9c4a66f1625ef62fa4",
+        "actual_title": "### 10. 중한 병이면 보험 적용과 의료비 지원부터 확인하세요",
+        "read_scope": "full entry; anchor and reference scope match; proposal is not adoption"
+      }
+    ],
+    "incoming": "rg across book-kr and source found no insurance incoming anchor to chapter7 entry20; title unchanged"
+  },
+  "intentional_scope_changes": [
+    "실손 보상 확정 서술을 실제 약관 확인 권고로 한정",
+    "고지의무 해지의 법정 조건·기한·예외 추가"
+  ],
+  "intentional_numerical_changes": [
+    "제651조의 1개월·3년 해지기간을 원문 직접 확인하여 추가"
+  ],
+  "doi_additions": [],
+  "doi_removals": [],
+  "limitations": [
+    "특정 상품의 보험료 및 실손·진단비·갱신·재가입·면책·중복보상 약관 미열람. 개별 적용은 실제 약관 확인 필요.",
+    "법령 신규 현행검색은 수행하지 않음. 보존된 국가법령정보센터 XML의 시행일과 수록 부칙 직접 대조.",
+    "재난적의료비13은 지원금 산정의 중복분 제외 근거일 뿐 민간 실손 비례보상 입증 아님."
+  ],
+  "literal_checks": {
+    "비용": [
+      {
+        "sentence": "나이·병력·상품에 따라 보험료가 달라집니다.",
+        "len": 24
+      },
+      {
+        "sentence": "일반적인 연간 보험료를 확인하지 못했습니다.",
+        "len": 24
+      },
+      {
+        "sentence": "보험료를 계속 낼 여력과 약관 검토 시간이 필요합니다.",
+        "len": 30
+      }
+    ],
+    "쉽게": [
+      {
+        "sentence": "건강보험 뒤에 남는 비용을 민간보험으로 보완합니다.",
+        "len": 28
+      },
+      {
+        "sentence": "생활비가 모자라면 새 보험료 부담을 늘리지 마세요.",
+        "len": 28
+      },
+      {
+        "sentence": "실손 보장과 진단비 보장은 구분하세요.",
+        "len": 21
+      }
+    ],
+    "이득": [
+      {
+        "sentence": "실손형은 실제 부담한 의료비의 보상 범위를 약관에서 확인하세요.",
+        "len": 35
+      },
+      {
+        "sentence": "진단비형은 약관에 정한 질병·진단조건을 따릅니다.",
+        "len": 27
+      },
+      {
+        "sentence": "갱신주기·재가입 조건·자기부담금을 확인하세요.",
+        "len": 25
+      },
+      {
+        "sentence": "비급여·면책기간·보장 제외도 비교하세요.",
+        "len": 22
+      },
+      {
+        "sentence": "갱신이 가능해도 보험료가 고정된다는 뜻은 아닙니다.",
+        "len": 28
+      },
+      {
+        "sentence": "여러 실손에 가입했다면 약관의 비례보상 조건을 확인하세요.",
+        "len": 32
+      },
+      {
+        "sentence": "계약자나 피보험자가 고의·중대한 과실로 고지를 어기면 해지될 수 있습니다.",
+        "len": 41
+      },
+      {
+        "sentence": "중요한 사항을 숨기거나 사실과 다르게 알리는 경우입니다.",
+        "len": 31
+      },
+      {
+        "sentence": "해지는 보험사가 안 날부터 1개월, 계약일부터 3년 안에만 가능합니다.",
+        "len": 39
+      },
+      {
+        "sentence": "보험사가 알았거나 중대한 과실로 몰랐다면 해지할 수 없습니다.",
+        "len": 34
+      },
+      {
+        "sentence": "보험사가 서면으로 질문한 사항은 중요한 사항으로 추정합니다.",
+        "len": 33
+      },
+      {
+        "sentence": "「상법」 제651조·제651조의2를 보세요.",
+        "len": 24
+      }
+    ],
+    "비고": [
+      {
+        "sentence": "2026-10-18 법령 확인.",
+        "len": 17
+      },
+      {
+        "sentence": "가입에 따른 절감액을 검증한 수치는 아닙니다.",
+        "len": 25
+      },
+      {
+        "sentence": "새 상품을 사기 전에 기존 보장을 확인하세요.",
+        "len": 25
+      },
+      {
+        "sentence": "설계사에게 말로만 알리지 말고 청약서 질문에 답하세요.",
+        "len": 30
+      },
+      {
+        "sentence": "개별 상품의 보험료·갱신·재가입·중복보상 약관은 미확인입니다.",
+        "len": 34
+      },
+      {
+        "sentence": "가입하려는 보험의 실제 약관을 확인하세요.",
+        "len": 23
+      },
+      {
+        "sentence": "건강보험 자격은 제9항(건강보험 자격)을 보세요.",
+        "len": 27
+      },
+      {
+        "sentence": "공적 의료비 지원은 제10항(의료비 지원)을 보세요.",
+        "len": 29
+      }
+    ]
+  },
+  "layout_check": {
+    "field_count": 6,
+    "single_physical_lines": true,
+    "field_order_preserved": true,
+    "tag_preserved": "<!-- 成本标签: 钱=少 时间=少 毅力=否 收益=大 口径=金钱 -->",
+    "grade_preserved": "B",
+    "title_chars": 32,
+    "easy_chars": 79,
+    "easy_sentences": 3
+  }
+}

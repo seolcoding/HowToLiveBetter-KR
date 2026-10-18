@@ -1,0 +1,144 @@
+{
+  "chapter": 8,
+  "status": "completed_exact_partial_review_r7",
+  "manifest_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/author-partial-manifest-7.json",
+  "manifest_sha256": "8914406412904fd25402bc0a4026b489127743ee44589223a5cb0b2a772faf2b",
+  "entries": [
+    {
+      "entry": 9,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-009-1e25/publication-entry-proposal-r2.md",
+      "proposal_sha256": "5f75b43ebccc253268477ab046c741f9b4ade787d5b72f63d2d93ddf96b13e10",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-009-1e25/publication-entry-changes-r2.json",
+      "changes_sha256": "1d012c2a4b343cc4de7a9a5411a3048651fcff6e8b2e5a8e4b63c28ac1a4f3ee",
+      "base_strict_entry_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-009-1e25/strict-entry.md",
+      "base_strict_entry_sha256": "0fafbebae141a45375a014a0b91574032b468d011a3a2a533bc14e5a821348ee",
+      "literal_exit_code": 0,
+      "decision": "approve",
+      "all_four_complete_fields_read": true,
+      "hash_checks": {
+        "proposal": true,
+        "changes": true,
+        "base_strict_entry": true
+      },
+      "snapshot_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-009-1e25/entry_snapshot.md",
+      "snapshot_sha256": "0fafbebae141a45375a014a0b91574032b468d011a3a2a533bc14e5a821348ee",
+      "strict_candidate_contains_exact_base": true,
+      "length_check": {
+        "entry": 9,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-009-1e25/publication-entry-proposal-r2.md",
+        "title_chars": 27,
+        "easy_chars": 77,
+        "easy_sentences": 3,
+        "long_sentences": [],
+        "pass_length": true
+      },
+      "protected_checks": {
+        "number": true,
+        "six_labels": true,
+        "tags": true,
+        "grade": true
+      },
+      "production_layout_check": true,
+      "initial_canonical_entry": {
+        "entry": 9,
+        "title": "### 9. 본인 신용정보를 조회하고 모르는 대출을 확인하세요",
+        "source_entry_snapshot_path": "_workspace/2026-10-18-009-1e25/entry_snapshot.md",
+        "source_entry_snapshot_sha256": "0fafbebae141a45375a014a0b91574032b468d011a3a2a533bc14e5a821348ee",
+        "source_review_status": "verified_new_http",
+        "candidate_review_status": "pending_candidate_review",
+        "scope_and_findings": "크레딧포유 공식 홈페이지 실제 열람: 무료 조회·대출·연체·보증·보험 안내 확인. 신용정보법38조 정당 사유·중단 조사·7일 처리결과 통지 일치. 7일을 모든 정정 완료기한으로 바꾸지 마세요."
+      },
+      "finding_closure": "review-r6의유일revise인중국연2회/20일비적용변환메모를정확한한구간삭제로해소.나머지전체6필드byte는r1과동일.한국법38/20의2·부칙과공식기관HTML을이reviewer도직접읽어정당사유·지체없이중단후조사·삭제정정·7일처리결과(모든정정완료보장아님)·무료조회범위확인.원중국제도숫자현행성을검증한것아님.원문45참조는strict에이미없는상태유지;명시outgoing없음.전체4본문필드및출처/등급·길이/layout·보호·DOI추가삭제0확인.",
+      "doi_delta": {
+        "added": [],
+        "dropped": []
+      },
+      "revision_requests": [],
+      "proposed_root_operation": {
+        "type": "replace_complete_strict_entry_body",
+        "before_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-009-1e25/strict-entry.md",
+        "before_entire_entry_sha256": "0fafbebae141a45375a014a0b91574032b468d011a3a2a533bc14e5a821348ee",
+        "after_proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-009-1e25/publication-entry-proposal-r2.md",
+        "after_original_proposal_sha256": "5f75b43ebccc253268477ab046c741f9b4ade787d5b72f63d2d93ddf96b13e10",
+        "effective_after_sha256": "5f75b43ebccc253268477ab046c741f9b4ade787d5b72f63d2d93ddf96b13e10",
+        "effective_after_rule": "proposal.rstrip()+original strict entry trailing whitespace; preserve original separators",
+        "supersession": "Latest approved full replaces any initial field/older full once.",
+        "integration_authorized": false
+      },
+      "field_decisions": {
+        "title": "approve",
+        "비용": "approve",
+        "쉽게": "approve",
+        "이득": "approve",
+        "근거등급": "approve",
+        "출처": "approve",
+        "비고": "approve"
+      }
+    }
+  ],
+  "approved_entries": [
+    9
+  ],
+  "revise_entries": [],
+  "actual_primary_readings": [
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/law-versions/283841.xml",
+      "artifact_sha256": "3ba19a1070fd85bd04b03b7d7031997464613b09e59096ccc000a8d5cfd1b058",
+      "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=283841&type=XML",
+      "read_at_utc": "2026-10-18T19:35:56.174213+00:00",
+      "read_scope": "독립직접읽음:신용정보법38①~⑧/20의2①~⑤및21445부칙.정당사유인정시지체없이제공이용중단후조사/사실다름또는미확인삭제정정/처리결과7일통지.보관기간종료후최장5년/목적달성3개월및예외·위임구분.20260911기본시행/부칙개정대상20조4항등으로38추가특례없음.모든정정7일완료보장아님.개별고시전수/본인신용거래검증아님.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    },
+    {
+      "artifact_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch08-audit/credit4u.raw",
+      "artifact_sha256": "975a68101a3060e2faf20726d481604d188a6282cb7780ee93ba3bbce37765c6",
+      "url": "https://www.credit4u.or.kr/",
+      "read_at_utc": "2026-10-18T19:35:56.174329+00:00",
+      "read_scope": "공식기관기존HTML실제본문의무료조회서비스·대출연체보증보험안내·인증로그인메뉴직접읽음.주석속문구뿐아니라실제배너본문에서도확인.개인로그인내역이나실제신청결과열람아님.",
+      "access": "Existing preserved primary bytes directly read",
+      "cache_read_status": "success",
+      "fresh_http": false,
+      "fresh_http_status": null
+    }
+  ],
+  "prior_actual_reading_reuse": [
+    {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/publication-partial-review-r6.json",
+      "sha256": "90b39206cb9853e12e045940945136f0f3b1a5611a4fabda7b575ba3831abd02",
+      "scope": "이전정확r1/필드별판정·수정요청/자료취득메타를읽음.핵심법조문/기관본문은이번직접추가읽음."
+    }
+  ],
+  "cross_reference_review": [
+    {
+      "entry": 9,
+      "outgoing_references": [],
+      "title": "unchanged",
+      "original_chinese_entry_45_reference": "strict already removed; r2 introduces none",
+      "decision": "no_explicit_target_reference_to_verify"
+    }
+  ],
+  "production_helper_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/scripts/humanize_publication.py",
+  "production_helper_sha256": "244c194c7620c3095dc3a972eecdaa4e17fab8a0a301ae8b601cb8401569bfd3",
+  "helper_code_modified": false,
+  "fresh_http_performed": false,
+  "whole46_approval": false,
+  "integration_approval": false,
+  "formal_kr_fit_approval": false,
+  "preservation": "Prior reviews/frozen proposals/canonical/public/runs/gates/git unchanged.",
+  "reviewer_id": "/root/publication_review_04",
+  "six_complete_fields_read": true,
+  "exact_r1_to_r2_deleted_span_only": true,
+  "public_source_candidate_comparison": {
+    "source_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/source.md",
+    "source_sha256": "d3bc3df4c03ef5f74d391c47424b7a09433b26f0c8f2ce2850deb34559b79f23",
+    "candidate_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/candidate.md",
+    "candidate_sha256": "df979c3d91ba44157603401a4894cff6d0d9eb9d01a7778e43c11cf49de4e017",
+    "public_path": "/workspace/HowToLiveBetter-KR/book-kr/08-법적-말썽에-휘말리지-않기.md",
+    "public_sha256": "d3bc3df4c03ef5f74d391c47424b7a09433b26f0c8f2ce2850deb34559b79f23",
+    "entry_snapshot_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch08/_workspace/2026-10-18-009-1e25/entry_snapshot.md",
+    "all_entry9_bases_match": true
+  }
+}

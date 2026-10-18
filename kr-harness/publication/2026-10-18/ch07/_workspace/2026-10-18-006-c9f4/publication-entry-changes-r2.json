@@ -1,0 +1,83 @@
+{
+  "entry": 6,
+  "chapter": 7,
+  "status": "unadopted_pending_independent_exact_hash_review",
+  "previous_proposal_path": "kr-harness/publication/2026-10-18/ch07/_workspace/2026-10-18-006-c9f4/publication-entry-proposal.md",
+  "previous_proposal_sha256": "c684eb81e865cbad8a8b9a58364b4d05e87456395a74497ce8caa328360b2947",
+  "previous_changes_path": "kr-harness/publication/2026-10-18/ch07/_workspace/2026-10-18-006-c9f4/publication-entry-changes.json",
+  "previous_changes_sha256": "8ccc0d59e82ea245f11b739c6e5c8fb150bcbe762bdcadd9db60052c8e20681d",
+  "proposal_path": "kr-harness/publication/2026-10-18/ch07/_workspace/2026-10-18-006-c9f4/publication-entry-proposal-r2.md",
+  "proposal_sha256": "8144bb351989eb70fa8e48139afd005e9e96a102c8796e8792172519aabafc1a",
+  "field_changes": [
+    {
+      "field": "이득",
+      "before": "위기가 계속되면 심의위원회 심의를 거쳐 총 6개월까지 연장합니다(제10조).",
+      "after": "위기가 계속되면 심의위원회 심의를 거쳐 총 6개월까지 연장할 수 있습니다(제10조).",
+      "reason": "긴급복지지원법 제10조제3항의 연장 재량을 복원. 기존 위기 지속·심의 조건 및 총6개월 상한 보존."
+    }
+  ],
+  "exact_diff": "--- publication-entry-proposal.md\n+++ publication-entry-proposal-r2.md\n@@ -2,7 +2,7 @@\n <!-- 成本标签: 钱=0 时间=中 毅力=否 收益=中 口径=金钱 -->\n - 비용: 지원 요청에는 수수료가 없습니다. 주민센터나 시·군·구 복지부서에 위기사유를 말하세요. 소득·재산을 확인하고 금융정보 제공에 동의해야 합니다.\n - 쉽게: 실직·중한 질병·화재 등으로 생계가 막히면 요청하세요. 기초생활수급자가 아니어도 요청할 수 있습니다.\n-- 이득: 「긴급복지지원법」 제2조의 위기사유에 해당해야 합니다. 실직·휴폐업·중한 질병 등도 위기사유에 포함됩니다. 소득은 기준 중위소득 75% 이하여야 합니다. 재산과 금융재산 기준도 함께 충족해야 합니다. 2026년 생계지원은 1인 가구 월 783,000원입니다. 4인 가구는 월 1,994,600원입니다. 생계지원은 우선 3개월 동안 제공합니다. 위기가 계속되면 심의위원회 심의를 거쳐 총 6개월까지 연장합니다(제10조). 현장 확인 후 신속히 지원합니다(제8조). 이후 적정성을 조사합니다(제13조).\n+- 이득: 「긴급복지지원법」 제2조의 위기사유에 해당해야 합니다. 실직·휴폐업·중한 질병 등도 위기사유에 포함됩니다. 소득은 기준 중위소득 75% 이하여야 합니다. 재산과 금융재산 기준도 함께 충족해야 합니다. 2026년 생계지원은 1인 가구 월 783,000원입니다. 4인 가구는 월 1,994,600원입니다. 생계지원은 우선 3개월 동안 제공합니다. 위기가 계속되면 심의위원회 심의를 거쳐 총 6개월까지 연장할 수 있습니다(제10조). 현장 확인 후 신속히 지원합니다(제8조). 이후 적정성을 조사합니다(제13조).\n - 근거등급: B\n - 출처: 「긴급복지지원법」 제2조·제3조·제7조부터 제10조·제13조·제15조. <https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=270789&type=XML&efYd=20251023> · 같은 법 시행령 제7조. <https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=242023&type=XML&efYd=20220503> · 보건복지부 고시 제2025-210호. <https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000269954&type=XML> · 2026년 금액 표 원문. <https://www.law.go.kr/flDownload.do?flSeq=159360289> · 금융재산 기준, 고시 제2025-211호. <https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000269956&type=XML>\n - 비고: 2026-10-18 기준입니다. 재산기준은 거주지역과 주거용 재산 공제에 따라 달라집니다. 주거용 재산 공제는 한도 내 실거주 주택 1호에만 적용합니다. 금융재산은 가구별 생활준비금에 600만원을 더한 기준입니다. 주거지원에는 200만원을 추가합니다. 다른 법률로 같은 내용의 지원을 받고 있으면 지원하지 않습니다(제3조). 지원이 부적정하면 지원금을 돌려줘야 할 수 있습니다. 129에 현재 위기를 설명하고 신청 창구를 물어보세요.\n",
+  "source": {
+    "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=270789&type=XML&efYd=20251023",
+    "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch07-audit/442407b07e340f39720c.raw",
+    "raw_sha256": "1dc3b7c368634291cc98e267358ebc669a283e1bbe117dc859134fcf73135572",
+    "read_at": "2026-10-18T19:03:25.107703+00:00",
+    "method": "existing_cached_primary_XML_direct_read",
+    "read_scope": "제10조 전체 제1항부터 제4항",
+    "exact_quote": "③ 시장ㆍ군수ㆍ구청장은 제1항 및 제2항에 따른 지원에도 불구하고 위기상황이 계속되는 경우에는 제12조에 따른 긴급지원심의위원회의 심의를 거쳐 지원을 연장할 수 있다."
+  },
+  "unchanged": "r1은 불변. 한 문장의 연장합니다→연장할 수 있습니다만 변경. 금액·기간·다른 조건·제목·태그·등급·출처 모두 보존. r1 근거와 제한은 previous_changes_path 참조.",
+  "literal_check": {
+    "command": [
+      "python",
+      "kr-harness/publication/2026-10-18/ch05/publication-partial-review-evidence/literal_check.py",
+      "kr-harness/publication/2026-10-18/ch07/_workspace/2026-10-18-006-c9f4/publication-entry-proposal-r2.md"
+    ],
+    "exit_code": 0,
+    "stdout": [
+      {
+        "entry": null,
+        "path": "kr-harness/publication/2026-10-18/ch07/_workspace/2026-10-18-006-c9f4/publication-entry-proposal-r2.md",
+        "title_chars": 26,
+        "easy_chars": 56,
+        "easy_sentences": 2,
+        "long_sentences": [],
+        "pass_length": true
+      }
+    ],
+    "all_field_sentence_lengths": {
+      "비용": [
+        18,
+        29,
+        30
+      ],
+      "쉽게": [
+        30,
+        25
+      ],
+      "이득": [
+        30,
+        28,
+        25,
+        25,
+        32,
+        23,
+        22,
+        47,
+        23,
+        20
+      ],
+      "비고": [
+        17,
+        32,
+        34,
+        33,
+        20,
+        40,
+        29,
+        30
+      ]
+    },
+    "physical_field_lines": 6
+  }
+}
