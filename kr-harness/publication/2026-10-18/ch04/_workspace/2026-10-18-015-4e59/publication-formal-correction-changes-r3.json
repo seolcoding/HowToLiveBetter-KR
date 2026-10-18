@@ -1,0 +1,61 @@
+{
+  "status": "unadopted_proposal",
+  "entry": 15,
+  "raw_entry_sha256": "72bc40fc37dce0e6857ce9ea2e5316bb638a6ba6d8ced87393b6d10328416ad8",
+  "whole_public_raw_sha256": "778cd1e94739315897db896368700675ef65b4e45c93034531b737ea4dd152e6",
+  "base_snapshot": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-015-4e59/publication-current-entry-formal-r1.md",
+  "guard_json": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-015-4e59/publication-current-entry-formal-r1.json",
+  "proposal_sha256": "89667f036a2fa21725a7198f44a176b421cf6b5ac41b1d6f5717bc5664950b0d",
+  "changes": [
+    {
+      "field": "비고",
+      "before": "이 통계의 미디어 이용은 여가로 쓴 시간만 셉니다. 일과 공부에 쓴 시간은 따로 셉니다. 그래도 미디어 이용에는 책 읽기도 들어 있습니다. 그래서 이 시간을 모두 낭비로 볼 수는 없습니다. 근거등급은 C입니다. 이용을 제한해 되찾는 시간을 계산한 연구는 없습니다. 되찾은 시간을 어디에 쓰는지도 연구되지 않았습니다. 통계는 전체 이용시간만 보여 줍니다. 남의 소식을 훑어보는 이용 방식은 무작위시험에서 살펴봤습니다. 제3절 제20항(또래 소식 앱에 제한 걸기)에서 절약량과 기분 변화를 확인하세요.",
+      "after": "이 통계의 미디어 이용은 여가로 쓴 시간만 셉니다. 일과 공부에 쓴 시간은 따로 셉니다. 그래도 미디어 이용에는 책 읽기도 들어 있습니다. 그래서 이 시간을 모두 낭비로 볼 수는 없습니다. 근거등급은 C입니다. 위 생활시간조사는 이용 제한으로 되찾은 시간을 측정하지 않았습니다. 되찾은 시간을 어디에 쓰는지도 이 조사로는 알 수 없습니다. 통계는 전체 이용시간만 보여 줍니다. 남의 소식을 훑어보는 이용 방식은 무작위시험에서 살펴봤습니다. 제3절 제20항(또래 소식 앱에 제한 걸기)에서 절약량과 기분 변화를 확인하세요.",
+      "before_span": "이용을 제한해 되찾는 시간을 계산한 연구는 없습니다. 되찾은 시간을 어디에 쓰는지도 연구되지 않았습니다.",
+      "after_span": "위 생활시간조사는 이용 제한으로 되찾은 시간을 측정하지 않았습니다. 되찾은 시간을 어디에 쓰는지도 이 조사로는 알 수 없습니다.",
+      "reason": "문헌 전체 부재 단정을 실제 인용한 생활시간조사가 측정하지 않은 범위로 한정합니다."
+    },
+    {
+      "field": "쉽게",
+      "before": "짧은 영상과 목적 없는 스크롤의 이용시간에 상한을 두세요. 하루 1시간을 줄이면 1년에 365시간이라는 계산입니다. 실제로 되찾는 시간을 확인한 연구는 없습니다.",
+      "after": "짧은 영상과 목적 없는 스크롤의 이용시간에 상한을 두세요. 하루 1시간을 줄이면 1년에 365시간이라는 계산입니다. 연간 365시간은 실제로 측정한 절약 시간이 아닙니다.",
+      "before_span": "실제로 되찾는 시간을 확인한 연구는 없습니다.",
+      "after_span": "연간 365시간은 실제로 측정한 절약 시간이 아닙니다.",
+      "reason": "쉽게만 읽어도 연간365시간이 조건부 산술이며 실측 절약량이 아님을 알도록 마지막 문장만 명료화합니다."
+    }
+  ],
+  "verification": {
+    "date": "2026-10-18T16:29:09.011605+00:00",
+    "review_path": "kr-harness/chapters/04/kr-fit-review.md",
+    "cross_reference_path": "/workspace/HowToLiveBetter-KR/book-kr/03-기력-낭비-줄이기.md",
+    "cross_reference_whole_sha256": "4a28ef24bf2def0a43f93bb2e2daad4bc53959f47322f6fcdf85a6a60480420e",
+    "cross_reference_entry_sha256": "4ed50463e4a8a54525fed7e41b470070e1e22044f8d4f8cf3b9e0ad5548cd311",
+    "cross_reference_quote": "중단으로 되찾은 시간은 보통 하루 60분이었습니다.",
+    "cross_reference_primary": "https://doi.org/10.1257/aer.20190658",
+    "cross_reference_scope": "현행 제3절20항의 미국 페이스북 4주 중단 시험을 직접 읽음; 이 작업에서 해당 논문 원문은 새로 열람하지 않음.",
+    "primary_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch04-audit/time-use-2024.pdf",
+    "primary_raw_sha256": "d4c59023bd2e73cb5352d256f14d5d99f78465dba0383e751d39452aa444c9e9",
+    "primary_actual_read": "앞선 같은 항목 검증에서 PyMuPDF로 물리13·22쪽 직접 추출·독해. 국민10세이상 여가미디어 이용 총량과 참여자 통계이며 이용제한 개입 결과가 아님.",
+    "primary_quote": "10세 이상 국민 중 일요일에 하루 10분 이상 미디어를 이용한 여가활동을 한 사람의 비율은 93.4%이고, 이들의 평균 이용시간은 3시간 41분임"
+  },
+  "proof": {
+    "raw_entry_sha256": "72bc40fc37dce0e6857ce9ea2e5316bb638a6ba6d8ced87393b6d10328416ad8",
+    "base_is_original_public_snapshot": true,
+    "r2_only_last_easy_sentence_changed": true,
+    "only_easy_last_and_note_two_sentences_changed_from_original": true,
+    "easy_first_two_sentences_unchanged": true,
+    "all_other_bytes_unchanged": true,
+    "easy_chars": 95,
+    "easy_sentences": 3,
+    "new_easy_sentence_chars": 30,
+    "r1_sha256": "7eba1155cee0b21d525eead281b438a94c9060449ace9924ac5be339947c3072",
+    "r2_sha256": "7e216daba5618e0b4cc9bf6f3cf910c038eca3ddc217f9f44c391f0d048a7ce0"
+  },
+  "unresolved_limits": [
+    "미국 페이스북 중단 시험의 시간 결과는 현행 제3절20항에서 직접 확인했습니다. 해당 원논문을 이번 수정에서 새로 열람한 것은 아닙니다.",
+    "생활시간조사의 미디어 총량을 이용제한 개입의 절약 효과로 해석하지 않습니다.",
+    "한국 짧은 영상 상한의 효과나 되찾은 시간의 용도는 이 생활시간조사로 알 수 없습니다."
+  ],
+  "approval": "unadopted pending independent exact-hash review",
+  "revision_reason": "독립 검토의 쉽게 선행어 없는 위 생활시간조사 지적을 반영. r1/r2는 그대로 보존."
+}

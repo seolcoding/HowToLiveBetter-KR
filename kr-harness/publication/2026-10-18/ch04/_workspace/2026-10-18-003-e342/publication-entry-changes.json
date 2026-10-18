@@ -1,0 +1,122 @@
+{
+  "status": "unadopted_proposal",
+  "entry": 3,
+  "base_file": "strict-entry.md",
+  "base_sha256": "31aac7dfe16b1960dfae236ec073559139bf3e2a78f7734cc1c66945e61fab65",
+  "changes": [
+    {
+      "field": "쉽게",
+      "before": "사람은 이미 들인 돈과 시간 때문에 하던 일을 붙잡습니다. 98개 효과 크기를 합쳐도 이 성향은 일관되게 나타납니다. 계속할지는 앞으로 들일 비용과 얻을 이득만으로 정하세요. 이미 쓴 돈과 시간은 계산에 넣지 마세요.",
+      "after": "이미 들인 돈과 시간 때문에 하던 일을 붙잡기 쉽습니다. 계속할지는 앞으로 들일 비용과 얻을 이득만으로 정하세요. 이미 쓴 돈과 시간은 계산에 넣지 마세요.",
+      "reason": "승인된 편집 제안의 판단 기준과 성향 설명을 유지하고 연구 수치 설명을 이득에 둡니다."
+    },
+    {
+      "field": "이득",
+      "before": "사람은 이미 들인 돈·노력·시간 때문에 하던 일을 계속합니다. 심리학에서는 이 성향을 매몰비용 효과라고 부릅니다. 효과 크기 98개를 합친 메타분석도 이 성향을 확인했습니다. 이 성향을 피하면 「아깝다」는 이유로 시간을 더 쓰지 않습니다.",
+      "after": "사람은 이미 들인 돈·노력·시간 때문에 하던 일을 계속합니다. 심리학에서는 이 성향을 매몰비용 효과라고 부릅니다. 여러 연구의 효과 크기 98개를 합친 분석도 이 성향을 확인했습니다. 이 성향을 피하면 「아깝다」는 이유로 시간을 더 쓰지 않습니다.",
+      "reason": "메타분석이라는 용어를 여러 연구를 합친 분석으로 풉니다. 98개는 보존합니다."
+    },
+    {
+      "field": "비고",
+      "before": "Arkes와 Blumer는 오하이오대학교 극장 시즌권으로 실험했습니다. 가격은 정가 15달러, 2달러 할인, 7달러 할인의 세 가지였습니다. 연구진은 무작위로 가격을 달리해 팔았습니다. 전반기에 정가 그룹은 평균 4.11회를 관람했습니다. 나머지 두 그룹의 평균 관람 횟수는 3.32회, 3.29회였습니다. 후반기에는 세 그룹의 관람 횟수 차이가 사라졌습니다. Roth 등은 시간이 지나면 이 효과가 약해진다고 봤습니다. 나이가 많을수록 이 효과가 약하다는 결과도 제시했습니다.",
+      "after": "Roth 등은 결정 유형에 따라 효과의 크기가 다르다고 봤습니다. 이미 산 것을 이용할지 정하는 경우에는 시간이 지나며 효과가 약해졌습니다. 나이가 많은 성인은 젊은 성인보다 이 효과를 덜 보였습니다.",
+      "reason": "시간 약화를 이용 결정에 한정하고 연령 비교의 상대 집단을 명시합니다. 직접 확인하지 못한 Arkes 실험 가격·배정·관람 수치와 장소 세부는 이번 제안에서 제외합니다."
+    }
+  ],
+  "verification": {
+    "date": "2026-10-18T15:52:05.999618+00:00",
+    "method": "기존 출판사 HTML의 원논문 초록 문구 직접 열람; Crossref 원응답 서지 직접 열람; Arkes 출판사 본문 접근 시도",
+    "level": "Roth abstract only; Arkes bibliography only",
+    "sources": [
+      {
+        "url": "https://link.springer.com/article/10.1007/s40685-014-0014-8",
+        "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch04-audit/roth-2015.html",
+        "sha256": "b6467cd07d215c22493c6455d986036d1f94c247163dfade1c8eeda84f830cea",
+        "quotes": [
+          "This article presents the results of a meta-analytic review of 98 effect sizes of the sunk-cost effect, with special emphasis on the decision-specific influence of moderators.",
+          "The results show clear evidence that the sunk-cost effect emerges, though its effect size and the influence of the moderators are contingent on the respective decision type.",
+          "In particular, we find support for the idea that the sunk-cost effect is attenuated by time in utilization decisions.",
+          "The results also reveal that older adults are less likely to fall prey to the sunk-cost effect than younger adults."
+        ],
+        "original_fetch_utc": "2026-10-18T12:37:27.736234+00:00"
+      },
+      {
+        "url": "https://api.crossref.org/works/10.1016%2F0749-5978%2885%2990049-4",
+        "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/crossref/a28d057130b8ad3c03b2.json",
+        "sha256": "15cb5a25e801da6417ac7c632184618a6299d22de4cad4e28f0f15870e275848",
+        "level": "bibliography only"
+      }
+    ],
+    "unavailable": "https://www.sciencedirect.com/science/article/pii/0749597885900494 — Tunnel connection failed: 403 Forbidden; response not retained"
+  },
+  "intentional_numerical_scope_changes": [
+    "98개 유지",
+    "15달러·2달러·7달러·4.11회·3.32회·3.29회와 전후반기 비교를 직접 미확인으로 제외",
+    "시간 약화는 이미 산 것을 이용할지 정하는 결정에 한정",
+    "연령 비교는 나이가 많은 성인 대 젊은 성인으로 명시"
+  ],
+  "doi_changes": {
+    "added": [],
+    "removed": [],
+    "reason": "원출처 DOI 모두 보존; Arkes 세부 수치 확인 완료로 취급하지 않음"
+  },
+  "limitations": [
+    "Arkes 시즌권 실험 원문 세부는 확인하지 못했습니다. 수치가 틀렸다고 판정한 것은 아닙니다.",
+    "Roth 초록 직접 확인을 원연구 전체 검증으로 확대하지 않습니다.",
+    "출판 및 독립 정확 해시 검토는 수행하지 않았습니다."
+  ],
+  "sentence_lengths": [
+    {
+      "field": "쉽게",
+      "text": "이미 들인 돈과 시간 때문에 하던 일을 붙잡기 쉽습니다.",
+      "length": 31
+    },
+    {
+      "field": "쉽게",
+      "text": "계속할지는 앞으로 들일 비용과 얻을 이득만으로 정하세요.",
+      "length": 31
+    },
+    {
+      "field": "쉽게",
+      "text": "이미 쓴 돈과 시간은 계산에 넣지 마세요.",
+      "length": 23
+    },
+    {
+      "field": "이득",
+      "text": "사람은 이미 들인 돈·노력·시간 때문에 하던 일을 계속합니다.",
+      "length": 34
+    },
+    {
+      "field": "이득",
+      "text": "심리학에서는 이 성향을 매몰비용 효과라고 부릅니다.",
+      "length": 28
+    },
+    {
+      "field": "이득",
+      "text": "여러 연구의 효과 크기 98개를 합친 분석도 이 성향을 확인했습니다.",
+      "length": 38
+    },
+    {
+      "field": "이득",
+      "text": "이 성향을 피하면 「아깝다」는 이유로 시간을 더 쓰지 않습니다.",
+      "length": 35
+    },
+    {
+      "field": "비고",
+      "text": "Roth 등은 결정 유형에 따라 효과의 크기가 다르다고 봤습니다.",
+      "length": 36
+    },
+    {
+      "field": "비고",
+      "text": "이미 산 것을 이용할지 정하는 경우에는 시간이 지나며 효과가 약해졌습니다.",
+      "length": 41
+    },
+    {
+      "field": "비고",
+      "text": "나이가 많은 성인은 젊은 성인보다 이 효과를 덜 보였습니다.",
+      "length": 33
+    }
+  ],
+  "easy_length": 87,
+  "proposal_sha256": "fbb0b68bb02e3d17be55084d21cd398c74183c14b6ed0698d761141824c20c7c"
+}

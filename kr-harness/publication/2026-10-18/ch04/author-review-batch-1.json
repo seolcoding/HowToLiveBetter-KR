@@ -1,0 +1,442 @@
+{
+  "status": "batch_review_complete_partial_approval",
+  "reviewed_at": "2026-10-18T15:44:07.505951+00:00",
+  "frozen_manifest": {
+    "path": "author-batch-1.json",
+    "sha256": "2d4da53034f73de1f199852723c4a345a21789ea7317c1ccee9e3ab7a05579b8"
+  },
+  "review_basis": {
+    "source_sha256": "75862eb5fd6b44340bc3e939add11e1e9a7cd74b57ce639827d99ec7a6ceaa37",
+    "strict_candidate_sha256": "1c5e14de8c6be8fc90ad3b3120cd4eb3daf7f3f5875b15c65d9cd5905c9527a1",
+    "canonical_initial_audit_sha256": "4fae0eccc10f504977485c38655a271d828607f474892e95ad3e896318a06b5e",
+    "canonical_initial_decisions_sha256": "cc9024602c83bad8d5735957c1f387f8c6ea49cd998c3cd35076f9754d1758bb"
+  },
+  "counts": {
+    "approve": 4,
+    "revise": 1,
+    "reject": 0
+  },
+  "entries": [
+    {
+      "number": 9,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-009-a03e/publication-entry-proposal.md",
+      "proposal_sha256": "3cd58b1a116f6a5185f0a51893d243503daf75c531aded66950638d93594d16e",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-009-a03e/publication-entry-changes.json",
+      "changes_sha256": "f28bc7f72b9c3284ff39cc50b08fdd31c5afc1d11e27d342b27ddf4c1fdc2e3c",
+      "decision": "approve",
+      "reason": "Steel 원초록691상관·성실성과하위특성의강한관련 확인. 성격전체약함/자기비난으로해결불가 문장을 바로잡고 행동권고의직접효과미검증을 드러냄.",
+      "canonical_initial_finding": "content-audit.md 항목9; editorial-decisions.json entries[9]",
+      "checks": {
+        "proposal_sha_matches_frozen": true,
+        "changes_sha_matches_frozen": true,
+        "changes_reconstruct_proposal": true,
+        "labels_exact_order": true,
+        "cost_tag_preserved": true,
+        "evidence_grade_preserved": true,
+        "sources_and_dois_preserved": true,
+        "title_chars": 24,
+        "title_le_70": true,
+        "easy_chars": 97,
+        "easy_le_120": true,
+        "easy_sentence_count": 3,
+        "max_prose_sentence_chars": 41,
+        "all_prose_sentences_le_50": true,
+        "incoming_anchor_check": "entry9/13 public incoming numbered references rg returned none; entry18 title and incoming anchor preserved"
+      },
+      "field_decisions": [
+        {
+          "field": "title",
+          "before_matches": true,
+          "decision": "approve",
+          "reason": "Steel 원초록691상관·성실성과하위특성의강한관련 확인. 성격전체약함/자기비난으로해결불가 문장을 바로잡고 행동권고의직접효과미검증을 드러냄."
+        },
+        {
+          "field": "쉽게",
+          "before_matches": true,
+          "decision": "approve",
+          "reason": "Steel 원초록691상관·성실성과하위특성의강한관련 확인. 성격전체약함/자기비난으로해결불가 문장을 바로잡고 행동권고의직접효과미검증을 드러냄."
+        }
+      ],
+      "approval_scope": "동결된 full proposal 정확 SHA의 편집·근거교정 승인. 통합/공개는 하지 않음. 정식 KR-FIT나 전18항 출판승인 아님.",
+      "residual_evidence_limits": [
+        "Abstract only: no sample or population total verified and no intervention efficacy established.",
+        "Existing temporal motivation explanation is retained; exact hyperbolic-discounting wording beyond abstract not independently verified.",
+        "Existing time-savings limitation retained; no quantitative time benefit added."
+      ]
+    },
+    {
+      "number": 11,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-011-59a6/publication-entry-proposal.md",
+      "proposal_sha256": "f76f47e68a4a8a709c1c6ea7814e47727b411fd1e534aeca586e81353ce75dd4",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-011-59a6/publication-entry-changes.json",
+      "changes_sha256": "5e6701a95cfb60620e76a843d954fadf6dbab2e30c091cc0a19850b586aa8b68",
+      "decision": "approve",
+      "reason": "Halpern 원초록의전체배정집단/배정수락률/도구변수추정 잠재수락집단을구분. 13.7%와13.2pp CI3.1~22.8의추정범위,금연외삽한계와 적은보증금미확인 보존.",
+      "canonical_initial_finding": "content-audit.md 항목11; editorial-decisions.json entries[11]",
+      "checks": {
+        "proposal_sha_matches_frozen": true,
+        "changes_sha_matches_frozen": true,
+        "changes_reconstruct_proposal": true,
+        "labels_exact_order": true,
+        "cost_tag_preserved": true,
+        "evidence_grade_preserved": true,
+        "sources_and_dois_preserved": true,
+        "title_chars": 36,
+        "title_le_70": true,
+        "easy_chars": 101,
+        "easy_le_120": true,
+        "easy_sentence_count": 4,
+        "max_prose_sentence_chars": 39,
+        "all_prose_sentences_le_50": true,
+        "incoming_anchor_check": "title unchanged; existing internal references preserved"
+      },
+      "field_decisions": [
+        {
+          "field": "쉽게",
+          "before_matches": true,
+          "decision": "approve",
+          "reason": "Halpern 원초록의전체배정집단/배정수락률/도구변수추정 잠재수락집단을구분. 13.7%와13.2pp CI3.1~22.8의추정범위,금연외삽한계와 적은보증금미확인 보존."
+        },
+        {
+          "field": "이득",
+          "before_matches": true,
+          "decision": "approve",
+          "reason": "Halpern 원초록의전체배정집단/배정수락률/도구변수추정 잠재수락집단을구분. 13.7%와13.2pp CI3.1~22.8의추정범위,금연외삽한계와 적은보증금미확인 보존."
+        },
+        {
+          "field": "비고",
+          "before_matches": true,
+          "decision": "approve",
+          "reason": "Halpern 원초록의전체배정집단/배정수락률/도구변수추정 잠재수락집단을구분. 13.7%와13.2pp CI3.1~22.8의추정범위,금연외삽한계와 적은보증금미확인 보존."
+        }
+      ],
+      "approval_scope": "동결된 full proposal 정확 SHA의 편집·근거교정 승인. 통합/공개는 하지 않음. 정식 KR-FIT나 전18항 출판승인 아님.",
+      "residual_evidence_limits": [
+        "원논문 초록만 재열람했으며 도구변수 모형의 가정·부록을 독립 재분석하지 않음.",
+        "더 적은 보증금의 효과와 논문 쓰기·운동으로의 일반화를 확인하지 않음.",
+        "초록 내 상충된 원자료 총계나 정정 고지는 확인되지 않았으며 전체 원문 정정 이력 검토를 완료한 것으로 주장하지 않음."
+      ]
+    },
+    {
+      "number": 12,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-012-75ad/publication-entry-proposal.md",
+      "proposal_sha256": "ac332adc3253def953c7e8c890fb41bdbee85cc24b1b8032fed348f10a3132e5",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-012-75ad/publication-entry-changes.json",
+      "changes_sha256": "846179d3bcafa6b19040c66182f14f10c027ee6b50f528293ef59b8587c58b5c",
+      "decision": "approve",
+      "reason": "Lally 원초록96/82/62/39,12주84일,최대자동성95%의모형추정18~254일,한번건너뛰기예외 대조. 모형과실측을구분하고 처음부터재시작불필요 뜻을회복.",
+      "canonical_initial_finding": "content-audit.md 항목12; editorial-decisions.json entries[12]",
+      "checks": {
+        "proposal_sha_matches_frozen": true,
+        "changes_sha_matches_frozen": true,
+        "changes_reconstruct_proposal": true,
+        "labels_exact_order": true,
+        "cost_tag_preserved": true,
+        "evidence_grade_preserved": true,
+        "sources_and_dois_preserved": true,
+        "title_chars": 26,
+        "title_le_70": true,
+        "easy_chars": 118,
+        "easy_le_120": true,
+        "easy_sentence_count": 3,
+        "max_prose_sentence_chars": 44,
+        "all_prose_sentences_le_50": true,
+        "incoming_anchor_check": "title unchanged; existing internal references preserved"
+      },
+      "field_decisions": [
+        {
+          "field": "쉽게",
+          "before_matches": true,
+          "decision": "approve",
+          "reason": "Lally 원초록96/82/62/39,12주84일,최대자동성95%의모형추정18~254일,한번건너뛰기예외 대조. 모형과실측을구분하고 처음부터재시작불필요 뜻을회복."
+        },
+        {
+          "field": "이득",
+          "before_matches": true,
+          "decision": "approve",
+          "reason": "Lally 원초록96/82/62/39,12주84일,최대자동성95%의모형추정18~254일,한번건너뛰기예외 대조. 모형과실측을구분하고 처음부터재시작불필요 뜻을회복."
+        }
+      ],
+      "approval_scope": "동결된 full proposal 정확 SHA의 편집·근거교정 승인. 통합/공개는 하지 않음. 정식 KR-FIT나 전18항 출판승인 아님.",
+      "residual_evidence_limits": [
+        "원논문 초록을 직접 확인했으며 본문과 보충자료는 읽지 않았습니다.",
+        "매일 글쓰기와 주3회 달리기 미측정 유보는 기존대로 보존했습니다."
+      ]
+    },
+    {
+      "number": 13,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-013-463e/publication-entry-proposal.md",
+      "proposal_sha256": "88807118b3926363028f4b74ae4b89c4b9bbc8cd869728728540768381254fb4",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-013-463e/publication-entry-changes.json",
+      "changes_sha256": "95c83628b5bce5d11ea75ec448e128c676905db87102594fa3299909883311a6",
+      "decision": "revise",
+      "reason": "특정인터넷CBT 한정과 비유의≠동등성·전문상담불필요단정삭제·109유지는적절. 그러나10주·스웨덴성인/스웨덴어·프로그램구성은 열람한초록에없으며 저자도계승미검증으로명시. full entry 최종승인에는 해당1차원문확인 또는 근거없는세부의 별도수정본필요.",
+      "canonical_initial_finding": "content-audit.md 항목13; editorial-decisions.json entries[13]",
+      "checks": {
+        "proposal_sha_matches_frozen": true,
+        "changes_sha_matches_frozen": true,
+        "changes_reconstruct_proposal": true,
+        "labels_exact_order": true,
+        "cost_tag_preserved": true,
+        "evidence_grade_preserved": true,
+        "sources_and_dois_preserved": true,
+        "title_chars": 37,
+        "title_le_70": true,
+        "easy_chars": 98,
+        "easy_le_120": true,
+        "easy_sentence_count": 3,
+        "max_prose_sentence_chars": 43,
+        "all_prose_sentences_le_50": true,
+        "incoming_anchor_check": "entry9/13 public incoming numbered references rg returned none; entry18 title and incoming anchor preserved"
+      },
+      "field_decisions": [
+        {
+          "field": "title",
+          "before_matches": true,
+          "decision": "approve_change_direction_pending_full_entry_evidence",
+          "reason": "특정인터넷CBT 한정과 비유의≠동등성·전문상담불필요단정삭제·109유지는적절. 그러나10주·스웨덴성인/스웨덴어·프로그램구성은 열람한초록에없으며 저자도계승미검증으로명시. full entry 최종승인에는 해당1차원문확인 또는 근거없는세부의 별도수정본필요."
+        },
+        {
+          "field": "쉽게",
+          "before_matches": true,
+          "decision": "approve_change_direction_pending_full_entry_evidence",
+          "reason": "특정인터넷CBT 한정과 비유의≠동등성·전문상담불필요단정삭제·109유지는적절. 그러나10주·스웨덴성인/스웨덴어·프로그램구성은 열람한초록에없으며 저자도계승미검증으로명시. full entry 최종승인에는 해당1차원문확인 또는 근거없는세부의 별도수정본필요."
+        },
+        {
+          "field": "비고",
+          "before_matches": true,
+          "decision": "approve_change_direction_pending_full_entry_evidence",
+          "reason": "특정인터넷CBT 한정과 비유의≠동등성·전문상담불필요단정삭제·109유지는적절. 그러나10주·스웨덴성인/스웨덴어·프로그램구성은 열람한초록에없으며 저자도계승미검증으로명시. full entry 최종승인에는 해당1차원문확인 또는 근거없는세부의 별도수정본필요."
+        },
+        {
+          "field": "비용",
+          "before_matches": true,
+          "decision": "approve_change_direction_pending_full_entry_evidence",
+          "reason": "특정인터넷CBT 한정과 비유의≠동등성·전문상담불필요단정삭제·109유지는적절. 그러나10주·스웨덴성인/스웨덴어·프로그램구성은 열람한초록에없으며 저자도계승미검증으로명시. full entry 최종승인에는 해당1차원문확인 또는 근거없는세부의 별도수정본필요."
+        },
+        {
+          "field": "이득",
+          "before_matches": true,
+          "decision": "approve_change_direction_pending_full_entry_evidence",
+          "reason": "특정인터넷CBT 한정과 비유의≠동등성·전문상담불필요단정삭제·109유지는적절. 그러나10주·스웨덴성인/스웨덴어·프로그램구성은 열람한초록에없으며 저자도계승미검증으로명시. full entry 최종승인에는 해당1차원문확인 또는 근거없는세부의 별도수정본필요."
+        },
+        {
+          "field": "이득",
+          "before_matches": true,
+          "decision": "approve_change_direction_pending_full_entry_evidence",
+          "reason": "특정인터넷CBT 한정과 비유의≠동등성·전문상담불필요단정삭제·109유지는적절. 그러나10주·스웨덴성인/스웨덴어·프로그램구성은 열람한초록에없으며 저자도계승미검증으로명시. full entry 최종승인에는 해당1차원문확인 또는 근거없는세부의 별도수정본필요."
+        },
+        {
+          "field": "이득",
+          "before_matches": true,
+          "decision": "approve_change_direction_pending_full_entry_evidence",
+          "reason": "특정인터넷CBT 한정과 비유의≠동등성·전문상담불필요단정삭제·109유지는적절. 그러나10주·스웨덴성인/스웨덴어·프로그램구성은 열람한초록에없으며 저자도계승미검증으로명시. full entry 최종승인에는 해당1차원문확인 또는 근거없는세부의 별도수정본필요."
+        },
+        {
+          "field": "비고",
+          "before_matches": true,
+          "decision": "approve_change_direction_pending_full_entry_evidence",
+          "reason": "특정인터넷CBT 한정과 비유의≠동등성·전문상담불필요단정삭제·109유지는적절. 그러나10주·스웨덴성인/스웨덴어·프로그램구성은 열람한초록에없으며 저자도계승미검증으로명시. full entry 최종승인에는 해당1차원문확인 또는 근거없는세부의 별도수정본필요."
+        }
+      ],
+      "approval_scope": "동결된 full proposal 정확 SHA의 편집·근거교정 승인. 통합/공개는 하지 않음. 정식 KR-FIT나 전18항 출판승인 아님.",
+      "residual_evidence_limits": [
+        "Full article not read. Ten-week duration, Swedish language and programme components retained from base and prior editorial decision, not newly verified by abstract.",
+        "Korean translation availability and programme cost remain unverified.",
+        "Clinical exclusions and eligibility details not established by abstract; no invented contraindication list. Existing depression/anxiety/crisis warnings retained."
+      ]
+    },
+    {
+      "number": 18,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-018-63e0/publication-entry-proposal.md",
+      "proposal_sha256": "6e0b44104dc88eb0f464eca6a3d88e73dcf7f9423b8ffce03ce7851b9af31f5d",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-018-63e0/publication-entry-changes.json",
+      "changes_sha256": "547af04296fe93d2eddbe0d14aa8a8d735d1ba13b348997bd01cf9f8f7ff5618",
+      "decision": "approve",
+      "reason": "한국공식PDF 전체이동10세이상1:32/취업자15세이상1:46확인. Stutzer초록패널연관과ChatterjeePDF실제요약/논의 확인. 주5일왕복30×2×5 산술과 개입절약효과를구분하고 보상해석·교통수단별시간관계·인과한계를보존.",
+      "canonical_initial_finding": "content-audit.md 항목18; editorial-decisions.json entries[18]",
+      "checks": {
+        "proposal_sha_matches_frozen": true,
+        "changes_sha_matches_frozen": true,
+        "changes_reconstruct_proposal": true,
+        "labels_exact_order": true,
+        "cost_tag_preserved": true,
+        "evidence_grade_preserved": true,
+        "sources_and_dois_preserved": true,
+        "title_chars": 34,
+        "title_le_70": true,
+        "easy_chars": 90,
+        "easy_le_120": true,
+        "easy_sentence_count": 3,
+        "max_prose_sentence_chars": 40,
+        "all_prose_sentences_le_50": true,
+        "incoming_anchor_check": "entry9/13 public incoming numbered references rg returned none; entry18 title and incoming anchor preserved"
+      },
+      "field_decisions": [
+        {
+          "field": "쉽게",
+          "before_matches": true,
+          "decision": "approve",
+          "reason": "한국공식PDF 전체이동10세이상1:32/취업자15세이상1:46확인. Stutzer초록패널연관과ChatterjeePDF실제요약/논의 확인. 주5일왕복30×2×5 산술과 개입절약효과를구분하고 보상해석·교통수단별시간관계·인과한계를보존."
+        },
+        {
+          "field": "이득",
+          "before_matches": true,
+          "decision": "approve",
+          "reason": "한국공식PDF 전체이동10세이상1:32/취업자15세이상1:46확인. Stutzer초록패널연관과ChatterjeePDF실제요약/논의 확인. 주5일왕복30×2×5 산술과 개입절약효과를구분하고 보상해석·교통수단별시간관계·인과한계를보존."
+        },
+        {
+          "field": "비고",
+          "before_matches": true,
+          "decision": "approve",
+          "reason": "한국공식PDF 전체이동10세이상1:32/취업자15세이상1:46확인. Stutzer초록패널연관과ChatterjeePDF실제요약/논의 확인. 주5일왕복30×2×5 산술과 개입절약효과를구분하고 보상해석·교통수단별시간관계·인과한계를보존."
+        }
+      ],
+      "approval_scope": "동결된 full proposal 정확 SHA의 편집·근거교정 승인. 통합/공개는 하지 않음. 정식 KR-FIT나 전18항 출판승인 아님.",
+      "residual_evidence_limits": [
+        "Stutzer full text not read; abstract plus Chatterjee review description only.",
+        "Chatterjee underlying primary studies not independently verified.",
+        "한국 이동시간은 출퇴근만이 아닌 전체 이동; 원문 비고 보존.",
+        "이사 행복효과·실제 시간절약 개입효과·금전가치는 직접 입증/측정한 것으로 쓰지 않음.",
+        "혼잡시간 회피의 실제 시간단축 크기는 인용 근거에서 별도 확인하지 못함; 가능성으로 한정."
+      ]
+    }
+  ],
+  "actual_evidence_read": [
+    {
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/d96cbd6fc03d12ce102e.json",
+      "sha256": "f44e1dec4296a40a4166cf8a59556dbb45aae93c1069cd0fa08e4e3e618a37cb",
+      "independently_read_at": "2026-10-18T15:44:07.505951+00:00",
+      "method": "기존원시캐시재열람,새HTTP아님",
+      "read_scope": "원논문 초록/metadata 직접 재열람; full text 미열람",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1037%2F0033-2909.133.1.65%22&format=json&resultType=core&pageSize=10",
+      "original_fetched_at": "2026-10-18T20:50:31.984327+09:00",
+      "http_status": 200
+    },
+    {
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/2d8a738a4644d42ef424.json",
+      "sha256": "5918ed1c14061b88e41c0d3b8cf90a2b33cb995a93a5fcddccd94407cc2a5e06",
+      "independently_read_at": "2026-10-18T15:44:07.505951+00:00",
+      "method": "기존원시캐시재열람,새HTTP아님",
+      "read_scope": "원논문 초록/metadata 직접 재열람; full text 미열람",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1056%2FNEJMoa1414293%22&format=json&resultType=core&pageSize=10",
+      "original_fetched_at": "2026-10-18T20:50:32.185823+09:00",
+      "http_status": 200
+    },
+    {
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/crossref/248f8ea4bd81051a8323.json",
+      "sha256": "c10ffe61aa82f253dbee7916b9c2e572bdd2cdc1cd9864cf31948eab236deac7",
+      "independently_read_at": "2026-10-18T15:44:07.505951+00:00",
+      "method": "기존원시캐시재열람,새HTTP아님",
+      "read_scope": "원논문 초록/metadata 직접 재열람; full text 미열람",
+      "url": "https://api.crossref.org/works/10.1002%2Fejsp.674",
+      "original_fetched_at": "2026-10-18T20:52:29.475838+09:00",
+      "http_status": 200
+    },
+    {
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/38f8e8e3f9f3ac35ff75.json",
+      "sha256": "132f4836429d389c25303feddd8cded87267f0452f135777d23c4ab7288211d2",
+      "independently_read_at": "2026-10-18T15:44:07.505951+00:00",
+      "method": "기존원시캐시재열람,새HTTP아님",
+      "read_scope": "원논문 초록/metadata 직접 재열람; full text 미열람",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1037%2Fccp0000023%22&format=json&resultType=core&pageSize=10",
+      "original_fetched_at": "2026-10-18T20:50:32.378546+09:00",
+      "http_status": 200
+    },
+    {
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/crossref/d62873daa6a4671186d5.json",
+      "sha256": "c9da44824862d71d9be4d1b04b42167f2ffe0f706d3ca97bdff74d55a4a08731",
+      "independently_read_at": "2026-10-18T15:44:07.505951+00:00",
+      "method": "기존원시캐시재열람,새HTTP아님",
+      "read_scope": "원논문 초록/metadata 직접 재열람; full text 미열람",
+      "url": "https://api.crossref.org/works/10.1111%2Fj.1467-9442.2008.00542.x",
+      "original_fetched_at": "2026-10-18T20:52:29.763243+09:00",
+      "http_status": 200
+    },
+    {
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch04-audit/time-use-2024.pdf",
+      "sha256": "d4c59023bd2e73cb5352d256f14d5d99f78465dba0383e751d39452aa444c9e9",
+      "independently_read_at": "2026-10-18T15:44:07.505951+00:00",
+      "method": "기존원시캐시재열람,새HTTP아님",
+      "read_scope": "공식PDF물리13/22/33쪽표 재열람",
+      "url": "https://www.mods.go.kr/boardDownload.es?bid=220&list_no=437764&seq=9",
+      "original_fetched_at": "2026-10-18T12:37:30.524928+00:00",
+      "http_status": 200
+    },
+    {
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch04-audit/atus-2025.html",
+      "sha256": "b7f704b50a02457cdeb58f0d61ef5d89f5cd2ecfccf9463f5b801c5260c299ad",
+      "independently_read_at": "2026-10-18T15:44:07.505951+00:00",
+      "method": "기존원시캐시재열람,새HTTP아님",
+      "read_scope": "보존된공식HTML 관련본문 재열람",
+      "url": "https://www.bls.gov/news.release/atus.nr0.htm",
+      "original_fetched_at": "2026-10-18T12:37:25.400933+00:00",
+      "http_status": 200
+    },
+    {
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch04-audit/109.html",
+      "sha256": "779eb5f1d7a10b1a7ee703e2f035af6f4f011093aa2a70287437816c86561f83",
+      "independently_read_at": "2026-10-18T15:44:07.505951+00:00",
+      "method": "기존원시캐시재열람,새HTTP아님",
+      "read_scope": "보존된공식HTML 관련본문 재열람",
+      "url": "https://www.129.go.kr/109",
+      "original_fetched_at": "2026-10-18T12:37:27.023687+00:00",
+      "http_status": 200
+    },
+    {
+      "raw_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-018-63e0/chatterjee-primary.pdf",
+      "sha256": "c353432a35d860b20c30022b51576c35c96d5f43263ae3156bff5561504ae5b0",
+      "url": "https://eprints.whiterose.ac.uk/148610/16/final%20vo.pdf",
+      "original_fetched_at": "2026-10-18T15:25:53.903802+00:00",
+      "http_status": 200,
+      "independently_read_at": "2026-10-18T15:44:07.505951+00:00",
+      "method": "저자보존PDF 직접열람. 신규HTTP로주장하지않음.",
+      "read_scope": "원논문PDF물리2/19쪽 요약·논의; 리뷰가 인용한 개별연구원문은미열람.",
+      "short_quotes": [
+        "Satisfaction decreases with duration of commute, regardless of mode used",
+        "a consistent link between commuting and life satisfaction overall has not been established",
+        "due to the mostly fixed work and house locations and working hours"
+      ]
+    }
+  ],
+  "formal_kr_fit": "not_performed",
+  "whole_chapter_closure": false,
+  "supersession_map": [
+    {
+      "entry": 12,
+      "initial_easy": "revise",
+      "new_full": "approve",
+      "relationship": "기존정확SHA결정불변. 이번full12가실제통합되면 종전쉽게revise와semantic이득작업을대체; 중복적용금지."
+    },
+    {
+      "entry": 11,
+      "initial_easy": "approve",
+      "new_full": "approve",
+      "relationship": "동일쉽게의승인내용을포함하고 IV이득과비고추가교정. full통합시 기존쉽게작업을별도중복적용하지않음."
+    },
+    {
+      "entry": 13,
+      "initial_easy_scope_todo": "approve narrow editorial operations",
+      "new_full": "revise",
+      "relationship": "기존부분승인은특정표현교정방향으로유지. 원문미확인세부를상속했다는것은 full검증증거가아님. full13미승인."
+    },
+    {
+      "entry": 1,
+      "initial_easy": "revise",
+      "new_full": "not_in_batch",
+      "relationship": "미해결. 이배치로닫지않음."
+    },
+    {
+      "entry": 4,
+      "initial_easy": "revise",
+      "new_full": "not_in_batch",
+      "relationship": "미해결. 이배치로닫지않음."
+    }
+  ],
+  "next_required": [
+    "13의10주/스웨덴성인·언어/프로그램구성을원논문또는등록프로토콜등실제1차자료로확인하거나 범위를수정한새full/SHA제출. 한국어판·비용은계속미확인으로명시.",
+    "1/4쉽게revise와4비고리뷰범위,6주35시간이상,7세분화인과,기타초기미확인수치 처리본/근거확보 필요.",
+    "18항전체closure는다른13항목의결정과warn교정까지마무리된후별도.",
+    "통합본문확정후별도정확해시독립정식KR-FIT."
+  ]
+}

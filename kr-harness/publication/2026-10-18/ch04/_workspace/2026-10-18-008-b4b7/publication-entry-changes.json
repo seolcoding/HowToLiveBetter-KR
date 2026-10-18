@@ -1,0 +1,111 @@
+{
+  "status": "unadopted_proposal_pending_independent_exact_hash_review",
+  "entry": 8,
+  "basis": "strict-entry.md",
+  "basis_sha256": "69c99aae85c00d4f545e26a4847d98f868e4532208b077d4723e355f4ed56a94",
+  "proposal_sha256": "1edb515a0fa818e358eabe8a6574259f9f63231b1a3dc068f4ab5e09a6271124",
+  "changes": [
+    {
+      "field": "쉽게",
+      "before": "남이 정한 마감이 있으면 80.6%가 그 전에 끝냈습니다. 자기가 예상한 시간 안에 끝낸 사람은 38.7%뿐입니다. 실제 완료 시점은 마감과 강한 관계를 보였습니다. 자기 예상과의 관계는 약합니다. 마감 없는 일에는 스스로 날짜를 정하고 지키세요.",
+      "after": "남이 정한 마감이 없는 일에는 스스로 날짜를 정해 지키세요. 다만 스스로 정한 마감의 효과는 직접 측정하지 않았습니다.",
+      "reason": "외부 마감 부재 조건과 자가마감 미검증 유보를 보존하고 미확인 비율을 제거합니다.",
+      "primary_quotations": [],
+      "verification_scope": "No primary abstract or full text accessible; this is a conservative limitation/removal, not a source-verified replacement finding."
+    },
+    {
+      "field": "이득",
+      "before": "남이 마감을 정해 준 학생은 80.6%가 마감 안에 끝냈습니다. 자기 예상 시간 안에 끝낸 비율은 38.7%뿐입니다. 완료 시점은 마감과 강한 관계를 보였습니다. 상관계수 r = 0.82입니다. 1에 가까울수록 완료 시점과 마감의 관계가 강합니다. 자기 예상과의 관계는 약했습니다.",
+      "after": "외부 마감과 자기 예상 시간의 비교를 자가 마감의 효과로 볼 수는 없습니다. 스스로 정한 마감이 일을 얼마나 빨리 끝내게 하는지는 알 수 없습니다.",
+      "reason": "80.6%, 38.7%, r = 0.82와 강약의 연관 주장은 원문 미확인으로 제거합니다. 외부마감/자기예측 비교를 자가마감 개입효과로 확대하지 않습니다.",
+      "primary_quotations": [],
+      "verification_scope": "No primary abstract or full text accessible; this is a conservative limitation/removal, not a source-verified replacement finding."
+    },
+    {
+      "field": "비고",
+      "before": "스스로 정한 날짜를 남에게 알리면 외부 마감에 가까워집니다. 다만 연구에서 검증한 효과는 남이 정한 마감의 효과입니다. 타임박스나 뽀모도로는 스스로 마감을 정하는 방식입니다. 이런 방식의 효과는 직접 측정하지 않았습니다. 연구 결과를 바탕으로 본뜬 방법입니다.",
+      "after": "스스로 정한 날짜를 남에게 알리는 방법도 시도할 수 있습니다. 다만 외부 마감과 같은 효과가 난다고 볼 근거는 없습니다. 타임박스나 뽀모도로는 스스로 마감을 정하는 방식입니다. 이런 방식의 효과는 직접 측정하지 않았습니다. 여기서는 실천을 위한 제안으로 소개합니다.",
+      "reason": "남에게 알리면 외부 마감에 가까워진다는 효과 단정을 제안으로 낮춥니다. 타임박스·뽀모도로 미측정 제한을 보존합니다.",
+      "primary_quotations": [],
+      "verification_scope": "No primary abstract or full text accessible; this is a conservative limitation/removal, not a source-verified replacement finding."
+    }
+  ],
+  "unchanged_fields": [
+    "title",
+    "cost_tag",
+    "비용",
+    "근거등급",
+    "출처"
+  ],
+  "source_checks": [
+    {
+      "url": "https://psycnet.apa.org/doi/10.1037/0022-3514.67.3.366",
+      "final_url": "https://psycnet.apa.org/doi/10.1037/0022-3514.67.3.366",
+      "http_status": 403,
+      "utc": "2026-10-18T15:52:55.504127+00:00",
+      "raw_path": "/tmp/ch04e08-sources/raw-0.bin",
+      "sha256": "968a6fa1c65ffedac19b3c9df5e5e32b4ef1f1b2d3f2f0b963b1112583a9fff3",
+      "content_type": "text/html",
+      "read_scope": "Error/access-denial body only"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1037%2F0022-3514.67.3.366",
+      "final_url": "https://api.crossref.org/works/10.1037%2F0022-3514.67.3.366",
+      "http_status": 200,
+      "utc": "2026-10-18T15:52:55.930894+00:00",
+      "raw_path": "/tmp/ch04e08-sources/raw-1.bin",
+      "sha256": "bde3124879ff84eea973425c6ac58aa544fb85f99755b5bc3f4c32c50946342c",
+      "content_type": "application/json",
+      "read_scope": "Crossref bibliography only; no abstract"
+    },
+    {
+      "url": "https://www.sfu.ca/~mara/PSYC%20300/Buehler%20et%20al%201994.pdf",
+      "final_url": "https://www.sfu.ca/~mara/PSYC%20300/Buehler%20et%20al%201994.pdf",
+      "http_status": 404,
+      "utc": "2026-10-18T15:52:56.586721+00:00",
+      "raw_path": "/tmp/ch04e08-sources/raw-2.bin",
+      "sha256": "6b11d0c5014413a5bfe9cabc09191179701196459123de64c1d843642acfb7ef",
+      "content_type": "text/html",
+      "read_scope": "Error/access-denial body only"
+    },
+    {
+      "url": "https://psycnet.apa.org/journals/psp/67/3/366.pdf",
+      "final_url": "https://psycnet.apa.org/journals/psp/67/3/366.pdf",
+      "http_status": 403,
+      "utc": "2026-10-18T15:53:20.737278+00:00",
+      "raw_path": "/tmp/ch04e08-sources/raw-3.bin",
+      "sha256": "0e077d1f5982b00cdffd374f1b0e1f528a996015981d47f562a4a44ab5b3969a",
+      "read_scope": "access-denial response only"
+    }
+  ],
+  "exact_metadata_quotation": "Exploring the \"planning fallacy\": Why people underestimate their task completion times.",
+  "verification_method": "Python urllib HTTPS retrieval; inspected Crossref title/authors/journal/year/pages/link and APA denial response. No primary abstract or full text read.",
+  "doi_changes": "None: existing DOI retained; Crossref verifies bibliography only.",
+  "intentional_numerical_changes": [
+    "Remove 80.6%, 38.7%, r = 0.82 and explanation of proximity to 1 because original full-text figures remain unverified."
+  ],
+  "unresolved_limitations": [
+    "Primary article inaccessible; original numerical claims remain unverified rather than disproven.",
+    "Self-imposed or announced deadline effect is not established by the external-deadline versus own-prediction comparison.",
+    "Evidence grade B preserved exactly as required; this proposal does not independently validate it."
+  ],
+  "incoming_anchor_review": "Audit reports no incoming anchor for entry 8; title unchanged.",
+  "sentence_lengths": {
+    "쉽게": [
+      33,
+      32
+    ],
+    "이득": [
+      42,
+      39
+    ],
+    "비고": [
+      34,
+      32,
+      30,
+      25,
+      23
+    ]
+  },
+  "easy_chars": 66
+}

@@ -1,0 +1,237 @@
+{
+  "status": "unadopted_proposal",
+  "entry": 1,
+  "revision": "r2 separate; all earlier artifacts immutable",
+  "strict_sha256": "46384cb06ca226a03bd6e42b798803693c8e414c4cbd8ae3804beae5c3c403c2",
+  "proposal_sha256": "484faaaafa069446da1a3b0ff043aa1e55b608de73a6852ca4bd64d97694de15",
+  "changes": [
+    {
+      "field": "쉽게",
+      "before": "「이걸 해야지」 대신 시간과 장소를 적으세요. 예: 「화요일 오전 8시에 책상에 앉으면 서론부터 쓴다」. 94개 검증을 종합하면 이렇게 적은 쪽의 목표 달성률이 뚜렷하게 높습니다. 문장 하나만 바꾸면 돈도 힘도 안 듭니다.",
+      "after": "하고 싶은 일의 시간과 장소를 「~하면 ~한다」로 적으세요. 목표만 세운 쪽보다 목표 달성에 더 도움이 됐습니다. 일터에서도 같은 효과가 날지는 단정하기 어렵습니다.",
+      "reason": "독립적으로 연 저장소 초록과 원문 93·98쪽에 맞춰 효과와 범위를 바로잡습니다. 쉽게는 실천과 비교 방향 및 일터 유보를 짧게 남깁니다. d를 달성률 퍼센트로 읽지 않도록 설명합니다.",
+      "primary_quotation_locations": [
+        "repository abstract, handle 123456789/10973",
+        "physical PDF page 28 / printed page 98",
+        "physical PDF page 28 / printed page 98",
+        "physical PDF page 23 / printed page 93",
+        "physical PDF page 28 / printed page 98"
+      ]
+    },
+    {
+      "field": "이득",
+      "before": "94개 독립 검증을 종합한 결과입니다. 「~하면 ~한다」로 계획을 미리 적은 쪽의 목표 달성률이 더 높았습니다. 심리학에서는 이를 실행 의도라고 부릅니다. 효과 크기는 d = 0.65로 중간에서 큰 편입니다. 효과는 다음 세 상황에서 나타납니다. 일을 시작할 때, 방해를 견딜 때, 안 될 일을 그만둘 때입니다.",
+      "after": "94개 독립 검증을 종합한 결과입니다. 「~하면 ~한다」로 계획을 미리 적은 쪽의 목표 달성이 더 나았습니다. 심리학에서는 이를 실행 의도라고 부릅니다. 효과 크기는 d = 0.65로 중간에서 큰 편입니다. d는 두 집단의 차이를 나타내며 달성률의 퍼센트 증가가 아닙니다. 일을 시작하거나 방해를 견디는 데 도움이 됐습니다. 안 될 일을 그만두는 데도 도움이 됐습니다.",
+      "reason": "독립적으로 연 저장소 초록과 원문 93·98쪽에 맞춰 효과와 범위를 바로잡습니다. 쉽게는 실천과 비교 방향 및 일터 유보를 짧게 남깁니다. d를 달성률 퍼센트로 읽지 않도록 설명합니다.",
+      "primary_quotation_locations": [
+        "repository abstract, handle 123456789/10973",
+        "physical PDF page 28 / printed page 98",
+        "physical PDF page 28 / printed page 98",
+        "physical PDF page 23 / printed page 93",
+        "physical PDF page 28 / printed page 98"
+      ]
+    },
+    {
+      "field": "비고",
+      "before": "이 방법은 정말 하고 싶은 일에만 통합니다. 목표 자체를 원하지 않는다면 문장을 몇 줄 써도 소용없습니다. 연구는 주로 학생의 건강 습관을 다뤘습니다. 일터에서도 똑같이 통한다고 보기는 어렵습니다.",
+      "after": "정말 하고 싶은 일에 활용하세요. 목표 자체를 원하지 않는다면 문장만으로 해결되리라 기대하지 마세요. 연구는 주로 대학생을 대상으로 했습니다. 일반인과 질환이 있는 사람도 포함됐습니다. 일터에서도 똑같이 통한다고 보기는 어렵습니다.",
+      "reason": "독립적으로 연 저장소 초록과 원문 93·98쪽에 맞춰 효과와 범위를 바로잡습니다. 쉽게는 실천과 비교 방향 및 일터 유보를 짧게 남깁니다. d를 달성률 퍼센트로 읽지 않도록 설명합니다.",
+      "primary_quotation_locations": [
+        "repository abstract, handle 123456789/10973",
+        "physical PDF page 28 / printed page 98",
+        "physical PDF page 28 / printed page 98",
+        "physical PDF page 23 / printed page 93",
+        "physical PDF page 28 / printed page 98"
+      ]
+    }
+  ],
+  "verification": {
+    "opened_at_utc": "2026-10-18T15:58:50.264408+00:00",
+    "method": "Independently opened existing prior-worker raw-2 JSON, primary.pdf bytes, OCR quick28/check23/quick34; rendered actual PDF pages 23 and 28 and visually read them. No new live HTTP request in this revision.",
+    "level_actually_read": "repository abstract and selected full-text PDF pages, not entire monograph",
+    "primary_quotes": [
+      {
+        "location": "repository abstract, handle 123456789/10973",
+        "text": "Holding a strong goal intention (\"I intend to reach Z!\") does not guarantee goal achievement, because people may fail to deal effectively with selfregulatory problems during goal striving. This review analyzes wether realization of goal intentions is facilitated by forming an implementation intention that spells out the when, where, and how of goal striving in advance (\"If situation Y is encountered, then I will initiate goal-directed behavior X!\"). Findings from 94 independent tests showed that implementation intentions had a positive effect of medium-to-large magnitude (d= .65) on goal attainment. Implementation intentions were effective in promoting the initiation of goal striving, the shielding of ongoing goal pursuit from unwanted influences, disengagement from failing courses of action, and conservation of capability for future goal striving. There was also strong support for postulatad component processes: Implementation intention formation both enhanced the accessibility of specified opportunities and automated respective goal-directed responses. Several directions for future research are outlined."
+      },
+      {
+        "location": "physical PDF page 28 / printed page 98",
+        "text": "Findings from 94 studies involving more than 8000 participants indicated that the effect size associated with the impact of implementation intention formation on goal attainment is d = .65, an effect of medium-to-large magnitude (Cohen, 1992)."
+      },
+      {
+        "location": "physical PDF page 28 / printed page 98",
+        "text": "represents the difference in goal achievement engendered by furnishing a goal intention with a respective implementation intention compared to the formation of a goal intention on its own."
+      },
+      {
+        "location": "physical PDF page 23 / printed page 93",
+        "text": "Table II shows that most tests of implementation intention effects were conducted among university students (k = 79) though eight tests sampled members of the public and there were two tests of children/young people."
+      },
+      {
+        "location": "physical PDF page 28 / printed page 98",
+        "text": "If-then plans were similarly effective in promoting goal achievement among students, members of the general public, and people with physical illness."
+      }
+    ],
+    "prior_worker_http_records": [
+      {
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S0065260106380021",
+        "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+      },
+      {
+        "url": "https://api.crossref.org/works/10.1016%2FS0065-2601%2806%2938002-1",
+        "final_url": "https://api.crossref.org/works/10.1016%2FS0065-2601%2806%2938002-1",
+        "utc": "2026-10-18T15:54:16.795637+00:00",
+        "status": 200,
+        "sha256": "07946387b37e7b6949b220bcb359e48fc2767b434d159f01deae58627a9c533a",
+        "raw_path": "/tmp/ch04e02-proof/raw-1"
+      },
+      {
+        "url": "https://kops.uni-konstanz.de/server/api/discover/search/objects?query=Implementation%20intentions%20and%20goal%20achievement&size=5",
+        "final_url": "https://kops.uni-konstanz.de/server/api/discover/search/objects?query=Implementation%20intentions%20and%20goal%20achievement&size=5",
+        "utc": "2026-10-18T15:54:19.100142+00:00",
+        "status": 200,
+        "sha256": "1f3a84eed25d9147faca8e271688ca26306309e9fb8bf1741a3c2b79ef964e43",
+        "raw_path": "/tmp/ch04e02-proof/raw-2"
+      },
+      {
+        "url": "https://kops.uni-konstanz.de/bitstream/123456789/10973/1/06GollwitzerSheeran_ImplementationIntentionsAndGoalAchievement.pdf",
+        "final_url": "https://kops.uni-konstanz.de/server/api/core/bitstreams/d4f710b4-a505-49ef-a831-5b8d7675100b/content",
+        "status": 200,
+        "utc": "2026-10-18T15:54:37.847177+00:00",
+        "sha256": "ab804917b63cd8b07a0caf1c0a89d27a18e14ad8ab49826a20de15b82ad904c9",
+        "raw_path": "/tmp/ch04e02-proof/primary.pdf"
+      }
+    ],
+    "actual_opened_files": [
+      {
+        "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch04-entry02-primary/primary.pdf",
+        "sha256": "ab804917b63cd8b07a0caf1c0a89d27a18e14ad8ab49826a20de15b82ad904c9"
+      },
+      {
+        "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch04-entry02-primary/raw-2",
+        "sha256": "1f3a84eed25d9147faca8e271688ca26306309e9fb8bf1741a3c2b79ef964e43"
+      },
+      {
+        "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch04-entry02-primary/check23.txt",
+        "sha256": "73d8522f204297ca89acaa4c92a387376610fdc5417567b3e7956c2037aa4de4"
+      },
+      {
+        "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch04-entry02-primary/quick28.txt",
+        "sha256": "439dc3b76b389a05b1ea484be681486a07ed98fed8a8a53d580c105e59459e21"
+      },
+      {
+        "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch04-entry02-primary/quick34.txt",
+        "sha256": "b8d938e6363f6f7e94a2dc9e3a225a22c435f950489193a86ca29fd978164371"
+      }
+    ],
+    "rendered_page_images": [
+      "/tmp/ch04e01-page23.png",
+      "/tmp/ch04e01-page28.png"
+    ]
+  },
+  "intentional_numerical_changes": [
+    "94개와 d = 0.65는 초록/원문 직접 확인 후 strict 수치 유지",
+    "쉽게에서 94개는 독자 요약을 위해 생략",
+    "d를 달성률 증가폭으로 읽게 하는 표현 제거; 퍼센트 환산 없음"
+  ],
+  "intentional_scope_changes": [
+    "주로 학생의 건강 습관을 다뤘다는 문구를 주로 대학생 대상이며 일반인·질환자도 포함됐다는 실제 표본 범위로 수정",
+    "배타적으로 원하는 목표에만 통한다는 단정을 실천 권고·기대 제한으로 완화",
+    "원문에서 확인한 세 자기조절 상황의 도움 방향 보존"
+  ],
+  "doi_changes": {
+    "added": [],
+    "removed": [],
+    "reason": "기존 DOI를 그대로 유지"
+  },
+  "preserved": [
+    "제목과 몇 시에/어디서/무엇을 앵커",
+    "비용 및 인용",
+    "원 비용 태그",
+    "근거등급 A",
+    "출처 전체",
+    "일터 일반화 유보"
+  ],
+  "unresolved_limitations": [
+    "특정 일터의 효과 크기·달성률 퍼센트는 확인하지 않았으므로 일반화하지 않음",
+    "목표를 전혀 원하지 않을 때 무조건 무효라는 배타 명제는 이번 열람 구간에서 검증하지 않음"
+  ],
+  "sentence_measurements": [
+    {
+      "field": "쉽게",
+      "sentence": "하고 싶은 일의 시간과 장소를 「~하면 ~한다」로 적으세요.",
+      "chars": 33
+    },
+    {
+      "field": "쉽게",
+      "sentence": "목표만 세운 쪽보다 목표 달성에 더 도움이 됐습니다.",
+      "chars": 29
+    },
+    {
+      "field": "쉽게",
+      "sentence": "일터에서도 같은 효과가 날지는 단정하기 어렵습니다.",
+      "chars": 28
+    },
+    {
+      "field": "이득",
+      "sentence": "94개 독립 검증을 종합한 결과입니다.",
+      "chars": 21
+    },
+    {
+      "field": "이득",
+      "sentence": "「~하면 ~한다」로 계획을 미리 적은 쪽의 목표 달성이 더 나았습니다.",
+      "chars": 39
+    },
+    {
+      "field": "이득",
+      "sentence": "심리학에서는 이를 실행 의도라고 부릅니다.",
+      "chars": 23
+    },
+    {
+      "field": "이득",
+      "sentence": "효과 크기는 d = 0.65로 중간에서 큰 편입니다.",
+      "chars": 29
+    },
+    {
+      "field": "이득",
+      "sentence": "d는 두 집단의 차이를 나타내며 달성률의 퍼센트 증가가 아닙니다.",
+      "chars": 36
+    },
+    {
+      "field": "이득",
+      "sentence": "일을 시작하거나 방해를 견디는 데 도움이 됐습니다.",
+      "chars": 28
+    },
+    {
+      "field": "이득",
+      "sentence": "안 될 일을 그만두는 데도 도움이 됐습니다.",
+      "chars": 24
+    },
+    {
+      "field": "비고",
+      "sentence": "정말 하고 싶은 일에 활용하세요.",
+      "chars": 18
+    },
+    {
+      "field": "비고",
+      "sentence": "목표 자체를 원하지 않는다면 문장만으로 해결되리라 기대하지 마세요.",
+      "chars": 37
+    },
+    {
+      "field": "비고",
+      "sentence": "연구는 주로 대학생을 대상으로 했습니다.",
+      "chars": 22
+    },
+    {
+      "field": "비고",
+      "sentence": "일반인과 질환이 있는 사람도 포함됐습니다.",
+      "chars": 23
+    },
+    {
+      "field": "비고",
+      "sentence": "일터에서도 똑같이 통한다고 보기는 어렵습니다.",
+      "chars": 25
+    }
+  ],
+  "easy_chars": 92,
+  "independent_review_required": true
+}

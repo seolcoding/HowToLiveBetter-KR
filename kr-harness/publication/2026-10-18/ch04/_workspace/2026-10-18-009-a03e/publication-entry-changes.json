@@ -1,0 +1,86 @@
+{
+  "entry": 9,
+  "status": "unadopted_proposal",
+  "base": "strict-entry.md",
+  "base_sha256": "d11115e800cfacd1199bdeb943a3587a97c7aaed2902001f0ca396c94ea5c5c9",
+  "proposal_sha256": "3cd58b1a116f6a5185f0a51893d243503daf75c531aded66950638d93594d16e",
+  "changes": [
+    {
+      "field": "title",
+      "before": "### 9. 미루기를 게으름이 아니라 불편함을 피하는 것으로 보세요",
+      "after": "### 9. 미루기를 바라볼 때 일의 불편함도 살펴보세요",
+      "reason": "게으름을 배제하고 불편함만으로 설명하는 이분법을 피하고 기존 불편함 주제를 보존합니다.",
+      "source_id": "Steel2007-abstract"
+    },
+    {
+      "field": "쉽게",
+      "before": "미루기는 게으름이나 성격과 관계가 약합니다. 일의 불편함, 해낼 자신감, 눈앞의 유혹이 미루기를 더 잘 예측합니다. 일을 덜 불편하게 바꾸고 첫걸음을 줄이세요. 자기를 몰아붙여서는 해결되지 않습니다.",
+      "after": "미루기는 일의 불편함뿐 아니라 성실성 등 성격 특성과도 관련이 있습니다. 일을 덜 불편하게 바꾸고 첫걸음을 줄여 보세요. 다만 이 방법의 효과를 직접 확인한 결과는 아닙니다.",
+      "reason": "성격 전체와 약한 관계라는 오류를 성실성의 관련으로 바로잡고, 자기비난으로 해결 불가라는 미검증 개입단정을 삭제합니다. 행동 권고에는 직접 효과 검증이 아니라는 한계를 명시합니다.",
+      "source_id": "Steel2007-abstract"
+    }
+  ],
+  "primary_sources": [
+    {
+      "id": "Steel2007-abstract",
+      "doi": "10.1037/0033-2909.133.1.65",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1037%2F0033-2909.133.1.65%22&format=json&resultType=core&pageSize=10",
+      "article_url": "https://doi.org/10.1037/0033-2909.133.1.65",
+      "verified_at": "2026-10-18T15:20:08.521888+00:00",
+      "method": "Opened and read complete abstractText in existing Europe PMC core JSON; no fresh HTTP request.",
+      "read_scope": "Primary article abstract only; no full text or intervention trial read.",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/d96cbd6fc03d12ce102e.json",
+      "raw_sha256": "f44e1dec4296a40a4166cf8a59556dbb45aae93c1069cd0fa08e4e3e618a37cb",
+      "original_fetched_at": "2026-10-18T20:50:31.984327+09:00",
+      "exact_quotes": [
+        "A meta-analysis of procrastination's possible causes and effects, based on 691 correlations, reveals that neuroticism, rebelliousness, and sensation seeking show only a weak connection.",
+        "Strong and consistent predictors of procrastination were task aversiveness, task delay, self-efficacy, and impulsiveness, as well as conscientiousness and its facets of self-control, distractibility, organization, and achievement motivation.",
+        "These effects prove consistent with temporal motivation theory, an integrative hybrid of expectancy theory and hyperbolic discounting."
+      ]
+    }
+  ],
+  "numerical_scope_changes": "No numerical changes. 691 denotes correlations, not participants or trials. Conscientiousness is not weakly related; weak group remains neuroticism/rebelliousness/sensation seeking. Correlational predictors do not establish intervention effects.",
+  "doi_changes": {
+    "added": [],
+    "removed": [],
+    "reason": "Existing verified article citation retained."
+  },
+  "sentence_lengths": [
+    {
+      "text": "미루기를 바라볼 때 일의 불편함도 살펴보세요",
+      "len": 24
+    },
+    {
+      "text": "미루기는 일의 불편함뿐 아니라 성실성 등 성격 특성과도 관련이 있습니다.",
+      "len": 40
+    },
+    {
+      "text": "일을 덜 불편하게 바꾸고 첫걸음을 줄여 보세요.",
+      "len": 26
+    },
+    {
+      "text": "다만 이 방법의 효과를 직접 확인한 결과는 아닙니다.",
+      "len": 29
+    }
+  ],
+  "easy_length": 97,
+  "retained_fields": [
+    "비용",
+    "이득",
+    "근거등급",
+    "출처",
+    "비고",
+    "cost_tag"
+  ],
+  "unresolved_limitations": [
+    "Abstract only: no sample or population total verified and no intervention efficacy established.",
+    "Existing temporal motivation explanation is retained; exact hyperbolic-discounting wording beyond abstract not independently verified.",
+    "Existing time-savings limitation retained; no quantitative time benefit added."
+  ],
+  "audit_coverage": [
+    "ch04/content-audit.md entry 9",
+    "ch04/editorial-decisions.json entry 9: personality overgeneralization corrected; self-blame intervention assertion removed; correlation limitation retained."
+  ],
+  "title_anchor_check": "Retains entry number and task-discomfort theme; no identified incoming title anchor for entry 9 in audit limitations.",
+  "protected_preserved": true
+}

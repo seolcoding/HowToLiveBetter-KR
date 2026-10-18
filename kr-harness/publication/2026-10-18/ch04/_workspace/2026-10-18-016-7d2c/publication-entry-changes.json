@@ -1,0 +1,83 @@
+{
+  "status": "unadopted_proposal",
+  "entry": 16,
+  "proposal_sha256": "cca2228857102d542ffc4b3e0233096ce9cf8491e4977cfc2b3b978d37566709",
+  "strict_sha256": "2ac0e91e98d6f18f3cd254ec4524b424a142d26b4af17d535232c8113f55211b",
+  "verified_at": "2026-10-18T16:02:46.465000+00:00",
+  "verification_method": "independent reading of preserved primary HTML/PDF; no live HTTP claim",
+  "sources": [
+    {
+      "url": "https://www.bls.gov/news.release/atus.nr0.htm",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch04-audit/atus-2025.html",
+      "sha256": "b7f704b50a02457cdeb58f0d61ef5d89f5cd2ecfccf9463f5b801c5260c299ad",
+      "read_level": "cached original HTML; leisure/TV summary and population paragraph",
+      "exact_quotes": [
+        "Nearly everyone age 15 and over (95 percent) engaged in some sort of leisure and sport activity",
+        "Watching TV was the leisure and sports activity that occupied the most time (2.6 hours per day), accounting for half of all leisure time, on average (5.2 hours)."
+      ],
+      "provenance": "existing preserved official response; not a new live request"
+    },
+    {
+      "url": "https://www.mods.go.kr/boardDownload.es?bid=220&list_no=437764&seq=9",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch04-audit/time-use-2024.pdf",
+      "sha256": "d4c59023bd2e73cb5352d256f14d5d99f78465dba0383e751d39452aa444c9e9",
+      "read_level": "cached original PDF physical page 22, pdftotext -layout extracted table and population text",
+      "exact_quotes": [
+        "10세 이상 국민 중 일요일에 하루 10분 이상 미디어를 이용한 여가활동을 한",
+        "실시간 방송시청으로 여가를 보내는 사람의 비율은 일요일이 71.1%로 가장 높고,",
+        "이들 행위자 평균시간은 3시간 1분임",
+        "실시간방송 시청 1:34 1:30 68.8 61.8 2:17 2:26 2:09 1:59 76.9 68.1 2:48 2:55 2:25 2:08 80.2 71.1 3:01 3:01"
+      ],
+      "provenance": "existing preserved official response; physical page22 = printed page15; table header distinguishes 평균시간/행위자비율/행위자평균시간"
+    }
+  ],
+  "changes": [
+    {
+      "field": "쉽게",
+      "before": "미국 15세 이상은 하루 2.6시간 TV를 봅니다. 여가 시간의 절반을 TV에 씁니다. 한국인(10세 이상)은 평일에 실시간 방송을 하루 1시간 30분 봅니다. 볼 내용을 정해 모아 보면 시청 시간을 줄일 수 있습니다.",
+      "after": "미국 15세 이상은 여가의 절반인 하루 2.6시간을 TV에 씁니다. 볼 내용을 정해 모아 보세요. 이는 지은이의 경험이며 시간 절약 효과를 입증한 방법은 아닙니다.",
+      "reason": "Approved editorial direction condensed to three simple sentences; intervention efficacy explicitly unproven.",
+      "evidence_source_indexes": [
+        0,
+        1
+      ]
+    },
+    {
+      "field": "이득",
+      "before": "미국 노동통계국의 2025년 시간이용조사(ATUS) 결과입니다. 15세 이상은 하루 2.6시간 TV를 봅니다. 여가 전체 5.2시간의 절반입니다. 한국 수치는 2024년 생활시간조사에서 나왔습니다. 실시간 방송은 평일에 하루 평균 1시간 30분 봅니다. 일요일에는 하루 평균 2시간 8분 봅니다. 일요일에 실시간 방송을 본 사람은 71.1%였습니다. 일요일 시청자의 하루 평균 시청 시간은 3시간 1분입니다.",
+      "after": "미국 노동통계국의 2025년 시간이용조사(ATUS) 결과입니다. 미국 15세 이상은 하루 평균 2.6시간 TV를 봅니다. 여가 전체 5.2시간의 절반입니다. 한국 수치는 2024년 생활시간조사에서 나왔습니다. 다음 수치는 10세 이상 국민의 여가 중 실시간 방송 시청입니다. 전체 평균은 평일 하루 1시간 30분입니다. 일요일 전체 평균은 하루 2시간 8분입니다. 일요일에 실시간 방송을 본 사람은 71.1%였습니다. 이 시청자들의 하루 평균 시청 시간은 3시간 1분입니다.",
+      "reason": "Make both population and overall versus participant denominators explicit without changing values.",
+      "evidence_source_indexes": [
+        0,
+        1
+      ]
+    },
+    {
+      "field": "비고",
+      "before": "근거는 총량 통계뿐입니다. TV와 뉴스를 줄여 아낀 시간을 어디에 썼는지 잰 연구는 없습니다. 「정해 놓고 모아 보기」는 지은이의 경험입니다.",
+      "after": "근거는 총량 통계뿐입니다. 이 통계로는 TV와 뉴스를 줄여 아낀 시간의 쓰임을 알 수 없습니다. 끊기와 「정해 놓고 모아 보기」는 지은이의 판단과 경험입니다. 이 방법의 시간 절약 효과는 위 조사로 입증되지 않았습니다.",
+      "reason": "Limit evidence claim to the cited totals; identify quitting and scheduled viewing as author judgment.",
+      "evidence_source_indexes": [
+        0,
+        1
+      ]
+    }
+  ],
+  "intentional_numerical_scope_changes": "No numbers changed. Explicit US15+ / Korea10+, leisure realtime broadcasts, overall versus viewer averages. Secondary statistics remain in benefit.",
+  "doi_changes": null,
+  "title_anchor_review": {
+    "title_unchanged": true,
+    "incoming_anchor": "실시간뉴스",
+    "preserved_visible_text": "실시간 뉴스"
+  },
+  "closure": {
+    "audit16": "2.6/5.2 and all four Korea values independently read; denominators explicit",
+    "editorial16": "easy revised jointly with factual clarifications; 3 sentences; <=120",
+    "easy_len": 91,
+    "modified_sentence_max": 38
+  },
+  "unresolved_limitations": [
+    "The cited totals do not establish a causal time-saving effect of quitting TV/news or scheduled viewing.",
+    "No independent review or adoption performed."
+  ]
+}

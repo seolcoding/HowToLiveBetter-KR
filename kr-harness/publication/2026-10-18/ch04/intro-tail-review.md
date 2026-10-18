@@ -1,0 +1,7 @@
+# 제4절 도입·후미 독립검토
+
+approved_for_integration: 원제안 `e6db44d926f4a5939078ac6698176815b9eaa901712e7117e2d8a1f4d499d316`의intro1+tail3고유span. before각1회일치와SHA/문장literal50자/기존3미해결주제/navigation/banner/절제목보존을확인했습니다.
+
+최신manifest `330d243ec88ee62d168c3685576061819a0eae909a911756665df7b6c5a486d5`의17r2는저자비용예상과선택기준/속도유보만수정하며도입/후미의17고유주장인용이없어내용영향없음을확인했습니다. 옛17binding을새SHA로독립재연결하며원제안bytes는보존합니다.
+
+KOSIS참여자평균,CBT한국어판·비용·국내시험,인터넷총이용시간은미확인입니다. tail3개가모든미검증문헌의전수목록인것은아닙니다. DOI실제추가/삭제없음. 정식KR-FIT/공개승인아닙니다.

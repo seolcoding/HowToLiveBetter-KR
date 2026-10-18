@@ -1,0 +1,53 @@
+{
+  "status": "unadopted_pending_fresh_formal_exact_hash_review",
+  "entry": 8,
+  "basis_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-008-b4b7/publication-current-entry-formal-r1.md",
+  "raw_entry_sha256": "1edb515a0fa818e358eabe8a6574259f9f63231b1a3dc068f4ab5e09a6271124",
+  "public_guard": {
+    "source_path": "/workspace/HowToLiveBetter-KR/book-kr/04-시간-낭비-줄이기.md",
+    "whole_public_raw_sha256": "778cd1e94739315897db896368700675ef65b4e45c93034531b737ea4dd152e6",
+    "entry_sha256": "1edb515a0fa818e358eabe8a6574259f9f63231b1a3dc068f4ab5e09a6271124",
+    "entry_number": 8,
+    "snapshot_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-008-b4b7/publication-current-entry-formal-r1.md"
+  },
+  "proposal_sha256": "5fde9d50b2d761e6e3478ae328f2258eb8adc86e6c1eaad4a2dc832871f521c6",
+  "changes": [
+    {
+      "field": "쉽게",
+      "before": "- 쉽게: 남이 정한 마감이 없는 일에는 스스로 날짜를 정해 지키세요. 다만 스스로 정한 마감의 효과는 직접 측정하지 않았습니다.",
+      "after": "- 쉽게: 남이 정한 마감이 없는 일에는 스스로 날짜를 정해 지키세요. 다만 인용한 연구에서 스스로 정한 마감의 효과는 직접 측정하지 않았습니다.",
+      "reason": "직접 측정하지 않았다는 제한의 범위를 인용한 연구로만 명시합니다."
+    },
+    {
+      "field": "비고",
+      "before": "- 비고: 스스로 정한 날짜를 남에게 알리는 방법도 시도할 수 있습니다. 다만 외부 마감과 같은 효과가 난다고 볼 근거는 없습니다. 타임박스나 뽀모도로는 스스로 마감을 정하는 방식입니다. 이런 방식의 효과는 직접 측정하지 않았습니다. 여기서는 실천을 위한 제안으로 소개합니다.",
+      "after": "- 비고: 스스로 정한 날짜를 남에게 알리는 방법도 시도할 수 있습니다. 다만 외부 마감과 같은 효과가 난다고 볼 근거는 없습니다. 타임박스나 뽀모도로는 스스로 마감을 정하는 방식입니다. 인용한 연구에서 이런 방식의 효과는 직접 측정하지 않았습니다. 여기서는 실천을 위한 제안으로 소개합니다.",
+      "reason": "직접 측정하지 않았다는 제한의 범위를 인용한 연구로만 명시합니다."
+    }
+  ],
+  "literal_replacements": [
+    {
+      "before": "다만 스스로 정한 마감의 효과는 직접 측정하지 않았습니다.",
+      "after": "다만 인용한 연구에서 스스로 정한 마감의 효과는 직접 측정하지 않았습니다.",
+      "after_chars": 41
+    },
+    {
+      "before": "이런 방식의 효과는 직접 측정하지 않았습니다.",
+      "after": "인용한 연구에서 이런 방식의 효과는 직접 측정하지 않았습니다.",
+      "after_chars": 34
+    }
+  ],
+  "proof": {
+    "exact_two_replacements_only": true,
+    "all_other_bytes_unchanged": true,
+    "new_facts_added": false,
+    "numbers_conditions_title_anchors_unchanged": true,
+    "easy_chars": 75
+  },
+  "review_basis": {
+    "path": "/workspace/HowToLiveBetter-KR/kr-harness/chapters/04/kr-fit-review.md",
+    "section": "4-8 warn W5",
+    "request": "직접 측정하지 않았습니다는 인용 연구에 관한 말임을 명시"
+  },
+  "primary_source_status": "No new primary verification; existing cited-study limitation scope only."
+}

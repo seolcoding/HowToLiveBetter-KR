@@ -1,0 +1,108 @@
+{
+  "status": "unadopted_proposal",
+  "entry": 4,
+  "base": "strict-entry.md",
+  "base_sha256": "7355b55bddeccb9faa832e25b5ee6f27fcec69d0d830ec0d7accf2dd0b6d43db",
+  "proposal_sha256": "31bd55493718fcd56b0e185ba4f661b57c59972d47599d1a6adb1f932483f1d1",
+  "verified_at": "2026-10-18T15:28:38.179490+00:00",
+  "changes": [
+    {
+      "field": "쉽게",
+      "before": "학생들은 논문을 33.9일에 끝낼 수 있다고 예상했습니다. 실제로는 55.5일 걸렸습니다. 자기 예상 안에 끝낸 사람은 29.7%뿐이었습니다. 지난번 비슷한 일을 먼저 떠올리게 한 그룹은 제때 끝낸 비율이 올랐습니다. 29.3%에서 60.0%로 상승했습니다.",
+      "after": "대학생의 과제 기한을 살펴본 결과입니다. 지난번 비슷한 일을 떠올린 그룹은 60.0%가 제때 끝냈습니다. 대조군은 29.3%였습니다.",
+      "reason": "144자 요약을 단일 비교로 축약하고 논문작성 연구와 후속 과거경험 조작연구를 혼동하지 않도록 과제 기한으로 한정합니다. 숫자는 기존 본문 보존이며 신규 원문 검증으로 간주하지 않습니다.",
+      "evidencequotes": [],
+      "numerical_scope_change": "33.9/55.5/29.7 보조 비교는 쉽게에서만 생략, 이득 보존; 29.3/60.0 분모 및 비율 유지.",
+      "verification_limit": "Buehler 본문 미접근. 해당 비교를 논문작성에 한정하지 않습니다."
+    },
+    {
+      "field": "비고",
+      "before": "Buehler는 캐나다 대학생을 대상으로 소규모 단일 연구를 했습니다. 참가자는 37명과 그룹마다 약 40명이었습니다. 참조부류 예측은 비슷한 프로젝트의 과거 실적으로 예측하는 방법입니다. 공학에서 쓰는 실제 절차는 Flyvbjerg를 참고하세요. Halkjelsvik가 모은 연구에서는 소요시간을 짧게 잡는 쪽이 더 흔했습니다. 차이의 크기는 일과 연구 방법에 따라 크게 달랐습니다.",
+      "after": "Buehler는 캐나다 대학생을 대상으로 소규모 단일 연구를 했습니다. 참가자는 37명과 그룹마다 약 40명이었습니다. 참조부류 예측은 비슷한 프로젝트의 과거 실적으로 예측하는 방법입니다. 공학에서 쓰는 실제 절차는 Flyvbjerg를 참고하세요. Halkjelsvik가 모은 공학·경영 연구에서는 과소추정이 더 흔했습니다. 심리학 연구에서는 그렇지 않았습니다. 차이의 크기는 일과 연구 방법에 따라 크게 달랐습니다. Buehler의 소요일·완료율·참가자 수는 원문에서 확인하지 못했습니다.",
+      "reason": "원논문 초록에 따라 과소추정 경향을 공학·경영 문헌으로 한정하고 심리학 문헌의 예외를 명시합니다. Buehler 세부 수치의 원문 미확인 한계를 독자 본문에도 명시합니다.",
+      "evidencequotes": [
+        "Although dependent on the type of study and the level of analysis, underestimation was more frequently reported than overestimation in studies from the engineering and management literature. However, this was not the case in studies from the psychology literature."
+      ],
+      "url": "https://doi.org/10.1037/a0025996",
+      "numerical_scope_change": "숫자 변경 없음. 전체 연구 일반화를 공학·경영 및 심리학의 차이로 바로잡음."
+    }
+  ],
+  "source_verification": [
+    {
+      "doi": "10.1037/a0025996",
+      "level": "원논문 초록만 실제 열람; 수록 원연구 본문 전체 검증 아님",
+      "method": "기존 Europe PMC MED 초록 raw JSON 직접 열람",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1037%2Fa0025996%22&format=json&resultType=core&pageSize=10",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/4cec846a0874c64c9d91.json",
+      "raw_sha256": "9481e791b8668b42529c3cfe13182960a639755dea6f684d1334dc7e0e4cab31",
+      "original_fetched_at": "2026-10-18T20:50:26.904673+09:00",
+      "quoted_text": "Although dependent on the type of study and the level of analysis, underestimation was more frequently reported than overestimation in studies from the engineering and management literature. However, this was not the case in studies from the psychology literature."
+    },
+    {
+      "doi": "10.1037/0022-3514.67.3.366",
+      "level": "Crossref 서지만 실제 열람; 세부 수치 검증 불가",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/crossref/3fcf7218a7f1a5b55ca6.json",
+      "attempted_urls": [
+        {
+          "url": "https://psycnet.apa.org/journals/psp/67/3/366.pdf",
+          "result": "HTTP403"
+        },
+        {
+          "url": "https://www.sfu.ca/~mfs2/SUMMER%202006/461/Readings/Buehler1994.pdf",
+          "result": "HTTP404"
+        },
+        {
+          "url": "https://web.mit.edu/curhan/www/docs/Articles/15341_Readings/Time_Perspectives/Buehler_et_al_1994_Exploring_the_planning_fallacy.pdf",
+          "result": "HTTP404"
+        }
+      ]
+    }
+  ],
+  "sentence_lengths": [
+    {
+      "text": "대학생의 과제 기한을 살펴본 결과입니다.",
+      "length": 22
+    },
+    {
+      "text": "지난번 비슷한 일을 떠올린 그룹은 60.0%가 제때 끝냈습니다.",
+      "length": 35
+    },
+    {
+      "text": "대조군은 29.3%였습니다.",
+      "length": 15
+    },
+    {
+      "text": "Halkjelsvik가 모은 공학·경영 연구에서는 과소추정이 더 흔했습니다.",
+      "length": 42
+    },
+    {
+      "text": "심리학 연구에서는 그렇지 않았습니다.",
+      "length": 20
+    },
+    {
+      "text": "Buehler의 소요일·완료율·참가자 수는 원문에서 확인하지 못했습니다.",
+      "length": 40
+    }
+  ],
+  "easy_length": 74,
+  "doi_changes": {
+    "added": [],
+    "removed": []
+  },
+  "approved_field_preservation": {
+    "previous_editorial_proposal_sha256": "bbb7a79c5fcd1072a82091d05c913d6d0566d27f9ff8b2cf2bf3234e6da84d18",
+    "decision": "쉽게 revise였으며 승인된 텍스트 변경 없음. 제목·비용·이득·근거등급·출처 및 비고 나머지 보존."
+  },
+  "unresolved_limitations": [
+    "Buehler 본문 세부 33.9/55.5/29.7/29.3/60.0 및 참가자 37명/약40명은 이번 열람으로 검증하지 못했습니다. 원문 보존이며 새 검증 주장 없음.",
+    "비고의 소규모 단일 연구 표현은 이번에 독립 검증하지 못하여 유지했습니다.",
+    "Flyvbjerg 실제 절차 본문은 이번에 재검증하지 않았습니다."
+  ],
+  "review_requirement": "별도 정확해시 독립 검토 필요. 미채택, 자가승인 및 출판 없음.",
+  "evidence_scope_followup": {
+    "backup_suffix": ".before-evidence-scope",
+    "before": "Buehler는 캐나다 대학생을 대상으로 소규모 단일 연구를 했습니다. 참가자는 37명과 그룹마다 약 40명이었습니다. 참조부류 예측은 비슷한 프로젝트의 과거 실적으로 예측하는 방법입니다. 공학에서 쓰는 실제 절차는 Flyvbjerg를 참고하세요. Halkjelsvik가 모은 공학·경영 연구에서는 과소추정이 더 흔했습니다. 심리학 연구에서는 그렇지 않았습니다. 차이의 크기는 일과 연구 방법에 따라 크게 달랐습니다.",
+    "after": "Buehler는 캐나다 대학생을 대상으로 소규모 단일 연구를 했습니다. 참가자는 37명과 그룹마다 약 40명이었습니다. 참조부류 예측은 비슷한 프로젝트의 과거 실적으로 예측하는 방법입니다. 공학에서 쓰는 실제 절차는 Flyvbjerg를 참고하세요. Halkjelsvik가 모은 공학·경영 연구에서는 과소추정이 더 흔했습니다. 심리학 연구에서는 그렇지 않았습니다. 차이의 크기는 일과 연구 방법에 따라 크게 달랐습니다. Buehler의 소요일·완료율·참가자 수는 원문에서 확인하지 못했습니다.",
+    "reason": "검증하지 못한 Buehler 수치를 확정적으로 읽지 않도록 독자용 원문 대조 한계를 추가. 수치 삭제·변경 없음."
+  }
+}

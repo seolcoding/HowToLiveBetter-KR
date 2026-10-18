@@ -1,0 +1,216 @@
+{
+  "status": "unadopted_proposal",
+  "entry": 13,
+  "base": "strict-entry.md",
+  "base_sha256": "71772b31f0e4fdcc0fc433816afafca336429837feee053987cfe555e0fdd775",
+  "proposal_sha256": "88807118b3926363028f4b74ae4b89c4b9bbc8cd869728728540768381254fb4",
+  "changes": [
+    {
+      "field": "title",
+      "before": "### 13. 미루기가 삶을 무너뜨리면 무작위시험 근거가 있는 자조 교재를 쓰세요. 상담사를 꼭 찾을 필요는 없습니다",
+      "after": "### 13. 미루기로 괴롭다면 검증된 인터넷 인지행동 자조 프로그램을 고려하세요",
+      "reason": "삶의 붕괴나 상담 불필요를 일반화하지 않고 검증된 프로그램에 한정합니다. incoming 제목 전문 검색에서 독립 링크 없음; 제13항 번호 유지. 제목 신규 독립 검토 필요."
+    },
+    {
+      "field": "쉽게",
+      "before": "미루기가 괴로울 정도로 심하면 치료 대상이 됩니다. 인지행동 자조 교재를 10주 쓰면 아무것도 하지 않을 때보다 확실히 낫습니다. 안내자가 있든 없든 결과는 비슷했습니다. 혼자 따라 해도 됩니다.",
+      "after": "미루기로 괴롭다면 검증된 인터넷 인지행동 자조 프로그램을 고려하세요. 10주 뒤 대기자보다 중간 정도로 나아졌습니다. 스웨덴 성인 대상 결과이며 한국어판은 확인하지 못했습니다.",
+      "reason": "특정 인터넷CBT로 범위를 좁히고 스웨덴성인·한국어판미확인 조건을 드러냄. 대기자 비교를 유지하며 안내유무 동등효과로 단정하지 않음.10주기간은 기존 본문 유지이며 본초록 단독 신규검증은 아님."
+    },
+    {
+      "field": "비고",
+      "before": "같은 프로그램의 한국어판은 찾지 못했습니다(TODO 확인 필요).",
+      "after": "같은 프로그램의 한국어판 제공 여부는 확인하지 못했습니다.",
+      "reason": "한국어판 부존재를 단정하지 않고 미확인 상태만 명시."
+    },
+    {
+      "field": "비용",
+      "before": "인지행동 기법을 다룬 자조서 한 권 값이면 됩니다. 무료 자료도 있습니다. 기간은 10주쯤입니다. 매주 한 대목을 읽고 연습을 하나 하세요.",
+      "after": "연구에서는 인터넷 인지행동 자조 프로그램을 10주 사용했습니다. 일반 자조서나 무료 자료의 효과와 비용이 같다고 볼 수는 없습니다. 같은 프로그램의 한국어판 제공 여부와 이용 비용은 확인이 필요합니다.",
+      "reason": "특정인터넷CBT 시험을 임의자조서/무료자료 비용효과 보장으로 확대하지 않도록 수정. 비용과 한국어판 확인이 필요한 상태를 보존."
+    },
+    {
+      "field": "이득",
+      "before": "150명을 세 그룹에 무작위로 나눴습니다.",
+      "after": "인터넷 인지행동 자조 프로그램을 시험했습니다. 150명을 세 그룹에 무작위로 나눴습니다.",
+      "reason": "시험대상 프로그램의 범위를 명시합니다."
+    },
+    {
+      "field": "이득",
+      "before": "CI는 신뢰구간을 뜻합니다.",
+      "after": "d는 두 집단의 점수 차이를 나타내는 효과 크기입니다. CI는 추정치의 불확실성을 나타내는 신뢰구간입니다.",
+      "reason": "기존 기술용어의 뜻을 일상말로 설명합니다."
+    },
+    {
+      "field": "이득",
+      "before": "어느 결과에서도 두 그룹의 차이는 통계적으로 유의하지 않았습니다.",
+      "after": "어느 결과에서도 두 그룹의 차이는 통계적으로 유의하지 않았습니다. 두 방식의 효과가 같다고 입증한 것은 아닙니다.",
+      "reason": "비유의성을 동등효과 입증으로 오독하지 않도록 합니다."
+    },
+    {
+      "field": "비고",
+      "before": "미루기와 함께 기분이 크게 가라앉으면 먼저 대처하세요.",
+      "after": "이 결과만으로 전문 상담이나 치료가 불필요하다고 볼 수 없습니다. 미루기와 함께 기분이 크게 가라앉으면 먼저 대처하세요.",
+      "reason": "시험 결과를 치료대체 권고로 일반화하지 않는 해석상 제한입니다. 기존 위기·기분·불안 예외를 모두 보존합니다."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1037%2Fccp0000023%22&format=json&resultType=core&pageSize=10",
+      "doi": "10.1037/ccp0000023",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/38f8e8e3f9f3ac35ff75.json",
+      "sha256": "132f4836429d389c25303feddd8cded87267f0452f135777d23c4ab7288211d2",
+      "read_level": "cached primary article abstract and metadata; full text not read",
+      "verified_at_utc": "2026-10-18T15:24:48.391298+00:00",
+      "method": "Independent complete read of cached Europe PMC abstract",
+      "original_provenance": {
+        "doi": "10.1037/ccp0000023",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1037%2Fccp0000023%22&format=json&resultType=core&pageSize=10",
+        "fetched_at": "2026-10-18T20:50:32.378546+09:00",
+        "http_status": 200,
+        "status": "exact_doi_metadata_cached",
+        "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/38f8e8e3f9f3ac35ff75.json",
+        "sha256": "132f4836429d389c25303feddd8cded87267f0452f135777d23c4ab7288211d2",
+        "actual_sha256": "132f4836429d389c25303feddd8cded87267f0452f135777d23c4ab7288211d2",
+        "read_scope": "metadata/abstract as present"
+      },
+      "exact_quotes": [
+        "Internet-based cognitive-behavior therapy for procrastination: A randomized controlled trial.",
+        "Participants (N = 150) were randomized to guided self-help, unguided self-help, and wait-list control.",
+        "Mixed-effects models revealed moderate between-groups effect sizes comparing guided and unguided self-help with wait-list control;",
+        "Neither of the treatment conditions was found to be superior on any of the outcome measures, Fs(98, 65.17-72.55) < 1.70, p > .19.",
+        "Internet-based CBT could be useful for managing self-reported difficulties due to procrastination, both with and without the guidance of a therapist."
+      ],
+      "full_abstract_exact": "<h4>Objective</h4>Procrastination can be a persistent behavior pattern associated with personal distress. However, research investigating different treatment interventions is scarce, and no randomized controlled trial has examined the efficacy of cognitive-behavior therapy (CBT). Meanwhile, Internet-based CBT has been found promising for several conditions, but has not yet been used for procrastination.<h4>Method</h4>Participants (N = 150) were randomized to guided self-help, unguided self-help, and wait-list control. Outcome measures were administered before and after treatment, or weekly throughout the treatment period. They included the Pure Procrastination Scale, the Irrational Procrastination Scale, the Susceptibility to Temptation Scale, the Montgomery Åsberg Depression Rating Scale-Self-report version, the Generalized Anxiety Disorder Assessment, and the Quality of Life Inventory. The intention-to-treat principle was used for all statistical analyses.<h4>Results</h4>Mixed-effects models revealed moderate between-groups effect sizes comparing guided and unguided self-help with wait-list control; the Pure Procrastination Scale, Cohen's d = 0.70, 95% confidence interval (CI) [0.29, 1.10], and d = 0.50, 95% CI [0.10, 0.90], and the Irrational Procrastination Scale, d = 0.81 95% CI [0.40, 1.22], and d = 0.69 95% CI [0.29, 1.09]. Clinically significant change was achieved among 31.3-40.0% for guided self-help, compared with 24.0-36.0% for unguided self-help. Neither of the treatment conditions was found to be superior on any of the outcome measures, Fs(98, 65.17-72.55) < 1.70, p > .19.<h4>Conclusion</h4>Internet-based CBT could be useful for managing self-reported difficulties due to procrastination, both with and without the guidance of a therapist."
+    },
+    {
+      "url": "https://www.129.go.kr/109",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch04-audit/109.html",
+      "sha256": "779eb5f1d7a10b1a7ee703e2f035af6f4f011093aa2a70287437816c86561f83",
+      "read_level": "official HTML relevant 109 service text",
+      "verified_at_utc": "2026-10-18T15:24:48.391436+00:00",
+      "method": "HTML text extraction and reading",
+      "original_provenance": {
+        "url": "https://www.129.go.kr/109",
+        "fetched_at": "2026-10-18T12:37:27.023687+00:00",
+        "http_status": 200,
+        "sha256": "779eb5f1d7a10b1a7ee703e2f035af6f4f011093aa2a70287437816c86561f83",
+        "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch04-audit/109.html",
+        "read_scope": "HTML 본문 109 자살예방상담 안내",
+        "bytes": 123197
+      },
+      "exact_quotes": [
+        "당신 곁엔 109 자살예방상담전화",
+        "24시간 자살예방상담전화 109 삶의 희망이 보이지 않을 때 고민하지 말고 연락주세요."
+      ],
+      "quote_normalization": "HTML tags and whitespace normalized"
+    }
+  ],
+  "approved_canonical_relationship": {
+    "source_path": "_workspace/2026-10-18-013-463e/editorial-proposal.json",
+    "source_sha256": "d1d573a13e599fec1c00e154533b7c304191666e858c24b7be6ed598d835ecca",
+    "current_file_sha256": "d1d573a13e599fec1c00e154533b7c304191666e858c24b7be6ed598d835ecca",
+    "preserved_verbatim": [
+      "easy.after",
+      "todo.after",
+      "scope_review.after"
+    ],
+    "superseded_operations": [],
+    "new_changes_require_independent_exact_hash_review": true
+  },
+  "sentence_measurements": [
+    {
+      "field": "title",
+      "sentence": "미루기로 괴롭다면 검증된 인터넷 인지행동 자조 프로그램을 고려하세요",
+      "chars": 37
+    },
+    {
+      "field": "쉽게",
+      "sentence": "미루기로 괴롭다면 검증된 인터넷 인지행동 자조 프로그램을 고려하세요.",
+      "chars": 38
+    },
+    {
+      "field": "쉽게",
+      "sentence": "10주 뒤 대기자보다 중간 정도로 나아졌습니다.",
+      "chars": 26
+    },
+    {
+      "field": "쉽게",
+      "sentence": "스웨덴 성인 대상 결과이며 한국어판은 확인하지 못했습니다.",
+      "chars": 32
+    },
+    {
+      "field": "비고",
+      "sentence": "같은 프로그램의 한국어판 제공 여부는 확인하지 못했습니다.",
+      "chars": 32
+    },
+    {
+      "field": "비용",
+      "sentence": "연구에서는 인터넷 인지행동 자조 프로그램을 10주 사용했습니다.",
+      "chars": 35
+    },
+    {
+      "field": "비용",
+      "sentence": "일반 자조서나 무료 자료의 효과와 비용이 같다고 볼 수는 없습니다.",
+      "chars": 37
+    },
+    {
+      "field": "비용",
+      "sentence": "같은 프로그램의 한국어판 제공 여부와 이용 비용은 확인이 필요합니다.",
+      "chars": 38
+    },
+    {
+      "field": "이득",
+      "sentence": "인터넷 인지행동 자조 프로그램을 시험했습니다.",
+      "chars": 25
+    },
+    {
+      "field": "이득",
+      "sentence": "d는 두 집단의 점수 차이를 나타내는 효과 크기입니다.",
+      "chars": 30
+    },
+    {
+      "field": "이득",
+      "sentence": "CI는 추정치의 불확실성을 나타내는 신뢰구간입니다.",
+      "chars": 28
+    },
+    {
+      "field": "이득",
+      "sentence": "두 방식의 효과가 같다고 입증한 것은 아닙니다.",
+      "chars": 26
+    },
+    {
+      "field": "비고",
+      "sentence": "이 결과만으로 전문 상담이나 치료가 불필요하다고 볼 수 없습니다.",
+      "chars": 36
+    }
+  ],
+  "easy_chars": 98,
+  "intentional_numerical_changes": [],
+  "scope_changes": [
+    "Internet CBT programme only; no general self-help book/free-material cost-effectiveness claim",
+    "No conclusion that therapist or professional treatment is unnecessary",
+    "Nonsignificance is not equivalence"
+  ],
+  "doi_changes": {
+    "added": [],
+    "removed": [],
+    "reason": "Existing citations preserved exactly"
+  },
+  "unresolved_limitations": [
+    "Full article not read. Ten-week duration, Swedish language and programme components retained from base and prior editorial decision, not newly verified by abstract.",
+    "Korean translation availability and programme cost remain unverified.",
+    "Clinical exclusions and eligibility details not established by abstract; no invented contraindication list. Existing depression/anxiety/crisis warnings retained."
+  ],
+  "protected_preserved": [
+    "cost tag",
+    "evidence grade A",
+    "all reported estimates and confidence intervals",
+    "109 and internal references"
+  ],
+  "reference_scan": {
+    "method": "rg Markdown exact original title and 제4절/제4장 제13항; audit incoming anchor list read",
+    "result": "Only same-entry copies/review records of exact title found; number 13 preserved",
+    "independent_review_required": true
+  }
+}

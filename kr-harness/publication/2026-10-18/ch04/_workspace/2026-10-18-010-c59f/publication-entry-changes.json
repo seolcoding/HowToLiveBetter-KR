@@ -1,0 +1,98 @@
+{
+  "status": "unadopted_proposal",
+  "entry": 10,
+  "base_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-010-c59f/strict-entry.md",
+  "base_sha256": "180ffaed99d30b2ac90c3708b67993c1d632d18b3961f829bf82ceb4e169ec7f",
+  "approved_editorial": {
+    "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-010-c59f/editorial-proposal.json",
+    "sha256": "dad090f50ae328a8b175bf489a572db9338431e3603bc6c2432ba0adf647e3a2",
+    "scope": "easy only; full proposal pending independent review"
+  },
+  "changes": [
+    {
+      "field": "쉽게",
+      "before": "물건이 멀수록 덜 집어 듭니다. 같은 간식도 멀리 두면 먹는 양이 뚜렷하게 줄었습니다. 효과는 중간 크기입니다. 선택지를 줄이면 그 음식을 집는 사람도 줄었습니다. 미리 몇 분만 들여 치워 두면 그때마다 참지 않아도 됩니다.",
+      "after": "음식을 멀리 두면 먹는 양이 중간 크기로 줄었습니다. 근거의 확실성은 낮습니다. 휴대폰과 게임에도 같은 효과가 있을지는 모릅니다.",
+      "reason": "승인된 쉽게 요약 통합"
+    },
+    {
+      "field": "이득",
+      "before": "코크란 리뷰는 무작위시험 24건을 종합했습니다. 음식을 더 멀리 두면 먹는 양이 줄었습니다. 표준화평균차는 −0.60(95% CI −0.84~−0.36)입니다. 중간 크기의 효과를 보였습니다. CI는 신뢰구간입니다. 연구 12건에 1098명이 참여했습니다. 근거의 확실성은 낮습니다. 선택지를 줄이면 그 음식을 고르는 비율이 더 크게 줄었습니다. 표준화평균차는 −1.13(95% CI −1.90~−0.37)입니다. 연구 3건에 154명이 참여했습니다. 근거의 확실성은 낮습니다. 회귀분석에서는 멀수록, 선택지가 단순할수록 효과가 컸습니다.",
+      "after": "코크란 리뷰는 무작위시험 24건을 종합했습니다. 음식을 더 멀리 두면 먹는 양이 줄었습니다. 표준화평균차는 −0.60(95% CI −0.84~−0.36)입니다. 중간 크기의 효과를 보였습니다. 표준화평균차는 서로 다른 측정값을 같은 척도로 비교한 차이입니다. 음수는 선택량이나 섭취량이 줄어든 방향을 뜻합니다. CI는 신뢰구간입니다. 연구 12건에 1098명이 참여했습니다. 근거의 확실성은 낮습니다. 선택지를 줄이면 그 음식의 선택량이 크게 줄었습니다. 표준화평균차는 −1.13(95% CI −1.90~−0.37)입니다. 연구 3건에 154명이 참여했습니다. 근거의 확실성은 낮습니다. 회귀분석에서는 음식을 멀리 둘수록 섭취량 감소 효과가 컸습니다. 해당 음식만 선택할 수 있을 때도 효과가 컸습니다.",
+      "reason": "선택량을 사람 비율로 오독하는 표현 수정; 회귀분석의 대상음식 단독 제공 조건 명확화; 표준화평균차 풀이 추가"
+    }
+  ],
+  "source_verification": {
+    "verified_at": "2026-10-18T16:04:52.566735+00:00",
+    "method": "Parsed cached primary XML and read complete structured abstract plus plain language summary; no fresh HTTP and no full article/results-table verification",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6953356/fullTextXML",
+    "doi": "10.1002/14651858.CD012573.pub3",
+    "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/pmc-fulltext/PMC6953356.xml",
+    "raw_sha256": "117c145aa3bb1f238010b969da5c9427e70d90366eb08739c5fdffa5aaf6e746",
+    "original_fetch_at": "2026-10-18T12:15:43.493260+00:00",
+    "exact_primary_quotes": [
+      "All of the included studies investigated food products; none investigated alcohol or tobacco.",
+      "For selection outcomes, meta‐analysis of three comparisons from three studies (n = 154) found that exposure to fewer options resulted in a large reduction in selection of the targeted food(s): SMD −1.13 (95% confidence interval (CI) −1.90 to −0.37) (low certainty evidence).",
+      "For consumption outcomes, meta‐analysis of 15 comparisons from 12 studies (n = 1098) found that exposure to food placed farther away resulted in a moderate reduction in its consumption: SMD −0.60 (95% CI −0.84 to −0.36) (low certainty evidence).",
+      "Meta‐regression analyses indicated that this effect was greater: the farther away the product was placed; when only the targeted product(s) was available; when participants were of low deprivation status; and when the study was at high risk of bias."
+    ]
+  },
+  "intentional_changes": [
+    "Selection effect remains SMD −1.13 with original CI/n, expressed as selection amount rather than people percentage.",
+    "Regression condition is target foods only, not a general simple-choice claim.",
+    "All original numerical results retained; no conversion to percentage.",
+    "DOI unchanged."
+  ],
+  "findings_resolution": {
+    "food_only_24": "retained",
+    "lab_14_high_income": "retained",
+    "12_studies_1098_consumption": "verified abstract; retained",
+    "3_studies_154_selection": "verified abstract; corrected endpoint wording",
+    "low_certainty": "retained in benefit and approved easy",
+    "phone_game_generalization": "approved easy and existing note retain limitation",
+    "incoming_anchor": "title unchanged; 만지고 싶은 것은 멀리 preserved",
+    "summary_readability": "approved easy 72 characters; added ordinary SMD explanation"
+  },
+  "remaining_limits": [
+    "Abstract and plain-language summary read, not full results or individual trials.",
+    "Phone-specific study referred to in section 3 was not independently verified in this task.",
+    "Regression results are associations with effect size; not independent intervention proof.",
+    "Full proposal requires independent exact-hash review; no self-approval."
+  ],
+  "sentence_lengths": [
+    {
+      "sentence": "음식을 멀리 두면 먹는 양이 중간 크기로 줄었습니다.",
+      "len": 29
+    },
+    {
+      "sentence": "근거의 확실성은 낮습니다.",
+      "len": 14
+    },
+    {
+      "sentence": "휴대폰과 게임에도 같은 효과가 있을지는 모릅니다.",
+      "len": 27
+    },
+    {
+      "sentence": "선택지를 줄이면 그 음식의 선택량이 크게 줄었습니다.",
+      "len": 29
+    },
+    {
+      "sentence": "회귀분석에서는 음식을 멀리 둘수록 섭취량 감소 효과가 컸습니다.",
+      "len": 35
+    },
+    {
+      "sentence": "해당 음식만 선택할 수 있을 때도 효과가 컸습니다.",
+      "len": 28
+    },
+    {
+      "sentence": "표준화평균차는 서로 다른 측정값을 같은 척도로 비교한 차이입니다.",
+      "len": 36
+    },
+    {
+      "sentence": "음수는 선택량이나 섭취량이 줄어든 방향을 뜻합니다.",
+      "len": 28
+    }
+  ],
+  "easy_len": 72,
+  "proposal_sha256": "307a7dd9f8dc81d839d3472b01726df794b977233d6d253d15259d45db1a692b"
+}

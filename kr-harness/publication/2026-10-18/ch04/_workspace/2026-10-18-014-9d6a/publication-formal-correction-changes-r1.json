@@ -1,0 +1,53 @@
+{
+  "entry": 14,
+  "status": "unadopted_pending_fresh_independent_exact_hash_formal_review",
+  "raw_entry_sha256": "31d7d505d7730211fb790801037da4e88c80ba6118fda3019a2c9dab3271bb50",
+  "snapshot_metadata": {
+    "source_path": "/workspace/HowToLiveBetter-KR/book-kr/04-시간-낭비-줄이기.md",
+    "whole_public_raw_sha256": "778cd1e94739315897db896368700675ef65b4e45c93034531b737ea4dd152e6",
+    "entry_sha256": "31d7d505d7730211fb790801037da4e88c80ba6118fda3019a2c9dab3271bb50",
+    "entry_number": 14,
+    "snapshot_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-014-9d6a/publication-current-entry-formal-r1.md"
+  },
+  "proposal_sha256": "03854895f467339f2185d006f2b187c6a6cd23f4131073aabca7d0ca780d8cd1",
+  "changes": [
+    {
+      "field": "쉽게",
+      "before": "집안일을 맡길 때는 비용과 절약할 시간을 비교하세요. 시간을 사는 데 돈을 쓴 사람은 생활 만족도가 더 높았습니다. 일하는 성인 대상 실험에서는 물건보다 시간을 샀을 때 기분이 더 좋아졌습니다.",
+      "after": "집안일을 맡길 때는 비용과 절약할 시간을 비교하세요. 시간을 사는 데 돈을 쓴 사람은 생활 만족도가 더 높았습니다. 일하는 성인들은 물건보다 시간을 샀을 때 기분이 더 좋아졌습니다.",
+      "sentence_before": "일하는 성인 대상 실험에서는 물건보다 시간을 샀을 때 기분이 더 좋아졌습니다.",
+      "sentence_after": "일하는 성인들은 물건보다 시간을 샀을 때 기분이 더 좋아졌습니다.",
+      "reason": "정식 KR-FIT W7의 연구 설계 설명 표현을 일상적인 사람 주어로 최소 교정. 일하는 성인의 범위와 구매 후 기분 비교를 유지. 관찰적 생활 만족도 문장과 별도 실험을 설명하는 이득은 그대로 유지."
+    }
+  ],
+  "source_proof_already_read": {
+    "url": "https://doi.org/10.1073/pnas.1706541114",
+    "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/08f732b5bcb3c9861f9f.json",
+    "sha256": "83897b2a0b8015bba63d650b1d7bbd58d6e682c30f51b1e3f6e45a0e9ad429ef",
+    "verified_at": "2026-10-18T16:00:14.951738+00:00",
+    "method": "기존 Europe PMC 원시 JSON의 원논문 초록 전체 직접 열람. 본문 미열람.",
+    "exact_quote": "Around the world, increases in wealth have produced an unintended consequence: a rising sense of time scarcity. We provide evidence that using money to buy time can provide a buffer against this time famine, thereby promoting happiness. Using large, diverse samples from the United States, Canada, Denmark, and The Netherlands (<i>n</i> = 6,271), we show that individuals who spend money on time-saving services report greater life satisfaction. A field experiment provides causal evidence that working adults report greater happiness after spending money on a time-saving purchase than on a material purchase. Together, these results suggest that using money to buy time can protect people from the detrimental effects of time pressure on life satisfaction."
+  },
+  "source_read_limit": "이전 작업에서 실제 읽은 원초록 근거 재사용. 새 HTTP/본문 검증을 주장하지 않음.",
+  "preservation_proof": {
+    "outside_target_sentence_bytes_unchanged": true,
+    "prior_approved_public_pure_unchanged": true,
+    "doi_changes": [],
+    "new_fact": false
+  },
+  "literal_checks": {
+    "easy_char_count": 101,
+    "easy_sentence_count": 3,
+    "sentence_lengths": [
+      29,
+      34,
+      36
+    ],
+    "modified_sentence_len": 36
+  },
+  "limitations": [
+    "일하는 성인의 실험 결과라는 상세 구분은 이득에 보존.",
+    "참여자 평균시간 미확인 TODO는 수정범위 밖이며 그대로 유지."
+  ],
+  "approval": false
+}

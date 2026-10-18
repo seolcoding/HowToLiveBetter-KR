@@ -1,0 +1,135 @@
+{
+  "status": "unadopted_pending_independent_exact_hash_review",
+  "entry": 6,
+  "base_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-006-f386/strict-entry.md",
+  "base_sha256": "2b2abf44324f65a1e2f390d09273d3141828b32214dcff388eff52778e43fb9e",
+  "proposal_sha256": "ec77928fed66be904053159f0d411e9f8872c849f12dea188e5e4d7091c35c99",
+  "changes": [
+    {
+      "field": "쉽게",
+      "before": "회의가 많은 날에는 더 피곤하게 느낍니다. 체감 업무량도 늘어납니다. 회의 하나를 줄이면 그 시간만큼 아낍니다.",
+      "after": "글로 끝낼 수 있는 회의부터 줄여 보세요. 줄인 시간만큼 아낄 수 있습니다. 다만 피로나 업무량도 줄어드는지는 단정할 수 없습니다.",
+      "reason": "관찰연관과 회의 감축 권고를 구분하고 미확인 일기 결과의 단정을 제거합니다."
+    },
+    {
+      "field": "이득",
+      "before": "두 조사는 주 35시간 넘게 일하는 직원을 다뤘습니다. 표본은 각각 676명과 304명입니다. 회의 시간이 태도와 웰빙에 미치는 영향은 일정하지 않았습니다. 회의가 얼마나 잘 진행되는지에 달렸습니다. 업무가 동료와 얼마나 맞물리는지도 영향을 줬습니다. 다른 연구는 일주일치 일기를 분석했습니다. 회의가 많은 날에는 피로가 더 컸습니다. 체감 업무량도 높았습니다. 회의를 줄이면 그 시간만큼 아낍니다.",
+      "after": "두 조사는 주 35시간 이상 일하는 직원을 다뤘습니다. 표본은 각각 676명과 304명입니다. 회의 시간과 태도·웰빙의 관계는 일정하지 않았습니다. 회의가 얼마나 잘 진행되는지에 따라 달랐습니다. 업무가 동료와 얼마나 맞물리는지도 관련됐습니다. 일기 연구의 기간과 세부 결과는 확인하지 못했습니다. 일주일치 기록에서 피로·체감 업무량이 컸다는 설명은 유보합니다. 회의 감축으로 절약할 시간은 줄인 회의 시간에 달렸습니다.",
+      "reason": "35 hr or more 경계를 이상으로 수정하고 인과 표현을 연관으로 제한합니다. 일기 연구의 기간·피로·체감 업무량은 미확인임을 독자 본문에 명시합니다."
+    },
+    {
+      "field": "비고",
+      "before": "논쟁 있음. Rogelberg 2006에서는 회의량과 행복이 한 방향으로만 움직이지 않았습니다. 동료와 맞물려 일할 때는 회의가 많아도 나쁘지만은 않았습니다. 「글로 비동기 소통하기」와 회의를 직접 비교한 연구도 없습니다. 두 결과를 연결한 판단은 지은이의 추론입니다.",
+      "after": "논쟁 있음. Rogelberg 2006에서는 회의량과 행복이 한 방향으로만 움직이지 않았습니다. 동료와 맞물려 일할 때의 구체적 방향은 초록만으로 단정하기 어렵습니다. 「글로 비동기 소통하기」와 회의를 직접 비교한 연구도 없습니다. 두 결과를 연결한 판단은 지은이의 추론입니다. 회의를 줄여 피로와 체감 업무량이 낮아진다는 직접 검증은 아닙니다.",
+      "reason": "초록이 뒷받침하는 조절 관계보다 강한 구체 방향을 유보하고 감축 인과효과 미검증을 명시합니다."
+    }
+  ],
+  "primary_quotes": [
+    "Two Internet surveys were administered to employees who worked 35 hr or more per week.",
+    "Study 1 examined prescheduled meetings attended in a typical week (N=676), whereas Study 2 investigated prescheduled meetings attended during the current day (N=304).",
+    "As proposed, the relationship between meeting time demands and JAWB was moderated by task interdependence, meeting experience quality, and accomplishment striving."
+  ],
+  "verification_method": "직접 열람한 Europe PMC 수록 Rogelberg 원논문 초록; Luong Crossref 서지와 Europe PMC 무검색 결과 직접 열람. 원문/초록 추가 접근 3건은 모두 403 응답.",
+  "sources": [
+    {
+      "doi": "10.1037/0021-9010.91.1.83",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1037%2F0021-9010.91.1.83%22&format=json&resultType=core&pageSize=10",
+      "fetched_at": "2026-10-18T20:50:31.662266+09:00",
+      "http_status": 200,
+      "status": "exact_doi_metadata_cached",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/bf9de0081998f62feadb.json",
+      "sha256": "d6d104feff9b27c333175edaed09fe982257b22f3fcd17638c161b31d7b3d402",
+      "actual_sha256": "d6d104feff9b27c333175edaed09fe982257b22f3fcd17638c161b31d7b3d402",
+      "read_scope": "metadata/abstract as present",
+      "read_at_utc": "2026-10-18T15:51:36.254249+00:00"
+    },
+    {
+      "doi": "10.1037/1089-2699.9.1.58",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1037%2F1089-2699.9.1.58%22&format=json&resultType=core&pageSize=10",
+      "fetched_at": "2026-10-18T20:50:31.797041+09:00",
+      "http_status": 200,
+      "status": "no_exact_doi_match",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/2f86bd86fb3595b81c8c.json",
+      "sha256": "d1a40c9347fafbf8d54a1db5f72c1854635014a3cc8bd57fe2bd769f89ae68f1",
+      "actual_sha256": "d1a40c9347fafbf8d54a1db5f72c1854635014a3cc8bd57fe2bd769f89ae68f1",
+      "read_scope": "metadata/abstract as present",
+      "read_at_utc": "2026-10-18T15:51:36.254324+00:00"
+    },
+    {
+      "doi": "10.1037/1089-2699.9.1.58",
+      "url": "https://api.crossref.org/works/10.1037%2F1089-2699.9.1.58",
+      "fetched_at": "2026-10-18T20:52:29.159251+09:00",
+      "http_status": 200,
+      "status": "exact_doi_bibliography_cached",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/crossref/2f86bd86fb3595b81c8c.json",
+      "sha256": "014f0cbbddf835407b0405fa41c7a449fecf364ad43a51b822a2487a51965137",
+      "actual_sha256": "014f0cbbddf835407b0405fa41c7a449fecf364ad43a51b822a2487a51965137",
+      "read_scope": "metadata/abstract as present",
+      "read_at_utc": "2026-10-18T15:51:36.254349+00:00"
+    }
+  ],
+  "live_attempts": [
+    {
+      "url": "https://psycnet.apa.org/record/2005-02475-005",
+      "final_url": "https://psycnet.apa.org/record/2005-02475-005",
+      "utc": "2026-10-18T15:50:59.383614+00:00",
+      "status": 403,
+      "raw_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-006-f386/source-diary-0.raw",
+      "sha256": "6c610c03b93a1833e446d07a91f3041c9f0c96825191974f82ba8363fa53ed33"
+    },
+    {
+      "url": "https://doi.apa.org/doi/10.1037/1089-2699.9.1.58",
+      "final_url": "https://doi.apa.org/doi/10.1037/1089-2699.9.1.58",
+      "utc": "2026-10-18T15:51:00.072710+00:00",
+      "status": 403,
+      "raw_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-006-f386/source-diary-1.raw",
+      "sha256": "b6ceac84d0987a1dbeb19b5835086fa1c0a50c0c967a0996e33d1c28f486e1c2"
+    },
+    {
+      "url": "https://psycnet.apa.org/journals/gdn/9/1/58.pdf",
+      "final_url": "https://psycnet.apa.org/journals/gdn/9/1/58.pdf",
+      "utc": "2026-10-18T15:51:01.018503+00:00",
+      "status": 403,
+      "raw_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-006-f386/source-diary-2.raw",
+      "sha256": "eec836a767d8377dfb98e86c5baf59521b75049352978e55d501724cf1cd2c8f"
+    }
+  ],
+  "intentional_scope_changes": [
+    "주35시간 넘게 → 주35시간 이상",
+    "Rogelberg 결과 인과표현 → 관찰된 관계",
+    "일기 기간·피로·체감 업무량 결과를 검증된 사실로 사용하지 않고 본문에서 유보"
+  ],
+  "doi_changes": "없음. 두 기존 DOI 유지. 두 번째 DOI의 서지 확인은 결과 검증이 아닙니다.",
+  "limitations": [
+    "Luong 일기 연구의 원문·초록을 읽지 못해 일주일 기간·피로·업무량 세부 미검증.",
+    "Rogelberg 초록의 조절요인만 확인; 동료 의존성이 높을 때의 구체 방향은 미검증.",
+    "회의 감축·비동기 소통의 인과효과 직접 검증 없음."
+  ],
+  "sentence_lengths": {
+    "쉽게": [
+      23,
+      18,
+      30
+    ],
+    "이득": [
+      30,
+      21,
+      29,
+      26,
+      26,
+      29,
+      35,
+      32
+    ],
+    "비고": [
+      6,
+      46,
+      39,
+      35,
+      25,
+      37
+    ]
+  },
+  "easy_length": 73,
+  "preservation": "제목·비용태그·비용·근거등급 B·출처·논쟁 있음 첫 문구·비동기 소통 incoming anchor 보존; final/editorial/source immutable"
+}

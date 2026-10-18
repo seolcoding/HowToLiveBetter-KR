@@ -1,0 +1,97 @@
+{
+  "entry": 5,
+  "status": "unadopted_pending_independent_exact_hash_review",
+  "strict_sha256": "bee6e1e005ba8d7c2a0ac03a34ef47e0994f314a310ab1aebb62048525e4c184",
+  "proposal_sha256": "487d33899d47eb7a1e85bc6331edb091c206b40a3fc24f7456ab69cd857aea4d",
+  "changes": [
+    {
+      "field": "쉽게",
+      "before": "안건을 미리 돌린 회의일수록 참석자가 유익하게 평가했습니다. 실험에서 앉아서 한 회의는 서서 한 회의보다 34% 길었습니다. 결정의 질에는 차이가 없었습니다. 서서 할 수 있는 회의라면 서서 하세요.",
+      "after": "안건 사용은 참석자가 느끼는 회의 효과와 관련이 있었습니다. 안건을 미리 돌려 보세요. 이 조사가 안건 배포의 효과를 입증한 것은 아닙니다.",
+      "reason": "원문 초록으로 확인한 안건 사용 연관과 표본수만 명시; 사전 배포 인과효과 및 미확인 기립회의 수치·과제 세부의 단정 제거",
+      "primary_quotes": [
+        "Two studies were conducted: Study 1 investigated meetings attended in a typical week (N = 958), whereas Study 2 examined the last meeting attended on a particular day (N = 292).",
+        "A number of design characteristics (in particular agenda use and quality of facilities) were found to be important in predicting perceived effectiveness."
+      ]
+    },
+    {
+      "field": "이득",
+      "before": "두 조사에는 각각 958명과 292명이 참여했습니다. 안건을 미리 돌린 회의일수록 참석자가 효과를 높게 평가했습니다. 이 관계는 통계적으로 견고했습니다. 다른 실험에서는 55팀이 앉아서 회의했습니다. 56팀은 서서 회의했습니다. 앉아서 한 회의는 서서 한 회의보다 34% 더 길었습니다. 결정의 질에는 차이가 없었습니다.",
+      "after": "두 조사에는 각각 958명과 292명이 참여했습니다. 안건 사용은 참석자가 느끼는 회의 효과와 관련이 있었습니다. 안건을 미리 돌리는 것이 효과를 높이는지는 별도 확인이 필요합니다. 서서 하는 회의가 시간을 얼마나 줄이는지는 여기서 확정하지 않습니다.",
+      "reason": "원문 초록으로 확인한 안건 사용 연관과 표본수만 명시; 사전 배포 인과효과 및 미확인 기립회의 수치·과제 세부의 단정 제거",
+      "primary_quotes": [
+        "Two studies were conducted: Study 1 investigated meetings attended in a typical week (N = 958), whereas Study 2 examined the last meeting attended on a particular day (N = 292).",
+        "A number of design characteristics (in particular agenda use and quality of facilities) were found to be important in predicting perceived effectiveness."
+      ]
+    },
+    {
+      "field": "비고",
+      "before": "서서 회의한 실험에서는 5인 조가 실험실 과제를 수행했습니다. 긴 회의나 규모가 큰 회의에 이 결과를 그대로 적용할 수는 없습니다. Leach는 참석자가 느낀 회의 효과를 측정했습니다. 실제 업무 성과를 측정한 연구는 아닙니다.",
+      "after": "안건 조사와 서서 하는 회의 실험은 서로 다른 연구입니다. 서서 하는 회의의 시간 차이와 과제 세부는 확인이 더 필요합니다. 긴 회의나 규모가 큰 회의에 같은 결과를 가정하지 마세요. Leach는 참석자가 느낀 회의 효과를 측정했습니다. 실제 업무 성과를 측정한 연구는 아닙니다. 제목의 안건 배포 권고는 실용적 제안입니다.",
+      "reason": "원문 초록으로 확인한 안건 사용 연관과 표본수만 명시; 사전 배포 인과효과 및 미확인 기립회의 수치·과제 세부의 단정 제거",
+      "primary_quotes": [
+        "Two studies were conducted: Study 1 investigated meetings attended in a typical week (N = 958), whereas Study 2 examined the last meeting attended on a particular day (N = 292).",
+        "A number of design characteristics (in particular agenda use and quality of facilities) were found to be important in predicting perceived effectiveness."
+      ]
+    }
+  ],
+  "verification": [
+    {
+      "url": "https://link.springer.com/article/10.1007/s10869-009-9092-6",
+      "time": "2026-10-18T15:52:25.564543+00:00",
+      "status": 200,
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-005-91a6/source-proof/0.raw",
+      "sha256": "6b0d64c5072eb11a8c0cdc20a17e8c933d3def0eccdcd695e9a2a5d77b9ade32"
+    },
+    {
+      "url": "https://psycnet.apa.org/doiLanding?doi=10.1037%2F0021-9010.84.2.277",
+      "time": "2026-10-18T15:52:25.565905+00:00",
+      "status": 403,
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-005-91a6/source-proof/1.raw",
+      "sha256": "aab726899579d6cd58401bc8316aca32a54edf49d551bbdc1c4d3acc6805f6ad"
+    },
+    {
+      "url": "https://eprints.whiterose.ac.uk/cgi/search/simple?q=Perceived+meeting+effectiveness&_action_search=Search",
+      "time": "2026-10-18T15:52:25.566434+00:00",
+      "status": 200,
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-005-91a6/source-proof/2.raw",
+      "sha256": "2d78bbf51d29a67d85bf1c90414292efad407b3acd8773d018fce6bebcfb4905"
+    }
+  ],
+  "read_scope": "Springer 원논문 초록 정독; APA 본문 접근403; White Rose 검색은 검색폼만 반환해 근거 아님",
+  "intentional_numerical_changes": {
+    "preserved": "958/292 primary abstract verified",
+    "removed": "55/56팀, 34%, 5인 조 및 실험실 과제 세부: 원문 미확인. 잘못된 값으로 판정한 것은 아님",
+    "denominator": "34%를 추후 복원할 경우 seated longer than standing; standing 34% shorter 아님"
+  },
+  "doi_changes": "없음; 원래 두 DOI 유지. Bluedorn 인용은 검증 완료 의미 아님",
+  "unresolved": [
+    "Bluedorn 원문/초록과 55/56,34%,결정 질,5인조 과제 직접 검증 필요",
+    "Leach 사전 배포 세부와 통계적 견고함은 초록으로 미확인",
+    "비용의 5~10분은 기존 실용적 추정이며 새 검증 아님",
+    "제목 원문 유지; 안건 없는 회의 절대 금지는 실험 입증으로 읽지 않도록 비고에 실용적 제안 명시"
+  ],
+  "sentence_lengths": {
+    "쉽게": [
+      33,
+      14,
+      29
+    ],
+    "이득": [
+      29,
+      33,
+      37,
+      38
+    ],
+    "비고": [
+      32,
+      36,
+      32,
+      29,
+      23,
+      24
+    ]
+  },
+  "easy_length": 78,
+  "hold": "독립 현해시 검토 전 미채택; 출판 승인 아님"
+}

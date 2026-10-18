@@ -1,0 +1,165 @@
+{
+  "status": "unadopted_proposal",
+  "entry": 1,
+  "based_on": "strict-entry.md",
+  "strict_sha256": "46384cb06ca226a03bd6e42b798803693c8e414c4cbd8ae3804beae5c3c403c2",
+  "proposal_sha256": "17fb29d4f8b35fb5cd02e429eb0c3ade7ace9d18cc20cbfde62cf9785b057dcb",
+  "changes": [
+    {
+      "field": "쉽게",
+      "before": "「이걸 해야지」 대신 시간과 장소를 적으세요. 예: 「화요일 오전 8시에 책상에 앉으면 서론부터 쓴다」. 94개 검증을 종합하면 이렇게 적은 쪽의 목표 달성률이 뚜렷하게 높습니다. 문장 하나만 바꾸면 돈도 힘도 안 듭니다.",
+      "after": "하고 싶은 일의 시간과 장소를 「~하면 ~한다」로 적으세요. 목표 달성에 도움이 될 수 있습니다. 효과 크기와 적용 대상은 분명하지 않습니다.",
+      "reason": "원문·초록 직접 접근에 실패했으므로 확인되지 않은 효과 크기·모집단·적용 범위의 단정을 독자 본문에서 제한합니다. 쉽게는 짧은 실천 권고로 정리합니다.",
+      "primary_quotations": []
+    },
+    {
+      "field": "이득",
+      "before": "94개 독립 검증을 종합한 결과입니다. 「~하면 ~한다」로 계획을 미리 적은 쪽의 목표 달성률이 더 높았습니다. 심리학에서는 이를 실행 의도라고 부릅니다. 효과 크기는 d = 0.65로 중간에서 큰 편입니다. 효과는 다음 세 상황에서 나타납니다. 일을 시작할 때, 방해를 견딜 때, 안 될 일을 그만둘 때입니다.",
+      "after": "「~하면 ~한다」로 미리 세운 계획을 실행 의도라고 부릅니다. 인용 문헌은 실행 의도와 목표 달성을 다룹니다. 얼마나 효과가 있는지, 누구에게 통하는지는 분명하지 않습니다. 목표 달성률이 몇 퍼센트 높아지는지도 단정할 수 없습니다.",
+      "reason": "원문·초록 직접 접근에 실패했으므로 확인되지 않은 효과 크기·모집단·적용 범위의 단정을 독자 본문에서 제한합니다. 쉽게는 짧은 실천 권고로 정리합니다.",
+      "primary_quotations": []
+    },
+    {
+      "field": "비고",
+      "before": "이 방법은 정말 하고 싶은 일에만 통합니다. 목표 자체를 원하지 않는다면 문장을 몇 줄 써도 소용없습니다. 연구는 주로 학생의 건강 습관을 다뤘습니다. 일터에서도 똑같이 통한다고 보기는 어렵습니다.",
+      "after": "정말 하고 싶은 일에 활용하세요. 목표 자체를 원하지 않는다면 문장만으로 해결되리라 기대하지 마세요. 일터에서도 똑같이 통한다고 보기는 어렵습니다.",
+      "reason": "원문·초록 직접 접근에 실패했으므로 확인되지 않은 효과 크기·모집단·적용 범위의 단정을 독자 본문에서 제한합니다. 쉽게는 짧은 실천 권고로 정리합니다.",
+      "primary_quotations": []
+    }
+  ],
+  "verification": {
+    "date_utc": "2026-10-18T15:50:29.547334+00:00",
+    "method": "urllib HTTPS GET; returned raw responses saved; Crossref metadata parsed and read. Primary full text/abstract not obtained.",
+    "level_actually_read": "Crossref bibliographic metadata only; failed access pages are not evidence.",
+    "bibliographic_quote": "Implementation Intentions and Goal Achievement: A Meta‐analysis of Effects and Processes",
+    "primary_quotations": [],
+    "http_checks": [
+      {
+        "url": "https://www.sciencedirect.com/science/article/pii/S0065260106380021",
+        "utc": "2026-10-18T15:49:43.371925+00:00",
+        "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+      },
+      {
+        "url": "https://prospectivepsych.org/sites/default/files/pictures/Gollwitzer_Sheeran_2006_Implementation_intentions.pdf",
+        "final_url": "https://prospectivepsych.org/sites/default/files/pictures/Gollwitzer_Sheeran_2006_Implementation_intentions.pdf",
+        "utc": "2026-10-18T15:49:43.372517+00:00",
+        "status": 404,
+        "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch04-entry01/raw-1.bin",
+        "sha256": "13c0a992e8833c28f92183bcb1ca529ebca1c2455118f9524d5345d85c694c19"
+      },
+      {
+        "url": "https://nyuscholars.nyu.edu/en/publications/implementation-intentions-and-goal-achievement-a-meta-analysis-of-e",
+        "final_url": "https://nyuscholars.nyu.edu/en/publications/implementation-intentions-and-goal-achievement-a-meta-analysis-of-e",
+        "utc": "2026-10-18T15:49:43.373034+00:00",
+        "status": 503,
+        "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch04-entry01/raw-2.bin",
+        "sha256": "9fa8e7306cc22eab58d640027c7fd9c8cbf7a10ff79efa9747d4b9bdd14d4e93"
+      },
+      {
+        "url": "https://api.crossref.org/works/10.1016/S0065-2601(06)38002-1",
+        "final_url": "https://api.crossref.org/works/10.1016/S0065-2601(06)38002-1",
+        "utc": "2026-10-18T15:49:52.883208+00:00",
+        "status": 200,
+        "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch04-entry01/raw-3.bin",
+        "sha256": "07946387b37e7b6949b220bcb359e48fc2767b434d159f01deae58627a9c533a"
+      },
+      {
+        "url": "https://kops.uni-konstanz.de/entities/publication/1c0f91da-968c-4ee2-8dce-59c160b2a9e2",
+        "final_url": "https://kops.uni-konstanz.de/entities/publication/1c0f91da-968c-4ee2-8dce-59c160b2a9e2",
+        "utc": "2026-10-18T15:49:52.883959+00:00",
+        "status": 404,
+        "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch04-entry01/raw-4.bin",
+        "sha256": "22d834ab26eac793eb90ed6a63cd9790d5c3579bf92d21c8468ec201895b8a19"
+      },
+      {
+        "url": "https://www.researchgate.net/publication/37367696_Implementation_Intentions_and_Goal_Achievement_A_Meta-analysis_of_Effects_and_Processes",
+        "final_url": "https://www.researchgate.net/publication/37367696_Implementation_Intentions_and_Goal_Achievement_A_Meta-analysis_of_Effects_and_Processes",
+        "utc": "2026-10-18T15:49:52.884512+00:00",
+        "status": 403,
+        "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch04-entry01/raw-5.bin",
+        "sha256": "2938e9f1284180959e33ab1718d0793a72ff6e4cdb8108c34dcd14e69446de5c"
+      }
+    ]
+  },
+  "intentional_numerical_changes": [
+    "쉽게의 94개 삭제",
+    "이득의 94개 및 d = 0.65 삭제: 1차 원문 직접 확인 전 확정 수치를 보류하며 d를 달성률 퍼센트로 환산하지 않음"
+  ],
+  "intentional_scope_changes": [
+    "학생 건강 습관 중심이라는 미검증 모집단 문구 삭제",
+    "효과가 세 상황에서 나타난다는 미확인 단정 삭제",
+    "원하는 목표에만 통한다는 배타적 효과 단정을 실천 권고와 기대 제한으로 수정"
+  ],
+  "doi_changes": {
+    "added": [],
+    "removed": [],
+    "reason": "원 DOI 서지 일치; 출처 그대로 보존"
+  },
+  "preserved": [
+    "제목 및 incoming anchors 몇 시에/어디서/무엇을",
+    "원 비용 태그",
+    "비용의 인용·수치",
+    "근거등급 A",
+    "출처 DOI",
+    "일터 일반화 유보"
+  ],
+  "unresolved_limitations": [
+    "94개, d=.65, 적용 대상, 세 상황 및 목표 의욕 조절조건의 실제 1차 내용은 미검증",
+    "근거등급은 지시에 따라 유지했으며 신규 사실 검증 완료를 뜻하지 않음",
+    "이전 editorial-proposal.json은 불변으로 남겼으며 이번 제안으로 별도 검토 필요"
+  ],
+  "sentence_measurements": [
+    {
+      "field": "쉽게",
+      "sentence": "하고 싶은 일의 시간과 장소를 「~하면 ~한다」로 적으세요.",
+      "chars": 33
+    },
+    {
+      "field": "쉽게",
+      "sentence": "목표 달성에 도움이 될 수 있습니다.",
+      "chars": 20
+    },
+    {
+      "field": "쉽게",
+      "sentence": "효과 크기와 적용 대상은 분명하지 않습니다.",
+      "chars": 24
+    },
+    {
+      "field": "이득",
+      "sentence": "「~하면 ~한다」로 미리 세운 계획을 실행 의도라고 부릅니다.",
+      "chars": 34
+    },
+    {
+      "field": "이득",
+      "sentence": "인용 문헌은 실행 의도와 목표 달성을 다룹니다.",
+      "chars": 26
+    },
+    {
+      "field": "이득",
+      "sentence": "얼마나 효과가 있는지, 누구에게 통하는지는 분명하지 않습니다.",
+      "chars": 34
+    },
+    {
+      "field": "이득",
+      "sentence": "목표 달성률이 몇 퍼센트 높아지는지도 단정할 수 없습니다.",
+      "chars": 32
+    },
+    {
+      "field": "비고",
+      "sentence": "정말 하고 싶은 일에 활용하세요.",
+      "chars": 18
+    },
+    {
+      "field": "비고",
+      "sentence": "목표 자체를 원하지 않는다면 문장만으로 해결되리라 기대하지 마세요.",
+      "chars": 37
+    },
+    {
+      "field": "비고",
+      "sentence": "일터에서도 똑같이 통한다고 보기는 어렵습니다.",
+      "chars": 25
+    }
+  ],
+  "easy_chars": 79,
+  "independent_review_required": true
+}

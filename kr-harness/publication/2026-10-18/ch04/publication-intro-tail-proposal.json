@@ -1,0 +1,436 @@
+{
+  "status": "unadopted_pending_independent_exact_hash_review",
+  "chapter": 4,
+  "author_scope": "intro_and_tail_only",
+  "self_approved": false,
+  "created_at_utc": "2026-10-18T16:06:26.067220+00:00",
+  "original": {
+    "source.md": {
+      "path": "source.md",
+      "sha256": "75862eb5fd6b44340bc3e939add11e1e9a7cd74b57ce639827d99ec7a6ceaa37"
+    },
+    "intro.md": {
+      "path": "intro.md",
+      "sha256": "d3ddb37aecf958f29301fb0630eee7816b0041461494891829607777f7f4cfb9"
+    },
+    "tail.md": {
+      "path": "tail.md",
+      "sha256": "031d8a19a4e01395750da3a96135e359aa93cca92ca81f901808332b27721bd5"
+    },
+    "manifest.json": {
+      "path": "manifest.json",
+      "sha256": "32f9149e53542eda12aef158df067e3b5956a826e0677f36eb0d6dff32bfd392"
+    },
+    "candidate.md": {
+      "path": "candidate.md",
+      "sha256": "1c5e14de8c6be8fc90ad3b3120cd4eb3daf7f3f5875b15c65d9cd5905c9527a1"
+    }
+  },
+  "operations": [
+    {
+      "region": "intro",
+      "before": "하루, 일주일, 1년에 몇 시간을 되찾는지 계산합니다. 일을 제때 끝내는 비율이 얼마나 오르는지도 살펴봅니다. 기준은 시간. 시간을 수명이나 돈으로 환산하지 않습니다. 돈이 관련된 경우에는 계산식만 제시합니다. 근거는 주로 연구 한 편이나 생활시간조사 같은 총량 통계입니다. 그래서 근거등급은 B와 C가 대부분입니다.",
+      "after": "하루, 일주일, 1년에 얼마나 시간을 줄일 수 있을지 살펴봅니다. 일을 제때 끝내는 데 도움이 되는 방법도 다룹니다. 기준은 시간. 시간을 수명이나 돈으로 환산하지 않습니다. 돈이 관련된 경우에는 계산식만 제시합니다. 근거에는 여러 연구를 합친 분석과 개별 연구가 섞여 있습니다. 생활시간조사 같은 총량 통계도 활용합니다. 근거등급은 B와 C가 대부분입니다.",
+      "reason": "실측 시간 회수량·완료비율 상승을 절 전체의 공통 결과처럼 예고하지 않습니다. 여러 연구를 합친 분석도 있어 주로 한 편이라는 총괄을 좁힙니다. 시간 단위·비환산·금전 계산식·등급 설명은 보존합니다.",
+      "evidence_entries": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "status": "proposed_unadopted",
+      "before_sha256": "4f237696791bb787ac44db1ec102cd9a7bc158790897163ef4899e6513697bb6",
+      "after_sha256": "84a02163d4c686e2975e3b68282485db2d87684f8ebf48820adf4e1e326fefc1"
+    },
+    {
+      "region": "tail",
+      "before": "- 가사노동·이동의 행위자(참여자) 평균시간: 통계청 보도자료에 전국 수치가 없다. KOSIS 생활시간조사 통계표에서 확인해 제14·18항 이득 칸을 보강할 것.",
+      "after": "- 제14항·제18항: 가사노동·이동의 참여자 평균시간은 미확인입니다. 전국 수치를 KOSIS 생활시간조사 통계표에서 확인해야 합니다. 본문의 전체 평균과는 구분해야 합니다.",
+      "reason": "공식 보도자료에서 전체 평균을 확인한 것과 참여자 평균의 미확인을 구분합니다. 보도자료 어디에도 전국 수치가 없다는 전면 부재 단정은 하지 않습니다. KOSIS 확인 작업은 남깁니다.",
+      "evidence_entries": [
+        14,
+        18
+      ],
+      "status": "proposed_unadopted",
+      "before_sha256": "0fa1f4f14c753307e8bc085894d0f60b753334a2aa8b6ccf4e0c7e955979e323",
+      "after_sha256": "2b0dc9262cfde4367843c197bfe2153963fc1d7c3eb38b77c7b59d04f4fd5fc5"
+    },
+    {
+      "region": "tail",
+      "before": "- 제13항: Rozental(2015) 자조 프로그램의 한국어판·국내 무작위시험 존재 여부 확인. 확인되면 비고의 「한국어판은 찾지 못했습니다」 문장을 고칠 것.",
+      "after": "- 제13항: Rozental(2015) 프로그램의 한국어판은 미확인입니다. 국내 무작위시험이 있는지도 확인이 필요합니다. 한국어판 제공 여부와 이용 비용을 확인한 뒤 본문을 보강해야 합니다.",
+      "reason": "최신 r2는 특정 인터넷 프로그램의 시험 결과를 확인했지만 한국어판·비용·국내 시험은 확인하지 않았습니다. 과거 비고 문장의 정확인용은 최신 비고와 달라 삭제하고 미해결 과제는 보존합니다.",
+      "evidence_entries": [
+        13
+      ],
+      "status": "proposed_unadopted",
+      "before_sha256": "bc4ca721105e509adc31231f0c437ea6a956798b2f2c2919c9b0470b346a413f",
+      "after_sha256": "9966562f188eb33223b2fb7a425dce7b59cfd0e87da022902f2206facceae860"
+    },
+    {
+      "region": "tail",
+      "before": "- 제15항: 원문의 CNNIC 주당 인터넷 시간·숏폼 이용자 수는 원본 검증기록에서도 미확인 상태였고, 한국 대응 통계도 없어 이식하지 않았다. 한국의 개별 「인터넷 총 이용시간」 통계를 1차 출처에서 찾으면 보강할지 검토할 것.",
+      "after": "- 제15항: 원문의 CNNIC 주당 인터넷 시간은 미확인입니다. 숏폼 이용자 수도 원본 검증기록에서 확인되지 않았습니다. 한국 대응 통계도 없어 이식하지 않았습니다. 한국의 「인터넷 총 이용시간」은 1차 출처 확인이 필요합니다. 확인되면 본문을 보강할지 검토해야 합니다.",
+      "reason": "이미 확인한 여가 미디어 총량을 인터넷 총 이용시간 검증으로 확대하지 않습니다. CNNIC 및 한국 대응 인터넷 통계 미확인 과제는 모두 남기고 긴 문장만 나눕니다.",
+      "evidence_entries": [
+        15
+      ],
+      "status": "proposed_unadopted",
+      "before_sha256": "9414c8bad1dbb76dca20efc5f774c6b2f7dcbbf4fa8e645f72d68c9230d1cb11",
+      "after_sha256": "2af9175c7ddc397df53428d59947c45d20b23bb3db38d0ef60151ee384837729"
+    }
+  ],
+  "virtual_after": {
+    "intro_sha256": "c3a4c8b0ffa7dcb22fd68fa80a5ca98ac8efdc9263adebc3946a4b6f4460764f",
+    "tail_sha256": "3ba7f29ec8d49a9d7d4dd7444780708f56fef5d96f8608ba8c4dd978d066418f",
+    "source_with_only_these_spans_sha256": "d51a9537cdf9ac5b87efa9ef7f76fbc3dce07f35ed2a088c5614b60e6148d132",
+    "strict_candidate_with_only_these_spans_sha256": "daa8562ee62527702d442c79d5509cbca53fbea5390899fa0b321d72a6945f43",
+    "note": "仮想SHAは番号項目を変更しない入力上の値。全full提案統合後の章SHAではない。"
+  },
+  "evidence_bindings": [
+    {
+      "entry": 1,
+      "proposal": {
+        "path": "_workspace/2026-10-18-001-e4c0/publication-entry-proposal-r2.md",
+        "sha256": "484faaaafa069446da1a3b0ff043aa1e55b608de73a6852ca4bd64d97694de15"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-001-e4c0/publication-entry-changes-r2.json",
+        "sha256": "1f5e7bb8f5e5972687141226888baa3b11b7b9f908d297c5451afaa8f2de21df"
+      },
+      "title": "### 1. 「하기로 했다」를 「몇 시에, 어디서, 무엇을 할지」로 적으세요"
+    },
+    {
+      "entry": 2,
+      "proposal": {
+        "path": "_workspace/2026-10-18-002-716c/publication-entry-proposal.md",
+        "sha256": "3a67292c52b115edff9bb33a6293d3306a20f96463f90545927efb3a8a8187ef"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-002-716c/publication-entry-changes.json",
+        "sha256": "5e94ff65dd3e6f44b594b9b55258f769322622fbffb82e9ea171b3533b9f9c56"
+      },
+      "title": "### 2. 시작하기 전에 그만두는 조건을 적어 두세요"
+    },
+    {
+      "entry": 3,
+      "proposal": {
+        "path": "_workspace/2026-10-18-003-e342/publication-entry-proposal.md",
+        "sha256": "fbb0b68bb02e3d17be55084d21cd398c74183c14b6ed0698d761141824c20c7c"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-003-e342/publication-entry-changes.json",
+        "sha256": "8d62e1bcf5d950f8dc4afed95adaac385fb91b49062a086ebfe664b9e4ea4743"
+      },
+      "title": "### 3. 계속할지 말지는 앞으로 들어갈 몫과 돌아올 몫으로만 정하세요"
+    },
+    {
+      "entry": 4,
+      "proposal": {
+        "path": "_workspace/2026-10-18-004-3813/publication-entry-proposal-r2.md",
+        "sha256": "efcc1d432972492458bbcdcef5bb9f866c768f478943fb3d18b709ff10803aee"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-004-3813/publication-entry-changes-r2.json",
+        "sha256": "0640a84b13c2b5ab697e1d0d83e2a826d39793bda9c85106316fbc002dd73720"
+      },
+      "title": "### 4. 기한을 잡을 땐 지난번 비슷한 일의 실제 소요시간을 보세요"
+    },
+    {
+      "entry": 5,
+      "proposal": {
+        "path": "_workspace/2026-10-18-005-91a6/publication-entry-proposal.md",
+        "sha256": "487d33899d47eb7a1e85bc6331edb091c206b40a3fc24f7456ab69cd857aea4d"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-005-91a6/publication-entry-changes.json",
+        "sha256": "ccc4b64623e9b01ab580ce4aa23e9b273cf58d17816a964ad43e1e851d202427"
+      },
+      "title": "### 5. 회의 전에 안건을 돌리세요. 안건 없는 회의는 열지 마세요"
+    },
+    {
+      "entry": 6,
+      "proposal": {
+        "path": "_workspace/2026-10-18-006-f386/publication-entry-proposal.md",
+        "sha256": "ec77928fed66be904053159f0d411e9f8872c849f12dea188e5e4d7091c35c99"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-006-f386/publication-entry-changes.json",
+        "sha256": "65166d1940a5a37e3fbfc85b17b0dd31b1f8299d6f15aefddbdea5b3ee5f3607"
+      },
+      "title": "### 6. 회의 수를 줄이고, 글로 끝나는 일은 회의하지 마세요"
+    },
+    {
+      "entry": 7,
+      "proposal": {
+        "path": "_workspace/2026-10-18-007-7441/publication-entry-proposal-r2.md",
+        "sha256": "add6647eeeeddbc0e95f39cae0a5e340ec1deda970112d2a811b8ae0b52e2705"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-007-7441/changes-r2.json",
+        "sha256": "23c48d6bae0cf24f5a879ae6a1f1431119c4cba8ef57577078501bf75b81af6e"
+      },
+      "title": "### 7. 큰 일은 잘게 쪼개서 시간을 잡고 시작하세요"
+    },
+    {
+      "entry": 8,
+      "proposal": {
+        "path": "_workspace/2026-10-18-008-b4b7/publication-entry-proposal.md",
+        "sha256": "1edb515a0fa818e358eabe8a6574259f9f63231b1a3dc068f4ab5e09a6271124"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-008-b4b7/publication-entry-changes.json",
+        "sha256": "3c4f47abbebe96b1e8f10a5eb291ba717eb92a342cb0649e1fa88083af59844f"
+      },
+      "title": "### 8. 남이 정한 마감이 없는 일에는 스스로 날짜를 정하세요"
+    },
+    {
+      "entry": 9,
+      "proposal": {
+        "path": "_workspace/2026-10-18-009-a03e/publication-entry-proposal.md",
+        "sha256": "3cd58b1a116f6a5185f0a51893d243503daf75c531aded66950638d93594d16e"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-009-a03e/publication-entry-changes.json",
+        "sha256": "f28bc7f72b9c3284ff39cc50b08fdd31c5afc1d11e27d342b27ddf4c1fdc2e3c"
+      },
+      "title": "### 9. 미루기를 바라볼 때 일의 불편함도 살펴보세요"
+    },
+    {
+      "entry": 10,
+      "proposal": {
+        "path": "_workspace/2026-10-18-010-c59f/publication-entry-proposal.md",
+        "sha256": "307a7dd9f8dc81d839d3472b01726df794b977233d6d253d15259d45db1a692b"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-010-c59f/publication-entry-changes.json",
+        "sha256": "959bd1b99a7fdf57bd8161d57865161b49812c0fc8a080088a8c26a4bbb0cffd"
+      },
+      "title": "### 10. 쓸 물건은 가까이 두고, 만지고 싶은 것은 멀리 두세요"
+    },
+    {
+      "entry": 11,
+      "proposal": {
+        "path": "_workspace/2026-10-18-011-59a6/publication-entry-proposal.md",
+        "sha256": "f76f47e68a4a8a709c1c6ea7814e47727b411fd1e534aeca586e81353ce75dd4"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-011-59a6/publication-entry-changes.json",
+        "sha256": "5e6701a95cfb60620e76a843d954fadf6dbab2e30c091cc0a19850b586aa8b68"
+      },
+      "title": "### 11. 해내고 싶으면 돈을 걸어 보세요. 단, 걸 수 있는지부터 물으세요"
+    },
+    {
+      "entry": 12,
+      "proposal": {
+        "path": "_workspace/2026-10-18-012-75ad/publication-entry-proposal.md",
+        "sha256": "ac332adc3253def953c7e8c890fb41bdbee85cc24b1b8032fed348f10a3132e5"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-012-75ad/publication-entry-changes.json",
+        "sha256": "846179d3bcafa6b19040c66182f14f10c027ee6b50f528293ef59b8587c58b5c"
+      },
+      "title": "### 12. 새 습관은 개월로 세세요. 「21일」은 버리세요"
+    },
+    {
+      "entry": 13,
+      "proposal": {
+        "path": "_workspace/2026-10-18-013-463e/publication-entry-proposal-r2.md",
+        "sha256": "3344ff680979ee395d9e6ddd4ceb2085abe2372736db09a40294c4673905f1f7"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-013-463e/publication-entry-changes-r2.json",
+        "sha256": "8533a8000306a2a5b05ddadb8c510b1084ca33f84c1e8987d33681d202cc541c"
+      },
+      "title": "### 13. 미루기로 괴롭다면 검증된 인터넷 인지행동 자조 프로그램을 고려하세요"
+    },
+    {
+      "entry": 14,
+      "proposal": {
+        "path": "_workspace/2026-10-18-014-9d6a/publication-entry-proposal.md",
+        "sha256": "31d7d505d7730211fb790801037da4e88c80ba6118fda3019a2c9dab3271bb50"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-014-9d6a/publication-entry-changes.json",
+        "sha256": "2ce0bd3cfe6d77e4428b07c600a77af5406e1b54e7b13d8a753f6c7581afebae"
+      },
+      "title": "### 14. 제 시급을 기준으로 어느 집안일을 맡길지 정하세요"
+    },
+    {
+      "entry": 15,
+      "proposal": {
+        "path": "_workspace/2026-10-18-015-4e59/publication-entry-proposal.md",
+        "sha256": "72bc40fc37dce0e6857ce9ea2e5316bb638a6ba6d8ced87393b6d10328416ad8"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-015-4e59/publication-entry-changes.json",
+        "sha256": "bb8270d3b2d5c0d1b01a63de46a64a98aae511bd089dca41921886ea66fc67c6"
+      },
+      "title": "### 15. 짧은 영상과 목적 없는 스크롤에 상한을 두세요"
+    },
+    {
+      "entry": 16,
+      "proposal": {
+        "path": "_workspace/2026-10-18-016-7d2c/publication-entry-proposal.md",
+        "sha256": "cca2228857102d542ffc4b3e0233096ce9cf8491e4977cfc2b3b978d37566709"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-016-7d2c/publication-entry-changes.json",
+        "sha256": "b3aa3d937062707fc0f3e1e33fdfbf1cd14042f9daf4a7bee947fa6eb5f0e477"
+      },
+      "title": "### 16. TV와 실시간 뉴스는 끊고, 필요한 정보는 정해 놓고 모아 보세요"
+    },
+    {
+      "entry": 17,
+      "proposal": {
+        "path": "_workspace/2026-10-18-017-3699/publication-entry-proposal.md",
+        "sha256": "f5e171982f74fe8af510bda2dea41e01ac9dd7461448fa0436cb22dde1bdaf21"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-017-3699/publication-entry-changes.json",
+        "sha256": "0a2befad6ffb21fce7a35772e02757d875036f2e7a4d6b4f9c9c20b6aac60fd3"
+      },
+      "title": "### 17. 자주 쓰는 프로그램의 단축키와 자동화에 한 번 투자하세요"
+    },
+    {
+      "entry": 18,
+      "proposal": {
+        "path": "_workspace/2026-10-18-018-63e0/publication-entry-proposal.md",
+        "sha256": "6e0b44104dc88eb0f464eca6a3d88e73dcf7f9423b8ffce03ce7851b9af31f5d"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-018-63e0/publication-entry-changes.json",
+        "sha256": "547af04296fe93d2eddbe0d14aa8a8d735d1ba13b348997bd01cf9f8f7ff5618"
+      },
+      "title": "### 18. 집을 고를 때는 출퇴근 시간부터 보세요. 편도 통근을 줄이세요"
+    }
+  ],
+  "review_bindings": [
+    {
+      "path": "author-review-batch-1.json",
+      "sha256": "576f116b71031604713615c3e8cbd0d105bdc3b463a0aa55f1a514aa772107f3"
+    },
+    {
+      "path": "author-review-batch-1.md",
+      "sha256": "2f41543beb32790760259c7381a00c31e252f6a22b568bc4bc3cf52c9583fb15"
+    },
+    {
+      "path": "content-audit.md",
+      "sha256": "4fae0eccc10f504977485c38655a271d828607f474892e95ad3e896318a06b5e"
+    },
+    {
+      "path": "editorial-decisions.json",
+      "sha256": "cc9024602c83bad8d5735957c1f387f8c6ea49cd998c3cd35076f9754d1758bb"
+    }
+  ],
+  "sentence_lengths": [
+    {
+      "text": "하루, 일주일, 1년에 얼마나 시간을 줄일 수 있을지 살펴봅니다.",
+      "len": 36
+    },
+    {
+      "text": "일을 제때 끝내는 데 도움이 되는 방법도 다룹니다.",
+      "len": 28
+    },
+    {
+      "text": "기준은 시간.",
+      "len": 7
+    },
+    {
+      "text": "시간을 수명이나 돈으로 환산하지 않습니다.",
+      "len": 23
+    },
+    {
+      "text": "돈이 관련된 경우에는 계산식만 제시합니다.",
+      "len": 23
+    },
+    {
+      "text": "근거에는 여러 연구를 합친 분석과 개별 연구가 섞여 있습니다.",
+      "len": 34
+    },
+    {
+      "text": "생활시간조사 같은 총량 통계도 활용합니다.",
+      "len": 23
+    },
+    {
+      "text": "근거등급은 B와 C가 대부분입니다.",
+      "len": 19
+    },
+    {
+      "text": "제14항·제18항: 가사노동·이동의 참여자 평균시간은 미확인입니다.",
+      "len": 37
+    },
+    {
+      "text": "전국 수치를 KOSIS 생활시간조사 통계표에서 확인해야 합니다.",
+      "len": 35
+    },
+    {
+      "text": "본문의 전체 평균과는 구분해야 합니다.",
+      "len": 21
+    },
+    {
+      "text": "제13항: Rozental(2015) 프로그램의 한국어판은 미확인입니다.",
+      "len": 40
+    },
+    {
+      "text": "국내 무작위시험이 있는지도 확인이 필요합니다.",
+      "len": 25
+    },
+    {
+      "text": "한국어판 제공 여부와 이용 비용을 확인한 뒤 본문을 보강해야 합니다.",
+      "len": 38
+    },
+    {
+      "text": "제15항: 원문의 CNNIC 주당 인터넷 시간은 미확인입니다.",
+      "len": 34
+    },
+    {
+      "text": "숏폼 이용자 수도 원본 검증기록에서 확인되지 않았습니다.",
+      "len": 31
+    },
+    {
+      "text": "한국 대응 통계도 없어 이식하지 않았습니다.",
+      "len": 24
+    },
+    {
+      "text": "한국의 「인터넷 총 이용시간」은 1차 출처 확인이 필요합니다.",
+      "len": 34
+    },
+    {
+      "text": "확인되면 본문을 보강할지 검토해야 합니다.",
+      "len": 23
+    }
+  ],
+  "holds": [
+    "全18項の最新full提案はここで採用・承認しない。独立レビュー後の統合本文で同じintro/tail基準SHAとexact spanを再検査する。",
+    "第17項は現在実ファイルの旧題・元出典を確認し、このintroに題名言及はない。後続変更時はbindingを更新せず新提案を作る。",
+    "第10項は現在full提案とchangesを読み、承認済み쉽게を含むSHAにbindingした。",
+    "KOSIS参加者平均、同じCBTの韓国語版・費用・国内試験、インターネット総時間は未解決。",
+    "番号項目の未検証研究細部は各full提案の読者向け制限に残る。tailの3項目を全検証課題の網羅一覧としない。",
+    "状態bannerは原文通り保存するが、新候補のKR-FIT通過を表すものではない。最終現在SHAの独立KR-FIT必須。"
+  ],
+  "preservation": {
+    "status_banner": "verbatim",
+    "links": "verbatim",
+    "chapter_number_and_heading": "verbatim",
+    "topic_groups": "none existed; none added",
+    "entry_bytes": "unchanged",
+    "doi_set": "unchanged",
+    "todo_items": 3,
+    "prescriptive_amount_or_frequency": "none in original intro/tail; none added"
+  },
+  "verification_level": "Editorial reconciliation against all bound proposals/change evidence and audits. No new source verification or new facts."
+}

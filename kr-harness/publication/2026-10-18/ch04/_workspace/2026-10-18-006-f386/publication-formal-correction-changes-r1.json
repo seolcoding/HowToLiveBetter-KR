@@ -1,0 +1,46 @@
+{
+  "status": "unadopted_pending_fresh_formal_exact_hash_review",
+  "entry": 6,
+  "base_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-006-f386/publication-current-entry-formal-r1.md",
+  "base_raw_entry_sha256": "ec77928fed66be904053159f0d411e9f8872c849f12dea188e5e4d7091c35c99",
+  "whole_public_raw_sha256": "778cd1e94739315897db896368700675ef65b4e45c93034531b737ea4dd152e6",
+  "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-006-f386/publication-formal-correction-r1.md",
+  "proposal_sha256": "badb6094dcd9a00a2778d05f96d1d6f70c9adaaf30c504a491ca1bd0016fde52",
+  "changes": [
+    {
+      "field": "비고",
+      "before": "- 비고: 논쟁 있음. Rogelberg 2006에서는 회의량과 행복이 한 방향으로만 움직이지 않았습니다. 동료와 맞물려 일할 때의 구체적 방향은 초록만으로 단정하기 어렵습니다. 「글로 비동기 소통하기」와 회의를 직접 비교한 연구도 없습니다. 두 결과를 연결한 판단은 지은이의 추론입니다. 회의를 줄여 피로와 체감 업무량이 낮아진다는 직접 검증은 아닙니다.",
+      "after": "- 비고: 논쟁 있음. Rogelberg 2006에서는 회의량과 행복이 한 방향으로만 움직이지 않았습니다. 동료와 맞물려 일할 때의 구체적 방향은 초록만으로 단정하기 어렵습니다. 인용한 연구에서 「글로 비동기 소통하기」와의 직접 비교는 확인하지 못했습니다. 두 결과를 연결한 판단은 지은이의 추론입니다. 회의를 줄여 피로와 체감 업무량이 낮아진다는 직접 검증은 아닙니다.",
+      "removed_sentence": "「글로 비동기 소통하기」와 회의를 직접 비교한 연구도 없습니다.",
+      "added_sentence": "인용한 연구에서 「글로 비동기 소통하기」와의 직접 비교는 확인하지 못했습니다.",
+      "reason": "문헌 전체에 직접 비교 연구가 없다는 미입증 주장을 인용 연구에서 확인하지 못한 범위로 제한합니다.",
+      "added_sentence_literal_length": 43
+    }
+  ],
+  "primary_scope_proof": {
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1037%2F0021-9010.91.1.83%22&format=json&resultType=core&pageSize=10",
+    "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/bf9de0081998f62feadb.json",
+    "sha256": "d6d104feff9b27c333175edaed09fe982257b22f3fcd17638c161b31d7b3d402",
+    "actual_read_at_utc": "2026-10-18T16:27:27.264508+00:00",
+    "read_scope": "보존된 원논문 초록 전체 직접 재열람. 새 HTTP 확인 아님.",
+    "exact_quote": "Using an interruptions framework, this article proposes and tests a set of hypotheses concerning the relationship of meeting time demands with job attitudes and well-being (JAWB). Two Internet surveys were administered to employees who worked 35 hr or more per week. Study 1 examined prescheduled meetings attended in a typical week (N=676), whereas Study 2 investigated prescheduled meetings attended during the current day (N=304). As proposed, the relationship between meeting time demands and JAWB was moderated by task interdependence, meeting experience quality, and accomplishment striving. However, results were somewhat dependent on the time frame of a study and the operational definition used for meeting time demands. Furthermore, perceived meeting effectiveness was found to have a strong, direct relationship with JAWB.",
+    "interpretation": "초록은 회의 시간과 태도·웰빙의 관계를 조사합니다. 비동기 소통 직접 비교나 문헌 전체 부재를 입증하지 않습니다."
+  },
+  "formal_review": {
+    "path": "/workspace/HowToLiveBetter-KR/kr-harness/chapters/04/kr-fit-review.md",
+    "sha256": "2e822faf44cc48a92f2e7581a9b2270adc209956a93c603edc913b61d015fb98",
+    "entry_section": " 회의 수를 줄이고, 글로 끝나는 일은 회의하지 마세요\n\n- 판정: 수정 권장(warn W3).\n- 문제: Luong 일기 연구 기간·피로 결과는 미확인입니다. “직접 비교한 연구도 없습니다”는 문헌 전체의 부재로 읽힐 수 있습니다.\n- 수정안: 미확인 결과는 계속 유보하고, 부재 표현은 “인용한 연구에서 직접 비교한 결과는 확인하지 못했습니다”처럼 확인 범위로 좁히세요.\n- 근거: <https://doi.org/10.1037/0021-9010.91.1.83>의 보존 원초록에서 주35시간 이상, 676·304명, 과제 상호의존성·회의 경험·성취 추구에 따른 차이를 직접 확인했습니다. 구체적 방향과 인과효과는 초록으로 확정하지 않았습니다. <https://doi.org/10.1037/1089-2699.9.1.58>의 일기 연구 본문은 이번 미확인입니다. 비고 맨 앞의 논쟁 표시를 유지했습니다.\n\n"
+  },
+  "limitations": [
+    "Luong 원문·초록 미확인 유지; 관련 본문 변경 없음.",
+    "직접 비교 연구가 문헌 전체에 없다고 주장하지 않습니다."
+  ],
+  "invariants": {
+    "single_utf8_replacement": true,
+    "all_other_bytes_unchanged": true,
+    "easy_unchanged": true,
+    "title_tags_grade_sources_anchors_unchanged": true,
+    "doi_changes": "없음",
+    "public_and_approved_files_untouched": true
+  }
+}

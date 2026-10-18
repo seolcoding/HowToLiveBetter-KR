@@ -1,0 +1,991 @@
+{
+  "status": "approved_for_integration",
+  "reviewed_at": "2026-10-18T16:13:28.066754+00:00",
+  "manifest": {
+    "path": "author-final-manifest-r2.json",
+    "sha256": "330d243ec88ee62d168c3685576061819a0eae909a911756665df7b6c5a486d5"
+  },
+  "original_manifest": {
+    "path": "author-final-manifest.json",
+    "sha256": "bb4ac95af1797f5aaa6c371806dc17832f74cebe5380be32aead306dfea399d4"
+  },
+  "source_sha256": "75862eb5fd6b44340bc3e939add11e1e9a7cd74b57ce639827d99ec7a6ceaa37",
+  "candidate_sha256": "1c5e14de8c6be8fc90ad3b3120cd4eb3daf7f3f5875b15c65d9cd5905c9527a1",
+  "public_matches_saved_source": true,
+  "initial_audit_sha256": "4fae0eccc10f504977485c38655a271d828607f474892e95ad3e896318a06b5e",
+  "initial_decisions_sha256": "cc9024602c83bad8d5735957c1f387f8c6ea49cd998c3cd35076f9754d1758bb",
+  "entries": [
+    {
+      "entry": 1,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-001-e4c0/publication-entry-proposal-r2.md",
+      "proposal_sha256": "484faaaafa069446da1a3b0ff043aa1e55b608de73a6852ca4bd64d97694de15",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-001-e4c0/publication-entry-changes-r2.json",
+      "changes_sha256": "1f5e7bb8f5e5972687141226888baa3b11b7b9f908d297c5451afaa8f2de21df",
+      "already_approved_in_batch1": false,
+      "supersedes_editorial_fields": "all entry fields; prior proposals and reviews retained, do not double-apply",
+      "variant": "r2",
+      "decision": "approve",
+      "checks": {
+        "six_fields_exact_order": true,
+        "tags_exact": true,
+        "grade_exact": true,
+        "sources_dois_exact": true,
+        "title_chars": 35,
+        "easy_chars": 92,
+        "easy_sentences": 3,
+        "max_literal_prose_sentence_chars": 39
+      },
+      "initial_finding_closure": "원논문PDF93/98쪽과저장소초록 직접확인으로94/d=.65/학생79검증. 학생건강일반화 제거,다양한표본과d≠퍼센트증가명시. 초기쉽게revise대체.",
+      "supersession": "이번호의옛쉽게/title/TODO/semantic작업전체를최신full단일작업으로대체. 기존파일/정확SHA불변,중복적용금지."
+    },
+    {
+      "entry": 2,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-002-716c/publication-entry-proposal.md",
+      "proposal_sha256": "3a67292c52b115edff9bb33a6293d3306a20f96463f90545927efb3a8a8187ef",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-002-716c/publication-entry-changes.json",
+      "changes_sha256": "5e94ff65dd3e6f44b594b9b55258f769322622fbffb82e9ea171b3533b9f9c56",
+      "already_approved_in_batch1": false,
+      "supersedes_editorial_fields": "all entry fields; prior proposals and reviews retained, do not double-apply",
+      "variant": "initial full",
+      "decision": "approve",
+      "checks": {
+        "six_fields_exact_order": true,
+        "tags_exact": true,
+        "grade_exact": true,
+        "sources_dois_exact": true,
+        "title_chars": 23,
+        "easy_chars": 83,
+        "easy_sentences": 3,
+        "max_literal_prose_sentence_chars": 36
+      },
+      "initial_finding_closure": "원논문PDF99쪽중단3연구와104쪽한계확인. 절약시간보장제거,기한/지표는저자권고로구분.",
+      "supersession": "이번호의옛쉽게/title/TODO/semantic작업전체를최신full단일작업으로대체. 기존파일/정확SHA불변,중복적용금지."
+    },
+    {
+      "entry": 3,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-003-e342/publication-entry-proposal.md",
+      "proposal_sha256": "fbb0b68bb02e3d17be55084d21cd398c74183c14b6ed0698d761141824c20c7c",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-003-e342/publication-entry-changes.json",
+      "changes_sha256": "8d62e1bcf5d950f8dc4afed95adaac385fb91b49062a086ebfe664b9e4ea4743",
+      "already_approved_in_batch1": false,
+      "supersedes_editorial_fields": "all entry fields; prior proposals and reviews retained, do not double-apply",
+      "variant": "initial full",
+      "decision": "approve",
+      "checks": {
+        "six_fields_exact_order": true,
+        "tags_exact": true,
+        "grade_exact": true,
+        "sources_dois_exact": true,
+        "title_chars": 33,
+        "easy_chars": 87,
+        "easy_sentences": 3,
+        "max_literal_prose_sentence_chars": 41
+      },
+      "initial_finding_closure": "Roth초록98효과크기/연령확인,시간약화는이용결정한정. Arkes미확인실험숫자제거;잘못된숫자로확정한것아님.",
+      "supersession": "이번호의옛쉽게/title/TODO/semantic작업전체를최신full단일작업으로대체. 기존파일/정확SHA불변,중복적용금지."
+    },
+    {
+      "entry": 4,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-004-3813/publication-entry-proposal-r2.md",
+      "proposal_sha256": "efcc1d432972492458bbcdcef5bb9f866c768f478943fb3d18b709ff10803aee",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-004-3813/publication-entry-changes-r2.json",
+      "changes_sha256": "0640a84b13c2b5ab697e1d0d83e2a826d39793bda9c85106316fbc002dd73720",
+      "already_approved_in_batch1": false,
+      "supersedes_editorial_fields": "all entry fields; prior proposals and reviews retained, do not double-apply",
+      "variant": "r2",
+      "decision": "approve",
+      "checks": {
+        "six_fields_exact_order": true,
+        "tags_exact": true,
+        "grade_exact": true,
+        "sources_dois_exact": true,
+        "title_chars": 32,
+        "easy_chars": 79,
+        "easy_sentences": 3,
+        "max_literal_prose_sentence_chars": 43
+      },
+      "initial_finding_closure": "Buehler미접근으로세부비율/기간/표본/효과확정제거. 논문작성과경험회상구분. Halkjelsvik공학경영대심리학범위수정. 대학생과제는권고대상선택이며검증표본단정으로세지않음.",
+      "supersession": "이번호의옛쉽게/title/TODO/semantic작업전체를최신full단일작업으로대체. 기존파일/정확SHA불변,중복적용금지."
+    },
+    {
+      "entry": 5,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-005-91a6/publication-entry-proposal.md",
+      "proposal_sha256": "487d33899d47eb7a1e85bc6331edb091c206b40a3fc24f7456ab69cd857aea4d",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-005-91a6/publication-entry-changes.json",
+      "changes_sha256": "ccc4b64623e9b01ab580ce4aa23e9b273cf58d17816a964ad43e1e851d202427",
+      "already_approved_in_batch1": false,
+      "supersedes_editorial_fields": "all entry fields; prior proposals and reviews retained, do not double-apply",
+      "variant": "initial full",
+      "decision": "approve",
+      "checks": {
+        "six_fields_exact_order": true,
+        "tags_exact": true,
+        "grade_exact": true,
+        "sources_dois_exact": true,
+        "title_chars": 32,
+        "easy_chars": 78,
+        "easy_sentences": 3,
+        "max_literal_prose_sentence_chars": 38
+      },
+      "initial_finding_closure": "실제Springer초록958/292/안건사용관찰연관확인. 사전배포인과와기립회의34%/팀수/과제미확인단정제거. 배포는실용제안.",
+      "supersession": "이번호의옛쉽게/title/TODO/semantic작업전체를최신full단일작업으로대체. 기존파일/정확SHA불변,중복적용금지."
+    },
+    {
+      "entry": 6,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-006-f386/publication-entry-proposal.md",
+      "proposal_sha256": "ec77928fed66be904053159f0d411e9f8872c849f12dea188e5e4d7091c35c99",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-006-f386/publication-entry-changes.json",
+      "changes_sha256": "65166d1940a5a37e3fbfc85b17b0dd31b1f8299d6f15aefddbdea5b3ee5f3607",
+      "already_approved_in_batch1": false,
+      "supersedes_editorial_fields": "all entry fields; prior proposals and reviews retained, do not double-apply",
+      "variant": "initial full",
+      "decision": "approve",
+      "checks": {
+        "six_fields_exact_order": true,
+        "tags_exact": true,
+        "grade_exact": true,
+        "sources_dois_exact": true,
+        "title_chars": 29,
+        "easy_chars": 73,
+        "easy_sentences": 3,
+        "max_literal_prose_sentence_chars": 46
+      },
+      "initial_finding_closure": "Rogelberg원초록35시간이상676/304확인. 조절관계만남기고미확인Luong기간/피로/업무량유보. 비동기인과미입증보존.",
+      "supersession": "이번호의옛쉽게/title/TODO/semantic작업전체를최신full단일작업으로대체. 기존파일/정확SHA불변,중복적용금지."
+    },
+    {
+      "entry": 7,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-007-7441/publication-entry-proposal-r2.md",
+      "proposal_sha256": "add6647eeeeddbc0e95f39cae0a5e340ec1deda970112d2a811b8ae0b52e2705",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-007-7441/changes-r2.json",
+      "changes_sha256": "23c48d6bae0cf24f5a879ae6a1f1431119c4cba8ef57577078501bf75b81af6e",
+      "already_approved_in_batch1": false,
+      "supersedes_editorial_fields": "all entry fields; prior proposals and reviews retained, do not double-apply",
+      "variant": "r2",
+      "decision": "approve",
+      "checks": {
+        "six_fields_exact_order": true,
+        "tags_exact": true,
+        "grade_exact": true,
+        "sources_dois_exact": true,
+        "title_chars": 24,
+        "easy_chars": 86,
+        "easy_sentences": 3,
+        "max_literal_prose_sentence_chars": 38
+      },
+      "initial_finding_closure": "Kruger미확인방향단정제거. Steel상관과세분화실천권고분리.5~15분저자예상과백분율미확인유지. r2 delta뿐아니라원strict부터최신전체본문을대조.",
+      "supersession": "이번호의옛쉽게/title/TODO/semantic작업전체를최신full단일작업으로대체. 기존파일/정확SHA불변,중복적용금지."
+    },
+    {
+      "entry": 8,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-008-b4b7/publication-entry-proposal.md",
+      "proposal_sha256": "1edb515a0fa818e358eabe8a6574259f9f63231b1a3dc068f4ab5e09a6271124",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-008-b4b7/publication-entry-changes.json",
+      "changes_sha256": "3c4f47abbebe96b1e8f10a5eb291ba717eb92a342cb0649e1fa88083af59844f",
+      "already_approved_in_batch1": false,
+      "supersedes_editorial_fields": "all entry fields; prior proposals and reviews retained, do not double-apply",
+      "variant": "initial full",
+      "decision": "approve",
+      "checks": {
+        "six_fields_exact_order": true,
+        "tags_exact": true,
+        "grade_exact": true,
+        "sources_dois_exact": true,
+        "title_chars": 29,
+        "easy_chars": 66,
+        "easy_sentences": 2,
+        "max_literal_prose_sentence_chars": 42
+      },
+      "initial_finding_closure": "미확인80.6/38.7/r=.82제거. 외부마감비교와자가마감효과구분. 실천제안/자가마감/타임박스미측정한계보존.",
+      "supersession": "이번호의옛쉽게/title/TODO/semantic작업전체를최신full단일작업으로대체. 기존파일/정확SHA불변,중복적용금지."
+    },
+    {
+      "entry": 9,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-009-a03e/publication-entry-proposal.md",
+      "proposal_sha256": "3cd58b1a116f6a5185f0a51893d243503daf75c531aded66950638d93594d16e",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-009-a03e/publication-entry-changes.json",
+      "changes_sha256": "f28bc7f72b9c3284ff39cc50b08fdd31c5afc1d11e27d342b27ddf4c1fdc2e3c",
+      "already_approved_in_batch1": true,
+      "supersedes_editorial_fields": "all entry fields; prior proposals and reviews retained, do not double-apply",
+      "variant": "initial full",
+      "decision": "approve",
+      "checks": {
+        "six_fields_exact_order": true,
+        "tags_exact": true,
+        "grade_exact": true,
+        "sources_dois_exact": true,
+        "title_chars": 24,
+        "easy_chars": 97,
+        "easy_sentences": 3,
+        "max_literal_prose_sentence_chars": 41
+      },
+      "initial_finding_closure": "성격전체약한관계오류수정,성실성강한관련과상관/개입구분보존. 기승인exactSHA동일.",
+      "supersession": "이번호의옛쉽게/title/TODO/semantic작업전체를최신full단일작업으로대체. 기존파일/정확SHA불변,중복적용금지."
+    },
+    {
+      "entry": 10,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-010-c59f/publication-entry-proposal.md",
+      "proposal_sha256": "307a7dd9f8dc81d839d3472b01726df794b977233d6d253d15259d45db1a692b",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-010-c59f/publication-entry-changes.json",
+      "changes_sha256": "959bd1b99a7fdf57bd8161d57865161b49812c0fc8a080088a8c26a4bbb0cffd",
+      "already_approved_in_batch1": false,
+      "supersedes_editorial_fields": "all entry fields; prior proposals and reviews retained, do not double-apply",
+      "variant": "initial full",
+      "decision": "approve",
+      "checks": {
+        "six_fields_exact_order": true,
+        "tags_exact": true,
+        "grade_exact": true,
+        "sources_dois_exact": true,
+        "title_chars": 30,
+        "easy_chars": 72,
+        "easy_sentences": 3,
+        "max_literal_prose_sentence_chars": 37
+      },
+      "initial_finding_closure": "Cochrane원XML초록수치/분모/낮은확실성확인. 선택량을사람비율로바꾸지않음. 회귀의대상음식단독가용조건명시. 비식품외삽한계유지.",
+      "supersession": "이번호의옛쉽게/title/TODO/semantic작업전체를최신full단일작업으로대체. 기존파일/정확SHA불변,중복적용금지."
+    },
+    {
+      "entry": 11,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-011-59a6/publication-entry-proposal.md",
+      "proposal_sha256": "f76f47e68a4a8a709c1c6ea7814e47727b411fd1e534aeca586e81353ce75dd4",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-011-59a6/publication-entry-changes.json",
+      "changes_sha256": "5e6701a95cfb60620e76a843d954fadf6dbab2e30c091cc0a19850b586aa8b68",
+      "already_approved_in_batch1": true,
+      "supersedes_editorial_fields": "all entry fields; prior proposals and reviews retained, do not double-apply",
+      "variant": "initial full",
+      "decision": "approve",
+      "checks": {
+        "six_fields_exact_order": true,
+        "tags_exact": true,
+        "grade_exact": true,
+        "sources_dois_exact": true,
+        "title_chars": 36,
+        "easy_chars": 101,
+        "easy_sentences": 4,
+        "max_literal_prose_sentence_chars": 39
+      },
+      "initial_finding_closure": "배정금연률/수락률/IV잠재집단13.7%/13.2pp구분. 적은보증금미확인,금연한정/손실/CI보존. 기승인exactSHA동일.",
+      "supersession": "이번호의옛쉽게/title/TODO/semantic작업전체를최신full단일작업으로대체. 기존파일/정확SHA불변,중복적용금지."
+    },
+    {
+      "entry": 12,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-012-75ad/publication-entry-proposal.md",
+      "proposal_sha256": "ac332adc3253def953c7e8c890fb41bdbee85cc24b1b8032fed348f10a3132e5",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-012-75ad/publication-entry-changes.json",
+      "changes_sha256": "846179d3bcafa6b19040c66182f14f10c027ee6b50f528293ef59b8587c58b5c",
+      "already_approved_in_batch1": true,
+      "supersedes_editorial_fields": "all entry fields; prior proposals and reviews retained, do not double-apply",
+      "variant": "initial full",
+      "decision": "approve",
+      "checks": {
+        "six_fields_exact_order": true,
+        "tags_exact": true,
+        "grade_exact": true,
+        "sources_dois_exact": true,
+        "title_chars": 26,
+        "easy_chars": 118,
+        "easy_sentences": 3,
+        "max_literal_prose_sentence_chars": 44
+      },
+      "initial_finding_closure": "96/82/62/39,12주,95%자동성,18~254일모형추정확인. 실측254일오독제거. 처음부터재시작뜻회복. 기승인exactSHA동일,옛쉽게revise대체.",
+      "supersession": "이번호의옛쉽게/title/TODO/semantic작업전체를최신full단일작업으로대체. 기존파일/정확SHA불변,중복적용금지."
+    },
+    {
+      "entry": 13,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-013-463e/publication-entry-proposal-r2.md",
+      "proposal_sha256": "3344ff680979ee395d9e6ddd4ceb2085abe2372736db09a40294c4673905f1f7",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-013-463e/publication-entry-changes-r2.json",
+      "changes_sha256": "8533a8000306a2a5b05ddadb8c510b1084ca33f84c1e8987d33681d202cc541c",
+      "already_approved_in_batch1": false,
+      "supersedes_editorial_fields": "all entry fields; prior proposals and reviews retained, do not double-apply",
+      "variant": "r2",
+      "decision": "approve",
+      "checks": {
+        "six_fields_exact_order": true,
+        "tags_exact": true,
+        "grade_exact": true,
+        "sources_dois_exact": true,
+        "title_chars": 37,
+        "easy_chars": 82,
+        "easy_sentences": 3,
+        "max_literal_prose_sentence_chars": 43
+      },
+      "initial_finding_closure": "r2에서초록밖10주/스웨덴/언어/구성요소확정제거·본문미확인표시. 특정인터넷CBT/비유의≠동등성/치료불필요아님/109보존. 첫배치revise해결.",
+      "supersession": "이번호의옛쉽게/title/TODO/semantic작업전체를최신full단일작업으로대체. 기존파일/정확SHA불변,중복적용금지."
+    },
+    {
+      "entry": 14,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-014-9d6a/publication-entry-proposal.md",
+      "proposal_sha256": "31d7d505d7730211fb790801037da4e88c80ba6118fda3019a2c9dab3271bb50",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-014-9d6a/publication-entry-changes.json",
+      "changes_sha256": "2ce0bd3cfe6d77e4428b07c600a77af5406e1b54e7b13d8a753f6c7581afebae",
+      "already_approved_in_batch1": false,
+      "supersedes_editorial_fields": "all entry fields; prior proposals and reviews retained, do not double-apply",
+      "variant": "initial full",
+      "decision": "approve",
+      "checks": {
+        "six_fields_exact_order": true,
+        "tags_exact": true,
+        "grade_exact": true,
+        "sources_dois_exact": true,
+        "title_chars": 27,
+        "easy_chars": 108,
+        "easy_sentences": 3,
+        "max_literal_prose_sentence_chars": 43
+      },
+      "initial_finding_closure": "한국10세이상가사1:52/2019 1:56확인.6271관찰연관과별도현장실험구분. 외주단가<시급은의무아닌저자판단/쉬기위한비용고려.",
+      "supersession": "이번호의옛쉽게/title/TODO/semantic작업전체를최신full단일작업으로대체. 기존파일/정확SHA불변,중복적용금지."
+    },
+    {
+      "entry": 15,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-015-4e59/publication-entry-proposal.md",
+      "proposal_sha256": "72bc40fc37dce0e6857ce9ea2e5316bb638a6ba6d8ced87393b6d10328416ad8",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-015-4e59/publication-entry-changes.json",
+      "changes_sha256": "bb8270d3b2d5c0d1b01a63de46a64a98aae511bd089dca41921886ea66fc67c6",
+      "already_approved_in_batch1": false,
+      "supersedes_editorial_fields": "all entry fields; prior proposals and reviews retained, do not double-apply",
+      "variant": "initial full",
+      "decision": "approve",
+      "checks": {
+        "six_fields_exact_order": true,
+        "tags_exact": true,
+        "grade_exact": true,
+        "sources_dois_exact": true,
+        "title_chars": 25,
+        "easy_chars": 90,
+        "easy_sentences": 3,
+        "max_literal_prose_sentence_chars": 45
+      },
+      "initial_finding_closure": "여가미디어/10세이상/일요일10분행위자분모/2:43·2:26·93.4·3:41·45.4·21.2확인. 매일1시간×365일조건부산술/실제개입효과아님.",
+      "supersession": "이번호의옛쉽게/title/TODO/semantic작업전체를최신full단일작업으로대체. 기존파일/정확SHA불변,중복적용금지."
+    },
+    {
+      "entry": 16,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-016-7d2c/publication-entry-proposal.md",
+      "proposal_sha256": "cca2228857102d542ffc4b3e0233096ce9cf8491e4977cfc2b3b978d37566709",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-016-7d2c/publication-entry-changes.json",
+      "changes_sha256": "b3aa3d937062707fc0f3e1e33fdfbf1cd14042f9daf4a7bee947fa6eb5f0e477",
+      "already_approved_in_batch1": false,
+      "supersedes_editorial_fields": "all entry fields; prior proposals and reviews retained, do not double-apply",
+      "variant": "initial full",
+      "decision": "approve",
+      "checks": {
+        "six_fields_exact_order": true,
+        "tags_exact": true,
+        "grade_exact": true,
+        "sources_dois_exact": true,
+        "title_chars": 36,
+        "easy_chars": 91,
+        "easy_sentences": 3,
+        "max_literal_prose_sentence_chars": 38
+      },
+      "initial_finding_closure": "BLS2025미국15세이상2.6/5.2와한국10세이상여가실시간방송전체/행위자평균구분확인. 끊기/모아보기저자경험/효과미입증명시.",
+      "supersession": "이번호의옛쉽게/title/TODO/semantic작업전체를최신full단일작업으로대체. 기존파일/정확SHA불변,중복적용금지."
+    },
+    {
+      "entry": 17,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-017-3699/publication-entry-proposal-r2.md",
+      "proposal_sha256": "d1c0141c9b8ae280b43885d6e7130e4180fbb5ab1936db34b3e7cc30792c4997",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-017-3699/publication-entry-changes-r2.json",
+      "changes_sha256": "9845312d69863d3438e53366e1d55b71bb6a1a22199e9abae9590934bb771021",
+      "already_approved_in_batch1": false,
+      "supersedes_editorial_fields": "all entry fields; prior proposals and reviews retained, do not double-apply",
+      "variant": "r2",
+      "decision": "approve",
+      "checks": {
+        "six_fields_exact_order": true,
+        "tags_exact": true,
+        "grade_exact": true,
+        "sources_dois_exact": true,
+        "title_chars": 31,
+        "easy_chars": 76,
+        "easy_sentences": 3,
+        "max_literal_prose_sentence_chars": 35
+      },
+      "initial_finding_closure": "r2로미검증251/6/Word/최속제거. 학습시간저자예상/경험차이,마우스속도가능성,하루열번저자기준명시. 원논문서지를결과검증으로승격하지않음.",
+      "supersession": "이번호의옛쉽게/title/TODO/semantic작업전체를최신full단일작업으로대체. 기존파일/정확SHA불변,중복적용금지."
+    },
+    {
+      "entry": 18,
+      "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-018-63e0/publication-entry-proposal.md",
+      "proposal_sha256": "6e0b44104dc88eb0f464eca6a3d88e73dcf7f9423b8ffce03ce7851b9af31f5d",
+      "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-018-63e0/publication-entry-changes.json",
+      "changes_sha256": "547af04296fe93d2eddbe0d14aa8a8d735d1ba13b348997bd01cf9f8f7ff5618",
+      "already_approved_in_batch1": true,
+      "supersedes_editorial_fields": "all entry fields; prior proposals and reviews retained, do not double-apply",
+      "variant": "initial full",
+      "decision": "approve",
+      "checks": {
+        "six_fields_exact_order": true,
+        "tags_exact": true,
+        "grade_exact": true,
+        "sources_dois_exact": true,
+        "title_chars": 34,
+        "easy_chars": 90,
+        "easy_sentences": 3,
+        "max_literal_prose_sentence_chars": 40
+      },
+      "initial_finding_closure": "한국전체이동10세이상1:32/취업자15세이상1:46,Stutzer패널연관,Chatterjee원PDF확인. 주5일왕복산술/보상해석/삶만족비일관/이사인과미입증보존. 기승인exactSHA동일.",
+      "supersession": "이번호의옛쉽게/title/TODO/semantic작업전체를최신full단일작업으로대체. 기존파일/정확SHA불변,중복적용금지."
+    }
+  ],
+  "counts": {
+    "approve": 18,
+    "revise": 0,
+    "reject": 0
+  },
+  "newly_approved": 14,
+  "prior_batch1_reconfirmed": 4,
+  "intro_tail_review": {
+    "path": "intro-tail-review.json",
+    "sha256": "30c561c8e899c99688a463ee8c1bf400994099cdc35219addee3563c8c9beb8a"
+  },
+  "new_actual_evidence_read": [
+    {
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch04-entry02-primary/primary.pdf",
+      "sha256": "ab804917b63cd8b07a0caf1c0a89d27a18e14ad8ab49826a20de15b82ad904c9",
+      "url": "https://kops.uni-konstanz.de/server/api/core/bitstreams/d4f710b4-a505-49ef-a831-5b8d7675100b/content",
+      "original_fetched_at": "2026-10-18T15:54:37.847177+00:00",
+      "http_status": 200,
+      "actual_read_at": "2026-10-18T16:13:28.066754+00:00",
+      "method": "기존원시캐시직접열람;이번신규HTTP아님",
+      "read_scope": "스캔PDF93/98/99쪽이미지직접열람,104쪽OCR. 전문/수록원연구전체미열람"
+    },
+    {
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch04-entry02-primary/raw-2",
+      "sha256": "1f3a84eed25d9147faca8e271688ca26306309e9fb8bf1741a3c2b79ef964e43",
+      "url": "https://kops.uni-konstanz.de/server/api/discover/search/objects?query=Implementation%20intentions%20and%20goal%20achievement&size=5",
+      "original_fetched_at": "2026-10-18T15:54:19.100142+00:00",
+      "http_status": 200,
+      "actual_read_at": "2026-10-18T16:13:28.066754+00:00",
+      "method": "기존원시캐시직접열람;이번신규HTTP아님",
+      "read_scope": "저장소원초록/metadata"
+    },
+    {
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/4cec846a0874c64c9d91.json",
+      "sha256": "9481e791b8668b42529c3cfe13182960a639755dea6f684d1334dc7e0e4cab31",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1037%2Fa0025996%22&format=json&resultType=core&pageSize=10",
+      "original_fetched_at": "2026-10-18T20:50:26.904673+09:00",
+      "http_status": 200,
+      "actual_read_at": "2026-10-18T16:13:28.066754+00:00",
+      "method": "기존원시캐시직접열람;이번신규HTTP아님",
+      "read_scope": "Halkjelsvik원초록"
+    },
+    {
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/bf9de0081998f62feadb.json",
+      "sha256": "d6d104feff9b27c333175edaed09fe982257b22f3fcd17638c161b31d7b3d402",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1037%2F0021-9010.91.1.83%22&format=json&resultType=core&pageSize=10",
+      "original_fetched_at": "2026-10-18T20:50:31.662266+09:00",
+      "http_status": 200,
+      "actual_read_at": "2026-10-18T16:13:28.066754+00:00",
+      "method": "기존원시캐시직접열람;이번신규HTTP아님",
+      "read_scope": "Rogelberg원초록"
+    },
+    {
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/08f732b5bcb3c9861f9f.json",
+      "sha256": "83897b2a0b8015bba63d650b1d7bbd58d6e682c30f51b1e3f6e45a0e9ad429ef",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1073%2Fpnas.1706541114%22&format=json&resultType=core&pageSize=10",
+      "original_fetched_at": "2026-10-18T20:50:32.484504+09:00",
+      "http_status": 200,
+      "actual_read_at": "2026-10-18T16:13:28.066754+00:00",
+      "method": "기존원시캐시직접열람;이번신규HTTP아님",
+      "read_scope": "Whillans원초록"
+    },
+    {
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/pmc-fulltext/PMC6953356.xml",
+      "sha256": "117c145aa3bb1f238010b969da5c9427e70d90366eb08739c5fdffa5aaf6e746",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6953356/fullTextXML",
+      "original_fetched_at": "2026-10-18T12:15:43.493260+00:00",
+      "http_status": 200,
+      "actual_read_at": "2026-10-18T16:13:28.066754+00:00",
+      "method": "기존원시캐시직접열람;이번신규HTTP아님",
+      "read_scope": "CochraneXML구조화초록;결과표전체미열람"
+    },
+    {
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch04-audit/roth-2015.html",
+      "sha256": "b6467cd07d215c22493c6455d986036d1f94c247163dfade1c8eeda84f830cea",
+      "url": "https://link.springer.com/article/10.1007/s40685-014-0014-8",
+      "original_fetched_at": "2026-10-18T12:37:27.736234+00:00",
+      "http_status": 200,
+      "actual_read_at": "2026-10-18T16:13:28.066754+00:00",
+      "method": "기존원시캐시직접열람;이번신규HTTP아님",
+      "read_scope": "Roth출판사HTML초록"
+    },
+    {
+      "raw_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-005-91a6/source-proof/0.raw",
+      "sha256": "6b0d64c5072eb11a8c0cdc20a17e8c933d3def0eccdcd695e9a2a5d77b9ade32",
+      "url": "https://link.springer.com/article/10.1007/s10869-009-9092-6",
+      "original_fetched_at": "2026-10-18T15:52:25.564543+00:00",
+      "http_status": 200,
+      "actual_read_at": "2026-10-18T16:13:28.066754+00:00",
+      "method": "저자보존HTML직접읽음;이번신규HTTP아님",
+      "read_scope": "Leach원초록958/292/agenda use/perceived effectiveness"
+    }
+  ],
+  "prior_actual_evidence": {
+    "path": "author-review-batch-1.json",
+    "sha256": "576f116b71031604713615c3e8cbd0d105bdc3b463a0aa55f1a514aa772107f3",
+    "scope": "이전에직접읽은심리원초록/한국PDF/BLS/109/ChatterjeePDF. 이번latest문장도직접대조."
+  },
+  "bibliography_or_search_or_failed_artifacts_read": [
+    {
+      "entry": 4,
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/crossref/3fcf7218a7f1a5b55ca6.json",
+      "sha256": "bde3124879ff84eea973425c6ac58aa544fb85f99755b5bc3f4c32c50946342c",
+      "read_scope": "서지/검색/접근실패응답직접열람. 연구결과확인으로세지않음."
+    },
+    {
+      "entry": 4,
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-004-3813/buehler-r2-primary-response.raw",
+      "sha256": "cc4f09c05fc3c851b14e5bc8c76dca3e49bcca17f12ba2e7ba42b308b568cbb5",
+      "read_scope": "서지/검색/접근실패응답직접열람. 연구결과확인으로세지않음."
+    },
+    {
+      "entry": 5,
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-005-91a6/source-proof/0.raw",
+      "sha256": "6b0d64c5072eb11a8c0cdc20a17e8c933d3def0eccdcd695e9a2a5d77b9ade32",
+      "read_scope": "서지/검색/접근실패응답직접열람. 연구결과확인으로세지않음."
+    },
+    {
+      "entry": 5,
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-005-91a6/source-proof/1.raw",
+      "sha256": "aab726899579d6cd58401bc8316aca32a54edf49d551bbdc1c4d3acc6805f6ad",
+      "read_scope": "서지/검색/접근실패응답직접열람. 연구결과확인으로세지않음."
+    },
+    {
+      "entry": 5,
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-005-91a6/source-proof/2.raw",
+      "sha256": "2d78bbf51d29a67d85bf1c90414292efad407b3acd8773d018fce6bebcfb4905",
+      "read_scope": "서지/검색/접근실패응답직접열람. 연구결과확인으로세지않음."
+    },
+    {
+      "entry": 6,
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-006-f386/source-diary-0.raw",
+      "sha256": "6c610c03b93a1833e446d07a91f3041c9f0c96825191974f82ba8363fa53ed33",
+      "read_scope": "서지/검색/접근실패응답직접열람. 연구결과확인으로세지않음."
+    },
+    {
+      "entry": 6,
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-006-f386/source-diary-1.raw",
+      "sha256": "b6ceac84d0987a1dbeb19b5835086fa1c0a50c0c967a0996e33d1c28f486e1c2",
+      "read_scope": "서지/검색/접근실패응답직접열람. 연구결과확인으로세지않음."
+    },
+    {
+      "entry": 6,
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-006-f386/source-diary-2.raw",
+      "sha256": "eec836a767d8377dfb98e86c5baf59521b75049352978e55d501724cf1cd2c8f",
+      "read_scope": "서지/검색/접근실패응답직접열람. 연구결과확인으로세지않음."
+    },
+    {
+      "entry": 7,
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-007-7441/kruger-r2-attempt-1.raw",
+      "sha256": "fad369b0c7849f1f704e88f974b4e18263421d902d69d932f5c89e416eb81f9f",
+      "read_scope": "서지/검색/접근실패응답직접열람. 연구결과확인으로세지않음."
+    },
+    {
+      "entry": 7,
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-007-7441/kruger-r2-attempt-2.raw",
+      "sha256": "9bf7546d375418b7ec70c3fbb6b177ffd12b8921de31ecfdded706a0e5c92fdc",
+      "read_scope": "서지/검색/접근실패응답직접열람. 연구결과확인으로세지않음."
+    },
+    {
+      "entry": 7,
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-007-7441/kruger-r2-attempt-3.raw",
+      "sha256": "fad369b0c7849f1f704e88f974b4e18263421d902d69d932f5c89e416eb81f9f",
+      "read_scope": "서지/검색/접근실패응답직접열람. 연구결과확인으로세지않음."
+    },
+    {
+      "entry": 8,
+      "path": "/tmp/ch04e08-sources/raw-0.bin",
+      "sha256": "968a6fa1c65ffedac19b3c9df5e5e32b4ef1f1b2d3f2f0b963b1112583a9fff3",
+      "read_scope": "서지/검색/접근실패응답직접열람. 연구결과확인으로세지않음."
+    },
+    {
+      "entry": 8,
+      "path": "/tmp/ch04e08-sources/raw-1.bin",
+      "sha256": "bde3124879ff84eea973425c6ac58aa544fb85f99755b5bc3f4c32c50946342c",
+      "read_scope": "서지/검색/접근실패응답직접열람. 연구결과확인으로세지않음."
+    },
+    {
+      "entry": 8,
+      "path": "/tmp/ch04e08-sources/raw-2.bin",
+      "sha256": "6b11d0c5014413a5bfe9cabc09191179701196459123de64c1d843642acfb7ef",
+      "read_scope": "서지/검색/접근실패응답직접열람. 연구결과확인으로세지않음."
+    },
+    {
+      "entry": 8,
+      "path": "/tmp/ch04e08-sources/raw-3.bin",
+      "sha256": "0e077d1f5982b00cdffd374f1b0e1f528a996015981d47f562a4a44ab5b3969a",
+      "read_scope": "서지/검색/접근실패응답직접열람. 연구결과확인으로세지않음."
+    },
+    {
+      "entry": 17,
+      "path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/crossref/13d78a52f21a42818ebf.json",
+      "sha256": "3b88c4701733d94ea4fbd2e584e18b915b1dce86ab066d3e7a049d9ce076e712",
+      "read_scope": "서지/검색/접근실패응답직접열람. 연구결과확인으로세지않음."
+    },
+    {
+      "entry": 17,
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-017-3699/source-closure/raw-0.bin",
+      "sha256": "35ab5c045c34ed1d7b0155d0df0f7095ae62e6592c8ce933dc120e708e8e58fe",
+      "read_scope": "서지/검색/접근실패응답직접열람. 연구결과확인으로세지않음."
+    },
+    {
+      "entry": 17,
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-017-3699/source-closure/raw-1.bin",
+      "sha256": "d1ea059f20265d13f7bb114f76fbf0fdb3d98706b1f7ac20443414d2d2de7ebd",
+      "read_scope": "서지/검색/접근실패응답직접열람. 연구결과확인으로세지않음."
+    },
+    {
+      "entry": 17,
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-017-3699/source-closure/raw-2.bin",
+      "sha256": "d5a89e26beae0bc03ad18a0b0d1d3d75f87c32047879d25da11970cb5c4662a3",
+      "read_scope": "서지/검색/접근실패응답직접열람. 연구결과확인으로세지않음."
+    }
+  ],
+  "doi_changes": {
+    "actual_added": [],
+    "actual_dropped": [],
+    "annotations": [],
+    "reason": "모든출처필드/DOI집합동일하여add/drop주석불필요"
+  },
+  "ordered_entry_operations": [
+    {
+      "entry": 1,
+      "base": "baseline",
+      "status": "approved",
+      "before_sha256": "46384cb06ca226a03bd6e42b798803693c8e414c4cbd8ae3804beae5c3c403c2",
+      "replacement": {
+        "path": "_workspace/2026-10-18-001-e4c0/publication-entry-proposal-r2.md",
+        "sha256": "484faaaafa069446da1a3b0ff043aa1e55b608de73a6852ca4bd64d97694de15"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-001-e4c0/publication-entry-changes-r2.json",
+        "sha256": "1f5e7bb8f5e5972687141226888baa3b11b7b9f908d297c5451afaa8f2de21df"
+      }
+    },
+    {
+      "entry": 2,
+      "base": "baseline",
+      "status": "approved",
+      "before_sha256": "6da75c5b9876f5de4359f20ffe97a8cbdfefab818b9a01802910b3c501176ae4",
+      "replacement": {
+        "path": "_workspace/2026-10-18-002-716c/publication-entry-proposal.md",
+        "sha256": "3a67292c52b115edff9bb33a6293d3306a20f96463f90545927efb3a8a8187ef"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-002-716c/publication-entry-changes.json",
+        "sha256": "5e94ff65dd3e6f44b594b9b55258f769322622fbffb82e9ea171b3533b9f9c56"
+      }
+    },
+    {
+      "entry": 3,
+      "base": "baseline",
+      "status": "approved",
+      "before_sha256": "31aac7dfe16b1960dfae236ec073559139bf3e2a78f7734cc1c66945e61fab65",
+      "replacement": {
+        "path": "_workspace/2026-10-18-003-e342/publication-entry-proposal.md",
+        "sha256": "fbb0b68bb02e3d17be55084d21cd398c74183c14b6ed0698d761141824c20c7c"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-003-e342/publication-entry-changes.json",
+        "sha256": "8d62e1bcf5d950f8dc4afed95adaac385fb91b49062a086ebfe664b9e4ea4743"
+      }
+    },
+    {
+      "entry": 4,
+      "base": "baseline",
+      "status": "approved",
+      "before_sha256": "7355b55bddeccb9faa832e25b5ee6f27fcec69d0d830ec0d7accf2dd0b6d43db",
+      "replacement": {
+        "path": "_workspace/2026-10-18-004-3813/publication-entry-proposal-r2.md",
+        "sha256": "efcc1d432972492458bbcdcef5bb9f866c768f478943fb3d18b709ff10803aee"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-004-3813/publication-entry-changes-r2.json",
+        "sha256": "0640a84b13c2b5ab697e1d0d83e2a826d39793bda9c85106316fbc002dd73720"
+      }
+    },
+    {
+      "entry": 5,
+      "base": "baseline",
+      "status": "approved",
+      "before_sha256": "bee6e1e005ba8d7c2a0ac03a34ef47e0994f314a310ab1aebb62048525e4c184",
+      "replacement": {
+        "path": "_workspace/2026-10-18-005-91a6/publication-entry-proposal.md",
+        "sha256": "487d33899d47eb7a1e85bc6331edb091c206b40a3fc24f7456ab69cd857aea4d"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-005-91a6/publication-entry-changes.json",
+        "sha256": "ccc4b64623e9b01ab580ce4aa23e9b273cf58d17816a964ad43e1e851d202427"
+      }
+    },
+    {
+      "entry": 6,
+      "base": "baseline",
+      "status": "approved",
+      "before_sha256": "2b2abf44324f65a1e2f390d09273d3141828b32214dcff388eff52778e43fb9e",
+      "replacement": {
+        "path": "_workspace/2026-10-18-006-f386/publication-entry-proposal.md",
+        "sha256": "ec77928fed66be904053159f0d411e9f8872c849f12dea188e5e4d7091c35c99"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-006-f386/publication-entry-changes.json",
+        "sha256": "65166d1940a5a37e3fbfc85b17b0dd31b1f8299d6f15aefddbdea5b3ee5f3607"
+      }
+    },
+    {
+      "entry": 7,
+      "base": "baseline",
+      "status": "approved",
+      "before_sha256": "ad14a95affe3c622c1a0f117badda182c0ba27dc7376367082763a5bb5195d8d",
+      "replacement": {
+        "path": "_workspace/2026-10-18-007-7441/publication-entry-proposal-r2.md",
+        "sha256": "add6647eeeeddbc0e95f39cae0a5e340ec1deda970112d2a811b8ae0b52e2705"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-007-7441/changes-r2.json",
+        "sha256": "23c48d6bae0cf24f5a879ae6a1f1431119c4cba8ef57577078501bf75b81af6e"
+      }
+    },
+    {
+      "entry": 8,
+      "base": "baseline",
+      "status": "approved",
+      "before_sha256": "69c99aae85c00d4f545e26a4847d98f868e4532208b077d4723e355f4ed56a94",
+      "replacement": {
+        "path": "_workspace/2026-10-18-008-b4b7/publication-entry-proposal.md",
+        "sha256": "1edb515a0fa818e358eabe8a6574259f9f63231b1a3dc068f4ab5e09a6271124"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-008-b4b7/publication-entry-changes.json",
+        "sha256": "3c4f47abbebe96b1e8f10a5eb291ba717eb92a342cb0649e1fa88083af59844f"
+      }
+    },
+    {
+      "entry": 9,
+      "base": "baseline",
+      "status": "approved",
+      "before_sha256": "d11115e800cfacd1199bdeb943a3587a97c7aaed2902001f0ca396c94ea5c5c9",
+      "replacement": {
+        "path": "_workspace/2026-10-18-009-a03e/publication-entry-proposal.md",
+        "sha256": "3cd58b1a116f6a5185f0a51893d243503daf75c531aded66950638d93594d16e"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-009-a03e/publication-entry-changes.json",
+        "sha256": "f28bc7f72b9c3284ff39cc50b08fdd31c5afc1d11e27d342b27ddf4c1fdc2e3c"
+      }
+    },
+    {
+      "entry": 10,
+      "base": "baseline",
+      "status": "approved",
+      "before_sha256": "180ffaed99d30b2ac90c3708b67993c1d632d18b3961f829bf82ceb4e169ec7f",
+      "replacement": {
+        "path": "_workspace/2026-10-18-010-c59f/publication-entry-proposal.md",
+        "sha256": "307a7dd9f8dc81d839d3472b01726df794b977233d6d253d15259d45db1a692b"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-010-c59f/publication-entry-changes.json",
+        "sha256": "959bd1b99a7fdf57bd8161d57865161b49812c0fc8a080088a8c26a4bbb0cffd"
+      }
+    },
+    {
+      "entry": 11,
+      "base": "baseline",
+      "status": "approved",
+      "before_sha256": "22efb51c296b51a9d1ea7a73c94e44721ecaeed0d471cc22a9331dba1c7d3db5",
+      "replacement": {
+        "path": "_workspace/2026-10-18-011-59a6/publication-entry-proposal.md",
+        "sha256": "f76f47e68a4a8a709c1c6ea7814e47727b411fd1e534aeca586e81353ce75dd4"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-011-59a6/publication-entry-changes.json",
+        "sha256": "5e6701a95cfb60620e76a843d954fadf6dbab2e30c091cc0a19850b586aa8b68"
+      }
+    },
+    {
+      "entry": 12,
+      "base": "baseline",
+      "status": "approved",
+      "before_sha256": "312f76c59a51c066af80f153a9668e28442eb932e2d37a70a11a8a125abf4c10",
+      "replacement": {
+        "path": "_workspace/2026-10-18-012-75ad/publication-entry-proposal.md",
+        "sha256": "ac332adc3253def953c7e8c890fb41bdbee85cc24b1b8032fed348f10a3132e5"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-012-75ad/publication-entry-changes.json",
+        "sha256": "846179d3bcafa6b19040c66182f14f10c027ee6b50f528293ef59b8587c58b5c"
+      }
+    },
+    {
+      "entry": 13,
+      "base": "baseline",
+      "status": "approved",
+      "before_sha256": "71772b31f0e4fdcc0fc433816afafca336429837feee053987cfe555e0fdd775",
+      "replacement": {
+        "path": "_workspace/2026-10-18-013-463e/publication-entry-proposal-r2.md",
+        "sha256": "3344ff680979ee395d9e6ddd4ceb2085abe2372736db09a40294c4673905f1f7"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-013-463e/publication-entry-changes-r2.json",
+        "sha256": "8533a8000306a2a5b05ddadb8c510b1084ca33f84c1e8987d33681d202cc541c"
+      }
+    },
+    {
+      "entry": 14,
+      "base": "baseline",
+      "status": "approved",
+      "before_sha256": "71dbe0e0027b3576056d4d6c95af2f6b8353004c6befe28c7239a38730235ace",
+      "replacement": {
+        "path": "_workspace/2026-10-18-014-9d6a/publication-entry-proposal.md",
+        "sha256": "31d7d505d7730211fb790801037da4e88c80ba6118fda3019a2c9dab3271bb50"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-014-9d6a/publication-entry-changes.json",
+        "sha256": "2ce0bd3cfe6d77e4428b07c600a77af5406e1b54e7b13d8a753f6c7581afebae"
+      }
+    },
+    {
+      "entry": 15,
+      "base": "baseline",
+      "status": "approved",
+      "before_sha256": "0b83659d87ffda9f0d31cc743c0582a9d58fc542c15ee7d16eb937d46d265a6e",
+      "replacement": {
+        "path": "_workspace/2026-10-18-015-4e59/publication-entry-proposal.md",
+        "sha256": "72bc40fc37dce0e6857ce9ea2e5316bb638a6ba6d8ced87393b6d10328416ad8"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-015-4e59/publication-entry-changes.json",
+        "sha256": "bb8270d3b2d5c0d1b01a63de46a64a98aae511bd089dca41921886ea66fc67c6"
+      }
+    },
+    {
+      "entry": 16,
+      "base": "baseline",
+      "status": "approved",
+      "before_sha256": "2ac0e91e98d6f18f3cd254ec4524b424a142d26b4af17d535232c8113f55211b",
+      "replacement": {
+        "path": "_workspace/2026-10-18-016-7d2c/publication-entry-proposal.md",
+        "sha256": "cca2228857102d542ffc4b3e0233096ce9cf8491e4977cfc2b3b978d37566709"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-016-7d2c/publication-entry-changes.json",
+        "sha256": "b3aa3d937062707fc0f3e1e33fdfbf1cd14042f9daf4a7bee947fa6eb5f0e477"
+      }
+    },
+    {
+      "entry": 17,
+      "base": "baseline",
+      "status": "approved",
+      "before_sha256": "288e61f7bdb16b86153c7511141334e5eecb4d878e767a3edbb4559a1e2a5bc2",
+      "replacement": {
+        "path": "_workspace/2026-10-18-017-3699/publication-entry-proposal-r2.md",
+        "sha256": "d1c0141c9b8ae280b43885d6e7130e4180fbb5ab1936db34b3e7cc30792c4997"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-017-3699/publication-entry-changes-r2.json",
+        "sha256": "9845312d69863d3438e53366e1d55b71bb6a1a22199e9abae9590934bb771021"
+      }
+    },
+    {
+      "entry": 18,
+      "base": "baseline",
+      "status": "approved",
+      "before_sha256": "f5fd0541d3c4e54f85549221556396cdf4b966e69bcf916e78a2cc1c70fb1090",
+      "replacement": {
+        "path": "_workspace/2026-10-18-018-63e0/publication-entry-proposal.md",
+        "sha256": "6e0b44104dc88eb0f464eca6a3d88e73dcf7f9423b8ffce03ce7851b9af31f5d"
+      },
+      "changes": {
+        "path": "_workspace/2026-10-18-018-63e0/publication-entry-changes.json",
+        "sha256": "547af04296fe93d2eddbe0d14aa8a8d735d1ba13b348997bd01cf9f8f7ff5618"
+      }
+    }
+  ],
+  "regional_operations": [
+    {
+      "region": "intro",
+      "before": "하루, 일주일, 1년에 몇 시간을 되찾는지 계산합니다. 일을 제때 끝내는 비율이 얼마나 오르는지도 살펴봅니다. 기준은 시간. 시간을 수명이나 돈으로 환산하지 않습니다. 돈이 관련된 경우에는 계산식만 제시합니다. 근거는 주로 연구 한 편이나 생활시간조사 같은 총량 통계입니다. 그래서 근거등급은 B와 C가 대부분입니다.",
+      "after": "하루, 일주일, 1년에 얼마나 시간을 줄일 수 있을지 살펴봅니다. 일을 제때 끝내는 데 도움이 되는 방법도 다룹니다. 기준은 시간. 시간을 수명이나 돈으로 환산하지 않습니다. 돈이 관련된 경우에는 계산식만 제시합니다. 근거에는 여러 연구를 합친 분석과 개별 연구가 섞여 있습니다. 생활시간조사 같은 총량 통계도 활용합니다. 근거등급은 B와 C가 대부분입니다.",
+      "reason": "실측 시간 회수량·완료비율 상승을 절 전체의 공통 결과처럼 예고하지 않습니다. 여러 연구를 합친 분석도 있어 주로 한 편이라는 총괄을 좁힙니다. 시간 단위·비환산·금전 계산식·등급 설명은 보존합니다.",
+      "evidence_entries": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "status": "proposed_unadopted",
+      "before_sha256": "4f237696791bb787ac44db1ec102cd9a7bc158790897163ef4899e6513697bb6",
+      "after_sha256": "84a02163d4c686e2975e3b68282485db2d87684f8ebf48820adf4e1e326fefc1",
+      "decision": "approve",
+      "ordinal": 1
+    },
+    {
+      "region": "tail",
+      "before": "- 가사노동·이동의 행위자(참여자) 평균시간: 통계청 보도자료에 전국 수치가 없다. KOSIS 생활시간조사 통계표에서 확인해 제14·18항 이득 칸을 보강할 것.",
+      "after": "- 제14항·제18항: 가사노동·이동의 참여자 평균시간은 미확인입니다. 전국 수치를 KOSIS 생활시간조사 통계표에서 확인해야 합니다. 본문의 전체 평균과는 구분해야 합니다.",
+      "reason": "공식 보도자료에서 전체 평균을 확인한 것과 참여자 평균의 미확인을 구분합니다. 보도자료 어디에도 전국 수치가 없다는 전면 부재 단정은 하지 않습니다. KOSIS 확인 작업은 남깁니다.",
+      "evidence_entries": [
+        14,
+        18
+      ],
+      "status": "proposed_unadopted",
+      "before_sha256": "0fa1f4f14c753307e8bc085894d0f60b753334a2aa8b6ccf4e0c7e955979e323",
+      "after_sha256": "2b0dc9262cfde4367843c197bfe2153963fc1d7c3eb38b77c7b59d04f4fd5fc5",
+      "decision": "approve",
+      "ordinal": 2
+    },
+    {
+      "region": "tail",
+      "before": "- 제13항: Rozental(2015) 자조 프로그램의 한국어판·국내 무작위시험 존재 여부 확인. 확인되면 비고의 「한국어판은 찾지 못했습니다」 문장을 고칠 것.",
+      "after": "- 제13항: Rozental(2015) 프로그램의 한국어판은 미확인입니다. 국내 무작위시험이 있는지도 확인이 필요합니다. 한국어판 제공 여부와 이용 비용을 확인한 뒤 본문을 보강해야 합니다.",
+      "reason": "최신 r2는 특정 인터넷 프로그램의 시험 결과를 확인했지만 한국어판·비용·국내 시험은 확인하지 않았습니다. 과거 비고 문장의 정확인용은 최신 비고와 달라 삭제하고 미해결 과제는 보존합니다.",
+      "evidence_entries": [
+        13
+      ],
+      "status": "proposed_unadopted",
+      "before_sha256": "bc4ca721105e509adc31231f0c437ea6a956798b2f2c2919c9b0470b346a413f",
+      "after_sha256": "9966562f188eb33223b2fb7a425dce7b59cfd0e87da022902f2206facceae860",
+      "decision": "approve",
+      "ordinal": 3
+    },
+    {
+      "region": "tail",
+      "before": "- 제15항: 원문의 CNNIC 주당 인터넷 시간·숏폼 이용자 수는 원본 검증기록에서도 미확인 상태였고, 한국 대응 통계도 없어 이식하지 않았다. 한국의 개별 「인터넷 총 이용시간」 통계를 1차 출처에서 찾으면 보강할지 검토할 것.",
+      "after": "- 제15항: 원문의 CNNIC 주당 인터넷 시간은 미확인입니다. 숏폼 이용자 수도 원본 검증기록에서 확인되지 않았습니다. 한국 대응 통계도 없어 이식하지 않았습니다. 한국의 「인터넷 총 이용시간」은 1차 출처 확인이 필요합니다. 확인되면 본문을 보강할지 검토해야 합니다.",
+      "reason": "이미 확인한 여가 미디어 총량을 인터넷 총 이용시간 검증으로 확대하지 않습니다. CNNIC 및 한국 대응 인터넷 통계 미확인 과제는 모두 남기고 긴 문장만 나눕니다.",
+      "evidence_entries": [
+        15
+      ],
+      "status": "proposed_unadopted",
+      "before_sha256": "9414c8bad1dbb76dca20efc5f774c6b2f7dcbbf4fa8e645f72d68c9230d1cb11",
+      "after_sha256": "2af9175c7ddc397df53428d59947c45d20b23bb3db38d0ef60151ee384837729",
+      "decision": "approve",
+      "ordinal": 4
+    }
+  ],
+  "virtual_integrated_sha256": "2f42f3440a344d2ab229081593bf39fefd893bd28f23d7a45d1a462e259b4a01",
+  "formal_kr_fit": "not_performed",
+  "scope_limits": [
+    "정확SHA별근거교정/독자본문의미확인범위한정에대한통합승인. 인용논문전문·원연구전체검증주장아님.",
+    "미접근수치/방향제거는내용오류확정아님.",
+    "근거등급/태그는보호필드유지이며등급신규재평가주장아님.",
+    "통합본문현재해시로새독립KR-FIT필요. 공개승인아님."
+  ],
+  "public_changed": false
+}

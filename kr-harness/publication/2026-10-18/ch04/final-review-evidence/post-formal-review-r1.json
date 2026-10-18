@@ -1,0 +1,47 @@
+{
+  "status": "approved_for_exact_current_entry_replacement_only",
+  "reviewed_at": "2026-10-18T16:26:07.756104+00:00",
+  "reviewer": "publication_final_04",
+  "current_public_path": "/workspace/HowToLiveBetter-KR/book-kr/04-시간-낭비-줄이기.md",
+  "current_cli_sha256": "c20bf097077de64ba46d2fd72e0af61380b18937d3a5d3bdefdf7baafcb75c58",
+  "current_raw_sha256": "778cd1e94739315897db896368700675ef65b4e45c93034531b737ea4dd152e6",
+  "before_entry_sha256": "307a7dd9f8dc81d839d3472b01726df794b977233d6d253d15259d45db1a692b",
+  "proposal": {
+    "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-010-c59f/publication-formal-correction-r1.md",
+    "sha256": "c51d0ae988aa138fd35ac009221043f5fa18a92094dd714bb230be0288fe13d7"
+  },
+  "changes": {
+    "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-010-c59f/publication-formal-correction-changes-r1.json",
+    "sha256": "bfd93af933d9dfb8bc59733ae30c006f794659d1ec3a7747525b89b316d0aaa5"
+  },
+  "reference": {
+    "path": "/workspace/HowToLiveBetter-KR/book-kr/03-기력-낭비-줄이기.md",
+    "raw_sha256": "4a28ef24bf2def0a43f93bb2e2daad4bc53959f47322f6fcdf85a6a60480420e",
+    "entry": 1,
+    "entry_sha256": "a00b45c42591331940fa058912b9fc76f8ba364d7cf6e4949eaf186f0eceba63",
+    "actual_quote": "휴대전화를 시야 밖에 두는 것은 방해를 줄이려는 제안입니다. 누구나 과제 성적이 좋아진다는 뜻은 아닙니다.",
+    "source_doi": "10.1037/xhp0000100",
+    "source_scope": "notification experiment; placement is practical suggestion"
+  },
+  "approved_ops": [
+    {
+      "entry": 10,
+      "field": "비고",
+      "exact_span_before": "휴대폰을 시야 밖에 두는 효과는 직접 측정한 연구가 있습니다.",
+      "exact_span_after": "휴대폰을 시야 밖에 두는 것은 방해를 줄이려는 제안입니다.",
+      "decision": "approve",
+      "reason": "Removes unsupported direct-measured-placement claim; current reference explicitly presents placement as a suggestion."
+    }
+  ],
+  "checks": {
+    "reconstructs_exact_proposal": true,
+    "single_span_only": true,
+    "source_grade_tag_title_other_fields_numbers_dois_anchors_unchanged": true,
+    "new_sentence_literal_chars": 32
+  },
+  "limits": [
+    "Current formal report remains fail at current hash; this is not a new formal pass.",
+    "No public or status changes made. Root must apply the exact checked replacement then request fresh current CLI hash formal review.",
+    "Food-only evidence does not prove phone/game effects. Existing broad no-direct-research wording remains outside this minimal correction and is a scope warning, not verified global literature absence."
+  ]
+}

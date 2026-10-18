@@ -1,7 +1,7 @@
 {
-  "captured_at_utc": "2026-10-18T16:11:57.937708+00:00",
-  "head_before_checkpoint": "f036edebc7000e369c370dc181a6cd09a3bec530",
-  "strict_accepted_count": 437,
+  "captured_at_utc": "2026-10-18T16:38:07.855521+00:00",
+  "head_before_checkpoint": "32dcd404a15ab5ec40cc517553b2d1f72a6eacb2",
+  "strict_accepted_count": 458,
   "strict_accepted": [
     {
       "run_dir": "kr-harness/publication/2026-10-18/ch01/_workspace/2026-10-18-001-7050",
@@ -2139,6 +2139,51 @@
       "gate_sha256": "4870f63a0d09b1d12862c04ffb570040dacea129c9a42ebca4dc6fd6ab8df35e"
     },
     {
+      "run_dir": "kr-harness/publication/2026-10-18/ch17/_workspace/2026-10-18-001-d18d",
+      "final_sha256": "cfb25464b3b9875c7cd7d1e309804e62fe12553639bcc4748d9cc73678584c1b",
+      "gate_sha256": "99abfedbeb06fd69b28762186dd858046310d7ad376174333e6a361963d46482"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch17/_workspace/2026-10-18-002-7837",
+      "final_sha256": "b4980fc5fe817592665188374dc44492b90cf9367989a0f38b71b7e7f7d94ffe",
+      "gate_sha256": "2d2ca2644d4d28c35899658dc916db96d009f0239378ef3819c1f611e9564172"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch17/_workspace/2026-10-18-003-3312",
+      "final_sha256": "a0fadf52e49fb4be981f8a2141c3651c301a787a8279261549751a2ab6b417d9",
+      "gate_sha256": "1d1f6a81c44c6213b243c6aef1dafce08924fd0c71b37808a39abb5814d99caf"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch17/_workspace/2026-10-18-004-5158",
+      "final_sha256": "166cb69adaa53cc6e00083febc37da151ff1b5fe4e166667fe6518cac476ea55",
+      "gate_sha256": "587a4b3e5fc11d576c88a434041890b1eeadc3c4c2c1a53ef0bbddb80b478ade"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch17/_workspace/2026-10-18-005-0c89",
+      "final_sha256": "82712b7ba13de64f2ad31f47cff98432b1c53021887bee30ece26991412b7c9c",
+      "gate_sha256": "5c4511ef543fb40242559a0c591cb1e4f9c4a5d4ec31ff308a48f2b3707024b7"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch17/_workspace/2026-10-18-006-8290",
+      "final_sha256": "5f1e39c83213c805410c3e1db616b8826dcbb42b187e89d1ab64f57bf0dffba4",
+      "gate_sha256": "4d314132e250c6d0e1570f05d5d5f56ac2818e13f4b7366bdecbbe432aa4238a"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch17/_workspace/2026-10-18-007-54c2",
+      "final_sha256": "7bd20fb2d731842aa80510b15e3881aa6dbd9e8888b15295c127283f224ad6c7",
+      "gate_sha256": "aa180b5333c29e7daf54ff0bcf0fbec85cc40945aeb8bbf78af7f8ab2b720ead"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch17/_workspace/2026-10-18-008-649b",
+      "final_sha256": "d1be45a82d48127d8aa3ca12da6f12ada3950adcdd6938a29fdf7daa874522c2",
+      "gate_sha256": "7e2ab134e85e3b87891b73857a57abfc5b2a3f736910f934c5a93f22933f893d"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch17/_workspace/2026-10-18-009-6d68",
+      "final_sha256": "340aad7680d00d0136e023e7ebecc8905901a6f635a63907274ec3dc70a6a7a2",
+      "gate_sha256": "2655aee1cee51656585f5a8c1c958a3805418235b07cc49b7710900489e6d992"
+    },
+    {
       "run_dir": "kr-harness/publication/2026-10-18/ch18/_workspace/2026-10-18-001-e9cc",
       "final_sha256": "e004063499d5325fd02062ba360d5fc12cc97b0298f4df20dbdf56945e93ce78",
       "gate_sha256": "e6512faf178a0000e150bbe86b66160f0e7bc5ca94fd0bccfa60a7d590e826e7"
@@ -2187,6 +2232,66 @@
       "run_dir": "kr-harness/publication/2026-10-18/ch19/_workspace/2026-10-18-004-5950",
       "final_sha256": "8164f1331c6d8e3f6c30842cec5f8ffb00fe291d53c56ebbb45571a054d78309",
       "gate_sha256": "93e375fcc12fd1f01e1e924fa114fc274fab54b88bd875ea826ffea15ec4524c"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch19/_workspace/2026-10-18-005-bca7",
+      "final_sha256": "d19a3fb7df5596ffaf27afb8697afa5eb5a0f23cd4b27580bd66e8f3ba62bfd9",
+      "gate_sha256": "62eee599c95a2cb32c19bbc1a294ee69de8bc4128dc6d5461fef3fad56369234"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch19/_workspace/2026-10-18-006-0bdb",
+      "final_sha256": "5fb0506229934e1892cc96185faf05b571978a330ed855634bc1726c346ca256",
+      "gate_sha256": "168276faa3342645f6e8efad350171cac846f83a46ff12f3f837e1a74cdea7ce"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch19/_workspace/2026-10-18-007-09db",
+      "final_sha256": "7592441676a46b7f5a5c978b94712dc1878d13a354623fde9d8953e2265ea353",
+      "gate_sha256": "73c35949a08c8748361ec7871bafff01dcce9da5638293232fe4edf49d59d72a"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch19/_workspace/2026-10-18-008-3a3d",
+      "final_sha256": "b952f414e2c7972fb6aed2466068458a80d0693b284b02fd14338e8066bcdad9",
+      "gate_sha256": "a478132875688194f01aec5ceabc2472a21c29d7def5b8b65e4bc6b2095c0926"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch19/_workspace/2026-10-18-009-8d03",
+      "final_sha256": "c8c5ee7ef47f09b15e97ca62c9529d07e8caefa386ae79aa6c5c6e35289eb534",
+      "gate_sha256": "8dce620824b563e0cc02c5f6692202f3206ab3c5fec9a51997a61a4568173ceb"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch19/_workspace/2026-10-18-010-a0c7",
+      "final_sha256": "34e68bb04628e8cdff9f2225a5db3ffc78621a121e4e644405a001c173bb3665",
+      "gate_sha256": "e5bf38a3293f5cc5c56145943ea46f22a05b73226bb6857f0400b48ffa016147"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch19/_workspace/2026-10-18-011-6397",
+      "final_sha256": "7f84d2e643439dcf214bb4306ceea99e733e532f314c83fdeac3f770b179233b",
+      "gate_sha256": "0f2cdda4d823609e88c0036ca1db35724d7d11a076e869bce83e122a66e43daa"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch19/_workspace/2026-10-18-012-8b22",
+      "final_sha256": "2b8a4d5299a8b3b6bcfb568a82a87d0d8bc265727b01b774fcc7a9d415513db3",
+      "gate_sha256": "9ec5d9adb2dc61d8ffaf146da217af661a1ebe4cc75bafb1ce21c63bb179b86e"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch19/_workspace/2026-10-18-013-2856",
+      "final_sha256": "fdf6987b0ce0334188bab7fee674b27cb4045a65187d00b59b7cf9ab8472bece",
+      "gate_sha256": "f85fa45ff992a32be6818c02bc02a97eee7e206f1ac7fa0bfaceb67958df79ee"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch19/_workspace/2026-10-18-014-2acd",
+      "final_sha256": "59cb6c634bfbfbc5a139d148982bba87ef6b3ff5c801e21ee20b7e13c5900461",
+      "gate_sha256": "3719e1ac52336d4d532ba221c11a921f062618829d2bfe2f82f99598ca1a6e85"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch19/_workspace/2026-10-18-015-e712",
+      "final_sha256": "9b9f9cff533cbebb14bd893541dc1fe7b9759bbc549023ed90ca5601a27f9f28",
+      "gate_sha256": "aa4b49808bc4ffebf495b1375320bc287f3672f11f126200ed6e2269a9d0c23a"
+    },
+    {
+      "run_dir": "kr-harness/publication/2026-10-18/ch19/_workspace/2026-10-18-016-ef17",
+      "final_sha256": "e0f6bc1d630563098f00e3e5722ee95eb0d66ea27bcdb6b8a89a781cdb014048",
+      "gate_sha256": "a1e0dae643f39f993edb405f8f138c6375dd8f2324f46864826bcde825d90b8f"
     }
   ],
   "strict_counts_by_chapter": {
@@ -2206,9 +2311,9 @@
     "14": 10,
     "15": 9,
     "16": 9,
-    "17": 0,
+    "17": 9,
     "18": 6,
-    "19": 4,
+    "19": 16,
     "20": 0,
     "21": 0,
     "22": 0,
@@ -2241,10 +2346,12 @@
     1,
     2,
     3,
+    4,
     18
   ],
   "followups": {
-    "18": "style4 approved and applied; current-hash formal status in chapter publication-state.json"
+    "04": "18 full corrections plus intro/tail and5postformal scope corrections; current-hash formal status in publication-state.json",
+    "18": "style4 applied; future20261208 titleword proposal not adopted, currentlaw verified"
   },
   "initial_source_audits_complete": [
     1,
@@ -2266,10 +2373,11 @@
     17,
     19,
     20,
-    21
+    21,
+    22
   ],
-  "next_initial_audit": 22,
-  "max_workers": 3,
+  "next_initial_audit": 23,
+  "max_workers": 2,
   "allocation": "two independent slots reserved; temporary drain to2 during third independent task",
   "live_queue_checkpoint": "global-coordinator-queue.checkpoint.json",
   "deployed": false

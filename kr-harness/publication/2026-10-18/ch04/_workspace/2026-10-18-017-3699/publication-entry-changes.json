@@ -1,0 +1,146 @@
+{
+  "entry": 17,
+  "status": "unadopted_pending_independent_exact_hash_review",
+  "source_verification": "primary_abstract_and_fulltext_unavailable",
+  "proposal_sha256": "f5e171982f74fe8af510bda2dea41e01ac9dd7461448fa0436cb22dde1bdaf21",
+  "base_strict_sha256": "288e61f7bdb16b86153c7511141334e5eecb4d878e767a3edbb4559a1e2a5bc2",
+  "changes": [
+    {
+      "field": "쉽게",
+      "before": "Word를 오래 써도 대부분 도구 모음 아이콘을 누릅니다. 비교 실험에서는 단축키가 메뉴와 아이콘보다 빨랐습니다. 한 번 배우면 조작할 때마다 시간을 아낍니다. 같은 일을 오래 반복할수록 아끼는 시간이 늘어납니다.",
+      "after": "자주 쓰는 조작부터 단축키로 바꿔 보세요. 익히는 데 시간이 들고 작업마다 효과가 다릅니다. 배운 뒤 실제로 시간이 줄었는지 확인하세요.",
+      "reason": "원논문 본문/초록 미접근으로 확인하지 못한 조사 인원·효율실험 인원·최속 결과를 삭제하고, 학습비용 및 작업별 조건을 갖춘 실용 권고로 한정."
+    },
+    {
+      "field": "이득",
+      "before": "한 연구에서 숙련된 Word 사용자 251명을 조사했습니다. 대부분 빠른 단축키를 거의 쓰지 않았습니다. 대신 아이콘 도구 모음에 의존했습니다. 그룹 비교 실험에서는 메뉴, 아이콘, 단축키를 비교했습니다. 가장 빠른 방식은 단축키였습니다. 하루 조작 횟수가 많을수록 아끼는 시간이 쌓입니다. 같은 일을 오래 할수록 더 많이 아낍니다.",
+      "after": "같은 조작을 반복할 때마다 시간이 줄면 절약한 시간이 쌓입니다. 다만 학습에 든 시간도 함께 계산해야 합니다. 단축키의 효과를 자동화 전체의 효과로 볼 수는 없습니다.",
+      "reason": "원논문 본문/초록 미접근으로 확인하지 못한 조사 인원·효율실험 인원·최속 결과를 삭제하고, 학습비용 및 작업별 조건을 갖춘 실용 권고로 한정."
+    },
+    {
+      "field": "비고",
+      "before": "하루 열 번 넘게 쓰는 조작만 배우세요. 전부 익히려 하면 배우는 데 시간을 낭비합니다. 효율 실험의 참가자는 6명뿐이었습니다. 요약에는 조작당 몇 초를 아끼는지 나와 있지 않습니다.",
+      "after": "하루 열 번 넘게 쓰는 조작만 배우세요. 전부 익히려 하면 배우는 데 시간을 낭비합니다. 작업에 따라 단축키보다 마우스가 편할 수 있습니다.",
+      "reason": "원논문 본문/초록 미접근으로 확인하지 못한 조사 인원·효율실험 인원·최속 결과를 삭제하고, 학습비용 및 작업별 조건을 갖춘 실용 권고로 한정."
+    }
+  ],
+  "verification": {
+    "actual_utc": "2026-10-18T16:04:09.557105+00:00",
+    "method": "Read actual cached Crossref JSON bibliography; attempted publisher abstract/PDF and possible author-host PDF; inspected raw denial/404 responses. No research claim verified from those responses.",
+    "primary_quotations": [],
+    "bibliography_title_quote": "Hidden Costs of Graphical User Interfaces: Failure to Make the Transition from Menus and Icon Toolbars to Keyboard Shortcuts",
+    "bibliography_raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/crossref/13d78a52f21a42818ebf.json",
+    "bibliography_sha256": "3b88c4701733d94ea4fbd2e584e18b915b1dce86ab066d3e7a049d9ce076e712",
+    "http_attempts": [
+      {
+        "url": "https://www.tandfonline.com/doi/abs/10.1207/s15327590ijhc1802_1",
+        "final_url": "https://www.tandfonline.com/doi/abs/10.1207/s15327590ijhc1802_1",
+        "utc": "2026-10-18T16:03:34.086135+00:00",
+        "status": 403,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-017-3699/source-closure/raw-0.bin",
+        "sha256": "35ab5c045c34ed1d7b0155d0df0f7095ae62e6592c8ce933dc120e708e8e58fe",
+        "bytes": 6165
+      },
+      {
+        "url": "https://www.tandfonline.com/doi/pdf/10.1207/s15327590ijhc1802_1",
+        "final_url": "https://www.tandfonline.com/doi/pdf/10.1207/s15327590ijhc1802_1",
+        "utc": "2026-10-18T16:03:34.308614+00:00",
+        "status": 403,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-017-3699/source-closure/raw-1.bin",
+        "sha256": "d1ea059f20265d13f7bb114f76fbf0fdb3d98706b1f7ac20443414d2d2de7ebd",
+        "bytes": 6144
+      },
+      {
+        "url": "https://davidmlane.com/hyperstat/GUI.pdf",
+        "final_url": "https://davidmlane.com/hyperstat/GUI.pdf",
+        "utc": "2026-10-18T16:03:34.989070+00:00",
+        "status": 404,
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-017-3699/source-closure/raw-2.bin",
+        "sha256": "d5a89e26beae0bc03ad18a0b0d1d3d75f87c32047879d25da11970cb5c4662a3",
+        "bytes": 315
+      }
+    ]
+  },
+  "intentional_numerical_scope_changes": [
+    "251명, 효율실험 6명, 단축키 최속, 대부분 Word 사용자의 아이콘 의존 등 미검증 서술을 독자 본문에서 삭제",
+    "자동화 효과 일반화를 제한하고 학습시간 및 작업별 차이 명시",
+    "기존 학습시간 몇 시간에서 수십 시간과 하루 열 번 권고 보존; 연구에서 입증된 수치로 신규 주장하지 않음"
+  ],
+  "doi_changes": "없음. 기존 DOI는 서지로만 확인했으며 원논문 결과 검증으로 취급하지 않음.",
+  "unchanged": [
+    "title",
+    "cost tag",
+    "evidence grade B",
+    "source citation",
+    "cost field"
+  ],
+  "limitations": [
+    "원논문 초록과 본문을 읽지 못했으므로 결과에 대한 직접 인용 없음.",
+    "유지한 학습시간과 하루 열 번 권고는 이 논문에서 직접 검증되지 않은 기존 실용 지침.",
+    "근거등급 B는 지시상 원문 그대로 보존했으며 이번 검증의 승인 판정이 아님."
+  ],
+  "sentence_lengths": [
+    {
+      "field": "- 비용",
+      "sentence": "돈이 안 듭니다.",
+      "len": 9
+    },
+    {
+      "field": "- 비용",
+      "sentence": "처음에는 몇 시간에서 수십 시간을 들여야 합니다.",
+      "len": 27
+    },
+    {
+      "field": "- 비용",
+      "sentence": "익숙해지기 전까지는 마우스보다 느립니다.",
+      "len": 22
+    },
+    {
+      "field": "- 쉽게",
+      "sentence": "자주 쓰는 조작부터 단축키로 바꿔 보세요.",
+      "len": 23
+    },
+    {
+      "field": "- 쉽게",
+      "sentence": "익히는 데 시간이 들고 작업마다 효과가 다릅니다.",
+      "len": 27
+    },
+    {
+      "field": "- 쉽게",
+      "sentence": "배운 뒤 실제로 시간이 줄었는지 확인하세요.",
+      "len": 24
+    },
+    {
+      "field": "- 이득",
+      "sentence": "같은 조작을 반복할 때마다 시간이 줄면 절약한 시간이 쌓입니다.",
+      "len": 35
+    },
+    {
+      "field": "- 이득",
+      "sentence": "다만 학습에 든 시간도 함께 계산해야 합니다.",
+      "len": 25
+    },
+    {
+      "field": "- 이득",
+      "sentence": "단축키의 효과를 자동화 전체의 효과로 볼 수는 없습니다.",
+      "len": 31
+    },
+    {
+      "field": "- 비고",
+      "sentence": "하루 열 번 넘게 쓰는 조작만 배우세요.",
+      "len": 22
+    },
+    {
+      "field": "- 비고",
+      "sentence": "전부 익히려 하면 배우는 데 시간을 낭비합니다.",
+      "len": 26
+    },
+    {
+      "field": "- 비고",
+      "sentence": "작업에 따라 단축키보다 마우스가 편할 수 있습니다.",
+      "len": 28
+    }
+  ],
+  "easy_length": 76,
+  "self_approval": false
+}

@@ -1,0 +1,107 @@
+{
+  "status": "unadopted_proposal",
+  "entry": 7,
+  "base": "strict-entry.md",
+  "base_sha256": "ad14a95affe3c622c1a0f117badda182c0ba27dc7376367082763a5bb5195d8d",
+  "proposal_sha256": "f1057c25361e92ddfe2eac108775372cd343efd5d2a74c19e24161f814a3fe8b",
+  "changes": [
+    {
+      "field": "쉽게",
+      "before": "사람은 기한을 잡을 때 일을 알아서 나누지는 않습니다. 작은 작업부터 나열하면 기한을 너무 짧게 잡는 실수가 줄어듭니다. 각 단계를 바로 시작할 수 있게 쪼개면 미루기도 줄어듭니다.",
+      "after": "작은 작업부터 나열해 기한을 잡아 보세요. 바로 시작할 행동으로 나누는 것은 실천 조언입니다. 이것이 미루기를 줄이는지는 해당 연구로 확인되지 않았습니다.",
+      "reason": "행동 세분화 권고와 입증되지 않은 미루기 감소 효과를 구분합니다."
+    },
+    {
+      "field": "이득",
+      "before": "사람은 여러 작업이 섞인 일을 스스로 나눠 시간을 잡지는 않습니다. 문헌 검토 쓰기, 논의 쓰기, 참고문헌 정리는 서로 다른 작업입니다. 작은 작업부터 나열하면 기한을 너무 짧게 잡는 계획 오류를 줄일 수 있습니다. 각 단계를 곧바로 할 수 있는 행동으로 나누면 미루기도 줄어듭니다. 연구에서는 일을 얼마나 싫어하는지가 미루기를 가장 잘 예측했습니다. 일이 뒤로 밀리는 정도도 미루기를 잘 예측했습니다.",
+      "after": "사람은 여러 작업이 섞인 일을 스스로 나눠 시간을 잡지는 않습니다. 문헌 검토 쓰기, 논의 쓰기, 참고문헌 정리는 서로 다른 작업입니다. 작은 작업부터 나열하면 기한을 너무 짧게 잡는 계획 오류를 줄일 수 있습니다. 각 단계를 곧바로 할 수 있는 행동으로 나눠 보세요. 이 권고는 저자의 실천 조언입니다. Steel의 검토에서는 일에 대한 싫음과 미루기의 연관이 강했습니다. 일이 뒤로 밀리는 정도도 미루기와 강한 연관을 보였습니다. 이는 행동 세분화로 미루기가 줄어드는지 시험한 결과는 아닙니다.",
+      "reason": "Steel 초록의 강한 예측 연관을 보존하되 최강이라는 순위를 제거합니다. 행동 세분화 개입의 인과효과와 구분합니다."
+    },
+    {
+      "field": "비고",
+      "before": "작은 작업 하나를 한자리에 앉아 끝낼 수 있을 만큼 나누세요. 너무 잘게 쪼개면 나누는 데도 시간이 듭니다. Kruger와 Evans의 연구는 요약에서 결과 방향만 확인했습니다. 구체적인 백분율은 싣지 않았습니다(TODO 확인 필요).",
+      "after": "작은 작업 하나를 한자리에 앉아 끝낼 수 있을 만큼 나누세요. 너무 잘게 쪼개면 나누는 데도 시간이 듭니다. Kruger와 Evans 연구의 구체적인 결과는 확인하지 못했습니다. 구체적인 백분율은 아직 확인하지 못해 싣지 않았습니다.",
+      "reason": "Kruger 초록 또는 본문을 읽지 못한 현재 상태를 정확히 알리고 승인된 백분율 독자 문구를 그대로 보존합니다."
+    }
+  ],
+  "verification_date": "2026-10-18",
+  "evidence": [
+    {
+      "doi": "10.1037/0033-2909.133.1.65",
+      "url": "https://doi.org/10.1037/0033-2909.133.1.65",
+      "method": "기존 Europe PMC 캐시의 원논문 초록 전체 직접 읽음. 새 HTTP 확인 아님.",
+      "read_level": "abstract only",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/d96cbd6fc03d12ce102e.json",
+      "raw_sha256": "f44e1dec4296a40a4166cf8a59556dbb45aae93c1069cd0fa08e4e3e618a37cb",
+      "exact_quotes": [
+        "Procrastination is a prevalent and pernicious form of self-regulatory failure that is not entirely understood. Hence, the relevant conceptual, theoretical, and empirical work is reviewed, drawing upon correlational, experimental, and qualitative findings. A meta-analysis of procrastination's possible causes and effects, based on 691 correlations, reveals that neuroticism, rebelliousness, and sensation seeking show only a weak connection. Strong and consistent predictors of procrastination were task aversiveness, task delay, self-efficacy, and impulsiveness, as well as conscientiousness and its facets of self-control, distractibility, organization, and achievement motivation. These effects prove consistent with temporal motivation theory, an integrative hybrid of expectancy theory and hyperbolic discounting. Continued research into procrastination should not be delayed, especially because its prevalence appears to be growing."
+      ],
+      "scope": "691 correlations를 합친 미루기 연관 검토. task aversiveness/task delay는 strong and consistent predictors이며 초록은 가장 강한 하나로 순위화하지 않음. 개입별 대상/표본/효과 원값은 초록에 없음."
+    },
+    {
+      "doi": "10.1016/j.jesp.2003.11.001",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S002210310300177X",
+      "method": "Crossref 기존 서지 원응답 직접 열람; 원문 URL urllib 요청은 Tunnel 403으로 실패.",
+      "read_level": "bibliography only; no abstract/full text",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/crossref/b5f4a0084ec4a98592e0.json",
+      "exact_quotes": [],
+      "limitation": "대상, 개입, 측정, 결과 크기, 분모 직접 미확인. 기존 계획 오류 방향 주장은 신규검증으로 표시하지 않음."
+    }
+  ],
+  "approved_editorial_provenance": {
+    "path": "_workspace/2026-10-18-007-7441/editorial-proposal.json",
+    "sha256": "f803a564e8dd0f40fe6c273bfc71f57c6c68073b94ce556908e384354f9ce269",
+    "candidate_sha256": "1c5e14de8c6be8fc90ad3b3120cd4eb3daf7f3f5875b15c65d9cd5905c9527a1",
+    "field_decisions": [
+      {
+        "field": "todo",
+        "target_field": "비고",
+        "decision": "approve",
+        "reason": "미확인 백분율을 확인 완료로 바꾸지 않고 독자용 표현으로 전환. 다른 미루기 인과단정의 승인은 아님.",
+        "before": "구체적인 백분율은 싣지 않았습니다(TODO 확인 필요).",
+        "after": "구체적인 백분율은 아직 확인하지 못해 싣지 않았습니다.",
+        "before_matches_current_candidate": true,
+        "before_matches_target_field": true,
+        "scope": "지정 제안변경만 승인. 해당 항목의 전체 사실/출판상태/정식KR-FIT 승인 아님."
+      }
+    ]
+  },
+  "canonical_review_sha256": "cc9024602c83bad8d5735957c1f387f8c6ea49cd998c3cd35076f9754d1758bb",
+  "intentional_numerical_scope_changes": [
+    "새 수치 추가 없음. 원문의 가장 잘 예측했다를 초록이 지지하는 강한 연관으로 수정. 미루기 감소 단정을 저자 조언 및 미검증 제한으로 수정."
+  ],
+  "doi_changes": {
+    "added": [],
+    "removed": [],
+    "reason": "인용 DOI 집합 보존"
+  },
+  "unresolved_limitations": [
+    "Kruger 초록과 본문 미접근: 기존 계획 오류 효과 및 모집단 범위와 크기는 독립 검증 미완료.",
+    "Steel 초록만 확인. 개별 연관 계수 및 행동 세분화 개입효과는 확인하지 못함.",
+    "원문의 5~15분은 연구에서 검증된 소요시간으로 확인하지 않음."
+  ],
+  "sentence_lengths": {
+    "쉽게": [
+      23,
+      28,
+      33
+    ],
+    "이득": [
+      37,
+      38,
+      43,
+      29,
+      19,
+      38,
+      32,
+      35
+    ],
+    "비고": [
+      34,
+      25,
+      38,
+      30
+    ]
+  },
+  "easy_length": 86
+}

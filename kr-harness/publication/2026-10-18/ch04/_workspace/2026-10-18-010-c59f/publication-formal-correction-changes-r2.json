@@ -1,0 +1,71 @@
+{
+  "status": "unadopted_proposal_pending_fresh_formal_ch04_exact_hash_review",
+  "entry": 10,
+  "created_at": "2026-10-18T16:26:42.956776+00:00",
+  "base": {
+    "snapshot_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-010-c59f/publication-current-entry-formal-r1.md",
+    "entry_sha256": "307a7dd9f8dc81d839d3472b01726df794b977233d6d253d15259d45db1a692b",
+    "whole_public_path": "/workspace/HowToLiveBetter-KR/book-kr/04-시간-낭비-줄이기.md",
+    "whole_public_raw_sha256": "778cd1e94739315897db896368700675ef65b4e45c93034531b737ea4dd152e6",
+    "whole_public_raw_sha256_at_r2_read": "778cd1e94739315897db896368700675ef65b4e45c93034531b737ea4dd152e6",
+    "current_public_entry_sha256_at_r2_read": "307a7dd9f8dc81d839d3472b01726df794b977233d6d253d15259d45db1a692b"
+  },
+  "actual_reference_read": {
+    "path": "/workspace/HowToLiveBetter-KR/book-kr/03-기력-낭비-줄이기.md",
+    "whole_public_raw_sha256": "4a28ef24bf2def0a43f93bb2e2daad4bc53959f47322f6fcdf85a6a60480420e",
+    "entry_number": 1,
+    "entry_extraction": "From ### 1. to immediately before ### 2.; includes trailing blank lines",
+    "entry_sha256": "a00b45c42591331940fa058912b9fc76f8ba364d7cf6e4949eaf186f0eceba63",
+    "scope": "Re-read actual public chapter 3 entry 1, all six fields; current source only notification DOI and placement suggestion.",
+    "exact_quotes": [
+      "휴대전화를 시야 밖에 두는 것은 방해를 줄이려는 제안입니다. 누구나 과제 성적이 좋아진다는 뜻은 아닙니다.",
+      "<https://doi.org/10.1037/xhp0000100>"
+    ],
+    "source_scope": "Current reference is notification experiment, with out-of-sight placement presented as a suggestion; it does not support the direct-measured placement claim."
+  },
+  "changes": [
+    {
+      "field": "비고",
+      "before": "근거등급은 B입니다. 리뷰에 포함된 24건은 모두 음식 연구였습니다. 술과 담배 연구는 없습니다. 14건은 실험실에서 진행했습니다. 자료는 모두 고소득 국가에서 나왔습니다. 「멀리 두면 덜 만진다」는 음식 연구에서 나온 결과입니다. 이를 휴대폰과 게임에도 적용하기에는 근거가 부족합니다. 이를 직접 시험한 연구는 없습니다. 휴대폰을 시야 밖에 두는 효과는 직접 측정한 연구가 있습니다. 필요 없는 알림 끄기는 제3절 제1항(알림 끄기)을 보세요. 일할 때 휴대폰을 시야 밖에 두는 내용도 그 항목에 있습니다.",
+      "after": "근거등급은 B입니다. 리뷰에 포함된 24건은 모두 음식 연구였습니다. 술과 담배 연구는 없습니다. 14건은 실험실에서 진행했습니다. 자료는 모두 고소득 국가에서 나왔습니다. 「멀리 두면 덜 만진다」는 음식 연구에서 나온 결과입니다. 이를 휴대폰과 게임에도 적용하기에는 근거가 부족합니다. 이 리뷰는 휴대폰과 게임의 효과를 시험한 근거가 아닙니다. 휴대폰을 시야 밖에 두는 것은 방해를 줄이려는 제안입니다. 필요 없는 알림 끄기는 제3절 제1항(알림 끄기)을 보세요. 일할 때 휴대폰을 시야 밖에 두는 내용도 그 항목에 있습니다.",
+      "spans": [
+        {
+          "before": "이를 직접 시험한 연구는 없습니다.",
+          "after": "이 리뷰는 휴대폰과 게임의 효과를 시험한 근거가 아닙니다.",
+          "reason": "Limit absence claim to cited food review rather than all literature.",
+          "literal_len": 32
+        },
+        {
+          "before": "휴대폰을 시야 밖에 두는 효과는 직접 측정한 연구가 있습니다.",
+          "after": "휴대폰을 시야 밖에 두는 것은 방해를 줄이려는 제안입니다.",
+          "reason": "Retain r1 correction: placement suggestion is not direct effect verification.",
+          "literal_len": 32
+        }
+      ]
+    }
+  ],
+  "preservation": {
+    "easy_unchanged": true,
+    "easy_len": 72,
+    "all_other_fields_title_tag_grade_numbers_anchors": "unchanged",
+    "doi_changes": "none"
+  },
+  "remaining_limits": [
+    "This correction verifies current cross-reference consistency, not a new intervention effect.",
+    "Food-only evidence and phone/game generalization limitations remain unchanged.",
+    "No self-approval or public-file change; fresh formal exact-hash review required."
+  ],
+  "proposal_sha256": "ccc0421dedaf583a873c0fdf79632763d64b0df41cbfc211a5643de6f43a602a",
+  "revision": "r2 from original current public snapshot; r1 immutable",
+  "review_read": {
+    "path": "/workspace/HowToLiveBetter-KR/kr-harness/chapters/04/kr-fit-review.md",
+    "sha256": "2e822faf44cc48a92f2e7581a9b2270adc209956a93c603edc913b61d015fb98",
+    "finding": "B1 and request to limit worldwide absence claim"
+  },
+  "primary_scope_check": {
+    "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/pmc-fulltext/PMC6953356.xml",
+    "sha256": "117c145aa3bb1f238010b969da5c9427e70d90366eb08739c5fdffa5aaf6e746",
+    "read_scope": "Reopened structured abstract to confirm included-product scope; not full included studies.",
+    "exact_quote": "All of the included studies investigated food products; none investigated alcohol or tobacco."
+  }
+}

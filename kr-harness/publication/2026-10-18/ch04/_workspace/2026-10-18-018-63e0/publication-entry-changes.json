@@ -1,0 +1,219 @@
+{
+  "entry": 18,
+  "status": "unadopted_pending_independent_exact_hash_review",
+  "base": "strict-entry.md",
+  "base_sha256": "f5fd0541d3c4e54f85549221556396cdf4b966e69bcf916e78a2cc1c70fb1090",
+  "proposal_sha256": "6e0b44104dc88eb0f464eca6a3d88e73dcf7f9423b8ffce03ce7851b9af31f5d",
+  "created_at": "2026-10-18T15:27:01.020900+00:00",
+  "changes": [
+    {
+      "field": "비용",
+      "before": "돈이 많이 듭니다. 월세를 더 내거나 더 작은 집으로 옮겨야 할 수 있습니다. 이사에도 시간이 듭니다.",
+      "after": "돈이 많이 듭니다. 월세를 더 내거나 더 작은 집으로 옮겨야 할 수 있습니다. 이사에도 시간이 듭니다.",
+      "changed": false,
+      "reason": "strict-entry 원문 그대로 보존",
+      "evidence_ids": []
+    },
+    {
+      "field": "쉽게",
+      "before": "출퇴근이 길수록 스스로 느끼는 삶의 질이 낮습니다. 임금이나 주거는 이 손해를 메우지 못했습니다. 편도 30분을 줄이면 일주일에 5시간을 되찾습니다.",
+      "after": "긴 출퇴근은 낮은 삶의 질과 관련이 있습니다. 주 5일 왕복한다면 편도 30분 단축은 주 5시간 절약입니다. 이사하면 삶의 질이 나아진다고 단정할 수는 없습니다.",
+      "changed": true,
+      "reason": "주5일 왕복 산식을 명시하고 관찰연관과 이사 개입의 인과효과를 구별. 상세 보상 논쟁은 이득/비고에 보존.",
+      "evidence_ids": [
+        "stutzer",
+        "chatterjee"
+      ]
+    },
+    {
+      "field": "이득",
+      "before": "2024년 생활시간조사는 하루 이동 시간을 집계했습니다. 국민(10세 이상)의 평균은 1시간 32분입니다. 취업자는 평균 1시간 46분입니다. 독일 연구는 같은 사람을 오랫동안 추적했습니다. 출퇴근이 긴 사람은 주관적 웰빙이 꾸준히 낮았습니다. 주관적 웰빙은 스스로 느끼는 삶의 질을 뜻합니다. 수입이나 주거도 이 손해를 메워 주지 못했습니다. 여러 연구를 종합한 리뷰에서도 통근 만족도는 낮았습니다. 출퇴근이 길수록 낮았으며 교통수단과는 무관했습니다. 편도 30분을 줄이면 주당 약 5시간을 아낍니다.",
+      "after": "2024년 생활시간조사는 하루 이동 시간을 집계했습니다. 국민(10세 이상)의 평균은 1시간 32분입니다. 취업자(15세 이상)는 평균 1시간 46분입니다. 독일 연구는 같은 사람을 오랫동안 추적했습니다. 출퇴근이 긴 사람은 주관적 웰빙이 꾸준히 낮았습니다. 주관적 웰빙은 스스로 느끼는 삶의 질을 뜻합니다. 수입이나 주거도 이 손해를 메워 주지 못했습니다. 여러 연구를 종합한 리뷰에서도 출퇴근이 길수록 통근 만족도가 낮았습니다. 이 관계는 교통수단에 관계없이 나타났습니다. 주 5일 왕복할 때 편도 30분을 줄이면 주당 약 5시간을 아낍니다. 30분×2회×5일을 계산한 값이며 연구에서 측정한 절약량은 아닙니다.",
+      "changed": true,
+      "reason": "공식 통계의 취업자 15세 이상 모집단 명시. 통근 만족도 전체가 교통수단과 무관하다는 오독 방지. 주5일 왕복 저자 산식을 연구 관측량과 구별.",
+      "evidence_ids": [
+        "timeuse",
+        "stutzer",
+        "chatterjee"
+      ]
+    },
+    {
+      "field": "근거등급",
+      "before": "B",
+      "after": "B",
+      "changed": false,
+      "reason": "strict-entry 원문 그대로 보존",
+      "evidence_ids": []
+    },
+    {
+      "field": "출처",
+      "before": "Stutzer, A., & Frey, B. S. (2008). Stress that doesn't pay: The commuting paradox. Scandinavian Journal of Economics, 110(2), 339–366. <https://doi.org/10.1111/j.1467-9442.2008.00542.x>；Chatterjee, K., et al. (2020). Commuting and wellbeing: A critical overview of the literature with implications for policy and future research. Transport Reviews, 40(1), 5–34. <https://doi.org/10.1080/01441647.2019.1649317>；통계청 (2025). 2024년 생활시간조사 결과(보도자료). https://www.mods.go.kr/board.es?mid=a10301010000&bid=220&act=view&list_no=437764",
+      "after": "Stutzer, A., & Frey, B. S. (2008). Stress that doesn't pay: The commuting paradox. Scandinavian Journal of Economics, 110(2), 339–366. <https://doi.org/10.1111/j.1467-9442.2008.00542.x>；Chatterjee, K., et al. (2020). Commuting and wellbeing: A critical overview of the literature with implications for policy and future research. Transport Reviews, 40(1), 5–34. <https://doi.org/10.1080/01441647.2019.1649317>；통계청 (2025). 2024년 생활시간조사 결과(보도자료). https://www.mods.go.kr/board.es?mid=a10301010000&bid=220&act=view&list_no=437764",
+      "changed": false,
+      "reason": "strict-entry 원문 그대로 보존",
+      "evidence_ids": []
+    },
+    {
+      "field": "비고",
+      "before": "논쟁 있음. 다만 Chatterjee 등의 리뷰에서 전반적 삶의 만족도는 달랐습니다. 출퇴근 시간과 전반적 삶의 만족도는 일관된 관계를 보이지 않았습니다. 사람들은 대체로 더 좋은 일자리나 주거로 긴 출퇴근의 손해를 보상받았습니다. 한국 조사의 「이동」은 출퇴근만을 뜻하지 않습니다. 그날의 모든 이동을 합친 값입니다. 출퇴근 시간대를 피하면 같은 거리도 이동 시간이 줄어듭니다.",
+      "after": "논쟁 있음. 다만 Chatterjee 등의 리뷰에서 전반적 삶의 만족도는 달랐습니다. 출퇴근 시간과 전반적 삶의 만족도는 일관된 관계를 보이지 않았습니다. 더 좋은 일자리나 주거로 손해를 보상받는다는 해석도 있습니다. 한국 조사의 「이동」은 출퇴근만을 뜻하지 않습니다. 그날의 모든 이동을 합친 값입니다. 혼잡한 시간대를 피하면 같은 거리도 이동 시간이 줄어들 수 있습니다. 다만 근무 조건 때문에 시간대를 바꾸기 어려울 수 있습니다. 실제 절약 시간은 출근 일수와 왕복 경로에 따라 다릅니다. 이사로 삶의 질이 나아지는 인과효과를 입증한 것은 아닙니다. 절약 시간의 금전 가치는 여기서 추산하지 않았습니다.",
+      "changed": true,
+      "reason": "리뷰의 보상 결론을 확정사실 대신 해석으로 한정. 시간대 변경 가능성, 출근 일수/경로, 인과효과와 금전환산의 한계 명시.",
+      "evidence_ids": [
+        "chatterjee"
+      ]
+    }
+  ],
+  "primary_evidence": [
+    {
+      "id": "timeuse",
+      "url": "https://www.mods.go.kr/boardDownload.es?bid=220&list_no=437764&seq=9",
+      "verification_date": "2026-10-18T15:27:01.020900+00:00",
+      "method": "Existing raw PDF directly read using PyMuPDF; physical pages 13 and 33",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch04-audit/time-use-2024.pdf",
+      "sha256": "d4c59023bd2e73cb5352d256f14d5d99f78465dba0383e751d39452aa444c9e9",
+      "original_fetched_at": "2026-10-18T12:37:30.524928+00:00",
+      "quotes": [
+        "< 전 국민(10세 이상)의 시간사용 추이 >",
+        "이동\n1:35\n1:40\n1:44\n1:39\n1:36\n1:32",
+        "2. 취업자(15세 이상)1)",
+        "이동\n1:49\n1:46\n-0:03",
+        "1) 취업자: 15세 이상, 조사시점 기준 지난 1주일 동안 수입을 목적으로 1시간 이상 일을 한 사람"
+      ]
+    },
+    {
+      "id": "stutzer",
+      "url": "https://api.crossref.org/works/10.1111%2Fj.1467-9442.2008.00542.x",
+      "verification_date": "2026-10-18T15:27:01.020900+00:00",
+      "method": "Publisher-deposited original abstract in existing Crossref raw response; not full text",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/crossref/d62873daa6a4671186d5.json",
+      "sha256": "c9da44824862d71d9be4d1b04b42167f2ffe0f706d3ca97bdff74d55a4a08731",
+      "original_fetched_at": "2026-10-18T20:52:29.763243+09:00",
+      "quote": "<jats:title>Abstract</jats:title>\n                  <jats:p>People spend a lot of time commuting and often find it a burden. According to standard economics, the burden of commuting is chosen when compensated either on the labor or on the housing market so that individuals' utility is equalized. However, in a direct test of this strong notion of equilibrium with panel data, we find that people with longer commuting time report systematically lower subjective well‐being. This result is robust with regard to a number of alternative explanations. We mention several possibilities of an extended model of human behavior able to explain this “commuting paradox”.</jats:p>"
+    },
+    {
+      "id": "chatterjee",
+      "verification_date": "2026-10-18T15:27:01.020900+00:00",
+      "method": "Published full PDF obtained from White Rose repository; abstract and sections 3.2, 3.5.2, 3.7 directly read; individual underlying studies not independently read",
+      "raw_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-018-63e0/chatterjee-primary.pdf",
+      "extracted_text_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-018-63e0/chatterjee-primary.txt",
+      "url": "https://eprints.whiterose.ac.uk/148610/16/final%20vo.pdf",
+      "fetched_at": "2026-10-18T15:25:53.903802+00:00",
+      "http_status": 200,
+      "sha256": "c353432a35d860b20c30022b51576c35c96d5f43263ae3156bff5561504ae5b0",
+      "quotes": [
+        "Satisfaction decreases with\nduration of commute, regardless of mode used, and increases\nwhen travelling with company.",
+        "However, a\nconsistent link between commuting and life satisfaction overall\nhas\nnot\nbeen\nestablished.",
+        "The\nevidence\nsuggests\nthat\ncommuters are generally successful in trading oﬀthe drawbacks\nof longer and more arduous commute journeys against the\nbeneﬁts they bring in relation to overall life satisfaction, but\nfurther research is required to understand the decision making\ninvolved.",
+        "However, due to the mostly ﬁxed work and house locations and working hours, changing\ntravel choices (e.g. not travelling by car or travelling outside peak hours) might often not\nbe feasible."
+      ]
+    }
+  ],
+  "intentional_scope_changes": [
+    "취업자 이동시간의 모집단에 15세 이상 추가; 원값 1시간 46분 유지",
+    "편도30분→주5시간에 주5일 왕복 전제 추가; 30×2×5=300분=5시간은 저자 산식이며 측정 효과 아님",
+    "통근 만족도의 교통수단 무관 단정은 시간과 만족도의 음의 연관이 모든 수단에서 나타난다는 범위로 명확화",
+    "보상받았다는 확정 표현을 리뷰가 제시한 해석으로 한정"
+  ],
+  "doi_changes": {
+    "added": [],
+    "removed": [],
+    "reason": "인용 DOI 집합과 출처 필드 보존"
+  },
+  "preservation": {
+    "title": "unchanged; incoming anchor 집을 고를 때는 출퇴근 시간부터 보세요 preserved",
+    "cost_tag": "unchanged",
+    "evidence_grade": "B unchanged",
+    "controversy_flag": "논쟁 있음. remains first",
+    "prior_approved_field_proposals": "entry18 editorial-decisions proposal=null; no prior approved field replacement found",
+    "immutable_files": "pure/input/source/public/approved files not edited"
+  },
+  "sentence_measurements": [
+    {
+      "field": "쉽게",
+      "sentence": "긴 출퇴근은 낮은 삶의 질과 관련이 있습니다.",
+      "len": 25
+    },
+    {
+      "field": "쉽게",
+      "sentence": "주 5일 왕복한다면 편도 30분 단축은 주 5시간 절약입니다.",
+      "len": 34
+    },
+    {
+      "field": "쉽게",
+      "sentence": "이사하면 삶의 질이 나아진다고 단정할 수는 없습니다.",
+      "len": 29
+    },
+    {
+      "field": "이득",
+      "sentence": "취업자(15세 이상)는 평균 1시간 46분입니다.",
+      "len": 27
+    },
+    {
+      "field": "이득",
+      "sentence": "여러 연구를 종합한 리뷰에서도 출퇴근이 길수록 통근 만족도가 낮았습니다.",
+      "len": 40
+    },
+    {
+      "field": "이득",
+      "sentence": "이 관계는 교통수단에 관계없이 나타났습니다.",
+      "len": 24
+    },
+    {
+      "field": "이득",
+      "sentence": "주 5일 왕복할 때 편도 30분을 줄이면 주당 약 5시간을 아낍니다.",
+      "len": 38
+    },
+    {
+      "field": "이득",
+      "sentence": "30분×2회×5일을 계산한 값이며 연구에서 측정한 절약량은 아닙니다.",
+      "len": 38
+    },
+    {
+      "field": "비고",
+      "sentence": "더 좋은 일자리나 주거로 손해를 보상받는다는 해석도 있습니다.",
+      "len": 34
+    },
+    {
+      "field": "비고",
+      "sentence": "혼잡한 시간대를 피하면 같은 거리도 이동 시간이 줄어들 수 있습니다.",
+      "len": 38
+    },
+    {
+      "field": "비고",
+      "sentence": "다만 근무 조건 때문에 시간대를 바꾸기 어려울 수 있습니다.",
+      "len": 33
+    },
+    {
+      "field": "비고",
+      "sentence": "실제 절약 시간은 출근 일수와 왕복 경로에 따라 다릅니다.",
+      "len": 32
+    },
+    {
+      "field": "비고",
+      "sentence": "이사로 삶의 질이 나아지는 인과효과를 입증한 것은 아닙니다.",
+      "len": 33
+    },
+    {
+      "field": "비고",
+      "sentence": "절약 시간의 금전 가치는 여기서 추산하지 않았습니다.",
+      "len": 29
+    }
+  ],
+  "easy_total_characters": 90,
+  "easy_sentences": 3,
+  "arithmetic": {
+    "expression": "30 minutes × 2 directions/day × 5 days/week = 300 minutes/week = 5 hours/week",
+    "level": "author conditional arithmetic, not primary study estimate",
+    "other_conditions": "출근 일수, 왕복 경로 및 양방향 각각30분 단축 여부에 따라 실제값 다름"
+  },
+  "ratio_review": "No OR/RR/HR or personal-probability calculation appears in this entry. No monetary valuation inferred.",
+  "source_conflict_review": "독일 패널의 낮은 삶의 질 연관과 리뷰의 전체 삶 만족도 비일관성은 서로 다른 근거의 범위 차이로 비고에 함께 유지. 원자료 수치 충돌이나 공식 정정문은 발견하지 못했으며 별도 정정문 전수검색은 하지 않음.",
+  "limitations": [
+    "Stutzer full text not read; abstract plus Chatterjee review description only.",
+    "Chatterjee underlying primary studies not independently verified.",
+    "한국 이동시간은 출퇴근만이 아닌 전체 이동; 원문 비고 보존.",
+    "이사 행복효과·실제 시간절약 개입효과·금전가치는 직접 입증/측정한 것으로 쓰지 않음.",
+    "혼잡시간 회피의 실제 시간단축 크기는 인용 근거에서 별도 확인하지 못함; 가능성으로 한정."
+  ]
+}

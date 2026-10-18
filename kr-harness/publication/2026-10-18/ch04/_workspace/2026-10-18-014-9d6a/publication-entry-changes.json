@@ -1,0 +1,159 @@
+{
+  "entry": 14,
+  "status": "unadopted_pending_independent_exact_hash_review",
+  "strict_entry_sha256": "71dbe0e0027b3576056d4d6c95af2f6b8353004c6befe28c7239a38730235ace",
+  "proposal_sha256": "31d7d505d7730211fb790801037da4e88c80ba6118fda3019a2c9dab3271bb50",
+  "changes": [
+    {
+      "field": "쉽게",
+      "before": "한국인(10세 이상)은 하루 평균 1시간 52분을 가사노동에 씁니다. 돈을 써서 시간을 확보한 사람은 생활 만족도가 더 높았습니다. 같은 돈을 써도 물건보다 시간을 살 때 당장의 기분이 더 좋아졌습니다.",
+      "after": "집안일을 맡길 때는 비용과 절약할 시간을 비교하세요. 시간을 사는 데 돈을 쓴 사람은 생활 만족도가 더 높았습니다. 일하는 성인 대상 실험에서는 물건보다 시간을 샀을 때 기분이 더 좋아졌습니다.",
+      "reason": "생활 만족도의 관찰 연관과 별도 실험의 기분 차이를 구분하고 권고를 간결하게 제시."
+    },
+    {
+      "field": "이득",
+      "before": "2024년 생활시간조사에서 가사노동 시간을 조사했습니다. 국민(10세 이상)은 하루 평균 1시간 52분을 썼습니다. 가정관리와 가족 돌봄을 합친 시간입니다. 5년 전보다 4분 줄었습니다. 다른 연구는 네 나라의 6271명을 조사했습니다. 시간을 사는 데 돈을 쓰는 사람은 생활 만족도가 더 높았습니다. 연구진은 실제 생활에서 실험도 했습니다. 같은 돈을 써도 물건보다 시간을 살 때 당장의 행복감이 더 높아졌습니다.",
+      "after": "2024년 생활시간조사에서 가사노동 시간을 조사했습니다. 국민(10세 이상)은 하루 평균 1시간 52분을 썼습니다. 가정관리와 가족 및 가구원 돌보기를 합친 시간입니다. 2019년의 1시간 56분보다 4분 줄었습니다. 다른 연구는 네 나라의 6271명을 조사했습니다. 시간을 사는 데 돈을 쓰는 사람은 생활 만족도가 더 높았습니다. 이 비교만으로 돈을 써서 만족도가 높아졌다고 단정할 수는 없습니다. 별도로 일하는 성인을 대상으로 실제 생활에서 실험도 했습니다. 물건보다 시간을 사는 데 돈을 쓴 뒤 행복감이 더 높았습니다.",
+      "reason": "10세 이상 전체 국민 분모와 가구원 돌보기 범위 명시. 네 나라 6271명 비교와 일하는 성인 대상 별도 실험을 분리하고 인과 한계를 명시."
+    },
+    {
+      "field": "비고",
+      "before": "시급은 한 달 세후 수입 ÷ 한 달 실제 근무 시간으로 계산하세요. 그다음 집안일을 맡기는 비용과 비교하세요. 외주 단가가 자기 시급보다 낮아야 합니다. 절약한 시간을 실제로 돈을 벌거나 쉬는 데 쓴다면 맡기세요. 시급과 외주비는 사람마다 다르니 직접 계산하세요. Whillans는 시간을 산 뒤 기분이 좋아지는지를 측정했습니다. 몇 시간이 남는지를 잰 연구는 아닙니다. 한국 통계도 총량일 뿐 외주와의 관계를 보여 주지 않습니다.",
+      "after": "시급은 한 달 세후 수입 ÷ 한 달 실제 근무 시간으로 계산하세요. 그다음 집안일을 맡기는 비용과 비교하세요. 외주 단가와 자기 시급의 비교는 지은이가 제안하는 판단기준입니다. 쉬려고 맡길 때는 비용을 감당할 수 있는지도 따져보세요. 절약한 시간을 실제로 돈을 벌거나 쉬는 데 쓴다면 맡기세요. 시급과 외주비는 사람마다 다르니 직접 계산하세요. Whillans는 시간을 산 뒤 기분이 좋아지는지를 측정했습니다. 이 결과만으로 몇 시간이 남는지는 알 수 없습니다. 한국 통계도 총량일 뿐 외주와의 관계를 보여 주지 않습니다.",
+      "reason": "외주비<시급을 휴식 가치의 필요조건으로 단정하지 않고 저자의 판단기준으로 구분. 절약시간 미측정을 초록만으로 단정하지 않도록 결과의 해석한계로 표현."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://doi.org/10.1073/pnas.1706541114",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/08f732b5bcb3c9861f9f.json",
+      "sha256": "83897b2a0b8015bba63d650b1d7bbd58d6e682c30f51b1e3f6e45a0e9ad429ef",
+      "verified_at": "2026-10-18T16:00:14.951738+00:00",
+      "method": "기존 Europe PMC 원시 JSON의 원논문 초록 전체 직접 열람. 본문 미열람.",
+      "exact_quote": "Around the world, increases in wealth have produced an unintended consequence: a rising sense of time scarcity. We provide evidence that using money to buy time can provide a buffer against this time famine, thereby promoting happiness. Using large, diverse samples from the United States, Canada, Denmark, and The Netherlands (<i>n</i> = 6,271), we show that individuals who spend money on time-saving services report greater life satisfaction. A field experiment provides causal evidence that working adults report greater happiness after spending money on a time-saving purchase than on a material purchase. Together, these results suggest that using money to buy time can protect people from the detrimental effects of time pressure on life satisfaction."
+    },
+    {
+      "url": "https://www.mods.go.kr/boardDownload.es?bid=220&list_no=437764&seq=9",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch04-audit/time-use-2024.pdf",
+      "sha256": "d4c59023bd2e73cb5352d256f14d5d99f78465dba0383e751d39452aa444c9e9",
+      "verified_at": "2026-10-18T16:00:14.957224+00:00",
+      "method": "기존 공식 PDF 물리13쪽 PyMuPDF 직접 추출 및 표 대조",
+      "exact_quotes": [
+        "< 전 국민(10세 이상)의 시간사용 추이 >",
+        "가사노동2\n1:57\n1:54\n1:54\n1:55\n1:56\n1:52\n-0:04\n-0:05",
+        "2. 가정관리, 가족 및 가구원 돌보기"
+      ]
+    }
+  ],
+  "intentional_numerical_scope_changes": [
+    "1시간52분·4분·네 나라6271명 유지. 2019년1시간56분은 직접 읽은 공식 표 비교값을 명시.",
+    "가족 돌봄을 가족 및 가구원 돌보기로 정확화.",
+    "외주 단가가 시급보다 낮아야 한다는 의무조건을 저자의 비교기준으로 수정."
+  ],
+  "doi_changes": [],
+  "unchanged": [
+    "제목",
+    "비용",
+    "근거등급",
+    "출처",
+    "비용 태그"
+  ],
+  "limitations": [
+    "Whillans 논문 초록만 읽었으며 본문 실험 세부설계와 절약시간 측정 여부는 독립 확인하지 않음.",
+    "시급 비교와 휴식 선택 권고는 연구에서 검증된 가격 기준이 아닌 저자의 판단 제안."
+  ],
+  "sentence_checks": {
+    "쉽게": [
+      {
+        "text": "집안일을 맡길 때는 비용과 절약할 시간을 비교하세요.",
+        "len": 29
+      },
+      {
+        "text": "시간을 사는 데 돈을 쓴 사람은 생활 만족도가 더 높았습니다.",
+        "len": 34
+      },
+      {
+        "text": "일하는 성인 대상 실험에서는 물건보다 시간을 샀을 때 기분이 더 좋아졌습니다.",
+        "len": 43
+      }
+    ],
+    "이득": [
+      {
+        "text": "2024년 생활시간조사에서 가사노동 시간을 조사했습니다.",
+        "len": 31
+      },
+      {
+        "text": "국민(10세 이상)은 하루 평균 1시간 52분을 썼습니다.",
+        "len": 32
+      },
+      {
+        "text": "가정관리와 가족 및 가구원 돌보기를 합친 시간입니다.",
+        "len": 29
+      },
+      {
+        "text": "2019년의 1시간 56분보다 4분 줄었습니다.",
+        "len": 26
+      },
+      {
+        "text": "다른 연구는 네 나라의 6271명을 조사했습니다.",
+        "len": 27
+      },
+      {
+        "text": "시간을 사는 데 돈을 쓰는 사람은 생활 만족도가 더 높았습니다.",
+        "len": 35
+      },
+      {
+        "text": "이 비교만으로 돈을 써서 만족도가 높아졌다고 단정할 수는 없습니다.",
+        "len": 37
+      },
+      {
+        "text": "별도로 일하는 성인을 대상으로 실제 생활에서 실험도 했습니다.",
+        "len": 34
+      },
+      {
+        "text": "물건보다 시간을 사는 데 돈을 쓴 뒤 행복감이 더 높았습니다.",
+        "len": 34
+      }
+    ],
+    "비고": [
+      {
+        "text": "시급은 한 달 세후 수입 ÷ 한 달 실제 근무 시간으로 계산하세요.",
+        "len": 37
+      },
+      {
+        "text": "그다음 집안일을 맡기는 비용과 비교하세요.",
+        "len": 23
+      },
+      {
+        "text": "외주 단가와 자기 시급의 비교는 지은이가 제안하는 판단기준입니다.",
+        "len": 36
+      },
+      {
+        "text": "쉬려고 맡길 때는 비용을 감당할 수 있는지도 따져보세요.",
+        "len": 31
+      },
+      {
+        "text": "절약한 시간을 실제로 돈을 벌거나 쉬는 데 쓴다면 맡기세요.",
+        "len": 33
+      },
+      {
+        "text": "시급과 외주비는 사람마다 다르니 직접 계산하세요.",
+        "len": 27
+      },
+      {
+        "text": "Whillans는 시간을 산 뒤 기분이 좋아지는지를 측정했습니다.",
+        "len": 36
+      },
+      {
+        "text": "이 결과만으로 몇 시간이 남는지는 알 수 없습니다.",
+        "len": 28
+      },
+      {
+        "text": "한국 통계도 총량일 뿐 외주와의 관계를 보여 주지 않습니다.",
+        "len": 33
+      }
+    ]
+  },
+  "easy_char_count": 108,
+  "approval": false
+}

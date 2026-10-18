@@ -1,0 +1,260 @@
+{
+  "status": "approved_all_five_exact_latest_proposals_for_root_copy",
+  "reviewed_at": "2026-10-18T16:33:19.923534+00:00",
+  "reviewer": "publication_final_04",
+  "manifest": {
+    "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/post-formal-batch-2-r2.json",
+    "sha256": "eaa8f96659c77cc28dea9ab65086f8f2dd06f1631c70926771db0dc047bb093c"
+  },
+  "previous_review_preserved": {
+    "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/final-review-evidence/post-formal-review-r2.json",
+    "sha256": "ad4db73522aea5062792fa57f3fe585de4ef0b790e5e721a1611d758565eb549"
+  },
+  "original_current_public": {
+    "path": "/workspace/HowToLiveBetter-KR/book-kr/04-시간-낭비-줄이기.md",
+    "raw_sha256": "778cd1e94739315897db896368700675ef65b4e45c93034531b737ea4dd152e6",
+    "cli_sha256": "c20bf097077de64ba46d2fd72e0af61380b18937d3a5d3bdefdf7baafcb75c58"
+  },
+  "formal_report_preserved": {
+    "path": "/workspace/HowToLiveBetter-KR/kr-harness/chapters/04/kr-fit-review.md",
+    "sha256": "2e822faf44cc48a92f2e7581a9b2270adc209956a93c603edc913b61d015fb98",
+    "result": "fail blockers1 warn10"
+  },
+  "counts": {
+    "approve": 5,
+    "revise": 0,
+    "reject": 0
+  },
+  "entries": [
+    {
+      "entry": 6,
+      "decision": "approve",
+      "base": "original_current_public_entry",
+      "before_entry_sha256": "ec77928fed66be904053159f0d411e9f8872c849f12dea188e5e4d7091c35c99",
+      "replacement": {
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-006-f386/publication-formal-correction-r1.md",
+        "sha256": "badb6094dcd9a00a2778d05f96d1d6f70c9adaaf30c504a491ca1bd0016fde52"
+      },
+      "changes": {
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-006-f386/publication-formal-correction-changes-r1.json",
+        "sha256": "33e93b0f9eef4b02d18c570b25a2a467d89277b2468d6ef7f17c515684ce8ec4"
+      },
+      "checks": {
+        "reconstructed_from_exact_current_entry": true,
+        "protected_title_tag_grade_sources_dois_identical": true,
+        "no_number_lost": true,
+        "numeric_multiplicity_addition": {},
+        "easy_chars": 73,
+        "easy_sentences": 3,
+        "max_literal_prose_sentence_chars": 46,
+        "title_chars": 29
+      },
+      "reason": "범세계적 비교연구 부재를 인용 연구에서의 미확인으로 좁힘. Rogelberg 초록의 조사범위와 모순 없음. Luong 미확인 유지."
+    },
+    {
+      "entry": 8,
+      "decision": "approve",
+      "base": "original_current_public_entry",
+      "before_entry_sha256": "1edb515a0fa818e358eabe8a6574259f9f63231b1a3dc068f4ab5e09a6271124",
+      "replacement": {
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-008-b4b7/publication-formal-correction-r1.md",
+        "sha256": "5fde9d50b2d761e6e3478ae328f2258eb8adc86e6c1eaad4a2dc832871f521c6"
+      },
+      "changes": {
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-008-b4b7/publication-formal-correction-changes-r1.json",
+        "sha256": "fa51ce1d33b27be4972441ef82d2b628abf840cf35063e7dc2f712daca4e7f41"
+      },
+      "checks": {
+        "reconstructed_from_exact_current_entry": true,
+        "protected_title_tag_grade_sources_dois_identical": true,
+        "no_number_lost": true,
+        "numeric_multiplicity_addition": {},
+        "easy_chars": 75,
+        "easy_sentences": 2,
+        "max_literal_prose_sentence_chars": 42,
+        "title_chars": 29
+      },
+      "reason": "자가 마감 효과 미측정의 범위를 인용 연구로 한정. 새로운 효과나 수치를 주장하지 않음. Buehler 원문 미확인 유지."
+    },
+    {
+      "entry": 10,
+      "decision": "approve",
+      "base": "original_current_public_entry",
+      "before_entry_sha256": "307a7dd9f8dc81d839d3472b01726df794b977233d6d253d15259d45db1a692b",
+      "replacement": {
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-010-c59f/publication-formal-correction-r2.md",
+        "sha256": "ccc0421dedaf583a873c0fdf79632763d64b0df41cbfc211a5643de6f43a602a"
+      },
+      "changes": {
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-010-c59f/publication-formal-correction-changes-r2.json",
+        "sha256": "d659b9211072e45f559cd0a83d44cf354a9f38e240d32c3ba64c41e2d11eaedc"
+      },
+      "checks": {
+        "reconstructed_from_exact_current_entry": true,
+        "protected_title_tag_grade_sources_dois_identical": true,
+        "no_number_lost": true,
+        "numeric_multiplicity_addition": {},
+        "easy_chars": 72,
+        "easy_sentences": 3,
+        "max_literal_prose_sentence_chars": 37,
+        "title_chars": 30
+      },
+      "reason": "음식 리뷰의 범위와 현행 제3절 제1항의 알림 연구/시야 밖 배치 제안을 구분. B1 문장과 문헌 전체 부재 단정을 해소."
+    },
+    {
+      "entry": 14,
+      "decision": "approve",
+      "base": "original_current_public_entry",
+      "before_entry_sha256": "31d7d505d7730211fb790801037da4e88c80ba6118fda3019a2c9dab3271bb50",
+      "replacement": {
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-014-9d6a/publication-formal-correction-r1.md",
+        "sha256": "03854895f467339f2185d006f2b187c6a6cd23f4131073aabca7d0ca780d8cd1"
+      },
+      "changes": {
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-014-9d6a/publication-formal-correction-changes-r1.json",
+        "sha256": "91ce04572a3ad06bb0428125f447431e1f829fbbe5c1600b1de095f028d86251"
+      },
+      "checks": {
+        "reconstructed_from_exact_current_entry": true,
+        "protected_title_tag_grade_sources_dois_identical": true,
+        "no_number_lost": true,
+        "numeric_multiplicity_addition": {},
+        "easy_chars": 101,
+        "easy_sentences": 3,
+        "max_literal_prose_sentence_chars": 37,
+        "title_chars": 27
+      },
+      "reason": "일하는 성인 모집단과 시간을 산 뒤의 기분 결과를 보존하면서 쉽게의 연구설계 표현만 제거. 이득의 관찰/실험 구별 유지."
+    },
+    {
+      "entry": 15,
+      "decision": "approve",
+      "base": "original_current_public_entry",
+      "before_entry_sha256": "72bc40fc37dce0e6857ce9ea2e5316bb638a6ba6d8ced87393b6d10328416ad8",
+      "replacement": {
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-015-4e59/publication-formal-correction-r3.md",
+        "sha256": "89667f036a2fa21725a7198f44a176b421cf6b5ac41b1d6f5717bc5664950b0d"
+      },
+      "changes": {
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-015-4e59/publication-formal-correction-changes-r3.json",
+        "sha256": "a09cd65cb3c6110a0a2b694bab2706bba4b8025a3e79ae6712bab5831621d72b"
+      },
+      "checks": {
+        "reconstructed_from_exact_current_entry": true,
+        "protected_title_tag_grade_sources_dois_identical": true,
+        "no_number_lost": true,
+        "numeric_multiplicity_addition": {
+          "365": 1
+        },
+        "easy_chars": 95,
+        "easy_sentences": 3,
+        "max_literal_prose_sentence_chars": 45,
+        "title_chars": 25
+      },
+      "reason": "쉽게의 선행대상 없는 위를 없애고 앞문장의 연간365시간이 실측 절약량이 아님을 자체 설명. 비고의 제한은 생활시간조사 범위에 한정하며 특정 페이스북 중단 교차참조와 모순 없음."
+    }
+  ],
+  "approved_ops": [
+    {
+      "entry": 6,
+      "base": "original_current_public_entry",
+      "before_entry_sha256": "ec77928fed66be904053159f0d411e9f8872c849f12dea188e5e4d7091c35c99",
+      "status": "approved",
+      "replacement": {
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-006-f386/publication-formal-correction-r1.md",
+        "sha256": "badb6094dcd9a00a2778d05f96d1d6f70c9adaaf30c504a491ca1bd0016fde52"
+      },
+      "changes": {
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-006-f386/publication-formal-correction-changes-r1.json",
+        "sha256": "33e93b0f9eef4b02d18c570b25a2a467d89277b2468d6ef7f17c515684ce8ec4"
+      }
+    },
+    {
+      "entry": 8,
+      "base": "original_current_public_entry",
+      "before_entry_sha256": "1edb515a0fa818e358eabe8a6574259f9f63231b1a3dc068f4ab5e09a6271124",
+      "status": "approved",
+      "replacement": {
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-008-b4b7/publication-formal-correction-r1.md",
+        "sha256": "5fde9d50b2d761e6e3478ae328f2258eb8adc86e6c1eaad4a2dc832871f521c6"
+      },
+      "changes": {
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-008-b4b7/publication-formal-correction-changes-r1.json",
+        "sha256": "fa51ce1d33b27be4972441ef82d2b628abf840cf35063e7dc2f712daca4e7f41"
+      }
+    },
+    {
+      "entry": 10,
+      "base": "original_current_public_entry",
+      "before_entry_sha256": "307a7dd9f8dc81d839d3472b01726df794b977233d6d253d15259d45db1a692b",
+      "status": "approved",
+      "replacement": {
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-010-c59f/publication-formal-correction-r2.md",
+        "sha256": "ccc0421dedaf583a873c0fdf79632763d64b0df41cbfc211a5643de6f43a602a"
+      },
+      "changes": {
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-010-c59f/publication-formal-correction-changes-r2.json",
+        "sha256": "d659b9211072e45f559cd0a83d44cf354a9f38e240d32c3ba64c41e2d11eaedc"
+      }
+    },
+    {
+      "entry": 14,
+      "base": "original_current_public_entry",
+      "before_entry_sha256": "31d7d505d7730211fb790801037da4e88c80ba6118fda3019a2c9dab3271bb50",
+      "status": "approved",
+      "replacement": {
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-014-9d6a/publication-formal-correction-r1.md",
+        "sha256": "03854895f467339f2185d006f2b187c6a6cd23f4131073aabca7d0ca780d8cd1"
+      },
+      "changes": {
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-014-9d6a/publication-formal-correction-changes-r1.json",
+        "sha256": "91ce04572a3ad06bb0428125f447431e1f829fbbe5c1600b1de095f028d86251"
+      }
+    },
+    {
+      "entry": 15,
+      "base": "original_current_public_entry",
+      "before_entry_sha256": "72bc40fc37dce0e6857ce9ea2e5316bb638a6ba6d8ced87393b6d10328416ad8",
+      "status": "approved",
+      "replacement": {
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-015-4e59/publication-formal-correction-r3.md",
+        "sha256": "89667f036a2fa21725a7198f44a176b421cf6b5ac41b1d6f5717bc5664950b0d"
+      },
+      "changes": {
+        "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-015-4e59/publication-formal-correction-changes-r3.json",
+        "sha256": "a09cd65cb3c6110a0a2b694bab2706bba4b8025a3e79ae6712bab5831621d72b"
+      }
+    }
+  ],
+  "evidence_basis": {
+    "prior_four_exact_proposals_unchanged_and_reconfirmed": true,
+    "actual_current_reference": {
+      "path": "/workspace/HowToLiveBetter-KR/book-kr/03-기력-낭비-줄이기.md",
+      "raw_sha256": "4a28ef24bf2def0a43f93bb2e2daad4bc53959f47322f6fcdf85a6a60480420e",
+      "entries": [
+        {
+          "entry": 1,
+          "entry_sha256": "a00b45c42591331940fa058912b9fc76f8ba364d7cf6e4949eaf186f0eceba63",
+          "scope": "actual current reference entry reread; no underlying paper reopened"
+        },
+        {
+          "entry": 20,
+          "entry_sha256": "b14b78bd06970122775e2dd023ebe3502d83828f94c11a769bd960b43094f8e0",
+          "scope": "actual current reference entry reread; no underlying paper reopened"
+        }
+      ]
+    },
+    "official_pdf": {
+      "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/final-review-evidence/time-use.raw",
+      "sha256": "d4c59023bd2e73cb5352d256f14d5d99f78465dba0383e751d39452aa444c9e9",
+      "scope": "same official PDF physically13/22 table text directly rechecked; total diary data, not restriction intervention"
+    },
+    "source_read_scope": "This closure rereads current entry/proposals and actual reference20 plus official survey extracted table context. Other primary abstract reads from r2 remain exact unchanged evidence, no new HTTP/full-paper claim."
+  },
+  "numeric_note": "Entry15 repeats the already-existing365 in the easy limitation sentence. One extra365 token, zero lost numbers and no new numeric value/endpoint/estimate. This is explicitly approved, not numeric-token multiset equality.",
+  "limits": [
+    "Current public and formal fail1/warn10 unchanged. Root must verify raw public SHA and original individual entry SHAs, apply these five full replacements once, and request fresh formal review at new CLI hash.",
+    "Entry10r2 supersedes10r1; entry15r3 supersedes15r1/r2. Older proposals/reviews retained and must not also be applied.",
+    "Unverified original papers/program Korean availability/participant means/Internet statistics remain unresolved; this scope correction does not close those source checks."
+  ]
+}

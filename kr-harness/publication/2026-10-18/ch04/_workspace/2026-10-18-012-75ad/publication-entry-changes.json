@@ -1,0 +1,79 @@
+{
+  "status": "unadopted_proposal",
+  "entry": 12,
+  "base": {
+    "path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-012-75ad/strict-entry.md",
+    "sha256": "312f76c59a51c066af80f153a9668e28442eb932e2d37a70a11a8a125abf4c10"
+  },
+  "proposal_sha256": "ac332adc3253def953c7e8c890fb41bdbee85cc24b1b8032fed348f10a3132e5",
+  "changes": [
+    {
+      "field": "쉽게",
+      "before": "「21일이면 습관이 된다」는 근거가 없습니다. 12주 동안 관찰한 연구에서 습관이 형성되는 시간은 달랐습니다. 빠르면 18일, 늦으면 254일이 걸렸습니다. 2~3주가 지나도 동작이 익숙해지지 않을 수 있습니다. 하루 건너뛰어도 처음부터 다시 시작할 필요는 없습니다.",
+      "after": "같은 상황에서 매일 한 단순한 동작의 습관 형성은 18~254일로 추정됐습니다. 「21일」로 정할 근거는 없으며 2~3주 지나도 익숙하지 않을 수 있습니다. 하루 건너뛰어도 처음부터 다시 시작할 필요는 없습니다.",
+      "reason": "추정치·단순 일일 동작 범위와 21일 근거 부족을 보존하고, 처음부터 재시작 불필요라는 뜻을 명확히 했습니다.",
+      "sentence_lengths": [
+        44,
+        42,
+        30
+      ]
+    },
+    {
+      "field": "이득",
+      "before": "지원자 96명은 먹기·마시기·움직이기 중 동작 하나를 골랐습니다. 「아침 식사 후」처럼 정해진 상황에서 12주 동안 매일 했습니다. 동작이 얼마나 저절로 되는지도 매일 점수로 매겼습니다. 분석에 쓸 수 있는 자료를 남긴 사람은 82명이었습니다. 그중 62명은 자료가 모형에 맞았습니다. 자동화 정도가 개인별 최대치의 95%에 이르기까지 18일부터 254일까지 걸렸습니다. 한 번 건너뛰어도 습관 형성에 실질적인 영향은 없었습니다.",
+      "after": "지원자 96명은 먹기·마시기·움직이기 중 동작 하나를 골랐습니다. 「아침 식사 후」처럼 정해진 상황에서 12주 동안 매일 했습니다. 동작이 얼마나 저절로 되는지도 매일 점수로 매겼습니다. 분석에 쓸 수 있는 자료를 남긴 사람은 82명이었습니다. 그중 62명은 자료가 모형에 맞았습니다. 이 중 39명은 모형이 자료에 잘 맞았습니다. 자동화 정도는 동작이 저절로 되는 정도입니다. 개인별 최대치의 95%까지 걸리는 시간을 모형으로 추정했습니다. 추정치는 18일부터 254일까지로 개인차가 컸습니다. 254일은 12주 관찰에서 실제로 확인한 도달 시간이 아닙니다. 한 번 건너뛰어도 습관 형성에 실질적인 영향은 없었습니다.",
+      "reason": "84일 자료를 이용한 모형 추정치를 실측 도달 시간과 구별했습니다. 62명 중 39명 good fit 조건 및 개인차를 드러냈습니다.",
+      "sentence_lengths": [
+        36,
+        36,
+        30,
+        31,
+        22,
+        25,
+        25,
+        35,
+        29,
+        35,
+        32
+      ]
+    }
+  ],
+  "verification": {
+    "date": "2026-10-18T15:23:10.396958+00:00",
+    "method": "기존 Crossref JSON에 수록된 원논문 JATS 초록을 직접 읽었습니다. 본문은 읽지 않았습니다.",
+    "level": "primary abstract via Crossref",
+    "url": "https://api.crossref.org/works/10.1002%2Fejsp.674",
+    "doi_url": "https://doi.org/10.1002/ejsp.674",
+    "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/crossref/248f8ea4bd81051a8323.json",
+    "raw_sha256": "c10ffe61aa82f253dbee7916b9c2e572bdd2cdc1cd9864cf31948eab236deac7",
+    "original_fetched_at": "2026-10-18T20:52:29.475838+09:00",
+    "exact_primary_quotation": "<jats:title>Abstract</jats:title>\n                  <jats:p>To investigate the process of habit formation in everyday life, 96 volunteers chose an eating, drinking or activity behaviour to carry out daily in the same context (for example ‘after breakfast’) for 12 weeks. They completed the self‐report habit index (SRHI) each day and recorded whether they carried out the behaviour. The majority (82) of participants provided sufficient data for analysis, and increases in automaticity (calculated with a sub‐set of SRHI items) were examined over the study period. Nonlinear regressions fitted an asymptotic curve to each individual's automaticity scores over the 84 days. The model fitted for 62 individuals, of whom 39 showed a good fit. Performing the behaviour more consistently was associated with better model fit. The time it took participants to reach 95% of their asymptote of automaticity ranged from 18 to 254 days; indicating considerable variation in how long it takes people to reach their limit of automaticity and highlighting that it can take a very long time. Missing one opportunity to perform the behaviour did not materially affect the habit formation process. With repetition of a behaviour in a consistent context, automaticity increases following an asymptotic curve which can be modelled at the individual level. Copyright © 2009 John Wiley &amp; Sons, Ltd.</jats:p>"
+  },
+  "approval_provenance": {
+    "editorial_decisions_path": "../../editorial-decisions.json",
+    "prior_semantic_correction_decision": "approve",
+    "prior_approved_before": "자동화 정도가 개인별 최대치의 95%에 이르기까지 18일부터 254일까지 걸렸습니다.",
+    "prior_approved_after": "자동화 정도가 개인별 최대치의 95%에 이르기까지 걸리는 시간은 모형에서 18일부터 254일까지로 추정됐습니다.",
+    "note": "승인된 의미를 보존하되 새 문장 50자 제한에 맞춰 나눴으므로 이 제안은 별도 정확해시 검토가 필요합니다. 기존 승인 파일은 불변입니다."
+  },
+  "intentional_changes": [
+    "18~254일의 모형 추정 의미를 명시; 숫자 자체 변경 없음",
+    "모형적합 62명 중 good fit 39명 추가; 96명 모집/82명 분석/단순행동/12주 관찰 보존"
+  ],
+  "doi_changes": [],
+  "source_conflict": null,
+  "limitations": [
+    "원논문 초록을 직접 확인했으며 본문과 보충자료는 읽지 않았습니다.",
+    "매일 글쓰기와 주3회 달리기 미측정 유보는 기존대로 보존했습니다."
+  ],
+  "easy_chars": 118,
+  "length_exception": false,
+  "unchanged_fields": [
+    "title",
+    "비용",
+    "근거등급",
+    "출처",
+    "비고",
+    "cost_tag"
+  ]
+}

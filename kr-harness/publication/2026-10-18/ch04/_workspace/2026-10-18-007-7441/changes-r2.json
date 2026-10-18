@@ -1,0 +1,137 @@
+{
+  "status": "unadopted_proposal",
+  "entry": 7,
+  "revision": 2,
+  "base_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-007-7441/publication-entry-proposal.md",
+  "base_sha256": "f1057c25361e92ddfe2eac108775372cd343efd5d2a74c19e24161f814a3fe8b",
+  "strict_base_sha256": "ad14a95affe3c622c1a0f117badda182c0ba27dc7376367082763a5bb5195d8d",
+  "proposal_sha256": "add6647eeeeddbc0e95f39cae0a5e340ec1deda970112d2a811b8ae0b52e2705",
+  "changes": [
+    {
+      "field": "비용",
+      "before": "돈이 안 듭니다. 일을 쪼개는 데 5~15분 걸립니다.",
+      "after": "돈이 안 듭니다. 일을 쪼개는 데 5~15분은 저자의 예상 소요시간입니다.",
+      "reason": "5~15분을 연구 측정값이 아닌 저자의 비용 예상으로 명확히 합니다."
+    },
+    {
+      "field": "이득",
+      "before": "사람은 여러 작업이 섞인 일을 스스로 나눠 시간을 잡지는 않습니다. 문헌 검토 쓰기, 논의 쓰기, 참고문헌 정리는 서로 다른 작업입니다. 작은 작업부터 나열하면 기한을 너무 짧게 잡는 계획 오류를 줄일 수 있습니다. 각 단계를 곧바로 할 수 있는 행동으로 나눠 보세요. 이 권고는 저자의 실천 조언입니다. Steel의 검토에서는 일에 대한 싫음과 미루기의 연관이 강했습니다. 일이 뒤로 밀리는 정도도 미루기와 강한 연관을 보였습니다. 이는 행동 세분화로 미루기가 줄어드는지 시험한 결과는 아닙니다.",
+      "after": "문헌 검토 쓰기, 논의 쓰기, 참고문헌 정리는 서로 다른 작업입니다. 작은 작업부터 나열해 기한을 잡는 것은 실천 조언입니다. 계획 오류 감소 효과의 구체적인 결과는 확인하지 못했습니다. 각 단계를 곧바로 할 수 있는 행동으로 나눠 보세요. 이 권고는 저자의 실천 조언입니다. Steel의 검토에서는 일에 대한 싫음과 미루기의 연관이 강했습니다. 일이 뒤로 밀리는 정도도 미루기와 강한 연관을 보였습니다. 이는 행동 세분화로 미루기가 줄어드는지 시험한 결과는 아닙니다.",
+      "reason": "미확인 Kruger 결과의 일반적 단정을 제거하고 실천 조언과 구분합니다."
+    }
+  ],
+  "verification_date": "2026-10-18",
+  "primary_attempts": [
+    {
+      "url": "https://api.elsevier.com/content/article/PII:S002210310300177X?httpAccept=text/xml",
+      "checked_at": "2026-10-18T15:48:18.074513+00:00",
+      "status": "failed",
+      "raw_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-007-7441/kruger-r2-attempt-1.raw",
+      "sha256": "fad369b0c7849f1f704e88f974b4e18263421d902d69d932f5c89e416eb81f9f",
+      "bytes": 60,
+      "response_kind": "error representation"
+    },
+    {
+      "url": "https://pages.stern.nyu.edu/~jkruger/Publications/Unpacking.pdf",
+      "checked_at": "2026-10-18T15:48:18.944487+00:00",
+      "status": "failed",
+      "raw_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-007-7441/kruger-r2-attempt-2.raw",
+      "sha256": "9bf7546d375418b7ec70c3fbb6b177ffd12b8921de31ecfdded706a0e5c92fdc",
+      "bytes": 28,
+      "response_kind": "error representation"
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S002210310300177X",
+      "checked_at": "2026-10-18T15:48:18.948601+00:00",
+      "status": "failed",
+      "raw_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-007-7441/kruger-r2-attempt-3.raw",
+      "sha256": "fad369b0c7849f1f704e88f974b4e18263421d902d69d932f5c89e416eb81f9f",
+      "bytes": 60,
+      "response_kind": "error representation"
+    }
+  ],
+  "primary_read_level": "Kruger bibliography only; abstract/fulltext unavailable. Steel cached original abstract only.",
+  "evidence": [
+    {
+      "doi": "10.1037/0033-2909.133.1.65",
+      "url": "https://doi.org/10.1037/0033-2909.133.1.65",
+      "method": "기존 Europe PMC 캐시의 원논문 초록 전체 직접 읽음. 새 HTTP 확인 아님.",
+      "read_level": "abstract only",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/d96cbd6fc03d12ce102e.json",
+      "raw_sha256": "f44e1dec4296a40a4166cf8a59556dbb45aae93c1069cd0fa08e4e3e618a37cb",
+      "exact_quotes": [
+        "Procrastination is a prevalent and pernicious form of self-regulatory failure that is not entirely understood. Hence, the relevant conceptual, theoretical, and empirical work is reviewed, drawing upon correlational, experimental, and qualitative findings. A meta-analysis of procrastination's possible causes and effects, based on 691 correlations, reveals that neuroticism, rebelliousness, and sensation seeking show only a weak connection. Strong and consistent predictors of procrastination were task aversiveness, task delay, self-efficacy, and impulsiveness, as well as conscientiousness and its facets of self-control, distractibility, organization, and achievement motivation. These effects prove consistent with temporal motivation theory, an integrative hybrid of expectancy theory and hyperbolic discounting. Continued research into procrastination should not be delayed, especially because its prevalence appears to be growing."
+      ],
+      "scope": "691 correlations를 합친 미루기 연관 검토. task aversiveness/task delay는 strong and consistent predictors이며 초록은 가장 강한 하나로 순위화하지 않음. 개입별 대상/표본/효과 원값은 초록에 없음."
+    },
+    {
+      "doi": "10.1016/j.jesp.2003.11.001",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S002210310300177X",
+      "method": "Crossref 기존 서지 원응답 직접 열람; 원문 URL urllib 요청은 Tunnel 403으로 실패.",
+      "read_level": "bibliography only; no abstract/full text",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/crossref/b5f4a0084ec4a98592e0.json",
+      "exact_quotes": [],
+      "limitation": "대상, 개입, 측정, 결과 크기, 분모 직접 미확인. 기존 계획 오류 방향 주장은 신규검증으로 표시하지 않음."
+    }
+  ],
+  "kruger_bibliography_raw_sha256": "6ac235e8983bda8a6fca9463d5c7e760cf80d5fe36062630a8daf970aef76774",
+  "exact_primary_quotes": [
+    "Procrastination is a prevalent and pernicious form of self-regulatory failure that is not entirely understood. Hence, the relevant conceptual, theoretical, and empirical work is reviewed, drawing upon correlational, experimental, and qualitative findings. A meta-analysis of procrastination's possible causes and effects, based on 691 correlations, reveals that neuroticism, rebelliousness, and sensation seeking show only a weak connection. Strong and consistent predictors of procrastination were task aversiveness, task delay, self-efficacy, and impulsiveness, as well as conscientiousness and its facets of self-control, distractibility, organization, and achievement motivation. These effects prove consistent with temporal motivation theory, an integrative hybrid of expectancy theory and hyperbolic discounting. Continued research into procrastination should not be delayed, especially because its prevalence appears to be growing."
+  ],
+  "approved_editorial_provenance": {
+    "path": "_workspace/2026-10-18-007-7441/editorial-proposal.json",
+    "sha256": "f803a564e8dd0f40fe6c273bfc71f57c6c68073b94ce556908e384354f9ce269",
+    "candidate_sha256": "1c5e14de8c6be8fc90ad3b3120cd4eb3daf7f3f5875b15c65d9cd5905c9527a1",
+    "field_decisions": [
+      {
+        "field": "todo",
+        "target_field": "비고",
+        "decision": "approve",
+        "reason": "미확인 백분율을 확인 완료로 바꾸지 않고 독자용 표현으로 전환. 다른 미루기 인과단정의 승인은 아님.",
+        "before": "구체적인 백분율은 싣지 않았습니다(TODO 확인 필요).",
+        "after": "구체적인 백분율은 아직 확인하지 못해 싣지 않았습니다.",
+        "before_matches_current_candidate": true,
+        "before_matches_target_field": true,
+        "scope": "지정 제안변경만 승인. 해당 항목의 전체 사실/출판상태/정식KR-FIT 승인 아님."
+      }
+    ]
+  },
+  "canonical_review_sha256": "cc9024602c83bad8d5735957c1f387f8c6ea49cd998c3cd35076f9754d1758bb",
+  "intentional_scope_changes": [
+    "Kruger未검증 계획 오류 감소의 일반 단정과 자동 분할 불가 단정을 제거함.",
+    "5~15분 수치 보존; 저자 예상으로 명시."
+  ],
+  "doi_changes": {
+    "added": [],
+    "removed": [],
+    "reason": "인용 DOI 집합 보존"
+  },
+  "unresolved_limitations": [
+    "Kruger 원논문 초록/본문 미확인. 효과 크기·모집단·분모 미확인.",
+    "Steel 개별 상관계수·표본 범위는 초록만으로 미확인. 행동 세분화 개입효과를 입증한 것으로 쓰지 않음.",
+    "5~15분은 측정 근거를 확인하지 못한 실천 비용 예상."
+  ],
+  "hold": "independent exact-hash review required; not approved",
+  "sentence_lengths": {
+    "비용": [
+      9,
+      31
+    ],
+    "쉽게": [
+      23,
+      28,
+      33
+    ],
+    "이득": [
+      38,
+      31,
+      33,
+      29,
+      19,
+      38,
+      32,
+      35
+    ]
+  },
+  "easy_length": 86
+}

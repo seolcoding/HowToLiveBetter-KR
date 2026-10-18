@@ -1,0 +1,106 @@
+{
+  "status": "approved_for_integration",
+  "reviewed_at": "2026-10-18T16:13:28.066754+00:00",
+  "proposal": {
+    "path": "publication-intro-tail-proposal.json",
+    "sha256": "e6db44d926f4a5939078ac6698176815b9eaa901712e7117e2d8a1f4d499d316"
+  },
+  "latest_manifest": {
+    "path": "author-final-manifest-r2.json",
+    "sha256": "330d243ec88ee62d168c3685576061819a0eae909a911756665df7b6c5a486d5"
+  },
+  "operations": [
+    {
+      "region": "intro",
+      "before": "하루, 일주일, 1년에 몇 시간을 되찾는지 계산합니다. 일을 제때 끝내는 비율이 얼마나 오르는지도 살펴봅니다. 기준은 시간. 시간을 수명이나 돈으로 환산하지 않습니다. 돈이 관련된 경우에는 계산식만 제시합니다. 근거는 주로 연구 한 편이나 생활시간조사 같은 총량 통계입니다. 그래서 근거등급은 B와 C가 대부분입니다.",
+      "after": "하루, 일주일, 1년에 얼마나 시간을 줄일 수 있을지 살펴봅니다. 일을 제때 끝내는 데 도움이 되는 방법도 다룹니다. 기준은 시간. 시간을 수명이나 돈으로 환산하지 않습니다. 돈이 관련된 경우에는 계산식만 제시합니다. 근거에는 여러 연구를 합친 분석과 개별 연구가 섞여 있습니다. 생활시간조사 같은 총량 통계도 활용합니다. 근거등급은 B와 C가 대부분입니다.",
+      "reason": "실측 시간 회수량·완료비율 상승을 절 전체의 공통 결과처럼 예고하지 않습니다. 여러 연구를 합친 분석도 있어 주로 한 편이라는 총괄을 좁힙니다. 시간 단위·비환산·금전 계산식·등급 설명은 보존합니다.",
+      "evidence_entries": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "status": "proposed_unadopted",
+      "before_sha256": "4f237696791bb787ac44db1ec102cd9a7bc158790897163ef4899e6513697bb6",
+      "after_sha256": "84a02163d4c686e2975e3b68282485db2d87684f8ebf48820adf4e1e326fefc1",
+      "decision": "approve",
+      "ordinal": 1
+    },
+    {
+      "region": "tail",
+      "before": "- 가사노동·이동의 행위자(참여자) 평균시간: 통계청 보도자료에 전국 수치가 없다. KOSIS 생활시간조사 통계표에서 확인해 제14·18항 이득 칸을 보강할 것.",
+      "after": "- 제14항·제18항: 가사노동·이동의 참여자 평균시간은 미확인입니다. 전국 수치를 KOSIS 생활시간조사 통계표에서 확인해야 합니다. 본문의 전체 평균과는 구분해야 합니다.",
+      "reason": "공식 보도자료에서 전체 평균을 확인한 것과 참여자 평균의 미확인을 구분합니다. 보도자료 어디에도 전국 수치가 없다는 전면 부재 단정은 하지 않습니다. KOSIS 확인 작업은 남깁니다.",
+      "evidence_entries": [
+        14,
+        18
+      ],
+      "status": "proposed_unadopted",
+      "before_sha256": "0fa1f4f14c753307e8bc085894d0f60b753334a2aa8b6ccf4e0c7e955979e323",
+      "after_sha256": "2b0dc9262cfde4367843c197bfe2153963fc1d7c3eb38b77c7b59d04f4fd5fc5",
+      "decision": "approve",
+      "ordinal": 2
+    },
+    {
+      "region": "tail",
+      "before": "- 제13항: Rozental(2015) 자조 프로그램의 한국어판·국내 무작위시험 존재 여부 확인. 확인되면 비고의 「한국어판은 찾지 못했습니다」 문장을 고칠 것.",
+      "after": "- 제13항: Rozental(2015) 프로그램의 한국어판은 미확인입니다. 국내 무작위시험이 있는지도 확인이 필요합니다. 한국어판 제공 여부와 이용 비용을 확인한 뒤 본문을 보강해야 합니다.",
+      "reason": "최신 r2는 특정 인터넷 프로그램의 시험 결과를 확인했지만 한국어판·비용·국내 시험은 확인하지 않았습니다. 과거 비고 문장의 정확인용은 최신 비고와 달라 삭제하고 미해결 과제는 보존합니다.",
+      "evidence_entries": [
+        13
+      ],
+      "status": "proposed_unadopted",
+      "before_sha256": "bc4ca721105e509adc31231f0c437ea6a956798b2f2c2919c9b0470b346a413f",
+      "after_sha256": "9966562f188eb33223b2fb7a425dce7b59cfd0e87da022902f2206facceae860",
+      "decision": "approve",
+      "ordinal": 3
+    },
+    {
+      "region": "tail",
+      "before": "- 제15항: 원문의 CNNIC 주당 인터넷 시간·숏폼 이용자 수는 원본 검증기록에서도 미확인 상태였고, 한국 대응 통계도 없어 이식하지 않았다. 한국의 개별 「인터넷 총 이용시간」 통계를 1차 출처에서 찾으면 보강할지 검토할 것.",
+      "after": "- 제15항: 원문의 CNNIC 주당 인터넷 시간은 미확인입니다. 숏폼 이용자 수도 원본 검증기록에서 확인되지 않았습니다. 한국 대응 통계도 없어 이식하지 않았습니다. 한국의 「인터넷 총 이용시간」은 1차 출처 확인이 필요합니다. 확인되면 본문을 보강할지 검토해야 합니다.",
+      "reason": "이미 확인한 여가 미디어 총량을 인터넷 총 이용시간 검증으로 확대하지 않습니다. CNNIC 및 한국 대응 인터넷 통계 미확인 과제는 모두 남기고 긴 문장만 나눕니다.",
+      "evidence_entries": [
+        15
+      ],
+      "status": "proposed_unadopted",
+      "before_sha256": "9414c8bad1dbb76dca20efc5f774c6b2f7dcbbf4fa8e645f72d68c9230d1cb11",
+      "after_sha256": "2af9175c7ddc397df53428d59947c45d20b23bb3db38d0ef60151ee384837729",
+      "decision": "approve",
+      "ordinal": 4
+    }
+  ],
+  "entry17_binding_transfer": {
+    "old_sha256": "f5e171982f74fe8af510bda2dea41e01ac9dd7461448fa0436cb22dde1bdaf21",
+    "new_sha256": "d1c0141c9b8ae280b43885d6e7130e4180fbb5ab1936db34b3e7cc30792c4997",
+    "reason": "17r2는학습시간저자예상/속도유보/하루열번저자기준만변경. intro/tail은17고유내용을인용하지않아의미영향없음을대조. 옛제안bytes불변."
+  },
+  "checks": {
+    "unique_before": true,
+    "literal_sentence50": true,
+    "original3_todo_topics_preserved": true,
+    "navigation_banner_chapter_heading_preserved": true
+  },
+  "unresolved_topics": [
+    "KOSIS가사/이동참여자평균",
+    "CBT한국어판/비용/국내시험",
+    "CNNIC및한국인터넷총이용시간"
+  ],
+  "doi_added": [],
+  "doi_dropped": [],
+  "formal_kr_fit": "not_performed"
+}

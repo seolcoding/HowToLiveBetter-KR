@@ -140,3 +140,14 @@ Wiley habit 본문403, Elsevier implementation intentions 터널403은 자료 �
 전역 incoming 참조 검색: 제2항 그만두는조건,제18항 집을고를때는출퇴근시간부터,제10항 만지고싶은것은멀리두기,제1항 몇시에어디서무엇을할지,제15항 짧은영상,제16항 실시간뉴스. 현제안은 제목변경이 없으므로 보존됩니다. 제2절3항과 제3절1/18/20항 대상제목도 직접 대조했습니다.109위기안내·관찰연관한계·논쟁표기·근거등급·모든수치/CI는 별도승인없이 삭제하지 않습니다.
 
 approve/revise/reject는 JSON에 적힌 정확한 제안SHA와 before/after에만 적용됩니다. 제안이 바뀌거나 통합본문이 생기면 다시 대조해야 합니다. 통합본문의 현재해시 독립 KR-FIT가 최종 출판에 필요합니다.
+
+
+# 최신18항목 통합승인으로 갱신
+
+위본문은초기후보당시기록입니다. 현재판정은 **approved_for_integration**이며이최신결정이우선합니다. 초기미승인/후보잔존오류설명은그시점기록으로보존합니다.
+
+최신manifest `author-final-manifest-r2.json` SHA `330d243ec88ee62d168c3685576061819a0eae909a911756665df7b6c5a486d5`. 전체18finding closure와정확SHA는[author-final-review-r1.json](author-final-review-r1.json),설명은[author-final-review-r1.md](author-final-review-r1.md)에있습니다.18/18승인/0수정요청.17r2수정까지대조했습니다. 옛필드편집은최신full단일작업으로대체해중복적용하지않습니다.
+
+intro1/tail3고유span은[intro-tail-review.json](intro-tail-review.json)에서별도승인하며3개미해결주제보존. DOIactual add/drop없음/annotation불필요. baseline항목전체beforeSHA/순서/replacement/changesSHA는canonical결정ordered_entry_operations에고정했습니다.
+
+미접근숫자/효과는삭제·본문한계·저자권고로구분한것이며내용오류확정아닙니다. 모든논문전문검증주장아니며실제미확인은남습니다. 통합본문현재해시독립KR-FIT가별도필요합니다. 공개본문/기존승인/원문/순수run/git는수정하지않았습니다.

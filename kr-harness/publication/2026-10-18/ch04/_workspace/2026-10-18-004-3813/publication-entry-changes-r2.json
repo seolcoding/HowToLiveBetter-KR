@@ -1,0 +1,187 @@
+{
+  "status": "unadopted_proposal",
+  "entry": 4,
+  "revision": "r2",
+  "base": "strict-entry.md",
+  "base_sha256": "7355b55bddeccb9faa832e25b5ee6f27fcec69d0d830ec0d7accf2dd0b6d43db",
+  "previous_frozen_proposal": "publication-entry-proposal.md",
+  "previous_frozen_sha256": "31bd55493718fcd56b0e185ba4f661b57c59972d47599d1a6adb1f932483f1d1",
+  "proposal_sha256": "efcc1d432972492458bbcdcef5bb9f866c768f478943fb3d18b709ff10803aee",
+  "verified_at": "2026-10-18T15:49:42.074767+00:00",
+  "changes": [
+    {
+      "field": "쉽게",
+      "before": "학생들은 논문을 33.9일에 끝낼 수 있다고 예상했습니다. 실제로는 55.5일 걸렸습니다. 자기 예상 안에 끝낸 사람은 29.7%뿐이었습니다. 지난번 비슷한 일을 먼저 떠올리게 한 그룹은 제때 끝낸 비율이 올랐습니다. 29.3%에서 60.0%로 상승했습니다.",
+      "previous_frozen_before": "대학생의 과제 기한을 살펴본 결과입니다. 지난번 비슷한 일을 떠올린 그룹은 60.0%가 제때 끝냈습니다. 대조군은 29.3%였습니다.",
+      "after": "대학생의 과제 기한에 관한 권고입니다. 지난번 비슷한 일의 실제 소요시간을 먼저 보세요. 이 방법의 효과 크기는 원문에서 확인하지 못했습니다.",
+      "reason": "대학생 과제 기한이라는 범위와 권고를 유지하고 미확인 완료비율 대신 효과 크기 미확인을 명시합니다.",
+      "evidencequotes": [],
+      "verification_status": "Buehler 본문 HTTP403; 수치 참거짓 판정 없이 검증 부족으로 구체값 보류."
+    },
+    {
+      "field": "이득",
+      "before": "학생들은 논문 완성에 평균 33.9일이 걸리리라 예상했습니다. 실제로는 55.5일이 걸렸습니다. 자기 예상 시간 안에 끝낸 사람은 29.7%뿐이었습니다. 연구진은 다른 그룹에 과거 경험을 현재 일과 연결해 떠올리게 했습니다. 대조군은 29.3%가 제때 끝냈습니다. 과거 경험을 떠올린 그룹은 60.0%가 제때 끝냈습니다. 이 그룹에서는 기한을 짧게 잡는 낙관이 나타나지 않았습니다.",
+      "previous_frozen_before": "학생들은 논문 완성에 평균 33.9일이 걸리리라 예상했습니다. 실제로는 55.5일이 걸렸습니다. 자기 예상 시간 안에 끝낸 사람은 29.7%뿐이었습니다. 연구진은 다른 그룹에 과거 경험을 현재 일과 연결해 떠올리게 했습니다. 대조군은 29.3%가 제때 끝냈습니다. 과거 경험을 떠올린 그룹은 60.0%가 제때 끝냈습니다. 이 그룹에서는 기한을 짧게 잡는 낙관이 나타나지 않았습니다.",
+      "after": "지난번 비슷한 일의 실제 소요시간을 기한 예측에 참고하라는 권고입니다. Buehler 논문의 세부 결과는 원문에서 확인하지 못했습니다. 논문 작성과 과거 경험 회상의 결과를 구분해야 합니다. 제때 끝낸 비율과 효과 크기는 여기서 확정하지 않습니다.",
+      "reason": "검증하지 못한 Buehler 구체 수치와 연구별 대상 단정을 삭제하고 독자에게 미확인 한계를 명시합니다. 논문 작성과 과거 경험 회상 결과를 구분하며 단일 연구 단정을 제거합니다.",
+      "evidencequotes": [],
+      "verification_status": "Buehler 본문 HTTP403; 수치 참거짓 판정 없이 검증 부족으로 구체값 보류."
+    },
+    {
+      "field": "비고",
+      "before": "Buehler는 캐나다 대학생을 대상으로 소규모 단일 연구를 했습니다. 참가자는 37명과 그룹마다 약 40명이었습니다. 참조부류 예측은 비슷한 프로젝트의 과거 실적으로 예측하는 방법입니다. 공학에서 쓰는 실제 절차는 Flyvbjerg를 참고하세요. Halkjelsvik가 모은 연구에서는 소요시간을 짧게 잡는 쪽이 더 흔했습니다. 차이의 크기는 일과 연구 방법에 따라 크게 달랐습니다.",
+      "previous_frozen_before": "Buehler는 캐나다 대학생을 대상으로 소규모 단일 연구를 했습니다. 참가자는 37명과 그룹마다 약 40명이었습니다. 참조부류 예측은 비슷한 프로젝트의 과거 실적으로 예측하는 방법입니다. 공학에서 쓰는 실제 절차는 Flyvbjerg를 참고하세요. Halkjelsvik가 모은 공학·경영 연구에서는 과소추정이 더 흔했습니다. 심리학 연구에서는 그렇지 않았습니다. 차이의 크기는 일과 연구 방법에 따라 크게 달랐습니다. Buehler의 소요일·완료율·참가자 수는 원문에서 확인하지 못했습니다.",
+      "after": "Buehler 논문의 연구별 대상과 참가자 수는 원문에서 확인하지 못했습니다. 참조부류 예측은 비슷한 프로젝트의 과거 실적으로 예측하는 방법입니다. 공학에서 쓰는 실제 절차는 Flyvbjerg를 참고하세요. Halkjelsvik가 모은 공학·경영 연구에서는 과소추정이 더 흔했습니다. 심리학 연구에서는 그렇지 않았습니다. 차이의 크기는 일과 연구 방법에 따라 크게 달랐습니다.",
+      "reason": "검증하지 못한 Buehler 구체 수치와 연구별 대상 단정을 삭제하고 독자에게 미확인 한계를 명시합니다. 논문 작성과 과거 경험 회상 결과를 구분하며 단일 연구 단정을 제거합니다.",
+      "evidencequotes": [
+        "Although dependent on the type of study and the level of analysis, underestimation was more frequently reported than overestimation in studies from the engineering and management literature. However, this was not the case in studies from the psychology literature."
+      ],
+      "verification_status": "Buehler 본문 HTTP403; 수치 참거짓 판정 없이 검증 부족으로 구체값 보류."
+    }
+  ],
+  "source_verification": [
+    {
+      "doi": "10.1037/a0025996",
+      "level": "원논문 초록만 실제 열람; 수록 원연구 본문 전체 검증 아님",
+      "method": "기존 Europe PMC MED 초록 raw JSON 직접 열람",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1037%2Fa0025996%22&format=json&resultType=core&pageSize=10",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/4cec846a0874c64c9d91.json",
+      "raw_sha256": "9481e791b8668b42529c3cfe13182960a639755dea6f684d1334dc7e0e4cab31",
+      "original_fetched_at": "2026-10-18T20:50:26.904673+09:00",
+      "quoted_text": "Although dependent on the type of study and the level of analysis, underestimation was more frequently reported than overestimation in studies from the engineering and management literature. However, this was not the case in studies from the psychology literature."
+    },
+    {
+      "doi": "10.1037/0022-3514.67.3.366",
+      "level": "Crossref 서지만 실제 열람; 세부 수치 검증 불가",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/crossref/3fcf7218a7f1a5b55ca6.json",
+      "attempted_urls": [
+        {
+          "url": "https://psycnet.apa.org/journals/psp/67/3/366.pdf",
+          "result": "HTTP403"
+        },
+        {
+          "url": "https://www.sfu.ca/~mfs2/SUMMER%202006/461/Readings/Buehler1994.pdf",
+          "result": "HTTP404"
+        },
+        {
+          "url": "https://web.mit.edu/curhan/www/docs/Articles/15341_Readings/Time_Perspectives/Buehler_et_al_1994_Exploring_the_planning_fallacy.pdf",
+          "result": "HTTP404"
+        }
+      ]
+    },
+    {
+      "url": "https://doi.apa.org/doi/10.1037/0022-3514.67.3.366",
+      "attempted_at": "2026-10-18T15:49:08.626105+00:00",
+      "status": 403,
+      "raw_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch04/_workspace/2026-10-18-004-3813/buehler-r2-primary-response.raw",
+      "sha256": "cc4f09c05fc3c851b14e5bc8c76dca3e49bcca17f12ba2e7ba42b308b568cbb5"
+    }
+  ],
+  "intentional_numerical_scope_changes": [
+    {
+      "removed_from": "쉽게/이득",
+      "values": [
+        "33.9일",
+        "55.5일",
+        "29.7%",
+        "29.3%",
+        "60.0%"
+      ],
+      "reason": "Buehler 본문 직접 검증 불가. 보조 비교와 핵심 완료율 모두 수치 보류; 역산/효과 대체값 없음."
+    },
+    {
+      "removed_from": "비고",
+      "values": [
+        "37명",
+        "그룹마다 약 40명"
+      ],
+      "reason": "연구별 분모 직접 검증 불가. 단일 연구 표현도 제거."
+    }
+  ],
+  "canonical_finding_closures": {
+    "Halkjelsvik_generalization": "직접 읽은 원초록 근거 공학·경영 범위와 심리학 예외 유지.",
+    "thesis_vs_later_recall_study": "쉽게는 과제 기한 범위. 이득에 두 결과 구분 필요를 명시하고 다른 그룹 연결 삭제.",
+    "single_study_wording": "소규모 단일 연구 단정 삭제.",
+    "unverified_Buehler_numbers": "수치 삭제 및 본문 미확인 명시. 원문 진위는 미해결이며 검증 완료 주장 없음.",
+    "new_sentence_length": "전수 len<=50; 쉽게 3문장 <=120."
+  },
+  "doi_changes": {
+    "added": [],
+    "removed": []
+  },
+  "sentence_lengths": [
+    {
+      "field": "쉽게",
+      "text": "대학생의 과제 기한에 관한 권고입니다.",
+      "length": 21
+    },
+    {
+      "field": "쉽게",
+      "text": "지난번 비슷한 일의 실제 소요시간을 먼저 보세요.",
+      "length": 27
+    },
+    {
+      "field": "쉽게",
+      "text": "이 방법의 효과 크기는 원문에서 확인하지 못했습니다.",
+      "length": 29
+    },
+    {
+      "field": "이득",
+      "text": "지난번 비슷한 일의 실제 소요시간을 기한 예측에 참고하라는 권고입니다.",
+      "length": 39
+    },
+    {
+      "field": "이득",
+      "text": "Buehler 논문의 세부 결과는 원문에서 확인하지 못했습니다.",
+      "length": 35
+    },
+    {
+      "field": "이득",
+      "text": "논문 작성과 과거 경험 회상의 결과를 구분해야 합니다.",
+      "length": 30
+    },
+    {
+      "field": "이득",
+      "text": "제때 끝낸 비율과 효과 크기는 여기서 확정하지 않습니다.",
+      "length": 31
+    },
+    {
+      "field": "비고",
+      "text": "Buehler 논문의 연구별 대상과 참가자 수는 원문에서 확인하지 못했습니다.",
+      "length": 43
+    },
+    {
+      "field": "비고",
+      "text": "참조부류 예측은 비슷한 프로젝트의 과거 실적으로 예측하는 방법입니다.",
+      "length": 38
+    },
+    {
+      "field": "비고",
+      "text": "공학에서 쓰는 실제 절차는 Flyvbjerg를 참고하세요.",
+      "length": 32
+    },
+    {
+      "field": "비고",
+      "text": "Halkjelsvik가 모은 공학·경영 연구에서는 과소추정이 더 흔했습니다.",
+      "length": 42
+    },
+    {
+      "field": "비고",
+      "text": "심리학 연구에서는 그렇지 않았습니다.",
+      "length": 20
+    },
+    {
+      "field": "비고",
+      "text": "차이의 크기는 일과 연구 방법에 따라 크게 달랐습니다.",
+      "length": 30
+    }
+  ],
+  "easy_length": 79,
+  "unresolved_limitations": [
+    "Buehler 본문 미접근으로 연구별 대상·수치·효과 크기 검증은 보류합니다.",
+    "Flyvbjerg 실제 절차 본문은 재검증하지 않았습니다.",
+    "Halkjelsvik는 원초록만 열람했으며 수록 연구 전체 검증은 아닙니다."
+  ],
+  "preservation": "기존 frozen 제안/JSON·strict·pure·snapshot·approved·public 변경 없음. 제목·비용·태그·근거등급·출처 그대로.",
+  "review_requirement": "독립 정확해시 검토 필요. 미채택; 자체 승인 없음."
+}
