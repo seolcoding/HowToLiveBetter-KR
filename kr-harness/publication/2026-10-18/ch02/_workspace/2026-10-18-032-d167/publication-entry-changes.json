@@ -1,0 +1,179 @@
+{
+  "status": "unadopted_proposal",
+  "entry": 32,
+  "base": "strict-entry.md",
+  "base_sha256": "f289c04abcf6331ff84ce33882843feca6ed105df2042252c020605cc16685a3",
+  "changes": [
+    {
+      "field": "쉽게",
+      "before": "죽을 확률은 BMI 20~25 구간에서 가장 낮습니다. BMI 27.5~30은 20%쯤 높습니다. 30~35는 45%쯤 높습니다. 35~40은 두 배 가까이 높습니다. 동아시아인은 체중 증가에 더 민감합니다. BMI가 5 오를 때마다 위험이 40%쯤 높아집니다.",
+      "after": "몸무게가 다른 사람을 비교하면 BMI 20~25에서 사망 위험이 가장 낮았습니다. 비만 성인의 식사 조절 시험에서는 사망 위험이 약 18% 낮았습니다. 관찰된 차이를 살을 뺀 효과로 볼 수는 없습니다.",
+      "reason": "관찰연관과 감량 시험을 분리하고 핵심 크기를 요약. 선발조건 상세는 이득에 유지."
+    },
+    {
+      "field": "이득",
+      "before": "전향 추적 연구 239개의 개인별 데이터를 합쳤습니다. 연구자들은 사람들을 추적해 기록했습니다. 무작위로 집단을 나눠 비교한 연구는 아닙니다. 분석 대상은 다음 세 조건을 모두 충족한 사람입니다. 평생 담배를 피우지 않아야 합니다. 등록 시 만성질환이 없어야 합니다. 등록 뒤 5년을 더 살아야 합니다. 사망 위험은 BMI 20~25에서 가장 낮습니다. BMI 25~27.5는 사망 위험이 약 7% 높습니다(HR 1.07). 27.5~30은 약 20% 높습니다(HR 1.20). 30~35는 약 45% 높습니다(HR 1.45). 35~40은 약 94% 높습니다(HR 1.94). 40~60은 2.76배입니다(HR 2.76). 동아시아인은 BMI 25 이상에서 다음 수치를 보였습니다. BMI가 5 kg/m² 오를 때마다 사망 위험이 약 39% 높습니다(HR 1.39).",
+      "after": "전향 추적 연구 239개의 개인별 데이터를 합쳤습니다. 연구자들은 사람들을 추적해 기록했습니다. 무작위로 집단을 나눠 비교한 연구는 아닙니다. 분석 대상은 다음 세 조건을 모두 충족한 사람입니다. 평생 담배를 피우지 않아야 합니다. 등록 시 만성질환이 없어야 합니다. 등록 뒤 5년을 더 살아야 합니다. 사망 위험은 BMI 20~25에서 가장 낮습니다. 아래 수치는 BMI 22.5 이상 25 미만과 비교한 값입니다. HR는 추적 중 사망이 발생하는 속도의 비입니다. 일정 기간 내 죽을 확률의 비와는 다릅니다. BMI 25~27.5는 사망 위험이 약 7% 높습니다(HR 1.07). 27.5~30은 약 20% 높습니다(HR 1.20). 30~35는 약 45% 높습니다(HR 1.45). 35~40은 약 94% 높습니다(HR 1.94). 40~60은 2.76배입니다(HR 2.76). 동아시아인은 BMI 25 이상에서 다음 수치를 보였습니다. BMI가 5 kg/m² 오를 때마다 사망 위험이 약 39% 높습니다(HR 1.39). 별도로 비만 성인의 감량 식사를 무작위로 비교한 연구도 있습니다. 운동 권고나 프로그램을 곁들인 시험도 포함했습니다. 1년 이상 추적한 54개 시험, 30,206명을 모았습니다. 총사망 분석은 34개 시험의 사망 685건을 다뤘습니다. 사망 위험은 비교군보다 약 18% 낮았습니다(RR 0.82). RR는 두 집단의 사망 위험을 나눈 값입니다. 95% 신뢰구간은 0.71~0.95였습니다. 대부분 저지방 식사를 쓴 시험입니다. 정상체중인 사람에게도 감량을 권한다는 뜻은 아닙니다.",
+      "reason": "HR와 누적확률 구분 및 실제 비교기준 명시. 새 무작위 시험 종합근거의 전체/총사망 분모와 적용범위 명시."
+    },
+    {
+      "field": "출처",
+      "before": "Global BMI Mortality Collaboration (2016). Body-mass index and all-cause mortality: individual-participant-data meta-analysis of 239 prospective studies in four continents. Lancet. <https://doi.org/10.1016/S0140-6736(16)30175-1>; Flegal KM, et al. (2013). Association of all-cause mortality with overweight and obesity using standard body mass index categories: a systematic review and meta-analysis. JAMA. <https://doi.org/10.1001/jama.2012.113905> (반대편)",
+      "after": "Global BMI Mortality Collaboration (2016). Body-mass index and all-cause mortality: individual-participant-data meta-analysis of 239 prospective studies in four continents. Lancet. <https://doi.org/10.1016/S0140-6736(16)30175-1>; Flegal KM, et al. (2013). Association of all-cause mortality with overweight and obesity using standard body mass index categories: a systematic review and meta-analysis. JAMA. <https://doi.org/10.1001/jama.2012.113905> (반대편); Ma C, et al. (2017). Effects of weight loss interventions for adults who are obese on mortality, cardiovascular disease, and cancer: systematic review and meta-analysis. BMJ. <https://doi.org/10.1136/bmj.j4849>",
+      "reason": "RCT 부재 단정의 반증인 직접 확인한 Ma 2017 DOI 추가. 기존 DOI 유지."
+    },
+    {
+      "field": "비고",
+      "before": "논쟁 있음. \"약간 살이 찐 편이 더 오래 산다\"는 연구 결과도 있습니다. 이 분석에서는 과체중의 사망 위험이 약 6% 낮았습니다. 가벼운 비만은 약 5% 낮았습니다. 쟁점은 흡연자와 이미 병든 사람의 데이터를 뺄지입니다. 등록 직후 몇 해의 데이터를 뺄지도 논쟁합니다. 중병에 걸리면 살이 먼저 빠지므로 이런 데이터를 뺍니다. 239개 연구 분석에서는 이 세 조건에 맞지 않는 사람을 뺐습니다. 그러자 과체중인 사람의 사망 위험이 다시 높게 나타났습니다. 감량이 총사망률을 낮춘다는 무작위 시험도 없습니다. 위 숫자는 몸무게가 다른 사람들을 비교한 값입니다. 살을 빼면 그만큼 위험이 내려간다는 뜻은 아닙니다. 살을 뺄 생각이라면 식사 시간 조절에 공들이지 마세요. 아침 식사도 16:8 단식도 추가 이득이 없습니다. 제6절 제26항(아침 식사나 16:8 단식에 체중 조절 기대하지 않기)을 보세요.",
+      "after": "논쟁 있음. \"약간 살이 찐 편이 더 오래 산다\"는 연구 결과도 있습니다. 이 분석에서는 과체중의 사망 위험이 약 6% 낮았습니다. 가벼운 비만은 약 5% 낮았습니다. 쟁점은 흡연자와 이미 병든 사람의 데이터를 뺄지입니다. 등록 직후 몇 해의 데이터를 뺄지도 논쟁합니다. 중병에 걸리면 살이 먼저 빠지므로 이런 데이터를 뺍니다. 239개 연구 분석에서는 이 세 조건에 맞지 않는 사람을 뺐습니다. 그러자 과체중인 사람의 사망 위험이 다시 높게 나타났습니다. 비만 성인의 식이 감량 시험에서는 총사망 감소가 관찰됐습니다. 위 BMI 수치는 몸무게가 다른 사람들을 비교한 값입니다. 살을 빼면 그만큼 위험이 내려간다는 뜻은 아닙니다. 살을 뺄 생각이라면 식사 시간 조절에 공들이지 마세요. 아침 식사도 16:8 단식도 추가 이득이 없습니다. 제6절 제26항(아침 식사나 16:8 단식에 체중 조절 기대하지 않기)을 보세요. BMI 20~25는 이 관찰연구의 최저위험 구간입니다. 한국의 과체중·비만 진단기준을 뜻하지는 않습니다.",
+      "reason": "RCT 부재 오류를 수정하고 BMI 관찰연관의 감량효과 환산 금지, 한국 진단기준과 구분."
+    }
+  ],
+  "evidence": [
+    {
+      "doi": "10.1136/bmj.j4849",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5682593/fullTextXML",
+      "raw_path": "/tmp/ch02-audit/full-PMC5682593.body",
+      "raw_sha256": "aa4d7da30b16493cf74d5e8b1d6955d33ab63c468ddaa5ad43ce271dd8974b78",
+      "verified_at_utc": "2026-10-18T13:49:07.363838+00:00",
+      "method": "XML abstract/summary actually read. PMC5682593 fetched directly over HTTPS this turn; PMC4995441 existing raw independently reopened.",
+      "level": "원초록·요약 실제 열람; 전체 본문·부록 검증 아님",
+      "exact_primary_quote": "Abstract \n Objective  To assess whether weight loss interventions for adults with obesity affect all cause, cardiovascular, and cancer mortality, cardiovascular disease, cancer, and body weight. \n Design  Systematic review and meta-analysis of randomised controlled trials (RCTs) using random effects, estimating risk ratios, and mean differences. Heterogeneity investigated using Cochran’s Q and I 2  statistics. Quality of evidence assessed by GRADE criteria. \n Data sources  Medline, Embase, the Cochrane Central Register of Controlled Trials, and full texts in our trials’ registry for data not evident in databases. Authors were contacted for unpublished data. \n Eligibility criteria for selecting studies  RCTs of dietary interventions targeting weight loss, with or without exercise advice or programmes, for adults with obesity and follow-up ≥1 year. \n Results  54 RCTs with 30 206 participants were identified. All but one trial evaluated low fat, weight reducing diets. For the primary outcome, high quality evidence showed that weight loss interventions decrease all cause mortality (34 trials, 685 events; risk ratio 0.82, 95% confidence interval 0.71 to 0.95), with six fewer deaths per 1000 participants (95% confidence interval two to 10). For other primary outcomes moderate quality evidence showed an effect on cardiovascular mortality (eight trials, 134 events; risk ratio 0.93, 95% confidence interval 0.67 to 1.31), and very low quality evidence showed an effect on cancer mortality (eight trials, 34 events; risk ratio 0.58, 95% confidence interval 0.30 to 1.11). Twenty four trials (15 176 participants) reported high quality evidence on participants developing new cardiovascular events (1043 events; risk ratio 0.93, 95% confidence interval 0.83 to 1.04). Nineteen trials (6330 participants) provided very low quality evidence on participants developing new cancers (103 events; risk ratio 0.92, 95% confidence interval 0.63 to 1.36). \n Conclusions  Weight reducing diets, usually low in fat and saturated fat, with or without exercise advice or programmes, may reduce premature all cause mortality in adults with obesity. \n Systematic review registration  PROSPERO CRD42016033217."
+    },
+    {
+      "doi": "10.1016/S0140-6736(16)30175-1",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4995441/fullTextXML",
+      "raw_path": "/tmp/ch02-audit/full-PMC4995441.body",
+      "raw_sha256": "e63f5232c5728c87368ac6a01da315ee3ff5e64bd5bf170618f2d5c3f9bd8b39",
+      "verified_at_utc": "2026-10-18T13:49:07.363838+00:00",
+      "method": "XML abstract/summary actually read. PMC5682593 fetched directly over HTTPS this turn; PMC4995441 existing raw independently reopened.",
+      "level": "원초록·요약 실제 열람; 전체 본문·부록 검증 아님",
+      "exact_primary_quote": "Summary Background Overweight and obesity are increasing worldwide. To help assess their relevance to mortality in different populations we conducted individual-participant data meta-analyses of prospective studies of body-mass index (BMI), limiting confounding and reverse causality by restricting analyses to never-smokers and excluding pre-existing disease and the first 5 years of follow-up. Methods Of 10 625 411 participants in Asia, Australia and New Zealand, Europe, and North America from 239 prospective studies (median follow-up 13·7 years, IQR 11·4–14·7), 3 951 455 people in 189 studies were never-smokers without chronic diseases at recruitment who survived 5 years, of whom 385 879 died. The primary analyses are of these deaths, and study, age, and sex adjusted hazard ratios (HRs), relative to BMI 22·5–<25·0 kg/m 2 . Findings All-cause mortality was minimal at 20·0–25·0 kg/m 2  (HR 1·00, 95% CI 0·98–1·02 for BMI 20·0–<22·5 kg/m 2 ; 1·00, 0·99–1·01 for BMI 22·5–<25·0 kg/m 2 ), and increased significantly both just below this range (1·13, 1·09–1·17 for BMI 18·5–<20·0 kg/m 2 ; 1·51, 1·43–1·59 for BMI 15·0–<18·5) and throughout the overweight range (1·07, 1·07–1·08 for BMI 25·0–<27·5 kg/m 2 ; 1·20, 1·18–1·22 for BMI 27·5–<30·0 kg/m 2 ). The HR for obesity grade 1 (BMI 30·0–<35·0 kg/m 2 ) was 1·45, 95% CI 1·41–1·48; the HR for obesity grade 2 (35·0–<40·0 kg/m 2 ) was 1·94, 1·87–2·01; and the HR for obesity grade 3 (40·0–<60·0 kg/m 2 ) was 2·76, 2·60–2·92. For BMI over 25·0 kg/m 2 , mortality increased approximately log-linearly with BMI; the HR per 5 kg/m 2  units higher BMI was 1·39 (1·34–1·43) in Europe, 1·29 (1·26–1·32) in North America, 1·39 (1·34–1·44) in east Asia, and 1·31 (1·27–1·35) in Australia and New Zealand. This HR per 5 kg/m 2  units higher BMI (for BMI over 25 kg/m 2 ) was greater in younger than older people (1·52, 95% CI 1·47–1·56, for BMI measured at 35–49 years  vs  1·21, 1·17–1·25, for BMI measured at 70–89 years; p heterogeneity <0·0001), greater in men than women (1·51, 1·46–1·56,  vs  1·30, 1·26–1·33; p heterogeneity <0·0001), but similar in studies with self-reported and measured BMI. Interpretation The associations of both overweight and obesity with higher all-cause mortality were broadly consistent in four continents. This finding supports strategies to combat the entire spectrum of excess adiposity in many populations. Funding UK Medical Research Council, British Heart Foundation, National Institute for Health Research, US National Institutes of Health."
+    }
+  ],
+  "doi_changes": {
+    "add": [
+      {
+        "doi": "10.1136/bmj.j4849",
+        "reason": "비만성인 식이감량 무작위시험의 총사망 결과를 직접 읽고 부재 단정 정정"
+      }
+    ],
+    "remove": []
+  },
+  "intentional_scope_changes": [
+    "쉽게의 부차 BMI 비교를 이득에 남기고 감량 시험의 약18% 결과를 요약",
+    "54시험30,206명은 전체; 34시험685사망은 총사망 결과로 분리",
+    "HR 비교기준22.5이상25미만을 명시; 기존HR 숫자 유지",
+    "관찰 최저위험 BMI와 국내 진단기준은 다름을 명시"
+  ],
+  "limitations": [
+    "새 근거는 비만성인 식이감량±운동, 대부분 저지방 식사이며 정상체중 감량으로 일반화하지 않음",
+    "RR는 사망 위험비; BMI HR는 사망 발생속도비이며 개인의 절대확률이나 감량의 단위별 효과로 환산하지 않음",
+    "국내 구체 진단 경계는 새 검증하지 않아 숫자를 추가하지 않음",
+    "기존 Flegal 반대편 근거, 식사시각·아침·16:8 및 비용은 이번에 새 검증하지 않고 보존"
+  ],
+  "checks": {
+    "easy_chars": 112,
+    "new_modified_sentence_lengths": [
+      {
+        "field": "쉽게",
+        "sentence": "몸무게가 다른 사람을 비교하면 BMI 20~25에서 사망 위험이 가장 낮았습니다.",
+        "len": 45
+      },
+      {
+        "field": "쉽게",
+        "sentence": "비만 성인의 식사 조절 시험에서는 사망 위험이 약 18% 낮았습니다.",
+        "len": 38
+      },
+      {
+        "field": "쉽게",
+        "sentence": "관찰된 차이를 살을 뺀 효과로 볼 수는 없습니다.",
+        "len": 27
+      },
+      {
+        "field": "이득",
+        "sentence": "아래 수치는 BMI 22.5 이상 25 미만과 비교한 값입니다.",
+        "len": 35
+      },
+      {
+        "field": "이득",
+        "sentence": "HR는 추적 중 사망이 발생하는 속도의 비입니다.",
+        "len": 27
+      },
+      {
+        "field": "이득",
+        "sentence": "일정 기간 내 죽을 확률의 비와는 다릅니다.",
+        "len": 24
+      },
+      {
+        "field": "이득",
+        "sentence": "별도로 비만 성인의 감량 식사를 무작위로 비교한 연구도 있습니다.",
+        "len": 36
+      },
+      {
+        "field": "이득",
+        "sentence": "운동 권고나 프로그램을 곁들인 시험도 포함했습니다.",
+        "len": 28
+      },
+      {
+        "field": "이득",
+        "sentence": "1년 이상 추적한 54개 시험, 30,206명을 모았습니다.",
+        "len": 33
+      },
+      {
+        "field": "이득",
+        "sentence": "총사망 분석은 34개 시험의 사망 685건을 다뤘습니다.",
+        "len": 31
+      },
+      {
+        "field": "이득",
+        "sentence": "사망 위험은 비교군보다 약 18% 낮았습니다(RR 0.82).",
+        "len": 34
+      },
+      {
+        "field": "이득",
+        "sentence": "RR는 두 집단의 사망 위험을 나눈 값입니다.",
+        "len": 25
+      },
+      {
+        "field": "이득",
+        "sentence": "95% 신뢰구간은 0.71~0.95였습니다.",
+        "len": 24
+      },
+      {
+        "field": "이득",
+        "sentence": "대부분 저지방 식사를 쓴 시험입니다.",
+        "len": 20
+      },
+      {
+        "field": "이득",
+        "sentence": "정상체중인 사람에게도 감량을 권한다는 뜻은 아닙니다.",
+        "len": 29
+      },
+      {
+        "field": "비고",
+        "sentence": "비만 성인의 식이 감량 시험에서는 총사망 감소가 관찰됐습니다.",
+        "len": 34
+      },
+      {
+        "field": "비고",
+        "sentence": "위 BMI 수치는 몸무게가 다른 사람들을 비교한 값입니다.",
+        "len": 32
+      },
+      {
+        "field": "비고",
+        "sentence": "BMI 20~25는 이 관찰연구의 최저위험 구간입니다.",
+        "len": 30
+      },
+      {
+        "field": "비고",
+        "sentence": "한국의 과체중·비만 진단기준을 뜻하지는 않습니다.",
+        "len": 27
+      }
+    ],
+    "OR_present": false,
+    "RR_endpoint": "all-cause mortality",
+    "HR_not_cumulative_probability": true,
+    "protected_cost_tag_and_grade_unchanged": true
+  }
+}

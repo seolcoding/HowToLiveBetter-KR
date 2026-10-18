@@ -25,19 +25,44 @@
           "doi": "10.1056/NEJMsa1211128",
           "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
           "url": "https://doi.org/10.1056/NEJMsa1211128",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/9a806d34dd9a22f88357.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/9a806d34dd9a22f88357.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/9a806d34dd9a22f88357.json",
+          "metadata_cache_sha256": "91b0c8c51cf954ab9709b953adaab147f3d88dfef36355c2375c39931d7e160c",
+          "metadata_fetched_at": "2026-10-18T20:49:54.357725+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1056%2FNEJMsa1211128%22&format=json&resultType=core&pageSize=10"
         },
         {
           "doi": "10.1016/S0140-6736(15)00340-2",
           "scope": "HTTPS 원문 XML 직접 열람·항목의 주요 수치/조건 대조",
           "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4691901/fullTextXML",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/bf9ac65f9d9ef2b71512.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/bf9ac65f9d9ef2b71512.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/bf9ac65f9d9ef2b71512.json",
+          "metadata_cache_sha256": "b01d13b16e556758cd8684b3358005fefa19542101b93cc5bea738ec203de5c1",
+          "metadata_fetched_at": "2026-10-18T20:49:54.461041+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2FS0140-6736%2815%2900340-2%22&format=json&resultType=core&pageSize=10",
+          "direct_fulltext_raw": {
+            "raw_path": "/tmp/ch02-audit/full-PMC4691901.body",
+            "raw_sha256": "c8837ca1ac5c79f5d15a2fc59eb5e37d5961772f7a3f881e0bd4c6ad90b3c198",
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4691901/fullTextXML",
+            "http_status": 200,
+            "article_dois": [
+              "10.1016/S0140-6736(15)00340-2"
+            ],
+            "fetched_at": null,
+            "fetched_at_limit": "初回の取得時刻は記録していないため未復元。ファイルmtimeをHTTP取得時刻とみなさない。",
+            "current_raw_reopened_at_utc": "2026-10-18T13:47:08.728391+00:00",
+            "read_scope": "초기감사에서 사용한 원문 응답을 재개봉해 DOI와 raw바이트SHA를 연결. 모든 문장/부록 재검증을 뜻하지 않음."
+          }
         },
         {
           "doi": "10.1016/S0140-6736(10)61388-8",
           "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
           "url": "https://doi.org/10.1016/S0140-6736(10)61388-8",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/4419084fca5878740fdb.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/4419084fca5878740fdb.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/4419084fca5878740fdb.json",
+          "metadata_cache_sha256": "5e4528bb7aee2f65e253e198f9bcf284bf556616a3f5ab41eaf3eb27fab8e871",
+          "metadata_fetched_at": "2026-10-18T20:49:54.665067+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2FS0140-6736%2810%2961388-8%22&format=json&resultType=core&pageSize=10"
         }
       ]
     },
@@ -51,13 +76,21 @@
           "doi": "10.1016/S0140-6736(10)61388-8",
           "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
           "url": "https://doi.org/10.1016/S0140-6736(10)61388-8",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/4419084fca5878740fdb.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/4419084fca5878740fdb.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/4419084fca5878740fdb.json",
+          "metadata_cache_sha256": "5e4528bb7aee2f65e253e198f9bcf284bf556616a3f5ab41eaf3eb27fab8e871",
+          "metadata_fetched_at": "2026-10-18T20:49:54.665067+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2FS0140-6736%2810%2961388-8%22&format=json&resultType=core&pageSize=10"
         },
         {
           "doi": "10.1093/ntr/ntaf111",
           "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
           "url": "https://doi.org/10.1093/ntr/ntaf111",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/c8c171be347ded2a2f52.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/c8c171be347ded2a2f52.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/c8c171be347ded2a2f52.json",
+          "metadata_cache_sha256": "bcf32eae0519c003336e6c04ab80e011ad47a990e14ebaea692ae6df1ea6e6f7",
+          "metadata_fetched_at": "2026-10-18T20:49:54.756375+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1093%2Fntr%2Fntaf111%22&format=json&resultType=core&pageSize=10"
         }
       ]
     },
@@ -71,19 +104,57 @@
           "doi": "10.1002/14651858.CD006103.pub8",
           "scope": "HTTPS 원문 XML 직접 열람·항목의 주요 수치/조건 대조",
           "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10169257/fullTextXML",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/7edb7882b06470c96504.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/7edb7882b06470c96504.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/7edb7882b06470c96504.json",
+          "metadata_cache_sha256": "ec663228c8a048b9bc675d98aaabfab579a2d4d41364e566515f33883db580dc",
+          "metadata_fetched_at": "2026-10-18T20:49:54.865262+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1002%2F14651858.CD006103.pub8%22&format=json&resultType=core&pageSize=10",
+          "direct_fulltext_raw": {
+            "raw_path": "/tmp/ch02-audit/full-PMC10169257.body",
+            "raw_sha256": "b95a9e2f49c40ae40a5295ee92bec9865a2075d0a507da96a9073b1847435746",
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10169257/fullTextXML",
+            "http_status": 200,
+            "article_dois": [
+              "10.1002/14651858.CD006103.pub8"
+            ],
+            "fetched_at": null,
+            "fetched_at_limit": "初回の取得時刻は記録していないため未復元。ファイルmtimeをHTTP取得時刻とみなさない。",
+            "current_raw_reopened_at_utc": "2026-10-18T13:47:08.728391+00:00",
+            "read_scope": "초기감사에서 사용한 원문 응답을 재개봉해 DOI와 raw바이트SHA를 연결. 모든 문장/부록 재검증을 뜻하지 않음."
+          }
         },
         {
           "doi": "10.1002/14651858.CD000146.pub5",
           "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
           "url": "https://doi.org/10.1002/14651858.CD000146.pub5",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/d55015cacab9b75c4357.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/d55015cacab9b75c4357.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/d55015cacab9b75c4357.json",
+          "metadata_cache_sha256": "e9fe239ee6903bb5c34c53fa415f1c6ac3ac24661c2a50988ce090ff54eba5c4",
+          "metadata_fetched_at": "2026-10-18T20:49:54.923585+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1002%2F14651858.CD000146.pub5%22&format=json&resultType=core&pageSize=10"
         },
         {
           "doi": "10.1002/14651858.CD013308.pub2",
           "scope": "HTTPS 원문 XML 직접 열람·항목의 주요 수치/조건 대조",
           "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10278922/fullTextXML",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/d7233d91d92af809e2ee.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/d7233d91d92af809e2ee.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/d7233d91d92af809e2ee.json",
+          "metadata_cache_sha256": "87567c159f9a7d1e1d5aa7763106bbe00ff36a017119151330063a0025ddd7e4",
+          "metadata_fetched_at": "2026-10-18T20:49:55.079882+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1002%2F14651858.CD013308.pub2%22&format=json&resultType=core&pageSize=10",
+          "direct_fulltext_raw": {
+            "raw_path": "/tmp/ch02-audit/full-PMC10278922.body",
+            "raw_sha256": "3be1541f6b8f8643e9d674891cec0a484833b240d594da558033ebf170337919",
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10278922/fullTextXML",
+            "http_status": 200,
+            "article_dois": [
+              "10.1002/14651858.CD013308.pub2"
+            ],
+            "fetched_at": null,
+            "fetched_at_limit": "初回の取得時刻は記録していないため未復元。ファイルmtimeをHTTP取得時刻とみなさない。",
+            "current_raw_reopened_at_utc": "2026-10-18T13:47:08.728391+00:00",
+            "read_scope": "초기감사에서 사용한 원문 응답을 재개봉해 DOI와 raw바이트SHA를 연결. 모든 문장/부록 재검증을 뜻하지 않음."
+          }
         }
       ]
     },
@@ -97,13 +168,34 @@
           "doi": "10.7326/M14-2805",
           "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
           "url": "https://doi.org/10.7326/M14-2805",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/e8b65ecbbea63c8460dc.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/e8b65ecbbea63c8460dc.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/e8b65ecbbea63c8460dc.json",
+          "metadata_cache_sha256": "e442dd8ee2327d547b56cbd3be887eed639b0ffe265cac53ae0f199a6de8e27d",
+          "metadata_fetched_at": "2026-10-18T20:49:55.202788+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.7326%2FM14-2805%22&format=json&resultType=core&pageSize=10"
         },
         {
           "doi": "10.1002/14651858.CD013308.pub2",
           "scope": "HTTPS 원문 XML 직접 열람·항목의 주요 수치/조건 대조",
           "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10278922/fullTextXML",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/d7233d91d92af809e2ee.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/d7233d91d92af809e2ee.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/d7233d91d92af809e2ee.json",
+          "metadata_cache_sha256": "87567c159f9a7d1e1d5aa7763106bbe00ff36a017119151330063a0025ddd7e4",
+          "metadata_fetched_at": "2026-10-18T20:49:55.079882+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1002%2F14651858.CD013308.pub2%22&format=json&resultType=core&pageSize=10",
+          "direct_fulltext_raw": {
+            "raw_path": "/tmp/ch02-audit/full-PMC10278922.body",
+            "raw_sha256": "3be1541f6b8f8643e9d674891cec0a484833b240d594da558033ebf170337919",
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10278922/fullTextXML",
+            "http_status": 200,
+            "article_dois": [
+              "10.1002/14651858.CD013308.pub2"
+            ],
+            "fetched_at": null,
+            "fetched_at_limit": "初回の取得時刻は記録していないため未復元。ファイルmtimeをHTTP取得時刻とみなさない。",
+            "current_raw_reopened_at_utc": "2026-10-18T13:47:08.728391+00:00",
+            "read_scope": "초기감사에서 사용한 원문 응답을 재개봉해 DOI와 raw바이트SHA를 연결. 모든 문장/부록 재검증을 뜻하지 않음."
+          }
         }
       ]
     },
@@ -117,13 +209,21 @@
           "doi": "10.1002/14651858.CD008286.pub3",
           "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
           "url": "https://doi.org/10.1002/14651858.CD008286.pub3",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/7dcf6573dc7c0df04b17.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/7dcf6573dc7c0df04b17.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/7dcf6573dc7c0df04b17.json",
+          "metadata_cache_sha256": "db179f11877c10aa754474325532689faa163d6807dbfafbb6225c080cc286bd",
+          "metadata_fetched_at": "2026-10-18T20:49:55.293851+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1002%2F14651858.CD008286.pub3%22&format=json&resultType=core&pageSize=10"
         },
         {
           "doi": "10.1002/14651858.CD002850.pub4",
           "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
           "url": "https://doi.org/10.1002/14651858.CD002850.pub4",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/d6469feb0a30d8a5cd20.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/d6469feb0a30d8a5cd20.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/d6469feb0a30d8a5cd20.json",
+          "metadata_cache_sha256": "81fe29da624e8a2699637347fad2668f69be73ed7a342155c8fbee3101fe4d2f",
+          "metadata_fetched_at": "2026-10-18T20:49:55.408041+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1002%2F14651858.CD002850.pub4%22&format=json&resultType=core&pageSize=10"
         }
       ]
     },
@@ -137,7 +237,24 @@
           "doi": "10.1002/14651858.CD010216.pub11",
           "scope": "HTTPS 원문 XML 직접 열람·항목의 주요 수치/조건 대조",
           "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13506250/fullTextXML",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/9326e464f38ade934dda.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/9326e464f38ade934dda.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/9326e464f38ade934dda.json",
+          "metadata_cache_sha256": "3100ff20451037810388fe9d567cba61cec7378f402ab8f0309aa1de48942bf8",
+          "metadata_fetched_at": "2026-10-18T20:49:55.610447+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1002%2F14651858.CD010216.pub11%22&format=json&resultType=core&pageSize=10",
+          "direct_fulltext_raw": {
+            "raw_path": "/tmp/ch02-audit/full-PMC13506250.body",
+            "raw_sha256": "70b431ba83ea315aeb9c12a6a08687ba9b92fe1b75d9bc38ca9f95312ea85227",
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13506250/fullTextXML",
+            "http_status": 200,
+            "article_dois": [
+              "10.1002/14651858.CD010216.pub11"
+            ],
+            "fetched_at": null,
+            "fetched_at_limit": "初回の取得時刻は記録していないため未復元。ファイルmtimeをHTTP取得時刻とみなさない。",
+            "current_raw_reopened_at_utc": "2026-10-18T13:47:08.728391+00:00",
+            "read_scope": "초기감사에서 사용한 원문 응답을 재개봉해 DOI와 raw바이트SHA를 연결. 모든 문장/부록 재검증을 뜻하지 않음."
+          }
         }
       ]
     },
@@ -151,13 +268,34 @@
           "doi": "10.1161/CIRCULATIONAHA.118.037401",
           "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
           "url": "https://doi.org/10.1161/CIRCULATIONAHA.118.037401",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/d589bf67028de68ae779.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/d589bf67028de68ae779.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/d589bf67028de68ae779.json",
+          "metadata_cache_sha256": "6e189557dd4e2d75b3c2825e40095c6c1b36409b21ed392c981c3a74ce3249c5",
+          "metadata_fetched_at": "2026-10-18T20:49:55.660132+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1161%2FCIRCULATIONAHA.118.037401%22&format=json&resultType=core&pageSize=10"
         },
         {
           "doi": "10.1001/jamainternmed.2019.2478",
           "scope": "HTTPS 원문 XML 직접 열람·항목의 주요 수치/조건 대조",
           "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6724165/fullTextXML",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/1deca7ea2a5476b815ed.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/1deca7ea2a5476b815ed.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/1deca7ea2a5476b815ed.json",
+          "metadata_cache_sha256": "04e75648ed848351490121ccbf5e8f1e9bfe9785268a26d65c1e4e4a82f910aa",
+          "metadata_fetched_at": "2026-10-18T20:49:55.880633+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1001%2Fjamainternmed.2019.2478%22&format=json&resultType=core&pageSize=10",
+          "direct_fulltext_raw": {
+            "raw_path": "/tmp/ch02-audit/full-PMC6724165.body",
+            "raw_sha256": "1f48db8e2b7622d2728688b925ad6634844300106709bfdc60883f7cf300fb50",
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6724165/fullTextXML",
+            "http_status": 200,
+            "article_dois": [
+              "10.1001/jamainternmed.2019.2478"
+            ],
+            "fetched_at": null,
+            "fetched_at_limit": "初回の取得時刻は記録していないため未復元。ファイルmtimeをHTTP取得時刻とみなさない。",
+            "current_raw_reopened_at_utc": "2026-10-18T13:47:08.728391+00:00",
+            "read_scope": "초기감사에서 사용한 원문 응답을 재개봉해 DOI와 raw바이트SHA를 연결. 모든 문장/부록 재검증을 뜻하지 않음."
+          }
         }
       ]
     },
@@ -171,7 +309,24 @@
           "doi": "10.1371/journal.pone.0070679",
           "scope": "HTTPS 원문 XML 직접 열람·항목의 주요 수치/조건 대조",
           "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3734295/fullTextXML",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/156bcb32b83b43193b51.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/156bcb32b83b43193b51.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/156bcb32b83b43193b51.json",
+          "metadata_cache_sha256": "26999c6410e02c81a68ccef24bb0e50bd7c59c31db948158d37211c506486e1f",
+          "metadata_fetched_at": "2026-10-18T20:49:55.898917+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1371%2Fjournal.pone.0070679%22&format=json&resultType=core&pageSize=10",
+          "direct_fulltext_raw": {
+            "raw_path": "/tmp/ch02-audit/full-PMC3734295.body",
+            "raw_sha256": "26ab7ce51abbf9ed2593bf0faafc36dea683bbc895f51c65df665cb5519c05de",
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3734295/fullTextXML",
+            "http_status": 200,
+            "article_dois": [
+              "10.1371/journal.pone.0070679"
+            ],
+            "fetched_at": null,
+            "fetched_at_limit": "初回の取得時刻は記録していないため未復元。ファイルmtimeをHTTP取得時刻とみなさない。",
+            "current_raw_reopened_at_utc": "2026-10-18T13:47:08.728391+00:00",
+            "read_scope": "초기감사에서 사용한 원문 응답을 재개봉해 DOI와 raw바이트SHA를 연결. 모든 문장/부록 재검증을 뜻하지 않음."
+          }
         }
       ]
     },
@@ -185,13 +340,21 @@
           "doi": "10.1056/NEJMoa2105675",
           "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
           "url": "https://doi.org/10.1056/NEJMoa2105675",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/f471019f1972c206279f.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/f471019f1972c206279f.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/f471019f1972c206279f.json",
+          "metadata_cache_sha256": "5cc708e6b4b037197a0f66ca56455188907290b0d75f4d790c77fdde96e72404",
+          "metadata_fetched_at": "2026-10-18T20:49:56.212298+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1056%2FNEJMoa2105675%22&format=json&resultType=core&pageSize=10"
         },
         {
           "doi": "10.1056/NEJMoa1311889",
           "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
           "url": "https://doi.org/10.1056/NEJMoa1311889",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/262bccdaabbcd9a9ee70.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/262bccdaabbcd9a9ee70.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/262bccdaabbcd9a9ee70.json",
+          "metadata_cache_sha256": "1f9db29e7ca73a5a3caf6c7308e7a17cc7907a74288066ca03d72888e809dc80",
+          "metadata_fetched_at": "2026-10-18T20:49:56.308260+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1056%2FNEJMoa1311889%22&format=json&resultType=core&pageSize=10"
         }
       ]
     },
@@ -205,13 +368,21 @@
           "doi": "10.1016/j.jdent.2026.106789",
           "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
           "url": "https://doi.org/10.1016/j.jdent.2026.106789",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/85937fcbb2df949bcf5f.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/85937fcbb2df949bcf5f.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/85937fcbb2df949bcf5f.json",
+          "metadata_cache_sha256": "93f56ff3022c182c90b1f1a46d4b1b5e5028e35b0b0005fb5eda4ff445684a0c",
+          "metadata_fetched_at": "2026-10-18T20:49:56.891764+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2Fj.jdent.2026.106789%22&format=json&resultType=core&pageSize=10"
         },
         {
           "doi": "10.1007/s41999-025-01319-4",
           "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
           "url": "https://doi.org/10.1007/s41999-025-01319-4",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/7687b13873bdd5f9ebb2.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/7687b13873bdd5f9ebb2.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/7687b13873bdd5f9ebb2.json",
+          "metadata_cache_sha256": "fbd10720869ab483276c9e4398656e10c862cee639691d40cc41ab8d9aac3ff9",
+          "metadata_fetched_at": "2026-10-18T20:49:57.089939+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1007%2Fs41999-025-01319-4%22&format=json&resultType=core&pageSize=10"
         }
       ]
     },
@@ -225,25 +396,54 @@
           "doi": "10.1016/S2468-2667(21)00302-9",
           "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
           "url": "https://doi.org/10.1016/S2468-2667(21)00302-9",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/683bb7799e08f8155c9f.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/683bb7799e08f8155c9f.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/683bb7799e08f8155c9f.json",
+          "metadata_cache_sha256": "ccb7302a069be66d449768e66f5fe7773e66cfaf7005bd9a1b816ed088aade31",
+          "metadata_fetched_at": "2026-10-18T20:49:57.271771+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2FS2468-2667%2821%2900302-9%22&format=json&resultType=core&pageSize=10"
         },
         {
           "doi": "10.1093/eurjpc/zwad229",
           "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
           "url": "https://doi.org/10.1093/eurjpc/zwad229",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/e1b1009e2c926ca207f0.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/e1b1009e2c926ca207f0.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/e1b1009e2c926ca207f0.json",
+          "metadata_cache_sha256": "5523d4aa18ed226cc1c10f5e679f800e5646dcc1bedf5820067782f6619ca3d3",
+          "metadata_fetched_at": "2026-10-18T20:49:57.694438+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1093%2Feurjpc%2Fzwad229%22&format=json&resultType=core&pageSize=10"
         },
         {
           "doi": "10.1001/jamainternmed.2015.0533",
           "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
           "url": "https://doi.org/10.1001/jamainternmed.2015.0533",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/a3967d4d88be84683f13.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/a3967d4d88be84683f13.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/a3967d4d88be84683f13.json",
+          "metadata_cache_sha256": "549f6f8bbe29be27c99c840e6ca2bac9ddff082ea42d3ffaa8f33baae4ae4c71",
+          "metadata_fetched_at": "2026-10-18T20:49:57.879658+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1001%2Fjamainternmed.2015.0533%22&format=json&resultType=core&pageSize=10"
         },
         {
           "doi": "10.1136/bmj.l4570",
           "scope": "HTTPS 원문 XML 직접 열람·항목의 주요 수치/조건 대조",
           "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6699591/fullTextXML",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/a8a5eafff37c58c7d874.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/a8a5eafff37c58c7d874.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/a8a5eafff37c58c7d874.json",
+          "metadata_cache_sha256": "f521958cc0bc7d287599e6d36db319bf37a683283902045faf2ec77597590d4e",
+          "metadata_fetched_at": "2026-10-18T20:49:57.913462+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1136%2Fbmj.l4570%22&format=json&resultType=core&pageSize=10",
+          "direct_fulltext_raw": {
+            "raw_path": "/tmp/ch02-audit/full-PMC6699591.body",
+            "raw_sha256": "1e613b7b86b407b39d02859e9febf6f661090b486fa634596a500fd182f52e70",
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6699591/fullTextXML",
+            "http_status": 200,
+            "article_dois": [
+              "10.1136/bmj.l4570"
+            ],
+            "fetched_at": null,
+            "fetched_at_limit": "初回の取得時刻は記録していないため未復元。ファイルmtimeをHTTP取得時刻とみなさない。",
+            "current_raw_reopened_at_utc": "2026-10-18T13:47:08.728391+00:00",
+            "read_scope": "초기감사에서 사용한 원문 응답을 재개봉해 DOI와 raw바이트SHA를 연결. 모든 문장/부록 재검증을 뜻하지 않음."
+          }
         }
       ]
     },
@@ -257,19 +457,44 @@
           "doi": "10.1016/S0140-6736(15)01225-8",
           "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
           "url": "https://doi.org/10.1016/S0140-6736(15)01225-8",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/9d76eccee18ffd543f24.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/9d76eccee18ffd543f24.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/9d76eccee18ffd543f24.json",
+          "metadata_cache_sha256": "b7a3ddb2081a5387b1c14184aa4197a5811593b6ece4061e5b5ba77af0d85f22",
+          "metadata_fetched_at": "2026-10-18T20:49:41.563609+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2FS0140-6736%2815%2901225-8%22&format=json&resultType=core&pageSize=10"
         },
         {
           "doi": "10.1016/S0140-6736(10)61350-5",
           "scope": "HTTPS 원문 XML 직접 열람·항목의 주요 수치/조건 대조",
           "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2988224/fullTextXML",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/879f70de45077f18cea1.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/879f70de45077f18cea1.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/879f70de45077f18cea1.json",
+          "metadata_cache_sha256": "3434d5ec9349d1183f4a9968c5f6c1bf4d3cd7a9b64247db0cf7a0597958cae2",
+          "metadata_fetched_at": "2026-10-18T20:49:58.072488+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2FS0140-6736%2810%2961350-5%22&format=json&resultType=core&pageSize=10",
+          "direct_fulltext_raw": {
+            "raw_path": "/tmp/ch02-audit/full-PMC2988224.body",
+            "raw_sha256": "7499b8d04b81b33ca47033c278d1b4c16285485bd8ec8868f7a40e0035825c76",
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2988224/fullTextXML",
+            "http_status": 200,
+            "article_dois": [
+              "10.1016/S0140-6736(10)61350-5"
+            ],
+            "fetched_at": null,
+            "fetched_at_limit": "初回の取得時刻は記録していないため未復元。ファイルmtimeをHTTP取得時刻とみなさない。",
+            "current_raw_reopened_at_utc": "2026-10-18T13:47:08.728391+00:00",
+            "read_scope": "초기감사에서 사용한 원문 응답을 재개봉해 DOI와 raw바이트SHA를 연결. 모든 문장/부록 재검증을 뜻하지 않음."
+          }
         },
         {
           "doi": "10.1093/eurheartj/eht295",
           "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
           "url": "https://doi.org/10.1093/eurheartj/eht295",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/f4c786bd3453be05c2b1.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/f4c786bd3453be05c2b1.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/f4c786bd3453be05c2b1.json",
+          "metadata_cache_sha256": "b0a768004b00af7a2c3e0a821f508fe9ee1a1cb1b803450fea111ab8b0e2a513",
+          "metadata_fetched_at": "2026-10-18T20:49:59.109540+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1093%2Feurheartj%2Feht295%22&format=json&resultType=core&pageSize=10"
         }
       ]
     },
@@ -283,25 +508,67 @@
           "doi": "10.1093/sleep/33.5.585",
           "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
           "url": "https://doi.org/10.1093/sleep/33.5.585",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/98ed1f52f78b79d8a5ec.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/98ed1f52f78b79d8a5ec.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/98ed1f52f78b79d8a5ec.json",
+          "metadata_cache_sha256": "1dfe4f2c2e4fef74683cedc5993d1f5836f346ef17011020c2bf57bbb0030c53",
+          "metadata_fetched_at": "2026-10-18T20:49:59.299783+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1093%2Fsleep%2F33.5.585%22&format=json&resultType=core&pageSize=10"
         },
         {
           "doi": "10.1161/JAHA.117.005947",
           "scope": "HTTPS 원문 XML 직접 열람·항목의 주요 수치/조건 대조",
           "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5634263/fullTextXML",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/ac28c0b40432ac8d05e6.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/ac28c0b40432ac8d05e6.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/ac28c0b40432ac8d05e6.json",
+          "metadata_cache_sha256": "98c51d0413641e44f48552c41f8e464f91300ab4900c35575b04092c1ecb76df",
+          "metadata_fetched_at": "2026-10-18T20:49:59.502978+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1161%2FJAHA.117.005947%22&format=json&resultType=core&pageSize=10",
+          "direct_fulltext_raw": {
+            "raw_path": "/tmp/ch02-audit/full-PMC5634263.body",
+            "raw_sha256": "7401ff314417e19ab78ad832f4048a5adf5a17d51fdd700d97eeb1bce95c6ddb",
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5634263/fullTextXML",
+            "http_status": 200,
+            "article_dois": [
+              "10.1161/JAHA.117.005947"
+            ],
+            "fetched_at": null,
+            "fetched_at_limit": "初回の取得時刻は記録していないため未復元。ファイルmtimeをHTTP取得時刻とみなさない。",
+            "current_raw_reopened_at_utc": "2026-10-18T13:47:08.728391+00:00",
+            "read_scope": "초기감사에서 사용한 원문 응답을 재개봉해 DOI와 raw바이트SHA를 연결. 모든 문장/부록 재검증을 뜻하지 않음."
+          }
         },
         {
           "doi": "10.1093/sleep/zsad253",
           "scope": "HTTPS 원문 XML 직접 열람·항목의 주요 수치/조건 대조",
           "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10782501/fullTextXML",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/41a3b8c317dcaf2b78ce.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/41a3b8c317dcaf2b78ce.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/41a3b8c317dcaf2b78ce.json",
+          "metadata_cache_sha256": "bbe3c6e197b4bdde8f789c7779095a99a4b602eb556cbe746fd5a3e4a01d5e65",
+          "metadata_fetched_at": "2026-10-18T20:49:59.702575+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1093%2Fsleep%2Fzsad253%22&format=json&resultType=core&pageSize=10",
+          "direct_fulltext_raw": {
+            "raw_path": "/tmp/ch02-audit/full-PMC10782501.body",
+            "raw_sha256": "c60cf4619010806636c8cb76ae9388b6c98a33308f63c979c1acd6a80730eb69",
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10782501/fullTextXML",
+            "http_status": 200,
+            "article_dois": [
+              "10.1093/sleep/zsad253"
+            ],
+            "fetched_at": null,
+            "fetched_at_limit": "初回の取得時刻は記録していないため未復元。ファイルmtimeをHTTP取得時刻とみなさない。",
+            "current_raw_reopened_at_utc": "2026-10-18T13:47:08.728391+00:00",
+            "read_scope": "초기감사에서 사용한 원문 응답을 재개봉해 DOI와 raw바이트SHA를 연결. 모든 문장/부록 재검증을 뜻하지 않음."
+          }
         },
         {
           "doi": "10.1111/joim.70133",
           "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
           "url": "https://doi.org/10.1111/joim.70133",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/6ec72dd8f254bf56dca9.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/6ec72dd8f254bf56dca9.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/6ec72dd8f254bf56dca9.json",
+          "metadata_cache_sha256": "d41a6b38ac83c8b568748447185fd8f4ab8ed08f0d51d0b2fd948a68b11db58c",
+          "metadata_fetched_at": "2026-10-18T20:50:00.510137+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1111%2Fjoim.70133%22&format=json&resultType=core&pageSize=10"
         }
       ]
     },
@@ -315,7 +582,11 @@
           "doi": "10.1136/bjsports-2016-096822",
           "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
           "url": "https://doi.org/10.1136/bjsports-2016-096822",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/0b283ffd37147f6ec12d.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/0b283ffd37147f6ec12d.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/0b283ffd37147f6ec12d.json",
+          "metadata_cache_sha256": "bc142e3cca04917af30bf95aede0ef3a2b607afad57a64d2fb3df1543d830adb",
+          "metadata_fetched_at": "2026-10-18T20:50:00.575860+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1136%2Fbjsports-2016-096822%22&format=json&resultType=core&pageSize=10"
         }
       ]
     },
@@ -329,7 +600,24 @@
           "doi": "10.1038/s41591-022-02100-x",
           "scope": "HTTPS 원문 XML 직접 열람·항목의 주요 수치/조건 대조",
           "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9800274/fullTextXML",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/c87a83bee6d4f965e53a.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/c87a83bee6d4f965e53a.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/c87a83bee6d4f965e53a.json",
+          "metadata_cache_sha256": "e9e0a81ee9060b014f50d511c1c130b5ff7e975f9fa343348b2037724d44a9aa",
+          "metadata_fetched_at": "2026-10-18T20:50:00.752800+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1038%2Fs41591-022-02100-x%22&format=json&resultType=core&pageSize=10",
+          "direct_fulltext_raw": {
+            "raw_path": "/tmp/ch02-audit/full-PMC9800274.body",
+            "raw_sha256": "517988dcf668ecd335886cc6e3df51cfc2a55ca31bda12a29650e1a6ea2c34ed",
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9800274/fullTextXML",
+            "http_status": 200,
+            "article_dois": [
+              "10.1038/s41591-022-02100-x"
+            ],
+            "fetched_at": null,
+            "fetched_at_limit": "初回の取得時刻は記録していないため未復元。ファイルmtimeをHTTP取得時刻とみなさない。",
+            "current_raw_reopened_at_utc": "2026-10-18T13:47:08.728391+00:00",
+            "read_scope": "초기감사에서 사용한 원문 응답을 재개봉해 DOI와 raw바이트SHA를 연결. 모든 문장/부록 재검증을 뜻하지 않음."
+          }
         }
       ]
     },
@@ -343,7 +631,24 @@
           "doi": "10.1136/bjsports-2021-105061",
           "scope": "HTTPS 원문 XML 직접 열람·항목의 주요 수치/조건 대조",
           "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9209691/fullTextXML",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/648e30fdf4ead0bd50fb.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/648e30fdf4ead0bd50fb.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/648e30fdf4ead0bd50fb.json",
+          "metadata_cache_sha256": "2d88e74e0da3b4e61cd15eb8ad5667a76ab3f479e6d616f61182dc0754ccd96a",
+          "metadata_fetched_at": "2026-10-18T20:50:00.779131+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1136%2Fbjsports-2021-105061%22&format=json&resultType=core&pageSize=10",
+          "direct_fulltext_raw": {
+            "raw_path": "/tmp/ch02-audit/full-PMC9209691.body",
+            "raw_sha256": "ffe5462b860ed16387503b573c56b65debce95491864b1900fdc387496625c8a",
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9209691/fullTextXML",
+            "http_status": 200,
+            "article_dois": [
+              "10.1136/bjsports-2021-105061"
+            ],
+            "fetched_at": null,
+            "fetched_at_limit": "初回の取得時刻は記録していないため未復元。ファイルmtimeをHTTP取得時刻とみなさない。",
+            "current_raw_reopened_at_utc": "2026-10-18T13:47:08.728391+00:00",
+            "read_scope": "초기감사에서 사용한 원문 응답을 재개봉해 DOI와 raw바이트SHA를 연결. 모든 문장/부록 재검증을 뜻하지 않음."
+          }
         }
       ]
     },
@@ -357,13 +662,21 @@
           "doi": "10.7326/M17-0212",
           "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
           "url": "https://doi.org/10.7326/M17-0212",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/e068967c4a851dd421bf.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/e068967c4a851dd421bf.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/e068967c4a851dd421bf.json",
+          "metadata_cache_sha256": "89e1cc99b7756659a5add3743d000870d75bfcae2649a53b129232b26ba5e652",
+          "metadata_fetched_at": "2026-10-18T20:50:00.919988+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.7326%2FM17-0212%22&format=json&resultType=core&pageSize=10"
         },
         {
           "doi": "10.1016/S0140-6736(16)30370-1",
           "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
           "url": "https://doi.org/10.1016/S0140-6736(16)30370-1",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/e522d333f433d51fb64d.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/e522d333f433d51fb64d.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/e522d333f433d51fb64d.json",
+          "metadata_cache_sha256": "ac3f7e3ebfa1388411fb6491d9e1a39cd263df03d329c88de532384b43a04606",
+          "metadata_fetched_at": "2026-10-18T20:50:00.959615+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2FS0140-6736%2816%2930370-1%22&format=json&resultType=core&pageSize=10"
         }
       ]
     },
@@ -377,19 +690,31 @@
           "doi": "10.1093/aje/kwt261",
           "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
           "url": "https://doi.org/10.1093/aje/kwt261",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/6d999285da35006e915f.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/6d999285da35006e915f.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/6d999285da35006e915f.json",
+          "metadata_cache_sha256": "d83722c33e32a177fd6a2ea7fc1dd1338faeb47e8529d63bc5cbfed8cc742fbc",
+          "metadata_fetched_at": "2026-10-18T20:50:01.115609+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1093%2Faje%2Fkwt261%22&format=json&resultType=core&pageSize=10"
         },
         {
           "doi": "10.3945/ajcn.117.153148",
           "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
           "url": "https://doi.org/10.3945/ajcn.117.153148",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/4b7da62d583d8e829ddf.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/4b7da62d583d8e829ddf.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/4b7da62d583d8e829ddf.json",
+          "metadata_cache_sha256": "78c1aa2d6eb0a605813a7b92792a1b65df45cad47ac7b116ff2abb36ac2ada6c",
+          "metadata_fetched_at": "2026-10-18T20:50:01.155547+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.3945%2Fajcn.117.153148%22&format=json&resultType=core&pageSize=10"
         },
         {
           "doi": "10.7326/M19-1621",
           "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
           "url": "https://doi.org/10.7326/M19-1621",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/3b5f25797f64d4d98130.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/3b5f25797f64d4d98130.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/3b5f25797f64d4d98130.json",
+          "metadata_cache_sha256": "e791029afc9f2746e94aed4e75fe7e5a6ca276dd86815efe8f854a4516fcdee3",
+          "metadata_fetched_at": "2026-10-18T20:50:01.284264+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.7326%2FM19-1621%22&format=json&resultType=core&pageSize=10"
         }
       ]
     },
@@ -403,25 +728,80 @@
           "doi": "10.1016/S0140-6736(18)30134-X",
           "scope": "HTTPS 원문 XML 직접 열람·항목의 주요 수치/조건 대조",
           "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5899998/fullTextXML",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/b0ff44e44a3d91f9048f.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/b0ff44e44a3d91f9048f.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/b0ff44e44a3d91f9048f.json",
+          "metadata_cache_sha256": "abfb7c175ad43c18fd94a8413f96916dd88aa827852178e9fe9bc7e78e7b4d64",
+          "metadata_fetched_at": "2026-10-18T20:50:01.335929+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2FS0140-6736%2818%2930134-X%22&format=json&resultType=core&pageSize=10",
+          "direct_fulltext_raw": {
+            "raw_path": "/tmp/ch02-audit/full-PMC5899998.body",
+            "raw_sha256": "6b26cfa7c791cf92ebc3ec68cf47396ba4ad50d557bb1e3eda74faa527aeb401",
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5899998/fullTextXML",
+            "http_status": 200,
+            "article_dois": [
+              "10.1016/S0140-6736(18)30134-X"
+            ],
+            "fetched_at": null,
+            "fetched_at_limit": "初回の取得時刻は記録していないため未復元。ファイルmtimeをHTTP取得時刻とみなさない。",
+            "current_raw_reopened_at_utc": "2026-10-18T13:47:08.728391+00:00",
+            "read_scope": "초기감사에서 사용한 원문 응답을 재개봉해 DOI와 raw바이트SHA를 연결. 모든 문장/부록 재검증을 뜻하지 않음."
+          }
         },
         {
           "doi": "10.1016/S0140-6736(18)31310-2",
           "scope": "HTTPS 원문 XML 직접 열람·항목의 주요 수치/조건 대조",
           "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6148333/fullTextXML",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/76580b9193ca0c12e83b.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/76580b9193ca0c12e83b.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/76580b9193ca0c12e83b.json",
+          "metadata_cache_sha256": "3f96c7706f7fa205dff94229f75740644ffaf23a694696d4d111e0c393de41ff",
+          "metadata_fetched_at": "2026-10-18T20:50:01.487391+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2FS0140-6736%2818%2931310-2%22&format=json&resultType=core&pageSize=10",
+          "direct_fulltext_raw": {
+            "raw_path": "/tmp/ch02-audit/full-PMC6148333.body",
+            "raw_sha256": "de2fc26089a26e01dfc9bf0d77bd8d8894fc8532b08f6ed165910c200a6e5f60",
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6148333/fullTextXML",
+            "http_status": 200,
+            "article_dois": [
+              "10.1016/S0140-6736(18)31310-2"
+            ],
+            "fetched_at": null,
+            "fetched_at_limit": "初回の取得時刻は記録していないため未復元。ファイルmtimeをHTTP取得時刻とみなさない。",
+            "current_raw_reopened_at_utc": "2026-10-18T13:47:08.728391+00:00",
+            "read_scope": "초기감사에서 사용한 원문 응답을 재개봉해 DOI와 raw바이트SHA를 연결. 모든 문장/부록 재검증을 뜻하지 않음."
+          }
         },
         {
           "doi": "10.1001/jamanetworkopen.2023.6185",
           "scope": "HTTPS 원문 XML 직접 열람·항목의 주요 수치/조건 대조",
           "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10066463/fullTextXML",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/b4f3ad5110145baa34db.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/b4f3ad5110145baa34db.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/b4f3ad5110145baa34db.json",
+          "metadata_cache_sha256": "9ef118c7a463daa859229bc7dd815d27c919bd0d0c11dee34a9c39ee65695e79",
+          "metadata_fetched_at": "2026-10-18T20:50:01.638443+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1001%2Fjamanetworkopen.2023.6185%22&format=json&resultType=core&pageSize=10",
+          "direct_fulltext_raw": {
+            "raw_path": "/tmp/ch02-audit/full-PMC10066463.body",
+            "raw_sha256": "217dc207a4cb1bcb7a152b4d4029ab87e8f3c937bacb205ebcc35ca82d1fd77b",
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10066463/fullTextXML",
+            "http_status": 200,
+            "article_dois": [
+              "10.1001/jamanetworkopen.2023.6185"
+            ],
+            "fetched_at": null,
+            "fetched_at_limit": "初回の取得時刻は記録していないため未復元。ファイルmtimeをHTTP取得時刻とみなさない。",
+            "current_raw_reopened_at_utc": "2026-10-18T13:47:08.728391+00:00",
+            "read_scope": "초기감사에서 사용한 원문 응답을 재개봉해 DOI와 raw바이트SHA를 연결. 모든 문장/부록 재검증을 뜻하지 않음."
+          }
         },
         {
           "doi": "10.1001/archinte.166.22.2437",
           "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
           "url": "https://doi.org/10.1001/archinte.166.22.2437",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/c9d68df968a86f93b3e7.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/c9d68df968a86f93b3e7.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/c9d68df968a86f93b3e7.json",
+          "metadata_cache_sha256": "09d6b3f9e2fc5c7dd725442e9ada077c8159f2b91e6c36faa4042a12b6e66b3d",
+          "metadata_fetched_at": "2026-10-18T20:50:02.053499+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1001%2Farchinte.166.22.2437%22&format=json&resultType=core&pageSize=10"
         }
       ]
     },
@@ -435,13 +815,21 @@
           "doi": "10.1016/j.ejim.2026.107103",
           "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
           "url": "https://doi.org/10.1016/j.ejim.2026.107103",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/b9c928ac241d047dc531.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/b9c928ac241d047dc531.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/b9c928ac241d047dc531.json",
+          "metadata_cache_sha256": "1c302683b74114ab30e4f2a8e61e276beb38d585afb3eb8ccd1a22d6b7e07928",
+          "metadata_fetched_at": "2026-10-18T20:50:02.248109+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2Fj.ejim.2026.107103%22&format=json&resultType=core&pageSize=10"
         },
         {
           "doi": "10.1111/add.16297",
           "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
           "url": "https://doi.org/10.1111/add.16297",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/2230022860fe369613e8.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/2230022860fe369613e8.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/2230022860fe369613e8.json",
+          "metadata_cache_sha256": "288e17b9d7134cd90b8cc654fe8e586c1d43d45c6f1b7278f92858d1dfeffd1d",
+          "metadata_fetched_at": "2026-10-18T20:50:02.450795+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1111%2Fadd.16297%22&format=json&resultType=core&pageSize=10"
         }
       ]
     },
@@ -455,13 +843,21 @@
           "doi": "10.1002/14651858.CD004148.pub4",
           "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
           "url": "https://doi.org/10.1002/14651858.CD004148.pub4",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/5f4aff456ae7268e9379.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/5f4aff456ae7268e9379.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/5f4aff456ae7268e9379.json",
+          "metadata_cache_sha256": "1a2faa368551ebedb724a94c23fd6c28f47eecd9893ad297454cd7fc98dee9a7",
+          "metadata_fetched_at": "2026-10-18T20:50:02.633185+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1002%2F14651858.CD004148.pub4%22&format=json&resultType=core&pageSize=10"
         },
         {
           "doi": "10.1001/jama.2014.3628",
           "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
           "url": "https://doi.org/10.1001/jama.2014.3628",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/52ab8a5eff9189bb5042.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/52ab8a5eff9189bb5042.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/52ab8a5eff9189bb5042.json",
+          "metadata_cache_sha256": "cde67e843082b2ecd9a615cc80496394b912133b639b1f2ab3b28f882a58b5a5",
+          "metadata_fetched_at": "2026-10-18T20:50:02.869359+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1001%2Fjama.2014.3628%22&format=json&resultType=core&pageSize=10"
         }
       ]
     },
@@ -475,7 +871,11 @@
           "doi": "10.1056/NEJMoa1307352",
           "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
           "url": "https://doi.org/10.1056/NEJMoa1307352",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/a12e0c2ec1910d24976c.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/a12e0c2ec1910d24976c.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/a12e0c2ec1910d24976c.json",
+          "metadata_cache_sha256": "fd9356ec4753093663f9d4860cf750f2c13b07ee002d82345c5bb1e699d70df3",
+          "metadata_fetched_at": "2026-10-18T20:50:03.107482+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1056%2FNEJMoa1307352%22&format=json&resultType=core&pageSize=10"
         }
       ]
     },
@@ -489,7 +889,11 @@
           "doi": "10.1001/jamainternmed.2019.6969",
           "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
           "url": "https://doi.org/10.1001/jamainternmed.2019.6969",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/0b6beb299d71a48a9114.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/0b6beb299d71a48a9114.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/0b6beb299d71a48a9114.json",
+          "metadata_cache_sha256": "c3cc35e29e09a1219baf97c1be48d041a9b624305d8c76f2a24e717ee310dddb",
+          "metadata_fetched_at": "2026-10-18T20:50:03.281741+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1001%2Fjamainternmed.2019.6969%22&format=json&resultType=core&pageSize=10"
         }
       ]
     },
@@ -503,13 +907,34 @@
           "doi": "10.1136/bmj.i2716",
           "scope": "HTTPS 원문 XML 직접 열람·항목의 주요 수치/조건 대조",
           "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4908315/fullTextXML",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/190df93ef40965b88825.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/190df93ef40965b88825.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/190df93ef40965b88825.json",
+          "metadata_cache_sha256": "3bf1a1d082db120f6ac0ad82ede0e2bc5eab5f8c525f06e313e7fb01e8621b5d",
+          "metadata_fetched_at": "2026-10-18T20:50:03.324593+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1136%2Fbmj.i2716%22&format=json&resultType=core&pageSize=10",
+          "direct_fulltext_raw": {
+            "raw_path": "/tmp/ch02-audit/full-PMC4908315.body",
+            "raw_sha256": "f2efbe24aaf366f9f1aabee1847ff4bbafa907c6821311fbeee7568e1f390c92",
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4908315/fullTextXML",
+            "http_status": 200,
+            "article_dois": [
+              "10.1136/bmj.i2716"
+            ],
+            "fetched_at": null,
+            "fetched_at_limit": "初回の取得時刻は記録していないため未復元。ファイルmtimeをHTTP取得時刻とみなさない。",
+            "current_raw_reopened_at_utc": "2026-10-18T13:47:08.728391+00:00",
+            "read_scope": "초기감사에서 사용한 원문 응답을 재개봉해 DOI와 raw바이트SHA를 연결. 모든 문장/부록 재검증을 뜻하지 않음."
+          }
         },
         {
           "doi": "10.3945/ajcn.117.153148",
           "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
           "url": "https://doi.org/10.3945/ajcn.117.153148",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/4b7da62d583d8e829ddf.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/4b7da62d583d8e829ddf.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/4b7da62d583d8e829ddf.json",
+          "metadata_cache_sha256": "78c1aa2d6eb0a605813a7b92792a1b65df45cad47ac7b116ff2abb36ac2ada6c",
+          "metadata_fetched_at": "2026-10-18T20:50:01.155547+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.3945%2Fajcn.117.153148%22&format=json&resultType=core&pageSize=10"
         }
       ]
     },
@@ -523,25 +948,54 @@
           "doi": "10.1177/2047487319894685",
           "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
           "url": "https://doi.org/10.1177/2047487319894685",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/4e0e0655683271e12c19.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/4e0e0655683271e12c19.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/4e0e0655683271e12c19.json",
+          "metadata_cache_sha256": "52b5139378d6c29ec9d5aa199703ac3e43306e6a4e23faf0b93ee7d57d6978a4",
+          "metadata_fetched_at": "2026-10-18T20:50:03.510728+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1177%2F2047487319894685%22&format=json&resultType=core&pageSize=10"
         },
         {
           "doi": "10.1016/j.fct.2020.111830",
           "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
           "url": "https://doi.org/10.1016/j.fct.2020.111830",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/5fde18292b4ae6fd255f.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/5fde18292b4ae6fd255f.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/5fde18292b4ae6fd255f.json",
+          "metadata_cache_sha256": "468973e84b3afc51c996a1ea8203c62f6dda199a511c192230f60af3449d62f5",
+          "metadata_fetched_at": "2026-10-18T20:50:03.844545+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2Fj.fct.2020.111830%22&format=json&resultType=core&pageSize=10"
         },
         {
           "doi": "10.3390/toxins14070452",
           "scope": "HTTPS 원문 XML 직접 열람·항목의 주요 수치/조건 대조",
           "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9318285/fullTextXML",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/fb779ced00d87af760f5.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/fb779ced00d87af760f5.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/fb779ced00d87af760f5.json",
+          "metadata_cache_sha256": "71beb7825f175254893f9f2647b6105bc679245e494159ccc1b3e1b1e037f73e",
+          "metadata_fetched_at": "2026-10-18T20:50:04.165030+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.3390%2Ftoxins14070452%22&format=json&resultType=core&pageSize=10",
+          "direct_fulltext_raw": {
+            "raw_path": "/tmp/ch02-audit/full-PMC9318285.body",
+            "raw_sha256": "ac013af1a5ee8b6e76ac31c69a3f7d0383510029892522dd6f56df989aa8f21f",
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9318285/fullTextXML",
+            "http_status": 200,
+            "article_dois": [
+              "10.3390/toxins14070452"
+            ],
+            "fetched_at": null,
+            "fetched_at_limit": "初回の取得時刻は記録していないため未復元。ファイルmtimeをHTTP取得時刻とみなさない。",
+            "current_raw_reopened_at_utc": "2026-10-18T13:47:08.728391+00:00",
+            "read_scope": "초기감사에서 사용한 원문 응답을 재개봉해 DOI와 raw바이트SHA를 연결. 모든 문장/부록 재검증을 뜻하지 않음."
+          }
         },
         {
           "doi": "10.1016/j.yrtph.2018.03.019",
           "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
           "url": "https://doi.org/10.1016/j.yrtph.2018.03.019",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/7bdf70026746773e4d1c.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/7bdf70026746773e4d1c.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/7bdf70026746773e4d1c.json",
+          "metadata_cache_sha256": "ce8c74bd6354ab553cb68c694f9c0a0b3fe7fa379db5a69c93c65af22386261c",
+          "metadata_fetched_at": "2026-10-18T20:50:04.355366+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2Fj.yrtph.2018.03.019%22&format=json&resultType=core&pageSize=10"
         }
       ]
     },
@@ -555,7 +1009,24 @@
           "doi": "10.1136/bmj.j5024",
           "scope": "HTTPS 원문 XML 직접 열람·항목의 주요 수치/조건 대조",
           "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5696634/fullTextXML",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/b52b1e14c57ddd410243.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/b52b1e14c57ddd410243.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/b52b1e14c57ddd410243.json",
+          "metadata_cache_sha256": "511d9bd43f5d877c7ed1d186b122da1ff52da9da02d76f5a4a64631402a07fd2",
+          "metadata_fetched_at": "2026-10-18T20:50:04.398770+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1136%2Fbmj.j5024%22&format=json&resultType=core&pageSize=10",
+          "direct_fulltext_raw": {
+            "raw_path": "/tmp/ch02-audit/full-PMC5696634.body",
+            "raw_sha256": "87d53f28f923f2d7391b8e3f4f135a3ee9798251019c251b771a33f0b9b786bb",
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5696634/fullTextXML",
+            "http_status": 200,
+            "article_dois": [
+              "10.1136/bmj.j5024"
+            ],
+            "fetched_at": null,
+            "fetched_at_limit": "初回の取得時刻は記録していないため未復元。ファイルmtimeをHTTP取得時刻とみなさない。",
+            "current_raw_reopened_at_utc": "2026-10-18T13:47:08.728391+00:00",
+            "read_scope": "초기감사에서 사용한 원문 응답을 재개봉해 DOI와 raw바이트SHA를 연결. 모든 문장/부록 재검증을 뜻하지 않음."
+          }
         }
       ]
     },
@@ -569,13 +1040,34 @@
           "doi": "10.1093/ije/dyw319",
           "scope": "HTTPS 원문 XML 직접 열람·항목의 주요 수치/조건 대조",
           "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5837313/fullTextXML",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/c15fa559b9104d8fdd17.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/c15fa559b9104d8fdd17.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/c15fa559b9104d8fdd17.json",
+          "metadata_cache_sha256": "4fc802aeb27299c907846a7d6fefc3066d696ac8797967ead94815819cd91bdc",
+          "metadata_fetched_at": "2026-10-18T20:50:04.541384+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1093%2Fije%2Fdyw319%22&format=json&resultType=core&pageSize=10",
+          "direct_fulltext_raw": {
+            "raw_path": "/tmp/ch02-audit/full-PMC5837313.body",
+            "raw_sha256": "0024f5772491aad3188ddc13676eb74dc2b13654ecbf69251144ac2e1fe0cfff",
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5837313/fullTextXML",
+            "http_status": 200,
+            "article_dois": [
+              "10.1093/ije/dyw319"
+            ],
+            "fetched_at": null,
+            "fetched_at_limit": "初回の取得時刻は記録していないため未復元。ファイルmtimeをHTTP取得時刻とみなさない。",
+            "current_raw_reopened_at_utc": "2026-10-18T13:47:08.728391+00:00",
+            "read_scope": "초기감사에서 사용한 원문 응답을 재개봉해 DOI와 raw바이트SHA를 연결. 모든 문장/부록 재검증을 뜻하지 않음."
+          }
         },
         {
           "doi": "10.1161/CIRCULATIONAHA.120.048996",
           "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
           "url": "https://doi.org/10.1161/CIRCULATIONAHA.120.048996",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/931785f9c2296f3d6d44.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/931785f9c2296f3d6d44.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/931785f9c2296f3d6d44.json",
+          "metadata_cache_sha256": "1544c4c428468f2718619db887178e3ab38633b2c6c9101392864c5380959937",
+          "metadata_fetched_at": "2026-10-18T20:50:04.657393+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1161%2FCIRCULATIONAHA.120.048996%22&format=json&resultType=core&pageSize=10"
         }
       ]
     },
@@ -589,7 +1081,24 @@
           "doi": "10.1136/bmj-2023-077310",
           "scope": "HTTPS 원문 XML 직접 열람·항목의 주요 수치/조건 대조",
           "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10899807/fullTextXML",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/1db316287e0c39f6b946.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/1db316287e0c39f6b946.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/1db316287e0c39f6b946.json",
+          "metadata_cache_sha256": "1cf7f0045af6f454b18baf0e91ae28c7d9e0cbeb3baf80286ed32d84a41d1926",
+          "metadata_fetched_at": "2026-10-18T20:50:04.774459+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1136%2Fbmj-2023-077310%22&format=json&resultType=core&pageSize=10",
+          "direct_fulltext_raw": {
+            "raw_path": "/tmp/ch02-audit/full-PMC10899807.body",
+            "raw_sha256": "45154cac70401515cd7f07cff88d9fdcd460a92d6ebc23fed3d28aa4d56da184",
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10899807/fullTextXML",
+            "http_status": 200,
+            "article_dois": [
+              "10.1136/bmj-2023-077310"
+            ],
+            "fetched_at": null,
+            "fetched_at_limit": "初回の取得時刻は記録していないため未復元。ファイルmtimeをHTTP取得時刻とみなさない。",
+            "current_raw_reopened_at_utc": "2026-10-18T13:47:08.728391+00:00",
+            "read_scope": "초기감사에서 사용한 원문 응답을 재개봉해 DOI와 raw바이트SHA를 연결. 모든 문장/부록 재검증을 뜻하지 않음."
+          }
         }
       ]
     },
@@ -603,13 +1112,21 @@
           "doi": "10.1001/jama.2018.2151",
           "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
           "url": "https://doi.org/10.1001/jama.2018.2151",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/9a9a5095d6eb444aa465.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/9a9a5095d6eb444aa465.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/9a9a5095d6eb444aa465.json",
+          "metadata_cache_sha256": "132bac2eacaa72b23b9b4f4d121d639652edda923daa3015f618c5ecb2135275",
+          "metadata_fetched_at": "2026-10-18T20:50:04.869631+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1001%2Fjama.2018.2151%22&format=json&resultType=core&pageSize=10"
         },
         {
           "doi": "10.1016/j.envint.2020.105974",
           "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
           "url": "https://doi.org/10.1016/j.envint.2020.105974",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/da2b073459b6bda06a19.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/da2b073459b6bda06a19.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/da2b073459b6bda06a19.json",
+          "metadata_cache_sha256": "1c445ab674c519656ca34bb51cd07865da50878595b30aeca0387272adfa3d72",
+          "metadata_fetched_at": "2026-10-18T20:50:05.178942+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2Fj.envint.2020.105974%22&format=json&resultType=core&pageSize=10"
         }
       ]
     },
@@ -623,13 +1140,34 @@
           "doi": "10.1136/bmj.b929",
           "scope": "HTTPS 원문 XML 직접 열람·항목의 주요 수치/조건 대조",
           "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3269898/fullTextXML",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/252a099803319d0f8443.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/252a099803319d0f8443.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/252a099803319d0f8443.json",
+          "metadata_cache_sha256": "0bb2ab61c503dd3a41eed6458b3c84b892882899ebf3f33034b294163e810426",
+          "metadata_fetched_at": "2026-10-18T20:50:05.359556+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1136%2Fbmj.b929%22&format=json&resultType=core&pageSize=10",
+          "direct_fulltext_raw": {
+            "raw_path": "/tmp/ch02-audit/full-PMC3269898.body",
+            "raw_sha256": "aca4f244d445ed112346140b32b32038385868e90242bdfffd68793f2363fb9a",
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3269898/fullTextXML",
+            "http_status": 200,
+            "article_dois": [
+              "10.1136/bmj.b929"
+            ],
+            "fetched_at": null,
+            "fetched_at_limit": "初回の取得時刻は記録していないため未復元。ファイルmtimeをHTTP取得時刻とみなさない。",
+            "current_raw_reopened_at_utc": "2026-10-18T13:47:08.728391+00:00",
+            "read_scope": "초기감사에서 사용한 원문 응답을 재개봉해 DOI와 raw바이트SHA를 연결. 모든 문장/부록 재검증을 뜻하지 않음."
+          }
         },
         {
           "doi": "10.1016/S1470-2045(16)30239-X",
           "scope": "서지 메타데이터 캐시만 확인; 내용 미확인",
           "url": "https://doi.org/10.1016/S1470-2045(16)30239-X",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/eeaca2b0cbf9a50935ec.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/eeaca2b0cbf9a50935ec.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/eeaca2b0cbf9a50935ec.json",
+          "metadata_cache_sha256": "638131047bed95e52856d0dbfe2f5d848fa53550be7567488e45ae10269dbbc8",
+          "metadata_fetched_at": "2026-10-18T20:50:05.559806+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2FS1470-2045%2816%2930239-X%22&format=json&resultType=core&pageSize=10"
         }
       ]
     },
@@ -643,7 +1181,11 @@
           "doi": "10.1111/joim.12496",
           "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
           "url": "https://doi.org/10.1111/joim.12496",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/e68a6464b290a05b21d2.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/e68a6464b290a05b21d2.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/e68a6464b290a05b21d2.json",
+          "metadata_cache_sha256": "8f4dac63a0d2b73eda218ba53290f66ca2802cc62414cebbc022ccfd629a21dd",
+          "metadata_fetched_at": "2026-10-18T20:50:05.832308+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1111%2Fjoim.12496%22&format=json&resultType=core&pageSize=10"
         }
       ]
     },
@@ -657,13 +1199,34 @@
           "doi": "10.1016/S0140-6736(16)30175-1",
           "scope": "HTTPS 원문 XML 직접 열람·항목의 주요 수치/조건 대조",
           "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4995441/fullTextXML",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/b33e4208c4b4ebee022f.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/b33e4208c4b4ebee022f.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/b33e4208c4b4ebee022f.json",
+          "metadata_cache_sha256": "c3b74f91a84bc04cbee80cb6f447f1040b24f3dee80c8d9b50d9cbe4cd53bf04",
+          "metadata_fetched_at": "2026-10-18T20:50:06.037418+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2FS0140-6736%2816%2930175-1%22&format=json&resultType=core&pageSize=10",
+          "direct_fulltext_raw": {
+            "raw_path": "/tmp/ch02-audit/full-PMC4995441.body",
+            "raw_sha256": "e63f5232c5728c87368ac6a01da315ee3ff5e64bd5bf170618f2d5c3f9bd8b39",
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4995441/fullTextXML",
+            "http_status": 200,
+            "article_dois": [
+              "10.1016/S0140-6736(16)30175-1"
+            ],
+            "fetched_at": null,
+            "fetched_at_limit": "初回の取得時刻は記録していないため未復元。ファイルmtimeをHTTP取得時刻とみなさない。",
+            "current_raw_reopened_at_utc": "2026-10-18T13:47:08.728391+00:00",
+            "read_scope": "초기감사에서 사용한 원문 응답을 재개봉해 DOI와 raw바이트SHA를 연결. 모든 문장/부록 재검증을 뜻하지 않음."
+          }
         },
         {
           "doi": "10.1001/jama.2012.113905",
           "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
           "url": "https://doi.org/10.1001/jama.2012.113905",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/790629f89037aa491844.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/790629f89037aa491844.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/790629f89037aa491844.json",
+          "metadata_cache_sha256": "65bcdb6b29475d18052ab5dea9a1f1ee381a29c20338a7f477d71e5641e54ec1",
+          "metadata_fetched_at": "2026-10-18T20:50:06.281088+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1001%2Fjama.2012.113905%22&format=json&resultType=core&pageSize=10"
         }
       ]
     },
@@ -677,7 +1240,11 @@
           "doi": "10.1016/j.jacc.2019.09.068",
           "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
           "url": "https://doi.org/10.1016/j.jacc.2019.09.068",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/edda638827db3ce65f50.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/edda638827db3ce65f50.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/edda638827db3ce65f50.json",
+          "metadata_cache_sha256": "a3a27d4290375b707c0c283f3057339a0f305f15cb1ca3dadc6289ca11483a35",
+          "metadata_fetched_at": "2026-10-18T20:50:06.349978+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2Fj.jacc.2019.09.068%22&format=json&resultType=core&pageSize=10"
         }
       ]
     },
@@ -691,7 +1258,11 @@
           "doi": "10.1016/S0140-6736(18)31812-9",
           "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
           "url": "https://doi.org/10.1016/S0140-6736(18)31812-9",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/d3719f3370e6ea4aeb80.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/d3719f3370e6ea4aeb80.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/d3719f3370e6ea4aeb80.json",
+          "metadata_cache_sha256": "9483b43657373b922c4751cdbde4c30acc93336b9859388095d828e1f79828aa",
+          "metadata_fetched_at": "2026-10-18T20:50:06.473360+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2FS0140-6736%2818%2931812-9%22&format=json&resultType=core&pageSize=10"
         }
       ]
     },
@@ -705,7 +1276,24 @@
           "doi": "10.1371/journal.pmed.1003508",
           "scope": "HTTPS 원문 XML 직접 열람·항목의 주요 수치/조건 대조",
           "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7872242/fullTextXML",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/a0f64cf2a93beec39bfc.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/a0f64cf2a93beec39bfc.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/a0f64cf2a93beec39bfc.json",
+          "metadata_cache_sha256": "b2abd49838a002466cd82c4e2986072d55c9014dd3aa1afdf16702bcf9ee4c41",
+          "metadata_fetched_at": "2026-10-18T20:50:06.875522+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1371%2Fjournal.pmed.1003508%22&format=json&resultType=core&pageSize=10",
+          "direct_fulltext_raw": {
+            "raw_path": "/tmp/ch02-audit/full-PMC7872242.body",
+            "raw_sha256": "9aef53398a20e6b10b5b25f2e1cc3e2c9a88020b78c4e2923d511c7b3325f031",
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7872242/fullTextXML",
+            "http_status": 200,
+            "article_dois": [
+              "10.1371/journal.pmed.1003508"
+            ],
+            "fetched_at": null,
+            "fetched_at_limit": "初回の取得時刻は記録していないため未復元。ファイルmtimeをHTTP取得時刻とみなさない。",
+            "current_raw_reopened_at_utc": "2026-10-18T13:47:08.728391+00:00",
+            "read_scope": "초기감사에서 사용한 원문 응답을 재개봉해 DOI와 raw바이트SHA를 연결. 모든 문장/부록 재검증을 뜻하지 않음."
+          }
         }
       ]
     },
@@ -719,7 +1307,11 @@
           "doi": "10.1136/heartjnl-2019-315752",
           "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
           "url": "https://doi.org/10.1136/heartjnl-2019-315752",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/0e15be4104e49df0da5f.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/0e15be4104e49df0da5f.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/0e15be4104e49df0da5f.json",
+          "metadata_cache_sha256": "11fe86522dfc1fd724ed7750c3ca2b763eacd9573facf3811f8c133f579a76a7",
+          "metadata_fetched_at": "2026-10-18T20:50:07.076265+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1136%2Fheartjnl-2019-315752%22&format=json&resultType=core&pageSize=10"
         }
       ]
     },
@@ -733,19 +1325,70 @@
           "doi": "10.3389/phrs.2026.1609013",
           "scope": "HTTPS 원문 XML 직접 열람·항목의 주요 수치/조건 대조",
           "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12909254/fullTextXML",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/3a43bc70f539217294b6.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/3a43bc70f539217294b6.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/3a43bc70f539217294b6.json",
+          "metadata_cache_sha256": "e3800c2ce6710611e1b9c7303be949739d8d3a83891b30b4a4760cbd1dd8833b",
+          "metadata_fetched_at": "2026-10-18T20:50:07.280655+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.3389%2Fphrs.2026.1609013%22&format=json&resultType=core&pageSize=10",
+          "direct_fulltext_raw": {
+            "raw_path": "/tmp/ch02-audit/full-PMC12909254.body",
+            "raw_sha256": "04084d998cb0e5120dfc3cd4431e257c73cd8ed74f4d52639986c5801e23a569",
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12909254/fullTextXML",
+            "http_status": 200,
+            "article_dois": [
+              "10.3389/phrs.2026.1609013"
+            ],
+            "fetched_at": null,
+            "fetched_at_limit": "初回の取得時刻は記録していないため未復元。ファイルmtimeをHTTP取得時刻とみなさない。",
+            "current_raw_reopened_at_utc": "2026-10-18T13:47:08.728391+00:00",
+            "read_scope": "초기감사에서 사용한 원문 응답을 재개봉해 DOI와 raw바이트SHA를 연결. 모든 문장/부록 재검증을 뜻하지 않음."
+          }
         },
         {
           "doi": "10.1001/jamanetworkopen.2026.7938",
           "scope": "HTTPS 원문 XML 직접 열람·항목의 주요 수치/조건 대조",
           "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13096975/fullTextXML",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/ae28aefbe1ccc7000bd4.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/ae28aefbe1ccc7000bd4.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/ae28aefbe1ccc7000bd4.json",
+          "metadata_cache_sha256": "fef1d23180a7dbb153ec29d86a8f485ca972db28edb0020978acd9ddcbfc1815",
+          "metadata_fetched_at": "2026-10-18T20:50:07.481125+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1001%2Fjamanetworkopen.2026.7938%22&format=json&resultType=core&pageSize=10",
+          "direct_fulltext_raw": {
+            "raw_path": "/tmp/ch02-audit/full-PMC13096975.body",
+            "raw_sha256": "86914a889235945890e81f2a9d8a367245fcf64a14067308d109c1dffcde8c2a",
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13096975/fullTextXML",
+            "http_status": 200,
+            "article_dois": [
+              "10.1001/jamanetworkopen.2026.7938"
+            ],
+            "fetched_at": null,
+            "fetched_at_limit": "初回の取得時刻は記録していないため未復元。ファイルmtimeをHTTP取得時刻とみなさない。",
+            "current_raw_reopened_at_utc": "2026-10-18T13:47:08.728391+00:00",
+            "read_scope": "초기감사에서 사용한 원문 응답을 재개봉해 DOI와 raw바이트SHA를 연결. 모든 문장/부록 재검증을 뜻하지 않음."
+          }
         },
         {
           "doi": "10.1038/s41467-020-20585-3",
           "scope": "HTTPS 원문 XML 직접 열람·항목의 주요 수치/조건 대조",
           "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7876146/fullTextXML",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/10f476808bce3a7c7d29.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/10f476808bce3a7c7d29.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/10f476808bce3a7c7d29.json",
+          "metadata_cache_sha256": "910ab28e7596ce3258302076d8b77c39177740ebc935780f12869823998a1c55",
+          "metadata_fetched_at": "2026-10-18T20:50:07.957116+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1038%2Fs41467-020-20585-3%22&format=json&resultType=core&pageSize=10",
+          "direct_fulltext_raw": {
+            "raw_path": "/tmp/ch02-audit/full-PMC7876146.body",
+            "raw_sha256": "f87a5c8608d793c099648c234fb076e4c6504e122d90383b6de1c863a34c6994",
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7876146/fullTextXML",
+            "http_status": 200,
+            "article_dois": [
+              "10.1038/s41467-020-20585-3"
+            ],
+            "fetched_at": null,
+            "fetched_at_limit": "初回の取得時刻は記録していないため未復元。ファイルmtimeをHTTP取得時刻とみなさない。",
+            "current_raw_reopened_at_utc": "2026-10-18T13:47:08.728391+00:00",
+            "read_scope": "초기감사에서 사용한 원문 응답을 재개봉해 DOI와 raw바이트SHA를 연결. 모든 문장/부록 재검증을 뜻하지 않음."
+          }
         }
       ]
     },
@@ -759,7 +1402,24 @@
           "doi": "10.1038/s41467-026-72461-1",
           "scope": "HTTPS 원문 XML 직접 열람·항목의 주요 수치/조건 대조",
           "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13121452/fullTextXML",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/d9122b213c22906fa8ad.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/d9122b213c22906fa8ad.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/d9122b213c22906fa8ad.json",
+          "metadata_cache_sha256": "0dce27702fbe689f4dd5c3d47466d8b6036c15eef0447f979a0f9b6221c1c6c7",
+          "metadata_fetched_at": "2026-10-18T20:50:08.231782+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1038%2Fs41467-026-72461-1%22&format=json&resultType=core&pageSize=10",
+          "direct_fulltext_raw": {
+            "raw_path": "/tmp/ch02-audit/full-PMC13121452.body",
+            "raw_sha256": "93f3132994eb309f16a8692d710905ed763f6d813db42a5627f080f7c13b4266",
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13121452/fullTextXML",
+            "http_status": 200,
+            "article_dois": [
+              "10.1038/s41467-026-72461-1"
+            ],
+            "fetched_at": null,
+            "fetched_at_limit": "初回の取得時刻は記録していないため未復元。ファイルmtimeをHTTP取得時刻とみなさない。",
+            "current_raw_reopened_at_utc": "2026-10-18T13:47:08.728391+00:00",
+            "read_scope": "초기감사에서 사용한 원문 응답을 재개봉해 DOI와 raw바이트SHA를 연결. 모든 문장/부록 재검증을 뜻하지 않음."
+          }
         }
       ]
     },
@@ -773,25 +1433,80 @@
           "doi": "10.3389/fpubh.2025.1668848",
           "scope": "HTTPS 원문 XML 직접 열람·항목의 주요 수치/조건 대조",
           "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12506678/fullTextXML",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/84c9895f1d5a1cd6d973.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/84c9895f1d5a1cd6d973.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/84c9895f1d5a1cd6d973.json",
+          "metadata_cache_sha256": "889aab0e2a2f219a890ff6bc994317e6cd4bfe05e19cd31ce14f47fd2c44c1a7",
+          "metadata_fetched_at": "2026-10-18T20:50:09.723368+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.3389%2Ffpubh.2025.1668848%22&format=json&resultType=core&pageSize=10",
+          "direct_fulltext_raw": {
+            "raw_path": "/tmp/ch02-audit/full-PMC12506678.body",
+            "raw_sha256": "1f235c900688aa383ab846c1c6f8a91f4f1f2e410e009d6a88362c2c5621775e",
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12506678/fullTextXML",
+            "http_status": 200,
+            "article_dois": [
+              "10.3389/fpubh.2025.1668848"
+            ],
+            "fetched_at": null,
+            "fetched_at_limit": "初回の取得時刻は記録していないため未復元。ファイルmtimeをHTTP取得時刻とみなさない。",
+            "current_raw_reopened_at_utc": "2026-10-18T13:47:08.728391+00:00",
+            "read_scope": "초기감사에서 사용한 원문 응답을 재개봉해 DOI와 raw바이트SHA를 연결. 모든 문장/부록 재검증을 뜻하지 않음."
+          }
         },
         {
           "doi": "10.1093/occmed/kqaf040",
           "scope": "HTTPS 원문 XML 직접 열람·항목의 주요 수치/조건 대조",
           "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12794909/fullTextXML",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/37d716cf70d6d27c928e.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/37d716cf70d6d27c928e.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/37d716cf70d6d27c928e.json",
+          "metadata_cache_sha256": "6f3a568faae34fd2475a0c5fdc79a008f9e00276ad517547f97ff536281e33ca",
+          "metadata_fetched_at": "2026-10-18T20:50:09.910780+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1093%2Foccmed%2Fkqaf040%22&format=json&resultType=core&pageSize=10",
+          "direct_fulltext_raw": {
+            "raw_path": "/tmp/ch02-audit/full-PMC12794909.body",
+            "raw_sha256": "3047297cd609fbdf53d208c81f186e68a0f334c2838d3fe6834ebb3c59cd61f0",
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12794909/fullTextXML",
+            "http_status": 200,
+            "article_dois": [
+              "10.1093/occmed/kqaf040"
+            ],
+            "fetched_at": null,
+            "fetched_at_limit": "初回の取得時刻は記録していないため未復元。ファイルmtimeをHTTP取得時刻とみなさない。",
+            "current_raw_reopened_at_utc": "2026-10-18T13:47:08.728391+00:00",
+            "read_scope": "초기감사에서 사용한 원문 응답을 재개봉해 DOI와 raw바이트SHA를 연결. 모든 문장/부록 재검증을 뜻하지 않음."
+          }
         },
         {
           "doi": "10.5271/sjweh.4290",
           "scope": "HTTPS 원문 XML 직접 열람·항목의 주요 수치/조건 대조",
           "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13344439/fullTextXML",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/c07e30ac799e35e1533c.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/c07e30ac799e35e1533c.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/c07e30ac799e35e1533c.json",
+          "metadata_cache_sha256": "1787c62ad3a0f652b3fe722b25ecad84a1bc92968b8e8d04038c8e201de4803c",
+          "metadata_fetched_at": "2026-10-18T20:50:10.096343+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.5271%2Fsjweh.4290%22&format=json&resultType=core&pageSize=10",
+          "direct_fulltext_raw": {
+            "raw_path": "/tmp/ch02-audit/full-PMC13344439.body",
+            "raw_sha256": "99508cac0aa1a5a317477de4dc313ccf685bf1ab88f2835057c45884b4d9ad26",
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13344439/fullTextXML",
+            "http_status": 200,
+            "article_dois": [
+              "10.5271/sjweh.4290"
+            ],
+            "fetched_at": null,
+            "fetched_at_limit": "初回の取得時刻は記録していないため未復元。ファイルmtimeをHTTP取得時刻とみなさない。",
+            "current_raw_reopened_at_utc": "2026-10-18T13:47:08.728391+00:00",
+            "read_scope": "초기감사에서 사용한 원문 응답을 재개봉해 DOI와 raw바이트SHA를 연결. 모든 문장/부록 재검증을 뜻하지 않음."
+          }
         },
         {
           "doi": "10.1056/NEJM199005033221801",
           "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
           "url": "https://doi.org/10.1056/NEJM199005033221801",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/cf5aca00940d2def4af9.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/cf5aca00940d2def4af9.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/cf5aca00940d2def4af9.json",
+          "metadata_cache_sha256": "991aef2c8b702207971b123061c5ea9ffddd677a2c6f9d202b0dd6e9067d568a",
+          "metadata_fetched_at": "2026-10-18T20:50:10.297125+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1056%2FNEJM199005033221801%22&format=json&resultType=core&pageSize=10"
         }
       ]
     },
@@ -805,13 +1520,47 @@
           "doi": "10.3389/fpubh.2024.1484414",
           "scope": "HTTPS 원문 XML 직접 열람·항목의 주요 수치/조건 대조",
           "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11695283/fullTextXML",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/68e1ffa9ea623ad1b44f.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/68e1ffa9ea623ad1b44f.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/68e1ffa9ea623ad1b44f.json",
+          "metadata_cache_sha256": "9a1f7c56a04b7649f95caf39ef4f20360d6c0766f497611747a213a4b72bc547",
+          "metadata_fetched_at": "2026-10-18T20:50:10.466595+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.3389%2Ffpubh.2024.1484414%22&format=json&resultType=core&pageSize=10",
+          "direct_fulltext_raw": {
+            "raw_path": "/tmp/ch02-audit/full-PMC11695283.body",
+            "raw_sha256": "0b5ddee335848553d1a4decbd07e03b021db27fbe85662c6106f0ddff4e0185f",
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11695283/fullTextXML",
+            "http_status": 200,
+            "article_dois": [
+              "10.3389/fpubh.2024.1484414"
+            ],
+            "fetched_at": null,
+            "fetched_at_limit": "初回の取得時刻は記録していないため未復元。ファイルmtimeをHTTP取得時刻とみなさない。",
+            "current_raw_reopened_at_utc": "2026-10-18T13:47:08.728391+00:00",
+            "read_scope": "초기감사에서 사용한 원문 응답을 재개봉해 DOI와 raw바이트SHA를 연결. 모든 문장/부록 재검증을 뜻하지 않음."
+          }
         },
         {
           "doi": "10.1080/16549716.2024.2336312",
           "scope": "HTTPS 원문 XML 직접 열람·항목의 주요 수치/조건 대조",
           "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11025407/fullTextXML",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/fef2f14697dce605c0b3.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/fef2f14697dce605c0b3.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/fef2f14697dce605c0b3.json",
+          "metadata_cache_sha256": "42c454217aaff70c8e0c9ee690c6cfba601078ed41e1976cd91e55e6d649e3f9",
+          "metadata_fetched_at": "2026-10-18T20:50:10.491195+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1080%2F16549716.2024.2336312%22&format=json&resultType=core&pageSize=10",
+          "direct_fulltext_raw": {
+            "raw_path": "/tmp/ch02-audit/full-PMC11025407.body",
+            "raw_sha256": "992536cea2251c57346c2f52360585bcfe24491b02e305cee4f9f878e6ac733a",
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11025407/fullTextXML",
+            "http_status": 200,
+            "article_dois": [
+              "10.1080/16549716.2024.2336312"
+            ],
+            "fetched_at": null,
+            "fetched_at_limit": "初回の取得時刻は記録していないため未復元。ファイルmtimeをHTTP取得時刻とみなさない。",
+            "current_raw_reopened_at_utc": "2026-10-18T13:47:08.728391+00:00",
+            "read_scope": "초기감사에서 사용한 원문 응답을 재개봉해 DOI와 raw바이트SHA를 연결. 모든 문장/부록 재검증을 뜻하지 않음."
+          }
         }
       ]
     },
@@ -825,19 +1574,31 @@
           "doi": "10.1002/14651858.CD011737.pub3",
           "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
           "url": "https://doi.org/10.1002/14651858.CD011737.pub3",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/fed4ecd055021a77a46b.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/fed4ecd055021a77a46b.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/fed4ecd055021a77a46b.json",
+          "metadata_cache_sha256": "4665f498502896d9c8084583aa9efb0a269062caf4172c4abe0f7929f979f920",
+          "metadata_fetched_at": "2026-10-18T20:50:10.664925+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1002%2F14651858.CD011737.pub3%22&format=json&resultType=core&pageSize=10"
         },
         {
           "doi": "10.1002/14651858.CD011094.pub4",
           "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
           "url": "https://doi.org/10.1002/14651858.CD011094.pub4",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/73fe7c4149bcd3f2f4d2.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/73fe7c4149bcd3f2f4d2.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/73fe7c4149bcd3f2f4d2.json",
+          "metadata_cache_sha256": "7973b982a12eab20b6ea0dbd3d44028aad360f6813863877c040961e38a88644",
+          "metadata_fetched_at": "2026-10-18T20:50:10.745904+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1002%2F14651858.CD011094.pub4%22&format=json&resultType=core&pageSize=10"
         },
         {
           "doi": "10.1002/14651858.CD003177.pub5",
           "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
           "url": "https://doi.org/10.1002/14651858.CD003177.pub5",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/2a6d4461b4b4fe0070fb.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/2a6d4461b4b4fe0070fb.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/2a6d4461b4b4fe0070fb.json",
+          "metadata_cache_sha256": "0600539dd10dd358c91611976c86ffec6be279bfa23c37bcccf7c1fd9d9493b9",
+          "metadata_fetched_at": "2026-10-18T20:50:10.874912+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1002%2F14651858.CD003177.pub5%22&format=json&resultType=core&pageSize=10"
         }
       ]
     },
@@ -851,19 +1612,57 @@
           "doi": "10.2147/OTT.S100949",
           "scope": "HTTPS 원문 XML 직접 열람·항목의 주요 수치/조건 대조",
           "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4881732/fullTextXML",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/00efb55badb5af137a4e.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/00efb55badb5af137a4e.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/00efb55badb5af137a4e.json",
+          "metadata_cache_sha256": "7367afed2884c27a1cee3fbd0f4c147a654cfeaf3a4dd6fd78d8de16e8738284",
+          "metadata_fetched_at": "2026-10-18T20:50:10.979071+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.2147%2FOTT.S100949%22&format=json&resultType=core&pageSize=10",
+          "direct_fulltext_raw": {
+            "raw_path": "/tmp/ch02-audit/full-PMC4881732.body",
+            "raw_sha256": "24db7cdcadae14155d2e469002f6e1b85093e6f85d5dc8aaff287220584be476",
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4881732/fullTextXML",
+            "http_status": 200,
+            "article_dois": [
+              "10.2147/OTT.S100949"
+            ],
+            "fetched_at": null,
+            "fetched_at_limit": "初回の取得時刻は記録していないため未復元。ファイルmtimeをHTTP取得時刻とみなさない。",
+            "current_raw_reopened_at_utc": "2026-10-18T13:47:08.728391+00:00",
+            "read_scope": "초기감사에서 사용한 원문 응답을 재개봉해 DOI와 raw바이트SHA를 연결. 모든 문장/부록 재검증을 뜻하지 않음."
+          }
         },
         {
           "doi": "10.1038/s41598-020-63656-7",
           "scope": "HTTPS 원문 XML 직접 열람·항목의 주요 수치/조건 대조",
           "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7174336/fullTextXML",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/6b4d69222cd678138588.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/6b4d69222cd678138588.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/6b4d69222cd678138588.json",
+          "metadata_cache_sha256": "fa93b509549b3f3ac55e3d8781a4a339fd70038614c8d8736726dfea4ebc0f03",
+          "metadata_fetched_at": "2026-10-18T20:50:11.079584+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1038%2Fs41598-020-63656-7%22&format=json&resultType=core&pageSize=10",
+          "direct_fulltext_raw": {
+            "raw_path": "/tmp/ch02-audit/full-PMC7174336.body",
+            "raw_sha256": "6e7c194d15335eb57bde985296f1e50f249c85302c16025f7efd9655ff0077c9",
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7174336/fullTextXML",
+            "http_status": 200,
+            "article_dois": [
+              "10.1038/s41598-020-63656-7"
+            ],
+            "fetched_at": null,
+            "fetched_at_limit": "初回の取得時刻は記録していないため未復元。ファイルmtimeをHTTP取得時刻とみなさない。",
+            "current_raw_reopened_at_utc": "2026-10-18T13:47:08.728391+00:00",
+            "read_scope": "초기감사에서 사용한 원문 응답을 재개봉해 DOI와 raw바이트SHA를 연결. 모든 문장/부록 재검증을 뜻하지 않음."
+          }
         },
         {
           "doi": "10.1002/ijc.29020",
           "scope": "제공된 EuropePMC 원초록 캐시 열람; 원문 전체 미확인",
           "url": "https://doi.org/10.1002/ijc.29020",
-          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/640e361c1efc7d803c07.json"
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/640e361c1efc7d803c07.json",
+          "metadata_cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/640e361c1efc7d803c07.json",
+          "metadata_cache_sha256": "9c68f685ddeef76611ccb87a684d506c3c91f793cdb5359d2207e10c50894944",
+          "metadata_fetched_at": "2026-10-18T20:50:11.197073+09:00",
+          "metadata_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1002%2Fijc.29020%22&format=json&resultType=core&pageSize=10"
         }
       ]
     }
@@ -1329,5 +2128,1453 @@
       "null_fields": "제안없음. 본문해당필드 승인아님."
     }
   ],
-  "legal_direct_read_limitations": "식품위생법시행규칙37조 직접열람, 별표15 미확인. 담배사업법12조·식품위생법시행령21조 wrapper200이나 조문iframe502로 미확인. 보도자료확인과 조문확인을 구분."
+  "legal_direct_read_limitations": "식품위생법시행규칙37조 직접열람, 별표15 미확인. 담배사업법12조·식품위생법시행령21조 wrapper200이나 조문iframe502로 미확인. 보도자료확인과 조문확인을 구분. 배치1재검토에서담배사업법12조(2026.4.24시행)새HTTPS본문확인성공. 초기502기록을거짓으로지우지않고후속확인으로보강.",
+  "initial_direct_fulltext_raw_registry": [
+    {
+      "raw_path": "/tmp/ch02-audit/full-PMC10066463.body",
+      "raw_sha256": "217dc207a4cb1bcb7a152b4d4029ab87e8f3c937bacb205ebcc35ca82d1fd77b",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10066463/fullTextXML",
+      "http_status": 200,
+      "article_dois": [
+        "10.1001/jamanetworkopen.2023.6185"
+      ],
+      "fetched_at": null,
+      "fetched_at_limit": "초기정확HTTP수집시각을기록하지않아복원하지않음.파일mtime을HTTP수집시각으로간주하지않음.",
+      "current_raw_reopened_at_utc": "2026-10-18T13:47:08.728391+00:00",
+      "read_scope": "초기감사에서 사용한 원문 응답을 재개봉해 DOI와 raw바이트SHA를 연결. 모든 문장/부록 재검증을 뜻하지 않음."
+    },
+    {
+      "raw_path": "/tmp/ch02-audit/full-PMC10169257.body",
+      "raw_sha256": "b95a9e2f49c40ae40a5295ee92bec9865a2075d0a507da96a9073b1847435746",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10169257/fullTextXML",
+      "http_status": 200,
+      "article_dois": [
+        "10.1002/14651858.CD006103.pub8"
+      ],
+      "fetched_at": null,
+      "fetched_at_limit": "초기정확HTTP수집시각을기록하지않아복원하지않음.파일mtime을HTTP수집시각으로간주하지않음.",
+      "current_raw_reopened_at_utc": "2026-10-18T13:47:08.728391+00:00",
+      "read_scope": "초기감사에서 사용한 원문 응답을 재개봉해 DOI와 raw바이트SHA를 연결. 모든 문장/부록 재검증을 뜻하지 않음."
+    },
+    {
+      "raw_path": "/tmp/ch02-audit/full-PMC10278922.body",
+      "raw_sha256": "3be1541f6b8f8643e9d674891cec0a484833b240d594da558033ebf170337919",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10278922/fullTextXML",
+      "http_status": 200,
+      "article_dois": [
+        "10.1002/14651858.CD013308.pub2"
+      ],
+      "fetched_at": null,
+      "fetched_at_limit": "초기정확HTTP수집시각을기록하지않아복원하지않음.파일mtime을HTTP수집시각으로간주하지않음.",
+      "current_raw_reopened_at_utc": "2026-10-18T13:47:08.728391+00:00",
+      "read_scope": "초기감사에서 사용한 원문 응답을 재개봉해 DOI와 raw바이트SHA를 연결. 모든 문장/부록 재검증을 뜻하지 않음."
+    },
+    {
+      "raw_path": "/tmp/ch02-audit/full-PMC10782501.body",
+      "raw_sha256": "c60cf4619010806636c8cb76ae9388b6c98a33308f63c979c1acd6a80730eb69",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10782501/fullTextXML",
+      "http_status": 200,
+      "article_dois": [
+        "10.1093/sleep/zsad253"
+      ],
+      "fetched_at": null,
+      "fetched_at_limit": "초기정확HTTP수집시각을기록하지않아복원하지않음.파일mtime을HTTP수집시각으로간주하지않음.",
+      "current_raw_reopened_at_utc": "2026-10-18T13:47:08.728391+00:00",
+      "read_scope": "초기감사에서 사용한 원문 응답을 재개봉해 DOI와 raw바이트SHA를 연결. 모든 문장/부록 재검증을 뜻하지 않음."
+    },
+    {
+      "raw_path": "/tmp/ch02-audit/full-PMC10899807.body",
+      "raw_sha256": "45154cac70401515cd7f07cff88d9fdcd460a92d6ebc23fed3d28aa4d56da184",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10899807/fullTextXML",
+      "http_status": 200,
+      "article_dois": [
+        "10.1136/bmj-2023-077310"
+      ],
+      "fetched_at": null,
+      "fetched_at_limit": "초기정확HTTP수집시각을기록하지않아복원하지않음.파일mtime을HTTP수집시각으로간주하지않음.",
+      "current_raw_reopened_at_utc": "2026-10-18T13:47:08.728391+00:00",
+      "read_scope": "초기감사에서 사용한 원문 응답을 재개봉해 DOI와 raw바이트SHA를 연결. 모든 문장/부록 재검증을 뜻하지 않음."
+    },
+    {
+      "raw_path": "/tmp/ch02-audit/full-PMC11025407.body",
+      "raw_sha256": "992536cea2251c57346c2f52360585bcfe24491b02e305cee4f9f878e6ac733a",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11025407/fullTextXML",
+      "http_status": 200,
+      "article_dois": [
+        "10.1080/16549716.2024.2336312"
+      ],
+      "fetched_at": null,
+      "fetched_at_limit": "초기정확HTTP수집시각을기록하지않아복원하지않음.파일mtime을HTTP수집시각으로간주하지않음.",
+      "current_raw_reopened_at_utc": "2026-10-18T13:47:08.728391+00:00",
+      "read_scope": "초기감사에서 사용한 원문 응답을 재개봉해 DOI와 raw바이트SHA를 연결. 모든 문장/부록 재검증을 뜻하지 않음."
+    },
+    {
+      "raw_path": "/tmp/ch02-audit/full-PMC11695283.body",
+      "raw_sha256": "0b5ddee335848553d1a4decbd07e03b021db27fbe85662c6106f0ddff4e0185f",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11695283/fullTextXML",
+      "http_status": 200,
+      "article_dois": [
+        "10.3389/fpubh.2024.1484414"
+      ],
+      "fetched_at": null,
+      "fetched_at_limit": "초기정확HTTP수집시각을기록하지않아복원하지않음.파일mtime을HTTP수집시각으로간주하지않음.",
+      "current_raw_reopened_at_utc": "2026-10-18T13:47:08.728391+00:00",
+      "read_scope": "초기감사에서 사용한 원문 응답을 재개봉해 DOI와 raw바이트SHA를 연결. 모든 문장/부록 재검증을 뜻하지 않음."
+    },
+    {
+      "raw_path": "/tmp/ch02-audit/full-PMC12506678.body",
+      "raw_sha256": "1f235c900688aa383ab846c1c6f8a91f4f1f2e410e009d6a88362c2c5621775e",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12506678/fullTextXML",
+      "http_status": 200,
+      "article_dois": [
+        "10.3389/fpubh.2025.1668848"
+      ],
+      "fetched_at": null,
+      "fetched_at_limit": "초기정확HTTP수집시각을기록하지않아복원하지않음.파일mtime을HTTP수집시각으로간주하지않음.",
+      "current_raw_reopened_at_utc": "2026-10-18T13:47:08.728391+00:00",
+      "read_scope": "초기감사에서 사용한 원문 응답을 재개봉해 DOI와 raw바이트SHA를 연결. 모든 문장/부록 재검증을 뜻하지 않음."
+    },
+    {
+      "raw_path": "/tmp/ch02-audit/full-PMC12794909.body",
+      "raw_sha256": "3047297cd609fbdf53d208c81f186e68a0f334c2838d3fe6834ebb3c59cd61f0",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12794909/fullTextXML",
+      "http_status": 200,
+      "article_dois": [
+        "10.1093/occmed/kqaf040"
+      ],
+      "fetched_at": null,
+      "fetched_at_limit": "초기정확HTTP수집시각을기록하지않아복원하지않음.파일mtime을HTTP수집시각으로간주하지않음.",
+      "current_raw_reopened_at_utc": "2026-10-18T13:47:08.728391+00:00",
+      "read_scope": "초기감사에서 사용한 원문 응답을 재개봉해 DOI와 raw바이트SHA를 연결. 모든 문장/부록 재검증을 뜻하지 않음."
+    },
+    {
+      "raw_path": "/tmp/ch02-audit/full-PMC12909254.body",
+      "raw_sha256": "04084d998cb0e5120dfc3cd4431e257c73cd8ed74f4d52639986c5801e23a569",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12909254/fullTextXML",
+      "http_status": 200,
+      "article_dois": [
+        "10.3389/phrs.2026.1609013"
+      ],
+      "fetched_at": null,
+      "fetched_at_limit": "초기정확HTTP수집시각을기록하지않아복원하지않음.파일mtime을HTTP수집시각으로간주하지않음.",
+      "current_raw_reopened_at_utc": "2026-10-18T13:47:08.728391+00:00",
+      "read_scope": "초기감사에서 사용한 원문 응답을 재개봉해 DOI와 raw바이트SHA를 연결. 모든 문장/부록 재검증을 뜻하지 않음."
+    },
+    {
+      "raw_path": "/tmp/ch02-audit/full-PMC13096975.body",
+      "raw_sha256": "86914a889235945890e81f2a9d8a367245fcf64a14067308d109c1dffcde8c2a",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13096975/fullTextXML",
+      "http_status": 200,
+      "article_dois": [
+        "10.1001/jamanetworkopen.2026.7938"
+      ],
+      "fetched_at": null,
+      "fetched_at_limit": "초기정확HTTP수집시각을기록하지않아복원하지않음.파일mtime을HTTP수집시각으로간주하지않음.",
+      "current_raw_reopened_at_utc": "2026-10-18T13:47:08.728391+00:00",
+      "read_scope": "초기감사에서 사용한 원문 응답을 재개봉해 DOI와 raw바이트SHA를 연결. 모든 문장/부록 재검증을 뜻하지 않음."
+    },
+    {
+      "raw_path": "/tmp/ch02-audit/full-PMC13121452.body",
+      "raw_sha256": "93f3132994eb309f16a8692d710905ed763f6d813db42a5627f080f7c13b4266",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13121452/fullTextXML",
+      "http_status": 200,
+      "article_dois": [
+        "10.1038/s41467-026-72461-1"
+      ],
+      "fetched_at": null,
+      "fetched_at_limit": "초기정확HTTP수집시각을기록하지않아복원하지않음.파일mtime을HTTP수집시각으로간주하지않음.",
+      "current_raw_reopened_at_utc": "2026-10-18T13:47:08.728391+00:00",
+      "read_scope": "초기감사에서 사용한 원문 응답을 재개봉해 DOI와 raw바이트SHA를 연결. 모든 문장/부록 재검증을 뜻하지 않음."
+    },
+    {
+      "raw_path": "/tmp/ch02-audit/full-PMC13344439.body",
+      "raw_sha256": "99508cac0aa1a5a317477de4dc313ccf685bf1ab88f2835057c45884b4d9ad26",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13344439/fullTextXML",
+      "http_status": 200,
+      "article_dois": [
+        "10.5271/sjweh.4290"
+      ],
+      "fetched_at": null,
+      "fetched_at_limit": "초기정확HTTP수집시각을기록하지않아복원하지않음.파일mtime을HTTP수집시각으로간주하지않음.",
+      "current_raw_reopened_at_utc": "2026-10-18T13:47:08.728391+00:00",
+      "read_scope": "초기감사에서 사용한 원문 응답을 재개봉해 DOI와 raw바이트SHA를 연결. 모든 문장/부록 재검증을 뜻하지 않음."
+    },
+    {
+      "raw_path": "/tmp/ch02-audit/full-PMC13506250.body",
+      "raw_sha256": "70b431ba83ea315aeb9c12a6a08687ba9b92fe1b75d9bc38ca9f95312ea85227",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13506250/fullTextXML",
+      "http_status": 200,
+      "article_dois": [
+        "10.1002/14651858.CD010216.pub11"
+      ],
+      "fetched_at": null,
+      "fetched_at_limit": "초기정확HTTP수집시각을기록하지않아복원하지않음.파일mtime을HTTP수집시각으로간주하지않음.",
+      "current_raw_reopened_at_utc": "2026-10-18T13:47:08.728391+00:00",
+      "read_scope": "초기감사에서 사용한 원문 응답을 재개봉해 DOI와 raw바이트SHA를 연결. 모든 문장/부록 재검증을 뜻하지 않음."
+    },
+    {
+      "raw_path": "/tmp/ch02-audit/full-PMC2988224.body",
+      "raw_sha256": "7499b8d04b81b33ca47033c278d1b4c16285485bd8ec8868f7a40e0035825c76",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2988224/fullTextXML",
+      "http_status": 200,
+      "article_dois": [
+        "10.1016/S0140-6736(10)61350-5"
+      ],
+      "fetched_at": null,
+      "fetched_at_limit": "초기정확HTTP수집시각을기록하지않아복원하지않음.파일mtime을HTTP수집시각으로간주하지않음.",
+      "current_raw_reopened_at_utc": "2026-10-18T13:47:08.728391+00:00",
+      "read_scope": "초기감사에서 사용한 원문 응답을 재개봉해 DOI와 raw바이트SHA를 연결. 모든 문장/부록 재검증을 뜻하지 않음."
+    },
+    {
+      "raw_path": "/tmp/ch02-audit/full-PMC3269898.body",
+      "raw_sha256": "aca4f244d445ed112346140b32b32038385868e90242bdfffd68793f2363fb9a",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3269898/fullTextXML",
+      "http_status": 200,
+      "article_dois": [
+        "10.1136/bmj.b929"
+      ],
+      "fetched_at": null,
+      "fetched_at_limit": "초기정확HTTP수집시각을기록하지않아복원하지않음.파일mtime을HTTP수집시각으로간주하지않음.",
+      "current_raw_reopened_at_utc": "2026-10-18T13:47:08.728391+00:00",
+      "read_scope": "초기감사에서 사용한 원문 응답을 재개봉해 DOI와 raw바이트SHA를 연결. 모든 문장/부록 재검증을 뜻하지 않음."
+    },
+    {
+      "raw_path": "/tmp/ch02-audit/full-PMC3734295.body",
+      "raw_sha256": "26ab7ce51abbf9ed2593bf0faafc36dea683bbc895f51c65df665cb5519c05de",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3734295/fullTextXML",
+      "http_status": 200,
+      "article_dois": [
+        "10.1371/journal.pone.0070679"
+      ],
+      "fetched_at": null,
+      "fetched_at_limit": "초기정확HTTP수집시각을기록하지않아복원하지않음.파일mtime을HTTP수집시각으로간주하지않음.",
+      "current_raw_reopened_at_utc": "2026-10-18T13:47:08.728391+00:00",
+      "read_scope": "초기감사에서 사용한 원문 응답을 재개봉해 DOI와 raw바이트SHA를 연결. 모든 문장/부록 재검증을 뜻하지 않음."
+    },
+    {
+      "raw_path": "/tmp/ch02-audit/full-PMC4691901.body",
+      "raw_sha256": "c8837ca1ac5c79f5d15a2fc59eb5e37d5961772f7a3f881e0bd4c6ad90b3c198",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4691901/fullTextXML",
+      "http_status": 200,
+      "article_dois": [
+        "10.1016/S0140-6736(15)00340-2"
+      ],
+      "fetched_at": null,
+      "fetched_at_limit": "초기정확HTTP수집시각을기록하지않아복원하지않음.파일mtime을HTTP수집시각으로간주하지않음.",
+      "current_raw_reopened_at_utc": "2026-10-18T13:47:08.728391+00:00",
+      "read_scope": "초기감사에서 사용한 원문 응답을 재개봉해 DOI와 raw바이트SHA를 연결. 모든 문장/부록 재검증을 뜻하지 않음."
+    },
+    {
+      "raw_path": "/tmp/ch02-audit/full-PMC4881732.body",
+      "raw_sha256": "24db7cdcadae14155d2e469002f6e1b85093e6f85d5dc8aaff287220584be476",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4881732/fullTextXML",
+      "http_status": 200,
+      "article_dois": [
+        "10.2147/OTT.S100949"
+      ],
+      "fetched_at": null,
+      "fetched_at_limit": "초기정확HTTP수집시각을기록하지않아복원하지않음.파일mtime을HTTP수집시각으로간주하지않음.",
+      "current_raw_reopened_at_utc": "2026-10-18T13:47:08.728391+00:00",
+      "read_scope": "초기감사에서 사용한 원문 응답을 재개봉해 DOI와 raw바이트SHA를 연결. 모든 문장/부록 재검증을 뜻하지 않음."
+    },
+    {
+      "raw_path": "/tmp/ch02-audit/full-PMC4908315.body",
+      "raw_sha256": "f2efbe24aaf366f9f1aabee1847ff4bbafa907c6821311fbeee7568e1f390c92",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4908315/fullTextXML",
+      "http_status": 200,
+      "article_dois": [
+        "10.1136/bmj.i2716"
+      ],
+      "fetched_at": null,
+      "fetched_at_limit": "초기정확HTTP수집시각을기록하지않아복원하지않음.파일mtime을HTTP수집시각으로간주하지않음.",
+      "current_raw_reopened_at_utc": "2026-10-18T13:47:08.728391+00:00",
+      "read_scope": "초기감사에서 사용한 원문 응답을 재개봉해 DOI와 raw바이트SHA를 연결. 모든 문장/부록 재검증을 뜻하지 않음."
+    },
+    {
+      "raw_path": "/tmp/ch02-audit/full-PMC4995441.body",
+      "raw_sha256": "e63f5232c5728c87368ac6a01da315ee3ff5e64bd5bf170618f2d5c3f9bd8b39",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4995441/fullTextXML",
+      "http_status": 200,
+      "article_dois": [
+        "10.1016/S0140-6736(16)30175-1"
+      ],
+      "fetched_at": null,
+      "fetched_at_limit": "초기정확HTTP수집시각을기록하지않아복원하지않음.파일mtime을HTTP수집시각으로간주하지않음.",
+      "current_raw_reopened_at_utc": "2026-10-18T13:47:08.728391+00:00",
+      "read_scope": "초기감사에서 사용한 원문 응답을 재개봉해 DOI와 raw바이트SHA를 연결. 모든 문장/부록 재검증을 뜻하지 않음."
+    },
+    {
+      "raw_path": "/tmp/ch02-audit/full-PMC5634263.body",
+      "raw_sha256": "7401ff314417e19ab78ad832f4048a5adf5a17d51fdd700d97eeb1bce95c6ddb",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5634263/fullTextXML",
+      "http_status": 200,
+      "article_dois": [
+        "10.1161/JAHA.117.005947"
+      ],
+      "fetched_at": null,
+      "fetched_at_limit": "초기정확HTTP수집시각을기록하지않아복원하지않음.파일mtime을HTTP수집시각으로간주하지않음.",
+      "current_raw_reopened_at_utc": "2026-10-18T13:47:08.728391+00:00",
+      "read_scope": "초기감사에서 사용한 원문 응답을 재개봉해 DOI와 raw바이트SHA를 연결. 모든 문장/부록 재검증을 뜻하지 않음."
+    },
+    {
+      "raw_path": "/tmp/ch02-audit/full-PMC5696634.body",
+      "raw_sha256": "87d53f28f923f2d7391b8e3f4f135a3ee9798251019c251b771a33f0b9b786bb",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5696634/fullTextXML",
+      "http_status": 200,
+      "article_dois": [
+        "10.1136/bmj.j5024"
+      ],
+      "fetched_at": null,
+      "fetched_at_limit": "초기정확HTTP수집시각을기록하지않아복원하지않음.파일mtime을HTTP수집시각으로간주하지않음.",
+      "current_raw_reopened_at_utc": "2026-10-18T13:47:08.728391+00:00",
+      "read_scope": "초기감사에서 사용한 원문 응답을 재개봉해 DOI와 raw바이트SHA를 연결. 모든 문장/부록 재검증을 뜻하지 않음."
+    },
+    {
+      "raw_path": "/tmp/ch02-audit/full-PMC5837313.body",
+      "raw_sha256": "0024f5772491aad3188ddc13676eb74dc2b13654ecbf69251144ac2e1fe0cfff",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5837313/fullTextXML",
+      "http_status": 200,
+      "article_dois": [
+        "10.1093/ije/dyw319"
+      ],
+      "fetched_at": null,
+      "fetched_at_limit": "초기정확HTTP수집시각을기록하지않아복원하지않음.파일mtime을HTTP수집시각으로간주하지않음.",
+      "current_raw_reopened_at_utc": "2026-10-18T13:47:08.728391+00:00",
+      "read_scope": "초기감사에서 사용한 원문 응답을 재개봉해 DOI와 raw바이트SHA를 연결. 모든 문장/부록 재검증을 뜻하지 않음."
+    },
+    {
+      "raw_path": "/tmp/ch02-audit/full-PMC5899998.body",
+      "raw_sha256": "6b26cfa7c791cf92ebc3ec68cf47396ba4ad50d557bb1e3eda74faa527aeb401",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5899998/fullTextXML",
+      "http_status": 200,
+      "article_dois": [
+        "10.1016/S0140-6736(18)30134-X"
+      ],
+      "fetched_at": null,
+      "fetched_at_limit": "초기정확HTTP수집시각을기록하지않아복원하지않음.파일mtime을HTTP수집시각으로간주하지않음.",
+      "current_raw_reopened_at_utc": "2026-10-18T13:47:08.728391+00:00",
+      "read_scope": "초기감사에서 사용한 원문 응답을 재개봉해 DOI와 raw바이트SHA를 연결. 모든 문장/부록 재검증을 뜻하지 않음."
+    },
+    {
+      "raw_path": "/tmp/ch02-audit/full-PMC6148333.body",
+      "raw_sha256": "de2fc26089a26e01dfc9bf0d77bd8d8894fc8532b08f6ed165910c200a6e5f60",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6148333/fullTextXML",
+      "http_status": 200,
+      "article_dois": [
+        "10.1016/S0140-6736(18)31310-2"
+      ],
+      "fetched_at": null,
+      "fetched_at_limit": "초기정확HTTP수집시각을기록하지않아복원하지않음.파일mtime을HTTP수집시각으로간주하지않음.",
+      "current_raw_reopened_at_utc": "2026-10-18T13:47:08.728391+00:00",
+      "read_scope": "초기감사에서 사용한 원문 응답을 재개봉해 DOI와 raw바이트SHA를 연결. 모든 문장/부록 재검증을 뜻하지 않음."
+    },
+    {
+      "raw_path": "/tmp/ch02-audit/full-PMC6699591.body",
+      "raw_sha256": "1e613b7b86b407b39d02859e9febf6f661090b486fa634596a500fd182f52e70",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6699591/fullTextXML",
+      "http_status": 200,
+      "article_dois": [
+        "10.1136/bmj.l4570"
+      ],
+      "fetched_at": null,
+      "fetched_at_limit": "초기정확HTTP수집시각을기록하지않아복원하지않음.파일mtime을HTTP수집시각으로간주하지않음.",
+      "current_raw_reopened_at_utc": "2026-10-18T13:47:08.728391+00:00",
+      "read_scope": "초기감사에서 사용한 원문 응답을 재개봉해 DOI와 raw바이트SHA를 연결. 모든 문장/부록 재검증을 뜻하지 않음."
+    },
+    {
+      "raw_path": "/tmp/ch02-audit/full-PMC6724165.body",
+      "raw_sha256": "1f48db8e2b7622d2728688b925ad6634844300106709bfdc60883f7cf300fb50",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6724165/fullTextXML",
+      "http_status": 200,
+      "article_dois": [
+        "10.1001/jamainternmed.2019.2478"
+      ],
+      "fetched_at": null,
+      "fetched_at_limit": "초기정확HTTP수집시각을기록하지않아복원하지않음.파일mtime을HTTP수집시각으로간주하지않음.",
+      "current_raw_reopened_at_utc": "2026-10-18T13:47:08.728391+00:00",
+      "read_scope": "초기감사에서 사용한 원문 응답을 재개봉해 DOI와 raw바이트SHA를 연결. 모든 문장/부록 재검증을 뜻하지 않음."
+    },
+    {
+      "raw_path": "/tmp/ch02-audit/full-PMC7174336.body",
+      "raw_sha256": "6e7c194d15335eb57bde985296f1e50f249c85302c16025f7efd9655ff0077c9",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7174336/fullTextXML",
+      "http_status": 200,
+      "article_dois": [
+        "10.1038/s41598-020-63656-7"
+      ],
+      "fetched_at": null,
+      "fetched_at_limit": "초기정확HTTP수집시각을기록하지않아복원하지않음.파일mtime을HTTP수집시각으로간주하지않음.",
+      "current_raw_reopened_at_utc": "2026-10-18T13:47:08.728391+00:00",
+      "read_scope": "초기감사에서 사용한 원문 응답을 재개봉해 DOI와 raw바이트SHA를 연결. 모든 문장/부록 재검증을 뜻하지 않음."
+    },
+    {
+      "raw_path": "/tmp/ch02-audit/full-PMC7872242.body",
+      "raw_sha256": "9aef53398a20e6b10b5b25f2e1cc3e2c9a88020b78c4e2923d511c7b3325f031",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7872242/fullTextXML",
+      "http_status": 200,
+      "article_dois": [
+        "10.1371/journal.pmed.1003508"
+      ],
+      "fetched_at": null,
+      "fetched_at_limit": "초기정확HTTP수집시각을기록하지않아복원하지않음.파일mtime을HTTP수집시각으로간주하지않음.",
+      "current_raw_reopened_at_utc": "2026-10-18T13:47:08.728391+00:00",
+      "read_scope": "초기감사에서 사용한 원문 응답을 재개봉해 DOI와 raw바이트SHA를 연결. 모든 문장/부록 재검증을 뜻하지 않음."
+    },
+    {
+      "raw_path": "/tmp/ch02-audit/full-PMC7876146.body",
+      "raw_sha256": "f87a5c8608d793c099648c234fb076e4c6504e122d90383b6de1c863a34c6994",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7876146/fullTextXML",
+      "http_status": 200,
+      "article_dois": [
+        "10.1038/s41467-020-20585-3"
+      ],
+      "fetched_at": null,
+      "fetched_at_limit": "초기정확HTTP수집시각을기록하지않아복원하지않음.파일mtime을HTTP수집시각으로간주하지않음.",
+      "current_raw_reopened_at_utc": "2026-10-18T13:47:08.728391+00:00",
+      "read_scope": "초기감사에서 사용한 원문 응답을 재개봉해 DOI와 raw바이트SHA를 연결. 모든 문장/부록 재검증을 뜻하지 않음."
+    },
+    {
+      "raw_path": "/tmp/ch02-audit/full-PMC9209691.body",
+      "raw_sha256": "ffe5462b860ed16387503b573c56b65debce95491864b1900fdc387496625c8a",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9209691/fullTextXML",
+      "http_status": 200,
+      "article_dois": [
+        "10.1136/bjsports-2021-105061"
+      ],
+      "fetched_at": null,
+      "fetched_at_limit": "초기정확HTTP수집시각을기록하지않아복원하지않음.파일mtime을HTTP수집시각으로간주하지않음.",
+      "current_raw_reopened_at_utc": "2026-10-18T13:47:08.728391+00:00",
+      "read_scope": "초기감사에서 사용한 원문 응답을 재개봉해 DOI와 raw바이트SHA를 연결. 모든 문장/부록 재검증을 뜻하지 않음."
+    },
+    {
+      "raw_path": "/tmp/ch02-audit/full-PMC9318285.body",
+      "raw_sha256": "ac013af1a5ee8b6e76ac31c69a3f7d0383510029892522dd6f56df989aa8f21f",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9318285/fullTextXML",
+      "http_status": 200,
+      "article_dois": [
+        "10.3390/toxins14070452"
+      ],
+      "fetched_at": null,
+      "fetched_at_limit": "초기정확HTTP수집시각을기록하지않아복원하지않음.파일mtime을HTTP수집시각으로간주하지않음.",
+      "current_raw_reopened_at_utc": "2026-10-18T13:47:08.728391+00:00",
+      "read_scope": "초기감사에서 사용한 원문 응답을 재개봉해 DOI와 raw바이트SHA를 연결. 모든 문장/부록 재검증을 뜻하지 않음."
+    },
+    {
+      "raw_path": "/tmp/ch02-audit/full-PMC9800274.body",
+      "raw_sha256": "517988dcf668ecd335886cc6e3df51cfc2a55ca31bda12a29650e1a6ea2c34ed",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9800274/fullTextXML",
+      "http_status": 200,
+      "article_dois": [
+        "10.1038/s41591-022-02100-x"
+      ],
+      "fetched_at": null,
+      "fetched_at_limit": "초기정확HTTP수집시각을기록하지않아복원하지않음.파일mtime을HTTP수집시각으로간주하지않음.",
+      "current_raw_reopened_at_utc": "2026-10-18T13:47:08.728391+00:00",
+      "read_scope": "초기감사에서 사용한 원문 응답을 재개봉해 DOI와 raw바이트SHA를 연결. 모든 문장/부록 재검증을 뜻하지 않음."
+    }
+  ],
+  "author_batch_reviews": [
+    {
+      "batch": 1,
+      "batch_manifest_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/author-batch-1.json",
+      "batch_manifest_sha256": "0ffe4d4fb49745a78f3ccc58e78d4dd20d9287996d23b19d0cbd21296418b430",
+      "reviewed_at_utc": "2026-10-18T13:47:08.728391+00:00",
+      "review_status": "complete",
+      "summary": {
+        "approve": 5,
+        "revise": 1
+      },
+      "sources": [
+        {
+          "id": "gradual2019",
+          "raw_path": "/tmp/ch02-audit/gradual.body",
+          "raw_sha256": "490471b161b009dc634fc3007b40e06f13f32ef77061bd5be46f2b23ccd43b56",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1002/14651858.CD013183.pub2&format=json&resultType=core",
+          "kind": "previous_direct_http_primary_abstract_now_reopened",
+          "fetched_at": null,
+          "http_status": 200,
+          "read_at_utc": "2026-10-18T13:47:08.728391+00:00",
+          "quote": "neither approach resulted in superior quit rates (RR 1. 01, 95% CI 0.87 to 1.17; I<sup>2</sup> = 29%; 22 studies, 9219 participants)",
+          "scope": "인용한 결과·대상·노출 정의 대조. 서지존재만 확인한 기록이 아님."
+        },
+        {
+          "id": "trial2016",
+          "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/e8b65ecbbea63c8460dc.json",
+          "raw_sha256": "e442dd8ee2327d547b56cbd3be887eed639b0ffe265cac53ae0f199a6de8e27d",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.7326%2FM14-2805%22&format=json&resultType=core&pageSize=10",
+          "kind": "cached_primary_abstract",
+          "fetched_at": "2026-10-18T20:49:55.202788+09:00",
+          "http_status": 200,
+          "read_at_utc": "2026-10-18T13:47:08.728391+00:00",
+          "quote": "Both groups received behavioral support from nurses and used nicotine replacement before and after quit day.",
+          "scope": "인용한 결과·대상·노출 정의 대조. 서지존재만 확인한 기록이 아님."
+        },
+        {
+          "id": "preloading",
+          "raw_path": "/tmp/ch02-audit/full-PMC10278922.body",
+          "raw_sha256": "3be1541f6b8f8643e9d674891cec0a484833b240d594da558033ebf170337919",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10278922/fullTextXML",
+          "kind": "previous_direct_http_fulltext_now_reopened",
+          "fetched_at": null,
+          "http_status": 200,
+          "read_at_utc": "2026-10-18T13:47:08.728391+00:00",
+          "quote": "9 studies, 4395 participants",
+          "scope": "이번재검토는 기존직접수집응답 재열람. 처음HTTP정확시각은기록없음, 지금새수집이라표시하지않음."
+        },
+        {
+          "id": "ecig2026",
+          "raw_path": "/tmp/ch02-audit/full-PMC13506250.body",
+          "raw_sha256": "70b431ba83ea315aeb9c12a6a08687ba9b92fe1b75d9bc38ca9f95312ea85227",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13506250/fullTextXML",
+          "kind": "previous_direct_http_fulltext_now_reopened",
+          "fetched_at": null,
+          "http_status": 200,
+          "read_at_utc": "2026-10-18T13:47:08.728391+00:00",
+          "quote": "11 studies, 4114 participants",
+          "scope": "이번재검토는 기존직접수집응답 재열람. 처음HTTP정확시각은기록없음, 지금새수집이라표시하지않음."
+        },
+        {
+          "id": "malik2019",
+          "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/d589bf67028de68ae779.json",
+          "raw_sha256": "6e189557dd4e2d75b3c2825e40095c6c1b36409b21ed392c981c3a74ce3249c5",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1161%2FCIRCULATIONAHA.118.037401%22&format=json&resultType=core&pageSize=10",
+          "kind": "cached_primary_abstract",
+          "fetched_at": "2026-10-18T20:49:55.660132+09:00",
+          "http_status": 200,
+          "read_at_utc": "2026-10-18T13:47:08.728391+00:00",
+          "quote": "1.14 (1.09, 1.19), and 1.21 (1.13, 1.28",
+          "scope": "인용한 결과·대상·노출 정의 대조. 서지존재만 확인한 기록이 아님."
+        },
+        {
+          "id": "epic250",
+          "raw_path": "/tmp/ch02-audit/full-PMC6724165.body",
+          "raw_sha256": "1f48db8e2b7622d2728688b925ad6634844300106709bfdc60883f7cf300fb50",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6724165/fullTextXML",
+          "kind": "previous_direct_http_fulltext_now_reopened",
+          "fetched_at": null,
+          "http_status": 200,
+          "read_at_utc": "2026-10-18T13:47:08.728391+00:00",
+          "quote": "1 glass was equal to approximately 250 mL",
+          "scope": "이번재검토는 기존직접수집응답 재열람. 처음HTTP정확시각은기록없음, 지금새수집이라표시하지않음."
+        },
+        {
+          "id": "jages2026",
+          "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/85937fcbb2df949bcf5f.json",
+          "raw_sha256": "93f56ff3022c182c90b1f1a46d4b1b5e5028e35b0b0005fb5eda4ff445684a0c",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2Fj.jdent.2026.106789%22&format=json&resultType=core&pageSize=10",
+          "kind": "cached_primary_abstract",
+          "fetched_at": "2026-10-18T20:49:56.891764+09:00",
+          "http_status": 200,
+          "read_at_utc": "2026-10-18T13:47:08.728391+00:00",
+          "quote": "interdental cleaner use (HR=0.89; 95% CI=0.80-0.99)",
+          "scope": "인용한 결과·대상·노출 정의 대조. 서지존재만 확인한 기록이 아님."
+        },
+        {
+          "id": "ko2026",
+          "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/7687b13873bdd5f9ebb2.json",
+          "raw_sha256": "fbd10720869ab483276c9e4398656e10c862cee639691d40cc41ab8d9aac3ff9",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1007%2Fs41999-025-01319-4%22&format=json&resultType=core&pageSize=10",
+          "kind": "cached_primary_abstract",
+          "fetched_at": "2026-10-18T20:49:57.089939+09:00",
+          "http_status": 200,
+          "read_at_utc": "2026-10-18T13:47:08.728391+00:00",
+          "quote": "fewer than 20 teeth (OR, 2.04, 95% CI [1.67-2.49]",
+          "scope": "인용한 결과·대상·노출 정의 대조. 서지존재만 확인한 기록이 아님."
+        },
+        {
+          "id": "nhis-scale",
+          "raw_path": "/tmp/ch02-audit/nhis-scale.body",
+          "raw_sha256": "91f2606c1e0bc2be9d3c1245df860ca52ed15b9b771a0f8ed0fb57d36840c20a",
+          "url": "https://www.nhis.or.kr/static/alim/paper/oldpaper/202404/sub/section1_5.html",
+          "kind": "previous_direct_http_official_html_now_reopened",
+          "fetched_at": null,
+          "http_status": 200,
+          "read_at_utc": "2026-10-18T13:47:08.728391+00:00",
+          "quote": "스케일링만을 목적으로 시술하는 경우 1년 주기(매년 1월 1일부터 12월 31일까지)로 1회에 한해 건강보험을 적용",
+          "scope": "인용한 결과·대상·노출 정의 대조. 서지존재만 확인한 기록이 아님."
+        },
+        {
+          "id": "bp2016",
+          "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/9d76eccee18ffd543f24.json",
+          "raw_sha256": "b7a3ddb2081a5387b1c14184aa4197a5811593b6ece4061e5b5ba77af0d85f22",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2FS0140-6736%2815%2901225-8%22&format=json&resultType=core&pageSize=10",
+          "kind": "cached_primary_abstract",
+          "fetched_at": "2026-10-18T20:49:41.563609+09:00",
+          "http_status": 200,
+          "read_at_utc": "2026-10-18T13:47:08.728391+00:00",
+          "quote": "Every 10 mm Hg reduction in systolic blood pressure",
+          "scope": "인용한 결과·대상·노출 정의 대조. 서지존재만 확인한 기록이 아님."
+        },
+        {
+          "id": "ctt2010",
+          "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/879f70de45077f18cea1.json",
+          "raw_sha256": "3434d5ec9349d1183f4a9968c5f6c1bf4d3cd7a9b64247db0cf7a0597958cae2",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2FS0140-6736%2810%2961350-5%22&format=json&resultType=core&pageSize=10",
+          "kind": "cached_primary_abstract",
+          "fetched_at": "2026-10-18T20:49:58.072488+09:00",
+          "http_status": 200,
+          "read_at_utc": "2026-10-18T13:47:08.728391+00:00",
+          "quote": "rate ratio [RR] 0·78, 95% CI 0·76-0·80",
+          "scope": "인용한 결과·대상·노출 정의 대조. 서지존재만 확인한 기록이 아님."
+        },
+        {
+          "id": "adherence2013",
+          "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/f4c786bd3453be05c2b1.json",
+          "raw_sha256": "b0a768004b00af7a2c3e0a821f508fe9ee1a1cb1b803450fea111ab8b0e2a513",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1093%2Feurheartj%2Feht295%22&format=json&resultType=core&pageSize=10",
+          "kind": "cached_primary_abstract",
+          "fetched_at": "2026-10-18T20:49:59.109540+09:00",
+          "http_status": 200,
+          "read_at_utc": "2026-10-18T13:47:08.728391+00:00",
+          "quote": "0.55 (0.46-0.67) and 0.71 (0.64-0.78)",
+          "scope": "인용한 결과·대상·노출 정의 대조. 서지존재만 확인한 기록이 아님."
+        },
+        {
+          "id": "meat2020",
+          "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/0b6beb299d71a48a9114.json",
+          "raw_sha256": "c3cc35e29e09a1219baf97c1be48d041a9b624305d8c76f2a24e717ee310dddb",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1001%2Fjamainternmed.2019.6969%22&format=json&resultType=core&pageSize=10",
+          "kind": "cached_primary_abstract",
+          "fetched_at": "2026-10-18T20:50:03.281741+09:00",
+          "http_status": 200,
+          "read_at_utc": "2026-10-18T13:47:08.728391+00:00",
+          "quote": "based on each additional intake of 2 servings per week",
+          "scope": "인용한 결과·대상·노출 정의 대조. 서지존재만 확인한 기록이 아님."
+        },
+        {
+          "id": "law12-new",
+          "raw_path": "/tmp/ch02-audit/batch1-law12.body",
+          "raw_sha256": "7abde23787e4066e82d0e0e7682fef930f5578ad50cf35d4662b0a32454aa5c6",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280343&joNo=0012&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR",
+          "kind": "new_https_official_article",
+          "fetched_at": null,
+          "http_status": 200,
+          "read_at_utc": "2026-10-18T13:47:08.728391+00:00",
+          "quote": "② 소매인이 아닌 자는 담배를 소비자에게 판매해서는 아니 된다. ④ 소매인이 담배를 소비자에게 판매하는 경우에는 우편판매 및 전자거래의 방법으로 하여서는 아니 된다.",
+          "scope": "이번재검토때curl TLS검증 유지로새로받아조문본문읽음. clock확인13:44:45UTC이전요청완료, 정확응답수신시각은없음. 2026.4.24시행 법률제21216호. HTML태그/인용법령설명 생략한 발췌."
+        }
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-004-87e1/publication-entry-proposal.md",
+          "proposal_sha256": "6c5ba969bdc0ff772a84daa393999e4fb44b8402a81e809a33c59365fb375d15",
+          "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-004-87e1/publication-entry-changes.json",
+          "changes_sha256": "2417ac96bf7305b4c31d42a5c11eadce420a62cc5684055cf6e5897662de7cfd",
+          "decision": "revise",
+          "why": "2019리뷰22시험·9,219명RR1.01(0.87–1.17), 2016시험수치및선사용RR1.25는직접근거와맞습니다. 다만2019리뷰뒤 ‘두집단모두금연일전NRT’의 귀속이2016영국시험인지불명확합니다. ‘앞의2016년영국시험에서는…’으로 한정하세요. 9시험선사용통합결과만으로 모든독자에게금연일2주전부터자가패치를일률권고하지말고 시작시점을의사·약사와상담하게바꾸세요. 제목의금연일앵커는유지했습니다. 추가DOI내용은적합하나 현fullentry는승인하지않습니다.",
+          "evidence_ids": [
+            "gradual2019",
+            "trial2016",
+            "preloading"
+          ],
+          "approval_scope": "해당SHA fullentry의 이번감사에서 지적한 사실·범위·필드수정안 재검토. 정식KR-FIT/절전체출판승인아님. 기존미확인국내가격·기관정책·비용추정은검증승인으로확장하지않음.",
+          "remaining_limits": [
+            "원초록수준의2019·2016비교,2019리뷰전체원문미열람.2주일률패치시점추가확인필요."
+          ]
+        },
+        {
+          "number": 6,
+          "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-006-8fb2/publication-entry-proposal.md",
+          "proposal_sha256": "c4c5f315f9efe395e90677b854948687d2e66d19490f0a992f58e1450dee8ece",
+          "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-006-8fb2/publication-entry-changes.json",
+          "changes_sha256": "977f11bfc8533974bc8eae6b60bc2a6ff2b07859586f38af36dfa77205a5bd9c",
+          "decision": "approve",
+          "why": "NRT전체대비RR1.61을패치단독으로축소하던오류와액상형/궐련형범위를고쳤고장기안전성불확실성을유지했습니다. 80RCT29,861명·11시험4,114명·추가4/100·RD0.01및CI를원문과대조했습니다. 새직접조문확인으로12조2항·4항의미확인을해소했습니다. 니코틴정의확대·금연구역은이전공식보도자료열람근거를유지합니다.",
+          "evidence_ids": [
+            "ecig2026",
+            "law12-new"
+          ],
+          "approval_scope": "해당SHA fullentry의 이번감사에서 지적한 사실·범위·필드수정안 재검토. 정식KR-FIT/절전체출판승인아님. 기존미확인국내가격·기관정책·비용추정은검증승인으로확장하지않음.",
+          "remaining_limits": [
+            "국내월가격·WHO/영국정책·금연약이더싸다는보편비교는이번에신규검증하지않음.12조확인을법2조본문직접확인으로확장하지않음."
+          ]
+        },
+        {
+          "number": 7,
+          "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-007-a8ec/publication-entry-proposal.md",
+          "proposal_sha256": "379ff6458fb73f6d3d27d62a37079b3ba7184f0e9552e2ee4137b4f4a0acc8eb",
+          "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-007-a8ec/publication-entry-changes.json",
+          "changes_sha256": "b5d934c1dd8e57293eef2fbff480e6905d057471e79bc26a7dad1f1e06ac9aa0",
+          "decision": "approve",
+          "why": "미국1회분/유럽약250mL를구분하고HR1.21/1.14및1.08/1.26의분모·구간을보존했습니다. 병을잔으로정정했고각음료군비교만으로제로전환효과를알수없다고제한했습니다. HR를절대사망확률로동일시하지않는문장이있습니다. 제16절incoming앵커‘당분음료를마시지마세요’주제는제목에보존됩니다.",
+          "evidence_ids": [
+            "malik2019",
+            "epic250"
+          ],
+          "approval_scope": "해당SHA fullentry의 이번감사에서 지적한 사실·범위·필드수정안 재검토. 정식KR-FIT/절전체출판승인아님. 기존미확인국내가격·기관정책·비용추정은검증승인으로확장하지않음.",
+          "remaining_limits": [
+            "미국논문전체미열람.해당인용숫자의분석범위만승인하며논문전체에대체분석이전혀없다고단정하지않음."
+          ]
+        },
+        {
+          "number": 10,
+          "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-010-2bba/publication-entry-proposal.md",
+          "proposal_sha256": "e9d1fd2559055777dae3ca5e74cc4cb1da87673410832347e43fe08c0816f211",
+          "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-010-2bba/publication-entry-changes.json",
+          "changes_sha256": "b3c32fcc08a49ce90bbfb7eb4900767aa752760c4a7c18322c4f78a78644015d",
+          "decision": "approve",
+          "why": "치간도구매일사용효과단정을사용여부비교로정정했습니다. 일본스스로생활하는유치아노인과50세이상통합분석을구분하며OR1.87/2.04를확률배수로전환하지않습니다. 예방목적단독스케일링연1회와치주질환치료관련예외를공단원문에맞게정정했습니다. 제24절‘빠진이치료’주제앵커보존.",
+          "evidence_ids": [
+            "jages2026",
+            "ko2026",
+            "nhis-scale"
+          ],
+          "approval_scope": "해당SHA fullentry의 이번감사에서 지적한 사실·범위·필드수정안 재검토. 정식KR-FIT/절전체출판승인아님. 기존미확인국내가격·기관정책·비용추정은검증승인으로확장하지않음.",
+          "remaining_limits": [
+            "도구가격·시간미확인.NHIS2024공식안내이며2026새개정전수검증아님."
+          ]
+        },
+        {
+          "number": 12,
+          "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-012-3296/publication-entry-proposal.md",
+          "proposal_sha256": "bc01318e15559bd2d482d947d25e510894ad4971dd08e0a59769689960517129",
+          "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-012-3296/publication-entry-changes.json",
+          "changes_sha256": "e47f2618f9a4ee1ca383a11bc31f79dac6e86e05ddc5841c59e56c4d807e5360",
+          "decision": "approve",
+          "why": "1단위를1.0mmol/L로바꿔mg/dL와의혼동을막고모든약하루1회단정을삭제했습니다. 혈압10mmHg당RR.87/.80/.73/.72와CTT LDL단위당.90/.78, 순응도80%이상대미만.55/.71은원초록에일치합니다. 순응도교란을‘크게잡혔을수있다’로제한하고처방대상·임의중단금지를유지했습니다. CTT의원보고RR는rate ratio임을감사에명시하며절대확률로역산하지않습니다.",
+          "evidence_ids": [
+            "bp2016",
+            "ctt2010",
+            "adherence2013"
+          ],
+          "approval_scope": "해당SHA fullentry의 이번감사에서 지적한 사실·범위·필드수정안 재검토. 정식KR-FIT/절전체출판승인아님. 기존미확인국내가격·기관정책·비용추정은검증승인으로확장하지않음.",
+          "remaining_limits": [
+            "국내급여한달부담미확인.원초록및기존CTT원문대조범위,별도혈당시험추가검증아님."
+          ]
+        },
+        {
+          "number": 23,
+          "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-023-7dfd/publication-entry-proposal.md",
+          "proposal_sha256": "19d9a03435718e4efccf7714c1dee0743f2b59e14ed96f0ef8bb561eb8becabf",
+          "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-023-7dfd/publication-entry-changes.json",
+          "changes_sha256": "fdd38064b700a689320f03b04f266f59c353763eb1bb53bb618ead58ddb77db3",
+          "decision": "approve",
+          "why": "가금육·생선HR.99는주2인분추가의독립연관으로정정되었고식품대체효과를직접분석한수치아님을독자본문에명시했습니다. 가공육/살코기HR1.03및각CI는원초록과일치합니다. 제목의생선·가금육선택은저자실천제안이며이수치가대체의인과효과를입증했다는뜻으로확대승인하지않습니다.",
+          "evidence_ids": [
+            "meat2020"
+          ],
+          "approval_scope": "해당SHA fullentry의 이번감사에서 지적한 사실·범위·필드수정안 재검토. 정식KR-FIT/절전체출판승인아님. 기존미확인국내가격·기관정책·비용추정은검증승인으로확장하지않음.",
+          "remaining_limits": [
+            "원문전체미열람.changes의감사파일없음문구는초안시점이력이며현재부재판정으로사용금지."
+          ]
+        }
+      ],
+      "publication_ready": false,
+      "formal_kr_fit": false
+    },
+    {
+      "batch": "1-r2",
+      "batch_manifest_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/author-batch-1-r2.json",
+      "batch_manifest_sha256": "f225b85e13dd7396a235f59175f29fdc93ebca1d6de795ddd1097480345d2654",
+      "reviewed_at_utc": "2026-10-18T13:49:56.448301+00:00",
+      "entries": [
+        {
+          "number": 4,
+          "status": "frozen_for_independent_review",
+          "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-004-87e1/publication-entry-proposal-r2.md",
+          "proposal_sha256": "e87a1c82e8c06fe72692141df370194afccdae2e6b8c48c8f01261fca9f3812b",
+          "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-004-87e1/publication-entry-changes-r2.json",
+          "changes_sha256": "fda0a14da0b2871adbe6a9ceda8189eccd04e238e48f36345ae8290891331010",
+          "decision": "approve",
+          "why": "2016영국시험의두집단NRT조건으로귀속을명확히했고선사용시점을의사·약사와상담하도록제한해frozen초안에대한두수정요청을해결했습니다. 기존검증수치·새DOI와금연일앵커를유지합니다.",
+          "evidence_ids_from_batch1": [
+            "gradual2019",
+            "trial2016",
+            "preloading"
+          ],
+          "approval_scope": "r2정확SHA개별대체안승인.이전frozen초안revise는유지.정식KR-FIT·절전체출판승인아님."
+        }
+      ],
+      "review_status": "complete",
+      "summary": {
+        "approve": 1,
+        "revise": 0
+      },
+      "formal_kr_fit": false,
+      "publication_ready": false
+    },
+    {
+      "batch": 2,
+      "batch_manifest_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/author-batch-2.json",
+      "batch_manifest_sha256": "29209eee618d73c1b571a2c2259a6267ecacd820095d13c1d2d9ede73cb759a1",
+      "reviewed_at_utc": "2026-10-18T13:49:56.448301+00:00",
+      "sources": [
+        {
+          "id": "sleep-definitions",
+          "raw_path": "/tmp/ch02e13-primary.html",
+          "raw_sha256": "7b60175fa0e9326c1f0a4488a84215d01e5880eefba9abe220972daf4602fc8a",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2864873/",
+          "quote": "Short sleep was ≤ 5 h … ≤ 6 h … < 7 h … ≤ 4 h.",
+          "kind": "author_preserved_primary_html_reopened",
+          "fetched_at": null,
+          "http_status": 200,
+          "read_at_utc": "2026-10-18T13:49:56.448301+00:00",
+          "scope": "작성자가HTTPS로보존한원문HTML을이번에직접읽음.정확원HTTP시각미기록,작성자2026-10-18수집기록과구분."
+        },
+        {
+          "id": "sleep2010",
+          "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/98ed1f52f78b79d8a5ec.json",
+          "raw_sha256": "1dfe4f2c2e4fef74683cedc5993d1f5836f346ef17011020c2bf57bbb0030c53",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1093%2Fsleep%2F33.5.585%22&format=json&resultType=core&pageSize=10",
+          "quote": "1,382,999 male and female participants",
+          "kind": "provided_primary_abstract_cache_reopened",
+          "fetched_at": "2026-10-18T20:49:59.299783+09:00",
+          "http_status": 200,
+          "read_at_utc": "2026-10-18T13:49:56.448301+00:00",
+          "scope": "해당원문결과·방법의인용부분열람.부록전체검증아님."
+        },
+        {
+          "id": "sleep-dose",
+          "raw_path": "/tmp/ch02-audit/full-PMC5634263.body",
+          "raw_sha256": "7401ff314417e19ab78ad832f4048a5adf5a17d51fdd700d97eeb1bce95c6ddb",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5634263/fullTextXML",
+          "quote": "1.06",
+          "kind": "previous_direct_http_fulltext_reopened",
+          "fetched_at": null,
+          "http_status": 200,
+          "read_at_utc": "2026-10-18T13:49:56.448301+00:00",
+          "scope": "초기자체수집응답재열람.초기정확HTTP시각미기록.지금새HTTP아님."
+        },
+        {
+          "id": "sleep-regular",
+          "raw_path": "/tmp/ch02-audit/full-PMC10782501.body",
+          "raw_sha256": "c60cf4619010806636c8cb76ae9388b6c98a33308f63c979c1acd6a80730eb69",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10782501/fullTextXML",
+          "quote": "across the top four SRI quintiles compared to the least regular quintile",
+          "kind": "previous_direct_http_fulltext_reopened",
+          "fetched_at": null,
+          "http_status": 200,
+          "read_at_utc": "2026-10-18T13:49:56.448301+00:00",
+          "scope": "초기자체수집응답재열람.초기정확HTTP시각미기록.지금새HTTP아님."
+        },
+        {
+          "id": "jetlag2026",
+          "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/6ec72dd8f254bf56dca9.json",
+          "raw_sha256": "d41a6b38ac83c8b568748447185fd8f4ab8ed08f0d51d0b2fd948a68b11db58c",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1111%2Fjoim.70133%22&format=json&resultType=core&pageSize=10",
+          "quote": "HR 1.30, 95% CI 1.11-1.54",
+          "kind": "provided_primary_abstract_cache_reopened",
+          "fetched_at": "2026-10-18T20:50:00.510137+09:00",
+          "http_status": 200,
+          "read_at_utc": "2026-10-18T13:49:56.448301+00:00",
+          "scope": "해당원문결과·방법의인용부분열람.부록전체검증아님."
+        },
+        {
+          "id": "racket-primary",
+          "raw_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-014-2e30/source-evidence/primary.html",
+          "raw_sha256": "b4b95fdc8edef5136dd70cf6df22a9b15095ae001294088e9329d58520cc63c8",
+          "url": "https://bjsm.bmj.com/content/51/10/812",
+          "quote": "결과: Racquet sports participation was associated with a significant reduced risk of CVD mortality of 56% (HR=0.44, 95% CI 0.24 to 0.83). 논의: 47% in all-cause mortality and 59% reduction in CVD mortality. 노출: badminton/tennis/squash combined",
+          "kind": "author_preserved_publisher_html_reopened",
+          "fetched_at": "2026-10-18T13:37:07.039446+00:00",
+          "http_status": 200,
+          "read_at_utc": "2026-10-18T13:49:56.448301+00:00",
+          "scope": "작성자의수집기록시각이며검토자의신규HTTP아님.동일RAW SHA일치확인후결과·논의·노출문단을읽음."
+        },
+        {
+          "id": "vilpa2022",
+          "raw_path": "/tmp/ch02-audit/full-PMC9800274.body",
+          "raw_sha256": "517988dcf668ecd335886cc6e3df51cfc2a55ca31bda12a29650e1a6ea2c34ed",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9800274/fullTextXML",
+          "quote": "reported no leisure time exercise participation and no more than one recreational walk per week",
+          "kind": "previous_direct_http_fulltext_reopened",
+          "fetched_at": null,
+          "http_status": 200,
+          "read_at_utc": "2026-10-18T13:49:56.448301+00:00",
+          "scope": "초기자체수집응답재열람.초기정확HTTP시각미기록.지금새HTTP아님."
+        },
+        {
+          "id": "wood2018",
+          "raw_path": "/tmp/ch02-audit/full-PMC5899998.body",
+          "raw_sha256": "6b26cfa7c791cf92ebc3ec68cf47396ba4ad50d557bb1e3eda74faa527aeb401",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5899998/fullTextXML",
+          "quote": ">0–≤100 g per week",
+          "kind": "previous_direct_http_fulltext_reopened",
+          "fetched_at": null,
+          "http_status": 200,
+          "read_at_utc": "2026-10-18T13:49:56.448301+00:00",
+          "scope": "초기자체수집응답재열람.초기정확HTTP시각미기록.지금새HTTP아님."
+        },
+        {
+          "id": "gbd-unit-week",
+          "raw_path": "/tmp/ch02-audit/full-PMC6148333.body",
+          "raw_sha256": "de2fc26089a26e01dfc9bf0d77bd8d8894fc8532b08f6ed165910c200a6e5f60",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6148333/fullTextXML",
+          "quote": "zero (95% UI 0·0–0·8) standard drinks per week",
+          "kind": "previous_direct_http_fulltext_reopened",
+          "fetched_at": null,
+          "http_status": 200,
+          "read_at_utc": "2026-10-18T13:49:56.448301+00:00",
+          "scope": "초기자체수집응답재열람.초기정확HTTP시각미기록.지금새HTTP아님."
+        },
+        {
+          "id": "gbd-unit-day",
+          "raw_path": "/tmp/ch02-audit/full-PMC6148333.body",
+          "raw_sha256": "de2fc26089a26e01dfc9bf0d77bd8d8894fc8532b08f6ed165910c200a6e5f60",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6148333/fullTextXML",
+          "quote": "zero (95% UI 0·0–0·8) standard drinks daily",
+          "kind": "previous_direct_http_fulltext_reopened",
+          "fetched_at": null,
+          "http_status": 200,
+          "read_at_utc": "2026-10-18T13:49:56.448301+00:00",
+          "scope": "초기자체수집응답재열람.초기정확HTTP시각미기록.지금새HTTP아님."
+        },
+        {
+          "id": "zhao2023",
+          "raw_path": "/tmp/ch02-audit/full-PMC10066463.body",
+          "raw_sha256": "217dc207a4cb1bcb7a152b4d4029ab87e8f3c937bacb205ebcc35ca82d1fd77b",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10066463/fullTextXML",
+          "quote": "Low-volume (1.30 to <25)",
+          "kind": "previous_direct_http_fulltext_reopened",
+          "fetched_at": null,
+          "http_status": 200,
+          "read_at_utc": "2026-10-18T13:49:56.448301+00:00",
+          "scope": "초기자체수집응답재열람.초기정확HTTP시각미기록.지금새HTTP아님."
+        },
+        {
+          "id": "alcohol2006",
+          "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/c9d68df968a86f93b3e7.json",
+          "raw_sha256": "09d6b3f9e2fc5c7dd725442e9ada077c8159f2b91e6c36faa4042a12b6e66b3d",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1001%2Farchinte.166.22.2437%22&format=json&resultType=core&pageSize=10",
+          "quote": "Consumption of alcohol, up to 4 drinks per day in men and 2 drinks per day in women",
+          "kind": "provided_primary_abstract_cache_reopened",
+          "fetched_at": "2026-10-18T20:50:02.053499+09:00",
+          "http_status": 200,
+          "read_at_utc": "2026-10-18T13:49:56.448301+00:00",
+          "scope": "해당원문결과·방법의인용부분열람.부록전체검증아님."
+        },
+        {
+          "id": "grain2016",
+          "raw_path": "/tmp/ch02-audit/full-PMC4908315.body",
+          "raw_sha256": "f2efbe24aaf366f9f1aabee1847ff4bbafa907c6821311fbeee7568e1f390c92",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4908315/fullTextXML",
+          "quote": "whole grain food or product intake (fresh weight including water content)",
+          "kind": "previous_direct_http_fulltext_reopened",
+          "fetched_at": null,
+          "http_status": 200,
+          "read_at_utc": "2026-10-18T13:49:56.448301+00:00",
+          "scope": "초기자체수집응답재열람.초기정확HTTP시각미기록.지금새HTTP아님."
+        },
+        {
+          "id": "grain2017",
+          "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/4b7da62d583d8e829ddf.json",
+          "raw_sha256": "78c1aa2d6eb0a605813a7b92792a1b65df45cad47ac7b116ff2abb36ac2ada6c",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.3945%2Fajcn.117.153148%22&format=json&resultType=core&pageSize=10",
+          "quote": "whole grains (RR: 0.92; 95% CI: 0.89, 0.95)",
+          "kind": "provided_primary_abstract_cache_reopened",
+          "fetched_at": "2026-10-18T20:50:01.155547+09:00",
+          "http_status": 200,
+          "read_at_utc": "2026-10-18T13:49:56.448301+00:00",
+          "scope": "해당원문결과·방법의인용부분열람.부록전체검증아님."
+        },
+        {
+          "id": "tea2020",
+          "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/4e0e0655683271e12c19.json",
+          "raw_sha256": "52b5139378d6c29ec9d5aa199703ac3e43306e6a4e23faf0b93ee7d57d6978a4",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1177%2F2047487319894685%22&format=json&resultType=core&pageSize=10",
+          "quote": "1.41 years longer of atherosclerotic cardiovascular disease-free years and 1.26 years longer of life expectancy",
+          "kind": "provided_primary_abstract_cache_reopened",
+          "fetched_at": "2026-10-18T20:50:03.510728+09:00",
+          "http_status": 200,
+          "read_at_utc": "2026-10-18T13:49:56.448301+00:00",
+          "scope": "해당원문결과·방법의인용부분열람.부록전체검증아님."
+        },
+        {
+          "id": "aflatoxin2020",
+          "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/5fde18292b4ae6fd255f.json",
+          "raw_sha256": "468973e84b3afc51c996a1ea8203c62f6dda199a511c192230f60af3449d62f5",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2Fj.fct.2020.111830%22&format=json&resultType=core&pageSize=10",
+          "quote": "Two out of 158 samples were positive",
+          "kind": "provided_primary_abstract_cache_reopened",
+          "fetched_at": "2026-10-18T20:50:03.844545+09:00",
+          "http_status": 200,
+          "read_at_utc": "2026-10-18T13:49:56.448301+00:00",
+          "scope": "해당원문결과·방법의인용부분열람.부록전체검증아님."
+        },
+        {
+          "id": "tea-toxin2022",
+          "raw_path": "/tmp/ch02-audit/full-PMC9318285.body",
+          "raw_sha256": "ac013af1a5ee8b6e76ac31c69a3f7d0383510029892522dd6f56df989aa8f21f",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9318285/fullTextXML",
+          "quote": "A risk assessment was performed for the worst-case scenarios by point evaluation and Monte Carlo assessment model",
+          "kind": "previous_direct_http_fulltext_reopened",
+          "fetched_at": null,
+          "http_status": 200,
+          "read_at_utc": "2026-10-18T13:49:56.448301+00:00",
+          "scope": "초기자체수집응답재열람.초기정확HTTP시각미기록.지금새HTTP아님."
+        },
+        {
+          "id": "tea-liver2018",
+          "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/7bdf70026746773e4d1c.json",
+          "raw_sha256": "ce8c74bd6354ab553cb68c694f9c0a0b3fe7fa379db5a69c93c65af22386261c",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2Fj.yrtph.2018.03.019%22&format=json&resultType=core&pageSize=10",
+          "quote": "but not when consumed as brewed tea",
+          "kind": "provided_primary_abstract_cache_reopened",
+          "fetched_at": "2026-10-18T20:50:04.355366+09:00",
+          "http_status": 200,
+          "read_at_utc": "2026-10-18T13:49:56.448301+00:00",
+          "scope": "해당원문결과·방법의인용부분열람.부록전체검증아님."
+        }
+      ],
+      "entries": [
+        {
+          "number": 13,
+          "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-013-0d52/publication-entry-proposal.md",
+          "proposal_sha256": "9639cea2bd2caa9bc28de840c4a2fad50f490357979aa7acae24c1190969e1b5",
+          "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-013-0d52/publication-entry-changes.json",
+          "changes_sha256": "bbc4b912c41f7a52b1e7141a407274b9f1b9380fd2127d87be272c4377b67ca8",
+          "decision": "approve",
+          "why": "Cappuccio연구별짧은수면기준≤4시간부터<7시간범위를원문HTML에서확인했습니다. 비교기준도다르므로RR1.12를일률7시간미만효과로묶지않게고친점이적합합니다. 규칙성네분위20~48%와최저분위비교를보존하고‘대부분역인과’를가능성으로낮췄습니다. Yin용량반응1.06/1.13과Kumar사회적시차≥2시간HR1.30을각연구범위로유지합니다.",
+          "evidence_ids": [
+            "sleep-definitions",
+            "sleep2010",
+            "sleep-dose",
+            "sleep-regular",
+            "jetlag2026"
+          ],
+          "approval_scope": "정확SHA개별수정안의semantic/editorial지적해결범위.정식KR-FIT·절전체출판승인아님.기존미확인가격/정책에대한검증승인아님.",
+          "remaining_limits": "원문전체부록을전수검증하지않음.14국내시설가격·25차비용등은미확인유지.13Kumar논문은원초록수준."
+        },
+        {
+          "number": 14,
+          "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-014-2e30/publication-entry-proposal.md",
+          "proposal_sha256": "6ef4d5fedd933e7b078cf48f5bdc3f854515c8163fbcc5cdbfb142eed8c1b889",
+          "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-014-2e30/publication-entry-changes.json",
+          "changes_sha256": "3c2fd9af37d9d19ca1b891a9fa5ad6555f8d67c036e99baca9e5d01d0776cdbf",
+          "decision": "revise",
+          "why": "원문노출은badminton/tennis/squash여서탁구를스쿼시로고친점,주3회45분최적처방삭제는타당합니다. 그러나원문결과는심혈관사망HR.44=56%낮음인데논의는59%라고씁니다. changes limitations에만기록했고독자본문에는고지하지않았습니다. 새CONTRACT의원출처내부수치충돌고지원칙상본문에짧게불일치를밝히고사용값이HR.44/56%임을명시해야합니다.",
+          "evidence_ids": [
+            "racket-primary"
+          ],
+          "approval_scope": "정확SHA개별수정안의semantic/editorial지적해결범위.정식KR-FIT·절전체출판승인아님.기존미확인가격/정책에대한검증승인아님.",
+          "remaining_limits": "원문전체부록을전수검증하지않음.14국내시설가격·25차비용등은미확인유지.13Kumar논문은원초록수준."
+        },
+        {
+          "number": 15,
+          "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-015-901a/publication-entry-proposal.md",
+          "proposal_sha256": "d559da9d859da3f4c42a4221707ff3bab94580c3498165c6f0124cf37025664c",
+          "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-015-901a/publication-entry-changes.json",
+          "changes_sha256": "2a639a7ab39813cd9c31d55705b74d9321441444343dacf7dde4b7f5e6260705",
+          "decision": "approve",
+          "why": "주분석25,241명·평균6.9년852사망,각VILPA비교감소폭과운동인62,344명별도분석을원문방법·결과에서대조했습니다. 비운동인선정은기기측정보다평균5.5년전설문,여가산책주1회이하라는조건이맞습니다. 대조군을전혀움직이지않는사람에서해당짧은격한활동이없는사람으로정정하고운동인전면배제를없앴습니다. 인과·운동인추가효과를시험한것아님을본문에유지합니다.",
+          "evidence_ids": [
+            "vilpa2022"
+          ],
+          "approval_scope": "정확SHA개별수정안의semantic/editorial지적해결범위.정식KR-FIT·절전체출판승인아님.기존미확인가격/정책에대한검증승인아님.",
+          "remaining_limits": "원문전체부록을전수검증하지않음.14국내시설가격·25차비용등은미확인유지.13Kumar논문은원초록수준."
+        },
+        {
+          "number": 19,
+          "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-019-e80d/publication-entry-proposal.md",
+          "proposal_sha256": "a138b57bb8cbe69b9a9607446fffb242282fa4f78abc1493af5fc366cac914b3",
+          "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-019-e80d/publication-entry-changes.json",
+          "changes_sha256": "6744a002ce5d0dc7ceda0ea8705b0295edd95aa606b033ecdc17eeaffc0cc631",
+          "decision": "revise",
+          "why": "Wood의현재음주자>0~≤100g기준·40세기대수명모델,음주량별범위및Zhao추정치는맞게정정했습니다. 다만GBD2016원문초록은95%UI0.0~0.8standarddrinks/week,같은논문결과는daily로씁니다. 현재안은주당0.0~0.8만확정하고내부충돌을본문에밝히지않아수정필요. 0최저추정방향은유지하되불확실성상한의단위충돌을고지하고미해결수치를안전기준으로제시하지마세요.",
+          "evidence_ids": [
+            "wood2018",
+            "gbd-unit-week",
+            "gbd-unit-day",
+            "zhao2023",
+            "alcohol2006"
+          ],
+          "approval_scope": "정확SHA개별수정안의semantic/editorial지적해결범위.정식KR-FIT·절전체출판승인아님.기존미확인가격/정책에대한검증승인아님.",
+          "remaining_limits": "원문전체부록을전수검증하지않음.14국내시설가격·25차비용등은미확인유지.13Kumar논문은원초록수준."
+        },
+        {
+          "number": 24,
+          "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-024-c727/publication-entry-proposal.md",
+          "proposal_sha256": "f2cd0aeff8995ac5d5681535156539b47f1d0eb3fbc06255c7d73ac285387b08",
+          "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-024-c727/publication-entry-changes.json",
+          "changes_sha256": "f9bd91803a30cbe46cc959916866ae47b2d07aacd78b55a81f486a03f239554f",
+          "decision": "approve",
+          "why": "통곡물RR.83(.77~.90)·식품90g3인분·최저위험225g·I²83%를원문에대조했습니다. 다수연구의제품신선중량과일부건조곡물중량차이를설명하고90g마른현미/조리밥처방이아님을명시해단위오독을막았습니다. 절반만교체하면최대이득이라는미지원조건도정정했습니다. AJCN하루1인분RR.92는원초록범위로확인하며그논문전체serving중량까지승인하지않습니다.",
+          "evidence_ids": [
+            "grain2016",
+            "grain2017"
+          ],
+          "approval_scope": "정확SHA개별수정안의semantic/editorial지적해결범위.정식KR-FIT·절전체출판승인아님.기존미확인가격/정책에대한검증승인아님.",
+          "remaining_limits": "원문전체부록을전수검증하지않음.14국내시설가격·25차비용등은미확인유지.13Kumar논문은원초록수준."
+        },
+        {
+          "number": 25,
+          "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-025-1523/publication-entry-proposal.md",
+          "proposal_sha256": "8f15caa462554af27f6ff84d06c3058d73d77395631be46b58548bf08cdff119",
+          "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-025-1523/publication-entry-changes.json",
+          "changes_sha256": "4392a1ecb5e0b1082b6cbe7cce2c72e06aee7079b1d180e7b5de5e1f41f636c5",
+          "decision": "revise",
+          "why": "China-PAR100,902명·중앙7.3년HR.85(.79~.90)와기대수명추정,독소두연구가실제위험평가를했다는정정,우린차와고농도추출물간독성구별은원초록/관련원문에맞습니다. 그러나제목‘일주일세잔이상’은changes limitations에서도빈도·잔용량미검증이라남겼습니다. 원초록의habitual만으로주3잔을확정할수없으므로원문운영정의를직접확인하거나제목에서미검증섭취빈도를삭제해야합니다. 제목자체가원래문장이라는이유로수량권고를승인하지않습니다.",
+          "evidence_ids": [
+            "tea2020",
+            "aflatoxin2020",
+            "tea-toxin2022",
+            "tea-liver2018"
+          ],
+          "approval_scope": "정확SHA개별수정안의semantic/editorial지적해결범위.정식KR-FIT·절전체출판승인아님.기존미확인가격/정책에대한검증승인아님.",
+          "remaining_limits": "원문전체부록을전수검증하지않음.14국내시설가격·25차비용등은미확인유지.13Kumar논문은원초록수준."
+        }
+      ],
+      "review_status": "complete",
+      "summary": {
+        "approve": 3,
+        "revise": 3
+      },
+      "formal_kr_fit": false,
+      "publication_ready": false
+    },
+    {
+      "batch": "2-r2",
+      "batch_manifest_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/author-batch-2-r2.json",
+      "batch_manifest_sha256": "1cfcb2fcf2ab42697c6f70c3ec3e4d9747177e8607167e5efe27ece24f001a94",
+      "reviewed_at_utc": "2026-10-18T13:52:04.375325+00:00",
+      "review_status": "complete",
+      "summary": {
+        "approve": 3,
+        "revise": 0
+      },
+      "entries": [
+        {
+          "number": 14,
+          "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-014-2e30/publication-entry-proposal-r2.md",
+          "proposal_sha256": "9585db5f13dc584f87b8f1d3a6095ea73bf86b8e94c2c742712ee2f0894bd069",
+          "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-014-2e30/publication-entry-changes-r2.json",
+          "changes_sha256": "c6c588e231321735e35917457e2a6ebdf141c671348f6972828d660569adb06a",
+          "decision": "approve",
+          "why": "r2이득에초록56%·논의59%가일치하지않음을독자에게직접고지했습니다. 실제현재출판사HTML재조회에도결과HR.44/56%와논의59%가함께있어과거초록만의차이를영구모순으로만든것이아닙니다. 기존주3회45분처방삭제·라켓노출정정과다른수치보존을유지해approve.",
+          "approval_scope": "정확SHA의r2개별fullentry수정안.이전frozenr1revise이력은유지.정식KR-FIT·전체절출판승인아님.기존가격/정책미확인도유지.",
+          "evidence_scope": "배치2기록의primary자료와이번정정공지/현재응답보강.전체부록재검증아님."
+        },
+        {
+          "number": 19,
+          "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-019-e80d/publication-entry-proposal-r2.md",
+          "proposal_sha256": "b2a963b66f25a48485911b66cdc006d66a51a94c123f5e7fcf05e9ddcfd437ba",
+          "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-019-e80d/publication-entry-changes-r2.json",
+          "changes_sha256": "b14b238fc3747f41bb9473f72f871baf758a9f154edd7af33c84d181b8c4663b",
+          "decision": "approve",
+          "why": "r2가GBD의불확실성상한수치를제거하고초록주당/결과하루단위차이를독자본문에고지했습니다. 연결된정정공지두건을직접읽었으나이단위수정을명시하지않고현재새XML에도두표기가있음을확인했습니다. 금주최저방향·Wood현재음주자기준및모델한계는보존합니다. 확인한버전의표기차이라는범위를넘어영구미해결이라단정하지않고approve.",
+          "approval_scope": "정확SHA의r2개별fullentry수정안.이전frozenr1revise이력은유지.정식KR-FIT·전체절출판승인아님.기존가격/정책미확인도유지.",
+          "evidence_scope": "배치2기록의primary자료와이번정정공지/현재응답보강.전체부록재검증아님."
+        },
+        {
+          "number": 25,
+          "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-025-1523/publication-entry-proposal-r2.md",
+          "proposal_sha256": "c62bce7810d622172287eb78d74962441b4029d742a6a64675540a64ef531592",
+          "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-025-1523/publication-entry-changes-r2.json",
+          "changes_sha256": "c6838a1fb5b29f0176958a99d9dc49a2f93d09e28c45d741af41b38474f09d73",
+          "decision": "approve",
+          "why": "r2는미검증주3잔빈도를제목에서삭제한‘차를드세요’이며나머지검토된본문은r1과동일합니다. incoming제25항제목앵커는book-kr검색에서발견되지않았습니다. 차라는주제·독소/추출물경고와조건을보존하고검증하지못한섭취량권고를강화하지않아approve.",
+          "approval_scope": "정확SHA의r2개별fullentry수정안.이전frozenr1revise이력은유지.정식KR-FIT·전체절출판승인아님.기존가격/정책미확인도유지.",
+          "evidence_scope": "배치2기록의primary자료와이번정정공지/현재응답보강.전체부록재검증아님."
+        }
+      ],
+      "correction_check_sources": [
+        {
+          "name": "correction2018",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6902241/fullTextXML",
+          "raw_path": "/tmp/ch02-audit/correction2018.body",
+          "status": 200,
+          "started_utc": "2026-10-18T13:50:20.513850+00:00",
+          "completed_utc": "2026-10-18T13:50:22.000169+00:00",
+          "raw_sha256": "883858c20a902ab4cae3d733b25bae10e895ec5ebcf8d41e39b45592ca9aad66",
+          "read_at_utc": "2026-10-18T13:52:04.375325+00:00",
+          "kind": "new_https_fetch",
+          "quote": "GBD 2016 Alcohol Collaborators. Alcohol use and burden for 195 countries and territories, 1990–2016: a systematic analysis for the Global Burden of Disease Study 2016.  Lancet  2018;  392:  1015–35— Alan D Lopez has been added to the list of GBD 2016 Alcohol Collaborators; the names of Masood Ali Shaikh and Dhirendra Narain Sinha have been corrected; and affiliations have been updated for Karzan Abdulmuhsin Mohammad. Raw data underlying figures and relative risk curves have been made publicly available on Mendeley Data, a secure online repository for research data, as of Sept 19, 2018 (DOI:10.17632/5thy2mcwn7.1). A data sharing statement containing a link to this dataset has been added at the end of the Article. These corrections have been made to the online version as of Sept 27, 2018.",
+          "verified_scope": "실제정정공지본문직접열람.2018저자명/소속·데이터공유성명,2019저자/소속/이해관계정정.음주단위정정내용없음."
+        },
+        {
+          "name": "correction2019",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6598857/fullTextXML",
+          "raw_path": "/tmp/ch02-audit/correction2019.body",
+          "status": 200,
+          "started_utc": "2026-10-18T13:50:20.514615+00:00",
+          "completed_utc": "2026-10-18T13:50:22.098680+00:00",
+          "raw_sha256": "e58bb3fef0a824dd40ea0137ee603ebfadcdf91367352fdcf21e4b6c7c60a800",
+          "read_at_utc": "2026-10-18T13:52:04.375325+00:00",
+          "kind": "new_https_fetch",
+          "quote": "GBD 2016 Alcohol Collaborators. Alcohol use and burden for 195 countries and territories, 1990–2016: a systematic analysis for the Global Burden of Disease Study 2016.  Lancet  2018;  392:  1015–35— In this Global Health Metrics paper, Stefan Lorkowski has been added to the collaborators list; affiliation details and a declaration of interests statement for Stefan Lorkowski have also been added. These corrections have been made to the online version as of June 20, 2019.",
+          "verified_scope": "실제정정공지본문직접열람.2018저자명/소속·데이터공유성명,2019저자/소속/이해관계정정.음주단위정정내용없음."
+        },
+        {
+          "name": "gbd-live",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6148333/",
+          "raw_path": "/tmp/ch02-audit/gbd-live.body",
+          "status": 200,
+          "started_utc": "2026-10-18T13:50:20.515111+00:00",
+          "completed_utc": "2026-10-18T13:50:20.929051+00:00",
+          "raw_sha256": "10aaacae842dd978d220e15a203941ec5207ca7e49e25058f5f9691b2e73ba49",
+          "read_at_utc": "2026-10-18T13:52:04.375325+00:00",
+          "kind": "new_https_fetch",
+          "verified_scope": "HTTP200이지만reCAPTCHA화면.논문본문확인실패이며논문접근성공으로세지않음.",
+          "content_verified": false
+        },
+        {
+          "name": "racket-live",
+          "url": "https://bjsm.bmj.com/content/51/10/812",
+          "raw_path": "/tmp/ch02-audit/racket-live.body",
+          "status": 200,
+          "started_utc": "2026-10-18T13:50:20.515700+00:00",
+          "completed_utc": "2026-10-18T13:50:22.404424+00:00",
+          "raw_sha256": "0ffc856d5c6158f28c52210708f0b6989e5d128406915cdb8520baed9e6d9beb",
+          "read_at_utc": "2026-10-18T13:52:04.375325+00:00",
+          "kind": "new_https_fetch",
+          "quote": "현재출판사결과: CVD mortality of 56% (HR=0.44, 95% CI 0.24 to 0.83). 논의: 59% reduction in CVD mortality.",
+          "verified_scope": "현재출판사HTML직접열람,같은페이지의56/59차이존재확인.정정공지가세상에없다는주장아님."
+        },
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6148333/fullTextXML",
+          "raw_path": "/tmp/ch02-audit/gbd-live-xml.body",
+          "status": 200,
+          "started_utc": "2026-10-18T13:50:53.580028+00:00",
+          "completed_utc": "2026-10-18T13:50:54.451815+00:00",
+          "raw_sha256": "de2fc26089a26e01dfc9bf0d77bd8d8894fc8532b08f6ed165910c200a6e5f60",
+          "read_at_utc": "2026-10-18T13:52:04.375325+00:00",
+          "kind": "new_https_fulltext_xml",
+          "quote": "초록: zero (95% UI 0·0–0·8) standard drinks per week. 결과: zero (95% UI 0·0–0·8) standard drinks daily.",
+          "verified_scope": "현재새EuropePMC응답에도두표기가같은XML에존재.이후정정가능성이나접근못한출판사최종판을배제하지않음."
+        }
+      ],
+      "formal_kr_fit": false,
+      "publication_ready": false
+    },
+    {
+      "batch": 3,
+      "batch_manifest_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/author-batch-3.json",
+      "batch_manifest_sha256": "61ebbce434e447dc6245550cdcd9a981eed356cb3da81c736608f91f46a7c986",
+      "reviewed_at_utc": "2026-10-18T13:55:57.965373+00:00",
+      "review_status": "complete",
+      "summary": {
+        "approve": 3,
+        "revise": 2
+      },
+      "entries": [
+        {
+          "number": 26,
+          "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-026-c168/publication-entry-proposal.md",
+          "proposal_sha256": "3e8144925d85240f5576dcd1bfd647efff4d4403e21d709eaa1d3d4517df1304",
+          "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-026-c168/publication-entry-changes.json",
+          "changes_sha256": "2f620050ff0cd50801e5f5f2073f05f2b03e5c5f12e8a9010d3162a01079d08d",
+          "decision": "revise",
+          "why": "기존과원문CI차이를본문에알린의도는맞으나2018BMJ정정공지k194가원하는CI0.79~0.88을명시합니다. ‘확인이더필요’로미해결처리하지말고정정문을출처에보강해수정된값을사용하고옛원문오기와정정사실을짧게고지하세요. 제목‘커피는관찰결과/근거는별개’는독자용주제제목으로고치며쉽게‘사망17%적음’도건수와RR을혼동하지않게‘사망위험17%낮음’으로정리하세요. 설탕·크림완전상쇄삭제·마시기증량권고제한은적합합니다.",
+          "semantic_decision": "revise",
+          "editorial_decision": "revise",
+          "evidence_ids": [
+            "coffee-oldxml",
+            "coffee-correction2018",
+            "coffee-currentpublisher",
+            "coffee-underlying-abstract"
+          ],
+          "approval_scope": "정확SHA의개별수정안범위.기존가격/정책/식사시각등미확인부분검증으로확장하지않음.정식KR-FIT·전체절출판승인아님.",
+          "doi_addition_review": null
+        },
+        {
+          "number": 30,
+          "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-030-4d4a/publication-entry-proposal.md",
+          "proposal_sha256": "f68f58d4a8673cdeb7837a4d237df408016e4a1d1a95674abba94c664a445891",
+          "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-030-4d4a/publication-entry-changes.json",
+          "changes_sha256": "07b8a5912a07976c51c4b4f1e12063a3a975f3d5aaa69791369a9f6bec9b6a6c",
+          "decision": "approve",
+          "why": "OR2.07/8.16, 300환자571대조·편평세포암, 대기<2분대≥4분OR5.41과CI를원문에서확인했습니다. OR가확률배수가아님을독자본문에밝히고2~3분기다리면안전하다는임의시간기준을삭제했습니다. 초록/본문CI소수점자릿수차이는16.9/16.91·11.1/11.14의반올림정밀도차이로,서로다른추정치충돌로과장하지않습니다.65℃초과2A·커피자체분류불가를IARC공식PDF에대조했습니다.",
+          "semantic_decision": "approve",
+          "editorial_decision": "approve",
+          "evidence_ids": [
+            "hot-tea2009",
+            "iarc-hot2016"
+          ],
+          "approval_scope": "정확SHA의개별수정안범위.기존가격/정책/식사시각등미확인부분검증으로확장하지않음.정식KR-FIT·전체절출판승인아님.",
+          "doi_addition_review": null
+        },
+        {
+          "number": 31,
+          "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-031-7734/publication-entry-proposal.md",
+          "proposal_sha256": "22aa1a574c1bd5718a803ceec52ba9985e6dda8e4baa202f021aa1c53b6e3ab7",
+          "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-031-7734/publication-entry-changes.json",
+          "changes_sha256": "6f93322ad013cdee80a863e767f17bfa34075a1eb6155757f1616c8e5a93cc75",
+          "decision": "approve",
+          "why": "스웨덴여성29,518명·초기25~64세·20년·기대수명차0.6~2.1년은원초록에일치합니다. 하루십수분충분이라는미지원용량을삭제하고한국/계절/피부별보장량을확정하지않으며햇빛이흡연해를상쇄한다는오독을직접차단했습니다. 피부보호조건을보존했습니다. 전체원문노출분류는미열람이므로그범위까지검증승인하지않습니다.",
+          "semantic_decision": "approve",
+          "editorial_decision": "approve",
+          "evidence_ids": [
+            "sun2016"
+          ],
+          "approval_scope": "정확SHA의개별수정안범위.기존가격/정책/식사시각등미확인부분검증으로확장하지않음.정식KR-FIT·전체절출판승인아님.",
+          "doi_addition_review": null
+        },
+        {
+          "number": 32,
+          "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-032-d167/publication-entry-proposal.md",
+          "proposal_sha256": "d3f3cc50ea0982a6f273ee780efc8fdb4949f1f4e0a946712423dfb060f0c603",
+          "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-032-d167/publication-entry-changes.json",
+          "changes_sha256": "9b0b6ac6bb3f1af05cda89608e88272f1f308329c8779c5df316117e4ce4ec92",
+          "decision": "approve",
+          "why": "BMI239코호트의기준22.5~<25·선정세조건·각HR및동아시아5kg/m²당1.39를원문에대조했습니다. RCT부재단정대신Ma2017총54시험30,206명·사망분석34시험685사망RR.82(.71~.95)를비만성인식이±운동범위로추가했습니다. HR/RR·절대확률·BMI관찰차이와감량개입을구분했고정상체중감량/한국진단기준으로확대하지않습니다. 쉽게의마지막‘관찰된차이’는BMI관찰비교를가리킨다는본문맥락으로읽습니다.",
+          "semantic_decision": "approve",
+          "editorial_decision": "approve",
+          "evidence_ids": [
+            "bmi2016",
+            "weight-rct2017",
+            "flegal2013"
+          ],
+          "approval_scope": "정확SHA의개별수정안범위.기존가격/정책/식사시각등미확인부분검증으로확장하지않음.정식KR-FIT·전체절출판승인아님.",
+          "doi_addition_review": {
+            "approved": true,
+            "doi": "10.1136/bmj.j4849",
+            "reason": "비만성인감량시험근거추가.ROOT의별도intro DOIannotation 필요."
+          }
+        },
+        {
+          "number": 33,
+          "proposal_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-033-866b/publication-entry-proposal.md",
+          "proposal_sha256": "6799fbfcca880e64de4cf9414c3067274a608e304d8a95f41453881a8a72d32a",
+          "changes_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-033-866b/publication-entry-changes.json",
+          "changes_sha256": "9fbb018481925853128a46de0ca8157e21b05789c15fdde006822d604170188c",
+          "decision": "revise",
+          "why": "22,811명·중앙8.2년1,236사망·>4/week대없음/드묾·HR.77/.66및CI는원초록에일치합니다. ≥4를>4로고친내용과인과한계는적합합니다. 다만제목‘관찰결과를살펴보세요’는독자에게논문검토를시키는메타제목입니다. 고추주제를유지한명사형등간결한독자용제목으로바꾸세요. 미확인섭취처방을되살리지는마세요.",
+          "semantic_decision": "approve",
+          "editorial_decision": "revise",
+          "evidence_ids": [
+            "chili2019"
+          ],
+          "approval_scope": "정확SHA의개별수정안범위.기존가격/정책/식사시각등미확인부분검증으로확장하지않음.정식KR-FIT·전체절출판승인아님.",
+          "doi_addition_review": null
+        }
+      ],
+      "sources": [
+        {
+          "id": "coffee-oldxml",
+          "raw_path": "/tmp/ch02-audit/full-PMC5696634.body",
+          "raw_sha256": "87d53f28f923f2d7391b8e3f4f135a3ee9798251019c251b771a33f0b9b786bb",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5696634/fullTextXML",
+          "quote": "0.83, 95% confidence interval 0.83 to 0.88",
+          "kind": "previous_direct_primary_xml_reopened",
+          "scope": "기존자체직접수집XML재열람,정확초기HTTP시각미기록.지금새HTTP아님.",
+          "read_at_utc": "2026-10-18T13:55:57.965373+00:00",
+          "fetched_at": null
+        },
+        {
+          "name": "coffee-correction",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5765813/fullTextXML",
+          "raw_path": "/tmp/ch02-audit/coffee-correction.body",
+          "status": 200,
+          "started_utc": "2026-10-18T13:53:26.517336+00:00",
+          "completed_utc": "2026-10-18T13:53:34.975485+00:00",
+          "raw_sha256": "b1549670ff3c732920727c8a2a3f245f76c21e47281d543498826d8c3fccc729",
+          "read_at_utc": "2026-10-18T13:55:57.965373+00:00",
+          "kind": "new_https_primary_fetch",
+          "id": "coffee-correction2018",
+          "quote": "the relative risk should read 0.83 (95% confidence interval 0.79 to 0.88) rather than the current 0.83 (0.83 to 0.88).",
+          "scope": "BMJ2018정정공지직접본문열람.초록/사망본문에반복된CI오기수정임을명시.기존의0.79~0.88은정정공지로확인됐고미해결이라고하지않음.",
+          "raw_utf8": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><article xml:lang=\"en\" article-type=\"correction\"><front><journal-meta><journal-id journal-id-type=\"pmc-domain-id\">3</journal-id><journal-id journal-id-type=\"pmc-domain\">bmj</journal-id><journal-title-group><journal-title>The BMJ</journal-title><abbrev-journal-title>BMJ</abbrev-journal-title></journal-title-group><publisher><publisher-name>BMJ Publishing Group</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type=\"pmcid\">PMC5765813</article-id><article-id pub-id-type=\"pmcaid\">5765813</article-id><article-id pub-id-type=\"pmcaiid\">5765813</article-id><article-id pub-id-type=\"pmid\">29330262</article-id><article-id pub-id-type=\"doi\">10.1136/bmj.k194</article-id><title-group><article-title>Coffee consumption and health: umbrella review of meta-analyses of multiple health outcomes</article-title></title-group><pub-date><day>12</day><month>1</month><year>2018</year></pub-date><volume>360</volume><fpage>k194</fpage><page-range>k194</page-range><pub-history><event event-type=\"pmc-release\"><date><day>12</day><month>2</month><year>2018</year></date></event></pub-history><permissions><copyright-statement>Published by the BMJ Publishing Group Limited. For permission to use (where not already granted under a licence) please go to <ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"http://group.bmj.com/group/rights-licensing/permissions\" ext-link-type=\"uri\">http://group.bmj.com/group/rights-licensing/permissions</ext-link></copyright-statement><license><license-p>This is an Open Access article distributed in accordance with the Creative Commons Attribution Non Commercial (CC BY-NC 4.0) license, which permits others to distribute, remix, adapt, build upon this work non-commercially, and license their derivative works on different terms, provided the original work is properly cited and the use is non-commercial. See: <ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"http://creativecommons.org/licenses/by-nc/4.0/\" ext-link-type=\"uri\">http://creativecommons.org/licenses/by-nc/4.0/</ext-link>.</license-p></license></permissions><self-uri xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"bmj.k194.pdf\" content-type=\"pmc-pdf\"><?cloudpmc-path 19d9/5765813/94e29668d7ab/bmj.k194.pdf?><?cloudpmc-bucket app?><?size 730724?></self-uri><related-article related-article-type=\"corrected-article\">This corrects the article \"<ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"pmcid\" xlink:href=\"PMC5696634\">Coffee consumption and health: umbrella review of meta-analyses of multiple health outcomes</ext-link>\" in  volume 359, j5024.</related-article><custom-meta-group><custom-meta><meta-name>status</meta-name><meta-value>released</meta-value></custom-meta><custom-meta><meta-name>display-pdf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-journal-matter</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-scanned</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-retracted</meta-name><meta-value>no</meta-value></custom-meta></custom-meta-group></article-meta><notes notes-type=\"article-notes\"><sec id=\"historyarticle-meta1\" sec-type=\"history\" disp-level=\"2\"><p>Collection date 2018.</p></sec></notes></front><body><p>Coffee consumption and health: umbrella review of meta-analyses of multiple health outcomes In this paper by Poole and colleagues (BMJ 2017;359:j5024, doi:<ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"pmcid\" xlink:href=\"PMC5696634\">10.1136/bmj.j5024</ext-link>) an error spotted in a confidence interval led the authors to re-check their data. In doing so, they spotted a few other numerical errors. These do not affect their findings. In the estimate for all cause mortality in the abstract, the relative risk should read 0.83 (95% confidence interval 0.79 to 0.88) rather than the current 0.83 (0.83 to 0.88). This error is repeated in the results section in the main text in the paragraph headed All cause mortality. In the same paragraph, the benefit at three decaffeinated cups a day should read (0.89, 0.85 to 0.93) rather than (0.83. 0.85 to 0.89).</p><p>In figure 3, for any versus no coffee consumption, the estimate for liver cirrhosis is from the original paper (three cohorts and four case-control) rather than the reanalysis that the authors conducted on the cohort studies. The reanalysed estimate should be 0.89 (0.73 to 1.08), rather than 0.61 (0.45 to 0.84) as shown. This would take it out of the top 10 most beneficial associations. This also applies to the estimate cited in the main text results section under the subheading Liver and gastrointestinal outcomes. In figure 4, for one extra cup a day, the estimate for cirrhosis has been converted by taking the cube root (for a three extra cups/day estimate) rather than the square root (for a two extra cup/day estimate). Consequently, it should read 0.77 (0.64 to 0.87) rather than 0.83 (0.78 to 0.88). This would not change its ranked position. In the results for Cardiovascular disease, mortality from stroke at three cups a day should read (0.70, 0.57 to 0.86) rather than (0.70, 0.80 to 0.90).</p><p>In the third paragraph of results for Cancer, the estimates for lung cancer for high versus low consumption are from the original paper rather than the authors’ re-analysis. This should read odds ratio (1.56, 95% confidence interval 1.12 to 2.17), rather than (1.59, 95% confidence interval 1.26 to 2.00). In the fourth paragraph of the Discussion, the figure for risk of fracture in women associated with one extra cup a day should read 5% rather than 0.6%. Also in the Strengths and weakness section of the discussion, for the 7% lower risk of all cause mortality in women the hazard ratio should read (0.93, 0.87 to 0.98) rather than (0.93, 0.82 to 0.95).</p><p>These changes also affected the web supplements and revised appendices 1 and 2 have been uploaded on bmj.com.</p></body></article>",
+          "raw_embedding_note": "이JSON문자열을UTF8로인코딩하면raw_sha256과일치.허용된두감사파일안에영구원문바이트를보존."
+        },
+        {
+          "name": "coffee-publisher",
+          "url": "https://www.bmj.com/content/359/bmj.j5024",
+          "raw_path": "/tmp/ch02-audit/coffee-publisher.body",
+          "status": 200,
+          "started_utc": "2026-10-18T13:53:26.517962+00:00",
+          "completed_utc": "2026-10-18T13:53:28.947356+00:00",
+          "raw_sha256": "bc95bbe38cb0224166731c2506b64e7e71151bc140fdddcc4d4e737a04e8daa7",
+          "read_at_utc": "2026-10-18T13:55:57.965373+00:00",
+          "kind": "new_https_primary_fetch",
+          "id": "coffee-currentpublisher",
+          "quote": "현재응답에는 all cause mortality (relative risk 0.83, 95% confidence interval 0.83 to 0.88)가남아있음.",
+          "scope": "현재출판사본문에서도옛오기보존을확인했지만명시정정공지의.79~.88해결을우선한다.이것을미해결영구모순으로쓰지않음."
+        },
+        {
+          "name": "coffee-underlying",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1007/s10654-016-0202-2&format=json&resultType=core",
+          "raw_path": "/tmp/ch02-audit/coffee-underlying.body",
+          "status": 200,
+          "started_utc": "2026-10-18T13:53:26.518895+00:00",
+          "completed_utc": "2026-10-18T13:53:27.613321+00:00",
+          "raw_sha256": "8f45ad3ffa98d049645f99b3fe6c561a91ae418a640253f14443ba9a64e73307",
+          "read_at_utc": "2026-10-18T13:55:57.965373+00:00",
+          "kind": "new_https_primary_fetch",
+          "id": "coffee-underlying-abstract",
+          "quote": "Coffee consumption has been associated with several benefits toward human health. However, its association with mortality risk has yielded contrasting results, including a non-linear relation to all-cause and cardiovascular disease (CVD) mortality and no association with cancer mortality. As smoking habits may affect the association between coffee and health outcomes, the aim of the present study was to update the latest dose-response meta-analysis of prospective cohort studies on the association between coffee consumption and mortality risk and conduct stratified analyses by smoking status and other potential confounders. A systematic search was conducted in electronic databases to identify relevant studies, risk estimates were retrieved from the studies, and dose-response analysis was modeled by using restricted cubic splines. A total of 31 studies comprising 1610,543 individuals and 183,991 cases of all-cause, 34,574 of CVD, and 40,991 of cancer deaths were selected. Analysis showed decreased all-cause [relative risk (RR) = 0.86, 95 % confidence interval (CI) = 0.82, 0.89)] and CVD mortality risk (RR = 0.85, 95 % CI = 0.77, 0.93) for consumption of up to 4 cups/day of coffee, while higher intakes were associated with no further lower risk. When analyses were restricted only to non-smokers, a linear decreased risk of all-cause (RR = 0.94, 95 % CI = 0.93, 0.96), CVD (RR = 0.94, 95 % CI = 0.91, 0.97), and cancer mortality (RR = 0.98, 95 % CI = 0.96, 1.00) for 1 cup/day increase was found. The search for other potential confounders, including dose-response analyses in subgroups by gender, geographical area, year of publication, and type of coffee, showed no relevant differences between strata. In conclusion, coffee consumption is associated with decreased risk of mortality from all-cause, CVD, and cancer; however, smoking modifies the observed risk when studying the role of coffee on human health.",
+          "scope": "Grosso2016하위메타분석원초록조회.전체논문/그래프CI를검증한것아님.이하위초록만으로.83CI를역산하지않음."
+        },
+        {
+          "id": "hot-tea2009",
+          "raw_path": "/tmp/ch02-audit/full-PMC3269898.body",
+          "raw_sha256": "aca4f244d445ed112346140b32b32038385868e90242bdfffd68793f2363fb9a",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3269898/fullTextXML",
+          "quote": "less than two minutes after pouring (5.41, 2.63 to 11.1)",
+          "kind": "previous_direct_primary_xml_reopened",
+          "scope": "기존자체직접수집XML재열람,정확초기HTTP시각미기록.지금새HTTP아님.",
+          "read_at_utc": "2026-10-18T13:55:57.965373+00:00",
+          "fetched_at": null
+        },
+        {
+          "id": "iarc-hot2016",
+          "raw_path": "/tmp/ch02-audit/iarc-hot.body",
+          "raw_sha256": "089c2b65dc67e9fd58e4ba67294e4f31a35ca02fc1fa0c25a4292e4811df6d16",
+          "url": "https://www.iarc.who.int/wp-content/uploads/2018/07/pr244_E.pdf",
+          "quote": "Drinking very hot beverages was classified as probably carcinogenic to humans (Group 2A). “Very hot” refers to any beverages consumed at a temperature above 65 °C.",
+          "kind": "previous_direct_official_pdf_reopened",
+          "scope": "이전직접수집PDF와pdftotext두페이지/각주재열람.정확초기HTTP시각미기록.새HTTP아님.",
+          "read_at_utc": "2026-10-18T13:55:57.965373+00:00",
+          "fetched_at": null
+        },
+        {
+          "id": "sun2016",
+          "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/e68a6464b290a05b21d2.json",
+          "raw_sha256": "8f4dac63a0d2b73eda218ba53290f66ca2802cc62414cebbc022ccfd629a21dd",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1111%2Fjoim.12496%22&format=json&resultType=core&pageSize=10",
+          "quote": "Compared to the highest sun exposure group, life expectancy of avoiders of sun exposure was reduced by 0.6-2.1 years.",
+          "kind": "provided_primary_abstract_cache_reopened",
+          "scope": "원초록의해당대상/결과를직접읽음.전체원문/부록열람으로세지않음.",
+          "read_at_utc": "2026-10-18T13:55:57.965373+00:00",
+          "fetched_at": "2026-10-18T20:50:05.832308+09:00"
+        },
+        {
+          "id": "bmi2016",
+          "raw_path": "/tmp/ch02-audit/full-PMC4995441.body",
+          "raw_sha256": "e63f5232c5728c87368ac6a01da315ee3ff5e64bd5bf170618f2d5c3f9bd8b39",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4995441/fullTextXML",
+          "quote": "relative to BMI 22·5–<25·0 kg/m",
+          "kind": "previous_direct_primary_xml_reopened",
+          "scope": "기존자체직접수집XML재열람,정확초기HTTP시각미기록.지금새HTTP아님.",
+          "read_at_utc": "2026-10-18T13:55:57.965373+00:00",
+          "fetched_at": null
+        },
+        {
+          "id": "weight-rct2017",
+          "raw_path": "/tmp/ch02-audit/weight-full.body",
+          "raw_sha256": "aa4d7da30b16493cf74d5e8b1d6955d33ab63c468ddaa5ad43ce271dd8974b78",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5682593/fullTextXML",
+          "quote": "54 RCTs with 30206 participants; all cause mortality (34 trials, 685 events; risk ratio 0.82, 95% confidence interval 0.71 to 0.95)",
+          "kind": "previous_direct_primary_xml_reopened",
+          "scope": "초기추가직접수집응답의요약·선정방법·결과재열람.비만성인식이감량±운동,1년이상이며정상체중에일반화하지않음.",
+          "read_at_utc": "2026-10-18T13:55:57.965373+00:00",
+          "fetched_at": null
+        },
+        {
+          "id": "flegal2013",
+          "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/790629f89037aa491844.json",
+          "raw_sha256": "65bcdb6b29475d18052ab5dea9a1f1ee381a29c20338a7f477d71e5641e54ec1",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1001%2Fjama.2012.113905%22&format=json&resultType=core&pageSize=10",
+          "quote": "0.94",
+          "kind": "provided_primary_abstract_cache_reopened",
+          "scope": "원초록의해당대상/결과를직접읽음.전체원문/부록열람으로세지않음.",
+          "read_at_utc": "2026-10-18T13:55:57.965373+00:00",
+          "fetched_at": "2026-10-18T20:50:06.281088+09:00"
+        },
+        {
+          "id": "chili2019",
+          "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/edda638827db3ce65f50.json",
+          "raw_sha256": "a3a27d4290375b707c0c283f3057339a0f305f15cb1ca3dadc6289ca11483a35",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2Fj.jacc.2019.09.068%22&format=json&resultType=core&pageSize=10",
+          "quote": "regular (>4 times/week) relative to none/rare intake",
+          "kind": "provided_primary_abstract_cache_reopened",
+          "scope": "원초록의해당대상/결과를직접읽음.전체원문/부록열람으로세지않음.",
+          "read_at_utc": "2026-10-18T13:55:57.965373+00:00",
+          "fetched_at": "2026-10-18T20:50:06.349978+09:00"
+        }
+      ],
+      "formal_kr_fit": false,
+      "publication_ready": false
+    }
+  ]
 }

@@ -1,0 +1,49 @@
+{
+  "entry": "2-14",
+  "revision": "r2",
+  "status": "unadopted_pending_independent_exact_hash_review",
+  "base_proposal": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-014-2e30/publication-entry-proposal.md",
+  "base_proposal_sha256": "6ef4d5fedd933e7b078cf48f5bdc3f854515c8163fbcc5cdbfb142eed8c1b889",
+  "base_changes": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-014-2e30/publication-entry-changes.json",
+  "base_changes_sha256": "3c2fd9af37d9d19ca1b891a9fa5ad6555f8d67c036e99baca9e5d01d0776cdbf",
+  "proposal_sha256": "9585db5f13dc584f87b8f1d3a6095ea73bf86b8e94c2c742712ee2f0894bd069",
+  "changes": [
+    {
+      "field": "이득",
+      "before": "영국에서 80,306명을 추적한 연구 결과입니다. 조사 전 4주 동안 각 운동을 했는지 물었습니다. 각 운동을 하는 사람과 하지 않는 사람을 비교했습니다. 라켓 운동을 하는 사람의 사망 위험은 약 47% 낮게 나타났습니다. 위험비는 0.53입니다. 추적 중 사망 위험을 비교한 값입니다. 95% 신뢰구간은 0.40–0.69입니다. 추정치의 불확실성을 나타내는 범위입니다. 심혈관 사망은 약 56% 낮게 나타났습니다(0.44, 0.24–0.83). 라켓 운동에는 테니스, 배드민턴, 스쿼시가 포함됩니다. 수영은 두 값이 각각 0.72와 0.59입니다. 에어로빅은 각각 0.73과 0.64입니다. 자전거는 사망 위험비가 0.85로 나타났습니다. 달리기와 축구는 통계적 차이가 보이지 않았습니다.",
+      "after": "영국에서 80,306명을 추적한 연구 결과입니다. 조사 전 4주 동안 각 운동을 했는지 물었습니다. 각 운동을 하는 사람과 하지 않는 사람을 비교했습니다. 라켓 운동을 하는 사람의 사망 위험은 약 47% 낮게 나타났습니다. 위험비는 0.53입니다. 추적 중 사망 위험을 비교한 값입니다. 95% 신뢰구간은 0.40–0.69입니다. 추정치의 불확실성을 나타내는 범위입니다. 심혈관 사망은 약 56% 낮게 나타났습니다(0.44, 0.24–0.83). 원문 초록의 심혈관 사망 감소는 56%지만 논의에는 59%로 적혀 있습니다. 두 수치가 일치하지 않아 해석에 주의가 필요합니다. 라켓 운동에는 테니스, 배드민턴, 스쿼시가 포함됩니다. 수영은 두 값이 각각 0.72와 0.59입니다. 에어로빅은 각각 0.73과 0.64입니다. 자전거는 사망 위험비가 0.85로 나타났습니다. 달리기와 축구는 통계적 차이가 보이지 않았습니다.",
+      "reason": "초록 HR0.44가 뜻하는 56%와 논의 59%의 원출처 수치 불일치를 독자 본문에 고지. 기존56%·위험비·신뢰구간 및 모든 다른 조건 유지."
+    }
+  ],
+  "verification": {
+    "read_at_utc": "2026-10-18T13:48:51.387932+00:00",
+    "method": "Re-read preserved publisher primary full-text RAW, abstract Results and Discussion passages. No new network retrieval.",
+    "url": "https://bjsm.bmj.com/content/51/10/812",
+    "raw_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-014-2e30/source-evidence/primary.txt",
+    "raw_sha256": "d2488d9131b89ebc55d5534ff7ea685d7b23d023ba4534cb0ebda8dc9f36100d",
+    "html_path": "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-014-2e30/source-evidence/primary.html",
+    "html_sha256": "b4b95fdc8edef5136dd70cf6df22a9b15095ae001294088e9329d58520cc63c8",
+    "exact_quotes": [
+      "racquet sports (HR=0.44, 95% CI 0.24 to 0.83)",
+      "Participation in racquet sports (including badminton, tennis and squash) showed significant risk reduction of 47% in all-cause mortality and 59% reduction in CVD mortality."
+    ],
+    "retrieval_provenance": "See frozen publication-entry-changes.json source_verification for original URL/HTTP200/retrieved_utc."
+  },
+  "sentence_lengths": [
+    {
+      "text": "원문 초록의 심혈관 사망 감소는 56%지만 논의에는 59%로 적혀 있습니다.",
+      "length": 42
+    },
+    {
+      "text": "두 수치가 일치하지 않아 해석에 주의가 필요합니다.",
+      "length": 28
+    }
+  ],
+  "intentional_numerical_changes": "None to prior estimates; source Discussion 59% added solely as explicit disagreement notice.",
+  "doi_changes": "None",
+  "unchanged": "Title, tag, 쉽게, other five fields, all frozen originals and source-evidence unchanged.",
+  "limitations": [
+    "Primary source discrepancy between abstract HR0.44 and Discussion59% remains unresolved; no arbitrary correction selected.",
+    "Prior source and price limitations in base changes remain applicable."
+  ]
+}

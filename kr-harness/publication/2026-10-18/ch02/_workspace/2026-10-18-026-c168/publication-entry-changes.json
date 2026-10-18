@@ -1,0 +1,233 @@
+{
+  "entry": 26,
+  "status": "unadopted_proposal",
+  "base": "strict-entry.md",
+  "base_sha256": "20530360eeb046e2a85b4be24bc3d6292503aff50a880f621ba499db0804ce86",
+  "changes": [
+    {
+      "field": "title",
+      "before": "하루 3~4잔 커피를 드세요. 설탕과 크림은 넣지 마세요",
+      "after": "하루 3~4잔 커피는 관찰 결과입니다. 설탕·크림의 근거는 별개입니다.",
+      "reason": "잔 크기·함량 불일정인 관찰 결과를 일률 처방으로 제시하지 않음. 설탕·크림 앵커 보존."
+    },
+    {
+      "field": "쉽게",
+      "before": "하루 3~4잔 마시는 사람은 사망 확률이 약 17% 낮습니다. 같은 기간 커피를 안 마시는 사람과 비교한 수치입니다.",
+      "after": "하루 3~4잔 마시는 사람은 안 마시는 사람보다 사망이 약 17% 적었습니다. 커피 덕분인지는 알 수 없습니다. 건강을 위해 이 양까지 늘릴 근거는 아닙니다.",
+      "reason": "관찰 비교와 인과 미확정 명시. 개인 확률 단정 제거."
+    },
+    {
+      "field": "이득",
+      "before": "메타분석 201개를 종합한 우산 리뷰입니다. 원 연구에서는 사람을 무작위로 나누지 않고 관찰했습니다. 하루 3~4잔 마시는 사람은 안 마시는 사람보다 사망 위험이 17% 낮습니다. 상대위험은 0.83입니다. 95% CI는 0.79–0.88(신뢰구간)입니다.",
+      "after": "관찰 연구를 종합한 메타분석 201개를 검토했습니다. 메타분석은 여러 연구 결과를 합치는 방법입니다. 무작위 대조 시험의 메타분석 17개도 포함됐습니다. 사망에 관한 결과는 사람을 무작위로 나누지 않은 관찰입니다. 하루 3~4잔과 안 마시는 사람을 비교했습니다. 모든 원인의 사망에 대한 상대위험은 0.83입니다. 이는 비교 집단보다 17% 낮은 관찰상의 비율입니다. 개인의 사망 확률이나 수명 연장을 뜻하지 않습니다. 기존 인용의 95% 신뢰구간은 0.79–0.88입니다. 논문 초록과 본문에는 0.83–0.88로 적혀 있습니다. 이 수치 차이는 확인이 더 필요합니다. 잔의 크기와 카페인 함량은 연구마다 달랐습니다.",
+      "reason": "관찰201개·중재17개 구분, 상대비율 설명, 원문 CI 불일치 공개, 잔 크기·함량 한계 명시."
+    },
+    {
+      "field": "비고",
+      "before": "논쟁 있음. 저자도 근거가 거의 전부 관찰 연구에서 나왔다고 적었습니다. \"인과를 판정하려면 믿을 수 있는 무작위 대조 시험이 필요하다\"고 썼습니다. 연구자가 사람을 무작위로 나눠 비교해야 인과를 판정할 수 있다는 뜻입니다. 관찰 기록만으로는 인과를 판정할 수 없습니다. 커피는 블랙으로 드세요. 설탕과 크림을 넣으면 이득이 상쇄됩니다. 임산부나 부정맥·불안·불면이 있는 사람은 이 권고를 따르지 마세요.",
+      "after": "논쟁 있음. 저자도 근거가 거의 전부 관찰 연구에서 나왔다고 적었습니다. \"인과를 판정하려면 믿을 수 있는 무작위 대조 시험이 필요하다\"고 썼습니다. 연구자가 사람을 무작위로 나눠 비교해야 인과를 판정할 수 있다는 뜻입니다. 관찰 기록만으로는 인과를 판정할 수 없습니다. 커피는 블랙으로 드세요. 다만 블랙 권고는 이 리뷰의 직접 비교 결과가 아닙니다. 설탕·크림이 이득을 완전히 상쇄하는지는 알 수 없습니다. 임산부나 부정맥·불안·불면이 있는 사람은 이 권고를 따르지 마세요. 골절 위험이 높은 여성도 주의가 필요합니다.",
+      "reason": "설탕·크림 효과 완전상쇄 주장 철회. 블랙 권고와 검증결과 구분. 기존 예외 유지하고 원문 골절 위험 주의 추가."
+    }
+  ],
+  "verification": {
+    "date_utc": "2026-10-18",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5696634/fullTextXML",
+    "doi": "10.1136/bmj.j5024",
+    "method": "HTTPS urllib live retrieval; full-text XML relevant abstract/results/methods/limitations/conclusions independently read; earlier audit cache cross-check",
+    "raw_path": "/tmp/ch02e26-primary.xml",
+    "raw_sha256": "87d53f28f923f2d7391b8e3f4f135a3ee9798251019c251b771a33f0b9b786bb",
+    "previous_raw": "/tmp/ch02-audit/full-PMC5696634.body",
+    "exact_primary_quotations": [
+      "\nResults The umbrella review identified 201 meta-analyses of observational research with 67 unique health outcomes and 17 meta-analyses of interventional research with nine unique outcomes. Coffee consumption was more often associated with benefit than harm for a range of health outcomes across exposures including high versus low, any versus none, and one extra cup a day. There was evidence of a non-linear association between consumption and some outcomes, with summary estimates indicating largest relative risk reduction at intakes of three to four cups a day versus none, including all cause mortality (relative risk 0.83, 95% confidence interval 0.83 to 0.88), cardiovascular mortality (0.81, 0.72 to 0.90), and cardiovascular disease (0.85, 0.80 to 0.90). High versus low consumption was associated with an 18% lower risk of incident cancer (0.82, 0.74 to 0.89). Consumption was also associated with a lower risk of several specific cancers and neurological, metabolic, and liver conditions. Harmful associations were largely nullified by adequate adjustment for smoking, except in pregnancy, where high versus low/no consumption was associated with low birth weight (odds ratio 1.31, 95% confidence interval 1.03 to 1.67), preterm birth in the first (1.22, 1.00 to 1.49) and second (1.12, 1.02 to 1.22) trimester, and pregnancy loss (1.46, 1.06 to 1.99). There was also an association between coffee drinking and risk of fracture in women but not in men.",
+      "\nConclusion Coffee consumption seems generally safe within usual levels of intake, with summary estimates indicating largest risk reduction for various health outcomes at three to four cups a day, and more likely to benefit health than harm. Robust randomised controlled trials are needed to understand whether the observed associations are causal. Importantly, outside of pregnancy, existing evidence suggests that coffee could be tested as an intervention without significant risk of causing harm. Women at increased risk of fracture should possibly be excluded.",
+      "Most meta-analyses produced summary effects from individual studies that measured coffee exposure by number of cups a day. Some individual studies, however, used number of times a day, servings a day, millilitres a day, cups a week, times a week, cups a month, and drinkers versus non-drinkers to measure coffee consumption. There is no universally recognised standard coffee cup size, and the bioactive components of coffee in a single cup will vary depending on the type of bean (such as Arabica or Robusta), degree of roasting, and method of preparation, including the quantity of bean, grind setting, and brew type used. Therefore, studies that are comparing coffee consumption by cup measures could be comparing ranges of exposures. The range of number of cups a day classified as both high and low consumption from different individual studies varied substantially for inclusion in each meta-analysis. High versus low consumption was the most commonly used measure of exposure. Consistent results across meta-analyses and categories of exposure, however, suggest that measurement of cups a day produces a reasonable differential in exposure. Additionally, any misclassification in exposure is likely to be non-differential and would more likely dilute any risk estimate rather than strengthen it, pushing it towards the null.",
+      "Coffee consumption has been investigated for associations with a diverse range of health outcomes. This umbrella review has systematically assimilated this vast amount of existing evidence where it has been published in a meta-analysis. Most of this evidence comes from observational research that provides only low or very low quality evidence. Beneficial associations between coffee consumption and liver outcomes (fibrosis, cirrhosis, chronic liver disease, and liver cancer) have relatively large and consistent effect sizes compared with other outcomes. Consumption is also beneficially associated with a range of other health outcomes and importantly does not seem to have definitive harmful associations with any outcomes outside of pregnancy. The association between consumption and risk of fracture in women remains uncertain but warrants further investigation. Residual confounding could explain some of the observed associations, and Mendelian randomisation studies could be applied to a range of outcomes, including risk of fracture, to help examine this issue. Randomised controlled trials that change long term behaviour, and with valid proxies of outcomes important to patients, could offer more definitive conclusions and could be especially useful in relation to coffee consumption and chronic liver disease. Reassuringly, our analysis indicates that future randomised controlled trials in which the intervention is increasing coffee consumption, within usual levels of intake, possibly optimised at three to four cups a day, would be unlikely to result in significant harm to participants. Pregnancy, or risk of pregnancy, and women with higher a risk of fracture, however, would be justified exclusion criteria for participation in a coffee treatment study."
+    ],
+    "precise_locations": [
+      "Abstract Results: CI 0.83 to 0.88",
+      "Results > All cause mortality: three cups/day, RR0.83 (0.83 to 0.88)",
+      "Discussion > strengths/limitations: no universally recognised standard cup size",
+      "Conclusions: observational evidence and pregnancy/fracture exclusions"
+    ],
+    "located_quotations": [
+      {
+        "section": "Results > All cause mortality",
+        "exact_quote": "All cause mortalityIn the most recent meta-analysis, by Grosso and colleagues, the highest exposure category (seven cups a day) of a non-linear dose-response analysis was associated with a 10% lower risk of all cause mortality (relative risk 0.90, 95% confidence interval 0.85 to 0.96),28 but summary estimates indicated that the largest reduction in relative risk was associated with the consumption of three cups a day (0.83, 0.83 to 0.88) compared with no consumption. Stratification by sex produced similar results. In a separate article, and despite a significant test for non-linearity (P<0.001), authors performed a linear dose-response analysis and found consumption of one extra cup a day was associated with a 4% lower risk of all cause mortality (0.96, 0.94 to 0.97).27 The apparently beneficial association between coffee and all cause mortality was consistent across all earlier meta-analyses. High versus low intake of decaffeinated coffee was also associated with lower all cause mortality, with summary estimates indicating largest benefit at three cups a day (0.83, 0.85 to 0.89)28 in a non-linear dose-response analysis."
+      }
+    ]
+  },
+  "intentional_numerical_scope_changes": [
+    "201개가 전체 리뷰 수인 것처럼 읽히는 표현을 관찰201·중재17로 구분",
+    "RR0.83·17% 유지; 누적 개인 사망확률로 해석하지 않음",
+    "원래 CI0.79–0.88와 실제 원문0.83–0.88를 모두 공개; 어느 값을 임의 확정하지 않음",
+    "설탕·크림 완전상쇄 단정을 미확정으로 수정"
+  ],
+  "doi_changes": {
+    "added": [],
+    "removed": [],
+    "reason": "동일 원문 인용 유지"
+  },
+  "limitations": [
+    "CI 하한 불일치의 정오표·하위 메타분석 수치까지 검증하지 못함",
+    "설탕·크림 첨가 직접비교·완전상쇄는 이 리뷰에서 검증되지 않음; 블랙 권고 자체를 이 리뷰의 효과로 제시하지 않음",
+    "국내 비용 및 기존 부정맥·불안·불면 예외의 별도 지침은 재검증하지 않았고 보존",
+    "관찰 연구들의 추적기간·분모가 달라 개인 절대확률을 산출하지 않음",
+    "원문 PDF·그림의 CI를 추가 대조하지 못했으며 원문 XML의 초록·사망 본문 표기를 그대로 공개함"
+  ],
+  "sentence_lengths": {
+    "title": [
+      {
+        "text": "하루 3~4잔 커피는 관찰 결과입니다.",
+        "len": 21,
+        "unchanged": false
+      },
+      {
+        "text": "설탕·크림의 근거는 별개입니다.",
+        "len": 17,
+        "unchanged": false
+      }
+    ],
+    "쉽게": [
+      {
+        "text": "하루 3~4잔 마시는 사람은 안 마시는 사람보다 사망이 약 17% 적었습니다.",
+        "len": 43,
+        "unchanged": false
+      },
+      {
+        "text": "커피 덕분인지는 알 수 없습니다.",
+        "len": 18,
+        "unchanged": false
+      },
+      {
+        "text": "건강을 위해 이 양까지 늘릴 근거는 아닙니다.",
+        "len": 25,
+        "unchanged": false
+      }
+    ],
+    "이득": [
+      {
+        "text": "관찰 연구를 종합한 메타분석 201개를 검토했습니다.",
+        "len": 29,
+        "unchanged": false
+      },
+      {
+        "text": "메타분석은 여러 연구 결과를 합치는 방법입니다.",
+        "len": 26,
+        "unchanged": false
+      },
+      {
+        "text": "무작위 대조 시험의 메타분석 17개도 포함됐습니다.",
+        "len": 28,
+        "unchanged": false
+      },
+      {
+        "text": "사망에 관한 결과는 사람을 무작위로 나누지 않은 관찰입니다.",
+        "len": 33,
+        "unchanged": false
+      },
+      {
+        "text": "하루 3~4잔과 안 마시는 사람을 비교했습니다.",
+        "len": 26,
+        "unchanged": false
+      },
+      {
+        "text": "모든 원인의 사망에 대한 상대위험은 0.83입니다.",
+        "len": 28,
+        "unchanged": false
+      },
+      {
+        "text": "이는 비교 집단보다 17% 낮은 관찰상의 비율입니다.",
+        "len": 29,
+        "unchanged": false
+      },
+      {
+        "text": "개인의 사망 확률이나 수명 연장을 뜻하지 않습니다.",
+        "len": 28,
+        "unchanged": false
+      },
+      {
+        "text": "기존 인용의 95% 신뢰구간은 0.79–0.88입니다.",
+        "len": 30,
+        "unchanged": false
+      },
+      {
+        "text": "논문 초록과 본문에는 0.83–0.88로 적혀 있습니다.",
+        "len": 31,
+        "unchanged": false
+      },
+      {
+        "text": "이 수치 차이는 확인이 더 필요합니다.",
+        "len": 21,
+        "unchanged": false
+      },
+      {
+        "text": "잔의 크기와 카페인 함량은 연구마다 달랐습니다.",
+        "len": 26,
+        "unchanged": false
+      }
+    ],
+    "비고": [
+      {
+        "text": "논쟁 있음.",
+        "len": 6,
+        "unchanged": true
+      },
+      {
+        "text": "저자도 근거가 거의 전부 관찰 연구에서 나왔다고 적었습니다.",
+        "len": 33,
+        "unchanged": true
+      },
+      {
+        "text": "\"인과를 판정하려면 믿을 수 있는 무작위 대조 시험이 필요하다\"고 썼습니다.",
+        "len": 42,
+        "unchanged": true
+      },
+      {
+        "text": "연구자가 사람을 무작위로 나눠 비교해야 인과를 판정할 수 있다는 뜻입니다.",
+        "len": 41,
+        "unchanged": true
+      },
+      {
+        "text": "관찰 기록만으로는 인과를 판정할 수 없습니다.",
+        "len": 25,
+        "unchanged": true
+      },
+      {
+        "text": "커피는 블랙으로 드세요.",
+        "len": 13,
+        "unchanged": true
+      },
+      {
+        "text": "다만 블랙 권고는 이 리뷰의 직접 비교 결과가 아닙니다.",
+        "len": 31,
+        "unchanged": false
+      },
+      {
+        "text": "설탕·크림이 이득을 완전히 상쇄하는지는 알 수 없습니다.",
+        "len": 31,
+        "unchanged": false
+      },
+      {
+        "text": "임산부나 부정맥·불안·불면이 있는 사람은 이 권고를 따르지 마세요.",
+        "len": 37,
+        "unchanged": true
+      },
+      {
+        "text": "골절 위험이 높은 여성도 주의가 필요합니다.",
+        "len": 24,
+        "unchanged": false
+      }
+    ]
+  },
+  "easy_len": 88,
+  "protected": {
+    "cost_tag_unchanged": true,
+    "evidence_grade_unchanged": true,
+    "source_unchanged": true
+  },
+  "resolved_requests": [
+    "ch02 content-audit entry26",
+    "editorial-decisions entry26"
+  ],
+  "review_required": "independent exact-hash review; not adopted"
+}

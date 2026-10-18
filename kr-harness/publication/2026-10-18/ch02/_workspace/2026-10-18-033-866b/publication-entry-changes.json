@@ -1,0 +1,226 @@
+{
+  "entry": 33,
+  "status": "unadopted_proposal",
+  "base": "strict-entry.md",
+  "base_sha256": "d922ba20275c0f8c1feb59516eb1335949d463aadf27e50adcfd694811c53188",
+  "reviews_addressed": [
+    "content-audit.md entry 2-33",
+    "editorial-decisions.json entry 33"
+  ],
+  "changes": [
+    {
+      "field": "title",
+      "before": "일주일에 네 번 이상 고추를 드세요",
+      "after": "고추를 주 4회 초과 먹은 사람의 관찰 결과를 살펴보세요",
+      "reason": "주4회 이상을 초과로 정정하고 관찰결과로 제한. 고추/주 빈도 앵커 유지.",
+      "evidence": [
+        {
+          "url": "https://doi.org/10.1016/j.jacc.2019.09.068",
+          "query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2Fj.jacc.2019.09.068%22&format=json&resultType=core&pageSize=10",
+          "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/edda638827db3ce65f50.json",
+          "raw_sha256": "a3a27d4290375b707c0c283f3057339a0f305f15cb1ca3dadc6289ca11483a35",
+          "verified_at_utc": "2026-10-18T13:50:55.403940+00:00",
+          "method": "제공된 EuropePMC 원초록 캐시를 직접 재열람; 신규 HTTP 아님",
+          "level": "primary abstract only",
+          "exact_quotes": [
+            "Longitudinal analysis was performed on 22,811 men and women enrolled in the Moli-sani Study cohort (2005 to 2010). Chili pepper intake was estimated by the EPIC (European Prospective Investigation Into Cancer) Food Frequency Questionnaire and categorized as none/rare consumption, up to 2 times/week, >2 to ≤4 times/week, and >4 times/week.",
+            "Over a median follow-up of 8.2 years, a total of 1,236 deaths were ascertained. Multivariable hazard ratios (HRs) for all-cause and cardiovascular disease (CVD) mortality among participants in the regular (>4 times/week) relative to none/rare intake were 0.77 (95% confidence interval [CI]: 0.66 to 0.90) and 0.66 (95% CI: 0.50 to 0.86), respectively. Regular intake was also inversely associated with ischemic heart disease (HR: 0.56; 95% CI: 0.35 to 0.87) and cerebrovascular (HR: 0.39; 95% CI: 0.20 to 0.75) death risks. The association of chili pepper consumption with total mortality appeared to be stronger in hypertension-free individuals (p for interaction = 0.021). Among known biomarkers of CVD, only serum vitamin D marginally accounted for such associations."
+          ],
+          "original_fetch_time": "2026-10-18T20:50:06.349978+09:00"
+        }
+      ]
+    },
+    {
+      "field": "쉽게",
+      "before": "일주일에 네 번 이상 고추를 먹는 사람과 거의 안 먹는 사람을 비교했습니다. 같은 기간 죽을 확률은 자주 먹는 쪽이 약 23% 낮습니다. 심혈관 사망은 3분의 1쯤 낮습니다.",
+      "after": "고추를 주 4회 초과 먹는 사람을 살펴봤습니다. 거의 먹지 않는 사람보다 사망이 적은 경향이 있었습니다. 고추가 수명을 늘린다고 입증한 결과는 아닙니다.",
+      "reason": "빈도 경계와 없음/드묾 비교 보존; HR을 누적 사망확률로 오해하는 문장 제거. 중심 방향 및 인과 한계만 일상말로 제시.",
+      "evidence": [
+        {
+          "url": "https://doi.org/10.1016/j.jacc.2019.09.068",
+          "query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2Fj.jacc.2019.09.068%22&format=json&resultType=core&pageSize=10",
+          "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/edda638827db3ce65f50.json",
+          "raw_sha256": "a3a27d4290375b707c0c283f3057339a0f305f15cb1ca3dadc6289ca11483a35",
+          "verified_at_utc": "2026-10-18T13:50:55.403940+00:00",
+          "method": "제공된 EuropePMC 원초록 캐시를 직접 재열람; 신규 HTTP 아님",
+          "level": "primary abstract only",
+          "exact_quotes": [
+            "Longitudinal analysis was performed on 22,811 men and women enrolled in the Moli-sani Study cohort (2005 to 2010). Chili pepper intake was estimated by the EPIC (European Prospective Investigation Into Cancer) Food Frequency Questionnaire and categorized as none/rare consumption, up to 2 times/week, >2 to ≤4 times/week, and >4 times/week.",
+            "Over a median follow-up of 8.2 years, a total of 1,236 deaths were ascertained. Multivariable hazard ratios (HRs) for all-cause and cardiovascular disease (CVD) mortality among participants in the regular (>4 times/week) relative to none/rare intake were 0.77 (95% confidence interval [CI]: 0.66 to 0.90) and 0.66 (95% CI: 0.50 to 0.86), respectively. Regular intake was also inversely associated with ischemic heart disease (HR: 0.56; 95% CI: 0.35 to 0.87) and cerebrovascular (HR: 0.39; 95% CI: 0.20 to 0.75) death risks. The association of chili pepper consumption with total mortality appeared to be stronger in hypertension-free individuals (p for interaction = 0.021). Among known biomarkers of CVD, only serum vitamin D marginally accounted for such associations."
+          ],
+          "original_fetch_time": "2026-10-18T20:50:06.349978+09:00"
+        }
+      ]
+    },
+    {
+      "field": "이득",
+      "before": "이탈리아에서 진행한 연구입니다. 연구진은 22,800명을 추적했습니다. 참여자 중 절반가량의 추적 기간은 8.2년 이상입니다. 추적 기간에 1,236명이 사망했습니다. 고추를 일주일에 4회 이상 먹는 사람과 거의 먹지 않는 사람을 비교했습니다. 사망 위험은 자주 먹는 쪽이 약 23% 낮습니다. 위험비는 0.77입니다. 95% CI는 0.66–0.90으로, 추정치의 불확실성을 나타냅니다. 심혈관 사망은 약 34% 낮습니다(0.66, 0.50–0.86).",
+      "after": "이탈리아에서 진행한 연구입니다. 연구진은 22,811명을 추적했습니다. 추적 기간의 중앙값은 8.2년입니다. 절반가량은 그 이상 추적했다는 뜻입니다. 추적 기간에 1,236명이 사망했습니다. 고추를 주 4회 초과 먹는 사람과 안 먹거나 드물게 먹는 사람을 비교했습니다. 추적 중 사망 발생 속도를 비교하는 지표가 위험비(HR)입니다. 전체 사망 위험비는 0.77로, 약 23% 낮았습니다. 95% 신뢰구간(CI)은 0.66–0.90입니다. 이 범위는 추정치의 불확실성을 나타냅니다. 심혈관 사망 위험비는 0.66으로, 약 34% 낮았습니다. 95% CI는 0.50–0.86입니다. 두 수치는 같은 기간 죽을 확률의 감소율이 아닙니다.",
+      "reason": "원초록의 22,811명으로 정밀화(기존 22,800은 반올림); 중앙값 8.2년 설명. >4회와 none/rare 경계, 전체/심혈관 사망 HR 및 CI 각각 유지. HR은 누적확률·OR·RR과 구별.",
+      "evidence": [
+        {
+          "url": "https://doi.org/10.1016/j.jacc.2019.09.068",
+          "query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2Fj.jacc.2019.09.068%22&format=json&resultType=core&pageSize=10",
+          "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/edda638827db3ce65f50.json",
+          "raw_sha256": "a3a27d4290375b707c0c283f3057339a0f305f15cb1ca3dadc6289ca11483a35",
+          "verified_at_utc": "2026-10-18T13:50:55.403940+00:00",
+          "method": "제공된 EuropePMC 원초록 캐시를 직접 재열람; 신규 HTTP 아님",
+          "level": "primary abstract only",
+          "exact_quotes": [
+            "Longitudinal analysis was performed on 22,811 men and women enrolled in the Moli-sani Study cohort (2005 to 2010). Chili pepper intake was estimated by the EPIC (European Prospective Investigation Into Cancer) Food Frequency Questionnaire and categorized as none/rare consumption, up to 2 times/week, >2 to ≤4 times/week, and >4 times/week.",
+            "Over a median follow-up of 8.2 years, a total of 1,236 deaths were ascertained. Multivariable hazard ratios (HRs) for all-cause and cardiovascular disease (CVD) mortality among participants in the regular (>4 times/week) relative to none/rare intake were 0.77 (95% confidence interval [CI]: 0.66 to 0.90) and 0.66 (95% CI: 0.50 to 0.86), respectively. Regular intake was also inversely associated with ischemic heart disease (HR: 0.56; 95% CI: 0.35 to 0.87) and cerebrovascular (HR: 0.39; 95% CI: 0.20 to 0.75) death risks. The association of chili pepper consumption with total mortality appeared to be stronger in hypertension-free individuals (p for interaction = 0.021). Among known biomarkers of CVD, only serum vitamin D marginally accounted for such associations."
+          ],
+          "original_fetch_time": "2026-10-18T20:50:06.349978+09:00"
+        }
+      ]
+    },
+    {
+      "field": "비고",
+      "before": "논쟁 있음. 지중해식 식단을 배경으로 한 추적 기록입니다. 고추를 먹는 사람은 식단도 그 지역 전통에 가까웠을 수 있습니다. 매운 음식은 위식도 역류, 치질, 과민성 장 증상을 악화합니다. 이런 질환이 있는 사람은 무리해서 먹지 마세요.",
+      "after": "논쟁 있음. 지중해식 식단을 배경으로 한 추적 기록입니다. 고추를 먹는 사람은 식단도 그 지역 전통에 가까웠을 수 있습니다. 매운 음식은 위식도 역류, 치질, 과민성 장 증상을 악화합니다. 이런 질환이 있는 사람은 무리해서 먹지 마세요. 관찰된 연관성이므로 고추 자체의 효과로 단정할 수 없습니다.",
+      "reason": "기존 논쟁 표시·지중해식 식단·위장관 질환 및 회피 권고 전부 유지; 관찰연관의 인과 한계 명시.",
+      "evidence": [
+        {
+          "url": "https://doi.org/10.1016/j.jacc.2019.09.068",
+          "query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2Fj.jacc.2019.09.068%22&format=json&resultType=core&pageSize=10",
+          "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/edda638827db3ce65f50.json",
+          "raw_sha256": "a3a27d4290375b707c0c283f3057339a0f305f15cb1ca3dadc6289ca11483a35",
+          "verified_at_utc": "2026-10-18T13:50:55.403940+00:00",
+          "method": "제공된 EuropePMC 원초록 캐시를 직접 재열람; 신규 HTTP 아님",
+          "level": "primary abstract only",
+          "exact_quotes": [
+            "Longitudinal analysis was performed on 22,811 men and women enrolled in the Moli-sani Study cohort (2005 to 2010). Chili pepper intake was estimated by the EPIC (European Prospective Investigation Into Cancer) Food Frequency Questionnaire and categorized as none/rare consumption, up to 2 times/week, >2 to ≤4 times/week, and >4 times/week.",
+            "Over a median follow-up of 8.2 years, a total of 1,236 deaths were ascertained. Multivariable hazard ratios (HRs) for all-cause and cardiovascular disease (CVD) mortality among participants in the regular (>4 times/week) relative to none/rare intake were 0.77 (95% confidence interval [CI]: 0.66 to 0.90) and 0.66 (95% CI: 0.50 to 0.86), respectively. Regular intake was also inversely associated with ischemic heart disease (HR: 0.56; 95% CI: 0.35 to 0.87) and cerebrovascular (HR: 0.39; 95% CI: 0.20 to 0.75) death risks. The association of chili pepper consumption with total mortality appeared to be stronger in hypertension-free individuals (p for interaction = 0.021). Among known biomarkers of CVD, only serum vitamin D marginally accounted for such associations."
+          ],
+          "original_fetch_time": "2026-10-18T20:50:06.349978+09:00"
+        }
+      ]
+    }
+  ],
+  "unchanged_fields": {
+    "비용": "돈도 시간도 안 듭니다.",
+    "근거등급": "B",
+    "출처": "Bonaccio M, Di Castelnuovo A, Costanzo S, et al. (2019). Chili Pepper Consumption and Mortality in Italian Adults. Journal of the American College of Cardiology, 74(25), 3139-3149. <https://doi.org/10.1016/j.jacc.2019.09.068>"
+  },
+  "doi_changes": {
+    "added": [],
+    "removed": [],
+    "reason": "기존 DOI 유지"
+  },
+  "intentional_scope_changes": [
+    ">=4/week → >4/week",
+    "22,800 반올림 → 원초록 정확수 22,811",
+    "사망확률 감소 해석 → HR 비교 및 관찰연관",
+    "중앙 추적기간 8.2년 명시"
+  ],
+  "endpoint_review": "전체 사망과 심혈관 사망은 동일 22,811명 관찰대상에서 별도 사망 endpoint. 전체 사망 1,236건을 심혈관 사망 건수로 사용하지 않음. OR 없음; HR을 RR/누적확률로 전환하지 않음.",
+  "limitations": [
+    "원초록만 재열람; 원문·표·보충자료 미열람.",
+    "기존 비용 및 위식도 역류·치질·과민성 장 경고는 보존했으나 이번 원초록에서 별도 검증되지 않음.",
+    "초록의 지중해식 식단 보정 후 연관도 인과효과를 입증하지 않음."
+  ],
+  "sentence_lengths": {
+    "title": [
+      {
+        "text": "고추를 주 4회 초과 먹은 사람의 관찰 결과를 살펴보세요",
+        "len": 31
+      }
+    ],
+    "쉽게": [
+      {
+        "text": "고추를 주 4회 초과 먹는 사람을 살펴봤습니다.",
+        "len": 26
+      },
+      {
+        "text": "거의 먹지 않는 사람보다 사망이 적은 경향이 있었습니다.",
+        "len": 31
+      },
+      {
+        "text": "고추가 수명을 늘린다고 입증한 결과는 아닙니다.",
+        "len": 26
+      }
+    ],
+    "이득": [
+      {
+        "text": "이탈리아에서 진행한 연구입니다.",
+        "len": 17
+      },
+      {
+        "text": "연구진은 22,811명을 추적했습니다.",
+        "len": 21
+      },
+      {
+        "text": "추적 기간의 중앙값은 8.2년입니다.",
+        "len": 20
+      },
+      {
+        "text": "절반가량은 그 이상 추적했다는 뜻입니다.",
+        "len": 22
+      },
+      {
+        "text": "추적 기간에 1,236명이 사망했습니다.",
+        "len": 22
+      },
+      {
+        "text": "고추를 주 4회 초과 먹는 사람과 안 먹거나 드물게 먹는 사람을 비교했습니다.",
+        "len": 43
+      },
+      {
+        "text": "추적 중 사망 발생 속도를 비교하는 지표가 위험비(HR)입니다.",
+        "len": 35
+      },
+      {
+        "text": "전체 사망 위험비는 0.77로, 약 23% 낮았습니다.",
+        "len": 30
+      },
+      {
+        "text": "95% 신뢰구간(CI)은 0.66–0.90입니다.",
+        "len": 27
+      },
+      {
+        "text": "이 범위는 추정치의 불확실성을 나타냅니다.",
+        "len": 23
+      },
+      {
+        "text": "심혈관 사망 위험비는 0.66으로, 약 34% 낮았습니다.",
+        "len": 32
+      },
+      {
+        "text": "95% CI는 0.50–0.86입니다.",
+        "len": 21
+      },
+      {
+        "text": "두 수치는 같은 기간 죽을 확률의 감소율이 아닙니다.",
+        "len": 29
+      }
+    ],
+    "비고": [
+      {
+        "text": "논쟁 있음.",
+        "len": 6
+      },
+      {
+        "text": "지중해식 식단을 배경으로 한 추적 기록입니다.",
+        "len": 25
+      },
+      {
+        "text": "고추를 먹는 사람은 식단도 그 지역 전통에 가까웠을 수 있습니다.",
+        "len": 36
+      },
+      {
+        "text": "매운 음식은 위식도 역류, 치질, 과민성 장 증상을 악화합니다.",
+        "len": 35
+      },
+      {
+        "text": "이런 질환이 있는 사람은 무리해서 먹지 마세요.",
+        "len": 26
+      },
+      {
+        "text": "관찰된 연관성이므로 고추 자체의 효과로 단정할 수 없습니다.",
+        "len": 33
+      }
+    ]
+  },
+  "easy_length": 85,
+  "proposal_sha256": "6799fbfcca880e64de4cf9414c3067274a608e304d8a95f41453881a8a72d32a"
+}

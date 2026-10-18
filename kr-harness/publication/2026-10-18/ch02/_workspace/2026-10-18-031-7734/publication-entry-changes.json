@@ -1,0 +1,94 @@
+{
+  "entry": 31,
+  "status": "unadopted_proposal",
+  "base": "strict-entry.md",
+  "base_sha256": "1060b1fad6c5127dd946ab52028dc322a4504fd58d1f79d953a0a93972b9c1f3",
+  "proposal_sha256": "22aa1a574c1bd5718a803ceec52ba9985e6dda8e4baa202f021aa1c53b6e3ab7",
+  "verified_at": "2026-10-18",
+  "verification_method": "직접 읽은 EuropePMC 수록 원논문 초록 캐시. 전체 본문은 읽지 않음.",
+  "source": {
+    "doi": "10.1111/joim.12496",
+    "url": "https://doi.org/10.1111/joim.12496",
+    "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/e68a6464b290a05b21d2.json",
+    "raw_sha256": "8f4dac63a0d2b73eda218ba53290f66ca2802cc62414cebbc022ccfd629a21dd",
+    "provenance": {
+      "provider": "EuropePMC core",
+      "pmid": "26992108",
+      "request": {
+        "queryString": "DOI:\"10.1111/joim.12496\"",
+        "resultType": "core",
+        "cursorMark": "*",
+        "pageSize": 10,
+        "sort": "",
+        "synonym": false
+      }
+    },
+    "exact_quotes": [
+      "We assessed the differences in sun exposure as a risk factor for all-cause mortality in a competing risk scenario for 29 518 Swedish women in a prospective 20-year follow-up of the Melanoma in Southern Sweden (MISS) cohort.",
+      "Women were recruited from 1990 to 1992 (aged 25-64 years at the start of the study).",
+      "Compared to the highest sun exposure group, life expectancy of avoiders of sun exposure was reduced by 0.6-2.1 years.",
+      "Nonsmokers who avoided sun exposure had a life expectancy similar to smokers in the highest sun exposure group, indicating that avoidance of sun exposure is a risk factor for death of a similar magnitude as smoking.",
+      "Women with active sunlight exposure habits experience a lower mortality rate than women who avoid sun exposure; however, they are at an increased risk of skin cancer."
+    ]
+  },
+  "changes": [
+    {
+      "field": "title",
+      "before": "### 31. 낮에 나가 햇빛을 쬐세요. 종일 햇빛을 피하지 마세요",
+      "after": "### 31. 낮에 나갈 때 햇빛과 피부 보호를 함께 생각하세요",
+      "reason": "관찰연구를 모든 독자에게 햇빛 노출 처방으로 읽히게 하는 명령을 완화하고 낮·햇빛 앵커 및 피부 보호를 유지."
+    },
+    {
+      "field": "비용",
+      "before": "돈이 안 듭니다. 하루 십수 분이면 충분합니다. 출퇴근길이나 점심시간에 햇빛을 쬐세요.",
+      "after": "돈이 안 듭니다. 이 연구가 하루에 필요한 햇빛 노출 시간을 정한 것은 아닙니다.",
+      "reason": "하루 십수 분이면 충분하다는 근거 없는 필요·안전용량 단정과 노출 권고 삭제. 초록은 시간별 처방을 제시하지 않음."
+    },
+    {
+      "field": "쉽게",
+      "before": "햇빛을 피한 여성은 가장 많이 쬔 여성보다 기대수명이 0.6~2.1년 짧습니다. 햇빛을 피한 비흡연자는 햇빛을 가장 많이 쬔 흡연자와 수명이 비슷했습니다.",
+      "after": "햇빛을 피한 여성은 가장 많이 쬔 여성보다 기대수명이 0.6~2.1년 짧았습니다. 다만 햇빛 때문에 더 오래 살았는지는 알 수 없습니다.",
+      "reason": "중심 기대수명 차이와 여성 대상 보존. 현재형 일반화 완화, 인과 한계 명시. 흡연 비교는 이득에 유지."
+    },
+    {
+      "field": "이득",
+      "before": "스웨덴에서 진행한 연구입니다. 여성 29,500명을 20년 추적했습니다. 햇빛을 피한 여성의 기대수명은 0.6~2.1년 짧았습니다. 비교 대상은 햇빛을 가장 많이 쬔 여성입니다. 저자는 햇빛을 피한 비흡연자의 기대수명도 비교했습니다. 햇빛을 가장 많이 쬔 흡연자와 비슷했다고 설명합니다.",
+      "after": "스웨덴 여성 29,518명을 20년 추적한 관찰 연구입니다. 시작 당시 나이는 25~64세였습니다. 햇빛을 피한 여성의 기대수명은 0.6~2.1년 짧았습니다. 비교 대상은 햇빛을 가장 많이 쬔 여성입니다. 저자는 햇빛을 피한 비흡연자의 기대수명도 비교했습니다. 햇빛을 가장 많이 쬔 흡연자와 비슷했다고 설명합니다. 햇빛이 흡연의 해를 상쇄한다는 뜻은 아닙니다.",
+      "reason": "초록의 정확한 표본 29,518명과 시작 나이로 명시. 흡연 비교가 상쇄 효과를 입증하지 않음을 설명."
+    },
+    {
+      "field": "비고",
+      "before": "논쟁이 있습니다. 스웨덴은 위도가 높고 일조량이 적습니다. 그래서 결론을 한국에 그대로 적용할 수 없습니다. 햇빛을 피한 사람은 원래 몸이 약했을 수도 있습니다. 또는 평소 밖에 나가지 않았을 수도 있습니다. 피부가 데일 만큼 햇빛을 쬐지는 마세요. 한낮의 강한 햇빛 아래에서는 몸을 가리세요. 햇빛은 피부암 위험을 올립니다.",
+      "after": "논쟁이 있습니다. 스웨덴은 위도가 높고 일조량이 적습니다. 그래서 결론을 한국에 그대로 적용할 수 없습니다. 햇빛을 피한 사람은 원래 몸이 약했을 수도 있습니다. 또는 평소 밖에 나가지 않았을 수도 있습니다. 계절이나 피부 특성에 따른 안전한 노출량도 제시하지 않습니다. 피부가 데일 만큼 햇빛을 쬐지는 마세요. 한낮의 강한 햇빛 아래에서는 몸을 가리세요. 햇빛은 피부암 위험을 올립니다.",
+      "reason": "논쟁 표지·한국 적용 한계·교란 가능성·피부암 경고 보존. 계절·피부별 안전량 미제시 명시."
+    }
+  ],
+  "doi_changes": {
+    "added": [],
+    "removed": [],
+    "reason": "원 DOI 그대로 유지."
+  },
+  "intentional_numerical_scope_changes": [
+    "29,500명을 초록의 29,518명으로 정밀화",
+    "시작 나이 25~64세 추가",
+    "0.6~2.1년 및 20년 유지",
+    "개별 안전·필요용량을 정하지 않은 관찰연관으로 범위 제한"
+  ],
+  "statistical_checks": {
+    "OR_RR_HR": "수치비 없음. 기대수명 차이를 사망 확률이나 개인 수명 보장으로 환산하지 않음.",
+    "endpoint": "관찰된 기대수명 차이; 여성 대상 비교. 흡연 비교는 다른 노출집단의 기대수명 유사성.",
+    "denominator": "29,518명 스웨덴 여성; 전체 인구 또는 한국인으로 확대하지 않음."
+  },
+  "limitations": [
+    "초록만 읽었으므로 원문·부록의 상세 노출 분류와 교란 조정은 독립 확인하지 못함.",
+    "원초록은 노출 시간별 안전·유효 용량을 제공하지 않음. 본문의 다른 노출 조언 존재 여부는 미확인.",
+    "한국 적용·계절·피부 개인차별 보장량 및 인과성은 검증하지 않음.",
+    "피부 보호 권고는 기존 저자 조언을 유지하며 연구 결과와 구별함."
+  ],
+  "validation": {
+    "easy_length": 76,
+    "modified_narrative_max_length": 45,
+    "protected_cost_tag_preserved": true,
+    "evidence_grade_preserved": true
+  }
+}

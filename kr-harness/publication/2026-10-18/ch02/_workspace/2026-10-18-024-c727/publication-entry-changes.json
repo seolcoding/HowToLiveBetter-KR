@@ -1,0 +1,85 @@
+{
+  "entry": 24,
+  "status": "proposal_unadopted",
+  "base": "strict-entry.md",
+  "base_sha256": "d5e33de2d2c0b45f16644e02c0c2acfdc1627e4c96416005aa61a8d3f204d7b5",
+  "verification_date": "2026-10-18",
+  "changes": [
+    {
+      "field": "쉽게",
+      "before": "통곡물을 하루 90g 더 먹는 사람은 같은 기간 죽을 확률이 약 17% 낮습니다. 90g은 3인분쯤입니다. 하루 200g까지 늘려도 위험은 계속 내려갑니다.",
+      "after": "흰쌀·밀가루 일부를 통곡물로 바꾸세요. 통곡물을 더 먹는 사람들에게서 사망 위험이 낮았습니다. 먹는 양만으로 개인의 수명을 예측할 수는 없습니다.",
+      "reason": "Remove unqualified gram prescription and personal probability framing; retain central observed direction and partial replacement recommendation."
+    },
+    {
+      "field": "이득",
+      "before": "사람들을 추적한 연구 결과를 합쳤습니다. 참가자를 집단에 배정하지 않고 기록만 했습니다. 통곡물을 하루 90g 더 먹는 사람은 사망 위험이 약 17% 낮습니다. 위험비는 RR 0.83입니다. 90g은 약 3인분입니다. 사망 위험 감소는 하루 210~225g까지 이어집니다. 다른 통합 연구에서도 사망 위험이 낮았습니다. 하루 1인분을 더 먹는 사람은 약 8% 낮았습니다(RR 0.92).",
+      "after": "사람들을 추적한 연구 결과를 합쳤습니다. 참가자를 집단에 배정하지 않고 기록만 했습니다. 하루 통곡물 식품 90g 추가 섭취와 사망 위험 17% 감소가 연관됐습니다. 상대위험은 RR 0.83입니다. 두 집단의 사망 위험을 비교한 값입니다. 95% 신뢰구간은 0.77~0.90입니다. 이 범위는 추정치의 불확실성을 나타냅니다. 90g은 통곡물 식품 3인분 기준입니다. 예로 통곡물 빵 2장과 시리얼 1그릇을 들었습니다. 대부분 연구는 물을 포함한 식품·제품 무게를 썼습니다. 마른 곡물 자체의 무게와는 다릅니다. 마른 현미나 조리한 밥 90g을 먹으라는 뜻은 아닙니다. 여러 결과에서 하루 210~225g까지 위험 감소가 관찰됐습니다. 총사망 위험은 하루 225g에서 가장 낮았습니다. 다른 통합 연구에서도 사망 위험이 낮았습니다. 하루 1인분을 더 먹는 사람은 약 8% 낮았습니다(RR 0.92).",
+      "reason": "Define 90g as wholegrain foods/product serving convention, distinguish fresh and dry weights; retain RR, disclose CI and all-cause endpoint; distinguish overall 210–225g from all-cause minimum at 225g."
+    },
+    {
+      "field": "비고",
+      "before": "전부 통곡물로 바꿀 필요는 없습니다. 절반만 바꿔도 이득이 가장 큰 구간에 들어갑니다. 다만 이 연구들은 사람들을 추적해 기록했습니다. 통곡물을 먹는 사람은 원래 더 건강하게 생활합니다. 연구마다 결과 차이도 큽니다(I² 83%). I² 값이 클수록 연구 결과의 차이가 크다는 뜻입니다.",
+      "after": "전부 통곡물로 바꿀 필요는 없습니다. 절반 교체만으로 이득이 가장 큰 구간에 든다고 볼 수는 없습니다. 원래 먹던 양에 따라 달라집니다. 다만 이 연구들은 사람들을 추적해 기록했습니다. 통곡물을 많이 먹는 사람은 생활습관도 다를 수 있습니다. 따라서 통곡물 자체의 효과라고 단정할 수 없습니다. 연구마다 결과 차이도 큽니다(I² 83%). I² 값이 클수록 연구 결과의 차이가 크다는 뜻입니다.",
+      "reason": "Remove unsupported half-replacement optimality and deterministic healthy-lifestyle assertion; preserve heterogeneity and observational uncertainty."
+    }
+  ],
+  "unchanged_fields": [
+    "title",
+    "비용",
+    "근거등급",
+    "출처"
+  ],
+  "title_anchor_check": "흰쌀·밀가루 / 일부 / 통곡물 / 바꾸세요 retained exactly.",
+  "sources": [
+    {
+      "doi": "10.1136/bmj.i2716",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4908315/fullTextXML",
+      "date": "2026-10-18",
+      "method": "Read live EuropePMC primary full-text XML; independently read relevant abstract/results/discussion paragraphs. Cached raw also inspected for exact quotes.",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/pmc-fulltext/PMC4908315.xml",
+      "raw_sha256": "f2efbe24aaf366f9f1aabee1847ff4bbafa907c6821311fbeee7568e1f390c92",
+      "live_raw_path": "/tmp/ch02e24-primary.xml",
+      "exact_quotes": [
+        "Results 45 studies (64 publications) were included. The summary relative risks per 90 g/day increase in whole grain intake (90 g is equivalent to three servings—for example, two slices of bread and one bowl of cereal or one and a half pieces of pita bread made from whole grains) was 0.81 (95% confidence interval 0.75 to 0.87; I2=9%, n=7 studies) for coronary heart disease, 0.88 (0.75 to 1.03; I2=56%, n=6) for stroke, and 0.78 (0.73 to 0.85; I2=40%, n=10) for cardiovascular disease, with similar results when studies were stratified by whether the outcome was incidence or mortality. The relative risks for morality were 0.85 (0.80 to 0.91; I2=37%, n=6) for total cancer, 0.83 (0.77 to 0.90; I2=83%, n=11) for all causes, 0.78 (0.70 to 0.87; I2=0%, n=4) for respiratory disease, 0.49 (0.23 to 1.05; I2=85%, n=4) for diabetes, 0.74 (0.56 to 0.96; I2=0%, n=3) for infectious diseases, 1.15 (0.66 to 2.02; I2=79%, n=2) for diseases of the nervous system disease, and 0.78 (0.75 to 0.82; I2=0%, n=5) for all non-cardiovascular, non-cancer causes. Reductions in risk were observed up to an intake of 210-225 g/day (seven to seven and a half servings per day) for most of the outcomes. Intakes of specific types of whole grains including whole grain bread, whole grain breakfast cereals, and added bran, as well as total bread and total breakfast cereals were also associated with reduced risks of cardiovascular disease and/or all cause mortality, but there was little evidence of an association with refined grains, white rice, total rice, or total grains.",
+        "Although we took into account the different amounts and ranges of whole grain intake between studies in the dose-response analysis, studies could also have differed by the types of whole grains consumed, by how accurately they measured whole grain intake, or by how they defined whole grains. This could have contributed to heterogeneity between studies. In addition, given the diversity of whole grain products available it is difficult to assess intake accurately in epidemiological studies, and some degree of measurement error is inevitable. A recent review recommended reporting intake as the actual amount of whole grain per dry weight.93 As some studies have classified some whole grain items (breakfast cereals, muesli) as whole grain foods if they have a whole grain content of ≥25% or >50% of the weight of the product, then a grain product could be considered whole grain if its whole grain content varied between 25-100 g or 51-100 g per 100 g of the product. Somebody could consume a product with 24 g or 50 g of whole grain per 100 g of the product and still be considered to eat no whole grain, leading to misclassification of the exposure. Most of the studies seemed to report intake as the amount or frequency of whole grain food or product intake (fresh weight including water content), while only two publications9\n20 reported intakes in actual amount of whole grain food (dry weight). One study that reported results for both whole grain products (fresh weight) and actual whole grain intake (dry weight) in relation to mortality, however, found similar associations for the two.9 Most of the associations were similar for different types of whole grains, and, in addition, most of the US studies seemed to define whole grains similarly, while few of the European studies provided a definition of whole grain.",
+        "Eleven cohort studies (10 publications)4\n9\n16\n19\n20\n21\n22\n25\n27 investigated the association between whole grain intake and all cause mortality and included 100 726 deaths and 705 253 participants. The pooled relative risk for high versus low intake was 0.82 (95% confidence interval 0.77 to 0.88; I2=83%, Pheterogeneity<0.001) (fig S9 in appendix 2, table 1). The summary relative risk was 0.83 (0.77 to 0.90; I2=83%, Pheterogeneity<0.001) per 90 g/day (fig 6, table 1). The heterogeneity was reduced when we excluded two outlying studies21\n25 (I2=66%, P=0.003), but the association was not substantially altered (summary relative risk 0.81, 0.76 to 0.86). Although the test for non-linearity was significant (P<0.001), and steeper reductions in risk were observed at lower intakes, there was a clear dose-response relation, and the lowest risk was observed at 225 g/day (fig 6, fig S10 in appendix 2, table S13 in appendix 1).",
+        "People with a high intake of whole grains might have different lifestyles, diets,20\n94 or socioeconomic status94 than those with a low intake, thus confounding by other lifestyle factors is a potential source of bias. In subgroup analyses we found that the associations observed persisted among studies that adjusted for smoking, alcohol, physical activity, BMI, and other dietary factors such as sugar sweetened beverages, red meat, and fruit and vegetables. Though differences in socioeconomic factors or deprivation could also have influenced the findings, both the Nurses’ Health Study and the Health Professionals Follow-up Study, cohorts in which there would be relatively little confounding by socioeconomic status or deprivation, found similar results to the overall analysis, and there was no evidence of heterogeneity in the results stratified by adjustment for education.",
+        "We found that a high whole grain intake was associated with reduced risk of coronary heart disease, cardiovascular disease, total cancer, and all cause mortality as well as mortality from respiratory disease, infections, diabetes, and all non-cardiovascular, non-cancer causes combined. This is strong evidence that a high intake of whole grains is beneficial for several health outcomes in a dose-response manner. In addition, a high intake of whole grains has previously been associated with reduced risk of colorectal cancer,28 type 2 diabetes,5 and overweight or obesity.6 Altogether these findings have important public health implications as whole grain intake can be modified relatively easily by replacing refined grains and could have a large effect on the burden of chronic disease if adopted in the general population. As shown in the current meta-analysis, a high intake of whole grain is not only associated with reduced risk of cardiovascular disease and diabetes but also with mortality from cancer, respiratory disease, infectious disease, and all non-cancer, non-cardiovascular causes combined. The current findings therefore strongly support existing dietary recommendations to increase whole grain consumption in the general population. From a practical angle a whole grain product intake of 90 g/day can be achieved, for example, by eating a portion of whole grain breakfast cereals (30-40 g) at breakfast and a piece of whole grain pita bread for dinner (60 g). The non-linear analyses suggested that the reduction in risk of mortality is steepest at the lowest level of whole grain intake (people who increase from no intake of whole grain to two servings/day) and that perhaps targeting subjects with a very low intake might have a greater impact. Further reductions were observed up to 210-225 g/day (seven to seven and a half servings a day), however, suggesting further benefits with even higher intakes. Most of the studies included in the analyses of whole grains were from the US, and only a few European studies have been published so far. Whole grain intake is higher in Northern Europe34\n122 than in the US, and populations in Northern Europe might therefore be promising for further studies of the association between whole grains and health outcomes, both in terms of examining more extreme intakes and specific types of whole grains. Further studies are needed in other geographical locations, as are studies of specific diseases and less common causes of death and that incorporate biomarkers of whole grain intake.123"
+      ]
+    },
+    {
+      "doi": "10.3945/ajcn.117.153148",
+      "url": "https://doi.org/10.3945/ajcn.117.153148",
+      "date": "2026-10-18",
+      "method": "Read EuropePMC core primary abstract cache; full article not read.",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/4b7da62d583d8e829ddf.json",
+      "raw_sha256": "78c1aa2d6eb0a605813a7b92792a1b65df45cad47ac7b116ff2abb36ac2ada6c",
+      "exact_quote": "<b>Background:</b> Suboptimal diet is one of the most important factors in preventing early death and disability worldwide.<b>Objective:</b> The aim of this meta-analysis was to synthesize the knowledge about the relation between intake of 12 major food groups, including whole grains, refined grains, vegetables, fruits, nuts, legumes, eggs, dairy, fish, red meat, processed meat, and sugar-sweetened beverages, with risk of all-cause mortality.<b>Design:</b> We conducted a systematic search in PubMed, Embase, and Google Scholar for prospective studies investigating the association between these 12 food groups and risk of all-cause mortality. Summary RRs and 95% CIs were estimated with the use of a random effects model for high-intake compared with low-intake categories, as well as for linear and nonlinear relations. Moreover, the risk reduction potential of foods was calculated by multiplying the RR by optimal intake values (serving category with the strongest association) for risk-reducing foods or risk-increasing foods, respectively.<b>Results:</b> With increasing intake (for each daily serving) of whole grains (RR: 0.92; 95% CI: 0.89, 0.95), vegetables (RR: 0.96; 95% CI: 0.95, 0.98), fruits (RR: 0.94; 95% CI: 0.92, 0.97), nuts (RR: 0.76; 95% CI: 0.69, 0.84), and fish (RR: 0.93; 95% CI: 0.88, 0.98), the risk of all-cause mortality decreased; higher intake of red meat (RR: 1.10; 95% CI: 1.04, 1.18) and processed meat (RR: 1.23; 95% CI: 1.12, 1.36) was associated with an increased risk of all-cause mortality in a linear dose-response meta-analysis. A clear indication of nonlinearity was seen for the relations between vegetables, fruits, nuts, and dairy and all-cause mortality. Optimal consumption of risk-decreasing foods results in a 56% reduction of all-cause mortality, whereas consumption of risk-increasing foods is associated with a 2-fold increased risk of all-cause mortality.<b>Conclusion:</b> Selecting specific optimal intakes of the investigated food groups can lead to a considerable change in the risk of premature death."
+    }
+  ],
+  "intentional_numerical_scope_changes": [
+    "쉽게 removes 90g/17%/200g secondary details; primary 90g/17% preserved and scoped in 이득.",
+    "Retains 210–225g across outcomes and adds all-cause 225g endpoint-specific minimum.",
+    "Adds reported 95% CI 0.77–0.90.",
+    "Removes unsupported half-replacement largest-benefit claim.",
+    "RR remains a relative association, not OR, HR, absolute individual probability or demonstrated causal reduction."
+  ],
+  "doi_changes": {
+    "added": [],
+    "removed": [],
+    "reason": "Both existing citations retained."
+  },
+  "limitations": [
+    "No common follow-up duration is asserted; pooled studies have differing follow-up.",
+    "Predominantly US and European evidence; no Korean-specific effect or personal probability inferred.",
+    "AJCN serving-weight definition and full-text methods were not verified; its abstract supports per-serving RR 0.92 only.",
+    "90g convention is product/food servings, not a prescription for dry rice or cooked rice; definitions varied across underlying studies."
+  ],
+  "validation": {
+    "easy_chars": 81,
+    "new_or_modified_sentence_max_chars": 42,
+    "cost_tag_and_evidence_grade": "exact preserved",
+    "adoption": "pending independent exact-hash review"
+  }
+}

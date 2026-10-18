@@ -1,0 +1,219 @@
+{
+  "status": "unadopted_proposal",
+  "entry": 19,
+  "base": "strict-entry.md",
+  "base_sha256": "76bd77aa88671803bbe69233abc807d16325cbfe7f04410e9a87d50d9d1c08f0",
+  "changes": [
+    {
+      "field": "쉽게",
+      "before": "일주일에 순수 알코올 100g을 넘으면 음주량이 많을수록 수명이 짧습니다. 100g은 맥주 약 2.5L입니다. 마흔에 일주일 100~200g을 마시면 기대수명이 반년쯤 짧습니다. 200~350g이면 1~2년 짧습니다. 350g이 넘으면 4~5년 짧습니다. 건강 전반을 따지면 안 마실 때 이득이 가장 큽니다.",
+      "after": "술을 많이 마실수록 수명이 짧은 경향이 있었습니다. 건강을 위해 술을 시작할 근거는 없습니다. 매일 마신다면 끊기 전 의사와 상담하세요.",
+      "reason": "설계용어와 비교군 없는 기대수명 수치를 덜고, 줄이기 방향과 금단 상담을 남김.",
+      "new_sentence_lengths": [
+        {
+          "text": "술을 많이 마실수록 수명이 짧은 경향이 있었습니다.",
+          "len": 28
+        },
+        {
+          "text": "건강을 위해 술을 시작할 근거는 없습니다.",
+          "len": 23
+        },
+        {
+          "text": "매일 마신다면 끊기 전 의사와 상담하세요.",
+          "len": 23
+        }
+      ]
+    },
+    {
+      "field": "이득",
+      "before": "전향 추적 연구 83개를 합쳐 분석했습니다. 사람들을 나눠 실험하지 않고 음주 습관과 건강을 기록했습니다. 술을 마시는 사람 60만 명을 대상으로 했습니다. 음주자 중 사망 위험은 일주일 순수 알코올 100g 이하에서 가장 낮았습니다. 도수 5% 맥주 2.5L 또는 40도 증류주 300mL쯤에 해당합니다. 마흔 살에 일주일 100~200g을 마시면 기대수명이 약 6개월 짧았습니다. 200~350g이면 1~2년, 350g 초과면 4~5년 짧았습니다. 모두 기대수명이 얼마나 짧은지 나타낸 수치입니다. 세계 질병 부담 연구 GBD 2016은 각종 건강 손실을 합쳤습니다. 이 연구는 위험이 가장 낮은 음주량을 0잔/주로 계산했습니다. 다른 통합 분석에서는 연구 설계에 따른 편향을 보정했습니다. 하루 1.3~24g 마시는 사람과 평생 안 마신 사람을 비교했습니다. 마시는 쪽의 사망 위험은 약 7% 낮았습니다(RR 0.93). 다만 통계적 차이는 없었습니다. 하루 45~64g은 약 19% 높습니다(RR 1.19). 하루 65g 이상은 약 35% 높습니다(RR 1.35).",
+      "after": "전향 추적 연구 83개를 합쳐 분석했습니다. 사람들을 나눠 실험하지 않고 음주 습관과 건강을 기록했습니다. 고소득 19개국에서 술을 마시는 사람 60만 명을 대상으로 했습니다. 음주자 중 사망 위험은 일주일 순수 알코올 100g 이하에서 가장 낮았습니다. 음주량을 가늠하면 도수 5% 맥주 약 2.5L쯤입니다. 40도 증류주로는 약 300mL쯤입니다. 둘 다 순수 알코올 100g의 정밀 환산값은 아닙니다. 기준은 주당 순수 알코올 0g 초과~100g 이하인 현재 음주자입니다. 평생 술을 안 마신 사람과 비교한 수치는 아닙니다. 마흔 살 이후의 기대수명을 계산으로 추정했습니다. 주당 100g 초과~200g 이하는 약 6개월 짧았습니다. 200g 초과~350g 이하는 1~2년 짧았습니다. 350g 초과는 4~5년 짧았습니다. 미국 사망 자료에 연구의 사망 위험 차이를 적용한 추정입니다. 술을 줄이면 개인 수명이 그만큼 늘어난다는 뜻은 아닙니다. 세계 질병 부담 연구 GBD 2016은 각종 건강 손실을 합쳤습니다. 이 연구는 건강 손실이 가장 적은 음주량을 0잔/주로 추정했습니다. 95% 불확실성 범위는 주당 표준잔 0.0~0.8잔이었습니다. 모든 연령의 현재 지침을 대신하는 결론은 아닙니다. 다른 통합 분석에서는 연구 설계에 따른 편향을 보정했습니다. 하루 1.3g 이상~25g 미만인 사람과 평생 안 마신 사람을 비교했습니다. 마시는 쪽의 사망 위험은 약 7% 낮았습니다(RR 0.93). 다만 통계적으로 뚜렷한 차이는 없었습니다. 하루 45g 이상~65g 미만은 약 19% 높았습니다(RR 1.19). 하루 65g 이상은 약 35% 높았습니다(RR 1.35). RR은 두 집단의 사망 위험을 비교한 값입니다. 개인의 사망 확률이나 기대수명 감소율은 아닙니다.",
+      "reason": "현재 음주자 비교군·40세 이후 모델 추정·음주 구간 경계를 명시하고, 정밀 환산 오해와 GBD 보편화를 제한함.",
+      "new_sentence_lengths": [
+        {
+          "text": "고소득 19개국에서 술을 마시는 사람 60만 명을 대상으로 했습니다.",
+          "len": 38
+        },
+        {
+          "text": "음주량을 가늠하면 도수 5% 맥주 약 2.5L쯤입니다.",
+          "len": 30
+        },
+        {
+          "text": "40도 증류주로는 약 300mL쯤입니다.",
+          "len": 22
+        },
+        {
+          "text": "둘 다 순수 알코올 100g의 정밀 환산값은 아닙니다.",
+          "len": 30
+        },
+        {
+          "text": "기준은 주당 순수 알코올 0g 초과~100g 이하인 현재 음주자입니다.",
+          "len": 39
+        },
+        {
+          "text": "평생 술을 안 마신 사람과 비교한 수치는 아닙니다.",
+          "len": 28
+        },
+        {
+          "text": "마흔 살 이후의 기대수명을 계산으로 추정했습니다.",
+          "len": 27
+        },
+        {
+          "text": "주당 100g 초과~200g 이하는 약 6개월 짧았습니다.",
+          "len": 32
+        },
+        {
+          "text": "200g 초과~350g 이하는 1~2년 짧았습니다.",
+          "len": 28
+        },
+        {
+          "text": "350g 초과는 4~5년 짧았습니다.",
+          "len": 20
+        },
+        {
+          "text": "미국 사망 자료에 연구의 사망 위험 차이를 적용한 추정입니다.",
+          "len": 34
+        },
+        {
+          "text": "술을 줄이면 개인 수명이 그만큼 늘어난다는 뜻은 아닙니다.",
+          "len": 32
+        },
+        {
+          "text": "이 연구는 건강 손실이 가장 적은 음주량을 0잔/주로 추정했습니다.",
+          "len": 37
+        },
+        {
+          "text": "95% 불확실성 범위는 주당 표준잔 0.0~0.8잔이었습니다.",
+          "len": 34
+        },
+        {
+          "text": "모든 연령의 현재 지침을 대신하는 결론은 아닙니다.",
+          "len": 28
+        },
+        {
+          "text": "하루 1.3g 이상~25g 미만인 사람과 평생 안 마신 사람을 비교했습니다.",
+          "len": 42
+        },
+        {
+          "text": "다만 통계적으로 뚜렷한 차이는 없었습니다.",
+          "len": 23
+        },
+        {
+          "text": "하루 45g 이상~65g 미만은 약 19% 높았습니다(RR 1.19).",
+          "len": 39
+        },
+        {
+          "text": "하루 65g 이상은 약 35% 높았습니다(RR 1.35).",
+          "len": 32
+        },
+        {
+          "text": "RR은 두 집단의 사망 위험을 비교한 값입니다.",
+          "len": 26
+        },
+        {
+          "text": "개인의 사망 확률이나 기대수명 감소율은 아닙니다.",
+          "len": 27
+        }
+      ]
+    },
+    {
+      "field": "비고",
+      "before": "논쟁 있음. 소량 음주가 좋다는 근거로 전향 추적 연구 34개의 통합 분석을 제시합니다. 소량 음주자의 총사망률이 최대 17~18% 낮다고 했습니다. 음주량은 남자 하루 4잔, 여자 2잔 이하였습니다. 이 범위에서는 더 마시는 쪽의 총사망률이 오히려 낮았습니다. 반대편에서는 비음주자에 병 때문에 술을 끊은 사람도 섞여 있다고 지적합니다. 원래 몸이 약한 사람도 포함됐다고 봅니다. 교란을 통제하고 다시 계산한 통합 분석에서는 보호 효과가 사라졌습니다. 세계 질병 부담 연구도 0이 가장 안전하다고 합니다. 소량 음주에서는 뚜렷한 수명 감소가 나타나지 않았습니다. 반면 많이 마시면 수명이 짧아지는 결과가 나타났습니다. 건강을 위해 술을 시작할 근거는 없습니다. 술을 줄이는 방법은 제21항(일주일 치부터 세고 의사와 상담)을 보세요. 매일 마시는 사람은 스스로 끊으면 안 되는 경우도 있습니다. 제20항(스스로 끊지 마세요)을 보세요.",
+      "after": "논쟁 있음. 소량 음주가 좋다는 근거로 전향 추적 연구 34개의 통합 분석을 제시합니다. 소량 음주자의 총사망률이 최대 17~18% 낮다고 했습니다. 음주량은 남자 하루 4잔, 여자 2잔 이하였습니다. 이 범위의 음주는 총사망률이 낮은 것과 관련됐습니다. 반대편에서는 비음주자에 병 때문에 술을 끊은 사람도 섞여 있다고 지적합니다. 원래 몸이 약한 사람도 포함됐다고 봅니다. 다른 요인의 영향을 보정한 통합 분석에서는 보호 효과가 뚜렷하지 않았습니다. 세계 질병 부담 연구 GBD 2016은 건강 손실이 0잔/주에서 가장 적다고 추정했습니다. 소량 음주에서는 뚜렷한 수명 감소가 나타나지 않았습니다. 반면 많이 마시면 수명이 짧아지는 결과가 나타났습니다. 건강을 위해 술을 시작할 근거는 없습니다. 술을 줄이는 방법은 제21항(일주일 치부터 세고 의사와 상담)을 보세요. 매일 마시는 사람은 스스로 끊으면 안 되는 경우도 있습니다. 제20항(스스로 끊지 마세요)을 보세요.",
+      "reason": "소량 음주 범위를 단조로운 용량 효과로 읽는 문장을 정정하고 GBD 2016 귀속을 명시함.",
+      "new_sentence_lengths": [
+        {
+          "text": "이 범위의 음주는 총사망률이 낮은 것과 관련됐습니다.",
+          "len": 29
+        },
+        {
+          "text": "다른 요인의 영향을 보정한 통합 분석에서는 보호 효과가 뚜렷하지 않았습니다.",
+          "len": 42
+        },
+        {
+          "text": "세계 질병 부담 연구 GBD 2016은 건강 손실이 0잔/주에서 가장 적다고 추정했습니다.",
+          "len": 50
+        }
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "doi": "10.1016/S0140-6736(18)30134-X",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5899998/fullTextXML",
+      "verification_date": "2026-10-18",
+      "method": "기존 1차 논문 전문 XML에서 추출한 텍스트를 재열람했습니다. 관련 결과·방법·표를 확인했으며 이번에 새 HTTP 조회를 하지는 않았습니다.",
+      "level": "cached primary full-text relevant sections",
+      "raw_path": "/tmp/ch02-audit/full-PMC5899998.txt",
+      "sha256": "43efb4a2b543853447ac2dd81976c50250b1f3590a1806f7d88226d3d9bfef0b",
+      "quotes": [
+        "In comparison to those who reported drinking >0–≤100 g per week, those who reported drinking >100–≤200 g per week, >200–≤350 g per week, or >350 g per week had lower life expectancy at age 40 years of approximately 6 months, 1–2 years, or 4–5 years, respectively.",
+        "We did a combined analysis of individual-participant data from three large-scale data sources in 19 high-income countries",
+        "The estimates of cumulative survival from 40 years of age onwards in the alcohol-drinking groups were calculated by applying hazard ratios"
+      ]
+    },
+    {
+      "doi": "10.1016/S0140-6736(18)31310-2",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6148333/fullTextXML",
+      "verification_date": "2026-10-18",
+      "method": "기존 1차 논문 전문 XML에서 추출한 텍스트를 재열람했습니다. 관련 결과·방법·표를 확인했으며 이번에 새 HTTP 조회를 하지는 않았습니다.",
+      "level": "cached primary full-text relevant sections",
+      "raw_path": "/tmp/ch02-audit/full-PMC6148333.txt",
+      "sha256": "50059de6dc66c9cefae68b397920aca7539247534e611f7f1cdfde60ffdc81aa",
+      "quotes": [
+        "The level of alcohol consumption that minimised harm across health outcomes was zero (95% UI 0·0–0·8) standard drinks per week."
+      ]
+    },
+    {
+      "doi": "10.1001/jamanetworkopen.2023.6185",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10066463/fullTextXML",
+      "verification_date": "2026-10-18",
+      "method": "기존 1차 논문 전문 XML에서 추출한 텍스트를 재열람했습니다. 관련 결과·방법·표를 확인했으며 이번에 새 HTTP 조회를 하지는 않았습니다.",
+      "level": "cached primary full-text relevant sections",
+      "raw_path": "/tmp/ch02-audit/full-PMC10066463.txt",
+      "sha256": "a4443828a47e5a6bfc32b66bc11c686c5e413eb1b115a8dc374362f7286393b8",
+      "quotes": [
+        "Low-volume (1.30 to <25) 99/306 0.85 (0.81-0.88) <.001 0.86 (0.83-0.88) <.001 0.93 (0.85-1.01) .08",
+        "High volume (45 to <65) 52/76 1.07 (0.99-1.16) .09 1.11 (1.03-1.21) .009 1.19 (1.07-1.32) .001",
+        "Higher volume (≥65) 45/83 1.35 (1.26-1.46) <.001 1.24 (1.16-1.32) <.001 1.35 (1.23-1.47) .0001"
+      ]
+    },
+    {
+      "doi": "10.1001/archinte.166.22.2437",
+      "url": "https://doi.org/10.1001/archinte.166.22.2437",
+      "verification_date": "2026-10-18",
+      "method": "기존 EuropePMC 원초록 캐시 재열람",
+      "level": "abstract only",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/c9d68df968a86f93b3e7.json",
+      "sha256": "09d6b3f9e2fc5c7dd725442e9ada077c8159f2b91e6c36faa4042a12b6e66b3d",
+      "quotes": [
+        " Background Moderate consumption of alcohol is inversely related with coronary disease, but its association with mortality is controversial. We performed a meta-analysis of prospective studies on alcohol dosing and total mortality. Methods We searched PubMed for articles available until December 2005, supplemented by references from the selected articles. Thirty-four studies on men and women, for a total of 1 015 835 subjects and 94 533 deaths, were selected. Data were pooled with a weighed regression analysis of fractional polynomials. Results A J-shaped relationship between alcohol and total mortality was confirmed in adjusted studies, in both men and women. Consumption of alcohol, up to 4 drinks per day in men and 2 drinks per day in women, was inversely associated with total mortality, maximum protection being 18% in women (99% confidence interval, 13%-22%) and 17% in men (99% confidence interval, 15%-19%). Higher doses of alcohol were associated with increased mortality. The inverse association in women disappeared at doses lower than in men. When adjusted and unadjusted data were compared, the maximum protection was only reduced from 19% to 16%. The degree of association in men was lower in the United States than in Europe. Conclusions Low levels of alcohol intake (1-2 drinks per day for women and 2-4 drinks per day for men) are inversely associated with total mortality in both men and women. Our findings, while confirming the hazards of excess drinking, indicate potential windows of alcohol intake that may confer a net beneficial effect of moderate drinking, at least in terms of survival."
+      ]
+    }
+  ],
+  "easy_chars": 76,
+  "doi_changes": {
+    "added": [],
+    "removed": [],
+    "reason": "기존 네 DOI 유지"
+  },
+  "intentional_scope_changes": [
+    "Wood 비교 기준을 >0–≤100g/주 현재음주자로 명시",
+    "Zhao 음주량 구간을 연속 경계(1.3 이상25 미만,45 이상65 미만)로 정밀화",
+    "GBD 불확실성 구간 추가",
+    "Di Castelnuovo의 범위 내 역연관을 단조로운 추가음주 효과로 읽는 표현 삭제"
+  ],
+  "limitations": [
+    "모든 부록을 재검증한 것은 아님. Wood 기대수명은 미국 사망률을 적용한 모델 추정이며 평생금주자 비교가 아님.",
+    "2006 논문은 원초록만 열람.",
+    "맥주·증류주 양은 원래 근삿값을 보존하고 정밀환산이 아님을 명시했으며 별도 밀도 환산 근거를 추가하지 않음.",
+    "GBD2016을 현재 모든 연령에 적용되는 유일 지침으로 해석하지 않음."
+  ],
+  "checks": {
+    "OR": "해당 수치 없음; 확률비 변환 없음",
+    "HR": "Wood HR를 누적확률로 변환하지 않음; 수명모델의 입력이라는 설명",
+    "endpoint": "기대수명, 총사망 위험, 종합 건강손실을 구분",
+    "protected": "원 비용태그·근거등급·출처 그대로",
+    "independent_review_required": true
+  }
+}

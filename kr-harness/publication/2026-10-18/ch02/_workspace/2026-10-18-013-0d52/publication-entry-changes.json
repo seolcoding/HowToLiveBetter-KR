@@ -1,0 +1,200 @@
+{
+  "status": "unadopted_proposal",
+  "entry": 13,
+  "base": "strict-entry.md",
+  "base_sha256": "46edbf6fa792ae805faf09bcabe4f249f402ea8d155d964286d7d7489032b840",
+  "proposal_sha256": "9639cea2bd2caa9bc28de840c4a2fad50f490357979aa7acae24c1190969e1b5",
+  "changes": [
+    {
+      "field": "쉽게",
+      "before": "7시간보다 적게 자는 생활이 오래 이어지면 위험이 커집니다. 같은 기간 죽을 확률이 10%쯤 높습니다. 생활 패턴이 흐트러질수록 위험은 커집니다. 가장 규칙적인 사람은 가장 불규칙한 사람보다 사망 위험이 낮습니다. 차이는 20%에서 50%에 가깝습니다. 수면 시간보다 규칙성이 사망 위험을 더 잘 예측합니다.",
+      "after": "수면이 규칙적인 네 집단은 가장 불규칙한 집단보다 사망 위험이 20~48% 낮았습니다. 잠을 규칙적으로 자서 위험이 줄었다고 단정할 수는 없습니다.",
+      "reason": "수면 규칙성의 한 비교로 요약; 네 집단의 범위를 유지하고 인과 단정 배제",
+      "evidence_refs": [
+        2,
+        6
+      ]
+    },
+    {
+      "field": "이득",
+      "before": "추적 연구 16개를 합쳤습니다. 생활에 개입하지 않고 관찰한 연구들입니다. 대상은 138만 명입니다. 사망은 11만3천 건 발생했습니다. 짧게 자는 사람은 사망 위험이 약 12% 높습니다(RR 1.12). 오래 자는 사람은 약 30% 높습니다(RR 1.30). 다른 통합 연구에서는 7시간 잘 때 사망 위험이 가장 낮았습니다. 7시간보다 1시간 적을 때마다 약 6% 높아집니다(RR 1.06). 1시간 많을 때마다 약 13% 높아집니다(RR 1.13). 영국 바이오뱅크 연구도 생활에 개입하지 않고 관찰했습니다. 약 6만1천 명의 손목시계 기록을 분석했습니다. 이 기록으로 수면 패턴의 규칙성을 다섯 등급으로 나눴습니다. 규칙적인 쪽 네 등급은 최하등급보다 사망 위험이 20~48% 낮습니다. 수면 시간보다 규칙성이 사망 위험을 더 잘 예측했습니다. 같은 바이오뱅크의 다른 연구도 손목시계로 수면 시각을 쟀습니다. 대상은 51,562명입니다. 추적 중 3,853명에게 심혈관 질환이 새로 생겼습니다. 사회적 시차는 평일과 주말의 수면 중간 시각 차입니다. 사회적 시차가 2시간 이상이면 심혈관 질환 위험이 약 30% 높습니다. HR 1.30, 95% CI 1.11–1.54. 이 관계는 수면 시간이 정상인 사람에서도 나타났습니다.",
+      "after": "추적 연구 16개를 합쳤습니다. 생활에 개입하지 않고 관찰한 연구들입니다. 대상은 138만 명입니다. 사망은 11만3천 건 발생했습니다. 짧게 자는 집단은 연구별 기준 집단보다 사망 위험이 약 12% 높았습니다(RR 1.12). 오래 자는 집단은 약 30% 높았습니다(RR 1.30). 짧은 수면의 기준은 4시간 이하부터 7시간 미만까지 연구마다 달랐습니다. 긴 수면과 비교 집단의 기준도 연구마다 달랐습니다. RR은 비교 집단에 대한 상대위험입니다. 다른 통합 연구에서는 7시간 잘 때 사망 위험이 가장 낮았습니다. 7시간보다 1시간 적을 때마다 약 6% 높아집니다(RR 1.06). 1시간 많을 때마다 약 13% 높아집니다(RR 1.13). 영국 바이오뱅크 연구도 생활에 개입하지 않고 관찰했습니다. 약 6만1천 명의 손목시계 기록을 분석했습니다. 이 기록으로 수면 패턴의 규칙성을 다섯 등급으로 나눴습니다. 규칙적인 쪽 네 등급은 최하등급보다 사망 위험이 20~48% 낮습니다. 수면 시간보다 규칙성이 사망 위험을 더 잘 예측했습니다. 같은 바이오뱅크의 다른 연구도 손목시계로 수면 시각을 쟀습니다. 대상은 51,562명입니다. 추적 중 3,853명에게 심혈관 질환이 새로 생겼습니다. 사회적 시차는 평일과 주말의 수면 중간 시각 차입니다. 사회적 시차가 2시간 이상이면 심혈관 질환 위험이 약 30% 높습니다. HR 1.30, 95% CI 1.11–1.54. 이 관계는 수면 시간이 정상인 사람에서도 나타났습니다.",
+      "reason": "Cappuccio의 연구별 수면 및 기준집단 정의 차이를 명시; 7시간 미만 단일효과와 구별",
+      "evidence_refs": [
+        0,
+        4
+      ]
+    },
+    {
+      "field": "비고",
+      "before": "부족한 잠과 불규칙한 수면 패턴, 두 가지를 고치세요. 자는 시간을 억지로 줄일 필요는 없습니다. 오래 자는 사람의 위험이 높은 이유는 대부분 인과관계가 반대여서입니다. 우울, 만성질환, 수면무호흡이 잠을 늘립니다. 수면 패턴의 규칙성을 뒷받침하는 근거는 현재 추적 연구 두 편입니다. 둘 다 생활에 개입하지 않고 관찰했습니다. 따라서 이 근거만 보면 B급입니다. 밤새운 뒤 보충하는 법은 제38항(밤샌 다음 날 밤에 바로 보충)을 보세요.",
+      "after": "부족한 잠과 불규칙한 수면 패턴, 두 가지를 고치세요. 자는 시간을 억지로 줄일 필요는 없습니다. 오래 자는 사람의 높은 위험에는 기존 질병이 영향을 줬을 수 있습니다. 우울, 만성질환, 수면무호흡 등이 관련될 수 있습니다. 잠을 오래 자서 위험이 커졌다고 단정할 수는 없습니다. 여기서 수면 패턴의 규칙성에 인용한 근거는 추적 연구 두 편입니다. 둘 다 생활에 개입하지 않고 관찰했습니다. 따라서 이 근거만 보면 B급입니다. 밤새운 뒤 보충하는 법은 제38항(밤샌 다음 날 밤에 바로 보충)을 보세요.",
+      "reason": "검증되지 않은 대부분 역인과 비율을 제거하고 질병 영향 가능성으로 제한; 인용 범위를 현재 전체 문헌과 구별",
+      "evidence_refs": [
+        4,
+        5,
+        6
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "doi": "10.1093/sleep/33.5.585",
+      "url": "https://doi.org/10.1093/sleep/33.5.585",
+      "level_read": "cached primary abstract",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/98ed1f52f78b79d8a5ec.json",
+      "raw_sha256": "1dfe4f2c2e4fef74683cedc5993d1f5836f346ef17011020c2bf57bbb0030c53",
+      "verified_date": "2026-10-18",
+      "method": "Read cached EuropePMC core abstract; not a fresh HTTP lookup",
+      "primaryquote": "<h4>Background</h4>Increasing evidence suggests an association between both short and long duration of habitual sleep with adverse health outcomes.<h4>Objectives</h4>To assess whether the population longitudinal evidence supports the presence of a relationship between duration of sleep and all-cause mortality, to investigate both short and long sleep duration and to obtain an estimate of the risk.<h4>Methods</h4>We performed a systematic search of publications using MEDLINE (1966-2009), EMBASE (from 1980), the Cochrane Library, and manual searches without language restrictions. We included studies if they were prospective, had follow-up >3 years, had duration of sleep at baseline, and all-cause mortality prospectively. We extracted relative risks (RR) and 95% confidence intervals (CI) and pooled them using a random effect model. We carried out sensitivity analyses and assessed heterogeneity and publication bias.<h4>Results</h4>Overall, the 16 studies analyzed provided 27 independent cohort samples. They included 1,382,999 male and female participants (followup range 4 to 25 years), and 112,566 deaths. Sleep duration was assessed by questionnaire and outcome through death certification. In the pooled analysis, short duration of sleep was associated with a greater risk of death (RR: 1.12; 95% CI 1.06 to 1.18; P < 0.01) with no evidence of publication bias (P = 0.74) but heterogeneity between studies (P = 0.02). Long duration of sleep was also associated with a greater risk of death (1.30; [1.22 to 1.38]; P < 0.0001) with no evidence of publication bias (P = 0.18) but significant heterogeneity between studies (P < 0.0001).<h4>Conclusion</h4>Both short and long duration of sleep are significant predictors of death in prospective population studies."
+    },
+    {
+      "doi": "10.1161/jaha.117.005947",
+      "url": "https://doi.org/10.1161/jaha.117.005947",
+      "level_read": "cached primary abstract",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/ac28c0b40432ac8d05e6.json",
+      "raw_sha256": "98c51d0413641e44f48552c41f8e464f91300ab4900c35575b04092c1ecb76df",
+      "verified_date": "2026-10-18",
+      "method": "Read cached EuropePMC core abstract; not a fresh HTTP lookup",
+      "primaryquote": "<h4>Background</h4>Effects of extreme sleep duration on risk of mortality and cardiovascular outcomes remain controversial. We aimed to quantify the dose-response relationships of sleep duration with risk of all-cause mortality, total cardiovascular disease, coronary heart disease, and stroke.<h4>Methods and results</h4>PubMed and Embase were systematically searched for prospective cohort studies published before December 1, 2016, that examined the associations between sleep duration and at least 1 of the 4 outcomes in generally healthy populations. U-shaped associations were indicated between sleep duration and risk of all outcomes, with the lowest risk observed for ≈7-hour sleep duration per day, which was varied little by sex. For all-cause mortality, when sleep duration was <7 hours per day, the pooled relative risk (RR) was 1.06 (95% CI, 1.04-1.07) per 1-hour reduction; when sleep duration was >7 hours per day, the pooled RR was 1.13 (95% CI, 1.11-1.15) per 1-hour increment. For total cardiovascular disease, the pooled RR was 1.06 (95% CI, 1.03-1.08) per 1-hour reduction and 1.12 (95% CI, 1.08-1.16) per 1-hour increment of sleep duration. For coronary heart disease, the pooled RR was 1.07 (95% CI, 1.03-1.12) per 1-hour reduction and 1.05 (95% CI, 1.00-1.10) per 1-hour increment of sleep duration. For stroke, the pooled RR was 1.05 (95% CI, 1.01-1.09) per 1-hour reduction and 1.18 (95% CI, 1.14-1.21) per 1-hour increment of sleep duration.<h4>Conclusions</h4>Our findings indicate that both short and long sleep duration is associated with an increased risk of all-cause mortality and cardiovascular events."
+    },
+    {
+      "doi": "10.1093/sleep/zsad253",
+      "url": "https://doi.org/10.1093/sleep/zsad253",
+      "level_read": "cached primary abstract",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/41a3b8c317dcaf2b78ce.json",
+      "raw_sha256": "bbe3c6e197b4bdde8f789c7779095a99a4b602eb556cbe746fd5a3e4a01d5e65",
+      "verified_date": "2026-10-18",
+      "method": "Read cached EuropePMC core abstract; not a fresh HTTP lookup",
+      "primaryquote": "Abnormally short and long sleep are associated with premature mortality, and achieving optimal sleep duration has been the focus of sleep health guidelines. Emerging research demonstrates that sleep regularity, the day-to-day consistency of sleep-wake timing, can be a stronger predictor for some health outcomes than sleep duration. The role of sleep regularity in mortality, however, has not been investigated in a large cohort with objective data. We therefore aimed to compare how sleep regularity and duration predicted risk for all-cause and cause-specific mortality. We calculated Sleep Regularity Index (SRI) scores from > 10 million hours of accelerometer data in 60 977 UK Biobank participants (62.8 ± 7.8 years, 55.0% female, median[IQR] SRI: 81.0[73.8-86.3]). Mortality was reported up to 7.8 years after accelerometer recording in 1859 participants (4.84 deaths per 1000 person-years, mean (±SD) follow-up of 6.30 ± 0.83 years). Higher sleep regularity was associated with a 20%-48% lower risk of all-cause mortality (p < .001 to p = 0.004), a 16%-39% lower risk of cancer mortality (p < 0.001 to p = 0.017), and a 22%-57% lower risk of cardiometabolic mortality (p < 0.001 to p = 0.048), across the top four SRI quintiles compared to the least regular quintile. Results were adjusted for age, sex, ethnicity, and sociodemographic, lifestyle, and health factors. Sleep regularity was a stronger predictor of all-cause mortality than sleep duration, by comparing equivalent mortality models, and by comparing nested SRI-mortality models with and without sleep duration (p = 0.14-0.20). These findings indicate that sleep regularity is an important predictor of mortality risk and is a stronger predictor than sleep duration. Sleep regularity may be a simple, effective target for improving general health and survival."
+    },
+    {
+      "doi": "10.1111/joim.70133",
+      "url": "https://doi.org/10.1111/joim.70133",
+      "level_read": "cached primary abstract",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/6ec72dd8f254bf56dca9.json",
+      "raw_sha256": "d41a6b38ac83c8b568748447185fd8f4ab8ed08f0d51d0b2fd948a68b11db58c",
+      "verified_date": "2026-10-18",
+      "method": "Read cached EuropePMC core abstract; not a fresh HTTP lookup",
+      "primaryquote": "<h4>Background</h4>Cardiovascular disease (CVD) remains the leading cause of mortality worldwide, yet many events occur in individuals not fully explained by traditional clinical and lifestyle factors. Social jet lag reflects misalignment between biological timing and socially imposed sleep schedules and may represent an overlooked behavioral circadian cardiovascular risk factor.<h4>Objective</h4>To determine whether accelerometer-derived social jet lag is independently associated with incident CVD beyond established clinical factors, sleep-related characteristics, and cardiac genetic risk.<h4>Methods</h4>Sleep timing was assessed using wrist accelerometry in 51,562 UK Biobank participants. Social jet lag was defined as the absolute difference between weekday and weekend mid-sleep timing. Participants were prospectively followed for incident CVD, including myocardial infarction, ischemic heart disease, heart failure, stroke, and atrial fibrillation (3853 events).<h4>Results</h4>Higher social jet lag was associated with increased CVD incidence after multivariable adjustment. Each standard deviation increase in social jet lag increased composite CVD risk (hazard ratio [HR] 1.05, 95% confidence interval [CI] 1.02-1.09, p = 0.0015). Individuals with ≥2 h of social jet lag had greater CVD risk (HR 1.30, 95% CI 1.11-1.54, p = 0.0014). Associations were strongest for myocardial infarction, ischemic heart disease, and heart failure. Severe social jet lag remained associated with CVD even among individuals with normal sleep duration, whereas sleep duration itself was not independently associated with risk. Social jet lag also remained independently associated with CVD after accounting for cardiac genetic risk.<h4>Conclusion</h4>Social jet lag was associated with incident CVD independent of sleep duration and cardiac genetic susceptibility, supporting a role for circadian misalignment in cardiovascular pathophysiology."
+    },
+    {
+      "doi": "10.1093/sleep/33.5.585",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2864873/",
+      "level_read": "primary full-text HTML, definitions and limitations paragraphs",
+      "raw_path": "/tmp/ch02e13-primary.html",
+      "raw_sha256": "7b60175fa0e9326c1f0a4488a84215d01e5880eefba9abe220972daf4602fc8a",
+      "verified_date": "2026-10-18",
+      "method": "HTTPS urllib.request with default certificate verification; HTML parsed with lxml",
+      "primaryquotes": [
+        "In each study we identified the reference category, being 7 h per night in the majority of studies, 6 , 7 , 9 , 19 – 22  7 to 8 h, 23 – 26  7 to 9 h, 27 , 28  6 to 8 h, 10  and 9 h. 29  Short sleep was ≤ 5 h per night, 6 , 7 , 20 , 22  ≤ 6 h, 10 , 19 , 23 , 25  < 7 h, 21 , 24 , 26 – 29  ≤ 4 h. 9  Long sleep was defined as > 8 h per night, 10 , 19 , 24 , 30  ≥ 9 h, 6 , 7 , 20 , 22 , 23 , 25 – 28  ≥ 10 h, 9 , 21  and ≥ 12 h. 29",
+        "First, the quality of the data cannot go beyond the quality of the individual studies included. 31  Second, a meta-analysis of observational data, though prospective, is open to important fallacies in that it cannot directly control for confounding. We made an attempt to allow for multiple confounding by including adjusted estimates from multivariate models from each contributing study. However, residual confounding and bias remain a possibility. Third, the results can only be representative of the studies that have been included and are unable to provide a representative inference of all studies published, but not included. Nevertheless, there was no evidence of publication bias. These results are therefore important in guiding the assessment of current evidence and the definition of future research strategies and public health policy decisions."
+      ]
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5634263/fullTextXML",
+      "level_read": "cached primary XML, relevant results and limitations paragraphs",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/pmc-fulltext/PMC5634263.xml",
+      "raw_sha256": "7401ff314417e19ab78ad832f4048a5adf5a17d51fdd700d97eeb1bce95c6ddb",
+      "verified_date": "2026-10-18",
+      "method": "Read cached XML with lxml; not a fresh fetch",
+      "primaryquotes": [
+        "The potential mechanisms underlying the association between long sleep duration and adverse outcomes are considered more speculative. Some insisted that the elevated risk of long sleep duration most likely represented the confounding effects of subhealthy status or uncontrolled chronic illness, such as obstructive sleep apnea, a known cause of increased need for sleep and an identified risk factor for mortality and cardiovascular events.88 As mentioned, changes in inflammatory markers and vascular health come with long sleep duration, as shown by new evidence in recent years. First, long sleep duration may be associated with an increased risk of atherosclerosis.82 Second, excessive time in bed has been linked to increased sleep fragmentation,89 which was considered to be associated with more severe arteriolosclerosis and subcortical macroscopic infarcts. These were independent risk factors of CVD and several medical comorbidities.90 Third, long sleep duration has been linked with feelings of fatigue and lethargy, which in turn would cause sleep extension. These states may fail to provide sufficient restoration against stress and disease and then lead to increased mortality.91 Finally, long duration of sleep was associated with depressive symptoms, low socioeconomic status, unemployment, low household income, low level of education, and other risk factors for mortality and cardiovascular events.92 Further experimental studies are warranted to explore the potential effects of sleep extension on health outcomes.",
+        "In summary, our dose‐response meta‐analysis of prospective studies provides further evidence that sleep duration that is either too short or too long is associated with higher risk of all‐cause mortality and cardiovascular events, with the lowest risk with ≈7 hours per day of sleep duration. Longer term randomized controlled trials are needed to establish causality and to elucidate the underlying mechanisms."
+      ]
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10782501/fullTextXML",
+      "level_read": "cached primary XML, relevant results and limitations paragraphs",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/pmc-fulltext/PMC10782501.xml",
+      "raw_sha256": "c60cf4619010806636c8cb76ae9388b6c98a33308f63c979c1acd6a80730eb69",
+      "verified_date": "2026-10-18",
+      "method": "Read cached XML with lxml; not a fresh fetch",
+      "primaryquotes": [
+        "Across > 10 million hours of actigraphy data in 60 977 UK Biobank participants, we found that more regular sleep was a significant predictor of lower risk of all-cause mortality. Participants in the top four quintiles (SRI 71.6–98.5) had a 20%–48% lower risk of all-cause mortality compared to those with SRI scores in the bottom quintile (SRI < 71.6). Notably, sleep regularity was a stronger predictor of all-cause mortality than sleep duration. We assessed this by comparison of equivalent SRI-only and duration-only models, and by comparison of nested SRI-duration models. These results were robust to adjustment for age, sex, ethnicity, physical activity, smoking status, shift work status, sociodemographic and lifestyle factors, and additional adjustments for mid-sleep timing, preexisting cancer, diabetes, vascular events, high BMI, high cholesterol ratio, and baseline mental health.",
+        "There are several limitations in this study. First, the single week of data collected for each individual provides only a snapshot of their sleep–wake patterns, and future work should collect sleep–wake data over a longer timeframe and include multiple weekend-weekday transitions. It is nevertheless interesting that even a snapshot of sleep behaviors is predictive of mortality for a follow-up period of several years. Second, accelerometer recordings did not occur simultaneously with collection of baseline covariates, and some of these covariates may not remain temporally stable within each individual. Third, our findings are within an older age group of mostly homogeneous ethnicity, and should be replicated across other cohorts, including cross-culturally. Fourth, our fully adjusted models contain variables that potentially have both confounding and mediating effects (e.g. smoking status). The true strength of the sleep regularity-mortality relationship therefore likely lies between our minimally adjusted models, which contain only non-mediating covariates, and our fully adjusted models. Finally, we acknowledge the correlational nature of our findings. Sleep regularity may be both a cause and marker of premature mortality risk."
+      ]
+    }
+  ],
+  "intentional_numerical_scope_changes": [
+    "쉽게의 7시간 미만·10% 설명을 삭제했습니다. 20~48%는 최상 한 집단이 아닌 상위 네 집단의 비교 범위입니다.",
+    "이득의 RR1.12/1.30은 유지하며 서로 다른 연구별 분류를 명시했습니다.",
+    "비고의 대부분이라는 미검증 비율을 가능성으로 제한했습니다."
+  ],
+  "doi_changes": {
+    "added": [],
+    "removed": [],
+    "reason": "기존 네 DOI를 보존했습니다."
+  },
+  "checks": {
+    "easy_chars": 82,
+    "easy_sentences": 2,
+    "modified_sentence_lengths": [
+      {
+        "field": "쉽게",
+        "sentence": "수면이 규칙적인 네 집단은 가장 불규칙한 집단보다 사망 위험이 20~48% 낮았습니다.",
+        "chars": 48
+      },
+      {
+        "field": "쉽게",
+        "sentence": "잠을 규칙적으로 자서 위험이 줄었다고 단정할 수는 없습니다.",
+        "chars": 33
+      },
+      {
+        "field": "이득",
+        "sentence": "짧게 자는 집단은 연구별 기준 집단보다 사망 위험이 약 12% 높았습니다(RR 1.12).",
+        "chars": 50
+      },
+      {
+        "field": "이득",
+        "sentence": "오래 자는 집단은 약 30% 높았습니다(RR 1.30).",
+        "chars": 31
+      },
+      {
+        "field": "이득",
+        "sentence": "짧은 수면의 기준은 4시간 이하부터 7시간 미만까지 연구마다 달랐습니다.",
+        "chars": 40
+      },
+      {
+        "field": "이득",
+        "sentence": "긴 수면과 비교 집단의 기준도 연구마다 달랐습니다.",
+        "chars": 28
+      },
+      {
+        "field": "이득",
+        "sentence": "RR은 비교 집단에 대한 상대위험입니다.",
+        "chars": 22
+      },
+      {
+        "field": "비고",
+        "sentence": "오래 자는 사람의 높은 위험에는 기존 질병이 영향을 줬을 수 있습니다.",
+        "chars": 39
+      },
+      {
+        "field": "비고",
+        "sentence": "우울, 만성질환, 수면무호흡 등이 관련될 수 있습니다.",
+        "chars": 30
+      },
+      {
+        "field": "비고",
+        "sentence": "잠을 오래 자서 위험이 커졌다고 단정할 수는 없습니다.",
+        "chars": 30
+      },
+      {
+        "field": "비고",
+        "sentence": "여기서 수면 패턴의 규칙성에 인용한 근거는 추적 연구 두 편입니다.",
+        "chars": 37
+      }
+    ],
+    "cost_tag_unchanged": true,
+    "evidence_grade_unchanged": true,
+    "title_unchanged": true
+  },
+  "limitations": [
+    "관찰자료로 수면시간 또는 규칙성 변경의 인과효과는 확정되지 않습니다.",
+    "Kumar 논문은 원초록만 읽었습니다. 전체 논문·부록은 확인하지 않았습니다.",
+    "Cappuccio XML 실시간 요청은 HTTP500이었으나 PMC HTML의 정의·한계 문단을 직접 읽었습니다.",
+    "기존 수치와 모든 부록을 새로 전수 검증한 것은 아닙니다.",
+    "독립 exact-hash 검토 전 미채택 제안입니다."
+  ]
+}

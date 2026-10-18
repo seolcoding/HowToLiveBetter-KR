@@ -1,0 +1,182 @@
+{
+  "status": "unadopted_proposal",
+  "entry": 12,
+  "based_on": "strict-entry.md",
+  "based_on_sha256": "f3f2a17ce75fafbadbce63ce084817e76467f4a60df5b600e2cd5828bfe257f1",
+  "review_required": "독립 exact-hash 승인 전 미채택",
+  "audit_reviewed": [
+    "ch02/content-audit.md:2-12",
+    "ch02/editorial-decisions.json:entry12; editorial_proposals entry12"
+  ],
+  "changes": [
+    {
+      "field": "비용",
+      "before": "혈압약과 스타틴은 건강보험 급여 약이라 한 달 부담이 크지 않습니다. 하루 한 번 먹습니다. 다만 \"괜찮아졌다\"며 스스로 끊지 않고 버티기는 어렵습니다.",
+      "after": "혈압약과 스타틴은 건강보험 급여 약이라 한 달 부담이 크지 않습니다. 다만 \"괜찮아졌다\"며 스스로 끊지 않고 버티기는 어렵습니다.",
+      "reason": "모든 약을 하루 한 번 먹는다는 근거 없는 공통 복용 횟수 삭제. 개별 처방 횟수를 새로 추정하지 않음.",
+      "evidence_refs": [],
+      "limitations": "복용 횟수 삭제는 근거 없는 일반화 제거이며 대체 용량·횟수 주장 없음."
+    },
+    {
+      "field": "쉽게",
+      "before": "혈압이 10 mmHg 내려갈 때마다 죽을 확률이 약 13% 낮아집니다. 뇌졸중 위험은 약 27% 낮아집니다. 스타틴으로 나쁜 콜레스테롤을 1 단위 낮추면 사망 위험이 10%쯤 낮아집니다. 처방대로 먹는 사람은 자주 거르는 사람보다 사망 위험이 30%에서 45% 낮습니다.",
+      "after": "의사가 처방한 혈압약·스타틴은 임의로 끊지 마세요. 스타틴으로 나쁜 콜레스테롤을 1.0 mmol/L 낮춘 시험이 있습니다. 이때 사망 위험은 약 10% 줄었습니다.",
+      "reason": "120자 이내 3문장으로 주효과 하나만 남김. 모호한 1 단위를 1.0 mmol/L로 명시. 처방 대상과 임의 중단 금지 유지. 혈압·뇌졸중·복약 비교는 이득에 그대로 존재.",
+      "evidence_refs": [
+        "10.1016/s0140-6736(15)01225-8",
+        "10.1016/s0140-6736(10)61350-5",
+        "10.1093/eurheartj/eht295"
+      ],
+      "limitations": "원초록 확인 범위. 개별 처방·용량이나 개인의 절대위험으로 확대하지 않음."
+    },
+    {
+      "field": "이득",
+      "before": "사람들을 무작위로 나눠 비교한 시험 결과를 합쳤습니다. 수축기 혈압이 10 mmHg 내려갈 때마다 사망 위험이 줄었습니다. 감소 폭은 약 13%입니다(RR 0.87). 수축기 혈압은 혈압 중 높은 쪽 값입니다. 주요 심혈관 사건은 약 20% 감소합니다(RR 0.80). 뇌졸중은 약 27% 감소합니다(RR 0.73). 심부전은 약 28% 감소합니다(RR 0.72). 스타틴은 저밀도지단백 콜레스테롤(LDL)을 낮춥니다. LDL이 1.0 mmol/L 내려갈 때마다 사망 위험이 줄었습니다. 감소 폭은 약 10%입니다(RR 0.90). LDL이 같은 폭으로 내려가면 주요 혈관 사건은 약 22% 감소합니다(RR 0.78). 약을 꾸준히 먹는 정도를 살핀 연구는 추적 기록을 합쳤습니다. 처방받은 약을 80% 이상 먹는 사람은 사망 위험이 낮습니다. 자주 거르는 사람과 비교한 결과입니다. 스타틴은 약 45% 낮습니다(RR 0.55). 혈압약은 약 29% 낮습니다(RR 0.71).",
+      "after": "사람들을 무작위로 나눠 비교한 시험 결과를 합쳤습니다. 수축기 혈압이 10 mmHg 내려갈 때마다 사망 위험이 줄었습니다. 감소 폭은 약 13%입니다(RR 0.87). 수축기 혈압은 혈압 중 높은 쪽 값입니다. 주요 심혈관 사건은 약 20% 감소합니다(RR 0.80). 뇌졸중은 약 27% 감소합니다(RR 0.73). 심부전은 약 28% 감소합니다(RR 0.72). 스타틴은 저밀도지단백 콜레스테롤(LDL)을 낮춥니다. LDL은 흔히 나쁜 콜레스테롤이라고 부릅니다. LDL이 1.0 mmol/L 내려갈 때마다 사망 위험이 줄었습니다. 감소 폭은 약 10%입니다(RR 0.90). LDL이 같은 폭으로 내려가면 주요 혈관 사건은 약 22% 감소합니다(RR 0.78). 약을 꾸준히 먹는 정도를 살핀 연구는 추적 기록을 합쳤습니다. 처방받은 약을 80% 이상 먹는 사람은 사망 위험이 낮습니다. 복용률이 80% 미만인 사람과 비교한 결과입니다. 스타틴은 약 45% 낮습니다(RR 0.55). 혈압약은 약 29% 낮습니다(RR 0.71).",
+      "reason": "LDL을 일상말로 설명. 복약 비교군을 원초록의 <80%로 정확히 명시. 약물별 RR와 단위 보존.",
+      "evidence_refs": [
+        "10.1016/s0140-6736(15)01225-8",
+        "10.1016/s0140-6736(10)61350-5",
+        "10.1093/eurheartj/eht295"
+      ],
+      "limitations": "원초록 확인 범위. 개별 처방·용량이나 개인의 절대위험으로 확대하지 않음."
+    },
+    {
+      "field": "비고",
+      "before": "의사가 약을 처방한 사람만 이 권고를 따르세요. 건강한 사람이 먹을 약이 아닙니다. \"꾸준히 먹은 사람\"의 수치는 추적 기록에서 나왔습니다. 약을 성실히 먹는 사람은 평소 자기 관리도 잘하는 경우가 많습니다. 그래서 약의 이득이 크게 잡혔습니다. 앞의 두 무작위 시험 수치가 더 믿을 만합니다. 혈당을 더 낮춰도 총사망률 감소 효과는 혈압·지질만큼 일관되지 않습니다. 혈당을 더 낮추라는 권고는 포함하지 않습니다.",
+      "after": "의사가 약을 처방한 사람만 이 권고를 따르세요. 건강한 사람이 먹을 약이 아닙니다. \"꾸준히 먹은 사람\"의 수치는 추적 기록에서 나왔습니다. 약을 성실히 먹는 사람은 평소 자기 관리도 잘하는 경우가 많습니다. 그래서 약의 이득이 실제보다 크게 잡혔을 수 있습니다. 앞의 두 무작위 시험 수치가 더 믿을 만합니다. 혈당을 더 낮춰도 총사망률 감소 효과는 혈압·지질만큼 일관되지 않습니다. 혈당을 더 낮추라는 권고는 포함하지 않습니다.",
+      "reason": "자기 관리 차이에 따른 교란은 이 초록만으로 과대추정 여부를 확정할 수 없어 가능성으로 제한.",
+      "evidence_refs": [
+        "10.1016/s0140-6736(15)01225-8",
+        "10.1016/s0140-6736(10)61350-5",
+        "10.1093/eurheartj/eht295"
+      ],
+      "limitations": "원초록 확인 범위. 개별 처방·용량이나 개인의 절대위험으로 확대하지 않음."
+    }
+  ],
+  "primary_sources": [
+    {
+      "doi": "10.1016/s0140-6736(15)01225-8",
+      "url": "https://doi.org/10.1016/s0140-6736(15)01225-8",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/9d76eccee18ffd543f24.json",
+      "raw_sha256": "b7a3ddb2081a5387b1c14184aa4197a5811593b6ece4061e5b5ba77af0d85f22",
+      "provenance": {
+        "doi": "10.1016/S0140-6736(15)01225-8",
+        "chapters": [
+          1,
+          2
+        ],
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2FS0140-6736%2815%2901225-8%22&format=json&resultType=core&pageSize=10",
+        "fetched_at": "2026-10-18T20:49:41.563609+09:00",
+        "http_status": 200,
+        "status": "exact_doi_metadata_cached",
+        "sha256": "b7a3ddb2081a5387b1c14184aa4197a5811593b6ece4061e5b5ba77af0d85f22",
+        "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/9d76eccee18ffd543f24.json",
+        "hit_count": 1,
+        "abstract_present": true
+      },
+      "verification_date": "2026-10-18",
+      "method": "제공된 EuropePMC core RAW JSON의 원초록을 직접 열람. 새 HTTP 요청 아님.",
+      "level": "abstract_only",
+      "primary_quote": "<h4>Background</h4>The benefits of blood pressure lowering treatment for prevention of cardiovascular disease are well established. However, the extent to which these effects differ by baseline blood pressure, presence of comorbidities, or drug class is less clear. We therefore performed a systematic review and meta-analysis to clarify these differences.<h4>Method</h4>For this systematic review and meta-analysis, we searched MEDLINE for large-scale blood pressure lowering trials, published between Jan 1, 1966, and July 7, 2015, and we searched the medical literature to identify trials up to Nov 9, 2015. All randomised controlled trials of blood pressure lowering treatment were eligible for inclusion if they included a minimum of 1000 patient-years of follow-up in each study arm. No trials were excluded because of presence of baseline comorbidities, and trials of antihypertensive drugs for indications other than hypertension were eligible. We extracted summary-level data about study characteristics and the outcomes of major cardiovascular disease events, coronary heart disease, stroke, heart failure, renal failure, and all-cause mortality. We used inverse variance weighted fixed-effects meta-analyses to pool the estimates.<h4>Results</h4>We identified 123 studies with 613,815 participants for the tabular meta-analysis. Meta-regression analyses showed relative risk reductions proportional to the magnitude of the blood pressure reductions achieved. Every 10 mm Hg reduction in systolic blood pressure significantly reduced the risk of major cardiovascular disease events (relative risk [RR] 0·80, 95% CI 0·77-0·83), coronary heart disease (0·83, 0·78-0·88), stroke (0·73, 0·68-0·77), and heart failure (0·72, 0·67-0·78), which, in the populations studied, led to a significant 13% reduction in all-cause mortality (0·87, 0·84-0·91). However, the effect on renal failure was not significant (0·95, 0·84-1·07). Similar proportional risk reductions (per 10 mm Hg lower systolic blood pressure) were noted in trials with higher mean baseline systolic blood pressure and trials with lower mean baseline systolic blood pressure (all ptrend>0·05). There was no clear evidence that proportional risk reductions in major cardiovascular disease differed by baseline disease history, except for diabetes and chronic kidney disease, for which smaller, but significant, risk reductions were detected. β blockers were inferior to other drugs for the prevention of major cardiovascular disease events, stroke, and renal failure. Calcium channel blockers were superior to other drugs for the prevention of stroke. For the prevention of heart failure, calcium channel blockers were inferior and diuretics were superior to other drug classes. Risk of bias was judged to be low for 113 trials and unclear for 10 trials. Heterogeneity for outcomes was low to moderate; the I(2) statistic for heterogeneity for major cardiovascular disease events was 41%, for coronary heart disease 25%, for stroke 26%, for heart failure 37%, for renal failure 28%, and for all-cause mortality 35%.<h4>Interpretation</h4>Blood pressure lowering significantly reduces vascular risk across various baseline blood pressure levels and comorbidities. Our results provide strong support for lowering blood pressure to systolic blood pressures less than 130 mm Hg and providing blood pressure lowering treatment to individuals with a history of cardiovascular disease, coronary heart disease, stroke, diabetes, heart failure, and chronic kidney disease.<h4>Funding</h4>National Institute for Health Research and Oxford Martin School."
+    },
+    {
+      "doi": "10.1016/s0140-6736(10)61350-5",
+      "url": "https://doi.org/10.1016/s0140-6736(10)61350-5",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/879f70de45077f18cea1.json",
+      "raw_sha256": "3434d5ec9349d1183f4a9968c5f6c1bf4d3cd7a9b64247db0cf7a0597958cae2",
+      "provenance": {
+        "doi": "10.1016/S0140-6736(10)61350-5",
+        "chapters": [
+          2
+        ],
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2FS0140-6736%2810%2961350-5%22&format=json&resultType=core&pageSize=10",
+        "fetched_at": "2026-10-18T20:49:58.072488+09:00",
+        "http_status": 200,
+        "status": "exact_doi_metadata_cached",
+        "sha256": "3434d5ec9349d1183f4a9968c5f6c1bf4d3cd7a9b64247db0cf7a0597958cae2",
+        "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/879f70de45077f18cea1.json",
+        "hit_count": 1,
+        "abstract_present": true
+      },
+      "verification_date": "2026-10-18",
+      "method": "제공된 EuropePMC core RAW JSON의 원초록을 직접 열람. 새 HTTP 요청 아님.",
+      "level": "abstract_only",
+      "primary_quote": "<h4>Background</h4>Lowering of LDL cholesterol with standard statin regimens reduces the risk of occlusive vascular events in a wide range of individuals. We aimed to assess the safety and efficacy of more intensive lowering of LDL cholesterol with statin therapy.<h4>Methods</h4>We undertook meta-analyses of individual participant data from randomised trials involving at least 1000 participants and at least 2 years' treatment duration of more versus less intensive statin regimens (five trials; 39 612 individuals; median follow-up 5·1 years) and of statin versus control (21 trials; 129 526 individuals; median follow-up 4·8 years). For each type of trial, we calculated not only the average risk reduction, but also the average risk reduction per 1·0 mmol/L LDL cholesterol reduction at 1 year after randomisation.<h4>Findings</h4>In the trials of more versus less intensive statin therapy, the weighted mean further reduction in LDL cholesterol at 1 year was 0·51 mmol/L. Compared with less intensive regimens, more intensive regimens produced a highly significant 15% (95% CI 11-18; p<0·0001) further reduction in major vascular events, consisting of separately significant reductions in coronary death or non-fatal myocardial infarction of 13% (95% CI 7-19; p<0·0001), in coronary revascularisation of 19% (95% CI 15-24; p<0·0001), and in ischaemic stroke of 16% (95% CI 5-26; p=0·005). Per 1·0 mmol/L reduction in LDL cholesterol, these further reductions in risk were similar to the proportional reductions in the trials of statin versus control. When both types of trial were combined, similar proportional reductions in major vascular events per 1·0 mmol/L LDL cholesterol reduction were found in all types of patient studied (rate ratio [RR] 0·78, 95% CI 0·76-0·80; p<0·0001), including those with LDL cholesterol lower than 2 mmol/L on the less intensive or control regimen. Across all 26 trials, all-cause mortality was reduced by 10% per 1·0 mmol/L LDL reduction (RR 0·90, 95% CI 0·87-0·93; p<0·0001), largely reflecting significant reductions in deaths due to coronary heart disease (RR 0·80, 99% CI 0·74-0·87; p<0·0001) and other cardiac causes (RR 0·89, 99% CI 0·81-0·98; p=0·002), with no significant effect on deaths due to stroke (RR 0·96, 95% CI 0·84-1·09; p=0·5) or other vascular causes (RR 0·98, 99% CI 0·81-1·18; p=0·8). No significant effects were observed on deaths due to cancer or other non-vascular causes (RR 0·97, 95% CI 0·92-1·03; p=0·3) or on cancer incidence (RR 1·00, 95% CI 0·96-1·04; p=0·9), even at low LDL cholesterol concentrations.<h4>Interpretation</h4>Further reductions in LDL cholesterol safely produce definite further reductions in the incidence of heart attack, of revascularisation, and of ischaemic stroke, with each 1·0 mmol/L reduction reducing the annual rate of these major vascular events by just over a fifth. There was no evidence of any threshold within the cholesterol range studied, suggesting that reduction of LDL cholesterol by 2-3 mmol/L would reduce risk by about 40-50%.<h4>Funding</h4>UK Medical Research Council, British Heart Foundation, European Community Biomed Programme, Australian National Health and Medical Research Council, and National Heart Foundation."
+    },
+    {
+      "doi": "10.1093/eurheartj/eht295",
+      "url": "https://doi.org/10.1093/eurheartj/eht295",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/f4c786bd3453be05c2b1.json",
+      "raw_sha256": "b0a768004b00af7a2c3e0a821f508fe9ee1a1cb1b803450fea111ab8b0e2a513",
+      "provenance": {
+        "doi": "10.1093/eurheartj/eht295",
+        "chapters": [
+          2
+        ],
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1093%2Feurheartj%2Feht295%22&format=json&resultType=core&pageSize=10",
+        "fetched_at": "2026-10-18T20:49:59.109540+09:00",
+        "http_status": 200,
+        "status": "exact_doi_metadata_cached",
+        "sha256": "b0a768004b00af7a2c3e0a821f508fe9ee1a1cb1b803450fea111ab8b0e2a513",
+        "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/f4c786bd3453be05c2b1.json",
+        "hit_count": 1,
+        "abstract_present": true
+      },
+      "verification_date": "2026-10-18",
+      "method": "제공된 EuropePMC core RAW JSON의 원초록을 직접 열람. 새 HTTP 요청 아님.",
+      "level": "abstract_only",
+      "primary_quote": "<h4>Aims</h4>The aim of this study was to determine the extent to which adherence to individual vascular medications, assessed by different methods, influences the absolute and relative risks (RRs) of cardiovascular disease (CVD) and all-cause mortality.<h4>Methods and results</h4>We performed a systematic review and meta-analysis of prospective epidemiological studies (cohort, nested case-control, or clinical trial) identified through electronic searches using MEDLINE, Web of Science, EMBASE, and Cochrane databases, involving adult populations (≥ 18 years old) and reporting risk estimates of cardiovascular medication adherence with any CVD (defined as any fatal or non-fatal coronary heart disease, stroke or sudden cardiac death) and/or all-cause mortality (defined as mortality from any cause) outcomes. Relative risks were combined using random-effects models. Forty-four unique prospective studies comprising 1 978 919 non-overlapping participants, with 135 627 CVD events and 94 126 cases of all-cause mortality. Overall, 60% (95% CI: 52-68%) of included participants had good adherence (adherence ≥ 80%) to cardiovascular medications. The RRs (95% CI) of development of CVD in those with good vs. poor (<80%) adherence were 0.85 (0.81-0.89) and 0.81 (0.76-0.86) for statins and antihypertensive medications, respectively. Corresponding RRs of all-cause mortality were 0.55 (0.46-0.67) and 0.71 (0.64-0.78) for good adherence to statins and antihypertensive agents. These associations remained consistent across subgroups representing different study characteristics. Estimated absolute risk differences for any CVD associated with poor medication adherence were 13 cases for any vascular medication, 9 cases for statins and 13 cases for antihypertensive agents, per 100 000 individuals per year.<h4>Conclusion</h4>A substantial proportion of people do not adhere adequately to cardiovascular medications, and the prevalence of suboptimal adherence is similar across all individual CVD medications. Absolute and relative risk assessments demonstrate that a considerable proportion of all CVD events (~9% in Europe) could be attributed to poor adherence to vascular medications alone, and that the level of optimal adherence confers a significant inverse association with subsequent adverse outcomes. Measures to enhance adherence to help maximize the potentials of effective cardiac therapies in the clinical setting are urgently required."
+    }
+  ],
+  "intentional_numerical_scope_changes": [
+    "쉽게의 1 단위를 1.0 mmol/L로 명시",
+    "쉽게의 부차 수치는 이득에 보존",
+    "복약 비교군을 80% 미만으로 명확화",
+    "매일 1회 공통 복용 단정 삭제"
+  ],
+  "doi_changes": {
+    "added": [],
+    "removed": [],
+    "reason": "세 원출처 유지"
+  },
+  "sentence_checks": [
+    {
+      "field": "쉽게",
+      "sentence": "의사가 처방한 혈압약·스타틴은 임의로 끊지 마세요.",
+      "chars": 28
+    },
+    {
+      "field": "쉽게",
+      "sentence": "스타틴으로 나쁜 콜레스테롤을 1.0 mmol/L 낮춘 시험이 있습니다.",
+      "chars": 39
+    },
+    {
+      "field": "쉽게",
+      "sentence": "이때 사망 위험은 약 10% 줄었습니다.",
+      "chars": 22
+    },
+    {
+      "field": "이득",
+      "sentence": "LDL은 흔히 나쁜 콜레스테롤이라고 부릅니다.",
+      "chars": 25
+    },
+    {
+      "field": "이득",
+      "sentence": "복용률이 80% 미만인 사람과 비교한 결과입니다.",
+      "chars": 27
+    },
+    {
+      "field": "비고",
+      "sentence": "그래서 약의 이득이 실제보다 크게 잡혔을 수 있습니다.",
+      "chars": 30
+    }
+  ],
+  "easy_chars": 91,
+  "unresolved_limitations": [
+    "원논문 전체·부록은 이번 작업에서 읽지 않음. 세 원초록 직접 열람.",
+    "국내 급여 및 한 달 비용은 이번에 독립 검증하지 않았으며 기존 비용 문구 유지.",
+    "복약 결과는 관찰 연관성이고 자기 관리 교란의 실제 크기는 확인하지 못함.",
+    "혈당 비교는 기존 안전 범위 제한으로 보존했으며 세 원초록이 별도 혈당 비교 근거를 제공하지 않음."
+  ]
+}

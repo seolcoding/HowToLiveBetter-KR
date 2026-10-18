@@ -1,0 +1,109 @@
+{
+  "entry": 4,
+  "status": "unadopted_r2_proposal",
+  "revision_reason": "reviewer02 batch1 #4 revise: explicit trial attribution and clinician/pharmacist timing consultation",
+  "previous_proposal_sha256": "6c5ba969bdc0ff772a84daa393999e4fb44b8402a81e809a33c59365fb375d15",
+  "previous_changes_sha256": "2417ac96bf7305b4c31d42a5c11eadce420a62cc5684055cf6e5897662de7cfd",
+  "proposal_sha256": "e87a1c82e8c06fe72692141df370194afccdae2e6b8c48c8f01261fca9f3812b",
+  "verification_date": "2026-10-18",
+  "verification_method": "Independent rereading of cached primary 2016 abstract and relevant 2023 primary full-text XML paragraphs; 2019 abstract previously read, conclusions unchanged.",
+  "fields": [
+    {
+      "field": "비고",
+      "before": "논쟁 있음. 2019년 코크레인 리뷰는 두 방법을 비교했습니다. 시험 22개·9,219명에서 6개월 이상 금연을 살폈습니다. 어느 방법의 성공률이 더 높은지 확인되지 않았습니다. RR 1.01, 95% CI 0.87–1.17이었습니다. 근거의 확실성은 중간입니다. 이 값은 서서히 줄이기를 한 번에 끊기와 비교한 비율입니다. 두 방법이 완전히 같다고 입증한 뜻은 아닙니다. 두 집단 모두 금연일 전부터 니코틴 대체제를 썼습니다. 니코틴 대체제를 미리 쓰는 방법에도 근거가 있습니다. 금연일부터 쓸 때보다 미리 쓰면 성공률이 약 25% 높습니다. RR 1.25, 95% CI 1.08–1.44로 나타났습니다. 시험 9개·4,395명을 분석했고 근거의 확실성은 중간입니다. 금연일을 정하고 2주 전부터 패치를 붙이세요. 끊는 방법은 선호와 치료 지원을 고려해 선택하세요.",
+      "after": "논쟁 있음. 2019년 코크레인 리뷰는 두 방법을 비교했습니다. 시험 22개·9,219명에서 6개월 이상 금연을 살폈습니다. 어느 방법의 성공률이 더 높은지 확인되지 않았습니다. RR 1.01, 95% CI 0.87–1.17이었습니다. 근거의 확실성은 중간입니다. 이 값은 서서히 줄이기를 한 번에 끊기와 비교한 비율입니다. 두 방법이 완전히 같다고 입증한 뜻은 아닙니다. 앞의 2016년 영국 시험에서는 두 집단 모두 미리 니코틴 대체제를 썼습니다. 니코틴 대체제를 미리 쓰는 방법에도 근거가 있습니다. 금연일부터 쓸 때보다 미리 쓰면 성공률이 약 25% 높습니다. RR 1.25, 95% CI 1.08–1.44로 나타났습니다. 시험 9개·4,395명을 분석했고 근거의 확실성은 중간입니다. 금연일을 정하고 니코틴 대체제의 시작 시점은 의사·약사와 상담하세요. 끊는 방법은 선호와 치료 지원을 고려해 선택하세요.",
+      "edits": [
+        {
+          "before": "두 집단 모두 금연일 전부터 니코틴 대체제를 썼습니다.",
+          "after": "앞의 2016년 영국 시험에서는 두 집단 모두 미리 니코틴 대체제를 썼습니다.",
+          "reason": "NRT両群使用归属于2016英国单试验，不是2019综述22试验共同条件"
+        },
+        {
+          "before": "금연일을 정하고 2주 전부터 패치를 붙이세요.",
+          "after": "금연일을 정하고 니코틴 대체제의 시작 시점은 의사·약사와 상담하세요.",
+          "reason": "先用疗程2/3/4周不一，取消所有人自行两周前贴片的指令；起始时间咨询医生药师"
+        }
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "doi": "10.7326/M14-2805",
+      "url": "https://doi.org/10.7326/M14-2805",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/e8b65ecbbea63c8460dc.json",
+      "level": "primary abstract",
+      "exact_quote": "Both groups received behavioral support from nurses and used nicotine replacement before and after quit day."
+    },
+    {
+      "doi": "10.1002/14651858.CD013308.pub2",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10278922/fullTextXML",
+      "raw_path": "/tmp/ch02-audit/full-PMC10278922.body",
+      "raw_sha256": "3be1541f6b8f8643e9d674891cec0a484833b240d594da558033ebf170337919",
+      "level": "primary full-text relevant preloading paragraphs",
+      "exact_quotes": [
+        "Nine studies tested the effect of using NRT prior to quit day (preloading) in comparison to using it from quit day onward. There was moderate‐certainty evidence, limited by risk of bias, of a favourable effect of preloading on abstinence (RR 1.25, 95% CI 1.08 to 1.44; I2 = 0%; 9 studies, 4395 participants).",
+        "NRT preloading versus standard post‐quit NRT use (nine studies): traditionally, NRT is used from a quit date onward, after tobacco use has ceased. NRT preloading is when NRT is used before the quit day, whilst the participant is still smoking. Seven studies provided participants with nicotine patches pre‐quit day (Dennis 2016; Preloading Investigators 2018; Rose 1994; Rose 1998; Rose 2006; Rose 2009; Schuurmans 2004), and two studies included participants that used patch alone, gum alone and patch plus gum pre‐quit day (Bullen 2010; Piper 2016). The length of nicotine preloading also varied across studies. Seven studies initiated NRT use two weeks before the quit date (Bullen 2010; Dennis 2016; Rose 1994; Rose 1998; Rose 2006; Rose 2009; Schuurmans 2004), one initiated use three weeks before the quit date (Piper 2016), and one initiated use four weeks before the quit date (Preloading Investigators 2018). Following the quit date, all study arms received active NRT."
+      ]
+    }
+  ],
+  "inherited_primary_evidence": [
+    {
+      "doi": "10.1002/14651858.CD013183.pub2",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1002/14651858.CD013183.pub2&format=json&resultType=core",
+      "raw_path": "/tmp/ch02-audit/gradual.body",
+      "level": "cached EuropePMC primary abstract read independently",
+      "quote": "There is moderate-certainty evidence that neither reduction-to-quit nor abrupt quitting interventions result in superior long-term quit rates when compared with one another.",
+      "numeric_quote": "neither approach resulted in superior quit rates (RR 1. 01, 95% CI 0.87 to 1.17; I<sup>2</sup> = 29%; 22 studies, 9219 participants)"
+    },
+    {
+      "doi": "10.7326/M14-2805",
+      "url": "https://doi.org/10.7326/M14-2805",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/e8b65ecbbea63c8460dc.json",
+      "level": "cached EuropePMC primary abstract read independently",
+      "quote": "At 6 months, 15.5% (CI, 12.0% to 19.7%) of the participants in the gradual-cessation group were abstinent compared with 22.0% (CI, 18.0% to 26.6%) in the abrupt-cessation group (relative risk, 0.71 [CI, 0.46 to 0.91])."
+    },
+    {
+      "doi": "10.1002/14651858.CD013308.pub2",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10278922/fullTextXML",
+      "raw_path": "/tmp/ch02-audit/full-PMC10278922.body",
+      "level": "cached primary full-text XML preloading results paragraphs and abstract read independently",
+      "quote": "There was moderate‐certainty evidence, limited by risk of bias, of a favourable effect of preloading on abstinence (RR 1.25, 95% CI 1.08 to 1.44; I2 = 0%; 9 studies, 4395 participants)."
+    }
+  ],
+  "inherited_limitations": [
+    "2019 review and2016 trial: primary abstract read; full texts not read.",
+    "No claim that2019 is latest evidence as of2026."
+  ],
+  "scope_checks": {
+    "all_numerical_results_preserved": true,
+    "OR_not_RR": "No OR figures present",
+    "HR_not_probability": "No HR figures present",
+    "2019_22_trials_not_assigned_NRT_condition": true,
+    "preloading_timing_not_uniformly_two_weeks": true
+  },
+  "doi_changes_from_r1": {
+    "added": [],
+    "removed": []
+  },
+  "unchanged_fields": [
+    "title",
+    "cost_tag",
+    "비용",
+    "쉽게",
+    "이득",
+    "근거등급",
+    "출처"
+  ],
+  "sentence_lengths": [
+    {
+      "sentence": "앞의 2016년 영국 시험에서는 두 집단 모두 미리 니코틴 대체제를 썼습니다.",
+      "len": 43
+    },
+    {
+      "sentence": "금연일을 정하고 니코틴 대체제의 시작 시점은 의사·약사와 상담하세요.",
+      "len": 38
+    }
+  ],
+  "easy_chars": 78,
+  "frozen_files_unchanged": true
+}

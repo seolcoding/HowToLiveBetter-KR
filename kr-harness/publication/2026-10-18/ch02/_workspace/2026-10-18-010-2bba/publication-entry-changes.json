@@ -1,0 +1,219 @@
+{
+  "status": "unadopted_proposal",
+  "entry": 10,
+  "base": "strict-entry.md",
+  "base_sha256": "a2c13ba5779972424402c2dbd19c8dcf78169521258f750e9a0634454bde4de5",
+  "changes": [
+    {
+      "field": "비용",
+      "before": "치실이나 치간칫솔은 1년에 몇만 원이 채 안 됩니다. 스케일링은 만 19세 이상이면 해마다(1월 1일~12월 31일) 한 번 건강보험이 적용됩니다. 한 해에 두 번째부터는 건강보험이 적용되지 않습니다. 매일 2~3분 더 씁니다. 치아 사이를 매일 청소하는 습관을 들이기가 어렵습니다.",
+      "after": "치실이나 치간칫솔은 1년에 몇만 원이 채 안 됩니다. 단독 스케일링 급여는 만 19세 이상 가입자·피부양자 대상입니다. 매년 1월 1일~12월 31일 중 한 번 적용됩니다. 이 목적의 연 두 번째 시술부터는 비급여입니다. 치주질환 수술 전 치석 제거는 별도 급여가 가능합니다. 이 경우 만 19세 미만도 급여가 가능합니다. 매일 2~3분 더 씁니다. 치아 사이를 매일 청소하는 습관을 들이기가 어렵습니다.",
+      "changed": true,
+      "reason": "단독 스케일링 연1회 급여의 가입자·피부양자 및 연령 조건을 명시하고 전면 비급여 단정을 제한합니다. 치주질환 수술 전 치석 제거의 별도 급여와 만19세 미만 예외를 남깁니다.",
+      "source_indices": [
+        2
+      ]
+    },
+    {
+      "field": "쉽게",
+      "before": "치실·치간칫솔로 매일 치아 사이를 닦는 사람을 비교했습니다. 같은 기간 사망 확률이 10%쯤 낮습니다. 이가 다 빠진 노인은 죽을 확률이 90%쯤 높습니다. 남은 이가 스무 개 안 되면 사망 확률이 두 배에 가깝습니다.",
+      "after": "일본 노인 중 치간 청소 도구를 쓴 쪽은 안 쓴 쪽보다 사망 위험이 약 10% 낮았습니다. 도구 사용이 수명을 늘렸다고 단정할 수는 없습니다.",
+      "changed": true,
+      "reason": "매일 사용효과로 오인하는 표현과 오즈를 확률로 바꾸는 요약을 제거합니다. 일본 노인의 도구 사용 여부 비교를 중심으로 약10% 방향과 인과 불확실성을 일반말로 요약합니다.",
+      "source_indices": [
+        0
+      ]
+    },
+    {
+      "field": "이득",
+      "before": "일본에서 진행한 연구입니다. 9,676명을 6년 추적했습니다. 치간 청소 도구 사용자의 사망 위험은 약 11% 낮습니다. 위험비는 0.89입니다. 혀 클리너 사용자의 사망 위험은 약 23% 낮습니다(0.77). 지역사회 노인을 대상으로 한 여러 연구도 합쳤습니다. 이가 하나도 없는 사람은 사망 오즈가 약 1.87배입니다. 오즈는 사망 확률을 생존 확률로 나눈 값입니다. OR의 95% CI는 1.35–2.59로 추정 범위를 나타냅니다. 이가 20개 미만이면 사망 오즈는 약 2.04배입니다(1.67–2.49).",
+      "after": "일본에서 스스로 생활하는 노인을 조사했습니다. 이가 하나도 없는 사람은 제외했습니다. 9,676명을 6년 추적했습니다. 치간 청소 도구 사용자의 사망 위험은 약 11% 낮습니다. 시간에 따른 사망 위험을 비교한 값은 0.89입니다. 혀 클리너 사용자의 사망 위험은 약 23% 낮습니다(0.77). 지역사회에 사는 50세 이상 성인 연구도 합쳤습니다. 이가 하나도 없는 사람은 사망 오즈가 약 1.87배입니다. 오즈는 사망 확률을 생존 확률로 나눈 값입니다. 이 값의 95% 추정 범위는 1.35–2.59입니다. 이가 20개 미만이면 사망 오즈는 약 2.04배입니다. 95% 추정 범위는 1.67–2.49입니다. 사망 오즈가 두 배여도 사망 확률이 두 배란 뜻은 아닙니다.",
+      "changed": true,
+      "reason": "일본 연구의 생활자립·무치악 제외 범위와 종합연구의 50세 이상 범위를 보완합니다. 위험비와 추정범위를 풀고 오즈와 확률의 차이를 명시합니다.",
+      "source_indices": [
+        0,
+        1
+      ]
+    },
+    {
+      "field": "근거등급",
+      "before": "B",
+      "after": "B",
+      "changed": false,
+      "reason": "원문 유지",
+      "source_indices": []
+    },
+    {
+      "field": "출처",
+      "before": "Wang K, Matsuyama Y, Kiuchi S, et al. (2026). Routine oral health practices and all-cause mortality. Journal of Dentistry. <https://doi.org/10.1016/j.jdent.2026.106789>; Ko MJ, Seo S, So JS, et al. (2026). Deteriorated oral health and function as risk factors for physical disability and mortality in community-dwelling older adults: a systematic review and meta-analysis. European Geriatric Medicine. <https://doi.org/10.1007/s41999-025-01319-4>; 국민건강보험공단 소식지(2024.4). 1년에 한 번 스케일링 혜택 받자(만 19세 이상, 매년 1월 1일~12월 31일 1회 급여). <https://www.nhis.or.kr/static/alim/paper/oldpaper/202404/sub/section1_5.html>",
+      "after": "Wang K, Matsuyama Y, Kiuchi S, et al. (2026). Routine oral health practices and all-cause mortality. Journal of Dentistry. <https://doi.org/10.1016/j.jdent.2026.106789>; Ko MJ, Seo S, So JS, et al. (2026). Deteriorated oral health and function as risk factors for physical disability and mortality in community-dwelling older adults: a systematic review and meta-analysis. European Geriatric Medicine. <https://doi.org/10.1007/s41999-025-01319-4>; 국민건강보험공단 소식지(2024.4). 1년에 한 번 스케일링 혜택 받자(만 19세 이상, 매년 1월 1일~12월 31일 1회 급여). <https://www.nhis.or.kr/static/alim/paper/oldpaper/202404/sub/section1_5.html>",
+      "changed": false,
+      "reason": "원문 유지",
+      "source_indices": []
+    },
+    {
+      "field": "비고",
+      "before": "논쟁 있음. 이런 연구는 사람들을 추적해 기록한 결과입니다. 치아가 나쁜 사람은 전반적인 건강과 형편도 나쁜 경우가 많습니다. 치아 때문에 몸이 나빠졌는지는 가려내기 어렵습니다. 몸이 나빠져 치아도 망가졌을 가능성이 있습니다. 그래도 치아 사이를 청소하는 데는 비용이 거의 들지 않습니다. 치주염이 있거나 이가 빠지면 음식을 먹기 어렵습니다. 치아 하나 심는 비용과 치과 건강보험 적용 범위도 확인하세요. 임플란트 비용은 제24절(병원 이용)에서 다룹니다.",
+      "after": "논쟁 있음. 이런 연구는 사람들을 추적해 기록한 결과입니다. 치아가 나쁜 사람은 전반적인 건강과 형편도 나쁜 경우가 많습니다. 치아 때문에 몸이 나빠졌는지는 가려내기 어렵습니다. 몸이 나빠져 치아도 망가졌을 가능성이 있습니다. 그래도 치아 사이를 청소하는 데는 비용이 거의 들지 않습니다. 치주염이 있거나 이가 빠지면 음식을 먹기 어렵습니다. 치아 하나 심는 비용과 치과 건강보험 적용 범위도 확인하세요. 임플란트 비용은 제24절(병원 이용)에서 다룹니다.",
+      "changed": false,
+      "reason": "원문 유지",
+      "source_indices": []
+    }
+  ],
+  "sources": [
+    {
+      "doi": "10.1016/j.jdent.2026.106789",
+      "url": "https://doi.org/10.1016/j.jdent.2026.106789",
+      "retrieval_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2Fj.jdent.2026.106789%22&format=json&resultType=core&pageSize=10",
+      "level_read": "cached primary abstract; full text not read",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/85937fcbb2df949bcf5f.json",
+      "raw_sha256": "93f56ff3022c182c90b1f1a46d4b1b5e5028e35b0b0005fb5eda4ff445684a0c",
+      "cache_metadata": {
+        "doi": "10.1016/j.jdent.2026.106789",
+        "chapters": [
+          2
+        ],
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2Fj.jdent.2026.106789%22&format=json&resultType=core&pageSize=10",
+        "fetched_at": "2026-10-18T20:49:56.891764+09:00",
+        "http_status": 200,
+        "status": "exact_doi_metadata_cached",
+        "sha256": "93f56ff3022c182c90b1f1a46d4b1b5e5028e35b0b0005fb5eda4ff445684a0c",
+        "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/85937fcbb2df949bcf5f.json",
+        "hit_count": 1,
+        "abstract_present": true
+      },
+      "exact_primary_quote": "<h4>Objectives</h4>To examine whether multiple routine oral health practices reduce all-cause mortality, and how these associations are modified by sociodemographic, behavioral, and health related factors.<h4>Methods</h4>Data were derived from the Japan Gerontological Evaluation Study (JAGES), with participants enrolled between 3 October and 14 November 2016. Participants who were not certified for long-term care insurance and completed the questionnaire version including oral health practice items were eligible; edentulous or not functionally independent individuals were excluded. Participants were categorized according to engagement in seven routine practices: toothbrushing ≥twice/day, use of interdental cleaner, tongue cleaner, toothpaste, mouthwash, and dental visits for treatment or checkups in the past 12 months. The outcome was all-cause mortality through 20 June 2023. Hazard ratios (HRs) and 95% confidence intervals (CIs) were estimated using inverse probability weighted Cox proportional hazard models, adjusting for confounding. For oral health practices exhibiting significant association, moderator wide analyses were conducted to explore potential effect modification by age, sex, education, income, smoking, alcohol consumption, body mass index, walking time, living status, self-rated health, number of teeth, and depression.<h4>Results</h4>During the 6-year follow-up, the mortality incidence rate was 17.3/1000 person-year among 9676 participants (46.5% male; mean age=73.7 ± 5.9 years). Significant risk reductions in all-cause mortality were observed for interdental cleaner use (HR=0.89; 95% CI=0.80-0.99) and tongue cleaner use (HR=0.77; 95%CI=0.68-0.87). No significant effect modification was detected.<h4>Conclusions</h4>In this nationwide cohort study, the use of interdental and tongue cleaners was associated with lower all-cause mortality among community-dwelling Japanese older adults during 6 years of follow-up.<h4>Clinical significance</h4>The results suggest that simple and low-cost practices may contribute to healthy longevity in ageing societies, and support further investigation into potential mechanisms, including pathways related to aspiration and respiratory infections.",
+      "verified_on": "2026-10-18",
+      "method": "Read supplied EuropePMC core raw abstract and metadata directly"
+    },
+    {
+      "doi": "10.1007/s41999-025-01319-4",
+      "url": "https://doi.org/10.1007/s41999-025-01319-4",
+      "retrieval_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1007%2Fs41999-025-01319-4%22&format=json&resultType=core&pageSize=10",
+      "level_read": "cached primary abstract; full text not read",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/7687b13873bdd5f9ebb2.json",
+      "raw_sha256": "fbd10720869ab483276c9e4398656e10c862cee639691d40cc41ab8d9aac3ff9",
+      "cache_metadata": {
+        "doi": "10.1007/s41999-025-01319-4",
+        "chapters": [
+          2
+        ],
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1007%2Fs41999-025-01319-4%22&format=json&resultType=core&pageSize=10",
+        "fetched_at": "2026-10-18T20:49:57.089939+09:00",
+        "http_status": 200,
+        "status": "exact_doi_metadata_cached",
+        "sha256": "fbd10720869ab483276c9e4398656e10c862cee639691d40cc41ab8d9aac3ff9",
+        "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/7687b13873bdd5f9ebb2.json",
+        "hit_count": 1,
+        "abstract_present": true
+      },
+      "exact_primary_quote": "<h4>Purpose</h4>This comprehensive systematic review examined the relationship between oral health and function and the incidence of physical disability and mortality.<h4>Methods</h4>Ovid-MEDLINE, Ovid-EMBASE, and the Cochrane Library were systematically searched, updated February 24th, 2025. Eligible studies included community-dwelling adults aged 50 years or older who underwent oral health-related assessments or interventions and reported outcomes related to physical disability or mortality. Random-effects meta-analysis was used to pool estimates, and subgroup analyses were performed by follow-up duration, study design, and participant age. Risk of bias was assessed using the Risk of Bias for Assessment tool for Nonrandomized Studies version 2.0. tool.<h4>Results</h4>Of the 32 articles included, 7 explored the association between oral health or function-related factors and physical disability, 22 investigated mortality outcomes, and 3 examined both outcomes. In total, 441,508 participants were included. Edentulism (OR, 1.73, 95% CI [1.48-2.01], I<sup>2</sup> = 0%) was significantly associated with physical disability. Regarding mortality, significant risk factors included reduced swallowing function (OR, 2.11, 95% CI [1.88-2.37], I<sup>2</sup> = 0%), oral frailty (OR, 2.06, 95% CI [1.87-2.27], I<sup>2</sup> = 0%), fewer than 20 teeth (OR, 2.04, 95% CI [1.67-2.49], I<sup>2</sup> = 89.7%), edentulism (OR, 1.87, 95% CI [1.35-2.59], I<sup>2</sup> = 97.0%), and chewing difficulty (OR, 1.77, 95% CI [1.08-2.91], I<sup>2</sup> = 95.9%).<h4>Conclusions</h4>This systematic review revealed that oral health and function, particularly, masticatory ability and the number of teeth, significantly contributed to physical disability and mortality in older adults.",
+      "verified_on": "2026-10-18",
+      "method": "Read supplied EuropePMC core raw abstract and metadata directly"
+    },
+    {
+      "url": "https://www.nhis.or.kr/static/alim/paper/oldpaper/202404/sub/section1_5.html",
+      "level_read": "official NHIS April 2024 page cached raw HTML, benefit conditions paragraph",
+      "raw_path": "/tmp/ch02-audit/nhis-scale.body",
+      "raw_sha256": "91f2606c1e0bc2be9d3c1245df860ca52ed15b9b771a0f8ed0fb57d36840c20a",
+      "exact_primary_quote": "19세 이상 건강보험 가입자나 피부양자에 대해 스케일링만을 목적으로 시술하는 경우 1년 주기(매년 1월 1일부터 12월 31일까지)로 1회에 한해 건강보험을 적용하고 있다. 연 1회를 초과할 경우에는 비급여 대상이다. 다만 만 19세 미만의 경우에도 치주 질환 수술을 위한 전 단계의 전악 치석 제거 및 부분 치석 제거에 대해 급여 적용이 가능하다.",
+      "verified_on": "2026-10-18",
+      "method": "Directly read audit raw HTML; no claim of new live retrieval"
+    }
+  ],
+  "sentence_lengths": [
+    {
+      "field": "비용",
+      "sentence": "단독 스케일링 급여는 만 19세 이상 가입자·피부양자 대상입니다.",
+      "chars": 36
+    },
+    {
+      "field": "비용",
+      "sentence": "매년 1월 1일~12월 31일 중 한 번 적용됩니다.",
+      "chars": 29
+    },
+    {
+      "field": "비용",
+      "sentence": "이 목적의 연 두 번째 시술부터는 비급여입니다.",
+      "chars": 26
+    },
+    {
+      "field": "비용",
+      "sentence": "치주질환 수술 전 치석 제거는 별도 급여가 가능합니다.",
+      "chars": 30
+    },
+    {
+      "field": "비용",
+      "sentence": "이 경우 만 19세 미만도 급여가 가능합니다.",
+      "chars": 25
+    },
+    {
+      "field": "쉽게",
+      "sentence": "일본 노인 중 치간 청소 도구를 쓴 쪽은 안 쓴 쪽보다 사망 위험이 약 10% 낮았습니다.",
+      "chars": 50
+    },
+    {
+      "field": "쉽게",
+      "sentence": "도구 사용이 수명을 늘렸다고 단정할 수는 없습니다.",
+      "chars": 28
+    },
+    {
+      "field": "이득",
+      "sentence": "일본에서 스스로 생활하는 노인을 조사했습니다.",
+      "chars": 25
+    },
+    {
+      "field": "이득",
+      "sentence": "이가 하나도 없는 사람은 제외했습니다.",
+      "chars": 21
+    },
+    {
+      "field": "이득",
+      "sentence": "시간에 따른 사망 위험을 비교한 값은 0.89입니다.",
+      "chars": 29
+    },
+    {
+      "field": "이득",
+      "sentence": "지역사회에 사는 50세 이상 성인 연구도 합쳤습니다.",
+      "chars": 29
+    },
+    {
+      "field": "이득",
+      "sentence": "이 값의 95% 추정 범위는 1.35–2.59입니다.",
+      "chars": 29
+    },
+    {
+      "field": "이득",
+      "sentence": "이가 20개 미만이면 사망 오즈는 약 2.04배입니다.",
+      "chars": 30
+    },
+    {
+      "field": "이득",
+      "sentence": "95% 추정 범위는 1.67–2.49입니다.",
+      "chars": 24
+    },
+    {
+      "field": "이득",
+      "sentence": "사망 오즈가 두 배여도 사망 확률이 두 배란 뜻은 아닙니다.",
+      "chars": 33
+    }
+  ],
+  "easy_chars": 79,
+  "intentional_numerical_scope_changes": [
+    "쉽게의 약10%는 HR0.89의 근삿값으로 유지; 오즈1.87/2.04와 추정범위는 이득에 보존",
+    "매일 사용의 효과라는 범위 삭제; 일본 생활자립 노인·무치악 제외 명시",
+    "종합연구 대상 50세 이상 명시",
+    "NHIS 단독 스케일링과 수술 전 치석 제거 급여 구분"
+  ],
+  "doi_changes": {
+    "added": [],
+    "removed": [],
+    "reason": "기존 두 DOI와 NHIS 출처 유지; 신규 DOI 없음"
+  },
+  "unresolved_limitations": [
+    "논문 원문 전체는 읽지 않았으며 제공된 원초록으로만 확인했습니다.",
+    "NHIS 2024년 공식 안내를 확인했으나 2026년 별도 개정 규정 전체를 확인한 것은 아닙니다.",
+    "치간 도구의 국내 연간 가격과 시간 추정은 이번에 별도 검증하지 않았습니다."
+  ],
+  "review": "Independent exact-hash review required; not adopted or published"
+}

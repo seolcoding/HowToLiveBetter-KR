@@ -1,0 +1,280 @@
+{
+  "entry": "2-14",
+  "status": "unadopted_pending_independent_exact_hash_review",
+  "base": "strict-entry.md",
+  "base_sha256": "5116e7774c1dd229e4de24e7db05ac9fefeeb1d11146688433758a31a45d3019",
+  "proposal_sha256": "6ef4d5fedd933e7b078cf48f5bdc3f854515c8163fbcc5cdbfb142eed8c1b889",
+  "changes": [
+    {
+      "field": "제목",
+      "before": "### 14. 일주일에 세 번, 45분씩 라켓 운동을 하세요",
+      "after": "### 14. 라켓 운동을 해보세요",
+      "reason": "주3회45분 처방의 근거가 없으므로 횟수·시간 앵커를 의도적으로 제거. 라켓 운동 권고는 저자의 일반 조언으로 유지."
+    },
+    {
+      "field": "비용",
+      "before": "코트나 배드민턴장 대여비는 한 번에 만 원 안팎입니다. 일주일에 합쳐 2시간쯤 걸립니다. 함께 운동할 사람과 장소를 맞추기가 어렵습니다. 매주 꾸준히 나가는 일도 쉽지 않습니다.",
+      "after": "코트나 배드민턴장 대여비는 한 번에 만 원 안팎으로 잡은 추정치입니다. 실제 요금은 시설에 확인하세요. 주 2시간쯤은 일정 예시입니다. 함께 운동할 사람과 장소를 맞추기가 어렵습니다. 매주 꾸준히 나가는 일도 쉽지 않습니다.",
+      "changed": true,
+      "reason": "국내 코트 요금은 미검증이므로 만 원을 계획용 추정치로 한정하고 주2시간은 연구 처방이 아닌 일정 예시로 표시."
+    },
+    {
+      "field": "쉽게",
+      "before": "테니스·배드민턴·탁구를 치는 사람은 같은 기간 사망 확률이 절반쯤입니다. 심혈관 사망은 56%쯤 낮습니다. 수영은 사망 확률이 28%쯤 낮습니다. 달리기와 축구는 이 자료에서 차이가 보이지 않았습니다.",
+      "after": "테니스·배드민턴·스쿼시를 하는 사람과 안 하는 사람을 비교했습니다. 하는 쪽의 사망 위험은 약 47% 낮게 나타났습니다. 운동 자체의 효과인지는 알 수 없습니다.",
+      "changed": true,
+      "reason": "주요 비교 하나로 축약하고 절대확률 표현을 위험 비교로 수정. 원문 종목에 따라 탁구를 스쿼시로 정정. 인과 미확정 명시."
+    },
+    {
+      "field": "이득",
+      "before": "영국에서 80,306명을 추적한 연구 결과입니다. 각 운동을 하는 사람과 하지 않는 사람을 비교했습니다. 라켓 운동을 하는 사람의 사망 위험은 약 47% 낮습니다. 위험비는 0.53입니다. 95% CI는 0.40–0.69입니다(신뢰구간). 심혈관 사망은 약 56% 낮습니다(0.44, 0.24–0.83). 라켓 운동에는 테니스, 배드민턴, 탁구가 포함됩니다. 수영은 두 값이 각각 0.72와 0.59입니다. 에어로빅은 각각 0.73과 0.64입니다. 자전거는 사망 위험비가 0.85로 나타났습니다. 달리기와 축구는 통계적 차이가 보이지 않았습니다.",
+      "after": "영국에서 80,306명을 추적한 연구 결과입니다. 조사 전 4주 동안 각 운동을 했는지 물었습니다. 각 운동을 하는 사람과 하지 않는 사람을 비교했습니다. 라켓 운동을 하는 사람의 사망 위험은 약 47% 낮게 나타났습니다. 위험비는 0.53입니다. 추적 중 사망 위험을 비교한 값입니다. 95% 신뢰구간은 0.40–0.69입니다. 추정치의 불확실성을 나타내는 범위입니다. 심혈관 사망은 약 56% 낮게 나타났습니다(0.44, 0.24–0.83). 라켓 운동에는 테니스, 배드민턴, 스쿼시가 포함됩니다. 수영은 두 값이 각각 0.72와 0.59입니다. 에어로빅은 각각 0.73과 0.64입니다. 자전거는 사망 위험비가 0.85로 나타났습니다. 달리기와 축구는 통계적 차이가 보이지 않았습니다.",
+      "changed": true,
+      "reason": "종목 오류 정정, 4주 조사조건 추가, HR과 신뢰구간을 일상말로 설명. 수치 유지."
+    },
+    {
+      "field": "근거등급",
+      "before": "A",
+      "after": "A",
+      "changed": false,
+      "reason": "원문 유지"
+    },
+    {
+      "field": "출처",
+      "before": "Oja P, Kelly P, Pedisic Z, et al. (2017). Associations of specific types of sports and exercise with all-cause and cardiovascular-disease mortality: a cohort study of 80 306 British adults. British Journal of Sports Medicine, 51(10), 812-817. <https://doi.org/10.1136/bjsports-2016-096822>",
+      "after": "Oja P, Kelly P, Pedisic Z, et al. (2017). Associations of specific types of sports and exercise with all-cause and cardiovascular-disease mortality: a cohort study of 80 306 British adults. British Journal of Sports Medicine, 51(10), 812-817. <https://doi.org/10.1136/bjsports-2016-096822>",
+      "changed": false,
+      "reason": "원문 유지"
+    },
+    {
+      "field": "비고",
+      "before": "논쟁 있음. 이 연구는 사람들의 운동과 건강 상태를 추적해 기록했습니다. 라켓 운동을 하는 사람은 원래 더 건강합니다. 사람을 만나는 일도 더 많습니다. 달리기를 하는 집단에서는 차이가 없다는 결과도 있습니다. 사람마다 어떤 운동을 고르는지도 결과에 영향을 줍니다. 이 결과만 보고 달리기가 소용없다고 결론 내리지 마세요. 운동 총량을 기준으로 계산한 항목은 이 절에 따로 있습니다.",
+      "after": "논쟁 있음. 이 연구는 사람들의 운동과 건강 상태를 추적해 기록했습니다. 라켓 운동을 하는 사람은 원래 더 건강할 수 있습니다. 사람을 만나는 일도 더 많을 수 있습니다. 달리기를 하는 집단에서는 차이가 없다는 결과도 있습니다. 사람마다 어떤 운동을 고르는지도 결과에 영향을 줄 수 있습니다. 이 결과만 보고 달리기가 소용없다고 결론 내리지 마세요. 연구는 주 3회, 45분씩 운동하라는 처방을 검증하지 않았습니다. 운동 총량을 기준으로 계산한 항목은 이 절에 따로 있습니다.",
+      "changed": true,
+      "reason": "기저 건강·사회접촉·종목선택의 영향을 가능성으로 제한. 검증되지 않은 주3회45분 처방의 한계를 명시."
+    }
+  ],
+  "source_verification": {
+    "verified_at": "2026-10-18T13:36:45.782442+00:00",
+    "method": "HTTPS publisher full article HTML retrieved with urllib; article methods, exposure definitions, results and limitations directly read; supplementary PDFs not read. Cached EuropePMC primary abstract independently read.",
+    "url": "https://bjsm.bmj.com/content/51/10/812",
+    "doi_url": "https://doi.org/10.1136/bjsports-2016-096822",
+    "raw_paths": [
+      "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-014-2e30/source-evidence/primary.html",
+      "/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-014-2e30/source-evidence/primary.txt",
+      "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/0b283ffd37147f6ec12d.json"
+    ],
+    "html_sha256": "b4b95fdc8edef5136dd70cf6df22a9b15095ae001294088e9329d58520cc63c8",
+    "exact_quotes": [
+      "badminton/tennis/squash combined (termed ‘racquet sports’)",
+      "No participation was always used as the reference category.",
+      "in the 4 weeks prior to the interview.",
+      "racquet sports (HR=0.53, 95% CI 0.40 to 0.69)",
+      "racquet sports (HR=0.44, 95% CI 0.24 to 0.83)",
+      "although we cannot discount the possibility of residual confounding.",
+      "Variable dose–response patterns between the exposure and the outcomes were found across the sport disciplines."
+    ],
+    "cache_provenance": {
+      "doi": "10.1136/bjsports-2016-096822",
+      "chapters": [
+        2
+      ],
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1136%2Fbjsports-2016-096822%22&format=json&resultType=core&pageSize=10",
+      "fetched_at": "2026-10-18T20:50:00.575860+09:00",
+      "http_status": 200,
+      "status": "exact_doi_metadata_cached",
+      "sha256": "bc142e3cca04917af30bf95aede0ef3a2b607afad57a64d2fb3df1543d830adb",
+      "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/0b283ffd37147f6ec12d.json",
+      "hit_count": 1,
+      "abstract_present": true
+    },
+    "http_status": 200,
+    "retrieved_utc": "2026-10-18T13:37:07.039446+00:00",
+    "preserved_raw_sha256": {
+      "primary.html": "b4b95fdc8edef5136dd70cf6df22a9b15095ae001294088e9329d58520cc63c8",
+      "primary.txt": "d2488d9131b89ebc55d5534ff7ea685d7b23d023ba4534cb0ebda8dc9f36100d"
+    }
+  },
+  "intentional_scope_changes": [
+    "탁구→스쿼시: primary Methods confirmed.",
+    "주3회45분 removed from title; no optimal prescription inferred.",
+    "쉽게 omits secondary swimming/CVD comparisons; preserved in 이득.",
+    "만 원 and 2시간 retained as author planning estimates; no empirical price verification."
+  ],
+  "doi_changes": "None. Existing DOI retained.",
+  "limitations": [
+    "Primary supplementary PDFs not read.",
+    "Local facility price remains unverified; estimate only.",
+    "General sports suggestion and weekly schedule are author advice, not trial-tested prescriptions.",
+    "Full text discussion mentions 59% CVD reduction whereas abstract HR0.44 and original entry support 56%; retain HR-based 56%.",
+    "Specific baseline health and social-contact explanations are possibilities, not established effects in this study."
+  ],
+  "sentence_checks": [
+    {
+      "field": "비용",
+      "sentence": "코트나 배드민턴장 대여비는 한 번에 만 원 안팎으로 잡은 추정치입니다.",
+      "length": 39
+    },
+    {
+      "field": "비용",
+      "sentence": "실제 요금은 시설에 확인하세요.",
+      "length": 17
+    },
+    {
+      "field": "비용",
+      "sentence": "주 2시간쯤은 일정 예시입니다.",
+      "length": 17
+    },
+    {
+      "field": "비용",
+      "sentence": "함께 운동할 사람과 장소를 맞추기가 어렵습니다.",
+      "length": 26
+    },
+    {
+      "field": "비용",
+      "sentence": "매주 꾸준히 나가는 일도 쉽지 않습니다.",
+      "length": 22
+    },
+    {
+      "field": "쉽게",
+      "sentence": "테니스·배드민턴·스쿼시를 하는 사람과 안 하는 사람을 비교했습니다.",
+      "length": 37
+    },
+    {
+      "field": "쉽게",
+      "sentence": "하는 쪽의 사망 위험은 약 47% 낮게 나타났습니다.",
+      "length": 29
+    },
+    {
+      "field": "쉽게",
+      "sentence": "운동 자체의 효과인지는 알 수 없습니다.",
+      "length": 22
+    },
+    {
+      "field": "이득",
+      "sentence": "영국에서 80,306명을 추적한 연구 결과입니다.",
+      "length": 27
+    },
+    {
+      "field": "이득",
+      "sentence": "조사 전 4주 동안 각 운동을 했는지 물었습니다.",
+      "length": 27
+    },
+    {
+      "field": "이득",
+      "sentence": "각 운동을 하는 사람과 하지 않는 사람을 비교했습니다.",
+      "length": 30
+    },
+    {
+      "field": "이득",
+      "sentence": "라켓 운동을 하는 사람의 사망 위험은 약 47% 낮게 나타났습니다.",
+      "length": 37
+    },
+    {
+      "field": "이득",
+      "sentence": "위험비는 0.53입니다.",
+      "length": 13
+    },
+    {
+      "field": "이득",
+      "sentence": "추적 중 사망 위험을 비교한 값입니다.",
+      "length": 21
+    },
+    {
+      "field": "이득",
+      "sentence": "95% 신뢰구간은 0.40–0.69입니다.",
+      "length": 23
+    },
+    {
+      "field": "이득",
+      "sentence": "추정치의 불확실성을 나타내는 범위입니다.",
+      "length": 22
+    },
+    {
+      "field": "이득",
+      "sentence": "심혈관 사망은 약 56% 낮게 나타났습니다(0.44, 0.24–0.83).",
+      "length": 41
+    },
+    {
+      "field": "이득",
+      "sentence": "라켓 운동에는 테니스, 배드민턴, 스쿼시가 포함됩니다.",
+      "length": 30
+    },
+    {
+      "field": "이득",
+      "sentence": "수영은 두 값이 각각 0.72와 0.59입니다.",
+      "length": 26
+    },
+    {
+      "field": "이득",
+      "sentence": "에어로빅은 각각 0.73과 0.64입니다.",
+      "length": 23
+    },
+    {
+      "field": "이득",
+      "sentence": "자전거는 사망 위험비가 0.85로 나타났습니다.",
+      "length": 26
+    },
+    {
+      "field": "이득",
+      "sentence": "달리기와 축구는 통계적 차이가 보이지 않았습니다.",
+      "length": 27
+    },
+    {
+      "field": "비고",
+      "sentence": "논쟁 있음.",
+      "length": 6
+    },
+    {
+      "field": "비고",
+      "sentence": "이 연구는 사람들의 운동과 건강 상태를 추적해 기록했습니다.",
+      "length": 33
+    },
+    {
+      "field": "비고",
+      "sentence": "라켓 운동을 하는 사람은 원래 더 건강할 수 있습니다.",
+      "length": 30
+    },
+    {
+      "field": "비고",
+      "sentence": "사람을 만나는 일도 더 많을 수 있습니다.",
+      "length": 23
+    },
+    {
+      "field": "비고",
+      "sentence": "달리기를 하는 집단에서는 차이가 없다는 결과도 있습니다.",
+      "length": 31
+    },
+    {
+      "field": "비고",
+      "sentence": "사람마다 어떤 운동을 고르는지도 결과에 영향을 줄 수 있습니다.",
+      "length": 35
+    },
+    {
+      "field": "비고",
+      "sentence": "이 결과만 보고 달리기가 소용없다고 결론 내리지 마세요.",
+      "length": 31
+    },
+    {
+      "field": "비고",
+      "sentence": "연구는 주 3회, 45분씩 운동하라는 처방을 검증하지 않았습니다.",
+      "length": 36
+    },
+    {
+      "field": "비고",
+      "sentence": "운동 총량을 기준으로 계산한 항목은 이 절에 따로 있습니다.",
+      "length": 33
+    }
+  ],
+  "easy_chars": 90,
+  "incoming_anchor_check": {
+    "method": "rg -n 라켓|45분씩 book-kr; repository exact title occurrences inspected",
+    "hits": [
+      "/workspace/HowToLiveBetter-KR/book-kr/02-천천히-죽지-않기.md:17:**운동과 체중**: 하루 7000~8000보 걷기(제11항), 라켓 운동(제14항), 자투리 힘든 움직임 모으기(제15항), 일주일에 근력 운동(제16항), 오래 앉아 있지 않기(제17항), BMI 20~25 유지(제32항).",
+      "/workspace/HowToLiveBetter-KR/book-kr/02-천천히-죽지-않기.md:129:### 14. 일주일에 세 번, 45분씩 라켓 운동을 하세요",
+      "/workspace/HowToLiveBetter-KR/book-kr/02-천천히-죽지-않기.md:133:- 이득: 영국에서 80,306명을 추적한 연구 결과입니다. 각 운동을 하는 사람과 하지 않는 사람을 비교했습니다. 라켓 운동을 하는 사람의 사망 위험은 약 47% 낮습니다. 위험비는 0.53입니다. 95% CI는 0.40–0.69입니다(신뢰구간). 심혈관 사망은 약 56% 낮습니다(0.44, 0.24–0.83). 라켓 운동에는 테니스, 배드민턴, 탁구가 포함됩니다. 수영은 두 값이 각각 0.72와 0.59입니다. 에어로빅은 각각 0.73과 0.64입니다. 자전거는 사망 위험비가 0.85로 나타났습니다. 달리기와 축구는 통계적 차이가 보이지 않았습니다.",
+      "/workspace/HowToLiveBetter-KR/book-kr/02-천천히-죽지-않기.md:136:- 비고: 논쟁 있음. 이 연구는 사람들의 운동과 건강 상태를 추적해 기록했습니다. 라켓 운동을 하는 사람은 원래 더 건강합니다. 사람을 만나는 일도 더 많습니다. 달리기를 하는 집단에서는 차이가 없다는 결과도 있습니다. 사람마다 어떤 운동을 고르는지도 결과에 영향을 줍니다. 이 결과만 보고 달리기가 소용없다고 결론 내리지 마세요. 운동 총량을 기준으로 계산한 항목은 이 절에 따로 있습니다."
+    ],
+    "result": "No incoming Markdown link to the old title found; title anchors retained: entry14 and 라켓 운동. Prescription frequency/duration intentionally removed."
+  }
+}

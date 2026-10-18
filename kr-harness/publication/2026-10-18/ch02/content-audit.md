@@ -382,3 +382,547 @@
 ## 남은 출판 조건
 
 확인된 block을 근거에 맞춰 별도 내용수정안으로 고치고 독립 재검토를 받아야 합니다. 위의 warn·unverified 항목은 표기한 세부범위를 보강하거나 검증범위 안으로 권고를 줄여야 합니다. 수정된 본문의 새로운 SHA로 내용 검토 및 정식 KR-FIT 검토를 다시 받아야 하며, 이 감사파일을 기존공개본문의 pass표시로 재사용하면 안 됩니다. 공개본문·순수윤문결과·기존리뷰·README·git는 수정하지 않았습니다.
+
+## 사실 수정안 배치1 독립 재검토
+
+검토일2026-10-18. frozen `author-batch-1.json` SHA256: `0ffe4d4fb49745a78f3ccc58e78d4dd20d9287996d23b19d0cbd21296418b430`. **6안중approve5·revise1.** 기존strict후보와초기23block판정을새본문pass로소급변경하지않습니다. 승인대상은아래정확SHA의수정안이며정식KR-FIT·절전체출판승인아닙니다. 기존국내가격·WHO/영국정책등미확인까지검증했다는뜻이아닙니다.
+
+### 배치1-4: revise
+
+- proposal: `/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-004-87e1/publication-entry-proposal.md`
+- proposal SHA256: `6c5ba969bdc0ff772a84daa393999e4fb44b8402a81e809a33c59365fb375d15`
+- changes: `/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-004-87e1/publication-entry-changes.json`
+- changes SHA256: `2417ac96bf7305b4c31d42a5c11eadce420a62cc5684055cf6e5897662de7cfd`
+- 판정이유: 2019리뷰22시험·9,219명RR1.01(0.87–1.17), 2016시험수치및선사용RR1.25는직접근거와맞습니다. 다만2019리뷰뒤 ‘두집단모두금연일전NRT’의 귀속이2016영국시험인지불명확합니다. ‘앞의2016년영국시험에서는…’으로 한정하세요. 9시험선사용통합결과만으로 모든독자에게금연일2주전부터자가패치를일률권고하지말고 시작시점을의사·약사와상담하게바꾸세요. 제목의금연일앵커는유지했습니다. 추가DOI내용은적합하나 현fullentry는승인하지않습니다.
+- 남은확인한계: 원초록수준의2019·2016비교,2019리뷰전체원문미열람.2주일률패치시점추가확인필요.
+- 아래증거ID: gradual2019, trial2016, preloading
+
+### 배치1-6: approve
+
+- proposal: `/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-006-8fb2/publication-entry-proposal.md`
+- proposal SHA256: `c4c5f315f9efe395e90677b854948687d2e66d19490f0a992f58e1450dee8ece`
+- changes: `/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-006-8fb2/publication-entry-changes.json`
+- changes SHA256: `977f11bfc8533974bc8eae6b60bc2a6ff2b07859586f38af36dfa77205a5bd9c`
+- 판정이유: NRT전체대비RR1.61을패치단독으로축소하던오류와액상형/궐련형범위를고쳤고장기안전성불확실성을유지했습니다. 80RCT29,861명·11시험4,114명·추가4/100·RD0.01및CI를원문과대조했습니다. 새직접조문확인으로12조2항·4항의미확인을해소했습니다. 니코틴정의확대·금연구역은이전공식보도자료열람근거를유지합니다.
+- 남은확인한계: 국내월가격·WHO/영국정책·금연약이더싸다는보편비교는이번에신규검증하지않음.12조확인을법2조본문직접확인으로확장하지않음.
+- 아래증거ID: ecig2026, law12-new
+
+### 배치1-7: approve
+
+- proposal: `/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-007-a8ec/publication-entry-proposal.md`
+- proposal SHA256: `379ff6458fb73f6d3d27d62a37079b3ba7184f0e9552e2ee4137b4f4a0acc8eb`
+- changes: `/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-007-a8ec/publication-entry-changes.json`
+- changes SHA256: `b5d934c1dd8e57293eef2fbff480e6905d057471e79bc26a7dad1f1e06ac9aa0`
+- 판정이유: 미국1회분/유럽약250mL를구분하고HR1.21/1.14및1.08/1.26의분모·구간을보존했습니다. 병을잔으로정정했고각음료군비교만으로제로전환효과를알수없다고제한했습니다. HR를절대사망확률로동일시하지않는문장이있습니다. 제16절incoming앵커‘당분음료를마시지마세요’주제는제목에보존됩니다.
+- 남은확인한계: 미국논문전체미열람.해당인용숫자의분석범위만승인하며논문전체에대체분석이전혀없다고단정하지않음.
+- 아래증거ID: malik2019, epic250
+
+### 배치1-10: approve
+
+- proposal: `/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-010-2bba/publication-entry-proposal.md`
+- proposal SHA256: `e9d1fd2559055777dae3ca5e74cc4cb1da87673410832347e43fe08c0816f211`
+- changes: `/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-010-2bba/publication-entry-changes.json`
+- changes SHA256: `b3c32fcc08a49ce90bbfb7eb4900767aa752760c4a7c18322c4f78a78644015d`
+- 판정이유: 치간도구매일사용효과단정을사용여부비교로정정했습니다. 일본스스로생활하는유치아노인과50세이상통합분석을구분하며OR1.87/2.04를확률배수로전환하지않습니다. 예방목적단독스케일링연1회와치주질환치료관련예외를공단원문에맞게정정했습니다. 제24절‘빠진이치료’주제앵커보존.
+- 남은확인한계: 도구가격·시간미확인.NHIS2024공식안내이며2026새개정전수검증아님.
+- 아래증거ID: jages2026, ko2026, nhis-scale
+
+### 배치1-12: approve
+
+- proposal: `/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-012-3296/publication-entry-proposal.md`
+- proposal SHA256: `bc01318e15559bd2d482d947d25e510894ad4971dd08e0a59769689960517129`
+- changes: `/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-012-3296/publication-entry-changes.json`
+- changes SHA256: `e47f2618f9a4ee1ca383a11bc31f79dac6e86e05ddc5841c59e56c4d807e5360`
+- 판정이유: 1단위를1.0mmol/L로바꿔mg/dL와의혼동을막고모든약하루1회단정을삭제했습니다. 혈압10mmHg당RR.87/.80/.73/.72와CTT LDL단위당.90/.78, 순응도80%이상대미만.55/.71은원초록에일치합니다. 순응도교란을‘크게잡혔을수있다’로제한하고처방대상·임의중단금지를유지했습니다. CTT의원보고RR는rate ratio임을감사에명시하며절대확률로역산하지않습니다.
+- 남은확인한계: 국내급여한달부담미확인.원초록및기존CTT원문대조범위,별도혈당시험추가검증아님.
+- 아래증거ID: bp2016, ctt2010, adherence2013
+
+### 배치1-23: approve
+
+- proposal: `/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-023-7dfd/publication-entry-proposal.md`
+- proposal SHA256: `19d9a03435718e4efccf7714c1dee0743f2b59e14ed96f0ef8bb561eb8becabf`
+- changes: `/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-023-7dfd/publication-entry-changes.json`
+- changes SHA256: `fdd38064b700a689320f03b04f266f59c353763eb1bb53bb618ead58ddb77db3`
+- 판정이유: 가금육·생선HR.99는주2인분추가의독립연관으로정정되었고식품대체효과를직접분석한수치아님을독자본문에명시했습니다. 가공육/살코기HR1.03및각CI는원초록과일치합니다. 제목의생선·가금육선택은저자실천제안이며이수치가대체의인과효과를입증했다는뜻으로확대승인하지않습니다.
+- 남은확인한계: 원문전체미열람.changes의감사파일없음문구는초안시점이력이며현재부재판정으로사용금지.
+- 아래증거ID: meat2020
+
+### 실제열람증거·재현성
+
+이배치에서는기존primaryabstract RAW와기존직접수집XML을재개봉했습니다. 새HTTP는담배법12조한건으로구별합니다. 이전직접XML응답34개의raw경로/현재SHA/요청URL/HTTP결과는JSON `initial_direct_fulltext_raw_registry`에모두연결했습니다. 기존`cache_file`은메타데이터포인터임을`metadata_cache_file`로명확히하고`direct_fulltext_raw`를별도연결했습니다. **초기직접HTTP의정확수신시각은기록하지않았으므로null입니다.** 파일mtime이나루트의나중공용캐시수집시각으로대체하지않습니다. 이재검토열람시각은JSON `read_at_utc`이며원래수집시각과다릅니다.
+
+- **gradual2019** (previous_direct_http_primary_abstract_now_reopened): <https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1002/14651858.CD013183.pub2&format=json&resultType=core>
+  - raw: `/tmp/ch02-audit/gradual.body`
+  - SHA256: `490471b161b009dc634fc3007b40e06f13f32ef77061bd5be46f2b23ccd43b56`
+  - 수집시각: 정확시각미기록; 이번재열람시각과구분 / HTTP: 200 / 재열람UTC: 2026-10-18T13:47:08.728391+00:00
+  - 확인문장: neither approach resulted in superior quit rates (RR 1. 01, 95% CI 0.87 to 1.17; I<sup>2</sup> = 29%; 22 studies, 9219 participants)
+  - 범위: 인용한 결과·대상·노출 정의 대조. 서지존재만 확인한 기록이 아님.
+
+- **trial2016** (cached_primary_abstract): <https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.7326%2FM14-2805%22&format=json&resultType=core&pageSize=10>
+  - raw: `/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/e8b65ecbbea63c8460dc.json`
+  - SHA256: `e442dd8ee2327d547b56cbd3be887eed639b0ffe265cac53ae0f199a6de8e27d`
+  - 수집시각: 2026-10-18T20:49:55.202788+09:00 / HTTP: 200 / 재열람UTC: 2026-10-18T13:47:08.728391+00:00
+  - 확인문장: Both groups received behavioral support from nurses and used nicotine replacement before and after quit day.
+  - 범위: 인용한 결과·대상·노출 정의 대조. 서지존재만 확인한 기록이 아님.
+
+- **preloading** (previous_direct_http_fulltext_now_reopened): <https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10278922/fullTextXML>
+  - raw: `/tmp/ch02-audit/full-PMC10278922.body`
+  - SHA256: `3be1541f6b8f8643e9d674891cec0a484833b240d594da558033ebf170337919`
+  - 수집시각: 정확시각미기록; 이번재열람시각과구분 / HTTP: 200 / 재열람UTC: 2026-10-18T13:47:08.728391+00:00
+  - 확인문장: 9 studies, 4395 participants
+  - 범위: 이번재검토는 기존직접수집응답 재열람. 처음HTTP정확시각은기록없음, 지금새수집이라표시하지않음.
+
+- **ecig2026** (previous_direct_http_fulltext_now_reopened): <https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13506250/fullTextXML>
+  - raw: `/tmp/ch02-audit/full-PMC13506250.body`
+  - SHA256: `70b431ba83ea315aeb9c12a6a08687ba9b92fe1b75d9bc38ca9f95312ea85227`
+  - 수집시각: 정확시각미기록; 이번재열람시각과구분 / HTTP: 200 / 재열람UTC: 2026-10-18T13:47:08.728391+00:00
+  - 확인문장: 11 studies, 4114 participants
+  - 범위: 이번재검토는 기존직접수집응답 재열람. 처음HTTP정확시각은기록없음, 지금새수집이라표시하지않음.
+
+- **malik2019** (cached_primary_abstract): <https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1161%2FCIRCULATIONAHA.118.037401%22&format=json&resultType=core&pageSize=10>
+  - raw: `/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/d589bf67028de68ae779.json`
+  - SHA256: `6e189557dd4e2d75b3c2825e40095c6c1b36409b21ed392c981c3a74ce3249c5`
+  - 수집시각: 2026-10-18T20:49:55.660132+09:00 / HTTP: 200 / 재열람UTC: 2026-10-18T13:47:08.728391+00:00
+  - 확인문장: 1.14 (1.09, 1.19), and 1.21 (1.13, 1.28
+  - 범위: 인용한 결과·대상·노출 정의 대조. 서지존재만 확인한 기록이 아님.
+
+- **epic250** (previous_direct_http_fulltext_now_reopened): <https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6724165/fullTextXML>
+  - raw: `/tmp/ch02-audit/full-PMC6724165.body`
+  - SHA256: `1f48db8e2b7622d2728688b925ad6634844300106709bfdc60883f7cf300fb50`
+  - 수집시각: 정확시각미기록; 이번재열람시각과구분 / HTTP: 200 / 재열람UTC: 2026-10-18T13:47:08.728391+00:00
+  - 확인문장: 1 glass was equal to approximately 250 mL
+  - 범위: 이번재검토는 기존직접수집응답 재열람. 처음HTTP정확시각은기록없음, 지금새수집이라표시하지않음.
+
+- **jages2026** (cached_primary_abstract): <https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2Fj.jdent.2026.106789%22&format=json&resultType=core&pageSize=10>
+  - raw: `/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/85937fcbb2df949bcf5f.json`
+  - SHA256: `93f56ff3022c182c90b1f1a46d4b1b5e5028e35b0b0005fb5eda4ff445684a0c`
+  - 수집시각: 2026-10-18T20:49:56.891764+09:00 / HTTP: 200 / 재열람UTC: 2026-10-18T13:47:08.728391+00:00
+  - 확인문장: interdental cleaner use (HR=0.89; 95% CI=0.80-0.99)
+  - 범위: 인용한 결과·대상·노출 정의 대조. 서지존재만 확인한 기록이 아님.
+
+- **ko2026** (cached_primary_abstract): <https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1007%2Fs41999-025-01319-4%22&format=json&resultType=core&pageSize=10>
+  - raw: `/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/7687b13873bdd5f9ebb2.json`
+  - SHA256: `fbd10720869ab483276c9e4398656e10c862cee639691d40cc41ab8d9aac3ff9`
+  - 수집시각: 2026-10-18T20:49:57.089939+09:00 / HTTP: 200 / 재열람UTC: 2026-10-18T13:47:08.728391+00:00
+  - 확인문장: fewer than 20 teeth (OR, 2.04, 95% CI [1.67-2.49]
+  - 범위: 인용한 결과·대상·노출 정의 대조. 서지존재만 확인한 기록이 아님.
+
+- **nhis-scale** (previous_direct_http_official_html_now_reopened): <https://www.nhis.or.kr/static/alim/paper/oldpaper/202404/sub/section1_5.html>
+  - raw: `/tmp/ch02-audit/nhis-scale.body`
+  - SHA256: `91f2606c1e0bc2be9d3c1245df860ca52ed15b9b771a0f8ed0fb57d36840c20a`
+  - 수집시각: 정확시각미기록; 이번재열람시각과구분 / HTTP: 200 / 재열람UTC: 2026-10-18T13:47:08.728391+00:00
+  - 확인문장: 스케일링만을 목적으로 시술하는 경우 1년 주기(매년 1월 1일부터 12월 31일까지)로 1회에 한해 건강보험을 적용
+  - 범위: 인용한 결과·대상·노출 정의 대조. 서지존재만 확인한 기록이 아님.
+
+- **bp2016** (cached_primary_abstract): <https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2FS0140-6736%2815%2901225-8%22&format=json&resultType=core&pageSize=10>
+  - raw: `/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/9d76eccee18ffd543f24.json`
+  - SHA256: `b7a3ddb2081a5387b1c14184aa4197a5811593b6ece4061e5b5ba77af0d85f22`
+  - 수집시각: 2026-10-18T20:49:41.563609+09:00 / HTTP: 200 / 재열람UTC: 2026-10-18T13:47:08.728391+00:00
+  - 확인문장: Every 10 mm Hg reduction in systolic blood pressure
+  - 범위: 인용한 결과·대상·노출 정의 대조. 서지존재만 확인한 기록이 아님.
+
+- **ctt2010** (cached_primary_abstract): <https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2FS0140-6736%2810%2961350-5%22&format=json&resultType=core&pageSize=10>
+  - raw: `/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/879f70de45077f18cea1.json`
+  - SHA256: `3434d5ec9349d1183f4a9968c5f6c1bf4d3cd7a9b64247db0cf7a0597958cae2`
+  - 수집시각: 2026-10-18T20:49:58.072488+09:00 / HTTP: 200 / 재열람UTC: 2026-10-18T13:47:08.728391+00:00
+  - 확인문장: rate ratio [RR] 0·78, 95% CI 0·76-0·80
+  - 범위: 인용한 결과·대상·노출 정의 대조. 서지존재만 확인한 기록이 아님.
+
+- **adherence2013** (cached_primary_abstract): <https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1093%2Feurheartj%2Feht295%22&format=json&resultType=core&pageSize=10>
+  - raw: `/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/f4c786bd3453be05c2b1.json`
+  - SHA256: `b0a768004b00af7a2c3e0a821f508fe9ee1a1cb1b803450fea111ab8b0e2a513`
+  - 수집시각: 2026-10-18T20:49:59.109540+09:00 / HTTP: 200 / 재열람UTC: 2026-10-18T13:47:08.728391+00:00
+  - 확인문장: 0.55 (0.46-0.67) and 0.71 (0.64-0.78)
+  - 범위: 인용한 결과·대상·노출 정의 대조. 서지존재만 확인한 기록이 아님.
+
+- **meat2020** (cached_primary_abstract): <https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1001%2Fjamainternmed.2019.6969%22&format=json&resultType=core&pageSize=10>
+  - raw: `/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/0b6beb299d71a48a9114.json`
+  - SHA256: `c3cc35e29e09a1219baf97c1be48d041a9b624305d8c76f2a24e717ee310dddb`
+  - 수집시각: 2026-10-18T20:50:03.281741+09:00 / HTTP: 200 / 재열람UTC: 2026-10-18T13:47:08.728391+00:00
+  - 확인문장: based on each additional intake of 2 servings per week
+  - 범위: 인용한 결과·대상·노출 정의 대조. 서지존재만 확인한 기록이 아님.
+
+- **law12-new** (new_https_official_article): <https://www.law.go.kr/LSW/lsSideInfoP.do?lsiSeq=280343&joNo=0012&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR>
+  - raw: `/tmp/ch02-audit/batch1-law12.body`
+  - SHA256: `7abde23787e4066e82d0e0e7682fef930f5578ad50cf35d4662b0a32454aa5c6`
+  - 수집시각: 정확시각미기록; 이번재열람시각과구분 / HTTP: 200 / 재열람UTC: 2026-10-18T13:47:08.728391+00:00
+  - 확인문장: ② 소매인이 아닌 자는 담배를 소비자에게 판매해서는 아니 된다. ④ 소매인이 담배를 소비자에게 판매하는 경우에는 우편판매 및 전자거래의 방법으로 하여서는 아니 된다.
+  - 범위: 이번재검토때curl TLS검증 유지로새로받아조문본문읽음. clock확인13:44:45UTC이전요청완료, 정확응답수신시각은없음. 2026.4.24시행 법률제21216호. HTML태그/인용법령설명 생략한 발췌.
+
+제4항확정수정요청과나머지승인범위는humanize_a및ROOT에전달했습니다. OR를RR·발생확률로바꾸거나기저확률을가정해역산하지않았습니다. HR·RR·CTT rate ratio는원보고범위대로해석했습니다. 이6안에사용한핵심수치에서새로운원자료내부충돌은발견하지않았으며원문접근실패를무효판정으로처리하지않았습니다. 공개본문·strict final·입력·승인자료·git는변경하지않았습니다.
+
+## 사실 수정안 배치1-r2 및 배치2 독립 재검토
+
+배치1-r2 **제4항approve**. 배치2 **approve3(13/15/24), revise3(14/19/25)**. 검토UTC: 2026-10-18T13:49:56.448301+00:00. 이전frozen파일과판정은그대로남기고새variant를정확SHA로심사했습니다. 정식KR-FIT·전체절출판승인아닙니다.
+
+### 배치1-r2
+
+- 제4항 **approve**
+  - proposal: `/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-004-87e1/publication-entry-proposal-r2.md`
+  - proposal SHA256: `e87a1c82e8c06fe72692141df370194afccdae2e6b8c48c8f01261fca9f3812b`
+  - changes: `/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-004-87e1/publication-entry-changes-r2.json`
+  - changes SHA256: `fda0a14da0b2871adbe6a9ceda8189eccd04e238e48f36345ae8290891331010`
+  - 판정: 2016영국시험의두집단NRT조건으로귀속을명확히했고선사용시점을의사·약사와상담하도록제한해frozen초안에대한두수정요청을해결했습니다. 기존검증수치·새DOI와금연일앵커를유지합니다.
+  - 근거ID: gradual2019, trial2016, preloading
+
+### 배치2
+
+- 제13항 **approve**
+  - proposal: `/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-013-0d52/publication-entry-proposal.md`
+  - proposal SHA256: `9639cea2bd2caa9bc28de840c4a2fad50f490357979aa7acae24c1190969e1b5`
+  - changes: `/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-013-0d52/publication-entry-changes.json`
+  - changes SHA256: `bbc4b912c41f7a52b1e7141a407274b9f1b9380fd2127d87be272c4377b67ca8`
+  - 판정: Cappuccio연구별짧은수면기준≤4시간부터<7시간범위를원문HTML에서확인했습니다. 비교기준도다르므로RR1.12를일률7시간미만효과로묶지않게고친점이적합합니다. 규칙성네분위20~48%와최저분위비교를보존하고‘대부분역인과’를가능성으로낮췄습니다. Yin용량반응1.06/1.13과Kumar사회적시차≥2시간HR1.30을각연구범위로유지합니다.
+  - 근거ID: sleep-definitions, sleep2010, sleep-dose, sleep-regular, jetlag2026
+
+- 제14항 **revise**
+  - proposal: `/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-014-2e30/publication-entry-proposal.md`
+  - proposal SHA256: `6ef4d5fedd933e7b078cf48f5bdc3f854515c8163fbcc5cdbfb142eed8c1b889`
+  - changes: `/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-014-2e30/publication-entry-changes.json`
+  - changes SHA256: `3c2fd9af37d9d19ca1b891a9fa5ad6555f8d67c036e99baca9e5d01d0776cdbf`
+  - 판정: 원문노출은badminton/tennis/squash여서탁구를스쿼시로고친점,주3회45분최적처방삭제는타당합니다. 그러나원문결과는심혈관사망HR.44=56%낮음인데논의는59%라고씁니다. changes limitations에만기록했고독자본문에는고지하지않았습니다. 새CONTRACT의원출처내부수치충돌고지원칙상본문에짧게불일치를밝히고사용값이HR.44/56%임을명시해야합니다.
+  - 근거ID: racket-primary
+
+- 제15항 **approve**
+  - proposal: `/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-015-901a/publication-entry-proposal.md`
+  - proposal SHA256: `d559da9d859da3f4c42a4221707ff3bab94580c3498165c6f0124cf37025664c`
+  - changes: `/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-015-901a/publication-entry-changes.json`
+  - changes SHA256: `2a639a7ab39813cd9c31d55705b74d9321441444343dacf7dde4b7f5e6260705`
+  - 판정: 주분석25,241명·평균6.9년852사망,각VILPA비교감소폭과운동인62,344명별도분석을원문방법·결과에서대조했습니다. 비운동인선정은기기측정보다평균5.5년전설문,여가산책주1회이하라는조건이맞습니다. 대조군을전혀움직이지않는사람에서해당짧은격한활동이없는사람으로정정하고운동인전면배제를없앴습니다. 인과·운동인추가효과를시험한것아님을본문에유지합니다.
+  - 근거ID: vilpa2022
+
+- 제19항 **revise**
+  - proposal: `/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-019-e80d/publication-entry-proposal.md`
+  - proposal SHA256: `a138b57bb8cbe69b9a9607446fffb242282fa4f78abc1493af5fc366cac914b3`
+  - changes: `/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-019-e80d/publication-entry-changes.json`
+  - changes SHA256: `6744a002ce5d0dc7ceda0ea8705b0295edd95aa606b033ecdc17eeaffc0cc631`
+  - 판정: Wood의현재음주자>0~≤100g기준·40세기대수명모델,음주량별범위및Zhao추정치는맞게정정했습니다. 다만GBD2016원문초록은95%UI0.0~0.8standarddrinks/week,같은논문결과는daily로씁니다. 현재안은주당0.0~0.8만확정하고내부충돌을본문에밝히지않아수정필요. 0최저추정방향은유지하되불확실성상한의단위충돌을고지하고미해결수치를안전기준으로제시하지마세요.
+  - 근거ID: wood2018, gbd-unit-week, gbd-unit-day, zhao2023, alcohol2006
+
+- 제24항 **approve**
+  - proposal: `/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-024-c727/publication-entry-proposal.md`
+  - proposal SHA256: `f2cd0aeff8995ac5d5681535156539b47f1d0eb3fbc06255c7d73ac285387b08`
+  - changes: `/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-024-c727/publication-entry-changes.json`
+  - changes SHA256: `f9bd91803a30cbe46cc959916866ae47b2d07aacd78b55a81f486a03f239554f`
+  - 판정: 통곡물RR.83(.77~.90)·식품90g3인분·최저위험225g·I²83%를원문에대조했습니다. 다수연구의제품신선중량과일부건조곡물중량차이를설명하고90g마른현미/조리밥처방이아님을명시해단위오독을막았습니다. 절반만교체하면최대이득이라는미지원조건도정정했습니다. AJCN하루1인분RR.92는원초록범위로확인하며그논문전체serving중량까지승인하지않습니다.
+  - 근거ID: grain2016, grain2017
+
+- 제25항 **revise**
+  - proposal: `/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-025-1523/publication-entry-proposal.md`
+  - proposal SHA256: `8f15caa462554af27f6ff84d06c3058d73d77395631be46b58548bf08cdff119`
+  - changes: `/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-025-1523/publication-entry-changes.json`
+  - changes SHA256: `4392a1ecb5e0b1082b6cbe7cce2c72e06aee7079b1d180e7b5de5e1f41f636c5`
+  - 판정: China-PAR100,902명·중앙7.3년HR.85(.79~.90)와기대수명추정,독소두연구가실제위험평가를했다는정정,우린차와고농도추출물간독성구별은원초록/관련원문에맞습니다. 그러나제목‘일주일세잔이상’은changes limitations에서도빈도·잔용량미검증이라남겼습니다. 원초록의habitual만으로주3잔을확정할수없으므로원문운영정의를직접확인하거나제목에서미검증섭취빈도를삭제해야합니다. 제목자체가원래문장이라는이유로수량권고를승인하지않습니다.
+  - 근거ID: tea2020, aflatoxin2020, tea-toxin2022, tea-liver2018
+
+### 배치2 직접열람근거
+
+새HTTP를했다는주장없음. 기존직접수집XML·제공된원초록캐시및작성자가보존한실제1차HTML을직접재열람했습니다. 작성자의수집시각을검토자의HTTP시각으로옮기지않습니다.
+
+- **sleep-definitions**: <https://pmc.ncbi.nlm.nih.gov/articles/PMC2864873/>
+  - raw: `/tmp/ch02e13-primary.html`
+  - SHA256: `7b60175fa0e9326c1f0a4488a84215d01e5880eefba9abe220972daf4602fc8a`
+  - 형태: author_preserved_primary_html_reopened; 원수집시각: 정확시각미기록; 재열람UTC: 2026-10-18T13:49:56.448301+00:00
+  - 확인문장: Short sleep was ≤ 5 h … ≤ 6 h … < 7 h … ≤ 4 h.
+  - 범위: 작성자가HTTPS로보존한원문HTML을이번에직접읽음.정확원HTTP시각미기록,작성자2026-10-18수집기록과구분.
+
+- **sleep2010**: <https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1093%2Fsleep%2F33.5.585%22&format=json&resultType=core&pageSize=10>
+  - raw: `/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/98ed1f52f78b79d8a5ec.json`
+  - SHA256: `1dfe4f2c2e4fef74683cedc5993d1f5836f346ef17011020c2bf57bbb0030c53`
+  - 형태: provided_primary_abstract_cache_reopened; 원수집시각: 2026-10-18T20:49:59.299783+09:00; 재열람UTC: 2026-10-18T13:49:56.448301+00:00
+  - 확인문장: 1,382,999 male and female participants
+  - 범위: 해당원문결과·방법의인용부분열람.부록전체검증아님.
+
+- **sleep-dose**: <https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5634263/fullTextXML>
+  - raw: `/tmp/ch02-audit/full-PMC5634263.body`
+  - SHA256: `7401ff314417e19ab78ad832f4048a5adf5a17d51fdd700d97eeb1bce95c6ddb`
+  - 형태: previous_direct_http_fulltext_reopened; 원수집시각: 정확시각미기록; 재열람UTC: 2026-10-18T13:49:56.448301+00:00
+  - 확인문장: 1.06
+  - 범위: 초기자체수집응답재열람.초기정확HTTP시각미기록.지금새HTTP아님.
+
+- **sleep-regular**: <https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10782501/fullTextXML>
+  - raw: `/tmp/ch02-audit/full-PMC10782501.body`
+  - SHA256: `c60cf4619010806636c8cb76ae9388b6c98a33308f63c979c1acd6a80730eb69`
+  - 형태: previous_direct_http_fulltext_reopened; 원수집시각: 정확시각미기록; 재열람UTC: 2026-10-18T13:49:56.448301+00:00
+  - 확인문장: across the top four SRI quintiles compared to the least regular quintile
+  - 범위: 초기자체수집응답재열람.초기정확HTTP시각미기록.지금새HTTP아님.
+
+- **jetlag2026**: <https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1111%2Fjoim.70133%22&format=json&resultType=core&pageSize=10>
+  - raw: `/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/6ec72dd8f254bf56dca9.json`
+  - SHA256: `d41a6b38ac83c8b568748447185fd8f4ab8ed08f0d51d0b2fd948a68b11db58c`
+  - 형태: provided_primary_abstract_cache_reopened; 원수집시각: 2026-10-18T20:50:00.510137+09:00; 재열람UTC: 2026-10-18T13:49:56.448301+00:00
+  - 확인문장: HR 1.30, 95% CI 1.11-1.54
+  - 범위: 해당원문결과·방법의인용부분열람.부록전체검증아님.
+
+- **racket-primary**: <https://bjsm.bmj.com/content/51/10/812>
+  - raw: `/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-014-2e30/source-evidence/primary.html`
+  - SHA256: `b4b95fdc8edef5136dd70cf6df22a9b15095ae001294088e9329d58520cc63c8`
+  - 형태: author_preserved_publisher_html_reopened; 원수집시각: 2026-10-18T13:37:07.039446+00:00; 재열람UTC: 2026-10-18T13:49:56.448301+00:00
+  - 확인문장: 결과: Racquet sports participation was associated with a significant reduced risk of CVD mortality of 56% (HR=0.44, 95% CI 0.24 to 0.83). 논의: 47% in all-cause mortality and 59% reduction in CVD mortality. 노출: badminton/tennis/squash combined
+  - 범위: 작성자의수집기록시각이며검토자의신규HTTP아님.동일RAW SHA일치확인후결과·논의·노출문단을읽음.
+
+- **vilpa2022**: <https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9800274/fullTextXML>
+  - raw: `/tmp/ch02-audit/full-PMC9800274.body`
+  - SHA256: `517988dcf668ecd335886cc6e3df51cfc2a55ca31bda12a29650e1a6ea2c34ed`
+  - 형태: previous_direct_http_fulltext_reopened; 원수집시각: 정확시각미기록; 재열람UTC: 2026-10-18T13:49:56.448301+00:00
+  - 확인문장: reported no leisure time exercise participation and no more than one recreational walk per week
+  - 범위: 초기자체수집응답재열람.초기정확HTTP시각미기록.지금새HTTP아님.
+
+- **wood2018**: <https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5899998/fullTextXML>
+  - raw: `/tmp/ch02-audit/full-PMC5899998.body`
+  - SHA256: `6b26cfa7c791cf92ebc3ec68cf47396ba4ad50d557bb1e3eda74faa527aeb401`
+  - 형태: previous_direct_http_fulltext_reopened; 원수집시각: 정확시각미기록; 재열람UTC: 2026-10-18T13:49:56.448301+00:00
+  - 확인문장: >0–≤100 g per week
+  - 범위: 초기자체수집응답재열람.초기정확HTTP시각미기록.지금새HTTP아님.
+
+- **gbd-unit-week**: <https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6148333/fullTextXML>
+  - raw: `/tmp/ch02-audit/full-PMC6148333.body`
+  - SHA256: `de2fc26089a26e01dfc9bf0d77bd8d8894fc8532b08f6ed165910c200a6e5f60`
+  - 형태: previous_direct_http_fulltext_reopened; 원수집시각: 정확시각미기록; 재열람UTC: 2026-10-18T13:49:56.448301+00:00
+  - 확인문장: zero (95% UI 0·0–0·8) standard drinks per week
+  - 범위: 초기자체수집응답재열람.초기정확HTTP시각미기록.지금새HTTP아님.
+
+- **gbd-unit-day**: <https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6148333/fullTextXML>
+  - raw: `/tmp/ch02-audit/full-PMC6148333.body`
+  - SHA256: `de2fc26089a26e01dfc9bf0d77bd8d8894fc8532b08f6ed165910c200a6e5f60`
+  - 형태: previous_direct_http_fulltext_reopened; 원수집시각: 정확시각미기록; 재열람UTC: 2026-10-18T13:49:56.448301+00:00
+  - 확인문장: zero (95% UI 0·0–0·8) standard drinks daily
+  - 범위: 초기자체수집응답재열람.초기정확HTTP시각미기록.지금새HTTP아님.
+
+- **zhao2023**: <https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10066463/fullTextXML>
+  - raw: `/tmp/ch02-audit/full-PMC10066463.body`
+  - SHA256: `217dc207a4cb1bcb7a152b4d4029ab87e8f3c937bacb205ebcc35ca82d1fd77b`
+  - 형태: previous_direct_http_fulltext_reopened; 원수집시각: 정확시각미기록; 재열람UTC: 2026-10-18T13:49:56.448301+00:00
+  - 확인문장: Low-volume (1.30 to <25)
+  - 범위: 초기자체수집응답재열람.초기정확HTTP시각미기록.지금새HTTP아님.
+
+- **alcohol2006**: <https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1001%2Farchinte.166.22.2437%22&format=json&resultType=core&pageSize=10>
+  - raw: `/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/c9d68df968a86f93b3e7.json`
+  - SHA256: `09d6b3f9e2fc5c7dd725442e9ada077c8159f2b91e6c36faa4042a12b6e66b3d`
+  - 형태: provided_primary_abstract_cache_reopened; 원수집시각: 2026-10-18T20:50:02.053499+09:00; 재열람UTC: 2026-10-18T13:49:56.448301+00:00
+  - 확인문장: Consumption of alcohol, up to 4 drinks per day in men and 2 drinks per day in women
+  - 범위: 해당원문결과·방법의인용부분열람.부록전체검증아님.
+
+- **grain2016**: <https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4908315/fullTextXML>
+  - raw: `/tmp/ch02-audit/full-PMC4908315.body`
+  - SHA256: `f2efbe24aaf366f9f1aabee1847ff4bbafa907c6821311fbeee7568e1f390c92`
+  - 형태: previous_direct_http_fulltext_reopened; 원수집시각: 정확시각미기록; 재열람UTC: 2026-10-18T13:49:56.448301+00:00
+  - 확인문장: whole grain food or product intake (fresh weight including water content)
+  - 범위: 초기자체수집응답재열람.초기정확HTTP시각미기록.지금새HTTP아님.
+
+- **grain2017**: <https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.3945%2Fajcn.117.153148%22&format=json&resultType=core&pageSize=10>
+  - raw: `/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/4b7da62d583d8e829ddf.json`
+  - SHA256: `78c1aa2d6eb0a605813a7b92792a1b65df45cad47ac7b116ff2abb36ac2ada6c`
+  - 형태: provided_primary_abstract_cache_reopened; 원수집시각: 2026-10-18T20:50:01.155547+09:00; 재열람UTC: 2026-10-18T13:49:56.448301+00:00
+  - 확인문장: whole grains (RR: 0.92; 95% CI: 0.89, 0.95)
+  - 범위: 해당원문결과·방법의인용부분열람.부록전체검증아님.
+
+- **tea2020**: <https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1177%2F2047487319894685%22&format=json&resultType=core&pageSize=10>
+  - raw: `/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/4e0e0655683271e12c19.json`
+  - SHA256: `52b5139378d6c29ec9d5aa199703ac3e43306e6a4e23faf0b93ee7d57d6978a4`
+  - 형태: provided_primary_abstract_cache_reopened; 원수집시각: 2026-10-18T20:50:03.510728+09:00; 재열람UTC: 2026-10-18T13:49:56.448301+00:00
+  - 확인문장: 1.41 years longer of atherosclerotic cardiovascular disease-free years and 1.26 years longer of life expectancy
+  - 범위: 해당원문결과·방법의인용부분열람.부록전체검증아님.
+
+- **aflatoxin2020**: <https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2Fj.fct.2020.111830%22&format=json&resultType=core&pageSize=10>
+  - raw: `/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/5fde18292b4ae6fd255f.json`
+  - SHA256: `468973e84b3afc51c996a1ea8203c62f6dda199a511c192230f60af3449d62f5`
+  - 형태: provided_primary_abstract_cache_reopened; 원수집시각: 2026-10-18T20:50:03.844545+09:00; 재열람UTC: 2026-10-18T13:49:56.448301+00:00
+  - 확인문장: Two out of 158 samples were positive
+  - 범위: 해당원문결과·방법의인용부분열람.부록전체검증아님.
+
+- **tea-toxin2022**: <https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9318285/fullTextXML>
+  - raw: `/tmp/ch02-audit/full-PMC9318285.body`
+  - SHA256: `ac013af1a5ee8b6e76ac31c69a3f7d0383510029892522dd6f56df989aa8f21f`
+  - 형태: previous_direct_http_fulltext_reopened; 원수집시각: 정확시각미기록; 재열람UTC: 2026-10-18T13:49:56.448301+00:00
+  - 확인문장: A risk assessment was performed for the worst-case scenarios by point evaluation and Monte Carlo assessment model
+  - 범위: 초기자체수집응답재열람.초기정확HTTP시각미기록.지금새HTTP아님.
+
+- **tea-liver2018**: <https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2Fj.yrtph.2018.03.019%22&format=json&resultType=core&pageSize=10>
+  - raw: `/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/7bdf70026746773e4d1c.json`
+  - SHA256: `ce8c74bd6354ab553cb68c694f9c0a0b3fe7fa379db5a69c93c65af22386261c`
+  - 형태: provided_primary_abstract_cache_reopened; 원수집시각: 2026-10-18T20:50:04.355366+09:00; 재열람UTC: 2026-10-18T13:49:56.448301+00:00
+  - 확인문장: but not when consumed as brewed tea
+  - 범위: 해당원문결과·방법의인용부분열람.부록전체검증아님.
+
+제14항59%/56%와제19항week/daily는실제원자료내부충돌입니다. 한쪽을임의정답으로정해조용히고치지않았고독자본문에도충돌을고지하도록revise했습니다. OR/RR역산·임의기저확률은사용하지않았습니다. 제25항수정내용의주요오류는해결됐지만미확인수량제목은승인하지않았습니다. 확정수정요청은humanize_a와ROOT에전달했습니다.
+
+## 배치2-r2 및 정정공지 추가 대조
+
+**14/19/25 r2세안approve.** 기존r1revise이력과frozen자료는보존했습니다. 새정정문·현재출판사HTML/EuropePMC XML을HTTPS검증유지로직접열람했습니다. 과거초록메타데이터와수정원문의차이를영구적인모순으로표현하지않도록확인범위를제한했습니다.
+
+- 제14항 **approve**
+  - proposal: `/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-014-2e30/publication-entry-proposal-r2.md`
+  - proposal SHA256: `9585db5f13dc584f87b8f1d3a6095ea73bf86b8e94c2c742712ee2f0894bd069`
+  - changes: `/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-014-2e30/publication-entry-changes-r2.json`
+  - changes SHA256: `c6c588e231321735e35917457e2a6ebdf141c671348f6972828d660569adb06a`
+  - 판정: r2이득에초록56%·논의59%가일치하지않음을독자에게직접고지했습니다. 실제현재출판사HTML재조회에도결과HR.44/56%와논의59%가함께있어과거초록만의차이를영구모순으로만든것이아닙니다. 기존주3회45분처방삭제·라켓노출정정과다른수치보존을유지해approve.
+
+- 제19항 **approve**
+  - proposal: `/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-019-e80d/publication-entry-proposal-r2.md`
+  - proposal SHA256: `b2a963b66f25a48485911b66cdc006d66a51a94c123f5e7fcf05e9ddcfd437ba`
+  - changes: `/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-019-e80d/publication-entry-changes-r2.json`
+  - changes SHA256: `b14b238fc3747f41bb9473f72f871baf758a9f154edd7af33c84d181b8c4663b`
+  - 판정: r2가GBD의불확실성상한수치를제거하고초록주당/결과하루단위차이를독자본문에고지했습니다. 연결된정정공지두건을직접읽었으나이단위수정을명시하지않고현재새XML에도두표기가있음을확인했습니다. 금주최저방향·Wood현재음주자기준및모델한계는보존합니다. 확인한버전의표기차이라는범위를넘어영구미해결이라단정하지않고approve.
+
+- 제25항 **approve**
+  - proposal: `/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-025-1523/publication-entry-proposal-r2.md`
+  - proposal SHA256: `c62bce7810d622172287eb78d74962441b4029d742a6a64675540a64ef531592`
+  - changes: `/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-025-1523/publication-entry-changes-r2.json`
+  - changes SHA256: `c6838a1fb5b29f0176958a99d9dc49a2f93d09e28c45d741af41b38474f09d73`
+  - 판정: r2는미검증주3잔빈도를제목에서삭제한‘차를드세요’이며나머지검토된본문은r1과동일합니다. incoming제25항제목앵커는book-kr검색에서발견되지않았습니다. 차라는주제·독소/추출물경고와조건을보존하고검증하지못한섭취량권고를강화하지않아approve.
+
+### 정정 확인의 실제 근거
+
+- <https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6902241/fullTextXML>
+  - raw: `/tmp/ch02-audit/correction2018.body` / SHA256: `883858c20a902ab4cae3d733b25bae10e895ec5ebcf8d41e39b45592ca9aad66`
+  - 새HTTP 200, 시작UTC 2026-10-18T13:50:20.513850+00:00, 완료UTC 2026-10-18T13:50:22.000169+00:00, 열람UTC 2026-10-18T13:52:04.375325+00:00
+  - 범위: 실제정정공지본문직접열람.2018저자명/소속·데이터공유성명,2019저자/소속/이해관계정정.음주단위정정내용없음.
+  - 발췌: GBD 2016 Alcohol Collaborators. Alcohol use and burden for 195 countries and territories, 1990–2016: a systematic analysis for the Global Burden of Disease Study 2016.  Lancet  2018;  392:  1015–35— Alan D Lopez has been added to the list of GBD 2016 Alcohol Collaborators; the names of Masood Ali Shaikh and Dhirendra Narain Sinha have been corrected; and affiliations have been updated for Karzan Abdulmuhsin Mohammad. Raw data underlying figures and relative risk curves have been made publicly available on Mendeley Data, a secure online repository for research data, as of Sept 19, 2018 (DOI:10.17632/5thy2mcwn7.1). A data sharing statement containing a link to this dataset has been added at the end of the Article. These corrections have been made to the online version as of Sept 27, 2018.
+
+- <https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6598857/fullTextXML>
+  - raw: `/tmp/ch02-audit/correction2019.body` / SHA256: `e58bb3fef0a824dd40ea0137ee603ebfadcdf91367352fdcf21e4b6c7c60a800`
+  - 새HTTP 200, 시작UTC 2026-10-18T13:50:20.514615+00:00, 완료UTC 2026-10-18T13:50:22.098680+00:00, 열람UTC 2026-10-18T13:52:04.375325+00:00
+  - 범위: 실제정정공지본문직접열람.2018저자명/소속·데이터공유성명,2019저자/소속/이해관계정정.음주단위정정내용없음.
+  - 발췌: GBD 2016 Alcohol Collaborators. Alcohol use and burden for 195 countries and territories, 1990–2016: a systematic analysis for the Global Burden of Disease Study 2016.  Lancet  2018;  392:  1015–35— In this Global Health Metrics paper, Stefan Lorkowski has been added to the collaborators list; affiliation details and a declaration of interests statement for Stefan Lorkowski have also been added. These corrections have been made to the online version as of June 20, 2019.
+
+- <https://pmc.ncbi.nlm.nih.gov/articles/PMC6148333/>
+  - raw: `/tmp/ch02-audit/gbd-live.body` / SHA256: `10aaacae842dd978d220e15a203941ec5207ca7e49e25058f5f9691b2e73ba49`
+  - 새HTTP 200, 시작UTC 2026-10-18T13:50:20.515111+00:00, 완료UTC 2026-10-18T13:50:20.929051+00:00, 열람UTC 2026-10-18T13:52:04.375325+00:00
+  - 범위: HTTP200이지만reCAPTCHA화면.논문본문확인실패이며논문접근성공으로세지않음.
+  - 발췌: 본문발췌없음
+
+- <https://bjsm.bmj.com/content/51/10/812>
+  - raw: `/tmp/ch02-audit/racket-live.body` / SHA256: `0ffc856d5c6158f28c52210708f0b6989e5d128406915cdb8520baed9e6d9beb`
+  - 새HTTP 200, 시작UTC 2026-10-18T13:50:20.515700+00:00, 완료UTC 2026-10-18T13:50:22.404424+00:00, 열람UTC 2026-10-18T13:52:04.375325+00:00
+  - 범위: 현재출판사HTML직접열람,같은페이지의56/59차이존재확인.정정공지가세상에없다는주장아님.
+  - 발췌: 현재출판사결과: CVD mortality of 56% (HR=0.44, 95% CI 0.24 to 0.83). 논의: 59% reduction in CVD mortality.
+
+- <https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6148333/fullTextXML>
+  - raw: `/tmp/ch02-audit/gbd-live-xml.body` / SHA256: `de2fc26089a26e01dfc9bf0d77bd8d8894fc8532b08f6ed165910c200a6e5f60`
+  - 새HTTP 200, 시작UTC 2026-10-18T13:50:53.580028+00:00, 완료UTC 2026-10-18T13:50:54.451815+00:00, 열람UTC 2026-10-18T13:52:04.375325+00:00
+  - 범위: 현재새EuropePMC응답에도두표기가같은XML에존재.이후정정가능성이나접근못한출판사최종판을배제하지않음.
+  - 발췌: 초록: zero (95% UI 0·0–0·8) standard drinks per week. 결과: zero (95% UI 0·0–0·8) standard drinks daily.
+
+확인한두GBD정정문은단위수정이아니며새EuropePMC응답에서week/daily차이는현재관찰됩니다. PMC웹페이지의HTTP200은reCAPTCHA였으므로본문열람성공으로계상하지않았습니다. 출판사최종판의모든변경이없다고판정한것은아니며향후정정이있으면고지를갱신해야합니다. 제14항은현재출판사본문에서도56/59차이를확인했습니다. 이추가확인은기존승인정확SHA를바꾸지않으며새r2만승인합니다. 정식KR-FIT및절전체출판승인은여전히아닙니다.
+
+## 사실 수정안 배치3 독립 재검토
+
+**approve3(30/31/32), revise2(26/33).** 기존승인12항목과정확SHA이력은고정했습니다. 검토UTC 2026-10-18T13:55:57.965373+00:00. 새커피정정공지와현재출판사본문은HTTPS검증유지로직접받았고,나머지는기존원초록/원문응답을다시읽어확인범위를구분했습니다.
+
+### 배치3-26: revise
+
+- proposal: `/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-026-c168/publication-entry-proposal.md`
+- proposal SHA256: `3e8144925d85240f5576dcd1bfd647efff4d4403e21d709eaa1d3d4517df1304`
+- changes: `/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-026-c168/publication-entry-changes.json`
+- changes SHA256: `2f620050ff0cd50801e5f5f2073f05f2b03e5c5f12e8a9010d3162a01079d08d`
+- 판정: 기존과원문CI차이를본문에알린의도는맞으나2018BMJ정정공지k194가원하는CI0.79~0.88을명시합니다. ‘확인이더필요’로미해결처리하지말고정정문을출처에보강해수정된값을사용하고옛원문오기와정정사실을짧게고지하세요. 제목‘커피는관찰결과/근거는별개’는독자용주제제목으로고치며쉽게‘사망17%적음’도건수와RR을혼동하지않게‘사망위험17%낮음’으로정리하세요. 설탕·크림완전상쇄삭제·마시기증량권고제한은적합합니다.
+- 근거ID: coffee-oldxml, coffee-correction2018, coffee-currentpublisher, coffee-underlying-abstract
+
+### 배치3-30: approve
+
+- proposal: `/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-030-4d4a/publication-entry-proposal.md`
+- proposal SHA256: `f68f58d4a8673cdeb7837a4d237df408016e4a1d1a95674abba94c664a445891`
+- changes: `/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-030-4d4a/publication-entry-changes.json`
+- changes SHA256: `07b8a5912a07976c51c4b4f1e12063a3a975f3d5aaa69791369a9f6bec9b6a6c`
+- 판정: OR2.07/8.16, 300환자571대조·편평세포암, 대기<2분대≥4분OR5.41과CI를원문에서확인했습니다. OR가확률배수가아님을독자본문에밝히고2~3분기다리면안전하다는임의시간기준을삭제했습니다. 초록/본문CI소수점자릿수차이는16.9/16.91·11.1/11.14의반올림정밀도차이로,서로다른추정치충돌로과장하지않습니다.65℃초과2A·커피자체분류불가를IARC공식PDF에대조했습니다.
+- 근거ID: hot-tea2009, iarc-hot2016
+
+### 배치3-31: approve
+
+- proposal: `/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-031-7734/publication-entry-proposal.md`
+- proposal SHA256: `22aa1a574c1bd5718a803ceec52ba9985e6dda8e4baa202f021aa1c53b6e3ab7`
+- changes: `/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-031-7734/publication-entry-changes.json`
+- changes SHA256: `6f93322ad013cdee80a863e767f17bfa34075a1eb6155757f1616c8e5a93cc75`
+- 판정: 스웨덴여성29,518명·초기25~64세·20년·기대수명차0.6~2.1년은원초록에일치합니다. 하루십수분충분이라는미지원용량을삭제하고한국/계절/피부별보장량을확정하지않으며햇빛이흡연해를상쇄한다는오독을직접차단했습니다. 피부보호조건을보존했습니다. 전체원문노출분류는미열람이므로그범위까지검증승인하지않습니다.
+- 근거ID: sun2016
+
+### 배치3-32: approve
+
+- proposal: `/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-032-d167/publication-entry-proposal.md`
+- proposal SHA256: `d3f3cc50ea0982a6f273ee780efc8fdb4949f1f4e0a946712423dfb060f0c603`
+- changes: `/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-032-d167/publication-entry-changes.json`
+- changes SHA256: `9b0b6ac6bb3f1af05cda89608e88272f1f308329c8779c5df316117e4ce4ec92`
+- 판정: BMI239코호트의기준22.5~<25·선정세조건·각HR및동아시아5kg/m²당1.39를원문에대조했습니다. RCT부재단정대신Ma2017총54시험30,206명·사망분석34시험685사망RR.82(.71~.95)를비만성인식이±운동범위로추가했습니다. HR/RR·절대확률·BMI관찰차이와감량개입을구분했고정상체중감량/한국진단기준으로확대하지않습니다. 쉽게의마지막‘관찰된차이’는BMI관찰비교를가리킨다는본문맥락으로읽습니다.
+- 근거ID: bmi2016, weight-rct2017, flegal2013
+
+### 배치3-33: revise
+
+- proposal: `/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-033-866b/publication-entry-proposal.md`
+- proposal SHA256: `6799fbfcca880e64de4cf9414c3067274a608e304d8a95f41453881a8a72d32a`
+- changes: `/workspace/HowToLiveBetter-KR/kr-harness/publication/2026-10-18/ch02/_workspace/2026-10-18-033-866b/publication-entry-changes.json`
+- changes SHA256: `9fbb018481925853128a46de0ca8157e21b05789c15fdde006822d604170188c`
+- 판정: 22,811명·중앙8.2년1,236사망·>4/week대없음/드묾·HR.77/.66및CI는원초록에일치합니다. ≥4를>4로고친내용과인과한계는적합합니다. 다만제목‘관찰결과를살펴보세요’는독자에게논문검토를시키는메타제목입니다. 고추주제를유지한명사형등간결한독자용제목으로바꾸세요. 미확인섭취처방을되살리지는마세요.
+- 근거ID: chili2019
+
+### 배치3 근거·정정문
+
+제26항CI의불일치는미해결인상태가아닙니다. BMJ2018정정공지<https://doi.org/10.1136/bmj.k194>가0.79~0.88로명시정정했습니다. 현재출판사페이지에옛오기가남아있더라도정정문을따라야합니다. 원작성자의미해결문구는수정요청했습니다. 정정문원XML바이트는JSON의batch3 sources coffee-correction2018 `raw_utf8`에내장하여허용된두감사파일안에보존했고,UTF8복원SHA가원응답SHA와일치함을검사했습니다.
+
+- **coffee-oldxml**: <https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5696634/fullTextXML>
+  - raw: `/tmp/ch02-audit/full-PMC5696634.body` / SHA256: `87d53f28f923f2d7391b8e3f4f135a3ee9798251019c251b771a33f0b9b786bb`
+  - 형태: previous_direct_primary_xml_reopened / 수집UTC: 정확초기시각미기록 / 재열람UTC: 2026-10-18T13:55:57.965373+00:00
+  - 확인문장: 0.83, 95% confidence interval 0.83 to 0.88
+  - 범위: 기존자체직접수집XML재열람,정확초기HTTP시각미기록.지금새HTTP아님.
+
+- **coffee-correction2018**: <https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5765813/fullTextXML>
+  - raw: `/tmp/ch02-audit/coffee-correction.body` / SHA256: `b1549670ff3c732920727c8a2a3f245f76c21e47281d543498826d8c3fccc729`
+  - 형태: new_https_primary_fetch / 수집UTC: 2026-10-18T13:53:34.975485+00:00 / 재열람UTC: 2026-10-18T13:55:57.965373+00:00
+  - 확인문장: the relative risk should read 0.83 (95% confidence interval 0.79 to 0.88) rather than the current 0.83 (0.83 to 0.88).
+  - 범위: BMJ2018정정공지직접본문열람.초록/사망본문에반복된CI오기수정임을명시.기존의0.79~0.88은정정공지로확인됐고미해결이라고하지않음.
+
+- **coffee-currentpublisher**: <https://www.bmj.com/content/359/bmj.j5024>
+  - raw: `/tmp/ch02-audit/coffee-publisher.body` / SHA256: `bc95bbe38cb0224166731c2506b64e7e71151bc140fdddcc4d4e737a04e8daa7`
+  - 형태: new_https_primary_fetch / 수집UTC: 2026-10-18T13:53:28.947356+00:00 / 재열람UTC: 2026-10-18T13:55:57.965373+00:00
+  - 확인문장: 현재응답에는 all cause mortality (relative risk 0.83, 95% confidence interval 0.83 to 0.88)가남아있음.
+  - 범위: 현재출판사본문에서도옛오기보존을확인했지만명시정정공지의.79~.88해결을우선한다.이것을미해결영구모순으로쓰지않음.
+
+- **coffee-underlying-abstract**: <https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1007/s10654-016-0202-2&format=json&resultType=core>
+  - raw: `/tmp/ch02-audit/coffee-underlying.body` / SHA256: `8f45ad3ffa98d049645f99b3fe6c561a91ae418a640253f14443ba9a64e73307`
+  - 형태: new_https_primary_fetch / 수집UTC: 2026-10-18T13:53:27.613321+00:00 / 재열람UTC: 2026-10-18T13:55:57.965373+00:00
+  - 확인문장: Coffee consumption has been associated with several benefits toward human health. However, its association with mortality risk has yielded contrasting results, including a non-linear relation to all-cause and cardiovascular disease (CVD) mortality and no association with cancer mortality. As smoking habits may affect the association between coffee and health outcomes, the aim of the present study was to update the latest dose-response meta-analysis of prospective cohort studies on the association between coffee consumption and mortality risk and conduct stratified analyses by smoking status and other potential confounders. A systematic search was conducted in electronic databases to identify relevant studies, risk estimates were retrieved from the studies, and dose-response analysis was modeled by using restricted cubic splines. A total of 31 studies comprising 1610,543 individuals and 183,991 cases of all-cause, 34,574 of CVD, and 40,991 of cancer deaths were selected. Analysis showed decreased all-cause [relative risk (RR) = 0.86, 95 % confidence interval (CI) = 0.82, 0.89)] and CVD mortality risk (RR = 0.85, 95 % CI = 0.77, 0.93) for consumption of up to 4 cups/day of coffee, while higher intakes were associated with no further lower risk. When analyses were restricted only to non-smokers, a linear decreased risk of all-cause (RR = 0.94, 95 % CI = 0.93, 0.96), CVD (RR = 0.94, 95 % CI = 0.91, 0.97), and cancer mortality (RR = 0.98, 95 % CI = 0.96, 1.00) for 1 cup/day increase was found. The search for other potential confounders, including dose-response analyses in subgroups by gender, geographical area, year of publication, and type of coffee, showed no relevant differences between strata. In conclusion, coffee consumption is associated with decreased risk of mortality from all-cause, CVD, and cancer; however, smoking modifies the observed risk when studying the role of coffee on human health.
+  - 범위: Grosso2016하위메타분석원초록조회.전체논문/그래프CI를검증한것아님.이하위초록만으로.83CI를역산하지않음.
+
+- **hot-tea2009**: <https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3269898/fullTextXML>
+  - raw: `/tmp/ch02-audit/full-PMC3269898.body` / SHA256: `aca4f244d445ed112346140b32b32038385868e90242bdfffd68793f2363fb9a`
+  - 형태: previous_direct_primary_xml_reopened / 수집UTC: 정확초기시각미기록 / 재열람UTC: 2026-10-18T13:55:57.965373+00:00
+  - 확인문장: less than two minutes after pouring (5.41, 2.63 to 11.1)
+  - 범위: 기존자체직접수집XML재열람,정확초기HTTP시각미기록.지금새HTTP아님.
+
+- **iarc-hot2016**: <https://www.iarc.who.int/wp-content/uploads/2018/07/pr244_E.pdf>
+  - raw: `/tmp/ch02-audit/iarc-hot.body` / SHA256: `089c2b65dc67e9fd58e4ba67294e4f31a35ca02fc1fa0c25a4292e4811df6d16`
+  - 형태: previous_direct_official_pdf_reopened / 수집UTC: 정확초기시각미기록 / 재열람UTC: 2026-10-18T13:55:57.965373+00:00
+  - 확인문장: Drinking very hot beverages was classified as probably carcinogenic to humans (Group 2A). “Very hot” refers to any beverages consumed at a temperature above 65 °C.
+  - 범위: 이전직접수집PDF와pdftotext두페이지/각주재열람.정확초기HTTP시각미기록.새HTTP아님.
+
+- **sun2016**: <https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1111%2Fjoim.12496%22&format=json&resultType=core&pageSize=10>
+  - raw: `/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/e68a6464b290a05b21d2.json` / SHA256: `8f4dac63a0d2b73eda218ba53290f66ca2802cc62414cebbc022ccfd629a21dd`
+  - 형태: provided_primary_abstract_cache_reopened / 수집UTC: 2026-10-18T20:50:05.832308+09:00 / 재열람UTC: 2026-10-18T13:55:57.965373+00:00
+  - 확인문장: Compared to the highest sun exposure group, life expectancy of avoiders of sun exposure was reduced by 0.6-2.1 years.
+  - 범위: 원초록의해당대상/결과를직접읽음.전체원문/부록열람으로세지않음.
+
+- **bmi2016**: <https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4995441/fullTextXML>
+  - raw: `/tmp/ch02-audit/full-PMC4995441.body` / SHA256: `e63f5232c5728c87368ac6a01da315ee3ff5e64bd5bf170618f2d5c3f9bd8b39`
+  - 형태: previous_direct_primary_xml_reopened / 수집UTC: 정확초기시각미기록 / 재열람UTC: 2026-10-18T13:55:57.965373+00:00
+  - 확인문장: relative to BMI 22·5–<25·0 kg/m
+  - 범위: 기존자체직접수집XML재열람,정확초기HTTP시각미기록.지금새HTTP아님.
+
+- **weight-rct2017**: <https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5682593/fullTextXML>
+  - raw: `/tmp/ch02-audit/weight-full.body` / SHA256: `aa4d7da30b16493cf74d5e8b1d6955d33ab63c468ddaa5ad43ce271dd8974b78`
+  - 형태: previous_direct_primary_xml_reopened / 수집UTC: 정확초기시각미기록 / 재열람UTC: 2026-10-18T13:55:57.965373+00:00
+  - 확인문장: 54 RCTs with 30206 participants; all cause mortality (34 trials, 685 events; risk ratio 0.82, 95% confidence interval 0.71 to 0.95)
+  - 범위: 초기추가직접수집응답의요약·선정방법·결과재열람.비만성인식이감량±운동,1년이상이며정상체중에일반화하지않음.
+
+- **flegal2013**: <https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1001%2Fjama.2012.113905%22&format=json&resultType=core&pageSize=10>
+  - raw: `/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/790629f89037aa491844.json` / SHA256: `65bcdb6b29475d18052ab5dea9a1f1ee381a29c20338a7f477d71e5641e54ec1`
+  - 형태: provided_primary_abstract_cache_reopened / 수집UTC: 2026-10-18T20:50:06.281088+09:00 / 재열람UTC: 2026-10-18T13:55:57.965373+00:00
+  - 확인문장: 0.94
+  - 범위: 원초록의해당대상/결과를직접읽음.전체원문/부록열람으로세지않음.
+
+- **chili2019**: <https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2Fj.jacc.2019.09.068%22&format=json&resultType=core&pageSize=10>
+  - raw: `/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/edda638827db3ce65f50.json` / SHA256: `a3a27d4290375b707c0c283f3057339a0f305f15cb1ca3dadc6289ca11483a35`
+  - 형태: provided_primary_abstract_cache_reopened / 수집UTC: 2026-10-18T20:50:06.349978+09:00 / 재열람UTC: 2026-10-18T13:55:57.965373+00:00
+  - 확인문장: regular (>4 times/week) relative to none/rare intake
+  - 범위: 원초록의해당대상/결과를직접읽음.전체원문/부록열람으로세지않음.
+
+기저확률가정이나OR→RR역산은하지않았습니다. 제30항의원문정밀도차이를실질충돌로과장하지않았고제26항은명시정정문으로해결했습니다. 새DOI j4849추가는검증된개별추가안이지만ROOT의별도DOIannotation과최종본문새SHA의정식KR-FIT가필요합니다. 공개본문·기존승인안·git는변경하지않았습니다.

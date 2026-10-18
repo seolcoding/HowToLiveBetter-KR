@@ -1,0 +1,189 @@
+{
+  "status": "unadopted_proposal",
+  "entry": 7,
+  "base": "strict-entry.md",
+  "base_sha256": "eba25804304e59d8b2322beb13c62faa11f3873cf21fb2edb2aef73e9214b5d6",
+  "verified_date": "2026-10-18",
+  "method": "Independent cached primary abstract/full-text reading and HTTPS full-text attempt; no DOI-only verification.",
+  "fields": [
+    {
+      "field": "title",
+      "before": "### 7. 당분 음료를 마시지 마세요. 제로로 바꾼다고 해결되지 않습니다",
+      "after": "### 7. 당분 음료를 마시지 마세요. 제로 전환의 이득은 단정하지 마세요",
+      "reason": "Remove unsupported no-benefit assertion about switching to zero beverages; retain incoming anchor 당분 음료를 마시지 마세요 and 제로 topic."
+    },
+    {
+      "field": "비용",
+      "before": "돈도 시간도 안 듭니다. 물이나 무가당 차로 바꾸면 오히려 돈이 남습니다. 제로를 포함해 단맛 음료를 끊기가 어렵습니다.",
+      "after": "돈도 시간도 안 듭니다. 물이나 무가당 차로 바꾸면 오히려 돈이 남습니다. 제로를 포함해 단맛 음료를 끊기가 어렵습니다.",
+      "reason": "unchanged"
+    },
+    {
+      "field": "쉽게",
+      "before": "하루 두 병 이상 단 음료를 마시는 사람과 거의 안 마시는 사람을 비교했습니다. 같은 기간 죽을 확률은 많이 마시는 쪽이 20%쯤 높습니다. 하루 한두 병을 마셔도 10% 넘게 높습니다. 제로로 바꾼다고 이득이 보이지는 않습니다. 인공감미료 음료를 하루 두 잔 이상 마시는 사람도 비교했습니다. 죽을 확률은 오히려 4분의 1쯤 높습니다.",
+      "after": "유럽에서 당분 음료를 하루 2잔 이상 마신 쪽의 사망 위험이 약 8% 높았습니다. 한 달 1잔 미만과 비교했고, 1잔은 약 250mL입니다. 원인인지, 제로 전환이 이로운지는 알 수 없습니다.",
+      "reason": "Use one EPIC comparison; restore measured glass (~250mL), comparator and association uncertainty. Secondary US and zero comparisons remain in 이득."
+    },
+    {
+      "field": "이득",
+      "before": "미국의 대규모 추적 연구 두 개에서 나온 결과입니다. 연구진은 사람들을 따로 나누지 않고 기록만 했습니다. 약 11.8만 명을 추적했고 사망은 3.6만 건이었습니다. 하루 2잔 이상 마시는 사람과 한 달에 1잔 미만인 사람을 비교했습니다. 사망 위험은 많이 마시는 쪽이 약 21% 높습니다(HR 1.21). 하루 1~2잔을 마셔도 약 14% 높습니다(HR 1.14). 유럽 EPIC 추적 연구도 같은 설계로 진행했습니다. 10개국에서 45만 명을 추적했습니다. 하루 2잔 이상 마시는 사람과 한 달에 1잔 미만인 사람을 비교했습니다. 당분 든 청량음료는 사망 위험이 약 8% 높습니다. HR 1.08, 95% CI 1.01–1.16. 인공감미료 음료(제로)는 약 26% 높습니다. HR 1.26, 1.16–1.35. 청량음료를 전부 합치면 약 17% 높습니다. HR 1.17, 1.11–1.22.",
+      "after": "미국의 대규모 추적 연구 두 개에서 나온 결과입니다. 연구진은 사람들을 따로 나누지 않고 기록만 했습니다. 시작 당시 만성질환이 없던 미국 성인을 추적했습니다. 남성 37,716명과 여성 80,647명이었습니다. 약 11.8만 명을 추적했고 사망은 3.6만 건이었습니다. 하루 2회분 이상과 한 달 1회분 미만을 비교했습니다. 사망 위험은 많이 마시는 쪽이 약 21% 높습니다(HR 1.21). 하루 1회분 이상 2회분 미만은 약 14% 높습니다(HR 1.14). 미국 연구의 단위는 1회분입니다. 한국의 음료 한 병과 같은 양이라는 뜻은 아닙니다. HR은 추적 중 사망 위험을 비교한 비율입니다. 사망할 확률이 그만큼 늘었다는 뜻은 아닙니다. 미국의 21% 증가 추정 범위는 13~28%입니다. 14% 증가의 추정 범위는 9~19%입니다. 유럽 EPIC 추적 연구도 같은 설계로 진행했습니다. 10개국에서 45만 명을 추적했습니다. 시작 당시 암·심장병·뇌졸중·당뇨병이 있던 사람은 제외했습니다. 이 연구에서 1잔은 약 250mL입니다. 하루 2잔 이상 마시는 사람과 한 달에 1잔 미만인 사람을 비교했습니다. 당분 든 청량음료는 사망 위험이 약 8% 높습니다. HR 1.08, 95% CI 1.01–1.16. 인공감미료 음료(제로)는 약 26% 높습니다. HR 1.26, 1.16–1.35. 청량음료를 전부 합치면 약 17% 높습니다. HR 1.17, 1.11–1.22. 95% CI는 추정값의 불확실성을 나타내는 범위입니다.",
+      "reason": "Distinguish US servings from EPIC glasses; specify populations, precise <2 upper boundary, uncertainty and ordinary explanations of HR/CI."
+    },
+    {
+      "field": "근거등급",
+      "before": "A",
+      "after": "A",
+      "reason": "unchanged"
+    },
+    {
+      "field": "출처",
+      "before": "Malik VS, et al. (2019). Long-Term Consumption of Sugar-Sweetened and Artificially Sweetened Beverages and Risk of Mortality in US Adults. Circulation. <https://doi.org/10.1161/CIRCULATIONAHA.118.037401>; Mullee A, Romaguera D, Pearson-Stuttard J, et al. (2019). Association Between Soft Drink Consumption and Mortality in 10 European Countries. JAMA Internal Medicine, 179(11), 1479-1490. <https://doi.org/10.1001/jamainternmed.2019.2478>",
+      "after": "Malik VS, et al. (2019). Long-Term Consumption of Sugar-Sweetened and Artificially Sweetened Beverages and Risk of Mortality in US Adults. Circulation. <https://doi.org/10.1161/CIRCULATIONAHA.118.037401>; Mullee A, Romaguera D, Pearson-Stuttard J, et al. (2019). Association Between Soft Drink Consumption and Mortality in 10 European Countries. JAMA Internal Medicine, 179(11), 1479-1490. <https://doi.org/10.1001/jamainternmed.2019.2478>",
+      "reason": "unchanged"
+    },
+    {
+      "field": "비고",
+      "before": "논쟁 있음. 제로 음료를 둘러싼 논쟁입니다. 사망 위험과의 연관은 감미료 음료에서 더 강하게 나타납니다. 인과관계가 거꾸로일 가능성이 큽니다. 이미 살이 쪘거나 당뇨병이 생겨 제로로 바꿨을 가능성입니다. 따라서 이 결과로 \"감미료가 더 독하다\"고 말할 근거는 없습니다. 그렇다고 \"제로로 바꾸면 끝\"이라는 말도 근거가 없습니다. 물이나 무가당 차가 가장 안전한 선택입니다. 이런 연구는 사람들을 추적해 기록만 합니다. 단 음료를 많이 마시는 사람은 생활 전반이 더 불균형한 경우가 많습니다. 그래서 사망 위험 수치가 크게 잡혔을 수 있습니다.",
+      "after": "논쟁 있음. 제로 음료를 둘러싼 논쟁입니다. 사망 위험과의 연관은 감미료 음료에서 더 강하게 나타납니다. 인과관계가 거꾸로일 가능성이 큽니다. 이미 살이 쪘거나 당뇨병이 생겨 제로로 바꿨을 가능성입니다. 따라서 이 결과로 \"감미료가 더 독하다\"고 말할 근거는 없습니다. 음료군별 위험 비교만으로 제로 전환의 효과를 알 수는 없습니다. 물이나 무가당 차가 가장 안전한 선택입니다. 이런 연구는 사람들을 추적해 기록만 합니다. 단 음료를 많이 마시는 사람은 생활 전반이 더 불균형한 경우가 많습니다. 그래서 사망 위험 수치가 크게 잡혔을 수 있습니다.",
+      "reason": "Replace unsupported switch-benefit denial with limitation of between-group comparisons."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://doi.org/10.1161/CIRCULATIONAHA.118.037401",
+      "raw_path": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/europe-pmc/d589bf67028de68ae779.json",
+      "read_level": "cached primary abstract, read independently; attempted fullTextXML returned HTTP 500",
+      "quotes": [
+        "among 37 716 men from the Health Professional's Follow-up study (from 1986 to 2014) and 80 647 women from the Nurses' Health study (from 1980 to 2014) who were free from chronic diseases at baseline",
+        "(<1/mo, 1-4/mo, 2-6/week, 1-<2/d, and ≥2/d)",
+        "1.14 (1.09, 1.19), and 1.21 (1.13, 1.28; P trend <0.0001)"
+      ]
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6724165/fullTextXML",
+      "raw_path": "/tmp/ch02-audit/full-PMC6724165.txt",
+      "read_level": "cached primary full-text passages: methods, results, limitations; not a new live retrieval",
+      "quotes": [
+        "1 glass was equal to approximately 250 mL",
+        "≥2 glasses per day, with 1 glass being equal to 250 mL",
+        "sugar-sweetened soft drinks (HR, 1.08; 95% CI, 1.01-1.16",
+        "Given the observational design of the study, it is not possible to establish causality between soft drink consumption and mortality, and we recognize that the observed associations may be biased because of residual confounding."
+      ]
+    }
+  ],
+  "sentence_lengths": [
+    {
+      "field": "title",
+      "sentence": "제로 전환의 이득은 단정하지 마세요",
+      "chars": 19
+    },
+    {
+      "field": "쉽게",
+      "sentence": "유럽에서 당분 음료를 하루 2잔 이상 마신 쪽의 사망 위험이 약 8% 높았습니다.",
+      "chars": 45
+    },
+    {
+      "field": "쉽게",
+      "sentence": "한 달 1잔 미만과 비교했고, 1잔은 약 250mL입니다.",
+      "chars": 32
+    },
+    {
+      "field": "쉽게",
+      "sentence": "원인인지, 제로 전환이 이로운지는 알 수 없습니다.",
+      "chars": 28
+    },
+    {
+      "field": "이득",
+      "sentence": "시작 당시 만성질환이 없던 미국 성인을 추적했습니다.",
+      "chars": 29
+    },
+    {
+      "field": "이득",
+      "sentence": "남성 37,716명과 여성 80,647명이었습니다.",
+      "chars": 28
+    },
+    {
+      "field": "이득",
+      "sentence": "하루 2회분 이상과 한 달 1회분 미만을 비교했습니다.",
+      "chars": 30
+    },
+    {
+      "field": "이득",
+      "sentence": "하루 1회분 이상 2회분 미만은 약 14% 높습니다(HR 1.14).",
+      "chars": 38
+    },
+    {
+      "field": "이득",
+      "sentence": "미국 연구의 단위는 1회분입니다.",
+      "chars": 18
+    },
+    {
+      "field": "이득",
+      "sentence": "한국의 음료 한 병과 같은 양이라는 뜻은 아닙니다.",
+      "chars": 28
+    },
+    {
+      "field": "이득",
+      "sentence": "HR은 추적 중 사망 위험을 비교한 비율입니다.",
+      "chars": 26
+    },
+    {
+      "field": "이득",
+      "sentence": "사망할 확률이 그만큼 늘었다는 뜻은 아닙니다.",
+      "chars": 25
+    },
+    {
+      "field": "이득",
+      "sentence": "미국의 21% 증가 추정 범위는 13~28%입니다.",
+      "chars": 28
+    },
+    {
+      "field": "이득",
+      "sentence": "14% 증가의 추정 범위는 9~19%입니다.",
+      "chars": 24
+    },
+    {
+      "field": "이득",
+      "sentence": "시작 당시 암·심장병·뇌졸중·당뇨병이 있던 사람은 제외했습니다.",
+      "chars": 35
+    },
+    {
+      "field": "이득",
+      "sentence": "이 연구에서 1잔은 약 250mL입니다.",
+      "chars": 22
+    },
+    {
+      "field": "이득",
+      "sentence": "95% CI는 추정값의 불확실성을 나타내는 범위입니다.",
+      "chars": 30
+    },
+    {
+      "field": "비고",
+      "sentence": "음료군별 위험 비교만으로 제로 전환의 효과를 알 수는 없습니다.",
+      "chars": 35
+    }
+  ],
+  "easy_chars": 107,
+  "intentional_scope_changes": [
+    "쉽게 central comparison changes from US ~20% to EPIC ~8% (HR1.08), with EPIC glass definition.",
+    "US 1~2 becomes 1 이상 2 미만; abstract category 1-<2/d.",
+    "No bottle conversion. US serving volume unverified; explicitly not equated to Korean bottle."
+  ],
+  "doi_changes": {
+    "added": [],
+    "removed": [],
+    "reason": "Both existing primary citations retained."
+  },
+  "incoming_title_anchors": {
+    "scan": "Repository Markdown search for 당분 음료를 마시지 / 제로로 바꾼다고.",
+    "found": "book-kr/16-만성질환-진단-후-사는-법.md refers to 제2절 제7항(당분 음료를 마시지 마세요).",
+    "preserved": true
+  },
+  "unresolved_limitations": [
+    "US full text could not be read (HTTP500); its serving volume and any substitution analysis were not independently verified. Do not assert the entire US paper never studied substitutions.",
+    "EPIC between-group comparison does not establish substitution effects or causation.",
+    "Cost and strongest-safety recommendation unchanged and not newly verified."
+  ],
+  "review_required": "Independent exact-hash review; no adoption or publication performed."
+}

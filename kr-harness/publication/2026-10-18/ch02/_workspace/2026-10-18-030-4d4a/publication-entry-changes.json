@@ -1,0 +1,116 @@
+{
+  "entry": 30,
+  "status": "unadopted_proposal",
+  "base": "strict-entry.md",
+  "base_sha256": "a30a5d8b22299a1ccb0064f0ba814c92743f41e52d0cdd6e342fbd2021c334ca",
+  "proposal_sha256": "f68f58d4a8673cdeb7837a4d237df408016e4a1d1a95674abba94c664a445891",
+  "changes": [
+    {
+      "field": "비용",
+      "before": "돈이 안 듭니다. 한 번에 2~3분만 기다리면 됩니다. 식기 전에 마시고 싶어도 잠깐 참아야 합니다.",
+      "after": "돈이 안 듭니다. 충분히 식을 때까지 기다려야 합니다. 식기 전에 마시고 싶어도 잠깐 참아야 합니다.",
+      "reason": "Remove unsupported 2–3 minute safety implication; primary reports elevated odds even at 2–3 minutes.",
+      "sources": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3269898/fullTextXML",
+        "https://www.iarc.who.int/wp-content/uploads/2018/07/pr244_E.pdf"
+      ]
+    },
+    {
+      "field": "쉽게",
+      "before": "아주 뜨거운 차를 마시는 사람은 식도암 위험이 따뜻한 차의 8배입니다. '뜨거운' 차도 위험이 2배로 높게 나타났습니다. 따라내고 2분 안에 마시면 4분 이상 기다린 사람의 5배입니다.",
+      "after": "이란 북부에서는 아주 뜨거운 차를 마신 쪽에 식도암이 더 흔했습니다. 암에 걸릴 확률이 8배라는 뜻은 아닙니다. 몇 분 기다리면 안전하다고 정할 수는 없습니다.",
+      "reason": "Replace OR-as-risk multiples with plain direction, Iranian population and explicit odds/probability distinction; remove implied fixed safe waiting duration.",
+      "sources": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3269898/fullTextXML",
+        "https://www.iarc.who.int/wp-content/uploads/2018/07/pr244_E.pdf"
+      ]
+    },
+    {
+      "field": "이득",
+      "before": "식도암이 흔한 이란 북부에서 사례-대조 연구를 했습니다. 환자 300명과 앓지 않은 사람 571명을 비교했습니다. 차 온도는 따뜻한 차를 기준으로 비교했습니다. 식도 편평세포암의 오즈를 비교했습니다. 오즈는 암에 걸릴 확률을 걸리지 않을 확률로 나눈 값입니다. '뜨거운' 차의 오즈는 약 2.07배입니다(OR). 95% CI 1.28–3.35는 추정값의 불확실성을 나타냅니다. '아주 뜨거운' 차의 오즈는 약 8.16배입니다(3.93–16.9). 차를 따른 뒤 마시기까지 기다린 시간도 비교했습니다. 2분 안에 마신 사람을 4분 이상 기다린 사람과 비교했습니다. 식도암 오즈는 빨리 마신 쪽이 약 5.41배입니다(2.63–11.1).",
+      "after": "식도암이 흔한 이란 북부에서 사례-대조 연구를 했습니다. 환자 300명과 앓지 않은 사람 571명을 비교했습니다. 차 온도는 따뜻한 차를 기준으로 비교했습니다. 식도 편평세포암의 오즈를 비교했습니다. 오즈는 암에 걸릴 확률을 걸리지 않을 확률로 나눈 값입니다. 오즈비는 발생 확률의 배수와 다릅니다. '뜨거운' 차의 오즈는 약 2.07배입니다(OR). 95% CI 1.28–3.35는 추정값의 불확실성을 나타냅니다. '아주 뜨거운' 차의 오즈는 약 8.16배입니다(3.93–16.9). 차를 따른 뒤 마시기까지 기다린 시간도 비교했습니다. 2분 미만에 마신 사람을 4분 이상 기다린 사람과 비교했습니다. 식도암 오즈는 빨리 마신 쪽이 약 5.41배입니다(2.63–11.1). 이는 관찰된 연관이며 인과관계를 확정하지 못합니다. 마신 온도를 기억해 답한 데 따른 오류도 가능합니다.",
+      "reason": "Retain all estimates and CIs, explain odds/probability distinction, make <2-minute boundary exact, disclose observational association and recall limitations.",
+      "sources": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3269898/fullTextXML",
+        "https://www.iarc.who.int/wp-content/uploads/2018/07/pr244_E.pdf"
+      ]
+    },
+    {
+      "field": "출처",
+      "before": "Islami F, Pourshams A, Nasrollahzadeh D, et al. (2009). Tea drinking habits and oesophageal cancer in a high risk area in northern Iran: population based case-control study. BMJ, 338, b929. <https://doi.org/10.1136/bmj.b929>; Loomis D, Guyton KZ, Grosse Y, et al. (2016). Carcinogenicity of drinking coffee, mate, and very hot beverages. Lancet Oncology, 17(7), 877-878. <https://doi.org/10.1016/S1470-2045(16)30239-X>",
+      "after": "Islami F, Pourshams A, Nasrollahzadeh D, et al. (2009). Tea drinking habits and oesophageal cancer in a high risk area in northern Iran: population based case-control study. BMJ, 338, b929. <https://doi.org/10.1136/bmj.b929>; Loomis D, Guyton KZ, Grosse Y, et al. (2016). Carcinogenicity of drinking coffee, mate, and very hot beverages. Lancet Oncology, 17(7), 877-878. <https://doi.org/10.1016/S1470-2045(16)30239-X>; 국제암연구소(IARC). (2016-06-15). IARC Monographs evaluate drinking coffee, maté, and very hot beverages. <https://www.iarc.who.int/wp-content/uploads/2018/07/pr244_E.pdf>",
+      "reason": "Add actually read official IARC primary institutional release supporting retained 65°C/2A/coffee statements; both original DOIs retained.",
+      "sources": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3269898/fullTextXML",
+        "https://www.iarc.who.int/wp-content/uploads/2018/07/pr244_E.pdf"
+      ]
+    },
+    {
+      "field": "비고",
+      "before": "국제암연구소(IARC)는 65℃를 넘는 뜨거운 음료를 2A군으로 분류했습니다. 발암 가능성이 높다는 뜻입니다. 같은 평가에서 커피 자체의 발암 여부는 분류할 수 없다고 판단했습니다. 한국도 뜨거운 국과 차를 곧바로 마시는 문화가 있습니다. 국그릇에서 김이 오르는 동안 기다리세요.",
+      "after": "국제암연구소(IARC)는 65℃를 넘는 뜨거운 음료를 2A군으로 분류했습니다. 발암 가능성이 높다는 뜻입니다. 같은 평가에서 커피 자체의 발암 여부는 분류할 수 없다고 판단했습니다. 한국도 뜨거운 국과 차를 곧바로 마시는 문화가 있습니다. 김이 나는지만 보고 안전한 온도라고 판단하지 마세요. 뜨겁게 데일 정도라면 더 식혀 드세요.",
+      "reason": "Steam alone does not establish safe temperature; replace steam-based stopping instruction with cautious cooling advice, without a guaranteed threshold.",
+      "sources": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3269898/fullTextXML",
+        "https://www.iarc.who.int/wp-content/uploads/2018/07/pr244_E.pdf"
+      ]
+    }
+  ],
+  "primary_evidence": [
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3269898/fullTextXML",
+      "doi": "10.1136/bmj.b929",
+      "level": "Full article XML including abstract, methods, results and discussion read directly",
+      "raw_path": "/tmp/ch02e30/primary.xml",
+      "quotes": [
+        "Participants 300 histologically proved cases of oesophageal squamous cell carcinoma and 571 matched neighbourhood controls in the case-control study and 48 582 participants in the cohort study.",
+        "Main outcome measure Odds ratio of oesophageal squamous cell carcinoma associated with drinking hot tea.",
+        "compared with drinking lukewarm or warm tea, drinking hot tea (odds ratio 2.07, 95% confidence interval 1.28 to 3.35) or very hot tea (8.16, 3.93 to 16.9) was associated with an increased risk of oesophageal cancer.",
+        "compared with drinking tea four or more minutes after being poured, drinking tea 2-3 minutes after pouring (2.49, 1.62 to 3.83) or less than two minutes after pouring (5.41, 2.63 to 11.1) was associated with a significantly increased risk.",
+        "As in all case-control studies, however, data on the amount and temperature of consumed tea can be subject to information bias.",
+        "Nonetheless, we acknowledge that the nature and strength of the association needs to be established in prospective studies."
+      ],
+      "sha256": "aca4f244d445ed112346140b32b32038385868e90242bdfffd68793f2363fb9a",
+      "verification_date": "2026-10-18",
+      "method": "HTTPS urllib download; actual content independently read"
+    },
+    {
+      "url": "https://www.iarc.who.int/wp-content/uploads/2018/07/pr244_E.pdf",
+      "level": "Official IARC press release PDF, both pages and footnotes read via pdftotext",
+      "raw_path": "/tmp/ch02e30/iarc.pdf",
+      "extracted_path": "/tmp/ch02e30/iarc.txt",
+      "quotes": [
+        "Drinking very hot beverages was classified as probably carcinogenic to humans (Group 2A).",
+        "“Very hot” refers to any beverages consumed at a temperature above 65 °C. See the Q&A for more details.",
+        "Drinking coffee was not classifiable as to its carcinogenicity to humans (Group 3).",
+        "The classification does not indicate what level of risk exists to people’s health associated with exposure to a classified hazard."
+      ],
+      "sha256": "089c2b65dc67e9fd58e4ba67294e4f31a35ca02fc1fa0c25a4292e4811df6d16",
+      "verification_date": "2026-10-18",
+      "method": "HTTPS urllib download; actual content independently read"
+    }
+  ],
+  "intentional_numerical_scope_changes": [
+    "Remove easily-field risk/probability multiples 8/2/5; retain OR 2.07/8.16/5.41 and their uncertainty intervals in benefit field.",
+    "Remove 2–3-minute prescription: primary observation is not a safe waiting-time trial.",
+    "Clarify less than two minutes instead of potentially inclusive two minutes.",
+    "Endpoint remains oesophageal squamous cell carcinoma, 300 cases and 571 matched neighbourhood controls in northern Iran; no personal absolute probabilities estimated."
+  ],
+  "doi_changes": {
+    "added": [],
+    "removed": [],
+    "reason": "Both original DOI citations retained; institutional URL added without DOI."
+  },
+  "limitations": [
+    "Lancet Oncology source full text not independently read; retained IARC findings verified against its official release.",
+    "BMJ abstract gives upper CI bounds 16.9 and 11.1; body gives 16.91 and 11.14. Preserve original abstract precision rather than silently changing rounding.",
+    "No clinical trial establishes an individual safe waiting duration or a risk reduction from cooling.",
+    "Raw downloads are stored in /tmp; existing upstream cache provenance remains in chapter editorial-decisions.json."
+  ],
+  "validation": {
+    "easy_characters": 89,
+    "easy_sentence_count": 3,
+    "modified_narrative_sentence_max": 38,
+    "title_cost_tag_evidence_grade": "unchanged"
+  }
+}
