@@ -1,0 +1,16 @@
+{
+  "chapters": 34,
+  "entries": 667,
+  "routes": {
+    "light": 644,
+    "standard": 23
+  },
+  "source_snapshots_match_current_public": true,
+  "active_worker_input_hash_mismatches": [],
+  "checks": [
+    "all upstream metrics generated without error fallback",
+    "standalone skill/references/runtime scripts byte-identical to pinned upstream; no symlinks",
+    "temporary CLI fixture: missing final rejected; unchanged input accepted and byte-exact assembled; changed number rejected; public unchanged",
+    "ch24 entry11 trailing-space sanitation restored from protected snapshot; preparer now restores exact original after shim"
+  ]
+}
