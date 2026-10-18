@@ -1,0 +1,472 @@
+{
+  "chapter": 12,
+  "status": "pending_candidate_review",
+  "reviewed_at_utc": "2026-10-18T13:27:27.984990+00:00",
+  "source_sha256": "01aa7401bf3d69e2186f55d4299a23ff488c06dcfb8a77637976717829c20b2d",
+  "manifest_sha256": "b22958233d04899130138fdfda4fab7ed9a7bccb29cb4350f91090a1c7d1217b",
+  "candidate_sha256": null,
+  "editorial_approval": false,
+  "formal_kr_fit": "not_run_for_final_candidate",
+  "baseline_lint": {
+    "exit_code": 0,
+    "block": 0,
+    "warn": 0
+  },
+  "entries": [
+    {
+      "entry": 1,
+      "baseline_status": "clarify",
+      "evidence_scope": "상법331·민법830/832/406",
+      "finding": "주주의 회사채무 책임한도와 별도보증을 구분한 점은 맞다. “집 재산”은 배우자·가족 전재산을 뜻하지 않게 개인재산으로 분명히 한다. 사업예산 제한은 직접 정량근거가 없는 저자 권고.",
+      "requirement": "개인보증 범위·특유재산·일상가사·채권자취소 요건 유지. 중국 원문 설명을 메타서술로 길게 반복하지 말고 한국 독자 행동 중심으로 정리.",
+      "snapshot_sha256": "f808981d2fee2fc549a304717e0a1476d4b71cb7a11594f63633b0232ad66092",
+      "candidate_status": "pending_candidate_review",
+      "fields": {
+        "쉽게": {
+          "decision": "pending_candidate_review"
+        },
+        "비고": {
+          "decision": "pending_candidate_review"
+        }
+      }
+    },
+    {
+      "entry": 2,
+      "baseline_status": "checked_primary",
+      "evidence_scope": "민법428·428의2·428의3·437,상법57",
+      "finding": "일반보증의 최고·검색 항변과 연대보증 배제,상행위보증의 연대책임,근보증최고액서면확인은 원문 부합. 연대보증은 회사에 먼저 재판/강제집행한 뒤에만 요구할 수 있는 책임이 아니다.",
+      "requirement": "보증인기명날인/서명서면 요건·전자적표시무효·최고액 미특정근보증무효를 추가할 경우 각각 예외와 조문을 보존. 배우자 서명이 없는 부부책임을 자동 전제하지 말 것.",
+      "snapshot_sha256": "34f5a2b48355b6f1d309f2b899710aa169c239478a1545666ddc4f4bb750c432",
+      "candidate_status": "pending_candidate_review",
+      "fields": {
+        "쉽게": {
+          "decision": "pending_candidate_review"
+        },
+        "이득": {
+          "decision": "pending_candidate_review"
+        }
+      }
+    },
+    {
+      "entry": 3,
+      "baseline_status": "clarify",
+      "evidence_scope": "상법212·331",
+      "finding": "합명회사사원연대책임·주식인수가액한도는 확인. 제목의 민법상조합은 이득에서 구체조문/책임을 설명하지 않는다. 합명회사와 민법조합을 같은 제도로 읽히게 해서는 안 된다.",
+      "requirement": "조합책임까지 조언하려면 민법 조합 조문/판례 추가검증. 주주/이사/보증인 지위차이 유지. 중국5년출자 문장은 한국행동에필요한지 검토.",
+      "snapshot_sha256": "461192aeb07998d80246abf2a5c3017bfba450719066089f350bfc866d8e6de9",
+      "candidate_status": "pending_candidate_review",
+      "fields": {
+        "title": {
+          "decision": "pending_candidate_review"
+        },
+        "이득": {
+          "decision": "pending_candidate_review"
+        },
+        "비고": {
+          "decision": "pending_candidate_review"
+        }
+      }
+    },
+    {
+      "entry": 4,
+      "baseline_status": "needs_revision",
+      "evidence_scope": "상법331·민법428/428의2;추가검증상증법45의2·국세기본법39",
+      "finding": "“명의주주로 이름만 올린다고 보증이나 임원책임을 피할 수 없다”는 주주명부등재만으로 보증/임원책임이 생긴다는 오독을 낳는다. 명의신탁세무를 TODO로만 남겼지만 확인 가능한 현행 원문이 있다.",
+      "requirement": "명의주주와 보증서명/임원취임의 별도요건을 분리. 명의신탁재산증여의제는 실제소유자/명의자불일치 및 조세회피목적없는예외 등 조건을 적어 보강가능. 과점주주2차납세는 법인재산부족·50%초과/경영지배·실질권리행사분 한도 등 요건부로만 설명. 이름만 있으면 전부 개인빚이라는 단정 금지.",
+      "snapshot_sha256": "65f2079d585d4a3c79fc9bb137ae11ffedfa5c61409d8dccd5f66c41a6cd3507",
+      "candidate_status": "pending_candidate_review",
+      "fields": {
+        "쉽게": {
+          "decision": "pending_candidate_review"
+        },
+        "이득": {
+          "decision": "pending_candidate_review"
+        },
+        "비고": {
+          "decision": "pending_candidate_review"
+        },
+        "출처": {
+          "decision": "pending_candidate_review"
+        }
+      }
+    },
+    {
+      "entry": 5,
+      "baseline_status": "needs_revision",
+      "evidence_scope": "가맹법3·6의2·7·9·10·11,시행령5·10·11",
+      "finding": "정보공개서/계약서각14일·전문가자문7일,계약전/계약후4개월사유구분,중단일서면재개요청,1개월내반환은 원문대조했다. 그러나 소규모가맹본부 적용배제(3①)때 모든거래적용예외(3②)에는7은있지만11이없다. 계약서숙려를모든가맹거래에일률단정하면틀린다.",
+      "requirement": "“계약서숙려는 법적용대상인 경우”라는 유보와 소규모예외를 짧게반영. 법3/시행령5출처보강. 정보공개서숙려는 모든가맹거래적용임을구분. 14/7·각기산일·예치최초일/합의일·4개월·1개월·반환액비례조건·분쟁비용을축약중지우지말것. 11의기간위반만으로10①1의자동반환사유라고추가하지말것.",
+      "snapshot_sha256": "342609bc24aad038786b6ae10496c5589073822ca694010dde749940eadd1de3",
+      "candidate_status": "pending_candidate_review",
+      "fields": {
+        "쉽게": {
+          "decision": "pending_candidate_review"
+        },
+        "이득": {
+          "decision": "pending_candidate_review"
+        },
+        "비고": {
+          "decision": "pending_candidate_review"
+        },
+        "출처": {
+          "decision": "pending_candidate_review"
+        }
+      }
+    },
+    {
+      "entry": 6,
+      "baseline_status": "checked_primary",
+      "evidence_scope": "부가가치세8,상법317",
+      "finding": "사업개시일부터20일내/사전신청 가능,법인등기와사업자등록/영업허가별개는원문부합. 모든법인의설립절차를주식회사317만으로설명하지말것.",
+      "requirement": "법인종류에따른등기차이를유보.20일기산점유지. 신청서류/처리기한/수수료TODO는실무안내추가검증여지이나등록자체무료와법인설립비용을혼동금지.",
+      "snapshot_sha256": "f2f87d804c97d693ca37e703aea69a2415f1e51b15025c889d5f895365c1fe2d",
+      "candidate_status": "pending_candidate_review",
+      "fields": {
+        "이득": {
+          "decision": "pending_candidate_review"
+        },
+        "비고": {
+          "decision": "pending_candidate_review"
+        }
+      }
+    },
+    {
+      "entry": 7,
+      "baseline_status": "checked_primary",
+      "evidence_scope": "식품위생37·94·95·97,시행령21·25·26의2",
+      "finding": "무신고음식점3년/3천만원,무등록식품제조5년/5천만원체계가일치한다. 허가영업94는10년/1억원체계. 모든음식/제조활동이동일의무라는뜻은아니다.",
+      "requirement": "필요한허가/등록/신고대상이라는조건유지. 제조/판매/주류/식품종류별법령차이를지우지말것.시행령의적용제외/단순가공예외를무시한무조건불법단정금지.",
+      "snapshot_sha256": "13d4b1c349772610068b1e4bce9649e4eedc04ddd3d5b4f93db1615e0fcf5cf4",
+      "candidate_status": "pending_candidate_review",
+      "fields": {
+        "쉽게": {
+          "decision": "pending_candidate_review"
+        },
+        "이득": {
+          "decision": "pending_candidate_review"
+        }
+      }
+    },
+    {
+      "entry": 8,
+      "baseline_status": "clarify",
+      "evidence_scope": "식품위생37,시행령21·25·26의2,축산물위생7·22·24",
+      "finding": "제조등록/즉석·일반·휴게신고와포장판매규모/방식별차이확인. 축산물현행법도ID대체조회로원문확보했다.",
+      "requirement": "단순포장식품소매가항상신고대상이라거나정육점이일반식품법허가라고쓰지말것. 축산물제21①6~8대상은24신고,도축/가공/포장/보관은22허가라는구분보강가능. 구체면적·시설/교육·신고예외는하위규정추가확인필요.",
+      "snapshot_sha256": "bf06f8446758410a2c32b569810a443984d1c218d35f18124082e3ed605b9df5",
+      "candidate_status": "pending_candidate_review",
+      "fields": {
+        "쉽게": {
+          "decision": "pending_candidate_review"
+        },
+        "이득": {
+          "decision": "pending_candidate_review"
+        },
+        "비고": {
+          "decision": "pending_candidate_review"
+        }
+      }
+    },
+    {
+      "entry": 9,
+      "baseline_status": "clarify",
+      "evidence_scope": "식품표시광고4·28",
+      "finding": "표시기본항목,제품별제조연월일/소비기한/품질유지기한선택,표시위반일반식품3년/3천만원확인. 법4①단서는일부만표시할수있는예외도둔다.",
+      "requirement": "제목“소비기한을빠뜨리지마세요”를모든제품의무로읽히지않게“해당제품의날짜표시”등범위유보. 일반식품벌칙과건강기능식품차이유지. 글씨크기/표시예외/산출기준은추가공식고시검토필요.",
+      "snapshot_sha256": "a22164c85d93bef2ec1ea94d958aeb61671d52bab3633abf97da0299ccfad3dc",
+      "candidate_status": "pending_candidate_review",
+      "fields": {
+        "title": {
+          "decision": "pending_candidate_review"
+        },
+        "쉽게": {
+          "decision": "pending_candidate_review"
+        },
+        "이득": {
+          "decision": "pending_candidate_review"
+        },
+        "비고": {
+          "decision": "pending_candidate_review"
+        }
+      }
+    },
+    {
+      "entry": 10,
+      "baseline_status": "checked_primary",
+      "evidence_scope": "식품표시광고8①1~3·26",
+      "finding": "질병예방치료/의약품오인/일반식품의건기식오인광고는10년/1억원·병과가능으로확인. 광고내용1~3호에한정된벌칙임.",
+      "requirement": "모든과장광고가10년이라는일반화금지. 반복범행가중은별도. 포장/상세/방송매체범위와사전검토권고를보존.",
+      "snapshot_sha256": "f6f28a43a895e1943542f0d94fbf4202327390d8bde9326ede5f0850d0b9cad6",
+      "candidate_status": "pending_candidate_review",
+      "fields": {
+        "이득": {
+          "decision": "pending_candidate_review"
+        },
+        "비고": {
+          "decision": "pending_candidate_review"
+        }
+      }
+    },
+    {
+      "entry": 11,
+      "baseline_status": "clarify",
+      "evidence_scope": "식품위생4·7④·93~95",
+      "finding": "위해식품10년/1억원·기준규격위반5년/5천만원·병과체계확인.94①1은93①/③해당사건을명시제외한다.",
+      "requirement": "“일반적으로94조가적용되며특정원료/감염동물등에는별도중한처벌이있다”등조건유보. 재범만예외인듯쓰지말것. 기준규격의7④범위와건강해칠우려요건유지.",
+      "snapshot_sha256": "7832cc8c064ed77c18ad16f31c1aab6b0a6528dc73635e61d9351357ab48ead2",
+      "candidate_status": "pending_candidate_review",
+      "fields": {
+        "이득": {
+          "decision": "pending_candidate_review"
+        },
+        "비고": {
+          "decision": "pending_candidate_review"
+        }
+      }
+    },
+    {
+      "entry": 12,
+      "baseline_status": "clarify",
+      "evidence_scope": "부가가치세48·49,소득세70,법인세60,국세기본47의2/47의4",
+      "finding": "종소세다음해5.1~5.31·결손/과표없는거주자범위,내국법인종료달말일부터원칙3개월확인. 법인성실신고확인서4개월·감사미종결연장조건이있다. 부가세예정신고/고지유형차이도있다.",
+      "requirement": "“원칙”·본인유형유보를유지하고법인범위명시. 부가세신고를모든사업자에매달/분기일률의무로쓰지말것. 개인무소득전체의신고의무/면제와특례는별도구분. 직접개인/법인신고실무전체검증완료는아님.",
+      "snapshot_sha256": "f9869494a5e3b0b204aeb29c080cceb9050168cddcffbbe961a34f611d3da94a",
+      "candidate_status": "pending_candidate_review",
+      "fields": {
+        "이득": {
+          "decision": "pending_candidate_review"
+        },
+        "비고": {
+          "decision": "pending_candidate_review"
+        }
+      }
+    },
+    {
+      "entry": 13,
+      "baseline_status": "checked_primary",
+      "evidence_scope": "부가가치세61·69,시행령109,조세범10③",
+      "finding": "간이과세직전년공급대가1억400만원미만,납부면제해당과세기간4800만원미만,12개월환산·제외업종,허위계산서처벌원문확인.",
+      "requirement": "간이과세는개인사업자라는대상과부동산임대/유흥장소등별도기준/복수사업장합산조건을필요시보강.69①추가납부세액예외도있으므로모든세금면제로쓰지말것. 신고·증빙별도의무보존.",
+      "snapshot_sha256": "4262cde6a08cf1cafcebda12b35fa690b276dd8ce592ace16e4932125a0cfb37",
+      "candidate_status": "pending_candidate_review",
+      "fields": {
+        "이득": {
+          "decision": "pending_candidate_review"
+        },
+        "비고": {
+          "decision": "pending_candidate_review"
+        }
+      }
+    },
+    {
+      "entry": 14,
+      "baseline_status": "checked_primary",
+      "evidence_scope": "국세청홈페이지·경찰피싱안심SOS",
+      "finding": "국세청새조회본문에서“국세상담센터(유료) ... 국번없이126”을직접확인. 홈택스/관할서확인과연락중단은합리적대응이다. 경찰사이트도열었으나홈화면만으로은행/112대응의모든세부절차를검증한것은아니다.",
+      "requirement": "126유료·모든세무서전화가사기아님조건유지. 사이트주소를사용자가직접입력한다는취지유지. 공식사기신고세부절차는별도페이지검증필요.",
+      "snapshot_sha256": "783bdb8fecb044d6c3331b4b90089a75132d1a5622b4905d62014c7921dd7a26",
+      "candidate_status": "pending_candidate_review",
+      "fields": {
+        "쉽게": {
+          "decision": "pending_candidate_review"
+        },
+        "비고": {
+          "decision": "pending_candidate_review"
+        }
+      }
+    },
+    {
+      "entry": 15,
+      "baseline_status": "clarify",
+      "evidence_scope": "민법565·398",
+      "finding": "다른약정없음/계약금교부/일방이행착수전포기·배액상환,부당과다예정손해배상감액원문확인.",
+      "requirement": "쉽게의“조건있음”만으로끝내지말고“다른약정이없고어느쪽도이행에착수하기전”핵심조건을담는것권장. 매매/유상계약준용범위와위약금/위약벌을혼동하지말것. 소송비용설명유지.",
+      "snapshot_sha256": "d8a3063dc5b2627df2525643b16c2656130a61c9f401461009d8fc3e3476fe3c",
+      "candidate_status": "pending_candidate_review",
+      "fields": {
+        "쉽게": {
+          "decision": "pending_candidate_review"
+        },
+        "이득": {
+          "decision": "pending_candidate_review"
+        }
+      }
+    },
+    {
+      "entry": 16,
+      "baseline_status": "needs_revision",
+      "evidence_scope": "근로기준17·114·11,건강보험6·8②",
+      "finding": "체결/변경때근로조건명시·주요조건서면/전자문서교부·위반500만원확인. 건강보험법8②는자격취득일부터14일내신고를직접규정한다. 현재TODO가확인가능한기한까지미확인으로묶는다.",
+      "requirement": "건강보험14일은조건부로보강가능,다른보험기한/보험료까지확인됐다고표시금지. 초단시간/단기근로등직장가입제외와근로기준사업장적용범위를유보. 5인미만도임금/계약서일체면제라는오독금지.114조2026개정의12월시행조항을10월현행으로섞지말것.",
+      "snapshot_sha256": "1f99345d8124aff13b00536aee0ff69b6eb9d82461fdafacc02e4ae2e8a17be5",
+      "candidate_status": "pending_candidate_review",
+      "fields": {
+        "이득": {
+          "decision": "pending_candidate_review"
+        },
+        "비고": {
+          "decision": "pending_candidate_review"
+        },
+        "출처": {
+          "decision": "pending_candidate_review"
+        }
+      }
+    },
+    {
+      "entry": 17,
+      "baseline_status": "checked_primary",
+      "evidence_scope": "근로기준17·43·48",
+      "finding": "통화/직접/전액/매월1회이상정기지급·법령/단체협약예외·지급시임금명세교부확인. 임시임금/수당등정기지급예외도조문에있다.",
+      "requirement": "기록권고의C등급과법정의무를구분. 개인대여금과임금장부분리효과를정량연구처럼확정금지. 사업장/가산수당범위유보유지.",
+      "snapshot_sha256": "660be8a4867bd1975f2c82ead408f8200b766c0d8517a4282289dd02cb9556ac",
+      "candidate_status": "pending_candidate_review",
+      "fields": {
+        "이득": {
+          "decision": "pending_candidate_review"
+        },
+        "비고": {
+          "decision": "pending_candidate_review"
+        }
+      }
+    },
+    {
+      "entry": 18,
+      "baseline_status": "needs_revision",
+      "evidence_scope": "Camuffo2020 DOI10.1287/mnsc.2018.3249 출판사초록+Crossref저자초록",
+      "finding": "116이탈리아스타트업·약1년/16시점RCT,성과향상·전환가능성증가·초기중단증가없음은초록과부합. 양군모두시장피드백일반교육10회,처치군에만가설/엄격검증훈련이다. 선주문/작은주문자체의독립효과실험이아니다.",
+      "requirement": "선주문방식은저자적용제안으로분리. 가설검증훈련개입의결과만B근거로연결. 잘못된프로젝트투자확률감소는이론과일치하는해석이라는유보유지. 한국성공률/생존율/수익효과량추가금지. 전문표/분석은초록확인과구분.",
+      "snapshot_sha256": "4ba20a4222b092d5bb151aafb779f3c696b4cbb25588ac991bd600a6277406d3",
+      "candidate_status": "pending_candidate_review",
+      "fields": {
+        "쉽게": {
+          "decision": "pending_candidate_review"
+        },
+        "이득": {
+          "decision": "pending_candidate_review"
+        },
+        "비고": {
+          "decision": "pending_candidate_review"
+        }
+      }
+    },
+    {
+      "entry": 19,
+      "baseline_status": "clarify",
+      "evidence_scope": "전기생활용품안전법5·15·23",
+      "finding": "안전인증/안전확인신고/공급자적합성확인구분원문대조. 모델/제조·수입주체·각단계의시험/신고차이가있다.",
+      "requirement": "모든제품KC하나/신고하나로정리금지. 품목별대상·예외·어린이제품법검증은남음. 양산/재고장부는C등급경험제안이고법정인증제도는그원문범위로한정.",
+      "snapshot_sha256": "fc6c6b36380bb554cb46cde26b7dae345a531c71126ee5143a5ca5436eca53a4",
+      "candidate_status": "pending_candidate_review",
+      "fields": {
+        "쉽게": {
+          "decision": "pending_candidate_review"
+        },
+        "이득": {
+          "decision": "pending_candidate_review"
+        },
+        "비고": {
+          "decision": "pending_candidate_review"
+        }
+      }
+    },
+    {
+      "entry": 20,
+      "baseline_status": "checked_primary",
+      "evidence_scope": "상표108·109·114·230",
+      "finding": "형사7년/1억원과민사고의/과실요건확인.114는소송에서의서류제출명령이고영수증자동면책근거가아니다.",
+      "requirement": "출처서류확보는사실설명과손해계산도움이며모든민형사책임면제아님유지. 위조품이라는사실만으로무과실형사처벌인듯단정금지. 직원행위/양벌요건추가시별도조문확인.",
+      "snapshot_sha256": "0c5d5c24e9724a86a36068b8ecbef6e349c49173e3a80289f48026a58116c3a7",
+      "candidate_status": "pending_candidate_review",
+      "fields": {
+        "쉽게": {
+          "decision": "pending_candidate_review"
+        },
+        "이득": {
+          "decision": "pending_candidate_review"
+        },
+        "비고": {
+          "decision": "pending_candidate_review"
+        }
+      }
+    },
+    {
+      "entry": 21,
+      "baseline_status": "checked_primary",
+      "evidence_scope": "저작권16·22·46·136,상표108·230",
+      "finding": "저작재산권침해7년/1억원·병과는2026.2.10법21336개정6개월경과(8.11시행)확인. 옛5년상한으로되돌리면오류다.",
+      "requirement": "저작권보호기간/인용/공정이용등법정허용도있으므로직접제작/허락만이합법이라는배타적표현은피할것.136①권리/방법범위유지.10.29예정개정을현재로쓰지말것.",
+      "snapshot_sha256": "b23da91979e90759617516d314708466c6d1ad3b5ed4508e4fb53fe7f420fc7b",
+      "candidate_status": "pending_candidate_review",
+      "fields": {
+        "title": {
+          "decision": "pending_candidate_review"
+        },
+        "이득": {
+          "decision": "pending_candidate_review"
+        },
+        "비고": {
+          "decision": "pending_candidate_review"
+        }
+      }
+    },
+    {
+      "entry": 22,
+      "baseline_status": "needs_revision",
+      "evidence_scope": "간호12,응급의료5의2,민법750",
+      "finding": "간호업무와응급면책이별개이며민사/상해형사면제·사망형사감면을구분한점맞음. 본문에서면책출발요건인“생명이위급한응급환자”가명확하지않다.",
+      "requirement": "생명이위급한환자·고의/중과실없음·구조자유형/업무중아님및면허자격범위를보강. 업무중전문구조자는같은면책이라고일반화금지. 조사/대응비용별개유지.",
+      "snapshot_sha256": "0b42c2ff70b134497a9503c206a0f1939c7f80c5cffaa80123c3468dd8414b5b",
+      "candidate_status": "pending_candidate_review",
+      "fields": {
+        "이득": {
+          "decision": "pending_candidate_review"
+        },
+        "비고": {
+          "decision": "pending_candidate_review"
+        }
+      }
+    },
+    {
+      "entry": 23,
+      "baseline_status": "clarify",
+      "evidence_scope": "상법517·535,채무자회생305·306·564·566,부가세8·49",
+      "finding": "해산/청산·지급불능파산·법인채무초과·개인면책별개원문확인. 법인채무초과는존립중합명/합자회사제외. 세금/임금등비면책은566에명시.",
+      "requirement": "폐업세신고를TODO안내만두지말고폐업일속한달의다음달25일까지(49①)확인분보강가능. 파산=전채무소멸금지,세금/임금/고의불법행위손해등예외간단히명시권장. 청산채권신고기간/공지등세부는실제법인유형별확인. 비용·기간미확인과원문조문확인구분.",
+      "snapshot_sha256": "51f165c4bc6f76e048894dd34142b1f990f0a233c3798f7546a1061639b0f47b",
+      "candidate_status": "pending_candidate_review",
+      "fields": {
+        "이득": {
+          "decision": "pending_candidate_review"
+        },
+        "비고": {
+          "decision": "pending_candidate_review"
+        }
+      }
+    },
+    {
+      "entry": 24,
+      "baseline_status": "checked_primary",
+      "evidence_scope": "민법110·141·146,형법347,경찰사이트",
+      "finding": "사기취소·원상회복·추인가능일부터3년/행위일부터10년·형사기망요건확인. 단순계약부진과사기구분및회수상대재산/집행비용유보적절.",
+      "requirement": "상대방이아닌제3자사기라면상대방인지/인지가능조건(110②),선의제3자(110③)유보. 모든쇼핑몰창업사기가전기통신금융사기지급정지대상이라고쓰지말것. 특정공식사건/허위주문제재는직접원문미확인유지.",
+      "snapshot_sha256": "d65f25985e4e269bf4d26c2e87232b7aa40eae8af26010299af5cea14e0cbc70",
+      "candidate_status": "pending_candidate_review",
+      "fields": {
+        "이득": {
+          "decision": "pending_candidate_review"
+        },
+        "비고": {
+          "decision": "pending_candidate_review"
+        }
+      }
+    }
+  ],
+  "operations": [],
+  "snapshot_count": 24,
+  "evidence_logs": [
+    "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch12-audit/retrieval-alt.json",
+    "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch12-audit/retrieval-current-search.json",
+    "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch12-audit/retrieval-retry.json",
+    "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch12-audit/retrieval.json"
+  ]
+}

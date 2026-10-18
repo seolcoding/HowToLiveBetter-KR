@@ -49,6 +49,8 @@ jobs:
         run: python3 kr-harness/publication/scripts/tests/test_protected_quote_metrics.py
       - name: 출판 DOI 승인 통합 회귀 검사
         run: python3 kr-harness/publication/scripts/tests/test_doi_annotations.py
+      - name: 출판 필드 연속행·보호 구조 통합 회귀 검사
+        run: python3 kr-harness/publication/scripts/tests/test_integration_continuations.py
       - name: 전자책 검사 의존성 설치
         run: npm ci --prefix kr-harness/ebook --ignore-scripts
       - name: 전자책 진행 안내 회귀 검사

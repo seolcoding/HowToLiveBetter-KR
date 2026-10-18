@@ -193,9 +193,23 @@ def integrate(folder):
                 raise ValueError('integration field before mismatch or multiline replacement')
             match=matches[0]
             after=before[:match.start(1)]+operation['after']+before[match.end(1):]
-        def structure(text):
-            return [re.sub(r'^(### \d+\. |^- (?:비용|쉽게|이득|출처|비고): ).*$',r'\1<editable>',line) for line in text.splitlines() if line.strip()]
-        if structure(before)!=structure(after):
+        def structure(text, fold_continuations=False):
+            layout=[]
+            editable_field=False
+            for line in text.splitlines():
+                # Only reviewed full-entry replacements may fold legacy wrapped
+                # prose. Blank/protected lines end the field's continuation scope.
+                # Never classify Markdown structure, comments or labels as prose.
+                if (fold_continuations and editable_field
+                        and re.match(r'^[ \t]+\S',line)
+                        and not re.match(r'\s*(?:[-*+#>|`~]|\d+[.)]\s|[^:：]{1,30}[:：])',line)
+                        and '<!--' not in line and '-->' not in line):
+                    continue
+                editable_field=bool(re.match(r'^- (?:비용|쉽게|이득|출처|비고): ',line))
+                if line.strip():
+                    layout.append(re.sub(r'^(### \d+\. |^- (?:비용|쉽게|이득|출처|비고): ).*$',r'\1<editable>',line))
+            return layout
+        if structure(before, fold_continuations='replacement' in operation)!=structure(after):
             raise ValueError('integration changed protected entry layout')
         old=invariants(before); new=invariants(after)
         expected_fields=['비용','쉽게','이득','근거등급','출처','비고']
