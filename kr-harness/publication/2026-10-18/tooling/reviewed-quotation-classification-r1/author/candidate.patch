@@ -1,0 +1,1207 @@
+--- a/.claude/skills/humanize-korean/PROVENANCE.md
++++ b/.claude/skills/humanize-korean/PROVENANCE.md
+@@ -45,3 +45,11 @@
+ The independently reviewed candidate changes only `scripts/checks.py`. Original-frozen quotation content/count requirements, metrics, thresholds, baselines, sample guards and preservation gates remain intact. Author and independent copied-runtime review reproduced actual entry30 identity/final0, rejection of alterations to each protected span, seven new and eleven existing quotation regressions, upstream golden38 and v2 metrics69, and all 667 routes (644 light/23 standard, zero changes). Independent tests also covered nested, short and mixed quotation styles, attribution suffixes, neighbouring prose and new/expanded/repeated wrappers. Entry24's distant FEMA quotation remains unclassified and its actual gate1 is honestly retained; this patch does not solve or waive it.
+ 
+ Portable CI regression: `python3 kr-harness/publication/scripts/tests/test_quote_passage.py`. It reads tracked original input fixtures only and writes transient gate cases under temporary directories; existing-final comparisons are historical external evidence. Author and independent evidence is preserved under `kr-harness/publication/2026-10-18/tooling/source-quotation-sequences/`. Previous failed gates/finalizer outputs stay preserved, and adoption requires a fresh finalizer and actual production gate0.
++
++## Proposed reviewed-quotation classification and fidelity hardening (candidate)
++
++Adds local stdlib runtime module scripts/quote_context.py and explicit hash-pinned classification inputs, following SPEC-R3. This module is an additional distribution dependency: standalone copies must include it. An upstream install.sh deployment must add quote_context.py to RUNTIME_SCRIPTS; the unchanged upstream nine-script allowlist is insufficient. No installer is used by this vendored standalone repository.
++
++Original automated attribution grammar, metric formulas, baselines, thresholds and sample guards remain unchanged. A strictly validated, root-selected independent-review registry may supply additional exact original quote classifications with source excerpt, same-field anchor, immutable input and exact final-body bindings. This is proposed classification machinery, not any actual source approval or gate waiver. Original full-text preservation checks remain active. Fresh derived route must equal the immutable manifest route. Assembly uses retained bytes and actual regating; classified publication is disabled pending separate review.
++
++Separately, quote fidelity now checks complete same-field quotation occurrence multiplicity rather than substring membership, including no-registry calls. Nested automatic eligibility remains supported; an inner occurrence cannot double-satisfy a consumed protected outer occurrence. New, expanded or repeated quote wrappers do not gain exclusions beyond the frozen original cap. Missing duplicate originals can now fail P3 where the former membership check passed. P1 metric execution failures now fail with execution error rather than quietly omitting that axis. No general semantic/negation guarantee beyond existing checks is claimed.
+--- a/.claude/skills/humanize-korean/references/metrics_v2.py
++++ b/.claude/skills/humanize-korean/references/metrics_v2.py
+@@ -764,6 +764,7 @@
+     baseline_path: str | None = None,
+     baseline_v2_path: str | None = None,
+     protected_quote_texts: list[str] | None = None,
++    _eligible_quote_spans: tuple[tuple[int, int], ...] | None = None,
+ ) -> dict[str, Any]:
+     """Compute v1.6 metrics + v2.0 post-editese + T1~T8 signals.
+ 
+@@ -794,6 +795,14 @@
+                 eligible_spans.append((start,end))
+                 allowed[text[start:end]]-=1
+         quote_spans=eligible_spans
++    if _eligible_quote_spans is not None:
++        # Internal verified-context API. Never loaded from document metadata.
++        quote_spans=list(_eligible_quote_spans)
++        last=-1
++        for start,end in quote_spans:
++            if type(start) is not int or type(end) is not int or not (last<=start<end<=len(text)):
++                raise ValueError("invalid frozen quotation intervals")
++            last=end
+     for start,end in reversed(quote_spans):
+         text=text[:start]+" "+text[end:]
+     base = _v1.compute_all(text, genre=genre, baseline_path=baseline_path)
+--- a/.claude/skills/humanize-korean/scripts/checks.py
++++ b/.claude/skills/humanize-korean/scripts/checks.py
+@@ -490,15 +490,11 @@
+ 
+ 
+ def check_quotes(original: str, output: str) -> list[Failure]:
+-    fails = []
+-    for start,end in protected_quote_spans(original):
+-        q=original[start:end]
+-        if q not in output:
+-            fails.append(Failure(
+-                "quote_altered",
+-                f"직접 인용 「{q[:30]}…」이 윤문본에 원문 그대로 없습니다 (인용 불변 철칙)",
+-            ))
+-    return fails
++    # Complete occurrences, scoped by field when the publication shape exists.
++    # This intentionally rejects duplicate loss even without a registry.
++    from quote_context import quote_losses
++    return [Failure("quote_altered", f"직접 인용 {key[1][:30]}… occurrence {missing}개 소실")
++            for key,missing in quote_losses(original,output)]
+ 
+ 
+ # ===========================================================================
+--- /dev/null
++++ b/.claude/skills/humanize-korean/scripts/quote_context.py
+@@ -0,0 +1,447 @@
++"""Root-selected reviewed original quotation classification (SPEC-R3 candidate).
++
++No metadata discovery, source fetch, semantic approval or identity authentication.
++Artifact reuse in the same source role is allowed; cross-role aliases are not.
++All evidence is retained as immutable bytes after bounded descriptor-relative reads.
++"""
++from __future__ import annotations
++from collections import Counter
++from dataclasses import dataclass
++import hashlib
++import json
++import os
++from pathlib import Path
++import re
++import stat
++from urllib.parse import urlsplit
++
++class ContextError(ValueError):
++    pass
++
++def require(condition, message):
++    if not condition:
++        raise ContextError(message)
++
++def digest(data):
++    return hashlib.sha256(data).hexdigest()
++
++def utf8(data):
++    require(not data.startswith(b'\xef\xbb\xbf'), 'UTF8 BOM forbidden')
++    text=data.decode('utf-8',errors='strict')
++    require('\x00' not in text,'NUL forbidden')
++    return text
++
++def keys(value, expected):
++    require(type(value) is dict and set(value)==set(expected.split()),'object keys/type mismatch')
++
++def integer(value, low=0, high=2**63-1):
++    require(type(value) is int and low<=value<=high,'integer type/range')
++    return value
++
++def sha(value):
++    require(type(value) is str and re.fullmatch('[0-9a-f]{64}',value) is not None,'SHA format')
++    return value
++
++def string(value, low=1, high=16384):
++    require(type(value) is str and low<=len(value)<=high and '\x00' not in value,'string type/length/NUL')
++    value.encode('utf-8',errors='strict')
++    return value
++
++def strict_json(data, allow_floats=False):
++    require(len(data)<=256*1024,'JSON byte limit')
++    def pairs(items):
++        result={}
++        for k,v in items:
++            require(k not in result,'duplicate JSON key')
++            result[k]=v
++        return result
++    def bad(value):
++        raise ContextError('nonfinite JSON value')
++    value=json.loads(utf8(data),object_pairs_hook=pairs,parse_constant=bad)
++    def bounds(v,depth=0):
++        require(depth<=12,'JSON depth')
++        require(allow_floats or type(v) is not float,'JSON float forbidden')
++        if type(v) is str: string(v,0)
++        elif type(v) is list:
++            for x in v: bounds(x,depth+1)
++        elif type(v) is dict:
++            for k,x in v.items(): string(k);bounds(x,depth+1)
++    bounds(value)
++    require(type(value) is dict,'JSON top object')
++    return value
++
++def relative_path(value):
++    string(value,1,1024)
++    require('\\' not in value and ':' not in value and not value.startswith('/')
++            and all(p not in ('','.','..') for p in value.split('/')),'unsafe relative path')
++    return value
++
++class Snapshot:
++    """One invocation, no reread after SHA checks; call close when finished."""
++    def __init__(self, root):
++        root=Path(root).absolute()
++        # The trusted root itself must not be a symlink either.
++        require(not root.is_symlink(),'symlink evidence root')
++        self.root=root
++        self.fd=os.open(root,os.O_RDONLY|os.O_DIRECTORY|os.O_NOFOLLOW)
++        self.cache={};self.identities={};self.total=0
++    def __del__(self):
++        if getattr(self,'fd',None) is not None:
++            os.close(self.fd);self.fd=None
++    def close(self):
++        if self.fd is not None: os.close(self.fd);self.fd=None
++    def read(self,path,role,limit=2*1024*1024):
++        relative_path(path)
++        if path in self.cache:
++            old_role,data=self.cache[path]
++            require(old_role==role,'path reused across evidence roles')
++            require(len(data)<=limit,'cached byte limit')
++            return data
++        directory=os.dup(self.fd)
++        try:
++            parts=path.split('/')
++            for part in parts[:-1]:
++                child=os.open(part,os.O_RDONLY|os.O_DIRECTORY|os.O_NOFOLLOW,dir_fd=directory)
++                os.close(directory);directory=child
++            fd=os.open(parts[-1],os.O_RDONLY|os.O_NOFOLLOW|os.O_NONBLOCK,dir_fd=directory)
++            try:
++                initial=os.fstat(fd)
++                require(stat.S_ISREG(initial.st_mode),'not regular file')
++                require(initial.st_size<=limit,'file byte limit')
++                identity=(initial.st_dev,initial.st_ino)
++                require(identity not in self.identities,'inode alias')
++                chunks=[];size=0
++                while True:
++                    chunk=os.read(fd,min(65536,limit+1-size))
++                    if not chunk: break
++                    chunks.append(chunk);size+=len(chunk)
++                    require(size<=limit,'read byte limit')
++                final=os.fstat(fd)
++                require((initial.st_size,initial.st_mtime_ns,initial.st_ctime_ns)==
++                        (final.st_size,final.st_mtime_ns,final.st_ctime_ns),'changed during read')
++                data=b''.join(chunks)
++                require(len(data)==final.st_size,'incomplete read')
++                utf8(data)
++                self.total+=len(data);require(self.total<=64*1024*1024,'snapshot byte budget')
++                self.identities[identity]=(path,role);self.cache[path]=(role,data)
++                return data
++            finally: os.close(fd)
++        finally: os.close(directory)
++    def file_ref(self,ref,role,limit=256*1024):
++        keys(ref,'path sha256');relative_path(ref['path']);sha(ref['sha256'])
++        data=self.read(ref['path'],role,limit)
++        require(digest(data)==ref['sha256'],'file SHA mismatch: '+ref['path'])
++        return data
++
++FIELDS=('비용','쉽게','이득','비고')
++PAIRS=(('「','」'),('『','』'),('“','”'),('"','"'))
++
++def field_ranges(text,strict=False):
++    lines=text.splitlines(keepends=True);out=[];pos=0
++    for line in lines:
++        value=line.rstrip('\r\n')
++        matches=[f for f in FIELDS if value.startswith('- '+f+': ')]
++        if matches:
++            f=matches[0];start=pos+len('- '+f+': ');out.append((f,start,pos+len(value)))
++        elif strict: raise ContextError('four editable physical field lines only')
++        pos+=len(line)
++    if strict: require(tuple(f for f,_,_ in out)==FIELDS,'field order/count')
++    return out
++
++@dataclass(frozen=True)
++class Occurrence:
++    field:str
++    ordinal:int
++    opening:tuple[int,int]
++    content:tuple[int,int]
++    closing:tuple[int,int]
++    nested:bool=False
++    ambiguous:bool=False
++
++def occurrences(text,manual=False):
++    fields=field_ranges(text,strict=manual)
++    scope_fields=fields if tuple(f for f,_,_ in fields)==FIELDS else []
++    raw=[]
++    for op,cl in PAIRS:
++        if op=='"' and text.count('"')%2: continue
++        for match in re.finditer(re.escape(op)+r'([^'+re.escape(cl)+r']+)'+re.escape(cl),text):
++            a,b=match.span(1)
++            f=next((f for f,s,e in scope_fields if s<=match.start() and match.end()<=e),'__document__')
++            raw.append((match.start(),match.end(),a,b,f))
++    raw.sort(key=lambda x:(x[0],-x[1]));counts=Counter();out=[]
++    for s,e,a,b,f in raw:
++        overlap=[x for x in raw if x[:2]!=(s,e) and max(s,x[0])<min(e,x[1])]
++        nested=bool(overlap)
++        ambiguous=any(not (s<=x[0] and x[1]<=e or x[0]<=s and e<=x[1]) for x in overlap)
++        out.append(Occurrence(f,counts[f],(s,a),(a,b),(b,e),nested,ambiguous));counts[f]+=1
++    if manual:
++        # Any unmatched/escaped/crossing delimiter in a selected field makes its
++        # grammar unsuitable for manual classification; auto parsing stays legacy.
++        for f,s,e in fields:
++            part=text[s:e]
++            require(not re.search(r'\\["“”「」『』]',part),'escaped manual quote delimiter')
++            stack=[]
++            closers={cl:op for op,cl in PAIRS if op!=cl};openers={op:cl for op,cl in PAIRS if op!=cl}
++            straight=False
++            for ch in part:
++                if ch=='"': straight=not straight
++                elif not straight:
++                    if ch in openers: stack.append(openers[ch])
++                    elif ch in closers:
++                        require(stack and stack.pop()==ch,'unbalanced/crossing manual quote')
++            require(not stack and not straight,'unbalanced manual quote')
++    return tuple(out)
++
++def byte_map(text):
++    offsets=[0]
++    for ch in text: offsets.append(offsets[-1]+len(ch.encode('utf-8')))
++    return offsets
++
++def checked_range(value,data):
++    keys(value,'start end sha256');a=integer(value['start']);b=integer(value['end']);sha(value['sha256'])
++    require(a<b<=len(data),'byte range')
++    # Each prefix must independently decode at a complete boundary.
++    utf8(data[:a]);utf8(data[:b])
++    require(digest(data[a:b])==value['sha256'],'slice SHA mismatch')
++    return a,b
++
++def final_body(data):
++    text=utf8(data)
++    marker=b'<!-- HUMANIZE-SUMMARY'
++    require(data.count(marker)==1,'one exact summary marker required')
++    i=data.index(marker)
++    require(i>0 and data[i-1:i]==b'\n','summary line/body boundary')
++    suffix=data[i+len(marker):]
++    require(suffix.startswith((b'\n',b'\r\n')),'summary marker newline')
++    require(suffix.count(b'-->')==1,'one summary terminator')
++    _,tail=suffix.split(b'-->',1)
++    require(all(c in b' \t\r\n\v\f' for c in tail),'nonwhitespace after summary')
++    require(not re.search(r'<!--\s*HUMANIZE-SUMMARY',utf8(data[:i])),'embedded summary')
++    return data[:i]
++
++def legacy_text(data):
++    # Match legacy open(...,newline=None) before summary stripping.
++    return utf8(data).replace('\r\n','\n').replace('\r','\n')
++
++def frozen_keys(text,manual_ranges=()):
++    import checks
++    spans=set(checks.protected_quote_spans(text));spans.update(manual_ranges)
++    all_occ=occurrences(text);keys_out=[]
++    for a,b in sorted(spans):
++        match=next((o for o in all_occ if o.content==(a,b)),None)
++        if match:
++            keys_out.append((match.field,text[a:b]))
++        else:
++            # Crossing legacy auto merges cannot become substring substitutes.
++            keys_out.append(('__unrepresentable__',text[a:b]))
++    return tuple(keys_out)
++
++def capped_spans(text,keys_to_use,automatic_only=False,manual_allow=()):
++    allowed=Counter(keys_to_use);manual=Counter(manual_allow);spans=[]
++    if automatic_only:
++        import checks
++        automatic=set(checks.protected_quote_spans(text))
++    else:automatic=None
++    for o in occurrences(text):
++        a,b=o.content;key=(o.field,text[a:b])
++        eligible=automatic is None or (a,b) in automatic
++        if allowed[key]>0 and (eligible or manual[key]>0) and not any(x<=a and b<=y for x,y in spans):
++            spans.append((a,b));allowed[key]-=1
++            if not eligible:manual[key]-=1
++    return tuple(spans)
++
++def quote_losses(before,after,keys_to_use=None):
++    keys_to_use=frozen_keys(before) if keys_to_use is None else keys_to_use
++    required=Counter(keys_to_use)
++    selected=set(capped_spans(after,keys_to_use))
++    available=Counter((o.field,after[o.content[0]:o.content[1]]) for o in occurrences(after) if o.content in selected)
++    return [(key,count-available[key]) for key,count in required.items() if available[key]<count]
++
++@dataclass(frozen=True)
++class FrozenQuoteContext:
++    before_bytes:bytes
++    after_bytes:bytes
++    genre:str
++    route:str
++    keys:tuple
++    manual_keys:tuple
++    registry_sha256:str
++    payload_sha256:str
++    review_sha256:str
++    body_sha256:str
++    derived_json:bytes
++    original_path:str
++    runtime_json:bytes
++    def bind(self,before,after,genre):
++        require(type(before) is bytes and type(after) is bytes and type(genre) is str
++                and before==self.before_bytes and after==self.after_bytes and genre==self.genre,'context argument mismatch')
++    def report(self):
++        return {'registry_sha256':self.registry_sha256,'payload_sha256':self.payload_sha256,
++                'review_sha256':self.review_sha256,'original_sha256':digest(self.before_bytes),
++                'final_body_sha256':self.body_sha256,'final_file_sha256':digest(self.after_bytes),
++                'route':self.route,'original_path':self.original_path,'runtime_sha256':json.loads(self.runtime_json),
++                'protected_quote_count':len(self.keys),'reviewed_quote_count':len(self.manual_keys),'excluded_quote_chars_before':sum(len(content) for _,content in self.keys)}
++
++class ChapterContext:
++    """Validated root-selected registry and immutable snapshot, including all records."""
++    def __init__(self,manifest_path,registry_path,expected_sha):
++        self.snapshot=None
++        try:
++            self._initialize(manifest_path,registry_path,expected_sha)
++        except BaseException:
++            if self.snapshot is not None:self.snapshot.close()
++            raise
++    def _initialize(self,manifest_path,registry_path,expected_sha):
++        manifest_path=Path(manifest_path).absolute();require(manifest_path.name=='manifest.json','manifest filename')
++        self.snapshot=Snapshot(manifest_path.parent);self.root=self.snapshot.root
++        self.manifest=strict_json(self.snapshot.read('manifest.json','manifest',256*1024))
++        require(type(self.manifest.get('entries')) is list and len(self.manifest['entries'])<=128,'manifest entries')
++        require(self.manifest.get('genre') in ('essay','column','report','blog','abstract'),'manifest genre')
++        sha(expected_sha);relative_path(registry_path)
++        registry_bytes=self.snapshot.read(registry_path,'registry',256*1024)
++        require(digest(registry_bytes)==expected_sha,'registry SHA mismatch');self.registry_sha=expected_sha
++        registry=strict_json(registry_bytes);keys(registry,'schema_version status records')
++        require(type(registry['schema_version']) is int and registry['schema_version']==1 and registry['status']=='approved','registry version/status')
++        records=registry['records'];require(type(records) is list and 1<=len(records)<=128,'registry record count')
++        self.contexts={};payload_paths=set();review_paths=set();artifact_paths=set()
++        for record in records:
++            keys(record,'payload review')
++            for ref,seen in ((record['payload'],payload_paths),(record['review'],review_paths)):
++                keys(ref,'path sha256');require(ref['path'] not in seen,'duplicate registry ref');seen.add(ref['path'])
++            payload_bytes=self.snapshot.file_ref(record['payload'],'payload');review_bytes=self.snapshot.file_ref(record['review'],'review')
++            payload=strict_json(payload_bytes);review=strict_json(review_bytes)
++            ctx=self._payload(payload,review,record,artifact_paths)
++            require(ctx.original_path not in self.contexts,'duplicate original record')
++            self.contexts[ctx.original_path]=ctx
++        require(len(artifact_paths)<=128,'distinct artifact limit')
++    def _payload(self,p,r,record,artifact_paths):
++        keys(p,'schema_version original final_body quotations');require(type(p['schema_version']) is int and p['schema_version']==1,'payload version')
++        original=p['original'];keys(original,'path sha256 byte_length');path=relative_path(original['path']);sha(original['sha256']);integer(original['byte_length'])
++        entries=[e for e in self.manifest['entries'] if e.get('run_dir','')+'/01_input.txt'==path]
++        require(len(entries)==1,'original must match one manifest run');entry=entries[0]
++        before=self.snapshot.read(path,'original');require(digest(before)==entry['input_sha256']==original['sha256'] and len(before)==original['byte_length'],'manifest/original mismatch')
++        run=path.rsplit('/',1)[0];after=self.snapshot.read(run+'/final.md','final');body=final_body(after)
++        keys(p['final_body'],'sha256 byte_length');sha(p['final_body']['sha256']);integer(p['final_body']['byte_length'])
++        require(digest(body)==p['final_body']['sha256'] and len(body)==p['final_body']['byte_length'],'final body hash/length mismatch')
++        rawtext=utf8(before);outtext=utf8(body);ranges=field_ranges(rawtext,True);outfields=field_ranges(outtext,True)
++        parsed=occurrences(rawtext,manual=True);mapping=byte_map(rawtext)
++        quotations=p['quotations'];require(type(quotations) is list and 1<=len(quotations)<=32,'quotation count')
++        manual=[];seen=set();local_artifacts=set()
++        for q in quotations:
++            keys(q,'occurrence source_anchor source');o=q['occurrence'];keys(o,'field ordinal opening content closing')
++            require(o['field'] in FIELDS,'manual field');integer(o['ordinal'])
++            key=(o['field'],o['ordinal']);require(key not in seen,'duplicate manual occurrence');seen.add(key)
++            matches=[x for x in parsed if (x.field,x.ordinal)==key];require(len(matches)==1,'unknown occurrence ordinal');occ=matches[0]
++            require(not occ.nested and not occ.ambiguous,'manual nested/ambiguous')
++            for name,span in (('opening',occ.opening),('content',occ.content),('closing',occ.closing)):
++                require(checked_range(o[name],before)==(mapping[span[0]],mapping[span[1]]),'not complete original occurrence')
++            a,b=occ.content;content=rawtext[a:b]
++            require(8<=len(content.strip()) and len(content.encode())<=65536,'manual quote length')
++            anchor_a,anchor_b=checked_range(q['source_anchor'],before);anchor=utf8(before[anchor_a:anchor_b]);require(len(anchor.encode())<=8192,'anchor length')
++            f,s,e=next(x for x in ranges if x[0]==occ.field)
++            require(mapping[s]<=anchor_a<anchor_b<=mapping[occ.opening[0]],'anchor original same-field/prefix')
++            require(unique_position(rawtext[s:e],anchor)>=0,'original anchor uniqueness')
++            _,s2,e2=next(x for x in outfields if x[0]==f);outfield=outtext[s2:e2]
++            anchor_position=unique_position(outfield,anchor)
++            require(anchor_position>=0,'final anchor uniqueness')
++            candidates=[x for x in occurrences(outtext) if x.field==f and outtext[x.content[0]:x.content[1]]==content]
++            require(candidates and any(s2+anchor_position+len(anchor)<=x.opening[0] for x in candidates),'final quote/anchor ownership')
++            source=q['source'];keys(source,'url artifact artifact_byte_length excerpt language rendering')
++            url=string(source['url'],1,2048);parts=urlsplit(url)
++            require(parts.scheme=='https' and parts.netloc and not parts.username and not parts.password and not parts.fragment and not any(ord(c)<33 for c in url),'source HTTPS URL')
++            require(type(source['language']) is str and len(source['language'])<=35 and re.fullmatch(r'[a-z]{2,3}(?:-[A-Za-z0-9]{2,8})*',source['language']),'source language')
++            require(source['rendering'] in ('native_verbatim','reviewed_translation'),'source rendering')
++            artifact=self.snapshot.file_ref(source['artifact'],'source',8*1024*1024)
++            require(not artifact.startswith(b'%PDF'),'PDF source unsupported')
++            integer(source['artifact_byte_length'])
++            require(len(artifact)==source['artifact_byte_length'],'artifact byte length')
++            aa,bb=checked_range(source['excerpt'],artifact);require(bb-aa<=65536,'source excerpt length')
++            if source['rendering']=='native_verbatim':require(utf8(artifact[aa:bb])==content,'native excerpt mismatch')
++            local_artifacts.add(source['artifact']['path']);artifact_paths.add(source['artifact']['path'])
++            require(len(local_artifacts)<=8,'payload distinct artifact limit');manual.append(occ.content)
++        keys(r,'schema_version payload_sha256 decision reviewer_role reviewer_id proposer_id reviewed_original_sha256 reviewed_final_body_sha256 assessments')
++        require(type(r['schema_version']) is int and r['schema_version']==1 and r['decision']=='approved' and r['reviewer_role']=='independent_source_reviewer','review status/role')
++        for name in ('reviewer_id','proposer_id'):
++            string(r[name],1,128);require(r[name].isprintable(),'review ID control')
++        require(r['reviewer_id']!=r['proposer_id'],'self-review identity')
++        for name,expected in (('payload_sha256',record['payload']['sha256']),('reviewed_original_sha256',digest(before)),('reviewed_final_body_sha256',digest(body))):sha(r[name]);require(r[name]==expected,'review binding')
++        assessments=r['assessments'];require(type(assessments) is list and len(assessments)==len(seen),'assessment count');covered=set()
++        for item in assessments:
++            keys(item,'occurrence_ordinal field source_authenticity direct_quotation translation_or_verbatim_fidelity original_attribution final_attribution reason')
++            integer(item['occurrence_ordinal']);k=(item['field'],item['occurrence_ordinal']);require(k in seen and k not in covered,'assessment identity');covered.add(k)
++            for name in ('source_authenticity','direct_quotation','translation_or_verbatim_fidelity','original_attribution','final_attribution'):require(item[name]=='verified','assessment decision')
++            string(item['reason'],1,8192)
++        # Convert raw positions to legacy-normalized gate text only after every
++        # raw-byte approval check, using exact field+content identities.
++        normalized=legacy_text(before)
++        def normalized_position(position):
++            return len(rawtext[:position].replace('\r\n','\n').replace('\r','\n'))
++        normalized_manual=tuple((normalized_position(a),normalized_position(b)) for a,b in manual)
++        combined=frozen_keys(normalized,normalized_manual)
++        # Any manual/automatic nested/partial overlap was prohibited above.
++        import metrics_v2,prepare_monolith_input
++        original_metrics_text=legacy_text(before)
++        spans=capped_spans(original_metrics_text,tuple(combined))
++        metrics=metrics_v2.compute_all_v2(original_metrics_text,genre=self.manifest['genre'],_eligible_quote_spans=spans)
++        metrics['_text']=original_metrics_text;derived=prepare_monolith_input.compute_route_hint(metrics);metrics.update(derived);metrics.pop('_text',None)
++        saved=self.snapshot.read(run+'/00_metrics.json','saved_metrics',256*1024);saved_obj=strict_json(saved,allow_floats=True)
++        require(saved_obj.get('route_hint')==entry['route']==derived['route_hint'],'derived/original route mismatch')
++        metrics['original_metrics_sha256']=digest(saved)
++        return FrozenQuoteContext(before,after,self.manifest['genre'],entry['route'],tuple(combined),
++            tuple((o.field,rawtext[o.content[0]:o.content[1]]) for o in parsed if o.content in manual),self.registry_sha,
++            record['payload']['sha256'],record['review']['sha256'],digest(body),json.dumps(metrics,ensure_ascii=False,allow_nan=False).encode(),path,
++            json.dumps(runtime_digests(),sort_keys=True).encode())
++    def context_for(self,before_path,after_path,genre):
++        before_path=Path(before_path).absolute();after_path=Path(after_path).absolute()
++        require(before_path.is_relative_to(self.root) and after_path.is_relative_to(self.root),'gate paths outside chapter')
++        path=before_path.relative_to(self.root).as_posix()
++        require(after_path.relative_to(self.root).as_posix()==path.rsplit('/',1)[0]+'/final.md','after must be fixed run final')
++        require(path in self.contexts,'no approved record for direct gate run')
++        ctx=self.contexts[path];require(genre==ctx.genre,'context genre mismatch');return ctx
++
++def write_evidence(snapshot,path,context,report):
++    """Create one new derived directory; context.json is the completion marker."""
++    relative_path(path);parts=path.split('/');parent=os.dup(snapshot.fd)
++    try:
++        for part in parts[:-1]:
++            child=os.open(part,os.O_RDONLY|os.O_DIRECTORY|os.O_NOFOLLOW,dir_fd=parent)
++            os.close(parent);parent=child
++        os.mkdir(parts[-1],mode=0o700,dir_fd=parent)
++        directory=os.open(parts[-1],os.O_RDONLY|os.O_DIRECTORY|os.O_NOFOLLOW,dir_fd=parent)
++        try:
++            values=[('derived-metrics.json',context.derived_json),
++                    ('classified-gates.json',json.dumps(report,ensure_ascii=False,allow_nan=False).encode()),
++                    ('context.json',json.dumps(dict(context.report(),completed=True,gate_exit_code=report['gate']['exit_code'],approved_for_publication=False),ensure_ascii=False).encode())]
++            for name,data in values:
++                fd=os.open(name,os.O_WRONLY|os.O_CREAT|os.O_EXCL|os.O_NOFOLLOW,0o600,dir_fd=directory)
++                with os.fdopen(fd,'wb') as stream: stream.write(data);stream.flush();os.fsync(stream.fileno())
++        finally:os.close(directory)
++    finally:os.close(parent)
++
++
++def runtime_digests():
++    root=Path(__file__).parent.parent
++    references=root/'references'
++    if not references.is_dir():
++        references=root/'skills/humanize-korean/references'
++    scripts=('quote_context.py','checks.py','verify_gates.py','prepare_monolith_input.py')
++    result={'scripts/'+name:digest((root/'scripts'/name).read_bytes()) for name in scripts}
++    result.update({'references/'+name:digest((references/name).read_bytes())
++                   for name in ('metrics.py','metrics_v2.py','baseline.json','baseline_v2.json')})
++    return result
++
++
++def compute_classified_metrics(before_bytes,after_bytes,genre,context,which):
++    """Bound context API; never accepts alternate caller-selected text views."""
++    context.bind(before_bytes,after_bytes,genre)
++    require(which in ('before','after'),'metrics context side')
++    import checks,metrics_v2
++    data=before_bytes if which=='before' else after_bytes
++    text=checks.strip_summary_block(legacy_text(data))
++    return metrics_v2.compute_all_v2(text,genre=genre,
++                _eligible_quote_spans=capped_spans(text,context.keys,automatic_only=which=='after',manual_allow=context.manual_keys))
++
++
++def unique_position(text,needle):
++    start=text.find(needle)
++    return start if start>=0 and text.find(needle,start+1)<0 else -1
+--- a/.claude/skills/humanize-korean/scripts/verify_gates.py
++++ b/.claude/skills/humanize-korean/scripts/verify_gates.py
+@@ -270,29 +270,55 @@
+         action="store_true",
+         help="문자율 축에서 마크업 줄·줄머리 장식을 제외하고 본문만 비교",
+     )
++    p.add_argument("--quote-registry")
++    p.add_argument("--quote-registry-sha256")
++    p.add_argument("--publication-manifest")
++    p.add_argument("--classification-evidence-dir")
+     args = p.parse_args(argv)
+ 
+-    for path in (args.before, args.after):
+-        if not os.path.exists(path):
+-            print(f"error: 파일 없음: {path}", file=sys.stderr)
+-            return 3
+-
++    chapter=None
+     try:
+-        before = strip_summary_block(_read(args.before))
+-        after = strip_summary_block(_read(args.after))
+-    except OSError as e:
+-        print(f"error: 파일 읽기 실패: {e}", file=sys.stderr)
++        selected=any(value is not None for value in (args.quote_registry,args.quote_registry_sha256,args.publication_manifest,args.classification_evidence_dir))
++        context=None
++        if selected:
++            if not all((args.quote_registry,args.quote_registry_sha256,args.publication_manifest,args.classification_evidence_dir)):
++                raise ValueError("all classification flags required together")
++            from quote_context import ChapterContext,write_evidence
++            chapter=ChapterContext(args.publication_manifest,args.quote_registry,args.quote_registry_sha256)
++            context=chapter.context_for(args.before,args.after,args.genre)
++            before_bytes=context.before_bytes;after_bytes=context.after_bytes
++        else:
++            from pathlib import Path
++            before_bytes=Path(args.before).read_bytes();after_bytes=Path(args.after).read_bytes()
++        code,report=evaluate_gate(before_bytes,after_bytes,args.genre,context,args.ignore_markup)
++        if context is not None:
++            write_evidence(chapter.snapshot,args.classification_evidence_dir,context,report)
++        if args.json: print(json.dumps(report,ensure_ascii=False,indent=2))
++        return code
++    except (ValueError,OSError,KeyError,TypeError,UnicodeError,RecursionError,MemoryError) as exc:
++        print(f"error: {exc}",file=sys.stderr)
++        if args.json:print(json.dumps({"gate":{"exit_code":3,"verdict":"execution error"},"error":str(exc)},ensure_ascii=False))
+         return 3
+-
+-    report: dict = {"genre": args.genre}
++    finally:
++        if chapter is not None:chapter.snapshot.close()
++
++
++def evaluate_gate(before_bytes,after_bytes,genre="essay",context=None,ignore_markup=False):
++    """Gate retained input bytes; a verified context cannot be reused for other text."""
++    if context is not None:
++        context.bind(before_bytes,after_bytes,genre)
++    from quote_context import legacy_text
++    before=strip_summary_block(legacy_text(before_bytes))
++    after=strip_summary_block(legacy_text(after_bytes))
++    report: dict = {"genre": genre}
+     warn = False
+ 
+     # --- P0 문자율 (기존 verify_change_rate.py와 동일 판정) ---------------
+-    rate = _m.change_rate(before, after, ignore_markup=args.ignore_markup)
++    rate = _m.change_rate(before, after, ignore_markup=ignore_markup)
+     abort = rate >= _m.CHANGE_RATE_ABORT
+     if _m.CHANGE_RATE_WARN <= rate < _m.CHANGE_RATE_ABORT:
+         warn = True
+-    scope = "본문만 (마크업 제외)" if args.ignore_markup else "전문"
++    scope = "본문만 (마크업 제외)" if ignore_markup else "전문"
+     if abort:
+         p0_verdict = "ABORT — 강제 중단. 윤문본 채택 금지"
+     elif rate >= _m.CHANGE_RATE_WARN:
+@@ -309,14 +335,20 @@
+     try:
+         # Freeze style exclusions from the original's attributed quotations.
+         # Newly wrapped output prose cannot acquire a style exemption.
+-        protected_quotes=[before[start:end] for start,end in _checks.protected_quote_spans(before)]
+-        z_before = _m.compute_all_v2(before, genre=args.genre, protected_quote_texts=protected_quotes)["z_scores"]
+-        after_m = _m.compute_all_v2(after, genre=args.genre, protected_quote_texts=protected_quotes)
++        from quote_context import frozen_keys,capped_spans
++        frozen=context.keys if context is not None else frozen_keys(before)
++        if context is None:
++            z_before = _m.compute_all_v2(before,genre=genre,_eligible_quote_spans=capped_spans(before,frozen))["z_scores"]
++            after_m = _m.compute_all_v2(after,genre=genre,_eligible_quote_spans=capped_spans(after,frozen,automatic_only=True))
++        else:
++            from quote_context import compute_classified_metrics
++            z_before=compute_classified_metrics(before_bytes,after_bytes,genre,context,"before")["z_scores"]
++            after_m=compute_classified_metrics(before_bytes,after_bytes,genre,context,"after")
+         # 표본 가드(#130)는 원문 쪽 S1 선정에만 건다. 원문에서 뽑힌 지표는 윤문본이
+         # 쉼표를 걷어내 가드 아래로 내려가도 원시 z 로 판정한다.
+         z_after = {**after_m["z_scores"], **(after_m.get("z_scores_unguarded") or {})}
+     except Exception as e:  # graceful degrade — 이 축만 판정 불가
+-        z_before, z_after = {}, {}
++        raise ValueError(f"metrics execution error: {e}")
+         print(f"[P1 목표달성] 판정 불가 (metrics 오류: {e})", file=sys.stderr)
+     s1_results, s1_warn = judge_s1_targets(z_before, z_after)
+     warn = warn or s1_warn
+@@ -345,6 +377,11 @@
+ 
+     # --- P3 golden + 수치 -------------------------------------------------
+     failures = _checks.run_checks(before, after)
++    if context is not None:
++        from quote_context import quote_losses
++        failures=[f for f in failures if f.code!="quote_altered"]
++        failures.extend(_checks.Failure("quote_altered",f"직접 인용 {key[1][:30]}… occurrence {missing}개 소실")
++                        for key,missing in quote_losses(before,after,context.keys))
+     warn = warn or bool(failures)
+     report["golden"] = [{"code": f.code, "message": f.message} for f in failures]
+     if failures:
+@@ -426,9 +463,14 @@
+     report["gate"] = {"verdict": verdict, "exit_code": code}
+     print(f"gate: {verdict}")
+ 
+-    if args.json:
+-        print(json.dumps(report, ensure_ascii=False, indent=2))
+-    return code
++    if context is not None:
++        report["classification_context"]=context.report()
++        report["classified_style_eligibility"]={side:{"protected_quote_count":len(spans),
++            "excluded_quote_chars":sum(end-start for start,end in spans)}
++            for side,text in (("before",before),("after",after))
++            for spans in (capped_spans(text,context.keys,automatic_only=side=="after",manual_allow=context.manual_keys),)}
++    return code,report
++
+ 
+ 
+ # ── 콘솔 하드닝 (#84) ───────────────────────────────────────────────
+--- a/kr-harness/publication/CONTRACT.md
++++ b/kr-harness/publication/CONTRACT.md
+@@ -4,7 +4,7 @@
+ 
+ Each numbered entry has an independent run in `2026-10-18/chNN/_workspace/`. Work with cwd `chNN`. `manifest.json` selects the exact input and upstream route. Read `entry_snapshot.md` for context, but transform only `01_input.txt`: the four single-line fields 비용, 쉽게, 이득, 비고. Preserve their labels, order, numbers, URLs, facts, conditions, negation, uncertainty, citations, and required warnings. Source, evidence grade, heading, cost tag, intro, and TODO remain outside the input and are restored verbatim. Keep concise 합니다/하세요 Korean; no new facts or sources. Do not merge fields or entries.
+ 
+-Follow the upstream route without override. Standard requires independent diagnosis and rewriting roles; heavy also requires chunk/reassembly and finalizer evidence. Preserve all intermediate files. Exactly one HUMANIZE-SUMMARY block belongs in final.md; it is stripped from the publication candidate. Run the unmodified upstream gate and resolve warnings; publication assembly accepts exit 0 only. Never suppress, weaken, or waive a threshold. Upstream numeric/URL preservation is additionally checked exactly by assembly.
++Follow the upstream route without override. Standard requires independent diagnosis and rewriting roles; heavy also requires chunk/reassembly and finalizer evidence. Preserve all intermediate files. Exactly one HUMANIZE-SUMMARY block belongs in final.md; it is stripped from the publication candidate. Run the vendored upstream gate with the documented local classification fixes and resolve warnings; publication assembly accepts exit 0 only. Never suppress, weaken, or waive a threshold. Upstream numeric/URL preservation is additionally checked exactly by assembly.
+ 
+ Prepare: `python3 kr-harness/publication/scripts/humanize_publication.py prepare NN --date 2026-10-18`
+ 
+@@ -39,3 +39,15 @@
+ If a reviewed entry correction makes an introductory recommendation inconsistent, that entry's author may propose an exact intro span correction separately. Bind the original intro hash, exact unique before/after span and independent approval. Keep the original intro and helper output unchanged; apply only the approved span to a separate publication candidate, preserving all other bytes and approved DOI annotations. Record the actual candidate/intro before and after hashes, recheck full DOI accounting, and review the complete final chapter at its new hash.
+ 
+ Reconcile each chapter's TODO tail against the actual source review. Keep unresolved information honest; do not leave a completed check described as unperformed. A tail correction needs a separately authored exact replacement or single-item proposal, independent approval, and current document/tail hashes. Preserve the original tail and integrated candidate; write any corrected publication candidate separately. Copy only the approved tail changes, recheck entry counts and full DOI accounting, and obtain the new final KR-FIT review. Removing an obsolete TODO is not permission to hide an unresolved limitation.
++
++## Proposed late quotation classification v1 (candidate only)
++
++This section describes a reviewed implementation candidate, not an approval of any actual quote or hold output. Root may select a registry only after a distinct reviewer directly verifies exact primary-source provenance, native/translated quote fidelity and ownership in both immutable original and the exact final body. Author/finalizer proposals and text metadata cannot authorize or select a registry. Hash/role strings provide procedural identity binding, not semantic proof or protection from a malicious fully privileged code-writing actor. This matches reviewed integration's procedural trust model.
++
++The acyclic exact-byte approval chain is source/original/final-body/span payload → independent payload-SHA review → root payload/review-SHA registry → root invocation's pinned registry SHA. Payload and registry cannot contain a metric, threshold, skip, entry exception, replacement, code or regex. Strict schema and root-confined regular nonsymlink evidence validation are implemented by quote_context.py against [SPEC-R3](QUOTE-CLASSIFICATION-SPEC.md); raw UTF-8 source substring artifacts only, without rendered HTML/PDF extraction. Complete original balanced standalone non-nested quotes inside the existing four editable physical fields are the v1 manual scope. Same-field unique original source anchors and exact final raw-body SHA are required. Summary-only edits may retain approval; any body byte change requires renewed review.
++
++Root explicitly supplies `--quote-registry RELATIVE_PATH --quote-registry-sha256 LOWERCASE_SHA --classification-evidence-dir NEW_RELATIVE_DIRECTORY`. Direct verify_gates additionally requires `--publication-manifest PATH`. There is no auto-discovery or metadata selection. Requested invalid, incomplete or mismatched classification configuration errors rather than falling back. No-registry automatic classification remains available; it cannot serve as classified approval evidence when root elects a classified adoption workflow.
++
++Do not mutate original inputs, manifest, 00_metrics or prior evidence. Derive new metrics and compute the route using the exact original and frozen classification. If saved or derived route differs from manifest, error; v1 has no route override. Fresh finalizer evidence must carry the exact classification_context returned by the gate. Root's classified assembly validates the same context, retains all input/evidence bytes and invokes the actual in-memory gate on those bytes. Candidate and new evidence are written only under the new invocation directory; gate1/error3 never authorizes assembly. Classified `--publish` is deliberately unsupported in this candidate and fails closed; deployment/publication remains a separate review prerequisite.
++
++The shared original occurrence freeze drives style eligibility and P3 fidelity. After-text exclusions require exact complete protected quote contents in the same field and cannot exceed original occurrence multiplicity. New/expanded wrappers receive no additional exclusion. P3 now checks complete-occurrence multiplicity even without a registry: losing one of two identical protected quotes is rejected. This is an intentional preservation hardening, separate from eligibility grammar, and may reject formerly passing duplicate-loss outputs. P0, numbers, URLs, footnotes and P5 still inspect full text under unchanged thresholds, baselines and sample guards. Final exact-body semantic review remains necessary: anchor presence alone does not prove attribution.
+--- /dev/null
++++ b/kr-harness/publication/QUOTE-CLASSIFICATION-SPEC.md
+@@ -0,0 +1,173 @@
++# SPEC R3 — reviewed original quotation classification, late-classification v1
++
++Status: proposed executable specification for independent review. No implementation, registry approval, source/translation approval or publication approval is provided. Existing e24/e38 holds remain. This file is the only artifact created for this R3 task.
++
++## 1. Scope and invariants
++
++This is a root-selected, independently reviewed classification of complete quotations already present in immutable original input. It is not a threshold waiver. No registry field may name a metric, entry number, skip condition, replacement text, executable command or regular expression. Every normal gate executes and assembly still requires actual exit0.
++
++V1 supports late classification only: existing manifest, original input, 00_metrics and route remain immutable. New derived metrics/route evidence is stored separately. If the derived route differs from the manifest route, the operation fails closed; v1 neither overrides routes nor provides route upgrades/downgrades. A future route-reconciliation feature would require its own specification.
++
++Manual classification is restricted to original complete, balanced, standalone, non-nested quotation occurrences inside the four physical editable field lines 비용/쉽게/이득/비고. Both original and exact final body receive independent source-attribution/translation review. Automatic quotation classification keeps its existing eligibility grammar and nested-quotation support. Shared fidelity is deliberately strengthened from string membership to complete-occurrence multiplicity, including when no registry is selected. This P3 hardening is a separately declared behavior change; no claim of byte-for-byte no-registry gate-result equivalence is permitted.
++
++Original full text continues feeding P0, number, URL, footnote, golden and P5 checks. Existing threshold/baseline/sample-guard values do not change. The registry changes only protected-quote eligibility and makes quote fidelity stricter. Existing semantic preservation obligations remain; P5 does not cover every form of negation.
++
++## 2. Procedural authority and non-circular hash graph
++
++The existing integration trust model applies: root alone writes an approved registry after a distinct reviewer approves exact payload bytes and directly checks source provenance and translation. Author/finalizer proposals are unapproved and cannot select production configuration. CLI flags identify selected configuration, not cryptographic root identity. Shared workspace/tool authority does not prevent a malicious code-writing actor from replacing the whole pipeline; the same limitation already exists for integration plans. In-scope malicious text, metadata and unapproved proposals must not influence configuration selection.
++
++Hash graph, with every edge covering exact complete file bytes:
++
++`primary artifact + original bytes + exact final body + original occurrences/anchors -> payload file -> independent review file -> root registry file -> explicit expected registry SHA in root invocation`.
++
++A review contains the payload SHA and its decision. Registry contains payload path/SHA and review path/SHA. Payload contains neither review identity/hash nor registry identity/hash; review contains no registry hash; registry contains no own hash. There is no canonicalization or self-reference convention: hashes are lowercase SHA256 over exact bytes. Any payload-byte change requires a new independent review and new root registry digest.
++
++The independent reviewer may emit the strict JSON review file below and include its substantive reasoning in it. No registry is approved on the basis of finalizer `accept`, historical audit, this specification, or the observation that exclusions would make P1 converge.
++
++## 3. Exact serialization and resource rules
++
++All JSON, original/final files, review files and source artifacts are strict UTF-8 without BOM. Do not normalize Unicode, newlines, whitespace or escapes before hashing or offset validation. CRLF bytes are allowed and retained; JSON string values use decoded Unicode, and content/anchor/source excerpt hashes cover original UTF-8 slices. Reject NUL in JSON string values and text artifacts. Filenames containing NUL are invalid by construction.
++
++Strict JSON loader: reject duplicate keys at every object depth, NaN/Infinity/-Infinity, unknown keys, missing keys, floats anywhere, and non-object top levels. Integer fields require `type(value) is int`, rejecting booleans. Enum values require exact strings. No scalar coercion. Maximum JSON nesting depth 12, maximum string length 16,384 Unicode code points, except review reasons which remain at most 8,192. Enforce raw-file size before decoding/parsing and depth/string bounds immediately after strict parsing. A standard JSON parser RecursionError/MemoryError is an execution error, never fallback.
++
++Limits: registry/payload/review each <=256 KiB; original and final file <=2 MiB each; each source artifact <=8 MiB; at most 128 registry records, 32 quotations per payload, 8 distinct artifacts per payload, 128 distinct artifacts and 64 MiB total distinct retained bytes per registry invocation. Original/manual quote contents must meet existing MIN_QUOTE_LEN=8 after the existing strip-length check; manual content <=64 KiB. Anchor nonempty <=8 KiB; source excerpt nonempty <=64 KiB. These are parser resource/scope limits, not metric thresholds or eligibility scores; oversize inputs error rather than gain exemption.
++
++SHA strings: exactly 64 lowercase ASCII hexadecimal characters. Length fields must equal observed raw byte lengths. Byte ranges are half-open `[start,end)` represented by the exact range object defined below; require 0<=start<end<=len(bytes), valid UTF-8 start/end boundaries, and matching slice hashes. No negative indices, numeric strings, booleans, overflow values or zero-length ranges.
++
++## 4. Exact schemas
++
++Every object has exactly the listed keys, in any JSON key order. Arrays are ordered; duplicate records/paths/occurrence identities are rejected. No optional keys in v1. Text evidence is in review reasons, never an executable instruction.
++
++### Shared objects
++
++`FileRef = {"path": string, "sha256": SHA}`.
++
++`ByteRange = {"start": int, "end": int, "sha256": SHA}`.
++
++`OriginalIdentity = {"path": string, "sha256": SHA, "byte_length": int}`.
++
++Paths are chapter-evidence-root-relative POSIX paths, with 1..1,024 characters. Reject absolute paths, backslashes, empty segments, `.`/`..` segments, URL schemes, drive syntax and NUL. Path handling is defined in section 5.
++
++### Registry
++
++`{"schema_version": 1, "status": "approved", "records": [RegistryRecord, ...]}`.
++
++`RegistryRecord = {"payload": FileRef, "review": FileRef}`.
++
++At least one record. Each payload original path must identify exactly one run's manifest-selected 01_input.txt inside this chapter, and match that manifest input SHA. Reject duplicate original paths, duplicate original-path/SHA identities, duplicate payload paths and review reuse across records. No cross-chapter registry in v1. Root-selected registry applies to all its listed records; unlisted manifest runs retain automatic-only classification but carry the same chapter registry digest in assembly context. Unknown or non-manifest original paths error; no string matching by quote contents or entry ID selects a record.
++
++### Payload
++
++`{"schema_version": 1, "original": OriginalIdentity, "final_body": {"sha256": SHA, "byte_length": int}, "quotations": [Quotation, ...]}`.
++
++At least one quotation. `final_body` binds the run's fixed manifest-derived final.md body; payload cannot supply an alternative after path. Original path is dataset identity validated against the manifest, never a conditional exception in code.
++
++`Quotation = {"occurrence": Occurrence, "source_anchor": ByteRange, "source": Source}`.
++
++`Occurrence = {"field": Field, "ordinal": int, "opening": ByteRange, "content": ByteRange, "closing": ByteRange}`.
++
++`Field` is exactly one of 비용/쉽게/이득/비고. Ordinal is zero-based document order of all complete quote occurrences in that field, including short/non-protected occurrences, sorted by opening byte offset then descending closing-end offset. V1 manual occurrences cannot be nested or overlapping, so ordinal is unambiguous. Opening/closing ranges must be adjacent to content and have the exact UTF-8 bytes of a supported paired delimiter.
++
++`Source = {"url": string, "artifact": FileRef, "artifact_byte_length": int, "excerpt": ByteRange, "language": string, "rendering": Rendering}`.
++
++URL is an absolute HTTPS URL, <=2,048 characters, no username/password, fragment or control characters; it is evidence identity, not a fetch instruction. `language` matches `[a-z]{2,3}(?:-[A-Za-z0-9]{2,8})*`, <=35 characters. Rendering enum is `native_verbatim` or `reviewed_translation`. For native_verbatim, decoded excerpt must equal exact quote content; translated cases require substantive independent alignment review and no machine equivalence claim.
++
++### Independent review
++
++`{"schema_version": 1, "payload_sha256": SHA, "decision": "approved", "reviewer_role": "independent_source_reviewer", "reviewer_id": string, "proposer_id": string, "reviewed_original_sha256": SHA, "reviewed_final_body_sha256": SHA, "assessments": [Assessment, ...]}`.
++
++IDs are nonempty 1..128 printable Unicode code points with no control characters; reviewer_id must differ from proposer_id. This detects obvious self-declaration mistakes but does not establish real independence; root checks role provenance procedurally. The reviewed hashes must equal payload fields. No `accept_with_warning` state exists in a registry-consumable review; rejected/incomplete reviews may exist as proposals but cannot enter approved registry.
++
++`Assessment = {"occurrence_ordinal": int, "field": Field, "source_authenticity": "verified", "direct_quotation": "verified", "translation_or_verbatim_fidelity": "verified", "original_attribution": "verified", "final_attribution": "verified", "reason": string}`.
++
++Exactly one assessment for every payload quotation, no extra/duplicate assessment; field+ordinal key must match. Reason length 1..8,192 and must describe source retrieval/provenance, exact excerpt alignment, qualifier/negation/condition fidelity and ownership in both original and final body. Machine validation checks completeness/hash binding, not truth or quality of the explanation. Root must read it. A string that merely says a metric passes is not a substantively approvable review even if schema-valid.
++
++## 5. File safety, manifest binding and byte ownership
++
++The allowed evidence root is the selected chapter directory computed from the actual publication manifest location, not a path supplied by original/final text or registry. Root invocation may choose a chapter manifest, but assembly uses its existing fixed chapter path. All registry, payload, review, original, final and source-artifact files must be inside that root and regular nonsymlink files. Every path component from the evidence root downward must be nonsymlink; reject symlinked directories as well as symlinked leaves. Do not accept FIFOs, devices, sockets or directory paths. No network fetch occurs during validation.
++
++Implementation on the supported Linux cloud runtime uses directory-relative descriptor traversal (`dir_fd`, O_DIRECTORY/O_NOFOLLOW for directories, O_NOFOLLOW and fstat regular-file checks for leaves). Hold the trusted evidence-root descriptor through the operation. Read bounded bytes once from each opened descriptor, inspect fstat before/after and reject observed size/mtime/inode changes during the read. Cache each unique relative path as immutable bytes; all digest validation, parsing, offset conversion, metrics, fidelity and assembly for the invocation use those retained bytes, never a hash-then-reread path. Refuse path aliases/hardlink aliases across different evidence roles by duplicate (device,inode) detection; no evidence file can simultaneously masquerade as review and payload/artifact.
++
++Manifest and source snapshot follow the existing assembly checks, augmented by the same regular-file/retained-bytes policy when registry mode is selected. The manifest's expected input digest is authoritative; registry OriginalIdentity cannot replace it. Check exact original bytes against manifest first, then against payload. Payload final_body must match the exact current final body extracted from retained final.md bytes. The helper must expose an in-memory gate core so assembly can gate the already validated original/final bytes; a subprocess reopening paths would violate the byte-ownership rule.
++
++Input files can change after this invocation; that does not mutate retained bytes. Any later finalizer/assembly invocation reloads and revalidates current bytes and registry SHA. No previous gate report authorizes later publication. Record actual retained input/final/registry/source hashes in new evidence. Do not write source files from the validator. Generated evidence uses create-exclusive filenames in a root-selected new derived-evidence directory, never existing metrics or gates; partial write failures block the operation.
++
++## 6. Exact final body and summary contract
++
++Registry mode requires exactly one trailing HUMANIZE-SUMMARY block in final.md, beginning at a physical line start with exact ASCII `<!-- HUMANIZE-SUMMARY` followed by LF or CRLF. Exactly one such marker and exactly one terminating `-->` for that block must exist; after the terminator only ASCII whitespace is allowed. Reject embedded body markers, malformed/unclosed summary or additional HTML comment terminators inside the block. The body is **all raw bytes before the opening marker**, including its existing trailing line break(s). No strip/rstrip/newline/Unicode normalization is performed for payload body SHA or length. Body must be nonempty and end in LF, so summary is on a distinct line.
++
++Independent review reads that exact body, not summary assertions. Summary contents may subsequently change without new review, provided the body prefix bytes and length remain identical and the summary remains structurally valid. Changing body punctuation, whitespace, labels, line endings or quote placement requires a new payload/review/root registry. The existing metric/assembly formatting treatment may remain as before after this exact raw-body check; do not silently redefine legacy P0 inputs. Store both raw reviewed body SHA and final whole-file SHA in fresh evidence.
++
++## 7. Fields, shared complete occurrences and manual anchors
++
++Manual original and final bodies must each contain exactly the existing four editable physical lines in order, recognized by exact prefixes `- 비용: `, `- 쉽게: `, `- 이득: `, `- 비고: ` (existing empty-value policy must not be broadened). No continuation lines, duplicate labels, extra prose lines or field migration. An optional final line terminator is not a fifth field. The manual occurrence, content and anchor must lie wholly within one field value, excluding label and line terminator. Existing structural assembly checks remain independent.
++
++Shared quote parser supports paired `"..."`, `“...”`, `「...」`, `『...』`. It returns complete opening/content/closing ranges, field identity where applicable, byte and code-point offsets, ordinal, parent relation and ambiguity flags. Strict UTF-8 conversion is centralized in this parser: map code-point boundaries to accumulated UTF-8 byte offsets once; reverse lookups must land on exact boundaries.
++
++Straight quotes pair sequentially only if their count in the parsing scope is even; same-delimiter nesting is not supported. Curly/CJK different delimiter styles may nest properly. Manual scope rejects any unmatched delimiter, crossing pairing, nesting involving the selected occurrence, or backslash-escaped quote delimiter in its field; escapes are not interpreted as authorizing a quote. Complete parser never searches an enlarged quote for a smaller protected content substring. Automatic grammar classification still uses existing candidate/pairing behavior and preserves correctly nested cases; ambiguous/crossing structures cannot be manually repaired by registry. Automatic-only parser compatibility must be established with existing fixtures before adoption; supported nested automatic spans canonicalize to their containing complete outer occurrence, not two exclusions.
++
++Exact automatic/manual duplicate occurrence: allow a single canonical occurrence with both provenance labels; never double count. Duplicate manual declarations reject. Manual/automatic partial overlap or manual selection nested in/containing another occurrence rejects in v1. The automatic existing nested merge remains supported for automatic-only occurrences.
++
++Source anchor must be a nonempty exact original same-field slice ending at or before the quote opening. Its decoded text must occur exactly once in that original field value. Payload anchor hash/range defines that occurrence; semantic adequacy is independently reviewed, not inferred from `机构名` pattern rules. In exact final body the same literal anchor must occur exactly once in the same field and precede the matching protected quotation. Non-contiguous, fuzzy or normalized anchor matching is forbidden. An anchor can be shared by several approved same-field quotes only if independently reviewed; they remain separately identified original occurrences. A late source switch or contradictory sentence cannot be ruled out by anchors alone, hence mandatory exact-final semantic review.
++
++## 8. Frozen representation, after caps and P3 strengthening
++
++`FrozenQuote` is immutable data: canonical original occurrence range, original field (or document scope for automatic generic CLI input), exact content bytes, exact complete quote shape, provenance and any manual source anchor. `FrozenQuoteContext` contains retained original/final bytes, original/body/registry/payload/review digests, canonical protected original occurrences and reviewed field/anchor constraints. No arbitrary code, mutable Counter or file path that can be reread is stored as authority.
++
++For before-style scoring, exclude only canonical protected content ranges. For after-style scoring, parse complete quote occurrences and match exact protected content in the same field/document scope; consume at most the original protected count for that key. Wrapper delimiter style may differ only among the four supported styles; content bytes, original scope, source-anchor constraints and final reviewed hash remain exact. Added/expanded wrappers containing the old content as a substring do not match. Excess repeated complete occurrences remain eligible author text. For selection determinism, candidates consume caps in ascending after opening offset. Nested automatic candidates canonicalize before counting and cannot consume a protected occurrence twice.
++
++For P3 quote fidelity, require after complete-occurrence count for every protected (scope, content) key to be **at least** its frozen original count. Deleting one of two identical protected originals must fail quote_altered even if another survives. Extra repetition is not itself quote loss; it receives no extra style exemption and all normal gates run. Do not claim all output duplication necessarily produces nonzero if unrelated axes do not cross thresholds. Manual exact-final review/hash separately rejects an unreviewed duplicate final even when content cap alone would be sufficient for automatic scope.
++
++P3 multiplicity strengthening also applies with no registry. This is an intentional fix of the existing membership-only weakness, must have a separate changelog/provenance paragraph and regression, and may reject formerly passing duplicate-loss outputs. Automatic eligibility grammar is not broadened by that hardening. Numerical/footnote/URL golden checks and P0/P5 remain full-text and independent; fidelity cannot be validated merely because P0 happened to fail first.
++
++## 9. Smallest API and CLI surface
++
++New stdlib module responsibilities:
++
++- `read_verified_chapter_inputs(...) -> VerifiedBytesBundle`: regular-file bounded snapshot reads, strict manifest binding and explicit root-selected registry SHA validation.
++- `load_quote_context(bundle, original_run_identity) -> FrozenQuoteContext`: strict schema, review/payload/artifact/occurrence/anchor/body validation; no disk discovery or network operations.
++- `parse_quote_occurrences(text_bytes, field_mode) -> tuple[QuoteOccurrence,...]`: shared parser and centralized byte/code-point mapping.
++- `compute_classified_metrics(original_text, genre, frozen_context)`: consumes verified intervals only; no file loading/approval decisions in metrics.
++- `evaluate_gate(before_bytes, after_bytes, genre, frozen_context=None) -> GateReport`: in-memory core used by CLI and assembly; ordinary check thresholds and exit-code semantics retained.
++
++Existing production commands gain only paired optional `--quote-registry PATH --quote-registry-sha256 SHA`. In direct verify_gates CLI registry mode also requires `--publication-manifest PATH` so authority comes from an existing manifest; before/after paths must resolve to its exact selected run input/final. No caller-supplied expected original hash can replace manifest authority. Assembly already knows its chapter manifest. A registry argument without its SHA, SHA without path, or registry mode without manifest/context is execution error3. Generic no-registry gate CLI remains usable as before, with the declared P3 hardening.
++
++Late-classification evidence is computed during registry-enabled gate invocation, not through the mutating upstream prepare shim. It includes derived original metrics and compute_route_hint from the exact original text with frozen eligibility, original manifest route, checked equality, original saved 00_metrics SHA, registry/payload/review/body hashes, current runtime code hashes and actual full gate report. Existing `_text` route inputs and genre are unchanged. Existing 00_metrics route must still equal manifest route; derived route must also equal it. Any mismatch error3, no override. The finalizer reads this new evidence alongside historical inputs and follows the unchanged original route. Fresh finalizer invocation may update summary only; body edits invalidate reviewed final hash and require renewed review.
++
++Expose `--classification-evidence-dir PATH` in registry mode for direct gate calls; assembly provides its own new root-selected invocation directory. It must be a new regular directory under allowed chapter evidence root, nonsymlink, created exclusively. Do not overwrite publication-gates, manifest, 00_metrics or old finalizer evidence. Output filenames are fixed inside that new directory (derived-metrics.json, classified-gates.json, context.json). On error write only a bounded failure report to that new invocation directory; no success evidence or assembly candidate. Gate exit/error status remains authoritative.
++
++Root-selected expected registry SHA is the required context token for a classified production invocation. Fresh finalizer evidence records it and the reviewed raw body SHA. Assembly requires matching fresh finalizer context for registry-listed runs regardless of light route; it revalidates all bytes and regates in memory. No registry-listed run can substitute cached no-registry gate0 or an older body. Unlisted runs retain their existing route/finalizer requirements. Root must use the same paired flags for the classified assembly call; omitting them cannot be inferred from output metadata. The procedural root workflow requires them once root elects classified adoption, and assembly checks any explicitly supplied finalizer context against the selected configuration. A forged root omission by a fully privileged actor remains outside the procedural trust guarantee, as with existing integration plan bypasses.
++
++## 10. CONTRACT and provenance changes required before use
++
++Document root-only registry promotion/selection, independent payload-original/final/source/translation review, exact schemas and evidence-root restrictions, explicit CLI pair and error behavior, immutable historical metrics, derived-route equality requirement, fresh finalizer plus actual assembly regating, and exit0-only acceptance. Document raw body summary split, same-field anchors, complete-occurrence scope, no PDF extraction in v1, and procedural role-trust limitations.
++
++Source artifacts are raw retained UTF-8 text or HTML whose quoted source excerpt exists as a **literal raw byte substring** at the declared offsets. V1 does not parse HTML into rendered text, strip tags, decode entities, normalize whitespace or extract PDF text. If source wording crosses tags/entities or exists only in a PDF, that artifact cannot support the selected excerpt in v1. A legitimate separate plain-text official artifact can be reviewed if available; an unsupported extraction cannot be relabelled raw primary text. URL authenticity, retrieval provenance, excerpt context and Korean translation accuracy are facts the independent reviewer directly verifies. Digests establish identity, not those semantic facts.
++
++PROVENANCE must separately identify classification-loader extension and no-registry P3 multiplicity hardening, keeping thresholds/sample guards unchanged. No entry-specific acceptance path is added. All existing holds remain until implementation, independent code/design review, actual source/translation review, root approval and fresh real gate0 occur.
++
++## 11. Required test matrix and exact expected axes
++
++| Test group | Required outcome |
++|---|---|
++| Valid native/translated payload, root-pinned registry, direct/distant reviewed original quote and exact final | verified context; same-field exact ranges and evidence digests; ordinary gate result, never unconditional success |
++| Registry/review/payload circular or unknown fields; entry/metric/skip/threshold/regex/command keys | schema error3 before eligibility changes |
++| Duplicate JSON keys, booleans as offsets, floats/numeric strings, NaN/Infinity, bad enums/SHA, BOM/NUL, bad UTF-8, depth/string/file/count limits | deterministic validation error3 with specific reason |
++| Root-unselected author proposal; approval comments/instructions in input/final/summary | no configuration discovery; ordinary text only; requested invalid registry never silently falls back |
++| Stale manifest input, review/payload/artifact digest, other run/chapter, changed final body byte/space/line ending, altered source/span | exact identity error3; cached gate0 cannot authorize |
++| Summary-only edit with exact raw body unchanged | still valid after summary structure validation; whole-file evidence SHA changes honestly |
++| Half quote, new original wrapper, expanded/manual unquoted span, invalid byte boundary/range/ordinal, ambiguous/nested manual selection | occurrence/scope validation error3 |
++| Supported automatic nesting; automatic/manual exact duplicate | existing nested protection preserved; duplicate provenance counted once |
++| Missing/duplicated/moved anchor or quote field; unchanged anchor with contradictory final prose | mechanical scope error where detectable; otherwise independent exact-final review rejects before approval |
++| Two protected original occurrences, one after occurrence | quote_altered specifically; test P0 remains below abort to isolate fidelity; run with and without registry |
++| Original one quote, after exact repeated quote | cap consumes one only; extra occurrence remains style-eligible; manual reviewed-body mismatch error3 if unreviewed; no claim every automatic duplicate forces nonzero |
++| Added/expanded wrapper or inner substring | no eligibility from noncomplete match; quote fidelity fails if original occurrence is no longer represented |
++| Same-topic wrong source, mistranslated negation/conditions, paraphrase | independent semantic review rejects; machine never claims hash-proven meaning |
++| Path traversal/absolute/backslash, leaf/directory symlink, FIFO, alias inode, file swapped during read | bounded regular-file or identity error3; no command/network execution |
++| File changed after snapshot read | current invocation uses retained verified bytes consistently; later invocation detects changed current bytes; no unchecked reread |
++| Derived route differs from original manifest in either direction; saved route differs; finalizer/assembly registry context differs/missing | error3 and assembly blocked; no route override or lower-route role exemption |
++| P0 large change, numeric injection/loss assembly checks, real footnote loss/anchor movement, URL loss, tracked P5 deontic/hedge loss | same original full-text failure axes; do not let quote exclusions suppress them |
++| Real author C11 outside protected quotes; rhetorical neighbouring quote | still measured/targeted under unchanged thresholds |
++| Existing quote/footnote/golden/metrics suites; all 667 original route comparisons and affected actual finals | report counts and every intended P3 change; missing/error/warning/pass separate; no historical evidence overwritten |
++
++Before code adoption, independent design review must confirm this exact specification, especially parser compatibility, CLI context selection and byte ownership. Before operational registry approval, independent source/translation review must approve exact payloads including final bodies. No such source review is performed or assumed by this specification.
+--- a/kr-harness/publication/scripts/humanize_publication.py
++++ b/kr-harness/publication/scripts/humanize_publication.py
+@@ -79,7 +79,10 @@
+     save(folder/'manifest.json',manifest)
+     print(folder/'manifest.json')
+ 
+-def assemble(folder,publish):
++def assemble(folder,publish,quote_registry=None,quote_registry_sha256=None,classification_evidence_dir=None):
++    if quote_registry is not None or quote_registry_sha256 is not None or classification_evidence_dir is not None:
++        return assemble_classified(folder,publish,quote_registry,quote_registry_sha256,classification_evidence_dir)
++
+     manifest=json.loads((folder/'manifest.json').read_text())
+     source=ROOT/manifest['source']
+     snapshot=(folder/'source.md').read_text()
+@@ -137,6 +140,86 @@
+     if publish:
+         source.write_text(candidate)
+     print(folder/'candidate.md')
++
++def assemble_classified(folder,publish,registry,registry_sha,evidence_dir):
++    """Root-selected classification. All gate and candidate text uses retained bytes.
++
++    Standalone candidate intentionally refuses --publish: classified adoption
++    needs an independently reviewed deployment/publication write path.
++    """
++    if publish:
++        raise ValueError("candidate classified publication disabled; review-only assembly")
++    if not all((registry,registry_sha,evidence_dir)):
++        raise ValueError("all classification flags required together")
++    sys.path.insert(0,str(SKILL/'scripts'))
++    from quote_context import ChapterContext,Snapshot,require,strict_json,utf8,write_evidence,relative_path,final_body
++    from verify_gates import evaluate_gate
++    import os
++    chapter=ChapterContext(folder/'manifest.json',registry,registry_sha)
++    snapshot=chapter.snapshot
++    public=Snapshot(ROOT)
++    try:
++        manifest=chapter.manifest
++        source_path=manifest['source']
++        current=public.read(source_path,'current_public')
++        source_bytes=snapshot.read('source.md','source_snapshot')
++        require(sha(utf8(source_bytes))==manifest['source_sha256']==sha(utf8(current)),"source/snapshot mismatch")
++        text=utf8(source_bytes);intro,originals,tail=split(text)
++        require(utf8(snapshot.read('intro.md','intro'))==intro and utf8(snapshot.read('tail.md','tail'))==tail,"intro/tail mismatch")
++        relative_path(evidence_dir)
++        # Exclusive root-level invocation directory, no author-selected path.
++        require('/' not in evidence_dir,"assembly evidence directory must be direct chapter child")
++        os.mkdir(evidence_dir,mode=0o700,dir_fd=snapshot.fd)
++        bodies=[];classified=[]
++        for entry,(number,original) in zip(manifest['entries'],originals,strict=True):
++            run=entry['run_dir'];path=run+'/01_input.txt'
++            before_bytes=snapshot.read(path,'original');after_bytes=snapshot.read(run+'/final.md','final')
++            before=utf8(before_bytes);final=utf8(after_bytes)
++            expected='\n'.join(m.group(0) for m in PROSE.finditer(original))+'\n'
++            require(before==expected and utf8(snapshot.read(run+'/entry_snapshot.md','entry_snapshot'))==original
++                    and sha(original)==entry['entry_sha256'] and sha(before)==entry['input_sha256'] and int(number)==entry['number'],"input evidence mismatch")
++            context=chapter.contexts.get(path)
++            body=(utf8(final_body(after_bytes)) if context else SUMMARY.sub('',final)).rstrip()
++            require(len(re.findall(r'<!--\s*HUMANIZE-SUMMARY\b',final))==1,"one summary")
++            require(invariants(before)==invariants(body),"full-text number/URL/layout conservation failure")
++            code,report=evaluate_gate(before_bytes,after_bytes,manifest['genre'],context)
++            if context is not None:
++                write_evidence(snapshot,evidence_dir+'/'+Path(run).name,context,report)
++                classified.append(context.report())
++            require(code==0,f"upstream gate not accepted (exit {code})")
++            metrics=strict_json(snapshot.read(run+'/00_metrics.json','saved_metrics',256*1024),allow_floats=True)
++            require(metrics.get('route_hint')==entry['route'],"original route evidence mismatch")
++            route=entry['route']
++            if route in ('standard','heavy'):
++                snapshot.read(run+'/02_diagnosis.md','diagnosis')
++            if context is not None or route=='heavy' or (folder/run/'09_finalize.json').exists():
++                finalize=strict_json(snapshot.read(run+'/09_finalize.json','finalizer',256*1024),allow_floats=True)
++                require('hold_and_report' not in json.dumps(finalize) and any(v in json.dumps(finalize) for v in ('accept','corrected')),"finalizer not accepted")
++                if context is not None:
++                    require(finalize.get('classification_context')==context.report(),"fresh finalizer context required")
++            if route=='heavy':
++                snapshot.read(run+'/chunk_manifest.json','chunks',256*1024)
++                snapshot.read(run+'/03_reassembled.md','reassembled')
++            require(len(body.splitlines())==4 and len(PROSE.findall(body))==4,"four field lines")
++            replacements=iter(body.splitlines());bodies.append(PROSE.sub(lambda match:next(replacements),original))
++        candidate=intro+''.join(bodies)+tail
++        if not candidate.endswith('\n'):candidate+='\n'
++        # Candidate writes only to a new invocation directory, never historical
++        # candidate/gate/metrics evidence and never public source.
++        target=folder/evidence_dir
++        output_fd=os.open(evidence_dir,os.O_RDONLY|os.O_DIRECTORY|os.O_NOFOLLOW,dir_fd=snapshot.fd)
++        try:
++            for name,data in [('candidate.md',candidate.encode()),('assembly.json',json.dumps({
++                    'source_sha256':sha(text),'candidate_sha256':sha(candidate),'entries':len(bodies),
++                    'registry_sha256':registry_sha,'classification_contexts':classified,
++                    'upstream_gates':'accepted','published':False},ensure_ascii=False,indent=2).encode())]:
++                fd=os.open(name,os.O_WRONLY|os.O_CREAT|os.O_EXCL|os.O_NOFOLLOW,0o600,dir_fd=output_fd)
++                with os.fdopen(fd,'wb') as stream:stream.write(data);stream.flush();os.fsync(stream.fileno())
++        finally:os.close(output_fd)
++        print(target/'candidate.md')
++    finally:
++        snapshot.close();public.close()
++
+ 
+ def integrate(folder):
+     """Apply explicitly reviewed changes after strict assembly, without publication."""
+@@ -291,9 +374,14 @@
+ parser.add_argument('command',choices=['prepare','assemble','integrate'])
+ parser.add_argument('chapter',type=lambda value:f'{int(value):02d}')
+ parser.add_argument('--date',default=date.today().isoformat())
++parser.add_argument('--quote-registry')
++parser.add_argument('--quote-registry-sha256')
++parser.add_argument('--classification-evidence-dir')
+ parser.add_argument('--publish',action='store_true',help='explicitly replace current public chapter after all gates')
+ args=parser.parse_args()
+ try:
++    if args.command!='assemble' and any(value is not None for value in (args.quote_registry,args.quote_registry_sha256,args.classification_evidence_dir)):
++        raise ValueError('classification flags only valid with assemble')
+     folder=ROOT/'kr-harness/publication'/args.date/f'ch{args.chapter}'
+     if args.command=='prepare':
+         if args.publish:
+@@ -304,6 +392,6 @@
+             raise ValueError('integrate never publishes')
+         integrate(folder)
+     else:
+-        assemble(folder,args.publish)
++        assemble(folder,args.publish,args.quote_registry,args.quote_registry_sha256,args.classification_evidence_dir)
+ except (ValueError, OSError, KeyError) as exc:
+     parser.exit(1,f'error: {exc}\n')
+--- /dev/null
++++ b/kr-harness/publication/scripts/tests/test_reviewed_quote_classification.py
+@@ -0,0 +1,239 @@
++"""TEST-ONLY synthetic approvals. No real institution/source adjudication."""
++from pathlib import Path
++import contextlib,copy,hashlib,io,json,os,subprocess,sys,tempfile,unittest
++CANDIDATE=Path(__file__).resolve().parents[4];SKILL=CANDIDATE/'.claude/skills/humanize-korean'
++sys.path[:0]=[str(SKILL/'scripts'),str(SKILL/'references')]
++import quote_context as q
++import checks,verify_gates,metrics_v2,prepare_monolith_input as prep
++
++def encode(obj):return json.dumps(obj,ensure_ascii=False,allow_nan=False).encode()
++def br(data,a,b):return {'start':a,'end':b,'sha256':q.digest(data[a:b])}
++class Fixture:
++ def __init__(self,root,before=None,afterbody=None):
++  self.root=Path(root);self.run=self.root/'_workspace/test-only';self.run.mkdir(parents=True)
++  self.before=before or '- 비용: 돈은 들지 않습니다.\n- 쉽게: 문을 확인하세요.\n- 이득: TEST 기관의 원문을 소개합니다. 다른 설명입니다. "조건은 간단하며, 절차는 안전합니다".\n- 비고: 확인하세요.\n'
++  self.body=afterbody or self.before
++  self.after=self.body+'<!-- HUMANIZE-SUMMARY\nTEST-ONLY synthetic fixture\n-->\n'
++  self.path='_workspace/test-only/01_input.txt';self.original=self.before.encode();self.final=self.after.encode()
++  (self.run/'01_input.txt').write_bytes(self.original);(self.run/'final.md').write_bytes(self.final)
++  metrics=metrics_v2.compute_all_v2(self.before);metrics['_text']=self.before;metrics.update(prep.compute_route_hint(metrics));metrics.pop('_text')
++  (self.run/'00_metrics.json').write_bytes(encode(metrics))
++  self.manifest={'genre':'essay','entries':[{'run_dir':'_workspace/test-only','input_sha256':q.digest(self.original),'route':metrics['route_hint']}]}
++  (self.root/'manifest.json').write_bytes(encode(self.manifest))
++  occ=next(o for o in q.occurrences(self.before) if o.field=='이득');bm=q.byte_map(self.before)
++  occurrence={'field':occ.field,'ordinal':occ.ordinal}
++  for key,pair in [('opening',occ.opening),('content',occ.content),('closing',occ.closing)]:occurrence[key]=br(self.original,bm[pair[0]],bm[pair[1]])
++  a=self.before.index('TEST 기관의 원문을 소개합니다.');b=a+len('TEST 기관의 원문을 소개합니다.')
++  source=self.before[occ.content[0]:occ.content[1]].encode();(self.root/'TEST-ONLY-source.txt').write_bytes(source)
++  self.payload={'schema_version':1,'original':{'path':self.path,'sha256':q.digest(self.original),'byte_length':len(self.original)},'final_body':{'sha256':q.digest(self.body.encode()),'byte_length':len(self.body.encode())},'quotations':[{'occurrence':occurrence,'source_anchor':br(self.original,bm[a],bm[b]),'source':{'url':'https://test.invalid/TEST-ONLY','artifact':{'path':'TEST-ONLY-source.txt','sha256':q.digest(source)},'artifact_byte_length':len(source),'excerpt':br(source,0,len(source)),'language':'ko','rendering':'native_verbatim'}}]}
++  self.review={'schema_version':1,'payload_sha256':'','decision':'approved','reviewer_role':'independent_source_reviewer','reviewer_id':'TEST-ONLY-independent-fixture','proposer_id':'TEST-ONLY-proposer-fixture','reviewed_original_sha256':q.digest(self.original),'reviewed_final_body_sha256':q.digest(self.body.encode()),'assessments':[{'field':'이득','occurrence_ordinal':occ.ordinal,'source_authenticity':'verified','direct_quotation':'verified','translation_or_verbatim_fidelity':'verified','original_attribution':'verified','final_attribution':'verified','reason':'TEST-ONLY synthetic semantic approval, not source verification.'}]}
++  self.write()
++ def write(self):
++  payload=encode(self.payload);(self.root/'TEST-ONLY-payload.json').write_bytes(payload);self.review['payload_sha256']=q.digest(payload)
++  review=encode(self.review);(self.root/'TEST-ONLY-review.json').write_bytes(review)
++  self.registry={'schema_version':1,'status':'approved','records':[{'payload':{'path':'TEST-ONLY-payload.json','sha256':q.digest(payload)},'review':{'path':'TEST-ONLY-review.json','sha256':q.digest(review)}}]}
++  self.write_registry()
++ def write_registry(self):
++  raw=encode(self.registry);(self.root/'TEST-ONLY-registry.json').write_bytes(raw);self.sha=q.digest(raw)
++ def load(self):return q.ChapterContext(self.root/'manifest.json','TEST-ONLY-registry.json',self.sha)
++ def cli(self,**flags):
++  args=[sys.executable,str(SKILL/'scripts/verify_gates.py'),'--before',str(self.run/'01_input.txt'),'--after',str(self.run/'final.md'),'--json','--quote-registry','TEST-ONLY-registry.json','--quote-registry-sha256',self.sha,'--publication-manifest',str(self.root/'manifest.json'),'--classification-evidence-dir','TEST-ONLY-derived']
++  return subprocess.run(args,capture_output=True,text=True)
++class Classification(unittest.TestCase):
++ def setUp(self):self.temp=tempfile.TemporaryDirectory(prefix='TEST-ONLY-quote-');self.root=Path(self.temp.name);self.f=Fixture(self.root)
++ def tearDown(self):self.temp.cleanup()
++ def error(self,fragment):
++  with self.assertRaisesRegex((ValueError,OSError),fragment):self.f.load()
++ def gate(self,a,b,ctx=None):
++  with contextlib.redirect_stdout(io.StringIO()):return verify_gates.evaluate_gate(a,b,'essay',ctx)
++ def test_valid_cli_and_derived_evidence(self):
++  p=self.f.cli();self.assertEqual(p.returncode,0,p.stdout+p.stderr)
++  evidence=self.root/'TEST-ONLY-derived';self.assertTrue((evidence/'derived-metrics.json').is_file());self.assertTrue(json.loads((evidence/'context.json').read_text())['completed'])
++  self.assertEqual((self.f.run/'01_input.txt').read_bytes(),self.f.original)
++ def test_retained_bytes_and_argument_binding(self):
++  chapter=self.f.load();ctx=chapter.context_for(self.f.run/'01_input.txt',self.f.run/'final.md','essay')
++  (self.f.run/'final.md').write_bytes(b'changed after snapshot')
++  self.assertEqual(self.gate(ctx.before_bytes,ctx.after_bytes,ctx)[0],0)
++  with self.assertRaisesRegex(ValueError,'argument mismatch'):self.gate(ctx.before_bytes,b'other',ctx)
++  with self.assertRaisesRegex(ValueError,'argument mismatch'):verify_gates.evaluate_gate(ctx.before_bytes,ctx.after_bytes,'blog',ctx)
++  chapter.snapshot.close();self.error('summary|body')
++ def test_body_whitespace_invalid_summary_only_valid(self):
++  (self.f.run/'final.md').write_bytes(self.f.final.replace(b'TEST-ONLY synthetic fixture',b'only summary edited'))
++  c=self.f.load();c.snapshot.close()
++  (self.f.run/'final.md').write_bytes(b' '+self.f.final);self.error('final body')
++ def test_duplicate_unknown_keys_nan_boolean_and_bom(self):
++  for raw in (b'{"x":1,"x":2}',b'{"x":NaN}',b'{"x":1.0}',b'\xef\xbb\xbf{}'):
++   with self.assertRaises(ValueError):q.strict_json(raw)
++  for mutate in ('unknown','bool','negative','half','bad_sha'):
++   p=copy.deepcopy(self.f.payload)
++   if mutate=='unknown':p['skip']=True
++   if mutate=='bool':p['quotations'][0]['occurrence']['content']['start']=True
++   if mutate=='negative':p['quotations'][0]['occurrence']['content']['start']=-1
++   if mutate=='half':p['quotations'][0]['occurrence']['content']['start']+=1
++   if mutate=='bad_sha':p['original']['sha256']='A'*64
++   old=self.f.payload;self.f.payload=p;self.f.write()
++   with self.assertRaises((ValueError,UnicodeError)):self.f.load()
++   self.f.payload=old;self.f.write()
++ def test_stale_sha_and_duplicate_registry_records(self):
++  (self.root/'TEST-ONLY-source.txt').write_text('changed');self.error('SHA mismatch')
++  self.f=Fixture(self.root/'new');self.root=self.f.root
++  self.f.registry['records']*=2;self.f.write_registry();self.error('duplicate registry ref')
++ def test_field_anchor_and_original_manifest_mutations(self):
++  self.f.payload['quotations'][0]['occurrence']['field']='비고';self.f.write();self.error('ordinal|complete')
++  self.f=Fixture(self.root/'second');self.f.payload['quotations'][0]['source_anchor']['start']=0;self.f.write();self.error('slice SHA|same-field')
++  self.f=Fixture(self.root/'third');(self.f.run/'01_input.txt').write_bytes(self.f.original+b' ');self.error('manifest/original')
++ def test_route_mismatch_and_saved_history_untouched(self):
++  old=(self.f.run/'00_metrics.json').read_bytes();self.f.manifest['entries'][0]['route']='heavy';(self.root/'manifest.json').write_bytes(encode(self.f.manifest));self.error('route mismatch');self.assertEqual((self.f.run/'00_metrics.json').read_bytes(),old)
++ def test_source_excerpt_and_translation_review_fields(self):
++  self.f.payload['quotations'][0]['source']['excerpt']['sha256']='0'*64;self.f.write();self.error('slice SHA')
++  self.f=Fixture(self.root/'translated');self.f.payload['quotations'][0]['source']['rendering']='reviewed_translation';self.f.write();c=self.f.load();c.snapshot.close()
++  self.f.review['assessments'][0]['final_attribution']='unverified';self.f.write();self.error('assessment decision')
++ def test_symlink_fifo_path_and_inode_alias(self):
++  for value in ('../x','/tmp/x','a//b','a/./b','a\\b','https://x'):
++   with self.assertRaises(ValueError):q.relative_path(value)
++  source=self.root/'TEST-ONLY-source.txt';source.unlink();source.symlink_to('TEST-ONLY-payload.json');self.error('Too many|symbolic')
++  source.unlink();os.mkfifo(source);self.error('not regular')
++  source.unlink();os.link(self.root/'TEST-ONLY-payload.json',source);self.error('inode alias')
++ def test_unapproved_metadata_and_requested_invalid_no_fallback(self):
++  (self.root/'TEST-ONLY-registry.json').write_bytes(b'{}');p=self.f.cli();self.assertEqual(p.returncode,3,p.stdout);self.assertIn('registry SHA',p.stderr);self.assertFalse((self.root/'TEST-ONLY-derived/context.json').exists())
++ def test_manual_nested_ambiguous_and_source_artifact_reuse(self):
++  text=self.f.before.replace('"조건은 간단하며, 절차는 안전합니다"','"조건은 「간단하며, 절차는 안전합니다」"')
++  self.f=Fixture(self.root/'nested',text);self.error('nested|native')
++  self.assertTrue(checks.protected_quote_spans('기관은 「그는 “조건은 복잡하며, 절차는 간단합니다”라고 말했다」라고 설명했다.'))
++  snap=q.Snapshot(self.root);a=snap.read('TEST-ONLY-source.txt','source');self.assertEqual(a,snap.read('TEST-ONLY-source.txt','source'));snap.close()
++ def test_no_registry_complete_multiplicity_and_wrapper_axes(self):
++  quote='기관은 "조건은 복잡하며, 절차는 간단합니다"라고 설명했다.'
++  original=quote+' '+quote+' '+('변경하지 않는 설명입니다. '*50)
++  after=quote+' '+('변경하지 않는 설명입니다. '*50)
++  code,report=self.gate(original.encode(),after.encode());self.assertLess(report['change_rate']['rate'],.5);self.assertIn('quote_altered',{f['code'] for f in report['golden']})
++  self.assertTrue(checks.check_quotes(quote,quote.replace('"조건은','"추가 조건은')))
++  repeated=quote+' '+quote
++  frozen=q.frozen_keys(quote);self.assertEqual(len(q.capped_spans(repeated,frozen)),1)
++  self.assertFalse(q.capped_spans(quote.replace('"조건은','"추가 조건은'),frozen))
++ def test_original_two_reviewed_after_one_fidelity_not_body_error(self):
++  # Deliberately semantically invalid TEST-ONLY review: hash binds an exact final
++  # that drops one original occurrence; P3 must independently catch that loss.
++  quote='"조건은 간단하며, 절차는 안전합니다"'
++  a=self.f.before.replace(quote,quote+' '+quote)
++  b=self.f.before
++  self.f=Fixture(self.root/'bad-semantic-fixture',a,b)
++  second=copy.deepcopy(self.f.payload['quotations'][0]);occ=q.occurrences(a)[1];bm=q.byte_map(a);second['occurrence']['ordinal']=occ.ordinal
++  for name,span in [('opening',occ.opening),('content',occ.content),('closing',occ.closing)]:second['occurrence'][name]=br(a.encode(),bm[span[0]],bm[span[1]])
++  self.f.payload['quotations'].append(second);assessment=copy.deepcopy(self.f.review['assessments'][0]);assessment['occurrence_ordinal']=occ.ordinal;self.f.review['assessments'].append(assessment);self.f.write()
++  chapter=self.f.load();ctx=chapter.context_for(self.f.run/'01_input.txt',self.f.run/'final.md','essay');code,report=self.gate(ctx.before_bytes,ctx.after_bytes,ctx);self.assertIn('quote_altered',{f['code'] for f in report['golden']});chapter.snapshot.close()
++ def test_preservation_full_text_axes(self):
++  text='환자는 20분 기다려야 합니다. 상처를 씻어야 합니다. 의사는 확인해야 합니다.'
++  _,report=self.gate(text.encode(),text.replace('20분','21분').encode());self.assertIn('number_injected',{x['code'] for x in report['golden']})
++  _,report=self.gate(text.encode(),text.replace('야 합니다','니다').encode());self.assertTrue(report['modality']['lost_pairs'])
++  code,report=self.gate((text*10).encode(),'다른 글입니다.'.encode());self.assertEqual(code,2);self.assertEqual(report['change_rate']['verdict'],'ABORT — 강제 중단. 윤문본 채택 금지')
++class MoreAdversarial(unittest.TestCase):
++ setUp=Classification.setUp
++ tearDown=Classification.tearDown
++ error=Classification.error
++ gate=Classification.gate
++ def test_sizes_depth_types_ranges_and_summary_shapes(self):
++  for raw in (b'{"x":'+b'['*14+b'0'+b']'*14+b'}',b'{' + b' '*262144+b'}',b'{"x":"\\u0000"}',b'\xff'):
++   with self.assertRaises((ValueError,UnicodeError)):q.strict_json(raw)
++  for bad in (True,1.0,'1',-1,2**64):
++   with self.assertRaises(ValueError):q.integer(bad)
++  for raw in (b'body\n<!-- HUMANIZE-SUMMARY no newline -->',b'body\n<!-- HUMANIZE-SUMMARY\n-->extra',b'body\n<!-- HUMANIZE-SUMMARY\n--> -->'):
++   with self.assertRaises(ValueError):q.final_body(raw)
++ def test_directory_symlink_and_changed_during_read(self):
++  from unittest.mock import patch
++  (self.root/'link').symlink_to('_workspace',target_is_directory=True)
++  snap=q.Snapshot(self.root)
++  with self.assertRaises(OSError):snap.read('link/test-only/01_input.txt','test')
++  snap.close()
++  snap=q.Snapshot(self.root);original_read=q.os.read;changed=False
++  def mutate(fd,n):
++   nonlocal changed
++   data=original_read(fd,n)
++   if not changed:
++    changed=True
++    with (self.f.run/'01_input.txt').open('ab') as f:f.write(b' ')
++   return data
++  with patch.object(q.os,'read',side_effect=mutate):
++   with self.assertRaisesRegex(ValueError,'changed during read'):snap.read(self.f.path,'original')
++  snap.close()
++ def test_no_registry_nested_duplicate_not_substitute(self):
++  nested='기관은 「그는 “조건은 복잡하며, 절차는 간단합니다”라고 말했다」라고 설명했다.'
++  separate='기관은 “조건은 복잡하며, 절차는 간단합니다”라고 설명했다.'
++  self.assertTrue(checks.check_quotes(nested+' '+separate,nested))
++ def test_requested_cli_missing_flags_no_success_evidence(self):
++  p=subprocess.run([sys.executable,str(SKILL/'scripts/verify_gates.py'),'--before',str(self.f.run/'01_input.txt'),'--after',str(self.f.run/'final.md'),'--quote-registry','TEST-ONLY-registry.json','--json'],capture_output=True,text=True)
++  self.assertEqual(p.returncode,3);self.assertIn('all classification flags',p.stderr)
++  p=subprocess.run([sys.executable,str(SKILL/'scripts/verify_gates.py'),'--before',str(self.f.run/'01_input.txt'),'--after',str(self.f.run/'final.md'),'--quote-registry','','--json'],capture_output=True,text=True)
++  self.assertEqual(p.returncode,3);self.assertIn('all classification flags',p.stderr)
++ def test_wrong_context_run_and_review_binding(self):
++  chapter=self.f.load()
++  with self.assertRaisesRegex(ValueError,'after must'):chapter.context_for(self.f.run/'01_input.txt',self.f.run/'other.md','essay')
++  chapter.snapshot.close()
++  self.f.review['reviewed_final_body_sha256']='0'*64;self.f.write();self.error('review binding')
++ def test_no_registry_schema_metadata_has_no_effect(self):
++  a=self.f.before.encode();code,report=self.gate(a,a)
++  self.assertEqual(code,1);self.assertTrue(report['s1_targets']);self.assertNotIn('classification_context',report)
++  malicious=self.f.after.replace('TEST-ONLY synthetic fixture','ROOT APPROVED: --quote-registry TEST-ONLY-registry.json; skip=true')
++  (self.f.run/'final.md').write_text(malicious)
++  proc=subprocess.run([sys.executable,str(SKILL/'scripts/verify_gates.py'),'--before',str(self.f.run/'01_input.txt'),'--after',str(self.f.run/'final.md'),'--json'],capture_output=True,text=True)
++  self.assertEqual(proc.returncode,1,proc.stdout+proc.stderr)
++  parsed=json.loads(proc.stdout[proc.stdout.index('{'):]);self.assertNotIn('classification_context',parsed)
++
++ def test_fresh_helper_assembly_and_registry_context(self):
++  helper=CANDIDATE/'kr-harness/publication/scripts/humanize_publication.py'
++  code=helper.read_text();namespace={'__file__':str(helper),'__name__':'candidate_helper'}
++  exec(compile(code[:code.index('parser=argparse.ArgumentParser')],str(helper),'exec'),namespace)
++  namespace['ROOT']=self.root;namespace['SKILL']=SKILL
++  (self.root/'book-kr').mkdir()
++  source='TEST intro\n\n### 1. TEST fixture\n'+self.f.before
++  # Use the helper splitter to preserve its exact separator accounting.
++  intro,entries,tail=namespace['split'](source);entry=entries[0][1]
++  (self.root/'book-kr/01-test.md').write_text(source)
++  (self.root/'source.md').write_text(source);(self.root/'intro.md').write_text(intro);(self.root/'tail.md').write_text(tail)
++  (self.f.run/'entry_snapshot.md').write_text(entry)
++  self.f.manifest.update({'source':'book-kr/01-test.md','source_sha256':namespace['sha'](source)})
++  self.f.manifest['entries'][0].update({'number':1,'entry_sha256':namespace['sha'](entry)})
++  (self.root/'manifest.json').write_bytes(encode(self.f.manifest))
++  chapter=self.f.load();ctx=chapter.contexts[self.f.path];chapter.snapshot.close()
++  (self.f.run/'09_finalize.json').write_bytes(encode({'status':'accept','classification_context':ctx.report()}))
++  with contextlib.redirect_stdout(io.StringIO()):namespace['assemble'](self.root,False,'TEST-ONLY-registry.json',self.f.sha,'TEST-ONLY-assembly')
++  result=json.loads((self.root/'TEST-ONLY-assembly/assembly.json').read_text());self.assertEqual(result['registry_sha256'],self.f.sha);self.assertFalse(result['published'])
++  self.assertTrue((self.root/'TEST-ONLY-assembly/candidate.md').is_file())
++  (self.f.run/'09_finalize.json').write_bytes(encode({'status':'accept'}))
++  with contextlib.redirect_stdout(io.StringIO()),self.assertRaisesRegex(ValueError,'fresh finalizer context'):
++   namespace['assemble'](self.root,False,'TEST-ONLY-registry.json',self.f.sha,'TEST-ONLY-stale-assembly')
++  self.assertFalse((self.root/'TEST-ONLY-stale-assembly/assembly.json').exists())
++ def test_ten_module_standalone_bundle_isolated_cli(self):
++  import shutil
++  with tempfile.TemporaryDirectory(prefix='TEST-ONLY-isolated-bundle-') as temporary:
++   isolated=Path(temporary);skill=isolated/'standalone';shutil.copytree(SKILL,skill,ignore=shutil.ignore_patterns('__pycache__'))
++   names={p.name for p in (skill/'scripts').glob('*.py')}
++   self.assertEqual(len(names),10);self.assertIn('quote_context.py',names)
++   before='기관은 "조건은 복잡하며, 절차는 간단합니다"라고 설명했다. 환자는 20분 기다려야 합니다.'
++   for name,after,expected,axis in [('identity',before,0,None),('number',before.replace('20분','21분'),1,'number_injected'),('quote',before.replace('복잡하며,','간단하며,'),1,'quote_altered')]:
++    (isolated/'before').write_text(before);(isolated/'after').write_text(after)
++    proc=subprocess.run([sys.executable,'-I',str(skill/'scripts/verify_gates.py'),'--before',str(isolated/'before'),'--after',str(isolated/'after'),'--json'],cwd=isolated,capture_output=True,text=True,env={k:v for k,v in os.environ.items() if k not in ('PYTHONPATH','PYTHONHOME')})
++    self.assertEqual(proc.returncode,expected,proc.stdout+proc.stderr)
++    report=json.loads(proc.stdout[proc.stdout.index('{'):])
++    if axis:self.assertIn(axis,{x['code'] for x in report['golden']})
++ def test_automatic_manual_exact_duplicate_and_field_scope(self):
++  original=self.f.before.replace('다른 설명입니다. "','기관은 "').replace('안전합니다".','안전합니다"라고 설명했다.')
++  self.f=Fixture(self.root/'auto-manual',original)
++  chapter=self.f.load();ctx=chapter.contexts[self.f.path];self.assertEqual(len(ctx.keys),1);chapter.snapshot.close()
++  a=original
++  quoted='"조건은 간단하며, 절차는 안전합니다"'
++  b=a.replace(quoted,'다른 설명').replace('- 비고: 확인하세요.','- 비고: 기관은 '+quoted+'라고 설명했다.')
++  self.assertTrue(checks.check_quotes(a,b))
++ def test_limits_overlap_anchor_and_incomplete_approval_axes(self):
++  self.assertEqual(q.unique_position('aaaa','aa'),-1)
++  bad=copy.deepcopy(self.f.payload);bad['quotations']*=33;self.f.payload=bad;self.f.write();self.error('quotation count')
++  self.f=Fixture(self.root/'self-review');self.f.review['reviewer_id']=self.f.review['proposer_id'];self.f.write();self.error('self-review')
++  self.f=Fixture(self.root/'unapproved');self.f.review['decision']='rejected';self.f.write();self.error('review status')
++  self.f=Fixture(self.root/'unbalanced');text=self.f.before.replace('"조건은','“조건은');(self.f.run/'01_input.txt').write_bytes(text.encode());self.error('manifest/original')
++ def test_crlf_raw_body_and_normalized_gate_views(self):
++  self.f=Fixture(self.root/'crlf',self.f.before.replace('\n','\r\n'))
++  chapter=self.f.load();ctx=chapter.contexts[self.f.path]
++  self.assertEqual(self.gate(ctx.before_bytes,ctx.after_bytes,ctx)[0],0)
++  self.assertIn(b'\r\n',ctx.before_bytes);chapter.snapshot.close()
++  (self.f.run/'final.md').write_bytes(self.f.final.replace(b'\r\n',b'\n'))
++  self.error('final body')
++if __name__=='__main__':unittest.main()

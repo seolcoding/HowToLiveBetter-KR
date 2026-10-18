@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "original": {
+    "path": "_workspace/2026-10-18-038-eea4/01_input.txt",
+    "sha256": "c28be01c207caeb56676cf81cd6f9f3060d49334a522179b278d147ad24c4081",
+    "byte_length": 1689
+  },
+  "final_body": {
+    "sha256": "59e04574fc494ae398f3a443cefeead6bafcf0367ff51962f2f982244a765060",
+    "byte_length": 1688
+  },
+  "quotations": [
+    {
+      "occurrence": {
+        "field": "이득",
+        "ordinal": 0,
+        "opening": {
+          "start": 759,
+          "end": 760,
+          "sha256": "8a331fdde7032f33a71e1b2e257d80166e348e00fcb17914f48bdb57a1c63007"
+        },
+        "content": {
+          "start": 760,
+          "end": 828,
+          "sha256": "7cfaff2d1f7e237f6dd3cc6e7218b54f63dee925650c635cfb9f93186c6d60d0"
+        },
+        "closing": {
+          "start": 828,
+          "end": 829,
+          "sha256": "8a331fdde7032f33a71e1b2e257d80166e348e00fcb17914f48bdb57a1c63007"
+        }
+      },
+      "source_anchor": {
+        "start": 614,
+        "end": 701,
+        "sha256": "a74333e5d7074c72e06b8d8461cb3552eb773b50f70bbf08266d9e4fbaee53d2"
+      },
+      "source": {
+        "url": "https://www.cdc.gov/hiv/prevention/pep.html",
+        "artifact": {
+          "path": "quote-attribution/source-review/cdc-pep.raw.html",
+          "sha256": "99dd1a9ccddcfe18805fa49d568eff6760b7dfdcf296152d1476360209788a29"
+        },
+        "artifact_byte_length": 58149,
+        "excerpt": {
+          "start": 23012,
+          "end": 23068,
+          "sha256": "9fe3fa460f3367657b06309505efde60fc462740619f5199eb4c1d864afccf3d"
+        },
+        "language": "en",
+        "rendering": "reviewed_translation"
+      }
+    }
+  ]
+}

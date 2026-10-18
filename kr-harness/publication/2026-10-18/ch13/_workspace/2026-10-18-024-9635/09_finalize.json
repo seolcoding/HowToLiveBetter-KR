@@ -1,0 +1,41 @@
+{
+  "status": "accept",
+  "genre": "essay",
+  "backup": "final_pre_finalize.md",
+  "fidelity_violations": [],
+  "residual_findings": [
+    {
+      "type": "metric_warning",
+      "metric": "ending_comma_rate",
+      "z_before": 4.56,
+      "z_after": 2.02,
+      "gate_exit": 1,
+      "reason": "Protected attributed FEMA quote contains 멈추고, 엎드리고,; no eligible author C-11 remains."
+    }
+  ],
+  "overediting": [],
+  "correction_count": 0,
+  "accepted_existing_corrections": 2,
+  "self_check": {
+    "passed": 6,
+    "total": 6
+  },
+  "grade": "B",
+  "change_rate": 0.0008,
+  "diagnosis_note": "Light route; no 02_diagnosis.md present. Independently compared original, final, metrics and current gates.",
+  "inspection": {
+    "eligible_author_C11_remaining": 0,
+    "protected_quote": "멈추고, 엎드리고, 구른다",
+    "noun_lists": "대피공간, 경량칸막이 / 다른 세대, 복도, 계단실, 주차장 / 아파트, 기숙사 / 경량칸막이, 완강기 preserved as noun enumerations",
+    "anchors_conditions_hedges_register": "preserved"
+  },
+  "gate": {
+    "exit_code": 1,
+    "P0": "OK",
+    "P1": "warning",
+    "P2": "skip",
+    "P3": "PASS",
+    "P5": "OK"
+  },
+  "publication_gate_files_modified": false
+}

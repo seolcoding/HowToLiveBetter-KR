@@ -1,0 +1,31 @@
+{
+  "decision": "accept",
+  "status": "accept",
+  "fidelity_violations": [],
+  "correction_count": 0,
+  "body_correction_count": 0,
+  "summary_updated": true,
+  "self_check": "6/6",
+  "grade": "B",
+  "change_rate": 0.0007,
+  "gate_exit_code": 1,
+  "residuals": [
+    {
+      "metric": "ending_comma_rate",
+      "z_before": 5.84,
+      "z_after": 2.66,
+      "verdict": "미달; warning retained",
+      "reason": "보호되는 출처 귀속 직접 인용의 좋고, 및 간접의문절 해당하는지,의 계수 영향. 추가 필자 C-11 없음."
+    }
+  ],
+  "inspection": {
+    "eligible_author_C11_before": [
+      "72시간을 넘기지 말고, 될 수 있는 한 빨리 시작하세요."
+    ],
+    "eligible_author_C11_after": [],
+    "protected_quote": "미국 질병통제예방센터 안내에 귀속된 \"빨리 시작할수록 좋고, 한 시간 한 시간이 중요하다\" 보존",
+    "false_pattern": "노출에 해당하는지, 약을 쓸지는 — 간접의문절 병렬; 연결어미 -고/-며/-지만/-면서/-아서/-어서 아님",
+    "overediting": []
+  },
+  "note": "본문은 원문 대비 쉼표 1개 삭제뿐. 현재 verify_gates.py를 절대경로 입력과 essay로 실행한 실제 exit 1을 수용하며 production publication-gates 파일은 변경하지 않음."
+}

@@ -1,0 +1,15 @@
+{
+  "run": 397,
+  "failures": [],
+  "errors": [],
+  "skipped": [
+    [
+      "test_live_fixtures (test_humanize_live.HumanizeLiveTests.test_live_fixtures)",
+      "claude CLI 없음 — live 통합 테스트 skip"
+    ],
+    [
+      "test_live_workspace_run_routes_light_or_standard (test_route_hint.RouteHintTests.test_live_workspace_run_routes_light_or_standard)",
+      "실측 run 없음 (fresh clone)"
+    ]
+  ]
+}

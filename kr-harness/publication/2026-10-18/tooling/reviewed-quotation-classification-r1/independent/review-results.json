@@ -1,0 +1,66 @@
+{
+  "verdict": "REVISE",
+  "patch_sha256": "4674ed5cc58708efc4071fd56d58df0a73acc22ee7e0a6038ac77b6af0e77e24",
+  "report_sha256": "f09897b5ce6f66be025e7715a10d03433fef8eefe1fa848cf6bb4e57b732981b",
+  "findings": [
+    {
+      "id": "R1",
+      "severity": "high",
+      "title": "Explicit rejected finalizer accepted by substring search",
+      "evidence": "adversarial-results.json"
+    },
+    {
+      "id": "R2",
+      "severity": "medium",
+      "title": "Failure leaves completion markers or candidate artifacts",
+      "evidence": [
+        "adversarial-results.json",
+        "evidence-fsync-failure.json"
+      ]
+    },
+    {
+      "id": "R3",
+      "severity": "low",
+      "title": "DEL/C1 controls accepted in source URL",
+      "evidence": "adversarial-results.json"
+    }
+  ],
+  "new_tests": {
+    "run": 25,
+    "passed": 25
+  },
+  "local_tests": {
+    "run": 33,
+    "passed": 33
+  },
+  "upstream_original_nine": {
+    "run": 397,
+    "failed": 2,
+    "skipped": 2
+  },
+  "upstream_adapted_ten": {
+    "run": 397,
+    "passed": 395,
+    "skipped": 2
+  },
+  "frozen_corpus": {
+    "records_equal": true,
+    "total": 667,
+    "routes": {
+      "light": 644,
+      "standard": 23
+    },
+    "gate_counts": {
+      "0": 442,
+      "1": 2,
+      "missing": 223
+    }
+  },
+  "actual_registry_copy_only": {
+    "sha256": "fcaea69ba82f916d15ea8f96d26b58c53af2407dcb82f2d0e5100de78102c89c",
+    "e24_exit": 0,
+    "e38_exit": 0,
+    "source_approval_by_reviewer": false,
+    "adoption_or_publication_approval": false
+  }
+}

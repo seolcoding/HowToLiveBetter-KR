@@ -1,0 +1,196 @@
+................................commit-ko: 커밋 메시지에 AI 티 사무적·번역투 표현이 보입니다 (경고 — 커밋은 진행됩니다)
+  - '진행함' — 사무적 격식 동사 — '~함' 또는 구체 동사로 (예: '리팩터링을 진행함' → '리팩터링')
+  자연스럽게 다듬으려면: Claude Code에서 "커밋 메시지 자연스럽게" 요청 (commit-ko 스킬)
+  이번만 건너뛰려면: COMMIT_KO_HOOK_SKIP=1 git commit ... 또는 메시지에 [skip-commit-ko] 포함
+.usage: python3 commit_msg_lint.py <commit-msg-file>
+....................run_dir=/tmp/tmpi37k1rab
+combined=/tmp/tmpi37k1rab/01_input_with_metrics.txt
+risk_band=low  risk_score=0
+route_hint=light
+degraded=False
+run_dir=/tmp/tmpcqtvceoj
+manifest=/tmp/tmpcqtvceoj/chunk_manifest.json
+chunks=9 (body 8 + passthrough 1)
+sizes=[2604, 2604, 2604, 2604, 2604, 2604, 2604, 2604, 170]
+route_hint=heavy
+metrics_degraded_chunks=0
+stale_removed=0
+warnings=0
+output=/tmp/tmpcqtvceoj/03_reassembled.md
+chunks=9
+source_chars=21002  output_chars=19050  total_ratio=0.907
+warnings=1
+WARNING: 청크 1: 원문 2602자 → 650자 (25%) — 유실 의심
+run_dir=/tmp/tmplsxdb4gx
+manifest=/tmp/tmplsxdb4gx/chunk_manifest.json
+chunks=2 (body 1 + passthrough 1)
+sizes=[78, 102]
+route_hint=light
+metrics_degraded_chunks=0
+stale_removed=0
+warnings=1
+WARNING: 입력 180자 ≤ 청킹 권장 최소 15,000자 — 단일 콜 실증 범위라 --chunk 비권장 (권고, route_hint 참조)
+run_dir=/tmp/tmp8h_1iyii
+manifest=/tmp/tmp8h_1iyii/chunk_manifest.json
+chunks=9 (body 8 + passthrough 1)
+sizes=[2604, 2604, 2604, 2604, 2604, 2604, 2604, 2604, 170]
+route_hint=heavy
+metrics_degraded_chunks=0
+stale_removed=0
+warnings=0
+output=/tmp/tmp8h_1iyii/03_reassembled.md
+chunks=9
+source_chars=21002  output_chars=21002  total_ratio=1.0
+warnings=0
+run_dir=/tmp/tmppgux926h
+manifest=/tmp/tmppgux926h/chunk_manifest.json
+chunks=5 (body 5 + passthrough 0)
+sizes=[29, 75, 35, 33, 26]
+route_hint=light
+metrics_degraded_chunks=0
+stale_removed=0
+warnings=1
+WARNING: 입력 198자 ≤ 청킹 권장 최소 15,000자 — 단일 콜 실증 범위라 --chunk 비권장 (권고, route_hint 참조)
+output=/tmp/tmppgux926h/03_reassembled.md
+chunks=5
+source_chars=198  output_chars=198  total_ratio=1.0
+warnings=0
+run_dir=/tmp/tmp_fch008h
+manifest=/tmp/tmp_fch008h/chunk_manifest.json
+chunks=2 (body 1 + passthrough 1)
+sizes=[78, 102]
+route_hint=light
+metrics_degraded_chunks=0
+stale_removed=0
+warnings=1
+WARNING: 입력 180자 ≤ 청킹 권장 최소 15,000자 — 단일 콜 실증 범위라 --chunk 비권장 (권고, route_hint 참조)
+output=/tmp/tmp_fch008h/03_reassembled.md
+chunks=2
+source_chars=180  output_chars=180  total_ratio=1.0
+warnings=0
+run_dir=/tmp/tmpsmty949v
+manifest=/tmp/tmpsmty949v/chunk_manifest.json
+chunks=9 (body 8 + passthrough 1)
+sizes=[2604, 2604, 2604, 2604, 2604, 2604, 2604, 2604, 170]
+route_hint=heavy
+metrics_degraded_chunks=0
+stale_removed=0
+warnings=0
+output=/tmp/tmpsmty949v/03_reassembled.md
+chunks=9
+source_chars=21002  output_chars=21002  total_ratio=1.0
+warnings=0
+[gate] 실행 오류 — RuntimeError: 시뮬레이션
+Traceback (most recent call last):
+  File "/workspace/.cache/howtolivebetter/publication/quote-attribution-code-review/upstream-harness/scripts/console.py", line 52, in run_gate
+    return main()
+           ^^^^^^
+  File "/workspace/.cache/howtolivebetter/publication/quote-attribution-code-review/upstream-harness/tests/test_console_encoding.py", line 71, in boom
+    raise RuntimeError("시뮬레이션")
+RuntimeError: 시뮬레이션
+.........................................................................................................s..........................................................................................................................................s.................................................................error: [Errno 2] No such file or directory: '/tmp/tmp9xbbjbjm/nope.md'
+..................................
+----------------------------------------------------------------------
+Ran 397 tests in 2.366s
+
+OK (skipped=2)
+
+[e2e] 검증 완료 6건 · 출력 대기 0건: []
+low
+low
+run_dir=/tmp/tmpgylje06t
+manifest=/tmp/tmpgylje06t/chunk_manifest.json
+chunks=1 (body 1 + passthrough 0)
+sizes=[3275]
+route_hint=light
+metrics_degraded_chunks=0
+stale_removed=0
+warnings=1
+WARNING: 입력 3,275자 ≤ 청킹 권장 최소 15,000자 — 단일 콜 실증 범위라 --chunk 비권장 (권고, route_hint 참조)
+run_dir=/tmp/tmpzgoqz8df
+combined=/tmp/tmpzgoqz8df/01_input_with_metrics.txt
+risk_band=low  risk_score=2
+route_hint=light
+degraded=False
+[P0 문자율] 13.2% [전문] — OK (경고 30% / 중단 50%)
+[P1 목표달성] N/A — 구조 진단 (어휘 S1 앵커 없음)
+[P2 전멸] C-8 대구 1 → 0 — 스킵 (원문 대구 < 5)
+[P3 golden] PASS (수치 주입·각주·인용·register 이상 없음)
+[P4 터치율] 50.0% (1/2 문장) — 보고 전용
+[P5 서법] 소실 0문장 (참고 총수: 당위 0→0 / 완곡 0→0) — OK
+gate: OK — 수렴
+[P0 문자율] 0.0% [전문] — OK (경고 30% / 중단 50%)
+[P1 목표달성] N/A — 구조 진단 (어휘 S1 앵커 없음)
+[P2 전멸] C-8 대구 0 → 0 — 스킵 (원문 대구 < 5)
+[P3 golden] PASS (수치 주입·각주·인용·register 이상 없음)
+[P4 터치율] 0.0% (0/5 문장) — 보고 전용
+[P5 서법] 소실 0문장 (참고 총수: 당위 1→1 / 완곡 0→0) — OK
+gate: OK — 수렴
+[P0 문자율] 22.1% [전문] — OK (경고 30% / 중단 50%)
+[P1 목표달성] N/A — 구조 진단 (어휘 S1 앵커 없음)
+[P2 전멸] C-8 대구 6 → 0 — FAIL — 전멸
+[P3 golden] PASS (수치 주입·각주·인용·register 이상 없음)
+[P4 터치율] 100.0% (6/6 문장) — 보고 전용
+[P5 서법] 소실 0문장 (참고 총수: 당위 0→0 / 완곡 0→0) — OK
+gate: WARN — 경고. 사용자 고지 + finalize 승급
+[P0 문자율] 9.7% [전문] — OK (경고 30% / 중단 50%)
+[P1 목표달성] N/A — 구조 진단 (어휘 S1 앵커 없음)
+[P2 전멸] C-8 대구 0 → 0 — 스킵 (원문 대구 < 5)
+[P3 golden] FAIL — 1건:
+    FAIL [number_injected] 원문에 없던 수치가 윤문본에 등장했습니다: ['3.5'] (수치 불변 철칙 — 없던 주장 주입 위험)
+[P4 터치율] 0.0% (0/5 문장) — 보고 전용
+[P5 서법] 소실 0문장 (참고 총수: 당위 1→1 / 완곡 0→0) — OK
+gate: WARN — 경고. 사용자 고지 + finalize 승급
+[P0 문자율] 85.7% [전문] — ABORT — 강제 중단. 윤문본 채택 금지 (경고 30% / 중단 50%)
+[P1 목표달성] N/A — 구조 진단 (어휘 S1 앵커 없음)
+[P2 전멸] C-8 대구 0 → 0 — 스킵 (원문 대구 < 5)
+[P3 golden] FAIL — 1건:
+    FAIL [number_injected] 원문에 없던 수치가 윤문본에 등장했습니다: ['2050', '99'] (수치 불변 철칙 — 없던 주장 주입 위험)
+[P4 터치율] 100.0% (5/5 문장) — 보고 전용
+[P5 서법] 소실 0문장 (참고 총수: 당위 1→0 / 완곡 0→0) — OK
+gate: ABORT — 강제 중단. 윤문본 채택 금지
+[P0 문자율] 4.2% [전문] — OK (경고 30% / 중단 50%)
+[P1 목표달성] N/A — 구조 진단 (어휘 S1 앵커 없음)
+[P2 전멸] C-8 대구 0 → 0 — 스킵 (원문 대구 < 5)
+[P3 golden] PASS (수치 주입·각주·인용·register 이상 없음)
+[P4 터치율] 16.7% (1/6 문장) — 보고 전용
+[P5 서법] 소실 0문장 (참고 총수: 당위 1→1 / 완곡 0→0) — OK
+gate: OK — 수렴
+[P0 문자율] 11.1% [전문] — OK (경고 30% / 중단 50%)
+[P1 목표달성] N/A — 구조 진단 (어휘 S1 앵커 없음)
+[P2 전멸] C-8 대구 0 → 0 — 스킵 (원문 대구 < 5)
+[P3 golden] PASS (수치 주입·각주·인용·register 이상 없음)
+[P4 터치율] 16.7% (1/6 문장) — 보고 전용
+[P4 수치소실] 관찰: ['2.4'] (문장 병합·표기 통합이면 정상 — exit 미반영, 확인 요망)
+[P5 서법] 소실 0문장 (참고 총수: 당위 1→1 / 완곡 0→0) — OK
+gate: OK — 수렴
+[P0 문자율] 0.0% [전문] — OK (경고 30% / 중단 50%)
+[P1 목표달성] N/A — 구조 진단 (어휘 S1 앵커 없음)
+[P2 전멸] C-8 대구 0 → 0 — 스킵 (원문 대구 < 5)
+[P3 golden] PASS (수치 주입·각주·인용·register 이상 없음)
+[P4 터치율] 0.0% (0/2 문장) — 보고 전용
+[P5 서법] 소실 0문장 (참고 총수: 당위 0→0 / 완곡 1→1) — OK
+gate: OK — 수렴
+[P0 문자율] 0.0% [전문] — OK (경고 30% / 중단 50%)
+[P1 목표달성] N/A — 구조 진단 (어휘 S1 앵커 없음)
+[P2 전멸] C-8 대구 0 → 0 — 스킵 (원문 대구 < 5)
+[P3 golden] PASS (수치 주입·각주·인용·register 이상 없음)
+[P4 터치율] 0.0% (0/5 문장) — 보고 전용
+[P5 서법] 소실 0문장 (참고 총수: 당위 1→1 / 완곡 0→0) — OK
+gate: OK — 수렴
+[P0 문자율] 22.4% [전문] — OK (경고 30% / 중단 50%)
+[P1 목표달성] N/A — 구조 진단 (어휘 S1 앵커 없음)
+[P2 전멸] C-8 대구 0 → 0 — 스킵 (원문 대구 < 5)
+[P3 golden] PASS (수치 주입·각주·인용·register 이상 없음)
+[P4 터치율] 100.0% (2/2 문장) — 보고 전용
+[P5 서법] 소실 1문장 (참고 총수: 당위 2→0 / 완곡 0→0) — FAIL — 서법 소실 1문장
+          [당위] 정부는 예산을 늘려야 한다. → 정부는 예산을 늘리고 인력도 확충한다.
+gate: WARN — 경고. 사용자 고지 + finalize 승급
+[P0 문자율] 23.5% [전문] — OK (경고 30% / 중단 50%)
+[P1 목표달성] N/A — 구조 진단 (어휘 S1 앵커 없음)
+[P2 전멸] C-8 대구 0 → 0 — 스킵 (원문 대구 < 5)
+[P3 golden] PASS (수치 주입·각주·인용·register 이상 없음)
+[P4 터치율] 100.0% (2/2 문장) — 보고 전용
+[P5 서법] 소실 1문장 (참고 총수: 당위 0→0 / 완곡 1→1) — FAIL — 서법 소실 1문장
+          [추측] 고용 효과는 제한적일 것으로 판단된다. → 고용 효과는 제한적이다.
+gate: WARN — 경고. 사용자 고지 + finalize 승급

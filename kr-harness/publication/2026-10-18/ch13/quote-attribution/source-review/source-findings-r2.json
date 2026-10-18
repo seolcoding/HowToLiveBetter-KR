@@ -1,0 +1,279 @@
+{
+  "review_type": "raw_independent_findings_not_strict_payload_approval",
+  "reviewer_id": "quotation_source_review",
+  "spec_sha256": "ede7ecf4a7f7f2c35a3065a9ee90263df03d799146a1b89eeb6bed0edbfe2496",
+  "scope": "Only two specified original quotation occurrences and exact final body attribution/translation. No full-entry publication approval. No gate/code review.",
+  "entries": [
+    {
+      "entry": 24,
+      "original": {
+        "path": "_workspace/2026-10-18-024-9635/01_input.txt",
+        "sha256": "e35406db9b7597853b3be829d042373bf269db9070afe66e389c4cbaf0984c4c",
+        "byte_length": 2918,
+        "manifest_sha256": "e35406db9b7597853b3be829d042373bf269db9070afe66e389c4cbaf0984c4c",
+        "manifest_matches": true
+      },
+      "entry_snapshot": {
+        "path": "_workspace/2026-10-18-024-9635/entry_snapshot.md",
+        "sha256": "5e1a884f8ba7b4c16fa0bf8416c8888cd7829628754bef294cf299d1b79465c7"
+      },
+      "final_whole_sha256": "c43166d48dd643ebe834a1f27f0bfa332236e652be5bd113b383fede100cba5f",
+      "final_body": {
+        "sha256": "d109b6bfa07ecd32a092ad93342c135e3d04e4fb34d9f5bd709a83a93ca7e291",
+        "byte_length": 2916,
+        "split": "All bytes before line-start HUMANIZE-SUMMARY marker, no trimming"
+      },
+      "occurrences": [
+        {
+          "document": "original",
+          "field": "이득",
+          "ordinal": 2,
+          "opening": {
+            "start": 1135,
+            "end": 1136,
+            "sha256": "8a331fdde7032f33a71e1b2e257d80166e348e00fcb17914f48bdb57a1c63007"
+          },
+          "content": {
+            "start": 1136,
+            "end": 1170,
+            "sha256": "b37575a1a4f9055610dbb9a51cd3e5b2b1d02cf728efc5b01c8601f4dde629da",
+            "text": "멈추고, 엎드리고, 구른다"
+          },
+          "closing": {
+            "start": 1170,
+            "end": 1171,
+            "sha256": "8a331fdde7032f33a71e1b2e257d80166e348e00fcb17914f48bdb57a1c63007"
+          },
+          "delimiter": "ASCII double quote",
+          "anchor": {
+            "start": 739,
+            "end": 810,
+            "sha256": "81f7ff0f0d1a5738ec5f846a969ff0f409b4dfed2d5738ce08df60db9828b2fb",
+            "text": "미국 연방재난관리청(FEMA)의 대피 원문은 이렇습니다."
+          },
+          "anchor_same_field_unique": true,
+          "complete_occurrence_count": 1
+        },
+        {
+          "document": "final_body",
+          "field": "이득",
+          "ordinal": 2,
+          "opening": {
+            "start": 1133,
+            "end": 1134,
+            "sha256": "8a331fdde7032f33a71e1b2e257d80166e348e00fcb17914f48bdb57a1c63007"
+          },
+          "content": {
+            "start": 1134,
+            "end": 1168,
+            "sha256": "b37575a1a4f9055610dbb9a51cd3e5b2b1d02cf728efc5b01c8601f4dde629da",
+            "text": "멈추고, 엎드리고, 구른다"
+          },
+          "closing": {
+            "start": 1168,
+            "end": 1169,
+            "sha256": "8a331fdde7032f33a71e1b2e257d80166e348e00fcb17914f48bdb57a1c63007"
+          },
+          "delimiter": "ASCII double quote",
+          "anchor": {
+            "start": 739,
+            "end": 810,
+            "sha256": "81f7ff0f0d1a5738ec5f846a969ff0f409b4dfed2d5738ce08df60db9828b2fb",
+            "text": "미국 연방재난관리청(FEMA)의 대피 원문은 이렇습니다."
+          },
+          "anchor_same_field_unique": true,
+          "complete_occurrence_count": 1
+        }
+      ],
+      "source_url": "https://www.usfa.fema.gov/gallery/pictographs/stop-drop-roll.html",
+      "rendering": "reviewed_translation",
+      "language": "en",
+      "original_final_content_identical": true,
+      "decision": "approve_source_translation_only_pending_exact_payload_review",
+      "source": {
+        "artifact": "quote-attribution/source-review/usfa-stop-drop-roll-r2.raw.html",
+        "sha256": "bb5693caaa8075944d814e770e8fefd86c2d084702f10bb1ff66f1faaf3d8969",
+        "artifact_byte_length": 34270,
+        "excerpt": {
+          "start": 24366,
+          "end": 24386,
+          "sha256": "4ffb25c8485c253970b1de9a81248b96a2c33ca0f916338d528c7adb25ce9bd8",
+          "text": "stop, drop and roll."
+        },
+        "context_excerpt": {
+          "start": 24338,
+          "end": 24509,
+          "sha256": "a8eac24d1feae52fd51af2d1a1b2aa620c296563e3147ce45b94b4c6042f527f",
+          "text": "If your clothes catch fire, stop, drop and roll. Stop, drop to the ground, and cover your face with your hands. Roll over and over or back and forth until the fire is out."
+        },
+        "adjacent_alternative_excerpt": {
+          "start": 24763,
+          "end": 24919,
+          "sha256": "9a2f06e021937f7e9098fa49d9a0fe8772ceec6ae4eb2784c61803d89adf4ac8",
+          "text": "If you cannot stop, drop and roll, keep a blanket or towel nearby to help you or others smother flames. Cover the person with a blanket to smother the fire."
+        },
+        "agency_ownership_evidence": {
+          "start": 31228,
+          "end": 31362,
+          "sha256": "257468903c152cac45ba3c4973289fdb7f32ba8ce0f8aaead2a33264699f135f",
+          "text": "USFA.FEMA.gov<br>An official website of the <a href=\"https://www.fema.gov\" class=\"text-nowrap\">Federal Emergency Management Agency</a>"
+        },
+        "retrieval_metadata": {
+          "url": "https://www.usfa.fema.gov/gallery/pictographs/stop-drop-roll.html",
+          "requested_at_utc": "2026-10-18T16:08:35.059087+00:00",
+          "http_status": 200,
+          "final_url": "https://www.usfa.fema.gov/gallery/pictographs/stop-drop-roll.html",
+          "content_type": "text/html",
+          "path": "/workspace/.cache/howtolivebetter/publication/fema-discovery/usfa-stop-drop-roll.raw.html",
+          "sha256": "bb5693caaa8075944d814e770e8fefd86c2d084702f10bb1ff66f1faaf3d8969",
+          "bytes": 34270
+        },
+        "discovery_metadata": {
+          "key": "usfa-sitemap",
+          "url": "https://www.usfa.fema.gov/sitemap.xml",
+          "requested_at_utc": "2026-10-18T16:08:10.309053+00:00",
+          "http_status": 200,
+          "final_url": "https://www.usfa.fema.gov/sitemap.xml",
+          "content_type": "application/xml",
+          "path": "/workspace/.cache/howtolivebetter/publication/fema-discovery/usfa-sitemap.raw",
+          "bytes": 108178,
+          "sha256": "15f50fc4b1f63fbb9831eee281719907a91b93aa2709e47115ac7b75fb130739",
+          "matches": [
+            "    <loc>https://www.usfa.fema.gov/gallery/pictographs/stop-drop-roll.html</loc>\r",
+            "    <loc>https://www.usfa.fema.gov/gallery/smoke-alarms/b-roll/</loc>\r",
+            "    <loc>https://www.usfa.fema.gov/gallery/smoke-alarms/b-roll/b-roll-1.html</loc>\r",
+            "    <loc>https://www.usfa.fema.gov/gallery/smoke-alarms/b-roll/b-roll-2.html</loc>\r",
+            "    <loc>https://www.usfa.fema.gov/gallery/smoke-alarms/b-roll/b-roll-3.html</loc>\r"
+          ]
+        }
+      },
+      "reason": "새 공식 USFA 200 HTML의 실제 본문 p 요소를 직접 읽고 literal raw UTF-8 발췌로 확인했다. 문서 제목은 Stop, Drop and Roll Fire Safety Pictographs이며 본문 첫 문장은 If your clothes catch fire, stop, drop and roll.이다. stop=멈추고, drop=엎드리고, roll=구른다. 다음 문장의 drop to the ground와 얼굴 가리기/반복 구르기 설명이 drop을 바닥으로 몸을 낮추는 동작으로 분명히 하므로 엎드리다는 충실한 짧은 번역이다. 영어 세 동작 표어를 한국어 평서형으로 옮겼으며 새 사실이나 더 강한 조건을 만들지 않는다. 의복 화재 조건은 인용 바로 앞 옷에 불이 붙으면으로 원본과 정확 final에 모두 보존되었다. 인용은 표어 전체 세 동작의 완결 번역이며 상세 후속 동작 전부를 인용한다고 주장하지 않는다. 인용 뒤 국민안전24 설명에서도 얼굴 가리기와 엎드려 뒹굴기를 안내한다. 같은 페이지의 cannot stop, drop and roll 대안은 수행할 수 없는 사람의 별도 행동 안내이며, 수행 가능한 사람이 의복 화재 때 하는 세 동작 표어의 번역을 뒤집는 부정이 아니다. 이번 인용 승인은 모든 사람에게 동작이 가능하다는 주장이나 전체 접근성 안내의 충분성을 승인하지 않는다. footer는 USFA.FEMA.gov가 Federal Emergency Management Agency의 공식 웹사이트라고 명시하며 USFA 자체 식별도 있다. 따라서 원본/정확 final의 FEMA 상위기관 귀속은 이 공식 하위기관 자료로 뒷받침된다. 원본과 정확 final의 same-field 고유 FEMA anchor는 인용 전에 남고 다른 기관 전환은 인용 뒤다. 기관/필드 이동, 부정 반전, 의복 화재 조건 제거가 없다.",
+      "limitations": "ready.gov/home-fires는 여전히 403이며 해당 페이지를 읽거나 동일 원문이라고 검증한 것은 아니다. 이번 판단의 직접 전거는 별도 URL의 FEMA 공식 USFA 본문이다. ready.gov 페이지의 나머지 두 인용과 다른 대피/한국 법령/전 항목 내용은 승인 범위 밖이다. PDF나 HTML 변환 발췌를 사용하지 않았다. strict payload와 approved registry는 아직 생성/승인하지 않았다. root의 exact payload 및 source URL/artifact 반영 후 후속 독립 대조 필요.",
+      "revision_2_original_final_offsets_revalidated": true,
+      "cited_original_source_url": "https://www.ready.gov/home-fires"
+    },
+    {
+      "entry": 38,
+      "original": {
+        "path": "_workspace/2026-10-18-038-eea4/01_input.txt",
+        "sha256": "c28be01c207caeb56676cf81cd6f9f3060d49334a522179b278d147ad24c4081",
+        "byte_length": 1689,
+        "manifest_sha256": "c28be01c207caeb56676cf81cd6f9f3060d49334a522179b278d147ad24c4081",
+        "manifest_matches": true
+      },
+      "entry_snapshot": {
+        "path": "_workspace/2026-10-18-038-eea4/entry_snapshot.md",
+        "sha256": "db5fbfde439232e94485ba6045a0d195ff6e3887fe5f000d08199e95d455075a"
+      },
+      "final_whole_sha256": "247c447850f43db0278415974593793eb1d9a12923592903f66b970467d6fb21",
+      "final_body": {
+        "sha256": "59e04574fc494ae398f3a443cefeead6bafcf0367ff51962f2f982244a765060",
+        "byte_length": 1688,
+        "split": "All bytes before line-start HUMANIZE-SUMMARY marker, no trimming"
+      },
+      "occurrences": [
+        {
+          "document": "original",
+          "field": "이득",
+          "ordinal": 0,
+          "opening": {
+            "start": 759,
+            "end": 760,
+            "sha256": "8a331fdde7032f33a71e1b2e257d80166e348e00fcb17914f48bdb57a1c63007"
+          },
+          "content": {
+            "start": 760,
+            "end": 828,
+            "sha256": "7cfaff2d1f7e237f6dd3cc6e7218b54f63dee925650c635cfb9f93186c6d60d0",
+            "text": "빨리 시작할수록 좋고, 한 시간 한 시간이 중요하다"
+          },
+          "closing": {
+            "start": 828,
+            "end": 829,
+            "sha256": "8a331fdde7032f33a71e1b2e257d80166e348e00fcb17914f48bdb57a1c63007"
+          },
+          "delimiter": "ASCII double quote",
+          "anchor": {
+            "start": 614,
+            "end": 701,
+            "sha256": "a74333e5d7074c72e06b8d8461cb3552eb773b50f70bbf08266d9e4fbaee53d2",
+            "text": "미국 질병통제예방센터는 HIV 노출 후 예방요법(PEP)을 안내합니다."
+          },
+          "anchor_same_field_unique": true,
+          "complete_occurrence_count": 1
+        },
+        {
+          "document": "final_body",
+          "field": "이득",
+          "ordinal": 0,
+          "opening": {
+            "start": 758,
+            "end": 759,
+            "sha256": "8a331fdde7032f33a71e1b2e257d80166e348e00fcb17914f48bdb57a1c63007"
+          },
+          "content": {
+            "start": 759,
+            "end": 827,
+            "sha256": "7cfaff2d1f7e237f6dd3cc6e7218b54f63dee925650c635cfb9f93186c6d60d0",
+            "text": "빨리 시작할수록 좋고, 한 시간 한 시간이 중요하다"
+          },
+          "closing": {
+            "start": 827,
+            "end": 828,
+            "sha256": "8a331fdde7032f33a71e1b2e257d80166e348e00fcb17914f48bdb57a1c63007"
+          },
+          "delimiter": "ASCII double quote",
+          "anchor": {
+            "start": 613,
+            "end": 700,
+            "sha256": "a74333e5d7074c72e06b8d8461cb3552eb773b50f70bbf08266d9e4fbaee53d2",
+            "text": "미국 질병통제예방센터는 HIV 노출 후 예방요법(PEP)을 안내합니다."
+          },
+          "anchor_same_field_unique": true,
+          "complete_occurrence_count": 1
+        }
+      ],
+      "source_url": "https://www.cdc.gov/hiv/prevention/pep.html",
+      "rendering": "reviewed_translation",
+      "language": "en",
+      "original_final_content_identical": true,
+      "decision": "approve_source_translation_only_pending_exact_payload_review",
+      "source": {
+        "artifact": "quote-attribution/source-review/cdc-pep.raw.html",
+        "sha256": "99dd1a9ccddcfe18805fa49d568eff6760b7dfdcf296152d1476360209788a29",
+        "artifact_byte_length": 58149,
+        "excerpt": {
+          "start": 23012,
+          "end": 23068,
+          "sha256": "9fe3fa460f3367657b06309505efde60fc462740619f5199eb4c1d864afccf3d",
+          "text": "the sooner you start PEP, the better. Every hour counts."
+        },
+        "context_excerpt": {
+          "start": 22949,
+          "end": 23136,
+          "sha256": "2dbd3619586a7bc1547f2c002a614d284720ccbb7db48b96888b5828857e6cce",
+          "text": "Use the locator below to find PEP services near you. Remember, the sooner you start PEP, the better. Every hour counts. If you're prescribed PEP, you'll need to take it daily for 28 days."
+        },
+        "retrieval_metadata": {
+          "cited_url": "https://www.cdc.gov/hiv/prevention/pep.html",
+          "url": "https://www.cdc.gov/hiv/prevention/pep.html",
+          "requested_at": "2026-10-18T13:29:03.162579+00:00",
+          "retrieval_mode": "new_https",
+          "http_status": 200,
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch13-audit/9d767b8f358be7f92203.raw",
+          "sha256": "99dd1a9ccddcfe18805fa49d568eff6760b7dfdcf296152d1476360209788a29",
+          "status": "body_received"
+        }
+      },
+      "reason": "공식 CDC 200 HTML의 본문 p 요소에서 연속된 literal UTF-8 발췌 확인. the sooner you start PEP, the better = 빨리 시작할수록 좋고; Every hour counts = 한 시간 한 시간이 중요하다. 두 영어 문장을 한국어 연결어미로 이어 의미를 보존했다. PEP 생략은 같은 이득 필드 첫 문장과 바로 앞 72시간 조건으로 지시 대상이 명확하다. 인용은 완결된 두 명제의 번역이며 Remember와 locator 안내는 명제의 조건이나 부정을 제한하지 않는다. 원본과 정확 final 모두 미국 질병통제예방센터의 PEP 안내에 귀속되고 72시간/28일/응급 상황 한정이 유지된다. 기관 변경, 다른 필드 이동, 부정 반전, 조건 제거 없음. 사후 대책이라는 비고도 모순되지 않는다.",
+      "limitations": "이 승인 성격은 인용 전거·번역에 한정한다. 쉽게 필드의 72시간 경과 후 절대적 표현, 국내 처방/보험/효과 주장은 이번 인용 승인으로 검증되거나 출판 승인되지 않는다. 아직 exact payload 검토 아님.",
+      "revision_2_original_final_offsets_revalidated": true
+    }
+  ],
+  "revision": 2,
+  "previous_findings": {
+    "path": "quote-attribution/source-review/source-findings.json",
+    "sha256": "4d6e0ebb1bd5e69c755a9b956ccff2623897f985f2481efcbdc83a78133898b2"
+  },
+  "reviewed_at_utc": "2026-10-18T16:11:09.120961+00:00"
+}

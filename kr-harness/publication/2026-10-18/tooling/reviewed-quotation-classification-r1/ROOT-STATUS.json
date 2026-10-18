@@ -1,0 +1,13 @@
+{
+  "status": "r1_not_adopted_independent_REVISE_r2_in_progress",
+  "base_runtime_commit": "32dcd404a15ab5ec40cc517553b2d1f72a6eacb2",
+  "patch_sha256": "4674ed5cc58708efc4071fd56d58df0a73acc22ee7e0a6038ac77b6af0e77e24",
+  "source_review_is_separate": true,
+  "operational_runtime_unchanged": true,
+  "holds": [
+    24,
+    38
+  ],
+  "limitations": "R1 full runtime/review trees and frozen actual input/final corpus remain external. This tracked package preserves patch, exact file/fixture inventories, snapshot metadata, reports, logs and adversarial scripts/results. Reproduction reconstructs candidate from the named base commit and patch into independent/candidate; source-artifact proof and reviewed input/final bodies are tracked separately in ch13. No claim all external workspaces are bundled.",
+  "captured_at_utc": "2026-10-18T16:41:19.085749+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "status": "restored_exact_bytes_before_evidence_commit",
+  "cause": "A one-off root packaging snippet reused its selection output-path variable in a later file loop. This overwrote the untracked held entry38 09_finalize.json with the path list; the selection file remained unchanged, so the evidence package was omitted from checkpoint367b113.",
+  "affected_path": "kr-harness/publication/2026-10-18/ch13/_workspace/2026-10-18-038-eea4/09_finalize.json",
+  "restore_from": "Independent code-review chapter copy made before the incident",
+  "restored_sha256": "7b0155b300008a48346feacdaaa602dedb1749a07a7e6f8215091e01d21aa189",
+  "verified": "Original input and complete final file hashes for both e24/e38 still match independent source-review findings. Actual gate JSONs, payloads, public book, runtime and commit367b113 were not changed by the overwrite. Held status remains gate1.",
+  "corrective_action": "Corrected the explicit selection path, restored exact original finalizer bytes, and stage the complete package separately using distinct variable names.",
+  "recorded_at_utc": "2026-10-18T16:44:23.675427+00:00"
+}

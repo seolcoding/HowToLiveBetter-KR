@@ -1,0 +1,30 @@
+{
+  "raised": "OSError('TEST-ONLY context fsync failure')",
+  "completion_marker_exists": true,
+  "completion": {
+    "registry_sha256": "c89a69cdee4170128804edf17d57d61eec3a982573b8cf9fbb2f22ef91a6b39b",
+    "payload_sha256": "723554c3d518eb0ff505bd647ea190e849267cb9ddcf2dc03cbdc02a548e3c11",
+    "review_sha256": "c9ec20f2fe11b69db5783a00410842145a0bc0daa587308913f4cbf49b215c46",
+    "original_sha256": "11d3e31755f54cb862da3f102bd4247ae203fb0ef4871d4b891296ca42aa1a12",
+    "final_body_sha256": "11d3e31755f54cb862da3f102bd4247ae203fb0ef4871d4b891296ca42aa1a12",
+    "final_file_sha256": "c357c6a6b29fc32fb2a45c245ed853a205902fb8621ae489790aa29299dd25c9",
+    "route": "light",
+    "original_path": "_workspace/test-only/01_input.txt",
+    "runtime_sha256": {
+      "references/baseline.json": "6b64904daa27c3f759f39a664bf8e7e6c2ea1f9dcacd6d457e97b10f60f43dc5",
+      "references/baseline_v2.json": "b5f1725bd02fb4cc40eece68c5b8f1d7c7655775743196d8fd0bc5978f2ed916",
+      "references/metrics.py": "c17ef0bbb25f24fc1695068a319d421d35e4cffd9a8c277da3ad6a30ea96b8e3",
+      "references/metrics_v2.py": "35aed83e56f8ced583e25ea08d9fbecb8baf15f8bb7f5bb14883a9f7318e374f",
+      "scripts/checks.py": "69a435b3a6549fded25a9796f5cdf01572951fba9feeb85db3bdcc0dd12599ef",
+      "scripts/prepare_monolith_input.py": "3774a9faecf3791057d4c8e887dd222e701d131ac1605ba4de2e76c7c064a9a2",
+      "scripts/quote_context.py": "8c43dfcc379c0dbe0eddabdc03daf978b557b2c6dcdb6a6833a97d491c32cc75",
+      "scripts/verify_gates.py": "30ab963d7c9b72cf3f395bd1279ac2e33b58d4ca8b5e099ee25da7aeb5e0c81a"
+    },
+    "protected_quote_count": 1,
+    "reviewed_quote_count": 1,
+    "excluded_quote_chars_before": 19,
+    "completed": true,
+    "gate_exit_code": 0,
+    "approved_for_publication": false
+  }
+}

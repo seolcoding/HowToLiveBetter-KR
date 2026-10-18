@@ -1,0 +1,214 @@
+{
+  "review_type": "raw_independent_findings_not_strict_payload_approval",
+  "reviewer_id": "quotation_source_review",
+  "spec_sha256": "ede7ecf4a7f7f2c35a3065a9ee90263df03d799146a1b89eeb6bed0edbfe2496",
+  "scope": "Only two specified original quotation occurrences and exact final body attribution/translation. No full-entry publication approval. No gate/code review.",
+  "entries": [
+    {
+      "entry": 24,
+      "original": {
+        "path": "_workspace/2026-10-18-024-9635/01_input.txt",
+        "sha256": "e35406db9b7597853b3be829d042373bf269db9070afe66e389c4cbaf0984c4c",
+        "byte_length": 2918,
+        "manifest_sha256": "e35406db9b7597853b3be829d042373bf269db9070afe66e389c4cbaf0984c4c",
+        "manifest_matches": true
+      },
+      "entry_snapshot": {
+        "path": "_workspace/2026-10-18-024-9635/entry_snapshot.md",
+        "sha256": "5e1a884f8ba7b4c16fa0bf8416c8888cd7829628754bef294cf299d1b79465c7"
+      },
+      "final_whole_sha256": "c43166d48dd643ebe834a1f27f0bfa332236e652be5bd113b383fede100cba5f",
+      "final_body": {
+        "sha256": "d109b6bfa07ecd32a092ad93342c135e3d04e4fb34d9f5bd709a83a93ca7e291",
+        "byte_length": 2916,
+        "split": "All bytes before line-start HUMANIZE-SUMMARY marker, no trimming"
+      },
+      "occurrences": [
+        {
+          "document": "original",
+          "field": "이득",
+          "ordinal": 2,
+          "opening": {
+            "start": 1135,
+            "end": 1136,
+            "sha256": "8a331fdde7032f33a71e1b2e257d80166e348e00fcb17914f48bdb57a1c63007"
+          },
+          "content": {
+            "start": 1136,
+            "end": 1170,
+            "sha256": "b37575a1a4f9055610dbb9a51cd3e5b2b1d02cf728efc5b01c8601f4dde629da",
+            "text": "멈추고, 엎드리고, 구른다"
+          },
+          "closing": {
+            "start": 1170,
+            "end": 1171,
+            "sha256": "8a331fdde7032f33a71e1b2e257d80166e348e00fcb17914f48bdb57a1c63007"
+          },
+          "delimiter": "ASCII double quote",
+          "anchor": {
+            "start": 739,
+            "end": 810,
+            "sha256": "81f7ff0f0d1a5738ec5f846a969ff0f409b4dfed2d5738ce08df60db9828b2fb",
+            "text": "미국 연방재난관리청(FEMA)의 대피 원문은 이렇습니다."
+          },
+          "anchor_same_field_unique": true,
+          "complete_occurrence_count": 1
+        },
+        {
+          "document": "final_body",
+          "field": "이득",
+          "ordinal": 2,
+          "opening": {
+            "start": 1133,
+            "end": 1134,
+            "sha256": "8a331fdde7032f33a71e1b2e257d80166e348e00fcb17914f48bdb57a1c63007"
+          },
+          "content": {
+            "start": 1134,
+            "end": 1168,
+            "sha256": "b37575a1a4f9055610dbb9a51cd3e5b2b1d02cf728efc5b01c8601f4dde629da",
+            "text": "멈추고, 엎드리고, 구른다"
+          },
+          "closing": {
+            "start": 1168,
+            "end": 1169,
+            "sha256": "8a331fdde7032f33a71e1b2e257d80166e348e00fcb17914f48bdb57a1c63007"
+          },
+          "delimiter": "ASCII double quote",
+          "anchor": {
+            "start": 739,
+            "end": 810,
+            "sha256": "81f7ff0f0d1a5738ec5f846a969ff0f409b4dfed2d5738ce08df60db9828b2fb",
+            "text": "미국 연방재난관리청(FEMA)의 대피 원문은 이렇습니다."
+          },
+          "anchor_same_field_unique": true,
+          "complete_occurrence_count": 1
+        }
+      ],
+      "source_url": "https://www.ready.gov/home-fires",
+      "rendering": "reviewed_translation",
+      "language": "en",
+      "original_final_content_identical": true,
+      "decision": "hold_unverified_primary_source",
+      "source": null,
+      "reason": "원본과 정확 final 모두 이득 필드 FEMA 대피 원문 귀속 아래 같은 완결 ASCII 인용 1회가 유지된다. 옷에 불이 붙으면 조건이 인용 바로 앞에 남고 국민안전24 기관 전환은 인용 뒤다. 보이는 문맥에서 귀속 이동·조건 삭제·부정 반전은 없다. 그러나 해당 ready.gov 공식 본문 원응답은 기존 및 새 조회 모두 403 Access Denied이다. 따라서 영어 원문과 직접 대조한 번역 충실성 또는 부분인용 적정성을 확정할 수 없다. 익숙한 표어라는 기억이나 다른 기관의 유사 문구를 FEMA 출처 검증으로 대체하지 않는다.",
+      "limitations": "ready.gov 두 URL 변형과 kids 경로 403, 추정 USFA clothes HTML URL 404. 저장 응답은 차단/오류 문서이며 출처 본문 아티팩트 또는 발췌 근거가 아니다. PDF 추출 사용 없음. 원문을 읽었다고 주장하지 않음."
+    },
+    {
+      "entry": 38,
+      "original": {
+        "path": "_workspace/2026-10-18-038-eea4/01_input.txt",
+        "sha256": "c28be01c207caeb56676cf81cd6f9f3060d49334a522179b278d147ad24c4081",
+        "byte_length": 1689,
+        "manifest_sha256": "c28be01c207caeb56676cf81cd6f9f3060d49334a522179b278d147ad24c4081",
+        "manifest_matches": true
+      },
+      "entry_snapshot": {
+        "path": "_workspace/2026-10-18-038-eea4/entry_snapshot.md",
+        "sha256": "db5fbfde439232e94485ba6045a0d195ff6e3887fe5f000d08199e95d455075a"
+      },
+      "final_whole_sha256": "247c447850f43db0278415974593793eb1d9a12923592903f66b970467d6fb21",
+      "final_body": {
+        "sha256": "59e04574fc494ae398f3a443cefeead6bafcf0367ff51962f2f982244a765060",
+        "byte_length": 1688,
+        "split": "All bytes before line-start HUMANIZE-SUMMARY marker, no trimming"
+      },
+      "occurrences": [
+        {
+          "document": "original",
+          "field": "이득",
+          "ordinal": 0,
+          "opening": {
+            "start": 759,
+            "end": 760,
+            "sha256": "8a331fdde7032f33a71e1b2e257d80166e348e00fcb17914f48bdb57a1c63007"
+          },
+          "content": {
+            "start": 760,
+            "end": 828,
+            "sha256": "7cfaff2d1f7e237f6dd3cc6e7218b54f63dee925650c635cfb9f93186c6d60d0",
+            "text": "빨리 시작할수록 좋고, 한 시간 한 시간이 중요하다"
+          },
+          "closing": {
+            "start": 828,
+            "end": 829,
+            "sha256": "8a331fdde7032f33a71e1b2e257d80166e348e00fcb17914f48bdb57a1c63007"
+          },
+          "delimiter": "ASCII double quote",
+          "anchor": {
+            "start": 614,
+            "end": 701,
+            "sha256": "a74333e5d7074c72e06b8d8461cb3552eb773b50f70bbf08266d9e4fbaee53d2",
+            "text": "미국 질병통제예방센터는 HIV 노출 후 예방요법(PEP)을 안내합니다."
+          },
+          "anchor_same_field_unique": true,
+          "complete_occurrence_count": 1
+        },
+        {
+          "document": "final_body",
+          "field": "이득",
+          "ordinal": 0,
+          "opening": {
+            "start": 758,
+            "end": 759,
+            "sha256": "8a331fdde7032f33a71e1b2e257d80166e348e00fcb17914f48bdb57a1c63007"
+          },
+          "content": {
+            "start": 759,
+            "end": 827,
+            "sha256": "7cfaff2d1f7e237f6dd3cc6e7218b54f63dee925650c635cfb9f93186c6d60d0",
+            "text": "빨리 시작할수록 좋고, 한 시간 한 시간이 중요하다"
+          },
+          "closing": {
+            "start": 827,
+            "end": 828,
+            "sha256": "8a331fdde7032f33a71e1b2e257d80166e348e00fcb17914f48bdb57a1c63007"
+          },
+          "delimiter": "ASCII double quote",
+          "anchor": {
+            "start": 613,
+            "end": 700,
+            "sha256": "a74333e5d7074c72e06b8d8461cb3552eb773b50f70bbf08266d9e4fbaee53d2",
+            "text": "미국 질병통제예방센터는 HIV 노출 후 예방요법(PEP)을 안내합니다."
+          },
+          "anchor_same_field_unique": true,
+          "complete_occurrence_count": 1
+        }
+      ],
+      "source_url": "https://www.cdc.gov/hiv/prevention/pep.html",
+      "rendering": "reviewed_translation",
+      "language": "en",
+      "original_final_content_identical": true,
+      "decision": "approve_source_translation_only_pending_exact_payload_review",
+      "source": {
+        "artifact": "quote-attribution/source-review/cdc-pep.raw.html",
+        "sha256": "99dd1a9ccddcfe18805fa49d568eff6760b7dfdcf296152d1476360209788a29",
+        "artifact_byte_length": 58149,
+        "excerpt": {
+          "start": 23012,
+          "end": 23068,
+          "sha256": "9fe3fa460f3367657b06309505efde60fc462740619f5199eb4c1d864afccf3d",
+          "text": "the sooner you start PEP, the better. Every hour counts."
+        },
+        "context_excerpt": {
+          "start": 22949,
+          "end": 23136,
+          "sha256": "2dbd3619586a7bc1547f2c002a614d284720ccbb7db48b96888b5828857e6cce",
+          "text": "Use the locator below to find PEP services near you. Remember, the sooner you start PEP, the better. Every hour counts. If you're prescribed PEP, you'll need to take it daily for 28 days."
+        },
+        "retrieval_metadata": {
+          "cited_url": "https://www.cdc.gov/hiv/prevention/pep.html",
+          "url": "https://www.cdc.gov/hiv/prevention/pep.html",
+          "requested_at": "2026-10-18T13:29:03.162579+00:00",
+          "retrieval_mode": "new_https",
+          "http_status": 200,
+          "cache_file": "/workspace/.cache/howtolivebetter/source-check/2026-10-18/ch13-audit/9d767b8f358be7f92203.raw",
+          "sha256": "99dd1a9ccddcfe18805fa49d568eff6760b7dfdcf296152d1476360209788a29",
+          "status": "body_received"
+        }
+      },
+      "reason": "공식 CDC 200 HTML의 본문 p 요소에서 연속된 literal UTF-8 발췌 확인. the sooner you start PEP, the better = 빨리 시작할수록 좋고; Every hour counts = 한 시간 한 시간이 중요하다. 두 영어 문장을 한국어 연결어미로 이어 의미를 보존했다. PEP 생략은 같은 이득 필드 첫 문장과 바로 앞 72시간 조건으로 지시 대상이 명확하다. 인용은 완결된 두 명제의 번역이며 Remember와 locator 안내는 명제의 조건이나 부정을 제한하지 않는다. 원본과 정확 final 모두 미국 질병통제예방센터의 PEP 안내에 귀속되고 72시간/28일/응급 상황 한정이 유지된다. 기관 변경, 다른 필드 이동, 부정 반전, 조건 제거 없음. 사후 대책이라는 비고도 모순되지 않는다.",
+      "limitations": "이 승인 성격은 인용 전거·번역에 한정한다. 쉽게 필드의 72시간 경과 후 절대적 표현, 국내 처방/보험/효과 주장은 이번 인용 승인으로 검증되거나 출판 승인되지 않는다. 아직 exact payload 검토 아님."
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  ".claude/skills/humanize-korean/references/metrics.py": {
+    "byte_identical": true,
+    "sha256": "c17ef0bbb25f24fc1695068a319d421d35e4cffd9a8c277da3ad6a30ea96b8e3"
+  },
+  ".claude/skills/humanize-korean/references/baseline.json": {
+    "byte_identical": true,
+    "sha256": "6b64904daa27c3f759f39a664bf8e7e6c2ea1f9dcacd6d457e97b10f60f43dc5"
+  },
+  ".claude/skills/humanize-korean/references/baseline_v2.json": {
+    "byte_identical": true,
+    "sha256": "b5f1725bd02fb4cc40eece68c5b8f1d7c7655775743196d8fd0bc5978f2ed916"
+  },
+  ".claude/skills/humanize-korean/scripts/checks.py": {
+    "unchanged_function_AST": [
+      "check_register",
+      "check_headings",
+      "extract_inline_markers",
+      "extract_defs",
+      "check_footnotes",
+      "check_numbers",
+      "dropped_numbers"
+    ]
+  },
+  ".claude/skills/humanize-korean/scripts/verify_gates.py": {
+    "unchanged_function_AST": [
+      "judge_s1_targets",
+      "sentence_touch_rate",
+      "count_modality"
+    ]
+  },
+  "kr-harness/publication/scripts/humanize_publication.py": {
+    "unchanged_function_AST": [
+      "invariants"
+    ]
+  }
+}

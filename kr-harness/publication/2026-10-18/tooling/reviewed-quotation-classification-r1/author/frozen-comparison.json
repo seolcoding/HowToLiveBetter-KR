@@ -1,0 +1,39 @@
+{
+  "total": 667,
+  "frozen_actual_final_count": 444,
+  "missing": 223,
+  "baseline_counts": {
+    "0": 442,
+    "1": 2,
+    "missing": 223
+  },
+  "candidate_counts": {
+    "0": 442,
+    "1": 2,
+    "missing": 223
+  },
+  "routes": {
+    "light": 644,
+    "standard": 23
+  },
+  "route_changes": [],
+  "differences": {
+    "gate": [],
+    "automatic_spans": [],
+    "input_sha256": [],
+    "final_file_sha256": [],
+    "route": []
+  },
+  "real_holds": [
+    {
+      "chapter": "ch13",
+      "entry": 24,
+      "status": "1"
+    },
+    {
+      "chapter": "ch13",
+      "entry": 38,
+      "status": "1"
+    }
+  ]
+}

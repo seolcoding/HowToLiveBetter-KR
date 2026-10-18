@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "payload_sha256": "90ab1381c1f8cc2a3098d87d1e0c4c87e8e9c3abe04cace2e10c0c1172c88898",
+  "decision": "approved",
+  "reviewer_role": "independent_source_reviewer",
+  "reviewer_id": "quotation_source_review",
+  "proposer_id": "root",
+  "reviewed_original_sha256": "c28be01c207caeb56676cf81cd6f9f3060d49334a522179b278d147ad24c4081",
+  "reviewed_final_body_sha256": "59e04574fc494ae398f3a443cefeead6bafcf0367ff51962f2f982244a765060",
+  "assessments": [
+    {
+      "occurrence_ordinal": 0,
+      "field": "이득",
+      "source_authenticity": "verified",
+      "direct_quotation": "verified",
+      "translation_or_verbatim_fidelity": "verified",
+      "original_attribution": "verified",
+      "final_attribution": "verified",
+      "reason": "Exact payload SHA 90ab1381c1f8cc2a3098d87d1e0c4c87e8e9c3abe04cace2e10c0c1172c88898을 실제 바이트로 재대조했다. manifest가 지정한 원본 SHA c28be01c207caeb56676cf81cd6f9f3060d49334a522179b278d147ad24c4081, 1689 bytes가 일치하고 정확 final body는 59e04574fc494ae398f3a443cefeead6bafcf0367ff51962f2f982244a765060, 1688 bytes로 R2 이후 동일하다. summary 전 raw prefix를 다듬지 않고 대조했고 단일 trailing summary 구조도 확인했다. 이득 필드 ordinal 0의 ASCII 양쪽 인용부호, content [760,828), 완결 독립 인용 1회 및 같은 필드 고유 CDC anchor [614,701)를 확인했다. 원본과 정확 final 모두 이 anchor 뒤 동일한 인용이며 기관 변경이나 다른 필드 이동, 모순되는 귀속은 없다. source URL은 실제 요청 2026-10-18T13:29:03.162579+00:00 HTTP 200의 공식 CDC https://www.cdc.gov/hiv/prevention/pep.html이다. 원응답 캐시와 chapter 내 보존 artifact의 SHA 99dd1a9ccddcfe18805fa49d568eff6760b7dfdcf296152d1476360209788a29, 58149 bytes가 일치한다. 지정 excerpt [23012,23068)는 본문 p 요소의 literal raw UTF-8 'the sooner you start PEP, the better. Every hour counts.'이며 지정 SHA와 같다. 빨리 시작할수록 좋고는 the sooner you start PEP, the better의 직접 번역이고 한 시간 한 시간이 중요하다는 Every hour counts의 충실한 번역이다. 두 명제를 한국어 연결어미와 쉼표로 이어 의미를 보존했다. PEP의 한국어 인용 내 생략은 같은 필드 첫 문장의 명확한 지시 대상과 바로 앞 72시간 조건으로 보완된다. Remember 및 locator 안내를 제외한 것은 조건이나 부정 삭제가 아니다. 원본과 정확 final에서 가능한 HIV 노출 후 72시간, 28일 복용 및 응급 상황 한정 문맥이 유지되며 인용 자체의 의미 왜곡, 유보 강화, 부정 반전은 없다. 전후 원문도 읽었고 이 인용을 PEP의 일상 예방 대체 수단 주장으로 바꾸지 않았다. 해당 인용 전거·번역·귀속만 승인하며 쉽게 필드의 절대적인 72시간 경과 표현, 국내 보험/처방 기관 및 나머지 의료 주장이나 전체 항목 출판은 이번 승인 범위 밖이다. PDF 추출이나 HTML 변환을 사용하지 않았고 기계 지표나 gate 통과 가능성과 독립적으로 판정했다."
+    }
+  ]
+}

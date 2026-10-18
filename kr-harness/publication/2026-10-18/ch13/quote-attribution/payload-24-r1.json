@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "original": {
+    "path": "_workspace/2026-10-18-024-9635/01_input.txt",
+    "sha256": "e35406db9b7597853b3be829d042373bf269db9070afe66e389c4cbaf0984c4c",
+    "byte_length": 2918
+  },
+  "final_body": {
+    "sha256": "d109b6bfa07ecd32a092ad93342c135e3d04e4fb34d9f5bd709a83a93ca7e291",
+    "byte_length": 2916
+  },
+  "quotations": [
+    {
+      "occurrence": {
+        "field": "이득",
+        "ordinal": 2,
+        "opening": {
+          "start": 1135,
+          "end": 1136,
+          "sha256": "8a331fdde7032f33a71e1b2e257d80166e348e00fcb17914f48bdb57a1c63007"
+        },
+        "content": {
+          "start": 1136,
+          "end": 1170,
+          "sha256": "b37575a1a4f9055610dbb9a51cd3e5b2b1d02cf728efc5b01c8601f4dde629da"
+        },
+        "closing": {
+          "start": 1170,
+          "end": 1171,
+          "sha256": "8a331fdde7032f33a71e1b2e257d80166e348e00fcb17914f48bdb57a1c63007"
+        }
+      },
+      "source_anchor": {
+        "start": 739,
+        "end": 810,
+        "sha256": "81f7ff0f0d1a5738ec5f846a969ff0f409b4dfed2d5738ce08df60db9828b2fb"
+      },
+      "source": {
+        "url": "https://www.usfa.fema.gov/gallery/pictographs/stop-drop-roll.html",
+        "artifact": {
+          "path": "quote-attribution/source-review/usfa-stop-drop-roll-r2.raw.html",
+          "sha256": "bb5693caaa8075944d814e770e8fefd86c2d084702f10bb1ff66f1faaf3d8969"
+        },
+        "artifact_byte_length": 34270,
+        "excerpt": {
+          "start": 24366,
+          "end": 24386,
+          "sha256": "4ffb25c8485c253970b1de9a81248b96a2c33ca0f916338d528c7adb25ce9bd8"
+        },
+        "language": "en",
+        "rendering": "reviewed_translation"
+      }
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "runtime_names": [
+    "checks.py",
+    "console.py",
+    "prepare_monolith_input.py",
+    "quote_context.py",
+    "reassemble_chunks.py",
+    "restore_modality.py",
+    "sanitize_text.py",
+    "strip_injected_commas.py",
+    "verify_change_rate.py",
+    "verify_gates.py"
+  ],
+  "runtime_count": 10,
+  "cases": [
+    {
+      "case": "identity",
+      "exit": 0,
+      "golden": []
+    },
+    {
+      "case": "quote",
+      "exit": 1,
+      "golden": [
+        {
+          "code": "quote_altered",
+          "message": "직접 인용 조건은 복잡하며, 절차는 간단합니다… occurrence 1개 소실"
+        }
+      ]
+    },
+    {
+      "case": "numbers",
+      "exit": 1,
+      "golden": [
+        {
+          "code": "number_injected",
+          "message": "원문에 없던 수치가 윤문본에 등장했습니다: ['21'] (수치 불변 철칙 — 없던 주장 주입 위험)"
+        }
+      ]
+    }
+  ]
+}
