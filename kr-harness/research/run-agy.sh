@@ -8,6 +8,6 @@ mkdir -p kr-harness/research/logs
 LOG=kr-harness/research/logs/$NN.log
 echo "[$(date -Is)] start $NN" > "$LOG"
 "/c/Users/ssals/AppData/Local/agy/bin/agy" -p "kr-harness/research/AGY-PROMPT.md를 읽고 그대로 따른다. 대상 절 번호 NN=$NN. 결과는 kr-harness/research/$NN.md 하나에만 쓴다." \
-  --dangerously-skip-permissions --model gemini-4-argon-high --print-timeout 0s >> "$LOG" 2>&1
+  --dangerously-skip-permissions --model gemini-3.8-flash-high --print-timeout 0s >> "$LOG" 2>&1
 rc=$?
 echo "[$(date -Is)] exit $rc" >> "$LOG"
