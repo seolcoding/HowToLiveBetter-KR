@@ -15,3 +15,10 @@
 5. 자체 확인(반드시 돌린다): `node .claude/skills/kr-verify/scripts/kr-fit.mjs NN --check` → block 0.
 6. 금지: 대상 본문, 그 절 2-research.md 밖의 파일 수정. `kr-harness/research/NN.md`, kr-fit-review.md는 고치지 않는다. git 상태를 바꾸는 명령 금지. tools/·sync-stats·check-refs 실행 금지.
 7. 보고는 짧게: TODO별 반영/부분/유지 개수, 남긴 TODO와 이유, 상충을 어떻게 판단했는지, kr-fit 결과 줄.
+
+### agy(Gemini Flash) 기록에서 자주 나오는 문제 (2026-10-20 제4절에서 확인)
+
+- 출처가 누리집 첫 화면 주소(https://www.msit.go.kr, https://kosis.kr 등)뿐인 경우가 있다. 실제 보고서·보도자료·통계표·조문 페이지를 찾아 열고 그 구체적인 URL을 적는다. 원문에서 숫자를 직접 확인하지 못하면 반영하지 않는다.
+- 「전무하다」「유일하다」「없다」 같은 부재·유일 단정은 그대로 쓰지 않는다. 「찾지 못했습니다(검색한 곳, 날짜)」처럼 확인한 범위만 쓴다.
+- 거론된 논문은 DOI·PubMed로 실재와 서지사항을 확인한 뒤에만 인용한다.
+- 서로 다른 연도의 통계를 섞지 않고 연도를 밝힌다. 「해결」 판정도 다시 열어 보면 틀린 경우가 있으니 판정을 믿지 말고 원문을 본다.
