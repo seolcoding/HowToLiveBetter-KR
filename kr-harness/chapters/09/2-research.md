@@ -260,3 +260,7 @@ agy 기록(kr-harness/research/09.md)은 9건 모두 「해결」로 판정했�
 ### 자체 확인
 - `node .claude/skills/kr-verify/scripts/kr-fit.mjs 09 --check` → block 0 · warn 0 · 통과.
 - 내려받은 원문은 저장소 밖 `$TEMP/kr09law`에 두었다.
+
+## 적합성 재검토(r3) warn 반영 (2026-10-20)
+
+- 제13항: 85도2096에 「1985년 판결」 연도를 넣고, 2006도736 뒤에 「대법원은 횟수와 기간, 판돈 규모를 함께 봤습니다」를 붙였다.
