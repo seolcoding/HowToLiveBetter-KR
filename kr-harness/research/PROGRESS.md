@@ -26,3 +26,4 @@
 | 6 | 해결 7·부분 1 | 3/4/1 | 8→5 | pass, warn 3 수정 후 warn 0 | a3fff5a7 |
 | 8 | 해결 14 | 10/3/1 | 14→4 | pass, warn 3 수정 후 남은 warn 4는 TODO | dc7e720a |
 | 9 | 해결 9 | 6/3/0 | 9→3 | pass, warn 1 수정 후 남은 warn 3은 TODO | (이 커밋) |
+| 5 | 해결 13·부분 1 | 10/4/0 | 14→4 | pass, warn 2 수정 후 남은 warn 1은 TODO | (이 커밋) |

@@ -590,3 +590,8 @@ agy 기록(kr-harness/research/05.md, 14건 중 해결 13·부분 1 판정)을 �
 - T14 제45항 FIU 공지 주소 — **반영**. 공지 본문은 /cmn/board/selectBoardDetail.do?ntcnYardOrdrNo=194&seCd=0007 JSON으로 확인: 제목 「가상자산사업자 신고 현황(2026.9.30. 기준)」, 「…비트고코리아 등 28개사 (2026.9.30. 기준)」, 「매월 말 정보공개현황 자료 업데이트 예정」. 원화마켓·코인마켓 구분 숫자(agy)는 원문에 없어 안 씀. https://www.kofiu.go.kr/kor/notification/notice_view.do?ntcnYardOrdrNo=194&seCd=0007
 
 내려받은 원문은 저장소 밖 %TEMP%\kr05에 두었다. 자체 확인: `kr-fit.mjs 05 --check` → block 0 · warn 13(기존과 같은 중국 비교 문맥 warn).
+
+## 적합성 재검토(r4) warn 반영 (2026-10-20)
+
+- 제5항: CSV 열 이름대로 「온라인복권(로또)」으로 고쳤다. https://www.data.go.kr/data/15088747/fileData.do
+- 제17항: Fund Domicile: South Korea에 맞춰 「한국에 설정된 미국 주식형 펀드」로 고쳤다.
