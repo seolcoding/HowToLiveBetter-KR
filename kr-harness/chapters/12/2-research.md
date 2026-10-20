@@ -301,3 +301,9 @@ agy 기록(kr-harness/research/12.md, 7건 모두 「해결」 판정)을 원문
 확인 URL(법령은 DRF lawService MST, 본문 출처 칸과 같음): https://www.law.go.kr/LSW/precInfoP.do?precSeq=184631 · https://www.law.go.kr/LSW/precInfoP.do?precSeq=83360 · https://www.law.go.kr/LSW/precInfoP.do?precSeq=133514 · https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000263558 · https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000210795 · https://www.ftc.go.kr/www/selectBbsNttView.do?key=12&bordCd=3&nttSn=42474 · https://www.ftc.go.kr/www/selectBbsNttView.do?key=12&bordCd=3&nttSn=42799
 
 내려받은 원문은 저장소 밖 %TEMP%\kr12에 두었다. 자체 확인: `kr-fit.mjs 12 --check` → block 0 · warn 0. 본문을 고쳤으므로 kr-fit-review 해시는 다시 받아야 한다.
+
+## 적합성 재검토(r3) warn 반영 (2026-10-20)
+
+- 제6항: 지방세법 제13조제2항대로 「수도권 과밀억제권역(산업단지는 제외)」으로 좁혔다.
+- 제8항: 시행령 제21조제5호가목에 맞춰 「총리령으로 정한 품목의 완제품」과 시행규칙 제38조를 넣었다.
+- 제9항: 고시 제2026-37호 부칙(일부 조항 고시한 날 시행)을 반영했다.
