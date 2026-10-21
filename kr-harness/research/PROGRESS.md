@@ -40,3 +40,4 @@
 - 2026-10-21 07:31 5시간 창 리셋 뒤 재개 시험: 짧은 응답은 통과했지만 실제 조사는 즉시 429. Gemini 주간 한도(리셋 97h ≈ 10-25 09:00), Claude 그룹 주간 한도(리셋 144h ≈ 10-27 07:30). 두 그룹 모두 주간 소진이라 agy 사용 불가.
 
 - 2026-10-21 12:31 재시도(5시간 대기 후): Gemini Flash 429 "Individual quota reached", 복구까지 92h30m(≈10-25 09:00). 12:34 Claude 그룹(sonnet-5-5-high)도 429, 복구까지 138h55m(≈10-27 07:30). 두 그룹 다 주간 한도라 5시간마다 재시도를 계속한다. 로그: logs/27.weekly-quota-2.log, logs/27.claude-weekly-quota.log.
+- 2026-10-21 17:30 재시도: Gemini Flash 여전히 429, 복구까지 87h31m(≈10-25 05:00). 로그: logs/27.weekly-quota-3.log.
