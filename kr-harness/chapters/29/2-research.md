@@ -192,3 +192,18 @@ DRF 본문은 2028.1.1. 시행분이라, 현행(efYd=20260918) 본문을 lsInfoR
 | 민법 제1019조 제1항 단서(시행 2026.3.17.) — 항목 12 | 「그러나 그 기간은 이해관계인 또는 검사의 청구에 의하여 가정법원이 이를 연장할 수 있다.」 | https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=284415&type=XML |
 
 - 판례 링크: KR-GUIDE는 종합법률정보(glaw.scourt.go.kr) 링크를 권하지만 이 환경에서 접속이 프록시에서 거부됐다(2026-10-10). 국가법령정보센터 판례 페이지(precInfoP.do?precSeq=185089)를 열어 사건번호를 확인하고 그 링크를 출처에 썼다.
+
+## 2차 조사 반영 기록 (2026-10-22)
+
+조사 기록 `kr-harness/research/29.md`(opencode GLM 5.3 Flash)의 판정을 그대로 쓰지 않고, 반영한 사실은 모두 원문을 다시 열어 확인했다. 결과: 반영 4, 부분 1, 유지 0. TODO 5→1.
+
+- T1 109 통화료 — 반영. 항목 4·11 비용에 「수신자부담 전화라서 거는 사람에게 요금이 나오지 않습니다」를 넣었다(「무료」 대신 원문 표기). 항목 11 이득에 2026-10-01 긴급통신용 전화 우선 적용을 더했다. 원문: 「발신자에게 요금이 부과되지 않는 수신자부담 전화이다」 「오는 10월 1일부터 우선 적용하기로 하였다」. 확인: https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1491820 (작성일 2026-09-08).
+- T2 재단 자살유족 지원 — 반영. 항목 4 비고에 원스톱 서비스(현장 출동, 특수청소·일시 주거·법률처리(상속포기·한정승인 포함)·학자금)와 치료비 지원사업(1인 최대 100만 원, 사별 1년 이내 배우자·4촌 이내 혈족, 광역 자살예방센터 신청)을 더했다. 확인: https://www.kfsp.or.kr/home/kor/contents.do?menuPos=43 (페이지 최종수정일은 2024.4.26.로 표시되지만 운영지역 각주에 '26년 7월 운영이 적혀 있음). 재단 유족지원팀 번호(02-3706-0511~6)는 허용 목록 밖이라 본문에 넣지 않았다.
+- T3 65세 미만 1인 가구 안부 확인 — 반영(기록은 부분 해결). 항목 6 비고에 경기도 '365 안부확인 AI 케어'(연령·소득 무관, 일부 시·군, 시·군 담당 부서 전화 신청)와 「전국 공통 제도는 이번 조사에서 찾지 못했다」를 확인 범위로만 적었다. 시·군 수는 포털 10개, 도뉴스 2026-04-17 8개로 엇갈려 쓰지 않았다. 기록이 「서울시 비대면 스마트 돌봄」이라 한 페이지(1in.seoul.go.kr)는 본문에 「강서이음콜」이 있어 서울시 전체가 아니라 자치구 사업으로 보여 쓰지 않았다. 확인: https://www.gg.go.kr/1ingg/bbs/boardView.do?bsIdx=871&bIdx=110884471&menuId=4111 · https://gnews.gg.go.kr/news/news_detail.do?number=202604171352156426C048&s_code=C048 · https://1in.seoul.go.kr/front/sport/sportView.do?sport_id=14641c639cf4475fad01f80af3eb2939
+- T4 정신건강복지센터 상담 비용 — 반영(단서 포함). 항목 11 비용에 「이용료를 받지 않는다고 안내하는 곳이 있습니다(예: 서울 종로구)」, 비고에 법에서 무료 조항을 찾지 못했다는 점과 생활법령정보의 「지자체 예산에 따라 다를 수 있다」를 넣었다. 기록과 다른 점: 법제처 생활법령정보의 「상담을 무료로 받을 수 있습니다」는 109·1577-0199 같은 전화 상담 목록에 붙은 문장이라, 센터 상담 무료의 근거로 쓰지 않았다. 강동구 「본인부담금 발생」은 마음건강검진 사업 안내라 쓰지 않았다. 「정신건강복지법」(MST=285345, 시행 2026-10-08) XML에 「무료」「무상」 문구 0건. 확인: https://www.jongno.go.kr/Health.do?menuNo=401233 (이용료: 무료, 최종수정 2026-08-10) · https://www.easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1697&ccfNo=1&cciNo=2&cnpClsNo=1 · https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=285345&type=XML
+- T5 한정승인·포기 신고 비용·기간 — 부분. **기록의 인지대가 틀렸다.** 기록은 마류(나목) 사건으로 보고 1건당 10,000원이라 했지만, 「가사소송법」(MST=265309, 시행 2026-01-01) 제2조 제1항 제2호에서 32)(한정승인·포기 신고 수리)는 가목 라류 사건이다. 「가사소송수수료규칙」 제3조 제1항은 라류를 1건당 5,000원으로 정하고, 제5조 제3항 제2호는 32)를 청구인마다 1건으로 본다. 송달료는 재판예규 재일 87-4(2026.3.1. 시행) 제7조와 별표 1에서 가사비송사건 라류 당사자 1인당 6회분을 확인했다(별표 hwp는 저장소 밖에서 열고 지웠다). 항목 12 비고에 「인지대 신고인 1명당 5,000원, 송달료 신고인 1명당 6회분」을 넣고 항목 13 비고에서 제12항으로 이었다. 1회분 금액은 예규 본문·별표에 없고(검색에 나온 금액은 블로그·위키라 쓰지 않음), 처리 기간은 공식 안내를 찾지 못해 TODO를 이 둘로 좁혔다. 확인: https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=265309&type=XML · https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=181255&type=XML · https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2200000108591&type=XML · https://www.law.go.kr/LSW/flDownload.do?flSeq=162015279 · https://easylaw.go.kr/CSP/CnpClsMainBtr.laf?csmSeq=255&ccfNo=4&cciNo=3&cnpClsNo=1 · https://easylaw.go.kr/CSP/CnpClsMainBtr.laf?csmSeq=255&ccfNo=4&cciNo=4&cnpClsNo=1
+
+상태 배너 TODO 5건 → 1건. `kr-fit.mjs 29 --check`: block 0 · warn 0.
+
+### 재검토 warn 수정 (2026-10-22, 오케스트레이터)
+- 제4항: 「현장에 나가 유족에게 서비스를 안내」→「직원이 출동해(주로 경찰서에서) 유족을 만나 서비스를 안내」(재단 원문 「주로 경찰서로 출동」).
