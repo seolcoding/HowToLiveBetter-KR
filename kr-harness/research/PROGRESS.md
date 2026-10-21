@@ -42,3 +42,4 @@
 - 2026-10-21 12:31 재시도(5시간 대기 후): Gemini Flash 429 "Individual quota reached", 복구까지 92h30m(≈10-25 09:00). 12:34 Claude 그룹(sonnet-5-5-high)도 429, 복구까지 138h55m(≈10-27 07:30). 두 그룹 다 주간 한도라 5시간마다 재시도를 계속한다. 로그: logs/27.weekly-quota-2.log, logs/27.claude-weekly-quota.log.
 - 2026-10-21 17:30 재시도: Gemini Flash 여전히 429, 복구까지 87h31m(≈10-25 05:00). 로그: logs/27.weekly-quota-3.log.
 - 2026-10-21 20:38 사용자 요청으로 전 모델 실제 실행 시도: 전부 429. 복구까지 Flash 84h24m(≈10-25 05:00), Argon 71h12m(≈10-24 19:50, 가장 빠름), Opus·GPT-OSS(Claude 그룹) 130h51m(≈10-27 07:30). 로그: logs/27.trial-2038-*.log.
+- 2026-10-22 00:07 agy 전 모델 주간 한도 소진으로, 사용자 지시에 따라 opencode(zai-coding-plan/glm-5.3-flash, Exa 웹검색)로 대체 조사 시작. 지시문 OC-PROMPT.md, 실행 run-oc.sh. Orca로 27·23·33절 3개 동시 실행.
