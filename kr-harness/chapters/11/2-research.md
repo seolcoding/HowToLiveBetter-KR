@@ -108,3 +108,24 @@ agy 기록(kr-harness/research/11.md, 8건 모두 「해결」 판정)을 원문
 - 제14항: GPL v2 2(b) 「that you distribute or publish」에 맞춰 「배포·공개할 때」를 넣었다.
 - 제17항: 정책브리핑 원문대로 「극히 예외적인 경우에만 사실조사를 할 예정」으로 고쳤다.
 - 제18항: 2013다42953(대체 광고 기능이 있었으나 불법행위 아님)과 충돌하지 않게 제목에 「자기 광고로」를 더했다(글자 추가만). 비고 확인일을 2026-10-20으로 고쳤다.
+
+## 3차 조사 반영 기록 (2026-10-22)
+
+opencode GLM 기록(kr-harness/research/11-r3.md, 해결 2·부분 1)을 원문과 직접 대조했다. 반영 1, 부분 2, 유지 0. 본문 TODO 3건 → 2건. 바뀐 항목: 제6·8·17·19항. 내려받은 원문은 저장소 밖 %TEMP%\k11r3에 두었다.
+
+- T1 제17항 계도기간·가이드라인 — **부분**. 과기정통부 보도참고 「인공지능기본법 시행 관련 추가 설명」 첨부 odt를 직접 열었다(첨부파일명 「260129 조간」이라 GLM의 2026-01-28이 아니라 2026-01-29 조간으로 적음). 원문: 「정부는 인공지능 기본법 시행 초기 업계 혼란을 줄이고 제도를 안착시키기위해 사실조사 및 과태료 부과를 1년 유예하였습니다. 유예기간은 1년 뒤 업계 준비 상황에 따라 추가 연장될 수 있습니다.」 같은 자료에 「최소 1년 이상 규제 유예기간을 운영 … 추가 연장도 적극 검토할 예정」도 있음. 비고 전 「계도기간 종료일은 아래 TODO에 남겼습니다」 → 후 「2026년 1월 29일 자료에서 1년 유예 … 1년 뒤 추가 연장될 수 있다 … 종료일을 정한 발표는 찾지 못했습니다(과기정통부 누리집, 2026-10-22)」. 출처에 보도참고 추가. 가이드라인(26.01.26.판) PDF는 과기정통부·NIA 두 곳에서 받았으나 pdftotext로 한글이 추출되지 않아(글꼴에 유니코드 대응표 없음) 「외부 반출 시 결과물 내 표시」「예술 표현물 완화」 등 GLM이 든 세부를 원문으로 확인하지 못했다 → 반영 안 함, TODO를 가이드라인 세부로 좁힘. 「1회 이상 안내」는 이미 시행령 제23조 제2항으로 반영돼 있음. https://www.msit.go.kr/bbs/view.do?bbsSeqNo=94&mId=307&mPid=208&nttSeqNo=3186809&sCode=user · https://www.msit.go.kr/bbs/view.do?bbsSeqNo=81&mId=102&mPid=100&nttSeqNo=3148988&sCode=user
+- T2 제5·6·8·9항 판례 — **부분**.
+  - 대법원 2020도17860: 대법원 누리집 판결문 PDF를 직접 읽음. 주문 「상고를 모두 기각한다」. 사실관계는 퇴사자가 아니라 토플 모의시험 지사 계약 업체(피고인 회사)가 2014. 4. 대금 미납으로 관리자 접근을 차단당한 뒤, 피고인 1이 「업무 과정에서 우연히 알게 된 □□□ 어학원의 관리자 아이디와 비밀번호」로 접속한 사건. 원심의 「서비스제공자인 공소외 회사의 의사에 반하여 정당한 접근권한 없이 정보통신망에 침입한 것」 판단과 1심 유죄를 유지. 적용 법은 2014. 5. 28. 개정 전 망법 제48조 제1항·제72조 제1항 제1호. 현행 망법(MST 290001, 시행 20261002) 제48조 제1항 문언이 같음을 DRF로 확인. 제6항 이득에 사건 요지, 출처에 PDF, 비고에 「퇴사자 사건 아님·개정 전 조문·문언 같음·퇴사자 옛 계정 판례는 찾지 못함」 추가. GLM이 「퇴사·권한 상실 후 접속」 판례로 분류한 것은 사실관계와 다름.
+  - 대법원 2021도5555(DRF ID 599601): 배우자 구글 계정 사진첩 사건, 무죄 부분 파기환송. 퇴사 후 접속과 쟁점이 달라 본문에 쓰지 않음.
+  - 서울동부지법 2019고단1680: 대법원 누리집 주요판결 게시와 첨부 판결문(file.scourt.go.kr AttachDownload, path=003)을 직접 읽음. 2019. 7. 26. 선고, 주문 「피고인 A, B을 각 징역 1년 3월에, 피고인 C를 징역 8월에, 피고인 D을 징역 4월에 … 각 2년간 … 집행을 유예한다」, 악성프로그램 유포 32,435회, 정보통신망 침입 6,038회, 적용법조 망법 제70조의2·제48조 제2항, 제71조 제1항 제9호·제48조 제1항. 이력서로 위장한 파일을 기업 인사담당자에게 보낸 외부 공격 사건이라 「회사 서버 무단 채굴」 판례는 아님. 1심이고 확정 여부 미확인. 제8항 비고 전 「무단 채굴 사건의 한국 판례는 아래 TODO에 남겼습니다」 → 후 사건 요지·형량·「확정 여부는 확인하지 못했습니다」·「직원이 회사 서버로 채굴한 한국 판례는 찾지 못했습니다」. 출처에 게시 URL 추가(조문은 개정 전 번호라 본문에 적지 않음).
+  - 제9항 선의 테스트: GLM의 2017도16520 대안은 악성프로그램 판단 기준이라 쟁점이 달라 쓰지 않음. 2007도605는 이번에 직접 확인하지 않음. 유지.
+  - 제5항 계정 해제 대행: 창원지법 2019고단4003은 전재 사이트(2차)만 있어 쓰지 않음. 유지.
+  https://www.scourt.go.kr/sjudge/1624955729328_173529.pdf · https://www.scourt.go.kr/portal/dcboard/DcNewsViewAction.work?cbub_code=000211&gubun=44&scode_kname=&searchOption=&searchWord=&seqnum=20920 · https://www.law.go.kr/DRF/lawService.do?OC=test&target=prec&type=XML&ID=599601 · https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290001&type=XML
+- T3 제19항 OpenAI 서비스 계약 — **반영**. curl로 원문을 직접 열었다(200, Effective: January 1, 2026). 「3.1. Customer Account … Customer will not share Account access credentials or individual login credentials between multiple users. Customer may not resell or lease access to its Account or any End User Account.」, 「3.3. Restrictions . Customer will not, and will not permit End Users to: … (g) buy, sell, or transfer API keys from, to, or with a third party;」 확인. 비고에 제3.1조·제3.3조 (g) 문장 추가, 출처에 Services Agreement 추가. https://openai.com/policies/services-agreement/
+
+자체 확인: `kr-fit.mjs 11 --check` → block 0 · warn 0.
+
+### 재검토 warn 수정 (2026-10-22, 오케스트레이터)
+
+- 제17항 비고: 시행령 제23조 제4항 적용 예외(활용 사실이 명백한 경우, 내부 업무 용도) 한 문장 추가. 오케스트레이터가 DRF 원문(MST 288781, 시행 2026-08-20)에서 직접 확인. https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=288781&type=XML
+- 제5항: 검토 수정안대로 유지(TODO).

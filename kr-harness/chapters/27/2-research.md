@@ -232,3 +232,16 @@ kr-fit-review.md의 warn(27-5·8·11·14·15, 절 끝 TODO)을 고치면서 1차
 ### 재검토 warn 수정 (2026-10-22, 오케스트레이터)
 - 제5항: 비용 「출산 때까지 매일」→「의사가 정한 시점까지 매일」. 비고에 국내 두 제품의 허가 효능(심혈관 위험 감소)과 설명서 「임신 3기에 해당하는 임부는 복용하지 마십시오」, 시작·중단은 의사와 정하라는 문장 추가. 근거 https://nedrug.mfds.go.kr/pbp/CCBBB01/getItemDetail?itemSeq=200108429 , https://nedrug.mfds.go.kr/pbp/CCBBB01/getItemDetail?itemSeq=201309112
 - 제16항 출처: 사업 안내 쪽수를 「8쪽, 21~22쪽」으로 정정.
+
+## 3차 조사 반영 기록 (2026-10-22)
+
+조사 기록 `kr-harness/research/27-r3.md`(opencode GLM 5.3 Flash)를 반영했다. 판정은 믿지 않고 원문을 다시 열었다. 반영 0 · 부분 2 · 유지 0. TODO 2건 그대로(두 줄 모두 남은 쟁점으로 고쳐 씀).
+
+- T1 항목 8 자세 지시 — 부분. 이득 칸 끝에 「탯줄 탈출을 다룬 학술 논문도 트렌델렌부르크·무릎-가슴 자세를 처치로 든다. 탯줄 탈출의 35%는 양막이 저절로 터질 때 진단. 병원 밖 주산기 사망률 최고 44% 보고, 병원 안 3%」 추가. 비고 끝에 「논문의 자세는 탯줄 탈출이 생긴 뒤 의료진의 선진부 거상과 함께 쓰는 처치이며, 양수 터진 직후 미리 눕는 효과를 잰 연구가 아님」 추가. 출처에 논문 DOI·PubMed 추가. 근거등급 B 유지. 확인: Europe PMC 서지(Sayed Ahmed WA, Hamdy MA. Int J Womens Health 2018;10:459-465, PMID 30174462, PMC6109652)와 전문 XML https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6109652/fullTextXML — 「A significant percentage of UCP cases are diagnosed at the time of amniotomy (24%) or spontaneous rupture of membranes (SROM) (35%).」, 「These measures include manual elevation of the fetal presenting part …, the positioning of the patient in steep Trendelenburg, exaggerated Sim's position or knee-chest position …」, 「Where the prolapse occurs outside the hospital; mortality rates as high as 44% have been reported, compared to 3% if this occurs inside the hospital.」 소방청 119 구급서비스 표준지침 PDF는 열지 않았다(큰 파일). TODO는 「한국 공공 안내 미발견, 논문은 탈출 뒤 처치만 다룸, 표준지침 분만보조 단원 미확인」으로 고쳐 씀.
+- T2 항목 15 시한 경과 효력 — 부분. 이득 칸에 「생부 출생신고 개정안이 2025년 9월 발의돼 법제사법위원회에 회부, 그 뒤 심사 단계 기록 없음」, 「대법원 누리집 출생신고 안내도 그대로 "혼인 외 출생자의 출생신고는 모가 하여야" 한다고 적음」 추가. 출처에 국민참여입법센터 법안 쪽과 대법원 안내 쪽 추가. 확인: https://opinion.lawmaking.go.kr/gcom/nsmLmSts/out/2212737/detailRP (「민병덕의원 등 12인, 제2212737호(2025. 9. 5.)」, 소관위 「법제사법위원회 회부 2025. 9. 8.」, 이후 단계 없음; 제안이유에 2021헌마975 언급); https://www.scourt.go.kr/nm/min_17/min_17_3/min_17_3b/index.html (cp949, 「혼인 외 출생자의 출생신고는 모가 하여야 하고, 모가 출생신고를 할 수 없는 때에는 …」). GLM 기록이 인용한 대법원 안내의 헌재 결정 각주(「2025. 5. 31.을 시한으로 … 계속 적용되고 있습니다」)는 이 쪽과 min_17_3a·3c~3i 어디에도 없어 쓰지 않았다(「계속 적용 취지로 안내」라고 쓰지 않음). 헌법재판소법 DRF MST=284151(시행 20260312): 「불합치」 문자열 0건, 제47조 제2항 「위헌으로 결정된 법률 또는 법률의 조항은 그 결정이 있는 날부터 효력을 상실한다」 — 본문에는 쓰지 않고 TODO 줄에만 「시한 경과 효력 조문 없음」으로 남김. 대법원 2024다208261(유류분)은 다른 사안이고 열지 않았으며 쓰지 않았다. 대법원규칙 MST=272659도 열지 않았다. 계류 법안은 이 한 건만 확인했으므로 「유일한 개정안」이라고 쓰지 않았다.
+
+자체 확인: `node .claude/skills/kr-verify/scripts/kr-fit.mjs 27 --check` → block 0 · warn 0 → 통과.
+
+### 재검토 warn 수정 (2026-10-22, 오케스트레이터)
+
+- 제8항: 리뷰 논문의 자세가 탯줄 탈출 뒤 의료진 처치라는 한정을 이득 칸으로 옮기고, 35%(일본 전국 조사)·44%/3%(1990년 미국 연구 재인용, 그 뒤 결과 개선)의 출처와 시기를 밝힘. 비고 끝 한정 문장은 이득 칸으로 옮겨 삭제. https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6109652/fullTextXML

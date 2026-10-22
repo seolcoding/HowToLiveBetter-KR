@@ -111,3 +111,38 @@ agy 기록(kr-harness/research/04.md)의 URL과 수치를 직접 열어 대조�
 
 - `node .claude/skills/kr-verify/scripts/kr-fit.mjs 04 --check` → block 0 · warn 0 → 통과.
 - 본문 해시가 바뀌었으므로 kr-fit-review는 다시 받아야 한다.
+
+## 3차 조사 반영 기록 (2026-10-22)
+
+입력: `kr-harness/research/04-r3.md`(opencode GLM 5.3 Flash). GLM 판정(해결)은 믿지 않고 원문을 다시 열었다.
+
+### T1. 제13항 자조 교재의 한국어 번역서 — 반영
+
+- 시험 계획서(Rozental A, Carlbring P, JMIR Res Protoc 2013;2(2):e46, DOI 10.2196/resprot.2801, PMID 24220277, PMC3841370)를 열어 확인: 「derived from a self-help book for procrastination written by one of the authors (AR)」, 참고문헌 「Dansa på deadline. Stockholm: Natur & Kultur; 2014.」, 「randomized controlled trial (NCT01842945) with a total sample size of 150 participants divided into three groups; treatment with therapist contact …, treatment without therapist contact …, and wait-list control」. 설계(150명, 세 그룹, 10주)가 JCCP 2015 논문과 같다. 서지는 Europe PMC로 확인했다. GLM 기록의 저자 표기 「Rozental A, et al.」은 실제로 두 사람(Rozental·Carlbring)이다.
+- LIBRIS(스웨덴 국립서목) JSON 질의 결과: 스웨덴어판(ISBN 9789127136069, 2014; 전자책·2021년판·녹음본)과 덴마크어판 《Dansen på deadline》(ISBN 9788771581263)만 나왔다. 한국어판은 목록에 없다.
+- 국립중앙도서관 통합검색을 직접 질의했다(2026-10-22): `Rozental` 43건(Devis-Rozental 논문 등, 해당 책 없음), `알렉산더 로젠탈` 2건(무관), `로젠탈 미루기` 0건, `Dansa på deadline` 0건. KOLIS-NET은 결과가 스크립트로 불려 와 curl로는 건수를 확인하지 못했다. GLM이 적은 KOLIS-NET 「0건」은 재현하지 못해 근거로 쓰지 않았다.
+- 2차 기록의 《Overcoming Procrastination》은 본문·이 기록 어디에도 인용돼 있지 않아 고칠 문장이 없었다(grep 확인).
+- 본문 변경:
+  - 제13항 비고: 「같은 프로그램의 한국어판은 찾지 못했습니다.」 → 「시험 계획서를 보면 교재는 저자 Rozental이 쓴 책 《Dansa på deadline》(2014)입니다. 이 책을 10주 분량으로 나눠 썼습니다. 이 책의 한국어 번역서는 찾지 못했습니다(2026-10-22, 국립중앙도서관 통합검색 기준).」 부재는 단정하지 않고 검색 범위만 적었다.
+  - 제13항 출처: 시험 계획서(DOI 10.2196/resprot.2801)를 더했다.
+  - `## TODO 확인 필요` 목록의 유일한 줄을 지우고 제목도 지웠다.
+- 확인 URL:
+  - https://pmc.ncbi.nlm.nih.gov/articles/PMC3841370/
+  - https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=PMCID:PMC3841370&format=json&resultType=core
+  - https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=25939016&rettype=abstract&retmode=text
+  - https://libris.kb.se/xsearch?query=dansa+p%C3%A5+deadline&format=json
+  - https://www.nl.go.kr/NL/contents/search.do?kwd=Rozental (및 위 세 검색어)
+
+### 남은 표시
+
+- 제7항 비고의 본문 안 「(TODO 확인 필요)」(Kruger·Evans 연구의 백분율)는 이번 3차 조사 대상이 아니어서 그대로 두었다.
+
+### 자체 확인
+
+- `node .claude/skills/kr-verify/scripts/kr-fit.mjs 04 --check` → block 0 · warn 0 → 통과.
+- 본문 해시가 바뀌었으므로 kr-fit-review는 다시 받아야 한다.
+
+### 재검토 warn 수정 (2026-10-22, 오케스트레이터)
+
+- 제7항 인라인 TODO를 절 끝 `## TODO 확인 필요` 목록으로 되살리고 배너에 「TODO 1건」과 게이트 날짜(2026-10-22)를 반영(검토 수정안 ①).
+- 제13항: 교재 저자를 Rozental·Wennersten 두 명으로 고침. https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3841370/fullTextXML
