@@ -329,3 +329,35 @@ opencode GLM 기록(kr-harness/research/01-r3.md, 8건: 해결 3·부분 3·상�
 - 제4항: 표준안전관리규정 제36조 제3항 제2호 표대로 보일러 유무 조건을 구분(보일러 있는 집은 장치를 달아도 1년 1회, 보일러 없는 집은 1년 1회~3년 1회). https://kgs.or.kr/filedown.do?fileSn=92637
 - 제14항: 서울 두 구 가격을 전국 값처럼 쓴 문장을 두 구 가격과 「다른 보건소는 값이 다를 수 있습니다」로 바꿈. https://www.gwangjin.go.kr/health/main/contents.do?menuNo=300055 · https://www.songpa.go.kr/ehealth/selectBbsNttView.do?bbsNo=179&nttNo=19264957
 - 제14항: 남아 있던 중복 문장(광진구·송파구 가격 반복) 삭제.
+
+## 4차 조사 반영 기록 (2026-10-23)
+
+opencode GLM 5.3 Flash 기록(kr-harness/research/01-r4oc.md, 3건: 해결 2·부분 1)의 판정을 쓰지 않고 원문을 다시 열었다. 반영 3 · 부분 0 · 유지 0. TODO 3 → 0(목록 절 삭제, 배너 「TODO 0건」). 의학 수치·DOI·근거등급·비용태그는 바꾸지 않았다. 도입부 kr-doi-drop 주석(제3항)은 DOI를 그대로 두고 끝의 「한국 통계는 TODO」만 「WHO 사망데이터베이스(X47)로 바꿨다」로 고쳤다.
+
+- **T1 제3항 — 반영.**
+  - WHO 안내 페이지에서 「The WHO Mortality Database is a compilation of mortality data as reported annually by Member States from their civil registration and vital statistics systems」「These data are official national statistics in the sense that they have been transmitted to the World Health Organization by the competent authorities of the countries concerned」 확인. https://www.who.int/data/data-collection-tools/who-mortality-database
+  - mort_country_codes.zip(2KB)에서 「3325,Republic of Korea」 확인. 원자료는 메모리 제약 때문에 2021~2023년이 든 morticd10_part6.zip(6.8MB, 압축 안 파일 날짜 2026-02-23, 서버 Last-Modified 2026-09-02) 하나만 받아 스트리밍으로 한국·X470~X479 행의 Deaths1(전 연령)을 더했다: 2021 89 · 2022 98 · 2023 73(남녀 합). GLM 값과 같다. 2014~2020년은 다른 part 파일이라 열지 않았고 본문에 쓰지 않았다(GLM의 「연 70~107명」「1997년 241명 정점」 미반영).
+  - GLM 오류: X47.2를 「가정 내 사고」로 적었으나 ICD-10 넷째 자리 .2는 학교·기타 시설·공공행정 구역이고 가정은 .0이다. 장소별 숫자는 쓰지 않았다. 또 X47은 일산화탄소만이 아니라 「기타 가스·증기」 전체라서, 본문에 「일산화탄소를 포함한」「일산화탄소만 센 것은 아닙니다」를 넣어 범위를 좁혀 적었다. Kim JH 2020(Epidemiol Health, doi:10.4178/epih.e2020062)은 주택센서스·에너지 통계로 피해자를 추정한 논문이라 연도별 사망 통계로 쓰지 않았다.
+  - 본문: 이득 칸에 「사망진단서로 센 사고 중독 사망도 있습니다. 한국이 WHO 사망데이터베이스에 보낸 자료를 보면 X47 사망자는 2021년 89명, 2022년 98명, 2023년 73명입니다. X47은 …」 추가. 비고 「사고로 인한 … 아직 확인하지 못했습니다」 → 「사고 쪽 X47 숫자도 일산화탄소만 센 것은 아닙니다. … 가스보일러 사고 통계는 가스사고만 센 것이라 X47과 범위가 다릅니다」. 출처에 WHO 안내·part6 URL 추가. 쉽게 칸은 그대로.
+  - 내려받은 zip은 $TEMP/kr01r4에 두었다가 집계 뒤 지웠다.
+- **T2 제14·15·16·21항 — 반영(심평원 화면 대신 기관이 스스로 공개한 가격).**
+  - 충주시 보건소(최종수정일 2026.08.12): 「Td (파상풍, 디프테리아) 12,200원 … 기초 접종력(3회)이 있는 주민등록상 충주 시민」「Tdap … 23,000원 주민등록상 충주 시민 ※ 임신부 보건소 접종 불가」「B형간염 7,300원」「※ 비용은 조달계약 체결 단가에 따라 매년 변동될 수 있음」. https://www.chungju.go.kr/health/contents.do?key=1763
+  - 세종시 공지(등록 2026-04-24): 「(적용일 : 2026. 5. 1.) … B형간염 (만 11세 이상): 7,400원 - Tdap(디프테리아/파상풍/백일해): 23,000원」. https://www.sejong.go.kr/bbs/R2002/view.do?nttId=B000000152770Xy0eM2p
+  - 부산광역시의료원 비급여항목별진료비 안내 「약제」 탭(의료법 제45조 고지): 가다실 프리필드시린지 140,000 · 가다실 9 170,000 · 스카이 조스터 130,000 · 싱그릭스 210,000 · 유박스 비(성인용) 23,000 · 티디백신 30,000. 날짜 표기 없음(2026-10-23 확인). 약제 탭 값이라 본문에 「약제비」로 적고 총 접종비처럼 쓰지 않았다. https://www.busanmc.or.kr/busanmc/index.php?pCode=nonpayitems&mode=list&CgCode=3
+  - 인천 연수구보건소: 65세 이상 연수구 주민, 사업기간 「2026년 2월 23일 ~ 연중(예산 소진 시 종료일 변경 가능)」, 기초생활수급자 생백신 무료, 차상위 생백신 「대상포진 접종 시행비 본인부담 (19,610원)」, 일반주민 사백신 「90,000원 한도 1회 지원(접종비용 본인부담 후 60일 이내 보건소 방문 비용신청)」. GLM은 19,610원을 차상위의 싱그릭스 본인부담으로 적었으나 차상위는 생백신이다. 본문에는 일반주민 사백신 지원만 썼다. https://www.yeonsu.go.kr/clinic/health/linoculation/herpes_zoster.asp
+  - 인구보건복지협회 가족보건의원 부산지회 공지(https://clinic.ppfk.or.kr/clinic/BUSAN/notice/568)는 제목 「2026년 비급여 진료비 안내(2026. 6. 23. 기준)」만 텍스트로 확인되고 가격표 본문은 curl로 확인하지 못해 쓰지 않았다(GLM의 의원 가다실9 19만원·Tdap 4만원 등 미반영). GLM 기록 안에서도 가다실 4가가 139,000과 140,000으로 엇갈렸다. 「3회 51만원 안팎」 같은 산출값도 쓰지 않았다.
+  - 본문: 제14항 비용 「세종시 보건소는 2026년 5월부터 11세 이상 7,400원」「부산광역시의료원이 공개한 성인용 백신 약제비는 한 번에 23,000원」 추가. 제15항 비용에 충주(시민 대상) Td 12,200원·Tdap 23,000원, 세종 Tdap 23,000원, 부산의료원 Td 약제비 30,000원 추가. 제16항 비용에 부산의료원 가다실 9가 17만원·4가 14만원 추가. 제21항 비용에 싱그릭스 21만원·스카이조스터 13만원(부산의료원 약제비), 비고에 연수구 일반주민 재조합 백신 1회 9만원 한도 환급·60일 안 신청·예산 소진 시 종료 가능 추가. 모든 값의 주어에 기관명을 밝혔다.
+- **T3 제38항 — 반영.**
+  - 광주 광산구보건소 공지(작성일 2026-05-04 13:22, 감염병관리과): 「o 지원방법: 의료기관 진료 후 구비서류 보건소 방문/우편 제출 - 참여 의료기관 명단(https://sites.google.com/ishap.org/list/hospital)」. 기본 curl은 차단 페이지였고 브라우저 UA를 붙여 열었다. https://www.gwangsan.go.kr/health/boardView.do?pageId=health171&boardId=BNEWS&seq=1770877
+  - 명단 페이지: 「PrEP 지원사업 참여 의료기관 | PrEP Support Program Hospital List」「최종 업데이트 2026.09.10.」. 기관 수는 HTML 기본값 120, 데이터 항목 수 119, GLM 117로 엇갈려 본문에 쓰지 않았다. 지역 값은 17개. https://sites.google.com/ishap.org/list/hospital
+  - 세종시 공지 「※ 참여의료기관: 엔케이세종병원, 제일연합내과의원」 두 곳이 명단의 세종 항목(「엔케이 세종병원」「제일연합내과의원」)과 맞는다. https://www.sejong.go.kr/bbs/R2002/view.do?nttId=B000000153229Lt6xR9a
+  - iSHAP prevention_05 각주 「※이 페이지에 기재된 처방 가능 병원 목록은 질병관리청 PrEP 지원사업과는 무관합니다.」 다시 확인. https://www.ishap.org/content/prevention_05
+  - 리플릿 QR이 이 명단으로 이어진다는 GLM 주장은 QR 이미지를 풀지 않아 확인하지 못했고 본문에 쓰지 않았다.
+  - 본문: 비고 「참여 병원 이름 목록을 공개한 곳은 찾지 못했습니다(…). 관할 보건소에 물어보세요.」 → 「광주 광산구 보건소 공지는 참여 의료기관 명단으로 한국에이즈퇴치연맹의 구글 사이트 페이지를 안내합니다. 이 페이지는 2026-09-10에 마지막으로 고쳐졌고, 시도별로 병원 이름이 나옵니다. 한국에이즈퇴치연맹 홈페이지의 처방 병원 목록은 다른 것입니다. 그 목록에는 지원사업과 무관하다고 적혀 있습니다. 명단이 바뀔 수 있으니 관할 보건소에도 물어보세요.」 출처에 광산구 공지·명단·prevention_05 추가.
+
+자체 확인: `node .claude/skills/kr-verify/scripts/kr-fit.mjs 01 --check` → block 0 · warn 0 · 예외 통과 1. 본문 grep 「TODO」는 배너의 「TODO 0건」 한 곳뿐. 본문을 고쳤으므로 kr-fit-review 해시는 다시 받아야 한다. book-kr/README.md 상태표는 지시 범위 밖이라 고치지 않았다.
+
+### 재검토 warn 수정 (2026-10-23, 오케스트레이터)
+
+- 제14항: 부산의료원 값이 약제비(약값만)이며 B형간염 백신임을 밝히고 진찰료 별도 안내 추가. https://www.busanmc.or.kr/busanmc/index.php?pCode=nonpayitems&mode=list&CgCode=3
+- 제38항: 명단 페이지의 운영 주체를 단정하지 않도록 비고·출처 수정(공지가 안내한 링크, 운영 주체 표기 없음). https://www.gwangsan.go.kr/health/boardView.do?pageId=health171&boardId=BNEWS&seq=1770877

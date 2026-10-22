@@ -268,3 +268,18 @@
 ### 재검토 warn 수정 (2026-10-22, 오케스트레이터)
 
 - 제4항 비용: 「다른 병원의 일반 부검 가격」이 서울대병원 일반 부검은 68만원으로 확인된 것처럼 읽혀, 「서울대병원을 포함해 뇌기증이 아닌 일반 부검의 가격」으로 고침. https://brainbank.snuh.org/donation/contact
+
+## 4차 조사 반영 기록 (2026-10-23)
+
+조사 기록 `kr-harness/research/25-r4oc.md`(opencode GLM 5.3 Flash)를 받아 사실마다 원문을 직접 열었다(DRF XML을 curl로 받아 단어 수를 셈, 논문은 Europe PMC). 결과: 반영 0, 부분 2, 유지 0. TODO는 2건 그대로이고 쟁점만 좁혔다. 금액·처리기간 수치는 새로 얻지 못했다.
+
+- T1 제11항 처리 기간 — 부분. 비용 칸 「법원 처리 기간은 이번에 확인하지 못했습니다.」 뒤에 「가사소송법과 가사소송규칙에도 신고 수리의 처리 기간을 정한 조항은 없었습니다(2026-10-23 확인).」를 더하고, 출처 칸에 가사소송규칙 제75조를 더했다. 확인: 가사소송법 DRF XML(공포 제20432호, 시행 2026-01-01)에서 「처리기간」 0건, 「처리」 8건은 등록 촉탁 사무 등으로 기간과 무관. 가사소송규칙 DRF XML(공포 제3241호, 공포·시행 2026-01-29)에서 「처리기간」 0건, 제75조 제목 「한정승인ㆍ포기의 신고」. 기록의 제안 문구 「법이 정한 처리 기간이 없습니다. 처리 기간 통계도 법원이 따로 내지 않습니다」는 쓰지 않았다. 앞 문장은 두 원문 범위로 좁혔고, 뒷 문장은 사법연감 한 권의 표만 본 것을 「통계가 없다」로 넓힌 단정이다. 기록의 2025년 라류 접수 102,105건·처리 98,471건은 큰 PDF라 받지 않아 확인하지 못했고 쓰지 않았다. 비송사건절차법 확인은 기록 자체가 서브조사 전언이라 쓰지 않았다. 확인 URL: https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=265309&type=XML · https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=283111&type=XML
+- T2 제4항 일반 부검 비용 — 부분. 비용 칸 끝에 「병원이 가격을 보고하는 비급여 항목 목록에도 부검은 없었습니다(보건복지부고시 제2026-38호, 2026-10-23 확인).」를 더했다. 비고에 「유족이 원해 병원에서 하는 부검은 드뭅니다. 2015년 국내 사망자 중 이런 임상 부검을 받은 비율은 0.03%였습니다. 같은 해 수사 목적의 사법 부검은 2.57%였습니다(Park 2019).」를 더하고, 출처 칸에 고시와 논문(DOI·PubMed)을 더했다. 확인: 고시 DRF XML 행정규칙명 「비급여 진료비용 등의 보고 및 공개에 관한 기준」, 발령번호 2026-38, 시행 2026-02-23, 현행 Y. 전문에서 「부검」「해부」 0건, 「시체검안서」 1건(별표 1 「나. 제증명수수료」 19번 PDZ040000). 제5조 제1항 「의료기관의 장이 보고해야 하는 항목은 [별표 1]과 같다」. 논문은 Europe PMC에서 제목·저자(Park JP, Kim SH, Lee S, Yoo SH)·J Korean Med Sci 2019;34(47)·PMID 31808323과 초록 「clinical autopsy rates decreased from 0.17% in 2001 to 0.03% in 2015, while legal autopsy rates increased from 1.99% to 2.57%」, 분모가 통계청 사망 자료임(「We calculated the autopsy rate by using mortality data from Statistics Korea」)을 확인했다. 기록의 제안 문구 「부검 비용은 법이 정하거나 병원이 공시하지 않습니다」는 쓰지 않았다(병원 누리집 공시 여부는 전수 확인이 아니다). 고지 지침(제2023-192호)의 0건과 서울아산병원 검색 0건, 병원24의 시체검안서 10만원은 본문에 쓰지 않았다(앞의 둘은 같은 취지의 중복·범위가 한 병원, 뒤의 것은 2차 출처). 확인 URL: https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000274952&type=XML · https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.3346/jkms.2019.34.e301&resultType=core&format=json
+
+TODO 목록 두 줄은 이번 확인 범위와 남은 쟁점(실제 처리 기간 수치, 일반 임상 부검 청구액의 병원 공식 출처)으로 고쳐 썼다. 상태 배너 TODO 2건 유지. 본문 grep으로 「TODO」는 배너와 `## TODO 확인 필요` 제목 두 곳뿐임을 확인했다.
+
+자체 확인: `node .claude/skills/kr-verify/scripts/kr-fit.mjs 25 --check` → block 0 · warn 0.
+
+### 재검토 warn 수정 (2026-10-23, 오케스트레이터)
+
+- 제4항 비고: 임상 부검의 정의(의학적 목적, 임상과 요청)를 밝혀 0.03%가 유족 요청 부검만의 비율로 읽히지 않게 함. https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6900410/fullTextXML
