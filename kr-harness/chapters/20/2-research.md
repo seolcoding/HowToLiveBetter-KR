@@ -204,3 +204,21 @@
 ### 재검토 warn 수정 (2026-10-22, 오케스트레이터)
 
 - 제3항 비고: 황달이 두 목록 어디에도 없다는 점(판단 부재)을 밝히고, 원문의 「예진 후 접종」 조건과 예진 때 알리라는 안내를 넣음. https://nip.kdca.go.kr/irhp/infm/goVcntInfo.do?menuLv=1&menuCd=114
+
+## 4차 조사 반영 기록 (2026-10-23)
+
+조사 기록: kr-harness/research/20-r4oc.md (opencode GLM 5.3 Flash). 판정을 믿지 않고 원문을 직접 열었다. TODO 2건 → 2건(둘 다 TODO 줄만 고침, 항목 본문은 그대로).
+
+- T1 비타민 K 일상 시행·비용(제7항) — 유지. 기록의 새 사실은 모두 본문에 쓸 수 없는 것이었다.
+  - 복지부 고시 「건강보험요양급여비용의 내역」 전부개정 게시물(list_no=1492260)이 있고 첨부가 hwpx·pdf임을 확인했다. 이 고시는 점수당 단가 고시라 비용 귀속과 무관하다. 본문에 쓰지 않았다.
+  - 기록의 「2차 조사 심사지침 0건 판정은 PDF 한글 추출 오류라 철회」는 큰 파일 다운로드 금지로 직접 확인하지 못했다. 그래서 「없음」도 「있음」도 쓰지 않았다.
+  - TODO 줄 전: 「2차 조사 기록에 따르면 심평원 심사지침·요양급여비용 책자에서 비용 귀속을 정한 문장은 나오지 않았고」 → 후: 「…비용 귀속을 정한 문장은 아직 확인하지 못했다. 2차 조사 기록의 PDF 검색 결과(0건)는 한글 추출 오류 가능성이 4차 조사에서 지적돼 「없음」으로 보지 않는다.」
+  - PubMed 검색 0건, 대한신생아학회 접속 불가, 「모자보건 사업안내 2026년」 미확인(560쪽 PDF, 열지 않음)은 기록 기준이라 본문에 쓰지 않았다.
+  - 확인 URL: https://www.mohw.go.kr/board.es?mid=a10409020000&bid=0026&list_no=1492260&act=view
+- T2 황달과 예방접종(제3항·제13항) — 유지(쟁점만 좁힘).
+  - Cho HK 외(2021) Clin Exp Pediatr 64(12):602-607, PMID 34098627, doi:10.3345/cep.2021.00507 서지를 Europe PMC에서 확인했다. 전문 XML(PMC8650817)에서 jaundice·hyperbilirubin 0건이다. 금기 절 원문 「contraindicated in infants with a history of a severe allergic reaction (e.g., anaphylaxis) after a previous dose or to a vaccine component」와 백일해 백신 후 7일 안 뇌증 문장을 확인했다. 기록이 빠뜨린 문장도 있다: 진행성·불안정 신경계 질환에서는 접종을 미루라는 문장, 길랭-바레 증후군 문장. 「should not be withheld or delayed」는 미숙아 절 문장이고 황달과 무관하다.
+  - 이 논문은 혼합백신 하나에 관한 권고라 TODO 줄에만 보조 확인으로 적었다. 제3항 비고는 이미 길고, 백신 하나의 음성 근거를 더해도 독자 판단이 바뀌지 않아 그대로 두었다.
+  - 일정 논문 세 편도 전문에서 jaundice 0건을 확인했으나 쓰지 않았다. 일정표 논문은 원래 금기를 다루지 않아 음성 근거로서 의미가 약하다. 기록의 서지도 틀렸다. 「2013판」은 Korean J Pediatr가 아니라 Clin Exp Vaccine Res 2(2):144-147(PMID 23858407)이다. 「2016판」 제목은 「Immunization Guideline (8th edition) released … in 2015」(Korean J Pediatr 2016;59(12):461-465)이다. 「2018판」은 Korean J Pediatr 2019;62(7):252-256(PMID 31163961)에 실렸다.
+  - TODO 줄 끝에 추가: 「같은 학회 감염위원회의 영아용 DTaP-IPV-Hib-HepB 혼합백신 권고 논문(Clin Exp Pediatr 2021, PMID 34098627) 전문에도 황달은 나오지 않는다(2026-10-23 Europe PMC 전문 확인). 이 논문은 백신 하나만 다뤄 지침 전체를 대신하지 못한다.」
+  - 확인 URL: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8650817/fullTextXML · https://pmc.ncbi.nlm.nih.gov/articles/PMC8650817/
+- 상태 배너 TODO 2건 그대로.
