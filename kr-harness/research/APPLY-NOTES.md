@@ -34,3 +34,8 @@
 
 - pdftotext로 한글이 빠지는 정부 PDF(사업안내 등)는 글꼴표(CMap)가 없어서다. pdfjs-dist에 CMap을 지정하면 전 쪽 텍스트가 나온다. 저장소 밖 임시 폴더에서 `npm i pdfjs-dist` 후 `getDocument({data, cMapUrl: 'node_modules/pdfjs-dist/cmaps/', cMapPacked: true, standardFontDataUrl: 'node_modules/pdfjs-dist/standard_fonts/'})`로 쪽마다 `getTextContent()`를 이어 붙인다. 쪽 이미지(pdftoppm)는 표·흐름도처럼 배치가 중요한 쪽만 본다.
 - 국세법령정보시스템 검색은 화면 대신 `POST https://taxlaw.nts.go.kr/action.do`(actionId `ASEISA001MR01`)로 정확 구문 검색을 할 수 있다.
+
+### 한글 검색어는 curl에 직접 넣지 않는다 (2026-10-23 추가)
+
+- Git Bash의 curl에 한글 검색어를 URL에 그대로 넣으면 글자가 깨진 채 전송되는 경우가 있다(law.go.kr DRF에서 「패러디」가 `�з���` 0건, node로 UTF-8 인코딩하니 13건). 한글 검색어는 node의 `encodeURIComponent`나 `curl --data-urlencode` 로 인코딩해 보낸다.
+- 그래서 3·4차 기록의 「검색 0건」은 인코딩을 확인하지 않았으면 「없음」의 근거로 쓰지 않는다. 본문에 「찾지 못했습니다」를 쓸 때는 인코딩을 확인한 검색만 근거로 삼는다.
