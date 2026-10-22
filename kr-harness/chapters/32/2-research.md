@@ -231,3 +231,18 @@
 ### 재검토 warn 수정 (2026-10-22, 오케스트레이터)
 
 - 제2항: ECF 61 「reply memorandum」을 「답변서」→「재답변서」로 고쳐 항소심 용어와 구분. https://storage.courtlistener.com/recap/gov.uscourts.mad.305059/gov.uscourts.mad.305059.61.0.pdf
+
+## 4차 조사 반영 기록 (2026-10-23)
+
+조사 기록: kr-harness/research/32-r4oc.md (opencode GLM 5.3 Flash, 판정 「부분 해결」). 판정을 믿지 않고 지방법원 Atom 피드와 ECF #63 PDF(127 KB, pdftotext)를 직접 열어 대조했다. 항소 피드도 다시 열었다. 언론 보도는 근거로 쓰지 않았다.
+
+| TODO | 결과 | 바뀐 문장 (전 → 후 요약) | 직접 확인한 URL |
+|---|---|---|---|
+| T1 F-1 소송 이후 진행 (항목 2) | 유지 (문구 갱신) | 이득: 10-16 일정 뒤에 「정부는 10월 22일 두 마감을 10월 30일과 11월 6일로 미뤄 달라고 신청, 이유는 항소 서면 병행 준비, 원고 측은 찬성도 반대도 안 함, 받아들였다는 기록은 아직 없음」 추가. 출처: docket entries에 63 (Oct. 22, 2026), ECF 63 PDF 추가. 비고: 지방 기록 기준일 10-21 → 10-22, 확인일 10-22 → 10-23. TODO: #63까지 확인, 재가 여부·기존 마감 이후 진행·구두변론 지정 재확인으로 고침 | https://www.courtlistener.com/docket/74661796/feed/ ; https://storage.courtlistener.com/recap/gov.uscourts.mad.305059/gov.uscourts.mad.305059.63.0.pdf ; https://www.courtlistener.com/docket/74908049/feed/ |
+
+- ECF #63 원문(Filed 10/22/26, 3쪽): 「Defendants move for the deadline to file motions for summary judgment to be extended to October 30, 2026, and that the deadline for reply memoranda be correspondingly extended to November 6, 2026.」 「Plaintiffs' counsel stated that Plaintiffs take no position on this motion.」 사유: 「Defendants are concurrently preparing their opening appellate brief and appendix in the related First Circuit interlocutory appeal (No. 26-2112), which are due November 9, 2026.」 근거 조항 FRCP 6(b).
+- 재가 여부: 지방법원 피드(updated 2026-10-22)의 최신 항목이 #63 「Extension of Time」이고, 그 뒤 명령 항목은 없다. 그래서 「신청했다」까지만 썼다.
+- 항소 피드: updated 2026-10-19, 최신 항목은 10-19 「EXPEDITED briefing schedule set. Brief and Appendix due 11/09/2026 …」. 새 항목 없음.
+- 쓰지 않은 것: 행정기록 인증(10-23 마감)의 제출 여부(오늘 마감이라 기록 없음은 미제출 단정 근거가 안 됨), 제1순회 달력·CourtListener 구두변론 검색·관보 검색의 부재 결과(부재 확인이라 본문에 단정 안 함), 제1순회 CM/ECF 중단 공지(본문 판단과 무관).
+- TODO 1건 → 1건(문구 갱신). 배너 건수 1 유지. 본문 인라인 「TODO」 없음(grep: 배너 1행, 목록 제목 114행뿐).
+- 검사: `node .claude/skills/kr-verify/scripts/kr-fit.mjs 32 --check` → block 0 · warn 0 · 예외 통과 0.
