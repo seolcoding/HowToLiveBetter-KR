@@ -216,3 +216,18 @@
 
 - TODO 5건 → 1건(T3 축소본). 상태 배너 갱신.
 - 검사: `node .claude/skills/kr-verify/scripts/kr-fit.mjs 32 --check` → block 0 · warn 0.
+
+## 3차 조사 반영 기록 (2026-10-22)
+
+조사 기록: kr-harness/research/32-r3.md (opencode GLM 5.3 Flash, 판정 「해결」). 판정을 믿지 않고 제1순회 항소 기록을 CourtListener RECAP Atom 피드로 직접 열어 항목 원문을 대조했다(docket HTML은 CloudFront 403, REST API는 인증 필요라 피드만 열림). 언론 보도는 근거로 쓰지 않았다.
+
+| TODO | 결과 | 바뀐 문장 (전 → 후 요약) | 직접 확인한 URL |
+|---|---|---|---|
+| T1 F-1 소송 항소 기록 (항목 2) | 부분 (TODO 축소 유지) | 이득: 「10월 7일 신속 진행 신청」 → 「원고 측도 동의」 추가(10-07 항목 「ASSENTED TO MOTION to expedite BRIEFING AND HEARING SCHEDULE filed by Appellants…」). 10-09 Dunlap 판사 명령의 일정(「Opening Brief/Appendix: 21 days after briefing schedule is entered on the docket; Response Brief: 30 days after service of the opening brief; Reply Brief: 10 days after service of the Response Brief … Argument will be scheduled as appropriate」), 10-19 항목(「EXPEDITED briefing schedule set. Brief and Appendix due 11/09/2026 for appellants…」), 구두변론 미지정 추가. 비고: 「원고 측 서면에 따르면 항소법원은 10-09 신청을 받아들였고 서면 일정은 미정」(전언) → 「항소 기록 10-19, 지방 기록 10-21 기준. 유예 명령을 풀거나 바꾼 기록, 멈춰 달라는 신청은 찾지 못함」. 출처에 항소 docket URL 추가. 쓰지 않은 것: 28 U.S.C. § 1657(기록 원문에서 직접 못 봄), 「신청을 받아들였다」(명령 원문은 「The motion is resolved as follows」라 그 표현 대신 「일정을 정했다」로 씀), 제1순회 달력·구두변론 오디오 검색(부재 확인이라 본문에 단정 안 함), ECF 60의 「vacatur」 구제 내용(항목 판단에 불필요). TODO는 미래 일정(지방법원 재답변 11-02, 정부 항소 서면 11-09, 구두변론 지정)만 남김 | https://www.courtlistener.com/docket/74908049/feed/ ; https://www.courtlistener.com/docket/74661796/feed/ (지방법원 최신 항목 10-21 #62 46번 신청 moot 확인) |
+
+- TODO 1건 → 1건(문구 축소). 배너 건수 1 유지.
+- 검사: `node .claude/skills/kr-verify/scripts/kr-fit.mjs 32 --check` → block 0 · warn 0 · 예외 통과 0.
+
+### 재검토 warn 수정 (2026-10-22, 오케스트레이터)
+
+- 제2항: ECF 61 「reply memorandum」을 「답변서」→「재답변서」로 고쳐 항소심 용어와 구분. https://storage.courtlistener.com/recap/gov.uscourts.mad.305059/gov.uscourts.mad.305059.61.0.pdf
