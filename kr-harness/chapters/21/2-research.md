@@ -245,3 +245,13 @@ kr-fit: `node .claude/skills/kr-verify/scripts/kr-fit.mjs 21 --check` → block 
 
 ### 재검토 warn 수정 (2026-10-22, 오케스트레이터)
 - 제9항: 「해마다 올립니다」 삭제(이전 연도 게시물 미확인) → 「「국외 유료 직업소개사업소 현황(2026년)」을 올려 두었습니다. 2026년 8월 10일 기준 엑셀 파일입니다」.
+
+## 3차 조사 반영 기록 (2026-10-22)
+
+조사 기록: `kr-harness/research/21-r3.md`(opencode GLM 5.3 Flash). 판정은 믿지 않고 원문을 다시 열었다. TODO 1건 → 0건.
+
+- T1 영사안전콜센터 연간 상담 건수 — 반영. 외교백서 PDF(40MB)는 내려받지 않고, 외교부 누리집 문서 미리보기(Synap 변환 결과, `/viewer/result/202610/20260710014654880.pdf.files/…_127.xml`)의 본문 텍스트로 확인했다. 「2025년도 국제정세와 외교활동」 제6장 제3절 「(2) 영사안전콜센터 운영」 252쪽: 「영사안전콜센터는 24시간 365일 해외 사건사고 등을 접수하여 재외공관과 관계기관 등에 신속하게 전파하는 역할을 수행해오고 있다. … 2025년 영사안전콜센터 상담 건수는 약 21만 5천건을 기록하였다.」 발간일은 보도자료 [26-582](2026-07-10)로 확인. 2024년도 백서의 「약 20만 건」은 본문에 쓰지 않아 열지 않았다. 의원실 보도자료 수치(17만 2,124건)는 쓰지 않았다.
+  - 전: 항목 2 이득 칸에 연간 통계 없음, `## TODO 확인 필요` 1건 → 후: 이득 칸 끝에 「외교백서에 따르면 2025년 영사안전콜센터 상담 건수는 약 21만 5천 건입니다.」, 출처 칸에 백서 PDF·목록 URL 추가. 쉽게 칸은 그대로. `## TODO 확인 필요` 절 삭제, 첫 줄 배너의 「— TODO 1건」 삭제. 본문 grep 「TODO」 0건.
+  - 확인한 URL: https://www.mofa.go.kr/www/brd/m_4105/list.do · https://www.mofa.go.kr/www/brd/m_4105/down.do?brd_id=N8701&seq=301&data_tp=A&file_seq=1 (docviewer.do 응답 fileSize 40276562, 171쪽 펼침면) · https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=377413
+
+kr-fit: `node .claude/skills/kr-verify/scripts/kr-fit.mjs 21 --check` → block 0 · warn 0 → 통과.
