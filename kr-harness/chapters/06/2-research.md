@@ -123,3 +123,37 @@ TODO 8개 → 5개(제7·16·20·22·28항). kr-fit: block 0 · warn 0.
 - 제28항: 인신보호법 제3조 청구 요건(수용이 위법하게 개시되거나 사유 소멸 후 계속 수용)을 문장에 넣었다. https://www.law.go.kr/법령/인신보호법/제3조
 - TODO 4: 1차 출처 없는 「1832건」 숫자를 TODO 줄에서 뺐다.
 - 제2항: 통 단위 가격을 하루 섭취량 기준 94원~1907원으로 바꿨다(한국소비자원 2022). https://www.consumer.go.kr/user/ftc/consumer/cnsmrBBS/79/selectInfoRptDetail.do?infoId=A1079183
+
+## 3차 조사 반영 기록 (2026-10-22)
+
+반영 대상: `kr-harness/research/06-r3.md`(opencode GLM). 판정은 믿지 않고 사실마다 원문을 다시 열었다. 브라우저 자동화 없이 curl·node fetch로만 확인했다.
+
+- TODO 1(제7항 종양 표지자 가격 집계) — 부분.
+  - 확인: KOSIS 통계표 DT_354006_2021A016의 표 이름 「의원 비급여 진료비용」, 통계명 「건강보험심사평가원,「비급여진료비용및제증명수수료통계」」, 기간 「년 2021 ~ 2025」, 분류 「진료비용별」 921개, 항목 「최저금액·최고금액·평균금액·중간금액」을 statHtmlContent.do 응답에서 직접 봤다. 하위 항목(검체 검사료 아래)은 스크립트로 열려 종양 표지자 항목 유무를 확인하지 못했다.
+  - 확인 못 함: 심평원 비급여진료비정보(hira.or.kr/npay)·데이터개방 안내·공단 비급여 포털은 JS 페이지이거나 시간 초과. GLM이 적은 고시 번호(제2023-168호)도 원문을 못 봐서 쓰지 않았다.
+  - 전→후: 비용 칸 「민간 검진기관 패키지 가격을 모은 공식 자료는 찾지 못했습니다.」 뒤에 「의원의 비급여 항목 가격은 KOSIS에 해마다 실립니다. 심평원이 항목별 최저·최고·평균·중간 금액을 냅니다. 이 표에서 종양 표지자 검사 가격은 아직 확인하지 못했습니다.」를 더했다. 출처에 KOSIS 표 URL 추가. TODO는 「그 표에 종양 표지자 항목이 있는지와 가격」으로 좁혔다.
+  - URL: https://kosis.kr/statHtml/statHtml.do?orgId=354&tblId=DT_354006_2021A016&conn_path=I2
+- TODO 2(제16항 KCD 용어·급성 각막염 산재) — 반영, TODO 삭제.
+  - 확인: 통계분류포털 ClassificationContentMainTreeListView.do(차수 09) 응답 「분류코드 H16.12 분류명 광선각막염 Photokeratitis 설명(한글) 설맹」, 상위 H16.1 「결막염이 없는 기타 표재성 각막염」. 산재보험법 시행령 DRF XML(MST=287491, 공포번호 36473, 시행 20260701) 별표 3 제7호 가목 「자외선에 노출되어 발생한 피질 백내장 또는 각막변성」, 제13호 상당인과관계 조항. 별표의 각막염 명시는 유기용제·디이소시아네이트·아황산가스 등 화학물질 원인뿐임을 grep으로 봤다.
+  - 전→후: 비고 「용접 불꽃을 맨눈으로 보면 각막에 화상을 입습니다.」 뒤에 「한국 질병분류에서는 이를 광선각막염(H16.12)이라고 부릅니다.」, 별표 설명 뒤에 「자외선으로 생긴 급성 각막염은 별표에 따로 적혀 있지 않습니다.」를 더했다. 이어지는 기존 문장(별표에 없는 질병도 상당인과관계가 있으면 업무상 질병)이 남은 길을 이미 설명한다. 출처에 KCD 페이지 URL 추가. 고시 번호(제2025-299호)는 원문을 열지 않아 쓰지 않았다.
+  - URL: https://kssc.mods.go.kr:8443/ksscNew_web/kssc/common/ClassificationContent.do?gubun=1&strCategoryNameCode=004&categoryMenu=007&addGubun=no&strCategoryCode=H16.12 ; https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=287491&type=XML
+- TODO 3(제20항 중국 합의·현명한 선택) — 부분.
+  - 확인: 「현명한 선택」 임상전문가용 목록에서 type=14가 「대한소화기학회」임을 봤다. 그 페이지 HTML 본문 「Q 5. 증상이 없는 담낭 담석 환자에게 담낭절제술을 통상적으로 시행하지 않는다.」와 해설 「다만, 3cm 이상의 큰 담석, 췌담관 합류이상, 1cm 이상의 담낭용종이 동반되는 등 … 만성용혈성빈혈로 다른 수술이 예정된 경우 등 의료진이 필요하다고 판단하는 경우 담낭절제술을 시행할 수 있다.」를 텍스트로 확인했다. 2차 TODO의 「이미지로만 올라 있다」는 틀렸다.
+  - 중국 합의: Europe PMC로 PMID 34839607 초록을 열었으나 권고 조항이 없다. GLM이 인용한 학술지 논문의 「증상 유무와 관계없이 절제 권고」 문장은 syyxzz.com HTML에서 찾지 못했다(참고문헌 줄만 확인). 2차 문헌 전달이라 본문의 중국 쪽 서술은 바꾸지 않았다. GLM 제안처럼 출처 칸의 「원문 미확인」을 지우는 것은 중국 합의에 대한 표기라 지우지 않았다.
+  - 전→후: 비고 「한국 학회의 무증상 담석 지침이 있는지도 TODO 확인 필요.」 → 대한소화기학회 권고 문구와 예외 세 가지·용혈성 빈혈 예외 문장으로 교체. 출처에 현명한 선택 URL 추가. TODO는 중국 합의 적응증 목록만 남겼다.
+  - URL: http://www.choosingwisely.co.kr/?module=Board&action=SiteBoard&sMode=SELECT_FORM&iBrdNo=1&type=14 ; http://www.choosingwisely.co.kr/?module=Board&action=SiteBoard&sMode=MENU_FORM&iBrdNo=1 ; https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:34839607%20AND%20SRC:MED&resultType=core&format=json
+- TODO 4(제22항 팔찌 효능 광고 정부 원문) — 반영, TODO 삭제.
+  - 확인: 식약처 게시물(등록 2019-03-18) 첨부 PDF(155KB, 임시 폴더)를 pdftotext로 열었다. 「배포 2018.8.16.(목)」, 「온라인 사이트 6,624곳을 점검한 결과 의료기기 거짓·과대광고를 1,832건 적발」, 「의료기기인 것처럼 광고(오인 광고) 1,164건」, 「오인 광고 대표적인 사례는 공산품인 팔찌를 판매하면서 '혈액 순환, 통증 완화, 면역력 강화' 등에 효과가 있다는 광고입니다.」 GLM은 이 숫자가 언론 경유뿐이라 했으나 정부 원문에 있다. 원안위 게시물 첨부 파일명 「210305_원안위-소비자원, 음이온 부당광고 제품 합동 점검 추진 _공동보도자료.hwp」와 안전재단 재게시 본문 「신체 밀착·장기 착용하는 제품(침구, 마스크, 장신구 등)」을 확인했다.
+  - 공정위 2006년 「건강프러스」 건: 본문에 원래 그런 서술이 없다(GLM 착오). 반영할 것 없음. K-공감 칼럼은 개인 칼럼이라 쓰지 않았다.
+  - 전→후: 비고에 식약처 2018년 상반기 점검의 오인 광고 1,164건과 팔찌 대표 사례, 원안위·소비자원 2021년 합동 점검의 장신구 대상 문장을 더했다. 출처에 두 보도자료 URL 추가.
+  - URL: https://www.mfds.go.kr/brd/m_662/view.do?seq=6 (첨부 https://www.mfds.go.kr/brd/m_662/down.do?brd_id=abcd0&seq=6&data_tp=A&file_seq=2) ; https://www.nssc.go.kr/ko/cms/FR_BBS_CON/BoardView.do?SITE_NO=2&BOARD_SEQ=5&BBS_SEQ=46009&MENU_ID=190&CONTENTS_NO=1 ; https://www.kofons.or.kr/web/cop/bbsWeb/selectBoardDetail.do?BBSMSTR_000000000431&nttId=13856
+- TODO 5(제28항 교정 치료 판례) — 부분.
+  - 확인: GLM의 「모두 0건」은 검색어 인코딩 문제로 보인다. node fetch로 UTF-8 쿼리를 보내 다시 돌렸다(search=2 본문검색). 「동성애 치료」 7건, 「동성애를 치료」 7건, 「성적 지향 교정」 4건, 「"전환치료"」 0건. 7건은 난민 사건(2017두51020, 2012구합32581), 성별 정정(2009스117, 2001호파997), 산재 판례였고, 4건은 2023두36800·2019도3047·2016두32992·94나15358이었다. 난민 두 건의 「치료」는 신청인의 정신과 치료 이야기라 교정 치료가 아니다. 인권위 결정례 DB는 열지 않아 GLM 주장을 쓰지 않았다.
+  - 전→후: 비고에 「성적 지향 '교정' 자체의 위법성을 다룬 한국 법원 판결은 찾지 못했습니다(국가법령정보센터 판례 본문검색, 2026-10-22).」를 더했다. TODO는 대법원 종합법률정보 재검색으로 좁혔다.
+  - URL: https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=prec&type=XML&search=2&query=%EB%8F%99%EC%84%B1%EC%95%A0%20%EC%B9%98%EB%A3%8C
+
+정리: 반영 2(TODO 2·4 삭제), 부분 3(TODO 1·3·5를 좁혀 유지), 유지 0. TODO 목록은 3줄로 다시 번호를 매겼다. `kr-fit.mjs 06 --check` → block 0 · warn 0.
+
+### 재검토 warn 수정 (2026-10-22, 오케스트레이터)
+
+- 제20항 비고: 학회 원문이 예외를 「등」으로 든 예시이고 「의료진이 필요하다고 판단하는 경우」로 끝맺는 점을 반영해 「예를 들어」, 「담낭암 위험이 높을 때」, 마지막 문장을 추가. http://www.choosingwisely.co.kr/?module=Board&action=SiteBoard&sMode=SELECT_FORM&iBrdNo=1&type=14
