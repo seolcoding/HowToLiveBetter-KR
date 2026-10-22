@@ -320,3 +320,29 @@ URL: https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=289809
 기타: 내려받은 포스터 PDF는 저장소 밖 `$TEMP/kr30r3/`에 두었다. 전화번호는 새로 넣지 않았다.
 
 검증: `node .claude/skills/kr-verify/scripts/kr-fit.mjs 30 --check` → block 0 · warn 0 → 통과. 본문 해시가 바뀌었으므로 kr-fit-review.md는 다시 검토받아야 한다.
+
+## 4차 조사 반영 기록 (2026-10-23)
+
+대상 기록: `kr-harness/research/30-r4oc.md`(opencode GLM 5.3 Flash). 판정을 믿지 않고 DRF 원문을 직접 열었다.
+
+- T1 제17항 이용료 전국 공통 기준 — **부분**
+  - 직접 확인: 건강가정기본법(MST 276869, 시행 2025-10-01)·시행령(MST 275227, 시행 2025-10-23)·시행규칙(MST 279255, 시행 2025-10-23) XML 전문에서 「이용료·징수·수강료·무료」를 찾았다. 나온 것은 과태료 징수와 국가·지자체 비용 보조(법 제35조 제6항, 규칙의 가정봉사원 교육비 보조)뿐이고 이용자 부담 조항은 없었다. 시행령 제4조의2 제3항 「지방자치단체가 설치·운영하는 가족센터의 조직과 운영에 필요한 사항은 해당 지방자치단체의 조례로 정한다」 원문 확인.
+  - 강남구 조례(MST 2023167, 2025-03-21) 제13조 제1항 「센터를 이용하는 자에게는 별표에서 정하는 시설 이용료 및 실비차원의 각종 프로그램 운영비(수강료 등)를 구청장의 사전 승인을 거쳐 징수할 수 있다」 원문 확인. 별표(hwpx, 법령정보센터 flDownload, 51KB, 저장소 밖 `$TEMP/kr30dl/`)를 풀어 「가족교육사업 공개강좌, 가정경영교육 1인/월 무료～10만」 확인. 기록의 「별표가 금액 범위(무료~10만 원)를 정한다」는 이 한 줄에 해당하는 값이라 본문은 「가족교육 공개강좌」로 범위를 좁혀 썼다(별표의 다른 줄은 2만~15만 원, 13만~23만 원 등).
+  - 노원구 조례(MST 1871187, 2023-11-09)는 XML에 「이용료」가 한 번도 나오지 않음을 확인. 자치법규 검색(query=노원구 가족센터)으로 이것이 최신본(시행 2023-11-09)임도 확인.
+  - 성평등가족부 가족사업안내 원문은 이번에도 확보하지 못했다. 그래서 TODO는 지우지 않고 이 한 쟁점으로 좁혔다.
+  - 본문 변경(제17항 이득 칸 끝): 전 「…참가비 1,000원을 받았습니다.」 → 후 그 뒤에 「전국 공통 기준은 법·시행령·시행규칙에서 찾지 못함(2026-10-23) / 시행령 제4조의2 제3항 조례 위임 / 강남구 조례 제13조 구청장 사전 승인 징수 / 별표 가족교육 공개강좌 1인 한 달 무료~10만 원 / 노원구 조례에는 이용료 조항 없음」 5문장 추가. 출처 칸에 시행령·시행규칙·강남구 조례·노원구 조례 DRF URL 추가. 쉽게·비용 칸은 그대로.
+  - 확인 URL: https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=276869&type=XML · https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=275227&type=XML · https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=279255&type=XML · https://www.law.go.kr/DRF/lawService.do?OC=test&target=ordin&MST=2023167&type=XML · https://www.law.go.kr/flDownload.do?gubun=ELIS&flSeq=151003937 (flNm 붙여야 200) · https://www.law.go.kr/DRF/lawService.do?OC=test&target=ordin&MST=1871187&type=XML
+
+- T2 제18항 하동 서당·합숙 교습소 판결문 — **유지**
+  - 직접 확인: 판례 API 본문검색(search=2) 「서당」 totalCnt 9, 「청학동」 19, 「합숙」 70. 「서당」 9건의 사건번호·선고일(2018노1659, 2016노3226, 2014도13280, 2014노1221, 2008누2126, 93고합1003, 85다카2508, 86노3515 등)에 2022년 진주지원·창원지법 사건이 없고, 「합숙」 결과에 2021-02-11 선고 사건이 없음. 기록의 결론(두 사건 미등재)과 일치.
+  - 기록이 백업으로 든 2019고단1776·2025도16040·2022도1718은 부모가 맡긴 기숙형 민간 시설 사건이 아니어서 반영하지 않았다. 형제복지원 계열은 감금 무죄 확정이라 근거로 쓸 수 없다는 기록 판단도 따랐다.
+  - 본문 변경 없음. TODO 줄만 확인 날짜와 검색 범위(2026-10-23, 서당 9·청학동 19·합숙 70건)로 고쳐 썼다. 남은 쟁점: 두 사건의 판결문 확보, 합숙 사건의 감금죄 포함 여부.
+  - 확인 URL: https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=prec&type=XML&search=2&display=100&query=서당 · 같은 형식 query=청학동 · query=합숙
+
+TODO: 2건 그대로(둘 다 범위만 좁힘). 배너 「TODO 2건」 유지. 본문 인라인 「TODO」 없음(grep 확인: 배너와 `## TODO 확인 필요` 제목만).
+
+검증: `node .claude/skills/kr-verify/scripts/kr-fit.mjs 30 --check` → block 0 · warn 0 → 통과. 본문 해시가 바뀌었으므로 kr-fit-review.md는 다시 검토받아야 한다.
+
+### 재검토 warn 수정 (2026-10-23, 오케스트레이터)
+
+- 제17항: 노원구 조례 문장에 판본·확인 날짜를 붙임. https://www.law.go.kr/DRF/lawService.do?OC=test&target=ordin&MST=1871187&type=XML
