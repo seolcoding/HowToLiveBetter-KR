@@ -587,3 +587,7 @@ opencode(GLM 5.3 Flash) 기록 kr-harness/research/33-r3.md(4건 중 「해결�
 - URL: https://www.law.go.kr/DRF/lawService.do?OC=test&target=ordin&MST=2056729&type=XML ; https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000284536&type=XML ; https://www.law.go.kr/LSW/flDownload.do?flSeq=168914055 (별표 6) ; https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000284536
 
 자체 확인: `node .claude/skills/kr-verify/scripts/kr-fit.mjs 33 --check` → 「전체: 1개 파일 — block 0 · warn 0 → 통과」. TODO는 3건 그대로(모두 부분·유지)라 배너 건수 변경 없음. 본문이 바뀌었으므로 kr-fit-review 해시는 다시 받아야 한다.
+
+### 오케스트레이터 수정 (2026-10-23)
+
+- 제20항 비고: 「실제로는 더 오래 걸립니다」를 「단독·합의 사건과 판결까지 가는 사건은 실제로 이보다 오래 걸립니다」로 좁힘. 사법연감 표 29의 소액 처리 계 142.1일은 5개월(약 150일)보다 짧음(제15절 재검토에서 같은 문제 지적).
