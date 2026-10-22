@@ -97,3 +97,4 @@ TODO가 남은 33개 절 모두 3차 조사·반영·재검토(warn 수정 후 �
 
 - 00:05 Gemini 3.8 Flash가 시험 호출에 응답해 10·13·01절 4차 조사를 띄웠으나, 시작 직후 세 개 모두 429(Flash 56h55m 뒤 리셋). Argon 43h45m, Claude 103h 뒤 리셋. agy 전 모델 사용 불가.
 - 목표 6항대로 `wait-agy-any.sh`로 5시간마다 Argon·Flash를 시험하고, 풀리면 `run-agy-r4.sh`로 남은 56건(28개 절)을 3개씩 재개한다.
+- 00:20 agy가 10-24 19:50(Argon)까지 막혀 있어, 사용자의 앞선 지시(agy 안 되면 opencode GLM으로 대신)대로 이 세션이 opencode로 4차를 먼저 돌린다. 지시문 `OC-PROMPT-R4.md`, 실행 `run-oc-r4.sh`, 기록은 같은 `NN-r4.md`(머리글에 opencode 표기). agy가 풀리면 `NN-r4.md`가 이미 있는 절은 건너뛰거나 `NN-r4b.md`로 따로 쓴다.
