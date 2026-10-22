@@ -157,3 +157,28 @@ TODO 8개 → 5개(제7·16·20·22·28항). kr-fit: block 0 · warn 0.
 ### 재검토 warn 수정 (2026-10-22, 오케스트레이터)
 
 - 제20항 비고: 학회 원문이 예외를 「등」으로 든 예시이고 「의료진이 필요하다고 판단하는 경우」로 끝맺는 점을 반영해 「예를 들어」, 「담낭암 위험이 높을 때」, 마지막 문장을 추가. http://www.choosingwisely.co.kr/?module=Board&action=SiteBoard&sMode=SELECT_FORM&iBrdNo=1&type=14
+
+## 4차 조사 반영 기록 (2026-10-23)
+
+반영 대상: `kr-harness/research/06-r4oc.md`(opencode GLM 5.3 Flash). 판정은 믿지 않고 사실마다 원문을 다시 열었다. 브라우저 자동화 없이 curl·node로만 확인했다.
+
+- TODO 1(제7항 KOSIS 표의 종양 표지자 항목) — 부분.
+  - GLM 주장 「921개 행 전수 대조 결과 표지자 0건」은 재현하지 못했다. statHtmlContent.do 응답에는 분류 코드(A03, A0301…)만 있고 이름이 없다. 이름을 주는 searchRangeDetail.do POST는 「비정상적인 서비스 이용으로 접근이 차단되었습니다」를 돌려줬고, treeInfo.do는 오류 페이지였다. 그래서 KOSIS 표 자체에 대한 GLM 결론은 본문에 쓰지 않았다.
+  - 대신 통계의 원천인 보고 항목 고시를 열었다. 보건복지부 고시 제2026-38호(발령·시행 2026-02-23) 「비급여 진료비용 등의 보고 및 공개에 관한 기준」 제5조 ①「의료기관의 장이 보고해야 하는 항목은 [별표 1]과 같다」. 별표 1 전체에서 「표지자」는 1회뿐이다: 제2호(진료내역이 있는 경우에 한하여 보고해야 하는 항목) 가목 9번 「CZ2920000 종양표지자검사 p2PSA[정밀면역검사]-Prostate Health Index(PHI)로 실시한 경우 산정」. CEA·AFP·CA19·CA125·CA 125·CA-125·암배아·알파태아는 0회(ALPHA 2회는 치료재료 제품명).
+  - 전→후: 비용 칸 「이 표에서 종양 표지자 검사 가격은 아직 확인하지 못했습니다.」 → 통계가 보고 항목으로 만들어지고 보고 항목은 고시가 정한다는 점, 2026년 2월 고시의 표지자는 p2PSA(PHI) 하나이고 진료 내역이 있을 때만 보고한다는 점, CEA·AFP·CA19-9·CA125는 보고 항목에 없어 현행 기준으로는 이 통계에 잡히지 않는다는 문장으로 교체. 출처 칸에 고시 별표 URL 추가.
+  - TODO는 「KOSIS 표 행 목록 직접 대조(2021~2025년 값은 옛 고시 기준일 수 있음, KOSIS 차단)」로 좁혀 유지.
+  - URL: https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000274952&type=XML ; https://kosis.kr/statHtml/statHtmlContent.do?orgId=354&tblId=DT_354006_2021A016&conn_path=I2
+- TODO 2(제20항 중국 합의 수술 적응증) — 반영, TODO 삭제.
+  - 확인: lcgdbzz.org PDF(1.2MB, 임시 폴더)를 pdftotext로 열었다. 머리글 「中华外科杂志 2021 年 11 月第 59 卷第 11 期」, DOI 10.3760/cma.j.cn112139-20210811-00373. 「胆囊良性疾病的手术指征：（1）胆囊结石，无论是否有症状；（2）有相关并发症，如继发性胆总管结石、胆管炎、胆源性胰腺炎等；（3）具有胆囊癌危险因素，如胆囊萎缩、充满型结石、瓷化胆囊、胆囊壁增厚（≥3 mm）、胆囊肿瘤性息肉等；（4）合并先天性胰胆管汇合异常、原发性硬化性胆管炎、肥胖与糖尿病等；（5）胆囊畸形等」. 「由于胆囊结石是胆囊癌的危险因素，无论其有无症状，均有手术指征」. 「推荐 4：胆囊结石患者无论有无症状，均推荐实施胆囊切除术。对于暂不接受手术治疗的无症状胆囊结石患者，应密切随访，如出现症状、胆囊结石相关并发症及胆囊癌危险因素时，应及时实施胆囊切除术。」 Europe PMC로 PMID 34839607 서지(Zhonghua Wai Ke Za Zhi 2022;60(1):4-9, 같은 DOI) 확인. 본문 서지는 최종판(60(1))을 유지하고, PDF는 선출간판 표기라고 적었다.
+  - 전→후: 비고 「수술 적응증을 제시했습니다. 일부 무증상 담낭결석도 수술 대상으로 포함했습니다. … 합의 전문은 구독이 필요합니다. 어떤 경우를 수술 대상으로 보는지는 TODO 확인 필요.」 → 「증상이 있든 없든 담낭절제를 권합니다」, 이유(담낭암 위험 요인), 미수술자 추적과 즉시 수술 조건, 위험 요인 목록과 (4)항 목록. 「일부 무증상」은 원문보다 좁게 쓴 것이라 바로잡았다. 출처 칸의 「(전문은 구독 필요, 원문 미확인)」 → 선출간판 PDF URL과 원문 두 구절.
+  - URL: https://www.lcgdbzz.org/fileLCGDBZZ/cms/news/info/8f5d2262-cfda-43e6-b016-7c2c1eae4d5a.pdf ; https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:34839607%20AND%20SRC:MED&resultType=lite&format=json
+- TODO 3(제28항 교정 치료 판례) — 유지(쟁점 좁힘).
+  - 확인: 국가법령정보센터 DRF 판례 본문검색(search=2) 재실행. 「성적 지향을 교정」 4건(2023두36800, 2019도3047, 2016두32992, 94나15358), 「동성애를 교정」 1건(2019도3047), 「전환 요법」 43건(특허·부가세·부당해고·의료 등 무관 사건). GLM이 연 약 30건 전수와 기타 키워드 건수는 재현하지 않았고 본문에 쓰지 않았다. glaw.scourt.go.kr는 curl에서 「Could not resolve host」. portal.scourt.go.kr는 200을 주지만 본문이 비어 있어(스크립트 페이지) 검색하지 못했다.
+  - 전→후: 비고 확인일 「2026-10-22」 → 「2026-10-23」. TODO는 「대법원 쪽 하급심 검색, glaw DNS 미해결」로 고쳐 씀.
+  - URL: https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=prec&type=XML&search=2&display=20&query=%EC%84%B1%EC%A0%81%20%EC%A7%80%ED%96%A5%EC%9D%84%20%EA%B5%90%EC%A0%95
+
+정리: 반영 1(TODO 2 삭제), 부분 1(TODO 1 좁힘), 유지 1(TODO 3). TODO 목록은 2줄로 다시 번호를 매겼다. `kr-fit.mjs 06 --check` → block 0 · warn 0.
+
+### 재검토 warn 수정 (2026-10-23, 오케스트레이터)
+
+- 제7항: KOSIS 2021~2025년 표가 그해 고시 기준으로 모였을 수 있다는 단서를 본문에 추가. https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000274952&type=XML
