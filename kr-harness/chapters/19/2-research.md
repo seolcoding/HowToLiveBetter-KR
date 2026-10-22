@@ -343,3 +343,17 @@ TODO3 현행 과태료는 해소 표시. 기존 미확인1·2·4·5·6·7·8은 
 
 ### 재검토 warn 수정 (2026-10-22, 오케스트레이터)
 - 제11항: 「…우편, 근로복지공단 대표전화 1588-0075(평일 9~18시)로도 낼 수 있습니다」→「지사 방문, 팩스, 우편으로도 낼 수 있습니다. 신청 방법은 근로복지공단 대표전화 1588-0075(평일 9~18시)에 물어보세요」. 공단의 「유선(1588-0075)」 접수 안내는 민원 일반이라 최초요양신청서 전화 접수 근거가 아님.
+
+## 3차 조사 반영 기록 (2026-10-22)
+
+조사 기록 `kr-harness/research/19-r3.md`(opencode GLM 5.3 Flash, 2건 모두 「해결」 판정)를 반영했다. 판정은 믿지 않고 원문을 다시 열었다. 결과: 반영 2, 부분 0, 유지 0. TODO 2 → 0(`## TODO 확인 필요` 제목 삭제, 배너 「TODO 0건」).
+
+- T1 규폐 잠복기 — 반영(기록과 다른 출처로). 기록의 CDC 구 주소(/niosh/topics/silica/risks.html)는 curl 403, web.archive.org 보관본은 curl·WebFetch 모두 차단돼 열지 못했다. CDC 현행 페이지 「Symptoms and Medical Monitoring | Silica」(2026-07-07)를 WebFetch로 열어 확인: 「The time from initial exposure to when symptoms first appear (the latency period) depends on duration and intensity of exposure.」「Higher exposures result in shorter latency periods…」「This can occur after a few weeks or months of exposure to very high levels of RCS.」「Accelerated silicosis occurs after high levels of exposure and typically occurs after 5 to 10 years.」「Chronic silicosis is the most common type. It occurs after 10 or more years of exposure to lower levels of RCS.」 현행 페이지에는 기록이 인용한 「노출을 그만둔 뒤에도 발병·진행」 문장이 없어 그 문장은 CDC 근거로 쓰지 않았다(본문의 해당 내용은 기존 Lancet 총설 근거). 조건 「lower levels」「high levels」「very high levels」는 빼지 않고 옮겼다. Handra 2023 초록(PubMed 37258484, NCBI efetch)에서 「The latency period for silicosis ranges from a few years to several decades, depending on the duration and intensity of exposure」 확인. NHS(10–20년)·Akkachotikul 2026(증례보고)·WHO 2000 보관본은 쓰지 않았다(NHS는 CDC와 범위가 달라 섞지 않음, 증례보고는 근거 약함, WHO는 미열람).
+  - 제10항 이득: 「…폐 기능이 더 나빠집니다.」 뒤에 6문장 추가 — 기간은 노출 기간·강도에 따라 다름, NIOSH 구분: 만성(가장 흔함) 낮은 농도 10년 이상, 가속형 높은 농도 보통 5~10년, 급성 아주 높은 농도 몇 주~몇 달, 총설은 몇 년~수십 년. 쉽게 칸은 손대지 않음.
+  - 출처 칸: NIOSH/CDC 현행 페이지, Handra 2023 DOI 추가. 도입부에 `kr-doi-add: 10.31083/j.fbl2805096` 주석 추가.
+  - URL: https://www.cdc.gov/niosh/silica/symptoms/index.html · https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=37258484&rettype=abstract&retmode=text
+- T2 판례 사법정보공개포털 개별 링크 — 반영. 포털 설정(/pgp/websquare/config.xml)과 상세 화면 정의(/pgp/ui/pgp1000/PGP1011M04.xml)에서 본문 조회 API `/pgp/pgp1011/selectJdcpctCtxt.on`(POST, `{"dma_searchParam":{"jisCntntsSrno":…}}`)을 찾아 비로그인으로 세 번호를 직접 조회했다. `orgdocXmlCtt` 첫머리: 3271737 「대법원 2021. 10. 14. 선고 2021다227100 판결 [손해배상(국)] [미간행]」, 2192309 「대법원 2015. 11. 27. 선고 2015두48136 판결 [부당해고구제재심판정취소] [공2016상,74]」, 2226493 「대법원 2017. 2. 3. 선고 2016다255910 판결 [해고무효확인] [공2017상,514]」. 세 건 모두 사건번호·선고일이 본문과 일치. 상세 주소(main.on?w2xPath=PGP1011M04&jisCntntsSrno=…)는 HTTP 200(셸 HTML, 본문은 JS로 그림).
+  - 제2·3·7항 출처 칸: 국가법령정보센터 DRF 링크는 유지하고 바로 뒤에 「(사법정보공개포털 https://portal.scourt.go.kr/pgp/main.on?w2xPath=PGP1011M04&jisCntntsSrno=3271737 / 2192309 / 2226493)」 병기. 기록이 제안한 csNoLstCtt 대안 형식은 사건별로 확인하지 않아 쓰지 않았다.
+  - URL: https://portal.scourt.go.kr/pgp/pgp1011/selectJdcpctCtxt.on (POST) · https://portal.scourt.go.kr/pgp/ui/pgp1000/PGP1011M04.xml
+
+자체 확인: `node .claude/skills/kr-verify/scripts/kr-fit.mjs 19 --check` → block 0 · warn 0 → 통과.
