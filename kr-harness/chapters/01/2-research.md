@@ -361,3 +361,16 @@ opencode GLM 5.3 Flash 기록(kr-harness/research/01-r4oc.md, 3건: 해결 2·�
 
 - 제14항: 부산의료원 값이 약제비(약값만)이며 B형간염 백신임을 밝히고 진찰료 별도 안내 추가. https://www.busanmc.or.kr/busanmc/index.php?pCode=nonpayitems&mode=list&CgCode=3
 - 제38항: 명단 페이지의 운영 주체를 단정하지 않도록 비고·출처 수정(공지가 안내한 링크, 운영 주체 표기 없음). https://www.gwangsan.go.kr/health/boardView.do?pageId=health171&boardId=BNEWS&seq=1770877
+
+## 11차 일관성 반영 기록 (2026-10-23)
+
+근거: `kr-harness/research/AUDIT-CONSISTENCY-2026-10-23.md` 표 2행(Deisenhammer 면담 시점)과 3행(HPV 대상).
+
+- **제32항 이득 — 반영.**
+  - Europe PMC REST로 초록 원문 확인: 「Eighty-two patients referred to a psychiatric university hospital after a suicide attempt were approached within 3 days after the act.」 https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:19026258%20AND%20SRC:MED&resultType=core&format=json
+  - 3일의 기준은 입원일이 아니라 시도일이다. 08-14의 「시도 후 3일 안에」가 원문과 맞고, 08절은 고치지 않았다.
+  - 전→후: 「자살 시도자 82명을 입원 3일 안에 면담했습니다.」 → 「자살 시도자 82명을 시도 후 3일 안에 면담했습니다.」 출처에 PubMed 링크(https://pubmed.ncbi.nlm.nih.gov/19026258/) 추가.
+- **제16항 이득 — 반영.**
+  - 질병관리청 예방접종도우미 HPV 국가예방접종 페이지 사업대상: 「12세 남성 청소년 (2014.1.1.~2014.12.31. 출생자) (2026.5.6.~시행)」「12~17세 여성 청소년 (2008.1.1.~2014.12.31. 출생자)」「18~26세 저소득층 여성 (1999.1.1.~2007.12.31. 출생자)」. 저소득층 정의: 「「국민기초생활보장법」상 기초생활보장수급자 및 기준중위소득 50% 이하의 차상위계층」. https://nip.kdca.go.kr/irhp/infm/goVcntInfo.do?menuLv=1&menuCd=132
+  - 이득 칸에는 이미 「다만 18~26세 여성은 저소득층만 대상입니다」가 있었다. 저소득층의 범위와 남성 시행일을 원문대로 보탰다.
+  - 전→후: 「다만 18~26세 여성은 저소득층만 대상입니다.」 → 「다만 18~26세 여성은 기초생활보장수급자와 차상위계층만 대상입니다. 12세 남성 접종은 2026년 5월 6일부터입니다.」 출처에 예방접종도우미 페이지 추가. 「쉽게」 칸은 바꾸지 않았다.
