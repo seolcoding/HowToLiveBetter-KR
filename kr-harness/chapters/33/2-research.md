@@ -675,3 +675,7 @@ opencode(GLM 5.3 Flash) 기록 kr-harness/research/33-r3.md(4건 중 「해결�
 - URL: https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000252270 ; https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000276312&type=XML ; https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000271506&type=XML ; https://hub.kead.or.kr/atdvPrdctListPage.do?pageIndex=1 ; https://www.nrc.go.kr/education/html/content.do?depth=ei&menu_cd=01_06_01
 
 자체 확인: `node .claude/skills/kr-verify/scripts/kr-fit.mjs 33 --check` → 「전체: 1개 파일 — block 0 · warn 0 → 통과」. 본문이 바뀌었으므로 kr-fit-review 해시는 다시 받아야 한다.
+
+### 8차 재검토 warn 반영 (2026-10-23)
+- 제15항: 국립재활원 누리집(면허조건 A·D·E~I, 장애 미등록도 의사 소견으로 신청, 1종 보통·2종 보통 자동)을 사업안내 Ⅱ(E~I)와 나란히 적고 신청 전 확인을 권했다. A·D의 뜻은 시행규칙에 부호가 없어 풀지 않았다. 고용공단 지원 대상이 「직업생활에 필요한」 기기라는 안내를 넣었다.
+- 제18항: 송달료를 대법원 비용 안내 표(52,000원, 10회분)와 청구서 양식(당사자 1인당 10회분) 두 기준으로 나란히 적었다.
