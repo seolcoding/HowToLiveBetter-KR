@@ -992,3 +992,5 @@ TODO 수는 3건 그대로다. 첫째 줄을 좁혔다.
 - https://www.mohw.go.kr/board.es?mid=a10411010100&bid=0019&act=view&list_no=1485015
 
 자체 확인: `node .claude/skills/kr-verify/scripts/kr-fit.mjs 33 --check` → 「전체: 1개 파일 — block 0 · warn 0 → 통과」. 본문이 바뀌었으므로 kr-fit-review 해시는 다시 받아야 한다.
+
+- 29차 재검토 warn 반영: 정신질환자 공공후견 사업의 대상(만 19세 이상, 청구할 가족 없는 사람 우선)과 예산 성격을 밝힘. 「청구인 등」 문장을 예규 별표 칸 설명으로 고침. 50자 넘는 세 문장을 나눔.
