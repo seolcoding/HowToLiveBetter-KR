@@ -270,3 +270,6 @@ TODO 2건 → 2건(둘 다 부분, 쟁점을 좁힘). 상태 배너 「TODO 2건
 - 확인 URL: https://www.health.kr/api/searchDrug?page=1&limit=30&bohCode=645101681 · https://www.health.kr/api/drug/A11ABBBBB2803?expert=0 · https://www.health.kr/drug/A11ABBBBB2803 · https://nedrug.mfds.go.kr/searchDrug (searchDivision=detail, ingrName1=피토나디온) · https://nedrug.mfds.go.kr/pbp/CCBBB01/getItemDetail?itemSeq=197400268 · https://health.kdca.go.kr/healthinfo/biz/health/unifiedSearch/wisenutApiResult.do · https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=5721 · https://www.neonatology.or.kr/board/list.html?num=3038&code=discharge · https://www.neonatology.or.kr/board/list.html?num=3068&code=premature · https://www.ebi.ac.uk/europepmc/webservices/rest/search
 - python·브라우저 자동화·git 명령은 쓰지 않았다.
 - kr-fit: block 0 · warn 0 → 통과.
+
+### 10차 재검토 warn 반영 (2026-10-23)
+- 제7항 비고: 「그런데」 연결을 없애고 AAP 2003 문장과 「허가 사항의 신생아 출혈 예방 용법도 근육주사」를 먼저 둔 뒤 먹는 약 없음 문장을 이었다. 허가사항 「경구투여가 부적절한 경우 외에는」을 「먹는 약이 맞지 않는 경우가 아니면」으로 원문에 가깝게 고쳤다. 단일 성분 주사제 4개 가운데 국내용 유효 품목은 하나뿐(나머지 유효기간 만료·수출용)임을 덧붙였다.
