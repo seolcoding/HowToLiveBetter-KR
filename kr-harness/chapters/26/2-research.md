@@ -406,3 +406,82 @@ opencode GLM 5.3 Flash 기록(kr-harness/research/26-r4oc.md) 판정은 부분 1
 직접 확인한 URL: https://www.crms.go.kr/lay1/bbs/S1T123C131/A/23/list.do?rows=120&cpage=1 (condition=CONTS&keyword=…, 퍼센트 인코딩) ; https://www.crms.go.kr/lay1/bbs/S1T123C131/A/23/view.do?article_seq=10581 (·10580·10579·262585) ; https://www.crms.go.kr/lay1/S1T54C59/contents.do ; https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=285185&type=XML ; https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290813&type=XML ; https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=279649&type=XML ; https://www.msit.go.kr/bbs/view.do?sCode=user&mId=307&mPid=208&bbsSeqNo=94&nttSeqNo=3185942 ; https://www.msit.go.kr/ssm/file/fileDown.do?atchFileNo=50126&fileOrd=1&fileBtn=A ; https://www.kmrb.or.kr/main/na/ntt/selectNttList.do?mi=1145&bbsId=1032 ; https://www.kmrb.or.kr/main/na/ntt/selectNttCnInfo.do (POST nttSn) ; https://www.kmrb.or.kr/main/cm/cntnts/cntntsView.do?mi=1083&cntntsId=1004 ; https://ors.kmrb.or.kr/guide/video/info.do ; https://www.nars.go.kr/report/view.do?cmsCode=CM0018&brdSeq=18869 ; https://www.kmcc.go.kr/download.do?fileSeq=58369 ; https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=admrul&type=XML&display=100&search=2&query=(위 검색어, 퍼센트 인코딩). 다운로드 파일은 $TEMP/kr26r8에만 두었다.
 
 자체 확인: `node .claude/skills/kr-verify/scripts/kr-fit.mjs 26 --check` → block 0 · warn 0 · 예외 통과 0. 상태 줄 TODO 2건 그대로. 본문이 바뀌었으므로 kr-fit-review 해시는 다시 맞춰야 한다.
+
+## 14차 조사 반영 기록 (2026-10-23)
+
+결과: 부분 1 · 유지 1. 본문 TODO 2 → 2. 배너 「TODO 2건」 그대로.
+바뀐 항목: 제2항(비고·출처), TODO 첫 줄.
+
+### 인코딩 확인
+
+- 과기정통부 통합검색은 `https://www.msit.go.kr/search/ko/searchKo.do?qt=`다.
+- node로 EUC-KR 퍼센트 인코딩을 보냈다(iconv-lite).
+- 결과는 0건이고, 검색어가 깨져 되돌아왔다.
+- 같은 검색어를 UTF-8(encodeURIComponent)로 보내니 결과가 나왔다.
+- 이 사이트는 UTF-8을 쓴다. 8차 실패는 Git Bash curl 탓으로 본다.
+- 문체부 통합검색(`/site/search/search.jsp`)도 같았다.
+- UTF-8은 작동했고, EUC-KR은 깨져 0건이었다.
+- 문체부 보도자료 게시판(`pressList.jsp`)도 UTF-8로 검색했다.
+
+### T1 자사몰의 부가통신역무 해당 여부 — 부분(근거 보강, 미해결)
+
+- 과기정통부 통합검색어: 「부가통신사업 신고」「쇼핑몰 부가통신」.
+- 더 넣은 검색어: 「전자상거래 부가통신」「부가통신사업 신고 대상」.
+- 「부가통신역무 해당」「온라인 쇼핑몰 신고」도 넣었다.
+- 쓸 만한 결과는 카드뉴스 1건이었다.
+- 제목은 「부가통신사업 신고 제도안내」(2021-08-17)다.
+- 주소는 mId=214, nttSeqNo=3175397이다.
+- 그림 6장을 받아 직접 읽었다.
+- 2번 그림 원문: "앱 또는 웹을 통해 호스팅, 콘텐츠, 온라인쇼핑, 게임, SNS, 인터넷금융 등을 제공하는 것".
+- 3번 그림 원문: "부가통신사업을 경영하고자 하는 자는 과학기술정보통신부장관에게 신고".
+- 같은 그림: "※ 단, 자본금 1억원 이하 또는 오픈마켓 입점 사업자는 신고대상 제외".
+- 6번 그림 원문: "신고없이 사업을 경영한 자는 시정명령 또는 역무제공 중지, 징역(2년이하) 또는 벌금(1억원 이하) 대상임".
+- 그림 아래 표기는 「과학기술정보통신부 중앙전파관리소」다.
+- 성격: 홍보용 안내 자료다. 법령 해석이 아니다.
+- 「오픈마켓 입점 사업자」 제외는 시행령 제30조에 없다.
+- 그래서 안내 문구로만 인용했다.
+- 자사몰만 따로 짚은 문장은 없다. 해석 문제는 남는다.
+- 다른 결과는 규제 샌드박스, 요금 신고 면제 고시 등이었다.
+- 모두 자사몰과 무관했다.
+- 중앙전파관리소 홍보 리플릿 게시판 첨부 6개도 받았다.
+- 기관소개·무선국·전파민원 등이었다. 부가통신 리플릿은 없다.
+- 공지 「부가통신사업 신고대장 정비 안내」(2022-02-25)도 열었다.
+- 변경·휴폐업 신고 안내였다. 신고 대상 범위는 다루지 않았다.
+- 「부가통신사업 신고 매뉴얼」 원문은 찾지 못했다.
+- 찾은 곳: crms 공지·보도자료·고시 게시판, 과기정통부 통합검색, WebSearch.
+- 제2항 비고 전: "…통계 분류입니다. 다만 자기 물건만 파는 쇼핑몰을…"
+- 제2항 비고 후: 카드뉴스 두 문장을 인용했다.
+- "홍보용 안내 자료이고 법령 해석이 아닙니다"도 더했다.
+- 출처에 카드뉴스 URL을 더했다.
+- TODO 첫 줄에 카드뉴스와 통합검색 결과를 더했다. 줄은 남겼다.
+
+### T2 실시간 라이브의 비디오물 해당 여부 — 유지
+
+- 문체부 통합검색어: 「인터넷 개인방송 등급」「실시간 방송 비디오물」.
+- 결과는 각 629건·33건이었다.
+- 대부분 입찰공고·예산자료였다. 낱말이 흩어져 걸렸다.
+- 보도자료 제목 검색도 했다.
+- 「인터넷 개인방송」「개인방송」「인터넷방송」은 0건이었다.
+- 「등급분류」 12건, 「비디오물」 3건, 「OTT」 13건이었다.
+- 「온라인동영상」 23건, 「유튜브」 8건, 「실시간」 8건도 봤다.
+- 「실시간」 8건은 모두 무관했다.
+- 보도자료 본문은 첨부 PDF에만 있다.
+- PDF 9건을 받아 pdfjs와 CMap으로 텍스트를 뽑았다.
+- 대상 pSeq: 20044·20063·19650·19695·20114·20255·21962·22766·22707.
+- 「실시간」은 모두 "실시간 모니터링"이었다.
+- 자체등급분류 사업자 관리를 말한다.
+- 라이브 방송이 비디오물인지 다룬 문장은 없었다.
+- 「제7차 방송영상산업 진흥 중장기계획」(2026-09-10)도 읽었다.
+- 원문: "(OTT) 「영화비디오법」상 온라인비디오물 제공·유통 사업자".
+- 같은 곳: "(뉴미디어영상콘텐츠) 「문화산업진흥기본법」상 사용자제작문화콘텐츠, 숏폼, AI 영상, 버추얼휴먼 등 의미".
+- 이 구분은 산업 분류다.
+- 실시간 방송이 비디오물인지는 말하지 않는다.
+- 「2026년도 사업설명자료」 1·2권은 HWP 5 이진 파일이다. 열지 못했다.
+- 3권은 hwpx로 읽었다. 「실시간 방송」「개인방송」 0건.
+- 본문과 TODO 줄은 바꾸지 않았다.
+
+직접 확인한 URL: https://www.msit.go.kr/search/ko/searchKo.do?qt=(UTF-8·EUC-KR 퍼센트 인코딩) ; https://www.msit.go.kr/bbs/view.do?sCode=user&mId=214&mPid=208&bbsSeqNo=88&nttSeqNo=3175397 ; https://www.msit.go.kr/file/upload_multi/202108171428300a2c6459-81b8-4337-afdd-2ca044810481.jpg (2번) ; https://www.msit.go.kr/file/upload_multi/20210817142836fa541ce8-8aad-4b40-94d8-2878991a268b.jpg (3번) ; https://www.msit.go.kr/file/upload_multi/20210817142858b6c11f02-78e3-40c7-a21b-7c141464246c.jpg (6번) ; https://www.crms.go.kr/lay1/bbs/S1T1077C1054/H/70/list.do ; https://www.crms.go.kr/lay1/bbs/S1T30C31/A/10/view.do?article_seq=260950 ; https://www.mcst.go.kr/site/search/search.jsp?cmd=brief-total-kor&keyword=(UTF-8·EUC-KR) ; https://www.mcst.go.kr/site/s_notice/press/pressList.jsp?pMenuCD=0302010000&pSearchType=01&pSearchWord=(UTF-8) ; https://www.mcst.go.kr/site/s_notice/press/pressView.jsp?pSeq=20044 (·20063·19650·19695·20114·20255·21962·22766·22707) ; https://www.mcst.go.kr/site/s_data/budget/budgetView.jsp?pSeq=978&pMenuCD=0413000000. 다운로드 파일은 $TEMP/kr26r14에만 두었다.
+
+자체 확인: `node .claude/skills/kr-verify/scripts/kr-fit.mjs 26 --check` → block 0 · warn 0 · 예외 통과 0. 본문이 바뀌었으므로 kr-fit-review 해시는 다시 맞춰야 한다.
+- 14차 재검토 warn(같은 날): 비고에 「법령이 정한 면제는 자본금 1억 원 이하뿐, 오픈마켓 입점 사업자 제외는 시행령 제30조에 없음」(시행 2026-10-01 시행령 원문, 「오픈마켓」 0회)을 넣었다. 「같은 쪽입니다」를 풀어 쓰고 TODO 문장을 고쳤다.
+- 14차 재검토 block(같은 날): 「법령이 정한 면제는 자본금 1억 원 이하뿐」은 법 제22조 제5항 제2호(기간통신사업자 신고 의제)를 빠뜨려 틀렸다. 「카드뉴스의 두 제외 가운데 법령에 있는 것은 자본금 1억 원 이하뿐」으로 범위를 좁혔다. 58자 문장을 49자로 줄였다.
