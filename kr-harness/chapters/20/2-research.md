@@ -458,3 +458,81 @@ TODO 2건 → 2건(둘 다 부분, 쟁점을 좁힘). 상태 배너 「TODO 2건
 - https://www.kdca.go.kr/bbs/kdca/55/258914/download.do
 - https://www.pediatrics.or.kr/bbs/index.html?code=disease_info&category=C&page=1&number=8942&mode=view
 - python·브라우저 자동화·git 명령은 쓰지 않았다.
+
+## 22차 조사 반영 기록 (2026-10-23)
+
+- 판정: T1 부분(비고 보강, 쟁점 둘은 남음), T2 손대지 않음.
+- TODO는 2건 그대로다. T1 줄은 이번 결과로 고쳐 썼다.
+- 한글 검색은 node fetch와 encodeURIComponent로 보냈다.
+- 다운로드는 $TEMP/kr20r22에 두었다.
+
+### T1 비타민 K(제7항) — 부분
+
+- 약제 세부사항 고시 제2026-192호
+  - DRF 본문은 「전문」 버튼 안내뿐이다.
+  - 첨부 4개는 개정고시와 별지뿐이다.
+  - 별지는 지텍정 신설, 자카비정 변경이다.
+  - 버튼 파일(flSeq 40425753)은 gif 그림이었다.
+  - 그래서 전문은 심평원 책자로 대신 봤다.
+- 약제 세부사항 2024년 7월판(OAK 3428, 790쪽)
+  - 고시 제2024-130호까지 반영한 책이다.
+  - 「피토나디온」「phytonadione」 0건이다.
+  - 「비타민 K」는 1건이고 항응고제 문장이다.
+  - 약효분류표(인쇄 16쪽)에 「315 비타민E 및 K제」가 있다.
+  - 색인에는 311, 316 아래 품목만 있다. 315 아래는 없다.
+  - [일반원칙] 비타민제 원문(인쇄 98쪽): 「소모성 질환에는 허가된 용량 범위 내에서 투약한 경우 요양급여를 인정하며」
+  - 이 원칙은 신생아 예방 투여를 따로 말하지 않는다.
+  - 그래서 본문에는 「개별 기준은 없다」만 썼다.
+  - 「신생아」 26건은 다른 약 기준이다.
+- 2025년 7월판(OAK 3494)은 서지만 있고 파일이 없다.
+- 심평원 보험인정기준 내용 검색(2026-10-23)
+  - 「피토나디온」「Phytonadione」「Phytomenadione」 0건이다.
+  - 「비타민케이」「비타민K」「Vitamin K1」도 0건이다.
+  - 「비타민 K」 5건은 모두 clopidogrel 기준이다.
+  - 「Vitamin K」 4건은 신규 경구 항응고제 기준이다.
+  - 제목 「분만」 15건에 신생아 약 기준은 없다.
+- 퇴장방지의약품 목록(2026년 10월, xlsx)
+  - 표 제목: 「2026년 10월 퇴장방지의약품 목록(633품목)」
+  - 연번 513 행: 주사, 식약분류 315, 품목기준코드 196900027.
+  - 같은 행: 주성분코드 248830BIJ, 제품코드 645101681.
+  - 같은 행: 대한약품공업(주), mL/앰플, 상한금액 236.
+  - 같은 행 분류: 「생산원가보전」.
+  - 게시판 정의 원문: 「환자 진료에 반드시 필요하나 경제성이 없어 생산이나 수입을 기피하는 약제로 원가의 보전이 필요한 약제」
+  - 이 내용은 제7항 비고와 출처에 넣었다.
+- 행위 급여·비급여 목록표
+  - 현행 고시는 제2026-202호(2026.10.1. 시행)다.
+  - law.go.kr 첨부는 개정고시 hwpx·pdf 2개뿐이다.
+  - 요양급여비용 2025년 1월판(OAK 3492)은 파일이 없다.
+  - 그래서 2024년 1월판 확인(10·21차)을 그대로 둔다.
+  - 약값 별도 산정 문장은 이번에도 찾지 못했다.
+- 보건의료빅데이터개방시스템(이번에는 접속됐다)
+  - 성분코드 조회에서 「248830BIJ vitamin-K1」을 받았다.
+  - 성분 사용실적 탭은 시군구별, 종별, 상병별 셋이다.
+  - 연령 구분이 없어 신생아만 볼 수 없다.
+  - 의약품 사용 통계의 연령 구분은 약효분류 단위다.
+  - 315군은 비타민 E와 K를 함께 묶는다.
+  - 안내 원문: 「약품목수 또는 업체수 3개 이하인 경우」 제공 불가.
+  - 국내 유효 주사제가 1품목이라 이 규칙에 걸릴 수 있다.
+  - 상병별 조회를 POST로 보냈지만 결과가 비었다.
+  - 대조로 넣은 acetaminophen도 비어 조회 방식 문제로 본다.
+  - 그래서 청구 건수는 「확인 못 함」으로 둔다.
+- 남은 쟁점은 21차와 같다.
+  - 일상 투여를 적은 한국 1차 출처.
+  - 분만 때 약값을 따로 청구하는지 정한 문장.
+
+### 확인 URL
+
+- https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000285598&type=XML
+- https://www.law.go.kr/LSW/admRulAttFlList.do (admRulSeq=2100000285598, 2100000285728)
+- https://repository.hira.or.kr/handle/2019.oak/3428
+- https://repository.hira.or.kr/handle/2019.oak/3494
+- https://repository.hira.or.kr/handle/2019.oak/3492
+- https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrList.do?pgmid=HIRAA030069000400
+- https://www.hira.or.kr/bbsDummy.do?pgmid=HIRAA030019000000&brdScnBltNo=4&brdBltNo=364
+- https://www.hira.or.kr/bbs/bbsCDownLoad.do?apndNo=1&apndBrdBltNo=364&apndBrdTyNo=1&apndBltNo=55
+- https://opendata.hira.or.kr/op/opc/olapGnlInfoTab1.do
+- https://opendata.hira.or.kr/op/opc/olapMsupInfoTab1.do
+- python·브라우저 자동화·git 명령은 쓰지 않았다.
+
+- 22차 재검토 warn 반영: 「피토나디온」과 「약제 세부사항」을 풀어 씀(판본 표시는 유지). TODO 줄에 「업체수」를 원문대로 더함.
+- 22차 2회 재검토 warn 반영: 59자 문장을 두 문장으로 나눔.
