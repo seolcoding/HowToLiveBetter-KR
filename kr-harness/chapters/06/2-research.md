@@ -272,3 +272,83 @@ curl·node만 썼다. 임시 파일은 `$TEMP/kr06r18`.
   - https://www.nars.go.kr/report/list.do?page=1&cmsCode=CM0043&searchType=ALL&searchKeyword=%EC%A0%84%ED%99%98%EC%B9%98%EB%A3%8C
 
 정리: 부분 1. TODO 1건 유지(범위만 좁힘).
+
+## 31차 조사 반영 기록 (2026-10-23)
+
+node fetch만 썼다. 임시 파일은 `$TEMP/kr06r31`.
+브라우저 자동화·python은 쓰지 않았다.
+
+- TODO 1(제28항 하급심 판결) — 유지. 본문은 그대로다.
+- 경로 1: 대법원 「전국법원 주요판결」 게시판.
+  - 검색어는 EUC-KR 퍼센트 인코딩으로 GET 전송했다.
+  - 인코딩 확인: 「판결」 검색 3861건이 나왔다.
+  - POST 전송은 오류 쪽만 돌려줬다.
+  - 0건: 전환치료, 전환 치료, 동성애 치료, 탈동성애.
+  - 0건: 성적 지향, 성적지향, 감금 종교, 기도원.
+  - 0건: 동성애자, 레즈비언, 정신병원 감금.
+  - 「동성애」 2건: 대구지법 난민 사건, 서울행정법원 방송 사건.
+  - 「성소수자」 2건: 위 방송 사건, 서울서부지법 대관 취소.
+  - 방송 사건은 2021구합56077(2022-11-30 게시)이다.
+  - 차별금지법 반대 방송의 방통위 주의처분을 취소했다.
+  - 교정 행위를 다룬 사건은 아니다.
+  - 「치유」 12건은 모두 처분 하자 치유·상해 치유였다.
+  - 「동성」「성적 정체성」「퀴어」「개종」도 제목을 봤다.
+  - 교정 행위를 다룬 판결은 없었다.
+  - 이 게시판 검색은 사실상 제목(요지)만 본다.
+- 경로 2: 대법원 사법정보공개포털 판례 검색.
+  - 게시판이 「종합법률정보」로 안내하는 새 주소다.
+  - portal.scourt.go.kr는 DNS가 풀렸다.
+  - 화면 정의(PGP1011M01.xml)에서 조회 경로를 찾았다.
+  - 목록: POST /pgp/pgp1011/selectJdcpctSrchRsltLst.on
+  - 본문: POST /pgp/pgp1011/selectJdcpctCtxt.on
+  - 결과에 지방법원·고등법원 판결이 함께 나온다.
+  - 검색어 25개를 보냈다(UTF-8 JSON).
+  - 전환치료, 동성애 치료·치유·교정, 탈동성애.
+  - 성적 지향, 성소수자, 동성애, 감금 종교.
+  - 전환요법, 성적지향 교정, 성적 지향 전환 등이다.
+  - 검색은 낱말을 나눠 찾아서 결과가 넓다.
+  - 결과 판결 297건의 본문 전체를 내려받았다.
+  - 정규식으로 교정 관련 표현을 찾았다.
+  - 대상: 전환 치료·요법, 탈동성애, 동성애 치료·치유.
+  - 대상: 동성애 교정·극복, 성적 지향을 바꾸·교정.
+  - 297건 어디에도 해당 표현이 없었다.
+  - 본문에 「동성애」가 있는 판결은 28건이었다.
+  - 교정 행위를 다룬 판결은 찾지 못했다.
+  - 2025나10110(서울중앙지법, 2026-06-05)이 자주 걸렸다.
+  - 동성 동거 관계 파탄의 위자료 사건이다.
+  - 상세 화면의 표시는 「판결 : 확정」이다.
+  - 교정 행위와는 관계가 없다.
+- 경로 3: 국가인권위원회 인권e 결정례 검색.
+  - 주소는 case.humanrights.go.kr/dici/selectDiciList.do다.
+  - 검색 범위는 제목·주문요지다(search_type=all).
+  - 0건: 전환치료, 전환 치료, 성적 지향 교정.
+  - 0건: 동성애 치유, 동성애 치료, 탈동성애.
+  - 성적지향 2, 성적 지향 5, 동성애 5, 성소수자 18건.
+  - 트랜스젠더·성전환·치유 등도 더해 43건을 모았다.
+  - 43건의 상세 쪽 본문을 정규식으로 봤다.
+  - 걸린 것은 21정책0037(2021-12-23) 1건이다.
+  - 제목: 트랜스젠더 인권증진을 위한 정책권고.
+  - 걸린 곳은 유엔 2015년 최종견해를 옮긴 문장이다.
+  - 원문: 「대한민국 정부에 대해 “"전환치료"의 선전, …」
+  - 「… 용납하지 않는다는 것을 … 명시하여야」
+  - 24진정0104900과 같은 인용이다(18차에 제외).
+  - 교정 행위 자체를 다룬 진정이 아니어서 넣지 않았다.
+  - 인권위 결정은 법원 판결이 아니다.
+- 판단: 하급심까지 본문을 봤지만 판결은 찾지 못했다.
+- 제안(오케스트레이터 판단): TODO 문장 고쳐 쓰기.
+  - glaw 대신 사법정보공개포털을 검색했다고 적는다.
+  - 비고의 「찾지 못했습니다」 괄호에 이 경로를 더한다.
+  - 그러면 TODO를 지울 수 있다.
+- URL:
+  - https://www.scourt.go.kr/portal/dcboard/DcNewsListAction.work?gubun=44&pageIndex=1&searchOption=&searchWord=%C0%FC%C8%AF%C4%A1%B7%E1
+  - https://www.scourt.go.kr/portal/dcboard/DcNewsListAction.work?gubun=44&pageIndex=1&searchOption=&searchWord=%B5%BF%BC%BA%BE%D6
+  - https://www.scourt.go.kr/portal/dcboard/DcNewsViewAction.work?gubun=44&seqnum=24626&cbub_code=000220
+  - https://portal.scourt.go.kr/pgp/index.on?m=PGP1011M01&l=N&c=900
+  - https://portal.scourt.go.kr/pgp/ui/pgp1000/PGP1011M01.xml
+  - https://portal.scourt.go.kr/pgp/pgp1011/selectJdcpctSrchRsltLst.on
+  - https://portal.scourt.go.kr/pgp/pgp1011/selectJdcpctCtxt.on
+  - https://case.humanrights.go.kr/dici/diciList.do
+
+정리: 유지 1. TODO 1건. 본문 변경 없음.
+
+- 31차 정리: 사법정보공개포털(portal.scourt.go.kr)이 glaw의 후속이라 하급심 검색이 끝났다고 보고 제28항 비고에 검색 범위를 더하고 TODO 절을 지움(TODO 1→0).

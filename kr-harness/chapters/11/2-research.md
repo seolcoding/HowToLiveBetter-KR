@@ -401,3 +401,81 @@ UTF-8로 보내면 검색창에 「梨援?」처럼 깨져 0건이 된다.
 - https://www.scourt.go.kr/portal/dcboard/DcNewsListAction.work?gubun=44&pageIndex=1&pageSize=50&searchOption=&searchWord=%C3%A4%B1%BC
 - https://www.scourt.go.kr/portal/dcboard/DcNewsViewAction.work?seqnum=18904&gubun=44&cbub_code=000411
 - https://www.scourt.go.kr/portal/dcboard/DcNewsViewAction.work?seqnum=27147&gubun=44&cbub_code=000410
+
+## 31차 조사 반영 기록 (2026-10-23)
+
+판정: **유지**. 본문은 고치지 않았다. TODO 1건 그대로다.
+원문은 %TEMP%\kr11r31에 두었다.
+스크립트는 %TEMP%\kr11r31tool에 있다.
+검색어는 EUC-KR 바이트로 인코딩해 보냈다.
+응답은 TextDecoder('euc-kr')로 읽었다.
+게시판 검색은 제목만 찾는다(25차와 같다).
+
+### 1. 대법원 전국법원 주요판결 (gubun=44, 전 법원)
+
+- 「정보통신망 침입」 0 · 「정보통신망침입」 0.
+- 「무단 접속」 0 · 「접속」 17 · 「무단」 172.
+- 「계정」 13 · 「비밀번호」 26 · 「서버」 6.
+- 「가상화폐」 19 · 「암호화폐」 3 · 「코인」 18.
+- 「비트코인」 9 · 「채굴기」 1 · 「마이닝」 0.
+- 「전 직장」 1 · 「퇴직자」 4 · 「퇴사 후」 3.
+- 「전 회사」 4 · 「ID」 7 · 「도용」 27.
+- 「보안」 60 · 「테스트」 2 · 「취약」 5.
+- 「해커」 3 · 「악성코드」 1 · 「랜섬」 0 · 「디도스」 0.
+- 「정보통신망이용촉진」 29 · 「정보통신망법」 4.
+- 「전산」 20 · 「컴퓨터」 53 · 「로그인」 1.
+- 「사내」 16 · 「회사 서버」 2 · 「업무용」 6.
+- 「이메일」 17 · 「대행」 104 · 「해제」 161.
+- 제목을 다 훑었다. 대행·해제는 계정 사건이 없었다.
+
+### 2. 연 게시글과 첨부 판결문
+
+- 6769 대구지법 2010고단925(2010. 5. 6. 선고).
+  - 첨부 PDF는 스캔본이라 쪽 이미지로 읽었다.
+  - 원문: 「다른 연구원의 ID 및 비밀번호를 도용하는」.
+  - 원문: 「정당한 접근권한 없이 정보통신망에 침입하였다」.
+  - 침입 시점은 2009. 11. 24.~12. 29.이다.
+  - 퇴사일은 2009. 12. 31.경이다. 재직 중 침입이다.
+  - 동료 계정을 쓴 사건이다. 옛 본인 계정 접속이 아니다.
+  - 주문: 징역 1년, 집행유예 2년. 확정 여부는 모른다.
+  - TODO의 「퇴사자 옛 계정 접속」을 풀지 못한다.
+- 21689 울산지법 2019고단391(제목 검색으로 찾음).
+  - 요지: 「회사 대표의 ID와 비밀번호로 사내 통신망에 무단 접속」.
+  - 노조원들이 재직 중 대표 계정을 쓴 사건이다.
+  - 퇴사자·보안 테스트 사건이 아니다. 본문에 넣지 않았다.
+- 26538 수원고법 2024나20887: 게임 영구계정정지 민사.
+  - 이용자 본인이 해제를 청구한 사건이다. 대행이 아니다.
+- 20920 서울동부지법 2019고단1680 게시글을 다시 열었다.
+  - 요지: 이력서 위장 파일로 채굴 악성프로그램을 퍼뜨린 사건.
+  - 직원이 회사 서버로 채굴한 사건이 아니다.
+- 28189 수원고법 2025노1307 게시글을 다시 열었다.
+  - 요지: 「검사의 항소를 기각함」. 확정 여부는 없다.
+- 28454 영동지원 2025고단92: 학부모 항의전화 사건. 무관.
+- 10541 울산지법 2012노582: 타 통신사 전산 침입. 쟁점이 다르다.
+- 20503 서울동부지법 2018고단3829: 매크로 검색어 조작. 무관.
+
+### 3. 상급심 찾기
+
+- 게시판 「2025노1307」 0 · 「1307」 3(무관).
+- 게시판 「2019고단1680」 1 · 「1680」 3: 1심 게시글만 있다.
+- DRF 본문검색 「2025노1307」 0 · 「2019고단1680」 2(무관).
+- 「2010고단925」 12 · 「2019고단391」 8: 모두 무관하다.
+- 두 사건의 상급심은 이번에도 찾지 못했다.
+- 확정 여부는 그대로 「미확인」이다.
+
+### 4. 작업 중 주의
+
+- 빈 heredoc 명령을 한 번 실행했다(cat > /dev/null).
+- 파일은 만들지 않았다. 이후 쓰지 않았다.
+
+### 5. 확인 URL
+
+- https://www.scourt.go.kr/portal/dcboard/DcNewsListAction.work?gubun=44&pageIndex=1&pageSize=50&searchOption=&searchWord=%BA%F1%B9%D0%B9%F8%C8%A3
+- https://www.scourt.go.kr/portal/dcboard/DcNewsListAction.work?gubun=44&pageIndex=1&pageSize=50&searchOption=&searchWord=%C4%DA%C0%CE
+- https://www.scourt.go.kr/portal/dcboard/DcNewsListAction.work?gubun=44&pageIndex=1&pageSize=50&searchOption=&searchWord=%C5%F0%C1%F7%C0%DA
+- https://www.scourt.go.kr/portal/dcboard/DcNewsViewAction.work?seqnum=6769&gubun=44&cbub_code=000310
+- https://www.scourt.go.kr/portal/dcboard/DcNewsViewAction.work?seqnum=21689&gubun=44&cbub_code=000411
+- https://www.scourt.go.kr/portal/dcboard/DcNewsViewAction.work?seqnum=26538&gubun=44&cbub_code=000800
+- https://www.scourt.go.kr/portal/dcboard/DcNewsViewAction.work?seqnum=20920&gubun=44&cbub_code=000211
+- https://www.scourt.go.kr/portal/dcboard/DcNewsViewAction.work?seqnum=28189&gubun=44&cbub_code=000800
+- https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=prec&type=XML&display=100&search=2&query=2025%EB%85%B81307
