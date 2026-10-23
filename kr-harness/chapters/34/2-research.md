@@ -288,3 +288,4 @@ TODO 1 → 1. 상태 배너 「TODO 1건」 그대로.
   - https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000283246&type=XML (2026-155 부칙)
 - 본문이 바뀌었으므로 kr-fit-review 해시는 다시 받아야 한다.
 - 자체 확인: `kr-fit.mjs 34 --check` → block 0 · warn 0.
+- 13차 재검토 warn(같은 날): 「이 처방약은」으로 주어를 밝히고, 「2027년 1월 31일이 지나면 건강보험이 적용되지 않습니다. 약 허가가 취소된다는 뜻은 아닙니다」로 급여 삭제와 판매 중단을 구분했다. 출처별 표기 차이를 화면 이름으로 밝히고 TODO 문장을 나눴다.
