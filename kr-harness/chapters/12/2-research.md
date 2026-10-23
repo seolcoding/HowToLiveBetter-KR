@@ -463,3 +463,4 @@ TODO 1건(제24항) — **유지**. 처분·판결 사례를 이번에도 찾지
 
 - 직접 확인한 URL: https://www.ggpolice.go.kr/main/bbslist.do?bbsId=FD31 · https://www.ggbpolice.go.kr/cop/bbs/selectBoardList.do?bbsId=News_main · https://www.dgpolice.go.kr/dgpo/bbs/List.do?bbsId=d142f452 · https://www.dgpolice.go.kr/dgpo/bbs/view.do?bbsId=d142f452&pageNum=1&num=1692 · https://www.djpolice.go.kr/main.htm?mxRc=x3_1 · https://gjpolice.go.kr/cop/bbs/selectBoardList.do?bbsId=BBSMSTR_000000000026&r=gjpolice · https://www.bspolice.go.kr/view.do?no=71 · https://www.icpolice.go.kr/board/rg4_board/list.php?bbs_code=ic017 · https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=ftc&type=XML&query=창업
 - kr-fit: block 0 · warn 0 → 통과
+- 19차 재검토 warn(같은 날): 비고의 「봤습니다」「없었습니다」를 실제로 본 범위(대전 잘린 제목, 대구 첨부 파일 이름, 공정위는 검색어 검색)대로 고쳤다.
