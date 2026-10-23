@@ -502,3 +502,5 @@ opencode GLM 5.3 Flash 기록 kr-harness/research/10-r4oc.md(5건 모두 「부�
 
 - 바뀐 항목: 제18항(비고 여덟 문장, 출처 두 건), TODO 목록 제18항·제19항(T1) 줄. 상태 줄 TODO 3건 유지.
 - 자체 확인: `node .claude/skills/kr-verify/scripts/kr-fit.mjs 10 --check` → block 0 · warn 0 → 통과.
+
+- 23차 재검토 warn 반영: 「견해도 갈립니다」를 「가까운 쟁점을 다뤘습니다」로 바꾸고, 현소혜 논문은 의료법 제24조의2 신설 전 글, 안경희 논문은 임의후견인을 따로 다루지 않음을 밝힘. TODO 긴 문장 세 개를 나눔.
