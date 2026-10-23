@@ -414,3 +414,52 @@ TODO 1건(제24항) — **부분**. 처분·판결은 여전히 없다. 소비�
 
 - 직접 확인한 URL: https://www.kca.go.kr/home/sub.do?menukey=4002&mode=view&no=1004004083 · https://www.spo.go.kr/site/spo/ex/board/List.do?cbIdx=1403 · https://www.spo.go.kr/site/spo/ex/board/List.do?cbIdx=10614 · https://www.spo.go.kr/site/eastseoul/ex/board/View.do?cbIdx=1403&bcIdx=684362 · https://www.police.go.kr/user/bbs/BD_selectBbsList.do?q_bbsCode=1002 · https://www.police.go.kr/user/search/ND_searchResult.do · https://www.smpa.go.kr/user/nd42986.do · https://www.ftc.go.kr/www/selectBbsNttList.do?key=12&bordCd=3
 - kr-fit: block 0 · warn 0 → 통과
+
+## 19차 조사 반영 기록 (2026-10-23)
+
+TODO 1건(제24항) — **유지**. 처분·판결 사례를 이번에도 찾지 못했다. 본문 내용은 바꾸지 않았다. 비고와 TODO 줄에 검색 범위만 더했다. 배너(TODO 1건)는 그대로다.
+
+### 1. 시도경찰청 보도자료 목록
+
+목록을 node로 넘겨 2024-01-01 이후 제목을 모았다. 검색어는 「쇼핑몰」「창업」「부업」「강의」「대행」「구매대행」「위탁판매」「스마트스토어」「광고」다. 「사기」가 든 제목도 따로 눈으로 봤다.
+
+- 경기남부: POST `/main/bbslist.do`(bbsId=FD31, pageIndex). 2024년 이후 184건이다.
+- 경기남부 결과: 해당 사건이 없다. 사기 제목은 투자리딩·보험사기·코인 사기다.
+- 경기북부: GET `/cop/bbs/selectBoardList.do?bbsId=News_main&pageIndex=N`.
+- 경기북부 결과: 2024년 이후 238건, 해당 사건이 없다.
+- 2025-02-10 「불법대부 범죄단체 및 채무종결 대행업체 검거」는 대부업이라 쓰지 않았다.
+- 대구: 목록 제목이 「1023 대구경찰 보도자료」처럼 날짜뿐이다.
+- 그래서 상세 122건을 열어 첨부 파일 이름 166개를 봤다. 해당 사건이 없다.
+- 대구 2026-09-22 「민생침해 금융범죄 사이버사기 집중단속 중간 결과」 pdf를 열었다.
+- 원문 표: 「쇼핑몰사기 284 85 3」(검거건수·검거인원·구속인원).
+- 이 「쇼핑몰사기」는 사이버사기 유형 분류다. 운영 대행·창업 교육 사기라는 말은 없다. 쓰지 않았다.
+- 대전: `main.htm?mxRc=x3_1&kz=djzx&p=N`. user-agent 없이 보내면 빈 화면이 온다.
+- 대전 결과: 2024년 이후 1241건, 해당 사건이 없다. 제목이 30자 안팎에서 잘린다.
+- 대전 제목 검색(`kf=sub&kw=`)은 「부업」 1건, 「강의」 2건으로 모두 무관하다. 검색이 믿을 만하지 않다.
+- 광주: iframe `/cop/bbs/selectBoardList.do?bbsId=BBSMSTR_000000000026&r=gjpolice`.
+- 광주 결과: 2024년 이후 168건, 해당 사건이 없다.
+- 부산: 보도자료(`/view.do?no=71`) 950건의 최신 글이 2018-03-15다. 공지사항(no=69)에도 없다.
+- 인천: 보도자료 게시판을 찾지 못했다. 뉴스룸(`bbs_code=ic017`) 카드뉴스 701건 제목만 봤다. 해당 사건이 없다.
+- 울산·강원·충북·충남·전북·전남·경북·경남·제주는 이번에 보지 않았다.
+
+### 2. 공정거래위원회 의결서(DRF target=ftc)
+
+검색어는 모두 node `encodeURIComponent`로 보냈다. 「창업」(search=1) 1건이 2012 케이알창업 건으로 와서 인코딩은 맞다.
+
+- 사건명 검색: 「창업」 1, 「쇼핑몰」 4, 「부업」 0, 「구매대행」 0, 「위탁판매」 0, 「스마트스토어」 0건이다.
+- 사건명 「강의」「교육」「대행」「온라인」 결과에도 2024~2026 해당 건이 없다.
+- 본문 검색(search=2)은 낱말을 나눠 찾는 것으로 보인다.
+- 「쇼핑몰 창업」 본문 4건은 2011·2014·2021·2022년 건이다. 모두 무관하다.
+- 「온라인 부업」 4건도 방문판매·기업결합 건이다.
+- 「창업 교육」 48건 중 2024~2026년분은 가맹사업법 사건이다. 쇼핑몰 창업 교육업체가 아니다.
+- 「무점포」「수익 보장」「광고대행」도 2024~2026에 쇼핑몰 창업 교육업체 건이 없다.
+
+### 3. 본문 전→후
+
+- 비고: 「…공소청 보도자료 제목도 훑었습니다.」 뒤에 두 문장을 더했다.
+  - 「경기남부·경기북부·대구·대전·광주경찰청 보도자료도 봤습니다.」
+  - 「공정위 의결서 2024~2026년분에도 없었습니다.」
+- TODO 줄: 시도경찰청 다섯 곳과 공정위 의결서 결과를 더했다. 부산·인천 사정도 적었다.
+
+- 직접 확인한 URL: https://www.ggpolice.go.kr/main/bbslist.do?bbsId=FD31 · https://www.ggbpolice.go.kr/cop/bbs/selectBoardList.do?bbsId=News_main · https://www.dgpolice.go.kr/dgpo/bbs/List.do?bbsId=d142f452 · https://www.dgpolice.go.kr/dgpo/bbs/view.do?bbsId=d142f452&pageNum=1&num=1692 · https://www.djpolice.go.kr/main.htm?mxRc=x3_1 · https://gjpolice.go.kr/cop/bbs/selectBoardList.do?bbsId=BBSMSTR_000000000026&r=gjpolice · https://www.bspolice.go.kr/view.do?no=71 · https://www.icpolice.go.kr/board/rg4_board/list.php?bbs_code=ic017 · https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=ftc&type=XML&query=창업
+- kr-fit: block 0 · warn 0 → 통과
