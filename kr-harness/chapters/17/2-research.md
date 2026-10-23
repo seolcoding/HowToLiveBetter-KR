@@ -330,3 +330,6 @@ TODO 1건 → 1건(부분, 줄을 좁혀 고침). 배너 「TODO 1건」 그대�
   - https://www.mohw.go.kr/board.es?mid=a10411010100&bid=0019&act=view&list_no=1490436
   - https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000281942&type=XML ; …ID=2100000269306… ; …ID=2100000282198…
 - 자체 확인: `node .claude/skills/kr-verify/scripts/kr-fit.mjs 17 --check` → block 0 · warn 0 · 통과. 본문이 바뀌었으므로 kr-fit-review 해시는 다시 받아야 한다.
+
+### 5차 재검토 warn 반영 (2026-10-23)
+- 제1항: 「최소 4개월」을 발달장애인 공공후견 청구로 한정하고 「가족이 직접 하는 청구의 기간은 아닙니다」를 넣었다. TODO 첫 문장을 50자 안으로 줄였다.
