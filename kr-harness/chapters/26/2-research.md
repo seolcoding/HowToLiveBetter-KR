@@ -672,3 +672,5 @@ opencode GLM 5.3 Flash 기록(kr-harness/research/26-r4oc.md) 판정은 부분 1
 다운로드 파일은 $TEMP/kr26r24에만 두었다.
 
 자체 확인: `node .claude/skills/kr-verify/scripts/kr-fit.mjs 26 --check` → block 0 · warn 0 · 예외 통과 0. 본문이 바뀌었으므로 kr-fit-review 해시는 다시 맞춰야 한다.
+
+- 24차 재검토 warn 반영: 조사 범위 문장을 보고서 원문대로 「신고 예외·미신고 사업자가 조사에서 빠졌다」로 고침. TODO 첫 문장을 나눔.
