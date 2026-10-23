@@ -663,3 +663,65 @@ agy 기록(kr-harness/research/09.md)은 9건 모두 「해결」로 판정했�
 - 이번 지시 경로 밖이라 열지 않았다.
 
 - 확인 URL: https://www.scourt.go.kr/portal/dcboard/DcNewsListAction.work?gubun=44 · https://www.scourt.go.kr/portal/news/NewsListAction.work?gubun=4&type=5 · https://www.scourt.go.kr/portal/news/NewsListAction.work?gubun=6 · https://www.scourt.go.kr/portal/news/NewsViewAction.work?seqnum=2635&gubun=2 · https://www.scourt.go.kr/portal/news/NewsViewAction.work?seqnum=2176&gubun=2 · https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=prec&type=XML&nb=2017%EB%8F%845797 · https://www.copyright.or.kr/information-materials/trend/precedents/list.do?searchTarget=CONTENTS&searchText=%ED%8C%A8%EB%9F%AC%EB%94%94
+
+## 31차 추가 조사 기록 (사법정보공개포털, 2026-10-23)
+
+제25·26항을 다뤘다. 둘 다 찾지 못했다. 본문은 바꾸지 않았다.
+
+### 검색 방법
+
+- 목록 API는 `selectJdcpctSrchRsltLst.on`(POST, JSON)이다.
+- 본문 API는 `selectJdcpctCtxt.on`(POST, JSON)이다.
+- 검색어는 node fetch의 JSON 본문에 UTF-8로 넣었다.
+- 「저작권」 727건, 「2014다14375」 정상 조회로 인코딩을 확인했다.
+- 사건번호는 상세검색 `csNoLstCtt`로도 찾았다.
+- 상세검색도 「2014다14375」 1건으로 작동을 확인했다.
+- 참조조문 검색은 `prvsRefcCtt`를 썼다.
+- 스크립트: `$TEMP/kr09r31btool`(s.mjs, ctx.mjs, scan.mjs).
+
+### 제25항(팬 창작물)
+
+- 사건번호 0건: 2024가합88028, 2024가합113269.
+- 사건번호 0건: 2016노1019, 2017도5797, 2017도50.
+- 검색어 「88028」「113269」도 0건이다.
+- 이 포털에 두 팬아트 판결은 실려 있지 않다.
+- 그래서 확정 표시를 볼 수 없었다.
+- 0건: 팬픽, 팬픽션, 팬 픽션, 팬덤, 2차적저작물 팬.
+- 0건: 팬아트 스킨, 게임 스킨 2차적저작물.
+- 「팬아트」 1건은 서울중앙지법 2017노3965 사기 사건이다.
+- 화투 그림 대작 사건이고 팬아트와 무관하다.
+- 「동인지」 1건은 수원고법 뇌물 사건이다.
+- 「팬 창작」 12건은 특허·상표·디자인 사건이 대부분이다.
+- 「패러디」 13건에 팬 창작물 사건은 없었다.
+- 그중 저작권 관련은 이미 쓴 2013나54972뿐이다.
+- 「패러디 포스터」 5건은 선거·정치 사건이다.
+- 「2차 창작」 상위 136건 본문을 받았다.
+- 「게임 캐릭터 일러스트」 4건, 「스킨 일러스트」 9건도 받았다.
+- 본문에서 팬픽·팬아트·동인·팬덤 등을 찾았다.
+- 걸린 4건은 모두 법무법인 「동인」 또는 다른 뜻의 「동인」이었다.
+
+### 제26항(차 안 호신 장비)
+
+- 0건: 숨겨서 지니고, 경범죄 흉기 은닉 휴대.
+- 「흉기의 은닉휴대」 17건은 폭력·횡령 등 다른 사건이다.
+- 참조조문 「경범죄 처벌법 제3조」 16건을 봤다.
+- 참조조문 「경범죄처벌법 제1조」 21건도 봤다.
+- 「경범죄 처벌법 제3조 제1항 제2호」는 3건이다.
+- 경범죄처벌법위반 사건 12건 본문을 직접 읽었다.
+- 인근소란 등 다른 호였고 흉기 휴대 사건은 없었다.
+- 차량·흉기·호신용 검색어 22개 결과 541건을 받았다.
+- 검색어: 호신용, 호신용 차량, 분사기 차량, 가스총 차량.
+- 검색어: 전자충격기, 삼단봉, 트렁크 흉기, 운전석 칼.
+- 검색어: 차량 내 흉기, 차 안 흉기, 은닉휴대 등.
+- 본문에 「경범죄」가 있는 것은 8건이다.
+- 8건 모두 범칙금 효력 등 다른 쟁점이었다.
+- 「숨겨서 지니고」나 차 안 휴대를 다룬 판결은 없었다.
+- 「은닉휴대」가 걸린 2건은 교도관 징계 사건이다.
+
+### 한계
+
+- 이 포털은 공개된 판결만 싣는다.
+- 그래서 「없음」이 아니라 「이 포털에서 찾지 못함」이다.
+- 팬아트 판결 확정 여부는 여전히 TODO다.
+
+- 확인 URL: https://portal.scourt.go.kr/pgp/index.on?m=PGP1011M01&l=N&c=900 · https://portal.scourt.go.kr/pgp/ui/pgp1000/PGP1011M01.xml
