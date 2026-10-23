@@ -504,3 +504,67 @@ opencode GLM 5.3 Flash 기록 kr-harness/research/10-r4oc.md(5건 모두 「부�
 - 자체 확인: `node .claude/skills/kr-verify/scripts/kr-fit.mjs 10 --check` → block 0 · warn 0 → 통과.
 
 - 23차 재검토 warn 반영: 「견해도 갈립니다」를 「가까운 쟁점을 다뤘습니다」로 바꾸고, 현소혜 논문은 의료법 제24조의2 신설 전 글, 안경희 논문은 임의후견인을 따로 다루지 않음을 밝힘. TODO 긴 문장 세 개를 나눔.
+
+## 24차 조사 반영 기록 (2026-10-23)
+
+대상은 제19항 TODO 두 줄이다. T1은 부분, 형식혼 줄은 유지다.
+TODO는 3건 그대로다. 파일은 `$TEMP/kr10r24`에만 두었다.
+한글 검색어는 node `encodeURIComponent`로 보냈다.
+대법원 누리집은 EUC-KR이라 EUC-KR로 인코딩해 보냈다.
+
+### T1 성적 지향 은폐 혼인 판결 — 부분
+
+- 한국법제연구원 OAK(klri.re.kr:9443)는 여전히 연결이 거부됐다.
+  - https·http 둘 다, 프록시로도 실패했다.
+  - repository.klri.re.kr은 DNS에 없다(8.8.8.8 조회).
+  - 웹 아카이브에도 저장본이 없다.
+- 대신 한국법제연구원 누리집 학술지 쪽에서 원문을 받았다.
+  - 「법제연구」 제23호 목록: https://www.klri.re.kr/kor/journal/L/23/view.do
+  - 강달천 (2002), 「동성애자의 권리보호」, 법제연구 23, 83-104.
+  - 내려받기: FileDown.do?atchFileId=FILE_000000000010881oYpyZ (22쪽).
+- 원문 전체를 「혼인」「이혼」「위자료」「취소」「판결」로 훑었다.
+  - 국내 판결은 두 건뿐이다.
+  - 하나는 성전환자 호적정정 결정(부산지법 가정지원 2001호파997)이다.
+  - 다른 하나는 동성애 사이트 사건(서울행정법원 2002구합1519)이다.
+  - 혼인취소·이혼·위자료 판결은 없다. 본문에 쓰지 않았다.
+- 한국가정법률상담소 판례 게시판(`/ko/precedent-notice-boards`).
+  - 제목 검색: 「동성애」 1건(난민), 「동성」 7건, 「혼인취소」 28건.
+  - 「혼인취소」 28건은 본문을 모두 받아 성적 지향 낱말을 찾았다. 없었다.
+  - 통합검색(본문 포함) 「동성애」 11건 가운데 혼인 사건이 하나 있었다.
+- 그 사건의 원 게시물은 대법원 「전국법원 주요판결」이다.
+  - https://www.scourt.go.kr/portal/dcboard/DcNewsViewAction.work?seqnum=22449&gubun=44
+  - 작성자 부산가정법원, 작성일 2021-04-27, 첨부파일 없음.
+  - 원문: 「외국인 아내에게 참다운 부부관계의 설정을 바라는 효과의사가 없었다고 판단하여 혼인이 무효임을 확인한 사례」
+  - 원문: 「당시 동성애자인 乙이 다른 여자와 사귀는 것이 발각되어 이혼」
+  - 원문: 「돈을 벌 목적으로 한국 남자와 결혼을 결심」
+  - 원문: 「甲과 부부관계는 거부하면서 계속 甲에게 돈을 요구하여」
+  - 사건번호가 없어 DRF 원문과 확정 여부는 확인하지 못했다.
+- 대법원 주요판결 제목 검색도 돌렸다.
+  - 「성적 지향」「성정체성」「양성애」 0건, 「동성애」 2건(난민·방송).
+  - 「혼인 취소」 6건은 학력·임신 등 다른 사유다.
+- DRF 판례 본문검색(target=prec, search=2).
+  - 「동성애자」 18건, 「동성애」 28건, 「동성 연인」 3건.
+  - 가사사건은 입양·성별정정·친생자 사건뿐이다(2012므806, 2011드단317 등).
+  - 「혼인 무효 효과의사 베트남」 2건(2017므1224, 2017르17)은 다른 사건이다.
+- 본문 반영(제19항 비고): 「그래서 법원이 받아들일지는 알 수 없습니다.」 뒤에 아홉 문장.
+  - 부산가정법원 요약의 사실관계와 판단, 사건번호·확정 여부 미확인을 적었다.
+  - 숨긴 성적 지향을 취소·이혼 사유로 본 사건이 아님을 밝혔다.
+  - 출처 칸에 대법원 주요판결 게시물 URL을 더했다.
+- TODO 줄: 24차 시도 경로와 부산가정법원 요약을 더했다.
+
+### 부모 안심용 형식혼 판결 — 유지
+
+- 위 검색에서 부모를 안심시키려는 형식혼 사건은 나오지 않았다.
+- 부산가정법원 요약은 돈을 벌 목적의 혼인이라 이 줄에 넣지 않았다.
+
+### 직접 확인한 URL
+
+- https://www.klri.re.kr/kor/journal/L/23/view.do
+- https://www.klri.re.kr/cmm/fms/FileDown.do?atchFileId=FILE_000000000010881oYpyZ&fileSn=0&stat=journal&param_gubun=L&data_no=23
+- https://www.lawhome.or.kr/ko/precedent-notice-boards/2639
+- https://www.lawhome.or.kr/ko/precedent-notice-boards/2618
+- https://www.scourt.go.kr/portal/dcboard/DcNewsViewAction.work?seqnum=22449&gubun=44
+- https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=prec&type=XML&search=2&query=동성애자
+
+- 바뀐 항목: 제19항(비고 아홉 문장, 출처 한 건), TODO 제19항(T1) 줄.
+- 자체 확인: `node .claude/skills/kr-verify/scripts/kr-fit.mjs 10 --check` → block 0 · warn 0 → 통과.
