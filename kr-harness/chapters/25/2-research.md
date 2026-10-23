@@ -318,3 +318,61 @@ TODO 목록 두 줄은 이번 확인 범위와 남은 쟁점(실제 처리 기�
 확인 URL: https://portal.scourt.go.kr/pgp/index.on (법원통계월보 PGP441M01) · https://portal.scourt.go.kr/pgp/pgp441/selectCortStatsItmSclLst.on (POST, G03·T06) · https://portal.scourt.go.kr/pgp/pgp441/selectCortStatsMmDtl.on (POST, 2026-08)
 
 자체 확인: `node .claude/skills/kr-verify/scripts/kr-fit.mjs 25 --check` → block 0 · warn 0. 내려받은 파일은 `$TEMP/kr25r7`에만 두었다.
+
+## 28차 조사 반영 기록 (2026-10-23)
+
+결과: 유지 1. 처리 기간 문장을 찾지 못했다. 본문은 고치지 않았다.
+
+- T1 제11항 처리 기간 — 유지. 시도한 경로는 아래와 같다.
+- 가정법원 8곳 누리집을 node fetch로 열었다.
+  - 대상: 서울·부산·대구·대전·광주·수원·인천·울산.
+  - 응답은 EUC-KR이라 TextDecoder로 풀었다.
+  - 게시판 셋을 모두 넘겼다(gubun 47·195·196).
+  - 47은 자주묻는질문, 195는 안내자료, 196은 안내책자다.
+  - 서울 외 7곳의 자주묻는질문(기능뱅크)도 목록을 봤다.
+- 서울가정법원 한정승인·상속포기 리플릿 3종을 받았다.
+  - 2017년판, 2019년판, 2021년판(2023 수정)이다.
+  - 2017년판은 그림 PDF라 글자가 거의 안 나왔다.
+  - 2019·2021년판에 「7~20일」이 있었다.
+  - 이것은 상속재산 조회의 소요 기간이다.
+  - 원문: 「접수 후 조회하는 사안에 따라 약 7〜20일이 소요됩니다.」
+  - 법원 심판의 처리 기간 문장은 없었다.
+- 가사비송 자주묻는질문 HWP를 받아 글자를 뽑았다.
+  - 부산·울산·대구는 본문, 서울은 배포용이라 목차만 봤다.
+  - 문답 목록에 처리 기간을 묻는 항목은 없었다.
+- 부산가정법원 「한정승인 안내」 HWP(2023-09)를 읽었다.
+  - 원문: 「한정승인을 한 날 (심판정본을 송달받은 날)로부터 5일 내」
+  - 처리 기간 문장은 없었다.
+- 전자소송포털 「가사비송 개요」(PSP731M04)를 읽었다.
+  - 화면 XML을 직접 받아 label 글자를 뽑았다.
+  - 상속포기·한정승인 줄: 「청구인 각5,000원」 「청구인 각33,840원」.
+  - 관할은 「사망자 최후주소지」로 적혀 있다.
+  - 「결정 송달받은 후 5일 안에 신문 공고할 것」도 있다.
+  - 이 쪽에도 처리 기간 문장은 없었다.
+- 전자소송 자주하는질문(selectFaqLst.on)을 봤다.
+  - 102건 중 100건을 받았고 「상속」 문답은 없었다.
+  - 나홀로소송 도움말(PSPJ02M03·M09·M10)에도 없었다.
+- 국회입법조사처 검색은 오류 화면으로 넘어갔다.
+- 웹 검색에는 법률사무소·법무사 글만 나왔다.
+  - 「며칠~3개월 이상」류라 2차 출처로 쓰지 않았다.
+  - 국감 제출 자료나 행정처 통계는 찾지 못했다.
+
+덧붙여 확인한 것(본문 미반영):
+- 전자소송 쪽의 인지·송달료는 제11항 비용 칸과 같다.
+- 「사망한 날로부터 3개월」 표기는 민법과 다르다.
+  - 민법 제1019조는 「안 날」이 기준이라 쓰지 않았다.
+- 부산 안내는 공고 기산점을 심판정본 송달일로 적었다.
+  - 제11항 이득 칸 문장과 맞는다. 출처 보강 후보다.
+
+다음에 시도할 것: 법원행정처 정보공개청구, 포털 첨부 엑셀.
+
+확인 URL:
+- https://slfamily.scourt.go.kr/dcboard/new/DcNewsViewAction.work?seqnum=46&gubun=196&cbub_code=000230
+- https://slfamily.scourt.go.kr/dcboard/new/DcNewsViewAction.work?seqnum=3&gubun=195&cbub_code=000230
+- https://bsfamily.scourt.go.kr/dcboard/new/DcNewsViewAction.work?seqnum=89&gubun=195
+- https://dgfamily.scourt.go.kr/cb_bulletin/new/detlRetrieveBulletin.work?functionCode=2750&bulletinId=23965
+- https://ecfs.scourt.go.kr/psp/ui/psp700/PSP731M04.xml
+- https://ecfs.scourt.go.kr/psp/psp623/selectFaqLst.on (POST)
+
+자체 확인: `kr-fit.mjs 25 --check` → block 0 · warn 0 → 통과.
+내려받은 파일은 `$TEMP/kr25r28`에만 두었다.
