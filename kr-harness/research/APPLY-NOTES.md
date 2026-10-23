@@ -39,3 +39,9 @@
 
 - Git Bash의 curl에 한글 검색어를 URL에 그대로 넣으면 글자가 깨진 채 전송되는 경우가 있다(law.go.kr DRF에서 「패러디」가 `�з���` 0건, node로 UTF-8 인코딩하니 13건). 한글 검색어는 node의 `encodeURIComponent`로 인코딩해 node(fetch)로 보낸다. Git Bash의 `curl --data-urlencode`도 한글이 깨진 사례가 있다(2026-10-23 한국저작권위원회 「팬아트」 0건 → node 2건).
 - 그래서 3·4차 기록의 「검색 0건」은 인코딩을 확인하지 않았으면 「없음」의 근거로 쓰지 않는다. 본문에 「찾지 못했습니다」를 쓸 때는 인코딩을 확인한 검색만 근거로 삼는다.
+
+## 판례: 대법원 사법정보공개포털 (2026-10-23 31차에 확인)
+
+- glaw.scourt.go.kr(종합법률정보)는 DNS가 풀리지 않는다. 후속인 portal.scourt.go.kr(사법정보공개포털)은 열린다.
+- 화면 정의 `https://portal.scourt.go.kr/pgp/ui/pgp1000/PGP1011M01.xml`에서 조회 API를 찾는다. 목록 `/pgp/pgp1011/selectJdcpctSrchRsltLst.on`, 본문 `/pgp/pgp1011/selectJdcpctCtxt.on`. 하급심 판결 본문과 「판결 : 확정」 같은 확정 표시가 함께 나온다. 스크립트 예: `$TEMP/kr06r31tool`.
+- 대법원 「전국법원 주요판결」(scourt.go.kr dcboard gubun=44)은 검색어를 EUC-KR로 퍼센트 인코딩해 GET으로 보내야 한다. 제목(요지)만 검색된다.
