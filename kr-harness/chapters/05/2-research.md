@@ -977,3 +977,5 @@ TODO는 2건에서 1건으로 줄었다.
 ### 자체 확인
 
 - `node .claude/skills/kr-verify/scripts/kr-fit.mjs 05 --check` → 「전체: 1개 파일 — block 0 · warn 13 → 통과」.
+
+- 27차 재검토 warn 반영: 비용 칸 평균 총보수 뒤에 「펀드 규모로 가중한 평균이라 펀드마다 다릅니다.」를 덧붙임.
