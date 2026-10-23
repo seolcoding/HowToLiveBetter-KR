@@ -247,3 +247,29 @@ TODO 2건 → 2건(둘 다 부분 해결, 쟁점을 좁힘). 상태 배너 「TO
 - WHO와의 시점: 식약처 허가 「출생 1시간 이내」 vs WHO 「첫 1시간이 지난 뒤」로 구체화했다.
 - 허가사항 「8. 소아에 대한 투여」 3)(발암 역학보고, 경구투여가 부적절한 경우 외 주사제 사용 금지) 문장을 비고에 그대로 소개하고, AAP 2003 성명(PMID 12837888, Europe PMC 초록 2026-10-23 확인) "has not been substantiated"와 늦은 출혈은 주사가 가장 잘 막는다는 문장을 붙였다.
 - 2차 warn(같은 날): 이득 칸 WHO·식약처 시점 중복을 한 번으로 줄이고, 쉽게 칸 478명 문장을 「체계적으로 보충하지 않는 곳」「비타민 K 결핍으로 출혈」로 이득 칸과 맞췄다.
+
+## 10차 조사 반영 기록 (2026-10-23)
+
+TODO 2건 → 2건(둘 다 부분, 쟁점을 좁힘). 상태 배너 「TODO 2건」 그대로. 한글 검색은 모두 node fetch + encodeURIComponent로 보냈다. 다운로드는 $TEMP/kr20r10.
+
+- T1 비타민 K(제7항) — 부분.
+  - 약학정보원은 Next.js로 바뀌어 옛 asp 검색이 화면 틀만 준다. 화면 스크립트에서 `/api/searchDrug?bohCode=…`, `/api/drug/<drug_code>`를 찾아 열었다.
+  - `bohCode=645101681` 1건: 비타민케이1주사액(대한약품공업, kfda_code 196900027), 「Vitamin K 10mg/mL」, `"boh_price":"236원/1mL/앰플"`.
+  - 상세 `/api/drug/A11ABBBBB2803`: `"drug_box":"[내수용] 1밀리리터 x 50앰플"`, `"boh_history":"645101680|원/1ml/앰플 삭제 (2016-10-01)^645101681|236원/1mL/앰플 급여 (2017-02-01)"`, ATC B02BA01. 화면 주소 https://www.health.kr/drug/A11ABBBBB2803 (옛 result_drug.asp?drug_cd=A11ABBBBB2803가 여기로 넘어감, 화면에도 「236원/1mL/앰플 급여 (2017-02-」).
+  - 같은 API에서 대원피토나디온주사액(197400268)과 제일 수출용 두 품목은 boh_code·boh_price가 비어 있다.
+  - 의약품안전나라 상세검색 성분명 「피토나디온」 총 29건(영문 Phytonadione도 29건, 「피토메나디온」「비타민K」 0건). 단일 성분은 대한 주사액(정상), 대원 주사액(「유효기간만료」, 취소/취하일자 2026-10-01), 제일 수출용 주사액 2개, 삼호피토나디온(원료의약품) 5개다. 나머지 24개는 종합비타민·영양액 같은 복합제다. 단일 성분 먹는 약은 없었다.
+  - 국가건강정보포털 통합검색 API(wisenutApiResult.do, collection=info) 「비타민 K」 35건, 「비타민K」 11건, 「신생아 비타민」 17건. 신생아 관련 문장은 「소아 청소년의 혈변 및 흑혈변」(5721) 「2) 혈액 응고 이상 비타민 K 부족으로 인한 신생아 출혈 질환, 엄마의 약물 복용, 혈소판 감소증과 연관될 수 있습니다.」뿐이다. 자연분만과정(6534)·성공적인 모유 수유(6586)·식이영양(영유아)(5212)·건강한 산후 관리(6954) 본문에 「비타민 K」 0건. 일상 투여를 쓴 문장은 없었다.
+  - 대한신생아학회 누리집 일반인공간 「이른둥이 질환 정보」 15건·「퇴원 준비」 8건 본문에 「비타민 K」 0건. 학회 진료 지침은 공개 게시판에서 찾지 못했다.
+  - 본문 변경: 비용 「건강보험 상한금액은 236원으로 등재돼 있습니다」 → 「이 품목의 건강보험 상한금액은 1mL 한 앰플에 236원입니다」(5차 재검토에서 미뤘던 단위 문제 해결). 비고에 「국내 허가 품목에서 비타민 K 한 가지만 든 먹는 약은 찾지 못했습니다. 성분 검색에 나온 29개 가운데 단일 성분은 주사제 4개와 원료 1개였습니다. 나머지 24개는 여러 성분을 섞은 복합제였습니다.」 추가. 출처에 약학정보원 상세, 의약품안전나라 검색 추가. 확인일에 약학정보원. 「쉽게」는 그대로.
+  - TODO 줄: 단위·경구 대체 확인 결과를 앞에 넣고, 포털 통합검색과 학회 게시판 결과를 더했다. 남은 쟁점(일상 투여의 한국 1차 출처, 분만 때 약값 별도 청구)은 그대로.
+- T2 황달과 예방접종(제3항·제13항) — 유지(쟁점만 좁힘).
+  - Europe PMC REST에서 Clin Exp Pediatr·Korean J Pediatr의 vaccin*/immuniz* × contraindication*/precaution* 17건, × jaundice 7건, × hyperbilirubinemia/bilirubin 9건을 봤다. 접종 금기·주의 총론 논문은 없었다. 황달과 같이 걸린 글은 신생아 질환 부담, 모유 수유 등 접종 금기와 무관한 글이다.
+  - 제목 검색(immunization/vaccination × guideline/schedule/general/contraindication/safety/preterm, Clin Exp Vaccine Res 포함) 12건의 PMC 전문 XML에서 jaundice·bilirubin 모두 0건. 2016판 8판 일정(PMC5300909), 2019 일정(PMC6642926), 2013 일정 두 편 포함. 2026 PCV15/20 권고(PMC12790897)도 0건.
+  - 대한신생아학회 「예방접종」(3038, 2024-01-18) 글: 「이른둥이나 저출생체중아도 만삭아와 같이 출생일기준 나이에 따라 접종하는 것이 원칙」, B형간염은 2kg 전 접종분 재접종. 황달 언급 없음. 「황달 (고빌리루빈혈증)」(3068) 글에도 접종 언급 없음.
+  - 본문 변경: TODO 줄 끝에 총론 논문 미발견과 학회 게시판 결과 두 문장 추가. 제3·13항은 그대로.
+- 확인 URL: https://www.health.kr/api/searchDrug?page=1&limit=30&bohCode=645101681 · https://www.health.kr/api/drug/A11ABBBBB2803?expert=0 · https://www.health.kr/drug/A11ABBBBB2803 · https://nedrug.mfds.go.kr/searchDrug (searchDivision=detail, ingrName1=피토나디온) · https://nedrug.mfds.go.kr/pbp/CCBBB01/getItemDetail?itemSeq=197400268 · https://health.kdca.go.kr/healthinfo/biz/health/unifiedSearch/wisenutApiResult.do · https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=5721 · https://www.neonatology.or.kr/board/list.html?num=3038&code=discharge · https://www.neonatology.or.kr/board/list.html?num=3068&code=premature · https://www.ebi.ac.uk/europepmc/webservices/rest/search
+- python·브라우저 자동화·git 명령은 쓰지 않았다.
+- kr-fit: block 0 · warn 0 → 통과.
+
+### 10차 재검토 warn 반영 (2026-10-23)
+- 제7항 비고: 「그런데」 연결을 없애고 AAP 2003 문장과 「허가 사항의 신생아 출혈 예방 용법도 근육주사」를 먼저 둔 뒤 먹는 약 없음 문장을 이었다. 허가사항 「경구투여가 부적절한 경우 외에는」을 「먹는 약이 맞지 않는 경우가 아니면」으로 원문에 가깝게 고쳤다. 단일 성분 주사제 4개 가운데 국내용 유효 품목은 하나뿐(나머지 유효기간 만료·수출용)임을 덧붙였다.
