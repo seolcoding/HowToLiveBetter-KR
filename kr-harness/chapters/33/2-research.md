@@ -696,3 +696,4 @@ opencode(GLM 5.3 Flash) 기록 kr-harness/research/33-r3.md(4건 중 「해결�
   - 보건복지부 고시 제2026-56호 「장애인보조기기 보험급여 기준 등 세부사항」(DRF admrul ID=2100000276312, 2026-03-25 시행) 별표 5 「보조기기의 내구연한 및 기준액(제2조의2 관련)」: 「10) 보청기 (Hearing aid) … 5 … 1,310,000 (적합관리급여 400,000을 포함한다)」. https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000276312&type=XML
   - 국민건강보험법 시행규칙 [별표 7] 「보조기기에 대한 보험급여기준(제26조제1항 관련)」 「10) 보청기 (Hearing aid) 청각장애에 대한 청력 개선을 위한 보조기구」(2026. 3. 25. 개정, flSeq=169643347 PDF를 pdfjs로 읽음).
 - 자체 확인: `node .claude/skills/kr-verify/scripts/kr-fit.mjs 33 --check` → block 0 · warn 0 → 통과.
+- 11차 재검토 warn(같은 날): 제17항 「이 금액은」이 앞 문장에 금액이 없어 가리키는 대상이 없었다. 「아래 보청기 금액은」으로 고쳤다.
