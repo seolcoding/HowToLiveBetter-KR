@@ -825,3 +825,4 @@ TODO 수는 2건 그대로다. 받은 파일은 `%TEMP%\kr05r19`에 두었다.
 ### 자체 확인
 
 - `node .claude/skills/kr-verify/scripts/kr-fit.mjs 05 --check` → 「전체: 1개 파일 — block 0 · warn 13 → 통과」.
+- 19차 재검토 warn(같은 날): 「양도받을 때는」을 원문 「티켓 양도 시」에 맞춰 「티켓을 양도할 때는」으로 고쳤다. TODO 문장을 나누고 「여전히 없음」을 「아직 찾지 못함」으로 바꿨다.
