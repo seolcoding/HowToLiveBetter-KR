@@ -510,3 +510,5 @@ TODO 1건(제24항) — **부분**. 명칭 그대로의 처분·판결은 이번
 
 - 직접 확인한 URL: https://www.ftc.go.kr/www/selectBbsNttView.do?key=12&bordCd=3&nttSn=46651 · https://www.ftc.go.kr/www/downloadBbsFile.do?atchmnflNo=52090 · https://www.ftc.go.kr/www/selectBbsNttView.do?key=12&bordCd=3&nttSn=45850 · https://www.ftc.go.kr/www/downloadBbsFile.do?atchmnflNo=50251 · https://www.ftc.go.kr/www/selectBbsNttView.do?key=12&bordCd=3&nttSn=46491 · https://www.ftc.go.kr/www/selectBbsNttView.do?key=12&bordCd=3&nttSn=47549 · https://www.ftc.go.kr/www/selectBbsNttView.do?key=12&bordCd=3&nttSn=43346 · https://www.kca.go.kr/home/sub.do?menukey=4005&mode=view&no=1004542193 · https://www.law.go.kr/DRF/lawService.do?OC=test&target=prec&ID=171692&type=XML · https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=prec&type=XML&search=2&query=%EC%9C%84%ED%83%81%ED%8C%90%EB%A7%A4%20%EB%8C%80%ED%96%89
 - kr-fit: block 0 · warn 0 → 통과
+
+- 30차 재검토 warn 반영: 수법·송치·조정 문장을 「광고대행업체」「광고대행 계약」으로 한정. 송치 문장의 「사기 혐의 인정 취지」를 빼고 「기소나 판결이 아닙니다」로 고침. 판례 검색 문장을 제목 훑기 범위로 좁힘.
