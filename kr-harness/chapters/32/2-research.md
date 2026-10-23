@@ -281,3 +281,29 @@
 ### 12차 일관성 반영 (2026-10-23)
 - 2차 일관성 감사: 1588-9090 창구 이름을 병무청 누리집 표기대로 「병무민원상담」으로 고쳤다(31절과 맞춤).
 - 재검토 warn(같은 날): 「상담」 뒤 조사를 「이나」로 고쳤다.
+
+## 19차 조사 반영 기록 (2026-10-23)
+
+진행 중인 F-1 소송을 다시 확인했다. 원문만 직접 열었다.
+
+| TODO | 결과 | 바뀐 문장 | 직접 확인한 URL |
+|---|---|---|---|
+| T1 F-1 소송 이후 진행 (항목 2) | 유지 (확인 기록만) | TODO 줄 「10-23 오후 재확인」 → 「10-23 오후와 19차 재확인」. 본문 항목은 그대로 | https://www.courtlistener.com/docket/74661796/feed/ ; https://www.courtlistener.com/docket/74908049/feed/ ; https://www.federalregister.gov/api/v1/documents.json ; https://www.ice.gov/sevis |
+
+- 지방법원 피드: updated 2026-10-22다.
+- 최신 항목은 「Entry #63」이다.
+- 그다음은 10-21 minute entry와 #62다.
+- #63 연기 신청에 대한 명령은 아직 없다.
+- 항소 피드(26-2112): updated 2026-10-19다.
+- 그 뒤 새 항목은 없었다.
+- 연방관보 API를 2026-10-20 이후로 검색했다.
+- 검색어는 세 가지다.
+- "duration of status"(DHS)는 0건이었다.
+- "F-1" student도 0건이었다.
+- "fixed time period of admission"도 0건이었다.
+- ICE SEVIS 페이지에는 기존 문장만 있었다.
+- 원문: 「On July 17, 2026, DHS …」로 시작한다.
+- 법원 명령이나 시행 연기 공지는 없었다.
+- TODO 1건 → 1건. 배너 건수 1 유지.
+- 검사: `node .claude/skills/kr-verify/scripts/kr-fit.mjs 32 --check` → block 0 · warn 0 · 예외 통과 0.
+- 재검토 warn(같은 날): 내부 회차 표현 「19차」를 「10-23 두 차례 재확인」으로 바꿨다.
