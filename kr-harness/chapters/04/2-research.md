@@ -167,3 +167,70 @@ agy 기록(kr-harness/research/04.md)의 URL과 수치를 직접 열어 대조�
 ### 자체 확인
 
 - 본문 변경 없음.
+
+## 30차 조사 반영 기록 (2026-10-23)
+
+### 제7항 Kruger·Evans(2004) 수치 — 유지
+
+공개 전문도, 수치를 옮긴 1차 논문도 찾지 못했다.
+본문은 그대로 두고 TODO 1건을 유지한다.
+
+전문 경로(2026-10-23):
+
+- OpenAlex `works/doi:10.1016/j.jesp.2003.11.001`: 초록 없음.
+- 같은 응답의 피인용 수는 191건이다.
+- 웹 아카이브 CDX `pages.stern.nyu.edu/~jkruger/*`를 다시 봤다.
+- 2006년 첫 화면, 강의계획서 PDF, 그림 파일뿐이었다.
+- 논문 PDF 사본은 없었다.
+- `psych.uiuc.edu`, `psych.illinois.edu`의 `~jkruger/`도 조회했다.
+- 두 곳 모두 아카이브 사본이 0건이었다.
+- ResearchGate 논문 페이지는 403으로 막혔다.
+- CORE API v3 검색은 오류를 돌려줬다.
+- 응답: `The HTTP status code "0" is not valid.`
+
+2차 인용 경로(이 논문을 인용한 공개 논문):
+
+- OpenAlex `filter=cites:W2094856403,is_oa:true`로 92건을 뽑았다.
+- 과제 시간 예측을 다룬 논문 10여 편을 내려받아 읽었다.
+- 결과 수치를 옮긴 논문은 없었다.
+- 모두 「풀어 적으면 예상이 길어졌다」는 방향만 적었다.
+
+읽은 논문과 해당 문장:
+
+- Hadjichristidis 등(2014), JESP 51:45–50.
+- DOI 10.1016/j.jesp.2013.10.009.
+- 사본: http://eprints.bournemouth.ac.uk/21338/
+- 원문: "Overall, duration estimates were higher in the unpacked condition."
+- Forsyth·Burt(2008), Memory & Cognition 36(4).
+- DOI 10.3758/MC.36.4.791.
+- 원문: "Kruger and Evans showed that unpacking produced larger estimates, and, in two experiments, fewer planning fallacy bias estimates."
+- 이 논문은 「두 실험」이라고만 적었다.
+- 실험 번호와 크기는 적지 않았다.
+- Halkjelsvik·Jørgensen(2018), Time Predictions(Springer, 공개).
+- DOI 10.1007/978-3-319-74953-2.
+- 7.1절의 「8분 반 → 약 13분」 예시가 있었다.
+- 이 예시의 인용 번호는 [4]다.
+- [4]는 Hadjichristidis 등(2014)이다.
+- Kruger·Evans([5])의 수치가 아니어서 쓰지 않았다.
+- [5]에는 "contributes to greater realism"이라는 말만 붙었다.
+- 「Backward planning」(2016, JDM)을 읽었다.
+- DOI는 10.1017/S1930297500007269다.
+- 원문: "Kruger and Evans found that unpacking reduced prediction bias"
+- 수치는 없었다.
+- Weick·Guinote(2010)은 DOI 10.1016/j.jesp.2010.03.005다.
+- Kruger·Evans의 문서 서식 과제를 빌려 썼다는 말뿐이었다.
+- PMC5976789(Frontiers, 2018)는 선물 쇼핑 과제를 예로만 들었다.
+- PMC6621925, PMC8193572, PMC13038220도 방향만 적었다.
+- Huang(2021), IJPS 13(2)도 방향만 적었다.
+- 이 논문은 고등학생 단독 연구여서 근거로도 쓰지 않는다.
+
+쓰지 않은 것:
+
+- Moher(2012) 워털루대 학위논문은 동료심사 논문이 아니다.
+- 그래서 열어 보지 않았다.
+- 블로그의 수치 서술도 쓰지 않았다.
+
+### 자체 확인
+
+- 본문 변경 없음.
+- 남은 TODO: 1건(제7항).
