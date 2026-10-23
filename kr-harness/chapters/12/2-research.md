@@ -464,3 +464,49 @@ TODO 1건(제24항) — **유지**. 처분·판결 사례를 이번에도 찾지
 - 직접 확인한 URL: https://www.ggpolice.go.kr/main/bbslist.do?bbsId=FD31 · https://www.ggbpolice.go.kr/cop/bbs/selectBoardList.do?bbsId=News_main · https://www.dgpolice.go.kr/dgpo/bbs/List.do?bbsId=d142f452 · https://www.dgpolice.go.kr/dgpo/bbs/view.do?bbsId=d142f452&pageNum=1&num=1692 · https://www.djpolice.go.kr/main.htm?mxRc=x3_1 · https://gjpolice.go.kr/cop/bbs/selectBoardList.do?bbsId=BBSMSTR_000000000026&r=gjpolice · https://www.bspolice.go.kr/view.do?no=71 · https://www.icpolice.go.kr/board/rg4_board/list.php?bbs_code=ic017 · https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=ftc&type=XML&query=창업
 - kr-fit: block 0 · warn 0 → 통과
 - 19차 재검토 warn(같은 날): 비고의 「봤습니다」「없었습니다」를 실제로 본 범위(대전 잘린 제목, 대구 첨부 파일 이름, 공정위는 검색어 검색)대로 고쳤다.
+
+## 30차 조사 반영 기록 (2026-10-23)
+
+TODO 1건(제24항) — **부분**. 명칭 그대로의 처분·판결은 이번에도 없다. TF 자료 두 건에서 새 사실을 찾아 비고에 넣었다. TODO는 검색 범위를 더해 좁혀 남겼다. 한글 검색어는 모두 node `encodeURIComponent`로 보냈다.
+
+### 1. 판례 DRF(target=prec, search=2 본문)
+
+- 검색어와 건수: 「쇼핑몰 운영대행」 46, 「위탁판매 대행」 377, 「구매대행 창업」 8, 「온라인 창업 교육」 6, 「스마트스토어 대행」 2, 「무자본 창업」 1, 「위탁판매」 1699.
+- 더 넣은 검색어: 「부업 강의」 2, 「온라인 강의 수강료」 11, 「쇼핑몰 창업 강의」 0, 「오픈마켓 창업」 3, 「매출 보장」 897, 「수익 보장 강의」 33, 「창업 컨설팅 사기」 10, 「마케팅 대행 계약 취소」 76, 「창업 강의」 1, 「수강료 반환」 18, 「수강계약 해지」 15, 「온라인 쇼핑몰 운영」 80, 「쇼핑몰 교육」 29, 「위탁판매 교육」 271.
+- 제목을 훑고 원문을 연 것: 614425, 617187, 608495, 622301, 601841, 619443, 624549, 619235, 214243, 185946, 171692, 144364.
+- 결과: 근로자성, 가맹금 반환, 리딩방 투자사기, 웹 접근성, 상가 분양 사건이었다.
+- 171692(서울고법 2011나92123, 2013-03-15)는 창업컨설팅 회사 직원의 투자 기망 사건이다.
+  - 원문: 「피고 회사는 창업컨설팅업 등을 목적으로 한 법인」.
+  - 쇼핑몰 운영 대행·창업 교육 사건이 아니고 확정 여부도 못 봐서 쓰지 않았다.
+
+### 2. 공정위 보도자료 2024~2026(제목+내용 검색)
+
+- 검색어: 「온라인 쇼핑몰 창업」「부업」「강의」「창업 교육」「쇼핑몰 운영」「구매대행」「위탁판매」「스마트스토어」「수익 보장」「무자본」「창업」「고수익」「광고대행」「온라인 강의」「전자책」「재능마켓」「청약철회」「온라인 쇼핑몰」「무점포」「판매대행」「마케팅 대행」「상위노출」「파워등급」.
+- 열어 본 것: 46651, 45850, 46491(재능마켓 약관), 47549(족발 가맹본부), 43346(사이버몰 다단계).
+- 쇼핑몰 창업 교육·운영 대행 업체 제재는 없었다. 가맹사업법 제재는 외식 가맹본부라 제5항 몫이다.
+- 46651(2025-11-21) 첨부 hwpx를 kordoc으로 읽었다. 원문:
+  - 「“상위 노출 보장”, “스토어 파워등급 보장” 등 계약 내용 미이행 후 환불 거부」.
+  - 「일부 광고대행업체는 사기 혐의 인정 취지로 검찰에 송치되는 등」.
+  - 「1년간 사기성이 짙은 총 33개 업체를 수사 의뢰」. 본문의 55곳(2026-05)과 시점이 달라 넣지 않았다.
+- 45850(2025-02-26) 첨부 hwpx 원문:
+  - 「계약 당사자 간의 민사상 분쟁이 있는 경우 한국인터넷진흥원 온라인광고분쟁조정위원회에 분쟁 조정을 신청할 수 있다. (국번 없이 118)」.
+  - 118은 허용 목록에 있다. 별첨 안내서 PDF(12.9MB)는 그림뿐이라 글자를 뽑지 못했다.
+
+### 3. 한국소비자원
+
+- 보도자료(menukey=4002)·피해예방주의보(4005) 제목+내용 검색: 「부업」「창업 강의」「온라인 강의」「쇼핑몰 창업」「구매대행」「광고대행」「강의」「창업」.
+- 새로 본 것: 피해예방주의보 2026-08-05(no=1004542193) 리워드형 인터넷교육 피해.
+  - 원문: 「‘재테크·부업’은 ’24년부터 피해가 크게 증가했다」. 건수가 없어 넣지 않았다.
+- 통합검색 「부업 강의」 11건도 2026-02 주의보와 그 웹진 글뿐이었다.
+- 「피해구제 사례」 게시판은 누리집 메뉴에서 찾지 못했다(국제거래 상담사례 7816만 있음).
+
+### 본문 전→후(제24항)
+
+- 비고: 「판례 본문을 「위탁판매 대행」「무자본 창업」 등으로 찾아도 없었습니다」를 더했다.
+- 비고: 3분기 「스토어 파워등급 보장」 수법, 환불 거부, 일부 업체 송치, 「송치는 판결이 아닙니다」를 더했다.
+- 비고: 온라인광고분쟁조정위원회(118) 조정 신청을 더했다.
+- 출처: 공정위 보도참고자료 46651·45850 URL을 더했다.
+- TODO 줄: 30차 검색 범위와 반영 내용을 더했다.
+
+- 직접 확인한 URL: https://www.ftc.go.kr/www/selectBbsNttView.do?key=12&bordCd=3&nttSn=46651 · https://www.ftc.go.kr/www/downloadBbsFile.do?atchmnflNo=52090 · https://www.ftc.go.kr/www/selectBbsNttView.do?key=12&bordCd=3&nttSn=45850 · https://www.ftc.go.kr/www/downloadBbsFile.do?atchmnflNo=50251 · https://www.ftc.go.kr/www/selectBbsNttView.do?key=12&bordCd=3&nttSn=46491 · https://www.ftc.go.kr/www/selectBbsNttView.do?key=12&bordCd=3&nttSn=47549 · https://www.ftc.go.kr/www/selectBbsNttView.do?key=12&bordCd=3&nttSn=43346 · https://www.kca.go.kr/home/sub.do?menukey=4005&mode=view&no=1004542193 · https://www.law.go.kr/DRF/lawService.do?OC=test&target=prec&ID=171692&type=XML · https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=prec&type=XML&search=2&query=%EC%9C%84%ED%83%81%ED%8C%90%EB%A7%A4%20%EB%8C%80%ED%96%89
+- kr-fit: block 0 · warn 0 → 통과
