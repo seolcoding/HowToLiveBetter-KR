@@ -845,3 +845,5 @@ TODO 수는 3건 그대로다. 배너도 그대로 뒀다.
 - https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=ordin&type=XML&search=1&query=…
 
 자체 확인: `node .claude/skills/kr-verify/scripts/kr-fit.mjs 33 --check` → 「전체: 1개 파일 — block 0 · warn 0 → 통과」. 본문이 바뀌었으므로 kr-fit-review 해시는 다시 받아야 한다.
+
+- 20차 재검토 warn 반영: 표 4-93의 35.7%는 51÷143(자부담비 127명+지원금 16명)이라 분모 오해를 막도록 「51명으로 가장 많았습니다」로 고침. 「출장비는 근로자가 내야 했습니다」로 원문에 맞춤. 조사 기록의 「응답 합계 127명」은 자부담비 행 합계다.
