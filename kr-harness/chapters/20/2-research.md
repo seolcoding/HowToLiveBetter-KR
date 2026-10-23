@@ -533,3 +533,5 @@ TODO 2건 → 2건(둘 다 부분, 쟁점을 좁힘). 상태 배너 「TODO 2건
 - https://opendata.hira.or.kr/op/opc/olapGnlInfoTab1.do
 - https://opendata.hira.or.kr/op/opc/olapMsupInfoTab1.do
 - python·브라우저 자동화·git 명령은 쓰지 않았다.
+
+- 22차 재검토 warn 반영: 「피토나디온」과 「약제 세부사항」을 풀어 씀(판본 표시는 유지). TODO 줄에 「업체수」를 원문대로 더함.
