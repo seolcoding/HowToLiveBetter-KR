@@ -37,5 +37,5 @@
 
 ### 한글 검색어는 curl에 직접 넣지 않는다 (2026-10-23 추가)
 
-- Git Bash의 curl에 한글 검색어를 URL에 그대로 넣으면 글자가 깨진 채 전송되는 경우가 있다(law.go.kr DRF에서 「패러디」가 `�з���` 0건, node로 UTF-8 인코딩하니 13건). 한글 검색어는 node의 `encodeURIComponent`나 `curl --data-urlencode` 로 인코딩해 보낸다.
+- Git Bash의 curl에 한글 검색어를 URL에 그대로 넣으면 글자가 깨진 채 전송되는 경우가 있다(law.go.kr DRF에서 「패러디」가 `�з���` 0건, node로 UTF-8 인코딩하니 13건). 한글 검색어는 node의 `encodeURIComponent`로 인코딩해 node(fetch)로 보낸다. Git Bash의 `curl --data-urlencode`도 한글이 깨진 사례가 있다(2026-10-23 한국저작권위원회 「팬아트」 0건 → node 2건).
 - 그래서 3·4차 기록의 「검색 0건」은 인코딩을 확인하지 않았으면 「없음」의 근거로 쓰지 않는다. 본문에 「찾지 못했습니다」를 쓸 때는 인코딩을 확인한 검색만 근거로 삼는다.
