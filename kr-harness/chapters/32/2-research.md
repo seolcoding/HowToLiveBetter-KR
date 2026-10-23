@@ -337,3 +337,33 @@ F-1 소송을 20:48(KST)에 다시 확인했다. 원문만 열었다.
 - Study in the States 소식 페이지는 404였다.
 - TODO 1건 → 1건. 배너 건수 1 유지.
 - 검사: `node .claude/skills/kr-verify/scripts/kr-fit.mjs 32 --check` → block 0 · warn 0 · 예외 통과 0.
+
+## 35차 조사 반영 기록 (2026-10-24)
+
+F-1 소송을 10-24 01:18(KST)에 다시 확인했다. 원문만 열었다.
+
+| TODO | 결과 | 바뀐 문장 | 직접 확인한 URL |
+|---|---|---|---|
+| T1 F-1 소송 이후 진행 (항목 2) | 유지 (확인 시각만) | TODO 줄 「10-23 20:48(KST)」→「10-24 01:18(KST)」. 본문 항목은 그대로 | https://www.courtlistener.com/docket/74661796/feed/ ; https://www.courtlistener.com/docket/74908049/feed/ ; https://www.federalregister.gov/api/v1/documents.json ; https://www.federalregister.gov/api/v1/documents/2026-14439.json ; https://www.ice.gov/sevis |
+
+- 지방법원 피드: updated 2026-10-22다.
+- 최신 항목은 여전히 「Entry #63」이다.
+- #63 요약은 「Extension of Time」이다.
+- #63 뒤 명령 항목은 없었다.
+- 그래서 #63 재가 여부는 아직 모른다.
+- 항소 피드(26-2112): updated 2026-10-19다.
+- 최신 항목은 #108525045로 전과 같다.
+- 구두변론 지정 항목은 보이지 않았다.
+- 일정 변경 항목도 두 피드에 없었다.
+- 연방관보 API를 10-20 이후 DHS로 검색했다.
+- "duration of status"는 0건이다.
+- "fixed time period"는 0건이다.
+- "fixed time period of admission"도 0건이다.
+- 2026-14439 문서의 effective_on은 2026-09-15다.
+- corrections 칸은 비어 있었다.
+- ICE SEVIS 페이지는 기존 문장 그대로였다.
+- 원문: 「On July 17, 2026, DHS published a final rule …」.
+- 「court」「postpone」는 0회였다.
+- 「stay」 3회는 extension of stay 쪽이다.
+- TODO 1건 → 1건. 배너 건수 1 유지.
+- 검사: `node .claude/skills/kr-verify/scripts/kr-fit.mjs 32 --check` → block 0 · warn 0 · 예외 통과 0.
