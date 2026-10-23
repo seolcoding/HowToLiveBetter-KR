@@ -904,3 +904,5 @@ TODO 수는 2건 그대로다.
 ### 자체 확인
 
 - `node .claude/skills/kr-verify/scripts/kr-fit.mjs 05 --check` → 「전체: 1개 파일 — block 0 · warn 13 → 통과」.
+
+- 21차 재검토 warn 반영: 경찰청 자료는 학교폭력 예방 활동 안내이고 「사기」는 룰렛 수법에만 붙어 있어, 첫 문장을 「청소년 대상 신종 수법을 경보했습니다」로 고침.
