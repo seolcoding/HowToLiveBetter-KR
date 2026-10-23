@@ -146,3 +146,24 @@ agy 기록(kr-harness/research/04.md)의 URL과 수치를 직접 열어 대조�
 
 - 제7항 인라인 TODO를 절 끝 `## TODO 확인 필요` 목록으로 되살리고 배너에 「TODO 1건」과 게이트 날짜(2026-10-22)를 반영(검토 수정안 ①).
 - 제13항: 교재 저자를 Rozental·Wennersten 두 명으로 고침. https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3841370/fullTextXML
+
+## 5차 조사 반영 기록 (2026-10-23, 원문 직접 확인)
+
+### 제7항 Kruger·Evans(2004) 실험별 수치 — 유지
+
+전문을 합법적 공개 경로에서 구하지 못했다. 본문은 고치지 않았고 TODO 1건을 그대로 둔다.
+
+시도한 경로(2026-10-23):
+
+- Unpaywall API `https://api.unpaywall.org/v2/10.1016/j.jesp.2003.11.001` → `is_oa: false`, `oa_status: closed`, `has_repository_copy: false`, `oa_locations: []`. 저자 소속은 University of Illinois at Urbana-Champaign 심리학과로 나온다.
+- Semantic Scholar API `https://api.semanticscholar.org/graph/v1/paper/DOI:10.1016/j.jesp.2003.11.001?fields=title,openAccessPdf,externalIds` → `openAccessPdf.status: CLOSED`, URL 없음.
+- OpenAlex `https://api.openalex.org/works/doi:10.1016/j.jesp.2003.11.001` → `is_oa: false`, `oa_url: null`, `pdf_url: null`.
+- Europe PMC REST 검색 `DOI:10.1016/j.jesp.2003.11.001` → hitCount 0(심리학 학술지라 수록 안 됨).
+- CORE API v3 제목 검색 → 이 논문의 전문 사본은 결과에 없었다.
+- 저자 기관 페이지: `https://pages.stern.nyu.edu/~jkruger/`는 현재 403. 웹 아카이브 2006·2008·2011년 사본에는 CV와 강의계획서 링크만 있고 논문 PDF 링크는 없었다. 일리노이대 개인 페이지(`psych.uiuc.edu/~jkruger/`)는 아카이브 사본을 찾지 못했다.
+- 웹 검색(「If you don't want to be late, enumerate」 pdf, 「Unpacking reduces the planning fallacy」 filetype:pdf) → 원 논문 PDF는 없었다. 이 논문을 인용한 Bournemouth 대학 프리프린트(https://eprints.bournemouth.ac.uk/21338/)는 다른 저자의 2차 서술이라 수치 근거로 쓰지 않았다.
+- 유료 벽을 우회하는 사이트는 쓰지 않았다.
+
+### 자체 확인
+
+- 본문 변경 없음.

@@ -363,3 +363,22 @@ opencode GLM 5.3 Flash 기록(kr-harness/research/26-r4oc.md) 판정은 부분 1
 직접 확인한 URL: https://www.law.go.kr/DRF/lawService.do?OC=test&target=prec&ID=231969&type=XML ; https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=284811&type=XML ; https://www.law.go.kr/DRF/lawService.do?OC=test&target=prec&ID=127671&type=XML ; https://www.law.go.kr/DRF/lawService.do?OC=test&target=prec&ID=218853&type=XML ; https://www.law.go.kr/DRF/lawService.do?OC=test&target=prec&ID=233947&type=XML ; https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=prec&type=XML&search=1|2&query=(위 검색어, 퍼센트 인코딩). 다운로드 파일은 $TEMP/kr26r4에만 두었다.
 
 자체 확인: `node .claude/skills/kr-verify/scripts/kr-fit.mjs 26 --check` → block 0 · warn 0 · 예외 통과 0. 상태 줄 TODO 2건 그대로. 본문이 바뀌었으므로 kr-fit-review 해시는 다시 맞춰야 한다.
+
+## 5차 조사 반영 기록 (2026-10-23, 원문 직접 확인)
+
+3·4차에서 막힌 경로(법령해석례·행정심판·헌재 DB 미검색, 신고서 서식 HWP, 국회 검토보고서 JS/API 오류)를 우회해 원문을 직접 열었다. 결과: 반영 0 · 유지 2. 본문은 고치지 않았다. TODO 2 → 2.
+
+- T1 자사몰의 부가통신역무 해당 여부 — **유지**.
+  - 법제처 법령해석례(DRF target=expc): 안건명 검색 "부가통신" 5건(뉴스통신 수의계약 4건, 여신전문금융업법 부가통신서비스계약 1건), 본문검색(search=2) "부가통신역무" 3건·"부가통신사업자" 10건·"자사몰" 1건·"전자상거래 부가통신" 0건. 쇼핑몰의 부가통신역무 해당 여부를 다룬 해석은 없었다.
+  - 행정심판 재결(target=decc) "부가통신" 0건, 헌재 결정(target=detc) "부가통신" 0건, 행정규칙(target=admrul) "부가통신" 1건(「부가통신서비스 요금신고 대상에서 제외되는 전기통신사업자」).
+  - 4차에서 HWP라 못 연 「전기통신사업법 시행에 관한 과학기술정보통신부 규정」(고시 제2024-16호, 시행 20240417) [별지 제4호서식] 부가통신사업 신고서를 DRF가 주는 PDF(flSeq=139775209)로 내려받아 pdfjs로 읽었다. 제공서비스 칸은 「명 칭」「내 용」 자유 기재뿐이고 서비스 유형 선택지는 없다. 근거 문구는 "「전기통신사업법」 제22조와 같은 법 시행령 제29조제1항에 따라 위와 같이 신고합니다." 서식에도 자사몰을 따로 짚은 문언은 없다.
+  - 그래서 TODO 줄과 제2항 비고는 그대로 둔다.
+- T2 실시간 라이브의 비디오물 해당 여부 — **유지**.
+  - 법령해석례 본문검색 "실시간 비디오물"·"실시간 방송"·"라이브 방송"·"생방송 비디오물" 0건, "인터넷 방송 비디오물" 1건(식품위생법, 무관). 안건명 "비디오물" 23건 목록을 다 봤다. 관련이 가장 가까운 법제처 26-0262(2026. 6. 23. 회신, expc ID 343373) 원문을 열었다. 결론은 "비디오물제작업등 신고를 하지 않고 비디오물을 제작 또는 배급하는 자도 포함됩니다"이고, "정보통신망만을 이용하여 시청에 제공할 목적으로 제작·배급하는 경우" 신고는 면제되나 "비디오물의 등급분류 의무는 여전히 부담하게 된다"고 봤다. 실시간 방송은 다루지 않는다. 06-0363(교육·종교 비디오물 예외)도 무관.
+  - 국회 의안: 국민참여입법센터(opinion.lawmaking.go.kr/gcom/nsmLmSts/out, 의안명 "영화 및 비디오물" 17~22대 216건)의 의안 상세 215쪽을 모두 받아, 첨부된 소관위 검토·심사보고서와 위원회의결안 HWP 6건(2115862 심사보고서, 2200091·2200698 검토·심사보고서, 2117270 의결안)을 kordoc으로 텍스트화했다. "실시간·라이브·생방송·개인방송·스트리밍·인터넷방송" 0회("유튜브"는 2115862 제안이유 1회, 해외 플랫폼 등급분류 형평 문제). 의안명 "개인방송"·"인터넷방송" 0건, 「시청각미디어서비스법안」(2219343, 2026. 6. 18.) 제안이유도 영화비디오법상 비디오물 해당 여부는 다루지 않는다.
+  - 영상물등급위원회 조사연구보고서 게시판 39건 목록을 처음부터 넘겨 봤다. 「2024 온라인 비디오물 자체등급분류제도 고도화 방안 연구」 PDF(nttSn 5117)를 pdfjs로 읽었다. "실시간"은 EU AVMSD의 리니어·넌리니어 설명 4곳뿐이고 국내 비디오물 해당 여부 판단은 없다. 용역 보고서라 기관 해석으로 쓸 수도 없다.
+  - 그래서 TODO 줄과 제3항 비고는 그대로 둔다.
+
+직접 확인한 URL: https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=expc&type=XML&display=100&search=2&query=(위 검색어, 퍼센트 인코딩) ; https://www.law.go.kr/DRF/lawService.do?OC=test&target=expc&ID=343373&type=XML ; https://www.law.go.kr/DRF/lawService.do?OC=test&target=expc&ID=312294&type=XML ; https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=decc|detc|admrul&type=XML&query=부가통신 ; https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000239436&type=XML ; https://www.law.go.kr/LSW/flDownload.do?flSeq=139775209 ; https://opinion.lawmaking.go.kr/gcom/nsmLmSts/out/2115862/detailRP ; https://opinion.lawmaking.go.kr/gcom/nsmLmSts/out/2200091/detailRP ; https://opinion.lawmaking.go.kr/gcom/nsmLmSts/out/2200698/detailRP ; https://opinion.lawmaking.go.kr/gcom/nsmLmSts/out/2117270/detailRP ; https://opinion.lawmaking.go.kr/gcom/nsmLmSts/out/2219343/detailRP ; https://opinion.lawmaking.go.kr/better/atchFile/download/5932773 (·7873887·8049671·7873663·8049657·5932691) ; https://www.kmrb.or.kr/main/na/ntt/selectNttList.do?mi=1104&bbsId=1007 ; https://www.kmrb.or.kr/common/nttFileDownload.do?fileKey=f80999f5917b181b9ef6893f34acd6be. 막힌 경로: 국회 열린국회정보 open API(인증키 필요, ERROR-290), likms(302 리다이렉트). 다운로드 파일은 $TEMP/kr26r5에만 두었다.
+
+자체 확인: `node .claude/skills/kr-verify/scripts/kr-fit.mjs 26 --check` → block 0 · warn 0 · 예외 통과 0. 본문을 고치지 않았으므로 kr-fit-review 해시는 그대로다.
