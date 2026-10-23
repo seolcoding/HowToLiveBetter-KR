@@ -651,3 +651,33 @@ agy 기록(kr-harness/research/05.md, 14건 중 해결 13·부분 1 판정)을 �
 - T3 제18항 펀드 평균 총보수 공식 통계 — **유지**(본문 변경 없음). 금융투자협회 종합통계(FreeSIS) 사이트맵(http://freesis.kofia.or.kr/stats/siteMap.do)에서 「펀드 > … > 유형평균보수및비용」(STATFND0100300200)과 「클래스별 TER」(STATFND0100300220) 통계표가 있음을 원문으로 확인했다. 이것이 TODO가 찾는 공식 통계로 보인다. 그러나 통계 조회 API(POST /meta/getMetaDataList.do, OBJ_NM=STATFND0100300200BO)는 사이트맵을 받은 직후부터 약 25분 동안 40회 모두 연결 시간 초과였고(80·443 포트, 대리 서버 경유도 실패, WebFetch는 ECONNREFUSED), 표 값을 읽지 못했다. 금투협 보도자료 게시판 「보수」「보수비용」「TER」 검색은 0건. 전자공시(DIS)는 펀드별 비교 화면이라 유형 평균이 아니다. 언론이 전한 TER 평균 0.41% 등은 2차 전달이라 쓰지 않았다. 다음 조사에서 FreeSIS 「유형평균보수및비용」 표를 열면 풀릴 가능성이 높다.
 - 상태 줄 「TODO 3건」 유지.
 - 자체 확인: `node .claude/skills/kr-verify/scripts/kr-fit.mjs 05 --check` → 「전체: 1개 파일 — block 0 · warn 13 → 통과」(warn은 기존 KF-SOC·KF-CN-STD).
+
+## 6차 조사 반영 기록 (2026-10-23, FreeSIS 재시도)
+
+대상은 제18항 TODO 하나다. 결과는 **유지**다. 본문은 바꾸지 않았다. TODO 3건 그대로다.
+
+- 받은 파일: `%TEMP%\kr05r6\menu.js`(20715바이트).
+  - 09:35 무렵 `http://freesis.kofia.or.kr/resources/stat/js/menu.js`가 응답했다.
+  - menu.js의 `goPage()`는 `/stat/FreeSIS.do`로 폼을 보낸다.
+  - 폼 값은 `parentDivId`·`serviceId`·`divisionId` 셋이다.
+- 5차 사이트맵 사본(sm.html 3145행)에서 화면 값을 확인했다.
+  - `clickLink('MSIS40100030000000','STATFND0100300200','MSIS40100030020000')`
+  - 화면 이름은 「유형평균보수및비용」이다.
+- 시도한 요청: `POST http://freesis.kofia.or.kr/stat/FreeSIS.do`.
+  - 본문: `parentDivId=MSIS40100030000000&serviceId=STATFND0100300200&divisionId=MSIS40100030020000`.
+  - 이 화면을 받아야 데이터 요청 형식을 알 수 있다.
+  - 데이터 요청은 5차 기록의 `/meta/getMetaDataList.do`로 짐작한다.
+  - 화면을 못 받아 기준일·유형 파라미터는 확인하지 못했다.
+- 결과: menu.js를 받은 직후부터 연결이 끊겼다.
+  - 09:38 https·http 각 4회, 연결 시간 초과.
+  - 09:40~09:55 10초 간격 30회, 모두 연결 시간 초과(포트 80).
+  - DNS는 203.248.174.21로 풀렸다.
+  - WebFetch(https)는 ECONNREFUSED였다.
+  - 로컬 대리 서버 127.0.0.1:7890은 켜져 있지 않았다.
+- 5차와 같은 양상이다. 첫 요청 하나는 응답한다. 그 뒤 20분 넘게 막힌다.
+  - 접속 차단인지 서버 장애인지는 알 수 없다.
+- 표 값을 읽지 못해 본문·배너·TODO 줄을 그대로 두었다.
+- 언론의 TER 0.41% 같은 2차 수치는 이번에도 쓰지 않았다.
+- 다음 시도 제안: 한국 내 다른 회선에서 FreeSIS.do 화면부터 받는다.
+  - 화면 스크립트에서 getMetaDataList.do 본문을 확인한다.
+- 자체 확인: `node .claude/skills/kr-verify/scripts/kr-fit.mjs 05 --check` → 「전체: 1개 파일 — block 0 · warn 13 → 통과」.
