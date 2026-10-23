@@ -597,3 +597,5 @@ T 제18항 한국 기숙형 시설 판결 — **부분**.
 - 내려받은 파일: `$TEMP/kr30r27/`
 
 검증: `node .claude/skills/kr-verify/scripts/kr-fit.mjs 30 --check` → block 0 · warn 0 → 통과. 본문 해시가 바뀌었으므로 kr-fit-review.md는 다시 검토받아야 한다.
+
+- 27차 재검토 warn 반영: 필리핀 조기유학 기숙사 사건이 국내·교정 시설이 아님을 밝힘. 성범죄 묘사를 「추행」으로 줄임. 52자 문장을 나눔.
