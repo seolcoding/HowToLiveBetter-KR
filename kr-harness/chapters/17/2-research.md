@@ -392,3 +392,5 @@ TODO 1건 → 1건(부분, 줄을 좁혀 고침). 배너 「TODO 1건」 그대�
   - https://www.nid.or.kr/support/info_custodian1.aspx · info_custodian2.aspx · info_custodian3.aspx
   - https://www.kihasa.re.kr/api/kihasa/file/download?seq=29107
 - 자체 확인: `node .claude/skills/kr-verify/scripts/kr-fit.mjs 17 --check` → block 0 · warn 0 · 통과. 본문이 바뀌었으므로 kr-fit-review 해시는 다시 받아야 한다.
+
+- 25차 재검토 warn 반영: 절차구조신청서 서식이 「2026년 발달장애인지원 사업안내」 것임을 밝히고, 치매 사업 문장의 주어를 시·군·구로 고침.
