@@ -536,3 +536,72 @@ TODO 2건 → 2건(둘 다 부분, 쟁점을 좁힘). 상태 배너 「TODO 2건
 
 - 22차 재검토 warn 반영: 「피토나디온」과 「약제 세부사항」을 풀어 씀(판본 표시는 유지). TODO 줄에 「업체수」를 원문대로 더함.
 - 22차 2회 재검토 warn 반영: 59자 문장을 두 문장으로 나눔.
+
+## 28차 조사 반영 기록 (2026-10-23)
+
+- 판정: T2 황달과 예방접종(제3항·제13항) 유지.
+- 본문(book-kr/20)은 바꾸지 않았다. TODO는 2건 그대로다.
+- 한글 검색은 node encodeURIComponent로 인코딩했다.
+- 다운로드는 $TEMP/kr20r28에 두었다.
+
+### 「예방접종의 실시기준 및 방법」(제2026-13호)
+
+- DRF admrul XML과 첨부 PDF(8쪽)를 열었다.
+- 본문은 제1조~제11조와 부칙이다.
+- 「황달」「빌리루빈」은 0건이다.
+- 「금기」는 2건뿐이다.
+- 하나는 제6조 제1항 제3호다.
+- 원문: 「예진표 및 접종 금기사항에 따른 예방접종 실시 가능 여부」
+- 다른 하나는 별표 1 DTaP 칸이다.
+- 원문: 「백일해 포함 백신(aP) 금기자의 경우」
+- 고시에는 금기·연기 사유 목록이 없다.
+- 「연기 사유가 아닌 경우」 목록도 없다.
+- 별표는 별표 1(대상 및 표준접종시기) 하나다.
+- 별지 제1호 예진표 문항 11개도 다 읽었다.
+- 황달을 묻는 문항은 없다.
+- 11번이 간질환 진료 여부를 묻는다.
+- 이 문항은 황달을 말하지 않아 근거로 쓰지 않았다.
+
+### 「예방접종 대상 감염병의 역학과 관리」
+
+- 2024~2026판은 찾지 못했다.
+- 질병관리청 통합검색 첨부파일 3건은 18차와 같다.
+- 2011년판, 2013년 수정판, 2017년판이다.
+- 예방접종도우미 지침 게시판(menuCd=162)도 봤다.
+- 제목 「역학」 검색 결과 40건을 넘겨 봤다.
+- 가장 새 글은 2017-05-17 장별 파일이다.
+- 2017년 개정판 전체는 114번(2017-05-13)이다.
+- 2017년판 「잘못 알려진 경우」는 18차에 봤다.
+- 그 목록에 황달이 없다는 기록을 그대로 둔다.
+
+### B형간염 Q&A·자주 묻는 질문
+
+- 질병관리청 통합검색 「B형간염 질의응답」은 보도자료 3건이다.
+- 「B형간염 예방접종 Q&A」는 0건이다.
+- 검색 서버가 「&」를 빼고 「QA」로 찾았다.
+- 「신생아 황달 접종」 2건은 성인 간염 홍보자료다.
+- 「황달 예방접종」 17건은 감염병 증상 설명뿐이다.
+- B형간염 주산기감염 예방사업 쪽(menuCd=133)은 「황달」 0건이다.
+- 국가건강정보포털 B형간염(6672)도 열었다.
+- 황달은 증상 설명 한 줄뿐이다.
+- 포털 황달(5462)은 원인 설명뿐이다. 접종 이야기는 없다.
+- 도우미 자주묻는 질문 322건은 5차 확인을 그대로 둔다.
+- 도우미 질문과 답변(menuCd=25)은 글이 비공개라 못 봤다.
+
+### 남은 경로
+
+- 대한소아청소년과학회 예방접종 지침서(회원 전용).
+- 대한신생아학회 진료 지침.
+
+### 확인 URL
+
+- https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000285754&type=XML
+- https://www.law.go.kr/flDownload.do?flSeq=170183047
+- https://www.kdca.go.kr/search.do?kwd=예방접종%20대상%20감염병의%20역학과%20관리&category=TOTAL
+- https://nip.kdca.go.kr/irhp/infm/goVcntInfo.do?menuLv=1&menuCd=162
+- https://nip.kdca.go.kr/irhp/infm/goRefcBrdList.do (POST, 제목 「역학」)
+- https://nip.kdca.go.kr/irhp/infm/goVcntInfo.do?menuLv=1&menuCd=133
+- https://nip.kdca.go.kr/irhp/remd/goVcntNtfc.do?menuLv=2&menuCd=25
+- https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6672
+- https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=5462
+- python·브라우저 자동화·git 명령은 쓰지 않았다.
