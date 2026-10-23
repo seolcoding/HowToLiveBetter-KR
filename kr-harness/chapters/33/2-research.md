@@ -756,3 +756,4 @@ opencode(GLM 5.3 Flash) 기록 kr-harness/research/33-r3.md(4건 중 「해결�
 ### T3. 제18항 정신감정비·처리기간 — 이번 범위 밖(손대지 않음)
 
 자체 확인: `node .claude/skills/kr-verify/scripts/kr-fit.mjs 33 --check` → 「전체: 1개 파일 — block 0 · warn 0 → 통과」. 본문이 바뀌었으므로 kr-fit-review 해시는 다시 받아야 한다.
+- 15차 재검토 warn(같은 날): 2012다1177 판결문에는 「미성년」이 없어 「이 판결은 자녀를 감독할 부모의 책임을 다뤘고, 금감원 기준이 미성년 자녀 사안으로 정리했다」로 나눠 썼다. 분쟁해결기준이 법령이 아니라는 문장을 넣었다.
