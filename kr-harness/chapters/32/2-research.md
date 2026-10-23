@@ -246,3 +246,34 @@
 - 쓰지 않은 것: 행정기록 인증(10-23 마감)의 제출 여부(오늘 마감이라 기록 없음은 미제출 단정 근거가 안 됨), 제1순회 달력·CourtListener 구두변론 검색·관보 검색의 부재 결과(부재 확인이라 본문에 단정 안 함), 제1순회 CM/ECF 중단 공지(본문 판단과 무관).
 - TODO 1건 → 1건(문구 갱신). 배너 건수 1 유지. 본문 인라인 「TODO」 없음(grep: 배너 1행, 목록 제목 114행뿐).
 - 검사: `node .claude/skills/kr-verify/scripts/kr-fit.mjs 32 --check` → block 0 · warn 0 · 예외 통과 0.
+
+## 5차 조사 반영 기록 (2026-10-23)
+
+진행 중인 소송을 다시 확인했다. 원문만 직접 열었다.
+
+| TODO | 결과 | 바뀐 문장 | 직접 확인한 URL |
+|---|---|---|---|
+| T1 F-1 소송 이후 진행 (항목 2) | 유지 (확인 기록만) | TODO 줄에 「10-23 오후 재확인 때도 새 항목 없음」 추가. 본문 이득·비고는 그대로 | https://www.courtlistener.com/docket/74661796/feed/ ; https://www.courtlistener.com/docket/74908049/feed/ ; https://www.federalregister.gov/api/v1/documents.json ; https://www.ice.gov/sevis |
+
+- 지방법원 피드: updated 2026-10-22. 최신 항목은 #63이다.
+- #63 뒤에 명령 항목은 없었다. 연기 신청이 받아들여졌는지는 아직 모른다.
+- 항소 피드(26-2112): updated 2026-10-19. 새 항목은 없었다.
+- REST API v4 docket-entries는 인증을 요구했다.
+- 응답 원문: 「Authentication credentials were not provided.」
+- docket HTML 페이지는 919바이트짜리 차단 응답만 왔다.
+- 그래서 두 Atom 피드를 근거로 삼았다.
+- 연방관보 API로 2026-09-01 이후 문서를 검색했다.
+- 검색어는 "duration of status"(DHS)와 "fixed time period of admission"이다.
+- 결과 세 건 중 이 규칙을 고치거나 미루는 문서는 없었다.
+- 2026-20660 OPT 수수료 제안 규칙(10-08)은 이미 기록한 문서다.
+- 2026-20955 EAD 자동연장 폐지 규칙(10-14)은 F-1 기간 규칙과 별개다.
+- 2026-18631 60일 유예 폐지 제안 규칙(09-11)도 나왔다.
+- 이 규칙은 8 CFR 214.1(l)(2)를 지우자는 제안이다.
+- 원문: 「grace period upon cessation of employment」.
+- 취업 비자 소지자가 일을 그만둘 때의 유예를 뜻한다.
+- F-1 학업 종료 뒤 60일과 다른 조항이라 본문에 넣지 않았다.
+- 이 제안의 의견 마감은 2026-11-10이다.
+- ICE SEVIS 페이지에는 7-17 최종 규칙 공표 문장만 있었다.
+- 법원 명령이나 시행 연기에 관한 새 공지는 없었다.
+- TODO 1건 → 1건. 배너 건수 1 유지.
+- 검사: `node .claude/skills/kr-verify/scripts/kr-fit.mjs 32 --check` → block 0 · warn 0 · 예외 통과 0.
