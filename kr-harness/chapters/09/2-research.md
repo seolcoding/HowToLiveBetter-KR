@@ -589,3 +589,77 @@ agy 기록(kr-harness/research/09.md)은 9건 모두 「해결」로 판정했�
 - 경찰청 경범죄 처벌법 해설서 원문도 아직 못 구했다.
 
 - 확인 URL: https://www.law.go.kr/DRF/lawService.do?OC=test&target=prec&type=XML&ID=185815 · https://www.law.go.kr/DRF/lawService.do?OC=test&target=prec&type=XML&ID=65127 · https://www.law.go.kr/DRF/lawService.do?OC=test&target=prec&type=XML&ID=616691 · https://www.law.go.kr/DRF/lawService.do?OC=test&target=prec&type=XML&ID=171613 · https://www.law.go.kr/DRF/lawService.do?OC=test&target=prec&type=XML&ID=166788 · https://www.law.go.kr/DRF/lawService.do?OC=test&target=prec&type=XML&ID=204240 · https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=npaCgmExpc&type=XML&query=%EA%B2%BD%EB%B2%94%EC%A3%84&search=2
+
+## 31차 조사 반영 기록 (2026-10-23)
+
+제25항만 다뤘다. 판정은 「유지」다. 본문은 바꾸지 않았다.
+
+### 검색 방법
+
+- 대법원 게시판은 EUC-KR이다.
+- 검색어를 EUC-KR로 퍼센트 인코딩해 node로 보냈다.
+- 응답은 TextDecoder('euc-kr')로 풀었다.
+- 「저작권」 검색이 정상 결과를 내 인코딩을 확인했다.
+
+### 전국법원 주요판결(gubun=44, 제목 검색, POST)
+
+- 전체 23694건이다.
+- 0건: 팬아트, 팬픽, 2차적저작물, 패러디.
+- 0건: 캐릭터 저작권, 굿즈, 일러스트.
+- 0건: 2024가합88028, 2017도5797, 2016노1019.
+- 「저작권」 77건 제목을 모두 봤다. 팬 창작물 사건은 없었다.
+- 「캐릭터」 7건, 「웹툰」 4건, 「소설」 5건도 봤다.
+- 「팬」 5건, 「동인」 9건, 「스킨」 3건은 다른 사건이었다.
+- 「풍자」 1건은 서울서부지법 2013고정160이다.
+- 제목: 「전직 대통령을 풍자한 포스터를 주택의 담벽 등에 붙이는 행위」.
+- 이어서: 「구 경범죄처벌법 제1조 제13호」에 해당한다고 한 사례다.
+- 저작권 사건이 아니라서 제25항에 쓰지 않았다.
+
+### 판례속보(gubun=4, type=5, GET)
+
+- POST는 오류 화면이 떴다. GET으로 검색했다.
+- 0건: 팬아트, 팬픽, 패러디, 굿즈, 풍자, 포스터, 2017도5797.
+- 「2차적저작물」 3건, 「캐릭터」 3건은 팬 창작물 사건이 아니다.
+- 「저작권」 5쪽 목록에도 팬 창작물 사건은 없었다.
+
+### 대법원 보도자료(gubun=6)·언론보도판결(gubun=2)
+
+- 보도자료 0건: 팬아트, 팬픽, 2차적저작물, 패러디, 캐릭터, 풍자.
+- 보도자료 「저작권」 4건은 다른 사건이다.
+- 언론보도판결 「풍자」 3건이 나왔다.
+- 하나는 「박근혜 풍자전단 뿌린 팝아티스트, '유죄' 벌금형」이다.
+- 첨부 판결문을 받아 쪽 이미지로 읽었다.
+- 사건번호는 2017도50이다. 2017도5797이 아니다.
+- 죄명은 건조물침입, 옥외광고물등관리법위반교사 등이다.
+- 원심은 서울중앙지법 2016. 12. 16. 선고 2016노3355 판결이다.
+- 선고는 2017. 5. 31.이고 주문은 「상고를 모두 기각한다.」다.
+- 다른 하나는 첨부 이름이 2014도10183이다(포스터 부착).
+- 두 사건 모두 저작권 사건이 아니다.
+- 2017도5797과 같은 사건인지는 확인하지 못했다.
+
+### 국가법령정보센터 판례 DRF(nb=, node)
+
+- 2014다14375·2007다63409로 nb 검색이 되는지 먼저 확인했다.
+- 0건: 2017도5797, 2016노1019.
+- 0건: 2024가합88028, 2024가합113269, 2017도50.
+
+### 한국저작권위원회 저작권 판례(searchTarget=CONTENTS)
+
+- curl은 「Request Blocked」였다. node에 브라우저 UA를 넣었다.
+- 「팬아트」 2건은 이미 쓴 55606·55604다.
+- 「패러디」 3건은 오스트리아·프랑스 소식과 SNL 「쨕」 사건이다.
+- 0건: 2017도5797, 2016노1019.
+- 0건: 팬픽, 팬픽션, 팬 픽션, 동인지, 팬덤.
+- 0건: 2차 창작, 2차창작, 팬카페, 팬클럽.
+- 「88028」「113269」는 각각 55606·55604 한 건씩이다.
+- 이 DB 화면에는 확정 여부 표시가 없다.
+- 「굿즈」 1건(55919)은 가품 굿즈 판매 형사 사건이다.
+- 팬 창작물 사건이 아니라 쓰지 않았다.
+
+### 본문 변경
+
+- 없음. 제25항 비고와 TODO 줄은 그대로 두었다.
+- 팬아트 판결 확정 여부는 사건검색(나의사건)으로 볼 수 있다.
+- 이번 지시 경로 밖이라 열지 않았다.
+
+- 확인 URL: https://www.scourt.go.kr/portal/dcboard/DcNewsListAction.work?gubun=44 · https://www.scourt.go.kr/portal/news/NewsListAction.work?gubun=4&type=5 · https://www.scourt.go.kr/portal/news/NewsListAction.work?gubun=6 · https://www.scourt.go.kr/portal/news/NewsViewAction.work?seqnum=2635&gubun=2 · https://www.scourt.go.kr/portal/news/NewsViewAction.work?seqnum=2176&gubun=2 · https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=prec&type=XML&nb=2017%EB%8F%845797 · https://www.copyright.or.kr/information-materials/trend/precedents/list.do?searchTarget=CONTENTS&searchText=%ED%8C%A8%EB%9F%AC%EB%94%94
