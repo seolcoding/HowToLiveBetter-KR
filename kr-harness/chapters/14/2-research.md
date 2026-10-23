@@ -150,3 +150,6 @@ kr-fit: `node .claude/skills/kr-verify/scripts/kr-fit.mjs 14 --check` → block 
 - TODO 줄: 「직접 겨냥 경보」로 좁혀 고쳐 썼다. 배너 「TODO 1건」 유지.
 
 kr-fit: `node .claude/skills/kr-verify/scripts/kr-fit.mjs 14 --check` → block 0 · warn 0 → 통과.
+
+### 5차 재검토 warn 반영 (2026-10-23)
+- 항목 10: 찾은 범위를 「각 기관의 보도자료와 보안 공지 게시판」으로 밝히고, TODO 줄에 경찰청 ECRM 공지 미확인을 적었다.
