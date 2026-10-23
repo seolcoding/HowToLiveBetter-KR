@@ -578,3 +578,97 @@ opencode GLM 5.3 Flash 기록(kr-harness/research/26-r4oc.md) 판정은 부분 1
 직접 확인한 URL: https://opinion.lawmaking.go.kr/gcom/nsmLmSts/out?scBlNm=scBlNm_blNm&scBlNmSct=(퍼센트 인코딩) ; https://opinion.lawmaking.go.kr/gcom/nsmLmSts/out/2216944/detailRP ; https://opinion.lawmaking.go.kr/gcom/nsmLmSts/out/2221616/detailRP ; https://opinion.lawmaking.go.kr/better/atchFile/download/14753971 (·14743307·8376247·8376431) ; https://opinion.lawmaking.go.kr/gcom/nsmLmSts/out/2209306/detailRP ; https://opinion.lawmaking.go.kr/better/atchFile/download/8028925 ; https://opinion.lawmaking.go.kr/gcom/nsmLmSts/out/2208795/detailRP ; https://opinion.lawmaking.go.kr/gcom/ogLmPp?lsNm=(퍼센트 인코딩)&finishIncludeYn=Y&stYd=20240101&edYd=20261023 ; https://opinion.lawmaking.go.kr/gcom/ogLmPp/85518 (·82888·81916·81914·76628·78360·77876·80082·78390) ; https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=expc&type=XML&display=100&search=2&query=(퍼센트 인코딩) ; https://www.law.go.kr/DRF/lawService.do?OC=test&target=expc&ID=343369&type=XML ; https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=mcstCgmExpc&type=XML&display=100 ; https://www.law.go.kr/DRF/lawService.do?OC=test&target=eflaw&MST=291221&efYd=20270421&type=XML.
 다운로드 파일은 $TEMP/kr26r20에만 두었다.
 방송법·전기통신사업법 의안은 상세 쪽 제안이유만 봤다. 그쪽 검토보고서 HWP는 받지 않았다.
+
+## 24차 조사 반영 기록 (2026-10-23)
+
+대상은 T1(자사몰의 부가통신역무 해당 여부)뿐이다.
+결과: 부분 1. TODO 2 → 2. 첫 줄은 좁혔다.
+바뀐 항목: 제2항(비고·출처), TODO 첫 줄.
+
+### 법 문언 (DRF MST 285185, 시행 20261001)
+
+- 제6호: "전기통신역무"란 "타인의 통신을 매개"하는 것 등이다.
+- 원문: "전기통신설비를 이용하여 타인의 통신을 매개하거나 …"
+- 제11호는 내용·형태를 바꾸지 않는 송수신 역무 등이다.
+- 제12호: "기간통신역무 외의 전기통신역무를 말한다."
+
+### 법제처 해석례 (target=expc, 검색어는 encodeURIComponent)
+
+- 본문검색 「부가통신역무」 3건, 「부가통신사업」 9건.
+- 「전기통신역무」 10건, 「타인의 통신을 매개」 2건.
+- 「통신을 매개」 3건, 「전기통신사업자」 43건.
+- 5차에 없던 검색어는 「전기통신역무」「통신을 매개」 등이다.
+- 원문을 연 것: 17-0330, 08-0135, 22-0823, 08-0442.
+- 17-0330은 제6호를 인용만 한다. 쟁점은 발신번호 고지다.
+- 08-0135는 부가통신사업이 관허사업인지를 다룬다.
+- 회답: "관허사업에 해당하지 아니합니다."
+- 22-0823은 데이터방송의 부가통신 신고 조문 인용뿐이다.
+- 08-0442는 KT의 공공기관 해당 여부다.
+- 자사몰이 "타인의 통신을 매개"하는지 다룬 해석례는 없었다.
+
+### 과기정통부 질의회신 (target=msitCgmExpc, 새 경로)
+
+- 중앙부처 1차 해석 DB다. 법제처 해석례가 아니다.
+- 「부가통신역무」 2건, 「부가통신사업」 3건이었다.
+- 「전기통신역무」 3건, 「쇼핑몰」 1건, 「홈페이지」 57건.
+- 「전자상거래」「통신을 매개」「온라인쇼핑」 0건이었다.
+- 2건(381636·2774641)은 웹하드·P2P 등록 질의다.
+- 원문: "단순한 신고만으로는 부족하며 … 등록을 해야 합니다."
+- 383500은 CISO 지정신고 질의다.
+- 원문: "홈페이지 등을 통해 부가통신사업을 경영하는 …"
+- 이어서: "자본금 1억 원 이하의 회사는 … 의무가 없습니다."
+- 정보통신망법 답이라 자사몰 판단으로 쓰지 않았다.
+- 383300은 정보통신서비스 제공자 해당 여부다.
+- 기준은 "영리목적" 여부라고 답했다. 역시 망법이다.
+- 2781957은 쇼핑몰 해킹 신고 질의다. 무관하다.
+- target=kccCgmExpc·ftcCgmExpc는 응답이 비었다.
+
+### 실태조사 원문 (새로 반영)
+
+- 「2021년 부가통신사업 실태조사 결과보고서」 hwpx를 받았다.
+- 게시: 과기정통부 정보통신정책 게시판, 2022. 5. 25.
+- 설문의 대표서비스 ③ 원문:
+- "자신이 판매 권한을 보유하고 있는 재화나 용역, …"
+- 이어서: "수요자에게 직접 제공‧판매하거나 …"
+- 분류표: 「온라인 직거래」 > 「재화/용역 판매」 > 「재화 판매」.
+- 결과 원문: "대표서비스 기준, 온라인직거래 사업자가 2,750개로 63.2% 차지".
+- 한계 원문: "정의와 범위 및 분류는 공인된 기준이 없고".
+- 같은 곳: "신고 예외 또는 미신고 사업자는 제외되었음".
+- 산업 관점 정의에 "온라인 쇼핑몰"이 있다.
+- 원문: "법적으로 … 그 대상과 범위가 매우 넓으나".
+- 성격: 통계 보고서다. 법령 해석이 아니다.
+- 그래서 비고에 "공인된 기준이 없고"를 함께 썼다.
+- 「2025년 실태조사」 보도자료(2026. 6. 4. 조간) hwpx도 읽었다.
+- 조사대상 원문: "부가통신 신고‧등록 사업자 및 신고간주 사업자".
+- 그 수는 "16,902개사"다.
+- 「(22) 전자상거래(이커머스)」 예시는 쿠팡·지마켓·컬리·무신사다.
+- 업체 예시는 사업 모델이 섞여 비고에 넣지 않았다.
+- 개요는 "자본금 1억원 미만"이라 쓴다.
+- 붙임은 "자본금 1억원 이하"라 쓴다. 표기가 엇갈린다.
+- 2024·2025년 결과보고서 원문은 통합검색에서 찾지 못했다.
+
+### 찾지 못한 것
+
+- 「전기통신사업법 해설서」 공개본: 과기정통부 통합검색 0건.
+- WebSearch에서도 정부 발행본은 나오지 않았다.
+- KISDI 누리집은 node fetch에 404·빈 응답이었다.
+- 「전기통신사업법 질의응답」: 과기정통부 통합검색 0건.
+- 국회입법조사처 제목검색 「부가통신」 1건뿐이었다.
+- 1756호 「부가통신사업자의 서비스 안정성 확보 의무」다.
+- PDF를 읽었다. 「신고」는 0회라 신고 범위와 무관하다.
+- 「전기통신사업법」 제목검색은 0건이었다.
+
+### 본문 변경
+
+- 제2항 비고 전: "자기 물건만 파는 쇼핑몰을 따로 짚은 …"
+- 이어서: "정부 안내는 찾지 못했습니다(2026-10-23)."
+- 후: 2021년 결과보고서의 온라인 직거래 정의, 63.2%.
+- 그리고 "공인된 기준이 없고", 신고 사업자만 조사한 한계.
+- 2025년 보도자료 한 문장, 해석례·질의회신 미발견을 더했다.
+- 출처에 결과보고서와 2025년 보도자료 URL을 더했다.
+- TODO 첫 줄은 남은 쟁점을 "타인의 통신을 매개"로 좁혔다.
+
+직접 확인한 URL: https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=285185&type=XML ; https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=expc&type=XML&display=100&search=2&query=(퍼센트 인코딩) ; https://www.law.go.kr/DRF/lawService.do?OC=test&target=expc&ID=330163&type=XML (·312580·334941·322709) ; https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=msitCgmExpc&type=XML&display=100&search=2&query=(퍼센트 인코딩) ; https://www.law.go.kr/DRF/lawService.do?OC=test&target=msitCgmExpc&ID=2774641&type=XML (·381636·383300·383500·383556·2781957) ; https://www.msit.go.kr/search/ko/searchKo.do?qt=(UTF-8) ; https://www.msit.go.kr/bbs/view.do?sCode=user&mId=86&mPid=83&bbsSeqNo=67&nttSeqNo=3139403 ; https://www.msit.go.kr/ssm/file/fileDown.do?atchFileNo=37834&fileOrd=3&fileBtn=A ; https://www.msit.go.kr/bbs/view.do?sCode=user&mId=307&mPid=208&bbsSeqNo=94&nttSeqNo=3187393 ; https://www.msit.go.kr/ssm/file/fileDown.do?atchFileNo=53992&fileOrd=1&fileBtn=A ; https://www.nars.go.kr/report/list.do?categoryId=&cmsCode=CM0018&searchType=TITLE&searchKeyword=(UTF-8) ; https://www.nars.go.kr/report/view.do?cmsCode=CM0018&brdSeq=31429.
+다운로드 파일은 $TEMP/kr26r24에만 두었다.
+
+자체 확인: `node .claude/skills/kr-verify/scripts/kr-fit.mjs 26 --check` → block 0 · warn 0 · 예외 통과 0. 본문이 바뀌었으므로 kr-fit-review 해시는 다시 맞춰야 한다.
