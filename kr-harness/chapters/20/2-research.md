@@ -381,3 +381,80 @@ TODO 2건 → 2건(둘 다 부분, 쟁점을 좁힘). 상태 배너 「TODO 2건
   - https://www.kdca.go.kr/bbs/kdca/55/258753/download.do (2011년판, 열지 않음)
   - https://nip.kdca.go.kr/irhp/mngm/goVcntMngm.do?menuLv=3&menuCd=36
 - python·브라우저 자동화·git 명령은 쓰지 않았다. 내려받은 파일은 $TEMP/kr20r18에 있다.
+
+## 21차 조사 반영 기록 (2026-10-23)
+
+- 판정: T1·T2 모두 유지. 본문은 바꾸지 않았다.
+- TODO는 2건 그대로다.
+- 한글 검색은 node fetch와 encodeURIComponent로 보냈다.
+- 다운로드는 $TEMP/kr20r21에 두었다.
+
+### T1 비타민 K(제7항) — 유지
+
+- 남은 쟁점은 두 가지다.
+  - 일상 투여를 적은 한국 1차 출처.
+  - 분만 때 약값을 따로 청구하는지 정한 문장.
+- 둘 다 이번에도 찾지 못했다.
+- 국내 논문(KoreaMed 기본 검색, 검색어 5개)
+  - 신생아 비타민 K 결핍 출혈 논문은 1980~2005년 증례가 대부분이다.
+  - 1991년 증례 초록 원문: 「We insist on neonatal administration of vit. K1 for the prevention of bleeding tendency.」
+  - 투여를 주장하는 문장이지 일상 시행의 근거는 아니다.
+  - 출처: J Korean Neurosurg Soc 1991;20:924-929(KoreaMed RID 1954493).
+  - 2005년 증례 초록은 원인을 담즙정체와 모유 수유로 쓴다.
+  - 출생 때 투여 여부는 초록에 없다(RID 2275252).
+  - 오래된 증례라 지금의 분만 현장을 말해 주지 못한다. 본문에 넣지 않았다.
+- Europe PMC 검색(Korea × vitamin K × newborn)
+  - 한국 저자의 투여 실태 조사나 진료 권고는 찾지 못했다.
+  - Ann Lab Med 2025 총설(PMID 40269655)은 캐나다 저자 글이다.
+- 건강검진 실시기준(고시 제2026-6호) 별표·서식 전문 XML
+  - 「비타민 K」 0건이다.
+  - 영유아 문진표에는 비타민 D 질문만 있다.
+  - 원문: 「비타민 D를 먹이고 있습니까?」
+- 건강보험요양급여비용 2024년 1월판을 다시 열었다.
+  - 이번에는 제5장 주사료 산정지침을 봤다(인쇄 377쪽).
+  - 원문 ⑴: 「주사 시 사용된 주사재료대(1회용 주사기, …)」는 소정점수에 포함된다.
+  - 원문 ⑵: 1세 미만은 주사료 소정점수의 50%를 가산한다.
+  - 다만 「피하 또는 근육내주사(마-1)」는 가산에서 뺀다.
+  - 약제비를 별도 산정한다는 일반 문장은 이 장에 없다.
+  - 보건기관 조산료 주석(인쇄 695쪽)은 약제를 포함한다고 쓴다.
+  - 원문 ⑺: 「조산료에는 입원료, 투약 및 주사료, … 약제 및 소모품의 비용이 포함」
+  - 이 주석은 보건소 등 보건기관 조산에만 해당한다.
+  - 병원 분만의 약값 청구 근거로 쓰지 않았다.
+- 약제 세부사항 고시(제2026-192호, 시행 2026.10.1.)
+  - DRF 본문은 「전문」 별도 파일 안내뿐이었다.
+  - 전문 파일 주소를 찾지 못해 피토나디온 기준은 확인하지 못했다.
+- 심평원 보건의료빅데이터개방시스템(opendata.hira.or.kr)
+  - 두 번 모두 30~40초 시간 초과로 열리지 않았다.
+  - 0세 사용량 통계는 보지 못했다.
+- 임신육아종합포털 아이사랑(childcare.go.kr)
+  - 출산 메뉴 21쪽(265~285)과 신생아 메뉴 5쪽(420~424)을 열었다.
+  - 「비타민 K」 0건이다.
+  - 누리집 통합검색은 동작하지 않았다.
+- 대한소아청소년과학회 공개 게시판
+  - 육아정보 신생아 23건, 질환상식 52건 본문을 받았다.
+  - 「비타민 K」 0건이다.
+
+### T2 황달과 예방접종(제3항·제13항) — 유지
+
+- 「B형간염 주산기감염 예방사업 지침(의료기관용)」을 열었다.
+  - 질병관리청 지침 게시판, 2025-03-27 게시, 107쪽이다.
+  - 「황달」「빌리루빈」 0건이다.
+- 대한소아청소년과학회 질환상식 「신생아 황달」(8942)
+  - 「황달」은 11번 나오지만 「접종」은 0건이다.
+  - 이 글은 학회 공개 글이고 진료 지침은 아니다.
+- 같은 게시판 52건과 신생아 23건에도 황달과 접종을 함께 다룬 글은 없다.
+- 학회 「예방접종 지침서」는 이번에도 열지 못했다(회원 전용).
+- 남은 경로: 학회 예방접종 지침서, 대한신생아학회 진료 지침.
+
+### 확인 URL
+
+- https://www.koreamed.org/SearchBasic.php?RID=1954493
+- https://www.koreamed.org/SearchBasic.php?RID=2275252
+- https://www.ebi.ac.uk/europepmc/webservices/rest/search
+- https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000272270&type=XML
+- https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000285598&type=XML
+- https://repository.hira.or.kr/bitstream/2019.oak/3201/2/%EA%B1%B4%EA%B0%95%EB%B3%B4%ED%97%98%EC%9A%94%EC%96%91%EA%B8%89%EC%97%AC%EB%B9%84%EC%9A%A9%20(2024%EB%85%84%201%EC%9B%94%ED%8C%90).pdf
+- https://www.childcare.go.kr/?menuno=270
+- https://www.kdca.go.kr/bbs/kdca/55/258914/download.do
+- https://www.pediatrics.or.kr/bbs/index.html?code=disease_info&category=C&page=1&number=8942&mode=view
+- python·브라우저 자동화·git 명령은 쓰지 않았다.
