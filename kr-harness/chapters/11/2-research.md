@@ -196,3 +196,7 @@ AUDIT-ENCODING-2026-10-23.md의 「11 TODO 영향 가능」 후속. DRF 판례 �
   - TODO 줄: 쟁점은 그대로 두고, 「모의해킹」 17건 중 2014도8838 계열이 무관하다는 점과 2005노2491 → 2005도7309 파기환송·환송 뒤 결과 미확인을 덧붙임. 배너 TODO 1건 유지.
 - 확인 URL: https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=prec&type=XML&display=100&search=2&query=%EB%AA%A8%EC%9D%98%ED%95%B4%ED%82%B9 · https://www.law.go.kr/DRF/lawService.do?OC=test&target=prec&type=XML&ID=176320 · https://www.law.go.kr/DRF/lawService.do?OC=test&target=prec&type=XML&ID=176542 · https://www.law.go.kr/DRF/lawService.do?OC=test&target=prec&type=XML&ID=176605 · https://www.law.go.kr/DRF/lawService.do?OC=test&target=prec&type=XML&ID=77487 · https://www.law.go.kr/DRF/lawService.do?OC=test&target=prec&type=XML&ID=84416 · https://www.law.go.kr/LSW/precInfoP.do?precSeq=77487 · https://www.law.go.kr/LSW/precInfoP.do?precSeq=84416
 - kr-fit: `node .claude/skills/kr-verify/scripts/kr-fit.mjs 11 --check` → 「전체: 1개 파일 — block 0 · warn 0 → 통과」.
+
+### 5차 후속 재검토 warn 반영 (2026-10-23)
+- 제6항: 2005노2491의 비밀번호 부분은 원심이 「…이었다고 하더라도」로 가정한 것이라 「피고인 쪽은 …라고 주장했습니다」로 고쳤다. 2005도7309는 「파기하고 돌려보냈습니다」와 경합범으로 함께 파기된 이유, 환송 뒤 결과 미확인을 넣었다. 「당시 조문 번호」를 「당시 벌칙 조항 번호와 형량」으로 좁혔다(제48조 제1항·제49조 번호는 현행과 같음).
+- 제9항: 76자 문장을 두 문장으로 나눴다.
