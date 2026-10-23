@@ -301,3 +301,103 @@ AUDIT-ENCODING-2026-10-23.md의 「11 TODO 영향 가능」 후속. DRF 판례 �
 - https://www.police.go.kr/user/bbs/BD_selectBbsList.do?q_bbsCode=1002&q_searchKeyTy=lngtCn___1002&q_rowPerPage=100&q_searchVal=%ED%87%B4%EC%82%AC
 - https://www.spo.go.kr/site/spo/ex/board/List.do?cbIdx=1403&pageIndex=1&siteCd=all&searchCondition=subCont&searchKeyword=%EC%B1%84%EA%B5%B4
 - https://www.spo.go.kr/site/spo/ex/board/View.do?cbIdx=1403&bcIdx=1038707
+
+## 25차 조사 반영 기록 (2026-10-23)
+
+판정: **유지**. 본문은 고치지 않았다. TODO 1건 그대로다.
+원문은 %TEMP%\kr11r25에 두었다. 스크립트는 %TEMP%\kr11r25tool에 있다.
+한글 검색어는 모두 node encodeURIComponent로 보냈다.
+대법원 누리집 검색어는 EUC-KR 바이트로 인코딩해 보냈다.
+UTF-8로 보내면 검색창에 「梨援?」처럼 깨져 0건이 된다.
+
+### 1. DRF 판례 본문검색 (target=prec, search=2)
+
+이전 차수에 쓰지 않은 검색어만 넣었다.
+
+- 퇴사·접근권한 쪽
+  - 「정보통신망 침입 퇴직」 8 · 「정보통신망 침입 퇴사」 3.
+  - 형사 사건은 2005노2491(5차 반영)뿐이다.
+  - 「접근권한 퇴직」 67 · 「접근권한 퇴사」 35.
+  - 대부분 영업비밀·배임·뇌물·행정 사건이다.
+  - 2022노3155(ID 612053)의 「퇴사」는 증인 경력이다.
+  - 2015고합30(ID 183145)은 입찰 프로그램 조작 사건이다.
+  - 「정보통신망침해 퇴직자」 4 · 「퇴직 후 접속 권한 없이」 32.
+  - 2021도11170(ID 237139)의 「퇴직자」는 놓고 간 PC 이야기다.
+  - 퇴사자 본인의 옛 계정 접속 유죄 판결은 없었다.
+- 채굴 쪽
+  - 「암호화폐 채굴」 7 · 「가상자산 채굴」 5 · 「가상통화 채굴」 4.
+  - 「채굴 프로그램」 4 · 「마이닝 프로그램」 0.
+  - 「채굴형」 0 · 「크립토재킹」 0 · 「채굴 악성」 검색도 했다.
+  - 2023노209(ID 605587)의 「채굴」은 거래 보상 코인 발행이다.
+  - 직원이 회사 서버로 채굴한 형사 판결은 없었다.
+- 선의 테스트 쪽
+  - 「화이트해커」 0 · 「화이트 해커」 0 · 「버그바운티」 0.
+  - 「취약점 침입」 15 · 「취약점 신고」 22.
+  - 목록은 과징금·손해배상 사건과 2003고단4527(외부 해킹)이다.
+  - 선의 테스트·사후 신고 주장을 다룬 형사 판결은 없었다.
+- 계정 해제 쪽
+  - 「계정 정지 해제」 48 · 「계정 정지 해제 대가」 20.
+  - 「해킹 의뢰 대행」 4: 2022노1(18차에 봄), 2008고단6203 등.
+  - 2008고단6203(ID 169786)은 검색어 조작용 악성프로그램 사건이다.
+  - 2008가합41944·77806은 게임 계정 이용중지 민사 사건이다.
+  - 외부 업자가 대가를 받고 계정을 풀어 준 판결은 없었다.
+
+### 2. DRF 사건번호 검색 (nb 파라미터)
+
+- `nb=` 파라미터로 사건번호를 정확히 찾을 수 있다.
+- 2005노2491·2014도8838로 시험해 각 1건이 나왔다.
+- 「2019고단1680」 0 · 「2019고단4003」 0 · 「2021노329」 0.
+- 「2025노1307」 0. DRF에 이 판결들이 실려 있지 않다.
+- 본문검색 「2025노1307」 0, 「2019고단1680」 2(무관)이다.
+- 그래서 두 사건의 상급심 판결도 DRF에서 찾지 못했다.
+- 사건명 검색 「2025노1307」 1건은 2024도19539(무관)이다.
+- 확정 여부는 이번에도 확인하지 못했다.
+
+### 3. 대법원 전국법원 주요판결 (gubun=44, 전 법원)
+
+검색어와 건수는 아래와 같다(제목 검색).
+
+- 「채굴」 3: 채굴기 투자사기, 광업 행정 2건. 무관.
+- 「가상화폐」 19 · 「암호화폐」 3 · 「가상자산」 10.
+- 모두 사기·환전·민사 사건이다.
+- 「퇴사」 27: 2025노1307(4차 반영) 말고는 무관하다.
+- 「퇴사자」 3 · 「전 직장」 1 · 「전직」 49도 무관하다.
+- 「정보통신망」 50 · 「해킹」 16 · 「악성프로그램」 3.
+- 「접근권한」 3 · 「계정」 13 · 「아이디」 6 · 「비밀번호」 26.
+- 「취약점」 0 · 「모의해킹」 0 · 「화이트해커」 0.
+- 「무단접속」 0 · 「침입」 174(주거침입이 대부분).
+- 게시글을 연 것(seqnum)은 아래와 같다.
+  - 18904 울산지법 2016노1948: 해지 통보 뒤 영업비밀 반출.
+  - 재직 중 반출 사건이라 옛 계정 접속과 다르다.
+  - 27147 부산지법 2024고단5282: 원격 프로그램으로 출퇴근 조작.
+  - 재직 직원의 초과근무수당 사건이다. 쟁점이 다르다.
+  - 20738 서울동부지법 2019고정223: 게임 파일 악성프로그램 유포.
+  - 14612 울산지법 2014고단4017: 개인정보 매수 사건.
+  - 19229 대구지법 2017고단3866: 개인정보 매매·무단 접속.
+
+### 4. 본문에 넣지 않은 확정 판결 (참고)
+
+- 대법원 2018. 12. 27. 선고 2017도15226(ID 204235).
+- 주문: 「상고를 기각한다.」 원심은 의정부지법 2017노262.
+- 동료가 자리를 비운 사이 메신저 보관함을 열어 복사한 사건이다.
+- 원문: 「메신저 프로그램 운영 업무와 관련 없는 피고인에게」
+- 「이 사건 대화내용을 열람·확인할 권한은 없고」.
+- 적용 조문은 제49조(비밀 침해·누설)다. 제48조 침입이 아니다.
+- 정당행위·정당방위 주장도 배척했다.
+- 다만 판결문에 피고인의 동기는 적혀 있지 않다.
+- 퇴사자 사건도, 보안 테스트 사건도 아니라 TODO를 풀지 못한다.
+- 제6항 비고가 이미 길어 본문에는 넣지 않았다.
+
+### 5. 확인 URL
+
+- https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=prec&type=XML&display=100&search=2&query=%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EB%A7%9D%20%EC%B9%A8%EC%9E%85%20%ED%87%B4%EC%A7%81
+- https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=prec&type=XML&display=100&search=2&query=%EC%95%94%ED%98%B8%ED%99%94%ED%8F%90%20%EC%B1%84%EA%B5%B4
+- https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=prec&type=XML&display=100&search=2&query=%ED%99%94%EC%9D%B4%ED%8A%B8%ED%95%B4%EC%BB%A4
+- https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=prec&type=XML&display=100&search=2&query=%EA%B3%84%EC%A0%95%20%EC%A0%95%EC%A7%80%20%ED%95%B4%EC%A0%9C
+- https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=prec&type=XML&display=100&nb=2025%EB%85%B81307
+- https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=prec&type=XML&display=100&nb=2019%EA%B3%A0%EB%8B%A81680
+- https://www.law.go.kr/DRF/lawService.do?OC=test&target=prec&type=XML&ID=204235
+- https://www.law.go.kr/DRF/lawService.do?OC=test&target=prec&type=XML&ID=169786
+- https://www.scourt.go.kr/portal/dcboard/DcNewsListAction.work?gubun=44&pageIndex=1&pageSize=50&searchOption=&searchWord=%C3%A4%B1%BC
+- https://www.scourt.go.kr/portal/dcboard/DcNewsViewAction.work?seqnum=18904&gubun=44&cbub_code=000411
+- https://www.scourt.go.kr/portal/dcboard/DcNewsViewAction.work?seqnum=27147&gubun=44&cbub_code=000410
