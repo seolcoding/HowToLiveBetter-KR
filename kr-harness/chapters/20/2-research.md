@@ -273,3 +273,22 @@ TODO 2건 → 2건(둘 다 부분, 쟁점을 좁힘). 상태 배너 「TODO 2건
 
 ### 10차 재검토 warn 반영 (2026-10-23)
 - 제7항 비고: 「그런데」 연결을 없애고 AAP 2003 문장과 「허가 사항의 신생아 출혈 예방 용법도 근육주사」를 먼저 둔 뒤 먹는 약 없음 문장을 이었다. 허가사항 「경구투여가 부적절한 경우 외에는」을 「먹는 약이 맞지 않는 경우가 아니면」으로 원문에 가깝게 고쳤다. 단일 성분 주사제 4개 가운데 국내용 유효 품목은 하나뿐(나머지 유효기간 만료·수출용)임을 덧붙였다.
+
+## 11차 일관성 반영 기록 (2026-10-23)
+
+대상: AUDIT-CONSISTENCY-2026-10-23 확인 필요 1(20-2 「약 95%」 ↔ 27-3 「90% 이상」).
+
+- WHO 원문(node fetch, 2026-10-23): https://www.who.int/news-room/fact-sheets/detail/hepatitis-b
+  - "Hepatitis B infection acquired in adulthood leads to chronic hepatitis in less than 5% of cases, whereas infection in infancy and early childhood leads to chronic hepatitis in about 95% of cases."
+  - 바로 앞 문장: "The development of chronic infection is very common in infants infected from their mothers or before the age of 5 years."
+- 판단: 20-2 이득 칸 인용 「영아기와 어린 시절의 감염은 약 95%」는 원문과 같다.
+- 95%의 집단은 영아기와 어린 시절 감염이다. 이득 칸에 집단이 드러나 있다.
+- 쉽게 칸 「아기 때 걸리면 약 95%」도 이 범위 안이다.
+- 어른 쪽 「대부분 저절로 낫습니다」는 원문 「5% 미만이 만성」과 어긋나지 않는다.
+- 27-3 「주산기에 감염되면 90% 이상」의 출처는 구로구보건소 페이지다.
+  - 오늘은 DNS 조회 실패로 열지 못했다(EAI_AGAIN).
+  - 27절 2-research.md에 원문 「주산기에 감염될 경우 90% 이상이 만성보유자로 진행」이 적혀 있다.
+- 두 숫자는 집단이 다르다. 27절은 주산기, 20절은 영아기와 어린 시절 전체다.
+- 「90% 이상」과 「약 95%」는 서로 모순되지 않는다. 27절은 고칠 것이 없다.
+- 본문 변경: 없음. 20절 파일은 고치지 않았다.
+- python·브라우저 자동화·git 명령은 쓰지 않았다.
