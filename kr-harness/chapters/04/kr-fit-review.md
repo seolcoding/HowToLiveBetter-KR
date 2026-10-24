@@ -1,12 +1,13 @@
 # 제4절 한국 실정 적합성 검토
-10차 검토(9차 warn 2건 수정 뒤 재검토) · 직전 판정: 9차(2026-10-22, pass, warn 2)
-검토일: 2026-10-22 · 검토 대상: book-kr/04-시간-낭비-줄이기.md (18항목)
+11차 검토(38차 조사 반영 뒤 재검토) · 직전 판정: 10차(2026-10-22, pass, warn 0)
+검토일: 2026-10-25 · 검토 대상: book-kr/04-시간-낭비-줄이기.md (18항목)
 
 ## 검토 범위와 근거
 
-- 9차 리뷰 이후 바뀐 곳(`git diff`로 대조): 상태 배너, 제13항 비고 한 문장, 절 끝 `## TODO 확인 필요` 목록. 이 세 곳만 9차 리뷰의 원문 인용·수정안과 대조했다. 나머지 문장은 9차 판정을 따른다(「직전 리뷰에서 확인, 문장 변경 없음」). 웹은 다시 열지 않았다. 바뀐 문장에 새 사실 주장이 없어 9차에 연 출처로 충분하다.
+- 10차 리뷰 이후 바뀐 곳(`git diff`로 대조): 제7항 출처(Hadjichristidis 등 2014 추가), 제7항 비고, 절 끝 `## TODO 확인 필요`의 제7항 줄. 이 세 곳만 원문을 직접 열어 대조했다. 나머지 문장은 10차 판정을 따른다(「직전 리뷰에서 확인, 문장 변경 없음」).
+- 제7항 「쉽게」 칸과 「이득」 칸은 바뀌지 않았다. 「쉽게」 칸에 이득 칸에 없는 숫자가 새로 들어가지 않았다(숫자 없음).
 - 기계 검사 `kr-fit.mjs 04`: block 0 · warn 0.
-- 시작 해시와 종료 해시 모두 48c53324b62af7bbf8fd25db4f89babc3fbca1a09c25e645b230988654b3a37f.
+- 시작 해시와 종료 해시 모두 5c760c435ae2eb96a1710a9c7fe4a9b56431ab190b25a11b6e1b5ca2db4384e5.
 
 ## 항목별 판정
 
@@ -29,9 +30,19 @@
 - 판정: 적합 — 직전 리뷰에서 확인, 문장 변경 없음.
 
 ### 4-7. 큰 일은 잘게 쪼개서 시간을 잡고 시작하세요
-- 판정: 적합 — 9차 warn 1 해소.
-- 확인: 비고 「Kruger와 Evans의 연구는 요약에서 결과 방향만 확인했습니다. 구체적인 백분율은 싣지 않았습니다(TODO 확인 필요).」는 그대로이고, 절 맨 끝에 9차 수정안 ①의 목록이 글자 그대로 들어갔다: 「## TODO 확인 필요」 / 「- 제7항: Kruger·Evans(2004, DOI 10.1016/j.jesp.2003.11.001)에서 작업을 나눠 적었을 때 예상 소요시간이 얼마나 늘었는지 구체적 백분율. 요약에서 결과 방향만 확인했고 본문 전문의 수치는 확인하지 못했다.」 배너도 「> **상태: ✅ 현지화·검증·적합성 게이트 통과(2026-10-22) — TODO 1건**」으로 바뀌어 미결 1건과 맞는다. 9차 참고의 배너 날짜 문제도 함께 해소됐다.
-- 남은 TODO(백분율)는 본문이 수치를 단정하지 않으므로 아래 미확인 목록에 둔다.
+- 판정: 적합.
+- 확인한 것(바뀐 문장):
+  - 서지: Crossref `https://api.crossref.org/works/10.1016/j.jesp.2013.10.009` → 제목 「Unpacking estimates of task duration: The role of typicality and temporality」, Journal of Experimental Social Psychology 51권 45-50쪽, 2014년 3월, 저자 Hadjichristidis·Summers·Thomas. 본문 출처와 같다. 랜딩 https://eprints.bournemouth.ac.uk/21338/ 은 HTTP 200.
+  - 사전인쇄본 https://eprints.bournemouth.ac.uk/21338/4/Unpacking_estimates_of_task_duration_(JESP_paper)_-pre-print_version.pdf 를 내려받아 텍스트로 대조했다.
+  - 「이 실험을 이어받은 연구」: Study 1 「We tested H1 using a modified version of Kruger and Evans's (2004) document formatting task」. 맞다.
+  - 「문서 서식을 바꾸는 데 걸릴 시간을 상상해 예상하게 했습니다」: 「its unformatted equivalent, that they had to imagine opened as an MS Word document. Their task was to estimate the time (minutes) it would take them to do all formatting changes」. 맞다.
+  - 숫자: Table 1(Study 1) 「Unpacked Short 51 6.24 (4.57) … Packed 50 8.48 (6.26) … Unpacked Long 51 12.73 (8.65)」. 본문의 8.48분(50명), 12.73분(51명), 6.24분(51명)과 모두 같다. 「그냥 물으면」은 packed 조건 「asked to estimate the time … to make the unformatted text look identical」과 맞다.
+  - 「통계로 뚜렷한 차이는 짧은 단계 조건과 나머지 두 조건 사이였습니다」: p.7 「Multiple comparisons (Bonferroni corrected) revealed significant differences between the unpacked-short and packed conditions (p = .019) and between the unpacked-short and unpacked-long conditions (p < .001).」 packed와 unpacked-long 사이는 유의로 보고되지 않았다. 본문 서술과 맞고, 12.73분 증가를 뚜렷한 효과로 단정하지 않는다.
+  - 「누구나 떠올릴 단계를 적어 준 실험에서는 예상이 달라지지 않았습니다」: 초록 「Unpacking typical early or late components leaves estimates unaffected (Study 3).」, Study 3 본문 「no significant difference between conditions (n.s.) … typical unpackings do not affect task duration estimates.」 Study 3은 데이트 준비 과제이고 본문도 같은 과제라고 하지 않으므로 맞다.
+  - 「이 연구는 실제 걸린 시간은 재지 않았습니다」: Study 1 절차는 추정만 받고 실제 서식 작업을 시키지 않는다. 맞다.
+  - 「Kruger와 Evans 원 논문의 백분율은 확인하지 못했습니다(TODO 확인 필요)」: 단정하지 않는 표시이고 절 끝 TODO 목록과 맞는다.
+- 참고(판정에 영향 없음): Study 1에서 적어 준 단계는 논문상 「atypical」(사람들이 스스로 잘 떠올리지 않는) 단계다. 본문은 Study 3의 「누구나 떠올릴 단계」와 대비만 하고 Study 1 쪽 성격은 적지 않았다. 다듬을 때 「잘 떠올리지 않는 단계 가운데 오래 걸리는 것」처럼 한 마디 붙일 수 있다.
+- 한국 제도·기관·번호와 무관한 심리학 근거라 한국 적합성 문제는 없다.
 
 ### 4-8. 남이 정한 마감이 없는 일에는 스스로 날짜를 정하세요
 - 판정: 적합 — 직전 리뷰에서 확인, 문장 변경 없음.
@@ -49,9 +60,7 @@
 - 판정: 적합 — 직전 리뷰에서 확인, 문장 변경 없음.
 
 ### 4-13. 미루기가 삶을 무너뜨리면 무작위시험 근거가 있는 자조 교재를 쓰세요. 상담사를 꼭 찾을 필요는 없습니다
-- 판정: 적합 — 9차 warn 2 해소.
-- 확인: 「시험 계획서를 보면 교재는 저자 Rozental이 쓴 책 《Dansa på deadline》(2014)입니다.」가 「시험 계획서를 보면 교재는 연구자 Rozental이 Wennersten과 함께 쓴 책 《Dansa på deadline》(2014)입니다.」로 바뀌었다. 9차 수정안과 글자 그대로 같고, 9차에 확인한 계획서 참고문헌 「Rozental A, Wennersten L. Dansa på deadline. Stockholm: Natur & Kultur; 2014.」와 맞는다(https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3841370/fullTextXML).
-- 나머지 문장(출처의 계획서 서지, 번역서 검색 문장, 150명 세 그룹, d 값, 109 안내, Lee 등 2025)은 직전 리뷰에서 확인, 문장 변경 없음.
+- 판정: 적합 — 직전 리뷰에서 확인, 문장 변경 없음.
 
 ### 4-14. 제 시급을 기준으로 어느 집안일을 맡길지 정하세요
 - 판정: 적합 — 직전 리뷰에서 확인, 문장 변경 없음.
@@ -69,10 +78,10 @@
 - 판정: 적합 — 직전 리뷰에서 확인, 문장 변경 없음.
 
 ### 절 끝 TODO 목록
-- 판정: 적합 — 제7항 한 줄이 들어 있고 본문 인라인 TODO와 배너 「TODO 1건」이 서로 맞는다.
+- 판정: 적합 — 제7항 한 줄(Kruger·Evans 실험별 증가 폭, 공개 사본 미발견, 재현 연구로 대신 채움)이 본문 비고의 인라인 TODO와 맞고, 배너 「TODO 1건」과도 맞는다.
 
 ## 요약
 - block 0건, warn 0건, 삭제 권고 0건.
-- 미확인으로 남긴 판정: 제7항 Kruger·Evans(2004) 구체적 백분율 — 본문은 「싣지 않았습니다(TODO 확인 필요)」로 단정하지 않으며 절 끝 TODO 목록에 올라 있다.
+- 미확인으로 남긴 판정: 제7항 Kruger·Evans(2004) 원 논문의 실험별 증가 폭 — 본문은 「확인하지 못했습니다(TODO 확인 필요)」로 단정하지 않으며 절 끝 TODO 목록에 올라 있다.
 - 종료 해시는 시작 해시와 같다.
-KR-FIT: pass blockers=0 sha256=48c53324b62af7bbf8fd25db4f89babc3fbca1a09c25e645b230988654b3a37f
+KR-FIT: pass blockers=0 sha256=5c760c435ae2eb96a1710a9c7fe4a9b56431ab190b25a11b6e1b5ca2db4384e5
