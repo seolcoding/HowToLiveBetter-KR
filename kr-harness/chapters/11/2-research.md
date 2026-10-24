@@ -561,3 +561,23 @@ UTF-8로 보내면 검색창에 「梨援?」처럼 깨져 0건이 된다.
 - 목록 API(POST, JSON): https://portal.scourt.go.kr/pgp/pgp1011/selectJdcpctSrchRsltLst.on
 - 본문 API(POST, JSON): https://portal.scourt.go.kr/pgp/pgp1011/selectJdcpctCtxt.on
 - 화면: https://portal.scourt.go.kr/pgp/index.on?m=PGP1011M01&l=N&c=900
+
+## 38차 조사 반영 기록 (2026-10-25)
+
+기록: kr-harness/research/11-r38oc.md (opencode). TODO 1건, 판정 부분.
+
+### T1. 선의 테스트·퇴사자 접속·내부 채굴·계정 해제 대행 판례 — 부분
+
+- 쟁점② 퇴사자 이메일 사건의 경과만 보탰다. 나머지 쟁점①③④는 유지.
+- 2005노2491 원문: 「【원심판결】 수원지방법원 안산지원 2005. 6. 9. 선고 2004고정1209 판결」, 주문 「피고인들의 항소를 각 기각한다」.
+- 2005도7309 주문: 「원심판결을 모두 파기하고, 사건을 수원지방법원 본원 합의부에 환송한다」.
+- 같은 판결: 「나머지 상고이유에 대한 판단을 생략한 채 원심판결을 모두 파기」.
+- DRF 본문검색(search=2, node 인코딩): 「2004고정1209」 2건(2012노82·2005노2491).
+- 「2005도7309」 11건, 「2005노2491」 10건. 환송심으로 볼 수원지법 판결은 없었다.
+- 2006노2491은 서울중앙지법 사기미수 사건으로 무관하다.
+- 본문 제6항 비고 전→후: 「2005노2491에서 침입죄 유죄를 유지」 → 「1심(안산지원 2004고정1209)의 침입죄 유죄를 유지」.
+- 「파기하고 돌려보냈습니다」 → 「파기했습니다. 사건은 수원지방법원 본원 합의부로 돌려보냈습니다」.
+- 「환송 뒤 결과는 확인하지 못했습니다」 → 「환송 뒤 판결은 찾지 못했습니다(국가법령정보센터 본문검색, 2026-10-25)」.
+- TODO 줄의 해당 문장도 같은 범위로 고쳤다.
+- 2023도1086·2017고단2372·2018도16938은 선의 테스트 사건이 아니어서 반영하지 않았다.
+- 확인 URL: https://www.law.go.kr/DRF/lawService.do?OC=test&target=prec&type=XML&ID=77487 · https://www.law.go.kr/DRF/lawService.do?OC=test&target=prec&type=XML&ID=84416 · https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=prec&type=XML&search=2&query=2004%EA%B3%A0%EC%A0%951209
