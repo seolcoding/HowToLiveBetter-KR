@@ -971,3 +971,29 @@ PDF 글자는 ext.mjs(pdfjs-dist, CMap)로 뽑았다.
 - 본문 해시가 바뀌어 kr-fit-review 재검토가 필요하다.
 
 - 34차 재검토 warn 반영: 비고에 더한 13문장을 5문장으로 줄임(비급여 여부 미확인, 고지 금액 초과 징수 금지, 심평원 확인 요청과 환급, 보건소 무료 문장 없음). 지침 「보건소 검사 때 안내」 문장은 범위가 넓어 뺌. 상한금액 문장을 급여 조건과 함께 나눔.
+
+## 38차 조사 반영 기록 (2026-10-24)
+
+입력: `kr-harness/research/13-r38oc.md`(opencode GLM, 판정 부분 해결 3건). 원문을 직접 열어 확인한 것만 반영했다.
+
+### T1 PEP 본인 부담 — 부분
+- 제38항 비고. 전: 「이때 비급여인지 전액 본인부담인지도 확인하지 못했습니다」. 후: 청구길라잡이의 100분의 100 본인부담(고시 상한금액 전액)과 비급여(병원이 정한 금액)를 구분했다. FAQ의 「별표 2 비급여대상이 아니면 임의로 비급여로 할 수 없다」를 더했다. 「어느 쪽에 드는지는 확인하지 못했습니다」는 유지했다.
+- 기록의 「상한금액 전액 본인부담이 원칙」은 쓰지 않았다. 별표 2 제3호(예방진료 비급여)에 들 여지가 있어서다. 길라잡이와 FAQ 어디에도 예방 투여를 직접 다룬 문장은 없다.
+- 제42항 비고: 2025년 판 운영지침 전문(808쪽, pdfjs 추출)에서 「HIV」「에이즈」「PEP」「항바이러스」 0건. 「성매개감염 질병검사 및 예방치료」는 PDF 228쪽.
+- 확인 URL: https://www.hira.or.kr/ebooksc/ebook_692/ebook_692_202204140310531270.pdf (13쪽 일반사항 1) · https://www.hira.or.kr/bbsDummy.do?brdBltNo=47476&brdScnBltNo=4&pgmid=HIRAA010006011100 · https://www.hira.or.kr/bbsDummy.do?brdBltNo=47743&brdScnBltNo=4&pgmid=HIRAA010006011600 (「100분의 100」 문구는 없어 출처에 넣지 않음) · https://www.easylaw.go.kr/CSP/FlDownload.laf?flSeq=1742347098933
+- 성폭력방지법 시행규칙 제14조제3항과 성매개감염병 관리지침 스캔본 판정은 다시 열지 않아 반영하지 않았다.
+
+### T2 일산화탄소 전국 사망자 — 부분
+- 제19항 비고에 더함: 2016년 부검 중독사 827명 중 일산화탄소 239명(사고사 44명), 2017년 793명 중 277명(사고사 54명). 2017년은 울산 지역을 뺐다. 부검 사망만 센 수치라고 적었다.
+- 사고사 수는 Table 8에서 직접 더했다. 2016년은 남 33·여 11, 2017년은 남 35·여 19.
+- 확인 URL: https://synapse.koreamed.org/upload/SynapseData/PDFData/2018kjlm/kjlm-42-8.pdf · https://synapse.koreamed.org/upload/SynapseData/PDFData/2018kjlm/kjlm-42-111.pdf
+- J Affect Disord 2014(자살)와 NEDIS 2021 논문은 열지 않아 반영하지 않았다. 「시리즈가 2017년까지」는 확인하지 않아 쓰지 않았다.
+- TODO: 「2018년 이후 일산화탄소 단독 전국 사망자 수」로 좁혔다.
+
+### T3 지혈대 실습 일반인 과정 — 부분
+- 제12항 비고에 더함: 민방위 표준교재(응급처치, 2024)는 직접 압박·올리기·혈관점 압박만 있다. pptx 63장에서 「지혈대」 0건. 119법 시행령 별표 1은 이론 2시간과 기본응급처치요령 실습 2시간뿐이고 항목은 적지 않았다. 수상구조사 과정의 외상 실습은 상처 드레싱과 부목 고정이다.
+- 확인 URL: https://www.ndti.go.kr/client/board/board.do?boardno=201&no=16749 (첨부 fileId 100680) · https://www.law.go.kr/LSW/flDownload.do?flSeq=166011131 · https://imsm.kcg.go.kr/CLMS/main/gui/CertiLifeGuardEduInfo.do
+- 의용소방대 교재, 응급처치강사 표준프로그램(2007), 부산 통합예약, PubMed·KoreaMed 검색은 다시 확인하지 않아 반영하지 않았다.
+- TODO: 남은 쟁점은 그대로다(과정표에 지혈대 실습을 적은 국내 일반인 과정).
+
+- `kr-fit.mjs 13 --check` → block 0 · warn 0 → 통과. 본문 해시가 바뀌어 kr-fit-review 재검토가 필요하다.

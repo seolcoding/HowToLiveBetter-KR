@@ -605,3 +605,15 @@ TODO 2건 → 2건(둘 다 부분, 쟁점을 좁힘). 상태 배너 「TODO 2건
 - https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6672
 - https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=5462
 - python·브라우저 자동화·git 명령은 쓰지 않았다.
+
+## 38차 조사 반영 기록 (2026-10-24)
+
+기록: kr-harness/research/20-r38oc.md (opencode GLM). 판정 둘 다 「부분 해결」. 원문을 직접 열어 확인한 범위만 반영했다.
+
+- T1 제7항 비타민 K — 부분. 비고 앞머리에 한국 지침 문장을 넣었다(전: 한국 1차 출처 없음 → 후: 「보건복지부와 대한소아청소년과학회가 2020년 11월 만든 신생아 초기 관리 지침… 0.5~1mg을 넓적다리 바깥쪽에 근육주사」, 법적 구속력 없는 권고·실태 통계 아님 단서 포함). 출처 칸에 지침 6·11·29쪽 원문과 대한병원협회 공지·첨부 URL을 더했다. 대한병원협회 첨부 PDF(128쪽)는 한글 텍스트가 추출되지 않아 PDF 11·16·34쪽(인쇄 6·11·29쪽)을 렌더링해 읽었다. 공지 본문의 「관련근거: 보건복지부 보건의료정책과-1775(2021.04.02)」 「대한소아청소년과학회와 보건복지부는… 마련하여 안내」도 확인했다. 비용 칸은 그대로 뒀다. TODO는 일상 시행 실태 통계와 분만 때 약값 청구 여부만 남기도록 줄였다. 국가법령정보센터 행정규칙 DRF 검색(node encodeURIComponent)에서 「진료비 부과기준」 0건, 「부과기준」 42건 중 해당 고시 없음을 확인해 TODO에 적었다.
+  - https://www.kha.or.kr/kha_home/notice_list.do?articleNo=36199&mode=view
+  - https://www.kha.or.kr/kha_home/notice_list.do?articleNo=36199&attachNo=352441&mode=download
+  - https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=admrul&type=XML&query=진료비 부과기준
+- T2 제3항·제13항 황달과 접종 — 유지(음성 근거만 보강). 본문 비고는 고치지 않았다. TODO에 두 문서의 음성 결과를 더했다. 2025년 국가예방접종사업 관리지침 의료기관용 2권 11쪽 B형간염 「(2) 주의사항」(미숙아 연기, 중등도 이상 급성질환, 아나필락시스 금기 등)에 황달 없음. 표준모자보건수첩 아기수첩(2022) 47쪽 「백신접종을 연기해야 하는 경우」는 급성기 질환·항체 함유제제 두 항목뿐. 두 PDF 모두 텍스트 레이어가 비어 쪽 이미지로 읽었다. 기록이 든 2023·2024년판 지침 스캔 결과는 직접 확인하지 않아 TODO에 쓰지 않았다.
+  - https://www.kdca.go.kr/bbs/kdca/55/260071/download.do
+  - https://www.childcare.go.kr/component/file/ND_fileDownload.do?id=e8d99ea3-4758-4eb9-9e46-871527393d85

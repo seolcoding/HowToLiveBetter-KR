@@ -367,3 +367,33 @@ F-1 소송을 10-24 01:18(KST)에 다시 확인했다. 원문만 열었다.
 - 「stay」 3회는 extension of stay 쪽이다.
 - TODO 1건 → 1건. 배너 건수 1 유지.
 - 검사: `node .claude/skills/kr-verify/scripts/kr-fit.mjs 32 --check` → block 0 · warn 0 · 예외 통과 0.
+
+## 38차 조사 반영 기록 (2026-10-25)
+
+opencode 기록 `kr-harness/research/32-r38oc.md`를 반영했다. 10-25 01:08(KST)에 원문을 직접 열었다.
+
+| TODO | 결과 | 바뀐 문장 | 직접 확인한 URL |
+|---|---|---|---|
+| T1 F-1 소송 이후 진행 (항목 2) | 부분 | 이득 끝 「받아들였다는 기록은 아직 없습니다」→「10월 23일 명령을 냈습니다. 허가인지 기각인지는 공개 기록에 없습니다」. 비고 기준일 10-22→10-23, 확인일 10-25(KST). 출처에 10-23 분 기입 명령 추가. TODO 줄 다시 씀 | https://www.courtlistener.com/docket/74661796/feed/ ; https://www.courtlistener.com/docket/74908049/feed/ ; https://www.courtlistener.com/docket/74919449/feed/ ; https://storage.courtlistener.com/recap/gov.uscourts.mad.307243/gov.uscourts.mad.307243.1.0_2.pdf ; https://www.federalregister.gov/api/v1/documents.json ; https://www.ice.gov/sevis |
+
+- 지방법원 피드: updated 2026-10-23이다.
+- 새 항목: 「Minute entry from 2026-10-23」.
+- 그 요약은 「Order on Motion for Extension of Time」뿐이다.
+- 다른 새 항목: 「Entry #65」 「Notice - Other」.
+- #64·#65 RECAP PDF 주소는 404였다.
+- storage 우회 경로는 이번엔 302 뒤 403이었다.
+- 그래서 #63 명령 내용과 #65 내용은 모른다.
+- 항소 피드: updated 2026-10-19, 최신 #108525045 그대로다.
+- 제1순회 calendar.pdf는 이번엔 404였다. 달력 근거는 쓰지 않았다.
+- 연방관보 API 10-20 이후 「fixed time period of admission」 0건이다.
+- 2026-14439의 effective_on은 2026-09-15, corrections는 비었다.
+- ICE SEVIS 문장 「On July 17, 2026, DHS published a final rule …」 그대로다.
+- 기록과 다른 점: AAU v. DHS(1:26-cv-14520)는 같은 규칙 소송이 아니다.
+- 소장 첫머리는 CPT(교과 연계 실습) 제한을 다툰다.
+- 원문: 「through two "Broadcast Messages" issued … on August 12 and August 24, 2026」.
+- 그래서 항목 2 비고에 「같은 규칙을 맞선 소송」 문장을 넣지 않았다.
+- 피드 원문: 「NOTICE OF HEARING … set for 11/6/2026 at 3:00 PM」(#19).
+- 피드 원문: 「ELECTRONIC ORDER granting 21 MOTION for Extension of Time to 10/28/2026」(#22).
+- CPT 소송은 항목 3·4와 닿을 수 있으나 SEVP 원문을 아직 안 봤다. 본문에 넣지 않았다.
+- TODO 1건 → 1건. 배너 건수 1 유지.
+- 검사: `node .claude/skills/kr-verify/scripts/kr-fit.mjs 32 --check` → block 0 · warn 0 · 예외 통과 0.

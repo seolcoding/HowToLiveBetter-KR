@@ -234,3 +234,18 @@ agy 기록(kr-harness/research/04.md)의 URL과 수치를 직접 열어 대조�
 
 - 본문 변경 없음.
 - 남은 TODO: 1건(제7항).
+
+## 38차 조사 반영 기록 (2026-10-25)
+
+입력: `kr-harness/research/04-r38oc.md`(opencode). TODO 1건(제7항) — **부분**.
+
+- 직접 확인: Hadjichristidis·Summers·Thomas(2014) JESP 51:45–50, DOI 10.1016/j.jesp.2013.10.009. 공개 사전인쇄본 https://eprints.bournemouth.ac.uk/21338/4/Unpacking_estimates_of_task_duration_(JESP_paper)_-pre-print_version.pdf 를 내려받아 텍스트로 대조했다.
+  - Table 1(p.21, -raw 추출): Unpacked Short 51명 6.24(4.57), Packed 50명 8.48(6.26), Unpacked Long 51명 12.73(8.65).
+  - p.7: 「There was a main effect of Condition: F(2,148) = 9.35, p < .001 … significant differences between the unpacked-short and packed conditions (p = .019) and between the unpacked-short and unpacked-long conditions (p < .001).」 packed와 unpacked-long 사이는 유의 차이로 보고되지 않았다. 기록에는 이 단서가 빠져 있어 본문에 넣었다.
+  - 과제는 서식 변경 시간을 상상해 추정하는 것(p.6, 「they had to imagine opened as an MS Word document」)이고 실제 소요시간은 재지 않았다. 초록: 「Unpacking typical early or late components leaves estimates unaffected (Study 3).」
+- 본문 변경(제7항):
+  - 비고: 「요약에서 결과 방향만 확인… 백분율은 싣지 않았습니다(TODO)」 → 원 논문 백분율 미확인(TODO) + 재현 연구 Study 1 수치·유의 단서·Study 3 무효과·실제 시간 미측정.
+  - 출처: Hadjichristidis 등(2014) DOI와 공개 사전인쇄본 랜딩 추가.
+  - TODO: 「구체적 백분율」 → 「K&E 실험별 증가 폭, 공개 합법 사본을 찾지 못함(2026-10-24·25), 재현 연구로 대신 채움」으로 좁힘.
+- 반영하지 않은 것: 계산 백분율(+50.1% 등)은 원문에 없는 계산치라 쓰지 않았다. Study 2 수치, OpenAlex 인용 구조(메타분석 0편)는 본문에 넣지 않았다. K&E 실험 구성 정정은 본문에 해당 서술이 없어 반영할 곳이 없다.
+- 자체 확인: `kr-fit.mjs 04 --check` → block 0 · warn 0 · 통과. 남은 TODO 1건(제7항).
