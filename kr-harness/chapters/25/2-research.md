@@ -376,3 +376,33 @@ TODO 목록 두 줄은 이번 확인 범위와 남은 쟁점(실제 처리 기�
 
 자체 확인: `kr-fit.mjs 25 --check` → block 0 · warn 0 → 통과.
 내려받은 파일은 `$TEMP/kr25r28`에만 두었다.
+
+## 38차 조사 반영 기록 (2026-10-25)
+
+대상 기록: `kr-harness/research/25-r38oc.md` (T1 1건).
+
+T1 제11항 법원 처리 기간 — 부분(TODO 유지, 쟁점 갱신).
+- 반영: 비용 칸에 한 문장을 더했다.
+  - 전: 「…처리 기간은 싣지 않았습니다.」
+  - 후: 뒤에 「KOSIS 통계표 검색에서도 찾지 못했습니다(2026-10-25).」
+- KOSIS: searchStatDBAjax.do에 node로 POST했다.
+  - 「가사비송」 1건은 가계수지 표였다.
+  - 「한정승인」 3건은 분양전환 실적·통화현재고였다.
+  - 「상속포기」 1건은 1910~20년대 비송사건 표였다.
+- 사법정책연구원 보고서: KISS 서지와 초록을 직접 열었다.
+  - 정호경 외, 2020권 19호, 1~307쪽, UCI I410-ECN-151-24-02-088816688.
+  - 초록에 「상속포기 및 상속한정승인사건의 처리 기간을 통해 확인할 수 있듯」이 있다.
+  - 무료 미리보기 PDF는 2쪽뿐이었다. 처리 기간 수치는 못 얻었다.
+- 미반영: 『사법연감』 2022년판 목차 주장.
+  - PDF가 149,219,827바이트라 100MB 기준을 넘어 받지 않았다.
+  - 기록이 이 책을 「2026 사법연감」이라 부른 것도 맞지 않는다.
+- TODO 줄을 확인된 사실과 남은 후보(보고서 본문 표)로 나눠 고쳐 썼다.
+
+확인 URL:
+- https://kosis.kr/search/searchStatDBAjax.do (POST, query=가사비송·한정승인·상속포기)
+- https://kiss.kstudy.com/Detail/Ar?key=4033604
+- https://kiss.kstudy.com/Detail/PreView?keyn=4033604
+- https://library.scourt.go.kr/SCLIB_data/law_data/judicial_almanac_2022.pdf (HEAD만)
+
+자체 확인: `kr-fit.mjs 25 --check` → block 0 · warn 0 → 통과.
+내려받은 파일은 `$TEMP/kr25r38`에만 두었다.
