@@ -46,3 +46,8 @@
 - 화면 정의 `https://portal.scourt.go.kr/pgp/ui/pgp1000/PGP1011M01.xml`에서 조회 API를 찾는다. 목록 `/pgp/pgp1011/selectJdcpctSrchRsltLst.on`, 본문 `/pgp/pgp1011/selectJdcpctCtxt.on`. 하급심 판결 본문과 「판결 : 확정」 같은 확정 표시가 함께 나온다. 스크립트 예: `$TEMP/kr06r31tool`.
 - 대법원 「전국법원 주요판결」(scourt.go.kr dcboard gubun=44)은 검색어를 EUC-KR로 퍼센트 인코딩해 GET으로 보내야 한다. 제목(요지)만 검색된다.
 - 목록 응답의 전체 건수는 `data.totalCount`에 있다(`data.dma_searchParam.totalCount`는 늘 0). 사건번호 상세검색은 `csNoLstCtt`. 공개된 판결만 실리므로 「이 포털에서 찾지 못함」으로 적는다.
+
+## 사법정책연구원 보고서 전문 (2026-10-25 38차에 확인)
+
+- KISS(kiss.kstudy.com)의 「₩ 0」 무료 표시 보고서도 내려받기는 로그인을 요구한다. 같은 보고서가 사법정책연구원 누리집(jpri.scourt.go.kr) 통합검색에 있으면 `https://jpri.scourt.go.kr/fileDownLoad.do?seq=<번호>`로 로그인 없이 받힌다(25절 연구총서 2020-19는 seq=2033, 33절 2017-05는 seq=1898).
+- 「미리보기 2쪽뿐」이라는 기록은 jpri에서 전문을 다시 찾아본 뒤에만 「확인 못 함」의 근거로 쓴다.
