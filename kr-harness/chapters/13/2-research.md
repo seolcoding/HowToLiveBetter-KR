@@ -1099,3 +1099,35 @@ PDF 글자는 ext.mjs(pdfjs-dist, CMap)로 뽑았다.
 - 지어낸 것: 새로 지어낸 출처는 확인되지 않았다. 다만 T58 원사인 설명과 「전무」 단정은 근거 없는 주장으로 본다.
 - 본문(TODO 줄 포함) 변경 없음. 해시가 그대로라 kr-fit-review 재검토는 필요 없다.
 - 다운로드는 $TEMP/kr45에 두었다.
+
+
+## 46차 조사 반영 기록 (2026-10-26)
+
+입력: `kr-harness/research/13-r46agy.md`(agy Gemini Flash, 판정 부분 해결 3건). 기록은 URL 후보로만 썼다. 새 출처 두 건을 원문으로 열었으나 TODO를 줄이지 못했다. 본문은 고치지 않았다. TODO 3건 그대로다.
+
+### T1 PEP 본인 부담 — 유지
+- 출처 전부가 이전 차수와 같음: 고시 제2025-51호 [629], 제2026-192호 상한금액, 별표 2, 청구길라잡이, FAQ, 제2026-38호, 빅타비정 허가사항, 운영지침(flSeq=1769041311151).
+- 기록도 「TODO 유지」를 제안했다. 「고시·유권해석의 부재」는 부재 단정이라 쓰지 않았다. 본문의 「찾지 못했다」를 유지한다.
+
+### T2 일산화탄소 전국 사망자 — 유지
+- 자살통계연보 표 10-10(42차), 가스사고연감(29차), 소방청 471건, 응급실손상환자심층조사, 법의학회지(38차), KOSIS DT_1B34E07(21차)은 이전 차수와 같음.
+- 새 출처 Kim JH, Lim AY, Cheong HK (2020) Epidemiol Health 42:e2020062를 열었다(Europe PMC PMC7871165, PMID 32882118). 실재한다. 기록의 두 인용은 원문에 있다(말줄임 포함). 「In the past, CO poisoning was classified as an accident, so it was not reported separately from accidents. Statistics produced by the police included only patients who were found and identified as dead at the site …」, 「Reports of cases of CO poisoning typically combine the number of cases of intentional exposure for suicide and the number of cases of unintentional poisoning …」.
+- 반영하지 않은 이유: 연탄 난방 가구 수로 피해자를 추정한 모형 연구다. 초록 결과는 1951~2018년 누적 추정치(사망 약 65,000명)다. 2018년 이후 연도별 사고 사망 수는 없다. 공식 집계도 아니어서 TODO 쟁점을 줄이지 못한다.
+- 원문에는 「the estimated number of deaths from CO poisoning since 2000 was similar to that from the official death registry」도 있다. 다만 비교한 공식 수치는 보충자료에 있고, 이번에 열지 않았다.
+- 「T58은 원사인이 될 수 없어 X47로 분류」(WHO ICD-10 Instruction Manual 제4절)는 이번에도 출처 URL이 없다. 원문 미확인이라 쓰지 않았다(42·44·45차와 같음).
+- Lee SH 등(2024)은 이전 차수와 같음(44차). 기록은 쪽수를 618-629로 적었으나 44차 Europe PMC 확인은 526-534다.
+- 확인 URL: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7871165/fullTextXML · https://doi.org/10.4178/epih.e2020062
+
+### T3 지혈대 실습 일반인 과정 — 유지
+- 대한적십자사, 대한심폐소생협회, 119법 시행령 별표 1, 민방위 교재, 학교 7대 안전교육, Stop the Bleed는 이전 차수와 같음.
+- 새 출처 「응급의료에 관한 법률 시행규칙」 [별표 2]: 기록의 lsiSeq=290073은 DRF에서 「일치하는 법령이 없습니다」였다. 현행본(MST=288097, 2026-07-13 시행)의 별표 2 「구조 및 응급처치 교육의 내용 및 실시방법(제6조제1항 관련)」 이미지를 열었다. 원문은 <개정 2010.3.19>, 「1. 응급활동의 원칙 및 내용 2. 응급구조 시의 안전수칙 3. 응급의료 관련 법령 1시간」, 「기본인명구조술(이론) 1시간」, 「기본인명구조술(실습) 2시간」이다. 지혈대 항목은 없다.
+- 기록의 인용은 원문과 다르다. 기록은 1~3번을 각 1시간으로 나눠 적고 「총계 4시간」을 붙였다. 원문은 1~3번을 묶어 1시간이고 총계 칸이 없다. 기록대로 더하면 5시간이 된다.
+- 반영하지 않은 이유: 법 제14조 의무 교육 대상자의 과정이다. 일반인이 신청하는 과정이 아니고, 지혈대가 없는 과정을 하나 더 확인한 것이라 TODO 쟁점을 줄이지 못한다. 제12항 비고에는 이미 119법 시행령 교육 시간이 있다.
+- 국립등산학교(komount.or.kr), 한국산악회(cac.or.kr), 대한산악연맹(kafedu.or.kr), 국립공원산악안전교육원(knps.or.kr), NAEMT KOREA(naemtkorea.com)는 출처가 누리집 첫 화면 주소뿐이다. 과정표를 특정하지 않아 쓰지 않았다.
+- 「과정표 전수 조사 결과 확인되지 않음」, 「국내 일반인 정규 오픈 코스 0건」은 부재 단정이고 검색 경로가 없어 쓰지 않았다.
+- 기록은 이번에 가이드라인 지혈대 인용을 내지 않았다. 지어낸 가이드라인 인용(40·42·44차)은 이전 차수와 같음으로 둔다.
+- 확인 URL: https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=288097&type=XML · https://www.law.go.kr/LSW/flDownload.do?flSeq=167215797 (별표 2 GIF)
+
+- 지어낸·틀린 것: 시행규칙 lsiSeq=290073(없는 주소), 별표 2 인용(시간 배분과 「총계」를 고쳐 씀). T58 원사인 설명은 출처 없는 주장으로 본다.
+- 본문(TODO 줄 포함) 변경 없음. 해시가 그대로라 kr-fit-review 재검토는 필요 없다.
+- 다운로드는 $TEMP/kr46에 두었다.
