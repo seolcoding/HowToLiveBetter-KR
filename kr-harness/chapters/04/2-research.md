@@ -262,3 +262,18 @@ agy 기록(kr-harness/research/04.md)의 URL과 수치를 직접 열어 대조�
   - K&E 출판사 초록 문장(「Participants prompted to unpack … less biased …」): Crossref(api.crossref.org/works/10.1016/j.jesp.2003.11.001)에 초록이 없고, Europe PMC는 0건, OpenAlex는 초록 색인이 없었다(2026-10-25). 원문에서 같은 문장을 찾지 못해 쓰지 않는다. 본문에도 이 문장은 없다.
 - 반영하지 않은 것: 「후속 문헌 전수 대조」(Forsyth & Burt 2008 등)는 기록에 URL·인용문이 없어 확인할 수 없다. 「유일한 공개 재현 연구」「합법적 공개 경로가 전무」는 부재·유일 단정이라 쓰지 않는다.
 - 자체 확인: `kr-fit.mjs 04 --check` → block 0 · warn 0 · 통과. 남은 TODO 1건(제7항).
+
+
+## 42차 조사 반영 기록 (2026-10-25)
+
+입력: `kr-harness/research/04-r42agy.md`(agy Gemini Flash). TODO 1건(제7항) — **유지**. 본문(TODO 줄 포함)은 고치지 않았다.
+
+- 기록의 판정은 「부분 해결」, 제안은 비고 문구를 바꾸고 TODO를 지우자는 것이다. K&E(2004) 실험별 수치를 원문에서 확인한 것이 없어 TODO를 닫지 않았다.
+- 기록과 원문이 다른 점:
+  - Moher(2012) 링크 https://uwspace.uwaterloo.ca/handle/10012/6744 는 다른 논문이다(제목 「Supercritical Fluid Assisted Recovery of Organometallic Catalysts from Polymers」). UWSpace 검색 API에서 실제 학위논문은 handle 10012/6863 「Tempering optimistic bias in temporal predictions: The role of psychological distance in the unpacking effect」였다(2026-10-25).
+  - 10012/6863 PDF(95쪽)를 텍스트로 대조했다. 기록이 p.2 인용으로 든 「Drawing on support theory … less optimistically biased predictions.」 문장은 찾지 못했다. 지어낸 인용으로 본다.
+  - 실제 초록 문장: 「Indeed, when a task is unpacked into procedural steps, people give longer task completion time estimates, and the planning fallacy is minimized (Kruger & Evans, 2004).」 K&E 설명(본문 Studies 2·3·5)도 방향만 있고 수치는 없다. 또 「Much of the literature suggests that unpacking manipulations affect predictions, but not actual completion times (Kruger & Evans, 2004 …)」라는 재인용 문장이 있다. 재인용이고 K&E 원문으로 확인하지 못해 본문에 넣지 않았다.
+  - K&E 초록 인용(「Participants prompted to unpack …」)은 41차와 같이 원문에서 같은 문장을 찾지 못했다.
+  - Buehler·Griffin·Peetz(2010)는 Crossref에서 실재를 확인했다(The Planning Fallacy, Adv Exp Soc Psychol, pp.1–62). 공개 전문은 확인하지 못해 수치 재수록 여부를 판단하지 않았다. Halkjelsvik & Jørgensen은 기록에 URL이 없어 확인하지 않았다.
+- 반영하지 않은 것: 「유일한 공개 재현 연구」「합법적 공개 경로가 전무」는 부재·유일 단정이라 쓰지 않는다. Hadjichristidis(2014) 수치는 38차에 이미 반영돼 있다.
+- 자체 확인: `kr-fit.mjs 04 --check` → block 0 · warn 0 · 통과. 남은 TODO 1건(제7항).
