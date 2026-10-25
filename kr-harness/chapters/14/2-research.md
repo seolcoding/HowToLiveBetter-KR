@@ -329,3 +329,30 @@ T1. 제10항 AI 중개 사이트 국내 경보 — 유지
 본문 변경:
 - 항목 10 본문은 고치지 않았다.
 - TODO 줄 끝 「직접 경보가 나오면 추가.」 앞에 41차에 본 두 곳과 결과 5문장을 더했다.
+
+
+## 46차 조사 반영 기록 (2026-10-26)
+
+기록: kr-harness/research/14-r46agy.md (agy Flash, T1 「미해결」). TODO 1건.
+
+T1. 제10항 AI 중개 사이트 국내 경보 — 유지
+- 본문과 TODO 줄은 고치지 않았다. 새 사실이 없다.
+- 기록은 URL 후보로만 썼다. 출처는 모두 기관 누리집 첫 화면 주소다.
+  - 서울시 전자상거래센터, TTA, NSR, ETRI, ecmc, KnVD, KAITS, 여신금융협회.
+  - 구체 게시물·첨부 주소가 없어 열지 않았다. 본문·TODO에 넣지 않았다.
+  - 「일절 존재하지 않는다」「부존재 최종 확증」은 부재 단정이라 쓰지 않았다.
+- 한국소비자원 2025-12-15 주의보: 이전 차수(38차)와 같음.
+- MITRE ATLAS AML.T0008.005: 기법은 실재한다.
+  - 확인: https://raw.githubusercontent.com/mitre-atlas/atlas-data/main/dist/ATLAS.yaml
+  - 이름 「AI Service Proxies」. 원문 첫 문장:
+    「Adversaries may utilize commercial proxy services that resell access to AI services such as frontier model APIs.」
+  - 공격자가 재판매 프록시를 경유지로 쓰는 기법이다. 중개 사이트가 이용자를 노리는 경보가 아니다.
+  - 기록의 한국어 인용(「정찰 및 자격증명 수집 과정에서 … 은닉 … 우회」)은 원문에 없다.
+    확인 불가(지어낸 것일 수 있음).
+  - 해외 분류이고 국내 기관 경보가 아니라 TODO를 닫지 못한다. 본문에 넣지 않았다.
+- CSA 「Malicious LLM Proxy Routers」 보고서: 출처가 첫 화면뿐이다.
+  - 누리집 검색은 403으로 열리지 않았다. 실재와 인용문 모두 확인 불가.
+- NSR·국정원 N2SF 가이드라인 인용(「모델 2」): 출처가 nsr.re.kr 첫 화면뿐이다.
+  - 원문을 열지 않아 인용문 확인 불가. 공공기관 내부망용이라 TODO와도 무관하다.
+- 판정 차이: 없음(기록 「미해결」 → 반영 「유지」).
+- 지어낸 것: ATLAS 한국어 인용문(원문과 불일치). CSA·N2SF 인용은 확인 불가.
