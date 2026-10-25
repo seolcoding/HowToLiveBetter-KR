@@ -249,3 +249,16 @@ agy 기록(kr-harness/research/04.md)의 URL과 수치를 직접 열어 대조�
   - TODO: 「구체적 백분율」 → 「K&E 실험별 증가 폭, 공개 합법 사본을 찾지 못함(2026-10-24·25), 재현 연구로 대신 채움」으로 좁힘.
 - 반영하지 않은 것: 계산 백분율(+50.1% 등)은 원문에 없는 계산치라 쓰지 않았다. Study 2 수치, OpenAlex 인용 구조(메타분석 0편)는 본문에 넣지 않았다. K&E 실험 구성 정정은 본문에 해당 서술이 없어 반영할 곳이 없다.
 - 자체 확인: `kr-fit.mjs 04 --check` → block 0 · warn 0 · 통과. 남은 TODO 1건(제7항).
+
+
+## 41차 조사 반영 기록 (2026-10-25)
+
+입력: `kr-harness/research/04-r41agy.md`(agy Gemini Flash). TODO 1건(제7항) — **유지**. 본문은 고치지 않았다.
+
+- 기록의 판정은 「부분 해결」이고, 제안은 TODO를 지워 종결하자는 것이다. 새 1차 출처나 새 수치는 없다. K&E(2004) 원 논문의 실험별 수치는 여전히 원문에서 확인하지 못했으므로 TODO를 닫지 않았다. 재현 연구로 「대신 채운」 상태는 38차에 이미 TODO 줄에 적혀 있다.
+- 직접 대조한 것:
+  - Hadjichristidis 등(2014) 사전인쇄본(38차에 내려받은 `$TEMP/kr04r38/h.txt`, https://eprints.bournemouth.ac.uk/21338/) 70–75행: 「Kruger and Evans asked participants to predict how many days they would take to complete their Christmas shopping either directly (packed condition) or after listing the people they planned to buy gifts for (unpacked condition). Overall, duration estimates were higher in the unpacked condition.」 기록의 인용과 같다. 수치는 없다.
+  - 중국어 원본 검증 기록 docs/核实记录/04-不要浪费时间.md 60행: 「具体实验百分比**未确认**，条目未写数字。」 기록의 인용과 같다(강조 표시만 다름).
+  - K&E 출판사 초록 문장(「Participants prompted to unpack … less biased …」): Crossref(api.crossref.org/works/10.1016/j.jesp.2003.11.001)에 초록이 없고, Europe PMC는 0건, OpenAlex는 초록 색인이 없었다(2026-10-25). 원문에서 같은 문장을 찾지 못해 쓰지 않는다. 본문에도 이 문장은 없다.
+- 반영하지 않은 것: 「후속 문헌 전수 대조」(Forsyth & Burt 2008 등)는 기록에 URL·인용문이 없어 확인할 수 없다. 「유일한 공개 재현 연구」「합법적 공개 경로가 전무」는 부재·유일 단정이라 쓰지 않는다.
+- 자체 확인: `kr-fit.mjs 04 --check` → block 0 · warn 0 · 통과. 남은 TODO 1건(제7항).
