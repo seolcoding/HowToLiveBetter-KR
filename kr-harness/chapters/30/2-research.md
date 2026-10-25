@@ -722,3 +722,26 @@ T 제18항 한국 기숙형 시설 감금 판결 — **유지**.
 - 진주지원 2021고단881 요지 인용은 38차에 보관본으로 확인한 그대로다. agy 인용과 같다.
 - 본문: 비고·이득 칸은 바꾸지 않았다. TODO의 「감금죄가 들어갔는지도 모른다.」 → 「감금 포함 여부도 법원 자료로 확인하지 못했다. 사법정보공개포털, 판례 DRF, 법원 주요판결에서 찾지 못했다(2026-10-25).」
 - 확인 URL: https://portal.scourt.go.kr/pgp/pgp1011/selectJdcpctSrchRsltLst.on · https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=prec&type=XML&query=%EC%A4%91%EA%B0%90%EA%B8%88 · https://www.scourt.go.kr/portal/dcboard/DcNewsListAction.work?gubun=44&searchWord=%C7%D5%BC%F7
+
+
+## 42차 조사 반영 기록 (2026-10-25)
+
+기록: `kr-harness/research/30-r42agy.md`(agy Flash). TODO 1건(제18항) — 유지. 본문과 TODO 줄은 바꾸지 않았다.
+
+- agy 판정은 「해결(TODO 완전 삭제)」이었다. 원문 대조에서 유지되지 않았다.
+- 창원지법 2022노716(2022-10-27, 검사항소기각, 2022-11-04 확정): 기록에 URL이 없다.
+  - 사법정보공개포털 상세검색 csNoLstCtt=2022노716: totalCount 0.
+  - 판례 DRF nb=2022노716(node 인코딩): totalCnt 0. 대조 nb=2025도16040은 1건.
+  - 창원지법 「우리법원 주요판결」 검색(EUC-KR): 목록 행을 찾지 못함. 대조 검색어 「아동학대」도 행이 안 나와 판단 불가.
+  - agy가 「판결문」이라며 낸 주문·양형이유 인용은 출처를 확인할 수 없다. 지어낸 인용으로 보고 쓰지 않았다.
+  - 확정일·「감금죄 미기소」도 법원 자료로 확인하지 못했다.
+- 서울중앙지법 합숙과외(2021-02-10, 중감금 적용): 근거가 파이낸셜뉴스 보도뿐이다. 사건번호가 없다. 쓰지 않았다.
+  - 포털 키워드 「합숙 과외 중감금」 0, 「훈장 아동학대」 0, 「서당 아동학대」 1건(서울서부지법 2018노1659, 다른 사건).
+- 서울남부지법 2013고합462 「쌍방 미항소로 확정」: 포털 csNoLstCtt 0, DRF nb 0. 확정 표시를 찾지 못해 쓰지 않았다. 주요판결 게시물(seqnum=12735)은 이전 차수에 본 그대로다.
+- 대법원 2026. 1. 29. 선고 2025도16040 판결: 실재한다(DRF ID 622067, 포털 2026000041501).
+  - 사건명: 아동학대처벌법위반(아동학대살해)·중감금·아동복지법위반(아동학대)·(아동유기·방임)·상해. 원심 서울고법 2024노4008. 상고기각.
+  - 원문: 「중감금죄의 성립, 정당행위, 공동정범의 성립 등에 관한 법리를 오해하여 판결에 영향을 미친 잘못이 없다.」
+  - 원문: 「치매환자 억제용 밴드로 피해자를 결박하는 등 중한 학대행위를 계속하였고」 · 「피고인 1, 피고인 2에 대하여 각각 징역 25년을, 피고인 3에 대하여 징역 22년을 선고한 것이 심히 부당하다고 할 수 없다.」 — agy 인용과 맞다.
+  - 그러나 agy가 쓴 「부모가 대안학교 학생을 치료 명목으로 기숙 숙소에 위탁」「합창단장」은 대법원 본문에 없다. 피고인과 피해자의 관계, 시설 성격이 판결문에 나오지 않는다.
+  - 원심 2024노4008은 포털 csNoLstCtt 0. 사실관계를 법원 자료로 확인하지 못해 본문에 넣지 않았다. 「기숙형 교정 시설의 감금 판결」로 쓰려면 원심이나 1심 원문이 필요하다(다음 후보).
+- 확인 URL: https://www.law.go.kr/DRF/lawService.do?OC=test&target=prec&type=XML&ID=622067 · https://portal.scourt.go.kr/pgp/pgp1011/selectJdcpctSrchRsltLst.on · https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=prec&type=XML&nb=2022%EB%85%B8716 · https://changwon.scourt.go.kr/dcboard/new/DcNewsListAction.work?gubun=44&cbub_code=000420&searchWord=2022%B3%EB716

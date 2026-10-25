@@ -397,3 +397,54 @@ opencode 기록 `kr-harness/research/32-r38oc.md`를 반영했다. 10-25 01:08(K
 - CPT 소송은 항목 3·4와 닿을 수 있으나 SEVP 원문을 아직 안 봤다. 본문에 넣지 않았다.
 - TODO 1건 → 1건. 배너 건수 1 유지.
 - 검사: `node .claude/skills/kr-verify/scripts/kr-fit.mjs 32 --check` → block 0 · warn 0 · 예외 통과 0.
+
+## 41차 조사 반영 기록 (2026-10-25)
+
+agy(Gemini Flash) 기록 `kr-harness/research/32-r41agy.md`를 URL 후보로만 썼다. 10-25 14:14(KST)에 원문을 직접 열었다.
+
+| TODO | 결과 | 바뀐 문장 | 직접 확인한 URL |
+|---|---|---|---|
+| T1 F-1 소송 10-23 항목 (항목 2) | 부분 | 이득 끝 「허가인지 기각인지가 나오지 않습니다. 그래서 두 일정을 함께 적었습니다」→「전자명령(ECF 64)으로 허가. 약식판결 신청 10-30, 재답변서 11-02. 같은 날 행정기록 색인 제출(ECF 65)」. 출처에 ECF 64·65와 65 PDF 추가. TODO는 예정 일정만 남김 | https://www.courtlistener.com/docket/74661796/feed/ ; https://storage.courtlistener.com/recap/gov.uscourts.mad.305059/gov.uscourts.mad.305059.65.0.pdf ; https://www.courtlistener.com/docket/74908049/feed/ ; https://www.federalregister.gov/api/v1/documents.json ; https://www.federalregister.gov/api/v1/documents/2026-14439.json |
+
+- 지방법원 피드: updated 2026-10-23이다. 이번엔 #64 요약문이 실려 있었다.
+- #64 원문: 「ELECTRONIC ORDER entered granting 63 MOTION for Extension of Time to 10/30/26 to File Motions for Summary Judgment. Reply memorandum must be filed by 11/2/26.」
+- #65 원문: 「NOTICE by … of filing the Administrative Record Index (Attachments: # 1 Certified Administrative Record Index, # 2 … Appendix A, # 3 Declaration of Amy Bessada)」.
+- ECF 65.0 PDF(200, 123 KB) 1쪽: 「In accordance with this Court's October 16, 2026, Order (Dkt. 61) Defendants file, as Exhibits to this notice, the Administrative Record Index, Appendix A and Declaration of Amy Bessada.」 65.1·65.3도 200.
+- ECF 64.0 PDF는 404다. 전자명령은 피드 문구로만 확인했다.
+- 기록과 다른 점: 기록은 「부분 허가(granting in part)」라 했다. 피드 원문은 「granting」뿐이고 「in part」는 없다. 본문은 「허가」로 쓰고, 재답변서 날짜만 명령 문구대로 적었다.
+- 기록의 「기존 명령(ECF #61)의 11-02를 유지하도록 명령」도 명령 문구보다 넓다. 본문은 「요청한 11-06이 아니라 원래 마감」이라는 날짜 비교만 썼다.
+- 기록의 「F-1 학생은 종전대로 D/S로 체류」는 이번 피드로 새로 확인한 사실이 아니다. 본문 기존 문장을 그대로 뒀다.
+- 항소 피드: updated 2026-10-19, 최신 #108525045 그대로다. 구두변론 지정 기록은 찾지 못했다(CourtListener 피드, 2026-10-25).
+- 기록의 답변서 「2026-12-09」는 법원이 정한 날짜가 아니라 계산값이다. 본문에 쓰지 않았다.
+- 연방관보 API 10-20 이후 「fixed time period of admission」 0건이다. 2026-14439 effective_on 2026-09-15, corrections 빈 배열이다.
+- PACER는 열람하지 않았다. RECAP에 없는 항목이 있는지는 모른다.
+- 지어낸 출처: 없음. 기록이 든 URL과 인용 문장은 원문에서 모두 찾았다. 다만 「in part」 해석은 원문에 없다.
+- TODO 1건 → 1건(예정 일정 확인만 남김). 배너 건수 1 유지.
+- 검사: `node .claude/skills/kr-verify/scripts/kr-fit.mjs 32 --check` → block 0 · warn 0 · 예외 통과 0.
+
+
+## 42차 조사 반영 기록 (2026-10-25)
+
+agy(Gemini Flash) 기록 `kr-harness/research/32-r42agy.md`를 URL 후보로만 썼다. 10-25 16:00(KST)에 원문을 직접 열었다.
+
+| TODO | 결과 | 바뀐 문장 | 직접 확인한 URL |
+|---|---|---|---|
+| T1 F-1 소송 예정 일정 (항목 2) | 유지 (새 사실 없음) | 본문과 TODO 줄 모두 그대로 | https://www.courtlistener.com/docket/74661796/feed/ ; https://www.courtlistener.com/docket/74908049/feed/ ; https://www.federalregister.gov/api/v1/documents.json ; https://www.federalregister.gov/api/v1/documents/2026-14439.json ; https://www.ca1.uscourts.gov/sites/ca1/files/calendar.pdf ; https://www.ice.gov/sevis |
+
+- 지방법원 피드: updated 2026-10-23, 최신 항목 #65 그대로다.
+- 41차(10-25 14:14 KST) 이후 새 항목은 찾지 못했다(CourtListener 피드, 10-25 16:00 KST).
+- #64 문구 「granting 63 MOTION for Extension of Time to 10/30/26」 「Reply memorandum must be filed by 11/2/26」를 피드에서 다시 찾았다.
+- 항소 피드: updated 2026-10-19, 최신 #108525045 그대로다.
+- 원문: 「EXPEDITED briefing schedule set. Brief and Appendix due 11/09/2026 …」.
+- 기록이 든 #108521411 문장 「Motions to extend deadlines will be disfavored」 「Argument will be scheduled」도 피드에서 찾았다.
+- 구두변론 지정 항목은 피드에서 찾지 못했다.
+- 제1순회 calendar.pdf(200, Last-Modified 2026-09-28)는 10월 회기분만 실렸다. 26-2112는 없다.
+- 연방관보 API 10-20 이후 「fixed time period of admission」 0건이다.
+- 2026-14439 effective_on 2026-09-15, corrections 빈 배열이다.
+- ICE SEVIS 문장 「On July 17, 2026, DHS …」 그대로다.
+- 기록과 다른 점: 판정 「해결」은 유지하지 않았다. 10-30·11-02·11-09가 아직 미래 일정이다.
+- 기록의 「stay 신청도 제기되지 않았다」는 피드 범위의 관찰일 뿐이다. PACER는 열람하지 않아 본문에 쓰지 않았다.
+- 기록의 답변서 「약 12-09」는 법원이 정한 날짜가 아닌 계산값이다. 쓰지 않았다.
+- 기록의 「D/S로 체류」는 이번에 새로 확인한 사실이 아니다. 본문 기존 문장을 그대로 뒀다.
+- 지어낸 출처: 없음. 기록의 URL과 인용 문장은 원문에서 모두 찾았다.
+- TODO 1건 → 1건. 배너 건수 1 유지.
