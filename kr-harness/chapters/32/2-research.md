@@ -421,3 +421,30 @@ agy(Gemini Flash) 기록 `kr-harness/research/32-r41agy.md`를 URL 후보로만 
 - 지어낸 출처: 없음. 기록이 든 URL과 인용 문장은 원문에서 모두 찾았다. 다만 「in part」 해석은 원문에 없다.
 - TODO 1건 → 1건(예정 일정 확인만 남김). 배너 건수 1 유지.
 - 검사: `node .claude/skills/kr-verify/scripts/kr-fit.mjs 32 --check` → block 0 · warn 0 · 예외 통과 0.
+
+
+## 42차 조사 반영 기록 (2026-10-25)
+
+agy(Gemini Flash) 기록 `kr-harness/research/32-r42agy.md`를 URL 후보로만 썼다. 10-25 16:00(KST)에 원문을 직접 열었다.
+
+| TODO | 결과 | 바뀐 문장 | 직접 확인한 URL |
+|---|---|---|---|
+| T1 F-1 소송 예정 일정 (항목 2) | 유지 (새 사실 없음) | 본문과 TODO 줄 모두 그대로 | https://www.courtlistener.com/docket/74661796/feed/ ; https://www.courtlistener.com/docket/74908049/feed/ ; https://www.federalregister.gov/api/v1/documents.json ; https://www.federalregister.gov/api/v1/documents/2026-14439.json ; https://www.ca1.uscourts.gov/sites/ca1/files/calendar.pdf ; https://www.ice.gov/sevis |
+
+- 지방법원 피드: updated 2026-10-23, 최신 항목 #65 그대로다.
+- 41차(10-25 14:14 KST) 이후 새 항목은 찾지 못했다(CourtListener 피드, 10-25 16:00 KST).
+- #64 문구 「granting 63 MOTION for Extension of Time to 10/30/26」 「Reply memorandum must be filed by 11/2/26」를 피드에서 다시 찾았다.
+- 항소 피드: updated 2026-10-19, 최신 #108525045 그대로다.
+- 원문: 「EXPEDITED briefing schedule set. Brief and Appendix due 11/09/2026 …」.
+- 기록이 든 #108521411 문장 「Motions to extend deadlines will be disfavored」 「Argument will be scheduled」도 피드에서 찾았다.
+- 구두변론 지정 항목은 피드에서 찾지 못했다.
+- 제1순회 calendar.pdf(200, Last-Modified 2026-09-28)는 10월 회기분만 실렸다. 26-2112는 없다.
+- 연방관보 API 10-20 이후 「fixed time period of admission」 0건이다.
+- 2026-14439 effective_on 2026-09-15, corrections 빈 배열이다.
+- ICE SEVIS 문장 「On July 17, 2026, DHS …」 그대로다.
+- 기록과 다른 점: 판정 「해결」은 유지하지 않았다. 10-30·11-02·11-09가 아직 미래 일정이다.
+- 기록의 「stay 신청도 제기되지 않았다」는 피드 범위의 관찰일 뿐이다. PACER는 열람하지 않아 본문에 쓰지 않았다.
+- 기록의 답변서 「약 12-09」는 법원이 정한 날짜가 아닌 계산값이다. 쓰지 않았다.
+- 기록의 「D/S로 체류」는 이번에 새로 확인한 사실이 아니다. 본문 기존 문장을 그대로 뒀다.
+- 지어낸 출처: 없음. 기록의 URL과 인용 문장은 원문에서 모두 찾았다.
+- TODO 1건 → 1건. 배너 건수 1 유지.
