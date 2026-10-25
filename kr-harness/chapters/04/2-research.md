@@ -277,3 +277,17 @@ agy 기록(kr-harness/research/04.md)의 URL과 수치를 직접 열어 대조�
   - Buehler·Griffin·Peetz(2010)는 Crossref에서 실재를 확인했다(The Planning Fallacy, Adv Exp Soc Psychol, pp.1–62). 공개 전문은 확인하지 못해 수치 재수록 여부를 판단하지 않았다. Halkjelsvik & Jørgensen은 기록에 URL이 없어 확인하지 않았다.
 - 반영하지 않은 것: 「유일한 공개 재현 연구」「합법적 공개 경로가 전무」는 부재·유일 단정이라 쓰지 않는다. Hadjichristidis(2014) 수치는 38차에 이미 반영돼 있다.
 - 자체 확인: `kr-fit.mjs 04 --check` → block 0 · warn 0 · 통과. 남은 TODO 1건(제7항).
+
+
+## 44차 조사 반영 기록 (2026-10-25)
+
+입력: `kr-harness/research/04-r44agy.md`(agy Gemini Flash). TODO 1건(제7항) — **유지**. 본문(TODO 줄 포함)은 고치지 않았다.
+
+- 기록의 판정은 「부분 해결」이고, 제안은 비고 문구를 바꾸고 TODO를 지우자는 것이다. 41·42차와 같은 제안이다. K&E(2004) 실험별 수치를 원문에서 확인한 것이 없어 TODO를 닫지 않았다.
+- 이전 차수와 같음(다시 검증하지 않음): Hadjichristidis 등(2014) 사전인쇄본 인용 두 개(38·41차), 중국어 검증 기록 60행 인용(41차), K&E 출판사 초록 문장(41·42차에 원문에서 찾지 못함, 이번에도 쓰지 않음), K&E DOI.
+- 새로 나온 출처만 직접 열었다.
+  - Wiese, J. L. (2015) 박사논문 https://scholars.wlu.ca/etd/1755/ : 실재 확인(제목 「Backward Planning: Examining Consequences of Planning Direction for Time Prediction」, 140쪽). curl은 Cloudflare 검사 화면만 받혀, 브라우저로 PDF(viewcontent.cgi?article=2861&context=etd)를 열어 텍스트로 대조했다. 「Kruger」가 나오는 곳(11·16·17·39·82·98·104·126쪽)은 모두 방향 서술이거나 시나리오 차용이다. 16–17쪽 「participants made longer – and less biased – predictions than participants in the packed conditions. Further, the debiasing influence of unpacking was found to have greater influence on more complex tasks.」 실험별 수치는 없다. 재인용이라 본문에 넣지 않았다. 참고문헌의 K&E 쪽수는 「586-594」로 DOI 서지(586–598)와 다르다.
+  - Halkjelsvik & Jørgensen (2012) DOI 10.1037/a0025996 : Crossref에서 실재 확인(Psychological Bulletin 138(2):238–271). 공개 전문은 열지 않았고, K&E 수치 재수록 여부는 판단하지 않았다.
+  - UIUC IDEALS, NYU Stern, NSF PAR·Award Search, 토론토대 T-Space, Buehler 등(2010), Wiseman(2009), Penn(2019): 기록에 구체 URL이나 인용문이 없어 확인할 수 없다. 「전수 대조」 주장은 쓰지 않는다.
+- 지어낸 것: 이번 기록에서 새로 든 출처 가운데 실재하지 않는 것은 찾지 못했다. 다만 「유일한 공개 재현 연구」「합법적 공개 경로가 전무」는 부재·유일 단정이라 쓰지 않는다.
+- 자체 확인: `kr-fit.mjs 04 --check` → block 0 · warn 0 · 통과. 남은 TODO 1건(제7항).
