@@ -448,3 +448,25 @@ agy(Gemini Flash) 기록 `kr-harness/research/32-r42agy.md`를 URL 후보로만 
 - 기록의 「D/S로 체류」는 이번에 새로 확인한 사실이 아니다. 본문 기존 문장을 그대로 뒀다.
 - 지어낸 출처: 없음. 기록의 URL과 인용 문장은 원문에서 모두 찾았다.
 - TODO 1건 → 1건. 배너 건수 1 유지.
+
+
+## 44차 조사 반영 기록 (2026-10-25)
+
+agy(Gemini Flash) 기록 `kr-harness/research/32-r44agy.md`를 URL 후보로만 썼다. 42차(10-25 16:00 KST) 이후 새 항목만 봤다.
+
+| TODO | 결과 | 바뀐 문장 | 직접 확인한 URL |
+|---|---|---|---|
+| T1 F-1 소송 예정 일정 (항목 2) | 유지 (새 사실 없음) | 본문과 TODO 줄 모두 그대로 | https://www.courtlistener.com/docket/74661796/feed/ ; https://www.courtlistener.com/docket/74908049/feed/ ; https://www.federalregister.gov/api/v1/documents.json ; https://www.ice.gov/sevis |
+
+- 지방법원 피드: updated 2026-10-23, 최신 항목 #65 그대로다.
+- 42차 이후 새 항목은 피드에서 찾지 못했다(10-25 확인).
+- #64 문구 「Reply memorandum must be filed by 11/2/26」를 피드에서 다시 찾았다.
+- 항소 피드: updated 2026-10-19, 최신 #108525045 그대로다.
+- 원문 「Brief and Appendix due 11/09/2026」을 피드에서 다시 찾았다.
+- 연방관보 API 10-20 이후 「fixed time period of admission」 count 0이다.
+- ICE SEVIS 「On July 17, 2026, DHS」 문장 그대로다.
+- 기록 판정 「부분 해결」이지만 새 사실이 없어 「유지」로 적었다.
+- 10-30·11-02·11-09는 아직 미래 일정이다. TODO를 닫지 않았다.
+- 지어낸 출처: 찾지 못했다. 기록의 피드 인용 문장은 원문에 있다.
+- calendar.pdf Last-Modified는 이번에 다시 열지 않았다. 42차 확인값과 같다고 기록만 했다.
+- TODO 1건 → 1건. 배너 건수 1 유지.
