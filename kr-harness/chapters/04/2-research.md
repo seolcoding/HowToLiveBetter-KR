@@ -291,3 +291,16 @@ agy 기록(kr-harness/research/04.md)의 URL과 수치를 직접 열어 대조�
   - UIUC IDEALS, NYU Stern, NSF PAR·Award Search, 토론토대 T-Space, Buehler 등(2010), Wiseman(2009), Penn(2019): 기록에 구체 URL이나 인용문이 없어 확인할 수 없다. 「전수 대조」 주장은 쓰지 않는다.
 - 지어낸 것: 이번 기록에서 새로 든 출처 가운데 실재하지 않는 것은 찾지 못했다. 다만 「유일한 공개 재현 연구」「합법적 공개 경로가 전무」는 부재·유일 단정이라 쓰지 않는다.
 - 자체 확인: `kr-fit.mjs 04 --check` → block 0 · warn 0 · 통과. 남은 TODO 1건(제7항).
+
+
+## 46차 조사 반영 기록 (2026-10-26)
+
+입력: `kr-harness/research/04-r46agy.md`(agy Gemini Flash). TODO 1건(제7항) — **유지**. 본문(TODO 줄 포함)은 고치지 않았다.
+
+- 기록의 판정은 「부분 해결」이고, 제안은 비고 문구를 바꾸고 TODO를 지우자는 것이다. 41·42·44차와 같은 제안이다. K&E(2004) 실험별 수치를 원문에서 확인한 것이 없어 TODO를 닫지 않았다.
+- 이전 차수와 같음(다시 검증하지 않음): K&E DOI, K&E 출판사 초록 문장(41·42차에 원문에서 찾지 못함, 이번에도 쓰지 않음), Hadjichristidis 등(2014) 사전인쇄본 pp.3–4·p.7 인용(38·41차), 중국어 검증 기록 인용(41차), Halkjelsvik & Jørgensen(2012) 서지(44차 Crossref).
+- 새로 나온 출처:
+  - Simula Research Laboratory 레코드: 기록에 URL이 없어 열 수 없다. 대신 OpenAlex(api.openalex.org/works/doi:10.1037/a0025996)를 열었다(2026-10-26). 「oa_status: closed」, 「any_repository_has_fulltext: false」였다. 위치는 doi.org와 PubMed 22061688뿐이다. 공개 전문을 확인하지 못해 K&E 수치 재수록 여부는 판단하지 않았다.
+  - 미국심리학회(APS) 보도자료: 기록에 URL·인용문이 없어 확인할 수 없다.
+- 지어낸 것: 새 출처 가운데 실재하지 않는 것은 찾지 못했다. 「유일한 공개 재현 연구」「합법적 공개 경로가 전무」는 부재·유일 단정이라 쓰지 않는다.
+- 자체 확인: `kr-fit.mjs 04 --check` → block 0 · warn 0 · 통과. 남은 TODO 1건(제7항).
