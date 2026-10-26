@@ -1161,3 +1161,35 @@ PDF 글자는 ext.mjs(pdfjs-dist, CMap)로 뽑았다.
 - 지어낸 것: 확인한 범위에서는 없음. Clarithromycin 고시 인용은 열지 못해 확인 불가.
 - 본문(TODO 줄 포함) 변경 없음. 해시가 그대로라 kr-fit-review 재검토는 필요 없다.
 - 다운로드는 $TEMP/kr13r48에 두었다.
+
+
+## 49차 조사 반영 기록 (2026-10-26)
+
+입력: `kr-harness/research/13-r49oc.md`(opencode GLM, 판정 부분 해결 3건). 기록은 URL 후보로만 썼다. T2·T3에서 원문으로 확인한 새 사실을 넣었다. TODO 3건은 남기고, T2·T3 줄에 49차 내용을 덧붙였다.
+
+### T1 PEP 본인 부담 — 유지
+- 심평원 Clarithromycin 경구제(고시 제2025-15호) 팝업은 이번에도 curl 30초 시간 초과로 열지 못했다. 인용은 확인 불가로 둔다.
+- 48차 판단과 같이, 열렸더라도 같은 취지 문장(제2019-93호)이 제38항에 이미 있어 쟁점을 줄이지 못한다.
+- 병원 비급여 고지 「0건」은 기록도 재검증하지 않은 음성 확인이라 쓰지 않았다.
+
+### T2 일산화탄소 전국 사망자 — 부분
+- WHO 국가코드 파일 원문: 「3325,Republic of Korea」, 「4080,France」. 3차 기록의 「X47 연 38~100명」이 프랑스 행이었다는 기록의 지적은 맞다(본문에는 그 수치가 없다).
+- morticd10_part6(2026-02-23 갱신)을 받아 국가 3325, 성별 1·2의 Deaths1을 더했다. 한국 행은 2021~2023년뿐이다. X470·X471·X472·X473·X474는 2021년 2·8·33·2·15, 2022년 3·10·39·1·25, 2023년 3·8·34·1·17명이다. 합계 60·78·63명으로 기록과 같다. X47 전체(89·98·73명)는 제1절 제3항 수치와 같다.
+- 코드 뜻은 WHO ICD-10 2019판 브라우저에서 확인했다. 「X47.0 … carbon monoxide from combustion engine exhaust」, 「X47.1 … from utility gas」, 「X47.2 … from other domestic fuels」, 「X47.3 … from other sources」, 「X47.4 … from unspecified sources」, X47.8·X47.9는 다른 가스·증기다. 한국 원자료에도 X475~X477이 없고 이 일곱 코드만 있다.
+- 제19항 비고·출처에 더함(전→후): 「…의도하지 않은 사고 사망은 들어가지 않습니다.」 뒤에 「사고 사망은 한국이 WHO에 낸 사망 원자료로 셀 수 있습니다. WHO 분류에서 X47.0~X47.4가 일산화탄소 사고 중독입니다. 이 다섯 코드를 더하면 2021년 60명, 2022년 78명이었습니다. 2023년은 63명이었습니다. 이 자료에서 2024년 이후 수치는 찾지 못했습니다.」
+- 쓰지 않은 것: 2013~2020년 수치와 「2013~2019년 4자리는 발생장소 구코드」 설명. part4·part5를 이번에 열지 않았다.
+- 소방청 「일산화탄소 중독사고 분석 결과」(생활안전과, 2024.1.3) PDF 변환본을 받아 pdftotext로 열었다(3쪽, 한글 정상). 원문: 「(대 상) 2022년 난방용품 일산화탄소 중독 구급출동 86건」, 「* 자살시도·화재·가스렌지 가스누출·작업 중 가스누출사고 제외」, 「(중독물질별) 목재류 63건(73.2%), 가스류 10건(11.6%), 석유류 8건(9.3%), 석탄류 5건(5.8%)」, 「※ … 목재류는 온돌방 장작불·숯·화목보일러·나무가지」, 「장소별 심정지: 집 5명(아궁이 장작 2, 화로 숯 2, 화목보일러 1), 텐트 1명 (가스히터)」.
+- 제19항 비고·출처에 더함: 471건 문장 뒤에 「소방청은 2022년 난방용품 일산화탄소 중독 구급출동을 86건으로 분석했습니다. 중독물질은 장작·숯 같은 목재류가 63건(73.2%)으로 가장 많았습니다. 심정지는 집 5명, 텐트 1명이었습니다.」 문서에 사망 항목은 없어 사망으로 쓰지 않았다.
+- TODO 줄: 남은 쟁점을 「2021년 이전과 2024년 이후의 일산화탄소 사고 사망 전국 수」로 좁혔다.
+- 확인 URL: https://cdn.who.int/media/docs/default-source/world-health-data-platform/mortality-raw-data/mort_country_codes.zip?sfvrsn=800faac2_5 · https://cdn.who.int/media/docs/default-source/world-health-data-platform/mortality-raw-data/morticd10_part6.zip?sfvrsn=ec801a61_4 · https://icd.who.int/browse10/2019/en/JsonGetChildrenConcepts?ConceptId=X47&useHtml=false · https://www.nfsa.go.kr/board/file/bbs_0000000000002463/629455/FILE_000000000020322/2024011013215222439/pdfFileDownload
+
+### T3 지혈대 실습 일반인 과정 — 부분(쟁점 유지)
+- AHA Heartsaver 주제표(2020) 웹 보존본 PDF를 열었다. 행 「External Bleeding (direct pressure and bandaging† and tourniquet)」에 Heartsaver 과정 열이 ✓다(추출 순서가 섞여 † 위치는 판별 불가).
+- 제12항 비고·출처에 더함: 수상구조사 문장 뒤에 「미국심장협회 일반인 응급처치 과정 주제표(2020)에는 지혈대가 있습니다. 같은 과정의 국내 과정표는 찾지 못했습니다(2026-10-26).」
+- FRTI 한국어판 규정서(버전 0126) §1.9 「4. 지혈대(Tourniquet) 또는 지혈대 대용품」은 원문에서 확인했다(pdftotext, 한글 정상). 민간 교육 단체의 강사용 표준이라 본문에는 넣지 않았다.
+- 강북구 보도자료(경찰관 대상)와 K-FEC·KOMSA 등 「지혈대 없음」은 기록도 재검증하지 않아 쓰지 않았다.
+- 확인 URL: https://web.archive.org/web/2023/https://cpr.heart.org/-/media/CPR2-Files/Course-Materials/2020-Heartsaver/HS-Marketing-Toolkit/Heartsaver_Adult_ILT_Course_Path_Topic_-Grid_vs_2015_ucm_506903.pdf · https://www.firstresponse-ed.com/wp-content/uploads/files/sandp/currentYear/Korean/First%20Response/first_response_s%26p_pt2_kr_kr.pdf
+
+- 지어낸 것: 확인한 범위에서는 없음.
+- `kr-fit.mjs 13 --check` → block 0 · warn 0 → 통과. 본문 해시가 바뀌어 kr-fit-review 재검토가 필요하다.
+- 다운로드는 $TEMP/kr13r49에 두었다.
