@@ -842,3 +842,33 @@ opencode GLM 기록 `kr-harness/research/18-r50oc.md`를 원문 URL 후보 목�
 
 - TODO 3건 → 3건.
 - `node .claude/skills/kr-verify/scripts/kr-fit.mjs 18 --check` → block 0 · warn 0 · 통과.
+
+## 51차 조사 반영 기록 (2026-10-27, opencode)
+
+opencode GLM 기록 `kr-harness/research/18-r51oc.md`를 원문 URL 후보 목록으로만 썼다.
+기록은 해결 0·부분 2·미해결 1이다. 새 1차 사실이 본문 TODO를 풀지 못해 본문과 TODO 줄을 고치지 않았다.
+받은 파일은 스크래치 폴더에만 있다.
+
+### T1 첫만남이용권의 기초생활보장 처리 — 유지
+
+- DRF 자치법규 본문검색 「첫만남이용권 사업지침」(node 인코딩)은 7건이다.
+  https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=ordin&type=XML&search=2&query=%EC%B2%AB%EB%A7%8C%EB%82%A8%EC%9D%B4%EC%9A%A9%EA%B6%8C%20%EC%82%AC%EC%97%85%EC%A7%80%EC%B9%A8
+- 「전남광주통합특별시 광산구 출산ㆍ양육 지원 조례」(MST=2143265, 2026-06-30 공포, 2026-07-01 시행) 제9조를 직접 열었다.
+  원문: 「④ 출생아의 순위 산정은 「보건복지부 첫만남이용권 사업지침」의 기준을 준용한다.<개정 2025.12.31.>」
+  https://www.law.go.kr/DRF/lawService.do?OC=test&target=ordin&MST=2143265&type=XML
+- 이 조항은 출생 순위 산정 기준이고 소득·재산 조사와 무관하다. 사업지침 원문도 열지 못해 본문에 넣지 않았다.
+  다음 차수 후보: 복지부 「첫만남이용권 사업지침」 원문(정보공개청구 등).
+- 행정심판례·판례·법령해석 본문검색 0건, 2022-04-01 보도자료 소득·재산 문언 0건은 부재 보고라 넣지 않았다.
+
+### T2 세 급여의 소득세 — 유지
+
+- 아동수당법 전문의 「소득세」 0건, 국회 의안정보 전문검색 9건 0건은 부재 보고다. 열어 확인할 새 원문 문장이 없어 넣지 않았다.
+- 국회 회의록 2건은 49차에 이미 반영했다.
+
+### T3 2027년 출산전후휴가 급여 상한 — 유지
+
+- 정책브리핑 검색 71건 중 2027 고시 없음, DRF 행정규칙 1건은 46·49·50차와 같은 부재 보고다.
+- 정책브리핑 RSS 중단 공지는 검색 도구 이야기라 본문과 무관하다.
+
+- TODO 3건 → 3건.
+- `node .claude/skills/kr-verify/scripts/kr-fit.mjs 18 --check` → block 0 · warn 0 · 통과.
