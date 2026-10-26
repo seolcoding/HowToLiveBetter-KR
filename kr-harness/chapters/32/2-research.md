@@ -494,3 +494,26 @@ agy(Gemini Flash) 기록 `kr-harness/research/32-r46agy.md`를 URL 후보로만 
 - 10-30·11-02·11-09는 아직 미래 일정이다. TODO를 닫지 않았다.
 - 지어낸 출처: 찾지 못했다. 피드 인용 문장은 원문에 있다.
 - TODO 1건 → 1건. 배너 건수 1 유지.
+
+
+## 48차 조사 반영 기록 (opencode, 2026-10-26)
+
+opencode GLM 기록 `kr-harness/research/32-r48oc.md`를 URL 후보로만 썼다. 10-26(KST) 원문을 curl로 직접 열었다.
+
+| TODO | 결과 | 바뀐 문장 | 직접 확인한 URL |
+|---|---|---|---|
+| T1 F-1 소송 예정 일정 (항목 2) | 유지 (새 사실 없음) | 본문 그대로. TODO 줄의 확인 날짜·경로만 고침 | https://www.courtlistener.com/docket/74661796/feed/ ; https://www.courtlistener.com/api/rest/v4/search/?q=%2226-2112%22&type=r ; https://api.regulations.gov/v4/documents?filter%5BdocketId%5D=ICEB-2025-0001&sort=-postedDate&api_key=DEMO_KEY ; https://www.federalregister.gov/api/v1/documents/2026-14439.json ; https://www.courtlistener.com/docket/74908049/feed/ |
+
+- 지방법원 피드: updated 2026-10-23, 최신 항목 #65·10-23 minute entry 그대로다.
+- 항소 피드: updated 2026-10-19 그대로다.
+- v4 검색 API: ca1 26-2112 레코드 dateArgued null, timestamp 2026-10-20T13:41:17Z다.
+- 같은 레코드 최신 문서는 10-19 「Brief and Appendix due 11/0…」 서면 일정이다.
+- 「26-2112」 검색은 다른 순회 사건도 섞여 나온다. caseName으로 골라야 한다.
+- regulations.gov 도크넷 ICEB-2025-0001: totalElements 14다.
+- 최신순 첫 두 문서는 2026-07-17 게시(그중 하나 frDocNum 2026-14439)다.
+- 그래서 7-17 이후 새 문서는 찾지 못했다고만 TODO 줄에 적었다.
+- 연방관보 2026-14439: effective_on 2026-09-15, corrections 빈 배열(이전 차수와 같음).
+- 기록 판정 「부분 해결」이지만 새 사실이 없어 「유지」로 적었다.
+- ICE whats-new·USCIS·DHS 뉴스·govinfo는 다시 열지 않았다. 반영하지 않았다.
+- 지어낸 출처: 찾지 못했다. 기록의 인용 문장은 원문에 있다.
+- TODO 1건 → 1건. 배너 건수 1 유지.
