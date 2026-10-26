@@ -815,3 +815,21 @@ T 제18항 한국 기숙형 시설 감금 판결 — **유지**.
   - 대법원 2014도13280(서당 학원 등록): 32차에 감금 판결이 아니라 넣지 않기로 한 것과 같다.
   - 서울고법 누리집 DNS 실패, 국회 회의록 검색 불능, archive.ph 404: 결과 없음.
 - 확인 URL: https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290189&type=XML · https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=205383&type=XML · https://www.law.go.kr/DRF/lawSearch.do?OC=test&target=prec&type=XML&nb=2024%EB%85%B84008
+
+
+## 50차(opencode) 조사 반영 기록 (2026-10-26)
+
+기록: `kr-harness/research/30-r50oc.md`(opencode GLM). TODO 1건(제18항) — 유지. 본문과 TODO 줄은 바꾸지 않았다.
+
+- 기록 판정은 「부분 해결」이다. 표적 판결(2021고단881, 2022노716, 합숙 교습소, 2024노4008)의 법원 원문은 새로 나오지 않았다.
+- 직접 확인(2026-10-26, curl -m 30):
+  - 경남교육청 2021-04-22 교육감 기자회견문: 「하동 11개 서당은 개인과외교습이 2곳, 청소년 수련 시설이 2곳, 미등록 시설이 7곳입니다」, 「수사 의뢰해 둔 상태이며」 원문과 맞다. 기록의 `/main/` 주소는 SERVER ERROR였고 `/pr/user/` 주소로 열렸다.
+  - 경남교육청 2026-07-24 「청학동 서당 거주 학생 안전 및 생활지도 맞춤형 지원 강화」: 제목과 협의회 개최 문장이 원문과 맞다.
+- 반영하지 않은 것:
+  - 위 두 자료는 실태·행정 조치다. 판결 사실이 없어 TODO 쟁점을 풀지 못한다. 본문에는 이미 교육부 2021-04-15 보도자료로 서당 조사와 수사 사실이 있다. 새 사실이 아니라 넣지 않았다.
+  - 2021-04-01·04-05·04-06 경남교육청 보도자료: 16차에 이미 확인한 자료다.
+  - 창원지법 주요판결 라이브 목록 2022년분 부재, 법원공보 스캔 이미지, 법원도서관 판례공보·각급법원판결공보 0건, Crossref·OpenAlex·KCI 0건, 언론보도판결 공백 구간 0건: 모두 부재 확인이다. 본문에 넣지 않았다.
+  - 인천지법 2022노716(조세 사건): 근거가 lbox(민간 DB)다. 쓰지 않았다.
+  - open.go.kr 접근 차단, casenote·lfind 404: 결과 없음.
+- 확인 URL: https://www.gne.go.kr/pr/user/bbs/BD_selectBbs.do?q_bbsSn=1350&q_bbsDocNo=1207438 · https://www.gne.go.kr/pr/user/bbs/BD_selectBbs.do?q_bbsSn=1509&q_bbsDocNo=20260724093015625
+- 내려받은 파일: `$TEMP/kr30r50/`
