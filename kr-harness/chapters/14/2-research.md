@@ -356,3 +356,34 @@ T1. 제10항 AI 중개 사이트 국내 경보 — 유지
   - 원문을 열지 않아 인용문 확인 불가. 공공기관 내부망용이라 TODO와도 무관하다.
 - 판정 차이: 없음(기록 「미해결」 → 반영 「유지」).
 - 지어낸 것: ATLAS 한국어 인용문(원문과 불일치). CSA·N2SF 인용은 확인 불가.
+
+
+## 48차 조사 반영 기록 (2026-10-26)
+
+기록: kr-harness/research/14-r48oc.md (opencode GLM, T1 「미해결」). TODO 1건.
+
+T1. 제10항 AI 중개 사이트 국내 경보 — 유지
+- 본문과 TODO 줄은 고치지 않았다. 국내 직접 경보는 새로 나오지 않았다.
+- 기록은 URL 후보로만 썼다.
+- 과기정통부·KISA 「AI 보안 위협 대응 매뉴얼」 본문 PDF(41차에 열지 않음)를 직접 받았다.
+  - 게시글: https://www.kisa.or.kr/401/form?postSeq=3712
+  - 첨부: https://www.kisa.or.kr/post/fileDownload?menuSeq=401&postSeq=3712&attachSeq=1&lang_type=KO (2.5MB)
+  - pdftotext(UTF-8) 약 20만 자. 「보안」 379건이라 한글 추출은 정상이다.
+  - 「중개」「중계」「릴레이」「relay」「재판매」「리셀」「유사 사이트」 0건.
+  - 「프록시」 2건, 「API 키」 8건(기록은 12건)이다. 모두 자기 시스템 방어·키 관리 맥락이다.
+  - 원문 확인: 「프록시 계층 인증 - 정적 Bearer Token 기반 인증을 수행하여 Authorization 헤더가 없거나 토큰이 유효하지 않으면 401 Unauthorized 즉시 반환」
+  - 기업용 매뉴얼이고 중개 사이트 경보가 아니다. 본문에 넣지 않았다.
+- 「AI 보안 레드티밍 가이드」(postSeq=3713): 이번에 열지 않았다. 매뉴얼과 같은 날 발간한 기업·전문기업용 문서다(41차 보도자료).
+- Cloud Security Alliance 「Malicious LLM Proxy Routers」: 46차에 「확인 불가」였던 것을 이번에 원문으로 확인했다.
+  - https://labs.cloudsecurityalliance.org/wp-content/uploads/2026/04/CSA_research_note_llm_proxy_router_risk_20260416-csa-styled-1.pdf
+  - 기록의 영어 인용 「By design, every LLM proxy router terminates the client-side TLS connection …」은 원문에 있다.
+  - 원문 표기: 「Unofficial AI-assisted Research」, 「This document was generated with AI assistance and has not undergone official CSA review and approval processes.」
+  - 해외 업계 기구의 비공식 연구노트다. 국내 경보가 아니고 공식 심사 전이라 본문에 넣지 않았다.
+- 국정원 보도자료 seq=392(2026.1.8. 「5大 위협 전망」): 게시물 실재만 확인했다. 첨부 HWP 본문은 열지 않았다. 기록의 「API 0건」은 재확인하지 않았다.
+- 국정원 보도자료 145건·개보위 보도자료 570건 제목 전수: 다시 보지 않았다. 부재 근거로 쓰지 않는다.
+- FTC 2023-04-13 경보: 해외 기관이고 가짜 AI 광고 멀웨어 경보다. API 중개 사이트를 겨냥하지 않는다. 열지 않았다.
+- KISO: 출처가 누리집 첫 화면뿐이라 쓰지 않았다.
+- 국회 회의록·판례 DRF 0건: 기록 스스로 사건명·우회 검색 한계를 밝혔다. 부재 근거로 쓰지 않는다.
+- 이전 차수와 같음: 한국소비자원 주의보(38차), 국회입법조사처 보고서·과기정통부 2026.7.8. 보도자료(41차), MITRE ATLAS(46차).
+- 판정 차이: 없음(기록 「미해결」 → 반영 「유지」).
+- 지어낸 것: 확인한 범위에서는 없다. 기록의 인용 3건 중 CSA·KISA 매뉴얼 2건은 원문과 일치했다.
