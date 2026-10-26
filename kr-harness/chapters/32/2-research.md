@@ -517,3 +517,21 @@ opencode GLM 기록 `kr-harness/research/32-r48oc.md`를 URL 후보로만 썼다
 - ICE whats-new·USCIS·DHS 뉴스·govinfo는 다시 열지 않았다. 반영하지 않았다.
 - 지어낸 출처: 찾지 못했다. 기록의 인용 문장은 원문에 있다.
 - TODO 1건 → 1건. 배너 건수 1 유지.
+
+## 49차 조사 반영 기록 (opencode, 2026-10-26)
+
+대상 기록: kr-harness/research/32-r49oc.md. TODO 1건(T1) 판정: 유지. 본문과 TODO 줄은 고치지 않았다.
+
+직접 다시 연 원문(2026-10-26, curl -m 30):
+- 지방법원 피드 https://www.courtlistener.com/docket/74661796/feed/ : updated 2026-10-23, 최신 항목 Entry #65 → minute entry 10-23 → #64. 48차와 같다.
+- 항소 피드 https://www.courtlistener.com/docket/74908049/feed/ : updated 2026-10-19, 최신 항목 #108525045. 48차와 같다.
+- v4 검색 type=oa https://www.courtlistener.com/api/rest/v4/search/?q=%2226-2112%22&type=oa : 「"count":0」. 구두변론 오디오는 찾지 못했다.
+- regulations.gov ICEB-2025-0001 최신순 https://api.regulations.gov/v4/documents?filter%5BdocketId%5D=ICEB-2025-0001&sort=-postedDate&page%5Bsize%5D=5&api_key=DEMO_KEY : 첫 문서 postedDate 2026-07-17(ICE Duration of Status RIA). 7-17 이후 새 문서는 찾지 못했다.
+- 연방관보 API(10-23 이후 「fixed time period of admission」) : 「"count":0」.
+
+반영하지 않은 것:
+- ECF 65-1(행정기록 색인)의 RECAP 공개는 #65 통지 이행일 뿐이라 본문에 넣지 않았다(48차에 #65 PDF 확인 기록 있음).
+- 제1순회 calendar.pdf 회복(10월 정기연, 26-2112 미수록)은 다시 열지 않았다. 구두변론 미지정은 기존 TODO 문구로 이미 다룬다.
+- 기록이 제안한 TODO 새 문구는 쓰지 않았다. 48차 이후 새 법원·규칙 항목이 없어 기존 줄을 둔다.
+- 기록 판정 「부분 해결」이지만 새 사실이 없어 「유지」로 적었다. 지어낸 출처는 찾지 못했다.
+- TODO 1건 → 1건. 배너 건수 1 유지.
