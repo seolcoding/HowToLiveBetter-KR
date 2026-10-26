@@ -1337,3 +1337,25 @@ opencode(GLM) 기록 `kr-harness/research/33-r50oc.md`를 반영했다. 판정�
 - URL: https://www.paju.go.kr/webcontent/ckeditor/2026/5/7/89e84f9e-77ff-4f2d-8367-fa65052f5c13.pdf ; https://ksun.suwon.go.kr/bbsplus/commonfile/downloads_new.asp?num=2271&code=tbl_bbs_dong_ipbuk&file_num=1 ; https://www.kead.or.kr/cmm/fms/downloadDirect.do?key=4D27BA9596FF91B24102 ; https://www.kead.or.kr/cmm/fms/downloadDirect.do?key=60F0EA7051F11EE45F34 ; https://www.gc.go.kr/portal/saeol/gosi/view.do?notAncmtMgtNo=39706&mId=1202180100
 
 - 자체 확인: `kr-fit.mjs 33 --check` → block 0 · warn 0 · 통과. 남은 TODO 3건(항목 15·18·19).
+
+## 51차 조사 반영 기록 (opencode, 2026-10-26)
+
+대상 기록: kr-harness/research/33-r51oc.md (opencode GLM). 기록 판정은 쓰지 않고 URL 후보로만 썼다.
+
+### T1. 성년후견 감정비·처리기간 — 유지(본문 변경 없음)
+- KCI 논문 상세 직접 확인(www.kci.go.kr, User-Agent 지정 시 열림; kci.go.kr 직접 요청은 차단 화면): 「통권 722호」, DOI 10.17007/klaj.2017.66.2.001, 발행기관 「법조협회」. 서지 정보뿐이고 71.7%·감정비·처리기간 수치는 원문을 열지 못해 확인하지 못했다. TODO를 풀지 못해 본문에 넣지 않았다.
+- 대구가정법원 새소식 「대구가정법원-대구의료원 업무협약 체결」(2017-06-13 체결) 본문: 「성년후견 사건의 사건본인에 대한 정신감정」 협력 취지뿐, 금액 문언 없음. 본문에 넣지 않았다.
+- 쓰지 않음: 부산가정법원 게시판·서울대병원 고지표(서브에이전트 확인만), e-나라지표(접속 실패).
+- URL: https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002221289 ; https://dgfamily.scourt.go.kr/dcboard/new/DcNewsViewAction.work?seqnum=305&gubun=41
+
+### T2. 가족형 특약의 감독의무자 몫 — 유지(본문 변경 없음)
+- 기록의 새 내용은 보험연구원 목록에서 agy가 든 문서를 찾지 못했다는 것과 금감원 통계 HWP 유형명 판독 실패, 메리츠화재 차단뿐이다. 쟁점에 답하는 문언이 아니라 본문에 넣지 않았다. 다시 열어 보지도 않았다.
+
+### T3. 손 조작장치 총비용과 지자체 지원 — 부분(TODO 유지)
+- 구미시 고시공고 원문(EUC-KR) 직접 확인: 「구미시 공고 제2026-781호」, 「2. 사업내용: 차량용 보조기기(승하차보조기기) 8종 구입 지원」, 「4. 지원금액: 1인 최대 10,000천원 지원(자부담 별도)」.
+- TODO 전→후: 「경북 사업은 승하차 보조기기 8종이다(국립재활원 2026년 안내 브로셔).」 뒤에 「구미시 2026년 공고(제2026-781호)도 승하차보조기기 8종이다. 1인 최대 1,000만원이고 자부담은 별도다(2026-10-26).」를 더했다.
+- 쓰지 않음: 중기부 1인 중증장애인기업 보조공학기기 사업(대상이 항목 15의 장애인 근로자와 다름), 김천 2차·경주 첨부 HWP(미개봉), 공단 신청포털 제품 안내(이전 차수와 같은 내용).
+- URL: https://www.gumi.go.kr/portal/saeol/gosi/view.do?mid=0401040000&notAncmtMgtNo=70578
+
+- 자체 확인: `kr-fit.mjs 33 --check` → block 0 · warn 0 · 통과. 남은 TODO 3건(항목 15·18·19).
+
