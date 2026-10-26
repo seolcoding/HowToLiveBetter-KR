@@ -535,3 +535,22 @@ opencode GLM 기록 `kr-harness/research/32-r48oc.md`를 URL 후보로만 썼다
 - 기록이 제안한 TODO 새 문구는 쓰지 않았다. 48차 이후 새 법원·규칙 항목이 없어 기존 줄을 둔다.
 - 기록 판정 「부분 해결」이지만 새 사실이 없어 「유지」로 적었다. 지어낸 출처는 찾지 못했다.
 - TODO 1건 → 1건. 배너 건수 1 유지.
+
+## 50차 조사 반영 기록 (opencode, 2026-10-26)
+
+대상 기록: kr-harness/research/32-r50oc.md. TODO 1건(T1) 판정: 유지. 본문과 TODO 줄은 고치지 않았다.
+
+직접 다시 연 원문(2026-10-26, curl -m 30):
+- 지방법원 피드 https://www.courtlistener.com/docket/74661796/feed/ : updated 2026-10-23, 최신 Entry #65 → 10-23 minute entry → #64. 49차와 같다.
+- 항소 피드 https://www.courtlistener.com/docket/74908049/feed/ : updated 2026-10-19, 최신 #108525045. 49차와 같다.
+- regulations.gov ICEB-2025-0001 최신순(DEMO_KEY) : 첫 문서 postedDate 2026-07-17(ICE Duration of Status RIA). 7-17 이후 새 문서는 찾지 못했다.
+- 연방관보 API 2026-14439 https://www.federalregister.gov/api/v1/documents/2026-14439.json : effective_on 2026-09-15, regulation_id_numbers 1653-AA95, corrections 빈 배열.
+- v4 RECAP 검색 q="fixed time period of admission" https://www.courtlistener.com/api/rest/v4/search/?q=%22fixed+time+period+of+admission%22&type=r : 「"count":7」. 그중 Trilleras Gomez v. Mullin(D.D.C. 1:26-cv-02364, 제소 2026-07-06)이 있다.
+- Trilleras 피드 https://www.courtlistener.com/docket/73578893/feed/ : updated 2026-09-14, 최신 Entry #15 → #14 → 09-04 minute entry.
+
+반영하지 않은 것:
+- Trilleras 사건은 J-1 의사 개인 소송이다. 09-14 가처분 기각도 49차 이전 날짜라 본 사건(F-1) 일정과 무관하다. 항목 2 본문에 넣지 않았다. ECF 8-1 PDF는 이번에 다시 열지 않았다.
+- reginfo.gov 통합규제계획 미게재, govinfo USCOURTS 공개, v4 opinion 0건은 본문 사실을 바꾸지 않아 넣지 않았다.
+- 기록이 제안한 TODO 새 문구는 쓰지 않았다. 49차 이후 새 법원·규칙 항목이 없어 기존 줄을 둔다.
+- 기록 판정 「부분 해결」이지만 새 사실이 없어 「유지」로 적었다. 지어낸 출처는 찾지 못했다.
+- TODO 1건 → 1건. 배너 건수 1 유지.
