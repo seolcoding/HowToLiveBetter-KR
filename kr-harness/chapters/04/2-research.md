@@ -304,3 +304,15 @@ agy 기록(kr-harness/research/04.md)의 URL과 수치를 직접 열어 대조�
   - 미국심리학회(APS) 보도자료: 기록에 URL·인용문이 없어 확인할 수 없다.
 - 지어낸 것: 새 출처 가운데 실재하지 않는 것은 찾지 못했다. 「유일한 공개 재현 연구」「합법적 공개 경로가 전무」는 부재·유일 단정이라 쓰지 않는다.
 - 자체 확인: `kr-fit.mjs 04 --check` → block 0 · warn 0 · 통과. 남은 TODO 1건(제7항).
+
+
+## 48차 조사 반영 기록 (2026-10-26, opencode)
+
+입력: `kr-harness/research/04-r48oc.md`(opencode GLM). TODO 1건(제7항) — **유지**. 본문(TODO 줄 포함)은 고치지 않았다.
+
+- 기록의 판정은 「미해결」, 제안도 TODO 유지다. 원문으로 확인해도 K&E(2004) 실험별 수치는 나오지 않았다.
+- 새 경로 두 개를 직접 열었다(2026-10-26).
+  - ScienceDirect 초록 https://www.sciencedirect.com/science/article/abs/pii/S002210310300177X : curl은 403(봇 차단 화면)이었다. 기록이 든 초록 문장(「Participants prompted to unpack …」)은 이번에도 원문에서 확인하지 못했다. 쓰지 않는다.
+  - Semantic Scholar 인용 문맥 API(…/citations?fields=title,contexts&limit=100, offset=0과 offset=100): 둘 다 200. 첫 100건 문맥 103개, 나머지 78건 문맥 95개를 받았다. 「Kruger」가 든 문맥에 실험별 일수·분·백분율은 없었다. 숫자는 연도·쪽수(p. 587)·실험 번호뿐이다. 모두 재인용이라 근거로 쓰지 않는다.
+- 기록이 남긴 실마리(Simula PDF, yumpu·SlideShare 사본)는 구체 URL이 404이거나 없어 열지 않았다. Halkjelsvik & Jørgensen(2012) 비공개는 46차에 OpenAlex로 확인했다.
+- 자체 확인: `kr-fit.mjs 04 --check` → block 0 · warn 0 · 통과. 남은 TODO 1건(제7항).
