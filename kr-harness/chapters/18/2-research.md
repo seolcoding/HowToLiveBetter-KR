@@ -815,3 +815,30 @@ opencode GLM 기록 `kr-harness/research/18-r49oc.md`를 원문 URL 후보 목�
 
 - TODO 3건 → 3건.
 - `node .claude/skills/kr-verify/scripts/kr-fit.mjs 18 --check` → block 0 · warn 0 · 통과.
+
+## 50차 조사 반영 기록 (2026-10-26, opencode)
+
+opencode GLM 기록 `kr-harness/research/18-r50oc.md`를 원문 URL 후보 목록으로만 썼다.
+기록은 해결 0·부분 2·미해결 1이다. 새 1차 사실이 없어 본문과 TODO 줄을 고치지 않았다.
+받은 파일은 `$TEMP/kr18r50oc`에만 있다.
+
+### T1 첫만남이용권의 기초생활보장 처리 — 유지
+
+- 행정심판례 decc 154395를 직접 열었다(https://www.law.go.kr/DRF/lawService.do?OC=test&target=decc&ID=154395&type=XML).
+  기초생활보장급여변경(중지)처분 취소청구를 각하한 2011년 재결이다.
+  원문에 「첫만남」「일시금」「아동수당」「부모급여」는 0회다. 첫만남 처리와 무관해 넣지 않았다.
+- 행정심판례·판례 사건명 0건, 2027년 사업안내 미발간은 검색 범위 보고라 넣지 않았다.
+
+### T2 세 급여의 소득세 — 유지
+
+- 「영아양육수당」「영아수당」 0건은 검색 범위 보고다.
+- 사전-2020-법령해석소득-0127은 기록 스스로 자녀세액공제 해석이고 비과세 판단이 아니라고 적었다. 열지 않았고 넣지 않았다.
+- 국회 회의록 2건은 49차에 이미 반영했다.
+
+### T3 2027년 출산전후휴가 급여 상한 — 유지
+
+- 후임 고시·행정예고를 찾지 못했다는 보고(DRF 1건, 국민참여입법센터 고용노동부 예고 1건)는 46·49차와 같은 부재 보고다.
+- 예산 게시판 주소가 budgetList.do로 바뀌었다는 관찰은 본문 출처와 무관하다.
+
+- TODO 3건 → 3건.
+- `node .claude/skills/kr-verify/scripts/kr-fit.mjs 18 --check` → block 0 · warn 0 · 통과.

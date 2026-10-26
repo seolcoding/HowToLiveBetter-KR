@@ -1193,3 +1193,33 @@ PDF 글자는 ext.mjs(pdfjs-dist, CMap)로 뽑았다.
 - 지어낸 것: 확인한 범위에서는 없음.
 - `kr-fit.mjs 13 --check` → block 0 · warn 0 → 통과. 본문 해시가 바뀌어 kr-fit-review 재검토가 필요하다.
 - 다운로드는 $TEMP/kr13r49에 두었다.
+
+
+## 50차 조사 반영 기록 (2026-10-26)
+
+입력: `kr-harness/research/13-r50oc.md`(opencode GLM, 판정 부분 해결 3건). 기록은 URL 후보로만 썼다. 새 출처 셋을 원문으로 열었으나 TODO를 줄이지 못했다. 본문(TODO 줄 포함)은 고치지 않았다. TODO 3건 그대로다.
+
+### T1 PEP 본인 부담 — 유지
+- 새 출처 PHWR 2025;18(Suppl 50) 국가 HIV/AIDS 예방관리사업 소개 논문 PDF를 받았다(curl --http1.1 네 번째 시도에 받힘, 190쪽 합본). pdftotext로는 영문만 나오고 한글이 빠진다.
+- 기록의 PrEP 인용은 원문 S92쪽에 있다. 「partial coverage of PrEP medication costs (i.e., all costs excluding a 60,000 KRW co-payment per month)」.
+- 영문 텍스트에서 「PEP」「post-exposure」는 0건이었다. 한글 본문은 추출되지 않아 「논문 전체에서 PEP 언급 0회」는 확인하지 못했다.
+- 반영하지 않은 이유: PrEP(노출 전) 지원 내용이라 PEP 청구 방식을 판정하지 않는다(48차와 같은 판단). 「PEP 지원이 나오지 않는다」는 부재 문장은 한글 본문을 못 봐 쓰지 않았다.
+- 국민건강지식센터 성폭력 안내, 분당서울대병원 비급여항목안내는 기록상으로도 비용·HIV 약 항목이 없다. 남은 쟁점을 줄이지 못해 열지 않았다.
+- 확인 URL: https://www.phwr.org/journal/download_pdf.php?doi=10.56786/PHWR.2025.18.50suppl.6
+
+### T2 일산화탄소 전국 사망자 — 유지
+- 사망원인통계연보 엑셀 2023년권(SEQ=114, 16.xlsx)과 2020년권(SEQ=111, 13.xlsx)을 받아 압축을 풀고 sharedStrings와 시트 XML을 검색했다.
+- 두 권 모두 중독 관련 항목은 「X40-X49」「X40-X44」「X45-X49」뿐이다. 「유독성 물질에 의한 불의의 중독 및」 셀이 있다. 「일산화」는 0건이다. 시트의 「X47」은 셀 주소(r="X47")뿐이었다.
+- 반영하지 않은 이유: 21차의 KOSIS 237항목 표(DT_1B34E07)와 같은 결론이다. 남은 쟁점(2021년 이전과 2024년 이후 사고 사망 수)을 줄이지 못한다. 연권 표기는 기록을 따랐고 따로 확인하지 않았다.
+- WHO 원자료 갱신일, 급성심장정지조사 첨부는 기록도 새 내용을 내지 못했다(49차와 같음).
+- 확인 URL: https://kosis.kr/upsHtml/online/downSrvcFile.do?PUBCODE=YD&SEQ=114&FILE_NAME=16.xlsx · https://kosis.kr/upsHtml/online/downSrvcFile.do?PUBCODE=YD&SEQ=111&FILE_NAME=13.xlsx
+
+### T3 지혈대 실습 일반인 과정 — 유지
+- 다솜에듀 센터 교육안내를 열었다. 기록의 인용은 원문과 같다. 「골든타임 국제공인 EFR-I 강사 자격증 과정 (대학생·직장인·강사 지망생 추천 프로그램)」, 「8시간 (전문가 양성 과정)」, 「… 붕대법·부목법, 지혈대, AED 관리 방법, 이론 실습 7:3 비율」, 「75만원」. 5시간 EFR 과정(22만원) 행에는 지혈대가 없다.
+- 반영하지 않은 이유: 사설 업체의 판매 페이지라 광고에 가깝다(APPLY-NOTES 2항). 일반인 과정이 아니라 강사 양성 과정이다. 「지혈대」가 교육 내용 나열 속 품목이라 실습 여부를 가를 수 없다. 「국제공인」 실체도 이 페이지로 확인되지 않는다.
+- 확인 URL: https://www.dasomedu.or.kr/Center_edu
+
+- 지어낸 것: 확인한 범위에서는 없음. 단 T1 「논문 전체 PEP 0회」는 한글 본문 미확인이라 검증 불가.
+- 본문(TODO 줄 포함) 변경 없음. 해시가 그대로라 kr-fit-review 재검토는 필요 없다.
+- `kr-fit.mjs 13 --check` → block 0 · warn 0 → 통과.
+- 다운로드는 $TEMP/kr13r50에 두었다.
