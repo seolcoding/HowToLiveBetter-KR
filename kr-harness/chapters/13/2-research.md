@@ -1252,3 +1252,49 @@ PDF 글자는 ext.mjs(pdfjs-dist, CMap)로 뽑았다.
 - 지어낸 것: 확인한 범위에서는 없음.
 - `kr-fit.mjs 13 --check` → block 0 · warn 0 → 통과. 본문 해시가 바뀌어 kr-fit-review 재검토가 필요하다.
 - 다운로드는 $TEMP/kr13r51에 두었다.
+
+
+## 53차 조사 반영 기록 (2026-10-27)
+
+입력: `kr-harness/research/13-r53cc.md`(Claude Code 서브에이전트, 부분 2·미해결 1). 원문을 curl로 다시 열어 확인한 것만 넣었다. TODO 3건은 그대로 두고 T1·T2 줄에 53차 내용을 덧붙였다.
+
+### T1 PEP 본인 부담 — 부분(쟁점 유지)
+- 고시 제2020-140호 DRF XML: 발령번호 2020-140, 현행여부 Y, 시행일자 20200701.
+- 제3조①: 「약제의 허가초과 사용승인을 신청할 수 있는 요양기관은 약사법령에 따라 지정된 의약품임상시험실시기관으로 한다.」 제4조②: IRB 심사를 거쳐 「심사일로부터 15일 이내에 심평원장에게 … 승인을 신청하여야 한다」. 같은 항 단서에 신청기관 확대 약제의 예외가 있다.
+- 본문 제38항은 바꾸지 않았다. TODO 줄 끝에 더함: 「2026-10-27(53차): 고시 제2020-140호 제3조①·제4조②를 확인했다. 허가초과 비급여 사용승인은 의약품임상시험실시기관이 IRB 심사 뒤 심평원에 신청한다. PEP 승인 목록과 실제 금액은 찾지 못했다.」
+- 확인 URL: https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000191300&type=XML
+
+### T2 일산화탄소 전국 사망자 — 부분(쟁점 유지)
+- 2016판 X40-X49 하위: 「"ID":"X47","label":"X47 Accidental poisoning by and exposure to other gases and vapours","isLeaf":true」.
+- 2019판 X47 하위: X47.0~X47.3 등 「carbon monoxide from …」 항목이 나온다.
+- 2016판 제20장: 「Place of occurrence code The following categories are provided to to be used as separate variables in addition to ICD categories W00-Y34」, 「4 Street and highway」.
+- 원문이 장소 코드를 「separate variables」라고 하므로 「넷째 자리가 장소 코드다」로 단정하지 않았다. 2020년 X474 62명은 넣지 않았다.
+- 제19항 비고(전→후): 「2013~2019년 원자료는 X47 넷째 자리가 옛 분류입니다. 2019판에 없는 X47.5~X47.7이 섞여 있습니다.」 → 「WHO 분류 2016판까지는 X47이 하위 항목 없는 끝 항목입니다. 이 판은 발생 장소를 숫자 코드로 따로 둡니다(4는 도로). 2013~2019년 원자료에는 2019판에 없는 X47.5~X47.7이 섞여 있습니다.」 출처에 2016판 두 URL을 더했다.
+- TODO 줄 끝에 더함: 「2026-10-27(53차): WHO 2016판 X47은 하위 항목 없는 끝 항목이고, 발생장소 코드 4는 도로다(제19항 비고). 2020년 원자료는 KCD-7 원문으로 코드 뜻을 확인하기 전에는 쓰지 않는다.」
+- 확인 URL: https://icd.who.int/browse10/2016/en/JsonGetChildrenConcepts?ConceptId=X40-X49&useHtml=false · https://icd.who.int/browse10/2016/en/GetConcept?ConceptId=XX · https://icd.who.int/browse10/2019/en/JsonGetChildrenConcepts?ConceptId=X47&useHtml=false
+
+### T3 지혈대 실습 일반인 과정 — 유지
+- 새 1차 사실이 없어 본문과 TODO 줄을 고치지 않았다.
+
+- `kr-fit.mjs 13 --check` → block 0 · warn 0 → 통과. 본문 해시가 바뀌어 kr-fit-review 재검토가 필요하다.
+- 다운로드는 $TEMP(xx16.html, adm2020140.xml)에 두었다.
+
+
+## 53차(codex) 조사 반영 기록 (2026-10-28)
+
+입력: `kr-harness/research/13-r53cx.md`(codex terra, 부분 2·미해결 1). 원문을 직접 받아 대조한 것만 넣었다.
+
+### T1 PEP 본인 부담 — 유지
+- 기록의 동구청 지침서는 직원 직업적 노출 관리 절차다. 일반인 비용 근거가 아니라서 본문과 TODO를 고치지 않았다.
+
+### T2 일산화탄소 전국 사망자 — 부분(쟁점 유지)
+- PDF를 curl(UA·Referer 지정)로 $TEMP/kr13r53/r.pdf에 받았다(7,905,407바이트, 129쪽). pdftotext로 한글이 정상 추출됐다.
+- PDF 21~22쪽(인쇄 18~19쪽)과 27쪽에 같은 표가 있다. 원문: 「2021년 제8차 개정 한국표준질병사인분류 사망 제표 일부 변경」, 「제8차 개정에서는 한국표준질병사인분류(KCD 7차)의 기타 명시된 간질환 및 가스중독 등 사망제표 일부 변경」, KCD-7 칸 「X47, X67, X88, Y17 가스중독」 → KCD-8 칸 「코드 세분화 .0 연소기관 배기가스 일산화탄소 .1 연료가스 일산화탄소 .2 가정용 연료 일산화탄소 .3 기타 원료 일산화탄소 .4 상세불명 원료의 일산화탄소 .8 기타 명시된 가스 및 휘발성물질 .9 상세불명의 가스 및 휘발성 물질」. 기록의 인용과 일치한다.
+- 제19항 비고(전→후): 「2023년은 63명이었습니다.」 뒤에 「통계청 사망원인통계 보고서(2022.12)도 봤습니다. 한국은 2021년 KCD 8차 개정부터 가스중독 코드를 세분했습니다. 새 코드 .0~.4가 일산화탄소입니다. 그래서 위 수치는 2021년부터만 썼습니다.」를 더했다. 출처에 이 보고서를 더했다. 2020년 X474 62명은 여전히 쓰지 않았다.
+- TODO 줄 끝에 53차 codex 반영 한 줄을 더했다. 2020년 코드 체계와 2024년 이후 수치는 남은 쟁점이다.
+- 확인 URL: https://mods.go.kr/boardDownload.es?bid=12030&list_no=428782&seq=1
+
+### T3 지혈대 실습 일반인 과정 — 유지
+- 춘해보건대 진로체험은 고등학생 학교·학급 단위 신청 과정이다. 성인 일반인이 신청할 수 없어 본문과 TODO 줄에 넣지 않았다.
+
+- `kr-fit.mjs 13 --check` → block 0 · warn 0 → 통과. 본문 해시가 바뀌어 kr-fit-review 재검토가 필요하다.
