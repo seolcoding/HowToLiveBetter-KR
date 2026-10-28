@@ -1432,3 +1432,6 @@ opencode(GLM) 기록 `kr-harness/research/33-r50oc.md`를 반영했다. 판정�
 
 - 자체 확인: `kr-fit.mjs 33 --check` → block 0 · warn 0 · 통과. 남은 TODO 3건(항목 15·18·19).
 
+
+## 58차 반영 (2026-10-28)
+- TODO(가족형 특약 감독의무자 책임) 줄에 AXA손해보험 생활안심종합보험Ⅱ(2501) 가족일상생활배상책임 특약 제2조 제2항 제7호 「피보험자의 심신상실로 인한 배상책임」 면책을 추가했다. 약관 PDF(https://www.axa.co.kr/AsianPlatformInternet/doc/internet/public/Home_comprehensive_provision2501_250911.pdf)를 직접 내려받아 특약 2-6 안의 문구와 표지 적용일 2025-09-01을 확인했다. 본문·이득·비고는 그대로다. 출처: kr-harness/research/33-r58cx.md T2.
